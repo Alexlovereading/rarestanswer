@@ -195,7 +195,19 @@ function buildLastmodMap(
   return map;
 }
 
-const siteOrigin = process.env.SITE_URL || 'https://anvil.wiki';
+/** Local `pnpm build` does not inject Cloudflare [vars]. Pages does. Read the
+ *  same SITE_URL wrangler.toml is the source of truth for, then keep the
+ *  historical demo origin only when neither is set. */
+function readWranglerSiteUrl(): string | undefined {
+  try {
+    const src = fs.readFileSync(new URL('./wrangler.toml', import.meta.url), 'utf8');
+    return src.match(/^SITE_URL\s*=\s*"([^"]+)"/m)?.[1] || undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+const siteOrigin = process.env.SITE_URL || readWranglerSiteUrl() || 'https://anvil.wiki';
 
 // trailingSlash:'always' makes every generated URL end with "/", but the
 // lookup tables above (lastmodMap / noindexPaths / coverage keys) are built
@@ -278,7 +290,7 @@ function alternatesFor(pagePath: string): Array<{ lang: string; url: string }> |
 
 // https://astro.build/config
 export default defineConfig({
-  site: process.env.SITE_URL || 'https://anvil.wiki',
+  site: siteOrigin,
   output: 'static',
   // Astro 7 flipped the default from true to 'jsx', which strips whitespace
   // between adjacent inline elements ("word" + "word" can render joined).

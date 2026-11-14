@@ -14,6 +14,13 @@ import {
 import { fallbackDetailPaths } from '~/lib/fallback-paths';
 import { site } from '~/config/site';
 import { authors } from '~/config/authors';
+import type { Locale } from '~/i18n/routing';
+
+// Routing is English-only. The string still exercises the non-default prefix.
+function asLocale(code: string): Locale {
+  return code as Locale;
+}
+const ja = asLocale('ja');
 
 /** Repo-root-relative source text (contract-test helper, handbook.test.ts style). */
 const src = (rel: string) => readFileSync(fileURLToPath(new URL(`../${rel}`, import.meta.url)), 'utf8');
@@ -116,7 +123,7 @@ describe('SEO helpers', () => {
         categoryLabel: 'ボス一覧',
         title: 'エンバーファング攻略',
         slug: 'emberfang',
-        locale: 'ja',
+        locale: ja,
       });
       expect(json.itemListElement[0].item).toMatch(/\/ja\/$/);
     });
@@ -124,7 +131,7 @@ describe('SEO helpers', () => {
 
   describe('simpleBreadcrumbJsonLd', () => {
     it('emits the Home item with a trailing slash for every locale', () => {
-      for (const locale of ['en', 'ja'] as const) {
+      for (const locale of ['en', ja] as const) {
         const json = simpleBreadcrumbJsonLd({
           pageLabel: 'All Bosses',
           path: '/bosses/',
@@ -182,8 +189,8 @@ describe('SEO helpers', () => {
     });
 
     it('skips the suffix when the title already carries the game name', () => {
-      const t = pageTitle('Anvil Quest Boss Guide');
-      expect(t).toBe('Anvil Quest Boss Guide');
+      const titled = `${site.game.name} guide`;
+      expect(pageTitle(titled)).toBe(titled);
     });
 
     it('switches to the short suffix for long titles (>50 chars)', () => {

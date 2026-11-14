@@ -1,6 +1,13 @@
 import { describe, it, expect } from 'vitest';
 import { videoObjectJsonLd, urlListJsonLd, imageObjectJsonLd } from '~/lib/seo';
 import { slugifyTag, tagPath, tagsPath, recentPath } from '~/lib/url';
+import type { Locale } from '~/i18n/routing';
+
+// Routing is English-only. The string still exercises the non-default prefix.
+function asLocale(code: string): Locale {
+  return code as Locale;
+}
+const ja = asLocale('ja');
 
 describe('slugifyTag', () => {
   it('lowercases and hyphenates whitespace', () => {
@@ -31,9 +38,9 @@ describe('tag/recent URL helpers', () => {
     expect(recentPath('en')).toBe('/recent/');
   });
   it('prefixes non-default locales', () => {
-    expect(tagsPath('ja')).toBe('/ja/tags/');
-    expect(tagPath('fire-boss', 'ja')).toBe('/ja/tags/fire-boss/');
-    expect(recentPath('ja')).toBe('/ja/recent/');
+    expect(tagsPath(ja)).toBe('/ja/tags/');
+    expect(tagPath('fire-boss', ja)).toBe('/ja/tags/fire-boss/');
+    expect(recentPath(ja)).toBe('/ja/recent/');
   });
 });
 
