@@ -11,6 +11,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { getCollection } from 'astro:content';
 import { site, siteUrl } from '~/config/site';
+import { contactEmail } from '~/lib/contact-email';
 import { parseEntryId } from '~/lib/content';
 import { newestFirst } from '~/lib/content-utils';
 import { defaultLocale } from '~/i18n/routing';
@@ -174,7 +175,7 @@ export const GET: APIRoute = async () => {
     '',
     `- [About](${siteUrl}/about/): What the game is, how tiers score, and the non-affiliation notice.`,
     `- [FAQ](${siteUrl}/faq/): Daily rounds, localStorage stats, data sources, ads, and contact.`,
-    `- [Contact](${siteUrl}/contact/): Email contact@rarestanswer.com. No account.`,
+    `- [Contact](${siteUrl}/contact/): Email ${contactEmail()}. No account.`,
     `- [Privacy policy](${siteUrl}/privacy-policy/): localStorage, Wikidata, Wikipedia pageviews, and env-gated analytics, ads, and comments.`,
     `- [Terms of service](${siteUrl}/terms-of-service/): Rules of use, score accuracy, and trademarks.`,
     `- [Copyright](${siteUrl}/copyright/): Original text, the MIT software license, CC0 Wikidata, and takedown contact.`,

@@ -245,11 +245,11 @@ step('Assert output shape');
 for (const p of ['src/config/landing.ts', 'src/config/landing-types.ts', 'src/config/landing-shared.ts', 'src/config/landing-en.ts', 'src/config/landing-zh.ts', 'src/config/landing-templates.ts', 'src/components/landing', 'src/pages/landing.astro', 'src/pages/landing', 'src/pages/zh/landing.astro', 'src/pages/zh/landing', 'src/pages/landing/tutorials.astro', 'src/pages/landing/tutorials', 'src/pages/zh/landing/tutorials.astro', 'src/pages/zh/landing/tutorials', 'src/content/tutorials', 'src/pages/demo.astro', 'public/_redirects', 'public/images/showcase', 'public/images/wechat-qr.jpg']) {
   if (existsSync(join(scratch, p))) fail(`landing path still present after removal: ${p}`);
 }
-// Positive tripwire for the demo root gateway: index.astro statically imports
-// this component, so it must SURVIVE every deletion channel — if it ever goes
-// missing here, the fork build below would fail to resolve the import (P0).
+// Positive tripwire: RootGateway.astro must SURVIVE every deletion channel.
+// This site's index.astro does not import it. The survive pin still requires
+// the file to remain (never list it in LANDING_PATHS/setup.yml).
 if (!existsSync(join(scratch, 'src/components/RootGateway.astro'))) {
-  fail('src/components/RootGateway.astro was deleted — index.astro statically imports it at build time, the fork build would fail to resolve the import (never list it in LANDING_PATHS/setup.yml)');
+  fail('src/components/RootGateway.astro was deleted — the survive pin requires it to stay (never list it in LANDING_PATHS/setup.yml)');
 }
 // Upstream's own search-console token must not ride along into forks
 // (DEMO_PUBLIC_FILES, cleared by clearDemoAssets). Vacuous until the file is

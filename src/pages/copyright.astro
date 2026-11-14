@@ -2,8 +2,9 @@
 import LegalPage from '~/components/layout/LegalPage.astro';
 import { defaultLocale } from '~/i18n/routing';
 import { site } from '~/config/site';
+import { contactEmail } from '~/lib/contact-email';
 
-const email = 'contact@rarestanswer.com';
+const email = contactEmail();
 const year = new Date().getFullYear();
 ---
 

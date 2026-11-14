@@ -16,7 +16,8 @@ import { getUi } from '~/i18n/ui';
 import { getEntriesByCategory, parseEntryId } from '~/lib/content';
 import { toDealMerchants } from '~/lib/content-utils';
 import { itemListJsonLd, pageTitle, simpleBreadcrumbJsonLd } from '~/lib/seo';
-import { detailPath, homeUrl, listPath } from '~/lib/url';
+import { CATEGORY_PAGES } from '~/lib/game/category-copy';
+import { detailPath, homeUrl, listPath, localizePath } from '~/lib/url';
 
 interface Props {
   locale: Locale;
@@ -53,6 +54,21 @@ const merchants = toDealMerchants(entries).map((m) => ({
   href: detailPath(category, m.slug, locale),
   codes: m.codes,
 }));
+
+const exploreLinks =
+  category === 'games' || category === 'guides'
+    ? [
+        { href: homeUrl(locale), label: nav.play ?? 'Play' },
+        { href: localizePath('/unlimited/', locale), label: nav.unlimited ?? 'Unlimited' },
+        {
+          href: localizePath('/rarest-answers/', locale),
+          label: nav.rarestAnswers ?? 'Rarest Answers',
+        },
+        { href: localizePath('/trivia/animals/', locale), label: CATEGORY_PAGES.animals.h1 },
+        { href: localizePath('/games/', locale), label: nav.games ?? 'Games' },
+        { href: localizePath('/guides/', locale), label: nav.guides ?? 'Guides' },
+      ].filter((link) => link.href.replace(/\/$/, '') !== listPath(category, locale).replace(/\/$/, ''))
+    : [];
 
 const jsonLd = [
   // Empty ItemList (itemListElement: []) is invalid structured data — only
@@ -136,6 +152,25 @@ const jsonLd = [
             );
           })}
         </div>
+      )
+    }
+    {
+      exploreLinks.length > 0 && (
+        <nav aria-label={shared.keepExploring}>
+          <h2 class="text-xl font-bold tracking-tight">{shared.keepExploring}</h2>
+          <ul class="mt-3 grid list-none gap-2 p-0 sm:grid-cols-2">
+            {exploreLinks.map((link) => (
+              <li>
+                <a
+                  href={link.href}
+                  class="block rounded-lg border bg-card px-4 py-3 text-sm font-medium text-nav hover:border-nav"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
       )
     }
   </div>

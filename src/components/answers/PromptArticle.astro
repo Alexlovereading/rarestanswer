@@ -14,7 +14,7 @@ import {
 } from './prompts';
 import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
-import { homeUrl } from '~/lib/url';
+import { homeUrl, localizePath } from '~/lib/url';
 
 interface Props {
   prompt: PromptSeo;
@@ -74,6 +74,8 @@ const pagefindTitle = prompt.heading.replace(/:/g, ' -');
         <Icon name="lucide:list" class="h-4 w-4" aria-hidden="true" />
         {label} trivia
       </a>
+      <a class="btn-outline gap-2" href={localizePath('/games/', defaultLocale)}>{ui.nav.games}</a>
+      <a class="btn-outline gap-2" href={localizePath('/guides/', defaultLocale)}>{ui.nav.guides}</a>
     </div>
   </section>
 

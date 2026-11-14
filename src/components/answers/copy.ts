@@ -337,12 +337,15 @@ function buildDescription(
   nounPhrase: string,
   species: string | null,
   count: number,
+  seoNoun?: string,
 ): string {
-  const extra = species ? ` (${count} ${species})` : '';
-  const answers = count === 1 ? 'answer' : 'answers';
-  return capMeta(
-    `${rareName} is the rarest ${nounPhrase} in this ranking${extra}. All ${count} ${answers} ranked by rarity.`,
-  );
+  const plural = pluralPhrase(nounPhrase);
+  const group = species ?? (count === 1 ? nounPhrase : plural);
+  const base = `${count} ${group}: ${rareName} is the rarest ${nounPhrase} in this ranking.`;
+  const noun = seoNoun?.trim();
+  const withNoun =
+    noun && !base.toLowerCase().includes(noun.toLowerCase()) ? `${noun}. ${base}` : base;
+  return capMeta(withNoun);
 }
 
 function buildIntro(
@@ -472,7 +475,7 @@ export function derivePromptSeo(input: PromptInput): PromptSeo {
     nounPhrase,
     heading,
     crumb: `Rarest ${nounTitle}`,
-    description: buildDescription(rare.name, nounPhrase, species, answers.length),
+    description: buildDescription(rare.name, nounPhrase, species, answers.length, input.seoNoun),
     intro: buildIntro(input.question, nounPhrase, species, input.source, answers),
     viewsNote: buildViewsNote(input.source),
     sourceNote: buildSourceNote(input.source, hasWiki),

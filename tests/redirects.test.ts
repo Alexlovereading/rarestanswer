@@ -7,8 +7,9 @@ import { expect, test } from 'vitest';
  * slug renames, /zh and /en guesses, root → /zh/landing/). This fork removed
  * that file with the landing layer. What is still live is the removal
  * machinery: apply-template and setup.yml must keep listing the file and
- * src/pages/demo.astro, and must never list RootGateway.astro (index.astro
- * imports it). project.ts still carries the dead demoRootGateway constant.
+ * src/pages/demo.astro, and must never list RootGateway.astro. This site's
+ * index.astro does not import that component; the survive pin still forbids
+ * deleting it. project.ts still carries the dead demoRootGateway constant.
  */
 const repoRoot = fileURLToPath(new URL('..', import.meta.url));
 
@@ -39,9 +40,9 @@ test('fork initialization deletes src/pages/demo.astro on both channels — and 
   const demoStep = yml.split('\n').find((line) => line.includes('scripts/clear-demo-public.ts'));
   expect(demoStep).not.toContain('src/pages/demo.astro');
 
-  // Survive pin: RootGateway.astro must NEVER enter a deletion channel —
-  // index.astro statically imports it, so listing it makes the fork's build
-  // fail at module resolution.
+  // Survive pin: RootGateway.astro must NEVER enter a deletion channel.
+  // This site's index.astro no longer imports it; the pin still keeps the
+  // file out of both removal lists.
   expect(cli).not.toMatch(/'src\/components\/RootGateway\.astro'/);
   expect(landingStep).not.toContain('src/components/RootGateway.astro');
 });

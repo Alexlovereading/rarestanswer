@@ -4,6 +4,7 @@
  * Renders different content based on the `page` prop. English only (per PRD).
  */
 import { site } from '~/config/site';
+import { contactEmail } from '~/lib/contact-email';
 
 interface Props {
   page: 'about' | 'privacy-policy' | 'terms-of-service' | 'copyright' | 'contact';
@@ -14,6 +15,7 @@ const year = new Date().getFullYear();
 const officialHref = site.social.official?.replace(/\/$/, '') ?? '';
 const officialIsSelf =
   officialHref === `https://${site.domain}` || officialHref === `http://${site.domain}`;
+const email = contactEmail();
 ---
 
 {
@@ -43,13 +45,7 @@ const officialIsSelf =
       </p>
       <h2>Contact</h2>
       <p>
-        {site.contactEmail ? (
-          <>
-            Email <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.
-          </>
-        ) : (
-          <>No separate contact email is published on this site.</>
-        )}
+        Email <a href={`mailto:${email}`}>{email}</a>.
       </p>
     </>
   )
@@ -180,17 +176,8 @@ const officialIsSelf =
       <p>
         If you believe content on this site infringes your copyright, send a description of the
         material and where it appears
-        {site.contactEmail ? (
-          <>
-            {' '}
-            to <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.
-          </>
-        ) : (
-          <>
-            . No separate email is published yet — use the{' '}
-            <a href="/contact/">contact page</a>.
-          </>
-        )}
+        {' '}
+        to <a href={`mailto:${email}`}>{email}</a>.
       </p>
     </>
   )
@@ -203,11 +190,9 @@ const officialIsSelf =
       <h2>Contact {site.name}</h2>
       <p>{site.name} is a free daily trivia game and the guides published with it.</p>
       <ul>
-        {site.contactEmail && (
-          <li>
-            <strong>Email:</strong> <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
-          </li>
-        )}
+        <li>
+          <strong>Email:</strong> <a href={`mailto:${email}`}>{email}</a>
+        </li>
         {officialHref && (
           <li>
             <strong>{officialIsSelf ? 'Site' : 'Official site'}:</strong>{' '}
@@ -241,7 +226,6 @@ const officialIsSelf =
           </li>
         )}
       </ul>
-      {!site.contactEmail && <p>No separate contact email is published on this site.</p>}
       <h2>Copyright requests</h2>
       <p>
         For takedown requests, see the <a href="/copyright/">Copyright page</a>.

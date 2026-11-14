@@ -676,11 +676,9 @@ const LANDING_PATHS = [
 ];
 // ⚠️ NEVER add src/components/RootGateway.astro to this list (unquoted here
 // on purpose — the survive pin in tests/redirects.test.ts greps for the
-// quoted form) — src/pages/index.astro statically imports it, so build-time
-// module resolution runs even with landingLinkEnabled=false; deleting it
-// makes the fork's build fail to resolve the import. Same for the setup.yml
-// rm line. Pinned by the survive pins in tests/redirects.test.ts and the e2e
-// positive tripwire.
+// quoted form). This site's index.astro does not import it. The file still
+// stays out of LANDING_PATHS and the setup.yml rm line because the survive
+// pins require it. Same for the e2e positive tripwire.
 //
 // ⚠️ NEVER add src/lib/landing-tutorials.ts either — deliberate SURVIVE file:
 // tests/tutorials.test.ts and tests/landing-paths.test.ts statically import

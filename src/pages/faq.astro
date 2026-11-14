@@ -13,10 +13,11 @@ import { faqPageJsonLd, simpleBreadcrumbJsonLd } from '~/lib/seo';
 import { localizePath, languageAlternates } from '~/lib/url';
 import { TIERS } from '~/lib/game/types';
 import { site } from '~/config/site';
+import { contactEmail } from '~/lib/contact-email';
 
 const locale = defaultLocale;
 const ui = getUi(locale);
-const email = 'contact@rarestanswer.com';
+const email = contactEmail();
 const tierList = TIERS.map((tier) => `${tier.name} ${tier.points}`).join(', ');
 const faqPath = localizePath('/faq', locale);
 const alternates = languageAlternates((loc) => localizePath('/faq', loc), locales);

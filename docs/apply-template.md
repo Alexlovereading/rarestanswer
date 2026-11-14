@@ -51,7 +51,7 @@
 | IndexNow 站点 key | 仓库根 `.indexnow-key` | 首次真实运行自动生成 64 位十六进制 key；重跑原样复用。key 按 IndexNow 协议本来就会公开为 `/<key>.txt`，不是 secret；build 和自动提交共同读取它，免 Cloudflare/GitHub 双份环境变量配置 |
 | demo 作者 | `src/config/authors.ts` 里 `// DEMO` 标记的作者条目 | 否则 Person JSON-LD 会引用虚构作者 |
 
-**保留不删（有意设计）**：favicon/hero 图等二进制资产（CLI 生成不了，脚手架下一步指引你手动换）；`docs/handbook/` 手册源码；`src/components/RootGateway.astro`（根网关影子页组件）与 `src/config/project.ts` 的 `demoRootGateway` 常量——它们是 `landingLinkEnabled` 门控下的死代码，**有意不进删除清单**：`src/pages/index.astro` 静态 import 该组件，删除会让 fork 构建期 resolve 失败；fork 构建永不渲染它，与 project.ts 死常量同契约（`tests/redirects.test.ts` survive pin + e2e 正向绊网钉死）。
+**保留不删（有意设计）**：favicon/hero 图等二进制资产（CLI 生成不了，脚手架下一步指引你手动换）；`docs/handbook/` 手册源码；`src/components/RootGateway.astro`（根网关影子页组件）与 `src/config/project.ts` 的 `demoRootGateway` 常量——它们是 `landingLinkEnabled` 门控下的死代码，**有意不进删除清单**。本站 `src/pages/index.astro` 已不再静态 import 该组件（首页是每日游戏）；文件仍须留下，因为 `tests/redirects.test.ts` survive pin 与 e2e 正向绊网禁止把它写进删除清单。fork 构建不渲染它，与 project.ts 死常量同契约。
 
 **⚠️ 语言 JSON 分三类处理（重跑安全，按内容判定不只按文件名）**：未选择的语言里——① **demo 自带且仍是 demo 内容的**（`ja.json` 等，`site.name` 仍是 demo 站名）会被**直接删除**：它们装载着完整的 demo 游戏翻译，留着是身份泄漏，且 `pnpm check-config` 会对「locale 文件存在但不在 routing.ts」报错，fork 第一天 CI 就是红的；② **demo 文件名但内容已换成你游戏的**（比如上一轮运行选了 ja、这一轮没选）——内容判定发现 `site.name` 已不是 demo 站名，**只警告、绝不删除**；③ **你自己创建的** locale 文件（`pnpm new-locale` 加的等）同样**只警告、绝不删除**——重跑不能毁掉你的翻译工作。②③ 看到「Kept N locale file(s)」警告后自行决定删除或把该语言加进所选列表，处理前 `pnpm check-config` 会一直是红的。
 

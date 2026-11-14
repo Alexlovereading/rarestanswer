@@ -2,14 +2,15 @@
 import LegalPage from '~/components/layout/LegalPage.astro';
 import { defaultLocale } from '~/i18n/routing';
 import { site } from '~/config/site';
+import { contactEmail } from '~/lib/contact-email';
 
-const email = 'contact@rarestanswer.com';
+const email = contactEmail();
 ---
 
 <LegalPage
   locale={defaultLocale}
   title="Contact"
-  description="Email contact@rarestanswer.com. Rarest Answer is a free browser trivia game with no account."
+  description={`Email ${email}. Rarest Answer is a free browser trivia game with no account.`}
   lastUpdated="2026-11-14"
 >
   <h2>Email</h2>

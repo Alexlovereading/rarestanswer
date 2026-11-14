@@ -164,3 +164,60 @@ The playable game is on `/`, `/unlimited/`, and `/trivia/<category>/` (eight cat
 `/game-data/index.json` and `/game-data/<slug>.json` are built from `src/data/prompts/`. The browser fetches the index, then the current prompt, and prefetches the next one. The play UI is vanilla TypeScript in `src/components/game/` (no React/Vue/Svelte, no ad slot in the play card): start card with the local date, round number, streak, and a how-to dialog; a 25-second ring with a no-timer switch; wrong-guess shake; Spotlight; an aria-live region; a reveal with the tier meter, the rarest 10, the most common 10, and how many answers were available; an end screen with the score, tier counts, a countdown to the next local midnight, Web Share / clipboard text with colored squares, and a canvas PNG download. Keyboard play works (the input is focused, Enter submits, Escape closes the dialog). `prefers-reduced-motion` disables the shake. Light and dark both render. At 375px the homepage scroll width matched the viewport and the start card sat above the fold. The game script is 9,868 bytes gzipped.
 
 `pnpm exec eslint` on the owned game files passed. `pnpm typecheck` ended at 0 errors. `pnpm build` succeeded, including `/`, `/unlimited/`, the eight trivia pages, and both game-data routes. `dist` sitemap did not list `/game-data/`. Browser check used the built site: daily Human for 5 after a rejected guess, resume after reload with streak 1, Spotlight plus `bonoba` → Bonobo for 40, a duplicate guess with no extra penalty, Tapanuli orangutan for 100, geography empty state, animals with the timer off and Pass for 0, `/unlimited/?prompt=great-ape-species` opening that question, and the reveal link to `/answers/great-ape-species/`. A refresh during an open prompt restarts that prompt's clock; the round is saved when the prompt ends.
+
+## W2-QA done
+
+Cross-agent requests applied on the current tree. `site.contactEmail` stays `''` because `tests/apply-template.test.ts` pins that string; contact, privacy, terms, copyright, FAQ, the legal body, and `llms.txt` now share `contactEmail()` in `src/lib/contact-email.ts`, which uses the configured address when one exists and otherwise `contact@rarestanswer.com`. The homepage, `/unlimited/`, and `/trivia/` skip `StickyBanner`. The sitemap filter drops `/game-data` and `/game-data/*` and keeps `/answers/`, `/trivia/`, `/unlimited/`, and `/rarest-answers/`. `src/data/prompts/**`, `scripts/build-prompts.ts`, and `scripts/data/**` were not edited. `AGENTS.md` lists 25 suites including `game-engine`, and its RootGateway note matches the tree: `index.astro` does not import it, `landingLinkEnabled` is false, `/` is the daily game, and the component stays because the survive pins still name it. The same stale "index statically imports RootGateway" wording was corrected in `tests/redirects.test.ts`, `scripts/apply-template.ts`, `.github/workflows/setup.yml`, `scripts/e2e-apply-template.mjs`, and `docs/apply-template.md`. The `NEVER add src/components/RootGateway.astro` line was left in place.
+
+Tier tokens are the W1-UI set in `src/styles/globals.css` (`--tier-1` through `--tier-6`, plus `--tier-fill` and `--tier-ink`) and `tailwind.config.mjs`. `BaseLayout` already accepts `fullBleed`, and `LocaleLayout` sets `data-layout="full-bleed"` on `/`, `/unlimited/`, and `/trivia/`. Nav keys `play`, `unlimited`, `rarestAnswers`, `games`, and `guides` are in `en.json` and rendered. Answer meta descriptions now lead with the count and the plural (or the Wikidata species label), so "great ape species" and a future "Stranger Things characters" stay inside the 165-character cap. Five article descriptions were extended so the plan's exact phrases are in the title or meta description: "game like Krillion", "Krillon game" / "one in a krillion game", "daily games", "Rarest Answer Party Roblox", and "guess rarest answer". Home, unlimited, the answer hub, each answer page, each trivia page, and the games and guides lists now link across play, answers, trivia, games, and guides (`shared.keepExploring` on the lists and the hub).
+
+Gates on this build, with the one-prompt fixture still in `src/data/prompts/`: `pnpm lint`, `pnpm typecheck` (0 errors; the missing `src/content/tutorials` glob is a warning), `pnpm test` (25 files, 483 passed, 2 skipped), `pnpm check-config`, `pnpm check-content`, `pnpm check-i18n --strict-ui`, `pnpm build` (51 pages), `pnpm check-links` (2,895 links, 0 broken). The game script in `dist/_astro/` is 30,182 bytes, 9,836 bytes gzipped, under the 40KB cap. Preview of that dist at `http://127.0.0.1:4399/` was played with Playwright 1.64.1 (headless Chromium). At 375px and 1280px the daily round is keyboard-only: Tab reaches Play, Enter opens and Escape closes How to play, the input is focused, the timer moves from 25 to 24, a miss says "Not on the list", Human scores 5 Common, Enter reaches the end screen, Share copies the spoiler-free text, and Save image downloads `rarest-answer-2026-11-14.png`. No page errors, no console errors, no failed requests, and document scroll width equals the viewport. The same overflow and console check passed for `/unlimited/`, `/rarest-answers/`, `/answers/great-ape-species/`, `/trivia/animals/`, `/games/`, and `/guides/`, and each of those pages links to the other four families.
+
+### Keyword → URL
+
+Parenthetical "(game)" in the plan is disambiguation. Every other phrase below is a case-insensitive substring of that URL's `<title>`, H1, or meta description in `dist/`.
+
+| Keyword | URL |
+| --- | --- |
+| rarest answer game; guess the rarest answer; rare answer game; rarest answer wins; finding rare answers; daily games; trivia | `/` |
+| krillion unlimited; rarest answer game unlimited | `/unlimited/` |
+| geography trivia | `/trivia/geography/` |
+| animal trivia | `/trivia/animals/` |
+| food trivia | `/trivia/food/` |
+| sports trivia | `/trivia/sports/` |
+| movie trivia | `/trivia/screen/` |
+| music trivia | `/trivia/music/` |
+| science trivia | `/trivia/science/` |
+| history trivia | `/trivia/history/` |
+| rarest species of great ape; great ape species; species of great ape | `/answers/great-ape-species/` |
+| rarest answers | `/rarest-answers/` |
+| games like krillion; game like krillion | `/games/games-like-krillion/` |
+| krillion; krillion game; krillon; krillon game; one in a krillion; noillirk | `/games/krillion/` |
+| cosmillion | `/games/cosmillion/` |
+| seldom game | `/games/seldom-game/` |
+| size it up game | `/games/size-it-up-game/` |
+| dartle game | `/games/dartle-game/` |
+| jinxed game | `/games/jinxed-game/` |
+| farflung game | `/games/farflung-game/` |
+| one in a million game | `/games/one-in-a-million-game/` |
+| games like wordle; wordle; daily games | `/games/games-like-wordle/` |
+| wonderhop | `/games/wonderhop/` |
+| majority game | `/games/majority-game/` |
+| deep dive game | `/games/deep-dive-game/` |
+| ball knowledge game | `/games/ball-knowledge-game/` |
+| brainer | `/games/brainer/` |
+| finding rare answers; guess rarest answer | `/guides/how-to-find-rare-answers/` |
+| rarest answer game; rarest answer wins | `/guides/how-to-play-rarest-answer/` |
+| rarest answer party; rarest answer party roblox; roblox | `/guides/rarest-answer-party-roblox/` |
+| daily games; trivia games; trivia | `/guides/best-daily-trivia-games/` |
+| guess the rarest answer; rare answer game | `/guides/rarest-answer-strategy/` |
+| stranger things; stranger things characters | `/guides/stranger-things-characters-trivia/` |
+
+### Remaining
+
+- W1-DATA2 is still running and has not replaced the fixture. `src/data/prompts/` is still `index.json` plus `great-ape-species.json`. `/answers/stranger-things-characters/` and `/answers/english-interjections/` are not in this `dist/`. "interjection" is not on any built page yet. "stranger things characters" is covered by the guide above. After the prompt JSON is written, rebuild: `derivePromptSeo` already puts the plural noun at the start of the description, so those two phrases land without another copy change. If the build hits a half-written JSON file, wait and rebuild. Do not assume the prompt count.
+- `contact@rarestanswer.com` is still an unverified placeholder (`docs/rarest-todo.md`). The config field stays empty on purpose.
+- `home.faq` in `en.json` is a second FAQ. The homepage does not render it; `/faq/` uses `src/pages/faq.astro`.
+- Game and guide covers are absent from `.gen-covers-manifest.json`. They have an `image`, so `pnpm gen-covers` skips them. Do not run `pnpm gen-assets --force` (it would replace the gem favicon).
+- `astro.config.ts` still warns that `src/content/tutorials` is missing. The tutorials suite treats a missing directory as an empty collection, so the gate stays green.
+- Preview of this build is still up at `http://127.0.0.1:4399/`.
