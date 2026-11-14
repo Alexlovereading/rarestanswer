@@ -1,6 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 import typography from '@tailwindcss/typography';
 
+const displayStack = 'Fraunces, "Iowan Old Style", Palatino, Georgia, serif';
+const sansStack = [
+  '"Source Sans 3"',
+  'ui-sans-serif',
+  'system-ui',
+  '-apple-system',
+  'Segoe UI',
+  'sans-serif',
+];
+
 export default {
   darkMode: 'class',
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}'],
@@ -12,17 +22,23 @@ export default {
     },
     extend: {
       colors: {
-        // Design tokens — driven by CSS variables in src/styles/globals.css.
-        // This lets re-theming work by changing only the 4 --brand lines.
         border: 'hsl(var(--border))',
         input: 'hsl(var(--border))',
         ring: 'hsl(var(--brand))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         nav: {
-          // DEFAULT is the text-safe shade (WCAG AA); nav-light stays decorative.
           DEFAULT: 'hsl(var(--brand-text))',
           light: 'hsl(var(--brand-light))',
+        },
+        gold: 'hsl(var(--gold) / <alpha-value>)',
+        tier: {
+          1: 'hsl(var(--tier-1) / <alpha-value>)',
+          2: 'hsl(var(--tier-2) / <alpha-value>)',
+          3: 'hsl(var(--tier-3) / <alpha-value>)',
+          4: 'hsl(var(--tier-4) / <alpha-value>)',
+          5: 'hsl(var(--tier-5) / <alpha-value>)',
+          6: 'hsl(var(--tier-6) / <alpha-value>)',
         },
         primary: {
           DEFAULT: 'hsl(var(--brand))',
@@ -54,25 +70,40 @@ export default {
         },
       },
       borderRadius: {
-        lg: 'var(--radius, 0.5rem)',
-        md: 'calc(var(--radius, 0.5rem) - 2px)',
-        sm: 'calc(var(--radius, 0.5rem) - 4px)',
+        lg: 'var(--radius, 0.875rem)',
+        md: 'calc(var(--radius, 0.875rem) - 2px)',
+        sm: 'calc(var(--radius, 0.875rem) - 4px)',
       },
       fontFamily: {
-        sans: ['ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+        sans: sansStack,
+        display: displayStack.split(', '),
       },
-      typography: ({ theme }) => ({
+      typography: {
         DEFAULT: {
           css: {
-            '--tw-prose-links': theme('colors.nav.DEFAULT'),
+            '--tw-prose-body': 'hsl(var(--foreground))',
+            '--tw-prose-headings': 'hsl(var(--foreground))',
+            '--tw-prose-links': 'hsl(var(--brand-text))',
+            '--tw-prose-bold': 'hsl(var(--foreground))',
+            '--tw-prose-quotes': 'hsl(var(--foreground))',
+            '--tw-prose-quote-borders': 'hsl(var(--brand-text))',
+            maxWidth: '42rem',
+            fontFamily: sansStack.join(', '),
+            lineHeight: '1.7',
             a: {
               textDecoration: 'none',
-              fontWeight: '500',
+              fontWeight: '600',
               '&:hover': { textDecoration: 'underline' },
             },
+            'h1, h2, h3, h4': {
+              fontFamily: displayStack,
+              letterSpacing: '-0.02em',
+            },
+            h2: { fontWeight: '700' },
+            h3: { fontWeight: '600' },
           },
         },
-      }),
+      },
     },
   },
   plugins: [typography],

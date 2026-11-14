@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#f36716"/><text x="32" y="43" font-family="system-ui, -apple-system, 'Hiragino Sans', 'Noto Sans CJK SC', sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">A</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#2a1f8e"/>
+  <path fill="#f7c545" d="M32 8 39.5 24.5 56 32 39.5 39.5 32 56 24.5 39.5 8 32 24.5 24.5Z"/>
+  <path fill="#1a1464" d="M32 22.5 37.2 32 32 41.5 26.8 32Z"/>
+</svg>

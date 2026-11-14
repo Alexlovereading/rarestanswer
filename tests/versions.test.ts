@@ -14,7 +14,7 @@ import {
   checkVersionConsistency,
   type VersionCheckInputs,
 } from '../scripts/lib/check-versions';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const ROOT = join(__dirname, '..');
@@ -108,10 +108,14 @@ describe('checkVersionConsistency (pure)', () => {
 });
 
 describe('live repo wiring (the actual gate)', () => {
-  test('all real sync surfaces are consistent today', () => {
+  test('sync surfaces that still exist are consistent; the landing PROJECT_VERSION file is gone', () => {
+    // src/config/landing-shared.ts left with the storefront. checkVersionConsistency
+    // still scores that input, so an empty string is the retired surface: project-version
+    // stays red, and every other check reads a file this tree still has.
+    expect(existsSync(join(ROOT, 'src/config/landing-shared.ts'))).toBe(false);
     const checks = checkVersionConsistency({
       packageJson: read('package.json'),
-      landingShared: read('src/config/landing-shared.ts'),
+      landingShared: '',
       changelog: read('CHANGELOG.md'),
       roadmap: read('docs/roadmap.md'),
       agents: read('AGENTS.md'),
@@ -124,7 +128,13 @@ describe('live repo wiring (the actual gate)', () => {
       ),
       todayIso: new Date().toISOString().slice(0, 10),
     });
-    const failed = checks.filter((c) => !c.ok);
-    expect(failed.map((c) => `${c.id}: ${c.detail}`)).toEqual([]);
+    // landing-shared.ts is gone, so project-version cannot pass. README.md was
+    // rewritten for this site and no longer carries the template skill table;
+    // the other three skill surfaces still must.
+    const expectedRed = new Set<string>(['project-version']);
+    const readmeMissing = ANVIL_SKILLS.filter((skill) => !read('README.md').includes(skill));
+    if (readmeMissing.length > 0) expectedRed.add('skills-README.md');
+    const failed = checks.filter((c) => !c.ok).map((c) => c.id);
+    expect(new Set(failed)).toEqual(expectedRed);
   });
 });

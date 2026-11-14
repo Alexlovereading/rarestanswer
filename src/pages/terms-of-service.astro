@@ -1,9 +1,85 @@
 ---
 import LegalPage from '~/components/layout/LegalPage.astro';
-import LegalContent from '~/components/layout/LegalContent.astro';
 import { defaultLocale } from '~/i18n/routing';
+import { site } from '~/config/site';
+
+const email = 'contact@rarestanswer.com';
 ---
 
-<LegalPage locale={defaultLocale} title="Terms of Service" lastUpdated="2026-08-11">
-  <LegalContent page="terms-of-service" />
+<LegalPage
+  locale={defaultLocale}
+  title="Terms of Service"
+  description="Terms for Rarest Answer, a free browser trivia game. No account, and no affiliation with Krillion or other games named here."
+  lastUpdated="2026-11-14"
+>
+  <p>
+    By using {site.game.name}, you agree to these terms. The game is free to play in the browser.
+    There is no account.
+  </p>
+  <h2>The game</h2>
+  <p>
+    A prompt asks you to name something that fits. An accepted answer is correct. A rarer correct
+    answer scores more. A daily round is seven shared prompts and resets at local midnight.
+    Unlimited play and single-category play use the same tiers. The points table, Spotlight (one
+    double per round), and the timer switch are described on
+    <a href="/guides/how-to-play-rarest-answer/">how to play</a>.
+  </p>
+  <p>
+    Streak and round stats stay in localStorage on this device. You can clear them in the browser.
+    We do not restore a streak from another device, because there is no account to restore it from.
+  </p>
+  <h2>Use of the site</h2>
+  <p>
+    Guides, prompt pages, and the game are for personal use. You may quote a page if you credit it
+    and link to the original URL. Do not copy the site and present it as your own game.
+  </p>
+  <h2>Scores and accuracy</h2>
+  <p>
+    A tier is a rank inside that prompt's answer list. It is computed from the popularity number
+    stored with the answer. When the dataset has been built, that number is a Wikipedia pageview
+    count for the answer's Wikipedia article. A prompt whose <code>source</code> is <code>fixture</code>
+    still has placeholder numbers. The sample great-ape prompt is a fixture. Rankings change when
+    the dataset is rebuilt. A score is not a scientific ranking, a box-office ranking, or a claim
+    that one real-world thing is "better" than another.
+  </p>
+  <p>
+    We try to keep guides accurate. A rule that a public page does not state is left out rather
+    than filled in. Game updates and dataset rebuilds can make a page stale. Check the date on the
+    page, and check the prompt's <code>source</code> field before you treat a rarity order as a
+    measured pageview rank.
+  </p>
+  <h2>Other games</h2>
+  <p>
+    {site.legalNotice} {site.game.name} is not affiliated with Krillion or with any other game
+    named on this site, and it is not endorsed by the people who make those games. Names are used
+    so you can tell the products apart.
+  </p>
+  <h2>Third-party services and links</h2>
+  <p>
+    Pages may link to other sites. We do not control those sites. Advertising, analytics, and
+    comments load only when the matching environment variables are set. What they receive is
+    described in the <a href="/privacy-policy/">privacy policy</a>. When comments are enabled,
+    GitHub's terms apply to the GitHub account you use to post.
+  </p>
+  <h2>Trademarks</h2>
+  <p>
+    Krillion and the other game names, logos, and characters mentioned on this site belong to
+    their owners. {site.game.name} claims no ownership of those marks. The tier names Common,
+    Familiar, Uncommon, Rare, Epic, and Legendary, and the boost name Spotlight, are labels this
+    game uses for its own scoring. They are not the tier names of another product.
+  </p>
+  <h2>Limitation of liability</h2>
+  <p>
+    The site is provided as-is. Use it at your own risk. We are not liable for damages arising
+    from your use of the site or from relying on a score, a guide, or a rarity order.
+  </p>
+  <h2>Changes</h2>
+  <p>
+    We may revise these terms by posting the new text on this page. The date under the title is
+    the revision date.
+  </p>
+  <h2>Contact</h2>
+  <p>
+    Questions about these terms: <a href={`mailto:${email}`}>{email}</a>.
+  </p>
 </LegalPage>

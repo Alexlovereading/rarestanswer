@@ -1,0 +1,103 @@
+---
+/**
+ * One category, as many rounds as you want. Eight pages, one per CategoryKey.
+ */
+import LocaleLayout from '~/components/layout/LocaleLayout.astro';
+import GameApp from '~/components/game/GameApp.astro';
+import RelatedLinks from '~/components/game/RelatedLinks.astro';
+import { categoryPage, CATEGORY_PAGE_LIST, type CategoryPageCopy } from '~/lib/game/category-copy';
+import { defaultLocale, locales } from '~/i18n/routing';
+import { simpleBreadcrumbJsonLd, videoGameJsonLd } from '~/lib/seo';
+import { languageAlternates, localizePath } from '~/lib/url';
+import { siteUrl } from '~/config/site';
+
+export function getStaticPaths() {
+  return CATEGORY_PAGE_LIST.map((page) => ({
+    params: { category: page.key },
+    props: { page },
+  }));
+}
+
+interface Props {
+  page: CategoryPageCopy;
+}
+
+const { page } = Astro.props;
+if (!page || !categoryPage(page.key)) {
+  return Astro.redirect('/');
+}
+
+const locale = defaultLocale;
+const path = localizePath(`/trivia/${page.key}/`, locale);
+const alternates = languageAlternates((loc) => localizePath(`/trivia/${page.key}/`, loc), locales);
+const webApp: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: page.h1,
+  url: `${siteUrl}${path}`,
+  applicationCategory: 'GameApplication',
+  operatingSystem: 'Web',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  isAccessibleForFree: true,
+  description: page.description,
+  inLanguage: 'en',
+};
+const jsonLd: Record<string, unknown>[] = [
+  videoGameJsonLd(),
+  webApp,
+  simpleBreadcrumbJsonLd({
+    pageLabel: page.h1,
+    path,
+    locale,
+    homeLabel: 'Home',
+  }),
+];
+const links = [
+  { href: '/', label: "Play today's daily" },
+  { href: '/unlimited/', label: 'Rarest Answer game unlimited' },
+  ...CATEGORY_PAGE_LIST.filter((other) => other.key !== page.key).map((other) => ({
+    href: `/trivia/${other.key}/`,
+    label: other.h1,
+  })),
+  { href: '/rarest-answers/', label: 'Rarest answers' },
+  { href: '/guides/how-to-find-rare-answers/', label: 'How to find rare answers' },
+];
+---
+
+<LocaleLayout
+  locale={locale}
+  title={page.title}
+  description={page.description}
+  alternates={alternates}
+  jsonLd={jsonLd}
+  fullBleed
+>
+  <div data-pagefind-body>
+    <header class="mx-auto max-w-3xl px-4 pt-6 sm:pt-10">
+      <p class="text-sm font-semibold text-nav">{page.keyword}</p>
+      <h1 class="mt-2 text-balance text-3xl font-black tracking-tight text-foreground sm:text-4xl">
+        {page.h1}
+      </h1>
+      <p class="mt-3 max-w-2xl text-base text-foreground sm:text-lg">{page.intro}</p>
+    </header>
+  </div>
+
+  <div class="mx-auto mt-6 max-w-3xl px-4">
+    <GameApp mode="category" category={page.key}>
+      <a slot="end" class="btn-outline flex h-12 w-full items-center justify-center" href="/">
+        Back to the daily
+      </a>
+      <a
+        slot="end"
+        class="btn-outline flex h-12 w-full items-center justify-center"
+        href="/unlimited/"
+      >
+        Play unlimited
+      </a>
+    </GameApp>
+  </div>
+
+  <div data-pagefind-body class="mx-auto max-w-3xl px-4 pb-16">
+    <RelatedLinks title="Other rounds" links={links} />
+  </div>
+</LocaleLayout>

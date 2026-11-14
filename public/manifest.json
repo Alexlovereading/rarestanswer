@@ -1,11 +1,11 @@
 {
-  "name": "Rarest Answer Wiki",
-  "short_name": "RA Wiki",
-  "description": "Play Rarest Answer, a free daily trivia game where the rarest correct answer wins. Browse guides and similar daily games, plus how to find rare answers.",
+  "name": "Rarest Answer",
+  "short_name": "Rarest Answer",
+  "description": "Play Rarest Answer, a free daily trivia game where the rarest correct answer wins. Read guides and pages about similar daily games.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#6b26d9",
+  "background_color": "#f8f8fc",
+  "theme_color": "#2a1f8e",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

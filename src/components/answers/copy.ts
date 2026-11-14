@@ -1,0 +1,529 @@
+/**
+ * SEO copy for /rarest-answers/ and /answers/<slug>/.
+ *
+ * `prompts.ts` validates JSON, then calls `derivePromptSeo`.
+ * Category labels come from `shared.categories` in the locale file.
+ * An optional `seoNoun` overrides the title noun ("Rarest <noun>").
+ * Without it, the noun is the object of the question:
+ * "Name a species of great ape" → "Species of Great Ape".
+ */
+
+import { defaultLocale } from '~/i18n/routing';
+import { getUi } from '~/i18n/ui';
+import { TIERS, type Answer, type CategoryKey, type Prompt } from '~/lib/game/types';
+import { foldSearch } from './search-text';
+
+export const HUB_TITLE = "Rarest Answers — Every Prompt's Rarest Answer";
+
+export const CATEGORY_ORDER: readonly CategoryKey[] = [
+  'geography',
+  'animals',
+  'food',
+  'sports',
+  'screen',
+  'music',
+  'science',
+  'history',
+];
+
+export const CATEGORY_LABEL: Record<CategoryKey, string> = {
+  geography: 'Geography',
+  animals: 'Animals',
+  food: 'Food',
+  sports: 'Sports',
+  screen: 'Movies & TV',
+  music: 'Music',
+  science: 'Science',
+  history: 'History',
+};
+
+export function categoryLabel(category: CategoryKey): string {
+  const fromUi = getUi(defaultLocale).shared.categories[category];
+  return fromUi || CATEGORY_LABEL[category];
+}
+
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+export interface PromptSeo {
+  id: string;
+  slug: string;
+  category: CategoryKey;
+  question: string;
+  source: string;
+  nounTitle: string;
+  nounPhrase: string;
+  heading: string;
+  crumb: string;
+  description: string;
+  intro: string;
+  viewsNote: string;
+  sourceNote: string;
+  answers: Answer[];
+  faq: FaqItem[];
+  searchText: string;
+}
+
+export type PromptInput = Prompt & { seoNoun?: string };
+
+const SMALL_WORDS = new Set([
+  'a',
+  'an',
+  'the',
+  'of',
+  'in',
+  'on',
+  'for',
+  'and',
+  'or',
+  'to',
+  'from',
+  'with',
+  'by',
+  'at',
+  'vs',
+]);
+
+const PROPER_STOP = new Set([
+  'name',
+  'what',
+  'whats',
+  'who',
+  'which',
+  'how',
+  'a',
+  'an',
+  'the',
+  'some',
+  'any',
+  'is',
+  'are',
+  'guess',
+  'of',
+  'in',
+  'on',
+  'for',
+  'and',
+  'or',
+  'to',
+  'from',
+]);
+
+const INVARIANT_PLURAL = new Set([
+  'species',
+  'series',
+  'sheep',
+  'fish',
+  'deer',
+  'moose',
+  'aircraft',
+  'offspring',
+]);
+
+const tierByNumber = new Map(TIERS.map((row) => [row.tier, row]));
+
+export function tierName(tier: Answer['tier']): string {
+  return tierByNumber.get(tier)?.name ?? `Tier ${tier}`;
+}
+
+export function formatViews(n: number): string {
+  if (!Number.isFinite(n)) return '0';
+  return Math.round(n).toLocaleString('en-US');
+}
+
+export function formatRarity(n: number): string {
+  if (!Number.isFinite(n)) return '0.000';
+  return n.toFixed(3);
+}
+
+export function wikipediaUrl(title: string): string {
+  const slug = encodeURIComponent(title.trim().replace(/ /g, '_'));
+  return `https://en.wikipedia.org/wiki/${slug}`;
+}
+
+function usesWikipediaSignal(source: string): boolean {
+  return /wikipedia|page\s*views?/i.test(source);
+}
+
+/** Card label next to a popularity figure. */
+export function formatMeasure(n: number, source: string): string {
+  const formatted = formatViews(n);
+  if (usesWikipediaSignal(source)) return `${formatted} monthly Wikipedia views`;
+  return `Popularity ${formatted}`;
+}
+
+function withMeasure(n: number, source: string): string {
+  const formatted = formatViews(n);
+  if (usesWikipediaSignal(source)) return `${formatted} monthly Wikipedia views`;
+  return `a popularity of ${formatted}`;
+}
+
+function normalizePhrase(text: string): string {
+  return text.replace(/\s+/g, ' ').trim();
+}
+
+function stripEndPunctuation(text: string): string {
+  return text.replace(/[?!.]+$/g, '').trim();
+}
+
+function properTokens(text: string): Set<string> {
+  const found = new Set<string>();
+  for (const raw of text.split(/[^A-Za-z0-9'’-]+/)) {
+    if (!raw) continue;
+    const word = raw.replace(/['’]s$/i, '');
+    if (!word) continue;
+    const lower = word.toLowerCase();
+    if (PROPER_STOP.has(lower)) continue;
+    const first = word[0];
+    if (!first || first.toLowerCase() === first.toUpperCase()) continue;
+    if (first !== first.toUpperCase()) continue;
+    found.add(lower);
+  }
+  return found;
+}
+
+function renderProper(word: string): string {
+  if (word.length > 1 && word === word.toUpperCase() && /[A-Z]/.test(word)) return word;
+  if (word !== word.toLowerCase() && word.slice(1) !== word.slice(1).toLowerCase()) return word;
+  const lower = word.toLowerCase();
+  return lower.charAt(0).toUpperCase() + lower.slice(1);
+}
+
+function titleCaseWord(word: string, index: number, proper: Set<string>): string {
+  const lower = word.toLowerCase();
+  if (proper.has(lower)) return renderProper(word);
+  if (index > 0 && SMALL_WORDS.has(lower)) return lower;
+  return lower.charAt(0).toUpperCase() + lower.slice(1);
+}
+
+function sentenceWord(word: string, proper: Set<string>): string {
+  const lower = word.toLowerCase();
+  if (proper.has(lower)) return renderProper(word);
+  return lower;
+}
+
+function mapPhrase(phrase: string, proper: Set<string>, mode: 'title' | 'sentence'): string {
+  const words = normalizePhrase(phrase).split(' ').filter(Boolean);
+  return words
+    .map((word, index) =>
+      mode === 'title' ? titleCaseWord(word, index, proper) : sentenceWord(word, proper),
+    )
+    .join(' ');
+}
+
+function extractNoun(question: string): string | null {
+  const q = stripEndPunctuation(question);
+  const patterns = [
+    /^name\s+(?:a|an|the|some|any)\s+(.+)$/i,
+    /^name\s+(.+)$/i,
+    /^what(?:'s|’s| is| are)\s+(?:a|an|the|some|any)?\s*(.+)$/i,
+    /^which\s+(?:are|is)?\s*(?:a|an|the|some|any)?\s*(.+)$/i,
+    /^guess\s+(?:a|an|the|some|any)\s+(.+)$/i,
+  ];
+  for (const pattern of patterns) {
+    const noun = q.match(pattern)?.[1]?.trim();
+    if (noun) return noun;
+  }
+  return null;
+}
+
+function deriveNoun(question: string, seoNoun: string | undefined): { nounTitle: string; nounPhrase: string } {
+  const extracted = extractNoun(question);
+  const proper = properTokens(`${question} ${seoNoun ?? ''}`);
+  const sentenceSource =
+    extracted ?? seoNoun ?? stripEndPunctuation(question);
+  const titleSource = seoNoun ?? sentenceSource;
+  const nounPhrase = mapPhrase(sentenceSource, proper, 'sentence');
+  const nounTitle = mapPhrase(titleSource, proper, 'title');
+  return {
+    nounPhrase: nounPhrase || 'answer',
+    nounTitle: nounTitle || 'Answer',
+  };
+}
+
+function pluralizeWord(word: string): string {
+  const lower = word.toLowerCase();
+  if (INVARIANT_PLURAL.has(lower)) return word;
+  if (/(?:ss|x|z|ch|sh)$/i.test(word)) return `${word}es`;
+  if (/[^aeiou]y$/i.test(word)) return `${word.slice(0, -1)}ies`;
+  if (/s$/i.test(word)) return word;
+  return `${word}s`;
+}
+
+function pluralPhrase(phrase: string): string {
+  if (/^species\b/i.test(phrase)) return phrase;
+  const words = phrase.split(' ');
+  const last = words[words.length - 1];
+  if (!last) return phrase;
+  words[words.length - 1] = pluralizeWord(last);
+  return words.join(' ');
+}
+
+/** "species of great ape" → "great ape species" (species is invariant). */
+function speciesLabel(phrase: string): string | null {
+  const match = phrase.match(/^species of (.+)$/i);
+  if (!match?.[1]) return null;
+  return `${match[1]} species`;
+}
+
+function capMeta(text: string): string {
+  const clean = text.replace(/\s+/g, ' ').trim();
+  if (clean.length <= 165) return clean;
+  const cut = clean.slice(0, 162);
+  const space = cut.lastIndexOf(' ');
+  const base = space > 120 ? cut.slice(0, space) : cut;
+  return `${base.trimEnd()}…`;
+}
+
+function formatMultiple(ratio: number): string {
+  if (ratio >= 1000) return Math.round(ratio).toLocaleString('en-US');
+  if (ratio >= 10) {
+    const rounded = Math.round(ratio * 10) / 10;
+    return rounded.toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+  }
+  const rounded = Math.round(ratio * 100) / 100;
+  return rounded.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+/** How `other` compares with `baseline`. Null when the comparison would be misleading. */
+function timesPhrase(baseline: number, other: number): string | null {
+  if (!(baseline > 0) || !(other > 0)) return null;
+  const ratio = other / baseline;
+  if (ratio < 0.95) return null;
+  if (ratio < 1.05) return 'about the same as';
+  return `${formatMultiple(ratio)}× the figure for`;
+}
+
+function formatShare(part: number, total: number): string {
+  if (!(total > 0)) return '0%';
+  const pct = (part / total) * 100;
+  if (pct > 0 && pct < 0.1) return 'under 0.1%';
+  if (pct >= 10) return `${Math.round(pct)}%`;
+  return `${pct.toFixed(1)}%`;
+}
+
+function joinNames(names: string[]): string {
+  if (names.length <= 1) return names[0] ?? '';
+  if (names.length === 2) return `${names[0]} and ${names[1]}`;
+  return `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
+}
+
+function compareAnswers(a: Answer, b: Answer): number {
+  if (b.rarity !== a.rarity) return b.rarity - a.rarity;
+  if (a.popularity !== b.popularity) return a.popularity - b.popularity;
+  return a.name.localeCompare(b.name);
+}
+
+function rarestSentence(rare: Answer, nounPhrase: string, source: string): string {
+  return `${rare.name} is the rarest ${nounPhrase} in this ranking, with ${withMeasure(rare.popularity, source)} (rarity ${formatRarity(rare.rarity)}, ${tierName(rare.tier)}).`;
+}
+
+function commonSentence(common: Answer, nounPhrase: string, source: string, only: boolean): string {
+  if (only) {
+    return `${common.name} is the only accepted answer, so it is both the rarest and the most common.`;
+  }
+  return `${common.name} is the most common ${nounPhrase} in this ranking, with ${withMeasure(common.popularity, source)} (${tierName(common.tier)}).`;
+}
+
+function buildHeading(nounTitle: string, count: number): string {
+  const answers = count === 1 ? 'Answer' : 'Answers';
+  return `Rarest ${nounTitle} — All ${count} ${answers} Ranked by Rarity`;
+}
+
+function buildDescription(
+  rareName: string,
+  nounPhrase: string,
+  species: string | null,
+  count: number,
+): string {
+  const extra = species ? ` (${count} ${species})` : '';
+  const answers = count === 1 ? 'answer' : 'answers';
+  return capMeta(
+    `${rareName} is the rarest ${nounPhrase} in this ranking${extra}. All ${count} ${answers} ranked by rarity.`,
+  );
+}
+
+function buildIntro(
+  question: string,
+  nounPhrase: string,
+  species: string | null,
+  source: string,
+  answers: Answer[],
+): string {
+  const rare = answers[0];
+  const common = answers[answers.length - 1];
+  if (!rare || !common) return '';
+  const n = answers.length;
+  const sentences: string[] = [];
+
+  if (species) {
+    sentences.push(
+      `${n} ${species} ${n === 1 ? 'is an accepted answer' : 'are accepted answers'} for “${question}”.`,
+    );
+  } else {
+    sentences.push(
+      `${n} ${n === 1 ? 'answer is accepted' : 'answers are accepted'} for “${question}”.`,
+    );
+  }
+
+  sentences.push(rarestSentence(rare, nounPhrase, source));
+
+  const next = answers[1];
+  if (n > 2 && next) {
+    if (next.rarity === rare.rarity) {
+      sentences.push(`${next.name} ties ${rare.name} on rarity, with ${withMeasure(next.popularity, source)}.`);
+    } else {
+      const rel = timesPhrase(rare.popularity, next.popularity);
+      sentences.push(
+        rel
+          ? `${next.name} is the second-rarest with ${withMeasure(next.popularity, source)}, ${rel} ${rare.name}.`
+          : `${next.name} is the second-rarest with ${withMeasure(next.popularity, source)}.`,
+      );
+    }
+  }
+
+  if (n >= 2) {
+    const rel = timesPhrase(rare.popularity, common.popularity);
+    sentences.push(
+      rel
+        ? `${common.name} is the most common ${nounPhrase} in this ranking, with ${withMeasure(common.popularity, source)}, ${rel} the rarest.`
+        : `${common.name} is the most common ${nounPhrase} in this ranking, with ${withMeasure(common.popularity, source)}.`,
+    );
+  }
+
+  const total = answers.reduce((sum, answer) => sum + answer.popularity, 0);
+  if (n > 1 && total > 0) {
+    const unit = usesWikipediaSignal(source) ? 'monthly Wikipedia views' : 'popularity';
+    sentences.push(`Combined ${unit} across the ${n} answers: ${formatViews(total)}.`);
+    sentences.push(`${rare.name} is ${formatShare(rare.popularity, total)} of that total.`);
+  }
+
+  const high = answers.filter((answer) => answer.tier >= 5);
+  if (high.length >= 3 && high.length < n) {
+    const preview = high.slice(0, 3).map((answer) => `${answer.name} (${tierName(answer.tier)})`);
+    const list = high.length > 3 ? `${preview.join(', ')}, and ${high.length - 3} more` : joinNames(preview);
+    sentences.push(`${high.length} answers are Epic or Legendary: ${list}.`);
+  }
+
+  return sentences.join(' ');
+}
+
+function buildFaq(nounPhrase: string, plural: string, source: string, answers: Answer[]): FaqItem[] {
+  const rare = answers[0];
+  const common = answers[answers.length - 1];
+  if (!rare || !common) return [];
+  const only = answers.length === 1;
+  const howMany = only
+    ? `This prompt ranks 1 answer: ${rare.name}.`
+    : `There are ${answers.length} ${plural} in this ranking, from ${rare.name} (rarest) to ${common.name} (most common).`;
+  return [
+    {
+      question: `What is the rarest ${nounPhrase}?`,
+      answer: rarestSentence(rare, nounPhrase, source),
+    },
+    {
+      question: `How many ${plural} are there?`,
+      answer: howMany,
+    },
+    {
+      question: `What is the most common ${nounPhrase}?`,
+      answer: commonSentence(common, nounPhrase, source, only),
+    },
+  ];
+}
+
+function buildViewsNote(source: string): string {
+  if (usesWikipediaSignal(source)) {
+    return `Monthly English Wikipedia pageviews. Source: ${source}.`;
+  }
+  return `Placeholder popularity numbers (source: ${source}), listed under Monthly Wikipedia views. Not a live pageview count.`;
+}
+
+function buildSourceNote(source: string, hasWiki: boolean): string {
+  const wiki = hasWiki
+    ? ' Linked names open the English Wikipedia article stored on that answer.'
+    : '';
+  const rarity =
+    'Rarity is the percentile of the popularity figure inside this prompt: 1 is the rarest and 0 is the most common.';
+  if (usesWikipediaSignal(source)) {
+    return `Recorded source: ${source}. The answer list is compiled from Wikidata (CC0), and the view counts are monthly English Wikipedia pageviews. ${rarity}${wiki}`;
+  }
+  return `Recorded source: ${source}. The figures in the table are the popularity numbers stored on this prompt, not a live English Wikipedia pageview count. When a prompt's source names Wikipedia, those counts are monthly English Wikipedia pageviews and the answer list is compiled from Wikidata (CC0). ${rarity}${wiki}`;
+}
+
+export function derivePromptSeo(input: PromptInput): PromptSeo {
+  const answers = [...input.answers].sort(compareAnswers);
+  const rare = answers[0];
+  if (!rare) throw new Error(`Prompt ${input.slug} has no answers`);
+  const { nounTitle, nounPhrase } = deriveNoun(input.question, input.seoNoun);
+  const species = speciesLabel(nounPhrase);
+  const heading = buildHeading(nounTitle, answers.length);
+  const plural = pluralPhrase(nounPhrase);
+  const hasWiki = answers.some((answer) => Boolean(answer.wiki));
+  return {
+    id: input.id,
+    slug: input.slug,
+    category: input.category,
+    question: input.question,
+    source: input.source,
+    nounTitle,
+    nounPhrase,
+    heading,
+    crumb: `Rarest ${nounTitle}`,
+    description: buildDescription(rare.name, nounPhrase, species, answers.length),
+    intro: buildIntro(input.question, nounPhrase, species, input.source, answers),
+    viewsNote: buildViewsNote(input.source),
+    sourceNote: buildSourceNote(input.source, hasWiki),
+    answers,
+    faq: buildFaq(nounPhrase, plural, input.source, answers),
+    searchText: foldSearch(
+      [
+        input.question,
+        input.slug,
+        nounPhrase,
+        nounTitle,
+        heading,
+        input.category,
+        categoryLabel(input.category),
+        ...answers.flatMap((answer) => [answer.name, ...answer.aliases]),
+      ].join(' '),
+    ),
+  };
+}
+
+export function categoriesIn(prompts: readonly { category: CategoryKey }[]): CategoryKey[] {
+  const present = new Set(prompts.map((prompt) => prompt.category));
+  return CATEGORY_ORDER.filter((category) => present.has(category));
+}
+
+export function comparePromptSeo(a: PromptSeo, b: PromptSeo): number {
+  const byCat = CATEGORY_ORDER.indexOf(a.category) - CATEGORY_ORDER.indexOf(b.category);
+  if (byCat !== 0) return byCat;
+  return a.question.localeCompare(b.question) || a.slug.localeCompare(b.slug);
+}
+
+export function hubDescription(prompts: readonly { answers: readonly unknown[] }[]): string {
+  if (prompts.length === 0) {
+    return 'Rarest answers for every prompt, with the rarest correct answer and the full ranking on its own page.';
+  }
+  const answers = prompts.reduce((sum, prompt) => sum + prompt.answers.length, 0);
+  const promptWord = prompts.length === 1 ? 'prompt' : 'prompts';
+  const answerWord = answers === 1 ? 'answer' : 'answers';
+  return capMeta(
+    `Rarest answers for ${prompts.length} ${promptWord} and ${answers} ranked ${answerWord}. See each prompt's rarest correct answer, then open the full ranking.`,
+  );
+}
+
+export function hubIntro(prompts: readonly PromptSeo[]): string {
+  if (prompts.length === 0) {
+    return 'No prompts are published yet. Each prompt will show its rarest correct answer and a link to the full ranking.';
+  }
+  const answers = prompts.reduce((sum, prompt) => sum + prompt.answers.length, 0);
+  const cats = categoriesIn(prompts).map((category) => categoryLabel(category));
+  const where = cats.length === 1 ? `the ${cats[0]} category` : joinNames(cats);
+  const promptWord = prompts.length === 1 ? 'prompt' : 'prompts';
+  const answerWord = answers === 1 ? 'answer' : 'answers';
+  return `Every prompt is listed with its rarest correct answer — the accepted answer with the lowest popularity in that set. This index has ${prompts.length} ${promptWord} in ${where}, and ${answers} ranked ${answerWord}. Open a prompt for the full table, from rarest to most common.`;
+}

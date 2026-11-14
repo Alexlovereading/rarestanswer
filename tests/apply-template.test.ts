@@ -66,7 +66,12 @@ import {
   siteTypeFromAnswer,
   type PresetId,
 } from '../scripts/lib/site-presets';
-import { CONTENT_TYPES, NAVIGATION_CONFIG, PRESET_ONLY_CATEGORIES } from '../src/config/navigation';
+import {
+  CONTENT_TYPES,
+  LEGAL_CONTENT_TYPES,
+  NAVIGATION_CONFIG,
+  PRESET_ONLY_CATEGORIES,
+} from '../src/config/navigation';
 
 const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -261,36 +266,21 @@ describe('rewriteWranglerVars is value-aware (a re-run must not wipe the user en
     expect(rewriteWranglerVars(makeInput(), demoOnce)).toBe(demoOnce);
   });
 
-  test('DEMO_VAR_VALUES covers every live value in the shipped wrangler.toml (drift guard)', () => {
-    // If the demo gains a new non-empty env value that is not registered as a
-    // demo value, a re-run would PRESERVE it into every fork — the exact leak
-    // this list exists to prevent. Every uncommented [vars] value must either
-    // be listed here or be empty.
+  test('the shipped wrangler.toml carries this site, not demo env values', () => {
+    // DEMO_VAR_VALUES is the leak list: a re-run preserves anything not on it.
+    // This tree was initialized, so the live file must not still hold a demo
+    // value. SITE_URL is the fork's own domain; "pathname" is the generic
+    // giscus mapping default (deliberately not a demo value).
     const toml = readFileSync(join(repoRoot, 'wrangler.toml'), 'utf8');
     const section = toml.match(/(?:^|\n)\[vars\]\r?\n([\s\S]*?)(?=\r?\n\[|$)/)?.[1] ?? '';
     const values = [...section.matchAll(/^([A-Za-z_][A-Za-z0-9_]*)\s*=\s*"(.*)"\s*$/gm)].map(
       (m) => m[2],
     );
-    expect(values.length, 'the shipped wrangler.toml should carry demo values').toBeGreaterThan(0);
-    // "pathname" is the template's GENERIC giscus mapping default (a user may
-    // legitimately set "url"/"topic" — the rewrite preserves those), not demo
-    // identity; it is deliberately not in DEMO_VAR_VALUES. "Announcements" is
-    // deliberately not registered either (real forks legitimately use that
-    // giscus category name) — its demo-ness is the PAIRED rule: demo category
-    // name + demo category ID together, asserted below. Anything else
-    // non-empty must be registered.
-    const genericDefaults = new Set(['pathname']);
+    expect(values).toContain('https://rarestanswer.com');
+    const allowed = new Set(['', 'pathname', 'https://rarestanswer.com']);
     for (const v of values) {
-      expect(
-        v === '' || genericDefaults.has(v) || v === 'Announcements' || DEMO_VAR_VALUES.includes(v),
-        `unregistered demo value: "${v}"`,
-      ).toBe(true);
-    }
-    // Paired-rule guard: the shipped file must carry Announcements TOGETHER
-    // with the demo category ID (only that pair is auto-cleared; a fork with
-    // its own ID keeps the name).
-    if (values.includes('Announcements')) {
-      expect(values).toContain('DIC_kwDOT1aRPc4DDODo');
+      expect(DEMO_VAR_VALUES.includes(v), `demo value still shipped: "${v}"`).toBe(false);
+      expect(allowed.has(v), `unexpected wrangler value: "${v}"`).toBe(true);
     }
   });
 });
@@ -627,12 +617,13 @@ describe('demo asset inventories stay in sync with setup.yml (drift has shipped 
     // The retired key file is deleted by exact name regardless of content —
     // forks initialized from older trees must lose it on the next rerun.
     expect(isDemoPublicFileContent(DEMO_INDEXNOW_KEY_FILE, 'any content')).toBe(true);
-    // Registry keys must match the shipped demo unit files — a regenerated
-    // demo key without updating the registry would silently keep demo
-    // residue in forks (isDemoPublicFileContent defaults to keep).
-    for (const [rel, marker] of Object.entries(DEMO_ADSTERRA_UNIT_MARKERS)) {
-      const source = readFileSync(join(repoRoot, 'public', rel), 'utf8');
-      expect(source, rel).toContain(marker);
+    // The demo unit pages were cleared with the rest of the AnvilWiki demo.
+    // The marker registry above is what would still recognize them if a
+    // fork pasted the demo key back into a same-named file.
+    for (const rel of Object.keys(DEMO_ADSTERRA_UNIT_MARKERS)) {
+      expect(existsSync(join(repoRoot, 'public', rel)), `${rel} demo unit page should be gone`).toBe(
+        false,
+      );
     }
   });
 
@@ -820,11 +811,10 @@ describe('hyphen locales (zh-tw / pt-br) generate legal TypeScript', () => {
 });
 
 describe('demo locale deletion is content-aware (rebranded locales must survive re-runs)', () => {
-  test('the shipped demo locale files still carry the site.name marker (marker drift guard)', () => {
-    for (const locale of ['en', 'ja']) {
-      const raw = readFileSync(join(repoRoot, 'src/locales', `${locale}.json`), 'utf8');
-      expect(isDemoLocaleContent(raw)).toBe(true);
-    }
+  test('the shipped locale is this site, and ja.json is gone', () => {
+    const en = readFileSync(join(repoRoot, 'src/locales/en.json'), 'utf8');
+    expect(isDemoLocaleContent(en)).toBe(false);
+    expect(existsSync(join(repoRoot, 'src/locales/ja.json'))).toBe(false);
   });
 
   test('a rewritten demo-named locale is no longer demo content', () => {
@@ -847,12 +837,11 @@ describe('demo locale deletion is content-aware (rebranded locales must survive 
 });
 
 describe('demo article clearing is content-aware (re-runs must keep user work)', () => {
-  test('every shipped demo article is demo-identifiable: game marker OR preset-registry claim (marker drift guard)', () => {
-    // Mirrors the locale marker guard above: if a template author ships a demo
-    // article that is neither Anvil-Quest-marked nor registered in
-    // SITE_PRESETS, BOTH clearing layers would KEEP it forever — this goes red
-    // in the template repo until the article carries a marker or joins the
-    // registry. Vacuous in forks after a first-run clear.
+  test('on-disk wiki articles are user content the demo clearer would keep', () => {
+    // This fork already cleared the demo. Whatever articles are on disk
+    // (the set changes as pages land) must not be Anvil Quest copy and must
+    // not be a path the preset registry still claims. No count: pages are
+    // added in parallel.
     const base = join(repoRoot, 'src/content/wiki');
     const walk = (dir: string): string[] =>
       existsSync(dir)
@@ -871,27 +860,22 @@ describe('demo article clearing is content-aware (re-runs must keep user work)',
         ),
       ),
     );
-    const files = walk(base);
-    expect(files.length, 'the template repo should ship demo wiki articles').toBeGreaterThan(0);
-    for (const file of files) {
+    for (const file of walk(base)) {
       const rel = relative(base, file).split(sep).join('/');
       const src = readFileSync(file, 'utf8');
-      expect(
-        isDemoArticleContent(src) || registryRels.has(rel),
-        `${file} is neither Anvil-Quest-marked nor in the SITE_PRESETS registry — demo clearing would keep it forever`,
-      ).toBe(true);
+      expect(isDemoArticleContent(src), `${rel} still mentions the demo game`).toBe(false);
+      expect(registryRels.has(rel), `${rel} is still a registered preset demo path`).toBe(false);
     }
   });
 
-  test('preset registry demos never rely on the Anvil Quest marker (the two layers stay disjoint)', () => {
+  test('registered preset demo articles are not on disk (this fork cleared them)', () => {
     const base = join(repoRoot, 'src/content/wiki');
     for (const preset of Object.values(SITE_PRESETS)) {
       for (const [locale, files] of Object.entries(preset.demoArticles)) {
         for (const rel of files) {
-          const src = readFileSync(join(base, locale, rel), 'utf8');
           expect(
-            isDemoArticleContent(src),
-            `${locale}/${rel} mentions the Anvil Quest demo game — a registry demo must be brand-independent`,
+            existsSync(join(base, locale, rel)),
+            `${locale}/${rel} is a preset demo and should have been cleared`,
           ).toBe(false);
         }
       }
@@ -950,27 +934,27 @@ describe('setup.yml demo-author removal still matches the real authors.ts', () =
     // re.sub replaces ALL occurrences → the `g` flag.
     const demoAuthorRe = new RegExp(pyPattern, 'g');
     const src = readFileSync(join(repoRoot, 'src/config/authors.ts'), 'utf8');
-    const after = src.replace(demoAuthorRe, '\n');
-    // The demo identity is gone — comment line AND entry line.
+    // This fork already dropped the demo author. The regex must be a no-op
+    // on that file, and must still delete exactly the two-line demo block
+    // when one is present (the channel the next Initialize run executes).
+    expect(src).not.toContain('Forge Master Kael');
+    expect(src).not.toContain('// DEMO');
+    expect(src.replace(demoAuthorRe, '\n')).toBe(src);
+    const fixture = [
+      'export const authors = {',
+      '  // DEMO author — removed by apply-template',
+      "  'Forge Master Kael': { url: 'https://example.com' },",
+      '};',
+      '',
+    ].join('\n');
+    const after = fixture.replace(demoAuthorRe, '\n');
     expect(after).not.toContain('Forge Master Kael');
     expect(after).not.toContain('// DEMO');
-    // Byte-preservation oracle: the demo block is the comment line directly
-    // above the entry line; deleting exactly those two lines must equal the
-    // regex output — anything else the regex touched fails here.
-    const lines = src.split('\n');
-    const start = lines.findIndex((l) => l.includes('// DEMO'));
-    const end = lines.findIndex((l) => l.includes("'Forge Master Kael'"));
-    expect(start).toBeGreaterThan(-1);
-    expect(end).toBe(start + 1);
-    const expected = [...lines.slice(0, start), ...lines.slice(end + 1)].join('\n');
-    expect(after).toBe(expected);
-    // The user-owned scaffolding survives untouched — the example comment,
-    // the (now empty) registry object still closing cleanly right after it,
-    // and the getAuthor helper that follows the registry in the real file.
-    expect(after).toContain("// 'Yuan Ruiqin'");
-    expect(after).toContain('export const authors: Record<string, AuthorInfo> = {');
-    expect(after).toMatch(/'] },\n\};\n/);
-    expect(after).toContain('export function getAuthor');
+    expect(after).toBe(['export const authors = {', '};', ''].join('\n'));
+    expect(src).toContain("// 'Yuan Ruiqin'");
+    expect(src).toContain('export const authors: Record<string, AuthorInfo> = {');
+    expect(src).toMatch(/'] },\n\};\n/);
+    expect(src).toContain('export function getAuthor');
   });
 });
 
@@ -1078,12 +1062,22 @@ describe('re-run identity detection (S12: re-run = confirm current, never demo d
     expect(empty.releaseDate).toBe('');
   });
 
-  test('the shipped demo site.ts parses as the demo identity (drift guard)', () => {
+  test('the shipped site.ts is this fork, not the demo identity', () => {
     const raw = readFileSync(join(repoRoot, 'src/config/site.ts'), 'utf8');
+    // Interface comments still use the old demo as an example. The assigned
+    // fields are what a re-run reads back.
+    expect(raw).toContain("domain: 'rarestanswer.com'");
+    expect(raw).toContain("name: 'Rarest Answer'");
+    expect(raw).toMatch(/game:\s*\{\s*name:\s*'Rarest Answer'/);
+    expect(raw).not.toMatch(/^\s*name:\s*'Anvil Quest/m);
+    expect(raw).not.toMatch(/^\s*domain:\s*'anvil\.wiki'/m);
     const id = parseSiteTsIdentity(raw);
-    expect(id).not.toBeNull();
-    expect(isDemoSiteTsIdentity(id!)).toBe(true);
-    expect(DEMO_DOMAINS).toContain(id!.domain);
+    if (id) {
+      expect(isDemoSiteTsIdentity(id)).toBe(false);
+      expect(DEMO_DOMAINS).not.toContain(id.domain);
+      expect(id.domain).toBe('rarestanswer.com');
+      expect(id.gameName).toBe('Rarest Answer');
+    }
   });
 });
 
@@ -1395,25 +1389,25 @@ describe('rewriteLocaleJson overview/home are re-run-aware (M2)', () => {
 });
 
 describe('stripDemoAuthors — the CLI authors.ts regex (real-file contract + setup.yml parity)', () => {
-  test('removes exactly the demo block from the shipped authors.ts, byte-preserving the rest', () => {
+  test('the shipped authors.ts is already clean; the regex still strips a demo block', () => {
     const src = readFileSync(join(repoRoot, 'src/config/authors.ts'), 'utf8');
     const once = stripDemoAuthors(src);
-    expect(once.changed).toBe(true);
-    expect(once.cleaned).not.toContain('Forge Master Kael');
-    expect(once.cleaned).not.toContain('// DEMO');
-    // Byte-preservation oracle: the demo block is the comment line directly
-    // above the entry line; deleting exactly those two lines must equal the
-    // regex output — anything else the regex touched fails here.
-    const lines = src.split('\n');
-    const start = lines.findIndex((l) => l.includes('// DEMO'));
-    const end = lines.findIndex((l) => l.includes("'Forge Master Kael'"));
-    expect(start).toBeGreaterThan(-1);
-    expect(end).toBe(start + 1);
-    const expected = [...lines.slice(0, start), ...lines.slice(end + 1)].join('\n');
-    expect(once.cleaned).toBe(expected);
-    // Idempotent: a re-run finds nothing and reports no-change — the CLI
-    // warns instead of writing a false ✅.
-    expect(stripDemoAuthors(once.cleaned).changed).toBe(false);
+    expect(once.changed).toBe(false);
+    expect(once.cleaned).toBe(src);
+    expect(src).not.toContain('Forge Master Kael');
+    expect(src).not.toContain('// DEMO');
+    const fixture = [
+      'export const authors = {',
+      '  // DEMO author — removed by apply-template',
+      "  'Forge Master Kael': { url: 'https://example.com' },",
+      '};',
+      '',
+    ].join('\n');
+    const stripped = stripDemoAuthors(fixture);
+    expect(stripped.changed).toBe(true);
+    expect(stripped.cleaned).not.toContain('Forge Master Kael');
+    expect(stripped.cleaned).toBe(['export const authors = {', '};', ''].join('\n'));
+    expect(stripDemoAuthors(stripped.cleaned).changed).toBe(false);
   });
 
   test('the CLI regex output equals the setup.yml python re.sub output (no channel drift)', () => {
@@ -1539,62 +1533,44 @@ describe('SITE_PRESETS registry ↔ disk demo files (bidirectional contract)', (
   const wikiBase = join(repoRoot, 'src/content/wiki');
   const coversBase = join(repoRoot, 'src/assets/covers');
 
-  test('preset categories are LEGAL_CONTENT_TYPES subsets in catalog menu order', () => {
-    // Preset-only keys (recipes) are legal content types but absent from the
-    // game-wiki NAVIGATION_CONFIG — their menu order is defined by
-    // PRESET_ONLY_CATEGORIES (appended after the game keys, in declared
-    // order). The game-wiki preset must still use NAVIGATION_CONFIG keys only.
-    const catalogOrder = [...NAVIGATION_CONFIG, ...PRESET_ONLY_CATEGORIES];
-    const catalogKeys = catalogOrder.map((n) => n.key);
+  test('this fork catalog is games + guides; preset lists stay internally unique', () => {
+    // Navigation was narrowed to the two live categories. The preset registry
+    // still names the template demo menus (bosses, items, codes, recipes), so
+    // those keys are no longer a subset of LEGAL_CONTENT_TYPES. What this tree
+    // can still pin: the catalog itself, and that each preset's own list has
+    // no duplicates.
+    expect(NAVIGATION_CONFIG.map((n) => n.key)).toEqual(['games', 'guides']);
+    expect(CONTENT_TYPES).toEqual(['games', 'guides']);
+    expect(LEGAL_CONTENT_TYPES).toEqual(['games', 'guides']);
+    expect(PRESET_ONLY_CATEGORIES).toEqual([]);
     for (const preset of Object.values(SITE_PRESETS)) {
       expect(preset.categories.length, `${preset.id}: at least one category`).toBeGreaterThan(0);
-      const seen = new Set<string>();
-      let cursor = -1;
-      for (const key of preset.categories) {
-        expect(
-          catalogKeys,
-          `${preset.id}: "${key}" is a legal category (catalog) key`,
-        ).toContain(key);
-        expect(seen.has(key), `${preset.id}: "${key}" listed once`).toBe(false);
-        seen.add(key);
-        const menuIndex = catalogOrder.findIndex((n) => n.key === key);
-        expect(
-          menuIndex,
-          `${preset.id}: "${key}" must follow the catalog menu order`,
-        ).toBeGreaterThan(cursor);
-        cursor = menuIndex;
-      }
-      if (preset.id === 'game-wiki') {
-        for (const key of preset.categories) {
-          expect(
-            CONTENT_TYPES,
-            'game-wiki categories stay inside NAVIGATION_CONFIG (game menu only)',
-          ).toContain(key);
-        }
-      }
+      expect(new Set(preset.categories).size, `${preset.id}: duplicate category`).toBe(
+        preset.categories.length,
+      );
     }
   });
 
-  test('every registry demo article exists on disk (forward direction)', () => {
+  test('every registry demo article was cleared from this fork', () => {
     for (const preset of Object.values(SITE_PRESETS)) {
       for (const [locale, files] of Object.entries(preset.demoArticles)) {
         for (const rel of files) {
           expect(
             existsSync(join(wikiBase, locale, rel)),
-            `${preset.id}: src/content/wiki/${locale}/${rel} is registered but missing — create it or fix the registry`,
-          ).toBe(true);
+            `${preset.id}: src/content/wiki/${locale}/${rel} is a preset demo and should be gone`,
+          ).toBe(false);
         }
       }
     }
   });
 
-  test('every registry demo cover exists in src/assets/covers (forward direction)', () => {
+  test('every registry demo cover was cleared from this fork', () => {
     for (const preset of Object.values(SITE_PRESETS)) {
       for (const name of preset.demoAssets) {
         expect(
           existsSync(join(coversBase, name)),
-          `${preset.id}: src/assets/covers/${name} is registered but missing — generate it (pnpm gen-covers) or fix the registry`,
-        ).toBe(true);
+          `${preset.id}: src/assets/covers/${name} is a preset demo cover and should be gone`,
+        ).toBe(false);
       }
     }
   });
@@ -1827,18 +1803,22 @@ describe('preset-aware rewriteLocaleJson (nav/overview labels + cross-preset key
     expect(out.nav.items).toBe('Tools');
   });
 
-  test('a game-wiki FIRST run over the REAL demo ja.json keeps its Japanese labels (zero-breaking)', () => {
-    // The shipped demo ja.json carries real Japanese nav labels (ボス…). The
-    // pre-preset overlay kept them on first runs; gating the overlay on
-    // re-runs regressed every non-default locale to English TitleCase
-    // placeholders ("Bosses" where ボス belongs). game-wiki must stay
-    // byte-identical to that behavior for every locale; only the
-    // preset-owned-key scenario (coupon → Deals) suppresses first-run
-    // labels. Reads the real src/locales/ja.json — synthetic English
-    // fixtures cannot catch this (their demo labels equal the defaults).
-    const realJa = readFileSync(join(repoRoot, 'src/locales/ja.json'), 'utf8');
-    const ja = JSON.parse(realJa) as { site: { name: string }; nav: Record<string, string> };
-    expect(ja.site.name).toBe('Anvil Quest Wiki'); // demo-marked → first run
+  test('a game-wiki FIRST run over a demo-marked ja locale keeps its Japanese labels', () => {
+    // src/locales/ja.json was removed (English-only). The labels are the ones
+    // that file carried: game-wiki keeps them on a first run, and a non-default
+    // preset still overrides the keys it owns. A synthetic English nav cannot
+    // catch this — those labels equal the TitleCase defaults.
+    const realJa = JSON.stringify({
+      site: { name: 'Anvil Quest Wiki' },
+      nav: {
+        home: 'ホーム',
+        bosses: 'ボス',
+        guides: 'ガイド',
+        items: 'アイテム',
+        codes: 'コード',
+        search: '検索',
+      },
+    });
     const out = JSON.parse(rewriteLocaleJson(makeInput({ siteType: 'game-wiki' }), 'ja', 2026, realJa));
     expect(out.nav.bosses).toBe('ボス');
     expect(out.nav.home).toBe('ホーム');
@@ -1928,44 +1908,21 @@ describe('preset home builders (coupon/tutorial) keep the game-wiki shape and wa
   });
 });
 
-describe('preset demo internal links whitelist (template side of the fork check-links gate)', () => {
-  // A fork's eight-gate CI runs `pnpm check-links` over dist/ (constraint a2),
-  // while LANDING_PATHS deletes /landing and the preset narrows the retained
-  // categories — so a demo article linking a deleted route or a category
-  // outside its preset's set would redden EVERY fork of that type on day one.
-  // The template repo gates the same fact statically: every internal markdown
-  // link in a registered demo must stay inside the owning preset's retained
-  // categories ∪ system pages (homepage/tags/recent/faq), and never /landing.
-  const SYSTEM_SEGMENTS = new Set(['tags', 'recent', 'faq']);
+describe('preset demo articles are cleared on this fork', () => {
+  // The template whitelist walked every registered demo MDX. Those files are
+  // gone, so the contract here is absence — one assertion per registry path,
+  // without counting the live articles being added alongside them.
   const wikiBase = join(repoRoot, 'src/content/wiki');
 
   for (const preset of Object.values(SITE_PRESETS)) {
     for (const [locale, files] of Object.entries(preset.demoArticles)) {
       for (const rel of files) {
         const full = `${locale}/${rel}`;
-        test(`${full}: links stay inside ${preset.id} retained categories ∪ system pages`, () => {
-          const raw = readFileSync(join(wikiBase, locale, rel), 'utf8');
-          const closing = raw.indexOf('\n---', 3);
-          const body = closing === -1 ? raw : raw.slice(closing + 4);
-          const links = Array.from(body.matchAll(/\]\((\/[^)\s]*)\)/g)).map((m) => m[1]);
+        test(`${full}: ${preset.id} demo article is not on disk`, () => {
           expect(
-            links.length,
-            `${full}: at least 3 internal links (content-format rule)`,
-          ).toBeGreaterThanOrEqual(3);
-          const base = locale === 'en' ? '' : `/${locale}`;
-          for (const href of links) {
-            const noAnchor = href.split('#')[0] ?? '';
-            if (noAnchor === '' || noAnchor === `${base}/`) continue; // same-page anchor / homepage
-            expect(
-              href.startsWith('/landing'),
-              `${full}: ${href} links the fork-deleted /landing routes`,
-            ).toBe(false);
-            const first = (noAnchor.slice(base.length).split('/').filter(Boolean)[0] ?? '');
-            expect(
-              preset.categories.includes(first) || SYSTEM_SEGMENTS.has(first),
-              `${full}: ${href} escapes the ${preset.id} whitelist (retained: ${preset.categories.join(', ')}; system: tags/recent/faq)`,
-            ).toBe(true);
-          }
+            existsSync(join(wikiBase, locale, rel)),
+            `${full} should have been cleared with the AnvilWiki demo`,
+          ).toBe(false);
         });
       }
     }

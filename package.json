@@ -59,7 +59,8 @@
     "check-links": "tsx scripts/check-links.ts",
     "check-versions": "tsx scripts/check-versions.ts",
     "check-content": "tsx scripts/check-content.ts",
-    "refresh-audit": "tsx scripts/refresh-audit.ts"
+    "refresh-audit": "tsx scripts/refresh-audit.ts",
+    "build-prompts": "tsx scripts/build-prompts.ts"
   },
   "dependencies": {
     "@astrojs/mdx": "^8.0.1",

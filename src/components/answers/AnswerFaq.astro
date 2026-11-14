@@ -1,0 +1,26 @@
+---
+import type { FaqItem } from './copy';
+import { getUi } from '~/i18n/ui';
+import { defaultLocale } from '~/i18n/routing';
+
+interface Props {
+  items: FaqItem[];
+}
+
+const { items } = Astro.props;
+const title = getUi(defaultLocale).shared.faqTitle;
+---
+
+<section aria-labelledby="answer-faq">
+  <h2 id="answer-faq" class="text-xl font-bold tracking-tight">{title}</h2>
+  <div class="glass mt-3 divide-y divide-border">
+    {
+      items.map((item) => (
+        <details class="p-4" open>
+          <summary class="cursor-pointer font-medium">{item.question}</summary>
+          <p class="mt-2 text-sm leading-relaxed">{item.answer}</p>
+        </details>
+      ))
+    }
+  </div>
+</section>

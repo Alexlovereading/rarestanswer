@@ -1,7 +1,10 @@
 import type { APIRoute } from 'astro';
 import { siteUrl } from '~/config/site';
 
+// Every crawler is allowed, including Googlebot, AdsBot-Google,
+// and Mediapartners-Google. Do not add a Disallow for those agents.
 const robotsTxt = `
+# Rarest Answer — ${siteUrl}
 User-agent: *
 Allow: /
 

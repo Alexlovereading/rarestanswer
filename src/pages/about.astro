@@ -1,9 +1,71 @@
 ---
 import LegalPage from '~/components/layout/LegalPage.astro';
-import LegalContent from '~/components/layout/LegalContent.astro';
 import { defaultLocale } from '~/i18n/routing';
+import { site } from '~/config/site';
 ---
 
-<LegalPage locale={defaultLocale} title="About" lastUpdated="2026-08-11">
-  <LegalContent page="about" />
+<LegalPage
+  locale={defaultLocale}
+  title="About"
+  description="What Rarest Answer is, how the rarest correct answer scores, and what this site does and does not claim."
+  lastUpdated="2026-11-14"
+>
+  <p>
+    {site.name} is the home of {site.game.name}, a free daily trivia game you play in the browser.
+    A prompt asks you to name something that fits. Every accepted answer is correct. A rarer correct
+    answer scores higher than the name almost everyone types first.
+  </p>
+  <h2>What you can do here</h2>
+  <ul>
+    <li>
+      Play the shared daily round on the <a href="/">homepage</a>.
+    </li>
+    <li>
+      Keep practicing in <a href="/unlimited/">unlimited mode</a>, or pick one category under trivia.
+    </li>
+    <li>
+      Read the <a href="/guides/how-to-play-rarest-answer/">rules</a>, the
+      <a href="/guides/how-to-find-rare-answers/">guide to finding rare answers</a>, and
+      <a href="/guides/rarest-answer-strategy/">strategy</a>.
+    </li>
+    <li>
+      Compare other <a href="/guides/best-daily-trivia-games/">daily trivia games</a> and
+      <a href="/games/">games like this one</a>.
+    </li>
+  </ul>
+  <h2>How a correct answer scores</h2>
+  <p>
+    Scores use six tiers. Common is 5 points, Familiar is 10, Uncommon is 20, Rare is 40, Epic is
+    70, and Legendary is 100. Tier 6 is the rarest. Once each round, a Spotlight boost doubles the
+    points for a single prompt. The full table and the difference between the daily round and
+    unlimited play are on the <a href="/guides/how-to-play-rarest-answer/">how to play</a> page.
+  </p>
+  <h2>What this site is not</h2>
+  <p>
+    {site.game.name} is an independent game. Pages about other games, including Krillion and the
+    Roblox experience Rarest Answer Party, are unofficial guides. They are not written by those
+    creators, and they are not affiliated with them, with Roblox, or with the shows and puzzles
+    they mention. {site.legalNotice}
+  </p>
+  <p>
+    We do not invent codes, point tables, release dates, or creator names. If a public page does
+    not state a rule, the guide says so instead of filling the gap. The
+    <a href="/guides/rarest-answer-party-roblox/">Roblox page</a> quotes the experience description
+    and a dated read of Roblox's games API. Live player counts on that page will move.
+  </p>
+  <h2>Where the answers come from</h2>
+  <p>
+    Each prompt has a fixed list of accepted answers and a rarity rank inside that list. A sample
+    prompt, "Name a species of great ape," ships with the site so the guides can show real names.
+    Its source label is still a fixture, and the popularity figures in that file are placeholders,
+    so the <a href="/guides/how-to-find-rare-answers/">finding guide</a> uses the names and tier
+    order and says when a biological fact comes from Wikipedia instead. Character notes for
+    Stranger Things follow the same rule: no scored prompt is published yet, so that guide cites
+    the Wikipedia cast list and does not pretend to be a rarity ranking.
+  </p>
+  <h2>Contact</h2>
+  <p>
+    You do not need an account to read the guides or to play. Streaks and round stats are stored in
+    your browser. Corrections and questions go through the <a href="/contact/">contact page</a>.
+  </p>
 </LegalPage>

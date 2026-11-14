@@ -1,17 +1,20 @@
 
-# Cloudflare Pages configuration for local preview with Wrangler.
+# Cloudflare Pages configuration for Rarest Answer.
 #
-# Usage:
+# `name` is the Cloudflare Pages project name.
+# Build command: `pnpm build`. Output directory: `dist`.
+#
+# Local preview:
 #   pnpm build
 #   npx wrangler pages dev dist
 #
-# This file is optional — Cloudflare Pages auto-detects Astro when you
-# connect your GitHub repo via the dashboard. Use this only for local
-# preview or `wrangler pages deploy`.
+# While this file exists, [vars] is the only env source Cloudflare Pages
+# reads. Same-named dashboard variables are ignored. SITE_URL must stay
+# an absolute https URL.
 #
 # Reference: https://developers.cloudflare.com/pages/functions/wrangler-configuration/
 
-name = "anvilwiki"
+name = "rarestanswer"
 compatibility_date = "2026-08-11"
 pages_build_output_dir = "dist"
 

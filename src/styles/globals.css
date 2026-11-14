@@ -5,62 +5,149 @@
 /**
  * Theme color variables — the ONLY place to change colors when re-theming.
  *
- * 👉 RE-THEME: Change ONLY these 4 lines (2 in :root, 2 in .dark).
- * All other CSS variables and all components reference these via var().
- * Do NOT hardcode hex/rgba/Tailwind color classes elsewhere.
+ * Brand retheme: the 4 --brand* lines in :root and the 4 in .dark.
+ * Everything else references those, or the tier/gold tokens below.
+ * Do NOT hardcode hex/rgba/Tailwind palette classes in components.
+ *
+ * Tier tokens (--tier-1 … --tier-6) are HSL components. Use hsl(var(--tier-n)).
+ *   1 Common · 2 Familiar · 3 Uncommon · 4 Rare · 5 Epic · 6 Legendary
+ * Light mode values are fill colors; white text on a solid fill is ≥ 5:1.
+ * Dark mode values are bright text/border colors on the night background.
+ * For a filled chip in dark mode use a 16% tint and the token as the text
+ * color (see .tier-pill). Do not put white text on a solid dark-mode tier fill.
+ *
+ * --gold is the legendary mark color (bright on the indigo gem). It is not
+ * body text on a light page.
  */
 @layer base {
   :root {
-    /* Light mode theme color — Anvil orange (forge fire). */
-    --brand: 263 70% 50%;
-    --brand-light: 263 70% 60%;
-    /* Split H/S for derived shades (e.g. darker button backgrounds). */
-    --brand-h: 263;
-    --brand-s: 70%;
-    /* Text-safe shade of the brand: --brand at 52% lightness is only 3.1:1
-       on white (WCAG AA needs 4.5:1 for text). Derived from the H/S splits,
-       so fork themes that only edit --brand/--brand-light stay consistent. */
-    --brand-text: var(--brand-h) var(--brand-s) 40%;
+    /* Light mode — deep indigo vault. */
+    --brand: 246 64% 34%;
+    --brand-light: 246 78% 62%;
+    --brand-h: 246;
+    --brand-s: 64%;
+    /* Text-safe brand on the light page (about 12:1 on the page background). */
+    --brand-text: var(--brand-h) var(--brand-s) 30%;
+
+    --tier-1: 220 9% 42%;
+    --tier-2: 174 62% 28%;
+    --tier-3: 152 56% 30%;
+    --tier-4: 217 72% 36%;
+    --tier-5: 272 58% 40%;
+    --tier-6: 40 74% 32%;
+    --gold: 43 92% 58%;
+    --caution: 32 88% 36%;
   }
 
   .dark {
-    /* Dark mode theme color — slightly deeper. */
-    --brand: 263 65% 46%;
-    --brand-light: 263 65% 56%;
-    --brand-h: 263;
-    --brand-s: 65%;
-    --brand-text: var(--brand-h) var(--brand-s) 52%;
+    /* Dark mode — lighter indigo so links clear the night background. */
+    --brand: 248 78% 72%;
+    --brand-light: 248 90% 80%;
+    --brand-h: 248;
+    --brand-s: 78%;
+    --brand-text: var(--brand-h) var(--brand-s) 76%;
+
+    --tier-1: 220 10% 74%;
+    --tier-2: 174 52% 62%;
+    --tier-3: 152 46% 60%;
+    --tier-4: 212 90% 72%;
+    --tier-5: 272 85% 78%;
+    --tier-6: 43 92% 62%;
+    --gold: 43 92% 62%;
+    --caution: 38 92% 62%;
   }
 }
 
-/* Other design tokens — these reference --brand, so they auto-follow theme changes. */
+/* Self-hosted OFL faces. No third-party stylesheet. Licenses: public/fonts/OFL-*.txt */
+@font-face {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/fraunces-600.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/fraunces-700.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/fraunces-800.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/source-sans-3-400.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/source-sans-3-500.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/source-sans-3-600.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Other design tokens — surfaces follow the indigo, not a neutral gray. */
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222 47% 11%;
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
-    --border: 214 32% 91%;
+    --background: 240 40% 98%;
+    --foreground: 246 42% 11%;
+    --muted: 245 32% 95%;
+    --muted-foreground: 246 14% 38%;
+    --border: 245 24% 88%;
     --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card-foreground: 246 42% 11%;
+    --radius: 0.875rem;
   }
 
   .dark {
-    --background: 222 47% 7%;
-    --foreground: 210 40% 98%;
-    --muted: 217 33% 14%;
-    --muted-foreground: 215 20% 65%;
-    --border: 217 33% 18%;
-    --card: 222 47% 10%;
-    --card-foreground: 210 40% 98%;
+    --background: 246 46% 6%;
+    --foreground: 240 33% 97%;
+    --muted: 246 32% 12%;
+    --muted-foreground: 246 16% 72%;
+    --border: 246 28% 18%;
+    --card: 246 38% 9%;
+    --card-foreground: 240 33% 97%;
   }
 
-  /* AMOLED black (html.dark.black) — pure-black surfaces for OLED phones:
-     saves battery and many players prefer it. Only overrides surface tones;
-     brand/foreground inherit from .dark. */
+  /* AMOLED black (html.dark.black) — pure-black surfaces for OLED phones.
+     Brand, tiers, and foreground inherit from .dark. */
   .black {
     --background: 0 0% 0%;
-    --muted: 0 0% 10%;
+    --muted: 0 0% 8%;
     --border: 0 0% 16%;
     --card: 0 0% 4%;
   }
@@ -71,88 +158,209 @@
     border-color: hsl(var(--border));
   }
 
-  body {
-    background-color: hsl(var(--background));
-    color: hsl(var(--foreground));
-    font-feature-settings:
-      'rlig' 1,
-      'calt' 1;
-  }
-
-  /* Prevent FOUC: apply dark class before paint. */
   html {
     color-scheme: light;
   }
   html.dark {
     color-scheme: dark;
   }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Source Sans 3', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+    background-image:
+      radial-gradient(ellipse 80% 42% at 0% -8%, hsl(var(--brand) / 0.09), transparent 58%),
+      radial-gradient(ellipse 55% 36% at 100% 0%, hsl(var(--gold) / 0.08), transparent 52%);
+    background-repeat: no-repeat;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
+  }
+
+  html.black body {
+    background-image: none;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: Fraunces, 'Iowan Old Style', Palatino, Georgia, serif;
+    font-optical-sizing: auto;
+    letter-spacing: -0.02em;
+  }
+
+  h1 {
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--brand-light));
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background: hsl(var(--brand) / 0.22);
+  }
+}
+
+/* Full-bleed play/hero pages. LocaleLayout sets this when fullBleed is true;
+   BaseLayout also marks body[data-layout="full-bleed"]. */
+body[data-layout='full-bleed'] #main {
+  width: 100%;
+  max-width: none;
+  padding: 0;
 }
 
 /* Utility classes referencing the theme token. */
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
-    /* Button background needs white text contrast ≥ 4.5:1 (WCAG AA).
-       --brand (52% lightness) gives only 3.1:1, so we darken it
-       to ~40% for button backgrounds. This does NOT change --brand
-       itself — it's a derived value for buttons only. */
+    @apply inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-semibold text-white transition;
     background-color: hsl(var(--brand-h) var(--brand-s) 40%);
   }
   .btn-primary:hover {
-    background-color: hsl(var(--brand-h) var(--brand-s) 35%);
+    background-color: hsl(var(--brand-h) var(--brand-s) 34%);
   }
 
-  /* Floating pill variant of btn-primary (landing community QR widget) —
-     same AA-safe darkened brand background, rounded + shadowed. */
   .btn-fab {
-    @apply inline-flex items-center justify-center gap-2 rounded-full px-4 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-4 py-2.5 text-sm font-semibold text-white shadow-lg transition;
     background-color: hsl(var(--brand-h) var(--brand-s) 40%);
   }
   .btn-fab:hover {
-    background-color: hsl(var(--brand-h) var(--brand-s) 35%);
+    background-color: hsl(var(--brand-h) var(--brand-s) 34%);
   }
 
   .btn-outline {
-    @apply inline-flex items-center justify-center rounded-md border border-border bg-background px-4 py-2 text-sm font-medium transition hover:bg-muted;
+    @apply inline-flex items-center justify-center rounded-full border border-border bg-background/80 px-4 py-2 text-sm font-semibold transition hover:bg-muted;
   }
 
   .card {
-    @apply rounded-lg border bg-card text-card-foreground transition hover:border-nav/50 hover:shadow-md;
+    border-radius: var(--radius);
+    border: 1px solid hsl(var(--border) / 0.9);
+    background-color: hsl(var(--card) / 0.72);
+    color: hsl(var(--card-foreground));
+    box-shadow:
+      inset 0 1px 0 hsl(0 0% 100% / 0.45),
+      0 16px 40px -28px hsl(var(--brand-h) var(--brand-s) 28% / 0.45);
+    backdrop-filter: blur(14px);
+  }
+  .dark .card {
+    background-color: hsl(var(--card) / 0.62);
+    box-shadow:
+      inset 0 1px 0 hsl(0 0% 100% / 0.05),
+      0 18px 40px -28px hsl(0 0% 0% / 0.7);
   }
 
-  /* Unified section vertical rhythm — use on all homepage sections. */
+  .glass {
+    border-radius: var(--radius);
+    border: 1px solid hsl(var(--border) / 0.9);
+    background-color: hsl(var(--card) / 0.7);
+    box-shadow: inset 0 1px 0 hsl(0 0% 100% / 0.4);
+    backdrop-filter: blur(16px);
+  }
+  .dark .glass {
+    background-color: hsl(var(--card) / 0.55);
+    box-shadow: inset 0 1px 0 hsl(0 0% 100% / 0.05);
+  }
+
+  .empty-panel {
+    border-radius: calc(var(--radius) + 0.25rem);
+    border: 1px dashed hsl(var(--border));
+    background-color: hsl(var(--card) / 0.55);
+  }
+
+  .notice-caution {
+    border: 1px solid hsl(var(--caution) / 0.45);
+    background-color: hsl(var(--caution) / 0.12);
+    color: hsl(var(--foreground));
+  }
+
+  /* Filled rarity chip. data-tier="1"…"6". Copy is the caller's text. */
+  .tier-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border-radius: 999px;
+    padding: 0.125rem 0.625rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: hsl(0 0% 100%);
+  }
+  .tier-pill[data-tier='1'] { background-color: hsl(var(--tier-1)); }
+  .tier-pill[data-tier='2'] { background-color: hsl(var(--tier-2)); }
+  .tier-pill[data-tier='3'] { background-color: hsl(var(--tier-3)); }
+  .tier-pill[data-tier='4'] { background-color: hsl(var(--tier-4)); }
+  .tier-pill[data-tier='5'] { background-color: hsl(var(--tier-5)); }
+  .tier-pill[data-tier='6'] { background-color: hsl(var(--tier-6)); }
+  .dark .tier-pill[data-tier='1'],
+  .dark .tier-pill[data-tier='2'],
+  .dark .tier-pill[data-tier='3'],
+  .dark .tier-pill[data-tier='4'],
+  .dark .tier-pill[data-tier='5'],
+  .dark .tier-pill[data-tier='6'] {
+    color: hsl(var(--tier-1));
+    background-color: hsl(var(--tier-1) / 0.16);
+  }
+  .dark .tier-pill[data-tier='2'] { color: hsl(var(--tier-2)); background-color: hsl(var(--tier-2) / 0.16); }
+  .dark .tier-pill[data-tier='3'] { color: hsl(var(--tier-3)); background-color: hsl(var(--tier-3) / 0.16); }
+  .dark .tier-pill[data-tier='4'] { color: hsl(var(--tier-4)); background-color: hsl(var(--tier-4) / 0.16); }
+  .dark .tier-pill[data-tier='5'] { color: hsl(var(--tier-5)); background-color: hsl(var(--tier-5) / 0.16); }
+  .dark .tier-pill[data-tier='6'] { color: hsl(var(--tier-6)); background-color: hsl(var(--tier-6) / 0.16); }
+
+  .mark-tile {
+    fill: hsl(var(--brand-h) var(--brand-s) 32%);
+  }
+  .mark-star {
+    fill: hsl(var(--gold));
+  }
+  .mark-facet {
+    fill: hsl(var(--brand-h) var(--brand-s) 22%);
+  }
+
   .section {
     @apply mx-auto max-w-7xl px-4 py-12 md:py-16;
   }
 
-  /* Mobile table fix: GFM tables inside prose (boss stats, loadouts, drop
-     rates) easily exceed narrow viewports. Making the table itself a
-     scrollable block lets readers swipe horizontally instead of seeing a
-     broken, squeezed layout. Applies to ALL prose tables site-wide. */
   .prose table {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 
-  /* Markdown body images (`![alt](/images/...)`) aren't processed by Astro
-     Image, so they arrive without intrinsic width/height attributes and
-     cause layout shift when they load. Reserving a 16:9 box pre-load keeps
-     CLS at 0 — pair with 16:9 source images (800×450 recommended); other
-     aspect ratios are letterboxed, never cropped. :not([class]) scopes this
-     to plain markdown <img>; component images (video thumbnails etc.) carry
-     utility classes and are excluded. */
   .prose img:not([class]) {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: contain;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     background-color: hsl(var(--muted));
   }
 }
 
-/* Print styles — readers printing long guides get clean content only:
-   no header/footer/ads/TOC/floating buttons, full-width article. */
+@media (prefers-reduced-motion: no-preference) {
+  a.card:not(.rounded-full) {
+    transition:
+      transform 180ms ease,
+      border-color 180ms ease,
+      box-shadow 180ms ease;
+  }
+  a.card:not(.rounded-full):hover {
+    transform: translateY(-2px);
+    border-color: hsl(var(--brand-h) var(--brand-s) 48% / 0.45);
+  }
+  .btn-fab:hover {
+    transform: scale(1.03);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.scroll-smooth {
+    scroll-behavior: auto;
+  }
+}
+
+/* Print styles — readers printing long guides get clean content only. */
 @media print {
   header,
   footer,
@@ -166,6 +374,9 @@
   [data-share-root] {
     display: none !important;
   }
+  body {
+    background-image: none !important;
+  }
   main {
     max-width: none !important;
     padding: 0 !important;
@@ -175,6 +386,3 @@
     overflow: visible;
   }
 }
-
-/* Theme initialization script — runs before paint to avoid FOUC. */
-/* The actual <script> is injected in BaseLayout.astro. */

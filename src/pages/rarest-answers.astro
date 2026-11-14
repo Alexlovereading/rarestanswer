@@ -1,0 +1,51 @@
+---
+/**
+ * /rarest-answers/ — every prompt with its rarest correct answer.
+ * Prompt JSON is loaded in ~/components/answers/prompts.ts.
+ */
+import AnswerHub from '~/components/answers/AnswerHub.astro';
+import LocaleLayout from '~/components/layout/LocaleLayout.astro';
+import {
+  HUB_PATH,
+  HUB_TITLE,
+  answerAbsolute,
+  getPrompts,
+  hubDescription,
+} from '~/components/answers/prompts';
+import { defaultLocale, locales } from '~/i18n/routing';
+import { getUi } from '~/i18n/ui';
+import { pageTitle, simpleBreadcrumbJsonLd, urlListJsonLd } from '~/lib/seo';
+import { languageAlternates } from '~/lib/url';
+
+const prompts = getPrompts();
+const ui = getUi(defaultLocale);
+const description = hubDescription(prompts);
+const alternates = languageAlternates(() => HUB_PATH, locales);
+const list = urlListJsonLd({
+  name: HUB_TITLE,
+  items: prompts.map((prompt) => ({
+    title: prompt.heading,
+    url: answerAbsolute(prompt.slug),
+  })),
+});
+const jsonLd = [
+  ...(prompts.length > 0 ? [{ ...list, numberOfItems: prompts.length }] : []),
+  simpleBreadcrumbJsonLd({
+    pageLabel: ui.nav.rarestAnswers,
+    path: HUB_PATH,
+    locale: defaultLocale,
+    homeLabel: ui.nav.home,
+  }),
+];
+---
+
+<LocaleLayout
+  locale={defaultLocale}
+  title={pageTitle(HUB_TITLE)}
+  description={description}
+  alternates={alternates}
+  jsonLd={jsonLd}
+  noindex={prompts.length === 0}
+>
+  <AnswerHub prompts={prompts} />
+</LocaleLayout>

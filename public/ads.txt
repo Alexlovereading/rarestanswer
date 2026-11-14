@@ -1,10 +1,11 @@
-# ads.txt — authorized digital sellers.
+# ads.txt for Rarest Answer (rarestanswer.com).
+# Authorized digital sellers.
 #
 # BEFORE AdSense approval: leave this file comments-only (that is valid —
 # a placeholder pub-ID would be an INVALID data line).
 #
-# AFTER AdSense approves your site: replace pub-XXXXXXXXXXXXXXXX with your
-# real publisher ID (shown in the AdSense dashboard) and DELETE the leading
+# AFTER AdSense approves this site: replace pub-XXXXXXXXXXXXXXXX with the
+# publisher ID shown in the AdSense dashboard and DELETE the leading
 # "#" from the line below:
 #
 # google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

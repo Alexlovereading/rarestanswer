@@ -1,39 +1,105 @@
 ---
 /**
- * Root index — handles the default-locale (English) homepage.
- *
- * Demo builds replace the default-locale homepage with the project storefront
- * gateway (RootGateway: meta-refresh to /zh/landing/ + canonical + full
- * OG/twitter card); the English wiki homepage lives at /demo/ instead. Forks
- * (apply-template / setup.yml flip landingLinkEnabled to false when removing
- * the landing layer) take the HomePage branch and inline-render the homepage
- * with no redirect — that branch is the fork's only live path, byte-identical
- * to the pre-gateway behavior. With `prefixDefaultLocale: false`, the root
- * URL `/` maps here directly (not to /en/); we render inline rather than
- * redirecting because a redirect adds a round-trip and hurts LCP.
- *
- * Both import targets below SURVIVE fork initialization — RootGateway.astro
- * is statically imported here, so build-time module resolution runs even when
- * landingLinkEnabled is false: deleting it breaks fork builds (see the
- * component's docstring; pinned by tests/redirects.test.ts + e2e tripwire).
- *
- * Non-default locales use /ja/ etc., handled by src/pages/[locale]/index.astro.
+ * Daily play page. The English homepage is the game. RootGateway stays on
+ * disk for the fork survive pin, and this page does not render it.
  */
-import HomePage from '~/components/home/HomePage.astro';
-import RootGateway from '~/components/RootGateway.astro';
-import { landingLinkEnabled } from '~/config/project';
+import LocaleLayout from '~/components/layout/LocaleLayout.astro';
+import GameApp from '~/components/game/GameApp.astro';
+import GameFaq from '~/components/game/GameFaq.astro';
+import RelatedLinks from '~/components/game/RelatedLinks.astro';
+import TierTable from '~/components/game/TierTable.astro';
+import { HOME, HOME_FAQ, HOW_TO_STEPS } from '~/lib/game/copy';
+import { CATEGORY_PAGE_LIST } from '~/lib/game/category-copy';
+import { site, siteUrl } from '~/config/site';
 import { defaultLocale, locales } from '~/i18n/routing';
-import { videoGameJsonLd, websiteJsonLd } from '~/lib/seo';
+import { faqPageJsonLd, videoGameJsonLd, websiteJsonLd } from '~/lib/seo';
 import { homeUrl, languageAlternates } from '~/lib/url';
 
 const locale = defaultLocale;
-const jsonLd = [websiteJsonLd(locale), videoGameJsonLd()];
-// hreflang alternates: Home → / (en) or /<locale> for each locale. In fork
-// builds homeUrl('en') is '/' — identical to the historical output; in demo
-// builds the gateway branch below wins and these are never rendered.
 const alternates = languageAlternates((loc) => homeUrl(loc), locales);
-
-const isGateway = landingLinkEnabled;
+const webApp: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: site.game.name,
+  url: `${siteUrl}/`,
+  applicationCategory: 'GameApplication',
+  operatingSystem: 'Web',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  isAccessibleForFree: true,
+  description: HOME.description,
+  inLanguage: 'en',
+};
+const jsonLd: Record<string, unknown>[] = [
+  websiteJsonLd(locale),
+  videoGameJsonLd(),
+  webApp,
+  faqPageJsonLd([...HOME_FAQ]),
+];
+const links = [
+  { href: '/unlimited/', label: 'Rarest Answer game unlimited' },
+  ...CATEGORY_PAGE_LIST.map((page) => ({ href: `/trivia/${page.key}/`, label: page.h1 })),
+  { href: '/rarest-answers/', label: 'Rarest answers, prompt by prompt' },
+  { href: '/games/games-like-krillion/', label: 'Games like Krillion' },
+  { href: '/guides/how-to-find-rare-answers/', label: 'How to find rare answers' },
+];
 ---
 
-{isGateway ? <RootGateway /> : <HomePage locale={locale} jsonLd={jsonLd} alternates={alternates} />}
+<LocaleLayout
+  locale={locale}
+  title={HOME.title}
+  description={HOME.description}
+  alternates={alternates}
+  jsonLd={jsonLd}
+  fullBleed
+>
+  <div data-pagefind-body>
+    <header class="mx-auto max-w-3xl px-4 pt-6 sm:pt-10">
+      <p class="text-sm font-semibold text-nav">{HOME.kicker}</p>
+      <h1 class="mt-2 text-balance text-3xl font-black tracking-tight text-foreground sm:text-4xl">
+        {HOME.h1}
+      </h1>
+      <p class="mt-3 max-w-2xl text-base text-foreground sm:text-lg">{HOME.intro}</p>
+    </header>
+  </div>
+
+  <div class="mx-auto mt-6 max-w-3xl px-4">
+    <GameApp mode="daily">
+      <a
+        slot="end"
+        class="btn-primary flex h-12 w-full items-center justify-center"
+        href="/unlimited/"
+      >
+        Play unlimited
+      </a>
+      <a slot="end" class="btn-outline flex h-12 w-full items-center justify-center" href="#ways">
+        Pick a category
+      </a>
+    </GameApp>
+  </div>
+
+  <div data-pagefind-body class="mx-auto mt-16 max-w-3xl px-4 pb-16">
+    <section>
+      <h2 class="text-2xl font-bold tracking-tight text-foreground">
+        How the Rarest Answer game works
+      </h2>
+      <p class="mt-3 text-foreground">
+        Rarity is scored inside the prompt. A name is common or legendary only next to the other
+        accepted answers, using public Wikipedia pageviews as the signal. The round is saved in this
+        browser. There is no account.
+      </p>
+      <ol class="mt-4 list-decimal space-y-3 pl-5 text-foreground">
+        {HOW_TO_STEPS.map((step) => <li>{step}</li>)}
+      </ol>
+    </section>
+
+    <section class="mt-16" id="tiers">
+      <h2 class="text-2xl font-bold tracking-tight text-foreground">Scoring tiers</h2>
+      <div class="mt-4">
+        <TierTable />
+      </div>
+    </section>
+
+    <RelatedLinks id="ways" title="More ways to play" links={links} />
+    <GameFaq title="Rarest Answer questions" items={HOME_FAQ} />
+  </div>
+</LocaleLayout>

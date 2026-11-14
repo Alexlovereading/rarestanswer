@@ -1,9 +1,53 @@
 ---
 import LegalPage from '~/components/layout/LegalPage.astro';
-import LegalContent from '~/components/layout/LegalContent.astro';
 import { defaultLocale } from '~/i18n/routing';
+import { site } from '~/config/site';
+
+const email = 'contact@rarestanswer.com';
+const year = new Date().getFullYear();
 ---
 
-<LegalPage locale={defaultLocale} title="Copyright" lastUpdated="2026-08-11">
-  <LegalContent page="copyright" />
+<LegalPage
+  locale={defaultLocale}
+  title="Copyright"
+  description="Copyright for Rarest Answer: original text, the MIT software license, Wikidata (CC0), and Wikipedia pageviews."
+  lastUpdated="2026-11-14"
+>
+  <h2>Original text</h2>
+  <p>
+    © {year} {site.game.name}. Guides and other original writing published on this site are
+    published by {site.game.name}. Quote them with credit and a link to the page you used.
+  </p>
+  <h2>Software</h2>
+  <p>
+    The site software is built on AnvilWiki. That template is MIT licensed. Copyright (c) 2026
+    AnvilWiki contributors. The MIT copyright and permission notice is in the LICENSE file at the
+    root of this repository and is repeated in the README. The MIT grant covers the software. It
+    does not transfer anyone else's game names or Wikipedia article text.
+  </p>
+  <h2>Wikidata and Wikipedia</h2>
+  <p>
+    Structured data taken from
+    <a href="https://www.wikidata.org/wiki/Wikidata:Licensing">Wikidata</a> is used under CC0. We
+    use <a href="https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews">Wikipedia pageview counts</a>
+    as a popularity signal when a prompt's <code>source</code> says the dataset has been built. A
+    prompt marked <code>fixture</code> still has placeholder numbers. This site does not republish
+    Wikipedia article text. Wikipedia's own text is under its own license, which is separate from
+    CC0.
+  </p>
+  <h2>Other games</h2>
+  <p>
+    Names of other games, including Krillion, are the property of their owners. They appear here
+    so a guide can identify the game it is describing. {site.legalNotice} This site is not
+    affiliated with Krillion or with any other game named here, and it claims no ownership of
+    those names, logos, or artwork.
+  </p>
+  <h2>DMCA and takedown</h2>
+  <p>
+    If you believe something on this site infringes your copyright, email
+    <a href={`mailto:${email}`}>{email}</a>
+    with the URL of the page, a description of the work, and a way to reach you. We will review
+    valid requests. Copyright questions can also start from the
+    <a href="/contact/">contact page</a>, which publishes the same address.
+  </p>
 </LegalPage>

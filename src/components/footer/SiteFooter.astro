@@ -1,13 +1,14 @@
 ---
 /**
- * Site footer — social links, legal links, copyright.
- * All text comes from locale JSON (footer.* namespace).
+ * Site footer — trivia categories, reading links, legal, data credit.
+ * Labels come from locale JSON. External socials render only when the
+ * URL is set and is not this site.
  */
-import { Icon } from 'astro-icon/components';
-import { site } from '~/config/site';
+import { site, siteUrl } from '~/config/site';
 import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
-import { localizePath, recentPath, tagsPath } from '~/lib/url';
+import { homeUrl, localizePath, recentPath, tagsPath } from '~/lib/url';
+import BrandMark from '~/components/layout/BrandMark.astro';
 
 interface Props {
   locale: Locale;
@@ -15,59 +16,104 @@ interface Props {
 const { locale } = Astro.props;
 const ui = getUi(locale);
 const footer = ui.footer;
-// Reuse the shared labels (recentTitle / allTags exist in every locale) —
-// /recent and /tags used to be orphan pages with zero internal inbound links.
 const shared = ui.shared;
+const nav = ui.nav;
 
-const socials = ([
-  { key: 'playGame', href: site.social.official, icon: 'lucide:external-link' },
-  { key: 'officialDiscord', href: site.social.discord, icon: 'lucide:message-circle' },
-  { key: 'officialYoutube', href: site.social.youtube, icon: 'lucide:youtube' },
-  { key: 'officialTwitter', href: site.social.twitter, icon: 'lucide:twitter' },
-  { key: 'officialReddit', href: site.social.reddit, icon: 'lucide:globe' },
-] satisfies Array<{ key: keyof typeof footer; href: string | undefined; icon: string }>).filter((s) => s.href);
+const selfHosts = new Set(
+  [siteUrl, `https://${site.domain}`, `http://${site.domain}`].map((u) => u.replace(/\/$/, '')),
+);
 
-const legalLinks: Array<keyof typeof footer> = ['about', 'faq', 'privacyPolicy', 'termsOfService', 'copyright', 'contact'];
+type SocialLink = {
+  key: 'officialDiscord' | 'officialYoutube' | 'officialTwitter' | 'officialReddit' | 'playGame';
+  href: string;
+};
+const socials = (
+  [
+    { key: 'officialDiscord', href: site.social.discord },
+    { key: 'officialYoutube', href: site.social.youtube },
+    { key: 'officialTwitter', href: site.social.twitter },
+    { key: 'officialReddit', href: site.social.reddit },
+    { key: 'playGame', href: site.social.official },
+  ] as Array<{ key: SocialLink['key']; href: string | undefined }>
+).filter(
+  (s): s is SocialLink =>
+    typeof s.href === 'string' && s.href.length > 0 && !selfHosts.has(s.href.replace(/\/$/, '')),
+);
+
+const triviaKeys = [
+  'geography',
+  'animals',
+  'food',
+  'sports',
+  'screen',
+  'music',
+  'science',
+  'history',
+] as const;
+
+const readLinks = [
+  { href: homeUrl(locale), label: nav.play },
+  { href: localizePath('/unlimited/', locale), label: nav.unlimited },
+  { href: localizePath('/rarest-answers/', locale), label: nav.rarestAnswers },
+  { href: localizePath('/games/', locale), label: nav.games },
+  { href: localizePath('/guides/', locale), label: nav.guides },
+  { href: recentPath(locale), label: shared.recentTitle },
+  { href: tagsPath(locale), label: shared.allTags },
+];
+
+const legalLinks: Array<{ key: keyof typeof footer; path: string }> = [
+  { key: 'about', path: '/about/' },
+  { key: 'faq', path: '/faq/' },
+  { key: 'privacyPolicy', path: '/privacy-policy/' },
+  { key: 'termsOfService', path: '/terms-of-service/' },
+  { key: 'copyright', path: '/copyright/' },
+  { key: 'contact', path: '/contact/' },
+];
 ---
 
-<footer class="mt-16 border-t border-border bg-muted/30">
+<footer class="mt-16 border-t border-border bg-muted/40">
   <div class="mx-auto max-w-7xl px-4 py-10">
-    <div class="grid gap-8 md:grid-cols-3">
-      {/* Brand */}
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
       <div>
-        <div class="flex items-center gap-2 font-bold">
-          <Icon name="lucide:hammer" class="h-6 w-6 text-nav" />
+        <a href={homeUrl(locale)} class="flex items-center gap-2 font-display text-lg font-semibold">
+          <BrandMark class="h-7 w-7" />
           <span>{site.name}</span>
-        </div>
+        </a>
         <p class="mt-2 text-sm text-muted-foreground">{site.tagline}</p>
-        <p class="mt-3 text-xs">
-          <a href={recentPath(locale)} class="text-foreground/70 transition hover:text-nav">
-            {shared.recentTitle}
-          </a>
-          <span class="mx-1 text-muted-foreground">·</span>
-          <a href={tagsPath(locale)} class="text-foreground/70 transition hover:text-nav">
-            {shared.allTags}
-          </a>
-        </p>
+        <p class="mt-3 text-xs text-muted-foreground">{footer.dataAttribution}</p>
+        {
+          socials.length > 0 && (
+            <ul class="mt-3 space-y-2">
+              {socials.map((s) => (
+                <li>
+                  <a
+                    href={s.href}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    class="text-sm text-foreground/80 transition hover:text-nav"
+                  >
+                    {footer[s.key]}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )
+        }
       </div>
 
-      {/* Socials */}
       <div>
         <h2 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
-          {footer.community ?? 'Community'}
+          {footer.trivia}
         </h2>
-        <ul class="mt-3 space-y-2">
+        <ul class="mt-3 grid grid-cols-2 gap-x-3 gap-y-2">
           {
-            socials.map((s) => (
+            triviaKeys.map((key) => (
               <li>
                 <a
-                  href={s.href}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  class="inline-flex items-center gap-2 text-sm text-foreground/80 transition hover:text-nav"
+                  href={localizePath(`/trivia/${key}/`, locale)}
+                  class="text-sm text-foreground/80 transition hover:text-nav"
                 >
-                  <Icon name={s.icon} class="h-4 w-4" />
-                  {footer[s.key]}
+                  {shared.categories[key]}
                 </a>
               </li>
             ))
@@ -75,21 +121,36 @@ const legalLinks: Array<keyof typeof footer> = ['about', 'faq', 'privacyPolicy',
         </ul>
       </div>
 
-      {/* Legal */}
       <div>
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground">{footer.legal ?? 'Legal'}</h2>
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+          {footer.read}
+        </h2>
         <ul class="mt-3 space-y-2">
           {
-            legalLinks.map((key) => (
+            readLinks.map((link) => (
+              <li>
+                <a href={link.href} class="text-sm text-foreground/80 transition hover:text-nav">
+                  {link.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+          {footer.legal}
+        </h2>
+        <ul class="mt-3 space-y-2">
+          {
+            legalLinks.map((item) => (
               <li>
                 <a
-                  href={localizePath(
-                    `/${key === 'privacyPolicy' ? 'privacy-policy' : key === 'termsOfService' ? 'terms-of-service' : key}`,
-                    locale,
-                  )}
+                  href={localizePath(item.path, locale)}
                   class="text-sm text-foreground/80 transition hover:text-nav"
                 >
-                  {footer[key]}
+                  {footer[item.key]}
                 </a>
               </li>
             ))
@@ -99,12 +160,7 @@ const legalLinks: Array<keyof typeof footer> = ['about', 'faq', 'privacyPolicy',
     </div>
 
     <div class="mt-8 space-y-1 border-t border-border pt-6">
-      {/* Copyright line and the fan-site legal notice are SEPARATE lines —
-          a `copyrightText ?? legalNotice` short-circuit left forks (whose
-          CLI rewrites copyrightText without the disclaimer) with no notice. */}
-      {footer.copyrightText && (
-        <p class="text-xs text-muted-foreground">{footer.copyrightText}</p>
-      )}
+      {footer.copyrightText && <p class="text-xs text-muted-foreground">{footer.copyrightText}</p>}
       {site.legalNotice && <p class="text-xs text-muted-foreground">{site.legalNotice}</p>}
     </div>
   </div>

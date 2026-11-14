@@ -1,0 +1,66 @@
+---
+import TierChip from './TierChip.astro';
+import { formatRarity, formatViews, wikipediaUrl, type PromptSeo } from './copy';
+
+interface Props {
+  prompt: PromptSeo;
+}
+
+const { prompt } = Astro.props;
+const countLabel =
+  prompt.answers.length === 1 ? '1 answer' : `${prompt.answers.length} answers`;
+---
+
+<section aria-labelledby="ranked-answers">
+  <h2 id="ranked-answers" class="text-xl font-bold tracking-tight">Ranked answers</h2>
+  <div
+    class="mt-3 overflow-x-auto"
+    tabindex="0"
+    role="region"
+    aria-label="Answers ranked from rarest to most common"
+  >
+    <table class="w-full min-w-[40rem] border-collapse text-sm">
+      <caption class="caption-top mb-2 text-left text-sm text-muted-foreground">
+        {countLabel} to “{prompt.question}”, rarest first. A rarity of 1 is the rarest answer in this
+        prompt.
+      </caption>
+      <thead>
+        <tr class="border-b border-border text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+          <th scope="col" class="px-3 py-2 font-semibold">Rank</th>
+          <th scope="col" class="px-3 py-2 font-semibold">Answer</th>
+          <th scope="col" class="px-3 py-2 font-semibold">Tier</th>
+          <th scope="col" class="px-3 py-2 text-right font-semibold">Rarity</th>
+          <th scope="col" class="px-3 py-2 text-right font-semibold" aria-describedby="views-note">
+            Monthly Wikipedia views
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          prompt.answers.map((answer, index) => (
+            <tr class="border-b border-border last:border-0">
+              <td class="px-3 py-2 tabular-nums text-muted-foreground">{index + 1}</td>
+              <th scope="row" class="px-3 py-2 text-left font-medium">
+                {answer.wiki ? (
+                  <a class="text-nav hover:underline" href={wikipediaUrl(answer.wiki)}>
+                    {answer.name}
+                    <span class="sr-only"> on Wikipedia</span>
+                  </a>
+                ) : (
+                  answer.name
+                )}
+              </th>
+              <td class="px-3 py-2">
+                <TierChip tier={answer.tier} />
+              </td>
+              <td class="px-3 py-2 text-right tabular-nums">{formatRarity(answer.rarity)}</td>
+              <td class="whitespace-nowrap px-3 py-2 text-right tabular-nums">
+                {formatViews(answer.popularity)}
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+</section>

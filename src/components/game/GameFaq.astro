@@ -1,0 +1,50 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+interface Props {
+  title: string;
+  items: readonly FaqItem[];
+}
+
+const { title, items } = Astro.props;
+---
+
+<section id="faq" class="mt-16">
+  <h2 class="text-2xl font-bold tracking-tight text-foreground">{title}</h2>
+  <div class="mt-4 space-y-2" data-game-faq>
+    {
+      items.map((item) => (
+        <details class="group rounded-lg border bg-card">
+          <summary
+            class="flex cursor-pointer list-none items-center justify-between gap-3 p-4 font-medium text-foreground"
+            aria-expanded="false"
+          >
+            {item.question}
+            <Icon
+              name="lucide:chevron-down"
+              class="h-4 w-4 shrink-0 transition group-open:rotate-180"
+              aria-hidden="true"
+            />
+          </summary>
+          <p class="px-4 pb-4 text-sm text-foreground">{item.answer}</p>
+        </details>
+      ))
+    }
+  </div>
+</section>
+
+<script is:inline>
+  document.querySelectorAll('[data-game-faq] details').forEach(function (node) {
+    var sync = function () {
+      var summary = node.querySelector('summary');
+      if (summary) summary.setAttribute('aria-expanded', node.open ? 'true' : 'false');
+    };
+    sync();
+    node.addEventListener('toggle', sync);
+  });
+</script>

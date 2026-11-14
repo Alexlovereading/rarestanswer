@@ -1,0 +1,17 @@
+---
+/**
+ * Filled tier chip. W1-UI owns the paint: `.tier-pill` + `data-tier`
+ * reads `--tier-1` … `--tier-6` (HSL components) and switches fill vs
+ * tint between light and dark. The visible text is the tier name.
+ */
+import { TIERS, type Answer } from '~/lib/game/types';
+
+interface Props {
+  tier: Answer['tier'];
+}
+
+const { tier } = Astro.props;
+const name = TIERS.find((row) => row.tier === tier)?.name ?? `Tier ${tier}`;
+---
+
+<span class="tier-pill" data-tier={tier}>{name}</span>

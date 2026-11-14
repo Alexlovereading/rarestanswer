@@ -1,0 +1,45 @@
+---
+/**
+ * /answers/<slug>/ — one prompt, answers ranked rarest to most common.
+ * Paths come from src/data/prompts/*.json (fixture now, full set later).
+ */
+import PromptArticle from '~/components/answers/PromptArticle.astro';
+import { answerCrumbJsonLd, answerPath, getPrompt, getPrompts } from '~/components/answers/prompts';
+import LocaleLayout from '~/components/layout/LocaleLayout.astro';
+import { defaultLocale, locales } from '~/i18n/routing';
+import { getUi } from '~/i18n/ui';
+import { faqPageJsonLd, pageTitle } from '~/lib/seo';
+import { languageAlternates } from '~/lib/url';
+
+export function getStaticPaths() {
+  return getPrompts().map((prompt) => ({
+    params: { slug: prompt.slug },
+  }));
+}
+
+const slug = Astro.params.slug ?? '';
+const prompt = getPrompt(slug);
+if (!prompt) throw new Error(`No prompt data for /answers/${slug}/`);
+
+const ui = getUi(defaultLocale);
+const alternates = languageAlternates(() => answerPath(prompt.slug), locales);
+const jsonLd = [
+  faqPageJsonLd(prompt.faq),
+  answerCrumbJsonLd({
+    homeLabel: ui.nav.home,
+    hubLabel: ui.nav.rarestAnswers,
+    crumb: prompt.crumb,
+    path: answerPath(prompt.slug),
+  }),
+];
+---
+
+<LocaleLayout
+  locale={defaultLocale}
+  title={pageTitle(prompt.heading)}
+  description={prompt.description}
+  alternates={alternates}
+  jsonLd={jsonLd}
+>
+  <PromptArticle prompt={prompt} />
+</LocaleLayout>

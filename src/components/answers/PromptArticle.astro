@@ -1,0 +1,127 @@
+---
+import { Icon } from 'astro-icon/components';
+import AnswerFaq from './AnswerFaq.astro';
+import AnswerTable from './AnswerTable.astro';
+import QuickAnswer from './QuickAnswer.astro';
+import { categoryLabel, type PromptSeo } from './copy';
+import {
+  HUB_PATH,
+  answerPath,
+  hubCategoryPath,
+  playPath,
+  relatedPrompts,
+  triviaPath,
+} from './prompts';
+import { getUi } from '~/i18n/ui';
+import { defaultLocale } from '~/i18n/routing';
+import { homeUrl } from '~/lib/url';
+
+interface Props {
+  prompt: PromptSeo;
+}
+
+const { prompt } = Astro.props;
+const ui = getUi(defaultLocale);
+const label = categoryLabel(prompt.category);
+const related = relatedPrompts(prompt);
+const shown = related.slice(0, 6);
+const pagefindTitle = prompt.heading.replace(/:/g, ' -');
+---
+
+<article
+  class="mx-auto min-w-0 max-w-3xl"
+  data-pagefind-body
+  data-pagefind-meta={`title:${pagefindTitle}`}
+>
+  <nav class="text-sm text-muted-foreground" aria-label={ui.shared.breadcrumbAria}>
+    <a href={homeUrl(defaultLocale)} class="hover:text-nav">{ui.nav.home}</a>
+    <span class="mx-1">/</span>
+    <a href={HUB_PATH} class="hover:text-nav">{ui.nav.rarestAnswers}</a>
+    <span class="mx-1">/</span>
+    <span class="break-words text-foreground" aria-current="page">{prompt.crumb}</span>
+  </nav>
+
+  <p class="mt-4 text-sm font-semibold uppercase tracking-wider text-nav">
+    <a class="hover:underline" href={hubCategoryPath(prompt.category)}>{label}</a>
+  </p>
+  <h1 class="mt-2 text-3xl font-extrabold tracking-tight md:text-4xl">{prompt.heading}</h1>
+  <p class="mt-4 leading-relaxed">{prompt.intro}</p>
+
+  <div class="mt-10">
+    <QuickAnswer prompt={prompt} />
+  </div>
+  <p id="views-note" class="mt-3 text-sm leading-relaxed text-muted-foreground">{prompt.viewsNote}</p>
+
+  <div class="mt-10">
+    <AnswerTable prompt={prompt} />
+  </div>
+
+  <div class="mt-10">
+    <AnswerFaq items={prompt.faq} />
+  </div>
+
+  <section class="mt-10" aria-labelledby="play-prompt">
+    <h2 id="play-prompt" class="text-xl font-bold tracking-tight">Play</h2>
+    <p class="mt-2 text-sm leading-relaxed text-muted-foreground">
+      Unlimited mode uses this prompt. A rarer correct answer scores more.
+    </p>
+    <div class="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+      <a class="btn-primary gap-2" href={playPath(prompt.slug)}>
+        <Icon name="lucide:play" class="h-4 w-4" aria-hidden="true" />
+        Play this prompt
+      </a>
+      <a class="btn-outline gap-2" href={triviaPath(prompt.category)}>
+        <Icon name="lucide:list" class="h-4 w-4" aria-hidden="true" />
+        {label} trivia
+      </a>
+    </div>
+  </section>
+
+  <section class="mt-10" aria-labelledby="related-prompts">
+    <h2 id="related-prompts" class="text-xl font-bold tracking-tight">More {label} prompts</h2>
+    {
+      shown.length > 0 ? (
+        <ul class="mt-3 grid list-none gap-2 p-0 sm:grid-cols-2">
+          {shown.map((item) => {
+            const rare = item.answers[0];
+            return (
+              <li class="min-w-0">
+                <a
+                  href={answerPath(item.slug)}
+                  class="card block h-full p-3 hover:border-nav/40"
+                >
+                  <span class="font-medium">{item.question}</span>
+                  {rare && (
+                    <span class="mt-1 block text-sm text-muted-foreground">
+                      Rarest answer: {rare.name}
+                    </span>
+                  )}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      ) : (
+        <p class="mt-3 text-sm text-muted-foreground">No other prompts in {label} yet.</p>
+      )
+    }
+    <p class="mt-3 text-sm">
+      <a class="text-nav hover:underline" href={hubCategoryPath(prompt.category)}>
+        All {label} prompts
+      </a>
+    </p>
+  </section>
+
+  <section class="mt-10" aria-labelledby="sources">
+    <h2 id="sources" class="text-xl font-bold tracking-tight">Sources</h2>
+    <p class="mt-3 text-sm leading-relaxed">{prompt.sourceNote}</p>
+    <ul class="mt-3 flex list-none flex-col gap-1 p-0 text-sm">
+      <li>
+        <a class="text-nav hover:underline" href="https://www.wikidata.org/">Wikidata</a>
+      </li>
+      <li>
+        <a class="text-nav hover:underline" href="https://en.wikipedia.org/">English Wikipedia</a>
+      </li>
+    </ul>
+  </section>
+</article>

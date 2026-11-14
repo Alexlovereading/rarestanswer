@@ -11,41 +11,45 @@ interface Props {
 const { page } = Astro.props;
 const game = site.game.name;
 const year = new Date().getFullYear();
+const officialHref = site.social.official?.replace(/\/$/, '') ?? '';
+const officialIsSelf =
+  officialHref === `https://${site.domain}` || officialHref === `http://${site.domain}`;
 ---
 
 {
   page === 'about' && (
     <>
       <p>
-        {site.name} is a fan-made community wiki dedicated to {game}, a {site.game.genre} on{' '}
-        {site.game.platform} developed by {site.game.developer}. Our mission is to provide accurate,
-        up-to-date guides, tips, and reference material to help players get the most out of the
-        game.
+        {site.name} is a free daily trivia game you play in the browser. Each prompt has many
+        correct answers. A rarer correct answer scores more.
       </p>
-      <h2>What We Cover</h2>
-      <ul>
-        <li>Boss strategies and attack patterns</li>
-        <li>Item locations, stats, and crafting recipes</li>
-        <li>Active redeemable codes (updated daily)</li>
-        <li>Tier lists and build recommendations</li>
-        <li>Progression guides for new and returning players</li>
-      </ul>
-      <h2>Community-Driven</h2>
       <p>
-        This wiki is maintained by volunteers. If you spot an error or have content to contribute,
-        join our Discord and let us know. All content is freely accessible — no account required.
+        The site also publishes guides for the game and unofficial pages about other daily trivia
+        games. Those pages are not affiliated with or endorsed by the games they describe.
+      </p>
+      <h2>What you can do here</h2>
+      <ul>
+        <li>Play the daily round</li>
+        <li>Play Unlimited, or a single trivia category</li>
+        <li>Read lists of rarest answers</li>
+        <li>Read guides on how to play and how to find rare answers</li>
+      </ul>
+      <h2>Where the answers come from</h2>
+      <p>
+        Prompt lists are compiled from Wikidata (CC0) and Wikipedia pageview counts. An answer is
+        ranked only against the other answers to the same prompt. A real name can be missing when
+        that public data does not include it. The sample prompt still on the site is marked as a
+        fixture, and its popularity numbers are placeholders, not live pageviews.
       </p>
       <h2>Contact</h2>
       <p>
-        Reach us via our{' '}
-        <a href={site.social.discord} target="_blank" rel="noopener noreferrer">
-          Discord server
-        </a>{' '}
-        or{' '}
-        <a href={site.social.official} target="_blank" rel="noopener noreferrer">
-          the game's official channels
-        </a>
-        .
+        {site.contactEmail ? (
+          <>
+            Email <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.
+          </>
+        ) : (
+          <>No separate contact email is published on this site.</>
+        )}
       </p>
     </>
   )
@@ -65,8 +69,8 @@ const year = new Date().getFullYear();
       </p>
       <h2>Third-Party Services</h2>
       <p>
-        We use third-party services that may collect information as described in their respective
-        privacy policies:
+        When a third-party service is enabled, it may collect information as described in its own
+        privacy policy. Nothing in the list below loads unless that service is configured:
       </p>
       <ul>
         <li>
@@ -125,20 +129,20 @@ const year = new Date().getFullYear();
       </p>
       <h2>Accuracy</h2>
       <p>
-        We strive for accuracy but make no warranties regarding the completeness or correctness of
-        any content. {game} is frequently updated, and information may become outdated. Always
-        verify critical information in-game.
+        Guides and answer lists can be incomplete or out of date. Rarity ranks come from public
+        pageview statistics and can change. Check the game you are playing for its own rules. {game}{' '}
+        does not promise that every valid answer is in a list.
       </p>
       <h2>Third-Party Links</h2>
       <p>
-        This site links to external websites (official game channels, video tutorials, etc.) that we
-        do not control. We are not responsible for the content or practices of third-party sites.
+        This site may link to other websites. We do not control those sites and are not responsible
+        for their content or practices.
       </p>
       <h2>Trademarks</h2>
       <p>
-        {game} and all related trademarks, logos, and assets are the property of{' '}
-        {site.game.developer}. {site.name} is an independent fan project and is not affiliated with
-        or endorsed by {site.game.developer}.
+        Names of other games mentioned on this site belong to their owners. Pages about those games
+        are unofficial and are not affiliated with or endorsed by them. {site.name} is an
+        independent site.
       </p>
       <h2>Limitation of Liability</h2>
       <p>
@@ -159,27 +163,35 @@ const year = new Date().getFullYear();
     <>
       <h2>Copyright Notice</h2>
       <p>
-        © {year} {site.name}. All original articles, guides, and written content on this site are
-        the intellectual property of {site.name} and its contributors.
+        © {year} {site.name}. Original articles and guides on this site belong to their authors.
       </p>
-      <h2>Game Assets</h2>
+      <h2>Answer data</h2>
       <p>
-        {game}, including its name, logo, characters, artwork, and other related assets, is the
-        property of {site.game.developer}. All {game} content is used on this wiki under fair use
-        for the purpose of providing informational guides to players. {site.name} claims no
-        ownership of any {game} intellectual property.
+        Answer lists use Wikidata and public Wikipedia pageview statistics. Wikidata is available
+        under CC0. Pageview figures describe public readership. They are not a hand-written score.
       </p>
+      <h2>Other games</h2>
+      <p>
+        Trademarks of other games remain with their owners. This site does not claim those names or
+        any artwork that belongs to them.
+      </p>
+      <p>{site.legalNotice}</p>
       <h2>DMCA / Takedown</h2>
       <p>
-        If you believe any content on this site infringes your copyright, please contact us via our{' '}
-        <a href={site.social.discord} target="_blank" rel="noopener noreferrer">
-          Discord server
-        </a>{' '}
-        with a detailed description of the allegedly infringing material. We will review and respond
-        to valid requests promptly.
+        If you believe content on this site infringes your copyright, send a description of the
+        material and where it appears
+        {site.contactEmail ? (
+          <>
+            {' '}
+            to <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.
+          </>
+        ) : (
+          <>
+            . No separate email is published yet — use the{' '}
+            <a href="/contact/">contact page</a>.
+          </>
+        )}
       </p>
-      <h2>Fan-Made Notice</h2>
-      <p>{site.legalNotice}</p>
     </>
   )
 }
@@ -189,16 +201,18 @@ const year = new Date().getFullYear();
     <>
       {/* h2, not h1 — LegalPage already renders the page H1 (single-H1 rule). */}
       <h2>Contact {site.name}</h2>
-      <p>
-        {site.name} is a fan-made wiki. Reach us or contribute through any of the channels below.
-      </p>
-      <h2>Community</h2>
+      <p>{site.name} is a free daily trivia game and the guides published with it.</p>
       <ul>
-        {site.social.official && (
+        {site.contactEmail && (
           <li>
-            <strong>Official game website:</strong>{' '}
-            <a href={site.social.official} target="_blank" rel="noopener noreferrer">
-              {site.social.official}
+            <strong>Email:</strong> <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
+          </li>
+        )}
+        {officialHref && (
+          <li>
+            <strong>{officialIsSelf ? 'Site' : 'Official site'}:</strong>{' '}
+            <a href={site.social.official} rel="noopener noreferrer">
+              {officialHref}
             </a>
           </li>
         )}
@@ -206,7 +220,7 @@ const year = new Date().getFullYear();
           <li>
             <strong>Discord:</strong>{' '}
             <a href={site.social.discord} target="_blank" rel="noopener noreferrer">
-              Join our server
+              {site.social.discord}
             </a>
           </li>
         )}
@@ -214,7 +228,7 @@ const year = new Date().getFullYear();
           <li>
             <strong>Reddit:</strong>{' '}
             <a href={site.social.reddit} target="_blank" rel="noopener noreferrer">
-              r/{site.game.name.replace(/\s+/g, '')}
+              {site.social.reddit}
             </a>
           </li>
         )}
@@ -222,25 +236,15 @@ const year = new Date().getFullYear();
           <li>
             <strong>YouTube:</strong>{' '}
             <a href={site.social.youtube} target="_blank" rel="noopener noreferrer">
-              {site.name} channel
+              {site.social.youtube}
             </a>
           </li>
         )}
-        {site.contactEmail && (
-          <li>
-            <strong>Email:</strong> <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
-          </li>
-        )}
       </ul>
-      <h2>Contributing</h2>
+      {!site.contactEmail && <p>No separate contact email is published on this site.</p>}
+      <h2>Copyright requests</h2>
       <p>
-        Found a typo or outdated info? Want to add a guide? This wiki is open source — submit changes
-        via pull requests or through any channel listed above.
-      </p>
-      <h2>Reporting Issues</h2>
-      <p>
-        For copyright or takedown requests, see our{' '}
-        <a href="/copyright/">Copyright page</a>.
+        For takedown requests, see the <a href="/copyright/">Copyright page</a>.
       </p>
     </>
   )

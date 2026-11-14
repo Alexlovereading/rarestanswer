@@ -1,9 +1,125 @@
 ---
 import LegalPage from '~/components/layout/LegalPage.astro';
-import LegalContent from '~/components/layout/LegalContent.astro';
 import { defaultLocale } from '~/i18n/routing';
+import { site } from '~/config/site';
+
+const email = 'contact@rarestanswer.com';
 ---
 
-<LegalPage locale={defaultLocale} title="Privacy Policy" lastUpdated="2026-08-11">
-  <LegalContent page="privacy-policy" />
+<LegalPage
+  locale={defaultLocale}
+  title="Privacy Policy"
+  description="Privacy policy for Rarest Answer: localStorage stats, no account, Wikidata and Wikipedia data, and optional analytics, ads, and comments."
+  lastUpdated="2026-11-14"
+>
+  <p>
+    This privacy policy describes how {site.game.name} ("we", "us", or "our") handles information
+    when you visit this website. {site.game.name} is a free trivia game you play in the browser.
+  </p>
+  <h2>No account</h2>
+  <p>
+    You do not create an account. The site does not ask for a name, email address, or password to
+    play or to read the guides. Streak and round stats stay in localStorage on this device. The
+    game does not upload those stats to a {site.game.name} server. Answer checking runs in the
+    browser against prompt data this site publishes. Clearing site data clears the stats. A
+    different browser does not have them.
+  </p>
+  <h2>What this browser stores</h2>
+  <p>localStorage on this device may hold:</p>
+  <ul>
+    <li>Game streak and round stats.</li>
+    <li>Theme choice (key <code>theme</code>).</li>
+    <li>
+      Cookie-consent choice (key <code>aw-cookie-consent</code>, value <code>accepted</code> or
+      <code>declined</code>).
+    </li>
+    <li>Dismissed ad or banner flags, when an ad unit is enabled and you close it.</li>
+    <li>
+      A per-page "was this helpful" flag on guide pages (key <code>aw-feedback-</code> plus the
+      page path).
+    </li>
+  </ul>
+  <p>
+    That storage stays on the device. It is not an account. If the browser blocks storage, the
+    game can still be played, and a saved streak will not persist.
+  </p>
+  <h2>Wikidata and Wikipedia</h2>
+  <p>
+    Prompt lists are compiled from
+    <a href="https://www.wikidata.org/wiki/Wikidata:Licensing">Wikidata</a> (CC0) and
+    <a href="https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews">Wikipedia pageview counts</a>.
+    The dataset is built ahead of time and published by this site. Playing a round does not send
+    your browser to Wikidata or to the pageviews API. We use pageview counts as a popularity
+    signal. We do not republish Wikipedia article text.
+  </p>
+  <p>
+    A prompt file can still be marked <code>source: fixture</code>. The sample "Name a species of
+    great ape" prompt is in that state. Popularity numbers on a fixture are placeholders, not live
+    pageviews. The <code>source</code> field on the prompt is the label to trust.
+  </p>
+  <h2>Third-party services</h2>
+  <p>
+    Advertising, analytics, and comments are off unless the matching environment variables are
+    set. In the <code>wrangler.toml</code> shipped with this repository, the AdSense, Adsterra,
+    Google Analytics, Cloudflare Web Analytics, VibeCafé, and giscus identifiers are blank, so a
+    build from that file does not load them. If a deployment fills them in, the services below can
+    collect information under their own policies.
+  </p>
+  <ul>
+    <li>
+      <strong>Advertising partners</strong> (e.g. Google AdSense, Adsterra) — may use cookies to
+      serve ads. AdSense and Adsterra units load only after you accept the cookie banner, and only
+      when the slot variables are set. You can refuse the banner. You can also limit ad
+      personalization in the browser.
+    </li>
+    <li>
+      <strong>Analytics</strong> (e.g. Google Analytics, Cloudflare Web Analytics, VibeCafé) —
+      Google Analytics may collect usage data such as page views and approximate location. It is
+      cookie-based and loads only after you accept the consent banner, and only when
+      <code>PUBLIC_GA_ID</code> is set. Cloudflare Web Analytics is cookieless, does not wait for
+      the banner, and loads only when <code>PUBLIC_CF_BEACON_TOKEN</code> is set. VibeCafé is
+      optional product telemetry. It loads only when both <code>PUBLIC_VIBECAFE_PRODUCT_ID</code>
+      and <code>PUBLIC_VIBECAFE_AUTH_KEY</code> are set, and it does not wait for the banner.
+    </li>
+    <li>
+      <strong>Cloudflare</strong> — the host. Cloudflare may process request data for security and
+      performance, and serves Web Analytics when that token is set.
+    </li>
+    <li>
+      <strong>Comments</strong> (giscus, opt-in) — the comment block renders only when the giscus
+      environment variables are set. When it is on, giscus.app loads an embedded GitHub view.
+      Viewing it exposes your IP address and browser information to that service. Signing in to
+      comment is handled by GitHub under GitHub's privacy policy.
+    </li>
+    <li>
+      <strong>Embedded videos</strong> (YouTube) — a page that includes a video loads a thumbnail
+      from i.ytimg.com and, after you press play, the player from youtube-nocookie.com. Until you
+      press play, that player does not set YouTube cookies.
+    </li>
+  </ul>
+  <h2>Cookies</h2>
+  <p>
+    The game itself does not use an account cookie. Third-party services listed above set cookies
+    only when they actually load. You can block cookies in the browser. Blocking them does not
+    remove the guides or stop a round from running. It can stop personalized ads.
+  </p>
+  <h2>Children</h2>
+  <p>
+    {site.game.name} is not directed at children under 13. We do not knowingly collect personal
+    information from children.
+  </p>
+  <h2>Affiliation</h2>
+  <p>
+    {site.legalNotice} This site is not affiliated with Krillion or with any other game named here.
+  </p>
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy: <a href={`mailto:${email}`}>{email}</a>. The
+    <a href="/contact/">contact page</a> has the same address.
+  </p>
+  <h2>Changes</h2>
+  <p>
+    We may update this policy. The new text will be posted on this page with a new "Last updated"
+    date.
+  </p>
 </LegalPage>

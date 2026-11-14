@@ -1,0 +1,444 @@
+---
+/**
+ * Play surface for the daily round, unlimited mode, and one category.
+ * One instance per page. The client controller is src/lib/game/browser.ts.
+ * Ads stay out of this component; the template's env-gated slots live in
+ * the layout, outside the play card.
+ */
+import { Icon } from 'astro-icon/components';
+import { TIERS } from '~/lib/game/types';
+import { HOW_TO_STEPS } from '~/lib/game/copy';
+import { siteUrl } from '~/config/site';
+
+interface Props {
+  mode: 'daily' | 'unlimited' | 'category';
+  category?: string;
+}
+
+const { mode, category = '' } = Astro.props;
+---
+
+<div
+  class="game-shell relative mx-auto min-h-[28rem] w-full max-w-xl touch-manipulation overflow-x-clip"
+  data-game-root
+  data-mode={mode}
+  data-category={category}
+  data-origin={siteUrl}
+>
+  <div
+    data-game-view="start"
+    class="rounded-2xl border bg-card p-4 text-card-foreground shadow-sm sm:p-6"
+  >
+    <p class="text-sm font-semibold text-nav">
+      {
+        mode === 'daily'
+          ? 'Daily round'
+          : mode === 'unlimited'
+            ? 'Unlimited round'
+            : 'Category round'
+      }
+    </p>
+    <p data-game-date class="mt-1 min-h-[1.5rem] text-lg font-semibold text-foreground">
+      Today's round
+    </p>
+    <dl class="mt-4 grid grid-cols-3 gap-2 text-center">
+      <div class="rounded-lg bg-muted px-2 py-3">
+        <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">Prompts</dt>
+        <dd
+          data-game-prompt-count
+          class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums text-foreground"
+        >
+          –
+        </dd>
+      </div>
+      <div class="rounded-lg bg-muted px-2 py-3">
+        <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">Streak</dt>
+        <dd
+          data-game-streak
+          class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums text-foreground"
+        >
+          –
+        </dd>
+      </div>
+      <div class="rounded-lg bg-muted px-2 py-3">
+        <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">Best</dt>
+        <dd
+          data-game-best
+          class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums text-foreground"
+        >
+          –
+        </dd>
+      </div>
+    </dl>
+    <p data-game-status class="mt-4 min-h-[2.5rem] text-sm text-foreground" role="status"></p>
+    <p data-game-start-countdown class="min-h-[1.5rem] text-sm font-medium tabular-nums text-nav">
+    </p>
+    <button type="button" data-game-play class="btn-primary mt-2 h-12 w-full text-base" disabled>
+      <span data-game-play-icon class="mr-2 inline-flex" aria-hidden="true">
+        <Icon name="lucide:play" class="h-4 w-4" />
+      </span>
+      <span data-game-play-label>Loading round</span>
+    </button>
+    <div class="mt-3 grid grid-cols-2 gap-2">
+      <button
+        type="button"
+        data-game-help-open
+        class="btn-outline h-11 text-sm"
+        aria-haspopup="dialog"
+      >
+        <Icon name="lucide:circle-help" class="mr-2 h-4 w-4" aria-hidden="true" />
+        How to play
+      </button>
+      <button
+        type="button"
+        data-game-notimer
+        class="btn-outline h-11 text-sm"
+        role="switch"
+        aria-checked="false"
+      >
+        <Icon name="lucide:timer" class="mr-2 h-4 w-4" aria-hidden="true" />
+        <span data-game-notimer-label>Timer on</span>
+      </button>
+    </div>
+    <noscript>
+      <p class="mt-3 text-sm text-foreground">
+        The round needs JavaScript. The rules under the game still explain how scoring works.
+      </p>
+    </noscript>
+  </div>
+
+  <div
+    data-game-view="play"
+    hidden
+    class="rounded-2xl border bg-card p-4 text-card-foreground shadow-sm sm:p-6"
+  >
+    <div class="flex items-center justify-between gap-3">
+      <p data-game-progress class="text-sm font-semibold text-nav">Prompt</p>
+      <div
+        data-game-timer
+        class="relative h-14 w-14 shrink-0"
+        role="timer"
+        aria-label="25 seconds left"
+      >
+        <svg viewBox="0 0 36 36" class="h-14 w-14" aria-hidden="true">
+          <circle class="ra-ring ra-ring-track" cx="18" cy="18" r="15.5" pathLength="100"></circle>
+          <circle
+            class="ra-ring ra-ring-value"
+            data-game-ring
+            cx="18"
+            cy="18"
+            r="15.5"
+            pathLength="100"
+            stroke-dasharray="100"
+            stroke-dashoffset="0"></circle>
+        </svg>
+        <span
+          data-game-seconds
+          class="pointer-events-none absolute inset-0 grid place-items-center text-sm font-bold tabular-nums text-foreground"
+          aria-hidden="true">25</span
+        >
+      </div>
+    </div>
+    <p
+      data-game-prompt-cat
+      class="mt-3 min-h-[1.25rem] text-xs font-semibold uppercase tracking-wide text-muted-foreground"
+    >
+    </p>
+    <h2
+      data-game-question
+      class="mt-1 min-h-[4.5rem] text-2xl font-bold tracking-tight text-foreground"
+    >
+      Loading prompt
+    </h2>
+    <button
+      type="button"
+      data-game-spotlight
+      class="btn-outline mt-4 h-12 w-full text-base"
+      aria-pressed="false"
+      aria-describedby="ra-spotlight-note"
+    >
+      <Icon name="lucide:sparkles" class="mr-2 h-4 w-4" aria-hidden="true" />
+      <span data-game-spotlight-label>Spotlight ×2</span>
+    </button>
+    <p id="ra-spotlight-note" class="mt-2 text-sm text-muted-foreground">
+      Doubles one prompt this round. Tap again to cancel. A miss does not spend it.
+    </p>
+    <form data-game-form class="mt-4" novalidate>
+      <label class="block">
+        <span class="sr-only">Your answer</span>
+        <input
+          data-game-input
+          class="h-14 w-full rounded-lg border border-border bg-background px-4 text-base text-foreground outline-none ring-nav placeholder:text-muted-foreground focus:ring-2"
+          type="text"
+          name="rarest-answer"
+          enterkeyhint="go"
+          autocomplete="off"
+          autocapitalize="off"
+          autocorrect="off"
+          spellcheck="false"
+          inputmode="text"
+          maxlength="120"
+          aria-describedby="ra-hint"
+        />
+      </label>
+      <p id="ra-hint" data-game-hint class="mt-2 min-h-[2.5rem] text-sm text-foreground">
+        Enter to guess. A wrong guess costs one second.
+      </p>
+      <div class="mt-3 grid grid-cols-[1fr_auto] gap-2">
+        <button type="submit" class="btn-primary h-12 text-base">Guess</button>
+        <button type="button" data-game-pass class="btn-outline h-12 px-4 text-base">Pass</button>
+      </div>
+    </form>
+  </div>
+
+  <div
+    data-game-view="reveal"
+    hidden
+    class="rounded-2xl border bg-card p-4 text-card-foreground shadow-sm sm:p-6"
+  >
+    <p
+      data-game-reveal-kicker
+      class="text-xs font-semibold uppercase tracking-wide text-muted-foreground"
+    >
+    </p>
+    <h2
+      data-game-reveal-tier
+      class="mt-1 text-3xl font-black tracking-tight text-foreground"
+      tabindex="-1"
+    >
+      Tier
+    </h2>
+    <p data-game-reveal-answer class="mt-2 text-base text-foreground"></p>
+    <p data-game-reveal-points class="mt-1 text-lg font-semibold tabular-nums text-nav"></p>
+    <div data-game-meter class="mt-4 flex gap-1.5" role="img" aria-label="Tier meter">
+      {TIERS.map((row) => <span class="ra-seg h-3 flex-1 rounded-full" data-tier={row.tier} />)}
+    </div>
+    <p data-game-could class="mt-4 text-sm text-foreground"></p>
+    <p data-game-rarer class="mt-1 min-h-[1.25rem] text-sm text-foreground" hidden></p>
+    <p class="mt-3">
+      <a data-game-answers class="text-sm font-semibold text-nav" href="/rarest-answers/"
+        >See every answer</a
+      >
+    </p>
+    <h3 class="mt-6 text-sm font-semibold text-foreground">Rarest answers</h3>
+    <ol data-game-rarest class="m-0 mt-2 flex list-none flex-col p-0"></ol>
+    <h3 class="mt-6 text-sm font-semibold text-foreground">Most common answers</h3>
+    <ol data-game-common class="m-0 mt-2 flex list-none flex-col p-0"></ol>
+    <button type="button" data-game-next class="btn-primary mt-6 h-12 w-full text-base"
+      >Next prompt</button
+    >
+  </div>
+
+  <div
+    data-game-view="end"
+    hidden
+    class="rounded-2xl border bg-card p-4 text-card-foreground shadow-sm sm:p-6"
+  >
+    <h2
+      data-game-final-heading
+      class="text-2xl font-black tracking-tight text-foreground"
+      tabindex="-1"
+    >
+      Round complete
+    </h2>
+    <p class="mt-2 text-sm text-muted-foreground">Total points</p>
+    <p data-game-final-score class="text-5xl font-black tabular-nums text-foreground">0</p>
+    <div data-game-grid class="mt-4 flex gap-2" role="img" aria-label="Result grid">
+      {
+        Array.from({ length: 7 }, () => (
+          <span class="ra-sq h-8 w-8 rounded-md" data-game-sq hidden aria-hidden="true" />
+        ))
+      }
+    </div>
+    <ul class="mt-4 divide-y divide-border">
+      {
+        TIERS.map((row) => (
+          <li class="flex items-center justify-between py-2 text-sm">
+            <span class="inline-flex items-center text-foreground">
+              <span
+                class="ra-sq mr-2 h-2.5 w-2.5 rounded-sm"
+                data-tier={row.tier}
+                aria-hidden="true"
+              />
+              {row.name}
+              <span class="text-muted-foreground"> · {row.points}</span>
+            </span>
+            <span
+              data-game-tier-count
+              data-tier={row.tier}
+              class="font-semibold tabular-nums text-foreground"
+            >
+              0
+            </span>
+          </li>
+        ))
+      }
+      <li class="flex items-center justify-between py-2 text-sm">
+        <span class="text-foreground">Passed</span>
+        <span data-game-tier-count data-tier="0" class="font-semibold tabular-nums text-foreground"
+          >0</span
+        >
+      </li>
+    </ul>
+    <p
+      data-game-countdown
+      class="mt-4 min-h-[1.5rem] text-sm font-medium tabular-nums text-nav"
+      hidden
+    >
+    </p>
+    <pre
+      data-game-share-preview
+      class="mt-4 overflow-x-auto whitespace-pre-wrap rounded-lg bg-muted p-3 font-sans text-sm text-foreground"
+      aria-label="Share text">
+    </pre>
+    <p data-game-share-status class="mt-2 min-h-[1.25rem] text-sm text-foreground" role="status">
+    </p>
+    <div class="mt-3 flex flex-col gap-2">
+      {
+        mode !== 'daily' && (
+          <button type="button" data-game-again class="btn-primary h-12 w-full text-base">
+            <Icon name="lucide:rotate-ccw" class="mr-2 h-4 w-4" aria-hidden="true" />
+            Play again
+          </button>
+        )
+      }
+      <button type="button" data-game-share class="btn-outline h-12 w-full text-base">
+        <Icon name="lucide:share-2" class="mr-2 h-4 w-4" aria-hidden="true" />
+        Share
+      </button>
+      <button type="button" data-game-copy class="btn-outline h-12 w-full text-base">
+        <Icon name="lucide:clipboard" class="mr-2 h-4 w-4" aria-hidden="true" />
+        Copy text
+      </button>
+      <button type="button" data-game-download class="btn-outline h-12 w-full text-base">
+        <Icon name="lucide:download" class="mr-2 h-4 w-4" aria-hidden="true" />
+        Save image
+      </button>
+    </div>
+    <div data-game-end-links class="mt-3 flex flex-col gap-2">
+      <slot name="end" />
+    </div>
+    <canvas data-game-canvas width="1200" height="630" class="hidden"></canvas>
+  </div>
+
+  <p class="sr-only" data-game-live aria-live="polite"></p>
+
+  <dialog
+    data-game-dialog
+    class="w-[min(100%,32rem)] rounded-2xl border bg-card p-6 text-card-foreground backdrop:bg-foreground/60"
+    aria-labelledby="ra-how-title"
+  >
+    <h2
+      id="ra-how-title"
+      data-game-dialog-title
+      class="text-xl font-bold text-foreground"
+      tabindex="-1"
+    >
+      How to play
+    </h2>
+    <ol class="mt-4 list-decimal space-y-3 pl-5 text-sm text-foreground">
+      {HOW_TO_STEPS.map((step) => <li>{step}</li>)}
+    </ol>
+    <button type="button" data-game-dialog-close class="btn-primary mt-6 h-11 w-full">Close</button>
+  </dialog>
+</div>
+
+<script>
+  import { mountGame } from '~/lib/game/browser';
+
+  document.querySelectorAll('[data-game-root]').forEach((node) => {
+    if (node instanceof HTMLElement) mountGame(node);
+  });
+</script>
+
+<style>
+  .ra-ring {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    transform-origin: center;
+    transform: rotate(-90deg);
+  }
+  .ra-ring-track {
+    stroke: hsl(var(--border));
+  }
+  .ra-ring-value {
+    stroke: hsl(var(--brand-h) var(--brand-s) 40%);
+  }
+  .ra-ring-value[data-low='true'] {
+    stroke: hsl(var(--foreground));
+  }
+  .ra-seg {
+    background: hsl(var(--muted));
+    transition: background-color 0.25s ease;
+  }
+  .ra-seg[data-on='true'][data-tier='1'] {
+    background: hsl(var(--tier-1));
+  }
+  .ra-seg[data-on='true'][data-tier='2'] {
+    background: hsl(var(--tier-2));
+  }
+  .ra-seg[data-on='true'][data-tier='3'] {
+    background: hsl(var(--tier-3));
+  }
+  .ra-seg[data-on='true'][data-tier='4'] {
+    background: hsl(var(--tier-4));
+  }
+  .ra-seg[data-on='true'][data-tier='5'] {
+    background: hsl(var(--tier-5));
+  }
+  .ra-seg[data-on='true'][data-tier='6'] {
+    background: hsl(var(--tier-6));
+  }
+  .ra-sq {
+    background: hsl(var(--muted));
+    border: 1px solid hsl(var(--border));
+  }
+  .ra-sq[data-tier='1'] {
+    background: hsl(var(--tier-1));
+    border-color: transparent;
+  }
+  .ra-sq[data-tier='2'] {
+    background: hsl(var(--tier-2));
+    border-color: transparent;
+  }
+  .ra-sq[data-tier='3'] {
+    background: hsl(var(--tier-3));
+    border-color: transparent;
+  }
+  .ra-sq[data-tier='4'] {
+    background: hsl(var(--tier-4));
+    border-color: transparent;
+  }
+  .ra-sq[data-tier='5'] {
+    background: hsl(var(--tier-5));
+    border-color: transparent;
+  }
+  .ra-sq[data-tier='6'] {
+    background: hsl(var(--tier-6));
+    border-color: transparent;
+  }
+  .ra-shake {
+    animation: ra-shake 0.28s ease;
+  }
+  @keyframes ra-shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-6px);
+    }
+    75% {
+      transform: translateX(6px);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ra-shake {
+      animation: none;
+    }
+    .ra-seg {
+      transition: none;
+    }
+  }
+</style>

@@ -1,9 +1,9 @@
 {
   "$schema": "../../docs/home.schema.json",
   "site": {
-    "name": "Rarest Answer Wiki",
-    "shortName": "RA Wiki",
-    "description": "Play Rarest Answer, a free daily trivia game where the rarest correct answer wins. Browse guides and similar daily games, plus how to find rare answers.",
+    "name": "Rarest Answer",
+    "shortName": "Rarest Answer",
+    "description": "Play Rarest Answer, a free daily trivia game where the rarest correct answer wins. Read guides and pages about similar daily games.",
     "tagline": "The daily trivia game where the rarest correct answer wins",
     "legalNotice": "Rarest Answer is an independent daily trivia game. Pages about other games are unofficial and are not affiliated with those games."
   },
@@ -14,20 +14,24 @@
     "close": "Close",
     "search": "Search",
     "language": "Language",
-    "games": "Games",
+    "mainMenu": "Main",
+    "play": "Play",
+    "unlimited": "Unlimited",
+    "rarestAnswers": "Rarest Answers",
+    "games": "Games like Krillion",
     "guides": "Guides"
   },
   "search": {
-    "placeholder": "Search the wiki...",
+    "placeholder": "Search guides and answers",
     "noResults": "No matches found",
     "loadError": "Search failed to load — refresh the page and try again."
   },
   "shared": {
     "lastUpdated": "Last updated",
     "publishedOn": "Published",
-    "noArticles": "No articles yet. Check back soon!",
-    "defaultListDescription": "Browse every {title} article — walkthroughs, tips, tier lists and up-to-date reference tables, all in one place.",
-    "relatedArticles": "Related Articles",
+    "noArticles": "Nothing here yet.",
+    "defaultListDescription": "Browse the {title} pages.",
+    "relatedArticles": "Related reading",
     "onThisPage": "On this page",
     "browseAll": "Browse all",
     "viewAll": "View all",
@@ -57,24 +61,24 @@
     },
     "codesFaq": [
       {
-        "question": "How do I redeem codes?",
-        "answer": "Open the game, click the settings gear in the top-right, paste your code into the Redeem Code field, and confirm. Codes are case-sensitive."
+        "question": "Does Rarest Answer use redeem codes?",
+        "answer": "No. Rarest Answer is a browser trivia game. There is nothing to redeem."
       },
       {
-        "question": "Why do codes stop working?",
-        "answer": "Codes expire on a schedule set by the developer (usually monthly or tied to update milestones), and some are one-per-account. This page is re-tested regularly."
+        "question": "Why is a codes table on this page?",
+        "answer": "This site does not publish redeem codes. If you see a code here, treat it as unrelated to Rarest Answer and check the page that actually owns it."
       },
       {
-        "question": "How often are new codes released?",
-        "answer": "New codes typically arrive with each major game update. Bookmark this page and check back after every patch."
+        "question": "Where do the trivia answers come from?",
+        "answer": "Answer lists are built from Wikidata. Rarity uses public Wikipedia pageview statistics. An answer is ranked only against the other answers to the same prompt."
       },
       {
-        "question": "Do codes expire?",
-        "answer": "Yes — most codes have an expiry date, shown next to each code. Expired codes move to the expired table below."
+        "question": "Do answers expire?",
+        "answer": "Trivia answers are not promo codes. A list can still be incomplete, and pageview ranks can change as people read different articles."
       }
     ],
     "possiblyOutdated": "This guide was last checked on",
-    "outdatedNote": "— the game may have changed since. Some details could be out of date.",
+    "outdatedNote": "— details may have changed since. Check the game itself before you rely on a rule.",
     "prevArticle": "Previous",
     "nextArticle": "Next",
     "minuteRead": "min read",
@@ -93,27 +97,27 @@
     "relatedVideos": "Related videos",
     "gallery": "Gallery",
     "gameVersion": "Game version",
-    "allTags": "All Tags",
-    "tagsIndexDescription": "Browse all articles by topic.",
+    "allTags": "All tags",
+    "tagsIndexDescription": "Topics used across the guides.",
     "articlesCount": "articles",
-    "recentTitle": "Recent Updates",
-    "recentDescription": "The latest articles and updates across the wiki, newest first.",
-    "sponsorTitle": "Support this wiki",
-    "sponsorText": "If these guides helped you, consider supporting the site.",
+    "recentTitle": "Recent updates",
+    "recentDescription": "Newest guides and game pages, latest first.",
+    "sponsorTitle": "Support this site",
+    "sponsorText": "If the game or the guides are useful, you can support the site.",
     "sponsorButton": "Support us",
-    "notFoundSearchHint": "Try searching the wiki instead.",
+    "notFoundSearchHint": "Try searching the site instead.",
     "notFoundPopular": "Popular pages",
-    "notFoundTitle": "404 - Page Not Found",
-    "notFoundDescription": "The page you are looking for does not exist.",
-    "notFoundHeading": "Page Not Found",
-    "notFoundText": "The page you are looking for might have been removed or is temporarily unavailable.",
-    "notFoundBackHome": "Back to home",
+    "notFoundTitle": "404 — Page not found",
+    "notFoundDescription": "That page is not on Rarest Answer.",
+    "notFoundHeading": "Page not found",
+    "notFoundText": "That page is missing or the address is wrong.",
+    "notFoundBackHome": "Back to play",
     "galleryLabels": {
       "close": "Close",
       "prev": "Previous image",
       "next": "Next image"
     },
-    "quickAnswer": "Quick Answer",
+    "quickAnswer": "Quick answer",
     "skipToContent": "Skip to content",
     "tapToCopy": "Tap to copy",
     "open": "Open",
@@ -122,7 +126,7 @@
     "gameTrailer": "trailer",
     "closeAd": "Close ad",
     "adLabel": "Advertisement",
-    "codesFaqTitle": "Codes FAQ",
+    "codesFaqTitle": "Questions",
     "faqTitle": "FAQ",
     "toggleTheme": "Toggle theme",
     "themeToggleTitle": "Light / Dark / AMOLED black",
@@ -131,33 +135,60 @@
     "feedbackYes": "Yes",
     "feedbackNo": "No",
     "breadcrumbAria": "Breadcrumb",
-    "wikiNavAria": "Wiki navigation",
-    "paginationAria": "Article pagination"
+    "wikiNavAria": "Guides",
+    "paginationAria": "Article pagination",
+    "spotlight": "Spotlight",
+    "categories": {
+      "geography": "Geography",
+      "animals": "Animals",
+      "food": "Food",
+      "sports": "Sports",
+      "screen": "Movies & TV",
+      "music": "Music",
+      "science": "Science",
+      "history": "History"
+    },
+    "tierNames": {
+      "1": "Common",
+      "2": "Familiar",
+      "3": "Uncommon",
+      "4": "Rare",
+      "5": "Epic",
+      "6": "Legendary"
+    }
   },
   "overview": {
     "games": {
-      "overviewTitle": "All Games",
-      "overviewDescription": "Games content for Rarest Answer. Replace this overview text in the locale JSON — it feeds the category page title and description."
+      "overviewTitle": "Games Like Krillion & Other Daily Trivia Games",
+      "overviewDescription": "Unofficial pages about games like Krillion and other daily trivia games, and how they sit next to Rarest Answer."
     },
     "guides": {
-      "overviewTitle": "All Guides",
-      "overviewDescription": "Guides content for Rarest Answer. Replace this overview text in the locale JSON — it feeds the category page title and description."
+      "overviewTitle": "Rarest Answer Guides & Strategy",
+      "overviewDescription": "Rarest Answer guides and strategy: how to play the daily trivia game and how to find rare answers."
     }
   },
   "home": {
     "meta": {
-      "title": "Rarest Answer Wiki — Guides, Bosses & Progression",
-      "description": "Play Rarest Answer, a free daily trivia game where the rarest correct answer wins. Browse guides and similar daily games, plus how to find rare answers."
+      "title": "Rarest Answer Game",
+      "description": "Play the free Rarest Answer game and guess the rarest correct answer. A daily trivia round, plus guides and pages about similar daily games."
     },
     "updates": {
-      "title": "Recent updates"
+      "title": "Latest guides"
     },
     "popular": {
-      "badge": "Popular",
-      "title": "Most read",
+      "badge": "Jump in",
+      "title": "Ways to play",
       "quickLinks": [
         {
-          "label": "Games",
+          "label": "Unlimited",
+          "href": "/unlimited"
+        },
+        {
+          "label": "Rarest Answers",
+          "href": "/rarest-answers"
+        },
+        {
+          "label": "Games like Krillion",
           "href": "/games"
         },
         {
@@ -167,89 +198,124 @@
       ]
     },
     "closingCta": {
-      "title": "Start your Rarest Answer journey",
-      "description": "Bookmark this wiki and check back after every game update.",
-      "primary": "Browse all",
-      "secondary": "Join the community"
+      "title": "Play today's round",
+      "description": "Seven prompts, the same for everyone on your local date. Rarer correct answers score more.",
+      "primary": "Play",
+      "secondary": "Read the guides"
     },
     "hero": {
-      "badge": "Rarest Answer",
-      "title": "Rarest Answer Wiki",
-      "description": "Complete Rarest Answer guides — bosses, items, and progression.",
-      "ctaPrimary": "Start reading",
-      "ctaSecondary": "Browse all",
+      "badge": "Daily trivia",
+      "title": "Rarest Answer",
+      "description": "A free daily trivia game. Every prompt has many correct answers, and the rarest correct answer wins.",
+      "ctaPrimary": "Play today's round",
+      "ctaSecondary": "Read the guides",
       "videoId": ""
     },
     "start": {
-      "badge": "Quick start",
-      "title": "New here?",
+      "badge": "Start here",
+      "title": "Play or read",
       "cards": [
         {
           "number": "1",
-          "title": "Games",
-          "description": "Browse games",
-          "icon": "lucide:book-open",
-          "href": "/games"
+          "title": "Play today",
+          "description": "Seven prompts in the daily round.",
+          "icon": "lucide:play",
+          "href": "/"
         },
         {
           "number": "2",
+          "title": "Unlimited",
+          "description": "Keep playing after the daily round.",
+          "icon": "lucide:repeat",
+          "href": "/unlimited"
+        },
+        {
+          "number": "3",
+          "title": "Games like Krillion",
+          "description": "Other daily trivia games, unofficial notes.",
+          "icon": "lucide:gamepad-2",
+          "href": "/games"
+        },
+        {
+          "number": "4",
           "title": "Guides",
-          "description": "Browse guides",
+          "description": "How to play and how to find rare answers.",
           "icon": "lucide:book-open",
           "href": "/guides"
         }
       ]
     },
     "explore": {
-      "title": "Explore",
-      "description": "Content modules",
+      "title": "How a round works",
+      "description": "Seven prompts. A rarer correct answer scores more.",
       "modules": [
         {
           "order": 1,
-          "name": "Getting started",
-          "description": "Step-by-step progression",
-          "href": "/guides",
+          "name": "One daily round",
+          "description": "The same seven prompts for everyone on your local date.",
+          "href": "/guides/how-to-play-rarest-answer",
           "displayType": "steps",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Finish the tutorial",
-              "badge": "5 min"
+              "label": "1",
+              "detail": "Read the prompt. It asks you to name something."
             },
             {
-              "label": "Step 2",
-              "detail": "Claim starter codes",
-              "badge": "1 min"
+              "label": "2",
+              "detail": "Type a correct answer. Rarer answers score more."
             },
             {
-              "label": "Step 3",
-              "detail": "First boss run",
-              "badge": "15 min"
+              "label": "3",
+              "detail": "After the daily round, play Unlimited or one category."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "FAQ",
-      "description": "Common questions",
-      "items": []
+      "title": "Rarest Answer FAQ",
+      "description": "How the daily round, scoring, and answer lists work.",
+      "items": [
+        {
+          "question": "Is Rarest Answer free?",
+          "answer": "Yes. The daily round, Unlimited mode, and the category rounds are free in the browser. There is no account."
+        },
+        {
+          "question": "When does the daily round change?",
+          "answer": "A new daily round starts at midnight in your own time zone. Everyone on the same local date gets the same seven prompts."
+        },
+        {
+          "question": "How does scoring work?",
+          "answer": "A correct answer scores more when it is rarer among the accepted answers for that prompt. The six tiers are Common (5), Familiar (10), Uncommon (20), Rare (40), Epic (70), and Legendary (100)."
+        },
+        {
+          "question": "Where do the answers come from?",
+          "answer": "Prompt lists are compiled from Wikidata (CC0) and Wikipedia pageview counts. An answer is ranked only against the other answers to the same prompt. A real name can be missing when that public data does not include it. The sample prompt still on the site is marked as a fixture, and its popularity numbers are placeholders, not live pageviews."
+        },
+        {
+          "question": "Can I play more than the daily round?",
+          "answer": "Yes. Unlimited mode deals more prompts, and each category — geography, animals, food, sports, movies and TV, music, science, and history — can be played on its own. Streaks and stats stay in this browser."
+        }
+      ]
     }
   },
   "footer": {
     "playGame": "Play Rarest Answer",
-    "officialDiscord": "Official Discord",
-    "officialYoutube": "Official YouTube",
-    "officialTwitter": "Official Twitter",
-    "officialReddit": "Official Reddit",
+    "officialDiscord": "Discord",
+    "officialYoutube": "YouTube",
+    "officialTwitter": "Twitter",
+    "officialReddit": "Reddit",
     "about": "About",
     "faq": "FAQ",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "copyright": "Copyright",
     "contact": "Contact",
-    "copyrightText": "© 2026 Rarest Answer Wiki. All rights reserved.",
+    "copyrightText": "© 2026 Rarest Answer.",
     "community": "Community",
-    "legal": "Legal"
+    "legal": "Legal",
+    "trivia": "Trivia",
+    "read": "Read",
+    "dataAttribution": "Data: Wikidata & Wikipedia pageviews"
   }
 }

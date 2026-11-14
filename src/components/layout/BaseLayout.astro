@@ -69,6 +69,13 @@ interface Props {
     privacyLabel: string;
     privacyHref: string;
   };
+  /**
+   * Edge-to-edge page. Sets `data-layout="full-bleed"` on `<body>`.
+   * LocaleLayout (the usual caller) also drops the centered max-w-7xl
+   * padding on `<main id="main">`. Header and footer stay. The play page
+   * and any full-width hero should pass this. Article pages leave it off.
+   */
+  fullBleed?: boolean;
 }
 
 const {
@@ -87,6 +94,7 @@ const {
   articleModified,
   contentLocale,
   consent,
+  fullBleed = false,
 } = Astro.props;
 
 // Language of the main content (falls back to the UI locale).
@@ -162,6 +170,8 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
         SVG first (sharp modern browsers), 32px PNG fallback; the legacy
         favicon.ico stays in public/ but is never referenced (sharp can't
         emit ICO — see scripts/gen-assets.ts). */}
+    <link rel="preload" href="/fonts/fraunces-800.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/source-sans-3-400.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -349,7 +359,10 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
       })();
     </script>
   </head>
-  <body class="min-h-screen bg-background text-foreground antialiased">
+  <body
+    class="min-h-screen bg-background text-foreground antialiased"
+    data-layout={fullBleed ? 'full-bleed' : 'column'}
+  >
     <slot />
     {/* Consent banner — only rendered when tracking env vars are set. */}
     {(gaId || adsenseClient) && (

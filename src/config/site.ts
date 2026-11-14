@@ -70,12 +70,14 @@ export interface SiteConfig {
 }
 
 export const site: SiteConfig = {
-  name: 'Rarest Answer Wiki',
-  shortName: 'RA Wiki',
-  description: 'Play Rarest Answer, a free daily trivia game where the rarest correct answer wins. Browse guides and similar daily games, plus how to find rare answers.',
+  name: 'Rarest Answer',
+  shortName: 'Rarest Answer',
+  description:
+    'Play Rarest Answer, a free daily trivia game where the rarest correct answer wins. Read guides and pages about similar daily games.',
   domain: 'rarestanswer.com',
   tagline: 'The daily trivia game where the rarest correct answer wins',
-  legalNotice: 'Rarest Answer is an independent daily trivia game. Pages about other games are unofficial and are not affiliated with those games.',
+  legalNotice:
+    'Rarest Answer is an independent daily trivia game. Pages about other games are unofficial and are not affiliated with those games.',
   // Set a real address if you run no social channels — the contact page
   // renders it as a mailto link.
   contactEmail: '',

@@ -1,0 +1,32 @@
+---
+import { TIERS } from '~/lib/game/types';
+import { TIER_BLURBS } from '~/lib/game/copy';
+---
+
+<div class="overflow-x-auto">
+  <table class="w-full border-collapse text-left text-sm">
+    <caption class="mb-3 text-left text-base text-foreground">
+      Points for one prompt. Spotlight doubles those points once per round.
+    </caption>
+    <thead>
+      <tr class="border-b border-border text-muted-foreground">
+        <th scope="col" class="py-2 pr-4 font-medium">Tier</th>
+        <th scope="col" class="py-2 pr-4 font-medium">What it means</th>
+        <th scope="col" class="py-2 text-right font-medium">Points</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        TIERS.map((row) => (
+          <tr class="border-b border-border">
+            <th scope="row" class="py-3 pr-4 font-semibold text-foreground">
+              {row.tier} {row.name}
+            </th>
+            <td class="py-3 pr-4 text-foreground">{TIER_BLURBS[row.tier]}</td>
+            <td class="py-3 text-right font-semibold tabular-nums text-foreground">{row.points}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>

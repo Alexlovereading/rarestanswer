@@ -97,16 +97,16 @@ const jsonLd = [
         <span class="mx-1">/</span>
         <span class="text-foreground">{title}</span>
       </nav>
-      <div class="mt-2 flex items-center gap-3">
-        {navItem && <Icon name={navItem.icon} class="h-7 w-7 text-nav" />}
-        <h1 class="text-3xl font-extrabold tracking-tight">{title}</h1>
+      <div class="mt-2 flex items-start gap-3">
+        {navItem && <Icon name={navItem.icon} class="mt-1.5 h-7 w-7 shrink-0 text-nav" />}
+        <h1 class="font-display text-3xl font-extrabold tracking-tight text-balance">{title}</h1>
       </div>
       <p class="mt-2 max-w-2xl text-muted-foreground">{description}</p>
     </header>
 
     {
       entries.length === 0 ? (
-        <div class="rounded-lg border border-dashed bg-card p-12 text-center">
+        <div class="empty-panel p-12 text-center">
           <Icon name="lucide:inbox" class="mx-auto h-10 w-10 text-muted-foreground" />
           <p class="mt-3 text-muted-foreground">{shared.noArticles}</p>
         </div>
@@ -121,7 +121,7 @@ const jsonLd = [
           {entries.map((entry) => {
             const slug = parseEntryId(entry.id)?.slug ?? '';
             return (
-              <a href={detailPath(category, slug, locale)} class="card p-5">
+              <a href={detailPath(category, slug, locale)} class="card flex h-full flex-col p-5">
                 {entry.data.image && <ArticleCover src={entry.data.image} />}
                 <h2 class="font-semibold leading-snug">{entry.data.title}</h2>
                 <p class="mt-1 line-clamp-2 text-sm text-muted-foreground">

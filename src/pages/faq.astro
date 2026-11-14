@@ -1,25 +1,78 @@
 ---
 /**
- * FAQ page (default locale, /faq).
- *
- * Moved off the homepage in the v0.2 refactor to reduce homepage length.
- * Carries the FAQPage JSON-LD schema (previously injected on the homepage).
+ * FAQ (/faq). The questions for this URL live in this file.
+ * src/locales/en.json home.faq is a second, shorter set owned by W1-UI.
+ * The homepage does not render that block (FAQ moved here). This page
+ * does not read it, so the disclosures below stay on /faq.
  */
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import FaqSection from '~/components/home/FaqSection.astro';
 import { defaultLocale, locales } from '~/i18n/routing';
-import { getHomeFaq, getUi } from '~/i18n/ui';
+import { getUi } from '~/i18n/ui';
 import { faqPageJsonLd, simpleBreadcrumbJsonLd } from '~/lib/seo';
 import { localizePath, languageAlternates } from '~/lib/url';
+import { TIERS } from '~/lib/game/types';
+import { site } from '~/config/site';
 
 const locale = defaultLocale;
 const ui = getUi(locale);
-const faq = getHomeFaq(locale);
+const email = 'contact@rarestanswer.com';
+const tierList = TIERS.map((tier) => `${tier.name} ${tier.points}`).join(', ');
 const faqPath = localizePath('/faq', locale);
 const alternates = languageAlternates((loc) => localizePath('/faq', loc), locales);
+
+const faq = {
+  title: 'FAQ',
+  description:
+    'How Rarest Answer works: daily rounds, localStorage stats, Wikidata and Wikipedia data, and no affiliation with Krillion.',
+  items: [
+    {
+      question: 'What is Rarest Answer?',
+      answer: `${site.game.name} is a free trivia game you play in the browser. A prompt asks you to name something that fits. Every accepted answer is correct, and a rarer correct answer scores more.`,
+    },
+    {
+      question: 'How does a daily round work?',
+      answer:
+        'A daily round is seven prompts. Everyone playing that day gets the same seven. The set resets at local midnight. Unlimited play is a separate mode at /unlimited/. A single category is at /trivia/<category>/ for geography, animals, food, sports, screen, music, science, and history. You can turn the timer off. Spotlight doubles the points for one prompt, once per round. The rule card is /guides/how-to-play-rarest-answer/.',
+    },
+    {
+      question: 'What are the score tiers?',
+      answer: `Six tiers, from most common to rarest: ${tierList}. Tier 6 is the rarest. A guess that is not on the prompt's list scores nothing for that prompt. These tier names belong to this game.`,
+    },
+    {
+      question: 'Do I need an account, and where are my stats?',
+      answer:
+        'There is no account. Streak and round stats stay in localStorage on this device. Clearing site data clears them, and another browser does not have them. The site also stores a theme choice, the cookie-consent choice, dismissed-banner flags, and a per-page helpfulness flag in localStorage. None of that is an account.',
+    },
+    {
+      question: 'Where do the answers come from?',
+      answer:
+        'Prompt lists are compiled from Wikidata (CC0) and Wikipedia pageview counts. An answer is ranked only against the other answers to the same prompt. A real name can be missing when that public data does not include it. The sample prompt "Name a species of great ape" still has source "fixture", and the popularity numbers in that file are placeholders, not live pageviews. The index of prompts is /rarest-answers/. One prompt is /answers/<slug>/.',
+    },
+    {
+      question: 'Is Rarest Answer affiliated with Krillion or the other games on this site?',
+      answer: `${site.legalNotice} Krillion and every other game named on the game and guide pages is a separate product. This site is not affiliated with those games, their creators, or Roblox.`,
+    },
+    {
+      question: 'Are there ads, analytics, or comments?',
+      answer:
+        'The game is free to play. Google Analytics and Google AdSense load only after you accept the cookie banner, and only when their environment variables are set. Adsterra units follow the same consent gate and the same empty-means-off rule. Cloudflare Web Analytics is cookieless and loads only when its token is set, without waiting for the banner. VibeCafé loads only when both of its variables are set, and it also does not wait for the banner. giscus comments load only when the giscus variables are set. The repository ships those identifiers blank. Details are on /privacy-policy/.',
+    },
+    {
+      question: 'How do I contact you?',
+      answer: `Email ${email}. Use that address for corrections, copyright notices, and questions about the game. There is no player account to recover.`,
+    },
+  ],
+};
+
 const jsonLd = [
-  ...(faq.items.length > 0 ? [faqPageJsonLd(faq.items)] : []),
-  simpleBreadcrumbJsonLd({ pageLabel: faq.title, path: faqPath, locale, homeLabel: (ui.nav as Record<string, string>).home }),
+  faqPageJsonLd(faq.items),
+  simpleBreadcrumbJsonLd({
+    pageLabel: faq.title,
+    path: faqPath,
+    locale,
+    homeLabel: ui.nav.home,
+  }),
 ];
 ---
 

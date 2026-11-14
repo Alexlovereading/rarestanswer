@@ -1,0 +1,182 @@
+---
+import TierChip from './TierChip.astro';
+import {
+  HUB_TITLE,
+  categoriesIn,
+  categoryLabel,
+  hubIntro,
+  type PromptSeo,
+} from './copy';
+import { answerPath } from './prompts';
+import { getUi } from '~/i18n/ui';
+import { defaultLocale } from '~/i18n/routing';
+import { homeUrl } from '~/lib/url';
+
+interface Props {
+  prompts: PromptSeo[];
+}
+
+const { prompts } = Astro.props;
+const ui = getUi(defaultLocale);
+const categories = categoriesIn(prompts);
+const promptCount =
+  prompts.length === 1 ? '1 prompt' : `${prompts.length} prompts`;
+---
+
+<div class="min-w-0" data-answer-hub data-pagefind-body>
+  <nav class="text-sm text-muted-foreground" aria-label={ui.shared.breadcrumbAria}>
+    <a href={homeUrl(defaultLocale)} class="hover:text-nav">{ui.nav.home}</a>
+    <span class="mx-1">/</span>
+    <span class="text-foreground" aria-current="page">{ui.nav.rarestAnswers}</span>
+  </nav>
+
+  <h1 class="mt-3 text-3xl font-extrabold tracking-tight md:text-4xl" data-pagefind-meta={`title:${HUB_TITLE}`}>
+    {HUB_TITLE}
+  </h1>
+  <p class="mt-4 max-w-3xl leading-relaxed">{hubIntro(prompts)}</p>
+
+  <div class="mt-6 flex flex-col gap-4" data-pagefind-ignore>
+    <div>
+      <label class="block text-sm font-medium" for="answer-search">Search prompts</label>
+      <input
+        id="answer-search"
+        type="search"
+        class="mt-1 w-full max-w-md rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground"
+        placeholder="Search prompts or answers"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+      />
+    </div>
+    <div role="group" aria-label="Filter by category" class="flex flex-wrap gap-2">
+      <button
+        type="button"
+        class="rounded-full border border-border bg-background px-3 py-1 text-sm font-semibold hover:bg-muted aria-pressed:border-transparent aria-pressed:text-white"
+        data-category-chip="all"
+        aria-pressed="true"
+      >
+        All
+      </button>
+      {
+        categories.map((category) => (
+          <button
+            type="button"
+            class="rounded-full border border-border bg-background px-3 py-1 text-sm font-semibold hover:bg-muted aria-pressed:border-transparent aria-pressed:text-white"
+            data-category-chip={category}
+            aria-pressed="false"
+          >
+            {categoryLabel(category)}
+          </button>
+        ))
+      }
+    </div>
+    <p class="text-sm text-muted-foreground" data-filter-status aria-live="polite">{promptCount}</p>
+    <noscript>
+      <p class="text-sm text-muted-foreground">
+        Filters need JavaScript. Every prompt is listed below.
+      </p>
+    </noscript>
+  </div>
+
+  {
+    prompts.length > 0 ? (
+      <ul id="answer-prompt-list" class="mt-6 grid list-none grid-cols-1 gap-3 p-0 sm:grid-cols-2">
+        {prompts.map((prompt) => {
+          const rare = prompt.answers[0];
+          return (
+            <li
+              class="min-w-0"
+              data-prompt-row
+              data-category={prompt.category}
+              data-search={prompt.searchText}
+            >
+              <a href={answerPath(prompt.slug)} class="card block h-full p-4">
+                <span class="text-xs font-semibold uppercase tracking-wide text-nav">
+                  {categoryLabel(prompt.category)}
+                </span>
+                <h2 class="mt-1 text-lg font-semibold leading-snug">{prompt.heading}</h2>
+                {rare && (
+                  <p class="mt-2 text-sm text-muted-foreground">
+                    Rarest answer: <span class="font-medium text-foreground">{rare.name}</span>
+                  </p>
+                )}
+                <p class="mt-2 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+                  <span>
+                    {prompt.answers.length === 1 ? '1 answer' : `${prompt.answers.length} answers`}
+                  </span>
+                  {rare && <TierChip tier={rare.tier} />}
+                </p>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    ) : null
+  }
+
+  <p class="mt-4 text-sm text-muted-foreground" data-empty hidden data-pagefind-ignore>
+    No prompts match that filter.
+  </p>
+</div>
+
+<script>
+  import { foldSearch } from './search-text';
+
+  const roots = document.querySelectorAll<HTMLElement>('[data-answer-hub]');
+  roots.forEach((root) => {
+    if (root.dataset.bound === '1') return;
+    root.dataset.bound = '1';
+
+    const chips = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-category-chip]'));
+    const rows = Array.from(root.querySelectorAll<HTMLElement>('[data-prompt-row]'));
+    const input = root.querySelector('input[type="search"]');
+    const status = root.querySelector('[data-filter-status]');
+    const empty = root.querySelector('[data-empty]');
+    let category = 'all';
+
+    const params = new URLSearchParams(window.location.search);
+    const requested = params.get('category');
+    if (requested && chips.some((chip) => chip.getAttribute('data-category-chip') === requested)) {
+      category = requested;
+    }
+    if (input instanceof HTMLInputElement) {
+      const q = params.get('q');
+      if (q) input.value = q;
+    }
+
+    const paint = () => {
+      const query = foldSearch(input instanceof HTMLInputElement ? input.value : '');
+      let shown = 0;
+      for (const row of rows) {
+        const rowCategory = row.getAttribute('data-category') || '';
+        const hay = row.getAttribute('data-search') || '';
+        const visible =
+          (category === 'all' || rowCategory === category) &&
+          (query === '' || hay.indexOf(query) !== -1);
+        row.hidden = !visible;
+        if (visible) shown += 1;
+      }
+      for (const chip of chips) {
+        const on = (chip.getAttribute('data-category-chip') || '') === category;
+        chip.setAttribute('aria-pressed', on ? 'true' : 'false');
+      }
+      if (status) status.textContent = shown === 1 ? '1 prompt' : `${shown} prompts`;
+      if (empty instanceof HTMLElement) empty.hidden = shown !== 0 || rows.length === 0;
+    };
+
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        category = chip.getAttribute('data-category-chip') || 'all';
+        paint();
+      });
+    }
+    if (input) input.addEventListener('input', paint);
+    paint();
+  });
+</script>
+
+<style>
+  button[data-category-chip][aria-pressed='true'] {
+    background-color: hsl(var(--brand-h) var(--brand-s) 40%);
+  }
+</style>

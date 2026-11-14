@@ -1,9 +1,39 @@
 ---
 import LegalPage from '~/components/layout/LegalPage.astro';
-import LegalContent from '~/components/layout/LegalContent.astro';
 import { defaultLocale } from '~/i18n/routing';
+import { site } from '~/config/site';
+
+const email = 'contact@rarestanswer.com';
 ---
 
-<LegalPage locale={defaultLocale} title="Contact" lastUpdated="2026-08-11">
-  <LegalContent page="contact" />
+<LegalPage
+  locale={defaultLocale}
+  title="Contact"
+  description="Email contact@rarestanswer.com. Rarest Answer is a free browser trivia game with no account."
+  lastUpdated="2026-11-14"
+>
+  <h2>Email</h2>
+  <p>
+    {site.game.name} is a free trivia game you play in the browser. Write to
+    <a href={`mailto:${email}`}>{email}</a>.
+    That address is the contact channel for corrections, questions about the game, and copyright notices.
+  </p>
+  <h2>Accounts and stats</h2>
+  <p>
+    There is no account to create, reset, or delete. Streak and round stats stay in localStorage on
+    this device. Clearing site data in the browser removes them.
+  </p>
+  <h2>What this site is</h2>
+  <p>
+    {site.legalNotice} It is not affiliated with Krillion or with any other game named on this site.
+    The short version of the product is on the <a href="/about/">about page</a>, the rules are on
+    <a href="/guides/how-to-play-rarest-answer/">how to play</a>, and common questions are on the
+    <a href="/faq/">FAQ</a>.
+  </p>
+  <h2>Privacy and copyright</h2>
+  <p>
+    How the site handles browser storage, Wikidata, Wikipedia pageviews, and optional analytics,
+    ads, and comments is the <a href="/privacy-policy/">privacy policy</a>. Takedown requests go to
+    the same email. The process is on the <a href="/copyright/">copyright page</a>.
+  </p>
 </LegalPage>
