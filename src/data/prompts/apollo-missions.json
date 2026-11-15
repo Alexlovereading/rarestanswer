@@ -1,0 +1,163 @@
+{
+  "id": "apollo-missions",
+  "slug": "apollo-missions",
+  "category": "science",
+  "question": "Name an Apollo program mission",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Apollo 5",
+      "aliases": [
+        "Apollo V"
+      ],
+      "popularity": 73195,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Apollo 5"
+    },
+    {
+      "name": "Apollo 4",
+      "aliases": [
+        "Apollo IV",
+        "SA-501"
+      ],
+      "popularity": 101787,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Apollo 4"
+    },
+    {
+      "name": "Apollo 6",
+      "aliases": [
+        "Apollo VI",
+        "AS-502"
+      ],
+      "popularity": 154339,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Apollo 6"
+    },
+    {
+      "name": "Apollo 15",
+      "aliases": [
+        "Apollo XV"
+      ],
+      "popularity": 215135,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Apollo 15"
+    },
+    {
+      "name": "Apollo 9",
+      "aliases": [
+        "Apollo IX"
+      ],
+      "popularity": 217262,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Apollo 9"
+    },
+    {
+      "name": "Apollo 16",
+      "aliases": [
+        "Apollo XVI"
+      ],
+      "popularity": 217711,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Apollo 16"
+    },
+    {
+      "name": "Apollo 7",
+      "aliases": [
+        "Apollo VII"
+      ],
+      "popularity": 227253,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Apollo 7"
+    },
+    {
+      "name": "Apollo 14",
+      "aliases": [
+        "Apollo XIV"
+      ],
+      "popularity": 229279,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Apollo 14"
+    },
+    {
+      "name": "Apollo 12",
+      "aliases": [
+        "Apollo XII"
+      ],
+      "popularity": 296099,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Apollo 12"
+    },
+    {
+      "name": "Apollo 10",
+      "aliases": [
+        "Apollo X"
+      ],
+      "popularity": 300558,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Apollo 10"
+    },
+    {
+      "name": "Apollo 8",
+      "aliases": [
+        "Apollo VIII"
+      ],
+      "popularity": 419032,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Apollo 8"
+    },
+    {
+      "name": "Apollo 17",
+      "aliases": [
+        "Apollo XVII"
+      ],
+      "popularity": 638448,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Apollo 17"
+    },
+    {
+      "name": "Apollo 1",
+      "aliases": [
+        "Apollo I"
+      ],
+      "popularity": 906157,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Apollo 1"
+    },
+    {
+      "name": "Apollo 13",
+      "aliases": [
+        "Apollo XIII"
+      ],
+      "popularity": 1522121,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Apollo 13"
+    },
+    {
+      "name": "Apollo 11",
+      "aliases": [
+        "Apollo XI",
+        "The 1st Moon Landing",
+        "The Moon Landing"
+      ],
+      "popularity": 1845434,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Apollo 11"
+    }
+  ]
+}

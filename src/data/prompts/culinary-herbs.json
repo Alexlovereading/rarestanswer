@@ -1,0 +1,315 @@
+{
+  "id": "culinary-herbs",
+  "slug": "culinary-herbs",
+  "category": "food",
+  "question": "Name a culinary herb",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Lettuce leaf basil",
+      "aliases": [
+        "Ocimum basilicum crispum"
+      ],
+      "popularity": 1534,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Lettuce leaf basil"
+    },
+    {
+      "name": "Sacred herb",
+      "aliases": [
+        "Sacred herbs"
+      ],
+      "popularity": 3031,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Sacred herb"
+    },
+    {
+      "name": "Strewing herb",
+      "aliases": [],
+      "popularity": 3132,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Strewing herb"
+    },
+    {
+      "name": "Huang Bai",
+      "aliases": [],
+      "popularity": 4006,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Huang Bai"
+    },
+    {
+      "name": "Xinyang Maojian tea",
+      "aliases": [
+        "Green Tip",
+        "Maojian tea",
+        "Tippy Green",
+        "Yu Maofeng"
+      ],
+      "popularity": 8626,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Xinyang Maojian tea"
+    },
+    {
+      "name": "Jimbu",
+      "aliases": [],
+      "popularity": 8703,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Jimbu"
+    },
+    {
+      "name": "Aglaophotis",
+      "aliases": [],
+      "popularity": 10255,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Aglaophotis"
+    },
+    {
+      "name": "Boesenbergia rotunda",
+      "aliases": [],
+      "popularity": 14264,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Boesenbergia rotunda"
+    },
+    {
+      "name": "Nemophila menziesii",
+      "aliases": [
+        "Baby blue eyes"
+      ],
+      "popularity": 15988,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Nemophila menziesii"
+    },
+    {
+      "name": "Alkanna tinctoria",
+      "aliases": [
+        "alkanet",
+        "dyer's alkanet",
+        "dyer's bugloss",
+        "dyers' bugloss",
+        "Languedoc bugloss",
+        "orchanet",
+        "Spanish bugloss"
+      ],
+      "popularity": 29193,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Alkanna tinctoria"
+    },
+    {
+      "name": "Filé powder",
+      "aliases": [
+        "filé"
+      ],
+      "popularity": 45947,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Filé powder"
+    },
+    {
+      "name": "Apium graveolens",
+      "aliases": [
+        "smallage"
+      ],
+      "popularity": 46886,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Apium graveolens"
+    },
+    {
+      "name": "Medicinal plants",
+      "aliases": [
+        "drug plant",
+        "medicinal herb",
+        "medicinal herbs",
+        "medicinal plant"
+      ],
+      "popularity": 70206,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Medicinal plants"
+    },
+    {
+      "name": "Spearmint",
+      "aliases": [
+        "common mint",
+        "garden mint",
+        "lamb mint J",
+        "mackerel mint",
+        "Mentha spicata"
+      ],
+      "popularity": 94750,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Spearmint"
+    },
+    {
+      "name": "Centaurea cyanus",
+      "aliases": [
+        "bachelor's button",
+        "C. cyanus",
+        "Cornflower"
+      ],
+      "popularity": 139004,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Centaurea cyanus"
+    },
+    {
+      "name": "Lovage",
+      "aliases": [
+        "Levisticum officinale"
+      ],
+      "popularity": 140194,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Lovage"
+    },
+    {
+      "name": "Tarragon",
+      "aliases": [
+        "Artemisia dracunculus"
+      ],
+      "popularity": 167096,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Tarragon"
+    },
+    {
+      "name": "Lemon balm",
+      "aliases": [
+        "balm",
+        "balm mint",
+        "bee balm",
+        "common balm",
+        "Melissa officinalis"
+      ],
+      "popularity": 173435,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Lemon balm"
+    },
+    {
+      "name": "Dill",
+      "aliases": [
+        "Anethum graveolens"
+      ],
+      "popularity": 175318,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Dill"
+    },
+    {
+      "name": "Mugwort",
+      "aliases": [],
+      "popularity": 186267,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Mugwort"
+    },
+    {
+      "name": "Thyme",
+      "aliases": [],
+      "popularity": 189764,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Thyme"
+    },
+    {
+      "name": "Parsley",
+      "aliases": [
+        "garden parsley",
+        "Petroselinum crispum"
+      ],
+      "popularity": 193709,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Parsley"
+    },
+    {
+      "name": "Caraway",
+      "aliases": [
+        "caraway plant",
+        "Carum carvi",
+        "meridian fennel",
+        "Persian cumin",
+        "wild caraway"
+      ],
+      "popularity": 195508,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Caraway"
+    },
+    {
+      "name": "Celery",
+      "aliases": [
+        "Chinese celery",
+        "leaf celery"
+      ],
+      "popularity": 218491,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Celery"
+    },
+    {
+      "name": "Chamomile",
+      "aliases": [
+        "camomile"
+      ],
+      "popularity": 220256,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Chamomile"
+    },
+    {
+      "name": "Basil",
+      "aliases": [
+        "Ocimum basilicum"
+      ],
+      "popularity": 240607,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Basil"
+    },
+    {
+      "name": "Za'atar",
+      "aliases": [
+        "za'tar",
+        "zaatar",
+        "zatar"
+      ],
+      "popularity": 246062,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Za'atar"
+    },
+    {
+      "name": "Fennel",
+      "aliases": [
+        "Foeniculum vulgare"
+      ],
+      "popularity": 287867,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Fennel"
+    },
+    {
+      "name": "Liquorice",
+      "aliases": [
+        "Glycyrrhiza glabra"
+      ],
+      "popularity": 405972,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Liquorice"
+    }
+  ]
+}

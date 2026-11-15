@@ -1,0 +1,435 @@
+{
+  "id": "chinese-dynasties",
+  "slug": "chinese-dynasties",
+  "category": "history",
+  "question": "Name a Chinese dynasty",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Eastern Jin",
+      "aliases": [
+        "Eastern Jin dynasty"
+      ],
+      "popularity": 2903,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Eastern Jin"
+    },
+    {
+      "name": "Western Han",
+      "aliases": [
+        "Former Han",
+        "Western Han Dynasty",
+        "Western Han Empire",
+        "Xi Han"
+      ],
+      "popularity": 9354,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Western Han"
+    },
+    {
+      "name": "Western Liang",
+      "aliases": [
+        "Western Liang (555–587)",
+        "Western Liang dynasty"
+      ],
+      "popularity": 14635,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Western Liang (555–587)"
+    },
+    {
+      "name": "Western Wei",
+      "aliases": [],
+      "popularity": 23578,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Western Wei"
+    },
+    {
+      "name": "House of Zhu",
+      "aliases": [
+        "House of Chu"
+      ],
+      "popularity": 29119,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "House of Zhu"
+    },
+    {
+      "name": "Later Han",
+      "aliases": [
+        "Later Han dynasty",
+        "Later Han (Five Dynasties)"
+      ],
+      "popularity": 37685,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Later Han (Five Dynasties)"
+    },
+    {
+      "name": "Eastern Zhou",
+      "aliases": [
+        "Dong Zhou",
+        "Dongzhou",
+        "Eastern Chou",
+        "Eastern Chou Dynasty",
+        "Eastern Chou Period",
+        "Eastern Zhou Dynasty",
+        "Eastern Zhou period",
+        "Tung-chou"
+      ],
+      "popularity": 38471,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Eastern Zhou"
+    },
+    {
+      "name": "Later Jin",
+      "aliases": [
+        "Later Jin dynasty",
+        "Later Jin (Five Dynasties)"
+      ],
+      "popularity": 39784,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Later Jin (Five Dynasties)"
+    },
+    {
+      "name": "Later Zhou",
+      "aliases": [
+        "Hou Zhou",
+        "Later Zhou dynasty"
+      ],
+      "popularity": 46343,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Later Zhou"
+    },
+    {
+      "name": "Later Liang",
+      "aliases": [
+        "Later Liang (Five Dynasties)"
+      ],
+      "popularity": 47254,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Later Liang (Five Dynasties)"
+    },
+    {
+      "name": "Wu Zhou",
+      "aliases": [
+        "Wu Zhou dynasty",
+        "Wu Zhou Empire"
+      ],
+      "popularity": 47757,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Wu Zhou"
+    },
+    {
+      "name": "Later Tang",
+      "aliases": [
+        "Empire of the Later Tang",
+        "Hou-T'ang",
+        "Hou Tang",
+        "Houtang",
+        "Later T'ang",
+        "Later T'ang dynasty",
+        "Later T'ang Empire",
+        "Later Tang dynasty",
+        "Later Tang Empire"
+      ],
+      "popularity": 51928,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Later Tang"
+    },
+    {
+      "name": "Xin dynasty",
+      "aliases": [
+        "Hsin Dynasty",
+        "Hsin Empire",
+        "New Dynasty",
+        "Wang Mang",
+        "Xin Empire"
+      ],
+      "popularity": 52687,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Xin dynasty"
+    },
+    {
+      "name": "Western Zhou",
+      "aliases": [
+        "Hsi-chou",
+        "Western Chou",
+        "Western Chou Dynasty",
+        "Western Chou Period",
+        "Western Zhou Dynasty",
+        "Western Zhou Period",
+        "Xi Zhou",
+        "Xizhou"
+      ],
+      "popularity": 54056,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Western Zhou"
+    },
+    {
+      "name": "Southern Qi",
+      "aliases": [],
+      "popularity": 57180,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Southern Qi"
+    },
+    {
+      "name": "Chen dynasty",
+      "aliases": [],
+      "popularity": 57368,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Chen dynasty"
+    },
+    {
+      "name": "Shun dynasty",
+      "aliases": [],
+      "popularity": 65790,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Shun dynasty"
+    },
+    {
+      "name": "Liang dynasty",
+      "aliases": [
+        "Southern Liang dynasty"
+      ],
+      "popularity": 70222,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Liang dynasty"
+    },
+    {
+      "name": "Southern Ming",
+      "aliases": [
+        "Southern Ming dynasty"
+      ],
+      "popularity": 72327,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Southern Ming"
+    },
+    {
+      "name": "Liu Song dynasty",
+      "aliases": [
+        "former Song Dynasty",
+        "Liu Song"
+      ],
+      "popularity": 83553,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Liu Song dynasty"
+    },
+    {
+      "name": "Northern Yuan",
+      "aliases": [
+        "Mongolian khanate",
+        "Northern Yuan dynasty",
+        "Post-Imperial Mongolia"
+      ],
+      "popularity": 113872,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Northern Yuan"
+    },
+    {
+      "name": "Liao dynasty",
+      "aliases": [
+        "Great Liao",
+        "Greater Liao",
+        "Khitan Empire",
+        "Liao",
+        "Liao Empire",
+        "Liao State",
+        "Mos diau-d kitai",
+        "Mos Jælud",
+        "Qidan",
+        "Qidan State"
+      ],
+      "popularity": 192186,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Liao dynasty"
+    },
+    {
+      "name": "Five Dynasties and Ten Kingdoms period",
+      "aliases": [
+        "10 Kingdoms",
+        "5 Dynasties",
+        "Five Dynasties",
+        "Five Dynasties & Ten Kingdoms",
+        "Ten Kingdoms"
+      ],
+      "popularity": 195824,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Five Dynasties and Ten Kingdoms period"
+    },
+    {
+      "name": "Jin dynasty (266–420)",
+      "aliases": [
+        "Jin",
+        "Jin China",
+        "Liang Jin",
+        "Sima Jin"
+      ],
+      "popularity": 223411,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Jin dynasty (266–420)"
+    },
+    {
+      "name": "Jin dynasty (1115–1234)",
+      "aliases": [
+        "Chin Dynasty",
+        "Chin Empire",
+        "Da Jin",
+        "Great Chin Empire",
+        "Great Jin",
+        "Great Jin Empire",
+        "Jin Chao",
+        "Jurchen Chin Dynasty",
+        "Jurchen Chin Empire",
+        "Jurchen Dynasty",
+        "Jurchen Jin",
+        "Jurchen Jin Dynasty",
+        "Jurchen Jin Empire",
+        "Kin Dynasty",
+        "Ta Chin"
+      ],
+      "popularity": 253498,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Jin dynasty (1115–1234)"
+    },
+    {
+      "name": "Xia dynasty",
+      "aliases": [
+        "Hia",
+        "Hia dynasty",
+        "Hsia",
+        "Hsia dynasty",
+        "the Hia",
+        "the Hsia",
+        "the Xia",
+        "Xia",
+        "Xiahou shi"
+      ],
+      "popularity": 300555,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Xia dynasty"
+    },
+    {
+      "name": "Shang dynasty",
+      "aliases": [
+        "Chang Dynasty",
+        "Ine",
+        "Ine Dynasty",
+        "Shang",
+        "the Chang",
+        "the Ine",
+        "the Shang",
+        "the Yin",
+        "Yin",
+        "Yin Dynasty"
+      ],
+      "popularity": 340771,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Shang dynasty"
+    },
+    {
+      "name": "Zhou dynasty",
+      "aliases": [
+        "Chew",
+        "Chew Dynasty",
+        "Chew Empire",
+        "Chew Epoch",
+        "Chew Kingdom",
+        "Chou",
+        "Dynasty of Chew",
+        "Dynasty of Chou",
+        "Dynasty of Ji",
+        "Dynasty of Zhou",
+        "Ji Dynasty",
+        "Kingdom of Chew",
+        "Tcheou",
+        "Tchou",
+        "Zhou"
+      ],
+      "popularity": 370226,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Zhou dynasty"
+    },
+    {
+      "name": "Song dynasty",
+      "aliases": [
+        "Song China",
+        "Song Empire",
+        "Soung",
+        "Soung Dynasty",
+        "Sung",
+        "Sung Dynasty"
+      ],
+      "popularity": 561029,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Song dynasty"
+    },
+    {
+      "name": "Han dynasty",
+      "aliases": [
+        "Han",
+        "Han China",
+        "Han Empire",
+        "Hane",
+        "the Han"
+      ],
+      "popularity": 616912,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Han dynasty"
+    },
+    {
+      "name": "Tang dynasty",
+      "aliases": [
+        "Da Tang",
+        "Datang",
+        "Great T'ang",
+        "Great Tang",
+        "Great Tang Empire",
+        "Great Thang",
+        "rule of the Tang",
+        "T'ang Dynasty",
+        "T'ang Empire",
+        "Ta-T'ang",
+        "Ta-Tang",
+        "Tang",
+        "Tang China",
+        "Tang Empire",
+        "Tang era",
+        "Tang imperial dynasty",
+        "Tang period",
+        "Thang Dynasty"
+      ],
+      "popularity": 723388,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Tang dynasty"
+    }
+  ]
+}

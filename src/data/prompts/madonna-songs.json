@@ -1,0 +1,619 @@
+{
+  "id": "madonna-songs",
+  "slug": "madonna-songs",
+  "category": "music",
+  "question": "Name a Madonna song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "How High",
+      "aliases": [
+        "How High (Madonna song)"
+      ],
+      "popularity": 73,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "How High (Madonna song)"
+    },
+    {
+      "name": "Material Gworrllllllll!",
+      "aliases": [],
+      "popularity": 73,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Material Gworrllllllll!"
+    },
+    {
+      "name": "Mother and Father",
+      "aliases": [
+        "Mother and Father (Madonna song)"
+      ],
+      "popularity": 105,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Mother and Father (Madonna song)"
+    },
+    {
+      "name": "Don't Cry for Me Argentina",
+      "aliases": [
+        "Don't Cry for Me Argentina (Madonna song)"
+      ],
+      "popularity": 185,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Don't Cry for Me Argentina (Madonna song)"
+    },
+    {
+      "name": "The Beast Within",
+      "aliases": [
+        "Beast Within",
+        "Beast Within (song)",
+        "The Beast Within (song)"
+      ],
+      "popularity": 441,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "The Beast Within (song)"
+    },
+    {
+      "name": "Fever",
+      "aliases": [
+        "Fever (Madonna song)"
+      ],
+      "popularity": 762,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Fever (Madonna song)"
+    },
+    {
+      "name": "Levitating (The Blessed Madonna Remix)",
+      "aliases": [],
+      "popularity": 1062,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Levitating (The Blessed Madonna Remix)"
+    },
+    {
+      "name": "American Pie",
+      "aliases": [
+        "American Pie (Madonna cover)"
+      ],
+      "popularity": 2469,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "American Pie (Madonna cover)"
+    },
+    {
+      "name": "Superstar",
+      "aliases": [
+        "Superstar (Madonna song)"
+      ],
+      "popularity": 4476,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Superstar (Madonna song)"
+    },
+    {
+      "name": "Nobody Knows Me",
+      "aliases": [],
+      "popularity": 5733,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Nobody Knows Me"
+    },
+    {
+      "name": "Hey You",
+      "aliases": [
+        "Hey You (Madonna song)"
+      ],
+      "popularity": 9940,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Hey You (Madonna song)"
+    },
+    {
+      "name": "I Rise",
+      "aliases": [
+        "I Rise (song)"
+      ],
+      "popularity": 11796,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "I Rise (song)"
+    },
+    {
+      "name": "Turn Up the Radio",
+      "aliases": [
+        "Turn Up the Radio (Madonna song)"
+      ],
+      "popularity": 12127,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Turn Up the Radio (Madonna song)"
+    },
+    {
+      "name": "One More Chance",
+      "aliases": [
+        "One More Chance (Madonna song)"
+      ],
+      "popularity": 12478,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "One More Chance (Madonna song)"
+    },
+    {
+      "name": "Back That Up to the Beat",
+      "aliases": [],
+      "popularity": 14825,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Back That Up to the Beat"
+    },
+    {
+      "name": "Little Star",
+      "aliases": [
+        "Little Star (Madonna song)"
+      ],
+      "popularity": 15161,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Little Star (Madonna song)"
+    },
+    {
+      "name": "I Don't Search I Find",
+      "aliases": [],
+      "popularity": 15609,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "I Don't Search I Find"
+    },
+    {
+      "name": "Ghosttown",
+      "aliases": [
+        "Ghost town",
+        "Ghosttown (Madonna song)"
+      ],
+      "popularity": 16124,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Ghosttown (Madonna song)"
+    },
+    {
+      "name": "The Look of Love",
+      "aliases": [
+        "Look of Love",
+        "Look of Love (Madonna song)",
+        "The Look of Love (Madonna song)"
+      ],
+      "popularity": 16258,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "The Look of Love (Madonna song)"
+    },
+    {
+      "name": "Masterpiece",
+      "aliases": [
+        "Masterpiece (Madonna song)"
+      ],
+      "popularity": 17172,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Masterpiece (Madonna song)"
+    },
+    {
+      "name": "Vulgar",
+      "aliases": [
+        "Vulgar (song)"
+      ],
+      "popularity": 17491,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Vulgar (song)"
+    },
+    {
+      "name": "Bye Bye Baby",
+      "aliases": [
+        "Bye Bye Baby (Madonna song)"
+      ],
+      "popularity": 17571,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Bye Bye Baby (Madonna song)"
+    },
+    {
+      "name": "Miles Away",
+      "aliases": [
+        "Miles Away (Madonna song)"
+      ],
+      "popularity": 18070,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Miles Away (Madonna song)"
+    },
+    {
+      "name": "Living for Love",
+      "aliases": [],
+      "popularity": 18374,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Living for Love"
+    },
+    {
+      "name": "Medellín",
+      "aliases": [
+        "Medellín (song)"
+      ],
+      "popularity": 20052,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Medellín (song)"
+    },
+    {
+      "name": "Give It 2 Me",
+      "aliases": [],
+      "popularity": 20758,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Give It 2 Me"
+    },
+    {
+      "name": "Hanky Panky",
+      "aliases": [
+        "Hanky Panky (Madonna song)"
+      ],
+      "popularity": 21224,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Hanky Panky (Madonna song)"
+    },
+    {
+      "name": "Causing a Commotion",
+      "aliases": [],
+      "popularity": 22402,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Causing a Commotion"
+    },
+    {
+      "name": "Keep It Together",
+      "aliases": [
+        "Keep It Together (song)"
+      ],
+      "popularity": 22419,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Keep It Together (song)"
+    },
+    {
+      "name": "You Must Love Me",
+      "aliases": [],
+      "popularity": 23603,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "You Must Love Me"
+    },
+    {
+      "name": "Girl Gone Wild",
+      "aliases": [],
+      "popularity": 24356,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Girl Gone Wild"
+    },
+    {
+      "name": "Dear Jessie",
+      "aliases": [],
+      "popularity": 27062,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Dear Jessie"
+    },
+    {
+      "name": "You'll See",
+      "aliases": [
+        "Verás"
+      ],
+      "popularity": 30323,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "You'll See"
+    },
+    {
+      "name": "Jump",
+      "aliases": [
+        "Jump (Madonna song)"
+      ],
+      "popularity": 30357,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Jump (Madonna song)"
+    },
+    {
+      "name": "Hollywood",
+      "aliases": [
+        "Hollywood (Madonna song)"
+      ],
+      "popularity": 30632,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Hollywood (Madonna song)"
+    },
+    {
+      "name": "Oh Father",
+      "aliases": [],
+      "popularity": 30694,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Oh Father"
+    },
+    {
+      "name": "Drowned World/Substitute for Love",
+      "aliases": [],
+      "popularity": 31098,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Drowned World/Substitute for Love"
+    },
+    {
+      "name": "I'll Remember",
+      "aliases": [],
+      "popularity": 31943,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "I'll Remember"
+    },
+    {
+      "name": "Give Me All Your Luvin'",
+      "aliases": [],
+      "popularity": 32176,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Give Me All Your Luvin'"
+    },
+    {
+      "name": "True Blue",
+      "aliases": [
+        "True Blue (Madonna song)"
+      ],
+      "popularity": 35843,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "True Blue (Madonna song)"
+    },
+    {
+      "name": "Popular",
+      "aliases": [],
+      "popularity": 37522,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Popular (The Weeknd, Playboi Carti and Madonna song)"
+    },
+    {
+      "name": "This Used to Be My Playground",
+      "aliases": [],
+      "popularity": 37619,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "This Used to Be My Playground"
+    },
+    {
+      "name": "Rain",
+      "aliases": [
+        "Rain (Madonna song)"
+      ],
+      "popularity": 37801,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Rain (Madonna song)"
+    },
+    {
+      "name": "The Power of Good-Bye",
+      "aliases": [
+        "Power of Good-Bye"
+      ],
+      "popularity": 37806,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "The Power of Good-Bye"
+    },
+    {
+      "name": "Secret",
+      "aliases": [
+        "Secret (Madonna song)"
+      ],
+      "popularity": 37900,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Secret (Madonna song)"
+    },
+    {
+      "name": "Nothing Really Matters",
+      "aliases": [],
+      "popularity": 38555,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Nothing Really Matters"
+    },
+    {
+      "name": "Bitch I'm Madonna",
+      "aliases": [],
+      "popularity": 38738,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Bitch I'm Madonna"
+    },
+    {
+      "name": "Who's That Girl",
+      "aliases": [
+        "Who's That Girl (Madonna song)"
+      ],
+      "popularity": 39562,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Who's That Girl (Madonna song)"
+    },
+    {
+      "name": "Bedtime Story",
+      "aliases": [
+        "Bedtime Stories",
+        "Bedtime Story (Madonna song)"
+      ],
+      "popularity": 41989,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Bedtime Story (Madonna song)"
+    },
+    {
+      "name": "Human Nature",
+      "aliases": [
+        "Human Nature (Madonna song)"
+      ],
+      "popularity": 42666,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Human Nature (Madonna song)"
+    },
+    {
+      "name": "Me Against the Music",
+      "aliases": [],
+      "popularity": 45774,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Me Against the Music"
+    },
+    {
+      "name": "Don't Tell Me",
+      "aliases": [
+        "Don't Tell Me (Madonna song)"
+      ],
+      "popularity": 46520,
+      "rarity": 0.215,
+      "tier": 2,
+      "wiki": "Don't Tell Me (Madonna song)"
+    },
+    {
+      "name": "Sorry",
+      "aliases": [
+        "Sorry (Madonna song)"
+      ],
+      "popularity": 46558,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Sorry (Madonna song)"
+    },
+    {
+      "name": "What It Feels Like for a Girl",
+      "aliases": [],
+      "popularity": 47637,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "What It Feels Like for a Girl"
+    },
+    {
+      "name": "Open Your Heart",
+      "aliases": [
+        "Open Your Heart (Madonna song)"
+      ],
+      "popularity": 50258,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Open Your Heart (Madonna song)"
+    },
+    {
+      "name": "Beautiful Stranger",
+      "aliases": [],
+      "popularity": 58334,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Beautiful Stranger"
+    },
+    {
+      "name": "Express Yourself",
+      "aliases": [
+        "Express Yourself (Madonna song)"
+      ],
+      "popularity": 60850,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Express Yourself (Madonna song)"
+    },
+    {
+      "name": "Take a Bow",
+      "aliases": [
+        "Take a Bow (Madonna song)"
+      ],
+      "popularity": 66260,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Take a Bow (Madonna song)"
+    },
+    {
+      "name": "4 Minutes",
+      "aliases": [],
+      "popularity": 69623,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "4 Minutes"
+    },
+    {
+      "name": "Ray of Light",
+      "aliases": [
+        "Ray of Light (song)"
+      ],
+      "popularity": 77896,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Ray of Light (song)"
+    },
+    {
+      "name": "Levitating (song)",
+      "aliases": [],
+      "popularity": 96872,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Levitating (song)"
+    },
+    {
+      "name": "Live to Tell",
+      "aliases": [],
+      "popularity": 99873,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Live to Tell"
+    },
+    {
+      "name": "Papa Don't Preach",
+      "aliases": [],
+      "popularity": 101657,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Papa Don't Preach"
+    },
+    {
+      "name": "La Isla Bonita",
+      "aliases": [],
+      "popularity": 149198,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "La Isla Bonita"
+    },
+    {
+      "name": "Hung Up",
+      "aliases": [],
+      "popularity": 175971,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Hung Up"
+    },
+    {
+      "name": "Like a Prayer",
+      "aliases": [
+        "Like a Prayer (song)"
+      ],
+      "popularity": 253978,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Like a Prayer (song)"
+    }
+  ]
+}

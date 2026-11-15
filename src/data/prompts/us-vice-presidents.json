@@ -1,0 +1,616 @@
+{
+  "id": "us-vice-presidents",
+  "slug": "us-vice-presidents",
+  "category": "history",
+  "question": "Name a vice president of the United States",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "William A. Wheeler",
+      "aliases": [
+        "William Almon Wheeler",
+        "William Wheeler"
+      ],
+      "popularity": 51681,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "William A. Wheeler"
+    },
+    {
+      "name": "Daniel D. Tompkins",
+      "aliases": [
+        "Daniel Tompkins",
+        "Vice President Tompkins"
+      ],
+      "popularity": 57547,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Daniel D. Tompkins"
+    },
+    {
+      "name": "James S. Sherman",
+      "aliases": [
+        "James Schoolcraft Sherman",
+        "James Sherman"
+      ],
+      "popularity": 61261,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "James S. Sherman"
+    },
+    {
+      "name": "George M. Dallas",
+      "aliases": [
+        "George Dallas",
+        "George Miffin Dallas",
+        "George Mifflin Dallas"
+      ],
+      "popularity": 62743,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "George M. Dallas"
+    },
+    {
+      "name": "Charles W. Fairbanks",
+      "aliases": [
+        "Charles Fairbanks",
+        "Charles Warren Fairbanks"
+      ],
+      "popularity": 66028,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Charles W. Fairbanks"
+    },
+    {
+      "name": "Henry Wilson",
+      "aliases": [
+        "Jeremiah Jones Colbath"
+      ],
+      "popularity": 68609,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Henry Wilson"
+    },
+    {
+      "name": "Richard Mentor Johnson",
+      "aliases": [
+        "Richard Johnson",
+        "Richard M. Johnson"
+      ],
+      "popularity": 72559,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Richard Mentor Johnson"
+    },
+    {
+      "name": "Thomas A. Hendricks",
+      "aliases": [
+        "Thomas Andrews Hendricks",
+        "Thomas Hendricks"
+      ],
+      "popularity": 80276,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Thomas A. Hendricks"
+    },
+    {
+      "name": "Charles G. Dawes",
+      "aliases": [
+        "C. G. Dawes",
+        "Charles Dawes",
+        "Charles Gates Dawes",
+        "Chas. G. Dawes"
+      ],
+      "popularity": 86347,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Charles G. Dawes"
+    },
+    {
+      "name": "Levi P. Morton",
+      "aliases": [
+        "Levi Morton",
+        "Levi Parsons Morton"
+      ],
+      "popularity": 87458,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Levi P. Morton"
+    },
+    {
+      "name": "Garret Hobart",
+      "aliases": [
+        "Garret A. Hobart",
+        "Garret Augustus Hobart"
+      ],
+      "popularity": 90837,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Garret Hobart"
+    },
+    {
+      "name": "Adlai Stevenson I",
+      "aliases": [
+        "Adlai E. Stevenson",
+        "Adlai E. Stevenson I",
+        "Adlai Ewing Stevenson",
+        "Adlai Ewing Stevenson I",
+        "Adlai Stevenson"
+      ],
+      "popularity": 116128,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Adlai Stevenson I"
+    },
+    {
+      "name": "Thomas R. Marshall",
+      "aliases": [
+        "Thomas Marshall",
+        "Thomas Riley Marshall"
+      ],
+      "popularity": 117519,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Thomas R. Marshall"
+    },
+    {
+      "name": "Schuyler Colfax",
+      "aliases": [
+        "Schuyler Colfax Jr."
+      ],
+      "popularity": 145174,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Schuyler Colfax"
+    },
+    {
+      "name": "Elbridge Gerry",
+      "aliases": [
+        "Elbridge Thomas Gerry"
+      ],
+      "popularity": 147891,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Elbridge Gerry"
+    },
+    {
+      "name": "Alben W. Barkley",
+      "aliases": [
+        "Alben Barkley",
+        "Alben William Barkley"
+      ],
+      "popularity": 149637,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Alben W. Barkley"
+    },
+    {
+      "name": "Charles Curtis",
+      "aliases": [],
+      "popularity": 156253,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Charles Curtis"
+    },
+    {
+      "name": "William R. King",
+      "aliases": [
+        "William Rufus de Vane King",
+        "William Rufus DeVane King"
+      ],
+      "popularity": 172099,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "William R. King"
+    },
+    {
+      "name": "John C. Breckinridge",
+      "aliases": [
+        "J. C. Breckinridge",
+        "John Breckinridge",
+        "John Cabell Breckinridge"
+      ],
+      "popularity": 183690,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "John C. Breckinridge"
+    },
+    {
+      "name": "Hannibal Hamlin",
+      "aliases": [],
+      "popularity": 186298,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Hannibal Hamlin"
+    },
+    {
+      "name": "John Nance Garner",
+      "aliases": [
+        "John Garner",
+        "John N. Garner",
+        "John Nance \"Cactus Jack\" Garner",
+        "John Nance Garner III",
+        "John Nance Garner IV"
+      ],
+      "popularity": 187379,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "John Nance Garner"
+    },
+    {
+      "name": "George Clinton",
+      "aliases": [
+        "George Clinton (vice president)"
+      ],
+      "popularity": 248531,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "George Clinton (vice president)"
+    },
+    {
+      "name": "Henry A. Wallace",
+      "aliases": [
+        "Henry Agard Wallace",
+        "Henry Wallace",
+        "Vice President Henry Wallace",
+        "Vice President Wallace"
+      ],
+      "popularity": 290665,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Henry A. Wallace"
+    },
+    {
+      "name": "John C. Calhoun",
+      "aliases": [
+        "John Caldwell Calhoun",
+        "John Calhoun"
+      ],
+      "popularity": 380371,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "John C. Calhoun"
+    },
+    {
+      "name": "Hubert Humphrey",
+      "aliases": [
+        "HHH",
+        "Hubert Humphrey Jr."
+      ],
+      "popularity": 420995,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Hubert Humphrey"
+    },
+    {
+      "name": "Walter Mondale",
+      "aliases": [
+        "Fritz Mondale",
+        "Walter Frederick Mondale"
+      ],
+      "popularity": 474495,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Walter Mondale"
+    },
+    {
+      "name": "Dan Quayle",
+      "aliases": [
+        "J. Danforth Quayle",
+        "James Danforth \"Dan\" Quayle",
+        "James Danforth Quayle"
+      ],
+      "popularity": 612505,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Dan Quayle"
+    },
+    {
+      "name": "Spiro Agnew",
+      "aliases": [],
+      "popularity": 622570,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Spiro Agnew"
+    },
+    {
+      "name": "Millard Fillmore",
+      "aliases": [
+        "M. Fillmore",
+        "President Fillmore"
+      ],
+      "popularity": 665182,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Millard Fillmore"
+    },
+    {
+      "name": "John Tyler",
+      "aliases": [
+        "J. Tyler",
+        "John Tyler Jr.",
+        "President Tyler"
+      ],
+      "popularity": 796938,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "John Tyler"
+    },
+    {
+      "name": "Nelson Rockefeller",
+      "aliases": [
+        "Nelson A. Rockefeller",
+        "Nelson Aldrich Rockefeller"
+      ],
+      "popularity": 865219,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Nelson Rockefeller"
+    },
+    {
+      "name": "Martin Van Buren",
+      "aliases": [
+        "Buren",
+        "M. van Buren",
+        "Martin van Ruin",
+        "Old Kinderhook",
+        "President Martin Van Buren",
+        "President van Buren",
+        "The Mistletoe Politician",
+        "The Red Fox of Kinderhook",
+        "Van Buren"
+      ],
+      "popularity": 879587,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Martin Van Buren"
+    },
+    {
+      "name": "Mike Pence",
+      "aliases": [
+        "Congressman Mike Pence",
+        "Governor Mike Pence",
+        "Governor Pence",
+        "Michael Pence",
+        "Michael Richard \"Mike\" Pence",
+        "Rep. Mike Pence",
+        "VPOTUS"
+      ],
+      "popularity": 912176,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Mike Pence"
+    },
+    {
+      "name": "Aaron Burr",
+      "aliases": [
+        "Vice-President Aaron Burr"
+      ],
+      "popularity": 966458,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Aaron Burr"
+    },
+    {
+      "name": "Andrew Johnson",
+      "aliases": [
+        "President Andrew Johnson"
+      ],
+      "popularity": 1045184,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Andrew Johnson"
+    },
+    {
+      "name": "Al Gore",
+      "aliases": [
+        "Al Gore Jr.",
+        "Albert Arnold \"Al\" Gore Jr.",
+        "Albert Arnold Gore",
+        "Albert Arnold Gore Jr.",
+        "Albert Gore",
+        "Albert Gore Jr.",
+        "Gore"
+      ],
+      "popularity": 1197487,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Al Gore"
+    },
+    {
+      "name": "Calvin Coolidge",
+      "aliases": [
+        "C. Coolidge",
+        "J. C. Coolidge",
+        "John Calvin Coolidge",
+        "John Calvin Coolidge Jr.",
+        "President Coolidge",
+        "Silent Cal",
+        "Silent Cal Coolidge"
+      ],
+      "popularity": 1228419,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Calvin Coolidge"
+    },
+    {
+      "name": "Kamala Harris",
+      "aliases": [],
+      "popularity": 1770766,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Kamala Harris"
+    },
+    {
+      "name": "John Adams",
+      "aliases": [
+        "J. Adams"
+      ],
+      "popularity": 1805173,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "John Adams"
+    },
+    {
+      "name": "Gerald Ford",
+      "aliases": [
+        "Ford",
+        "G. R. Ford",
+        "Gerald Ford Jr.",
+        "Gerald R. Ford",
+        "Gerald R. Ford Jr.",
+        "Gerald Rudolph Ford Jr.",
+        "Gerald Rudolph \"Jerry\" Ford Jr.",
+        "Leslie King",
+        "Leslie Lynch King",
+        "Leslie Lynch King Jr.",
+        "President Ford"
+      ],
+      "popularity": 2032264,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Gerald Ford"
+    },
+    {
+      "name": "Harry S. Truman",
+      "aliases": [
+        "H. S. Truman",
+        "H. Truman",
+        "Harry Truman",
+        "President Truman",
+        "Truman"
+      ],
+      "popularity": 2164221,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Harry S. Truman"
+    },
+    {
+      "name": "Thomas Jefferson",
+      "aliases": [
+        "President Jefferson",
+        "T. Jefferson"
+      ],
+      "popularity": 2310368,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Thomas Jefferson"
+    },
+    {
+      "name": "Lyndon B. Johnson",
+      "aliases": [
+        "L. B. Johnson",
+        "LBJ",
+        "Lyndon Baines Johnson",
+        "Lyndon Johnson"
+      ],
+      "popularity": 2456258,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Lyndon B. Johnson"
+    },
+    {
+      "name": "Richard Nixon",
+      "aliases": [
+        "Dick Nixon",
+        "Nixon",
+        "President Nixon",
+        "President Richard Nixon",
+        "R. M. Nixon",
+        "R. Nixon",
+        "Richard M. Nixon",
+        "Richard Milhous Nixon",
+        "Tricky Dick"
+      ],
+      "popularity": 2758126,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Richard Nixon"
+    },
+    {
+      "name": "George H. W. Bush",
+      "aliases": [
+        "Bush 41",
+        "Bush I",
+        "Bush Senior",
+        "Bush Sr.",
+        "G.H.W. Bush",
+        "George Bush Senior",
+        "George Bush Snr.",
+        "George Bush Sr.",
+        "George H Bush",
+        "George H.W.",
+        "George Herbert Bush",
+        "George W. Bush Senior",
+        "GHW Bush",
+        "GHWB",
+        "H.W. Bush",
+        "Herbert Walker Bush",
+        "President Bush",
+        "President George H.W. Bush",
+        "Vice President Bush"
+      ],
+      "popularity": 3012636,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "George H. W. Bush"
+    },
+    {
+      "name": "Chester A. Arthur",
+      "aliases": [
+        "C. A. Arthur",
+        "C. Arthur",
+        "Chester Arthur",
+        "President Arthur"
+      ],
+      "popularity": 3318921,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Chester A. Arthur"
+    },
+    {
+      "name": "Dick Cheney",
+      "aliases": [],
+      "popularity": 3374067,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Dick Cheney"
+    },
+    {
+      "name": "Theodore Roosevelt",
+      "aliases": [
+        "T. Roosevelt",
+        "Teddy Roosevelt"
+      ],
+      "popularity": 3544859,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Theodore Roosevelt"
+    },
+    {
+      "name": "Joe Biden",
+      "aliases": [
+        "Joseph Robinette Biden Jr."
+      ],
+      "popularity": 4168753,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Joe Biden"
+    },
+    {
+      "name": "JD Vance",
+      "aliases": [
+        "J. D. Hamel",
+        "J.D. Vance",
+        "James David Aikins",
+        "James David Hamel",
+        "James David Vance",
+        "James Donald Bowman"
+      ],
+      "popularity": 5189243,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "JD Vance"
+    }
+  ]
+}

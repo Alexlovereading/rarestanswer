@@ -1,0 +1,933 @@
+{
+  "id": "moons-of-jupiter",
+  "slug": "moons-of-jupiter",
+  "category": "science",
+  "question": "Name a moon of Jupiter",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "S/2017 J 11",
+      "aliases": [],
+      "popularity": 592,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "S/2017 J 11"
+    },
+    {
+      "name": "S/2022 J 3",
+      "aliases": [],
+      "popularity": 714,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "S/2022 J 3"
+    },
+    {
+      "name": "Jupiter LXXIII",
+      "aliases": [],
+      "popularity": 738,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Jupiter LXXIII"
+    },
+    {
+      "name": "Jupiter LXVI",
+      "aliases": [
+        "S/2017 J 5"
+      ],
+      "popularity": 984,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Jupiter LXVI"
+    },
+    {
+      "name": "S/2011 J 3",
+      "aliases": [],
+      "popularity": 1063,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "S/2011 J 3"
+    },
+    {
+      "name": "Jupiter LXVII",
+      "aliases": [
+        "S/2017 J 6"
+      ],
+      "popularity": 1094,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Jupiter LXVII"
+    },
+    {
+      "name": "Jupiter LXIII",
+      "aliases": [
+        "S/2017 J 2"
+      ],
+      "popularity": 1123,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Jupiter LXIII"
+    },
+    {
+      "name": "Sponde",
+      "aliases": [
+        "Jupiter XXXVI",
+        "S/2001 J 5"
+      ],
+      "popularity": 1184,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Sponde"
+    },
+    {
+      "name": "Jupiter LXVIII",
+      "aliases": [
+        "S/2017 J 7"
+      ],
+      "popularity": 1229,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Jupiter LXVIII"
+    },
+    {
+      "name": "S/2003 J 9",
+      "aliases": [],
+      "popularity": 1230,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "S/2003 J 9"
+    },
+    {
+      "name": "S/2003 J 16",
+      "aliases": [],
+      "popularity": 1304,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "S/2003 J 16"
+    },
+    {
+      "name": "Jupiter LXX",
+      "aliases": [
+        "S/2017 J 9"
+      ],
+      "popularity": 1329,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Jupiter LXX"
+    },
+    {
+      "name": "Jupiter LXIV",
+      "aliases": [
+        "S/2017 J 3"
+      ],
+      "popularity": 1332,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Jupiter LXIV"
+    },
+    {
+      "name": "Jupiter LXI",
+      "aliases": [
+        "S/2003 J 19"
+      ],
+      "popularity": 1355,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Jupiter LXI"
+    },
+    {
+      "name": "S/2003 J 10",
+      "aliases": [],
+      "popularity": 1357,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "S/2003 J 10"
+    },
+    {
+      "name": "Jupiter LXIX",
+      "aliases": [
+        "S/2017 J 8"
+      ],
+      "popularity": 1362,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Jupiter LXIX"
+    },
+    {
+      "name": "S/2003 J 4",
+      "aliases": [],
+      "popularity": 1371,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "S/2003 J 4"
+    },
+    {
+      "name": "Jupiter LXXII",
+      "aliases": [
+        "S/2011 J 1"
+      ],
+      "popularity": 1481,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Jupiter LXXII"
+    },
+    {
+      "name": "Eukelade",
+      "aliases": [
+        "Jupiter XLVII",
+        "S/2003 J 1"
+      ],
+      "popularity": 1482,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Eukelade"
+    },
+    {
+      "name": "S/2018 J 4",
+      "aliases": [],
+      "popularity": 1595,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "S/2018 J 4"
+    },
+    {
+      "name": "S/2003 J 12",
+      "aliases": [],
+      "popularity": 1669,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "S/2003 J 12"
+    },
+    {
+      "name": "Jupiter LVI",
+      "aliases": [
+        "S/2011 J 2"
+      ],
+      "popularity": 1672,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Jupiter LVI"
+    },
+    {
+      "name": "Jupiter LV",
+      "aliases": [
+        "S/2003 J 18"
+      ],
+      "popularity": 1716,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Jupiter LV"
+    },
+    {
+      "name": "Chaldene",
+      "aliases": [
+        "Jupiter XXI",
+        "S/2000 J 10"
+      ],
+      "popularity": 1806,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Chaldene"
+    },
+    {
+      "name": "Erinome",
+      "aliases": [
+        "Jupiter XXV",
+        "S/2000 J 4"
+      ],
+      "popularity": 1896,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Erinome"
+    },
+    {
+      "name": "S/2003 J 24",
+      "aliases": [
+        "EJc0061"
+      ],
+      "popularity": 1944,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "S/2003 J 24"
+    },
+    {
+      "name": "S/2018 J 2",
+      "aliases": [],
+      "popularity": 1947,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "S/2018 J 2"
+    },
+    {
+      "name": "Jupiter LIV",
+      "aliases": [
+        "S/2016 J 1"
+      ],
+      "popularity": 1990,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Jupiter LIV"
+    },
+    {
+      "name": "S/2003 J 23",
+      "aliases": [],
+      "popularity": 2126,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "S/2003 J 23"
+    },
+    {
+      "name": "Jupiter LIX",
+      "aliases": [
+        "S/2017 J 1"
+      ],
+      "popularity": 2173,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Jupiter LIX"
+    },
+    {
+      "name": "Megaclite",
+      "aliases": [
+        "Jupiter XIX",
+        "S/2000 J 8"
+      ],
+      "popularity": 2520,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Megaclite"
+    },
+    {
+      "name": "Hegemone",
+      "aliases": [
+        "Hegemone (moon)",
+        "Jupiter XXXIX",
+        "S/2003 J 8"
+      ],
+      "popularity": 2534,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Hegemone (moon)"
+    },
+    {
+      "name": "Taygete",
+      "aliases": [
+        "Jupiter XX",
+        "S/2000 J 9",
+        "Taygete (moon)"
+      ],
+      "popularity": 2580,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Taygete (moon)"
+    },
+    {
+      "name": "Thelxinoe",
+      "aliases": [
+        "Jupiter XLII",
+        "S/2003 J 22",
+        "Thelxinoe (moon)"
+      ],
+      "popularity": 2601,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Thelxinoe (moon)"
+    },
+    {
+      "name": "Hermippe",
+      "aliases": [
+        "Hermippe (moon)",
+        "Jupiter XXX",
+        "S/2001 J 3"
+      ],
+      "popularity": 2664,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Hermippe (moon)"
+    },
+    {
+      "name": "Harpalyke",
+      "aliases": [
+        "Harpalyke (moon)",
+        "Jupiter XXII",
+        "S/2000 J 5"
+      ],
+      "popularity": 2781,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Harpalyke (moon)"
+    },
+    {
+      "name": "Thyone",
+      "aliases": [
+        "Jupiter XXIX",
+        "S/2001 J 2",
+        "Thyone (moon)"
+      ],
+      "popularity": 2924,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Thyone (moon)"
+    },
+    {
+      "name": "Isonoe",
+      "aliases": [
+        "Isonoe (moon)",
+        "Jupiter XXVI",
+        "S/2000 J 6"
+      ],
+      "popularity": 2960,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Isonoe (moon)"
+    },
+    {
+      "name": "Eirene",
+      "aliases": [
+        "Eirene (moon)",
+        "Jupiter LVII",
+        "S/2003 J5"
+      ],
+      "popularity": 3031,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Eirene (moon)"
+    },
+    {
+      "name": "Mneme",
+      "aliases": [
+        "Jupiter XL",
+        "Mneme (moon)",
+        "S/2003 J 21"
+      ],
+      "popularity": 3068,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Mneme (moon)"
+    },
+    {
+      "name": "Euanthe",
+      "aliases": [
+        "Euanthe (moon)",
+        "Jupiter XXXIII",
+        "S/2001 J 7"
+      ],
+      "popularity": 3072,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Euanthe (moon)"
+    },
+    {
+      "name": "Kale",
+      "aliases": [
+        "Jupiter XXXVII",
+        "Kale (moon)",
+        "S/2001 J 8"
+      ],
+      "popularity": 3133,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Kale (moon)"
+    },
+    {
+      "name": "Autonoe",
+      "aliases": [
+        "Autonoe (moon)",
+        "Jupiter XXVIII",
+        "S/2001 J 1"
+      ],
+      "popularity": 3239,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Autonoe (moon)"
+    },
+    {
+      "name": "Kalyke",
+      "aliases": [
+        "Jupiter XXIII",
+        "S/2000 J 2"
+      ],
+      "popularity": 3254,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "Kalyke"
+    },
+    {
+      "name": "Eurydome",
+      "aliases": [
+        "Eurydome (moon)",
+        "Jupiter XXXII"
+      ],
+      "popularity": 3290,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Eurydome (moon)"
+    },
+    {
+      "name": "Arche",
+      "aliases": [
+        "Arche (moon)",
+        "Jupiter XLIII",
+        "S/2002 J 1"
+      ],
+      "popularity": 3305,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Arche (moon)"
+    },
+    {
+      "name": "Iocaste",
+      "aliases": [
+        "Iocaste (moon)",
+        "Jupiter XXIV",
+        "S/2000 J 3"
+      ],
+      "popularity": 3523,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Iocaste (moon)"
+    },
+    {
+      "name": "Aoede",
+      "aliases": [
+        "Aoede (moon)",
+        "Jupiter XLI",
+        "S/2003 J 7"
+      ],
+      "popularity": 3545,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Aoede (moon)"
+    },
+    {
+      "name": "Aitne",
+      "aliases": [
+        "Aitne (moon)",
+        "Jupiter XXXI",
+        "S/2001 J 11"
+      ],
+      "popularity": 3602,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Aitne (moon)"
+    },
+    {
+      "name": "Orthosie",
+      "aliases": [
+        "Jupiter XXXV",
+        "Orthosie (moon)",
+        "S/2001 J 9"
+      ],
+      "popularity": 3617,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Orthosie (moon)"
+    },
+    {
+      "name": "Philophrosyne",
+      "aliases": [
+        "Jupiter LVIII",
+        "Philophrosyne (moon)",
+        "S/2003 J15"
+      ],
+      "popularity": 3784,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Philophrosyne (moon)"
+    },
+    {
+      "name": "Helike",
+      "aliases": [
+        "Helike (moon)",
+        "Jupiter XLV",
+        "S/2003 J 6"
+      ],
+      "popularity": 3875,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Helike (moon)"
+    },
+    {
+      "name": "Pasithee",
+      "aliases": [
+        "Jupiter XXXVIII",
+        "Pasithee (moon)",
+        "S/2001 J 6"
+      ],
+      "popularity": 3909,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Pasithee (moon)"
+    },
+    {
+      "name": "Pandia",
+      "aliases": [
+        "Jupiter LXV",
+        "Pandia (moon)",
+        "S/2017 J 4"
+      ],
+      "popularity": 4168,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Pandia (moon)"
+    },
+    {
+      "name": "Jupiter LI",
+      "aliases": [
+        "S/2010 J 1"
+      ],
+      "popularity": 4195,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Jupiter LI"
+    },
+    {
+      "name": "Praxidike",
+      "aliases": [
+        "Jupiter XXVII",
+        "Praxidike (moon)",
+        "S/2000 J 7"
+      ],
+      "popularity": 4413,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Praxidike (moon)"
+    },
+    {
+      "name": "Herse",
+      "aliases": [
+        "Herse (moon)",
+        "Jupiter L",
+        "S/2003 J 17"
+      ],
+      "popularity": 4442,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Herse (moon)"
+    },
+    {
+      "name": "Euporie",
+      "aliases": [
+        "Euporie (moon)",
+        "Jupiter XXXIV",
+        "S/2001 J 10"
+      ],
+      "popularity": 4630,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Euporie (moon)"
+    },
+    {
+      "name": "Ersa",
+      "aliases": [
+        "Ersa (moon)",
+        "Jupiter LXXI",
+        "S/2018 J 1"
+      ],
+      "popularity": 4854,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Ersa (moon)"
+    },
+    {
+      "name": "Cyllene",
+      "aliases": [
+        "Cyllene (moon)",
+        "Jupiter XLVIII",
+        "S/2003 J 13"
+      ],
+      "popularity": 5078,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Cyllene (moon)"
+    },
+    {
+      "name": "Jupiter LII",
+      "aliases": [
+        "S/2010 J 2"
+      ],
+      "popularity": 5277,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Jupiter LII"
+    },
+    {
+      "name": "Dia",
+      "aliases": [
+        "Dia (moon)",
+        "Jupiter LIII",
+        "S/2000 J 11"
+      ],
+      "popularity": 5520,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Dia (moon)"
+    },
+    {
+      "name": "Callirrhoe",
+      "aliases": [
+        "1999 UX18",
+        "Callirrhoe (moon)",
+        "Jupiter XVII",
+        "S/1999 J1"
+      ],
+      "popularity": 5727,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Callirrhoe (moon)"
+    },
+    {
+      "name": "Kallichore",
+      "aliases": [
+        "Jupiter XLIV",
+        "Kallichore (moon)",
+        "S/2003 J 11"
+      ],
+      "popularity": 6402,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Kallichore (moon)"
+    },
+    {
+      "name": "Ananke",
+      "aliases": [
+        "Ananke (moon)",
+        "Jupiter XII"
+      ],
+      "popularity": 6664,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Ananke (moon)"
+    },
+    {
+      "name": "Leda",
+      "aliases": [
+        "Jupiter XIII",
+        "Leda (moon)"
+      ],
+      "popularity": 7081,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Leda (moon)"
+    },
+    {
+      "name": "Kore",
+      "aliases": [
+        "Jupiter XLIX",
+        "Kore (moon)",
+        "S/2003 J 14"
+      ],
+      "popularity": 7243,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Kore (moon)"
+    },
+    {
+      "name": "Pasiphae",
+      "aliases": [
+        "1908 CJ",
+        "Jupiter VIII",
+        "Pasiphae (moon)"
+      ],
+      "popularity": 7502,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Pasiphae (moon)"
+    },
+    {
+      "name": "Carme",
+      "aliases": [
+        "Carme (moon)",
+        "Jupiter XI"
+      ],
+      "popularity": 7932,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Carme (moon)"
+    },
+    {
+      "name": "Lysithea",
+      "aliases": [
+        "Jupiter X",
+        "Lysithea (moon)"
+      ],
+      "popularity": 8214,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Lysithea (moon)"
+    },
+    {
+      "name": "Eupheme",
+      "aliases": [
+        "Eupheme (moon)",
+        "Jupiter LX",
+        "S/2003 J 3"
+      ],
+      "popularity": 8499,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Eupheme (moon)"
+    },
+    {
+      "name": "Carpo",
+      "aliases": [
+        "Carpo (moon)",
+        "Jupiter XLVI",
+        "S/2003 J 20"
+      ],
+      "popularity": 8550,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Carpo (moon)"
+    },
+    {
+      "name": "Valetudo",
+      "aliases": [
+        "Jupiter LXII",
+        "S/2016 J 2",
+        "Valetudo (moon)"
+      ],
+      "popularity": 9375,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Valetudo (moon)"
+    },
+    {
+      "name": "Sinope",
+      "aliases": [
+        "Jupiter IX",
+        "Sinope (moon)"
+      ],
+      "popularity": 9453,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Sinope (moon)"
+    },
+    {
+      "name": "Themisto",
+      "aliases": [
+        "Jupiter XVIII",
+        "S/1975 J1",
+        "S/2000 J1",
+        "Themisto (moon)"
+      ],
+      "popularity": 13254,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Themisto (moon)"
+    },
+    {
+      "name": "Himalia",
+      "aliases": [
+        "Hestia",
+        "Himalia (moon)",
+        "Jupiter VI"
+      ],
+      "popularity": 19371,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Himalia (moon)"
+    },
+    {
+      "name": "Elara",
+      "aliases": [
+        "Elara (moon)",
+        "Jupiter VII"
+      ],
+      "popularity": 21041,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Elara (moon)"
+    },
+    {
+      "name": "Thebe",
+      "aliases": [
+        "Jupiter XIV",
+        "S/1979 J2",
+        "Thebe (moon)"
+      ],
+      "popularity": 30727,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Thebe (moon)"
+    },
+    {
+      "name": "Adrastea",
+      "aliases": [
+        "Adrastea (moon)",
+        "Jupiter XV",
+        "S/1979 J 1"
+      ],
+      "popularity": 31965,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Adrastea (moon)"
+    },
+    {
+      "name": "Metis",
+      "aliases": [
+        "Jupiter XVI",
+        "Metis (moon)",
+        "S / 1979 J3"
+      ],
+      "popularity": 45343,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Metis (moon)"
+    },
+    {
+      "name": "Amalthea",
+      "aliases": [
+        "Amalthea (moon)",
+        "Jupiter V"
+      ],
+      "popularity": 66970,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Amalthea (moon)"
+    },
+    {
+      "name": "Callisto",
+      "aliases": [
+        "Callisto (moon)",
+        "Jupiter IV"
+      ],
+      "popularity": 189407,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Callisto (moon)"
+    },
+    {
+      "name": "Io",
+      "aliases": [
+        "Io (moon)",
+        "Jupiter I"
+      ],
+      "popularity": 394668,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Io (moon)"
+    },
+    {
+      "name": "Ganymede",
+      "aliases": [
+        "Ganymede (moon)",
+        "Jupiter III"
+      ],
+      "popularity": 424780,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Ganymede (moon)"
+    },
+    {
+      "name": "Europa",
+      "aliases": [
+        "Europa (moon)",
+        "Jupiter II"
+      ],
+      "popularity": 449569,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Europa (moon)"
+    }
+  ]
+}

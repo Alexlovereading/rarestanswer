@@ -1,0 +1,220 @@
+{
+  "id": "primeira-liga-clubs",
+  "slug": "primeira-liga-clubs",
+  "category": "sports",
+  "question": "Name a current Primeira Liga club",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Moreirense F.C.",
+      "aliases": [
+        "Moreirense",
+        "Moreirense FC",
+        "Moreirense Futebol Clube"
+      ],
+      "popularity": 59790,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Moreirense F.C."
+    },
+    {
+      "name": "F.C. Arouca",
+      "aliases": [
+        "FC Arouca",
+        "Futebol Clube de Arouca"
+      ],
+      "popularity": 63760,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "F.C. Arouca"
+    },
+    {
+      "name": "C.D. Tondela",
+      "aliases": [
+        "CD Tondela"
+      ],
+      "popularity": 90443,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "C.D. Tondela"
+    },
+    {
+      "name": "F.C. Alverca",
+      "aliases": [],
+      "popularity": 103192,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "F.C. Alverca"
+    },
+    {
+      "name": "F.C. Famalicão",
+      "aliases": [
+        "FC Famalicão"
+      ],
+      "popularity": 107978,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "F.C. Famalicão"
+    },
+    {
+      "name": "C.D. Santa Clara",
+      "aliases": [
+        "CD Santa Clara",
+        "Santa Clara Azores"
+      ],
+      "popularity": 113503,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "C.D. Santa Clara"
+    },
+    {
+      "name": "C.S. Marítimo",
+      "aliases": [
+        "CS Marítimo",
+        "Marítimo"
+      ],
+      "popularity": 116236,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "C.S. Marítimo"
+    },
+    {
+      "name": "G.D. Estoril Praia",
+      "aliases": [
+        "Estoril",
+        "Estoril Praia",
+        "Grupo Desportivo Estoril Praia"
+      ],
+      "popularity": 119053,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "G.D. Estoril Praia"
+    },
+    {
+      "name": "Casa Pia A.C.",
+      "aliases": [
+        "Casa Pia AC"
+      ],
+      "popularity": 137048,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Casa Pia A.C."
+    },
+    {
+      "name": "Rio Ave F.C.",
+      "aliases": [
+        "Rio Ave FC"
+      ],
+      "popularity": 137649,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Rio Ave F.C."
+    },
+    {
+      "name": "C.D. Nacional",
+      "aliases": [
+        "CD Nacional",
+        "Clube Desportivo Nacional",
+        "Nacional",
+        "Nacional da Madeira"
+      ],
+      "popularity": 141167,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "C.D. Nacional"
+    },
+    {
+      "name": "C.F. Estrela da Amadora",
+      "aliases": [
+        "CF Estrela Amadora",
+        "CF Estrela da Amadora",
+        "Club Football Estrela da Amadora",
+        "Estrela",
+        "Estrela Amadora",
+        "Estrela da Amadora"
+      ],
+      "popularity": 154374,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "C.F. Estrela da Amadora"
+    },
+    {
+      "name": "Vitória S.C.",
+      "aliases": [
+        "Vitória de Guimarães",
+        "Vitória Guimarães SC",
+        "Vitoria SC"
+      ],
+      "popularity": 167365,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Vitória S.C."
+    },
+    {
+      "name": "Gil Vicente F.C.",
+      "aliases": [
+        "Gil Vicente FC",
+        "Gil Vicente Futebol Clube"
+      ],
+      "popularity": 191970,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Gil Vicente F.C."
+    },
+    {
+      "name": "S.C. Braga",
+      "aliases": [
+        "SC Braga",
+        "Sp. Braga",
+        "Sporting Braga",
+        "Sporting Clube de Braga",
+        "Sporting de Braga"
+      ],
+      "popularity": 259855,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "S.C. Braga"
+    },
+    {
+      "name": "FC Porto",
+      "aliases": [
+        "F.C.P.",
+        "F.C.Porto",
+        "FCP",
+        "FCPorto",
+        "Futebol Clube do Porto",
+        "Porto"
+      ],
+      "popularity": 687048,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "FC Porto"
+    },
+    {
+      "name": "Sporting CP",
+      "aliases": [
+        "SCP",
+        "Sporting Club Portugal",
+        "Sporting Lisbon",
+        "Sporting Portugal"
+      ],
+      "popularity": 862693,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Sporting CP"
+    },
+    {
+      "name": "S.L. Benfica",
+      "aliases": [
+        "Benfica",
+        "SL Benfica",
+        "SLB",
+        "Sport Lisboa e Benfica"
+      ],
+      "popularity": 1012947,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "S.L. Benfica"
+    }
+  ]
+}

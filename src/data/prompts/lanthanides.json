@@ -1,0 +1,178 @@
+{
+  "id": "lanthanides",
+  "slug": "lanthanides",
+  "category": "science",
+  "question": "Name a lanthanide",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Thulium",
+      "aliases": [
+        "69Tm",
+        "element 69"
+      ],
+      "popularity": 45160,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Thulium"
+    },
+    {
+      "name": "Erbium",
+      "aliases": [
+        "68Er",
+        "element 68"
+      ],
+      "popularity": 47520,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Erbium"
+    },
+    {
+      "name": "Terbium",
+      "aliases": [
+        "65Tb",
+        "element 65"
+      ],
+      "popularity": 48379,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Terbium"
+    },
+    {
+      "name": "Praseodymium",
+      "aliases": [
+        "59Pr",
+        "element 59"
+      ],
+      "popularity": 58947,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Praseodymium"
+    },
+    {
+      "name": "Europium",
+      "aliases": [
+        "63Eu",
+        "element 63"
+      ],
+      "popularity": 61430,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Europium"
+    },
+    {
+      "name": "Dysprosium",
+      "aliases": [
+        "element 66"
+      ],
+      "popularity": 63746,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Dysprosium"
+    },
+    {
+      "name": "Ytterbium",
+      "aliases": [
+        "70Yb",
+        "element 70"
+      ],
+      "popularity": 69680,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Ytterbium"
+    },
+    {
+      "name": "Lutetium",
+      "aliases": [
+        "71Lu",
+        "cassiopeium",
+        "cassiopium",
+        "element 71",
+        "lutecium"
+      ],
+      "popularity": 72936,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Lutetium"
+    },
+    {
+      "name": "Lanthanum",
+      "aliases": [
+        "57La",
+        "element 57",
+        "metallic lanthanum"
+      ],
+      "popularity": 80708,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Lanthanum"
+    },
+    {
+      "name": "Samarium",
+      "aliases": [
+        "62Sm",
+        "element 62"
+      ],
+      "popularity": 81136,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Samarium"
+    },
+    {
+      "name": "Cerium",
+      "aliases": [
+        "58Ce",
+        "element 58"
+      ],
+      "popularity": 81614,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Cerium"
+    },
+    {
+      "name": "Promethium",
+      "aliases": [
+        "element 61"
+      ],
+      "popularity": 92842,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Promethium"
+    },
+    {
+      "name": "Holmium",
+      "aliases": [
+        "element 67"
+      ],
+      "popularity": 94548,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Holmium"
+    },
+    {
+      "name": "Gadolinium",
+      "aliases": [
+        "64Gd",
+        "element 64",
+        "Gad",
+        "gadolininum",
+        "gadolinum"
+      ],
+      "popularity": 100587,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Gadolinium"
+    },
+    {
+      "name": "Neodymium",
+      "aliases": [
+        "60Nd",
+        "element 60"
+      ],
+      "popularity": 129379,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Neodymium"
+    }
+  ]
+}

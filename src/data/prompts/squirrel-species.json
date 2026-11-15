@@ -1,0 +1,3216 @@
+{
+  "id": "squirrel-species",
+  "slug": "squirrel-species",
+  "category": "animals",
+  "question": "Name a species of squirrel",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Mount Topapu squirrel",
+      "aliases": [
+        "Prosciurillus topapuensis"
+      ],
+      "popularity": 163,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Mount Topapu squirrel"
+    },
+    {
+      "name": "Tamiops minshanica",
+      "aliases": [
+        "Tamiops minshanicus"
+      ],
+      "popularity": 251,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "Tamiops minshanica"
+    },
+    {
+      "name": "Natuna squirrel",
+      "aliases": [
+        "Sundasciurus natunensis"
+      ],
+      "popularity": 285,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Natuna squirrel"
+    },
+    {
+      "name": "Epixerus ebii wilsoni",
+      "aliases": [
+        "Epixerus wilsoni"
+      ],
+      "popularity": 301,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Epixerus ebii wilsoni"
+    },
+    {
+      "name": "Upland squirrel",
+      "aliases": [
+        "Sundasciurus tahan"
+      ],
+      "popularity": 334,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Upland squirrel"
+    },
+    {
+      "name": "Small sun squirrel",
+      "aliases": [
+        "Heliosciurus punctatus",
+        "Punctate sun squirrel"
+      ],
+      "popularity": 336,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Small sun squirrel"
+    },
+    {
+      "name": "Robinson's squirrel",
+      "aliases": [
+        "Sundasciurus robinsoni"
+      ],
+      "popularity": 351,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Robinson's squirrel"
+    },
+    {
+      "name": "Sumatran mountain squirrel",
+      "aliases": [
+        "Sundasciurus altitudinis"
+      ],
+      "popularity": 372,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Sumatran mountain squirrel"
+    },
+    {
+      "name": "Fraternal squirrel",
+      "aliases": [
+        "Sundasciurus fraterculus"
+      ],
+      "popularity": 393,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Fraternal squirrel"
+    },
+    {
+      "name": "Ribboned rope squirrel",
+      "aliases": [
+        "Funisciurus lemniscatus"
+      ],
+      "popularity": 403,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Ribboned rope squirrel"
+    },
+    {
+      "name": "Busuanga squirrel",
+      "aliases": [
+        "Sundasciurus hoogstraali"
+      ],
+      "popularity": 404,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Busuanga squirrel"
+    },
+    {
+      "name": "Culion tree squirrel",
+      "aliases": [
+        "Sundasciurus moellendorffi"
+      ],
+      "popularity": 404,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Culion tree squirrel"
+    },
+    {
+      "name": "Alston's Sulawesi dwarf squirrel",
+      "aliases": [
+        "Prosciurillus alstoni"
+      ],
+      "popularity": 412,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Alston's Sulawesi dwarf squirrel"
+    },
+    {
+      "name": "Mutable sun squirrel",
+      "aliases": [
+        "Heliosciurus mutabilis"
+      ],
+      "popularity": 416,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Mutable sun squirrel"
+    },
+    {
+      "name": "Ruwenzori sun squirrel",
+      "aliases": [
+        "Heliosciurus ruwenzorii"
+      ],
+      "popularity": 423,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Ruwenzori sun squirrel"
+    },
+    {
+      "name": "Spermophilus brevicauda",
+      "aliases": [],
+      "popularity": 423,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Spermophilus brevicauda"
+    },
+    {
+      "name": "Mentawai three-striped squirrel",
+      "aliases": [
+        "Lariscus obscurus"
+      ],
+      "popularity": 457,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Mentawai three-striped squirrel"
+    },
+    {
+      "name": "Palawan montane squirrel",
+      "aliases": [
+        "Sundasciurus rabori"
+      ],
+      "popularity": 466,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Palawan montane squirrel"
+    },
+    {
+      "name": "Pallid ground squirrel",
+      "aliases": [
+        "Spermophilus pallidicauda"
+      ],
+      "popularity": 473,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Pallid ground squirrel"
+    },
+    {
+      "name": "Red-throated squirrel",
+      "aliases": [
+        "Dremomys gularis"
+      ],
+      "popularity": 479,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Red-throated squirrel"
+    },
+    {
+      "name": "Lunda rope squirrel",
+      "aliases": [
+        "Funisciurus bayonii"
+      ],
+      "popularity": 480,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Lunda rope squirrel"
+    },
+    {
+      "name": "Weber's dwarf squirrel",
+      "aliases": [
+        "Prosciurillus weberi"
+      ],
+      "popularity": 482,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Weber's dwarf squirrel"
+    },
+    {
+      "name": "Kintampo rope squirrel",
+      "aliases": [
+        "Funisciurus substriatus"
+      ],
+      "popularity": 486,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Kintampo rope squirrel"
+    },
+    {
+      "name": "Niobe ground squirrel",
+      "aliases": [
+        "Lariscus niobe"
+      ],
+      "popularity": 489,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Niobe ground squirrel"
+    },
+    {
+      "name": "Four-striped ground squirrel",
+      "aliases": [
+        "Lariscus hosei"
+      ],
+      "popularity": 510,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Four-striped ground squirrel"
+    },
+    {
+      "name": "Secretive dwarf squirrel",
+      "aliases": [
+        "Prosciurillus abstrusus"
+      ],
+      "popularity": 510,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Secretive dwarf squirrel"
+    },
+    {
+      "name": "Davao squirrel",
+      "aliases": [
+        "Sundasciurus davensis"
+      ],
+      "popularity": 515,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Davao squirrel"
+    },
+    {
+      "name": "Sanghir squirrel",
+      "aliases": [
+        "Prosciurillus rosenbergii"
+      ],
+      "popularity": 516,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Sanghir squirrel"
+    },
+    {
+      "name": "Red-cheeked rope squirrel",
+      "aliases": [
+        "Funisciurus leucogenys"
+      ],
+      "popularity": 517,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Red-cheeked rope squirrel"
+    },
+    {
+      "name": "Ebian's palm squirrel",
+      "aliases": [
+        "Epixerus ebii"
+      ],
+      "popularity": 536,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Ebian's palm squirrel"
+    },
+    {
+      "name": "Coahuila chipmunk",
+      "aliases": [
+        "Neotamias solivagus"
+      ],
+      "popularity": 542,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Coahuila chipmunk"
+    },
+    {
+      "name": "Jentink's squirrel",
+      "aliases": [
+        "Sundasciurus jentinki"
+      ],
+      "popularity": 544,
+      "rarity": 0.901,
+      "tier": 5,
+      "wiki": "Jentink's squirrel"
+    },
+    {
+      "name": "Whitish dwarf squirrel",
+      "aliases": [
+        "Prosciurillus leucomus"
+      ],
+      "popularity": 545,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Whitish dwarf squirrel"
+    },
+    {
+      "name": "Celebes dwarf squirrel",
+      "aliases": [
+        "Prosciurillus murinus"
+      ],
+      "popularity": 549,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Celebes dwarf squirrel"
+    },
+    {
+      "name": "Gray-cheeked flying squirrel",
+      "aliases": [
+        "Hylopetes lepidus"
+      ],
+      "popularity": 554,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Gray-cheeked flying squirrel"
+    },
+    {
+      "name": "Samar squirrel",
+      "aliases": [
+        "Sundasciurus samarensis"
+      ],
+      "popularity": 557,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "Samar squirrel"
+    },
+    {
+      "name": "Lowland long-nosed squirrel",
+      "aliases": [
+        "Hyosciurus ileile"
+      ],
+      "popularity": 559,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Lowland long-nosed squirrel"
+    },
+    {
+      "name": "Phayre's squirrel",
+      "aliases": [
+        "Callosciurus phayrei"
+      ],
+      "popularity": 581,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Phayre's squirrel"
+    },
+    {
+      "name": "Mentawai squirrel",
+      "aliases": [
+        "Callosciurus melanogaster"
+      ],
+      "popularity": 582,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Mentawai squirrel"
+    },
+    {
+      "name": "Montane long-nosed squirrel",
+      "aliases": [
+        "Hyosciurus heinrichi"
+      ],
+      "popularity": 589,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Montane long-nosed squirrel"
+    },
+    {
+      "name": "Low's squirrel",
+      "aliases": [
+        "Sundasciurus lowii"
+      ],
+      "popularity": 592,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Low's squirrel"
+    },
+    {
+      "name": "Hagen's flying squirrel",
+      "aliases": [
+        "Petinomys hageni"
+      ],
+      "popularity": 593,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Hagen's flying squirrel"
+    },
+    {
+      "name": "Sculptor squirrel",
+      "aliases": [
+        "Glyphotes simus"
+      ],
+      "popularity": 603,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Sculptor squirrel"
+    },
+    {
+      "name": "Striped bush squirrel",
+      "aliases": [
+        "Paraxerus flavovittis"
+      ],
+      "popularity": 615,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Striped bush squirrel"
+    },
+    {
+      "name": "Crater chipmunk",
+      "aliases": [
+        "Neotamias cratericus"
+      ],
+      "popularity": 624,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Crater chipmunk"
+    },
+    {
+      "name": "Lady Burton's rope squirrel",
+      "aliases": [
+        "Funisciurus isabella"
+      ],
+      "popularity": 626,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Lady Burton's rope squirrel"
+    },
+    {
+      "name": "Siberut flying squirrel",
+      "aliases": [
+        "Petinomys lugens"
+      ],
+      "popularity": 628,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Siberut flying squirrel"
+    },
+    {
+      "name": "Southern Palawan tree squirrel",
+      "aliases": [
+        "Sundasciurus steerii"
+      ],
+      "popularity": 630,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Southern Palawan tree squirrel"
+    },
+    {
+      "name": "Red-hipped squirrel",
+      "aliases": [
+        "Dremomys pyrrhomerus"
+      ],
+      "popularity": 650,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Red-hipped squirrel"
+    },
+    {
+      "name": "Slender-tailed squirrel",
+      "aliases": [
+        "Protoxerus aubinnii"
+      ],
+      "popularity": 650,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Slender-tailed squirrel"
+    },
+    {
+      "name": "Tian Shan ground squirrel",
+      "aliases": [
+        "Spermophilus ralli"
+      ],
+      "popularity": 665,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Tian Shan ground squirrel"
+    },
+    {
+      "name": "Vordermann's flying squirrel",
+      "aliases": [
+        "Petinomys vordermanni"
+      ],
+      "popularity": 673,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Vordermann's flying squirrel"
+    },
+    {
+      "name": "Brooke's squirrel",
+      "aliases": [
+        "Sundasciurus brookei"
+      ],
+      "popularity": 681,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Brooke's squirrel"
+    },
+    {
+      "name": "Cooper's mountain squirrel",
+      "aliases": [
+        "Paraxerus cooperi"
+      ],
+      "popularity": 685,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Cooper's mountain squirrel"
+    },
+    {
+      "name": "Kinabalu squirrel",
+      "aliases": [
+        "Callosciurus baluensis"
+      ],
+      "popularity": 690,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Kinabalu squirrel"
+    },
+    {
+      "name": "Mishmi giant flying squirrel",
+      "aliases": [
+        "Petaurista mishmiensis"
+      ],
+      "popularity": 700,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Mishmi giant flying squirrel"
+    },
+    {
+      "name": "Black-eared squirrel",
+      "aliases": [
+        "Nannosciurus melanotis"
+      ],
+      "popularity": 707,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Black-eared squirrel"
+    },
+    {
+      "name": "Himalayan large-eared flying squirrel",
+      "aliases": [
+        "Priapomys leonardi"
+      ],
+      "popularity": 709,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Himalayan large-eared flying squirrel"
+    },
+    {
+      "name": "Carruther's mountain squirrel",
+      "aliases": [
+        "Funisciurus carruthersi"
+      ],
+      "popularity": 710,
+      "rarity": 0.814,
+      "tier": 5,
+      "wiki": "Carruther's mountain squirrel"
+    },
+    {
+      "name": "Congo rope squirrel",
+      "aliases": [
+        "Funisciurus congicus"
+      ],
+      "popularity": 718,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Congo rope squirrel"
+    },
+    {
+      "name": "Hon Khoai squirrel",
+      "aliases": [
+        "Callosciurus honkhoaiensis"
+      ],
+      "popularity": 721,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Hon Khoai squirrel"
+    },
+    {
+      "name": "Kloss's squirrel",
+      "aliases": [
+        "Callosciurus albescens"
+      ],
+      "popularity": 735,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Kloss's squirrel"
+    },
+    {
+      "name": "Relict ground squirrel",
+      "aliases": [
+        "Spermophilus relictus"
+      ],
+      "popularity": 735,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Relict ground squirrel"
+    },
+    {
+      "name": "Anderson's squirrel",
+      "aliases": [
+        "Callosciurus quinquestriatus"
+      ],
+      "popularity": 737,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Anderson's squirrel"
+    },
+    {
+      "name": "Black and red bush squirrel",
+      "aliases": [
+        "Paraxerus lucifer"
+      ],
+      "popularity": 746,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Black and red bush squirrel"
+    },
+    {
+      "name": "Swynnerton's bush squirrel",
+      "aliases": [
+        "Paraxerus vexillarius"
+      ],
+      "popularity": 746,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Swynnerton's bush squirrel"
+    },
+    {
+      "name": "Sipora flying squirrel",
+      "aliases": [
+        "Hylopetes sipora"
+      ],
+      "popularity": 756,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Sipora flying squirrel"
+    },
+    {
+      "name": "Mindanao flying squirrel",
+      "aliases": [
+        "Petinomys mindanensis"
+      ],
+      "popularity": 763,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Mindanao flying squirrel"
+    },
+    {
+      "name": "Sierra Madre ground squirrel",
+      "aliases": [
+        "Callospermophilus madrensis"
+      ],
+      "popularity": 764,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Sierra Madre ground squirrel"
+    },
+    {
+      "name": "Zanj sun squirrel",
+      "aliases": [
+        "Heliosciurus undulatus"
+      ],
+      "popularity": 766,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Zanj sun squirrel"
+    },
+    {
+      "name": "Temminck's flying squirrel",
+      "aliases": [
+        "Petinomys setosus"
+      ],
+      "popularity": 774,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Temminck's flying squirrel"
+    },
+    {
+      "name": "Inornate squirrel",
+      "aliases": [
+        "Callosciurus inornatus"
+      ],
+      "popularity": 784,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "Inornate squirrel"
+    },
+    {
+      "name": "Ear-spot squirrel",
+      "aliases": [
+        "Callosciurus adamsi"
+      ],
+      "popularity": 787,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Ear-spot squirrel"
+    },
+    {
+      "name": "Western dwarf squirrel",
+      "aliases": [
+        "Microsciurus mimulus"
+      ],
+      "popularity": 794,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Western dwarf squirrel"
+    },
+    {
+      "name": "Forrest's rock squirrel",
+      "aliases": [
+        "Sciurotamias forresti",
+        "Sciurotamias forresti/Rupestes forresti"
+      ],
+      "popularity": 798,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Forrest's rock squirrel"
+    },
+    {
+      "name": "Jentink's flying squirrel",
+      "aliases": [
+        "Hylopetes platyurus"
+      ],
+      "popularity": 804,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Jentink's flying squirrel"
+    },
+    {
+      "name": "Mindanao squirrel",
+      "aliases": [
+        "Sundasciurus mindanensis"
+      ],
+      "popularity": 805,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Mindanao squirrel"
+    },
+    {
+      "name": "Hose's pygmy flying squirrel",
+      "aliases": [
+        "Petaurillus hosei"
+      ],
+      "popularity": 816,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Hose's pygmy flying squirrel"
+    },
+    {
+      "name": "Selangor pygmy flying squirrel",
+      "aliases": [
+        "Petaurillus kinlochii"
+      ],
+      "popularity": 825,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Selangor pygmy flying squirrel"
+    },
+    {
+      "name": "Ochre bush squirrel",
+      "aliases": [
+        "Paraxerus ochraceus"
+      ],
+      "popularity": 831,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Ochre bush squirrel"
+    },
+    {
+      "name": "Perote ground squirrel",
+      "aliases": [
+        "Spermophilus perotensis",
+        "Xerospermophilus perotensis"
+      ],
+      "popularity": 837,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Perote ground squirrel"
+    },
+    {
+      "name": "Whiskered flying squirrel",
+      "aliases": [
+        "Petinomys genibarbis"
+      ],
+      "popularity": 838,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Whiskered flying squirrel"
+    },
+    {
+      "name": "Bornean mountain ground squirrel",
+      "aliases": [
+        "Dremomys everetti",
+        "Sundasciurus everetti"
+      ],
+      "popularity": 850,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Bornean mountain ground squirrel"
+    },
+    {
+      "name": "Santander dwarf squirrel",
+      "aliases": [
+        "Microsciurus santanderensis"
+      ],
+      "popularity": 850,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Santander dwarf squirrel"
+    },
+    {
+      "name": "Red-bellied squirrel",
+      "aliases": [
+        "Rubrisciurus rubriventer",
+        "Sulawesi giant squirrel"
+      ],
+      "popularity": 853,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Red-bellied squirrel"
+    },
+    {
+      "name": "Three-striped ground squirrel",
+      "aliases": [
+        "Lariscus insignis"
+      ],
+      "popularity": 876,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Three-striped ground squirrel"
+    },
+    {
+      "name": "Du Chaillu's rope squirrel",
+      "aliases": [
+        "Funisciurus duchaillui"
+      ],
+      "popularity": 885,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Du Chaillu's rope squirrel"
+    },
+    {
+      "name": "Alexander's bush squirrel",
+      "aliases": [
+        "Paraxerus alexandri"
+      ],
+      "popularity": 911,
+      "rarity": 0.721,
+      "tier": 4,
+      "wiki": "Alexander's bush squirrel"
+    },
+    {
+      "name": "Bartel's flying squirrel",
+      "aliases": [
+        "Hylopetes bartelsi"
+      ],
+      "popularity": 914,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Bartel's flying squirrel"
+    },
+    {
+      "name": "Basilan flying squirrel",
+      "aliases": [
+        "Petinomys crinitus"
+      ],
+      "popularity": 921,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Basilan flying squirrel"
+    },
+    {
+      "name": "Mentawi flying squirrel",
+      "aliases": [
+        "Iomys sipora"
+      ],
+      "popularity": 921,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Mentawi flying squirrel"
+    },
+    {
+      "name": "Nilgiri striped squirrel",
+      "aliases": [
+        "Funambulus sublineatus"
+      ],
+      "popularity": 922,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Nilgiri striped squirrel"
+    },
+    {
+      "name": "Alashan ground squirrel",
+      "aliases": [
+        "Spermophilus alashanicus"
+      ],
+      "popularity": 934,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Alashan ground squirrel"
+    },
+    {
+      "name": "Boehm's bush squirrel",
+      "aliases": [
+        "Paraxerus boehmi"
+      ],
+      "popularity": 951,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Boehm's bush squirrel"
+    },
+    {
+      "name": "Coulee chipmunk",
+      "aliases": [
+        "Neotamias grisescens"
+      ],
+      "popularity": 955,
+      "rarity": 0.699,
+      "tier": 4,
+      "wiki": "Coulee chipmunk"
+    },
+    {
+      "name": "Horse-tailed squirrel",
+      "aliases": [
+        "Sundasciurus hippurus"
+      ],
+      "popularity": 961,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Horse-tailed squirrel"
+    },
+    {
+      "name": "Taurus ground squirrel",
+      "aliases": [
+        "Spermophilus taurensis"
+      ],
+      "popularity": 971,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Taurus ground squirrel"
+    },
+    {
+      "name": "Mebo giant flying squirrel",
+      "aliases": [
+        "Petaurista siangensis"
+      ],
+      "popularity": 976,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Mebo giant flying squirrel"
+    },
+    {
+      "name": "Sumatran flying squirrel",
+      "aliases": [
+        "Hylopetes winstoni"
+      ],
+      "popularity": 978,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Sumatran flying squirrel"
+    },
+    {
+      "name": "Mount Gaoligong flying squirrel",
+      "aliases": [
+        "Biswamoyopterus gaoligongensis"
+      ],
+      "popularity": 980,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Mount Gaoligong flying squirrel"
+    },
+    {
+      "name": "Smoky flying squirrel",
+      "aliases": [
+        "Pteromyscus pulverulentus"
+      ],
+      "popularity": 987,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Smoky flying squirrel"
+    },
+    {
+      "name": "Espíritu Santo antelope squirrel",
+      "aliases": [
+        "Ammospermophilus insularis"
+      ],
+      "popularity": 988,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Espíritu Santo antelope squirrel"
+    },
+    {
+      "name": "Caucasian Mountain ground squirrel",
+      "aliases": [
+        "Spermophilus musicus"
+      ],
+      "popularity": 995,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Caucasian Mountain ground squirrel"
+    },
+    {
+      "name": "Vincent's bush squirrel",
+      "aliases": [
+        "Paraxerus vincenti"
+      ],
+      "popularity": 1001,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Vincent's bush squirrel"
+    },
+    {
+      "name": "Lesser pygmy flying squirrel",
+      "aliases": [
+        "Petaurillus emiliae"
+      ],
+      "popularity": 1038,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Lesser pygmy flying squirrel"
+    },
+    {
+      "name": "Arrow flying squirrel",
+      "aliases": [
+        "Hylopetes sagitta",
+        "Petinomys sagitta"
+      ],
+      "popularity": 1042,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "Arrow flying squirrel"
+    },
+    {
+      "name": "Red-cheeked ground squirrel",
+      "aliases": [
+        "Spermophilus erythrogenys"
+      ],
+      "popularity": 1051,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Red-cheeked ground squirrel"
+    },
+    {
+      "name": "Yunnan woolly flying squirrel",
+      "aliases": [
+        "Eupetaurus nivamons"
+      ],
+      "popularity": 1090,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Yunnan woolly flying squirrel"
+    },
+    {
+      "name": "Green bush squirrel",
+      "aliases": [
+        "Paraxerus poensis"
+      ],
+      "popularity": 1104,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Green bush squirrel"
+    },
+    {
+      "name": "Perny's long-nosed squirrel",
+      "aliases": [
+        "Dremomys pernyi"
+      ],
+      "popularity": 1109,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Perny's long-nosed squirrel"
+    },
+    {
+      "name": "Southern Idaho ground squirrel",
+      "aliases": [
+        "Spermophilus brunneus endemicus",
+        "Spermophilus endemicus",
+        "Urocitellus brunneus endemicus",
+        "Urocitellus endemicus"
+      ],
+      "popularity": 1109,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Southern Idaho ground squirrel"
+    },
+    {
+      "name": "Hainan flying squirrel",
+      "aliases": [
+        "Hylopetes electilis"
+      ],
+      "popularity": 1113,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Hainan flying squirrel"
+    },
+    {
+      "name": "Bangs's mountain squirrel",
+      "aliases": [
+        "Syntheosciurus brochus"
+      ],
+      "popularity": 1119,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Bangs's mountain squirrel"
+    },
+    {
+      "name": "Thomas's flying squirrel",
+      "aliases": [
+        "Aeromys thomasi"
+      ],
+      "popularity": 1142,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Thomas's flying squirrel"
+    },
+    {
+      "name": "Black-striped squirrel",
+      "aliases": [
+        "Callosciurus nigrovittatus"
+      ],
+      "popularity": 1213,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Black-striped squirrel"
+    },
+    {
+      "name": "Slender squirrel",
+      "aliases": [
+        "Sundasciurus tenuis"
+      ],
+      "popularity": 1225,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Slender squirrel"
+    },
+    {
+      "name": "Asian red-cheeked squirrel",
+      "aliases": [
+        "Dremomys rufigenis"
+      ],
+      "popularity": 1258,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Asian red-cheeked squirrel"
+    },
+    {
+      "name": "Tibetan woolly flying squirrel",
+      "aliases": [
+        "Eupetaurus tibetensis"
+      ],
+      "popularity": 1260,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Tibetan woolly flying squirrel"
+    },
+    {
+      "name": "Gambian sun squirrel",
+      "aliases": [
+        "Heliosciurus gambianus"
+      ],
+      "popularity": 1275,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Gambian sun squirrel"
+    },
+    {
+      "name": "Texas antelope squirrel",
+      "aliases": [
+        "Ammospermophilus interpres"
+      ],
+      "popularity": 1328,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Texas antelope squirrel"
+    },
+    {
+      "name": "Mountain ground squirrel",
+      "aliases": [
+        "Damara ground squirrel",
+        "Kaokoveld ground squirrel",
+        "Xerus princeps"
+      ],
+      "popularity": 1357,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Mountain ground squirrel"
+    },
+    {
+      "name": "Piute ground squirrel",
+      "aliases": [
+        "Great Basin Ground Squirrel",
+        "Spermophilus mollis",
+        "Urocitellus mollis"
+      ],
+      "popularity": 1377,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Piute ground squirrel"
+    },
+    {
+      "name": "Long-clawed ground squirrel",
+      "aliases": [
+        "Spermophilopsis leptodactylus"
+      ],
+      "popularity": 1401,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Long-clawed ground squirrel"
+    },
+    {
+      "name": "Russet ground squirrel",
+      "aliases": [
+        "Spermophilus major"
+      ],
+      "popularity": 1412,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Russet ground squirrel"
+    },
+    {
+      "name": "Indochinese flying squirrel",
+      "aliases": [
+        "Hylopetes phayrei"
+      ],
+      "popularity": 1415,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Indochinese flying squirrel"
+    },
+    {
+      "name": "Rio Grande ground squirrel",
+      "aliases": [
+        "Ictidomys parvidens"
+      ],
+      "popularity": 1421,
+      "rarity": 0.599,
+      "tier": 3,
+      "wiki": "Rio Grande ground squirrel"
+    },
+    {
+      "name": "Maritime striped squirrel",
+      "aliases": [
+        "Tamiops maritimus"
+      ],
+      "popularity": 1483,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Maritime striped squirrel"
+    },
+    {
+      "name": "Orange-bellied Himalayan squirrel",
+      "aliases": [
+        "Dremomys lokriah"
+      ],
+      "popularity": 1483,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Orange-bellied Himalayan squirrel"
+    },
+    {
+      "name": "Central American dwarf squirrel",
+      "aliases": [
+        "Microsciurus alfari"
+      ],
+      "popularity": 1507,
+      "rarity": 0.59,
+      "tier": 3,
+      "wiki": "Central American dwarf squirrel"
+    },
+    {
+      "name": "Baja California rock squirrel",
+      "aliases": [
+        "Otospermophilus atricapillus",
+        "Spermophilus atricapillus"
+      ],
+      "popularity": 1512,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Baja California rock squirrel"
+    },
+    {
+      "name": "Groove-toothed flying squirrel",
+      "aliases": [
+        "Aeretes melanopterus",
+        "Northern Chinese Flying Squirrel"
+      ],
+      "popularity": 1529,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Groove-toothed flying squirrel"
+    },
+    {
+      "name": "Sciurus ingrami",
+      "aliases": [
+        "Guerlinguetus brasiliensis ingrami"
+      ],
+      "popularity": 1531,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Sciurus ingrami"
+    },
+    {
+      "name": "Red-cheeked flying squirrel",
+      "aliases": [
+        "Hylopetes spadiceus"
+      ],
+      "popularity": 1543,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Red-cheeked flying squirrel"
+    },
+    {
+      "name": "Merriam's ground squirrel",
+      "aliases": [
+        "Spermophilus canus",
+        "Urocitellus canus"
+      ],
+      "popularity": 1549,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Merriam's ground squirrel"
+    },
+    {
+      "name": "Berdmore's ground squirrel",
+      "aliases": [
+        "Menetes berdmorei"
+      ],
+      "popularity": 1550,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Berdmore's ground squirrel"
+    },
+    {
+      "name": "Père David's rock squirrel",
+      "aliases": [
+        "Sciurotamias davidianus"
+      ],
+      "popularity": 1552,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Père David's rock squirrel"
+    },
+    {
+      "name": "Cambodian striped squirrel",
+      "aliases": [
+        "Tamiops rodolphii"
+      ],
+      "popularity": 1598,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Cambodian striped squirrel"
+    },
+    {
+      "name": "Hairy-footed flying squirrel",
+      "aliases": [
+        "Belomys pearsonii"
+      ],
+      "popularity": 1607,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Hairy-footed flying squirrel"
+    },
+    {
+      "name": "Javanese flying squirrel",
+      "aliases": [
+        "Iomys horsfieldii"
+      ],
+      "popularity": 1607,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Javanese flying squirrel"
+    },
+    {
+      "name": "Richmond's squirrel",
+      "aliases": [
+        "Sciurus richmondi"
+      ],
+      "popularity": 1615,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Richmond's squirrel"
+    },
+    {
+      "name": "Mechuka giant flying squirrel",
+      "aliases": [
+        "Petaurista mechukaensis"
+      ],
+      "popularity": 1625,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Mechuka giant flying squirrel"
+    },
+    {
+      "name": "Northern Palawan tree squirrel",
+      "aliases": [
+        "Sundasciurus juvencus"
+      ],
+      "popularity": 1630,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Northern Palawan tree squirrel"
+    },
+    {
+      "name": "Dusky striped squirrel",
+      "aliases": [
+        "Funambulus obscurus"
+      ],
+      "popularity": 1631,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Dusky striped squirrel"
+    },
+    {
+      "name": "Daurian ground squirrel",
+      "aliases": [
+        "Spermophilus dauricus"
+      ],
+      "popularity": 1639,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Daurian ground squirrel"
+    },
+    {
+      "name": "Neotropical pygmy squirrel",
+      "aliases": [
+        "Sciurillus pusillus"
+      ],
+      "popularity": 1643,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Neotropical pygmy squirrel"
+    },
+    {
+      "name": "Xerus erythropus",
+      "aliases": [
+        "striped ground squirrel"
+      ],
+      "popularity": 1670,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Xerus erythropus"
+    },
+    {
+      "name": "Borneo black-banded squirrel",
+      "aliases": [
+        "Callosciurus orestes"
+      ],
+      "popularity": 1671,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Borneo black-banded squirrel"
+    },
+    {
+      "name": "Snake River Plains ground squirrel",
+      "aliases": [
+        "Urocitellus idahoensis"
+      ],
+      "popularity": 1677,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Snake River Plains ground squirrel"
+    },
+    {
+      "name": "Black flying squirrel",
+      "aliases": [
+        "Aeromys tephromelas"
+      ],
+      "popularity": 1683,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Black flying squirrel"
+    },
+    {
+      "name": "Red bush squirrel",
+      "aliases": [
+        "Paraxerus palliatus",
+        "red-bellied coast squirrel"
+      ],
+      "popularity": 1684,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Red bush squirrel"
+    },
+    {
+      "name": "Irrawaddy squirrel",
+      "aliases": [
+        "Callosciurus pygerythrus"
+      ],
+      "popularity": 1693,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Irrawaddy squirrel"
+    },
+    {
+      "name": "Afghan flying squirrel",
+      "aliases": [
+        "Hylopetes baberi",
+        "Hylopetes baberii"
+      ],
+      "popularity": 1733,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Afghan flying squirrel"
+    },
+    {
+      "name": "Little ground squirrel",
+      "aliases": [
+        "Spermophilus pygmaeus"
+      ],
+      "popularity": 1760,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Little ground squirrel"
+    },
+    {
+      "name": "Grey-bellied squirrel",
+      "aliases": [
+        "Callosciurus caniceps"
+      ],
+      "popularity": 1766,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Grey-bellied squirrel"
+    },
+    {
+      "name": "Shrew-faced squirrel",
+      "aliases": [
+        "Rhinosciurus laticaudatus"
+      ],
+      "popularity": 1774,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Shrew-faced squirrel"
+    },
+    {
+      "name": "Jungle palm squirrel",
+      "aliases": [
+        "Funambulus tristriatus"
+      ],
+      "popularity": 1778,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Jungle palm squirrel"
+    },
+    {
+      "name": "Thomas's rope squirrel",
+      "aliases": [
+        "Funisciurus anerythrus"
+      ],
+      "popularity": 1789,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Thomas's rope squirrel"
+    },
+    {
+      "name": "Washington ground squirrel",
+      "aliases": [
+        "Spermophilus washingtoni",
+        "Urocitellus washingtoni"
+      ],
+      "popularity": 1865,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Washington ground squirrel"
+    },
+    {
+      "name": "Durango chipmunk",
+      "aliases": [
+        "Neotamias durangae"
+      ],
+      "popularity": 1913,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Durango chipmunk"
+    },
+    {
+      "name": "Laotian giant flying squirrel",
+      "aliases": [
+        "Biswamoyopterus laoensis"
+      ],
+      "popularity": 1930,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Laotian giant flying squirrel"
+    },
+    {
+      "name": "Red-legged sun squirrel",
+      "aliases": [
+        "Heliosciurus rufobrachium"
+      ],
+      "popularity": 1935,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Red-legged sun squirrel"
+    },
+    {
+      "name": "Mearns's squirrel",
+      "aliases": [
+        "Tamiasciurus mearnsi"
+      ],
+      "popularity": 1951,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Mearns's squirrel"
+    },
+    {
+      "name": "Buller's chipmunk",
+      "aliases": [
+        "Neotamias bulleri"
+      ],
+      "popularity": 1985,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Buller's chipmunk"
+    },
+    {
+      "name": "Amazon dwarf squirrel",
+      "aliases": [
+        "Microsciurus flaviventer"
+      ],
+      "popularity": 2015,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Amazon dwarf squirrel"
+    },
+    {
+      "name": "Collie's squirrel",
+      "aliases": [
+        "Sciurus colliaei"
+      ],
+      "popularity": 2043,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Collie's squirrel"
+    },
+    {
+      "name": "Siskiyou chipmunk",
+      "aliases": [
+        "Tamias siskiyou"
+      ],
+      "popularity": 2043,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Siskiyou chipmunk"
+    },
+    {
+      "name": "Kashmir flying squirrel",
+      "aliases": [
+        "Eoglaucomys fimbriatus"
+      ],
+      "popularity": 2045,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Kashmir flying squirrel"
+    },
+    {
+      "name": "Travancore flying squirrel",
+      "aliases": [
+        "Petinomys fuscocapillus"
+      ],
+      "popularity": 2077,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Travancore flying squirrel"
+    },
+    {
+      "name": "Fire-footed rope squirrel",
+      "aliases": [
+        "Funisciurus pyrropus"
+      ],
+      "popularity": 2097,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Fire-footed rope squirrel"
+    },
+    {
+      "name": "Junín red squirrel",
+      "aliases": [
+        "Hadrosciurus pyrrhinus",
+        "Sciurus pyrrhinus"
+      ],
+      "popularity": 2106,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Junín red squirrel"
+    },
+    {
+      "name": "Yellow ground squirrel",
+      "aliases": [
+        "Spermophilus fulvus"
+      ],
+      "popularity": 2122,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Yellow ground squirrel"
+    },
+    {
+      "name": "Asia Minor ground squirrel",
+      "aliases": [
+        "Anatolian ground squirrel",
+        "Spermophilus xanthoprymnus"
+      ],
+      "popularity": 2148,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Asia Minor ground squirrel"
+    },
+    {
+      "name": "Mexican ground squirrel",
+      "aliases": [
+        "Ictidomys mexicanus"
+      ],
+      "popularity": 2183,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Mexican ground squirrel"
+    },
+    {
+      "name": "Cascade golden-mantled ground squirrel",
+      "aliases": [
+        "Callospermophilus saturatus"
+      ],
+      "popularity": 2214,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Cascade golden-mantled ground squirrel"
+    },
+    {
+      "name": "Yellow-throated squirrel",
+      "aliases": [
+        "Sciurus gilvigularis"
+      ],
+      "popularity": 2217,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Yellow-throated squirrel"
+    },
+    {
+      "name": "Peters's squirrel",
+      "aliases": [
+        "Sciurus oculatus"
+      ],
+      "popularity": 2223,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "Peters's squirrel"
+    },
+    {
+      "name": "Layard's palm squirrel",
+      "aliases": [
+        "Funambulus layardi"
+      ],
+      "popularity": 2250,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Layard's palm squirrel"
+    },
+    {
+      "name": "Ring-tailed ground squirrel",
+      "aliases": [
+        "Notocitellus annulatus"
+      ],
+      "popularity": 2295,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Ring-tailed ground squirrel"
+    },
+    {
+      "name": "Himalayan striped squirrel",
+      "aliases": [
+        "Burmese striped squirrel",
+        "Tamiops macclellandii",
+        "Tamiops mcclellandii"
+      ],
+      "popularity": 2310,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Himalayan striped squirrel"
+    },
+    {
+      "name": "Sanborn's squirrel",
+      "aliases": [
+        "Sciurus sanborni"
+      ],
+      "popularity": 2333,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Sanborn's squirrel"
+    },
+    {
+      "name": "Hodgson's giant flying squirrel",
+      "aliases": [
+        "Petaurista magnificus"
+      ],
+      "popularity": 2334,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Hodgson's giant flying squirrel"
+    },
+    {
+      "name": "Yellow-cheeked chipmunk",
+      "aliases": [
+        "Neotamias ochrogenys"
+      ],
+      "popularity": 2366,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Yellow-cheeked chipmunk"
+    },
+    {
+      "name": "Bolivian squirrel",
+      "aliases": [
+        "Sciurus ignitus"
+      ],
+      "popularity": 2377,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Bolivian squirrel"
+    },
+    {
+      "name": "Swinhoe's striped squirrel",
+      "aliases": [
+        "Tamiops swinhoei"
+      ],
+      "popularity": 2388,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Swinhoe's striped squirrel"
+    },
+    {
+      "name": "Palawan flying squirrel",
+      "aliases": [
+        "Hylopetes nigripes"
+      ],
+      "popularity": 2397,
+      "rarity": 0.41,
+      "tier": 3,
+      "wiki": "Palawan flying squirrel"
+    },
+    {
+      "name": "San Joaquin antelope squirrel",
+      "aliases": [
+        "Ammospermophilus nelsoni",
+        "Nelson's antelope squirrel"
+      ],
+      "popularity": 2435,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "San Joaquin antelope squirrel"
+    },
+    {
+      "name": "Particolored flying squirrel",
+      "aliases": [
+        "Hylopetes alboniger"
+      ],
+      "popularity": 2481,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Particolored flying squirrel"
+    },
+    {
+      "name": "Townsend's ground squirrel",
+      "aliases": [
+        "Spermophilus townsendii",
+        "Urocitellus townsendii"
+      ],
+      "popularity": 2492,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Townsend's ground squirrel"
+    },
+    {
+      "name": "Forest-steppe marmot",
+      "aliases": [
+        "Marmota kastschenkoi"
+      ],
+      "popularity": 2509,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Forest-steppe marmot"
+    },
+    {
+      "name": "Gray-collared chipmunk",
+      "aliases": [
+        "Neotamias cinereicollis"
+      ],
+      "popularity": 2561,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Gray-collared chipmunk"
+    },
+    {
+      "name": "Long-eared chipmunk",
+      "aliases": [
+        "Tamias quadrimaculatus"
+      ],
+      "popularity": 2601,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Long-eared chipmunk"
+    },
+    {
+      "name": "Menzbier's marmot",
+      "aliases": [
+        "Marmota menzbieri"
+      ],
+      "popularity": 2602,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Menzbier's marmot"
+    },
+    {
+      "name": "Forest giant squirrel",
+      "aliases": [
+        "Protoxerus stangeri"
+      ],
+      "popularity": 2637,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Forest giant squirrel"
+    },
+    {
+      "name": "Sonoma chipmunk",
+      "aliases": [
+        "Tamias sonomae"
+      ],
+      "popularity": 2643,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Sonoma chipmunk"
+    },
+    {
+      "name": "Mohave ground squirrel",
+      "aliases": [
+        "Spermophilus mohavensis",
+        "Xerospermophilus mohavensis"
+      ],
+      "popularity": 2658,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Mohave ground squirrel"
+    },
+    {
+      "name": "Northern Idaho ground squirrel",
+      "aliases": [
+        "Spermophilus brunneus",
+        "Spermophilus brunneus brunneus",
+        "Urocitellus brunneus",
+        "Urocitellus brunneus brunneus"
+      ],
+      "popularity": 2677,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Northern Idaho ground squirrel"
+    },
+    {
+      "name": "Tropical ground squirrel",
+      "aliases": [
+        "Notocitellus adocetus",
+        "Spermophilus adocetus"
+      ],
+      "popularity": 2678,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Tropical ground squirrel"
+    },
+    {
+      "name": "Spermophilus citelloides",
+      "aliases": [
+        "Pannonian souslik"
+      ],
+      "popularity": 2704,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Spermophilus citelloides"
+    },
+    {
+      "name": "Northern Amazon red squirrel",
+      "aliases": [
+        "Sciurus igniventris"
+      ],
+      "popularity": 2709,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Northern Amazon red squirrel"
+    },
+    {
+      "name": "Panamint chipmunk",
+      "aliases": [
+        "Neotamias panamintinus"
+      ],
+      "popularity": 2712,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Panamint chipmunk"
+    },
+    {
+      "name": "Guayaquil squirrel",
+      "aliases": [
+        "Sciurus stramineus"
+      ],
+      "popularity": 2713,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Guayaquil squirrel"
+    },
+    {
+      "name": "African striped ground squirrel",
+      "aliases": [
+        "Euxerus erythropus"
+      ],
+      "popularity": 2824,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "African striped ground squirrel"
+    },
+    {
+      "name": "Deppe's squirrel",
+      "aliases": [
+        "Sciurus deppei"
+      ],
+      "popularity": 2830,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Deppe's squirrel"
+    },
+    {
+      "name": "Chinese giant flying squirrel",
+      "aliases": [
+        "Petaurista xanthotis"
+      ],
+      "popularity": 2854,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Chinese giant flying squirrel"
+    },
+    {
+      "name": "Western woolly flying squirrel",
+      "aliases": [
+        "Eupetaurus cinereus",
+        "Woolly flying squirrel"
+      ],
+      "popularity": 2886,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Western woolly flying squirrel"
+    },
+    {
+      "name": "Allen's squirrel",
+      "aliases": [
+        "Sciurus alleni"
+      ],
+      "popularity": 2902,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Allen's squirrel"
+    },
+    {
+      "name": "Fiery squirrel",
+      "aliases": [
+        "Sciurus flammifer"
+      ],
+      "popularity": 2906,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Fiery squirrel"
+    },
+    {
+      "name": "Spotted giant flying squirrel",
+      "aliases": [
+        "Petaurista elegans"
+      ],
+      "popularity": 2929,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "Spotted giant flying squirrel"
+    },
+    {
+      "name": "Black-capped marmot",
+      "aliases": [
+        "Marmota camtschatica"
+      ],
+      "popularity": 2933,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Black-capped marmot"
+    },
+    {
+      "name": "Merriam's chipmunk",
+      "aliases": [
+        "Neotamias merriami"
+      ],
+      "popularity": 2993,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Merriam's chipmunk"
+    },
+    {
+      "name": "Yucatan squirrel",
+      "aliases": [
+        "Sciurus yucatanensis"
+      ],
+      "popularity": 3007,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Yucatan squirrel"
+    },
+    {
+      "name": "Palmer's chipmunk",
+      "aliases": [
+        "Mount Charleston Chipmunk",
+        "Tamias palmeri"
+      ],
+      "popularity": 3010,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Palmer's chipmunk"
+    },
+    {
+      "name": "Gray-footed chipmunk",
+      "aliases": [
+        "Neotamias canipes"
+      ],
+      "popularity": 3136,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Gray-footed chipmunk"
+    },
+    {
+      "name": "Hopi chipmunk",
+      "aliases": [
+        "Neotamias rufus"
+      ],
+      "popularity": 3157,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Hopi chipmunk"
+    },
+    {
+      "name": "Long-tailed ground squirrel",
+      "aliases": [
+        "Spermophilus undulatus"
+      ],
+      "popularity": 3337,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Long-tailed ground squirrel"
+    },
+    {
+      "name": "Wyoming ground squirrel",
+      "aliases": [
+        "Nevada Ground Squirrel",
+        "Spermophilus elegans",
+        "Urocitellus elegans"
+      ],
+      "popularity": 3376,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Wyoming ground squirrel"
+    },
+    {
+      "name": "Andean squirrel",
+      "aliases": [
+        "Sciurus pucheranii"
+      ],
+      "popularity": 3497,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Andean squirrel"
+    },
+    {
+      "name": "Allen's chipmunk",
+      "aliases": [
+        "Neotamias senex"
+      ],
+      "popularity": 3561,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Allen's chipmunk"
+    },
+    {
+      "name": "Red-tailed chipmunk",
+      "aliases": [
+        "Neotamias ruficaudus"
+      ],
+      "popularity": 3718,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Red-tailed chipmunk"
+    },
+    {
+      "name": "Lodgepole chipmunk",
+      "aliases": [
+        "Tamias speciosus"
+      ],
+      "popularity": 3823,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Lodgepole chipmunk"
+    },
+    {
+      "name": "Philippine tree squirrel",
+      "aliases": [
+        "Sundasciurus philippinensis"
+      ],
+      "popularity": 3831,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Philippine tree squirrel"
+    },
+    {
+      "name": "Harris's antelope squirrel",
+      "aliases": [
+        "Ammospermophilus harrisii"
+      ],
+      "popularity": 3899,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Harris's antelope squirrel"
+    },
+    {
+      "name": "Least pygmy squirrel",
+      "aliases": [
+        "Exilisciurus exilis"
+      ],
+      "popularity": 3908,
+      "rarity": 0.288,
+      "tier": 2,
+      "wiki": "Least pygmy squirrel"
+    },
+    {
+      "name": "Southern Amazon red squirrel",
+      "aliases": [
+        "Hadrosciurus spadiceus",
+        "Sciurus spadiceus"
+      ],
+      "popularity": 4011,
+      "rarity": 0.285,
+      "tier": 2,
+      "wiki": "Southern Amazon red squirrel"
+    },
+    {
+      "name": "California chipmunk",
+      "aliases": [
+        "Tamias obscurus"
+      ],
+      "popularity": 4012,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "California chipmunk"
+    },
+    {
+      "name": "Alpine chipmunk",
+      "aliases": [
+        "Neotamias alpinus"
+      ],
+      "popularity": 4420,
+      "rarity": 0.279,
+      "tier": 2,
+      "wiki": "Alpine chipmunk"
+    },
+    {
+      "name": "Cliff chipmunk",
+      "aliases": [
+        "Neotamias dorsalis"
+      ],
+      "popularity": 4431,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Cliff chipmunk"
+    },
+    {
+      "name": "Spotted ground squirrel",
+      "aliases": [
+        "Spermophilus spilosoma",
+        "Xerospermophilus spilosoma"
+      ],
+      "popularity": 4454,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Spotted ground squirrel"
+    },
+    {
+      "name": "Uinta chipmunk",
+      "aliases": [
+        "Tamias umbrinus"
+      ],
+      "popularity": 4473,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Uinta chipmunk"
+    },
+    {
+      "name": "Speckled ground squirrel",
+      "aliases": [
+        "Spermophilus suslicus"
+      ],
+      "popularity": 4657,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "Speckled ground squirrel"
+    },
+    {
+      "name": "Mexican fox squirrel",
+      "aliases": [
+        "Sciurus nayaritensis"
+      ],
+      "popularity": 4901,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Mexican fox squirrel"
+    },
+    {
+      "name": "Tufted ground squirrel",
+      "aliases": [
+        "Rheithrosciurus macrotis"
+      ],
+      "popularity": 5006,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Tufted ground squirrel"
+    },
+    {
+      "name": "Philippine pygmy squirrel",
+      "aliases": [
+        "Exilisciurus concinnus"
+      ],
+      "popularity": 5091,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Philippine pygmy squirrel"
+    },
+    {
+      "name": "African pygmy squirrel",
+      "aliases": [
+        "Myosciurus pumilio"
+      ],
+      "popularity": 5315,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "African pygmy squirrel"
+    },
+    {
+      "name": "Townsend's chipmunk",
+      "aliases": [
+        "Tamias townsendii"
+      ],
+      "popularity": 5490,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Townsend's chipmunk"
+    },
+    {
+      "name": "Cream-coloured giant squirrel",
+      "aliases": [
+        "Pale giant squirrel",
+        "Ratufa affinis"
+      ],
+      "popularity": 5616,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Cream-coloured giant squirrel"
+    },
+    {
+      "name": "Colorado chipmunk",
+      "aliases": [
+        "Tamias quadrivittatus"
+      ],
+      "popularity": 5831,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Colorado chipmunk"
+    },
+    {
+      "name": "White-tailed antelope squirrel",
+      "aliases": [
+        "Ammospermophilus leucurus"
+      ],
+      "popularity": 5917,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "White-tailed antelope squirrel"
+    },
+    {
+      "name": "Yellow-pine chipmunk",
+      "aliases": [
+        "Neotamias amoenus"
+      ],
+      "popularity": 5925,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Yellow-pine chipmunk"
+    },
+    {
+      "name": "Complex-toothed flying squirrel",
+      "aliases": [
+        "Trogopterus xanthipes"
+      ],
+      "popularity": 5974,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Complex-toothed flying squirrel"
+    },
+    {
+      "name": "Tufted pygmy squirrel",
+      "aliases": [
+        "Exilisciurus whiteheadi"
+      ],
+      "popularity": 6110,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Tufted pygmy squirrel"
+    },
+    {
+      "name": "Belding's ground squirrel",
+      "aliases": [
+        "Spermophilus beldingi",
+        "Urocitellus beldingi"
+      ],
+      "popularity": 6220,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Belding's ground squirrel"
+    },
+    {
+      "name": "Long-tailed marmot",
+      "aliases": [
+        "Marmota caudata"
+      ],
+      "popularity": 6328,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Long-tailed marmot"
+    },
+    {
+      "name": "Caucasian squirrel",
+      "aliases": [
+        "Persian squirrel",
+        "Sciurus anomalus"
+      ],
+      "popularity": 6501,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Caucasian squirrel"
+    },
+    {
+      "name": "Smith's bush squirrel",
+      "aliases": [
+        "Paraxerus cepapi",
+        "Yellow-footed Squirrel"
+      ],
+      "popularity": 6555,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Smith's bush squirrel"
+    },
+    {
+      "name": "Franklin's ground squirrel",
+      "aliases": [
+        "Arctomys franklinii",
+        "Poliocitellus franklinii",
+        "Spermophilus franklinii"
+      ],
+      "popularity": 6577,
+      "rarity": 0.215,
+      "tier": 2,
+      "wiki": "Franklin's ground squirrel"
+    },
+    {
+      "name": "Humboldt's flying squirrel",
+      "aliases": [
+        "Glaucomys oregonensis",
+        "Humboldt gliding squirrel"
+      ],
+      "popularity": 6698,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Humboldt's flying squirrel"
+    },
+    {
+      "name": "Northern palm squirrel",
+      "aliases": [
+        "Five-striped palm squirrel",
+        "Funambulus pennantii"
+      ],
+      "popularity": 7392,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Northern palm squirrel"
+    },
+    {
+      "name": "Southwestern red squirrel",
+      "aliases": [
+        "Fremont's Squirrel",
+        "Tamiasciurus fremonti"
+      ],
+      "popularity": 7478,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Southwestern red squirrel"
+    },
+    {
+      "name": "Red-tailed squirrel",
+      "aliases": [
+        "Sciurus granatensis"
+      ],
+      "popularity": 7487,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Red-tailed squirrel"
+    },
+    {
+      "name": "Bhutan giant flying squirrel",
+      "aliases": [
+        "Petaurista nobilis"
+      ],
+      "popularity": 7588,
+      "rarity": 0.199,
+      "tier": 1,
+      "wiki": "Bhutan giant flying squirrel"
+    },
+    {
+      "name": "Namdapha flying squirrel",
+      "aliases": [
+        "Biswamoyopterus biswasi"
+      ],
+      "popularity": 7675,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Namdapha flying squirrel"
+    },
+    {
+      "name": "Alaska marmot",
+      "aliases": [
+        "Marmota broweri"
+      ],
+      "popularity": 7905,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Alaska marmot"
+    },
+    {
+      "name": "Calabrian black squirrel",
+      "aliases": [
+        "Sciurus meridionalis"
+      ],
+      "popularity": 8150,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Calabrian black squirrel"
+    },
+    {
+      "name": "Uinta ground squirrel",
+      "aliases": [
+        "Spermophilus armatus",
+        "Urocitellus armatus"
+      ],
+      "popularity": 8178,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "Uinta ground squirrel"
+    },
+    {
+      "name": "Unstriped ground squirrel",
+      "aliases": [
+        "Xerus rutilus"
+      ],
+      "popularity": 8715,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Unstriped ground squirrel"
+    },
+    {
+      "name": "Mexican gray squirrel",
+      "aliases": [
+        "Sciurus aureogaster"
+      ],
+      "popularity": 8844,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Mexican gray squirrel"
+    },
+    {
+      "name": "Round-tailed ground squirrel",
+      "aliases": [
+        "Xerospermophilus tereticaudus"
+      ],
+      "popularity": 8874,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Round-tailed ground squirrel"
+    },
+    {
+      "name": "Barbary ground squirrel",
+      "aliases": [
+        "Atlantoxerus getulus"
+      ],
+      "popularity": 9455,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Barbary ground squirrel"
+    },
+    {
+      "name": "Bobak marmot",
+      "aliases": [
+        "Marmota bobak",
+        "steppe marmot"
+      ],
+      "popularity": 9652,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Bobak marmot"
+    },
+    {
+      "name": "Gray marmot",
+      "aliases": [
+        "Marmota baibacina"
+      ],
+      "popularity": 9871,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Gray marmot"
+    },
+    {
+      "name": "Indian giant flying squirrel",
+      "aliases": [
+        "Petaurista philippensis"
+      ],
+      "popularity": 9952,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Indian giant flying squirrel"
+    },
+    {
+      "name": "Arizona gray squirrel",
+      "aliases": [
+        "Sciurus arizonensis"
+      ],
+      "popularity": 9958,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Arizona gray squirrel"
+    },
+    {
+      "name": "Pallas's squirrel",
+      "aliases": [
+        "Callosciurus erythraeus"
+      ],
+      "popularity": 10671,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Pallas's squirrel"
+    },
+    {
+      "name": "Plantain squirrel",
+      "aliases": [
+        "banana squirrel",
+        "Callosciurus notatus",
+        "coconut squirrel",
+        "tricoloured squirrel"
+      ],
+      "popularity": 10947,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Plantain squirrel"
+    },
+    {
+      "name": "Brazilian squirrel",
+      "aliases": [
+        "Sciurus aestuans"
+      ],
+      "popularity": 11085,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Brazilian squirrel"
+    },
+    {
+      "name": "Utah prairie dog",
+      "aliases": [
+        "Cynomys parvidens"
+      ],
+      "popularity": 11262,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Utah prairie dog"
+    },
+    {
+      "name": "White-tailed prairie dog",
+      "aliases": [
+        "Cynomys leucurus"
+      ],
+      "popularity": 11576,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "White-tailed prairie dog"
+    },
+    {
+      "name": "Mexican prairie dog",
+      "aliases": [
+        "Cynomys mexicanus"
+      ],
+      "popularity": 11806,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Mexican prairie dog"
+    },
+    {
+      "name": "Least chipmunk",
+      "aliases": [
+        "Tamias minimus"
+      ],
+      "popularity": 11849,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Least chipmunk"
+    },
+    {
+      "name": "Variegated squirrel",
+      "aliases": [
+        "Sciurus variegatoides"
+      ],
+      "popularity": 12041,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Variegated squirrel"
+    },
+    {
+      "name": "Columbian ground squirrel",
+      "aliases": [
+        "Spermophilus columbianus",
+        "Urocitellus columbianus"
+      ],
+      "popularity": 12515,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Columbian ground squirrel"
+    },
+    {
+      "name": "Red and white giant flying squirrel",
+      "aliases": [
+        "Petaurista alborufus"
+      ],
+      "popularity": 13210,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Red and white giant flying squirrel"
+    },
+    {
+      "name": "Japanese giant flying squirrel",
+      "aliases": [
+        "Petaurista leucogenys"
+      ],
+      "popularity": 13528,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Japanese giant flying squirrel"
+    },
+    {
+      "name": "Gunnison's prairie dog",
+      "aliases": [
+        "Cynomys gunnisoni"
+      ],
+      "popularity": 13716,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Gunnison's prairie dog"
+    },
+    {
+      "name": "Japanese squirrel",
+      "aliases": [
+        "Sciurus lis"
+      ],
+      "popularity": 14214,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Japanese squirrel"
+    },
+    {
+      "name": "Tarbagan marmot",
+      "aliases": [
+        "Marmota sibirica"
+      ],
+      "popularity": 14566,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Tarbagan marmot"
+    },
+    {
+      "name": "Red giant flying squirrel",
+      "aliases": [
+        "Petaurista petaurista"
+      ],
+      "popularity": 15729,
+      "rarity": 0.112,
+      "tier": 1,
+      "wiki": "Red giant flying squirrel"
+    },
+    {
+      "name": "Vancouver Island marmot",
+      "aliases": [
+        "Marmota vancouverensis"
+      ],
+      "popularity": 15975,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Vancouver Island marmot"
+    },
+    {
+      "name": "Rock squirrel",
+      "aliases": [
+        "Otospermophilus variegatus",
+        "Spermophilus variegatus"
+      ],
+      "popularity": 16556,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Rock squirrel"
+    },
+    {
+      "name": "Siberian flying squirrel",
+      "aliases": [
+        "Pteromys volans"
+      ],
+      "popularity": 17326,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Siberian flying squirrel"
+    },
+    {
+      "name": "Grizzled giant squirrel",
+      "aliases": [
+        "Ratufa macroura"
+      ],
+      "popularity": 17346,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Grizzled giant squirrel"
+    },
+    {
+      "name": "Prevost's squirrel",
+      "aliases": [
+        "Callosciurus prevostii"
+      ],
+      "popularity": 18563,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Prevost's squirrel"
+    },
+    {
+      "name": "Cape ground squirrel",
+      "aliases": [
+        "Geosciurus inauris"
+      ],
+      "popularity": 19111,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Cape ground squirrel"
+    },
+    {
+      "name": "European ground squirrel",
+      "aliases": [
+        "European souslik",
+        "Sisel",
+        "Souslic",
+        "Souslik",
+        "Spermophilus citellus",
+        "Suslik",
+        "Zizel"
+      ],
+      "popularity": 20650,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "European ground squirrel"
+    },
+    {
+      "name": "Finlayson's squirrel",
+      "aliases": [
+        "Callosciurus finlaysonii",
+        "ghost squirrel",
+        "Makati squirrel",
+        "Manila squirrel",
+        "Manilan squirrel",
+        "variable squirrel",
+        "white squirrel"
+      ],
+      "popularity": 21153,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Finlayson's squirrel"
+    },
+    {
+      "name": "Olympic marmot",
+      "aliases": [
+        "Marmota olympus"
+      ],
+      "popularity": 23247,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Olympic marmot"
+    },
+    {
+      "name": "Himalayan marmot",
+      "aliases": [
+        "Marmota himalayana"
+      ],
+      "popularity": 23886,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Himalayan marmot"
+    },
+    {
+      "name": "Arctic ground squirrel",
+      "aliases": [
+        "Spermophilus parryii",
+        "Urocitellus parryii"
+      ],
+      "popularity": 24242,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Arctic ground squirrel"
+    },
+    {
+      "name": "Golden-mantled ground squirrel",
+      "aliases": [
+        "Callospermophilus lateralis"
+      ],
+      "popularity": 24762,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Golden-mantled ground squirrel"
+    },
+    {
+      "name": "Richardson's ground squirrel",
+      "aliases": [
+        "Flickertail",
+        "Spermophilus richardsonii",
+        "Urocitellus richardsonii"
+      ],
+      "popularity": 24987,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Richardson's ground squirrel"
+    },
+    {
+      "name": "Western gray squirrel",
+      "aliases": [
+        "Sciurus griseus"
+      ],
+      "popularity": 26269,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Western gray squirrel"
+    },
+    {
+      "name": "Black giant squirrel",
+      "aliases": [
+        "Ratufa bicolor"
+      ],
+      "popularity": 26498,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Black giant squirrel"
+    },
+    {
+      "name": "Douglas squirrel",
+      "aliases": [
+        "Tamiasciurus douglasii"
+      ],
+      "popularity": 27208,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Douglas squirrel"
+    },
+    {
+      "name": "Japanese dwarf flying squirrel",
+      "aliases": [
+        "Pteromys momonga"
+      ],
+      "popularity": 30335,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Japanese dwarf flying squirrel"
+    },
+    {
+      "name": "Abert's squirrel",
+      "aliases": [
+        "Sciurus aberti",
+        "tassel-eared squirrel"
+      ],
+      "popularity": 31495,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Abert's squirrel"
+    },
+    {
+      "name": "Siberian chipmunk",
+      "aliases": [
+        "Tamias sibiricus"
+      ],
+      "popularity": 33985,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Siberian chipmunk"
+    },
+    {
+      "name": "Indian palm squirrel",
+      "aliases": [
+        "Funambulus palmarum"
+      ],
+      "popularity": 34432,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Indian palm squirrel"
+    },
+    {
+      "name": "Hoary marmot",
+      "aliases": [
+        "Marmota caligata"
+      ],
+      "popularity": 36546,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Hoary marmot"
+    },
+    {
+      "name": "California ground squirrel",
+      "aliases": [
+        "Otospermophilus beecheyi"
+      ],
+      "popularity": 36979,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "California ground squirrel"
+    },
+    {
+      "name": "Thirteen-lined ground squirrel",
+      "aliases": [
+        "Ictidomys tridecemlineatus",
+        "Spermophilus tridecemlineatus"
+      ],
+      "popularity": 38053,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Thirteen-lined ground squirrel"
+    },
+    {
+      "name": "Eastern chipmunk",
+      "aliases": [
+        "Tamias striatus"
+      ],
+      "popularity": 45527,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Eastern chipmunk"
+    },
+    {
+      "name": "Alpine marmot",
+      "aliases": [
+        "Marmota marmota"
+      ],
+      "popularity": 46711,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Alpine marmot"
+    },
+    {
+      "name": "Southern flying squirrel",
+      "aliases": [
+        "assapan",
+        "Glaucomys volans"
+      ],
+      "popularity": 47847,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Southern flying squirrel"
+    },
+    {
+      "name": "Northern flying squirrel",
+      "aliases": [
+        "Carolina flying squirrel",
+        "Glaucomys sabrinus"
+      ],
+      "popularity": 48314,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Northern flying squirrel"
+    },
+    {
+      "name": "Black-tailed prairie dog",
+      "aliases": [
+        "Cynomys ludovicianus"
+      ],
+      "popularity": 48423,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Black-tailed prairie dog"
+    },
+    {
+      "name": "Yellow-bellied marmot",
+      "aliases": [
+        "Marmota flaviventris",
+        "rock chuck"
+      ],
+      "popularity": 56322,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Yellow-bellied marmot"
+    },
+    {
+      "name": "American red squirrel",
+      "aliases": [
+        "Tamiasciurus hudsonicus"
+      ],
+      "popularity": 86593,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "American red squirrel"
+    },
+    {
+      "name": "Indian giant squirrel",
+      "aliases": [
+        "Ratufa indica"
+      ],
+      "popularity": 93515,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Indian giant squirrel"
+    },
+    {
+      "name": "Fox squirrel",
+      "aliases": [
+        "Bryant's fox squirrel",
+        "Eastern fox squirrel",
+        "Sciurus niger"
+      ],
+      "popularity": 126729,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Fox squirrel"
+    },
+    {
+      "name": "Eastern gray squirrel",
+      "aliases": [
+        "Grey squirrel",
+        "Sciurus carolinensis"
+      ],
+      "popularity": 210707,
+      "rarity": 0.006,
+      "tier": 1,
+      "wiki": "Eastern gray squirrel"
+    },
+    {
+      "name": "Red squirrel",
+      "aliases": [
+        "Eurasian Red Squirrel",
+        "Sciurus vulgaris"
+      ],
+      "popularity": 228232,
+      "rarity": 0.003,
+      "tier": 1,
+      "wiki": "Red squirrel"
+    },
+    {
+      "name": "Groundhog",
+      "aliases": [
+        "gopher",
+        "Marmota monax",
+        "whistlepig",
+        "woodchuck"
+      ],
+      "popularity": 444011,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Groundhog"
+    }
+  ]
+}

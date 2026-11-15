@@ -1,0 +1,272 @@
+{
+  "id": "james-bond-films",
+  "slug": "james-bond-films",
+  "category": "screen",
+  "question": "Name a James Bond film",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Casino Royale (Climax!)",
+      "aliases": [],
+      "popularity": 38254,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Casino Royale (Climax!)"
+    },
+    {
+      "name": "Moonraker",
+      "aliases": [
+        "Moonraker (film)"
+      ],
+      "popularity": 366339,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Moonraker (film)"
+    },
+    {
+      "name": "The Man with the Golden Gun",
+      "aliases": [
+        "Man with the Golden Gun",
+        "Man with the Golden Gun (film)",
+        "The Man with the Golden Gun (film)"
+      ],
+      "popularity": 371554,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "The Man with the Golden Gun (film)"
+    },
+    {
+      "name": "The Living Daylights",
+      "aliases": [
+        "Living Daylights"
+      ],
+      "popularity": 399057,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "The Living Daylights"
+    },
+    {
+      "name": "Diamonds Are Forever",
+      "aliases": [
+        "Diamonds Are Forever (film)"
+      ],
+      "popularity": 412382,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Diamonds Are Forever (film)"
+    },
+    {
+      "name": "The Spy Who Loved Me",
+      "aliases": [
+        "Spy Who Loved Me",
+        "Spy Who Loved Me (film)",
+        "The Spy Who Loved Me (film)"
+      ],
+      "popularity": 415834,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "The Spy Who Loved Me (film)"
+    },
+    {
+      "name": "You Only Live Twice",
+      "aliases": [
+        "You Only Live Twice (film)"
+      ],
+      "popularity": 418062,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "You Only Live Twice (film)"
+    },
+    {
+      "name": "Thunderball",
+      "aliases": [
+        "Thunderball (film)"
+      ],
+      "popularity": 427603,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Thunderball (film)"
+    },
+    {
+      "name": "Casino Royale (1967 film)",
+      "aliases": [],
+      "popularity": 434434,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Casino Royale (1967 film)"
+    },
+    {
+      "name": "A View to a Kill",
+      "aliases": [
+        "View to a Kill"
+      ],
+      "popularity": 435817,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "A View to a Kill"
+    },
+    {
+      "name": "For Your Eyes Only",
+      "aliases": [
+        "For Your Eyes Only (film)"
+      ],
+      "popularity": 438537,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "For Your Eyes Only (film)"
+    },
+    {
+      "name": "From Russia with Love",
+      "aliases": [
+        "From Russia with Love (film)"
+      ],
+      "popularity": 449241,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "From Russia with Love (film)"
+    },
+    {
+      "name": "Live and Let Die",
+      "aliases": [
+        "Live and Let Die (film)"
+      ],
+      "popularity": 454116,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Live and Let Die (film)"
+    },
+    {
+      "name": "Goldfinger",
+      "aliases": [
+        "Goldfinger (film)"
+      ],
+      "popularity": 486653,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Goldfinger (film)"
+    },
+    {
+      "name": "Licence to Kill",
+      "aliases": [
+        "License to Kill"
+      ],
+      "popularity": 487356,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Licence to Kill"
+    },
+    {
+      "name": "Tomorrow Never Dies",
+      "aliases": [],
+      "popularity": 509696,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Tomorrow Never Dies"
+    },
+    {
+      "name": "Octopussy",
+      "aliases": [],
+      "popularity": 518032,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Octopussy"
+    },
+    {
+      "name": "On Her Majesty's Secret Service",
+      "aliases": [
+        "OHMSS",
+        "On Her Majesty's Secret Service (film)"
+      ],
+      "popularity": 533426,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "On Her Majesty's Secret Service (film)"
+    },
+    {
+      "name": "The World Is Not Enough",
+      "aliases": [
+        "World Is Not Enough"
+      ],
+      "popularity": 550227,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "The World Is Not Enough"
+    },
+    {
+      "name": "Dr. No",
+      "aliases": [
+        "Dr. No (film)"
+      ],
+      "popularity": 569174,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Dr. No (film)"
+    },
+    {
+      "name": "Never Say Never Again",
+      "aliases": [],
+      "popularity": 641739,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Never Say Never Again"
+    },
+    {
+      "name": "Die Another Day",
+      "aliases": [],
+      "popularity": 713244,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Die Another Day"
+    },
+    {
+      "name": "GoldenEye",
+      "aliases": [],
+      "popularity": 789567,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "GoldenEye"
+    },
+    {
+      "name": "Quantum of Solace",
+      "aliases": [],
+      "popularity": 851498,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Quantum of Solace"
+    },
+    {
+      "name": "Spectre",
+      "aliases": [
+        "Spectre (2015 film)"
+      ],
+      "popularity": 1085029,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Spectre (2015 film)"
+    },
+    {
+      "name": "Skyfall",
+      "aliases": [],
+      "popularity": 1140762,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Skyfall"
+    },
+    {
+      "name": "Casino Royale (2006 film)",
+      "aliases": [],
+      "popularity": 1263291,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Casino Royale (2006 film)"
+    },
+    {
+      "name": "No Time to Die",
+      "aliases": [],
+      "popularity": 2047299,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "No Time to Die"
+    }
+  ]
+}

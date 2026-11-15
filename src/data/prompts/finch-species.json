@@ -1,0 +1,2343 @@
+{
+  "id": "finch-species",
+  "slug": "finch-species",
+  "category": "animals",
+  "question": "Name a species of finch",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Stripe-breasted seedeater",
+      "aliases": [
+        "Crithagra striatipectus"
+      ],
+      "popularity": 223,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Stripe-breasted seedeater"
+    },
+    {
+      "name": "Spotted great rosefinch",
+      "aliases": [
+        "Carpodacus severtzovi"
+      ],
+      "popularity": 272,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Spotted great rosefinch"
+    },
+    {
+      "name": "Damara canary",
+      "aliases": [
+        "Serinus leucolaema"
+      ],
+      "popularity": 325,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Damara canary"
+    },
+    {
+      "name": "Yellow-browed seedeater",
+      "aliases": [
+        "Serinus whytii"
+      ],
+      "popularity": 340,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Yellow-browed seedeater"
+    },
+    {
+      "name": "Reichard's seedeater",
+      "aliases": [
+        "Crithagra reichardi"
+      ],
+      "popularity": 362,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Reichard's seedeater"
+    },
+    {
+      "name": "Kipengere seedeater",
+      "aliases": [
+        "Crithagra melanochroa"
+      ],
+      "popularity": 388,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Kipengere seedeater"
+    },
+    {
+      "name": "Chinese long-tailed rosefinch",
+      "aliases": [
+        "Carpodacus lepidus"
+      ],
+      "popularity": 389,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Chinese long-tailed rosefinch"
+    },
+    {
+      "name": "African crimson-winged finch",
+      "aliases": [
+        "Rhodopechys alienus"
+      ],
+      "popularity": 396,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "African crimson-winged finch"
+    },
+    {
+      "name": "Green-chinned euphonia",
+      "aliases": [
+        "Euphonia chalybea"
+      ],
+      "popularity": 399,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Green-chinned euphonia"
+    },
+    {
+      "name": "White-lored euphonia",
+      "aliases": [
+        "Euphonia chrysopasta"
+      ],
+      "popularity": 407,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "White-lored euphonia"
+    },
+    {
+      "name": "Black-faced canary",
+      "aliases": [
+        "Crithagra capistrata"
+      ],
+      "popularity": 409,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Black-faced canary"
+    },
+    {
+      "name": "West Mexican euphonia",
+      "aliases": [
+        "Euphonia godmani"
+      ],
+      "popularity": 412,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "West Mexican euphonia"
+    },
+    {
+      "name": "Thick-billed seedeater",
+      "aliases": [
+        "Crithagra burtoni"
+      ],
+      "popularity": 421,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Thick-billed seedeater"
+    },
+    {
+      "name": "Bronze-green euphonia",
+      "aliases": [
+        "Euphonia mesochrysa"
+      ],
+      "popularity": 422,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Bronze-green euphonia"
+    },
+    {
+      "name": "Papyrus canary",
+      "aliases": [
+        "Crithagra koliensis"
+      ],
+      "popularity": 422,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Papyrus canary"
+    },
+    {
+      "name": "Plumbeous euphonia",
+      "aliases": [
+        "Euphonia plumbea"
+      ],
+      "popularity": 422,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Plumbeous euphonia"
+    },
+    {
+      "name": "Fulvous-vented euphonia",
+      "aliases": [
+        "Euphonia fulvicrissa"
+      ],
+      "popularity": 425,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Fulvous-vented euphonia"
+    },
+    {
+      "name": "West African seedeater",
+      "aliases": [
+        "Crithagra canicapilla"
+      ],
+      "popularity": 429,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "West African seedeater"
+    },
+    {
+      "name": "Yellow-collared chlorophonia",
+      "aliases": [
+        "Chlorophonia flavirostris"
+      ],
+      "popularity": 434,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Yellow-collared chlorophonia"
+    },
+    {
+      "name": "Southern grosbeak-canary",
+      "aliases": [
+        "Crithagra buchanani"
+      ],
+      "popularity": 435,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Southern grosbeak-canary"
+    },
+    {
+      "name": "Yellow-rumped seedeater",
+      "aliases": [
+        "Crithagra xanthopygia"
+      ],
+      "popularity": 439,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Yellow-rumped seedeater"
+    },
+    {
+      "name": "Brown-rumped seedeater",
+      "aliases": [
+        "Crithagra tristriata"
+      ],
+      "popularity": 450,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Brown-rumped seedeater"
+    },
+    {
+      "name": "Orange-crowned euphonia",
+      "aliases": [
+        "Euphonia saturata"
+      ],
+      "popularity": 453,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Orange-crowned euphonia"
+    },
+    {
+      "name": "Velvet-fronted euphonia",
+      "aliases": [
+        "Euphonia concinna"
+      ],
+      "popularity": 455,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Velvet-fronted euphonia"
+    },
+    {
+      "name": "Salvadori's seedeater",
+      "aliases": [
+        "Crithagra xantholaema"
+      ],
+      "popularity": 461,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Salvadori's seedeater"
+    },
+    {
+      "name": "Spot-winged rosefinch",
+      "aliases": [
+        "Carpodacus rhodopeplus",
+        "Carpodacus rodopeplus"
+      ],
+      "popularity": 462,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Spot-winged rosefinch"
+    },
+    {
+      "name": "Three-banded rosefinch",
+      "aliases": [
+        "Carpodacus trifasciatus"
+      ],
+      "popularity": 462,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Three-banded rosefinch"
+    },
+    {
+      "name": "Western citril",
+      "aliases": [
+        "Crithagra frontalis"
+      ],
+      "popularity": 473,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Western citril"
+    },
+    {
+      "name": "Sharpe's rosefinch",
+      "aliases": [
+        "Carpodacus verreauxii"
+      ],
+      "popularity": 475,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Sharpe's rosefinch"
+    },
+    {
+      "name": "Finsch's euphonia",
+      "aliases": [
+        "Euphonia finschi"
+      ],
+      "popularity": 498,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Finsch's euphonia"
+    },
+    {
+      "name": "Yemen serin",
+      "aliases": [
+        "Crithagra menachensis"
+      ],
+      "popularity": 499,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Yemen serin"
+    },
+    {
+      "name": "Golden-sided euphonia",
+      "aliases": [
+        "Euphonia cayennensis"
+      ],
+      "popularity": 502,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Golden-sided euphonia"
+    },
+    {
+      "name": "Black-eared seedeater",
+      "aliases": [
+        "Crithagra mennelli"
+      ],
+      "popularity": 506,
+      "rarity": 0.858,
+      "tier": 5,
+      "wiki": "Black-eared seedeater"
+    },
+    {
+      "name": "Olivaceous siskin",
+      "aliases": [
+        "Spinus olivaceus"
+      ],
+      "popularity": 513,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Olivaceous siskin"
+    },
+    {
+      "name": "Southern citril",
+      "aliases": [
+        "Crithagra hyposticta"
+      ],
+      "popularity": 514,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Southern citril"
+    },
+    {
+      "name": "Príncipe seedeater",
+      "aliases": [
+        "Crithagra rufobrunnea"
+      ],
+      "popularity": 520,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Príncipe seedeater"
+    },
+    {
+      "name": "Reichenow's seedeater",
+      "aliases": [
+        "Crithagra reichenowi"
+      ],
+      "popularity": 525,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Reichenow's seedeater"
+    },
+    {
+      "name": "Northern grosbeak-canary",
+      "aliases": [
+        "Crithagra donaldsoni"
+      ],
+      "popularity": 532,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Northern grosbeak-canary"
+    },
+    {
+      "name": "Chestnut-breasted chlorophonia",
+      "aliases": [
+        "Chlorophonia pyrrhophrys"
+      ],
+      "popularity": 536,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Chestnut-breasted chlorophonia"
+    },
+    {
+      "name": "Rufous-bellied euphonia",
+      "aliases": [
+        "Euphonia rufiventris"
+      ],
+      "popularity": 560,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Rufous-bellied euphonia"
+    },
+    {
+      "name": "Somali golden-winged grosbeak",
+      "aliases": [
+        "Rhynchostruthus louisae",
+        "Somali grosbeak"
+      ],
+      "popularity": 570,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Somali golden-winged grosbeak"
+    },
+    {
+      "name": "Spot-crowned euphonia",
+      "aliases": [
+        "Euphonia imitans"
+      ],
+      "popularity": 573,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Spot-crowned euphonia"
+    },
+    {
+      "name": "Pink-rumped rosefinch",
+      "aliases": [
+        "Carpodacus waltoni"
+      ],
+      "popularity": 591,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Pink-rumped rosefinch"
+    },
+    {
+      "name": "Scissor-billed koa finch",
+      "aliases": [
+        "Rhodacanthis forfex"
+      ],
+      "popularity": 625,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Scissor-billed koa finch"
+    },
+    {
+      "name": "Blue-crowned chlorophonia",
+      "aliases": [
+        "Chlorophonia occipitalis"
+      ],
+      "popularity": 630,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Blue-crowned chlorophonia"
+    },
+    {
+      "name": "Mindanao serin",
+      "aliases": [
+        "Chrysocorythus mindanensis"
+      ],
+      "popularity": 637,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Mindanao serin"
+    },
+    {
+      "name": "Jamaican euphonia",
+      "aliases": [
+        "Euphonia jamaica"
+      ],
+      "popularity": 639,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Jamaican euphonia"
+    },
+    {
+      "name": "Tawny-capped euphonia",
+      "aliases": [
+        "Euphonia anneae"
+      ],
+      "popularity": 642,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Tawny-capped euphonia"
+    },
+    {
+      "name": "Thick-billed siskin",
+      "aliases": [
+        "Spinus crassirostris"
+      ],
+      "popularity": 642,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Thick-billed siskin"
+    },
+    {
+      "name": "Trinidad euphonia",
+      "aliases": [
+        "Euphonia trinitatis"
+      ],
+      "popularity": 644,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Trinidad euphonia"
+    },
+    {
+      "name": "White-throated canary",
+      "aliases": [
+        "Crithagra albogularis"
+      ],
+      "popularity": 648,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "White-throated canary"
+    },
+    {
+      "name": "Maui Nui finch",
+      "aliases": [
+        "Telespiza ypsilon"
+      ],
+      "popularity": 653,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Maui Nui finch"
+    },
+    {
+      "name": "Dark-rumped rosefinch",
+      "aliases": [
+        "Carpodacus edwardsii"
+      ],
+      "popularity": 654,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Dark-rumped rosefinch"
+    },
+    {
+      "name": "Yellow-throated seedeater",
+      "aliases": [
+        "Crithagra flavigula"
+      ],
+      "popularity": 657,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Yellow-throated seedeater"
+    },
+    {
+      "name": "Kauaʻi finch",
+      "aliases": [
+        "Telespiza persecutrix"
+      ],
+      "popularity": 669,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Kauaʻi finch"
+    },
+    {
+      "name": "Saffron siskin",
+      "aliases": [
+        "Spinus siemiradzkii"
+      ],
+      "popularity": 673,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Saffron siskin"
+    },
+    {
+      "name": "White-bellied canary",
+      "aliases": [
+        "Crithagra dorsostriata"
+      ],
+      "popularity": 676,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "White-bellied canary"
+    },
+    {
+      "name": "Chestnut-bellied euphonia",
+      "aliases": [
+        "Euphonia pectoralis"
+      ],
+      "popularity": 683,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Chestnut-bellied euphonia"
+    },
+    {
+      "name": "White-vented euphonia",
+      "aliases": [
+        "Euphonia minuta"
+      ],
+      "popularity": 689,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "White-vented euphonia"
+    },
+    {
+      "name": "Yellow-rumped siskin",
+      "aliases": [
+        "Spinus uropygialis"
+      ],
+      "popularity": 704,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Yellow-rumped siskin"
+    },
+    {
+      "name": "Scrub euphonia",
+      "aliases": [
+        "Euphonia affinis"
+      ],
+      "popularity": 706,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Scrub euphonia"
+    },
+    {
+      "name": "Blyth's rosefinch",
+      "aliases": [
+        "Carpodacus grandis"
+      ],
+      "popularity": 740,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Blyth's rosefinch"
+    },
+    {
+      "name": "Arabian serin",
+      "aliases": [
+        "Crithagra rothschildi"
+      ],
+      "popularity": 749,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Arabian serin"
+    },
+    {
+      "name": "Tibetan serin",
+      "aliases": [
+        "Spinus thibetanus",
+        "Tibetan Siskin"
+      ],
+      "popularity": 753,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Tibetan serin"
+    },
+    {
+      "name": "Pale rosefinch",
+      "aliases": [
+        "Carpodacus stoliczkae"
+      ],
+      "popularity": 757,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Pale rosefinch"
+    },
+    {
+      "name": "Kauaʻi palila",
+      "aliases": [
+        "Kauai Palila",
+        "Loxioides kikuchi"
+      ],
+      "popularity": 759,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Kauaʻi palila"
+    },
+    {
+      "name": "Indonesian serin",
+      "aliases": [
+        "Chrysocorythus estherae",
+        "Mountain Serin"
+      ],
+      "popularity": 768,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "Indonesian serin"
+    },
+    {
+      "name": "Lemon-breasted canary",
+      "aliases": [
+        "Crithagra citrinipectus"
+      ],
+      "popularity": 778,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Lemon-breasted canary"
+    },
+    {
+      "name": "Highland finch",
+      "aliases": [
+        "Orthiospiza howarthi"
+      ],
+      "popularity": 780,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Highland finch"
+    },
+    {
+      "name": "Tibetan rosefinch",
+      "aliases": [
+        "Carpodacus roborowskii"
+      ],
+      "popularity": 791,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "Tibetan rosefinch"
+    },
+    {
+      "name": "Brandt's mountain finch",
+      "aliases": [
+        "Leucosticte brandti"
+      ],
+      "popularity": 803,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Brandt's mountain finch"
+    },
+    {
+      "name": "Sillem's rosefinch",
+      "aliases": [
+        "Carpodacus sillemi",
+        "Sillem's Mountain Finch"
+      ],
+      "popularity": 806,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Sillem's rosefinch"
+    },
+    {
+      "name": "Crimson-browed finch",
+      "aliases": [
+        "Carpodacus subhimachalus",
+        "Crimson-browed Rosefinch"
+      ],
+      "popularity": 812,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Crimson-browed finch"
+    },
+    {
+      "name": "Chinese beautiful rosefinch",
+      "aliases": [
+        "Carpodacus davidianus"
+      ],
+      "popularity": 834,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Chinese beautiful rosefinch"
+    },
+    {
+      "name": "Ethiopian siskin",
+      "aliases": [
+        "Serinus nigriceps"
+      ],
+      "popularity": 837,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Ethiopian siskin"
+    },
+    {
+      "name": "Slender-billed greenfinch",
+      "aliases": [
+        "Carduelis aurelioi"
+      ],
+      "popularity": 837,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Slender-billed greenfinch"
+    },
+    {
+      "name": "Vinaceous rosefinch",
+      "aliases": [
+        "Carpodacus vinaceus"
+      ],
+      "popularity": 843,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Vinaceous rosefinch"
+    },
+    {
+      "name": "Red-fronted rosefinch",
+      "aliases": [
+        "Carpodacus puniceus"
+      ],
+      "popularity": 848,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Red-fronted rosefinch"
+    },
+    {
+      "name": "Lesser Antillean euphonia",
+      "aliases": [
+        "Chlorophonia flavifrons"
+      ],
+      "popularity": 852,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Lesser Antillean euphonia"
+    },
+    {
+      "name": "Yellow-crowned canary",
+      "aliases": [
+        "Serinus flavivertex"
+      ],
+      "popularity": 854,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Yellow-crowned canary"
+    },
+    {
+      "name": "Himalayan white-browed rosefinch",
+      "aliases": [
+        "Carpodacus thura",
+        "White-browed rosefinch"
+      ],
+      "popularity": 859,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Himalayan white-browed rosefinch"
+    },
+    {
+      "name": "Yemen linnet",
+      "aliases": [
+        "Linaria yemenensis"
+      ],
+      "popularity": 859,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Yemen linnet"
+    },
+    {
+      "name": "Olive-backed euphonia",
+      "aliases": [
+        "Euphonia gouldi"
+      ],
+      "popularity": 860,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Olive-backed euphonia"
+    },
+    {
+      "name": "Streaky seedeater",
+      "aliases": [
+        "Crithagra striolata"
+      ],
+      "popularity": 864,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Streaky seedeater"
+    },
+    {
+      "name": "Arabian golden-winged grosbeak",
+      "aliases": [
+        "Rhynchostruthus percivali"
+      ],
+      "popularity": 871,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Arabian golden-winged grosbeak"
+    },
+    {
+      "name": "Himalayan beautiful rosefinch",
+      "aliases": [
+        "Carpodacus pulcherrimus"
+      ],
+      "popularity": 873,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Himalayan beautiful rosefinch"
+    },
+    {
+      "name": "Streaked rosefinch",
+      "aliases": [
+        "Carpodacus rubicilloides"
+      ],
+      "popularity": 874,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Streaked rosefinch"
+    },
+    {
+      "name": "Golden-rumped euphonia",
+      "aliases": [
+        "Euphonia cyanocephala"
+      ],
+      "popularity": 881,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Golden-rumped euphonia"
+    },
+    {
+      "name": "Taiwan bullfinch",
+      "aliases": [
+        "Pyrrhula owstoni"
+      ],
+      "popularity": 882,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Taiwan bullfinch"
+    },
+    {
+      "name": "Hispaniolan euphonia",
+      "aliases": [
+        "Antillean Euphonia",
+        "Euphonia musica"
+      ],
+      "popularity": 887,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Hispaniolan euphonia"
+    },
+    {
+      "name": "Black-headed siskin",
+      "aliases": [
+        "Spinus notatus"
+      ],
+      "popularity": 895,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Black-headed siskin"
+    },
+    {
+      "name": "Chinese white-browed rosefinch",
+      "aliases": [
+        "Carpodacus dubius"
+      ],
+      "popularity": 898,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Chinese white-browed rosefinch"
+    },
+    {
+      "name": "Orange-bellied euphonia",
+      "aliases": [
+        "Euphonia xanthogaster"
+      ],
+      "popularity": 917,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Orange-bellied euphonia"
+    },
+    {
+      "name": "Golden-naped finch",
+      "aliases": [
+        "Gold-headed finch",
+        "Gold-naped Finch",
+        "Pyrrhoplectes epauletta",
+        "Pyrrhoplectes epaulette"
+      ],
+      "popularity": 925,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Golden-naped finch"
+    },
+    {
+      "name": "Spot-winged grosbeak",
+      "aliases": [
+        "Mycerobas melanozanthos",
+        "Spotted-winged grosbeak"
+      ],
+      "popularity": 943,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Spot-winged grosbeak"
+    },
+    {
+      "name": "Drakensberg siskin",
+      "aliases": [
+        "Crithagra symonsi"
+      ],
+      "popularity": 955,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Drakensberg siskin"
+    },
+    {
+      "name": "Black-capped siskin",
+      "aliases": [
+        "Spinus atriceps"
+      ],
+      "popularity": 956,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Black-capped siskin"
+    },
+    {
+      "name": "Red-mantled rosefinch",
+      "aliases": [
+        "Carpodacus rhodochlamys"
+      ],
+      "popularity": 957,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Red-mantled rosefinch"
+    },
+    {
+      "name": "Arctic redpoll",
+      "aliases": [
+        "Acanthis hornemanni",
+        "Carduelis hornemanni",
+        "hoary redpoll"
+      ],
+      "popularity": 985,
+      "rarity": 0.562,
+      "tier": 3,
+      "wiki": "Arctic redpoll"
+    },
+    {
+      "name": "Spectacled finch",
+      "aliases": [
+        "Callacanthis burtoni"
+      ],
+      "popularity": 985,
+      "rarity": 0.562,
+      "tier": 3,
+      "wiki": "Spectacled finch"
+    },
+    {
+      "name": "Ankober serin",
+      "aliases": [
+        "Crithagra ankoberensis"
+      ],
+      "popularity": 1005,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Ankober serin"
+    },
+    {
+      "name": "Forest canary",
+      "aliases": [
+        "Crithagra scotops"
+      ],
+      "popularity": 1010,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Forest canary"
+    },
+    {
+      "name": "Taiwan rosefinch",
+      "aliases": [
+        "Carpodacus formosanus"
+      ],
+      "popularity": 1012,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Taiwan rosefinch"
+    },
+    {
+      "name": "White-rumped seedeater",
+      "aliases": [
+        "Crithagra leucopygia"
+      ],
+      "popularity": 1023,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "White-rumped seedeater"
+    },
+    {
+      "name": "Yellow-crowned euphonia",
+      "aliases": [
+        "Euphonia luteicapilla"
+      ],
+      "popularity": 1026,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Yellow-crowned euphonia"
+    },
+    {
+      "name": "Grey-headed bullfinch",
+      "aliases": [
+        "Pyrrhula erythaca"
+      ],
+      "popularity": 1043,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Grey-headed bullfinch"
+    },
+    {
+      "name": "Streaky-headed seedeater",
+      "aliases": [
+        "Crithagra gularis"
+      ],
+      "popularity": 1049,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Streaky-headed seedeater"
+    },
+    {
+      "name": "White-winged grosbeak",
+      "aliases": [
+        "Mycerobas carnipes"
+      ],
+      "popularity": 1066,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "White-winged grosbeak"
+    },
+    {
+      "name": "Protea canary",
+      "aliases": [
+        "Crithagra leucoptera"
+      ],
+      "popularity": 1073,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Protea canary"
+    },
+    {
+      "name": "White-cheeked bullfinch",
+      "aliases": [
+        "Pyrrhula leucogenis"
+      ],
+      "popularity": 1080,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "White-cheeked bullfinch"
+    },
+    {
+      "name": "Plain mountain finch",
+      "aliases": [
+        "Leucosticte nemoricola"
+      ],
+      "popularity": 1089,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Plain mountain finch"
+    },
+    {
+      "name": "Black siskin",
+      "aliases": [
+        "Spinus atratus"
+      ],
+      "popularity": 1101,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Black siskin"
+    },
+    {
+      "name": "Yellow-faced siskin",
+      "aliases": [
+        "Carduelis yarrellii",
+        "Esporagra yarrellii",
+        "Spinus yarrellii"
+      ],
+      "popularity": 1126,
+      "rarity": 0.502,
+      "tier": 3,
+      "wiki": "Yellow-faced siskin"
+    },
+    {
+      "name": "Purple-throated euphonia",
+      "aliases": [
+        "Euphonia chlorotica"
+      ],
+      "popularity": 1129,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Purple-throated euphonia"
+    },
+    {
+      "name": "Black-and-yellow grosbeak",
+      "aliases": [
+        "Mycerobas icterioides"
+      ],
+      "popularity": 1136,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Black-and-yellow grosbeak"
+    },
+    {
+      "name": "African citril",
+      "aliases": [
+        "Crithagra citrinelloides"
+      ],
+      "popularity": 1174,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "African citril"
+    },
+    {
+      "name": "Antillean siskin",
+      "aliases": [
+        "Spinus dominicensis"
+      ],
+      "popularity": 1184,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Antillean siskin"
+    },
+    {
+      "name": "Asian rosy finch",
+      "aliases": [
+        "Leucosticte arctoa"
+      ],
+      "popularity": 1188,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Asian rosy finch"
+    },
+    {
+      "name": "Puerto Rican euphonia",
+      "aliases": [
+        "Chlorophonia sclateri"
+      ],
+      "popularity": 1205,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Puerto Rican euphonia"
+    },
+    {
+      "name": "Black-throated canary",
+      "aliases": [
+        "Crithagra atrogularis"
+      ],
+      "popularity": 1270,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Black-throated canary"
+    },
+    {
+      "name": "Blanford's rosefinch",
+      "aliases": [
+        "Agraphospiza rubescens",
+        "Carpodacus rubescens"
+      ],
+      "popularity": 1275,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Blanford's rosefinch"
+    },
+    {
+      "name": "Oriole finch",
+      "aliases": [
+        "Linurgus olivaceus"
+      ],
+      "popularity": 1279,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Oriole finch"
+    },
+    {
+      "name": "Cape siskin",
+      "aliases": [
+        "Crithagra totta"
+      ],
+      "popularity": 1281,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Cape siskin"
+    },
+    {
+      "name": "Bonin greenfinch",
+      "aliases": [
+        "Chloris kittlitzi",
+        "Ogasawara greenfinch"
+      ],
+      "popularity": 1318,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Bonin greenfinch"
+    },
+    {
+      "name": "Black-chinned siskin",
+      "aliases": [
+        "Spinus barbatus"
+      ],
+      "popularity": 1337,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Black-chinned siskin"
+    },
+    {
+      "name": "Vietnamese greenfinch",
+      "aliases": [
+        "Chloris monguilloti"
+      ],
+      "popularity": 1353,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Vietnamese greenfinch"
+    },
+    {
+      "name": "Red-headed bullfinch",
+      "aliases": [
+        "Pyrrhula erythrocephala"
+      ],
+      "popularity": 1357,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Red-headed bullfinch"
+    },
+    {
+      "name": "Hoopoe-billed ʻakialoa",
+      "aliases": [
+        "Hemignathus upupirostris"
+      ],
+      "popularity": 1363,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Hoopoe-billed ʻakialoa"
+    },
+    {
+      "name": "Collared grosbeak",
+      "aliases": [
+        "Allied grosbeak",
+        "Mycerobas affinis"
+      ],
+      "popularity": 1377,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Collared grosbeak"
+    },
+    {
+      "name": "Andean siskin",
+      "aliases": [
+        "Spinus spinescens"
+      ],
+      "popularity": 1447,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Andean siskin"
+    },
+    {
+      "name": "Brown bullfinch",
+      "aliases": [
+        "Pyrrhula nipalensis"
+      ],
+      "popularity": 1464,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Brown bullfinch"
+    },
+    {
+      "name": "Warsangli linnet",
+      "aliases": [
+        "Linaria johannis"
+      ],
+      "popularity": 1469,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Warsangli linnet"
+    },
+    {
+      "name": "Socotra golden-winged grosbeak",
+      "aliases": [
+        "Rhynchostruthus socotranus",
+        "Socotra grosbeak"
+      ],
+      "popularity": 1471,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Socotra golden-winged grosbeak"
+    },
+    {
+      "name": "Siberian long-tailed rosefinch",
+      "aliases": [
+        "Carpodacus sibiricus",
+        "Long-tailed Rosefinch"
+      ],
+      "popularity": 1494,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Siberian long-tailed rosefinch"
+    },
+    {
+      "name": "Black-headed greenfinch",
+      "aliases": [
+        "Chloris ambigua"
+      ],
+      "popularity": 1496,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Black-headed greenfinch"
+    },
+    {
+      "name": "Dark-breasted rosefinch",
+      "aliases": [
+        "Procarduelis nipalensis"
+      ],
+      "popularity": 1509,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Dark-breasted rosefinch"
+    },
+    {
+      "name": "Orange bullfinch",
+      "aliases": [
+        "Pyrrhula aurantiaca"
+      ],
+      "popularity": 1512,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Orange bullfinch"
+    },
+    {
+      "name": "Crimson-winged finch",
+      "aliases": [
+        "Eurasian Crimson-winged Finch",
+        "Rhodopechys sanguinea",
+        "Rhodopechys sanguineus"
+      ],
+      "popularity": 1562,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Crimson-winged finch"
+    },
+    {
+      "name": "Mongolian finch",
+      "aliases": [
+        "Bucanetes mongolicus",
+        "Mongolian trumpeter finch",
+        "Rhodopechys mongolica"
+      ],
+      "popularity": 1572,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Mongolian finch"
+    },
+    {
+      "name": "Yellow-throated euphonia",
+      "aliases": [
+        "Euphonia hirundinacea"
+      ],
+      "popularity": 1588,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Yellow-throated euphonia"
+    },
+    {
+      "name": "Blue-naped chlorophonia",
+      "aliases": [
+        "Chlorophonia cyanea"
+      ],
+      "popularity": 1617,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Blue-naped chlorophonia"
+    },
+    {
+      "name": "Golden-browed chlorophonia",
+      "aliases": [
+        "Chlorophonia callophrys"
+      ],
+      "popularity": 1617,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Golden-browed chlorophonia"
+    },
+    {
+      "name": "Elegant euphonia",
+      "aliases": [
+        "Blue-hooded Euphonia",
+        "Euphonia elegantissima"
+      ],
+      "popularity": 1626,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Elegant euphonia"
+    },
+    {
+      "name": "Hooded grosbeak",
+      "aliases": [
+        "Guiraca Abeillei",
+        "Hesperiphona abeillei"
+      ],
+      "popularity": 1655,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Hooded grosbeak"
+    },
+    {
+      "name": "Hispaniolan crossbill",
+      "aliases": [
+        "Loxia megaplaga"
+      ],
+      "popularity": 1687,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Hispaniolan crossbill"
+    },
+    {
+      "name": "Black-headed canary",
+      "aliases": [
+        "Serinus alario"
+      ],
+      "popularity": 1688,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Black-headed canary"
+    },
+    {
+      "name": "Maui ʻalauahio",
+      "aliases": [
+        "Paroreomyza montana"
+      ],
+      "popularity": 1729,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Maui ʻalauahio"
+    },
+    {
+      "name": "Pink-browed rosefinch",
+      "aliases": [
+        "Carpodacus rhodochrous",
+        "Carpodacus rodochroa"
+      ],
+      "popularity": 1765,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Pink-browed rosefinch"
+    },
+    {
+      "name": "Great rosefinch",
+      "aliases": [
+        "Carpodacus rubicilla",
+        "Caucasian Great Rosefinch"
+      ],
+      "popularity": 1776,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Great rosefinch"
+    },
+    {
+      "name": "Yellow-breasted greenfinch",
+      "aliases": [
+        "Chloris spinoides"
+      ],
+      "popularity": 1781,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Yellow-breasted greenfinch"
+    },
+    {
+      "name": "Corsican finch",
+      "aliases": [
+        "Carduelis corsicana",
+        "Corsican citril finch"
+      ],
+      "popularity": 1802,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Corsican finch"
+    },
+    {
+      "name": "Syrian serin",
+      "aliases": [
+        "Serinus syriacus"
+      ],
+      "popularity": 1959,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Syrian serin"
+    },
+    {
+      "name": "São Tomé grosbeak",
+      "aliases": [
+        "Crithagra concolor"
+      ],
+      "popularity": 1974,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "São Tomé grosbeak"
+    },
+    {
+      "name": "Chinese grosbeak",
+      "aliases": [
+        "Black-tailed hawfinch",
+        "Eophona migratoria"
+      ],
+      "popularity": 1999,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Chinese grosbeak"
+    },
+    {
+      "name": "Hawaiʻi ʻākepa",
+      "aliases": [
+        "Akepa",
+        "Loxops coccineus"
+      ],
+      "popularity": 2012,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Hawaiʻi ʻākepa"
+    },
+    {
+      "name": "Akekeʻe",
+      "aliases": [
+        "Akekeíe",
+        "Loxops caeruleirostris"
+      ],
+      "popularity": 2058,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Akekeʻe"
+    },
+    {
+      "name": "Cape canary",
+      "aliases": [
+        "Serinus canicollis"
+      ],
+      "popularity": 2061,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Cape canary"
+    },
+    {
+      "name": "Brimstone canary",
+      "aliases": [
+        "Crithagra sulphurata"
+      ],
+      "popularity": 2109,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Brimstone canary"
+    },
+    {
+      "name": "Desert finch",
+      "aliases": [
+        "Lichtenstein’s desert finch",
+        "Rhodopechys obsolete",
+        "Rhodospiza obsoleta"
+      ],
+      "popularity": 2163,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Desert finch"
+    },
+    {
+      "name": "Hawaiʻi creeper",
+      "aliases": [
+        "Loxops mana"
+      ],
+      "popularity": 2213,
+      "rarity": 0.293,
+      "tier": 2,
+      "wiki": "Hawaiʻi creeper"
+    },
+    {
+      "name": "Brown-capped rosy finch",
+      "aliases": [
+        "Leucosticte australis"
+      ],
+      "popularity": 2379,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Brown-capped rosy finch"
+    },
+    {
+      "name": "Violaceous euphonia",
+      "aliases": [
+        "Euphonia violacea"
+      ],
+      "popularity": 2437,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Violaceous euphonia"
+    },
+    {
+      "name": "Cassia crossbill",
+      "aliases": [
+        "Loxia sinesciuris",
+        "South Hills Crossbill"
+      ],
+      "popularity": 2527,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Cassia crossbill"
+    },
+    {
+      "name": "ʻAnianiau",
+      "aliases": [
+        "Magumma parva"
+      ],
+      "popularity": 2535,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "ʻAnianiau"
+    },
+    {
+      "name": "Thick-billed euphonia",
+      "aliases": [
+        "Euphonia laniirostris"
+      ],
+      "popularity": 2574,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Thick-billed euphonia"
+    },
+    {
+      "name": "Red-fronted serin",
+      "aliases": [
+        "Serinus pusillus"
+      ],
+      "popularity": 2598,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Red-fronted serin"
+    },
+    {
+      "name": "Kauaʻi ʻamakihi",
+      "aliases": [
+        "Chlorodrepanis stejnegeri"
+      ],
+      "popularity": 2618,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Kauaʻi ʻamakihi"
+    },
+    {
+      "name": "Black rosy finch",
+      "aliases": [
+        "Leucosticte atrata"
+      ],
+      "popularity": 2621,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Black rosy finch"
+    },
+    {
+      "name": "Oʻahu ʻamakihi",
+      "aliases": [
+        "Chlorodrepanis flava"
+      ],
+      "popularity": 2666,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Oʻahu ʻamakihi"
+    },
+    {
+      "name": "ʻAkiapōlāʻau",
+      "aliases": [
+        "Akiapolaau",
+        "Hemignathus wilsoni"
+      ],
+      "popularity": 2670,
+      "rarity": 0.249,
+      "tier": 2,
+      "wiki": "ʻAkiapōlāʻau"
+    },
+    {
+      "name": "Nīhoa finch",
+      "aliases": [
+        "Telespiza ultima"
+      ],
+      "popularity": 2687,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Nīhoa finch"
+    },
+    {
+      "name": "Canary Islands chaffinch",
+      "aliases": [
+        "Fringilla canariensis"
+      ],
+      "popularity": 2693,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Canary Islands chaffinch"
+    },
+    {
+      "name": "Hooded siskin",
+      "aliases": [
+        "Spinus magellanicus"
+      ],
+      "popularity": 2722,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Hooded siskin"
+    },
+    {
+      "name": "Gray-crowned rosy finch",
+      "aliases": [
+        "Leucosticte tephrocotis"
+      ],
+      "popularity": 2844,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Gray-crowned rosy finch"
+    },
+    {
+      "name": "Oriental greenfinch",
+      "aliases": [
+        "Chloris sinica",
+        "Grey-capped Greenfinch"
+      ],
+      "popularity": 2882,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Oriental greenfinch"
+    },
+    {
+      "name": "Scarlet finch",
+      "aliases": [
+        "Carpodacus sipahi",
+        "Haematospiza sipahi"
+      ],
+      "popularity": 2936,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Scarlet finch"
+    },
+    {
+      "name": "Pallas's rosefinch",
+      "aliases": [
+        "Carpodacus roseus"
+      ],
+      "popularity": 2949,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Pallas's rosefinch"
+    },
+    {
+      "name": "Oʻahu ʻalauahio",
+      "aliases": [
+        "Oahu alauahio",
+        "Oahu creeper",
+        "Paroreomyza maculata",
+        "Paroreomyza maculate"
+      ],
+      "popularity": 2970,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Oʻahu ʻalauahio"
+    },
+    {
+      "name": "Grey-crowned goldfinch",
+      "aliases": [
+        "Carduelis caniceps"
+      ],
+      "popularity": 3090,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Grey-crowned goldfinch"
+    },
+    {
+      "name": "Yellow-bellied siskin",
+      "aliases": [
+        "Spinus xanthogastrus"
+      ],
+      "popularity": 3172,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Yellow-bellied siskin"
+    },
+    {
+      "name": "Gran Canaria blue chaffinch",
+      "aliases": [
+        "Fringilla polatzeki"
+      ],
+      "popularity": 3194,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Gran Canaria blue chaffinch"
+    },
+    {
+      "name": "Sinai rosefinch",
+      "aliases": [
+        "Carpodacus synoicus"
+      ],
+      "popularity": 3447,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Sinai rosefinch"
+    },
+    {
+      "name": "Lawrence's goldfinch",
+      "aliases": [
+        "Spinus lawrencei"
+      ],
+      "popularity": 3807,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Lawrence's goldfinch"
+    },
+    {
+      "name": "Citril finch",
+      "aliases": [
+        "Carduelis citrinella",
+        "Serinus citrinella"
+      ],
+      "popularity": 3825,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Citril finch"
+    },
+    {
+      "name": "Hawaiʻi ʻamakihi",
+      "aliases": [
+        "Chlorodrepanis virens"
+      ],
+      "popularity": 4161,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Hawaiʻi ʻamakihi"
+    },
+    {
+      "name": "Laysan finch",
+      "aliases": [
+        "Telespiza cantans"
+      ],
+      "popularity": 4508,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Laysan finch"
+    },
+    {
+      "name": "Parrot crossbill",
+      "aliases": [
+        "Loxia pytyopsittacus"
+      ],
+      "popularity": 4516,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Parrot crossbill"
+    },
+    {
+      "name": "Trumpeter finch",
+      "aliases": [
+        "Bucanetes githagineus",
+        "Rhodopechys githaginea"
+      ],
+      "popularity": 4560,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Trumpeter finch"
+    },
+    {
+      "name": "ʻAkohekohe",
+      "aliases": [
+        "Palmeria dolei"
+      ],
+      "popularity": 5012,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "ʻAkohekohe"
+    },
+    {
+      "name": "Two-barred crossbill",
+      "aliases": [
+        "Loxia leucoptera",
+        "White-winged Crossbill"
+      ],
+      "popularity": 5116,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Two-barred crossbill"
+    },
+    {
+      "name": "Red siskin",
+      "aliases": [
+        "Carduelis cucullata",
+        "Spinus cucullatus"
+      ],
+      "popularity": 5358,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Red siskin"
+    },
+    {
+      "name": "Madeira chaffinch",
+      "aliases": [
+        "Fringilla maderensis"
+      ],
+      "popularity": 5572,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Madeira chaffinch"
+    },
+    {
+      "name": "African chaffinch",
+      "aliases": [
+        "Fringilla spodiogenys"
+      ],
+      "popularity": 5603,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "African chaffinch"
+    },
+    {
+      "name": "Maui parrotbill",
+      "aliases": [
+        "Pseudonestor xanthophrys"
+      ],
+      "popularity": 5697,
+      "rarity": 0.142,
+      "tier": 1,
+      "wiki": "Maui parrotbill"
+    },
+    {
+      "name": "Yellow-fronted canary",
+      "aliases": [
+        "Crithagra mozambica"
+      ],
+      "popularity": 5764,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Yellow-fronted canary"
+    },
+    {
+      "name": "Japanese grosbeak",
+      "aliases": [
+        "Eophona personata"
+      ],
+      "popularity": 5894,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Japanese grosbeak"
+    },
+    {
+      "name": "Palila",
+      "aliases": [
+        "Loxioides bailleui"
+      ],
+      "popularity": 6479,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Palila"
+    },
+    {
+      "name": "Tenerife blue chaffinch",
+      "aliases": [
+        "Fringilla teydea"
+      ],
+      "popularity": 6671,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Tenerife blue chaffinch"
+    },
+    {
+      "name": "ʻAkikiki",
+      "aliases": [
+        "Oreomystis bairdi"
+      ],
+      "popularity": 7161,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "ʻAkikiki"
+    },
+    {
+      "name": "Azores bullfinch",
+      "aliases": [
+        "Pyrrhula murina",
+        "Pyrrhula pyrrhula murina",
+        "São Miguel bullfinch"
+      ],
+      "popularity": 7436,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Azores bullfinch"
+    },
+    {
+      "name": "ʻApapane",
+      "aliases": [
+        "Himatione sanguinea"
+      ],
+      "popularity": 7674,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "ʻApapane"
+    },
+    {
+      "name": "Common redpoll",
+      "aliases": [
+        "Acanthis flammea",
+        "Carduelis flammea",
+        "Mealy Redpoll",
+        "Redpoll"
+      ],
+      "popularity": 7989,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Common redpoll"
+    },
+    {
+      "name": "Cassin's finch",
+      "aliases": [
+        "Carpodacus cassinii",
+        "Haemorhous cassinii"
+      ],
+      "popularity": 9294,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Cassin's finch"
+    },
+    {
+      "name": "Scottish crossbill",
+      "aliases": [
+        "Loxia scotica"
+      ],
+      "popularity": 10752,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Scottish crossbill"
+    },
+    {
+      "name": "Twite",
+      "aliases": [
+        "heather lintie",
+        "Linaria flavirostris"
+      ],
+      "popularity": 11676,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Twite"
+    },
+    {
+      "name": "Common rosefinch",
+      "aliases": [
+        "Carpodacus erythrinus",
+        "Scarlet rosefinch"
+      ],
+      "popularity": 13292,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Common rosefinch"
+    },
+    {
+      "name": "Lesser goldfinch",
+      "aliases": [
+        "Spinus psaltria"
+      ],
+      "popularity": 17385,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Lesser goldfinch"
+    },
+    {
+      "name": "Yellow canary",
+      "aliases": [
+        "Crithagra flaviventris"
+      ],
+      "popularity": 18711,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Yellow canary"
+    },
+    {
+      "name": "ʻIʻiwi",
+      "aliases": [
+        "Drepanis coccinea",
+        "Iiwi"
+      ],
+      "popularity": 20239,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "ʻIʻiwi"
+    },
+    {
+      "name": "European serin",
+      "aliases": [
+        "Serinus serinus"
+      ],
+      "popularity": 22179,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "European serin"
+    },
+    {
+      "name": "Brambling",
+      "aliases": [
+        "cock'o north",
+        "Fringilla montifringilla",
+        "mountain finch"
+      ],
+      "popularity": 22590,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Brambling"
+    },
+    {
+      "name": "Evening grosbeak",
+      "aliases": [
+        "Hesperiphona vespertina"
+      ],
+      "popularity": 23816,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Evening grosbeak"
+    },
+    {
+      "name": "Pine grosbeak",
+      "aliases": [
+        "Pinicola enucleator"
+      ],
+      "popularity": 27438,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Pine grosbeak"
+    },
+    {
+      "name": "Hawfinch",
+      "aliases": [
+        "Coccothraustes coccothraustes"
+      ],
+      "popularity": 27975,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Hawfinch"
+    },
+    {
+      "name": "European greenfinch",
+      "aliases": [
+        "Chloris chloris",
+        "Common greenfinch",
+        "Greenfinch"
+      ],
+      "popularity": 34308,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "European greenfinch"
+    },
+    {
+      "name": "Eurasian siskin",
+      "aliases": [
+        "Spinus spinus"
+      ],
+      "popularity": 38365,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Eurasian siskin"
+    },
+    {
+      "name": "Red crossbill",
+      "aliases": [
+        "Common Crossbill",
+        "Loxia curvirostra"
+      ],
+      "popularity": 39463,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Red crossbill"
+    },
+    {
+      "name": "Pine siskin",
+      "aliases": [
+        "Spinus pinus"
+      ],
+      "popularity": 43351,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Pine siskin"
+    },
+    {
+      "name": "Purple finch",
+      "aliases": [
+        "Haemorhous purpureus"
+      ],
+      "popularity": 45924,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Purple finch"
+    },
+    {
+      "name": "Common linnet",
+      "aliases": [
+        "Carduelis cannabina",
+        "Linaria cannabina"
+      ],
+      "popularity": 47029,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Common linnet"
+    },
+    {
+      "name": "Atlantic canary",
+      "aliases": [
+        "canary",
+        "Island canary",
+        "Serinus canaria"
+      ],
+      "popularity": 49021,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Atlantic canary"
+    },
+    {
+      "name": "Eurasian bullfinch",
+      "aliases": [
+        "Bullfinch",
+        "Common bullfinch",
+        "Pope",
+        "Pyrrhula pyrrhula"
+      ],
+      "popularity": 72622,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Eurasian bullfinch"
+    },
+    {
+      "name": "Eurasian chaffinch",
+      "aliases": [
+        "Chaffinch",
+        "Common Chaffinch",
+        "Fringilla coelebs"
+      ],
+      "popularity": 74302,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Eurasian chaffinch"
+    },
+    {
+      "name": "European goldfinch",
+      "aliases": [
+        "Carduelis carduelis",
+        "Eurasian goldfinch",
+        "goldfinch"
+      ],
+      "popularity": 110944,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "European goldfinch"
+    },
+    {
+      "name": "American goldfinch",
+      "aliases": [
+        "Spinus tristis"
+      ],
+      "popularity": 141798,
+      "rarity": 0.004,
+      "tier": 1,
+      "wiki": "American goldfinch"
+    },
+    {
+      "name": "House finch",
+      "aliases": [
+        "Carpodacus mexicanus",
+        "Haemorhous mexicanus",
+        "Mexican house finch",
+        "Mexican rosefinch"
+      ],
+      "popularity": 170496,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "House finch"
+    }
+  ]
+}

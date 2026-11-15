@@ -1,0 +1,452 @@
+{
+  "id": "bird-orders",
+  "slug": "bird-orders",
+  "category": "animals",
+  "question": "Name an order of birds",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Pteroclidiformes",
+      "aliases": [
+        "Pterocliformes"
+      ],
+      "popularity": 332,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Pteroclidiformes"
+    },
+    {
+      "name": "Colymbiformes",
+      "aliases": [],
+      "popularity": 712,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Colymbiformes"
+    },
+    {
+      "name": "Podargiformes",
+      "aliases": [],
+      "popularity": 2572,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Podargiformes"
+    },
+    {
+      "name": "Steatornithiformes",
+      "aliases": [],
+      "popularity": 2736,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Steatornithiformes"
+    },
+    {
+      "name": "Nyctibiiformes",
+      "aliases": [],
+      "popularity": 2847,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Nyctibiiformes"
+    },
+    {
+      "name": "Otidiformes",
+      "aliases": [],
+      "popularity": 3937,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Otidiformes"
+    },
+    {
+      "name": "Leptosomiformes",
+      "aliases": [],
+      "popularity": 5618,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Leptosomiformes"
+    },
+    {
+      "name": "Musophagiformes",
+      "aliases": [],
+      "popularity": 5753,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Musophagiformes"
+    },
+    {
+      "name": "Mesitornithiformes",
+      "aliases": [],
+      "popularity": 6349,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Mesitornithiformes"
+    },
+    {
+      "name": "Cuculiformes",
+      "aliases": [
+        "Cuculiform",
+        "Cuculiforms"
+      ],
+      "popularity": 6609,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Cuculiformes"
+    },
+    {
+      "name": "Trogoniformes",
+      "aliases": [],
+      "popularity": 6678,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Trogoniformes"
+    },
+    {
+      "name": "Podicipediformes",
+      "aliases": [],
+      "popularity": 8803,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Podicipediformes"
+    },
+    {
+      "name": "Eurypygiformes",
+      "aliases": [],
+      "popularity": 10562,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Eurypygiformes"
+    },
+    {
+      "name": "Coliiformes",
+      "aliases": [],
+      "popularity": 10899,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Coliiformes"
+    },
+    {
+      "name": "Sphenisciformes",
+      "aliases": [
+        "penguin",
+        "pinguins"
+      ],
+      "popularity": 11550,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Sphenisciformes"
+    },
+    {
+      "name": "Phaethontiformes",
+      "aliases": [],
+      "popularity": 12015,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Phaethontiformes"
+    },
+    {
+      "name": "Cathartiformes",
+      "aliases": [],
+      "popularity": 12032,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Cathartiformes"
+    },
+    {
+      "name": "Columbiformes",
+      "aliases": [
+        "Columbiform",
+        "Columbiforms"
+      ],
+      "popularity": 12081,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Columbiformes"
+    },
+    {
+      "name": "Apterygiformes",
+      "aliases": [
+        "Apterygiform",
+        "Apterygiforms"
+      ],
+      "popularity": 12107,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Apterygiformes"
+    },
+    {
+      "name": "Tinamiformes",
+      "aliases": [
+        "Tinamiform",
+        "Tinamiformen"
+      ],
+      "popularity": 13888,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Tinamiformes"
+    },
+    {
+      "name": "Owlet-nightjar",
+      "aliases": [
+        "Aegotheliformes"
+      ],
+      "popularity": 14132,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Owlet-nightjar"
+    },
+    {
+      "name": "Rheiformes",
+      "aliases": [
+        "Rhea"
+      ],
+      "popularity": 14909,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Rheiformes"
+    },
+    {
+      "name": "Caprimulgiformes",
+      "aliases": [],
+      "popularity": 15241,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Caprimulgiformes"
+    },
+    {
+      "name": "Ciconiiformes",
+      "aliases": [],
+      "popularity": 15301,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Ciconiiformes"
+    },
+    {
+      "name": "Opisthocomiformes",
+      "aliases": [],
+      "popularity": 16139,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Opisthocomiformes"
+    },
+    {
+      "name": "Pangalliformes",
+      "aliases": [
+        "Landfowl"
+      ],
+      "popularity": 18851,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Pangalliformes"
+    },
+    {
+      "name": "Phoenicopteriformes",
+      "aliases": [
+        "flamingo",
+        "flamingos"
+      ],
+      "popularity": 19735,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Phoenicopteriformes"
+    },
+    {
+      "name": "Bucerotiformes",
+      "aliases": [],
+      "popularity": 20705,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Bucerotiformes"
+    },
+    {
+      "name": "Gaviiformes",
+      "aliases": [],
+      "popularity": 26937,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Gaviiformes"
+    },
+    {
+      "name": "Casuariiformes",
+      "aliases": [],
+      "popularity": 28218,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Casuariiformes"
+    },
+    {
+      "name": "Suliformes",
+      "aliases": [
+        "Phalacrocoraciformes"
+      ],
+      "popularity": 28324,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Suliformes"
+    },
+    {
+      "name": "Struthioniformes",
+      "aliases": [
+        "Ratitae",
+        "Ratite",
+        "Ratites",
+        "Struthioniform",
+        "Struthioniforms"
+      ],
+      "popularity": 34543,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Struthioniformes"
+    },
+    {
+      "name": "Coraciiformes",
+      "aliases": [],
+      "popularity": 37572,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Coraciiformes"
+    },
+    {
+      "name": "Apodiformes",
+      "aliases": [],
+      "popularity": 39213,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Apodiformes"
+    },
+    {
+      "name": "Procellariiformes",
+      "aliases": [],
+      "popularity": 48132,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Procellariiformes"
+    },
+    {
+      "name": "Gruiformes",
+      "aliases": [],
+      "popularity": 53101,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Gruiformes"
+    },
+    {
+      "name": "Falconiformes",
+      "aliases": [
+        "Birds of Prey",
+        "Falconiform",
+        "Falconiforms"
+      ],
+      "popularity": 54310,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Falconiformes"
+    },
+    {
+      "name": "Pelecaniformes",
+      "aliases": [],
+      "popularity": 58694,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Pelecaniformes"
+    },
+    {
+      "name": "Piciformes",
+      "aliases": [
+        "Galbuliformes"
+      ],
+      "popularity": 67081,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Piciformes"
+    },
+    {
+      "name": "Cariamiformes",
+      "aliases": [
+        "Cariamae"
+      ],
+      "popularity": 70872,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Cariamiformes"
+    },
+    {
+      "name": "Charadriiformes",
+      "aliases": [],
+      "popularity": 97891,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Charadriiformes"
+    },
+    {
+      "name": "Accipitriformes",
+      "aliases": [],
+      "popularity": 100015,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Accipitriformes"
+    },
+    {
+      "name": "Anseriformes",
+      "aliases": [
+        "waterfowl"
+      ],
+      "popularity": 100097,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Anseriformes"
+    },
+    {
+      "name": "Galliformes",
+      "aliases": [
+        "galliforms",
+        "gallinaceous birds",
+        "gamebirds"
+      ],
+      "popularity": 145884,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Galliformes"
+    },
+    {
+      "name": "Parrot",
+      "aliases": [
+        "parrot order",
+        "Psittaciform",
+        "Psittaciformes",
+        "Psittaciforms",
+        "psittacines"
+      ],
+      "popularity": 452456,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Parrot"
+    },
+    {
+      "name": "Owl",
+      "aliases": [
+        "owl order",
+        "Strigiformes",
+        "strigiforms"
+      ],
+      "popularity": 476137,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Owl"
+    },
+    {
+      "name": "Passerine",
+      "aliases": [
+        "Passeriform",
+        "Passeriformes",
+        "Passeriforms",
+        "passerine bird",
+        "passerine birds",
+        "passerines",
+        "perching bird",
+        "perching birds"
+      ],
+      "popularity": 561035,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Passerine"
+    }
+  ]
+}

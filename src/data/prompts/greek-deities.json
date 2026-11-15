@@ -1,0 +1,2010 @@
+{
+  "id": "greek-deities",
+  "slug": "greek-deities",
+  "category": "history",
+  "question": "Name a Greek deity",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Cayster",
+      "aliases": [
+        "Cayster (mythology)",
+        "Caystros",
+        "Caystrus"
+      ],
+      "popularity": 109,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Cayster (mythology)"
+    },
+    {
+      "name": "Pyrrhichos",
+      "aliases": [
+        "Pyrrhichus",
+        "Pyrrichus"
+      ],
+      "popularity": 240,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Pyrrhichos"
+    },
+    {
+      "name": "Artemis Tauropolos",
+      "aliases": [
+        "Tauropolus"
+      ],
+      "popularity": 345,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Artemis Tauropolos"
+    },
+    {
+      "name": "Pseudea",
+      "aliases": [],
+      "popularity": 370,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Pseudea"
+    },
+    {
+      "name": "Philophrosyne",
+      "aliases": [],
+      "popularity": 727,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Philophrosyne"
+    },
+    {
+      "name": "Kallone",
+      "aliases": [],
+      "popularity": 797,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Kallone"
+    },
+    {
+      "name": "Pasikrata",
+      "aliases": [],
+      "popularity": 878,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Pasikrata"
+    },
+    {
+      "name": "Arke",
+      "aliases": [
+        "Arce",
+        "Arke (mythology)"
+      ],
+      "popularity": 926,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Arke (mythology)"
+    },
+    {
+      "name": "Planē",
+      "aliases": [
+        "Planē (mythology)"
+      ],
+      "popularity": 1012,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Planē (mythology)"
+    },
+    {
+      "name": "Genetyllides",
+      "aliases": [],
+      "popularity": 1051,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Genetyllides"
+    },
+    {
+      "name": "Paregoros",
+      "aliases": [],
+      "popularity": 1057,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Paregoros"
+    },
+    {
+      "name": "Eunostus",
+      "aliases": [
+        "Promylaea"
+      ],
+      "popularity": 1144,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Eunostus"
+    },
+    {
+      "name": "Dodonian Zeus",
+      "aliases": [],
+      "popularity": 1149,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Dodonian Zeus"
+    },
+    {
+      "name": "Athena Alkidemos",
+      "aliases": [
+        "Alcidemos",
+        "Alcidemus",
+        "Alkidemos"
+      ],
+      "popularity": 1211,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Athena Alkidemos"
+    },
+    {
+      "name": "Hera Alexandros",
+      "aliases": [],
+      "popularity": 1311,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Hera Alexandros"
+    },
+    {
+      "name": "Eulabeia",
+      "aliases": [
+        "Eulabeia (mythology)"
+      ],
+      "popularity": 1394,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Eulabeia (mythology)"
+    },
+    {
+      "name": "Ptocheia",
+      "aliases": [],
+      "popularity": 1422,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Ptocheia"
+    },
+    {
+      "name": "Enipeus",
+      "aliases": [
+        "Enipeus (deity)"
+      ],
+      "popularity": 1471,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Enipeus (deity)"
+    },
+    {
+      "name": "Horror",
+      "aliases": [
+        "Horror (mythology)",
+        "Phrike"
+      ],
+      "popularity": 1524,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Horror (mythology)"
+    },
+    {
+      "name": "Atabyrius",
+      "aliases": [],
+      "popularity": 1649,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Atabyrius"
+    },
+    {
+      "name": "Artemis of Ephesus",
+      "aliases": [
+        "Ephesia"
+      ],
+      "popularity": 1684,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Artemis of Ephesus"
+    },
+    {
+      "name": "Peitharchia",
+      "aliases": [],
+      "popularity": 1776,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Peitharchia"
+    },
+    {
+      "name": "Amphictyonis",
+      "aliases": [],
+      "popularity": 1804,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Amphictyonis"
+    },
+    {
+      "name": "Adrestia",
+      "aliases": [],
+      "popularity": 1813,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "Adrestia"
+    },
+    {
+      "name": "Pepromene",
+      "aliases": [],
+      "popularity": 1813,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "Pepromene"
+    },
+    {
+      "name": "Mese",
+      "aliases": [
+        "Mese (mythology)"
+      ],
+      "popularity": 1921,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Mese (mythology)"
+    },
+    {
+      "name": "Itonia",
+      "aliases": [],
+      "popularity": 1949,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Itonia"
+    },
+    {
+      "name": "Apotropaei",
+      "aliases": [
+        "Apotropaios"
+      ],
+      "popularity": 1969,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Apotropaei"
+    },
+    {
+      "name": "Palioxis",
+      "aliases": [],
+      "popularity": 2063,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Palioxis"
+    },
+    {
+      "name": "Algea",
+      "aliases": [
+        "Algea (mythology)",
+        "Algos"
+      ],
+      "popularity": 2125,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Algea (mythology)"
+    },
+    {
+      "name": "Acmon",
+      "aliases": [
+        "Acmon (father of Uranus)"
+      ],
+      "popularity": 2278,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Acmon (father of Uranus)"
+    },
+    {
+      "name": "Nete",
+      "aliases": [
+        "Nete (mythology)"
+      ],
+      "popularity": 2285,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Nete (mythology)"
+    },
+    {
+      "name": "Neaera",
+      "aliases": [
+        "Neaera (consort of Helios)",
+        "Neera",
+        "Néère"
+      ],
+      "popularity": 2286,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Neaera (consort of Helios)"
+    },
+    {
+      "name": "Cleta",
+      "aliases": [],
+      "popularity": 2305,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Cleta"
+    },
+    {
+      "name": "Hypate",
+      "aliases": [],
+      "popularity": 2360,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Hypate"
+    },
+    {
+      "name": "Staphylus",
+      "aliases": [],
+      "popularity": 2373,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Staphylus"
+    },
+    {
+      "name": "Dyssebeia",
+      "aliases": [
+        "Dyssebia"
+      ],
+      "popularity": 2453,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Dyssebeia"
+    },
+    {
+      "name": "Phaenna",
+      "aliases": [],
+      "popularity": 2456,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Phaenna"
+    },
+    {
+      "name": "Zeus Georgos",
+      "aliases": [
+        "Georgos"
+      ],
+      "popularity": 2469,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "Zeus Georgos"
+    },
+    {
+      "name": "Proioxis",
+      "aliases": [],
+      "popularity": 2485,
+      "rarity": 0.814,
+      "tier": 5,
+      "wiki": "Proioxis"
+    },
+    {
+      "name": "Orthanes",
+      "aliases": [
+        "Orthannes"
+      ],
+      "popularity": 2533,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Orthanes"
+    },
+    {
+      "name": "Theandrios",
+      "aliases": [],
+      "popularity": 2595,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Theandrios"
+    },
+    {
+      "name": "Eupraxia",
+      "aliases": [
+        "Eupraxia (mythology)"
+      ],
+      "popularity": 2624,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Eupraxia (mythology)"
+    },
+    {
+      "name": "Apheleia",
+      "aliases": [],
+      "popularity": 2797,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Apheleia"
+    },
+    {
+      "name": "Homados",
+      "aliases": [
+        "Homadus"
+      ],
+      "popularity": 2814,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Homados"
+    },
+    {
+      "name": "Athena Areia",
+      "aliases": [],
+      "popularity": 2862,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Athena Areia"
+    },
+    {
+      "name": "Ekecheiria",
+      "aliases": [],
+      "popularity": 2864,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Ekecheiria"
+    },
+    {
+      "name": "Hylates",
+      "aliases": [],
+      "popularity": 2869,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Hylates"
+    },
+    {
+      "name": "Thrasos",
+      "aliases": [],
+      "popularity": 2945,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Thrasos"
+    },
+    {
+      "name": "Mise",
+      "aliases": [
+        "Misatis",
+        "Mise (mythology)"
+      ],
+      "popularity": 3030,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Mise (mythology)"
+    },
+    {
+      "name": "Caryatis",
+      "aliases": [
+        "Karyatis"
+      ],
+      "popularity": 3108,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Caryatis"
+    },
+    {
+      "name": "Epiphron",
+      "aliases": [],
+      "popularity": 3117,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Epiphron"
+    },
+    {
+      "name": "Athena Alea",
+      "aliases": [
+        "Alea"
+      ],
+      "popularity": 3146,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Athena Alea"
+    },
+    {
+      "name": "Celtus",
+      "aliases": [
+        "Keltos"
+      ],
+      "popularity": 3260,
+      "rarity": 0.748,
+      "tier": 4,
+      "wiki": "Celtus"
+    },
+    {
+      "name": "Ichnaea",
+      "aliases": [
+        "Ichnaia"
+      ],
+      "popularity": 3314,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Ichnaea"
+    },
+    {
+      "name": "Prophasis",
+      "aliases": [],
+      "popularity": 3335,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Prophasis"
+    },
+    {
+      "name": "Penthus",
+      "aliases": [
+        "Penthos",
+        "Pentos"
+      ],
+      "popularity": 3431,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Penthus"
+    },
+    {
+      "name": "Aphrodite of the Gardens",
+      "aliases": [],
+      "popularity": 3499,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Aphrodite of the Gardens"
+    },
+    {
+      "name": "Adranus",
+      "aliases": [
+        "Adranos"
+      ],
+      "popularity": 3627,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Adranus"
+    },
+    {
+      "name": "Auxesia",
+      "aliases": [
+        "Auxesia (mythology)",
+        "Avxesia"
+      ],
+      "popularity": 3760,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Auxesia (mythology)"
+    },
+    {
+      "name": "Thyia",
+      "aliases": [
+        "Thyia (naiad)"
+      ],
+      "popularity": 3865,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Thyia (naiad)"
+    },
+    {
+      "name": "Ceuthonymus",
+      "aliases": [
+        "Keuthonymos"
+      ],
+      "popularity": 3877,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Ceuthonymus"
+    },
+    {
+      "name": "Hedylogos",
+      "aliases": [],
+      "popularity": 4086,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Hedylogos"
+    },
+    {
+      "name": "Sardus",
+      "aliases": [],
+      "popularity": 4088,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Sardus"
+    },
+    {
+      "name": "Amechania",
+      "aliases": [],
+      "popularity": 4306,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Amechania"
+    },
+    {
+      "name": "Horme",
+      "aliases": [
+        "Hormes"
+      ],
+      "popularity": 4587,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Horme"
+    },
+    {
+      "name": "Kotys",
+      "aliases": [
+        "Cotys",
+        "Cotytto",
+        "Kotyto"
+      ],
+      "popularity": 4804,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Kotys"
+    },
+    {
+      "name": "Neikea",
+      "aliases": [],
+      "popularity": 4867,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Neikea"
+    },
+    {
+      "name": "Eucleia",
+      "aliases": [],
+      "popularity": 5100,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Eucleia"
+    },
+    {
+      "name": "Homonoia",
+      "aliases": [
+        "Homonoia (mythology)"
+      ],
+      "popularity": 5462,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Homonoia (mythology)"
+    },
+    {
+      "name": "Soter",
+      "aliases": [
+        "Soter (daimon)"
+      ],
+      "popularity": 5583,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Soter (daimon)"
+    },
+    {
+      "name": "Tychon",
+      "aliases": [],
+      "popularity": 5655,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Tychon"
+    },
+    {
+      "name": "Ioke",
+      "aliases": [
+        "Ioke (mythology)"
+      ],
+      "popularity": 5656,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Ioke (mythology)"
+    },
+    {
+      "name": "Angelia",
+      "aliases": [],
+      "popularity": 5964,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Angelia"
+    },
+    {
+      "name": "Gelos",
+      "aliases": [
+        "Gelos (mythology)"
+      ],
+      "popularity": 6007,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Gelos (mythology)"
+    },
+    {
+      "name": "Krotos",
+      "aliases": [
+        "Crotus"
+      ],
+      "popularity": 6104,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Krotos"
+    },
+    {
+      "name": "Adephagia",
+      "aliases": [],
+      "popularity": 6283,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Adephagia"
+    },
+    {
+      "name": "Adikia",
+      "aliases": [],
+      "popularity": 6422,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Adikia"
+    },
+    {
+      "name": "Brizo",
+      "aliases": [],
+      "popularity": 6453,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Brizo"
+    },
+    {
+      "name": "Chaldean Hekate",
+      "aliases": [
+        "Chaldean Hecate"
+      ],
+      "popularity": 6553,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Chaldean Hekate"
+    },
+    {
+      "name": "Praxidice",
+      "aliases": [
+        "Praxidike"
+      ],
+      "popularity": 6802,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Praxidice"
+    },
+    {
+      "name": "Aeolus (son of Poseidon)",
+      "aliases": [],
+      "popularity": 6839,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Aeolus (son of Poseidon)"
+    },
+    {
+      "name": "Mene",
+      "aliases": [
+        "Menae",
+        "Mene (goddess)"
+      ],
+      "popularity": 6870,
+      "rarity": 0.61,
+      "tier": 4,
+      "wiki": "Mene (goddess)"
+    },
+    {
+      "name": "Meilichios",
+      "aliases": [
+        "Meilichius",
+        "Milichius"
+      ],
+      "popularity": 6962,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Meilichios"
+    },
+    {
+      "name": "Penia",
+      "aliases": [],
+      "popularity": 7130,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Penia"
+    },
+    {
+      "name": "Philomelus",
+      "aliases": [
+        "Bootes",
+        "Philomenus"
+      ],
+      "popularity": 7367,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Philomelus"
+    },
+    {
+      "name": "Poena",
+      "aliases": [
+        "Poenae",
+        "Poene",
+        "Poina",
+        "Poinai",
+        "Poine"
+      ],
+      "popularity": 8037,
+      "rarity": 0.59,
+      "tier": 3,
+      "wiki": "Poena"
+    },
+    {
+      "name": "Ḫepat",
+      "aliases": [
+        "Khepat"
+      ],
+      "popularity": 8145,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Ḫepat"
+    },
+    {
+      "name": "Nomos",
+      "aliases": [
+        "Nomos (mythology)"
+      ],
+      "popularity": 8452,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Nomos (mythology)"
+    },
+    {
+      "name": "Sosipolis",
+      "aliases": [
+        "Sosipolis (god)"
+      ],
+      "popularity": 8647,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Sosipolis (god)"
+    },
+    {
+      "name": "Dionysus-Osiris",
+      "aliases": [
+        "Osiris-Dionysus"
+      ],
+      "popularity": 8795,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Dionysus-Osiris"
+    },
+    {
+      "name": "Opora",
+      "aliases": [
+        "Opora (mythology)"
+      ],
+      "popularity": 8836,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Opora (mythology)"
+    },
+    {
+      "name": "Pandia",
+      "aliases": [],
+      "popularity": 9170,
+      "rarity": 0.562,
+      "tier": 3,
+      "wiki": "Pandia"
+    },
+    {
+      "name": "Heimarmene",
+      "aliases": [],
+      "popularity": 9880,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Heimarmene"
+    },
+    {
+      "name": "Phantasos",
+      "aliases": [],
+      "popularity": 11131,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Phantasos"
+    },
+    {
+      "name": "Aphaia",
+      "aliases": [
+        "Aphaea"
+      ],
+      "popularity": 11176,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Aphaia"
+    },
+    {
+      "name": "Koalemos",
+      "aliases": [],
+      "popularity": 11620,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Koalemos"
+    },
+    {
+      "name": "Kakia",
+      "aliases": [],
+      "popularity": 11792,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Kakia"
+    },
+    {
+      "name": "Benthesikyme",
+      "aliases": [
+        "Benthesicyme"
+      ],
+      "popularity": 12171,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Benthesikyme"
+    },
+    {
+      "name": "Angelos",
+      "aliases": [
+        "Angelos (mythology)",
+        "Angelus"
+      ],
+      "popularity": 12613,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Angelos (mythology)"
+    },
+    {
+      "name": "Epiales",
+      "aliases": [
+        "Epialos"
+      ],
+      "popularity": 12618,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Epiales"
+    },
+    {
+      "name": "Antheia",
+      "aliases": [],
+      "popularity": 12638,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Antheia"
+    },
+    {
+      "name": "Bendis",
+      "aliases": [],
+      "popularity": 12889,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Bendis"
+    },
+    {
+      "name": "Aceso",
+      "aliases": [],
+      "popularity": 12965,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Aceso"
+    },
+    {
+      "name": "Enodia",
+      "aliases": [
+        "Ennodia"
+      ],
+      "popularity": 13173,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Enodia"
+    },
+    {
+      "name": "Paean",
+      "aliases": [
+        "Paean (god)",
+        "Paian"
+      ],
+      "popularity": 13197,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Paean (god)"
+    },
+    {
+      "name": "Aergia",
+      "aliases": [],
+      "popularity": 13267,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Aergia"
+    },
+    {
+      "name": "Eunomia",
+      "aliases": [],
+      "popularity": 13289,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Eunomia"
+    },
+    {
+      "name": "Aidos",
+      "aliases": [],
+      "popularity": 14424,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "Aidos"
+    },
+    {
+      "name": "Telesphorus",
+      "aliases": [
+        "Telesphoros",
+        "Telesphorus (mythology)"
+      ],
+      "popularity": 14518,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Telesphorus (mythology)"
+    },
+    {
+      "name": "Phthonus",
+      "aliases": [],
+      "popularity": 14680,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Phthonus"
+    },
+    {
+      "name": "Dolus",
+      "aliases": [
+        "Dolos"
+      ],
+      "popularity": 15165,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Dolus"
+    },
+    {
+      "name": "Comus",
+      "aliases": [
+        "Komos"
+      ],
+      "popularity": 15207,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Comus"
+    },
+    {
+      "name": "Aphrodite Pandemos",
+      "aliases": [
+        "Pandemos",
+        "Pandemos Aphodite",
+        "Pandemus"
+      ],
+      "popularity": 16836,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Aphrodite Pandemos"
+    },
+    {
+      "name": "Eleos",
+      "aliases": [
+        "Mercy",
+        "Pity"
+      ],
+      "popularity": 17171,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Eleos"
+    },
+    {
+      "name": "Kourotrophos",
+      "aliases": [],
+      "popularity": 18293,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Kourotrophos"
+    },
+    {
+      "name": "Phobetor",
+      "aliases": [],
+      "popularity": 19960,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Phobetor"
+    },
+    {
+      "name": "Pheme",
+      "aliases": [
+        "Ossa"
+      ],
+      "popularity": 20574,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Pheme"
+    },
+    {
+      "name": "Enyalius",
+      "aliases": [
+        "Enyalios"
+      ],
+      "popularity": 20682,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Enyalius"
+    },
+    {
+      "name": "Limos",
+      "aliases": [],
+      "popularity": 20882,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Limos"
+    },
+    {
+      "name": "Thalia",
+      "aliases": [
+        "Thaleia",
+        "Thalia (Grace)"
+      ],
+      "popularity": 23485,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Thalia (Grace)"
+    },
+    {
+      "name": "Agdistis",
+      "aliases": [],
+      "popularity": 23858,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Agdistis"
+    },
+    {
+      "name": "Pasithea",
+      "aliases": [],
+      "popularity": 24066,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Pasithea"
+    },
+    {
+      "name": "Iacchus",
+      "aliases": [
+        "Iachus",
+        "Iakchos"
+      ],
+      "popularity": 24279,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Iacchus"
+    },
+    {
+      "name": "Britomartis",
+      "aliases": [],
+      "popularity": 24851,
+      "rarity": 0.41,
+      "tier": 3,
+      "wiki": "Britomartis"
+    },
+    {
+      "name": "Aphroditus",
+      "aliases": [],
+      "popularity": 24906,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Aphroditus"
+    },
+    {
+      "name": "Caerus",
+      "aliases": [
+        "Kairos"
+      ],
+      "popularity": 26497,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Caerus"
+    },
+    {
+      "name": "Adrasteia",
+      "aliases": [
+        "Adrasteya"
+      ],
+      "popularity": 26989,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Adrasteia"
+    },
+    {
+      "name": "Venus Anadyomene",
+      "aliases": [
+        "Anadyomene",
+        "The Burlesque of Venus"
+      ],
+      "popularity": 27152,
+      "rarity": 0.39,
+      "tier": 2,
+      "wiki": "Venus Anadyomene"
+    },
+    {
+      "name": "Euphrosyne",
+      "aliases": [],
+      "popularity": 28442,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Euphrosyne"
+    },
+    {
+      "name": "Sophrosyne",
+      "aliases": [],
+      "popularity": 29581,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Sophrosyne"
+    },
+    {
+      "name": "Himeros",
+      "aliases": [
+        "Himerus"
+      ],
+      "popularity": 30561,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Himeros"
+    },
+    {
+      "name": "Eleutheria",
+      "aliases": [],
+      "popularity": 31703,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Eleutheria"
+    },
+    {
+      "name": "Agathodaemon",
+      "aliases": [
+        "Agathodaimon",
+        "Agathos daemon"
+      ],
+      "popularity": 32379,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Agathodaemon"
+    },
+    {
+      "name": "Glycon",
+      "aliases": [
+        "Glicó"
+      ],
+      "popularity": 34519,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Glycon"
+    },
+    {
+      "name": "Lyssa",
+      "aliases": [],
+      "popularity": 37182,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Lyssa"
+    },
+    {
+      "name": "Sabazios",
+      "aliases": [
+        "Sabazius"
+      ],
+      "popularity": 37848,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "Sabazios"
+    },
+    {
+      "name": "Eirene",
+      "aliases": [
+        "Eirene (goddess)",
+        "Irene"
+      ],
+      "popularity": 37863,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Eirene (goddess)"
+    },
+    {
+      "name": "Bia",
+      "aliases": [
+        "Bia (mythology)"
+      ],
+      "popularity": 37958,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Bia (mythology)"
+    },
+    {
+      "name": "Zelus",
+      "aliases": [],
+      "popularity": 39652,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Zelus"
+    },
+    {
+      "name": "Lachesis",
+      "aliases": [
+        "Lakhesis"
+      ],
+      "popularity": 39783,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Lachesis"
+    },
+    {
+      "name": "Enyo",
+      "aliases": [],
+      "popularity": 43143,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Enyo"
+    },
+    {
+      "name": "Dike",
+      "aliases": [
+        "Dicea",
+        "Dike (mythology)"
+      ],
+      "popularity": 43180,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Dike (mythology)"
+    },
+    {
+      "name": "Aglaia",
+      "aliases": [
+        "Aglaea",
+        "Aglaia (Grace)"
+      ],
+      "popularity": 46100,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Aglaia (Grace)"
+    },
+    {
+      "name": "Harpocrates",
+      "aliases": [],
+      "popularity": 47064,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Harpocrates"
+    },
+    {
+      "name": "Despoina",
+      "aliases": [
+        "Despina",
+        "Despoena"
+      ],
+      "popularity": 48844,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Despoina"
+    },
+    {
+      "name": "Hymen",
+      "aliases": [
+        "Hymen (god)"
+      ],
+      "popularity": 49669,
+      "rarity": 0.305,
+      "tier": 2,
+      "wiki": "Hymen (god)"
+    },
+    {
+      "name": "Phosphorus",
+      "aliases": [
+        "Eosphorus",
+        "Heosphoros",
+        "Lucifer",
+        "Phosphorus (morning star)"
+      ],
+      "popularity": 50507,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Phosphorus (morning star)"
+    },
+    {
+      "name": "Momus",
+      "aliases": [],
+      "popularity": 54599,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Momus"
+    },
+    {
+      "name": "Hygieia",
+      "aliases": [
+        "Hygeia",
+        "Hygiea"
+      ],
+      "popularity": 54656,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Hygieia"
+    },
+    {
+      "name": "Hesperus",
+      "aliases": [],
+      "popularity": 54683,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Hesperus"
+    },
+    {
+      "name": "Anteros",
+      "aliases": [],
+      "popularity": 55318,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Anteros"
+    },
+    {
+      "name": "Plutus",
+      "aliases": [
+        "Ploûtos"
+      ],
+      "popularity": 55325,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Plutus"
+    },
+    {
+      "name": "Hemera",
+      "aliases": [],
+      "popularity": 57688,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Hemera"
+    },
+    {
+      "name": "Panacea",
+      "aliases": [
+        "Panakeia"
+      ],
+      "popularity": 58438,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Panacea"
+    },
+    {
+      "name": "Moros",
+      "aliases": [
+        "Morus"
+      ],
+      "popularity": 59745,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Moros"
+    },
+    {
+      "name": "Harmonia",
+      "aliases": [
+        "Harmony"
+      ],
+      "popularity": 62122,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Harmonia"
+    },
+    {
+      "name": "Aristaeus",
+      "aliases": [
+        "Aristæus",
+        "Aristaios"
+      ],
+      "popularity": 63800,
+      "rarity": 0.252,
+      "tier": 2,
+      "wiki": "Aristaeus"
+    },
+    {
+      "name": "Clotho",
+      "aliases": [
+        "Klotho"
+      ],
+      "popularity": 64011,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Clotho"
+    },
+    {
+      "name": "Aion",
+      "aliases": [
+        "Aion (deity)"
+      ],
+      "popularity": 69558,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Aion (deity)"
+    },
+    {
+      "name": "Eileithyia",
+      "aliases": [
+        "Eilithyia",
+        "Ilithia",
+        "Ilithyia"
+      ],
+      "popularity": 75199,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Eileithyia"
+    },
+    {
+      "name": "Elpis",
+      "aliases": [
+        "Elpis (mythology)"
+      ],
+      "popularity": 78660,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Elpis (mythology)"
+    },
+    {
+      "name": "Atropos",
+      "aliases": [],
+      "popularity": 79356,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Atropos"
+    },
+    {
+      "name": "Arete",
+      "aliases": [],
+      "popularity": 81671,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Arete"
+    },
+    {
+      "name": "Aeolus (son of Hippotes)",
+      "aliases": [
+        "Eolus",
+        "Æolus"
+      ],
+      "popularity": 93185,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Aeolus (son of Hippotes)"
+    },
+    {
+      "name": "Deimos",
+      "aliases": [
+        "Deimos (deity)"
+      ],
+      "popularity": 95678,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Deimos (deity)"
+    },
+    {
+      "name": "Phobos",
+      "aliases": [
+        "Phobos (mythology)",
+        "Timor"
+      ],
+      "popularity": 96498,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Phobos (mythology)"
+    },
+    {
+      "name": "Serapis",
+      "aliases": [
+        "Sarapis"
+      ],
+      "popularity": 105530,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Serapis"
+    },
+    {
+      "name": "Astraea",
+      "aliases": [
+        "Astræa",
+        "Astrea"
+      ],
+      "popularity": 114414,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Astraea"
+    },
+    {
+      "name": "Hebe",
+      "aliases": [
+        "Hebe (mythology)"
+      ],
+      "popularity": 128776,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Hebe (mythology)"
+    },
+    {
+      "name": "Hypnos",
+      "aliases": [],
+      "popularity": 130261,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Hypnos"
+    },
+    {
+      "name": "Iris",
+      "aliases": [
+        "Iris (mythology)"
+      ],
+      "popularity": 133443,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "Iris (mythology)"
+    },
+    {
+      "name": "Morpheus",
+      "aliases": [],
+      "popularity": 142371,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Morpheus"
+    },
+    {
+      "name": "Amphitrite",
+      "aliases": [],
+      "popularity": 143644,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Amphitrite"
+    },
+    {
+      "name": "Psyche",
+      "aliases": [
+        "Psyche (mythology)"
+      ],
+      "popularity": 158516,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Psyche (mythology)"
+    },
+    {
+      "name": "Hermaphroditus",
+      "aliases": [
+        "Hermaphroditos"
+      ],
+      "popularity": 175848,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Hermaphroditus"
+    },
+    {
+      "name": "Melinoë",
+      "aliases": [],
+      "popularity": 203005,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Melinoë"
+    },
+    {
+      "name": "Astarte",
+      "aliases": [
+        "Ashtaroth",
+        "Ashtoreth",
+        "ʿAṯtart"
+      ],
+      "popularity": 207219,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Astarte"
+    },
+    {
+      "name": "Orion",
+      "aliases": [
+        "Orion (mythology)"
+      ],
+      "popularity": 209027,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Orion (mythology)"
+    },
+    {
+      "name": "Echidna",
+      "aliases": [
+        "Echidna (mythology)",
+        "Mother of Monsters"
+      ],
+      "popularity": 209145,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Echidna (mythology)"
+    },
+    {
+      "name": "Cybele",
+      "aliases": [],
+      "popularity": 209975,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Cybele"
+    },
+    {
+      "name": "Zagreus",
+      "aliases": [],
+      "popularity": 212654,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Zagreus"
+    },
+    {
+      "name": "Eos",
+      "aliases": [
+        "Erigeneia",
+        "Rhododactylos"
+      ],
+      "popularity": 220243,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Eos"
+    },
+    {
+      "name": "Kratos",
+      "aliases": [
+        "Cratos",
+        "Cratus",
+        "Kratos (mythology)",
+        "Potestas"
+      ],
+      "popularity": 221193,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Kratos (mythology)"
+    },
+    {
+      "name": "Charon",
+      "aliases": [
+        "Kharon"
+      ],
+      "popularity": 251652,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Charon"
+    },
+    {
+      "name": "Thanatos",
+      "aliases": [],
+      "popularity": 263105,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Thanatos"
+    },
+    {
+      "name": "Asclepius",
+      "aliases": [
+        "Aesculapius",
+        "Asklēpiós",
+        "Æsculapius"
+      ],
+      "popularity": 263492,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Asclepius"
+    },
+    {
+      "name": "Eris",
+      "aliases": [
+        "Eris (mythology)",
+        "Goddess of Discord",
+        "Strife"
+      ],
+      "popularity": 277420,
+      "rarity": 0.11,
+      "tier": 1,
+      "wiki": "Eris (mythology)"
+    },
+    {
+      "name": "Nemesis",
+      "aliases": [
+        "Rhamnousia",
+        "Rhamnusia"
+      ],
+      "popularity": 291813,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Nemesis"
+    },
+    {
+      "name": "Adonis",
+      "aliases": [],
+      "popularity": 293442,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Adonis"
+    },
+    {
+      "name": "Nike",
+      "aliases": [
+        "Nike (mythology)"
+      ],
+      "popularity": 318163,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Nike (mythology)"
+    },
+    {
+      "name": "Selene",
+      "aliases": [],
+      "popularity": 320909,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Selene"
+    },
+    {
+      "name": "Pan",
+      "aliases": [
+        "Pan (god)"
+      ],
+      "popularity": 368783,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Pan (god)"
+    },
+    {
+      "name": "Hestia",
+      "aliases": [],
+      "popularity": 372721,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Hestia"
+    },
+    {
+      "name": "Eros",
+      "aliases": [
+        "Cupid"
+      ],
+      "popularity": 373871,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Eros"
+    },
+    {
+      "name": "Demeter",
+      "aliases": [
+        "Deo"
+      ],
+      "popularity": 506471,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Demeter"
+    },
+    {
+      "name": "Helios",
+      "aliases": [
+        "Helius"
+      ],
+      "popularity": 540337,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Helios"
+    },
+    {
+      "name": "Hephaestus",
+      "aliases": [
+        "Hephaestos"
+      ],
+      "popularity": 553200,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Hephaestus"
+    },
+    {
+      "name": "Ares",
+      "aliases": [],
+      "popularity": 601886,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Ares"
+    },
+    {
+      "name": "Hera",
+      "aliases": [],
+      "popularity": 630615,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Hera"
+    },
+    {
+      "name": "Hades",
+      "aliases": [
+        "Plouton",
+        "Pluton"
+      ],
+      "popularity": 705304,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Hades"
+    },
+    {
+      "name": "Poseidon",
+      "aliases": [
+        "Posidon"
+      ],
+      "popularity": 735061,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Poseidon"
+    },
+    {
+      "name": "Hecate",
+      "aliases": [
+        "Hecat",
+        "Hekate"
+      ],
+      "popularity": 787013,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Hecate"
+    },
+    {
+      "name": "Persephone",
+      "aliases": [
+        "Kore"
+      ],
+      "popularity": 830258,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Persephone"
+    },
+    {
+      "name": "Dionysus",
+      "aliases": [],
+      "popularity": 927920,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Dionysus"
+    },
+    {
+      "name": "Aphrodite",
+      "aliases": [
+        "Cytherea",
+        "Erycina"
+      ],
+      "popularity": 1026141,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Aphrodite"
+    },
+    {
+      "name": "Apollo",
+      "aliases": [
+        "Apeilōn",
+        "Apellōn",
+        "Aploun",
+        "Apollōn",
+        "Phoebus"
+      ],
+      "popularity": 1195472,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Apollo"
+    },
+    {
+      "name": "Zeus",
+      "aliases": [
+        "Dias",
+        "Jove",
+        "Jupiter"
+      ],
+      "popularity": 1252423,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Zeus"
+    },
+    {
+      "name": "Athena",
+      "aliases": [
+        "Athina"
+      ],
+      "popularity": 1309654,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Athena"
+    },
+    {
+      "name": "Artemis",
+      "aliases": [],
+      "popularity": 1352174,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Artemis"
+    },
+    {
+      "name": "Circe",
+      "aliases": [
+        "Kírkê"
+      ],
+      "popularity": 1778643,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Circe"
+    }
+  ]
+}

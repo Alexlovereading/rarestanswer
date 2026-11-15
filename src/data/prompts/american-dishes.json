@@ -1,0 +1,487 @@
+{
+  "id": "american-dishes",
+  "slug": "american-dishes",
+  "category": "food",
+  "question": "Name an American dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Wild rice salad",
+      "aliases": [],
+      "popularity": 1409,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Wild rice salad"
+    },
+    {
+      "name": "South American",
+      "aliases": [
+        "South American (sandwich)"
+      ],
+      "popularity": 1696,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "South American (sandwich)"
+    },
+    {
+      "name": "Evil jungle prince",
+      "aliases": [
+        "evil prince tofu",
+        "loving jungle princess"
+      ],
+      "popularity": 2042,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Evil jungle prince"
+    },
+    {
+      "name": "Walleye sandwich",
+      "aliases": [],
+      "popularity": 2425,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Walleye sandwich"
+    },
+    {
+      "name": "Crawfish Monica",
+      "aliases": [],
+      "popularity": 2681,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Crawfish Monica"
+    },
+    {
+      "name": "Celery Victor",
+      "aliases": [],
+      "popularity": 3031,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Celery Victor"
+    },
+    {
+      "name": "Hot beef commercial",
+      "aliases": [],
+      "popularity": 3643,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Hot beef commercial"
+    },
+    {
+      "name": "Desperation pie",
+      "aliases": [],
+      "popularity": 3923,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Desperation pie"
+    },
+    {
+      "name": "Negimaki",
+      "aliases": [],
+      "popularity": 4011,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Negimaki"
+    },
+    {
+      "name": "Hot dago",
+      "aliases": [],
+      "popularity": 4427,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Hot dago"
+    },
+    {
+      "name": "Chocolate pizza",
+      "aliases": [
+        "Chocolate pizza dish"
+      ],
+      "popularity": 8034,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Chocolate pizza"
+    },
+    {
+      "name": "Sushi burrito",
+      "aliases": [
+        "sushirrito"
+      ],
+      "popularity": 8392,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Sushi burrito"
+    },
+    {
+      "name": "Shrimp creole",
+      "aliases": [],
+      "popularity": 8954,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Shrimp creole"
+    },
+    {
+      "name": "Beef and broccoli",
+      "aliases": [
+        "beef with broccoli"
+      ],
+      "popularity": 11084,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Beef and broccoli"
+    },
+    {
+      "name": "Pizza puff",
+      "aliases": [],
+      "popularity": 11388,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Pizza puff"
+    },
+    {
+      "name": "Salt potatoes",
+      "aliases": [
+        "boiled potatoes"
+      ],
+      "popularity": 13696,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Salt potatoes"
+    },
+    {
+      "name": "Slinger",
+      "aliases": [
+        "Slinger (dish)"
+      ],
+      "popularity": 15122,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Slinger (dish)"
+    },
+    {
+      "name": "Disco fries",
+      "aliases": [],
+      "popularity": 16264,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Disco fries"
+    },
+    {
+      "name": "Tetrazzini",
+      "aliases": [],
+      "popularity": 18328,
+      "rarity": 0.64,
+      "tier": 4,
+      "wiki": "Tetrazzini"
+    },
+    {
+      "name": "City chicken",
+      "aliases": [],
+      "popularity": 21855,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "City chicken"
+    },
+    {
+      "name": "Crab Louie",
+      "aliases": [
+        "Crab Louis Salad",
+        "King of Salads"
+      ],
+      "popularity": 23627,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Crab Louie"
+    },
+    {
+      "name": "Luther Burger",
+      "aliases": [
+        "donut burger",
+        "Luther Burgers"
+      ],
+      "popularity": 24510,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Luther Burger"
+    },
+    {
+      "name": "Bean pie",
+      "aliases": [
+        "Muslim bean pie"
+      ],
+      "popularity": 27087,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Bean pie"
+    },
+    {
+      "name": "Cake pop",
+      "aliases": [],
+      "popularity": 27508,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Cake pop"
+    },
+    {
+      "name": "Dishwasher salmon",
+      "aliases": [
+        "fishwasher"
+      ],
+      "popularity": 38369,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Dishwasher salmon"
+    },
+    {
+      "name": "Red beans and rice",
+      "aliases": [],
+      "popularity": 39215,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Red beans and rice"
+    },
+    {
+      "name": "Crab cake",
+      "aliases": [
+        "crab cakes",
+        "crabcake"
+      ],
+      "popularity": 39599,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Crab cake"
+    },
+    {
+      "name": "Spaghetti and meatballs",
+      "aliases": [
+        "spaghetti with meatballs"
+      ],
+      "popularity": 40585,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Spaghetti and meatballs"
+    },
+    {
+      "name": "Dagwood sandwich",
+      "aliases": [
+        "Dagwood"
+      ],
+      "popularity": 53196,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Dagwood sandwich"
+    },
+    {
+      "name": "Étouffée",
+      "aliases": [],
+      "popularity": 71142,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Étouffée"
+    },
+    {
+      "name": "Loco moco",
+      "aliases": [],
+      "popularity": 79731,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Loco moco"
+    },
+    {
+      "name": "Muffuletta",
+      "aliases": [],
+      "popularity": 86887,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Muffuletta"
+    },
+    {
+      "name": "Orange chicken",
+      "aliases": [],
+      "popularity": 97334,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Orange chicken"
+    },
+    {
+      "name": "Biscuits and gravy",
+      "aliases": [
+        "biscuits with gravy",
+        "gravy and biscuits"
+      ],
+      "popularity": 105510,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Biscuits and gravy"
+    },
+    {
+      "name": "Hushpuppy",
+      "aliases": [],
+      "popularity": 119713,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Hushpuppy"
+    },
+    {
+      "name": "Turducken",
+      "aliases": [
+        "three bird roast"
+      ],
+      "popularity": 121867,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Turducken"
+    },
+    {
+      "name": "Corn dog",
+      "aliases": [
+        "corndog"
+      ],
+      "popularity": 125275,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Corn dog"
+    },
+    {
+      "name": "California roll",
+      "aliases": [],
+      "popularity": 128031,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "California roll"
+    },
+    {
+      "name": "Monte Cristo sandwich",
+      "aliases": [],
+      "popularity": 128304,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Monte Cristo sandwich"
+    },
+    {
+      "name": "S'more",
+      "aliases": [
+        "s'mores"
+      ],
+      "popularity": 169244,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "S'more"
+    },
+    {
+      "name": "Club sandwich",
+      "aliases": [
+        "clubhouse sandwich"
+      ],
+      "popularity": 180748,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Club sandwich"
+    },
+    {
+      "name": "Salisbury steak",
+      "aliases": [],
+      "popularity": 208401,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Salisbury steak"
+    },
+    {
+      "name": "Poke",
+      "aliases": [
+        "Ahi poke",
+        "Poke (dish)",
+        "Poke Rice",
+        "poki"
+      ],
+      "popularity": 213418,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Poke (dish)"
+    },
+    {
+      "name": "Peanut butter",
+      "aliases": [],
+      "popularity": 220103,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "Peanut butter"
+    },
+    {
+      "name": "Pancake",
+      "aliases": [
+        "flapjack",
+        "griddlecake",
+        "hotcake",
+        "serguio massa"
+      ],
+      "popularity": 229387,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Pancake"
+    },
+    {
+      "name": "Red velvet cake",
+      "aliases": [],
+      "popularity": 249697,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Red velvet cake"
+    },
+    {
+      "name": "Fettuccine Alfredo",
+      "aliases": [],
+      "popularity": 317357,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Fettuccine Alfredo"
+    },
+    {
+      "name": "Eggs Benedict",
+      "aliases": [
+        "eggs Benny"
+      ],
+      "popularity": 335954,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Eggs Benedict"
+    },
+    {
+      "name": "Carbonara",
+      "aliases": [
+        "pasta alla carbonara",
+        "spaghetti alla carbonara",
+        "spaghetti carbonara"
+      ],
+      "popularity": 356454,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Carbonara"
+    },
+    {
+      "name": "Hot dog",
+      "aliases": [
+        "coney",
+        "frankfurter",
+        "glizzy",
+        "hotdog",
+        "wiener"
+      ],
+      "popularity": 474869,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Hot dog"
+    },
+    {
+      "name": "Hamburger",
+      "aliases": [
+        "beef hamburger",
+        "burger",
+        "hamburger sandwich",
+        "Hamburgh ſauſage"
+      ],
+      "popularity": 579612,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Hamburger"
+    }
+  ]
+}

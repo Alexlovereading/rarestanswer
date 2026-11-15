@@ -1,0 +1,501 @@
+{
+  "id": "canid-species",
+  "slug": "canid-species",
+  "category": "animals",
+  "question": "Name a species in the dog family",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Canis adustus",
+      "aliases": [],
+      "popularity": 298,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Canis adustus"
+    },
+    {
+      "name": "Megacyon merriami",
+      "aliases": [
+        "Merriam's dog"
+      ],
+      "popularity": 484,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Megacyon merriami"
+    },
+    {
+      "name": "Canis mesomelas",
+      "aliases": [],
+      "popularity": 630,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Canis mesomelas"
+    },
+    {
+      "name": "Nyctereutes donnezani",
+      "aliases": [],
+      "popularity": 1186,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Nyctereutes donnezani"
+    },
+    {
+      "name": "Canis falconeri",
+      "aliases": [],
+      "popularity": 1268,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Canis falconeri"
+    },
+    {
+      "name": "Cozumel fox",
+      "aliases": [],
+      "popularity": 5776,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Cozumel fox"
+    },
+    {
+      "name": "Sechuran fox",
+      "aliases": [
+        "Lycalopex sechurae",
+        "Sechura fox"
+      ],
+      "popularity": 9020,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Sechuran fox"
+    },
+    {
+      "name": "Hoary fox",
+      "aliases": [
+        "Lycalopex vetulus"
+      ],
+      "popularity": 13497,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Hoary fox"
+    },
+    {
+      "name": "Andean wolf",
+      "aliases": [
+        "Dasycyon hagenbecki",
+        "Hagenbeck's Wolf"
+      ],
+      "popularity": 15682,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Andean wolf"
+    },
+    {
+      "name": "Pale fox",
+      "aliases": [
+        "Vulpes pallida"
+      ],
+      "popularity": 19227,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Pale fox"
+    },
+    {
+      "name": "Darwin's fox",
+      "aliases": [
+        "Lycalopex fulvipes"
+      ],
+      "popularity": 22837,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Darwin's fox"
+    },
+    {
+      "name": "South American gray fox",
+      "aliases": [
+        "Chilla",
+        "Lycalopex griseus",
+        "South American grey fox"
+      ],
+      "popularity": 23301,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "South American gray fox"
+    },
+    {
+      "name": "Blanford's fox",
+      "aliases": [
+        "Vulpes cana"
+      ],
+      "popularity": 26996,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Blanford's fox"
+    },
+    {
+      "name": "Cape fox",
+      "aliases": [
+        "Vulpes chama"
+      ],
+      "popularity": 29506,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Cape fox"
+    },
+    {
+      "name": "Pampas fox",
+      "aliases": [
+        "Lycalopex gymnocercus"
+      ],
+      "popularity": 32768,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Pampas fox"
+    },
+    {
+      "name": "Side-striped jackal",
+      "aliases": [
+        "Lupulella adusta"
+      ],
+      "popularity": 36862,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Side-striped jackal"
+    },
+    {
+      "name": "Short-eared dog",
+      "aliases": [
+        "Atelocynus microtis",
+        "Small-eared zorro"
+      ],
+      "popularity": 37412,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Short-eared dog"
+    },
+    {
+      "name": "Bengal fox",
+      "aliases": [
+        "Black-tailed fox",
+        "Indian Fox",
+        "Vulpes bengalensis"
+      ],
+      "popularity": 38400,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Bengal fox"
+    },
+    {
+      "name": "Rüppell's fox",
+      "aliases": [
+        "Rüppel's fox",
+        "Vulpes rueppellii"
+      ],
+      "popularity": 41723,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Rüppell's fox"
+    },
+    {
+      "name": "Himalayan wolf",
+      "aliases": [
+        "Canis himalayensis"
+      ],
+      "popularity": 41869,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Himalayan wolf"
+    },
+    {
+      "name": "Canis familiaris",
+      "aliases": [
+        "dog",
+        "domestic dog"
+      ],
+      "popularity": 43091,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Canis familiaris"
+    },
+    {
+      "name": "Swift fox",
+      "aliases": [
+        "Vulpes velox"
+      ],
+      "popularity": 45053,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Swift fox"
+    },
+    {
+      "name": "Crab-eating fox",
+      "aliases": [
+        "Cerdocyon thous",
+        "common fox",
+        "forest fox",
+        "wood fox"
+      ],
+      "popularity": 49415,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Crab-eating fox"
+    },
+    {
+      "name": "Culpeo",
+      "aliases": [
+        "Lycalopex culpaeus"
+      ],
+      "popularity": 55578,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Culpeo"
+    },
+    {
+      "name": "Tibetan fox",
+      "aliases": [
+        "Tibetan sand fox",
+        "Vulpes ferrilata"
+      ],
+      "popularity": 55620,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Tibetan fox"
+    },
+    {
+      "name": "Kit fox",
+      "aliases": [
+        "Vulpes macrotis"
+      ],
+      "popularity": 64388,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Kit fox"
+    },
+    {
+      "name": "Island fox",
+      "aliases": [
+        "Urocyon littoralis"
+      ],
+      "popularity": 64515,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Island fox"
+    },
+    {
+      "name": "Corsac fox",
+      "aliases": [
+        "Vulpes corsac"
+      ],
+      "popularity": 69401,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Corsac fox"
+    },
+    {
+      "name": "African wolf",
+      "aliases": [
+        "Canis lupaster"
+      ],
+      "popularity": 73383,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "African wolf"
+    },
+    {
+      "name": "Ethiopian wolf",
+      "aliases": [
+        "Canis simensis",
+        "kuberow",
+        "Red jackal",
+        "Simian jackal",
+        "Simien fox"
+      ],
+      "popularity": 79270,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Ethiopian wolf"
+    },
+    {
+      "name": "Bat-eared fox",
+      "aliases": [
+        "big-eared fox",
+        "black-eared fox",
+        "Otocyon megalotis"
+      ],
+      "popularity": 80957,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Bat-eared fox"
+    },
+    {
+      "name": "Black-backed jackal",
+      "aliases": [
+        "Lupulella mesomelas"
+      ],
+      "popularity": 80982,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Black-backed jackal"
+    },
+    {
+      "name": "Bush dog",
+      "aliases": [
+        "Speothos venaticus"
+      ],
+      "popularity": 124883,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Bush dog"
+    },
+    {
+      "name": "Gray fox",
+      "aliases": [
+        "Grey fox",
+        "Tree fox",
+        "Urocyon cinereoargenteus"
+      ],
+      "popularity": 159053,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Gray fox"
+    },
+    {
+      "name": "Golden jackal",
+      "aliases": [
+        "C. aureus",
+        "Canis aureus",
+        "common jackal"
+      ],
+      "popularity": 204836,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Golden jackal"
+    },
+    {
+      "name": "Common raccoon dog",
+      "aliases": [
+        "mangut",
+        "Nyctereutes procyonoides",
+        "raccoon dog"
+      ],
+      "popularity": 233084,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Common raccoon dog"
+    },
+    {
+      "name": "Dhole",
+      "aliases": [
+        "Asian wild dog",
+        "Asiatic wild dog",
+        "Cuon alpinus",
+        "red dog",
+        "red wild dog"
+      ],
+      "popularity": 283041,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Dhole"
+    },
+    {
+      "name": "Fennec fox",
+      "aliases": [
+        "fennec",
+        "Fennecus zerda",
+        "Vulpes zerda"
+      ],
+      "popularity": 297501,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Fennec fox"
+    },
+    {
+      "name": "Arctic fox",
+      "aliases": [
+        "Alopex",
+        "Alopex lagopus",
+        "blue fox",
+        "Canis lagopus",
+        "polar fox",
+        "snow fox",
+        "Vulpes lagopus"
+      ],
+      "popularity": 339046,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Arctic fox"
+    },
+    {
+      "name": "Maned wolf",
+      "aliases": [
+        "Chrysocyon brachyurus"
+      ],
+      "popularity": 357044,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Maned wolf"
+    },
+    {
+      "name": "African wild dog",
+      "aliases": [
+        "African painted dog",
+        "hyena dog",
+        "Lycaon pictus",
+        "painted dog"
+      ],
+      "popularity": 362790,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "African wild dog"
+    },
+    {
+      "name": "Japanese raccoon dog",
+      "aliases": [
+        "Nyctereutes viverrinus"
+      ],
+      "popularity": 449465,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Japanese raccoon dog"
+    },
+    {
+      "name": "Red fox",
+      "aliases": [
+        "Eurasian fox",
+        "European fox",
+        "fox",
+        "Vulpes vulpes"
+      ],
+      "popularity": 537401,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Red fox"
+    },
+    {
+      "name": "Coyote",
+      "aliases": [
+        "American jackal",
+        "brush wolf",
+        "Canis latrans",
+        "prairie wolf"
+      ],
+      "popularity": 729949,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Coyote"
+    },
+    {
+      "name": "Wolf",
+      "aliases": [
+        "Canis lupus",
+        "gray wolf",
+        "gray wolves",
+        "grey wolf",
+        "grey wolves",
+        "timber wolf",
+        "timber wolves"
+      ],
+      "popularity": 958049,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Wolf"
+    }
+  ]
+}

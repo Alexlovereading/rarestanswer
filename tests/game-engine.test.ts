@@ -31,9 +31,11 @@ import {
   commonAnswers,
   couldHaveNamedLine,
   countRarer,
+  placementLine,
   promptDataPath,
   PROMPT_INDEX_PATH,
   rarestAnswers,
+  revealLists,
   toClientPrompt,
 } from '~/lib/game/prompts';
 import {
@@ -56,6 +58,9 @@ import {
   readStats,
   recordDaily,
   recordFreeRound,
+  SCORE_HISTORY_LIMIT,
+  scoreDistribution,
+  tierDistribution,
   writeStats,
   type DailySave,
   type KeyValueStore,
@@ -298,6 +303,7 @@ describe('stats storage', () => {
     expect(stats.bestStreak).toBe(1);
     expect(stats.tierHits[5]).toBe(1);
     expect(stats.tierHits[0]).toBe(1);
+    expect(stats.dailyScores).toEqual([100]);
     expect(recordDaily(stats, { dateKey: '2026-11-14', score: 5, tiers: [2] })).toBe(stats);
     stats = recordDaily(stats, { dateKey: '2026-11-15', score: 10, tiers: [2] });
     expect(stats.streak).toBe(2);
@@ -306,6 +312,60 @@ describe('stats storage', () => {
     const free = recordFreeRound(stats, { score: 40, tiers: [4] });
     expect(free.streak).toBe(1);
     expect(free.totalPoints).toBe(stats.totalPoints + 40);
+    expect(free.dailyScores).toEqual(stats.dailyScores);
+  });
+
+  test('daily scores stay capped and old saves without the field still parse', () => {
+    let stats = defaultStats();
+    for (let day = 0; day < SCORE_HISTORY_LIMIT + 3; day++) {
+      const date = `2026-01-${String((day % 28) + 1).padStart(2, '0')}`;
+      stats = recordDaily(
+        { ...stats, lastDailyDate: day === 0 ? null : '1999-01-01' },
+        { dateKey: date, score: day, tiers: [1] },
+      );
+    }
+    expect(stats.dailyScores).toHaveLength(SCORE_HISTORY_LIMIT);
+    expect(stats.dailyScores[0]).toBe(3);
+    expect(stats.dailyScores.at(-1)).toBe(SCORE_HISTORY_LIMIT + 2);
+    const legacy = {
+      version: 1,
+      streak: 4,
+      bestStreak: 4,
+      lastDailyDate: '2026-11-14',
+      dailyPlayed: 4,
+      roundsPlayed: 4,
+      totalPoints: 40,
+      bestDailyScore: 20,
+      tierHits: [1, 0, 0, 0, 0, 0],
+    };
+    expect(parseStats(legacy)?.dailyScores).toEqual([]);
+    expect(parseStats(legacy)?.streak).toBe(4);
+    expect(parseStats({ ...legacy, dailyScores: [5, 10] })?.dailyScores).toEqual([5, 10]);
+    expect(parseStats({ ...legacy, dailyScores: 'nope' })).toBeNull();
+    expect(parseStats({ ...legacy, dailyScores: [-1] })).toBeNull();
+    const long = Array.from({ length: SCORE_HISTORY_LIMIT + 5 }, (_, index) => index);
+    expect(parseStats({ ...legacy, dailyScores: long })?.dailyScores).toEqual(
+      long.slice(5),
+    );
+  });
+
+  test('guess and score charts use the peak bar as full width', () => {
+    expect(tierDistribution([0, 0, 0, 2, 0, 4]).map((row) => row.share)).toEqual([
+      0, 0, 0, 0.5, 0, 1,
+    ]);
+    expect(tierDistribution([0, 0, 0, 0, 0, 0]).every((row) => row.share === 0)).toBe(true);
+    expect(
+      scoreDistribution([0, 49, 50, 149, 150, 499, 500, 800]).map((row) => [row.key, row.count]),
+    ).toEqual([
+      ['0', 1],
+      ['1-49', 1],
+      ['50-149', 2],
+      ['150-299', 1],
+      ['300-499', 1],
+      ['500+', 2],
+    ]);
+    expect(scoreDistribution([]).every((row) => row.share === 0)).toBe(true);
+    expect(scoreDistribution([10, 10, 5]).find((row) => row.key === '1-49')?.share).toBe(1);
   });
 
   test('corrupt payloads and throwing stores fall back safely', () => {
@@ -313,7 +373,13 @@ describe('stats storage', () => {
     expect(parseStats({ version: 2 })).toBeNull();
     expect(parseStats({ version: 1, streak: -1 })).toBeNull();
     expect(parseSettings({ version: 1, noTimer: 'yes' })).toBeNull();
-    expect(parseSettings({ version: 1, noTimer: true })).toEqual({ version: 1, noTimer: true });
+    expect(parseSettings({ version: 1, noTimer: true })).toEqual({
+      version: 1,
+      noTimer: true,
+      seenRules: false,
+    });
+    expect(parseSettings({ version: 1, noTimer: false, seenRules: true })?.seenRules).toBe(true);
+    expect(parseSettings({ version: 1, noTimer: false, seenRules: 'yes' })).toBeNull();
     const broken = memoryStore();
     broken.getItem = () => {
       throw new Error('denied');
@@ -423,6 +489,15 @@ describe('share text and client payload', () => {
       'Chimpanzee',
     ]);
     expect(couldHaveNamedLine(8)).toBe('You could have named any of 8 answers.');
+    expect(revealLists(client.answers).complete).toBe(true);
+    expect(revealLists(client.answers).common).toEqual([]);
+    expect(revealLists(client.answers, 3).complete).toBe(false);
+    expect(revealLists(client.answers, 3).rarest).toHaveLength(3);
+    expect(revealLists(client.answers, 3).common).toHaveLength(3);
+    expect(placementLine(1, 8)).toBe('Rarest of 8.');
+    expect(placementLine(2, 8)).toBe('Rank 2 of 8. 1 answer is rarer than yours.');
+    expect(placementLine(4, 8)).toBe('Rank 4 of 8. 3 answers are rarer than yours.');
+    expect(placementLine(1, 1)).toBe('Only one accepted answer.');
     expect(countRarer(client.answers, 0)).toBe(7);
     expect(
       toClientPrompt({ slug: 'ok', category: 'animals', question: 'Q', answers: [] }),

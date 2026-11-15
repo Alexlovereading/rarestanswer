@@ -1,0 +1,718 @@
+{
+  "id": "human-bones",
+  "slug": "human-bones",
+  "category": "science",
+  "question": "Name a human bone",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Intermediate phalanges",
+      "aliases": [
+        "intermediate phalanx",
+        "middle phalangeal bone of hand",
+        "middle phalanges",
+        "middle phalanx",
+        "middle phalanx of finger",
+        "middle phalanx of hand",
+        "phalange"
+      ],
+      "popularity": 1381,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Intermediate phalanges"
+    },
+    {
+      "name": "Interparietal bone",
+      "aliases": [
+        "inca bone",
+        "os interparietale"
+      ],
+      "popularity": 2489,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Interparietal bone"
+    },
+    {
+      "name": "Third metatarsal bone",
+      "aliases": [],
+      "popularity": 2542,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Third metatarsal bone"
+    },
+    {
+      "name": "Distal phalanges",
+      "aliases": [
+        "distal phalange",
+        "distal phalanx"
+      ],
+      "popularity": 2575,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Distal phalanges"
+    },
+    {
+      "name": "Fourth metatarsal bone",
+      "aliases": [],
+      "popularity": 2938,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Fourth metatarsal bone"
+    },
+    {
+      "name": "Second metatarsal bone",
+      "aliases": [],
+      "popularity": 3368,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Second metatarsal bone"
+    },
+    {
+      "name": "Trapezoid bone",
+      "aliases": [
+        "lesser multangular bone"
+      ],
+      "popularity": 5267,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Trapezoid bone"
+    },
+    {
+      "name": "Capitate bone",
+      "aliases": [],
+      "popularity": 6077,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Capitate bone"
+    },
+    {
+      "name": "Wormian bones",
+      "aliases": [
+        "intrasutural bone",
+        "sutural bone",
+        "wormian bone"
+      ],
+      "popularity": 7312,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Wormian bones"
+    },
+    {
+      "name": "Cuneiform bones",
+      "aliases": [],
+      "popularity": 9602,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Cuneiform bones"
+    },
+    {
+      "name": "Lunate bone",
+      "aliases": [],
+      "popularity": 10916,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Lunate bone"
+    },
+    {
+      "name": "Triquetral bone",
+      "aliases": [
+        "cornered bone",
+        "pyramidal bone",
+        "triangular bone",
+        "triquetrum"
+      ],
+      "popularity": 10916,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Triquetral bone"
+    },
+    {
+      "name": "Cuboid bone",
+      "aliases": [],
+      "popularity": 10921,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Cuboid bone"
+    },
+    {
+      "name": "Human sternum",
+      "aliases": [],
+      "popularity": 11621,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Human sternum"
+    },
+    {
+      "name": "Trapezium",
+      "aliases": [
+        "Trapezium (bone)"
+      ],
+      "popularity": 12100,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Trapezium (bone)"
+    },
+    {
+      "name": "Inferior nasal concha",
+      "aliases": [
+        "inferior nasal concha bone",
+        "inferior nasal turbinate",
+        "inferior turbinated bone"
+      ],
+      "popularity": 12299,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Inferior nasal concha"
+    },
+    {
+      "name": "Palatine bone",
+      "aliases": [
+        "Palate"
+      ],
+      "popularity": 15075,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Palatine bone"
+    },
+    {
+      "name": "Pisiform bone",
+      "aliases": [
+        "pisiform"
+      ],
+      "popularity": 15567,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Pisiform bone"
+    },
+    {
+      "name": "Lacrimal bone",
+      "aliases": [],
+      "popularity": 16110,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Lacrimal bone"
+    },
+    {
+      "name": "Daniel Sickles's leg",
+      "aliases": [],
+      "popularity": 16612,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Daniel Sickles's leg"
+    },
+    {
+      "name": "Malleus",
+      "aliases": [
+        "hammer"
+      ],
+      "popularity": 17502,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Malleus"
+    },
+    {
+      "name": "Fifth metatarsal bone",
+      "aliases": [],
+      "popularity": 17527,
+      "rarity": 0.687,
+      "tier": 4,
+      "wiki": "Fifth metatarsal bone"
+    },
+    {
+      "name": "Fabella",
+      "aliases": [],
+      "popularity": 19457,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Fabella"
+    },
+    {
+      "name": "Axis",
+      "aliases": [
+        "Axis (anatomy)",
+        "axis vertebra",
+        "C2 vertebra",
+        "cervical vertebra 2",
+        "epistropheus",
+        "second cervical vertebra"
+      ],
+      "popularity": 20739,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Axis (anatomy)"
+    },
+    {
+      "name": "Frontal bone",
+      "aliases": [
+        "os frontis"
+      ],
+      "popularity": 20935,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Frontal bone"
+    },
+    {
+      "name": "Vomer",
+      "aliases": [
+        "vomer bone",
+        "vomeral bone"
+      ],
+      "popularity": 28112,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Vomer"
+    },
+    {
+      "name": "Nasal bone",
+      "aliases": [],
+      "popularity": 28773,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Nasal bone"
+    },
+    {
+      "name": "Tarsus",
+      "aliases": [
+        "bone of ankle",
+        "bone of tarsal",
+        "tarsal bone",
+        "tarsal bones",
+        "Tarsals",
+        "Tarsus (skeleton)"
+      ],
+      "popularity": 30723,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Tarsus (skeleton)"
+    },
+    {
+      "name": "Navicular bone",
+      "aliases": [],
+      "popularity": 32277,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Navicular bone"
+    },
+    {
+      "name": "Ethmoid bone",
+      "aliases": [],
+      "popularity": 32369,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Ethmoid bone"
+    },
+    {
+      "name": "Scaphoid bone",
+      "aliases": [
+        "navicular"
+      ],
+      "popularity": 35863,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Scaphoid bone"
+    },
+    {
+      "name": "Calcaneus",
+      "aliases": [
+        "heel bone"
+      ],
+      "popularity": 36481,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Calcaneus"
+    },
+    {
+      "name": "Parietal bone",
+      "aliases": [
+        "os parietale"
+      ],
+      "popularity": 36778,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Parietal bone"
+    },
+    {
+      "name": "Temporal bone",
+      "aliases": [
+        "os temporale"
+      ],
+      "popularity": 37631,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Temporal bone"
+    },
+    {
+      "name": "Atlas",
+      "aliases": [
+        "Atlas (anatomy)",
+        "C1 vertebra",
+        "cervical atlas",
+        "cervical vertebra 1",
+        "first cervical vertebra"
+      ],
+      "popularity": 38932,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Atlas (anatomy)"
+    },
+    {
+      "name": "Ossicles",
+      "aliases": [
+        "auditory ossicle",
+        "auditory ossicle bone",
+        "ear ossicle",
+        "ossicle",
+        "ossicular chain"
+      ],
+      "popularity": 39818,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Ossicles"
+    },
+    {
+      "name": "Metacarpal bones",
+      "aliases": [
+        "metacarpal",
+        "metacarpal bone"
+      ],
+      "popularity": 39906,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Metacarpal bones"
+    },
+    {
+      "name": "Rib",
+      "aliases": [
+        "ribs"
+      ],
+      "popularity": 44370,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Rib"
+    },
+    {
+      "name": "Pubis",
+      "aliases": [
+        "pubic bone"
+      ],
+      "popularity": 44720,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Pubis"
+    },
+    {
+      "name": "Stapes",
+      "aliases": [
+        "stapes bone"
+      ],
+      "popularity": 48420,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Stapes"
+    },
+    {
+      "name": "Sphenoid bone",
+      "aliases": [],
+      "popularity": 48473,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Sphenoid bone"
+    },
+    {
+      "name": "Ischium",
+      "aliases": [
+        "sitting bone"
+      ],
+      "popularity": 49266,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Ischium"
+    },
+    {
+      "name": "Hip bone",
+      "aliases": [
+        "bony pelvis",
+        "coxal bone",
+        "innominate bone",
+        "pelvic bone",
+        "pelvic bones",
+        "pelvic skeleton",
+        "skeletal system of pelvis"
+      ],
+      "popularity": 52083,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Hip bone"
+    },
+    {
+      "name": "Talus bone",
+      "aliases": [
+        "anklebone",
+        "astragalus",
+        "talus"
+      ],
+      "popularity": 53557,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Talus bone"
+    },
+    {
+      "name": "Radius",
+      "aliases": [
+        "radial bone",
+        "Radius (bone)"
+      ],
+      "popularity": 56484,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Radius (bone)"
+    },
+    {
+      "name": "Occipital bone",
+      "aliases": [
+        "ossification of occipital bone"
+      ],
+      "popularity": 59367,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Occipital bone"
+    },
+    {
+      "name": "Ilium",
+      "aliases": [
+        "iliac bone",
+        "Ilium (bone)"
+      ],
+      "popularity": 62172,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Ilium (bone)"
+    },
+    {
+      "name": "Metatarsal bones",
+      "aliases": [
+        "metatarsal",
+        "metatarsal bone"
+      ],
+      "popularity": 63041,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Metatarsal bones"
+    },
+    {
+      "name": "Hamate bone",
+      "aliases": [],
+      "popularity": 64550,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Hamate bone"
+    },
+    {
+      "name": "Ulna",
+      "aliases": [
+        "elbow bone",
+        "ulna bone"
+      ],
+      "popularity": 67163,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Ulna"
+    },
+    {
+      "name": "Lumbar vertebrae",
+      "aliases": [
+        "lumbar vertebra"
+      ],
+      "popularity": 67551,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Lumbar vertebrae"
+    },
+    {
+      "name": "Carpal bones",
+      "aliases": [
+        "bone of carpus",
+        "carpal bone"
+      ],
+      "popularity": 79303,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Carpal bones"
+    },
+    {
+      "name": "Zygomatic bone",
+      "aliases": [
+        "cheekbone",
+        "malar bone",
+        "zygoma"
+      ],
+      "popularity": 85249,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Zygomatic bone"
+    },
+    {
+      "name": "Mandible",
+      "aliases": [
+        "inferior maxillary bone",
+        "jaw bone",
+        "jawbone",
+        "lower jaw",
+        "lower maxilla"
+      ],
+      "popularity": 95644,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Mandible"
+    },
+    {
+      "name": "Patella",
+      "aliases": [
+        "Knee-cap",
+        "kneecap",
+        "kneepan"
+      ],
+      "popularity": 106243,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Patella"
+    },
+    {
+      "name": "Phalanx bone",
+      "aliases": [
+        "phalanx"
+      ],
+      "popularity": 106535,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Phalanx bone"
+    },
+    {
+      "name": "Humerus",
+      "aliases": [
+        "bone bone"
+      ],
+      "popularity": 107641,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Humerus"
+    },
+    {
+      "name": "Maxilla",
+      "aliases": [
+        "upper jaw",
+        "upper jawbone"
+      ],
+      "popularity": 116782,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Maxilla"
+    },
+    {
+      "name": "Vertebra",
+      "aliases": [],
+      "popularity": 128858,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Vertebra"
+    },
+    {
+      "name": "Coccyx",
+      "aliases": [
+        "coxis",
+        "tailbone"
+      ],
+      "popularity": 132108,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Coccyx"
+    },
+    {
+      "name": "Sacrum",
+      "aliases": [
+        "sacral spine",
+        "sakral vertebra huecos"
+      ],
+      "popularity": 132492,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Sacrum"
+    },
+    {
+      "name": "Femur",
+      "aliases": [
+        "femora",
+        "femurs",
+        "thigh bone"
+      ],
+      "popularity": 139781,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Femur"
+    },
+    {
+      "name": "Hyoid bone",
+      "aliases": [],
+      "popularity": 149580,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Hyoid bone"
+    },
+    {
+      "name": "Scapula",
+      "aliases": [
+        "shoulder blade",
+        "shoulder bone",
+        "wing bone"
+      ],
+      "popularity": 169990,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Scapula"
+    },
+    {
+      "name": "Fibula",
+      "aliases": [
+        "calf bone"
+      ],
+      "popularity": 176122,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Fibula"
+    },
+    {
+      "name": "Tibia",
+      "aliases": [
+        "shank",
+        "shankbone",
+        "shin",
+        "shin bone",
+        "shinbone"
+      ],
+      "popularity": 185373,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Tibia"
+    },
+    {
+      "name": "Sternum",
+      "aliases": [
+        "breastbone"
+      ],
+      "popularity": 230940,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Sternum"
+    },
+    {
+      "name": "Clavicle",
+      "aliases": [
+        "collarbone"
+      ],
+      "popularity": 240023,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Clavicle"
+    }
+  ]
+}

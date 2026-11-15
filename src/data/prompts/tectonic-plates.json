@@ -1,0 +1,650 @@
+{
+  "id": "tectonic-plates",
+  "slug": "tectonic-plates",
+  "category": "science",
+  "question": "Name a tectonic plate",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Iranian Plate",
+      "aliases": [],
+      "popularity": 290,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Iranian Plate"
+    },
+    {
+      "name": "North Galapagos microplate",
+      "aliases": [],
+      "popularity": 447,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "North Galapagos microplate"
+    },
+    {
+      "name": "Conway Reef plate",
+      "aliases": [],
+      "popularity": 534,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Conway Reef plate"
+    },
+    {
+      "name": "Balmoral Reef plate",
+      "aliases": [],
+      "popularity": 586,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Balmoral Reef plate"
+    },
+    {
+      "name": "Kshiroda plate",
+      "aliases": [],
+      "popularity": 623,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Kshiroda plate"
+    },
+    {
+      "name": "Manus plate",
+      "aliases": [],
+      "popularity": 649,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Manus plate"
+    },
+    {
+      "name": "Maoke plate",
+      "aliases": [],
+      "popularity": 687,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Maoke plate"
+    },
+    {
+      "name": "Niuafo'ou plate",
+      "aliases": [],
+      "popularity": 691,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Niuafo'ou plate"
+    },
+    {
+      "name": "Sangihe plate",
+      "aliases": [],
+      "popularity": 694,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Sangihe plate"
+    },
+    {
+      "name": "Trobriand plate",
+      "aliases": [],
+      "popularity": 727,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Trobriand plate"
+    },
+    {
+      "name": "North Bismarck plate",
+      "aliases": [],
+      "popularity": 740,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "North Bismarck plate"
+    },
+    {
+      "name": "Futuna plate",
+      "aliases": [],
+      "popularity": 826,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Futuna plate"
+    },
+    {
+      "name": "Bellingshausen plate",
+      "aliases": [],
+      "popularity": 830,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Bellingshausen plate"
+    },
+    {
+      "name": "Timor plate",
+      "aliases": [],
+      "popularity": 856,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Timor plate"
+    },
+    {
+      "name": "Woodlark plate",
+      "aliases": [],
+      "popularity": 914,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Woodlark plate"
+    },
+    {
+      "name": "Halmahera plate",
+      "aliases": [],
+      "popularity": 916,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Halmahera plate"
+    },
+    {
+      "name": "Kermadec plate",
+      "aliases": [],
+      "popularity": 957,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Kermadec plate"
+    },
+    {
+      "name": "Pelso plate",
+      "aliases": [],
+      "popularity": 980,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Pelso plate"
+    },
+    {
+      "name": "Solomon Sea plate",
+      "aliases": [],
+      "popularity": 1033,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Solomon Sea plate"
+    },
+    {
+      "name": "South Bismarck plate",
+      "aliases": [],
+      "popularity": 1033,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "South Bismarck plate"
+    },
+    {
+      "name": "Bird's Head plate",
+      "aliases": [],
+      "popularity": 1104,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Bird's Head plate"
+    },
+    {
+      "name": "Tisza plate",
+      "aliases": [],
+      "popularity": 1233,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Tisza plate"
+    },
+    {
+      "name": "Tonga plate",
+      "aliases": [],
+      "popularity": 1246,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Tonga plate"
+    },
+    {
+      "name": "Banda Sea plate",
+      "aliases": [],
+      "popularity": 1330,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Banda Sea plate"
+    },
+    {
+      "name": "Easter microplate",
+      "aliases": [
+        "Easter Plate"
+      ],
+      "popularity": 1361,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Easter microplate"
+    },
+    {
+      "name": "Juan Fernández plate",
+      "aliases": [],
+      "popularity": 1377,
+      "rarity": 0.675,
+      "tier": 4,
+      "wiki": "Juan Fernández plate"
+    },
+    {
+      "name": "Galápagos microplate",
+      "aliases": [],
+      "popularity": 1378,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Galápagos microplate"
+    },
+    {
+      "name": "Coiba plate",
+      "aliases": [],
+      "popularity": 1512,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Coiba plate"
+    },
+    {
+      "name": "Puerto Rico–Virgin Islands microplate",
+      "aliases": [],
+      "popularity": 1561,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Puerto Rico–Virgin Islands microplate"
+    },
+    {
+      "name": "Shetland plate",
+      "aliases": [
+        "South Shetland Block"
+      ],
+      "popularity": 1708,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Shetland plate"
+    },
+    {
+      "name": "Rovuma plate",
+      "aliases": [],
+      "popularity": 1725,
+      "rarity": 0.61,
+      "tier": 4,
+      "wiki": "Rovuma plate"
+    },
+    {
+      "name": "Okinawa plate",
+      "aliases": [],
+      "popularity": 1814,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Okinawa plate"
+    },
+    {
+      "name": "Molucca Sea plate",
+      "aliases": [],
+      "popularity": 2069,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Molucca Sea plate"
+    },
+    {
+      "name": "Gonâve microplate",
+      "aliases": [],
+      "popularity": 2545,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Gonâve microplate"
+    },
+    {
+      "name": "New Hebrides plate",
+      "aliases": [],
+      "popularity": 2556,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "New Hebrides plate"
+    },
+    {
+      "name": "Rivera plate",
+      "aliases": [],
+      "popularity": 2894,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Rivera plate"
+    },
+    {
+      "name": "Victoria microplate",
+      "aliases": [
+        "Victoria Plate"
+      ],
+      "popularity": 3123,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Victoria microplate"
+    },
+    {
+      "name": "Capricorn plate",
+      "aliases": [],
+      "popularity": 3231,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Capricorn plate"
+    },
+    {
+      "name": "South Sandwich plate",
+      "aliases": [],
+      "popularity": 3407,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "South Sandwich plate"
+    },
+    {
+      "name": "Malpelo plate",
+      "aliases": [],
+      "popularity": 3486,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Malpelo plate"
+    },
+    {
+      "name": "Lwandle plate",
+      "aliases": [],
+      "popularity": 3534,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Lwandle plate"
+    },
+    {
+      "name": "Panama plate",
+      "aliases": [],
+      "popularity": 3665,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Panama plate"
+    },
+    {
+      "name": "Madagascar plate",
+      "aliases": [],
+      "popularity": 3676,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Madagascar plate"
+    },
+    {
+      "name": "Greenland plate",
+      "aliases": [],
+      "popularity": 3758,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Greenland plate"
+    },
+    {
+      "name": "Caroline plate",
+      "aliases": [],
+      "popularity": 4724,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Caroline plate"
+    },
+    {
+      "name": "Iberian plate",
+      "aliases": [],
+      "popularity": 4785,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Iberian plate"
+    },
+    {
+      "name": "Anatolian plate",
+      "aliases": [],
+      "popularity": 4789,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Anatolian plate"
+    },
+    {
+      "name": "Jan Mayen Microcontinent",
+      "aliases": [],
+      "popularity": 4849,
+      "rarity": 0.39,
+      "tier": 2,
+      "wiki": "Jan Mayen Microcontinent"
+    },
+    {
+      "name": "Mariana plate",
+      "aliases": [],
+      "popularity": 4997,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Mariana plate"
+    },
+    {
+      "name": "North Andes plate",
+      "aliases": [],
+      "popularity": 5062,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "North Andes plate"
+    },
+    {
+      "name": "Yangtze plate",
+      "aliases": [],
+      "popularity": 5554,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Yangtze plate"
+    },
+    {
+      "name": "Izanagi plate",
+      "aliases": [],
+      "popularity": 5850,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Izanagi plate"
+    },
+    {
+      "name": "Gorda plate",
+      "aliases": [],
+      "popularity": 5989,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Gorda plate"
+    },
+    {
+      "name": "Explorer plate",
+      "aliases": [],
+      "popularity": 6086,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "Explorer plate"
+    },
+    {
+      "name": "Adriatic plate",
+      "aliases": [
+        "Apulian Plate"
+      ],
+      "popularity": 6652,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Adriatic plate"
+    },
+    {
+      "name": "Okhotsk plate",
+      "aliases": [],
+      "popularity": 7360,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Okhotsk plate"
+    },
+    {
+      "name": "Amur plate",
+      "aliases": [
+        "Amurian Plate",
+        "China Plate"
+      ],
+      "popularity": 7798,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Amur plate"
+    },
+    {
+      "name": "Aegean Sea plate",
+      "aliases": [],
+      "popularity": 8521,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Aegean Sea plate"
+    },
+    {
+      "name": "Antarctic plate",
+      "aliases": [],
+      "popularity": 10989,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Antarctic plate"
+    },
+    {
+      "name": "Burma plate",
+      "aliases": [],
+      "popularity": 12568,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Burma plate"
+    },
+    {
+      "name": "Sunda plate",
+      "aliases": [],
+      "popularity": 14110,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Sunda plate"
+    },
+    {
+      "name": "Cocos plate",
+      "aliases": [],
+      "popularity": 14952,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Cocos plate"
+    },
+    {
+      "name": "Scotia plate",
+      "aliases": [],
+      "popularity": 15834,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Scotia plate"
+    },
+    {
+      "name": "South American plate",
+      "aliases": [
+        "South America Plate"
+      ],
+      "popularity": 18365,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "South American plate"
+    },
+    {
+      "name": "Philippine Sea plate",
+      "aliases": [
+        "Philippne Sea Plate"
+      ],
+      "popularity": 19298,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Philippine Sea plate"
+    },
+    {
+      "name": "Indo-Australian plate",
+      "aliases": [],
+      "popularity": 20744,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Indo-Australian plate"
+    },
+    {
+      "name": "Australian plate",
+      "aliases": [],
+      "popularity": 21750,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Australian plate"
+    },
+    {
+      "name": "Somali plate",
+      "aliases": [],
+      "popularity": 21993,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Somali plate"
+    },
+    {
+      "name": "Arabian plate",
+      "aliases": [],
+      "popularity": 27832,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Arabian plate"
+    },
+    {
+      "name": "Farallon plate",
+      "aliases": [],
+      "popularity": 29474,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Farallon plate"
+    },
+    {
+      "name": "Nazca plate",
+      "aliases": [],
+      "popularity": 29626,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Nazca plate"
+    },
+    {
+      "name": "Juan de Fuca plate",
+      "aliases": [],
+      "popularity": 33694,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Juan de Fuca plate"
+    },
+    {
+      "name": "Pacific plate",
+      "aliases": [],
+      "popularity": 34639,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Pacific plate"
+    },
+    {
+      "name": "Caribbean plate",
+      "aliases": [],
+      "popularity": 35117,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Caribbean plate"
+    },
+    {
+      "name": "African plate",
+      "aliases": [],
+      "popularity": 35729,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "African plate"
+    },
+    {
+      "name": "Eurasian plate",
+      "aliases": [
+        "Eurasia Plate"
+      ],
+      "popularity": 44067,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Eurasian plate"
+    },
+    {
+      "name": "Indian plate",
+      "aliases": [],
+      "popularity": 46241,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Indian plate"
+    },
+    {
+      "name": "North American plate",
+      "aliases": [],
+      "popularity": 46414,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "North American plate"
+    }
+  ]
+}

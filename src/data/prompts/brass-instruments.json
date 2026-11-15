@@ -1,0 +1,1127 @@
+{
+  "id": "brass-instruments",
+  "slug": "brass-instruments",
+  "category": "music",
+  "question": "Name a brass instrument",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Natural brass instruments",
+      "aliases": [
+        "natural brass instrument"
+      ],
+      "popularity": 8,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Natural brass instruments"
+    },
+    {
+      "name": "Armeeposaune",
+      "aliases": [
+        "army trombone"
+      ],
+      "popularity": 16,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Armeeposaune"
+    },
+    {
+      "name": "Silver sonic trombone",
+      "aliases": [
+        "King Silver Sonic",
+        "Silversonic trombone"
+      ],
+      "popularity": 32,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Silver sonic trombone"
+    },
+    {
+      "name": "Cavalry trombone",
+      "aliases": [
+        "6 valve trombone",
+        "six-valve trombone"
+      ],
+      "popularity": 37,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Cavalry trombone"
+    },
+    {
+      "name": "Sopranino trombone",
+      "aliases": [],
+      "popularity": 57,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Sopranino trombone"
+    },
+    {
+      "name": "Vienna valve trombone",
+      "aliases": [
+        "Systéme Belge"
+      ],
+      "popularity": 88,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Vienna valve trombone"
+    },
+    {
+      "name": "Hosaphone",
+      "aliases": [],
+      "popularity": 105,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Hosaphone"
+    },
+    {
+      "name": "Piccolino trombone",
+      "aliases": [],
+      "popularity": 125,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Piccolino trombone"
+    },
+    {
+      "name": "Quinticlave",
+      "aliases": [
+        "alto ophicleide"
+      ],
+      "popularity": 182,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Quinticlave"
+    },
+    {
+      "name": "Russian bassoon",
+      "aliases": [
+        "basson russe"
+      ],
+      "popularity": 248,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Russian bassoon"
+    },
+    {
+      "name": "Tre",
+      "aliases": [
+        "Tre (instrument)"
+      ],
+      "popularity": 279,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Tre (instrument)"
+    },
+    {
+      "name": "Hornucopian dronepipe",
+      "aliases": [],
+      "popularity": 387,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Hornucopian dronepipe"
+    },
+    {
+      "name": "Buki",
+      "aliases": [
+        "Buki (musical instrument)"
+      ],
+      "popularity": 505,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Buki (musical instrument)"
+    },
+    {
+      "name": "Flugabone",
+      "aliases": [
+        "flugelbone"
+      ],
+      "popularity": 543,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Flugabone"
+    },
+    {
+      "name": "Hunting-horn",
+      "aliases": [
+        "hunter's horn",
+        "hunter's signal horn",
+        "hunters' horn",
+        "signal horn"
+      ],
+      "popularity": 600,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Hunting-horn"
+    },
+    {
+      "name": "Tube trumpet",
+      "aliases": [
+        "Rubens tube"
+      ],
+      "popularity": 653,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Tube trumpet"
+    },
+    {
+      "name": "Valide trombone",
+      "aliases": [],
+      "popularity": 763,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Valide trombone"
+    },
+    {
+      "name": "Medieval lituus",
+      "aliases": [],
+      "popularity": 782,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Medieval lituus"
+    },
+    {
+      "name": "Soprano helicon",
+      "aliases": [],
+      "popularity": 824,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Soprano helicon"
+    },
+    {
+      "name": "Piccolo trombone",
+      "aliases": [],
+      "popularity": 1225,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Piccolo trombone"
+    },
+    {
+      "name": "Waqra phuku",
+      "aliases": [
+        "Wakrapuku",
+        "Waqrapuku"
+      ],
+      "popularity": 1301,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Waqra phuku"
+    },
+    {
+      "name": "Upright serpent",
+      "aliases": [],
+      "popularity": 1403,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Upright serpent"
+    },
+    {
+      "name": "Nabal",
+      "aliases": [
+        "Nabal (instrument)"
+      ],
+      "popularity": 1448,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Nabal (instrument)"
+    },
+    {
+      "name": "Nagak",
+      "aliases": [],
+      "popularity": 1470,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Nagak"
+    },
+    {
+      "name": "Cornettino",
+      "aliases": [
+        "corñio",
+        "soprano cornett",
+        "treble cornetto"
+      ],
+      "popularity": 1647,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Cornettino"
+    },
+    {
+      "name": "Loophonium",
+      "aliases": [],
+      "popularity": 1659,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Loophonium"
+    },
+    {
+      "name": "Corno da tirarsi",
+      "aliases": [],
+      "popularity": 1743,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Corno da tirarsi"
+    },
+    {
+      "name": "Vaccine",
+      "aliases": [
+        "Vaccine (instrument)"
+      ],
+      "popularity": 1786,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Vaccine (instrument)"
+    },
+    {
+      "name": "Midwinter horn",
+      "aliases": [],
+      "popularity": 1803,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Midwinter horn"
+    },
+    {
+      "name": "King 3B",
+      "aliases": [],
+      "popularity": 1821,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "King 3B"
+    },
+    {
+      "name": "Trutruca",
+      "aliases": [
+        "trutruka"
+      ],
+      "popularity": 1847,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Trutruca"
+    },
+    {
+      "name": "Kuhlohorn",
+      "aliases": [
+        "Kuhlo flugelhorn"
+      ],
+      "popularity": 1860,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Kuhlohorn"
+    },
+    {
+      "name": "Rozhok",
+      "aliases": [
+        "Russian horn",
+        "shepherd's horn",
+        "song horn",
+        "Vladimirskiy rozhok"
+      ],
+      "popularity": 1955,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Rozhok"
+    },
+    {
+      "name": "Fiscorn",
+      "aliases": [],
+      "popularity": 2401,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Fiscorn"
+    },
+    {
+      "name": "Sudrophone",
+      "aliases": [],
+      "popularity": 2466,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Sudrophone"
+    },
+    {
+      "name": "Ransingha",
+      "aliases": [
+        "banke",
+        "bānkiā",
+        "bargu",
+        "nagphani",
+        "narsĩgā",
+        "narsingha",
+        "ramsinga",
+        "ransinga",
+        "turi"
+      ],
+      "popularity": 2897,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Ransingha"
+    },
+    {
+      "name": "Trombonium",
+      "aliases": [],
+      "popularity": 3422,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Trombonium"
+    },
+    {
+      "name": "Kombu",
+      "aliases": [
+        "Kombu (instrument)",
+        "Kumbu"
+      ],
+      "popularity": 3562,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Kombu (instrument)"
+    },
+    {
+      "name": "Tibetan horn",
+      "aliases": [
+        "dung",
+        "dung-chen",
+        "dungchen"
+      ],
+      "popularity": 3783,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Tibetan horn"
+    },
+    {
+      "name": "Erke",
+      "aliases": [
+        "coroneta",
+        "erque",
+        "quepa"
+      ],
+      "popularity": 3820,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Erke"
+    },
+    {
+      "name": "Bucium",
+      "aliases": [],
+      "popularity": 3936,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Bucium"
+    },
+    {
+      "name": "Kakaki",
+      "aliases": [
+        "mäläkät"
+      ],
+      "popularity": 4062,
+      "rarity": 0.634,
+      "tier": 4,
+      "wiki": "Kakaki"
+    },
+    {
+      "name": "Contrabass trumpet",
+      "aliases": [],
+      "popularity": 4288,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Contrabass trumpet"
+    },
+    {
+      "name": "Buccin",
+      "aliases": [
+        "buccin à tête de serpent"
+      ],
+      "popularity": 4312,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Buccin"
+    },
+    {
+      "name": "Soprano cornet",
+      "aliases": [],
+      "popularity": 4448,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Soprano cornet"
+    },
+    {
+      "name": "Jazzophone",
+      "aliases": [],
+      "popularity": 4810,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Jazzophone"
+    },
+    {
+      "name": "Tenor trombone",
+      "aliases": [],
+      "popularity": 5007,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Tenor trombone"
+    },
+    {
+      "name": "Keyed bugle",
+      "aliases": [
+        "Kent Bugle",
+        "key bugle",
+        "Royal Kent bugle"
+      ],
+      "popularity": 5217,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Keyed bugle"
+    },
+    {
+      "name": "Marching brass",
+      "aliases": [
+        "marching brass instrument"
+      ],
+      "popularity": 5657,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Marching brass"
+    },
+    {
+      "name": "Birch trumpet",
+      "aliases": [],
+      "popularity": 5780,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Birch trumpet"
+    },
+    {
+      "name": "Firebird",
+      "aliases": [
+        "Firebird (trumpet)"
+      ],
+      "popularity": 6418,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Firebird (trumpet)"
+    },
+    {
+      "name": "Keyed trumpet",
+      "aliases": [],
+      "popularity": 6430,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Keyed trumpet"
+    },
+    {
+      "name": "Roman tuba",
+      "aliases": [],
+      "popularity": 6640,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Roman tuba"
+    },
+    {
+      "name": "Double bell euphonium",
+      "aliases": [
+        "duplex euphonium"
+      ],
+      "popularity": 6734,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Double bell euphonium"
+    },
+    {
+      "name": "German horn",
+      "aliases": [],
+      "popularity": 6832,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "German horn"
+    },
+    {
+      "name": "Soprano trombone",
+      "aliases": [
+        "slide cornet",
+        "soprano sackbut"
+      ],
+      "popularity": 7092,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Soprano trombone"
+    },
+    {
+      "name": "Dakshinavarti shankha",
+      "aliases": [
+        "Dakshinavarti Shankh"
+      ],
+      "popularity": 7135,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Dakshinavarti shankha"
+    },
+    {
+      "name": "Alto trombone",
+      "aliases": [
+        "alt trombone",
+        "high trombone"
+      ],
+      "popularity": 7271,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Alto trombone"
+    },
+    {
+      "name": "Nafir",
+      "aliases": [
+        "nefir"
+      ],
+      "popularity": 7511,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Nafir"
+    },
+    {
+      "name": "Baroque trumpet",
+      "aliases": [],
+      "popularity": 7544,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Baroque trumpet"
+    },
+    {
+      "name": "Slide trumpet",
+      "aliases": [
+        "flat trumpet"
+      ],
+      "popularity": 7788,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Slide trumpet"
+    },
+    {
+      "name": "Vienna horn",
+      "aliases": [],
+      "popularity": 7891,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Vienna horn"
+    },
+    {
+      "name": "Pocket trumpet",
+      "aliases": [],
+      "popularity": 8064,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Pocket trumpet"
+    },
+    {
+      "name": "Kangling",
+      "aliases": [
+        "bone trumpet",
+        "femur trumpet",
+        "rkang-gling",
+        "thighbone trumpet"
+      ],
+      "popularity": 9088,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Kangling"
+    },
+    {
+      "name": "Blowing horn",
+      "aliases": [
+        "Rog"
+      ],
+      "popularity": 9099,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Blowing horn"
+    },
+    {
+      "name": "Buccina",
+      "aliases": [
+        "bucina"
+      ],
+      "popularity": 9765,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Buccina"
+    },
+    {
+      "name": "Subcontrabass tuba",
+      "aliases": [],
+      "popularity": 10231,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Subcontrabass tuba"
+    },
+    {
+      "name": "Contrabass bugle",
+      "aliases": [],
+      "popularity": 10432,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Contrabass bugle"
+    },
+    {
+      "name": "Superbone",
+      "aliases": [
+        "double trombone"
+      ],
+      "popularity": 11279,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Superbone"
+    },
+    {
+      "name": "Salpinx",
+      "aliases": [],
+      "popularity": 11390,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Salpinx"
+    },
+    {
+      "name": "Horagai",
+      "aliases": [],
+      "popularity": 11708,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Horagai"
+    },
+    {
+      "name": "Fanfare trumpet",
+      "aliases": [],
+      "popularity": 12470,
+      "rarity": 0.366,
+      "tier": 2,
+      "wiki": "Fanfare trumpet"
+    },
+    {
+      "name": "Buisine",
+      "aliases": [
+        "añafil",
+        "bazuin",
+        "busine",
+        "buysine",
+        "buzine"
+      ],
+      "popularity": 12486,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Buisine"
+    },
+    {
+      "name": "Lituus",
+      "aliases": [],
+      "popularity": 13643,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Lituus"
+    },
+    {
+      "name": "Contrabass trombone",
+      "aliases": [],
+      "popularity": 14193,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Contrabass trombone"
+    },
+    {
+      "name": "Bass trumpet",
+      "aliases": [],
+      "popularity": 15794,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Bass trumpet"
+    },
+    {
+      "name": "Olifant",
+      "aliases": [
+        "Olifant (instrument)",
+        "oliphant"
+      ],
+      "popularity": 16587,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Olifant (instrument)"
+    },
+    {
+      "name": "Clarion",
+      "aliases": [
+        "Clarion (instrument)"
+      ],
+      "popularity": 16904,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Clarion (instrument)"
+    },
+    {
+      "name": "Valve trombone",
+      "aliases": [
+        "piston trombone"
+      ],
+      "popularity": 17407,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Valve trombone"
+    },
+    {
+      "name": "Helicon",
+      "aliases": [
+        "Helicon (instrument)"
+      ],
+      "popularity": 18445,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Helicon (instrument)"
+    },
+    {
+      "name": "Natural horn",
+      "aliases": [
+        "end-blown horns"
+      ],
+      "popularity": 19052,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Natural horn"
+    },
+    {
+      "name": "Natural trumpet",
+      "aliases": [
+        "natural labrosone"
+      ],
+      "popularity": 19800,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Natural trumpet"
+    },
+    {
+      "name": "Conch",
+      "aliases": [
+        "Conch (instrument)",
+        "conch-shell trumpet",
+        "conches",
+        "conque",
+        "seashell horn",
+        "shell trumpet"
+      ],
+      "popularity": 20547,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Conch (instrument)"
+    },
+    {
+      "name": "Bass trombone",
+      "aliases": [],
+      "popularity": 21452,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Bass trombone"
+    },
+    {
+      "name": "Piccolo trumpet",
+      "aliases": [],
+      "popularity": 21533,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Piccolo trumpet"
+    },
+    {
+      "name": "Wagner tuba",
+      "aliases": [
+        "Bayreuth tuba",
+        "Wagner horn"
+      ],
+      "popularity": 22627,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Wagner tuba"
+    },
+    {
+      "name": "Post horn",
+      "aliases": [
+        "postal horn"
+      ],
+      "popularity": 23041,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Post horn"
+    },
+    {
+      "name": "Lur",
+      "aliases": [
+        "lure",
+        "lurr"
+      ],
+      "popularity": 23640,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Lur"
+    },
+    {
+      "name": "Cimbasso",
+      "aliases": [],
+      "popularity": 26297,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Cimbasso"
+    },
+    {
+      "name": "Tenor horn",
+      "aliases": [
+        "Althorn",
+        "alto horn",
+        "cavalry horn",
+        "E-flat horn",
+        "E♭ horn",
+        "peck horn"
+      ],
+      "popularity": 28298,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Tenor horn"
+    },
+    {
+      "name": "Cornett",
+      "aliases": [
+        "cornetto",
+        "zink"
+      ],
+      "popularity": 28568,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Cornett"
+    },
+    {
+      "name": "Serpent",
+      "aliases": [
+        "schlangenrohr",
+        "Serpent (instrument)",
+        "serpentone"
+      ],
+      "popularity": 30297,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Serpent (instrument)"
+    },
+    {
+      "name": "Shankha",
+      "aliases": [
+        "Dung-Dkar",
+        "śankh"
+      ],
+      "popularity": 30999,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Shankha"
+    },
+    {
+      "name": "Ophicleide",
+      "aliases": [],
+      "popularity": 33005,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Ophicleide"
+    },
+    {
+      "name": "Saxhorn",
+      "aliases": [
+        "saxwey"
+      ],
+      "popularity": 33614,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Saxhorn"
+    },
+    {
+      "name": "Sackbut",
+      "aliases": [
+        "sagbut",
+        "shagbut",
+        "shakbush"
+      ],
+      "popularity": 34638,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Sackbut"
+    },
+    {
+      "name": "Bazooka",
+      "aliases": [
+        "Bazooka (instrument)"
+      ],
+      "popularity": 37911,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Bazooka (instrument)"
+    },
+    {
+      "name": "Mellophone",
+      "aliases": [],
+      "popularity": 43990,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Mellophone"
+    },
+    {
+      "name": "Baritone horn",
+      "aliases": [
+        "baritonhorn",
+        "bombardino"
+      ],
+      "popularity": 52192,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Baritone horn"
+    },
+    {
+      "name": "Alphorn",
+      "aliases": [
+        "alpenhorn",
+        "alpine horn"
+      ],
+      "popularity": 57272,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Alphorn"
+    },
+    {
+      "name": "Bugle",
+      "aliases": [
+        "field trumpet"
+      ],
+      "popularity": 64252,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Bugle"
+    },
+    {
+      "name": "Seven trumpets",
+      "aliases": [],
+      "popularity": 79526,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Seven trumpets"
+    },
+    {
+      "name": "Carnyx",
+      "aliases": [
+        "karnyx"
+      ],
+      "popularity": 98531,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Carnyx"
+    },
+    {
+      "name": "Sousaphone",
+      "aliases": [],
+      "popularity": 100343,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Sousaphone"
+    },
+    {
+      "name": "Shofar",
+      "aliases": [
+        "ram's horn"
+      ],
+      "popularity": 105799,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Shofar"
+    },
+    {
+      "name": "Flugelhorn",
+      "aliases": [
+        "B♭ soprano saxhorn"
+      ],
+      "popularity": 113410,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Flugelhorn"
+    },
+    {
+      "name": "Tuba",
+      "aliases": [
+        "bombarda",
+        "cuerno bajo",
+        "tuba baja",
+        "tuba CC",
+        "tuba contrabajo",
+        "tuba doble do",
+        "tuba en do",
+        "tuba en si♭",
+        "tuba en Si bemol♭",
+        "tuba en si bemol doble",
+        "Tuba in FA",
+        "Tuba in MIb"
+      ],
+      "popularity": 123591,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Tuba"
+    },
+    {
+      "name": "Euphonium",
+      "aliases": [
+        "baritone",
+        "euphonion",
+        "Sommerophone"
+      ],
+      "popularity": 130121,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Euphonium"
+    },
+    {
+      "name": "Trombone",
+      "aliases": [
+        "slide trombone"
+      ],
+      "popularity": 134441,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Trombone"
+    },
+    {
+      "name": "Vuvuzela",
+      "aliases": [
+        "lepatata Mambu",
+        "stadium horn"
+      ],
+      "popularity": 135278,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Vuvuzela"
+    },
+    {
+      "name": "French horn",
+      "aliases": [
+        "corno"
+      ],
+      "popularity": 150352,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "French horn"
+    },
+    {
+      "name": "Trumpet",
+      "aliases": [
+        "B-flat trumpet",
+        "B♭ trumpet",
+        "Bb trumpet",
+        "valve trumpet"
+      ],
+      "popularity": 177765,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Trumpet"
+    },
+    {
+      "name": "Didgeridoo",
+      "aliases": [
+        "didjeridoo",
+        "didjeridu",
+        "digeridoo",
+        "dijiridu"
+      ],
+      "popularity": 210459,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Didgeridoo"
+    }
+  ]
+}

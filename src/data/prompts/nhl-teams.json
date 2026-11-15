@@ -1,0 +1,326 @@
+{
+  "id": "nhl-teams",
+  "slug": "nhl-teams",
+  "category": "sports",
+  "question": "Name a current NHL team",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Washington Capitals",
+      "aliases": [
+        "Capitals",
+        "Caps",
+        "Washington Caps"
+      ],
+      "popularity": 226152,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Washington Capitals"
+    },
+    {
+      "name": "Nashville Predators",
+      "aliases": [],
+      "popularity": 236240,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Nashville Predators"
+    },
+    {
+      "name": "St. Louis Blues",
+      "aliases": [
+        "Blues",
+        "Saint Louis Blues"
+      ],
+      "popularity": 243142,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "St. Louis Blues"
+    },
+    {
+      "name": "Dallas Stars",
+      "aliases": [],
+      "popularity": 289152,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Dallas Stars"
+    },
+    {
+      "name": "Calgary Flames",
+      "aliases": [
+        "Flames"
+      ],
+      "popularity": 294781,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Calgary Flames"
+    },
+    {
+      "name": "Ottawa Senators",
+      "aliases": [],
+      "popularity": 296169,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Ottawa Senators"
+    },
+    {
+      "name": "Tampa Bay Lightning",
+      "aliases": [
+        "Bolts",
+        "Lightning",
+        "The Tampa Bay Lightning"
+      ],
+      "popularity": 315803,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Tampa Bay Lightning"
+    },
+    {
+      "name": "Los Angeles Kings",
+      "aliases": [
+        "LA Kings"
+      ],
+      "popularity": 320677,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Los Angeles Kings"
+    },
+    {
+      "name": "Columbus Blue Jackets",
+      "aliases": [
+        "Jackets"
+      ],
+      "popularity": 331039,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Columbus Blue Jackets"
+    },
+    {
+      "name": "New Jersey Devils",
+      "aliases": [
+        "Devils",
+        "NJ Devils",
+        "The Devils"
+      ],
+      "popularity": 342252,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "New Jersey Devils"
+    },
+    {
+      "name": "Philadelphia Flyers",
+      "aliases": [
+        "Flyers",
+        "Philly Flyers"
+      ],
+      "popularity": 355910,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Philadelphia Flyers"
+    },
+    {
+      "name": "New York Islanders",
+      "aliases": [],
+      "popularity": 365080,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "New York Islanders"
+    },
+    {
+      "name": "Winnipeg Jets",
+      "aliases": [],
+      "popularity": 373071,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Winnipeg Jets"
+    },
+    {
+      "name": "Vancouver Canucks",
+      "aliases": [],
+      "popularity": 381334,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Vancouver Canucks"
+    },
+    {
+      "name": "Chicago Blackhawks",
+      "aliases": [
+        "Chicago Black Hawks",
+        "Chicago Stadium Corporation",
+        "Hawks"
+      ],
+      "popularity": 385584,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Chicago Blackhawks"
+    },
+    {
+      "name": "Minnesota Wild",
+      "aliases": [
+        "Wild"
+      ],
+      "popularity": 394302,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Minnesota Wild"
+    },
+    {
+      "name": "Seattle Kraken",
+      "aliases": [
+        "Seattle NHL team"
+      ],
+      "popularity": 399438,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Seattle Kraken"
+    },
+    {
+      "name": "Detroit Red Wings",
+      "aliases": [],
+      "popularity": 404683,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Detroit Red Wings"
+    },
+    {
+      "name": "San Jose Sharks",
+      "aliases": [
+        "SJ Sharks"
+      ],
+      "popularity": 410245,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "San Jose Sharks"
+    },
+    {
+      "name": "New York Rangers",
+      "aliases": [],
+      "popularity": 413219,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "New York Rangers"
+    },
+    {
+      "name": "Boston Bruins",
+      "aliases": [
+        "Bruins"
+      ],
+      "popularity": 420666,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Boston Bruins"
+    },
+    {
+      "name": "Pittsburgh Penguins",
+      "aliases": [
+        "Pens",
+        "Pittsburgh Pens"
+      ],
+      "popularity": 434041,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Pittsburgh Penguins"
+    },
+    {
+      "name": "Florida Panthers",
+      "aliases": [],
+      "popularity": 434225,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Florida Panthers"
+    },
+    {
+      "name": "Edmonton Oilers",
+      "aliases": [
+        "Alberta Oilers",
+        "Oilers"
+      ],
+      "popularity": 449152,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Edmonton Oilers"
+    },
+    {
+      "name": "Buffalo Sabres",
+      "aliases": [],
+      "popularity": 449596,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Buffalo Sabres"
+    },
+    {
+      "name": "Toronto Maple Leafs",
+      "aliases": [
+        "Maple Leafs",
+        "The Toronto Maple Leafs"
+      ],
+      "popularity": 498152,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Toronto Maple Leafs"
+    },
+    {
+      "name": "Colorado Avalanche",
+      "aliases": [
+        "Avs"
+      ],
+      "popularity": 499897,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Colorado Avalanche"
+    },
+    {
+      "name": "Anaheim Ducks",
+      "aliases": [
+        "Mighty Ducks of Anaheim"
+      ],
+      "popularity": 582554,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Anaheim Ducks"
+    },
+    {
+      "name": "Utah Mammoth",
+      "aliases": [
+        "Utah HC",
+        "Utah Hockey Club"
+      ],
+      "popularity": 841683,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Utah Mammoth"
+    },
+    {
+      "name": "Vegas Golden Knights",
+      "aliases": [
+        "Golden Knights",
+        "Las Vegas Golden Knights",
+        "LV Golden Knights",
+        "LV Knights"
+      ],
+      "popularity": 876203,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Vegas Golden Knights"
+    },
+    {
+      "name": "Montreal Canadiens",
+      "aliases": [
+        "Canadiens de Montréal",
+        "Habs",
+        "le Club de hockey Canadien"
+      ],
+      "popularity": 903296,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Montreal Canadiens"
+    },
+    {
+      "name": "Carolina Hurricanes",
+      "aliases": [],
+      "popularity": 978895,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Carolina Hurricanes"
+    }
+  ]
+}

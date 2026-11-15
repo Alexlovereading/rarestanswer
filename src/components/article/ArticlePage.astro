@@ -28,6 +28,8 @@ import ToolCard from '~/components/article/ToolCard.astro';
 import RecipeCard from '~/components/article/RecipeCard.astro';
 import ArticleGallery from '~/components/article/ArticleGallery.astro';
 import BackToTop from '~/components/article/BackToTop.astro';
+import ArticleCover from '~/components/article/ArticleCover.astro';
+import PlayCta from '~/components/article/PlayCta.astro';
 import WikiSidebar from '~/components/sidebar/WikiSidebar.astro';
 import { CONTENT_TYPES, NAVIGATION_CONFIG } from '~/config/navigation';
 import { siteUrl } from '~/config/site';
@@ -209,20 +211,19 @@ const jsonLd = [
     <div id="reading-progress" class="h-full bg-nav opacity-80" style="width: 0%"></div>
   </div>
 
-  <div class="flex gap-8">
+  <div class="mx-auto flex w-full max-w-5xl gap-8 xl:gap-12">
     <article class="min-w-0 max-w-[42rem] flex-1">
     {/* Breadcrumb */}
     {/* Breadcrumb — preset-only categories (e.g. recipes on the game demo)
         have no list page: fall back to home for the category crumb. The
         breadcrumbJsonLd above keeps the list URL for a recipe-hub fork,
         where the list page does build. */}
-    <nav class="text-sm text-muted-foreground" aria-label={shared.breadcrumbAria ?? 'Breadcrumb'}>
+    <nav class="flex flex-wrap items-center gap-1 text-sm text-muted-foreground" aria-label={shared.breadcrumbAria ?? 'Breadcrumb'}>
       <a href={homeUrl(locale)} class="hover:text-nav">{nav.home}</a>
+      <Icon name="lucide:chevron-right" class="h-3.5 w-3.5" aria-hidden="true" />
       {categoryHasList ? (
-        <span class="mx-1">/</span>
         <a href={listPath(category, locale)} class="hover:text-nav">{categoryLabel}</a>
       ) : (
-        <span class="mx-1">/</span>
         <span>{categoryLabel}</span>
       )}
     </nav>
@@ -234,7 +235,7 @@ const jsonLd = [
         <span class="text-sm font-semibold text-nav">{categoryLabel}</span>
       </div>
       <h1 class="mt-2 font-display text-3xl font-extrabold tracking-tight text-balance md:text-4xl" data-pagefind-meta={`title:${entry.data.title}`}>{entry.data.title}</h1>
-      <p class="mt-3 text-muted-foreground">{entry.data.description}</p>
+      <p class="mt-3 text-lg leading-relaxed text-muted-foreground">{entry.data.description}</p>
       <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
         <span class="inline-flex items-center gap-1">
           <Icon name="lucide:calendar" class="h-3.5 w-3.5" />
@@ -297,6 +298,19 @@ const jsonLd = [
       </div>
     </header>
 
+    {entry.data.image && (
+      <div class="mt-6 overflow-hidden rounded-[var(--radius)] bg-muted">
+        <ArticleCover
+          src={entry.data.image}
+          alt=""
+          loading="eager"
+          sizes="(max-width: 768px) 100vw, 42rem"
+          widths={[480, 800, 1200]}
+          class="mb-0 aspect-video w-full rounded-[var(--radius)] object-cover"
+        />
+      </div>
+    )}
+
     {/* Quick Answer / TL;DR — answer-first for AI Overviews & featured snippets */}
     {summary && (
       <aside class="glass mt-6 border-l-4 border-l-[hsl(var(--gold))] p-4">
@@ -356,49 +370,7 @@ const jsonLd = [
       />
     )}
 
-    {/* Visible codes FAQ — keeps the FAQPage structured data honest. Native
-        <details>, zero JS. */}
-    {codesFaqItems.length > 0 && (
-      <section class="mt-8 not-prose" aria-label={codesFaqTitle}>
-        <h2 class="text-xl font-bold">{codesFaqTitle}</h2>
-        <div class="mt-4 space-y-2">
-          {codesFaqItems.map((item) => (
-            <details class="group rounded-lg border border-border bg-card">
-              <summary class="flex cursor-pointer list-none items-center justify-between gap-2 px-4 py-3 text-sm font-semibold text-foreground [&::-webkit-details-marker]:hidden">
-                {item.question}
-                <Icon name="lucide:chevron-down" class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
-              </summary>
-              <div class="border-t border-border px-4 py-3 text-sm text-foreground">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </section>
-    )}
-
-    {/* Visible per-article FAQ (frontmatter `faq`) — same strings feed the
-        merged FAQPage JSON-LD above. Native <details>, zero JS. */}
-    {articleFaqItems.length > 0 && (
-      <section class="mt-8 not-prose" aria-label={faqTitle}>
-        <h2 class="text-xl font-bold">{faqTitle}</h2>
-        <div class="mt-4 space-y-2">
-          {articleFaqItems.map((item) => (
-            <details class="group rounded-lg border border-border bg-card">
-              <summary class="flex cursor-pointer list-none items-center justify-between gap-2 px-4 py-3 text-sm font-semibold text-foreground [&::-webkit-details-marker]:hidden">
-                {item.question}
-                <Icon name="lucide:chevron-down" class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
-              </summary>
-              <div class="border-t border-border px-4 py-3 text-sm text-foreground">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </section>
-    )}
-
-    {/* Mobile TOC (collapsible) — desktop TOC is sticky in the sidebar area */}
+    {/* Mobile TOC (collapsible) — desktop TOC sits with the sidebar */}
     <div class="mt-6 lg:hidden">
       <TableOfContents headings={headings} heading={shared.onThisPage} />
     </div>
@@ -428,6 +400,44 @@ const jsonLd = [
     {/* Gallery — thumbnail grid + native dialog lightbox (renders nothing when empty) */}
     <ArticleGallery items={entry.data.gallery} heading={shared.gallery} labels={shared.galleryLabels ?? {}} />
 
+    {/* Visible codes FAQ — keeps the FAQPage structured data honest. Native
+        <details>, zero JS. Sits after the body so the guide is read first. */}
+    {codesFaqItems.length > 0 && (
+      <section class="mt-10 not-prose" aria-label={codesFaqTitle}>
+        <h2 class="font-display text-2xl font-semibold tracking-tight">{codesFaqTitle}</h2>
+        <div class="mt-4 space-y-2">
+          {codesFaqItems.map((item) => (
+            <details class="faq-item group">
+              <summary>
+                {item.question}
+                <Icon name="lucide:chevron-down" class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
+              </summary>
+              <div>{item.answer}</div>
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* Visible per-article FAQ (frontmatter `faq`) — same strings feed the
+        merged FAQPage JSON-LD above. */}
+    {articleFaqItems.length > 0 && (
+      <section class="mt-10 not-prose" aria-label={faqTitle}>
+        <h2 class="font-display text-2xl font-semibold tracking-tight">{faqTitle}</h2>
+        <div class="mt-4 space-y-2">
+          {articleFaqItems.map((item) => (
+            <details class="faq-item group">
+              <summary>
+                {item.question}
+                <Icon name="lucide:chevron-down" class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
+              </summary>
+              <div>{item.answer}</div>
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+
     {/* Tags */}
     {
       entry.data.tags.length > 0 && (
@@ -455,15 +465,25 @@ const jsonLd = [
       related.length > 0 && (
         <section class="mt-12 border-t border-border pt-8">
           <h2 class="text-xl font-bold">{shared.relatedArticles}</h2>
-          <div class="mt-4 grid gap-3 sm:grid-cols-3">
+          <div class="mt-4 grid gap-4 sm:grid-cols-3">
             {related.map((rel: WikiEntry) => {
               const relSlug = parseEntryId(rel.id)?.slug ?? '';
               const relCat = rel.data.category;
               return (
-                <a href={detailPath(relCat, relSlug, locale)} class="card flex h-full flex-col p-4">
-                  <p class="text-xs font-semibold uppercase tracking-wider text-nav">{nav[relCat] ?? relCat}</p>
-                  <h3 class="mt-1 text-sm font-semibold leading-snug">{rel.data.title}</h3>
-                  <p class="mt-1 line-clamp-2 text-xs text-muted-foreground">{rel.data.description}</p>
+                <a href={detailPath(relCat, relSlug, locale)} class="card flex h-full flex-col overflow-hidden p-0">
+                  {rel.data.image && (
+                    <ArticleCover
+                      src={rel.data.image}
+                      alt=""
+                      sizes="(max-width: 640px) 100vw, 14rem"
+                      class="mb-0 aspect-video w-full rounded-none object-cover"
+                    />
+                  )}
+                  <div class="flex flex-1 flex-col p-4">
+                    <p class="text-xs font-semibold uppercase tracking-wider text-nav">{nav[relCat] ?? relCat}</p>
+                    <h3 class="mt-1 font-display text-sm font-semibold leading-snug">{rel.data.title}</h3>
+                    <p class="mt-1 line-clamp-3 text-xs leading-relaxed text-muted-foreground">{rel.data.description}</p>
+                  </div>
                 </a>
               );
             })}
@@ -472,6 +492,9 @@ const jsonLd = [
       )
     }
     </AdsterraSlotPair>
+
+    <PlayCta locale={locale} />
+
     {/* Prev / Next within the same category */}
     {(olderEntry || newerEntry) && (
       <nav class="mt-10 grid gap-3 sm:grid-cols-2" aria-label={shared.paginationAria ?? 'Article pagination'}>
@@ -529,7 +552,7 @@ const jsonLd = [
   </article>
     {/* Desktop TOC — sticky, between article and sidebar */}
     <div class="hidden w-56 shrink-0 lg:block xl:w-64">
-      <div class="sticky top-20 space-y-6">
+      <div class="sticky top-20 max-h-[calc(100vh-6rem)] space-y-6 overflow-y-auto">
         <TableOfContents headings={headings} heading={shared.onThisPage} />
         <WikiSidebar locale={locale} currentPath={Astro.url.pathname} compact={true} />
       </div>

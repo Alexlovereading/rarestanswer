@@ -1,0 +1,1394 @@
+{
+  "id": "martial-arts",
+  "slug": "martial-arts",
+  "category": "sports",
+  "question": "Name a martial art",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Kalaripayattu stick-fighting",
+      "aliases": [
+        "Kalarippayattu stick fighting"
+      ],
+      "popularity": 38,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Kalaripayattu stick-fighting"
+    },
+    {
+      "name": "Abir-Qesheth Hebrew Warrior Arts",
+      "aliases": [],
+      "popularity": 57,
+      "rarity": 0.993,
+      "tier": 6,
+      "wiki": "Abir-Qesheth Hebrew Warrior Arts"
+    },
+    {
+      "name": "Cheibi",
+      "aliases": [
+        "Cheibi Gad-Ga",
+        "Gad-Ga",
+        "GadGa"
+      ],
+      "popularity": 406,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Cheibi"
+    },
+    {
+      "name": "Sayoc Kali",
+      "aliases": [],
+      "popularity": 490,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Sayoc Kali"
+    },
+    {
+      "name": "Meitei martial arts",
+      "aliases": [],
+      "popularity": 630,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Meitei martial arts"
+    },
+    {
+      "name": "Pahlevani wrestling",
+      "aliases": [
+        "Iranian wrestling",
+        "Koshti Pahlavāni",
+        "Pahlavāni",
+        "Pahlavāni wrestling"
+      ],
+      "popularity": 843,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Pahlevani wrestling"
+    },
+    {
+      "name": "Daab Chao Ram",
+      "aliases": [],
+      "popularity": 1158,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Daab Chao Ram"
+    },
+    {
+      "name": "Kenko Kempo Karate",
+      "aliases": [
+        "Kenko Kempo"
+      ],
+      "popularity": 1260,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Kenko Kempo Karate"
+    },
+    {
+      "name": "Aki Kiti",
+      "aliases": [
+        "Akikiti",
+        "Sümi kick fighting"
+      ],
+      "popularity": 1318,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Aki Kiti"
+    },
+    {
+      "name": "Slavic-Hill Rodnovery",
+      "aliases": [
+        "Gorits Fighting",
+        "Slavic-hill wrestling"
+      ],
+      "popularity": 1326,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Slavic-Hill Rodnovery"
+    },
+    {
+      "name": "Kinomichi",
+      "aliases": [],
+      "popularity": 1643,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Kinomichi"
+    },
+    {
+      "name": "Hapki yusul",
+      "aliases": [],
+      "popularity": 1691,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Hapki yusul"
+    },
+    {
+      "name": "Hankumdo",
+      "aliases": [],
+      "popularity": 1708,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Hankumdo"
+    },
+    {
+      "name": "Cocobalé",
+      "aliases": [],
+      "popularity": 1835,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Cocobalé"
+    },
+    {
+      "name": "Huiyen Lallong",
+      "aliases": [
+        "Thang-Ta"
+      ],
+      "popularity": 1916,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Huiyen Lallong"
+    },
+    {
+      "name": "Buza",
+      "aliases": [
+        "Buza (martial art)"
+      ],
+      "popularity": 1932,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Buza (martial art)"
+    },
+    {
+      "name": "Caci",
+      "aliases": [
+        "Caci (fighting)"
+      ],
+      "popularity": 1958,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Caci (fighting)"
+    },
+    {
+      "name": "Hankido",
+      "aliases": [],
+      "popularity": 2027,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Hankido"
+    },
+    {
+      "name": "Juego del palo",
+      "aliases": [
+        "Lucha del Garrote"
+      ],
+      "popularity": 2139,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Juego del palo"
+    },
+    {
+      "name": "Pongyi thaing",
+      "aliases": [],
+      "popularity": 2157,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Pongyi thaing"
+    },
+    {
+      "name": "Tang Shou Tao",
+      "aliases": [],
+      "popularity": 2232,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Tang Shou Tao"
+    },
+    {
+      "name": "Yau Kung Moon",
+      "aliases": [],
+      "popularity": 2399,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Yau Kung Moon"
+    },
+    {
+      "name": "Kombatan",
+      "aliases": [],
+      "popularity": 2407,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Kombatan"
+    },
+    {
+      "name": "Shintaido",
+      "aliases": [],
+      "popularity": 2437,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Shintaido"
+    },
+    {
+      "name": "Gwonbeop",
+      "aliases": [],
+      "popularity": 2553,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Gwonbeop"
+    },
+    {
+      "name": "Kong Soo Do",
+      "aliases": [],
+      "popularity": 2621,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Kong Soo Do"
+    },
+    {
+      "name": "Shōrinji-ryū",
+      "aliases": [],
+      "popularity": 2729,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Shōrinji-ryū"
+    },
+    {
+      "name": "Pencak Silat Harimau",
+      "aliases": [
+        "Silat Harimau"
+      ],
+      "popularity": 3142,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Pencak Silat Harimau"
+    },
+    {
+      "name": "Ziranmen",
+      "aliases": [
+        "Zi Ran Men"
+      ],
+      "popularity": 3252,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Ziranmen"
+    },
+    {
+      "name": "Butthan",
+      "aliases": [],
+      "popularity": 3423,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Butthan"
+    },
+    {
+      "name": "Sunmudo",
+      "aliases": [],
+      "popularity": 3508,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Sunmudo"
+    },
+    {
+      "name": "Shiranui-ryū",
+      "aliases": [],
+      "popularity": 3627,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Shiranui-ryū"
+    },
+    {
+      "name": "Jidokwan",
+      "aliases": [],
+      "popularity": 3629,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Jidokwan"
+    },
+    {
+      "name": "Chuojiao",
+      "aliases": [],
+      "popularity": 3682,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Chuojiao"
+    },
+    {
+      "name": "Chaquan",
+      "aliases": [],
+      "popularity": 4075,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Chaquan"
+    },
+    {
+      "name": "Suijutsu",
+      "aliases": [
+        "Eihōjutsu",
+        "Koshiki eihō",
+        "Nihon eihō",
+        "Noshi-oyogi",
+        "Shūsuijutsu",
+        "Suiren"
+      ],
+      "popularity": 4376,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Suijutsu"
+    },
+    {
+      "name": "Sin Moo Hapkido",
+      "aliases": [],
+      "popularity": 4480,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Sin Moo Hapkido"
+    },
+    {
+      "name": "Aquathlon",
+      "aliases": [
+        "Aquathlon (underwater wrestling)",
+        "underwater wrestling"
+      ],
+      "popularity": 4516,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Aquathlon (underwater wrestling)"
+    },
+    {
+      "name": "Danmyé",
+      "aliases": [],
+      "popularity": 4721,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Danmyé"
+    },
+    {
+      "name": "Side control",
+      "aliases": [],
+      "popularity": 5202,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Side control"
+    },
+    {
+      "name": "Kashima Shin-ryū",
+      "aliases": [],
+      "popularity": 5285,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Kashima Shin-ryū"
+    },
+    {
+      "name": "Shuri-ryū",
+      "aliases": [],
+      "popularity": 5359,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Shuri-ryū"
+    },
+    {
+      "name": "Real Aikido",
+      "aliases": [],
+      "popularity": 5463,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Real Aikido"
+    },
+    {
+      "name": "Ludosport",
+      "aliases": [],
+      "popularity": 5478,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Ludosport"
+    },
+    {
+      "name": "Tan Tui",
+      "aliases": [],
+      "popularity": 5532,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Tan Tui"
+    },
+    {
+      "name": "Huka-huka",
+      "aliases": [],
+      "popularity": 5594,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Huka-huka"
+    },
+    {
+      "name": "Weng Chun",
+      "aliases": [],
+      "popularity": 5602,
+      "rarity": 0.699,
+      "tier": 4,
+      "wiki": "Weng Chun"
+    },
+    {
+      "name": "Yongmudo",
+      "aliases": [
+        "Yongmoodo"
+      ],
+      "popularity": 5606,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "Yongmudo"
+    },
+    {
+      "name": "Limalama",
+      "aliases": [],
+      "popularity": 5781,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Limalama"
+    },
+    {
+      "name": "Bataireacht",
+      "aliases": [],
+      "popularity": 6392,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Bataireacht"
+    },
+    {
+      "name": "Calinda",
+      "aliases": [
+        "kalenda"
+      ],
+      "popularity": 6433,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Calinda"
+    },
+    {
+      "name": "Lathi khela",
+      "aliases": [],
+      "popularity": 6929,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Lathi khela"
+    },
+    {
+      "name": "Combat Hapkido",
+      "aliases": [],
+      "popularity": 6973,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Combat Hapkido"
+    },
+    {
+      "name": "Takenouchi-ryū",
+      "aliases": [
+        "Hinoshita Torite Kaisan Takenouchi-ryū"
+      ],
+      "popularity": 7317,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Takenouchi-ryū"
+    },
+    {
+      "name": "Brazilian martial arts",
+      "aliases": [],
+      "popularity": 7361,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Brazilian martial arts"
+    },
+    {
+      "name": "Yoseikan budō",
+      "aliases": [],
+      "popularity": 7563,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Yoseikan budō"
+    },
+    {
+      "name": "GongKwon Yusul",
+      "aliases": [],
+      "popularity": 7622,
+      "rarity": 0.634,
+      "tier": 4,
+      "wiki": "GongKwon Yusul"
+    },
+    {
+      "name": "Taiho-jutsu",
+      "aliases": [],
+      "popularity": 7802,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Taiho-jutsu"
+    },
+    {
+      "name": "Jūkendō",
+      "aliases": [],
+      "popularity": 7916,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Jūkendō"
+    },
+    {
+      "name": "Jogo do pau",
+      "aliases": [
+        "Xogo do pau"
+      ],
+      "popularity": 8107,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Jogo do pau"
+    },
+    {
+      "name": "Liuhebafa",
+      "aliases": [],
+      "popularity": 8270,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Liuhebafa"
+    },
+    {
+      "name": "Hokutoryu Ju-Jutsu",
+      "aliases": [],
+      "popularity": 8277,
+      "rarity": 0.601,
+      "tier": 4,
+      "wiki": "Hokutoryu Ju-Jutsu"
+    },
+    {
+      "name": "Combat pistol shooting",
+      "aliases": [],
+      "popularity": 8341,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Combat pistol shooting"
+    },
+    {
+      "name": "Kitō-ryū",
+      "aliases": [],
+      "popularity": 8670,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Kitō-ryū"
+    },
+    {
+      "name": "Qwan Ki Do",
+      "aliases": [],
+      "popularity": 8753,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Qwan Ki Do"
+    },
+    {
+      "name": "Kyeok Sul Do",
+      "aliases": [
+        "Kuk Sul Do"
+      ],
+      "popularity": 9077,
+      "rarity": 0.575,
+      "tier": 3,
+      "wiki": "Kyeok Sul Do"
+    },
+    {
+      "name": "Defendo",
+      "aliases": [],
+      "popularity": 9137,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Defendo"
+    },
+    {
+      "name": "Randori",
+      "aliases": [],
+      "popularity": 9171,
+      "rarity": 0.562,
+      "tier": 3,
+      "wiki": "Randori"
+    },
+    {
+      "name": "Wu-style tai chi",
+      "aliases": [],
+      "popularity": 9758,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Wu-style tai chi"
+    },
+    {
+      "name": "Kuntao",
+      "aliases": [],
+      "popularity": 9901,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "Kuntao"
+    },
+    {
+      "name": "Combat Hopak",
+      "aliases": [],
+      "popularity": 10393,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Combat Hopak"
+    },
+    {
+      "name": "Sōjutsu",
+      "aliases": [],
+      "popularity": 10457,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Sōjutsu"
+    },
+    {
+      "name": "Northern Shaolin kung fu",
+      "aliases": [
+        "Northern Shaolin"
+      ],
+      "popularity": 11257,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Northern Shaolin kung fu"
+    },
+    {
+      "name": "Jōdō",
+      "aliases": [],
+      "popularity": 11531,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Jōdō"
+    },
+    {
+      "name": "Angampora",
+      "aliases": [],
+      "popularity": 11760,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Angampora"
+    },
+    {
+      "name": "Silat Melayu",
+      "aliases": [],
+      "popularity": 11847,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Silat Melayu"
+    },
+    {
+      "name": "Bando",
+      "aliases": [],
+      "popularity": 12104,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Bando"
+    },
+    {
+      "name": "Indonesian martial arts",
+      "aliases": [],
+      "popularity": 12196,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Indonesian martial arts"
+    },
+    {
+      "name": "Shaolin Kempo Karate",
+      "aliases": [
+        "SKK"
+      ],
+      "popularity": 13060,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Shaolin Kempo Karate"
+    },
+    {
+      "name": "Muay Lao",
+      "aliases": [],
+      "popularity": 13174,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Muay Lao"
+    },
+    {
+      "name": "Subak",
+      "aliases": [],
+      "popularity": 13262,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Subak"
+    },
+    {
+      "name": "Rough and tumble fighting",
+      "aliases": [
+        "Gouging"
+      ],
+      "popularity": 13277,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Rough and tumble fighting"
+    },
+    {
+      "name": "Pekiti-Tirsia Kali",
+      "aliases": [],
+      "popularity": 13283,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Pekiti-Tirsia Kali"
+    },
+    {
+      "name": "Glíma",
+      "aliases": [],
+      "popularity": 13394,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Glíma"
+    },
+    {
+      "name": "Naginatajutsu",
+      "aliases": [
+        "naginatadō"
+      ],
+      "popularity": 14330,
+      "rarity": 0.451,
+      "tier": 3,
+      "wiki": "Naginatajutsu"
+    },
+    {
+      "name": "Varma kalai",
+      "aliases": [],
+      "popularity": 14822,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Varma kalai"
+    },
+    {
+      "name": "Yaw-Yan",
+      "aliases": [],
+      "popularity": 15148,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Yaw-Yan"
+    },
+    {
+      "name": "Vietnamese martial arts",
+      "aliases": [],
+      "popularity": 15212,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Vietnamese martial arts"
+    },
+    {
+      "name": "Hwa Rang Do",
+      "aliases": [
+        "Dog ear cutting"
+      ],
+      "popularity": 15246,
+      "rarity": 0.425,
+      "tier": 3,
+      "wiki": "Hwa Rang Do"
+    },
+    {
+      "name": "Kapu Kuialua",
+      "aliases": [],
+      "popularity": 15345,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Kapu Kuialua"
+    },
+    {
+      "name": "Southern Praying Mantis",
+      "aliases": [],
+      "popularity": 15751,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Southern Praying Mantis"
+    },
+    {
+      "name": "Kumdo",
+      "aliases": [],
+      "popularity": 16269,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Kumdo"
+    },
+    {
+      "name": "Shoot boxing",
+      "aliases": [
+        "SB"
+      ],
+      "popularity": 16793,
+      "rarity": 0.399,
+      "tier": 2,
+      "wiki": "Shoot boxing"
+    },
+    {
+      "name": "Tricking",
+      "aliases": [
+        "Las artes marciales engañan",
+        "Martial Arts Tricking",
+        "Tricking (martial arts)"
+      ],
+      "popularity": 18278,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Tricking (martial arts)"
+    },
+    {
+      "name": "Neijia",
+      "aliases": [],
+      "popularity": 19661,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Neijia"
+    },
+    {
+      "name": "Chen-style tai chi",
+      "aliases": [],
+      "popularity": 20792,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Chen-style tai chi"
+    },
+    {
+      "name": "Kuk Sool Won",
+      "aliases": [],
+      "popularity": 20805,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Kuk Sool Won"
+    },
+    {
+      "name": "Engolo",
+      "aliases": [
+        "Zebra dance"
+      ],
+      "popularity": 20808,
+      "rarity": 0.366,
+      "tier": 2,
+      "wiki": "Engolo"
+    },
+    {
+      "name": "Canne de combat",
+      "aliases": [],
+      "popularity": 20868,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Canne de combat"
+    },
+    {
+      "name": "Dambe",
+      "aliases": [],
+      "popularity": 21202,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Dambe"
+    },
+    {
+      "name": "Taidō",
+      "aliases": [],
+      "popularity": 21667,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Taidō"
+    },
+    {
+      "name": "Tameshigiri",
+      "aliases": [
+        "test cutting"
+      ],
+      "popularity": 23600,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Tameshigiri"
+    },
+    {
+      "name": "Muay boran",
+      "aliases": [],
+      "popularity": 23790,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Muay boran"
+    },
+    {
+      "name": "Hojōjutsu",
+      "aliases": [],
+      "popularity": 23823,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Hojōjutsu"
+    },
+    {
+      "name": "Chun Kuk Do",
+      "aliases": [
+        "Chuck Norris System"
+      ],
+      "popularity": 24038,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Chun Kuk Do"
+    },
+    {
+      "name": "Krabi–krabong",
+      "aliases": [],
+      "popularity": 24603,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Krabi–krabong"
+    },
+    {
+      "name": "Northern Praying Mantis",
+      "aliases": [
+        "Shandong Praying Mantis"
+      ],
+      "popularity": 25412,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Northern Praying Mantis"
+    },
+    {
+      "name": "Bokator",
+      "aliases": [
+        "Kun Lbokator",
+        "Lbokator"
+      ],
+      "popularity": 27798,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Bokator"
+    },
+    {
+      "name": "Kiai",
+      "aliases": [],
+      "popularity": 28762,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Kiai"
+    },
+    {
+      "name": "Indian martial arts",
+      "aliases": [],
+      "popularity": 30527,
+      "rarity": 0.288,
+      "tier": 2,
+      "wiki": "Indian martial arts"
+    },
+    {
+      "name": "Vovinam",
+      "aliases": [
+        "Việt võ đạo"
+      ],
+      "popularity": 31181,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Vovinam"
+    },
+    {
+      "name": "Stick-fighting",
+      "aliases": [],
+      "popularity": 31363,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Stick-fighting"
+    },
+    {
+      "name": "Choy Li Fut",
+      "aliases": [],
+      "popularity": 31517,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Choy Li Fut"
+    },
+    {
+      "name": "Kun Khmer",
+      "aliases": [
+        "Kbach Kun Khmer",
+        "Pradal Serey"
+      ],
+      "popularity": 32313,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Kun Khmer"
+    },
+    {
+      "name": "Taekkyon",
+      "aliases": [
+        "Taekkyeon"
+      ],
+      "popularity": 32720,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Taekkyon"
+    },
+    {
+      "name": "Defendu",
+      "aliases": [
+        "Close Quarters Combat System"
+      ],
+      "popularity": 33060,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Defendu"
+    },
+    {
+      "name": "Singlestick",
+      "aliases": [],
+      "popularity": 33629,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Singlestick"
+    },
+    {
+      "name": "Korean martial arts",
+      "aliases": [],
+      "popularity": 34358,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Korean martial arts"
+    },
+    {
+      "name": "Hybrid martial arts",
+      "aliases": [
+        "eclectic martial art",
+        "freestyle fighting",
+        "hybrid fighting system",
+        "hybrid martial art"
+      ],
+      "popularity": 34998,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Hybrid martial arts"
+    },
+    {
+      "name": "Daitō-ryū Aiki-jūjutsu",
+      "aliases": [],
+      "popularity": 36624,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Daitō-ryū Aiki-jūjutsu"
+    },
+    {
+      "name": "Okinawan martial arts",
+      "aliases": [
+        "Hand"
+      ],
+      "popularity": 38058,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Okinawan martial arts"
+    },
+    {
+      "name": "Filipino martial arts",
+      "aliases": [],
+      "popularity": 38252,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Filipino martial arts"
+    },
+    {
+      "name": "Shorinji Kempo",
+      "aliases": [],
+      "popularity": 44462,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Shorinji Kempo"
+    },
+    {
+      "name": "Ssireum",
+      "aliases": [
+        "Korean wrestling"
+      ],
+      "popularity": 46915,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Ssireum"
+    },
+    {
+      "name": "Xingyiquan",
+      "aliases": [],
+      "popularity": 47436,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Xingyiquan"
+    },
+    {
+      "name": "Bajiquan",
+      "aliases": [],
+      "popularity": 48037,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Bajiquan"
+    },
+    {
+      "name": "Bartitsu",
+      "aliases": [],
+      "popularity": 57231,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Bartitsu"
+    },
+    {
+      "name": "Kajukenbo",
+      "aliases": [
+        "Kaju"
+      ],
+      "popularity": 57465,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Kajukenbo"
+    },
+    {
+      "name": "Japanese martial arts",
+      "aliases": [
+        "martial arts in Japan"
+      ],
+      "popularity": 61359,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Japanese martial arts"
+    },
+    {
+      "name": "Kenpō",
+      "aliases": [
+        "kempo"
+      ],
+      "popularity": 64275,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Kenpō"
+    },
+    {
+      "name": "Marine Corps Martial Arts Program",
+      "aliases": [],
+      "popularity": 66330,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Marine Corps Martial Arts Program"
+    },
+    {
+      "name": "Baguazhang",
+      "aliases": [],
+      "popularity": 67933,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Baguazhang"
+    },
+    {
+      "name": "Iaido",
+      "aliases": [],
+      "popularity": 75816,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Iaido"
+    },
+    {
+      "name": "Sanda",
+      "aliases": [
+        "Chinese boxing",
+        "Chinese kickboxing",
+        "Sanda (sport)",
+        "Sanshou",
+        "Wushu Sanda",
+        "Wushu Sanshou"
+      ],
+      "popularity": 97288,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Sanda (sport)"
+    },
+    {
+      "name": "Historical European martial arts",
+      "aliases": [
+        "HEMA",
+        "Western martial arts"
+      ],
+      "popularity": 103284,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Historical European martial arts"
+    },
+    {
+      "name": "Pencak silat",
+      "aliases": [
+        "penca silat",
+        "silat"
+      ],
+      "popularity": 113996,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Pencak silat"
+    },
+    {
+      "name": "Hapkido",
+      "aliases": [
+        "hap ki do",
+        "hapki-do"
+      ],
+      "popularity": 130337,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Hapkido"
+    },
+    {
+      "name": "Pankration",
+      "aliases": [
+        "pancratium"
+      ],
+      "popularity": 131182,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Pankration"
+    },
+    {
+      "name": "Kalaripayattu",
+      "aliases": [],
+      "popularity": 135410,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Kalaripayattu"
+    },
+    {
+      "name": "Kendo",
+      "aliases": [],
+      "popularity": 160312,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Kendo"
+    },
+    {
+      "name": "Tang Soo Do",
+      "aliases": [
+        "Tangsudo"
+      ],
+      "popularity": 171113,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Tang Soo Do"
+    },
+    {
+      "name": "Chinese martial arts",
+      "aliases": [
+        "kung fu",
+        "kuoshu",
+        "wushu"
+      ],
+      "popularity": 190198,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Chinese martial arts"
+    },
+    {
+      "name": "Jeet Kune Do",
+      "aliases": [
+        "JKD"
+      ],
+      "popularity": 221494,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Jeet Kune Do"
+    },
+    {
+      "name": "Capoeira",
+      "aliases": [],
+      "popularity": 237235,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Capoeira"
+    },
+    {
+      "name": "Aikido",
+      "aliases": [],
+      "popularity": 270763,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Aikido"
+    },
+    {
+      "name": "Karate",
+      "aliases": [
+        "karate-dō",
+        "karatedō"
+      ],
+      "popularity": 331610,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Karate"
+    },
+    {
+      "name": "Sumo",
+      "aliases": [
+        "sumo wrestling"
+      ],
+      "popularity": 337145,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Sumo"
+    },
+    {
+      "name": "Sambo",
+      "aliases": [
+        "Sambo (martial art)"
+      ],
+      "popularity": 339455,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Sambo (martial art)"
+    },
+    {
+      "name": "Jujutsu",
+      "aliases": [
+        "Jiu-Jitsu",
+        "Jiujitsu",
+        "Ju Jitsu"
+      ],
+      "popularity": 371430,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Jujutsu"
+    },
+    {
+      "name": "Judo",
+      "aliases": [],
+      "popularity": 372474,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Judo"
+    },
+    {
+      "name": "Taekwondo",
+      "aliases": [
+        "Korean Karate",
+        "tae kwon do",
+        "taekwon-do",
+        "TaeKwonDu",
+        "TKD"
+      ],
+      "popularity": 458008,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Taekwondo"
+    },
+    {
+      "name": "Muay Thai",
+      "aliases": [
+        "Muaythai",
+        "Thai boxing"
+      ],
+      "popularity": 460233,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Muay Thai"
+    },
+    {
+      "name": "Brazilian jiu-jitsu",
+      "aliases": [
+        "BJJ",
+        "Gracie jiu Jitsu brasileño"
+      ],
+      "popularity": 482380,
+      "rarity": 0.007,
+      "tier": 1,
+      "wiki": "Brazilian jiu-jitsu"
+    },
+    {
+      "name": "Krav Maga",
+      "aliases": [
+        "Kravmaga"
+      ],
+      "popularity": 501136,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Krav Maga"
+    }
+  ]
+}

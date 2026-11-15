@@ -1,0 +1,1136 @@
+{
+  "id": "gull-species",
+  "slug": "gull-species",
+  "category": "animals",
+  "question": "Name a species of gull or tern",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Peruvian tern",
+      "aliases": [
+        "Sterna lorata",
+        "Sternula lorata"
+      ],
+      "popularity": 876,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Peruvian tern"
+    },
+    {
+      "name": "Snowy-crowned tern",
+      "aliases": [
+        "Sterna trudeaui"
+      ],
+      "popularity": 1023,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Snowy-crowned tern"
+    },
+    {
+      "name": "Kerguelen tern",
+      "aliases": [
+        "Sterna virgata"
+      ],
+      "popularity": 1218,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Kerguelen tern"
+    },
+    {
+      "name": "Yellow-billed tern",
+      "aliases": [
+        "Sterna superciliaris",
+        "Sternula superciliaris"
+      ],
+      "popularity": 1331,
+      "rarity": 0.972,
+      "tier": 6,
+      "wiki": "Yellow-billed tern"
+    },
+    {
+      "name": "Damara tern",
+      "aliases": [
+        "Sterna balaenarum",
+        "Sternula balaenarum"
+      ],
+      "popularity": 1369,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Damara tern"
+    },
+    {
+      "name": "West African crested tern",
+      "aliases": [
+        "Thalasseus albididorsalis"
+      ],
+      "popularity": 1452,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "West African crested tern"
+    },
+    {
+      "name": "White-cheeked tern",
+      "aliases": [
+        "Sterna repressa"
+      ],
+      "popularity": 1460,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "White-cheeked tern"
+    },
+    {
+      "name": "Spectacled tern",
+      "aliases": [
+        "Onychoprion lunatus",
+        "Sterna lunata"
+      ],
+      "popularity": 1548,
+      "rarity": 0.934,
+      "tier": 6,
+      "wiki": "Spectacled tern"
+    },
+    {
+      "name": "South American tern",
+      "aliases": [
+        "Sterna hirundinacea"
+      ],
+      "popularity": 1573,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "South American tern"
+    },
+    {
+      "name": "Saunders's tern",
+      "aliases": [
+        "Black-shafted tern",
+        "Sterna saundersii",
+        "Sternula saundersi"
+      ],
+      "popularity": 1788,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Saunders's tern"
+    },
+    {
+      "name": "Large-billed tern",
+      "aliases": [
+        "Phaetusa simplex"
+      ],
+      "popularity": 1932,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Large-billed tern"
+    },
+    {
+      "name": "Australian tern",
+      "aliases": [
+        "Gelochelidon macrotarsa",
+        "Gelochelidon nilotica macrotarsa"
+      ],
+      "popularity": 1965,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Australian tern"
+    },
+    {
+      "name": "Black-fronted tern",
+      "aliases": [
+        "Chlidonias albostriatus",
+        "Sterna albostriata"
+      ],
+      "popularity": 2158,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Black-fronted tern"
+    },
+    {
+      "name": "Thayer's gull",
+      "aliases": [
+        "Larus thayeri"
+      ],
+      "popularity": 2158,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Thayer's gull"
+    },
+    {
+      "name": "Olrog's gull",
+      "aliases": [
+        "Larus atlanticus",
+        "Olrogís gull"
+      ],
+      "popularity": 2191,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Olrog's gull"
+    },
+    {
+      "name": "Blue noddy",
+      "aliases": [
+        "Procelsterna cerulea"
+      ],
+      "popularity": 2257,
+      "rarity": 0.858,
+      "tier": 5,
+      "wiki": "Blue noddy"
+    },
+    {
+      "name": "Cabot's tern",
+      "aliases": [
+        "Thalasseus acuflavidus"
+      ],
+      "popularity": 2266,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Cabot's tern"
+    },
+    {
+      "name": "Black-bellied tern",
+      "aliases": [
+        "Sterna acuticauda",
+        "Sterna melanogaster"
+      ],
+      "popularity": 2539,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Black-bellied tern"
+    },
+    {
+      "name": "Brown-hooded gull",
+      "aliases": [
+        "Chroicocephalus maculipennis"
+      ],
+      "popularity": 2583,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Brown-hooded gull"
+    },
+    {
+      "name": "White-eyed gull",
+      "aliases": [
+        "Ichthyaetus leucophthalmus",
+        "Larus leucophthalmus"
+      ],
+      "popularity": 2643,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "White-eyed gull"
+    },
+    {
+      "name": "Little white tern",
+      "aliases": [
+        "Gygis microrhyncha"
+      ],
+      "popularity": 2674,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Little white tern"
+    },
+    {
+      "name": "Aleutian tern",
+      "aliases": [
+        "Onychoprion aleuticus",
+        "Sterna aleutica"
+      ],
+      "popularity": 2691,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Aleutian tern"
+    },
+    {
+      "name": "Grey noddy",
+      "aliases": [
+        "Anous albivitta",
+        "Grey Ternlet",
+        "Procelsterna albivitta"
+      ],
+      "popularity": 2693,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Grey noddy"
+    },
+    {
+      "name": "Mongolian gull",
+      "aliases": [
+        "Larus mongolicus",
+        "Larus vegae mongolicus"
+      ],
+      "popularity": 2757,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Mongolian gull"
+    },
+    {
+      "name": "Sooty gull",
+      "aliases": [
+        "Ichthyaetus hemprichii",
+        "Larus hemprichi",
+        "Larus hemprichii"
+      ],
+      "popularity": 2779,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Sooty gull"
+    },
+    {
+      "name": "Belcher's gull",
+      "aliases": [
+        "Larus belcheri"
+      ],
+      "popularity": 2782,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Belcher's gull"
+    },
+    {
+      "name": "Andean gull",
+      "aliases": [
+        "Chroicocephalus serranus"
+      ],
+      "popularity": 2810,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Andean gull"
+    },
+    {
+      "name": "Lesser noddy",
+      "aliases": [
+        "Anous tenuirostris"
+      ],
+      "popularity": 2911,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Lesser noddy"
+    },
+    {
+      "name": "Hartlaub's gull",
+      "aliases": [
+        "Chroicocephalus hartlaubii",
+        "king gull"
+      ],
+      "popularity": 2927,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Hartlaub's gull"
+    },
+    {
+      "name": "Black-naped tern",
+      "aliases": [
+        "Sterna sumatrana"
+      ],
+      "popularity": 2945,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Black-naped tern"
+    },
+    {
+      "name": "Grey-headed gull",
+      "aliases": [
+        "Chroicocephalus cirrocephalus",
+        "gray-hooded gull"
+      ],
+      "popularity": 3075,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Grey-headed gull"
+    },
+    {
+      "name": "Relict gull",
+      "aliases": [
+        "Ichthyaetus relictus"
+      ],
+      "popularity": 3124,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Relict gull"
+    },
+    {
+      "name": "Yellow-footed gull",
+      "aliases": [
+        "Larus livens"
+      ],
+      "popularity": 3346,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Yellow-footed gull"
+    },
+    {
+      "name": "White-fronted tern",
+      "aliases": [
+        "Sterna striata"
+      ],
+      "popularity": 3389,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "White-fronted tern"
+    },
+    {
+      "name": "Dolphin gull",
+      "aliases": [
+        "Leucophaeus scoresbii",
+        "Magellan gull"
+      ],
+      "popularity": 3390,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Dolphin gull"
+    },
+    {
+      "name": "Saunders's gull",
+      "aliases": [
+        "Chroicocephalus saundersi",
+        "Larus saundersi",
+        "Saundersilarus saundersi"
+      ],
+      "popularity": 3421,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Saunders's gull"
+    },
+    {
+      "name": "River tern",
+      "aliases": [
+        "Sterna aurantia"
+      ],
+      "popularity": 3884,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "River tern"
+    },
+    {
+      "name": "Slaty-backed gull",
+      "aliases": [
+        "Larus schistisagus"
+      ],
+      "popularity": 4173,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Slaty-backed gull"
+    },
+    {
+      "name": "African skimmer",
+      "aliases": [
+        "Rynchops flavirostris"
+      ],
+      "popularity": 4318,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "African skimmer"
+    },
+    {
+      "name": "Lesser crested tern",
+      "aliases": [
+        "Thalasseus bengalensis"
+      ],
+      "popularity": 4450,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Lesser crested tern"
+    },
+    {
+      "name": "Chinese crested tern",
+      "aliases": [
+        "Sterna bernsteini",
+        "Thalasseus bernsteini"
+      ],
+      "popularity": 4653,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Chinese crested tern"
+    },
+    {
+      "name": "Slender-billed gull",
+      "aliases": [
+        "Chroicocephalus genei",
+        "Larus genei"
+      ],
+      "popularity": 4957,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Slender-billed gull"
+    },
+    {
+      "name": "Elegant tern",
+      "aliases": [
+        "Sterna elegans",
+        "Thalasseus elegans"
+      ],
+      "popularity": 5036,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Elegant tern"
+    },
+    {
+      "name": "Grey gull",
+      "aliases": [
+        "Gray Gull",
+        "Larus modestus",
+        "Leucophaeus modestus"
+      ],
+      "popularity": 5133,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Grey gull"
+    },
+    {
+      "name": "Vega gull",
+      "aliases": [
+        "Larus vegae"
+      ],
+      "popularity": 5180,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Vega gull"
+    },
+    {
+      "name": "White-winged tern",
+      "aliases": [
+        "Chlidonias leucopterus",
+        "white-winged black tern"
+      ],
+      "popularity": 5382,
+      "rarity": 0.575,
+      "tier": 3,
+      "wiki": "White-winged tern"
+    },
+    {
+      "name": "Lava gull",
+      "aliases": [
+        "Dusky gull",
+        "Leucophaeus fuliginosus"
+      ],
+      "popularity": 5582,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "Lava gull"
+    },
+    {
+      "name": "Black-billed gull",
+      "aliases": [
+        "Chroicocephalus bulleri"
+      ],
+      "popularity": 6023,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Black-billed gull"
+    },
+    {
+      "name": "Brown-headed gull",
+      "aliases": [
+        "Chroicocephalus brunnicephalus",
+        "Larus brunnicephalus"
+      ],
+      "popularity": 6233,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Brown-headed gull"
+    },
+    {
+      "name": "Armenian gull",
+      "aliases": [
+        "Larus armenicus"
+      ],
+      "popularity": 6327,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Armenian gull"
+    },
+    {
+      "name": "Red-legged kittiwake",
+      "aliases": [
+        "Rissa brevirostris"
+      ],
+      "popularity": 6435,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Red-legged kittiwake"
+    },
+    {
+      "name": "Bridled tern",
+      "aliases": [
+        "Onychoprion anaethetus",
+        "Sterna anaethetus"
+      ],
+      "popularity": 6547,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Bridled tern"
+    },
+    {
+      "name": "Heermann's gull",
+      "aliases": [
+        "Larus heermanni"
+      ],
+      "popularity": 6559,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Heermann's gull"
+    },
+    {
+      "name": "Short-billed gull",
+      "aliases": [
+        "Larus brachyrhynchus",
+        "Mew Gull"
+      ],
+      "popularity": 6594,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Short-billed gull"
+    },
+    {
+      "name": "Atlantic white tern",
+      "aliases": [
+        "Angel tern",
+        "Common white tern",
+        "Gygis alba",
+        "kakaia",
+        "manu-o-Kū",
+        "White noddy",
+        "White Tern"
+      ],
+      "popularity": 6753,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Atlantic white tern"
+    },
+    {
+      "name": "Gull-billed tern",
+      "aliases": [
+        "Gelochelidon nilotica",
+        "Sterna nilotica"
+      ],
+      "popularity": 6887,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Gull-billed tern"
+    },
+    {
+      "name": "Antarctic tern",
+      "aliases": [
+        "Sterna vittata"
+      ],
+      "popularity": 6914,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Antarctic tern"
+    },
+    {
+      "name": "Forster's tern",
+      "aliases": [
+        "Sterna forsteri"
+      ],
+      "popularity": 6969,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Forster's tern"
+    },
+    {
+      "name": "Blue-billed white tern",
+      "aliases": [
+        "Gygis candida"
+      ],
+      "popularity": 6984,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Blue-billed white tern"
+    },
+    {
+      "name": "Indian skimmer",
+      "aliases": [
+        "Rynchops albicollis"
+      ],
+      "popularity": 7102,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Indian skimmer"
+    },
+    {
+      "name": "Iceland gull",
+      "aliases": [
+        "Larus glaucoides"
+      ],
+      "popularity": 7220,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Iceland gull"
+    },
+    {
+      "name": "Whiskered tern",
+      "aliases": [
+        "Chlidonias hybrida",
+        "Chlidonias hybridus"
+      ],
+      "popularity": 7305,
+      "rarity": 0.425,
+      "tier": 3,
+      "wiki": "Whiskered tern"
+    },
+    {
+      "name": "Audouin's gull",
+      "aliases": [
+        "Ichthyaetus audouinii"
+      ],
+      "popularity": 7808,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Audouin's gull"
+    },
+    {
+      "name": "Mediterranean gull",
+      "aliases": [
+        "Ichthyaetus melanocephalus",
+        "Larus melanocephalus"
+      ],
+      "popularity": 7953,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Mediterranean gull"
+    },
+    {
+      "name": "Ross's gull",
+      "aliases": [
+        "Rhodostethia rosea"
+      ],
+      "popularity": 8252,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Ross's gull"
+    },
+    {
+      "name": "Swallow-tailed gull",
+      "aliases": [
+        "Creagrus furcatus"
+      ],
+      "popularity": 8269,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Swallow-tailed gull"
+    },
+    {
+      "name": "Fairy tern",
+      "aliases": [
+        "Sterne nereis",
+        "Sternula nereis"
+      ],
+      "popularity": 8358,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Fairy tern"
+    },
+    {
+      "name": "Pallas's gull",
+      "aliases": [
+        "Ichthyaetus ichthyaetus"
+      ],
+      "popularity": 8422,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Pallas's gull"
+    },
+    {
+      "name": "Glaucous-winged gull",
+      "aliases": [
+        "Larus glaucescens"
+      ],
+      "popularity": 8761,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Glaucous-winged gull"
+    },
+    {
+      "name": "Least tern",
+      "aliases": [
+        "Sterna antillarum",
+        "Sternula antillarum"
+      ],
+      "popularity": 9185,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Least tern"
+    },
+    {
+      "name": "Black noddy",
+      "aliases": [
+        "Anous minutus"
+      ],
+      "popularity": 9509,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Black noddy"
+    },
+    {
+      "name": "Black tern",
+      "aliases": [
+        "Chlidonias niger"
+      ],
+      "popularity": 9547,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Black tern"
+    },
+    {
+      "name": "Little tern",
+      "aliases": [
+        "Sternula albifrons"
+      ],
+      "popularity": 9921,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Little tern"
+    },
+    {
+      "name": "Franklin's gull",
+      "aliases": [
+        "Larus pipixcan",
+        "Leucophaeus pipixcan"
+      ],
+      "popularity": 9941,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Franklin's gull"
+    },
+    {
+      "name": "Greater crested tern",
+      "aliases": [
+        "Great Crested Tern",
+        "Thalasseus bergii"
+      ],
+      "popularity": 10934,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Greater crested tern"
+    },
+    {
+      "name": "Caspian gull",
+      "aliases": [
+        "Larus cachinnans"
+      ],
+      "popularity": 10994,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Caspian gull"
+    },
+    {
+      "name": "Ivory gull",
+      "aliases": [
+        "Pagophila eburnea"
+      ],
+      "popularity": 11113,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Ivory gull"
+    },
+    {
+      "name": "Black-tailed gull",
+      "aliases": [
+        "Larus crassirostris"
+      ],
+      "popularity": 11375,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Black-tailed gull"
+    },
+    {
+      "name": "Little gull",
+      "aliases": [
+        "Hydrocoloeus minutus",
+        "Larus minutus"
+      ],
+      "popularity": 11735,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Little gull"
+    },
+    {
+      "name": "Roseate tern",
+      "aliases": [
+        "Sterna dougallii"
+      ],
+      "popularity": 12874,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Roseate tern"
+    },
+    {
+      "name": "Brown noddy",
+      "aliases": [
+        "Anous stolidus",
+        "common noddy"
+      ],
+      "popularity": 13369,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Brown noddy"
+    },
+    {
+      "name": "Royal tern",
+      "aliases": [
+        "Sterna maxima",
+        "Thalasseus maximus"
+      ],
+      "popularity": 13577,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Royal tern"
+    },
+    {
+      "name": "Glaucous gull",
+      "aliases": [
+        "Larus hyperboreus"
+      ],
+      "popularity": 14138,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Glaucous gull"
+    },
+    {
+      "name": "Sandwich tern",
+      "aliases": [
+        "Thalasseus sandvicensis"
+      ],
+      "popularity": 14284,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Sandwich tern"
+    },
+    {
+      "name": "Inca tern",
+      "aliases": [
+        "Larosterna inca"
+      ],
+      "popularity": 14697,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Inca tern"
+    },
+    {
+      "name": "Bonaparte's gull",
+      "aliases": [
+        "Chroicocephalus philadelphia"
+      ],
+      "popularity": 15221,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Bonaparte's gull"
+    },
+    {
+      "name": "Sabine's gull",
+      "aliases": [
+        "Xema sabini"
+      ],
+      "popularity": 16446,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Sabine's gull"
+    },
+    {
+      "name": "Silver gull",
+      "aliases": [
+        "Chroicocephalus novaehollandiae",
+        "Larus novaehollandiae"
+      ],
+      "popularity": 16464,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Silver gull"
+    },
+    {
+      "name": "Kelp gull",
+      "aliases": [
+        "Dominican gull",
+        "karoro",
+        "Larus dominicanus"
+      ],
+      "popularity": 18897,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Kelp gull"
+    },
+    {
+      "name": "California gull",
+      "aliases": [
+        "Larus californicus"
+      ],
+      "popularity": 19299,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "California gull"
+    },
+    {
+      "name": "Western gull",
+      "aliases": [
+        "Larus occidentalis"
+      ],
+      "popularity": 19360,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Western gull"
+    },
+    {
+      "name": "Caspian tern",
+      "aliases": [
+        "Hydroprogne caspia"
+      ],
+      "popularity": 19702,
+      "rarity": 0.142,
+      "tier": 1,
+      "wiki": "Caspian tern"
+    },
+    {
+      "name": "Pacific gull",
+      "aliases": [
+        "Larus pacificus"
+      ],
+      "popularity": 20504,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Pacific gull"
+    },
+    {
+      "name": "Black skimmer",
+      "aliases": [
+        "Rynchops niger",
+        "Rynchops nigra"
+      ],
+      "popularity": 20947,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Black skimmer"
+    },
+    {
+      "name": "Ring-billed gull",
+      "aliases": [
+        "Gaviota de Delaware",
+        "Larus delawarensis"
+      ],
+      "popularity": 22450,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Ring-billed gull"
+    },
+    {
+      "name": "Lesser black-backed gull",
+      "aliases": [
+        "Larus fuscus"
+      ],
+      "popularity": 22526,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Lesser black-backed gull"
+    },
+    {
+      "name": "Yellow-legged gull",
+      "aliases": [
+        "Larus michahellis"
+      ],
+      "popularity": 25680,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Yellow-legged gull"
+    },
+    {
+      "name": "Common gull",
+      "aliases": [
+        "Larus canus"
+      ],
+      "popularity": 26377,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Common gull"
+    },
+    {
+      "name": "Black-legged kittiwake",
+      "aliases": [
+        "Kittiwake",
+        "Rissa tridactyla"
+      ],
+      "popularity": 26412,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Black-legged kittiwake"
+    },
+    {
+      "name": "Laughing gull",
+      "aliases": [
+        "Larus atricilla",
+        "Leucophaeus atricilla"
+      ],
+      "popularity": 28034,
+      "rarity": 0.066,
+      "tier": 1,
+      "wiki": "Laughing gull"
+    },
+    {
+      "name": "American herring gull",
+      "aliases": [
+        "Larus smithsonianus"
+      ],
+      "popularity": 28192,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "American herring gull"
+    },
+    {
+      "name": "Common tern",
+      "aliases": [
+        "Sterna hirundo"
+      ],
+      "popularity": 31046,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Common tern"
+    },
+    {
+      "name": "Sooty tern",
+      "aliases": [
+        "Onychoprion fuscatus",
+        "Sterna fuscata"
+      ],
+      "popularity": 52032,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Sooty tern"
+    },
+    {
+      "name": "Great black-backed gull",
+      "aliases": [
+        "Larus marinus"
+      ],
+      "popularity": 53796,
+      "rarity": 0.028,
+      "tier": 1,
+      "wiki": "Great black-backed gull"
+    },
+    {
+      "name": "Black-headed gull",
+      "aliases": [
+        "Chroicocephalus ridibundus"
+      ],
+      "popularity": 66652,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Black-headed gull"
+    },
+    {
+      "name": "European herring gull",
+      "aliases": [
+        "Herring Gull",
+        "Larus argentatus"
+      ],
+      "popularity": 76422,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "European herring gull"
+    },
+    {
+      "name": "Arctic tern",
+      "aliases": [
+        "Sterna paradisaea"
+      ],
+      "popularity": 98692,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Arctic tern"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "best-animated-feature-films",
+  "slug": "best-animated-feature-films",
+  "category": "screen",
+  "question": "Name a film that won the Oscar for Best Animated Feature",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Wallace & Gromit: The Curse of the Were-Rabbit",
+      "aliases": [],
+      "popularity": 244442,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Wallace & Gromit: The Curse of the Were-Rabbit"
+    },
+    {
+      "name": "Inside Out",
+      "aliases": [],
+      "popularity": 283592,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Inside Out"
+    },
+    {
+      "name": "Happy Feet",
+      "aliases": [],
+      "popularity": 359322,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Happy Feet"
+    },
+    {
+      "name": "Guillermo del Toro's Pinocchio",
+      "aliases": [],
+      "popularity": 441736,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Guillermo del Toro's Pinocchio"
+    },
+    {
+      "name": "Rango",
+      "aliases": [
+        "Rango (2011 film)"
+      ],
+      "popularity": 506516,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Rango (2011 film)"
+    },
+    {
+      "name": "Brave",
+      "aliases": [
+        "Brave (2012 film)"
+      ],
+      "popularity": 510319,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Brave (2012 film)"
+    },
+    {
+      "name": "Soul",
+      "aliases": [
+        "Soul (2020 film)"
+      ],
+      "popularity": 530468,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Soul (2020 film)"
+    },
+    {
+      "name": "Big Hero 6",
+      "aliases": [
+        "Big Hero 6 (film)"
+      ],
+      "popularity": 559043,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Big Hero 6 (film)"
+    },
+    {
+      "name": "Up",
+      "aliases": [
+        "Up (2009 film)"
+      ],
+      "popularity": 699851,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Up (2009 film)"
+    },
+    {
+      "name": "Encanto",
+      "aliases": [],
+      "popularity": 712574,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Encanto"
+    },
+    {
+      "name": "The Incredibles",
+      "aliases": [
+        "Incredibles"
+      ],
+      "popularity": 716118,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "The Incredibles"
+    },
+    {
+      "name": "WALL-E",
+      "aliases": [],
+      "popularity": 721332,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "WALL-E"
+    },
+    {
+      "name": "Finding Nemo",
+      "aliases": [],
+      "popularity": 737712,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Finding Nemo"
+    },
+    {
+      "name": "Flow",
+      "aliases": [
+        "Flow (2024 film)",
+        "Straume"
+      ],
+      "popularity": 741087,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Flow (2024 film)"
+    },
+    {
+      "name": "The Boy and the Heron",
+      "aliases": [
+        "Boy and the Heron",
+        "How Do You Live?",
+        "Kimitachi wa Do Ikiru ka"
+      ],
+      "popularity": 783728,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "The Boy and the Heron"
+    },
+    {
+      "name": "Frozen",
+      "aliases": [
+        "Frozen (2013 film)"
+      ],
+      "popularity": 885262,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Frozen (2013 film)"
+    },
+    {
+      "name": "Coco",
+      "aliases": [
+        "Coco (2017 film)"
+      ],
+      "popularity": 905691,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Coco (2017 film)"
+    },
+    {
+      "name": "Ratatouille",
+      "aliases": [
+        "Ratatouille (film)"
+      ],
+      "popularity": 927782,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Ratatouille (film)"
+    },
+    {
+      "name": "Shrek",
+      "aliases": [],
+      "popularity": 1012564,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Shrek"
+    },
+    {
+      "name": "Spirited Away",
+      "aliases": [
+        "Sen to Chihiro no Kamikakushi"
+      ],
+      "popularity": 1030543,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Spirited Away"
+    },
+    {
+      "name": "Toy Story 3",
+      "aliases": [],
+      "popularity": 1042497,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Toy Story 3"
+    },
+    {
+      "name": "Spider-Man: Into the Spider-Verse",
+      "aliases": [],
+      "popularity": 1369885,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Spider-Man: Into the Spider-Verse"
+    },
+    {
+      "name": "Toy Story 4",
+      "aliases": [],
+      "popularity": 1467048,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Toy Story 4"
+    },
+    {
+      "name": "Zootopia",
+      "aliases": [],
+      "popularity": 1814392,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Zootopia"
+    },
+    {
+      "name": "KPop Demon Hunters",
+      "aliases": [
+        "K-Pop Demon Hunters",
+        "KDH",
+        "KPDH"
+      ],
+      "popularity": 5337705,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "KPop Demon Hunters"
+    }
+  ]
+}

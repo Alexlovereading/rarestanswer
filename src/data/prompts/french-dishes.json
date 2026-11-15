@@ -1,0 +1,392 @@
+{
+  "id": "french-dishes",
+  "slug": "french-dishes",
+  "category": "food",
+  "question": "Name a French dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Tarte à l'badrée",
+      "aliases": [],
+      "popularity": 686,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Tarte à l'badrée"
+    },
+    {
+      "name": "Freginat",
+      "aliases": [],
+      "popularity": 841,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Freginat"
+    },
+    {
+      "name": "Rougaille",
+      "aliases": [
+        "rougail"
+      ],
+      "popularity": 888,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Rougaille"
+    },
+    {
+      "name": "Chartreuse",
+      "aliases": [
+        "Chartreuse (dish)"
+      ],
+      "popularity": 1780,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Chartreuse (dish)"
+    },
+    {
+      "name": "Cacasse à cul nu",
+      "aliases": [],
+      "popularity": 3499,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Cacasse à cul nu"
+    },
+    {
+      "name": "Cotriade",
+      "aliases": [],
+      "popularity": 4290,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Cotriade"
+    },
+    {
+      "name": "Tablier de sapeur",
+      "aliases": [],
+      "popularity": 5978,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Tablier de sapeur"
+    },
+    {
+      "name": "Pieds paquets",
+      "aliases": [],
+      "popularity": 6745,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Pieds paquets"
+    },
+    {
+      "name": "Chèvre chaud",
+      "aliases": [
+        "warm goat cheese salad"
+      ],
+      "popularity": 8119,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Chèvre chaud"
+    },
+    {
+      "name": "Potjevleesch",
+      "aliases": [],
+      "popularity": 8912,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Potjevleesch"
+    },
+    {
+      "name": "Garbure",
+      "aliases": [],
+      "popularity": 9249,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Garbure"
+    },
+    {
+      "name": "Chocolate marquise",
+      "aliases": [],
+      "popularity": 11207,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Chocolate marquise"
+    },
+    {
+      "name": "Stoemp",
+      "aliases": [],
+      "popularity": 11521,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Stoemp"
+    },
+    {
+      "name": "Poule au pot",
+      "aliases": [],
+      "popularity": 15124,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Poule au pot"
+    },
+    {
+      "name": "Dampfnudel",
+      "aliases": [
+        "Dampfnudeln"
+      ],
+      "popularity": 18070,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Dampfnudel"
+    },
+    {
+      "name": "Pan bagnat",
+      "aliases": [],
+      "popularity": 19266,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Pan bagnat"
+    },
+    {
+      "name": "Pissaladière",
+      "aliases": [
+        "Pissalandrea",
+        "Pissalandrea or Pissaladière"
+      ],
+      "popularity": 20531,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Pissaladière"
+    },
+    {
+      "name": "Galantine",
+      "aliases": [],
+      "popularity": 21498,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Galantine"
+    },
+    {
+      "name": "Mesclun",
+      "aliases": [],
+      "popularity": 26666,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Mesclun"
+    },
+    {
+      "name": "Pressed duck",
+      "aliases": [],
+      "popularity": 26961,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Pressed duck"
+    },
+    {
+      "name": "Duck à l'orange",
+      "aliases": [],
+      "popularity": 32563,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Duck à l'orange"
+    },
+    {
+      "name": "Raviole du Dauphiné",
+      "aliases": [],
+      "popularity": 33328,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Raviole du Dauphiné"
+    },
+    {
+      "name": "Duck confit",
+      "aliases": [],
+      "popularity": 53140,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Duck confit"
+    },
+    {
+      "name": "Chicken chasseur",
+      "aliases": [
+        "Hunter's chicken"
+      ],
+      "popularity": 55469,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Chicken chasseur"
+    },
+    {
+      "name": "Mousse",
+      "aliases": [],
+      "popularity": 61127,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Mousse"
+    },
+    {
+      "name": "Croquembouche",
+      "aliases": [],
+      "popularity": 70166,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Croquembouche"
+    },
+    {
+      "name": "Gratin",
+      "aliases": [],
+      "popularity": 84190,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Gratin"
+    },
+    {
+      "name": "Consommé",
+      "aliases": [],
+      "popularity": 88497,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Consommé"
+    },
+    {
+      "name": "French tacos",
+      "aliases": [
+        "Lyonese tacos",
+        "Lyonnese tacos",
+        "tacos",
+        "tacos lyonnais"
+      ],
+      "popularity": 97175,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "French tacos"
+    },
+    {
+      "name": "Stew",
+      "aliases": [
+        "estouffade"
+      ],
+      "popularity": 111736,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Stew"
+    },
+    {
+      "name": "Flammekueche",
+      "aliases": [
+        "tarte flambée"
+      ],
+      "popularity": 111747,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Flammekueche"
+    },
+    {
+      "name": "Soufflé",
+      "aliases": [],
+      "popularity": 114405,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Soufflé"
+    },
+    {
+      "name": "Amuse-bouche",
+      "aliases": [
+        "amuse-gueule"
+      ],
+      "popularity": 120763,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Amuse-bouche"
+    },
+    {
+      "name": "Ragù",
+      "aliases": [],
+      "popularity": 126583,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Ragù"
+    },
+    {
+      "name": "Salade niçoise",
+      "aliases": [
+        "Niçard salad",
+        "Niçois salad",
+        "Niçoise salad"
+      ],
+      "popularity": 134871,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Salade niçoise"
+    },
+    {
+      "name": "Bouillabaisse",
+      "aliases": [],
+      "popularity": 137205,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Bouillabaisse"
+    },
+    {
+      "name": "Crêpe",
+      "aliases": [
+        "crêpes"
+      ],
+      "popularity": 156242,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Crêpe"
+    },
+    {
+      "name": "Beignet",
+      "aliases": [],
+      "popularity": 171026,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Beignet"
+    },
+    {
+      "name": "Waffle",
+      "aliases": [
+        "dough-based cake"
+      ],
+      "popularity": 178003,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Waffle"
+    },
+    {
+      "name": "Mille-feuille",
+      "aliases": [
+        "cream slice",
+        "custard slice",
+        "milfey",
+        "vanilla slice"
+      ],
+      "popularity": 219180,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Mille-feuille"
+    },
+    {
+      "name": "Ratatouille",
+      "aliases": [],
+      "popularity": 278931,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Ratatouille"
+    },
+    {
+      "name": "Eggs Benedict",
+      "aliases": [
+        "eggs Benny"
+      ],
+      "popularity": 335954,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Eggs Benedict"
+    },
+    {
+      "name": "Foie gras",
+      "aliases": [],
+      "popularity": 689024,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Foie gras"
+    }
+  ]
+}

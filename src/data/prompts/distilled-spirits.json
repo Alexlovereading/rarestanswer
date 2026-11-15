@@ -1,0 +1,679 @@
+{
+  "id": "distilled-spirits",
+  "slug": "distilled-spirits",
+  "category": "food",
+  "question": "Name a distilled spirit",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Beija Cachaça",
+      "aliases": [],
+      "popularity": 207,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Beija Cachaça"
+    },
+    {
+      "name": "Padlamanggan",
+      "aliases": [],
+      "popularity": 278,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Padlamanggan"
+    },
+    {
+      "name": "Tres Generaciones",
+      "aliases": [],
+      "popularity": 444,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Tres Generaciones"
+    },
+    {
+      "name": "Pillkaller",
+      "aliases": [],
+      "popularity": 616,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Pillkaller"
+    },
+    {
+      "name": "Kumi Kumi",
+      "aliases": [],
+      "popularity": 1061,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "Kumi Kumi"
+    },
+    {
+      "name": "Cristal",
+      "aliases": [
+        "Cristal (aguardiente)"
+      ],
+      "popularity": 1077,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Cristal (aguardiente)"
+    },
+    {
+      "name": "Sulai",
+      "aliases": [],
+      "popularity": 1197,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Sulai"
+    },
+    {
+      "name": "Manx Spirit",
+      "aliases": [],
+      "popularity": 1250,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Manx Spirit"
+    },
+    {
+      "name": "Munbae-ju",
+      "aliases": [
+        "Munbaeju"
+      ],
+      "popularity": 1254,
+      "rarity": 0.89,
+      "tier": 5,
+      "wiki": "Munbae-ju"
+    },
+    {
+      "name": "Sinfire",
+      "aliases": [
+        "SinFire Cinnamon Whisky"
+      ],
+      "popularity": 1290,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Sinfire"
+    },
+    {
+      "name": "Tungi Spirit",
+      "aliases": [],
+      "popularity": 1577,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Tungi Spirit"
+    },
+    {
+      "name": "Beenleigh Rum",
+      "aliases": [],
+      "popularity": 1663,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Beenleigh Rum"
+    },
+    {
+      "name": "Vodka soda",
+      "aliases": [],
+      "popularity": 1975,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Vodka soda"
+    },
+    {
+      "name": "Lotoko",
+      "aliases": [],
+      "popularity": 2072,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Lotoko"
+    },
+    {
+      "name": "Sawdust brandy",
+      "aliases": [],
+      "popularity": 2622,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Sawdust brandy"
+    },
+    {
+      "name": "Zhumir",
+      "aliases": [],
+      "popularity": 2630,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Zhumir"
+    },
+    {
+      "name": "Imo Shochu",
+      "aliases": [
+        "imojōchū",
+        "sweet potato shōchū"
+      ],
+      "popularity": 2668,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Imo Shochu"
+    },
+    {
+      "name": "Dutch brandy",
+      "aliases": [
+        "vieux"
+      ],
+      "popularity": 2995,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Dutch brandy"
+    },
+    {
+      "name": "Sugar beet spirit",
+      "aliases": [],
+      "popularity": 3040,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Sugar beet spirit"
+    },
+    {
+      "name": "Peruvian Pisco",
+      "aliases": [],
+      "popularity": 3684,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Peruvian Pisco"
+    },
+    {
+      "name": "Pox",
+      "aliases": [
+        "Pox (drink)"
+      ],
+      "popularity": 4279,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Pox (drink)"
+    },
+    {
+      "name": "Geist",
+      "aliases": [
+        "Geist (liquor)"
+      ],
+      "popularity": 4287,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Geist (liquor)"
+    },
+    {
+      "name": "Hrenovuha",
+      "aliases": [],
+      "popularity": 4402,
+      "rarity": 0.699,
+      "tier": 4,
+      "wiki": "Hrenovuha"
+    },
+    {
+      "name": "Bierbrand",
+      "aliases": [
+        "eau-de-vie de bière"
+      ],
+      "popularity": 5041,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Bierbrand"
+    },
+    {
+      "name": "Cocuy",
+      "aliases": [],
+      "popularity": 5092,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Cocuy"
+    },
+    {
+      "name": "Flavored liquor",
+      "aliases": [
+        "infused liquor"
+      ],
+      "popularity": 5123,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Flavored liquor"
+    },
+    {
+      "name": "Andong soju",
+      "aliases": [],
+      "popularity": 5318,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Andong soju"
+    },
+    {
+      "name": "Virginia Black Whiskey",
+      "aliases": [
+        "Virginia Black",
+        "Virginia Black Whisky"
+      ],
+      "popularity": 5785,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Virginia Black Whiskey"
+    },
+    {
+      "name": "Rượu đế",
+      "aliases": [],
+      "popularity": 7244,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Rượu đế"
+    },
+    {
+      "name": "Cut brandy",
+      "aliases": [],
+      "popularity": 7417,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Cut brandy"
+    },
+    {
+      "name": "Ratzeputz",
+      "aliases": [],
+      "popularity": 7595,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Ratzeputz"
+    },
+    {
+      "name": "Changaa",
+      "aliases": [],
+      "popularity": 8344,
+      "rarity": 0.575,
+      "tier": 3,
+      "wiki": "Changaa"
+    },
+    {
+      "name": "Cocoroco",
+      "aliases": [],
+      "popularity": 8487,
+      "rarity": 0.562,
+      "tier": 3,
+      "wiki": "Cocoroco"
+    },
+    {
+      "name": "Clairin",
+      "aliases": [
+        "Kleren",
+        "Klerin"
+      ],
+      "popularity": 8741,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Clairin"
+    },
+    {
+      "name": "Bacanora",
+      "aliases": [],
+      "popularity": 9060,
+      "rarity": 0.534,
+      "tier": 3,
+      "wiki": "Bacanora"
+    },
+    {
+      "name": "Akpeteshie",
+      "aliases": [
+        "Ogogoro"
+      ],
+      "popularity": 9739,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Akpeteshie"
+    },
+    {
+      "name": "Gentian liqueur",
+      "aliases": [
+        "gentian",
+        "Gentian schnapps",
+        "Gentian spirit"
+      ],
+      "popularity": 9742,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Gentian liqueur"
+    },
+    {
+      "name": "Tuzemák",
+      "aliases": [
+        "Čajni",
+        "Domači",
+        "Inländer-Rum",
+        "rum tuzemský",
+        "tuzemský rum"
+      ],
+      "popularity": 10068,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Tuzemák"
+    },
+    {
+      "name": "Minttu",
+      "aliases": [],
+      "popularity": 10520,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Minttu"
+    },
+    {
+      "name": "Waragi",
+      "aliases": [],
+      "popularity": 11398,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "Waragi"
+    },
+    {
+      "name": "Grogue",
+      "aliases": [
+        "grogo"
+      ],
+      "popularity": 11725,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Grogue"
+    },
+    {
+      "name": "Lao khao",
+      "aliases": [
+        "sura khao"
+      ],
+      "popularity": 12176,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Lao khao"
+    },
+    {
+      "name": "Rakomelo",
+      "aliases": [],
+      "popularity": 13745,
+      "rarity": 0.425,
+      "tier": 3,
+      "wiki": "Rakomelo"
+    },
+    {
+      "name": "Raicilla",
+      "aliases": [],
+      "popularity": 15887,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Raicilla"
+    },
+    {
+      "name": "Erguotou",
+      "aliases": [],
+      "popularity": 17257,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Erguotou"
+    },
+    {
+      "name": "Chamisul",
+      "aliases": [
+        "Chamiseul"
+      ],
+      "popularity": 17676,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Chamisul"
+    },
+    {
+      "name": "Mekhong",
+      "aliases": [
+        "Mekhong (spirit)",
+        "Mekong"
+      ],
+      "popularity": 17793,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Mekhong (spirit)"
+    },
+    {
+      "name": "Aragh Sagi",
+      "aliases": [],
+      "popularity": 18242,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Aragh Sagi"
+    },
+    {
+      "name": "Bathtub gin",
+      "aliases": [],
+      "popularity": 19945,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Bathtub gin"
+    },
+    {
+      "name": "Bundaberg Rum",
+      "aliases": [],
+      "popularity": 23019,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Bundaberg Rum"
+    },
+    {
+      "name": "Mount Gay Rum",
+      "aliases": [
+        "Mount Gay"
+      ],
+      "popularity": 24602,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Mount Gay Rum"
+    },
+    {
+      "name": "Fruit brandy",
+      "aliases": [
+        "fruit spirit"
+      ],
+      "popularity": 27198,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Fruit brandy"
+    },
+    {
+      "name": "Don Papa Rum",
+      "aliases": [],
+      "popularity": 30472,
+      "rarity": 0.288,
+      "tier": 2,
+      "wiki": "Don Papa Rum"
+    },
+    {
+      "name": "Pomace brandy",
+      "aliases": [
+        "grape marc",
+        "grape marc spirit"
+      ],
+      "popularity": 30647,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Pomace brandy"
+    },
+    {
+      "name": "Bäsk",
+      "aliases": [
+        "bäsk brännvin"
+      ],
+      "popularity": 32302,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Bäsk"
+    },
+    {
+      "name": "Sotol",
+      "aliases": [],
+      "popularity": 38276,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Sotol"
+    },
+    {
+      "name": "Brännvin",
+      "aliases": [],
+      "popularity": 39817,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Brännvin"
+    },
+    {
+      "name": "Aqua vitae",
+      "aliases": [],
+      "popularity": 40093,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Aqua vitae"
+    },
+    {
+      "name": "McDowell's No.1",
+      "aliases": [],
+      "popularity": 41027,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "McDowell's No.1"
+    },
+    {
+      "name": "Desi daru",
+      "aliases": [],
+      "popularity": 48872,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Desi daru"
+    },
+    {
+      "name": "Eau de vie",
+      "aliases": [],
+      "popularity": 54704,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Eau de vie"
+    },
+    {
+      "name": "Arrack",
+      "aliases": [],
+      "popularity": 82862,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Arrack"
+    },
+    {
+      "name": "Jenever",
+      "aliases": [
+        "Dutch gin",
+        "genever",
+        "genièvre",
+        "Holland gin"
+      ],
+      "popularity": 85400,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Jenever"
+    },
+    {
+      "name": "Rectified spirit",
+      "aliases": [
+        "ethyl alcohol of agricultural origin",
+        "neutral spirits",
+        "rectified alcohol"
+      ],
+      "popularity": 87585,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Rectified spirit"
+    },
+    {
+      "name": "Aguardiente",
+      "aliases": [
+        "aguardente",
+        "burning water",
+        "fiery water",
+        "firewater"
+      ],
+      "popularity": 100059,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Aguardiente"
+    },
+    {
+      "name": "Shōchū",
+      "aliases": [],
+      "popularity": 109854,
+      "rarity": 0.11,
+      "tier": 1,
+      "wiki": "Shōchū"
+    },
+    {
+      "name": "Bénédictine",
+      "aliases": [],
+      "popularity": 117381,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Bénédictine"
+    },
+    {
+      "name": "Cachaça",
+      "aliases": [],
+      "popularity": 220866,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Cachaça"
+    },
+    {
+      "name": "Mezcal",
+      "aliases": [
+        "mescal"
+      ],
+      "popularity": 262200,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Mezcal"
+    },
+    {
+      "name": "Rum",
+      "aliases": [
+        "rums"
+      ],
+      "popularity": 273597,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "Rum"
+    },
+    {
+      "name": "Moonshine",
+      "aliases": [
+        "hooch",
+        "mountain dew",
+        "Tennessee white whiskey",
+        "white lightning"
+      ],
+      "popularity": 294173,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Moonshine"
+    },
+    {
+      "name": "Gin",
+      "aliases": [],
+      "popularity": 344503,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Gin"
+    },
+    {
+      "name": "Brandy",
+      "aliases": [],
+      "popularity": 405314,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Brandy"
+    },
+    {
+      "name": "Vodka",
+      "aliases": [],
+      "popularity": 411212,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Vodka"
+    }
+  ]
+}

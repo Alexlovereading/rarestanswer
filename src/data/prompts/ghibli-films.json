@@ -1,0 +1,411 @@
+{
+  "id": "ghibli-films",
+  "slug": "ghibli-films",
+  "category": "screen",
+  "question": "Name a Studio Ghibli film",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "A Sumo Wrestler's Tail",
+      "aliases": [
+        "Nezumi no Sumō",
+        "Sumo Wrestler's Tail"
+      ],
+      "popularity": 2227,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "A Sumo Wrestler's Tail"
+    },
+    {
+      "name": "Nandarō",
+      "aliases": [
+        "Nandarou"
+      ],
+      "popularity": 2711,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Nandarō"
+    },
+    {
+      "name": "Koro's Big Day Out",
+      "aliases": [
+        "Koro no Daisanpo"
+      ],
+      "popularity": 3225,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Koro's Big Day Out"
+    },
+    {
+      "name": "Kūsō no Sora Tobu Kikaitachi",
+      "aliases": [
+        "Kuusou no Sora Tobu Kikaitachi"
+      ],
+      "popularity": 3537,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Kūsō no Sora Tobu Kikaitachi"
+    },
+    {
+      "name": "The Night of Taneyamagahara",
+      "aliases": [
+        "Night of Taneyamagahara",
+        "Taneyamagahara no Yoru"
+      ],
+      "popularity": 3638,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "The Night of Taneyamagahara"
+    },
+    {
+      "name": "Looking for a Home",
+      "aliases": [
+        "Looking for a Home (film)",
+        "Yadosagashi"
+      ],
+      "popularity": 3781,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Looking for a Home (film)"
+    },
+    {
+      "name": "Iblard Jikan",
+      "aliases": [],
+      "popularity": 4430,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Iblard Jikan"
+    },
+    {
+      "name": "Mizugumo Monmon",
+      "aliases": [],
+      "popularity": 4598,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Mizugumo Monmon"
+    },
+    {
+      "name": "Kujiratori",
+      "aliases": [],
+      "popularity": 4792,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Kujiratori"
+    },
+    {
+      "name": "Hoshi o Katta Hi",
+      "aliases": [],
+      "popularity": 7504,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Hoshi o Katta Hi"
+    },
+    {
+      "name": "The Story of Yanagawa's Canals",
+      "aliases": [
+        "Story of Yanagawa's Canals",
+        "Yanagawa Horiwari Monogatari"
+      ],
+      "popularity": 9759,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "The Story of Yanagawa's Canals"
+    },
+    {
+      "name": "On Your Mark",
+      "aliases": [
+        "On Your Mark (music video)"
+      ],
+      "popularity": 15019,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "On Your Mark (music video)"
+    },
+    {
+      "name": "Boro the Caterpillar",
+      "aliases": [
+        "Kemushi no Boro"
+      ],
+      "popularity": 18837,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Boro the Caterpillar"
+    },
+    {
+      "name": "Ocean Waves",
+      "aliases": [
+        "I Can Hear the Sea",
+        "Umi ga Kikoeru"
+      ],
+      "popularity": 78799,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Ocean Waves"
+    },
+    {
+      "name": "My Neighbors the Yamadas",
+      "aliases": [
+        "Hōhokekyo Tonari no Yamada-kun",
+        "My Neighbours the Yamadas"
+      ],
+      "popularity": 93394,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "My Neighbors the Yamadas"
+    },
+    {
+      "name": "Earwig and the Witch",
+      "aliases": [
+        "Aya and the Witch",
+        "Āya to Majo"
+      ],
+      "popularity": 139066,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Earwig and the Witch"
+    },
+    {
+      "name": "Ghost in the Shell 2: Innocence",
+      "aliases": [
+        "Innocence"
+      ],
+      "popularity": 143839,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Ghost in the Shell 2: Innocence"
+    },
+    {
+      "name": "Pom Poko",
+      "aliases": [
+        "Heisei Tanuki Gassen Ponpoko",
+        "Pompoko"
+      ],
+      "popularity": 170936,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Pom Poko"
+    },
+    {
+      "name": "The Red Turtle",
+      "aliases": [
+        "Red Turtle"
+      ],
+      "popularity": 171199,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "The Red Turtle"
+    },
+    {
+      "name": "From Up on Poppy Hill",
+      "aliases": [
+        "Coquelicot-zaka kara",
+        "Kokuriko-zaka kara"
+      ],
+      "popularity": 203062,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "From Up on Poppy Hill"
+    },
+    {
+      "name": "When Marnie Was There",
+      "aliases": [
+        "Marnie of [My] Memories",
+        "Omoide no Marnie",
+        "When Marnie Was There (film)"
+      ],
+      "popularity": 205390,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "When Marnie Was There (film)"
+    },
+    {
+      "name": "The Cat Returns",
+      "aliases": [
+        "Cat Returns",
+        "Neko no Ongaeshi"
+      ],
+      "popularity": 244913,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "The Cat Returns"
+    },
+    {
+      "name": "Only Yesterday",
+      "aliases": [
+        "Omohide Poro Poro",
+        "Omoide Poro Poro",
+        "Only Yesterday (1991 film)"
+      ],
+      "popularity": 246492,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Only Yesterday (1991 film)"
+    },
+    {
+      "name": "Tales from Earthsea",
+      "aliases": [
+        "Gedo Senki",
+        "Tales from Earthsea (film)"
+      ],
+      "popularity": 253558,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Tales from Earthsea (film)"
+    },
+    {
+      "name": "The Tale of the Princess Kaguya",
+      "aliases": [
+        "Kaguya-Hime no Monogatari",
+        "Tale of the Princess Kaguya",
+        "Tale of the Princess Kaguya (film)",
+        "The Tale of the Princess Kaguya (film)"
+      ],
+      "popularity": 304616,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "The Tale of the Princess Kaguya (film)"
+    },
+    {
+      "name": "Arrietty",
+      "aliases": [
+        "Karigurashi no Arrietty",
+        "The Borrower Arrietty",
+        "The Secret World of Arrietty"
+      ],
+      "popularity": 311480,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Arrietty"
+    },
+    {
+      "name": "Porco Rosso",
+      "aliases": [
+        "Kurenai no Buta"
+      ],
+      "popularity": 331644,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Porco Rosso"
+    },
+    {
+      "name": "Whisper of the Heart",
+      "aliases": [
+        "Mimi o Sumaseba",
+        "Mimi wo Sumaseba"
+      ],
+      "popularity": 344563,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Whisper of the Heart"
+    },
+    {
+      "name": "Castle in the Sky",
+      "aliases": [
+        "Laputa",
+        "Tenkū no Shiro Laputa",
+        "Tenkuu no Shiro Laputa"
+      ],
+      "popularity": 430998,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Castle in the Sky"
+    },
+    {
+      "name": "The Wind Rises",
+      "aliases": [
+        "Kaze Tachinu",
+        "Wind Rises"
+      ],
+      "popularity": 453362,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "The Wind Rises"
+    },
+    {
+      "name": "Ponyo",
+      "aliases": [
+        "Gake no ue no Ponyo"
+      ],
+      "popularity": 481009,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Ponyo"
+    },
+    {
+      "name": "Kiki's Delivery Service",
+      "aliases": [
+        "Kiki the Little Witch",
+        "Majo no Takkyūbin",
+        "Majo no Takkyuubin",
+        "Witch Delivery Service"
+      ],
+      "popularity": 508307,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Kiki's Delivery Service"
+    },
+    {
+      "name": "Princess Mononoke",
+      "aliases": [
+        "Mononoke-hime"
+      ],
+      "popularity": 725953,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Princess Mononoke"
+    },
+    {
+      "name": "My Neighbor Totoro",
+      "aliases": [
+        "Tonari no Totoro"
+      ],
+      "popularity": 772412,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "My Neighbor Totoro"
+    },
+    {
+      "name": "The Boy and the Heron",
+      "aliases": [
+        "Boy and the Heron",
+        "How Do You Live?",
+        "Kimitachi wa Do Ikiru ka"
+      ],
+      "popularity": 783728,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "The Boy and the Heron"
+    },
+    {
+      "name": "Howl's Moving Castle",
+      "aliases": [
+        "Howl no Ugoku Shiro",
+        "Howl's Moving Castle (film)"
+      ],
+      "popularity": 810720,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Howl's Moving Castle (film)"
+    },
+    {
+      "name": "Grave of the Fireflies",
+      "aliases": [
+        "Hotaru no Haka"
+      ],
+      "popularity": 927793,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Grave of the Fireflies"
+    },
+    {
+      "name": "Spirited Away",
+      "aliases": [
+        "Sen to Chihiro no Kamikakushi"
+      ],
+      "popularity": 1030543,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Spirited Away"
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "id": "declaration-signers",
+  "slug": "declaration-signers",
+  "category": "history",
+  "question": "Name a signer of the United States Declaration of Independence",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "John Penn",
+      "aliases": [
+        "John Penn (North Carolina politician)"
+      ],
+      "popularity": 6351,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "John Penn (North Carolina politician)"
+    },
+    {
+      "name": "George Ross",
+      "aliases": [
+        "George Ross (American politician)",
+        "George Ross Jr"
+      ],
+      "popularity": 8201,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "George Ross (American politician)"
+    },
+    {
+      "name": "Thomas Heyward Jr.",
+      "aliases": [
+        "Thomas Heyward"
+      ],
+      "popularity": 8892,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Thomas Heyward Jr."
+    },
+    {
+      "name": "William Williams",
+      "aliases": [
+        "William William",
+        "William Williams (Connecticut politician)"
+      ],
+      "popularity": 9806,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "William Williams (Connecticut politician)"
+    },
+    {
+      "name": "George Taylor",
+      "aliases": [
+        "George Taylor (Pennsylvania politician)"
+      ],
+      "popularity": 10023,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "George Taylor (Pennsylvania politician)"
+    },
+    {
+      "name": "William Hooper",
+      "aliases": [],
+      "popularity": 12178,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "William Hooper"
+    },
+    {
+      "name": "James Smith",
+      "aliases": [
+        "James Smith (Pennsylvania politician)"
+      ],
+      "popularity": 12322,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "James Smith (Pennsylvania politician)"
+    },
+    {
+      "name": "Abraham Clark",
+      "aliases": [],
+      "popularity": 12688,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Abraham Clark"
+    },
+    {
+      "name": "Thomas Lynch Jr.",
+      "aliases": [
+        "Thomas Lynch"
+      ],
+      "popularity": 13095,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Thomas Lynch Jr."
+    },
+    {
+      "name": "George Clymer",
+      "aliases": [],
+      "popularity": 13607,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "George Clymer"
+    },
+    {
+      "name": "Thomas Stone",
+      "aliases": [],
+      "popularity": 13880,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Thomas Stone"
+    },
+    {
+      "name": "Joseph Hewes",
+      "aliases": [],
+      "popularity": 14727,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Joseph Hewes"
+    },
+    {
+      "name": "Matthew Thornton",
+      "aliases": [],
+      "popularity": 14751,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Matthew Thornton"
+    },
+    {
+      "name": "John Hart",
+      "aliases": [
+        "John Hart (New Jersey politician)"
+      ],
+      "popularity": 15131,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "John Hart (New Jersey politician)"
+    },
+    {
+      "name": "George Read",
+      "aliases": [],
+      "popularity": 16001,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "George Read (American politician, born 1733)"
+    },
+    {
+      "name": "Carter Braxton",
+      "aliases": [],
+      "popularity": 16008,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Carter Braxton"
+    },
+    {
+      "name": "William Paca",
+      "aliases": [],
+      "popularity": 16316,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "William Paca"
+    },
+    {
+      "name": "George Walton",
+      "aliases": [],
+      "popularity": 16878,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "George Walton"
+    },
+    {
+      "name": "Francis Lewis",
+      "aliases": [],
+      "popularity": 17073,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Francis Lewis"
+    },
+    {
+      "name": "Arthur Middleton",
+      "aliases": [],
+      "popularity": 17123,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Arthur Middleton"
+    },
+    {
+      "name": "Lewis Morris",
+      "aliases": [
+        "Lewis Morris III"
+      ],
+      "popularity": 18873,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Lewis Morris"
+    },
+    {
+      "name": "William Ellery",
+      "aliases": [
+        "Hon. William Ellery"
+      ],
+      "popularity": 20608,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "William Ellery"
+    },
+    {
+      "name": "William Floyd",
+      "aliases": [],
+      "popularity": 21573,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "William Floyd"
+    },
+    {
+      "name": "Thomas Nelson Jr.",
+      "aliases": [
+        "Thomas Nelson"
+      ],
+      "popularity": 21671,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Thomas Nelson Jr."
+    },
+    {
+      "name": "Lyman Hall",
+      "aliases": [],
+      "popularity": 23874,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Lyman Hall"
+    },
+    {
+      "name": "Philip Livingston",
+      "aliases": [],
+      "popularity": 24356,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Philip Livingston"
+    },
+    {
+      "name": "Samuel Huntington",
+      "aliases": [
+        "Samuel Huntington (Connecticut politician)"
+      ],
+      "popularity": 25608,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Samuel Huntington (Connecticut politician)"
+    },
+    {
+      "name": "John Morton",
+      "aliases": [
+        "John Morton (American politician)"
+      ],
+      "popularity": 25748,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "John Morton (American politician)"
+    },
+    {
+      "name": "Oliver Wolcott",
+      "aliases": [
+        "Oliver Wolcott Sr."
+      ],
+      "popularity": 26680,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Oliver Wolcott"
+    },
+    {
+      "name": "Robert Treat Paine",
+      "aliases": [
+        "R. T. Paine",
+        "Robert Paine",
+        "Robert T. Paine"
+      ],
+      "popularity": 27165,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Robert Treat Paine"
+    },
+    {
+      "name": "Francis Lightfoot Lee",
+      "aliases": [],
+      "popularity": 29789,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Francis Lightfoot Lee"
+    },
+    {
+      "name": "Stephen Hopkins",
+      "aliases": [
+        "Stephen Hopkins (politician)"
+      ],
+      "popularity": 33462,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Stephen Hopkins (politician)"
+    },
+    {
+      "name": "Richard Stockton",
+      "aliases": [
+        "Richard Stockton (Continental Congressman)",
+        "Richard Stockton III"
+      ],
+      "popularity": 33617,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Richard Stockton (Continental Congressman)"
+    },
+    {
+      "name": "Francis Hopkinson",
+      "aliases": [
+        "Peter Grievious"
+      ],
+      "popularity": 34149,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Francis Hopkinson"
+    },
+    {
+      "name": "George Wythe",
+      "aliases": [],
+      "popularity": 37915,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "George Wythe"
+    },
+    {
+      "name": "Thomas McKean",
+      "aliases": [],
+      "popularity": 42029,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Thomas McKean"
+    },
+    {
+      "name": "Samuel Chase",
+      "aliases": [
+        "Old Bacon Face"
+      ],
+      "popularity": 47683,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Samuel Chase"
+    },
+    {
+      "name": "Button Gwinnett",
+      "aliases": [],
+      "popularity": 49624,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Button Gwinnett"
+    },
+    {
+      "name": "Josiah Bartlett",
+      "aliases": [],
+      "popularity": 54315,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Josiah Bartlett"
+    },
+    {
+      "name": "Edward Rutledge",
+      "aliases": [],
+      "popularity": 61502,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Edward Rutledge"
+    },
+    {
+      "name": "William Whipple",
+      "aliases": [],
+      "popularity": 62029,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "William Whipple"
+    },
+    {
+      "name": "John Witherspoon",
+      "aliases": [
+        "John Knox Witherspoon"
+      ],
+      "popularity": 79398,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "John Witherspoon"
+    },
+    {
+      "name": "Benjamin Harrison V",
+      "aliases": [
+        "Benjamin Harrison",
+        "The Signer"
+      ],
+      "popularity": 93105,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Benjamin Harrison V"
+    },
+    {
+      "name": "Caesar Rodney",
+      "aliases": [],
+      "popularity": 93867,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Caesar Rodney"
+    },
+    {
+      "name": "James Wilson",
+      "aliases": [
+        "James Wilson (Founding Father)"
+      ],
+      "popularity": 100792,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "James Wilson (Founding Father)"
+    },
+    {
+      "name": "Richard Henry Lee",
+      "aliases": [
+        "Richard Lee"
+      ],
+      "popularity": 130767,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Richard Henry Lee"
+    },
+    {
+      "name": "Charles Carroll of Carrollton",
+      "aliases": [
+        "Charles Carroll"
+      ],
+      "popularity": 131032,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Charles Carroll of Carrollton"
+    },
+    {
+      "name": "Roger Sherman",
+      "aliases": [],
+      "popularity": 135498,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Roger Sherman"
+    },
+    {
+      "name": "Benjamin Rush",
+      "aliases": [
+        "Dr. Benjamin Rush"
+      ],
+      "popularity": 140487,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Benjamin Rush"
+    },
+    {
+      "name": "Elbridge Gerry",
+      "aliases": [
+        "Elbridge Thomas Gerry"
+      ],
+      "popularity": 147891,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Elbridge Gerry"
+    },
+    {
+      "name": "Robert Morris",
+      "aliases": [
+        "Robert Morris (financier)"
+      ],
+      "popularity": 155627,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Robert Morris (financier)"
+    },
+    {
+      "name": "John Hancock",
+      "aliases": [
+        "John Hancock III"
+      ],
+      "popularity": 409591,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "John Hancock"
+    },
+    {
+      "name": "Samuel Adams",
+      "aliases": [
+        "Sam Adams"
+      ],
+      "popularity": 464816,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "Samuel Adams"
+    },
+    {
+      "name": "John Adams",
+      "aliases": [
+        "J. Adams"
+      ],
+      "popularity": 1805173,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "John Adams"
+    },
+    {
+      "name": "Benjamin Franklin",
+      "aliases": [
+        "Poor Richard",
+        "The First American"
+      ],
+      "popularity": 1955643,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Benjamin Franklin"
+    },
+    {
+      "name": "Thomas Jefferson",
+      "aliases": [
+        "President Jefferson",
+        "T. Jefferson"
+      ],
+      "popularity": 2310368,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Thomas Jefferson"
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "id": "unesco-sites-in-the-uk",
+  "slug": "unesco-sites-in-the-uk",
+  "category": "geography",
+  "question": "Name a UNESCO World Heritage Site in the United Kingdom",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Beckhampton Avenue",
+      "aliases": [],
+      "popularity": 1355,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Beckhampton Avenue"
+    },
+    {
+      "name": "Historic Town of St George and Related Fortifications, Bermuda",
+      "aliases": [
+        "St George and Related Fortifications"
+      ],
+      "popularity": 2544,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Historic Town of St George and Related Fortifications, Bermuda"
+    },
+    {
+      "name": "Blaenavon Industrial Landscape",
+      "aliases": [],
+      "popularity": 6304,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Blaenavon Industrial Landscape"
+    },
+    {
+      "name": "Cornwall and West Devon Mining Landscape",
+      "aliases": [
+        "Cornish Mining World Heritage Site"
+      ],
+      "popularity": 7317,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Cornwall and West Devon Mining Landscape"
+    },
+    {
+      "name": "Stonehenge Cursus",
+      "aliases": [
+        "Greater Cursus"
+      ],
+      "popularity": 7910,
+      "rarity": 0.879,
+      "tier": 5,
+      "wiki": "Stonehenge Cursus"
+    },
+    {
+      "name": "Buildings and architecture of Bath",
+      "aliases": [],
+      "popularity": 8122,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Buildings and architecture of Bath"
+    },
+    {
+      "name": "Gough and Inaccessible Islands",
+      "aliases": [],
+      "popularity": 10108,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Gough and Inaccessible Islands"
+    },
+    {
+      "name": "Derwent Valley Mills",
+      "aliases": [],
+      "popularity": 10824,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Derwent Valley Mills"
+    },
+    {
+      "name": "Stonehenge, Avebury and Associated Sites",
+      "aliases": [],
+      "popularity": 11164,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Stonehenge, Avebury and Associated Sites"
+    },
+    {
+      "name": "Ironbridge Gorge",
+      "aliases": [],
+      "popularity": 15581,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Ironbridge Gorge"
+    },
+    {
+      "name": "Castles and Town Walls of King Edward in Gwynedd",
+      "aliases": [],
+      "popularity": 16345,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "Castles and Town Walls of King Edward in Gwynedd"
+    },
+    {
+      "name": "Flow Country",
+      "aliases": [],
+      "popularity": 17733,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Flow Country"
+    },
+    {
+      "name": "Heart of Neolithic Orkney",
+      "aliases": [],
+      "popularity": 20017,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Heart of Neolithic Orkney"
+    },
+    {
+      "name": "Borders of the Roman Empire",
+      "aliases": [
+        "Frontiers of the Roman Empire"
+      ],
+      "popularity": 25358,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Borders of the Roman Empire"
+    },
+    {
+      "name": "Great Spa Towns of Europe",
+      "aliases": [
+        "Great spas of Europe"
+      ],
+      "popularity": 28397,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Great Spa Towns of Europe"
+    },
+    {
+      "name": "New Lanark",
+      "aliases": [],
+      "popularity": 28840,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "New Lanark"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew",
+      "aliases": [
+        "Kew"
+      ],
+      "popularity": 35857,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Royal Botanic Gardens, Kew"
+    },
+    {
+      "name": "Fountains Abbey",
+      "aliases": [
+        "Fountains Cistercian Abbey"
+      ],
+      "popularity": 61881,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Fountains Abbey"
+    },
+    {
+      "name": "Saltaire",
+      "aliases": [],
+      "popularity": 63999,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Saltaire"
+    },
+    {
+      "name": "Jodrell Bank Observatory",
+      "aliases": [
+        "Jodrell Bank Experimental Station",
+        "Nuffield Radio Astronomy Laboratories"
+      ],
+      "popularity": 69416,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Jodrell Bank Observatory"
+    },
+    {
+      "name": "Pontcysyllte Aqueduct",
+      "aliases": [
+        "Pontcysyllte Aqueduct and Canal"
+      ],
+      "popularity": 74108,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Pontcysyllte Aqueduct"
+    },
+    {
+      "name": "Henderson Island",
+      "aliases": [
+        "Elizabeth Island",
+        "Henderson Island (Pitcairn Islands)",
+        "San João Baptista"
+      ],
+      "popularity": 82642,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Henderson Island (Pitcairn Islands)"
+    },
+    {
+      "name": "Jurassic Coast",
+      "aliases": [
+        "Dorset and East Devon Coast"
+      ],
+      "popularity": 105862,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Jurassic Coast"
+    },
+    {
+      "name": "Kew Gardens",
+      "aliases": [],
+      "popularity": 122004,
+      "rarity": 0.303,
+      "tier": 2,
+      "wiki": "Kew Gardens"
+    },
+    {
+      "name": "St Kilda, Scotland",
+      "aliases": [
+        "St Kilda"
+      ],
+      "popularity": 133182,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "St Kilda, Scotland"
+    },
+    {
+      "name": "Forth Bridge",
+      "aliases": [
+        "Forth Rail Bridge",
+        "The Forth Bridge"
+      ],
+      "popularity": 142727,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Forth Bridge"
+    },
+    {
+      "name": "Antonine Wall",
+      "aliases": [
+        "Graham's Dyke",
+        "Severan Wall",
+        "Wall of Antoninus"
+      ],
+      "popularity": 165573,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Antonine Wall"
+    },
+    {
+      "name": "Lake District",
+      "aliases": [
+        "English Lake District",
+        "Lakeland",
+        "The English Lake District",
+        "The Lakes"
+      ],
+      "popularity": 203627,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Lake District"
+    },
+    {
+      "name": "Giant's Causeway",
+      "aliases": [
+        "Giants' Causeway",
+        "Gyants Causey",
+        "Gyants Cawsway"
+      ],
+      "popularity": 308272,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Giant's Causeway"
+    },
+    {
+      "name": "Blenheim Palace",
+      "aliases": [
+        "Blenheim Park"
+      ],
+      "popularity": 403425,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "Blenheim Palace"
+    },
+    {
+      "name": "Bath, Somerset",
+      "aliases": [
+        "Bath",
+        "City of Bath"
+      ],
+      "popularity": 531261,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Bath, Somerset"
+    },
+    {
+      "name": "Tower of London",
+      "aliases": [
+        "The Tower",
+        "The Tower of London"
+      ],
+      "popularity": 578695,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Tower of London"
+    },
+    {
+      "name": "Hadrian's Wall",
+      "aliases": [
+        "Hadrians Wall",
+        "Picts' Wall",
+        "Roman Wall",
+        "Vallum Aelium"
+      ],
+      "popularity": 594128,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Hadrian's Wall"
+    },
+    {
+      "name": "Stonehenge",
+      "aliases": [],
+      "popularity": 1040550,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Stonehenge"
+    }
+  ]
+}

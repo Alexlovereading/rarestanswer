@@ -1,0 +1,177 @@
+{
+  "id": "actinides",
+  "slug": "actinides",
+  "category": "science",
+  "question": "Name an actinide",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Mendelevium",
+      "aliases": [
+        "101Md",
+        "element 101",
+        "unnilunium"
+      ],
+      "popularity": 42374,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Mendelevium"
+    },
+    {
+      "name": "Nobelium",
+      "aliases": [
+        "102No",
+        "element 102",
+        "Unb",
+        "unnilbium"
+      ],
+      "popularity": 45183,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Nobelium"
+    },
+    {
+      "name": "Fermium",
+      "aliases": [
+        "100Fm",
+        "element 100"
+      ],
+      "popularity": 53341,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Fermium"
+    },
+    {
+      "name": "Berkelium",
+      "aliases": [
+        "97Bk",
+        "element 97"
+      ],
+      "popularity": 56486,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Berkelium"
+    },
+    {
+      "name": "Lawrencium",
+      "aliases": [
+        "103Lr",
+        "element 103"
+      ],
+      "popularity": 63975,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Lawrencium"
+    },
+    {
+      "name": "Actinium",
+      "aliases": [
+        "89Ac",
+        "element 89",
+        "emanium"
+      ],
+      "popularity": 81378,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Actinium"
+    },
+    {
+      "name": "Curium",
+      "aliases": [
+        "element 96"
+      ],
+      "popularity": 84648,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Curium"
+    },
+    {
+      "name": "Neptunium",
+      "aliases": [
+        "93Np",
+        "element 93"
+      ],
+      "popularity": 87863,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Neptunium"
+    },
+    {
+      "name": "Einsteinium",
+      "aliases": [
+        "99Es",
+        "element 99"
+      ],
+      "popularity": 96535,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Einsteinium"
+    },
+    {
+      "name": "Americium",
+      "aliases": [
+        "element 95"
+      ],
+      "popularity": 110319,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Americium"
+    },
+    {
+      "name": "Californium",
+      "aliases": [
+        "98Cf",
+        "element 98"
+      ],
+      "popularity": 123052,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Californium"
+    },
+    {
+      "name": "Protactinium",
+      "aliases": [
+        "91Pa",
+        "brevium",
+        "element 91",
+        "protoactinium"
+      ],
+      "popularity": 173138,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Protactinium"
+    },
+    {
+      "name": "Thorium",
+      "aliases": [
+        "90Th",
+        "element 90"
+      ],
+      "popularity": 194212,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Thorium"
+    },
+    {
+      "name": "Plutonium",
+      "aliases": [
+        "94Pu",
+        "element 94"
+      ],
+      "popularity": 318850,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Plutonium"
+    },
+    {
+      "name": "Uranium",
+      "aliases": [
+        "element 92"
+      ],
+      "popularity": 472229,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Uranium"
+    }
+  ]
+}

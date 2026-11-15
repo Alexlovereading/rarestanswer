@@ -1,0 +1,650 @@
+{
+  "id": "countries-in-africa",
+  "slug": "countries-in-africa",
+  "category": "geography",
+  "question": "Name a country in Africa",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Togo",
+      "aliases": [
+        "Togolese Republic"
+      ],
+      "popularity": 602278,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Togo"
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "aliases": [
+        "São Tomé og Príncipe"
+      ],
+      "popularity": 615881,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "São Tomé and Príncipe"
+    },
+    {
+      "name": "Malawi",
+      "aliases": [
+        "MAW",
+        "Republic of Malawi"
+      ],
+      "popularity": 623541,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Malawi"
+    },
+    {
+      "name": "Gabon",
+      "aliases": [
+        "GAB",
+        "Gabonese Republic",
+        "République Gabonaise"
+      ],
+      "popularity": 655328,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Gabon"
+    },
+    {
+      "name": "Comoros",
+      "aliases": [
+        "al-Ittiḥād al-Qumurī",
+        "Juzur al-Qamar",
+        "Juzur al-Qumur",
+        "Massiwa ya komori",
+        "ouvoimoja wakomori",
+        "the Comoros",
+        "Udzima wa Komori",
+        "Union des Comores",
+        "Union of the Comoros"
+      ],
+      "popularity": 662781,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Comoros"
+    },
+    {
+      "name": "Guinea",
+      "aliases": [
+        "GUI",
+        "Guinea-Conakry",
+        "Republic of Guinea"
+      ],
+      "popularity": 708635,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Guinea"
+    },
+    {
+      "name": "Burundi",
+      "aliases": [
+        "Gouvernement du Burundi",
+        "Republic of Burundi",
+        "Republika y'Uburundi"
+      ],
+      "popularity": 741760,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Burundi"
+    },
+    {
+      "name": "The Gambia",
+      "aliases": [
+        "Gambia",
+        "Islamic Republic of the Gambia",
+        "Republic of the Gambia"
+      ],
+      "popularity": 756273,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "The Gambia"
+    },
+    {
+      "name": "Lesotho",
+      "aliases": [
+        "Kingdom of Lesotho",
+        "LES",
+        "The Mountain Kingdom"
+      ],
+      "popularity": 760604,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Lesotho"
+    },
+    {
+      "name": "Zambia",
+      "aliases": [
+        "Republic of Zambia",
+        "Zed"
+      ],
+      "popularity": 763129,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Zambia"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "aliases": [
+        "GBS",
+        "Republic of Guinea-Bissau"
+      ],
+      "popularity": 771864,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Guinea-Bissau"
+    },
+    {
+      "name": "Chad",
+      "aliases": [
+        "CHA",
+        "GUM",
+        "Republic of Chad"
+      ],
+      "popularity": 779260,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Chad"
+    },
+    {
+      "name": "Republic of the Congo",
+      "aliases": [
+        "Congo",
+        "Congo Republic",
+        "Rep. Congo",
+        "Republic of Congo",
+        "République du Congo"
+      ],
+      "popularity": 816495,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Republic of the Congo"
+    },
+    {
+      "name": "Djibouti",
+      "aliases": [
+        "Gabuuti",
+        "Jabuuti",
+        "Jībūtī",
+        "Republic of Djibouti"
+      ],
+      "popularity": 822543,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Djibouti"
+    },
+    {
+      "name": "Central African Republic",
+      "aliases": [
+        "CAR",
+        "Central Africa"
+      ],
+      "popularity": 831156,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Central African Republic"
+    },
+    {
+      "name": "Mozambique",
+      "aliases": [
+        "Moçambique",
+        "Republic of Mozambique",
+        "República de Moçambique"
+      ],
+      "popularity": 845322,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Mozambique"
+    },
+    {
+      "name": "Botswana",
+      "aliases": [
+        "Lefatshe la Botswana",
+        "Republic of Botswana"
+      ],
+      "popularity": 864702,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Botswana"
+    },
+    {
+      "name": "Niger",
+      "aliases": [
+        "Republic Niger",
+        "Republic of Niger",
+        "Republic of the Niger",
+        "The Niger"
+      ],
+      "popularity": 897492,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Niger"
+    },
+    {
+      "name": "Sierra Leone",
+      "aliases": [
+        "Republic of Sierra Leone",
+        "SLE"
+      ],
+      "popularity": 950177,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Sierra Leone"
+    },
+    {
+      "name": "Angola",
+      "aliases": [
+        "Ngola",
+        "Republic of Angola"
+      ],
+      "popularity": 1007963,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Angola"
+    },
+    {
+      "name": "Cameroon",
+      "aliases": [
+        "Republic of Cameroon"
+      ],
+      "popularity": 1016894,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Cameroon"
+    },
+    {
+      "name": "Benin",
+      "aliases": [
+        "Republic of Benin"
+      ],
+      "popularity": 1070520,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Benin"
+    },
+    {
+      "name": "Rwanda",
+      "aliases": [
+        "Republic of Rwanda"
+      ],
+      "popularity": 1089846,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Rwanda"
+    },
+    {
+      "name": "Equatorial Guinea",
+      "aliases": [
+        "GEQ",
+        "Republic of Equatorial Guinea"
+      ],
+      "popularity": 1117719,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "Equatorial Guinea"
+    },
+    {
+      "name": "South Sudan",
+      "aliases": [
+        "Republic of South Sudan",
+        "Southern Sudan"
+      ],
+      "popularity": 1122536,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "South Sudan"
+    },
+    {
+      "name": "Kenya",
+      "aliases": [
+        "Republic of Kenya"
+      ],
+      "popularity": 1135218,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Kenya"
+    },
+    {
+      "name": "Mali",
+      "aliases": [
+        "Republic of Mali"
+      ],
+      "popularity": 1172467,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Mali"
+    },
+    {
+      "name": "Liberia",
+      "aliases": [
+        "Liber",
+        "Republic of Liberia"
+      ],
+      "popularity": 1227382,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Liberia"
+    },
+    {
+      "name": "Mauritania",
+      "aliases": [
+        "Agawej",
+        "Gànnaar",
+        "Islamic Republic of Mauritania",
+        "Mauretania",
+        "Moritani",
+        "Muritanya",
+        "Murutaane"
+      ],
+      "popularity": 1241439,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Mauritania"
+    },
+    {
+      "name": "Eswatini",
+      "aliases": [
+        "Kingdom of Swaziland",
+        "Umbuso weSwatini"
+      ],
+      "popularity": 1295195,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Eswatini"
+    },
+    {
+      "name": "Libya",
+      "aliases": [
+        "LBA",
+        "State of Libya"
+      ],
+      "popularity": 1316583,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Libya"
+    },
+    {
+      "name": "Tunisia",
+      "aliases": [
+        "Republic of Tunisia",
+        "Tunisian Republic"
+      ],
+      "popularity": 1346098,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Tunisia"
+    },
+    {
+      "name": "Uganda",
+      "aliases": [
+        "Ouganda",
+        "Pearl of Africa",
+        "Republic of Uganda",
+        "The Republic of Uganda",
+        "Ugandah"
+      ],
+      "popularity": 1349045,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Uganda"
+    },
+    {
+      "name": "Seychelles",
+      "aliases": [
+        "Republic of Seychelles",
+        "SEY"
+      ],
+      "popularity": 1377661,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Seychelles"
+    },
+    {
+      "name": "Eritrea",
+      "aliases": [
+        "Ertrā",
+        "Iritriyā",
+        "State of Eritrea"
+      ],
+      "popularity": 1380619,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Eritrea"
+    },
+    {
+      "name": "Madagascar",
+      "aliases": [
+        "Malagascar",
+        "Malagaskar",
+        "Republic of Madagascar"
+      ],
+      "popularity": 1400090,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Madagascar"
+    },
+    {
+      "name": "Zimbabwe",
+      "aliases": [
+        "Republic of Zimbabwe",
+        "Rhodesia",
+        "Southern Rhodesia",
+        "Zimbabwe Rhodesia"
+      ],
+      "popularity": 1407463,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Zimbabwe"
+    },
+    {
+      "name": "Tanzania",
+      "aliases": [
+        "tza",
+        "United Republic of Tanzania"
+      ],
+      "popularity": 1411456,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Tanzania"
+    },
+    {
+      "name": "Namibia",
+      "aliases": [
+        "Republic of Namibia"
+      ],
+      "popularity": 1448748,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Namibia"
+    },
+    {
+      "name": "Sudan",
+      "aliases": [
+        "al-Sudan",
+        "as-Sūdān",
+        "North Sudan",
+        "Republic of Sudan",
+        "Republic of the Sudan",
+        "Soudan",
+        "SUD",
+        "the Sudan"
+      ],
+      "popularity": 1504654,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Sudan"
+    },
+    {
+      "name": "Burkina Faso",
+      "aliases": [
+        "Republic of Burkina Faso"
+      ],
+      "popularity": 1587814,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Burkina Faso"
+    },
+    {
+      "name": "Senegal",
+      "aliases": [
+        "Republic of Senegal"
+      ],
+      "popularity": 1652174,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Senegal"
+    },
+    {
+      "name": "Ghana",
+      "aliases": [],
+      "popularity": 1672815,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Ghana"
+    },
+    {
+      "name": "Ethiopia",
+      "aliases": [
+        "Federal Democratic Republic of Ethiopia"
+      ],
+      "popularity": 1809447,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Ethiopia"
+    },
+    {
+      "name": "Somalia",
+      "aliases": [
+        "Federal Republic of Somalia"
+      ],
+      "popularity": 1839917,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Somalia"
+    },
+    {
+      "name": "Ivory Coast",
+      "aliases": [
+        "Côte-d'Ivoire",
+        "Cote d'lvoire",
+        "Cote Ivoire",
+        "Republic of Côte d'Ivoire",
+        "Republic of Ivory Coast",
+        "Republic of the Ivory Coast",
+        "The Ivory Coast"
+      ],
+      "popularity": 1842800,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Ivory Coast"
+    },
+    {
+      "name": "Algeria",
+      "aliases": [
+        "Djazaïr",
+        "Dzayer"
+      ],
+      "popularity": 2043112,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Algeria"
+    },
+    {
+      "name": "Egypt",
+      "aliases": [
+        "Arab Rep. Egypt",
+        "Arab Republic of Egypt",
+        "Misr",
+        "Rep. Egypt",
+        "Republic of Egypt"
+      ],
+      "popularity": 2152221,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Egypt"
+    },
+    {
+      "name": "Nigeria",
+      "aliases": [
+        "Federal Republic of Nigeria",
+        "Naija",
+        "NG"
+      ],
+      "popularity": 2189060,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Nigeria"
+    },
+    {
+      "name": "Mauritius",
+      "aliases": [
+        "Maurice",
+        "Moris",
+        "MRI",
+        "Republic of Mauritius"
+      ],
+      "popularity": 2447288,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Mauritius"
+    },
+    {
+      "name": "South Africa",
+      "aliases": [
+        "R.S.A.",
+        "Republic of South Africa",
+        "RSA",
+        "zaf"
+      ],
+      "popularity": 2693991,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "South Africa"
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "aliases": [
+        "COD",
+        "D.R.C.",
+        "Dem. Rep. Congo",
+        "Dem. Republic of Congo",
+        "Dem. Republic of the Congo",
+        "Democratic Republic of Congo",
+        "DR Congo",
+        "DRC"
+      ],
+      "popularity": 2856980,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Democratic Republic of the Congo"
+    },
+    {
+      "name": "Morocco",
+      "aliases": [
+        "al-Maġrib",
+        "Kingdom of Morocco",
+        "Lmaġrib",
+        "Maroc",
+        "Marocco"
+      ],
+      "popularity": 3040798,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Morocco"
+    },
+    {
+      "name": "Cape Verde",
+      "aliases": [
+        "Cape Verde Islands",
+        "Republic of Cabo Verde",
+        "Republic of Cape Verde"
+      ],
+      "popularity": 8309346,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Cape Verde"
+    }
+  ]
+}

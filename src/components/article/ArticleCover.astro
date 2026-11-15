@@ -17,24 +17,33 @@ interface Props {
   alt?: string;
   class?: string;
   sizes?: string;
+  /** Above-the-fold covers (featured pillar, article hero) pass eager. */
+  loading?: 'lazy' | 'eager';
+  widths?: number[];
+  width?: number;
+  height?: number;
 }
 const {
   src,
   alt = '',
   class: className = 'mb-3 aspect-video w-full rounded-md object-cover',
   sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw',
+  loading = 'lazy',
+  widths = [200, 400, 800],
+  width = 800,
+  height = 450,
 } = Astro.props;
 ---
 
 <Image
   src={src}
   alt={alt}
-  width={400}
-  height={225}
-  widths={[200, 400, 800]}
+  width={width}
+  height={height}
+  widths={widths}
   sizes={sizes}
   format="webp"
-  loading="lazy"
+  loading={loading}
   decoding="async"
   class={className}
 />

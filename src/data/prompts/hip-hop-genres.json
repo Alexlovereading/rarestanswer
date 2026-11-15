@@ -1,0 +1,856 @@
+{
+  "id": "hip-hop-genres",
+  "slug": "hip-hop-genres",
+  "category": "music",
+  "question": "Name a genre of hip-hop",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Hip hop in the Dominican Republic",
+      "aliases": [
+        "Dominican hip hop"
+      ],
+      "popularity": 117,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Hip hop in the Dominican Republic"
+    },
+    {
+      "name": "Ragga hip hop",
+      "aliases": [
+        "ragga rap",
+        "raggamuffin hip hop",
+        "raggamuffin rap"
+      ],
+      "popularity": 408,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Ragga hip hop"
+    },
+    {
+      "name": "Nuyorican rap",
+      "aliases": [],
+      "popularity": 457,
+      "rarity": 0.975,
+      "tier": 6,
+      "wiki": "Nuyorican rap"
+    },
+    {
+      "name": "Indie hip-hop",
+      "aliases": [
+        "indie rap"
+      ],
+      "popularity": 473,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Indie hip-hop"
+    },
+    {
+      "name": "Burban",
+      "aliases": [],
+      "popularity": 584,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Burban"
+    },
+    {
+      "name": "Vigilante rap",
+      "aliases": [
+        "rap das milícias",
+        "V-rap"
+      ],
+      "popularity": 748,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Vigilante rap"
+    },
+    {
+      "name": "Azerbaijani hip-hop",
+      "aliases": [],
+      "popularity": 907,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Azerbaijani hip-hop"
+    },
+    {
+      "name": "Middle Eastern hip-hop",
+      "aliases": [
+        "Middle Eastern rap",
+        "oriental hip hop"
+      ],
+      "popularity": 1116,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Middle Eastern hip-hop"
+    },
+    {
+      "name": "Nā mele paleoleo",
+      "aliases": [
+        "Hawai‘i hip-hop",
+        "Hawaiian hip hop",
+        "Mele paleoleo"
+      ],
+      "popularity": 1167,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Nā mele paleoleo"
+    },
+    {
+      "name": "Samoan hip-hop",
+      "aliases": [],
+      "popularity": 1330,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Samoan hip-hop"
+    },
+    {
+      "name": "St. Louis Bounce",
+      "aliases": [],
+      "popularity": 1350,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "St. Louis Bounce"
+    },
+    {
+      "name": "Hipco",
+      "aliases": [
+        "hip coloqaul rap"
+      ],
+      "popularity": 1760,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Hipco"
+    },
+    {
+      "name": "Haitian hip-hop",
+      "aliases": [
+        "rap kreyòl"
+      ],
+      "popularity": 1798,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Haitian hip-hop"
+    },
+    {
+      "name": "Ratchet music",
+      "aliases": [
+        "ratchet"
+      ],
+      "popularity": 1924,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Ratchet music"
+    },
+    {
+      "name": "Classical music in hip-hop",
+      "aliases": [
+        "classical hip hop",
+        "orchestral hip hop",
+        "orchestral rap",
+        "symphonic rap"
+      ],
+      "popularity": 2395,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Classical music in hip-hop"
+    },
+    {
+      "name": "Genge",
+      "aliases": [],
+      "popularity": 2444,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Genge"
+    },
+    {
+      "name": "Native American hip-hop",
+      "aliases": [
+        "Native American rap"
+      ],
+      "popularity": 2531,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Native American hip-hop"
+    },
+    {
+      "name": "Classic hip-hop",
+      "aliases": [],
+      "popularity": 2919,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Classic hip-hop"
+    },
+    {
+      "name": "Instrumental hip hop",
+      "aliases": [
+        "instrumental hip hop music"
+      ],
+      "popularity": 3278,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "Instrumental hip hop"
+    },
+    {
+      "name": "Romani hip-hop",
+      "aliases": [
+        "Gyp-hop",
+        "gypsy hip hop",
+        "Romany hip hop"
+      ],
+      "popularity": 3693,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Romani hip-hop"
+    },
+    {
+      "name": "Asian hip-hop",
+      "aliases": [
+        "Asian rap"
+      ],
+      "popularity": 3717,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Asian hip-hop"
+    },
+    {
+      "name": "Arabic hip-hop",
+      "aliases": [
+        "Arabic rap"
+      ],
+      "popularity": 3824,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Arabic hip-hop"
+    },
+    {
+      "name": "New Zealand hip-hop",
+      "aliases": [
+        "New Zealand rap"
+      ],
+      "popularity": 4529,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "New Zealand hip-hop"
+    },
+    {
+      "name": "Toronto sound",
+      "aliases": [
+        "Toronto sound (hip-hop)"
+      ],
+      "popularity": 5112,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Toronto sound (hip-hop)"
+    },
+    {
+      "name": "European hip-hop",
+      "aliases": [
+        "European rap"
+      ],
+      "popularity": 5360,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "European hip-hop"
+    },
+    {
+      "name": "Hiplife",
+      "aliases": [
+        "hip life"
+      ],
+      "popularity": 6634,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Hiplife"
+    },
+    {
+      "name": "Mobb music",
+      "aliases": [],
+      "popularity": 6998,
+      "rarity": 0.675,
+      "tier": 4,
+      "wiki": "Mobb music"
+    },
+    {
+      "name": "Jewish hip-hop",
+      "aliases": [],
+      "popularity": 7382,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Jewish hip-hop"
+    },
+    {
+      "name": "Australian hip-hop",
+      "aliases": [
+        "Australian rap"
+      ],
+      "popularity": 7537,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Australian hip-hop"
+    },
+    {
+      "name": "African hip-hop",
+      "aliases": [
+        "African rap"
+      ],
+      "popularity": 7544,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "African hip-hop"
+    },
+    {
+      "name": "Glitch hop",
+      "aliases": [
+        "blip hop",
+        "break hop",
+        "click hop",
+        "downbreaks",
+        "glitchstep"
+      ],
+      "popularity": 8563,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Glitch hop"
+    },
+    {
+      "name": "Bongo Flava",
+      "aliases": [
+        "bongo",
+        "bongoflava"
+      ],
+      "popularity": 8614,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Bongo Flava"
+    },
+    {
+      "name": "Canadian hip-hop",
+      "aliases": [
+        "Canadian rap"
+      ],
+      "popularity": 8982,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Canadian hip-hop"
+    },
+    {
+      "name": "Lowend",
+      "aliases": [],
+      "popularity": 10099,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Lowend"
+    },
+    {
+      "name": "Conscious hip hop",
+      "aliases": [
+        "conscious rap"
+      ],
+      "popularity": 10127,
+      "rarity": 0.575,
+      "tier": 3,
+      "wiki": "Conscious hip hop"
+    },
+    {
+      "name": "Rap opera",
+      "aliases": [],
+      "popularity": 13594,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Rap opera"
+    },
+    {
+      "name": "Latin hip-hop",
+      "aliases": [
+        "Latin rap",
+        "Latino hip hop"
+      ],
+      "popularity": 15193,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Latin hip-hop"
+    },
+    {
+      "name": "Afroswing",
+      "aliases": [
+        "Afro Bashment",
+        "Afrobbean",
+        "Afrowave",
+        "UK Afrobeats"
+      ],
+      "popularity": 16958,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Afroswing"
+    },
+    {
+      "name": "Comedy hip-hop",
+      "aliases": [
+        "comedy rap"
+      ],
+      "popularity": 18537,
+      "rarity": 0.525,
+      "tier": 3,
+      "wiki": "Comedy hip-hop"
+    },
+    {
+      "name": "Christian hip-hop",
+      "aliases": [
+        "Christian rap",
+        "gospel hip-hop",
+        "gospel rap",
+        "holy hip-hop",
+        "holy rap"
+      ],
+      "popularity": 20415,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Christian hip-hop"
+    },
+    {
+      "name": "New-school hip-hop",
+      "aliases": [
+        "New School"
+      ],
+      "popularity": 22227,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "New-school hip-hop"
+    },
+    {
+      "name": "Snap music",
+      "aliases": [
+        "ringtone rap",
+        "snap",
+        "snap rap"
+      ],
+      "popularity": 24467,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "Snap music"
+    },
+    {
+      "name": "LGBTQ representation in hip-hop",
+      "aliases": [
+        "homo hop",
+        "LGBT hip hop"
+      ],
+      "popularity": 25968,
+      "rarity": 0.475,
+      "tier": 3,
+      "wiki": "LGBTQ representation in hip-hop"
+    },
+    {
+      "name": "Punk rap",
+      "aliases": [
+        "rap punk"
+      ],
+      "popularity": 26761,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Punk rap"
+    },
+    {
+      "name": "Hip house",
+      "aliases": [
+        "house rap",
+        "rap house"
+      ],
+      "popularity": 27639,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Hip house"
+    },
+    {
+      "name": "Internet rap",
+      "aliases": [
+        "blog rap"
+      ],
+      "popularity": 27765,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Internet rap"
+    },
+    {
+      "name": "Psychedelic rap",
+      "aliases": [
+        "psych-rap",
+        "psychedelic hip-hop"
+      ],
+      "popularity": 28421,
+      "rarity": 0.425,
+      "tier": 3,
+      "wiki": "Psychedelic rap"
+    },
+    {
+      "name": "Country rap",
+      "aliases": [
+        "country hip-hop",
+        "hick-hop",
+        "rural rap"
+      ],
+      "popularity": 31606,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Country rap"
+    },
+    {
+      "name": "Battle rap",
+      "aliases": [
+        "rap battle",
+        "rap battling"
+      ],
+      "popularity": 32907,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Battle rap"
+    },
+    {
+      "name": "Freestyle rap",
+      "aliases": [
+        "freestyle hip hop",
+        "freestyling"
+      ],
+      "popularity": 33855,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Freestyle rap"
+    },
+    {
+      "name": "Lofi hip-hop",
+      "aliases": [
+        "chill-hop",
+        "chillhop",
+        "lo-fi hip hop",
+        "lofi rap"
+      ],
+      "popularity": 35338,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Lofi hip-hop"
+    },
+    {
+      "name": "SoundCloud rap",
+      "aliases": [],
+      "popularity": 36643,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "SoundCloud rap"
+    },
+    {
+      "name": "Nerdcore",
+      "aliases": [
+        "nerdcore hip hop",
+        "nerdcore rap"
+      ],
+      "popularity": 41009,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Nerdcore"
+    },
+    {
+      "name": "Old-school hip-hop",
+      "aliases": [
+        "old-school rap",
+        "old-skool hip hop"
+      ],
+      "popularity": 42610,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Old-school hip-hop"
+    },
+    {
+      "name": "Jazz rap",
+      "aliases": [
+        "jazz hip-hop",
+        "jazz hop"
+      ],
+      "popularity": 43424,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Jazz rap"
+    },
+    {
+      "name": "Progressive rap",
+      "aliases": [
+        "progressive hip-hop"
+      ],
+      "popularity": 44088,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Progressive rap"
+    },
+    {
+      "name": "Underground hip-hop",
+      "aliases": [
+        "underground rap"
+      ],
+      "popularity": 49485,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Underground hip-hop"
+    },
+    {
+      "name": "Chipmunk soul",
+      "aliases": [],
+      "popularity": 49876,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Chipmunk soul"
+    },
+    {
+      "name": "Pop rap",
+      "aliases": [
+        "hip pop",
+        "melodic hip-hop",
+        "melodic rap",
+        "pop hip-hop"
+      ],
+      "popularity": 51615,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Pop rap"
+    },
+    {
+      "name": "Hardcore hip-hop",
+      "aliases": [
+        "hardcore rap"
+      ],
+      "popularity": 53612,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Hardcore hip-hop"
+    },
+    {
+      "name": "Miami bass",
+      "aliases": [
+        "booty bass",
+        "booty music"
+      ],
+      "popularity": 53754,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Miami bass"
+    },
+    {
+      "name": "Political hip-hop",
+      "aliases": [
+        "political rap"
+      ],
+      "popularity": 54420,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Political hip-hop"
+    },
+    {
+      "name": "Turntablism",
+      "aliases": [
+        "turntabalism",
+        "turntable music",
+        "turntables"
+      ],
+      "popularity": 56021,
+      "rarity": 0.225,
+      "tier": 2,
+      "wiki": "Turntablism"
+    },
+    {
+      "name": "Hyphy",
+      "aliases": [],
+      "popularity": 58874,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Hyphy"
+    },
+    {
+      "name": "Rap rock",
+      "aliases": [
+        "hip-hop rock"
+      ],
+      "popularity": 63694,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Rap rock"
+    },
+    {
+      "name": "Dirty rap",
+      "aliases": [
+        "booty rap",
+        "porn rap",
+        "porno rap",
+        "pornocore",
+        "sex rap"
+      ],
+      "popularity": 68315,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Dirty rap"
+    },
+    {
+      "name": "Jerk",
+      "aliases": [
+        "hoodtrap",
+        "Jerk (music genre)",
+        "jerknb"
+      ],
+      "popularity": 70683,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Jerk (music genre)"
+    },
+    {
+      "name": "Digicore",
+      "aliases": [
+        "glitchcore",
+        "robloxcore"
+      ],
+      "popularity": 72398,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Digicore"
+    },
+    {
+      "name": "Boom bap",
+      "aliases": [],
+      "popularity": 75742,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Boom bap"
+    },
+    {
+      "name": "Golden age hip-hop",
+      "aliases": [
+        "golden age of hip hop"
+      ],
+      "popularity": 76031,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Golden age hip-hop"
+    },
+    {
+      "name": "Chopped and screwed",
+      "aliases": [
+        "screw",
+        "screwed and chopped",
+        "slowed and throwed"
+      ],
+      "popularity": 76608,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Chopped and screwed"
+    },
+    {
+      "name": "Alternative hip-hop",
+      "aliases": [
+        "alt hip-hop",
+        "alt rap",
+        "alternative rap"
+      ],
+      "popularity": 78317,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Alternative hip-hop"
+    },
+    {
+      "name": "Mumble rap",
+      "aliases": [],
+      "popularity": 83278,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Mumble rap"
+    },
+    {
+      "name": "Crunk",
+      "aliases": [],
+      "popularity": 88391,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Crunk"
+    },
+    {
+      "name": "Emo rap",
+      "aliases": [
+        "bop-punk",
+        "emo hip-hop",
+        "sad rap"
+      ],
+      "popularity": 97870,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Emo rap"
+    },
+    {
+      "name": "Horrorcore",
+      "aliases": [
+        "death hip-hop",
+        "death rap",
+        "horror hip-hop",
+        "horror rap",
+        "murder hip-hop",
+        "murder rap"
+      ],
+      "popularity": 151588,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Horrorcore"
+    },
+    {
+      "name": "Cloud rap",
+      "aliases": [
+        "cloud hip hop",
+        "trillwave"
+      ],
+      "popularity": 158234,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "Cloud rap"
+    },
+    {
+      "name": "Drill music",
+      "aliases": [
+        "drill",
+        "drill hip-hop",
+        "drill rap"
+      ],
+      "popularity": 200356,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Drill music"
+    },
+    {
+      "name": "Phonk",
+      "aliases": [],
+      "popularity": 225831,
+      "rarity": 0.025,
+      "tier": 1,
+      "wiki": "Phonk"
+    },
+    {
+      "name": "Rapping",
+      "aliases": [
+        "emceeing",
+        "flowing",
+        "MCing",
+        "rap",
+        "rap music",
+        "rhyming",
+        "spitting"
+      ],
+      "popularity": 269165,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Rapping"
+    },
+    {
+      "name": "Trap music",
+      "aliases": [
+        "trap",
+        "trap rap"
+      ],
+      "popularity": 342531,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Trap music"
+    }
+  ]
+}

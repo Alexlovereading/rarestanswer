@@ -1,0 +1,521 @@
+{
+  "id": "tortoise-species",
+  "slug": "tortoise-species",
+  "category": "animals",
+  "question": "Name a species of tortoise",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Negev tortoise",
+      "aliases": [
+        "Testudo werneri"
+      ],
+      "popularity": 382,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Negev tortoise"
+    },
+    {
+      "name": "Natal hinge-back tortoise",
+      "aliases": [
+        "Kinixys natalensis"
+      ],
+      "popularity": 868,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Natal hinge-back tortoise"
+    },
+    {
+      "name": "Lobatse hinge-back tortoise",
+      "aliases": [
+        "Kinixys lobatsiana"
+      ],
+      "popularity": 992,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Lobatse hinge-back tortoise"
+    },
+    {
+      "name": "Chersobius solus",
+      "aliases": [
+        "Berger's cape tortoise",
+        "Homopus solus",
+        "Nama padloper"
+      ],
+      "popularity": 1060,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Chersobius solus"
+    },
+    {
+      "name": "Serrated tortoise",
+      "aliases": [
+        "Psammobates oculifer",
+        "Serrated tent tortoise"
+      ],
+      "popularity": 1072,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Serrated tortoise"
+    },
+    {
+      "name": "Homopus femoralis",
+      "aliases": [
+        "Karoo cape tortoise"
+      ],
+      "popularity": 1155,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Homopus femoralis"
+    },
+    {
+      "name": "Chersobius boulengeri",
+      "aliases": [
+        "Boulenger's cape tortoise",
+        "Homopus boulengeri"
+      ],
+      "popularity": 1437,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Chersobius boulengeri"
+    },
+    {
+      "name": "Goode's thornscrub tortoise",
+      "aliases": [
+        "Gopherus evgoodei",
+        "Sinaloan thornscrub tortoise"
+      ],
+      "popularity": 1817,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Goode's thornscrub tortoise"
+    },
+    {
+      "name": "Speke's hinge-back tortoise",
+      "aliases": [
+        "Kinixys spekii"
+      ],
+      "popularity": 1949,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Speke's hinge-back tortoise"
+    },
+    {
+      "name": "Travancore tortoise",
+      "aliases": [
+        "Indotestudo travancorica"
+      ],
+      "popularity": 1955,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Travancore tortoise"
+    },
+    {
+      "name": "Home's hinge-back tortoise",
+      "aliases": [
+        "Kinixys homeana"
+      ],
+      "popularity": 2039,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Home's hinge-back tortoise"
+    },
+    {
+      "name": "Forsten's tortoise",
+      "aliases": [
+        "Indotestudo forstenii"
+      ],
+      "popularity": 2069,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Forsten's tortoise"
+    },
+    {
+      "name": "Flat-backed spider tortoise",
+      "aliases": [
+        "Flat-shelled spider tortoise",
+        "Pyxis planicauda"
+      ],
+      "popularity": 2099,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Flat-backed spider tortoise"
+    },
+    {
+      "name": "Forest hinge-back tortoise",
+      "aliases": [
+        "Kinixys erosa",
+        "Serrated hinge-back tortoise"
+      ],
+      "popularity": 2101,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Forest hinge-back tortoise"
+    },
+    {
+      "name": "Homopus areolatus",
+      "aliases": [
+        "Beaked cape tortoise"
+      ],
+      "popularity": 2927,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Homopus areolatus"
+    },
+    {
+      "name": "Geometric tortoise",
+      "aliases": [
+        "Psammobates geometricus"
+      ],
+      "popularity": 3149,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Geometric tortoise"
+    },
+    {
+      "name": "Bell's hinge-back tortoise",
+      "aliases": [
+        "Bell's eastern hinged tortoise",
+        "Bell’s hinged tortoise",
+        "Kinixys belliana"
+      ],
+      "popularity": 3239,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Bell's hinge-back tortoise"
+    },
+    {
+      "name": "Tent tortoise",
+      "aliases": [
+        "Psammobates tentorius"
+      ],
+      "popularity": 3271,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Tent tortoise"
+    },
+    {
+      "name": "Sonoran Desert tortoise",
+      "aliases": [
+        "Gopherus morafkai",
+        "Morafka’s desert tortoise"
+      ],
+      "popularity": 4341,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Sonoran Desert tortoise"
+    },
+    {
+      "name": "Spider tortoise",
+      "aliases": [
+        "Pyxis arachnoides"
+      ],
+      "popularity": 4633,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Spider tortoise"
+    },
+    {
+      "name": "Impressed tortoise",
+      "aliases": [
+        "Manouria impressa"
+      ],
+      "popularity": 5079,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Impressed tortoise"
+    },
+    {
+      "name": "Bolson tortoise",
+      "aliases": [
+        "Gopherus flavomarginatus",
+        "Mexican giant tortoise",
+        "Yellow-bordered tortoise",
+        "Yellow-margined tortoise"
+      ],
+      "popularity": 5291,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Bolson tortoise"
+    },
+    {
+      "name": "Chaco tortoise",
+      "aliases": [
+        "Argentine tortoise",
+        "Chelonoidis chilensis"
+      ],
+      "popularity": 5551,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Chaco tortoise"
+    },
+    {
+      "name": "Angulate tortoise",
+      "aliases": [
+        "Bowsprit tortoise",
+        "Chersina angulata"
+      ],
+      "popularity": 5651,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Angulate tortoise"
+    },
+    {
+      "name": "Elongated tortoise",
+      "aliases": [
+        "Indotestudo elongata"
+      ],
+      "popularity": 6703,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Elongated tortoise"
+    },
+    {
+      "name": "Burmese star tortoise",
+      "aliases": [
+        "Burmese starred tortoise",
+        "Geochelone platynota"
+      ],
+      "popularity": 7156,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Burmese star tortoise"
+    },
+    {
+      "name": "Texas tortoise",
+      "aliases": [
+        "Berlandier’s tortoise",
+        "Gopherus berlandieri"
+      ],
+      "popularity": 7630,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Texas tortoise"
+    },
+    {
+      "name": "Kleinmann's tortoise",
+      "aliases": [
+        "Egyptian tortoise",
+        "Testudo kleinmanni"
+      ],
+      "popularity": 7665,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Kleinmann's tortoise"
+    },
+    {
+      "name": "Pancake tortoise",
+      "aliases": [
+        "Malacochersus tornieri"
+      ],
+      "popularity": 10766,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Pancake tortoise"
+    },
+    {
+      "name": "Marginated tortoise",
+      "aliases": [
+        "Testudo marginata"
+      ],
+      "popularity": 12250,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Marginated tortoise"
+    },
+    {
+      "name": "Asian forest tortoise",
+      "aliases": [
+        "Asian tortoise",
+        "Manouria emys"
+      ],
+      "popularity": 12449,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Asian forest tortoise"
+    },
+    {
+      "name": "Chersobius signatus",
+      "aliases": [
+        "Homopus signatus",
+        "speckled Cape tortoise",
+        "speckled padloper tortoise"
+      ],
+      "popularity": 12846,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Chersobius signatus"
+    },
+    {
+      "name": "Yellow-footed tortoise",
+      "aliases": [
+        "Chelonoidis denticulata",
+        "Chelonoidis denticulatus",
+        "South American yellow-footed tortoise"
+      ],
+      "popularity": 13099,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Yellow-footed tortoise"
+    },
+    {
+      "name": "Angonoka tortoise",
+      "aliases": [
+        "Astrochelys yniphora",
+        "Madagascan tortoise",
+        "ploughshare tortoise",
+        "plowshare tortoise"
+      ],
+      "popularity": 13860,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Angonoka tortoise"
+    },
+    {
+      "name": "Central Asian tortoise",
+      "aliases": [
+        "Afghan tortoise",
+        "Agrionemys horsfieldi",
+        "Russian tortoise",
+        "Testudo horsfieldii"
+      ],
+      "popularity": 20113,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Central Asian tortoise"
+    },
+    {
+      "name": "Radiated tortoise",
+      "aliases": [
+        "Astrochelys radiata"
+      ],
+      "popularity": 23402,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Radiated tortoise"
+    },
+    {
+      "name": "Leopard tortoise",
+      "aliases": [
+        "Stigmochelys pardalis"
+      ],
+      "popularity": 32643,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Leopard tortoise"
+    },
+    {
+      "name": "Greek tortoise",
+      "aliases": [
+        "Moorish tortoise",
+        "spur-thighed tortoise",
+        "Testudo graeca"
+      ],
+      "popularity": 34471,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Greek tortoise"
+    },
+    {
+      "name": "Indian star tortoise",
+      "aliases": [
+        "Geochelone elegans"
+      ],
+      "popularity": 38000,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Indian star tortoise"
+    },
+    {
+      "name": "Fernandina Island Galápagos tortoise",
+      "aliases": [
+        "Chelonoidis phantastica",
+        "Chelonoidis phantasticus"
+      ],
+      "popularity": 42864,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Fernandina Island Galápagos tortoise"
+    },
+    {
+      "name": "Red-footed tortoise",
+      "aliases": [
+        "Chelonoidis carbonaria",
+        "Chelonoidis carbonarius"
+      ],
+      "popularity": 48903,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Red-footed tortoise"
+    },
+    {
+      "name": "Hermann's tortoise",
+      "aliases": [
+        "Testudo hermanni"
+      ],
+      "popularity": 51663,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Hermann's tortoise"
+    },
+    {
+      "name": "Desert tortoise",
+      "aliases": [
+        "Agassiz’s desert tortoise",
+        "Gopherus agassizii",
+        "Mojave desert tortoise"
+      ],
+      "popularity": 56420,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Desert tortoise"
+    },
+    {
+      "name": "Gopher tortoise",
+      "aliases": [
+        "Gopherus polyphemus"
+      ],
+      "popularity": 58844,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Gopher tortoise"
+    },
+    {
+      "name": "African spurred tortoise",
+      "aliases": [
+        "Centrochelys sulcata"
+      ],
+      "popularity": 106228,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "African spurred tortoise"
+    },
+    {
+      "name": "Aldabra giant tortoise",
+      "aliases": [
+        "Aldabrachelys gigantea"
+      ],
+      "popularity": 114987,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Aldabra giant tortoise"
+    },
+    {
+      "name": "Galápagos tortoise",
+      "aliases": [
+        "Chelonoidis niger",
+        "Chelonoidis niger species complex",
+        "Chelonoidis nigra species complex",
+        "Galápagos giant tortoise",
+        "Galápagos tortoise complex",
+        "Galápagos tortoises",
+        "Geochelone elephantopus",
+        "Geochelone nigra"
+      ],
+      "popularity": 199338,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Galápagos tortoise"
+    }
+  ]
+}

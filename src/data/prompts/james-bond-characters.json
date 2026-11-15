@@ -1,0 +1,503 @@
+{
+  "id": "james-bond-characters",
+  "slug": "james-bond-characters",
+  "category": "screen",
+  "question": "Name a James Bond character",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Mata Bond",
+      "aliases": [],
+      "popularity": 44,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Mata Bond"
+    },
+    {
+      "name": "Steven Obanno",
+      "aliases": [],
+      "popularity": 295,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Steven Obanno"
+    },
+    {
+      "name": "Octopussy",
+      "aliases": [
+        "Octopussy (character)"
+      ],
+      "popularity": 341,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Octopussy (character)"
+    },
+    {
+      "name": "Kamal Khan",
+      "aliases": [
+        "Kamal Khan (character)"
+      ],
+      "popularity": 864,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Kamal Khan (character)"
+    },
+    {
+      "name": "Tiger Tanaka",
+      "aliases": [],
+      "popularity": 1993,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Tiger Tanaka"
+    },
+    {
+      "name": "Sylvia Trench",
+      "aliases": [],
+      "popularity": 4543,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Sylvia Trench"
+    },
+    {
+      "name": "Mary Goodnight",
+      "aliases": [],
+      "popularity": 6268,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Mary Goodnight"
+    },
+    {
+      "name": "Necros",
+      "aliases": [
+        "Necros (James Bond)"
+      ],
+      "popularity": 8608,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Necros (James Bond)"
+    },
+    {
+      "name": "Max Zorin",
+      "aliases": [
+        "Maximillian \"Max\" Zorin",
+        "Maximillian Zorin"
+      ],
+      "popularity": 15148,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Max Zorin"
+    },
+    {
+      "name": "Stacey Sutton",
+      "aliases": [],
+      "popularity": 16072,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Stacey Sutton"
+    },
+    {
+      "name": "Strawberry Fields",
+      "aliases": [
+        "Strawberry Fields (character)"
+      ],
+      "popularity": 16873,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Strawberry Fields (character)"
+    },
+    {
+      "name": "Aki",
+      "aliases": [
+        "Aki (James Bond)"
+      ],
+      "popularity": 17038,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Aki (James Bond)"
+    },
+    {
+      "name": "Brad Whitaker",
+      "aliases": [],
+      "popularity": 18742,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Brad Whitaker"
+    },
+    {
+      "name": "Karl Stromberg",
+      "aliases": [],
+      "popularity": 18870,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Karl Stromberg"
+    },
+    {
+      "name": "Fiona Volpe",
+      "aliases": [],
+      "popularity": 26581,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Fiona Volpe"
+    },
+    {
+      "name": "Wai Lin",
+      "aliases": [],
+      "popularity": 27491,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Wai Lin"
+    },
+    {
+      "name": "Tiffany Case",
+      "aliases": [],
+      "popularity": 29533,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Tiffany Case"
+    },
+    {
+      "name": "Holly Goodhead",
+      "aliases": [
+        "Dr. Holly Goodhead"
+      ],
+      "popularity": 29706,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Holly Goodhead"
+    },
+    {
+      "name": "Jinx",
+      "aliases": [
+        "Giacinta \"Jinx\" Johnson",
+        "Giacinta Johnson",
+        "Jinx (James Bond)",
+        "Jinx Johnson"
+      ],
+      "popularity": 31420,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Jinx (James Bond)"
+    },
+    {
+      "name": "Domino Vitali",
+      "aliases": [
+        "Dominetta Petacchi",
+        "Dominique Derval"
+      ],
+      "popularity": 37085,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Domino Vitali"
+    },
+    {
+      "name": "Emilio Largo",
+      "aliases": [
+        "Maximilian Largo"
+      ],
+      "popularity": 40283,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Emilio Largo"
+    },
+    {
+      "name": "Hugo Drax",
+      "aliases": [],
+      "popularity": 41503,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Hugo Drax"
+    },
+    {
+      "name": "May Day",
+      "aliases": [
+        "May Day (James Bond)"
+      ],
+      "popularity": 45308,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "May Day (James Bond)"
+    },
+    {
+      "name": "Tatiana Romanova",
+      "aliases": [],
+      "popularity": 46294,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "Tatiana Romanova"
+    },
+    {
+      "name": "Elektra King",
+      "aliases": [],
+      "popularity": 47236,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Elektra King"
+    },
+    {
+      "name": "Natalya Simonova",
+      "aliases": [],
+      "popularity": 47771,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Natalya Simonova"
+    },
+    {
+      "name": "Solitaire",
+      "aliases": [
+        "Solitaire (James Bond)"
+      ],
+      "popularity": 48797,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Solitaire (James Bond)"
+    },
+    {
+      "name": "Francisco Scaramanga",
+      "aliases": [
+        "Scaramanga"
+      ],
+      "popularity": 49155,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Francisco Scaramanga"
+    },
+    {
+      "name": "Anya Amasova",
+      "aliases": [
+        "Agent XXX",
+        "Kassandra Rukinova",
+        "Major Anya Amasova"
+      ],
+      "popularity": 50376,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Anya Amasova"
+    },
+    {
+      "name": "Camille Montes",
+      "aliases": [],
+      "popularity": 52342,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Camille Montes"
+    },
+    {
+      "name": "Kissy Suzuki",
+      "aliases": [],
+      "popularity": 56166,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Kissy Suzuki"
+    },
+    {
+      "name": "Rosa Klebb",
+      "aliases": [],
+      "popularity": 56500,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Rosa Klebb"
+    },
+    {
+      "name": "Honey Ryder",
+      "aliases": [
+        "Honey Rider"
+      ],
+      "popularity": 57968,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Honey Ryder"
+    },
+    {
+      "name": "Auric Goldfinger",
+      "aliases": [
+        "Goldfinger"
+      ],
+      "popularity": 65368,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Auric Goldfinger"
+    },
+    {
+      "name": "Sévérine",
+      "aliases": [],
+      "popularity": 69989,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Sévérine"
+    },
+    {
+      "name": "Julius No",
+      "aliases": [
+        "Dr. Julius No",
+        "Dr. No"
+      ],
+      "popularity": 70811,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Julius No"
+    },
+    {
+      "name": "Tracy Bond",
+      "aliases": [
+        "Grabiela"
+      ],
+      "popularity": 75215,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Tracy Bond"
+    },
+    {
+      "name": "Bill Tanner",
+      "aliases": [],
+      "popularity": 84007,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Bill Tanner"
+    },
+    {
+      "name": "Alec Trevelyan",
+      "aliases": [
+        "Janus"
+      ],
+      "popularity": 88546,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Alec Trevelyan"
+    },
+    {
+      "name": "Oddjob",
+      "aliases": [
+        "Odd Job"
+      ],
+      "popularity": 99687,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Oddjob"
+    },
+    {
+      "name": "Xenia Onatopp",
+      "aliases": [],
+      "popularity": 118889,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Xenia Onatopp"
+    },
+    {
+      "name": "Raoul Silva",
+      "aliases": [
+        "Silva",
+        "Tiago Rodriguez"
+      ],
+      "popularity": 128919,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Raoul Silva"
+    },
+    {
+      "name": "Felix Leiter",
+      "aliases": [],
+      "popularity": 145414,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Felix Leiter"
+    },
+    {
+      "name": "Le Chiffre",
+      "aliases": [],
+      "popularity": 147940,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Le Chiffre"
+    },
+    {
+      "name": "Jaws",
+      "aliases": [
+        "Jaws (James Bond)"
+      ],
+      "popularity": 152469,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Jaws (James Bond)"
+    },
+    {
+      "name": "Pussy Galore",
+      "aliases": [],
+      "popularity": 163655,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Pussy Galore"
+    },
+    {
+      "name": "Madeleine Swann",
+      "aliases": [],
+      "popularity": 179880,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Madeleine Swann"
+    },
+    {
+      "name": "Q",
+      "aliases": [
+        "Q (James Bond)"
+      ],
+      "popularity": 195434,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Q (James Bond)"
+    },
+    {
+      "name": "James Bond (Daniel Craig)",
+      "aliases": [],
+      "popularity": 235468,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "James Bond (Daniel Craig)"
+    },
+    {
+      "name": "Miss Moneypenny",
+      "aliases": [],
+      "popularity": 257965,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Miss Moneypenny"
+    },
+    {
+      "name": "M",
+      "aliases": [
+        "M (James Bond)"
+      ],
+      "popularity": 290983,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "M (James Bond)"
+    },
+    {
+      "name": "Vesper Lynd",
+      "aliases": [],
+      "popularity": 323604,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Vesper Lynd"
+    },
+    {
+      "name": "Ernst Stavro Blofeld",
+      "aliases": [
+        "Ernst Blofeld"
+      ],
+      "popularity": 425119,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Ernst Stavro Blofeld"
+    },
+    {
+      "name": "James Bond (literary character)",
+      "aliases": [
+        "Agent 007",
+        "double o seven"
+      ],
+      "popularity": 468150,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "James Bond (literary character)"
+    }
+  ]
+}

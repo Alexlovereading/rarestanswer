@@ -1,0 +1,222 @@
+{
+  "id": "si-prefixes",
+  "slug": "si-prefixes",
+  "category": "science",
+  "question": "Name an SI prefix",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Ronto-",
+      "aliases": [],
+      "popularity": 725,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Ronto-"
+    },
+    {
+      "name": "Zepto-",
+      "aliases": [],
+      "popularity": 1238,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Zepto-"
+    },
+    {
+      "name": "Yocto-",
+      "aliases": [],
+      "popularity": 1406,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Yocto-"
+    },
+    {
+      "name": "Zetta-",
+      "aliases": [],
+      "popularity": 1657,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Zetta-"
+    },
+    {
+      "name": "Quecto-",
+      "aliases": [],
+      "popularity": 1771,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Quecto-"
+    },
+    {
+      "name": "Pico-",
+      "aliases": [
+        "10^-12"
+      ],
+      "popularity": 1836,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Pico-"
+    },
+    {
+      "name": "Exa-",
+      "aliases": [
+        "×10^18",
+        "exa prefix",
+        "exa SI prefix",
+        "x10^18"
+      ],
+      "popularity": 2379,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Exa-"
+    },
+    {
+      "name": "Peta-",
+      "aliases": [
+        "peta prefix",
+        "peta SI prefix"
+      ],
+      "popularity": 2425,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Peta-"
+    },
+    {
+      "name": "Femto-",
+      "aliases": [],
+      "popularity": 2490,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Femto-"
+    },
+    {
+      "name": "Ronna-",
+      "aliases": [],
+      "popularity": 2528,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Ronna-"
+    },
+    {
+      "name": "Atto-",
+      "aliases": [],
+      "popularity": 3787,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Atto-"
+    },
+    {
+      "name": "Yotta-",
+      "aliases": [],
+      "popularity": 4059,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Yotta-"
+    },
+    {
+      "name": "Quetta-",
+      "aliases": [],
+      "popularity": 4104,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Quetta-"
+    },
+    {
+      "name": "Centi-",
+      "aliases": [],
+      "popularity": 5559,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Centi-"
+    },
+    {
+      "name": "Deca-",
+      "aliases": [],
+      "popularity": 9925,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Deca-"
+    },
+    {
+      "name": "Hecto-",
+      "aliases": [],
+      "popularity": 10049,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Hecto-"
+    },
+    {
+      "name": "Milli-",
+      "aliases": [],
+      "popularity": 11321,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Milli-"
+    },
+    {
+      "name": "Tera-",
+      "aliases": [
+        "tera prefix",
+        "tera SI prefix"
+      ],
+      "popularity": 13789,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Tera-"
+    },
+    {
+      "name": "Giga-",
+      "aliases": [
+        "giga prefix",
+        "giga SI prefix"
+      ],
+      "popularity": 23063,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Giga-"
+    },
+    {
+      "name": "Mega-",
+      "aliases": [
+        "mega prefix",
+        "mega SI prefix"
+      ],
+      "popularity": 25308,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Mega-"
+    },
+    {
+      "name": "Kilo-",
+      "aliases": [],
+      "popularity": 29737,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Kilo-"
+    },
+    {
+      "name": "Deci-",
+      "aliases": [],
+      "popularity": 31467,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Deci-"
+    },
+    {
+      "name": "Nano-",
+      "aliases": [],
+      "popularity": 39659,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Nano-"
+    },
+    {
+      "name": "Micro-",
+      "aliases": [
+        "10^-6"
+      ],
+      "popularity": 80943,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Micro-"
+    }
+  ]
+}

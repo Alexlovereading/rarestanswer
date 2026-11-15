@@ -1,0 +1,623 @@
+{
+  "id": "beyonce-songs",
+  "slug": "beyonce-songs",
+  "category": "music",
+  "question": "Name a Beyoncé song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "What's It Gonna Be",
+      "aliases": [
+        "What's It Gonna Be (Beyoncé song)"
+      ],
+      "popularity": 1646,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "What's It Gonna Be (Beyoncé song)"
+    },
+    {
+      "name": "Standing on the Sun",
+      "aliases": [],
+      "popularity": 3748,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Standing on the Sun"
+    },
+    {
+      "name": "Sandcastles",
+      "aliases": [
+        "Sandcastles (song)"
+      ],
+      "popularity": 4962,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Sandcastles (song)"
+    },
+    {
+      "name": "Suga Mama",
+      "aliases": [],
+      "popularity": 5217,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Suga Mama"
+    },
+    {
+      "name": "Pray You Catch Me",
+      "aliases": [],
+      "popularity": 5689,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Pray You Catch Me"
+    },
+    {
+      "name": "Top Off",
+      "aliases": [],
+      "popularity": 5921,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Top Off"
+    },
+    {
+      "name": "I Got That",
+      "aliases": [],
+      "popularity": 5999,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "I Got That"
+    },
+    {
+      "name": "Ring Off",
+      "aliases": [
+        "Ring Off (song)"
+      ],
+      "popularity": 6190,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Ring Off (song)"
+    },
+    {
+      "name": "Fighting Temptation",
+      "aliases": [],
+      "popularity": 6920,
+      "rarity": 0.879,
+      "tier": 5,
+      "wiki": "Fighting Temptation"
+    },
+    {
+      "name": "Be Alive",
+      "aliases": [],
+      "popularity": 7035,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Be Alive"
+    },
+    {
+      "name": "Kitty Kat",
+      "aliases": [
+        "Kitty Kat (song)"
+      ],
+      "popularity": 7588,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Kitty Kat (song)"
+    },
+    {
+      "name": "Grown Woman",
+      "aliases": [
+        "Grown Woman (Beyoncé song)"
+      ],
+      "popularity": 8054,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Grown Woman (Beyoncé song)"
+    },
+    {
+      "name": "Put It in a Love Song",
+      "aliases": [],
+      "popularity": 8421,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Put It in a Love Song"
+    },
+    {
+      "name": "Summertime",
+      "aliases": [
+        "Summertime (Beyoncé song)"
+      ],
+      "popularity": 8472,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Summertime (Beyoncé song)"
+    },
+    {
+      "name": "I Care",
+      "aliases": [
+        "I Care (Beyoncé song)"
+      ],
+      "popularity": 8969,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "I Care (Beyoncé song)"
+    },
+    {
+      "name": "6 Inch",
+      "aliases": [],
+      "popularity": 9439,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "6 Inch"
+    },
+    {
+      "name": "Hollywood",
+      "aliases": [
+        "Hollywood (Jay-Z song)"
+      ],
+      "popularity": 10127,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Hollywood (Jay-Z song)"
+    },
+    {
+      "name": "Amor Gitano",
+      "aliases": [],
+      "popularity": 10420,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Amor Gitano"
+    },
+    {
+      "name": "Roc Boys (And the Winner Is)...",
+      "aliases": [
+        "Roc Boys ..."
+      ],
+      "popularity": 10553,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Roc Boys (And the Winner Is)..."
+    },
+    {
+      "name": "Spirit",
+      "aliases": [
+        "Spirit (Beyoncé song)"
+      ],
+      "popularity": 10662,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Spirit (Beyoncé song)"
+    },
+    {
+      "name": "Delresto",
+      "aliases": [
+        "Delresto (Echoes)"
+      ],
+      "popularity": 10746,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "Delresto (Echoes)"
+    },
+    {
+      "name": "Broken-Hearted Girl",
+      "aliases": [],
+      "popularity": 10825,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Broken-Hearted Girl"
+    },
+    {
+      "name": "Love in This Club Part II",
+      "aliases": [],
+      "popularity": 11067,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Love in This Club Part II"
+    },
+    {
+      "name": "Lift Off",
+      "aliases": [
+        "Lift Off (song)"
+      ],
+      "popularity": 11169,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Lift Off (song)"
+    },
+    {
+      "name": "I Was Here",
+      "aliases": [
+        "I Was Here (song)"
+      ],
+      "popularity": 12043,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "I Was Here (song)"
+    },
+    {
+      "name": "Daddy Lessons",
+      "aliases": [],
+      "popularity": 12244,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Daddy Lessons"
+    },
+    {
+      "name": "Alien Superstar",
+      "aliases": [],
+      "popularity": 12365,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Alien Superstar"
+    },
+    {
+      "name": "Runnin'",
+      "aliases": [
+        "Runnin' (Lose It All)"
+      ],
+      "popularity": 12581,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Runnin' (Lose It All)"
+    },
+    {
+      "name": "Black Parade",
+      "aliases": [
+        "Black Parade (song)"
+      ],
+      "popularity": 12623,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Black Parade (song)"
+    },
+    {
+      "name": "End of Time",
+      "aliases": [
+        "End of Time (Beyoncé song)"
+      ],
+      "popularity": 12745,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "End of Time (Beyoncé song)"
+    },
+    {
+      "name": "Don't Hurt Yourself",
+      "aliases": [
+        "Don't Hurt Yourself (Beyoncé song)"
+      ],
+      "popularity": 13681,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Don't Hurt Yourself (Beyoncé song)"
+    },
+    {
+      "name": "Why Don't You Love Me",
+      "aliases": [
+        "Why Don't You Love Me (Beyoncé song)"
+      ],
+      "popularity": 14380,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "Why Don't You Love Me (Beyoncé song)"
+    },
+    {
+      "name": "Green Light",
+      "aliases": [
+        "Green Light (Beyoncé song)"
+      ],
+      "popularity": 15409,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Green Light (Beyoncé song)"
+    },
+    {
+      "name": "Ego",
+      "aliases": [
+        "Ego (Beyoncé song)"
+      ],
+      "popularity": 15763,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Ego (Beyoncé song)"
+    },
+    {
+      "name": "Countdown",
+      "aliases": [
+        "Countdown (Beyoncé song)"
+      ],
+      "popularity": 15951,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Countdown (Beyoncé song)"
+    },
+    {
+      "name": "Work It Out",
+      "aliases": [
+        "Work It Out (Beyoncé song)"
+      ],
+      "popularity": 16502,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "Work It Out (Beyoncé song)"
+    },
+    {
+      "name": "America Has a Problem",
+      "aliases": [],
+      "popularity": 18620,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "America Has a Problem"
+    },
+    {
+      "name": "16 Carriages",
+      "aliases": [],
+      "popularity": 18919,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "16 Carriages"
+    },
+    {
+      "name": "Best Thing I Never Had",
+      "aliases": [],
+      "popularity": 18971,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Best Thing I Never Had"
+    },
+    {
+      "name": "Sorry",
+      "aliases": [
+        "Sorry (Beyoncé song)"
+      ],
+      "popularity": 21734,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Sorry (Beyoncé song)"
+    },
+    {
+      "name": "All Night",
+      "aliases": [
+        "All Night (Beyoncé song)"
+      ],
+      "popularity": 22447,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "All Night (Beyoncé song)"
+    },
+    {
+      "name": "Diva",
+      "aliases": [
+        "Diva (Beyoncé song)"
+      ],
+      "popularity": 22610,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Diva (Beyoncé song)"
+    },
+    {
+      "name": "Get Me Bodied",
+      "aliases": [],
+      "popularity": 23137,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Get Me Bodied"
+    },
+    {
+      "name": "Me, Myself and I",
+      "aliases": [],
+      "popularity": 23685,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Me, Myself and I (Beyoncé song)"
+    },
+    {
+      "name": "Hold Up",
+      "aliases": [
+        "Hold Up (song)"
+      ],
+      "popularity": 23785,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Hold Up (song)"
+    },
+    {
+      "name": "Party",
+      "aliases": [
+        "Party (Beyoncé song)"
+      ],
+      "popularity": 25822,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Party (Beyoncé song)"
+    },
+    {
+      "name": "Listen",
+      "aliases": [
+        "Listen (Beyoncé song)"
+      ],
+      "popularity": 27957,
+      "rarity": 0.303,
+      "tier": 2,
+      "wiki": "Listen (Beyoncé song)"
+    },
+    {
+      "name": "Brown Skin Girl",
+      "aliases": [],
+      "popularity": 28046,
+      "rarity": 0.288,
+      "tier": 2,
+      "wiki": "Brown Skin Girl"
+    },
+    {
+      "name": "Sweet Dreams",
+      "aliases": [
+        "Sweet Dreams (Beyoncé song)"
+      ],
+      "popularity": 28698,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Sweet Dreams (Beyoncé song)"
+    },
+    {
+      "name": "Video Phone",
+      "aliases": [
+        "Video Phone (song)"
+      ],
+      "popularity": 29496,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Video Phone (song)"
+    },
+    {
+      "name": "Until the End of Time",
+      "aliases": [
+        "Until the End of Time (Justin Timberlake and Beyoncé song)"
+      ],
+      "popularity": 29562,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Until the End of Time (Justin Timberlake and Beyoncé song)"
+    },
+    {
+      "name": "Love On Top",
+      "aliases": [],
+      "popularity": 30593,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Love On Top"
+    },
+    {
+      "name": "XO",
+      "aliases": [
+        "XO (song)"
+      ],
+      "popularity": 34759,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "XO (song)"
+    },
+    {
+      "name": "Baby Boy",
+      "aliases": [
+        "Baby Boy (Beyoncé song)"
+      ],
+      "popularity": 35615,
+      "rarity": 0.197,
+      "tier": 1,
+      "wiki": "Baby Boy (Beyoncé song)"
+    },
+    {
+      "name": "II Most Wanted",
+      "aliases": [],
+      "popularity": 36861,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "II Most Wanted"
+    },
+    {
+      "name": "Check on It",
+      "aliases": [],
+      "popularity": 39760,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Check on It"
+    },
+    {
+      "name": "Run the World",
+      "aliases": [
+        "Run the World (Girls)"
+      ],
+      "popularity": 43404,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Run the World (Girls)"
+    },
+    {
+      "name": "Beautiful Liar",
+      "aliases": [
+        "Bello Embustero"
+      ],
+      "popularity": 44266,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Beautiful Liar"
+    },
+    {
+      "name": "'03 Bonnie & Clyde",
+      "aliases": [],
+      "popularity": 45527,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "'03 Bonnie & Clyde"
+    },
+    {
+      "name": "Break My Soul",
+      "aliases": [],
+      "popularity": 47775,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Break My Soul"
+    },
+    {
+      "name": "Drunk in Love",
+      "aliases": [],
+      "popularity": 48577,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Drunk in Love"
+    },
+    {
+      "name": "Formation",
+      "aliases": [
+        "Formation (song)"
+      ],
+      "popularity": 48680,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Formation (song)"
+    },
+    {
+      "name": "Hymn for the Weekend",
+      "aliases": [],
+      "popularity": 54434,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Hymn for the Weekend"
+    },
+    {
+      "name": "Texas Hold 'Em",
+      "aliases": [
+        "Texas Hold 'Em (song)"
+      ],
+      "popularity": 62169,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Texas Hold 'Em (song)"
+    },
+    {
+      "name": "Irreplaceable",
+      "aliases": [],
+      "popularity": 80360,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Irreplaceable"
+    },
+    {
+      "name": "Halo",
+      "aliases": [
+        "Halo (Beyoncé song)"
+      ],
+      "popularity": 83461,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Halo (Beyoncé song)"
+    },
+    {
+      "name": "Telephone",
+      "aliases": [
+        "Telephone (song)"
+      ],
+      "popularity": 86796,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Telephone (song)"
+    }
+  ]
+}

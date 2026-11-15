@@ -1,0 +1,373 @@
+{
+  "id": "ottoman-sultans",
+  "slug": "ottoman-sultans",
+  "category": "history",
+  "question": "Name an Ottoman sultan",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Suleiman II",
+      "aliases": [
+        "Qanuni Sultan Süleyman",
+        "Suleiman II (Ottoman sultan)"
+      ],
+      "popularity": 5910,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Suleiman II (Ottoman sultan)"
+    },
+    {
+      "name": "Osman III",
+      "aliases": [],
+      "popularity": 61793,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Osman III"
+    },
+    {
+      "name": "Ahmed II",
+      "aliases": [
+        "Achmet II"
+      ],
+      "popularity": 73380,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Ahmed II"
+    },
+    {
+      "name": "Mustafa III",
+      "aliases": [],
+      "popularity": 73404,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Mustafa III"
+    },
+    {
+      "name": "Mahmud I",
+      "aliases": [
+        "Mahmut I",
+        "Sultan Mahmud I"
+      ],
+      "popularity": 74230,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Mahmud I"
+    },
+    {
+      "name": "Mustafa IV",
+      "aliases": [],
+      "popularity": 78062,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Mustafa IV"
+    },
+    {
+      "name": "Mustafa II",
+      "aliases": [],
+      "popularity": 86785,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Mustafa II"
+    },
+    {
+      "name": "Abdul Hamid I",
+      "aliases": [],
+      "popularity": 91139,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Abdul Hamid I"
+    },
+    {
+      "name": "Ahmed III",
+      "aliases": [
+        "Achmet III",
+        "Sultan Ahmed III"
+      ],
+      "popularity": 101878,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Ahmed III"
+    },
+    {
+      "name": "Selim III",
+      "aliases": [],
+      "popularity": 110513,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Selim III"
+    },
+    {
+      "name": "Osman II",
+      "aliases": [
+        "Osmán o Útman II"
+      ],
+      "popularity": 112923,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Osman II"
+    },
+    {
+      "name": "Murad V",
+      "aliases": [
+        "Murat V"
+      ],
+      "popularity": 119636,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Murad V"
+    },
+    {
+      "name": "Abdülmecid I",
+      "aliases": [
+        "Abd-ul-Medjid",
+        "Abd-ul-Mejid I",
+        "Abdul Medjid",
+        "Abdul Medjid I",
+        "Abdul Mejid",
+        "Abdul Mejid I",
+        "Abdulmejid I",
+        "Sultan of the Turks Abdülmecit"
+      ],
+      "popularity": 123594,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Abdülmecid I"
+    },
+    {
+      "name": "Ibrahim of the Ottoman Empire",
+      "aliases": [
+        "Ibrahim bin Ahmed",
+        "Ibrahim I",
+        "Ibrahim the Mad",
+        "Sultan Ibrahim"
+      ],
+      "popularity": 138628,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Ibrahim of the Ottoman Empire"
+    },
+    {
+      "name": "Abdulaziz",
+      "aliases": [
+        "Abdul-Aziz"
+      ],
+      "popularity": 147591,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Abdulaziz"
+    },
+    {
+      "name": "Mustafa I",
+      "aliases": [],
+      "popularity": 156643,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Mustafa I"
+    },
+    {
+      "name": "Mehmed I",
+      "aliases": [
+        "Mehmed Çelebi"
+      ],
+      "popularity": 168913,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Mehmed I"
+    },
+    {
+      "name": "Mehmed IV",
+      "aliases": [
+        "Mehmed the Hunter"
+      ],
+      "popularity": 180580,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Mehmed IV"
+    },
+    {
+      "name": "Mehmed V",
+      "aliases": [],
+      "popularity": 199880,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "Mehmed V"
+    },
+    {
+      "name": "Murad IV",
+      "aliases": [],
+      "popularity": 205728,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Murad IV"
+    },
+    {
+      "name": "Mahmud II",
+      "aliases": [],
+      "popularity": 211326,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Mahmud II"
+    },
+    {
+      "name": "Mehmed III",
+      "aliases": [],
+      "popularity": 218017,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Mehmed III"
+    },
+    {
+      "name": "Murad III",
+      "aliases": [],
+      "popularity": 223845,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Murad III"
+    },
+    {
+      "name": "Murad I",
+      "aliases": [],
+      "popularity": 227906,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Murad I"
+    },
+    {
+      "name": "Murad II",
+      "aliases": [
+        "Murad II Kodja"
+      ],
+      "popularity": 238887,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Murad II"
+    },
+    {
+      "name": "Bayezid I",
+      "aliases": [
+        "Murat Sultan's son"
+      ],
+      "popularity": 251301,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Bayezid I"
+    },
+    {
+      "name": "Ahmed I",
+      "aliases": [
+        "Achmet I"
+      ],
+      "popularity": 257604,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Ahmed I"
+    },
+    {
+      "name": "Bayezid II",
+      "aliases": [
+        "Adlî",
+        "Bayezid the Just",
+        "Sultan Bayazid II",
+        "Sultan Bayezid II",
+        "Sultan Bayezit II"
+      ],
+      "popularity": 268849,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Bayezid II"
+    },
+    {
+      "name": "Selim II",
+      "aliases": [
+        "Selim the Blond",
+        "Selim the Drunk"
+      ],
+      "popularity": 293129,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Selim II"
+    },
+    {
+      "name": "Orhan",
+      "aliases": [
+        "Orhan Ghazi"
+      ],
+      "popularity": 318292,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Orhan"
+    },
+    {
+      "name": "Selim I",
+      "aliases": [
+        "Selim the Grim",
+        "Selim the Resolute"
+      ],
+      "popularity": 350777,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Selim I"
+    },
+    {
+      "name": "Mehmed VI",
+      "aliases": [
+        "Mehmed Vahdettin",
+        "Mehmed Vahideddin",
+        "Mehmed VI Vahideddin",
+        "Mehmet Vahdettin",
+        "Mehmet VI"
+      ],
+      "popularity": 364468,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Mehmed VI"
+    },
+    {
+      "name": "Abdul Hamid II",
+      "aliases": [
+        "Abdulhamid 2"
+      ],
+      "popularity": 377453,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Abdul Hamid II"
+    },
+    {
+      "name": "Osman I",
+      "aliases": [
+        "Osman Ghazi",
+        "Othman I"
+      ],
+      "popularity": 437138,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Osman I"
+    },
+    {
+      "name": "Mehmed II",
+      "aliases": [
+        "Fatih Sultan Mehmed",
+        "Mehmet II",
+        "Muhammad bin Murad Khan",
+        "Sultan Mehmed the Conqueror"
+      ],
+      "popularity": 774844,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Mehmed II"
+    },
+    {
+      "name": "Suleiman the Magnificent",
+      "aliases": [
+        "Kanuni",
+        "Muhibbî",
+        "Sulayman",
+        "Suleiman I"
+      ],
+      "popularity": 897497,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Suleiman the Magnificent"
+    }
+  ]
+}

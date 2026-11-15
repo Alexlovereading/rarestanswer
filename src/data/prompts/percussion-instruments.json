@@ -1,0 +1,3599 @@
+{
+  "id": "percussion-instruments",
+  "slug": "percussion-instruments",
+  "category": "music",
+  "question": "Name a percussion instrument",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Bachîn",
+      "aliases": [],
+      "popularity": 44,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Bachîn"
+    },
+    {
+      "name": "Tambú",
+      "aliases": [
+        "Tambú (drum)"
+      ],
+      "popularity": 56,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "Tambú (drum)"
+    },
+    {
+      "name": "Dadaiko",
+      "aliases": [
+        "da-daiko"
+      ],
+      "popularity": 63,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Dadaiko"
+    },
+    {
+      "name": "Hammered chordophone",
+      "aliases": [],
+      "popularity": 91,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Hammered chordophone"
+    },
+    {
+      "name": "Mallet percussion instrument",
+      "aliases": [
+        "glockenspiels & xylophone"
+      ],
+      "popularity": 91,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Mallet percussion instrument"
+    },
+    {
+      "name": "Moppan",
+      "aliases": [],
+      "popularity": 94,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Moppan"
+    },
+    {
+      "name": "Karawasi",
+      "aliases": [
+        "Krawasi",
+        "Krawasie"
+      ],
+      "popularity": 123,
+      "rarity": 0.983,
+      "tier": 6,
+      "wiki": "Karawasi"
+    },
+    {
+      "name": "Skull",
+      "aliases": [
+        "Skull (music)"
+      ],
+      "popularity": 129,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Skull (music)"
+    },
+    {
+      "name": "Pahū Pounamu",
+      "aliases": [
+        "Tradicional Maori gong"
+      ],
+      "popularity": 207,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Pahū Pounamu"
+    },
+    {
+      "name": "Davandai",
+      "aliases": [],
+      "popularity": 224,
+      "rarity": 0.975,
+      "tier": 6,
+      "wiki": "Davandai"
+    },
+    {
+      "name": "Bedon",
+      "aliases": [],
+      "popularity": 292,
+      "rarity": 0.972,
+      "tier": 6,
+      "wiki": "Bedon"
+    },
+    {
+      "name": "Naqara",
+      "aliases": [],
+      "popularity": 302,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Naqara"
+    },
+    {
+      "name": "Tumyr",
+      "aliases": [],
+      "popularity": 319,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Tumyr"
+    },
+    {
+      "name": "Stamna",
+      "aliases": [
+        "Stamna (musical instrument)"
+      ],
+      "popularity": 328,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Stamna (musical instrument)"
+    },
+    {
+      "name": "Kaco",
+      "aliases": [
+        "Kaco (drum)",
+        "senisteh"
+      ],
+      "popularity": 332,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Kaco (drum)"
+    },
+    {
+      "name": "Nogo",
+      "aliases": [
+        "Nogo (drum)"
+      ],
+      "popularity": 333,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Nogo (drum)"
+    },
+    {
+      "name": "Ensaasi",
+      "aliases": [],
+      "popularity": 339,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Ensaasi"
+    },
+    {
+      "name": "Kong mong",
+      "aliases": [
+        "kong ming"
+      ],
+      "popularity": 346,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Kong mong"
+    },
+    {
+      "name": "Lau",
+      "aliases": [
+        "Lau (instrument)"
+      ],
+      "popularity": 366,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Lau (instrument)"
+    },
+    {
+      "name": "Indirectly struck idiophone",
+      "aliases": [],
+      "popularity": 392,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Indirectly struck idiophone"
+    },
+    {
+      "name": "Lone worker monitoring",
+      "aliases": [],
+      "popularity": 411,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Lone worker monitoring"
+    },
+    {
+      "name": "Afoxé",
+      "aliases": [
+        "Afoxé (musical instrument)"
+      ],
+      "popularity": 413,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Afoxé (musical instrument)"
+    },
+    {
+      "name": "Kei",
+      "aliases": [
+        "Kei (ritual gong)"
+      ],
+      "popularity": 445,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Kei (ritual gong)"
+    },
+    {
+      "name": "Silex Piano",
+      "aliases": [],
+      "popularity": 462,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Silex Piano"
+    },
+    {
+      "name": "Rapach",
+      "aliases": [],
+      "popularity": 497,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Rapach"
+    },
+    {
+      "name": "Poeng mang",
+      "aliases": [
+        "poeng mang khok"
+      ],
+      "popularity": 515,
+      "rarity": 0.93,
+      "tier": 6,
+      "wiki": "Poeng mang"
+    },
+    {
+      "name": "Nodo",
+      "aliases": [
+        "Nodo (drum)"
+      ],
+      "popularity": 527,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Nodo (drum)"
+    },
+    {
+      "name": "Omele",
+      "aliases": [],
+      "popularity": 567,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Omele"
+    },
+    {
+      "name": "Malimbe",
+      "aliases": [],
+      "popularity": 571,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Malimbe"
+    },
+    {
+      "name": "Conical drum",
+      "aliases": [
+        "conical drums"
+      ],
+      "popularity": 595,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Conical drum"
+    },
+    {
+      "name": "Kozobas",
+      "aliases": [],
+      "popularity": 604,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Kozobas"
+    },
+    {
+      "name": "Huiringua",
+      "aliases": [
+        "cuiringua",
+        "kiringua",
+        "kuiringua"
+      ],
+      "popularity": 605,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Huiringua"
+    },
+    {
+      "name": "Directly struck membranophones",
+      "aliases": [
+        "directly struck drums",
+        "directly struck membranophone",
+        "drums struck directly"
+      ],
+      "popularity": 620,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Directly struck membranophones"
+    },
+    {
+      "name": "Klong thap",
+      "aliases": [],
+      "popularity": 631,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Klong thap"
+    },
+    {
+      "name": "Raganella",
+      "aliases": [],
+      "popularity": 644,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Raganella"
+    },
+    {
+      "name": "Kalatalo",
+      "aliases": [
+        "beater",
+        "Kolotushka",
+        "Torokhkatalo"
+      ],
+      "popularity": 661,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Kalatalo"
+    },
+    {
+      "name": "Tetzilacatl",
+      "aliases": [],
+      "popularity": 680,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Tetzilacatl"
+    },
+    {
+      "name": "Phách",
+      "aliases": [],
+      "popularity": 695,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Phách"
+    },
+    {
+      "name": "Umpan",
+      "aliases": [
+        "unpan"
+      ],
+      "popularity": 704,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Umpan"
+    },
+    {
+      "name": "Rakatak",
+      "aliases": [],
+      "popularity": 749,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Rakatak"
+    },
+    {
+      "name": "Shang",
+      "aliases": [
+        "Shang (bell)"
+      ],
+      "popularity": 764,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Shang (bell)"
+    },
+    {
+      "name": "Darkhuang",
+      "aliases": [
+        "jamluang",
+        "zamluang"
+      ],
+      "popularity": 766,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Darkhuang"
+    },
+    {
+      "name": "Marfa",
+      "aliases": [
+        "Marfa (instrument)",
+        "timki"
+      ],
+      "popularity": 795,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Marfa (instrument)"
+    },
+    {
+      "name": "Boula",
+      "aliases": [
+        "Boula (music)",
+        "bula"
+      ],
+      "popularity": 812,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Boula (music)"
+    },
+    {
+      "name": "Engalabi",
+      "aliases": [
+        "egaabi",
+        "emiidiri",
+        "Engaabe",
+        "engaija",
+        "Engoma ensajja",
+        "long drum",
+        "omugalabi",
+        "omugudu",
+        "omugwabe"
+      ],
+      "popularity": 826,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Engalabi"
+    },
+    {
+      "name": "Pandero jarocho",
+      "aliases": [],
+      "popularity": 842,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Pandero jarocho"
+    },
+    {
+      "name": "Kong toch",
+      "aliases": [
+        "kong touch",
+        "kong vong toch"
+      ],
+      "popularity": 855,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Kong toch"
+    },
+    {
+      "name": "Triccaballacca",
+      "aliases": [],
+      "popularity": 867,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Triccaballacca"
+    },
+    {
+      "name": "Roneat thung",
+      "aliases": [],
+      "popularity": 868,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Roneat thung"
+    },
+    {
+      "name": "Dulce melos",
+      "aliases": [
+        "doucemelle"
+      ],
+      "popularity": 887,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Dulce melos"
+    },
+    {
+      "name": "Damaha",
+      "aliases": [],
+      "popularity": 914,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Damaha"
+    },
+    {
+      "name": "Silent alarm",
+      "aliases": [
+        "still alarm"
+      ],
+      "popularity": 931,
+      "rarity": 0.858,
+      "tier": 5,
+      "wiki": "Silent alarm"
+    },
+    {
+      "name": "Bu",
+      "aliases": [
+        "Bu (instrument)"
+      ],
+      "popularity": 941,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Bu (instrument)"
+    },
+    {
+      "name": "Gyile",
+      "aliases": [],
+      "popularity": 942,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Gyile"
+    },
+    {
+      "name": "Thon and rammana",
+      "aliases": [],
+      "popularity": 958,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Thon and rammana"
+    },
+    {
+      "name": "Chuk",
+      "aliases": [
+        "Chuk (instrument)"
+      ],
+      "popularity": 977,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Chuk (instrument)"
+    },
+    {
+      "name": "Moko drums",
+      "aliases": [
+        "moko"
+      ],
+      "popularity": 984,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Moko drums"
+    },
+    {
+      "name": "Basel drum",
+      "aliases": [
+        "Basle drum",
+        "Basler drum"
+      ],
+      "popularity": 1027,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Basel drum"
+    },
+    {
+      "name": "Cylindrical drum",
+      "aliases": [],
+      "popularity": 1027,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Cylindrical drum"
+    },
+    {
+      "name": "Dragon's head and wind chime",
+      "aliases": [],
+      "popularity": 1040,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Dragon's head and wind chime"
+    },
+    {
+      "name": "Bell box",
+      "aliases": [],
+      "popularity": 1043,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Bell box"
+    },
+    {
+      "name": "Zatula",
+      "aliases": [],
+      "popularity": 1043,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Zatula"
+    },
+    {
+      "name": "Tumdak'",
+      "aliases": [
+        "Tumdah"
+      ],
+      "popularity": 1056,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Tumdak'"
+    },
+    {
+      "name": "Doli",
+      "aliases": [
+        "Doli (musical instrument)"
+      ],
+      "popularity": 1084,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Doli (musical instrument)"
+    },
+    {
+      "name": "Kong von thom",
+      "aliases": [
+        "kong thom"
+      ],
+      "popularity": 1113,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Kong von thom"
+    },
+    {
+      "name": "Timila",
+      "aliases": [],
+      "popularity": 1120,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "Timila"
+    },
+    {
+      "name": "Klong yao",
+      "aliases": [
+        "glaw ng yao",
+        "khawng yao",
+        "xiangjiao gu"
+      ],
+      "popularity": 1126,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Klong yao"
+    },
+    {
+      "name": "Reyong",
+      "aliases": [],
+      "popularity": 1142,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Reyong"
+    },
+    {
+      "name": "Eo",
+      "aliases": [
+        "Eo (instrument)"
+      ],
+      "popularity": 1152,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Eo (instrument)"
+    },
+    {
+      "name": "Station bell",
+      "aliases": [
+        "ekirei"
+      ],
+      "popularity": 1154,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Station bell"
+    },
+    {
+      "name": "Paigu",
+      "aliases": [],
+      "popularity": 1234,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Paigu"
+    },
+    {
+      "name": "Pedal clavichord",
+      "aliases": [],
+      "popularity": 1240,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Pedal clavichord"
+    },
+    {
+      "name": "Dhimay",
+      "aliases": [
+        "dhimaya",
+        "dhime"
+      ],
+      "popularity": 1253,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Dhimay"
+    },
+    {
+      "name": "Ugal",
+      "aliases": [],
+      "popularity": 1261,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Ugal"
+    },
+    {
+      "name": "Tambori",
+      "aliases": [],
+      "popularity": 1273,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Tambori"
+    },
+    {
+      "name": "Raban",
+      "aliases": [
+        "Raban (drum)"
+      ],
+      "popularity": 1275,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Raban (drum)"
+    },
+    {
+      "name": "Samphor",
+      "aliases": [
+        "sampho"
+      ],
+      "popularity": 1280,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Samphor"
+    },
+    {
+      "name": "Agung a tamlang",
+      "aliases": [],
+      "popularity": 1282,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Agung a tamlang"
+    },
+    {
+      "name": "Whip",
+      "aliases": [
+        "slapstick",
+        "Whip (instrument)"
+      ],
+      "popularity": 1283,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Whip (instrument)"
+    },
+    {
+      "name": "Zerbaghali",
+      "aliases": [
+        "zerbghali"
+      ],
+      "popularity": 1285,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Zerbaghali"
+    },
+    {
+      "name": "Ikoro",
+      "aliases": [],
+      "popularity": 1287,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Ikoro"
+    },
+    {
+      "name": "Zhu",
+      "aliases": [
+        "chu",
+        "Zhu (percussion instrument)"
+      ],
+      "popularity": 1306,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Zhu (percussion instrument)"
+    },
+    {
+      "name": "Tsuri-daiko",
+      "aliases": [
+        "tsuridaiko"
+      ],
+      "popularity": 1316,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "Tsuri-daiko"
+    },
+    {
+      "name": "Bubon",
+      "aliases": [],
+      "popularity": 1317,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Bubon"
+    },
+    {
+      "name": "Skrabalai",
+      "aliases": [
+        "Skrabalas"
+      ],
+      "popularity": 1375,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Skrabalai"
+    },
+    {
+      "name": "Scabellum",
+      "aliases": [],
+      "popularity": 1381,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Scabellum"
+    },
+    {
+      "name": "Korean wind chime",
+      "aliases": [
+        "punggyeong",
+        "punglcyong",
+        "wind bell"
+      ],
+      "popularity": 1420,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Korean wind chime"
+    },
+    {
+      "name": "Catá",
+      "aliases": [],
+      "popularity": 1448,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Catá"
+    },
+    {
+      "name": "Naqus",
+      "aliases": [],
+      "popularity": 1489,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Naqus"
+    },
+    {
+      "name": "Bugchu",
+      "aliases": [],
+      "popularity": 1524,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Bugchu"
+    },
+    {
+      "name": "Ling",
+      "aliases": [
+        "Ling (bell)"
+      ],
+      "popularity": 1526,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Ling (bell)"
+    },
+    {
+      "name": "Geta bera",
+      "aliases": [
+        "Gataberaya"
+      ],
+      "popularity": 1533,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Geta bera"
+    },
+    {
+      "name": "Cajón de tapeo",
+      "aliases": [
+        "cajón de tamboreo",
+        "tapeador"
+      ],
+      "popularity": 1539,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Cajón de tapeo"
+    },
+    {
+      "name": "Ceremonial drum",
+      "aliases": [],
+      "popularity": 1552,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Ceremonial drum"
+    },
+    {
+      "name": "Barrel drum",
+      "aliases": [],
+      "popularity": 1565,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Barrel drum"
+    },
+    {
+      "name": "Kotsuzumi",
+      "aliases": [],
+      "popularity": 1649,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Kotsuzumi"
+    },
+    {
+      "name": "Pattala",
+      "aliases": [
+        "pat-talà",
+        "patkala",
+        "paw ku"
+      ],
+      "popularity": 1654,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Pattala"
+    },
+    {
+      "name": "Yaogu",
+      "aliases": [],
+      "popularity": 1661,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Yaogu"
+    },
+    {
+      "name": "Tongatong",
+      "aliases": [],
+      "popularity": 1714,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Tongatong"
+    },
+    {
+      "name": "Botija",
+      "aliases": [
+        "Botija (instrument)",
+        "botijuela"
+      ],
+      "popularity": 1737,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Botija (instrument)"
+    },
+    {
+      "name": "Calung",
+      "aliases": [
+        "chalung"
+      ],
+      "popularity": 1740,
+      "rarity": 0.721,
+      "tier": 4,
+      "wiki": "Calung"
+    },
+    {
+      "name": "Kpanlogo",
+      "aliases": [
+        "kpanlogo dance",
+        "Kpanlogo (drum)"
+      ],
+      "popularity": 1744,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Kpanlogo (drum)"
+    },
+    {
+      "name": "Garamut",
+      "aliases": [],
+      "popularity": 1783,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Garamut"
+    },
+    {
+      "name": "Gong chime",
+      "aliases": [
+        "kettle gong"
+      ],
+      "popularity": 1783,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Gong chime"
+    },
+    {
+      "name": "Caja vallenata",
+      "aliases": [],
+      "popularity": 1799,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Caja vallenata"
+    },
+    {
+      "name": "Slit drum (Vanuatu)",
+      "aliases": [
+        "Atingting kon",
+        "slit drums in Ambrym Island"
+      ],
+      "popularity": 1812,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Slit drum (Vanuatu)"
+    },
+    {
+      "name": "Shōko",
+      "aliases": [
+        "Shōko (instrument)"
+      ],
+      "popularity": 1823,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Shōko (instrument)"
+    },
+    {
+      "name": "Yu",
+      "aliases": [
+        "Yu (percussion instrument)"
+      ],
+      "popularity": 1831,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Yu (percussion instrument)"
+    },
+    {
+      "name": "Bak",
+      "aliases": [
+        "Bak (instrument)",
+        "pak"
+      ],
+      "popularity": 1833,
+      "rarity": 0.699,
+      "tier": 4,
+      "wiki": "Bak (instrument)"
+    },
+    {
+      "name": "Flat ride cymbal",
+      "aliases": [],
+      "popularity": 1875,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Flat ride cymbal"
+    },
+    {
+      "name": "Barril de bomba",
+      "aliases": [],
+      "popularity": 1882,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Barril de bomba"
+    },
+    {
+      "name": "Dhyāngro",
+      "aliases": [],
+      "popularity": 1894,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Dhyāngro"
+    },
+    {
+      "name": "Kagul",
+      "aliases": [],
+      "popularity": 1900,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Kagul"
+    },
+    {
+      "name": "Parsifal bell",
+      "aliases": [
+        "Gralsglockenklavier"
+      ],
+      "popularity": 1906,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Parsifal bell"
+    },
+    {
+      "name": "Atumpan",
+      "aliases": [
+        "Atumpan (drum)"
+      ],
+      "popularity": 1907,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Atumpan (drum)"
+    },
+    {
+      "name": "Tbilat",
+      "aliases": [
+        "tabla"
+      ],
+      "popularity": 1920,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Tbilat"
+    },
+    {
+      "name": "Jingle",
+      "aliases": [
+        "Jingle (percussion)"
+      ],
+      "popularity": 1977,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Jingle (percussion)"
+    },
+    {
+      "name": "Candombe drums",
+      "aliases": [
+        "tambores de candombe"
+      ],
+      "popularity": 1986,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Candombe drums"
+    },
+    {
+      "name": "Axatse",
+      "aliases": [],
+      "popularity": 2005,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Axatse"
+    },
+    {
+      "name": "Binzasara",
+      "aliases": [
+        "bin-sasara",
+        "bin-zasara",
+        "binsasara"
+      ],
+      "popularity": 2013,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Binzasara"
+    },
+    {
+      "name": "Fou",
+      "aliases": [
+        "Fou (instrument)"
+      ],
+      "popularity": 2038,
+      "rarity": 0.666,
+      "tier": 4,
+      "wiki": "Fou (instrument)"
+    },
+    {
+      "name": "Sounding stone",
+      "aliases": [
+        "musical stone",
+        "qing"
+      ],
+      "popularity": 2068,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "Sounding stone"
+    },
+    {
+      "name": "Vibrating alert",
+      "aliases": [],
+      "popularity": 2069,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Vibrating alert"
+    },
+    {
+      "name": "Yunluo",
+      "aliases": [],
+      "popularity": 2135,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Yunluo"
+    },
+    {
+      "name": "Timbau",
+      "aliases": [
+        "Timbal"
+      ],
+      "popularity": 2161,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Timbau"
+    },
+    {
+      "name": "Chime bar",
+      "aliases": [
+        "resonator bell"
+      ],
+      "popularity": 2204,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Chime bar"
+    },
+    {
+      "name": "Hourglass drum",
+      "aliases": [
+        "hourglass drums",
+        "hourglass-shaped drums"
+      ],
+      "popularity": 2223,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Hourglass drum"
+    },
+    {
+      "name": "Kemanak",
+      "aliases": [],
+      "popularity": 2325,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Kemanak"
+    },
+    {
+      "name": "Tumba",
+      "aliases": [
+        "Tumba (drum)"
+      ],
+      "popularity": 2355,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Tumba (drum)"
+    },
+    {
+      "name": "Alarm",
+      "aliases": [
+        "alarm device",
+        "alert"
+      ],
+      "popularity": 2373,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Alarm"
+    },
+    {
+      "name": "Bangu",
+      "aliases": [
+        "banggu",
+        "Bangu (drum)",
+        "pan-ku",
+        "xiaogu"
+      ],
+      "popularity": 2382,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Bangu (drum)"
+    },
+    {
+      "name": "Gong bass drum",
+      "aliases": [
+        "gong drum"
+      ],
+      "popularity": 2385,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Gong bass drum"
+    },
+    {
+      "name": "Cultrun",
+      "aliases": [],
+      "popularity": 2400,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Cultrun"
+    },
+    {
+      "name": "Kayamb",
+      "aliases": [
+        "caïamb",
+        "chikitsi",
+        "kayamba",
+        "kayanm",
+        "kiyamba",
+        "maravanne"
+      ],
+      "popularity": 2414,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Kayamb"
+    },
+    {
+      "name": "Talempong",
+      "aliases": [],
+      "popularity": 2441,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Talempong"
+    },
+    {
+      "name": "Dayereh",
+      "aliases": [
+        "dāira",
+        "dajre",
+        "dajreja",
+        "doira",
+        "dojra",
+        "doyra"
+      ],
+      "popularity": 2454,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Dayereh"
+    },
+    {
+      "name": "Quinto",
+      "aliases": [
+        "Quinto (drum)"
+      ],
+      "popularity": 2460,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Quinto (drum)"
+    },
+    {
+      "name": "Gabbang",
+      "aliases": [],
+      "popularity": 2470,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Gabbang"
+    },
+    {
+      "name": "Korean drum",
+      "aliases": [],
+      "popularity": 2473,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Korean drum"
+    },
+    {
+      "name": "North Drums",
+      "aliases": [],
+      "popularity": 2526,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "North Drums"
+    },
+    {
+      "name": "Fangxiang",
+      "aliases": [
+        "Chinese chang",
+        "fang hsiang",
+        "fang xiang"
+      ],
+      "popularity": 2541,
+      "rarity": 0.61,
+      "tier": 4,
+      "wiki": "Fangxiang"
+    },
+    {
+      "name": "Sakara drum",
+      "aliases": [],
+      "popularity": 2571,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Sakara drum"
+    },
+    {
+      "name": "Bougarabou",
+      "aliases": [
+        "boucarabou",
+        "bugarabu"
+      ],
+      "popularity": 2591,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Bougarabou"
+    },
+    {
+      "name": "Kompang",
+      "aliases": [],
+      "popularity": 2599,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Kompang"
+    },
+    {
+      "name": "Kolintang",
+      "aliases": [],
+      "popularity": 2710,
+      "rarity": 0.599,
+      "tier": 3,
+      "wiki": "Kolintang"
+    },
+    {
+      "name": "Ütőgardon",
+      "aliases": [
+        "gardon",
+        "gardony",
+        "hit-gardon",
+        "tekenyőgardon",
+        "ütősgardony"
+      ],
+      "popularity": 2713,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Ütőgardon"
+    },
+    {
+      "name": "Madhalam",
+      "aliases": [],
+      "popularity": 2725,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Madhalam"
+    },
+    {
+      "name": "Dammam",
+      "aliases": [
+        "Dammam (drum)"
+      ],
+      "popularity": 2745,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Dammam (drum)"
+    },
+    {
+      "name": "Bell plate",
+      "aliases": [
+        "bell plates"
+      ],
+      "popularity": 2819,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Bell plate"
+    },
+    {
+      "name": "Kenong",
+      "aliases": [],
+      "popularity": 2833,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Kenong"
+    },
+    {
+      "name": "Tifa",
+      "aliases": [
+        "eme",
+        "kalin kla",
+        "kandara",
+        "kiendo",
+        "sirep",
+        "ta'impe",
+        "Tifa (drum)",
+        "tummour"
+      ],
+      "popularity": 2835,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Tifa (drum)"
+    },
+    {
+      "name": "Dabakan",
+      "aliases": [
+        "dadaboon",
+        "dadabuan",
+        "dbakan",
+        "debakan"
+      ],
+      "popularity": 2929,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Dabakan"
+    },
+    {
+      "name": "Alligator drum",
+      "aliases": [],
+      "popularity": 2930,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Alligator drum"
+    },
+    {
+      "name": "Chajchas",
+      "aliases": [],
+      "popularity": 2933,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Chajchas"
+    },
+    {
+      "name": "Huehuetl",
+      "aliases": [],
+      "popularity": 2962,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Huehuetl"
+    },
+    {
+      "name": "Dohol",
+      "aliases": [],
+      "popularity": 2972,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Dohol"
+    },
+    {
+      "name": "Tambourine de Bearn",
+      "aliases": [],
+      "popularity": 3054,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Tambourine de Bearn"
+    },
+    {
+      "name": "Pate",
+      "aliases": [
+        "Pate (instrument)"
+      ],
+      "popularity": 3100,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Pate (instrument)"
+    },
+    {
+      "name": "Mizhavu",
+      "aliases": [],
+      "popularity": 3104,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Mizhavu"
+    },
+    {
+      "name": "Udukai",
+      "aliases": [
+        "uḍukkai",
+        "uḍukku"
+      ],
+      "popularity": 3129,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Udukai"
+    },
+    {
+      "name": "Kakko",
+      "aliases": [
+        "Kakko (instrument)"
+      ],
+      "popularity": 3152,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Kakko (instrument)"
+    },
+    {
+      "name": "Tubaphone",
+      "aliases": [
+        "tubuphone"
+      ],
+      "popularity": 3161,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Tubaphone"
+    },
+    {
+      "name": "Fog bell",
+      "aliases": [],
+      "popularity": 3258,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "Fog bell"
+    },
+    {
+      "name": "Pandero",
+      "aliases": [],
+      "popularity": 3276,
+      "rarity": 0.546,
+      "tier": 3,
+      "wiki": "Pandero"
+    },
+    {
+      "name": "Kkwaenggwari",
+      "aliases": [
+        "ggaenggwari"
+      ],
+      "popularity": 3314,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Kkwaenggwari"
+    },
+    {
+      "name": "Ekwe",
+      "aliases": [
+        "wooden gong"
+      ],
+      "popularity": 3411,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Ekwe"
+    },
+    {
+      "name": "Ōtsuzumi",
+      "aliases": [
+        "ōkawa"
+      ],
+      "popularity": 3481,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Ōtsuzumi"
+    },
+    {
+      "name": "Klopotec",
+      "aliases": [
+        "klapotetz"
+      ],
+      "popularity": 3483,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Klopotec"
+    },
+    {
+      "name": "Curfew bell",
+      "aliases": [],
+      "popularity": 3517,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Curfew bell"
+    },
+    {
+      "name": "Tambourin",
+      "aliases": [],
+      "popularity": 3540,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Tambourin"
+    },
+    {
+      "name": "Riq",
+      "aliases": [
+        "daff",
+        "doff al-zinjāri",
+        "duff",
+        "mriqq",
+        "rik",
+        "rikk",
+        "riqq"
+      ],
+      "popularity": 3705,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Riq"
+    },
+    {
+      "name": "Repinique",
+      "aliases": [],
+      "popularity": 3772,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Repinique"
+    },
+    {
+      "name": "Urumi",
+      "aliases": [
+        "Urumee",
+        "Urumi (drum)"
+      ],
+      "popularity": 3851,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Urumi (drum)"
+    },
+    {
+      "name": "Hosho",
+      "aliases": [
+        "Hosho (instrument)"
+      ],
+      "popularity": 3855,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Hosho (instrument)"
+    },
+    {
+      "name": "Vistalite Drums",
+      "aliases": [],
+      "popularity": 3863,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Vistalite Drums"
+    },
+    {
+      "name": "Ganzá",
+      "aliases": [
+        "sekseki",
+        "siksak"
+      ],
+      "popularity": 3950,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Ganzá"
+    },
+    {
+      "name": "Rebana",
+      "aliases": [
+        "rammana",
+        "Rebana Ubi drum"
+      ],
+      "popularity": 3972,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Rebana"
+    },
+    {
+      "name": "Bombo legüero",
+      "aliases": [],
+      "popularity": 4014,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Bombo legüero"
+    },
+    {
+      "name": "Gambang",
+      "aliases": [
+        "Gambang (instrument)",
+        "Javanese gambang"
+      ],
+      "popularity": 4109,
+      "rarity": 0.504,
+      "tier": 3,
+      "wiki": "Gambang (instrument)"
+    },
+    {
+      "name": "Kundu",
+      "aliases": [
+        "Kundu (drum)"
+      ],
+      "popularity": 4110,
+      "rarity": 0.501,
+      "tier": 3,
+      "wiki": "Kundu (drum)"
+    },
+    {
+      "name": "Servant bell",
+      "aliases": [],
+      "popularity": 4115,
+      "rarity": 0.499,
+      "tier": 3,
+      "wiki": "Servant bell"
+    },
+    {
+      "name": "Boobam",
+      "aliases": [
+        "boobams"
+      ],
+      "popularity": 4161,
+      "rarity": 0.496,
+      "tier": 3,
+      "wiki": "Boobam"
+    },
+    {
+      "name": "Teponaztli",
+      "aliases": [
+        "tepenahuasqui",
+        "teponagua",
+        "teponahuaztli",
+        "teponaxtle",
+        "tinco",
+        "tunkul"
+      ],
+      "popularity": 4340,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Teponaztli"
+    },
+    {
+      "name": "Bombo criollo",
+      "aliases": [
+        "bombo"
+      ],
+      "popularity": 4364,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Bombo criollo"
+    },
+    {
+      "name": "Ashiko",
+      "aliases": [],
+      "popularity": 4484,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Ashiko"
+    },
+    {
+      "name": "Adufe",
+      "aliases": [],
+      "popularity": 4489,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Adufe"
+    },
+    {
+      "name": "Unpitched percussion instrument",
+      "aliases": [
+        "untuned percussion instrument"
+      ],
+      "popularity": 4494,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Unpitched percussion instrument"
+    },
+    {
+      "name": "Bicycle bell",
+      "aliases": [
+        "bike bell"
+      ],
+      "popularity": 4599,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Bicycle bell"
+    },
+    {
+      "name": "Cocktail drum",
+      "aliases": [],
+      "popularity": 4610,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Cocktail drum"
+    },
+    {
+      "name": "Tar",
+      "aliases": [
+        "Tar (drum)"
+      ],
+      "popularity": 4768,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Tar (drum)"
+    },
+    {
+      "name": "Tripflare",
+      "aliases": [],
+      "popularity": 4772,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Tripflare"
+    },
+    {
+      "name": "Pahu",
+      "aliases": [],
+      "popularity": 4850,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Pahu"
+    },
+    {
+      "name": "Saron",
+      "aliases": [
+        "Javanese saron",
+        "Saron (instrument)"
+      ],
+      "popularity": 4850,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Saron (instrument)"
+    },
+    {
+      "name": "Struck idiophone",
+      "aliases": [],
+      "popularity": 4916,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Struck idiophone"
+    },
+    {
+      "name": "Bianqing",
+      "aliases": [
+        "biên khánh",
+        "p'yŏn'gyŏng",
+        "pyeongyeong"
+      ],
+      "popularity": 4947,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Bianqing"
+    },
+    {
+      "name": "Atabaque",
+      "aliases": [],
+      "popularity": 4967,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Atabaque"
+    },
+    {
+      "name": "Economy picking",
+      "aliases": [],
+      "popularity": 5014,
+      "rarity": 0.454,
+      "tier": 3,
+      "wiki": "Economy picking"
+    },
+    {
+      "name": "Darbuka",
+      "aliases": [
+        "darabuke",
+        "darabukka",
+        "darbouka",
+        "darboukka",
+        "darbuga",
+        "darbukka",
+        "derabucca",
+        "derbake",
+        "derbouka",
+        "derbuga",
+        "derbuka",
+        "derbukka",
+        "dumbek"
+      ],
+      "popularity": 5094,
+      "rarity": 0.451,
+      "tier": 3,
+      "wiki": "Darbuka"
+    },
+    {
+      "name": "Dulcitone",
+      "aliases": [
+        "tuning fork piano"
+      ],
+      "popularity": 5197,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Dulcitone"
+    },
+    {
+      "name": "Bronze drum",
+      "aliases": [
+        "gyongdoeng",
+        "gyongdoengz",
+        "nyen",
+        "nyenz",
+        "zongdoeng",
+        "zongdoengz"
+      ],
+      "popularity": 5202,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Bronze drum"
+    },
+    {
+      "name": "Pellet drum",
+      "aliases": [
+        "pellet drums",
+        "rattle drums",
+        "shaken membranophones"
+      ],
+      "popularity": 5205,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Pellet drum"
+    },
+    {
+      "name": "Tambora",
+      "aliases": [
+        "Tambora (Dominican drum)"
+      ],
+      "popularity": 5252,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Tambora (Dominican drum)"
+    },
+    {
+      "name": "Jam block",
+      "aliases": [],
+      "popularity": 5353,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Jam block"
+    },
+    {
+      "name": "Buk",
+      "aliases": [
+        "Buk (drum)",
+        "puk"
+      ],
+      "popularity": 5434,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Buk (drum)"
+    },
+    {
+      "name": "Reco-reco",
+      "aliases": [
+        "caracaxá",
+        "raspador"
+      ],
+      "popularity": 5667,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Reco-reco"
+    },
+    {
+      "name": "Txalaparta",
+      "aliases": [],
+      "popularity": 5722,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Txalaparta"
+    },
+    {
+      "name": "Gangsa",
+      "aliases": [],
+      "popularity": 5730,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Gangsa"
+    },
+    {
+      "name": "Caxixi",
+      "aliases": [],
+      "popularity": 5754,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Caxixi"
+    },
+    {
+      "name": "Krakeb",
+      "aliases": [
+        "garagab",
+        "krakebs",
+        "qarāqib",
+        "qraqeb"
+      ],
+      "popularity": 5755,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Krakeb"
+    },
+    {
+      "name": "Bedug",
+      "aliases": [],
+      "popularity": 5761,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Bedug"
+    },
+    {
+      "name": "Chocalho",
+      "aliases": [
+        "chocolo"
+      ],
+      "popularity": 5826,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Chocalho"
+    },
+    {
+      "name": "Tanggu",
+      "aliases": [
+        "Tanggu (drum)",
+        "tonggu",
+        "zhanggu"
+      ],
+      "popularity": 5929,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Tanggu (drum)"
+    },
+    {
+      "name": "Ngoma drums",
+      "aliases": [
+        "engoma",
+        "ingoma",
+        "ng'oma",
+        "ngoma",
+        "ngoma drum"
+      ],
+      "popularity": 5949,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Ngoma drums"
+    },
+    {
+      "name": "Drums in communication",
+      "aliases": [
+        "signal drum"
+      ],
+      "popularity": 5964,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Drums in communication"
+    },
+    {
+      "name": "Tsymbaly",
+      "aliases": [],
+      "popularity": 6149,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Tsymbaly"
+    },
+    {
+      "name": "Baby rattle",
+      "aliases": [
+        "toy rattle"
+      ],
+      "popularity": 6312,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Baby rattle"
+    },
+    {
+      "name": "Pitched percussion instrument",
+      "aliases": [
+        "melodic percussion instrument",
+        "tuned percussion instrument"
+      ],
+      "popularity": 6323,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Pitched percussion instrument"
+    },
+    {
+      "name": "Crotalum",
+      "aliases": [
+        "crotala"
+      ],
+      "popularity": 6360,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Crotalum"
+    },
+    {
+      "name": "Rasgueado",
+      "aliases": [],
+      "popularity": 6375,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Rasgueado"
+    },
+    {
+      "name": "Tintinnabulum",
+      "aliases": [],
+      "popularity": 6632,
+      "rarity": 0.39,
+      "tier": 2,
+      "wiki": "Tintinnabulum"
+    },
+    {
+      "name": "Dead bell",
+      "aliases": [
+        "death bell",
+        "lych bell",
+        "mort bell",
+        "passing-bell",
+        "skellet bell"
+      ],
+      "popularity": 6636,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Dead bell"
+    },
+    {
+      "name": "Crotalus",
+      "aliases": [
+        "Crotalus (instrument)"
+      ],
+      "popularity": 6704,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Crotalus (instrument)"
+    },
+    {
+      "name": "Kus",
+      "aliases": [
+        "kös"
+      ],
+      "popularity": 6706,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Kus"
+    },
+    {
+      "name": "Tamborim",
+      "aliases": [],
+      "popularity": 6733,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Tamborim"
+    },
+    {
+      "name": "Stomp box",
+      "aliases": [
+        "kickbox",
+        "rhythm stompbox",
+        "stompbox"
+      ],
+      "popularity": 6767,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Stomp box"
+    },
+    {
+      "name": "Ring of bells",
+      "aliases": [],
+      "popularity": 6775,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Ring of bells"
+    },
+    {
+      "name": "Call bell",
+      "aliases": [
+        "Call Bells",
+        "concierge bell",
+        "counter bell"
+      ],
+      "popularity": 6789,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Call bell"
+    },
+    {
+      "name": "Khim",
+      "aliases": [
+        "butterfly harp",
+        "Khimm",
+        "Thai Hammered Dulcimer"
+      ],
+      "popularity": 6883,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Khim"
+    },
+    {
+      "name": "Hybrid picking",
+      "aliases": [],
+      "popularity": 7007,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Hybrid picking"
+    },
+    {
+      "name": "Denden-daiko",
+      "aliases": [
+        "den-den daiko"
+      ],
+      "popularity": 7056,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Denden-daiko"
+    },
+    {
+      "name": "Bourdon",
+      "aliases": [
+        "Bourdon (bell)"
+      ],
+      "popularity": 7066,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Bourdon (bell)"
+    },
+    {
+      "name": "Altar bell",
+      "aliases": [
+        "mass bell",
+        "sacring-bell",
+        "sacryn bell",
+        "saints’ bell",
+        "sance-bell",
+        "sanctus bell"
+      ],
+      "popularity": 7582,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Altar bell"
+    },
+    {
+      "name": "School bell",
+      "aliases": [],
+      "popularity": 7766,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "School bell"
+    },
+    {
+      "name": "Temple blocks",
+      "aliases": [
+        "granite blocks",
+        "moktʼak",
+        "temple block"
+      ],
+      "popularity": 7836,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Temple blocks"
+    },
+    {
+      "name": "Hyōshigi",
+      "aliases": [],
+      "popularity": 7863,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Hyōshigi"
+    },
+    {
+      "name": "Car alarm",
+      "aliases": [],
+      "popularity": 8008,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Car alarm"
+    },
+    {
+      "name": "Khartal",
+      "aliases": [],
+      "popularity": 8037,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Khartal"
+    },
+    {
+      "name": "Tombak",
+      "aliases": [
+        "dombak",
+        "donbak",
+        "tonbak",
+        "zarb"
+      ],
+      "popularity": 8134,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Tombak"
+    },
+    {
+      "name": "Bendir",
+      "aliases": [
+        "allun",
+        "bendair"
+      ],
+      "popularity": 8225,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "Bendir"
+    },
+    {
+      "name": "Acme siren",
+      "aliases": [],
+      "popularity": 8292,
+      "rarity": 0.334,
+      "tier": 2,
+      "wiki": "Acme siren"
+    },
+    {
+      "name": "Hand drum",
+      "aliases": [],
+      "popularity": 8359,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Hand drum"
+    },
+    {
+      "name": "Naqareh",
+      "aliases": [
+        "naccaire",
+        "nagada",
+        "naker",
+        "naqqāra",
+        "nogʻora"
+      ],
+      "popularity": 8395,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Naqareh"
+    },
+    {
+      "name": "Kendang",
+      "aliases": [
+        "Kendhang"
+      ],
+      "popularity": 8529,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Kendang"
+    },
+    {
+      "name": "Guitar picking",
+      "aliases": [],
+      "popularity": 8540,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Guitar picking"
+    },
+    {
+      "name": "Janggu",
+      "aliases": [
+        "chang go",
+        "changgo",
+        "changgu",
+        "seyo go",
+        "sŏlchanggo",
+        "yeolje"
+      ],
+      "popularity": 8603,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Janggu"
+    },
+    {
+      "name": "Bonang",
+      "aliases": [
+        "bonang barung",
+        "bonang panerus"
+      ],
+      "popularity": 8923,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Bonang"
+    },
+    {
+      "name": "Khol",
+      "aliases": [
+        "mrdanga",
+        "mridanga"
+      ],
+      "popularity": 9117,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Khol"
+    },
+    {
+      "name": "Downpicking",
+      "aliases": [],
+      "popularity": 9236,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "Downpicking"
+    },
+    {
+      "name": "Crotal bell",
+      "aliases": [
+        "crotal",
+        "harness bell",
+        "pellet bell",
+        "rumble bell",
+        "rumbler bell"
+      ],
+      "popularity": 9251,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Crotal bell"
+    },
+    {
+      "name": "Strum",
+      "aliases": [
+        "strumming"
+      ],
+      "popularity": 9524,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Strum"
+    },
+    {
+      "name": "Taal",
+      "aliases": [
+        "madjira",
+        "manjeera",
+        "Taal (instrument)"
+      ],
+      "popularity": 9556,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Taal (instrument)"
+    },
+    {
+      "name": "Udu",
+      "aliases": [
+        "kim-kim"
+      ],
+      "popularity": 9739,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Udu"
+    },
+    {
+      "name": "Tenor drum",
+      "aliases": [],
+      "popularity": 9757,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Tenor drum"
+    },
+    {
+      "name": "Military drums",
+      "aliases": [
+        "military drum",
+        "war drum"
+      ],
+      "popularity": 9786,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Military drums"
+    },
+    {
+      "name": "Jal tarang",
+      "aliases": [
+        "jal-yantra",
+        "jalatarangam",
+        "jalatharangam",
+        "jaltarang"
+      ],
+      "popularity": 9907,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Jal tarang"
+    },
+    {
+      "name": "Tsuzumi",
+      "aliases": [],
+      "popularity": 9943,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Tsuzumi"
+    },
+    {
+      "name": "Batá drum",
+      "aliases": [],
+      "popularity": 10632,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Batá drum"
+    },
+    {
+      "name": "Shaker",
+      "aliases": [
+        "Shaker (musical instrument)"
+      ],
+      "popularity": 10722,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Shaker (musical instrument)"
+    },
+    {
+      "name": "Ghanta",
+      "aliases": [
+        "dril-bu",
+        "vajra bell"
+      ],
+      "popularity": 10797,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Ghanta"
+    },
+    {
+      "name": "Smart doorbell",
+      "aliases": [
+        "smart video doorbell"
+      ],
+      "popularity": 11193,
+      "rarity": 0.279,
+      "tier": 2,
+      "wiki": "Smart doorbell"
+    },
+    {
+      "name": "Floor tom",
+      "aliases": [
+        "low tom"
+      ],
+      "popularity": 11214,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Floor tom"
+    },
+    {
+      "name": "Bonshō",
+      "aliases": [
+        "ōgane",
+        "temple bell",
+        "tsurigane"
+      ],
+      "popularity": 11807,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Bonshō"
+    },
+    {
+      "name": "Fiddlesticks",
+      "aliases": [],
+      "popularity": 11866,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Fiddlesticks"
+    },
+    {
+      "name": "Spoons",
+      "aliases": [
+        "musical spoons",
+        "Spoons (musical instrument)"
+      ],
+      "popularity": 11907,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Spoons (musical instrument)"
+    },
+    {
+      "name": "Bianzhong",
+      "aliases": [
+        "biên chung",
+        "chime bells",
+        "henshō",
+        "pien-chung",
+        "pyeonjong"
+      ],
+      "popularity": 12001,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Bianzhong"
+    },
+    {
+      "name": "Sámi drum",
+      "aliases": [
+        "Saami drum"
+      ],
+      "popularity": 12089,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Sámi drum"
+    },
+    {
+      "name": "Electric bell",
+      "aliases": [],
+      "popularity": 12329,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Electric bell"
+    },
+    {
+      "name": "Guacharaca",
+      "aliases": [
+        "guacharaquero'"
+      ],
+      "popularity": 12333,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Guacharaca"
+    },
+    {
+      "name": "Bachi",
+      "aliases": [],
+      "popularity": 12352,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Bachi"
+    },
+    {
+      "name": "Kagura suzu",
+      "aliases": [],
+      "popularity": 12375,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Kagura suzu"
+    },
+    {
+      "name": "Frame drum",
+      "aliases": [
+        "frame drums"
+      ],
+      "popularity": 12379,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Frame drum"
+    },
+    {
+      "name": "Surdo",
+      "aliases": [],
+      "popularity": 12395,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Surdo"
+    },
+    {
+      "name": "Rattle",
+      "aliases": [
+        "Rattle (percussion instrument)"
+      ],
+      "popularity": 12502,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Rattle (percussion instrument)"
+    },
+    {
+      "name": "Drum stick",
+      "aliases": [
+        "drumstick"
+      ],
+      "popularity": 12687,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Drum stick"
+    },
+    {
+      "name": "Humming",
+      "aliases": [
+        "hum"
+      ],
+      "popularity": 12863,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Humming"
+    },
+    {
+      "name": "Crosspicking",
+      "aliases": [],
+      "popularity": 13128,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Crosspicking"
+    },
+    {
+      "name": "Pakhavaj",
+      "aliases": [
+        "mridang"
+      ],
+      "popularity": 13273,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Pakhavaj"
+    },
+    {
+      "name": "Splash cymbal",
+      "aliases": [],
+      "popularity": 13596,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Splash cymbal"
+    },
+    {
+      "name": "Handbell",
+      "aliases": [],
+      "popularity": 13951,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Handbell"
+    },
+    {
+      "name": "Blaster beam",
+      "aliases": [
+        "the beam"
+      ],
+      "popularity": 14198,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Blaster beam"
+    },
+    {
+      "name": "Carter Family picking",
+      "aliases": [
+        "Carter scratch",
+        "church lick",
+        "the Carter lick",
+        "thumb brush"
+      ],
+      "popularity": 14355,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Carter Family picking"
+    },
+    {
+      "name": "Woodblock",
+      "aliases": [
+        "wood block",
+        "Woodblock (instrument)"
+      ],
+      "popularity": 14363,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Woodblock (instrument)"
+    },
+    {
+      "name": "Bamboula",
+      "aliases": [],
+      "popularity": 14522,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Bamboula"
+    },
+    {
+      "name": "Crash cymbal",
+      "aliases": [],
+      "popularity": 14622,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Crash cymbal"
+    },
+    {
+      "name": "Marching percussion",
+      "aliases": [
+        "marching percussion instrument"
+      ],
+      "popularity": 14641,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Marching percussion"
+    },
+    {
+      "name": "Davul",
+      "aliases": [
+        "daouli",
+        "daul",
+        "daula",
+        "daule",
+        "dhol",
+        "ṭabl turkī",
+        "tapan",
+        "tupan"
+      ],
+      "popularity": 15095,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Davul"
+    },
+    {
+      "name": "Suzu",
+      "aliases": [
+        "Suzu (bell)"
+      ],
+      "popularity": 15164,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Suzu (bell)"
+    },
+    {
+      "name": "Ringing rocks",
+      "aliases": [],
+      "popularity": 15224,
+      "rarity": 0.201,
+      "tier": 2,
+      "wiki": "Ringing rocks"
+    },
+    {
+      "name": "Jawbone",
+      "aliases": [
+        "Jawbone (instrument)"
+      ],
+      "popularity": 15864,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Jawbone (instrument)"
+    },
+    {
+      "name": "Doorbell",
+      "aliases": [
+        "door bell"
+      ],
+      "popularity": 16250,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Doorbell"
+    },
+    {
+      "name": "Flexatone",
+      "aliases": [
+        "flex-a-tone"
+      ],
+      "popularity": 16453,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Flexatone"
+    },
+    {
+      "name": "Dong Son drum",
+      "aliases": [
+        "Đông Sơn drum"
+      ],
+      "popularity": 16895,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Dong Son drum"
+    },
+    {
+      "name": "Jingle bell",
+      "aliases": [
+        "bubentsy",
+        "bubieniec",
+        "sleigh bell",
+        "small bell"
+      ],
+      "popularity": 17647,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Jingle bell"
+    },
+    {
+      "name": "Ratchet",
+      "aliases": [
+        "cog rattle",
+        "derkach",
+        "Ratchet (instrument)"
+      ],
+      "popularity": 17879,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Ratchet (instrument)"
+    },
+    {
+      "name": "Chenda",
+      "aliases": [
+        "ceṇḍa",
+        "ceṇḍe"
+      ],
+      "popularity": 17960,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Chenda"
+    },
+    {
+      "name": "Rototom",
+      "aliases": [],
+      "popularity": 18106,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Rototom"
+    },
+    {
+      "name": "Tabor",
+      "aliases": [
+        "Tabor (instrument)",
+        "tabret",
+        "Tambour De Provence"
+      ],
+      "popularity": 18116,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Tabor (instrument)"
+    },
+    {
+      "name": "Pandeiro",
+      "aliases": [],
+      "popularity": 18258,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Pandeiro"
+    },
+    {
+      "name": "Bones",
+      "aliases": [
+        "Bones (instrument)",
+        "rhythm bones"
+      ],
+      "popularity": 18434,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Bones (instrument)"
+    },
+    {
+      "name": "Agogô",
+      "aliases": [
+        "agogo bell"
+      ],
+      "popularity": 18570,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Agogô"
+    },
+    {
+      "name": "Flatpicking",
+      "aliases": [],
+      "popularity": 18995,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Flatpicking"
+    },
+    {
+      "name": "Sweep picking",
+      "aliases": [
+        "sweep",
+        "sweeping"
+      ],
+      "popularity": 19596,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Sweep picking"
+    },
+    {
+      "name": "Kashaka",
+      "aliases": [
+        "Asalato"
+      ],
+      "popularity": 19788,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Kashaka"
+    },
+    {
+      "name": "China cymbal",
+      "aliases": [],
+      "popularity": 20186,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "China cymbal"
+    },
+    {
+      "name": "Metallophone",
+      "aliases": [
+        "metal bar percussion instrument"
+      ],
+      "popularity": 20489,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Metallophone"
+    },
+    {
+      "name": "Angklung",
+      "aliases": [],
+      "popularity": 20568,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Angklung"
+    },
+    {
+      "name": "Clapper",
+      "aliases": [
+        "Clapper (musical instrument)",
+        "clappers"
+      ],
+      "popularity": 20578,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Clapper (musical instrument)"
+    },
+    {
+      "name": "Cabasa",
+      "aliases": [
+        "cabaça",
+        "cabaza",
+        "cabaza afuche"
+      ],
+      "popularity": 20660,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Cabasa"
+    },
+    {
+      "name": "Dholak",
+      "aliases": [
+        "dholaki",
+        "ḍholki",
+        "dhulka",
+        "ḍōlak"
+      ],
+      "popularity": 20723,
+      "rarity": 0.142,
+      "tier": 1,
+      "wiki": "Dholak"
+    },
+    {
+      "name": "Wooden fish",
+      "aliases": [
+        "Chinese temple block",
+        "moktak"
+      ],
+      "popularity": 21746,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Wooden fish"
+    },
+    {
+      "name": "Slack-key guitar",
+      "aliases": [
+        "Le Igi"
+      ],
+      "popularity": 22650,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Slack-key guitar"
+    },
+    {
+      "name": "Ride cymbal",
+      "aliases": [],
+      "popularity": 22875,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Ride cymbal"
+    },
+    {
+      "name": "Ghungroo",
+      "aliases": [
+        "ghunghroo",
+        "ghunghru",
+        "ghunghuru",
+        "ghuṅgrū",
+        "ghungur"
+      ],
+      "popularity": 22960,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Ghungroo"
+    },
+    {
+      "name": "Steel tongue drum",
+      "aliases": [
+        "hank drum",
+        "tank drum"
+      ],
+      "popularity": 24539,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Steel tongue drum"
+    },
+    {
+      "name": "Tom drum",
+      "aliases": [
+        "tom",
+        "tom-tom",
+        "tom-tom drum",
+        "tom-toms",
+        "toms",
+        "tomtom",
+        "tomtoms"
+      ],
+      "popularity": 25079,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Tom drum"
+    },
+    {
+      "name": "Cowbell (Cowbell)",
+      "aliases": [
+        "animal bell",
+        "cow bell",
+        "livestock bell",
+        "sheep bell",
+        "sheepbell"
+      ],
+      "popularity": 25240,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Cowbell"
+    },
+    {
+      "name": "Damaru",
+      "aliases": [],
+      "popularity": 26037,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Damaru"
+    },
+    {
+      "name": "Washboard",
+      "aliases": [
+        "rubboard",
+        "Washboard (musical instrument)"
+      ],
+      "popularity": 27559,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Washboard (musical instrument)"
+    },
+    {
+      "name": "Standing bell",
+      "aliases": [
+        "Himalayan bowl",
+        "rin gong",
+        "singing bowl",
+        "suzu gong",
+        "Tibetan bowl",
+        "Tibetan singing bowl"
+      ],
+      "popularity": 28071,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Standing bell"
+    },
+    {
+      "name": "Daf",
+      "aliases": [
+        "Dafli",
+        "def"
+      ],
+      "popularity": 29286,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Daf"
+    },
+    {
+      "name": "Berimbau",
+      "aliases": [
+        "Aunene",
+        "Berimbau musical bow",
+        "Sekitulege"
+      ],
+      "popularity": 30183,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Berimbau"
+    },
+    {
+      "name": "Cowbell (instrument)",
+      "aliases": [
+        "Musical Cowbells"
+      ],
+      "popularity": 30232,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Cowbell (instrument)"
+    },
+    {
+      "name": "Claves",
+      "aliases": [],
+      "popularity": 30823,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Claves"
+    },
+    {
+      "name": "Sea organ",
+      "aliases": [],
+      "popularity": 31057,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Sea organ"
+    },
+    {
+      "name": "Balafon",
+      "aliases": [
+        "bala",
+        "balafeu",
+        "balafo",
+        "balafou",
+        "balaphone",
+        "balas",
+        "balo",
+        "balophong"
+      ],
+      "popularity": 31087,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Balafon"
+    },
+    {
+      "name": "Santur",
+      "aliases": [
+        "santoor"
+      ],
+      "popularity": 34682,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Santur"
+    },
+    {
+      "name": "Goblet drum",
+      "aliases": [
+        "chalice drum",
+        "darbek",
+        "goblet-shaped drum"
+      ],
+      "popularity": 36024,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Goblet drum"
+    },
+    {
+      "name": "Triangle",
+      "aliases": [
+        "musical triangle",
+        "Triangle (musical instrument)",
+        "trigono"
+      ],
+      "popularity": 36547,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Triangle (musical instrument)"
+    },
+    {
+      "name": "Talking drum",
+      "aliases": [],
+      "popularity": 37432,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Talking drum"
+    },
+    {
+      "name": "Ship's bell",
+      "aliases": [
+        "Nautical bell",
+        "Nautical signal bell",
+        "ship bell",
+        "signal bell"
+      ],
+      "popularity": 38825,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Ship's bell"
+    },
+    {
+      "name": "Church bell",
+      "aliases": [],
+      "popularity": 40220,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Church bell"
+    },
+    {
+      "name": "Sistrum",
+      "aliases": [],
+      "popularity": 43832,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Sistrum"
+    },
+    {
+      "name": "Slit drum (Slit drum)",
+      "aliases": [
+        "gulgul",
+        "slit gong",
+        "slit gongs"
+      ],
+      "popularity": 44927,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Slit drum"
+    },
+    {
+      "name": "Cimbalom",
+      "aliases": [
+        "cymbalom"
+      ],
+      "popularity": 46320,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Cimbalom"
+    },
+    {
+      "name": "Conga",
+      "aliases": [
+        "conga drum",
+        "tumbadora"
+      ],
+      "popularity": 53404,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Conga"
+    },
+    {
+      "name": "Fingerstyle guitar",
+      "aliases": [
+        "finger picking",
+        "fingerpicking"
+      ],
+      "popularity": 54663,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Fingerstyle guitar"
+    },
+    {
+      "name": "Bass drum",
+      "aliases": [
+        "kick drum"
+      ],
+      "popularity": 56555,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Bass drum"
+    },
+    {
+      "name": "Maraca",
+      "aliases": [
+        "maracas"
+      ],
+      "popularity": 58345,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Maraca"
+    },
+    {
+      "name": "Hang",
+      "aliases": [
+        "Hand Pan",
+        "Hang (instrument)"
+      ],
+      "popularity": 64451,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Hang (instrument)"
+    },
+    {
+      "name": "Castanets",
+      "aliases": [],
+      "popularity": 68298,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Castanets"
+    },
+    {
+      "name": "Taiko",
+      "aliases": [
+        "Japanese drum",
+        "wadaiko"
+      ],
+      "popularity": 70647,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Taiko"
+    },
+    {
+      "name": "Clavichord",
+      "aliases": [],
+      "popularity": 73129,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "Clavichord"
+    },
+    {
+      "name": "Cajón",
+      "aliases": [],
+      "popularity": 73338,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Cajón"
+    },
+    {
+      "name": "Bell",
+      "aliases": [
+        "bells"
+      ],
+      "popularity": 75895,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Bell"
+    },
+    {
+      "name": "Gong",
+      "aliases": [
+        "bossed",
+        "bowl gongs",
+        "gongs",
+        "metal gongs",
+        "nipple gongs",
+        "suspended gongs"
+      ],
+      "popularity": 76926,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Gong"
+    },
+    {
+      "name": "Snare drum",
+      "aliases": [
+        "caixa",
+        "caja",
+        "shallow snare drum",
+        "side drum",
+        "snare",
+        "war snare"
+      ],
+      "popularity": 77348,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Snare drum"
+    },
+    {
+      "name": "Tambourine",
+      "aliases": [],
+      "popularity": 80062,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Tambourine"
+    },
+    {
+      "name": "Tuning fork",
+      "aliases": [],
+      "popularity": 80634,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Tuning fork"
+    },
+    {
+      "name": "Bodhrán",
+      "aliases": [],
+      "popularity": 81641,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Bodhrán"
+    },
+    {
+      "name": "Carillon",
+      "aliases": [],
+      "popularity": 90485,
+      "rarity": 0.028,
+      "tier": 1,
+      "wiki": "Carillon"
+    },
+    {
+      "name": "Handpan",
+      "aliases": [],
+      "popularity": 90560,
+      "rarity": 0.025,
+      "tier": 1,
+      "wiki": "Handpan"
+    },
+    {
+      "name": "Hammered dulcimer",
+      "aliases": [
+        "hackbrett"
+      ],
+      "popularity": 94104,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Hammered dulcimer"
+    },
+    {
+      "name": "Drum",
+      "aliases": [
+        "caisse",
+        "cassa",
+        "tamburo",
+        "wankara"
+      ],
+      "popularity": 94681,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Drum"
+    },
+    {
+      "name": "Timpani",
+      "aliases": [
+        "kettle drum",
+        "kettledrum",
+        "kettledrums",
+        "timpano",
+        "timpanum",
+        "timpany",
+        "timps",
+        "tympani",
+        "tympany"
+      ],
+      "popularity": 98592,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "Timpani"
+    },
+    {
+      "name": "Djembe",
+      "aliases": [
+        "djimbe",
+        "dyinbe",
+        "JEM",
+        "jembe",
+        "jenbe",
+        "jimbe"
+      ],
+      "popularity": 101264,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Djembe"
+    },
+    {
+      "name": "Steelpan",
+      "aliases": [
+        "pan",
+        "steel drum",
+        "steel pan",
+        "steeldrum"
+      ],
+      "popularity": 103104,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Steelpan"
+    },
+    {
+      "name": "Xylophone",
+      "aliases": [
+        "song bell",
+        "straw fiddle"
+      ],
+      "popularity": 116261,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Xylophone"
+    },
+    {
+      "name": "Celesta",
+      "aliases": [
+        "celeste"
+      ],
+      "popularity": 124076,
+      "rarity": 0.006,
+      "tier": 1,
+      "wiki": "Celesta"
+    },
+    {
+      "name": "Drum kit",
+      "aliases": [
+        "drum-set",
+        "drums",
+        "trap set",
+        "traps"
+      ],
+      "popularity": 141710,
+      "rarity": 0.003,
+      "tier": 1,
+      "wiki": "Drum kit"
+    },
+    {
+      "name": "Glockenspiel",
+      "aliases": [
+        "bell lyra",
+        "orchestral bells"
+      ],
+      "popularity": 158283,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Glockenspiel"
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "id": "fields-medalists",
+  "slug": "fields-medalists",
+  "category": "science",
+  "question": "Name a Fields medalist",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Jesse Douglas",
+      "aliases": [],
+      "popularity": 7058,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Jesse Douglas"
+    },
+    {
+      "name": "Lars Hörmander",
+      "aliases": [],
+      "popularity": 8346,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Lars Hörmander"
+    },
+    {
+      "name": "Jean-Christophe Yoccoz",
+      "aliases": [],
+      "popularity": 8683,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Jean-Christophe Yoccoz"
+    },
+    {
+      "name": "Alan Baker",
+      "aliases": [
+        "Alan Baker (mathematician)"
+      ],
+      "popularity": 9166,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Alan Baker (mathematician)"
+    },
+    {
+      "name": "Efim Zelmanov",
+      "aliases": [
+        "Efim I. Zeľmanov",
+        "Efim Isaakovich Zelmanov",
+        "Zelmanov Efim"
+      ],
+      "popularity": 9757,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Efim Zelmanov"
+    },
+    {
+      "name": "John G. Thompson",
+      "aliases": [
+        "John Griggs Thompson"
+      ],
+      "popularity": 10291,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "John G. Thompson"
+    },
+    {
+      "name": "Atle Selberg",
+      "aliases": [],
+      "popularity": 10484,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Atle Selberg"
+    },
+    {
+      "name": "Laurent Lafforgue",
+      "aliases": [],
+      "popularity": 10498,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Laurent Lafforgue"
+    },
+    {
+      "name": "Sergei Novikov",
+      "aliases": [
+        "S. P. Novikov",
+        "Sergei Novikov (mathematician)",
+        "Sergei Petrovich Novikov"
+      ],
+      "popularity": 10660,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Sergei Novikov (mathematician)"
+    },
+    {
+      "name": "Enrico Bombieri",
+      "aliases": [],
+      "popularity": 10995,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Enrico Bombieri"
+    },
+    {
+      "name": "Andrei Okounkov",
+      "aliases": [
+        "Andrei Yuryevich Okounkov"
+      ],
+      "popularity": 11465,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Andrei Okounkov"
+    },
+    {
+      "name": "Daniel Quillen",
+      "aliases": [
+        "Daniel Gray \"Dan\" Quillen",
+        "Daniel Gray Quillen"
+      ],
+      "popularity": 11498,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Daniel Quillen"
+    },
+    {
+      "name": "Shigefumi Mori",
+      "aliases": [],
+      "popularity": 11563,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Shigefumi Mori"
+    },
+    {
+      "name": "Klaus Roth",
+      "aliases": [
+        "K. F. Roth",
+        "Klaus Friedrich Roth"
+      ],
+      "popularity": 12054,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Klaus Roth"
+    },
+    {
+      "name": "Vaughan Jones",
+      "aliases": [
+        "Sir Vaughan Frederick Randal Jones",
+        "Sir Vaughan Jones",
+        "Vaughan F. R. Jones"
+      ],
+      "popularity": 12274,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Vaughan Jones"
+    },
+    {
+      "name": "Pierre-Louis Lions",
+      "aliases": [],
+      "popularity": 12495,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Pierre-Louis Lions"
+    },
+    {
+      "name": "Kunihiko Kodaira",
+      "aliases": [],
+      "popularity": 13208,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Kunihiko Kodaira"
+    },
+    {
+      "name": "Curtis T. McMullen",
+      "aliases": [
+        "Curt McMullen",
+        "Curtis McMullen",
+        "Curtis Tracy McMullen"
+      ],
+      "popularity": 14435,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Curtis T. McMullen"
+    },
+    {
+      "name": "Vladimir Drinfeld",
+      "aliases": [
+        "Drinfel'd",
+        "Vladimir Drinfel'd",
+        "Vladimir Gershonovich Drinfeld"
+      ],
+      "popularity": 14523,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Vladimir Drinfeld"
+    },
+    {
+      "name": "René Thom",
+      "aliases": [],
+      "popularity": 14634,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "René Thom"
+    },
+    {
+      "name": "Grigory Margulis",
+      "aliases": [
+        "Gregory A. Margulis",
+        "Gregory Margulis",
+        "Grigori Margulis",
+        "Grigory Aleksandrovich Margulis"
+      ],
+      "popularity": 14695,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Grigory Margulis"
+    },
+    {
+      "name": "Lars Ahlfors",
+      "aliases": [
+        "L. V. Ahlfors",
+        "Lars V. Ahlfors",
+        "Lars Valerian Ahlfors"
+      ],
+      "popularity": 14834,
+      "rarity": 0.687,
+      "tier": 4,
+      "wiki": "Lars Ahlfors"
+    },
+    {
+      "name": "Wendelin Werner",
+      "aliases": [],
+      "popularity": 14864,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Wendelin Werner"
+    },
+    {
+      "name": "Elon Lindenstrauss",
+      "aliases": [],
+      "popularity": 15397,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Elon Lindenstrauss"
+    },
+    {
+      "name": "Stanislav Smirnov",
+      "aliases": [
+        "Stanislav Konstantinovich Smirnov"
+      ],
+      "popularity": 17454,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Stanislav Smirnov"
+    },
+    {
+      "name": "Paul Cohen",
+      "aliases": [
+        "Paul J",
+        "Paul J. Cohen",
+        "Paul Joseph Cohen"
+      ],
+      "popularity": 19684,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Paul Cohen"
+    },
+    {
+      "name": "David Mumford",
+      "aliases": [
+        "David B. Mumford",
+        "David Bryant Mumford"
+      ],
+      "popularity": 19827,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "David Mumford"
+    },
+    {
+      "name": "Alain Connes",
+      "aliases": [],
+      "popularity": 19989,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Alain Connes"
+    },
+    {
+      "name": "Simon Donaldson",
+      "aliases": [
+        "Simon K. Donaldson",
+        "Sir Simon Kirwan Donaldson"
+      ],
+      "popularity": 20527,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Simon Donaldson"
+    },
+    {
+      "name": "Jean Bourgain",
+      "aliases": [],
+      "popularity": 20931,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Jean Bourgain"
+    },
+    {
+      "name": "Richard Borcherds",
+      "aliases": [
+        "Richard E. Borcherds",
+        "Richard Ewen Borcherds"
+      ],
+      "popularity": 21475,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Richard Borcherds"
+    },
+    {
+      "name": "Michael Freedman",
+      "aliases": [
+        "Michael H. Freedman"
+      ],
+      "popularity": 21981,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Michael Freedman"
+    },
+    {
+      "name": "Vladimir Voevodsky",
+      "aliases": [
+        "Vladimir Alexandrovich Voevodsky"
+      ],
+      "popularity": 22588,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Vladimir Voevodsky"
+    },
+    {
+      "name": "Artur Avila",
+      "aliases": [
+        "Artur Avila Cordeiro de Melo"
+      ],
+      "popularity": 24183,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Artur Avila"
+    },
+    {
+      "name": "Laurent Schwartz",
+      "aliases": [
+        "Laurent-Moïse Schwartz"
+      ],
+      "popularity": 26613,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Laurent Schwartz"
+    },
+    {
+      "name": "Stephen Smale",
+      "aliases": [
+        "Steven Smale"
+      ],
+      "popularity": 27037,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Stephen Smale"
+    },
+    {
+      "name": "Heisuke Hironaka",
+      "aliases": [],
+      "popularity": 27195,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Heisuke Hironaka"
+    },
+    {
+      "name": "Caucher Birkar",
+      "aliases": [],
+      "popularity": 27259,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Caucher Birkar"
+    },
+    {
+      "name": "Charles Fefferman",
+      "aliases": [
+        "Charles Louis Fefferman"
+      ],
+      "popularity": 28718,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Charles Fefferman"
+    },
+    {
+      "name": "John Milnor",
+      "aliases": [
+        "Jack Milnor",
+        "John Willard Milnor"
+      ],
+      "popularity": 28749,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "John Milnor"
+    },
+    {
+      "name": "Maxim Kontsevich",
+      "aliases": [
+        "Maxim Lvovich Kontsevich"
+      ],
+      "popularity": 28957,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Maxim Kontsevich"
+    },
+    {
+      "name": "Alessio Figalli",
+      "aliases": [],
+      "popularity": 31306,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Alessio Figalli"
+    },
+    {
+      "name": "William Thurston",
+      "aliases": [
+        "William P. Thurston",
+        "William Paul Thurston"
+      ],
+      "popularity": 33131,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "William Thurston"
+    },
+    {
+      "name": "Hugo Duminil-Copin",
+      "aliases": [],
+      "popularity": 33621,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Hugo Duminil-Copin"
+    },
+    {
+      "name": "Pierre Deligne",
+      "aliases": [
+        "Pierre Rene Deligne"
+      ],
+      "popularity": 35256,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Pierre Deligne"
+    },
+    {
+      "name": "Martin Hairer",
+      "aliases": [
+        "Sir Martin Hairer"
+      ],
+      "popularity": 41079,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Martin Hairer"
+    },
+    {
+      "name": "Ngô Bảo Châu",
+      "aliases": [],
+      "popularity": 41775,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Ngô Bảo Châu"
+    },
+    {
+      "name": "Michael Atiyah",
+      "aliases": [
+        "Michael F. Atiyah",
+        "Michael Francis Atiyah",
+        "Sir Michael Francis Atiyah"
+      ],
+      "popularity": 46206,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Michael Atiyah"
+    },
+    {
+      "name": "James Maynard",
+      "aliases": [
+        "James Alexander Maynard",
+        "James Maynard (mathematician)"
+      ],
+      "popularity": 56465,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "James Maynard (mathematician)"
+    },
+    {
+      "name": "Timothy Gowers",
+      "aliases": [
+        "Sir William Timothy Gowers",
+        "Tim Gowers",
+        "W. Timothy Gowers",
+        "William Timothy Gowers"
+      ],
+      "popularity": 58132,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Timothy Gowers"
+    },
+    {
+      "name": "Cédric Villani",
+      "aliases": [],
+      "popularity": 59173,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Cédric Villani"
+    },
+    {
+      "name": "Akshay Venkatesh",
+      "aliases": [],
+      "popularity": 61747,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Akshay Venkatesh"
+    },
+    {
+      "name": "June Huh",
+      "aliases": [
+        "June E Huh"
+      ],
+      "popularity": 65096,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "June Huh"
+    },
+    {
+      "name": "Jean-Pierre Serre",
+      "aliases": [
+        "Jean-Pierre Albert Achille Serre"
+      ],
+      "popularity": 68755,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Jean-Pierre Serre"
+    },
+    {
+      "name": "Maryna Viazovska",
+      "aliases": [
+        "Maryna S. Viazovska",
+        "Maryna Sergiivna Viazovska"
+      ],
+      "popularity": 77856,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Maryna Viazovska"
+    },
+    {
+      "name": "Shing-Tung Yau",
+      "aliases": [
+        "S.-T. Yau"
+      ],
+      "popularity": 82710,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Shing-Tung Yau"
+    },
+    {
+      "name": "Manjul Bhargava",
+      "aliases": [],
+      "popularity": 96186,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Manjul Bhargava"
+    },
+    {
+      "name": "Gerd Faltings",
+      "aliases": [],
+      "popularity": 100615,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Gerd Faltings"
+    },
+    {
+      "name": "Peter Scholze",
+      "aliases": [],
+      "popularity": 125513,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Peter Scholze"
+    },
+    {
+      "name": "Yu Deng",
+      "aliases": [],
+      "popularity": 130359,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Yu Deng"
+    },
+    {
+      "name": "John Pardon",
+      "aliases": [
+        "John V. Pardon",
+        "John Vincent Pardon"
+      ],
+      "popularity": 139736,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "John Pardon"
+    },
+    {
+      "name": "Jacob Tsimerman",
+      "aliases": [],
+      "popularity": 183496,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Jacob Tsimerman"
+    },
+    {
+      "name": "Edward Witten",
+      "aliases": [
+        "Ed Witten"
+      ],
+      "popularity": 195223,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Edward Witten"
+    },
+    {
+      "name": "Alexander Grothendieck",
+      "aliases": [
+        "Alexandre Grothendieck"
+      ],
+      "popularity": 199457,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Alexander Grothendieck"
+    },
+    {
+      "name": "Maryam Mirzakhani",
+      "aliases": [
+        "M. Mirzakhani"
+      ],
+      "popularity": 226842,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Maryam Mirzakhani"
+    },
+    {
+      "name": "Hong Wang",
+      "aliases": [],
+      "popularity": 333405,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Hong Wang"
+    },
+    {
+      "name": "Grigori Perelman",
+      "aliases": [
+        "Grigori Yakovlevich Perelman"
+      ],
+      "popularity": 465663,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Grigori Perelman"
+    },
+    {
+      "name": "Terence Tao",
+      "aliases": [
+        "T. Tao",
+        "Tao Zhexuan",
+        "Terence C. Tao",
+        "Terence Chi-Shen Tao",
+        "Terence \"Terry\" Chi-Shen Tao",
+        "Terry Tao"
+      ],
+      "popularity": 664256,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Terence Tao"
+    }
+  ]
+}

@@ -1,0 +1,3658 @@
+{
+  "id": "viper-species",
+  "slug": "viper-species",
+  "category": "animals",
+  "question": "Name a species of viper",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Agkistrodon intermedius",
+      "aliases": [],
+      "popularity": 23,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Agkistrodon intermedius"
+    },
+    {
+      "name": "Bothriopsis peruviana",
+      "aliases": [],
+      "popularity": 24,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "Bothriopsis peruviana"
+    },
+    {
+      "name": "Bothrops pradoi",
+      "aliases": [],
+      "popularity": 25,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Bothrops pradoi"
+    },
+    {
+      "name": "Montatheris hindii",
+      "aliases": [],
+      "popularity": 110,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Montatheris hindii"
+    },
+    {
+      "name": "Vipera shemakhensis",
+      "aliases": [],
+      "popularity": 125,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Vipera shemakhensis"
+    },
+    {
+      "name": "Trimeresurus karanshahi",
+      "aliases": [],
+      "popularity": 126,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Trimeresurus karanshahi"
+    },
+    {
+      "name": "Garthius chaseni",
+      "aliases": [
+        "Ovophis chaseni"
+      ],
+      "popularity": 135,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Garthius chaseni"
+    },
+    {
+      "name": "Gloydius qinlingensis",
+      "aliases": [
+        "Qinling pitviper"
+      ],
+      "popularity": 235,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Gloydius qinlingensis"
+    },
+    {
+      "name": "Hypnale walli",
+      "aliases": [],
+      "popularity": 256,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Hypnale walli"
+    },
+    {
+      "name": "Porthidium arcosae",
+      "aliases": [],
+      "popularity": 256,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Porthidium arcosae"
+    },
+    {
+      "name": "Gloydius swild",
+      "aliases": [
+        "Glacier pit viper",
+        "Glacier pitviper"
+      ],
+      "popularity": 263,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Gloydius swild"
+    },
+    {
+      "name": "Ovophis anitae",
+      "aliases": [],
+      "popularity": 280,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Ovophis anitae"
+    },
+    {
+      "name": "Protobothrops dabieshanensis",
+      "aliases": [
+        "Dabieshan pitviper"
+      ],
+      "popularity": 280,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Protobothrops dabieshanensis"
+    },
+    {
+      "name": "Gloydius liupanensis",
+      "aliases": [
+        "Liupanshan pitviper"
+      ],
+      "popularity": 288,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Gloydius liupanensis"
+    },
+    {
+      "name": "Ovophis zhaoermii",
+      "aliases": [],
+      "popularity": 298,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Ovophis zhaoermii"
+    },
+    {
+      "name": "Trimeresurus sichuanensis",
+      "aliases": [],
+      "popularity": 298,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Trimeresurus sichuanensis"
+    },
+    {
+      "name": "Gloydius lipipengi",
+      "aliases": [
+        "Nujiang pit viper",
+        "Nujiang pitviper"
+      ],
+      "popularity": 299,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Gloydius lipipengi"
+    },
+    {
+      "name": "Gloydius changdaoensis",
+      "aliases": [],
+      "popularity": 307,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Gloydius changdaoensis"
+    },
+    {
+      "name": "Ovophis zayuensis",
+      "aliases": [
+        "Zayu pitviper"
+      ],
+      "popularity": 320,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Ovophis zayuensis"
+    },
+    {
+      "name": "Craspedocephalus peltopelor",
+      "aliases": [],
+      "popularity": 322,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Craspedocephalus peltopelor"
+    },
+    {
+      "name": "Gloydius huangi",
+      "aliases": [
+        "Lancang plateau pitviper"
+      ],
+      "popularity": 324,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Gloydius huangi"
+    },
+    {
+      "name": "Bothrops sonene",
+      "aliases": [],
+      "popularity": 326,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "Bothrops sonene"
+    },
+    {
+      "name": "Montivipera raddei albicornuta",
+      "aliases": [
+        "Montivipera albicornuta"
+      ],
+      "popularity": 326,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "Montivipera raddei albicornuta"
+    },
+    {
+      "name": "Craspedocephalus occidentalis",
+      "aliases": [],
+      "popularity": 328,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Craspedocephalus occidentalis"
+    },
+    {
+      "name": "Metlapilcoatlus borealis",
+      "aliases": [],
+      "popularity": 328,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Metlapilcoatlus borealis"
+    },
+    {
+      "name": "Porthidium porrasi",
+      "aliases": [],
+      "popularity": 346,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Porthidium porrasi"
+    },
+    {
+      "name": "Gloydius lateralis",
+      "aliases": [
+        "Jiuzhai pitviper"
+      ],
+      "popularity": 349,
+      "rarity": 0.934,
+      "tier": 6,
+      "wiki": "Gloydius lateralis"
+    },
+    {
+      "name": "Trimeresurus yingjiangensis",
+      "aliases": [
+        "Yingjiang green pitviper"
+      ],
+      "popularity": 355,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Trimeresurus yingjiangensis"
+    },
+    {
+      "name": "Azemiops feae",
+      "aliases": [
+        "A. kharini",
+        "Black-headed feaviper",
+        "Fea's viper"
+      ],
+      "popularity": 358,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Azemiops feae"
+    },
+    {
+      "name": "Ophryacus sphenophrys",
+      "aliases": [],
+      "popularity": 371,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Ophryacus sphenophrys"
+    },
+    {
+      "name": "Protobothrops himalayanus",
+      "aliases": [
+        "Himalayan pitviper"
+      ],
+      "popularity": 371,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Protobothrops himalayanus"
+    },
+    {
+      "name": "Bothrops osbornei",
+      "aliases": [],
+      "popularity": 376,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Bothrops osbornei"
+    },
+    {
+      "name": "Bothrops jabrensis",
+      "aliases": [],
+      "popularity": 378,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Bothrops jabrensis"
+    },
+    {
+      "name": "Cerrophidion petlalcalensis",
+      "aliases": [],
+      "popularity": 380,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Cerrophidion petlalcalensis"
+    },
+    {
+      "name": "Bothrocophias myrringae",
+      "aliases": [],
+      "popularity": 390,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Bothrocophias myrringae"
+    },
+    {
+      "name": "Gloydius cognatus",
+      "aliases": [
+        "Alashan pitviper",
+        "Gloydius halys cognatus"
+      ],
+      "popularity": 396,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Gloydius cognatus"
+    },
+    {
+      "name": "Bothrocophias tulitoi",
+      "aliases": [],
+      "popularity": 403,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Bothrocophias tulitoi"
+    },
+    {
+      "name": "Porthidium hespere",
+      "aliases": [],
+      "popularity": 417,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Porthidium hespere"
+    },
+    {
+      "name": "Macrovipera deserti",
+      "aliases": [],
+      "popularity": 429,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Macrovipera deserti"
+    },
+    {
+      "name": "Vipera pontica",
+      "aliases": [
+        "Black Sea viper"
+      ],
+      "popularity": 429,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Vipera pontica"
+    },
+    {
+      "name": "Metlapilcoatlus indomitus",
+      "aliases": [],
+      "popularity": 431,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Metlapilcoatlus indomitus"
+    },
+    {
+      "name": "Trimeresurus mutabilis",
+      "aliases": [],
+      "popularity": 431,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Trimeresurus mutabilis"
+    },
+    {
+      "name": "Bothrops marajoensis",
+      "aliases": [
+        "Marajó lancehead"
+      ],
+      "popularity": 438,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Bothrops marajoensis"
+    },
+    {
+      "name": "Gloydius rickmersi",
+      "aliases": [],
+      "popularity": 439,
+      "rarity": 0.89,
+      "tier": 5,
+      "wiki": "Gloydius rickmersi"
+    },
+    {
+      "name": "Gloydius angusticeps",
+      "aliases": [
+        "Zoige pitviper"
+      ],
+      "popularity": 442,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Gloydius angusticeps"
+    },
+    {
+      "name": "Bothrops lutzi",
+      "aliases": [
+        "Cerrado lancehead"
+      ],
+      "popularity": 443,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Bothrops lutzi"
+    },
+    {
+      "name": "Bothrops pauloensis",
+      "aliases": [],
+      "popularity": 461,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Bothrops pauloensis"
+    },
+    {
+      "name": "Bothrops pirajai",
+      "aliases": [
+        "Piraja’s lancehead"
+      ],
+      "popularity": 464,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Bothrops pirajai"
+    },
+    {
+      "name": "Bothrocophias lojanus",
+      "aliases": [
+        "Bothrops lojana",
+        "Bothrops lojanus",
+        "Lojan lancehead",
+        "macanchi",
+        "macaucho"
+      ],
+      "popularity": 465,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Bothrocophias lojanus"
+    },
+    {
+      "name": "Metlapilcoatlus occiduus",
+      "aliases": [],
+      "popularity": 467,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Metlapilcoatlus occiduus"
+    },
+    {
+      "name": "Bothrops marmoratus",
+      "aliases": [
+        "marbled lancehead"
+      ],
+      "popularity": 485,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Bothrops marmoratus"
+    },
+    {
+      "name": "Cerrophidion wilsoni",
+      "aliases": [
+        "Honduras Montane Pitviper",
+        "Wilson's Montane Pitviper"
+      ],
+      "popularity": 487,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Cerrophidion wilsoni"
+    },
+    {
+      "name": "Trimeresurus mayaae",
+      "aliases": [],
+      "popularity": 488,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Trimeresurus mayaae"
+    },
+    {
+      "name": "Bothrops germanoi",
+      "aliases": [],
+      "popularity": 490,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Bothrops germanoi"
+    },
+    {
+      "name": "Southern adder",
+      "aliases": [
+        "Bitis armata"
+      ],
+      "popularity": 491,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Southern adder"
+    },
+    {
+      "name": "Gloydius monticola",
+      "aliases": [
+        "Likiang pitviper"
+      ],
+      "popularity": 493,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Gloydius monticola"
+    },
+    {
+      "name": "Bothrops otavioi",
+      "aliases": [],
+      "popularity": 494,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Bothrops otavioi"
+    },
+    {
+      "name": "Bothrops monsignifer",
+      "aliases": [],
+      "popularity": 501,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Bothrops monsignifer"
+    },
+    {
+      "name": "Vipera magnifica",
+      "aliases": [],
+      "popularity": 519,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Vipera magnifica"
+    },
+    {
+      "name": "Porthidium volcanicum",
+      "aliases": [],
+      "popularity": 521,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Porthidium volcanicum"
+    },
+    {
+      "name": "Montivipera kuhrangica",
+      "aliases": [],
+      "popularity": 528,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Montivipera kuhrangica"
+    },
+    {
+      "name": "Crotalus tancitarensis",
+      "aliases": [],
+      "popularity": 530,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Crotalus tancitarensis"
+    },
+    {
+      "name": "Vipera sakoi",
+      "aliases": [],
+      "popularity": 531,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Vipera sakoi"
+    },
+    {
+      "name": "Bothrops chloromelas",
+      "aliases": [
+        "coastal lancehead",
+        "Inca forest pit viper"
+      ],
+      "popularity": 543,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Bothrops chloromelas"
+    },
+    {
+      "name": "Gloydius stejnegeri",
+      "aliases": [
+        "Gloydius halys stejnegeri",
+        "Gobi pitviper"
+      ],
+      "popularity": 543,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Gloydius stejnegeri"
+    },
+    {
+      "name": "Mixcoatlus browni",
+      "aliases": [],
+      "popularity": 553,
+      "rarity": 0.834,
+      "tier": 5,
+      "wiki": "Mixcoatlus browni"
+    },
+    {
+      "name": "Gloydius rubromaculatus",
+      "aliases": [
+        "Red-spotted alpine pit viper",
+        "Red-spotted alpine pitviper"
+      ],
+      "popularity": 554,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Gloydius rubromaculatus"
+    },
+    {
+      "name": "Causus bilineatus",
+      "aliases": [],
+      "popularity": 555,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Causus bilineatus"
+    },
+    {
+      "name": "Roman's carpet viper",
+      "aliases": [
+        "Echis romani"
+      ],
+      "popularity": 557,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Roman's carpet viper"
+    },
+    {
+      "name": "Atheris subocularis",
+      "aliases": [],
+      "popularity": 560,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Atheris subocularis"
+    },
+    {
+      "name": "Bothriechis nitidus",
+      "aliases": [],
+      "popularity": 560,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Bothriechis nitidus"
+    },
+    {
+      "name": "Gloydius chambensis",
+      "aliases": [
+        "Chamba pitviper"
+      ],
+      "popularity": 569,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Gloydius chambensis"
+    },
+    {
+      "name": "Bothrops muriciensis",
+      "aliases": [],
+      "popularity": 571,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Bothrops muriciensis"
+    },
+    {
+      "name": "Craspedocephalus travancoricus",
+      "aliases": [],
+      "popularity": 572,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Craspedocephalus travancoricus"
+    },
+    {
+      "name": "Ovophis jenkinsi",
+      "aliases": [],
+      "popularity": 579,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Ovophis jenkinsi"
+    },
+    {
+      "name": "Crotalus thalassoporus",
+      "aliases": [],
+      "popularity": 595,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Crotalus thalassoporus"
+    },
+    {
+      "name": "Craspedocephalus wiroti",
+      "aliases": [
+        "Trimeresurus wiroti"
+      ],
+      "popularity": 599,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Craspedocephalus wiroti"
+    },
+    {
+      "name": "Trimeresurus honsonensis",
+      "aliases": [],
+      "popularity": 613,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Trimeresurus honsonensis"
+    },
+    {
+      "name": "Bothriechis torvus",
+      "aliases": [],
+      "popularity": 616,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Bothriechis torvus"
+    },
+    {
+      "name": "Porthidium dunni",
+      "aliases": [],
+      "popularity": 616,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Porthidium dunni"
+    },
+    {
+      "name": "Bothrops itapetiningae",
+      "aliases": [
+        "Rhinocerophis itapetiningae",
+        "São Paulo lancehead"
+      ],
+      "popularity": 617,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Bothrops itapetiningae"
+    },
+    {
+      "name": "Crotalus tlaloci",
+      "aliases": [],
+      "popularity": 622,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Crotalus tlaloci"
+    },
+    {
+      "name": "Bothriechis khwargi",
+      "aliases": [],
+      "popularity": 625,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Bothriechis khwargi"
+    },
+    {
+      "name": "Cerrophidion sasai",
+      "aliases": [],
+      "popularity": 625,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Cerrophidion sasai"
+    },
+    {
+      "name": "Echis khosatzkii",
+      "aliases": [],
+      "popularity": 625,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Echis khosatzkii"
+    },
+    {
+      "name": "Trimeresurus davidi",
+      "aliases": [],
+      "popularity": 625,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Trimeresurus davidi"
+    },
+    {
+      "name": "Cerrophidion tzotzilorum",
+      "aliases": [],
+      "popularity": 639,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Cerrophidion tzotzilorum"
+    },
+    {
+      "name": "Trimeresurus gunaleni",
+      "aliases": [],
+      "popularity": 654,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Trimeresurus gunaleni"
+    },
+    {
+      "name": "Proatheris superciliaris",
+      "aliases": [],
+      "popularity": 655,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "Proatheris superciliaris"
+    },
+    {
+      "name": "Bothriechis rasikusumorum",
+      "aliases": [],
+      "popularity": 669,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Bothriechis rasikusumorum"
+    },
+    {
+      "name": "Trimeresurus fasciatus",
+      "aliases": [],
+      "popularity": 669,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Trimeresurus fasciatus"
+    },
+    {
+      "name": "Bothrocophias myersi",
+      "aliases": [],
+      "popularity": 671,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Bothrocophias myersi"
+    },
+    {
+      "name": "Bothrops pulcher",
+      "aliases": [],
+      "popularity": 676,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Bothrops pulcher"
+    },
+    {
+      "name": "Metlapilcoatlus olmec",
+      "aliases": [],
+      "popularity": 680,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Metlapilcoatlus olmec"
+    },
+    {
+      "name": "Bothrops fonsecai",
+      "aliases": [
+        "Fonseca's lancehead"
+      ],
+      "popularity": 682,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Bothrops fonsecai"
+    },
+    {
+      "name": "Bothrops ayerbei",
+      "aliases": [],
+      "popularity": 685,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Bothrops ayerbei"
+    },
+    {
+      "name": "Trimeresurus yunnanensis",
+      "aliases": [],
+      "popularity": 690,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Trimeresurus yunnanensis"
+    },
+    {
+      "name": "Atheris mongoensis",
+      "aliases": [],
+      "popularity": 694,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Atheris mongoensis"
+    },
+    {
+      "name": "Bothriechis rahimi",
+      "aliases": [],
+      "popularity": 705,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Bothriechis rahimi"
+    },
+    {
+      "name": "Mixcoatlus barbouri",
+      "aliases": [],
+      "popularity": 709,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Mixcoatlus barbouri"
+    },
+    {
+      "name": "Atropoides picadoi",
+      "aliases": [
+        "Picado's jumping pitviper"
+      ],
+      "popularity": 710,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Atropoides picadoi"
+    },
+    {
+      "name": "Protobothrops kelomohy",
+      "aliases": [],
+      "popularity": 714,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Protobothrops kelomohy"
+    },
+    {
+      "name": "Ophryacus smaragdinus",
+      "aliases": [],
+      "popularity": 715,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Ophryacus smaragdinus"
+    },
+    {
+      "name": "Craspedocephalus andalasensis",
+      "aliases": [
+        "Sumatran Palm Pit Viper"
+      ],
+      "popularity": 724,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Craspedocephalus andalasensis"
+    },
+    {
+      "name": "Vipera barani",
+      "aliases": [],
+      "popularity": 740,
+      "rarity": 0.734,
+      "tier": 4,
+      "wiki": "Vipera barani"
+    },
+    {
+      "name": "Trimeresurus medoensis",
+      "aliases": [
+        "Medo Pit Viper",
+        "Viridovipera medoensis"
+      ],
+      "popularity": 746,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Trimeresurus medoensis"
+    },
+    {
+      "name": "Bothrops mattogrossensis",
+      "aliases": [],
+      "popularity": 748,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Bothrops mattogrossensis"
+    },
+    {
+      "name": "Craspedocephalus brongersmai",
+      "aliases": [],
+      "popularity": 750,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Craspedocephalus brongersmai"
+    },
+    {
+      "name": "Ophryacus undulatus",
+      "aliases": [
+        "Mexican horned pitviper"
+      ],
+      "popularity": 750,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Ophryacus undulatus"
+    },
+    {
+      "name": "Causus lichtensteinii",
+      "aliases": [],
+      "popularity": 757,
+      "rarity": 0.721,
+      "tier": 4,
+      "wiki": "Causus lichtensteinii"
+    },
+    {
+      "name": "Bothriechis klebbai",
+      "aliases": [],
+      "popularity": 759,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Bothriechis klebbai"
+    },
+    {
+      "name": "Crotalus polisi",
+      "aliases": [],
+      "popularity": 761,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Crotalus polisi"
+    },
+    {
+      "name": "Trimeresurus phuketensis",
+      "aliases": [],
+      "popularity": 763,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Trimeresurus phuketensis"
+    },
+    {
+      "name": "Crotalus transversus",
+      "aliases": [],
+      "popularity": 781,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Crotalus transversus"
+    },
+    {
+      "name": "Atheris hirsuta",
+      "aliases": [
+        "Tai Hairy Bush Viper"
+      ],
+      "popularity": 783,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "Atheris hirsuta"
+    },
+    {
+      "name": "Gloydius caucasicus",
+      "aliases": [],
+      "popularity": 783,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "Gloydius caucasicus"
+    },
+    {
+      "name": "Bothrops oligobalius",
+      "aliases": [],
+      "popularity": 789,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Bothrops oligobalius"
+    },
+    {
+      "name": "Bothrops erythromelas",
+      "aliases": [
+        "Caatinga lancehead",
+        "jararaca-da-seca"
+      ],
+      "popularity": 803,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Bothrops erythromelas"
+    },
+    {
+      "name": "Bothrocophias microphthalmus",
+      "aliases": [],
+      "popularity": 805,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Bothrocophias microphthalmus"
+    },
+    {
+      "name": "Hypnale zara",
+      "aliases": [],
+      "popularity": 819,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Hypnale zara"
+    },
+    {
+      "name": "Protobothrops xiangchengensis",
+      "aliases": [
+        "Trimeresurus xiangchengensis",
+        "Western sichuan pitviper"
+      ],
+      "popularity": 821,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "Protobothrops xiangchengensis"
+    },
+    {
+      "name": "Atheris anisolepis",
+      "aliases": [],
+      "popularity": 822,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Atheris anisolepis"
+    },
+    {
+      "name": "Trimeresurus cantori",
+      "aliases": [
+        "Cantor's pit viper",
+        "Cantor's pitviper"
+      ],
+      "popularity": 828,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Trimeresurus cantori"
+    },
+    {
+      "name": "Ovophis convictus",
+      "aliases": [],
+      "popularity": 829,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Ovophis convictus"
+    },
+    {
+      "name": "Bothriechis hussaini",
+      "aliases": [],
+      "popularity": 831,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Bothriechis hussaini"
+    },
+    {
+      "name": "Bothrops jonathani",
+      "aliases": [
+        "Cochabamba lancehead",
+        "Jonathan's lancehead"
+      ],
+      "popularity": 832,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Bothrops jonathani"
+    },
+    {
+      "name": "Atheris broadleyi",
+      "aliases": [],
+      "popularity": 834,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Atheris broadleyi"
+    },
+    {
+      "name": "Mount Bulgar viper",
+      "aliases": [
+        "Montivipera bulgardaghica"
+      ],
+      "popularity": 848,
+      "rarity": 0.675,
+      "tier": 4,
+      "wiki": "Mount Bulgar viper"
+    },
+    {
+      "name": "Atheris hetfieldi",
+      "aliases": [],
+      "popularity": 865,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Atheris hetfieldi"
+    },
+    {
+      "name": "Atheris mabuensis",
+      "aliases": [],
+      "popularity": 869,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Atheris mabuensis"
+    },
+    {
+      "name": "Mixcoatlus melanurus",
+      "aliases": [
+        "Mexican pitviper"
+      ],
+      "popularity": 879,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "Mixcoatlus melanurus"
+    },
+    {
+      "name": "Bothrops pubescens",
+      "aliases": [],
+      "popularity": 887,
+      "rarity": 0.665,
+      "tier": 4,
+      "wiki": "Bothrops pubescens"
+    },
+    {
+      "name": "Macrovipera razii",
+      "aliases": [],
+      "popularity": 902,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Macrovipera razii"
+    },
+    {
+      "name": "Trimeresurus tibetanus",
+      "aliases": [
+        "Tibetan pit viper"
+      ],
+      "popularity": 910,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Trimeresurus tibetanus"
+    },
+    {
+      "name": "Bothriechis rowleyi",
+      "aliases": [
+        "Mexican palm viper"
+      ],
+      "popularity": 916,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Bothriechis rowleyi"
+    },
+    {
+      "name": "Crotalus atrox tortugensis",
+      "aliases": [
+        "Crotalus tortugensis",
+        "Tortuga Island rattlesnake"
+      ],
+      "popularity": 920,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Crotalus atrox tortugensis"
+    },
+    {
+      "name": "Trimeresurus labialis",
+      "aliases": [],
+      "popularity": 922,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Trimeresurus labialis"
+    },
+    {
+      "name": "Echis jogeri",
+      "aliases": [],
+      "popularity": 929,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Echis jogeri"
+    },
+    {
+      "name": "Gloydius caraganus",
+      "aliases": [],
+      "popularity": 929,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Gloydius caraganus"
+    },
+    {
+      "name": "Bothrocophias hyoprora",
+      "aliases": [
+        "Amazonian toad-headed pitviper"
+      ],
+      "popularity": 938,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Bothrocophias hyoprora"
+    },
+    {
+      "name": "Protobothrops flavirostris",
+      "aliases": [],
+      "popularity": 951,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Protobothrops flavirostris"
+    },
+    {
+      "name": "Atheris rungweensis",
+      "aliases": [
+        "Atheris nitschei rungweensis"
+      ],
+      "popularity": 962,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Atheris rungweensis"
+    },
+    {
+      "name": "Vipera altaica",
+      "aliases": [],
+      "popularity": 965,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "Vipera altaica"
+    },
+    {
+      "name": "Bothrops punctatus",
+      "aliases": [
+        "Bothrops punctatа"
+      ],
+      "popularity": 969,
+      "rarity": 0.634,
+      "tier": 4,
+      "wiki": "Bothrops punctatus"
+    },
+    {
+      "name": "Crotalus lorenzoensis",
+      "aliases": [],
+      "popularity": 975,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Crotalus lorenzoensis"
+    },
+    {
+      "name": "Bothriechis nubestris",
+      "aliases": [
+        "Talamancan palm-pitviper"
+      ],
+      "popularity": 976,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Bothriechis nubestris"
+    },
+    {
+      "name": "Bothrops diporus",
+      "aliases": [],
+      "popularity": 987,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Bothrops diporus"
+    },
+    {
+      "name": "Bothrops sanctaecrucis",
+      "aliases": [],
+      "popularity": 993,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Bothrops sanctaecrucis"
+    },
+    {
+      "name": "Tropidolaemus huttoni",
+      "aliases": [],
+      "popularity": 993,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Tropidolaemus huttoni"
+    },
+    {
+      "name": "Bothriechis guifarroi",
+      "aliases": [
+        "Guifarro's palm-pitviper"
+      ],
+      "popularity": 994,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Bothriechis guifarroi"
+    },
+    {
+      "name": "Crotalus pusillus",
+      "aliases": [],
+      "popularity": 994,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Crotalus pusillus"
+    },
+    {
+      "name": "Causus defilippii",
+      "aliases": [],
+      "popularity": 996,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Causus defilippii"
+    },
+    {
+      "name": "Trimeresurus cardamomensis",
+      "aliases": [],
+      "popularity": 1002,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Trimeresurus cardamomensis"
+    },
+    {
+      "name": "Crotalus lannomi",
+      "aliases": [],
+      "popularity": 1009,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Crotalus lannomi"
+    },
+    {
+      "name": "Echis megalocephalus",
+      "aliases": [],
+      "popularity": 1044,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Echis megalocephalus"
+    },
+    {
+      "name": "Bothrops oligolepis",
+      "aliases": [
+        "Bothriopsis oligolepis"
+      ],
+      "popularity": 1050,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Bothrops oligolepis"
+    },
+    {
+      "name": "Bitis heraldica",
+      "aliases": [],
+      "popularity": 1056,
+      "rarity": 0.601,
+      "tier": 4,
+      "wiki": "Bitis heraldica"
+    },
+    {
+      "name": "Bothrops cotiara",
+      "aliases": [],
+      "popularity": 1060,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Bothrops cotiara"
+    },
+    {
+      "name": "Calloselasma rhodostoma",
+      "aliases": [],
+      "popularity": 1071,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Calloselasma rhodostoma"
+    },
+    {
+      "name": "Gloydius strauchi",
+      "aliases": [
+        "Strauch's pitviper"
+      ],
+      "popularity": 1074,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Gloydius strauchi"
+    },
+    {
+      "name": "Trimeresurus nebularis",
+      "aliases": [],
+      "popularity": 1082,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Trimeresurus nebularis"
+    },
+    {
+      "name": "Trimeresurus gramineus",
+      "aliases": [
+        "bamboo pit viper",
+        "common bamboo viper"
+      ],
+      "popularity": 1085,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Trimeresurus gramineus"
+    },
+    {
+      "name": "Atheris katangensis",
+      "aliases": [],
+      "popularity": 1096,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Atheris katangensis"
+    },
+    {
+      "name": "Ovophis makazayazaya",
+      "aliases": [],
+      "popularity": 1097,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Ovophis makazayazaya"
+    },
+    {
+      "name": "Echis hughesi",
+      "aliases": [],
+      "popularity": 1108,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Echis hughesi"
+    },
+    {
+      "name": "Bothrops pictus",
+      "aliases": [],
+      "popularity": 1115,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Bothrops pictus"
+    },
+    {
+      "name": "Bothrocophias campbelli",
+      "aliases": [
+        "Bothrops campbelli"
+      ],
+      "popularity": 1122,
+      "rarity": 0.575,
+      "tier": 3,
+      "wiki": "Bothrocophias campbelli"
+    },
+    {
+      "name": "Atheris matildae",
+      "aliases": [],
+      "popularity": 1124,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Atheris matildae"
+    },
+    {
+      "name": "Hypnale nepa",
+      "aliases": [
+        "Sri Lanka humpnose viper"
+      ],
+      "popularity": 1124,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Hypnale nepa"
+    },
+    {
+      "name": "Bothrops sazimai",
+      "aliases": [],
+      "popularity": 1130,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Bothrops sazimai"
+    },
+    {
+      "name": "Cerrophidion godmani",
+      "aliases": [],
+      "popularity": 1136,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Cerrophidion godmani"
+    },
+    {
+      "name": "Crotalus estebanensis",
+      "aliases": [
+        "San Esteban Island Rattlesnake"
+      ],
+      "popularity": 1142,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Crotalus estebanensis"
+    },
+    {
+      "name": "Crotalus campbelli",
+      "aliases": [],
+      "popularity": 1143,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Crotalus campbelli"
+    },
+    {
+      "name": "Bothrops medusa",
+      "aliases": [
+        "Bothriopsis medusa",
+        "Venezuela forest pit viper",
+        "Venezuelan forest-pitviper"
+      ],
+      "popularity": 1145,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Bothrops medusa"
+    },
+    {
+      "name": "Causus maculatus",
+      "aliases": [],
+      "popularity": 1147,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Causus maculatus"
+    },
+    {
+      "name": "Atheris acuminata",
+      "aliases": [],
+      "popularity": 1156,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Atheris acuminata"
+    },
+    {
+      "name": "Crotalus totonacus",
+      "aliases": [],
+      "popularity": 1183,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Crotalus totonacus"
+    },
+    {
+      "name": "Bothrocophias andianus",
+      "aliases": [
+        "Andean lancehead",
+        "Bothrops andianus"
+      ],
+      "popularity": 1184,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Bothrocophias andianus"
+    },
+    {
+      "name": "Montivipera latifii",
+      "aliases": [
+        "Latifi's Viper"
+      ],
+      "popularity": 1185,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Montivipera latifii"
+    },
+    {
+      "name": "Echis borkini",
+      "aliases": [],
+      "popularity": 1203,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Echis borkini"
+    },
+    {
+      "name": "Atheris barbouri",
+      "aliases": [
+        "worm-eating viper"
+      ],
+      "popularity": 1209,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Atheris barbouri"
+    },
+    {
+      "name": "Protobothrops sieversorum",
+      "aliases": [
+        "Three horned-scaled pitviper"
+      ],
+      "popularity": 1209,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Protobothrops sieversorum"
+    },
+    {
+      "name": "Trimeresurus schultzei",
+      "aliases": [
+        "Parias schultzei"
+      ],
+      "popularity": 1225,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Trimeresurus schultzei"
+    },
+    {
+      "name": "Crotalus morulus",
+      "aliases": [],
+      "popularity": 1227,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Crotalus morulus"
+    },
+    {
+      "name": "Crotalus ehecatl",
+      "aliases": [],
+      "popularity": 1243,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Crotalus ehecatl"
+    },
+    {
+      "name": "Craspedocephalus anamallensis",
+      "aliases": [
+        "Anamala pit viper",
+        "Malabarian pit viper"
+      ],
+      "popularity": 1245,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Craspedocephalus anamallensis"
+    },
+    {
+      "name": "Crotalus ericsmithi",
+      "aliases": [],
+      "popularity": 1251,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Crotalus ericsmithi"
+    },
+    {
+      "name": "Crotalus stejnegeri",
+      "aliases": [],
+      "popularity": 1278,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Crotalus stejnegeri"
+    },
+    {
+      "name": "Bitis worthingtoni",
+      "aliases": [
+        "Kenya horned viper",
+        "Kenyan horned viper"
+      ],
+      "popularity": 1287,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Bitis worthingtoni"
+    },
+    {
+      "name": "Bothrops leucurus",
+      "aliases": [
+        "Bahia lancehead",
+        "whitetail lancehead"
+      ],
+      "popularity": 1291,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Bothrops leucurus"
+    },
+    {
+      "name": "Vipera lotievi",
+      "aliases": [],
+      "popularity": 1299,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Vipera lotievi"
+    },
+    {
+      "name": "Bitis inornata",
+      "aliases": [
+        "Cape puff adder",
+        "Hornless adder",
+        "Plain mountain adder"
+      ],
+      "popularity": 1317,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Bitis inornata"
+    },
+    {
+      "name": "Trimeresurus kanburiensis",
+      "aliases": [],
+      "popularity": 1322,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Trimeresurus kanburiensis"
+    },
+    {
+      "name": "Protobothrops kaulbacki",
+      "aliases": [
+        "Kaulback's pitviper"
+      ],
+      "popularity": 1326,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Protobothrops kaulbacki"
+    },
+    {
+      "name": "Trimeresurus truongsonensis",
+      "aliases": [],
+      "popularity": 1349,
+      "rarity": 0.504,
+      "tier": 3,
+      "wiki": "Trimeresurus truongsonensis"
+    },
+    {
+      "name": "Bitis xeropaga",
+      "aliases": [
+        "Desert Mountain Adder"
+      ],
+      "popularity": 1361,
+      "rarity": 0.501,
+      "tier": 3,
+      "wiki": "Bitis xeropaga"
+    },
+    {
+      "name": "Bitis harenna",
+      "aliases": [],
+      "popularity": 1366,
+      "rarity": 0.499,
+      "tier": 3,
+      "wiki": "Bitis harenna"
+    },
+    {
+      "name": "Trimeresurus septentrionalis",
+      "aliases": [
+        "Trimeresurus albolabris septentrionalis"
+      ],
+      "popularity": 1367,
+      "rarity": 0.496,
+      "tier": 3,
+      "wiki": "Trimeresurus septentrionalis"
+    },
+    {
+      "name": "Bothriechis supraciliaris",
+      "aliases": [
+        "blotched palm-pit viper"
+      ],
+      "popularity": 1370,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Bothriechis supraciliaris"
+    },
+    {
+      "name": "Bothrops brazili",
+      "aliases": [
+        "Brazil's lancehead"
+      ],
+      "popularity": 1374,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Bothrops brazili"
+    },
+    {
+      "name": "Bothrops taeniatus",
+      "aliases": [
+        "Bothrops taeniata"
+      ],
+      "popularity": 1433,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Bothrops taeniatus"
+    },
+    {
+      "name": "Trimeresurus vogeli",
+      "aliases": [],
+      "popularity": 1433,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Trimeresurus vogeli"
+    },
+    {
+      "name": "Trimeresurus andersonii",
+      "aliases": [],
+      "popularity": 1445,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Trimeresurus andersonii"
+    },
+    {
+      "name": "Red adder",
+      "aliases": [
+        "Bitis rubida"
+      ],
+      "popularity": 1454,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Red adder"
+    },
+    {
+      "name": "Vipera anatolica",
+      "aliases": [],
+      "popularity": 1468,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Vipera anatolica"
+    },
+    {
+      "name": "Bothrocophias colombianus",
+      "aliases": [
+        "Colombian toad-headed pitviper"
+      ],
+      "popularity": 1469,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Bothrocophias colombianus"
+    },
+    {
+      "name": "Albany adder",
+      "aliases": [
+        "Bitis albanica"
+      ],
+      "popularity": 1494,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Albany adder"
+    },
+    {
+      "name": "Trimeresurus gracilis",
+      "aliases": [
+        "Taiwan pit viper"
+      ],
+      "popularity": 1496,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Trimeresurus gracilis"
+    },
+    {
+      "name": "Atheris desaixi",
+      "aliases": [],
+      "popularity": 1503,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Atheris desaixi"
+    },
+    {
+      "name": "Crotalus intermedius",
+      "aliases": [],
+      "popularity": 1558,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Crotalus intermedius"
+    },
+    {
+      "name": "Bothriechis bicolor",
+      "aliases": [],
+      "popularity": 1578,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Bothriechis bicolor"
+    },
+    {
+      "name": "Craspedocephalus strigatus",
+      "aliases": [],
+      "popularity": 1578,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Craspedocephalus strigatus"
+    },
+    {
+      "name": "Vipera eriwanensis",
+      "aliases": [
+        "Alburzi viper"
+      ],
+      "popularity": 1579,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Vipera eriwanensis"
+    },
+    {
+      "name": "Metlapilcoatlus mexicanus",
+      "aliases": [],
+      "popularity": 1586,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Metlapilcoatlus mexicanus"
+    },
+    {
+      "name": "Vipera transcaucasiana",
+      "aliases": [],
+      "popularity": 1598,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Vipera transcaucasiana"
+    },
+    {
+      "name": "Montivipera albizona",
+      "aliases": [
+        "mountain viper",
+        "Vipera albizona"
+      ],
+      "popularity": 1624,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Montivipera albizona"
+    },
+    {
+      "name": "Echis omanensis",
+      "aliases": [
+        "Oman saw-scaled viper"
+      ],
+      "popularity": 1631,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Echis omanensis"
+    },
+    {
+      "name": "Crotalus ravus",
+      "aliases": [
+        "Sistrurus ravus"
+      ],
+      "popularity": 1644,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Crotalus ravus"
+    },
+    {
+      "name": "Trimeresurus ayerwadyensis",
+      "aliases": [],
+      "popularity": 1652,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Trimeresurus ayerwadyensis"
+    },
+    {
+      "name": "Tokara habu",
+      "aliases": [
+        "Protobothrops tokarensis"
+      ],
+      "popularity": 1665,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Tokara habu"
+    },
+    {
+      "name": "Crotalus armstrongi",
+      "aliases": [],
+      "popularity": 1677,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Crotalus armstrongi"
+    },
+    {
+      "name": "Vipera orlovi",
+      "aliases": [
+        "Orlov's viper"
+      ],
+      "popularity": 1700,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Vipera orlovi"
+    },
+    {
+      "name": "Vipera dinniki",
+      "aliases": [
+        "Caucasus subalpine viper"
+      ],
+      "popularity": 1705,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Vipera dinniki"
+    },
+    {
+      "name": "Gloydius saxatilis",
+      "aliases": [],
+      "popularity": 1706,
+      "rarity": 0.43,
+      "tier": 3,
+      "wiki": "Gloydius saxatilis"
+    },
+    {
+      "name": "Bothriechis thalassinus",
+      "aliases": [],
+      "popularity": 1751,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Bothriechis thalassinus"
+    },
+    {
+      "name": "Trimeresurus gumprechti",
+      "aliases": [],
+      "popularity": 1752,
+      "rarity": 0.425,
+      "tier": 3,
+      "wiki": "Trimeresurus gumprechti"
+    },
+    {
+      "name": "Bothrops venezuelensis",
+      "aliases": [],
+      "popularity": 1776,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Bothrops venezuelensis"
+    },
+    {
+      "name": "Porthidium lansbergii",
+      "aliases": [],
+      "popularity": 1804,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Porthidium lansbergii"
+    },
+    {
+      "name": "Craspedocephalus borneensis",
+      "aliases": [],
+      "popularity": 1829,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Craspedocephalus borneensis"
+    },
+    {
+      "name": "Wagner's viper",
+      "aliases": [
+        "Montivipera wagneri"
+      ],
+      "popularity": 1841,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Wagner's viper"
+    },
+    {
+      "name": "Crotalus triseriatus",
+      "aliases": [],
+      "popularity": 1881,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Crotalus triseriatus"
+    },
+    {
+      "name": "Bothrops alcatraz",
+      "aliases": [
+        "Alcatrazes lancehead"
+      ],
+      "popularity": 1895,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Bothrops alcatraz"
+    },
+    {
+      "name": "Protobothrops cornutus",
+      "aliases": [
+        "Horned pitviper"
+      ],
+      "popularity": 1909,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Protobothrops cornutus"
+    },
+    {
+      "name": "Crotalus vegrandis",
+      "aliases": [
+        "Crotalus durissus vegrandis",
+        "Uracoan rattlesnake"
+      ],
+      "popularity": 1932,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Crotalus vegrandis"
+    },
+    {
+      "name": "Crotalus tzabcan",
+      "aliases": [],
+      "popularity": 1940,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Crotalus tzabcan"
+    },
+    {
+      "name": "Craspedocephalus macrolepis",
+      "aliases": [
+        "Large scaled pit viper",
+        "Trimeresurus macrolepis"
+      ],
+      "popularity": 1975,
+      "rarity": 0.399,
+      "tier": 2,
+      "wiki": "Craspedocephalus macrolepis"
+    },
+    {
+      "name": "Crotalus polystictus",
+      "aliases": [],
+      "popularity": 1976,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Crotalus polystictus"
+    },
+    {
+      "name": "Vipera darevskii",
+      "aliases": [
+        "Darevsky’s viper"
+      ],
+      "popularity": 2005,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Vipera darevskii"
+    },
+    {
+      "name": "Causus resimus",
+      "aliases": [],
+      "popularity": 2034,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Causus resimus"
+    },
+    {
+      "name": "Vipera monticola",
+      "aliases": [],
+      "popularity": 2049,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Vipera monticola"
+    },
+    {
+      "name": "Tropidolaemus philippensis",
+      "aliases": [],
+      "popularity": 2059,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Tropidolaemus philippensis"
+    },
+    {
+      "name": "Gloydius tsushimaensis",
+      "aliases": [],
+      "popularity": 2113,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Gloydius tsushimaensis"
+    },
+    {
+      "name": "Bothriechis nigroviridis",
+      "aliases": [],
+      "popularity": 2127,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Bothriechis nigroviridis"
+    },
+    {
+      "name": "Crotalus aquilus",
+      "aliases": [
+        "Querétaro dusky rattlesnake"
+      ],
+      "popularity": 2175,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Crotalus aquilus"
+    },
+    {
+      "name": "Agkistrodon russeolus",
+      "aliases": [
+        "Agkistrodon bilineatus russeolus",
+        "Yucatecan cantil"
+      ],
+      "popularity": 2246,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Agkistrodon russeolus"
+    },
+    {
+      "name": "Porthidium yucatanicum",
+      "aliases": [],
+      "popularity": 2281,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Porthidium yucatanicum"
+    },
+    {
+      "name": "Many-horned adder",
+      "aliases": [
+        "Bitis cornuta"
+      ],
+      "popularity": 2295,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Many-horned adder"
+    },
+    {
+      "name": "Lebanon viper",
+      "aliases": [
+        "Montivipera bornmuelleri"
+      ],
+      "popularity": 2313,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Lebanon viper"
+    },
+    {
+      "name": "Porthidium ophryomegas",
+      "aliases": [],
+      "popularity": 2327,
+      "rarity": 0.366,
+      "tier": 2,
+      "wiki": "Porthidium ophryomegas"
+    },
+    {
+      "name": "Crotalus culminatus",
+      "aliases": [],
+      "popularity": 2342,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "Crotalus culminatus"
+    },
+    {
+      "name": "Tropidolaemus laticinctus",
+      "aliases": [],
+      "popularity": 2343,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Tropidolaemus laticinctus"
+    },
+    {
+      "name": "Bothriechis aurifer",
+      "aliases": [
+        "Yellow-blotched palm-pitviper"
+      ],
+      "popularity": 2381,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Bothriechis aurifer"
+    },
+    {
+      "name": "Crotalus angelensis",
+      "aliases": [],
+      "popularity": 2401,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Crotalus angelensis"
+    },
+    {
+      "name": "Echis leucogaster",
+      "aliases": [],
+      "popularity": 2413,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Echis leucogaster"
+    },
+    {
+      "name": "Crotalus pricei",
+      "aliases": [],
+      "popularity": 2415,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Crotalus pricei"
+    },
+    {
+      "name": "Bothriechis marchi",
+      "aliases": [],
+      "popularity": 2437,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Bothriechis marchi"
+    },
+    {
+      "name": "Trimeresurus venustus",
+      "aliases": [
+        "beautiful pit viper",
+        "brown-spotted pit viper"
+      ],
+      "popularity": 2456,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Trimeresurus venustus"
+    },
+    {
+      "name": "Atheris nitschei",
+      "aliases": [
+        "Great Lakes bush viper",
+        "Nitsche's bush viper"
+      ],
+      "popularity": 2516,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Atheris nitschei"
+    },
+    {
+      "name": "Gloydius shedaoensis",
+      "aliases": [
+        "Snake island pitviper"
+      ],
+      "popularity": 2521,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Gloydius shedaoensis"
+    },
+    {
+      "name": "Atheris ceratophora",
+      "aliases": [
+        "eyelash bush viper",
+        "horned bush viper",
+        "Usambara eyelash viper"
+      ],
+      "popularity": 2530,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Atheris ceratophora"
+    },
+    {
+      "name": "Metlapilcoatlus nummifer",
+      "aliases": [
+        "Atropoides nummifer"
+      ],
+      "popularity": 2550,
+      "rarity": 0.335,
+      "tier": 2,
+      "wiki": "Metlapilcoatlus nummifer"
+    },
+    {
+      "name": "Gloydius intermedius",
+      "aliases": [
+        "Amur pitviper"
+      ],
+      "popularity": 2557,
+      "rarity": 0.332,
+      "tier": 2,
+      "wiki": "Gloydius intermedius"
+    },
+    {
+      "name": "Vipera renardi",
+      "aliases": [
+        "Steppe viper"
+      ],
+      "popularity": 2575,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Vipera renardi"
+    },
+    {
+      "name": "Crotalus enyo",
+      "aliases": [],
+      "popularity": 2606,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Crotalus enyo"
+    },
+    {
+      "name": "Atheris chlorechis",
+      "aliases": [],
+      "popularity": 2608,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Atheris chlorechis"
+    },
+    {
+      "name": "Agkistrodon howardgloydi",
+      "aliases": [
+        "Agkistrodon bilineatus howardgloydi"
+      ],
+      "popularity": 2609,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Agkistrodon howardgloydi"
+    },
+    {
+      "name": "Bothrops moojeni",
+      "aliases": [
+        "Brazilian lancehead"
+      ],
+      "popularity": 2621,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Bothrops moojeni"
+    },
+    {
+      "name": "Protobothrops jerdonii",
+      "aliases": [
+        "Jerdon’s Pit Viper",
+        "Jerdon's pitviper"
+      ],
+      "popularity": 2628,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Protobothrops jerdonii"
+    },
+    {
+      "name": "Vipera walser",
+      "aliases": [],
+      "popularity": 2818,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Vipera walser"
+    },
+    {
+      "name": "Craspedocephalus puniceus",
+      "aliases": [],
+      "popularity": 2914,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "Craspedocephalus puniceus"
+    },
+    {
+      "name": "Bothrops ammodytoides",
+      "aliases": [
+        "Patagonian lancehead",
+        "Patagonian pit viper",
+        "yarará ñata"
+      ],
+      "popularity": 3016,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Bothrops ammodytoides"
+    },
+    {
+      "name": "Trimeresurus erythrurus",
+      "aliases": [],
+      "popularity": 3030,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Trimeresurus erythrurus"
+    },
+    {
+      "name": "Gloydius ussuriensis",
+      "aliases": [
+        "Ussuri pitviper"
+      ],
+      "popularity": 3054,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Gloydius ussuriensis"
+    },
+    {
+      "name": "Crotalus stephensi",
+      "aliases": [
+        "Crotalus mitchellii stephensi",
+        "Panamint Rattlesnake"
+      ],
+      "popularity": 3055,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Crotalus stephensi"
+    },
+    {
+      "name": "Bothrops barnetti",
+      "aliases": [
+        "Barnett's lancehead",
+        "Barnett's pit viper"
+      ],
+      "popularity": 3119,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Bothrops barnetti"
+    },
+    {
+      "name": "Trimeresurus rubeus",
+      "aliases": [
+        "Craspedocephalus rubeus"
+      ],
+      "popularity": 3129,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Trimeresurus rubeus"
+    },
+    {
+      "name": "Field's horned viper",
+      "aliases": [
+        "Pseudocerastes fieldi",
+        "Pseudocerastes persicus fieldi"
+      ],
+      "popularity": 3235,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Field's horned viper"
+    },
+    {
+      "name": "Lachesis acrochorda",
+      "aliases": [],
+      "popularity": 3243,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Lachesis acrochorda"
+    },
+    {
+      "name": "Montivipera raddei",
+      "aliases": [
+        "Armenian Viper",
+        "Radde's Rock Viper"
+      ],
+      "popularity": 3366,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Montivipera raddei"
+    },
+    {
+      "name": "Porthidium nasutum",
+      "aliases": [],
+      "popularity": 3388,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Porthidium nasutum"
+    },
+    {
+      "name": "Gloydius brevicauda",
+      "aliases": [
+        "Gloydius brevicaudus",
+        "Short-tailed pitviper"
+      ],
+      "popularity": 3393,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Gloydius brevicauda"
+    },
+    {
+      "name": "Trimeresurus malcolmi",
+      "aliases": [
+        "Malcolm's pitviper",
+        "Malcolm's tree viper",
+        "Mt. Kinabalu pit viper"
+      ],
+      "popularity": 3399,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Trimeresurus malcolmi"
+    },
+    {
+      "name": "Moorish viper",
+      "aliases": [
+        "Daboia mauritanica"
+      ],
+      "popularity": 3407,
+      "rarity": 0.279,
+      "tier": 2,
+      "wiki": "Moorish viper"
+    },
+    {
+      "name": "Ovophis monticola",
+      "aliases": [
+        "Mountain pitviper"
+      ],
+      "popularity": 3413,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Ovophis monticola"
+    },
+    {
+      "name": "Bothriechis nigroadspersus",
+      "aliases": [],
+      "popularity": 3428,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Bothriechis nigroadspersus"
+    },
+    {
+      "name": "Trimeresurus hageni",
+      "aliases": [],
+      "popularity": 3439,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Trimeresurus hageni"
+    },
+    {
+      "name": "Berg adder",
+      "aliases": [
+        "Bitis atropos"
+      ],
+      "popularity": 3485,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Berg adder"
+    },
+    {
+      "name": "Trimeresurus popeiorum",
+      "aliases": [
+        "Trimeresurus popeorum"
+      ],
+      "popularity": 3502,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "Trimeresurus popeiorum"
+    },
+    {
+      "name": "Crotalus simus",
+      "aliases": [],
+      "popularity": 3579,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Crotalus simus"
+    },
+    {
+      "name": "Crotalus willardi",
+      "aliases": [],
+      "popularity": 3795,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Crotalus willardi"
+    },
+    {
+      "name": "Trimeresurus sumatranus",
+      "aliases": [],
+      "popularity": 3852,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Trimeresurus sumatranus"
+    },
+    {
+      "name": "Agkistrodon taylori",
+      "aliases": [
+        "Agkistrodon bilineatus taylori"
+      ],
+      "popularity": 3863,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Agkistrodon taylori"
+    },
+    {
+      "name": "Vipera graeca",
+      "aliases": [],
+      "popularity": 3955,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Vipera graeca"
+    },
+    {
+      "name": "Trimeresurus mcgregori",
+      "aliases": [
+        "Batanes pit viper",
+        "McGregor's pit viper",
+        "Trimeresurus flavomaculatus mcgregori"
+      ],
+      "popularity": 4062,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Trimeresurus mcgregori"
+    },
+    {
+      "name": "Ovophis okinavensis",
+      "aliases": [],
+      "popularity": 4107,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Ovophis okinavensis"
+    },
+    {
+      "name": "Bitis parviocula",
+      "aliases": [],
+      "popularity": 4455,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Bitis parviocula"
+    },
+    {
+      "name": "Bothrops bilineatus",
+      "aliases": [],
+      "popularity": 4483,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Bothrops bilineatus"
+    },
+    {
+      "name": "Lachesis stenophrys",
+      "aliases": [],
+      "popularity": 4573,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Lachesis stenophrys"
+    },
+    {
+      "name": "Vipera nikolskii",
+      "aliases": [],
+      "popularity": 4625,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Vipera nikolskii"
+    },
+    {
+      "name": "Protobothrops mucrosquamatus",
+      "aliases": [
+        "Point-scaled pitviper"
+      ],
+      "popularity": 5016,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Protobothrops mucrosquamatus"
+    },
+    {
+      "name": "Saint Lucia lancehead",
+      "aliases": [
+        "Bothrops caribbaeus",
+        "Saint Lucia pit viper"
+      ],
+      "popularity": 5113,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Saint Lucia lancehead"
+    },
+    {
+      "name": "Trimeresurus macrops",
+      "aliases": [],
+      "popularity": 5282,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Trimeresurus macrops"
+    },
+    {
+      "name": "Bothrops neuwiedi",
+      "aliases": [],
+      "popularity": 5300,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Bothrops neuwiedi"
+    },
+    {
+      "name": "Bitis schneideri",
+      "aliases": [
+        "Namaqua dwarf adder"
+      ],
+      "popularity": 5349,
+      "rarity": 0.225,
+      "tier": 2,
+      "wiki": "Bitis schneideri"
+    },
+    {
+      "name": "Crotalus mitchellii",
+      "aliases": [
+        "Crotalus mitchelli"
+      ],
+      "popularity": 5366,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Crotalus mitchellii"
+    },
+    {
+      "name": "Trimeresurus salazar",
+      "aliases": [
+        "Salazar’s Pit Viper",
+        "Trimeresurus septentrionalis salazar"
+      ],
+      "popularity": 5415,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Trimeresurus salazar"
+    },
+    {
+      "name": "Lachesis melanocephala",
+      "aliases": [],
+      "popularity": 5484,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Lachesis melanocephala"
+    },
+    {
+      "name": "Echis coloratus",
+      "aliases": [
+        "Palestine saw-scaled viper"
+      ],
+      "popularity": 5731,
+      "rarity": 0.215,
+      "tier": 2,
+      "wiki": "Echis coloratus"
+    },
+    {
+      "name": "Crotalus basiliscus",
+      "aliases": [],
+      "popularity": 5781,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Crotalus basiliscus"
+    },
+    {
+      "name": "Bothriechis lateralis",
+      "aliases": [],
+      "popularity": 5804,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Bothriechis lateralis"
+    },
+    {
+      "name": "Vipera seoanei",
+      "aliases": [],
+      "popularity": 5857,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Vipera seoanei"
+    },
+    {
+      "name": "Bothrops jararacussu",
+      "aliases": [
+        "jararacussu"
+      ],
+      "popularity": 6013,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Bothrops jararacussu"
+    },
+    {
+      "name": "Vipera kaznakovi",
+      "aliases": [
+        "Caucasian viper"
+      ],
+      "popularity": 6015,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Vipera kaznakovi"
+    },
+    {
+      "name": "Macrovipera lebetinus schweizeri",
+      "aliases": [
+        "Cyclades blunt-nosed viper",
+        "Macrovipera schweizeri"
+      ],
+      "popularity": 6103,
+      "rarity": 0.199,
+      "tier": 1,
+      "wiki": "Macrovipera lebetinus schweizeri"
+    },
+    {
+      "name": "Crotalus unicolor",
+      "aliases": [
+        "Aruba Island rattlesnake"
+      ],
+      "popularity": 6119,
+      "rarity": 0.197,
+      "tier": 1,
+      "wiki": "Crotalus unicolor"
+    },
+    {
+      "name": "Horned adder",
+      "aliases": [
+        "Bitis caudalis"
+      ],
+      "popularity": 6134,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Horned adder"
+    },
+    {
+      "name": "Crotalus catalinensis",
+      "aliases": [
+        "Santa Catalina Island rattlesnake"
+      ],
+      "popularity": 6219,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Crotalus catalinensis"
+    },
+    {
+      "name": "Crotalus lepidus",
+      "aliases": [
+        "rock rattlesnake"
+      ],
+      "popularity": 6331,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Crotalus lepidus"
+    },
+    {
+      "name": "Gloydius halys",
+      "aliases": [
+        "Halys Pit Viper",
+        "Halys pitviper",
+        "Pallas Pit Viper"
+      ],
+      "popularity": 6382,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Gloydius halys"
+    },
+    {
+      "name": "Gloydius himalayanus",
+      "aliases": [],
+      "popularity": 6399,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Gloydius himalayanus"
+    },
+    {
+      "name": "Bitis peringueyi",
+      "aliases": [
+        "Peringuey's adder",
+        "Peringuey's desert adder",
+        "sidewinding adder"
+      ],
+      "popularity": 6449,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Bitis peringueyi"
+    },
+    {
+      "name": "Cerastes gasperettii",
+      "aliases": [
+        "Arabian horned viper"
+      ],
+      "popularity": 6525,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Cerastes gasperettii"
+    },
+    {
+      "name": "Protobothrops elegans",
+      "aliases": [
+        "Trimeresurus elegans"
+      ],
+      "popularity": 6625,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Protobothrops elegans"
+    },
+    {
+      "name": "Echis pyramidum",
+      "aliases": [],
+      "popularity": 6712,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Echis pyramidum"
+    },
+    {
+      "name": "Trimeresurus purpureomaculatus",
+      "aliases": [
+        "Mangrove Viper",
+        "Shore Pit Viper"
+      ],
+      "popularity": 6738,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Trimeresurus purpureomaculatus"
+    },
+    {
+      "name": "Trimeresurus flavomaculatus",
+      "aliases": [],
+      "popularity": 7375,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Trimeresurus flavomaculatus"
+    },
+    {
+      "name": "Craspedocephalus trigonocephalus",
+      "aliases": [
+        "Sri Lankan pit viper",
+        "Trimeresurus trigonocephalus"
+      ],
+      "popularity": 7449,
+      "rarity": 0.166,
+      "tier": 1,
+      "wiki": "Craspedocephalus trigonocephalus"
+    },
+    {
+      "name": "Craspedocephalus gramineus",
+      "aliases": [],
+      "popularity": 7617,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Craspedocephalus gramineus"
+    },
+    {
+      "name": "Trimeresurus arunachalensis",
+      "aliases": [
+        "Arunachal pitviper"
+      ],
+      "popularity": 7640,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Trimeresurus arunachalensis"
+    },
+    {
+      "name": "Persian horned viper",
+      "aliases": [
+        "Pseudocerastes persicus"
+      ],
+      "popularity": 8123,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Persian horned viper"
+    },
+    {
+      "name": "Crotalus cerberus",
+      "aliases": [
+        "Arizona black rattlesnake"
+      ],
+      "popularity": 8175,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Crotalus cerberus"
+    },
+    {
+      "name": "Echis ocellatus",
+      "aliases": [],
+      "popularity": 8266,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Echis ocellatus"
+    },
+    {
+      "name": "Craspedocephalus malabaricus",
+      "aliases": [
+        "Lachesis coorgensis",
+        "Malabar pit viper",
+        "Trigonocephalus malabaricus",
+        "Trimeresurus malabaricus"
+      ],
+      "popularity": 8439,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Craspedocephalus malabaricus"
+    },
+    {
+      "name": "Daboia siamensis",
+      "aliases": [
+        "Eastern russel's viper"
+      ],
+      "popularity": 9024,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Daboia siamensis"
+    },
+    {
+      "name": "Agkistrodon bilineatus",
+      "aliases": [
+        "Mexican cantil"
+      ],
+      "popularity": 9075,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Agkistrodon bilineatus"
+    },
+    {
+      "name": "Bitis rhinoceros",
+      "aliases": [
+        "Bitis gabonica rhinoceros"
+      ],
+      "popularity": 9563,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Bitis rhinoceros"
+    },
+    {
+      "name": "Black-tailed rattlesnake",
+      "aliases": [
+        "Crotalus molossus"
+      ],
+      "popularity": 9742,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Black-tailed rattlesnake"
+    },
+    {
+      "name": "Bothrops lanceolatus",
+      "aliases": [
+        "Martinican pit viper",
+        "Martinique lancehead"
+      ],
+      "popularity": 9780,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Bothrops lanceolatus"
+    },
+    {
+      "name": "Tropidolaemus subannulatus",
+      "aliases": [],
+      "popularity": 9835,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Tropidolaemus subannulatus"
+    },
+    {
+      "name": "Agkistrodon laticinctus",
+      "aliases": [
+        "Broad-banded Copperhead"
+      ],
+      "popularity": 10684,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Agkistrodon laticinctus"
+    },
+    {
+      "name": "Vipera latastei",
+      "aliases": [
+        "Lataste’s viper"
+      ],
+      "popularity": 10834,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Vipera latastei"
+    },
+    {
+      "name": "Crotalus helleri",
+      "aliases": [
+        "Southern Pacific rattlesnake"
+      ],
+      "popularity": 10959,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Crotalus helleri"
+    },
+    {
+      "name": "Causus rhombeatus",
+      "aliases": [
+        "Common night adder"
+      ],
+      "popularity": 11259,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Causus rhombeatus"
+    },
+    {
+      "name": "Montivipera xanthina",
+      "aliases": [
+        "Ottoman Viper"
+      ],
+      "popularity": 11432,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Montivipera xanthina"
+    },
+    {
+      "name": "Trimeresurus sabahi",
+      "aliases": [
+        "Sabah bamboo pitviper",
+        "Sabah bamboo pitvipers",
+        "Sabah pit viper",
+        "Sabah pit vipers"
+      ],
+      "popularity": 11615,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Trimeresurus sabahi"
+    },
+    {
+      "name": "Crotalus ruber",
+      "aliases": [
+        "Red diamond rattlesnake"
+      ],
+      "popularity": 11779,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Crotalus ruber"
+    },
+    {
+      "name": "Atheris squamigera",
+      "aliases": [],
+      "popularity": 12155,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Atheris squamigera"
+    },
+    {
+      "name": "Cerastes vipera",
+      "aliases": [],
+      "popularity": 12464,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Cerastes vipera"
+    },
+    {
+      "name": "Vipera ursinii",
+      "aliases": [
+        "Meadow viper"
+      ],
+      "popularity": 12544,
+      "rarity": 0.11,
+      "tier": 1,
+      "wiki": "Vipera ursinii"
+    },
+    {
+      "name": "Bothrops alternatus",
+      "aliases": [
+        "crossed pit viper",
+        "Rhinocerophis alternatus",
+        "Urutu Lancehead",
+        "yarará grande"
+      ],
+      "popularity": 13726,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Bothrops alternatus"
+    },
+    {
+      "name": "Tiger rattlesnake",
+      "aliases": [
+        "Crotalus tigris"
+      ],
+      "popularity": 14294,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Tiger rattlesnake"
+    },
+    {
+      "name": "Hypnale hypnale",
+      "aliases": [
+        "Hump-nosed pit viper"
+      ],
+      "popularity": 14775,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Hypnale hypnale"
+    },
+    {
+      "name": "Daboia palaestinae",
+      "aliases": [
+        "Vipera palaestinae"
+      ],
+      "popularity": 15937,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Daboia palaestinae"
+    },
+    {
+      "name": "Atheris hispida",
+      "aliases": [],
+      "popularity": 16460,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Atheris hispida"
+    },
+    {
+      "name": "Deinagkistrodon",
+      "aliases": [
+        "amani",
+        "Chinese Moccasin",
+        "Deinagkistrodon acutus",
+        "Kamanian",
+        "kaviaz",
+        "palada",
+        "Sharp-snouted pitviper"
+      ],
+      "popularity": 18733,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Deinagkistrodon"
+    },
+    {
+      "name": "Tropidolaemus wagleri",
+      "aliases": [
+        "T. wagleri",
+        "Wagler's pit viper",
+        "Wagler's pit vipers"
+      ],
+      "popularity": 18871,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Tropidolaemus wagleri"
+    },
+    {
+      "name": "Protobothrops mangshanensis",
+      "aliases": [
+        "Mang mountain pit viper",
+        "Mang mountain viper",
+        "Mangshan pit viper",
+        "Mangshan pitviper",
+        "Mt.Mang pitviper"
+      ],
+      "popularity": 21766,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Protobothrops mangshanensis"
+    },
+    {
+      "name": "Sistrurus miliarius",
+      "aliases": [
+        "pygmy rattlesnake"
+      ],
+      "popularity": 22328,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Sistrurus miliarius"
+    },
+    {
+      "name": "Crotalus durissus",
+      "aliases": [
+        "South American rattlesnake",
+        "tropical rattlesnake"
+      ],
+      "popularity": 22754,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Crotalus durissus"
+    },
+    {
+      "name": "Trimeresurus albolabris",
+      "aliases": [],
+      "popularity": 23508,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Trimeresurus albolabris"
+    },
+    {
+      "name": "Bitis nasicornis",
+      "aliases": [],
+      "popularity": 24047,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Bitis nasicornis"
+    },
+    {
+      "name": "Bothrops jararaca",
+      "aliases": [
+        "Jararaca",
+        "Jararaca lancehead",
+        "Yarará lancehead"
+      ],
+      "popularity": 24940,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Bothrops jararaca"
+    },
+    {
+      "name": "Florida cottonmouth",
+      "aliases": [
+        "Agkistrodon conanti"
+      ],
+      "popularity": 26658,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Florida cottonmouth"
+    },
+    {
+      "name": "Bothriechis schlegelii",
+      "aliases": [
+        "eyelash lancehead",
+        "eyelash mountain viper",
+        "eyelash palm-pitviper",
+        "eyelash palm viper",
+        "eyelash pit viper",
+        "eyelash snake",
+        "eyelash viper",
+        "highland eyelash-pitviper",
+        "horned palm viper",
+        "Schlegel's eyelash-pitviper",
+        "Schlegel's pit viper",
+        "Schlegel's viper"
+      ],
+      "popularity": 27914,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Bothriechis schlegelii"
+    },
+    {
+      "name": "Trimeresurus stejnegeri",
+      "aliases": [
+        "bamboo viper",
+        "Chinese green tree viper",
+        "Chinese pit viper",
+        "Chinese tree viper",
+        "stejneger's pit viper",
+        "Viridovipera stejnegeri"
+      ],
+      "popularity": 28130,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Trimeresurus stejnegeri"
+    },
+    {
+      "name": "Bothrops atrox",
+      "aliases": [
+        "common lancehead",
+        "fer-de-lance",
+        "mapepire balsain"
+      ],
+      "popularity": 28793,
+      "rarity": 0.066,
+      "tier": 1,
+      "wiki": "Bothrops atrox"
+    },
+    {
+      "name": "Crotalus oreganus",
+      "aliases": [
+        "northern Pacific rattlesnake"
+      ],
+      "popularity": 31603,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Crotalus oreganus"
+    },
+    {
+      "name": "Crotalus scutulatus",
+      "aliases": [],
+      "popularity": 35634,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Crotalus scutulatus"
+    },
+    {
+      "name": "Crotalus viridis",
+      "aliases": [
+        "Great Plains rattlesnake",
+        "prairie rattlesnake"
+      ],
+      "popularity": 35973,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Crotalus viridis"
+    },
+    {
+      "name": "Mamushi",
+      "aliases": [
+        "Gloydius blomhoffii"
+      ],
+      "popularity": 39553,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Mamushi"
+    },
+    {
+      "name": "Lachesis muta",
+      "aliases": [],
+      "popularity": 40062,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Lachesis muta"
+    },
+    {
+      "name": "Vipera aspis",
+      "aliases": [
+        "aspic viper"
+      ],
+      "popularity": 44314,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Vipera aspis"
+    },
+    {
+      "name": "Cerastes cerastes",
+      "aliases": [],
+      "popularity": 47001,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Cerastes cerastes"
+    },
+    {
+      "name": "Crotalus cerastes",
+      "aliases": [
+        "horned rattlesnake",
+        "sidewinder",
+        "sidewinder rattlesnake"
+      ],
+      "popularity": 53157,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Crotalus cerastes"
+    },
+    {
+      "name": "Macrovipera lebetinus",
+      "aliases": [
+        "Macrovipera lebetina"
+      ],
+      "popularity": 53471,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Macrovipera lebetinus"
+    },
+    {
+      "name": "Protobothrops flavoviridis",
+      "aliases": [],
+      "popularity": 58698,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Protobothrops flavoviridis"
+    },
+    {
+      "name": "Spider-tailed horned viper",
+      "aliases": [
+        "Pseudocerastes urarachnoides"
+      ],
+      "popularity": 66802,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Spider-tailed horned viper"
+    },
+    {
+      "name": "Eastern massasauga",
+      "aliases": [
+        "Eastern Massasauga Rattlesnake",
+        "Massasauga",
+        "Sistrurus catenatus"
+      ],
+      "popularity": 67013,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Eastern massasauga"
+    },
+    {
+      "name": "Echis carinatus",
+      "aliases": [
+        "Indian saw-scaled viper",
+        "little Indian viper",
+        "saw-scaled viper"
+      ],
+      "popularity": 70187,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Echis carinatus"
+    },
+    {
+      "name": "Vipera ammodytes",
+      "aliases": [
+        "horned viper",
+        "long-nosed viper",
+        "nose-horned viper",
+        "sand viper"
+      ],
+      "popularity": 70906,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Vipera ammodytes"
+    },
+    {
+      "name": "Trimeresurus insularis",
+      "aliases": [],
+      "popularity": 80177,
+      "rarity": 0.028,
+      "tier": 1,
+      "wiki": "Trimeresurus insularis"
+    },
+    {
+      "name": "Western diamondback rattlesnake",
+      "aliases": [
+        "Crotalus atrox",
+        "Western diamond-backed rattlesnake"
+      ],
+      "popularity": 92545,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Western diamondback rattlesnake"
+    },
+    {
+      "name": "Puff adder",
+      "aliases": [
+        "African puff adder",
+        "Bitis arietans",
+        "common puff adder"
+      ],
+      "popularity": 108764,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Puff adder"
+    },
+    {
+      "name": "Bothrops asper",
+      "aliases": [
+        "terciopelo"
+      ],
+      "popularity": 111747,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Bothrops asper"
+    },
+    {
+      "name": "Eastern diamondback rattlesnake",
+      "aliases": [
+        "Crotalus adamanteus",
+        "Eastern diamond-backed rattlesnake"
+      ],
+      "popularity": 118361,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Eastern diamondback rattlesnake"
+    },
+    {
+      "name": "Timber rattlesnake",
+      "aliases": [
+        "canebrake rattlesnake",
+        "Crotalus horridus"
+      ],
+      "popularity": 148322,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Timber rattlesnake"
+    },
+    {
+      "name": "Gaboon viper",
+      "aliases": [
+        "Bitis gabonica",
+        "gabon viper",
+        "Gabonese snake",
+        "Gaboon Adder"
+      ],
+      "popularity": 158555,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Gaboon viper"
+    },
+    {
+      "name": "Golden lancehead",
+      "aliases": [
+        "Bothrops insularis"
+      ],
+      "popularity": 170081,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Golden lancehead"
+    },
+    {
+      "name": "Eastern copperhead",
+      "aliases": [
+        "Agkistrodon contortrix",
+        "copperhead"
+      ],
+      "popularity": 204942,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Eastern copperhead"
+    },
+    {
+      "name": "Adder",
+      "aliases": [
+        "Common adder",
+        "common European adder",
+        "common European viper",
+        "common viper",
+        "hure",
+        "nadder",
+        "Sarka",
+        "viper",
+        "Vipera berus"
+      ],
+      "popularity": 243157,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Adder"
+    },
+    {
+      "name": "Agkistrodon piscivorus",
+      "aliases": [
+        "cottonmouth",
+        "eastern cottonmouth",
+        "water moccasin",
+        "water viper"
+      ],
+      "popularity": 253173,
+      "rarity": 0.003,
+      "tier": 1,
+      "wiki": "Agkistrodon piscivorus"
+    },
+    {
+      "name": "Russell's viper",
+      "aliases": [
+        "Daboia russelii"
+      ],
+      "popularity": 269101,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Russell's viper"
+    }
+  ]
+}

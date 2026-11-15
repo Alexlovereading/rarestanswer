@@ -1,0 +1,267 @@
+{
+  "id": "mediterranean-countries",
+  "slug": "mediterranean-countries",
+  "category": "geography",
+  "question": "Name a country on the Mediterranean Sea",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Libya",
+      "aliases": [
+        "LBA",
+        "State of Libya"
+      ],
+      "popularity": 1316583,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Libya"
+    },
+    {
+      "name": "Tunisia",
+      "aliases": [
+        "Republic of Tunisia",
+        "Tunisian Republic"
+      ],
+      "popularity": 1346098,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Tunisia"
+    },
+    {
+      "name": "Slovenia",
+      "aliases": [
+        "Republic of Slovenia",
+        "slo",
+        "Slovenija",
+        "svn"
+      ],
+      "popularity": 1454610,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Slovenia"
+    },
+    {
+      "name": "Montenegro",
+      "aliases": [
+        "Republic of Montenegro"
+      ],
+      "popularity": 1722390,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Montenegro"
+    },
+    {
+      "name": "Greece",
+      "aliases": [
+        "Greek Republic",
+        "Hellenic Republic"
+      ],
+      "popularity": 1772104,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Greece"
+    },
+    {
+      "name": "Albania",
+      "aliases": [
+        "People's Republic of Albania",
+        "Republic of Albania",
+        "Republika Popullore e Shqiperise",
+        "Republika Popullore Socialiste e Shqiperise",
+        "Shqipërisë"
+      ],
+      "popularity": 1999156,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Albania"
+    },
+    {
+      "name": "Algeria",
+      "aliases": [
+        "Djazaïr",
+        "Dzayer"
+      ],
+      "popularity": 2043112,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Algeria"
+    },
+    {
+      "name": "Syria",
+      "aliases": [
+        "Sūriyā",
+        "Syrian Arab Republic"
+      ],
+      "popularity": 2091587,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Syria"
+    },
+    {
+      "name": "Malta",
+      "aliases": [
+        "Republic of Malta"
+      ],
+      "popularity": 2148706,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Malta"
+    },
+    {
+      "name": "Egypt",
+      "aliases": [
+        "Arab Rep. Egypt",
+        "Arab Republic of Egypt",
+        "Misr",
+        "Rep. Egypt",
+        "Republic of Egypt"
+      ],
+      "popularity": 2152221,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Egypt"
+    },
+    {
+      "name": "Croatia",
+      "aliases": [
+        "Republic of Croatia"
+      ],
+      "popularity": 2177733,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Croatia"
+    },
+    {
+      "name": "Palestine",
+      "aliases": [
+        "PSE",
+        "State of Palestine"
+      ],
+      "popularity": 2282515,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Palestine"
+    },
+    {
+      "name": "Monaco",
+      "aliases": [
+        "Fort-Hercule",
+        "Mùnegu",
+        "Principality and Diocese of Monaco",
+        "Principality of Monaco",
+        "Principato di Monaco",
+        "Prinçipatu de Mùnegu",
+        "Principauté de Monaco"
+      ],
+      "popularity": 2294621,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Monaco"
+    },
+    {
+      "name": "Cyprus",
+      "aliases": [
+        "Greek Administration of Southern Cyprus",
+        "Greek Cypriot State",
+        "Republic of Cyprus"
+      ],
+      "popularity": 2406581,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Cyprus"
+    },
+    {
+      "name": "Lebanon",
+      "aliases": [
+        "Lebanese Republic",
+        "Lubnan",
+        "Republic of Lebanon",
+        "State of Lebanon"
+      ],
+      "popularity": 2439333,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Lebanon"
+    },
+    {
+      "name": "Italy",
+      "aliases": [
+        "Italian Republic",
+        "Republic of Italy"
+      ],
+      "popularity": 2513814,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Italy"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "aliases": [
+        "B&H",
+        "Bosnia and Hercegovina",
+        "Bosnia-Herzegovina"
+      ],
+      "popularity": 2834635,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Bosnia and Herzegovina"
+    },
+    {
+      "name": "Morocco",
+      "aliases": [
+        "al-Maġrib",
+        "Kingdom of Morocco",
+        "Lmaġrib",
+        "Maroc",
+        "Marocco"
+      ],
+      "popularity": 3040798,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Morocco"
+    },
+    {
+      "name": "France",
+      "aliases": [
+        "French Republic"
+      ],
+      "popularity": 3209271,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "France"
+    },
+    {
+      "name": "Spain",
+      "aliases": [
+        "Kingdom of Spain"
+      ],
+      "popularity": 3429063,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Spain"
+    },
+    {
+      "name": "Turkey",
+      "aliases": [
+        "Republic of Turkey",
+        "Republic of Türkiye"
+      ],
+      "popularity": 3465265,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Turkey"
+    },
+    {
+      "name": "Israel",
+      "aliases": [
+        "ISR",
+        "State of Israel",
+        "Yisrael"
+      ],
+      "popularity": 4622327,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Israel"
+    }
+  ]
+}

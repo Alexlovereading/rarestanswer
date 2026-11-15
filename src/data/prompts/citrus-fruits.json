@@ -1,0 +1,907 @@
+{
+  "id": "citrus-fruits",
+  "slug": "citrus-fruits",
+  "category": "food",
+  "question": "Name a citrus fruit",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Citrus × floridana",
+      "aliases": [],
+      "popularity": 42,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Citrus × floridana"
+    },
+    {
+      "name": "Celebes papeda",
+      "aliases": [
+        "Citrus celebica"
+      ],
+      "popularity": 159,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Celebes papeda"
+    },
+    {
+      "name": "Citrus undulata",
+      "aliases": [],
+      "popularity": 592,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Citrus undulata"
+    },
+    {
+      "name": "Citrus oxanthera",
+      "aliases": [],
+      "popularity": 727,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Citrus oxanthera"
+    },
+    {
+      "name": "Citrus neocaledonica",
+      "aliases": [],
+      "popularity": 734,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Citrus neocaledonica"
+    },
+    {
+      "name": "Kalpi",
+      "aliases": [
+        "Citrus × webberii",
+        "Kalpi (fruit)"
+      ],
+      "popularity": 748,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Kalpi (fruit)"
+    },
+    {
+      "name": "Citrus longispina",
+      "aliases": [],
+      "popularity": 777,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Citrus longispina"
+    },
+    {
+      "name": "Citrus wintersii",
+      "aliases": [],
+      "popularity": 861,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Citrus wintersii"
+    },
+    {
+      "name": "Citrus latipes",
+      "aliases": [],
+      "popularity": 1017,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Citrus latipes"
+    },
+    {
+      "name": "Heen naran",
+      "aliases": [
+        "Citrus crenatifolia"
+      ],
+      "popularity": 1102,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Heen naran"
+    },
+    {
+      "name": "Citrus gracilis",
+      "aliases": [],
+      "popularity": 1331,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Citrus gracilis"
+    },
+    {
+      "name": "Citrus swinglei",
+      "aliases": [],
+      "popularity": 1342,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Citrus swinglei"
+    },
+    {
+      "name": "Citrus warburgiana",
+      "aliases": [],
+      "popularity": 1511,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Citrus warburgiana"
+    },
+    {
+      "name": "Citrus macrophylla",
+      "aliases": [
+        "alemow"
+      ],
+      "popularity": 1525,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Citrus macrophylla"
+    },
+    {
+      "name": "Citrus garrawayi",
+      "aliases": [],
+      "popularity": 1528,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Citrus garrawayi"
+    },
+    {
+      "name": "Citrus assamensis",
+      "aliases": [],
+      "popularity": 1565,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Citrus assamensis"
+    },
+    {
+      "name": "Sanbokan",
+      "aliases": [
+        "Citrus sulcata",
+        "Sanboken"
+      ],
+      "popularity": 1617,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Sanbokan"
+    },
+    {
+      "name": "Citrus halimii",
+      "aliases": [],
+      "popularity": 1624,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Citrus halimii"
+    },
+    {
+      "name": "Citrus mangshanensis",
+      "aliases": [
+        "Citrus mangshanyegan"
+      ],
+      "popularity": 1864,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Citrus mangshanensis"
+    },
+    {
+      "name": "Citrus reshni",
+      "aliases": [],
+      "popularity": 1913,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Citrus reshni"
+    },
+    {
+      "name": "Citrus inodora",
+      "aliases": [
+        "Queensland wild lime",
+        "Russell River lime"
+      ],
+      "popularity": 1924,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Citrus inodora"
+    },
+    {
+      "name": "Citrus obovata",
+      "aliases": [
+        "Fortunella obovata",
+        "Fukushu Kumquat",
+        "Jiangsu Kumquat"
+      ],
+      "popularity": 1947,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Citrus obovata"
+    },
+    {
+      "name": "Citrus indica",
+      "aliases": [
+        "Indian wild orange"
+      ],
+      "popularity": 1978,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Citrus indica"
+    },
+    {
+      "name": "Citrus ryukyuensis",
+      "aliases": [],
+      "popularity": 2067,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Citrus ryukyuensis"
+    },
+    {
+      "name": "Citrus taiwanica",
+      "aliases": [
+        "Katayoe'"
+      ],
+      "popularity": 2081,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Citrus taiwanica"
+    },
+    {
+      "name": "Citrus × amblycarpa",
+      "aliases": [],
+      "popularity": 2126,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Citrus × amblycarpa"
+    },
+    {
+      "name": "Citrangequat",
+      "aliases": [
+        "Citrus × georgiana"
+      ],
+      "popularity": 2813,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Citrangequat"
+    },
+    {
+      "name": "Ōgonkan",
+      "aliases": [
+        "Citrus flaviculpus"
+      ],
+      "popularity": 2936,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Ōgonkan"
+    },
+    {
+      "name": "Shangjuan",
+      "aliases": [
+        "Citrus ichangensis × Citrus maxima",
+        "Citrus wilsonii"
+      ],
+      "popularity": 3080,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Shangjuan"
+    },
+    {
+      "name": "Florentine citron",
+      "aliases": [
+        "Citrus imonimedica",
+        "Citrus limonimedica"
+      ],
+      "popularity": 3257,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Florentine citron"
+    },
+    {
+      "name": "Byeonggyul",
+      "aliases": [
+        "Citrus platymamma"
+      ],
+      "popularity": 3485,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Byeonggyul"
+    },
+    {
+      "name": "Citrus hindsii",
+      "aliases": [
+        "Fortunella hindsii"
+      ],
+      "popularity": 3774,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Citrus hindsii"
+    },
+    {
+      "name": "Citrumelo",
+      "aliases": [
+        "Citrus reticulata × Poncirus trifoliata",
+        "Citrus reticulata x Poncirus trifoliata"
+      ],
+      "popularity": 3794,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Citrumelo"
+    },
+    {
+      "name": "New Zealand grapefruit",
+      "aliases": [
+        "Citrus grandis × Citrus reticulata",
+        "goldfruit",
+        "New Zealand goldfruit",
+        "poorman's orange"
+      ],
+      "popularity": 4024,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "New Zealand grapefruit"
+    },
+    {
+      "name": "Jabara",
+      "aliases": [
+        "Citrus jabara",
+        "Jabara (citrus)",
+        "Jyabara"
+      ],
+      "popularity": 4398,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Jabara (citrus)"
+    },
+    {
+      "name": "Citrus crassifolia",
+      "aliases": [
+        "C. crassifolia",
+        "Fortunella crassifolia",
+        "Meiwa kumquat"
+      ],
+      "popularity": 4400,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Citrus crassifolia"
+    },
+    {
+      "name": "Citrange",
+      "aliases": [
+        "Citrus ×insitorum"
+      ],
+      "popularity": 4747,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Citrange"
+    },
+    {
+      "name": "Orangelo",
+      "aliases": [
+        "Citrus paradisi x Citrus sinensis"
+      ],
+      "popularity": 4977,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Orangelo"
+    },
+    {
+      "name": "Citrus australis",
+      "aliases": [],
+      "popularity": 5181,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Citrus australis"
+    },
+    {
+      "name": "Iyokan",
+      "aliases": [
+        "Citrus ×iyo"
+      ],
+      "popularity": 5930,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Iyokan"
+    },
+    {
+      "name": "Citrus macroptera",
+      "aliases": [
+        "hatkhora",
+        "hatkhora lemon",
+        "hatkora",
+        "hatkora lemon",
+        "Melanesian papeda",
+        "wild orange"
+      ],
+      "popularity": 6118,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Citrus macroptera"
+    },
+    {
+      "name": "Hassaku",
+      "aliases": [
+        "Citrus hassaku",
+        "Hassaku orange"
+      ],
+      "popularity": 6543,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Hassaku"
+    },
+    {
+      "name": "Amanatsu",
+      "aliases": [
+        "Citrus ×natsudaidai",
+        "Natsumikan"
+      ],
+      "popularity": 6566,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Amanatsu"
+    },
+    {
+      "name": "Volkamer lemon",
+      "aliases": [
+        "Citrus ×volkameriana"
+      ],
+      "popularity": 6971,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "Volkamer lemon"
+    },
+    {
+      "name": "Lumia",
+      "aliases": [
+        "Citrus ×lumia",
+        "Lumia (citrus)"
+      ],
+      "popularity": 7500,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Lumia (citrus)"
+    },
+    {
+      "name": "Kishu mikan",
+      "aliases": [
+        "Cherry Orange",
+        "Citrus kinokuni"
+      ],
+      "popularity": 7507,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Kishu mikan"
+    },
+    {
+      "name": "Palestinian sweet lime",
+      "aliases": [
+        "Citrus limettioides",
+        "mita-nimbu"
+      ],
+      "popularity": 7559,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Palestinian sweet lime"
+    },
+    {
+      "name": "Citrus × deliciosa",
+      "aliases": [],
+      "popularity": 8391,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Citrus × deliciosa"
+    },
+    {
+      "name": "Koji orange",
+      "aliases": [
+        "Bingyul",
+        "Citrus leiocarpa",
+        "Kōji"
+      ],
+      "popularity": 9354,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Koji orange"
+    },
+    {
+      "name": "Lemonade fruit",
+      "aliases": [
+        "Citrus limon x reticulata"
+      ],
+      "popularity": 9625,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Lemonade fruit"
+    },
+    {
+      "name": "Rough lemon",
+      "aliases": [
+        "Citrus jambhiri"
+      ],
+      "popularity": 9770,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Rough lemon"
+    },
+    {
+      "name": "Citrus margarita",
+      "aliases": [
+        "Fortunella margarita",
+        "Nagami Kumquat",
+        "Oval Kumquat"
+      ],
+      "popularity": 10413,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Citrus margarita"
+    },
+    {
+      "name": "Daidai",
+      "aliases": [
+        "Citrus aurantium var. daidai",
+        "Citrus ×daidai"
+      ],
+      "popularity": 10945,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Daidai"
+    },
+    {
+      "name": "Citrus glauca",
+      "aliases": [
+        "desert lime"
+      ],
+      "popularity": 11434,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Citrus glauca"
+    },
+    {
+      "name": "Citrus japonica",
+      "aliases": [
+        "Fortunella japonica"
+      ],
+      "popularity": 11654,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Citrus japonica"
+    },
+    {
+      "name": "Hyuganatsu",
+      "aliases": [
+        "Citrus tamurana"
+      ],
+      "popularity": 12422,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Hyuganatsu"
+    },
+    {
+      "name": "Tachibana orange",
+      "aliases": [
+        "Citrus tachibana"
+      ],
+      "popularity": 15287,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Tachibana orange"
+    },
+    {
+      "name": "Citrus cavaleriei",
+      "aliases": [
+        "Citrus ichangensis"
+      ],
+      "popularity": 15555,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Citrus cavaleriei"
+    },
+    {
+      "name": "Ponkan",
+      "aliases": [
+        "Citrus poonensis",
+        "poongan",
+        "santra",
+        "suntara"
+      ],
+      "popularity": 15581,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Ponkan"
+    },
+    {
+      "name": "Rangpur lime",
+      "aliases": [
+        "Citrus ×limonia",
+        "lemandarin",
+        "Rangpur",
+        "Sylhet lime"
+      ],
+      "popularity": 17924,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Rangpur lime"
+    },
+    {
+      "name": "Micrantha",
+      "aliases": [
+        "Citrus micrantha",
+        "Micrantha (citrus)"
+      ],
+      "popularity": 18723,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Micrantha (citrus)"
+    },
+    {
+      "name": "Ponderosa lemon",
+      "aliases": [
+        "Citrus pyriformis"
+      ],
+      "popularity": 20162,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Ponderosa lemon"
+    },
+    {
+      "name": "Kabosu",
+      "aliases": [
+        "Citrus sphaerocarpa"
+      ],
+      "popularity": 21981,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Kabosu"
+    },
+    {
+      "name": "Citrus depressa",
+      "aliases": [
+        "flat lemon",
+        "hirami lemon",
+        "Taiwan tangerine",
+        "thin-skinned flat lemon"
+      ],
+      "popularity": 29841,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Citrus depressa"
+    },
+    {
+      "name": "Citrus myrtifolia",
+      "aliases": [
+        "myrtle-leaved orange tree"
+      ],
+      "popularity": 35855,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Citrus myrtifolia"
+    },
+    {
+      "name": "Citrus limetta",
+      "aliases": [],
+      "popularity": 41343,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Citrus limetta"
+    },
+    {
+      "name": "Trifoliate orange",
+      "aliases": [
+        "Citrus trifoliata"
+      ],
+      "popularity": 46840,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Trifoliate orange"
+    },
+    {
+      "name": "Persian lime",
+      "aliases": [
+        "Bearss lime",
+        "Citrus ×latifolia",
+        "Persian lime tree",
+        "Tahiti lime",
+        "Tahiti lime tree"
+      ],
+      "popularity": 50053,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Persian lime"
+    },
+    {
+      "name": "Citrus × sinensis",
+      "aliases": [
+        "Citrus x sinensis",
+        "orange",
+        "orange tree",
+        "sweet orange",
+        "tree orange"
+      ],
+      "popularity": 57046,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Citrus × sinensis"
+    },
+    {
+      "name": "Citrus unshiu",
+      "aliases": [
+        "cold-hardy mandarin",
+        "naartjie",
+        "satsuma",
+        "satsuma orange",
+        "unshū mikan"
+      ],
+      "popularity": 62340,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Citrus unshiu"
+    },
+    {
+      "name": "Meyer lemon",
+      "aliases": [
+        "Citrus ×meyeri"
+      ],
+      "popularity": 65467,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Meyer lemon"
+    },
+    {
+      "name": "Tangelo",
+      "aliases": [
+        "Citrus ×tangelo"
+      ],
+      "popularity": 67586,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Tangelo"
+    },
+    {
+      "name": "Citrus australasica",
+      "aliases": [
+        "Australian finger lime",
+        "bush caviar",
+        "caviar lime",
+        "citrus caviar",
+        "finger lime",
+        "finger lime tree"
+      ],
+      "popularity": 68113,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Citrus australasica"
+    },
+    {
+      "name": "Clementine",
+      "aliases": [
+        "Citrinos × clementina",
+        "Citrus ×clementina",
+        "Citrus x clementina",
+        "Moroccan clementine"
+      ],
+      "popularity": 116286,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Clementine"
+    },
+    {
+      "name": "Sudachi",
+      "aliases": [
+        "Citrus sudachi"
+      ],
+      "popularity": 121978,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Sudachi"
+    },
+    {
+      "name": "Key lime",
+      "aliases": [
+        "C. aurantifolia",
+        "Citrus ×aurantifolia",
+        "Citrus × aurantiifolia"
+      ],
+      "popularity": 129612,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Key lime"
+    },
+    {
+      "name": "Kaffir lime",
+      "aliases": [
+        "Citrus hystrix",
+        "makrut lime",
+        "Mauritius papeda",
+        "porcupine orange",
+        "Thai bai makrut",
+        "Thai lime"
+      ],
+      "popularity": 141591,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Kaffir lime"
+    },
+    {
+      "name": "Tangerine",
+      "aliases": [
+        "Citrus ×tangerina",
+        "dancytangerine"
+      ],
+      "popularity": 165144,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Tangerine"
+    },
+    {
+      "name": "Bitter orange",
+      "aliases": [
+        "bigarade orange",
+        "Citrus × aurantium",
+        "Citrus x aurantium",
+        "marmalade orange",
+        "Seville orange",
+        "sour orange"
+      ],
+      "popularity": 169045,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Bitter orange"
+    },
+    {
+      "name": "Bergamot orange",
+      "aliases": [
+        "Citrus ×bergamia",
+        "Cláudio",
+        "Laranjeira bergamota"
+      ],
+      "popularity": 231742,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Bergamot orange"
+    },
+    {
+      "name": "Citron",
+      "aliases": [
+        "Citrus medica"
+      ],
+      "popularity": 254573,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Citron"
+    },
+    {
+      "name": "Grapefruit",
+      "aliases": [
+        "Citrus × paradisi",
+        "Citrus x paradisi",
+        "grapefruit plant",
+        "grapefruit tree"
+      ],
+      "popularity": 259531,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Grapefruit"
+    },
+    {
+      "name": "Mandarin orange",
+      "aliases": [
+        "Citrus reticulata",
+        "mandarin",
+        "mandarine",
+        "tangerina"
+      ],
+      "popularity": 277231,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Mandarin orange"
+    },
+    {
+      "name": "Lemon",
+      "aliases": [
+        "Citrus × limon",
+        "Citrus x limon",
+        "lemon tree"
+      ],
+      "popularity": 402126,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Lemon"
+    },
+    {
+      "name": "Pomelo",
+      "aliases": [
+        "Citrus maxima",
+        "pommelo",
+        "pummelo",
+        "shaddock"
+      ],
+      "popularity": 445730,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Pomelo"
+    }
+  ]
+}

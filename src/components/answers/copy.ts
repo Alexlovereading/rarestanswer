@@ -11,7 +11,7 @@
 import { defaultLocale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { TIERS, type Answer, type CategoryKey, type Prompt } from '~/lib/game/types';
-import { foldSearch } from './search-text';
+import { pageTitle } from '~/lib/seo';
 
 export const HUB_TITLE = "Rarest Answers — Every Prompt's Rarest Answer";
 
@@ -63,7 +63,6 @@ export interface PromptSeo {
   sourceNote: string;
   answers: Answer[];
   faq: FaqItem[];
-  searchText: string;
 }
 
 export type PromptInput = Prompt & { seoNoun?: string };
@@ -337,15 +336,23 @@ function buildDescription(
   nounPhrase: string,
   species: string | null,
   count: number,
+  question: string,
   seoNoun?: string,
 ): string {
   const plural = pluralPhrase(nounPhrase);
   const group = species ?? (count === 1 ? nounPhrase : plural);
+  const asked = stripEndPunctuation(question);
   const base = `${count} ${group}: ${rareName} is the rarest ${nounPhrase} in this ranking.`;
+  const withQuestion =
+    asked && !base.toLowerCase().includes(asked.toLowerCase()) ? `${base} “${asked}”.` : base;
   const noun = seoNoun?.trim();
   const withNoun =
-    noun && !base.toLowerCase().includes(noun.toLowerCase()) ? `${noun}. ${base}` : base;
-  return capMeta(withNoun);
+    noun && !withQuestion.toLowerCase().includes(noun.toLowerCase())
+      ? `${noun}. ${withQuestion}`
+      : withQuestion;
+  const capped = capMeta(withNoun);
+  if (capped.length >= 40) return capped;
+  return capMeta(`${capped} Ranked from rarest to most common.`);
 }
 
 function buildIntro(
@@ -475,25 +482,105 @@ export function derivePromptSeo(input: PromptInput): PromptSeo {
     nounPhrase,
     heading,
     crumb: `Rarest ${nounTitle}`,
-    description: buildDescription(rare.name, nounPhrase, species, answers.length, input.seoNoun),
+    description: buildDescription(
+      rare.name,
+      nounPhrase,
+      species,
+      answers.length,
+      input.question,
+      input.seoNoun,
+    ),
     intro: buildIntro(input.question, nounPhrase, species, input.source, answers),
     viewsNote: buildViewsNote(input.source),
     sourceNote: buildSourceNote(input.source, hasWiki),
     answers,
     faq: buildFaq(nounPhrase, plural, input.source, answers),
-    searchText: foldSearch(
-      [
-        input.question,
-        input.slug,
-        nounPhrase,
-        nounTitle,
-        heading,
-        input.category,
-        categoryLabel(input.category),
-        ...answers.flatMap((answer) => [answer.name, ...answer.aliases]),
-      ].join(' '),
-    ),
   };
+}
+
+const RELATED_MIN = 4;
+const RELATED_MAX = 6;
+
+/**
+ * Next prompts in catalog order, wrapping past the end. `sorted` may include
+ * `slug`. Returns at most `count` other prompts.
+ */
+function takeNext(sorted: readonly PromptSeo[], slug: string, count: number): PromptSeo[] {
+  if (count <= 0 || sorted.length === 0) return [];
+  const index = sorted.findIndex((item) => item.slug === slug);
+  if (index === -1) return sorted.filter((item) => item.slug !== slug).slice(0, count);
+  const after = sorted.slice(index + 1);
+  const before = sorted.slice(0, index);
+  const ring = [...after, ...before].filter((item) => item.slug !== slug);
+  return ring.slice(0, count);
+}
+
+/**
+ * 4–6 related prompts when the catalog can fill that many: same category
+ * first (the next ones in list order), then the next prompts in the full
+ * catalog. Fewer than 4 only when fewer than 4 other prompts exist.
+ */
+export function selectRelated(prompt: PromptSeo, all: readonly PromptSeo[]): PromptSeo[] {
+  const same = all.filter((item) => item.category === prompt.category);
+  const picked = takeNext(same, prompt.slug, RELATED_MAX);
+  if (picked.length >= RELATED_MIN) return picked;
+  const seen = new Set(picked.map((item) => item.slug));
+  const extras = takeNext(all, prompt.slug, all.length).filter((item) => !seen.has(item.slug));
+  return [...picked, ...extras.slice(0, RELATED_MIN - picked.length)];
+}
+
+function descriptionWithMarker(description: string, marker: string): string {
+  const suffix = ` ${marker}`;
+  const room = 165 - suffix.length;
+  if (room < 8) return marker.slice(0, 165);
+  const clean = description.replace(/\s+/g, ' ').trim();
+  if (clean.length <= room) return `${clean}${suffix}`;
+  const cut = clean.slice(0, Math.max(0, room - 1));
+  const space = cut.lastIndexOf(' ');
+  const base = (space > 40 ? cut.slice(0, space) : cut).trimEnd();
+  return `${base}…${suffix}`;
+}
+
+/**
+ * Document titles and meta descriptions must stay unique once hundreds of
+ * prompts share a noun. Mutates `heading` and `description` in place.
+ */
+export function ensureUniquePromptMeta(prompts: PromptSeo[]): void {
+  const titleGroups = new Map<string, PromptSeo[]>();
+  for (const prompt of prompts) {
+    const key = pageTitle(prompt.heading);
+    const group = titleGroups.get(key);
+    if (group) group.push(prompt);
+    else titleGroups.set(key, [prompt]);
+  }
+  for (const group of titleGroups.values()) {
+    if (group.length < 2) continue;
+    for (const prompt of group) {
+      const base = prompt.heading;
+      const withSlug = `${base} (${prompt.slug})`;
+      const slugTaken = prompts.some(
+        (other) => other !== prompt && pageTitle(other.heading) === pageTitle(withSlug),
+      );
+      prompt.heading = slugTaken ? `${base} [${prompt.slug}]` : withSlug;
+    }
+  }
+
+  const descriptionGroups = new Map<string, PromptSeo[]>();
+  for (const prompt of prompts) {
+    const group = descriptionGroups.get(prompt.description);
+    if (group) group.push(prompt);
+    else descriptionGroups.set(prompt.description, [prompt]);
+  }
+  for (const group of descriptionGroups.values()) {
+    if (group.length < 2) continue;
+    for (const prompt of group) {
+      const marked = descriptionWithMarker(prompt.description, `(${prompt.slug})`);
+      const taken = prompts.some((other) => other !== prompt && other.description === marked);
+      prompt.description = taken
+        ? descriptionWithMarker(prompt.description, `[${prompt.slug}]`)
+        : marked;
+    }
+  }
 }
 
 export function categoriesIn(prompts: readonly { category: CategoryKey }[]): CategoryKey[] {

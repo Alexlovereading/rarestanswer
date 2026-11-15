@@ -1,0 +1,306 @@
+{
+  "id": "la-liga-clubs",
+  "slug": "la-liga-clubs",
+  "category": "sports",
+  "question": "Name a current La Liga club",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Deportivo de A Coruña",
+      "aliases": [
+        "Dépor",
+        "Deportivo"
+      ],
+      "popularity": 233259,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Deportivo de A Coruña"
+    },
+    {
+      "name": "CA Osasuna",
+      "aliases": [
+        "Club Atlético Osasuna"
+      ],
+      "popularity": 256595,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "CA Osasuna"
+    },
+    {
+      "name": "Deportivo Alavés",
+      "aliases": [
+        "Alaves",
+        "Alaves Football",
+        "Alaves Soccer",
+        "Deportivo Alaves Soccer"
+      ],
+      "popularity": 263870,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Deportivo Alavés"
+    },
+    {
+      "name": "Getafe CF",
+      "aliases": [
+        "Getafe",
+        "Getafe C.F.",
+        "Getafe Club de Fútbol",
+        "Getafe Club de Fútbol Team",
+        "Getafe Club of Football",
+        "Getafe Football Club"
+      ],
+      "popularity": 264328,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Getafe CF"
+    },
+    {
+      "name": "Málaga CF",
+      "aliases": [
+        "M.C.F.",
+        "Málaga C.F.",
+        "Málaga Club of Football",
+        "Malaga Football Club",
+        "MálagaCF",
+        "MCF"
+      ],
+      "popularity": 272457,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Málaga CF"
+    },
+    {
+      "name": "Elche CF",
+      "aliases": [],
+      "popularity": 277341,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Elche CF"
+    },
+    {
+      "name": "Levante UD",
+      "aliases": [
+        "Levante",
+        "Levante FC",
+        "Levante Football Club",
+        "Levante Sports Union",
+        "Levante U.D.",
+        "Levante UD Football",
+        "Levante Unión Deportiva"
+      ],
+      "popularity": 284304,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Levante UD"
+    },
+    {
+      "name": "Racing de Santander",
+      "aliases": [
+        "Racing Club de Santander",
+        "Racing Santander",
+        "Real Racing Club",
+        "Real Racing Club de Santander",
+        "Real Santander SD"
+      ],
+      "popularity": 320916,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Racing de Santander"
+    },
+    {
+      "name": "RCD Espanyol",
+      "aliases": [
+        "Espanyol",
+        "Espanyol Barcelona",
+        "Espanyol of Barcelona",
+        "R.C.D. Espanyol",
+        "RCD Espanyol de Barcelona",
+        "RCD Espanyol of Barcelona",
+        "RCDE"
+      ],
+      "popularity": 434880,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "RCD Espanyol"
+    },
+    {
+      "name": "RC Celta de Vigo",
+      "aliases": [
+        "Celta",
+        "Celta Vigo",
+        "R.C. Celta de Vigo",
+        "RC Celta",
+        "RCCV",
+        "Real Club Celta"
+      ],
+      "popularity": 520650,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "RC Celta de Vigo"
+    },
+    {
+      "name": "Valencia CF",
+      "aliases": [
+        "V.C.F.",
+        "Valencia",
+        "Valencia C.F.",
+        "Valencia Club de Fútbol",
+        "Valencia Club de Fútbol team",
+        "Valencia Club of Football",
+        "Valencia Football Club",
+        "ValenciaC.F.",
+        "ValenciaCF"
+      ],
+      "popularity": 554509,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Valencia CF"
+    },
+    {
+      "name": "Villarreal CF",
+      "aliases": [
+        "Villarreal",
+        "Villarreal 1923",
+        "Villarreal C.F.",
+        "Villarreal CF 1923",
+        "Villarreal Club de Futbol",
+        "Villarreal Club de Fútbol 1923",
+        "Villarreal Club Football",
+        "Villarreal Club of Football"
+      ],
+      "popularity": 587839,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Villarreal CF"
+    },
+    {
+      "name": "Sevilla FC",
+      "aliases": [
+        "S.F.C.",
+        "Sevilla",
+        "Sevilla F.C.",
+        "Sevilla Football Club",
+        "Sevilla Fútbol Club",
+        "SevillaF.C.",
+        "SevillaFC",
+        "SFC"
+      ],
+      "popularity": 619470,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Sevilla FC"
+    },
+    {
+      "name": "Real Betis",
+      "aliases": [
+        "balompédicos",
+        "Betis",
+        "Real Betis Balompié",
+        "Real Betis football",
+        "Real Betis Soccer"
+      ],
+      "popularity": 672668,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Real Betis"
+    },
+    {
+      "name": "Rayo Vallecano",
+      "aliases": [
+        "Rayo",
+        "Rayo Football",
+        "Rayo Vallecano de Madrid",
+        "Rayo Vellecano Football",
+        "Rayo Vellecano Soccer Club",
+        "Vallecano"
+      ],
+      "popularity": 678047,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Rayo Vallecano"
+    },
+    {
+      "name": "Real Sociedad",
+      "aliases": [
+        "Donostia Football Club",
+        "Real Sociedad de Fútbol",
+        "San Sebastián Foot-Ball Club"
+      ],
+      "popularity": 730120,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Real Sociedad"
+    },
+    {
+      "name": "Athletic Bilbao",
+      "aliases": [
+        "Athletic",
+        "Athletic Club",
+        "Athletic Club de Bilbao"
+      ],
+      "popularity": 772446,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Athletic Bilbao"
+    },
+    {
+      "name": "Atlético Madrid",
+      "aliases": [
+        "Atl. de Madrid",
+        "Atleti de Madrid",
+        "Atlético",
+        "Atletico de Madrid",
+        "Atletico of Madrid",
+        "AtléticoDeMadrid",
+        "ATM",
+        "ATM Football Club",
+        "Club Atlético de Madrid",
+        "El Atleti",
+        "The Atletico"
+      ],
+      "popularity": 1524845,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Atlético Madrid"
+    },
+    {
+      "name": "FC Barcelona",
+      "aliases": [
+        "Barcelona FC",
+        "Barcelona Football Club",
+        "F.C.B.",
+        "F.C.Barcelona",
+        "FC Barcelona Football",
+        "FCBarcelona",
+        "Football Club Barcelona",
+        "Football Club of Barcelona",
+        "Fútbol Club Barcelona"
+      ],
+      "popularity": 3846170,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "FC Barcelona"
+    },
+    {
+      "name": "Real Madrid CF",
+      "aliases": [
+        "Madrid FC",
+        "Madrid Football Club",
+        "Real FC",
+        "Real Football Club",
+        "Real Madrid",
+        "Real Madrid C.F.",
+        "Real Madrid Club de Fútbol",
+        "Real Madrid Club of Football",
+        "Real Madrid Football Club",
+        "RMCF",
+        "Royal Madrid",
+        "Royal Madrid Football Club"
+      ],
+      "popularity": 4401222,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Real Madrid CF"
+    }
+  ]
+}

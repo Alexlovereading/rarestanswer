@@ -1,0 +1,1377 @@
+{
+  "id": "lemur-species",
+  "slug": "lemur-species",
+  "category": "animals",
+  "question": "Name a species of lemur",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Malawi bushbaby",
+      "aliases": [
+        "Galago nyasae"
+      ],
+      "popularity": 151,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Malawi bushbaby"
+    },
+    {
+      "name": "Hadropithecus stenognathus",
+      "aliases": [],
+      "popularity": 223,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Hadropithecus stenognathus"
+    },
+    {
+      "name": "Nosy Boraha mouse lemur",
+      "aliases": [
+        "Boraha mouse lemur",
+        "Microcebus boraha"
+      ],
+      "popularity": 325,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Nosy Boraha mouse lemur"
+    },
+    {
+      "name": "Fleurette's sportive lemur",
+      "aliases": [
+        "Fleurete's sportive lemur",
+        "Lepilemur fleuretae"
+      ],
+      "popularity": 356,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Fleurette's sportive lemur"
+    },
+    {
+      "name": "Sciurocheirus makandensis",
+      "aliases": [],
+      "popularity": 510,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Sciurocheirus makandensis"
+    },
+    {
+      "name": "Danfoss's mouse lemur",
+      "aliases": [
+        "Danfoss' mouse lemur",
+        "Microcebus danfossi"
+      ],
+      "popularity": 629,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Danfoss's mouse lemur"
+    },
+    {
+      "name": "Scott's sportive lemur",
+      "aliases": [
+        "Lepilemur scottorum"
+      ],
+      "popularity": 661,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Scott's sportive lemur"
+    },
+    {
+      "name": "Daraina sportive lemur",
+      "aliases": [
+        "Lepilemur milanoii"
+      ],
+      "popularity": 675,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Daraina sportive lemur"
+    },
+    {
+      "name": "Mittermeier's sportive lemur",
+      "aliases": [
+        "Lepilemur mittermeieri"
+      ],
+      "popularity": 677,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Mittermeier's sportive lemur"
+    },
+    {
+      "name": "Holland's sportive lemur",
+      "aliases": [
+        "Lepilemur hollandorum"
+      ],
+      "popularity": 690,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Holland's sportive lemur"
+    },
+    {
+      "name": "Otto's sportive lemur",
+      "aliases": [
+        "Lepilemur otto"
+      ],
+      "popularity": 723,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Otto's sportive lemur"
+    },
+    {
+      "name": "Betsileo sportive lemur",
+      "aliases": [
+        "Lepilemur betsileo"
+      ],
+      "popularity": 747,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Betsileo sportive lemur"
+    },
+    {
+      "name": "Grewcock's sportive lemur",
+      "aliases": [
+        "Lepilemur grewcockorum"
+      ],
+      "popularity": 774,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Grewcock's sportive lemur"
+    },
+    {
+      "name": "Petter's sportive lemur",
+      "aliases": [
+        "Lepilemur petteri"
+      ],
+      "popularity": 796,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Petter's sportive lemur"
+    },
+    {
+      "name": "Randrianasolo's sportive lemur",
+      "aliases": [
+        "Lepilemur randrianasoloi"
+      ],
+      "popularity": 796,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Randrianasolo's sportive lemur"
+    },
+    {
+      "name": "Seal's sportive lemur",
+      "aliases": [
+        "Lepilemur seali"
+      ],
+      "popularity": 829,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Seal's sportive lemur"
+    },
+    {
+      "name": "Pariente's fork-marked lemur",
+      "aliases": [
+        "Phaner parienti"
+      ],
+      "popularity": 830,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Pariente's fork-marked lemur"
+    },
+    {
+      "name": "Simmons' mouse lemur",
+      "aliases": [
+        "Microcebus simmonsi"
+      ],
+      "popularity": 850,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Simmons' mouse lemur"
+    },
+    {
+      "name": "Gray-backed sportive lemur",
+      "aliases": [
+        "Grey-backed sportive lemur",
+        "Lepilemur dorsalis"
+      ],
+      "popularity": 859,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Gray-backed sportive lemur"
+    },
+    {
+      "name": "Ahmanson's sportive lemur",
+      "aliases": [
+        "Lepilemur ahmansonorum"
+      ],
+      "popularity": 870,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Ahmanson's sportive lemur"
+    },
+    {
+      "name": "Wright's sportive lemur",
+      "aliases": [
+        "Lepilemur wrighti"
+      ],
+      "popularity": 882,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Wright's sportive lemur"
+    },
+    {
+      "name": "Sambirano mouse lemur",
+      "aliases": [
+        "Microcebus sambiranensis"
+      ],
+      "popularity": 892,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Sambirano mouse lemur"
+    },
+    {
+      "name": "Microcebus jonahi",
+      "aliases": [
+        "Jonah's mouse lemur"
+      ],
+      "popularity": 899,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Microcebus jonahi"
+    },
+    {
+      "name": "Thomas' dwarf lemur",
+      "aliases": [
+        "Cheirogaleus thomasi"
+      ],
+      "popularity": 913,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Thomas' dwarf lemur"
+    },
+    {
+      "name": "Northern rufous mouse lemur",
+      "aliases": [
+        "Microcebus tavaratra"
+      ],
+      "popularity": 920,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Northern rufous mouse lemur"
+    },
+    {
+      "name": "MacArthur's mouse lemur",
+      "aliases": [
+        "Anjiahely mouse lemur",
+        "Microcebus macarthurii"
+      ],
+      "popularity": 946,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "MacArthur's mouse lemur"
+    },
+    {
+      "name": "Bongolava mouse lemur",
+      "aliases": [
+        "Microcebus bongolavensis"
+      ],
+      "popularity": 948,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Bongolava mouse lemur"
+    },
+    {
+      "name": "Marohita mouse lemur",
+      "aliases": [
+        "Microcebus marohita"
+      ],
+      "popularity": 957,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Marohita mouse lemur"
+    },
+    {
+      "name": "Anosy mouse lemur",
+      "aliases": [
+        "Microcebus tanosi"
+      ],
+      "popularity": 994,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Anosy mouse lemur"
+    },
+    {
+      "name": "Ankarana sportive lemur",
+      "aliases": [
+        "Lepilemur ankaranensis"
+      ],
+      "popularity": 1010,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Ankarana sportive lemur"
+    },
+    {
+      "name": "Jolly's mouse lemur",
+      "aliases": [
+        "Microcebus jollyae"
+      ],
+      "popularity": 1025,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Jolly's mouse lemur"
+    },
+    {
+      "name": "Hawks' sportive lemur",
+      "aliases": [
+        "Lepilemur tymerlachsoni"
+      ],
+      "popularity": 1028,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Hawks' sportive lemur"
+    },
+    {
+      "name": "Ramanantsoavana's woolly lemur",
+      "aliases": [
+        "Avahi ramanantsoavanai",
+        "Avahi ramanantsoavani",
+        "Manombo woolly lemur",
+        "Ramanantsoavana's avahi",
+        "Ramantsoavana’s southern woolly lemur"
+      ],
+      "popularity": 1030,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Ramanantsoavana's woolly lemur"
+    },
+    {
+      "name": "Amber Mountain fork-marked lemur",
+      "aliases": [
+        "Phaner electromontis"
+      ],
+      "popularity": 1037,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Amber Mountain fork-marked lemur"
+    },
+    {
+      "name": "Cross River bushbaby",
+      "aliases": [
+        "Galago cameronensis"
+      ],
+      "popularity": 1056,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Cross River bushbaby"
+    },
+    {
+      "name": "Betsileo woolly lemur",
+      "aliases": [
+        "Avahi betsileo"
+      ],
+      "popularity": 1078,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Betsileo woolly lemur"
+    },
+    {
+      "name": "Mittermeier's mouse lemur",
+      "aliases": [
+        "Microcebus mittermeieri"
+      ],
+      "popularity": 1098,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Mittermeier's mouse lemur"
+    },
+    {
+      "name": "Ganzhorn's mouse lemur",
+      "aliases": [
+        "Microcebus ganzhorni"
+      ],
+      "popularity": 1100,
+      "rarity": 0.715,
+      "tier": 4,
+      "wiki": "Ganzhorn's mouse lemur"
+    },
+    {
+      "name": "Lesser iron-gray dwarf lemur",
+      "aliases": [
+        "Cheirogaleus minusculus"
+      ],
+      "popularity": 1144,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Lesser iron-gray dwarf lemur"
+    },
+    {
+      "name": "Milne-Edwards' sportive lemur",
+      "aliases": [
+        "Lepilemur edwardsi",
+        "Milne Edwards’s sportive lemur"
+      ],
+      "popularity": 1146,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Milne-Edwards' sportive lemur"
+    },
+    {
+      "name": "White-footed sportive lemur",
+      "aliases": [
+        "Lepilemur leucopus"
+      ],
+      "popularity": 1168,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "White-footed sportive lemur"
+    },
+    {
+      "name": "Southern woolly lemur",
+      "aliases": [
+        "Avahi meridionalis"
+      ],
+      "popularity": 1178,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Southern woolly lemur"
+    },
+    {
+      "name": "Lavasoa dwarf lemur",
+      "aliases": [
+        "Cheirogaleus lavasoensis"
+      ],
+      "popularity": 1192,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Lavasoa dwarf lemur"
+    },
+    {
+      "name": "Sahamalaza sportive lemur",
+      "aliases": [
+        "Lepilemur sahamalazensis"
+      ],
+      "popularity": 1214,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Sahamalaza sportive lemur"
+    },
+    {
+      "name": "Uluguru bushbaby",
+      "aliases": [
+        "Paragalago orinus"
+      ],
+      "popularity": 1215,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Uluguru bushbaby"
+    },
+    {
+      "name": "Silvery greater galago",
+      "aliases": [
+        "Otolemur monteiri"
+      ],
+      "popularity": 1219,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Silvery greater galago"
+    },
+    {
+      "name": "Ankarana dwarf lemur",
+      "aliases": [
+        "Cheirogaleus shethi"
+      ],
+      "popularity": 1220,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Ankarana dwarf lemur"
+    },
+    {
+      "name": "Sambirano woolly lemur",
+      "aliases": [
+        "Avahi unicolor",
+        "Sambirano avahi",
+        "Unicolor woolly lemur"
+      ],
+      "popularity": 1243,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Sambirano woolly lemur"
+    },
+    {
+      "name": "Moore's woolly lemur",
+      "aliases": [
+        "Avahi mooreorum"
+      ],
+      "popularity": 1249,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Moore's woolly lemur"
+    },
+    {
+      "name": "Peyrieras's woolly lemur",
+      "aliases": [
+        "Avahi peyrierasi",
+        "Peyrieras' woolly lemur"
+      ],
+      "popularity": 1255,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Peyrieras's woolly lemur"
+    },
+    {
+      "name": "Angolan dwarf galago",
+      "aliases": [
+        "Galagoides kumbirensis"
+      ],
+      "popularity": 1257,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Angolan dwarf galago"
+    },
+    {
+      "name": "Montagne d'Ambre dwarf lemur",
+      "aliases": [
+        "Cheirogaleus andysabini"
+      ],
+      "popularity": 1262,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Montagne d'Ambre dwarf lemur"
+    },
+    {
+      "name": "Claire's mouse lemur",
+      "aliases": [
+        "Microcebus mamiratra"
+      ],
+      "popularity": 1272,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Claire's mouse lemur"
+    },
+    {
+      "name": "Gabon bushbaby",
+      "aliases": [
+        "Sciurocheirus gabonensis"
+      ],
+      "popularity": 1282,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Gabon bushbaby"
+    },
+    {
+      "name": "James' sportive lemur",
+      "aliases": [
+        "Lepilemur jamesorum"
+      ],
+      "popularity": 1290,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "James' sportive lemur"
+    },
+    {
+      "name": "Kenya coast galago",
+      "aliases": [
+        "Paragalago cocos"
+      ],
+      "popularity": 1298,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Kenya coast galago"
+    },
+    {
+      "name": "Arnhold's mouse lemur",
+      "aliases": [
+        "Microcebus arnholdi"
+      ],
+      "popularity": 1331,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Arnhold's mouse lemur"
+    },
+    {
+      "name": "Margot Marsh's mouse lemur",
+      "aliases": [
+        "Microcebus margotmarshae"
+      ],
+      "popularity": 1343,
+      "rarity": 0.562,
+      "tier": 3,
+      "wiki": "Margot Marsh's mouse lemur"
+    },
+    {
+      "name": "Groves' dwarf lemur",
+      "aliases": [
+        "Cheirogaleus grovesi"
+      ],
+      "popularity": 1368,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Groves' dwarf lemur"
+    },
+    {
+      "name": "Red-tailed sportive lemur",
+      "aliases": [
+        "Lepilemur ruficaudatus",
+        "Lesser weasel lemur"
+      ],
+      "popularity": 1386,
+      "rarity": 0.546,
+      "tier": 3,
+      "wiki": "Red-tailed sportive lemur"
+    },
+    {
+      "name": "Western lesser bamboo lemur",
+      "aliases": [
+        "Hapalemur occidentalis",
+        "Sambirano lesser bamboo lemur"
+      ],
+      "popularity": 1420,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Western lesser bamboo lemur"
+    },
+    {
+      "name": "Golden-brown mouse lemur",
+      "aliases": [
+        "Microcebus ravelobensis"
+      ],
+      "popularity": 1437,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Golden-brown mouse lemur"
+    },
+    {
+      "name": "Southern lesser bamboo lemur",
+      "aliases": [
+        "Hapalemur meridionalis"
+      ],
+      "popularity": 1441,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Southern lesser bamboo lemur"
+    },
+    {
+      "name": "Masoala fork-marked lemur",
+      "aliases": [
+        "Phaner furcifer"
+      ],
+      "popularity": 1449,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Masoala fork-marked lemur"
+    },
+    {
+      "name": "Weasel sportive lemur",
+      "aliases": [
+        "Lepilemur mustelinus"
+      ],
+      "popularity": 1475,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Weasel sportive lemur"
+    },
+    {
+      "name": "Pale fork-marked lemur",
+      "aliases": [
+        "Phaner pallescens"
+      ],
+      "popularity": 1491,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Pale fork-marked lemur"
+    },
+    {
+      "name": "Hubbard's sportive lemur",
+      "aliases": [
+        "Lepilemur hubbardorum"
+      ],
+      "popularity": 1532,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Hubbard's sportive lemur"
+    },
+    {
+      "name": "Northern needle-clawed bushbaby",
+      "aliases": [
+        "Euoticus pallidus"
+      ],
+      "popularity": 1610,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Northern needle-clawed bushbaby"
+    },
+    {
+      "name": "Bioko Allen's bushbaby",
+      "aliases": [
+        "Sciurocheirus alleni"
+      ],
+      "popularity": 1613,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Bioko Allen's bushbaby"
+    },
+    {
+      "name": "Grant's bushbaby",
+      "aliases": [
+        "Paragalago granti"
+      ],
+      "popularity": 1615,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Grant's bushbaby"
+    },
+    {
+      "name": "Bemanasy mouse lemur",
+      "aliases": [
+        "Microcebus manitatra"
+      ],
+      "popularity": 1676,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Bemanasy mouse lemur"
+    },
+    {
+      "name": "Rondo dwarf galago",
+      "aliases": [
+        "Paragalago rondoensis"
+      ],
+      "popularity": 1713,
+      "rarity": 0.454,
+      "tier": 3,
+      "wiki": "Rondo dwarf galago"
+    },
+    {
+      "name": "Coquerel's giant mouse lemur",
+      "aliases": [
+        "Coquerel’s mouse lemur",
+        "Microcebus coquereli",
+        "Mirza coquereli"
+      ],
+      "popularity": 1746,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Coquerel's giant mouse lemur"
+    },
+    {
+      "name": "Northern sportive lemur",
+      "aliases": [
+        "Lepilemur septentrionalis"
+      ],
+      "popularity": 1761,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Northern sportive lemur"
+    },
+    {
+      "name": "Western woolly lemur",
+      "aliases": [
+        "Avahi occidentalis"
+      ],
+      "popularity": 1808,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Western woolly lemur"
+    },
+    {
+      "name": "Furry-eared dwarf lemur",
+      "aliases": [
+        "Cheirogaleus crossleyi",
+        "Crossley's Dwarf Lemur"
+      ],
+      "popularity": 1819,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Furry-eared dwarf lemur"
+    },
+    {
+      "name": "Thomas's bushbaby",
+      "aliases": [
+        "Galagoides thomasi"
+      ],
+      "popularity": 1822,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Thomas's bushbaby"
+    },
+    {
+      "name": "Dusky bushbaby",
+      "aliases": [
+        "Galago matschiei"
+      ],
+      "popularity": 1854,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Dusky bushbaby"
+    },
+    {
+      "name": "Small-toothed sportive lemur",
+      "aliases": [
+        "Lepilemur microdon",
+        "small-toothed weasel lemur"
+      ],
+      "popularity": 1906,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Small-toothed sportive lemur"
+    },
+    {
+      "name": "Gerp's mouse lemur",
+      "aliases": [
+        "Microcebus gerpi"
+      ],
+      "popularity": 1928,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Gerp's mouse lemur"
+    },
+    {
+      "name": "Somali bushbaby",
+      "aliases": [
+        "Galago gallarum",
+        "Somali lesser galago"
+      ],
+      "popularity": 1929,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Somali bushbaby"
+    },
+    {
+      "name": "Reddish-gray mouse lemur",
+      "aliases": [
+        "Grey-brown mouse lemur",
+        "Microcebus griseorufus"
+      ],
+      "popularity": 1957,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Reddish-gray mouse lemur"
+    },
+    {
+      "name": "Sibree's dwarf lemur",
+      "aliases": [
+        "Cheirogaleus sibreei"
+      ],
+      "popularity": 1979,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Sibree's dwarf lemur"
+    },
+    {
+      "name": "Southern needle-clawed bushbaby",
+      "aliases": [
+        "Euoticus elegantulus"
+      ],
+      "popularity": 2111,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Southern needle-clawed bushbaby"
+    },
+    {
+      "name": "Greater dwarf lemur",
+      "aliases": [
+        "Cheirogaleus major",
+        "Geoffroy's dwarf lemur"
+      ],
+      "popularity": 2228,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Greater dwarf lemur"
+    },
+    {
+      "name": "Northern giant mouse lemur",
+      "aliases": [
+        "Mirza zaza"
+      ],
+      "popularity": 2366,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Northern giant mouse lemur"
+    },
+    {
+      "name": "Gray-headed lemur",
+      "aliases": [
+        "Eulemur cinereiceps",
+        "White-collared brown lemur"
+      ],
+      "popularity": 2498,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Gray-headed lemur"
+    },
+    {
+      "name": "Zanzibar bushbaby",
+      "aliases": [
+        "Paragalago zanzibaricus"
+      ],
+      "popularity": 2511,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Zanzibar bushbaby"
+    },
+    {
+      "name": "Brown mouse lemur",
+      "aliases": [
+        "Microcebus rufus",
+        "Rufous mouse lemur"
+      ],
+      "popularity": 2585,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Brown mouse lemur"
+    },
+    {
+      "name": "AEECL's sportive lemur",
+      "aliases": [
+        "Antafia sportive lemur",
+        "Lepilemur aeeclis"
+      ],
+      "popularity": 2607,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "AEECL's sportive lemur"
+    },
+    {
+      "name": "Eastern woolly lemur",
+      "aliases": [
+        "Avahi laniger",
+        "Eastern Avahi",
+        "Gmelin's Woolly Lemur"
+      ],
+      "popularity": 2715,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Eastern woolly lemur"
+    },
+    {
+      "name": "Sanford's brown lemur",
+      "aliases": [
+        "Eulemur sanfordi",
+        "Sanford's lemur"
+      ],
+      "popularity": 2821,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Sanford's brown lemur"
+    },
+    {
+      "name": "Hairy-eared dwarf lemur",
+      "aliases": [
+        "Allocebus trichotis"
+      ],
+      "popularity": 2864,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Hairy-eared dwarf lemur"
+    },
+    {
+      "name": "Prince Demidoff's bushbaby",
+      "aliases": [
+        "Galagoides demidoff"
+      ],
+      "popularity": 3114,
+      "rarity": 0.285,
+      "tier": 2,
+      "wiki": "Prince Demidoff's bushbaby"
+    },
+    {
+      "name": "Von der Decken's sifaka",
+      "aliases": [
+        "Decken’s sifaka",
+        "Propithecus deckenii"
+      ],
+      "popularity": 3285,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Von der Decken's sifaka"
+    },
+    {
+      "name": "Perrier's sifaka",
+      "aliases": [
+        "Propithecus perrieri"
+      ],
+      "popularity": 3389,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Perrier's sifaka"
+    },
+    {
+      "name": "Milne-Edwards's sifaka",
+      "aliases": [
+        "Milne-Edwards' sifaka",
+        "Propithecus edwardsi"
+      ],
+      "popularity": 3419,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Milne-Edwards's sifaka"
+    },
+    {
+      "name": "Eastern lesser bamboo lemur",
+      "aliases": [
+        "Beanamalao bamboo lemur",
+        "eastern Gray Bamboo lemur",
+        "Gilbert's Bamboo lemur",
+        "Gilbert's gentle lemur",
+        "gray bamboo lemur",
+        "gray gentle lemur",
+        "Hapalemur griseus",
+        "Ranomafana bamboo lemur",
+        "Ranomafana gentle lemur"
+      ],
+      "popularity": 3492,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Eastern lesser bamboo lemur"
+    },
+    {
+      "name": "White-headed lemur",
+      "aliases": [
+        "Eulemur albifrons",
+        "White-fronted brown lemur",
+        "white-fronted lemur",
+        "white-headed brown lemur"
+      ],
+      "popularity": 3633,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "White-headed lemur"
+    },
+    {
+      "name": "Collared brown lemur",
+      "aliases": [
+        "Eulemur collaris",
+        "Eulemur fulvus collaris",
+        "red-collared brown lemur",
+        "red-collared lemur"
+      ],
+      "popularity": 3694,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Collared brown lemur"
+    },
+    {
+      "name": "Crowned sifaka",
+      "aliases": [
+        "Propithecus coronatus"
+      ],
+      "popularity": 3703,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Crowned sifaka"
+    },
+    {
+      "name": "Red lemur",
+      "aliases": [
+        "Eulemur rufus"
+      ],
+      "popularity": 3875,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Red lemur"
+    },
+    {
+      "name": "Red-fronted lemur",
+      "aliases": [
+        "Eulemur rufifrons",
+        "southern red-fronted brown lemur"
+      ],
+      "popularity": 4041,
+      "rarity": 0.215,
+      "tier": 2,
+      "wiki": "Red-fronted lemur"
+    },
+    {
+      "name": "Pygmy mouse lemur",
+      "aliases": [
+        "Microcebus myoxinus"
+      ],
+      "popularity": 4203,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Pygmy mouse lemur"
+    },
+    {
+      "name": "Lac Alaotra bamboo lemur",
+      "aliases": [
+        "Alaotran gentle lemur",
+        "Hapalemur alaotrensis"
+      ],
+      "popularity": 4217,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Lac Alaotra bamboo lemur"
+    },
+    {
+      "name": "Golden-crowned sifaka",
+      "aliases": [
+        "Propithecus tattersalli"
+      ],
+      "popularity": 5051,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Golden-crowned sifaka"
+    },
+    {
+      "name": "Red-bellied lemur",
+      "aliases": [
+        "Eulemur rubriventer"
+      ],
+      "popularity": 5240,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Red-bellied lemur"
+    },
+    {
+      "name": "Greater bamboo lemur",
+      "aliases": [
+        "Prolemur simus"
+      ],
+      "popularity": 5488,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "Greater bamboo lemur"
+    },
+    {
+      "name": "Crowned lemur",
+      "aliases": [
+        "Eulemur coronatus"
+      ],
+      "popularity": 6856,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Crowned lemur"
+    },
+    {
+      "name": "Bemaraha woolly lemur",
+      "aliases": [
+        "Avahi cleesei"
+      ],
+      "popularity": 7046,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Bemaraha woolly lemur"
+    },
+    {
+      "name": "Mongoose lemur",
+      "aliases": [
+        "Eulemur mongoz"
+      ],
+      "popularity": 7684,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Mongoose lemur"
+    },
+    {
+      "name": "Blue-eyed black lemur",
+      "aliases": [
+        "Eulemur flavifrons",
+        "Sclater's lemur"
+      ],
+      "popularity": 7743,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Blue-eyed black lemur"
+    },
+    {
+      "name": "Brown greater galago",
+      "aliases": [
+        "large-eared greater galago",
+        "Otolemur crassicaudatus",
+        "Thick-tailed greater galago"
+      ],
+      "popularity": 7875,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Brown greater galago"
+    },
+    {
+      "name": "Common brown lemur",
+      "aliases": [
+        "Brown lemur",
+        "Eulemur fulvus"
+      ],
+      "popularity": 8275,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Common brown lemur"
+    },
+    {
+      "name": "Black lemur",
+      "aliases": [
+        "common black lemur",
+        "Eulemur macaco"
+      ],
+      "popularity": 8352,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Black lemur"
+    },
+    {
+      "name": "Mohol bushbaby",
+      "aliases": [
+        "Galago moholi",
+        "Southern lesser galago"
+      ],
+      "popularity": 8587,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Mohol bushbaby"
+    },
+    {
+      "name": "Gray mouse lemur",
+      "aliases": [
+        "Grey mouse-lemur",
+        "Microcebus murinus"
+      ],
+      "popularity": 8872,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "Gray mouse lemur"
+    },
+    {
+      "name": "Northern greater galago",
+      "aliases": [
+        "Garnett's bushbaby",
+        "Otolemur garnettii",
+        "Small-eared greater galago"
+      ],
+      "popularity": 9082,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Northern greater galago"
+    },
+    {
+      "name": "Fat-tailed dwarf lemur",
+      "aliases": [
+        "Cheirogaleus medius",
+        "lesser dwarf lemur",
+        "spiny forest dwarf lemur",
+        "Western fat-tailed dwarf lemur"
+      ],
+      "popularity": 9997,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Fat-tailed dwarf lemur"
+    },
+    {
+      "name": "Diademed sifaka",
+      "aliases": [
+        "Propithecus diadema"
+      ],
+      "popularity": 10290,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Diademed sifaka"
+    },
+    {
+      "name": "Verreaux's sifaka",
+      "aliases": [
+        "Propithecus verreauxi"
+      ],
+      "popularity": 10492,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Verreaux's sifaka"
+    },
+    {
+      "name": "Silky sifaka",
+      "aliases": [
+        "Propithecus candidus"
+      ],
+      "popularity": 10638,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Silky sifaka"
+    },
+    {
+      "name": "Golden bamboo lemur",
+      "aliases": [
+        "Hapalemur aureus"
+      ],
+      "popularity": 11865,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Golden bamboo lemur"
+    },
+    {
+      "name": "Madame Berthe's mouse lemur",
+      "aliases": [
+        "Microcebus berthae"
+      ],
+      "popularity": 19839,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Madame Berthe's mouse lemur"
+    },
+    {
+      "name": "Black-and-white ruffed lemur",
+      "aliases": [
+        "Varecia variegata",
+        "Varecia variegata variegata"
+      ],
+      "popularity": 20437,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Black-and-white ruffed lemur"
+    },
+    {
+      "name": "Red ruffed lemur",
+      "aliases": [
+        "Varecia rubra",
+        "Varecia variegata rubra"
+      ],
+      "popularity": 22854,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Red ruffed lemur"
+    },
+    {
+      "name": "Senegal bushbaby",
+      "aliases": [
+        "Galago senegalensis",
+        "Northern lesser galago"
+      ],
+      "popularity": 27094,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Senegal bushbaby"
+    },
+    {
+      "name": "Goodman's mouse lemur",
+      "aliases": [
+        "Microcebus lehilahytsara"
+      ],
+      "popularity": 30706,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Goodman's mouse lemur"
+    },
+    {
+      "name": "Coquerel's sifaka",
+      "aliases": [
+        "Propithecus coquereli"
+      ],
+      "popularity": 31044,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Coquerel's sifaka"
+    },
+    {
+      "name": "Indri",
+      "aliases": [
+        "Indri indri"
+      ],
+      "popularity": 53746,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Indri"
+    },
+    {
+      "name": "Ring-tailed lemur",
+      "aliases": [
+        "Lemur catta",
+        "ringtailed lemur"
+      ],
+      "popularity": 125481,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Ring-tailed lemur"
+    }
+  ]
+}

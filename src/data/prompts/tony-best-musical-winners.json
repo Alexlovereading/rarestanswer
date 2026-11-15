@@ -1,0 +1,639 @@
+{
+  "id": "tony-best-musical-winners",
+  "slug": "tony-best-musical-winners",
+  "category": "screen",
+  "question": "Name a Tony Award for Best Musical winner",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Sam Spewack",
+      "aliases": [
+        "Samuel Spewack"
+      ],
+      "popularity": 219,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Sam Spewack"
+    },
+    {
+      "name": "Bella Spewack",
+      "aliases": [
+        "Bella Cohen",
+        "Bella Cohen Spewack"
+      ],
+      "popularity": 330,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Bella Spewack"
+    },
+    {
+      "name": "Jack Weinstock",
+      "aliases": [],
+      "popularity": 803,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Jack Weinstock"
+    },
+    {
+      "name": "Willie Gilbert",
+      "aliases": [],
+      "popularity": 1186,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Willie Gilbert"
+    },
+    {
+      "name": "Jerome Chodorov",
+      "aliases": [],
+      "popularity": 1529,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Jerome Chodorov"
+    },
+    {
+      "name": "Robert Wright",
+      "aliases": [
+        "Bob Wright",
+        "Robert Craig Bob Wright",
+        "Robert Wright (musical writer)"
+      ],
+      "popularity": 1789,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Robert Wright (musical writer)"
+    },
+    {
+      "name": "Michael J. Moritz Jr.",
+      "aliases": [
+        "Michael J. Moritz",
+        "Michael Moritz"
+      ],
+      "popularity": 2137,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Michael J. Moritz Jr."
+    },
+    {
+      "name": "Franklin Lacey",
+      "aliases": [],
+      "popularity": 2164,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Franklin Lacey"
+    },
+    {
+      "name": "Richard Pike Bissell",
+      "aliases": [
+        "Richard Bissell"
+      ],
+      "popularity": 2196,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Richard Pike Bissell"
+    },
+    {
+      "name": "Douglass Wallop",
+      "aliases": [
+        "John Douglass Wallop",
+        "John Douglass Wallop III"
+      ],
+      "popularity": 2305,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Douglass Wallop"
+    },
+    {
+      "name": "George Forrest",
+      "aliases": [
+        "Chet Forrest",
+        "George Chet Forrest",
+        "George Forrest (author)"
+      ],
+      "popularity": 2544,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "George Forrest (author)"
+    },
+    {
+      "name": "Joseph Fields",
+      "aliases": [
+        "Joseph A. Fields",
+        "Joseph Albert Fields"
+      ],
+      "popularity": 2993,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Joseph Fields"
+    },
+    {
+      "name": "Burt Shevelove",
+      "aliases": [],
+      "popularity": 3012,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Burt Shevelove"
+    },
+    {
+      "name": "Herbert Fields",
+      "aliases": [],
+      "popularity": 3118,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Herbert Fields"
+    },
+    {
+      "name": "Jerome Weidman",
+      "aliases": [],
+      "popularity": 3542,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Jerome Weidman"
+    },
+    {
+      "name": "Luther Davis",
+      "aliases": [
+        "Luther Berryhill Davis"
+      ],
+      "popularity": 4074,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Luther Davis"
+    },
+    {
+      "name": "Joe Darion",
+      "aliases": [],
+      "popularity": 4259,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Joe Darion"
+    },
+    {
+      "name": "Jerry Ross",
+      "aliases": [
+        "Jerry Ross (composer)"
+      ],
+      "popularity": 6841,
+      "rarity": 0.734,
+      "tier": 4,
+      "wiki": "Jerry Ross (composer)"
+    },
+    {
+      "name": "Michael Stewart",
+      "aliases": [
+        "Michael Stewart (playwright)",
+        "Mike Stewart"
+      ],
+      "popularity": 9073,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Michael Stewart (playwright)"
+    },
+    {
+      "name": "Howard Lindsay",
+      "aliases": [
+        "Herman Nelke"
+      ],
+      "popularity": 9729,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Howard Lindsay"
+    },
+    {
+      "name": "Sherman Edwards",
+      "aliases": [],
+      "popularity": 10826,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Sherman Edwards"
+    },
+    {
+      "name": "Lee Adams",
+      "aliases": [
+        "Lee Richard Adams"
+      ],
+      "popularity": 11152,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Lee Adams"
+    },
+    {
+      "name": "Jo Swerling",
+      "aliases": [],
+      "popularity": 11858,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Jo Swerling"
+    },
+    {
+      "name": "Betty Comden",
+      "aliases": [
+        "Basya Cohen",
+        "Elizabeth Cohen"
+      ],
+      "popularity": 21738,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Betty Comden"
+    },
+    {
+      "name": "Big River",
+      "aliases": [
+        "Big River (musical)"
+      ],
+      "popularity": 23620,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Big River (musical)"
+    },
+    {
+      "name": "Dorothy Fields",
+      "aliases": [],
+      "popularity": 25072,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Dorothy Fields"
+    },
+    {
+      "name": "George Abbott",
+      "aliases": [
+        "George F. Abbott",
+        "George Francis Abbott"
+      ],
+      "popularity": 25438,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "George Abbott"
+    },
+    {
+      "name": "Jerry Bock",
+      "aliases": [],
+      "popularity": 26085,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Jerry Bock"
+    },
+    {
+      "name": "Albert Hague",
+      "aliases": [],
+      "popularity": 26166,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Albert Hague"
+    },
+    {
+      "name": "Sheldon Harnick",
+      "aliases": [
+        "Sheldon M. Harnick"
+      ],
+      "popularity": 26865,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Sheldon Harnick"
+    },
+    {
+      "name": "Russel Crouse",
+      "aliases": [],
+      "popularity": 29429,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Russel Crouse"
+    },
+    {
+      "name": "Charles Lederer",
+      "aliases": [
+        "Charles D. Lederer",
+        "Charles Davies Lederer"
+      ],
+      "popularity": 29913,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Charles Lederer"
+    },
+    {
+      "name": "Richard Adler",
+      "aliases": [],
+      "popularity": 31851,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Richard Adler"
+    },
+    {
+      "name": "Frederick Loewe",
+      "aliases": [
+        "Friedrich Löwe"
+      ],
+      "popularity": 33299,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Frederick Loewe"
+    },
+    {
+      "name": "Adolph Green",
+      "aliases": [],
+      "popularity": 33649,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Adolph Green"
+    },
+    {
+      "name": "Charles Strouse",
+      "aliases": [],
+      "popularity": 33749,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Charles Strouse"
+    },
+    {
+      "name": "Joshua Logan",
+      "aliases": [
+        "Joshua Lockwood Logan III"
+      ],
+      "popularity": 34984,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Joshua Logan"
+    },
+    {
+      "name": "Jerry Herman",
+      "aliases": [],
+      "popularity": 39002,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Jerry Herman"
+    },
+    {
+      "name": "Abe Burrows",
+      "aliases": [],
+      "popularity": 41715,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Abe Burrows"
+    },
+    {
+      "name": "Frank Loesser",
+      "aliases": [
+        "Frank Henry Loesser"
+      ],
+      "popularity": 57082,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Frank Loesser"
+    },
+    {
+      "name": "Larry Gelbart",
+      "aliases": [
+        "Larry Simon Gelbart"
+      ],
+      "popularity": 59305,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Larry Gelbart"
+    },
+    {
+      "name": "Aladdin",
+      "aliases": [
+        "Aladdin (2011 musical)",
+        "Aladdin musical",
+        "Aladdin the musical"
+      ],
+      "popularity": 61090,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Aladdin (2011 musical)"
+    },
+    {
+      "name": "Alan Jay Lerner",
+      "aliases": [
+        "Al Lerner",
+        "Albert Lerner"
+      ],
+      "popularity": 63413,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Alan Jay Lerner"
+    },
+    {
+      "name": "Meredith Willson",
+      "aliases": [
+        "Robert Meredith Reiniger Willson",
+        "Robert Meredith Willson",
+        "Robert Reiniger Meredith Willson"
+      ],
+      "popularity": 75896,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Meredith Willson"
+    },
+    {
+      "name": "Alexander Borodin",
+      "aliases": [
+        "Aleksandr Porfir'evič Borodin",
+        "Aleksandr Porfir'evich Borodin",
+        "Aleksandr Porfir'yevich Borodin",
+        "Alexander Porfiryevich Borodin",
+        "Alexandre Borodine",
+        "Alexandre Porfirievitch Borodine"
+      ],
+      "popularity": 77397,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Alexander Borodin"
+    },
+    {
+      "name": "A Gentleman's Guide to Love and Murder",
+      "aliases": [
+        "Gentleman's Guide to Love and Murder"
+      ],
+      "popularity": 82114,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "A Gentleman's Guide to Love and Murder"
+    },
+    {
+      "name": "A Strange Loop",
+      "aliases": [
+        "Strange Loop"
+      ],
+      "popularity": 86850,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "A Strange Loop"
+    },
+    {
+      "name": "LaChanze",
+      "aliases": [
+        "R. Lachanze Sapp",
+        "Rhonda Sapp"
+      ],
+      "popularity": 96854,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "LaChanze"
+    },
+    {
+      "name": "Damn Yankees",
+      "aliases": [],
+      "popularity": 99754,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Damn Yankees"
+    },
+    {
+      "name": "Man of La Mancha",
+      "aliases": [],
+      "popularity": 131497,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Man of La Mancha"
+    },
+    {
+      "name": "Sidney Sheldon",
+      "aliases": [
+        "Sidney Schechtel"
+      ],
+      "popularity": 132098,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Sidney Sheldon"
+    },
+    {
+      "name": "Oscar Hammerstein II",
+      "aliases": [
+        "Hammerstien",
+        "Oc Hammerstein",
+        "Oscar Greeley Clendenning Hammerstein II",
+        "Oscar Greely Clendenning Hammerstein II"
+      ],
+      "popularity": 282493,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Oscar Hammerstein II"
+    },
+    {
+      "name": "Billy Porter",
+      "aliases": [
+        "William Ellis Porter II",
+        "William Porter"
+      ],
+      "popularity": 307603,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Billy Porter"
+    },
+    {
+      "name": "Cole Porter",
+      "aliases": [
+        "Cole Albert Porter"
+      ],
+      "popularity": 383524,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Cole Porter"
+    },
+    {
+      "name": "Richard Rodgers",
+      "aliases": [],
+      "popularity": 395497,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Richard Rodgers"
+    },
+    {
+      "name": "The Sound of Music",
+      "aliases": [
+        "Sound of Music"
+      ],
+      "popularity": 408514,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "The Sound of Music"
+    },
+    {
+      "name": "Leonard Bernstein",
+      "aliases": [],
+      "popularity": 496982,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Leonard Bernstein"
+    },
+    {
+      "name": "Dear Evan Hansen",
+      "aliases": [],
+      "popularity": 501551,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Dear Evan Hansen"
+    },
+    {
+      "name": "Rent",
+      "aliases": [
+        "Rent (musical)"
+      ],
+      "popularity": 554705,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Rent (musical)"
+    },
+    {
+      "name": "Stephen Sondheim",
+      "aliases": [],
+      "popularity": 656732,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Stephen Sondheim"
+    },
+    {
+      "name": "Les Misérables",
+      "aliases": [
+        "Les Mis",
+        "Les Misérables (musical)",
+        "Les Miz"
+      ],
+      "popularity": 779337,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Les Misérables (musical)"
+    },
+    {
+      "name": "The Book of Mormon",
+      "aliases": [
+        "Book of Mormon",
+        "Book of Mormon (musical)",
+        "The Book of Mormon (musical)"
+      ],
+      "popularity": 910944,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "The Book of Mormon (musical)"
+    },
+    {
+      "name": "Jennifer Hudson",
+      "aliases": [
+        "J.Hud",
+        "Jennifer Kate Hudson"
+      ],
+      "popularity": 1163962,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Jennifer Hudson"
+    },
+    {
+      "name": "Hamilton",
+      "aliases": [
+        "Hamilton (musical)"
+      ],
+      "popularity": 1376574,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Hamilton (musical)"
+    },
+    {
+      "name": "Hadestown",
+      "aliases": [],
+      "popularity": 1618985,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Hadestown"
+    }
+  ]
+}

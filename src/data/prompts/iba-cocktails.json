@@ -1,0 +1,909 @@
+{
+  "id": "iba-cocktails",
+  "slug": "iba-cocktails",
+  "category": "food",
+  "question": "Name an IBA official cocktail",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Rabo de Galo",
+      "aliases": [],
+      "popularity": 645,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Rabo de Galo"
+    },
+    {
+      "name": "Russian spring punch",
+      "aliases": [],
+      "popularity": 1287,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Russian spring punch"
+    },
+    {
+      "name": "Ve.n.to",
+      "aliases": [],
+      "popularity": 2375,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Ve.n.to"
+    },
+    {
+      "name": "Spicy Fifty",
+      "aliases": [],
+      "popularity": 3698,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Spicy Fifty"
+    },
+    {
+      "name": "Derby",
+      "aliases": [
+        "Derby (cocktail)"
+      ],
+      "popularity": 3736,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Derby (cocktail)"
+    },
+    {
+      "name": "Porto flip",
+      "aliases": [],
+      "popularity": 4350,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Porto flip"
+    },
+    {
+      "name": "Canchanchara",
+      "aliases": [],
+      "popularity": 4432,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Canchanchara"
+    },
+    {
+      "name": "Gin fizz",
+      "aliases": [],
+      "popularity": 5019,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Gin fizz"
+    },
+    {
+      "name": "Rose",
+      "aliases": [
+        "Rose (cocktail)"
+      ],
+      "popularity": 5580,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Rose (cocktail)"
+    },
+    {
+      "name": "White Lady",
+      "aliases": [
+        "White Lady (cocktail)"
+      ],
+      "popularity": 6192,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "White Lady (cocktail)"
+    },
+    {
+      "name": "Old Cuban",
+      "aliases": [],
+      "popularity": 7209,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Old Cuban"
+    },
+    {
+      "name": "Casino",
+      "aliases": [
+        "Casino (cocktail)"
+      ],
+      "popularity": 8284,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Casino (cocktail)"
+    },
+    {
+      "name": "Illegal",
+      "aliases": [
+        "Illegal (cocktail)"
+      ],
+      "popularity": 8313,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Illegal (cocktail)"
+    },
+    {
+      "name": "Golden dream",
+      "aliases": [
+        "Golden dream (cocktail)"
+      ],
+      "popularity": 8719,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Golden dream (cocktail)"
+    },
+    {
+      "name": "Monkey gland",
+      "aliases": [
+        "Monkey gland (cocktail)"
+      ],
+      "popularity": 9032,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Monkey gland (cocktail)"
+    },
+    {
+      "name": "Angel face",
+      "aliases": [
+        "Angel face (cocktail)"
+      ],
+      "popularity": 10512,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Angel face (cocktail)"
+    },
+    {
+      "name": "Tuxedo",
+      "aliases": [
+        "Tuxedo (cocktail)"
+      ],
+      "popularity": 10591,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Tuxedo (cocktail)"
+    },
+    {
+      "name": "Paradise",
+      "aliases": [
+        "Paradise (cocktail)"
+      ],
+      "popularity": 11237,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "Paradise (cocktail)"
+    },
+    {
+      "name": "Trinidad sour",
+      "aliases": [],
+      "popularity": 11931,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Trinidad sour"
+    },
+    {
+      "name": "Bacardi cocktail",
+      "aliases": [
+        "Bacardi"
+      ],
+      "popularity": 12340,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Bacardi cocktail"
+    },
+    {
+      "name": "South Side",
+      "aliases": [
+        "South Side (cocktail)",
+        "Southside"
+      ],
+      "popularity": 12809,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "South Side (cocktail)"
+    },
+    {
+      "name": "Yellow bird",
+      "aliases": [
+        "Yellow bird (cocktail)"
+      ],
+      "popularity": 13051,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Yellow bird (cocktail)"
+    },
+    {
+      "name": "Mary Pickford",
+      "aliases": [
+        "Mary Pickford (cocktail)"
+      ],
+      "popularity": 14035,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Mary Pickford (cocktail)"
+    },
+    {
+      "name": "Vampiro",
+      "aliases": [
+        "Vampiro (cocktail)"
+      ],
+      "popularity": 15172,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Vampiro (cocktail)"
+    },
+    {
+      "name": "Gin basil smash",
+      "aliases": [
+        "Gin Pesto"
+      ],
+      "popularity": 15421,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Gin basil smash"
+    },
+    {
+      "name": "Planter's punch",
+      "aliases": [],
+      "popularity": 15483,
+      "rarity": 0.734,
+      "tier": 4,
+      "wiki": "Planter's punch"
+    },
+    {
+      "name": "Horse's neck",
+      "aliases": [],
+      "popularity": 15801,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Horse's neck"
+    },
+    {
+      "name": "Alexander",
+      "aliases": [
+        "Alexander (cocktail)",
+        "Princess Mary"
+      ],
+      "popularity": 16694,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Alexander (cocktail)"
+    },
+    {
+      "name": "Between the sheets",
+      "aliases": [
+        "Between the sheets (cocktail)"
+      ],
+      "popularity": 16774,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Between the sheets (cocktail)"
+    },
+    {
+      "name": "New York sour",
+      "aliases": [],
+      "popularity": 17597,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "New York sour"
+    },
+    {
+      "name": "Suffering bastard",
+      "aliases": [],
+      "popularity": 19832,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Suffering bastard"
+    },
+    {
+      "name": "Tommy's margarita",
+      "aliases": [],
+      "popularity": 20892,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Tommy's margarita"
+    },
+    {
+      "name": "Champagne cocktail",
+      "aliases": [],
+      "popularity": 21240,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Champagne cocktail"
+    },
+    {
+      "name": "Sea breeze",
+      "aliases": [
+        "Sea breeze (cocktail)"
+      ],
+      "popularity": 23794,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Sea breeze (cocktail)"
+    },
+    {
+      "name": "Hanky panky",
+      "aliases": [
+        "Hanky panky (cocktail)"
+      ],
+      "popularity": 24263,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Hanky panky (cocktail)"
+    },
+    {
+      "name": "Stinger",
+      "aliases": [
+        "Stinger (cocktail)"
+      ],
+      "popularity": 25117,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Stinger (cocktail)"
+    },
+    {
+      "name": "Hemingway special",
+      "aliases": [
+        "Hemingway daiquiri",
+        "papa doble"
+      ],
+      "popularity": 25134,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Hemingway special"
+    },
+    {
+      "name": "Clover Club cocktail",
+      "aliases": [],
+      "popularity": 25918,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Clover Club cocktail"
+    },
+    {
+      "name": "Bee's knees",
+      "aliases": [
+        "Bees Knees"
+      ],
+      "popularity": 27354,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Bee's knees"
+    },
+    {
+      "name": "Naked and famous",
+      "aliases": [
+        "Naked and famous (cocktail)"
+      ],
+      "popularity": 27851,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Naked and famous (cocktail)"
+    },
+    {
+      "name": "John Collins",
+      "aliases": [
+        "John Collins (cocktail)"
+      ],
+      "popularity": 27932,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "John Collins (cocktail)"
+    },
+    {
+      "name": "Vieux Carré",
+      "aliases": [
+        "Vieux Carré (cocktail)"
+      ],
+      "popularity": 32122,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Vieux Carré (cocktail)"
+    },
+    {
+      "name": "Martinez",
+      "aliases": [
+        "Martinez (cocktail)"
+      ],
+      "popularity": 32925,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Martinez (cocktail)"
+    },
+    {
+      "name": "Penicillin",
+      "aliases": [
+        "Penicillin (cocktail)"
+      ],
+      "popularity": 38521,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Penicillin (cocktail)"
+    },
+    {
+      "name": "Orgasm",
+      "aliases": [
+        "Orgasm (cocktail)"
+      ],
+      "popularity": 38740,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Orgasm (cocktail)"
+    },
+    {
+      "name": "Kamikaze",
+      "aliases": [
+        "Kamikaze (cocktail)"
+      ],
+      "popularity": 40000,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Kamikaze (cocktail)"
+    },
+    {
+      "name": "Kir",
+      "aliases": [
+        "Kir (cocktail)"
+      ],
+      "popularity": 43247,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Kir (cocktail)"
+    },
+    {
+      "name": "Godfather",
+      "aliases": [
+        "God Father",
+        "Godfather (cocktail)",
+        "The Godfather"
+      ],
+      "popularity": 43439,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Godfather (cocktail)"
+    },
+    {
+      "name": "Fernet con coca",
+      "aliases": [
+        "Fernandito",
+        "Fernando",
+        "Fernet and Coke"
+      ],
+      "popularity": 43865,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Fernet con coca"
+    },
+    {
+      "name": "Bramble",
+      "aliases": [
+        "Bramble (cocktail)"
+      ],
+      "popularity": 47674,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Bramble (cocktail)"
+    },
+    {
+      "name": "Rusty nail",
+      "aliases": [
+        "Rusty nail (cocktail)"
+      ],
+      "popularity": 48322,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Rusty nail (cocktail)"
+    },
+    {
+      "name": "Lemon drop",
+      "aliases": [
+        "Lemon drop (cocktail)",
+        "Lemon Drop Martini"
+      ],
+      "popularity": 55571,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Lemon drop (cocktail)"
+    },
+    {
+      "name": "Aviation",
+      "aliases": [
+        "Aviation (cocktail)"
+      ],
+      "popularity": 56597,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Aviation (cocktail)"
+    },
+    {
+      "name": "Zombie",
+      "aliases": [
+        "Zombie (cocktail)"
+      ],
+      "popularity": 59737,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Zombie (cocktail)"
+    },
+    {
+      "name": "Americano",
+      "aliases": [
+        "Americano (cocktail)"
+      ],
+      "popularity": 65476,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Americano (cocktail)"
+    },
+    {
+      "name": "French martini",
+      "aliases": [],
+      "popularity": 71885,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "French martini"
+    },
+    {
+      "name": "Grasshopper",
+      "aliases": [
+        "Grasshopper (cocktail)"
+      ],
+      "popularity": 72784,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Grasshopper (cocktail)"
+    },
+    {
+      "name": "Boulevardier",
+      "aliases": [
+        "Boulevardier (cocktail)"
+      ],
+      "popularity": 78511,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Boulevardier (cocktail)"
+    },
+    {
+      "name": "Mint julep",
+      "aliases": [],
+      "popularity": 82857,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Mint julep"
+    },
+    {
+      "name": "Black Russian",
+      "aliases": [],
+      "popularity": 86727,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Black Russian"
+    },
+    {
+      "name": "Tequila sunrise",
+      "aliases": [],
+      "popularity": 88194,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Tequila sunrise"
+    },
+    {
+      "name": "Rum and Coke",
+      "aliases": [
+        "Cuba libre"
+      ],
+      "popularity": 88260,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Rum and Coke"
+    },
+    {
+      "name": "Irish coffee",
+      "aliases": [],
+      "popularity": 93389,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Irish coffee"
+    },
+    {
+      "name": "Paper plane",
+      "aliases": [
+        "Paper plane (cocktail)"
+      ],
+      "popularity": 93736,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Paper plane (cocktail)"
+    },
+    {
+      "name": "B-52",
+      "aliases": [
+        "B-52 (cocktail)",
+        "B52",
+        "Bifi",
+        "Bifty"
+      ],
+      "popularity": 94094,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "B-52 (cocktail)"
+    },
+    {
+      "name": "Harvey Wallbanger",
+      "aliases": [],
+      "popularity": 98147,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Harvey Wallbanger"
+    },
+    {
+      "name": "Bellini",
+      "aliases": [
+        "Bellini (cocktail)"
+      ],
+      "popularity": 101055,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Bellini (cocktail)"
+    },
+    {
+      "name": "Sidecar",
+      "aliases": [
+        "Sidecar (cocktail)"
+      ],
+      "popularity": 104202,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Sidecar (cocktail)"
+    },
+    {
+      "name": "Screwdriver",
+      "aliases": [
+        "Screwdriver (cocktail)"
+      ],
+      "popularity": 107667,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Screwdriver (cocktail)"
+    },
+    {
+      "name": "Dark 'n' stormy",
+      "aliases": [],
+      "popularity": 137979,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "Dark 'n' stormy"
+    },
+    {
+      "name": "Singapore sling",
+      "aliases": [
+        "gin sling"
+      ],
+      "popularity": 138445,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Singapore sling"
+    },
+    {
+      "name": "Pisco sour",
+      "aliases": [],
+      "popularity": 157430,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Pisco sour"
+    },
+    {
+      "name": "Whiskey sour",
+      "aliases": [],
+      "popularity": 162688,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Whiskey sour"
+    },
+    {
+      "name": "Mimosa",
+      "aliases": [
+        "Mimosa (cocktail)"
+      ],
+      "popularity": 165796,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Mimosa (cocktail)"
+    },
+    {
+      "name": "Sazerac",
+      "aliases": [
+        "drinks",
+        "drinl"
+      ],
+      "popularity": 175553,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Sazerac"
+    },
+    {
+      "name": "Vesper",
+      "aliases": [
+        "Vesper (cocktail)",
+        "Vesper Martini"
+      ],
+      "popularity": 178360,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Vesper (cocktail)"
+    },
+    {
+      "name": "Daiquiri",
+      "aliases": [],
+      "popularity": 183000,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Daiquiri"
+    },
+    {
+      "name": "Sex on the beach",
+      "aliases": [],
+      "popularity": 183063,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Sex on the beach"
+    },
+    {
+      "name": "Espresso martini",
+      "aliases": [
+        "Vodka espresso"
+      ],
+      "popularity": 199561,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Espresso martini"
+    },
+    {
+      "name": "Mai Tai",
+      "aliases": [
+        "maitai"
+      ],
+      "popularity": 206440,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Mai Tai"
+    },
+    {
+      "name": "Cosmopolitan",
+      "aliases": [
+        "cosmo",
+        "Cosmopolitan (cocktail)"
+      ],
+      "popularity": 206702,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Cosmopolitan (cocktail)"
+    },
+    {
+      "name": "Caipirinha",
+      "aliases": [],
+      "popularity": 214516,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Caipirinha"
+    },
+    {
+      "name": "Manhattan",
+      "aliases": [
+        "Manhattan (cocktail)"
+      ],
+      "popularity": 229766,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Manhattan (cocktail)"
+    },
+    {
+      "name": "French 75",
+      "aliases": [
+        "French 75 (cocktail)",
+        "jeuxde"
+      ],
+      "popularity": 238148,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "French 75 (cocktail)"
+    },
+    {
+      "name": "Mojito",
+      "aliases": [],
+      "popularity": 242867,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Mojito"
+    },
+    {
+      "name": "Moscow mule",
+      "aliases": [],
+      "popularity": 261093,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Moscow mule"
+    },
+    {
+      "name": "Spritz",
+      "aliases": [
+        "Spritz (cocktail)",
+        "Spritz Veneziano"
+      ],
+      "popularity": 279030,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Spritz (cocktail)"
+    },
+    {
+      "name": "Bloody Mary",
+      "aliases": [
+        "Bloody Mary (cocktail)"
+      ],
+      "popularity": 282238,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Bloody Mary (cocktail)"
+    },
+    {
+      "name": "Paloma",
+      "aliases": [
+        "Paloma (cocktail)"
+      ],
+      "popularity": 303951,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Paloma (cocktail)"
+    },
+    {
+      "name": "Margarita",
+      "aliases": [],
+      "popularity": 304576,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Margarita"
+    },
+    {
+      "name": "Martini",
+      "aliases": [
+        "Martini (cocktail)"
+      ],
+      "popularity": 347238,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Martini (cocktail)"
+    },
+    {
+      "name": "Old fashioned",
+      "aliases": [
+        "Old fashioned (cocktail)"
+      ],
+      "popularity": 361148,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Old fashioned (cocktail)"
+    },
+    {
+      "name": "Piña colada",
+      "aliases": [],
+      "popularity": 396984,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Piña colada"
+    },
+    {
+      "name": "Negroni",
+      "aliases": [],
+      "popularity": 434238,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Negroni"
+    },
+    {
+      "name": "Long Island iced tea",
+      "aliases": [
+        "Long Island Ice Tea"
+      ],
+      "popularity": 465982,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Long Island iced tea"
+    }
+  ]
+}

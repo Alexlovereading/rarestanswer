@@ -1,0 +1,245 @@
+{
+  "id": "bob-dylan-songs",
+  "slug": "bob-dylan-songs",
+  "category": "music",
+  "question": "Name a Bob Dylan song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Unbelievable",
+      "aliases": [
+        "Unbelievable (Bob Dylan song)"
+      ],
+      "popularity": 1590,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Unbelievable (Bob Dylan song)"
+    },
+    {
+      "name": "On a Night Like This",
+      "aliases": [
+        "On a Night Like This (Bob Dylan song)"
+      ],
+      "popularity": 2374,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "On a Night Like This (Bob Dylan song)"
+    },
+    {
+      "name": "Band of the Hand",
+      "aliases": [
+        "Band of the Hand (song)"
+      ],
+      "popularity": 2424,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Band of the Hand (song)"
+    },
+    {
+      "name": "Rita May",
+      "aliases": [
+        "Rita Mae",
+        "Rita May (song)"
+      ],
+      "popularity": 2659,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Rita May (song)"
+    },
+    {
+      "name": "Baby, Stop Crying",
+      "aliases": [],
+      "popularity": 2851,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Baby, Stop Crying"
+    },
+    {
+      "name": "Beyond Here Lies Nothin'",
+      "aliases": [],
+      "popularity": 3201,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Beyond Here Lies Nothin'"
+    },
+    {
+      "name": "Slow Train",
+      "aliases": [
+        "Slow Train (Bob Dylan song)"
+      ],
+      "popularity": 4780,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Slow Train (Bob Dylan song)"
+    },
+    {
+      "name": "Man Gave Names to All the Animals",
+      "aliases": [],
+      "popularity": 5093,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Man Gave Names to All the Animals"
+    },
+    {
+      "name": "Tight Connection to My Heart",
+      "aliases": [
+        "Tight Connection to My Heart (Has Anybody Seen My Love)"
+      ],
+      "popularity": 5229,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Tight Connection to My Heart (Has Anybody Seen My Love)"
+    },
+    {
+      "name": "George Jackson",
+      "aliases": [
+        "George Jackson (song)"
+      ],
+      "popularity": 5888,
+      "rarity": 0.64,
+      "tier": 4,
+      "wiki": "George Jackson (song)"
+    },
+    {
+      "name": "Sweetheart Like You",
+      "aliases": [],
+      "popularity": 6065,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Sweetheart Like You"
+    },
+    {
+      "name": "Tonight I'll Be Staying Here with You",
+      "aliases": [],
+      "popularity": 6130,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Tonight I'll Be Staying Here with You"
+    },
+    {
+      "name": "I Threw It All Away",
+      "aliases": [],
+      "popularity": 6249,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "I Threw It All Away"
+    },
+    {
+      "name": "Mozambique",
+      "aliases": [
+        "Mozambique (song)"
+      ],
+      "popularity": 7884,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Mozambique (song)"
+    },
+    {
+      "name": "Series of Dreams",
+      "aliases": [],
+      "popularity": 10605,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Series of Dreams"
+    },
+    {
+      "name": "The Death of Emmett Till",
+      "aliases": [
+        "Death of Emmett Till",
+        "The Ballad of Emmett Till"
+      ],
+      "popularity": 11389,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "The Death of Emmett Till"
+    },
+    {
+      "name": "Not Dark Yet",
+      "aliases": [],
+      "popularity": 11751,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Not Dark Yet"
+    },
+    {
+      "name": "Watching the River Flow",
+      "aliases": [],
+      "popularity": 15021,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Watching the River Flow"
+    },
+    {
+      "name": "Jokerman",
+      "aliases": [
+        "Jokerman (song)"
+      ],
+      "popularity": 15117,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Jokerman (song)"
+    },
+    {
+      "name": "Gotta Serve Somebody",
+      "aliases": [],
+      "popularity": 17073,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Gotta Serve Somebody"
+    },
+    {
+      "name": "I Contain Multitudes",
+      "aliases": [],
+      "popularity": 21211,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "I Contain Multitudes"
+    },
+    {
+      "name": "This Wheel's on Fire",
+      "aliases": [],
+      "popularity": 25334,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "This Wheel's on Fire"
+    },
+    {
+      "name": "Murder Most Foul",
+      "aliases": [
+        "Murder Most Foul (song)"
+      ],
+      "popularity": 28080,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Murder Most Foul (song)"
+    },
+    {
+      "name": "Tangled Up in Blue",
+      "aliases": [],
+      "popularity": 39200,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Tangled Up in Blue"
+    },
+    {
+      "name": "Forever Young",
+      "aliases": [
+        "Forever Young (Bob Dylan song)"
+      ],
+      "popularity": 75282,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Forever Young (Bob Dylan song)"
+    },
+    {
+      "name": "Hurricane",
+      "aliases": [
+        "Hurricane (Bob Dylan song)"
+      ],
+      "popularity": 116169,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Hurricane (Bob Dylan song)"
+    }
+  ]
+}

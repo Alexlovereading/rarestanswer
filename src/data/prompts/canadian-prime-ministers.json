@@ -1,0 +1,256 @@
+{
+  "id": "canadian-prime-ministers",
+  "slug": "canadian-prime-ministers",
+  "category": "history",
+  "question": "Name a prime minister of Canada",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Mackenzie Bowell",
+      "aliases": [
+        "Sir Mackenzie Bowell"
+      ],
+      "popularity": 23678,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Mackenzie Bowell"
+    },
+    {
+      "name": "John Sparrow David Thompson",
+      "aliases": [
+        "John Thompson",
+        "Sir John Sparrow David Thompson"
+      ],
+      "popularity": 26095,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "John Sparrow David Thompson"
+    },
+    {
+      "name": "Arthur Meighen",
+      "aliases": [],
+      "popularity": 36958,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Arthur Meighen"
+    },
+    {
+      "name": "Charles Tupper",
+      "aliases": [
+        "Sir Charles Tupper"
+      ],
+      "popularity": 38453,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Charles Tupper"
+    },
+    {
+      "name": "Alexander Mackenzie",
+      "aliases": [
+        "Alexander Mackenzie (politician)"
+      ],
+      "popularity": 38673,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Alexander Mackenzie (politician)"
+    },
+    {
+      "name": "R. B. Bennett",
+      "aliases": [
+        "Richard Bedford Bennett",
+        "Richard Bennett"
+      ],
+      "popularity": 40821,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "R. B. Bennett"
+    },
+    {
+      "name": "John Abbott",
+      "aliases": [
+        "Sir John Abbott",
+        "Sir John Joseph Caldwell Abbott"
+      ],
+      "popularity": 47239,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "John Abbott"
+    },
+    {
+      "name": "Louis St. Laurent",
+      "aliases": [
+        "Louis-Étienne St-Laurent",
+        "Louis Stephen St. Laurent"
+      ],
+      "popularity": 56545,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Louis St. Laurent"
+    },
+    {
+      "name": "Robert Borden",
+      "aliases": [
+        "Robert L. Borden",
+        "Sir Robert Laird Borden"
+      ],
+      "popularity": 77605,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Robert Borden"
+    },
+    {
+      "name": "John Turner",
+      "aliases": [
+        "John Napier Turner"
+      ],
+      "popularity": 93586,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "John Turner"
+    },
+    {
+      "name": "Wilfrid Laurier",
+      "aliases": [
+        "Hon. Sir Wilfrid Laurier",
+        "Sir Henri Charles Wilfrid Laurier",
+        "Sir Wilfred Laurier",
+        "Sir Wilfrid Laurier"
+      ],
+      "popularity": 107312,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Wilfrid Laurier"
+    },
+    {
+      "name": "Joe Clark",
+      "aliases": [
+        "Charles Joseph Clark"
+      ],
+      "popularity": 113018,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Joe Clark"
+    },
+    {
+      "name": "John Diefenbaker",
+      "aliases": [
+        "John G. Diefenbaker",
+        "John George Diefenbaker"
+      ],
+      "popularity": 115403,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "John Diefenbaker"
+    },
+    {
+      "name": "Lester B. Pearson",
+      "aliases": [
+        "Lester Bowles Pearson",
+        "Lester Pearson",
+        "Mike Pearson"
+      ],
+      "popularity": 133645,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Lester B. Pearson"
+    },
+    {
+      "name": "Paul Martin",
+      "aliases": [],
+      "popularity": 152792,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Paul Martin"
+    },
+    {
+      "name": "Kim Campbell",
+      "aliases": [],
+      "popularity": 180185,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Kim Campbell"
+    },
+    {
+      "name": "William Lyon Mackenzie King",
+      "aliases": [
+        "Mackenzie King"
+      ],
+      "popularity": 193730,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "William Lyon Mackenzie King"
+    },
+    {
+      "name": "John A. Macdonald",
+      "aliases": [
+        "Sir John Alexander Macdonald"
+      ],
+      "popularity": 209121,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "John A. Macdonald"
+    },
+    {
+      "name": "Brian Mulroney",
+      "aliases": [
+        "Martin Brian Mulroney"
+      ],
+      "popularity": 235414,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Brian Mulroney"
+    },
+    {
+      "name": "Jean Chrétien",
+      "aliases": [
+        "Joseph Jacques Jean Chretien"
+      ],
+      "popularity": 335339,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Jean Chrétien"
+    },
+    {
+      "name": "Stephen Harper",
+      "aliases": [
+        "H.E. Stephen Harper",
+        "HE Stephen Harper",
+        "The Right Hon. Stephen Harper"
+      ],
+      "popularity": 363059,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Stephen Harper"
+    },
+    {
+      "name": "Pierre Trudeau",
+      "aliases": [
+        "Pierre Elliott Trudeau"
+      ],
+      "popularity": 654022,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Pierre Trudeau"
+    },
+    {
+      "name": "Justin Trudeau",
+      "aliases": [
+        "Justin Pierre James Trudeau"
+      ],
+      "popularity": 2657290,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Justin Trudeau"
+    },
+    {
+      "name": "Mark Carney",
+      "aliases": [
+        "Mark Joseph Carney"
+      ],
+      "popularity": 2725096,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Mark Carney"
+    }
+  ]
+}

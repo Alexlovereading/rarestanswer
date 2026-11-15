@@ -1,0 +1,366 @@
+{
+  "id": "hormones",
+  "slug": "hormones",
+  "category": "science",
+  "question": "Name a hormone",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Luteal Hormone",
+      "aliases": [],
+      "popularity": 13,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Luteal Hormone"
+    },
+    {
+      "name": "Cannabinoid receptor modulator",
+      "aliases": [],
+      "popularity": 77,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Cannabinoid receptor modulator"
+    },
+    {
+      "name": "Dynepo",
+      "aliases": [],
+      "popularity": 144,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Dynepo"
+    },
+    {
+      "name": "EFSH",
+      "aliases": [],
+      "popularity": 261,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "EFSH"
+    },
+    {
+      "name": "Hepatalin",
+      "aliases": [],
+      "popularity": 266,
+      "rarity": 0.879,
+      "tier": 5,
+      "wiki": "Hepatalin"
+    },
+    {
+      "name": "Lipokine",
+      "aliases": [],
+      "popularity": 545,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Lipokine"
+    },
+    {
+      "name": "Preprohormone",
+      "aliases": [
+        "preprohormones"
+      ],
+      "popularity": 739,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Preprohormone"
+    },
+    {
+      "name": "N-Acylphosphatidylethanolamine",
+      "aliases": [
+        "NAPEs"
+      ],
+      "popularity": 961,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "N-Acylphosphatidylethanolamine"
+    },
+    {
+      "name": "Raptin",
+      "aliases": [],
+      "popularity": 1147,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Raptin"
+    },
+    {
+      "name": "Enterogastrone",
+      "aliases": [],
+      "popularity": 1244,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Enterogastrone"
+    },
+    {
+      "name": "Trophic hormone",
+      "aliases": [],
+      "popularity": 2426,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "Trophic hormone"
+    },
+    {
+      "name": "Adrenocortical hormone",
+      "aliases": [
+        "adrenocortical hormones"
+      ],
+      "popularity": 2737,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Adrenocortical hormone"
+    },
+    {
+      "name": "Hypothalamic–pituitary hormone",
+      "aliases": [],
+      "popularity": 3175,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Hypothalamic–pituitary hormone"
+    },
+    {
+      "name": "Autacoid",
+      "aliases": [
+        "autacoids"
+      ],
+      "popularity": 3842,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Autacoid"
+    },
+    {
+      "name": "Tropic hormone",
+      "aliases": [],
+      "popularity": 4856,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Tropic hormone"
+    },
+    {
+      "name": "Gastrointestinal hormone",
+      "aliases": [
+        "gastrointestinal hormones",
+        "gut hormone",
+        "gut hormones"
+      ],
+      "popularity": 5248,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Gastrointestinal hormone"
+    },
+    {
+      "name": "Neurohormone",
+      "aliases": [],
+      "popularity": 7745,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Neurohormone"
+    },
+    {
+      "name": "Stress hormone",
+      "aliases": [],
+      "popularity": 15166,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Stress hormone"
+    },
+    {
+      "name": "Mineralocorticoid",
+      "aliases": [],
+      "popularity": 18002,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Mineralocorticoid"
+    },
+    {
+      "name": "Corticotropin-releasing hormone",
+      "aliases": [
+        "corticoliberin",
+        "corticotropin-releasing factor",
+        "CRF",
+        "CRH"
+      ],
+      "popularity": 20638,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Corticotropin-releasing hormone"
+    },
+    {
+      "name": "Bovine somatotropin",
+      "aliases": [
+        "BGH",
+        "bovine growth hormone",
+        "bovine somatotrophin",
+        "rBGH",
+        "rBST",
+        "recombinant bovine growth hormone",
+        "recombinant bovine somatotropin"
+      ],
+      "popularity": 25169,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Bovine somatotropin"
+    },
+    {
+      "name": "Peptide hormone",
+      "aliases": [
+        "peptide hormones"
+      ],
+      "popularity": 36200,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Peptide hormone"
+    },
+    {
+      "name": "Incretin",
+      "aliases": [
+        "Glucose-Dependent Insulin-Releasing Hormone",
+        "incretins"
+      ],
+      "popularity": 36497,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Incretin"
+    },
+    {
+      "name": "Thyroid hormones",
+      "aliases": [
+        "thyroid hormone"
+      ],
+      "popularity": 38315,
+      "rarity": 0.303,
+      "tier": 2,
+      "wiki": "Thyroid hormones"
+    },
+    {
+      "name": "Parathyroid hormone",
+      "aliases": [
+        "parathormone",
+        "parathyrin",
+        "parathyroid hormone 1",
+        "prepro-PTH",
+        "preproparathyroid hormone",
+        "PTH"
+      ],
+      "popularity": 40549,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Parathyroid hormone"
+    },
+    {
+      "name": "Thyroid-stimulating hormone",
+      "aliases": [
+        "thyrotropic hormone",
+        "thyrotropin",
+        "TSH"
+      ],
+      "popularity": 46909,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Thyroid-stimulating hormone"
+    },
+    {
+      "name": "Steroid hormone",
+      "aliases": [],
+      "popularity": 48702,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Steroid hormone"
+    },
+    {
+      "name": "Luteinizing hormone",
+      "aliases": [
+        "glyco-Lutropin",
+        "glyco-Lutropin [extracellular region]",
+        "ICSH",
+        "interstitial cell–stimulating hormone",
+        "lutrophin",
+        "lutropin"
+      ],
+      "popularity": 73945,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Luteinizing hormone"
+    },
+    {
+      "name": "Glucocorticoid",
+      "aliases": [
+        "glucocorticoids",
+        "glucocorticosteroid"
+      ],
+      "popularity": 86998,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Glucocorticoid"
+    },
+    {
+      "name": "Prolactin",
+      "aliases": [
+        "lactogen",
+        "lactogenic hormone",
+        "lactotropin",
+        "LTH",
+        "luteotropic hormone",
+        "luteotropin",
+        "PRL"
+      ],
+      "popularity": 97821,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "Prolactin"
+    },
+    {
+      "name": "Androgen",
+      "aliases": [
+        "androgen receptor agonists",
+        "androgenic agents",
+        "androgenic compounds",
+        "androgens"
+      ],
+      "popularity": 121062,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Androgen"
+    },
+    {
+      "name": "Estrogen",
+      "aliases": [
+        "estrogen receptor agonists",
+        "estrogenic agents",
+        "estrogenic compounds",
+        "estrogens",
+        "oestrogen"
+      ],
+      "popularity": 189245,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Estrogen"
+    },
+    {
+      "name": "Growth hormone",
+      "aliases": [
+        "artificial growth hormone",
+        "growth hormones",
+        "IPR034975",
+        "somatropin"
+      ],
+      "popularity": 211161,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Growth hormone"
+    },
+    {
+      "name": "Melatonin",
+      "aliases": [
+        "5-methoxy-N-acetyltryptamine",
+        "Melatol",
+        "Melovine",
+        "MLT",
+        "MT6",
+        "N-Acetyl-5-methoxy-tryptamine",
+        "Regulin"
+      ],
+      "popularity": 221398,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Melatonin"
+    }
+  ]
+}

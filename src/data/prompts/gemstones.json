@@ -1,0 +1,379 @@
+{
+  "id": "gemstones",
+  "slug": "gemstones",
+  "category": "science",
+  "question": "Name a gemstone",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Trapiche gemstone",
+      "aliases": [
+        "trapiche crystal",
+        "trapiche mineral"
+      ],
+      "popularity": 17,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Trapiche gemstone"
+    },
+    {
+      "name": "Der Weise",
+      "aliases": [],
+      "popularity": 811,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Der Weise"
+    },
+    {
+      "name": "Assembled gem",
+      "aliases": [
+        "composite gem",
+        "mosaic gem"
+      ],
+      "popularity": 1636,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Assembled gem"
+    },
+    {
+      "name": "Light of the Desert",
+      "aliases": [],
+      "popularity": 1898,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Light of the Desert"
+    },
+    {
+      "name": "Taiwan Jade",
+      "aliases": [],
+      "popularity": 2171,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Taiwan Jade"
+    },
+    {
+      "name": "Taiwan Black Jade",
+      "aliases": [],
+      "popularity": 3495,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Taiwan Black Jade"
+    },
+    {
+      "name": "Spinel of the Great Imperial Crown",
+      "aliases": [
+        "Menshikov Ruby"
+      ],
+      "popularity": 3962,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Spinel of the Great Imperial Crown"
+    },
+    {
+      "name": "Samarian spinel",
+      "aliases": [],
+      "popularity": 4023,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Samarian spinel"
+    },
+    {
+      "name": "Lion of Merelani",
+      "aliases": [],
+      "popularity": 4459,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Lion of Merelani"
+    },
+    {
+      "name": "Maw sit sit",
+      "aliases": [
+        "jade-albite"
+      ],
+      "popularity": 4723,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Maw sit sit"
+    },
+    {
+      "name": "Lyngurium",
+      "aliases": [
+        "ligure",
+        "ligurium"
+      ],
+      "popularity": 4932,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Lyngurium"
+    },
+    {
+      "name": "Aetites",
+      "aliases": [
+        "eagle-stone"
+      ],
+      "popularity": 6943,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Aetites"
+    },
+    {
+      "name": "Flame Queen Opal",
+      "aliases": [],
+      "popularity": 7213,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Flame Queen Opal"
+    },
+    {
+      "name": "Afghanite",
+      "aliases": [
+        "IMA1967-041"
+      ],
+      "popularity": 7275,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Afghanite"
+    },
+    {
+      "name": "Minoan seals",
+      "aliases": [
+        "Minoan seal",
+        "Minoan sealstone"
+      ],
+      "popularity": 8778,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Minoan seals"
+    },
+    {
+      "name": "Tide jewels",
+      "aliases": [],
+      "popularity": 10635,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Tide jewels"
+    },
+    {
+      "name": "Timur Ruby",
+      "aliases": [],
+      "popularity": 11375,
+      "rarity": 0.59,
+      "tier": 3,
+      "wiki": "Timur Ruby"
+    },
+    {
+      "name": "Dom Pedro aquamarine",
+      "aliases": [],
+      "popularity": 11823,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Dom Pedro aquamarine"
+    },
+    {
+      "name": "Eilat stone",
+      "aliases": [],
+      "popularity": 11862,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Eilat stone"
+    },
+    {
+      "name": "Cardinal gem",
+      "aliases": [],
+      "popularity": 17516,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Cardinal gem"
+    },
+    {
+      "name": "Diamond simulant",
+      "aliases": [
+        "diamond imitation",
+        "diamond substitute",
+        "imitation diamond",
+        "simulated diamond",
+        "substitute diamond"
+      ],
+      "popularity": 18876,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Diamond simulant"
+    },
+    {
+      "name": "Aqeeq",
+      "aliases": [
+        "Akik",
+        "Aqiq"
+      ],
+      "popularity": 21142,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Aqeeq"
+    },
+    {
+      "name": "Yttrium aluminium garnet",
+      "aliases": [
+        "YAG"
+      ],
+      "popularity": 27385,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Yttrium aluminium garnet"
+    },
+    {
+      "name": "Carbuncle",
+      "aliases": [
+        "Carbuncle (gemstone)"
+      ],
+      "popularity": 27474,
+      "rarity": 0.41,
+      "tier": 3,
+      "wiki": "Carbuncle (gemstone)"
+    },
+    {
+      "name": "Blue John",
+      "aliases": [
+        "Blue John (mineral)",
+        "Derbyshire Blue John",
+        "Derbyshire Spar"
+      ],
+      "popularity": 33796,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Blue John (mineral)"
+    },
+    {
+      "name": "Ammolite",
+      "aliases": [],
+      "popularity": 44331,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Ammolite"
+    },
+    {
+      "name": "Diamond (gemstone)",
+      "aliases": [
+        "cut diamond"
+      ],
+      "popularity": 45516,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Diamond (gemstone)"
+    },
+    {
+      "name": "Cintamani",
+      "aliases": [],
+      "popularity": 46908,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Cintamani"
+    },
+    {
+      "name": "Cabochon",
+      "aliases": [],
+      "popularity": 63816,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Cabochon"
+    },
+    {
+      "name": "Black Prince's Ruby",
+      "aliases": [],
+      "popularity": 79457,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Black Prince's Ruby"
+    },
+    {
+      "name": "Carnelian",
+      "aliases": [
+        "cornelian"
+      ],
+      "popularity": 130652,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Carnelian"
+    },
+    {
+      "name": "Peridot",
+      "aliases": [
+        "chrysolite",
+        "olvine",
+        "topaz of Theophrastus"
+      ],
+      "popularity": 180872,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Peridot"
+    },
+    {
+      "name": "Agate",
+      "aliases": [
+        "SiO₂",
+        "SiO2"
+      ],
+      "popularity": 225738,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Agate"
+    },
+    {
+      "name": "Birthstone",
+      "aliases": [],
+      "popularity": 233184,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Birthstone"
+    },
+    {
+      "name": "Emerald",
+      "aliases": [],
+      "popularity": 255953,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Emerald"
+    },
+    {
+      "name": "Ruby",
+      "aliases": [],
+      "popularity": 263331,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Ruby"
+    },
+    {
+      "name": "Jade",
+      "aliases": [],
+      "popularity": 296898,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Jade"
+    },
+    {
+      "name": "Amethyst",
+      "aliases": [
+        "Brazilian amethyst"
+      ],
+      "popularity": 361826,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Amethyst"
+    },
+    {
+      "name": "Sapphire",
+      "aliases": [],
+      "popularity": 401917,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Sapphire"
+    },
+    {
+      "name": "Diamond (Diamond)",
+      "aliases": [],
+      "popularity": 476482,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Diamond"
+    }
+  ]
+}

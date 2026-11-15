@@ -1,0 +1,213 @@
+{
+  "id": "italian-regions",
+  "slug": "italian-regions",
+  "category": "geography",
+  "question": "Name a region of Italy",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Molise",
+      "aliases": [
+        "Molise region"
+      ],
+      "popularity": 102703,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Molise"
+    },
+    {
+      "name": "Basilicata",
+      "aliases": [
+        "Basilicata region",
+        "Lucania region"
+      ],
+      "popularity": 141473,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Basilicata"
+    },
+    {
+      "name": "Trentino-Alto Adige/Südtirol",
+      "aliases": [
+        "South Tyrol-Trentino",
+        "Trentino",
+        "Trentino-Alto Adige",
+        "Trentino-Alto Adige region",
+        "Trentino-South Tyrol"
+      ],
+      "popularity": 144171,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Trentino-Alto Adige/Südtirol"
+    },
+    {
+      "name": "Umbria",
+      "aliases": [],
+      "popularity": 157386,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Umbria"
+    },
+    {
+      "name": "Marche",
+      "aliases": [
+        "MAR",
+        "Marches",
+        "the Marches"
+      ],
+      "popularity": 166451,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Marche"
+    },
+    {
+      "name": "Aosta Valley",
+      "aliases": [
+        "Autonomous Region of Aosta Valley",
+        "Valle d'Aosta",
+        "Vallée d'Aoste"
+      ],
+      "popularity": 174573,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Aosta Valley"
+    },
+    {
+      "name": "Friuli-Venezia Giulia",
+      "aliases": [
+        "Friuli-Julian March",
+        "Friuli-Venezia Giulia region"
+      ],
+      "popularity": 179347,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Friuli-Venezia Giulia"
+    },
+    {
+      "name": "Liguria",
+      "aliases": [],
+      "popularity": 202970,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Liguria"
+    },
+    {
+      "name": "Lazio",
+      "aliases": [],
+      "popularity": 256742,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Lazio"
+    },
+    {
+      "name": "Veneto",
+      "aliases": [],
+      "popularity": 279372,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Veneto"
+    },
+    {
+      "name": "Emilia-Romagna",
+      "aliases": [],
+      "popularity": 280670,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Emilia-Romagna"
+    },
+    {
+      "name": "Abruzzo",
+      "aliases": [
+        "Abruzzi",
+        "Abruzzo region"
+      ],
+      "popularity": 302105,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Abruzzo"
+    },
+    {
+      "name": "Piedmont",
+      "aliases": [],
+      "popularity": 306502,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Piedmont"
+    },
+    {
+      "name": "Apulia",
+      "aliases": [
+        "Apulia region",
+        "Puglia",
+        "Puglia region"
+      ],
+      "popularity": 328730,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Apulia"
+    },
+    {
+      "name": "Campania",
+      "aliases": [
+        "Region of Campania"
+      ],
+      "popularity": 334533,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Campania"
+    },
+    {
+      "name": "Tuscany",
+      "aliases": [
+        "Toscana"
+      ],
+      "popularity": 416271,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Tuscany"
+    },
+    {
+      "name": "Lombardy",
+      "aliases": [
+        "Lombardia"
+      ],
+      "popularity": 451368,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Lombardy"
+    },
+    {
+      "name": "Calabria",
+      "aliases": [
+        "Calabria region"
+      ],
+      "popularity": 466374,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Calabria"
+    },
+    {
+      "name": "Sardinia",
+      "aliases": [
+        "Autonomous Region of Sardinia",
+        "IT-88",
+        "IT88",
+        "Sardegna",
+        "Sardigna",
+        "Sardinian Autonomous Region"
+      ],
+      "popularity": 723653,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Sardinia"
+    },
+    {
+      "name": "Sicily",
+      "aliases": [],
+      "popularity": 864525,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Sicily"
+    }
+  ]
+}

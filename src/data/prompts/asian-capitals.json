@@ -1,0 +1,678 @@
+{
+  "id": "asian-capitals",
+  "slug": "asian-capitals",
+  "category": "geography",
+  "question": "Name a national capital in Asia",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Sri Jayawardenepura Kotte",
+      "aliases": [],
+      "popularity": 112880,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Sri Jayawardenepura Kotte"
+    },
+    {
+      "name": "Dili",
+      "aliases": [
+        "City of Dili"
+      ],
+      "popularity": 114092,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Dili"
+    },
+    {
+      "name": "Bandar Seri Begawan",
+      "aliases": [
+        "Bandar",
+        "Bandar Brunei",
+        "Brunei Town",
+        "BSB",
+        "Seri Begawan"
+      ],
+      "popularity": 128192,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Bandar Seri Begawan"
+    },
+    {
+      "name": "Thimphu",
+      "aliases": [
+        "Thimpu"
+      ],
+      "popularity": 147365,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Thimphu"
+    },
+    {
+      "name": "East Jerusalem",
+      "aliases": [
+        "Arab Jerusalem",
+        "Eastern Jerusalem"
+      ],
+      "popularity": 170888,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "East Jerusalem"
+    },
+    {
+      "name": "Manama",
+      "aliases": [
+        "al-Manāmah"
+      ],
+      "popularity": 179297,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Manama"
+    },
+    {
+      "name": "Dushanbe",
+      "aliases": [
+        "Dyushambe",
+        "Stalinabad"
+      ],
+      "popularity": 183211,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Dushanbe"
+    },
+    {
+      "name": "Kuwait City",
+      "aliases": [
+        "al-Kuwait",
+        "Kuwait"
+      ],
+      "popularity": 188252,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Kuwait City"
+    },
+    {
+      "name": "Naypyidaw",
+      "aliases": [
+        "Nay Pyi Taw",
+        "Naypyitaw"
+      ],
+      "popularity": 200147,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Naypyidaw"
+    },
+    {
+      "name": "Vientiane",
+      "aliases": [
+        "Bientani",
+        "Nakhon Viangchan",
+        "urban Vientiane",
+        "Viang chan",
+        "Viangchan",
+        "Vieṅ Čan",
+        "Vien Chang",
+        "Vienchan",
+        "Vieng-Cæn",
+        "Vieṅg-Čăn",
+        "Viengchan",
+        "Vientane",
+        "Vyentyan",
+        "Wei-t'ien",
+        "Wiangcan",
+        "Wīangčhan"
+      ],
+      "popularity": 201436,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Vientiane"
+    },
+    {
+      "name": "Ramallah",
+      "aliases": [],
+      "popularity": 237311,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Ramallah"
+    },
+    {
+      "name": "Malé",
+      "aliases": [
+        "Malé City"
+      ],
+      "popularity": 244279,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Malé"
+    },
+    {
+      "name": "Ashgabat",
+      "aliases": [
+        "Ak-Gaudan",
+        "Aschchabad",
+        "Ashabad",
+        "Ashkabad",
+        "Ashkabat",
+        "Ashqabad",
+        "Askabad",
+        "Askhabad",
+        "Ishqabad",
+        "Ishqabat",
+        "Konjikala"
+      ],
+      "popularity": 250977,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Ashgabat"
+    },
+    {
+      "name": "Bishkek",
+      "aliases": [
+        "Pishpek"
+      ],
+      "popularity": 261071,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Bishkek"
+    },
+    {
+      "name": "Sanaa",
+      "aliases": [
+        "Ṣanʻāʼ",
+        "Sana",
+        "Sana'a"
+      ],
+      "popularity": 302403,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Sanaa"
+    },
+    {
+      "name": "Amman",
+      "aliases": [
+        "Aman",
+        "Ammon",
+        "Mint of Philadelphia",
+        "Philadelphia"
+      ],
+      "popularity": 303995,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Amman"
+    },
+    {
+      "name": "Phnom Penh",
+      "aliases": [],
+      "popularity": 320594,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Phnom Penh"
+    },
+    {
+      "name": "Aden",
+      "aliases": [],
+      "popularity": 322828,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Aden"
+    },
+    {
+      "name": "Colombo",
+      "aliases": [],
+      "popularity": 342494,
+      "rarity": 0.64,
+      "tier": 4,
+      "wiki": "Colombo"
+    },
+    {
+      "name": "Muscat",
+      "aliases": [
+        "Maskat",
+        "Muskat"
+      ],
+      "popularity": 387555,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Muscat"
+    },
+    {
+      "name": "Kabul",
+      "aliases": [
+        "Cabool",
+        "Cabul",
+        "Caubul",
+        "Kabol",
+        "Kaboul"
+      ],
+      "popularity": 400822,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Kabul"
+    },
+    {
+      "name": "Yerevan",
+      "aliases": [
+        "Erivan",
+        "Iravan",
+        "Irevan",
+        "Ravan",
+        "Revan",
+        "The Pink City"
+      ],
+      "popularity": 411943,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Yerevan"
+    },
+    {
+      "name": "Astana",
+      "aliases": [
+        "Akmola",
+        "Akmolinsk",
+        "Aqmola",
+        "Nur-Sultan",
+        "Tselinograd"
+      ],
+      "popularity": 438121,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Astana"
+    },
+    {
+      "name": "Ankara",
+      "aliases": [],
+      "popularity": 442262,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Ankara"
+    },
+    {
+      "name": "Doha",
+      "aliases": [],
+      "popularity": 443388,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Doha"
+    },
+    {
+      "name": "Kathmandu",
+      "aliases": [
+        "Cadmendu",
+        "Catmandir",
+        "Catmeduour",
+        "City of Temples",
+        "Kadmendu",
+        "Kantipur",
+        "Kasthamandap",
+        "Kathmandu Metropolitan City",
+        "Kathmandu Valley",
+        "Katmandir",
+        "Katmandou",
+        "Katmandu",
+        "Khatmandu",
+        "Yambu",
+        "Yen"
+      ],
+      "popularity": 466702,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Kathmandu"
+    },
+    {
+      "name": "Tashkent",
+      "aliases": [
+        "Binkath",
+        "Chach",
+        "Choch",
+        "Shash",
+        "Shosh",
+        "Tashkand",
+        "Toshkent"
+      ],
+      "popularity": 485526,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Tashkent"
+    },
+    {
+      "name": "Pyongyang",
+      "aliases": [
+        "Capital of Revolution",
+        "P’yŏng-yang",
+        "Pyeongyang",
+        "Ryugyong"
+      ],
+      "popularity": 485847,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Pyongyang"
+    },
+    {
+      "name": "Hanoi",
+      "aliases": [
+        "Đại La",
+        "Dong Do",
+        "Hà Nội",
+        "Thang Long",
+        "Tonkin"
+      ],
+      "popularity": 488874,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Hanoi"
+    },
+    {
+      "name": "Baku",
+      "aliases": [
+        "Baki",
+        "Baky",
+        "City of Winds"
+      ],
+      "popularity": 513508,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Baku"
+    },
+    {
+      "name": "Islamabad",
+      "aliases": [],
+      "popularity": 517130,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Islamabad"
+    },
+    {
+      "name": "Ulaanbaatar",
+      "aliases": [
+        "East Hüree",
+        "Hüree",
+        "Ih Huree",
+        "Ikh Khüree",
+        "Khan of Urga",
+        "Khüree",
+        "Kulun",
+        "Niislel Hüree",
+        "Örgöö",
+        "Wulan Batuo"
+      ],
+      "popularity": 526791,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Ulaanbaatar"
+    },
+    {
+      "name": "Dhaka",
+      "aliases": [
+        "Dacca",
+        "Dhaka City"
+      ],
+      "popularity": 592392,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Dhaka"
+    },
+    {
+      "name": "Baghdad",
+      "aliases": [
+        "Bagdat"
+      ],
+      "popularity": 592403,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Baghdad"
+    },
+    {
+      "name": "Taipei",
+      "aliases": [
+        "City of Taipei",
+        "Tâi-pak",
+        "Tai Pei",
+        "Taibei",
+        "Taihoku",
+        "Taipak",
+        "Taipei City",
+        "Tanshoui",
+        "The City of Azaleas",
+        "Thòi-pet",
+        "Thoipet"
+      ],
+      "popularity": 600294,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Taipei"
+    },
+    {
+      "name": "Manila",
+      "aliases": [
+        "City of Manila",
+        "Pearl of the Orient"
+      ],
+      "popularity": 610089,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Manila"
+    },
+    {
+      "name": "Damascus",
+      "aliases": [
+        "Jasmine city",
+        "Mint of Damascus",
+        "Sham city"
+      ],
+      "popularity": 630039,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Damascus"
+    },
+    {
+      "name": "Beirut",
+      "aliases": [
+        "Beyrout"
+      ],
+      "popularity": 654593,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Beirut"
+    },
+    {
+      "name": "Riyadh",
+      "aliases": [
+        "Al-Riyadh",
+        "AlRiyadh",
+        "Ar-Riyadh",
+        "Reyadh"
+      ],
+      "popularity": 696450,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Riyadh"
+    },
+    {
+      "name": "New Delhi",
+      "aliases": [
+        "Nai Dilli",
+        "Nayi Dilli",
+        "NDMC area",
+        "New Delhi Municipal Council Area"
+      ],
+      "popularity": 708071,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "New Delhi"
+    },
+    {
+      "name": "Kuala Lumpur",
+      "aliases": [
+        "Federal Territory of Kuala Lumpur",
+        "K.L."
+      ],
+      "popularity": 731225,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Kuala Lumpur"
+    },
+    {
+      "name": "Seoul",
+      "aliases": [
+        "Gyeongseong",
+        "Hanseong",
+        "Hanyang",
+        "Keijō",
+        "Keijou",
+        "Namgyeong",
+        "Seoul Special City",
+        "Sŏul T'ŭkpyŏlsi",
+        "Wiryeseong"
+      ],
+      "popularity": 777926,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Seoul"
+    },
+    {
+      "name": "Abu Dhabi",
+      "aliases": [
+        "Abudhabi"
+      ],
+      "popularity": 847427,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Abu Dhabi"
+    },
+    {
+      "name": "Bangkok",
+      "aliases": [
+        "BKK",
+        "Krung Thep",
+        "Sia-Yut'hia"
+      ],
+      "popularity": 879921,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "Bangkok"
+    },
+    {
+      "name": "Tehran",
+      "aliases": [
+        "Ṭihrán"
+      ],
+      "popularity": 936817,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Tehran"
+    },
+    {
+      "name": "Beijing",
+      "aliases": [
+        "Bākgīng",
+        "Beeijing",
+        "Bei Jing Shi",
+        "Beijing Shi",
+        "Beiping",
+        "Chi",
+        "Chi-ch’êng",
+        "Chi-cheng",
+        "Chung-tu",
+        "Chungtu",
+        "Jicheng",
+        "Khanbalik",
+        "Khanbaliq",
+        "Pak-kiann",
+        "Pe-king",
+        "Pei-ching",
+        "Pei-p'ing",
+        "Pei-ping",
+        "Peip'ing",
+        "Peiping",
+        "Pekin",
+        "Peking Shi",
+        "Poh-cin",
+        "Shun-t'ien",
+        "Shun-tien",
+        "Shuntian",
+        "Shuntian Fu",
+        "Shuntianfu",
+        "Yan-ching",
+        "Yanjing",
+        "Yanking",
+        "Zhongdu"
+      ],
+      "popularity": 1010010,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Beijing"
+    },
+    {
+      "name": "Moscow",
+      "aliases": [
+        "City of Moscow",
+        "Moskovĭ",
+        "Moskvë",
+        "Moskvi",
+        "Mosky"
+      ],
+      "popularity": 1015847,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Moscow"
+    },
+    {
+      "name": "Jakarta",
+      "aliases": [
+        "Djakarta",
+        "DKI Jakarta",
+        "Jakarta Province",
+        "Jakarta Specific Region",
+        "Specific Capital Region of Jakarta",
+        "Specific Region of Jakarta"
+      ],
+      "popularity": 1058203,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Jakarta"
+    },
+    {
+      "name": "Jerusalem",
+      "aliases": [
+        "Aelia Capitolina",
+        "J'lem",
+        "Mint of Aelia Capitolina"
+      ],
+      "popularity": 1480057,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Jerusalem"
+    },
+    {
+      "name": "Tokyo",
+      "aliases": [
+        "Edo",
+        "Jedo",
+        "Tokei",
+        "Tokio",
+        "Tokyo Metropolis",
+        "Tokyo Metropolitan prefecture",
+        "Tokyo Prefecture",
+        "Tōkyō-to",
+        "Yedo"
+      ],
+      "popularity": 1529771,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Tokyo"
+    },
+    {
+      "name": "Singapore",
+      "aliases": [
+        "Garden City",
+        "Lion City",
+        "Republic of Singapore",
+        "S'pore",
+        "Singapore City"
+      ],
+      "popularity": 3673202,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Singapore"
+    }
+  ]
+}

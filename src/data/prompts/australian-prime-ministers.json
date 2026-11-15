@@ -1,0 +1,360 @@
+{
+  "id": "australian-prime-ministers",
+  "slug": "australian-prime-ministers",
+  "category": "history",
+  "question": "Name a prime minister of Australia",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Joseph Cook",
+      "aliases": [
+        "Sir Joseph Cook"
+      ],
+      "popularity": 18402,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Joseph Cook"
+    },
+    {
+      "name": "James Scullin",
+      "aliases": [
+        "James Henry Scullin",
+        "The Right Honourable James Scullin"
+      ],
+      "popularity": 20455,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "James Scullin"
+    },
+    {
+      "name": "George Reid",
+      "aliases": [
+        "George Houstoun Reid",
+        "Right Hon. G. H. Reid",
+        "Sir George Houston Reid",
+        "Sir George Houstoun Reid",
+        "Sir George Reid"
+      ],
+      "popularity": 20701,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "George Reid"
+    },
+    {
+      "name": "Earle Page",
+      "aliases": [
+        "Sir Earle Christmas Grafton Page",
+        "Sir Earle Page"
+      ],
+      "popularity": 22481,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Earle Page"
+    },
+    {
+      "name": "Arthur Fadden",
+      "aliases": [
+        "Sir Arthur William Fadden",
+        "Sir William Fadden"
+      ],
+      "popularity": 22776,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Arthur Fadden"
+    },
+    {
+      "name": "Stanley Bruce",
+      "aliases": [
+        "S. M. Bruce",
+        "Stanley Melbourne Bruce",
+        "Viscount Bruce of Melbourne"
+      ],
+      "popularity": 25368,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Stanley Bruce"
+    },
+    {
+      "name": "Chris Watson",
+      "aliases": [
+        "John Christian Tanck",
+        "John Christian Watson",
+        "The Honourable John Christian Watson"
+      ],
+      "popularity": 29824,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Chris Watson"
+    },
+    {
+      "name": "Andrew Fisher",
+      "aliases": [
+        "The Right Honourable Andrew Fisher"
+      ],
+      "popularity": 30652,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Andrew Fisher"
+    },
+    {
+      "name": "Frank Forde",
+      "aliases": [
+        "Francis Michael Forde",
+        "The Right Honourable Frank Forde"
+      ],
+      "popularity": 30768,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Frank Forde"
+    },
+    {
+      "name": "Joseph Lyons",
+      "aliases": [
+        "Joe Lyons",
+        "Joseph Aloysius Lyons",
+        "The Right Honourable Joseph Lyons"
+      ],
+      "popularity": 44397,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Joseph Lyons"
+    },
+    {
+      "name": "John McEwen",
+      "aliases": [
+        "Sir John \"Black Jack\" McEwen",
+        "Sir John McEwen"
+      ],
+      "popularity": 47842,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "John McEwen"
+    },
+    {
+      "name": "Alfred Deakin",
+      "aliases": [
+        "The Honourable Alfred Deakin"
+      ],
+      "popularity": 49898,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Alfred Deakin"
+    },
+    {
+      "name": "Billy Hughes",
+      "aliases": [
+        "The Right Honourable William Hughes",
+        "W.M. Hughes",
+        "William Hughes",
+        "William Morris \"Billy\" Hughes",
+        "William Morris Hughes"
+      ],
+      "popularity": 56349,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Billy Hughes"
+    },
+    {
+      "name": "Ben Chifley",
+      "aliases": [
+        "Joseph Benedict Chifley",
+        "The Right Honourable Ben Chifley"
+      ],
+      "popularity": 57422,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Ben Chifley"
+    },
+    {
+      "name": "Edmund Barton",
+      "aliases": [
+        "Sir Edmund Barton",
+        "Toby Barton"
+      ],
+      "popularity": 61938,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Edmund Barton"
+    },
+    {
+      "name": "John Curtin",
+      "aliases": [
+        "John Joseph Curtin",
+        "The Right Honourable John Curtin"
+      ],
+      "popularity": 110786,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "John Curtin"
+    },
+    {
+      "name": "Malcolm Fraser",
+      "aliases": [
+        "John Malcolm Fraser",
+        "The Right Honourable Malcolm Fraser"
+      ],
+      "popularity": 119842,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Malcolm Fraser"
+    },
+    {
+      "name": "William McMahon",
+      "aliases": [
+        "Billy McMahon",
+        "Sir William McMahon"
+      ],
+      "popularity": 129778,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "William McMahon"
+    },
+    {
+      "name": "Robert Menzies",
+      "aliases": [
+        "Robert Gordon Menzies",
+        "Sir Robert Gordon Menzies",
+        "Sir Robert Menzies"
+      ],
+      "popularity": 168327,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Robert Menzies"
+    },
+    {
+      "name": "Paul Keating",
+      "aliases": [
+        "Paul John Keating",
+        "The Honourable Paul Keating"
+      ],
+      "popularity": 196792,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Paul Keating"
+    },
+    {
+      "name": "Bob Hawke",
+      "aliases": [
+        "Robert James Lee \"Bob\" Hawke",
+        "Robert James Lee Hawke",
+        "The Honourable Bob Hawke"
+      ],
+      "popularity": 209194,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Bob Hawke"
+    },
+    {
+      "name": "Malcolm Turnbull",
+      "aliases": [
+        "Malcolm Bligh Turnbull"
+      ],
+      "popularity": 216532,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Malcolm Turnbull"
+    },
+    {
+      "name": "Julia Gillard",
+      "aliases": [
+        "Julia Eileen Gillard",
+        "Prime Minister Gillard",
+        "The Honourable Julia Gillard MP"
+      ],
+      "popularity": 231583,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Julia Gillard"
+    },
+    {
+      "name": "Scott Morrison",
+      "aliases": [
+        "ScoMo",
+        "Scott John Morrison"
+      ],
+      "popularity": 234487,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Scott Morrison"
+    },
+    {
+      "name": "Gough Whitlam",
+      "aliases": [
+        "E. G. Whitlam",
+        "Edward Gough Whitlam"
+      ],
+      "popularity": 242977,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Gough Whitlam"
+    },
+    {
+      "name": "John Gorton",
+      "aliases": [
+        "Sir John Gorton",
+        "Sir John Grey Gorton"
+      ],
+      "popularity": 247893,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "John Gorton"
+    },
+    {
+      "name": "Tony Abbott",
+      "aliases": [
+        "Anthony John Abbott",
+        "Anthony John \"Tony\" Abbott"
+      ],
+      "popularity": 248380,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Tony Abbott"
+    },
+    {
+      "name": "Kevin Rudd",
+      "aliases": [
+        "Kevin Michael Rudd",
+        "Lu Kewen",
+        "The Honorable Kevin Rudd",
+        "The Honorable Kevin Rudd AC"
+      ],
+      "popularity": 269657,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Kevin Rudd"
+    },
+    {
+      "name": "John Howard",
+      "aliases": [
+        "John Winston Howard",
+        "The Honourable John Howard"
+      ],
+      "popularity": 276777,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "John Howard"
+    },
+    {
+      "name": "Harold Holt",
+      "aliases": [
+        "Harold Edward Holt",
+        "The Right Honourable Harold Holt"
+      ],
+      "popularity": 328986,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Harold Holt"
+    },
+    {
+      "name": "Anthony Albanese",
+      "aliases": [
+        "Albo",
+        "Anthony Norman Albanese"
+      ],
+      "popularity": 1127963,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Anthony Albanese"
+    }
+  ]
+}

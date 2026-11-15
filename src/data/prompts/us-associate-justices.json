@@ -1,0 +1,1078 @@
+{
+  "id": "us-associate-justices",
+  "slug": "us-associate-justices",
+  "category": "history",
+  "question": "Name an associate justice of the US Supreme Court",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "William Strong",
+      "aliases": [
+        "William Strong (Supreme Court justice)"
+      ],
+      "popularity": 171,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "William Strong (Supreme Court justice)"
+    },
+    {
+      "name": "Howell E. Jackson",
+      "aliases": [
+        "Howell Edmunds Jackson",
+        "Howell Jackson"
+      ],
+      "popularity": 3785,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Howell E. Jackson"
+    },
+    {
+      "name": "Robert Trimble",
+      "aliases": [],
+      "popularity": 3829,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Robert Trimble"
+    },
+    {
+      "name": "Peter V. Daniel",
+      "aliases": [
+        "Peter Daniel",
+        "Peter Vivian Daniel"
+      ],
+      "popularity": 3966,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Peter V. Daniel"
+    },
+    {
+      "name": "Horace Harmon Lurton",
+      "aliases": [
+        "Horace H. Lurton",
+        "Horace Lurton"
+      ],
+      "popularity": 4356,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Horace Harmon Lurton"
+    },
+    {
+      "name": "James M. Wayne",
+      "aliases": [
+        "James Moore Wayne",
+        "James Wayne"
+      ],
+      "popularity": 4456,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "James M. Wayne"
+    },
+    {
+      "name": "William Burnham Woods",
+      "aliases": [
+        "William B. Woods",
+        "William Woods"
+      ],
+      "popularity": 4528,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "William Burnham Woods"
+    },
+    {
+      "name": "Ward Hunt",
+      "aliases": [],
+      "popularity": 4751,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Ward Hunt"
+    },
+    {
+      "name": "Noah Haynes Swayne",
+      "aliases": [
+        "Noah H. Swayne",
+        "Noah Swayne"
+      ],
+      "popularity": 5052,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Noah Haynes Swayne"
+    },
+    {
+      "name": "Thomas Todd",
+      "aliases": [],
+      "popularity": 5204,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Thomas Todd"
+    },
+    {
+      "name": "Alfred Moore",
+      "aliases": [],
+      "popularity": 5461,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Alfred Moore"
+    },
+    {
+      "name": "Joseph Rucker Lamar",
+      "aliases": [
+        "Joseph R. Lamar"
+      ],
+      "popularity": 5471,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "Joseph Rucker Lamar"
+    },
+    {
+      "name": "John Hessin Clarke",
+      "aliases": [
+        "John Clarke",
+        "John H. Clarke"
+      ],
+      "popularity": 5502,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "John Hessin Clarke"
+    },
+    {
+      "name": "William Johnson",
+      "aliases": [
+        "William Johnson Jr.",
+        "William Johnson (judge)"
+      ],
+      "popularity": 5682,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "William Johnson (judge)"
+    },
+    {
+      "name": "Gabriel Duvall",
+      "aliases": [],
+      "popularity": 6442,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Gabriel Duvall"
+    },
+    {
+      "name": "Smith Thompson",
+      "aliases": [],
+      "popularity": 6566,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Smith Thompson"
+    },
+    {
+      "name": "Edward Terry Sanford",
+      "aliases": [
+        "Edward Sanford",
+        "Edward T. Sanford"
+      ],
+      "popularity": 6682,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Edward Terry Sanford"
+    },
+    {
+      "name": "John McKinley",
+      "aliases": [],
+      "popularity": 6874,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "John McKinley"
+    },
+    {
+      "name": "George Shiras Jr.",
+      "aliases": [],
+      "popularity": 6982,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "George Shiras Jr."
+    },
+    {
+      "name": "Henry Brockholst Livingston",
+      "aliases": [],
+      "popularity": 7127,
+      "rarity": 0.814,
+      "tier": 5,
+      "wiki": "Henry Brockholst Livingston"
+    },
+    {
+      "name": "Henry Baldwin",
+      "aliases": [
+        "Henry Baldwin (judge)"
+      ],
+      "popularity": 7364,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Henry Baldwin (judge)"
+    },
+    {
+      "name": "Samuel Nelson",
+      "aliases": [],
+      "popularity": 7522,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Samuel Nelson"
+    },
+    {
+      "name": "Rufus W. Peckham",
+      "aliases": [
+        "Rufus Peckham",
+        "Rufus Wheeler Peckham"
+      ],
+      "popularity": 7798,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Rufus W. Peckham"
+    },
+    {
+      "name": "Joseph P. Bradley",
+      "aliases": [
+        "Joseph Bradley"
+      ],
+      "popularity": 8173,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "Joseph P. Bradley"
+    },
+    {
+      "name": "Nathan Clifford",
+      "aliases": [],
+      "popularity": 8238,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Nathan Clifford"
+    },
+    {
+      "name": "David J. Brewer",
+      "aliases": [
+        "David Brewer",
+        "David Josiah Brewer"
+      ],
+      "popularity": 8265,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "David J. Brewer"
+    },
+    {
+      "name": "Harold H. Burton",
+      "aliases": [
+        "Harold Burton",
+        "Harold Hitz Burton"
+      ],
+      "popularity": 8275,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Harold H. Burton"
+    },
+    {
+      "name": "John Catron",
+      "aliases": [],
+      "popularity": 8317,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "John Catron"
+    },
+    {
+      "name": "Samuel Blatchford",
+      "aliases": [
+        "Samuel M. Blatchford"
+      ],
+      "popularity": 8372,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Samuel Blatchford"
+    },
+    {
+      "name": "Thomas Johnson",
+      "aliases": [
+        "Thomas Johnson (judge)"
+      ],
+      "popularity": 8478,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Thomas Johnson (judge)"
+    },
+    {
+      "name": "Samuel Freeman Miller",
+      "aliases": [
+        "Samuel F. Miller",
+        "Samuel Miller"
+      ],
+      "popularity": 8542,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Samuel Freeman Miller"
+    },
+    {
+      "name": "Pierce Butler",
+      "aliases": [
+        "Pierce Butler (judge)"
+      ],
+      "popularity": 8863,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Pierce Butler (judge)"
+    },
+    {
+      "name": "Philip P. Barbour",
+      "aliases": [
+        "Philip Barbour",
+        "Philip Pendleton Barbour"
+      ],
+      "popularity": 8935,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Philip P. Barbour"
+    },
+    {
+      "name": "Stanley Matthews",
+      "aliases": [
+        "Stanley Matthews (judge)",
+        "Thomas Stanley Matthews"
+      ],
+      "popularity": 9199,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Stanley Matthews (judge)"
+    },
+    {
+      "name": "Wiley Rutledge",
+      "aliases": [
+        "Wiley B. Rutledge",
+        "Wiley Blount Rutledge",
+        "Wiley Blount Rutledge Jr.",
+        "Wiley Rutledge Jr."
+      ],
+      "popularity": 9348,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Wiley Rutledge"
+    },
+    {
+      "name": "John Blair Jr.",
+      "aliases": [],
+      "popularity": 9442,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "John Blair Jr."
+    },
+    {
+      "name": "Robert Cooper Grier",
+      "aliases": [
+        "Robert C. Grier",
+        "Robert Grier"
+      ],
+      "popularity": 9550,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Robert Cooper Grier"
+    },
+    {
+      "name": "Joseph McKenna",
+      "aliases": [],
+      "popularity": 11564,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "Joseph McKenna"
+    },
+    {
+      "name": "Henry Billings Brown",
+      "aliases": [
+        "H. B. Brown",
+        "Henry B. Brown"
+      ],
+      "popularity": 11758,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Henry Billings Brown"
+    },
+    {
+      "name": "William Cushing",
+      "aliases": [],
+      "popularity": 11801,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "William Cushing"
+    },
+    {
+      "name": "Levi Woodbury",
+      "aliases": [
+        "Hon. Levi Woodbury"
+      ],
+      "popularity": 13872,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Levi Woodbury"
+    },
+    {
+      "name": "Willis Van Devanter",
+      "aliases": [],
+      "popularity": 14026,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Willis Van Devanter"
+    },
+    {
+      "name": "John Archibald Campbell",
+      "aliases": [
+        "J. A. Campbell",
+        "John A. Campbell",
+        "John Campbell"
+      ],
+      "popularity": 15464,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "John Archibald Campbell"
+    },
+    {
+      "name": "Charles Evans Whittaker",
+      "aliases": [
+        "Charles E. Whittaker"
+      ],
+      "popularity": 15691,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Charles Evans Whittaker"
+    },
+    {
+      "name": "Sherman Minton",
+      "aliases": [],
+      "popularity": 16214,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Sherman Minton"
+    },
+    {
+      "name": "Stanley Forman Reed",
+      "aliases": [
+        "Stanley F. Reed",
+        "Stanley Reed"
+      ],
+      "popularity": 16286,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Stanley Forman Reed"
+    },
+    {
+      "name": "Benjamin Robbins Curtis",
+      "aliases": [
+        "B. R. Curtis",
+        "Benjamin Curtis",
+        "Benjamin R. Curtis"
+      ],
+      "popularity": 16443,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "Benjamin Robbins Curtis"
+    },
+    {
+      "name": "George Sutherland",
+      "aliases": [
+        "Alexander George Sutherland",
+        "Alexander George Sutherland Jr.",
+        "George Alexander Sutherland"
+      ],
+      "popularity": 17170,
+      "rarity": 0.539,
+      "tier": 3,
+      "wiki": "George Sutherland"
+    },
+    {
+      "name": "Horace Gray",
+      "aliases": [],
+      "popularity": 17358,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Horace Gray"
+    },
+    {
+      "name": "Owen Roberts",
+      "aliases": [
+        "Owen J. Roberts",
+        "Owen Josephus Roberts"
+      ],
+      "popularity": 19115,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Owen Roberts"
+    },
+    {
+      "name": "William Henry Moody",
+      "aliases": [
+        "William H. Moody"
+      ],
+      "popularity": 19186,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "William Henry Moody"
+    },
+    {
+      "name": "William Paterson",
+      "aliases": [
+        "William Paterson (judge)"
+      ],
+      "popularity": 21149,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "William Paterson (judge)"
+    },
+    {
+      "name": "Mahlon Pitney",
+      "aliases": [],
+      "popularity": 22058,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Mahlon Pitney"
+    },
+    {
+      "name": "Stephen Johnson Field",
+      "aliases": [
+        "Stephen J. Field"
+      ],
+      "popularity": 22125,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Stephen Johnson Field"
+    },
+    {
+      "name": "John McLean",
+      "aliases": [],
+      "popularity": 22155,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "John McLean"
+    },
+    {
+      "name": "David Davis",
+      "aliases": [
+        "David Davis (Supreme Court justice)"
+      ],
+      "popularity": 22559,
+      "rarity": 0.461,
+      "tier": 3,
+      "wiki": "David Davis (Supreme Court justice)"
+    },
+    {
+      "name": "Lucius Quintus Cincinnatus Lamar",
+      "aliases": [
+        "L. Q. C. Lamar",
+        "Lucius Q. C. Lamar",
+        "Lucius Quintus Cincinnatus Lamar II"
+      ],
+      "popularity": 23960,
+      "rarity": 0.451,
+      "tier": 3,
+      "wiki": "Lucius Quintus Cincinnatus Lamar"
+    },
+    {
+      "name": "James Clark McReynolds",
+      "aliases": [
+        "James C. McReynolds",
+        "James McReynolds"
+      ],
+      "popularity": 26205,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "James Clark McReynolds"
+    },
+    {
+      "name": "Joseph Story",
+      "aliases": [],
+      "popularity": 31750,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Joseph Story"
+    },
+    {
+      "name": "William R. Day",
+      "aliases": [
+        "William Day",
+        "William Rufus Day"
+      ],
+      "popularity": 37631,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "William R. Day"
+    },
+    {
+      "name": "Tom C. Clark",
+      "aliases": [
+        "Thomas C. Clark",
+        "Thomas Campbell Clark",
+        "Thomas Clark",
+        "Tom Clark"
+      ],
+      "popularity": 38561,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Tom C. Clark"
+    },
+    {
+      "name": "Edward Douglass White",
+      "aliases": [
+        "Edward D. White",
+        "Edward D. White II",
+        "Edward D. White Jr.",
+        "Edward Douglas White",
+        "Edward Douglass White Jr.",
+        "Edward Douglass White Junior"
+      ],
+      "popularity": 42371,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Edward Douglass White"
+    },
+    {
+      "name": "Frank Murphy",
+      "aliases": [],
+      "popularity": 45402,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Frank Murphy"
+    },
+    {
+      "name": "Samuel Chase",
+      "aliases": [
+        "Old Bacon Face"
+      ],
+      "popularity": 47683,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Samuel Chase"
+    },
+    {
+      "name": "Arthur Goldberg",
+      "aliases": [
+        "Arthur J. Goldberg",
+        "Arthur Joseph Goldberg"
+      ],
+      "popularity": 50087,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Arthur Goldberg"
+    },
+    {
+      "name": "John Marshall Harlan II",
+      "aliases": [
+        "John Harlan",
+        "John M. Harlan"
+      ],
+      "popularity": 50543,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "John Marshall Harlan II"
+    },
+    {
+      "name": "Benjamin N. Cardozo",
+      "aliases": [
+        "Benjamin Cardozo",
+        "Benjamin Nathan Cardozo"
+      ],
+      "popularity": 58025,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Benjamin N. Cardozo"
+    },
+    {
+      "name": "Harlan F. Stone",
+      "aliases": [
+        "Harlan Fiske Stone",
+        "Harlan Stone"
+      ],
+      "popularity": 61102,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Harlan F. Stone"
+    },
+    {
+      "name": "Potter Stewart",
+      "aliases": [],
+      "popularity": 66103,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Potter Stewart"
+    },
+    {
+      "name": "Bushrod Washington",
+      "aliases": [],
+      "popularity": 66220,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Bushrod Washington"
+    },
+    {
+      "name": "John Rutledge",
+      "aliases": [
+        "Dictator John"
+      ],
+      "popularity": 66764,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "John Rutledge"
+    },
+    {
+      "name": "Abe Fortas",
+      "aliases": [
+        "Abraham Abe Fortas",
+        "Abraham Fortas"
+      ],
+      "popularity": 67172,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Abe Fortas"
+    },
+    {
+      "name": "James F. Byrnes",
+      "aliases": [
+        "James Byrnes",
+        "James Francis Byrnes"
+      ],
+      "popularity": 74610,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "James F. Byrnes"
+    },
+    {
+      "name": "John Marshall Harlan",
+      "aliases": [
+        "John Marshall Harlan I",
+        "The Great Dissenter"
+      ],
+      "popularity": 74786,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "John Marshall Harlan"
+    },
+    {
+      "name": "Harry Blackmun",
+      "aliases": [
+        "Harry A. Blackmun",
+        "Harry Andrew Blackmun"
+      ],
+      "popularity": 77023,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Harry Blackmun"
+    },
+    {
+      "name": "Felix Frankfurter",
+      "aliases": [],
+      "popularity": 78516,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Felix Frankfurter"
+    },
+    {
+      "name": "William J. Brennan Jr.",
+      "aliases": [
+        "William Brennan",
+        "William J. Brennan",
+        "William Joseph Brennan Jr."
+      ],
+      "popularity": 83685,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "William J. Brennan Jr."
+    },
+    {
+      "name": "James Wilson",
+      "aliases": [
+        "James Wilson (Founding Father)"
+      ],
+      "popularity": 100792,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "James Wilson (Founding Father)"
+    },
+    {
+      "name": "Hugo Black",
+      "aliases": [
+        "Hugo L. Black"
+      ],
+      "popularity": 112097,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Hugo Black"
+    },
+    {
+      "name": "Lewis F. Powell Jr.",
+      "aliases": [
+        "Lewis F. Powell",
+        "Lewis Franklin Powell",
+        "Lewis Franklin Powell Jr.",
+        "Lewis Powell",
+        "Louis Powell"
+      ],
+      "popularity": 115438,
+      "rarity": 0.225,
+      "tier": 2,
+      "wiki": "Lewis F. Powell Jr."
+    },
+    {
+      "name": "Byron White",
+      "aliases": [
+        "Byron Raymond White",
+        "Whizzer"
+      ],
+      "popularity": 124139,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Byron White"
+    },
+    {
+      "name": "Louis Brandeis",
+      "aliases": [
+        "Louis David Brandeis",
+        "Louis Dembitz Brandeis"
+      ],
+      "popularity": 130038,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Louis Brandeis"
+    },
+    {
+      "name": "Charles Evans Hughes",
+      "aliases": [
+        "Charles E. Hughes",
+        "Charles Evans Hughes Sr.",
+        "Charles Hughes",
+        "Chas. E. Hughes",
+        "Governor Hughes"
+      ],
+      "popularity": 140109,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Charles Evans Hughes"
+    },
+    {
+      "name": "David Souter",
+      "aliases": [
+        "David Hackett Souter"
+      ],
+      "popularity": 140363,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "David Souter"
+    },
+    {
+      "name": "Oliver Wendell Holmes Jr.",
+      "aliases": [
+        "Oliver Holmes",
+        "Oliver Holmes Jr.",
+        "Oliver W. Holmes Jr.",
+        "Oliver Wendell Holmes"
+      ],
+      "popularity": 145865,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Oliver Wendell Holmes Jr."
+    },
+    {
+      "name": "William O. Douglas",
+      "aliases": [
+        "William Douglas",
+        "William Orville Douglas"
+      ],
+      "popularity": 171097,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "William O. Douglas"
+    },
+    {
+      "name": "John Paul Stevens",
+      "aliases": [
+        "John P. Stevens"
+      ],
+      "popularity": 173749,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "John Paul Stevens"
+    },
+    {
+      "name": "Stephen Breyer",
+      "aliases": [
+        "Stephen Gerald Breyer"
+      ],
+      "popularity": 237218,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Stephen Breyer"
+    },
+    {
+      "name": "Anthony Kennedy",
+      "aliases": [
+        "Anthony M. Kennedy",
+        "Anthony McLeod Kennedy",
+        "Justice Anthony Kennedy"
+      ],
+      "popularity": 247007,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Anthony Kennedy"
+    },
+    {
+      "name": "William Rehnquist",
+      "aliases": [
+        "Chief Justice Rehnquist",
+        "Justice Rehnquist",
+        "William Hubbs Rehnquist"
+      ],
+      "popularity": 250831,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "William Rehnquist"
+    },
+    {
+      "name": "Sandra Day O'Connor",
+      "aliases": [
+        "Sandra D. O'Connor",
+        "Sandra Day",
+        "Sandra O'Connor"
+      ],
+      "popularity": 323797,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Sandra Day O'Connor"
+    },
+    {
+      "name": "Antonin Scalia",
+      "aliases": [
+        "Antonin G. Scalia",
+        "Antonin Gregory Scalia",
+        "Justice Scalia",
+        "Nino",
+        "Scalia"
+      ],
+      "popularity": 419601,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "Antonin Scalia"
+    },
+    {
+      "name": "Elena Kagan",
+      "aliases": [],
+      "popularity": 434186,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Elena Kagan"
+    },
+    {
+      "name": "Neil Gorsuch",
+      "aliases": [
+        "Neil M. Gorsuch",
+        "Neil McGill Gorsuch"
+      ],
+      "popularity": 446237,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Neil Gorsuch"
+    },
+    {
+      "name": "Sonia Sotomayor",
+      "aliases": [
+        "Justice Sotomayor",
+        "Sonia Maria Sotomayor"
+      ],
+      "popularity": 490183,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Sonia Sotomayor"
+    },
+    {
+      "name": "Brett Kavanaugh",
+      "aliases": [
+        "Brett M. Kavanaugh",
+        "Brett Michael Kavanaugh",
+        "Justice Kavanaugh"
+      ],
+      "popularity": 519943,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Brett Kavanaugh"
+    },
+    {
+      "name": "Amy Coney Barrett",
+      "aliases": [
+        "A. Barrett",
+        "ACB",
+        "Amy Coney",
+        "Amy Vivian Coney",
+        "Amy Vivian Coney Barrett"
+      ],
+      "popularity": 547164,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Amy Coney Barrett"
+    },
+    {
+      "name": "Samuel Alito",
+      "aliases": [
+        "Samuel A. Alito",
+        "Samuel A. Alito Jr."
+      ],
+      "popularity": 583403,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Samuel Alito"
+    },
+    {
+      "name": "Thurgood Marshall",
+      "aliases": [
+        "Thoroughgood Marshall",
+        "Thoroughgood \"Thurgood\" Marshall"
+      ],
+      "popularity": 628596,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Thurgood Marshall"
+    },
+    {
+      "name": "Robert H. Jackson",
+      "aliases": [
+        "Robert Houghwout Jackson"
+      ],
+      "popularity": 700771,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Robert H. Jackson"
+    },
+    {
+      "name": "Ketanji Brown Jackson",
+      "aliases": [
+        "Ketanji Brown",
+        "Ketanji Onyika Brown",
+        "Ketanji Onyika Brown Jackson"
+      ],
+      "popularity": 720982,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Ketanji Brown Jackson"
+    },
+    {
+      "name": "Ruth Bader Ginsburg",
+      "aliases": [
+        "Joan Ruth Bader",
+        "Joan Ruth Bader Ginsburg",
+        "Joan Ruth Biggie",
+        "Joan Ruth Biggie Ginsburg",
+        "Notorious RBG",
+        "RBG",
+        "Ruth Bader",
+        "Ruth Joan Biggie Ginsburg"
+      ],
+      "popularity": 776107,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Ruth Bader Ginsburg"
+    },
+    {
+      "name": "Clarence Thomas",
+      "aliases": [],
+      "popularity": 958905,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Clarence Thomas"
+    }
+  ]
+}

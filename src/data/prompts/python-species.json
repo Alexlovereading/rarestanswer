@@ -1,0 +1,467 @@
+{
+  "id": "python-species",
+  "slug": "python-species",
+  "category": "animals",
+  "question": "Name a species of python",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Bothrochilus meridionalis",
+      "aliases": [],
+      "popularity": 29,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Bothrochilus meridionalis"
+    },
+    {
+      "name": "Bothrochilus biakensis",
+      "aliases": [],
+      "popularity": 33,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Bothrochilus biakensis"
+    },
+    {
+      "name": "Bothrochilus montanus",
+      "aliases": [],
+      "popularity": 96,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Bothrochilus montanus"
+    },
+    {
+      "name": "Bothrochilus huonensis",
+      "aliases": [],
+      "popularity": 155,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Bothrochilus huonensis"
+    },
+    {
+      "name": "Stimson's python",
+      "aliases": [
+        "Antaresia stimsoni"
+      ],
+      "popularity": 383,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Stimson's python"
+    },
+    {
+      "name": "Antaresia papuensis",
+      "aliases": [
+        "Papuan spotted python"
+      ],
+      "popularity": 808,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Antaresia papuensis"
+    },
+    {
+      "name": "Leiopython biakensis",
+      "aliases": [],
+      "popularity": 1137,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Leiopython biakensis"
+    },
+    {
+      "name": "Simalia nauta",
+      "aliases": [],
+      "popularity": 1539,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Simalia nauta"
+    },
+    {
+      "name": "Leiopython fredparkeri",
+      "aliases": [],
+      "popularity": 1646,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Leiopython fredparkeri"
+    },
+    {
+      "name": "Python kyaiktiyo",
+      "aliases": [],
+      "popularity": 1824,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Python kyaiktiyo"
+    },
+    {
+      "name": "Simalia clastolepis",
+      "aliases": [],
+      "popularity": 1905,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Simalia clastolepis"
+    },
+    {
+      "name": "Simalia tracyae",
+      "aliases": [],
+      "popularity": 2106,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Simalia tracyae"
+    },
+    {
+      "name": "Morelia azurea",
+      "aliases": [],
+      "popularity": 2344,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Morelia azurea"
+    },
+    {
+      "name": "Python europaeus",
+      "aliases": [],
+      "popularity": 2955,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Python europaeus"
+    },
+    {
+      "name": "Morelia imbricata",
+      "aliases": [
+        "Southwestern carpet python"
+      ],
+      "popularity": 3178,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Morelia imbricata"
+    },
+    {
+      "name": "Bismarck ringed python",
+      "aliases": [
+        "Bothrochilus boa"
+      ],
+      "popularity": 3665,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Bismarck ringed python"
+    },
+    {
+      "name": "Liasis mackloti",
+      "aliases": [],
+      "popularity": 3699,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Liasis mackloti"
+    },
+    {
+      "name": "Rough-scaled python",
+      "aliases": [
+        "Morelia carinata"
+      ],
+      "popularity": 3861,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Rough-scaled python"
+    },
+    {
+      "name": "Python anchietae",
+      "aliases": [
+        "Anchieta's dwarf python",
+        "Angolan python"
+      ],
+      "popularity": 5905,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Python anchietae"
+    },
+    {
+      "name": "Pygmy python",
+      "aliases": [
+        "Antaresia perthensis"
+      ],
+      "popularity": 6232,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Pygmy python"
+    },
+    {
+      "name": "Sumatran short-tailed python",
+      "aliases": [
+        "matapatos",
+        "Python curtus"
+      ],
+      "popularity": 6545,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Sumatran short-tailed python"
+    },
+    {
+      "name": "Morelia spilota metcalfei",
+      "aliases": [
+        "Morelia mippughae"
+      ],
+      "popularity": 6676,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Morelia spilota metcalfei"
+    },
+    {
+      "name": "Borneo python",
+      "aliases": [
+        "Borneo short-tailed python",
+        "Python breitensteini",
+        "Python curtus breitensteini"
+      ],
+      "popularity": 7161,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Borneo python"
+    },
+    {
+      "name": "Apodora",
+      "aliases": [
+        "Apodora papuana"
+      ],
+      "popularity": 7559,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Apodora"
+    },
+    {
+      "name": "Water python",
+      "aliases": [
+        "Brown water python",
+        "Liasis fuscus"
+      ],
+      "popularity": 7899,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Water python"
+    },
+    {
+      "name": "Morelia bredli",
+      "aliases": [
+        "Bredl's Python"
+      ],
+      "popularity": 8128,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Morelia bredli"
+    },
+    {
+      "name": "D'Albertis python",
+      "aliases": [
+        "Leiopython albertisii"
+      ],
+      "popularity": 8152,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "D'Albertis python"
+    },
+    {
+      "name": "Timor python",
+      "aliases": [
+        "Malayopython timoriensis"
+      ],
+      "popularity": 8723,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Timor python"
+    },
+    {
+      "name": "Simalia boeleni",
+      "aliases": [],
+      "popularity": 8765,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Simalia boeleni"
+    },
+    {
+      "name": "Spotted python",
+      "aliases": [
+        "Antaresia maculosa"
+      ],
+      "popularity": 10655,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Spotted python"
+    },
+    {
+      "name": "Oenpelli python",
+      "aliases": [
+        "Nyctophilopython oenpelliensis"
+      ],
+      "popularity": 12464,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Oenpelli python"
+    },
+    {
+      "name": "Python brongersmai",
+      "aliases": [
+        "blood python",
+        "Brongersma's short-tailed python",
+        "Malaysian blood python",
+        "P. brongersmai",
+        "Python curtus brongersmai",
+        "red blood python",
+        "red short-tailed python",
+        "Sumatran blood python"
+      ],
+      "popularity": 16084,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Python brongersmai"
+    },
+    {
+      "name": "Olive python",
+      "aliases": [
+        "Liasis olivaceus"
+      ],
+      "popularity": 16487,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Olive python"
+    },
+    {
+      "name": "Woma python",
+      "aliases": [
+        "Aspidites ramsayi",
+        "Ramsay's python",
+        "sand python",
+        "woma"
+      ],
+      "popularity": 16516,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Woma python"
+    },
+    {
+      "name": "Black-headed python",
+      "aliases": [
+        "Aspidites melanocephalus"
+      ],
+      "popularity": 20924,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Black-headed python"
+    },
+    {
+      "name": "Children's python",
+      "aliases": [
+        "Antaresia childreni"
+      ],
+      "popularity": 22406,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Children's python"
+    },
+    {
+      "name": "Southern African rock python",
+      "aliases": [
+        "P. natalensis",
+        "Python natalensis",
+        "Southern rock python"
+      ],
+      "popularity": 24123,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Southern African rock python"
+    },
+    {
+      "name": "Australian scrub python",
+      "aliases": [
+        "Kinghorn's python",
+        "Simalia kinghorni"
+      ],
+      "popularity": 25162,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Australian scrub python"
+    },
+    {
+      "name": "Amethystine python",
+      "aliases": [
+        "Amethystpython",
+        "Morelia amethistina",
+        "Neuguinea-Amethystpython"
+      ],
+      "popularity": 25964,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Amethystine python"
+    },
+    {
+      "name": "Green tree python",
+      "aliases": [
+        "Morelia viridis"
+      ],
+      "popularity": 43143,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Green tree python"
+    },
+    {
+      "name": "Morelia spilota",
+      "aliases": [
+        "carpet python"
+      ],
+      "popularity": 53641,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Morelia spilota"
+    },
+    {
+      "name": "Central African rock python",
+      "aliases": [
+        "African rock python",
+        "Python sebae"
+      ],
+      "popularity": 59867,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Central African rock python"
+    },
+    {
+      "name": "Indian python",
+      "aliases": [
+        "Asiatic rock python",
+        "black-tailed python",
+        "Indian Rock Python",
+        "Python molurus"
+      ],
+      "popularity": 69534,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Indian python"
+    },
+    {
+      "name": "Ball python",
+      "aliases": [
+        "P. regius",
+        "Python regius",
+        "Royal python"
+      ],
+      "popularity": 208851,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Ball python"
+    },
+    {
+      "name": "Burmese python",
+      "aliases": [
+        "Python bivittatus"
+      ],
+      "popularity": 246828,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Burmese python"
+    },
+    {
+      "name": "Reticulated python",
+      "aliases": [
+        "Malayopython reticulatus"
+      ],
+      "popularity": 284903,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Reticulated python"
+    }
+  ]
+}

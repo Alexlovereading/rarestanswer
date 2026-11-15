@@ -1,0 +1,506 @@
+{
+  "id": "spices",
+  "slug": "spices",
+  "category": "food",
+  "question": "Name a spice",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Mustard powder",
+      "aliases": [],
+      "popularity": 139,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Mustard powder"
+    },
+    {
+      "name": "Tataki gobo",
+      "aliases": [],
+      "popularity": 390,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Tataki gobo"
+    },
+    {
+      "name": "Taioro",
+      "aliases": [],
+      "popularity": 977,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Taioro"
+    },
+    {
+      "name": "Ginger",
+      "aliases": [
+        "ginger rhizome",
+        "ginger root",
+        "Ginger (spice)"
+      ],
+      "popularity": 1022,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Ginger (spice)"
+    },
+    {
+      "name": "Paprika Tap de Cortí",
+      "aliases": [
+        "Pimentón de Mallorca"
+      ],
+      "popularity": 1198,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Paprika Tap de Cortí"
+    },
+    {
+      "name": "Sancho",
+      "aliases": [
+        "Sancho (spice)"
+      ],
+      "popularity": 1651,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Sancho (spice)"
+    },
+    {
+      "name": "Lemon zest",
+      "aliases": [
+        "grated lemon peel",
+        "lemon peel"
+      ],
+      "popularity": 1860,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Lemon zest"
+    },
+    {
+      "name": "Caraway seed",
+      "aliases": [
+        "caraway fruit",
+        "caraway seeds"
+      ],
+      "popularity": 2432,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Caraway seed"
+    },
+    {
+      "name": "Kōrēgusu",
+      "aliases": [],
+      "popularity": 3901,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Kōrēgusu"
+    },
+    {
+      "name": "Jakhya",
+      "aliases": [
+        "dog mustard",
+        "wild mustard"
+      ],
+      "popularity": 4519,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Jakhya"
+    },
+    {
+      "name": "Peppercorn",
+      "aliases": [],
+      "popularity": 5601,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Peppercorn"
+    },
+    {
+      "name": "Piper retrofractum",
+      "aliases": [],
+      "popularity": 7466,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Piper retrofractum"
+    },
+    {
+      "name": "Celery powder",
+      "aliases": [],
+      "popularity": 8417,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Celery powder"
+    },
+    {
+      "name": "Sharena sol",
+      "aliases": [],
+      "popularity": 8489,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Sharena sol"
+    },
+    {
+      "name": "Erős Pista",
+      "aliases": [
+        "Strong Steve"
+      ],
+      "popularity": 10923,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Erős Pista"
+    },
+    {
+      "name": "Creole mustard",
+      "aliases": [],
+      "popularity": 11268,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Creole mustard"
+    },
+    {
+      "name": "Facing heaven pepper",
+      "aliases": [
+        "Capsicum annuum ‘Chao Tian Jiao’"
+      ],
+      "popularity": 12304,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Facing heaven pepper"
+    },
+    {
+      "name": "Onion powder",
+      "aliases": [],
+      "popularity": 12461,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Onion powder"
+    },
+    {
+      "name": "Lawry's The Prime Rib",
+      "aliases": [
+        "Lawry's"
+      ],
+      "popularity": 15307,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Lawry's The Prime Rib"
+    },
+    {
+      "name": "Kampot pepper",
+      "aliases": [
+        "Indochina pepper",
+        "Indochinese pepper"
+      ],
+      "popularity": 16912,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Kampot pepper"
+    },
+    {
+      "name": "Garlic powder",
+      "aliases": [],
+      "popularity": 18516,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Garlic powder"
+    },
+    {
+      "name": "Amchoor",
+      "aliases": [
+        "aamchur",
+        "amchur",
+        "mango powder"
+      ],
+      "popularity": 20356,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Amchoor"
+    },
+    {
+      "name": "Alligator pepper",
+      "aliases": [
+        "hepper pepper",
+        "mbongo spice"
+      ],
+      "popularity": 21194,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Alligator pepper"
+    },
+    {
+      "name": "Urfa biber",
+      "aliases": [
+        "isot",
+        "isot pepper",
+        "Urfa pepper"
+      ],
+      "popularity": 25157,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Urfa biber"
+    },
+    {
+      "name": "Alpinia galanga",
+      "aliases": [],
+      "popularity": 25353,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Alpinia galanga"
+    },
+    {
+      "name": "Mahleb",
+      "aliases": [
+        "mahalepi",
+        "mahlab"
+      ],
+      "popularity": 29527,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Mahleb"
+    },
+    {
+      "name": "Spice mix",
+      "aliases": [
+        "spice blend",
+        "spice mixture"
+      ],
+      "popularity": 30472,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Spice mix"
+    },
+    {
+      "name": "Panch phoron",
+      "aliases": [
+        "Pancha Phutana"
+      ],
+      "popularity": 36564,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Panch phoron"
+    },
+    {
+      "name": "Crushed red pepper",
+      "aliases": [
+        "CRP",
+        "red pepper flakes"
+      ],
+      "popularity": 41213,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Crushed red pepper"
+    },
+    {
+      "name": "Aleurites moluccanus",
+      "aliases": [
+        "Aleurites moluccana",
+        "buah keras",
+        "candleberry",
+        "Candlenut",
+        "godou",
+        "Indian walnut",
+        "Kekuna tree",
+        "kemiri",
+        "kukui nut tree",
+        "nuez de la India",
+        "varnish tree"
+      ],
+      "popularity": 48427,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Aleurites moluccanus"
+    },
+    {
+      "name": "Chili powder",
+      "aliases": [
+        "chile powder",
+        "chili powder blend",
+        "chilli powder",
+        "powdered chili"
+      ],
+      "popularity": 49749,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Chili powder"
+    },
+    {
+      "name": "Chili oil",
+      "aliases": [],
+      "popularity": 58261,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Chili oil"
+    },
+    {
+      "name": "Aleppo pepper",
+      "aliases": [
+        "Halaby pepper"
+      ],
+      "popularity": 63944,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Aleppo pepper"
+    },
+    {
+      "name": "Thai basil",
+      "aliases": [],
+      "popularity": 73902,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Thai basil"
+    },
+    {
+      "name": "Curry powder",
+      "aliases": [],
+      "popularity": 98138,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Curry powder"
+    },
+    {
+      "name": "Mustard seed",
+      "aliases": [
+        "mustard plant grain",
+        "Sinapis grain"
+      ],
+      "popularity": 111565,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Mustard seed"
+    },
+    {
+      "name": "Juniper berry",
+      "aliases": [
+        "Juniperi pseudo-fructus"
+      ],
+      "popularity": 120721,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Juniper berry"
+    },
+    {
+      "name": "Allspice",
+      "aliases": [
+        "Jamaica pepper"
+      ],
+      "popularity": 191386,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Allspice"
+    },
+    {
+      "name": "Bay leaf",
+      "aliases": [],
+      "popularity": 203420,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Bay leaf"
+    },
+    {
+      "name": "Sichuan pepper",
+      "aliases": [
+        "Chinese coriander",
+        "Sichuan peppercorn"
+      ],
+      "popularity": 230146,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Sichuan pepper"
+    },
+    {
+      "name": "Vanilla",
+      "aliases": [],
+      "popularity": 271507,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Vanilla"
+    },
+    {
+      "name": "Salt",
+      "aliases": [
+        "culinary salt",
+        "dietary salt",
+        "dietary sodium",
+        "edible salt",
+        "table salt"
+      ],
+      "popularity": 273052,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Salt"
+    },
+    {
+      "name": "Asafoetida",
+      "aliases": [
+        "Devil's dung",
+        "stinking gum"
+      ],
+      "popularity": 282720,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Asafoetida"
+    },
+    {
+      "name": "Chili pepper",
+      "aliases": [
+        "chile",
+        "chile pepper",
+        "chili",
+        "chilli",
+        "chilli pepper",
+        "hot pepper",
+        "spicy chili pepper",
+        "spicy pepper"
+      ],
+      "popularity": 319941,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Chili pepper"
+    },
+    {
+      "name": "Paprika",
+      "aliases": [],
+      "popularity": 321917,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Paprika"
+    },
+    {
+      "name": "Cardamom",
+      "aliases": [
+        "cardamom seeds",
+        "cardamon",
+        "cardamum",
+        "ground cadamom"
+      ],
+      "popularity": 341740,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Cardamom"
+    },
+    {
+      "name": "Nutmeg",
+      "aliases": [
+        "nutmeg seed"
+      ],
+      "popularity": 389597,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Nutmeg"
+    },
+    {
+      "name": "Cinnamon",
+      "aliases": [
+        "canel",
+        "canella"
+      ],
+      "popularity": 415057,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Cinnamon"
+    },
+    {
+      "name": "Saffron",
+      "aliases": [],
+      "popularity": 459008,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Saffron"
+    }
+  ]
+}

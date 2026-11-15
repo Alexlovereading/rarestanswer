@@ -1,0 +1,652 @@
+{
+  "id": "prince-songs",
+  "slug": "prince-songs",
+  "category": "music",
+  "question": "Name a Prince song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Glass Cutter",
+      "aliases": [
+        "Glass Cutter (song)"
+      ],
+      "popularity": 67,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Glass Cutter (song)"
+    },
+    {
+      "name": "Live from Paisley Park",
+      "aliases": [],
+      "popularity": 121,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Live from Paisley Park"
+    },
+    {
+      "name": "One Song",
+      "aliases": [
+        "One Song (Prince song)"
+      ],
+      "popularity": 137,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "One Song (Prince song)"
+    },
+    {
+      "name": "Strange Relationship",
+      "aliases": [
+        "Strange Relationship (Prince song)"
+      ],
+      "popularity": 528,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Strange Relationship (Prince song)"
+    },
+    {
+      "name": "Sexuality",
+      "aliases": [
+        "Sexuality (Prince song)"
+      ],
+      "popularity": 719,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Sexuality (Prince song)"
+    },
+    {
+      "name": "S.S.T.",
+      "aliases": [
+        "S.S.T. (song)"
+      ],
+      "popularity": 1262,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "S.S.T. (song)"
+    },
+    {
+      "name": "Supercute",
+      "aliases": [],
+      "popularity": 1364,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Supercute"
+    },
+    {
+      "name": "Automatic",
+      "aliases": [
+        "Automatic (Prince song)"
+      ],
+      "popularity": 1447,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Automatic (Prince song)"
+    },
+    {
+      "name": "Don't Talk 2 Strangers",
+      "aliases": [],
+      "popularity": 1520,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Don't Talk 2 Strangers"
+    },
+    {
+      "name": "F.U.N.K.",
+      "aliases": [],
+      "popularity": 1533,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "F.U.N.K."
+    },
+    {
+      "name": "Days of Wild",
+      "aliases": [],
+      "popularity": 1743,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Days of Wild"
+    },
+    {
+      "name": "Fury",
+      "aliases": [
+        "Fury (song)"
+      ],
+      "popularity": 2164,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Fury (song)"
+    },
+    {
+      "name": "The Work, pt. 1",
+      "aliases": [],
+      "popularity": 2248,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "The Work, pt. 1"
+    },
+    {
+      "name": "Somebody's Somebody",
+      "aliases": [],
+      "popularity": 2468,
+      "rarity": 0.814,
+      "tier": 5,
+      "wiki": "Somebody's Somebody"
+    },
+    {
+      "name": "Guitar",
+      "aliases": [
+        "Guitar (song)"
+      ],
+      "popularity": 2616,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Guitar (song)"
+    },
+    {
+      "name": "The Holy River",
+      "aliases": [
+        "Holy River"
+      ],
+      "popularity": 2783,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "The Holy River"
+    },
+    {
+      "name": "U Make My Sun Shine",
+      "aliases": [],
+      "popularity": 2785,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "U Make My Sun Shine"
+    },
+    {
+      "name": "Purple Medley",
+      "aliases": [],
+      "popularity": 2924,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Purple Medley"
+    },
+    {
+      "name": "Love Sign",
+      "aliases": [],
+      "popularity": 2926,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Love Sign"
+    },
+    {
+      "name": "Space",
+      "aliases": [
+        "Space (Prince song)"
+      ],
+      "popularity": 2936,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Space (Prince song)"
+    },
+    {
+      "name": "Dinner with Delores",
+      "aliases": [],
+      "popularity": 3173,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Dinner with Delores"
+    },
+    {
+      "name": "Fallinlove2nite",
+      "aliases": [],
+      "popularity": 3455,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Fallinlove2nite"
+    },
+    {
+      "name": "Damn U",
+      "aliases": [],
+      "popularity": 3521,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Damn U"
+    },
+    {
+      "name": "Te Amo Corazón",
+      "aliases": [],
+      "popularity": 3543,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Te Amo Corazón"
+    },
+    {
+      "name": "The Truth",
+      "aliases": [
+        "The Truth (Prince song)",
+        "Truth",
+        "Truth (Prince song)"
+      ],
+      "popularity": 3615,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "The Truth (Prince song)"
+    },
+    {
+      "name": "Call My Name",
+      "aliases": [
+        "Call My Name (Prince song)"
+      ],
+      "popularity": 3666,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Call My Name (Prince song)"
+    },
+    {
+      "name": "So What the Fuss",
+      "aliases": [],
+      "popularity": 3894,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "So What the Fuss"
+    },
+    {
+      "name": "Letitgo",
+      "aliases": [],
+      "popularity": 4172,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Letitgo"
+    },
+    {
+      "name": "The Morning Papers",
+      "aliases": [
+        "Morning Papers"
+      ],
+      "popularity": 4232,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "The Morning Papers"
+    },
+    {
+      "name": "The Greatest Romance Ever Sold",
+      "aliases": [
+        "Greatest Romance Ever Sold"
+      ],
+      "popularity": 4273,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "The Greatest Romance Ever Sold"
+    },
+    {
+      "name": "Musicology",
+      "aliases": [
+        "Musicology (song)"
+      ],
+      "popularity": 4309,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Musicology (song)"
+    },
+    {
+      "name": "Private Joy",
+      "aliases": [],
+      "popularity": 4344,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Private Joy"
+    },
+    {
+      "name": "Thunder",
+      "aliases": [
+        "Thunder (Prince song)"
+      ],
+      "popularity": 4363,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Thunder (Prince song)"
+    },
+    {
+      "name": "Black Sweat",
+      "aliases": [],
+      "popularity": 4470,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Black Sweat"
+    },
+    {
+      "name": "Pop Life",
+      "aliases": [
+        "Pop Life (song)"
+      ],
+      "popularity": 4799,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Pop Life (song)"
+    },
+    {
+      "name": "Peach",
+      "aliases": [
+        "Peach (Prince song)"
+      ],
+      "popularity": 5009,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Peach (Prince song)"
+    },
+    {
+      "name": "New Power Generation",
+      "aliases": [
+        "New Power Generation (song)"
+      ],
+      "popularity": 5813,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "New Power Generation (song)"
+    },
+    {
+      "name": "Pink Cashmere",
+      "aliases": [],
+      "popularity": 6222,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Pink Cashmere"
+    },
+    {
+      "name": "The Future",
+      "aliases": [
+        "Future",
+        "Future (song)",
+        "The Future (song)"
+      ],
+      "popularity": 6437,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "The Future (song)"
+    },
+    {
+      "name": "I Wish U Heaven",
+      "aliases": [],
+      "popularity": 6547,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "I Wish U Heaven"
+    },
+    {
+      "name": "Let's Work",
+      "aliases": [],
+      "popularity": 6684,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Let's Work"
+    },
+    {
+      "name": "Glam Slam",
+      "aliases": [],
+      "popularity": 7741,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Glam Slam"
+    },
+    {
+      "name": "Money Don't Matter 2 Night",
+      "aliases": [],
+      "popularity": 8127,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Money Don't Matter 2 Night"
+    },
+    {
+      "name": "I Hate U",
+      "aliases": [
+        "I Hate U (Prince song)"
+      ],
+      "popularity": 8525,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "I Hate U (Prince song)"
+    },
+    {
+      "name": "The Arms of Orion",
+      "aliases": [
+        "Arms of Orion"
+      ],
+      "popularity": 8536,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "The Arms of Orion"
+    },
+    {
+      "name": "Gold",
+      "aliases": [
+        "Gold (Prince song)"
+      ],
+      "popularity": 8766,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Gold (Prince song)"
+    },
+    {
+      "name": "Cinnamon Girl",
+      "aliases": [
+        "Cinnamon Girl (Prince song)"
+      ],
+      "popularity": 9073,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Cinnamon Girl (Prince song)"
+    },
+    {
+      "name": "Let's Pretend We're Married",
+      "aliases": [],
+      "popularity": 9289,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Let's Pretend We're Married"
+    },
+    {
+      "name": "Girls & Boys",
+      "aliases": [
+        "Girls & Boys (Prince song)"
+      ],
+      "popularity": 9444,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Girls & Boys (Prince song)"
+    },
+    {
+      "name": "My Name Is Prince",
+      "aliases": [],
+      "popularity": 9985,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "My Name Is Prince"
+    },
+    {
+      "name": "Thieves in the Temple",
+      "aliases": [],
+      "popularity": 10083,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Thieves in the Temple"
+    },
+    {
+      "name": "America",
+      "aliases": [
+        "America (Prince song)"
+      ],
+      "popularity": 10311,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "America (Prince song)"
+    },
+    {
+      "name": "Scandalous!",
+      "aliases": [],
+      "popularity": 10598,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Scandalous!"
+    },
+    {
+      "name": "Delirious",
+      "aliases": [
+        "Delirious (Prince song)"
+      ],
+      "popularity": 11595,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Delirious (Prince song)"
+    },
+    {
+      "name": "Do Me, Baby",
+      "aliases": [],
+      "popularity": 12054,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Do Me, Baby"
+    },
+    {
+      "name": "A Love Bizarre",
+      "aliases": [
+        "Love Bizarre"
+      ],
+      "popularity": 12055,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "A Love Bizarre"
+    },
+    {
+      "name": "Alphabet St.",
+      "aliases": [],
+      "popularity": 14616,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Alphabet St."
+    },
+    {
+      "name": "I Could Never Take the Place of Your Man",
+      "aliases": [],
+      "popularity": 15607,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "I Could Never Take the Place of Your Man"
+    },
+    {
+      "name": "Gett Off",
+      "aliases": [],
+      "popularity": 15867,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Gett Off"
+    },
+    {
+      "name": "Paisley Park",
+      "aliases": [
+        "Paisley Park (song)"
+      ],
+      "popularity": 16354,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Paisley Park (song)"
+    },
+    {
+      "name": "Partyman",
+      "aliases": [],
+      "popularity": 16875,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Partyman"
+    },
+    {
+      "name": "If I Was Your Girlfriend",
+      "aliases": [],
+      "popularity": 20527,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "If I Was Your Girlfriend"
+    },
+    {
+      "name": "Sexy MF",
+      "aliases": [],
+      "popularity": 21676,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Sexy MF"
+    },
+    {
+      "name": "Cream",
+      "aliases": [
+        "Cream (Prince song)"
+      ],
+      "popularity": 23381,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Cream (Prince song)"
+    },
+    {
+      "name": "Batdance",
+      "aliases": [],
+      "popularity": 28585,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Batdance"
+    },
+    {
+      "name": "U Got the Look",
+      "aliases": [
+        "Charley Beck"
+      ],
+      "popularity": 31920,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "U Got the Look"
+    },
+    {
+      "name": "Sign o' the Times",
+      "aliases": [
+        "Sign o' the Times (song)",
+        "Sign \"☮\" the Times"
+      ],
+      "popularity": 36457,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Sign o' the Times (song)"
+    },
+    {
+      "name": "The Most Beautiful Girl in the World",
+      "aliases": [
+        "Most Beautiful Girl in the World",
+        "Most Beautiful Girl in the World (Prince song)",
+        "The Most Beautiful Girl in the World (Prince song)"
+      ],
+      "popularity": 47542,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "The Most Beautiful Girl in the World (Prince song)"
+    },
+    {
+      "name": "Breakfast Can Wait",
+      "aliases": [],
+      "popularity": 51983,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Breakfast Can Wait"
+    },
+    {
+      "name": "Little Red Corvette",
+      "aliases": [],
+      "popularity": 57897,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Little Red Corvette"
+    },
+    {
+      "name": "I Feel for You",
+      "aliases": [
+        "I Feel 4 U"
+      ],
+      "popularity": 75991,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "I Feel for You"
+    }
+  ]
+}

@@ -1,0 +1,2059 @@
+{
+  "id": "pheasant-species",
+  "slug": "pheasant-species",
+  "category": "animals",
+  "question": "Name a species of pheasant, quail, grouse, or turkey",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Sumatran peacock-pheasant",
+      "aliases": [
+        "Bronze-tailed Peacock-Pheasant",
+        "Polyplectron chalcurum"
+      ],
+      "popularity": 0,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Sumatran peacock-pheasant"
+    },
+    {
+      "name": "Malaysian partridge",
+      "aliases": [
+        "Arborophila campbelli"
+      ],
+      "popularity": 15,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Malaysian partridge"
+    },
+    {
+      "name": "Palaealectoris incertus",
+      "aliases": [],
+      "popularity": 15,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Palaealectoris incertus"
+    },
+    {
+      "name": "Malaysian crested argus",
+      "aliases": [
+        "Malayan crested argus",
+        "Rheinardia nigrescens"
+      ],
+      "popularity": 30,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Malaysian crested argus"
+    },
+    {
+      "name": "Black-fronted spurfowl",
+      "aliases": [
+        "Pternistis atrifrons"
+      ],
+      "popularity": 202,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Black-fronted spurfowl"
+    },
+    {
+      "name": "Siamese partridge",
+      "aliases": [
+        "Arborophila diversa"
+      ],
+      "popularity": 269,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Siamese partridge"
+    },
+    {
+      "name": "Whyte's francolin",
+      "aliases": [
+        "Scleroptila whytei"
+      ],
+      "popularity": 470,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Whyte's francolin"
+    },
+    {
+      "name": "Grey-striped spurfowl",
+      "aliases": [
+        "grey-striped francolin",
+        "Pternistis griseostriatus"
+      ],
+      "popularity": 551,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Grey-striped spurfowl"
+    },
+    {
+      "name": "Rubeho forest partridge",
+      "aliases": [
+        "Xenoperdix obscuratus"
+      ],
+      "popularity": 577,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Rubeho forest partridge"
+    },
+    {
+      "name": "Heuglin's spurfowl",
+      "aliases": [
+        "Heuglin's Francolin",
+        "Pternistis icterorhynchus"
+      ],
+      "popularity": 644,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Heuglin's spurfowl"
+    },
+    {
+      "name": "Chestnut-naped spurfowl",
+      "aliases": [
+        "Chestnut-naped Francolin",
+        "Pternistis castaneicollis"
+      ],
+      "popularity": 665,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Chestnut-naped spurfowl"
+    },
+    {
+      "name": "Roll's partridge",
+      "aliases": [
+        "Arborophila rolli",
+        "Tan-breasted Partridge"
+      ],
+      "popularity": 673,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Roll's partridge"
+    },
+    {
+      "name": "Finsch's francolin",
+      "aliases": [
+        "Francolinus finschi",
+        "Scleroptila finschi"
+      ],
+      "popularity": 676,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Finsch's francolin"
+    },
+    {
+      "name": "Swierstra's spurfowl",
+      "aliases": [
+        "Pternistis swierstrai"
+      ],
+      "popularity": 685,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Swierstra's spurfowl"
+    },
+    {
+      "name": "Clapperton's spurfowl",
+      "aliases": [
+        "Clapperton's Francolin",
+        "Pternistis clappertoni"
+      ],
+      "popularity": 704,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "Clapperton's spurfowl"
+    },
+    {
+      "name": "Schlegel's francolin",
+      "aliases": [
+        "Peliperdix schlegelii"
+      ],
+      "popularity": 716,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Schlegel's francolin"
+    },
+    {
+      "name": "Hildebrandt's spurfowl",
+      "aliases": [
+        "Hildebrandt's Francolin",
+        "Pternistis hildebrandti"
+      ],
+      "popularity": 746,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Hildebrandt's spurfowl"
+    },
+    {
+      "name": "Mount Cameroon spurfowl",
+      "aliases": [
+        "Pternistis camerunensis"
+      ],
+      "popularity": 794,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Mount Cameroon spurfowl"
+    },
+    {
+      "name": "Sumatran partridge",
+      "aliases": [
+        "Arborophila sumatrana"
+      ],
+      "popularity": 806,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Sumatran partridge"
+    },
+    {
+      "name": "Harwood's spurfowl",
+      "aliases": [
+        "Harwood's Francolin",
+        "Pternistis harwoodi"
+      ],
+      "popularity": 851,
+      "rarity": 0.901,
+      "tier": 5,
+      "wiki": "Harwood's spurfowl"
+    },
+    {
+      "name": "Scaly spurfowl",
+      "aliases": [
+        "Pternistis squamatus",
+        "Scaly Francolin"
+      ],
+      "popularity": 862,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Scaly spurfowl"
+    },
+    {
+      "name": "Chestnut-throated monal-partridge",
+      "aliases": [
+        "Chestnut-throated Partridge",
+        "Tetraophasis obscurus"
+      ],
+      "popularity": 875,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Chestnut-throated monal-partridge"
+    },
+    {
+      "name": "Hartlaub's spurfowl",
+      "aliases": [
+        "Francolinus hartlaubi"
+      ],
+      "popularity": 889,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Hartlaub's spurfowl"
+    },
+    {
+      "name": "Moorland francolin",
+      "aliases": [
+        "Francolinus psilolaemus",
+        "Montane francolin",
+        "Scleroptila psilolaema",
+        "Scleroptila psilolaemus"
+      ],
+      "popularity": 899,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Moorland francolin"
+    },
+    {
+      "name": "Ring-necked francolin",
+      "aliases": [
+        "Scleroptila streptophora",
+        "Scleroptila streptophorus"
+      ],
+      "popularity": 908,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Ring-necked francolin"
+    },
+    {
+      "name": "Buff-throated monal-partridge",
+      "aliases": [
+        "Buff-throated Partridge",
+        "Tetraophasis szechenyii"
+      ],
+      "popularity": 909,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Buff-throated monal-partridge"
+    },
+    {
+      "name": "Grey-breasted spurfowl",
+      "aliases": [
+        "Pternistis rufopictus"
+      ],
+      "popularity": 974,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Grey-breasted spurfowl"
+    },
+    {
+      "name": "Chestnut-headed partridge",
+      "aliases": [
+        "Arborophila cambodiana"
+      ],
+      "popularity": 996,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Chestnut-headed partridge"
+    },
+    {
+      "name": "White-throated francolin",
+      "aliases": [
+        "Peliperdix albogularis"
+      ],
+      "popularity": 1026,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "White-throated francolin"
+    },
+    {
+      "name": "Sabah partridge",
+      "aliases": [
+        "Tropicoperdix graydoni"
+      ],
+      "popularity": 1060,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Sabah partridge"
+    },
+    {
+      "name": "White-cheeked partridge",
+      "aliases": [
+        "Arborophila atrogularis",
+        "White-cheeked Hill Partridge"
+      ],
+      "popularity": 1080,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "White-cheeked partridge"
+    },
+    {
+      "name": "Jackson's spurfowl",
+      "aliases": [
+        "Francolinus jacksoni",
+        "Jackson's Francolin",
+        "Pternistis jacksoni"
+      ],
+      "popularity": 1090,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Jackson's spurfowl"
+    },
+    {
+      "name": "Red-breasted partridge",
+      "aliases": [
+        "Arborophila hyperythra"
+      ],
+      "popularity": 1111,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Red-breasted partridge"
+    },
+    {
+      "name": "Hoogerwerf's pheasant",
+      "aliases": [
+        "Aceh pheasant",
+        "Lophura hoogerwerfi"
+      ],
+      "popularity": 1133,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Hoogerwerf's pheasant"
+    },
+    {
+      "name": "Green-legged partridge",
+      "aliases": [
+        "Green-legged hill-partridge",
+        "Scaly-breasted partridge",
+        "Tropicoperdix chloropus"
+      ],
+      "popularity": 1143,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Green-legged partridge"
+    },
+    {
+      "name": "Grey-breasted partridge",
+      "aliases": [
+        "Arborophila orientalis",
+        "White-faced partridge"
+      ],
+      "popularity": 1150,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Grey-breasted partridge"
+    },
+    {
+      "name": "Shelley's francolin",
+      "aliases": [
+        "Francolinus shelleyi",
+        "Scleroptila shelleyi"
+      ],
+      "popularity": 1255,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Shelley's francolin"
+    },
+    {
+      "name": "Red-winged francolin",
+      "aliases": [
+        "Scleroptila levaillantii"
+      ],
+      "popularity": 1297,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Red-winged francolin"
+    },
+    {
+      "name": "Crestless fireback",
+      "aliases": [
+        "Lophura erythrophthalma",
+        "Malay Crestless Fireback"
+      ],
+      "popularity": 1305,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Crestless fireback"
+    },
+    {
+      "name": "Bar-backed partridge",
+      "aliases": [
+        "Arborophila brunneopectus",
+        "Bar-backed Hill Partridge",
+        "brown-breasted hill-partridge"
+      ],
+      "popularity": 1325,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Bar-backed partridge"
+    },
+    {
+      "name": "Handsome spurfowl",
+      "aliases": [
+        "Pternistis nobilis"
+      ],
+      "popularity": 1325,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Handsome spurfowl"
+    },
+    {
+      "name": "Orange-necked partridge",
+      "aliases": [
+        "Arborophila davidi"
+      ],
+      "popularity": 1325,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Orange-necked partridge"
+    },
+    {
+      "name": "Taiwan bamboo partridge",
+      "aliases": [
+        "Bambusicola sonorivox"
+      ],
+      "popularity": 1342,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Taiwan bamboo partridge"
+    },
+    {
+      "name": "Orange River francolin",
+      "aliases": [
+        "Archer's greywing francolin",
+        "Francolinus levaillantoides",
+        "Francolinus levalliantoides",
+        "Scleroptila gutturalis"
+      ],
+      "popularity": 1386,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Orange River francolin"
+    },
+    {
+      "name": "Udzungwa forest partridge",
+      "aliases": [
+        "Xenoperdix udzungwensis"
+      ],
+      "popularity": 1386,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Udzungwa forest partridge"
+    },
+    {
+      "name": "Chestnut-necklaced partridge",
+      "aliases": [
+        "Tropicoperdix charltonii"
+      ],
+      "popularity": 1388,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Chestnut-necklaced partridge"
+    },
+    {
+      "name": "Southwestern turkey",
+      "aliases": [
+        "Meleagris crassipes"
+      ],
+      "popularity": 1398,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Southwestern turkey"
+    },
+    {
+      "name": "Chestnut-bellied partridge",
+      "aliases": [
+        "Arborophila javanica"
+      ],
+      "popularity": 1411,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Chestnut-bellied partridge"
+    },
+    {
+      "name": "Dulit partridge",
+      "aliases": [
+        "Hose's partridge",
+        "Rhizothera dulitensis"
+      ],
+      "popularity": 1451,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Dulit partridge"
+    },
+    {
+      "name": "Latham's francolin",
+      "aliases": [
+        "Peliperdix lathami"
+      ],
+      "popularity": 1456,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Latham's francolin"
+    },
+    {
+      "name": "Taiwan partridge",
+      "aliases": [
+        "Arborophila crudigularis",
+        "Taiwan Hill Partridge"
+      ],
+      "popularity": 1470,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Taiwan partridge"
+    },
+    {
+      "name": "Hainan partridge",
+      "aliases": [
+        "Arborophila ardens",
+        "Hainan Hill Partridge"
+      ],
+      "popularity": 1529,
+      "rarity": 0.734,
+      "tier": 4,
+      "wiki": "Hainan partridge"
+    },
+    {
+      "name": "Grey-winged francolin",
+      "aliases": [
+        "Greywing francolin",
+        "Scleroptila afra",
+        "Scleroptila africanus"
+      ],
+      "popularity": 1540,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Grey-winged francolin"
+    },
+    {
+      "name": "Ahanta spurfowl",
+      "aliases": [
+        "Ahanta Francolin",
+        "Pternistis ahantensis"
+      ],
+      "popularity": 1545,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Ahanta spurfowl"
+    },
+    {
+      "name": "Double-spurred spurfowl",
+      "aliases": [
+        "double-spurred francolin",
+        "Pternistis bicalcaratus"
+      ],
+      "popularity": 1551,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Double-spurred spurfowl"
+    },
+    {
+      "name": "Sichuan partridge",
+      "aliases": [
+        "Arborophila rufipectus",
+        "Sichuan Hill Partridge"
+      ],
+      "popularity": 1557,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Sichuan partridge"
+    },
+    {
+      "name": "Chestnut-breasted partridge",
+      "aliases": [
+        "Arborophila mandelli",
+        "Arborophila mandellii",
+        "Chestnut-breasted Hill Partridge"
+      ],
+      "popularity": 1565,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Chestnut-breasted partridge"
+    },
+    {
+      "name": "Madagascar partridge",
+      "aliases": [
+        "Margaroperdix madagarensis"
+      ],
+      "popularity": 1603,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Madagascar partridge"
+    },
+    {
+      "name": "Long-billed partridge",
+      "aliases": [
+        "Rhizothera longirostris"
+      ],
+      "popularity": 1666,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Long-billed partridge"
+    },
+    {
+      "name": "White-necklaced partridge",
+      "aliases": [
+        "Arborophila gingica",
+        "White-necklaced Hill Partridge"
+      ],
+      "popularity": 1708,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "White-necklaced partridge"
+    },
+    {
+      "name": "Tibetan partridge",
+      "aliases": [
+        "Perdix hodgsoniae"
+      ],
+      "popularity": 1811,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Tibetan partridge"
+    },
+    {
+      "name": "Bornean crestless fireback",
+      "aliases": [
+        "Lophura pyronota"
+      ],
+      "popularity": 1859,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Bornean crestless fireback"
+    },
+    {
+      "name": "Djibouti spurfowl",
+      "aliases": [
+        "Pternistis ochropectus"
+      ],
+      "popularity": 1863,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Djibouti spurfowl"
+    },
+    {
+      "name": "Red-billed spurfowl",
+      "aliases": [
+        "Pternistis adspersus",
+        "Red-billed francolin"
+      ],
+      "popularity": 1933,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Red-billed spurfowl"
+    },
+    {
+      "name": "Przevalski's partridge",
+      "aliases": [
+        "Alectoris magna",
+        "Rusty-necklaced Partridge"
+      ],
+      "popularity": 1973,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Przevalski's partridge"
+    },
+    {
+      "name": "Coqui francolin",
+      "aliases": [
+        "Campocolinus coqui"
+      ],
+      "popularity": 1995,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Coqui francolin"
+    },
+    {
+      "name": "Sri Lanka spurfowl",
+      "aliases": [
+        "Galloperdix bicalcarata"
+      ],
+      "popularity": 2064,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Sri Lanka spurfowl"
+    },
+    {
+      "name": "Mountain bamboo partridge",
+      "aliases": [
+        "Bambusicola fytchii"
+      ],
+      "popularity": 2107,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Mountain bamboo partridge"
+    },
+    {
+      "name": "Yellow-necked spurfowl",
+      "aliases": [
+        "Pternistis leucoscepus",
+        "Yellow-necked francolin"
+      ],
+      "popularity": 2116,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Yellow-necked spurfowl"
+    },
+    {
+      "name": "Chinese grouse",
+      "aliases": [
+        "Tetrastes sewerzowi"
+      ],
+      "popularity": 2127,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Chinese grouse"
+    },
+    {
+      "name": "Crimson-headed partridge",
+      "aliases": [
+        "Haematortyx sanguiniceps"
+      ],
+      "popularity": 2132,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Crimson-headed partridge"
+    },
+    {
+      "name": "Tibetan eared pheasant",
+      "aliases": [
+        "Crossoptilon crossoptilon harmani",
+        "Crossoptilon harmani"
+      ],
+      "popularity": 2136,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Tibetan eared pheasant"
+    },
+    {
+      "name": "Rufous-throated partridge",
+      "aliases": [
+        "Arborophila rufogularis",
+        "Rufous-throated Hill Partridge"
+      ],
+      "popularity": 2160,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Rufous-throated partridge"
+    },
+    {
+      "name": "Natal spurfowl",
+      "aliases": [
+        "Francolinus natalensis",
+        "Natal francolin",
+        "Pternistis natalensis"
+      ],
+      "popularity": 2173,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Natal spurfowl"
+    },
+    {
+      "name": "Swamp francolin",
+      "aliases": [
+        "Francolinus gularis",
+        "Ortygornis gularis"
+      ],
+      "popularity": 2243,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Swamp francolin"
+    },
+    {
+      "name": "Philby's partridge",
+      "aliases": [
+        "Alectoris philbyi"
+      ],
+      "popularity": 2263,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Philby's partridge"
+    },
+    {
+      "name": "Painted bush quail",
+      "aliases": [
+        "Perdicula erythrorhyncha"
+      ],
+      "popularity": 2305,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Painted bush quail"
+    },
+    {
+      "name": "Rock bush quail",
+      "aliases": [
+        "Perdicula argoondah"
+      ],
+      "popularity": 2371,
+      "rarity": 0.599,
+      "tier": 3,
+      "wiki": "Rock bush quail"
+    },
+    {
+      "name": "Painted spurfowl",
+      "aliases": [
+        "Galloperdix lunulata"
+      ],
+      "popularity": 2394,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Painted spurfowl"
+    },
+    {
+      "name": "Black partridge",
+      "aliases": [
+        "Black wood partridge",
+        "Melanoperdix niger",
+        "Melanoperdix nigra"
+      ],
+      "popularity": 2398,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Black partridge"
+    },
+    {
+      "name": "Altai snowcock",
+      "aliases": [
+        "Tetraogallus altaicus"
+      ],
+      "popularity": 2418,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Altai snowcock"
+    },
+    {
+      "name": "Caucasian snowcock",
+      "aliases": [
+        "Tetraogallus caucasicus"
+      ],
+      "popularity": 2421,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Caucasian snowcock"
+    },
+    {
+      "name": "Snow Mountain quail",
+      "aliases": [
+        "Synoicus monorthonyx"
+      ],
+      "popularity": 2489,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Snow Mountain quail"
+    },
+    {
+      "name": "Red-billed partridge",
+      "aliases": [
+        "Arborophila rubrirostris"
+      ],
+      "popularity": 2518,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Red-billed partridge"
+    },
+    {
+      "name": "Salvadori's pheasant",
+      "aliases": [
+        "Lophura inornata",
+        "Salvadoriís pheasant"
+      ],
+      "popularity": 2561,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Salvadori's pheasant"
+    },
+    {
+      "name": "Erckel's spurfowl",
+      "aliases": [
+        "Erckel's Francolin",
+        "Pternistis erckelii"
+      ],
+      "popularity": 2592,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Erckel's spurfowl"
+    },
+    {
+      "name": "Red-necked spurfowl",
+      "aliases": [
+        "Pternistis afer"
+      ],
+      "popularity": 2614,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Red-necked spurfowl"
+    },
+    {
+      "name": "Caspian snowcock",
+      "aliases": [
+        "Tetraogallus caspius"
+      ],
+      "popularity": 2676,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Caspian snowcock"
+    },
+    {
+      "name": "Chinese francolin",
+      "aliases": [
+        "Francolinus pintadeanus"
+      ],
+      "popularity": 2751,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Chinese francolin"
+    },
+    {
+      "name": "Arabian partridge",
+      "aliases": [
+        "Alectoris melanocephala"
+      ],
+      "popularity": 2771,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Arabian partridge"
+    },
+    {
+      "name": "Chinese monal",
+      "aliases": [
+        "Lophophorus lhuysii"
+      ],
+      "popularity": 2788,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Chinese monal"
+    },
+    {
+      "name": "Hainan peacock-pheasant",
+      "aliases": [
+        "Polyplectron katsumatae"
+      ],
+      "popularity": 2850,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Hainan peacock-pheasant"
+    },
+    {
+      "name": "Swainson's spurfowl",
+      "aliases": [
+        "Francolinus swainsonii",
+        "Perdix Swainsonii",
+        "Pternistis swainsonii"
+      ],
+      "popularity": 2878,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Swainson's spurfowl"
+    },
+    {
+      "name": "Crested francolin",
+      "aliases": [
+        "Dendroperdix sephaena"
+      ],
+      "popularity": 2887,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Crested francolin"
+    },
+    {
+      "name": "Hill partridge",
+      "aliases": [
+        "Arborophila torqueola",
+        "Common Hill Partridge"
+      ],
+      "popularity": 2897,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Hill partridge"
+    },
+    {
+      "name": "Sclater's monal",
+      "aliases": [
+        "Lophophorus sclateri",
+        "Sclaterís monal"
+      ],
+      "popularity": 2904,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Sclater's monal"
+    },
+    {
+      "name": "Imperial pheasant",
+      "aliases": [
+        "Lophura imperialis"
+      ],
+      "popularity": 2973,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Imperial pheasant"
+    },
+    {
+      "name": "Manipur bush quail",
+      "aliases": [
+        "Perdicula manipurensis"
+      ],
+      "popularity": 2979,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Manipur bush quail"
+    },
+    {
+      "name": "Malayan crested fireback",
+      "aliases": [
+        "Lophura rufa",
+        "Malay Crested Fireback"
+      ],
+      "popularity": 2986,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Malayan crested fireback"
+    },
+    {
+      "name": "See-see partridge",
+      "aliases": [
+        "Ammoperdix griseogularis"
+      ],
+      "popularity": 2994,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "See-see partridge"
+    },
+    {
+      "name": "Daurian partridge",
+      "aliases": [
+        "Perdix dauurica"
+      ],
+      "popularity": 3068,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Daurian partridge"
+    },
+    {
+      "name": "Germain's peacock-pheasant",
+      "aliases": [
+        "Germainís peacock-pheasant",
+        "Polyplectron germaini"
+      ],
+      "popularity": 3143,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Germain's peacock-pheasant"
+    },
+    {
+      "name": "Brown eared pheasant",
+      "aliases": [
+        "Crossoptilon mantchuricum"
+      ],
+      "popularity": 3327,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Brown eared pheasant"
+    },
+    {
+      "name": "Mountain peacock-pheasant",
+      "aliases": [
+        "Polyplectron inopinatum"
+      ],
+      "popularity": 3436,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Mountain peacock-pheasant"
+    },
+    {
+      "name": "Blue eared pheasant",
+      "aliases": [
+        "Crossoptilon auritum"
+      ],
+      "popularity": 3447,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Blue eared pheasant"
+    },
+    {
+      "name": "Sand partridge",
+      "aliases": [
+        "Ammoperdix heyi"
+      ],
+      "popularity": 3462,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Sand partridge"
+    },
+    {
+      "name": "Ferruginous partridge",
+      "aliases": [
+        "Caloperdix oculea",
+        "Caloperdix oculeus"
+      ],
+      "popularity": 3481,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Ferruginous partridge"
+    },
+    {
+      "name": "Red spurfowl",
+      "aliases": [
+        "Galloperdix spadicea"
+      ],
+      "popularity": 3849,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Red spurfowl"
+    },
+    {
+      "name": "Siberian grouse",
+      "aliases": [
+        "Falcipennis falcipennis"
+      ],
+      "popularity": 3912,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Siberian grouse"
+    },
+    {
+      "name": "Chinese bamboo partridge",
+      "aliases": [
+        "Bambusicola thoracica",
+        "Bambusicola thoracicus"
+      ],
+      "popularity": 3955,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Chinese bamboo partridge"
+    },
+    {
+      "name": "Tibetan snowcock",
+      "aliases": [
+        "Tetraogallus tibetanus"
+      ],
+      "popularity": 3959,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Tibetan snowcock"
+    },
+    {
+      "name": "Cape spurfowl",
+      "aliases": [
+        "Pternistis capensis"
+      ],
+      "popularity": 4160,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Cape spurfowl"
+    },
+    {
+      "name": "Caucasian grouse",
+      "aliases": [
+        "Caucasian black grouse",
+        "Lyrurus mlokosiewiczi",
+        "Tetrao miokosiewiczi",
+        "Tetrao mlokosiewiczi"
+      ],
+      "popularity": 4327,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Caucasian grouse"
+    },
+    {
+      "name": "Vietnamese crested argus",
+      "aliases": [
+        "Crested argus",
+        "Rheinardia ocellata",
+        "Rheinartia ocellata"
+      ],
+      "popularity": 4391,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Vietnamese crested argus"
+    },
+    {
+      "name": "Blue quail",
+      "aliases": [
+        "Synoicus adansonii"
+      ],
+      "popularity": 4394,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Blue quail"
+    },
+    {
+      "name": "Jungle bush quail",
+      "aliases": [
+        "Perdicula asiatica"
+      ],
+      "popularity": 4401,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Jungle bush quail"
+    },
+    {
+      "name": "Snow partridge",
+      "aliases": [
+        "Lerwa lerwa"
+      ],
+      "popularity": 4502,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Snow partridge"
+    },
+    {
+      "name": "Bulwer's pheasant",
+      "aliases": [
+        "Bulwerís pheasant",
+        "Lophura bulweri"
+      ],
+      "popularity": 4525,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Bulwer's pheasant"
+    },
+    {
+      "name": "Elliot's pheasant",
+      "aliases": [
+        "Elliotís pheasant",
+        "Syrmaticus ellioti"
+      ],
+      "popularity": 4681,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Elliot's pheasant"
+    },
+    {
+      "name": "Bornean peacock-pheasant",
+      "aliases": [
+        "Polyplectron schleiermacheri"
+      ],
+      "popularity": 4690,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Bornean peacock-pheasant"
+    },
+    {
+      "name": "Vietnamese pheasant",
+      "aliases": [
+        "Lophura hatinhensis"
+      ],
+      "popularity": 4702,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Vietnamese pheasant"
+    },
+    {
+      "name": "Cabot's tragopan",
+      "aliases": [
+        "Cabotís tragopan",
+        "Tragopan caboti"
+      ],
+      "popularity": 4807,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Cabot's tragopan"
+    },
+    {
+      "name": "Bornean crested fireback",
+      "aliases": [
+        "Crested Fireback",
+        "Lophura ignita"
+      ],
+      "popularity": 5185,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Bornean crested fireback"
+    },
+    {
+      "name": "White eared pheasant",
+      "aliases": [
+        "Crossoptilon crossoptilon"
+      ],
+      "popularity": 5412,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "White eared pheasant"
+    },
+    {
+      "name": "Rain quail",
+      "aliases": [
+        "Coturnix coromandelica"
+      ],
+      "popularity": 5726,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Rain quail"
+    },
+    {
+      "name": "Gunnison sage-grouse",
+      "aliases": [
+        "Centrocercus minimus",
+        "Gunnison Grouse"
+      ],
+      "popularity": 5769,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Gunnison sage-grouse"
+    },
+    {
+      "name": "Painted francolin",
+      "aliases": [
+        "Francolinus pictus"
+      ],
+      "popularity": 5832,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Painted francolin"
+    },
+    {
+      "name": "Malayan peacock-pheasant",
+      "aliases": [
+        "Malaysian peacock-pheasant",
+        "Polyplectron malacense"
+      ],
+      "popularity": 5860,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Malayan peacock-pheasant"
+    },
+    {
+      "name": "Edwards's pheasant",
+      "aliases": [
+        "Edwardsís pheasant",
+        "Lophura edwardsi"
+      ],
+      "popularity": 7274,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Edwards's pheasant"
+    },
+    {
+      "name": "Stubble quail",
+      "aliases": [
+        "Coturnix pectoralis"
+      ],
+      "popularity": 7725,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Stubble quail"
+    },
+    {
+      "name": "Barbary partridge",
+      "aliases": [
+        "Alectoris barbara"
+      ],
+      "popularity": 7867,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Barbary partridge"
+    },
+    {
+      "name": "Harlequin quail",
+      "aliases": [
+        "Coturnix delegorguei"
+      ],
+      "popularity": 7872,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Harlequin quail"
+    },
+    {
+      "name": "Cheer pheasant",
+      "aliases": [
+        "Catreus wallichii"
+      ],
+      "popularity": 7917,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Cheer pheasant"
+    },
+    {
+      "name": "Mikado pheasant",
+      "aliases": [
+        "Syrmaticus mikado"
+      ],
+      "popularity": 8160,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Mikado pheasant"
+    },
+    {
+      "name": "Koklass pheasant",
+      "aliases": [
+        "Pucrasia macrolopha"
+      ],
+      "popularity": 8237,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Koklass pheasant"
+    },
+    {
+      "name": "Grey peacock-pheasant",
+      "aliases": [
+        "Polyplectron bicalcaratum"
+      ],
+      "popularity": 8693,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Grey peacock-pheasant"
+    },
+    {
+      "name": "Swinhoe's pheasant",
+      "aliases": [
+        "Lophura swinhoii",
+        "Swinhoeís pheasant"
+      ],
+      "popularity": 8699,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Swinhoe's pheasant"
+    },
+    {
+      "name": "Satyr tragopan",
+      "aliases": [
+        "crimson horned pheasant",
+        "Tragopan satyra"
+      ],
+      "popularity": 8873,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Satyr tragopan"
+    },
+    {
+      "name": "Copper pheasant",
+      "aliases": [
+        "Soemmerring's Pheasant",
+        "Syrmaticus soemmerringii",
+        "yamadori"
+      ],
+      "popularity": 8875,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Copper pheasant"
+    },
+    {
+      "name": "Mrs. Hume's pheasant",
+      "aliases": [
+        "Hume's Pheasant",
+        "Humeís pheasant",
+        "Syrmaticus humaie",
+        "Syrmaticus humiae"
+      ],
+      "popularity": 8996,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Mrs. Hume's pheasant"
+    },
+    {
+      "name": "Blyth's tragopan",
+      "aliases": [
+        "Blythís tragopan",
+        "Tragopan blythii"
+      ],
+      "popularity": 9094,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Blyth's tragopan"
+    },
+    {
+      "name": "Lesser prairie-chicken",
+      "aliases": [
+        "Tympanuchus pallidicinctus"
+      ],
+      "popularity": 9196,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "Lesser prairie-chicken"
+    },
+    {
+      "name": "Black-billed capercaillie",
+      "aliases": [
+        "Tetrao urogalloides"
+      ],
+      "popularity": 9479,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Black-billed capercaillie"
+    },
+    {
+      "name": "Temminck's tragopan",
+      "aliases": [
+        "Temminckís tragopan",
+        "Tragopan temminckii"
+      ],
+      "popularity": 10041,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Temminck's tragopan"
+    },
+    {
+      "name": "Himalayan quail",
+      "aliases": [
+        "Ophrysia superciliosa"
+      ],
+      "popularity": 10086,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Himalayan quail"
+    },
+    {
+      "name": "Rock partridge",
+      "aliases": [
+        "Alectoris graeca"
+      ],
+      "popularity": 10616,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Rock partridge"
+    },
+    {
+      "name": "Western tragopan",
+      "aliases": [
+        "Tragopan melanocephalus"
+      ],
+      "popularity": 10926,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Western tragopan"
+    },
+    {
+      "name": "Himalayan snowcock",
+      "aliases": [
+        "Tetraogallus himalayensis"
+      ],
+      "popularity": 11242,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Himalayan snowcock"
+    },
+    {
+      "name": "Sooty grouse",
+      "aliases": [
+        "Dendragapus fuliginosus"
+      ],
+      "popularity": 11596,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Sooty grouse"
+    },
+    {
+      "name": "Siamese fireback",
+      "aliases": [
+        "Diard's Fireback",
+        "Lophura diardi"
+      ],
+      "popularity": 11868,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Siamese fireback"
+    },
+    {
+      "name": "Crested partridge",
+      "aliases": [
+        "Crested wood partridge",
+        "green wood partridge",
+        "green wood quail",
+        "red-crowned wood partridge",
+        "Rollulus rouloul",
+        "roul-roul"
+      ],
+      "popularity": 12786,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Crested partridge"
+    },
+    {
+      "name": "Dusky grouse",
+      "aliases": [
+        "Dendragapus obscurus"
+      ],
+      "popularity": 13547,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Dusky grouse"
+    },
+    {
+      "name": "Palawan peacock-pheasant",
+      "aliases": [
+        "Polyplectron emphanum",
+        "Polyplectron napoleonis"
+      ],
+      "popularity": 13650,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Palawan peacock-pheasant"
+    },
+    {
+      "name": "Reeves's pheasant",
+      "aliases": [
+        "Syrmaticus reevesii"
+      ],
+      "popularity": 13744,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Reeves's pheasant"
+    },
+    {
+      "name": "Silver pheasant",
+      "aliases": [
+        "Lophura nycthemera"
+      ],
+      "popularity": 14932,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Silver pheasant"
+    },
+    {
+      "name": "White-tailed ptarmigan",
+      "aliases": [
+        "Lagopus leucura"
+      ],
+      "popularity": 15693,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "White-tailed ptarmigan"
+    },
+    {
+      "name": "Brown quail",
+      "aliases": [
+        "Synoicus ypsilophorus"
+      ],
+      "popularity": 16659,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Brown quail"
+    },
+    {
+      "name": "Blood pheasant",
+      "aliases": [
+        "Ithaginis cruentus"
+      ],
+      "popularity": 17330,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Blood pheasant"
+    },
+    {
+      "name": "Sharp-tailed grouse",
+      "aliases": [
+        "Tympanuchus phasianellus"
+      ],
+      "popularity": 17575,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "Sharp-tailed grouse"
+    },
+    {
+      "name": "Black francolin",
+      "aliases": [
+        "Francolinus francolinus"
+      ],
+      "popularity": 18529,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Black francolin"
+    },
+    {
+      "name": "Kalij pheasant",
+      "aliases": [
+        "Lophura leucomelanos",
+        "White-crested Kalij pheasant"
+      ],
+      "popularity": 18807,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Kalij pheasant"
+    },
+    {
+      "name": "Great argus",
+      "aliases": [
+        "Argusianus argus"
+      ],
+      "popularity": 19351,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Great argus"
+    },
+    {
+      "name": "Hazel grouse",
+      "aliases": [
+        "Bonasa bonasia",
+        "Tetrastes bonasia"
+      ],
+      "popularity": 21425,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Hazel grouse"
+    },
+    {
+      "name": "Spruce grouse",
+      "aliases": [
+        "Canachites canadensis",
+        "Falcipennis canadensis"
+      ],
+      "popularity": 23356,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Spruce grouse"
+    },
+    {
+      "name": "King quail",
+      "aliases": [
+        "Asian Blue Quail",
+        "Blue-breasted Quail",
+        "Synoicus chinensis"
+      ],
+      "popularity": 25930,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "King quail"
+    },
+    {
+      "name": "Lady Amherst's pheasant",
+      "aliases": [
+        "Chrysolophus amherstiae"
+      ],
+      "popularity": 28496,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Lady Amherst's pheasant"
+    },
+    {
+      "name": "Green junglefowl",
+      "aliases": [
+        "Gallus varius"
+      ],
+      "popularity": 29948,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Green junglefowl"
+    },
+    {
+      "name": "Grey francolin",
+      "aliases": [
+        "Francolinus pondicerianus",
+        "Indian grey francolin"
+      ],
+      "popularity": 30876,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Grey francolin"
+    },
+    {
+      "name": "Red-legged partridge",
+      "aliases": [
+        "Alectoris rufa"
+      ],
+      "popularity": 32227,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Red-legged partridge"
+    },
+    {
+      "name": "Green pheasant",
+      "aliases": [
+        "Phasianus versicolor"
+      ],
+      "popularity": 37449,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Green pheasant"
+    },
+    {
+      "name": "Sri Lankan junglefowl",
+      "aliases": [
+        "Gallus lafayettii",
+        "Sri Lanka Junglefowl"
+      ],
+      "popularity": 39090,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Sri Lankan junglefowl"
+    },
+    {
+      "name": "Grey junglefowl",
+      "aliases": [
+        "Gallus sonneratii",
+        "Sonnerat's Junglefowl"
+      ],
+      "popularity": 39506,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Grey junglefowl"
+    },
+    {
+      "name": "Grey partridge",
+      "aliases": [
+        "Perdix perdix"
+      ],
+      "popularity": 39882,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Grey partridge"
+    },
+    {
+      "name": "Japanese quail",
+      "aliases": [
+        "Coturnix japonica"
+      ],
+      "popularity": 40998,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Japanese quail"
+    },
+    {
+      "name": "Red grouse",
+      "aliases": [
+        "Lagopus scotica"
+      ],
+      "popularity": 42177,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Red grouse"
+    },
+    {
+      "name": "Congo peafowl",
+      "aliases": [
+        "African peafowl",
+        "Afropavo congensis",
+        "mbulu"
+      ],
+      "popularity": 45463,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Congo peafowl"
+    },
+    {
+      "name": "Greater prairie-chicken",
+      "aliases": [
+        "Tympanuchus cupido"
+      ],
+      "popularity": 46814,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Greater prairie-chicken"
+    },
+    {
+      "name": "Greater sage-grouse",
+      "aliases": [
+        "Centrocercus urophasianus",
+        "Sage Grouse",
+        "Sagehen"
+      ],
+      "popularity": 49274,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Greater sage-grouse"
+    },
+    {
+      "name": "Black grouse",
+      "aliases": [
+        "grouse",
+        "Lyrurus tetrix",
+        "Tetrao tetrix"
+      ],
+      "popularity": 55093,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Black grouse"
+    },
+    {
+      "name": "Ocellated turkey",
+      "aliases": [
+        "Meleagris ocellata"
+      ],
+      "popularity": 59402,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Ocellated turkey"
+    },
+    {
+      "name": "Green peafowl",
+      "aliases": [
+        "Pavo muticus",
+        "Peacock green"
+      ],
+      "popularity": 60208,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Green peafowl"
+    },
+    {
+      "name": "Golden pheasant",
+      "aliases": [
+        "Chinese pheasant",
+        "Chrysolophus pictus"
+      ],
+      "popularity": 67386,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Golden pheasant"
+    },
+    {
+      "name": "Ruffed grouse",
+      "aliases": [
+        "Bonasa umbellus"
+      ],
+      "popularity": 71450,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Ruffed grouse"
+    },
+    {
+      "name": "Common quail",
+      "aliases": [
+        "Coturnix coturnix",
+        "European quail",
+        "quail"
+      ],
+      "popularity": 81837,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Common quail"
+    },
+    {
+      "name": "Chukar partridge",
+      "aliases": [
+        "Alectoris chukar",
+        "Caccabis chukar",
+        "chukar",
+        "chukor partridge"
+      ],
+      "popularity": 90263,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Chukar partridge"
+    },
+    {
+      "name": "Himalayan monal",
+      "aliases": [
+        "Lophophorus impejanus"
+      ],
+      "popularity": 94549,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Himalayan monal"
+    },
+    {
+      "name": "Common pheasant",
+      "aliases": [
+        "Phasianus colchicus",
+        "Pheasant",
+        "ring-necked pheasant"
+      ],
+      "popularity": 128004,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Common pheasant"
+    },
+    {
+      "name": "Western capercaillie",
+      "aliases": [
+        "Capercaillie",
+        "Capercailzie",
+        "cock-of-the-woods",
+        "Eurasian capercaillie",
+        "heather cock",
+        "Tetrao urogallus",
+        "wood grouse"
+      ],
+      "popularity": 136700,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Western capercaillie"
+    },
+    {
+      "name": "Rock ptarmigan",
+      "aliases": [
+        "Lagopus muta",
+        "ptarmigan"
+      ],
+      "popularity": 140056,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Rock ptarmigan"
+    },
+    {
+      "name": "Willow ptarmigan",
+      "aliases": [
+        "Lagopus lagopus",
+        "Willow Grouse"
+      ],
+      "popularity": 159778,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Willow ptarmigan"
+    },
+    {
+      "name": "Wild turkey",
+      "aliases": [
+        "Meleagris gallopavo"
+      ],
+      "popularity": 224743,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Wild turkey"
+    },
+    {
+      "name": "Indian peafowl",
+      "aliases": [
+        "Indian peacock",
+        "Pavo cristatus"
+      ],
+      "popularity": 241256,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Indian peafowl"
+    },
+    {
+      "name": "Red junglefowl",
+      "aliases": [
+        "Gallus gallus"
+      ],
+      "popularity": 271378,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Red junglefowl"
+    }
+  ]
+}

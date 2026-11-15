@@ -1,0 +1,2190 @@
+{
+  "id": "breads",
+  "slug": "breads",
+  "category": "food",
+  "question": "Name a kind of bread",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Turkish breads",
+      "aliases": [
+        "breads of Turkey"
+      ],
+      "popularity": 18,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Turkish breads"
+    },
+    {
+      "name": "Pão de cará",
+      "aliases": [],
+      "popularity": 54,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Pão de cará"
+    },
+    {
+      "name": "Tabouna bread",
+      "aliases": [],
+      "popularity": 165,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Tabouna bread"
+    },
+    {
+      "name": "Turkish bread",
+      "aliases": [
+        "Ekmek"
+      ],
+      "popularity": 210,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Turkish bread"
+    },
+    {
+      "name": "Panfocaccia",
+      "aliases": [],
+      "popularity": 259,
+      "rarity": 0.983,
+      "tier": 6,
+      "wiki": "Panfocaccia"
+    },
+    {
+      "name": "Katlam",
+      "aliases": [],
+      "popularity": 391,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Katlam"
+    },
+    {
+      "name": "Wagafi bread",
+      "aliases": [],
+      "popularity": 465,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Wagafi bread"
+    },
+    {
+      "name": "Vrtanek",
+      "aliases": [
+        "perec"
+      ],
+      "popularity": 518,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Vrtanek"
+    },
+    {
+      "name": "Colaci",
+      "aliases": [],
+      "popularity": 530,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Colaci"
+    },
+    {
+      "name": "Ghandi Bread",
+      "aliases": [],
+      "popularity": 534,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Ghandi Bread"
+    },
+    {
+      "name": "U Pan de Natale",
+      "aliases": [],
+      "popularity": 586,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "U Pan de Natale"
+    },
+    {
+      "name": "Regañao",
+      "aliases": [],
+      "popularity": 593,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Regañao"
+    },
+    {
+      "name": "Spelt bread",
+      "aliases": [
+        "Dinkelbread",
+        "Speltbread"
+      ],
+      "popularity": 610,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Spelt bread"
+    },
+    {
+      "name": "Prądnik bread",
+      "aliases": [],
+      "popularity": 632,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Prądnik bread"
+    },
+    {
+      "name": "Maltout",
+      "aliases": [
+        "Al-Maltout",
+        "maltoot bread"
+      ],
+      "popularity": 639,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Maltout"
+    },
+    {
+      "name": "Poppyseed muffin",
+      "aliases": [
+        "poppy seed muffins"
+      ],
+      "popularity": 648,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Poppyseed muffin"
+    },
+    {
+      "name": "Upplandskubb",
+      "aliases": [],
+      "popularity": 653,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Upplandskubb"
+    },
+    {
+      "name": "Pão Alentejano",
+      "aliases": [
+        "Alentejano bread",
+        "Alentejo bread"
+      ],
+      "popularity": 680,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "Pão Alentejano"
+    },
+    {
+      "name": "Gebildbrot",
+      "aliases": [],
+      "popularity": 716,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Gebildbrot"
+    },
+    {
+      "name": "Cañada bread",
+      "aliases": [
+        "Pan de cañada"
+      ],
+      "popularity": 732,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Cañada bread"
+    },
+    {
+      "name": "Antigua Sunday bread",
+      "aliases": [],
+      "popularity": 773,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Antigua Sunday bread"
+    },
+    {
+      "name": "Slow Bread",
+      "aliases": [],
+      "popularity": 810,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Slow Bread"
+    },
+    {
+      "name": "Cornell bread",
+      "aliases": [],
+      "popularity": 840,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Cornell bread"
+    },
+    {
+      "name": "Matloue",
+      "aliases": [
+        "khobz el-kousha",
+        "khobz el-tajine",
+        "Matlou",
+        "matloua el-kousha",
+        "matlouh"
+      ],
+      "popularity": 842,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Matloue"
+    },
+    {
+      "name": "Picatostes",
+      "aliases": [
+        "picatoste"
+      ],
+      "popularity": 949,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Picatostes"
+    },
+    {
+      "name": "Parva",
+      "aliases": [
+        "Parva (food)"
+      ],
+      "popularity": 963,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Parva (food)"
+    },
+    {
+      "name": "Kelane",
+      "aliases": [
+        "Kalana",
+        "Kelane (bread)",
+        "Kelaneh"
+      ],
+      "popularity": 1054,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Kelane (bread)"
+    },
+    {
+      "name": "Peg bread",
+      "aliases": [],
+      "popularity": 1081,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Peg bread"
+    },
+    {
+      "name": "Tapalapa",
+      "aliases": [
+        "Tapalapa (bread)"
+      ],
+      "popularity": 1083,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Tapalapa (bread)"
+    },
+    {
+      "name": "Fatira",
+      "aliases": [
+        "paṭira"
+      ],
+      "popularity": 1099,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Fatira"
+    },
+    {
+      "name": "Gurasa",
+      "aliases": [],
+      "popularity": 1106,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Gurasa"
+    },
+    {
+      "name": "Mutschel",
+      "aliases": [],
+      "popularity": 1119,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Mutschel"
+    },
+    {
+      "name": "Basler Brot",
+      "aliases": [
+        "Basler Laibli"
+      ],
+      "popularity": 1138,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Basler Brot"
+    },
+    {
+      "name": "Ovelgönne bread roll",
+      "aliases": [],
+      "popularity": 1168,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Ovelgönne bread roll"
+    },
+    {
+      "name": "Khobz el-dâr",
+      "aliases": [],
+      "popularity": 1204,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Khobz el-dâr"
+    },
+    {
+      "name": "Sevillian bollo",
+      "aliases": [
+        "Bollo",
+        "Bollo sevillano"
+      ],
+      "popularity": 1236,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Sevillian bollo"
+    },
+    {
+      "name": "Marquesote",
+      "aliases": [],
+      "popularity": 1248,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Marquesote"
+    },
+    {
+      "name": "Kkulppang",
+      "aliases": [
+        "honey bread"
+      ],
+      "popularity": 1357,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Kkulppang"
+    },
+    {
+      "name": "Paltbröd",
+      "aliases": [],
+      "popularity": 1364,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Paltbröd"
+    },
+    {
+      "name": "Roti bolen",
+      "aliases": [],
+      "popularity": 1372,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Roti bolen"
+    },
+    {
+      "name": "Faraoa 'ipo",
+      "aliases": [],
+      "popularity": 1408,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Faraoa 'ipo"
+    },
+    {
+      "name": "Pain à la grecque",
+      "aliases": [],
+      "popularity": 1437,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Pain à la grecque"
+    },
+    {
+      "name": "Daktyla",
+      "aliases": [],
+      "popularity": 1439,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Daktyla"
+    },
+    {
+      "name": "Trenza",
+      "aliases": [],
+      "popularity": 1461,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Trenza"
+    },
+    {
+      "name": "Pan brioche",
+      "aliases": [
+        "Panbrioche"
+      ],
+      "popularity": 1573,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Pan brioche"
+    },
+    {
+      "name": "Adobe bread",
+      "aliases": [
+        "oven bread"
+      ],
+      "popularity": 1680,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Adobe bread"
+    },
+    {
+      "name": "Ttongppang",
+      "aliases": [],
+      "popularity": 1704,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Ttongppang"
+    },
+    {
+      "name": "Obwarzanek",
+      "aliases": [
+        "precel"
+      ],
+      "popularity": 1715,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Obwarzanek"
+    },
+    {
+      "name": "Cocol",
+      "aliases": [],
+      "popularity": 1725,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Cocol"
+    },
+    {
+      "name": "Huajuan",
+      "aliases": [
+        "hua juan",
+        "Mandarin roll"
+      ],
+      "popularity": 1851,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Huajuan"
+    },
+    {
+      "name": "Canadian white bread",
+      "aliases": [],
+      "popularity": 1902,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Canadian white bread"
+    },
+    {
+      "name": "Kandil simidi",
+      "aliases": [],
+      "popularity": 1985,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Kandil simidi"
+    },
+    {
+      "name": "Chinese pancake",
+      "aliases": [],
+      "popularity": 1987,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Chinese pancake"
+    },
+    {
+      "name": "Khubz al-ʾAbbas",
+      "aliases": [
+        "ِAbbas bread"
+      ],
+      "popularity": 1998,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Khubz al-ʾAbbas"
+    },
+    {
+      "name": "Rousquille",
+      "aliases": [
+        "rosquilla"
+      ],
+      "popularity": 2165,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Rousquille"
+    },
+    {
+      "name": "Crustless bread",
+      "aliases": [],
+      "popularity": 2185,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Crustless bread"
+    },
+    {
+      "name": "Mollete de Antequera",
+      "aliases": [
+        "Mollete of Antequera"
+      ],
+      "popularity": 2210,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Mollete de Antequera"
+    },
+    {
+      "name": "Potbrood",
+      "aliases": [],
+      "popularity": 2259,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Potbrood"
+    },
+    {
+      "name": "Olive bread",
+      "aliases": [
+        "olivenbrot"
+      ],
+      "popularity": 2381,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Olive bread"
+    },
+    {
+      "name": "Markook",
+      "aliases": [
+        "Markook (bread)"
+      ],
+      "popularity": 2382,
+      "rarity": 0.748,
+      "tier": 4,
+      "wiki": "Markook (bread)"
+    },
+    {
+      "name": "Filone",
+      "aliases": [],
+      "popularity": 2387,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Filone"
+    },
+    {
+      "name": "Vastedda",
+      "aliases": [],
+      "popularity": 2400,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Vastedda"
+    },
+    {
+      "name": "Burebrot",
+      "aliases": [],
+      "popularity": 2444,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Burebrot"
+    },
+    {
+      "name": "Fatoot",
+      "aliases": [],
+      "popularity": 2453,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Fatoot"
+    },
+    {
+      "name": "Hot and spicy cheese bread",
+      "aliases": [
+        "Wisconsin Cheesy Bread"
+      ],
+      "popularity": 2492,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Hot and spicy cheese bread"
+    },
+    {
+      "name": "Pain brié",
+      "aliases": [],
+      "popularity": 2522,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Pain brié"
+    },
+    {
+      "name": "Shoti",
+      "aliases": [],
+      "popularity": 2545,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Shoti"
+    },
+    {
+      "name": "Hönökaka",
+      "aliases": [],
+      "popularity": 2563,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Hönökaka"
+    },
+    {
+      "name": "Tortilla de rescoldo",
+      "aliases": [],
+      "popularity": 2618,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Tortilla de rescoldo"
+    },
+    {
+      "name": "Mosbolletjies",
+      "aliases": [],
+      "popularity": 2681,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Mosbolletjies"
+    },
+    {
+      "name": "Güirila",
+      "aliases": [],
+      "popularity": 2747,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Güirila"
+    },
+    {
+      "name": "Broa de Avintes",
+      "aliases": [],
+      "popularity": 2784,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "Broa de Avintes"
+    },
+    {
+      "name": "Roti gambang",
+      "aliases": [],
+      "popularity": 2898,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Roti gambang"
+    },
+    {
+      "name": "Carrot bread",
+      "aliases": [],
+      "popularity": 2963,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Carrot bread"
+    },
+    {
+      "name": "Pa de pagès",
+      "aliases": [],
+      "popularity": 3056,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Pa de pagès"
+    },
+    {
+      "name": "Galician bread",
+      "aliases": [
+        "IGP Pan Gallego",
+        "Pan galego",
+        "PGI Галицький хліб"
+      ],
+      "popularity": 3256,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Galician bread"
+    },
+    {
+      "name": "Faluche",
+      "aliases": [
+        "Faluche (bread)",
+        "North Bread",
+        "Pain du Nord"
+      ],
+      "popularity": 3282,
+      "rarity": 0.675,
+      "tier": 4,
+      "wiki": "Faluche (bread)"
+    },
+    {
+      "name": "Baba",
+      "aliases": [
+        "Baba (bread)"
+      ],
+      "popularity": 3351,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Baba (bread)"
+    },
+    {
+      "name": "Georgian bread",
+      "aliases": [],
+      "popularity": 3566,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Georgian bread"
+    },
+    {
+      "name": "Dalieba",
+      "aliases": [
+        "lieba"
+      ],
+      "popularity": 3637,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Dalieba"
+    },
+    {
+      "name": "Veneziana",
+      "aliases": [],
+      "popularity": 3664,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Veneziana"
+    },
+    {
+      "name": "Apple bread",
+      "aliases": [],
+      "popularity": 3723,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Apple bread"
+    },
+    {
+      "name": "Kneippbrød",
+      "aliases": [],
+      "popularity": 3723,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Kneippbrød"
+    },
+    {
+      "name": "Kitcha",
+      "aliases": [],
+      "popularity": 3732,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Kitcha"
+    },
+    {
+      "name": "Candeal bread",
+      "aliases": [
+        "Pan candeal"
+      ],
+      "popularity": 3755,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Candeal bread"
+    },
+    {
+      "name": "Mandoca",
+      "aliases": [],
+      "popularity": 3816,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "Mandoca"
+    },
+    {
+      "name": "Cachito",
+      "aliases": [
+        "Cachitos"
+      ],
+      "popularity": 3877,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Cachito"
+    },
+    {
+      "name": "Roscón",
+      "aliases": [],
+      "popularity": 3985,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Roscón"
+    },
+    {
+      "name": "Dumb bread",
+      "aliases": [],
+      "popularity": 4081,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Dumb bread"
+    },
+    {
+      "name": "Laobing",
+      "aliases": [],
+      "popularity": 4168,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Laobing"
+    },
+    {
+      "name": "Telera",
+      "aliases": [
+        "Telera (Spanish bread)"
+      ],
+      "popularity": 4188,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Telera (Spanish bread)"
+    },
+    {
+      "name": "Hearth bread",
+      "aliases": [],
+      "popularity": 4314,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Hearth bread"
+    },
+    {
+      "name": "Twist bread",
+      "aliases": [],
+      "popularity": 4323,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Twist bread"
+    },
+    {
+      "name": "Sausage bread",
+      "aliases": [],
+      "popularity": 4486,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Sausage bread"
+    },
+    {
+      "name": "Herculaneum loaf",
+      "aliases": [],
+      "popularity": 4568,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Herculaneum loaf"
+    },
+    {
+      "name": "Pan de yuca",
+      "aliases": [],
+      "popularity": 4654,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Pan de yuca"
+    },
+    {
+      "name": "Poee",
+      "aliases": [
+        "poie"
+      ],
+      "popularity": 4664,
+      "rarity": 0.59,
+      "tier": 3,
+      "wiki": "Poee"
+    },
+    {
+      "name": "Vantage loaf",
+      "aliases": [
+        "vantage of bread"
+      ],
+      "popularity": 4729,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Vantage loaf"
+    },
+    {
+      "name": "Putok",
+      "aliases": [],
+      "popularity": 4758,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Putok"
+    },
+    {
+      "name": "Scali bread",
+      "aliases": [],
+      "popularity": 4834,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Scali bread"
+    },
+    {
+      "name": "Ramazan pidesi",
+      "aliases": [
+        "Ramadan pide"
+      ],
+      "popularity": 4972,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Ramazan pidesi"
+    },
+    {
+      "name": "K-brot",
+      "aliases": [],
+      "popularity": 5047,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "K-brot"
+    },
+    {
+      "name": "Matnakash",
+      "aliases": [],
+      "popularity": 5221,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Matnakash"
+    },
+    {
+      "name": "Talo",
+      "aliases": [
+        "Talo (food)"
+      ],
+      "popularity": 5275,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Talo (food)"
+    },
+    {
+      "name": "Bazin",
+      "aliases": [
+        "bazeen",
+        "Bazin (bread)"
+      ],
+      "popularity": 5285,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Bazin (bread)"
+    },
+    {
+      "name": "Bati",
+      "aliases": [
+        "Baati",
+        "Bati (bread)"
+      ],
+      "popularity": 5484,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Bati (bread)"
+    },
+    {
+      "name": "Pan loaf",
+      "aliases": [],
+      "popularity": 5499,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Pan loaf"
+    },
+    {
+      "name": "Milk roll",
+      "aliases": [
+        "Blackpool roll"
+      ],
+      "popularity": 5659,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Milk roll"
+    },
+    {
+      "name": "Crackling bread",
+      "aliases": [
+        "cornbread"
+      ],
+      "popularity": 5797,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Crackling bread"
+    },
+    {
+      "name": "Maltese bread",
+      "aliases": [],
+      "popularity": 5828,
+      "rarity": 0.534,
+      "tier": 3,
+      "wiki": "Maltese bread"
+    },
+    {
+      "name": "Bappir",
+      "aliases": [],
+      "popularity": 5877,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "Bappir"
+    },
+    {
+      "name": "Parbaking",
+      "aliases": [
+        "par-baked"
+      ],
+      "popularity": 5917,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Parbaking"
+    },
+    {
+      "name": "Rēwena bread",
+      "aliases": [],
+      "popularity": 6029,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Rēwena bread"
+    },
+    {
+      "name": "Cheesymite scroll",
+      "aliases": [],
+      "popularity": 6041,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Cheesymite scroll"
+    },
+    {
+      "name": "Kompyang",
+      "aliases": [
+        "gng-biâⁿ",
+        "guáng-biǎng",
+        "guang-bing",
+        "gwōngbéng",
+        "konpen",
+        "kuang-ping",
+        "kunpen"
+      ],
+      "popularity": 6045,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Kompyang"
+    },
+    {
+      "name": "Pathiri",
+      "aliases": [],
+      "popularity": 6107,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Pathiri"
+    },
+    {
+      "name": "Mischbrot",
+      "aliases": [],
+      "popularity": 6189,
+      "rarity": 0.504,
+      "tier": 3,
+      "wiki": "Mischbrot"
+    },
+    {
+      "name": "Covrigi",
+      "aliases": [],
+      "popularity": 6297,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Covrigi"
+    },
+    {
+      "name": "Rice bread",
+      "aliases": [],
+      "popularity": 6492,
+      "rarity": 0.496,
+      "tier": 3,
+      "wiki": "Rice bread"
+    },
+    {
+      "name": "Jolada rotti",
+      "aliases": [
+        "Jawari Roti",
+        "Jonna rotte",
+        "Jowar roti"
+      ],
+      "popularity": 6684,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Jolada rotti"
+    },
+    {
+      "name": "Samarkand non",
+      "aliases": [
+        "Samarkand bread"
+      ],
+      "popularity": 7056,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Samarkand non"
+    },
+    {
+      "name": "Bulkie roll",
+      "aliases": [],
+      "popularity": 7112,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Bulkie roll"
+    },
+    {
+      "name": "Kubaneh",
+      "aliases": [],
+      "popularity": 7160,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Kubaneh"
+    },
+    {
+      "name": "Limpa",
+      "aliases": [
+        "Limpa bread"
+      ],
+      "popularity": 7172,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Limpa"
+    },
+    {
+      "name": "Broa",
+      "aliases": [],
+      "popularity": 7200,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "Broa"
+    },
+    {
+      "name": "Taboon bread",
+      "aliases": [
+        "laffa"
+      ],
+      "popularity": 7490,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "Taboon bread"
+    },
+    {
+      "name": "Sanna",
+      "aliases": [
+        "Sanna (dish)"
+      ],
+      "popularity": 7570,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Sanna (dish)"
+    },
+    {
+      "name": "Sorullos",
+      "aliases": [],
+      "popularity": 7632,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Sorullos"
+    },
+    {
+      "name": "Almojábana",
+      "aliases": [],
+      "popularity": 7667,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Almojábana"
+    },
+    {
+      "name": "Pane di Altamura",
+      "aliases": [
+        "Pane di Altamura PDO"
+      ],
+      "popularity": 7950,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Pane di Altamura"
+    },
+    {
+      "name": "Fit-fit",
+      "aliases": [],
+      "popularity": 8059,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Fit-fit"
+    },
+    {
+      "name": "Beer bread",
+      "aliases": [],
+      "popularity": 8108,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Beer bread"
+    },
+    {
+      "name": "Kubdari",
+      "aliases": [],
+      "popularity": 8165,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Kubdari"
+    },
+    {
+      "name": "Biscocho",
+      "aliases": [
+        "biskotso"
+      ],
+      "popularity": 8213,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Biscocho"
+    },
+    {
+      "name": "Plain loaf",
+      "aliases": [
+        "plain bread"
+      ],
+      "popularity": 8545,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Plain loaf"
+    },
+    {
+      "name": "Steamed bread",
+      "aliases": [],
+      "popularity": 8613,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Steamed bread"
+    },
+    {
+      "name": "Michetta",
+      "aliases": [],
+      "popularity": 8625,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Michetta"
+    },
+    {
+      "name": "Antidoron",
+      "aliases": [
+        "blessed bread",
+        "eulogia"
+      ],
+      "popularity": 8705,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Antidoron"
+    },
+    {
+      "name": "Piki",
+      "aliases": [],
+      "popularity": 8835,
+      "rarity": 0.41,
+      "tier": 3,
+      "wiki": "Piki"
+    },
+    {
+      "name": "Mlinci",
+      "aliases": [],
+      "popularity": 8847,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Mlinci"
+    },
+    {
+      "name": "Bazlama",
+      "aliases": [],
+      "popularity": 9040,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Bazlama"
+    },
+    {
+      "name": "Batter bread",
+      "aliases": [],
+      "popularity": 9067,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Batter bread"
+    },
+    {
+      "name": "Marraqueta",
+      "aliases": [],
+      "popularity": 9170,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Marraqueta"
+    },
+    {
+      "name": "Tebirkes",
+      "aliases": [
+        "Københavnerbirkes",
+        "Thebirkes"
+      ],
+      "popularity": 9347,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Tebirkes"
+    },
+    {
+      "name": "Taftan",
+      "aliases": [
+        "Taftan (bread)"
+      ],
+      "popularity": 9495,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Taftan (bread)"
+    },
+    {
+      "name": "Nutribun",
+      "aliases": [
+        "Nutri-bun",
+        "Nutriban"
+      ],
+      "popularity": 9867,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Nutribun"
+    },
+    {
+      "name": "Laufabrauð",
+      "aliases": [],
+      "popularity": 10061,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Laufabrauð"
+    },
+    {
+      "name": "No-knead bread",
+      "aliases": [],
+      "popularity": 10746,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "No-knead bread"
+    },
+    {
+      "name": "Pão francês",
+      "aliases": [
+        "French bread",
+        "French roll"
+      ],
+      "popularity": 10927,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Pão francês"
+    },
+    {
+      "name": "Finnish bread",
+      "aliases": [],
+      "popularity": 11114,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "Finnish bread"
+    },
+    {
+      "name": "Multigrain bread",
+      "aliases": [],
+      "popularity": 11159,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Multigrain bread"
+    },
+    {
+      "name": "Gnocco fritto",
+      "aliases": [
+        "crescentina"
+      ],
+      "popularity": 11720,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Gnocco fritto"
+    },
+    {
+      "name": "Hard dough bread",
+      "aliases": [
+        "hardo bread"
+      ],
+      "popularity": 11982,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Hard dough bread"
+    },
+    {
+      "name": "Tandyr nan",
+      "aliases": [
+        "lepyoshka",
+        "obi non",
+        "tandir non",
+        "tohax",
+        "tonur nan"
+      ],
+      "popularity": 12075,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Tandyr nan"
+    },
+    {
+      "name": "Kommissbrot",
+      "aliases": [],
+      "popularity": 12098,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Kommissbrot"
+    },
+    {
+      "name": "Sopa paraguaya",
+      "aliases": [],
+      "popularity": 12151,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Sopa paraguaya"
+    },
+    {
+      "name": "Manda roti",
+      "aliases": [
+        "Rumali Roti"
+      ],
+      "popularity": 12423,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Manda roti"
+    },
+    {
+      "name": "Rosca",
+      "aliases": [],
+      "popularity": 12511,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Rosca"
+    },
+    {
+      "name": "Bush bread",
+      "aliases": [],
+      "popularity": 12534,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Bush bread"
+    },
+    {
+      "name": "Salt bread",
+      "aliases": [
+        "Shio pan"
+      ],
+      "popularity": 12596,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Salt bread"
+    },
+    {
+      "name": "Soboro-ppang",
+      "aliases": [
+        "Korean streusel bread",
+        "soboro bread",
+        "soboro bun",
+        "soboro pastry"
+      ],
+      "popularity": 12741,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Soboro-ppang"
+    },
+    {
+      "name": "Mexican breads",
+      "aliases": [
+        "Mexican bread"
+      ],
+      "popularity": 12768,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "Mexican breads"
+    },
+    {
+      "name": "Amish friendship bread",
+      "aliases": [
+        "Amish cinnamon bread"
+      ],
+      "popularity": 12848,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Amish friendship bread"
+    },
+    {
+      "name": "Soldiers",
+      "aliases": [
+        "Soldiers (food)"
+      ],
+      "popularity": 13239,
+      "rarity": 0.303,
+      "tier": 2,
+      "wiki": "Soldiers (food)"
+    },
+    {
+      "name": "Sop",
+      "aliases": [
+        "blöta"
+      ],
+      "popularity": 13316,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Sop"
+    },
+    {
+      "name": "Jerusalem bagel",
+      "aliases": [
+        "Bagel Yerushalmi",
+        "ka'ak al-Quds",
+        "ka'ek al-Quds",
+        "kaak al-Quds"
+      ],
+      "popularity": 13491,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Jerusalem bagel"
+    },
+    {
+      "name": "Salt-rising bread",
+      "aliases": [],
+      "popularity": 13813,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Salt-rising bread"
+    },
+    {
+      "name": "Makki ki roti",
+      "aliases": [
+        "makkī kī roṭṭī"
+      ],
+      "popularity": 14311,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Makki ki roti"
+    },
+    {
+      "name": "Palianytsia",
+      "aliases": [
+        "palianitsa",
+        "palyanitsa",
+        "palyanytsya"
+      ],
+      "popularity": 14594,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Palianytsia"
+    },
+    {
+      "name": "Sandwich bread",
+      "aliases": [],
+      "popularity": 14685,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Sandwich bread"
+    },
+    {
+      "name": "Chipa",
+      "aliases": [],
+      "popularity": 14785,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Chipa"
+    },
+    {
+      "name": "Cemita",
+      "aliases": [
+        "Cema",
+        "Sema",
+        "Semita"
+      ],
+      "popularity": 15757,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Cemita"
+    },
+    {
+      "name": "Farl",
+      "aliases": [],
+      "popularity": 17012,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Farl"
+    },
+    {
+      "name": "Malawach",
+      "aliases": [
+        "Malawah"
+      ],
+      "popularity": 17014,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Malawach"
+    },
+    {
+      "name": "Graham bread",
+      "aliases": [],
+      "popularity": 17371,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Graham bread"
+    },
+    {
+      "name": "National Loaf",
+      "aliases": [],
+      "popularity": 17519,
+      "rarity": 0.252,
+      "tier": 2,
+      "wiki": "National Loaf"
+    },
+    {
+      "name": "Barley bread",
+      "aliases": [],
+      "popularity": 17645,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Barley bread"
+    },
+    {
+      "name": "Aloo paratha",
+      "aliases": [
+        "alu paratha"
+      ],
+      "popularity": 17849,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Aloo paratha"
+    },
+    {
+      "name": "Festival",
+      "aliases": [
+        "Festival (food)",
+        "festivals",
+        "Jamaican festival",
+        "Jamaican festivals"
+      ],
+      "popularity": 18013,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Festival (food)"
+    },
+    {
+      "name": "Sel roti",
+      "aliases": [
+        "selroti",
+        "shinghal"
+      ],
+      "popularity": 18206,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Sel roti"
+    },
+    {
+      "name": "Shaobing",
+      "aliases": [
+        "shao bing"
+      ],
+      "popularity": 18464,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Shaobing"
+    },
+    {
+      "name": "Curry bread",
+      "aliases": [],
+      "popularity": 18695,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Curry bread"
+    },
+    {
+      "name": "Horsebread",
+      "aliases": [],
+      "popularity": 18842,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Horsebread"
+    },
+    {
+      "name": "Easter bread",
+      "aliases": [],
+      "popularity": 19285,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Easter bread"
+    },
+    {
+      "name": "Pain de campagne",
+      "aliases": [
+        "campagne bread",
+        "pains de campagne",
+        "rustic bread",
+        "rustic loaf"
+      ],
+      "popularity": 19330,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Pain de campagne"
+    },
+    {
+      "name": "Stottie cake",
+      "aliases": [],
+      "popularity": 19771,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Stottie cake"
+    },
+    {
+      "name": "Prosphora",
+      "aliases": [
+        "panagia",
+        "prosphoron"
+      ],
+      "popularity": 19853,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Prosphora"
+    },
+    {
+      "name": "Vienna bread",
+      "aliases": [],
+      "popularity": 20334,
+      "rarity": 0.201,
+      "tier": 2,
+      "wiki": "Vienna bread"
+    },
+    {
+      "name": "Fried bread",
+      "aliases": [],
+      "popularity": 20825,
+      "rarity": 0.197,
+      "tier": 1,
+      "wiki": "Fried bread"
+    },
+    {
+      "name": "Butterbrot",
+      "aliases": [],
+      "popularity": 21718,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Butterbrot"
+    },
+    {
+      "name": "Malt loaf",
+      "aliases": [],
+      "popularity": 21865,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Malt loaf"
+    },
+    {
+      "name": "Vasilopita",
+      "aliases": [
+        "Greek king cake"
+      ],
+      "popularity": 21952,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Vasilopita"
+    },
+    {
+      "name": "Tequeño",
+      "aliases": [],
+      "popularity": 22585,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Tequeño"
+    },
+    {
+      "name": "Pone",
+      "aliases": [
+        "Pone (food)"
+      ],
+      "popularity": 22782,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Pone (food)"
+    },
+    {
+      "name": "Coco bread",
+      "aliases": [],
+      "popularity": 23199,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Coco bread"
+    },
+    {
+      "name": "Bublik",
+      "aliases": [],
+      "popularity": 23674,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Bublik"
+    },
+    {
+      "name": "Bolo do caco",
+      "aliases": [],
+      "popularity": 25158,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Bolo do caco"
+    },
+    {
+      "name": "Korovai",
+      "aliases": [
+        "karavai",
+        "kravai"
+      ],
+      "popularity": 25481,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Korovai"
+    },
+    {
+      "name": "Pogača",
+      "aliases": [
+        "Pagáč",
+        "pogačica",
+        "pogačice"
+      ],
+      "popularity": 26022,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Pogača"
+    },
+    {
+      "name": "Bread dildo",
+      "aliases": [],
+      "popularity": 26528,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Bread dildo"
+    },
+    {
+      "name": "Casabe",
+      "aliases": [
+        "casabe de yuca",
+        "cassava bread",
+        "cazabe"
+      ],
+      "popularity": 27961,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Casabe"
+    },
+    {
+      "name": "Spanish bread",
+      "aliases": [
+        "Señorita bread",
+        "Spanish bread (Philippines)"
+      ],
+      "popularity": 29264,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Spanish bread (Philippines)"
+    },
+    {
+      "name": "Quick bread",
+      "aliases": [
+        "aerated bread"
+      ],
+      "popularity": 29757,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Quick bread"
+    },
+    {
+      "name": "White bread",
+      "aliases": [],
+      "popularity": 29818,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "White bread"
+    },
+    {
+      "name": "Christmas wafer",
+      "aliases": [],
+      "popularity": 30655,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Christmas wafer"
+    },
+    {
+      "name": "Damper",
+      "aliases": [
+        "Damper (food)"
+      ],
+      "popularity": 31448,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Damper (food)"
+    },
+    {
+      "name": "Pandebono",
+      "aliases": [],
+      "popularity": 31875,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Pandebono"
+    },
+    {
+      "name": "Barm cake",
+      "aliases": [],
+      "popularity": 32611,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Barm cake"
+    },
+    {
+      "name": "Koliva",
+      "aliases": [],
+      "popularity": 33564,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Koliva"
+    },
+    {
+      "name": "Brown bread",
+      "aliases": [],
+      "popularity": 36253,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Brown bread"
+    },
+    {
+      "name": "Potato bread",
+      "aliases": [],
+      "popularity": 37146,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Potato bread"
+    },
+    {
+      "name": "Sprouted bread",
+      "aliases": [
+        "Essene bread",
+        "Ezekiel bread"
+      ],
+      "popularity": 40176,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Sprouted bread"
+    },
+    {
+      "name": "Bun",
+      "aliases": [],
+      "popularity": 41230,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Bun"
+    },
+    {
+      "name": "Breadcrumbs",
+      "aliases": [
+        "bread crumbs"
+      ],
+      "popularity": 46813,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Breadcrumbs"
+    },
+    {
+      "name": "Tiger bread",
+      "aliases": [
+        "Dutch Crunch",
+        "Giraffe bread",
+        "Marco Polo bread",
+        "tiger roll"
+      ],
+      "popularity": 48848,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Tiger bread"
+    },
+    {
+      "name": "Japanese milk bread",
+      "aliases": [
+        "Hokkaido milk bread",
+        "Milk bread",
+        "Shokupan"
+      ],
+      "popularity": 50919,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Japanese milk bread"
+    },
+    {
+      "name": "Simit",
+      "aliases": [
+        "gevrek",
+        "sameet",
+        "semid",
+        "semit",
+        "simeet",
+        "Turkish bagel"
+      ],
+      "popularity": 52733,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Simit"
+    },
+    {
+      "name": "Puri",
+      "aliases": [
+        "poori",
+        "Poori bread",
+        "Puri bread",
+        "Puri (food)"
+      ],
+      "popularity": 57369,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Puri (food)"
+    },
+    {
+      "name": "Bread roll",
+      "aliases": [],
+      "popularity": 57594,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Bread roll"
+    },
+    {
+      "name": "Garlic bread",
+      "aliases": [
+        "garlic bread roll"
+      ],
+      "popularity": 57791,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Garlic bread"
+    },
+    {
+      "name": "Toast",
+      "aliases": [
+        "bread toast",
+        "Toast (food)",
+        "toasted bread"
+      ],
+      "popularity": 60497,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Toast (food)"
+    },
+    {
+      "name": "Sliced bread",
+      "aliases": [
+        "pre-sliced bread"
+      ],
+      "popularity": 67664,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Sliced bread"
+    },
+    {
+      "name": "Pão de queijo",
+      "aliases": [
+        "cheese bread",
+        "cheese bun",
+        "cheese roll"
+      ],
+      "popularity": 70993,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Pão de queijo"
+    },
+    {
+      "name": "Wonder Bread",
+      "aliases": [],
+      "popularity": 72048,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Wonder Bread"
+    },
+    {
+      "name": "Monkey bread",
+      "aliases": [],
+      "popularity": 74789,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Monkey bread"
+    },
+    {
+      "name": "Unleavened bread",
+      "aliases": [],
+      "popularity": 76834,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Unleavened bread"
+    },
+    {
+      "name": "Papadam",
+      "aliases": [
+        "papad",
+        "papadum",
+        "papar",
+        "pappadam",
+        "poppadom",
+        "poppadum"
+      ],
+      "popularity": 100364,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Papadam"
+    },
+    {
+      "name": "Sacramental bread",
+      "aliases": [
+        "communion bread",
+        "communion wafer",
+        "consecrated host",
+        "holy host",
+        "host",
+        "hostia",
+        "ostia"
+      ],
+      "popularity": 106638,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Sacramental bread"
+    },
+    {
+      "name": "Flatbread",
+      "aliases": [
+        "flatbreads"
+      ],
+      "popularity": 107419,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Flatbread"
+    },
+    {
+      "name": "Pita",
+      "aliases": [
+        "Greek bread",
+        "Palestinian bread",
+        "pita bread",
+        "pitta",
+        "Syrian bread"
+      ],
+      "popularity": 136201,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Pita"
+    },
+    {
+      "name": "Knish",
+      "aliases": [
+        "knishes"
+      ],
+      "popularity": 137365,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "Knish"
+    },
+    {
+      "name": "Rusk",
+      "aliases": [
+        "rusks"
+      ],
+      "popularity": 141594,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Rusk"
+    },
+    {
+      "name": "Rye bread",
+      "aliases": [],
+      "popularity": 142078,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Rye bread"
+    },
+    {
+      "name": "Challah",
+      "aliases": [
+        "berches",
+        "challos",
+        "challot",
+        "hallah"
+      ],
+      "popularity": 173775,
+      "rarity": 0.004,
+      "tier": 1,
+      "wiki": "Challah"
+    },
+    {
+      "name": "Sourdough",
+      "aliases": [
+        "sourdough bread"
+      ],
+      "popularity": 387202,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Sourdough"
+    }
+  ]
+}

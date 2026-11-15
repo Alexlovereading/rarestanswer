@@ -1,0 +1,1018 @@
+{
+  "id": "pasta-shapes",
+  "slug": "pasta-shapes",
+  "category": "food",
+  "question": "Name a pasta shape",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Fedelini",
+      "aliases": [],
+      "popularity": 150,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Fedelini"
+    },
+    {
+      "name": "Pumpkin Tortelli",
+      "aliases": [],
+      "popularity": 241,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Pumpkin Tortelli"
+    },
+    {
+      "name": "Patacucci",
+      "aliases": [],
+      "popularity": 520,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Patacucci"
+    },
+    {
+      "name": "Linguettine",
+      "aliases": [],
+      "popularity": 865,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Linguettine"
+    },
+    {
+      "name": "Tripoline",
+      "aliases": [],
+      "popularity": 865,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Tripoline"
+    },
+    {
+      "name": "Parmitieddi",
+      "aliases": [
+        "palmatielli",
+        "parmatieddi",
+        "parmi"
+      ],
+      "popularity": 879,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Parmitieddi"
+    },
+    {
+      "name": "Tortello amaro di Castel Goffredo",
+      "aliases": [],
+      "popularity": 896,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "Tortello amaro di Castel Goffredo"
+    },
+    {
+      "name": "Mezzani",
+      "aliases": [
+        "Mezzani (pasta)"
+      ],
+      "popularity": 919,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Mezzani (pasta)"
+    },
+    {
+      "name": "Capunti",
+      "aliases": [],
+      "popularity": 985,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "Capunti"
+    },
+    {
+      "name": "Occhi di lupo",
+      "aliases": [],
+      "popularity": 1263,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Occhi di lupo"
+    },
+    {
+      "name": "Banana pasta",
+      "aliases": [],
+      "popularity": 1312,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Banana pasta"
+    },
+    {
+      "name": "Pillus",
+      "aliases": [],
+      "popularity": 1345,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Pillus"
+    },
+    {
+      "name": "Sagnarelli",
+      "aliases": [
+        "sagne",
+        "sagnette"
+      ],
+      "popularity": 1427,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Sagnarelli"
+    },
+    {
+      "name": "Lanterne",
+      "aliases": [
+        "Lanterne (pasta)"
+      ],
+      "popularity": 1437,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Lanterne (pasta)"
+    },
+    {
+      "name": "Foglie d'ulivo",
+      "aliases": [
+        "foglie di ulivo"
+      ],
+      "popularity": 1737,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Foglie d'ulivo"
+    },
+    {
+      "name": "Cencioni",
+      "aliases": [],
+      "popularity": 1917,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Cencioni"
+    },
+    {
+      "name": "Agnolotti pavesi",
+      "aliases": [],
+      "popularity": 2045,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Agnolotti pavesi"
+    },
+    {
+      "name": "Lorighittas",
+      "aliases": [],
+      "popularity": 2225,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Lorighittas"
+    },
+    {
+      "name": "Sedani",
+      "aliases": [],
+      "popularity": 2303,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Sedani"
+    },
+    {
+      "name": "Stroncatura",
+      "aliases": [
+        "struncatura"
+      ],
+      "popularity": 2530,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Stroncatura"
+    },
+    {
+      "name": "Maccheroni alla molinara",
+      "aliases": [
+        "alla mugnaia"
+      ],
+      "popularity": 2728,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Maccheroni alla molinara"
+    },
+    {
+      "name": "Cappelletti",
+      "aliases": [],
+      "popularity": 2948,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Cappelletti"
+    },
+    {
+      "name": "Şehriye",
+      "aliases": [],
+      "popularity": 3208,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Şehriye"
+    },
+    {
+      "name": "Barbine",
+      "aliases": [],
+      "popularity": 3593,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Barbine"
+    },
+    {
+      "name": "Fileja",
+      "aliases": [],
+      "popularity": 3623,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Fileja"
+    },
+    {
+      "name": "Troccoli",
+      "aliases": [],
+      "popularity": 3891,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Troccoli"
+    },
+    {
+      "name": "Stringozzi",
+      "aliases": [
+        "strangozzi",
+        "umbricelli"
+      ],
+      "popularity": 4038,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Stringozzi"
+    },
+    {
+      "name": "Stelline",
+      "aliases": [],
+      "popularity": 4133,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Stelline"
+    },
+    {
+      "name": "Fusi",
+      "aliases": [
+        "Fusi (pasta)"
+      ],
+      "popularity": 4393,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Fusi (pasta)"
+    },
+    {
+      "name": "Gogges",
+      "aliases": [
+        "goges",
+        "gogga",
+        "goggizes",
+        "goglies",
+        "stripta makaronia"
+      ],
+      "popularity": 4501,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Gogges"
+    },
+    {
+      "name": "Fiori",
+      "aliases": [
+        "Fiori (pasta)"
+      ],
+      "popularity": 4715,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Fiori (pasta)"
+    },
+    {
+      "name": "Anelli",
+      "aliases": [
+        "anelletti"
+      ],
+      "popularity": 4735,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Anelli"
+    },
+    {
+      "name": "Cjarsons",
+      "aliases": [],
+      "popularity": 4871,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Cjarsons"
+    },
+    {
+      "name": "Sacchettoni",
+      "aliases": [
+        "beggar's purse pasta",
+        "sacchetti"
+      ],
+      "popularity": 4906,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Sacchettoni"
+    },
+    {
+      "name": "Corzetti",
+      "aliases": [
+        "croxetti"
+      ],
+      "popularity": 5859,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Corzetti"
+    },
+    {
+      "name": "Agnolini",
+      "aliases": [
+        "agnolini Mantovani",
+        "agnulì",
+        "agnulìn"
+      ],
+      "popularity": 6248,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Agnolini"
+    },
+    {
+      "name": "Pasta mollicata",
+      "aliases": [],
+      "popularity": 6267,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Pasta mollicata"
+    },
+    {
+      "name": "Garganelli",
+      "aliases": [],
+      "popularity": 6632,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Garganelli"
+    },
+    {
+      "name": "Tortiglioni",
+      "aliases": [],
+      "popularity": 6942,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Tortiglioni"
+    },
+    {
+      "name": "Crozets de Savoie",
+      "aliases": [],
+      "popularity": 7032,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Crozets de Savoie"
+    },
+    {
+      "name": "Maltagliati",
+      "aliases": [],
+      "popularity": 7303,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Maltagliati"
+    },
+    {
+      "name": "Passatelli",
+      "aliases": [],
+      "popularity": 7975,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Passatelli"
+    },
+    {
+      "name": "Lasagnette",
+      "aliases": [],
+      "popularity": 8576,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Lasagnette"
+    },
+    {
+      "name": "Scialatielli",
+      "aliases": [
+        "scialatelli",
+        "sciliatielli",
+        "scivatieddi"
+      ],
+      "popularity": 8639,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Scialatielli"
+    },
+    {
+      "name": "Lazanki",
+      "aliases": [],
+      "popularity": 9170,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Lazanki"
+    },
+    {
+      "name": "Sorrentinos",
+      "aliases": [],
+      "popularity": 9594,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Sorrentinos"
+    },
+    {
+      "name": "Bavette",
+      "aliases": [
+        "Bavette (pasta)"
+      ],
+      "popularity": 10287,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Bavette (pasta)"
+    },
+    {
+      "name": "Culurgiones",
+      "aliases": [],
+      "popularity": 11112,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Culurgiones"
+    },
+    {
+      "name": "Tarhonya",
+      "aliases": [
+        "egg barley",
+        "egg drops",
+        "tarhoňa"
+      ],
+      "popularity": 11664,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Tarhonya"
+    },
+    {
+      "name": "Calamarata",
+      "aliases": [],
+      "popularity": 11824,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Calamarata"
+    },
+    {
+      "name": "Farfel",
+      "aliases": [],
+      "popularity": 11972,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Farfel"
+    },
+    {
+      "name": "Filled pasta",
+      "aliases": [
+        "pasta with filling",
+        "stuffed pasta"
+      ],
+      "popularity": 12101,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Filled pasta"
+    },
+    {
+      "name": "Trenette",
+      "aliases": [],
+      "popularity": 12399,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Trenette"
+    },
+    {
+      "name": "Noodles",
+      "aliases": [
+        "noodle"
+      ],
+      "popularity": 12625,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Noodles"
+    },
+    {
+      "name": "Schlutzkrapfen",
+      "aliases": [
+        "cajinci",
+        "crafuncins",
+        "mezzelune",
+        "ravioli tirolesi"
+      ],
+      "popularity": 12692,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Schlutzkrapfen"
+    },
+    {
+      "name": "Malloreddus",
+      "aliases": [
+        "gnocchetti Sardi"
+      ],
+      "popularity": 12845,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Malloreddus"
+    },
+    {
+      "name": "Alphabet pasta",
+      "aliases": [
+        "alfabeto",
+        "Alphabetti Spaghetti"
+      ],
+      "popularity": 13121,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Alphabet pasta"
+    },
+    {
+      "name": "Rotelle",
+      "aliases": [
+        "wagon wheels"
+      ],
+      "popularity": 13436,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Rotelle"
+    },
+    {
+      "name": "Tortelli",
+      "aliases": [],
+      "popularity": 13546,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Tortelli"
+    },
+    {
+      "name": "Busiate",
+      "aliases": [
+        "busiati"
+      ],
+      "popularity": 14337,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Busiate"
+    },
+    {
+      "name": "Gemelli",
+      "aliases": [
+        "Gemelli (pasta)"
+      ],
+      "popularity": 14384,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Gemelli (pasta)"
+    },
+    {
+      "name": "Filindeu",
+      "aliases": [
+        "God's yarns"
+      ],
+      "popularity": 14812,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Filindeu"
+    },
+    {
+      "name": "Toasted ravioli",
+      "aliases": [
+        "fried ravioli",
+        "T-rav"
+      ],
+      "popularity": 16485,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Toasted ravioli"
+    },
+    {
+      "name": "Ditalini",
+      "aliases": [
+        "tubettini"
+      ],
+      "popularity": 17066,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Ditalini"
+    },
+    {
+      "name": "Chicken riggies",
+      "aliases": [],
+      "popularity": 17950,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Chicken riggies"
+    },
+    {
+      "name": "Trofie",
+      "aliases": [
+        "Trofiette"
+      ],
+      "popularity": 18339,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Trofie"
+    },
+    {
+      "name": "Bigoli",
+      "aliases": [],
+      "popularity": 18578,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Bigoli"
+    },
+    {
+      "name": "Tortelloni",
+      "aliases": [],
+      "popularity": 20323,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Tortelloni"
+    },
+    {
+      "name": "Acini di pepe",
+      "aliases": [],
+      "popularity": 21578,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Acini di pepe"
+    },
+    {
+      "name": "Pici",
+      "aliases": [],
+      "popularity": 21666,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Pici"
+    },
+    {
+      "name": "Campanelle",
+      "aliases": [
+        "gigli"
+      ],
+      "popularity": 23294,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Campanelle"
+    },
+    {
+      "name": "Fregula",
+      "aliases": [
+        "fregola"
+      ],
+      "popularity": 26572,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Fregula"
+    },
+    {
+      "name": "Testaroli",
+      "aliases": [
+        "testarolo"
+      ],
+      "popularity": 27177,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Testaroli"
+    },
+    {
+      "name": "Cascatelli",
+      "aliases": [],
+      "popularity": 27332,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Cascatelli"
+    },
+    {
+      "name": "Strozzapreti",
+      "aliases": [],
+      "popularity": 28143,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Strozzapreti"
+    },
+    {
+      "name": "Pizzoccheri",
+      "aliases": [],
+      "popularity": 29257,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Pizzoccheri"
+    },
+    {
+      "name": "Cavatelli",
+      "aliases": [],
+      "popularity": 30297,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Cavatelli"
+    },
+    {
+      "name": "Casarecce",
+      "aliases": [],
+      "popularity": 30615,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Casarecce"
+    },
+    {
+      "name": "Fagottini",
+      "aliases": [],
+      "popularity": 31274,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Fagottini"
+    },
+    {
+      "name": "Conchiglie",
+      "aliases": [],
+      "popularity": 32094,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Conchiglie"
+    },
+    {
+      "name": "Pastina",
+      "aliases": [],
+      "popularity": 33191,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Pastina"
+    },
+    {
+      "name": "Raviole du Dauphiné",
+      "aliases": [],
+      "popularity": 33328,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Raviole du Dauphiné"
+    },
+    {
+      "name": "Tagliolini",
+      "aliases": [
+        "taglierini",
+        "taglioni",
+        "tajarin"
+      ],
+      "popularity": 34519,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Tagliolini"
+    },
+    {
+      "name": "Radiatori",
+      "aliases": [
+        "radiatore"
+      ],
+      "popularity": 34748,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Radiatori"
+    },
+    {
+      "name": "Paccheri",
+      "aliases": [],
+      "popularity": 36428,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Paccheri"
+    },
+    {
+      "name": "Mafaldine",
+      "aliases": [
+        "mafalda",
+        "mafalde",
+        "reginette"
+      ],
+      "popularity": 41034,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Mafaldine"
+    },
+    {
+      "name": "Capellini",
+      "aliases": [],
+      "popularity": 41185,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Capellini"
+    },
+    {
+      "name": "Farfalle",
+      "aliases": [
+        "bow-tie pasta",
+        "butterfly pasta"
+      ],
+      "popularity": 42095,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Farfalle"
+    },
+    {
+      "name": "Varenyky",
+      "aliases": [
+        "pyrohy"
+      ],
+      "popularity": 46820,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Varenyky"
+    },
+    {
+      "name": "Fusilli",
+      "aliases": [
+        "rotini"
+      ],
+      "popularity": 52512,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Fusilli"
+    },
+    {
+      "name": "Pappardelle",
+      "aliases": [],
+      "popularity": 55666,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Pappardelle"
+    },
+    {
+      "name": "Penne",
+      "aliases": [
+        "mostaccioli"
+      ],
+      "popularity": 57344,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Penne"
+    },
+    {
+      "name": "Spaghetti alla chitarra",
+      "aliases": [
+        "maccheroni alla chitarra",
+        "Tonnarelli"
+      ],
+      "popularity": 63687,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Spaghetti alla chitarra"
+    },
+    {
+      "name": "Cavatappi",
+      "aliases": [],
+      "popularity": 65249,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Cavatappi"
+    },
+    {
+      "name": "Cannelloni",
+      "aliases": [],
+      "popularity": 67101,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Cannelloni"
+    },
+    {
+      "name": "Manicotti",
+      "aliases": [],
+      "popularity": 68377,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Manicotti"
+    },
+    {
+      "name": "Rigatoni",
+      "aliases": [],
+      "popularity": 72378,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Rigatoni"
+    },
+    {
+      "name": "Ziti",
+      "aliases": [],
+      "popularity": 72951,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Ziti"
+    },
+    {
+      "name": "Tortellini",
+      "aliases": [],
+      "popularity": 80799,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Tortellini"
+    },
+    {
+      "name": "Linguine",
+      "aliases": [],
+      "popularity": 81237,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Linguine"
+    },
+    {
+      "name": "Tagliatelle",
+      "aliases": [],
+      "popularity": 83737,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Tagliatelle"
+    },
+    {
+      "name": "Fettuccine",
+      "aliases": [],
+      "popularity": 89449,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Fettuccine"
+    },
+    {
+      "name": "Bucatini",
+      "aliases": [
+        "perciatelli"
+      ],
+      "popularity": 90315,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Bucatini"
+    },
+    {
+      "name": "Orecchiette",
+      "aliases": [],
+      "popularity": 101572,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Orecchiette"
+    },
+    {
+      "name": "Macaroni",
+      "aliases": [],
+      "popularity": 109058,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "Macaroni"
+    },
+    {
+      "name": "Wonton",
+      "aliases": [],
+      "popularity": 118137,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Wonton"
+    },
+    {
+      "name": "Vermicelli",
+      "aliases": [
+        "fideo"
+      ],
+      "popularity": 130846,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Vermicelli"
+    },
+    {
+      "name": "Orzo",
+      "aliases": [
+        "risoni"
+      ],
+      "popularity": 176484,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Orzo"
+    },
+    {
+      "name": "Spaghetti",
+      "aliases": [
+        "spaghetti noodle"
+      ],
+      "popularity": 178319,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Spaghetti"
+    },
+    {
+      "name": "Gnocchi",
+      "aliases": [
+        "Italian dumpling"
+      ],
+      "popularity": 249951,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Gnocchi"
+    },
+    {
+      "name": "Pierogi",
+      "aliases": [
+        "vareniki"
+      ],
+      "popularity": 512345,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Pierogi"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "countries-in-north-america",
+  "slug": "countries-in-north-america",
+  "category": "geography",
+  "question": "Name a country in North America",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Antigua and Barbuda",
+      "aliases": [
+        "AG",
+        "Antigua–Barbuda"
+      ],
+      "popularity": 525148,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Antigua and Barbuda"
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "aliases": [
+        "Saint Vincent",
+        "St Vincent",
+        "St. Vincent and the Grenadines",
+        "vct"
+      ],
+      "popularity": 526186,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Saint Vincent and the Grenadines"
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "aliases": [
+        "Kitts and Nevis",
+        "Saint Christopher and Nevis",
+        "St. Kitts and Nevis"
+      ],
+      "popularity": 670545,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Saint Kitts and Nevis"
+    },
+    {
+      "name": "Dominica",
+      "aliases": [
+        "Commonwealth of Dominica",
+        "DOM",
+        "Island of Dominica",
+        "The Commonwealth of Dominica",
+        "Wai‘tu kubuli"
+      ],
+      "popularity": 701602,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Dominica"
+    },
+    {
+      "name": "Saint Lucia",
+      "aliases": [
+        "Hewanorra",
+        "Iyonola",
+        "lca",
+        "St. Lucia"
+      ],
+      "popularity": 781213,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Saint Lucia"
+    },
+    {
+      "name": "Grenada",
+      "aliases": [
+        "GRN"
+      ],
+      "popularity": 812195,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Grenada"
+    },
+    {
+      "name": "Honduras",
+      "aliases": [
+        "HON",
+        "Honduran Republic",
+        "Republic of Honduras"
+      ],
+      "popularity": 827509,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Honduras"
+    },
+    {
+      "name": "Guatemala",
+      "aliases": [
+        "GTM",
+        "Republic of Guatemala"
+      ],
+      "popularity": 988226,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Guatemala"
+    },
+    {
+      "name": "Costa Rica",
+      "aliases": [
+        "Republic of Costa Rica"
+      ],
+      "popularity": 1000252,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Costa Rica"
+    },
+    {
+      "name": "Panama",
+      "aliases": [
+        "Republic of Panama"
+      ],
+      "popularity": 1011311,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Panama"
+    },
+    {
+      "name": "Barbados",
+      "aliases": [
+        "BAR",
+        "Barbadoes"
+      ],
+      "popularity": 1087258,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Barbados"
+    },
+    {
+      "name": "Nicaragua",
+      "aliases": [
+        "NCA",
+        "NIC",
+        "Republic of Nicaragua"
+      ],
+      "popularity": 1087870,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Nicaragua"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "aliases": [
+        "Republic of Trinidad and Tobago"
+      ],
+      "popularity": 1169729,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Trinidad and Tobago"
+    },
+    {
+      "name": "The Bahamas",
+      "aliases": [
+        "Bahama Islands",
+        "Bahamas",
+        "Commonwealth of The Bahamas"
+      ],
+      "popularity": 1186143,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "The Bahamas"
+    },
+    {
+      "name": "El Salvador",
+      "aliases": [
+        "ESA",
+        "Republic of El Salvador",
+        "Salvador"
+      ],
+      "popularity": 1205438,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "El Salvador"
+    },
+    {
+      "name": "Belize",
+      "aliases": [],
+      "popularity": 1217664,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Belize"
+    },
+    {
+      "name": "Jamaica",
+      "aliases": [
+        "Commonwealth of Jamaica"
+      ],
+      "popularity": 1246038,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Jamaica"
+    },
+    {
+      "name": "Dominican Republic",
+      "aliases": [
+        "Dominicana",
+        "DomRep",
+        "República Dominicana"
+      ],
+      "popularity": 1475452,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Dominican Republic"
+    },
+    {
+      "name": "Haiti",
+      "aliases": [
+        "Ayiti",
+        "HAI",
+        "Haitian Republic",
+        "Hayti",
+        "Republic of Haiti"
+      ],
+      "popularity": 1558104,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Haiti"
+    },
+    {
+      "name": "Cuba",
+      "aliases": [
+        "Republic of Cuba"
+      ],
+      "popularity": 2072815,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Cuba"
+    },
+    {
+      "name": "Mexico",
+      "aliases": [
+        "Mexican Republic",
+        "Mexican United States",
+        "MXN",
+        "United Mexican States",
+        "United States of Mexico",
+        "US of M"
+      ],
+      "popularity": 3031824,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Mexico"
+    },
+    {
+      "name": "Canada",
+      "aliases": [
+        "CAN"
+      ],
+      "popularity": 4232345,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Canada"
+    },
+    {
+      "name": "United States",
+      "aliases": [
+        "Merica",
+        "'Murica",
+        "the States",
+        "the U.S.",
+        "the U.S.A.",
+        "the U.S. of A",
+        "the U.S. of America",
+        "the United States",
+        "the United States of America",
+        "the US",
+        "the US of A",
+        "the US of America",
+        "the USA",
+        "U.S.",
+        "U. S. A.",
+        "U.S. of America",
+        "United States of America",
+        "US of A",
+        "US of America",
+        "USA"
+      ],
+      "popularity": 13453739,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "United States"
+    }
+  ]
+}

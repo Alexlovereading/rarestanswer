@@ -1,0 +1,607 @@
+{
+  "id": "classical-genres",
+  "slug": "classical-genres",
+  "category": "music",
+  "question": "Name a genre of classical music",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Postromantic music",
+      "aliases": [],
+      "popularity": 64,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Postromantic music"
+    },
+    {
+      "name": "Indie classical",
+      "aliases": [],
+      "popularity": 588,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Indie classical"
+    },
+    {
+      "name": "Court music in Scotland",
+      "aliases": [
+        "Scottish court music"
+      ],
+      "popularity": 622,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Court music in Scotland"
+    },
+    {
+      "name": "Sousedská",
+      "aliases": [
+        "sousedské"
+      ],
+      "popularity": 1156,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Sousedská"
+    },
+    {
+      "name": "Canadian classical music",
+      "aliases": [],
+      "popularity": 1917,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Canadian classical music"
+    },
+    {
+      "name": "Redowa",
+      "aliases": [
+        "rejdovačka",
+        "rejdovák"
+      ],
+      "popularity": 1963,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Redowa"
+    },
+    {
+      "name": "Stile concertato",
+      "aliases": [
+        "concertato",
+        "concertato style",
+        "concerted style"
+      ],
+      "popularity": 2502,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Stile concertato"
+    },
+    {
+      "name": "Italian classical music",
+      "aliases": [],
+      "popularity": 2560,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Italian classical music"
+    },
+    {
+      "name": "English Pastoral School",
+      "aliases": [
+        "Cow Pat School",
+        "English Nationalist School"
+      ],
+      "popularity": 2743,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "English Pastoral School"
+    },
+    {
+      "name": "French classical music",
+      "aliases": [],
+      "popularity": 3531,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "French classical music"
+    },
+    {
+      "name": "Tafelmusik",
+      "aliases": [],
+      "popularity": 3589,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Tafelmusik"
+    },
+    {
+      "name": "Ballet",
+      "aliases": [
+        "Ballet (music)",
+        "ballet score"
+      ],
+      "popularity": 4260,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Ballet (music)"
+    },
+    {
+      "name": "Canzona",
+      "aliases": [
+        "canzon",
+        "canzone"
+      ],
+      "popularity": 4305,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Canzona"
+    },
+    {
+      "name": "Character piece",
+      "aliases": [
+        "characteristic piece",
+        "lyric piece"
+      ],
+      "popularity": 4322,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Character piece"
+    },
+    {
+      "name": "Classical music of the United Kingdom",
+      "aliases": [
+        "British classical music"
+      ],
+      "popularity": 4684,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Classical music of the United Kingdom"
+    },
+    {
+      "name": "Divertissement",
+      "aliases": [],
+      "popularity": 4686,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Divertissement"
+    },
+    {
+      "name": "Classical guitar repertoire",
+      "aliases": [
+        "classical guitar composition",
+        "classical guitar music",
+        "classical guitar piece",
+        "composition for classical guitar",
+        "music for classical guitar",
+        "musical repertoire for classical guitar",
+        "piece for classical guitar"
+      ],
+      "popularity": 4693,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Classical guitar repertoire"
+    },
+    {
+      "name": "Classical music of the United States",
+      "aliases": [
+        "American classical music"
+      ],
+      "popularity": 4905,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Classical music of the United States"
+    },
+    {
+      "name": "Passion",
+      "aliases": [
+        "Passion cantata",
+        "Passion (music)",
+        "Passion oratorio",
+        "Passion setting"
+      ],
+      "popularity": 5939,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Passion (music)"
+    },
+    {
+      "name": "Neue Musik",
+      "aliases": [
+        "New Music",
+        "post-tonal music"
+      ],
+      "popularity": 6133,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Neue Musik"
+    },
+    {
+      "name": "Classic rag",
+      "aliases": [
+        "classic ragtime",
+        "classical rag",
+        "classical ragtime"
+      ],
+      "popularity": 7071,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Classic rag"
+    },
+    {
+      "name": "Turkish music",
+      "aliases": [
+        "Turkish music (style)"
+      ],
+      "popularity": 7255,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Turkish music (style)"
+    },
+    {
+      "name": "Russian classical music",
+      "aliases": [
+        "Russian academic music",
+        "Russian art music"
+      ],
+      "popularity": 10127,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Russian classical music"
+    },
+    {
+      "name": "Capriccio",
+      "aliases": [
+        "capri",
+        "capricci",
+        "Capriccio (music)",
+        "caprice",
+        "caprices"
+      ],
+      "popularity": 11710,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Capriccio (music)"
+    },
+    {
+      "name": "Fantasia",
+      "aliases": [
+        "fancy",
+        "Fantasia (musical form)",
+        "fantasy",
+        "fantazy",
+        "phantasy"
+      ],
+      "popularity": 12196,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Fantasia (musical form)"
+    },
+    {
+      "name": "Ballade",
+      "aliases": [
+        "ballad in Romantism",
+        "Ballade (classical music)",
+        "piano ballad",
+        "piano ballade"
+      ],
+      "popularity": 12240,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Ballade (classical music)"
+    },
+    {
+      "name": "Ricercar",
+      "aliases": [
+        "recercar",
+        "recercare",
+        "ricercare",
+        "ricercares",
+        "ricercars",
+        "ricercata"
+      ],
+      "popularity": 13237,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Ricercar"
+    },
+    {
+      "name": "21st-century classical music",
+      "aliases": [
+        "twenty-first century classical music"
+      ],
+      "popularity": 13452,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "21st-century classical music"
+    },
+    {
+      "name": "Bagatelle",
+      "aliases": [
+        "Bagatelle (music)"
+      ],
+      "popularity": 14746,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Bagatelle (music)"
+    },
+    {
+      "name": "Furniture music",
+      "aliases": [],
+      "popularity": 15225,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Furniture music"
+    },
+    {
+      "name": "Variation",
+      "aliases": [
+        "set of variations",
+        "theme and variation",
+        "theme and variations",
+        "theme with variations",
+        "Variation (music)",
+        "variations on a theme"
+      ],
+      "popularity": 18077,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Variation (music)"
+    },
+    {
+      "name": "Impromptu",
+      "aliases": [],
+      "popularity": 18868,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Impromptu"
+    },
+    {
+      "name": "Postmodern music",
+      "aliases": [
+        "post-modern classical",
+        "post-modern music",
+        "post-modernist classical",
+        "post-modernist music",
+        "post-serial music",
+        "postmodern classical",
+        "postmodernist classical music",
+        "postmodernist music"
+      ],
+      "popularity": 18935,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Postmodern music"
+    },
+    {
+      "name": "Art song",
+      "aliases": [
+        "Kunstlied",
+        "Kunstlieder",
+        "műdal"
+      ],
+      "popularity": 19759,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Art song"
+    },
+    {
+      "name": "Early music",
+      "aliases": [
+        "period music",
+        "pre-baroque music"
+      ],
+      "popularity": 21759,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Early music"
+    },
+    {
+      "name": "Toccata",
+      "aliases": [
+        "toccare",
+        "toccatina",
+        "tochata"
+      ],
+      "popularity": 26265,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "Toccata"
+    },
+    {
+      "name": "Prelude",
+      "aliases": [
+        "praeambulum",
+        "praeludium",
+        "Prelude (music)"
+      ],
+      "popularity": 26777,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Prelude (music)"
+    },
+    {
+      "name": "Light music",
+      "aliases": [
+        "concert music",
+        "light classical music",
+        "mood music"
+      ],
+      "popularity": 27384,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Light music"
+    },
+    {
+      "name": "Serenade",
+      "aliases": [
+        "Nachtmusik",
+        "serenata"
+      ],
+      "popularity": 28906,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Serenade"
+    },
+    {
+      "name": "20th-century classical music",
+      "aliases": [],
+      "popularity": 30352,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "20th-century classical music"
+    },
+    {
+      "name": "Motet",
+      "aliases": [],
+      "popularity": 34043,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Motet"
+    },
+    {
+      "name": "Modernism",
+      "aliases": [
+        "modern music",
+        "Modernism (music)",
+        "modernist music",
+        "musical modernism"
+      ],
+      "popularity": 38876,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Modernism (music)"
+    },
+    {
+      "name": "Overture",
+      "aliases": [],
+      "popularity": 49400,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Overture"
+    },
+    {
+      "name": "Cantata",
+      "aliases": [],
+      "popularity": 54135,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Cantata"
+    },
+    {
+      "name": "Madrigal",
+      "aliases": [
+        "madrigale"
+      ],
+      "popularity": 57742,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Madrigal"
+    },
+    {
+      "name": "Nocturne",
+      "aliases": [
+        "notturno"
+      ],
+      "popularity": 57905,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Nocturne"
+    },
+    {
+      "name": "Étude",
+      "aliases": [
+        "exercise",
+        "lesson",
+        "study"
+      ],
+      "popularity": 61852,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Étude"
+    },
+    {
+      "name": "Sonata",
+      "aliases": [],
+      "popularity": 66172,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Sonata"
+    },
+    {
+      "name": "Chamber music",
+      "aliases": [],
+      "popularity": 66199,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Chamber music"
+    },
+    {
+      "name": "Renaissance music",
+      "aliases": [
+        "Renaissance Era"
+      ],
+      "popularity": 79012,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Renaissance music"
+    },
+    {
+      "name": "Classical period",
+      "aliases": [
+        "Classical era",
+        "Classical-era music",
+        "Classical music",
+        "Classical music period",
+        "Classical period (music)",
+        "musical classicism"
+      ],
+      "popularity": 105176,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Classical period (music)"
+    },
+    {
+      "name": "Romantic music",
+      "aliases": [
+        "music of Romanticism",
+        "musical romantism",
+        "romantism in music"
+      ],
+      "popularity": 129503,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Romantic music"
+    },
+    {
+      "name": "Fugue",
+      "aliases": [
+        "fuga",
+        "fugal",
+        "fuge",
+        "fughetta"
+      ],
+      "popularity": 144923,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Fugue"
+    },
+    {
+      "name": "Baroque music",
+      "aliases": [
+        "baroque",
+        "Baroque era",
+        "Baroque period",
+        "music of the Baroque"
+      ],
+      "popularity": 185329,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Baroque music"
+    },
+    {
+      "name": "Opera",
+      "aliases": [
+        "European opera",
+        "lyric drama",
+        "Western classical opera"
+      ],
+      "popularity": 256972,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Opera"
+    }
+  ]
+}

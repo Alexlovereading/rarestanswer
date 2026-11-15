@@ -1,0 +1,363 @@
+{
+  "id": "sorting-algorithms",
+  "slug": "sorting-algorithms",
+  "category": "science",
+  "question": "Name a sorting algorithm",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Multi-key quicksort",
+      "aliases": [
+        "multikey quicksort",
+        "three-way radix quicksort"
+      ],
+      "popularity": 1016,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Multi-key quicksort"
+    },
+    {
+      "name": "Kirkpatrick–Reisch sort",
+      "aliases": [],
+      "popularity": 1057,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Kirkpatrick–Reisch sort"
+    },
+    {
+      "name": "Proxmap sort",
+      "aliases": [],
+      "popularity": 1358,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Proxmap sort"
+    },
+    {
+      "name": "Strand sort",
+      "aliases": [],
+      "popularity": 1366,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Strand sort"
+    },
+    {
+      "name": "Burstsort",
+      "aliases": [],
+      "popularity": 1868,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Burstsort"
+    },
+    {
+      "name": "Pairwise sorting network",
+      "aliases": [],
+      "popularity": 2327,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Pairwise sorting network"
+    },
+    {
+      "name": "Cubesort",
+      "aliases": [],
+      "popularity": 2498,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Cubesort"
+    },
+    {
+      "name": "Library sort",
+      "aliases": [],
+      "popularity": 3909,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Library sort"
+    },
+    {
+      "name": "Tournament sort",
+      "aliases": [],
+      "popularity": 4093,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Tournament sort"
+    },
+    {
+      "name": "Samplesort",
+      "aliases": [],
+      "popularity": 4165,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Samplesort"
+    },
+    {
+      "name": "Spaghetti sort",
+      "aliases": [],
+      "popularity": 5317,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Spaghetti sort"
+    },
+    {
+      "name": "Batcher odd–even mergesort",
+      "aliases": [],
+      "popularity": 6449,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Batcher odd–even mergesort"
+    },
+    {
+      "name": "Odd–even sort",
+      "aliases": [
+        "brick sort",
+        "odd–even transposition sort",
+        "parity sort"
+      ],
+      "popularity": 6936,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Odd–even sort"
+    },
+    {
+      "name": "Tree sort",
+      "aliases": [
+        "Treesort"
+      ],
+      "popularity": 6944,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Tree sort"
+    },
+    {
+      "name": "Bead sort",
+      "aliases": [
+        "beadsort"
+      ],
+      "popularity": 6948,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Bead sort"
+    },
+    {
+      "name": "Pigeonhole sort",
+      "aliases": [],
+      "popularity": 7022,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Pigeonhole sort"
+    },
+    {
+      "name": "Smoothsort",
+      "aliases": [],
+      "popularity": 7089,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Smoothsort"
+    },
+    {
+      "name": "Patience sorting",
+      "aliases": [],
+      "popularity": 8068,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Patience sorting"
+    },
+    {
+      "name": "Cycle sort",
+      "aliases": [],
+      "popularity": 8309,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Cycle sort"
+    },
+    {
+      "name": "Comb sort",
+      "aliases": [],
+      "popularity": 8633,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Comb sort"
+    },
+    {
+      "name": "Stooge sort",
+      "aliases": [
+        "stoogesort"
+      ],
+      "popularity": 11565,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Stooge sort"
+    },
+    {
+      "name": "Cocktail shaker sort",
+      "aliases": [
+        "bidirectional bubble sort",
+        "cocktail sort",
+        "double bubble sort",
+        "shaker sort"
+      ],
+      "popularity": 12185,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Cocktail shaker sort"
+    },
+    {
+      "name": "Slowsort",
+      "aliases": [],
+      "popularity": 12787,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Slowsort"
+    },
+    {
+      "name": "Merge-insertion sort",
+      "aliases": [
+        "Ford–Johnson algorithm",
+        "merge insertion"
+      ],
+      "popularity": 15004,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Merge-insertion sort"
+    },
+    {
+      "name": "Pancake sorting",
+      "aliases": [],
+      "popularity": 20748,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Pancake sorting"
+    },
+    {
+      "name": "Introsort",
+      "aliases": [
+        "introspective sort"
+      ],
+      "popularity": 22189,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Introsort"
+    },
+    {
+      "name": "Bitonic sorter",
+      "aliases": [
+        "Bitonic mergesort"
+      ],
+      "popularity": 22619,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Bitonic sorter"
+    },
+    {
+      "name": "Counting sort",
+      "aliases": [],
+      "popularity": 26045,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Counting sort"
+    },
+    {
+      "name": "Shellsort",
+      "aliases": [
+        "Shell's method",
+        "Shell sort"
+      ],
+      "popularity": 27872,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Shellsort"
+    },
+    {
+      "name": "Bucket sort",
+      "aliases": [
+        "Distribution sort"
+      ],
+      "popularity": 28869,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Bucket sort"
+    },
+    {
+      "name": "Powersort",
+      "aliases": [],
+      "popularity": 31496,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Powersort"
+    },
+    {
+      "name": "Selection sort",
+      "aliases": [
+        "SelectionSort"
+      ],
+      "popularity": 48636,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Selection sort"
+    },
+    {
+      "name": "Heapsort",
+      "aliases": [],
+      "popularity": 63701,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Heapsort"
+    },
+    {
+      "name": "Timsort",
+      "aliases": [],
+      "popularity": 64266,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Timsort"
+    },
+    {
+      "name": "Bogosort",
+      "aliases": [
+        "monkey sort",
+        "random sort",
+        "shotgun sort",
+        "stupid sort"
+      ],
+      "popularity": 69844,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Bogosort"
+    },
+    {
+      "name": "Radix sort",
+      "aliases": [],
+      "popularity": 71399,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Radix sort"
+    },
+    {
+      "name": "Insertion sort",
+      "aliases": [],
+      "popularity": 100723,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Insertion sort"
+    },
+    {
+      "name": "Bubble sort",
+      "aliases": [
+        "bubblesort",
+        "sinking sort"
+      ],
+      "popularity": 116987,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Bubble sort"
+    },
+    {
+      "name": "Quicksort",
+      "aliases": [
+        "partition-exchange sort"
+      ],
+      "popularity": 191264,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Quicksort"
+    }
+  ]
+}

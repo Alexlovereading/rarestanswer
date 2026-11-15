@@ -1,0 +1,1974 @@
+{
+  "id": "poison-dart-frog-species",
+  "slug": "poison-dart-frog-species",
+  "category": "animals",
+  "question": "Name a species of poison dart frog",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Emerald poison frog",
+      "aliases": [
+        "Ameerega smaragdina"
+      ],
+      "popularity": 23,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Emerald poison frog"
+    },
+    {
+      "name": "Ranitomeya biolat",
+      "aliases": [],
+      "popularity": 34,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Ranitomeya biolat"
+    },
+    {
+      "name": "Ranitomeya rubrocephala",
+      "aliases": [],
+      "popularity": 121,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Ranitomeya rubrocephala"
+    },
+    {
+      "name": "Hyloxalus leucophaeus",
+      "aliases": [],
+      "popularity": 145,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Hyloxalus leucophaeus"
+    },
+    {
+      "name": "Hyloxalus pinguis",
+      "aliases": [
+        "Malvasa rocket frog"
+      ],
+      "popularity": 155,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Hyloxalus pinguis"
+    },
+    {
+      "name": "Hyloxalus mittermeieri",
+      "aliases": [],
+      "popularity": 159,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Hyloxalus mittermeieri"
+    },
+    {
+      "name": "Hyloxalus fascianigrus",
+      "aliases": [],
+      "popularity": 164,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Hyloxalus fascianigrus"
+    },
+    {
+      "name": "Hyloxalus pulcherrimus",
+      "aliases": [],
+      "popularity": 165,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Hyloxalus pulcherrimus"
+    },
+    {
+      "name": "Hyloxalus italoi",
+      "aliases": [],
+      "popularity": 166,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Hyloxalus italoi"
+    },
+    {
+      "name": "Hyloxalus marmoreoventris",
+      "aliases": [
+        "Rio Negro rocket frog"
+      ],
+      "popularity": 167,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Hyloxalus marmoreoventris"
+    },
+    {
+      "name": "Hyloxalus excisus",
+      "aliases": [],
+      "popularity": 170,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Hyloxalus excisus"
+    },
+    {
+      "name": "Hyloxalus betancuri",
+      "aliases": [],
+      "popularity": 172,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Hyloxalus betancuri"
+    },
+    {
+      "name": "Hyloxalus pumilus",
+      "aliases": [
+        "San Vicente rocket frog"
+      ],
+      "popularity": 173,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Hyloxalus pumilus"
+    },
+    {
+      "name": "Hyloxalus sanctamariensis",
+      "aliases": [],
+      "popularity": 173,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Hyloxalus sanctamariensis"
+    },
+    {
+      "name": "Hyloxalus insulatus",
+      "aliases": [],
+      "popularity": 175,
+      "rarity": 0.93,
+      "tier": 5,
+      "wiki": "Hyloxalus insulatus"
+    },
+    {
+      "name": "Hyloxalus utcubambensis",
+      "aliases": [],
+      "popularity": 175,
+      "rarity": 0.93,
+      "tier": 5,
+      "wiki": "Hyloxalus utcubambensis"
+    },
+    {
+      "name": "Hyloxalus eleutherodactylus",
+      "aliases": [],
+      "popularity": 176,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Hyloxalus eleutherodactylus"
+    },
+    {
+      "name": "Hyloxalus spilotogaster",
+      "aliases": [],
+      "popularity": 176,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Hyloxalus spilotogaster"
+    },
+    {
+      "name": "Hyloxalus felixcoperari",
+      "aliases": [],
+      "popularity": 180,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Hyloxalus felixcoperari"
+    },
+    {
+      "name": "Hyloxalus patitae",
+      "aliases": [],
+      "popularity": 180,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Hyloxalus patitae"
+    },
+    {
+      "name": "Hyloxalus saltuarius",
+      "aliases": [],
+      "popularity": 180,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Hyloxalus saltuarius"
+    },
+    {
+      "name": "Hyloxalus vergeli",
+      "aliases": [
+        "Colostethus vergeli",
+        "Hellmich’s rocket frog"
+      ],
+      "popularity": 181,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Hyloxalus vergeli"
+    },
+    {
+      "name": "Leucostethus yaguara",
+      "aliases": [
+        "Colostethus yaguara"
+      ],
+      "popularity": 181,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Leucostethus yaguara"
+    },
+    {
+      "name": "Hyloxalus faciopunctulatus",
+      "aliases": [
+        "Puerto Narino Rocket Frog"
+      ],
+      "popularity": 187,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "Hyloxalus faciopunctulatus"
+    },
+    {
+      "name": "Leucostethus dysprosium",
+      "aliases": [
+        "Colostethus dysprosium"
+      ],
+      "popularity": 188,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Leucostethus dysprosium"
+    },
+    {
+      "name": "Hyloxalus ramosi",
+      "aliases": [
+        "Ramos' rocket frog"
+      ],
+      "popularity": 189,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Hyloxalus ramosi"
+    },
+    {
+      "name": "Hyloxalus sauli",
+      "aliases": [
+        "Colostethus sauli",
+        "Santa Cecilia rocket frog"
+      ],
+      "popularity": 189,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Hyloxalus sauli"
+    },
+    {
+      "name": "Hyloxalus arliensis",
+      "aliases": [],
+      "popularity": 191,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Hyloxalus arliensis"
+    },
+    {
+      "name": "Hyloxalus aeruginosus",
+      "aliases": [],
+      "popularity": 192,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Hyloxalus aeruginosus"
+    },
+    {
+      "name": "Hyloxalus parcus",
+      "aliases": [
+        "Gualaceo rocket frog"
+      ],
+      "popularity": 194,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Hyloxalus parcus"
+    },
+    {
+      "name": "Confusing poison frog",
+      "aliases": [
+        "Ameerega maculata"
+      ],
+      "popularity": 195,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Confusing poison frog"
+    },
+    {
+      "name": "Hyloxalus craspedoceps",
+      "aliases": [],
+      "popularity": 196,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Hyloxalus craspedoceps"
+    },
+    {
+      "name": "Hyloxalus maquipucuna",
+      "aliases": [],
+      "popularity": 198,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Hyloxalus maquipucuna"
+    },
+    {
+      "name": "Hyloxalus sordidatus",
+      "aliases": [],
+      "popularity": 201,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Hyloxalus sordidatus"
+    },
+    {
+      "name": "Silverstoneia gutturalis",
+      "aliases": [],
+      "popularity": 206,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Silverstoneia gutturalis"
+    },
+    {
+      "name": "Leucostethus jota",
+      "aliases": [],
+      "popularity": 208,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Leucostethus jota"
+    },
+    {
+      "name": "Hyloxalus borjai",
+      "aliases": [
+        "Colostethus borjai"
+      ],
+      "popularity": 209,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Hyloxalus borjai"
+    },
+    {
+      "name": "Hyloxalus maculosus",
+      "aliases": [
+        "spotted rocket frog"
+      ],
+      "popularity": 209,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Hyloxalus maculosus"
+    },
+    {
+      "name": "Hyloxalus mystax",
+      "aliases": [
+        "Cloud forest rocket frog",
+        "Colostethus mystax"
+      ],
+      "popularity": 209,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Hyloxalus mystax"
+    },
+    {
+      "name": "Hyloxalus delatorreae",
+      "aliases": [],
+      "popularity": 212,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Hyloxalus delatorreae"
+    },
+    {
+      "name": "Hyloxalus vertebralis",
+      "aliases": [
+        "Boulenger's rocket frog",
+        "Colostethus vertebralis"
+      ],
+      "popularity": 213,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Hyloxalus vertebralis"
+    },
+    {
+      "name": "Palenque poison frog",
+      "aliases": [
+        "Ameerega erythromos"
+      ],
+      "popularity": 214,
+      "rarity": 0.801,
+      "tier": 5,
+      "wiki": "Palenque poison frog"
+    },
+    {
+      "name": "Silverstoneia minutissima",
+      "aliases": [],
+      "popularity": 215,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Silverstoneia minutissima"
+    },
+    {
+      "name": "Hyloxalus fuliginosus",
+      "aliases": [
+        "Quijos rocket frog"
+      ],
+      "popularity": 216,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Hyloxalus fuliginosus"
+    },
+    {
+      "name": "Hyloxalus bocagei",
+      "aliases": [
+        "Bocage's rocket frog",
+        "Colostethus bocagei"
+      ],
+      "popularity": 217,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Hyloxalus bocagei"
+    },
+    {
+      "name": "Hyloxalus fallax",
+      "aliases": [
+        "Cotopaxi rocket frog"
+      ],
+      "popularity": 219,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Hyloxalus fallax"
+    },
+    {
+      "name": "Hyloxalus yasuni",
+      "aliases": [],
+      "popularity": 220,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Hyloxalus yasuni"
+    },
+    {
+      "name": "Allobates peruvianus",
+      "aliases": [
+        "Hyloxalus peruvianus",
+        "Peru rocket frog"
+      ],
+      "popularity": 221,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "Allobates peruvianus"
+    },
+    {
+      "name": "Hyloxalus shuar",
+      "aliases": [
+        "Colostethus shuar",
+        "Santiago rocket frog"
+      ],
+      "popularity": 227,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Hyloxalus shuar"
+    },
+    {
+      "name": "Hyloxalus idiomelus",
+      "aliases": [
+        "Colostethus idiomelas",
+        "Rivero's rocket frog"
+      ],
+      "popularity": 230,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Hyloxalus idiomelus"
+    },
+    {
+      "name": "Leucostethus ramirezi",
+      "aliases": [
+        "Colostethus ramirezi"
+      ],
+      "popularity": 231,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Leucostethus ramirezi"
+    },
+    {
+      "name": "Hyloxalus elachyhistus",
+      "aliases": [
+        "Loja rocket frog"
+      ],
+      "popularity": 232,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Hyloxalus elachyhistus"
+    },
+    {
+      "name": "La Planada poison frog",
+      "aliases": [
+        "Ameerega andina"
+      ],
+      "popularity": 233,
+      "rarity": 0.748,
+      "tier": 4,
+      "wiki": "La Planada poison frog"
+    },
+    {
+      "name": "Silverstoneia minima",
+      "aliases": [],
+      "popularity": 234,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Silverstoneia minima"
+    },
+    {
+      "name": "Hyloxalus abditaurantius",
+      "aliases": [
+        "Bello rocket frog"
+      ],
+      "popularity": 235,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Hyloxalus abditaurantius"
+    },
+    {
+      "name": "Hyloxalus ruizi",
+      "aliases": [
+        "Ruiz's rocket frog"
+      ],
+      "popularity": 236,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Hyloxalus ruizi"
+    },
+    {
+      "name": "Colostethus ucumari",
+      "aliases": [],
+      "popularity": 238,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Colostethus ucumari"
+    },
+    {
+      "name": "Hyloxalus chlorocraspedus",
+      "aliases": [],
+      "popularity": 238,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Hyloxalus chlorocraspedus"
+    },
+    {
+      "name": "Ranitomeya defleri",
+      "aliases": [],
+      "popularity": 239,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Ranitomeya defleri"
+    },
+    {
+      "name": "Silverstoneia erasmios",
+      "aliases": [],
+      "popularity": 240,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Silverstoneia erasmios"
+    },
+    {
+      "name": "Leucostethus alacris",
+      "aliases": [
+        "Colostethus alacris"
+      ],
+      "popularity": 243,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Leucostethus alacris"
+    },
+    {
+      "name": "Hyloxalus exasperatus",
+      "aliases": [
+        "Colostethus exasperatus",
+        "Yapitya rocket frog"
+      ],
+      "popularity": 244,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Hyloxalus exasperatus"
+    },
+    {
+      "name": "Hyloxalus infraguttatus",
+      "aliases": [],
+      "popularity": 244,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Hyloxalus infraguttatus"
+    },
+    {
+      "name": "Hyloxalus chocoensis",
+      "aliases": [],
+      "popularity": 245,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Hyloxalus chocoensis"
+    },
+    {
+      "name": "Leucostethus siapida",
+      "aliases": [],
+      "popularity": 246,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Leucostethus siapida"
+    },
+    {
+      "name": "Hyloxalus peculiaris",
+      "aliases": [
+        "funny rocket frog"
+      ],
+      "popularity": 250,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Hyloxalus peculiaris"
+    },
+    {
+      "name": "Silverstoneia dalyi",
+      "aliases": [],
+      "popularity": 251,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Silverstoneia dalyi"
+    },
+    {
+      "name": "Hyloxalus toachi",
+      "aliases": [
+        "Colostethus toachi"
+      ],
+      "popularity": 252,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Hyloxalus toachi"
+    },
+    {
+      "name": "Leucostethus argyrogaster",
+      "aliases": [
+        "Colostethus argyrogaster"
+      ],
+      "popularity": 252,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Leucostethus argyrogaster"
+    },
+    {
+      "name": "Hyloxalus cevallosi",
+      "aliases": [
+        "Palanda rocket frog"
+      ],
+      "popularity": 253,
+      "rarity": 0.665,
+      "tier": 4,
+      "wiki": "Hyloxalus cevallosi"
+    },
+    {
+      "name": "Hyloxalus sylvaticus",
+      "aliases": [
+        "Forest rocket frog"
+      ],
+      "popularity": 254,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Hyloxalus sylvaticus"
+    },
+    {
+      "name": "Silverstoneia punctiventris",
+      "aliases": [],
+      "popularity": 256,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Silverstoneia punctiventris"
+    },
+    {
+      "name": "Leucostethus brachistriatus",
+      "aliases": [
+        "Colostethus brachistriatus",
+        "Stripe-throated rocket frog"
+      ],
+      "popularity": 262,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Leucostethus brachistriatus"
+    },
+    {
+      "name": "Hyloxalus breviquartus",
+      "aliases": [
+        "Colostethus breviquartus",
+        "Urrao rocket frog"
+      ],
+      "popularity": 263,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Hyloxalus breviquartus"
+    },
+    {
+      "name": "Hyloxalus littoralis",
+      "aliases": [
+        "Lima rocket frog"
+      ],
+      "popularity": 263,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Hyloxalus littoralis"
+    },
+    {
+      "name": "Leucostethus fugax",
+      "aliases": [
+        "Colostethus fugax"
+      ],
+      "popularity": 263,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Leucostethus fugax"
+    },
+    {
+      "name": "Colostethus thorntoni",
+      "aliases": [],
+      "popularity": 265,
+      "rarity": 0.626,
+      "tier": 4,
+      "wiki": "Colostethus thorntoni"
+    },
+    {
+      "name": "Hyloxalus lehmanni",
+      "aliases": [
+        "Colostethus lehmanni",
+        "Lehmann's rocket frog"
+      ],
+      "popularity": 265,
+      "rarity": 0.626,
+      "tier": 4,
+      "wiki": "Hyloxalus lehmanni"
+    },
+    {
+      "name": "Phyllobates bezosi",
+      "aliases": [],
+      "popularity": 265,
+      "rarity": 0.626,
+      "tier": 4,
+      "wiki": "Phyllobates bezosi"
+    },
+    {
+      "name": "Ectopoglossus saxatilis",
+      "aliases": [],
+      "popularity": 267,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Ectopoglossus saxatilis"
+    },
+    {
+      "name": "Leucostethus bilsa",
+      "aliases": [
+        "Bilsa white-chested frog"
+      ],
+      "popularity": 276,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Leucostethus bilsa"
+    },
+    {
+      "name": "Colostethus furviventris",
+      "aliases": [],
+      "popularity": 277,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Colostethus furviventris"
+    },
+    {
+      "name": "Hyloxalus pulchellus",
+      "aliases": [
+        "Espada's rocket frog",
+        "Faldas rocket frog",
+        "Rio Cosanga rocket frog"
+      ],
+      "popularity": 284,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Hyloxalus pulchellus"
+    },
+    {
+      "name": "Hyloxalus nexipus",
+      "aliases": [
+        "limon rocket frog",
+        "Los Tayos rocket frog"
+      ],
+      "popularity": 285,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Hyloxalus nexipus"
+    },
+    {
+      "name": "Ranitomeya toraro",
+      "aliases": [],
+      "popularity": 287,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Ranitomeya toraro"
+    },
+    {
+      "name": "Hyloxalus awa",
+      "aliases": [
+        "Colostethus awa"
+      ],
+      "popularity": 292,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Hyloxalus awa"
+    },
+    {
+      "name": "Lutz's poison frog",
+      "aliases": [
+        "Ameerega flavopicta"
+      ],
+      "popularity": 292,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Lutz's poison frog"
+    },
+    {
+      "name": "Colostethus lynchi",
+      "aliases": [],
+      "popularity": 298,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Colostethus lynchi"
+    },
+    {
+      "name": "Ranitomeya yavaricola",
+      "aliases": [],
+      "popularity": 299,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Ranitomeya yavaricola"
+    },
+    {
+      "name": "Cream-backed poison frog",
+      "aliases": [
+        "Hyloxalus subpunctatus"
+      ],
+      "popularity": 302,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Cream-backed poison frog"
+    },
+    {
+      "name": "Colostethus mertensi",
+      "aliases": [],
+      "popularity": 310,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Colostethus mertensi"
+    },
+    {
+      "name": "Ectopoglossus astralogaster",
+      "aliases": [],
+      "popularity": 311,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Ectopoglossus astralogaster"
+    },
+    {
+      "name": "Colostethus latinasus",
+      "aliases": [
+        "Truando rocket frog"
+      ],
+      "popularity": 312,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Colostethus latinasus"
+    },
+    {
+      "name": "Colostethus imbricolus",
+      "aliases": [],
+      "popularity": 313,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "Colostethus imbricolus"
+    },
+    {
+      "name": "Andean poison frog",
+      "aliases": [
+        "Andinobates opisthomelas"
+      ],
+      "popularity": 316,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Andean poison frog"
+    },
+    {
+      "name": "Ameerega simulans",
+      "aliases": [],
+      "popularity": 318,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Ameerega simulans"
+    },
+    {
+      "name": "Epipedobates narinensis",
+      "aliases": [],
+      "popularity": 318,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Epipedobates narinensis"
+    },
+    {
+      "name": "Ameerega ignipedis",
+      "aliases": [],
+      "popularity": 320,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Ameerega ignipedis"
+    },
+    {
+      "name": "Leucostethus fraterdanieli",
+      "aliases": [
+        "Colostethus fraterdanieli"
+      ],
+      "popularity": 320,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Leucostethus fraterdanieli"
+    },
+    {
+      "name": "Oxapampa poison frog",
+      "aliases": [
+        "Ameerega planipaleae"
+      ],
+      "popularity": 322,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Oxapampa poison frog"
+    },
+    {
+      "name": "Hyloxalus anthracinus",
+      "aliases": [
+        "South American rocket frog"
+      ],
+      "popularity": 323,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Hyloxalus anthracinus"
+    },
+    {
+      "name": "Ranitomeya flavovittata",
+      "aliases": [],
+      "popularity": 323,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Ranitomeya flavovittata"
+    },
+    {
+      "name": "Excidobates condor",
+      "aliases": [
+        "Condor poison frog"
+      ],
+      "popularity": 325,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Excidobates condor"
+    },
+    {
+      "name": "Ameerega rubriventris",
+      "aliases": [
+        "Rana venenosa"
+      ],
+      "popularity": 326,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Ameerega rubriventris"
+    },
+    {
+      "name": "Ranitomeya cyanovittata",
+      "aliases": [],
+      "popularity": 327,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Ranitomeya cyanovittata"
+    },
+    {
+      "name": "Ameerega yungicola",
+      "aliases": [],
+      "popularity": 330,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Ameerega yungicola"
+    },
+    {
+      "name": "Marbled poison frog",
+      "aliases": [
+        "Epipedobates boulengeri"
+      ],
+      "popularity": 334,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Marbled poison frog"
+    },
+    {
+      "name": "Andinobates tolimensis",
+      "aliases": [],
+      "popularity": 335,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Andinobates tolimensis"
+    },
+    {
+      "name": "Cainarachi poison frog",
+      "aliases": [
+        "Ameerega cainarachi"
+      ],
+      "popularity": 335,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Cainarachi poison frog"
+    },
+    {
+      "name": "Ameerega panguana",
+      "aliases": [
+        "Panguana poison frog"
+      ],
+      "popularity": 341,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Ameerega panguana"
+    },
+    {
+      "name": "Paruwrobates whymperi",
+      "aliases": [
+        "Colostethus whymperi",
+        "Hyloxalus whymperi"
+      ],
+      "popularity": 351,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "Paruwrobates whymperi"
+    },
+    {
+      "name": "Ectopoglossus absconditus",
+      "aliases": [],
+      "popularity": 352,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "Ectopoglossus absconditus"
+    },
+    {
+      "name": "Hyloxalus edwardsi",
+      "aliases": [],
+      "popularity": 352,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "Hyloxalus edwardsi"
+    },
+    {
+      "name": "Ectopoglossus isthminus",
+      "aliases": [],
+      "popularity": 357,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Ectopoglossus isthminus"
+    },
+    {
+      "name": "Supatá golden frog",
+      "aliases": [
+        "Ranitomeya sp. nov. 'Supatáe'"
+      ],
+      "popularity": 357,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Supatá golden frog"
+    },
+    {
+      "name": "Cauca poison frog",
+      "aliases": [
+        "Andinobates bombetes"
+      ],
+      "popularity": 365,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Cauca poison frog"
+    },
+    {
+      "name": "Ameerega yoshina",
+      "aliases": [],
+      "popularity": 370,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Ameerega yoshina"
+    },
+    {
+      "name": "Ameerega imasmari",
+      "aliases": [
+        "riddle poison frog"
+      ],
+      "popularity": 396,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Ameerega imasmari"
+    },
+    {
+      "name": "Andinobates claudiae",
+      "aliases": [
+        "Ranitomeya claudiae"
+      ],
+      "popularity": 398,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Andinobates claudiae"
+    },
+    {
+      "name": "Colostethus agilis",
+      "aliases": [],
+      "popularity": 401,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Colostethus agilis"
+    },
+    {
+      "name": "Colostethus inguinalis",
+      "aliases": [],
+      "popularity": 401,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Colostethus inguinalis"
+    },
+    {
+      "name": "Spot-legged poison frog",
+      "aliases": [
+        "Ameerega picta"
+      ],
+      "popularity": 401,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Spot-legged poison frog"
+    },
+    {
+      "name": "Ameerega braccata",
+      "aliases": [],
+      "popularity": 406,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Ameerega braccata"
+    },
+    {
+      "name": "Ameerega parvula",
+      "aliases": [],
+      "popularity": 408,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Ameerega parvula"
+    },
+    {
+      "name": "Andinobates daleswansoni",
+      "aliases": [],
+      "popularity": 420,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Andinobates daleswansoni"
+    },
+    {
+      "name": "Ameerega boliviana",
+      "aliases": [
+        "Bolivian poison-arrow frog",
+        "Bolivian poison frog"
+      ],
+      "popularity": 425,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Ameerega boliviana"
+    },
+    {
+      "name": "La Brea poison frog",
+      "aliases": [
+        "Oophaga occultator"
+      ],
+      "popularity": 426,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "La Brea poison frog"
+    },
+    {
+      "name": "Ameerega pongoensis",
+      "aliases": [],
+      "popularity": 446,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Ameerega pongoensis"
+    },
+    {
+      "name": "Ameerega berohoka",
+      "aliases": [],
+      "popularity": 449,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Ameerega berohoka"
+    },
+    {
+      "name": "Silverstoneia nubicola",
+      "aliases": [
+        "Boquete rocket frog"
+      ],
+      "popularity": 458,
+      "rarity": 0.374,
+      "tier": 2,
+      "wiki": "Silverstoneia nubicola"
+    },
+    {
+      "name": "Andinobates dorisswansonae",
+      "aliases": [],
+      "popularity": 459,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Andinobates dorisswansonae"
+    },
+    {
+      "name": "Epipedobates machalilla",
+      "aliases": [],
+      "popularity": 491,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Epipedobates machalilla"
+    },
+    {
+      "name": "Rockstone poison dart frog",
+      "aliases": [
+        "Dendrobates nubeculosus",
+        "rockstone poison frog"
+      ],
+      "popularity": 494,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Rockstone poison dart frog"
+    },
+    {
+      "name": "Epipedobates espinosai",
+      "aliases": [],
+      "popularity": 495,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Epipedobates espinosai"
+    },
+    {
+      "name": "Andinobates virolinensis",
+      "aliases": [
+        "Ranitomeya virolinensis"
+      ],
+      "popularity": 500,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Andinobates virolinensis"
+    },
+    {
+      "name": "Yellow-bellied poison frog",
+      "aliases": [
+        "Andinobates fulguritus"
+      ],
+      "popularity": 510,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Yellow-bellied poison frog"
+    },
+    {
+      "name": "Colostethus jacobuspetersi",
+      "aliases": [
+        "Quito rocket frog"
+      ],
+      "popularity": 511,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Colostethus jacobuspetersi"
+    },
+    {
+      "name": "Ameerega kuriinti",
+      "aliases": [
+        "A. kuriinti",
+        "Inti Poison Frog"
+      ],
+      "popularity": 516,
+      "rarity": 0.335,
+      "tier": 2,
+      "wiki": "Ameerega kuriinti"
+    },
+    {
+      "name": "Ameerega pepperi",
+      "aliases": [],
+      "popularity": 518,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Ameerega pepperi"
+    },
+    {
+      "name": "Andinobates altobueyensis",
+      "aliases": [
+        "Ranitomeya altobueyensis"
+      ],
+      "popularity": 537,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Andinobates altobueyensis"
+    },
+    {
+      "name": "Ameerega munduruku",
+      "aliases": [],
+      "popularity": 539,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Ameerega munduruku"
+    },
+    {
+      "name": "Andinobates abditus",
+      "aliases": [
+        "Collins's poison frog",
+        "Ranitomeya abdita"
+      ],
+      "popularity": 553,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Andinobates abditus"
+    },
+    {
+      "name": "Ameerega boehmei",
+      "aliases": [
+        "Boehmei's Poison Arrow Frog"
+      ],
+      "popularity": 554,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Ameerega boehmei"
+    },
+    {
+      "name": "Blue-bellied poison frog",
+      "aliases": [
+        "Andinobates minutus"
+      ],
+      "popularity": 554,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Blue-bellied poison frog"
+    },
+    {
+      "name": "Ameerega pulchripecta",
+      "aliases": [
+        "beautiful-breasted poison arrow frog",
+        "beautiful-breasted poison frog",
+        "blue-breasted poison frog"
+      ],
+      "popularity": 557,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Ameerega pulchripecta"
+    },
+    {
+      "name": "Manú poison frog",
+      "aliases": [
+        "Ameerega macero"
+      ],
+      "popularity": 559,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Manú poison frog"
+    },
+    {
+      "name": "Adelphobates quinquevittatus",
+      "aliases": [],
+      "popularity": 565,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Adelphobates quinquevittatus"
+    },
+    {
+      "name": "Peru poison frog",
+      "aliases": [
+        "Ameerega petersi"
+      ],
+      "popularity": 569,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Peru poison frog"
+    },
+    {
+      "name": "Silverstone's poison frog",
+      "aliases": [
+        "Ameerega silverstonei"
+      ],
+      "popularity": 591,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Silverstone's poison frog"
+    },
+    {
+      "name": "Excidobates captivus",
+      "aliases": [
+        "Rio Santiago poison frog"
+      ],
+      "popularity": 603,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Excidobates captivus"
+    },
+    {
+      "name": "Ameerega altamazonica",
+      "aliases": [
+        "Tarapoto Poison Frog"
+      ],
+      "popularity": 619,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Ameerega altamazonica"
+    },
+    {
+      "name": "Andinobates viridis",
+      "aliases": [
+        "green poison frog"
+      ],
+      "popularity": 633,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Andinobates viridis"
+    },
+    {
+      "name": "Ameerega ingeri",
+      "aliases": [
+        "Brother Niceforo's poison frog",
+        "Niceforo's poison frog"
+      ],
+      "popularity": 660,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Ameerega ingeri"
+    },
+    {
+      "name": "Ameerega shihuemoy",
+      "aliases": [],
+      "popularity": 663,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Ameerega shihuemoy"
+    },
+    {
+      "name": "Oophaga andresi",
+      "aliases": [
+        "Cocorro"
+      ],
+      "popularity": 663,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Oophaga andresi"
+    },
+    {
+      "name": "Phyllobates samperi",
+      "aliases": [],
+      "popularity": 664,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Phyllobates samperi"
+    },
+    {
+      "name": "Ameerega hahneli",
+      "aliases": [
+        "Yurimaguas poison frog"
+      ],
+      "popularity": 674,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Ameerega hahneli"
+    },
+    {
+      "name": "Colostethus panamansis",
+      "aliases": [
+        "Common rocket frog"
+      ],
+      "popularity": 676,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Colostethus panamansis"
+    },
+    {
+      "name": "Colostethus pratti",
+      "aliases": [],
+      "popularity": 676,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Colostethus pratti"
+    },
+    {
+      "name": "Geminis' dart frog",
+      "aliases": [
+        "Andinobates geminisae"
+      ],
+      "popularity": 677,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Geminis' dart frog"
+    },
+    {
+      "name": "Andinobates cassidyhornae",
+      "aliases": [],
+      "popularity": 688,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Andinobates cassidyhornae"
+    },
+    {
+      "name": "Ranitomeya uakarii",
+      "aliases": [
+        "red Uakari poison frog"
+      ],
+      "popularity": 695,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Ranitomeya uakarii"
+    },
+    {
+      "name": "Silverstoneia flotator",
+      "aliases": [
+        "Rainforest rocket frog"
+      ],
+      "popularity": 706,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Silverstoneia flotator"
+    },
+    {
+      "name": "\"Colostethus\" poecilonotus",
+      "aliases": [
+        "Amazonas rocket frog"
+      ],
+      "popularity": 726,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "\"Colostethus\" poecilonotus"
+    },
+    {
+      "name": "Minyobates steyermarki",
+      "aliases": [
+        "Demonic poison frog"
+      ],
+      "popularity": 742,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Minyobates steyermarki"
+    },
+    {
+      "name": "Polkadot poison frog",
+      "aliases": [
+        "Oophaga arborea"
+      ],
+      "popularity": 764,
+      "rarity": 0.199,
+      "tier": 1,
+      "wiki": "Polkadot poison frog"
+    },
+    {
+      "name": "Pleasing poison frog",
+      "aliases": [
+        "Ameerega bassleri"
+      ],
+      "popularity": 766,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Pleasing poison frog"
+    },
+    {
+      "name": "Sira poison dart frog",
+      "aliases": [
+        "bamboo poison frog",
+        "Biolat poison frog",
+        "Pasco poison frog",
+        "Ranitomeya sirensis",
+        "Sira poison frog"
+      ],
+      "popularity": 827,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Sira poison dart frog"
+    },
+    {
+      "name": "Ectopoglossus confusus",
+      "aliases": [],
+      "popularity": 864,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Ectopoglossus confusus"
+    },
+    {
+      "name": "Ranitomeya summersi",
+      "aliases": [
+        "Summers’ poison frog"
+      ],
+      "popularity": 915,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Ranitomeya summersi"
+    },
+    {
+      "name": "Vicente's poison frog",
+      "aliases": [
+        "Oophaga vicentei"
+      ],
+      "popularity": 920,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Vicente's poison frog"
+    },
+    {
+      "name": "Sky-blue poison frog",
+      "aliases": [
+        "Hyloxalus azureiventris"
+      ],
+      "popularity": 923,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Sky-blue poison frog"
+    },
+    {
+      "name": "Lovely poison frog",
+      "aliases": [
+        "Phyllobates lugubris"
+      ],
+      "popularity": 986,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "Lovely poison frog"
+    },
+    {
+      "name": "Red-headed poison frog",
+      "aliases": [
+        "Ranitomeya fantastica"
+      ],
+      "popularity": 1067,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Red-headed poison frog"
+    },
+    {
+      "name": "Ranitomeya vanzolinii",
+      "aliases": [
+        "Brazilian poison frog",
+        "spotted poison frog",
+        "Vanzolini's Poison Frog"
+      ],
+      "popularity": 1098,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Ranitomeya vanzolinii"
+    },
+    {
+      "name": "Oophaga anchicayensis",
+      "aliases": [],
+      "popularity": 1114,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Oophaga anchicayensis"
+    },
+    {
+      "name": "Yellow-striped poison frog",
+      "aliases": [
+        "Dendrobates truncatus"
+      ],
+      "popularity": 1149,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Yellow-striped poison frog"
+    },
+    {
+      "name": "Ranitomeya aetherea",
+      "aliases": [],
+      "popularity": 1171,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Ranitomeya aetherea"
+    },
+    {
+      "name": "Brazil-nut poison frog",
+      "aliases": [
+        "Adelphobates castaneoticus"
+      ],
+      "popularity": 1252,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Brazil-nut poison frog"
+    },
+    {
+      "name": "Ranitomeya aquamarina",
+      "aliases": [],
+      "popularity": 1288,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Ranitomeya aquamarina"
+    },
+    {
+      "name": "Ranitomeya benedicta",
+      "aliases": [
+        "Blessed poison frog"
+      ],
+      "popularity": 1294,
+      "rarity": 0.126,
+      "tier": 1,
+      "wiki": "Ranitomeya benedicta"
+    },
+    {
+      "name": "Marañón poison frog",
+      "aliases": [
+        "Excidobates mysteriosus",
+        "MaraÒÛn poison frog"
+      ],
+      "popularity": 1369,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "Marañón poison frog"
+    },
+    {
+      "name": "Oophaga solanensis",
+      "aliases": [
+        "koe-koe"
+      ],
+      "popularity": 1808,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Oophaga solanensis"
+    },
+    {
+      "name": "Zimmerman's poison frog",
+      "aliases": [
+        "Ranitomeya variabilis",
+        "Splash-back poison frog",
+        "Zimmermann’s poison frog"
+      ],
+      "popularity": 2102,
+      "rarity": 0.112,
+      "tier": 1,
+      "wiki": "Zimmerman's poison frog"
+    },
+    {
+      "name": "Adelphobates galactonotus",
+      "aliases": [],
+      "popularity": 2430,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Adelphobates galactonotus"
+    },
+    {
+      "name": "Ameerega trivittata",
+      "aliases": [
+        "Ameerega trivittatus",
+        "orange-striped poison frog",
+        "three-striped arrow frog",
+        "three-striped arrow poison frog"
+      ],
+      "popularity": 2501,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Ameerega trivittata"
+    },
+    {
+      "name": "Phyllobates aurotaenia",
+      "aliases": [
+        "Kokoe poison dart frog"
+      ],
+      "popularity": 2608,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Phyllobates aurotaenia"
+    },
+    {
+      "name": "Golfodulcean poison frog",
+      "aliases": [
+        "Golfo Dulce Poison-Dart Frog",
+        "Phyllobates vittatus"
+      ],
+      "popularity": 2726,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Golfodulcean poison frog"
+    },
+    {
+      "name": "Amazonian poison frog",
+      "aliases": [
+        "Ranitomeya ventrimaculata",
+        "Reticulated poison frog"
+      ],
+      "popularity": 2921,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Amazonian poison frog"
+    },
+    {
+      "name": "Oophaga sylvatica",
+      "aliases": [
+        "Kiki poison dart frog",
+        "Little devil poison frog"
+      ],
+      "popularity": 3154,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Oophaga sylvatica"
+    },
+    {
+      "name": "Red-backed poison frog",
+      "aliases": [
+        "Ranitomeya reticulata"
+      ],
+      "popularity": 3567,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Red-backed poison frog"
+    },
+    {
+      "name": "Harlequin poison frog",
+      "aliases": [
+        "Oophaga histrionica"
+      ],
+      "popularity": 3685,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Harlequin poison frog"
+    },
+    {
+      "name": "Lehmann's poison frog",
+      "aliases": [
+        "Oophaga lehmanni",
+        "red-banded poison frog"
+      ],
+      "popularity": 4299,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Lehmann's poison frog"
+    },
+    {
+      "name": "Phyllobates bicolor",
+      "aliases": [
+        "bicolored dart frog",
+        "black-legged dart frog",
+        "Black-legged poison frog",
+        "neari"
+      ],
+      "popularity": 4453,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Phyllobates bicolor"
+    },
+    {
+      "name": "Ranitomeya amazonica",
+      "aliases": [],
+      "popularity": 5083,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Ranitomeya amazonica"
+    },
+    {
+      "name": "Granular poison frog",
+      "aliases": [
+        "Oophaga granulifera"
+      ],
+      "popularity": 5164,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Granular poison frog"
+    },
+    {
+      "name": "Mimic poison frog",
+      "aliases": [
+        "Ranitomeya imitator"
+      ],
+      "popularity": 5538,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Mimic poison frog"
+    },
+    {
+      "name": "\"Colostethus\" ruthveni",
+      "aliases": [
+        "Santa Marta poison arrow frog"
+      ],
+      "popularity": 5777,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "\"Colostethus\" ruthveni"
+    },
+    {
+      "name": "Ameerega bilinguis",
+      "aliases": [
+        "Ecuador poison frog",
+        "Ecuadorean poison frog"
+      ],
+      "popularity": 6257,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Ameerega bilinguis"
+    },
+    {
+      "name": "Anthony's poison arrow frog",
+      "aliases": [
+        "Epipedobates anthonyi"
+      ],
+      "popularity": 8372,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Anthony's poison arrow frog"
+    },
+    {
+      "name": "Phantasmal poison frog",
+      "aliases": [
+        "Epipedobates tricolor"
+      ],
+      "popularity": 10169,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Phantasmal poison frog"
+    },
+    {
+      "name": "Dyeing poison dart frog",
+      "aliases": [
+        "cobalt poison frog",
+        "Dendrobates tinctorius",
+        "dyeing dart frog",
+        "dyeing poison frog",
+        "Suriname cobalt poison frog",
+        "tinc"
+      ],
+      "popularity": 14197,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Dyeing poison dart frog"
+    },
+    {
+      "name": "Green and black poison dart frog",
+      "aliases": [
+        "Dart poison frog",
+        "Dendrobates auratus",
+        "Green and black poison frog",
+        "Green poison-arrow frog"
+      ],
+      "popularity": 14907,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Green and black poison dart frog"
+    },
+    {
+      "name": "Yellow-banded poison dart frog",
+      "aliases": [
+        "bumblebee poison frog",
+        "Dendrobates leucomelas",
+        "yellow-headed poison dart frog"
+      ],
+      "popularity": 16245,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Yellow-banded poison dart frog"
+    },
+    {
+      "name": "Strawberry poison dart frog",
+      "aliases": [
+        "Flaming poison-arrow frog",
+        "Oophaga pumilio",
+        "Strawberry poison frog"
+      ],
+      "popularity": 29245,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Strawberry poison dart frog"
+    },
+    {
+      "name": "Blue poison dart frog",
+      "aliases": [
+        "blue poison arrow frog",
+        "Dendrobates azureus",
+        "okopipi"
+      ],
+      "popularity": 49346,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Blue poison dart frog"
+    },
+    {
+      "name": "Golden poison frog",
+      "aliases": [
+        "Phyllobates terribilis"
+      ],
+      "popularity": 95655,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Golden poison frog"
+    }
+  ]
+}

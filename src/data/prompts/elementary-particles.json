@@ -1,0 +1,387 @@
+{
+  "id": "elementary-particles",
+  "slug": "elementary-particles",
+  "category": "science",
+  "question": "Name an elementary particle",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Field quantum",
+      "aliases": [],
+      "popularity": 78,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Field quantum"
+    },
+    {
+      "name": "Antitauon",
+      "aliases": [
+        "antitau",
+        "antitau particle"
+      ],
+      "popularity": 177,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Antitauon"
+    },
+    {
+      "name": "Top antiquark",
+      "aliases": [
+        "antiquark top",
+        "t-antiquark",
+        "truth antiquark"
+      ],
+      "popularity": 356,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Top antiquark"
+    },
+    {
+      "name": "Dilepton",
+      "aliases": [],
+      "popularity": 435,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Dilepton"
+    },
+    {
+      "name": "Saxion",
+      "aliases": [],
+      "popularity": 497,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Saxion"
+    },
+    {
+      "name": "Bottom antiquark",
+      "aliases": [
+        "Antiquark bottom",
+        "b-antiquark"
+      ],
+      "popularity": 510,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Bottom antiquark"
+    },
+    {
+      "name": "Charm antiquark",
+      "aliases": [
+        "antiquark c",
+        "c-antiquark"
+      ],
+      "popularity": 662,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Charm antiquark"
+    },
+    {
+      "name": "Strange antiquark",
+      "aliases": [
+        "antiquark strange",
+        "s-antiquark"
+      ],
+      "popularity": 810,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Strange antiquark"
+    },
+    {
+      "name": "V particle",
+      "aliases": [],
+      "popularity": 977,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "V particle"
+    },
+    {
+      "name": "Down antiquark",
+      "aliases": [
+        "d-antiquark"
+      ],
+      "popularity": 996,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Down antiquark"
+    },
+    {
+      "name": "Minicharged particle",
+      "aliases": [],
+      "popularity": 1272,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Minicharged particle"
+    },
+    {
+      "name": "Pole mass",
+      "aliases": [],
+      "popularity": 1273,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Pole mass"
+    },
+    {
+      "name": "Up antiquark",
+      "aliases": [
+        "u-antiquark"
+      ],
+      "popularity": 1392,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Up antiquark"
+    },
+    {
+      "name": "Antimuon",
+      "aliases": [],
+      "popularity": 1705,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Antimuon"
+    },
+    {
+      "name": "Stop squark",
+      "aliases": [
+        "stop",
+        "t-squark",
+        "top squark"
+      ],
+      "popularity": 2698,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Stop squark"
+    },
+    {
+      "name": "Gluino",
+      "aliases": [],
+      "popularity": 3065,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Gluino"
+    },
+    {
+      "name": "Higgsino",
+      "aliases": [],
+      "popularity": 4724,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Higgsino"
+    },
+    {
+      "name": "Z boson",
+      "aliases": [
+        "boson Z",
+        "Z particle"
+      ],
+      "popularity": 4763,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Z boson"
+    },
+    {
+      "name": "W boson",
+      "aliases": [
+        "boson W",
+        "W-particle"
+      ],
+      "popularity": 7516,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "W boson"
+    },
+    {
+      "name": "Supernova neutrinos",
+      "aliases": [],
+      "popularity": 8028,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Supernova neutrinos"
+    },
+    {
+      "name": "Faddeev–Popov ghost",
+      "aliases": [],
+      "popularity": 13474,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Faddeev–Popov ghost"
+    },
+    {
+      "name": "Generation",
+      "aliases": [
+        "Generation (particle physics)"
+      ],
+      "popularity": 17102,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Generation (particle physics)"
+    },
+    {
+      "name": "Dark photon",
+      "aliases": [
+        "heavy photon",
+        "hidden photon",
+        "paraphoton",
+        "secluded photon"
+      ],
+      "popularity": 17655,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Dark photon"
+    },
+    {
+      "name": "Skyrmion",
+      "aliases": [],
+      "popularity": 26935,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Skyrmion"
+    },
+    {
+      "name": "Preon",
+      "aliases": [],
+      "popularity": 31557,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Preon"
+    },
+    {
+      "name": "Down quark",
+      "aliases": [
+        "d quark"
+      ],
+      "popularity": 34184,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Down quark"
+    },
+    {
+      "name": "Massless particle",
+      "aliases": [
+        "luxon",
+        "massless quantum particle"
+      ],
+      "popularity": 37788,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Massless particle"
+    },
+    {
+      "name": "Bottom quark",
+      "aliases": [
+        "b quark",
+        "beauty",
+        "beauty quark"
+      ],
+      "popularity": 43823,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Bottom quark"
+    },
+    {
+      "name": "Up quark",
+      "aliases": [
+        "u quark"
+      ],
+      "popularity": 52775,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Up quark"
+    },
+    {
+      "name": "Charm quark",
+      "aliases": [
+        "c quark"
+      ],
+      "popularity": 53929,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Charm quark"
+    },
+    {
+      "name": "Tau",
+      "aliases": [
+        "τ lepton",
+        "τ particle",
+        "tau lepton",
+        "Tau (particle)",
+        "tauon"
+      ],
+      "popularity": 55516,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Tau (particle)"
+    },
+    {
+      "name": "Top quark",
+      "aliases": [
+        "t-quark",
+        "truth quark"
+      ],
+      "popularity": 56775,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Top quark"
+    },
+    {
+      "name": "Strange quark",
+      "aliases": [
+        "s quark"
+      ],
+      "popularity": 68653,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Strange quark"
+    },
+    {
+      "name": "Axion",
+      "aliases": [],
+      "popularity": 79160,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Axion"
+    },
+    {
+      "name": "Gluon",
+      "aliases": [],
+      "popularity": 119687,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Gluon"
+    },
+    {
+      "name": "Muon",
+      "aliases": [],
+      "popularity": 146414,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Muon"
+    },
+    {
+      "name": "Positron",
+      "aliases": [
+        "antielectron",
+        "positive electron"
+      ],
+      "popularity": 149658,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Positron"
+    },
+    {
+      "name": "Electron",
+      "aliases": [
+        "electrons"
+      ],
+      "popularity": 299255,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Electron"
+    },
+    {
+      "name": "Photon",
+      "aliases": [],
+      "popularity": 306922,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Photon"
+    }
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "id": "unesco-sites-in-france",
+  "slug": "unesco-sites-in-france",
+  "category": "geography",
+  "question": "Name a UNESCO World Heritage Site in France",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Royal Capetian Fortresses of Languedoc",
+      "aliases": [],
+      "popularity": 220,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Royal Capetian Fortresses of Languedoc"
+    },
+    {
+      "name": "D-Day beaches",
+      "aliases": [
+        "D-Day landing beaches",
+        "D-Day Normandy beaches",
+        "Normandy battle beaches",
+        "Normandy beaches"
+      ],
+      "popularity": 264,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "D-Day beaches"
+    },
+    {
+      "name": "Hunter's Cemetery",
+      "aliases": [],
+      "popularity": 343,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Hunter's Cemetery"
+    },
+    {
+      "name": "Mill Road Cemetery",
+      "aliases": [],
+      "popularity": 354,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Mill Road Cemetery"
+    },
+    {
+      "name": "Givenchy Road Canadian Cemetery",
+      "aliases": [],
+      "popularity": 358,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Givenchy Road Canadian Cemetery"
+    },
+    {
+      "name": "Canadian Cemetery No. 2",
+      "aliases": [],
+      "popularity": 541,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Canadian Cemetery No. 2"
+    },
+    {
+      "name": "Delville Wood Cemetery",
+      "aliases": [],
+      "popularity": 579,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Delville Wood Cemetery"
+    },
+    {
+      "name": "La Nouvelle branch",
+      "aliases": [],
+      "popularity": 749,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "La Nouvelle branch"
+    },
+    {
+      "name": "Arras Flying Services Memorial",
+      "aliases": [],
+      "popularity": 810,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Arras Flying Services Memorial"
+    },
+    {
+      "name": "Portuguese Military Cemetery, Richebourg",
+      "aliases": [
+        "Portuguese National Cemetery - Richebourg"
+      ],
+      "popularity": 899,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Portuguese Military Cemetery, Richebourg"
+    },
+    {
+      "name": "V.C. Corner Australian Cemetery and Memorial",
+      "aliases": [],
+      "popularity": 1026,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "V.C. Corner Australian Cemetery and Memorial"
+    },
+    {
+      "name": "Cambrai Memorial to the Missing",
+      "aliases": [
+        "Louverval Memorial"
+      ],
+      "popularity": 1153,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Cambrai Memorial to the Missing"
+    },
+    {
+      "name": "Champagne hillsides, houses and cellars",
+      "aliases": [],
+      "popularity": 1857,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Champagne hillsides, houses and cellars"
+    },
+    {
+      "name": "St. Mihiel American Cemetery and Memorial",
+      "aliases": [],
+      "popularity": 2010,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "St. Mihiel American Cemetery and Memorial"
+    },
+    {
+      "name": "Neuville-St Vaast German war cemetery",
+      "aliases": [],
+      "popularity": 2036,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Neuville-St Vaast German war cemetery"
+    },
+    {
+      "name": "Pozières Memorial",
+      "aliases": [],
+      "popularity": 2133,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Pozières Memorial"
+    },
+    {
+      "name": "Pyrénées – Mont Perdu World Heritage Site",
+      "aliases": [],
+      "popularity": 2137,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Pyrénées – Mont Perdu World Heritage Site"
+    },
+    {
+      "name": "Loos Memorial",
+      "aliases": [],
+      "popularity": 2521,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Loos Memorial"
+    },
+    {
+      "name": "Arras Memorial",
+      "aliases": [],
+      "popularity": 2552,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Arras Memorial"
+    },
+    {
+      "name": "Fromelles (Pheasant Wood) Military Cemetery",
+      "aliases": [
+        "Fromelles Military Cemetery"
+      ],
+      "popularity": 2607,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Fromelles (Pheasant Wood) Military Cemetery"
+    },
+    {
+      "name": "Causses and Cévennes",
+      "aliases": [],
+      "popularity": 2752,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Causses and Cévennes"
+    },
+    {
+      "name": "Tour Pey-Berland",
+      "aliases": [
+        "Pey Berland Tower"
+      ],
+      "popularity": 3104,
+      "rarity": 0.687,
+      "tier": 4,
+      "wiki": "Tour Pey-Berland"
+    },
+    {
+      "name": "Neuve-Chapelle Indian Memorial",
+      "aliases": [],
+      "popularity": 3347,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Neuve-Chapelle Indian Memorial"
+    },
+    {
+      "name": "Delville Wood South African National Memorial",
+      "aliases": [],
+      "popularity": 3358,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Delville Wood South African National Memorial"
+    },
+    {
+      "name": "Climats, terroirs of Burgundy",
+      "aliases": [],
+      "popularity": 3451,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Climats, terroirs of Burgundy"
+    },
+    {
+      "name": "Villers-Bretonneux Australian National Memorial",
+      "aliases": [],
+      "popularity": 4238,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Villers-Bretonneux Australian National Memorial"
+    },
+    {
+      "name": "Étaples Military Cemetery",
+      "aliases": [],
+      "popularity": 4296,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Étaples Military Cemetery"
+    },
+    {
+      "name": "Aisne-Marne American Cemetery and Memorial",
+      "aliases": [],
+      "popularity": 4466,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Aisne-Marne American Cemetery and Memorial"
+    },
+    {
+      "name": "Notre Dame de Lorette",
+      "aliases": [],
+      "popularity": 4832,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Notre Dame de Lorette"
+    },
+    {
+      "name": "New Caledonian barrier reef",
+      "aliases": [
+        "New Caledonia Barrier Reef"
+      ],
+      "popularity": 4854,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "New Caledonian barrier reef"
+    },
+    {
+      "name": "Abbey Church of Saint-Savin-sur-Gartempe",
+      "aliases": [],
+      "popularity": 4991,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Abbey Church of Saint-Savin-sur-Gartempe"
+    },
+    {
+      "name": "Funerary and memory sites of the First World War",
+      "aliases": [
+        "Funerary and memory sites of the First World War (Western Front)"
+      ],
+      "popularity": 5079,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Funerary and memory sites of the First World War (Western Front)"
+    },
+    {
+      "name": "Nord-Pas de Calais Mining Basin",
+      "aliases": [
+        "northern French coal mining region"
+      ],
+      "popularity": 5401,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Nord-Pas de Calais Mining Basin"
+    },
+    {
+      "name": "Arles, Roman and Romanesque Monuments",
+      "aliases": [],
+      "popularity": 5537,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Arles, Roman and Romanesque Monuments"
+    },
+    {
+      "name": "Château de Quéribus",
+      "aliases": [],
+      "popularity": 6587,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Château de Quéribus"
+    },
+    {
+      "name": "Bayonet Trench",
+      "aliases": [
+        "Trench of Bayonets"
+      ],
+      "popularity": 6618,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Bayonet Trench"
+    },
+    {
+      "name": "Meuse-Argonne American Cemetery",
+      "aliases": [
+        "Argonne Cemetery"
+      ],
+      "popularity": 6795,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Meuse-Argonne American Cemetery"
+    },
+    {
+      "name": "Abbey of Fontenay",
+      "aliases": [],
+      "popularity": 8093,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Abbey of Fontenay"
+    },
+    {
+      "name": "Port de la Lune",
+      "aliases": [
+        "port of the Moon"
+      ],
+      "popularity": 8111,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Port de la Lune"
+    },
+    {
+      "name": "Routes of Santiago de Compostela in France",
+      "aliases": [],
+      "popularity": 8806,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Routes of Santiago de Compostela in France"
+    },
+    {
+      "name": "Prehistoric Sites and Decorated Caves of the Vézère Valley",
+      "aliases": [],
+      "popularity": 9257,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Prehistoric Sites and Decorated Caves of the Vézère Valley"
+    },
+    {
+      "name": "Taputapuatea marae",
+      "aliases": [],
+      "popularity": 9609,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Taputapuatea marae"
+    },
+    {
+      "name": "Belfries of Belgium and France",
+      "aliases": [],
+      "popularity": 10696,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Belfries of Belgium and France"
+    },
+    {
+      "name": "Vieux Lyon",
+      "aliases": [
+        "Lyon old town"
+      ],
+      "popularity": 12111,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Vieux Lyon"
+    },
+    {
+      "name": "Hautecombe Abbey",
+      "aliases": [
+        "Royal Abbey of Hautecombe"
+      ],
+      "popularity": 15196,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Hautecombe Abbey"
+    },
+    {
+      "name": "Bourges Cathedral",
+      "aliases": [
+        "Cathédrale Saint-Étienne de Bourges"
+      ],
+      "popularity": 18282,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Bourges Cathedral"
+    },
+    {
+      "name": "Fortifications of Vauban",
+      "aliases": [],
+      "popularity": 18828,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Fortifications of Vauban"
+    },
+    {
+      "name": "Prehistoric pile dwellings around the Alps",
+      "aliases": [],
+      "popularity": 19404,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Prehistoric pile dwellings around the Alps"
+    },
+    {
+      "name": "Beaumont-Hamel Newfoundland Memorial",
+      "aliases": [],
+      "popularity": 19629,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Beaumont-Hamel Newfoundland Memorial"
+    },
+    {
+      "name": "The Architectural Work of Le Corbusier",
+      "aliases": [
+        "Architectural Work of Le Corbusier",
+        "Le Corbusier World Heritage"
+      ],
+      "popularity": 21258,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "The Architectural Work of Le Corbusier"
+    },
+    {
+      "name": "Thiepval Memorial",
+      "aliases": [],
+      "popularity": 27106,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Thiepval Memorial"
+    },
+    {
+      "name": "Cordouan Lighthouse",
+      "aliases": [],
+      "popularity": 27407,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Cordouan Lighthouse"
+    },
+    {
+      "name": "Great Spa Towns of Europe",
+      "aliases": [
+        "Great spas of Europe"
+      ],
+      "popularity": 28397,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Great Spa Towns of Europe"
+    },
+    {
+      "name": "Douaumont Ossuary",
+      "aliases": [],
+      "popularity": 31663,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Douaumont Ossuary"
+    },
+    {
+      "name": "Gardens of Versailles",
+      "aliases": [],
+      "popularity": 34909,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Gardens of Versailles"
+    },
+    {
+      "name": "Maison carrée",
+      "aliases": [],
+      "popularity": 38200,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Maison carrée"
+    },
+    {
+      "name": "Cité de Carcassonne",
+      "aliases": [
+        "Historic Fortified City of Carcassonne"
+      ],
+      "popularity": 38336,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Cité de Carcassonne"
+    },
+    {
+      "name": "Canadian National Vimy Memorial",
+      "aliases": [
+        "Vimy Memorial",
+        "Vimy Ridge Memorial"
+      ],
+      "popularity": 44637,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Canadian National Vimy Memorial"
+    },
+    {
+      "name": "Fort Douaumont",
+      "aliases": [],
+      "popularity": 54870,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Fort Douaumont"
+    },
+    {
+      "name": "Amiens Cathedral",
+      "aliases": [
+        "Notre-Dame d'Amiens"
+      ],
+      "popularity": 65377,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Amiens Cathedral"
+    },
+    {
+      "name": "Canal du Midi",
+      "aliases": [
+        "Canal de las Doas Mars",
+        "canal of the two seas",
+        "Canal Royal en Languedoc"
+      ],
+      "popularity": 70220,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Canal du Midi"
+    },
+    {
+      "name": "Palace of Fontainebleau",
+      "aliases": [
+        "castle of Fontainebleau",
+        "château de Fontainebleau",
+        "musée de Fontainebleau"
+      ],
+      "popularity": 98242,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Palace of Fontainebleau"
+    },
+    {
+      "name": "Château de Chambord",
+      "aliases": [
+        "castle of Chambord",
+        "Chambord",
+        "Chambord Castle"
+      ],
+      "popularity": 125053,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Château de Chambord"
+    },
+    {
+      "name": "Pont du Gard",
+      "aliases": [],
+      "popularity": 127260,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Pont du Gard"
+    },
+    {
+      "name": "Chartres Cathedral",
+      "aliases": [
+        "Notre-Dame de Chartres",
+        "Our Lady of Chartres"
+      ],
+      "popularity": 137580,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Chartres Cathedral"
+    },
+    {
+      "name": "Chauvet Cave",
+      "aliases": [],
+      "popularity": 146750,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Chauvet Cave"
+    },
+    {
+      "name": "Marquesas Islands",
+      "aliases": [
+        "Marquesas",
+        "Tefenuaenata"
+      ],
+      "popularity": 164598,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Marquesas Islands"
+    },
+    {
+      "name": "Palace of Versailles",
+      "aliases": [
+        "Château de Versailles",
+        "France. Chateau Versailles",
+        "Palais de Versailles",
+        "Versailles",
+        "Versailles Castle",
+        "Versailles. Château",
+        "Versailles Palace",
+        "Versailles. Palais"
+      ],
+      "popularity": 668232,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Palace of Versailles"
+    }
+  ]
+}

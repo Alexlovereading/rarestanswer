@@ -1,0 +1,847 @@
+{
+  "id": "palme-dor-films",
+  "slug": "palme-dor-films",
+  "category": "screen",
+  "question": "Name a film that won the Palme d'Or",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Two Cents Worth of Hope",
+      "aliases": [
+        "Due soldi di speranza"
+      ],
+      "popularity": 2047,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Two Cents Worth of Hope"
+    },
+    {
+      "name": "The Long Absence",
+      "aliases": [
+        "Long Absence",
+        "Une aussi longue absence"
+      ],
+      "popularity": 3712,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "The Long Absence"
+    },
+    {
+      "name": "Miss Julie",
+      "aliases": [
+        "Miss Julie (1951 film)"
+      ],
+      "popularity": 5054,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Miss Julie (1951 film)"
+    },
+    {
+      "name": "The Birds, the Bees and the Italians",
+      "aliases": [
+        "Signore & signori"
+      ],
+      "popularity": 7539,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "The Birds, the Bees and the Italians"
+    },
+    {
+      "name": "O Pagador de Promessas",
+      "aliases": [],
+      "popularity": 7691,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "O Pagador de Promessas"
+    },
+    {
+      "name": "Padre Padrone",
+      "aliases": [
+        "Father and master"
+      ],
+      "popularity": 10407,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Padre Padrone"
+    },
+    {
+      "name": "The Mattei Affair",
+      "aliases": [
+        "Il Caso Mattei",
+        "Mattei Affair"
+      ],
+      "popularity": 13146,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "The Mattei Affair"
+    },
+    {
+      "name": "The Hireling",
+      "aliases": [
+        "Hireling"
+      ],
+      "popularity": 13345,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "The Hireling"
+    },
+    {
+      "name": "Chronicle of the Years of Fire",
+      "aliases": [],
+      "popularity": 14193,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Chronicle of the Years of Fire"
+    },
+    {
+      "name": "The Son's Room",
+      "aliases": [
+        "La stanza del figlio",
+        "Son's Room"
+      ],
+      "popularity": 15908,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "The Son's Room"
+    },
+    {
+      "name": "Under the Sun of Satan",
+      "aliases": [
+        "Sous le soleil de Satan",
+        "Under Satan's Sun",
+        "Under the Sun of Satan (film)"
+      ],
+      "popularity": 16559,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Under the Sun of Satan (film)"
+    },
+    {
+      "name": "The Best Intentions",
+      "aliases": [
+        "Best Intentions"
+      ],
+      "popularity": 18320,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "The Best Intentions"
+    },
+    {
+      "name": "The Working Class Goes to Heaven",
+      "aliases": [
+        "Working Class Goes to Heaven"
+      ],
+      "popularity": 19083,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "The Working Class Goes to Heaven"
+    },
+    {
+      "name": "Man of Iron",
+      "aliases": [],
+      "popularity": 19109,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Man of Iron"
+    },
+    {
+      "name": "Yol",
+      "aliases": [
+        "Yol (film)"
+      ],
+      "popularity": 19413,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Yol (film)"
+    },
+    {
+      "name": "The Silent World",
+      "aliases": [
+        "Le Monde du silence",
+        "Silent World"
+      ],
+      "popularity": 20174,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "The Silent World"
+    },
+    {
+      "name": "L'Enfant",
+      "aliases": [
+        "Child",
+        "L'Enfant (film)",
+        "The Child"
+      ],
+      "popularity": 20983,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "L'Enfant (film)"
+    },
+    {
+      "name": "The Tree of Wooden Clogs",
+      "aliases": [
+        "L'albero degli zoccoli",
+        "Tree of Wooden Clogs"
+      ],
+      "popularity": 22169,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "The Tree of Wooden Clogs"
+    },
+    {
+      "name": "When Father Was Away on Business",
+      "aliases": [
+        "Otac na službenom putu"
+      ],
+      "popularity": 23146,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "When Father Was Away on Business"
+    },
+    {
+      "name": "The Knack ...and How to Get It",
+      "aliases": [
+        "Knack ...and How to Get It"
+      ],
+      "popularity": 24210,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "The Knack ...and How to Get It"
+    },
+    {
+      "name": "The Class",
+      "aliases": [
+        "Class (2008 film)",
+        "Entre les murs",
+        "The Class (2008 film)"
+      ],
+      "popularity": 24741,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "The Class (2008 film)"
+    },
+    {
+      "name": "Neecha Nagar",
+      "aliases": [],
+      "popularity": 27343,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Neecha Nagar"
+    },
+    {
+      "name": "The Ballad of Narayama",
+      "aliases": [
+        "Ballad of Narayama",
+        "Ballad of Narayama (1983 film)",
+        "The Ballad of Narayama (1983 film)"
+      ],
+      "popularity": 31949,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "The Ballad of Narayama (1983 film)"
+    },
+    {
+      "name": "Eternity and a Day",
+      "aliases": [],
+      "popularity": 31975,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Eternity and a Day"
+    },
+    {
+      "name": "Dheepan",
+      "aliases": [],
+      "popularity": 32734,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Dheepan"
+    },
+    {
+      "name": "Rosetta",
+      "aliases": [
+        "Rosetta (film)"
+      ],
+      "popularity": 33457,
+      "rarity": 0.699,
+      "tier": 4,
+      "wiki": "Rosetta (film)"
+    },
+    {
+      "name": "Winter Sleep",
+      "aliases": [
+        "Winter Sleep (film)"
+      ],
+      "popularity": 35055,
+      "rarity": 0.687,
+      "tier": 4,
+      "wiki": "Winter Sleep (film)"
+    },
+    {
+      "name": "Pelle the Conqueror",
+      "aliases": [
+        "Pelle Erobreren",
+        "Pelle erövraren"
+      ],
+      "popularity": 36909,
+      "rarity": 0.675,
+      "tier": 4,
+      "wiki": "Pelle the Conqueror"
+    },
+    {
+      "name": "The Eel",
+      "aliases": [
+        "Eel",
+        "Eel (film)",
+        "The Eal",
+        "The Eel (film)"
+      ],
+      "popularity": 38471,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "The Eel (film)"
+    },
+    {
+      "name": "Friendly Persuasion",
+      "aliases": [
+        "Friendly Persuasion (1956 film)"
+      ],
+      "popularity": 41501,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Friendly Persuasion (1956 film)"
+    },
+    {
+      "name": "Othello",
+      "aliases": [
+        "Othello (1951 film)"
+      ],
+      "popularity": 41656,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Othello (1951 film)"
+    },
+    {
+      "name": "The Go-Between",
+      "aliases": [
+        "Go-Between",
+        "Go-Between (1971 film)",
+        "The Go-Between (1971 film)"
+      ],
+      "popularity": 45519,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "The Go-Between (1971 film)"
+    },
+    {
+      "name": "Viridiana",
+      "aliases": [],
+      "popularity": 54812,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Viridiana"
+    },
+    {
+      "name": "Underground",
+      "aliases": [
+        "Underground (1995 film)"
+      ],
+      "popularity": 64738,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Underground (1995 film)"
+    },
+    {
+      "name": "The Cranes Are Flying",
+      "aliases": [
+        "Cranes Are Flying"
+      ],
+      "popularity": 73921,
+      "rarity": 0.59,
+      "tier": 3,
+      "wiki": "The Cranes Are Flying"
+    },
+    {
+      "name": "Uncle Boonmee Who Can Recall His Past Lives",
+      "aliases": [],
+      "popularity": 74522,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Uncle Boonmee Who Can Recall His Past Lives"
+    },
+    {
+      "name": "A Man and a Woman",
+      "aliases": [
+        "Man and a Woman",
+        "Un homme et une femme"
+      ],
+      "popularity": 75821,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "A Man and a Woman"
+    },
+    {
+      "name": "The White Ribbon",
+      "aliases": [
+        "White Ribbon"
+      ],
+      "popularity": 89311,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "The White Ribbon"
+    },
+    {
+      "name": "Missing",
+      "aliases": [
+        "Missing (1982 film)"
+      ],
+      "popularity": 89623,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Missing (1982 film)"
+    },
+    {
+      "name": "Scarecrow",
+      "aliases": [
+        "Scarecrow (1973 film)"
+      ],
+      "popularity": 90836,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "Scarecrow (1973 film)"
+    },
+    {
+      "name": "4 Months, 3 Weeks and 2 Days",
+      "aliases": [],
+      "popularity": 92343,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "4 Months, 3 Weeks and 2 Days"
+    },
+    {
+      "name": "If....",
+      "aliases": [],
+      "popularity": 106267,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "If...."
+    },
+    {
+      "name": "Black Orpheus",
+      "aliases": [
+        "Orphée Noire"
+      ],
+      "popularity": 109345,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Black Orpheus"
+    },
+    {
+      "name": "I, Daniel Blake",
+      "aliases": [],
+      "popularity": 119241,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "I, Daniel Blake"
+    },
+    {
+      "name": "Amour",
+      "aliases": [
+        "Amour (2012 film)"
+      ],
+      "popularity": 119574,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "Amour (2012 film)"
+    },
+    {
+      "name": "Taste of Cherry",
+      "aliases": [
+        "Tame gilas"
+      ],
+      "popularity": 121762,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Taste of Cherry"
+    },
+    {
+      "name": "The Wages of Fear",
+      "aliases": [
+        "Le Salaire de la peur",
+        "Wages of Fear"
+      ],
+      "popularity": 122384,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "The Wages of Fear"
+    },
+    {
+      "name": "Kagemusha",
+      "aliases": [
+        "Shadow Warrior"
+      ],
+      "popularity": 137533,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Kagemusha"
+    },
+    {
+      "name": "Secrets & Lies",
+      "aliases": [
+        "Secrets & Lies (film)"
+      ],
+      "popularity": 137698,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Secrets & Lies (film)"
+    },
+    {
+      "name": "The Leopard",
+      "aliases": [
+        "Le Guepard",
+        "Leopard",
+        "Leopard (1963 film)",
+        "The Leopard (1963 film)"
+      ],
+      "popularity": 139319,
+      "rarity": 0.41,
+      "tier": 3,
+      "wiki": "The Leopard (1963 film)"
+    },
+    {
+      "name": "Marty",
+      "aliases": [
+        "Marty (film)"
+      ],
+      "popularity": 148303,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Marty (film)"
+    },
+    {
+      "name": "The Umbrellas of Cherbourg",
+      "aliases": [
+        "Les Parapluies de Cherbourg",
+        "Umbrellas of Cherbourg"
+      ],
+      "popularity": 159885,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "The Umbrellas of Cherbourg"
+    },
+    {
+      "name": "Shoplifters",
+      "aliases": [
+        "Manbiki Kazoku",
+        "Shoplifters (film)",
+        "Shoplifting Family"
+      ],
+      "popularity": 162335,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Shoplifters (film)"
+    },
+    {
+      "name": "The Square",
+      "aliases": [
+        "Square",
+        "Square (2017 film)",
+        "The Square (2017 film)"
+      ],
+      "popularity": 165557,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "The Square (2017 film)"
+    },
+    {
+      "name": "Blowup",
+      "aliases": [
+        "Blow-Up"
+      ],
+      "popularity": 179587,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Blowup"
+    },
+    {
+      "name": "The Tin Drum",
+      "aliases": [
+        "The Tin Drum (film)",
+        "Tin Drum",
+        "Tin Drum (film)"
+      ],
+      "popularity": 187921,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "The Tin Drum (film)"
+    },
+    {
+      "name": "Fahrenheit 9/11",
+      "aliases": [],
+      "popularity": 204621,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Fahrenheit 9/11"
+    },
+    {
+      "name": "Barton Fink",
+      "aliases": [],
+      "popularity": 228028,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Barton Fink"
+    },
+    {
+      "name": "Farewell My Concubine",
+      "aliases": [
+        "Farewell My Concubine (film)"
+      ],
+      "popularity": 230542,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Farewell My Concubine (film)"
+    },
+    {
+      "name": "The Wind That Shakes the Barley",
+      "aliases": [
+        "The Wind That Shakes the Barley (film)",
+        "Wind That Shakes the Barley",
+        "Wind That Shakes the Barley (film)"
+      ],
+      "popularity": 240316,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "The Wind That Shakes the Barley (film)"
+    },
+    {
+      "name": "Titane",
+      "aliases": [],
+      "popularity": 243496,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Titane"
+    },
+    {
+      "name": "La Dolce Vita",
+      "aliases": [
+        "Dolce Vita"
+      ],
+      "popularity": 245219,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "La Dolce Vita"
+    },
+    {
+      "name": "All That Jazz",
+      "aliases": [
+        "All That Jazz (film)"
+      ],
+      "popularity": 272725,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "All That Jazz (film)"
+    },
+    {
+      "name": "Dancer in the Dark",
+      "aliases": [],
+      "popularity": 286319,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Dancer in the Dark"
+    },
+    {
+      "name": "The Mission",
+      "aliases": [
+        "Mission",
+        "Mission (1986 film)",
+        "The Mission (1986 film)"
+      ],
+      "popularity": 314987,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "The Mission (1986 film)"
+    },
+    {
+      "name": "M*A*S*H",
+      "aliases": [
+        "M*A*S*H (film)",
+        "MASH"
+      ],
+      "popularity": 359484,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "M*A*S*H (film)"
+    },
+    {
+      "name": "The Tree of Life",
+      "aliases": [
+        "The Tree of Life (film)",
+        "Tree of Life",
+        "Tree of Life (film)"
+      ],
+      "popularity": 375046,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "The Tree of Life (film)"
+    },
+    {
+      "name": "Elephant",
+      "aliases": [
+        "Elephant (2003 film)"
+      ],
+      "popularity": 379969,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Elephant (2003 film)"
+    },
+    {
+      "name": "The Conversation",
+      "aliases": [
+        "Conversation"
+      ],
+      "popularity": 419718,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "The Conversation"
+    },
+    {
+      "name": "Wild at Heart",
+      "aliases": [
+        "Wild at Heart (film)"
+      ],
+      "popularity": 451686,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Wild at Heart (film)"
+    },
+    {
+      "name": "The Piano",
+      "aliases": [
+        "Piano"
+      ],
+      "popularity": 465828,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "The Piano"
+    },
+    {
+      "name": "Paris, Texas",
+      "aliases": [],
+      "popularity": 475333,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Paris, Texas (film)"
+    },
+    {
+      "name": "Sex, Lies, and Videotape",
+      "aliases": [],
+      "popularity": 516327,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Sex, Lies, and Videotape"
+    },
+    {
+      "name": "Blue Is the Warmest Colour",
+      "aliases": [
+        "Blue is the Warmest Color",
+        "La Vie d'Adèle",
+        "Vie d'Adèle"
+      ],
+      "popularity": 523337,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Blue Is the Warmest Colour"
+    },
+    {
+      "name": "Anatomy of a Fall",
+      "aliases": [
+        "Anatomie d'une chute"
+      ],
+      "popularity": 596754,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "Anatomy of a Fall"
+    },
+    {
+      "name": "Triangle of Sadness",
+      "aliases": [],
+      "popularity": 611030,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Triangle of Sadness"
+    },
+    {
+      "name": "Fjord",
+      "aliases": [
+        "Fjord (film)"
+      ],
+      "popularity": 619009,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Fjord (film)"
+    },
+    {
+      "name": "The Pianist",
+      "aliases": [
+        "Le Pianiste",
+        "Pianist",
+        "Pianist (2002 film)",
+        "The Pianist (2002 film)"
+      ],
+      "popularity": 639779,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "The Pianist (2002 film)"
+    },
+    {
+      "name": "It Was Just an Accident",
+      "aliases": [],
+      "popularity": 1089156,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "It Was Just an Accident"
+    },
+    {
+      "name": "Taxi Driver",
+      "aliases": [],
+      "popularity": 1250369,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Taxi Driver"
+    },
+    {
+      "name": "Parasite",
+      "aliases": [
+        "Gisaengchung",
+        "Parasite (2019 film)"
+      ],
+      "popularity": 1258703,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Parasite (2019 film)"
+    },
+    {
+      "name": "Apocalypse Now",
+      "aliases": [],
+      "popularity": 1389588,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Apocalypse Now"
+    },
+    {
+      "name": "Pulp Fiction",
+      "aliases": [],
+      "popularity": 1620646,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Pulp Fiction"
+    },
+    {
+      "name": "Anora",
+      "aliases": [],
+      "popularity": 1624566,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Anora"
+    }
+  ]
+}

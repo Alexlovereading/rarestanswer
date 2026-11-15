@@ -1,0 +1,531 @@
+{
+  "id": "elvis-songs",
+  "slug": "elvis-songs",
+  "category": "music",
+  "question": "Name an Elvis Presley song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Playing for Keeps",
+      "aliases": [
+        "Playing for Keeps (song)"
+      ],
+      "popularity": 322,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Playing for Keeps (song)"
+    },
+    {
+      "name": "G.I. Blues",
+      "aliases": [
+        "G.I. Blues (Elvis Presley song)"
+      ],
+      "popularity": 622,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "G.I. Blues (Elvis Presley song)"
+    },
+    {
+      "name": "Down in the Alley",
+      "aliases": [],
+      "popularity": 685,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Down in the Alley"
+    },
+    {
+      "name": "Mexico",
+      "aliases": [
+        "Mexico (Elvis Presley song)"
+      ],
+      "popularity": 870,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Mexico (Elvis Presley song)"
+    },
+    {
+      "name": "Padre",
+      "aliases": [
+        "Padre Don José",
+        "Padre (song)"
+      ],
+      "popularity": 936,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Padre (song)"
+    },
+    {
+      "name": "Thinking About You",
+      "aliases": [
+        "Thinking About You (Elvis Presley song)"
+      ],
+      "popularity": 1006,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Thinking About You (Elvis Presley song)"
+    },
+    {
+      "name": "Never Ending",
+      "aliases": [
+        "Never Ending (Elvis Presley song)"
+      ],
+      "popularity": 1122,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Never Ending (Elvis Presley song)"
+    },
+    {
+      "name": "Spinout",
+      "aliases": [
+        "Spinout (song)"
+      ],
+      "popularity": 1150,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Spinout (song)"
+    },
+    {
+      "name": "Like a Baby",
+      "aliases": [],
+      "popularity": 1252,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Like a Baby"
+    },
+    {
+      "name": "Fun in Acapulco",
+      "aliases": [
+        "Fun in Acapulco (song)"
+      ],
+      "popularity": 1317,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Fun in Acapulco (song)"
+    },
+    {
+      "name": "All That I Am",
+      "aliases": [
+        "All That I Am (Elvis Presley song)"
+      ],
+      "popularity": 1319,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "All That I Am (Elvis Presley song)"
+    },
+    {
+      "name": "Sylvia",
+      "aliases": [
+        "Sylvia (Elvis Presley song)"
+      ],
+      "popularity": 1355,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Sylvia (Elvis Presley song)"
+    },
+    {
+      "name": "I Got Lucky",
+      "aliases": [
+        "I Got Lucky (song)"
+      ],
+      "popularity": 1453,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "I Got Lucky (song)"
+    },
+    {
+      "name": "Long Legged Girl",
+      "aliases": [
+        "Long Legged Girl (with the Short Dress On)"
+      ],
+      "popularity": 1529,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Long Legged Girl (with the Short Dress On)"
+    },
+    {
+      "name": "Let Yourself Go",
+      "aliases": [
+        "Let Yourself Go (Elvis Presley song)"
+      ],
+      "popularity": 1720,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Let Yourself Go (Elvis Presley song)"
+    },
+    {
+      "name": "Ask Me",
+      "aliases": [
+        "Ask Me (Elvis Presley song)"
+      ],
+      "popularity": 1732,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Ask Me (Elvis Presley song)"
+    },
+    {
+      "name": "It's Over",
+      "aliases": [
+        "It's Over (Jimmie Rodgers song)"
+      ],
+      "popularity": 1788,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "It's Over (Jimmie Rodgers song)"
+    },
+    {
+      "name": "Blue River",
+      "aliases": [
+        "Blue River (song)"
+      ],
+      "popularity": 1789,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Blue River (song)"
+    },
+    {
+      "name": "Life",
+      "aliases": [
+        "Life (Elvis Presley song)"
+      ],
+      "popularity": 1823,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Life (Elvis Presley song)"
+    },
+    {
+      "name": "I'm Yours",
+      "aliases": [
+        "I'm Yours (Elvis Presley song)"
+      ],
+      "popularity": 1942,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "I'm Yours (Elvis Presley song)"
+    },
+    {
+      "name": "(Such an) Easy Question",
+      "aliases": [
+        "Easy Question"
+      ],
+      "popularity": 1972,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "(Such an) Easy Question"
+    },
+    {
+      "name": "Raised on Rock",
+      "aliases": [
+        "Raised on Rock (Elvis Presley song)"
+      ],
+      "popularity": 1999,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Raised on Rock (Elvis Presley song)"
+    },
+    {
+      "name": "Patch It Up",
+      "aliases": [],
+      "popularity": 2116,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Patch It Up"
+    },
+    {
+      "name": "Girls Girls Girls",
+      "aliases": [
+        "Girls Girls Girls (The Coasters song)"
+      ],
+      "popularity": 2135,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Girls Girls Girls (The Coasters song)"
+    },
+    {
+      "name": "I'm Leavin'",
+      "aliases": [
+        "I'm Leavin' (Elvis Presley song)",
+        "I'm Leaving"
+      ],
+      "popularity": 2220,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "I'm Leavin' (Elvis Presley song)"
+    },
+    {
+      "name": "Tiger Man",
+      "aliases": [
+        "Tiger Man (song)"
+      ],
+      "popularity": 2270,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Tiger Man (song)"
+    },
+    {
+      "name": "I Got a Feelin' in My Body",
+      "aliases": [],
+      "popularity": 2777,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "I Got a Feelin' in My Body"
+    },
+    {
+      "name": "Fool",
+      "aliases": [
+        "Fool (Elvis Presley song)"
+      ],
+      "popularity": 2802,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Fool (Elvis Presley song)"
+    },
+    {
+      "name": "Got a Lot o' Livin' to Do!",
+      "aliases": [],
+      "popularity": 2902,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Got a Lot o' Livin' to Do!"
+    },
+    {
+      "name": "Puppet on a String",
+      "aliases": [
+        "Puppet on a String (Elvis Presley song)"
+      ],
+      "popularity": 3055,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Puppet on a String (Elvis Presley song)"
+    },
+    {
+      "name": "Kissin' Cousins",
+      "aliases": [
+        "Kissin' Cousins (song)"
+      ],
+      "popularity": 3520,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Kissin' Cousins (song)"
+    },
+    {
+      "name": "Allá en el Rancho Grande",
+      "aliases": [
+        "Allá en el Rancho Grande (song)"
+      ],
+      "popularity": 3590,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Allá en el Rancho Grande (song)"
+    },
+    {
+      "name": "Clean Up Your Own Backyard",
+      "aliases": [],
+      "popularity": 3647,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Clean Up Your Own Backyard"
+    },
+    {
+      "name": "I Feel So Bad",
+      "aliases": [
+        "I Feel So Bad (Chuck Willis song)"
+      ],
+      "popularity": 3670,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "I Feel So Bad (Chuck Willis song)"
+    },
+    {
+      "name": "Ain't That Lovin' You, Baby",
+      "aliases": [],
+      "popularity": 3786,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Ain't That Lovin' You, Baby"
+    },
+    {
+      "name": "She's Not You",
+      "aliases": [],
+      "popularity": 6112,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "She's Not You"
+    },
+    {
+      "name": "Mean Woman Blues",
+      "aliases": [
+        "Elvis Presley - Claude Demetrius"
+      ],
+      "popularity": 6371,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Mean Woman Blues"
+    },
+    {
+      "name": "Bossa Nova Baby",
+      "aliases": [],
+      "popularity": 6604,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Bossa Nova Baby"
+    },
+    {
+      "name": "Loving Arms",
+      "aliases": [],
+      "popularity": 6721,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Loving Arms"
+    },
+    {
+      "name": "Too Much",
+      "aliases": [
+        "Too Much (Elvis Presley song)"
+      ],
+      "popularity": 6805,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Too Much (Elvis Presley song)"
+    },
+    {
+      "name": "My Boy",
+      "aliases": [],
+      "popularity": 8141,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "My Boy"
+    },
+    {
+      "name": "A Big Hunk o' Love",
+      "aliases": [
+        "Big Hunk o' Love"
+      ],
+      "popularity": 9066,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "A Big Hunk o' Love"
+    },
+    {
+      "name": "T-R-O-U-B-L-E",
+      "aliases": [
+        "T-R-O-U-B-L-E (song)"
+      ],
+      "popularity": 10093,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "T-R-O-U-B-L-E (song)"
+    },
+    {
+      "name": "Don't Cry Daddy",
+      "aliases": [],
+      "popularity": 10845,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Don't Cry Daddy"
+    },
+    {
+      "name": "Trouble",
+      "aliases": [
+        "Trouble (Elvis Presley song)"
+      ],
+      "popularity": 13822,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Trouble (Elvis Presley song)"
+    },
+    {
+      "name": "(Marie's the Name) His Latest Flame",
+      "aliases": [
+        "His Latest Flame"
+      ],
+      "popularity": 14061,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "(Marie's the Name) His Latest Flame"
+    },
+    {
+      "name": "Suspicion",
+      "aliases": [
+        "Suspicion (Terry Stafford song)"
+      ],
+      "popularity": 17408,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Suspicion (Terry Stafford song)"
+    },
+    {
+      "name": "Little Sister",
+      "aliases": [
+        "Little Sister (Elvis Presley song)"
+      ],
+      "popularity": 19218,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Little Sister (Elvis Presley song)"
+    },
+    {
+      "name": "Kentucky Rain",
+      "aliases": [],
+      "popularity": 21166,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Kentucky Rain"
+    },
+    {
+      "name": "La Paloma",
+      "aliases": [],
+      "popularity": 25137,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "La Paloma"
+    },
+    {
+      "name": "Solitaire",
+      "aliases": [
+        "Solitaire (Neil Sedaka song)"
+      ],
+      "popularity": 25761,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Solitaire (Neil Sedaka song)"
+    },
+    {
+      "name": "An American Trilogy",
+      "aliases": [
+        "American Trilogy"
+      ],
+      "popularity": 28072,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "An American Trilogy"
+    },
+    {
+      "name": "All Shook Up",
+      "aliases": [],
+      "popularity": 29875,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "All Shook Up"
+    },
+    {
+      "name": "The Wonder of You",
+      "aliases": [
+        "Wonder of You"
+      ],
+      "popularity": 30730,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "The Wonder of You"
+    },
+    {
+      "name": "A Little Less Conversation",
+      "aliases": [
+        "Little Less Conversation"
+      ],
+      "popularity": 72756,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "A Little Less Conversation"
+    }
+  ]
+}

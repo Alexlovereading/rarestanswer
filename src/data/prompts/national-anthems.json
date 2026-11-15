@@ -1,0 +1,1840 @@
+{
+  "id": "national-anthems",
+  "slug": "national-anthems",
+  "category": "music",
+  "question": "Name a national anthem",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Independência Total",
+      "aliases": [
+        "Total Independence"
+      ],
+      "popularity": 787,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Independência Total"
+    },
+    {
+      "name": "The Honour of the Fatherland",
+      "aliases": [
+        "Honour of the Fatherland",
+        "L'Honneur de la Patrie",
+        "The Honor of the Fatherland"
+      ],
+      "popularity": 900,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "The Honour of the Fatherland"
+    },
+    {
+      "name": "Isle of Beauty",
+      "aliases": [],
+      "popularity": 1180,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Isle of Beauty"
+    },
+    {
+      "name": "Preamble",
+      "aliases": [
+        "Preamble (anthem)"
+      ],
+      "popularity": 1284,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Preamble (anthem)"
+    },
+    {
+      "name": "Saint Vincent, Land So Beautiful",
+      "aliases": [],
+      "popularity": 1962,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Saint Vincent, Land So Beautiful"
+    },
+    {
+      "name": "Lesotho Fatse La Bontata Rona",
+      "aliases": [],
+      "popularity": 2246,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Lesotho Fatse La Bontata Rona"
+    },
+    {
+      "name": "Sons and Daughters of Saint Lucia",
+      "aliases": [],
+      "popularity": 2582,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Sons and Daughters of Saint Lucia"
+    },
+    {
+      "name": "O Land of Beauty!",
+      "aliases": [],
+      "popularity": 2799,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "O Land of Beauty!"
+    },
+    {
+      "name": "Tuvalu mo te Atua",
+      "aliases": [
+        "Tuvalu for the Almighty"
+      ],
+      "popularity": 2864,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Tuvalu mo te Atua"
+    },
+    {
+      "name": "National Anthem of Equatorial Guinea",
+      "aliases": [],
+      "popularity": 2937,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "National Anthem of Equatorial Guinea"
+    },
+    {
+      "name": "Liberté",
+      "aliases": [
+        "Liberté (anthem)"
+      ],
+      "popularity": 2974,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Liberté (anthem)"
+    },
+    {
+      "name": "Belau rekid",
+      "aliases": [],
+      "popularity": 2979,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Belau rekid"
+    },
+    {
+      "name": "Kunan Kiribati",
+      "aliases": [
+        "Teirake kaaini Kiribati"
+      ],
+      "popularity": 3072,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Kunan Kiribati"
+    },
+    {
+      "name": "Forever Marshall Islands",
+      "aliases": [],
+      "popularity": 3090,
+      "rarity": 0.934,
+      "tier": 6,
+      "wiki": "Forever Marshall Islands"
+    },
+    {
+      "name": "Hail Grenada",
+      "aliases": [],
+      "popularity": 3156,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Hail Grenada"
+    },
+    {
+      "name": "Umodja Wa Massiwa",
+      "aliases": [
+        "Udzima wa ya Masiwa"
+      ],
+      "popularity": 3251,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Umodja Wa Massiwa"
+    },
+    {
+      "name": "Koste Seselwa",
+      "aliases": [],
+      "popularity": 3355,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Koste Seselwa"
+    },
+    {
+      "name": "La Concorde",
+      "aliases": [],
+      "popularity": 3464,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "La Concorde"
+    },
+    {
+      "name": "Nkulunkulu Mnikati wetibusiso temaSwati",
+      "aliases": [],
+      "popularity": 3497,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Nkulunkulu Mnikati wetibusiso temaSwati"
+    },
+    {
+      "name": "Fair Antigua, We Salute Thee",
+      "aliases": [],
+      "popularity": 3500,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Fair Antigua, We Salute Thee"
+    },
+    {
+      "name": "Burundi Bwacu",
+      "aliases": [],
+      "popularity": 3517,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Burundi Bwacu"
+    },
+    {
+      "name": "God Save Our Solomon Islands",
+      "aliases": [],
+      "popularity": 3569,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "God Save Our Solomon Islands"
+    },
+    {
+      "name": "L'Aube nouvelle",
+      "aliases": [],
+      "popularity": 3757,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "L'Aube nouvelle"
+    },
+    {
+      "name": "The Banner of Freedom",
+      "aliases": [
+        "Banner of Freedom",
+        "Samoa Tula’i"
+      ],
+      "popularity": 4108,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "The Banner of Freedom"
+    },
+    {
+      "name": "El gran Carlemany",
+      "aliases": [],
+      "popularity": 4133,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "El gran Carlemany"
+    },
+    {
+      "name": "Terra di Libertà",
+      "aliases": [
+        "Inno Nazionale della Repubblica"
+      ],
+      "popularity": 4158,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Terra di Libertà"
+    },
+    {
+      "name": "Salut à toi, pays de nos aïeux",
+      "aliases": [
+        "Terre de nos aïeux"
+      ],
+      "popularity": 4200,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Salut à toi, pays de nos aïeux"
+    },
+    {
+      "name": "La Tchadienne",
+      "aliases": [],
+      "popularity": 4215,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "La Tchadienne"
+    },
+    {
+      "name": "Ko e fasi ʻo e tuʻi ʻo e ʻOtu Tonga",
+      "aliases": [],
+      "popularity": 4317,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Ko e fasi ʻo e tuʻi ʻo e ʻOtu Tonga"
+    },
+    {
+      "name": "Nauru Bwiema",
+      "aliases": [],
+      "popularity": 4483,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Nauru Bwiema"
+    },
+    {
+      "name": "Patriots of Micronesia",
+      "aliases": [
+        "Across All Micronesia"
+      ],
+      "popularity": 4732,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Patriots of Micronesia"
+    },
+    {
+      "name": "Esta É a Nossa Pátria Amada",
+      "aliases": [],
+      "popularity": 4760,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Esta É a Nossa Pátria Amada"
+    },
+    {
+      "name": "La Congolaise",
+      "aliases": [],
+      "popularity": 4808,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "La Congolaise"
+    },
+    {
+      "name": "For The Gambia Our Homeland",
+      "aliases": [
+        "Gambian national anthem",
+        "national anthem of Gambia",
+        "national anthem of The Gambia"
+      ],
+      "popularity": 4827,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "For The Gambia Our Homeland"
+    },
+    {
+      "name": "Salve a ti, Nicaragua",
+      "aliases": [
+        "Salve a ti"
+      ],
+      "popularity": 4909,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Salve a ti, Nicaragua"
+    },
+    {
+      "name": "National anthem of Moldova",
+      "aliases": [
+        "Limba noastră"
+      ],
+      "popularity": 5024,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "National anthem of Moldova"
+    },
+    {
+      "name": "Motherland",
+      "aliases": [
+        "Motherland (anthem)"
+      ],
+      "popularity": 5072,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Motherland (anthem)"
+    },
+    {
+      "name": "Mlungu dalitsani Malaŵi",
+      "aliases": [
+        "Mulungu dalitsa Malaŵi",
+        "national anthem of Malawi"
+      ],
+      "popularity": 5095,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Mlungu dalitsani Malaŵi"
+    },
+    {
+      "name": "Djibouti",
+      "aliases": [
+        "Djibouti (anthem)",
+        "Gabuuti",
+        "Jabuuti",
+        "National Anthem of Djibouti"
+      ],
+      "popularity": 5099,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Djibouti (anthem)"
+    },
+    {
+      "name": "National anthem of Bahrain",
+      "aliases": [
+        "Bahrainona"
+      ],
+      "popularity": 5116,
+      "rarity": 0.801,
+      "tier": 5,
+      "wiki": "National anthem of Bahrain"
+    },
+    {
+      "name": "God zij met ons Suriname",
+      "aliases": [
+        "God be with our Suriname",
+        "Opo kondreman"
+      ],
+      "popularity": 5228,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "God zij met ons Suriname"
+    },
+    {
+      "name": "Pátria",
+      "aliases": [],
+      "popularity": 5235,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Pátria"
+    },
+    {
+      "name": "Le Mali",
+      "aliases": [],
+      "popularity": 5268,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Le Mali"
+    },
+    {
+      "name": "As-Salām al-Amīrī",
+      "aliases": [
+        "national anthem of Qatar"
+      ],
+      "popularity": 5368,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "As-Salām al-Amīrī"
+    },
+    {
+      "name": "Lao National Anthem",
+      "aliases": [
+        "Pheng Xat Lao"
+      ],
+      "popularity": 5438,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Lao National Anthem"
+    },
+    {
+      "name": "National anthem of the Dominican Republic",
+      "aliases": [],
+      "popularity": 5546,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "National anthem of the Dominican Republic"
+    },
+    {
+      "name": "La Renaissance",
+      "aliases": [],
+      "popularity": 5557,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "La Renaissance"
+    },
+    {
+      "name": "Land of the Free",
+      "aliases": [
+        "Land of the Free (anthem)",
+        "national anthem of Belize"
+      ],
+      "popularity": 5602,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Land of the Free (anthem)"
+    },
+    {
+      "name": "Dear Land of Guyana, of Rivers and Plains",
+      "aliases": [
+        "National anthem of Guyana"
+      ],
+      "popularity": 5632,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Dear Land of Guyana, of Rivers and Plains"
+    },
+    {
+      "name": "Hymne monégasque",
+      "aliases": [],
+      "popularity": 5698,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Hymne monégasque"
+    },
+    {
+      "name": "Pátria Amada",
+      "aliases": [],
+      "popularity": 5708,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Pátria Amada"
+    },
+    {
+      "name": "Ry Tanindrazanay malala ô!",
+      "aliases": [],
+      "popularity": 5734,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Ry Tanindrazanay malala ô!"
+    },
+    {
+      "name": "March On, Bahamaland",
+      "aliases": [],
+      "popularity": 5776,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "March On, Bahamaland"
+    },
+    {
+      "name": "Angola Avante",
+      "aliases": [],
+      "popularity": 5982,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Angola Avante"
+    },
+    {
+      "name": "High We Exalt Thee, Realm of the Free",
+      "aliases": [],
+      "popularity": 6005,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "High We Exalt Thee, Realm of the Free"
+    },
+    {
+      "name": "Rwanda Nziza",
+      "aliases": [],
+      "popularity": 6007,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Rwanda Nziza"
+    },
+    {
+      "name": "Forged from the Love of Liberty",
+      "aliases": [],
+      "popularity": 6249,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Forged from the Love of Liberty"
+    },
+    {
+      "name": "Fatshe leno la rona",
+      "aliases": [],
+      "popularity": 6299,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Fatshe leno la rona"
+    },
+    {
+      "name": "National Anthem of Barbados",
+      "aliases": [],
+      "popularity": 6337,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "National Anthem of Barbados"
+    },
+    {
+      "name": "National anthem of Bolivia",
+      "aliases": [],
+      "popularity": 6395,
+      "rarity": 0.699,
+      "tier": 4,
+      "wiki": "National anthem of Bolivia"
+    },
+    {
+      "name": "O Arise, All You Sons",
+      "aliases": [],
+      "popularity": 6432,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "O Arise, All You Sons"
+    },
+    {
+      "name": "South Sudan, Oyee!",
+      "aliases": [],
+      "popularity": 6798,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "South Sudan, Oyee!"
+    },
+    {
+      "name": "Eritrea, Eritrea, Eritrea",
+      "aliases": [],
+      "popularity": 6817,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Eritrea, Eritrea, Eritrea"
+    },
+    {
+      "name": "National Anthem of Kuwait",
+      "aliases": [
+        "an-Našīd al-Waṭanī"
+      ],
+      "popularity": 7054,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "National Anthem of Kuwait"
+    },
+    {
+      "name": "National anthem of Mauritania",
+      "aliases": [],
+      "popularity": 7071,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "National anthem of Mauritania"
+    },
+    {
+      "name": "National anthem of Costa Rica",
+      "aliases": [],
+      "popularity": 7129,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "National anthem of Costa Rica"
+    },
+    {
+      "name": "Salute to the Sultan",
+      "aliases": [
+        "As-Salam as-Sultani",
+        "Nashid as-Salaam as-Sultani",
+        "The Sultans Anthem"
+      ],
+      "popularity": 7181,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "Salute to the Sultan"
+    },
+    {
+      "name": "Gaumee Salaam",
+      "aliases": [
+        "Gaumiii salaaam"
+      ],
+      "popularity": 7190,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Gaumee Salaam"
+    },
+    {
+      "name": "Nokor Reach",
+      "aliases": [
+        "National anthem of Cambodia"
+      ],
+      "popularity": 7206,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Nokor Reach"
+    },
+    {
+      "name": "Nahnu Jund Allah Jund Al-watan",
+      "aliases": [],
+      "popularity": 7815,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Nahnu Jund Allah Jund Al-watan"
+    },
+    {
+      "name": "State Anthem of the Kyrgyz Republic",
+      "aliases": [
+        "Ak möngülüü aska"
+      ],
+      "popularity": 7868,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "State Anthem of the Kyrgyz Republic"
+    },
+    {
+      "name": "Yumi, Yumi, Yumi",
+      "aliases": [],
+      "popularity": 7899,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Yumi, Yumi, Yumi"
+    },
+    {
+      "name": "Namibia, Land of the Brave",
+      "aliases": [],
+      "popularity": 8013,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Namibia, Land of the Brave"
+    },
+    {
+      "name": "All Hail, Liberia, Hail!",
+      "aliases": [],
+      "popularity": 8480,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "All Hail, Liberia, Hail!"
+    },
+    {
+      "name": "God Bless Fiji",
+      "aliases": [
+        "Meda dau doka"
+      ],
+      "popularity": 8629,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "God Bless Fiji"
+    },
+    {
+      "name": "Allah Peliharakan Sultan",
+      "aliases": [
+        "God Bless the Sultan"
+      ],
+      "popularity": 9002,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Allah Peliharakan Sultan"
+    },
+    {
+      "name": "Ditanyè",
+      "aliases": [
+        "L’Hymne de la victoire",
+        "Une Seule Nuit"
+      ],
+      "popularity": 9208,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Ditanyè"
+    },
+    {
+      "name": "Denes nad Makedonija",
+      "aliases": [
+        "Today over Macedonia"
+      ],
+      "popularity": 9281,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Denes nad Makedonija"
+    },
+    {
+      "name": "National anthem of Guatemala",
+      "aliases": [],
+      "popularity": 9312,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "National anthem of Guatemala"
+    },
+    {
+      "name": "Royal Jordanian Anthem",
+      "aliases": [
+        "The Royal Anthem of Jordan"
+      ],
+      "popularity": 9436,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Royal Jordanian Anthem"
+    },
+    {
+      "name": "Surudi Milli",
+      "aliases": [
+        "National anthem of Tajikistan"
+      ],
+      "popularity": 9576,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Surudi Milli"
+    },
+    {
+      "name": "National Anthem of El Salvador",
+      "aliases": [
+        "Saludemos la Patria orgullosos"
+      ],
+      "popularity": 9614,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "National Anthem of El Salvador"
+    },
+    {
+      "name": "Jamaica, Land We Love",
+      "aliases": [],
+      "popularity": 9756,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Jamaica, Land We Love"
+    },
+    {
+      "name": "National Anthem of Honduras",
+      "aliases": [],
+      "popularity": 10025,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "National Anthem of Honduras"
+    },
+    {
+      "name": "Pontifical Hymn",
+      "aliases": [
+        "Inno e Marcia Pontificale",
+        "Papal Anthem",
+        "Pontifical Anthem"
+      ],
+      "popularity": 10232,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Pontifical Hymn"
+    },
+    {
+      "name": "State Anthem of Turkmenistan",
+      "aliases": [
+        "National anthem of Turkmenistan"
+      ],
+      "popularity": 10391,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "State Anthem of Turkmenistan"
+    },
+    {
+      "name": "Himno Istmeño",
+      "aliases": [
+        "Anthem of Panama",
+        "Himno de Panamá",
+        "Himno Nacional de Panamá",
+        "Isthmian Anthem",
+        "National anthem of Panama"
+      ],
+      "popularity": 10623,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Himno Istmeño"
+    },
+    {
+      "name": "Oh Uganda, Land of Beauty",
+      "aliases": [],
+      "popularity": 10689,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Oh Uganda, Land of Beauty"
+    },
+    {
+      "name": "Dievs, svētī Latviju!",
+      "aliases": [],
+      "popularity": 11092,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Dievs, svētī Latviju!"
+    },
+    {
+      "name": "March Forward, Dear Mother Ethiopia",
+      "aliases": [],
+      "popularity": 11201,
+      "rarity": 0.546,
+      "tier": 3,
+      "wiki": "March Forward, Dear Mother Ethiopia"
+    },
+    {
+      "name": "Druk Tsenden",
+      "aliases": [],
+      "popularity": 11280,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Druk Tsenden"
+    },
+    {
+      "name": "National anthem of Palestine",
+      "aliases": [
+        "Fida'i"
+      ],
+      "popularity": 11331,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "National anthem of Palestine"
+    },
+    {
+      "name": "O Cameroon, Cradle of Our Forefathers",
+      "aliases": [
+        "national anthem of Cameroon"
+      ],
+      "popularity": 11371,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "O Cameroon, Cradle of Our Forefathers"
+    },
+    {
+      "name": "L-Innu Malti",
+      "aliases": [],
+      "popularity": 11481,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "L-Innu Malti"
+    },
+    {
+      "name": "Oj, svijetla majska zoro",
+      "aliases": [],
+      "popularity": 11728,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Oj, svijetla majska zoro"
+    },
+    {
+      "name": "Le Lion rouge",
+      "aliases": [],
+      "popularity": 11776,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Le Lion rouge"
+    },
+    {
+      "name": "Anthem of the Republic of Kosovo",
+      "aliases": [
+        "Europe"
+      ],
+      "popularity": 12037,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Anthem of the Republic of Kosovo"
+    },
+    {
+      "name": "Ons Heemecht",
+      "aliases": [],
+      "popularity": 12097,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Ons Heemecht"
+    },
+    {
+      "name": "Humat al-Hima",
+      "aliases": [],
+      "popularity": 12192,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Humat al-Hima"
+    },
+    {
+      "name": "Ishi Biladi",
+      "aliases": [
+        "Ishy Bilady"
+      ],
+      "popularity": 12323,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Ishi Biladi"
+    },
+    {
+      "name": "National anthem of Slovenia",
+      "aliases": [
+        "Anthem of the Slovene nation",
+        "Zdravljica"
+      ],
+      "popularity": 12473,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "National anthem of Slovenia"
+    },
+    {
+      "name": "Libya, Libya, Libya",
+      "aliases": [],
+      "popularity": 12610,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Libya, Libya, Libya"
+    },
+    {
+      "name": "National anthem of Yemen",
+      "aliases": [
+        "Nasyid al-Yaman al-wathani",
+        "United Republic"
+      ],
+      "popularity": 12629,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "National anthem of Yemen"
+    },
+    {
+      "name": "National Anthem of Peru",
+      "aliases": [
+        "Anthem of Peru",
+        "Himno Nacional del Perú",
+        "Peruvian National Anthem",
+        "Somos libres"
+      ],
+      "popularity": 13150,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "National Anthem of Peru"
+    },
+    {
+      "name": "Tavisupleba",
+      "aliases": [],
+      "popularity": 13234,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Tavisupleba"
+    },
+    {
+      "name": "L'Abidjanaise",
+      "aliases": [
+        "Song of Abidjan",
+        "The Song of Abidjan"
+      ],
+      "popularity": 13468,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "L'Abidjanaise"
+    },
+    {
+      "name": "Lofsöngur",
+      "aliases": [
+        "Matthías Jochumsson"
+      ],
+      "popularity": 13500,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "Lofsöngur"
+    },
+    {
+      "name": "Ee Mungu Nguvu Yetu",
+      "aliases": [],
+      "popularity": 13791,
+      "rarity": 0.454,
+      "tier": 3,
+      "wiki": "Ee Mungu Nguvu Yetu"
+    },
+    {
+      "name": "Cântico da Liberdade",
+      "aliases": [],
+      "popularity": 13818,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Cântico da Liberdade"
+    },
+    {
+      "name": "Qolobaa Calankeed",
+      "aliases": [],
+      "popularity": 13971,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Qolobaa Calankeed"
+    },
+    {
+      "name": "National anthem of Belarus",
+      "aliases": [
+        "My Belarusy"
+      ],
+      "popularity": 14571,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "National anthem of Belarus"
+    },
+    {
+      "name": "National anthem of Mongolia",
+      "aliases": [
+        "Mongolian national anthem"
+      ],
+      "popularity": 15014,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "National anthem of Mongolia"
+    },
+    {
+      "name": "Mer Hayrenik",
+      "aliases": [],
+      "popularity": 15050,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Mer Hayrenik"
+    },
+    {
+      "name": "State Anthem of Uzbekistan",
+      "aliases": [
+        "National Anthem of Uzbekistan"
+      ],
+      "popularity": 15763,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "State Anthem of Uzbekistan"
+    },
+    {
+      "name": "Tautiška giesmė",
+      "aliases": [],
+      "popularity": 16047,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Tautiška giesmė"
+    },
+    {
+      "name": "Debout Congolais",
+      "aliases": [
+        "Arise Congolese"
+      ],
+      "popularity": 16463,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Debout Congolais"
+    },
+    {
+      "name": "Stand and Sing of Zambia, Proud and Free",
+      "aliases": [],
+      "popularity": 16472,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Stand and Sing of Zambia, Proud and Free"
+    },
+    {
+      "name": "Jedna si jedina",
+      "aliases": [],
+      "popularity": 16555,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Jedna si jedina"
+    },
+    {
+      "name": "Mungu ibariki Afrika",
+      "aliases": [],
+      "popularity": 16701,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Mungu ibariki Afrika"
+    },
+    {
+      "name": "National Anthem of Zimbabwe",
+      "aliases": [
+        "Kalibusiswe Ilizwe leZimbabwe",
+        "Ngaikomborerwe nyika yeZimbabwe",
+        "Simudzai Mureza wedu WeZimbabwe"
+      ],
+      "popularity": 16711,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "National Anthem of Zimbabwe"
+    },
+    {
+      "name": "National Anthem of Lebanon",
+      "aliases": [
+        "Lebanese national anthem"
+      ],
+      "popularity": 16921,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "National Anthem of Lebanon"
+    },
+    {
+      "name": "National Anthem of Chile",
+      "aliases": [
+        "Canción Nacional",
+        "National Anthem"
+      ],
+      "popularity": 17005,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "National Anthem of Chile"
+    },
+    {
+      "name": "National Anthem of Iran",
+      "aliases": [],
+      "popularity": 17332,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "National Anthem of Iran"
+    },
+    {
+      "name": "Kong Christian stod ved højen mast",
+      "aliases": [],
+      "popularity": 17815,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Kong Christian stod ved højen mast"
+    },
+    {
+      "name": "Mu isamaa, mu õnn ja rõõm",
+      "aliases": [],
+      "popularity": 18050,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Mu isamaa, mu õnn ja rõõm"
+    },
+    {
+      "name": "Mila Rodino",
+      "aliases": [
+        "Dear Motherland"
+      ],
+      "popularity": 18277,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Mila Rodino"
+    },
+    {
+      "name": "Kaba Ma Kyei",
+      "aliases": [],
+      "popularity": 18278,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Kaba Ma Kyei"
+    },
+    {
+      "name": "Canto degli italiani",
+      "aliases": [
+        "Brothers of Italy",
+        "Il Canto degli Italiani",
+        "Mameli's Hymn",
+        "The Song of the Italians"
+      ],
+      "popularity": 18854,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "Canto degli italiani"
+    },
+    {
+      "name": "La Bayamesa",
+      "aliases": [
+        "El Himno de Bayamo",
+        "The Bayamo Song"
+      ],
+      "popularity": 19237,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "La Bayamesa"
+    },
+    {
+      "name": "Tiến quân ca",
+      "aliases": [],
+      "popularity": 19273,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Tiến quân ca"
+    },
+    {
+      "name": "State Anthem of the Republic of Azerbaijan",
+      "aliases": [
+        "Azərbaycan marşı",
+        "March of Azerbaijan"
+      ],
+      "popularity": 19656,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "State Anthem of the Republic of Azerbaijan"
+    },
+    {
+      "name": "Oben am jungen Rhein",
+      "aliases": [],
+      "popularity": 20136,
+      "rarity": 0.332,
+      "tier": 2,
+      "wiki": "Oben am jungen Rhein"
+    },
+    {
+      "name": "Nad Tatrou sa blýska",
+      "aliases": [],
+      "popularity": 20850,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Nad Tatrou sa blýska"
+    },
+    {
+      "name": "Gloria al Bravo Pueblo",
+      "aliases": [
+        "fgiehj"
+      ],
+      "popularity": 21776,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Gloria al Bravo Pueblo"
+    },
+    {
+      "name": "La Dessalinienne",
+      "aliases": [],
+      "popularity": 21852,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "La Dessalinienne"
+    },
+    {
+      "name": "Bože pravde",
+      "aliases": [],
+      "popularity": 22224,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Bože pravde"
+    },
+    {
+      "name": "Himni i Flamurit",
+      "aliases": [],
+      "popularity": 22486,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Himni i Flamurit"
+    },
+    {
+      "name": "Ḥumāt ad-Diyār",
+      "aliases": [
+        "Homat al Diyar",
+        "national anthem of Syria"
+      ],
+      "popularity": 23677,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Ḥumāt ad-Diyār"
+    },
+    {
+      "name": "Der er et yndigt land",
+      "aliases": [],
+      "popularity": 24180,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Der er et yndigt land"
+    },
+    {
+      "name": "Thai National Anthem",
+      "aliases": [
+        "Phleng chāt Thai"
+      ],
+      "popularity": 27311,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Thai National Anthem"
+    },
+    {
+      "name": "National Anthem of Saudi Arabia",
+      "aliases": [
+        "Chant of the Saudi Nation"
+      ],
+      "popularity": 27530,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "National Anthem of Saudi Arabia"
+    },
+    {
+      "name": "Sayaun Thunga Phulka",
+      "aliases": [
+        "Hundreds of Flowers",
+        "Made of Hundreds of Flowers",
+        "Ras Triya Gaan",
+        "Rashtriya Gan"
+      ],
+      "popularity": 29866,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Sayaun Thunga Phulka"
+    },
+    {
+      "name": "Negaraku",
+      "aliases": [],
+      "popularity": 29940,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Negaraku"
+    },
+    {
+      "name": "National Anthem of Uruguay",
+      "aliases": [
+        "Anthem of Uruguay"
+      ],
+      "popularity": 29983,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "National Anthem of Uruguay"
+    },
+    {
+      "name": "National anthem of Bosnia and Herzegovina",
+      "aliases": [
+        "Intermezzo"
+      ],
+      "popularity": 31211,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "National anthem of Bosnia and Herzegovina"
+    },
+    {
+      "name": "Lijepa naša domovino",
+      "aliases": [],
+      "popularity": 31321,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Lijepa naša domovino"
+    },
+    {
+      "name": "Maamme",
+      "aliases": [
+        "national anthem of Finland"
+      ],
+      "popularity": 31388,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Maamme"
+    },
+    {
+      "name": "Menıñ Qazaqstanym",
+      "aliases": [
+        "Menin Qazaqstanym"
+      ],
+      "popularity": 31526,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Menıñ Qazaqstanym"
+    },
+    {
+      "name": "Kde domov můj",
+      "aliases": [],
+      "popularity": 31778,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Kde domov můj"
+    },
+    {
+      "name": "Salve, Oh Patria",
+      "aliases": [],
+      "popularity": 31994,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Salve, Oh Patria"
+    },
+    {
+      "name": "Mawtini",
+      "aliases": [
+        "My Homeland"
+      ],
+      "popularity": 32538,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Mawtini"
+    },
+    {
+      "name": "Biladi, Biladi, Biladi",
+      "aliases": [],
+      "popularity": 33276,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Biladi, Biladi, Biladi"
+    },
+    {
+      "name": "Kassaman",
+      "aliases": [
+        "Qassaman"
+      ],
+      "popularity": 34132,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Kassaman"
+    },
+    {
+      "name": "National Anthem of Colombia",
+      "aliases": [],
+      "popularity": 34347,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "National Anthem of Colombia"
+    },
+    {
+      "name": "National anthem of Austria",
+      "aliases": [],
+      "popularity": 35109,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "National anthem of Austria"
+    },
+    {
+      "name": "Paraguayan National Anthem",
+      "aliases": [
+        "national anthem of Paraguay"
+      ],
+      "popularity": 35319,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Paraguayan National Anthem"
+    },
+    {
+      "name": "Indonesia Raya",
+      "aliases": [
+        "Indonesia Raja",
+        "Lagu Indonesia Raya"
+      ],
+      "popularity": 36683,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Indonesia Raya"
+    },
+    {
+      "name": "Himnusz",
+      "aliases": [],
+      "popularity": 37193,
+      "rarity": 0.199,
+      "tier": 1,
+      "wiki": "Himnusz"
+    },
+    {
+      "name": "This Is the Home of the Brave",
+      "aliases": [
+        "Dā də bātorāno kor"
+      ],
+      "popularity": 39760,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "This Is the Home of the Brave"
+    },
+    {
+      "name": "God Bless Our Homeland Ghana",
+      "aliases": [],
+      "popularity": 40282,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "God Bless Our Homeland Ghana"
+    },
+    {
+      "name": "Deșteaptă-te, române!",
+      "aliases": [
+        "anthem of Romania",
+        "Romanian anthem",
+        "Romanian national anthem"
+      ],
+      "popularity": 40861,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Deșteaptă-te, române!"
+    },
+    {
+      "name": "Sri Lanka Matha",
+      "aliases": [
+        "Mother Sri Lanka"
+      ],
+      "popularity": 42437,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Sri Lanka Matha"
+    },
+    {
+      "name": "Cherifian Anthem",
+      "aliases": [],
+      "popularity": 44682,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Cherifian Anthem"
+    },
+    {
+      "name": "Swiss Psalm",
+      "aliases": [],
+      "popularity": 45398,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Swiss Psalm"
+    },
+    {
+      "name": "Aegukka",
+      "aliases": [
+        "The Patriotic Song"
+      ],
+      "popularity": 45864,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Aegukka"
+    },
+    {
+      "name": "Amar Sonar Bangla",
+      "aliases": [],
+      "popularity": 46558,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Amar Sonar Bangla"
+    },
+    {
+      "name": "National Anthem of the Republic of China",
+      "aliases": [
+        "San Min Chu-i Song"
+      ],
+      "popularity": 49498,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "National Anthem of the Republic of China"
+    },
+    {
+      "name": "İstiklal Marşı",
+      "aliases": [
+        "Independence March of Turkey"
+      ],
+      "popularity": 51335,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "İstiklal Marşı"
+    },
+    {
+      "name": "Majulah Singapura",
+      "aliases": [
+        "Onward Singapore"
+      ],
+      "popularity": 51606,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Majulah Singapura"
+    },
+    {
+      "name": "Du gamla, du fria",
+      "aliases": [
+        "national anthem of Sweden"
+      ],
+      "popularity": 52853,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Du gamla, du fria"
+    },
+    {
+      "name": "La Brabançonne",
+      "aliases": [
+        "Brabançonne",
+        "The Brabançonne"
+      ],
+      "popularity": 53780,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "La Brabançonne"
+    },
+    {
+      "name": "National anthem of Ukraine",
+      "aliases": [
+        "Shche ne vmerla Ukraina",
+        "State anthem of Ukraine"
+      ],
+      "popularity": 58477,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "National anthem of Ukraine"
+    },
+    {
+      "name": "Hymn to Liberty",
+      "aliases": [],
+      "popularity": 60838,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Hymn to Liberty"
+    },
+    {
+      "name": "Aegukga",
+      "aliases": [],
+      "popularity": 64075,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Aegukga"
+    },
+    {
+      "name": "Brazilian National Anthem",
+      "aliases": [
+        "Hino Nacional Brasileiro",
+        "Joaquim Osório Duque-Estrada",
+        "Osório Duque Estrada"
+      ],
+      "popularity": 71021,
+      "rarity": 0.112,
+      "tier": 1,
+      "wiki": "Brazilian National Anthem"
+    },
+    {
+      "name": "Argentine National Anthem",
+      "aliases": [],
+      "popularity": 72442,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Argentine National Anthem"
+    },
+    {
+      "name": "Ja, vi elsker dette landet",
+      "aliases": [],
+      "popularity": 76644,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Ja, vi elsker dette landet"
+    },
+    {
+      "name": "Qaumi Taranah",
+      "aliases": [
+        "Pāk Sarzamīn",
+        "Qaumī Tarāna"
+      ],
+      "popularity": 80152,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Qaumi Taranah"
+    },
+    {
+      "name": "God Defend New Zealand",
+      "aliases": [
+        "national anthem of New Zealand"
+      ],
+      "popularity": 81921,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "God Defend New Zealand"
+    },
+    {
+      "name": "Lupang Hinirang",
+      "aliases": [
+        "Chosen Land",
+        "Marcha Nacional Filipina"
+      ],
+      "popularity": 100974,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Lupang Hinirang"
+    },
+    {
+      "name": "Wilhelmus",
+      "aliases": [
+        "het Wilhelmus"
+      ],
+      "popularity": 105518,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Wilhelmus"
+    },
+    {
+      "name": "March of the Volunteers",
+      "aliases": [
+        "National anthem of China",
+        "Yìyǒngjūn Jìnxíngqǔ"
+      ],
+      "popularity": 106515,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "March of the Volunteers"
+    },
+    {
+      "name": "Hatikvah",
+      "aliases": [
+        "Naftali Herz Imber",
+        "The Hope"
+      ],
+      "popularity": 109149,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Hatikvah"
+    },
+    {
+      "name": "National anthem of South Africa",
+      "aliases": [
+        "Mzansi national anthem",
+        "national anthem of Mzansi"
+      ],
+      "popularity": 112093,
+      "rarity": 0.066,
+      "tier": 1,
+      "wiki": "National anthem of South Africa"
+    },
+    {
+      "name": "National anthem of Russia",
+      "aliases": [],
+      "popularity": 113898,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "National anthem of Russia"
+    },
+    {
+      "name": "Amhrán na bhFiann",
+      "aliases": [
+        "A Soldiers' Song",
+        "The Soldiers' Song"
+      ],
+      "popularity": 124904,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Amhrán na bhFiann"
+    },
+    {
+      "name": "Poland Is Not Yet Lost",
+      "aliases": [
+        "Dąbrowski's Mazurek",
+        "Polish national anthem"
+      ],
+      "popularity": 126162,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Poland Is Not Yet Lost"
+    },
+    {
+      "name": "Nigeria, We Hail Thee",
+      "aliases": [],
+      "popularity": 137756,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Nigeria, We Hail Thee"
+    },
+    {
+      "name": "Kimigayo",
+      "aliases": [
+        "national anthem of Japan"
+      ],
+      "popularity": 139612,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Kimigayo"
+    },
+    {
+      "name": "Marcha Real",
+      "aliases": [
+        "national anthem of Spain",
+        "Royal March",
+        "Spanish national anthem"
+      ],
+      "popularity": 160882,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Marcha Real"
+    },
+    {
+      "name": "Advance Australia Fair",
+      "aliases": [
+        "Australia's national anthem",
+        "national anthem of Australia"
+      ],
+      "popularity": 165764,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Advance Australia Fair"
+    },
+    {
+      "name": "Himno Nacional Mexicano",
+      "aliases": [
+        "National Anthem of Mexico"
+      ],
+      "popularity": 302269,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Himno Nacional Mexicano"
+    },
+    {
+      "name": "Jana Gana Mana",
+      "aliases": [],
+      "popularity": 378767,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Jana Gana Mana"
+    },
+    {
+      "name": "La Marseillaise",
+      "aliases": [
+        "French national anthem",
+        "Marseillaise",
+        "National anthem of France",
+        "The Marseillaise"
+      ],
+      "popularity": 393188,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "La Marseillaise"
+    },
+    {
+      "name": "O Canada",
+      "aliases": [],
+      "popularity": 406654,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "O Canada"
+    },
+    {
+      "name": "God Save the King",
+      "aliases": [
+        "God Save the Queen"
+      ],
+      "popularity": 410191,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "God Save the King"
+    },
+    {
+      "name": "The Star-Spangled Banner",
+      "aliases": [
+        "SSB",
+        "Star-Spangled Banner"
+      ],
+      "popularity": 1104847,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "The Star-Spangled Banner"
+    }
+  ]
+}

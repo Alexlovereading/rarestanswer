@@ -3,68 +3,98 @@
   "slug": "great-ape-species",
   "category": "animals",
   "question": "Name a species of great ape",
-  "source": "fixture",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
   "answers": [
     {
       "name": "Tapanuli orangutan",
-      "aliases": ["tapanuli", "pongo tapanuliensis", "tapanuli orangutang", "tapanuli orangutans"],
-      "popularity": 8000,
+      "aliases": [
+        "Pongo tapanuliensis"
+      ],
+      "popularity": 82421,
       "rarity": 1,
       "tier": 6,
       "wiki": "Tapanuli orangutan"
     },
     {
-      "name": "Eastern gorilla",
-      "aliases": ["gorilla beringei", "eastern gorillas", "eastern lowland gorilla", "grauer's gorilla"],
-      "popularity": 22000,
+      "name": "Sumatran orangutan",
+      "aliases": [
+        "Pongo abelii"
+      ],
+      "popularity": 97433,
       "rarity": 0.857,
       "tier": 5,
-      "wiki": "Eastern gorilla"
-    },
-    {
-      "name": "Sumatran orangutan",
-      "aliases": ["pongo abelii", "sumatran orangutang", "sumatra orangutan", "sumatran orangutans"],
-      "popularity": 35000,
-      "rarity": 0.714,
-      "tier": 4,
       "wiki": "Sumatran orangutan"
     },
     {
-      "name": "Bonobo",
-      "aliases": ["bonobos", "pygmy chimpanzee", "pan paniscus", "pygmy chimp"],
-      "popularity": 70000,
+      "name": "Eastern gorilla",
+      "aliases": [
+        "Gorilla beringei"
+      ],
+      "popularity": 97904,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Eastern gorilla"
+    },
+    {
+      "name": "Western gorilla",
+      "aliases": [
+        "Gorilla gorilla"
+      ],
+      "popularity": 139665,
       "rarity": 0.571,
       "tier": 3,
-      "wiki": "Bonobo"
+      "wiki": "Western gorilla"
     },
     {
       "name": "Bornean orangutan",
-      "aliases": ["pongo pygmaeus", "bornean orangutang", "borneo orangutan", "bornean orangutans"],
-      "popularity": 95000,
+      "aliases": [
+        "Pongo pygmaeus"
+      ],
+      "popularity": 147453,
       "rarity": 0.429,
       "tier": 3,
       "wiki": "Bornean orangutan"
     },
     {
-      "name": "Western gorilla",
-      "aliases": ["gorilla gorilla", "western lowland gorilla", "western gorillas", "western lowland gorillas"],
-      "popularity": 140000,
-      "rarity": 0.286,
-      "tier": 2,
-      "wiki": "Western gorilla"
-    },
-    {
       "name": "Chimpanzee",
-      "aliases": ["chimp", "chimps", "chimpanzees", "common chimpanzee", "pan troglodytes"],
-      "popularity": 380000,
-      "rarity": 0.143,
+      "aliases": [
+        "chimp",
+        "chimps",
+        "common chimpanzee",
+        "Pan troglodytes",
+        "robust chimpanzee"
+      ],
+      "popularity": 521336,
+      "rarity": 0.286,
       "tier": 2,
       "wiki": "Chimpanzee"
     },
     {
+      "name": "Bonobo",
+      "aliases": [
+        "dwarf chimpanzee",
+        "gracile chimpanzee",
+        "Pan paniscus",
+        "pygmy chimpanzee"
+      ],
+      "popularity": 538268,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Bonobo"
+    },
+    {
       "name": "Human",
-      "aliases": ["humans", "homo sapiens", "modern human", "people"],
-      "popularity": 2500000,
+      "aliases": [
+        "Homo sapiens",
+        "human being",
+        "humans",
+        "individual Homo sapiens",
+        "modern human",
+        "non-fictional human",
+        "nonfictional human",
+        "people"
+      ],
+      "popularity": 1894948,
       "rarity": 0,
       "tier": 1,
       "wiki": "Human"

@@ -1,0 +1,158 @@
+{
+  "id": "tyrannosaurid-dinosaurs",
+  "slug": "tyrannosaurid-dinosaurs",
+  "category": "animals",
+  "question": "Name a tyrannosaurid dinosaur",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Tromerosaurus",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Tromerosaurus"
+    },
+    {
+      "name": "Prodeinodon",
+      "aliases": [],
+      "popularity": 993,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Prodeinodon"
+    },
+    {
+      "name": "Aublysodon",
+      "aliases": [],
+      "popularity": 7727,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Aublysodon"
+    },
+    {
+      "name": "Deinodon",
+      "aliases": [],
+      "popularity": 9628,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Deinodon"
+    },
+    {
+      "name": "Dynamoterror",
+      "aliases": [],
+      "popularity": 10333,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Dynamoterror"
+    },
+    {
+      "name": "Asiatyrannus",
+      "aliases": [],
+      "popularity": 12020,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Asiatyrannus"
+    },
+    {
+      "name": "Thanatotheristes",
+      "aliases": [],
+      "popularity": 14299,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Thanatotheristes"
+    },
+    {
+      "name": "Teratophoneus",
+      "aliases": [],
+      "popularity": 20208,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Teratophoneus"
+    },
+    {
+      "name": "Lythronax",
+      "aliases": [],
+      "popularity": 23492,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Lythronax"
+    },
+    {
+      "name": "Qianzhousaurus",
+      "aliases": [
+        "Pinocchio rex"
+      ],
+      "popularity": 24959,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Qianzhousaurus"
+    },
+    {
+      "name": "Zhuchengtyrannus",
+      "aliases": [],
+      "popularity": 29219,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Zhuchengtyrannus"
+    },
+    {
+      "name": "Alioramus",
+      "aliases": [],
+      "popularity": 33095,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Alioramus"
+    },
+    {
+      "name": "Nanuqsaurus",
+      "aliases": [],
+      "popularity": 53058,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Nanuqsaurus"
+    },
+    {
+      "name": "Daspletosaurus",
+      "aliases": [],
+      "popularity": 57167,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Daspletosaurus"
+    },
+    {
+      "name": "Gorgosaurus",
+      "aliases": [
+        "Gordo",
+        "Gordosaurus"
+      ],
+      "popularity": 65898,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Gorgosaurus"
+    },
+    {
+      "name": "Albertosaurus",
+      "aliases": [],
+      "popularity": 79446,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Albertosaurus"
+    },
+    {
+      "name": "Tarbosaurus",
+      "aliases": [],
+      "popularity": 91109,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Tarbosaurus"
+    },
+    {
+      "name": "Tyrannosaurus",
+      "aliases": [],
+      "popularity": 1017066,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Tyrannosaurus"
+    }
+  ]
+}

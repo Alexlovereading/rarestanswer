@@ -1,0 +1,146 @@
+{
+  "id": "stranger-things-characters",
+  "slug": "stranger-things-characters",
+  "category": "screen",
+  "question": "Name a Stranger Things character",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Demogorgon",
+      "aliases": [
+        "Demogorgon (Stranger Things)"
+      ],
+      "popularity": 30199,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Demogorgon (Stranger Things)"
+    },
+    {
+      "name": "Lucas Sinclair",
+      "aliases": [],
+      "popularity": 55946,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Lucas Sinclair"
+    },
+    {
+      "name": "Billy Hargrove",
+      "aliases": [
+        "William Hargrove"
+      ],
+      "popularity": 96319,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Billy Hargrove"
+    },
+    {
+      "name": "Dustin Henderson",
+      "aliases": [],
+      "popularity": 139392,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Dustin Henderson"
+    },
+    {
+      "name": "Robin Buckley",
+      "aliases": [],
+      "popularity": 207634,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Robin Buckley"
+    },
+    {
+      "name": "Joyce Byers",
+      "aliases": [],
+      "popularity": 243794,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Joyce Byers"
+    },
+    {
+      "name": "Max Mayfield",
+      "aliases": [
+        "come muchas pollas",
+        "Max Mayfield (Stranger Things)",
+        "Maxine Mayfield"
+      ],
+      "popularity": 285503,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Max Mayfield (Stranger Things)"
+    },
+    {
+      "name": "Mike Wheeler",
+      "aliases": [
+        "Mike Wheeler (Stranger Things)"
+      ],
+      "popularity": 319587,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Mike Wheeler (Stranger Things)"
+    },
+    {
+      "name": "Jim Hopper",
+      "aliases": [
+        "Jim Hopper (Stranger Things)"
+      ],
+      "popularity": 353568,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Jim Hopper (Stranger Things)"
+    },
+    {
+      "name": "Nancy Wheeler",
+      "aliases": [],
+      "popularity": 390324,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Nancy Wheeler"
+    },
+    {
+      "name": "Steve Harrington",
+      "aliases": [],
+      "popularity": 521931,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Steve Harrington"
+    },
+    {
+      "name": "Will Byers",
+      "aliases": [
+        "zombie boy"
+      ],
+      "popularity": 587376,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Will Byers"
+    },
+    {
+      "name": "Eleven",
+      "aliases": [
+        "Eleven (Stranger Things)",
+        "Jane",
+        "Jane Hopper"
+      ],
+      "popularity": 759805,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Eleven (Stranger Things)"
+    },
+    {
+      "name": "Vecna",
+      "aliases": [
+        "Friendly Orderly",
+        "Henry Creel",
+        "Mr. Whatsit",
+        "Peter Ballard",
+        "Vecna (Stranger Things)"
+      ],
+      "popularity": 1611977,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Vecna (Stranger Things)"
+    }
+  ],
+  "seoNoun": "Stranger Things characters"
+}

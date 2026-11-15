@@ -50,20 +50,24 @@ const wordmarkTail = nameParts.length > 1 ? nameParts[nameParts.length - 1] : ''
 interface ChromeLink {
   href: string;
   label: string;
+  icon: string;
   exact?: boolean;
   also?: string[];
+  /** Filled pill. The daily game stays the primary action at every width. */
+  emphasis?: boolean;
 }
 
 const chromeNav: ChromeLink[] = [
-  { href: homeUrl(locale), label: nav.play, exact: true },
-  { href: localizePath('/unlimited/', locale), label: nav.unlimited },
+  { href: homeUrl(locale), label: nav.play, icon: 'lucide:play', exact: true, emphasis: true },
+  { href: localizePath('/unlimited/', locale), label: nav.unlimited, icon: 'lucide:infinity' },
   {
     href: localizePath('/rarest-answers/', locale),
     label: nav.rarestAnswers,
+    icon: 'lucide:gem',
     also: [localizePath('/answers/', locale)],
   },
-  { href: localizePath('/games/', locale), label: nav.games },
-  { href: localizePath('/guides/', locale), label: nav.guides },
+  { href: localizePath('/games/', locale), label: nav.games, icon: 'lucide:gamepad-2' },
+  { href: localizePath('/guides/', locale), label: nav.guides, icon: 'lucide:book-open' },
 ];
 
 const pathActive = (href: string, exact = false) => {
@@ -75,7 +79,7 @@ const itemActive = (item: ChromeLink) =>
   pathActive(item.href, item.exact) || (item.also ?? []).some((href) => pathActive(href));
 ---
 
-<header class="sticky top-0 z-40 w-full bg-background/75 backdrop-blur-md">
+<header class="sticky top-0 z-40 w-full bg-background">
   <div class="mx-auto flex h-14 max-w-7xl items-center gap-3 px-4">
     <a
       href={homeUrl(locale)}
@@ -97,10 +101,13 @@ const itemActive = (item: ChromeLink) =>
               href={item.href}
               aria-current={isActive ? 'page' : undefined}
               class:list={[
-                'whitespace-nowrap rounded-full px-2.5 py-1.5 text-sm font-medium transition xl:px-3',
-                isActive
-                  ? 'bg-[hsl(var(--brand-text)/0.12)] text-nav'
-                  : 'text-foreground/75 hover:bg-muted hover:text-foreground',
+                'whitespace-nowrap text-sm font-medium',
+                item.emphasis
+                  ? 'btn-primary px-3 py-1.5'
+                  : isActive
+                    ? 'rounded-full bg-[hsl(var(--brand-text)/0.12)] px-2.5 py-1.5 text-nav xl:px-3'
+                    : 'rounded-full px-2.5 py-1.5 text-foreground hover:bg-muted xl:px-3',
+                item.emphasis && isActive && 'ring-2 ring-gold/70 ring-offset-2 ring-offset-background',
               ]}
             >
               {item.label}
@@ -134,20 +141,24 @@ const itemActive = (item: ChromeLink) =>
         />
       )}
 
-      <details class="relative lg:hidden">
+      <details class="group lg:hidden" data-mobile-nav>
         <summary
-          class="inline-flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-full text-foreground transition hover:bg-muted [&::-webkit-details-marker]:hidden"
+          class="inline-flex h-11 w-11 cursor-pointer list-none items-center justify-center rounded-full text-foreground hover:bg-muted [&::-webkit-details-marker]:hidden"
           aria-label={nav.menu}
         >
-          <Icon name="lucide:menu" class="h-5 w-5" aria-hidden="true" />
+          <Icon name="lucide:menu" class="h-5 w-5 group-open:hidden" aria-hidden="true" />
+          <Icon name="lucide:x" class="hidden h-5 w-5 group-open:block" aria-hidden="true" />
         </summary>
-        <div class="absolute right-0 z-50 mt-2 w-64 overflow-hidden rounded-2xl border border-border bg-card shadow-xl">
+        <div
+          class="absolute inset-x-0 top-full z-50 overflow-y-auto border-t border-border bg-background px-4 py-3"
+          style="height: calc(100dvh - 100%)"
+        >
           <button
             type="button"
             data-open-search
-            class="flex w-full items-center gap-2 border-b border-border px-3 py-2.5 text-sm font-medium text-nav transition hover:bg-muted"
+            class="flex min-h-11 w-full items-center gap-3 rounded-xl px-3 text-sm font-medium text-nav hover:bg-muted"
           >
-            <Icon name="lucide:search" class="h-4 w-4" />
+            <Icon name="lucide:search" class="h-4 w-4" aria-hidden="true" />
             <span>{nav.search}</span>
           </button>
           {
@@ -156,10 +167,12 @@ const itemActive = (item: ChromeLink) =>
                 href={item.href}
                 aria-current={itemActive(item) ? 'page' : undefined}
                 class:list={[
-                  'block px-3 py-2 text-sm transition hover:bg-muted',
-                  itemActive(item) && 'font-semibold text-nav',
+                  'flex min-h-11 items-center gap-3 rounded-xl px-3 text-base hover:bg-muted',
+                  item.emphasis && 'mt-1 font-semibold text-nav',
+                  itemActive(item) && !item.emphasis && 'bg-[hsl(var(--brand-text)/0.12)] font-semibold text-nav',
                 ]}
               >
+                <Icon name={item.icon} class="h-4 w-4 shrink-0 text-nav" aria-hidden="true" />
                 {item.label}
               </a>
             ))
@@ -218,3 +231,27 @@ const itemActive = (item: ChromeLink) =>
   >
   </div>
 </header>
+
+<script>
+  // Full-screen mobile menu: lock the page, close on Escape, and close
+  // when search opens so the dialog is not sitting under the sheet.
+  const menu = document.querySelector('[data-mobile-nav]');
+  if (menu instanceof HTMLDetailsElement) {
+    const summary = menu.querySelector('summary');
+    const sync = () => {
+      if (summary) summary.setAttribute('aria-expanded', menu.open ? 'true' : 'false');
+      document.body.style.overflow = menu.open ? 'hidden' : '';
+    };
+    sync();
+    menu.addEventListener('toggle', sync);
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && menu.open) menu.open = false;
+    });
+    const searchButtons = document.querySelectorAll('[data-open-search]');
+    for (const button of searchButtons) {
+      button.addEventListener('click', () => {
+        if (menu.open) menu.open = false;
+      });
+    }
+  }
+</script>

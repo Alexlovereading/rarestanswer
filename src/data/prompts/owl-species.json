@@ -1,0 +1,2753 @@
+{
+  "id": "owl-species",
+  "slug": "owl-species",
+  "category": "animals",
+  "question": "Name a species of owl",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Northern fish owl",
+      "aliases": [
+        "Ketupa doerriesi"
+      ],
+      "popularity": 0,
+      "rarity": 0.998,
+      "tier": 6,
+      "wiki": "Northern fish owl"
+    },
+    {
+      "name": "Paramo horned owl",
+      "aliases": [
+        "Bubo nigrescens"
+      ],
+      "popularity": 0,
+      "rarity": 0.998,
+      "tier": 6,
+      "wiki": "Paramo horned owl"
+    },
+    {
+      "name": "Megascops napensis",
+      "aliases": [
+        "Napo screech owl",
+        "Rio Napo Screech-owl"
+      ],
+      "popularity": 19,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Megascops napensis"
+    },
+    {
+      "name": "Colombian screech owl",
+      "aliases": [
+        "Megascops colombianus",
+        "Megascops columbianus",
+        "Otus columbianus"
+      ],
+      "popularity": 33,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Colombian screech owl"
+    },
+    {
+      "name": "Little Sumba boobook",
+      "aliases": [
+        "Least Boobook",
+        "Little Sumba Hawk-Owl",
+        "Ninox sumbaensis"
+      ],
+      "popularity": 50,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Little Sumba boobook"
+    },
+    {
+      "name": "Makira boobook",
+      "aliases": [
+        "Ninox roseoaxillaris"
+      ],
+      "popularity": 56,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Makira boobook"
+    },
+    {
+      "name": "Tyto cravesae",
+      "aliases": [
+        "Craves's Giant Barn Owl"
+      ],
+      "popularity": 161,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Tyto cravesae"
+    },
+    {
+      "name": "Tucuman pygmy-owl",
+      "aliases": [
+        "Glaucidium tucumanum"
+      ],
+      "popularity": 199,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Tucuman pygmy-owl"
+    },
+    {
+      "name": "Great Sumba boobook",
+      "aliases": [
+        "Ninox rudolfi",
+        "Sumba Boobook"
+      ],
+      "popularity": 237,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Great Sumba boobook"
+    },
+    {
+      "name": "Magellanic horned owl",
+      "aliases": [
+        "Bubo magellanicus"
+      ],
+      "popularity": 269,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Magellanic horned owl"
+    },
+    {
+      "name": "Chestnut owlet",
+      "aliases": [
+        "Glaucidium castaneum"
+      ],
+      "popularity": 306,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Chestnut owlet"
+    },
+    {
+      "name": "Père David's owl",
+      "aliases": [
+        "Sichuan Wood Owl",
+        "Strix davidi"
+      ],
+      "popularity": 321,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Père David's owl"
+    },
+    {
+      "name": "Madagascar scops owl",
+      "aliases": [
+        "Otus rutilus",
+        "Rainforest Scops Owl"
+      ],
+      "popularity": 419,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Madagascar scops owl"
+    },
+    {
+      "name": "Wetar scops owl",
+      "aliases": [
+        "Otus tempestatis"
+      ],
+      "popularity": 705,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Wetar scops owl"
+    },
+    {
+      "name": "Seram masked owl",
+      "aliases": [
+        "Tyto almae"
+      ],
+      "popularity": 710,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Seram masked owl"
+    },
+    {
+      "name": "Xingu screech owl",
+      "aliases": [
+        "Megascops stangiae"
+      ],
+      "popularity": 729,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Xingu screech owl"
+    },
+    {
+      "name": "Banggai scops owl",
+      "aliases": [
+        "Otus mendeni"
+      ],
+      "popularity": 730,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Banggai scops owl"
+    },
+    {
+      "name": "Biak scops owl",
+      "aliases": [
+        "Otus beccarii"
+      ],
+      "popularity": 761,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Biak scops owl"
+    },
+    {
+      "name": "Alagoas screech owl",
+      "aliases": [
+        "Megascops alagoensis"
+      ],
+      "popularity": 779,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Alagoas screech owl"
+    },
+    {
+      "name": "Usambara eagle-owl",
+      "aliases": [
+        "Bubo vosseleri"
+      ],
+      "popularity": 809,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Usambara eagle-owl"
+    },
+    {
+      "name": "Mentawai scops owl",
+      "aliases": [
+        "Otus mentawi"
+      ],
+      "popularity": 810,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Mentawai scops owl"
+    },
+    {
+      "name": "Tanimbar boobook",
+      "aliases": [
+        "Ninox forbesi",
+        "tanimbar hawk-owl"
+      ],
+      "popularity": 814,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Tanimbar boobook"
+    },
+    {
+      "name": "Simeulue scops owl",
+      "aliases": [
+        "Otus umbra"
+      ],
+      "popularity": 848,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Simeulue scops owl"
+    },
+    {
+      "name": "Enggano scops owl",
+      "aliases": [
+        "Otus enganensis"
+      ],
+      "popularity": 857,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Enggano scops owl"
+    },
+    {
+      "name": "Halmahera boobook",
+      "aliases": [
+        "Ninox hypogramma"
+      ],
+      "popularity": 860,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Halmahera boobook"
+    },
+    {
+      "name": "West Peruvian screech owl",
+      "aliases": [
+        "Megascops roboratus",
+        "Otus roboratus",
+        "Peruvian screech owl"
+      ],
+      "popularity": 862,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "West Peruvian screech owl"
+    },
+    {
+      "name": "Seram boobook",
+      "aliases": [
+        "hantu boobook",
+        "Moluccan Hawk-Owl",
+        "Ninox squamipila"
+      ],
+      "popularity": 872,
+      "rarity": 0.901,
+      "tier": 5,
+      "wiki": "Seram boobook"
+    },
+    {
+      "name": "Mindoro scops owl",
+      "aliases": [
+        "Otus mindorensis",
+        "Otus mindoroensis"
+      ],
+      "popularity": 873,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Mindoro scops owl"
+    },
+    {
+      "name": "Buru boobook",
+      "aliases": [
+        "Ninox hantu"
+      ],
+      "popularity": 882,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Buru boobook"
+    },
+    {
+      "name": "Manus boobook",
+      "aliases": [
+        "Ninox meeki"
+      ],
+      "popularity": 984,
+      "rarity": 0.89,
+      "tier": 5,
+      "wiki": "Manus boobook"
+    },
+    {
+      "name": "São Tomé scops owl",
+      "aliases": [
+        "Otus hartlaubi"
+      ],
+      "popularity": 990,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "São Tomé scops owl"
+    },
+    {
+      "name": "Moluccan scops owl",
+      "aliases": [
+        "O. magicus",
+        "Otus magicus"
+      ],
+      "popularity": 993,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Moluccan scops owl"
+    },
+    {
+      "name": "Subtropical pygmy owl",
+      "aliases": [
+        "Glaucidium parkeri"
+      ],
+      "popularity": 994,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Subtropical pygmy owl"
+    },
+    {
+      "name": "Yungas screech owl",
+      "aliases": [
+        "Megascops hoyi"
+      ],
+      "popularity": 1003,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Yungas screech owl"
+    },
+    {
+      "name": "Wallace's scops owl",
+      "aliases": [
+        "lesser sunda scops owl",
+        "Otus silvicola"
+      ],
+      "popularity": 1025,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Wallace's scops owl"
+    },
+    {
+      "name": "Annobón scops owl",
+      "aliases": [
+        "Otus feae"
+      ],
+      "popularity": 1042,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Annobón scops owl"
+    },
+    {
+      "name": "Mayotte scops owl",
+      "aliases": [
+        "Otus mayottensis"
+      ],
+      "popularity": 1047,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Mayotte scops owl"
+    },
+    {
+      "name": "Togian boobook",
+      "aliases": [
+        "Ninox burhani",
+        "togian hawk-owl"
+      ],
+      "popularity": 1047,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Togian boobook"
+    },
+    {
+      "name": "Vermiculated screech owl",
+      "aliases": [
+        "Megascops vermiculatus"
+      ],
+      "popularity": 1051,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Vermiculated screech owl"
+    },
+    {
+      "name": "Rufescent screech owl",
+      "aliases": [
+        "Megascops ingens",
+        "Otus ingens"
+      ],
+      "popularity": 1058,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Rufescent screech owl"
+    },
+    {
+      "name": "Palawan scops owl",
+      "aliases": [
+        "Otus fuliginosus"
+      ],
+      "popularity": 1077,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Palawan scops owl"
+    },
+    {
+      "name": "Yungas pygmy owl",
+      "aliases": [
+        "Glaucidium bolivianum"
+      ],
+      "popularity": 1083,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Yungas pygmy owl"
+    },
+    {
+      "name": "Santa Marta screech owl",
+      "aliases": [
+        "Megascops gilesi"
+      ],
+      "popularity": 1095,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Santa Marta screech owl"
+    },
+    {
+      "name": "Torotoroka scops owl",
+      "aliases": [
+        "Otus madagascariensis"
+      ],
+      "popularity": 1108,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Torotoroka scops owl"
+    },
+    {
+      "name": "Cloud-forest screech owl",
+      "aliases": [
+        "Megascops marshalli",
+        "Otus marshalli"
+      ],
+      "popularity": 1112,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Cloud-forest screech owl"
+    },
+    {
+      "name": "Pemba scops owl",
+      "aliases": [
+        "Otus pembaensis"
+      ],
+      "popularity": 1114,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Pemba scops owl"
+    },
+    {
+      "name": "Mindanao scops owl",
+      "aliases": [
+        "Otus mirus"
+      ],
+      "popularity": 1129,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Mindanao scops owl"
+    },
+    {
+      "name": "Mindoro boobook",
+      "aliases": [
+        "Mindoro Hawk-Owl",
+        "Ninox mindorensis"
+      ],
+      "popularity": 1146,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Mindoro boobook"
+    },
+    {
+      "name": "Arabian scops owl",
+      "aliases": [
+        "Otus pamelae"
+      ],
+      "popularity": 1147,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Arabian scops owl"
+    },
+    {
+      "name": "Colima pygmy owl",
+      "aliases": [
+        "Glaucidium palmarum"
+      ],
+      "popularity": 1159,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Colima pygmy owl"
+    },
+    {
+      "name": "Malaita owl",
+      "aliases": [
+        "Athene malaitae"
+      ],
+      "popularity": 1159,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Malaita owl"
+    },
+    {
+      "name": "Tawny-browed owl",
+      "aliases": [
+        "Pulsatrix koeniswaldiana"
+      ],
+      "popularity": 1184,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Tawny-browed owl"
+    },
+    {
+      "name": "Mantanani scops owl",
+      "aliases": [
+        "Otus mantananensis"
+      ],
+      "popularity": 1199,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Mantanani scops owl"
+    },
+    {
+      "name": "Koepcke's screech owl",
+      "aliases": [
+        "Maria Koepcke's screech owl",
+        "Megascops koepckeae",
+        "Otus koepckeae"
+      ],
+      "popularity": 1217,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Koepcke's screech owl"
+    },
+    {
+      "name": "Guadalcanal owl",
+      "aliases": [
+        "Athene granti"
+      ],
+      "popularity": 1218,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Guadalcanal owl"
+    },
+    {
+      "name": "Chocó screech owl",
+      "aliases": [
+        "Megascops centralis"
+      ],
+      "popularity": 1220,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Chocó screech owl"
+    },
+    {
+      "name": "Ochre-bellied boobook",
+      "aliases": [
+        "Ninox ochracea"
+      ],
+      "popularity": 1221,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Ochre-bellied boobook"
+    },
+    {
+      "name": "Papuan boobook",
+      "aliases": [
+        "Ninox theomacha"
+      ],
+      "popularity": 1224,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Papuan boobook"
+    },
+    {
+      "name": "Sandy scops owl",
+      "aliases": [
+        "Otus icterorhynchus"
+      ],
+      "popularity": 1229,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Sandy scops owl"
+    },
+    {
+      "name": "Foothill screech owl",
+      "aliases": [
+        "Megascops roraimae"
+      ],
+      "popularity": 1231,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Foothill screech owl"
+    },
+    {
+      "name": "Rajah scops owl",
+      "aliases": [
+        "Otus brookii"
+      ],
+      "popularity": 1234,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "Rajah scops owl"
+    },
+    {
+      "name": "Sangihe scops owl",
+      "aliases": [
+        "Otus collari"
+      ],
+      "popularity": 1257,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Sangihe scops owl"
+    },
+    {
+      "name": "New Ireland boobook",
+      "aliases": [
+        "Ninox variegata"
+      ],
+      "popularity": 1259,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "New Ireland boobook"
+    },
+    {
+      "name": "Band-bellied owl",
+      "aliases": [
+        "Pulsatrix melanota"
+      ],
+      "popularity": 1262,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Band-bellied owl"
+    },
+    {
+      "name": "Socotra scops owl",
+      "aliases": [
+        "Otus socotranus"
+      ],
+      "popularity": 1283,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Socotra scops owl"
+    },
+    {
+      "name": "Guatemalan pygmy owl",
+      "aliases": [
+        "Glaucidium cobanense"
+      ],
+      "popularity": 1292,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Guatemalan pygmy owl"
+    },
+    {
+      "name": "Balsas screech owl",
+      "aliases": [
+        "Megascops seductus",
+        "Otus seductus"
+      ],
+      "popularity": 1293,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Balsas screech owl"
+    },
+    {
+      "name": "Karthala scops owl",
+      "aliases": [
+        "Otus pauliani"
+      ],
+      "popularity": 1298,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Karthala scops owl"
+    },
+    {
+      "name": "Black-capped screech owl",
+      "aliases": [
+        "Megascops atricapilla",
+        "Megascops atricapillus",
+        "Otus atricapillus"
+      ],
+      "popularity": 1309,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Black-capped screech owl"
+    },
+    {
+      "name": "Palau scops owl",
+      "aliases": [
+        "Otus podarginus",
+        "Palau Owl",
+        "Pyrroglaux podargina",
+        "Pyrroglaux podarginus"
+      ],
+      "popularity": 1310,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Palau scops owl"
+    },
+    {
+      "name": "Sulawesi scops owl",
+      "aliases": [
+        "Otus manadensis"
+      ],
+      "popularity": 1316,
+      "rarity": 0.734,
+      "tier": 4,
+      "wiki": "Sulawesi scops owl"
+    },
+    {
+      "name": "Makira owl",
+      "aliases": [
+        "Athene roseoaxillaris"
+      ],
+      "popularity": 1328,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Makira owl"
+    },
+    {
+      "name": "Romblon boobook",
+      "aliases": [
+        "Ninox spilonota",
+        "Ninox spilonotus",
+        "Romblon Hawk-Owl",
+        "Spotted hawk owl"
+      ],
+      "popularity": 1331,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Romblon boobook"
+    },
+    {
+      "name": "Central American pygmy owl",
+      "aliases": [
+        "Glaucidium griseiceps"
+      ],
+      "popularity": 1341,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Central American pygmy owl"
+    },
+    {
+      "name": "Everett's scops owl",
+      "aliases": [
+        "Otus everetti"
+      ],
+      "popularity": 1375,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Everett's scops owl"
+    },
+    {
+      "name": "New Britain boobook",
+      "aliases": [
+        "Ninox odiosa",
+        "Russet hawk-owl"
+      ],
+      "popularity": 1392,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "New Britain boobook"
+    },
+    {
+      "name": "Nicobar scops owl",
+      "aliases": [
+        "Otus alius"
+      ],
+      "popularity": 1392,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Nicobar scops owl"
+    },
+    {
+      "name": "Negros scops owl",
+      "aliases": [
+        "Otus nigrorum"
+      ],
+      "popularity": 1402,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "Negros scops owl"
+    },
+    {
+      "name": "Mindanao boobook",
+      "aliases": [
+        "Mindanao Hawk-Owl",
+        "Ninox spilocephala"
+      ],
+      "popularity": 1403,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Mindanao boobook"
+    },
+    {
+      "name": "Sunda owlet",
+      "aliases": [
+        "Glaucidium sylvaticum"
+      ],
+      "popularity": 1411,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Sunda owlet"
+    },
+    {
+      "name": "Cinnabar boobook",
+      "aliases": [
+        "cinnabar hawk-owl",
+        "Ninox ios"
+      ],
+      "popularity": 1413,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Cinnabar boobook"
+    },
+    {
+      "name": "Luzon scops owl",
+      "aliases": [
+        "Otus longicornis"
+      ],
+      "popularity": 1418,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Luzon scops owl"
+    },
+    {
+      "name": "Cinnamon screech owl",
+      "aliases": [
+        "Megascops petersoni",
+        "Otus peterseni"
+      ],
+      "popularity": 1426,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Cinnamon screech owl"
+    },
+    {
+      "name": "Reddish scops owl",
+      "aliases": [
+        "Otus rufescens"
+      ],
+      "popularity": 1432,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Reddish scops owl"
+    },
+    {
+      "name": "Andean pygmy owl",
+      "aliases": [
+        "Glaucidium jardinii"
+      ],
+      "popularity": 1438,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Andean pygmy owl"
+    },
+    {
+      "name": "White-throated screech owl",
+      "aliases": [
+        "Megascops albogularis",
+        "Otus albogularis"
+      ],
+      "popularity": 1441,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "White-throated screech owl"
+    },
+    {
+      "name": "Bare-shanked screech owl",
+      "aliases": [
+        "Megascops clarkii",
+        "Otus clarkii"
+      ],
+      "popularity": 1446,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Bare-shanked screech owl"
+    },
+    {
+      "name": "Speckled boobook",
+      "aliases": [
+        "Ninox punctulata",
+        "oriental hawk-owl"
+      ],
+      "popularity": 1463,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Speckled boobook"
+    },
+    {
+      "name": "Tawny-bellied screech owl",
+      "aliases": [
+        "Megascops watsonii",
+        "Otus watsonii"
+      ],
+      "popularity": 1475,
+      "rarity": 0.665,
+      "tier": 4,
+      "wiki": "Tawny-bellied screech owl"
+    },
+    {
+      "name": "Camiguin boobook",
+      "aliases": [
+        "Ninox leventisi"
+      ],
+      "popularity": 1488,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Camiguin boobook"
+    },
+    {
+      "name": "Sulu boobook",
+      "aliases": [
+        "Ninox reyi",
+        "Sulu Hawk-Owl"
+      ],
+      "popularity": 1502,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Sulu boobook"
+    },
+    {
+      "name": "Timor boobook",
+      "aliases": [
+        "Ninox fusca"
+      ],
+      "popularity": 1504,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Timor boobook"
+    },
+    {
+      "name": "Costa Rican pygmy owl",
+      "aliases": [
+        "Glaucidium costaricanum"
+      ],
+      "popularity": 1508,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Costa Rican pygmy owl"
+    },
+    {
+      "name": "Cuban pygmy owl",
+      "aliases": [
+        "Glaucidium siju"
+      ],
+      "popularity": 1537,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Cuban pygmy owl"
+    },
+    {
+      "name": "Sjöstedt's barred owlet",
+      "aliases": [
+        "Glaucidium sjostedti",
+        "Sjostedtís owlet"
+      ],
+      "popularity": 1577,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Sjöstedt's barred owlet"
+    },
+    {
+      "name": "Baja pygmy owl",
+      "aliases": [
+        "Cape pygmy owl",
+        "Glaucidium hoskinsii"
+      ],
+      "popularity": 1580,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Baja pygmy owl"
+    },
+    {
+      "name": "Rote boobook",
+      "aliases": [
+        "Ninox rotiensis"
+      ],
+      "popularity": 1594,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Rote boobook"
+    },
+    {
+      "name": "West Solomons owl",
+      "aliases": [
+        "Ninox jacquinoti",
+        "Solomons Boobook"
+      ],
+      "popularity": 1600,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "West Solomons owl"
+    },
+    {
+      "name": "Andaman scops owl",
+      "aliases": [
+        "Otus balli"
+      ],
+      "popularity": 1620,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Andaman scops owl"
+    },
+    {
+      "name": "Hume's boobook",
+      "aliases": [
+        "Ninox obscura"
+      ],
+      "popularity": 1640,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Hume's boobook"
+    },
+    {
+      "name": "Alor boobook",
+      "aliases": [
+        "Ninox plesseni"
+      ],
+      "popularity": 1651,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Alor boobook"
+    },
+    {
+      "name": "Red-chested owlet",
+      "aliases": [
+        "Glaucidium tephronotum"
+      ],
+      "popularity": 1685,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Red-chested owlet"
+    },
+    {
+      "name": "East Brazilian pygmy owl",
+      "aliases": [
+        "Glaucidium minutissimum"
+      ],
+      "popularity": 1700,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "East Brazilian pygmy owl"
+    },
+    {
+      "name": "Albertine owlet",
+      "aliases": [
+        "Glaucidium albertinum"
+      ],
+      "popularity": 1721,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Albertine owlet"
+    },
+    {
+      "name": "Pacific pygmy owl",
+      "aliases": [
+        "Glaucidium peruanum"
+      ],
+      "popularity": 1733,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Pacific pygmy owl"
+    },
+    {
+      "name": "Principe scops owl",
+      "aliases": [
+        "Otus bikegila"
+      ],
+      "popularity": 1734,
+      "rarity": 0.601,
+      "tier": 4,
+      "wiki": "Principe scops owl"
+    },
+    {
+      "name": "White-fronted scops owl",
+      "aliases": [
+        "Otus sagittatus"
+      ],
+      "popularity": 1746,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "White-fronted scops owl"
+    },
+    {
+      "name": "Bearded screech owl",
+      "aliases": [
+        "Megascops barbarus",
+        "Otus barbarus"
+      ],
+      "popularity": 1773,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Bearded screech owl"
+    },
+    {
+      "name": "Javan scops owl",
+      "aliases": [
+        "Otus angelinae"
+      ],
+      "popularity": 1791,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Javan scops owl"
+    },
+    {
+      "name": "Cloud-forest pygmy owl",
+      "aliases": [
+        "Glaucidium nubicola"
+      ],
+      "popularity": 1815,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Cloud-forest pygmy owl"
+    },
+    {
+      "name": "Long-tufted screech owl",
+      "aliases": [
+        "Megascops sanctaecatarinae"
+      ],
+      "popularity": 1829,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Long-tufted screech owl"
+    },
+    {
+      "name": "Flores scops owl",
+      "aliases": [
+        "Otus alfredi"
+      ],
+      "popularity": 1877,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Flores scops owl"
+    },
+    {
+      "name": "Javan owlet",
+      "aliases": [
+        "Glaucidium castanopterum"
+      ],
+      "popularity": 1885,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Javan owlet"
+    },
+    {
+      "name": "Rufous fishing owl",
+      "aliases": [
+        "Scotopelia ussheri"
+      ],
+      "popularity": 1893,
+      "rarity": 0.57,
+      "tier": 3,
+      "wiki": "Rufous fishing owl"
+    },
+    {
+      "name": "Anjouan scops owl",
+      "aliases": [
+        "Otus capnodes"
+      ],
+      "popularity": 1897,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Anjouan scops owl"
+    },
+    {
+      "name": "Ryūkyū scops owl",
+      "aliases": [
+        "Elegant Scops Owl",
+        "Otus elegans"
+      ],
+      "popularity": 1913,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Ryūkyū scops owl"
+    },
+    {
+      "name": "Middle American screech owl",
+      "aliases": [
+        "Megascops guatemalae",
+        "Otus vermiculatus"
+      ],
+      "popularity": 1933,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Middle American screech owl"
+    },
+    {
+      "name": "Vermiculated fishing owl",
+      "aliases": [
+        "Scotopelia bouvieri"
+      ],
+      "popularity": 1935,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Vermiculated fishing owl"
+    },
+    {
+      "name": "Pacific screech owl",
+      "aliases": [
+        "Megascops cooperi",
+        "Otus cooperii"
+      ],
+      "popularity": 1960,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Pacific screech owl"
+    },
+    {
+      "name": "Andaman boobook",
+      "aliases": [
+        "Andaman Hawk-Owl",
+        "Ninox affinis"
+      ],
+      "popularity": 2017,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Andaman boobook"
+    },
+    {
+      "name": "Mountain scops owl",
+      "aliases": [
+        "Otus spilocephalus"
+      ],
+      "popularity": 2025,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Mountain scops owl"
+    },
+    {
+      "name": "White-browed owl",
+      "aliases": [
+        "Athene superciliaris",
+        "White-browed Hawk-Owl"
+      ],
+      "popularity": 2028,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "White-browed owl"
+    },
+    {
+      "name": "Amazonian pygmy owl",
+      "aliases": [
+        "Glaucidium hardyi"
+      ],
+      "popularity": 2031,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Amazonian pygmy owl"
+    },
+    {
+      "name": "Rinjani scops owl",
+      "aliases": [
+        "Otus jolandae"
+      ],
+      "popularity": 2076,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Rinjani scops owl"
+    },
+    {
+      "name": "Chestnut-backed owlet",
+      "aliases": [
+        "Glaucidium castanonotum",
+        "Glaucidium castanotum"
+      ],
+      "popularity": 2082,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Chestnut-backed owlet"
+    },
+    {
+      "name": "Seychelles scops owl",
+      "aliases": [
+        "Otus insularis"
+      ],
+      "popularity": 2089,
+      "rarity": 0.525,
+      "tier": 3,
+      "wiki": "Seychelles scops owl"
+    },
+    {
+      "name": "Cyprus scops owl",
+      "aliases": [
+        "Otus cyprius"
+      ],
+      "popularity": 2096,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Cyprus scops owl"
+    },
+    {
+      "name": "Luzon boobook",
+      "aliases": [
+        "Luzon Hawk-Owl",
+        "Ninox philippensis"
+      ],
+      "popularity": 2233,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Luzon boobook"
+    },
+    {
+      "name": "Chocolate boobook",
+      "aliases": [
+        "Ninox randi"
+      ],
+      "popularity": 2239,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Chocolate boobook"
+    },
+    {
+      "name": "Pallid scops owl",
+      "aliases": [
+        "Otus brucei"
+      ],
+      "popularity": 2276,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Pallid scops owl"
+    },
+    {
+      "name": "Cebu boobook",
+      "aliases": [
+        "Cebu Hawk-Owl",
+        "Ninox rumseyi"
+      ],
+      "popularity": 2306,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Cebu boobook"
+    },
+    {
+      "name": "Rusty-barred owl",
+      "aliases": [
+        "Strix hylophila"
+      ],
+      "popularity": 2376,
+      "rarity": 0.502,
+      "tier": 3,
+      "wiki": "Rusty-barred owl"
+    },
+    {
+      "name": "Madagascar owl",
+      "aliases": [
+        "Asio madagascariensis"
+      ],
+      "popularity": 2389,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Madagascar owl"
+    },
+    {
+      "name": "Papuan hawk-owl",
+      "aliases": [
+        "Uroglaux dimorpha"
+      ],
+      "popularity": 2405,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Papuan hawk-owl"
+    },
+    {
+      "name": "Sunda scops owl",
+      "aliases": [
+        "Otus lempiji"
+      ],
+      "popularity": 2481,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Sunda scops owl"
+    },
+    {
+      "name": "Maned owl",
+      "aliases": [
+        "Jubula lettii"
+      ],
+      "popularity": 2489,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Maned owl"
+    },
+    {
+      "name": "Cinereous owl",
+      "aliases": [
+        "Mexican barred owl",
+        "Strix sartorii"
+      ],
+      "popularity": 2503,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Cinereous owl"
+    },
+    {
+      "name": "Rufous-banded owl",
+      "aliases": [
+        "Strix albitarsis",
+        "Strix albitarsus"
+      ],
+      "popularity": 2565,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Rufous-banded owl"
+    },
+    {
+      "name": "Tyto robusta",
+      "aliases": [],
+      "popularity": 2626,
+      "rarity": 0.475,
+      "tier": 3,
+      "wiki": "Tyto robusta"
+    },
+    {
+      "name": "Christmas boobook",
+      "aliases": [
+        "Christmas hawk-owl",
+        "Ninox natalis"
+      ],
+      "popularity": 2650,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Christmas boobook"
+    },
+    {
+      "name": "Bare-legged owl",
+      "aliases": [
+        "Margarobyas lawrencii"
+      ],
+      "popularity": 2716,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Bare-legged owl"
+    },
+    {
+      "name": "Rufous-legged owl",
+      "aliases": [
+        "concon",
+        "Strix rufipes"
+      ],
+      "popularity": 2817,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Rufous-legged owl"
+    },
+    {
+      "name": "Unspotted saw-whet owl",
+      "aliases": [
+        "Aegolius ridgwayi"
+      ],
+      "popularity": 2917,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Unspotted saw-whet owl"
+    },
+    {
+      "name": "Akun eagle-owl",
+      "aliases": [
+        "Ketupa leucosticta"
+      ],
+      "popularity": 2939,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Akun eagle-owl"
+    },
+    {
+      "name": "African barred owlet",
+      "aliases": [
+        "Glaucidium capense"
+      ],
+      "popularity": 2983,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "African barred owlet"
+    },
+    {
+      "name": "Manus masked owl",
+      "aliases": [
+        "Tyto manusi"
+      ],
+      "popularity": 3018,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Manus masked owl"
+    },
+    {
+      "name": "Buff-fronted owl",
+      "aliases": [
+        "Aegolius harrisii"
+      ],
+      "popularity": 3052,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Buff-fronted owl"
+    },
+    {
+      "name": "Chaco owl",
+      "aliases": [
+        "Strix chacoensis"
+      ],
+      "popularity": 3079,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Chaco owl"
+    },
+    {
+      "name": "Mountain pygmy owl",
+      "aliases": [
+        "Glaucidium gnoma"
+      ],
+      "popularity": 3092,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Mountain pygmy owl"
+    },
+    {
+      "name": "Sokoke scops owl",
+      "aliases": [
+        "Otus ireneae"
+      ],
+      "popularity": 3101,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Sokoke scops owl"
+    },
+    {
+      "name": "Fraser's eagle-owl",
+      "aliases": [
+        "Bubo poensis",
+        "Fraserís eagle-owl"
+      ],
+      "popularity": 3129,
+      "rarity": 0.43,
+      "tier": 3,
+      "wiki": "Fraser's eagle-owl"
+    },
+    {
+      "name": "Shelley's eagle-owl",
+      "aliases": [
+        "Bubo shelleyi"
+      ],
+      "popularity": 3154,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Shelley's eagle-owl"
+    },
+    {
+      "name": "Fulvous owl",
+      "aliases": [
+        "Strix fulvescens"
+      ],
+      "popularity": 3158,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Fulvous owl"
+    },
+    {
+      "name": "Giant scops owl",
+      "aliases": [
+        "Otus gurneyi"
+      ],
+      "popularity": 3179,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Giant scops owl"
+    },
+    {
+      "name": "Sulawesi masked owl",
+      "aliases": [
+        "Tyto rosenbergi",
+        "Tyto rosenbergii"
+      ],
+      "popularity": 3356,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Sulawesi masked owl"
+    },
+    {
+      "name": "Fearful owl",
+      "aliases": [
+        "Nesasio solomonensis"
+      ],
+      "popularity": 3379,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Fearful owl"
+    },
+    {
+      "name": "Tamaulipas pygmy owl",
+      "aliases": [
+        "Glaucidium sanchezi"
+      ],
+      "popularity": 3470,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Tamaulipas pygmy owl"
+    },
+    {
+      "name": "Abyssinian owl",
+      "aliases": [
+        "Asio abyssinicus"
+      ],
+      "popularity": 3513,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Abyssinian owl"
+    },
+    {
+      "name": "Jamaican owl",
+      "aliases": [
+        "Pseudoscops grammicus"
+      ],
+      "popularity": 3514,
+      "rarity": 0.399,
+      "tier": 2,
+      "wiki": "Jamaican owl"
+    },
+    {
+      "name": "Moheli scops owl",
+      "aliases": [
+        "Otus moheliensis"
+      ],
+      "popularity": 3520,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Moheli scops owl"
+    },
+    {
+      "name": "Greyish eagle-owl",
+      "aliases": [
+        "Bubo cinerascens"
+      ],
+      "popularity": 3710,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Greyish eagle-owl"
+    },
+    {
+      "name": "Omani owl",
+      "aliases": [
+        "Hume's Owl",
+        "Strix butleri"
+      ],
+      "popularity": 3788,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Omani owl"
+    },
+    {
+      "name": "Moluccan masked owl",
+      "aliases": [
+        "Tyto sorocula",
+        "Tyto sororcula"
+      ],
+      "popularity": 3791,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Moluccan masked owl"
+    },
+    {
+      "name": "Austral pygmy owl",
+      "aliases": [
+        "Glaucidium nana",
+        "Glaucidium nanum"
+      ],
+      "popularity": 3813,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Austral pygmy owl"
+    },
+    {
+      "name": "Tasmanian boobook",
+      "aliases": [
+        "Ninox leucopsis"
+      ],
+      "popularity": 3837,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Tasmanian boobook"
+    },
+    {
+      "name": "Collared owlet",
+      "aliases": [
+        "Glaucidium brodiei"
+      ],
+      "popularity": 3838,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Collared owlet"
+    },
+    {
+      "name": "Maghreb owl",
+      "aliases": [
+        "Strix aluco mauritanica",
+        "Strix mauritanica"
+      ],
+      "popularity": 3848,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Maghreb owl"
+    },
+    {
+      "name": "Himalayan owl",
+      "aliases": [
+        "Strix nivicola",
+        "Strix nivicolum"
+      ],
+      "popularity": 3966,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Himalayan owl"
+    },
+    {
+      "name": "Pernambuco pygmy owl",
+      "aliases": [
+        "Glaucidium mooreorum"
+      ],
+      "popularity": 4020,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Pernambuco pygmy owl"
+    },
+    {
+      "name": "Sri Lanka bay owl",
+      "aliases": [
+        "Phodilus assimilis"
+      ],
+      "popularity": 4028,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Sri Lanka bay owl"
+    },
+    {
+      "name": "Tropical screech owl",
+      "aliases": [
+        "Megascops choliba",
+        "Otus choliba"
+      ],
+      "popularity": 4140,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Tropical screech owl"
+    },
+    {
+      "name": "Taliabu masked owl",
+      "aliases": [
+        "sula islands barn owl",
+        "taliabu owl",
+        "Tyto nigrobrunnea"
+      ],
+      "popularity": 4173,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Taliabu masked owl"
+    },
+    {
+      "name": "African wood owl",
+      "aliases": [
+        "Strix woodfordii"
+      ],
+      "popularity": 4265,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "African wood owl"
+    },
+    {
+      "name": "Itombwe owl",
+      "aliases": [
+        "Congo bay owl",
+        "Phodilus prigoginei"
+      ],
+      "popularity": 4312,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Itombwe owl"
+    },
+    {
+      "name": "Serendib scops owl",
+      "aliases": [
+        "Otus thilohoffmanni"
+      ],
+      "popularity": 4338,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Serendib scops owl"
+    },
+    {
+      "name": "Collared scops owl",
+      "aliases": [
+        "Otus lettia"
+      ],
+      "popularity": 4352,
+      "rarity": 0.335,
+      "tier": 2,
+      "wiki": "Collared scops owl"
+    },
+    {
+      "name": "Tasmanian masked owl",
+      "aliases": [
+        "Tyto castanops"
+      ],
+      "popularity": 4386,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Tasmanian masked owl"
+    },
+    {
+      "name": "Whiskered screech owl",
+      "aliases": [
+        "Megascops trichopsis",
+        "Otus trichopsis"
+      ],
+      "popularity": 4502,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Whiskered screech owl"
+    },
+    {
+      "name": "Arabian eagle-owl",
+      "aliases": [
+        "Bubo milesi"
+      ],
+      "popularity": 4548,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Arabian eagle-owl"
+    },
+    {
+      "name": "Dusky eagle-owl",
+      "aliases": [
+        "Bubo coromandus"
+      ],
+      "popularity": 4782,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Dusky eagle-owl"
+    },
+    {
+      "name": "Jungle owlet",
+      "aliases": [
+        "Glaucidium radiatum"
+      ],
+      "popularity": 4892,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Jungle owlet"
+    },
+    {
+      "name": "Mottled owl",
+      "aliases": [
+        "Strix virgata"
+      ],
+      "popularity": 4917,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "Mottled owl"
+    },
+    {
+      "name": "Black-and-white owl",
+      "aliases": [
+        "Strix nigrolineata"
+      ],
+      "popularity": 5057,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Black-and-white owl"
+    },
+    {
+      "name": "Asian barred owlet",
+      "aliases": [
+        "Glaucidium cuculoides"
+      ],
+      "popularity": 5087,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Asian barred owlet"
+    },
+    {
+      "name": "Minahasa masked owl",
+      "aliases": [
+        "minahasa barn owl",
+        "sulawesi golden owl",
+        "sulawesi owl",
+        "Tyto inexspectata"
+      ],
+      "popularity": 5094,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Minahasa masked owl"
+    },
+    {
+      "name": "Northern boobook",
+      "aliases": [
+        "Ninox japonica",
+        "Northern Boobok"
+      ],
+      "popularity": 5106,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Northern boobook"
+    },
+    {
+      "name": "Pearl-spotted owlet",
+      "aliases": [
+        "Glaucidium perlatum"
+      ],
+      "popularity": 5190,
+      "rarity": 0.293,
+      "tier": 2,
+      "wiki": "Pearl-spotted owlet"
+    },
+    {
+      "name": "African scops owl",
+      "aliases": [
+        "Otus senegalensis"
+      ],
+      "popularity": 5253,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "African scops owl"
+    },
+    {
+      "name": "Oriental scops owl",
+      "aliases": [
+        "Otus sunia"
+      ],
+      "popularity": 5322,
+      "rarity": 0.285,
+      "tier": 2,
+      "wiki": "Oriental scops owl"
+    },
+    {
+      "name": "Tawny fish owl",
+      "aliases": [
+        "Ketupa flavipes"
+      ],
+      "popularity": 5327,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Tawny fish owl"
+    },
+    {
+      "name": "Southern white-faced owl",
+      "aliases": [
+        "Ptilopsis granti"
+      ],
+      "popularity": 5398,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Southern white-faced owl"
+    },
+    {
+      "name": "Siau scops owl",
+      "aliases": [
+        "Otus siaoensis"
+      ],
+      "popularity": 5484,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Siau scops owl"
+    },
+    {
+      "name": "Spotted wood owl",
+      "aliases": [
+        "Strix seloputo"
+      ],
+      "popularity": 5525,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Spotted wood owl"
+    },
+    {
+      "name": "Crested owl",
+      "aliases": [
+        "Lophostrix cristata"
+      ],
+      "popularity": 5614,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "Crested owl"
+    },
+    {
+      "name": "Philippine scops owl",
+      "aliases": [
+        "Otus megalotis"
+      ],
+      "popularity": 5654,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Philippine scops owl"
+    },
+    {
+      "name": "Golden masked owl",
+      "aliases": [
+        "Tyto aurantia"
+      ],
+      "popularity": 5914,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Golden masked owl"
+    },
+    {
+      "name": "Striped owl",
+      "aliases": [
+        "Asio clamator"
+      ],
+      "popularity": 5943,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Striped owl"
+    },
+    {
+      "name": "Marsh owl",
+      "aliases": [
+        "Asio capensis"
+      ],
+      "popularity": 5985,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Marsh owl"
+    },
+    {
+      "name": "Indian scops owl",
+      "aliases": [
+        "Otus bakkamoena"
+      ],
+      "popularity": 6102,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Indian scops owl"
+    },
+    {
+      "name": "Japanese scops owl",
+      "aliases": [
+        "Otus semitorques"
+      ],
+      "popularity": 6104,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Japanese scops owl"
+    },
+    {
+      "name": "Rufous owl",
+      "aliases": [
+        "Ninox rufa"
+      ],
+      "popularity": 6202,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Rufous owl"
+    },
+    {
+      "name": "Long-whiskered owlet",
+      "aliases": [
+        "Xenoglaux loweryi"
+      ],
+      "popularity": 6421,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Long-whiskered owlet"
+    },
+    {
+      "name": "Puerto Rican owl",
+      "aliases": [
+        "Megascops nudipes",
+        "Otus nudipes",
+        "Puerto Rican Screech Owl"
+      ],
+      "popularity": 6765,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Puerto Rican owl"
+    },
+    {
+      "name": "Brown wood owl",
+      "aliases": [
+        "Strix leptogrammica"
+      ],
+      "popularity": 6839,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Brown wood owl"
+    },
+    {
+      "name": "Desert owl",
+      "aliases": [
+        "Desert tawny owl",
+        "Strix hadorami"
+      ],
+      "popularity": 7104,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Desert owl"
+    },
+    {
+      "name": "Brown boobook",
+      "aliases": [
+        "Ninox scutulata"
+      ],
+      "popularity": 7301,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Brown boobook"
+    },
+    {
+      "name": "Cape eagle-owl",
+      "aliases": [
+        "Bubo capensis"
+      ],
+      "popularity": 7355,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Cape eagle-owl"
+    },
+    {
+      "name": "Black-banded owl",
+      "aliases": [
+        "Strix huhula"
+      ],
+      "popularity": 7460,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Black-banded owl"
+    },
+    {
+      "name": "Pel's fishing owl",
+      "aliases": [
+        "Pelís fishing-owl",
+        "Scotopelia peli"
+      ],
+      "popularity": 7726,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Pel's fishing owl"
+    },
+    {
+      "name": "Mottled wood owl",
+      "aliases": [
+        "Strix ocellata"
+      ],
+      "popularity": 7886,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Mottled wood owl"
+    },
+    {
+      "name": "Ashy-faced owl",
+      "aliases": [
+        "Tyto glaucops"
+      ],
+      "popularity": 7982,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Ashy-faced owl"
+    },
+    {
+      "name": "Lesser sooty owl",
+      "aliases": [
+        "Tyto multipunctata"
+      ],
+      "popularity": 8508,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Lesser sooty owl"
+    },
+    {
+      "name": "African grass owl",
+      "aliases": [
+        "Tyto capensis"
+      ],
+      "popularity": 8820,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "African grass owl"
+    },
+    {
+      "name": "Oriental bay owl",
+      "aliases": [
+        "Phodilus badius"
+      ],
+      "popularity": 8822,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Oriental bay owl"
+    },
+    {
+      "name": "Buffy fish owl",
+      "aliases": [
+        "Ketupa ketupu",
+        "Malay fish owl"
+      ],
+      "popularity": 9165,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "Buffy fish owl"
+    },
+    {
+      "name": "Eastern grass owl",
+      "aliases": [
+        "Australasian Grass-Owl",
+        "Tyto longimembris"
+      ],
+      "popularity": 9217,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Eastern grass owl"
+    },
+    {
+      "name": "Flammulated owl",
+      "aliases": [
+        "Psiloscops flammeolus"
+      ],
+      "popularity": 9330,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Flammulated owl"
+    },
+    {
+      "name": "Ferruginous pygmy owl",
+      "aliases": [
+        "Glaucidium brasilianum"
+      ],
+      "popularity": 9414,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Ferruginous pygmy owl"
+    },
+    {
+      "name": "Barred eagle-owl",
+      "aliases": [
+        "Bubo sumatranus",
+        "Malay Eagle-owl"
+      ],
+      "popularity": 9500,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Barred eagle-owl"
+    },
+    {
+      "name": "Northern pygmy owl",
+      "aliases": [
+        "Glaucidium californicum"
+      ],
+      "popularity": 9877,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Northern pygmy owl"
+    },
+    {
+      "name": "Philippine eagle-owl",
+      "aliases": [
+        "Bubo philippensis"
+      ],
+      "popularity": 10342,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Philippine eagle-owl"
+    },
+    {
+      "name": "Australian masked owl",
+      "aliases": [
+        "Tyto novaehollandiae"
+      ],
+      "popularity": 10690,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Australian masked owl"
+    },
+    {
+      "name": "Spot-bellied eagle-owl",
+      "aliases": [
+        "Bubo nipalensis"
+      ],
+      "popularity": 10974,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Spot-bellied eagle-owl"
+    },
+    {
+      "name": "Red owl",
+      "aliases": [
+        "Madagascar red owl",
+        "Tyto soumagnei"
+      ],
+      "popularity": 11128,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Red owl"
+    },
+    {
+      "name": "Andaman masked owl",
+      "aliases": [
+        "Tyto deroepstorffi"
+      ],
+      "popularity": 11587,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Andaman masked owl"
+    },
+    {
+      "name": "Eurasian pygmy owl",
+      "aliases": [
+        "Eurasian Pygmy Owlet",
+        "Glaucidium passerinum"
+      ],
+      "popularity": 11865,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Eurasian pygmy owl"
+    },
+    {
+      "name": "Brown fish owl",
+      "aliases": [
+        "Ketupa zeylonensis"
+      ],
+      "popularity": 11911,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Brown fish owl"
+    },
+    {
+      "name": "Western screech owl",
+      "aliases": [
+        "Megascops kennicottii",
+        "Otus kennicotti"
+      ],
+      "popularity": 12980,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Western screech owl"
+    },
+    {
+      "name": "Barking owl",
+      "aliases": [
+        "Ninox connivens"
+      ],
+      "popularity": 13040,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Barking owl"
+    },
+    {
+      "name": "Northern white-faced owl",
+      "aliases": [
+        "African Great-horned Owl",
+        "Ptilopsis leucotis"
+      ],
+      "popularity": 13076,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Northern white-faced owl"
+    },
+    {
+      "name": "Spotted owlet",
+      "aliases": [
+        "Athene brama"
+      ],
+      "popularity": 14045,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Spotted owlet"
+    },
+    {
+      "name": "Spectacled owl",
+      "aliases": [
+        "Pulsatrix perspicillata"
+      ],
+      "popularity": 14591,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Spectacled owl"
+    },
+    {
+      "name": "Spotted eagle-owl",
+      "aliases": [
+        "Bubo africanus"
+      ],
+      "popularity": 14660,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Spotted eagle-owl"
+    },
+    {
+      "name": "Indian eagle-owl",
+      "aliases": [
+        "Bubo bengalensis"
+      ],
+      "popularity": 17158,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Indian eagle-owl"
+    },
+    {
+      "name": "Pharaoh eagle-owl",
+      "aliases": [
+        "Bubo ascalaphus"
+      ],
+      "popularity": 17319,
+      "rarity": 0.11,
+      "tier": 1,
+      "wiki": "Pharaoh eagle-owl"
+    },
+    {
+      "name": "Greater sooty owl",
+      "aliases": [
+        "Tyto tenebricosa"
+      ],
+      "popularity": 18087,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Greater sooty owl"
+    },
+    {
+      "name": "Stygian owl",
+      "aliases": [
+        "Asio stygius"
+      ],
+      "popularity": 18808,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Stygian owl"
+    },
+    {
+      "name": "Forest owlet",
+      "aliases": [
+        "Athene blewitti"
+      ],
+      "popularity": 19526,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Forest owlet"
+    },
+    {
+      "name": "Verreaux's eagle-owl",
+      "aliases": [
+        "Bubo lacteus",
+        "Giant eagle-owl",
+        "milky eagle owl"
+      ],
+      "popularity": 21663,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Verreaux's eagle-owl"
+    },
+    {
+      "name": "Ural owl",
+      "aliases": [
+        "Strix uralensis"
+      ],
+      "popularity": 26826,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Ural owl"
+    },
+    {
+      "name": "Boreal owl",
+      "aliases": [
+        "Aegolius funereus",
+        "Tengmalm's Owl"
+      ],
+      "popularity": 27570,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Boreal owl"
+    },
+    {
+      "name": "Australian boobook",
+      "aliases": [
+        "Ninox boobook",
+        "Southern Boobook"
+      ],
+      "popularity": 31581,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Australian boobook"
+    },
+    {
+      "name": "Northern hawk-owl",
+      "aliases": [
+        "Hawk Owl",
+        "Surnia ulula"
+      ],
+      "popularity": 33985,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Northern hawk-owl"
+    },
+    {
+      "name": "Eastern barn owl",
+      "aliases": [
+        "Tyto javanica"
+      ],
+      "popularity": 36844,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Eastern barn owl"
+    },
+    {
+      "name": "Spotted owl",
+      "aliases": [
+        "Strix occidentalis"
+      ],
+      "popularity": 37323,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Spotted owl"
+    },
+    {
+      "name": "Powerful owl",
+      "aliases": [
+        "Ninox strenua"
+      ],
+      "popularity": 37584,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Powerful owl"
+    },
+    {
+      "name": "Eurasian scops owl",
+      "aliases": [
+        "Common scops-owl",
+        "Otus scops",
+        "Scops owl"
+      ],
+      "popularity": 37693,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Eurasian scops owl"
+    },
+    {
+      "name": "Morepork",
+      "aliases": [
+        "Ninox novaeseelandiae"
+      ],
+      "popularity": 38989,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Morepork"
+    },
+    {
+      "name": "Elf owl",
+      "aliases": [
+        "Micrathene whitneyi"
+      ],
+      "popularity": 39708,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Elf owl"
+    },
+    {
+      "name": "Short-eared owl",
+      "aliases": [
+        "Asio flammeus"
+      ],
+      "popularity": 44585,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Short-eared owl"
+    },
+    {
+      "name": "Eastern screech owl",
+      "aliases": [
+        "Megascops asio",
+        "Otus asio"
+      ],
+      "popularity": 46756,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Eastern screech owl"
+    },
+    {
+      "name": "Northern saw-whet owl",
+      "aliases": [
+        "Aegolius acadicus"
+      ],
+      "popularity": 48334,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Northern saw-whet owl"
+    },
+    {
+      "name": "Long-eared owl",
+      "aliases": [
+        "Asio otus",
+        "cat owl",
+        "northern long-eared owl"
+      ],
+      "popularity": 66197,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Long-eared owl"
+    },
+    {
+      "name": "Blakiston's fish owl",
+      "aliases": [
+        "Blakiston`s Eagle Owl",
+        "Bubo blakistoni",
+        "Ketupa blakistoni"
+      ],
+      "popularity": 67871,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Blakiston's fish owl"
+    },
+    {
+      "name": "American barn owl",
+      "aliases": [
+        "Tyto furcata"
+      ],
+      "popularity": 76321,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "American barn owl"
+    },
+    {
+      "name": "Little owl",
+      "aliases": [
+        "Athene noctua"
+      ],
+      "popularity": 86844,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Little owl"
+    },
+    {
+      "name": "Western barn owl",
+      "aliases": [
+        "barn owl",
+        "barnowl",
+        "common barn-owl",
+        "Strix alba",
+        "Tyto alba",
+        "white houlet"
+      ],
+      "popularity": 87353,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Western barn owl"
+    },
+    {
+      "name": "Great grey owl",
+      "aliases": [
+        "Strix nebulosa"
+      ],
+      "popularity": 90147,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Great grey owl"
+    },
+    {
+      "name": "Tawny owl",
+      "aliases": [
+        "brown owl",
+        "Strix aluco"
+      ],
+      "popularity": 128176,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Tawny owl"
+    },
+    {
+      "name": "Burrowing owl",
+      "aliases": [
+        "Athene cunicularia"
+      ],
+      "popularity": 141233,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Burrowing owl"
+    },
+    {
+      "name": "Snowy owl",
+      "aliases": [
+        "Arctic owl",
+        "Bubo scandiacus",
+        "Nyctea scandiaca",
+        "polar owl",
+        "white owl"
+      ],
+      "popularity": 203123,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Snowy owl"
+    },
+    {
+      "name": "Eurasian eagle-owl",
+      "aliases": [
+        "Bubo bubo"
+      ],
+      "popularity": 220465,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Eurasian eagle-owl"
+    },
+    {
+      "name": "Barred owl",
+      "aliases": [
+        "Strix varia"
+      ],
+      "popularity": 221444,
+      "rarity": 0.004,
+      "tier": 1,
+      "wiki": "Barred owl"
+    },
+    {
+      "name": "Great horned owl",
+      "aliases": [
+        "Bubo virginianus",
+        "Tiger Owl"
+      ],
+      "popularity": 274016,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Great horned owl"
+    }
+  ]
+}

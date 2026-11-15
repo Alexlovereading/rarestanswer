@@ -1,0 +1,6110 @@
+{
+  "id": "string-instruments",
+  "slug": "string-instruments",
+  "category": "music",
+  "question": "Name a string instrument",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "ESP Ltd VB-400 Baritone",
+      "aliases": [],
+      "popularity": 4,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "ESP Ltd VB-400 Baritone"
+    },
+    {
+      "name": "ESP Sunburst Tiger",
+      "aliases": [],
+      "popularity": 15,
+      "rarity": 0.998,
+      "tier": 6,
+      "wiki": "ESP Sunburst Tiger"
+    },
+    {
+      "name": "ESP Skulls & Snakes",
+      "aliases": [],
+      "popularity": 16,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "ESP Skulls & Snakes"
+    },
+    {
+      "name": "ESP Ron Wood",
+      "aliases": [],
+      "popularity": 18,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "ESP Ron Wood"
+    },
+    {
+      "name": "Ibanez AS73",
+      "aliases": [],
+      "popularity": 25,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Ibanez AS73"
+    },
+    {
+      "name": "ESP Signature Series",
+      "aliases": [],
+      "popularity": 27,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "ESP Signature Series"
+    },
+    {
+      "name": "ESP M-400",
+      "aliases": [],
+      "popularity": 31,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "ESP M-400"
+    },
+    {
+      "name": "ESP F-50",
+      "aliases": [],
+      "popularity": 33,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "ESP F-50"
+    },
+    {
+      "name": "Epiphone Alleykat",
+      "aliases": [],
+      "popularity": 40,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Epiphone Alleykat"
+    },
+    {
+      "name": "ESP Jeff Hanneman",
+      "aliases": [],
+      "popularity": 43,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "ESP Jeff Hanneman"
+    },
+    {
+      "name": "Mouth-bow",
+      "aliases": [
+        "mouthbow"
+      ],
+      "popularity": 55,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Mouth-bow"
+    },
+    {
+      "name": "ESP Stef-B7",
+      "aliases": [],
+      "popularity": 59,
+      "rarity": 0.983,
+      "tier": 6,
+      "wiki": "ESP Stef-B7"
+    },
+    {
+      "name": "Soprano ukulele",
+      "aliases": [
+        "standard ukulele"
+      ],
+      "popularity": 62,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Soprano ukulele"
+    },
+    {
+      "name": "ESP LTD SC-200",
+      "aliases": [],
+      "popularity": 68,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "ESP LTD SC-200"
+    },
+    {
+      "name": "ESP LTD SC-607",
+      "aliases": [],
+      "popularity": 70,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "ESP LTD SC-607"
+    },
+    {
+      "name": "Ibanez GAX30",
+      "aliases": [],
+      "popularity": 70,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Ibanez GAX30"
+    },
+    {
+      "name": "ESP LTD SC-607B",
+      "aliases": [],
+      "popularity": 72,
+      "rarity": 0.975,
+      "tier": 6,
+      "wiki": "ESP LTD SC-607B"
+    },
+    {
+      "name": "Vox Mando-Guitar",
+      "aliases": [
+        "mando-guitar",
+        "Octave twelve"
+      ],
+      "popularity": 72,
+      "rarity": 0.975,
+      "tier": 6,
+      "wiki": "Vox Mando-Guitar"
+    },
+    {
+      "name": "ESP F-10",
+      "aliases": [],
+      "popularity": 79,
+      "rarity": 0.972,
+      "tier": 6,
+      "wiki": "ESP F-10"
+    },
+    {
+      "name": "Jackson Zoraxe",
+      "aliases": [],
+      "popularity": 83,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Jackson Zoraxe"
+    },
+    {
+      "name": "ESP RZK Series",
+      "aliases": [],
+      "popularity": 85,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "ESP RZK Series"
+    },
+    {
+      "name": "Fender Mark Hoppus Jazz Bass",
+      "aliases": [],
+      "popularity": 85,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Fender Mark Hoppus Jazz Bass"
+    },
+    {
+      "name": "Fender Squier Precision Bass",
+      "aliases": [],
+      "popularity": 89,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Fender Squier Precision Bass"
+    },
+    {
+      "name": "Hammered chordophone",
+      "aliases": [],
+      "popularity": 91,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Hammered chordophone"
+    },
+    {
+      "name": "Eric Johnson Stratocaster",
+      "aliases": [
+        "Fender Eric Johnson Signature Stratocaster"
+      ],
+      "popularity": 117,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Eric Johnson Stratocaster"
+    },
+    {
+      "name": "Tenor ukulele",
+      "aliases": [],
+      "popularity": 121,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Tenor ukulele"
+    },
+    {
+      "name": "Riwana",
+      "aliases": [],
+      "popularity": 128,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Riwana"
+    },
+    {
+      "name": "ESP M-50",
+      "aliases": [],
+      "popularity": 134,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "ESP M-50"
+    },
+    {
+      "name": "ESP LTD M-1000",
+      "aliases": [],
+      "popularity": 148,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "ESP LTD M-1000"
+    },
+    {
+      "name": "Arpa llanera",
+      "aliases": [
+        "llanera harp"
+      ],
+      "popularity": 165,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Arpa llanera"
+    },
+    {
+      "name": "Fender Geddy Lee Jazz Bass",
+      "aliases": [],
+      "popularity": 166,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Fender Geddy Lee Jazz Bass"
+    },
+    {
+      "name": "Yngwie Malmsteen Stratocaster",
+      "aliases": [],
+      "popularity": 173,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Yngwie Malmsteen Stratocaster"
+    },
+    {
+      "name": "Gretsch Triple Jet",
+      "aliases": [],
+      "popularity": 175,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Gretsch Triple Jet"
+    },
+    {
+      "name": "Ibanez GR",
+      "aliases": [
+        "Ibanez Ghostrider series",
+        "Ibanez GR series"
+      ],
+      "popularity": 184,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Ibanez GR"
+    },
+    {
+      "name": "Music Man Sterling",
+      "aliases": [],
+      "popularity": 202,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Music Man Sterling"
+    },
+    {
+      "name": "Ibanez RG Prestige",
+      "aliases": [],
+      "popularity": 225,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Ibanez RG Prestige"
+    },
+    {
+      "name": "Bundengan",
+      "aliases": [],
+      "popularity": 235,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "Bundengan"
+    },
+    {
+      "name": "Misr veena",
+      "aliases": [],
+      "popularity": 266,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Misr veena"
+    },
+    {
+      "name": "Epiphone Les Paul 100",
+      "aliases": [
+        "Epiphone LP-100"
+      ],
+      "popularity": 270,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Epiphone Les Paul 100"
+    },
+    {
+      "name": "Fender Precision Bass Lyte",
+      "aliases": [
+        "Precision Bass Lyte"
+      ],
+      "popularity": 277,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Fender Precision Bass Lyte"
+    },
+    {
+      "name": "Tap guitar",
+      "aliases": [],
+      "popularity": 289,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Tap guitar"
+    },
+    {
+      "name": "ESP LTD SC-600",
+      "aliases": [],
+      "popularity": 295,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "ESP LTD SC-600"
+    },
+    {
+      "name": "Stagemaster",
+      "aliases": [
+        "Squier Stagemaster"
+      ],
+      "popularity": 297,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Stagemaster"
+    },
+    {
+      "name": "Starosvitska bandura",
+      "aliases": [],
+      "popularity": 315,
+      "rarity": 0.934,
+      "tier": 6,
+      "wiki": "Starosvitska bandura"
+    },
+    {
+      "name": "Music Man StingRay 5",
+      "aliases": [],
+      "popularity": 327,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Music Man StingRay 5"
+    },
+    {
+      "name": "Peavey Reactor",
+      "aliases": [
+        "Peavey Reactor series"
+      ],
+      "popularity": 336,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Peavey Reactor"
+    },
+    {
+      "name": "Fender Victor Bailey Jazz Bass",
+      "aliases": [],
+      "popularity": 337,
+      "rarity": 0.93,
+      "tier": 5,
+      "wiki": "Fender Victor Bailey Jazz Bass"
+    },
+    {
+      "name": "Bandolin (Trinidad)",
+      "aliases": [
+        "Trinidadian mandolin"
+      ],
+      "popularity": 342,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Bandolin (Trinidad)"
+    },
+    {
+      "name": "80-string koto",
+      "aliases": [
+        "hachijūgen"
+      ],
+      "popularity": 347,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "80-string koto"
+    },
+    {
+      "name": "Univox 'Lectra",
+      "aliases": [],
+      "popularity": 352,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Univox 'Lectra"
+    },
+    {
+      "name": "Rotte (instrument)",
+      "aliases": [
+        "Germanic lyre",
+        "round lyre"
+      ],
+      "popularity": 369,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Rotte (instrument)"
+    },
+    {
+      "name": "Jackson Phil Demmel Demmelition V",
+      "aliases": [],
+      "popularity": 376,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Jackson Phil Demmel Demmelition V"
+    },
+    {
+      "name": "Fender Jazz Bass V",
+      "aliases": [],
+      "popularity": 408,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Fender Jazz Bass V"
+    },
+    {
+      "name": "Kuriding",
+      "aliases": [
+        "Bungkau",
+        "kubing",
+        "turiding",
+        "uriding"
+      ],
+      "popularity": 417,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Kuriding"
+    },
+    {
+      "name": "Cylinder-back mandolin",
+      "aliases": [
+        "cylinder-back"
+      ],
+      "popularity": 418,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Cylinder-back mandolin"
+    },
+    {
+      "name": "Fender Precision Bass Plus",
+      "aliases": [],
+      "popularity": 418,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Fender Precision Bass Plus"
+    },
+    {
+      "name": "Dudumanku",
+      "aliases": [],
+      "popularity": 419,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Dudumanku"
+    },
+    {
+      "name": "ESP LTD TA-200",
+      "aliases": [],
+      "popularity": 420,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "ESP LTD TA-200"
+    },
+    {
+      "name": "Peavey Destiny",
+      "aliases": [
+        "Peavey Destiny series"
+      ],
+      "popularity": 422,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Peavey Destiny"
+    },
+    {
+      "name": "Inline chromatic harp",
+      "aliases": [],
+      "popularity": 429,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Inline chromatic harp"
+    },
+    {
+      "name": "Subu",
+      "aliases": [],
+      "popularity": 446,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Subu"
+    },
+    {
+      "name": "T'yngryng",
+      "aliases": [
+        "tïgrïk",
+        "tuŋkuř",
+        "tyngryn"
+      ],
+      "popularity": 446,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "T'yngryng"
+    },
+    {
+      "name": "Epiphone Demon V",
+      "aliases": [],
+      "popularity": 450,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Epiphone Demon V"
+    },
+    {
+      "name": "Nocaster",
+      "aliases": [
+        "Fender Nocaster"
+      ],
+      "popularity": 459,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Nocaster"
+    },
+    {
+      "name": "Nuzhe",
+      "aliases": [],
+      "popularity": 462,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Nuzhe"
+    },
+    {
+      "name": "Ibanez DMM1",
+      "aliases": [
+        "Ibanez Iceman DMM1"
+      ],
+      "popularity": 463,
+      "rarity": 0.901,
+      "tier": 5,
+      "wiki": "Ibanez DMM1"
+    },
+    {
+      "name": "Ibanez AF195 AV",
+      "aliases": [],
+      "popularity": 491,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Ibanez AF195 AV"
+    },
+    {
+      "name": "King Mortone",
+      "aliases": [],
+      "popularity": 503,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "King Mortone"
+    },
+    {
+      "name": "Double-neck guitar",
+      "aliases": [],
+      "popularity": 529,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Double-neck guitar"
+    },
+    {
+      "name": "Tritantri veena",
+      "aliases": [
+        "tritantri vina"
+      ],
+      "popularity": 540,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Tritantri veena"
+    },
+    {
+      "name": "Dakkari",
+      "aliases": [],
+      "popularity": 570,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Dakkari"
+    },
+    {
+      "name": "Ovation UKII",
+      "aliases": [
+        "Ovation Ultra Kaman"
+      ],
+      "popularity": 573,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Ovation UKII"
+    },
+    {
+      "name": "Fender Prophecy II Bass",
+      "aliases": [],
+      "popularity": 590,
+      "rarity": 0.89,
+      "tier": 5,
+      "wiki": "Fender Prophecy II Bass"
+    },
+    {
+      "name": "Kozobas",
+      "aliases": [],
+      "popularity": 604,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "Kozobas"
+    },
+    {
+      "name": "Qelutviaq",
+      "aliases": [
+        "kelutviaq"
+      ],
+      "popularity": 606,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Qelutviaq"
+    },
+    {
+      "name": "Hegelung",
+      "aliases": [],
+      "popularity": 621,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Hegelung"
+    },
+    {
+      "name": "Cithrinchen",
+      "aliases": [
+        "bell cittern",
+        "bell guittern",
+        "Hamburg cithrinchen",
+        "Hamburger cithrinchen"
+      ],
+      "popularity": 623,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Cithrinchen"
+    },
+    {
+      "name": "Fender Contemporary Stratocaster",
+      "aliases": [
+        "Fender Contemporary Stratocaster Japan"
+      ],
+      "popularity": 634,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Fender Contemporary Stratocaster"
+    },
+    {
+      "name": "Viola da Terceira",
+      "aliases": [
+        "viola terceira"
+      ],
+      "popularity": 634,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Viola da Terceira"
+    },
+    {
+      "name": "Cellone",
+      "aliases": [
+        "sous-basse"
+      ],
+      "popularity": 651,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Cellone"
+    },
+    {
+      "name": "Viola beiroa",
+      "aliases": [],
+      "popularity": 651,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Viola beiroa"
+    },
+    {
+      "name": "Adjalin",
+      "aliases": [],
+      "popularity": 660,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Adjalin"
+    },
+    {
+      "name": "Charangon",
+      "aliases": [],
+      "popularity": 666,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Charangon"
+    },
+    {
+      "name": "Chagane",
+      "aliases": [],
+      "popularity": 683,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Chagane"
+    },
+    {
+      "name": "Simbing",
+      "aliases": [],
+      "popularity": 683,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Simbing"
+    },
+    {
+      "name": "Wooden jaw harp",
+      "aliases": [],
+      "popularity": 683,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Wooden jaw harp"
+    },
+    {
+      "name": "Khutang",
+      "aliases": [
+        "kiotang",
+        "Ostyak harp",
+        "shotang",
+        "sotang",
+        "taryghsyp yiv"
+      ],
+      "popularity": 688,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Khutang"
+    },
+    {
+      "name": "Janzi",
+      "aliases": [
+        "Janzi (musical instrument)"
+      ],
+      "popularity": 716,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Janzi (musical instrument)"
+    },
+    {
+      "name": "Apkhyarta",
+      "aliases": [],
+      "popularity": 733,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Apkhyarta"
+    },
+    {
+      "name": "Indian slide guitar",
+      "aliases": [],
+      "popularity": 761,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Indian slide guitar"
+    },
+    {
+      "name": "Viola de arame",
+      "aliases": [],
+      "popularity": 763,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Viola de arame"
+    },
+    {
+      "name": "Bass ukulele",
+      "aliases": [
+        "bassoukulele",
+        "ukulele bass"
+      ],
+      "popularity": 772,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Bass ukulele"
+    },
+    {
+      "name": "Kukkuma",
+      "aliases": [],
+      "popularity": 772,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Kukkuma"
+    },
+    {
+      "name": "Tokari",
+      "aliases": [],
+      "popularity": 772,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Tokari"
+    },
+    {
+      "name": "Huluhu",
+      "aliases": [],
+      "popularity": 773,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Huluhu"
+    },
+    {
+      "name": "Hagström Jimmy",
+      "aliases": [],
+      "popularity": 789,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Hagström Jimmy"
+    },
+    {
+      "name": "Cort MBC-1 Matthew Bellamy Signature",
+      "aliases": [],
+      "popularity": 801,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Cort MBC-1 Matthew Bellamy Signature"
+    },
+    {
+      "name": "Vitar violins",
+      "aliases": [
+        "Vi-Tar",
+        "vitar electronic violin"
+      ],
+      "popularity": 812,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Vitar violins"
+    },
+    {
+      "name": "Vintage V100MRPGM Lemon Drop",
+      "aliases": [],
+      "popularity": 824,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Vintage V100MRPGM Lemon Drop"
+    },
+    {
+      "name": "Viola toeira",
+      "aliases": [],
+      "popularity": 846,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Viola toeira"
+    },
+    {
+      "name": "Baritone ukulele",
+      "aliases": [],
+      "popularity": 848,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Baritone ukulele"
+    },
+    {
+      "name": "Bulgari",
+      "aliases": [
+        "boulgari",
+        "Bulgari (instrument)"
+      ],
+      "popularity": 850,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Bulgari (instrument)"
+    },
+    {
+      "name": "Krez",
+      "aliases": [
+        "Krez (instrument)"
+      ],
+      "popularity": 856,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Krez (instrument)"
+    },
+    {
+      "name": "Banjolin",
+      "aliases": [],
+      "popularity": 869,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Banjolin"
+    },
+    {
+      "name": "Dulce melos",
+      "aliases": [
+        "doucemelle"
+      ],
+      "popularity": 887,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Dulce melos"
+    },
+    {
+      "name": "Chiwang",
+      "aliases": [],
+      "popularity": 891,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Chiwang"
+    },
+    {
+      "name": "Viola de cocho",
+      "aliases": [],
+      "popularity": 892,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Viola de cocho"
+    },
+    {
+      "name": "Duitara",
+      "aliases": [],
+      "popularity": 907,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Duitara"
+    },
+    {
+      "name": "Home Swinger",
+      "aliases": [],
+      "popularity": 908,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Home Swinger"
+    },
+    {
+      "name": "Mi gyaung",
+      "aliases": [
+        "crocodile zither",
+        "kyam",
+        "mi gyaun"
+      ],
+      "popularity": 915,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Mi gyaung"
+    },
+    {
+      "name": "Genggong",
+      "aliases": [
+        "gamelan genggong"
+      ],
+      "popularity": 932,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "Genggong"
+    },
+    {
+      "name": "Harpsichord-viola",
+      "aliases": [],
+      "popularity": 937,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Harpsichord-viola"
+    },
+    {
+      "name": "Đàn tre",
+      "aliases": [],
+      "popularity": 939,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Đàn tre"
+    },
+    {
+      "name": "Chiterra sarda",
+      "aliases": [],
+      "popularity": 948,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Chiterra sarda"
+    },
+    {
+      "name": "Fender White Steel",
+      "aliases": [],
+      "popularity": 958,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Fender White Steel"
+    },
+    {
+      "name": "Magadis",
+      "aliases": [],
+      "popularity": 978,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Magadis"
+    },
+    {
+      "name": "Samica",
+      "aliases": [
+        "Samica (musical instrument)"
+      ],
+      "popularity": 1012,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Samica (musical instrument)"
+    },
+    {
+      "name": "Music Man Bongo",
+      "aliases": [],
+      "popularity": 1015,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Music Man Bongo"
+    },
+    {
+      "name": "Sorahi",
+      "aliases": [],
+      "popularity": 1017,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Sorahi"
+    },
+    {
+      "name": "African fiddle",
+      "aliases": [],
+      "popularity": 1028,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "African fiddle"
+    },
+    {
+      "name": "G-sharp guitar",
+      "aliases": [],
+      "popularity": 1033,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "G-sharp guitar"
+    },
+    {
+      "name": "Endingidi",
+      "aliases": [
+        "African violin",
+        "Fiddle String",
+        "tube fiddle"
+      ],
+      "popularity": 1040,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Endingidi"
+    },
+    {
+      "name": "Ngombi",
+      "aliases": [],
+      "popularity": 1056,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Ngombi"
+    },
+    {
+      "name": "Kankara sanshin",
+      "aliases": [],
+      "popularity": 1058,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Kankara sanshin"
+    },
+    {
+      "name": "Casio DG-20",
+      "aliases": [],
+      "popularity": 1097,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Casio DG-20"
+    },
+    {
+      "name": "Spinettone",
+      "aliases": [],
+      "popularity": 1106,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Spinettone"
+    },
+    {
+      "name": "Ardin",
+      "aliases": [
+        "Ardin (harp)"
+      ],
+      "popularity": 1132,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Ardin (harp)"
+    },
+    {
+      "name": "Chillador",
+      "aliases": [],
+      "popularity": 1150,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Chillador"
+    },
+    {
+      "name": "ESP Kirk Hammett",
+      "aliases": [],
+      "popularity": 1150,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "ESP Kirk Hammett"
+    },
+    {
+      "name": "Kingri",
+      "aliases": [
+        "Kingri (string instrument)"
+      ],
+      "popularity": 1150,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Kingri (string instrument)"
+    },
+    {
+      "name": "Donskoy ryley",
+      "aliases": [],
+      "popularity": 1180,
+      "rarity": 0.801,
+      "tier": 5,
+      "wiki": "Donskoy ryley"
+    },
+    {
+      "name": "Roland GR-1",
+      "aliases": [],
+      "popularity": 1190,
+      "rarity": 0.8,
+      "tier": 4,
+      "wiki": "Roland GR-1"
+    },
+    {
+      "name": "Multi-course harp",
+      "aliases": [
+        "double harp",
+        "double harps"
+      ],
+      "popularity": 1195,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Multi-course harp"
+    },
+    {
+      "name": "Ceterone",
+      "aliases": [
+        "arch-cittern",
+        "citara tiorbata",
+        "gross cither"
+      ],
+      "popularity": 1199,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Ceterone"
+    },
+    {
+      "name": "Daguangxian",
+      "aliases": [
+        "daguanxian",
+        "datongxian",
+        "guangxian"
+      ],
+      "popularity": 1199,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Daguangxian"
+    },
+    {
+      "name": "Leiqin",
+      "aliases": [],
+      "popularity": 1204,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Leiqin"
+    },
+    {
+      "name": "Pinaka veena",
+      "aliases": [
+        "Pennauck",
+        "Pinak",
+        "pināka vīnā",
+        "Pinaki vina"
+      ],
+      "popularity": 1206,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Pinaka veena"
+    },
+    {
+      "name": "Viola amarantina",
+      "aliases": [],
+      "popularity": 1206,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Viola amarantina"
+    },
+    {
+      "name": "Gallotone Champion Guitar",
+      "aliases": [
+        "Gallotone guitar"
+      ],
+      "popularity": 1214,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Gallotone Champion Guitar"
+    },
+    {
+      "name": "Ovation Viper",
+      "aliases": [],
+      "popularity": 1218,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Ovation Viper"
+    },
+    {
+      "name": "Viola campaniça",
+      "aliases": [],
+      "popularity": 1228,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Viola campaniça"
+    },
+    {
+      "name": "Bohemian harp",
+      "aliases": [],
+      "popularity": 1235,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Bohemian harp"
+    },
+    {
+      "name": "Pedal clavichord",
+      "aliases": [],
+      "popularity": 1240,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Pedal clavichord"
+    },
+    {
+      "name": "Banjeaurine",
+      "aliases": [
+        "banjorine"
+      ],
+      "popularity": 1303,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Banjeaurine"
+    },
+    {
+      "name": "Springtime",
+      "aliases": [
+        "Springtime (guitar)"
+      ],
+      "popularity": 1326,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Springtime (guitar)"
+    },
+    {
+      "name": "Alexander violin",
+      "aliases": [],
+      "popularity": 1348,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Alexander violin"
+    },
+    {
+      "name": "Ramkie",
+      "aliases": [
+        "Afri-can"
+      ],
+      "popularity": 1353,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Ramkie"
+    },
+    {
+      "name": "Danelectro C",
+      "aliases": [],
+      "popularity": 1411,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "Danelectro C"
+    },
+    {
+      "name": "Pin",
+      "aliases": [
+        "Khmer harp",
+        "Pin (harp)"
+      ],
+      "popularity": 1471,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Pin (harp)"
+    },
+    {
+      "name": "Electric viola",
+      "aliases": [],
+      "popularity": 1478,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "Electric viola"
+    },
+    {
+      "name": "Gibson L-7C",
+      "aliases": [],
+      "popularity": 1481,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Gibson L-7C"
+    },
+    {
+      "name": "Dean Soltero",
+      "aliases": [],
+      "popularity": 1484,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Dean Soltero"
+    },
+    {
+      "name": "American bass viol",
+      "aliases": [],
+      "popularity": 1491,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "American bass viol"
+    },
+    {
+      "name": "Lap steel ukulele",
+      "aliases": [],
+      "popularity": 1496,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Lap steel ukulele"
+    },
+    {
+      "name": "Dangubica",
+      "aliases": [],
+      "popularity": 1507,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Dangubica"
+    },
+    {
+      "name": "Kabosy",
+      "aliases": [],
+      "popularity": 1531,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Kabosy"
+    },
+    {
+      "name": "Rickenbacker 300 series",
+      "aliases": [],
+      "popularity": 1555,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Rickenbacker 300 series"
+    },
+    {
+      "name": "Ibanez RG2228",
+      "aliases": [],
+      "popularity": 1560,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Ibanez RG2228"
+    },
+    {
+      "name": "Ground bow",
+      "aliases": [
+        "earth bow",
+        "ground harp",
+        "kimbumba",
+        "tumbandera"
+      ],
+      "popularity": 1563,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Ground bow"
+    },
+    {
+      "name": "Fender J5 Telecaster",
+      "aliases": [],
+      "popularity": 1565,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Fender J5 Telecaster"
+    },
+    {
+      "name": "Kontigi",
+      "aliases": [
+        "kountigui"
+      ],
+      "popularity": 1572,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Kontigi"
+    },
+    {
+      "name": "Mandolute",
+      "aliases": [],
+      "popularity": 1585,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Mandolute"
+    },
+    {
+      "name": "Mute violin",
+      "aliases": [],
+      "popularity": 1624,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Mute violin"
+    },
+    {
+      "name": "Gibson ES-359",
+      "aliases": [],
+      "popularity": 1629,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Gibson ES-359"
+    },
+    {
+      "name": "Chuniri",
+      "aliases": [
+        "chianuri"
+      ],
+      "popularity": 1642,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Chuniri"
+    },
+    {
+      "name": "Zongora",
+      "aliases": [],
+      "popularity": 1643,
+      "rarity": 0.748,
+      "tier": 4,
+      "wiki": "Zongora"
+    },
+    {
+      "name": "Bolon",
+      "aliases": [
+        "Bolon (musical instrument)",
+        "m’bolon",
+        "nbolon"
+      ],
+      "popularity": 1664,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Bolon (musical instrument)"
+    },
+    {
+      "name": "Fender Zone Bass",
+      "aliases": [],
+      "popularity": 1674,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Fender Zone Bass"
+    },
+    {
+      "name": "Gibson Les Paul Standard",
+      "aliases": [],
+      "popularity": 1701,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Gibson Les Paul Standard"
+    },
+    {
+      "name": "Oval spinet",
+      "aliases": [],
+      "popularity": 1724,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Oval spinet"
+    },
+    {
+      "name": "Kaisatsuko",
+      "aliases": [],
+      "popularity": 1725,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Kaisatsuko"
+    },
+    {
+      "name": "Ibanez PGM",
+      "aliases": [],
+      "popularity": 1736,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Ibanez PGM"
+    },
+    {
+      "name": "Tamboori",
+      "aliases": [],
+      "popularity": 1745,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Tamboori"
+    },
+    {
+      "name": "Ahenk",
+      "aliases": [],
+      "popularity": 1756,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Ahenk"
+    },
+    {
+      "name": "Quinton",
+      "aliases": [
+        "Quinton (musical instrument)"
+      ],
+      "popularity": 1770,
+      "rarity": 0.734,
+      "tier": 4,
+      "wiki": "Quinton (musical instrument)"
+    },
+    {
+      "name": "Shurangiz",
+      "aliases": [],
+      "popularity": 1782,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Shurangiz"
+    },
+    {
+      "name": "Sagar veena",
+      "aliases": [],
+      "popularity": 1793,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Sagar veena"
+    },
+    {
+      "name": "Violetta",
+      "aliases": [
+        "Violetta (instrument)"
+      ],
+      "popularity": 1805,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Violetta (instrument)"
+    },
+    {
+      "name": "Erxian",
+      "aliases": [],
+      "popularity": 1819,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Erxian"
+    },
+    {
+      "name": "Lesiba",
+      "aliases": [
+        "gora",
+        "goura"
+      ],
+      "popularity": 1860,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Lesiba"
+    },
+    {
+      "name": "Harp lute",
+      "aliases": [
+        "dital harp",
+        "harp-guitar",
+        "harp-lute-guitar"
+      ],
+      "popularity": 1887,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Harp lute"
+    },
+    {
+      "name": "Gibson Little Lucille",
+      "aliases": [],
+      "popularity": 1945,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Gibson Little Lucille"
+    },
+    {
+      "name": "Music Man Sabre",
+      "aliases": [
+        "Music Man Sabre (electric guitar)"
+      ],
+      "popularity": 1957,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Music Man Sabre (electric guitar)"
+    },
+    {
+      "name": "Fender Stratocaster XII",
+      "aliases": [],
+      "popularity": 1967,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Fender Stratocaster XII"
+    },
+    {
+      "name": "Tenor banjo",
+      "aliases": [],
+      "popularity": 1979,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Tenor banjo"
+    },
+    {
+      "name": "Viola braguesa",
+      "aliases": [],
+      "popularity": 2001,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Viola braguesa"
+    },
+    {
+      "name": "Zhuihu",
+      "aliases": [
+        "zhuiqin",
+        "zhuizixian"
+      ],
+      "popularity": 2019,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Zhuihu"
+    },
+    {
+      "name": "Ibanez MTM",
+      "aliases": [],
+      "popularity": 2035,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Ibanez MTM"
+    },
+    {
+      "name": "Dihu",
+      "aliases": [],
+      "popularity": 2044,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Dihu"
+    },
+    {
+      "name": "Ibanez Artcore series",
+      "aliases": [],
+      "popularity": 2051,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Ibanez Artcore series"
+    },
+    {
+      "name": "Kalindula",
+      "aliases": [],
+      "popularity": 2055,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Kalindula"
+    },
+    {
+      "name": "ESP Eclipse",
+      "aliases": [],
+      "popularity": 2092,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "ESP Eclipse"
+    },
+    {
+      "name": "Sueng",
+      "aliases": [],
+      "popularity": 2107,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Sueng"
+    },
+    {
+      "name": "Gottuvadyam",
+      "aliases": [
+        "chitraveena",
+        "gottuvadhyam",
+        "mahanataka vina"
+      ],
+      "popularity": 2120,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Gottuvadyam"
+    },
+    {
+      "name": "Epiphone Jack Casady Signature Bass",
+      "aliases": [],
+      "popularity": 2123,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Epiphone Jack Casady Signature Bass"
+    },
+    {
+      "name": "Leona",
+      "aliases": [
+        "Leona (instrument)"
+      ],
+      "popularity": 2191,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Leona (instrument)"
+    },
+    {
+      "name": "Gibson ES-100",
+      "aliases": [],
+      "popularity": 2194,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Gibson ES-100"
+    },
+    {
+      "name": "Temir komuz",
+      "aliases": [],
+      "popularity": 2198,
+      "rarity": 0.699,
+      "tier": 4,
+      "wiki": "Temir komuz"
+    },
+    {
+      "name": "Tritare",
+      "aliases": [],
+      "popularity": 2205,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "Tritare"
+    },
+    {
+      "name": "Cak",
+      "aliases": [
+        "Cak (instrument)"
+      ],
+      "popularity": 2220,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Cak (instrument)"
+    },
+    {
+      "name": "Resonator mandolin",
+      "aliases": [],
+      "popularity": 2220,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Resonator mandolin"
+    },
+    {
+      "name": "Sardonyx",
+      "aliases": [
+        "Sardonyx (guitar)"
+      ],
+      "popularity": 2237,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "Sardonyx (guitar)"
+    },
+    {
+      "name": "Fender King",
+      "aliases": [],
+      "popularity": 2242,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Fender King"
+    },
+    {
+      "name": "Fender Wildwood",
+      "aliases": [],
+      "popularity": 2267,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Fender Wildwood"
+    },
+    {
+      "name": "Resonator ukulele",
+      "aliases": [],
+      "popularity": 2275,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Resonator ukulele"
+    },
+    {
+      "name": "Onavillu",
+      "aliases": [
+        "ōṇavill",
+        "villu",
+        "villukottu"
+      ],
+      "popularity": 2308,
+      "rarity": 0.687,
+      "tier": 4,
+      "wiki": "Onavillu"
+    },
+    {
+      "name": "Travel guitar",
+      "aliases": [],
+      "popularity": 2357,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Travel guitar"
+    },
+    {
+      "name": "Maghreb rebab",
+      "aliases": [],
+      "popularity": 2367,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Maghreb rebab"
+    },
+    {
+      "name": "Cetra",
+      "aliases": [],
+      "popularity": 2390,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Cetra"
+    },
+    {
+      "name": "Bordonua",
+      "aliases": [],
+      "popularity": 2413,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Bordonua"
+    },
+    {
+      "name": "Viola pomposa",
+      "aliases": [],
+      "popularity": 2430,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Viola pomposa"
+    },
+    {
+      "name": "Basolia",
+      "aliases": [
+        "bas",
+        "basetlia"
+      ],
+      "popularity": 2437,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Basolia"
+    },
+    {
+      "name": "Sursingar",
+      "aliases": [
+        "surśrngār"
+      ],
+      "popularity": 2437,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Sursingar"
+    },
+    {
+      "name": "Khamak",
+      "aliases": [],
+      "popularity": 2462,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Khamak"
+    },
+    {
+      "name": "Ghijak",
+      "aliases": [
+        "aijieke",
+        "ghijek",
+        "jizihake"
+      ],
+      "popularity": 2506,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Ghijak"
+    },
+    {
+      "name": "Kwitra",
+      "aliases": [],
+      "popularity": 2518,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Kwitra"
+    },
+    {
+      "name": "Gibson Modernistic Series",
+      "aliases": [
+        "Gibson Modernistic"
+      ],
+      "popularity": 2519,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Gibson Modernistic Series"
+    },
+    {
+      "name": "Khuuchir",
+      "aliases": [],
+      "popularity": 2519,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Khuuchir"
+    },
+    {
+      "name": "Chakhe",
+      "aliases": [
+        "jakhe",
+        "krapeu",
+        "takhe"
+      ],
+      "popularity": 2520,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Chakhe"
+    },
+    {
+      "name": "Ten-string classical guitar of Yepes",
+      "aliases": [],
+      "popularity": 2521,
+      "rarity": 0.665,
+      "tier": 4,
+      "wiki": "Ten-string classical guitar of Yepes"
+    },
+    {
+      "name": "Swedish lute",
+      "aliases": [],
+      "popularity": 2522,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Swedish lute"
+    },
+    {
+      "name": "Rotte (psaltery)",
+      "aliases": [],
+      "popularity": 2556,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Rotte (psaltery)"
+    },
+    {
+      "name": "Ovation Deacon",
+      "aliases": [],
+      "popularity": 2593,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Ovation Deacon"
+    },
+    {
+      "name": "Calabrian lira",
+      "aliases": [],
+      "popularity": 2602,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Calabrian lira"
+    },
+    {
+      "name": "Seni rebab",
+      "aliases": [],
+      "popularity": 2654,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Seni rebab"
+    },
+    {
+      "name": "Classical guitar with additional strings",
+      "aliases": [
+        "extended-range classical guitar"
+      ],
+      "popularity": 2687,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Classical guitar with additional strings"
+    },
+    {
+      "name": "Hagström Viking",
+      "aliases": [],
+      "popularity": 2698,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Hagström Viking"
+    },
+    {
+      "name": "Låtfiol",
+      "aliases": [],
+      "popularity": 2754,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Låtfiol"
+    },
+    {
+      "name": "Mvet",
+      "aliases": [],
+      "popularity": 2762,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Mvet"
+    },
+    {
+      "name": "Claviorgan",
+      "aliases": [
+        "claviorganum"
+      ],
+      "popularity": 2777,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Claviorgan"
+    },
+    {
+      "name": "Baritone violin",
+      "aliases": [],
+      "popularity": 2793,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Baritone violin"
+    },
+    {
+      "name": "Tautirut",
+      "aliases": [
+        "Eskimo fiddle",
+        "tautiruut"
+      ],
+      "popularity": 2807,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Tautirut"
+    },
+    {
+      "name": "Ibanez Musician Bass",
+      "aliases": [
+        "Ibanez MC",
+        "Ibanez Musician",
+        "Ibanez Musician MC"
+      ],
+      "popularity": 2809,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Ibanez Musician Bass"
+    },
+    {
+      "name": "ARP Avatar",
+      "aliases": [],
+      "popularity": 2870,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "ARP Avatar"
+    },
+    {
+      "name": "Armónico",
+      "aliases": [],
+      "popularity": 2880,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Armónico"
+    },
+    {
+      "name": "Streamer bass",
+      "aliases": [],
+      "popularity": 2893,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Streamer bass"
+    },
+    {
+      "name": "Bandolón",
+      "aliases": [],
+      "popularity": 2901,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Bandolón"
+    },
+    {
+      "name": "Hybrid guitar",
+      "aliases": [],
+      "popularity": 2925,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Hybrid guitar"
+    },
+    {
+      "name": "Drejelire",
+      "aliases": [],
+      "popularity": 2948,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Drejelire"
+    },
+    {
+      "name": "Ibanez Apex",
+      "aliases": [],
+      "popularity": 2966,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Ibanez Apex"
+    },
+    {
+      "name": "Inanga",
+      "aliases": [
+        "ikivuvu",
+        "Inanga (instrument)",
+        "indimbagazo",
+        "langa",
+        "lulanga",
+        "nanga"
+      ],
+      "popularity": 2977,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Inanga (instrument)"
+    },
+    {
+      "name": "Contraguitar",
+      "aliases": [
+        "Schrammel guitar"
+      ],
+      "popularity": 2986,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Contraguitar"
+    },
+    {
+      "name": "Warwick Corvette",
+      "aliases": [],
+      "popularity": 3017,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Warwick Corvette"
+    },
+    {
+      "name": "Chapei dang veng",
+      "aliases": [
+        "Chapei",
+        "chapei dong veng",
+        "chapey"
+      ],
+      "popularity": 3030,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Chapei dang veng"
+    },
+    {
+      "name": "Trigonon",
+      "aliases": [],
+      "popularity": 3047,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Trigonon"
+    },
+    {
+      "name": "Tambourine de Bearn",
+      "aliases": [],
+      "popularity": 3054,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Tambourine de Bearn"
+    },
+    {
+      "name": "Giga",
+      "aliases": [
+        "Giga (instrument)"
+      ],
+      "popularity": 3082,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Giga (instrument)"
+    },
+    {
+      "name": "Guitalin",
+      "aliases": [],
+      "popularity": 3107,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Guitalin"
+    },
+    {
+      "name": "Six-string alto guitar",
+      "aliases": [],
+      "popularity": 3153,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Six-string alto guitar"
+    },
+    {
+      "name": "Moog Guitar",
+      "aliases": [],
+      "popularity": 3161,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Moog Guitar"
+    },
+    {
+      "name": "Classical electric guitar",
+      "aliases": [
+        "nylon-string electric guitars"
+      ],
+      "popularity": 3194,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Classical electric guitar"
+    },
+    {
+      "name": "Bluegrass mandolin",
+      "aliases": [],
+      "popularity": 3198,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Bluegrass mandolin"
+    },
+    {
+      "name": "Fender Musicmaster Bass",
+      "aliases": [],
+      "popularity": 3207,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Fender Musicmaster Bass"
+    },
+    {
+      "name": "Lijerica",
+      "aliases": [
+        "lirica"
+      ],
+      "popularity": 3211,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Lijerica"
+    },
+    {
+      "name": "Vertical viola",
+      "aliases": [
+        "alto violin"
+      ],
+      "popularity": 3273,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Vertical viola"
+    },
+    {
+      "name": "Bond Electraglide",
+      "aliases": [],
+      "popularity": 3279,
+      "rarity": 0.61,
+      "tier": 4,
+      "wiki": "Bond Electraglide"
+    },
+    {
+      "name": "Double violin",
+      "aliases": [],
+      "popularity": 3312,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Double violin"
+    },
+    {
+      "name": "Kissar",
+      "aliases": [
+        "gytarah barbaryeh",
+        "kisir",
+        "kissir",
+        "kisszár"
+      ],
+      "popularity": 3358,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Kissar"
+    },
+    {
+      "name": "Dean Cadillac",
+      "aliases": [],
+      "popularity": 3379,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Dean Cadillac"
+    },
+    {
+      "name": "James Burton Telecaster",
+      "aliases": [],
+      "popularity": 3381,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "James Burton Telecaster"
+    },
+    {
+      "name": "Ibanez K7",
+      "aliases": [],
+      "popularity": 3382,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Ibanez K7"
+    },
+    {
+      "name": "Clavicymbalum",
+      "aliases": [
+        "clavisymbalum"
+      ],
+      "popularity": 3393,
+      "rarity": 0.601,
+      "tier": 4,
+      "wiki": "Clavicymbalum"
+    },
+    {
+      "name": "Moodswinger",
+      "aliases": [],
+      "popularity": 3454,
+      "rarity": 0.599,
+      "tier": 3,
+      "wiki": "Moodswinger"
+    },
+    {
+      "name": "Adungu",
+      "aliases": [
+        "bow harp"
+      ],
+      "popularity": 3463,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Adungu"
+    },
+    {
+      "name": "Zhu",
+      "aliases": [
+        "Zhu (string instrument)"
+      ],
+      "popularity": 3472,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Zhu (string instrument)"
+    },
+    {
+      "name": "Gibson Corvus",
+      "aliases": [],
+      "popularity": 3488,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Gibson Corvus"
+    },
+    {
+      "name": "Đàn tỳ bà",
+      "aliases": [],
+      "popularity": 3519,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Đàn tỳ bà"
+    },
+    {
+      "name": "Electric mandolin",
+      "aliases": [],
+      "popularity": 3528,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Electric mandolin"
+    },
+    {
+      "name": "Çeng",
+      "aliases": [],
+      "popularity": 3547,
+      "rarity": 0.59,
+      "tier": 3,
+      "wiki": "Çeng"
+    },
+    {
+      "name": "Lyre-guitar",
+      "aliases": [],
+      "popularity": 3564,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Lyre-guitar"
+    },
+    {
+      "name": "Timple",
+      "aliases": [],
+      "popularity": 3590,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Timple"
+    },
+    {
+      "name": "Đàn nhị",
+      "aliases": [
+        "dan nhi"
+      ],
+      "popularity": 3602,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Đàn nhị"
+    },
+    {
+      "name": "Sihu",
+      "aliases": [
+        "Sihu (instrument)"
+      ],
+      "popularity": 3641,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Sihu (instrument)"
+    },
+    {
+      "name": "Gudok",
+      "aliases": [],
+      "popularity": 3659,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Gudok"
+    },
+    {
+      "name": "Chitarra battente",
+      "aliases": [],
+      "popularity": 3672,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Chitarra battente"
+    },
+    {
+      "name": "Arpa jarocha",
+      "aliases": [],
+      "popularity": 3675,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Arpa jarocha"
+    },
+    {
+      "name": "Rabeca",
+      "aliases": [
+        "rabeca chuleira"
+      ],
+      "popularity": 3675,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Rabeca"
+    },
+    {
+      "name": "Mexican twelve-string guitar",
+      "aliases": [
+        "requinto-style guitar",
+        "Sierreño-style guitar"
+      ],
+      "popularity": 3710,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Mexican twelve-string guitar"
+    },
+    {
+      "name": "Fender Jeff Beck Stratocaster",
+      "aliases": [],
+      "popularity": 3740,
+      "rarity": 0.575,
+      "tier": 3,
+      "wiki": "Fender Jeff Beck Stratocaster"
+    },
+    {
+      "name": "Bandolin (Bandolin)",
+      "aliases": [],
+      "popularity": 3757,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Bandolin"
+    },
+    {
+      "name": "Electric harp",
+      "aliases": [],
+      "popularity": 3789,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Electric harp"
+    },
+    {
+      "name": "African harp",
+      "aliases": [],
+      "popularity": 3796,
+      "rarity": 0.57,
+      "tier": 3,
+      "wiki": "African harp"
+    },
+    {
+      "name": "Lyra viol",
+      "aliases": [],
+      "popularity": 3800,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Lyra viol"
+    },
+    {
+      "name": "Gehu",
+      "aliases": [],
+      "popularity": 3804,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Gehu"
+    },
+    {
+      "name": "Requinto jarocho",
+      "aliases": [],
+      "popularity": 3817,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "Requinto jarocho"
+    },
+    {
+      "name": "Silent guitar",
+      "aliases": [],
+      "popularity": 3829,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Silent guitar"
+    },
+    {
+      "name": "Epigonion",
+      "aliases": [],
+      "popularity": 3853,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Epigonion"
+    },
+    {
+      "name": "Colombian tiple",
+      "aliases": [],
+      "popularity": 3885,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Colombian tiple"
+    },
+    {
+      "name": "Kontra",
+      "aliases": [],
+      "popularity": 3953,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Kontra"
+    },
+    {
+      "name": "Pardessus de viole",
+      "aliases": [
+        "dessus de viole"
+      ],
+      "popularity": 3972,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Pardessus de viole"
+    },
+    {
+      "name": "Gibson L-4",
+      "aliases": [],
+      "popularity": 3997,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Gibson L-4"
+    },
+    {
+      "name": "Orpharion",
+      "aliases": [],
+      "popularity": 4018,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Orpharion"
+    },
+    {
+      "name": "ES-Les Paul",
+      "aliases": [
+        "Epiphone ES-Les Paul",
+        "Gibson ES-Les Paul"
+      ],
+      "popularity": 4054,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "ES-Les Paul"
+    },
+    {
+      "name": "Epiphone Joe Pass Emperor II",
+      "aliases": [],
+      "popularity": 4098,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Epiphone Joe Pass Emperor II"
+    },
+    {
+      "name": "Qinqin",
+      "aliases": [],
+      "popularity": 4106,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Qinqin"
+    },
+    {
+      "name": "Tar (Azerbaijani instrument)",
+      "aliases": [],
+      "popularity": 4171,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "Tar (Azerbaijani instrument)"
+    },
+    {
+      "name": "Classical kemençe",
+      "aliases": [
+        "armudî kemençe",
+        "classical kemenche",
+        "Constantinopolitan lyre",
+        "klasik kemençe",
+        "politiki lyra"
+      ],
+      "popularity": 4179,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Classical kemençe"
+    },
+    {
+      "name": "Nevel",
+      "aliases": [
+        "nebel",
+        "Nevel (instrument)"
+      ],
+      "popularity": 4185,
+      "rarity": 0.546,
+      "tier": 3,
+      "wiki": "Nevel (instrument)"
+    },
+    {
+      "name": "Ghaychak",
+      "aliases": [
+        "gheychak",
+        "gijak"
+      ],
+      "popularity": 4216,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Ghaychak"
+    },
+    {
+      "name": "Yaybahar",
+      "aliases": [],
+      "popularity": 4264,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Yaybahar"
+    },
+    {
+      "name": "Đàn môi",
+      "aliases": [
+        "dan moi"
+      ],
+      "popularity": 4278,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Đàn môi"
+    },
+    {
+      "name": "Gibson Country Western",
+      "aliases": [],
+      "popularity": 4279,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Gibson Country Western"
+    },
+    {
+      "name": "Fender California Series",
+      "aliases": [],
+      "popularity": 4315,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Fender California Series"
+    },
+    {
+      "name": "Eleven-string alto guitar",
+      "aliases": [
+        "altgitarr",
+        "archguitar",
+        "Bolin guitar"
+      ],
+      "popularity": 4356,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Eleven-string alto guitar"
+    },
+    {
+      "name": "Bass banjo",
+      "aliases": [
+        "cello banjo"
+      ],
+      "popularity": 4376,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Bass banjo"
+    },
+    {
+      "name": "Gravikord",
+      "aliases": [
+        "gravi-kora"
+      ],
+      "popularity": 4452,
+      "rarity": 0.534,
+      "tier": 3,
+      "wiki": "Gravikord"
+    },
+    {
+      "name": "Kent",
+      "aliases": [
+        "Kent (guitar)",
+        "Kent guitars"
+      ],
+      "popularity": 4471,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Kent (guitar)"
+    },
+    {
+      "name": "Kouxian",
+      "aliases": [
+        "hoho"
+      ],
+      "popularity": 4471,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Kouxian"
+    },
+    {
+      "name": "Danelectro U2",
+      "aliases": [],
+      "popularity": 4473,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Danelectro U2"
+    },
+    {
+      "name": "Kacapi",
+      "aliases": [],
+      "popularity": 4563,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Kacapi"
+    },
+    {
+      "name": "Nyatiti",
+      "aliases": [],
+      "popularity": 4607,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Nyatiti"
+    },
+    {
+      "name": "Qanbūs",
+      "aliases": [
+        "gabbus",
+        "gambus"
+      ],
+      "popularity": 4643,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Qanbūs"
+    },
+    {
+      "name": "Roland GR-500",
+      "aliases": [],
+      "popularity": 4676,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Roland GR-500"
+    },
+    {
+      "name": "Guitorgan",
+      "aliases": [],
+      "popularity": 4687,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Guitorgan"
+    },
+    {
+      "name": "Baltic psaltery",
+      "aliases": [],
+      "popularity": 4699,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Baltic psaltery"
+    },
+    {
+      "name": "Lira",
+      "aliases": [
+        "Lira (Ukrainian instrument)",
+        "relia"
+      ],
+      "popularity": 4705,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Lira (Ukrainian instrument)"
+    },
+    {
+      "name": "Lavta",
+      "aliases": [
+        "politiko laouto"
+      ],
+      "popularity": 4708,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Lavta"
+    },
+    {
+      "name": "Gibson Blueshawk",
+      "aliases": [],
+      "popularity": 4734,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Gibson Blueshawk"
+    },
+    {
+      "name": "Clavicytherium",
+      "aliases": [
+        "cembalo verticale",
+        "clavecin vertical"
+      ],
+      "popularity": 4735,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Clavicytherium"
+    },
+    {
+      "name": "Guitarra morisca",
+      "aliases": [],
+      "popularity": 4794,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Guitarra morisca"
+    },
+    {
+      "name": "Brahms guitar",
+      "aliases": [
+        "cello-guitar"
+      ],
+      "popularity": 4854,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Brahms guitar"
+    },
+    {
+      "name": "Claviharp",
+      "aliases": [
+        "harp-piano"
+      ],
+      "popularity": 4879,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Claviharp"
+    },
+    {
+      "name": "Rajão",
+      "aliases": [],
+      "popularity": 4933,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Rajão"
+    },
+    {
+      "name": "Gibson ES-165",
+      "aliases": [],
+      "popularity": 4945,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Gibson ES-165"
+    },
+    {
+      "name": "Sarinda",
+      "aliases": [
+        "Sarinda (instrument)"
+      ],
+      "popularity": 4973,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Sarinda (instrument)"
+    },
+    {
+      "name": "Romanian folk violin",
+      "aliases": [],
+      "popularity": 5004,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Romanian folk violin"
+    },
+    {
+      "name": "Gaohu",
+      "aliases": [
+        "yuehu"
+      ],
+      "popularity": 5008,
+      "rarity": 0.502,
+      "tier": 3,
+      "wiki": "Gaohu"
+    },
+    {
+      "name": "Đàn nguyệt",
+      "aliases": [
+        "dan nguyet"
+      ],
+      "popularity": 5012,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Đàn nguyệt"
+    },
+    {
+      "name": "Heavy metal guitar",
+      "aliases": [
+        "metal guitar"
+      ],
+      "popularity": 5028,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Heavy metal guitar"
+    },
+    {
+      "name": "Epiphone Les Paul",
+      "aliases": [],
+      "popularity": 5047,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Epiphone Les Paul"
+    },
+    {
+      "name": "Angular harp",
+      "aliases": [
+        "angular harps"
+      ],
+      "popularity": 5071,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Angular harp"
+    },
+    {
+      "name": "Gottan",
+      "aliases": [],
+      "popularity": 5079,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Gottan"
+    },
+    {
+      "name": "Ashbory bass",
+      "aliases": [],
+      "popularity": 5088,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Ashbory bass"
+    },
+    {
+      "name": "Kurdish tanbur",
+      "aliases": [
+        "tanbour",
+        "tembûr"
+      ],
+      "popularity": 5103,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Kurdish tanbur"
+    },
+    {
+      "name": "Yamatogoto",
+      "aliases": [
+        "Azuma-goto",
+        "azumagoto",
+        "Jamato-Koto",
+        "Wa-gong",
+        "wagon",
+        "Yamato-goto"
+      ],
+      "popularity": 5115,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Yamatogoto"
+    },
+    {
+      "name": "17-string koto",
+      "aliases": [
+        "jūshichigen"
+      ],
+      "popularity": 5131,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "17-string koto"
+    },
+    {
+      "name": "Jim Root Telecaster",
+      "aliases": [
+        "Jim Root Fender Telecaster"
+      ],
+      "popularity": 5180,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "Jim Root Telecaster"
+    },
+    {
+      "name": "Gibson Barney Kessel",
+      "aliases": [],
+      "popularity": 5230,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Gibson Barney Kessel"
+    },
+    {
+      "name": "Mukkuri",
+      "aliases": [],
+      "popularity": 5230,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Mukkuri"
+    },
+    {
+      "name": "Cross-strung harp",
+      "aliases": [
+        "chromatic double harp"
+      ],
+      "popularity": 5244,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Cross-strung harp"
+    },
+    {
+      "name": "Weissenborn",
+      "aliases": [],
+      "popularity": 5295,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Weissenborn"
+    },
+    {
+      "name": "Waldzither",
+      "aliases": [
+        "halszither"
+      ],
+      "popularity": 5331,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Waldzither"
+    },
+    {
+      "name": "Bowed clavier",
+      "aliases": [
+        "bogenklavier",
+        "Geigenwerk",
+        "wheel harp"
+      ],
+      "popularity": 5341,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Bowed clavier"
+    },
+    {
+      "name": "Dramyin",
+      "aliases": [
+        "dramnyen",
+        "dranyen",
+        "sgra-snyan",
+        "zhamunie"
+      ],
+      "popularity": 5346,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Dramyin"
+    },
+    {
+      "name": "Simsimiyya",
+      "aliases": [
+        "semsemiah",
+        "sinsimia",
+        "sinsimiyya"
+      ],
+      "popularity": 5348,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Simsimiyya"
+    },
+    {
+      "name": "Tenor violin",
+      "aliases": [],
+      "popularity": 5360,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Tenor violin"
+    },
+    {
+      "name": "Ancient veena",
+      "aliases": [],
+      "popularity": 5375,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Ancient veena"
+    },
+    {
+      "name": "Triple contrabass viol",
+      "aliases": [],
+      "popularity": 5395,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Triple contrabass viol"
+    },
+    {
+      "name": "Torban",
+      "aliases": [],
+      "popularity": 5509,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Torban"
+    },
+    {
+      "name": "Goje",
+      "aliases": [],
+      "popularity": 5521,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "Goje"
+    },
+    {
+      "name": "Mandora",
+      "aliases": [
+        "calichon",
+        "gallichon",
+        "gallichone"
+      ],
+      "popularity": 5631,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Mandora"
+    },
+    {
+      "name": "Paraguayan harp",
+      "aliases": [],
+      "popularity": 5659,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Paraguayan harp"
+    },
+    {
+      "name": "Rickenbacker 360",
+      "aliases": [],
+      "popularity": 5704,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Rickenbacker 360"
+    },
+    {
+      "name": "Touch guitar",
+      "aliases": [],
+      "popularity": 5708,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Touch guitar"
+    },
+    {
+      "name": "Rickenbacker 400 series",
+      "aliases": [],
+      "popularity": 5789,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Rickenbacker 400 series"
+    },
+    {
+      "name": "Westone",
+      "aliases": [
+        "Westone (guitars)"
+      ],
+      "popularity": 5789,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Westone (guitars)"
+    },
+    {
+      "name": "Gibson ES-140",
+      "aliases": [],
+      "popularity": 5792,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Gibson ES-140"
+    },
+    {
+      "name": "Saung",
+      "aliases": [
+        "Burma harp",
+        "Burmese harp",
+        "Myanmar harp",
+        "saung-gauk"
+      ],
+      "popularity": 5793,
+      "rarity": 0.454,
+      "tier": 3,
+      "wiki": "Saung"
+    },
+    {
+      "name": "Stevie Ray Vaughan Stratocaster",
+      "aliases": [],
+      "popularity": 5838,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Stevie Ray Vaughan Stratocaster"
+    },
+    {
+      "name": "Ibanez Talman",
+      "aliases": [],
+      "popularity": 5842,
+      "rarity": 0.451,
+      "tier": 3,
+      "wiki": "Ibanez Talman"
+    },
+    {
+      "name": "Gibson ES-225",
+      "aliases": [],
+      "popularity": 5913,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Gibson ES-225"
+    },
+    {
+      "name": "Electric cello",
+      "aliases": [],
+      "popularity": 5918,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Electric cello"
+    },
+    {
+      "name": "Multi-scale fingerboard",
+      "aliases": [
+        "fan fret",
+        "fanned fret"
+      ],
+      "popularity": 5994,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Multi-scale fingerboard"
+    },
+    {
+      "name": "Chelys",
+      "aliases": [],
+      "popularity": 6010,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Chelys"
+    },
+    {
+      "name": "Bandora",
+      "aliases": [
+        "Bandora (instrument)",
+        "bandore",
+        "pandora"
+      ],
+      "popularity": 6027,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Bandora (instrument)"
+    },
+    {
+      "name": "Charvel Surfcaster",
+      "aliases": [],
+      "popularity": 6068,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Charvel Surfcaster"
+    },
+    {
+      "name": "Gibson Les Paul bass",
+      "aliases": [],
+      "popularity": 6085,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Gibson Les Paul bass"
+    },
+    {
+      "name": "Escopetarra",
+      "aliases": [],
+      "popularity": 6092,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "Escopetarra"
+    },
+    {
+      "name": "Kemençe of the Black Sea",
+      "aliases": [
+        "Karadeniz kemençesi",
+        "kemenche of the Black Sea",
+        "Laz kemençesi",
+        "Pontic kemenche",
+        "Pontic lyra"
+      ],
+      "popularity": 6110,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Kemençe of the Black Sea"
+    },
+    {
+      "name": "Angélique",
+      "aliases": [
+        "angel lute",
+        "angelica",
+        "Angélique (instrument)"
+      ],
+      "popularity": 6114,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Angélique (instrument)"
+    },
+    {
+      "name": "Tsymbaly",
+      "aliases": [],
+      "popularity": 6149,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Tsymbaly"
+    },
+    {
+      "name": "Eight-string bass guitar",
+      "aliases": [],
+      "popularity": 6156,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Eight-string bass guitar"
+    },
+    {
+      "name": "Tromba marina",
+      "aliases": [
+        "marine trumpet",
+        "nun's fiddle",
+        "nuns' fiddle",
+        "trumpet marine"
+      ],
+      "popularity": 6162,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Tromba marina"
+    },
+    {
+      "name": "Langeleik",
+      "aliases": [
+        "langleik"
+      ],
+      "popularity": 6230,
+      "rarity": 0.43,
+      "tier": 3,
+      "wiki": "Langeleik"
+    },
+    {
+      "name": "Fender Aerodyne Jazz Bass",
+      "aliases": [],
+      "popularity": 6239,
+      "rarity": 0.428,
+      "tier": 3,
+      "wiki": "Fender Aerodyne Jazz Bass"
+    },
+    {
+      "name": "Phorminx",
+      "aliases": [],
+      "popularity": 6270,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Phorminx"
+    },
+    {
+      "name": "Hummel",
+      "aliases": [
+        "humle",
+        "Hummel (instrument)",
+        "langharpe",
+        "noardske balke",
+        "noordsche balk"
+      ],
+      "popularity": 6352,
+      "rarity": 0.425,
+      "tier": 3,
+      "wiki": "Hummel (instrument)"
+    },
+    {
+      "name": "Lirone",
+      "aliases": [
+        "lira da gamba"
+      ],
+      "popularity": 6387,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Lirone"
+    },
+    {
+      "name": "3rd bridge",
+      "aliases": [],
+      "popularity": 6484,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "3rd bridge"
+    },
+    {
+      "name": "Scheitholt",
+      "aliases": [],
+      "popularity": 6493,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Scheitholt"
+    },
+    {
+      "name": "Gibson L Series",
+      "aliases": [],
+      "popularity": 6520,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Gibson L Series"
+    },
+    {
+      "name": "Jackson Kelly",
+      "aliases": [
+        "Jackson Kelly (guitar)"
+      ],
+      "popularity": 6587,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Jackson Kelly (guitar)"
+    },
+    {
+      "name": "Mandolin-banjo",
+      "aliases": [
+        "banjoline"
+      ],
+      "popularity": 6607,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Mandolin-banjo"
+    },
+    {
+      "name": "Gibson ES-137",
+      "aliases": [],
+      "popularity": 6624,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Gibson ES-137"
+    },
+    {
+      "name": "Yatga",
+      "aliases": [
+        "Mongolian zither",
+        "yataga",
+        "yatug",
+        "yatuġ-a",
+        "yatuga"
+      ],
+      "popularity": 6634,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Yatga"
+    },
+    {
+      "name": "Kannel",
+      "aliases": [
+        "Kannel (instrument)"
+      ],
+      "popularity": 6640,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Kannel (instrument)"
+    },
+    {
+      "name": "Five-string violin",
+      "aliases": [],
+      "popularity": 6642,
+      "rarity": 0.41,
+      "tier": 3,
+      "wiki": "Five-string violin"
+    },
+    {
+      "name": "Cobza",
+      "aliases": [
+        "coboz",
+        "koboz",
+        "kobuz",
+        "kobuza"
+      ],
+      "popularity": 6754,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Cobza"
+    },
+    {
+      "name": "Rickenbacker 4001CS",
+      "aliases": [],
+      "popularity": 6817,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Rickenbacker 4001CS"
+    },
+    {
+      "name": "Taus",
+      "aliases": [
+        "Taus (instrument)"
+      ],
+      "popularity": 6835,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Taus (instrument)"
+    },
+    {
+      "name": "Khim",
+      "aliases": [
+        "butterfly harp",
+        "Khimm",
+        "Thai Hammered Dulcimer"
+      ],
+      "popularity": 6883,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Khim"
+    },
+    {
+      "name": "Burny",
+      "aliases": [],
+      "popularity": 6939,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Burny"
+    },
+    {
+      "name": "Šargija",
+      "aliases": [
+        "sharki"
+      ],
+      "popularity": 6972,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Šargija"
+    },
+    {
+      "name": "Phin",
+      "aliases": [],
+      "popularity": 7026,
+      "rarity": 0.399,
+      "tier": 2,
+      "wiki": "Phin"
+    },
+    {
+      "name": "Vox Mark III",
+      "aliases": [],
+      "popularity": 7045,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Vox Mark III"
+    },
+    {
+      "name": "Electric bass",
+      "aliases": [
+        "bass electric guitar",
+        "electric bass guitar"
+      ],
+      "popularity": 7115,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Electric bass"
+    },
+    {
+      "name": "Gadulka",
+      "aliases": [
+        "ganilka",
+        "gdulka",
+        "kementše",
+        "kopanka",
+        "tsigulka"
+      ],
+      "popularity": 7138,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Gadulka"
+    },
+    {
+      "name": "Roland GR-300",
+      "aliases": [],
+      "popularity": 7237,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Roland GR-300"
+    },
+    {
+      "name": "Fender Cabronita Telecaster",
+      "aliases": [],
+      "popularity": 7334,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Fender Cabronita Telecaster"
+    },
+    {
+      "name": "Contrabass guitar",
+      "aliases": [],
+      "popularity": 7404,
+      "rarity": 0.39,
+      "tier": 2,
+      "wiki": "Contrabass guitar"
+    },
+    {
+      "name": "Chang",
+      "aliases": [
+        "Chang (instrument)"
+      ],
+      "popularity": 7440,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Chang (instrument)"
+    },
+    {
+      "name": "Console steel guitar",
+      "aliases": [
+        "console steel",
+        "table steel",
+        "table steel guitar"
+      ],
+      "popularity": 7506,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Console steel guitar"
+    },
+    {
+      "name": "Baroque violin",
+      "aliases": [],
+      "popularity": 7508,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Baroque violin"
+    },
+    {
+      "name": "English guitar",
+      "aliases": [],
+      "popularity": 7605,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "English guitar"
+    },
+    {
+      "name": "Arched harp",
+      "aliases": [
+        "arched harps"
+      ],
+      "popularity": 7904,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Arched harp"
+    },
+    {
+      "name": "Begena",
+      "aliases": [
+        "bèguèna"
+      ],
+      "popularity": 7913,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Begena"
+    },
+    {
+      "name": "Bajo quinto",
+      "aliases": [
+        "fith bass"
+      ],
+      "popularity": 7923,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Bajo quinto"
+    },
+    {
+      "name": "Mohan veena",
+      "aliases": [],
+      "popularity": 7995,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Mohan veena"
+    },
+    {
+      "name": "Mandobass",
+      "aliases": [],
+      "popularity": 8007,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Mandobass"
+    },
+    {
+      "name": "Fender Eric Clapton Stratocaster",
+      "aliases": [
+        "Eric Clapton Stratocaster"
+      ],
+      "popularity": 8010,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Fender Eric Clapton Stratocaster"
+    },
+    {
+      "name": "B.C. Rich Mockingbird",
+      "aliases": [],
+      "popularity": 8050,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "B.C. Rich Mockingbird"
+    },
+    {
+      "name": "Fender Bronco",
+      "aliases": [],
+      "popularity": 8058,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Fender Bronco"
+    },
+    {
+      "name": "Course",
+      "aliases": [
+        "Course (music)"
+      ],
+      "popularity": 8082,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Course (music)"
+    },
+    {
+      "name": "Cuatro (Venezuela)",
+      "aliases": [
+        "cinco y medio",
+        "cuatro campana",
+        "cuatro Monterol",
+        "cuatro venezolano",
+        "octavo",
+        "seis",
+        "Venezuelan cuatro"
+      ],
+      "popularity": 8181,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Cuatro (Venezuela)"
+    },
+    {
+      "name": "Tonkori",
+      "aliases": [],
+      "popularity": 8197,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Tonkori"
+    },
+    {
+      "name": "Triple harp",
+      "aliases": [
+        "Welsh harp"
+      ],
+      "popularity": 8215,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Triple harp"
+    },
+    {
+      "name": "Ronroco",
+      "aliases": [],
+      "popularity": 8239,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Ronroco"
+    },
+    {
+      "name": "Violino piccolo",
+      "aliases": [
+        "diskangeige",
+        "piccolo violin",
+        "quartgeige",
+        "terzgeige",
+        "treble violin",
+        "violino alla francese"
+      ],
+      "popularity": 8253,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Violino piccolo"
+    },
+    {
+      "name": "Epiphone Dot",
+      "aliases": [],
+      "popularity": 8256,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Epiphone Dot"
+    },
+    {
+      "name": "Gibson Robot Guitar",
+      "aliases": [],
+      "popularity": 8273,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Gibson Robot Guitar"
+    },
+    {
+      "name": "Gibson Chet Atkins SST",
+      "aliases": [],
+      "popularity": 8293,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Gibson Chet Atkins SST"
+    },
+    {
+      "name": "Fender Telecaster Custom",
+      "aliases": [],
+      "popularity": 8494,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Fender Telecaster Custom"
+    },
+    {
+      "name": "Ten-string guitar",
+      "aliases": [],
+      "popularity": 8517,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Ten-string guitar"
+    },
+    {
+      "name": "Jackson Soloist",
+      "aliases": [],
+      "popularity": 8565,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Jackson Soloist"
+    },
+    {
+      "name": "Igil",
+      "aliases": [
+        "horsehead fiddle"
+      ],
+      "popularity": 8579,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "Igil"
+    },
+    {
+      "name": "Solid body",
+      "aliases": [
+        "solid-body instrument",
+        "solidbody"
+      ],
+      "popularity": 8585,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Solid body"
+    },
+    {
+      "name": "Fender Cyclone",
+      "aliases": [],
+      "popularity": 8638,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Fender Cyclone"
+    },
+    {
+      "name": "Laouto",
+      "aliases": [],
+      "popularity": 8710,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Laouto"
+    },
+    {
+      "name": "Nine-string guitar",
+      "aliases": [],
+      "popularity": 8843,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Nine-string guitar"
+    },
+    {
+      "name": "Gibson Dove",
+      "aliases": [],
+      "popularity": 8881,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Gibson Dove"
+    },
+    {
+      "name": "Xalam",
+      "aliases": [],
+      "popularity": 8900,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Xalam"
+    },
+    {
+      "name": "Gibson ES-350T",
+      "aliases": [],
+      "popularity": 8977,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Gibson ES-350T"
+    },
+    {
+      "name": "Requinto guitar",
+      "aliases": [],
+      "popularity": 8999,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Requinto guitar"
+    },
+    {
+      "name": "Ichigenkin",
+      "aliases": [
+        "hankin",
+        "ichigen-kin",
+        "sumagoto"
+      ],
+      "popularity": 9044,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Ichigenkin"
+    },
+    {
+      "name": "Liuqin",
+      "aliases": [],
+      "popularity": 9078,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Liuqin"
+    },
+    {
+      "name": "Cutaway",
+      "aliases": [
+        "Cutaway (guitar)"
+      ],
+      "popularity": 9212,
+      "rarity": 0.335,
+      "tier": 2,
+      "wiki": "Cutaway (guitar)"
+    },
+    {
+      "name": "Kobza",
+      "aliases": [],
+      "popularity": 9420,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Kobza"
+    },
+    {
+      "name": "Viola da braccio",
+      "aliases": [],
+      "popularity": 9514,
+      "rarity": 0.332,
+      "tier": 2,
+      "wiki": "Viola da braccio"
+    },
+    {
+      "name": "Lautenwerck",
+      "aliases": [
+        "Claviergamba",
+        "keyboard lute",
+        "Lautenklavier",
+        "Lautenwerk",
+        "lute-clavier",
+        "lute-harpsichord",
+        "Lyrum Delium"
+      ],
+      "popularity": 9712,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Lautenwerck"
+    },
+    {
+      "name": "Fender Swinger",
+      "aliases": [],
+      "popularity": 9745,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Fender Swinger"
+    },
+    {
+      "name": "Bowed psaltery",
+      "aliases": [],
+      "popularity": 9984,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Bowed psaltery"
+    },
+    {
+      "name": "Krar",
+      "aliases": [],
+      "popularity": 10075,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Krar"
+    },
+    {
+      "name": "Selmer guitar",
+      "aliases": [
+        "Maccaferri",
+        "Selmer-Maccaferri"
+      ],
+      "popularity": 10189,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Selmer guitar"
+    },
+    {
+      "name": "Đàn tranh",
+      "aliases": [
+        "dan tranh"
+      ],
+      "popularity": 10205,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Đàn tranh"
+    },
+    {
+      "name": "Bipa",
+      "aliases": [],
+      "popularity": 10246,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Bipa"
+    },
+    {
+      "name": "Baglamas",
+      "aliases": [
+        "baglamadaki"
+      ],
+      "popularity": 10247,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Baglamas"
+    },
+    {
+      "name": "Acoustic-electric guitar",
+      "aliases": [
+        "electro-acoustic guitar",
+        "electroacoustic guitar"
+      ],
+      "popularity": 10322,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Acoustic-electric guitar"
+    },
+    {
+      "name": "Cello da spalla",
+      "aliases": [
+        "viola da spalla",
+        "violoncello da spalla"
+      ],
+      "popularity": 10339,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Cello da spalla"
+    },
+    {
+      "name": "Cretan lyra",
+      "aliases": [],
+      "popularity": 10348,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Cretan lyra"
+    },
+    {
+      "name": "Jackson Dinky",
+      "aliases": [],
+      "popularity": 10375,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Jackson Dinky"
+    },
+    {
+      "name": "Gibson EB-0",
+      "aliases": [],
+      "popularity": 10453,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "Gibson EB-0"
+    },
+    {
+      "name": "Headless guitar",
+      "aliases": [],
+      "popularity": 10477,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Headless guitar"
+    },
+    {
+      "name": "Banjo guitar",
+      "aliases": [
+        "banjitar",
+        "Benjitar",
+        "ganjo",
+        "guitar banjo"
+      ],
+      "popularity": 10568,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Banjo guitar"
+    },
+    {
+      "name": "Kemenche",
+      "aliases": [],
+      "popularity": 10640,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Kemenche"
+    },
+    {
+      "name": "Gibson Marauder",
+      "aliases": [],
+      "popularity": 10645,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Gibson Marauder"
+    },
+    {
+      "name": "Lira da braccio",
+      "aliases": [
+        "lira da spalla",
+        "lira di sette corde",
+        "lira moderna"
+      ],
+      "popularity": 10789,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Lira da braccio"
+    },
+    {
+      "name": "Panduri",
+      "aliases": [],
+      "popularity": 10825,
+      "rarity": 0.303,
+      "tier": 2,
+      "wiki": "Panduri"
+    },
+    {
+      "name": "Supro Ozark 1560 S",
+      "aliases": [],
+      "popularity": 10907,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Supro Ozark 1560 S"
+    },
+    {
+      "name": "Gibson Les Paul Special",
+      "aliases": [],
+      "popularity": 11003,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Gibson Les Paul Special"
+    },
+    {
+      "name": "Gibson Les Paul Studio",
+      "aliases": [],
+      "popularity": 11066,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Gibson Les Paul Studio"
+    },
+    {
+      "name": "Epiphone G-400",
+      "aliases": [
+        "Epiphone G400"
+      ],
+      "popularity": 11080,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Epiphone G-400"
+    },
+    {
+      "name": "Konghou",
+      "aliases": [],
+      "popularity": 11317,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Konghou"
+    },
+    {
+      "name": "Gibson J-160E",
+      "aliases": [],
+      "popularity": 11496,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Gibson J-160E"
+    },
+    {
+      "name": "Gibson ES-135",
+      "aliases": [],
+      "popularity": 11582,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Gibson ES-135"
+    },
+    {
+      "name": "Çifteli",
+      "aliases": [
+        "Chiftelia",
+        "Çiftelia",
+        "qifteli",
+        "Qiftelia"
+      ],
+      "popularity": 11654,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Çifteli"
+    },
+    {
+      "name": "Đàn bầu",
+      "aliases": [
+        "đàn độc huyền",
+        "dan bau"
+      ],
+      "popularity": 11687,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Đàn bầu"
+    },
+    {
+      "name": "Pochette",
+      "aliases": [
+        "kit violin",
+        "Pochette (musical instrument)",
+        "pocket fiddle",
+        "sardino"
+      ],
+      "popularity": 12005,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Pochette (musical instrument)"
+    },
+    {
+      "name": "Fender Jaguar Bass",
+      "aliases": [],
+      "popularity": 12167,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Fender Jaguar Bass"
+    },
+    {
+      "name": "Fender Telecaster Thinline",
+      "aliases": [],
+      "popularity": 12199,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Fender Telecaster Thinline"
+    },
+    {
+      "name": "Fretless guitar",
+      "aliases": [],
+      "popularity": 12267,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Fretless guitar"
+    },
+    {
+      "name": "Gibson Super 400",
+      "aliases": [],
+      "popularity": 12280,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Gibson Super 400"
+    },
+    {
+      "name": "Tololoche",
+      "aliases": [],
+      "popularity": 12318,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Tololoche"
+    },
+    {
+      "name": "Komuz",
+      "aliases": [],
+      "popularity": 12365,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Komuz"
+    },
+    {
+      "name": "Cümbüş",
+      "aliases": [],
+      "popularity": 12428,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Cümbüş"
+    },
+    {
+      "name": "Fender Mustang Bass",
+      "aliases": [],
+      "popularity": 12579,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Fender Mustang Bass"
+    },
+    {
+      "name": "Domra",
+      "aliases": [],
+      "popularity": 12700,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Domra"
+    },
+    {
+      "name": "Morsing",
+      "aliases": [
+        "morchang",
+        "morching",
+        "mourching",
+        "mukharshanku",
+        "murcang"
+      ],
+      "popularity": 12707,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Morsing"
+    },
+    {
+      "name": "Yamaha Pacifica",
+      "aliases": [],
+      "popularity": 12884,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Yamaha Pacifica"
+    },
+    {
+      "name": "Baryton",
+      "aliases": [
+        "bariton",
+        "barydon",
+        "lyra bastarda",
+        "paradon",
+        "paridon",
+        "pariton",
+        "viola di bardone",
+        "viola di bordone",
+        "viola paredon"
+      ],
+      "popularity": 13001,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Baryton"
+    },
+    {
+      "name": "Valiha",
+      "aliases": [],
+      "popularity": 13026,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Valiha"
+    },
+    {
+      "name": "Surbahar",
+      "aliases": [
+        "bass sitar"
+      ],
+      "popularity": 13162,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "Surbahar"
+    },
+    {
+      "name": "Jarana jarocha",
+      "aliases": [],
+      "popularity": 13331,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Jarana jarocha"
+    },
+    {
+      "name": "Gibson EB-3",
+      "aliases": [],
+      "popularity": 13975,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Gibson EB-3"
+    },
+    {
+      "name": "Frying Pan",
+      "aliases": [
+        "Fry-Pan",
+        "Frying Pan (guitar)",
+        "Rickenbacker Electro A-22"
+      ],
+      "popularity": 14054,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Frying Pan (guitar)"
+    },
+    {
+      "name": "Gibson ES-330",
+      "aliases": [],
+      "popularity": 14091,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Gibson ES-330"
+    },
+    {
+      "name": "Archlute",
+      "aliases": [],
+      "popularity": 14097,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Archlute"
+    },
+    {
+      "name": "Blaster beam",
+      "aliases": [
+        "the beam"
+      ],
+      "popularity": 14198,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Blaster beam"
+    },
+    {
+      "name": "Gibson Moderne",
+      "aliases": [
+        "Gibson Modern"
+      ],
+      "popularity": 14292,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Gibson Moderne"
+    },
+    {
+      "name": "Bass violin",
+      "aliases": [],
+      "popularity": 14362,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Bass violin"
+    },
+    {
+      "name": "Sintir",
+      "aliases": [
+        "gambri",
+        "gembré",
+        "gembri",
+        "gimbri",
+        "guembri",
+        "guimbri",
+        "gumbri",
+        "gunibrī",
+        "hajhouj",
+        "ḥajhūj",
+        "hajouj",
+        "hejhouj"
+      ],
+      "popularity": 14548,
+      "rarity": 0.252,
+      "tier": 2,
+      "wiki": "Sintir"
+    },
+    {
+      "name": "Jackson King V",
+      "aliases": [],
+      "popularity": 14558,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Jackson King V"
+    },
+    {
+      "name": "Arpeggione",
+      "aliases": [
+        "bowed guitar",
+        "guitar violoncello"
+      ],
+      "popularity": 14578,
+      "rarity": 0.249,
+      "tier": 2,
+      "wiki": "Arpeggione"
+    },
+    {
+      "name": "Barbat",
+      "aliases": [
+        "Barbat (lute)"
+      ],
+      "popularity": 14806,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Barbat (lute)"
+    },
+    {
+      "name": "Electric violin",
+      "aliases": [],
+      "popularity": 14812,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Electric violin"
+    },
+    {
+      "name": "Russian guitar",
+      "aliases": [],
+      "popularity": 14966,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Russian guitar"
+    },
+    {
+      "name": "Starcaster by Fender",
+      "aliases": [],
+      "popularity": 15039,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Starcaster by Fender"
+    },
+    {
+      "name": "Ruan",
+      "aliases": [
+        "Ruan (instrument)"
+      ],
+      "popularity": 15128,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Ruan (instrument)"
+    },
+    {
+      "name": "Tamburica",
+      "aliases": [],
+      "popularity": 15528,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Tamburica"
+    },
+    {
+      "name": "Extended-range bass",
+      "aliases": [],
+      "popularity": 15539,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Extended-range bass"
+    },
+    {
+      "name": "Octave mandolin",
+      "aliases": [],
+      "popularity": 15610,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Octave mandolin"
+    },
+    {
+      "name": "Fender Jag-Stang",
+      "aliases": [],
+      "popularity": 15625,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Fender Jag-Stang"
+    },
+    {
+      "name": "Tres",
+      "aliases": [
+        "Tres (instrument)"
+      ],
+      "popularity": 15816,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Tres (instrument)"
+    },
+    {
+      "name": "Tiple",
+      "aliases": [],
+      "popularity": 15966,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Tiple"
+    },
+    {
+      "name": "Kobyz",
+      "aliases": [
+        "qobuz",
+        "qobyz"
+      ],
+      "popularity": 15994,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Kobyz"
+    },
+    {
+      "name": "Rickenbacker 360/12",
+      "aliases": [],
+      "popularity": 16020,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Rickenbacker 360/12"
+    },
+    {
+      "name": "Gibson Les Paul Doublecut",
+      "aliases": [],
+      "popularity": 16025,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Gibson Les Paul Doublecut"
+    },
+    {
+      "name": "Jazz guitar",
+      "aliases": [
+        "guitar jazz"
+      ],
+      "popularity": 16054,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Jazz guitar"
+    },
+    {
+      "name": "Tumbi",
+      "aliases": [],
+      "popularity": 16218,
+      "rarity": 0.225,
+      "tier": 2,
+      "wiki": "Tumbi"
+    },
+    {
+      "name": "Banjo ukulele",
+      "aliases": [
+        "banjo uke",
+        "banjouke",
+        "banjulele",
+        "ukulele banjo"
+      ],
+      "popularity": 16256,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Banjo ukulele"
+    },
+    {
+      "name": "Fender Starcaster",
+      "aliases": [],
+      "popularity": 16360,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Fender Starcaster"
+    },
+    {
+      "name": "Gibson L-5",
+      "aliases": [],
+      "popularity": 16553,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Gibson L-5"
+    },
+    {
+      "name": "Epiphone Sheraton",
+      "aliases": [],
+      "popularity": 16748,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Epiphone Sheraton"
+    },
+    {
+      "name": "Taishōgoto",
+      "aliases": [
+        "Nagoya harp",
+        "taisho-goto",
+        "Tashogoto"
+      ],
+      "popularity": 17033,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Taishōgoto"
+    },
+    {
+      "name": "Citole",
+      "aliases": [
+        "cedra",
+        "cetera",
+        "cetola",
+        "cetula",
+        "chytara",
+        "cistola",
+        "cistole",
+        "citera",
+        "cithar",
+        "citola",
+        "citula",
+        "cuitole",
+        "cythera",
+        "cythol",
+        "cytiole",
+        "cytolys",
+        "gytolle",
+        "sitole",
+        "sytholle",
+        "sytole",
+        "zitol"
+      ],
+      "popularity": 17037,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Citole"
+    },
+    {
+      "name": "Rickenbacker 325",
+      "aliases": [],
+      "popularity": 17177,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Rickenbacker 325"
+    },
+    {
+      "name": "Gibson Hummingbird",
+      "aliases": [
+        "Hummingbird"
+      ],
+      "popularity": 17389,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Gibson Hummingbird"
+    },
+    {
+      "name": "Puerto Rican cuatro",
+      "aliases": [
+        "cuatro puertorriqueño"
+      ],
+      "popularity": 17398,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Puerto Rican cuatro"
+    },
+    {
+      "name": "Byzantine lyra",
+      "aliases": [],
+      "popularity": 17517,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Byzantine lyra"
+    },
+    {
+      "name": "Martin D-28",
+      "aliases": [],
+      "popularity": 17637,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Martin D-28"
+    },
+    {
+      "name": "Eight-string guitar",
+      "aliases": [
+        "8-string",
+        "8-string guitar"
+      ],
+      "popularity": 17832,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Eight-string guitar"
+    },
+    {
+      "name": "Gusli",
+      "aliases": [],
+      "popularity": 17901,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Gusli"
+    },
+    {
+      "name": "Bandurria",
+      "aliases": [],
+      "popularity": 18191,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Bandurria"
+    },
+    {
+      "name": "Gibson ES-150",
+      "aliases": [],
+      "popularity": 18357,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Gibson ES-150"
+    },
+    {
+      "name": "Viola d'amore",
+      "aliases": [
+        "viole d'amour"
+      ],
+      "popularity": 18468,
+      "rarity": 0.2,
+      "tier": 2,
+      "wiki": "Viola d'amore"
+    },
+    {
+      "name": "Semi-acoustic guitar",
+      "aliases": [
+        "hollow-body electric"
+      ],
+      "popularity": 18849,
+      "rarity": 0.199,
+      "tier": 1,
+      "wiki": "Semi-acoustic guitar"
+    },
+    {
+      "name": "Dilruba",
+      "aliases": [
+        "dilrupa"
+      ],
+      "popularity": 18925,
+      "rarity": 0.197,
+      "tier": 1,
+      "wiki": "Dilruba"
+    },
+    {
+      "name": "Fender Duo-Sonic",
+      "aliases": [],
+      "popularity": 19029,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Fender Duo-Sonic"
+    },
+    {
+      "name": "Vielle",
+      "aliases": [],
+      "popularity": 19091,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Vielle"
+    },
+    {
+      "name": "Parker Fly",
+      "aliases": [],
+      "popularity": 19200,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Parker Fly"
+    },
+    {
+      "name": "Mandocello",
+      "aliases": [
+        "liuto cantabile",
+        "liuto moderno",
+        "mando-cello",
+        "mandoloncello"
+      ],
+      "popularity": 19211,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Mandocello"
+    },
+    {
+      "name": "Violone",
+      "aliases": [
+        "double bass viol"
+      ],
+      "popularity": 19222,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Violone"
+    },
+    {
+      "name": "Jackson Rhoads",
+      "aliases": [],
+      "popularity": 19350,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Jackson Rhoads"
+    },
+    {
+      "name": "Rebec",
+      "aliases": [
+        "patchi",
+        "rebecha",
+        "rebeckha"
+      ],
+      "popularity": 19522,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Rebec"
+    },
+    {
+      "name": "Baroque guitar",
+      "aliases": [],
+      "popularity": 20120,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Baroque guitar"
+    },
+    {
+      "name": "Guitalele",
+      "aliases": [],
+      "popularity": 20178,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Guitalele"
+    },
+    {
+      "name": "Diddley bow",
+      "aliases": [],
+      "popularity": 20253,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Diddley bow"
+    },
+    {
+      "name": "Bowed string instrument",
+      "aliases": [
+        "bowed stringed instrument",
+        "bowed strings"
+      ],
+      "popularity": 20260,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Bowed string instrument"
+    },
+    {
+      "name": "Pedal harp",
+      "aliases": [
+        "concert harp",
+        "double-pedal harp"
+      ],
+      "popularity": 20461,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Pedal harp"
+    },
+    {
+      "name": "Sanshin",
+      "aliases": [],
+      "popularity": 20778,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "Sanshin"
+    },
+    {
+      "name": "Electric sitar",
+      "aliases": [],
+      "popularity": 20851,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Electric sitar"
+    },
+    {
+      "name": "Gibson Thunderbird",
+      "aliases": [],
+      "popularity": 20946,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Gibson Thunderbird"
+    },
+    {
+      "name": "Guitar synthesizer",
+      "aliases": [],
+      "popularity": 20989,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Guitar synthesizer"
+    },
+    {
+      "name": "Plucked string instrument",
+      "aliases": [
+        "plucked instruments"
+      ],
+      "popularity": 21434,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Plucked string instrument"
+    },
+    {
+      "name": "Saraswati veena",
+      "aliases": [
+        "Sarasvatī vīṇa",
+        "Saraswati vina"
+      ],
+      "popularity": 21812,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Saraswati veena"
+    },
+    {
+      "name": "Gibson ES Series",
+      "aliases": [],
+      "popularity": 21964,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Gibson ES Series"
+    },
+    {
+      "name": "Esraj",
+      "aliases": [
+        "israj"
+      ],
+      "popularity": 23004,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Esraj"
+    },
+    {
+      "name": "Gibson Byrdland",
+      "aliases": [],
+      "popularity": 23092,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "Gibson Byrdland"
+    },
+    {
+      "name": "Gittern",
+      "aliases": [
+        "gitterne"
+      ],
+      "popularity": 23131,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Gittern"
+    },
+    {
+      "name": "Multi-neck guitar",
+      "aliases": [],
+      "popularity": 23548,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Multi-neck guitar"
+    },
+    {
+      "name": "Washtub bass",
+      "aliases": [
+        "gutbucket"
+      ],
+      "popularity": 23808,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Washtub bass"
+    },
+    {
+      "name": "Acoustic bass guitar",
+      "aliases": [
+        "bass acoustic guitar"
+      ],
+      "popularity": 23899,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Acoustic bass guitar"
+    },
+    {
+      "name": "Bajo sexto",
+      "aliases": [],
+      "popularity": 24445,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Bajo sexto"
+    },
+    {
+      "name": "Dombra",
+      "aliases": [
+        "dambora",
+        "dambura",
+        "dombıra",
+        "dombira",
+        "dombyra"
+      ],
+      "popularity": 24488,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Dombra"
+    },
+    {
+      "name": "Portuguese guitar",
+      "aliases": [],
+      "popularity": 24567,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Portuguese guitar"
+    },
+    {
+      "name": "Gibson Les Paul Junior",
+      "aliases": [
+        "Les Paul Junior"
+      ],
+      "popularity": 24669,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Gibson Les Paul Junior"
+    },
+    {
+      "name": "Marxophone",
+      "aliases": [],
+      "popularity": 25264,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Marxophone"
+    },
+    {
+      "name": "Gusle",
+      "aliases": [
+        "lahuta"
+      ],
+      "popularity": 25755,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Gusle"
+    },
+    {
+      "name": "Gibson EDS-1275",
+      "aliases": [],
+      "popularity": 25822,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Gibson EDS-1275"
+    },
+    {
+      "name": "Gibson Les Paul Custom",
+      "aliases": [],
+      "popularity": 25917,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Gibson Les Paul Custom"
+    },
+    {
+      "name": "Music Man StingRay",
+      "aliases": [],
+      "popularity": 27043,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Music Man StingRay"
+    },
+    {
+      "name": "Cavaquinho",
+      "aliases": [
+        "cavakinho"
+      ],
+      "popularity": 27316,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Cavaquinho"
+    },
+    {
+      "name": "Mandola",
+      "aliases": [
+        "octave mandola"
+      ],
+      "popularity": 27923,
+      "rarity": 0.142,
+      "tier": 1,
+      "wiki": "Mandola"
+    },
+    {
+      "name": "Archtop guitar",
+      "aliases": [],
+      "popularity": 28084,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Archtop guitar"
+    },
+    {
+      "name": "Seven-string guitar",
+      "aliases": [],
+      "popularity": 28245,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Seven-string guitar"
+    },
+    {
+      "name": "Steel-string acoustic guitar",
+      "aliases": [
+        "country guitar",
+        "folk guitar",
+        "Western guitar"
+      ],
+      "popularity": 28301,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Steel-string acoustic guitar"
+    },
+    {
+      "name": "Gayageum",
+      "aliases": [
+        "chongak kayagum",
+        "gayagŭm",
+        "kaya kum",
+        "kayago",
+        "kayagum",
+        "kayakko",
+        "kayako",
+        "kayakum"
+      ],
+      "popularity": 28563,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Gayageum"
+    },
+    {
+      "name": "Kamancheh",
+      "aliases": [
+        "kamanche",
+        "kamānches"
+      ],
+      "popularity": 28658,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Kamancheh"
+    },
+    {
+      "name": "Cuatro (instrument)",
+      "aliases": [],
+      "popularity": 28983,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Cuatro (instrument)"
+    },
+    {
+      "name": "Crwth",
+      "aliases": [
+        "crotta",
+        "crowd",
+        "rote"
+      ],
+      "popularity": 29474,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Crwth"
+    },
+    {
+      "name": "Tar (string instrument)",
+      "aliases": [
+        "t'ār",
+        "taar"
+      ],
+      "popularity": 29634,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Tar (string instrument)"
+    },
+    {
+      "name": "Gibson ES-175",
+      "aliases": [
+        "Gibson ES-175D"
+      ],
+      "popularity": 30110,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Gibson ES-175"
+    },
+    {
+      "name": "Lucille",
+      "aliases": [
+        "Lucille (guitar)"
+      ],
+      "popularity": 30120,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Lucille (guitar)"
+    },
+    {
+      "name": "Bandura",
+      "aliases": [],
+      "popularity": 30163,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Bandura"
+    },
+    {
+      "name": "Berimbau",
+      "aliases": [
+        "Aunene",
+        "Berimbau musical bow",
+        "Sekitulege"
+      ],
+      "popularity": 30183,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Berimbau"
+    },
+    {
+      "name": "Cittern",
+      "aliases": [
+        "cithren"
+      ],
+      "popularity": 30499,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Cittern"
+    },
+    {
+      "name": "Flamenco guitar",
+      "aliases": [
+        "picados"
+      ],
+      "popularity": 30794,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "Flamenco guitar"
+    },
+    {
+      "name": "Fretless bass",
+      "aliases": [],
+      "popularity": 31069,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Fretless bass"
+    },
+    {
+      "name": "Gibson Firebird",
+      "aliases": [],
+      "popularity": 31155,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Gibson Firebird"
+    },
+    {
+      "name": "Dreadnought",
+      "aliases": [
+        "D-size guitar",
+        "Dreadnought (guitar type)"
+      ],
+      "popularity": 31242,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Dreadnought (guitar type)"
+    },
+    {
+      "name": "Spinet",
+      "aliases": [
+        "spinnet"
+      ],
+      "popularity": 31609,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Spinet"
+    },
+    {
+      "name": "Superstrat",
+      "aliases": [],
+      "popularity": 32712,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Superstrat"
+    },
+    {
+      "name": "Rebab",
+      "aliases": [],
+      "popularity": 32943,
+      "rarity": 0.112,
+      "tier": 1,
+      "wiki": "Rebab"
+    },
+    {
+      "name": "Psaltery",
+      "aliases": [
+        "psalterium",
+        "sawtry"
+      ],
+      "popularity": 33305,
+      "rarity": 0.11,
+      "tier": 1,
+      "wiki": "Psaltery"
+    },
+    {
+      "name": "Kantele",
+      "aliases": [],
+      "popularity": 33806,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Kantele"
+    },
+    {
+      "name": "Hardanger fiddle",
+      "aliases": [
+        "Harding fiddle",
+        "hardingfele"
+      ],
+      "popularity": 34090,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Hardanger fiddle"
+    },
+    {
+      "name": "Santur",
+      "aliases": [
+        "santoor"
+      ],
+      "popularity": 34682,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Santur"
+    },
+    {
+      "name": "Epiphone Casino",
+      "aliases": [],
+      "popularity": 34898,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Epiphone Casino"
+    },
+    {
+      "name": "Rubab",
+      "aliases": [
+        "Afghan lute",
+        "rabab",
+        "rabob",
+        "robab",
+        "Rubab (instrument)"
+      ],
+      "popularity": 36316,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Rubab (instrument)"
+    },
+    {
+      "name": "Rickenbacker 4001",
+      "aliases": [],
+      "popularity": 37190,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "Rickenbacker 4001"
+    },
+    {
+      "name": "Sarangi",
+      "aliases": [],
+      "popularity": 37402,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Sarangi"
+    },
+    {
+      "name": "Setar",
+      "aliases": [
+        "Iranian setar",
+        "saitār",
+        "sehtār",
+        "setā",
+        "setór",
+        "sihtār"
+      ],
+      "popularity": 38817,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Setar"
+    },
+    {
+      "name": "Sarod",
+      "aliases": [
+        "sarode"
+      ],
+      "popularity": 38890,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Sarod"
+    },
+    {
+      "name": "Fender Mustang",
+      "aliases": [],
+      "popularity": 39405,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Fender Mustang"
+    },
+    {
+      "name": "Fender Jazz Bass",
+      "aliases": [],
+      "popularity": 40130,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Fender Jazz Bass"
+    },
+    {
+      "name": "Virginals",
+      "aliases": [
+        "spinet virginal",
+        "virginal"
+      ],
+      "popularity": 40346,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Virginals"
+    },
+    {
+      "name": "Vihuela",
+      "aliases": [],
+      "popularity": 41241,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Vihuela"
+    },
+    {
+      "name": "Charango",
+      "aliases": [],
+      "popularity": 41905,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Charango"
+    },
+    {
+      "name": "Celtic harp",
+      "aliases": [
+        "celtic harps",
+        "cláirseach",
+        "clàrsach",
+        "Gaelic harp",
+        "Irish harp"
+      ],
+      "popularity": 42567,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Celtic harp"
+    },
+    {
+      "name": "Biwa",
+      "aliases": [],
+      "popularity": 42738,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Biwa"
+    },
+    {
+      "name": "Gibson Explorer",
+      "aliases": [
+        "Gibson Futura",
+        "Gibson x-plorer"
+      ],
+      "popularity": 45563,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Gibson Explorer"
+    },
+    {
+      "name": "Höfner 500/1",
+      "aliases": [],
+      "popularity": 46174,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Höfner 500/1"
+    },
+    {
+      "name": "Twelve-string guitar",
+      "aliases": [
+        "12-string guitar"
+      ],
+      "popularity": 48577,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Twelve-string guitar"
+    },
+    {
+      "name": "Fender Jazzmaster",
+      "aliases": [
+        "Jazzmaster"
+      ],
+      "popularity": 49034,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Fender Jazzmaster"
+    },
+    {
+      "name": "Baritone guitar",
+      "aliases": [],
+      "popularity": 49618,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Baritone guitar"
+    },
+    {
+      "name": "Qanun",
+      "aliases": [
+        "ganoun",
+        "kanoon",
+        "kânûn",
+        "Qanun (instrument)"
+      ],
+      "popularity": 50012,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Qanun (instrument)"
+    },
+    {
+      "name": "Octobass",
+      "aliases": [],
+      "popularity": 50651,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Octobass"
+    },
+    {
+      "name": "Violin family",
+      "aliases": [],
+      "popularity": 55240,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Violin family"
+    },
+    {
+      "name": "Morin khuur",
+      "aliases": [
+        "hur",
+        "khil-khuur",
+        "ma tʻou chʻin",
+        "matou qin",
+        "matouqin",
+        "Mongolian horse-head fiddle"
+      ],
+      "popularity": 56109,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Morin khuur"
+    },
+    {
+      "name": "Gibson Flying V",
+      "aliases": [
+        "Flying V"
+      ],
+      "popularity": 56646,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Gibson Flying V"
+    },
+    {
+      "name": "Fender Bass VI",
+      "aliases": [],
+      "popularity": 57288,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Fender Bass VI"
+    },
+    {
+      "name": "Theorbo",
+      "aliases": [
+        "theorbe",
+        "theorbo-lute",
+        "theorboed lute"
+      ],
+      "popularity": 57639,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Theorbo"
+    },
+    {
+      "name": "Bağlama",
+      "aliases": [
+        "bağlama-saz",
+        "bağlamasaz",
+        "saz"
+      ],
+      "popularity": 61055,
+      "rarity": 0.066,
+      "tier": 1,
+      "wiki": "Bağlama"
+    },
+    {
+      "name": "Acoustic guitar",
+      "aliases": [
+        "chitara rece"
+      ],
+      "popularity": 61559,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Acoustic guitar"
+    },
+    {
+      "name": "Gibson ES-335",
+      "aliases": [
+        "ES-335"
+      ],
+      "popularity": 62265,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Gibson ES-335"
+    },
+    {
+      "name": "Fender Precision Bass",
+      "aliases": [
+        "P-Bass",
+        "Precision Bass"
+      ],
+      "popularity": 62407,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Fender Precision Bass"
+    },
+    {
+      "name": "Nyckelharpa",
+      "aliases": [
+        "keyed fiddle"
+      ],
+      "popularity": 68981,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Nyckelharpa"
+    },
+    {
+      "name": "Tanpura",
+      "aliases": [
+        "taanpura",
+        "tambura",
+        "tanipurani"
+      ],
+      "popularity": 70829,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Tanpura"
+    },
+    {
+      "name": "Clavichord",
+      "aliases": [],
+      "popularity": 73129,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Clavichord"
+    },
+    {
+      "name": "Pipa",
+      "aliases": [
+        "Chinese lute",
+        "East Asian necked lute",
+        "p'i-p'a"
+      ],
+      "popularity": 75648,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "Pipa"
+    },
+    {
+      "name": "Guqin",
+      "aliases": [
+        "5-string zither",
+        "7-string zither",
+        "ancient qin",
+        "Chinese lyre",
+        "Chinese psaltery",
+        "kin",
+        "kine",
+        "qin",
+        "qin zither"
+      ],
+      "popularity": 76580,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Guqin"
+    },
+    {
+      "name": "Lap steel guitar",
+      "aliases": [
+        "Hawaiian guitar"
+      ],
+      "popularity": 76682,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Lap steel guitar"
+    },
+    {
+      "name": "Gibson SG",
+      "aliases": [
+        "Gibson '61 SG",
+        "Gibson '61 SG Standard"
+      ],
+      "popularity": 77362,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "Gibson SG"
+    },
+    {
+      "name": "Resonator guitar",
+      "aliases": [
+        "dobro",
+        "resophonic guitar"
+      ],
+      "popularity": 78315,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Resonator guitar"
+    },
+    {
+      "name": "Steel guitar",
+      "aliases": [],
+      "popularity": 85155,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Steel guitar"
+    },
+    {
+      "name": "Chapman Stick",
+      "aliases": [],
+      "popularity": 85757,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Chapman Stick"
+    },
+    {
+      "name": "Koto",
+      "aliases": [
+        "Koto (instrument)"
+      ],
+      "popularity": 87265,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Koto (instrument)"
+    },
+    {
+      "name": "Classical guitar",
+      "aliases": [
+        "concert guitar",
+        "Modern classical guitar",
+        "nylon-string guitar",
+        "Spanish guitar"
+      ],
+      "popularity": 87521,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Classical guitar"
+    },
+    {
+      "name": "Pedal steel guitar",
+      "aliases": [
+        "pedal steel"
+      ],
+      "popularity": 88264,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Pedal steel guitar"
+    },
+    {
+      "name": "Guzheng",
+      "aliases": [
+        "zheng"
+      ],
+      "popularity": 89487,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Guzheng"
+    },
+    {
+      "name": "Hammered dulcimer",
+      "aliases": [
+        "hackbrett"
+      ],
+      "popularity": 94104,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Hammered dulcimer"
+    },
+    {
+      "name": "Erhu",
+      "aliases": [
+        "Chinese two-stringed fiddle",
+        "urheen"
+      ],
+      "popularity": 114341,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Erhu"
+    },
+    {
+      "name": "Viol",
+      "aliases": [],
+      "popularity": 114355,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Viol"
+    },
+    {
+      "name": "Fender Telecaster",
+      "aliases": [],
+      "popularity": 122237,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Fender Telecaster"
+    },
+    {
+      "name": "Harp",
+      "aliases": [
+        "harfa",
+        "pillar harp"
+      ],
+      "popularity": 128863,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Harp"
+    },
+    {
+      "name": "Fiddle",
+      "aliases": [
+        "fiddle-family",
+        "fiddles",
+        "folk violin"
+      ],
+      "popularity": 132092,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Fiddle"
+    },
+    {
+      "name": "Viola",
+      "aliases": [
+        "violas"
+      ],
+      "popularity": 145045,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Viola"
+    },
+    {
+      "name": "Lyre",
+      "aliases": [],
+      "popularity": 157147,
+      "rarity": 0.028,
+      "tier": 1,
+      "wiki": "Lyre"
+    },
+    {
+      "name": "Gibson Les Paul",
+      "aliases": [
+        "Les Paul Model"
+      ],
+      "popularity": 167234,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Gibson Les Paul"
+    },
+    {
+      "name": "Bass guitar",
+      "aliases": [
+        "bass"
+      ],
+      "popularity": 179162,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Bass guitar"
+    },
+    {
+      "name": "Fender Stratocaster",
+      "aliases": [
+        "Stratocaster"
+      ],
+      "popularity": 179466,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Fender Stratocaster"
+    },
+    {
+      "name": "Sitar",
+      "aliases": [],
+      "popularity": 186804,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Sitar"
+    },
+    {
+      "name": "Electric guitar",
+      "aliases": [
+        "e-guitar"
+      ],
+      "popularity": 187215,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Electric guitar"
+    },
+    {
+      "name": "Lute",
+      "aliases": [
+        "luth"
+      ],
+      "popularity": 188312,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Lute"
+    },
+    {
+      "name": "Oud",
+      "aliases": [
+        "Arab lute",
+        "outi"
+      ],
+      "popularity": 191778,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "Oud"
+    },
+    {
+      "name": "Banjo",
+      "aliases": [],
+      "popularity": 205546,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Banjo"
+    },
+    {
+      "name": "Stradivarius",
+      "aliases": [
+        "Stradivari",
+        "Stradivarius instrument",
+        "Stradivarius violin"
+      ],
+      "popularity": 209301,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Stradivarius"
+    },
+    {
+      "name": "Jew's harp",
+      "aliases": [
+        "drimba",
+        "Galician harp",
+        "gewgaw",
+        "guimbardes",
+        "jaw harp",
+        "jaw's harp",
+        "juice harp",
+        "khomus",
+        "murchunga",
+        "Ozark harp",
+        "trompe",
+        "trump"
+      ],
+      "popularity": 216432,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Jew's harp"
+    },
+    {
+      "name": "Cello",
+      "aliases": [
+        "violoncello"
+      ],
+      "popularity": 221741,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Cello"
+    },
+    {
+      "name": "Harpsichord",
+      "aliases": [
+        "cembalo",
+        "clavecin",
+        "clavicembalo"
+      ],
+      "popularity": 226560,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Harpsichord"
+    },
+    {
+      "name": "Violin",
+      "aliases": [],
+      "popularity": 228773,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Violin"
+    },
+    {
+      "name": "Mandolin",
+      "aliases": [
+        "Brazilian bandolim",
+        "Brescian mandolin",
+        "Cremonese mandolin",
+        "flat-backed mandolin",
+        "Florentine mandolin",
+        "Genoese mandolin",
+        "Lombardian mandolin",
+        "mandoline",
+        "Milanese mandolin",
+        "Tuscan mandolin"
+      ],
+      "popularity": 232831,
+      "rarity": 0.006,
+      "tier": 1,
+      "wiki": "Mandolin"
+    },
+    {
+      "name": "Ukulele",
+      "aliases": [
+        "taro patch fiddle",
+        "taropatch",
+        "ʻuke",
+        "ukelele",
+        "yukelele"
+      ],
+      "popularity": 242238,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Ukulele"
+    },
+    {
+      "name": "Double bass",
+      "aliases": [
+        "bass viol",
+        "bull fiddle",
+        "contrabass",
+        "doghouse bass",
+        "jazz bass",
+        "stand-up bass",
+        "string bass",
+        "upright bass"
+      ],
+      "popularity": 248023,
+      "rarity": 0.003,
+      "tier": 1,
+      "wiki": "Double bass"
+    },
+    {
+      "name": "Hurdy-gurdy",
+      "aliases": [
+        "organistrum",
+        "vieille",
+        "vielle à roue",
+        "wheel fiddle",
+        "wheel vielle"
+      ],
+      "popularity": 272167,
+      "rarity": 0.002,
+      "tier": 1,
+      "wiki": "Hurdy-gurdy"
+    },
+    {
+      "name": "Guitar",
+      "aliases": [],
+      "popularity": 328138,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Guitar"
+    }
+  ]
+}

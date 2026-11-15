@@ -1,0 +1,1690 @@
+{
+  "id": "writing-systems",
+  "slug": "writing-systems",
+  "category": "history",
+  "question": "Name a writing system",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Maore Latin Alphabet",
+      "aliases": [
+        "Maore Latin",
+        "Shimaore Latin Alphabet"
+      ],
+      "popularity": 4,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Maore Latin Alphabet"
+    },
+    {
+      "name": "Maore Arabic Alphabet",
+      "aliases": [
+        "Maore Ajami",
+        "Shimaore Ajami",
+        "Shimaore Arabic Alphabet"
+      ],
+      "popularity": 8,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Maore Arabic Alphabet"
+    },
+    {
+      "name": "Aragonese writing systems",
+      "aliases": [],
+      "popularity": 15,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Aragonese writing systems"
+    },
+    {
+      "name": "Early Dynastic cuneiform",
+      "aliases": [],
+      "popularity": 23,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Early Dynastic cuneiform"
+    },
+    {
+      "name": "ISO 15924:Hanb",
+      "aliases": [
+        "Han + Bopomofo",
+        "Han with Bopomofo"
+      ],
+      "popularity": 32,
+      "rarity": 0.975,
+      "tier": 6,
+      "wiki": "ISO 15924:Hanb"
+    },
+    {
+      "name": "ISO 15924:Hntl",
+      "aliases": [
+        "traditional Han characters with Latin"
+      ],
+      "popularity": 33,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "ISO 15924:Hntl"
+    },
+    {
+      "name": "Informal Roman Urdu",
+      "aliases": [],
+      "popularity": 42,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Informal Roman Urdu"
+    },
+    {
+      "name": "Litumol script",
+      "aliases": [],
+      "popularity": 248,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Litumol script"
+    },
+    {
+      "name": "Oscan alphabet",
+      "aliases": [],
+      "popularity": 255,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Oscan alphabet"
+    },
+    {
+      "name": "Medew Netcher",
+      "aliases": [
+        "Ancient Egyptian writing systems",
+        "Writing in Ancient Egypt"
+      ],
+      "popularity": 294,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Medew Netcher"
+    },
+    {
+      "name": "Hàn-lô",
+      "aliases": [
+        "Hàn-lô Tâi-bûn",
+        "Hanlo"
+      ],
+      "popularity": 350,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Hàn-lô"
+    },
+    {
+      "name": "Sumero-Akkadian cuneiform",
+      "aliases": [
+        "Akkadian cuneiform",
+        "Akkadian script",
+        "Akkadian writing",
+        "Summero-Akkadian cuneiform"
+      ],
+      "popularity": 397,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Sumero-Akkadian cuneiform"
+    },
+    {
+      "name": "Ancient Kamarupi script",
+      "aliases": [
+        "ancient Assamese",
+        "ancient Assamese script",
+        "Gaudi",
+        "Gaudi script",
+        "Kamarupi",
+        "Kamarupi script",
+        "Kamrupi",
+        "Kamrupi script"
+      ],
+      "popularity": 445,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Ancient Kamarupi script"
+    },
+    {
+      "name": "Tajik alphabets",
+      "aliases": [
+        "Tajik alphabet",
+        "Tajik Cyrillic alphabet"
+      ],
+      "popularity": 573,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Tajik alphabets"
+    },
+    {
+      "name": "Hebrew square script",
+      "aliases": [
+        "square script"
+      ],
+      "popularity": 585,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Hebrew square script"
+    },
+    {
+      "name": "Mundi script",
+      "aliases": [],
+      "popularity": 646,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Mundi script"
+    },
+    {
+      "name": "Yaryzhka",
+      "aliases": [],
+      "popularity": 998,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Yaryzhka"
+    },
+    {
+      "name": "World Orthography",
+      "aliases": [],
+      "popularity": 1014,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "World Orthography"
+    },
+    {
+      "name": "Pre-reform orthography",
+      "aliases": [
+        "Petrine orthography",
+        "pre-revolutionary orthography",
+        "Russian orthography before 1918",
+        "Tsarist orthography"
+      ],
+      "popularity": 1114,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Pre-reform orthography"
+    },
+    {
+      "name": "Komering script",
+      "aliases": [],
+      "popularity": 1142,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Komering script"
+    },
+    {
+      "name": "Karshoni",
+      "aliases": [
+        "Karshoni Alphabet",
+        "Malayalam Karshon",
+        "Nasrani lipi",
+        "suriyāni malayāḷaṁ lipi"
+      ],
+      "popularity": 1202,
+      "rarity": 0.874,
+      "tier": 5,
+      "wiki": "Karshoni"
+    },
+    {
+      "name": "Dham script",
+      "aliases": [],
+      "popularity": 1246,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Dham script"
+    },
+    {
+      "name": "Meyer–Wempe",
+      "aliases": [],
+      "popularity": 1287,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Meyer–Wempe"
+    },
+    {
+      "name": "Chu script",
+      "aliases": [],
+      "popularity": 1316,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Chu script"
+    },
+    {
+      "name": "Fakoo",
+      "aliases": [],
+      "popularity": 1334,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Fakoo"
+    },
+    {
+      "name": "Langdi",
+      "aliases": [],
+      "popularity": 1339,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Langdi"
+    },
+    {
+      "name": "Sidetic script",
+      "aliases": [
+        "Sidetic",
+        "Sidetic alphabet",
+        "Sidt"
+      ],
+      "popularity": 1348,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Sidetic script"
+    },
+    {
+      "name": "Anga Lipi",
+      "aliases": [],
+      "popularity": 1460,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Anga Lipi"
+    },
+    {
+      "name": "Mari alphabet",
+      "aliases": [],
+      "popularity": 1461,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Mari alphabet"
+    },
+    {
+      "name": "Tamyig",
+      "aliases": [
+        "Tamyig script"
+      ],
+      "popularity": 1513,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Tamyig"
+    },
+    {
+      "name": "Dobrujan Tatar alphabet",
+      "aliases": [],
+      "popularity": 1586,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Dobrujan Tatar alphabet"
+    },
+    {
+      "name": "Ogan script",
+      "aliases": [
+        "Ogan",
+        "Ogan alphabet"
+      ],
+      "popularity": 1844,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Ogan script"
+    },
+    {
+      "name": "Bonda script",
+      "aliases": [
+        "Suwawa script"
+      ],
+      "popularity": 1883,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Bonda script"
+    },
+    {
+      "name": "Thai spelling reform of 1942",
+      "aliases": [],
+      "popularity": 1904,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Thai spelling reform of 1942"
+    },
+    {
+      "name": "Koleluttu",
+      "aliases": [],
+      "popularity": 2076,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Koleluttu"
+    },
+    {
+      "name": "Massachusett writing systems",
+      "aliases": [],
+      "popularity": 2188,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Massachusett writing systems"
+    },
+    {
+      "name": "Karani script",
+      "aliases": [
+        "Karani"
+      ],
+      "popularity": 2203,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Karani script"
+    },
+    {
+      "name": "Hyangch'al",
+      "aliases": [
+        "Hyangchal"
+      ],
+      "popularity": 2217,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Hyangch'al"
+    },
+    {
+      "name": "Leke script",
+      "aliases": [
+        "Karen Chicken Scratch script",
+        "Leke"
+      ],
+      "popularity": 2220,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Leke script"
+    },
+    {
+      "name": "Sindhi alphabet",
+      "aliases": [
+        "Sindhi Perso-Arabic script"
+      ],
+      "popularity": 2350,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Sindhi alphabet"
+    },
+    {
+      "name": "Incung script",
+      "aliases": [
+        "Incoung",
+        "Incoung script",
+        "Kerencong",
+        "Kerencong script",
+        "Kerinci alphabet",
+        "Kerinci script"
+      ],
+      "popularity": 2418,
+      "rarity": 0.748,
+      "tier": 4,
+      "wiki": "Incung script"
+    },
+    {
+      "name": "Teochew Romanization",
+      "aliases": [
+        "Pe̍h-ōe-jī-like Teochew",
+        "Pe̍h-ūe-jī",
+        "Swatow Church Romanization",
+        "Tiê-chiu Pe̍h-ūe-jī",
+        "Tiê-gṳ́ Pe̍h-ūe-jī",
+        "Tiô-chiu Pe̍h-ūe-jī",
+        "Tiô-gṳ́ Pe̍h-ūe-jī"
+      ],
+      "popularity": 2471,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Teochew Romanization"
+    },
+    {
+      "name": "Gbékoun script",
+      "aliases": [],
+      "popularity": 2584,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Gbékoun script"
+    },
+    {
+      "name": "Assamese script",
+      "aliases": [],
+      "popularity": 2707,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Assamese script"
+    },
+    {
+      "name": "Dhofari script",
+      "aliases": [],
+      "popularity": 2745,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Dhofari script"
+    },
+    {
+      "name": "Skoropis",
+      "aliases": [],
+      "popularity": 2762,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Skoropis"
+    },
+    {
+      "name": "Pushkarasari script",
+      "aliases": [
+        "Kohi script",
+        "Pushkarasari",
+        "Puṣkarasāri"
+      ],
+      "popularity": 3011,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Pushkarasari script"
+    },
+    {
+      "name": "Ukrainian orthography of 2019",
+      "aliases": [],
+      "popularity": 3109,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Ukrainian orthography of 2019"
+    },
+    {
+      "name": "Lampung script",
+      "aliases": [
+        "Aksara Lampung"
+      ],
+      "popularity": 3170,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Lampung script"
+    },
+    {
+      "name": "Todhri script",
+      "aliases": [
+        "Todhri",
+        "Todhri alphabet",
+        "Todr"
+      ],
+      "popularity": 3170,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Todhri script"
+    },
+    {
+      "name": "Gondi writing",
+      "aliases": [
+        "Gondi Script",
+        "Gonm",
+        "Masaram Gondi",
+        "Masaram Gondi script"
+      ],
+      "popularity": 3217,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Gondi writing"
+    },
+    {
+      "name": "Testerian",
+      "aliases": [],
+      "popularity": 3271,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Testerian"
+    },
+    {
+      "name": "Si5s",
+      "aliases": [],
+      "popularity": 3388,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Si5s"
+    },
+    {
+      "name": "Malayanma",
+      "aliases": [
+        "Malayanma script"
+      ],
+      "popularity": 3625,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Malayanma"
+    },
+    {
+      "name": "Sasak script",
+      "aliases": [],
+      "popularity": 3652,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Sasak script"
+    },
+    {
+      "name": "Taiwanese Hangul",
+      "aliases": [],
+      "popularity": 3743,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Taiwanese Hangul"
+    },
+    {
+      "name": "Ersu Shaba script",
+      "aliases": [],
+      "popularity": 3953,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Ersu Shaba script"
+    },
+    {
+      "name": "Nwagu Aneke script",
+      "aliases": [],
+      "popularity": 4008,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Nwagu Aneke script"
+    },
+    {
+      "name": "Buda script",
+      "aliases": [
+        "Aksara Buda",
+        "Gunung script",
+        "Merbabu script"
+      ],
+      "popularity": 4194,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Buda script"
+    },
+    {
+      "name": "Hurûf-ı munfasıla",
+      "aliases": [],
+      "popularity": 4209,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Hurûf-ı munfasıla"
+    },
+    {
+      "name": "Alifuru script",
+      "aliases": [],
+      "popularity": 4240,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Alifuru script"
+    },
+    {
+      "name": "Standard Form of National Characters",
+      "aliases": [
+        "Standard Typefaces for Chinese Characters"
+      ],
+      "popularity": 4429,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Standard Form of National Characters"
+    },
+    {
+      "name": "Khom script",
+      "aliases": [
+        "Khom script (Ong Kommadam)",
+        "Ong Khom scripts"
+      ],
+      "popularity": 4549,
+      "rarity": 0.61,
+      "tier": 4,
+      "wiki": "Khom script (Ong Kommadam)"
+    },
+    {
+      "name": "Naxi script",
+      "aliases": [],
+      "popularity": 4551,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Naxi script"
+    },
+    {
+      "name": "Greek Aljamiado",
+      "aliases": [],
+      "popularity": 4819,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Greek Aljamiado"
+    },
+    {
+      "name": "Shankhalipi",
+      "aliases": [
+        "Sankhalipi",
+        "Shankhalipi script"
+      ],
+      "popularity": 4866,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Shankhalipi"
+    },
+    {
+      "name": "Ariyaka script",
+      "aliases": [],
+      "popularity": 4915,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Ariyaka script"
+    },
+    {
+      "name": "Gadabuursi Somali Script",
+      "aliases": [
+        "Borama script",
+        "Gadabuursi script"
+      ],
+      "popularity": 4952,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Gadabuursi Somali Script"
+    },
+    {
+      "name": "Dunging script",
+      "aliases": [
+        "Iban script"
+      ],
+      "popularity": 5071,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Dunging script"
+    },
+    {
+      "name": "ASLwrite",
+      "aliases": [],
+      "popularity": 5725,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "ASLwrite"
+    },
+    {
+      "name": "Kugyŏl",
+      "aliases": [
+        "gugyeol"
+      ],
+      "popularity": 5764,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Kugyŏl"
+    },
+    {
+      "name": "Zaghawa script",
+      "aliases": [
+        "Beria alphabet",
+        "Beria Erfe",
+        "Beria Giray Erfe",
+        "Zaghawa alphabet"
+      ],
+      "popularity": 5788,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Zaghawa script"
+    },
+    {
+      "name": "Mon alphabet",
+      "aliases": [
+        "Mon script",
+        "Old Mon script"
+      ],
+      "popularity": 5884,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Mon alphabet"
+    },
+    {
+      "name": "Singapore Chinese characters",
+      "aliases": [],
+      "popularity": 5983,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Singapore Chinese characters"
+    },
+    {
+      "name": "Shan alphabet",
+      "aliases": [
+        "Lik Tai",
+        "Lik Tai script",
+        "Shan",
+        "Shan script",
+        "Tai Long alphabet",
+        "Tai Pong alphabet",
+        "Tai-Pong script",
+        "Tai Yai alphabet"
+      ],
+      "popularity": 6613,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Shan alphabet"
+    },
+    {
+      "name": "Garshuni",
+      "aliases": [],
+      "popularity": 6949,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Garshuni"
+    },
+    {
+      "name": "Hismaic",
+      "aliases": [],
+      "popularity": 7052,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Hismaic"
+    },
+    {
+      "name": "Ba–Shu scripts",
+      "aliases": [
+        "Ba-Shu pictographic scripts",
+        "Ba-Shu symbols"
+      ],
+      "popularity": 7651,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Ba–Shu scripts"
+    },
+    {
+      "name": "Great Lakes Algonquian syllabics",
+      "aliases": [
+        "Great Lakes Aboriginal syllabics",
+        "Great Lakes Algonquian syllabary",
+        "Western Great Lakes Syllabary"
+      ],
+      "popularity": 7683,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Great Lakes Algonquian syllabics"
+    },
+    {
+      "name": "Tai Noi script",
+      "aliases": [
+        "Lao Buhan alphabet",
+        "Old Lao script",
+        "Tai Noi alphabet",
+        "Thai Noi alphabet",
+        "Thai Noi script",
+        "Tua Wiang"
+      ],
+      "popularity": 7979,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Tai Noi script"
+    },
+    {
+      "name": "Okinawan scripts",
+      "aliases": [],
+      "popularity": 8024,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Okinawan scripts"
+    },
+    {
+      "name": "Nyiakeng Puachue Hmong",
+      "aliases": [
+        "Chervang script",
+        "Genesis Complete Hmong script",
+        "Hmong Kong Hmong",
+        "Pa Dao Hmong"
+      ],
+      "popularity": 8031,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Nyiakeng Puachue Hmong"
+    },
+    {
+      "name": "Elbasan script",
+      "aliases": [
+        "Elba",
+        "Elbasan alphabet"
+      ],
+      "popularity": 8052,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Elbasan script"
+    },
+    {
+      "name": "Pazend",
+      "aliases": [
+        "Pazand"
+      ],
+      "popularity": 8253,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Pazend"
+    },
+    {
+      "name": "Makasar script",
+      "aliases": [
+        "Maka",
+        "Makassarese bird script",
+        "Old Makassarese",
+        "Ukiri' Jangang-jangang"
+      ],
+      "popularity": 8259,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Makasar script"
+    },
+    {
+      "name": "Taiwanese Phonetic Symbols",
+      "aliases": [],
+      "popularity": 8950,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Taiwanese Phonetic Symbols"
+    },
+    {
+      "name": "Neo-Tifinagh",
+      "aliases": [],
+      "popularity": 10259,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "Neo-Tifinagh"
+    },
+    {
+      "name": "Kulitan",
+      "aliases": [
+        "Cúlitan",
+        "Kapampangan alphabet",
+        "Kapampangan script",
+        "Pampangan alphabet",
+        "Pampangan script"
+      ],
+      "popularity": 10260,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Kulitan"
+    },
+    {
+      "name": "Armeno-Turkish alphabet",
+      "aliases": [],
+      "popularity": 10515,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Armeno-Turkish alphabet"
+    },
+    {
+      "name": "Taiwanese kana",
+      "aliases": [
+        "nan-Kana-TW"
+      ],
+      "popularity": 10543,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Taiwanese kana"
+    },
+    {
+      "name": "Tâi-uân Lô-má-jī Phing-im Hong-àn",
+      "aliases": [
+        "Taiwanese Hokkien Romanization System",
+        "Taiwanese Romanization System",
+        "Taiwanese Southern Min Romanization Scheme",
+        "Taiwanese Taigi Romanization System"
+      ],
+      "popularity": 10770,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Tâi-uân Lô-má-jī Phing-im Hong-àn"
+    },
+    {
+      "name": "Celtiberian script",
+      "aliases": [
+        "Celtiberian"
+      ],
+      "popularity": 11582,
+      "rarity": 0.428,
+      "tier": 3,
+      "wiki": "Celtiberian script"
+    },
+    {
+      "name": "Iberian scripts",
+      "aliases": [],
+      "popularity": 11627,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Iberian scripts"
+    },
+    {
+      "name": "Oduduwa script",
+      "aliases": [
+        "Oduduwa alphabet"
+      ],
+      "popularity": 11924,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Oduduwa script"
+    },
+    {
+      "name": "Book Pahlavi",
+      "aliases": [
+        "Phlv"
+      ],
+      "popularity": 12320,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Book Pahlavi"
+    },
+    {
+      "name": "Malachim",
+      "aliases": [],
+      "popularity": 12355,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Malachim"
+    },
+    {
+      "name": "Swahili Ajami",
+      "aliases": [
+        "Arabic Swahili alphabet",
+        "wahili Ajami script"
+      ],
+      "popularity": 12705,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Swahili Ajami"
+    },
+    {
+      "name": "Tai Viet script",
+      "aliases": [
+        "Black Tai alphabet",
+        "dai² dam⁵",
+        "Dai Dam script",
+        "Tai Dam alphabet",
+        "Tai Dón Việt Nam",
+        "Tai Viet",
+        "Tavt",
+        "Unified Tai script",
+        "Vietnamese White Tai alphabet"
+      ],
+      "popularity": 12869,
+      "rarity": 0.39,
+      "tier": 2,
+      "wiki": "Tai Viet script"
+    },
+    {
+      "name": "Rasm",
+      "aliases": [],
+      "popularity": 13389,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Rasm"
+    },
+    {
+      "name": "Obsolete Hangul jamo",
+      "aliases": [
+        "Old Hangul"
+      ],
+      "popularity": 13891,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Obsolete Hangul jamo"
+    },
+    {
+      "name": "Paleohispanic scripts",
+      "aliases": [],
+      "popularity": 14033,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Paleohispanic scripts"
+    },
+    {
+      "name": "Ukrainian Latin alphabet",
+      "aliases": [
+        "Latynka"
+      ],
+      "popularity": 14360,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Ukrainian Latin alphabet"
+    },
+    {
+      "name": "Sukhothai script",
+      "aliases": [
+        "Lai Sue Thai",
+        "proto-Thai script",
+        "Ram Khamhaeng alphabet",
+        "Sukhodaya script"
+      ],
+      "popularity": 14605,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Sukhothai script"
+    },
+    {
+      "name": "Perso-Arabic script",
+      "aliases": [
+        "Persian orthography",
+        "Perso-Arabic-based script",
+        "Perso-Arabic orthography",
+        "Perso-Arabic scripts"
+      ],
+      "popularity": 15759,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "Perso-Arabic script"
+    },
+    {
+      "name": "Idu script",
+      "aliases": [
+        "Idu"
+      ],
+      "popularity": 16035,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Idu script"
+    },
+    {
+      "name": "Dongba symbols",
+      "aliases": [
+        "na²¹ ɕi³³ to³³ba²¹",
+        "Nakhi Tomba",
+        "Naxi Dongba",
+        "Nkdb"
+      ],
+      "popularity": 17432,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Dongba symbols"
+    },
+    {
+      "name": "Zapotec script",
+      "aliases": [
+        "Zapotec writing"
+      ],
+      "popularity": 18421,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Zapotec script"
+    },
+    {
+      "name": "Batak script",
+      "aliases": [
+        "Batak alphabet",
+        "Batk"
+      ],
+      "popularity": 19314,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Batak script"
+    },
+    {
+      "name": "Traditional Chinese",
+      "aliases": [],
+      "popularity": 19584,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Traditional Chinese"
+    },
+    {
+      "name": "Simplified Chinese",
+      "aliases": [],
+      "popularity": 19983,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Simplified Chinese"
+    },
+    {
+      "name": "Second round of simplified Chinese characters",
+      "aliases": [],
+      "popularity": 20543,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Second round of simplified Chinese characters"
+    },
+    {
+      "name": "Khitan small script",
+      "aliases": [
+        "Kits"
+      ],
+      "popularity": 20733,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Khitan small script"
+    },
+    {
+      "name": "Mon–Burmese script",
+      "aliases": [
+        "Burmese",
+        "Burmese script",
+        "Mon–Burmese",
+        "Myanmar",
+        "Myanmar script",
+        "Mymr"
+      ],
+      "popularity": 21486,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Mon–Burmese script"
+    },
+    {
+      "name": "Pahawh Hmong",
+      "aliases": [
+        "Hmng",
+        "Pahauh Hmong"
+      ],
+      "popularity": 22627,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Pahawh Hmong"
+    },
+    {
+      "name": "Jurchen script",
+      "aliases": [
+        "Jurc",
+        "Jurchen"
+      ],
+      "popularity": 22951,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Jurchen script"
+    },
+    {
+      "name": "Pegon script",
+      "aliases": [
+        "Pegon",
+        "Pegon alphabet"
+      ],
+      "popularity": 23302,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Pegon script"
+    },
+    {
+      "name": "Khitan large script",
+      "aliases": [
+        "Kitl",
+        "KLS"
+      ],
+      "popularity": 23388,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Khitan large script"
+    },
+    {
+      "name": "Turkmen alphabet",
+      "aliases": [
+        "Turkmen orthography"
+      ],
+      "popularity": 23766,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Turkmen alphabet"
+    },
+    {
+      "name": "Written Cantonese",
+      "aliases": [],
+      "popularity": 24301,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Written Cantonese"
+    },
+    {
+      "name": "Arebica",
+      "aliases": [],
+      "popularity": 25005,
+      "rarity": 0.252,
+      "tier": 2,
+      "wiki": "Arebica"
+    },
+    {
+      "name": "Ojibwe writing systems",
+      "aliases": [
+        "Ojibwe \"hieroglyphs\"",
+        "Ojibwe writing system"
+      ],
+      "popularity": 25517,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Ojibwe writing systems"
+    },
+    {
+      "name": "Chinese bronze inscriptions",
+      "aliases": [],
+      "popularity": 27419,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Chinese bronze inscriptions"
+    },
+    {
+      "name": "Libyco-Berber alphabet",
+      "aliases": [
+        "Libyc script",
+        "Libyco-Berber",
+        "Libyco-Berber script",
+        "Numidian",
+        "Numidian script"
+      ],
+      "popularity": 29390,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Libyco-Berber alphabet"
+    },
+    {
+      "name": "Linear Elamite",
+      "aliases": [],
+      "popularity": 29401,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Linear Elamite"
+    },
+    {
+      "name": "Cursive hieroglyphs",
+      "aliases": [
+        "hieroglyphic book hand"
+      ],
+      "popularity": 29961,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Cursive hieroglyphs"
+    },
+    {
+      "name": "Small seal script",
+      "aliases": [
+        "hsiao-chuan",
+        "Qin Script",
+        "seal script",
+        "xiaozhuan"
+      ],
+      "popularity": 30862,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Small seal script"
+    },
+    {
+      "name": "Proto-Elamite script",
+      "aliases": [
+        "Pelm",
+        "Proto-Elamite"
+      ],
+      "popularity": 31097,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Proto-Elamite script"
+    },
+    {
+      "name": "Ol Chiki script",
+      "aliases": [
+        "Ol Cemet’",
+        "Ol Chiki",
+        "Ol Chiki alphabet",
+        "Ol Script",
+        "Olck",
+        "Santal",
+        "Santali Script"
+      ],
+      "popularity": 31155,
+      "rarity": 0.201,
+      "tier": 2,
+      "wiki": "Ol Chiki script"
+    },
+    {
+      "name": "CJK characters",
+      "aliases": [
+        "CJK",
+        "CJK character"
+      ],
+      "popularity": 31910,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "CJK characters"
+    },
+    {
+      "name": "Balinese script",
+      "aliases": [
+        "Bali",
+        "Balinese",
+        "Balinese alphabet"
+      ],
+      "popularity": 32147,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Balinese script"
+    },
+    {
+      "name": "Cursive Hebrew",
+      "aliases": [],
+      "popularity": 32309,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Cursive Hebrew"
+    },
+    {
+      "name": "Kyūjitai",
+      "aliases": [
+        "traditional Japanese character",
+        "traditional Japanese characters"
+      ],
+      "popularity": 33246,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Kyūjitai"
+    },
+    {
+      "name": "Wylie transliteration",
+      "aliases": [],
+      "popularity": 34282,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Wylie transliteration"
+    },
+    {
+      "name": "Old Italic scripts",
+      "aliases": [
+        "Camunian alphabet",
+        "Faliscan alphabet",
+        "Ital",
+        "Lepontic alphabet",
+        "North Picene alphabet",
+        "Nucerian alphabet",
+        "Old Italic",
+        "Old Italic alphabet",
+        "Old Italic script",
+        "Rhaetic alphabet",
+        "South Picene alphabet",
+        "Umbrian alphabet",
+        "Venetic alphabet"
+      ],
+      "popularity": 34621,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Old Italic scripts"
+    },
+    {
+      "name": "Latin script in Unicode",
+      "aliases": [
+        "Latin alphabet in Unicode",
+        "Latin characters in Unicode"
+      ],
+      "popularity": 37816,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Latin script in Unicode"
+    },
+    {
+      "name": "Lao script",
+      "aliases": [
+        "Lao",
+        "Lao alphabet",
+        "Laoo"
+      ],
+      "popularity": 38306,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Lao script"
+    },
+    {
+      "name": "Shahmukhi",
+      "aliases": [
+        "Panjabi Shahmukhi",
+        "Perso-Arabic orthography for Punjabi",
+        "Punjabi Shahmukhi",
+        "Shah mukhi",
+        "Shahmukhi orthography",
+        "Shahmukhi Panjabi",
+        "Shahmukhi Punjabi",
+        "Shahmukhi script",
+        "Western Panjabi",
+        "Western Punjabi"
+      ],
+      "popularity": 38321,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Shahmukhi"
+    },
+    {
+      "name": "Kawi script",
+      "aliases": [
+        "Aksara kawi",
+        "Kawi",
+        "Old Javanese",
+        "Old Javanese script"
+      ],
+      "popularity": 41021,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Kawi script"
+    },
+    {
+      "name": "Shinjitai",
+      "aliases": [
+        "Shinjitai characters",
+        "Shinjitais",
+        "simplified Japanese character",
+        "simplified Japanese characters"
+      ],
+      "popularity": 45247,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Shinjitai"
+    },
+    {
+      "name": "Nüshu",
+      "aliases": [
+        "Nshu",
+        "Nü Shu"
+      ],
+      "popularity": 46515,
+      "rarity": 0.126,
+      "tier": 1,
+      "wiki": "Nüshu"
+    },
+    {
+      "name": "Avestan alphabet",
+      "aliases": [
+        "Avestan",
+        "Avestan script",
+        "Avst"
+      ],
+      "popularity": 52090,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Avestan alphabet"
+    },
+    {
+      "name": "International Alphabet of Sanskrit Transliteration",
+      "aliases": [
+        "IAST"
+      ],
+      "popularity": 55398,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "International Alphabet of Sanskrit Transliteration"
+    },
+    {
+      "name": "Inuktitut syllabics",
+      "aliases": [],
+      "popularity": 59469,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Inuktitut syllabics"
+    },
+    {
+      "name": "Pe̍h-ōe-jī",
+      "aliases": [
+        "Church Romanization"
+      ],
+      "popularity": 63366,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "Pe̍h-ōe-jī"
+    },
+    {
+      "name": "Etruscan alphabet",
+      "aliases": [],
+      "popularity": 64573,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Etruscan alphabet"
+    },
+    {
+      "name": "Kazakh alphabets",
+      "aliases": [
+        "Kazakh alphabet",
+        "Qazaqsa"
+      ],
+      "popularity": 72826,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Kazakh alphabets"
+    },
+    {
+      "name": "English orthography",
+      "aliases": [],
+      "popularity": 76993,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "English orthography"
+    },
+    {
+      "name": "Pahlavi scripts",
+      "aliases": [
+        "Middle Persian",
+        "Pahlavi",
+        "Pehlevi"
+      ],
+      "popularity": 84428,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Pahlavi scripts"
+    },
+    {
+      "name": "Jawi script",
+      "aliases": [
+        "Jawi",
+        "Jawi alphabet",
+        "ms-Arab"
+      ],
+      "popularity": 89639,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Jawi script"
+    },
+    {
+      "name": "Hieratic",
+      "aliases": [
+        "Egyh",
+        "Egyptian hieratic"
+      ],
+      "popularity": 94115,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Hieratic"
+    },
+    {
+      "name": "Syriac alphabet",
+      "aliases": [
+        "Syrc",
+        "Syriac",
+        "Syriac script"
+      ],
+      "popularity": 111093,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Syriac alphabet"
+    },
+    {
+      "name": "Oracle bone script",
+      "aliases": [
+        "Oracle-Bone Inscriptions"
+      ],
+      "popularity": 138547,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "Oracle bone script"
+    },
+    {
+      "name": "Glagolitic script",
+      "aliases": [
+        "Glag",
+        "Glagolitic",
+        "Glagolitic alphabet"
+      ],
+      "popularity": 148059,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Glagolitic script"
+    },
+    {
+      "name": "Japanese writing system",
+      "aliases": [
+        "Han + Hiragana + Katakana",
+        "Japanese script",
+        "Japanese writing systems",
+        "Jpan"
+      ],
+      "popularity": 209168,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Japanese writing system"
+    },
+    {
+      "name": "Hanja",
+      "aliases": [
+        "Hancha"
+      ],
+      "popularity": 237998,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Hanja"
+    },
+    {
+      "name": "Latin script",
+      "aliases": [
+        "Latn",
+        "Roman script"
+      ],
+      "popularity": 278114,
+      "rarity": 0.025,
+      "tier": 1,
+      "wiki": "Latin script"
+    },
+    {
+      "name": "Chinese characters",
+      "aliases": [
+        "Chinese script",
+        "Chữ Hán",
+        "Chữ Nôm",
+        "Han characters",
+        "Han ideographs",
+        "Han tu",
+        "Hani",
+        "Hanzi",
+        "ideographic characters",
+        "Kanji",
+        "sinograms",
+        "sinographs",
+        "traditional Korean characters",
+        "traditional Vietnamese characters",
+        "ven-tsee",
+        "wenzi"
+      ],
+      "popularity": 377394,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Chinese characters"
+    },
+    {
+      "name": "Cuneiform",
+      "aliases": [
+        "arrow-headed characters",
+        "cuneiform script",
+        "cuneiform writing",
+        "Sumero-Akkadia cuneiform",
+        "Xsux"
+      ],
+      "popularity": 486049,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Cuneiform"
+    },
+    {
+      "name": "Egyptian hieroglyphs",
+      "aliases": [
+        "Ancient Egyptian hieroglyphs",
+        "Egyptian hieroglyphic script",
+        "Egyptian hieroglyphics"
+      ],
+      "popularity": 544213,
+      "rarity": 0.006,
+      "tier": 1,
+      "wiki": "Egyptian hieroglyphs"
+    },
+    {
+      "name": "Cyrillic script",
+      "aliases": [
+        "Cyrillic",
+        "Cyrillic alphabet",
+        "cyrl",
+        "Kiril"
+      ],
+      "popularity": 632752,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Cyrillic script"
+    }
+  ]
+}

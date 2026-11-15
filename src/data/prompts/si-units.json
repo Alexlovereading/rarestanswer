@@ -1,0 +1,295 @@
+{
+  "id": "si-units",
+  "slug": "si-units",
+  "category": "science",
+  "question": "Name an SI unit",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Katal",
+      "aliases": [],
+      "popularity": 8007,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Katal"
+    },
+    {
+      "name": "Weber",
+      "aliases": [
+        "Weber (unit)"
+      ],
+      "popularity": 45839,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Weber (unit)"
+    },
+    {
+      "name": "Henry",
+      "aliases": [
+        "Henry (unit)"
+      ],
+      "popularity": 46933,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Henry (unit)"
+    },
+    {
+      "name": "Steradian",
+      "aliases": [
+        "square radian"
+      ],
+      "popularity": 56704,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Steradian"
+    },
+    {
+      "name": "Siemens",
+      "aliases": [
+        "Siemens (unit)"
+      ],
+      "popularity": 59018,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Siemens (unit)"
+    },
+    {
+      "name": "Becquerel",
+      "aliases": [],
+      "popularity": 79693,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Becquerel"
+    },
+    {
+      "name": "Farad",
+      "aliases": [],
+      "popularity": 89358,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Farad"
+    },
+    {
+      "name": "Candela",
+      "aliases": [],
+      "popularity": 93236,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Candela"
+    },
+    {
+      "name": "Lux",
+      "aliases": [],
+      "popularity": 103831,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Lux"
+    },
+    {
+      "name": "Tesla",
+      "aliases": [
+        "Tesla (unit)"
+      ],
+      "popularity": 113968,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Tesla (unit)"
+    },
+    {
+      "name": "Lumen",
+      "aliases": [
+        "Lumen (unit)"
+      ],
+      "popularity": 120058,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Lumen (unit)"
+    },
+    {
+      "name": "Gray",
+      "aliases": [
+        "Gray (unit)"
+      ],
+      "popularity": 127316,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Gray (unit)"
+    },
+    {
+      "name": "Sievert",
+      "aliases": [],
+      "popularity": 135567,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Sievert"
+    },
+    {
+      "name": "Radian",
+      "aliases": [
+        "rad"
+      ],
+      "popularity": 136198,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Radian"
+    },
+    {
+      "name": "Volt",
+      "aliases": [],
+      "popularity": 136521,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Volt"
+    },
+    {
+      "name": "Coulomb",
+      "aliases": [],
+      "popularity": 156858,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Coulomb"
+    },
+    {
+      "name": "Ohm",
+      "aliases": [],
+      "popularity": 161785,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Ohm"
+    },
+    {
+      "name": "Kilogram",
+      "aliases": [
+        "kg",
+        "kilo",
+        "kilogramme",
+        "kilograms"
+      ],
+      "popularity": 170642,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Kilogram"
+    },
+    {
+      "name": "Ampere",
+      "aliases": [
+        "amp",
+        "amperage",
+        "amperes",
+        "amps"
+      ],
+      "popularity": 185590,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Ampere"
+    },
+    {
+      "name": "Second",
+      "aliases": [
+        "sec",
+        "seconds"
+      ],
+      "popularity": 191900,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Second"
+    },
+    {
+      "name": "Newton",
+      "aliases": [
+        "Newton (unit)"
+      ],
+      "popularity": 195854,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Newton (unit)"
+    },
+    {
+      "name": "Hertz",
+      "aliases": [
+        "cps",
+        "cycles per second"
+      ],
+      "popularity": 207871,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Hertz"
+    },
+    {
+      "name": "Pascal",
+      "aliases": [
+        "Pascal (unit)"
+      ],
+      "popularity": 231443,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Pascal (unit)"
+    },
+    {
+      "name": "Mole",
+      "aliases": [
+        "mol",
+        "Mole (unit)"
+      ],
+      "popularity": 245424,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Mole (unit)"
+    },
+    {
+      "name": "Metre",
+      "aliases": [
+        "meter",
+        "meters",
+        "metres"
+      ],
+      "popularity": 250734,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Metre"
+    },
+    {
+      "name": "Watt",
+      "aliases": [
+        "watts"
+      ],
+      "popularity": 252047,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Watt"
+    },
+    {
+      "name": "Kelvin",
+      "aliases": [
+        "degrees Kelvin",
+        "Kelvin degrees"
+      ],
+      "popularity": 288744,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Kelvin"
+    },
+    {
+      "name": "Joule",
+      "aliases": [],
+      "popularity": 313617,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Joule"
+    },
+    {
+      "name": "Celsius",
+      "aliases": [
+        "centigrade",
+        "degree Celsius",
+        "degree centigrade",
+        "degrees Celsius",
+        "degrees centigrade"
+      ],
+      "popularity": 378121,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Celsius"
+    }
+  ]
+}

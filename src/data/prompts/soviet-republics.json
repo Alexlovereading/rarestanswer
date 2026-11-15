@@ -1,0 +1,256 @@
+{
+  "id": "soviet-republics",
+  "slug": "soviet-republics",
+  "category": "history",
+  "question": "Name a republic of the Soviet Union",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Tajik Soviet Socialist Republic",
+      "aliases": [
+        "Soviet Tadzhikistan",
+        "Soviet Tajikistan",
+        "Tadzhik Soviet Socialist Republic",
+        "Tadzhik SSR",
+        "Tajik SSR"
+      ],
+      "popularity": 49845,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Tajik Soviet Socialist Republic"
+    },
+    {
+      "name": "Turkmen Soviet Socialist Republic",
+      "aliases": [
+        "Soviet Turkmenia",
+        "Soviet Turkmenistan",
+        "Turkmen S.S.R.",
+        "Turkmen SSR"
+      ],
+      "popularity": 54140,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Turkmen Soviet Socialist Republic"
+    },
+    {
+      "name": "Kirghiz Soviet Socialist Republic",
+      "aliases": [
+        "Kirghiz S.S.R.",
+        "Kirghiz SSR",
+        "Kirgiz S.S.R.",
+        "Kirgiz Soviet Socialist Republic",
+        "Kirgiz SSR",
+        "Kyrgyz S.S.R.",
+        "Kyrgyz SSR",
+        "Soviet Kirghizia",
+        "Soviet Kirgizia"
+      ],
+      "popularity": 54511,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Kirghiz Soviet Socialist Republic"
+    },
+    {
+      "name": "Latvian Soviet Socialist Republic",
+      "aliases": [
+        "Latvian SSR",
+        "Latvijas Padomju Sociālistiskā Republika",
+        "Latvijas PSR",
+        "LPSR",
+        "LSSR",
+        "Soviet Latvia"
+      ],
+      "popularity": 60351,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Latvian Soviet Socialist Republic"
+    },
+    {
+      "name": "Lithuanian Soviet Socialist Republic",
+      "aliases": [
+        "Lietuvos Tarybų Socialistinė Respublika",
+        "Lietuvos TSR",
+        "Lithuanian SSR",
+        "Litovskaya Sovetskaya Sotsialisticheskaya Respublika",
+        "Soviet Lithuania"
+      ],
+      "popularity": 62293,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Lithuanian Soviet Socialist Republic"
+    },
+    {
+      "name": "Estonian Soviet Socialist Republic",
+      "aliases": [
+        "Estonian S.S.R",
+        "Estonian SSR",
+        "Soviet Estonia"
+      ],
+      "popularity": 70913,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Estonian Soviet Socialist Republic"
+    },
+    {
+      "name": "Uzbek Soviet Socialist Republic",
+      "aliases": [
+        "Soviet Uzbekistan",
+        "Uzbek S.S.R.",
+        "Uzbek SSR"
+      ],
+      "popularity": 78489,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Uzbek Soviet Socialist Republic"
+    },
+    {
+      "name": "Transcaucasian Socialist Federative Soviet Republic",
+      "aliases": [
+        "Transcaucasian SFSR",
+        "TSFSR"
+      ],
+      "popularity": 84512,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Transcaucasian Socialist Federative Soviet Republic"
+    },
+    {
+      "name": "Azerbaijan Soviet Socialist Republic",
+      "aliases": [
+        "Azerbaidzhan Soviet Socialist Republic",
+        "Azerbaidzhan SSR",
+        "Azerbaidzhani SSR",
+        "Azerbaijan SSR",
+        "Azerbaijani SSR",
+        "Azerbaydzhanskaya Sovetskaya Sotsialisticheskaya Respublika",
+        "Soviet Azerbaidzhan",
+        "Soviet Azerbaijan"
+      ],
+      "popularity": 86099,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Azerbaijan Soviet Socialist Republic"
+    },
+    {
+      "name": "Armenian Soviet Socialist Republic",
+      "aliases": [
+        "Armenian SSR"
+      ],
+      "popularity": 89745,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Armenian Soviet Socialist Republic"
+    },
+    {
+      "name": "Georgian Soviet Socialist Republic",
+      "aliases": [
+        "Georgian S.S.R.",
+        "Georgian SSR",
+        "Soviet Georgia"
+      ],
+      "popularity": 90065,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Georgian Soviet Socialist Republic"
+    },
+    {
+      "name": "Moldavian Soviet Socialist Republic",
+      "aliases": [
+        "Moldavian SSR",
+        "Moldovan Soviet Socialist Republic",
+        "Moldovan SSR",
+        "Soviet Moldavia",
+        "Soviet Moldova",
+        "Soviet Socialist Republic of Moldova"
+      ],
+      "popularity": 91041,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Moldavian Soviet Socialist Republic"
+    },
+    {
+      "name": "Karelo-Finnish Soviet Socialist Republic",
+      "aliases": [
+        "Finno-Karelia",
+        "Karelo-Finland",
+        "Karelo-Finnish SSR",
+        "Soviet Karelia"
+      ],
+      "popularity": 93058,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Karelo-Finnish Soviet Socialist Republic"
+    },
+    {
+      "name": "Kazakh Soviet Socialist Republic",
+      "aliases": [
+        "Kazakh S.S.R",
+        "Kazakh SSR",
+        "Soviet Kazakhstan"
+      ],
+      "popularity": 109130,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Kazakh Soviet Socialist Republic"
+    },
+    {
+      "name": "Byelorussian Soviet Socialist Republic",
+      "aliases": [
+        "Belarusian Soviet Socialist Republic",
+        "Belarusian SSR",
+        "Belorussian S.S.R.",
+        "Belorussian Soviet Socialist Republic",
+        "Belorussian SSR",
+        "Belorusskaya SSR",
+        "Bielaruskaja Savieckaja Sacyjalistyčnaja Respublika",
+        "BSSR",
+        "Byelorussian S.S.R.",
+        "Byelorussian SSR",
+        "Byelorusskaya Sovyetskaya Sotsialisticheskaya Respublika",
+        "Communist Belarus",
+        "Soviet Belarus",
+        "Soviet Belorussia",
+        "Soviet Byelorussia",
+        "White Russian Soviet Socialist Republic"
+      ],
+      "popularity": 166139,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Byelorussian Soviet Socialist Republic"
+    },
+    {
+      "name": "Ukrainian Soviet Socialist Republic",
+      "aliases": [
+        "Communist Ukraine",
+        "Soviet Ukraine",
+        "Ukrainian S.S.R",
+        "Ukrainian SSR"
+      ],
+      "popularity": 281431,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Ukrainian Soviet Socialist Republic"
+    },
+    {
+      "name": "Russian Soviet Federative Socialist Republic",
+      "aliases": [
+        "Communist Russia",
+        "R.S.F.S.R.",
+        "RSFSR",
+        "Russian S.F.S.R.",
+        "Russian SFSR",
+        "Russian Socialist Federated Soviet Republic",
+        "Russian Socialist Federative Soviet Republic",
+        "Russian Soviet Federal Socialist Republic",
+        "Russian Soviet Federated Socialist Republic",
+        "Soviet Russia",
+        "Soviet Russian Republic",
+        "the Russian SFSR"
+      ],
+      "popularity": 566703,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Russian Soviet Federative Socialist Republic"
+    }
+  ]
+}

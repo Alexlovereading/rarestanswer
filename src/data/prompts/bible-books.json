@@ -1,0 +1,856 @@
+{
+  "id": "bible-books",
+  "slug": "bible-books",
+  "category": "history",
+  "question": "Name a book of the Protestant Bible",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Second Book of Samuel",
+      "aliases": [
+        "2 Samuel",
+        "2 Sm",
+        "II Samuel"
+      ],
+      "popularity": 776,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Second Book of Samuel"
+    },
+    {
+      "name": "Second Book of Chronicles",
+      "aliases": [
+        "2 Chr",
+        "2 Chronicles",
+        "2 Paralipomenon",
+        "Chronicles II"
+      ],
+      "popularity": 826,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Second Book of Chronicles"
+    },
+    {
+      "name": "First Book of Chronicles",
+      "aliases": [
+        "1 Ch",
+        "1 Chr",
+        "1 Chronicles",
+        "1 Krn",
+        "1 Paralipomenon",
+        "Chronicles I"
+      ],
+      "popularity": 925,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "First Book of Chronicles"
+    },
+    {
+      "name": "Second Book of Kings",
+      "aliases": [
+        "2 Kings",
+        "4 Kings"
+      ],
+      "popularity": 1250,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Second Book of Kings"
+    },
+    {
+      "name": "First Book of Kings",
+      "aliases": [
+        "1 Ki",
+        "1 Kings",
+        "3 Kings",
+        "First Kings",
+        "I Kings"
+      ],
+      "popularity": 1475,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "First Book of Kings"
+    },
+    {
+      "name": "First Book of Samuel",
+      "aliases": [
+        "1 Samuel"
+      ],
+      "popularity": 2669,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "First Book of Samuel"
+    },
+    {
+      "name": "Second Epistle of John",
+      "aliases": [
+        "2 John"
+      ],
+      "popularity": 12804,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Second Epistle of John"
+    },
+    {
+      "name": "Third Epistle of John",
+      "aliases": [
+        "3 Jn",
+        "3 John",
+        "John’s Third Letter",
+        "Third Epistle of Saint John",
+        "Third Epistle of St. John",
+        "Third Letter of John",
+        "Third Letter of Saint John",
+        "Third Letter of St. John"
+      ],
+      "popularity": 13907,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "Third Epistle of John"
+    },
+    {
+      "name": "Book of Zephaniah",
+      "aliases": [
+        "Zephaniah"
+      ],
+      "popularity": 20476,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Book of Zephaniah"
+    },
+    {
+      "name": "Second Epistle to the Thessalonians",
+      "aliases": [
+        "2 Thessalonians",
+        "2nd Thessalonians",
+        "Second Thessalonians"
+      ],
+      "popularity": 24642,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Second Epistle to the Thessalonians"
+    },
+    {
+      "name": "Second Epistle to the Corinthians",
+      "aliases": [
+        "2 Cor",
+        "2 Corinthians",
+        "2Cor",
+        "2nd Corinthians",
+        "2nd Epistle to the Corinthians",
+        "Second Corinthians",
+        "Second Letter to the Corinthians"
+      ],
+      "popularity": 25753,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Second Epistle to the Corinthians"
+    },
+    {
+      "name": "Book of Haggai",
+      "aliases": [
+        "Haggai"
+      ],
+      "popularity": 27951,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Book of Haggai"
+    },
+    {
+      "name": "Second Epistle of Peter",
+      "aliases": [
+        "2 Pet.",
+        "2 Peter",
+        "Second Letter of Peter"
+      ],
+      "popularity": 29638,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Second Epistle of Peter"
+    },
+    {
+      "name": "Second Epistle to Timothy",
+      "aliases": [
+        "2 Tim",
+        "2 Timothy",
+        "II Timothy",
+        "Second Letter to Timothy"
+      ],
+      "popularity": 29729,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Second Epistle to Timothy"
+    },
+    {
+      "name": "First Epistle of John",
+      "aliases": [
+        "1 John"
+      ],
+      "popularity": 37295,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "First Epistle of John"
+    },
+    {
+      "name": "Epistle to Titus",
+      "aliases": [
+        "Book of Titus",
+        "Epistle of Paul to Titus",
+        "Letter to Titus",
+        "the Book of Titus",
+        "the Epistle to Titus",
+        "the Letter to Titus",
+        "Titus",
+        "To Titus"
+      ],
+      "popularity": 41646,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Epistle to Titus"
+    },
+    {
+      "name": "Book of Nahum",
+      "aliases": [
+        "Nahum"
+      ],
+      "popularity": 41878,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Book of Nahum"
+    },
+    {
+      "name": "Epistle to the Colossians",
+      "aliases": [
+        "Book of Colossians",
+        "Col.",
+        "Colossians",
+        "Letter to the Colossians"
+      ],
+      "popularity": 45541,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Epistle to the Colossians"
+    },
+    {
+      "name": "First Epistle to Timothy",
+      "aliases": [
+        "1 Tim",
+        "1 Timothy",
+        "First Book of Timothy",
+        "First Letter to Timothy"
+      ],
+      "popularity": 47942,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "First Epistle to Timothy"
+    },
+    {
+      "name": "Book of Amos",
+      "aliases": [
+        "Amos"
+      ],
+      "popularity": 48179,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Book of Amos"
+    },
+    {
+      "name": "Book of Micah",
+      "aliases": [
+        "Micah"
+      ],
+      "popularity": 50006,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Book of Micah"
+    },
+    {
+      "name": "Book of Joel",
+      "aliases": [
+        "Joel"
+      ],
+      "popularity": 52198,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Book of Joel"
+    },
+    {
+      "name": "First Epistle of Peter",
+      "aliases": [
+        "1 Peter",
+        "First Book of Peter",
+        "First Epistle of Saint Peter",
+        "First Epistle of St. Peter",
+        "First Letter of Peter",
+        "I Peter",
+        "Peter’s First Letter"
+      ],
+      "popularity": 53737,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "First Epistle of Peter"
+    },
+    {
+      "name": "Epistle to the Philippians",
+      "aliases": [
+        "Letter to the Philippians",
+        "Philippians"
+      ],
+      "popularity": 55062,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Epistle to the Philippians"
+    },
+    {
+      "name": "Book of Zechariah",
+      "aliases": [
+        "Zecharia",
+        "Zechariah"
+      ],
+      "popularity": 55369,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Book of Zechariah"
+    },
+    {
+      "name": "Epistle to Philemon",
+      "aliases": [
+        "Book of Philemon",
+        "Epistle of Paul to Philemon",
+        "Letter of Paul to Philemon",
+        "Letter to Philemon",
+        "Paul’s Letter to Philemon",
+        "Philemon"
+      ],
+      "popularity": 58439,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Epistle to Philemon"
+    },
+    {
+      "name": "Book of Obadiah",
+      "aliases": [
+        "Obadiah"
+      ],
+      "popularity": 58861,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Book of Obadiah"
+    },
+    {
+      "name": "Book of Hosea",
+      "aliases": [
+        "Hosea"
+      ],
+      "popularity": 63854,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Book of Hosea"
+    },
+    {
+      "name": "First Epistle to the Thessalonians",
+      "aliases": [
+        "1 Thessalonians",
+        "1st Thessalonians"
+      ],
+      "popularity": 63925,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "First Epistle to the Thessalonians"
+    },
+    {
+      "name": "Book of Jeremiah",
+      "aliases": [
+        "Jeremiah",
+        "Yirmiyahu"
+      ],
+      "popularity": 67718,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Book of Jeremiah"
+    },
+    {
+      "name": "Book of Habakkuk",
+      "aliases": [
+        "Habakkuk"
+      ],
+      "popularity": 71587,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Book of Habakkuk"
+    },
+    {
+      "name": "Book of Jonah",
+      "aliases": [
+        "Jonah"
+      ],
+      "popularity": 73299,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Book of Jonah"
+    },
+    {
+      "name": "Book of Nehemiah",
+      "aliases": [
+        "Nehemiah"
+      ],
+      "popularity": 73824,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Book of Nehemiah"
+    },
+    {
+      "name": "Book of Ezra",
+      "aliases": [
+        "Ezra"
+      ],
+      "popularity": 74292,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Book of Ezra"
+    },
+    {
+      "name": "Book of Lamentations",
+      "aliases": [
+        "Lamentations"
+      ],
+      "popularity": 75769,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Book of Lamentations"
+    },
+    {
+      "name": "Epistle to the Ephesians",
+      "aliases": [
+        "Book of Ephesians",
+        "Eph.",
+        "Ephesians"
+      ],
+      "popularity": 77362,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Epistle to the Ephesians"
+    },
+    {
+      "name": "Epistle to the Galatians",
+      "aliases": [
+        "Book of Galatians",
+        "Gal",
+        "Galatians"
+      ],
+      "popularity": 86900,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Epistle to the Galatians"
+    },
+    {
+      "name": "Book of Judges",
+      "aliases": [
+        "Judges"
+      ],
+      "popularity": 91522,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Book of Judges"
+    },
+    {
+      "name": "Epistle of Jude",
+      "aliases": [
+        "Book of Jude",
+        "Book of Saint Jude",
+        "Book of St. Jude",
+        "Catholic Epistle of Jude",
+        "Catholic Epistle of Saint Jude",
+        "Catholic Epistle of St. Jude",
+        "Epistle of Saint Jude",
+        "Epistle of St. Jude",
+        "General Epistle of Jude",
+        "General Epistle of Saint Jude",
+        "General Epistle of St. Jude",
+        "Jud.",
+        "Judas",
+        "Jude",
+        "Letter of Jude",
+        "the Book of Jude",
+        "the Catholic Epistle of Jude",
+        "the Epistle of Jude",
+        "the General Epistle of Jude",
+        "the Letter of Jude"
+      ],
+      "popularity": 103963,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Epistle of Jude"
+    },
+    {
+      "name": "Epistle to the Hebrews",
+      "aliases": [
+        "Hebrews"
+      ],
+      "popularity": 104798,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Epistle to the Hebrews"
+    },
+    {
+      "name": "Book of Joshua",
+      "aliases": [
+        "Joshua",
+        "The Book of Joshua"
+      ],
+      "popularity": 106656,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Book of Joshua"
+    },
+    {
+      "name": "Book of Numbers",
+      "aliases": [
+        "Numbers"
+      ],
+      "popularity": 109621,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Book of Numbers"
+    },
+    {
+      "name": "Book of Ezekiel",
+      "aliases": [
+        "Ezekiel",
+        "Yechezkel",
+        "Yehezkel"
+      ],
+      "popularity": 111003,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Book of Ezekiel"
+    },
+    {
+      "name": "Book of Malachi",
+      "aliases": [
+        "Malachi"
+      ],
+      "popularity": 113391,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Book of Malachi"
+    },
+    {
+      "name": "Book of Ruth",
+      "aliases": [
+        "Ruth",
+        "Scroll of Ruth",
+        "the Book of Ruth",
+        "the Scroll of Ruth"
+      ],
+      "popularity": 117872,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Book of Ruth"
+    },
+    {
+      "name": "Epistle of James",
+      "aliases": [
+        "Book of James",
+        "Book of Saint James",
+        "Book of St James",
+        "Catholic Epistle of James",
+        "Catholic Epistle of Saint James",
+        "Catholic Epistle of St. James",
+        "Epistle of Saint James",
+        "Epistle of St. James",
+        "General Epistle of James",
+        "General Epistle of Saint James",
+        "General Epistle of St. James",
+        "James",
+        "Letter of James",
+        "Letter of Saint James",
+        "Letter of St. James",
+        "Universal Epistle of Saint James"
+      ],
+      "popularity": 122859,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Epistle of James"
+    },
+    {
+      "name": "First Epistle to the Corinthians",
+      "aliases": [
+        "1 Cor.",
+        "1 Corinthians",
+        "First Corinthians",
+        "I Corinthians"
+      ],
+      "popularity": 129902,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "First Epistle to the Corinthians"
+    },
+    {
+      "name": "Epistle to the Romans",
+      "aliases": [
+        "Book of Romans",
+        "Romans"
+      ],
+      "popularity": 131945,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Epistle to the Romans"
+    },
+    {
+      "name": "Book of Proverbs",
+      "aliases": [
+        "Book of Prov.",
+        "Book of Proverb",
+        "Messale",
+        "Mishlai",
+        "Mishle",
+        "Mishlei",
+        "Mishley",
+        "Mishley Shlomo",
+        "Pro.",
+        "Prov.",
+        "Proverbs",
+        "Täagsas",
+        "Tägsas",
+        "The Proverbs"
+      ],
+      "popularity": 132031,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Book of Proverbs"
+    },
+    {
+      "name": "Book of Isaiah",
+      "aliases": [
+        "Isaiah",
+        "Prophecies of Isaiah",
+        "The Prophecies of Isaiah",
+        "Yeshayahu"
+      ],
+      "popularity": 184294,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Book of Isaiah"
+    },
+    {
+      "name": "Book of Deuteronomy",
+      "aliases": [
+        "Deuteronomy"
+      ],
+      "popularity": 187700,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Book of Deuteronomy"
+    },
+    {
+      "name": "Book of Esther",
+      "aliases": [
+        "Esther"
+      ],
+      "popularity": 204425,
+      "rarity": 0.215,
+      "tier": 2,
+      "wiki": "Book of Esther"
+    },
+    {
+      "name": "Acts of the Apostles",
+      "aliases": [
+        "Acts",
+        "Book of Acts"
+      ],
+      "popularity": 205704,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Acts of the Apostles"
+    },
+    {
+      "name": "Book of Leviticus",
+      "aliases": [
+        "Lev.",
+        "Leviticus"
+      ],
+      "popularity": 217755,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Book of Leviticus"
+    },
+    {
+      "name": "Gospel of Luke",
+      "aliases": [
+        "Book of Luke",
+        "Gospel According to Luke",
+        "Gospel according to Saint Luke",
+        "Gospel according to St. Luke",
+        "Gospel of Saint Luke",
+        "Gospel of St. Luke",
+        "Luke",
+        "Third Gospel"
+      ],
+      "popularity": 230367,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Gospel of Luke"
+    },
+    {
+      "name": "Book of Daniel",
+      "aliases": [
+        "Daniel"
+      ],
+      "popularity": 230597,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Book of Daniel"
+    },
+    {
+      "name": "Psalms",
+      "aliases": [
+        "Book of Psalms",
+        "Psalm",
+        "The Book of Psalms"
+      ],
+      "popularity": 234417,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Psalms"
+    },
+    {
+      "name": "Ecclesiastes",
+      "aliases": [
+        "Book of Ecclesiastes"
+      ],
+      "popularity": 250928,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Ecclesiastes"
+    },
+    {
+      "name": "Book of Exodus",
+      "aliases": [
+        "Exodus"
+      ],
+      "popularity": 251910,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "Book of Exodus"
+    },
+    {
+      "name": "Gospel of Mark",
+      "aliases": [
+        "Book of Mark",
+        "Book of Saint Mark",
+        "Book of St. Mark",
+        "Gospel according to Mark",
+        "Gospel according to Saint Mark",
+        "Gospel according to St. Mark",
+        "Gospel of Saint Mark",
+        "Gospel of St. Mark",
+        "Holy Gospel according to Mark",
+        "Mark",
+        "Second Gospel"
+      ],
+      "popularity": 258498,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Gospel of Mark"
+    },
+    {
+      "name": "Song of Songs",
+      "aliases": [
+        "Canticle of Canticles",
+        "Canticles",
+        "Song of Solomon"
+      ],
+      "popularity": 268326,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Song of Songs"
+    },
+    {
+      "name": "Gospel of John",
+      "aliases": [
+        "Bible. John",
+        "Book of John",
+        "Fourth Gospel",
+        "Gospel according to John",
+        "Gospel according to Saint John",
+        "Gospel according to St. John",
+        "Gospel of Saint John",
+        "Gospel of St. John",
+        "John",
+        "John's Gospel",
+        "the Fourth Gospel",
+        "The Gospel according to John"
+      ],
+      "popularity": 317844,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Gospel of John"
+    },
+    {
+      "name": "Gospel of Matthew",
+      "aliases": [
+        "Book of Matthew",
+        "First Gospel",
+        "Gospel according to Matthew",
+        "Gospel according to St. Matthew",
+        "Gospel of St. Matthew",
+        "Matt.",
+        "Matthew",
+        "the First Gospel"
+      ],
+      "popularity": 323921,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Gospel of Matthew"
+    },
+    {
+      "name": "Book of Job",
+      "aliases": [
+        "Job"
+      ],
+      "popularity": 326751,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Book of Job"
+    },
+    {
+      "name": "Book of Genesis",
+      "aliases": [
+        "First Book of Moses",
+        "Gen.",
+        "Genesis",
+        "The Book of Genesis"
+      ],
+      "popularity": 465726,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Book of Genesis"
+    },
+    {
+      "name": "Book of Revelation",
+      "aliases": [
+        "Apoc.",
+        "Apocalypse",
+        "Apocalypse of John",
+        "Apocalypse of Saint John",
+        "Apocalypse of St. John",
+        "Book of the Apocalypse",
+        "Rev.",
+        "Revelation",
+        "Revelation of John",
+        "Revelation of Saint John",
+        "Revelation of St John",
+        "Revelation to John",
+        "Revelation to Saint John",
+        "Revelation to St. John",
+        "Revelations",
+        "The Apocalypse",
+        "The Uncovering"
+      ],
+      "popularity": 711300,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Book of Revelation"
+    }
+  ]
+}

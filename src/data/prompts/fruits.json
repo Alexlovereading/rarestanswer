@@ -1,0 +1,736 @@
+{
+  "id": "fruits",
+  "slug": "fruits",
+  "category": "food",
+  "question": "Name a fruit",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Giromon",
+      "aliases": [
+        "Giromon (fruit)"
+      ],
+      "popularity": 21,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Giromon (fruit)"
+    },
+    {
+      "name": "Southern highbush blueberry",
+      "aliases": [
+        "evergreen blueberry",
+        "scrub blueberry",
+        "Southern Highbush"
+      ],
+      "popularity": 245,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Southern highbush blueberry"
+    },
+    {
+      "name": "Culinary fruit",
+      "aliases": [],
+      "popularity": 279,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Culinary fruit"
+    },
+    {
+      "name": "Kalpi",
+      "aliases": [
+        "Citrus × webberii",
+        "Kalpi (fruit)"
+      ],
+      "popularity": 748,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Kalpi (fruit)"
+    },
+    {
+      "name": "Tonburi",
+      "aliases": [
+        "field caviar",
+        "land caviar",
+        "mountain caviar"
+      ],
+      "popularity": 878,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Tonburi"
+    },
+    {
+      "name": "Pear",
+      "aliases": [
+        "Pear (fruit)",
+        "pears"
+      ],
+      "popularity": 990,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Pear (fruit)"
+    },
+    {
+      "name": "Crane Melon",
+      "aliases": [],
+      "popularity": 1341,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Crane Melon"
+    },
+    {
+      "name": "Taqua banana",
+      "aliases": [],
+      "popularity": 1366,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Taqua banana"
+    },
+    {
+      "name": "Avocado",
+      "aliases": [
+        "alligator pear",
+        "Avocado (fruit)",
+        "avocado pear",
+        "avocadoes",
+        "avocados"
+      ],
+      "popularity": 1461,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Avocado (fruit)"
+    },
+    {
+      "name": "Fig fruit",
+      "aliases": [
+        "fig"
+      ],
+      "popularity": 1992,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Fig fruit"
+    },
+    {
+      "name": "Peach",
+      "aliases": [
+        "fruit of peach trees",
+        "Peach (fruit)",
+        "peachfruit"
+      ],
+      "popularity": 2009,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Peach (fruit)"
+    },
+    {
+      "name": "Acai berry",
+      "aliases": [
+        "açaí",
+        "açaí fruit",
+        "assai"
+      ],
+      "popularity": 2066,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Acai berry"
+    },
+    {
+      "name": "Pomegranate fruit",
+      "aliases": [
+        "grenadine fruit",
+        "grenadine fruits",
+        "pomegranate"
+      ],
+      "popularity": 2236,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Pomegranate fruit"
+    },
+    {
+      "name": "Kawachi bankan",
+      "aliases": [
+        "Citrus kawachiensis",
+        "Mishokan",
+        "Uwa Gold"
+      ],
+      "popularity": 2340,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Kawachi bankan"
+    },
+    {
+      "name": "Peacotum",
+      "aliases": [],
+      "popularity": 2682,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Peacotum"
+    },
+    {
+      "name": "Plum-cherry hybrid",
+      "aliases": [],
+      "popularity": 3161,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Plum-cherry hybrid"
+    },
+    {
+      "name": "Kanpei",
+      "aliases": [],
+      "popularity": 3379,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Kanpei"
+    },
+    {
+      "name": "Cashew nut",
+      "aliases": [
+        "cashew"
+      ],
+      "popularity": 3474,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Cashew nut"
+    },
+    {
+      "name": "Mandarin",
+      "aliases": [
+        "Mandarin (fruit)",
+        "mandarin orange"
+      ],
+      "popularity": 3519,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Mandarin (fruit)"
+    },
+    {
+      "name": "Pickled fruit",
+      "aliases": [],
+      "popularity": 3964,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Pickled fruit"
+    },
+    {
+      "name": "Sugar apple",
+      "aliases": [
+        "custard apple",
+        "Sugar Apples",
+        "sweetsop"
+      ],
+      "popularity": 4513,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Sugar apple"
+    },
+    {
+      "name": "Assam lemon",
+      "aliases": [],
+      "popularity": 5041,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Assam lemon"
+    },
+    {
+      "name": "Breba",
+      "aliases": [],
+      "popularity": 5909,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Breba"
+    },
+    {
+      "name": "Bizzarria",
+      "aliases": [
+        "Citrus Bizzarria"
+      ],
+      "popularity": 6912,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Bizzarria"
+    },
+    {
+      "name": "Youngberry",
+      "aliases": [],
+      "popularity": 8614,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Youngberry"
+    },
+    {
+      "name": "Kiyomi",
+      "aliases": [],
+      "popularity": 9234,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Kiyomi"
+    },
+    {
+      "name": "Sloe",
+      "aliases": [
+        "blackthorn drupe",
+        "sloeberry"
+      ],
+      "popularity": 10137,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Sloe"
+    },
+    {
+      "name": "Charentais melon",
+      "aliases": [
+        "Melons de Cavaillon"
+      ],
+      "popularity": 12090,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Charentais melon"
+    },
+    {
+      "name": "Nectarine",
+      "aliases": [
+        "nectarines"
+      ],
+      "popularity": 13468,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Nectarine"
+    },
+    {
+      "name": "Sweet lemon",
+      "aliases": [
+        "sweet lime"
+      ],
+      "popularity": 15601,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Sweet lemon"
+    },
+    {
+      "name": "Cooking apple",
+      "aliases": [
+        "cooker",
+        "culinary apple"
+      ],
+      "popularity": 19721,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Cooking apple"
+    },
+    {
+      "name": "Banana passionfruit",
+      "aliases": [
+        "curuba",
+        "parcha",
+        "purpuro",
+        "tumbo"
+      ],
+      "popularity": 19914,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Banana passionfruit"
+    },
+    {
+      "name": "Fried plantain",
+      "aliases": [
+        "dodo",
+        "kɔkɔɔ a y'akye",
+        "kelewele"
+      ],
+      "popularity": 23523,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Fried plantain"
+    },
+    {
+      "name": "Galia melon",
+      "aliases": [
+        "Galia",
+        "sarda"
+      ],
+      "popularity": 28491,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Galia melon"
+    },
+    {
+      "name": "Ananas",
+      "aliases": [],
+      "popularity": 30400,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Ananas"
+    },
+    {
+      "name": "Nut",
+      "aliases": [
+        "culinary nut",
+        "dry fruit",
+        "dry nut",
+        "edible nut",
+        "food nut",
+        "Nut (food)",
+        "nuts",
+        "nuts as food"
+      ],
+      "popularity": 41099,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Nut (food)"
+    },
+    {
+      "name": "Sapote",
+      "aliases": [],
+      "popularity": 43272,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Sapote"
+    },
+    {
+      "name": "Prunus domestica",
+      "aliases": [
+        "plum tree"
+      ],
+      "popularity": 49433,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Prunus domestica"
+    },
+    {
+      "name": "Tropical fruit",
+      "aliases": [
+        "subtropical fruit",
+        "tropical and subtropical fruit",
+        "tropical product"
+      ],
+      "popularity": 54641,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Tropical fruit"
+    },
+    {
+      "name": "Hami melon",
+      "aliases": [
+        "Chinese Hami melon",
+        "snow melon"
+      ],
+      "popularity": 55713,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Hami melon"
+    },
+    {
+      "name": "Dried fruit",
+      "aliases": [],
+      "popularity": 66711,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Dried fruit"
+    },
+    {
+      "name": "Dekopon",
+      "aliases": [
+        "hallabong",
+        "shiranui",
+        "Sumo Citrus"
+      ],
+      "popularity": 67348,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Dekopon"
+    },
+    {
+      "name": "Ribes",
+      "aliases": [],
+      "popularity": 87414,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Ribes"
+    },
+    {
+      "name": "Honeydew",
+      "aliases": [
+        "Cucumis melo var. inodorus",
+        "Honeydew (melon)",
+        "honeymelon",
+        "Inodorus Group"
+      ],
+      "popularity": 126625,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Honeydew (melon)"
+    },
+    {
+      "name": "Melon",
+      "aliases": [
+        "melon fruit",
+        "melons"
+      ],
+      "popularity": 130048,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Melon"
+    },
+    {
+      "name": "Dragon fruit",
+      "aliases": [
+        "pitahaya",
+        "pitaya"
+      ],
+      "popularity": 138464,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Dragon fruit"
+    },
+    {
+      "name": "Tamarillo",
+      "aliases": [
+        "Solanum betaceum"
+      ],
+      "popularity": 140310,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Tamarillo"
+    },
+    {
+      "name": "Berry",
+      "aliases": [
+        "berries",
+        "berry fruit",
+        "forest fruits",
+        "soft fruit",
+        "soft fruits"
+      ],
+      "popularity": 143874,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Berry"
+    },
+    {
+      "name": "Carambola",
+      "aliases": [
+        "star fruit"
+      ],
+      "popularity": 158158,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Carambola"
+    },
+    {
+      "name": "Lime",
+      "aliases": [
+        "green lemon",
+        "Lime (fruit)",
+        "sour lime"
+      ],
+      "popularity": 163612,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Lime (fruit)"
+    },
+    {
+      "name": "Raspberry",
+      "aliases": [
+        "hindberry",
+        "raspberries"
+      ],
+      "popularity": 191719,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Raspberry"
+    },
+    {
+      "name": "Blackberry",
+      "aliases": [],
+      "popularity": 209652,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Blackberry"
+    },
+    {
+      "name": "Grape",
+      "aliases": [
+        "grapes"
+      ],
+      "popularity": 222463,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Grape"
+    },
+    {
+      "name": "Plum",
+      "aliases": [
+        "plums"
+      ],
+      "popularity": 225075,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Plum"
+    },
+    {
+      "name": "Apricot",
+      "aliases": [
+        "apricot fruit"
+      ],
+      "popularity": 225589,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Apricot"
+    },
+    {
+      "name": "Cranberry",
+      "aliases": [
+        "cranberries",
+        "fox-musked blueberry",
+        "Vaccinium subg. Oxycoccus"
+      ],
+      "popularity": 249275,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Cranberry"
+    },
+    {
+      "name": "Passion fruit",
+      "aliases": [
+        "Passion fruit (fruit)",
+        "passionfruit"
+      ],
+      "popularity": 259965,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Passion fruit (fruit)"
+    },
+    {
+      "name": "Rambutan",
+      "aliases": [
+        "Nephelium lappaceum",
+        "ramboostan"
+      ],
+      "popularity": 263907,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Rambutan"
+    },
+    {
+      "name": "Blueberry",
+      "aliases": [
+        "Vaccinium Cyanococcus",
+        "Vaccinium sect. Cyanococcus"
+      ],
+      "popularity": 315777,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Blueberry"
+    },
+    {
+      "name": "Citrus",
+      "aliases": [],
+      "popularity": 337903,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Citrus"
+    },
+    {
+      "name": "Olive",
+      "aliases": [],
+      "popularity": 350120,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Olive"
+    },
+    {
+      "name": "Kiwifruit",
+      "aliases": [
+        "kiwi",
+        "kiwi fruit"
+      ],
+      "popularity": 368006,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Kiwifruit"
+    },
+    {
+      "name": "Guava",
+      "aliases": [],
+      "popularity": 391703,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "Guava"
+    },
+    {
+      "name": "Jackfruit",
+      "aliases": [
+        "Artocarpus heterophyllus",
+        "Artocarpus macrocrapon",
+        "jack tree",
+        "jackfruit tree",
+        "nangka Tree"
+      ],
+      "popularity": 402628,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Jackfruit"
+    },
+    {
+      "name": "Orange",
+      "aliases": [
+        "citrus orange",
+        "Orange (fruit)"
+      ],
+      "popularity": 451098,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Orange (fruit)"
+    },
+    {
+      "name": "Mango",
+      "aliases": [
+        "Mangifera indica",
+        "mangoes"
+      ],
+      "popularity": 452578,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Mango"
+    },
+    {
+      "name": "Durian",
+      "aliases": [],
+      "popularity": 537599,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Durian"
+    },
+    {
+      "name": "Banana",
+      "aliases": [
+        "banana fruit",
+        "bananas"
+      ],
+      "popularity": 755695,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Banana"
+    },
+    {
+      "name": "Persimmon",
+      "aliases": [
+        "kaki",
+        "Persimmons"
+      ],
+      "popularity": 833066,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Persimmon"
+    },
+    {
+      "name": "Apple",
+      "aliases": [
+        "apple fruit"
+      ],
+      "popularity": 912908,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Apple"
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "id": "spiel-des-jahres",
+  "slug": "spiel-des-jahres",
+  "category": "sports",
+  "question": "Name a Spiel des Jahres winner",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Um Reifenbreite",
+      "aliases": [],
+      "popularity": 516,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Um Reifenbreite"
+    },
+    {
+      "name": "Manhattan",
+      "aliases": [
+        "Manhattan (board game)"
+      ],
+      "popularity": 859,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Manhattan (board game)"
+    },
+    {
+      "name": "Mississippi Queen",
+      "aliases": [
+        "Mississippi Queen (board game)"
+      ],
+      "popularity": 1194,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Mississippi Queen (board game)"
+    },
+    {
+      "name": "Café International",
+      "aliases": [],
+      "popularity": 1251,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Café International"
+    },
+    {
+      "name": "Villa Paletti",
+      "aliases": [],
+      "popularity": 1287,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Villa Paletti"
+    },
+    {
+      "name": "Niagara",
+      "aliases": [
+        "Niagara (board game)"
+      ],
+      "popularity": 1405,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Niagara (board game)"
+    },
+    {
+      "name": "Auf Achse",
+      "aliases": [],
+      "popularity": 1455,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Auf Achse"
+    },
+    {
+      "name": "Zooloretto",
+      "aliases": [],
+      "popularity": 1704,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Zooloretto"
+    },
+    {
+      "name": "Torres",
+      "aliases": [
+        "Torres (board game)"
+      ],
+      "popularity": 1949,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Torres (board game)"
+    },
+    {
+      "name": "Top Secret Spies",
+      "aliases": [],
+      "popularity": 2015,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Top Secret Spies"
+    },
+    {
+      "name": "Railway Rivals",
+      "aliases": [],
+      "popularity": 2047,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Railway Rivals"
+    },
+    {
+      "name": "Liar's Dice",
+      "aliases": [
+        "Liar's Dice (Milton Bradley)",
+        "Perudo"
+      ],
+      "popularity": 2312,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Liar's Dice (Milton Bradley)"
+    },
+    {
+      "name": "Keltis",
+      "aliases": [],
+      "popularity": 2412,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Keltis"
+    },
+    {
+      "name": "Focus",
+      "aliases": [
+        "Focus (board game)"
+      ],
+      "popularity": 2677,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Focus (board game)"
+    },
+    {
+      "name": "Hoity Toity",
+      "aliases": [],
+      "popularity": 2746,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Hoity Toity"
+    },
+    {
+      "name": "Drunter und Drüber",
+      "aliases": [],
+      "popularity": 2829,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Drunter und Drüber"
+    },
+    {
+      "name": "Elfenland",
+      "aliases": [],
+      "popularity": 3023,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Elfenland"
+    },
+    {
+      "name": "Pictures",
+      "aliases": [
+        "Pictures (board game)"
+      ],
+      "popularity": 3148,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Pictures (board game)"
+    },
+    {
+      "name": "Tikal",
+      "aliases": [
+        "Tikal (board game)"
+      ],
+      "popularity": 3418,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Tikal (board game)"
+    },
+    {
+      "name": "Barbarossa",
+      "aliases": [
+        "Barbarossa (board game)"
+      ],
+      "popularity": 3578,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Barbarossa (board game)"
+    },
+    {
+      "name": "Hare and Tortoise",
+      "aliases": [],
+      "popularity": 4147,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Hare and Tortoise"
+    },
+    {
+      "name": "El Grande",
+      "aliases": [],
+      "popularity": 4266,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "El Grande"
+    },
+    {
+      "name": "Dorfromantik: The Board Game",
+      "aliases": [
+        "Dorfromantik"
+      ],
+      "popularity": 4409,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Dorfromantik: The Board Game"
+    },
+    {
+      "name": "Kingdom Builder",
+      "aliases": [],
+      "popularity": 4454,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Kingdom Builder"
+    },
+    {
+      "name": "Alhambra",
+      "aliases": [
+        "Alhambra (board game)"
+      ],
+      "popularity": 4596,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Alhambra (board game)"
+    },
+    {
+      "name": "Thurn and Taxis",
+      "aliases": [
+        "Thurn and Taxis (board game)",
+        "Thurn und Taxis"
+      ],
+      "popularity": 4899,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Thurn and Taxis (board game)"
+    },
+    {
+      "name": "Enchanted Forest",
+      "aliases": [
+        "Enchanted Forest (game)"
+      ],
+      "popularity": 5105,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Enchanted Forest (game)"
+    },
+    {
+      "name": "Colt Express",
+      "aliases": [],
+      "popularity": 5140,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Colt Express"
+    },
+    {
+      "name": "Sky Team",
+      "aliases": [
+        "Sky Team (board game)"
+      ],
+      "popularity": 6714,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Sky Team (board game)"
+    },
+    {
+      "name": "Kingdomino",
+      "aliases": [],
+      "popularity": 6953,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Kingdomino"
+    },
+    {
+      "name": "Camel Up",
+      "aliases": [],
+      "popularity": 6996,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Camel Up"
+    },
+    {
+      "name": "MicroMacro: Crime City",
+      "aliases": [],
+      "popularity": 7357,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "MicroMacro: Crime City"
+    },
+    {
+      "name": "Sherlock Holmes: Consulting Detective",
+      "aliases": [
+        "Consulting Detective",
+        "SHCD",
+        "Sherlock Holmes"
+      ],
+      "popularity": 8471,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Sherlock Holmes: Consulting Detective (gamebook)"
+    },
+    {
+      "name": "Just One",
+      "aliases": [
+        "Just One (board game)"
+      ],
+      "popularity": 10605,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Just One (board game)"
+    },
+    {
+      "name": "Cascadia",
+      "aliases": [
+        "Cascadia (board game)"
+      ],
+      "popularity": 18170,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Cascadia (board game)"
+    },
+    {
+      "name": "Qwirkle",
+      "aliases": [],
+      "popularity": 20331,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Qwirkle"
+    },
+    {
+      "name": "Scotland Yard",
+      "aliases": [
+        "Scotland Yard (board game)"
+      ],
+      "popularity": 20642,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Scotland Yard (board game)"
+    },
+    {
+      "name": "Hanabi",
+      "aliases": [
+        "Hanabi (card game)"
+      ],
+      "popularity": 24859,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Hanabi (card game)"
+    },
+    {
+      "name": "Azul",
+      "aliases": [
+        "Azul (board game)"
+      ],
+      "popularity": 43135,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Azul (board game)"
+    },
+    {
+      "name": "Dixit",
+      "aliases": [
+        "Dixit (board game)"
+      ],
+      "popularity": 55919,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Dixit (board game)"
+    },
+    {
+      "name": "Dominion",
+      "aliases": [
+        "Dominion (card game)"
+      ],
+      "popularity": 60488,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Dominion (card game)"
+    },
+    {
+      "name": "Carcassonne",
+      "aliases": [
+        "Carcassonne (board game)"
+      ],
+      "popularity": 80470,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Carcassonne (board game)"
+    },
+    {
+      "name": "Codenames",
+      "aliases": [
+        "Codenames (board game)"
+      ],
+      "popularity": 114083,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Codenames (board game)"
+    },
+    {
+      "name": "Ticket to Ride",
+      "aliases": [
+        "Ticket to Ride (board game)",
+        "TTR"
+      ],
+      "popularity": 117747,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Ticket to Ride (board game)"
+    },
+    {
+      "name": "Catan",
+      "aliases": [
+        "Settlers of Catan",
+        "The Settlers of Catan"
+      ],
+      "popularity": 246453,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Catan"
+    },
+    {
+      "name": "Rummikub",
+      "aliases": [],
+      "popularity": 267716,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Rummikub"
+    }
+  ]
+}

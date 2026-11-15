@@ -1,0 +1,792 @@
+{
+  "id": "pixar-films",
+  "slug": "pixar-films",
+  "category": "screen",
+  "question": "Name a Pixar film",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Tokyo Mater",
+      "aliases": [],
+      "popularity": 834,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Tokyo Mater"
+    },
+    {
+      "name": "Light & Heavy",
+      "aliases": [
+        "Light & Heavy (film)"
+      ],
+      "popularity": 2763,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Light & Heavy (film)"
+    },
+    {
+      "name": "A Spark Story",
+      "aliases": [
+        "Spark Story"
+      ],
+      "popularity": 3190,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "A Spark Story"
+    },
+    {
+      "name": "Wind",
+      "aliases": [
+        "Wind (2019 film)"
+      ],
+      "popularity": 6429,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Wind (2019 film)"
+    },
+    {
+      "name": "Nona",
+      "aliases": [
+        "Nona (2021 film)"
+      ],
+      "popularity": 7589,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Nona (2021 film)"
+    },
+    {
+      "name": "Smash and Grab",
+      "aliases": [
+        "Smash and Grab (2019 film)"
+      ],
+      "popularity": 8072,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Smash and Grab (2019 film)"
+    },
+    {
+      "name": "Twenty Something",
+      "aliases": [
+        "Twenty Something (2021 film)"
+      ],
+      "popularity": 8219,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Twenty Something (2021 film)"
+    },
+    {
+      "name": "George and A.J.",
+      "aliases": [],
+      "popularity": 9012,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "George and A.J."
+    },
+    {
+      "name": "Borrowed Time",
+      "aliases": [
+        "Borrowed Time (film)"
+      ],
+      "popularity": 9306,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Borrowed Time (film)"
+    },
+    {
+      "name": "Pixar Short Films Collection, Volume 3",
+      "aliases": [],
+      "popularity": 10961,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Pixar Short Films Collection, Volume 3"
+    },
+    {
+      "name": "Dug's Special Mission",
+      "aliases": [],
+      "popularity": 11246,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Dug's Special Mission"
+    },
+    {
+      "name": "Tiny Toy Stories",
+      "aliases": [],
+      "popularity": 11511,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Tiny Toy Stories"
+    },
+    {
+      "name": "Exploring the Reef with Jean-Michel Cousteau",
+      "aliases": [
+        "Exploring the Reef"
+      ],
+      "popularity": 12511,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Exploring the Reef with Jean-Michel Cousteau"
+    },
+    {
+      "name": "The Legend of Mor'du",
+      "aliases": [
+        "Legend of Mor'du"
+      ],
+      "popularity": 13157,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "The Legend of Mor'du"
+    },
+    {
+      "name": "Mr. Incredible and Pals",
+      "aliases": [],
+      "popularity": 14731,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Mr. Incredible and Pals"
+    },
+    {
+      "name": "Self",
+      "aliases": [
+        "Self (film)"
+      ],
+      "popularity": 15154,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Self (film)"
+    },
+    {
+      "name": "The Blue Umbrella",
+      "aliases": [
+        "Blue Umbrella",
+        "Blue Umbrella (2013 film)",
+        "The Blue Umbrella (2013 film)"
+      ],
+      "popularity": 15159,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "The Blue Umbrella (2013 film)"
+    },
+    {
+      "name": "Out",
+      "aliases": [
+        "Out (2020 film)"
+      ],
+      "popularity": 15482,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Out (2020 film)"
+    },
+    {
+      "name": "Float",
+      "aliases": [
+        "Float (2019 film)"
+      ],
+      "popularity": 15640,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Float (2019 film)"
+    },
+    {
+      "name": "Sanjay's Super Team",
+      "aliases": [],
+      "popularity": 15729,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Sanjay's Super Team"
+    },
+    {
+      "name": "Burrow",
+      "aliases": [
+        "Burrow (film)"
+      ],
+      "popularity": 16894,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Burrow (film)"
+    },
+    {
+      "name": "Riley's First Date?",
+      "aliases": [],
+      "popularity": 17547,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Riley's First Date?"
+    },
+    {
+      "name": "Your Friend the Rat",
+      "aliases": [],
+      "popularity": 17607,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Your Friend the Rat"
+    },
+    {
+      "name": "Day & Night",
+      "aliases": [
+        "Day & Night (2010 film)"
+      ],
+      "popularity": 18717,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Day & Night (2010 film)"
+    },
+    {
+      "name": "Pixar Short Films Collection, Volume 1",
+      "aliases": [],
+      "popularity": 19616,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Pixar Short Films Collection, Volume 1"
+    },
+    {
+      "name": "One Man Band",
+      "aliases": [
+        "One Man Band (film)"
+      ],
+      "popularity": 19826,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "One Man Band (film)"
+    },
+    {
+      "name": "Loop",
+      "aliases": [
+        "Loop (2020 film)"
+      ],
+      "popularity": 20585,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Loop (2020 film)"
+    },
+    {
+      "name": "Purl",
+      "aliases": [
+        "Purl (film)"
+      ],
+      "popularity": 20588,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Purl (film)"
+    },
+    {
+      "name": "Mike's New Car",
+      "aliases": [],
+      "popularity": 20771,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Mike's New Car"
+    },
+    {
+      "name": "Partly Cloudy",
+      "aliases": [],
+      "popularity": 21229,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Partly Cloudy"
+    },
+    {
+      "name": "Jack-Jack Attack",
+      "aliases": [],
+      "popularity": 21286,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Jack-Jack Attack"
+    },
+    {
+      "name": "Party Central",
+      "aliases": [],
+      "popularity": 21736,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Party Central"
+    },
+    {
+      "name": "Lou",
+      "aliases": [
+        "Lou (2017 film)"
+      ],
+      "popularity": 21801,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Lou (2017 film)"
+    },
+    {
+      "name": "Red's Dream",
+      "aliases": [],
+      "popularity": 22185,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Red's Dream"
+    },
+    {
+      "name": "Lifted",
+      "aliases": [
+        "Lifted (2006 film)"
+      ],
+      "popularity": 23193,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Lifted (2006 film)"
+    },
+    {
+      "name": "BURN-E",
+      "aliases": [],
+      "popularity": 23622,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "BURN-E"
+    },
+    {
+      "name": "Presto",
+      "aliases": [
+        "Presto (film)"
+      ],
+      "popularity": 27040,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Presto (film)"
+    },
+    {
+      "name": "Boundin'",
+      "aliases": [],
+      "popularity": 27243,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Boundin'"
+    },
+    {
+      "name": "Mater and the Ghostlight",
+      "aliases": [],
+      "popularity": 28187,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Mater and the Ghostlight"
+    },
+    {
+      "name": "Ciao Alberto",
+      "aliases": [],
+      "popularity": 28424,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Ciao Alberto"
+    },
+    {
+      "name": "Kitbull",
+      "aliases": [],
+      "popularity": 28874,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Kitbull"
+    },
+    {
+      "name": "La Luna",
+      "aliases": [
+        "La Luna (2011 film)",
+        "Luna"
+      ],
+      "popularity": 31596,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "La Luna (2011 film)"
+    },
+    {
+      "name": "Partysaurus Rex",
+      "aliases": [],
+      "popularity": 36113,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Partysaurus Rex"
+    },
+    {
+      "name": "Piper",
+      "aliases": [
+        "Piper (film)"
+      ],
+      "popularity": 36362,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Piper (film)"
+    },
+    {
+      "name": "Knick Knack",
+      "aliases": [],
+      "popularity": 36960,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Knick Knack"
+    },
+    {
+      "name": "Small Fry",
+      "aliases": [
+        "Small Fry (film)"
+      ],
+      "popularity": 38202,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Small Fry (film)"
+    },
+    {
+      "name": "The Adventures of André & Wally B.",
+      "aliases": [
+        "Adventures of André & Wally B."
+      ],
+      "popularity": 40837,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "The Adventures of André & Wally B."
+    },
+    {
+      "name": "Hawaiian Vacation",
+      "aliases": [],
+      "popularity": 42081,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Hawaiian Vacation"
+    },
+    {
+      "name": "For the Birds",
+      "aliases": [
+        "For the Birds (film)"
+      ],
+      "popularity": 43118,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "For the Birds (film)"
+    },
+    {
+      "name": "Lava",
+      "aliases": [
+        "Lava (2014 film)"
+      ],
+      "popularity": 43221,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Lava (2014 film)"
+    },
+    {
+      "name": "Geri's Game",
+      "aliases": [],
+      "popularity": 54132,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Geri's Game"
+    },
+    {
+      "name": "Luxo Jr.",
+      "aliases": [
+        "Luxo Junior"
+      ],
+      "popularity": 58598,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Luxo Jr."
+    },
+    {
+      "name": "Bao",
+      "aliases": [
+        "Bao (film)"
+      ],
+      "popularity": 79925,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Bao (film)"
+    },
+    {
+      "name": "Tin Toy",
+      "aliases": [],
+      "popularity": 86849,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Tin Toy"
+    },
+    {
+      "name": "Planes",
+      "aliases": [
+        "Planes (film)"
+      ],
+      "popularity": 247512,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Planes (film)"
+    },
+    {
+      "name": "Inside Out",
+      "aliases": [],
+      "popularity": 283592,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Inside Out"
+    },
+    {
+      "name": "The Good Dinosaur",
+      "aliases": [
+        "Good Dinosaur"
+      ],
+      "popularity": 348097,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "The Good Dinosaur"
+    },
+    {
+      "name": "Monsters University",
+      "aliases": [],
+      "popularity": 357854,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Monsters University"
+    },
+    {
+      "name": "Onward",
+      "aliases": [
+        "Onward (film)"
+      ],
+      "popularity": 398722,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Onward (film)"
+    },
+    {
+      "name": "Finding Dory",
+      "aliases": [],
+      "popularity": 405387,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Finding Dory"
+    },
+    {
+      "name": "Cars 2",
+      "aliases": [],
+      "popularity": 447131,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Cars 2"
+    },
+    {
+      "name": "Cars 3",
+      "aliases": [],
+      "popularity": 454920,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Cars 3"
+    },
+    {
+      "name": "Turning Red",
+      "aliases": [],
+      "popularity": 479879,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Turning Red"
+    },
+    {
+      "name": "Lightyear",
+      "aliases": [
+        "Lightyear (film)"
+      ],
+      "popularity": 488350,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Lightyear (film)"
+    },
+    {
+      "name": "Luca",
+      "aliases": [
+        "Luca (2021 film)"
+      ],
+      "popularity": 491551,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Luca (2021 film)"
+    },
+    {
+      "name": "Brave",
+      "aliases": [
+        "Brave (2012 film)"
+      ],
+      "popularity": 510319,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Brave (2012 film)"
+    },
+    {
+      "name": "Incredibles 2",
+      "aliases": [
+        "The Incredibles 2"
+      ],
+      "popularity": 529779,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Incredibles 2"
+    },
+    {
+      "name": "Soul",
+      "aliases": [
+        "Soul (2020 film)"
+      ],
+      "popularity": 530468,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Soul (2020 film)"
+    },
+    {
+      "name": "Elemental",
+      "aliases": [
+        "Elemental (2023 film)"
+      ],
+      "popularity": 595947,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Elemental (2023 film)"
+    },
+    {
+      "name": "A Bug's Life",
+      "aliases": [
+        "Bug's Life"
+      ],
+      "popularity": 653650,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "A Bug's Life"
+    },
+    {
+      "name": "Up",
+      "aliases": [
+        "Up (2009 film)"
+      ],
+      "popularity": 699851,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Up (2009 film)"
+    },
+    {
+      "name": "The Incredibles",
+      "aliases": [
+        "Incredibles"
+      ],
+      "popularity": 716118,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "The Incredibles"
+    },
+    {
+      "name": "WALL-E",
+      "aliases": [],
+      "popularity": 721332,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "WALL-E"
+    },
+    {
+      "name": "Monsters, Inc.",
+      "aliases": [],
+      "popularity": 723570,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Monsters, Inc."
+    },
+    {
+      "name": "Finding Nemo",
+      "aliases": [],
+      "popularity": 737712,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Finding Nemo"
+    },
+    {
+      "name": "Elio",
+      "aliases": [
+        "Elio (film)"
+      ],
+      "popularity": 837726,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Elio (film)"
+    },
+    {
+      "name": "Inside Out 2",
+      "aliases": [],
+      "popularity": 843179,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Inside Out 2"
+    },
+    {
+      "name": "Toy Story 2",
+      "aliases": [],
+      "popularity": 843934,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Toy Story 2"
+    },
+    {
+      "name": "Coco",
+      "aliases": [
+        "Coco (2017 film)"
+      ],
+      "popularity": 905691,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Coco (2017 film)"
+    },
+    {
+      "name": "Ratatouille",
+      "aliases": [
+        "Ratatouille (film)"
+      ],
+      "popularity": 927782,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Ratatouille (film)"
+    },
+    {
+      "name": "Toy Story 3",
+      "aliases": [],
+      "popularity": 1042497,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Toy Story 3"
+    },
+    {
+      "name": "Cars",
+      "aliases": [
+        "Cars (film)"
+      ],
+      "popularity": 1124908,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Cars (film)"
+    },
+    {
+      "name": "Toy Story 4",
+      "aliases": [],
+      "popularity": 1467048,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Toy Story 4"
+    },
+    {
+      "name": "Toy Story",
+      "aliases": [],
+      "popularity": 1551308,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Toy Story"
+    },
+    {
+      "name": "Hoppers",
+      "aliases": [
+        "Hoppers (film)"
+      ],
+      "popularity": 3862619,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Hoppers (film)"
+    },
+    {
+      "name": "Toy Story 5",
+      "aliases": [],
+      "popularity": 5881896,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Toy Story 5"
+    }
+  ]
+}

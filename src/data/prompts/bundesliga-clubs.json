@@ -1,0 +1,250 @@
+{
+  "id": "bundesliga-clubs",
+  "slug": "bundesliga-clubs",
+  "category": "sports",
+  "question": "Name a current Bundesliga club",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "SC Paderborn 07",
+      "aliases": [
+        "Die Ostwestfalen",
+        "Paderborn 07",
+        "SCP 07"
+      ],
+      "popularity": 118443,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "SC Paderborn 07"
+    },
+    {
+      "name": "1. FC Köln",
+      "aliases": [
+        "1. FC Cologne",
+        "F.C. Köln",
+        "FC Köln",
+        "FCKoln"
+      ],
+      "popularity": 243249,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "1. FC Köln"
+    },
+    {
+      "name": "1. FSV Mainz 05",
+      "aliases": [
+        "Die Nullfünfer",
+        "FSV Mainz",
+        "Mainz",
+        "Mainz 05",
+        "The Zero-Fivers"
+      ],
+      "popularity": 247836,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "1. FSV Mainz 05"
+    },
+    {
+      "name": "SV Elversberg",
+      "aliases": [
+        "Elversberg",
+        "SV 07 Elversberg"
+      ],
+      "popularity": 265551,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "SV Elversberg"
+    },
+    {
+      "name": "SV Werder Bremen",
+      "aliases": [
+        "Die Grün-Weißen",
+        "Die Werderaner",
+        "The Green-Whites",
+        "Werder",
+        "Werder Bremen"
+      ],
+      "popularity": 277567,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "SV Werder Bremen"
+    },
+    {
+      "name": "TSG 1899 Hoffenheim",
+      "aliases": [
+        "1899 Hoffenheim",
+        "1899 Hoffenheim II",
+        "Die Kraichgauer",
+        "Hoffenheim",
+        "TSG Hoffenheim",
+        "TSG Hoffenheim II"
+      ],
+      "popularity": 305204,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "TSG 1899 Hoffenheim"
+    },
+    {
+      "name": "1. FC Union Berlin",
+      "aliases": [
+        "1. Fußballclub Union Berlin",
+        "Berlin FC",
+        "Die Eisernen",
+        "FC Berlin",
+        "FC Union Berlin",
+        "The Iron Ones",
+        "Union Berlin"
+      ],
+      "popularity": 306169,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "1. FC Union Berlin"
+    },
+    {
+      "name": "SC Freiburg",
+      "aliases": [
+        "Die Breisgau-Brasilianer",
+        "S.C. Freiburg",
+        "Sport Club Freiburg",
+        "Sport-Club Freiburg e.V.",
+        "The Breisgau Brazilians"
+      ],
+      "popularity": 405861,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "SC Freiburg"
+    },
+    {
+      "name": "VfB Stuttgart",
+      "aliases": [
+        "Die Schwaben",
+        "The Swabians"
+      ],
+      "popularity": 412890,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "VfB Stuttgart"
+    },
+    {
+      "name": "Eintracht Frankfurt",
+      "aliases": [
+        "Die Adler",
+        "Eintracht",
+        "Eintracht Frankfurt e. V.",
+        "Frankfurt",
+        "The Eagles"
+      ],
+      "popularity": 421456,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Eintracht Frankfurt"
+    },
+    {
+      "name": "Hamburger SV",
+      "aliases": [
+        "H.S.V.",
+        "Hamburg",
+        "Hamburg Sport Club",
+        "Hamburg SV",
+        "Hamburger",
+        "Hamburger S.V.",
+        "Hamburger Sport-Verein",
+        "HamburgerSV",
+        "HSV"
+      ],
+      "popularity": 421492,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Hamburger SV"
+    },
+    {
+      "name": "Borussia Mönchengladbach",
+      "aliases": [],
+      "popularity": 457038,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Borussia Mönchengladbach"
+    },
+    {
+      "name": "FC Schalke 04",
+      "aliases": [
+        "F.C. Schalke 04",
+        "FC Gelsenkirchen-Schalke 04",
+        "S04",
+        "Schalke 0",
+        "Schalke 04",
+        "Schalke04"
+      ],
+      "popularity": 577591,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "FC Schalke 04"
+    },
+    {
+      "name": "RB Leipzig",
+      "aliases": [
+        "Die Roten Bullen",
+        "RasenBallsport Leipzig e.V.",
+        "The Red Bulls"
+      ],
+      "popularity": 607010,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "RB Leipzig"
+    },
+    {
+      "name": "Bayer 04 Leverkusen",
+      "aliases": [
+        "Bayer",
+        "Bayer 04 Football",
+        "Bayer Leverkusen",
+        "Die Werkself",
+        "Leverkusen",
+        "The Company XI"
+      ],
+      "popularity": 833574,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Bayer 04 Leverkusen"
+    },
+    {
+      "name": "Borussia Dortmund",
+      "aliases": [
+        "BVB",
+        "Die Borussen",
+        "Die Schwarzgelben",
+        "Dortmund",
+        "The Black and Yellows"
+      ],
+      "popularity": 1346112,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Borussia Dortmund"
+    },
+    {
+      "name": "FC Bayern Munich",
+      "aliases": [
+        "Bavaria Munich",
+        "Bayern",
+        "Bayern Muenchen",
+        "Bayern München",
+        "Bayern Munich",
+        "Bayern of Munich",
+        "Die Bayernf",
+        "F.C. Bayern Munich",
+        "FC Bavaria Munich",
+        "FC Bayern Muenchen",
+        "FC Bayern Munchen",
+        "FC Hollywood",
+        "FCB Munich",
+        "FCBM",
+        "FCBM 1900",
+        "Munich"
+      ],
+      "popularity": 2191775,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "FC Bayern Munich"
+    }
+  ]
+}

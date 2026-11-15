@@ -50,8 +50,8 @@ const OUT_DIR = join(ROOT, 'src', 'data', 'prompts');
 
 const SPARQL_CONCURRENCY = 2;
 const SPARQL_GAP_MS = 250;
-const PAGEVIEW_CONCURRENCY = 4;
-const PAGEVIEW_GAP_MS = 120;
+const PAGEVIEW_CONCURRENCY = 10;
+const PAGEVIEW_GAP_MS = 40;
 const SPARQL_TIMEOUT_MS = 50_000;
 const PAGEVIEW_TIMEOUT_MS = 30_000;
 const ATTEMPTS = 5;
@@ -159,7 +159,8 @@ async function fetchRetry(url: string, init: RequestInit, timeoutMs: number, att
     } catch (error) {
       lastError = error;
       const name = error instanceof Error ? error.name : '';
-      if (attempt === attempts || name === 'TimeoutError' || name === 'AbortError') break;
+      if (attempt === attempts) break;
+      void name;
       await sleep(delay + Math.floor(Math.random() * 400));
       delay = Math.min(delay * 2, 30_000);
     }
@@ -189,6 +190,12 @@ function wikiFilters(): string {
   ].join('\n');
 }
 
+/**
+ * Small VALUES-style sets where Blazegraph's optimizer runs the outer OPTIONALs
+ * before the subquery and times out (verified 2026-11-14). Keep written order.
+ */
+const FIXED_ORDER = new Set(['great-ape-species', 'commonwealth-members', 'planets-and-dwarf-planets', 'human-chromosomes']);
+
 function sparqlFor(def: PromptDef, mode: 'count' | 'full'): string {
   if (!def.where) throw new Error(`${def.slug} has no SPARQL pattern`);
   const inner = `
@@ -212,6 +219,7 @@ SELECT ?item ?label ?enwiki
   (GROUP_CONCAT(DISTINCT ?symbol; SEPARATOR="|||") AS ?symbols)
   (GROUP_CONCAT(DISTINCT ?short; SEPARATOR="|||") AS ?shorts)
 WHERE {
+  ${FIXED_ORDER.has(def.slug) ? 'hint:Query hint:optimizer "None" .' : ''}
   { ${inner} }
   OPTIONAL { ?item skos:altLabel ?alt. FILTER(LANG(?alt) = "en") }
   OPTIONAL { ?item wdt:P225 ?binomial }

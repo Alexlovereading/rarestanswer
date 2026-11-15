@@ -1,0 +1,332 @@
+{
+  "id": "mexican-states",
+  "slug": "mexican-states",
+  "category": "geography",
+  "question": "Name a state of Mexico",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Hidalgo",
+      "aliases": [
+        "Estado de Hidalgo",
+        "Hidalgo (state)"
+      ],
+      "popularity": 66854,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Hidalgo (state)"
+    },
+    {
+      "name": "Morelos",
+      "aliases": [
+        "Estado de Morelos"
+      ],
+      "popularity": 80703,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Morelos"
+    },
+    {
+      "name": "Aguascalientes",
+      "aliases": [
+        "State of Aguascalientes"
+      ],
+      "popularity": 80873,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Aguascalientes"
+    },
+    {
+      "name": "Colima",
+      "aliases": [
+        "Estado de Colima"
+      ],
+      "popularity": 80932,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Colima"
+    },
+    {
+      "name": "San Luis Potosí",
+      "aliases": [
+        "S.L.P."
+      ],
+      "popularity": 81183,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "San Luis Potosí"
+    },
+    {
+      "name": "Tlaxcala",
+      "aliases": [
+        "Estado de Tlaxcala"
+      ],
+      "popularity": 81714,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Tlaxcala"
+    },
+    {
+      "name": "Campeche",
+      "aliases": [],
+      "popularity": 84049,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Campeche"
+    },
+    {
+      "name": "Nayarit",
+      "aliases": [
+        "Estado de Nayarit",
+        "State of Nayarit"
+      ],
+      "popularity": 90844,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Nayarit"
+    },
+    {
+      "name": "Tabasco",
+      "aliases": [
+        "Tabasco State"
+      ],
+      "popularity": 96330,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Tabasco"
+    },
+    {
+      "name": "Guerrero",
+      "aliases": [],
+      "popularity": 101465,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Guerrero"
+    },
+    {
+      "name": "Zacatecas",
+      "aliases": [
+        "State of Zacatecas"
+      ],
+      "popularity": 104796,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Zacatecas"
+    },
+    {
+      "name": "Querétaro",
+      "aliases": [
+        "Queretaro State"
+      ],
+      "popularity": 106319,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Querétaro"
+    },
+    {
+      "name": "Durango",
+      "aliases": [
+        "Estado de Durango",
+        "Tepēhuahcān"
+      ],
+      "popularity": 112385,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Durango"
+    },
+    {
+      "name": "Puebla",
+      "aliases": [
+        "Estado de Puebla"
+      ],
+      "popularity": 121681,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Puebla"
+    },
+    {
+      "name": "Coahuila",
+      "aliases": [
+        "Estado de Coahuila"
+      ],
+      "popularity": 122350,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Coahuila"
+    },
+    {
+      "name": "State of Mexico",
+      "aliases": [
+        "Edomex",
+        "Edomexico",
+        "Mexico",
+        "Mexico state"
+      ],
+      "popularity": 125383,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "State of Mexico"
+    },
+    {
+      "name": "Tamaulipas",
+      "aliases": [
+        "Tamaulipas State"
+      ],
+      "popularity": 126166,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Tamaulipas"
+    },
+    {
+      "name": "Guanajuato",
+      "aliases": [
+        "Estado de Guanajuato",
+        "GUA",
+        "Guanajuato State",
+        "MX-GUA"
+      ],
+      "popularity": 138321,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Guanajuato"
+    },
+    {
+      "name": "Baja California Sur",
+      "aliases": [
+        "BCS",
+        "Estado de Baja California Sur",
+        "MX-BCS",
+        "MX03",
+        "South Lower California",
+        "South Territory of Baja California"
+      ],
+      "popularity": 145523,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Baja California Sur"
+    },
+    {
+      "name": "Quintana Roo",
+      "aliases": [
+        "State of Quintana Roo"
+      ],
+      "popularity": 151113,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Quintana Roo"
+    },
+    {
+      "name": "Yucatán",
+      "aliases": [
+        "MX-YUC",
+        "Yucatán State"
+      ],
+      "popularity": 152399,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Yucatán"
+    },
+    {
+      "name": "Nuevo León",
+      "aliases": [],
+      "popularity": 158164,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Nuevo León"
+    },
+    {
+      "name": "Veracruz",
+      "aliases": [],
+      "popularity": 170039,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Veracruz"
+    },
+    {
+      "name": "Chiapas",
+      "aliases": [
+        "Las Chiapas"
+      ],
+      "popularity": 177534,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Chiapas"
+    },
+    {
+      "name": "Sonora",
+      "aliases": [
+        "Estado de Sonora"
+      ],
+      "popularity": 183134,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Sonora"
+    },
+    {
+      "name": "Michoacán",
+      "aliases": [
+        "Michoacán de Ocampo",
+        "Michoacan State"
+      ],
+      "popularity": 201990,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Michoacán"
+    },
+    {
+      "name": "Chihuahua",
+      "aliases": [
+        "Chihuahua (state)"
+      ],
+      "popularity": 215383,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Chihuahua (state)"
+    },
+    {
+      "name": "Sinaloa",
+      "aliases": [
+        "Estado de Sinaloa"
+      ],
+      "popularity": 226827,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Sinaloa"
+    },
+    {
+      "name": "Oaxaca",
+      "aliases": [
+        "Huāxyacac",
+        "MX-OAX"
+      ],
+      "popularity": 285782,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Oaxaca"
+    },
+    {
+      "name": "Baja California",
+      "aliases": [
+        "BCN",
+        "Lower California",
+        "MX-BCN",
+        "MX02"
+      ],
+      "popularity": 346527,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Baja California"
+    },
+    {
+      "name": "Jalisco",
+      "aliases": [
+        "JAL",
+        "Jalisco State"
+      ],
+      "popularity": 365420,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Jalisco"
+    }
+  ]
+}

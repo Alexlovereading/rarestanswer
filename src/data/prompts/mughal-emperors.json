@@ -1,0 +1,239 @@
+{
+  "id": "mughal-emperors",
+  "slug": "mughal-emperors",
+  "category": "history",
+  "question": "Name a Mughal emperor",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Jahan Shah",
+      "aliases": [
+        "Bidar Bakht Mahmud Shah Bahadur",
+        "Jahan Shah IV",
+        "Jahan Shah (Mughal Emperor)",
+        "Mahmud Shah Bahadur",
+        "Mirza Mahmud Shah Bahadur"
+      ],
+      "popularity": 47043,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Jahan Shah (Mughal Emperor)"
+    },
+    {
+      "name": "Shah Jahan III",
+      "aliases": [],
+      "popularity": 56521,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Shah Jahan III"
+    },
+    {
+      "name": "Shah Jahan II",
+      "aliases": [
+        "Rafi ud-Daulah"
+      ],
+      "popularity": 68409,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Shah Jahan II"
+    },
+    {
+      "name": "Rafi ud-Darajat",
+      "aliases": [
+        "Mirza Rafi ud-Darajat"
+      ],
+      "popularity": 69373,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Rafi ud-Darajat"
+    },
+    {
+      "name": "Muhammad Azam Shah",
+      "aliases": [
+        "Azam Shah",
+        "Qutb-ud-Din Muhammad Azam"
+      ],
+      "popularity": 70103,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Muhammad Azam Shah"
+    },
+    {
+      "name": "Ahmad Shah Bahadur",
+      "aliases": [],
+      "popularity": 73338,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Ahmad Shah Bahadur"
+    },
+    {
+      "name": "Alamgir II",
+      "aliases": [],
+      "popularity": 82372,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Alamgir II"
+    },
+    {
+      "name": "Akbar II",
+      "aliases": [
+        "Akbar Shah II"
+      ],
+      "popularity": 95436,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Akbar II"
+    },
+    {
+      "name": "Jahandar Shah",
+      "aliases": [],
+      "popularity": 112535,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Jahandar Shah"
+    },
+    {
+      "name": "Farrukhsiyar",
+      "aliases": [
+        "Furrukhsiyar"
+      ],
+      "popularity": 119661,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Farrukhsiyar"
+    },
+    {
+      "name": "Muhammad Shah",
+      "aliases": [
+        "Muhàmmad Xah de Delhi",
+        "Nasir-ud-Din Muḥammad Shah",
+        "Roshan Akhtar"
+      ],
+      "popularity": 145186,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Muhammad Shah"
+    },
+    {
+      "name": "Shah Alam II",
+      "aliases": [
+        "Ali Gauhar",
+        "Ali Gohar",
+        "Sha Alam II"
+      ],
+      "popularity": 170983,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Shah Alam II"
+    },
+    {
+      "name": "Bahadur Shah I",
+      "aliases": [
+        "Bahadur Shah"
+      ],
+      "popularity": 173082,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Bahadur Shah I"
+    },
+    {
+      "name": "Bahadur Shah Zafar",
+      "aliases": [
+        "Bahadur Shah II"
+      ],
+      "popularity": 232220,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Bahadur Shah Zafar"
+    },
+    {
+      "name": "Humayun",
+      "aliases": [
+        "Humāyūn Pādešāh",
+        "Humayun Padishah",
+        "Jahānbāni Jannat-āšiāni",
+        "Jannat-Ashyani",
+        "Mirza Nasiruddin Baig Mohammad Humayun",
+        "Nāṣer-al-Din Moḥammad",
+        "Naser al-Din Muhammad",
+        "Nasir ud-Din Muhammad"
+      ],
+      "popularity": 281318,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Humayun"
+    },
+    {
+      "name": "Jahangir",
+      "aliases": [
+        "Emperor of Hindustan Jahangir",
+        "Großmogul Jahangir Mogulreich",
+        "Jahangir I",
+        "Jehangir",
+        "Nur-ud-din Mohammad Salim"
+      ],
+      "popularity": 460674,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Jahangir"
+    },
+    {
+      "name": "Babur",
+      "aliases": [
+        "Babar",
+        "Baber",
+        "Firdaws Makani",
+        "Zahir al-Din Muhammad",
+        "Zahir-ud-din Muhammad",
+        "Zahīr ud-Dīn Muhammad Bābur"
+      ],
+      "popularity": 604966,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Babur"
+    },
+    {
+      "name": "Shah Jahan",
+      "aliases": [
+        "Prince Khurram",
+        "Sha Yahan",
+        "Shah Jahan the Magnificent",
+        "Shah-Jehan",
+        "Shahab-ud-din Muhammad Khurram",
+        "Shahabuddin Muhammad Shah Jahan",
+        "Shahjahan"
+      ],
+      "popularity": 642591,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Shah Jahan"
+    },
+    {
+      "name": "Akbar",
+      "aliases": [
+        "Akbar I",
+        "Akbar Mahan",
+        "Akbar the Great",
+        "Jalal-ud-Din Muhammad Akbar"
+      ],
+      "popularity": 709204,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Akbar"
+    },
+    {
+      "name": "Aurangzeb",
+      "aliases": [
+        "Alamgir Aurangzeb",
+        "Alamgir I",
+        "Alamgir Shah",
+        "Aurangezeb",
+        "Aurungzebe"
+      ],
+      "popularity": 760500,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Aurangzeb"
+    }
+  ]
+}

@@ -1,0 +1,3659 @@
+{
+  "id": "pharaohs",
+  "slug": "pharaohs",
+  "category": "history",
+  "question": "Name a pharaoh",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Heribre",
+      "aliases": [
+        "Heribra"
+      ],
+      "popularity": 95,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Heribre"
+    },
+    {
+      "name": "Neferkare",
+      "aliases": [
+        "Neferkare (Tanis)"
+      ],
+      "popularity": 235,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "Neferkare (Tanis)"
+    },
+    {
+      "name": "Penamun",
+      "aliases": [],
+      "popularity": 451,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Penamun"
+    },
+    {
+      "name": "Amu",
+      "aliases": [
+        "Amu (pharaoh)"
+      ],
+      "popularity": 477,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Amu (pharaoh)"
+    },
+    {
+      "name": "Sekhemrekhutawy",
+      "aliases": [
+        "Sekhemre Khutawy"
+      ],
+      "popularity": 521,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Sekhemrekhutawy"
+    },
+    {
+      "name": "Nikare II",
+      "aliases": [],
+      "popularity": 534,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Nikare II"
+    },
+    {
+      "name": "Sekhmakh",
+      "aliases": [],
+      "popularity": 650,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Sekhmakh"
+    },
+    {
+      "name": "Webenre",
+      "aliases": [
+        "Webenra"
+      ],
+      "popularity": 659,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Webenre"
+    },
+    {
+      "name": "Seankhibtawy Seankhibra",
+      "aliases": [],
+      "popularity": 666,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Seankhibtawy Seankhibra"
+    },
+    {
+      "name": "Khamure",
+      "aliases": [],
+      "popularity": 956,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Khamure"
+    },
+    {
+      "name": "Djehutyemhat",
+      "aliases": [
+        "Thotemhat"
+      ],
+      "popularity": 978,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Djehutyemhat"
+    },
+    {
+      "name": "Iyibkhentre",
+      "aliases": [
+        "Ibkhenetre",
+        "Ijibchentre"
+      ],
+      "popularity": 994,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Iyibkhentre"
+    },
+    {
+      "name": "Ammu Aahotepre",
+      "aliases": [
+        "Aahotepre"
+      ],
+      "popularity": 1003,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Ammu Aahotepre"
+    },
+    {
+      "name": "Qareh Khawoserre",
+      "aliases": [
+        "Khaouserrê",
+        "Qareh"
+      ],
+      "popularity": 1029,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Qareh Khawoserre"
+    },
+    {
+      "name": "Iytjenu",
+      "aliases": [],
+      "popularity": 1033,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Iytjenu"
+    },
+    {
+      "name": "Sheneh",
+      "aliases": [
+        "Sheneh (pharaoh)"
+      ],
+      "popularity": 1070,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Sheneh (pharaoh)"
+    },
+    {
+      "name": "Nebdjefare",
+      "aliases": [
+        "Nebdjefara"
+      ],
+      "popularity": 1072,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Nebdjefare"
+    },
+    {
+      "name": "Muthis",
+      "aliases": [],
+      "popularity": 1084,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Muthis"
+    },
+    {
+      "name": "Sewahenre Senebmiu",
+      "aliases": [],
+      "popularity": 1103,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Sewahenre Senebmiu"
+    },
+    {
+      "name": "Khuiqer",
+      "aliases": [],
+      "popularity": 1137,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Khuiqer"
+    },
+    {
+      "name": "Nuya",
+      "aliases": [],
+      "popularity": 1154,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Nuya"
+    },
+    {
+      "name": "Gemenefkhonsbak",
+      "aliases": [],
+      "popularity": 1178,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "Gemenefkhonsbak"
+    },
+    {
+      "name": "Sewadjare Mentuhotep",
+      "aliases": [
+        "Mentuhotep VI",
+        "Montuhotep VI"
+      ],
+      "popularity": 1204,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Sewadjare Mentuhotep"
+    },
+    {
+      "name": "Neferkare VII",
+      "aliases": [
+        "Neferkare Akhtoy"
+      ],
+      "popularity": 1234,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Neferkare VII"
+    },
+    {
+      "name": "Sewadjkare III",
+      "aliases": [
+        "Sewadjkare II"
+      ],
+      "popularity": 1240,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Sewadjkare III"
+    },
+    {
+      "name": "Merkare",
+      "aliases": [],
+      "popularity": 1251,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Merkare"
+    },
+    {
+      "name": "Mershepsesre Ini II",
+      "aliases": [],
+      "popularity": 1260,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Mershepsesre Ini II"
+    },
+    {
+      "name": "Nebiryraw II",
+      "aliases": [
+        "Nebiriau II"
+      ],
+      "popularity": 1274,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Nebiryraw II"
+    },
+    {
+      "name": "Nebsenre",
+      "aliases": [
+        "Nebsenra"
+      ],
+      "popularity": 1274,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Nebsenre"
+    },
+    {
+      "name": "Djedankhre Montemsaf",
+      "aliases": [],
+      "popularity": 1312,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Djedankhre Montemsaf"
+    },
+    {
+      "name": "Merkheperre",
+      "aliases": [],
+      "popularity": 1358,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Merkheperre"
+    },
+    {
+      "name": "Seneferankhre",
+      "aliases": [
+        "Pepi III"
+      ],
+      "popularity": 1359,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Seneferankhre"
+    },
+    {
+      "name": "Qakare Ini",
+      "aliases": [
+        "Intef"
+      ],
+      "popularity": 1367,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Qakare Ini"
+    },
+    {
+      "name": "Sekheperenre",
+      "aliases": [],
+      "popularity": 1374,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Sekheperenre"
+    },
+    {
+      "name": "Sekhemre Shedwaset",
+      "aliases": [
+        "Sekhemre Shedwast"
+      ],
+      "popularity": 1387,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Sekhemre Shedwaset"
+    },
+    {
+      "name": "Neferka",
+      "aliases": [],
+      "popularity": 1388,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Neferka"
+    },
+    {
+      "name": "Sehebre",
+      "aliases": [],
+      "popularity": 1394,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Sehebre"
+    },
+    {
+      "name": "Wazad",
+      "aliases": [],
+      "popularity": 1439,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Wazad"
+    },
+    {
+      "name": "Bebnum",
+      "aliases": [],
+      "popularity": 1493,
+      "rarity": 0.901,
+      "tier": 5,
+      "wiki": "Bebnum"
+    },
+    {
+      "name": "Merankhre Mentuhotep",
+      "aliases": [],
+      "popularity": 1522,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Merankhre Mentuhotep"
+    },
+    {
+      "name": "Shenshek",
+      "aliases": [],
+      "popularity": 1528,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Shenshek"
+    },
+    {
+      "name": "Snaaib",
+      "aliases": [],
+      "popularity": 1571,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Snaaib"
+    },
+    {
+      "name": "Yakareb",
+      "aliases": [],
+      "popularity": 1572,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Yakareb"
+    },
+    {
+      "name": "Iuput I",
+      "aliases": [
+        "Auput I"
+      ],
+      "popularity": 1588,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "Iuput I"
+    },
+    {
+      "name": "Seheqenre Sankhptahi",
+      "aliases": [],
+      "popularity": 1598,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Seheqenre Sankhptahi"
+    },
+    {
+      "name": "Anat-her",
+      "aliases": [],
+      "popularity": 1610,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Anat-her"
+    },
+    {
+      "name": "Sedjefakare Kay Amenemhat VII",
+      "aliases": [
+        "Amenemhat VII",
+        "Sedjefakare"
+      ],
+      "popularity": 1611,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Sedjefakare Kay Amenemhat VII"
+    },
+    {
+      "name": "Sedjes",
+      "aliases": [],
+      "popularity": 1638,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Sedjes"
+    },
+    {
+      "name": "Sharek",
+      "aliases": [
+        "Shalek"
+      ],
+      "popularity": 1677,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Sharek"
+    },
+    {
+      "name": "Peftjauawybast",
+      "aliases": [],
+      "popularity": 1712,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Peftjauawybast"
+    },
+    {
+      "name": "Khahotepre Sobekhotep VI",
+      "aliases": [
+        "Sobekhotep VI"
+      ],
+      "popularity": 1716,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Khahotepre Sobekhotep VI"
+    },
+    {
+      "name": "Nimlot of Hermopolis",
+      "aliases": [],
+      "popularity": 1777,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Nimlot of Hermopolis"
+    },
+    {
+      "name": "Merdjefare",
+      "aliases": [],
+      "popularity": 1794,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Merdjefare"
+    },
+    {
+      "name": "Wadjkare",
+      "aliases": [],
+      "popularity": 1808,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Wadjkare"
+    },
+    {
+      "name": "Horus Sa",
+      "aliases": [],
+      "popularity": 1838,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Horus Sa"
+    },
+    {
+      "name": "Amenemhat VI",
+      "aliases": [
+        "Amenemhet VI",
+        "Seankhibre Ameny Antef Amenemhat VI"
+      ],
+      "popularity": 1846,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Amenemhat VI"
+    },
+    {
+      "name": "Seankhenre Mentuhotepi",
+      "aliases": [],
+      "popularity": 1867,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Seankhenre Mentuhotepi"
+    },
+    {
+      "name": "Sekhemkare Amenemhat Senebef",
+      "aliases": [
+        "Amenemhat Sénébef",
+        "Amenemhat Sonbef",
+        "Sonbef"
+      ],
+      "popularity": 1943,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Sekhemkare Amenemhat Senebef"
+    },
+    {
+      "name": "Tutkheperre Shoshenq",
+      "aliases": [],
+      "popularity": 2001,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Tutkheperre Shoshenq"
+    },
+    {
+      "name": "Bebiankh",
+      "aliases": [],
+      "popularity": 2003,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Bebiankh"
+    },
+    {
+      "name": "Pantjeny",
+      "aliases": [
+        "Sekhemrê Khoutaoui"
+      ],
+      "popularity": 2015,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Pantjeny"
+    },
+    {
+      "name": "Semenre",
+      "aliases": [],
+      "popularity": 2020,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Semenre"
+    },
+    {
+      "name": "Nebiryraw I",
+      "aliases": [],
+      "popularity": 2036,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Nebiryraw I"
+    },
+    {
+      "name": "Sihathor",
+      "aliases": [
+        "Sahathor"
+      ],
+      "popularity": 2072,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Sihathor"
+    },
+    {
+      "name": "Senusret IV",
+      "aliases": [],
+      "popularity": 2112,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Senusret IV"
+    },
+    {
+      "name": "Ya'ammu Nubwoserre",
+      "aliases": [
+        "Nebououserrê",
+        "Nubwoserre Ya'ammu",
+        "Yaammu Nubwoserre"
+      ],
+      "popularity": 2128,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Ya'ammu Nubwoserre"
+    },
+    {
+      "name": "Sekhemre Sementawy Djehuty",
+      "aliases": [
+        "Djehuti"
+      ],
+      "popularity": 2143,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Sekhemre Sementawy Djehuty"
+    },
+    {
+      "name": "Shoshenq VI",
+      "aliases": [],
+      "popularity": 2150,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Shoshenq VI"
+    },
+    {
+      "name": "Iuput II",
+      "aliases": [],
+      "popularity": 2160,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Iuput II"
+    },
+    {
+      "name": "Neferu II",
+      "aliases": [],
+      "popularity": 2196,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Neferu II"
+    },
+    {
+      "name": "Neferkare VIII",
+      "aliases": [
+        "Neferkare IV"
+      ],
+      "popularity": 2204,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Neferkare VIII"
+    },
+    {
+      "name": "Wepwawetemsaf",
+      "aliases": [
+        "Sekhemraneferkhau Wepwawetemsaf"
+      ],
+      "popularity": 2226,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Wepwawetemsaf"
+    },
+    {
+      "name": "Khui",
+      "aliases": [],
+      "popularity": 2238,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Khui"
+    },
+    {
+      "name": "Sobekhotep VIII",
+      "aliases": [],
+      "popularity": 2271,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Sobekhotep VIII"
+    },
+    {
+      "name": "Sebkay",
+      "aliases": [],
+      "popularity": 2282,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Sebkay"
+    },
+    {
+      "name": "Neferkare I",
+      "aliases": [
+        "Aaka",
+        "Neferkara I"
+      ],
+      "popularity": 2312,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Neferkare I"
+    },
+    {
+      "name": "Segerseni",
+      "aliases": [],
+      "popularity": 2336,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Segerseni"
+    },
+    {
+      "name": "Ni-Neith",
+      "aliases": [],
+      "popularity": 2338,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Ni-Neith"
+    },
+    {
+      "name": "Ineni",
+      "aliases": [],
+      "popularity": 2347,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Ineni"
+    },
+    {
+      "name": "Ba",
+      "aliases": [
+        "Ba (pharaoh)",
+        "Horus Ba"
+      ],
+      "popularity": 2366,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Ba (pharaoh)"
+    },
+    {
+      "name": "Ini",
+      "aliases": [
+        "Ini (pharaoh)",
+        "Menkheperre Ini"
+      ],
+      "popularity": 2377,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Ini (pharaoh)"
+    },
+    {
+      "name": "Neferhotep III",
+      "aliases": [],
+      "popularity": 2377,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Neferhotep III"
+    },
+    {
+      "name": "Psammuthes",
+      "aliases": [],
+      "popularity": 2470,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Psammuthes"
+    },
+    {
+      "name": "Neferu III",
+      "aliases": [],
+      "popularity": 2600,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Neferu III"
+    },
+    {
+      "name": "Semenkare Nebnuni",
+      "aliases": [
+        "Nebennu",
+        "Semenkare"
+      ],
+      "popularity": 2602,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Semenkare Nebnuni"
+    },
+    {
+      "name": "Psammetichus IV",
+      "aliases": [
+        "Psamtik IV"
+      ],
+      "popularity": 2610,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Psammetichus IV"
+    },
+    {
+      "name": "Takelot III",
+      "aliases": [],
+      "popularity": 2677,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Takelot III"
+    },
+    {
+      "name": "Sekhemre Wahkhau Rahotep",
+      "aliases": [
+        "Rahotep",
+        "Sekhemre Wahkhau Rehotep"
+      ],
+      "popularity": 2750,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Sekhemre Wahkhau Rahotep"
+    },
+    {
+      "name": "Sewadjkare",
+      "aliases": [],
+      "popularity": 2797,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Sewadjkare"
+    },
+    {
+      "name": "Meryhathor",
+      "aliases": [],
+      "popularity": 2879,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Meryhathor"
+    },
+    {
+      "name": "Thesh",
+      "aliases": [],
+      "popularity": 2911,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Thesh"
+    },
+    {
+      "name": "Iufni",
+      "aliases": [],
+      "popularity": 2967,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Iufni"
+    },
+    {
+      "name": "Tiu",
+      "aliases": [
+        "Tiu (pharaoh)"
+      ],
+      "popularity": 2991,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Tiu (pharaoh)"
+    },
+    {
+      "name": "Aperanat",
+      "aliases": [
+        "Aper-Anat",
+        "'Aper-'Anati"
+      ],
+      "popularity": 2998,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Aperanat"
+    },
+    {
+      "name": "Nedjemibre",
+      "aliases": [],
+      "popularity": 3008,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Nedjemibre"
+    },
+    {
+      "name": "Nubnefer",
+      "aliases": [],
+      "popularity": 3057,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Nubnefer"
+    },
+    {
+      "name": "Sekhemrekhutawy Khabaw",
+      "aliases": [
+        "Khabaw Sekhemrekhutawy",
+        "Sekhemrê Khouitaoui"
+      ],
+      "popularity": 3063,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Sekhemrekhutawy Khabaw"
+    },
+    {
+      "name": "Mekh",
+      "aliases": [],
+      "popularity": 3100,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Mekh"
+    },
+    {
+      "name": "Sankhenre Sewadjtu",
+      "aliases": [],
+      "popularity": 3116,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Sankhenre Sewadjtu"
+    },
+    {
+      "name": "Renseneb",
+      "aliases": [],
+      "popularity": 3125,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Renseneb"
+    },
+    {
+      "name": "Dedumose I",
+      "aliases": [
+        "Djedhotepra"
+      ],
+      "popularity": 3137,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Dedumose I"
+    },
+    {
+      "name": "Nekauba",
+      "aliases": [
+        "Nechepsos"
+      ],
+      "popularity": 3176,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Nekauba"
+    },
+    {
+      "name": "Hedju-Hor",
+      "aliases": [
+        "Hedj-Hor"
+      ],
+      "popularity": 3185,
+      "rarity": 0.734,
+      "tier": 4,
+      "wiki": "Hedju-Hor"
+    },
+    {
+      "name": "Horus Bird",
+      "aliases": [
+        "Horus Bird (pharaoh)",
+        "Rei Ocell"
+      ],
+      "popularity": 3194,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Horus Bird (pharaoh)"
+    },
+    {
+      "name": "Neheb",
+      "aliases": [],
+      "popularity": 3214,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Neheb"
+    },
+    {
+      "name": "Wazner",
+      "aliases": [],
+      "popularity": 3217,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Wazner"
+    },
+    {
+      "name": "Pedubast I",
+      "aliases": [],
+      "popularity": 3225,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Pedubast I"
+    },
+    {
+      "name": "Merkawre Sobekhotep",
+      "aliases": [],
+      "popularity": 3238,
+      "rarity": 0.721,
+      "tier": 4,
+      "wiki": "Merkawre Sobekhotep"
+    },
+    {
+      "name": "Sewadjkare Hori",
+      "aliases": [],
+      "popularity": 3268,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Sewadjkare Hori"
+    },
+    {
+      "name": "Djedkheperew",
+      "aliases": [],
+      "popularity": 3276,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Djedkheperew"
+    },
+    {
+      "name": "Ammeris",
+      "aliases": [],
+      "popularity": 3288,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Ammeris"
+    },
+    {
+      "name": "Mersekhemre Ined",
+      "aliases": [],
+      "popularity": 3341,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Mersekhemre Ined"
+    },
+    {
+      "name": "Wahkare Khety",
+      "aliases": [
+        "Khety V Wahkara",
+        "Wahkare Khety I"
+      ],
+      "popularity": 3365,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Wahkare Khety"
+    },
+    {
+      "name": "Nerikare",
+      "aliases": [],
+      "popularity": 3392,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Nerikare"
+    },
+    {
+      "name": "Khaankhre Sobekhotep",
+      "aliases": [
+        "Khaankhre"
+      ],
+      "popularity": 3497,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Khaankhre Sobekhotep"
+    },
+    {
+      "name": "Qahedjet",
+      "aliases": [],
+      "popularity": 3583,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Qahedjet"
+    },
+    {
+      "name": "Sehetepkare Intef",
+      "aliases": [
+        "Intef V"
+      ],
+      "popularity": 3594,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Sehetepkare Intef"
+    },
+    {
+      "name": "Hotepibre",
+      "aliases": [],
+      "popularity": 3635,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Hotepibre"
+    },
+    {
+      "name": "Ptolemy Eupator",
+      "aliases": [],
+      "popularity": 3679,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "Ptolemy Eupator"
+    },
+    {
+      "name": "Neferkaure",
+      "aliases": [
+        "Neferkaure II"
+      ],
+      "popularity": 3700,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Neferkaure"
+    },
+    {
+      "name": "Setut",
+      "aliases": [
+        "Senen..."
+      ],
+      "popularity": 3723,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Setut"
+    },
+    {
+      "name": "Ameny Qemau",
+      "aliases": [],
+      "popularity": 3724,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Ameny Qemau"
+    },
+    {
+      "name": "Sehetepibre",
+      "aliases": [],
+      "popularity": 3757,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Sehetepibre"
+    },
+    {
+      "name": "Seth Meribre",
+      "aliases": [],
+      "popularity": 3796,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Seth Meribre"
+    },
+    {
+      "name": "Neferkasokar",
+      "aliases": [],
+      "popularity": 3806,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Neferkasokar"
+    },
+    {
+      "name": "Semqen",
+      "aliases": [],
+      "popularity": 3819,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Semqen"
+    },
+    {
+      "name": "Harsiese A",
+      "aliases": [
+        "Hedjkheperre Setepenamun Harsiese"
+      ],
+      "popularity": 3830,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Harsiese A"
+    },
+    {
+      "name": "Merhotepre Ini",
+      "aliases": [
+        "Ini I"
+      ],
+      "popularity": 3838,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Merhotepre Ini"
+    },
+    {
+      "name": "Thamphthis",
+      "aliases": [
+        "Djedefptah"
+      ],
+      "popularity": 3841,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Thamphthis"
+    },
+    {
+      "name": "Ankhwennefer",
+      "aliases": [
+        "Ankhmakis",
+        "Ankhwennefer (pharaoh)"
+      ],
+      "popularity": 3879,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Ankhwennefer (pharaoh)"
+    },
+    {
+      "name": "Sekhemkare",
+      "aliases": [
+        "Amenemhat V"
+      ],
+      "popularity": 3901,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Sekhemkare"
+    },
+    {
+      "name": "Neferkauhor",
+      "aliases": [],
+      "popularity": 3962,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Neferkauhor"
+    },
+    {
+      "name": "Neferkare Tereru",
+      "aliases": [],
+      "popularity": 4020,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Neferkare Tereru"
+    },
+    {
+      "name": "Imhotep",
+      "aliases": [
+        "Imhotep (pharaoh)"
+      ],
+      "popularity": 4066,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Imhotep (pharaoh)"
+    },
+    {
+      "name": "Merhotepre Sobekhotep",
+      "aliases": [
+        "Sobekhotep V"
+      ],
+      "popularity": 4074,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Merhotepre Sobekhotep"
+    },
+    {
+      "name": "Dedumose II",
+      "aliases": [
+        "Djedneferre Dedumose II"
+      ],
+      "popularity": 4156,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Dedumose II"
+    },
+    {
+      "name": "Wahibre Ibiau",
+      "aliases": [],
+      "popularity": 4175,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Wahibre Ibiau"
+    },
+    {
+      "name": "Neferkahor",
+      "aliases": [],
+      "popularity": 4184,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Neferkahor"
+    },
+    {
+      "name": "Tefnakht II",
+      "aliases": [],
+      "popularity": 4209,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Tefnakht II"
+    },
+    {
+      "name": "Pedubast II",
+      "aliases": [
+        "Sehetepibenre Pedubast"
+      ],
+      "popularity": 4213,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Pedubast II"
+    },
+    {
+      "name": "Neferkamin",
+      "aliases": [],
+      "popularity": 4228,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Neferkamin"
+    },
+    {
+      "name": "Weneg",
+      "aliases": [
+        "Weneg (pharaoh)"
+      ],
+      "popularity": 4277,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Weneg (pharaoh)"
+    },
+    {
+      "name": "Merenhor",
+      "aliases": [],
+      "popularity": 4316,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Merenhor"
+    },
+    {
+      "name": "Neferkamin Anu",
+      "aliases": [],
+      "popularity": 4350,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Neferkamin Anu"
+    },
+    {
+      "name": "Khabash",
+      "aliases": [
+        "Khababash"
+      ],
+      "popularity": 4364,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Khabash"
+    },
+    {
+      "name": "Nikare",
+      "aliases": [],
+      "popularity": 4364,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Nikare"
+    },
+    {
+      "name": "Neferkare Pepiseneb",
+      "aliases": [],
+      "popularity": 4439,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Neferkare Pepiseneb"
+    },
+    {
+      "name": "Imyremeshaw",
+      "aliases": [
+        "Smenkhkare Imyremeshaw"
+      ],
+      "popularity": 4443,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Imyremeshaw"
+    },
+    {
+      "name": "Khayu",
+      "aliases": [],
+      "popularity": 4523,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Khayu"
+    },
+    {
+      "name": "Takelot II",
+      "aliases": [],
+      "popularity": 4609,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Takelot II"
+    },
+    {
+      "name": "Neferkare Khendu",
+      "aliases": [],
+      "popularity": 4679,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Neferkare Khendu"
+    },
+    {
+      "name": "Usermontu",
+      "aliases": [
+        "Usermontu (mummy)"
+      ],
+      "popularity": 4721,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Usermontu (mummy)"
+    },
+    {
+      "name": "Menkheperre",
+      "aliases": [],
+      "popularity": 4730,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Menkheperre"
+    },
+    {
+      "name": "Hor Awibre",
+      "aliases": [
+        "Auibre",
+        "Hor"
+      ],
+      "popularity": 4748,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Hor Awibre"
+    },
+    {
+      "name": "Osorkon III",
+      "aliases": [],
+      "popularity": 4761,
+      "rarity": 0.599,
+      "tier": 3,
+      "wiki": "Osorkon III"
+    },
+    {
+      "name": "Horwennefer",
+      "aliases": [
+        "Hugronaphor"
+      ],
+      "popularity": 4825,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Horwennefer"
+    },
+    {
+      "name": "Merikare",
+      "aliases": [
+        "Merykara",
+        "Merykare"
+      ],
+      "popularity": 4963,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Merikare"
+    },
+    {
+      "name": "Sobekhotep III",
+      "aliases": [],
+      "popularity": 4989,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Sobekhotep III"
+    },
+    {
+      "name": "Yakbim Sekhaenre",
+      "aliases": [],
+      "popularity": 5072,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Yakbim Sekhaenre"
+    },
+    {
+      "name": "Petubastis III",
+      "aliases": [],
+      "popularity": 5110,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Petubastis III"
+    },
+    {
+      "name": "Neferkare Neby",
+      "aliases": [],
+      "popularity": 5151,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Neferkare Neby"
+    },
+    {
+      "name": "Sakir-Har",
+      "aliases": [],
+      "popularity": 5189,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Sakir-Har"
+    },
+    {
+      "name": "Bay",
+      "aliases": [
+        "Bay (chancellor)",
+        "Chancellor Bay"
+      ],
+      "popularity": 5198,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Bay (chancellor)"
+    },
+    {
+      "name": "Nehesy",
+      "aliases": [],
+      "popularity": 5366,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Nehesy"
+    },
+    {
+      "name": "Neferkare II",
+      "aliases": [],
+      "popularity": 5410,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Neferkare II"
+    },
+    {
+      "name": "Khendjer",
+      "aliases": [],
+      "popularity": 5503,
+      "rarity": 0.57,
+      "tier": 3,
+      "wiki": "Khendjer"
+    },
+    {
+      "name": "Nebmaatre",
+      "aliases": [],
+      "popularity": 5549,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Nebmaatre"
+    },
+    {
+      "name": "Djedkare Shemai",
+      "aliases": [],
+      "popularity": 5735,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Djedkare Shemai"
+    },
+    {
+      "name": "Meryibre Khety",
+      "aliases": [],
+      "popularity": 5762,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Meryibre Khety"
+    },
+    {
+      "name": "Sneferka",
+      "aliases": [],
+      "popularity": 5968,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Sneferka"
+    },
+    {
+      "name": "Senebkay",
+      "aliases": [
+        "Seneb Kay",
+        "Woseribre Senebkay"
+      ],
+      "popularity": 6088,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Senebkay"
+    },
+    {
+      "name": "Wash",
+      "aliases": [
+        "Wash (pharaoh)"
+      ],
+      "popularity": 6248,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Wash (pharaoh)"
+    },
+    {
+      "name": "Alara of Kush",
+      "aliases": [
+        "Alara of Nubia"
+      ],
+      "popularity": 6398,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Alara of Kush"
+    },
+    {
+      "name": "Nebka",
+      "aliases": [],
+      "popularity": 6536,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "Nebka"
+    },
+    {
+      "name": "Ankhtifi",
+      "aliases": [
+        "Ankhtify"
+      ],
+      "popularity": 6543,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Ankhtifi"
+    },
+    {
+      "name": "Sheshi",
+      "aliases": [
+        "Maaibre Sheshi",
+        "Mayebre Sheshi",
+        "Shesha",
+        "Sheshy"
+      ],
+      "popularity": 6607,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Sheshi"
+    },
+    {
+      "name": "Finger Snail",
+      "aliases": [
+        "Conch?"
+      ],
+      "popularity": 6883,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Finger Snail"
+    },
+    {
+      "name": "Intef I",
+      "aliases": [
+        "Antef I",
+        "Inyotef I",
+        "Sehertawy"
+      ],
+      "popularity": 6992,
+      "rarity": 0.539,
+      "tier": 3,
+      "wiki": "Intef I"
+    },
+    {
+      "name": "Rudamun",
+      "aliases": [],
+      "popularity": 7004,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Rudamun"
+    },
+    {
+      "name": "Intef III",
+      "aliases": [
+        "Antef III",
+        "Inyotef III"
+      ],
+      "popularity": 7024,
+      "rarity": 0.534,
+      "tier": 3,
+      "wiki": "Intef III"
+    },
+    {
+      "name": "Khentkaus I",
+      "aliases": [
+        "Khentkawes"
+      ],
+      "popularity": 7107,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Khentkaus I"
+    },
+    {
+      "name": "Wegaf",
+      "aliases": [],
+      "popularity": 7146,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Wegaf"
+    },
+    {
+      "name": "Qakare Ibi",
+      "aliases": [],
+      "popularity": 7188,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Qakare Ibi"
+    },
+    {
+      "name": "Nebra",
+      "aliases": [
+        "Nebra (pharaoh)",
+        "Nebre",
+        "Raneb"
+      ],
+      "popularity": 7262,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Nebra (pharaoh)"
+    },
+    {
+      "name": "Nebkaure Khety",
+      "aliases": [],
+      "popularity": 7271,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Nebkaure Khety"
+    },
+    {
+      "name": "Hsekiu",
+      "aliases": [],
+      "popularity": 7419,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Hsekiu"
+    },
+    {
+      "name": "Sekhemib-Perenmaat",
+      "aliases": [],
+      "popularity": 7558,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Sekhemib-Perenmaat"
+    },
+    {
+      "name": "Sobekhotep IV",
+      "aliases": [],
+      "popularity": 7597,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Sobekhotep IV"
+    },
+    {
+      "name": "Ankhesenpepi II",
+      "aliases": [],
+      "popularity": 7606,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Ankhesenpepi II"
+    },
+    {
+      "name": "Tefnakht",
+      "aliases": [
+        "Tefnakhte"
+      ],
+      "popularity": 7607,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Tefnakht"
+    },
+    {
+      "name": "Mentuhotep I",
+      "aliases": [
+        "Montuhotep I"
+      ],
+      "popularity": 7650,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Mentuhotep I"
+    },
+    {
+      "name": "Senedj",
+      "aliases": [],
+      "popularity": 7696,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Senedj"
+    },
+    {
+      "name": "Ny-Hor",
+      "aliases": [],
+      "popularity": 7884,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Ny-Hor"
+    },
+    {
+      "name": "Ahhotep II",
+      "aliases": [],
+      "popularity": 7897,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Ahhotep II"
+    },
+    {
+      "name": "Tetisheri",
+      "aliases": [],
+      "popularity": 7952,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Tetisheri"
+    },
+    {
+      "name": "Bikheris",
+      "aliases": [
+        "Baka"
+      ],
+      "popularity": 8044,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Bikheris"
+    },
+    {
+      "name": "Menkare",
+      "aliases": [],
+      "popularity": 8065,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Menkare"
+    },
+    {
+      "name": "Intef II",
+      "aliases": [
+        "Antef II",
+        "Inyotef II"
+      ],
+      "popularity": 8100,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Intef II"
+    },
+    {
+      "name": "Yaqub-Har",
+      "aliases": [
+        "Yakubher"
+      ],
+      "popularity": 8237,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Yaqub-Har"
+    },
+    {
+      "name": "Wadjenes",
+      "aliases": [],
+      "popularity": 8283,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Wadjenes"
+    },
+    {
+      "name": "Pinedjem I",
+      "aliases": [],
+      "popularity": 8297,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Pinedjem I"
+    },
+    {
+      "name": "Inaros II",
+      "aliases": [],
+      "popularity": 8440,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Inaros II"
+    },
+    {
+      "name": "Nepherites II",
+      "aliases": [
+        "Nefaarud II"
+      ],
+      "popularity": 8447,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Nepherites II"
+    },
+    {
+      "name": "Neferhotep I",
+      "aliases": [],
+      "popularity": 8654,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Neferhotep I"
+    },
+    {
+      "name": "Neferirkare",
+      "aliases": [
+        "Neferirkare II"
+      ],
+      "popularity": 8681,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Neferirkare"
+    },
+    {
+      "name": "Ptolemy VII Neos Philopator",
+      "aliases": [],
+      "popularity": 8745,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "Ptolemy VII Neos Philopator"
+    },
+    {
+      "name": "Herihor",
+      "aliases": [],
+      "popularity": 8779,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Herihor"
+    },
+    {
+      "name": "Arsinoe III",
+      "aliases": [
+        "Arsinoe III of Egypt",
+        "Arsinoe III Philopator"
+      ],
+      "popularity": 8937,
+      "rarity": 0.461,
+      "tier": 3,
+      "wiki": "Arsinoe III"
+    },
+    {
+      "name": "Menkauhor Kaiu",
+      "aliases": [],
+      "popularity": 9040,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Menkauhor Kaiu"
+    },
+    {
+      "name": "Shoshenq IV",
+      "aliases": [
+        "Sheshonk IV"
+      ],
+      "popularity": 9045,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Shoshenq IV"
+    },
+    {
+      "name": "Netjerkare Siptah",
+      "aliases": [
+        "Neithiqerty Siptah",
+        "Netjerkare"
+      ],
+      "popularity": 9299,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Netjerkare Siptah"
+    },
+    {
+      "name": "Sekhemre-Heruhirmaat Intef",
+      "aliases": [
+        "Antef",
+        "Inyotef"
+      ],
+      "popularity": 9317,
+      "rarity": 0.451,
+      "tier": 3,
+      "wiki": "Sekhemre-Heruhirmaat Intef"
+    },
+    {
+      "name": "Hat-Hor",
+      "aliases": [
+        "Hor Hat"
+      ],
+      "popularity": 9636,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Hat-Hor"
+    },
+    {
+      "name": "Pami",
+      "aliases": [],
+      "popularity": 9752,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Pami"
+    },
+    {
+      "name": "Shoshenq V",
+      "aliases": [
+        "Aakheperre Shoshenq V"
+      ],
+      "popularity": 9905,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Shoshenq V"
+    },
+    {
+      "name": "Sekhemre-Wepmaat Intef",
+      "aliases": [
+        "Intef VI"
+      ],
+      "popularity": 10117,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Sekhemre-Wepmaat Intef"
+    },
+    {
+      "name": "Sekhemre Khutawy Sobekhotep",
+      "aliases": [
+        "Sobekhotep II"
+      ],
+      "popularity": 10139,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Sekhemre Khutawy Sobekhotep"
+    },
+    {
+      "name": "Sobekemsaf II",
+      "aliases": [],
+      "popularity": 10183,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Sobekemsaf II"
+    },
+    {
+      "name": "Eurydice of Egypt",
+      "aliases": [
+        "Eurydice"
+      ],
+      "popularity": 10533,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Eurydice of Egypt"
+    },
+    {
+      "name": "Nepherites I",
+      "aliases": [],
+      "popularity": 10569,
+      "rarity": 0.43,
+      "tier": 3,
+      "wiki": "Nepherites I"
+    },
+    {
+      "name": "Khyan",
+      "aliases": [],
+      "popularity": 10769,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Khyan"
+    },
+    {
+      "name": "Khamudi",
+      "aliases": [
+        "Khamudy"
+      ],
+      "popularity": 10896,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Khamudi"
+    },
+    {
+      "name": "Sobekemsaf I",
+      "aliases": [],
+      "popularity": 11045,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Sobekemsaf I"
+    },
+    {
+      "name": "Hakor",
+      "aliases": [
+        "Achoris"
+      ],
+      "popularity": 11134,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Hakor"
+    },
+    {
+      "name": "Shepseskare",
+      "aliases": [
+        "Shepseskare Isi"
+      ],
+      "popularity": 11143,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Shepseskare"
+    },
+    {
+      "name": "Mentuhotep IV",
+      "aliases": [
+        "Montuhotep IV"
+      ],
+      "popularity": 11148,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Mentuhotep IV"
+    },
+    {
+      "name": "Merneferre Ay",
+      "aliases": [],
+      "popularity": 11336,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Merneferre Ay"
+    },
+    {
+      "name": "Mentuhotep III",
+      "aliases": [
+        "Montuhotep III"
+      ],
+      "popularity": 11477,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Mentuhotep III"
+    },
+    {
+      "name": "Shoshenq II",
+      "aliases": [
+        "Sheshonk II"
+      ],
+      "popularity": 11814,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Shoshenq II"
+    },
+    {
+      "name": "Bakenranef",
+      "aliases": [
+        "Bocchoris"
+      ],
+      "popularity": 11988,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Bakenranef"
+    },
+    {
+      "name": "Merenre Nemtyemsaf II",
+      "aliases": [],
+      "popularity": 12079,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Merenre Nemtyemsaf II"
+    },
+    {
+      "name": "Osorkon IV",
+      "aliases": [],
+      "popularity": 12080,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Osorkon IV"
+    },
+    {
+      "name": "Takelot I",
+      "aliases": [],
+      "popularity": 12352,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Takelot I"
+    },
+    {
+      "name": "Ptolemy IX Soter",
+      "aliases": [
+        "Ptolemy IX Lathyros",
+        "Ptolemy IX Soter II",
+        "Ptolemy Lathyrus",
+        "Ptolemy VIII Soter II"
+      ],
+      "popularity": 12374,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Ptolemy IX Soter"
+    },
+    {
+      "name": "Pothinus",
+      "aliases": [],
+      "popularity": 12529,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Pothinus"
+    },
+    {
+      "name": "Khaba",
+      "aliases": [
+        "Hor-Khaba"
+      ],
+      "popularity": 12627,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Khaba"
+    },
+    {
+      "name": "Ahmose",
+      "aliases": [
+        "Ahmose (queen)"
+      ],
+      "popularity": 12655,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Ahmose (queen)"
+    },
+    {
+      "name": "Shebitku",
+      "aliases": [
+        "Shabataka",
+        "Shabatka"
+      ],
+      "popularity": 12711,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Shebitku"
+    },
+    {
+      "name": "Teos of Egypt",
+      "aliases": [
+        "Tachaos",
+        "Tachos"
+      ],
+      "popularity": 12803,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Teos of Egypt"
+    },
+    {
+      "name": "Sanakht",
+      "aliases": [],
+      "popularity": 12888,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Sanakht"
+    },
+    {
+      "name": "Nubkheperre Intef",
+      "aliases": [
+        "Intef VII",
+        "Inyotef VII"
+      ],
+      "popularity": 13051,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Nubkheperre Intef"
+    },
+    {
+      "name": "Amenemhat IV",
+      "aliases": [],
+      "popularity": 13269,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Amenemhat IV"
+    },
+    {
+      "name": "Arsinoe I",
+      "aliases": [],
+      "popularity": 13291,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Arsinoe I"
+    },
+    {
+      "name": "Berenice I",
+      "aliases": [
+        "Berenice I of Egypt"
+      ],
+      "popularity": 13589,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Berenice I"
+    },
+    {
+      "name": "Kashta",
+      "aliases": [],
+      "popularity": 13898,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Kashta"
+    },
+    {
+      "name": "Salitis",
+      "aliases": [],
+      "popularity": 14125,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Salitis"
+    },
+    {
+      "name": "Neferirkare Kakai",
+      "aliases": [
+        "Nefercherês",
+        "Ranefer A"
+      ],
+      "popularity": 14358,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Neferirkare Kakai"
+    },
+    {
+      "name": "Apepi (Apepi)",
+      "aliases": [
+        "Apepi",
+        "Apepi I"
+      ],
+      "popularity": 14530,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Apepi"
+    },
+    {
+      "name": "Osorkon I",
+      "aliases": [],
+      "popularity": 14721,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Osorkon I"
+    },
+    {
+      "name": "Ptolemy XI Alexander II",
+      "aliases": [
+        "Ptolemy X Alexander II",
+        "Ptolemy XI"
+      ],
+      "popularity": 14797,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "Ptolemy XI Alexander II"
+    },
+    {
+      "name": "Osorkon the Elder",
+      "aliases": [],
+      "popularity": 14896,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Osorkon the Elder"
+    },
+    {
+      "name": "Osorkon II",
+      "aliases": [],
+      "popularity": 15317,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Osorkon II"
+    },
+    {
+      "name": "Senakhtenre Ahmose",
+      "aliases": [],
+      "popularity": 15817,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Senakhtenre Ahmose"
+    },
+    {
+      "name": "Ahhotep I",
+      "aliases": [],
+      "popularity": 16131,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Ahhotep I"
+    },
+    {
+      "name": "Crocodile",
+      "aliases": [
+        "Crocodile (pharaoh)",
+        "Horus Crocodile",
+        "Shendjw"
+      ],
+      "popularity": 16201,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Crocodile (pharaoh)"
+    },
+    {
+      "name": "Djedkare Isesi",
+      "aliases": [],
+      "popularity": 16404,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Djedkare Isesi"
+    },
+    {
+      "name": "Amyrtaeus",
+      "aliases": [
+        "Amyrtaeus of Sais",
+        "Amyrtaios",
+        "Amyrtaios of Sais"
+      ],
+      "popularity": 16746,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Amyrtaeus"
+    },
+    {
+      "name": "Berenice II",
+      "aliases": [
+        "Berenice II Euergetis"
+      ],
+      "popularity": 16759,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Berenice II"
+    },
+    {
+      "name": "Amenemnisu",
+      "aliases": [
+        "Neferkare Amenemnisu"
+      ],
+      "popularity": 16978,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Amenemnisu"
+    },
+    {
+      "name": "Elephant",
+      "aliases": [
+        "Elephant (pharaoh)",
+        "Pe-Hor"
+      ],
+      "popularity": 17007,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Elephant (pharaoh)"
+    },
+    {
+      "name": "Psusennes II",
+      "aliases": [],
+      "popularity": 17054,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Psusennes II"
+    },
+    {
+      "name": "Ptolemy VI Philometor",
+      "aliases": [
+        "Ptolemy VI"
+      ],
+      "popularity": 17403,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Ptolemy VI Philometor"
+    },
+    {
+      "name": "Nectanebo I",
+      "aliases": [
+        "Nakhtnebef"
+      ],
+      "popularity": 17990,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Nectanebo I"
+    },
+    {
+      "name": "Shepseskaf",
+      "aliases": [],
+      "popularity": 18301,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Shepseskaf"
+    },
+    {
+      "name": "Seth-Peribsen",
+      "aliases": [
+        "Peribsen"
+      ],
+      "popularity": 18335,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Seth-Peribsen"
+    },
+    {
+      "name": "Psamtik II",
+      "aliases": [
+        "Psammetichos II",
+        "Psammetichus II",
+        "Psamtek II"
+      ],
+      "popularity": 18566,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Psamtik II"
+    },
+    {
+      "name": "Ramesses X",
+      "aliases": [],
+      "popularity": 18593,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Ramesses X"
+    },
+    {
+      "name": "Siamun",
+      "aliases": [],
+      "popularity": 18839,
+      "rarity": 0.305,
+      "tier": 2,
+      "wiki": "Siamun"
+    },
+    {
+      "name": "Shoshenq III",
+      "aliases": [
+        "Sheshonk III"
+      ],
+      "popularity": 18877,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Shoshenq III"
+    },
+    {
+      "name": "Anedjib",
+      "aliases": [],
+      "popularity": 19325,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Anedjib"
+    },
+    {
+      "name": "Amenemhat II",
+      "aliases": [
+        "Amenemhet II"
+      ],
+      "popularity": 19374,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Amenemhat II"
+    },
+    {
+      "name": "Tantamani",
+      "aliases": [
+        "Tanutamani"
+      ],
+      "popularity": 19851,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Tantamani"
+    },
+    {
+      "name": "Taurus",
+      "aliases": [
+        "Bull",
+        "Taurus (ruler)",
+        "Touro I"
+      ],
+      "popularity": 20267,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Taurus (ruler)"
+    },
+    {
+      "name": "Ptolemy X Alexander I",
+      "aliases": [],
+      "popularity": 20299,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Ptolemy X Alexander I"
+    },
+    {
+      "name": "Ramesses VII",
+      "aliases": [
+        "Rameses VII"
+      ],
+      "popularity": 20413,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Ramesses VII"
+    },
+    {
+      "name": "Ramesses VIII",
+      "aliases": [
+        "Ramses VIII"
+      ],
+      "popularity": 20484,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Ramesses VIII"
+    },
+    {
+      "name": "Sahure",
+      "aliases": [],
+      "popularity": 21106,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Sahure"
+    },
+    {
+      "name": "Hotepsekhemwy",
+      "aliases": [],
+      "popularity": 21533,
+      "rarity": 0.279,
+      "tier": 2,
+      "wiki": "Hotepsekhemwy"
+    },
+    {
+      "name": "Shabaka",
+      "aliases": [],
+      "popularity": 21644,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Shabaka"
+    },
+    {
+      "name": "Ptolemy XIV Philopator",
+      "aliases": [
+        "Ptolemy XIII the Infant King",
+        "Ptolemy XIV",
+        "Ptolemy XIV of Egypt",
+        "Ptolemy XIV the Infant King"
+      ],
+      "popularity": 21748,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Ptolemy XIV Philopator"
+    },
+    {
+      "name": "Smendes",
+      "aliases": [],
+      "popularity": 21748,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Smendes"
+    },
+    {
+      "name": "Ptolemy IV Philopator",
+      "aliases": [],
+      "popularity": 22635,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Ptolemy IV Philopator"
+    },
+    {
+      "name": "Tausret",
+      "aliases": [
+        "Tauseretsetepenmut",
+        "Tawosret",
+        "Twosret"
+      ],
+      "popularity": 22716,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "Tausret"
+    },
+    {
+      "name": "Amenemope",
+      "aliases": [
+        "Amenemope (pharaoh)"
+      ],
+      "popularity": 23256,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Amenemope (pharaoh)"
+    },
+    {
+      "name": "Nitocris",
+      "aliases": [
+        "Nitocris of Egypt"
+      ],
+      "popularity": 23587,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Nitocris"
+    },
+    {
+      "name": "Cleopatra III",
+      "aliases": [
+        "Cleopatra Euergetis",
+        "Cleopatra III of Egypt",
+        "Cleopatra Kokke",
+        "Cleopatra Philometor Soteira"
+      ],
+      "popularity": 23626,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Cleopatra III"
+    },
+    {
+      "name": "Semerkhet",
+      "aliases": [],
+      "popularity": 24887,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Semerkhet"
+    },
+    {
+      "name": "Merneith",
+      "aliases": [],
+      "popularity": 25222,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Merneith"
+    },
+    {
+      "name": "Apries",
+      "aliases": [
+        "Wahibre",
+        "Wahibre Haaibre"
+      ],
+      "popularity": 25257,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Apries"
+    },
+    {
+      "name": "Psamtik III",
+      "aliases": [
+        "Ankhkaenra",
+        "Psammenitus",
+        "Psammetichus III",
+        "Psamtek III"
+      ],
+      "popularity": 25646,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Psamtik III"
+    },
+    {
+      "name": "Pepi I Meryre",
+      "aliases": [
+        "Pepy I"
+      ],
+      "popularity": 26054,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Pepi I Meryre"
+    },
+    {
+      "name": "Neithhotep",
+      "aliases": [
+        "Neithotep"
+      ],
+      "popularity": 26191,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Neithhotep"
+    },
+    {
+      "name": "Cleopatra V",
+      "aliases": [
+        "Cleopatra V of Egypt",
+        "Cleopatra V Tryphaena",
+        "Cleopatra V Tryphaena of Egypt"
+      ],
+      "popularity": 26416,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Cleopatra V"
+    },
+    {
+      "name": "Ramesses IX",
+      "aliases": [
+        "Amon-her-khepshef Khaemwaset",
+        "Ramses IX"
+      ],
+      "popularity": 26425,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Ramesses IX"
+    },
+    {
+      "name": "Double Falcon",
+      "aliases": [
+        "Dju",
+        "Nebwy"
+      ],
+      "popularity": 26832,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Double Falcon"
+    },
+    {
+      "name": "Djet",
+      "aliases": [],
+      "popularity": 27825,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Djet"
+    },
+    {
+      "name": "Ptolemy VIII Physcon",
+      "aliases": [
+        "Ptolemy Physco",
+        "Ptolemy VII Euergetes II",
+        "Ptolemy VIII Euergetes II"
+      ],
+      "popularity": 30092,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Ptolemy VIII Physcon"
+    },
+    {
+      "name": "Arsinoe II",
+      "aliases": [
+        "Arsinoe II Philadelphus"
+      ],
+      "popularity": 30235,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Arsinoe II"
+    },
+    {
+      "name": "Ramesses VI",
+      "aliases": [
+        "Ramses VI"
+      ],
+      "popularity": 30466,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Ramesses VI"
+    },
+    {
+      "name": "Ramesses V",
+      "aliases": [],
+      "popularity": 31018,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Ramesses V"
+    },
+    {
+      "name": "Amasis II",
+      "aliases": [
+        "Ahmose II",
+        "Amasis"
+      ],
+      "popularity": 31094,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Amasis II"
+    },
+    {
+      "name": "Amenmesse",
+      "aliases": [],
+      "popularity": 31438,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Amenmesse"
+    },
+    {
+      "name": "Kamose",
+      "aliases": [],
+      "popularity": 31525,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Kamose"
+    },
+    {
+      "name": "Djedefre",
+      "aliases": [
+        "Djede-If-Ra"
+      ],
+      "popularity": 32306,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Djedefre"
+    },
+    {
+      "name": "Piye",
+      "aliases": [
+        "Piankhi",
+        "Piankhy"
+      ],
+      "popularity": 32532,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Piye"
+    },
+    {
+      "name": "Den",
+      "aliases": [
+        "Den (pharaoh)"
+      ],
+      "popularity": 32552,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Den (pharaoh)"
+    },
+    {
+      "name": "Ptolemy III Euergetes",
+      "aliases": [
+        "Ptolemy III"
+      ],
+      "popularity": 32577,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Ptolemy III Euergetes"
+    },
+    {
+      "name": "Ptolemy V Epiphanes",
+      "aliases": [
+        "Ptolemy Epiphanes",
+        "Ptolemy V"
+      ],
+      "popularity": 32916,
+      "rarity": 0.201,
+      "tier": 2,
+      "wiki": "Ptolemy V Epiphanes"
+    },
+    {
+      "name": "Yuya",
+      "aliases": [],
+      "popularity": 32977,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Yuya"
+    },
+    {
+      "name": "Unas",
+      "aliases": [
+        "Oenas",
+        "Onnos",
+        "Unis",
+        "Wenis"
+      ],
+      "popularity": 32980,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Unas"
+    },
+    {
+      "name": "Meritaten",
+      "aliases": [
+        "Mayati"
+      ],
+      "popularity": 34166,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Meritaten"
+    },
+    {
+      "name": "Huni",
+      "aliases": [],
+      "popularity": 34774,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Huni"
+    },
+    {
+      "name": "Ramesses XI",
+      "aliases": [],
+      "popularity": 36745,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Ramesses XI"
+    },
+    {
+      "name": "Senusret I",
+      "aliases": [
+        "Paton of the Arts"
+      ],
+      "popularity": 36986,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Senusret I"
+    },
+    {
+      "name": "Senenmut",
+      "aliases": [],
+      "popularity": 39455,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Senenmut"
+    },
+    {
+      "name": "Psamtik I",
+      "aliases": [
+        "Nabu-shezibanni",
+        "Psammetichus I",
+        "Psamtek I"
+      ],
+      "popularity": 40518,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Psamtik I"
+    },
+    {
+      "name": "Khasekhemwy",
+      "aliases": [
+        "Khasehemwy"
+      ],
+      "popularity": 40858,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "Khasekhemwy"
+    },
+    {
+      "name": "Ramesses IV",
+      "aliases": [],
+      "popularity": 41738,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Ramesses IV"
+    },
+    {
+      "name": "Djer",
+      "aliases": [
+        "Iti"
+      ],
+      "popularity": 41812,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Djer"
+    },
+    {
+      "name": "Siptah",
+      "aliases": [
+        "Akhenre Setepenre Siptah",
+        "Merenptah Siptah"
+      ],
+      "popularity": 42257,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Siptah"
+    },
+    {
+      "name": "Amenemhat III",
+      "aliases": [
+        "Amenemhet III"
+      ],
+      "popularity": 43651,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Amenemhat III"
+    },
+    {
+      "name": "Scorpion I",
+      "aliases": [
+        "Horus Scorpion I"
+      ],
+      "popularity": 46039,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Scorpion I"
+    },
+    {
+      "name": "Setnakhte",
+      "aliases": [
+        "Setnakht"
+      ],
+      "popularity": 46219,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Setnakhte"
+    },
+    {
+      "name": "Psusennes I",
+      "aliases": [],
+      "popularity": 47792,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Psusennes I"
+    },
+    {
+      "name": "Sogdianus",
+      "aliases": [
+        "Sogdianos",
+        "Sogdianus of Persia"
+      ],
+      "popularity": 47902,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Sogdianus"
+    },
+    {
+      "name": "Shoshenq I",
+      "aliases": [],
+      "popularity": 48785,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Shoshenq I"
+    },
+    {
+      "name": "Hor-Aha",
+      "aliases": [],
+      "popularity": 49932,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Hor-Aha"
+    },
+    {
+      "name": "Seqenenre Tao",
+      "aliases": [
+        "Sekenenra Taa",
+        "Sekenenra Tao",
+        "Seqenenre Taa",
+        "Seqenera Djehuty-aa"
+      ],
+      "popularity": 50026,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Seqenenre Tao"
+    },
+    {
+      "name": "Senusret III",
+      "aliases": [
+        "Sesostris al III-lea"
+      ],
+      "popularity": 53221,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Senusret III"
+    },
+    {
+      "name": "Necho II",
+      "aliases": [
+        "Necos"
+      ],
+      "popularity": 53526,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Necho II"
+    },
+    {
+      "name": "Seti II",
+      "aliases": [
+        "Sethos II"
+      ],
+      "popularity": 54689,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Seti II"
+    },
+    {
+      "name": "Arses of Persia",
+      "aliases": [
+        "Arses"
+      ],
+      "popularity": 56871,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Arses of Persia"
+    },
+    {
+      "name": "Taharqa",
+      "aliases": [],
+      "popularity": 57504,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Taharqa"
+    },
+    {
+      "name": "Ka",
+      "aliases": [
+        "Ka (pharaoh)",
+        "Sekhen"
+      ],
+      "popularity": 58812,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Ka (pharaoh)"
+    },
+    {
+      "name": "Qa'a",
+      "aliases": [],
+      "popularity": 59428,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Qa'a"
+    },
+    {
+      "name": "Scorpion II",
+      "aliases": [
+        "King Scorpion II",
+        "Selk",
+        "Weha"
+      ],
+      "popularity": 62578,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Scorpion II"
+    },
+    {
+      "name": "Nynetjer",
+      "aliases": [],
+      "popularity": 63273,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Nynetjer"
+    },
+    {
+      "name": "Merenre Nemtyemsaf I",
+      "aliases": [],
+      "popularity": 63904,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Merenre Nemtyemsaf I"
+    },
+    {
+      "name": "Xerxes II",
+      "aliases": [
+        "Xerxes II of Persia"
+      ],
+      "popularity": 64337,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Xerxes II"
+    },
+    {
+      "name": "Nectanebo II",
+      "aliases": [],
+      "popularity": 65840,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Nectanebo II"
+    },
+    {
+      "name": "Iry-Hor",
+      "aliases": [
+        "Companion of Horus",
+        "Horus Mouth"
+      ],
+      "popularity": 70524,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Iry-Hor"
+    },
+    {
+      "name": "Artaxerxes III",
+      "aliases": [
+        "Artaxerxes III Ochus"
+      ],
+      "popularity": 71720,
+      "rarity": 0.112,
+      "tier": 1,
+      "wiki": "Artaxerxes III"
+    },
+    {
+      "name": "Khafre",
+      "aliases": [
+        "Cheophren",
+        "Chephren",
+        "Khaefre",
+        "Khafra",
+        "Khefren"
+      ],
+      "popularity": 74261,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Khafre"
+    },
+    {
+      "name": "Darius II",
+      "aliases": [
+        "Darius II Nothus",
+        "Darius II Ochus",
+        "Darius II of Persia"
+      ],
+      "popularity": 75816,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Darius II"
+    },
+    {
+      "name": "Thutmose I",
+      "aliases": [],
+      "popularity": 79966,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Thutmose I"
+    },
+    {
+      "name": "Smenkhkare",
+      "aliases": [],
+      "popularity": 82112,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Smenkhkare"
+    },
+    {
+      "name": "Thutmose IV",
+      "aliases": [],
+      "popularity": 82219,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Thutmose IV"
+    },
+    {
+      "name": "Sneferu",
+      "aliases": [
+        "Snefru",
+        "Snofru",
+        "Soris"
+      ],
+      "popularity": 82602,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Sneferu"
+    },
+    {
+      "name": "Thutmose II",
+      "aliases": [],
+      "popularity": 84274,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Thutmose II"
+    },
+    {
+      "name": "Tiye",
+      "aliases": [
+        "Elder Lady",
+        "KV35EL",
+        "Taia",
+        "The Elder Lady",
+        "Tiy",
+        "Tiyi"
+      ],
+      "popularity": 85994,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Tiye"
+    },
+    {
+      "name": "Artaxerxes II",
+      "aliases": [
+        "Artaxerxes II Mnemon"
+      ],
+      "popularity": 86691,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Artaxerxes II"
+    },
+    {
+      "name": "Neferneferuaten",
+      "aliases": [],
+      "popularity": 88889,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Neferneferuaten"
+    },
+    {
+      "name": "Ptolemy II Philadelphus",
+      "aliases": [
+        "Ptolemy Philadelphus"
+      ],
+      "popularity": 95431,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Ptolemy II Philadelphus"
+    },
+    {
+      "name": "Ahmose I",
+      "aliases": [
+        "Aah-mes",
+        "Ahmes",
+        "Ahmosi",
+        "Amos",
+        "Amoses",
+        "Amosis"
+      ],
+      "popularity": 97525,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Ahmose I"
+    },
+    {
+      "name": "Ptolemy XIII Theos Philopator",
+      "aliases": [
+        "Ptolemy XII"
+      ],
+      "popularity": 99937,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Ptolemy XIII Theos Philopator"
+    },
+    {
+      "name": "Pepi II Neferkare",
+      "aliases": [
+        "Pepi II",
+        "Pepy II"
+      ],
+      "popularity": 101887,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Pepi II Neferkare"
+    },
+    {
+      "name": "Bardiya",
+      "aliases": [
+        "Gaumata"
+      ],
+      "popularity": 102076,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Bardiya"
+    },
+    {
+      "name": "Ptolemy XII Auletes",
+      "aliases": [],
+      "popularity": 103118,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Ptolemy XII Auletes"
+    },
+    {
+      "name": "Djoser",
+      "aliases": [
+        "Djeser",
+        "Sesorthos",
+        "Tosorthros",
+        "Zoser"
+      ],
+      "popularity": 108236,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Djoser"
+    },
+    {
+      "name": "Merneptah",
+      "aliases": [],
+      "popularity": 110455,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Merneptah"
+    },
+    {
+      "name": "Horemheb",
+      "aliases": [
+        "Haremhab",
+        "Horemhab"
+      ],
+      "popularity": 118030,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Horemheb"
+    },
+    {
+      "name": "Menes",
+      "aliases": [],
+      "popularity": 121732,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Menes"
+    },
+    {
+      "name": "Amenhotep II",
+      "aliases": [
+        "Amenhotpe II",
+        "Amenophis II"
+      ],
+      "popularity": 128521,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Amenhotep II"
+    },
+    {
+      "name": "Ay",
+      "aliases": [
+        "Ay (pharaoh)"
+      ],
+      "popularity": 130036,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "Ay (pharaoh)"
+    },
+    {
+      "name": "Cambyses II",
+      "aliases": [
+        "Cambyses"
+      ],
+      "popularity": 142894,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Cambyses II"
+    },
+    {
+      "name": "Ramesses I",
+      "aliases": [
+        "Menpehtyre",
+        "Pa-ra-mes-su",
+        "Ramesses"
+      ],
+      "popularity": 144347,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Ramesses I"
+    },
+    {
+      "name": "Ramesses III",
+      "aliases": [
+        "Usimare Ramesses III"
+      ],
+      "popularity": 160395,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Ramesses III"
+    },
+    {
+      "name": "Amenhotep III",
+      "aliases": [
+        "Amenophis III",
+        "Nibmuarea",
+        "Nimmuria",
+        "Nimu'wareya",
+        "Nimuwareya"
+      ],
+      "popularity": 189889,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Amenhotep III"
+    },
+    {
+      "name": "Alexander IV of Macedon",
+      "aliases": [
+        "Alexandros IV of Macedon"
+      ],
+      "popularity": 195956,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Alexander IV of Macedon"
+    },
+    {
+      "name": "Darius III",
+      "aliases": [
+        "Darius III Codomannus",
+        "Darius III of Persia"
+      ],
+      "popularity": 211656,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Darius III"
+    },
+    {
+      "name": "Narmer",
+      "aliases": [],
+      "popularity": 224850,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Narmer"
+    },
+    {
+      "name": "Seti I",
+      "aliases": [],
+      "popularity": 228062,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Seti I"
+    },
+    {
+      "name": "Thutmose III",
+      "aliases": [
+        "Thothmes",
+        "Tuthmosis"
+      ],
+      "popularity": 228822,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Thutmose III"
+    },
+    {
+      "name": "Khufu",
+      "aliases": [
+        "Cheops",
+        "Khêops",
+        "Khnum-Khufu",
+        "Salhuk",
+        "Saurid",
+        "Sofe",
+        "Súphis"
+      ],
+      "popularity": 260483,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Khufu"
+    },
+    {
+      "name": "Ptolemy I Soter",
+      "aliases": [
+        "Ptolemy son of Lagus"
+      ],
+      "popularity": 304760,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Ptolemy I Soter"
+    },
+    {
+      "name": "Hatshepsut",
+      "aliases": [
+        "Hatasou",
+        "Hatasu",
+        "Hatchepsut",
+        "Hatsehpsut"
+      ],
+      "popularity": 383090,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Hatshepsut"
+    },
+    {
+      "name": "Caesarion",
+      "aliases": [
+        "Ptolemy Caesar",
+        "Ptolemy Caesar Theos Philopator Philometor",
+        "Ptolemy XV Cesarion",
+        "Ptolemy XV Philopator Philometor Caesar"
+      ],
+      "popularity": 417881,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Caesarion"
+    },
+    {
+      "name": "Darius the Great",
+      "aliases": [
+        "Dārayavahuš",
+        "Dārayavauš",
+        "Darayavaush",
+        "Dareios",
+        "Darius I",
+        "Darius I of Persia",
+        "Dāriyūsh",
+        "Dāryūsh"
+      ],
+      "popularity": 465355,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Darius the Great"
+    },
+    {
+      "name": "Nefertiti",
+      "aliases": [],
+      "popularity": 518168,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Nefertiti"
+    },
+    {
+      "name": "Akhenaten",
+      "aliases": [
+        "Akenaten",
+        "Akhenaton",
+        "Akhnaten",
+        "Amenhotep IV",
+        "Amenhotep mi padre",
+        "Amenophis IV",
+        "Echnaton",
+        "Ikhnaton",
+        "Khuenaten"
+      ],
+      "popularity": 572947,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Akhenaten"
+    },
+    {
+      "name": "Xerxes I",
+      "aliases": [
+        "Xerxes",
+        "Xerxes I of Persia",
+        "Xerxes the Great"
+      ],
+      "popularity": 746529,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Xerxes I"
+    },
+    {
+      "name": "Ramesses II",
+      "aliases": [
+        "Ozymandias",
+        "Ramesses the Great",
+        "Ramses II",
+        "Ramses the Great"
+      ],
+      "popularity": 920326,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Ramesses II"
+    },
+    {
+      "name": "Tutankhamun",
+      "aliases": [
+        "King Tut",
+        "Tutankhamen",
+        "Tutankhaten",
+        "Tutenkhamen",
+        "Tutenkhamon"
+      ],
+      "popularity": 1169407,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Tutankhamun"
+    },
+    {
+      "name": "Alexander the Great",
+      "aliases": [
+        "Alexander",
+        "Alexander III",
+        "Alexander III of Macedon",
+        "Alexander III of Macedonia",
+        "Alexander of Macedon",
+        "Alexander of Macedonia",
+        "Alexandros",
+        "Alexandros III",
+        "Alexandros III of Macedon",
+        "Alexandros III of Macedonia",
+        "Alexandros the Great",
+        "Eskandar",
+        "Great Alexander",
+        "Sikandar",
+        "the Great Alexander"
+      ],
+      "popularity": 3149218,
+      "rarity": 0.003,
+      "tier": 1,
+      "wiki": "Alexander the Great"
+    },
+    {
+      "name": "Cleopatra",
+      "aliases": [
+        "Cleopatra Philopator",
+        "Cleopatra VII",
+        "Cleopatra VII Philopator",
+        "Cleopatra VII Thea Philopator",
+        "Kleopatra"
+      ],
+      "popularity": 8830145,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Cleopatra"
+    }
+  ]
+}

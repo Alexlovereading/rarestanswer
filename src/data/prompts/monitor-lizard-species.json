@@ -1,0 +1,945 @@
+{
+  "id": "monitor-lizard-species",
+  "slug": "monitor-lizard-species",
+  "category": "animals",
+  "question": "Name a species of monitor lizard",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Louisiade monitor",
+      "aliases": [
+        "Varanus louisiadensis"
+      ],
+      "popularity": 429,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Louisiade monitor"
+    },
+    {
+      "name": "Ceram mangrove monitor",
+      "aliases": [
+        "Varanus cerambonensis"
+      ],
+      "popularity": 467,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Ceram mangrove monitor"
+    },
+    {
+      "name": "Varanus delcantoi",
+      "aliases": [],
+      "popularity": 476,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Varanus delcantoi"
+    },
+    {
+      "name": "Tanimbar monitor",
+      "aliases": [
+        "Varanus tanimbar"
+      ],
+      "popularity": 532,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Tanimbar monitor"
+    },
+    {
+      "name": "Varanus citrinus",
+      "aliases": [],
+      "popularity": 571,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Varanus citrinus"
+    },
+    {
+      "name": "Lirung monitor",
+      "aliases": [
+        "Varanus lirungensis"
+      ],
+      "popularity": 583,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Lirung monitor"
+    },
+    {
+      "name": "Varanus insulanicus",
+      "aliases": [],
+      "popularity": 594,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Varanus insulanicus"
+    },
+    {
+      "name": "Bogert's monitor",
+      "aliases": [
+        "Varanus bogerti"
+      ],
+      "popularity": 618,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Bogert's monitor"
+    },
+    {
+      "name": "Rennell Island monitor",
+      "aliases": [
+        "Varanus juxtindicus"
+      ],
+      "popularity": 647,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Rennell Island monitor"
+    },
+    {
+      "name": "Northern blunt-spined monitor",
+      "aliases": [
+        "Varanus primordius"
+      ],
+      "popularity": 706,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Northern blunt-spined monitor"
+    },
+    {
+      "name": "Varanus ocreatus",
+      "aliases": [
+        "Varanus storri ocreatus"
+      ],
+      "popularity": 729,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Varanus ocreatus"
+    },
+    {
+      "name": "Rusty monitor",
+      "aliases": [
+        "Varanus semiremex"
+      ],
+      "popularity": 770,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Rusty monitor"
+    },
+    {
+      "name": "Varanus nesterovi",
+      "aliases": [],
+      "popularity": 782,
+      "rarity": 0.874,
+      "tier": 5,
+      "wiki": "Varanus nesterovi"
+    },
+    {
+      "name": "Finsch's monitor",
+      "aliases": [
+        "Varanus finschi"
+      ],
+      "popularity": 851,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Finsch's monitor"
+    },
+    {
+      "name": "Varanus phosphoros",
+      "aliases": [],
+      "popularity": 858,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Varanus phosphoros"
+    },
+    {
+      "name": "Mussau Island blue-tailed monitor",
+      "aliases": [
+        "Varanus semotus"
+      ],
+      "popularity": 865,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Mussau Island blue-tailed monitor"
+    },
+    {
+      "name": "Turquoise monitor",
+      "aliases": [
+        "Varanus caerulivirens"
+      ],
+      "popularity": 865,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Turquoise monitor"
+    },
+    {
+      "name": "Varanus chlorostigma",
+      "aliases": [],
+      "popularity": 885,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Varanus chlorostigma"
+    },
+    {
+      "name": "Varanus umbra",
+      "aliases": [],
+      "popularity": 935,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Varanus umbra"
+    },
+    {
+      "name": "Sago monitor",
+      "aliases": [
+        "Varanus obor"
+      ],
+      "popularity": 950,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Sago monitor"
+    },
+    {
+      "name": "Varanus dalubhasa",
+      "aliases": [],
+      "popularity": 982,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Varanus dalubhasa"
+    },
+    {
+      "name": "Togian water monitor",
+      "aliases": [
+        "Varanus togianus"
+      ],
+      "popularity": 985,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Togian water monitor"
+    },
+    {
+      "name": "Varanus rasmusseni",
+      "aliases": [],
+      "popularity": 1014,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Varanus rasmusseni"
+    },
+    {
+      "name": "Yemen monitor",
+      "aliases": [
+        "Varanus yemenensis"
+      ],
+      "popularity": 1016,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Yemen monitor"
+    },
+    {
+      "name": "Varanus rainerguentheri",
+      "aliases": [],
+      "popularity": 1060,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Varanus rainerguentheri"
+    },
+    {
+      "name": "Varanus iridis",
+      "aliases": [],
+      "popularity": 1078,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Varanus iridis"
+    },
+    {
+      "name": "Bennett's long-tailed monitor",
+      "aliases": [
+        "Varanus bennetti"
+      ],
+      "popularity": 1098,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Bennett's long-tailed monitor"
+    },
+    {
+      "name": "Large-scaled water monitor",
+      "aliases": [
+        "Varanus nuchalis"
+      ],
+      "popularity": 1117,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Large-scaled water monitor"
+    },
+    {
+      "name": "Varanus bangonorum",
+      "aliases": [],
+      "popularity": 1124,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Varanus bangonorum"
+    },
+    {
+      "name": "Southern Pilbara rock goanna",
+      "aliases": [
+        "Varanus hamersleyensis"
+      ],
+      "popularity": 1224,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Southern Pilbara rock goanna"
+    },
+    {
+      "name": "Canopy goanna",
+      "aliases": [
+        "Varanus keithhornei"
+      ],
+      "popularity": 1275,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Canopy goanna"
+    },
+    {
+      "name": "Varanus douarrha",
+      "aliases": [],
+      "popularity": 1309,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Varanus douarrha"
+    },
+    {
+      "name": "Pilbara monitor",
+      "aliases": [
+        "Varanus bushi"
+      ],
+      "popularity": 1352,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "Pilbara monitor"
+    },
+    {
+      "name": "Rusty desert monitor",
+      "aliases": [
+        "Varanus eremius"
+      ],
+      "popularity": 1374,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Rusty desert monitor"
+    },
+    {
+      "name": "Varanus colei",
+      "aliases": [],
+      "popularity": 1405,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Varanus colei"
+    },
+    {
+      "name": "Varanus samarensis",
+      "aliases": [],
+      "popularity": 1457,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Varanus samarensis"
+    },
+    {
+      "name": "Golden-spotted tree monitor",
+      "aliases": [
+        "Varanus boehmei"
+      ],
+      "popularity": 1496,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Golden-spotted tree monitor"
+    },
+    {
+      "name": "Varanus storri",
+      "aliases": [],
+      "popularity": 1511,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Varanus storri"
+    },
+    {
+      "name": "Stripe-tailed goanna",
+      "aliases": [
+        "Varanus caudolineatus"
+      ],
+      "popularity": 1600,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Stripe-tailed goanna"
+    },
+    {
+      "name": "Varanus telenesetes",
+      "aliases": [],
+      "popularity": 1677,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Varanus telenesetes"
+    },
+    {
+      "name": "Black-spotted ridge-tailed monitor",
+      "aliases": [
+        "Varanus baritji"
+      ],
+      "popularity": 1693,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Black-spotted ridge-tailed monitor"
+    },
+    {
+      "name": "Banded tree monitor",
+      "aliases": [
+        "Varanus scalaris"
+      ],
+      "popularity": 1763,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Banded tree monitor"
+    },
+    {
+      "name": "Varanus similis",
+      "aliases": [],
+      "popularity": 1825,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Varanus similis"
+    },
+    {
+      "name": "Short-tailed pygmy monitor",
+      "aliases": [
+        "Short-tailed monitor",
+        "Varanus brevicauda"
+      ],
+      "popularity": 1846,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Short-tailed pygmy monitor"
+    },
+    {
+      "name": "Black-palmed rock monitor",
+      "aliases": [
+        "Varanus glebopalma"
+      ],
+      "popularity": 1914,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Black-palmed rock monitor"
+    },
+    {
+      "name": "Pilbara rock monitor",
+      "aliases": [
+        "Varanus pilbarensis"
+      ],
+      "popularity": 1920,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Pilbara rock monitor"
+    },
+    {
+      "name": "Panay monitor",
+      "aliases": [
+        "Panay Monitor Lizard",
+        "Varanus mabitang"
+      ],
+      "popularity": 2335,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Panay monitor"
+    },
+    {
+      "name": "Kings' monitor",
+      "aliases": [
+        "King's Goanna",
+        "Varanus kingorum"
+      ],
+      "popularity": 2389,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Kings' monitor"
+    },
+    {
+      "name": "Varanus yuwonoi",
+      "aliases": [],
+      "popularity": 2395,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Varanus yuwonoi"
+    },
+    {
+      "name": "Peacock monitor",
+      "aliases": [
+        "Varanus auffenbergi"
+      ],
+      "popularity": 2438,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Peacock monitor"
+    },
+    {
+      "name": "Varanus reisingeri",
+      "aliases": [],
+      "popularity": 2487,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Varanus reisingeri"
+    },
+    {
+      "name": "Marbled water monitor",
+      "aliases": [
+        "Varanus marmoratus"
+      ],
+      "popularity": 2628,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Marbled water monitor"
+    },
+    {
+      "name": "Spencer's goanna",
+      "aliases": [
+        "Varanus spenceri"
+      ],
+      "popularity": 2711,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Spencer's goanna"
+    },
+    {
+      "name": "Varanus kordensis",
+      "aliases": [
+        "Biak tree monitor"
+      ],
+      "popularity": 2769,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Varanus kordensis"
+    },
+    {
+      "name": "Quince monitor",
+      "aliases": [
+        "Varanus melinus"
+      ],
+      "popularity": 3136,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Quince monitor"
+    },
+    {
+      "name": "Mitchell's water monitor",
+      "aliases": [
+        "Varanus mitchelli"
+      ],
+      "popularity": 3174,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Mitchell's water monitor"
+    },
+    {
+      "name": "Varanus hooijeri",
+      "aliases": [],
+      "popularity": 3281,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Varanus hooijeri"
+    },
+    {
+      "name": "Pygmy mulga monitor",
+      "aliases": [
+        "Pygmy Mulga Goanna",
+        "Varanus gilleni"
+      ],
+      "popularity": 3519,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Pygmy mulga monitor"
+    },
+    {
+      "name": "Peach-throated monitor",
+      "aliases": [
+        "Peach Throat Monitor",
+        "Varanus jobiensis"
+      ],
+      "popularity": 3615,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Peach-throated monitor"
+    },
+    {
+      "name": "Ornate monitor",
+      "aliases": [
+        "Varanus ornatus"
+      ],
+      "popularity": 3677,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Ornate monitor"
+    },
+    {
+      "name": "Mariana monitor",
+      "aliases": [
+        "Saipan monitor",
+        "Varanus tsukamotoi"
+      ],
+      "popularity": 4044,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Mariana monitor"
+    },
+    {
+      "name": "Palawan water monitor",
+      "aliases": [
+        "Varanus palawanensis"
+      ],
+      "popularity": 4076,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Palawan water monitor"
+    },
+    {
+      "name": "Varanus spinulosus",
+      "aliases": [],
+      "popularity": 4112,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Varanus spinulosus"
+    },
+    {
+      "name": "Varanus timorensis",
+      "aliases": [],
+      "popularity": 4124,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "Varanus timorensis"
+    },
+    {
+      "name": "Blue-tailed monitor",
+      "aliases": [
+        "Varanus doreanus"
+      ],
+      "popularity": 4179,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Blue-tailed monitor"
+    },
+    {
+      "name": "Roughneck monitor",
+      "aliases": [
+        "Roughneck Monitor Lizard",
+        "Varanus rudicollis"
+      ],
+      "popularity": 4625,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Roughneck monitor"
+    },
+    {
+      "name": "Kimberley rock monitor",
+      "aliases": [
+        "Varanus glauerti"
+      ],
+      "popularity": 4722,
+      "rarity": 0.305,
+      "tier": 2,
+      "wiki": "Kimberley rock monitor"
+    },
+    {
+      "name": "Dumeril's monitor",
+      "aliases": [
+        "Varanus dumerilii"
+      ],
+      "popularity": 5353,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Dumeril's monitor"
+    },
+    {
+      "name": "Dampier Peninsula monitor",
+      "aliases": [
+        "Varanus sparnus"
+      ],
+      "popularity": 5786,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Dampier Peninsula monitor"
+    },
+    {
+      "name": "Yellow monitor",
+      "aliases": [
+        "Varanus flavescens",
+        "Yellow Monitor Lizard"
+      ],
+      "popularity": 5828,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Yellow monitor"
+    },
+    {
+      "name": "Black-headed monitor",
+      "aliases": [
+        "Varanus tristis"
+      ],
+      "popularity": 6245,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Black-headed monitor"
+    },
+    {
+      "name": "Varanus zugorum",
+      "aliases": [],
+      "popularity": 6256,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Varanus zugorum"
+    },
+    {
+      "name": "Northern Sierra Madre forest monitor",
+      "aliases": [
+        "Varanus bitatawa"
+      ],
+      "popularity": 6721,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Northern Sierra Madre forest monitor"
+    },
+    {
+      "name": "Yellow-headed water monitor",
+      "aliases": [
+        "Philippine water monitor",
+        "Varanus cumingi"
+      ],
+      "popularity": 6860,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Yellow-headed water monitor"
+    },
+    {
+      "name": "Rosenberg's monitor",
+      "aliases": [
+        "Varanus rosenbergi"
+      ],
+      "popularity": 6919,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Rosenberg's monitor"
+    },
+    {
+      "name": "Mangrove monitor",
+      "aliases": [
+        "Varanus indicus"
+      ],
+      "popularity": 7603,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Mangrove monitor"
+    },
+    {
+      "name": "Black tree monitor",
+      "aliases": [
+        "Varanus beccarii"
+      ],
+      "popularity": 8309,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Black tree monitor"
+    },
+    {
+      "name": "Mertens' water monitor",
+      "aliases": [
+        "Varanus mertensi"
+      ],
+      "popularity": 9164,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Mertens' water monitor"
+    },
+    {
+      "name": "West African Nile monitor",
+      "aliases": [
+        "Varanus stellatus",
+        "West Africa Nile monitor"
+      ],
+      "popularity": 9196,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "West African Nile monitor"
+    },
+    {
+      "name": "Clouded monitor",
+      "aliases": [
+        "Varanus nebulosus"
+      ],
+      "popularity": 9916,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Clouded monitor"
+    },
+    {
+      "name": "Gray's monitor",
+      "aliases": [
+        "Varanus olivaceus"
+      ],
+      "popularity": 12322,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Gray's monitor"
+    },
+    {
+      "name": "Yellow-spotted monitor",
+      "aliases": [
+        "Argus monitor",
+        "Varanus panoptes"
+      ],
+      "popularity": 14035,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Yellow-spotted monitor"
+    },
+    {
+      "name": "Emerald tree monitor",
+      "aliases": [
+        "Varanus prasinus"
+      ],
+      "popularity": 14416,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Emerald tree monitor"
+    },
+    {
+      "name": "Varanus macraei",
+      "aliases": [
+        "Blue-spotted tree monitor",
+        "blue tree monitor"
+      ],
+      "popularity": 15254,
+      "rarity": 0.126,
+      "tier": 1,
+      "wiki": "Varanus macraei"
+    },
+    {
+      "name": "Desert monitor",
+      "aliases": [
+        "Varanus griseus"
+      ],
+      "popularity": 16580,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Desert monitor"
+    },
+    {
+      "name": "Spiny-tailed monitor",
+      "aliases": [
+        "Varanus acanthurus"
+      ],
+      "popularity": 17299,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Spiny-tailed monitor"
+    },
+    {
+      "name": "Rock monitor",
+      "aliases": [
+        "Varanus albigularis",
+        "White-throated monitor"
+      ],
+      "popularity": 18932,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Rock monitor"
+    },
+    {
+      "name": "Sand goanna",
+      "aliases": [
+        "bungarra",
+        "sand monitor",
+        "Varanus gouldii"
+      ],
+      "popularity": 19710,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Sand goanna"
+    },
+    {
+      "name": "Savannah monitor",
+      "aliases": [
+        "Bosc's monitor",
+        "Varanus exanthematicus"
+      ],
+      "popularity": 20418,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Savannah monitor"
+    },
+    {
+      "name": "Varanus salvadorii",
+      "aliases": [],
+      "popularity": 34363,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Varanus salvadorii"
+    },
+    {
+      "name": "Bengal monitor",
+      "aliases": [
+        "Bengal monitor lizard",
+        "Varanus bengalensis"
+      ],
+      "popularity": 49365,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Bengal monitor"
+    },
+    {
+      "name": "Lace monitor",
+      "aliases": [
+        "Varanus varius"
+      ],
+      "popularity": 50740,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Lace monitor"
+    },
+    {
+      "name": "Perentie",
+      "aliases": [
+        "Varanus giganteus"
+      ],
+      "popularity": 59137,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Perentie"
+    },
+    {
+      "name": "Nile monitor",
+      "aliases": [
+        "Varanus niloticus",
+        "Water leguaan"
+      ],
+      "popularity": 68202,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Nile monitor"
+    },
+    {
+      "name": "Asian water monitor",
+      "aliases": [
+        "Asian water monitor lizard",
+        "kabaragoya",
+        "Varanus salvator",
+        "Water monitor",
+        "Water Monitor Lizard"
+      ],
+      "popularity": 189690,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Asian water monitor"
+    },
+    {
+      "name": "Komodo dragon",
+      "aliases": [
+        "Komodo island dragon",
+        "Komodo island monitor",
+        "Komodo monitor",
+        "Komodos",
+        "Varanus komodoensis"
+      ],
+      "popularity": 944370,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Komodo dragon"
+    }
+  ]
+}

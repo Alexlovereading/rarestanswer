@@ -1,0 +1,305 @@
+{
+  "id": "igneous-rocks",
+  "slug": "igneous-rocks",
+  "category": "science",
+  "question": "Name an igneous rock",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Melanocratic rock",
+      "aliases": [],
+      "popularity": 141,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Melanocratic rock"
+    },
+    {
+      "name": "Metaluminous rock",
+      "aliases": [],
+      "popularity": 608,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Metaluminous rock"
+    },
+    {
+      "name": "Teschenite",
+      "aliases": [],
+      "popularity": 1127,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Teschenite"
+    },
+    {
+      "name": "Mangerite",
+      "aliases": [],
+      "popularity": 1179,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Mangerite"
+    },
+    {
+      "name": "Glimmerite",
+      "aliases": [
+        "biotitite"
+      ],
+      "popularity": 1208,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Glimmerite"
+    },
+    {
+      "name": "Peraluminous rock",
+      "aliases": [],
+      "popularity": 1517,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Peraluminous rock"
+    },
+    {
+      "name": "Peralkaline rock",
+      "aliases": [],
+      "popularity": 1645,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Peralkaline rock"
+    },
+    {
+      "name": "Leucitite",
+      "aliases": [
+        "leucite"
+      ],
+      "popularity": 1761,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Leucitite"
+    },
+    {
+      "name": "Acidic rock",
+      "aliases": [
+        "acid igneous rock",
+        "acid rock",
+        "acidic igneous rock",
+        "acidite"
+      ],
+      "popularity": 1975,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Acidic rock"
+    },
+    {
+      "name": "Ultrapotassic igneous rocks",
+      "aliases": [],
+      "popularity": 2050,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Ultrapotassic igneous rocks"
+    },
+    {
+      "name": "Nelsonite",
+      "aliases": [],
+      "popularity": 2493,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Nelsonite"
+    },
+    {
+      "name": "Alkaline magma series",
+      "aliases": [
+        "alkali rock",
+        "alkaline rock"
+      ],
+      "popularity": 2673,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Alkaline magma series"
+    },
+    {
+      "name": "Nephelinite",
+      "aliases": [],
+      "popularity": 2753,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Nephelinite"
+    },
+    {
+      "name": "Intermediate composition",
+      "aliases": [
+        "intermediate composition igneous rock",
+        "intermediate rock"
+      ],
+      "popularity": 2958,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Intermediate composition"
+    },
+    {
+      "name": "Cantera",
+      "aliases": [
+        "Cantera (stone)"
+      ],
+      "popularity": 3451,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Cantera (stone)"
+    },
+    {
+      "name": "Phanerite",
+      "aliases": [
+        "phaneritic igneous rock",
+        "phaneritic rock"
+      ],
+      "popularity": 4262,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Phanerite"
+    },
+    {
+      "name": "Black granite",
+      "aliases": [],
+      "popularity": 4665,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Black granite"
+    },
+    {
+      "name": "Bowder Stone",
+      "aliases": [],
+      "popularity": 4782,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Bowder Stone"
+    },
+    {
+      "name": "Aphanite",
+      "aliases": [
+        "aphanitic rocks",
+        "cryptomere"
+      ],
+      "popularity": 5082,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Aphanite"
+    },
+    {
+      "name": "Norite",
+      "aliases": [],
+      "popularity": 5745,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Norite"
+    },
+    {
+      "name": "Pitchstone",
+      "aliases": [],
+      "popularity": 6330,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Pitchstone"
+    },
+    {
+      "name": "Tholeiitic magma series",
+      "aliases": [],
+      "popularity": 8107,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Tholeiitic magma series"
+    },
+    {
+      "name": "Porphyritic",
+      "aliases": [
+        "porphyric rock",
+        "porphyritic rock",
+        "porphyroid"
+      ],
+      "popularity": 11643,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Porphyritic"
+    },
+    {
+      "name": "Greenstone",
+      "aliases": [
+        "Greenstone (archaeology)"
+      ],
+      "popularity": 14008,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Greenstone (archaeology)"
+    },
+    {
+      "name": "Ultramafic rock",
+      "aliases": [
+        "ultramafitite"
+      ],
+      "popularity": 22939,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Ultramafic rock"
+    },
+    {
+      "name": "Intrusive rock",
+      "aliases": [
+        "igneous plutonic rock",
+        "intrusive structure",
+        "plutonic igneous rock",
+        "plutonic rock"
+      ],
+      "popularity": 25743,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Intrusive rock"
+    },
+    {
+      "name": "Thunderegg",
+      "aliases": [],
+      "popularity": 34020,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Thunderegg"
+    },
+    {
+      "name": "Volcanic glass",
+      "aliases": [
+        "vitric"
+      ],
+      "popularity": 34554,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Volcanic glass"
+    },
+    {
+      "name": "Volcanic rock",
+      "aliases": [
+        "volcanic rocks"
+      ],
+      "popularity": 43812,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Volcanic rock"
+    },
+    {
+      "name": "Porphyry",
+      "aliases": [
+        "porphyrite",
+        "Porphyry (geology)"
+      ],
+      "popularity": 100779,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Porphyry (geology)"
+    },
+    {
+      "name": "Soapstone",
+      "aliases": [
+        "massive talc",
+        "soaprock",
+        "soapstone silicate",
+        "steatite"
+      ],
+      "popularity": 113340,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Soapstone"
+    }
+  ]
+}

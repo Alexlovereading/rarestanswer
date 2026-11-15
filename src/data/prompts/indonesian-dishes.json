@@ -1,0 +1,1701 @@
+{
+  "id": "indonesian-dishes",
+  "slug": "indonesian-dishes",
+  "category": "food",
+  "question": "Name an Indonesian dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Natinombur",
+      "aliases": [
+        "Dengke Natinombur"
+      ],
+      "popularity": 122,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Natinombur"
+    },
+    {
+      "name": "Ie bu peudah",
+      "aliases": [],
+      "popularity": 178,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Ie bu peudah"
+    },
+    {
+      "name": "Adrem",
+      "aliases": [
+        "Adrem (snacks)",
+        "food from",
+        "tholpit",
+        "tolpit"
+      ],
+      "popularity": 225,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Adrem (snacks)"
+    },
+    {
+      "name": "Javanese fried rice",
+      "aliases": [],
+      "popularity": 227,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Javanese fried rice"
+    },
+    {
+      "name": "Cimpa",
+      "aliases": [],
+      "popularity": 248,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Cimpa"
+    },
+    {
+      "name": "Sate tuna",
+      "aliases": [
+        "Satay Tuna"
+      ],
+      "popularity": 251,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Sate tuna"
+    },
+    {
+      "name": "Kelan antep",
+      "aliases": [],
+      "popularity": 257,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Kelan antep"
+    },
+    {
+      "name": "Sambal tuktuk",
+      "aliases": [
+        "Tuktuk sauce"
+      ],
+      "popularity": 288,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Sambal tuktuk"
+    },
+    {
+      "name": "Pohulpohul",
+      "aliases": [],
+      "popularity": 333,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Pohulpohul"
+    },
+    {
+      "name": "Ayam panggang",
+      "aliases": [],
+      "popularity": 341,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Ayam panggang"
+    },
+    {
+      "name": "Dengke mas naniura",
+      "aliases": [
+        "Dengke Naniura"
+      ],
+      "popularity": 377,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Dengke mas naniura"
+    },
+    {
+      "name": "Itak gurgur",
+      "aliases": [],
+      "popularity": 393,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Itak gurgur"
+    },
+    {
+      "name": "Getuk goreng",
+      "aliases": [],
+      "popularity": 406,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Getuk goreng"
+    },
+    {
+      "name": "Rujak soto",
+      "aliases": [],
+      "popularity": 424,
+      "rarity": 0.93,
+      "tier": 6,
+      "wiki": "Rujak soto"
+    },
+    {
+      "name": "Katemak",
+      "aliases": [],
+      "popularity": 428,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Katemak"
+    },
+    {
+      "name": "Lontong dekem",
+      "aliases": [],
+      "popularity": 436,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Lontong dekem"
+    },
+    {
+      "name": "Tipatipa",
+      "aliases": [],
+      "popularity": 460,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Tipatipa"
+    },
+    {
+      "name": "Manuk napinadar",
+      "aliases": [],
+      "popularity": 512,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Manuk napinadar"
+    },
+    {
+      "name": "Keumamah",
+      "aliases": [],
+      "popularity": 553,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Keumamah"
+    },
+    {
+      "name": "Pundut Nasi",
+      "aliases": [],
+      "popularity": 565,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Pundut Nasi"
+    },
+    {
+      "name": "Bekasang",
+      "aliases": [],
+      "popularity": 594,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Bekasang"
+    },
+    {
+      "name": "Mie tarempa",
+      "aliases": [
+        "Tarempa noodles"
+      ],
+      "popularity": 647,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "Mie tarempa"
+    },
+    {
+      "name": "Meuseukat",
+      "aliases": [],
+      "popularity": 680,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Meuseukat"
+    },
+    {
+      "name": "Docang",
+      "aliases": [],
+      "popularity": 728,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Docang"
+    },
+    {
+      "name": "Binte biluhuta",
+      "aliases": [],
+      "popularity": 740,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Binte biluhuta"
+    },
+    {
+      "name": "Pecel ayam",
+      "aliases": [
+        "Pecel Pitik"
+      ],
+      "popularity": 740,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Pecel ayam"
+    },
+    {
+      "name": "Ombusombus",
+      "aliases": [
+        "Ombus ombus"
+      ],
+      "popularity": 750,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Ombusombus"
+    },
+    {
+      "name": "Mie caluk",
+      "aliases": [
+        "Caluk noodles"
+      ],
+      "popularity": 766,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Mie caluk"
+    },
+    {
+      "name": "Dali ni horbo",
+      "aliases": [],
+      "popularity": 866,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Dali ni horbo"
+    },
+    {
+      "name": "Madumongso",
+      "aliases": [],
+      "popularity": 908,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Madumongso"
+    },
+    {
+      "name": "Bakakak hayam",
+      "aliases": [],
+      "popularity": 969,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Bakakak hayam"
+    },
+    {
+      "name": "Es goyobod",
+      "aliases": [],
+      "popularity": 1041,
+      "rarity": 0.834,
+      "tier": 5,
+      "wiki": "Es goyobod"
+    },
+    {
+      "name": "Geplak",
+      "aliases": [],
+      "popularity": 1134,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Geplak"
+    },
+    {
+      "name": "Macaroni schotel",
+      "aliases": [
+        "makaroni schotel"
+      ],
+      "popularity": 1146,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Macaroni schotel"
+    },
+    {
+      "name": "Timphan",
+      "aliases": [],
+      "popularity": 1171,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Timphan"
+    },
+    {
+      "name": "Soto padang",
+      "aliases": [],
+      "popularity": 1219,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Soto padang"
+    },
+    {
+      "name": "Pagit-pagit",
+      "aliases": [],
+      "popularity": 1227,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Pagit-pagit"
+    },
+    {
+      "name": "Mie kangkung",
+      "aliases": [
+        "kale noodles"
+      ],
+      "popularity": 1286,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Mie kangkung"
+    },
+    {
+      "name": "Nasi jamblang",
+      "aliases": [
+        "Rice Jamblang"
+      ],
+      "popularity": 1291,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Nasi jamblang"
+    },
+    {
+      "name": "Sate klatak",
+      "aliases": [
+        "Klatak Satay"
+      ],
+      "popularity": 1293,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Sate klatak"
+    },
+    {
+      "name": "Roti bolen",
+      "aliases": [],
+      "popularity": 1372,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Roti bolen"
+    },
+    {
+      "name": "Ayam kodok",
+      "aliases": [],
+      "popularity": 1459,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Ayam kodok"
+    },
+    {
+      "name": "Jipang",
+      "aliases": [
+        "bipang",
+        "gipang",
+        "Jipang (food)"
+      ],
+      "popularity": 1461,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "Jipang (food)"
+    },
+    {
+      "name": "Kuluban",
+      "aliases": [],
+      "popularity": 1509,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "Kuluban"
+    },
+    {
+      "name": "Buntil",
+      "aliases": [],
+      "popularity": 1532,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Buntil"
+    },
+    {
+      "name": "Kue gapit",
+      "aliases": [],
+      "popularity": 1559,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Kue gapit"
+    },
+    {
+      "name": "Sop saudara",
+      "aliases": [],
+      "popularity": 1599,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Sop saudara"
+    },
+    {
+      "name": "Kue satu",
+      "aliases": [],
+      "popularity": 1606,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Kue satu"
+    },
+    {
+      "name": "Burgo",
+      "aliases": [
+        "Burgo (food)"
+      ],
+      "popularity": 1714,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Burgo (food)"
+    },
+    {
+      "name": "Kemplang",
+      "aliases": [],
+      "popularity": 1813,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Kemplang"
+    },
+    {
+      "name": "Tahu campur",
+      "aliases": [],
+      "popularity": 1814,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Tahu campur"
+    },
+    {
+      "name": "Lotek",
+      "aliases": [
+        "Lotek (food)"
+      ],
+      "popularity": 1845,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Lotek (food)"
+    },
+    {
+      "name": "Bubur pedas",
+      "aliases": [
+        "bubur sambas",
+        "spicy porridge"
+      ],
+      "popularity": 1855,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Bubur pedas"
+    },
+    {
+      "name": "Udang balado",
+      "aliases": [
+        "sambal shrimp"
+      ],
+      "popularity": 1881,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Udang balado"
+    },
+    {
+      "name": "Nasi lengko",
+      "aliases": [
+        "rice lengko"
+      ],
+      "popularity": 1890,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Nasi lengko"
+    },
+    {
+      "name": "Mie gomak",
+      "aliases": [
+        "Mi Gomak"
+      ],
+      "popularity": 1985,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Mie gomak"
+    },
+    {
+      "name": "Lampet",
+      "aliases": [
+        "lappet"
+      ],
+      "popularity": 1988,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Lampet"
+    },
+    {
+      "name": "Kue leker",
+      "aliases": [
+        "Leker Cake"
+      ],
+      "popularity": 2027,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Kue leker"
+    },
+    {
+      "name": "Tahu sumedang",
+      "aliases": [],
+      "popularity": 2088,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Tahu sumedang"
+    },
+    {
+      "name": "Kue rangi",
+      "aliases": [],
+      "popularity": 2092,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Kue rangi"
+    },
+    {
+      "name": "Empal gentong",
+      "aliases": [],
+      "popularity": 2104,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Empal gentong"
+    },
+    {
+      "name": "Nasi bogana",
+      "aliases": [
+        "bogana",
+        "sega bogana",
+        "sego bogana"
+      ],
+      "popularity": 2137,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Nasi bogana"
+    },
+    {
+      "name": "Mie celor",
+      "aliases": [],
+      "popularity": 2250,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "Mie celor"
+    },
+    {
+      "name": "Nasi gandul",
+      "aliases": [],
+      "popularity": 2325,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "Nasi gandul"
+    },
+    {
+      "name": "Tekwan",
+      "aliases": [],
+      "popularity": 2383,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Tekwan"
+    },
+    {
+      "name": "Cenil",
+      "aliases": [
+        "Cêthil"
+      ],
+      "popularity": 2406,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Cenil"
+    },
+    {
+      "name": "Bolu kukus",
+      "aliases": [],
+      "popularity": 2414,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Bolu kukus"
+    },
+    {
+      "name": "Nasi tempong",
+      "aliases": [],
+      "popularity": 2443,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Nasi tempong"
+    },
+    {
+      "name": "Pallubasa",
+      "aliases": [],
+      "popularity": 2499,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Pallubasa"
+    },
+    {
+      "name": "Kapurung",
+      "aliases": [],
+      "popularity": 2535,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Kapurung"
+    },
+    {
+      "name": "Bir pletok",
+      "aliases": [],
+      "popularity": 2547,
+      "rarity": 0.626,
+      "tier": 4,
+      "wiki": "Bir pletok"
+    },
+    {
+      "name": "Gethuk",
+      "aliases": [
+        "Getuk"
+      ],
+      "popularity": 2587,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Gethuk"
+    },
+    {
+      "name": "Kue semprong",
+      "aliases": [
+        "uih sepit"
+      ],
+      "popularity": 2589,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Kue semprong"
+    },
+    {
+      "name": "Kue ape",
+      "aliases": [],
+      "popularity": 2659,
+      "rarity": 0.61,
+      "tier": 4,
+      "wiki": "Kue ape"
+    },
+    {
+      "name": "Mie kocok",
+      "aliases": [
+        "Mi Kocok",
+        "shaken noodle"
+      ],
+      "popularity": 2692,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Mie kocok"
+    },
+    {
+      "name": "Ifumi",
+      "aliases": [
+        "I fu mie"
+      ],
+      "popularity": 2698,
+      "rarity": 0.599,
+      "tier": 3,
+      "wiki": "Ifumi"
+    },
+    {
+      "name": "Kue putu mayang",
+      "aliases": [],
+      "popularity": 2734,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Kue putu mayang"
+    },
+    {
+      "name": "Tahu gejrot",
+      "aliases": [],
+      "popularity": 2796,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Tahu gejrot"
+    },
+    {
+      "name": "Jalangkote",
+      "aliases": [],
+      "popularity": 2836,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Jalangkote"
+    },
+    {
+      "name": "Roti gambang",
+      "aliases": [],
+      "popularity": 2898,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Roti gambang"
+    },
+    {
+      "name": "Kue putri salju",
+      "aliases": [
+        "Putri salju cake"
+      ],
+      "popularity": 2925,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Kue putri salju"
+    },
+    {
+      "name": "Kue bingka",
+      "aliases": [
+        "bingka",
+        "Bingka Cake"
+      ],
+      "popularity": 2929,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Kue bingka"
+    },
+    {
+      "name": "Mie bakso",
+      "aliases": [
+        "Bakso Mee",
+        "Indonesian Meatball noodle soup",
+        "Meatball noodles",
+        "Mee Bakso",
+        "Mi bakso"
+      ],
+      "popularity": 2939,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Mie bakso"
+    },
+    {
+      "name": "Pekasam",
+      "aliases": [],
+      "popularity": 2944,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Pekasam"
+    },
+    {
+      "name": "Nasi bakar",
+      "aliases": [],
+      "popularity": 2996,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Nasi bakar"
+    },
+    {
+      "name": "Nasi kucing",
+      "aliases": [
+        "Sega kucing"
+      ],
+      "popularity": 3021,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Nasi kucing"
+    },
+    {
+      "name": "Roti buaya",
+      "aliases": [],
+      "popularity": 3025,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Roti buaya"
+    },
+    {
+      "name": "Sekba",
+      "aliases": [],
+      "popularity": 3096,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Sekba"
+    },
+    {
+      "name": "Konro",
+      "aliases": [
+        "Konro Soup"
+      ],
+      "popularity": 3136,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Konro"
+    },
+    {
+      "name": "Se'i",
+      "aliases": [],
+      "popularity": 3176,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Se'i"
+    },
+    {
+      "name": "Ayam Taliwang",
+      "aliases": [],
+      "popularity": 3192,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Ayam Taliwang"
+    },
+    {
+      "name": "Nasi tim",
+      "aliases": [],
+      "popularity": 3205,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Nasi tim"
+    },
+    {
+      "name": "Sate padang",
+      "aliases": [
+        "padang satay"
+      ],
+      "popularity": 3237,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Sate padang"
+    },
+    {
+      "name": "Arsik",
+      "aliases": [],
+      "popularity": 3421,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Arsik"
+    },
+    {
+      "name": "Keluak",
+      "aliases": [
+        "buah keluak",
+        "buah kepayang",
+        "football fruit"
+      ],
+      "popularity": 3434,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Keluak"
+    },
+    {
+      "name": "Es doger",
+      "aliases": [],
+      "popularity": 3453,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Es doger"
+    },
+    {
+      "name": "Krechek",
+      "aliases": [
+        "Krecek"
+      ],
+      "popularity": 3598,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Krechek"
+    },
+    {
+      "name": "Arem-arem",
+      "aliases": [],
+      "popularity": 3646,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Arem-arem"
+    },
+    {
+      "name": "Gepuk",
+      "aliases": [
+        "empal gepuk"
+      ],
+      "popularity": 3694,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Gepuk"
+    },
+    {
+      "name": "Kolak",
+      "aliases": [
+        "Kolak (food)"
+      ],
+      "popularity": 3714,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Kolak (food)"
+    },
+    {
+      "name": "Sapo tahu",
+      "aliases": [],
+      "popularity": 3827,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Sapo tahu"
+    },
+    {
+      "name": "Wajik",
+      "aliases": [
+        "Wajit"
+      ],
+      "popularity": 3871,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Wajik"
+    },
+    {
+      "name": "Rica-rica",
+      "aliases": [
+        "rica"
+      ],
+      "popularity": 4066,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Rica-rica"
+    },
+    {
+      "name": "Es buah",
+      "aliases": [],
+      "popularity": 4104,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Es buah"
+    },
+    {
+      "name": "Selat solo",
+      "aliases": [],
+      "popularity": 4131,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Selat solo"
+    },
+    {
+      "name": "Bubur kacang hijau",
+      "aliases": [],
+      "popularity": 4229,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "Bubur kacang hijau"
+    },
+    {
+      "name": "Rengginang",
+      "aliases": [],
+      "popularity": 4290,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Rengginang"
+    },
+    {
+      "name": "Kue pukis",
+      "aliases": [
+        "pukis"
+      ],
+      "popularity": 4298,
+      "rarity": 0.428,
+      "tier": 3,
+      "wiki": "Kue pukis"
+    },
+    {
+      "name": "Lumpia semarang",
+      "aliases": [],
+      "popularity": 4322,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Lumpia semarang"
+    },
+    {
+      "name": "Kue talam",
+      "aliases": [],
+      "popularity": 4348,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Kue talam"
+    },
+    {
+      "name": "Babi kecap",
+      "aliases": [],
+      "popularity": 4375,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Babi kecap"
+    },
+    {
+      "name": "Tinutuan",
+      "aliases": [
+        "tinutuan porridge"
+      ],
+      "popularity": 4549,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Tinutuan"
+    },
+    {
+      "name": "Sate kambing",
+      "aliases": [
+        "goat satay",
+        "lamb satay"
+      ],
+      "popularity": 4591,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Sate kambing"
+    },
+    {
+      "name": "Saksang",
+      "aliases": [
+        "Sangsang"
+      ],
+      "popularity": 4605,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Saksang"
+    },
+    {
+      "name": "Ayam kecap",
+      "aliases": [
+        "Ayam masak kicap"
+      ],
+      "popularity": 4633,
+      "rarity": 0.39,
+      "tier": 2,
+      "wiki": "Ayam kecap"
+    },
+    {
+      "name": "Sate taichan",
+      "aliases": [
+        "taichan satay"
+      ],
+      "popularity": 4639,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Sate taichan"
+    },
+    {
+      "name": "Karedok",
+      "aliases": [],
+      "popularity": 4641,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Karedok"
+    },
+    {
+      "name": "Nagasari",
+      "aliases": [],
+      "popularity": 4690,
+      "rarity": 0.374,
+      "tier": 2,
+      "wiki": "Nagasari"
+    },
+    {
+      "name": "Ayam goreng kalasan",
+      "aliases": [],
+      "popularity": 4744,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Ayam goreng kalasan"
+    },
+    {
+      "name": "Lupis",
+      "aliases": [
+        "Kuih lopes",
+        "Lupis (food)"
+      ],
+      "popularity": 4864,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Lupis (food)"
+    },
+    {
+      "name": "Nasi minyak",
+      "aliases": [],
+      "popularity": 4875,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Nasi minyak"
+    },
+    {
+      "name": "Mie Bangladesh",
+      "aliases": [],
+      "popularity": 4941,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Mie Bangladesh"
+    },
+    {
+      "name": "Swikee",
+      "aliases": [],
+      "popularity": 5000,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Swikee"
+    },
+    {
+      "name": "Mie aceh",
+      "aliases": [
+        "mi aceh"
+      ],
+      "popularity": 5072,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Mie aceh"
+    },
+    {
+      "name": "Nasi ambeng",
+      "aliases": [
+        "Ambeng Rice"
+      ],
+      "popularity": 5099,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "Nasi ambeng"
+    },
+    {
+      "name": "Sayur asem",
+      "aliases": [],
+      "popularity": 5115,
+      "rarity": 0.332,
+      "tier": 2,
+      "wiki": "Sayur asem"
+    },
+    {
+      "name": "Lawar",
+      "aliases": [
+        "Lawar (food)"
+      ],
+      "popularity": 5163,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Lawar (food)"
+    },
+    {
+      "name": "Sate lilit",
+      "aliases": [],
+      "popularity": 5180,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Sate lilit"
+    },
+    {
+      "name": "Botok",
+      "aliases": [
+        "bothok"
+      ],
+      "popularity": 5224,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Botok"
+    },
+    {
+      "name": "Tongseng",
+      "aliases": [],
+      "popularity": 5241,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Tongseng"
+    },
+    {
+      "name": "Pindang",
+      "aliases": [],
+      "popularity": 5262,
+      "rarity": 0.305,
+      "tier": 2,
+      "wiki": "Pindang"
+    },
+    {
+      "name": "Coto makassar",
+      "aliases": [
+        "coto Mangkasara"
+      ],
+      "popularity": 5296,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Coto makassar"
+    },
+    {
+      "name": "Nasi liwet",
+      "aliases": [],
+      "popularity": 5655,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Nasi liwet"
+    },
+    {
+      "name": "Cilok",
+      "aliases": [
+        "Cilok Goreng"
+      ],
+      "popularity": 5770,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Cilok"
+    },
+    {
+      "name": "Kerak telor",
+      "aliases": [],
+      "popularity": 5856,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Kerak telor"
+    },
+    {
+      "name": "Brem",
+      "aliases": [],
+      "popularity": 5860,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Brem"
+    },
+    {
+      "name": "Serundeng",
+      "aliases": [],
+      "popularity": 5929,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Serundeng"
+    },
+    {
+      "name": "Klappertaart",
+      "aliases": [],
+      "popularity": 5934,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Klappertaart"
+    },
+    {
+      "name": "Krupuk kulit",
+      "aliases": [
+        "Rambak",
+        "Skin Crackers"
+      ],
+      "popularity": 6159,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Krupuk kulit"
+    },
+    {
+      "name": "Dendeng",
+      "aliases": [],
+      "popularity": 6635,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Dendeng"
+    },
+    {
+      "name": "Serabi",
+      "aliases": [
+        "Chwee kueh"
+      ],
+      "popularity": 6735,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Serabi"
+    },
+    {
+      "name": "Balado",
+      "aliases": [
+        "Balado (food)"
+      ],
+      "popularity": 7176,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Balado (food)"
+    },
+    {
+      "name": "Ketoprak",
+      "aliases": [
+        "Ketoprak (dish)",
+        "ketoprakJakarta"
+      ],
+      "popularity": 7509,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Ketoprak (dish)"
+    },
+    {
+      "name": "Urap",
+      "aliases": [],
+      "popularity": 7516,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Urap"
+    },
+    {
+      "name": "Bakwan",
+      "aliases": [
+        "bakwan sayur",
+        "bala-bala",
+        "ote-ote"
+      ],
+      "popularity": 7813,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Bakwan"
+    },
+    {
+      "name": "Nasi kebuli",
+      "aliases": [],
+      "popularity": 7855,
+      "rarity": 0.225,
+      "tier": 2,
+      "wiki": "Nasi kebuli"
+    },
+    {
+      "name": "Rempeyek",
+      "aliases": [],
+      "popularity": 8315,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Rempeyek"
+    },
+    {
+      "name": "Lemang",
+      "aliases": [
+        "Lamang"
+      ],
+      "popularity": 8605,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Lemang"
+    },
+    {
+      "name": "Pecel",
+      "aliases": [],
+      "popularity": 8689,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Pecel"
+    },
+    {
+      "name": "Lemper",
+      "aliases": [],
+      "popularity": 8757,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Lemper"
+    },
+    {
+      "name": "Pepes",
+      "aliases": [],
+      "popularity": 8978,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Pepes"
+    },
+    {
+      "name": "Nasi ulam",
+      "aliases": [],
+      "popularity": 9276,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Nasi ulam"
+    },
+    {
+      "name": "Mee rebus",
+      "aliases": [
+        "boiled noodles",
+        "Mi Jawa",
+        "Mi kuah",
+        "Mi rebus"
+      ],
+      "popularity": 9457,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Mee rebus"
+    },
+    {
+      "name": "Tempoyak",
+      "aliases": [],
+      "popularity": 9638,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Tempoyak"
+    },
+    {
+      "name": "Bika ambon",
+      "aliases": [],
+      "popularity": 9665,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Bika ambon"
+    },
+    {
+      "name": "Gudeg",
+      "aliases": [],
+      "popularity": 9865,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Gudeg"
+    },
+    {
+      "name": "Tapioca chips",
+      "aliases": [
+        "cassava chips"
+      ],
+      "popularity": 9964,
+      "rarity": 0.166,
+      "tier": 1,
+      "wiki": "Tapioca chips"
+    },
+    {
+      "name": "Betutu",
+      "aliases": [],
+      "popularity": 10088,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Betutu"
+    },
+    {
+      "name": "Nasi uduk",
+      "aliases": [],
+      "popularity": 10821,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Nasi uduk"
+    },
+    {
+      "name": "Corn fritter",
+      "aliases": [],
+      "popularity": 12158,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Corn fritter"
+    },
+    {
+      "name": "Bubur ketan hitam",
+      "aliases": [],
+      "popularity": 12285,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Bubur ketan hitam"
+    },
+    {
+      "name": "Neera",
+      "aliases": [
+        "palm nectar"
+      ],
+      "popularity": 12302,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Neera"
+    },
+    {
+      "name": "Asam pedas",
+      "aliases": [
+        "asam padeh"
+      ],
+      "popularity": 12364,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Asam pedas"
+    },
+    {
+      "name": "Siomay",
+      "aliases": [],
+      "popularity": 12587,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Siomay"
+    },
+    {
+      "name": "Mie ayam",
+      "aliases": [],
+      "popularity": 12611,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Mie ayam"
+    },
+    {
+      "name": "Bubur ayam",
+      "aliases": [
+        "Chicken porridge"
+      ],
+      "popularity": 12869,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Bubur ayam"
+    },
+    {
+      "name": "Papeda",
+      "aliases": [
+        "Papeda (food)"
+      ],
+      "popularity": 14545,
+      "rarity": 0.112,
+      "tier": 1,
+      "wiki": "Papeda (food)"
+    },
+    {
+      "name": "Seblak",
+      "aliases": [],
+      "popularity": 15267,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Seblak"
+    },
+    {
+      "name": "Tumpeng",
+      "aliases": [],
+      "popularity": 15980,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Tumpeng"
+    },
+    {
+      "name": "Gulai",
+      "aliases": [
+        "gule"
+      ],
+      "popularity": 16244,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Gulai"
+    },
+    {
+      "name": "Pempek",
+      "aliases": [],
+      "popularity": 16464,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Pempek"
+    },
+    {
+      "name": "Ayam goreng",
+      "aliases": [],
+      "popularity": 16727,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Ayam goreng"
+    },
+    {
+      "name": "Nasi kuning",
+      "aliases": [
+        "nasi kunyit"
+      ],
+      "popularity": 16758,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Nasi kuning"
+    },
+    {
+      "name": "Bakmi",
+      "aliases": [
+        "bamii"
+      ],
+      "popularity": 17671,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Bakmi"
+    },
+    {
+      "name": "Oncom",
+      "aliases": [],
+      "popularity": 19373,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Oncom"
+    },
+    {
+      "name": "Dadar gulung",
+      "aliases": [
+        "kue dadar gulung"
+      ],
+      "popularity": 20097,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Dadar gulung"
+    },
+    {
+      "name": "Soto ayam",
+      "aliases": [
+        "soto"
+      ],
+      "popularity": 20876,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Soto ayam"
+    },
+    {
+      "name": "Otak-otak",
+      "aliases": [
+        "Origin from Muar"
+      ],
+      "popularity": 21375,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Otak-otak"
+    },
+    {
+      "name": "Bakpia",
+      "aliases": [
+        "hopia"
+      ],
+      "popularity": 22202,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Bakpia"
+    },
+    {
+      "name": "Klepon",
+      "aliases": [
+        "Buah melaka",
+        "Kalalapon",
+        "Kuih pancit",
+        "Onde-onde",
+        "Ondeh-ondeh"
+      ],
+      "popularity": 22867,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Klepon"
+    },
+    {
+      "name": "Nasi campur",
+      "aliases": [],
+      "popularity": 24230,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Nasi campur"
+    },
+    {
+      "name": "Lontong",
+      "aliases": [],
+      "popularity": 25743,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Lontong"
+    },
+    {
+      "name": "Nasi padang",
+      "aliases": [],
+      "popularity": 27911,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Nasi padang"
+    },
+    {
+      "name": "Rojak",
+      "aliases": [
+        "rujak"
+      ],
+      "popularity": 34295,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Rojak"
+    },
+    {
+      "name": "Gado-gado",
+      "aliases": [],
+      "popularity": 40426,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Gado-gado"
+    },
+    {
+      "name": "Jian dui",
+      "aliases": [
+        "benne ball",
+        "Jin deui",
+        "sesame seed ball",
+        "sesame seed laddu",
+        "Zin Deoi"
+      ],
+      "popularity": 49265,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Jian dui"
+    },
+    {
+      "name": "Cendol",
+      "aliases": [
+        "Cendoi"
+      ],
+      "popularity": 69529,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Cendol"
+    },
+    {
+      "name": "Rendang",
+      "aliases": [
+        "randang",
+        "Randang minang"
+      ],
+      "popularity": 79267,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Rendang"
+    }
+  ]
+}

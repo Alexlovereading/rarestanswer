@@ -1,0 +1,400 @@
+{
+  "id": "paris-2024-sports",
+  "slug": "paris-2024-sports",
+  "category": "sports",
+  "question": "Name a sport at the 2024 Summer Olympics",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Canoeing and kayaking",
+      "aliases": [],
+      "popularity": 742,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Canoeing and kayaking"
+    },
+    {
+      "name": "Equestrian sport",
+      "aliases": [],
+      "popularity": 3343,
+      "rarity": 0.972,
+      "tier": 6,
+      "wiki": "Equestrian sport"
+    },
+    {
+      "name": "Synchronised swimming",
+      "aliases": [
+        "artistic swimming",
+        "synchronized swimming"
+      ],
+      "popularity": 12163,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Synchronised swimming"
+    },
+    {
+      "name": "Marathon swimming",
+      "aliases": [],
+      "popularity": 13842,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Marathon swimming"
+    },
+    {
+      "name": "Competitive swimming",
+      "aliases": [
+        "swimming"
+      ],
+      "popularity": 15758,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Competitive swimming"
+    },
+    {
+      "name": "Sailing",
+      "aliases": [
+        "Sailing (sport)",
+        "yachting"
+      ],
+      "popularity": 32014,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Sailing (sport)"
+    },
+    {
+      "name": "Sport climbing",
+      "aliases": [
+        "bolted climbing",
+        "indoor climbing",
+        "sports climbing"
+      ],
+      "popularity": 33125,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Sport climbing"
+    },
+    {
+      "name": "Cycle sport",
+      "aliases": [
+        "bicycle sport",
+        "bike sport",
+        "cycling sport",
+        "cycling sports",
+        "sport cycling",
+        "sports cycling"
+      ],
+      "popularity": 34360,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Cycle sport"
+    },
+    {
+      "name": "Diving",
+      "aliases": [
+        "competitive diving",
+        "Diving (sport)"
+      ],
+      "popularity": 55405,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Diving (sport)"
+    },
+    {
+      "name": "Beach volleyball",
+      "aliases": [],
+      "popularity": 71801,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Beach volleyball"
+    },
+    {
+      "name": "Shooting sports",
+      "aliases": [
+        "shooting sport",
+        "sport shooting",
+        "sports shooting"
+      ],
+      "popularity": 77623,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Shooting sports"
+    },
+    {
+      "name": "Rugby sevens",
+      "aliases": [
+        "rugby union sevens",
+        "seven-a-side",
+        "sevens",
+        "VIIs"
+      ],
+      "popularity": 81582,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Rugby sevens"
+    },
+    {
+      "name": "Rowing",
+      "aliases": [
+        "competitive rowing",
+        "crew",
+        "Rowing (sport)",
+        "sport rowing"
+      ],
+      "popularity": 113592,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Rowing (sport)"
+    },
+    {
+      "name": "Olympic weightlifting",
+      "aliases": [
+        "lifting",
+        "weightlifting"
+      ],
+      "popularity": 124514,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Olympic weightlifting"
+    },
+    {
+      "name": "Breakdancing",
+      "aliases": [
+        "b-boying",
+        "b-girling",
+        "break dance",
+        "breakdance",
+        "Breakin'",
+        "breaking"
+      ],
+      "popularity": 124527,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Breakdancing"
+    },
+    {
+      "name": "Archery",
+      "aliases": [],
+      "popularity": 130866,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Archery"
+    },
+    {
+      "name": "Surfing",
+      "aliases": [
+        "surfboarding",
+        "surfin'"
+      ],
+      "popularity": 131186,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Surfing"
+    },
+    {
+      "name": "Skateboarding",
+      "aliases": [
+        "skateboard sport"
+      ],
+      "popularity": 132922,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Skateboarding"
+    },
+    {
+      "name": "Water polo",
+      "aliases": [],
+      "popularity": 140934,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Water polo"
+    },
+    {
+      "name": "Gymnastics",
+      "aliases": [],
+      "popularity": 151808,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Gymnastics"
+    },
+    {
+      "name": "Modern pentathlon",
+      "aliases": [
+        "pentathlon"
+      ],
+      "popularity": 158968,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Modern pentathlon"
+    },
+    {
+      "name": "Sport of athletics",
+      "aliases": [
+        "athletics",
+        "light athletics",
+        "track and field"
+      ],
+      "popularity": 173905,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Sport of athletics"
+    },
+    {
+      "name": "Wrestling",
+      "aliases": [],
+      "popularity": 214914,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Wrestling"
+    },
+    {
+      "name": "Field hockey",
+      "aliases": [
+        "hockey",
+        "outdoor hockey"
+      ],
+      "popularity": 219387,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Field hockey"
+    },
+    {
+      "name": "Triathlon",
+      "aliases": [],
+      "popularity": 230279,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Triathlon"
+    },
+    {
+      "name": "Fencing",
+      "aliases": [],
+      "popularity": 236441,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Fencing"
+    },
+    {
+      "name": "Handball",
+      "aliases": [
+        "borden ball",
+        "European handball",
+        "european team handball",
+        "olympic handball",
+        "team handball"
+      ],
+      "popularity": 271905,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Handball"
+    },
+    {
+      "name": "Table tennis",
+      "aliases": [
+        "gossima",
+        "ping pong",
+        "wiff-waff"
+      ],
+      "popularity": 296724,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Table tennis"
+    },
+    {
+      "name": "Golf",
+      "aliases": [],
+      "popularity": 298515,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Golf"
+    },
+    {
+      "name": "Judo",
+      "aliases": [],
+      "popularity": 372474,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Judo"
+    },
+    {
+      "name": "Boxing",
+      "aliases": [
+        "pugilism"
+      ],
+      "popularity": 372615,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Boxing"
+    },
+    {
+      "name": "Tennis",
+      "aliases": [
+        "lawn tennis",
+        "lawntennis"
+      ],
+      "popularity": 387808,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Tennis"
+    },
+    {
+      "name": "Taekwondo",
+      "aliases": [
+        "Korean Karate",
+        "tae kwon do",
+        "taekwon-do",
+        "TaeKwonDu",
+        "TKD"
+      ],
+      "popularity": 458008,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Taekwondo"
+    },
+    {
+      "name": "Badminton",
+      "aliases": [],
+      "popularity": 461629,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Badminton"
+    },
+    {
+      "name": "Volleyball",
+      "aliases": [],
+      "popularity": 485028,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Volleyball"
+    },
+    {
+      "name": "Basketball",
+      "aliases": [
+        "b-ball",
+        "basket",
+        "basket ball",
+        "hoops"
+      ],
+      "popularity": 951361,
+      "rarity": 0.028,
+      "tier": 1,
+      "wiki": "Basketball"
+    },
+    {
+      "name": "Association football",
+      "aliases": [
+        "association soccer",
+        "foot ball",
+        "football",
+        "footie",
+        "footy",
+        "futbol",
+        "futebol",
+        "soccer"
+      ],
+      "popularity": 2169022,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Association football"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "crocodilian-species",
+  "slug": "crocodilian-species",
+  "category": "animals",
+  "question": "Name a species of crocodile, alligator, caiman, or gharial",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Mourasuchus pattersoni",
+      "aliases": [],
+      "popularity": 53,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Mourasuchus pattersoni"
+    },
+    {
+      "name": "Dadagavialis gunai",
+      "aliases": [],
+      "popularity": 105,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Dadagavialis gunai"
+    },
+    {
+      "name": "Caiman australis",
+      "aliases": [],
+      "popularity": 613,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Caiman australis"
+    },
+    {
+      "name": "Crocodylus raninus",
+      "aliases": [],
+      "popularity": 6633,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Crocodylus raninus"
+    },
+    {
+      "name": "Central African slender-snouted crocodile",
+      "aliases": [
+        "M. leptorhynchus",
+        "Mecistops leptorhynchus"
+      ],
+      "popularity": 7192,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Central African slender-snouted crocodile"
+    },
+    {
+      "name": "Osteolaemus osborni",
+      "aliases": [
+        "O. osborni",
+        "Osborn's dwarf crocodile"
+      ],
+      "popularity": 7233,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Osteolaemus osborni"
+    },
+    {
+      "name": "Crocodylus halli",
+      "aliases": [
+        "C. halli",
+        "Hall's New Guinea crocodile"
+      ],
+      "popularity": 11840,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Crocodylus halli"
+    },
+    {
+      "name": "West African slender-snouted crocodile",
+      "aliases": [
+        "African slender-snouted crocodile",
+        "M. cataphractus",
+        "Mecistops cataphractus"
+      ],
+      "popularity": 15745,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "West African slender-snouted crocodile"
+    },
+    {
+      "name": "Broad-snouted caiman",
+      "aliases": [
+        "Caiman latirostris"
+      ],
+      "popularity": 18234,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Broad-snouted caiman"
+    },
+    {
+      "name": "New Guinea crocodile",
+      "aliases": [
+        "Crocodylus novaeguinae",
+        "Crocodylus novaeguineae"
+      ],
+      "popularity": 20632,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "New Guinea crocodile"
+    },
+    {
+      "name": "Dwarf crocodile",
+      "aliases": [
+        "African dwarf crocodile",
+        "bony crocodile",
+        "broad-snouted crocodile",
+        "Osteolaemus tetraspis",
+        "West African dwarf crocodile"
+      ],
+      "popularity": 34964,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Dwarf crocodile"
+    },
+    {
+      "name": "Yacare caiman",
+      "aliases": [
+        "Caiman yacare",
+        "jacare caiman",
+        "Paraguayan caiman",
+        "piranha caiman",
+        "red caiman",
+        "southern spectacled caiman",
+        "yacaré"
+      ],
+      "popularity": 39150,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Yacare caiman"
+    },
+    {
+      "name": "Philippine crocodile",
+      "aliases": [
+        "Bukarot",
+        "Buwaya",
+        "C. mindorensis",
+        "Crocodylus mindorensis",
+        "Mindoro crocodile",
+        "Philippine freshwater crocodile"
+      ],
+      "popularity": 40026,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Philippine crocodile"
+    },
+    {
+      "name": "Morelet's crocodile",
+      "aliases": [
+        "Belize crocodile",
+        "Crocodylus moreletii"
+      ],
+      "popularity": 46582,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Morelet's crocodile"
+    },
+    {
+      "name": "Siamese crocodile",
+      "aliases": [
+        "Crocodylus siamensis"
+      ],
+      "popularity": 50254,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Siamese crocodile"
+    },
+    {
+      "name": "West African crocodile",
+      "aliases": [
+        "Crocodylus suchus",
+        "desert crocodile",
+        "sacred crocodile"
+      ],
+      "popularity": 52251,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "West African crocodile"
+    },
+    {
+      "name": "Cuban crocodile",
+      "aliases": [
+        "Crocodylus rhombifer"
+      ],
+      "popularity": 54462,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Cuban crocodile"
+    },
+    {
+      "name": "Freshwater crocodile",
+      "aliases": [
+        "Australian freshwater crocodile",
+        "Crocodylus johnsoni",
+        "freshie",
+        "Johnstone's crocodile"
+      ],
+      "popularity": 59327,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Freshwater crocodile"
+    },
+    {
+      "name": "Spectacled caiman",
+      "aliases": [
+        "Caiman crocodilus",
+        "common caiman",
+        "speckled caiman",
+        "white caiman"
+      ],
+      "popularity": 62610,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Spectacled caiman"
+    },
+    {
+      "name": "Orinoco crocodile",
+      "aliases": [
+        "Crocodylus intermedius"
+      ],
+      "popularity": 63917,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Orinoco crocodile"
+    },
+    {
+      "name": "False gharial",
+      "aliases": [
+        "false gavial",
+        "Malayan gharial",
+        "Sunda gharial",
+        "Tomistoma schlegelii"
+      ],
+      "popularity": 74008,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "False gharial"
+    },
+    {
+      "name": "Chinese alligator",
+      "aliases": [
+        "Alligator sinensis"
+      ],
+      "popularity": 123419,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Chinese alligator"
+    },
+    {
+      "name": "Black caiman",
+      "aliases": [
+        "M. fisheri",
+        "Melanosuchus niger"
+      ],
+      "popularity": 129391,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Black caiman"
+    },
+    {
+      "name": "Mugger crocodile",
+      "aliases": [
+        "Crocodylus palustris",
+        "Indus Crocodile",
+        "Marsh crocodile",
+        "Mugger"
+      ],
+      "popularity": 138402,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Mugger crocodile"
+    },
+    {
+      "name": "American crocodile",
+      "aliases": [
+        "Crocodylus acutus"
+      ],
+      "popularity": 265426,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "American crocodile"
+    },
+    {
+      "name": "American alligator",
+      "aliases": [
+        "Alligator mississippiensis",
+        "common alligator",
+        "gator"
+      ],
+      "popularity": 311112,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "American alligator"
+    },
+    {
+      "name": "Gharial",
+      "aliases": [
+        "fish-eating crocodile",
+        "G. gangeticus",
+        "gavial",
+        "Gavialis gangeticus",
+        "gharrial",
+        "ghurial",
+        "ghurrial",
+        "ghuryal"
+      ],
+      "popularity": 314933,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Gharial"
+    },
+    {
+      "name": "Nile crocodile",
+      "aliases": [
+        "African crocodile",
+        "Crocodylus niloticus"
+      ],
+      "popularity": 331373,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Nile crocodile"
+    },
+    {
+      "name": "Saltwater crocodile",
+      "aliases": [
+        "Crocodylus porosus",
+        "estuarine crocodile",
+        "Indo-Pacific crocodile",
+        "marine crocodile",
+        "saltie",
+        "sea crocodile"
+      ],
+      "popularity": 579111,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Saltwater crocodile"
+    }
+  ]
+}

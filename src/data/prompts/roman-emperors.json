@@ -1,0 +1,1333 @@
+{
+  "id": "roman-emperors",
+  "slug": "roman-emperors",
+  "category": "history",
+  "question": "Name a Roman emperor",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Septimius",
+      "aliases": [
+        "Septiminus",
+        "Septimius II",
+        "Septimius (usurper)"
+      ],
+      "popularity": 471,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Septimius (usurper)"
+    },
+    {
+      "name": "Marcellus",
+      "aliases": [
+        "Marcellus (usurper)"
+      ],
+      "popularity": 747,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Marcellus (usurper)"
+    },
+    {
+      "name": "Sabinian",
+      "aliases": [
+        "Marcus Asinius Sabinianus",
+        "Sabinian (proconsul)",
+        "Sabinianus"
+      ],
+      "popularity": 1293,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Sabinian (proconsul)"
+    },
+    {
+      "name": "Victorinus Junior",
+      "aliases": [
+        "Victorinus Minor"
+      ],
+      "popularity": 1376,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Victorinus Junior"
+    },
+    {
+      "name": "Sebastianus",
+      "aliases": [],
+      "popularity": 1460,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Sebastianus"
+    },
+    {
+      "name": "Flavius Severianus",
+      "aliases": [
+        "Severianus"
+      ],
+      "popularity": 1466,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Flavius Severianus"
+    },
+    {
+      "name": "Julius Saturninus",
+      "aliases": [
+        "Saturninus",
+        "Sextus",
+        "Sextus Julius Saturninus",
+        "Sextus Saturninus"
+      ],
+      "popularity": 1602,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Julius Saturninus"
+    },
+    {
+      "name": "Bonosus",
+      "aliases": [
+        "Bonosus (usurper)"
+      ],
+      "popularity": 1618,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Bonosus (usurper)"
+    },
+    {
+      "name": "Julian of Pannonia",
+      "aliases": [
+        "Juliusnus II",
+        "Marcus Aurelius Iulianus",
+        "Sabinus Iulianus"
+      ],
+      "popularity": 1680,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Julian of Pannonia"
+    },
+    {
+      "name": "Silvanus",
+      "aliases": [
+        "Claudius Silvanus",
+        "Silvanus (magister peditum)"
+      ],
+      "popularity": 2021,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Silvanus (magister peditum)"
+    },
+    {
+      "name": "Jotapian",
+      "aliases": [
+        "Iopatian",
+        "Iopatianus",
+        "Jotapianus",
+        "M. Fulvius Rufus Iotapianus",
+        "M. Fulvius Rufus Jotapianus",
+        "Marcus Fulvius Ru. Jotapianus",
+        "Marcus Fulvius Rufus Iotapianus",
+        "Marcus Fulvius Rufus Jotapianus"
+      ],
+      "popularity": 2145,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Jotapian"
+    },
+    {
+      "name": "Regalian",
+      "aliases": [
+        "P.C. Regalianus",
+        "Pius Caesar Regalianus",
+        "Publius Caesar Regalianus",
+        "Publius Cassius Regalianus",
+        "Publius Claudius Regalianus",
+        "Publius Cornelius Regalianus",
+        "Publius Gaius Regalianus",
+        "Regalianus",
+        "Regilianus",
+        "Regillianus",
+        "Religianus",
+        "Religilianus",
+        "Trebellianus"
+      ],
+      "popularity": 2407,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Regalian"
+    },
+    {
+      "name": "Pacatian",
+      "aliases": [
+        "Pacatianus",
+        "Tiberius Claudius Marinus Pacatianus"
+      ],
+      "popularity": 2594,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Pacatian"
+    },
+    {
+      "name": "Uranius",
+      "aliases": [
+        "Uranius Antoninus"
+      ],
+      "popularity": 2824,
+      "rarity": 0.874,
+      "tier": 5,
+      "wiki": "Uranius"
+    },
+    {
+      "name": "Gratian (usurper)",
+      "aliases": [],
+      "popularity": 2934,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Gratian (usurper)"
+    },
+    {
+      "name": "Macrianus Major",
+      "aliases": [
+        "Titus Fulvius Macrianus"
+      ],
+      "popularity": 2993,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Macrianus Major"
+    },
+    {
+      "name": "Marcus (usurper)",
+      "aliases": [],
+      "popularity": 3316,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Marcus (usurper)"
+    },
+    {
+      "name": "Ingenuus",
+      "aliases": [],
+      "popularity": 4496,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Ingenuus"
+    },
+    {
+      "name": "Maximus of Hispania",
+      "aliases": [
+        "Maximus"
+      ],
+      "popularity": 5124,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Maximus of Hispania"
+    },
+    {
+      "name": "Marcus (son of Basiliscus)",
+      "aliases": [
+        "Flavius Marcus"
+      ],
+      "popularity": 5351,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Marcus (son of Basiliscus)"
+    },
+    {
+      "name": "Martinian",
+      "aliases": [
+        "Mar... Martinianus",
+        "Marcius Martinianus",
+        "Marinus Martinianus",
+        "Martinian (emperor)",
+        "Martinianus",
+        "Martinus Martinianus",
+        "S Mar Martinianus",
+        "Sextus Marcius Martinianus",
+        "Sextus Martinianus"
+      ],
+      "popularity": 5513,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Martinian (emperor)"
+    },
+    {
+      "name": "Sponsianus",
+      "aliases": [
+        "Imperator Sponsianus",
+        "Severus Sponsianus",
+        "Sponsian",
+        "Sponsiani",
+        "Sponsianvs"
+      ],
+      "popularity": 6317,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Sponsianus"
+    },
+    {
+      "name": "Valerian II",
+      "aliases": [
+        "Publius Licinius Cornelius Valerianus"
+      ],
+      "popularity": 6400,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Valerian II"
+    },
+    {
+      "name": "Valerius Valens",
+      "aliases": [
+        "Aurelius Valerius Valens",
+        "Valens I"
+      ],
+      "popularity": 6442,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Valerius Valens"
+    },
+    {
+      "name": "Victor",
+      "aliases": [
+        "Flavius Victor",
+        "Victor (emperor)"
+      ],
+      "popularity": 7851,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Victor (emperor)"
+    },
+    {
+      "name": "Hostilian",
+      "aliases": [
+        "Gaius Valens Hostilianus Messius Quintus",
+        "Gaius Valentius Hostilianus Messius Quintus",
+        "Hostilianus",
+        "Hostilianus Perpenna",
+        "Valens Hostilianus"
+      ],
+      "popularity": 8349,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Hostilian"
+    },
+    {
+      "name": "Gaius Julius Verus Maximus",
+      "aliases": [],
+      "popularity": 9005,
+      "rarity": 0.748,
+      "tier": 4,
+      "wiki": "Gaius Julius Verus Maximus"
+    },
+    {
+      "name": "Vetranio",
+      "aliases": [],
+      "popularity": 11060,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Vetranio"
+    },
+    {
+      "name": "Constans II",
+      "aliases": [
+        "Constans II (son of Constantine III)"
+      ],
+      "popularity": 12576,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Constans II (son of Constantine III)"
+    },
+    {
+      "name": "Saloninus",
+      "aliases": [
+        "Publius Licinius Cornelius Saloninus",
+        "Publius Licinius Cornelius Saloninus Valerianus"
+      ],
+      "popularity": 12930,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Saloninus"
+    },
+    {
+      "name": "Volusianus",
+      "aliases": [
+        "Gaius Vibius Volusianus",
+        "Volusian"
+      ],
+      "popularity": 14226,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Volusianus"
+    },
+    {
+      "name": "Silbannacus",
+      "aliases": [
+        "Imperator Mar. Silbannacus Augustus",
+        "Mar. Silbannacus Augustus",
+        "Marcius Silbannacus Augustus",
+        "Marcus Silbannacus Augustus",
+        "Marinus Silbannacus",
+        "Marius Silbannacus Augustus"
+      ],
+      "popularity": 14311,
+      "rarity": 0.699,
+      "tier": 4,
+      "wiki": "Silbannacus"
+    },
+    {
+      "name": "Herennius Etruscus",
+      "aliases": [
+        "Quintus Herennius Etruscus Messius Decius"
+      ],
+      "popularity": 14315,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Herennius Etruscus"
+    },
+    {
+      "name": "Procopius",
+      "aliases": [
+        "Procopius (usurper)"
+      ],
+      "popularity": 17295,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Procopius (usurper)"
+    },
+    {
+      "name": "Gordian II",
+      "aliases": [
+        "Emperor of Rome Gordian II"
+      ],
+      "popularity": 20774,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Gordian II"
+    },
+    {
+      "name": "Diadumenian",
+      "aliases": [
+        "Antoninus Diadumenus",
+        "Diadematus",
+        "Diadumenianus",
+        "Diadumenius",
+        "Diadumenus",
+        "Marcus Opellius Antoninus Diadumenianus",
+        "Marcus Opellius Diadumenianus",
+        "Marcus Opellius Diadumenus"
+      ],
+      "popularity": 27442,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Diadumenian"
+    },
+    {
+      "name": "Severus II",
+      "aliases": [
+        "Flavius Valerius Severus"
+      ],
+      "popularity": 30204,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Severus II"
+    },
+    {
+      "name": "Numerian",
+      "aliases": [
+        "M. Aurelius Numerius Numerianus",
+        "Marcus Aurelius Numerius Numerianus",
+        "Numerianus"
+      ],
+      "popularity": 35731,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Numerian"
+    },
+    {
+      "name": "Gordian I",
+      "aliases": [
+        "Emperor of Rome Gordian I",
+        "Gordianus I",
+        "Marcus Antonius Gordianus Sempronianus Romanus"
+      ],
+      "popularity": 41321,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Gordian I"
+    },
+    {
+      "name": "Balbinus",
+      "aliases": [
+        "Decimus Caelius Calvinus Balbinus"
+      ],
+      "popularity": 45987,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Balbinus"
+    },
+    {
+      "name": "Constans",
+      "aliases": [
+        "Constans I",
+        "Flavius Julius Constans",
+        "Flavius Julius Constans Augustus"
+      ],
+      "popularity": 54320,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Constans"
+    },
+    {
+      "name": "Valentinian II",
+      "aliases": [
+        "Flavius Valentinianus Iunior",
+        "Valentinianus II"
+      ],
+      "popularity": 59618,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Valentinian II"
+    },
+    {
+      "name": "Maximinus Daza",
+      "aliases": [
+        "Daza",
+        "Gaius Valerius Daza",
+        "Gaius Valerius Galerius Maximinus",
+        "Galerius Valerius Maximinus Daza",
+        "Maximinus Daia",
+        "Maximinus II"
+      ],
+      "popularity": 62191,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Maximinus Daza"
+    },
+    {
+      "name": "Florianus",
+      "aliases": [
+        "Emperor of Rome Florianus",
+        "Florian",
+        "Marcus Annius Florianus",
+        "Marcus Annius Florianus Augustus"
+      ],
+      "popularity": 75675,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Florianus"
+    },
+    {
+      "name": "Gratian (Gratian)",
+      "aliases": [
+        "Augustus Gratianus",
+        "Emperor of Rome Flavius Gratian",
+        "Emperor of Rome Flavius Gratianus",
+        "Emperor of Rome Gratian",
+        "Emperor of Rome Gratianus",
+        "Flavius Gratianus Augustus"
+      ],
+      "popularity": 79139,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Gratian"
+    },
+    {
+      "name": "Licinius",
+      "aliases": [
+        "Valerius Licinianus Licinius"
+      ],
+      "popularity": 79372,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Licinius"
+    },
+    {
+      "name": "Carinus",
+      "aliases": [
+        "Marcus Aurelius Carinus",
+        "Marcus Aurelius Numerius Carinus",
+        "Marcus Numerius Aurelius Carinus",
+        "Marcus Numerius Carinus"
+      ],
+      "popularity": 83654,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Carinus"
+    },
+    {
+      "name": "Constantine II",
+      "aliases": [
+        "Caesar Constantinus Alamannicus",
+        "Constantine II (emperor)",
+        "Constantine II of Rome",
+        "Constantine Junior",
+        "Constantine the Younger",
+        "Constantinus",
+        "Constantinus II",
+        "Constantinus Iunior",
+        "Constantinus the Younger",
+        "Emperor Constantine",
+        "Emperor Constantine II",
+        "Emperor Constantinus",
+        "Emperor Constantinus II",
+        "Fl. Claudius Constantinus",
+        "Flavius Claudius Constantinus",
+        "Flavius Claudius Constantinus Augustus"
+      ],
+      "popularity": 84803,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Constantine II (emperor)"
+    },
+    {
+      "name": "Maxentius",
+      "aliases": [
+        "Emperor of Rome Maxentius",
+        "Marcus Aurelius Valerius Maxentius"
+      ],
+      "popularity": 90160,
+      "rarity": 0.534,
+      "tier": 3,
+      "wiki": "Maxentius"
+    },
+    {
+      "name": "Galerius",
+      "aliases": [
+        "Armentarius",
+        "Emperor of Rome Galerios",
+        "Emperor of Rome Galerius",
+        "Gaius Galerius Valerius Maximianus",
+        "Galerius Maximinus",
+        "Herculianus",
+        "Iovius",
+        "Maximinus",
+        "Valerius Maximus Galerius"
+      ],
+      "popularity": 90436,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Galerius"
+    },
+    {
+      "name": "Aemilianus",
+      "aliases": [
+        "Aemilian",
+        "Marcus Aemilius Aemilianus"
+      ],
+      "popularity": 90762,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Aemilianus"
+    },
+    {
+      "name": "Quintillus",
+      "aliases": [
+        "M. Aurelius Claudius Quintillus",
+        "Marcus Aurelius Claudius Quintillus"
+      ],
+      "popularity": 90908,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Quintillus"
+    },
+    {
+      "name": "Pupienus",
+      "aliases": [
+        "Marcus Clodius Pupienus Maximus",
+        "Pupienus Maximus"
+      ],
+      "popularity": 94139,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Pupienus"
+    },
+    {
+      "name": "Trebonianus Gallus",
+      "aliases": [
+        "Gaius Vibius Trebonianus Gallus"
+      ],
+      "popularity": 95407,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Trebonianus Gallus"
+    },
+    {
+      "name": "Jovian",
+      "aliases": [
+        "Flavius Claudius Iovianus",
+        "Flavius Claudius Jovianus",
+        "Flavius Jovianus",
+        "Iovianus",
+        "Jovian (emperor)"
+      ],
+      "popularity": 96407,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Jovian (emperor)"
+    },
+    {
+      "name": "Maximian",
+      "aliases": [
+        "Marcus Aurelius Valerius Maximianus"
+      ],
+      "popularity": 104707,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "Maximian"
+    },
+    {
+      "name": "Probus",
+      "aliases": [
+        "Equitius",
+        "Marcus Aurelius Probus",
+        "Marcus Aurelius Valerius Probus",
+        "Probus (emperor)"
+      ],
+      "popularity": 106664,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Probus (emperor)"
+    },
+    {
+      "name": "Carus",
+      "aliases": [
+        "Marcus Aurelius Carus",
+        "Marcus Aurelius Numerius Carus",
+        "Marcus Numerius Aurelius Carus",
+        "Marcus Numerius Carus"
+      ],
+      "popularity": 106966,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Carus"
+    },
+    {
+      "name": "Maurice",
+      "aliases": [
+        "Flavius Mauricius Tiberius Augustus",
+        "Maurice (emperor)",
+        "Mauricius",
+        "Mauricius Tiberius",
+        "Maurikios",
+        "Mauritius"
+      ],
+      "popularity": 109880,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Maurice (emperor)"
+    },
+    {
+      "name": "Valens",
+      "aliases": [
+        "Flavius Valens",
+        "Valens II"
+      ],
+      "popularity": 112554,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Valens"
+    },
+    {
+      "name": "Tacitus",
+      "aliases": [
+        "Claudius Tacitus",
+        "Gothicus Maximus",
+        "Marcus Claudius Tacitus",
+        "Marcus Claudius Tacitus Gothicus Maximus",
+        "Tacitus (emperor)"
+      ],
+      "popularity": 115072,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Tacitus (emperor)"
+    },
+    {
+      "name": "Magnus Maximus",
+      "aliases": [
+        "Macsen Wledig"
+      ],
+      "popularity": 116681,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Magnus Maximus"
+    },
+    {
+      "name": "Theodosius II",
+      "aliases": [
+        "Emperor of Rome Theodosius II",
+        "Flavius Theodosius Junior Augustus",
+        "Theodosius Flavius Secundus",
+        "Theodosius the Calligrapher",
+        "Theodosius the Younger"
+      ],
+      "popularity": 119299,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Theodosius II"
+    },
+    {
+      "name": "Claudius Gothicus",
+      "aliases": [
+        "Claudius II",
+        "Claudius II Gothicus",
+        "Emperor of Rome Claudius II",
+        "Gothicus",
+        "Marcus Aurelius Claudius",
+        "Marcus Aurelius Claudius Gothicus",
+        "Marcus Aurelius Valerius Claudius Augustus"
+      ],
+      "popularity": 121122,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Claudius Gothicus"
+    },
+    {
+      "name": "Valentinian I",
+      "aliases": [
+        "Imperator Caesar Flavius Valentinianus Augustus",
+        "Valentinianus I"
+      ],
+      "popularity": 129144,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Valentinian I"
+    },
+    {
+      "name": "Gordian III",
+      "aliases": [
+        "Gordianus III",
+        "Marcus Antonius Gordianus",
+        "Marcus Antonius Gordianus Pius"
+      ],
+      "popularity": 129770,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Gordian III"
+    },
+    {
+      "name": "Constantius Chlorus",
+      "aliases": [
+        "Chlorus",
+        "Flavius Constantius",
+        "Flavius Valerius Constantius",
+        "Gaius Flavius Valerius Constantius",
+        "Marcus Flavius Valerius Constantius"
+      ],
+      "popularity": 129914,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Constantius Chlorus"
+    },
+    {
+      "name": "Gallienus",
+      "aliases": [
+        "Publius Licinius Egnatius Gallienus"
+      ],
+      "popularity": 145100,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Gallienus"
+    },
+    {
+      "name": "Decius",
+      "aliases": [
+        "Gaius Messius Quintus Decius",
+        "Gaius Messius Quintus Traianus Decius",
+        "Gaius Messius Quintus Trajanus Decius",
+        "Trajan Decius"
+      ],
+      "popularity": 145803,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Decius"
+    },
+    {
+      "name": "Constantius II",
+      "aliases": [
+        "Constantius II of Rome",
+        "Constantius the Apostate",
+        "Fl. Iulius Constantius",
+        "Fl. Julius Constantius",
+        "Flavius Iulius Constantius",
+        "Flavius Julius Constantius",
+        "Flavius Julius Constantius Augustus"
+      ],
+      "popularity": 153323,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Constantius II"
+    },
+    {
+      "name": "Philip the Arab",
+      "aliases": [
+        "Marcus Julius Philippus Arabs",
+        "Philip",
+        "Philip I",
+        "Philippus Arabs"
+      ],
+      "popularity": 187866,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Philip the Arab"
+    },
+    {
+      "name": "Lucius Verus",
+      "aliases": [
+        "Lucius Aurelius Verus",
+        "Lucius Ceionius Commodus Verus Armeniacus"
+      ],
+      "popularity": 188816,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Lucius Verus"
+    },
+    {
+      "name": "Didius Julianus",
+      "aliases": [
+        "Julian I",
+        "Julianus I",
+        "Marcus Didius Iulianus",
+        "Marcus Didius Severus Iulianus",
+        "Marcus Didius Severus Julianus"
+      ],
+      "popularity": 203940,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Didius Julianus"
+    },
+    {
+      "name": "Severus Alexander",
+      "aliases": [
+        "Alexander Mammaeae",
+        "Alexander of Mammaea",
+        "Alexander Severus",
+        "Alexianus",
+        "Alexianus Bassianus",
+        "Marcus Aurelius Severus Alexander",
+        "Marcus Aurelius Severus Alexianus"
+      ],
+      "popularity": 204619,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Severus Alexander"
+    },
+    {
+      "name": "Maximinus Thrax",
+      "aliases": [
+        "C. Iulius Verus Maximinus",
+        "C. Julius Verus Maximinus",
+        "Gaius Iulius Verus Maximinus",
+        "Gaius Julius Verus Maximinus",
+        "Maximinus I"
+      ],
+      "popularity": 219177,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Maximinus Thrax"
+    },
+    {
+      "name": "Valerian",
+      "aliases": [
+        "Colobius",
+        "Lucinius Valerianus",
+        "Publius Licinius Valerianus",
+        "Valerian (emperor)"
+      ],
+      "popularity": 241551,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Valerian (emperor)"
+    },
+    {
+      "name": "Otho",
+      "aliases": [
+        "Marcus Otho Caesar Augustus",
+        "Nero Otho"
+      ],
+      "popularity": 241817,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Otho"
+    },
+    {
+      "name": "Vitellius",
+      "aliases": [
+        "Aulus Vitellius Germanicus"
+      ],
+      "popularity": 241877,
+      "rarity": 0.252,
+      "tier": 2,
+      "wiki": "Vitellius"
+    },
+    {
+      "name": "Geta",
+      "aliases": [
+        "Geta (emperor)",
+        "Geta Lucius Septimius",
+        "Geta Publius Septimius",
+        "L. Sept. Geta",
+        "L. Septimius Geta",
+        "Lucius Septimius Bassianus",
+        "P. Sept. Geta",
+        "P. Septimius Geta",
+        "Publius Septimius Bassianus Geta",
+        "Publius Septimius Geta",
+        "Publius Septimius Geta Bassianus"
+      ],
+      "popularity": 250803,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Geta (emperor)"
+    },
+    {
+      "name": "Galba",
+      "aliases": [
+        "Lucius Livius Ocella Sulpicius Galba",
+        "Servius Galba Caesar Augustus",
+        "Servius Sulpicius Galba",
+        "Servius Sulpicius Galba Caesar",
+        "Servius Sulpicius Galba Caesar Augustus"
+      ],
+      "popularity": 252365,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Galba"
+    },
+    {
+      "name": "Pertinax",
+      "aliases": [
+        "Helvius Pertinax",
+        "Publius Helvius Pertinax"
+      ],
+      "popularity": 254996,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Pertinax"
+    },
+    {
+      "name": "Nerva",
+      "aliases": [],
+      "popularity": 279194,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Nerva"
+    },
+    {
+      "name": "Macrinus",
+      "aliases": [
+        "Marcus Opellius Severus Macrinus Augustus"
+      ],
+      "popularity": 296186,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Macrinus"
+    },
+    {
+      "name": "Antoninus Pius",
+      "aliases": [],
+      "popularity": 304939,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Antoninus Pius"
+    },
+    {
+      "name": "Julian",
+      "aliases": [
+        "Flavius Claudius Iulianus",
+        "Flavius Claudius Julianus",
+        "Julian (emperor)",
+        "Julian III",
+        "Julian the Apostate",
+        "Julianus II",
+        "Julianus III"
+      ],
+      "popularity": 306678,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Julian (emperor)"
+    },
+    {
+      "name": "Theodosius I",
+      "aliases": [
+        "Dominus Noster Flavius Theodosius Augustus",
+        "Emperor of Rome Theodosius I",
+        "Flavius Theodosius Augustus",
+        "Theodosios I",
+        "Theodosios I the Great"
+      ],
+      "popularity": 322545,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Theodosius I"
+    },
+    {
+      "name": "Aurelian",
+      "aliases": [
+        "Aurelianus",
+        "Lucius Domiticus Aurelianus",
+        "Lucius Domitius Aurelianus"
+      ],
+      "popularity": 351229,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "Aurelian"
+    },
+    {
+      "name": "Domitian",
+      "aliases": [
+        "Caesar Domitianus Augustus",
+        "Domitianus"
+      ],
+      "popularity": 401755,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Domitian"
+    },
+    {
+      "name": "Titus",
+      "aliases": [
+        "Flavius Vespasianus Titus",
+        "Titus Caesar Vespasianus",
+        "Titus Flavius Sabinus Vespasianus",
+        "Titus Flavius Vespasianus",
+        "Titus Vespasianus Augustus"
+      ],
+      "popularity": 428129,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Titus"
+    },
+    {
+      "name": "Vespasian",
+      "aliases": [
+        "Caesar Vespasianus Augustus",
+        "Emperor Vespasian",
+        "Mulio"
+      ],
+      "popularity": 433415,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Vespasian"
+    },
+    {
+      "name": "Septimius Severus",
+      "aliases": [
+        "L. Septimius Severus",
+        "Lucius Septimius Severus Pertinax"
+      ],
+      "popularity": 495826,
+      "rarity": 0.126,
+      "tier": 1,
+      "wiki": "Septimius Severus"
+    },
+    {
+      "name": "Elagabalus",
+      "aliases": [
+        "Heliogabalus",
+        "Marcus Aurelius Antoninus Augustus",
+        "Marcus Aurelius Antoninus Heliogabalus",
+        "Sextus Varius Avitus Bassianus",
+        "Tiberinus",
+        "Varius Avitus",
+        "Varius Avitus Bassianus"
+      ],
+      "popularity": 504508,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Elagabalus"
+    },
+    {
+      "name": "Diocletian",
+      "aliases": [
+        "Caius Aurelius Valerius Diocletianus",
+        "Diocletianus",
+        "Gaius Aurelius Valerius Diocletianus",
+        "Marcus Aurelius Gaius Valerius Diocletianus"
+      ],
+      "popularity": 520192,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Diocletian"
+    },
+    {
+      "name": "Trajan",
+      "aliases": [
+        "Caesar Nerva Traianus Germanicus",
+        "Marcus Ulpius Trajan",
+        "Optimus Princeps",
+        "Traianus",
+        "Ulpius Crinitus Traianus"
+      ],
+      "popularity": 545806,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Trajan"
+    },
+    {
+      "name": "Caracalla",
+      "aliases": [
+        "Antoninus Caracallus",
+        "Caracallus",
+        "Divus Antoninus Magnus",
+        "Marcus Aurelius Antoninus",
+        "Marcus Aurelius Antoninus Caracallus",
+        "Tarautas"
+      ],
+      "popularity": 570499,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Caracalla"
+    },
+    {
+      "name": "Claudius",
+      "aliases": [
+        "Claudius Caesar",
+        "Claudius I",
+        "Tiberius Claudius Caesar Augustus Germanicus",
+        "Tiberius Claudius Drusus Germanicus",
+        "Tiberius Claudius Drusus Nero Germanicus",
+        "Tiberius Claudius Nero",
+        "Tiberius Claudius Nero Caesar Drusus",
+        "Tiberius Claudius Nero Drusus Germanicus",
+        "Tiberius Claudius Nero Germanicus"
+      ],
+      "popularity": 624068,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Claudius"
+    },
+    {
+      "name": "Hadrian",
+      "aliases": [
+        "Adrian",
+        "Caesar Traianus Hadrianus Augustus",
+        "Emperor Hadrian",
+        "Emperor of Rome Adrian",
+        "Emperor of Rome Hadrian",
+        "Emperor Publius Aelius Hadrianus",
+        "Hadrianus",
+        "Publius Aelius Hadrianus Buccellanus",
+        "Publius Aelius Traianus Hadrianus Augustus"
+      ],
+      "popularity": 668889,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Hadrian"
+    },
+    {
+      "name": "Commodus",
+      "aliases": [
+        "Lucius Aelius Aurelius Gaius Augustus",
+        "Lucius Aurelius Commodus Antoninus",
+        "Marcus Aurelius Gaius Antoninus"
+      ],
+      "popularity": 849320,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Commodus"
+    },
+    {
+      "name": "Tiberius",
+      "aliases": [
+        "Caesar Tiberius",
+        "Emperor of Rome Tiberius",
+        "Emperor Tiberius",
+        "Imperator Caesar Divi filius Augustus",
+        "Marcus Gallius Claudianus",
+        "Tibeius Gallius Claudianus",
+        "Tiberius Caesar",
+        "Tiberius Caesar Augustus",
+        "Tiberius Julius Caesar",
+        "Tiberius Julius Caesar Augustus"
+      ],
+      "popularity": 882897,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Tiberius"
+    },
+    {
+      "name": "Constantine the Great",
+      "aliases": [
+        "Constantine I",
+        "Constantinus I",
+        "Flavius Constantinus",
+        "Flavius Valerius Aurelius Constantinus",
+        "Flavius Valerius Aurelius Constantinus Augustus",
+        "Flavius Valerius Constantinus",
+        "Gaius Flavius Valerius Aurelius Constantinus",
+        "Gaius Flavius Valerius Constantinus",
+        "Lucius Flavius Valerius Constantinus",
+        "Marcus Flavius Valerius Constantinus",
+        "Saint Constantine",
+        "Trachala"
+      ],
+      "popularity": 1048134,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Constantine the Great"
+    },
+    {
+      "name": "Caligula",
+      "aliases": [
+        "Emperor of Rome Caligula",
+        "Emperor of Rome Gaius",
+        "Gaius",
+        "Gaius Caesar Germanicus",
+        "Gaius Iulius Caesar Germanicus Caligula",
+        "Gaius Julius Caesar Augustus Germanicus",
+        "Gaius Julius Caesar Germanicus",
+        "Gaius Julius Caesar Germanicus Minor"
+      ],
+      "popularity": 1254768,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Caligula"
+    },
+    {
+      "name": "Nero",
+      "aliases": [
+        "Emperor of Rome Nero",
+        "Nero Claudius Caesar Augustus Germanicus",
+        "Nero Claudius Caesar Drusus Germanicus",
+        "Nero Claudius Drusus Germanicus",
+        "Nero Claudius Drusus Germanicus Caesar"
+      ],
+      "popularity": 1372295,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Nero"
+    },
+    {
+      "name": "Marcus Aurelius",
+      "aliases": [
+        "Caesar Marcus Aurelius Antoninus Augustus",
+        "Marcus Annius Verus",
+        "Marcus Aurelius Verus",
+        "Marcus Catilius Severus Annius Verus",
+        "Verissimus"
+      ],
+      "popularity": 1717589,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Marcus Aurelius"
+    },
+    {
+      "name": "Augustus",
+      "aliases": [
+        "Augustus Caesar",
+        "Caesar Octavianus",
+        "Caius Julius Cæsar Octavianus",
+        "Caius Octavius",
+        "Caius Octavius Thurinus",
+        "Gaius Julius Caesar",
+        "Gaius Julius Caesar Augustus",
+        "Gaius Julius Caesar Octavianus",
+        "Gaius Julius Caesar Octavianus Augustus",
+        "Gaius Octavian",
+        "Gaius Octavius Caepias",
+        "Gaius Octavius Thurinus",
+        "Octavian",
+        "Octavianus",
+        "Octavius Caesar"
+      ],
+      "popularity": 1848826,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Augustus"
+    }
+  ]
+}

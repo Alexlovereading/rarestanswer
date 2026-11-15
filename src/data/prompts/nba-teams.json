@@ -1,0 +1,345 @@
+{
+  "id": "nba-teams",
+  "slug": "nba-teams",
+  "category": "sports",
+  "question": "Name a current NBA team",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Indiana Pacers",
+      "aliases": [
+        "Pacers"
+      ],
+      "popularity": 331585,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Indiana Pacers"
+    },
+    {
+      "name": "Phoenix Suns",
+      "aliases": [
+        "PHX Suns"
+      ],
+      "popularity": 341731,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Phoenix Suns"
+    },
+    {
+      "name": "Orlando Magic",
+      "aliases": [],
+      "popularity": 356050,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Orlando Magic"
+    },
+    {
+      "name": "Utah Jazz",
+      "aliases": [
+        "New Orleans Jazz"
+      ],
+      "popularity": 373456,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Utah Jazz"
+    },
+    {
+      "name": "Memphis Grizzlies",
+      "aliases": [
+        "The Grizz"
+      ],
+      "popularity": 378981,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Memphis Grizzlies"
+    },
+    {
+      "name": "New Orleans Pelicans",
+      "aliases": [],
+      "popularity": 386246,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "New Orleans Pelicans"
+    },
+    {
+      "name": "Atlanta Hawks",
+      "aliases": [
+        "Milwaukee Hawks",
+        "St. Louis Hawks",
+        "Tri-Cities Blackhawks"
+      ],
+      "popularity": 413263,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Atlanta Hawks"
+    },
+    {
+      "name": "Denver Nuggets",
+      "aliases": [
+        "Nugs"
+      ],
+      "popularity": 413724,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Denver Nuggets"
+    },
+    {
+      "name": "Houston Rockets",
+      "aliases": [
+        "San Diego Rockets"
+      ],
+      "popularity": 416792,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Houston Rockets"
+    },
+    {
+      "name": "Milwaukee Bucks",
+      "aliases": [],
+      "popularity": 429634,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Milwaukee Bucks"
+    },
+    {
+      "name": "Minnesota Timberwolves",
+      "aliases": [
+        "T'Wolves",
+        "The Wolves",
+        "Twolves",
+        "Wolves"
+      ],
+      "popularity": 467724,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Minnesota Timberwolves"
+    },
+    {
+      "name": "Sacramento Kings",
+      "aliases": [
+        "Cincinnati Royals",
+        "Kansas City Kings",
+        "Kansas City-Omaha Kings",
+        "Rochester Royals"
+      ],
+      "popularity": 483680,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Sacramento Kings"
+    },
+    {
+      "name": "Toronto Raptors",
+      "aliases": [
+        "Raptors"
+      ],
+      "popularity": 506474,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Toronto Raptors"
+    },
+    {
+      "name": "Portland Trail Blazers",
+      "aliases": [
+        "Portland Blazers"
+      ],
+      "popularity": 509300,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Portland Trail Blazers"
+    },
+    {
+      "name": "Washington Wizards",
+      "aliases": [
+        "Baltimore Bullets",
+        "Capital Bullets",
+        "Chicago Packers",
+        "Chicago Zephyrs",
+        "The Wiz",
+        "Washington Bullets"
+      ],
+      "popularity": 538867,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Washington Wizards"
+    },
+    {
+      "name": "Cleveland Cavaliers",
+      "aliases": [
+        "Cavaliers",
+        "Cavs",
+        "Cleveland Cavs"
+      ],
+      "popularity": 549390,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Cleveland Cavaliers"
+    },
+    {
+      "name": "Miami Heat",
+      "aliases": [
+        "Heat"
+      ],
+      "popularity": 564460,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Miami Heat"
+    },
+    {
+      "name": "Dallas Mavericks",
+      "aliases": [
+        "Mavs"
+      ],
+      "popularity": 575186,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Dallas Mavericks"
+    },
+    {
+      "name": "Detroit Pistons",
+      "aliases": [
+        "Fort Wayne Pistons",
+        "Fort Wayne Zollner Pistons"
+      ],
+      "popularity": 585439,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Detroit Pistons"
+    },
+    {
+      "name": "Los Angeles Clippers",
+      "aliases": [
+        "Buffalo Braves",
+        "L.A. Clippers",
+        "LA Chokers",
+        "San Diego Clippers"
+      ],
+      "popularity": 600511,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Los Angeles Clippers"
+    },
+    {
+      "name": "Brooklyn Nets",
+      "aliases": [
+        "New Jersey Nets",
+        "New York Nets"
+      ],
+      "popularity": 618046,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Brooklyn Nets"
+    },
+    {
+      "name": "Charlotte Hornets",
+      "aliases": [
+        "Charlotte Bobcats"
+      ],
+      "popularity": 680475,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Charlotte Hornets"
+    },
+    {
+      "name": "Chicago Bulls",
+      "aliases": [
+        "Bulls",
+        "The Bulls"
+      ],
+      "popularity": 698500,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Chicago Bulls"
+    },
+    {
+      "name": "Philadelphia 76ers",
+      "aliases": [
+        "76ers",
+        "Philly 76ers",
+        "Sixers",
+        "Syracuse Nationals",
+        "The 76ers",
+        "The Sixers"
+      ],
+      "popularity": 756608,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Philadelphia 76ers"
+    },
+    {
+      "name": "Oklahoma City Thunder",
+      "aliases": [
+        "OKC Thunder"
+      ],
+      "popularity": 806462,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Oklahoma City Thunder"
+    },
+    {
+      "name": "Boston Celtics",
+      "aliases": [
+        "C's",
+        "Celtics",
+        "Celts",
+        "Green and White"
+      ],
+      "popularity": 864879,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Boston Celtics"
+    },
+    {
+      "name": "Golden State Warriors",
+      "aliases": [
+        "Dub Nation",
+        "GSW",
+        "Philadelphia Warriors",
+        "San Francisco Warriors",
+        "Warriors"
+      ],
+      "popularity": 964163,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Golden State Warriors"
+    },
+    {
+      "name": "San Antonio Spurs",
+      "aliases": [
+        "Dallas Chaparrals",
+        "Texas Chaparrals"
+      ],
+      "popularity": 1284193,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "San Antonio Spurs"
+    },
+    {
+      "name": "Los Angeles Lakers",
+      "aliases": [
+        "L.A. Lakers",
+        "LA Lakers",
+        "Lakers",
+        "Minneapolis Lakers",
+        "Purple and Gold",
+        "The Lake Show"
+      ],
+      "popularity": 1355482,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Los Angeles Lakers"
+    },
+    {
+      "name": "New York Knicks",
+      "aliases": [
+        "Knicks",
+        "Minutemen",
+        "New York Knickerbockers",
+        "NYK"
+      ],
+      "popularity": 2612850,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "New York Knicks"
+    }
+  ]
+}

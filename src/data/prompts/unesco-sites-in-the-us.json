@@ -1,0 +1,303 @@
+{
+  "id": "unesco-sites-in-the-us",
+  "slug": "unesco-sites-in-the-us",
+  "category": "geography",
+  "question": "Name a UNESCO World Heritage Site in the United States",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Monticello and the University of Virginia",
+      "aliases": [],
+      "popularity": 382,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Monticello and the University of Virginia"
+    },
+    {
+      "name": "20th-Century Architecture of Frank Lloyd Wright",
+      "aliases": [],
+      "popularity": 1066,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "20th-Century Architecture of Frank Lloyd Wright"
+    },
+    {
+      "name": "La Fortaleza and San Juan National Historic Site in Puerto Rico",
+      "aliases": [],
+      "popularity": 3767,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "La Fortaleza and San Juan National Historic Site in Puerto Rico"
+    },
+    {
+      "name": "Kluane / Wrangell–St. Elias / Glacier Bay / Tatshenshini-Alsek",
+      "aliases": [],
+      "popularity": 5141,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Kluane / Wrangell–St. Elias / Glacier Bay / Tatshenshini-Alsek"
+    },
+    {
+      "name": "Taos Pueblo, New Mexico",
+      "aliases": [],
+      "popularity": 5363,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Taos Pueblo, New Mexico"
+    },
+    {
+      "name": "San Antonio Missions",
+      "aliases": [
+        "San Antonio Missions (World Heritage Site)"
+      ],
+      "popularity": 8799,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "San Antonio Missions (World Heritage Site)"
+    },
+    {
+      "name": "Okefenokee National Wildlife Refuge",
+      "aliases": [
+        "Richard S Bolt Visitor Center"
+      ],
+      "popularity": 10126,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Okefenokee National Wildlife Refuge"
+    },
+    {
+      "name": "Hopewell Ceremonial Earthworks",
+      "aliases": [],
+      "popularity": 11868,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Hopewell Ceremonial Earthworks"
+    },
+    {
+      "name": "Waterton-Glacier International Peace Park",
+      "aliases": [],
+      "popularity": 12820,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Waterton-Glacier International Peace Park"
+    },
+    {
+      "name": "Hopewell Culture National Historical Park",
+      "aliases": [
+        "HOCU"
+      ],
+      "popularity": 14471,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Hopewell Culture National Historical Park"
+    },
+    {
+      "name": "Camino Real de Tierra Adentro",
+      "aliases": [],
+      "popularity": 24049,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Camino Real de Tierra Adentro"
+    },
+    {
+      "name": "Hawaiʻi Volcanoes National Park",
+      "aliases": [
+        "HAVO",
+        "Hawaii Volcanoes National Park",
+        "HVNP",
+        "Volcanoes National Park"
+      ],
+      "popularity": 40087,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Hawaiʻi Volcanoes National Park"
+    },
+    {
+      "name": "Papahānaumokuākea Marine National Monument",
+      "aliases": [
+        "PMNM"
+      ],
+      "popularity": 72538,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Papahānaumokuākea Marine National Monument"
+    },
+    {
+      "name": "Poverty Point",
+      "aliases": [
+        "POPO",
+        "Poverty Point National Monument"
+      ],
+      "popularity": 76878,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Poverty Point"
+    },
+    {
+      "name": "Taos Pueblo",
+      "aliases": [],
+      "popularity": 83236,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Taos Pueblo"
+    },
+    {
+      "name": "Redwood National and State Parks",
+      "aliases": [
+        "RNSP"
+      ],
+      "popularity": 90514,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Redwood National and State Parks"
+    },
+    {
+      "name": "Carlsbad Caverns National Park",
+      "aliases": [
+        "CAVE"
+      ],
+      "popularity": 91616,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Carlsbad Caverns National Park"
+    },
+    {
+      "name": "Everglades National Park",
+      "aliases": [
+        "EVER"
+      ],
+      "popularity": 92272,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Everglades National Park"
+    },
+    {
+      "name": "Liberty Island",
+      "aliases": [
+        "Bedloe Island",
+        "Bedloes Island",
+        "Bedlow Island",
+        "Bedlow's Island",
+        "Great Oyster Island",
+        "Min-ne-ais",
+        "Minissais",
+        "Minnisais"
+      ],
+      "popularity": 95048,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Liberty Island"
+    },
+    {
+      "name": "Mesa Verde National Park",
+      "aliases": [
+        "MEVE"
+      ],
+      "popularity": 119580,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Mesa Verde National Park"
+    },
+    {
+      "name": "Grand Canyon National Park",
+      "aliases": [
+        "GRCA",
+        "Marble Canyon National Monument"
+      ],
+      "popularity": 120405,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Grand Canyon National Park"
+    },
+    {
+      "name": "Olympic National Park",
+      "aliases": [
+        "OLYM",
+        "Olympic NP",
+        "ONP"
+      ],
+      "popularity": 124656,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Olympic National Park"
+    },
+    {
+      "name": "Great Smoky Mountains National Park",
+      "aliases": [
+        "Great Smoky Mt National Park",
+        "Great Smoky Mts National Park",
+        "GRSM",
+        "GSMNP"
+      ],
+      "popularity": 134432,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Great Smoky Mountains National Park"
+    },
+    {
+      "name": "Independence Hall",
+      "aliases": [],
+      "popularity": 144387,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Independence Hall"
+    },
+    {
+      "name": "Mammoth Cave National Park",
+      "aliases": [
+        "MACA",
+        "Mammoth Cave Biosphere Reserve"
+      ],
+      "popularity": 194216,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Mammoth Cave National Park"
+    },
+    {
+      "name": "Yosemite National Park",
+      "aliases": [
+        "YOSE",
+        "Yosemite NP"
+      ],
+      "popularity": 370036,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Yosemite National Park"
+    },
+    {
+      "name": "Cahokia",
+      "aliases": [
+        "Cahokia Mounds State Historic Site",
+        "Cahokia Mounds State Park"
+      ],
+      "popularity": 397152,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Cahokia"
+    },
+    {
+      "name": "Yellowstone National Park",
+      "aliases": [
+        "YELL",
+        "Yellow Stone",
+        "Yellow Stone National Park",
+        "Yellowstone N. Park",
+        "Yellowstone National Parc",
+        "Yellowstone NP",
+        "Yellowstone park"
+      ],
+      "popularity": 674160,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Yellowstone National Park"
+    },
+    {
+      "name": "Statue of Liberty",
+      "aliases": [],
+      "popularity": 1315465,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Statue of Liberty"
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "id": "rattlesnake-species",
+  "slug": "rattlesnake-species",
+  "category": "animals",
+  "question": "Name a species of rattlesnake",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Crotalus tancitarensis",
+      "aliases": [],
+      "popularity": 530,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Crotalus tancitarensis"
+    },
+    {
+      "name": "Crotalus thalassoporus",
+      "aliases": [],
+      "popularity": 595,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Crotalus thalassoporus"
+    },
+    {
+      "name": "Crotalus tlaloci",
+      "aliases": [],
+      "popularity": 622,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Crotalus tlaloci"
+    },
+    {
+      "name": "Crotalus polisi",
+      "aliases": [],
+      "popularity": 761,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Crotalus polisi"
+    },
+    {
+      "name": "Crotalus transversus",
+      "aliases": [],
+      "popularity": 781,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Crotalus transversus"
+    },
+    {
+      "name": "Crotalus atrox tortugensis",
+      "aliases": [
+        "Crotalus tortugensis",
+        "Tortuga Island rattlesnake"
+      ],
+      "popularity": 920,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Crotalus atrox tortugensis"
+    },
+    {
+      "name": "Crotalus lorenzoensis",
+      "aliases": [],
+      "popularity": 975,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Crotalus lorenzoensis"
+    },
+    {
+      "name": "Crotalus pusillus",
+      "aliases": [],
+      "popularity": 994,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Crotalus pusillus"
+    },
+    {
+      "name": "Crotalus lannomi",
+      "aliases": [],
+      "popularity": 1009,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Crotalus lannomi"
+    },
+    {
+      "name": "Crotalus estebanensis",
+      "aliases": [
+        "San Esteban Island Rattlesnake"
+      ],
+      "popularity": 1142,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Crotalus estebanensis"
+    },
+    {
+      "name": "Crotalus campbelli",
+      "aliases": [],
+      "popularity": 1143,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Crotalus campbelli"
+    },
+    {
+      "name": "Crotalus totonacus",
+      "aliases": [],
+      "popularity": 1183,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Crotalus totonacus"
+    },
+    {
+      "name": "Crotalus morulus",
+      "aliases": [],
+      "popularity": 1227,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Crotalus morulus"
+    },
+    {
+      "name": "Crotalus ehecatl",
+      "aliases": [],
+      "popularity": 1243,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Crotalus ehecatl"
+    },
+    {
+      "name": "Crotalus ericsmithi",
+      "aliases": [],
+      "popularity": 1251,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Crotalus ericsmithi"
+    },
+    {
+      "name": "Crotalus stejnegeri",
+      "aliases": [],
+      "popularity": 1278,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Crotalus stejnegeri"
+    },
+    {
+      "name": "Crotalus intermedius",
+      "aliases": [],
+      "popularity": 1558,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Crotalus intermedius"
+    },
+    {
+      "name": "Crotalus ravus",
+      "aliases": [
+        "Sistrurus ravus"
+      ],
+      "popularity": 1644,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Crotalus ravus"
+    },
+    {
+      "name": "Crotalus armstrongi",
+      "aliases": [],
+      "popularity": 1677,
+      "rarity": 0.64,
+      "tier": 4,
+      "wiki": "Crotalus armstrongi"
+    },
+    {
+      "name": "Crotalus triseriatus",
+      "aliases": [],
+      "popularity": 1881,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Crotalus triseriatus"
+    },
+    {
+      "name": "Crotalus vegrandis",
+      "aliases": [
+        "Crotalus durissus vegrandis",
+        "Uracoan rattlesnake"
+      ],
+      "popularity": 1932,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Crotalus vegrandis"
+    },
+    {
+      "name": "Crotalus tzabcan",
+      "aliases": [],
+      "popularity": 1940,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Crotalus tzabcan"
+    },
+    {
+      "name": "Crotalus polystictus",
+      "aliases": [],
+      "popularity": 1976,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Crotalus polystictus"
+    },
+    {
+      "name": "Crotalus aquilus",
+      "aliases": [
+        "Querétaro dusky rattlesnake"
+      ],
+      "popularity": 2175,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Crotalus aquilus"
+    },
+    {
+      "name": "Crotalus culminatus",
+      "aliases": [],
+      "popularity": 2342,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Crotalus culminatus"
+    },
+    {
+      "name": "Crotalus angelensis",
+      "aliases": [],
+      "popularity": 2401,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Crotalus angelensis"
+    },
+    {
+      "name": "Crotalus pricei",
+      "aliases": [],
+      "popularity": 2415,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Crotalus pricei"
+    },
+    {
+      "name": "Crotalus enyo",
+      "aliases": [],
+      "popularity": 2606,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Crotalus enyo"
+    },
+    {
+      "name": "Crotalus stephensi",
+      "aliases": [
+        "Crotalus mitchellii stephensi",
+        "Panamint Rattlesnake"
+      ],
+      "popularity": 3055,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Crotalus stephensi"
+    },
+    {
+      "name": "Crotalus simus",
+      "aliases": [],
+      "popularity": 3579,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Crotalus simus"
+    },
+    {
+      "name": "Crotalus willardi",
+      "aliases": [],
+      "popularity": 3795,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Crotalus willardi"
+    },
+    {
+      "name": "Crotalus mitchellii",
+      "aliases": [
+        "Crotalus mitchelli"
+      ],
+      "popularity": 5366,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Crotalus mitchellii"
+    },
+    {
+      "name": "Crotalus basiliscus",
+      "aliases": [],
+      "popularity": 5781,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Crotalus basiliscus"
+    },
+    {
+      "name": "Crotalus unicolor",
+      "aliases": [
+        "Aruba Island rattlesnake"
+      ],
+      "popularity": 6119,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Crotalus unicolor"
+    },
+    {
+      "name": "Crotalus catalinensis",
+      "aliases": [
+        "Santa Catalina Island rattlesnake"
+      ],
+      "popularity": 6219,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Crotalus catalinensis"
+    },
+    {
+      "name": "Crotalus lepidus",
+      "aliases": [
+        "rock rattlesnake"
+      ],
+      "popularity": 6331,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Crotalus lepidus"
+    },
+    {
+      "name": "Crotalus cerberus",
+      "aliases": [
+        "Arizona black rattlesnake"
+      ],
+      "popularity": 8175,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Crotalus cerberus"
+    },
+    {
+      "name": "Black-tailed rattlesnake",
+      "aliases": [
+        "Crotalus molossus"
+      ],
+      "popularity": 9742,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Black-tailed rattlesnake"
+    },
+    {
+      "name": "Crotalus helleri",
+      "aliases": [
+        "Southern Pacific rattlesnake"
+      ],
+      "popularity": 10959,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Crotalus helleri"
+    },
+    {
+      "name": "Crotalus ruber",
+      "aliases": [
+        "Red diamond rattlesnake"
+      ],
+      "popularity": 11779,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Crotalus ruber"
+    },
+    {
+      "name": "Tiger rattlesnake",
+      "aliases": [
+        "Crotalus tigris"
+      ],
+      "popularity": 14294,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Tiger rattlesnake"
+    },
+    {
+      "name": "Sistrurus miliarius",
+      "aliases": [
+        "pygmy rattlesnake"
+      ],
+      "popularity": 22328,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Sistrurus miliarius"
+    },
+    {
+      "name": "Crotalus durissus",
+      "aliases": [
+        "South American rattlesnake",
+        "tropical rattlesnake"
+      ],
+      "popularity": 22754,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Crotalus durissus"
+    },
+    {
+      "name": "Crotalus oreganus",
+      "aliases": [
+        "northern Pacific rattlesnake"
+      ],
+      "popularity": 31603,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "Crotalus oreganus"
+    },
+    {
+      "name": "Crotalus scutulatus",
+      "aliases": [],
+      "popularity": 35634,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Crotalus scutulatus"
+    },
+    {
+      "name": "Crotalus viridis",
+      "aliases": [
+        "Great Plains rattlesnake",
+        "prairie rattlesnake"
+      ],
+      "popularity": 35973,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Crotalus viridis"
+    },
+    {
+      "name": "Crotalus cerastes",
+      "aliases": [
+        "horned rattlesnake",
+        "sidewinder",
+        "sidewinder rattlesnake"
+      ],
+      "popularity": 53157,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Crotalus cerastes"
+    },
+    {
+      "name": "Eastern massasauga",
+      "aliases": [
+        "Eastern Massasauga Rattlesnake",
+        "Massasauga",
+        "Sistrurus catenatus"
+      ],
+      "popularity": 67013,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Eastern massasauga"
+    },
+    {
+      "name": "Western diamondback rattlesnake",
+      "aliases": [
+        "Crotalus atrox",
+        "Western diamond-backed rattlesnake"
+      ],
+      "popularity": 92545,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Western diamondback rattlesnake"
+    },
+    {
+      "name": "Eastern diamondback rattlesnake",
+      "aliases": [
+        "Crotalus adamanteus",
+        "Eastern diamond-backed rattlesnake"
+      ],
+      "popularity": 118361,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Eastern diamondback rattlesnake"
+    },
+    {
+      "name": "Timber rattlesnake",
+      "aliases": [
+        "canebrake rattlesnake",
+        "Crotalus horridus"
+      ],
+      "popularity": 148322,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Timber rattlesnake"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "id": "cobra-species",
+  "slug": "cobra-species",
+  "category": "animals",
+  "question": "Name a species of cobra",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Naja obscura",
+      "aliases": [],
+      "popularity": 484,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Naja obscura"
+    },
+    {
+      "name": "Many-banded snake",
+      "aliases": [
+        "Naja multifasciata",
+        "Paranaja multifasciata"
+      ],
+      "popularity": 1124,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Many-banded snake"
+    },
+    {
+      "name": "Black forest cobra",
+      "aliases": [
+        "Naja guineensis"
+      ],
+      "popularity": 1197,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Black forest cobra"
+    },
+    {
+      "name": "Senegalese cobra",
+      "aliases": [
+        "Naja senegalensis"
+      ],
+      "popularity": 1333,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Senegalese cobra"
+    },
+    {
+      "name": "Brown banded cobra",
+      "aliases": [
+        "Naja fuxi"
+      ],
+      "popularity": 1643,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Brown banded cobra"
+    },
+    {
+      "name": "Dwarf water cobra",
+      "aliases": [
+        "Naja nana"
+      ],
+      "popularity": 1848,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Dwarf water cobra"
+    },
+    {
+      "name": "West African banded cobra",
+      "aliases": [
+        "Naja savannula"
+      ],
+      "popularity": 1866,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "West African banded cobra"
+    },
+    {
+      "name": "Brown forest cobra",
+      "aliases": [
+        "Naja subfulva"
+      ],
+      "popularity": 2227,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Brown forest cobra"
+    },
+    {
+      "name": "Nubian spitting cobra",
+      "aliases": [
+        "Naja nubiae"
+      ],
+      "popularity": 2873,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Nubian spitting cobra"
+    },
+    {
+      "name": "Mandalay spitting cobra",
+      "aliases": [
+        "Burmese spitting cobra",
+        "Naja mandalayensis"
+      ],
+      "popularity": 3022,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Mandalay spitting cobra"
+    },
+    {
+      "name": "Mali cobra",
+      "aliases": [
+        "Katian spitting cobra",
+        "Naja katiensis",
+        "West African brown spitting cobra",
+        "West African spitting cobra"
+      ],
+      "popularity": 3287,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Mali cobra"
+    },
+    {
+      "name": "Naja peroescobari",
+      "aliases": [],
+      "popularity": 3495,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Naja peroescobari"
+    },
+    {
+      "name": "Naja christyi",
+      "aliases": [],
+      "popularity": 4316,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Naja christyi"
+    },
+    {
+      "name": "Anchieta's cobra",
+      "aliases": [
+        "Naja anchietae"
+      ],
+      "popularity": 4673,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Anchieta's cobra"
+    },
+    {
+      "name": "Naja annulata",
+      "aliases": [],
+      "popularity": 6677,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Naja annulata"
+    },
+    {
+      "name": "Arabian cobra",
+      "aliases": [
+        "Naja arabica"
+      ],
+      "popularity": 7280,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Arabian cobra"
+    },
+    {
+      "name": "Naja ashei",
+      "aliases": [],
+      "popularity": 8233,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Naja ashei"
+    },
+    {
+      "name": "Andaman cobra",
+      "aliases": [
+        "Naja sagittifera"
+      ],
+      "popularity": 8489,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Andaman cobra"
+    },
+    {
+      "name": "Siamese spitting cobra",
+      "aliases": [
+        "Indochinese spitting cobra",
+        "Naja siamensis"
+      ],
+      "popularity": 9134,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Siamese spitting cobra"
+    },
+    {
+      "name": "Naja nigricincta",
+      "aliases": [],
+      "popularity": 9605,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Naja nigricincta"
+    },
+    {
+      "name": "Javan spitting cobra",
+      "aliases": [
+        "Indonesian cobra",
+        "Naja sputatrix"
+      ],
+      "popularity": 9756,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Javan spitting cobra"
+    },
+    {
+      "name": "Snouted cobra",
+      "aliases": [
+        "Banded snouted cobra",
+        "Naja annulifera"
+      ],
+      "popularity": 10068,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Snouted cobra"
+    },
+    {
+      "name": "Equatorial spitting cobra",
+      "aliases": [
+        "Golden spitting cobra",
+        "Malayan spitting cobra",
+        "Naja sumatrana",
+        "Palawan spitting cobra",
+        "Sumatran spitting cobra"
+      ],
+      "popularity": 13278,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Equatorial spitting cobra"
+    },
+    {
+      "name": "Red spitting cobra",
+      "aliases": [
+        "Naja pallida"
+      ],
+      "popularity": 14388,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Red spitting cobra"
+    },
+    {
+      "name": "Samar cobra",
+      "aliases": [
+        "Naja samarensis"
+      ],
+      "popularity": 15066,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Samar cobra"
+    },
+    {
+      "name": "Mozambique spitting cobra",
+      "aliases": [
+        "Naja mossambica"
+      ],
+      "popularity": 18257,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Mozambique spitting cobra"
+    },
+    {
+      "name": "Black-necked spitting cobra",
+      "aliases": [
+        "Naja nigricollis"
+      ],
+      "popularity": 23376,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Black-necked spitting cobra"
+    },
+    {
+      "name": "Chinese cobra",
+      "aliases": [
+        "Naja atra"
+      ],
+      "popularity": 24918,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Chinese cobra"
+    },
+    {
+      "name": "Cape cobra",
+      "aliases": [
+        "Naja nivea"
+      ],
+      "popularity": 29527,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Cape cobra"
+    },
+    {
+      "name": "Forest cobra",
+      "aliases": [
+        "black cobra",
+        "Naja melanoleuca"
+      ],
+      "popularity": 34450,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Forest cobra"
+    },
+    {
+      "name": "Philippine cobra",
+      "aliases": [
+        "Naja philippinensis"
+      ],
+      "popularity": 35058,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Philippine cobra"
+    },
+    {
+      "name": "Caspian cobra",
+      "aliases": [
+        "Naja oxiana",
+        "Oxus cobra"
+      ],
+      "popularity": 36296,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Caspian cobra"
+    },
+    {
+      "name": "Monocled cobra",
+      "aliases": [
+        "Naja kaouthia"
+      ],
+      "popularity": 53602,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Monocled cobra"
+    },
+    {
+      "name": "Egyptian cobra",
+      "aliases": [
+        "Naja haje",
+        "Ouraeus"
+      ],
+      "popularity": 70034,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Egyptian cobra"
+    },
+    {
+      "name": "Indian cobra",
+      "aliases": [
+        "Naja naja",
+        "spectacled cobra"
+      ],
+      "popularity": 180772,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Indian cobra"
+    }
+  ]
+}

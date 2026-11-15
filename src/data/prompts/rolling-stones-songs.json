@@ -1,0 +1,301 @@
+{
+  "id": "rolling-stones-songs",
+  "slug": "rolling-stones-songs",
+  "category": "music",
+  "question": "Name a Rolling Stones song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Out of Control",
+      "aliases": [
+        "Out of Control (Rolling Stones song)"
+      ],
+      "popularity": 428,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Out of Control (Rolling Stones song)"
+    },
+    {
+      "name": "Biggest Mistake",
+      "aliases": [],
+      "popularity": 2505,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Biggest Mistake"
+    },
+    {
+      "name": "No Spare Parts",
+      "aliases": [],
+      "popularity": 2680,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "No Spare Parts"
+    },
+    {
+      "name": "I Go Wild",
+      "aliases": [],
+      "popularity": 2936,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "I Go Wild"
+    },
+    {
+      "name": "Terrifying",
+      "aliases": [
+        "Terrifying (song)"
+      ],
+      "popularity": 3291,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Terrifying (song)"
+    },
+    {
+      "name": "Rain Fall Down",
+      "aliases": [],
+      "popularity": 3524,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Rain Fall Down"
+    },
+    {
+      "name": "Rough Justice",
+      "aliases": [
+        "Rough Justice (Rolling Stones song)"
+      ],
+      "popularity": 3660,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Rough Justice (Rolling Stones song)"
+    },
+    {
+      "name": "Blue Turns to Grey",
+      "aliases": [],
+      "popularity": 4056,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Blue Turns to Grey"
+    },
+    {
+      "name": "Out of Tears",
+      "aliases": [],
+      "popularity": 4238,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Out of Tears"
+    },
+    {
+      "name": "Streets of Love",
+      "aliases": [],
+      "popularity": 4730,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Streets of Love"
+    },
+    {
+      "name": "Plundered My Soul",
+      "aliases": [],
+      "popularity": 5567,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Plundered My Soul"
+    },
+    {
+      "name": "Highwire",
+      "aliases": [
+        "Highwire (song)"
+      ],
+      "popularity": 5993,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Highwire (song)"
+    },
+    {
+      "name": "Don't Stop",
+      "aliases": [
+        "Don't Stop (Rolling Stones song)"
+      ],
+      "popularity": 7306,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Don't Stop (Rolling Stones song)"
+    },
+    {
+      "name": "She Was Hot",
+      "aliases": [],
+      "popularity": 8214,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "She Was Hot"
+    },
+    {
+      "name": "Living in a Ghost Town",
+      "aliases": [],
+      "popularity": 8634,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Living in a Ghost Town"
+    },
+    {
+      "name": "Saint of Me",
+      "aliases": [],
+      "popularity": 9099,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Saint of Me"
+    },
+    {
+      "name": "One Hit",
+      "aliases": [
+        "One Hit (To the Body)"
+      ],
+      "popularity": 9432,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "One Hit (To the Body)"
+    },
+    {
+      "name": "Mixed Emotions",
+      "aliases": [
+        "Mixed Emotions (Rolling Stones song)"
+      ],
+      "popularity": 11409,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Mixed Emotions (Rolling Stones song)"
+    },
+    {
+      "name": "Doom and Gloom",
+      "aliases": [],
+      "popularity": 11530,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Doom and Gloom"
+    },
+    {
+      "name": "Rocks Off",
+      "aliases": [],
+      "popularity": 12078,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Rocks Off"
+    },
+    {
+      "name": "She's So Cold",
+      "aliases": [],
+      "popularity": 12296,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "She's So Cold"
+    },
+    {
+      "name": "Let It Bleed",
+      "aliases": [
+        "Let It Bleed (song)"
+      ],
+      "popularity": 13681,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Let It Bleed (song)"
+    },
+    {
+      "name": "Emotional Rescue",
+      "aliases": [
+        "Emotional Rescue (song)"
+      ],
+      "popularity": 15188,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Emotional Rescue (song)"
+    },
+    {
+      "name": "Shattered",
+      "aliases": [
+        "Shattered (song)"
+      ],
+      "popularity": 15360,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Shattered (song)"
+    },
+    {
+      "name": "Have You Seen Your Mother, Baby, Standing in the Shadow?",
+      "aliases": [],
+      "popularity": 18867,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Have You Seen Your Mother, Baby, Standing in the Shadow?"
+    },
+    {
+      "name": "Sweet Sounds of Heaven",
+      "aliases": [],
+      "popularity": 18905,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Sweet Sounds of Heaven"
+    },
+    {
+      "name": "Fool to Cry",
+      "aliases": [],
+      "popularity": 20009,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Fool to Cry"
+    },
+    {
+      "name": "Angry",
+      "aliases": [
+        "Angry (Rolling Stones song)"
+      ],
+      "popularity": 23079,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Angry (Rolling Stones song)"
+    },
+    {
+      "name": "Anybody Seen My Baby?",
+      "aliases": [],
+      "popularity": 28202,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Anybody Seen My Baby?"
+    },
+    {
+      "name": "Out of Time",
+      "aliases": [
+        "Out of Time (Rolling Stones song)"
+      ],
+      "popularity": 34928,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Out of Time (Rolling Stones song)"
+    },
+    {
+      "name": "Miss You",
+      "aliases": [
+        "Miss You (Rolling Stones song)"
+      ],
+      "popularity": 46672,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Miss You (Rolling Stones song)"
+    },
+    {
+      "name": "Brown Sugar",
+      "aliases": [
+        "Brown Sugar (Rolling Stones song)"
+      ],
+      "popularity": 95900,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Brown Sugar (Rolling Stones song)"
+    },
+    {
+      "name": "Paint It Black",
+      "aliases": [],
+      "popularity": 219487,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Paint It Black"
+    }
+  ]
+}

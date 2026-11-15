@@ -1,0 +1,163 @@
+{
+  "id": "local-group-galaxies",
+  "slug": "local-group-galaxies",
+  "category": "science",
+  "question": "Name a galaxy in the Local Group",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Mini Magellanic Cloud",
+      "aliases": [
+        "MMC"
+      ],
+      "popularity": 128,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Mini Magellanic Cloud"
+    },
+    {
+      "name": "Tucana IV",
+      "aliases": [
+        "NAME Tuc IV"
+      ],
+      "popularity": 404,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Tucana IV"
+    },
+    {
+      "name": "Grus II",
+      "aliases": [
+        "NAME Gru II"
+      ],
+      "popularity": 415,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Grus II"
+    },
+    {
+      "name": "Aquarius II",
+      "aliases": [
+        "NAME Aquarius 2"
+      ],
+      "popularity": 747,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Aquarius II"
+    },
+    {
+      "name": "Virgo I",
+      "aliases": [
+        "NAME Virgo I Dwarf Galaxy"
+      ],
+      "popularity": 949,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Virgo I"
+    },
+    {
+      "name": "Pisces II",
+      "aliases": [],
+      "popularity": 1093,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Pisces II"
+    },
+    {
+      "name": "Boötes II",
+      "aliases": [],
+      "popularity": 1170,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Boötes II"
+    },
+    {
+      "name": "Leo IV",
+      "aliases": [
+        "Leo IV (dwarf galaxy)"
+      ],
+      "popularity": 1212,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Leo IV (dwarf galaxy)"
+    },
+    {
+      "name": "Cetus Dwarf",
+      "aliases": [],
+      "popularity": 1301,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Cetus Dwarf"
+    },
+    {
+      "name": "Boötes III",
+      "aliases": [],
+      "popularity": 1527,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Boötes III"
+    },
+    {
+      "name": "Ursa Major I Dwarf",
+      "aliases": [
+        "UMa I dSph"
+      ],
+      "popularity": 2328,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Ursa Major I Dwarf"
+    },
+    {
+      "name": "Aquarius Dwarf",
+      "aliases": [],
+      "popularity": 2569,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Aquarius Dwarf"
+    },
+    {
+      "name": "Boötes I",
+      "aliases": [],
+      "popularity": 2603,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Boötes I"
+    },
+    {
+      "name": "Leo A",
+      "aliases": [],
+      "popularity": 2952,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Leo A"
+    },
+    {
+      "name": "Ursa Major II Dwarf",
+      "aliases": [
+        "UMa II dSph"
+      ],
+      "popularity": 3192,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Ursa Major II Dwarf"
+    },
+    {
+      "name": "Leo II",
+      "aliases": [
+        "Leo II (dwarf galaxy)"
+      ],
+      "popularity": 3780,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Leo II (dwarf galaxy)"
+    },
+    {
+      "name": "Draco Dwarf",
+      "aliases": [],
+      "popularity": 6898,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Draco Dwarf"
+    }
+  ]
+}

@@ -1,0 +1,1287 @@
+{
+  "id": "keyboard-instruments",
+  "slug": "keyboard-instruments",
+  "category": "music",
+  "question": "Name a keyboard instrument",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Digital organ",
+      "aliases": [],
+      "popularity": 78,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Digital organ"
+    },
+    {
+      "name": "Gazamba",
+      "aliases": [],
+      "popularity": 170,
+      "rarity": 0.993,
+      "tier": 6,
+      "wiki": "Gazamba"
+    },
+    {
+      "name": "Taralila",
+      "aliases": [],
+      "popularity": 307,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Taralila"
+    },
+    {
+      "name": "Casiotone MT-40",
+      "aliases": [
+        "Casio MT-40"
+      ],
+      "popularity": 453,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Casiotone MT-40"
+    },
+    {
+      "name": "Euphonicon",
+      "aliases": [],
+      "popularity": 586,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Euphonicon"
+    },
+    {
+      "name": "Robb Wave Organ",
+      "aliases": [],
+      "popularity": 586,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Robb Wave Organ"
+    },
+    {
+      "name": "Livenka",
+      "aliases": [
+        "Livenka (music)",
+        "Livenskaya garmoshka"
+      ],
+      "popularity": 629,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Livenka (music)"
+    },
+    {
+      "name": "Doppio Borgato",
+      "aliases": [],
+      "popularity": 689,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Doppio Borgato"
+    },
+    {
+      "name": "Saratovskaya garmonika",
+      "aliases": [
+        "Saratov garmon",
+        "saratovskaja garmon"
+      ],
+      "popularity": 811,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Saratovskaya garmonika"
+    },
+    {
+      "name": "PH Grand Piano",
+      "aliases": [],
+      "popularity": 889,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "PH Grand Piano"
+    },
+    {
+      "name": "Harpsichord-viola",
+      "aliases": [],
+      "popularity": 937,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Harpsichord-viola"
+    },
+    {
+      "name": "Swallow's nest organ",
+      "aliases": [],
+      "popularity": 1037,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Swallow's nest organ"
+    },
+    {
+      "name": "Vox Maris",
+      "aliases": [
+        "Vox Maris (musical instrument)"
+      ],
+      "popularity": 1064,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Vox Maris (musical instrument)"
+    },
+    {
+      "name": "Spinettone",
+      "aliases": [],
+      "popularity": 1106,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Spinettone"
+    },
+    {
+      "name": "Hornophone",
+      "aliases": [
+        "hornaphone"
+      ],
+      "popularity": 1185,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Hornophone"
+    },
+    {
+      "name": "Pedal clavichord",
+      "aliases": [],
+      "popularity": 1240,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Pedal clavichord"
+    },
+    {
+      "name": "Orthotonophonium",
+      "aliases": [],
+      "popularity": 1262,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Orthotonophonium"
+    },
+    {
+      "name": "Harmonichord",
+      "aliases": [
+        "bowed clavier",
+        "sostenente piano",
+        "sostinente piano"
+      ],
+      "popularity": 1289,
+      "rarity": 0.874,
+      "tier": 5,
+      "wiki": "Harmonichord"
+    },
+    {
+      "name": "Therevox",
+      "aliases": [],
+      "popularity": 1315,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Therevox"
+    },
+    {
+      "name": "Mélophone",
+      "aliases": [
+        "melophon"
+      ],
+      "popularity": 1400,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Mélophone"
+    },
+    {
+      "name": "Khromka",
+      "aliases": [],
+      "popularity": 1488,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Khromka"
+    },
+    {
+      "name": "Georgian accordion",
+      "aliases": [],
+      "popularity": 1507,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Georgian accordion"
+    },
+    {
+      "name": "Ploong",
+      "aliases": [],
+      "popularity": 1618,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Ploong"
+    },
+    {
+      "name": "Aeolodion",
+      "aliases": [
+        "aeolodicon"
+      ],
+      "popularity": 1642,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Aeolodion"
+    },
+    {
+      "name": "Church organ",
+      "aliases": [],
+      "popularity": 1653,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Church organ"
+    },
+    {
+      "name": "Yamaha PortaSound",
+      "aliases": [],
+      "popularity": 1684,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Yamaha PortaSound"
+    },
+    {
+      "name": "Residence organ",
+      "aliases": [
+        "Chamber organs"
+      ],
+      "popularity": 1702,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Residence organ"
+    },
+    {
+      "name": "Oval spinet",
+      "aliases": [],
+      "popularity": 1724,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Oval spinet"
+    },
+    {
+      "name": "Seraphine",
+      "aliases": [
+        "Seraphine (instrument)"
+      ],
+      "popularity": 1845,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Seraphine (instrument)"
+    },
+    {
+      "name": "Trikiti",
+      "aliases": [
+        "trikitixa"
+      ],
+      "popularity": 1857,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Trikiti"
+    },
+    {
+      "name": "Duet concertina",
+      "aliases": [],
+      "popularity": 1932,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Duet concertina"
+    },
+    {
+      "name": "Physharmonica",
+      "aliases": [],
+      "popularity": 2023,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "Physharmonica"
+    },
+    {
+      "name": "Chordotonal organ",
+      "aliases": [],
+      "popularity": 2114,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Chordotonal organ"
+    },
+    {
+      "name": "Protos",
+      "aliases": [
+        "Protos (monastic office)"
+      ],
+      "popularity": 2198,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Protos (monastic office)"
+    },
+    {
+      "name": "Symphonic organ",
+      "aliases": [],
+      "popularity": 2264,
+      "rarity": 0.748,
+      "tier": 4,
+      "wiki": "Symphonic organ"
+    },
+    {
+      "name": "Roland VK-7",
+      "aliases": [],
+      "popularity": 2341,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Roland VK-7"
+    },
+    {
+      "name": "Heligonka",
+      "aliases": [],
+      "popularity": 2467,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Heligonka"
+    },
+    {
+      "name": "Dance organ",
+      "aliases": [],
+      "popularity": 2481,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Dance organ"
+    },
+    {
+      "name": "Bass harmonica",
+      "aliases": [],
+      "popularity": 2616,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Bass harmonica"
+    },
+    {
+      "name": "Rocksichord",
+      "aliases": [
+        "Rock-Si-Chord",
+        "Roxichord"
+      ],
+      "popularity": 2632,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Rocksichord"
+    },
+    {
+      "name": "Schrammel accordion",
+      "aliases": [],
+      "popularity": 2674,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Schrammel accordion"
+    },
+    {
+      "name": "Claviorgan",
+      "aliases": [
+        "claviorganum"
+      ],
+      "popularity": 2777,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Claviorgan"
+    },
+    {
+      "name": "Schwyzerörgeli",
+      "aliases": [],
+      "popularity": 2919,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Schwyzerörgeli"
+    },
+    {
+      "name": "Glasschord",
+      "aliases": [],
+      "popularity": 3089,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Glasschord"
+    },
+    {
+      "name": "Minipiano",
+      "aliases": [],
+      "popularity": 3129,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Minipiano"
+    },
+    {
+      "name": "Harmoneon",
+      "aliases": [],
+      "popularity": 3330,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Harmoneon"
+    },
+    {
+      "name": "Flutina",
+      "aliases": [],
+      "popularity": 3526,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Flutina"
+    },
+    {
+      "name": "Street piano",
+      "aliases": [],
+      "popularity": 3761,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Street piano"
+    },
+    {
+      "name": "Couesnophone",
+      "aliases": [
+        "goofus",
+        "queenophone"
+      ],
+      "popularity": 3878,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Couesnophone"
+    },
+    {
+      "name": "Silent piano",
+      "aliases": [],
+      "popularity": 3940,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "Silent piano"
+    },
+    {
+      "name": "Registration",
+      "aliases": [
+        "Registration (organ)"
+      ],
+      "popularity": 4018,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Registration (organ)"
+    },
+    {
+      "name": "Digital accordion",
+      "aliases": [],
+      "popularity": 4206,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Digital accordion"
+    },
+    {
+      "name": "Anglo concertina",
+      "aliases": [
+        "Anglo-German concertina"
+      ],
+      "popularity": 4271,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Anglo concertina"
+    },
+    {
+      "name": "Tangent piano",
+      "aliases": [
+        "tangent"
+      ],
+      "popularity": 4347,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Tangent piano"
+    },
+    {
+      "name": "Organetto",
+      "aliases": [],
+      "popularity": 4447,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Organetto"
+    },
+    {
+      "name": "Giraffe piano",
+      "aliases": [
+        "pompadour piano"
+      ],
+      "popularity": 4605,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Giraffe piano"
+    },
+    {
+      "name": "Electronic piano",
+      "aliases": [],
+      "popularity": 4705,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Electronic piano"
+    },
+    {
+      "name": "Clavicytherium",
+      "aliases": [
+        "cembalo verticale",
+        "clavecin vertical"
+      ],
+      "popularity": 4735,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Clavicytherium"
+    },
+    {
+      "name": "Chemnitzer concertina",
+      "aliases": [],
+      "popularity": 4736,
+      "rarity": 0.57,
+      "tier": 3,
+      "wiki": "Chemnitzer concertina"
+    },
+    {
+      "name": "Luthéal",
+      "aliases": [],
+      "popularity": 4891,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Luthéal"
+    },
+    {
+      "name": "Dulcitone",
+      "aliases": [
+        "tuning fork piano"
+      ],
+      "popularity": 5197,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Dulcitone"
+    },
+    {
+      "name": "Piganino",
+      "aliases": [
+        "hog harmonium",
+        "pig organ",
+        "pig piano",
+        "Porko Forte",
+        "Swineway"
+      ],
+      "popularity": 5670,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Piganino"
+    },
+    {
+      "name": "Yamaha SHS-10",
+      "aliases": [],
+      "popularity": 5801,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Yamaha SHS-10"
+    },
+    {
+      "name": "Lusheng",
+      "aliases": [
+        "ghengx",
+        "qeej"
+      ],
+      "popularity": 5880,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Lusheng"
+    },
+    {
+      "name": "Nord Electro",
+      "aliases": [],
+      "popularity": 6234,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Nord Electro"
+    },
+    {
+      "name": "Steinway Vertegrand",
+      "aliases": [
+        "Vertegrand"
+      ],
+      "popularity": 6349,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Steinway Vertegrand"
+    },
+    {
+      "name": "Orchestron",
+      "aliases": [],
+      "popularity": 6413,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Orchestron"
+    },
+    {
+      "name": "English concertina",
+      "aliases": [],
+      "popularity": 6429,
+      "rarity": 0.504,
+      "tier": 3,
+      "wiki": "English concertina"
+    },
+    {
+      "name": "Cajun accordion",
+      "aliases": [],
+      "popularity": 6641,
+      "rarity": 0.496,
+      "tier": 3,
+      "wiki": "Cajun accordion"
+    },
+    {
+      "name": "Orphica",
+      "aliases": [],
+      "popularity": 6967,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Orphica"
+    },
+    {
+      "name": "Steirische Harmonika",
+      "aliases": [
+        "Styrian harmonica"
+      ],
+      "popularity": 7096,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Steirische Harmonika"
+    },
+    {
+      "name": "Clavier à lumières",
+      "aliases": [],
+      "popularity": 7138,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Clavier à lumières"
+    },
+    {
+      "name": "Chord organ",
+      "aliases": [],
+      "popularity": 7146,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Chord organ"
+    },
+    {
+      "name": "Pedal piano",
+      "aliases": [
+        "pédalier",
+        "piano-pédalier"
+      ],
+      "popularity": 7161,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "Pedal piano"
+    },
+    {
+      "name": "Photoplayer",
+      "aliases": [
+        "photo-player"
+      ],
+      "popularity": 7179,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Photoplayer"
+    },
+    {
+      "name": "Electronic organ",
+      "aliases": [],
+      "popularity": 7877,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Electronic organ"
+    },
+    {
+      "name": "Keyboard glockenspiel",
+      "aliases": [
+        "keyed glockenspiel",
+        "keyed metallophone",
+        "organ glockenspiel"
+      ],
+      "popularity": 8224,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Keyboard glockenspiel"
+    },
+    {
+      "name": "Tremolo harmonica",
+      "aliases": [],
+      "popularity": 8384,
+      "rarity": 0.43,
+      "tier": 3,
+      "wiki": "Tremolo harmonica"
+    },
+    {
+      "name": "Regal",
+      "aliases": [
+        "Regal (instrument)",
+        "regal organ"
+      ],
+      "popularity": 8584,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Regal (instrument)"
+    },
+    {
+      "name": "Square piano",
+      "aliases": [],
+      "popularity": 8662,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Square piano"
+    },
+    {
+      "name": "Viola organista",
+      "aliases": [],
+      "popularity": 8921,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Viola organista"
+    },
+    {
+      "name": "Mechanical organ",
+      "aliases": [
+        "player organ"
+      ],
+      "popularity": 9017,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Mechanical organ"
+    },
+    {
+      "name": "Positive organ",
+      "aliases": [
+        "chair",
+        "positiv"
+      ],
+      "popularity": 9102,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Positive organ"
+    },
+    {
+      "name": "Lautenwerck",
+      "aliases": [
+        "Claviergamba",
+        "keyboard lute",
+        "Lautenklavier",
+        "Lautenwerk",
+        "lute-clavier",
+        "lute-harpsichord",
+        "Lyrum Delium"
+      ],
+      "popularity": 9712,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Lautenwerck"
+    },
+    {
+      "name": "Richter-tuned harmonica",
+      "aliases": [],
+      "popularity": 10219,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Richter-tuned harmonica"
+    },
+    {
+      "name": "Casiotone",
+      "aliases": [],
+      "popularity": 10636,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Casiotone"
+    },
+    {
+      "name": "Toy piano",
+      "aliases": [
+        "kinderklavier"
+      ],
+      "popularity": 11365,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "Toy piano"
+    },
+    {
+      "name": "Theatre organ",
+      "aliases": [
+        "cinema organ",
+        "theater organ"
+      ],
+      "popularity": 11589,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Theatre organ"
+    },
+    {
+      "name": "Steinway D-274",
+      "aliases": [
+        "model D",
+        "model D-274",
+        "Steinway model D",
+        "Steinway model D-274"
+      ],
+      "popularity": 12509,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Steinway D-274"
+    },
+    {
+      "name": "Keyboard bass",
+      "aliases": [
+        "key bass",
+        "keybass",
+        "synth-bass"
+      ],
+      "popularity": 13545,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Keyboard bass"
+    },
+    {
+      "name": "Portative organ",
+      "aliases": [
+        "portatif",
+        "portatif organ",
+        "portativ",
+        "portativ organ",
+        "portative"
+      ],
+      "popularity": 13550,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Portative organ"
+    },
+    {
+      "name": "Imperial Bösendorfer",
+      "aliases": [],
+      "popularity": 14122,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Imperial Bösendorfer"
+    },
+    {
+      "name": "Ondioline",
+      "aliases": [],
+      "popularity": 14266,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Ondioline"
+    },
+    {
+      "name": "Button accordion",
+      "aliases": [
+        "box",
+        "button box",
+        "button-key accordion"
+      ],
+      "popularity": 14342,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Button accordion"
+    },
+    {
+      "name": "Squeezebox",
+      "aliases": [
+        "Harmonia",
+        "squeeze-box"
+      ],
+      "popularity": 14714,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Squeezebox"
+    },
+    {
+      "name": "Casio VL-1",
+      "aliases": [],
+      "popularity": 14818,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Casio VL-1"
+    },
+    {
+      "name": "Garmon",
+      "aliases": [
+        "garmoshka",
+        "hromka",
+        "vâtka"
+      ],
+      "popularity": 15149,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Garmon"
+    },
+    {
+      "name": "Grand piano",
+      "aliases": [],
+      "popularity": 17000,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Grand piano"
+    },
+    {
+      "name": "Piano accordion",
+      "aliases": [],
+      "popularity": 17648,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Piano accordion"
+    },
+    {
+      "name": "Cat organ",
+      "aliases": [
+        "cat piano",
+        "Katzenklavier"
+      ],
+      "popularity": 17883,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Cat organ"
+    },
+    {
+      "name": "Electone",
+      "aliases": [],
+      "popularity": 18977,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Electone"
+    },
+    {
+      "name": "Chromatic harmonica",
+      "aliases": [],
+      "popularity": 19849,
+      "rarity": 0.252,
+      "tier": 2,
+      "wiki": "Chromatic harmonica"
+    },
+    {
+      "name": "Chromatic button accordion",
+      "aliases": [
+        "chromatic accordion"
+      ],
+      "popularity": 20066,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Chromatic button accordion"
+    },
+    {
+      "name": "Chamberlin",
+      "aliases": [],
+      "popularity": 23456,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Chamberlin"
+    },
+    {
+      "name": "Prepared piano",
+      "aliases": [],
+      "popularity": 23593,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Prepared piano"
+    },
+    {
+      "name": "Electric organ",
+      "aliases": [],
+      "popularity": 25790,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Electric organ"
+    },
+    {
+      "name": "Electronic keyboard",
+      "aliases": [],
+      "popularity": 26893,
+      "rarity": 0.215,
+      "tier": 2,
+      "wiki": "Electronic keyboard"
+    },
+    {
+      "name": "Vox Continental",
+      "aliases": [
+        "Vox Jaguar",
+        "Vox Organ"
+      ],
+      "popularity": 27475,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Vox Continental"
+    },
+    {
+      "name": "Lowrey organ",
+      "aliases": [],
+      "popularity": 27527,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Lowrey organ"
+    },
+    {
+      "name": "Diatonic button accordion",
+      "aliases": [
+        "melodeon"
+      ],
+      "popularity": 28536,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Diatonic button accordion"
+    },
+    {
+      "name": "Street organ",
+      "aliases": [],
+      "popularity": 31207,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Street organ"
+    },
+    {
+      "name": "Spinet",
+      "aliases": [],
+      "popularity": 31609,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Spinet"
+    },
+    {
+      "name": "Shruti box",
+      "aliases": [
+        "sruti box",
+        "surpeti"
+      ],
+      "popularity": 32681,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Shruti box"
+    },
+    {
+      "name": "Water organ",
+      "aliases": [
+        "hydraula",
+        "hydraulic organ",
+        "hydraulos",
+        "hydraulus"
+      ],
+      "popularity": 33909,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Water organ"
+    },
+    {
+      "name": "Virginals",
+      "aliases": [
+        "spinet virginal",
+        "virginal"
+      ],
+      "popularity": 40346,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Virginals"
+    },
+    {
+      "name": "Bayan",
+      "aliases": [
+        "bajan",
+        "Bayan (accordion)"
+      ],
+      "popularity": 40669,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Bayan (accordion)"
+    },
+    {
+      "name": "Indian harmonium",
+      "aliases": [],
+      "popularity": 42265,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Indian harmonium"
+    },
+    {
+      "name": "Player piano",
+      "aliases": [
+        "mechanical piano",
+        "piano-player",
+        "pianola",
+        "reproducing piano"
+      ],
+      "popularity": 48528,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Player piano"
+    },
+    {
+      "name": "Bandoneon",
+      "aliases": [
+        "bandonion"
+      ],
+      "popularity": 53512,
+      "rarity": 0.126,
+      "tier": 1,
+      "wiki": "Bandoneon"
+    },
+    {
+      "name": "Keytar",
+      "aliases": [
+        "Korg RK-100 Keytar"
+      ],
+      "popularity": 63188,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Keytar"
+    },
+    {
+      "name": "Clavichord",
+      "aliases": [],
+      "popularity": 73129,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Clavichord"
+    },
+    {
+      "name": "Fortepiano",
+      "aliases": [],
+      "popularity": 73278,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Fortepiano"
+    },
+    {
+      "name": "Ondes Martenot",
+      "aliases": [
+        "ondes musicales"
+      ],
+      "popularity": 77121,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Ondes Martenot"
+    },
+    {
+      "name": "Pump organ",
+      "aliases": [
+        "harmonium",
+        "reed organ"
+      ],
+      "popularity": 82229,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Pump organ"
+    },
+    {
+      "name": "Clavinet",
+      "aliases": [
+        "Hohner Clavinet"
+      ],
+      "popularity": 82760,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Clavinet"
+    },
+    {
+      "name": "Carillon",
+      "aliases": [],
+      "popularity": 90485,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Carillon"
+    },
+    {
+      "name": "Organ",
+      "aliases": [
+        "Organ (music)"
+      ],
+      "popularity": 96371,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Organ (music)"
+    },
+    {
+      "name": "Concertina",
+      "aliases": [],
+      "popularity": 98972,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Concertina"
+    },
+    {
+      "name": "Melodica",
+      "aliases": [
+        "blow-organ",
+        "key-flute",
+        "melodión",
+        "pianica"
+      ],
+      "popularity": 100793,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Melodica"
+    },
+    {
+      "name": "Celesta",
+      "aliases": [
+        "celeste"
+      ],
+      "popularity": 124076,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Celesta"
+    },
+    {
+      "name": "Harmonica",
+      "aliases": [
+        "blues harp",
+        "French harp",
+        "gob iron",
+        "harp",
+        "harpoon",
+        "Louisiana saxophone",
+        "Mississippi sax",
+        "Mississippi saxophone",
+        "mouth harmonica",
+        "mouth harp",
+        "mouth organ",
+        "tin sandwich"
+      ],
+      "popularity": 138491,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Harmonica"
+    },
+    {
+      "name": "Pipe organ",
+      "aliases": [],
+      "popularity": 148591,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Pipe organ"
+    },
+    {
+      "name": "Hammond organ",
+      "aliases": [
+        "Hammond B-3"
+      ],
+      "popularity": 160621,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Hammond organ"
+    },
+    {
+      "name": "Accordion",
+      "aliases": [
+        "musette-type"
+      ],
+      "popularity": 214486,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Accordion"
+    },
+    {
+      "name": "Harpsichord",
+      "aliases": [
+        "cembalo",
+        "clavecin",
+        "clavicembalo"
+      ],
+      "popularity": 226560,
+      "rarity": 0.007,
+      "tier": 1,
+      "wiki": "Harpsichord"
+    },
+    {
+      "name": "Piano",
+      "aliases": [
+        "concert grand piano"
+      ],
+      "popularity": 428537,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Piano"
+    }
+  ]
+}

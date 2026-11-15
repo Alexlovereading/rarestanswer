@@ -1,0 +1,701 @@
+{
+  "id": "hadrosaur-dinosaurs",
+  "slug": "hadrosaur-dinosaurs",
+  "category": "animals",
+  "question": "Name a hadrosaur",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Heilongjiangosaurus",
+      "aliases": [],
+      "popularity": 163,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Heilongjiangosaurus"
+    },
+    {
+      "name": "Edmontosaurus kuukpikensis",
+      "aliases": [],
+      "popularity": 226,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Edmontosaurus kuukpikensis"
+    },
+    {
+      "name": "Huaxiaosaurus",
+      "aliases": [],
+      "popularity": 620,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Huaxiaosaurus"
+    },
+    {
+      "name": "Didanodon",
+      "aliases": [],
+      "popularity": 665,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Didanodon"
+    },
+    {
+      "name": "Ornithotarsus",
+      "aliases": [],
+      "popularity": 681,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Ornithotarsus"
+    },
+    {
+      "name": "Pteropelyx",
+      "aliases": [],
+      "popularity": 1125,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Pteropelyx"
+    },
+    {
+      "name": "Anatotitan",
+      "aliases": [],
+      "popularity": 1196,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Anatotitan"
+    },
+    {
+      "name": "Koutalisaurus",
+      "aliases": [],
+      "popularity": 1435,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Koutalisaurus"
+    },
+    {
+      "name": "Sahaliyania",
+      "aliases": [],
+      "popularity": 1543,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Sahaliyania"
+    },
+    {
+      "name": "Cionodon",
+      "aliases": [],
+      "popularity": 1589,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Cionodon"
+    },
+    {
+      "name": "Microhadrosaurus",
+      "aliases": [],
+      "popularity": 1634,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Microhadrosaurus"
+    },
+    {
+      "name": "Willinakaqe",
+      "aliases": [],
+      "popularity": 1700,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Willinakaqe"
+    },
+    {
+      "name": "Arstanosaurus",
+      "aliases": [],
+      "popularity": 1802,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Arstanosaurus"
+    },
+    {
+      "name": "Stephanosaurus",
+      "aliases": [],
+      "popularity": 1882,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Stephanosaurus"
+    },
+    {
+      "name": "Thespesius",
+      "aliases": [],
+      "popularity": 2090,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Thespesius"
+    },
+    {
+      "name": "Nanningosaurus",
+      "aliases": [],
+      "popularity": 2293,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Nanningosaurus"
+    },
+    {
+      "name": "Ornatops",
+      "aliases": [],
+      "popularity": 2491,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Ornatops"
+    },
+    {
+      "name": "Kazaklambia",
+      "aliases": [],
+      "popularity": 2588,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Kazaklambia"
+    },
+    {
+      "name": "Mandschurosaurus",
+      "aliases": [],
+      "popularity": 2627,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Mandschurosaurus"
+    },
+    {
+      "name": "Orthomerus",
+      "aliases": [],
+      "popularity": 2647,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Orthomerus"
+    },
+    {
+      "name": "Lapampasaurus",
+      "aliases": [],
+      "popularity": 2654,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Lapampasaurus"
+    },
+    {
+      "name": "Laiyangosaurus",
+      "aliases": [],
+      "popularity": 2765,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Laiyangosaurus"
+    },
+    {
+      "name": "Cedrorestes",
+      "aliases": [],
+      "popularity": 2899,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Cedrorestes"
+    },
+    {
+      "name": "Plesiohadros",
+      "aliases": [],
+      "popularity": 2974,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Plesiohadros"
+    },
+    {
+      "name": "Diclonius",
+      "aliases": [],
+      "popularity": 2978,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Diclonius"
+    },
+    {
+      "name": "Probrachylophosaurus",
+      "aliases": [],
+      "popularity": 3006,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Probrachylophosaurus"
+    },
+    {
+      "name": "Riabininohadros",
+      "aliases": [],
+      "popularity": 3116,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Riabininohadros"
+    },
+    {
+      "name": "Tanius",
+      "aliases": [],
+      "popularity": 3272,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Tanius"
+    },
+    {
+      "name": "Wulagasaurus",
+      "aliases": [],
+      "popularity": 3371,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Wulagasaurus"
+    },
+    {
+      "name": "Blasisaurus",
+      "aliases": [],
+      "popularity": 3393,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Blasisaurus"
+    },
+    {
+      "name": "Malefica",
+      "aliases": [],
+      "popularity": 3448,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Malefica"
+    },
+    {
+      "name": "Anasazisaurus",
+      "aliases": [],
+      "popularity": 3525,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Anasazisaurus"
+    },
+    {
+      "name": "Rhinorex",
+      "aliases": [],
+      "popularity": 3736,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Rhinorex"
+    },
+    {
+      "name": "Aquilarhinus",
+      "aliases": [],
+      "popularity": 3886,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Aquilarhinus"
+    },
+    {
+      "name": "Coahuilasaurus",
+      "aliases": [],
+      "popularity": 3955,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Coahuilasaurus"
+    },
+    {
+      "name": "Latirhinus",
+      "aliases": [],
+      "popularity": 3976,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Latirhinus"
+    },
+    {
+      "name": "Huallasaurus",
+      "aliases": [],
+      "popularity": 4076,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Huallasaurus"
+    },
+    {
+      "name": "Eotrachodon",
+      "aliases": [],
+      "popularity": 4154,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Eotrachodon"
+    },
+    {
+      "name": "Pararhabdodon",
+      "aliases": [],
+      "popularity": 4308,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Pararhabdodon"
+    },
+    {
+      "name": "Angulomastacator",
+      "aliases": [],
+      "popularity": 4315,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Angulomastacator"
+    },
+    {
+      "name": "Canardia",
+      "aliases": [],
+      "popularity": 4355,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Canardia"
+    },
+    {
+      "name": "Hypsibema",
+      "aliases": [],
+      "popularity": 4539,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Hypsibema"
+    },
+    {
+      "name": "Yamatosaurus",
+      "aliases": [],
+      "popularity": 4573,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Yamatosaurus"
+    },
+    {
+      "name": "Taleta",
+      "aliases": [],
+      "popularity": 4719,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Taleta"
+    },
+    {
+      "name": "Arenysaurus",
+      "aliases": [],
+      "popularity": 4755,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Arenysaurus"
+    },
+    {
+      "name": "Kelumapusaura",
+      "aliases": [],
+      "popularity": 4821,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Kelumapusaura"
+    },
+    {
+      "name": "Kerberosaurus",
+      "aliases": [],
+      "popularity": 4839,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "Kerberosaurus"
+    },
+    {
+      "name": "Bonapartesaurus",
+      "aliases": [
+        "Bonapartesaurus rionegrensis"
+      ],
+      "popularity": 5064,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Bonapartesaurus"
+    },
+    {
+      "name": "Jaxartosaurus",
+      "aliases": [],
+      "popularity": 5227,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Jaxartosaurus"
+    },
+    {
+      "name": "Adelolophus",
+      "aliases": [],
+      "popularity": 5249,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Adelolophus"
+    },
+    {
+      "name": "Minqaria",
+      "aliases": [],
+      "popularity": 5516,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Minqaria"
+    },
+    {
+      "name": "Plesiolophus",
+      "aliases": [],
+      "popularity": 5606,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Plesiolophus"
+    },
+    {
+      "name": "Adynomosaurus",
+      "aliases": [],
+      "popularity": 5695,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Adynomosaurus"
+    },
+    {
+      "name": "Acristavus",
+      "aliases": [],
+      "popularity": 5728,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Acristavus"
+    },
+    {
+      "name": "Velafrons",
+      "aliases": [],
+      "popularity": 6024,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Velafrons"
+    },
+    {
+      "name": "Nipponosaurus",
+      "aliases": [],
+      "popularity": 6412,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Nipponosaurus"
+    },
+    {
+      "name": "Tlatolophus",
+      "aliases": [],
+      "popularity": 6428,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Tlatolophus"
+    },
+    {
+      "name": "Aralosaurus",
+      "aliases": [],
+      "popularity": 6503,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Aralosaurus"
+    },
+    {
+      "name": "Kamuysaurus",
+      "aliases": [],
+      "popularity": 6740,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Kamuysaurus"
+    },
+    {
+      "name": "Ahshislesaurus",
+      "aliases": [],
+      "popularity": 7100,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Ahshislesaurus"
+    },
+    {
+      "name": "Gongshuilong",
+      "aliases": [],
+      "popularity": 7163,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Gongshuilong"
+    },
+    {
+      "name": "Secernosaurus",
+      "aliases": [],
+      "popularity": 7793,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Secernosaurus"
+    },
+    {
+      "name": "Ajnabia",
+      "aliases": [],
+      "popularity": 7894,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Ajnabia"
+    },
+    {
+      "name": "Claosaurus",
+      "aliases": [],
+      "popularity": 8037,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Claosaurus"
+    },
+    {
+      "name": "Prosaurolophus",
+      "aliases": [],
+      "popularity": 9111,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Prosaurolophus"
+    },
+    {
+      "name": "Amurosaurus",
+      "aliases": [],
+      "popularity": 9325,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Amurosaurus"
+    },
+    {
+      "name": "Gilmoreosaurus",
+      "aliases": [],
+      "popularity": 9710,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Gilmoreosaurus"
+    },
+    {
+      "name": "Kritosaurus",
+      "aliases": [],
+      "popularity": 10228,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Kritosaurus"
+    },
+    {
+      "name": "Barsboldia",
+      "aliases": [],
+      "popularity": 10424,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Barsboldia"
+    },
+    {
+      "name": "Trachodon",
+      "aliases": [],
+      "popularity": 11708,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Trachodon"
+    },
+    {
+      "name": "Gryposaurus",
+      "aliases": [],
+      "popularity": 12731,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Gryposaurus"
+    },
+    {
+      "name": "Magnapaulia",
+      "aliases": [],
+      "popularity": 13510,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "Magnapaulia"
+    },
+    {
+      "name": "Augustynolophus",
+      "aliases": [],
+      "popularity": 14792,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Augustynolophus"
+    },
+    {
+      "name": "Tsintaosaurus",
+      "aliases": [],
+      "popularity": 15066,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Tsintaosaurus"
+    },
+    {
+      "name": "Hypacrosaurus",
+      "aliases": [],
+      "popularity": 16249,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Hypacrosaurus"
+    },
+    {
+      "name": "Brachylophosaurus",
+      "aliases": [],
+      "popularity": 16944,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Brachylophosaurus"
+    },
+    {
+      "name": "Charonosaurus",
+      "aliases": [],
+      "popularity": 17801,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Charonosaurus"
+    },
+    {
+      "name": "Olorotitan",
+      "aliases": [],
+      "popularity": 18940,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Olorotitan"
+    },
+    {
+      "name": "Lambeosaurus",
+      "aliases": [],
+      "popularity": 33408,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Lambeosaurus"
+    },
+    {
+      "name": "Corythosaurus",
+      "aliases": [],
+      "popularity": 35172,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Corythosaurus"
+    },
+    {
+      "name": "Shantungosaurus",
+      "aliases": [],
+      "popularity": 38523,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Shantungosaurus"
+    },
+    {
+      "name": "Hadrosaurus",
+      "aliases": [],
+      "popularity": 46439,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Hadrosaurus"
+    },
+    {
+      "name": "Saurolophus",
+      "aliases": [],
+      "popularity": 51954,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Saurolophus"
+    },
+    {
+      "name": "Maiasaura",
+      "aliases": [],
+      "popularity": 63723,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Maiasaura"
+    },
+    {
+      "name": "Edmontosaurus",
+      "aliases": [
+        "Anatosaurus"
+      ],
+      "popularity": 102570,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Edmontosaurus"
+    },
+    {
+      "name": "Parasaurolophus",
+      "aliases": [],
+      "popularity": 207746,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Parasaurolophus"
+    }
+  ]
+}

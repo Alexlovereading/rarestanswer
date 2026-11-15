@@ -1,0 +1,231 @@
+{
+  "id": "german-dishes",
+  "slug": "german-dishes",
+  "category": "food",
+  "question": "Name a German dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Bayrisch Kraut",
+      "aliases": [],
+      "popularity": 1791,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Bayrisch Kraut"
+    },
+    {
+      "name": "Möpkenbrot",
+      "aliases": [],
+      "popularity": 1810,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Möpkenbrot"
+    },
+    {
+      "name": "Panhas",
+      "aliases": [],
+      "popularity": 2089,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Panhas"
+    },
+    {
+      "name": "Pfefferpotthast",
+      "aliases": [],
+      "popularity": 3598,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Pfefferpotthast"
+    },
+    {
+      "name": "Bethmännchen",
+      "aliases": [],
+      "popularity": 5288,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Bethmännchen"
+    },
+    {
+      "name": "Serviettenknödel",
+      "aliases": [
+        "serviettenkloß",
+        "serviettenklöße"
+      ],
+      "popularity": 5441,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Serviettenknödel"
+    },
+    {
+      "name": "Eintopf",
+      "aliases": [],
+      "popularity": 5515,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Eintopf"
+    },
+    {
+      "name": "Hochzeitssuppe",
+      "aliases": [],
+      "popularity": 5911,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Hochzeitssuppe"
+    },
+    {
+      "name": "Bauernfrühstück",
+      "aliases": [],
+      "popularity": 9973,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Bauernfrühstück"
+    },
+    {
+      "name": "Spundekäs",
+      "aliases": [],
+      "popularity": 10320,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Spundekäs"
+    },
+    {
+      "name": "Strammer Max",
+      "aliases": [],
+      "popularity": 10964,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Strammer Max"
+    },
+    {
+      "name": "Saumagen",
+      "aliases": [
+        "Pfälzer Saumagen",
+        "sow's stomach"
+      ],
+      "popularity": 11929,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Saumagen"
+    },
+    {
+      "name": "Leberknödel",
+      "aliases": [],
+      "popularity": 12963,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Leberknödel"
+    },
+    {
+      "name": "Salt potatoes",
+      "aliases": [
+        "boiled potatoes"
+      ],
+      "popularity": 13696,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Salt potatoes"
+    },
+    {
+      "name": "Dampfnudel",
+      "aliases": [
+        "Dampfnudeln"
+      ],
+      "popularity": 18070,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Dampfnudel"
+    },
+    {
+      "name": "Butterbrot",
+      "aliases": [],
+      "popularity": 21718,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Butterbrot"
+    },
+    {
+      "name": "Königsberger Klopse",
+      "aliases": [
+        "Soßklopse"
+      ],
+      "popularity": 28094,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Königsberger Klopse"
+    },
+    {
+      "name": "Frankfurter Würstchen",
+      "aliases": [
+        "Frank sausage",
+        "Frankfurt sausage",
+        "Frankfurter sausage"
+      ],
+      "popularity": 64872,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Frankfurter Würstchen"
+    },
+    {
+      "name": "Currywurst",
+      "aliases": [],
+      "popularity": 98970,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Currywurst"
+    },
+    {
+      "name": "Flammekueche",
+      "aliases": [
+        "tarte flambée"
+      ],
+      "popularity": 111747,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Flammekueche"
+    },
+    {
+      "name": "Mett",
+      "aliases": [],
+      "popularity": 113207,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Mett"
+    },
+    {
+      "name": "Pumpernickel",
+      "aliases": [
+        "pumpernickel bread"
+      ],
+      "popularity": 131873,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Pumpernickel"
+    },
+    {
+      "name": "Hot dog",
+      "aliases": [
+        "coney",
+        "glizzy",
+        "hotdog",
+        "wiener"
+      ],
+      "popularity": 474869,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Hot dog"
+    },
+    {
+      "name": "Hamburger",
+      "aliases": [
+        "beef hamburger",
+        "burger",
+        "hamburger sandwich",
+        "Hamburgh ſauſage"
+      ],
+      "popularity": 579612,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Hamburger"
+    }
+  ]
+}

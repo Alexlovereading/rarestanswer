@@ -1,0 +1,2058 @@
+{
+  "id": "flying-fox-species",
+  "slug": "flying-fox-species",
+  "category": "animals",
+  "question": "Name a species of flying fox",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Petra fruit bat",
+      "aliases": [
+        "Lissonycteris petraea"
+      ],
+      "popularity": 20,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Petra fruit bat"
+    },
+    {
+      "name": "Epomops dobsonii",
+      "aliases": [
+        "Epomops dobsoni"
+      ],
+      "popularity": 27,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Epomops dobsonii"
+    },
+    {
+      "name": "Mearns's flying fox",
+      "aliases": [
+        "Pteropus mearnsi"
+      ],
+      "popularity": 30,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Mearns's flying fox"
+    },
+    {
+      "name": "Dark tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene celaeno"
+      ],
+      "popularity": 44,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Dark tube-nosed fruit bat"
+    },
+    {
+      "name": "Santa Cruz flying fox",
+      "aliases": [
+        "Pteropus sanctacrucis"
+      ],
+      "popularity": 46,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Santa Cruz flying fox"
+    },
+    {
+      "name": "Harrison's fruit bat",
+      "aliases": [
+        "Lissonycteris goliath"
+      ],
+      "popularity": 60,
+      "rarity": 0.975,
+      "tier": 6,
+      "wiki": "Harrison's fruit bat"
+    },
+    {
+      "name": "Megaerops albicollis",
+      "aliases": [],
+      "popularity": 63,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Megaerops albicollis"
+    },
+    {
+      "name": "Mindanao fruit bat",
+      "aliases": [
+        "Megaerops wetmorei"
+      ],
+      "popularity": 70,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Mindanao fruit bat"
+    },
+    {
+      "name": "Smith's fruit bat",
+      "aliases": [
+        "Lissonycteris smithi"
+      ],
+      "popularity": 118,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Smith's fruit bat"
+    },
+    {
+      "name": "Suhaniah fruit bat",
+      "aliases": [
+        "Thoopterus suhaniahae"
+      ],
+      "popularity": 143,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Suhaniah fruit bat"
+    },
+    {
+      "name": "Sierra Leone collared fruit bat",
+      "aliases": [
+        "Myonycteris leptodon"
+      ],
+      "popularity": 199,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Sierra Leone collared fruit bat"
+    },
+    {
+      "name": "Pteropus insularis",
+      "aliases": [],
+      "popularity": 214,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Pteropus insularis"
+    },
+    {
+      "name": "Seram flying fox",
+      "aliases": [
+        "Ceram fruit bat",
+        "Pteropus ocularis"
+      ],
+      "popularity": 241,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Seram flying fox"
+    },
+    {
+      "name": "Campo-Ma'an fruit bat",
+      "aliases": [
+        "Casinycteris campomaanensis"
+      ],
+      "popularity": 256,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Campo-Ma'an fruit bat"
+    },
+    {
+      "name": "Mountain tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene certans"
+      ],
+      "popularity": 271,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Mountain tube-nosed fruit bat"
+    },
+    {
+      "name": "Malaita tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene malaitensis"
+      ],
+      "popularity": 273,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Malaita tube-nosed fruit bat"
+    },
+    {
+      "name": "Umboi tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene vizcaccia"
+      ],
+      "popularity": 273,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Umboi tube-nosed fruit bat"
+    },
+    {
+      "name": "Round-eared tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene cyclotis"
+      ],
+      "popularity": 302,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Round-eared tube-nosed fruit bat"
+    },
+    {
+      "name": "Steadfast tube-nosed fruit bat",
+      "aliases": [
+        "Paranyctimene tenax",
+        "Steadfast tube-nosed bat"
+      ],
+      "popularity": 306,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Steadfast tube-nosed fruit bat"
+    },
+    {
+      "name": "New Ireland masked flying fox",
+      "aliases": [
+        "Pteropus ennisae"
+      ],
+      "popularity": 340,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "New Ireland masked flying fox"
+    },
+    {
+      "name": "Halmahera blossom bat",
+      "aliases": [
+        "Syconycteris carolinae"
+      ],
+      "popularity": 343,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Halmahera blossom bat"
+    },
+    {
+      "name": "Silvery flying fox",
+      "aliases": [
+        "Pteropus argentatus"
+      ],
+      "popularity": 343,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Silvery flying fox"
+    },
+    {
+      "name": "Sulawesi naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia exoleta"
+      ],
+      "popularity": 351,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Sulawesi naked-backed fruit bat"
+    },
+    {
+      "name": "Lesser tube-nosed bat",
+      "aliases": [
+        "Nyctimene minutus",
+        "Nyctimene varius"
+      ],
+      "popularity": 354,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Lesser tube-nosed bat"
+    },
+    {
+      "name": "Keast's tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene keasti"
+      ],
+      "popularity": 359,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Keast's tube-nosed fruit bat"
+    },
+    {
+      "name": "Yap flying fox",
+      "aliases": [
+        "Pteropus yapensis"
+      ],
+      "popularity": 360,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Yap flying fox"
+    },
+    {
+      "name": "Lesser tube-nosed fruit bat",
+      "aliases": [
+        "Paranyctimene raptor"
+      ],
+      "popularity": 363,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Lesser tube-nosed fruit bat"
+    },
+    {
+      "name": "Ansell's epauletted fruit bat",
+      "aliases": [
+        "Epomophorus anselli"
+      ],
+      "popularity": 372,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Ansell's epauletted fruit bat"
+    },
+    {
+      "name": "Fardoulis's blossom bat",
+      "aliases": [
+        "Fardoulis' blossom bat",
+        "Melonycteris fardoulisi"
+      ],
+      "popularity": 391,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Fardoulis's blossom bat"
+    },
+    {
+      "name": "Dragon tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene draconilla"
+      ],
+      "popularity": 392,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Dragon tube-nosed fruit bat"
+    },
+    {
+      "name": "Sulawesi harpy fruit bat",
+      "aliases": [
+        "Harpyionycteris celebensis"
+      ],
+      "popularity": 392,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Sulawesi harpy fruit bat"
+    },
+    {
+      "name": "New Guinea naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia magna"
+      ],
+      "popularity": 401,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "New Guinea naked-backed fruit bat"
+    },
+    {
+      "name": "Western naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia peronii"
+      ],
+      "popularity": 407,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Western naked-backed fruit bat"
+    },
+    {
+      "name": "Halmahera naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia crenulata"
+      ],
+      "popularity": 409,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Halmahera naked-backed fruit bat"
+    },
+    {
+      "name": "Broad-striped tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene aello"
+      ],
+      "popularity": 412,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "Broad-striped tube-nosed fruit bat"
+    },
+    {
+      "name": "Lesser naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia minor"
+      ],
+      "popularity": 418,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Lesser naked-backed fruit bat"
+    },
+    {
+      "name": "Greenish naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia viridis"
+      ],
+      "popularity": 420,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Greenish naked-backed fruit bat"
+    },
+    {
+      "name": "Azagnyi fruit bat",
+      "aliases": [
+        "Megaloglossus azagnyi"
+      ],
+      "popularity": 424,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Azagnyi fruit bat"
+    },
+    {
+      "name": "Hayman's dwarf epauletted fruit bat",
+      "aliases": [
+        "Micropteropus intermedius"
+      ],
+      "popularity": 454,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Hayman's dwarf epauletted fruit bat"
+    },
+    {
+      "name": "Lesser flying fox",
+      "aliases": [
+        "Pteropus mahaganus"
+      ],
+      "popularity": 455,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Lesser flying fox"
+    },
+    {
+      "name": "Minor epauletted fruit bat",
+      "aliases": [
+        "Epomophorus minor"
+      ],
+      "popularity": 456,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Minor epauletted fruit bat"
+    },
+    {
+      "name": "Swift fruit bat",
+      "aliases": [
+        "Thoopterus nigrescens"
+      ],
+      "popularity": 457,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Swift fruit bat"
+    },
+    {
+      "name": "Gilliard's flying fox",
+      "aliases": [
+        "Pteropus gilliardorum"
+      ],
+      "popularity": 458,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Gilliard's flying fox"
+    },
+    {
+      "name": "Woodford's fruit bat",
+      "aliases": [
+        "Melonycteris woodfordi"
+      ],
+      "popularity": 458,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Woodford's fruit bat"
+    },
+    {
+      "name": "Demonic tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene masalai"
+      ],
+      "popularity": 459,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Demonic tube-nosed fruit bat"
+    },
+    {
+      "name": "Lesser musky fruit bat",
+      "aliases": [
+        "Ptenochirus minor"
+      ],
+      "popularity": 467,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Lesser musky fruit bat"
+    },
+    {
+      "name": "Geelvink Bay flying fox",
+      "aliases": [
+        "Pteropus pohlei"
+      ],
+      "popularity": 470,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "Geelvink Bay flying fox"
+    },
+    {
+      "name": "Moss-forest blossom bat",
+      "aliases": [
+        "Syconycteris hobbit"
+      ],
+      "popularity": 475,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Moss-forest blossom bat"
+    },
+    {
+      "name": "Pohle's fruit bat",
+      "aliases": [
+        "Casinycteris ophiodon",
+        "Scotonycteris ophiodon"
+      ],
+      "popularity": 476,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Pohle's fruit bat"
+    },
+    {
+      "name": "Balionycteris seimundi",
+      "aliases": [],
+      "popularity": 481,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Balionycteris seimundi"
+    },
+    {
+      "name": "Dusky fruit bat",
+      "aliases": [
+        "Penthetor lucasi"
+      ],
+      "popularity": 487,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Dusky fruit bat"
+    },
+    {
+      "name": "Javan tailless fruit bat",
+      "aliases": [
+        "Megaerops kusnotoi"
+      ],
+      "popularity": 497,
+      "rarity": 0.748,
+      "tier": 4,
+      "wiki": "Javan tailless fruit bat"
+    },
+    {
+      "name": "Andersen's flying fox",
+      "aliases": [
+        "Pteropus intermedius"
+      ],
+      "popularity": 504,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Andersen's flying fox"
+    },
+    {
+      "name": "Biak naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia emersa"
+      ],
+      "popularity": 506,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Biak naked-backed fruit bat"
+    },
+    {
+      "name": "Lesser Angolan epauletted fruit bat",
+      "aliases": [
+        "Epomophorus grandis"
+      ],
+      "popularity": 513,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Lesser Angolan epauletted fruit bat"
+    },
+    {
+      "name": "Solomons flying fox",
+      "aliases": [
+        "Pteropus rayneri"
+      ],
+      "popularity": 515,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Solomons flying fox"
+    },
+    {
+      "name": "Andersen's naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia anderseni"
+      ],
+      "popularity": 522,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Andersen's naked-backed fruit bat"
+    },
+    {
+      "name": "Beaufort's naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia beauforti"
+      ],
+      "popularity": 527,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Beaufort's naked-backed fruit bat"
+    },
+    {
+      "name": "Nusatenggara short-nosed fruit bat",
+      "aliases": [
+        "Cynopterus nusatenggara"
+      ],
+      "popularity": 531,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Nusatenggara short-nosed fruit bat"
+    },
+    {
+      "name": "Temotu flying fox",
+      "aliases": [
+        "Pteropus nitendiensis"
+      ],
+      "popularity": 533,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Temotu flying fox"
+    },
+    {
+      "name": "New Britain naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia praedatrix"
+      ],
+      "popularity": 538,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "New Britain naked-backed fruit bat"
+    },
+    {
+      "name": "Admiralty flying fox",
+      "aliases": [
+        "Pteropus admiralitatum"
+      ],
+      "popularity": 539,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Admiralty flying fox"
+    },
+    {
+      "name": "D'Anchieta's fruit bat",
+      "aliases": [
+        "Plerotes anchietae"
+      ],
+      "popularity": 545,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "D'Anchieta's fruit bat"
+    },
+    {
+      "name": "Panniet naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia pannietensis"
+      ],
+      "popularity": 546,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Panniet naked-backed fruit bat"
+    },
+    {
+      "name": "East African little collared fruit bat",
+      "aliases": [
+        "Myonycteris relicta"
+      ],
+      "popularity": 550,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "East African little collared fruit bat"
+    },
+    {
+      "name": "Short-palated fruit bat",
+      "aliases": [
+        "Casinycteris argynnis"
+      ],
+      "popularity": 555,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Short-palated fruit bat"
+    },
+    {
+      "name": "New Caledonia blossom bat",
+      "aliases": [
+        "Notopteris neocaledonica"
+      ],
+      "popularity": 563,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "New Caledonia blossom bat"
+    },
+    {
+      "name": "Tailless fruit bat",
+      "aliases": [
+        "Megaerops ecaudatus"
+      ],
+      "popularity": 572,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "Tailless fruit bat"
+    },
+    {
+      "name": "Ashy-headed flying fox",
+      "aliases": [
+        "Pteropus caniceps"
+      ],
+      "popularity": 587,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "Ashy-headed flying fox"
+    },
+    {
+      "name": "Manado fruit bat",
+      "aliases": [
+        "Manado rousette",
+        "Rousettus bidens"
+      ],
+      "popularity": 589,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Manado fruit bat"
+    },
+    {
+      "name": "Ornate flying fox",
+      "aliases": [
+        "Pteropus ornatus"
+      ],
+      "popularity": 590,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Ornate flying fox"
+    },
+    {
+      "name": "Rickart's dyak fruit bat",
+      "aliases": [
+        "Dyacopterus rickarti"
+      ],
+      "popularity": 596,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Rickart's dyak fruit bat"
+    },
+    {
+      "name": "Ontong Java flying fox",
+      "aliases": [
+        "Pteropus howensis"
+      ],
+      "popularity": 600,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Ontong Java flying fox"
+    },
+    {
+      "name": "Brooks's dyak fruit bat",
+      "aliases": [
+        "Dyacopterus brooksi"
+      ],
+      "popularity": 607,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Brooks's dyak fruit bat"
+    },
+    {
+      "name": "Makira flying fox",
+      "aliases": [
+        "Pteropus cognatus"
+      ],
+      "popularity": 607,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Makira flying fox"
+    },
+    {
+      "name": "Blanford's fruit bat",
+      "aliases": [
+        "Sphaerias blanfordi"
+      ],
+      "popularity": 608,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Blanford's fruit bat"
+    },
+    {
+      "name": "Common tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene albiventer"
+      ],
+      "popularity": 620,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Common tube-nosed fruit bat"
+    },
+    {
+      "name": "Zenker's fruit bat",
+      "aliases": [
+        "Scotonycteris zenkeri"
+      ],
+      "popularity": 620,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Zenker's fruit bat"
+    },
+    {
+      "name": "Small-toothed fruit bat",
+      "aliases": [
+        "Neopteryx frosti"
+      ],
+      "popularity": 625,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Small-toothed fruit bat"
+    },
+    {
+      "name": "Lombok flying fox",
+      "aliases": [
+        "Pteropus lombocensis"
+      ],
+      "popularity": 631,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Lombok flying fox"
+    },
+    {
+      "name": "Linduan rousette",
+      "aliases": [
+        "Rousettus",
+        "Rousettus linduensis"
+      ],
+      "popularity": 633,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Linduan rousette"
+    },
+    {
+      "name": "Luzon fruit bat",
+      "aliases": [
+        "O. cartilagonodus",
+        "Otopteropus cartilagonodus"
+      ],
+      "popularity": 639,
+      "rarity": 0.599,
+      "tier": 3,
+      "wiki": "Luzon fruit bat"
+    },
+    {
+      "name": "Rennell flying fox",
+      "aliases": [
+        "Pteropus rennelli"
+      ],
+      "popularity": 640,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Rennell flying fox"
+    },
+    {
+      "name": "Solomon's naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia inermis"
+      ],
+      "popularity": 654,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Solomon's naked-backed fruit bat"
+    },
+    {
+      "name": "Dobson's epauletted fruit bat",
+      "aliases": [
+        "Epomophorus dobsonii"
+      ],
+      "popularity": 655,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Dobson's epauletted fruit bat"
+    },
+    {
+      "name": "Angolan epauletted fruit bat",
+      "aliases": [
+        "Epomophorus angolensis"
+      ],
+      "popularity": 657,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Angolan epauletted fruit bat"
+    },
+    {
+      "name": "New Caledonia flying fox",
+      "aliases": [
+        "Pteropus vetulus"
+      ],
+      "popularity": 670,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "New Caledonia flying fox"
+    },
+    {
+      "name": "Sulawesi rousette",
+      "aliases": [
+        "Rousettus celebensis"
+      ],
+      "popularity": 675,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Sulawesi rousette"
+    },
+    {
+      "name": "Banks flying fox",
+      "aliases": [
+        "Pteropus fundatus"
+      ],
+      "popularity": 676,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Banks flying fox"
+    },
+    {
+      "name": "Ratanaworabhan's fruit bat",
+      "aliases": [
+        "Megaerops niphanae"
+      ],
+      "popularity": 678,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Ratanaworabhan's fruit bat"
+    },
+    {
+      "name": "Philippine gray flying fox",
+      "aliases": [
+        "Pteropus speciosus"
+      ],
+      "popularity": 690,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Philippine gray flying fox"
+    },
+    {
+      "name": "Black-capped fruit bat",
+      "aliases": [
+        "Chironax melanocephalus"
+      ],
+      "popularity": 692,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Black-capped fruit bat"
+    },
+    {
+      "name": "East African epauletted fruit bat",
+      "aliases": [
+        "Epomophorus minimus"
+      ],
+      "popularity": 695,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "East African epauletted fruit bat"
+    },
+    {
+      "name": "Sulawesi stripe-faced fruit bat",
+      "aliases": [
+        "Stripe-faced fruit bat",
+        "Styloctenium wallacei"
+      ],
+      "popularity": 700,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Sulawesi stripe-faced fruit bat"
+    },
+    {
+      "name": "Kei flying fox",
+      "aliases": [
+        "Pteropus keyensis"
+      ],
+      "popularity": 703,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Kei flying fox"
+    },
+    {
+      "name": "Gray flying fox",
+      "aliases": [
+        "Pteropus griseus"
+      ],
+      "popularity": 707,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "Gray flying fox"
+    },
+    {
+      "name": "Black-bellied fruit bat",
+      "aliases": [
+        "Melonycteris melanops"
+      ],
+      "popularity": 708,
+      "rarity": 0.525,
+      "tier": 3,
+      "wiki": "Black-bellied fruit bat"
+    },
+    {
+      "name": "Peters's fruit bat",
+      "aliases": [
+        "Cynopterus luzoniensis"
+      ],
+      "popularity": 709,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Peters's fruit bat"
+    },
+    {
+      "name": "Temminck's flying fox",
+      "aliases": [
+        "Pteropus temmincki",
+        "Pteropus temminckii"
+      ],
+      "popularity": 710,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Temminck's flying fox"
+    },
+    {
+      "name": "Greater nectar bat",
+      "aliases": [
+        "Eonycteris major"
+      ],
+      "popularity": 711,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Greater nectar bat"
+    },
+    {
+      "name": "Mindanao pygmy fruit bat",
+      "aliases": [
+        "Alionycteris paucidentata"
+      ],
+      "popularity": 715,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Mindanao pygmy fruit bat"
+    },
+    {
+      "name": "Veldkamp's dwarf epauletted fruit bat",
+      "aliases": [
+        "Nanonycteris veldkampii"
+      ],
+      "popularity": 719,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Veldkamp's dwarf epauletted fruit bat"
+    },
+    {
+      "name": "Bare-backed rousette",
+      "aliases": [
+        "Rousettus spinalatus"
+      ],
+      "popularity": 726,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Bare-backed rousette"
+    },
+    {
+      "name": "Moluccan flying fox",
+      "aliases": [
+        "Pteropus chrysoproctus"
+      ],
+      "popularity": 732,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Moluccan flying fox"
+    },
+    {
+      "name": "Small white-winged flying fox",
+      "aliases": [
+        "Desmalopex microleucoptera",
+        "Desmalopex microleucopterus"
+      ],
+      "popularity": 743,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Small white-winged flying fox"
+    },
+    {
+      "name": "Greater musky fruit bat",
+      "aliases": [
+        "Ptenochirus jagori"
+      ],
+      "popularity": 755,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Greater musky fruit bat"
+    },
+    {
+      "name": "Philippine dawn bat",
+      "aliases": [
+        "Eonycteris robusta"
+      ],
+      "popularity": 766,
+      "rarity": 0.475,
+      "tier": 3,
+      "wiki": "Philippine dawn bat"
+    },
+    {
+      "name": "New Georgian monkey-faced bat",
+      "aliases": [
+        "Pteralopex taki"
+      ],
+      "popularity": 771,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "New Georgian monkey-faced bat"
+    },
+    {
+      "name": "Minute fruit bat",
+      "aliases": [
+        "Cynopterus minutus"
+      ],
+      "popularity": 778,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Minute fruit bat"
+    },
+    {
+      "name": "Woermann's bat",
+      "aliases": [
+        "Megaloglossus woermanni"
+      ],
+      "popularity": 779,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Woermann's bat"
+    },
+    {
+      "name": "Long-haired fruit bat",
+      "aliases": [
+        "Long-haired Rousette",
+        "Rousettus lanosus"
+      ],
+      "popularity": 797,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Long-haired fruit bat"
+    },
+    {
+      "name": "Mindoro stripe-faced fruit bat",
+      "aliases": [
+        "Styloctenium mindorensis"
+      ],
+      "popularity": 807,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Mindoro stripe-faced fruit bat"
+    },
+    {
+      "name": "Dwarf flying fox",
+      "aliases": [
+        "Pteropus woodfordi"
+      ],
+      "popularity": 811,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Dwarf flying fox"
+    },
+    {
+      "name": "Nicobar flying fox",
+      "aliases": [
+        "Pteropus faunulus"
+      ],
+      "popularity": 831,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Nicobar flying fox"
+    },
+    {
+      "name": "Bare-backed fruit bat",
+      "aliases": [
+        "Dobsonia moluccensis",
+        "Moluccan Naked-backed Fruit Bat"
+      ],
+      "popularity": 832,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Bare-backed fruit bat"
+    },
+    {
+      "name": "Harpy fruit bat",
+      "aliases": [
+        "Harpyionycteris whiteheadi"
+      ],
+      "popularity": 853,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Harpy fruit bat"
+    },
+    {
+      "name": "Big-eared flying fox",
+      "aliases": [
+        "Pteropus macrotis"
+      ],
+      "popularity": 874,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Big-eared flying fox"
+    },
+    {
+      "name": "Pallas's tube-nosed bat",
+      "aliases": [
+        "Nyctimene cephalotes"
+      ],
+      "popularity": 877,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Pallas's tube-nosed bat"
+    },
+    {
+      "name": "Kosrae flying fox",
+      "aliases": [
+        "Pteropus ualanus"
+      ],
+      "popularity": 886,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Kosrae flying fox"
+    },
+    {
+      "name": "Horsfield's fruit bat",
+      "aliases": [
+        "Cynopterus horsfieldii"
+      ],
+      "popularity": 902,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Horsfield's fruit bat"
+    },
+    {
+      "name": "Caroline flying fox",
+      "aliases": [
+        "Pteropus molossinus"
+      ],
+      "popularity": 904,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Caroline flying fox"
+    },
+    {
+      "name": "Indonesian short-nosed fruit bat",
+      "aliases": [
+        "Cynopterus titthaecheilus"
+      ],
+      "popularity": 927,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Indonesian short-nosed fruit bat"
+    },
+    {
+      "name": "São Tomé collared fruit bat",
+      "aliases": [
+        "Myonycteris",
+        "Myonycteris brachycephala"
+      ],
+      "popularity": 932,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "São Tomé collared fruit bat"
+    },
+    {
+      "name": "Ethiopian epauletted fruit bat",
+      "aliases": [
+        "Epomophorus labiatus"
+      ],
+      "popularity": 954,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Ethiopian epauletted fruit bat"
+    },
+    {
+      "name": "Nendo tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene sanctacrucis"
+      ],
+      "popularity": 955,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Nendo tube-nosed fruit bat"
+    },
+    {
+      "name": "Comoro rousette",
+      "aliases": [
+        "Rousettus obliviosus"
+      ],
+      "popularity": 956,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Comoro rousette"
+    },
+    {
+      "name": "Little collared fruit bat",
+      "aliases": [
+        "Myonycteris torquata"
+      ],
+      "popularity": 970,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Little collared fruit bat"
+    },
+    {
+      "name": "Angolan rousette",
+      "aliases": [
+        "Lissonycteris angolensis"
+      ],
+      "popularity": 979,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Angolan rousette"
+    },
+    {
+      "name": "Talaud flying fox",
+      "aliases": [
+        "Acerodon humilis",
+        "Talaud Fruit Bat"
+      ],
+      "popularity": 998,
+      "rarity": 0.366,
+      "tier": 2,
+      "wiki": "Talaud flying fox"
+    },
+    {
+      "name": "Borneo fruit bat",
+      "aliases": [
+        "Aethalops aequalis"
+      ],
+      "popularity": 1003,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Borneo fruit bat"
+    },
+    {
+      "name": "Guadalcanal monkey-faced bat",
+      "aliases": [
+        "Pteralopex atrata"
+      ],
+      "popularity": 1004,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Guadalcanal monkey-faced bat"
+    },
+    {
+      "name": "Pygmy fruit bat",
+      "aliases": [
+        "Aethalops alecto"
+      ],
+      "popularity": 1022,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Pygmy fruit bat"
+    },
+    {
+      "name": "Philippine tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene rabori"
+      ],
+      "popularity": 1027,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Philippine tube-nosed fruit bat"
+    },
+    {
+      "name": "Fischer's pygmy fruit bat",
+      "aliases": [
+        "Haplonycteris fischeri"
+      ],
+      "popularity": 1035,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Fischer's pygmy fruit bat"
+    },
+    {
+      "name": "Madagascan rousette",
+      "aliases": [
+        "Rousettus madagascariensis"
+      ],
+      "popularity": 1046,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "Madagascan rousette"
+    },
+    {
+      "name": "Vanuatu flying fox",
+      "aliases": [
+        "Pteropus anetianus",
+        "white flying-fox"
+      ],
+      "popularity": 1082,
+      "rarity": 0.332,
+      "tier": 2,
+      "wiki": "Vanuatu flying fox"
+    },
+    {
+      "name": "Island tube-nosed fruit bat",
+      "aliases": [
+        "Nyctimene major"
+      ],
+      "popularity": 1099,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Island tube-nosed fruit bat"
+    },
+    {
+      "name": "Vanikoro flying fox",
+      "aliases": [
+        "Pteropus tuberculatus"
+      ],
+      "popularity": 1099,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Vanikoro flying fox"
+    },
+    {
+      "name": "Greater monkey-faced bat",
+      "aliases": [
+        "Pteralopex flanneryi"
+      ],
+      "popularity": 1116,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Greater monkey-faced bat"
+    },
+    {
+      "name": "Masked flying fox",
+      "aliases": [
+        "Pteropus personatus"
+      ],
+      "popularity": 1173,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "Masked flying fox"
+    },
+    {
+      "name": "Long-tailed fruit bat",
+      "aliases": [
+        "Notopteris macdonaldi",
+        "Notopteris macdonaldii"
+      ],
+      "popularity": 1207,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Long-tailed fruit bat"
+    },
+    {
+      "name": "Pteropus pelagicus",
+      "aliases": [
+        "Chuuk Flying Fox"
+      ],
+      "popularity": 1239,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Pteropus pelagicus"
+    },
+    {
+      "name": "Sunda flying fox",
+      "aliases": [
+        "Acerodon mackloti",
+        "Sunda fruit bat"
+      ],
+      "popularity": 1245,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Sunda flying fox"
+    },
+    {
+      "name": "Bougainville monkey-faced bat",
+      "aliases": [
+        "Pteralopex anceps"
+      ],
+      "popularity": 1263,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Bougainville monkey-faced bat"
+    },
+    {
+      "name": "Peters's epauletted fruit bat",
+      "aliases": [
+        "Epomophorus crypturus"
+      ],
+      "popularity": 1322,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Peters's epauletted fruit bat"
+    },
+    {
+      "name": "Black-bearded flying fox",
+      "aliases": [
+        "Pteropus melanopogon"
+      ],
+      "popularity": 1323,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Black-bearded flying fox"
+    },
+    {
+      "name": "White-winged flying fox",
+      "aliases": [
+        "Desmalopex leucoptera"
+      ],
+      "popularity": 1409,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "White-winged flying fox"
+    },
+    {
+      "name": "Long-tongued fruit bat",
+      "aliases": [
+        "Macroglossus sobrinus"
+      ],
+      "popularity": 1410,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Long-tongued fruit bat"
+    },
+    {
+      "name": "Aldabra flying fox",
+      "aliases": [
+        "Pteropus aldabrensis"
+      ],
+      "popularity": 1461,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Aldabra flying fox"
+    },
+    {
+      "name": "Pelew flying fox",
+      "aliases": [
+        "Pteropus pelewensis"
+      ],
+      "popularity": 1463,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Pelew flying fox"
+    },
+    {
+      "name": "Little golden-mantled flying fox",
+      "aliases": [
+        "Pteropus pumilus"
+      ],
+      "popularity": 1480,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Little golden-mantled flying fox"
+    },
+    {
+      "name": "Buettikofer's epauletted fruit bat",
+      "aliases": [
+        "Epomops buettikoferi"
+      ],
+      "popularity": 1504,
+      "rarity": 0.252,
+      "tier": 2,
+      "wiki": "Buettikofer's epauletted fruit bat"
+    },
+    {
+      "name": "Common blossom bat",
+      "aliases": [
+        "Syconycteris australis"
+      ],
+      "popularity": 1993,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Common blossom bat"
+    },
+    {
+      "name": "Palawan fruit bat",
+      "aliases": [
+        "Acerodon leucotis",
+        "Palawan Flying Fox"
+      ],
+      "popularity": 1996,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Palawan fruit bat"
+    },
+    {
+      "name": "Peters's dwarf epauletted fruit bat",
+      "aliases": [
+        "Micropteropus pusillus"
+      ],
+      "popularity": 2029,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Peters's dwarf epauletted fruit bat"
+    },
+    {
+      "name": "Geoffroy's rousette",
+      "aliases": [
+        "Rousettus amplexicaudatus"
+      ],
+      "popularity": 2037,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Geoffroy's rousette"
+    },
+    {
+      "name": "Salim Ali's fruit bat",
+      "aliases": [
+        "Latidens salimalii"
+      ],
+      "popularity": 2090,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Salim Ali's fruit bat"
+    },
+    {
+      "name": "Spotted-winged fruit bat",
+      "aliases": [
+        "Balionycteris maculata"
+      ],
+      "popularity": 2115,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Spotted-winged fruit bat"
+    },
+    {
+      "name": "Franquet's epauletted fruit bat",
+      "aliases": [
+        "Epomops franqueti"
+      ],
+      "popularity": 2146,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Franquet's epauletted fruit bat"
+    },
+    {
+      "name": "Madagascan fruit bat",
+      "aliases": [
+        "Eidolon dupreanum"
+      ],
+      "popularity": 2244,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Madagascan fruit bat"
+    },
+    {
+      "name": "Black-eared flying fox",
+      "aliases": [
+        "Blyth's flying fox",
+        "Pteropus melanotus"
+      ],
+      "popularity": 2289,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Black-eared flying fox"
+    },
+    {
+      "name": "Sulawesi flying fox",
+      "aliases": [
+        "Acerodon celebensis"
+      ],
+      "popularity": 2520,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Sulawesi flying fox"
+    },
+    {
+      "name": "Leschenault's rousette",
+      "aliases": [
+        "Rousettus leschenaultii"
+      ],
+      "popularity": 2634,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Leschenault's rousette"
+    },
+    {
+      "name": "Okinawa flying fox",
+      "aliases": [
+        "Pteropus loochoensis"
+      ],
+      "popularity": 2728,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Okinawa flying fox"
+    },
+    {
+      "name": "Philippine naked-backed fruit bat",
+      "aliases": [
+        "Dobsonia chapmani"
+      ],
+      "popularity": 2828,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Philippine naked-backed fruit bat"
+    },
+    {
+      "name": "Long-tongued nectar bat",
+      "aliases": [
+        "Macroglossus minimus"
+      ],
+      "popularity": 2930,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Long-tongued nectar bat"
+    },
+    {
+      "name": "Montane monkey-faced bat",
+      "aliases": [
+        "Pteralopex pulchra"
+      ],
+      "popularity": 3116,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Montane monkey-faced bat"
+    },
+    {
+      "name": "Gambian epauletted fruit bat",
+      "aliases": [
+        "Epomophorus gambianus"
+      ],
+      "popularity": 3161,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Gambian epauletted fruit bat"
+    },
+    {
+      "name": "Cave nectar bat",
+      "aliases": [
+        "Eonycteris spelaea"
+      ],
+      "popularity": 3467,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Cave nectar bat"
+    },
+    {
+      "name": "Bismarck masked flying fox",
+      "aliases": [
+        "Bismarck flying fox",
+        "Pteropus capistratus"
+      ],
+      "popularity": 3661,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Bismarck masked flying fox"
+    },
+    {
+      "name": "Eastern tube-nosed bat",
+      "aliases": [
+        "Nyctimene robinsoni"
+      ],
+      "popularity": 3669,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Eastern tube-nosed bat"
+    },
+    {
+      "name": "Madagascan flying fox",
+      "aliases": [
+        "Pteropus rufus"
+      ],
+      "popularity": 3728,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Madagascan flying fox"
+    },
+    {
+      "name": "Pemba flying fox",
+      "aliases": [
+        "Pteropus voeltzkowi"
+      ],
+      "popularity": 3731,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Pemba flying fox"
+    },
+    {
+      "name": "Wahlberg's epauletted fruit bat",
+      "aliases": [
+        "Epomophorus wahlbergi"
+      ],
+      "popularity": 4106,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Wahlberg's epauletted fruit bat"
+    },
+    {
+      "name": "Insular flying fox",
+      "aliases": [
+        "Pteropus tonganus"
+      ],
+      "popularity": 4331,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Insular flying fox"
+    },
+    {
+      "name": "Christmas Island flying fox",
+      "aliases": [
+        "Pteropus natalis"
+      ],
+      "popularity": 4547,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Christmas Island flying fox"
+    },
+    {
+      "name": "Small flying fox",
+      "aliases": [
+        "Pteropus hypomelanus"
+      ],
+      "popularity": 4590,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Small flying fox"
+    },
+    {
+      "name": "Seychelles fruit bat",
+      "aliases": [
+        "Pteropus seychellensis"
+      ],
+      "popularity": 4899,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Seychelles fruit bat"
+    },
+    {
+      "name": "Dayak fruit bat",
+      "aliases": [
+        "Dyacopterus spadiceus"
+      ],
+      "popularity": 4908,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Dayak fruit bat"
+    },
+    {
+      "name": "Aru flying fox",
+      "aliases": [
+        "Pteropus aruensis"
+      ],
+      "popularity": 5041,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Aru flying fox"
+    },
+    {
+      "name": "Fijian monkey-faced bat",
+      "aliases": [
+        "Mirimiri acrodonta"
+      ],
+      "popularity": 6062,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Fijian monkey-faced bat"
+    },
+    {
+      "name": "Greater short-nosed fruit bat",
+      "aliases": [
+        "Cynopterus sphinx"
+      ],
+      "popularity": 6244,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Greater short-nosed fruit bat"
+    },
+    {
+      "name": "Livingstone's fruit bat",
+      "aliases": [
+        "Livingstone’s flying fox",
+        "Pteropus livingstonii"
+      ],
+      "popularity": 6451,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Livingstone's fruit bat"
+    },
+    {
+      "name": "Lesser short-nosed fruit bat",
+      "aliases": [
+        "Cynopterus brachyotis"
+      ],
+      "popularity": 6524,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Lesser short-nosed fruit bat"
+    },
+    {
+      "name": "Little red flying fox",
+      "aliases": [
+        "Pteropus scapulatus"
+      ],
+      "popularity": 6669,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Little red flying fox"
+    },
+    {
+      "name": "Lyle's flying fox",
+      "aliases": [
+        "Pteropus lylei"
+      ],
+      "popularity": 6811,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Lyle's flying fox"
+    },
+    {
+      "name": "Bulmer's fruit bat",
+      "aliases": [
+        "Aproteles bulmerae"
+      ],
+      "popularity": 6922,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Bulmer's fruit bat"
+    },
+    {
+      "name": "Bonin flying fox",
+      "aliases": [
+        "Bonin fruit bat",
+        "Pteropus pselaphon"
+      ],
+      "popularity": 7353,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Bonin flying fox"
+    },
+    {
+      "name": "Mariana fruit bat",
+      "aliases": [
+        "Marianas flying fox",
+        "Pteropus mariannus"
+      ],
+      "popularity": 7442,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Mariana fruit bat"
+    },
+    {
+      "name": "Samoa flying fox",
+      "aliases": [
+        "Pteropus samoensis"
+      ],
+      "popularity": 7708,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Samoa flying fox"
+    },
+    {
+      "name": "Rodrigues flying fox",
+      "aliases": [
+        "Pteropus rodricensis"
+      ],
+      "popularity": 8261,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Rodrigues flying fox"
+    },
+    {
+      "name": "Ryukyu flying fox",
+      "aliases": [
+        "Pteropus dasymallus"
+      ],
+      "popularity": 9154,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Ryukyu flying fox"
+    },
+    {
+      "name": "Straw-coloured fruit bat",
+      "aliases": [
+        "Eidolon helvum"
+      ],
+      "popularity": 10381,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "Straw-coloured fruit bat"
+    },
+    {
+      "name": "Spectacled flying fox",
+      "aliases": [
+        "Pteropus conspicillatus"
+      ],
+      "popularity": 11136,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Spectacled flying fox"
+    },
+    {
+      "name": "Mauritian flying fox",
+      "aliases": [
+        "Pteropus niger"
+      ],
+      "popularity": 17402,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Mauritian flying fox"
+    },
+    {
+      "name": "Black flying fox",
+      "aliases": [
+        "Pteropus alecto"
+      ],
+      "popularity": 18836,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Black flying fox"
+    },
+    {
+      "name": "Great flying fox",
+      "aliases": [
+        "Pteropus neohibernicus"
+      ],
+      "popularity": 19849,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Great flying fox"
+    },
+    {
+      "name": "Egyptian fruit bat",
+      "aliases": [
+        "Rousettus aegyptiacus"
+      ],
+      "popularity": 36695,
+      "rarity": 0.025,
+      "tier": 1,
+      "wiki": "Egyptian fruit bat"
+    },
+    {
+      "name": "Grey-headed flying fox",
+      "aliases": [
+        "Pteropus poliocephalus"
+      ],
+      "popularity": 43367,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Grey-headed flying fox"
+    },
+    {
+      "name": "Large flying fox",
+      "aliases": [
+        "Pteropus vampyrus"
+      ],
+      "popularity": 50370,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Large flying fox"
+    },
+    {
+      "name": "Hammer-headed bat",
+      "aliases": [
+        "Hypsignathus monstrosus"
+      ],
+      "popularity": 55315,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Hammer-headed bat"
+    },
+    {
+      "name": "Indian flying fox",
+      "aliases": [
+        "Pteropus medius"
+      ],
+      "popularity": 57409,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Indian flying fox"
+    },
+    {
+      "name": "Giant golden-crowned flying fox",
+      "aliases": [
+        "Acerodon jubatus",
+        "Golden-capped fruit bat"
+      ],
+      "popularity": 184871,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Giant golden-crowned flying fox"
+    }
+  ]
+}

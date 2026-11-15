@@ -1,0 +1,2514 @@
+{
+  "id": "pastries",
+  "slug": "pastries",
+  "category": "food",
+  "question": "Name a pastry",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Sweet pie",
+      "aliases": [
+        "dessert pie"
+      ],
+      "popularity": 63,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Sweet pie"
+    },
+    {
+      "name": "Oudnin el kadhi",
+      "aliases": [],
+      "popularity": 156,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Oudnin el kadhi"
+    },
+    {
+      "name": "Chao hongguo",
+      "aliases": [
+        "Chao hong guo"
+      ],
+      "popularity": 180,
+      "rarity": 0.993,
+      "tier": 6,
+      "wiki": "Chao hongguo"
+    },
+    {
+      "name": "Kaak",
+      "aliases": [
+        "Kaak (pastry)"
+      ],
+      "popularity": 186,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Kaak (pastry)"
+    },
+    {
+      "name": "Mergpijpje",
+      "aliases": [],
+      "popularity": 211,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Mergpijpje"
+    },
+    {
+      "name": "Kaikouxiao",
+      "aliases": [
+        "Kai kou xiao",
+        "Zhimazao"
+      ],
+      "popularity": 317,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Kaikouxiao"
+    },
+    {
+      "name": "Kore mochi",
+      "aliases": [],
+      "popularity": 360,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Kore mochi"
+    },
+    {
+      "name": "Fish-shaped pastry",
+      "aliases": [],
+      "popularity": 375,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Fish-shaped pastry"
+    },
+    {
+      "name": "Eris",
+      "aliases": [
+        "Eris (confection)",
+        "Ris"
+      ],
+      "popularity": 413,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Eris (confection)"
+    },
+    {
+      "name": "Kahi",
+      "aliases": [
+        "Kahi (food)"
+      ],
+      "popularity": 425,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Kahi (food)"
+    },
+    {
+      "name": "Belly button pastry",
+      "aliases": [
+        "Tōo-tsâi-piánn"
+      ],
+      "popularity": 500,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Belly button pastry"
+    },
+    {
+      "name": "Et",
+      "aliases": [
+        "Et (Chinese pastry)"
+      ],
+      "popularity": 534,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Et (Chinese pastry)"
+    },
+    {
+      "name": "Yurla",
+      "aliases": [
+        "Yurla (dish)"
+      ],
+      "popularity": 534,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Yurla (dish)"
+    },
+    {
+      "name": "Badambura",
+      "aliases": [],
+      "popularity": 567,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Badambura"
+    },
+    {
+      "name": "Xigua lao",
+      "aliases": [
+        "Xi gua lao"
+      ],
+      "popularity": 630,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Xigua lao"
+    },
+    {
+      "name": "Hellimli",
+      "aliases": [],
+      "popularity": 708,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Hellimli"
+    },
+    {
+      "name": "Chasan",
+      "aliases": [
+        "Chasan (pastry)"
+      ],
+      "popularity": 717,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Chasan (pastry)"
+    },
+    {
+      "name": "Shekarpareh",
+      "aliases": [],
+      "popularity": 735,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Shekarpareh"
+    },
+    {
+      "name": "Mostaccino",
+      "aliases": [
+        "Moustasì"
+      ],
+      "popularity": 738,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Mostaccino"
+    },
+    {
+      "name": "Vanilla hearts",
+      "aliases": [
+        "vaniljhjärta",
+        "vaniljhjärtan",
+        "vanilla heart"
+      ],
+      "popularity": 738,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Vanilla hearts"
+    },
+    {
+      "name": "Gundain",
+      "aliases": [],
+      "popularity": 782,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Gundain"
+    },
+    {
+      "name": "Golmajería",
+      "aliases": [],
+      "popularity": 790,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Golmajería"
+    },
+    {
+      "name": "Komaj sehen",
+      "aliases": [],
+      "popularity": 807,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Komaj sehen"
+    },
+    {
+      "name": "Bagharj",
+      "aliases": [],
+      "popularity": 832,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Bagharj"
+    },
+    {
+      "name": "Bird's nest pudding",
+      "aliases": [],
+      "popularity": 842,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Bird's nest pudding"
+    },
+    {
+      "name": "Conejito",
+      "aliases": [],
+      "popularity": 904,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Conejito"
+    },
+    {
+      "name": "Lalanga",
+      "aliases": [],
+      "popularity": 938,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Lalanga"
+    },
+    {
+      "name": "Puftaloon",
+      "aliases": [
+        "Johnny Cake",
+        "Johnnycakes"
+      ],
+      "popularity": 972,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Puftaloon"
+    },
+    {
+      "name": "Schuxen",
+      "aliases": [],
+      "popularity": 1036,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Schuxen"
+    },
+    {
+      "name": "Chewette",
+      "aliases": [],
+      "popularity": 1044,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "Chewette"
+    },
+    {
+      "name": "Masan",
+      "aliases": [
+        "Masan (pastry)"
+      ],
+      "popularity": 1049,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "Masan (pastry)"
+    },
+    {
+      "name": "Taillé aux greubons",
+      "aliases": [],
+      "popularity": 1059,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Taillé aux greubons"
+    },
+    {
+      "name": "Mhancha",
+      "aliases": [
+        "M'hancha"
+      ],
+      "popularity": 1079,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Mhancha"
+    },
+    {
+      "name": "Rosette",
+      "aliases": [
+        "Rosette (fritter)"
+      ],
+      "popularity": 1084,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Rosette (fritter)"
+    },
+    {
+      "name": "Dowry cake",
+      "aliases": [
+        "gaa neoi bing",
+        "jia nu bing",
+        "jianubing",
+        "marry girl cake"
+      ],
+      "popularity": 1087,
+      "rarity": 0.874,
+      "tier": 5,
+      "wiki": "Dowry cake"
+    },
+    {
+      "name": "Serinakaker",
+      "aliases": [],
+      "popularity": 1099,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Serinakaker"
+    },
+    {
+      "name": "Tabrizi Lovuez",
+      "aliases": [
+        "Tabrizi Lovuz"
+      ],
+      "popularity": 1138,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Tabrizi Lovuez"
+    },
+    {
+      "name": "Ikinari Dango",
+      "aliases": [
+        "ikinaridango"
+      ],
+      "popularity": 1159,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Ikinari Dango"
+    },
+    {
+      "name": "Nunt",
+      "aliases": [],
+      "popularity": 1163,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Nunt"
+    },
+    {
+      "name": "Marañuela",
+      "aliases": [],
+      "popularity": 1194,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Marañuela"
+    },
+    {
+      "name": "Çörek",
+      "aliases": [],
+      "popularity": 1261,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Çörek"
+    },
+    {
+      "name": "Poolaki",
+      "aliases": [],
+      "popularity": 1278,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Poolaki"
+    },
+    {
+      "name": "Misandao",
+      "aliases": [
+        "Mi san dao"
+      ],
+      "popularity": 1326,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Misandao"
+    },
+    {
+      "name": "Sohan asali",
+      "aliases": [],
+      "popularity": 1355,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Sohan asali"
+    },
+    {
+      "name": "Kkulppang",
+      "aliases": [
+        "honey bread"
+      ],
+      "popularity": 1357,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Kkulppang"
+    },
+    {
+      "name": "Pain à la grecque",
+      "aliases": [],
+      "popularity": 1437,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Pain à la grecque"
+    },
+    {
+      "name": "Scovardă",
+      "aliases": [],
+      "popularity": 1474,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Scovardă"
+    },
+    {
+      "name": "Nonnevot",
+      "aliases": [],
+      "popularity": 1477,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Nonnevot"
+    },
+    {
+      "name": "Iris",
+      "aliases": [
+        "Iris (pastry)"
+      ],
+      "popularity": 1479,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Iris (pastry)"
+    },
+    {
+      "name": "Tortita negra",
+      "aliases": [],
+      "popularity": 1585,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Tortita negra"
+    },
+    {
+      "name": "Spanisch Brötli",
+      "aliases": [],
+      "popularity": 1700,
+      "rarity": 0.814,
+      "tier": 5,
+      "wiki": "Spanisch Brötli"
+    },
+    {
+      "name": "Areias",
+      "aliases": [
+        "Areias (Portuguese food)"
+      ],
+      "popularity": 1831,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Areias (Portuguese food)"
+    },
+    {
+      "name": "Butterkaka",
+      "aliases": [],
+      "popularity": 1848,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Butterkaka"
+    },
+    {
+      "name": "Pinza bolognese",
+      "aliases": [
+        "penza bolognese"
+      ],
+      "popularity": 1862,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Pinza bolognese"
+    },
+    {
+      "name": "Reshteh khoshkar",
+      "aliases": [],
+      "popularity": 1908,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Reshteh khoshkar"
+    },
+    {
+      "name": "Havreflarn",
+      "aliases": [
+        "havrekakor"
+      ],
+      "popularity": 1914,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Havreflarn"
+    },
+    {
+      "name": "Broyé poitevin",
+      "aliases": [
+        "broyé du Poitou"
+      ],
+      "popularity": 1960,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Broyé poitevin"
+    },
+    {
+      "name": "Bamiyeh",
+      "aliases": [],
+      "popularity": 1975,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Bamiyeh"
+    },
+    {
+      "name": "Verwurelter",
+      "aliases": [],
+      "popularity": 2016,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Verwurelter"
+    },
+    {
+      "name": "Barquette",
+      "aliases": [],
+      "popularity": 2076,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Barquette"
+    },
+    {
+      "name": "Roscas",
+      "aliases": [
+        "Roscas (Filipino cuisine)"
+      ],
+      "popularity": 2093,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Roscas (Filipino cuisine)"
+    },
+    {
+      "name": "Belekoy",
+      "aliases": [],
+      "popularity": 2102,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Belekoy"
+    },
+    {
+      "name": "Kołacz",
+      "aliases": [],
+      "popularity": 2131,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "Kołacz"
+    },
+    {
+      "name": "Sou",
+      "aliases": [
+        "Sou (pastry)"
+      ],
+      "popularity": 2136,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Sou (pastry)"
+    },
+    {
+      "name": "Pastry heart",
+      "aliases": [],
+      "popularity": 2221,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Pastry heart"
+    },
+    {
+      "name": "Heong peng",
+      "aliases": [],
+      "popularity": 2260,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Heong peng"
+    },
+    {
+      "name": "Bakeapple pie",
+      "aliases": [],
+      "popularity": 2312,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Bakeapple pie"
+    },
+    {
+      "name": "Coventry Godcake",
+      "aliases": [
+        "Coventry Godcakes"
+      ],
+      "popularity": 2429,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Coventry Godcake"
+    },
+    {
+      "name": "Fiadone",
+      "aliases": [],
+      "popularity": 2527,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Fiadone"
+    },
+    {
+      "name": "Inipit",
+      "aliases": [],
+      "popularity": 2527,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Inipit"
+    },
+    {
+      "name": "Bremer Klaben",
+      "aliases": [],
+      "popularity": 2534,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Bremer Klaben"
+    },
+    {
+      "name": "Sultsina",
+      "aliases": [],
+      "popularity": 2550,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Sultsina"
+    },
+    {
+      "name": "Sfințișori",
+      "aliases": [
+        "mladenci",
+        "mucenici",
+        "mucenici moldovenești"
+      ],
+      "popularity": 2668,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Sfințișori"
+    },
+    {
+      "name": "Yazdi cake",
+      "aliases": [
+        "Cake Yazdi"
+      ],
+      "popularity": 2751,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Yazdi cake"
+    },
+    {
+      "name": "Fazuelos",
+      "aliases": [
+        "deblas",
+        "fijuelas",
+        "hiuelas",
+        "hojuelas"
+      ],
+      "popularity": 2786,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Fazuelos"
+    },
+    {
+      "name": "Crompouce",
+      "aliases": [
+        "tompouce croissant"
+      ],
+      "popularity": 2791,
+      "rarity": 0.721,
+      "tier": 4,
+      "wiki": "Crompouce"
+    },
+    {
+      "name": "Rab cake",
+      "aliases": [],
+      "popularity": 2806,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Rab cake"
+    },
+    {
+      "name": "Jalangkote",
+      "aliases": [],
+      "popularity": 2836,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Jalangkote"
+    },
+    {
+      "name": "Meskouta",
+      "aliases": [],
+      "popularity": 2847,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Meskouta"
+    },
+    {
+      "name": "Kolompeh",
+      "aliases": [],
+      "popularity": 2868,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Kolompeh"
+    },
+    {
+      "name": "Julekake",
+      "aliases": [],
+      "popularity": 3110,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Julekake"
+    },
+    {
+      "name": "Budapest roll",
+      "aliases": [
+        "Budapest cake",
+        "Budapest pastry",
+        "Budapestbakelse",
+        "Budapestrulle"
+      ],
+      "popularity": 3191,
+      "rarity": 0.699,
+      "tier": 4,
+      "wiki": "Budapest roll"
+    },
+    {
+      "name": "Black sesame roll",
+      "aliases": [],
+      "popularity": 3217,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Black sesame roll"
+    },
+    {
+      "name": "Birnbrot",
+      "aliases": [],
+      "popularity": 3251,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Birnbrot"
+    },
+    {
+      "name": "Lattice",
+      "aliases": [
+        "Lattice (pastry)"
+      ],
+      "popularity": 3350,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Lattice (pastry)"
+    },
+    {
+      "name": "Flies' graveyard",
+      "aliases": [],
+      "popularity": 3410,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Flies' graveyard"
+    },
+    {
+      "name": "Egg yolk pastry",
+      "aliases": [
+        "dànhuángsū",
+        "nn̄g-jîn-soo"
+      ],
+      "popularity": 3577,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Egg yolk pastry"
+    },
+    {
+      "name": "Graffe",
+      "aliases": [
+        "Graffe napoletane",
+        "zeppole di patate"
+      ],
+      "popularity": 3698,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Graffe"
+    },
+    {
+      "name": "Rasstegai",
+      "aliases": [],
+      "popularity": 3964,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Rasstegai"
+    },
+    {
+      "name": "Shorgoghal",
+      "aliases": [],
+      "popularity": 4087,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Shorgoghal"
+    },
+    {
+      "name": "Moorkop",
+      "aliases": [],
+      "popularity": 4145,
+      "rarity": 0.665,
+      "tier": 4,
+      "wiki": "Moorkop"
+    },
+    {
+      "name": "Gosh-e fil",
+      "aliases": [],
+      "popularity": 4263,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Gosh-e fil"
+    },
+    {
+      "name": "Hefekranz",
+      "aliases": [],
+      "popularity": 4342,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Hefekranz"
+    },
+    {
+      "name": "Bocconotto",
+      "aliases": [
+        "boconotto"
+      ],
+      "popularity": 4356,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Bocconotto"
+    },
+    {
+      "name": "Koba",
+      "aliases": [
+        "Koba (sweet)"
+      ],
+      "popularity": 4378,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Koba (sweet)"
+    },
+    {
+      "name": "Qottab",
+      "aliases": [],
+      "popularity": 4387,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Qottab"
+    },
+    {
+      "name": "Flaó",
+      "aliases": [
+        "Flaons"
+      ],
+      "popularity": 4388,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Flaó"
+    },
+    {
+      "name": "Sausage bread",
+      "aliases": [],
+      "popularity": 4486,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Sausage bread"
+    },
+    {
+      "name": "Coconut bar",
+      "aliases": [
+        "coconut pudding"
+      ],
+      "popularity": 4534,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Coconut bar"
+    },
+    {
+      "name": "Quesito",
+      "aliases": [],
+      "popularity": 4551,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Quesito"
+    },
+    {
+      "name": "Banket",
+      "aliases": [
+        "Banket (pastry)"
+      ],
+      "popularity": 4615,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Banket (pastry)"
+    },
+    {
+      "name": "Miguelitos",
+      "aliases": [],
+      "popularity": 4617,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Miguelitos"
+    },
+    {
+      "name": "Karukan",
+      "aliases": [],
+      "popularity": 4732,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Karukan"
+    },
+    {
+      "name": "Knieküchle",
+      "aliases": [],
+      "popularity": 4766,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Knieküchle"
+    },
+    {
+      "name": "Alivenci",
+      "aliases": [],
+      "popularity": 4907,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Alivenci"
+    },
+    {
+      "name": "Facturas",
+      "aliases": [],
+      "popularity": 4959,
+      "rarity": 0.61,
+      "tier": 4,
+      "wiki": "Facturas"
+    },
+    {
+      "name": "Grands-pères",
+      "aliases": [],
+      "popularity": 4963,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Grands-pères"
+    },
+    {
+      "name": "Kurnik",
+      "aliases": [
+        "Kurnik (pirog)"
+      ],
+      "popularity": 4978,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Kurnik (pirog)"
+    },
+    {
+      "name": "Roze koek",
+      "aliases": [],
+      "popularity": 5052,
+      "rarity": 0.599,
+      "tier": 3,
+      "wiki": "Roze koek"
+    },
+    {
+      "name": "Fig cake",
+      "aliases": [],
+      "popularity": 5100,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Fig cake"
+    },
+    {
+      "name": "Banana roll",
+      "aliases": [],
+      "popularity": 5149,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Banana roll"
+    },
+    {
+      "name": "Nazook",
+      "aliases": [
+        "Nazouk",
+        "Nazuk"
+      ],
+      "popularity": 5270,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Nazook"
+    },
+    {
+      "name": "Schnecken",
+      "aliases": [
+        "Schnecke"
+      ],
+      "popularity": 5279,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Schnecken"
+    },
+    {
+      "name": "Bethmännchen",
+      "aliases": [],
+      "popularity": 5288,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Bethmännchen"
+    },
+    {
+      "name": "Leipziger Lerche",
+      "aliases": [],
+      "popularity": 5467,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Leipziger Lerche"
+    },
+    {
+      "name": "Hwangnam-ppang",
+      "aliases": [
+        "Gyeongju bread",
+        "Hwangnam bread"
+      ],
+      "popularity": 5484,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Hwangnam-ppang"
+    },
+    {
+      "name": "Haitian patty",
+      "aliases": [],
+      "popularity": 5504,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Haitian patty"
+    },
+    {
+      "name": "Mohr im Hemd",
+      "aliases": [],
+      "popularity": 5601,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Mohr im Hemd"
+    },
+    {
+      "name": "Kūčiukai",
+      "aliases": [
+        "slizhyki"
+      ],
+      "popularity": 5692,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Kūčiukai"
+    },
+    {
+      "name": "Ballokume",
+      "aliases": [],
+      "popularity": 5733,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Ballokume"
+    },
+    {
+      "name": "Allerheiligenstriezel",
+      "aliases": [],
+      "popularity": 5789,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Allerheiligenstriezel"
+    },
+    {
+      "name": "Coussin de Lyon",
+      "aliases": [],
+      "popularity": 5832,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Coussin de Lyon"
+    },
+    {
+      "name": "Klappertaart",
+      "aliases": [],
+      "popularity": 5934,
+      "rarity": 0.546,
+      "tier": 3,
+      "wiki": "Klappertaart"
+    },
+    {
+      "name": "Otap",
+      "aliases": [
+        "Otap (food)",
+        "Utap"
+      ],
+      "popularity": 5971,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Otap (food)"
+    },
+    {
+      "name": "Koloocheh",
+      "aliases": [],
+      "popularity": 6012,
+      "rarity": 0.539,
+      "tier": 3,
+      "wiki": "Koloocheh"
+    },
+    {
+      "name": "Teiglach",
+      "aliases": [],
+      "popularity": 6016,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Teiglach"
+    },
+    {
+      "name": "Pignolata",
+      "aliases": [
+        "Pignolata di Messina PAT"
+      ],
+      "popularity": 6029,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Pignolata"
+    },
+    {
+      "name": "Alexandertorte",
+      "aliases": [
+        "Aleksander Torte",
+        "Alexander Torte"
+      ],
+      "popularity": 6047,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Alexandertorte"
+    },
+    {
+      "name": "Cheese straw",
+      "aliases": [],
+      "popularity": 6119,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Cheese straw"
+    },
+    {
+      "name": "Gâteau nantais",
+      "aliases": [],
+      "popularity": 6172,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Gâteau nantais"
+    },
+    {
+      "name": "Puits d'amour",
+      "aliases": [],
+      "popularity": 6178,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Puits d'amour"
+    },
+    {
+      "name": "Nan-e Nokhodchi",
+      "aliases": [],
+      "popularity": 6205,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Nan-e Nokhodchi"
+    },
+    {
+      "name": "Rice bread",
+      "aliases": [],
+      "popularity": 6492,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Rice bread"
+    },
+    {
+      "name": "Lo mai chi",
+      "aliases": [
+        "glutinous rice ball",
+        "glutinous rice dumpling",
+        "Nuomici"
+      ],
+      "popularity": 6499,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Lo mai chi"
+    },
+    {
+      "name": "Remonce",
+      "aliases": [
+        "Remonge",
+        "Remons"
+      ],
+      "popularity": 6551,
+      "rarity": 0.502,
+      "tier": 3,
+      "wiki": "Remonce"
+    },
+    {
+      "name": "Žemlovka",
+      "aliases": [
+        "Scheiterhaufen",
+        "zemlbába"
+      ],
+      "popularity": 6617,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Žemlovka"
+    },
+    {
+      "name": "Yemas de Santa Teresa",
+      "aliases": [],
+      "popularity": 6766,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Yemas de Santa Teresa"
+    },
+    {
+      "name": "Pastel de Tentúgal",
+      "aliases": [
+        "pasteis de Tentúgal"
+      ],
+      "popularity": 6886,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Pastel de Tentúgal"
+    },
+    {
+      "name": "Bánh pía",
+      "aliases": [
+        "bánh bao chi"
+      ],
+      "popularity": 7016,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Bánh pía"
+    },
+    {
+      "name": "Kitchener bun",
+      "aliases": [],
+      "popularity": 7708,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Kitchener bun"
+    },
+    {
+      "name": "Fa gao",
+      "aliases": [],
+      "popularity": 7976,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Fa gao"
+    },
+    {
+      "name": "Rosca de reyes",
+      "aliases": [
+        "roscón de reyes"
+      ],
+      "popularity": 8307,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Rosca de reyes"
+    },
+    {
+      "name": "Licitar",
+      "aliases": [
+        "Licitars"
+      ],
+      "popularity": 8345,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Licitar"
+    },
+    {
+      "name": "Nut roll",
+      "aliases": [],
+      "popularity": 8407,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Nut roll"
+    },
+    {
+      "name": "Ghorayeba",
+      "aliases": [
+        "kurabiye",
+        "qurabiya"
+      ],
+      "popularity": 8701,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Ghorayeba"
+    },
+    {
+      "name": "Joulutorttu",
+      "aliases": [
+        "christmas tart"
+      ],
+      "popularity": 8795,
+      "rarity": 0.461,
+      "tier": 3,
+      "wiki": "Joulutorttu"
+    },
+    {
+      "name": "Lauzinaj",
+      "aliases": [],
+      "popularity": 8805,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Lauzinaj"
+    },
+    {
+      "name": "Pampushka",
+      "aliases": [],
+      "popularity": 8949,
+      "rarity": 0.454,
+      "tier": 3,
+      "wiki": "Pampushka"
+    },
+    {
+      "name": "Zeeuwse bolus",
+      "aliases": [],
+      "popularity": 9065,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Zeeuwse bolus"
+    },
+    {
+      "name": "Diplomat pudding",
+      "aliases": [],
+      "popularity": 9201,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Diplomat pudding"
+    },
+    {
+      "name": "Krokan",
+      "aliases": [],
+      "popularity": 9222,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Krokan"
+    },
+    {
+      "name": "Shebakia",
+      "aliases": [
+        "Chebakia",
+        "Griouech",
+        "Griwesh"
+      ],
+      "popularity": 9261,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "Shebakia"
+    },
+    {
+      "name": "Cuban pastry",
+      "aliases": [],
+      "popularity": 9282,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Cuban pastry"
+    },
+    {
+      "name": "Stutenkerl",
+      "aliases": [
+        "Grittibänz"
+      ],
+      "popularity": 9412,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Stutenkerl"
+    },
+    {
+      "name": "Jésuite",
+      "aliases": [],
+      "popularity": 10574,
+      "rarity": 0.428,
+      "tier": 3,
+      "wiki": "Jésuite"
+    },
+    {
+      "name": "Koulourakia",
+      "aliases": [],
+      "popularity": 10790,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Koulourakia"
+    },
+    {
+      "name": "Sohan",
+      "aliases": [
+        "Sohan (confectionery)"
+      ],
+      "popularity": 11571,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Sohan (confectionery)"
+    },
+    {
+      "name": "Piaya",
+      "aliases": [
+        "Piaya (food)"
+      ],
+      "popularity": 11650,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Piaya (food)"
+    },
+    {
+      "name": "Bizcocho",
+      "aliases": [
+        "pastries"
+      ],
+      "popularity": 11671,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Bizcocho"
+    },
+    {
+      "name": "Chorley cake",
+      "aliases": [],
+      "popularity": 12027,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Chorley cake"
+    },
+    {
+      "name": "Pâté chaud",
+      "aliases": [
+        "bánh pa tê sô",
+        "bánh patê sô",
+        "pa tê sô"
+      ],
+      "popularity": 12086,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Pâté chaud"
+    },
+    {
+      "name": "Gazelle ankles",
+      "aliases": [
+        "kaab el-ghzal"
+      ],
+      "popularity": 12101,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Gazelle ankles"
+    },
+    {
+      "name": "Schneeball",
+      "aliases": [
+        "Schneeball (pastry)"
+      ],
+      "popularity": 12187,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Schneeball (pastry)"
+    },
+    {
+      "name": "Basler Läckerli",
+      "aliases": [
+        "Basler Läggerli",
+        "Basler Leckerli",
+        "Läggerli"
+      ],
+      "popularity": 12523,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Basler Läckerli"
+    },
+    {
+      "name": "Briouat",
+      "aliases": [],
+      "popularity": 12805,
+      "rarity": 0.39,
+      "tier": 2,
+      "wiki": "Briouat"
+    },
+    {
+      "name": "Mazurek",
+      "aliases": [
+        "Mazurek (cake)"
+      ],
+      "popularity": 13013,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Mazurek (cake)"
+    },
+    {
+      "name": "Ginger milk curd",
+      "aliases": [],
+      "popularity": 13176,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Ginger milk curd"
+    },
+    {
+      "name": "Makroudh",
+      "aliases": [],
+      "popularity": 13893,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Makroudh"
+    },
+    {
+      "name": "Cream horn",
+      "aliases": [],
+      "popularity": 14018,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Cream horn"
+    },
+    {
+      "name": "Plăcintă",
+      "aliases": [],
+      "popularity": 14191,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Plăcintă"
+    },
+    {
+      "name": "Toaster pastry",
+      "aliases": [],
+      "popularity": 14323,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Toaster pastry"
+    },
+    {
+      "name": "Zalabiyeh",
+      "aliases": [],
+      "popularity": 14562,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Zalabiyeh"
+    },
+    {
+      "name": "Brik",
+      "aliases": [
+        "brika",
+        "feuille de brick"
+      ],
+      "popularity": 14843,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Brik"
+    },
+    {
+      "name": "Punsch-roll",
+      "aliases": [],
+      "popularity": 15751,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Punsch-roll"
+    },
+    {
+      "name": "New York roll",
+      "aliases": [
+        "Cromboloni"
+      ],
+      "popularity": 15753,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "New York roll"
+    },
+    {
+      "name": "Vatrushka",
+      "aliases": [],
+      "popularity": 15832,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Vatrushka"
+    },
+    {
+      "name": "Xuixo",
+      "aliases": [],
+      "popularity": 16554,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Xuixo"
+    },
+    {
+      "name": "Persian",
+      "aliases": [
+        "Persian (roll)"
+      ],
+      "popularity": 16625,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Persian (roll)"
+    },
+    {
+      "name": "Potica",
+      "aliases": [],
+      "popularity": 16668,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Potica"
+    },
+    {
+      "name": "Marillenknödel",
+      "aliases": [],
+      "popularity": 16755,
+      "rarity": 0.335,
+      "tier": 2,
+      "wiki": "Marillenknödel"
+    },
+    {
+      "name": "Religieuse",
+      "aliases": [],
+      "popularity": 16850,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Religieuse"
+    },
+    {
+      "name": "Tiropita",
+      "aliases": [],
+      "popularity": 17136,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Tiropita"
+    },
+    {
+      "name": "Gata",
+      "aliases": [
+        "Gata (food)"
+      ],
+      "popularity": 17189,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Gata (food)"
+    },
+    {
+      "name": "Kuchen",
+      "aliases": [],
+      "popularity": 17537,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Kuchen"
+    },
+    {
+      "name": "Sweet roll",
+      "aliases": [
+        "sweet rolls"
+      ],
+      "popularity": 19015,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Sweet roll"
+    },
+    {
+      "name": "Easter bread",
+      "aliases": [],
+      "popularity": 19285,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "Easter bread"
+    },
+    {
+      "name": "Fig roll",
+      "aliases": [],
+      "popularity": 19410,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Fig roll"
+    },
+    {
+      "name": "Pasticciotto",
+      "aliases": [],
+      "popularity": 19500,
+      "rarity": 0.305,
+      "tier": 2,
+      "wiki": "Pasticciotto"
+    },
+    {
+      "name": "Hasma",
+      "aliases": [],
+      "popularity": 19778,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Hasma"
+    },
+    {
+      "name": "Bossche bol",
+      "aliases": [],
+      "popularity": 20063,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Bossche bol"
+    },
+    {
+      "name": "Pionono",
+      "aliases": [],
+      "popularity": 20111,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Pionono"
+    },
+    {
+      "name": "Jambon",
+      "aliases": [],
+      "popularity": 20154,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Jambon"
+    },
+    {
+      "name": "Hedgehog slice",
+      "aliases": [
+        "Arretjescake",
+        "batik cake",
+        "Kek Batik"
+      ],
+      "popularity": 20946,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Hedgehog slice"
+    },
+    {
+      "name": "Christmas cookie",
+      "aliases": [
+        "Christmas cookies"
+      ],
+      "popularity": 21207,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Christmas cookie"
+    },
+    {
+      "name": "Jachnun",
+      "aliases": [],
+      "popularity": 21366,
+      "rarity": 0.279,
+      "tier": 2,
+      "wiki": "Jachnun"
+    },
+    {
+      "name": "Oatmeal ball",
+      "aliases": [
+        "choklate ball"
+      ],
+      "popularity": 21697,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Oatmeal ball"
+    },
+    {
+      "name": "Bakpia",
+      "aliases": [
+        "hopia"
+      ],
+      "popularity": 22202,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Bakpia"
+    },
+    {
+      "name": "Pithivier",
+      "aliases": [],
+      "popularity": 22426,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Pithivier"
+    },
+    {
+      "name": "Kuih",
+      "aliases": [
+        "Guoi",
+        "Ker",
+        "Koe",
+        "Kue",
+        "Kueh"
+      ],
+      "popularity": 22435,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Kuih"
+    },
+    {
+      "name": "Franzbrötchen",
+      "aliases": [],
+      "popularity": 23041,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Franzbrötchen"
+    },
+    {
+      "name": "Coulibiac",
+      "aliases": [],
+      "popularity": 23178,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Coulibiac"
+    },
+    {
+      "name": "Savory spinach pie",
+      "aliases": [
+        "spanakopita",
+        "spinach pie"
+      ],
+      "popularity": 23551,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Savory spinach pie"
+    },
+    {
+      "name": "Tsoureki",
+      "aliases": [
+        "Nan e gisu",
+        "tsureki"
+      ],
+      "popularity": 23757,
+      "rarity": 0.249,
+      "tier": 2,
+      "wiki": "Tsoureki"
+    },
+    {
+      "name": "Tarte tropézienne",
+      "aliases": [],
+      "popularity": 24253,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Tarte tropézienne"
+    },
+    {
+      "name": "Poppy seed roll",
+      "aliases": [],
+      "popularity": 24475,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Poppy seed roll"
+    },
+    {
+      "name": "Gaz",
+      "aliases": [
+        "Gaz (candy)",
+        "manna candy",
+        "Persian nougat"
+      ],
+      "popularity": 24843,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Gaz (candy)"
+    },
+    {
+      "name": "Vanilla slice",
+      "aliases": [
+        "Custard square"
+      ],
+      "popularity": 25912,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Vanilla slice"
+    },
+    {
+      "name": "Kulich",
+      "aliases": [
+        "Kulich (bread)",
+        "kulichi"
+      ],
+      "popularity": 25944,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Kulich (bread)"
+    },
+    {
+      "name": "Papanași",
+      "aliases": [],
+      "popularity": 26160,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Papanași"
+    },
+    {
+      "name": "Gougère",
+      "aliases": [],
+      "popularity": 26394,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Gougère"
+    },
+    {
+      "name": "Klobásník",
+      "aliases": [
+        "Klobasnek"
+      ],
+      "popularity": 26999,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Klobásník"
+    },
+    {
+      "name": "Pastizz",
+      "aliases": [
+        "pastizzi"
+      ],
+      "popularity": 27728,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Pastizz"
+    },
+    {
+      "name": "Banana cake",
+      "aliases": [],
+      "popularity": 28377,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Banana cake"
+    },
+    {
+      "name": "Ka'ak",
+      "aliases": [],
+      "popularity": 29088,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Ka'ak"
+    },
+    {
+      "name": "Samsa",
+      "aliases": [
+        "Samsa (food)",
+        "somsa"
+      ],
+      "popularity": 30530,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Samsa (food)"
+    },
+    {
+      "name": "Guilinggao",
+      "aliases": [
+        "gui ling gao",
+        "guiling gao",
+        "tortoise jelly",
+        "turtle jelly"
+      ],
+      "popularity": 32824,
+      "rarity": 0.201,
+      "tier": 2,
+      "wiki": "Guilinggao"
+    },
+    {
+      "name": "Sachima",
+      "aliases": [
+        "sàqímǎ",
+        "shāqímǎ"
+      ],
+      "popularity": 33220,
+      "rarity": 0.197,
+      "tier": 1,
+      "wiki": "Sachima"
+    },
+    {
+      "name": "Lardy cake",
+      "aliases": [],
+      "popularity": 33813,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Lardy cake"
+    },
+    {
+      "name": "Kue lapis",
+      "aliases": [
+        "kueh lapis"
+      ],
+      "popularity": 34468,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Kue lapis"
+    },
+    {
+      "name": "Polvorón",
+      "aliases": [
+        "polvorones"
+      ],
+      "popularity": 36843,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "Polvorón"
+    },
+    {
+      "name": "Pan dulce",
+      "aliases": [
+        "kashipan",
+        "sweet bun"
+      ],
+      "popularity": 37387,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Pan dulce"
+    },
+    {
+      "name": "Angel wings",
+      "aliases": [],
+      "popularity": 39111,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Angel wings"
+    },
+    {
+      "name": "Gingerbread man",
+      "aliases": [
+        "gingerbread human",
+        "gingerbread men",
+        "gingerbread woman",
+        "gingerbread women"
+      ],
+      "popularity": 39391,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Gingerbread man"
+    },
+    {
+      "name": "Banitsa",
+      "aliases": [
+        "banica",
+        "banitza"
+      ],
+      "popularity": 39787,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Banitsa"
+    },
+    {
+      "name": "Cornetto",
+      "aliases": [
+        "Cornetto (pastry)"
+      ],
+      "popularity": 41093,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Cornetto (pastry)"
+    },
+    {
+      "name": "Turnover",
+      "aliases": [
+        "Turnover (food)"
+      ],
+      "popularity": 42043,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Turnover (food)"
+    },
+    {
+      "name": "Palmier",
+      "aliases": [],
+      "popularity": 44403,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Palmier"
+    },
+    {
+      "name": "Kringle",
+      "aliases": [],
+      "popularity": 44759,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Kringle"
+    },
+    {
+      "name": "Galaktoboureko",
+      "aliases": [],
+      "popularity": 50091,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Galaktoboureko"
+    },
+    {
+      "name": "Paris–Brest",
+      "aliases": [],
+      "popularity": 53173,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Paris–Brest"
+    },
+    {
+      "name": "Tart",
+      "aliases": [
+        "tarte"
+      ],
+      "popularity": 53620,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Tart"
+    },
+    {
+      "name": "Ice cream cone",
+      "aliases": [
+        "Ice Cream Cones"
+      ],
+      "popularity": 53688,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Ice cream cone"
+    },
+    {
+      "name": "Butter tart",
+      "aliases": [],
+      "popularity": 54445,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Butter tart"
+    },
+    {
+      "name": "Jamaican patty",
+      "aliases": [],
+      "popularity": 58998,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Jamaican patty"
+    },
+    {
+      "name": "Fritter",
+      "aliases": [
+        "gorengan"
+      ],
+      "popularity": 61371,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Fritter"
+    },
+    {
+      "name": "Rugelach",
+      "aliases": [
+        "rugelakh"
+      ],
+      "popularity": 62199,
+      "rarity": 0.126,
+      "tier": 1,
+      "wiki": "Rugelach"
+    },
+    {
+      "name": "Water pie",
+      "aliases": [],
+      "popularity": 62881,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Water pie"
+    },
+    {
+      "name": "Cronut",
+      "aliases": [],
+      "popularity": 63379,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Cronut"
+    },
+    {
+      "name": "Cruller",
+      "aliases": [],
+      "popularity": 63519,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Cruller"
+    },
+    {
+      "name": "Cracker",
+      "aliases": [
+        "Cracker (food)"
+      ],
+      "popularity": 66204,
+      "rarity": 0.112,
+      "tier": 1,
+      "wiki": "Cracker (food)"
+    },
+    {
+      "name": "Zeppole",
+      "aliases": [
+        "Zeppola"
+      ],
+      "popularity": 67547,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "Zeppole"
+    },
+    {
+      "name": "Sausage roll",
+      "aliases": [
+        "sausage rolls"
+      ],
+      "popularity": 69174,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Sausage roll"
+    },
+    {
+      "name": "Egg tart",
+      "aliases": [
+        "egg custard tart"
+      ],
+      "popularity": 70750,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Egg tart"
+    },
+    {
+      "name": "Bougatsa",
+      "aliases": [],
+      "popularity": 71432,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Bougatsa"
+    },
+    {
+      "name": "Kolach",
+      "aliases": [
+        "Kolach (cake)"
+      ],
+      "popularity": 74563,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Kolach (cake)"
+    },
+    {
+      "name": "Strudel",
+      "aliases": [],
+      "popularity": 87568,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Strudel"
+    },
+    {
+      "name": "Bear claw",
+      "aliases": [],
+      "popularity": 88237,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Bear claw"
+    },
+    {
+      "name": "Vol-au-vent",
+      "aliases": [],
+      "popularity": 89945,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Vol-au-vent"
+    },
+    {
+      "name": "Medovik",
+      "aliases": [
+        "Medovník"
+      ],
+      "popularity": 93113,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Medovik"
+    },
+    {
+      "name": "Profiterole",
+      "aliases": [
+        "cream puff"
+      ],
+      "popularity": 93510,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Profiterole"
+    },
+    {
+      "name": "Éclair",
+      "aliases": [
+        "chocolate eclair"
+      ],
+      "popularity": 97699,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Éclair"
+    },
+    {
+      "name": "Shortbread",
+      "aliases": [],
+      "popularity": 105541,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Shortbread"
+    },
+    {
+      "name": "Jalebi",
+      "aliases": [
+        "Jalebee",
+        "Jilapi",
+        "Jilebi",
+        "zalabia",
+        "zulbia"
+      ],
+      "popularity": 107537,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Jalebi"
+    },
+    {
+      "name": "Sfogliatella",
+      "aliases": [
+        "sfogliatelle"
+      ],
+      "popularity": 109094,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Sfogliatella"
+    },
+    {
+      "name": "Pączki",
+      "aliases": [],
+      "popularity": 139397,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Pączki"
+    },
+    {
+      "name": "Pasty",
+      "aliases": [
+        "British pasty",
+        "pasteija",
+        "pastey",
+        "pastie"
+      ],
+      "popularity": 139605,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Pasty"
+    },
+    {
+      "name": "Canelé",
+      "aliases": [],
+      "popularity": 148707,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Canelé"
+    },
+    {
+      "name": "Stroopwafel",
+      "aliases": [
+        "caramel wafers",
+        "caramel waffle",
+        "syrup wafers",
+        "syrup waffle",
+        "treacle waffle"
+      ],
+      "popularity": 163846,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Stroopwafel"
+    },
+    {
+      "name": "Waffle",
+      "aliases": [
+        "dough-based cake"
+      ],
+      "popularity": 178003,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Waffle"
+    },
+    {
+      "name": "Samosa",
+      "aliases": [
+        "sambosa",
+        "sambosak",
+        "sambusa",
+        "samuza",
+        "singada",
+        "singhara",
+        "smoosa",
+        "somaas",
+        "somasi",
+        "somosa",
+        "somucha"
+      ],
+      "popularity": 225159,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Samosa"
+    },
+    {
+      "name": "Cannoli",
+      "aliases": [
+        "sicilian cannolo"
+      ],
+      "popularity": 233589,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Cannoli"
+    },
+    {
+      "name": "Pretzel",
+      "aliases": [
+        "Bretzel",
+        "Pretzels"
+      ],
+      "popularity": 233772,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Pretzel"
+    },
+    {
+      "name": "Custard",
+      "aliases": [],
+      "popularity": 234074,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Custard"
+    },
+    {
+      "name": "Mooncake",
+      "aliases": [],
+      "popularity": 241575,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Mooncake"
+    },
+    {
+      "name": "Halva",
+      "aliases": [
+        "aluva",
+        "halava",
+        "halawa",
+        "haleweh",
+        "halvaa",
+        "halvah",
+        "halwa",
+        "helava",
+        "helva",
+        "khalva",
+        "xalwa"
+      ],
+      "popularity": 242939,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Halva"
+    },
+    {
+      "name": "Cookie",
+      "aliases": [
+        "biscuit",
+        "cookies"
+      ],
+      "popularity": 257985,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Cookie"
+    },
+    {
+      "name": "King cake",
+      "aliases": [
+        "Bolo-rei",
+        "galette des rois",
+        "king cakes",
+        "king's cake",
+        "king's cakes",
+        "kingcake",
+        "kingcakes",
+        "kings' cake",
+        "kings' cakes",
+        "Portuguese king cake",
+        "three kings' cake"
+      ],
+      "popularity": 270750,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "King cake"
+    },
+    {
+      "name": "Croissant",
+      "aliases": [
+        "butter croissant",
+        "croissants"
+      ],
+      "popularity": 295823,
+      "rarity": 0.007,
+      "tier": 1,
+      "wiki": "Croissant"
+    },
+    {
+      "name": "Knafeh",
+      "aliases": [
+        "kanafeh"
+      ],
+      "popularity": 303958,
+      "rarity": 0.004,
+      "tier": 1,
+      "wiki": "Knafeh"
+    },
+    {
+      "name": "Baklava",
+      "aliases": [
+        "pakhlava"
+      ],
+      "popularity": 461494,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Baklava"
+    }
+  ]
+}

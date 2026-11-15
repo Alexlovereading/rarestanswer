@@ -1,0 +1,1794 @@
+{
+  "id": "dances",
+  "slug": "dances",
+  "category": "music",
+  "question": "Name a dance",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Group dance",
+      "aliases": [],
+      "popularity": 5,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Group dance"
+    },
+    {
+      "name": "Glacier",
+      "aliases": [
+        "Glacier (dance work)"
+      ],
+      "popularity": 93,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Glacier (dance work)"
+    },
+    {
+      "name": "Nago lwa",
+      "aliases": [
+        "Nago dance"
+      ],
+      "popularity": 98,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Nago lwa"
+    },
+    {
+      "name": "Kambon-waa",
+      "aliases": [],
+      "popularity": 119,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Kambon-waa"
+    },
+    {
+      "name": "Drui",
+      "aliases": [],
+      "popularity": 136,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Drui"
+    },
+    {
+      "name": "Asma kasma",
+      "aliases": [],
+      "popularity": 152,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Asma kasma"
+    },
+    {
+      "name": "Lánytánc",
+      "aliases": [],
+      "popularity": 179,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Lánytánc"
+    },
+    {
+      "name": "Mazanderani dances",
+      "aliases": [
+        "Tapurian dance"
+      ],
+      "popularity": 216,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Mazanderani dances"
+    },
+    {
+      "name": "Jera",
+      "aliases": [
+        "Jera (dance)"
+      ],
+      "popularity": 243,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Jera (dance)"
+    },
+    {
+      "name": "Fwemba",
+      "aliases": [],
+      "popularity": 255,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Fwemba"
+    },
+    {
+      "name": "Passinho do Jamal",
+      "aliases": [],
+      "popularity": 318,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Passinho do Jamal"
+    },
+    {
+      "name": "Espringale",
+      "aliases": [],
+      "popularity": 338,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Espringale"
+    },
+    {
+      "name": "Old measures",
+      "aliases": [
+        "measures"
+      ],
+      "popularity": 359,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Old measures"
+    },
+    {
+      "name": "Mule",
+      "aliases": [
+        "Mule (dance)",
+        "The Mule"
+      ],
+      "popularity": 368,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Mule (dance)"
+    },
+    {
+      "name": "Dance in Rotuma",
+      "aliases": [],
+      "popularity": 376,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "Dance in Rotuma"
+    },
+    {
+      "name": "Gar",
+      "aliases": [
+        "Gar (music)"
+      ],
+      "popularity": 436,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Gar (music)"
+    },
+    {
+      "name": "Entrée de ballet",
+      "aliases": [],
+      "popularity": 444,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Entrée de ballet"
+    },
+    {
+      "name": "Karikázó",
+      "aliases": [],
+      "popularity": 546,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Karikázó"
+    },
+    {
+      "name": "Ceremonial dance",
+      "aliases": [
+        "ritual dance"
+      ],
+      "popularity": 589,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Ceremonial dance"
+    },
+    {
+      "name": "Bolojo",
+      "aliases": [],
+      "popularity": 595,
+      "rarity": 0.901,
+      "tier": 5,
+      "wiki": "Bolojo"
+    },
+    {
+      "name": "Mangambeu",
+      "aliases": [
+        "mamgambeu",
+        "mangabeu",
+        "tchatcho"
+      ],
+      "popularity": 598,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Mangambeu"
+    },
+    {
+      "name": "Wall of Death",
+      "aliases": [
+        "Wall of Death (moshing)"
+      ],
+      "popularity": 599,
+      "rarity": 0.89,
+      "tier": 5,
+      "wiki": "Wall of Death (moshing)"
+    },
+    {
+      "name": "Buzzard lope",
+      "aliases": [],
+      "popularity": 616,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Buzzard lope"
+    },
+    {
+      "name": "Domni",
+      "aliases": [],
+      "popularity": 617,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Domni"
+    },
+    {
+      "name": "Lungi Panchi Dance",
+      "aliases": [],
+      "popularity": 630,
+      "rarity": 0.874,
+      "tier": 5,
+      "wiki": "Lungi Panchi Dance"
+    },
+    {
+      "name": "Piva",
+      "aliases": [
+        "Piva (dance)"
+      ],
+      "popularity": 632,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Piva (dance)"
+    },
+    {
+      "name": "Tambor de Crioula",
+      "aliases": [],
+      "popularity": 641,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Tambor de Crioula"
+    },
+    {
+      "name": "Kolannalu",
+      "aliases": [
+        "kolattam",
+        "Kolattam AP"
+      ],
+      "popularity": 663,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Kolannalu"
+    },
+    {
+      "name": "Bruckins",
+      "aliases": [
+        "brukins"
+      ],
+      "popularity": 681,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Bruckins"
+    },
+    {
+      "name": "Bachatango",
+      "aliases": [],
+      "popularity": 719,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Bachatango"
+    },
+    {
+      "name": "Bossa Nova",
+      "aliases": [
+        "Bossa Nova (dance)"
+      ],
+      "popularity": 733,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Bossa Nova (dance)"
+    },
+    {
+      "name": "Tautoga",
+      "aliases": [],
+      "popularity": 736,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Tautoga"
+    },
+    {
+      "name": "Debaa",
+      "aliases": [],
+      "popularity": 754,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "Debaa"
+    },
+    {
+      "name": "Country Swing",
+      "aliases": [
+        "Country Swing (dance)"
+      ],
+      "popularity": 790,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Country Swing (dance)"
+    },
+    {
+      "name": "Freestyle dance",
+      "aliases": [],
+      "popularity": 805,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Freestyle dance"
+    },
+    {
+      "name": "Cachua",
+      "aliases": [],
+      "popularity": 882,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Cachua"
+    },
+    {
+      "name": "Maskarada",
+      "aliases": [
+        "Maskarada (carnival of Soule)",
+        "Maskarada of Soule",
+        "Xiberoko maskarada",
+        "Zuberoako maskarada"
+      ],
+      "popularity": 919,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Maskarada (carnival of Soule)"
+    },
+    {
+      "name": "Unyago",
+      "aliases": [],
+      "popularity": 933,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Unyago"
+    },
+    {
+      "name": "Zapateo",
+      "aliases": [],
+      "popularity": 1089,
+      "rarity": 0.801,
+      "tier": 5,
+      "wiki": "Zapateo"
+    },
+    {
+      "name": "Drum dance",
+      "aliases": [],
+      "popularity": 1191,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Drum dance"
+    },
+    {
+      "name": "Nagila",
+      "aliases": [],
+      "popularity": 1223,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Nagila"
+    },
+    {
+      "name": "Trot dance",
+      "aliases": [],
+      "popularity": 1263,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Trot dance"
+    },
+    {
+      "name": "Sher",
+      "aliases": [
+        "Sher (dance)",
+        "sherele"
+      ],
+      "popularity": 1277,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Sher (dance)"
+    },
+    {
+      "name": "Kwadril",
+      "aliases": [],
+      "popularity": 1283,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "Kwadril"
+    },
+    {
+      "name": "Lipsi",
+      "aliases": [
+        "Lipsi (dance)"
+      ],
+      "popularity": 1328,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "Lipsi (dance)"
+    },
+    {
+      "name": "Taskiwin",
+      "aliases": [],
+      "popularity": 1331,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Taskiwin"
+    },
+    {
+      "name": "History of dance in Taiwan",
+      "aliases": [],
+      "popularity": 1340,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "History of dance in Taiwan"
+    },
+    {
+      "name": "Clog dance",
+      "aliases": [],
+      "popularity": 1409,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Clog dance"
+    },
+    {
+      "name": "Kromanti dance",
+      "aliases": [],
+      "popularity": 1416,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Kromanti dance"
+    },
+    {
+      "name": "Santo Daime hymns",
+      "aliases": [],
+      "popularity": 1418,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Santo Daime hymns"
+    },
+    {
+      "name": "Montea",
+      "aliases": [
+        "moutia",
+        "moutya"
+      ],
+      "popularity": 1441,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Montea"
+    },
+    {
+      "name": "Rebita",
+      "aliases": [
+        "Massemba"
+      ],
+      "popularity": 1464,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Rebita"
+    },
+    {
+      "name": "Canadian stepdance",
+      "aliases": [],
+      "popularity": 1465,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Canadian stepdance"
+    },
+    {
+      "name": "Samoan dance",
+      "aliases": [],
+      "popularity": 1520,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Samoan dance"
+    },
+    {
+      "name": "Galanterie",
+      "aliases": [],
+      "popularity": 1547,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Galanterie"
+    },
+    {
+      "name": "Dance in Kiribati",
+      "aliases": [],
+      "popularity": 1604,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Dance in Kiribati"
+    },
+    {
+      "name": "Alkayida",
+      "aliases": [
+        "Akayida",
+        "Alkaida"
+      ],
+      "popularity": 1614,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Alkayida"
+    },
+    {
+      "name": "Ballo",
+      "aliases": [],
+      "popularity": 1614,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Ballo"
+    },
+    {
+      "name": "Kachāshī",
+      "aliases": [],
+      "popularity": 1702,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Kachāshī"
+    },
+    {
+      "name": "Lazgi",
+      "aliases": [],
+      "popularity": 1724,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Lazgi"
+    },
+    {
+      "name": "Luddi",
+      "aliases": [
+        "ludi"
+      ],
+      "popularity": 1758,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Luddi"
+    },
+    {
+      "name": "Manau",
+      "aliases": [
+        "Manau (dance)"
+      ],
+      "popularity": 1793,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Manau (dance)"
+    },
+    {
+      "name": "Mbende Jerusarema dance",
+      "aliases": [
+        "Jerusarema dance",
+        "Mbende dance",
+        "Mbende-Jerusarema"
+      ],
+      "popularity": 1845,
+      "rarity": 0.675,
+      "tier": 4,
+      "wiki": "Mbende Jerusarema dance"
+    },
+    {
+      "name": "Nicaraguan dance",
+      "aliases": [
+        "dance in Nicaragua"
+      ],
+      "popularity": 1850,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Nicaraguan dance"
+    },
+    {
+      "name": "Participation dance",
+      "aliases": [],
+      "popularity": 1992,
+      "rarity": 0.665,
+      "tier": 4,
+      "wiki": "Participation dance"
+    },
+    {
+      "name": "Huteng",
+      "aliases": [
+        "Huteng dance"
+      ],
+      "popularity": 2088,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Huteng"
+    },
+    {
+      "name": "Pas de quatre",
+      "aliases": [
+        "Pas de quatre (ballet)"
+      ],
+      "popularity": 2091,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Pas de quatre (ballet)"
+    },
+    {
+      "name": "Jongo",
+      "aliases": [
+        "Caxambu"
+      ],
+      "popularity": 2138,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Jongo"
+    },
+    {
+      "name": "Atilogwu",
+      "aliases": [
+        "Atilogwu Dance"
+      ],
+      "popularity": 2221,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Atilogwu"
+    },
+    {
+      "name": "Apatampa",
+      "aliases": [],
+      "popularity": 2284,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Apatampa"
+    },
+    {
+      "name": "Kumi Odori",
+      "aliases": [
+        "Kumiodori"
+      ],
+      "popularity": 2316,
+      "rarity": 0.634,
+      "tier": 4,
+      "wiki": "Kumi Odori"
+    },
+    {
+      "name": "Vernacular dance",
+      "aliases": [],
+      "popularity": 2347,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Vernacular dance"
+    },
+    {
+      "name": "Dhunuchi Nritya",
+      "aliases": [
+        "Dhunuchi dance"
+      ],
+      "popularity": 2380,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Dhunuchi Nritya"
+    },
+    {
+      "name": "Monkey",
+      "aliases": [
+        "Monkey (dance)"
+      ],
+      "popularity": 2504,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Monkey (dance)"
+    },
+    {
+      "name": "Bogle dance",
+      "aliases": [],
+      "popularity": 2543,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Bogle dance"
+    },
+    {
+      "name": "Zydeco",
+      "aliases": [
+        "Zydeco (dance)"
+      ],
+      "popularity": 2576,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Zydeco (dance)"
+    },
+    {
+      "name": "Bush dance",
+      "aliases": [],
+      "popularity": 2639,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Bush dance"
+    },
+    {
+      "name": "Logobi",
+      "aliases": [],
+      "popularity": 2697,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Logobi"
+    },
+    {
+      "name": "Spotting",
+      "aliases": [
+        "Spotting (dance technique)"
+      ],
+      "popularity": 2746,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Spotting (dance technique)"
+    },
+    {
+      "name": "Queer Tango",
+      "aliases": [],
+      "popularity": 2758,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Queer Tango"
+    },
+    {
+      "name": "Dance in Canada",
+      "aliases": [
+        "Canadian dance"
+      ],
+      "popularity": 2887,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Dance in Canada"
+    },
+    {
+      "name": "Shangaan electro",
+      "aliases": [
+        "tsonga electro"
+      ],
+      "popularity": 2938,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Shangaan electro"
+    },
+    {
+      "name": "Java",
+      "aliases": [
+        "Java (dance)"
+      ],
+      "popularity": 2976,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Java (dance)"
+    },
+    {
+      "name": "Takamba",
+      "aliases": [
+        "takanba"
+      ],
+      "popularity": 3014,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Takamba"
+    },
+    {
+      "name": "Skirt dance",
+      "aliases": [],
+      "popularity": 3225,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Skirt dance"
+    },
+    {
+      "name": "Biyelgee",
+      "aliases": [],
+      "popularity": 3349,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Biyelgee"
+    },
+    {
+      "name": "Nritya",
+      "aliases": [],
+      "popularity": 3405,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Nritya"
+    },
+    {
+      "name": "Loyalty dance",
+      "aliases": [],
+      "popularity": 3450,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Loyalty dance"
+    },
+    {
+      "name": "Varsovienne",
+      "aliases": [],
+      "popularity": 3527,
+      "rarity": 0.539,
+      "tier": 3,
+      "wiki": "Varsovienne"
+    },
+    {
+      "name": "Free dance",
+      "aliases": [],
+      "popularity": 3764,
+      "rarity": 0.534,
+      "tier": 3,
+      "wiki": "Free dance"
+    },
+    {
+      "name": "Basse danse",
+      "aliases": [],
+      "popularity": 3838,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Basse danse"
+    },
+    {
+      "name": "Pottan Theyyam",
+      "aliases": [],
+      "popularity": 3840,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Pottan Theyyam"
+    },
+    {
+      "name": "Mitzvah tantz",
+      "aliases": [],
+      "popularity": 3855,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Mitzvah tantz"
+    },
+    {
+      "name": "Mapalé",
+      "aliases": [],
+      "popularity": 3910,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Mapalé"
+    },
+    {
+      "name": "Romvong",
+      "aliases": [
+        "Lamvong",
+        "Ramwong",
+        "Roam vong"
+      ],
+      "popularity": 3935,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Romvong"
+    },
+    {
+      "name": "John Wall Dance",
+      "aliases": [],
+      "popularity": 3993,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "John Wall Dance"
+    },
+    {
+      "name": "Solo dance",
+      "aliases": [
+        "solo"
+      ],
+      "popularity": 3999,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Solo dance"
+    },
+    {
+      "name": "Character dance",
+      "aliases": [],
+      "popularity": 4281,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Character dance"
+    },
+    {
+      "name": "First dance",
+      "aliases": [],
+      "popularity": 4436,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "First dance"
+    },
+    {
+      "name": "Partido alto",
+      "aliases": [
+        "partido",
+        "samba de partido-alto"
+      ],
+      "popularity": 4436,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Partido alto"
+    },
+    {
+      "name": "Carimbó",
+      "aliases": [
+        "rhythm carimbo"
+      ],
+      "popularity": 4446,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Carimbó"
+    },
+    {
+      "name": "Les Lanciers",
+      "aliases": [
+        "The Lancers"
+      ],
+      "popularity": 4508,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Les Lanciers"
+    },
+    {
+      "name": "Father–daughter dance",
+      "aliases": [],
+      "popularity": 4540,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "Father–daughter dance"
+    },
+    {
+      "name": "Pantsula",
+      "aliases": [],
+      "popularity": 4583,
+      "rarity": 0.461,
+      "tier": 3,
+      "wiki": "Pantsula"
+    },
+    {
+      "name": "J-Setting",
+      "aliases": [],
+      "popularity": 4738,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "J-Setting"
+    },
+    {
+      "name": "Ukusina",
+      "aliases": [],
+      "popularity": 4976,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Ukusina"
+    },
+    {
+      "name": "Tanztheater",
+      "aliases": [
+        "Dance theater",
+        "dance theatre"
+      ],
+      "popularity": 5071,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Tanztheater"
+    },
+    {
+      "name": "Marfa",
+      "aliases": [
+        "Marfa (music)"
+      ],
+      "popularity": 5128,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Marfa (music)"
+    },
+    {
+      "name": "Highland Fling",
+      "aliases": [],
+      "popularity": 5208,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Highland Fling"
+    },
+    {
+      "name": "Serpentine dance",
+      "aliases": [],
+      "popularity": 5224,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Serpentine dance"
+    },
+    {
+      "name": "Estampie",
+      "aliases": [],
+      "popularity": 5227,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Estampie"
+    },
+    {
+      "name": "Danda Nata",
+      "aliases": [
+        "danda jatra",
+        "danda yatra"
+      ],
+      "popularity": 5284,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Danda Nata"
+    },
+    {
+      "name": "Moresca",
+      "aliases": [
+        "danse des bouffons",
+        "mauresque",
+        "moresque",
+        "morisca",
+        "Muresca"
+      ],
+      "popularity": 5349,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Moresca"
+    },
+    {
+      "name": "European dances",
+      "aliases": [
+        "European dance"
+      ],
+      "popularity": 5360,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "European dances"
+    },
+    {
+      "name": "Dance in Australia",
+      "aliases": [
+        "Australian dance"
+      ],
+      "popularity": 5397,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Dance in Australia"
+    },
+    {
+      "name": "Discofox",
+      "aliases": [],
+      "popularity": 5513,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Discofox"
+    },
+    {
+      "name": "Yingge dance",
+      "aliases": [],
+      "popularity": 5615,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Yingge dance"
+    },
+    {
+      "name": "Tourdion",
+      "aliases": [],
+      "popularity": 5668,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Tourdion"
+    },
+    {
+      "name": "Expressionist dance",
+      "aliases": [
+        "expressionistic dance",
+        "expressive dance"
+      ],
+      "popularity": 5786,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Expressionist dance"
+    },
+    {
+      "name": "Nati",
+      "aliases": [
+        "Nati (dance)"
+      ],
+      "popularity": 6203,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Nati (dance)"
+    },
+    {
+      "name": "Dance improvisation",
+      "aliases": [],
+      "popularity": 6280,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Dance improvisation"
+    },
+    {
+      "name": "Postmodern dance",
+      "aliases": [],
+      "popularity": 6406,
+      "rarity": 0.366,
+      "tier": 2,
+      "wiki": "Postmodern dance"
+    },
+    {
+      "name": "Grotesque dance",
+      "aliases": [],
+      "popularity": 6609,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Grotesque dance"
+    },
+    {
+      "name": "Quebradita",
+      "aliases": [
+        "Caballito",
+        "Charanga"
+      ],
+      "popularity": 6979,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Quebradita"
+    },
+    {
+      "name": "Adowa dance",
+      "aliases": [
+        "Adowa"
+      ],
+      "popularity": 7339,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Adowa dance"
+    },
+    {
+      "name": "Big Apple",
+      "aliases": [
+        "Big Apple (dance)"
+      ],
+      "popularity": 7571,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Big Apple (dance)"
+    },
+    {
+      "name": "Bunny hop",
+      "aliases": [
+        "Bunny hop (dance)"
+      ],
+      "popularity": 8006,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Bunny hop (dance)"
+    },
+    {
+      "name": "Renaissance dance",
+      "aliases": [],
+      "popularity": 8237,
+      "rarity": 0.335,
+      "tier": 2,
+      "wiki": "Renaissance dance"
+    },
+    {
+      "name": "Concert dance",
+      "aliases": [
+        "20th century concert dance",
+        "performance dance",
+        "scenic dance",
+        "theatre dance"
+      ],
+      "popularity": 8403,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Concert dance"
+    },
+    {
+      "name": "Adumu",
+      "aliases": [
+        "antigravity dance",
+        "Maasai dance"
+      ],
+      "popularity": 8990,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Adumu"
+    },
+    {
+      "name": "Galop",
+      "aliases": [
+        "galopede"
+      ],
+      "popularity": 9170,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Galop"
+    },
+    {
+      "name": "Jewish dance",
+      "aliases": [],
+      "popularity": 9208,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Jewish dance"
+    },
+    {
+      "name": "Milonga",
+      "aliases": [
+        "Milonga (dance)"
+      ],
+      "popularity": 9239,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Milonga (dance)"
+    },
+    {
+      "name": "Dance in the United States",
+      "aliases": [
+        "American dance",
+        "USA dance"
+      ],
+      "popularity": 9249,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Dance in the United States"
+    },
+    {
+      "name": "Dutty Wine",
+      "aliases": [],
+      "popularity": 9333,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Dutty Wine"
+    },
+    {
+      "name": "Yayue",
+      "aliases": [
+        "Chinese court music"
+      ],
+      "popularity": 9776,
+      "rarity": 0.293,
+      "tier": 2,
+      "wiki": "Yayue"
+    },
+    {
+      "name": "Hand jive",
+      "aliases": [],
+      "popularity": 9788,
+      "rarity": 0.288,
+      "tier": 2,
+      "wiki": "Hand jive"
+    },
+    {
+      "name": "Lyrical dance",
+      "aliases": [],
+      "popularity": 9850,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Lyrical dance"
+    },
+    {
+      "name": "Historical dance",
+      "aliases": [
+        "court dance",
+        "courtly dance",
+        "early dance"
+      ],
+      "popularity": 9899,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Historical dance"
+    },
+    {
+      "name": "Habanera",
+      "aliases": [
+        "Cuban contradanza",
+        "Habanera (music)"
+      ],
+      "popularity": 10414,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Habanera (music)"
+    },
+    {
+      "name": "Bergamask",
+      "aliases": [],
+      "popularity": 10804,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Bergamask"
+    },
+    {
+      "name": "Baião",
+      "aliases": [
+        "Baião (music)",
+        "baion"
+      ],
+      "popularity": 11164,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Baião (music)"
+    },
+    {
+      "name": "Medieval dance",
+      "aliases": [],
+      "popularity": 11345,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Medieval dance"
+    },
+    {
+      "name": "Apache",
+      "aliases": [
+        "Apache (dance)",
+        "Apache Turn",
+        "Bowery Waltz",
+        "La Danse Apache",
+        "Tough Dance"
+      ],
+      "popularity": 11957,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Apache (dance)"
+    },
+    {
+      "name": "Competitive dance",
+      "aliases": [
+        "dance sport"
+      ],
+      "popularity": 12576,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Competitive dance"
+    },
+    {
+      "name": "Dance from Cuba",
+      "aliases": [
+        "Cuban dance",
+        "dance of Cuba"
+      ],
+      "popularity": 13077,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Dance from Cuba"
+    },
+    {
+      "name": "Kapa o Pango",
+      "aliases": [],
+      "popularity": 13953,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Kapa o Pango"
+    },
+    {
+      "name": "Bamboula",
+      "aliases": [],
+      "popularity": 14522,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Bamboula"
+    },
+    {
+      "name": "Running man",
+      "aliases": [
+        "Running man (dance)",
+        "The Running Man"
+      ],
+      "popularity": 14775,
+      "rarity": 0.225,
+      "tier": 2,
+      "wiki": "Running man (dance)"
+    },
+    {
+      "name": "Interpretive dance",
+      "aliases": [],
+      "popularity": 15109,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Interpretive dance"
+    },
+    {
+      "name": "Contact improvisation",
+      "aliases": [],
+      "popularity": 15851,
+      "rarity": 0.215,
+      "tier": 2,
+      "wiki": "Contact improvisation"
+    },
+    {
+      "name": "Madison",
+      "aliases": [
+        "Madison (dance)",
+        "The Madison"
+      ],
+      "popularity": 15936,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Madison (dance)"
+    },
+    {
+      "name": "Contradanza",
+      "aliases": [],
+      "popularity": 16003,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Contradanza"
+    },
+    {
+      "name": "Electro dance",
+      "aliases": [],
+      "popularity": 16179,
+      "rarity": 0.199,
+      "tier": 1,
+      "wiki": "Electro dance"
+    },
+    {
+      "name": "Tricking",
+      "aliases": [
+        "Las artes marciales engañan",
+        "Martial Arts Tricking",
+        "Tricking (martial arts)"
+      ],
+      "popularity": 18278,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Tricking (martial arts)"
+    },
+    {
+      "name": "African dance",
+      "aliases": [],
+      "popularity": 18637,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "African dance"
+    },
+    {
+      "name": "Hustle",
+      "aliases": [
+        "Hustle (dance)"
+      ],
+      "popularity": 19723,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Hustle (dance)"
+    },
+    {
+      "name": "Social dance",
+      "aliases": [],
+      "popularity": 21008,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Social dance"
+    },
+    {
+      "name": "Merengue",
+      "aliases": [
+        "Merengue (dance)"
+      ],
+      "popularity": 21252,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Merengue (dance)"
+    },
+    {
+      "name": "Graham technique",
+      "aliases": [],
+      "popularity": 21532,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Graham technique"
+    },
+    {
+      "name": "Fan dance",
+      "aliases": [
+        "dance fan"
+      ],
+      "popularity": 23812,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Fan dance"
+    },
+    {
+      "name": "Nae Nae",
+      "aliases": [],
+      "popularity": 24887,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Nae Nae"
+    },
+    {
+      "name": "Sandungueo",
+      "aliases": [
+        "perreo"
+      ],
+      "popularity": 24889,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Sandungueo"
+    },
+    {
+      "name": "Juba dance",
+      "aliases": [],
+      "popularity": 26512,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Juba dance"
+    },
+    {
+      "name": "Boogaloo",
+      "aliases": [
+        "bugalú",
+        "Latin boogaloo",
+        "shing-a-ling"
+      ],
+      "popularity": 27547,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Boogaloo"
+    },
+    {
+      "name": "Mambo",
+      "aliases": [
+        "Mambo (dance)"
+      ],
+      "popularity": 28041,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Mambo (dance)"
+    },
+    {
+      "name": "Watusi",
+      "aliases": [
+        "watootsie",
+        "Watusi (dance)"
+      ],
+      "popularity": 30546,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Watusi (dance)"
+    },
+    {
+      "name": "Jazz dance",
+      "aliases": [],
+      "popularity": 30723,
+      "rarity": 0.126,
+      "tier": 1,
+      "wiki": "Jazz dance"
+    },
+    {
+      "name": "Zaouli",
+      "aliases": [],
+      "popularity": 31401,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Zaouli"
+    },
+    {
+      "name": "Melbourne shuffle",
+      "aliases": [],
+      "popularity": 31971,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Melbourne shuffle"
+    },
+    {
+      "name": "Eurythmy",
+      "aliases": [],
+      "popularity": 32016,
+      "rarity": 0.11,
+      "tier": 1,
+      "wiki": "Eurythmy"
+    },
+    {
+      "name": "Hakken",
+      "aliases": [],
+      "popularity": 32256,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Hakken"
+    },
+    {
+      "name": "Twist",
+      "aliases": [
+        "Twist (dance)"
+      ],
+      "popularity": 33268,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Twist (dance)"
+    },
+    {
+      "name": "Pogo",
+      "aliases": [
+        "Pogo (dance)"
+      ],
+      "popularity": 33798,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Pogo (dance)"
+    },
+    {
+      "name": "Bomba",
+      "aliases": [
+        "Bomba (Puerto Rico)"
+      ],
+      "popularity": 35070,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Bomba (Puerto Rico)"
+    },
+    {
+      "name": "Ecstatic dance",
+      "aliases": [],
+      "popularity": 36050,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Ecstatic dance"
+    },
+    {
+      "name": "Plena",
+      "aliases": [],
+      "popularity": 38931,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Plena"
+    },
+    {
+      "name": "Tandava",
+      "aliases": [
+        "Thandava",
+        "Thandavas"
+      ],
+      "popularity": 40742,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Tandava"
+    },
+    {
+      "name": "Limbo",
+      "aliases": [
+        "Limbo (dance)"
+      ],
+      "popularity": 41853,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Limbo (dance)"
+    },
+    {
+      "name": "Latin dance",
+      "aliases": [
+        "Latin American dance"
+      ],
+      "popularity": 47709,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Latin dance"
+    },
+    {
+      "name": "Bargirl",
+      "aliases": [
+        "B-girl",
+        "hostess",
+        "juicy girl"
+      ],
+      "popularity": 53910,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Bargirl"
+    },
+    {
+      "name": "Dance crazes",
+      "aliases": [
+        "craze dances",
+        "dance craze",
+        "dance fad",
+        "dance fads",
+        "fad dance",
+        "fad dances",
+        "novelty dance",
+        "novelty dances"
+      ],
+      "popularity": 57392,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Dance crazes"
+    },
+    {
+      "name": "Merengue music",
+      "aliases": [],
+      "popularity": 64294,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Merengue music"
+    },
+    {
+      "name": "Butoh",
+      "aliases": [
+        "buto"
+      ],
+      "popularity": 74521,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Butoh"
+    },
+    {
+      "name": "Line dance",
+      "aliases": [
+        "linedance"
+      ],
+      "popularity": 81265,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Line dance"
+    },
+    {
+      "name": "Charleston",
+      "aliases": [
+        "Charleston (dance)",
+        "The Charleston"
+      ],
+      "popularity": 82285,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Charleston (dance)"
+    },
+    {
+      "name": "Pole dance",
+      "aliases": [
+        "aerial dancing",
+        "pole dancing"
+      ],
+      "popularity": 92692,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Pole dance"
+    },
+    {
+      "name": "Erotic dance",
+      "aliases": [
+        "erotic dances",
+        "erotic dancing"
+      ],
+      "popularity": 107164,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Erotic dance"
+    },
+    {
+      "name": "Cakewalk",
+      "aliases": [
+        "cake walk"
+      ],
+      "popularity": 112165,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Cakewalk"
+    },
+    {
+      "name": "Cheerleading",
+      "aliases": [
+        "cheer",
+        "cheer dance",
+        "cheer leading",
+        "cheerlead",
+        "competitive cheerleading",
+        "performance cheer"
+      ],
+      "popularity": 116295,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Cheerleading"
+    },
+    {
+      "name": "Moshing",
+      "aliases": [
+        "slam dancing",
+        "slamming"
+      ],
+      "popularity": 131605,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Moshing"
+    },
+    {
+      "name": "Pop Goes the Weasel",
+      "aliases": [],
+      "popularity": 136621,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Pop Goes the Weasel"
+    }
+  ]
+}

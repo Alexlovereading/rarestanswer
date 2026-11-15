@@ -1,0 +1,545 @@
+{
+  "id": "u2-songs",
+  "slug": "u2-songs",
+  "category": "music",
+  "question": "Name a U2 song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Blow Your House Down",
+      "aliases": [
+        "Blow Your House Down (song)"
+      ],
+      "popularity": 21,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Blow Your House Down (song)"
+    },
+    {
+      "name": "Original of the Species",
+      "aliases": [],
+      "popularity": 2371,
+      "rarity": 0.983,
+      "tier": 6,
+      "wiki": "Original of the Species"
+    },
+    {
+      "name": "Love Is Bigger Than Anything in Its Way",
+      "aliases": [],
+      "popularity": 2927,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Love Is Bigger Than Anything in Its Way"
+    },
+    {
+      "name": "Song for Someone",
+      "aliases": [],
+      "popularity": 3318,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Song for Someone"
+    },
+    {
+      "name": "Get Out of Your Own Way",
+      "aliases": [],
+      "popularity": 3705,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Get Out of Your Own Way"
+    },
+    {
+      "name": "The Ballad of Ronnie Drew",
+      "aliases": [
+        "Ballad of Ronnie Drew"
+      ],
+      "popularity": 3715,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "The Ballad of Ronnie Drew"
+    },
+    {
+      "name": "Zooropa",
+      "aliases": [
+        "Zooropa (song)"
+      ],
+      "popularity": 4343,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Zooropa (song)"
+    },
+    {
+      "name": "Last Night on Earth",
+      "aliases": [
+        "Last Night on Earth (song)"
+      ],
+      "popularity": 4360,
+      "rarity": 0.879,
+      "tier": 5,
+      "wiki": "Last Night on Earth (song)"
+    },
+    {
+      "name": "All Because of You",
+      "aliases": [
+        "All Because of You (U2 song)"
+      ],
+      "popularity": 4710,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "All Because of You (U2 song)"
+    },
+    {
+      "name": "Another Day",
+      "aliases": [
+        "Another Day (U2 song)"
+      ],
+      "popularity": 5007,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Another Day (U2 song)"
+    },
+    {
+      "name": "I'll Go Crazy If I Don't Go Crazy Tonight",
+      "aliases": [],
+      "popularity": 5042,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "I'll Go Crazy If I Don't Go Crazy Tonight"
+    },
+    {
+      "name": "Window in the Skies",
+      "aliases": [],
+      "popularity": 5319,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Window in the Skies"
+    },
+    {
+      "name": "Invisible",
+      "aliases": [
+        "Invisible (U2 song)"
+      ],
+      "popularity": 5384,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Invisible (U2 song)"
+    },
+    {
+      "name": "Get On Your Boots",
+      "aliases": [],
+      "popularity": 5391,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Get On Your Boots"
+    },
+    {
+      "name": "Fire",
+      "aliases": [
+        "Fire (U2 song)"
+      ],
+      "popularity": 5397,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Fire (U2 song)"
+    },
+    {
+      "name": "You're the Best Thing About Me",
+      "aliases": [],
+      "popularity": 5644,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "You're the Best Thing About Me"
+    },
+    {
+      "name": "Magnificent",
+      "aliases": [
+        "Magnificent (U2 song)"
+      ],
+      "popularity": 6132,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Magnificent (U2 song)"
+    },
+    {
+      "name": "Please",
+      "aliases": [
+        "Please (U2 song)"
+      ],
+      "popularity": 6545,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "Please (U2 song)"
+    },
+    {
+      "name": "Mofo",
+      "aliases": [
+        "Mofo (song)"
+      ],
+      "popularity": 6698,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Mofo (song)"
+    },
+    {
+      "name": "A Celebration",
+      "aliases": [
+        "Celebration"
+      ],
+      "popularity": 6702,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "A Celebration"
+    },
+    {
+      "name": "A Day Without Me",
+      "aliases": [
+        "Day Without Me"
+      ],
+      "popularity": 6777,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "A Day Without Me"
+    },
+    {
+      "name": "The Miracle",
+      "aliases": [
+        "Miracle",
+        "Miracle (of Joey Ramone)",
+        "The Miracle (of Joey Ramone)"
+      ],
+      "popularity": 7607,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "The Miracle (of Joey Ramone)"
+    },
+    {
+      "name": "Your Song Saved My Life",
+      "aliases": [],
+      "popularity": 7705,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Your Song Saved My Life"
+    },
+    {
+      "name": "Every Breaking Wave",
+      "aliases": [],
+      "popularity": 7829,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Every Breaking Wave"
+    },
+    {
+      "name": "If God Will Send His Angels",
+      "aliases": [],
+      "popularity": 9212,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "If God Will Send His Angels"
+    },
+    {
+      "name": "Ordinary Love",
+      "aliases": [
+        "Ordinary Love (U2 song)"
+      ],
+      "popularity": 9234,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Ordinary Love (U2 song)"
+    },
+    {
+      "name": "11 O'Clock Tick Tock",
+      "aliases": [],
+      "popularity": 9837,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "11 O'Clock Tick Tock"
+    },
+    {
+      "name": "Staring at the Sun",
+      "aliases": [
+        "Staring at the Sun (U2 song)"
+      ],
+      "popularity": 9883,
+      "rarity": 0.534,
+      "tier": 3,
+      "wiki": "Staring at the Sun (U2 song)"
+    },
+    {
+      "name": "Who's Gonna Ride Your Wild Horses",
+      "aliases": [],
+      "popularity": 11326,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Who's Gonna Ride Your Wild Horses"
+    },
+    {
+      "name": "Take Me to the Clouds Above",
+      "aliases": [],
+      "popularity": 11349,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Take Me to the Clouds Above"
+    },
+    {
+      "name": "Fireflies",
+      "aliases": [
+        "Fireflies (Martin Garrix and U2 song)"
+      ],
+      "popularity": 11468,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Fireflies (Martin Garrix and U2 song)"
+    },
+    {
+      "name": "In God's Country",
+      "aliases": [],
+      "popularity": 11498,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "In God's Country"
+    },
+    {
+      "name": "Sometimes You Can't Make It on Your Own",
+      "aliases": [],
+      "popularity": 11722,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Sometimes You Can't Make It on Your Own"
+    },
+    {
+      "name": "Gloria",
+      "aliases": [
+        "Gloria (U2 song)"
+      ],
+      "popularity": 12438,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Gloria (U2 song)"
+    },
+    {
+      "name": "Lemon",
+      "aliases": [
+        "Lemon (U2 song)"
+      ],
+      "popularity": 12505,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Lemon (U2 song)"
+    },
+    {
+      "name": "Electrical Storm",
+      "aliases": [
+        "Electrical Storm (song)"
+      ],
+      "popularity": 12626,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Electrical Storm (song)"
+    },
+    {
+      "name": "Even Better Than the Real Thing",
+      "aliases": [],
+      "popularity": 13605,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Even Better Than the Real Thing"
+    },
+    {
+      "name": "Discothèque",
+      "aliases": [
+        "Discothèque (song)"
+      ],
+      "popularity": 13885,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Discothèque (song)"
+    },
+    {
+      "name": "Walk On",
+      "aliases": [
+        "Walk On (U2 song)"
+      ],
+      "popularity": 14321,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Walk On (U2 song)"
+    },
+    {
+      "name": "When Love Comes to Town",
+      "aliases": [],
+      "popularity": 14913,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "When Love Comes to Town"
+    },
+    {
+      "name": "Numb",
+      "aliases": [
+        "Numb (U2 song)"
+      ],
+      "popularity": 15279,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Numb (U2 song)"
+    },
+    {
+      "name": "Elevation",
+      "aliases": [
+        "Elevation (song)"
+      ],
+      "popularity": 15550,
+      "rarity": 0.293,
+      "tier": 2,
+      "wiki": "Elevation (song)"
+    },
+    {
+      "name": "Desire",
+      "aliases": [
+        "Desire (U2 song)"
+      ],
+      "popularity": 16359,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Desire (U2 song)"
+    },
+    {
+      "name": "Angel of Harlem",
+      "aliases": [],
+      "popularity": 17161,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Angel of Harlem"
+    },
+    {
+      "name": "The Fly",
+      "aliases": [
+        "Fly",
+        "Fly (U2 song)",
+        "The Fly (U2 song)"
+      ],
+      "popularity": 17339,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "The Fly (U2 song)"
+    },
+    {
+      "name": "Stay",
+      "aliases": [],
+      "popularity": 17873,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Stay (Faraway, So Close!)"
+    },
+    {
+      "name": "City of Blinding Lights",
+      "aliases": [],
+      "popularity": 18385,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "City of Blinding Lights"
+    },
+    {
+      "name": "I Will Follow",
+      "aliases": [],
+      "popularity": 20353,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "I Will Follow"
+    },
+    {
+      "name": "Mysterious Ways",
+      "aliases": [
+        "Mysterious Ways (song)"
+      ],
+      "popularity": 24189,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Mysterious Ways (song)"
+    },
+    {
+      "name": "Vertigo",
+      "aliases": [
+        "Vertigo (U2 song)"
+      ],
+      "popularity": 26285,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Vertigo (U2 song)"
+    },
+    {
+      "name": "Stuck in a Moment You Can't Get Out Of",
+      "aliases": [],
+      "popularity": 26324,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Stuck in a Moment You Can't Get Out Of"
+    },
+    {
+      "name": "Hold Me, Thrill Me, Kiss Me, Kill Me",
+      "aliases": [],
+      "popularity": 32152,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "Hold Me, Thrill Me, Kiss Me, Kill Me"
+    },
+    {
+      "name": "Sweetest Thing",
+      "aliases": [],
+      "popularity": 36061,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Sweetest Thing"
+    },
+    {
+      "name": "New Year's Day",
+      "aliases": [
+        "New Year's Day (U2 song)"
+      ],
+      "popularity": 42131,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "New Year's Day (U2 song)"
+    },
+    {
+      "name": "Beautiful Day",
+      "aliases": [],
+      "popularity": 51848,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Beautiful Day"
+    },
+    {
+      "name": "One",
+      "aliases": [
+        "One (U2 song)"
+      ],
+      "popularity": 66896,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "One (U2 song)"
+    },
+    {
+      "name": "Where the Streets Have No Name",
+      "aliases": [],
+      "popularity": 68570,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Where the Streets Have No Name"
+    },
+    {
+      "name": "I Still Haven't Found What I'm Looking For",
+      "aliases": [],
+      "popularity": 88868,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "I Still Haven't Found What I'm Looking For"
+    },
+    {
+      "name": "With or Without You",
+      "aliases": [],
+      "popularity": 97303,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "With or Without You"
+    }
+  ]
+}

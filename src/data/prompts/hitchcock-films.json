@@ -1,0 +1,652 @@
+{
+  "id": "hitchcock-films",
+  "slug": "hitchcock-films",
+  "category": "screen",
+  "question": "Name an Alfred Hitchcock film",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Incident at a Corner",
+      "aliases": [],
+      "popularity": 1136,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Incident at a Corner"
+    },
+    {
+      "name": "Woman to Woman",
+      "aliases": [
+        "Woman to Woman (1923 film)"
+      ],
+      "popularity": 1935,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Woman to Woman (1923 film)"
+    },
+    {
+      "name": "The White Shadow",
+      "aliases": [
+        "The White Shadow (film)",
+        "White Shadow",
+        "White Shadow (film)"
+      ],
+      "popularity": 2336,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "The White Shadow (film)"
+    },
+    {
+      "name": "The Passionate Adventure",
+      "aliases": [
+        "Passionate Adventure"
+      ],
+      "popularity": 2470,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "The Passionate Adventure"
+    },
+    {
+      "name": "The Fighting Generation",
+      "aliases": [
+        "Fighting Generation"
+      ],
+      "popularity": 3781,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "The Fighting Generation"
+    },
+    {
+      "name": "Always Tell Your Wife",
+      "aliases": [],
+      "popularity": 4098,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Always Tell Your Wife"
+    },
+    {
+      "name": "Elstree Calling",
+      "aliases": [],
+      "popularity": 5574,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Elstree Calling"
+    },
+    {
+      "name": "An Elastic Affair",
+      "aliases": [
+        "Elastic Affair"
+      ],
+      "popularity": 5934,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "An Elastic Affair"
+    },
+    {
+      "name": "Mary",
+      "aliases": [
+        "Mary (1931 film)"
+      ],
+      "popularity": 6970,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Mary (1931 film)"
+    },
+    {
+      "name": "Champagne",
+      "aliases": [
+        "Champagne (1928 film)"
+      ],
+      "popularity": 7683,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Champagne (1928 film)"
+    },
+    {
+      "name": "Waltzes from Vienna",
+      "aliases": [
+        "Strauss' Great Waltz"
+      ],
+      "popularity": 8545,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Waltzes from Vienna"
+    },
+    {
+      "name": "Easy Virtue",
+      "aliases": [
+        "Easy Virtue (1928 film)"
+      ],
+      "popularity": 8963,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Easy Virtue (1928 film)"
+    },
+    {
+      "name": "The Manxman",
+      "aliases": [
+        "Manxman",
+        "Manxman (1929 film)",
+        "The Manxman (1929 film)"
+      ],
+      "popularity": 9829,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "The Manxman (1929 film)"
+    },
+    {
+      "name": "The Skin Game",
+      "aliases": [
+        "Skin Game",
+        "Skin Game (1931 film)",
+        "The Skin Game (1931 film)"
+      ],
+      "popularity": 9882,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "The Skin Game (1931 film)"
+    },
+    {
+      "name": "Aventure Malgache",
+      "aliases": [],
+      "popularity": 9921,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Aventure Malgache"
+    },
+    {
+      "name": "The Farmer's Wife",
+      "aliases": [
+        "Farmer's Wife"
+      ],
+      "popularity": 10457,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "The Farmer's Wife"
+    },
+    {
+      "name": "Bon Voyage",
+      "aliases": [
+        "Bon Voyage (1944 film)"
+      ],
+      "popularity": 10740,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Bon Voyage (1944 film)"
+    },
+    {
+      "name": "German Concentration Camps Factual Survey",
+      "aliases": [],
+      "popularity": 11028,
+      "rarity": 0.734,
+      "tier": 4,
+      "wiki": "German Concentration Camps Factual Survey"
+    },
+    {
+      "name": "Rich and Strange",
+      "aliases": [
+        "East of Shanghai"
+      ],
+      "popularity": 12497,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Rich and Strange"
+    },
+    {
+      "name": "Downhill",
+      "aliases": [
+        "Downhill (1927 film)"
+      ],
+      "popularity": 13561,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Downhill (1927 film)"
+    },
+    {
+      "name": "Number Seventeen",
+      "aliases": [
+        "Number 17"
+      ],
+      "popularity": 13569,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Number Seventeen"
+    },
+    {
+      "name": "Juno and the Paycock",
+      "aliases": [
+        "Juno and the Paycock (film)"
+      ],
+      "popularity": 14264,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Juno and the Paycock (film)"
+    },
+    {
+      "name": "The Ring",
+      "aliases": [
+        "Ring",
+        "Ring (1927 film)",
+        "The Ring (1927 film)"
+      ],
+      "popularity": 19175,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "The Ring (1927 film)"
+    },
+    {
+      "name": "The Mountain Eagle",
+      "aliases": [
+        "Mountain Eagle"
+      ],
+      "popularity": 21498,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "The Mountain Eagle"
+    },
+    {
+      "name": "Secret Agent",
+      "aliases": [
+        "Secret Agent (1936 film)",
+        "The Secret Agent"
+      ],
+      "popularity": 25206,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Secret Agent (1936 film)"
+    },
+    {
+      "name": "Young and Innocent",
+      "aliases": [
+        "The Girl Was Young"
+      ],
+      "popularity": 25590,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Young and Innocent"
+    },
+    {
+      "name": "The Pleasure Garden",
+      "aliases": [
+        "Pleasure Garden",
+        "Pleasure Garden (1925 film)",
+        "The Pleasure Garden (1925 film)"
+      ],
+      "popularity": 25946,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "The Pleasure Garden (1925 film)"
+    },
+    {
+      "name": "Murder!",
+      "aliases": [],
+      "popularity": 26269,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Murder!"
+    },
+    {
+      "name": "Stage Fright",
+      "aliases": [
+        "Stage Fright (1950 film)"
+      ],
+      "popularity": 38227,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Stage Fright (1950 film)"
+    },
+    {
+      "name": "Under Capricorn",
+      "aliases": [],
+      "popularity": 38447,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Under Capricorn"
+    },
+    {
+      "name": "Saboteur",
+      "aliases": [
+        "Saboteur (film)",
+        "Sabotör"
+      ],
+      "popularity": 43520,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Saboteur (film)"
+    },
+    {
+      "name": "Blackmail",
+      "aliases": [
+        "Blackmail (1929 film)"
+      ],
+      "popularity": 44702,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Blackmail (1929 film)"
+    },
+    {
+      "name": "Jamaica Inn",
+      "aliases": [
+        "Jamaica Inn (film)"
+      ],
+      "popularity": 48563,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Jamaica Inn (film)"
+    },
+    {
+      "name": "Sabotage",
+      "aliases": [
+        "Sabotage (1936 film)",
+        "The Woman Alone"
+      ],
+      "popularity": 49439,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Sabotage (1936 film)"
+    },
+    {
+      "name": "Mr. & Mrs. Smith",
+      "aliases": [
+        "Mr. & Mrs. Smith (1941 film)"
+      ],
+      "popularity": 51363,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Mr. & Mrs. Smith (1941 film)"
+    },
+    {
+      "name": "I Confess",
+      "aliases": [
+        "I Confess (film)"
+      ],
+      "popularity": 53358,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "I Confess (film)"
+    },
+    {
+      "name": "The Lodger: A Story of the London Fog",
+      "aliases": [
+        "Lodger",
+        "The Case of Jonathan Drew",
+        "The Lodger"
+      ],
+      "popularity": 55640,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "The Lodger: A Story of the London Fog"
+    },
+    {
+      "name": "Topaz",
+      "aliases": [
+        "Topaz (1969 film)"
+      ],
+      "popularity": 56539,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Topaz (1969 film)"
+    },
+    {
+      "name": "The Paradine Case",
+      "aliases": [
+        "Paradine Case"
+      ],
+      "popularity": 61731,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "The Paradine Case"
+    },
+    {
+      "name": "Foreign Correspondent",
+      "aliases": [
+        "Foreign Correspondent (film)"
+      ],
+      "popularity": 72879,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Foreign Correspondent (film)"
+    },
+    {
+      "name": "The Trouble with Harry",
+      "aliases": [
+        "Trouble with Harry"
+      ],
+      "popularity": 74114,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "The Trouble with Harry"
+    },
+    {
+      "name": "Torn Curtain",
+      "aliases": [],
+      "popularity": 78706,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Torn Curtain"
+    },
+    {
+      "name": "The Wrong Man",
+      "aliases": [
+        "Wrong Man"
+      ],
+      "popularity": 79651,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "The Wrong Man"
+    },
+    {
+      "name": "Family Plot",
+      "aliases": [],
+      "popularity": 83985,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Family Plot"
+    },
+    {
+      "name": "The Man Who Knew Too Much (1934 film)",
+      "aliases": [
+        "Man Who Knew Too Much (1934 film)"
+      ],
+      "popularity": 92665,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "The Man Who Knew Too Much (1934 film)"
+    },
+    {
+      "name": "Frenzy",
+      "aliases": [],
+      "popularity": 96442,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Frenzy"
+    },
+    {
+      "name": "Lifeboat",
+      "aliases": [
+        "Lifeboat (1944 film)"
+      ],
+      "popularity": 99354,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Lifeboat (1944 film)"
+    },
+    {
+      "name": "Suspicion",
+      "aliases": [
+        "Suspicion (1941 film)"
+      ],
+      "popularity": 103354,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "Suspicion (1941 film)"
+    },
+    {
+      "name": "Shadow of a Doubt",
+      "aliases": [],
+      "popularity": 140123,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Shadow of a Doubt"
+    },
+    {
+      "name": "Marnie",
+      "aliases": [
+        "Marnie (film)"
+      ],
+      "popularity": 140463,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Marnie (film)"
+    },
+    {
+      "name": "Spellbound",
+      "aliases": [
+        "Spellbound (1945 film)"
+      ],
+      "popularity": 144134,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Spellbound (1945 film)"
+    },
+    {
+      "name": "The Lady Vanishes",
+      "aliases": [
+        "Lady Vanishes"
+      ],
+      "popularity": 151394,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "The Lady Vanishes"
+    },
+    {
+      "name": "To Catch a Thief",
+      "aliases": [],
+      "popularity": 177663,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "To Catch a Thief"
+    },
+    {
+      "name": "Notorious",
+      "aliases": [
+        "Notorious (1946 film)"
+      ],
+      "popularity": 194910,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Notorious (1946 film)"
+    },
+    {
+      "name": "The 39 Steps",
+      "aliases": [
+        "39 Steps",
+        "39 Steps (1935 film)",
+        "The 39 Steps (1935 film)",
+        "The Thirty-nine Steps",
+        "Thirty-nine Steps"
+      ],
+      "popularity": 197880,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "The 39 Steps (1935 film)"
+    },
+    {
+      "name": "Rope",
+      "aliases": [
+        "Rope (film)"
+      ],
+      "popularity": 199840,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Rope (film)"
+    },
+    {
+      "name": "The Man Who Knew Too Much (1956 film)",
+      "aliases": [
+        "Man Who Knew Too Much (1956 film)"
+      ],
+      "popularity": 228810,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "The Man Who Knew Too Much (1956 film)"
+    },
+    {
+      "name": "Strangers on a Train",
+      "aliases": [
+        "Strangers on a Train (film)"
+      ],
+      "popularity": 257508,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Strangers on a Train (film)"
+    },
+    {
+      "name": "Dial M for Murder",
+      "aliases": [],
+      "popularity": 262427,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Dial M for Murder"
+    },
+    {
+      "name": "Rebecca",
+      "aliases": [
+        "Rebecca (1940 film)"
+      ],
+      "popularity": 293838,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Rebecca (1940 film)"
+    },
+    {
+      "name": "The Birds",
+      "aliases": [
+        "Birds",
+        "Birds (film)",
+        "The Birds (film)"
+      ],
+      "popularity": 373183,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "The Birds (film)"
+    },
+    {
+      "name": "North by Northwest",
+      "aliases": [],
+      "popularity": 453153,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "North by Northwest"
+    },
+    {
+      "name": "Rear Window",
+      "aliases": [],
+      "popularity": 520598,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Rear Window"
+    },
+    {
+      "name": "Vertigo",
+      "aliases": [
+        "Vertigo (film)"
+      ],
+      "popularity": 665889,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Vertigo (film)"
+    },
+    {
+      "name": "Psycho",
+      "aliases": [
+        "Alfred Hitchcock's Psycho",
+        "Psycho 1960",
+        "Psycho (1960 film)"
+      ],
+      "popularity": 956900,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Psycho (1960 film)"
+    }
+  ]
+}

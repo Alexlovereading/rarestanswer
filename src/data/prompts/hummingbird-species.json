@@ -1,0 +1,3824 @@
+{
+  "id": "hummingbird-species",
+  "slug": "hummingbird-species",
+  "category": "animals",
+  "question": "Name a species of hummingbird",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Loja hummingbird",
+      "aliases": [
+        "Amazilia alticola"
+      ],
+      "popularity": 24,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Loja hummingbird"
+    },
+    {
+      "name": "Amazilia versicolor",
+      "aliases": [
+        "Versicoloured Emerald"
+      ],
+      "popularity": 38,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "Amazilia versicolor"
+    },
+    {
+      "name": "Amazilia cyanifrons",
+      "aliases": [],
+      "popularity": 42,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Amazilia cyanifrons"
+    },
+    {
+      "name": "Amazilia brevirostris",
+      "aliases": [],
+      "popularity": 44,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Amazilia brevirostris"
+    },
+    {
+      "name": "Cynanthus auriceps",
+      "aliases": [],
+      "popularity": 51,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Cynanthus auriceps"
+    },
+    {
+      "name": "Green-crowned woodnymph",
+      "aliases": [
+        "Thalurania fannyi"
+      ],
+      "popularity": 79,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Green-crowned woodnymph"
+    },
+    {
+      "name": "Flame-rumped sapphire",
+      "aliases": [
+        "Hylocharis pyropygia"
+      ],
+      "popularity": 194,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Flame-rumped sapphire"
+    },
+    {
+      "name": "Long-tailed sabrewing",
+      "aliases": [
+        "Campilopterus excelente",
+        "Campylopterus excellens"
+      ],
+      "popularity": 266,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Long-tailed sabrewing"
+    },
+    {
+      "name": "Mérida sunangel",
+      "aliases": [
+        "Heliangelus spencei"
+      ],
+      "popularity": 302,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Mérida sunangel"
+    },
+    {
+      "name": "Táchira emerald",
+      "aliases": [
+        "Amazilia distans"
+      ],
+      "popularity": 314,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Táchira emerald"
+    },
+    {
+      "name": "Perijá metaltail",
+      "aliases": [
+        "Metallura iracunda"
+      ],
+      "popularity": 328,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Perijá metaltail"
+    },
+    {
+      "name": "Narrow-tailed emerald",
+      "aliases": [
+        "Chlorostilbon stenurus"
+      ],
+      "popularity": 393,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Narrow-tailed emerald"
+    },
+    {
+      "name": "Rufous-webbed brilliant",
+      "aliases": [
+        "Heliodoxa branickii"
+      ],
+      "popularity": 458,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Rufous-webbed brilliant"
+    },
+    {
+      "name": "Grey-tailed mountaingem",
+      "aliases": [
+        "gray-tailed mountaingem",
+        "Lampornis cinereicauda"
+      ],
+      "popularity": 460,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Grey-tailed mountaingem"
+    },
+    {
+      "name": "Tumbes hummingbird",
+      "aliases": [
+        "Leucippus baeri"
+      ],
+      "popularity": 469,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Tumbes hummingbird"
+    },
+    {
+      "name": "Green-breasted mountaingem",
+      "aliases": [
+        "Lampornis sybillae"
+      ],
+      "popularity": 471,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Green-breasted mountaingem"
+    },
+    {
+      "name": "Olivaceous thornbill",
+      "aliases": [
+        "Chalcostigma olivaceum"
+      ],
+      "popularity": 474,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Olivaceous thornbill"
+    },
+    {
+      "name": "Bronze-tailed thornbill",
+      "aliases": [
+        "Chalcostigma heteropogon"
+      ],
+      "popularity": 475,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Bronze-tailed thornbill"
+    },
+    {
+      "name": "Rufous-capped thornbill",
+      "aliases": [
+        "Chalcostigma ruficeps"
+      ],
+      "popularity": 478,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Rufous-capped thornbill"
+    },
+    {
+      "name": "Tolima blossomcrown",
+      "aliases": [
+        "Andean blossomcrown",
+        "Anthocephala berlepschi"
+      ],
+      "popularity": 484,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Tolima blossomcrown"
+    },
+    {
+      "name": "Rufous-breasted sabrewing",
+      "aliases": [
+        "Campylopterus hyperythrus"
+      ],
+      "popularity": 494,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Rufous-breasted sabrewing"
+    },
+    {
+      "name": "Scaled metaltail",
+      "aliases": [
+        "Metallura aeneocauda"
+      ],
+      "popularity": 500,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Scaled metaltail"
+    },
+    {
+      "name": "Rufous-vented whitetip",
+      "aliases": [
+        "Urosticte ruficrissa"
+      ],
+      "popularity": 509,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Rufous-vented whitetip"
+    },
+    {
+      "name": "Buff-breasted sabrewing",
+      "aliases": [
+        "Campylopterus duidae"
+      ],
+      "popularity": 515,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Buff-breasted sabrewing"
+    },
+    {
+      "name": "Copper-tailed hummingbird",
+      "aliases": [
+        "Saucerottia cupreicauda"
+      ],
+      "popularity": 515,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Copper-tailed hummingbird"
+    },
+    {
+      "name": "Spot-throated hummingbird",
+      "aliases": [
+        "Leucippus taczanowskii"
+      ],
+      "popularity": 516,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Spot-throated hummingbird"
+    },
+    {
+      "name": "Tapajós hermit",
+      "aliases": [
+        "Phaethornis aethopygus"
+      ],
+      "popularity": 518,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Tapajós hermit"
+    },
+    {
+      "name": "White-tufted sunbeam",
+      "aliases": [
+        "Aglaeactis castelnaudii"
+      ],
+      "popularity": 520,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "White-tufted sunbeam"
+    },
+    {
+      "name": "Cinnamon-sided hummingbird",
+      "aliases": [
+        "Amazilia wagneri"
+      ],
+      "popularity": 523,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Cinnamon-sided hummingbird"
+    },
+    {
+      "name": "Green inca",
+      "aliases": [
+        "Coeligena conradii"
+      ],
+      "popularity": 523,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Green inca"
+    },
+    {
+      "name": "Outcrop sabrewing",
+      "aliases": [
+        "Campylopterus calcirupicola",
+        "Dry-forest Sabrewing"
+      ],
+      "popularity": 536,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Outcrop sabrewing"
+    },
+    {
+      "name": "Short-tailed emerald",
+      "aliases": [
+        "Chlorostilbon poortmani"
+      ],
+      "popularity": 538,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Short-tailed emerald"
+    },
+    {
+      "name": "Red-billed emerald",
+      "aliases": [
+        "Chlorostilbon gibsoni"
+      ],
+      "popularity": 552,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Red-billed emerald"
+    },
+    {
+      "name": "White-bellied mountaingem",
+      "aliases": [
+        "Lampornis hemileucus"
+      ],
+      "popularity": 554,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "White-bellied mountaingem"
+    },
+    {
+      "name": "Green-tailed emerald",
+      "aliases": [
+        "Chlorostilbon alice"
+      ],
+      "popularity": 556,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Green-tailed emerald"
+    },
+    {
+      "name": "Racket-tipped thorntail",
+      "aliases": [
+        "Discosura longicaudus",
+        "Racket-tailed Coquette",
+        "Racquet-tailed coquette"
+      ],
+      "popularity": 556,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Racket-tipped thorntail"
+    },
+    {
+      "name": "Curve-winged sabrewing",
+      "aliases": [
+        "Campylopterus curvipennis"
+      ],
+      "popularity": 557,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Curve-winged sabrewing"
+    },
+    {
+      "name": "Diamantina sabrewing",
+      "aliases": [
+        "Campylopterus diamantinensis"
+      ],
+      "popularity": 559,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Diamantina sabrewing"
+    },
+    {
+      "name": "Rufous-shafted woodstar",
+      "aliases": [
+        "Chaetocercus jourdanii"
+      ],
+      "popularity": 559,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Rufous-shafted woodstar"
+    },
+    {
+      "name": "Violet-chested hummingbird",
+      "aliases": [
+        "Sternoclyta cyanopectus"
+      ],
+      "popularity": 565,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Violet-chested hummingbird"
+    },
+    {
+      "name": "White-tailed emerald",
+      "aliases": [
+        "Elvira chionura"
+      ],
+      "popularity": 565,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "White-tailed emerald"
+    },
+    {
+      "name": "Golden-tailed starfrontlet",
+      "aliases": [
+        "Coeligena eos"
+      ],
+      "popularity": 570,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Golden-tailed starfrontlet"
+    },
+    {
+      "name": "Perija starfrontlet",
+      "aliases": [
+        "Coeligena consita"
+      ],
+      "popularity": 570,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Perija starfrontlet"
+    },
+    {
+      "name": "Coppery metaltail",
+      "aliases": [
+        "Metallura theresiae"
+      ],
+      "popularity": 573,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Coppery metaltail"
+    },
+    {
+      "name": "Ecuadorian piedtail",
+      "aliases": [
+        "Phlogophilus hemileucurus"
+      ],
+      "popularity": 578,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Ecuadorian piedtail"
+    },
+    {
+      "name": "Green-backed hillstar",
+      "aliases": [
+        "Urochroa leucura"
+      ],
+      "popularity": 582,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Green-backed hillstar"
+    },
+    {
+      "name": "Santa Marta blossomcrown",
+      "aliases": [
+        "Anthocephala floriceps",
+        "Blossomcrown"
+      ],
+      "popularity": 584,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Santa Marta blossomcrown"
+    },
+    {
+      "name": "Fiery-throated metaltail",
+      "aliases": [
+        "Metallura eupogon"
+      ],
+      "popularity": 585,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Fiery-throated metaltail"
+    },
+    {
+      "name": "Short-tailed woodstar",
+      "aliases": [
+        "Myrmia micrura"
+      ],
+      "popularity": 587,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Short-tailed woodstar"
+    },
+    {
+      "name": "Slender-tailed woodstar",
+      "aliases": [
+        "Microstilbon burmeisteri"
+      ],
+      "popularity": 591,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Slender-tailed woodstar"
+    },
+    {
+      "name": "Velvet-browed brilliant",
+      "aliases": [
+        "Heliodoxa xanthogonys"
+      ],
+      "popularity": 593,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Velvet-browed brilliant"
+    },
+    {
+      "name": "Santa Marta woodstar",
+      "aliases": [
+        "Chaetocercus astreans",
+        "Colombian woodstar"
+      ],
+      "popularity": 601,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Santa Marta woodstar"
+    },
+    {
+      "name": "Pirre hummingbird",
+      "aliases": [
+        "Goethalsia bella",
+        "Rufous-cheeked hummingbird"
+      ],
+      "popularity": 602,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Pirre hummingbird"
+    },
+    {
+      "name": "White-tailed starfrontlet",
+      "aliases": [
+        "Coeligena phalerata"
+      ],
+      "popularity": 615,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "White-tailed starfrontlet"
+    },
+    {
+      "name": "Black-throated brilliant",
+      "aliases": [
+        "Heliodoxa schreibersii"
+      ],
+      "popularity": 616,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Black-throated brilliant"
+    },
+    {
+      "name": "Napo sabrewing",
+      "aliases": [
+        "Campylopterus villaviscensio"
+      ],
+      "popularity": 616,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Napo sabrewing"
+    },
+    {
+      "name": "Viridian metaltail",
+      "aliases": [
+        "Metallura williami"
+      ],
+      "popularity": 618,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Viridian metaltail"
+    },
+    {
+      "name": "Olive-spotted hummingbird",
+      "aliases": [
+        "Leucippus chlorocercus"
+      ],
+      "popularity": 620,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Olive-spotted hummingbird"
+    },
+    {
+      "name": "Grey-chinned hermit",
+      "aliases": [
+        "Phaethornis griseogularis"
+      ],
+      "popularity": 622,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Grey-chinned hermit"
+    },
+    {
+      "name": "Lazuline sabrewing",
+      "aliases": [
+        "Campylopterus falcatus"
+      ],
+      "popularity": 623,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Lazuline sabrewing"
+    },
+    {
+      "name": "Neblina metaltail",
+      "aliases": [
+        "Metallura odomae"
+      ],
+      "popularity": 623,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Neblina metaltail"
+    },
+    {
+      "name": "Blue-mantled thornbill",
+      "aliases": [
+        "Chalcostigma stanleyi"
+      ],
+      "popularity": 624,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Blue-mantled thornbill"
+    },
+    {
+      "name": "Peruvian piedtail",
+      "aliases": [
+        "Phlogophilus harterti"
+      ],
+      "popularity": 627,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Peruvian piedtail"
+    },
+    {
+      "name": "Wedge-tailed hillstar",
+      "aliases": [
+        "Oreotrochilus adela"
+      ],
+      "popularity": 628,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "Wedge-tailed hillstar"
+    },
+    {
+      "name": "Mountain avocetbill",
+      "aliases": [
+        "Opisthoprora euryptera"
+      ],
+      "popularity": 640,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Mountain avocetbill"
+    },
+    {
+      "name": "Grey-breasted sabrewing",
+      "aliases": [
+        "Campylopterus largipennis"
+      ],
+      "popularity": 645,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Grey-breasted sabrewing"
+    },
+    {
+      "name": "Pink-throated brilliant",
+      "aliases": [
+        "Heliodoxa gularis"
+      ],
+      "popularity": 647,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Pink-throated brilliant"
+    },
+    {
+      "name": "Buff-bellied hermit",
+      "aliases": [
+        "Phaethornis subochraceus"
+      ],
+      "popularity": 649,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Buff-bellied hermit"
+    },
+    {
+      "name": "Tepui goldenthroat",
+      "aliases": [
+        "Polytmus milleri"
+      ],
+      "popularity": 650,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "Tepui goldenthroat"
+    },
+    {
+      "name": "Violet-capped hummingbird",
+      "aliases": [
+        "Goldmania violiceps"
+      ],
+      "popularity": 652,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Violet-capped hummingbird"
+    },
+    {
+      "name": "Golden-bellied starfrontlet",
+      "aliases": [
+        "Coeligena bonapartei"
+      ],
+      "popularity": 655,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Golden-bellied starfrontlet"
+    },
+    {
+      "name": "Rufous sabrewing",
+      "aliases": [
+        "Campylopterus rufus"
+      ],
+      "popularity": 660,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Rufous sabrewing"
+    },
+    {
+      "name": "Chestnut-bellied hummingbird",
+      "aliases": [
+        "Amazilia castaneiventris"
+      ],
+      "popularity": 663,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Chestnut-bellied hummingbird"
+    },
+    {
+      "name": "White-sided hillstar",
+      "aliases": [
+        "Oreotrochilus leucopleurus"
+      ],
+      "popularity": 668,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "White-sided hillstar"
+    },
+    {
+      "name": "White-browed hermit",
+      "aliases": [
+        "Phaethornis stuarti"
+      ],
+      "popularity": 670,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "White-browed hermit"
+    },
+    {
+      "name": "Green-throated mountaingem",
+      "aliases": [
+        "Lampornis viridipallens"
+      ],
+      "popularity": 680,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Green-throated mountaingem"
+    },
+    {
+      "name": "Many-spotted hummingbird",
+      "aliases": [
+        "Taphrospilus hypostictus"
+      ],
+      "popularity": 681,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Many-spotted hummingbird"
+    },
+    {
+      "name": "Green-tailed goldenthroat",
+      "aliases": [
+        "Polytmus theresiae"
+      ],
+      "popularity": 683,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Green-tailed goldenthroat"
+    },
+    {
+      "name": "Green-fronted hummingbird",
+      "aliases": [
+        "Amazilia viridifrons"
+      ],
+      "popularity": 686,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Green-fronted hummingbird"
+    },
+    {
+      "name": "Purple-bibbed whitetip",
+      "aliases": [
+        "Urosticte benjamini"
+      ],
+      "popularity": 691,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Purple-bibbed whitetip"
+    },
+    {
+      "name": "Stripe-breasted starthroat",
+      "aliases": [
+        "Heliomaster squamosus"
+      ],
+      "popularity": 699,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Stripe-breasted starthroat"
+    },
+    {
+      "name": "Black-backed thornbill",
+      "aliases": [
+        "Ramphomicron dorsale"
+      ],
+      "popularity": 704,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Black-backed thornbill"
+    },
+    {
+      "name": "Plain-bellied emerald",
+      "aliases": [
+        "Amazilia leucogaster"
+      ],
+      "popularity": 706,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Plain-bellied emerald"
+    },
+    {
+      "name": "Bronzy inca",
+      "aliases": [
+        "Coeligena coeligena"
+      ],
+      "popularity": 709,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Bronzy inca"
+    },
+    {
+      "name": "Sparkling-tailed woodstar",
+      "aliases": [
+        "Tilmatura dupontii"
+      ],
+      "popularity": 709,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Sparkling-tailed woodstar"
+    },
+    {
+      "name": "Buff-winged starfrontlet",
+      "aliases": [
+        "Coeligena lutetiae"
+      ],
+      "popularity": 712,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Buff-winged starfrontlet"
+    },
+    {
+      "name": "Sooty-capped hermit",
+      "aliases": [
+        "Phaethornis augusti"
+      ],
+      "popularity": 715,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Sooty-capped hermit"
+    },
+    {
+      "name": "Purple-collared woodstar",
+      "aliases": [
+        "Myrtis fanny"
+      ],
+      "popularity": 716,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Purple-collared woodstar"
+    },
+    {
+      "name": "Humboldt's sapphire",
+      "aliases": [
+        "Hylocharis humboldtii"
+      ],
+      "popularity": 720,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Humboldt's sapphire"
+    },
+    {
+      "name": "Black-breasted hillstar",
+      "aliases": [
+        "Oreotrochilus melanogaster"
+      ],
+      "popularity": 722,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Black-breasted hillstar"
+    },
+    {
+      "name": "Blue-throated starfrontlet",
+      "aliases": [
+        "Coeligena helianthea"
+      ],
+      "popularity": 728,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Blue-throated starfrontlet"
+    },
+    {
+      "name": "Brown inca",
+      "aliases": [
+        "Coeligena wilsoni"
+      ],
+      "popularity": 729,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Brown inca"
+    },
+    {
+      "name": "Slender sheartail",
+      "aliases": [
+        "Doricha enicura"
+      ],
+      "popularity": 736,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Slender sheartail"
+    },
+    {
+      "name": "Chiribiquete emerald",
+      "aliases": [
+        "Chlorostilbon olivaresi"
+      ],
+      "popularity": 740,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Chiribiquete emerald"
+    },
+    {
+      "name": "Streak-throated hermit",
+      "aliases": [
+        "Phaethornis rupurumii"
+      ],
+      "popularity": 740,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Streak-throated hermit"
+    },
+    {
+      "name": "Black-bellied thorntail",
+      "aliases": [
+        "Discosura langsdorffi",
+        "Popelairia langsdorffi"
+      ],
+      "popularity": 741,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Black-bellied thorntail"
+    },
+    {
+      "name": "Bronze-tailed comet",
+      "aliases": [
+        "Polyonymus caroli"
+      ],
+      "popularity": 748,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Bronze-tailed comet"
+    },
+    {
+      "name": "Blue-headed sapphire",
+      "aliases": [
+        "Hylocharis grayi"
+      ],
+      "popularity": 749,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Blue-headed sapphire"
+    },
+    {
+      "name": "Violet-throated starfrontlet",
+      "aliases": [
+        "Coeligena violifer"
+      ],
+      "popularity": 753,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Violet-throated starfrontlet"
+    },
+    {
+      "name": "Western emerald",
+      "aliases": [
+        "Chlorostilbon melanorhynchus"
+      ],
+      "popularity": 753,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Western emerald"
+    },
+    {
+      "name": "White-vented plumeleteer",
+      "aliases": [
+        "Chalybura buffonii"
+      ],
+      "popularity": 762,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "White-vented plumeleteer"
+    },
+    {
+      "name": "Needle-billed hermit",
+      "aliases": [
+        "Phaethornis philippii"
+      ],
+      "popularity": 765,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Needle-billed hermit"
+    },
+    {
+      "name": "Purple-backed sunbeam",
+      "aliases": [
+        "Aglaeactis aliciae"
+      ],
+      "popularity": 767,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Purple-backed sunbeam"
+    },
+    {
+      "name": "Long-tailed woodnymph",
+      "aliases": [
+        "Thalurania watertonii"
+      ],
+      "popularity": 768,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Long-tailed woodnymph"
+    },
+    {
+      "name": "Rufous-throated sapphire",
+      "aliases": [
+        "Hylocharis sapphirina"
+      ],
+      "popularity": 771,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Rufous-throated sapphire"
+    },
+    {
+      "name": "White-bearded hermit",
+      "aliases": [
+        "Phaethornis hispidus"
+      ],
+      "popularity": 775,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "White-bearded hermit"
+    },
+    {
+      "name": "Golden-breasted puffleg",
+      "aliases": [
+        "Eriocnemis mosquera"
+      ],
+      "popularity": 779,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Golden-breasted puffleg"
+    },
+    {
+      "name": "Blue-capped puffleg",
+      "aliases": [
+        "Eriocnemis glaucopoides"
+      ],
+      "popularity": 780,
+      "rarity": 0.715,
+      "tier": 4,
+      "wiki": "Blue-capped puffleg"
+    },
+    {
+      "name": "Green-bellied hummingbird",
+      "aliases": [
+        "Amazilia viridigaster"
+      ],
+      "popularity": 781,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Green-bellied hummingbird"
+    },
+    {
+      "name": "Scale-throated hermit",
+      "aliases": [
+        "Phaethornis euronyme",
+        "Phaethornis eurynome"
+      ],
+      "popularity": 785,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Scale-throated hermit"
+    },
+    {
+      "name": "Coppery-bellied puffleg",
+      "aliases": [
+        "Eriocnemis cupreoventris"
+      ],
+      "popularity": 787,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "Coppery-bellied puffleg"
+    },
+    {
+      "name": "Black-hooded sunbeam",
+      "aliases": [
+        "Aglaeactis pamela"
+      ],
+      "popularity": 789,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Black-hooded sunbeam"
+    },
+    {
+      "name": "Mountain velvetbreast",
+      "aliases": [
+        "Lafresnaya lafresnayi"
+      ],
+      "popularity": 789,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Mountain velvetbreast"
+    },
+    {
+      "name": "White-bearded helmetcrest",
+      "aliases": [
+        "Oxypogon lindenii"
+      ],
+      "popularity": 791,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "White-bearded helmetcrest"
+    },
+    {
+      "name": "White-throated daggerbill",
+      "aliases": [
+        "Schistes albogularis",
+        "White-throated wedgebill"
+      ],
+      "popularity": 791,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "White-throated daggerbill"
+    },
+    {
+      "name": "Tres Marias hummingbird",
+      "aliases": [
+        "Cynanthus lawrencei"
+      ],
+      "popularity": 793,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "Tres Marias hummingbird"
+    },
+    {
+      "name": "Straight-billed hermit",
+      "aliases": [
+        "Phaethornis bourcieri"
+      ],
+      "popularity": 794,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Straight-billed hermit"
+    },
+    {
+      "name": "Violet-throated metaltail",
+      "aliases": [
+        "Metallura baroni"
+      ],
+      "popularity": 795,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Violet-throated metaltail"
+    },
+    {
+      "name": "Longuemare's sunangel",
+      "aliases": [
+        "Heliangelus clarisse"
+      ],
+      "popularity": 797,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Longuemare's sunangel"
+    },
+    {
+      "name": "Broad-tipped hermit",
+      "aliases": [
+        "Anopetia gounellei",
+        "Phaethornis gounellei"
+      ],
+      "popularity": 803,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Broad-tipped hermit"
+    },
+    {
+      "name": "Cinnamon-throated hermit",
+      "aliases": [
+        "Phaethornis nattereri"
+      ],
+      "popularity": 812,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Cinnamon-throated hermit"
+    },
+    {
+      "name": "Buffy hummingbird",
+      "aliases": [
+        "Leucippus fallax"
+      ],
+      "popularity": 813,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Buffy hummingbird"
+    },
+    {
+      "name": "Purple-throated sunangel",
+      "aliases": [
+        "Heliangelus viola"
+      ],
+      "popularity": 814,
+      "rarity": 0.675,
+      "tier": 4,
+      "wiki": "Purple-throated sunangel"
+    },
+    {
+      "name": "Pale-bellied hermit",
+      "aliases": [
+        "Phaethornis anthophilus"
+      ],
+      "popularity": 820,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Pale-bellied hermit"
+    },
+    {
+      "name": "Sombre hummingbird",
+      "aliases": [
+        "Aphantochroa cirrochloris"
+      ],
+      "popularity": 827,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Sombre hummingbird"
+    },
+    {
+      "name": "Purple-crowned plovercrest",
+      "aliases": [
+        "Stephanoxis loddigesii"
+      ],
+      "popularity": 828,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Purple-crowned plovercrest"
+    },
+    {
+      "name": "Flame-throated sunangel",
+      "aliases": [
+        "Heliangelus micraster"
+      ],
+      "popularity": 835,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Flame-throated sunangel"
+    },
+    {
+      "name": "Gorgeted sunangel",
+      "aliases": [
+        "Heliangelus strophianus"
+      ],
+      "popularity": 836,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Gorgeted sunangel"
+    },
+    {
+      "name": "Gorgeted woodstar",
+      "aliases": [
+        "Chaetocercus heliodor"
+      ],
+      "popularity": 837,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Gorgeted woodstar"
+    },
+    {
+      "name": "Gould's inca",
+      "aliases": [
+        "Bourcieria inca",
+        "Coeligena inca"
+      ],
+      "popularity": 837,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Gould's inca"
+    },
+    {
+      "name": "Black-throated hermit",
+      "aliases": [
+        "Phaethornis atrimentalis"
+      ],
+      "popularity": 841,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Black-throated hermit"
+    },
+    {
+      "name": "Venezuelan sylph",
+      "aliases": [
+        "Aglaiocercus berlepschi"
+      ],
+      "popularity": 845,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Venezuelan sylph"
+    },
+    {
+      "name": "Snowy-bellied hummingbird",
+      "aliases": [
+        "Amazilia edward"
+      ],
+      "popularity": 847,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Snowy-bellied hummingbird"
+    },
+    {
+      "name": "Bronze-tailed plumeleteer",
+      "aliases": [
+        "Chalybura urochrysia"
+      ],
+      "popularity": 848,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Bronze-tailed plumeleteer"
+    },
+    {
+      "name": "Versicolored emerald",
+      "aliases": [
+        "Chrysuronia versicolor"
+      ],
+      "popularity": 850,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Versicolored emerald"
+    },
+    {
+      "name": "Violet-fronted brilliant",
+      "aliases": [
+        "Heliodoxa leadbeateri"
+      ],
+      "popularity": 854,
+      "rarity": 0.64,
+      "tier": 4,
+      "wiki": "Violet-fronted brilliant"
+    },
+    {
+      "name": "Turquoise-crowned hummingbird",
+      "aliases": [
+        "Cynanthus doubledayi",
+        "Doubleday's hummingbird"
+      ],
+      "popularity": 858,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Turquoise-crowned hummingbird"
+    },
+    {
+      "name": "White-chinned sapphire",
+      "aliases": [
+        "Hylocharis cyaneus",
+        "Hylocharis cyanus"
+      ],
+      "popularity": 858,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "White-chinned sapphire"
+    },
+    {
+      "name": "Purple-backed thornbill",
+      "aliases": [
+        "Ramphomicron microrhynchum"
+      ],
+      "popularity": 869,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Purple-backed thornbill"
+    },
+    {
+      "name": "Indigo-capped hummingbird",
+      "aliases": [
+        "Saucerottia cyanifrons"
+      ],
+      "popularity": 871,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Indigo-capped hummingbird"
+    },
+    {
+      "name": "Tawny-bellied hermit",
+      "aliases": [
+        "Phaethornis syrmatophorus"
+      ],
+      "popularity": 877,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Tawny-bellied hermit"
+    },
+    {
+      "name": "Rufous-gaped hillstar",
+      "aliases": [
+        "Urochroa bougueri"
+      ],
+      "popularity": 879,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Rufous-gaped hillstar"
+    },
+    {
+      "name": "Grey-bellied comet",
+      "aliases": [
+        "Taphrolesbia griseiventris"
+      ],
+      "popularity": 880,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Grey-bellied comet"
+    },
+    {
+      "name": "Purple-chested hummingbird",
+      "aliases": [
+        "Amazilia rosenbergi"
+      ],
+      "popularity": 884,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Purple-chested hummingbird"
+    },
+    {
+      "name": "Buff-thighed puffleg",
+      "aliases": [
+        "Haplophaedia assimilis"
+      ],
+      "popularity": 887,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Buff-thighed puffleg"
+    },
+    {
+      "name": "Green-tailed trainbearer",
+      "aliases": [
+        "Lesbia nuna"
+      ],
+      "popularity": 890,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Green-tailed trainbearer"
+    },
+    {
+      "name": "Dusky-throated hermit",
+      "aliases": [
+        "Phaethornis squalidus"
+      ],
+      "popularity": 891,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Dusky-throated hermit"
+    },
+    {
+      "name": "Sapphire-bellied hummingbird",
+      "aliases": [
+        "Lepidopyga lilliae"
+      ],
+      "popularity": 899,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Sapphire-bellied hummingbird"
+    },
+    {
+      "name": "Steely-vented hummingbird",
+      "aliases": [
+        "Amazilia saucerottei"
+      ],
+      "popularity": 900,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Steely-vented hummingbird"
+    },
+    {
+      "name": "White-tailed sabrewing",
+      "aliases": [
+        "Campylopterus ensipennis"
+      ],
+      "popularity": 901,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "White-tailed sabrewing"
+    },
+    {
+      "name": "Sooty barbthroat",
+      "aliases": [
+        "Threnetes niger"
+      ],
+      "popularity": 904,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Sooty barbthroat"
+    },
+    {
+      "name": "Beautiful sheartail",
+      "aliases": [
+        "Calothorax pulcher"
+      ],
+      "popularity": 905,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Beautiful sheartail"
+    },
+    {
+      "name": "White-tailed goldenthroat",
+      "aliases": [
+        "Polytmus guainumbi"
+      ],
+      "popularity": 905,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "White-tailed goldenthroat"
+    },
+    {
+      "name": "Minute hermit",
+      "aliases": [
+        "Phaethornis idaliae"
+      ],
+      "popularity": 910,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Minute hermit"
+    },
+    {
+      "name": "White-whiskered hermit",
+      "aliases": [
+        "Phaethornis yaruqui"
+      ],
+      "popularity": 913,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "White-whiskered hermit"
+    },
+    {
+      "name": "Orange-throated sunangel",
+      "aliases": [
+        "Heliangelus mavors"
+      ],
+      "popularity": 920,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Orange-throated sunangel"
+    },
+    {
+      "name": "White-tailed hummingbird",
+      "aliases": [
+        "Eupherusa poliocerca"
+      ],
+      "popularity": 922,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "White-tailed hummingbird"
+    },
+    {
+      "name": "Black inca",
+      "aliases": [
+        "Coeligena prunellei"
+      ],
+      "popularity": 923,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Black inca"
+    },
+    {
+      "name": "Shining-green hummingbird",
+      "aliases": [
+        "Lepidopyga goudoti"
+      ],
+      "popularity": 923,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Shining-green hummingbird"
+    },
+    {
+      "name": "Charming hummingbird",
+      "aliases": [
+        "Amazilia decora"
+      ],
+      "popularity": 928,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Charming hummingbird"
+    },
+    {
+      "name": "Garnet-throated hummingbird",
+      "aliases": [
+        "Lamprolaima rhami"
+      ],
+      "popularity": 932,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Garnet-throated hummingbird"
+    },
+    {
+      "name": "Golden-crowned emerald",
+      "aliases": [
+        "Chlorostilbon auriceps"
+      ],
+      "popularity": 939,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Golden-crowned emerald"
+    },
+    {
+      "name": "Oaxaca hummingbird",
+      "aliases": [
+        "Blue-capped Hummingbird",
+        "Eupherusa cyanophrys"
+      ],
+      "popularity": 939,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Oaxaca hummingbird"
+    },
+    {
+      "name": "Green-crowned plovercrest",
+      "aliases": [
+        "Stephanoxis lalandi"
+      ],
+      "popularity": 944,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Green-crowned plovercrest"
+    },
+    {
+      "name": "Blue-tufted starthroat",
+      "aliases": [
+        "Heliomaster furcifer"
+      ],
+      "popularity": 948,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Blue-tufted starthroat"
+    },
+    {
+      "name": "Pale-tailed barbthroat",
+      "aliases": [
+        "Threnetes leucurus"
+      ],
+      "popularity": 948,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Pale-tailed barbthroat"
+    },
+    {
+      "name": "White-vented violetear",
+      "aliases": [
+        "Colibri serrirostris"
+      ],
+      "popularity": 949,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "White-vented violetear"
+    },
+    {
+      "name": "Green-and-white hummingbird",
+      "aliases": [
+        "Amazilia viridicauda"
+      ],
+      "popularity": 952,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Green-and-white hummingbird"
+    },
+    {
+      "name": "Mexican hermit",
+      "aliases": [
+        "Phaethornis mexicanus"
+      ],
+      "popularity": 960,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Mexican hermit"
+    },
+    {
+      "name": "White-chested emerald",
+      "aliases": [
+        "Chrysuronia brevirostris"
+      ],
+      "popularity": 963,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "White-chested emerald"
+    },
+    {
+      "name": "Garden emerald",
+      "aliases": [
+        "Chlorostilbon assimilis"
+      ],
+      "popularity": 964,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Garden emerald"
+    },
+    {
+      "name": "Koepcke's hermit",
+      "aliases": [
+        "Phaethornis koepckeae"
+      ],
+      "popularity": 968,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Koepcke's hermit"
+    },
+    {
+      "name": "Dusky hummingbird",
+      "aliases": [
+        "Cynanthus sordidus"
+      ],
+      "popularity": 970,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Dusky hummingbird"
+    },
+    {
+      "name": "Scaly-breasted hummingbird",
+      "aliases": [
+        "Phaeochroa cuvierii"
+      ],
+      "popularity": 977,
+      "rarity": 0.539,
+      "tier": 3,
+      "wiki": "Scaly-breasted hummingbird"
+    },
+    {
+      "name": "Tyrian metaltail",
+      "aliases": [
+        "Metallura tyrianthina"
+      ],
+      "popularity": 982,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Tyrian metaltail"
+    },
+    {
+      "name": "Dot-eared coquette",
+      "aliases": [
+        "Lophornis gouldii"
+      ],
+      "popularity": 985,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Dot-eared coquette"
+    },
+    {
+      "name": "Gould's jewelfront",
+      "aliases": [
+        "Gould's jewel-front",
+        "Heliodoxa aurescens",
+        "Polyplancta aurescens"
+      ],
+      "popularity": 986,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Gould's jewelfront"
+    },
+    {
+      "name": "Blue-fronted lancebill",
+      "aliases": [
+        "Doryfera johannae"
+      ],
+      "popularity": 989,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Blue-fronted lancebill"
+    },
+    {
+      "name": "Peruvian sheartail",
+      "aliases": [
+        "Thaumastura cora"
+      ],
+      "popularity": 995,
+      "rarity": 0.525,
+      "tier": 3,
+      "wiki": "Peruvian sheartail"
+    },
+    {
+      "name": "Black metaltail",
+      "aliases": [
+        "Metallura phoebe"
+      ],
+      "popularity": 998,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Black metaltail"
+    },
+    {
+      "name": "Geoffroy's daggerbill",
+      "aliases": [
+        "Schistes geoffroyi",
+        "Wedge-billed Hummingbird"
+      ],
+      "popularity": 999,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Geoffroy's daggerbill"
+    },
+    {
+      "name": "Planalto hermit",
+      "aliases": [
+        "Phaethornis pretrei"
+      ],
+      "popularity": 1002,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Planalto hermit"
+    },
+    {
+      "name": "Blue-tailed hummingbird",
+      "aliases": [
+        "Amazilia cyanura"
+      ],
+      "popularity": 1004,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Blue-tailed hummingbird"
+    },
+    {
+      "name": "Emerald-bellied puffleg",
+      "aliases": [
+        "Eriocnemis aline"
+      ],
+      "popularity": 1004,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Emerald-bellied puffleg"
+    },
+    {
+      "name": "Blue-vented hummingbird",
+      "aliases": [
+        "Amazilia hoffmanni"
+      ],
+      "popularity": 1012,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Blue-vented hummingbird"
+    },
+    {
+      "name": "Hispaniolan emerald",
+      "aliases": [
+        "Chlorostilbon swainsonii",
+        "Riccordia swainsonii"
+      ],
+      "popularity": 1032,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Hispaniolan emerald"
+    },
+    {
+      "name": "Great-billed hermit",
+      "aliases": [
+        "Phaethornis malaris"
+      ],
+      "popularity": 1035,
+      "rarity": 0.504,
+      "tier": 3,
+      "wiki": "Great-billed hermit"
+    },
+    {
+      "name": "Tourmaline sunangel",
+      "aliases": [
+        "Heliangelus exortis"
+      ],
+      "popularity": 1038,
+      "rarity": 0.501,
+      "tier": 3,
+      "wiki": "Tourmaline sunangel"
+    },
+    {
+      "name": "Black-thighed puffleg",
+      "aliases": [
+        "Eriocnemis derbyi"
+      ],
+      "popularity": 1042,
+      "rarity": 0.499,
+      "tier": 3,
+      "wiki": "Black-thighed puffleg"
+    },
+    {
+      "name": "Inagua woodstar",
+      "aliases": [
+        "Calliphlox lyrura"
+      ],
+      "popularity": 1044,
+      "rarity": 0.496,
+      "tier": 3,
+      "wiki": "Inagua woodstar"
+    },
+    {
+      "name": "Hook-billed hermit",
+      "aliases": [
+        "Glaucis dohrnii"
+      ],
+      "popularity": 1048,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Hook-billed hermit"
+    },
+    {
+      "name": "Chestnut-breasted coronet",
+      "aliases": [
+        "Boissonneaua matthewsii"
+      ],
+      "popularity": 1054,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Chestnut-breasted coronet"
+    },
+    {
+      "name": "Veraguan mango",
+      "aliases": [
+        "Anthracothorax veraguensis"
+      ],
+      "popularity": 1059,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "Veraguan mango"
+    },
+    {
+      "name": "Green-throated mango",
+      "aliases": [
+        "Anthracothorax viridigula"
+      ],
+      "popularity": 1074,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Green-throated mango"
+    },
+    {
+      "name": "Blue-throated goldentail",
+      "aliases": [
+        "Blue-throated Sapphire",
+        "Hylocharis eliciae"
+      ],
+      "popularity": 1098,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Blue-throated goldentail"
+    },
+    {
+      "name": "Glow-throated hummingbird",
+      "aliases": [
+        "Selasphorus ardens"
+      ],
+      "popularity": 1104,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Glow-throated hummingbird"
+    },
+    {
+      "name": "Esmeraldas woodstar",
+      "aliases": [
+        "Acestrura berlepschi",
+        "Chaetocercus berlepschi",
+        "colibrí de Berlepsch",
+        "colibrí de esmeraldas",
+        "estrellita Esmeraldeña"
+      ],
+      "popularity": 1106,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Esmeraldas woodstar"
+    },
+    {
+      "name": "Peruvian racket-tail",
+      "aliases": [
+        "Ocreatus peruanus"
+      ],
+      "popularity": 1107,
+      "rarity": 0.475,
+      "tier": 3,
+      "wiki": "Peruvian racket-tail"
+    },
+    {
+      "name": "White-throated mountaingem",
+      "aliases": [
+        "Lampornis castaneoventris"
+      ],
+      "popularity": 1111,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "White-throated mountaingem"
+    },
+    {
+      "name": "White-bellied woodstar",
+      "aliases": [
+        "Chaetocercus mulsant"
+      ],
+      "popularity": 1119,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "White-bellied woodstar"
+    },
+    {
+      "name": "Hyacinth visorbearer",
+      "aliases": [
+        "Augastes scutatus"
+      ],
+      "popularity": 1123,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Hyacinth visorbearer"
+    },
+    {
+      "name": "White-bellied emerald",
+      "aliases": [
+        "Amazilia candida"
+      ],
+      "popularity": 1124,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "White-bellied emerald"
+    },
+    {
+      "name": "Reddish hermit",
+      "aliases": [
+        "Phaethornis ruber"
+      ],
+      "popularity": 1135,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Reddish hermit"
+    },
+    {
+      "name": "Wine-throated hummingbird",
+      "aliases": [
+        "Atthis ellioti"
+      ],
+      "popularity": 1135,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Wine-throated hummingbird"
+    },
+    {
+      "name": "Emerald-chinned hummingbird",
+      "aliases": [
+        "Abeillia abeillei"
+      ],
+      "popularity": 1136,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Emerald-chinned hummingbird"
+    },
+    {
+      "name": "Green-fronted lancebill",
+      "aliases": [
+        "Doryfera ludovicae"
+      ],
+      "popularity": 1140,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Green-fronted lancebill"
+    },
+    {
+      "name": "Fiery-tailed awlbill",
+      "aliases": [
+        "Anthracothorax recurvirostris",
+        "Avocettula recurvirostris"
+      ],
+      "popularity": 1145,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Fiery-tailed awlbill"
+    },
+    {
+      "name": "Mexican sheartail",
+      "aliases": [
+        "Doricha eliza"
+      ],
+      "popularity": 1145,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Mexican sheartail"
+    },
+    {
+      "name": "Sapphire-vented puffleg",
+      "aliases": [
+        "Eriocnemis luciani"
+      ],
+      "popularity": 1146,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Sapphire-vented puffleg"
+    },
+    {
+      "name": "Mexican woodnymph",
+      "aliases": [
+        "Thalurania ridgwayi"
+      ],
+      "popularity": 1149,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Mexican woodnymph"
+    },
+    {
+      "name": "Speckled hummingbird",
+      "aliases": [
+        "Adelomyia melanogenys"
+      ],
+      "popularity": 1153,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Speckled hummingbird"
+    },
+    {
+      "name": "Bearded mountaineer",
+      "aliases": [
+        "Oreonympha nobilis"
+      ],
+      "popularity": 1162,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Bearded mountaineer"
+    },
+    {
+      "name": "Violet-capped woodnymph",
+      "aliases": [
+        "Thalurania glaucopis"
+      ],
+      "popularity": 1165,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Violet-capped woodnymph"
+    },
+    {
+      "name": "Stripe-tailed hummingbird",
+      "aliases": [
+        "Eupherusa eximia"
+      ],
+      "popularity": 1178,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Stripe-tailed hummingbird"
+    },
+    {
+      "name": "Azure-crowned hummingbird",
+      "aliases": [
+        "Amazilia cyanocephala"
+      ],
+      "popularity": 1179,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Azure-crowned hummingbird"
+    },
+    {
+      "name": "Empress brilliant",
+      "aliases": [
+        "Heliodoxa imperatrix"
+      ],
+      "popularity": 1181,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Empress brilliant"
+    },
+    {
+      "name": "Glittering-throated emerald",
+      "aliases": [
+        "Amazilia fimbriata"
+      ],
+      "popularity": 1187,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Glittering-throated emerald"
+    },
+    {
+      "name": "Green-headed hillstar",
+      "aliases": [
+        "Oreotrochilus stolzmanni"
+      ],
+      "popularity": 1188,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Green-headed hillstar"
+    },
+    {
+      "name": "Peacock coquette",
+      "aliases": [
+        "Lophornis pavoninus"
+      ],
+      "popularity": 1188,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Peacock coquette"
+    },
+    {
+      "name": "Wedge-tailed sabrewing",
+      "aliases": [
+        "Campylopterus pampa",
+        "Ornismya pampa"
+      ],
+      "popularity": 1192,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Wedge-tailed sabrewing"
+    },
+    {
+      "name": "Butterfly coquette",
+      "aliases": [
+        "Lophornis verreauxii"
+      ],
+      "popularity": 1199,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Butterfly coquette"
+    },
+    {
+      "name": "Amethyst-throated mountaingem",
+      "aliases": [
+        "Lampornis amethystinus"
+      ],
+      "popularity": 1200,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Amethyst-throated mountaingem"
+    },
+    {
+      "name": "Coppery-headed emerald",
+      "aliases": [
+        "Elvira cupreiceps"
+      ],
+      "popularity": 1201,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Coppery-headed emerald"
+    },
+    {
+      "name": "Canivet's emerald",
+      "aliases": [
+        "Chlorostilbon canivetii"
+      ],
+      "popularity": 1216,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Canivet's emerald"
+    },
+    {
+      "name": "Buff-tailed sicklebill",
+      "aliases": [
+        "Eutoxeres condamini"
+      ],
+      "popularity": 1224,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Buff-tailed sicklebill"
+    },
+    {
+      "name": "Oasis hummingbird",
+      "aliases": [
+        "Rhodopis vesper",
+        "Rhodopsis vesper"
+      ],
+      "popularity": 1224,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Oasis hummingbird"
+    },
+    {
+      "name": "Long-tailed hermit",
+      "aliases": [
+        "Phaethornis superciliosus"
+      ],
+      "popularity": 1229,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Long-tailed hermit"
+    },
+    {
+      "name": "Violet-bellied hummingbird",
+      "aliases": [
+        "Juliamyia julie"
+      ],
+      "popularity": 1231,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Violet-bellied hummingbird"
+    },
+    {
+      "name": "Little hermit",
+      "aliases": [
+        "Phaethornis longuemareus"
+      ],
+      "popularity": 1233,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Little hermit"
+    },
+    {
+      "name": "Wire-crested thorntail",
+      "aliases": [
+        "Discosura popelairii"
+      ],
+      "popularity": 1239,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Wire-crested thorntail"
+    },
+    {
+      "name": "Green thorntail",
+      "aliases": [
+        "Discosura conversii",
+        "Popelairia conversii"
+      ],
+      "popularity": 1244,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Green thorntail"
+    },
+    {
+      "name": "Greenish puffleg",
+      "aliases": [
+        "Haplophaedia aureliae"
+      ],
+      "popularity": 1251,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Greenish puffleg"
+    },
+    {
+      "name": "Short-crested coquette",
+      "aliases": [
+        "Lophornis brachylophus"
+      ],
+      "popularity": 1258,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Short-crested coquette"
+    },
+    {
+      "name": "Dusky starfrontlet",
+      "aliases": [
+        "Coeligena orina"
+      ],
+      "popularity": 1271,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Dusky starfrontlet"
+    },
+    {
+      "name": "White-bellied hummingbird",
+      "aliases": [
+        "Amazilia chionogaster"
+      ],
+      "popularity": 1277,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "White-bellied hummingbird"
+    },
+    {
+      "name": "Festive coquette",
+      "aliases": [
+        "Lophornis chalybeus"
+      ],
+      "popularity": 1280,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Festive coquette"
+    },
+    {
+      "name": "Gilded sapphire",
+      "aliases": [
+        "Hylocharis chrysura"
+      ],
+      "popularity": 1283,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Gilded sapphire"
+    },
+    {
+      "name": "Scissor-tailed hummingbird",
+      "aliases": [
+        "Hylonympha macrocerca"
+      ],
+      "popularity": 1296,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Scissor-tailed hummingbird"
+    },
+    {
+      "name": "Copper-rumped hummingbird",
+      "aliases": [
+        "Amazilia tobaci"
+      ],
+      "popularity": 1302,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Copper-rumped hummingbird"
+    },
+    {
+      "name": "Spangled coquette",
+      "aliases": [
+        "Lophornis stictolophus"
+      ],
+      "popularity": 1309,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "Spangled coquette"
+    },
+    {
+      "name": "Black-eared fairy",
+      "aliases": [
+        "Heliothryx auritus"
+      ],
+      "popularity": 1329,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Black-eared fairy"
+    },
+    {
+      "name": "Band-tailed barbthroat",
+      "aliases": [
+        "Threnetes ruckeri"
+      ],
+      "popularity": 1332,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Band-tailed barbthroat"
+    },
+    {
+      "name": "Rufous-booted racket-tail",
+      "aliases": [
+        "Ocreatus addae"
+      ],
+      "popularity": 1341,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Rufous-booted racket-tail"
+    },
+    {
+      "name": "Sapphire-throated hummingbird",
+      "aliases": [
+        "Chrysuronia coeruleogularis",
+        "Lepidopyga coeruleogularis"
+      ],
+      "popularity": 1345,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "Sapphire-throated hummingbird"
+    },
+    {
+      "name": "Amethyst-throated sunangel",
+      "aliases": [
+        "Heliangelus amethysticollis"
+      ],
+      "popularity": 1350,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Amethyst-throated sunangel"
+    },
+    {
+      "name": "Gorgeted puffleg",
+      "aliases": [
+        "Eriocnemis isabellae"
+      ],
+      "popularity": 1370,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Gorgeted puffleg"
+    },
+    {
+      "name": "Blue-chested hummingbird",
+      "aliases": [
+        "Amazilia amabilis"
+      ],
+      "popularity": 1376,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Blue-chested hummingbird"
+    },
+    {
+      "name": "Collared inca",
+      "aliases": [
+        "Coeligena torquata"
+      ],
+      "popularity": 1377,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Collared inca"
+    },
+    {
+      "name": "Rainbow starfrontlet",
+      "aliases": [
+        "Coeligena iris"
+      ],
+      "popularity": 1385,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Rainbow starfrontlet"
+    },
+    {
+      "name": "Andean emerald",
+      "aliases": [
+        "Amazilia franciae",
+        "Uranomitra franciae"
+      ],
+      "popularity": 1388,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Andean emerald"
+    },
+    {
+      "name": "Purple-throated mountaingem",
+      "aliases": [
+        "Lampornis calolaemus",
+        "Purple-throated mountain gem"
+      ],
+      "popularity": 1389,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Purple-throated mountaingem"
+    },
+    {
+      "name": "Hooded visorbearer",
+      "aliases": [
+        "Augastes lumachella",
+        "Hooded visor-bearer"
+      ],
+      "popularity": 1390,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Hooded visorbearer"
+    },
+    {
+      "name": "Bronzy hermit",
+      "aliases": [
+        "Glaucis aeneus"
+      ],
+      "popularity": 1391,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Bronzy hermit"
+    },
+    {
+      "name": "Letitia's thorntail",
+      "aliases": [
+        "Discosura letitiae",
+        "Popelairia letitiae"
+      ],
+      "popularity": 1393,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Letitia's thorntail"
+    },
+    {
+      "name": "Frilled coquette",
+      "aliases": [
+        "Lophornis magnificus"
+      ],
+      "popularity": 1397,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Frilled coquette"
+    },
+    {
+      "name": "Stripe-throated hermit",
+      "aliases": [
+        "Phaethornis striigularis"
+      ],
+      "popularity": 1402,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Stripe-throated hermit"
+    },
+    {
+      "name": "White-crested coquette",
+      "aliases": [
+        "Lophornis adorabilis",
+        "Paphosia adorabilis"
+      ],
+      "popularity": 1409,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "White-crested coquette"
+    },
+    {
+      "name": "Great sapphirewing",
+      "aliases": [
+        "Pterophanes cyanopterus"
+      ],
+      "popularity": 1414,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Great sapphirewing"
+    },
+    {
+      "name": "Black-billed streamertail",
+      "aliases": [
+        "Trochilus scitulus"
+      ],
+      "popularity": 1423,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "Black-billed streamertail"
+    },
+    {
+      "name": "Black-bellied hummingbird",
+      "aliases": [
+        "Eupherusa nigriventris"
+      ],
+      "popularity": 1444,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Black-bellied hummingbird"
+    },
+    {
+      "name": "Blue-throated hillstar",
+      "aliases": [
+        "Oreotrochilus cyanolaemus"
+      ],
+      "popularity": 1444,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Blue-throated hillstar"
+    },
+    {
+      "name": "Bogotá sunangel",
+      "aliases": [
+        "Heliangelus zusii"
+      ],
+      "popularity": 1449,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Bogotá sunangel"
+    },
+    {
+      "name": "Sapphire-spangled emerald",
+      "aliases": [
+        "Amazilia lactea"
+      ],
+      "popularity": 1450,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Sapphire-spangled emerald"
+    },
+    {
+      "name": "Magenta-throated woodstar",
+      "aliases": [
+        "Calliphlox bryantae",
+        "Philodice bryantae"
+      ],
+      "popularity": 1457,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Magenta-throated woodstar"
+    },
+    {
+      "name": "Buffy helmetcrest",
+      "aliases": [
+        "Oxypogon stuebelii"
+      ],
+      "popularity": 1469,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Buffy helmetcrest"
+    },
+    {
+      "name": "Green-bearded helmetcrest",
+      "aliases": [
+        "Oxypogon guerinii"
+      ],
+      "popularity": 1495,
+      "rarity": 0.293,
+      "tier": 2,
+      "wiki": "Green-bearded helmetcrest"
+    },
+    {
+      "name": "Long-billed starthroat",
+      "aliases": [
+        "Heliomaster longirostris"
+      ],
+      "popularity": 1503,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Long-billed starthroat"
+    },
+    {
+      "name": "Blue-bearded helmetcrest",
+      "aliases": [
+        "Oxypogon cyanolaemus"
+      ],
+      "popularity": 1528,
+      "rarity": 0.288,
+      "tier": 2,
+      "wiki": "Blue-bearded helmetcrest"
+    },
+    {
+      "name": "Colorful puffleg",
+      "aliases": [
+        "Colourful puffleg",
+        "Eriocnemis mirabilis"
+      ],
+      "popularity": 1531,
+      "rarity": 0.285,
+      "tier": 2,
+      "wiki": "Colorful puffleg"
+    },
+    {
+      "name": "Saw-billed hermit",
+      "aliases": [
+        "Ramphodon naevius"
+      ],
+      "popularity": 1532,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Saw-billed hermit"
+    },
+    {
+      "name": "Purple-throated woodstar",
+      "aliases": [
+        "Calliphlox mitchellii",
+        "Philodice mitchellii"
+      ],
+      "popularity": 1534,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Purple-throated woodstar"
+    },
+    {
+      "name": "Brazilian ruby",
+      "aliases": [
+        "Clytolaema rubricauda"
+      ],
+      "popularity": 1545,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Brazilian ruby"
+    },
+    {
+      "name": "Fork-tailed woodnymph",
+      "aliases": [
+        "Thalurania furcata"
+      ],
+      "popularity": 1545,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Fork-tailed woodnymph"
+    },
+    {
+      "name": "Little woodstar",
+      "aliases": [
+        "Chaetocercus bombus"
+      ],
+      "popularity": 1551,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Little woodstar"
+    },
+    {
+      "name": "Violet-headed hummingbird",
+      "aliases": [
+        "Klais guimeti"
+      ],
+      "popularity": 1563,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Violet-headed hummingbird"
+    },
+    {
+      "name": "Glowing puffleg",
+      "aliases": [
+        "Eriocnemis vestita"
+      ],
+      "popularity": 1628,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Glowing puffleg"
+    },
+    {
+      "name": "Velvet-purple coronet",
+      "aliases": [
+        "Boissonneaua jardini"
+      ],
+      "popularity": 1644,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Velvet-purple coronet"
+    },
+    {
+      "name": "White-eared hummingbird",
+      "aliases": [
+        "Basilinna leucotis"
+      ],
+      "popularity": 1656,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "White-eared hummingbird"
+    },
+    {
+      "name": "Tooth-billed hummingbird",
+      "aliases": [
+        "Androdon aequatorialis"
+      ],
+      "popularity": 1680,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Tooth-billed hummingbird"
+    },
+    {
+      "name": "Glittering-bellied emerald",
+      "aliases": [
+        "Chlorostilbon lucidus"
+      ],
+      "popularity": 1683,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Glittering-bellied emerald"
+    },
+    {
+      "name": "Puerto Rican mango",
+      "aliases": [
+        "Anthracothorax aurulentus"
+      ],
+      "popularity": 1700,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Puerto Rican mango"
+    },
+    {
+      "name": "Royal sunangel",
+      "aliases": [
+        "Heliangelus regalis"
+      ],
+      "popularity": 1724,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Royal sunangel"
+    },
+    {
+      "name": "Andean hillstar",
+      "aliases": [
+        "Oreotrochilus estella"
+      ],
+      "popularity": 1726,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Andean hillstar"
+    },
+    {
+      "name": "Guanacaste hummingbird",
+      "aliases": [
+        "Amazilia alfaroana"
+      ],
+      "popularity": 1734,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Guanacaste hummingbird"
+    },
+    {
+      "name": "Hoary puffleg",
+      "aliases": [
+        "Haplophaedia lugens"
+      ],
+      "popularity": 1738,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Hoary puffleg"
+    },
+    {
+      "name": "Black-crested coquette",
+      "aliases": [
+        "Lophornis helenae",
+        "Paphosia helenae"
+      ],
+      "popularity": 1781,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Black-crested coquette"
+    },
+    {
+      "name": "Scintillant hummingbird",
+      "aliases": [
+        "Selasphorus scintilla"
+      ],
+      "popularity": 1818,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Scintillant hummingbird"
+    },
+    {
+      "name": "Hispaniolan mango",
+      "aliases": [
+        "Anthracothorax dominicus",
+        "Hispaniola Mango"
+      ],
+      "popularity": 1853,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Hispaniolan mango"
+    },
+    {
+      "name": "Amethyst woodstar",
+      "aliases": [
+        "Calliphlox amethystina"
+      ],
+      "popularity": 1862,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Amethyst woodstar"
+    },
+    {
+      "name": "Amazilia hummingbird",
+      "aliases": [
+        "Amazilia amazilia"
+      ],
+      "popularity": 1902,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Amazilia hummingbird"
+    },
+    {
+      "name": "Mangrove hummingbird",
+      "aliases": [
+        "Amazilia boucardi"
+      ],
+      "popularity": 1929,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Mangrove hummingbird"
+    },
+    {
+      "name": "Rainbow-bearded thornbill",
+      "aliases": [
+        "Chalcostigma herrani"
+      ],
+      "popularity": 1941,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Rainbow-bearded thornbill"
+    },
+    {
+      "name": "Berylline hummingbird",
+      "aliases": [
+        "Amazilia beryllina"
+      ],
+      "popularity": 1985,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Berylline hummingbird"
+    },
+    {
+      "name": "Buff-tailed coronet",
+      "aliases": [
+        "Boissonneaua flavescens"
+      ],
+      "popularity": 1985,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Buff-tailed coronet"
+    },
+    {
+      "name": "Plain-capped starthroat",
+      "aliases": [
+        "Heliomaster constantii"
+      ],
+      "popularity": 2004,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Plain-capped starthroat"
+    },
+    {
+      "name": "Talamanca hummingbird",
+      "aliases": [
+        "Admirable hummingbird",
+        "Eugenes spectabilis"
+      ],
+      "popularity": 2007,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Talamanca hummingbird"
+    },
+    {
+      "name": "White-throated hummingbird",
+      "aliases": [
+        "Leucochloris albicollis"
+      ],
+      "popularity": 2020,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "White-throated hummingbird"
+    },
+    {
+      "name": "Ecuadorian hillstar",
+      "aliases": [
+        "Oreotrochilus chimborazo"
+      ],
+      "popularity": 2073,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Ecuadorian hillstar"
+    },
+    {
+      "name": "Blue-tailed emerald",
+      "aliases": [
+        "Chlorostilbon mellisugus"
+      ],
+      "popularity": 2082,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Blue-tailed emerald"
+    },
+    {
+      "name": "Purple-crowned fairy",
+      "aliases": [
+        "Heliothryx barroti"
+      ],
+      "popularity": 2086,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Purple-crowned fairy"
+    },
+    {
+      "name": "Honduran emerald",
+      "aliases": [
+        "Amazilia luciae"
+      ],
+      "popularity": 2096,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Honduran emerald"
+    },
+    {
+      "name": "Chilean woodstar",
+      "aliases": [
+        "Eulidia yarrellii"
+      ],
+      "popularity": 2130,
+      "rarity": 0.197,
+      "tier": 1,
+      "wiki": "Chilean woodstar"
+    },
+    {
+      "name": "Brown violetear",
+      "aliases": [
+        "Colibri delphinae"
+      ],
+      "popularity": 2151,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Brown violetear"
+    },
+    {
+      "name": "Green hermit",
+      "aliases": [
+        "Phaethornis guy"
+      ],
+      "popularity": 2201,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Green hermit"
+    },
+    {
+      "name": "Black-breasted puffleg",
+      "aliases": [
+        "Eriocnemis nigrivestis"
+      ],
+      "popularity": 2215,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Black-breasted puffleg"
+    },
+    {
+      "name": "Cuban emerald",
+      "aliases": [
+        "Chlorostilbon ricordii"
+      ],
+      "popularity": 2285,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Cuban emerald"
+    },
+    {
+      "name": "Jamaican mango",
+      "aliases": [
+        "Anthracothorax mango"
+      ],
+      "popularity": 2296,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Jamaican mango"
+    },
+    {
+      "name": "Long-billed hermit",
+      "aliases": [
+        "Phaethornis longirostris"
+      ],
+      "popularity": 2298,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Long-billed hermit"
+    },
+    {
+      "name": "Blue-throated mountaingem",
+      "aliases": [
+        "blue-throated hummingbird",
+        "blue-throated mountain-gem",
+        "Lampornis clemenciae"
+      ],
+      "popularity": 2305,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Blue-throated mountaingem"
+    },
+    {
+      "name": "Rufous-breasted hermit",
+      "aliases": [
+        "Glaucis hirsutus"
+      ],
+      "popularity": 2322,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Rufous-breasted hermit"
+    },
+    {
+      "name": "Santa Marta sabrewing",
+      "aliases": [
+        "Campylopterus phainopeplus"
+      ],
+      "popularity": 2356,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Santa Marta sabrewing"
+    },
+    {
+      "name": "Rufous-crested coquette",
+      "aliases": [
+        "Lophornis delattrei"
+      ],
+      "popularity": 2427,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Rufous-crested coquette"
+    },
+    {
+      "name": "Cozumel emerald",
+      "aliases": [
+        "Chlorostilbon forficatus"
+      ],
+      "popularity": 2449,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Cozumel emerald"
+    },
+    {
+      "name": "Blue-chinned sapphire",
+      "aliases": [
+        "Chlorestes notata"
+      ],
+      "popularity": 2482,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "Blue-chinned sapphire"
+    },
+    {
+      "name": "Cinnamon hummingbird",
+      "aliases": [
+        "Amazilia rutila"
+      ],
+      "popularity": 2490,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Cinnamon hummingbird"
+    },
+    {
+      "name": "Violet-crowned hummingbird",
+      "aliases": [
+        "Amazilia violiceps"
+      ],
+      "popularity": 2535,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Violet-crowned hummingbird"
+    },
+    {
+      "name": "Black-tailed trainbearer",
+      "aliases": [
+        "Lesbia victoriae"
+      ],
+      "popularity": 2593,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Black-tailed trainbearer"
+    },
+    {
+      "name": "Violet-tailed sylph",
+      "aliases": [
+        "Aglaiocercus coelestis"
+      ],
+      "popularity": 2619,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Violet-tailed sylph"
+    },
+    {
+      "name": "Fiery topaz",
+      "aliases": [
+        "Topaza pyra"
+      ],
+      "popularity": 2634,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Fiery topaz"
+    },
+    {
+      "name": "White-tipped sicklebill",
+      "aliases": [
+        "Eutoxeres aquila"
+      ],
+      "popularity": 2769,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "White-tipped sicklebill"
+    },
+    {
+      "name": "Puerto Rican emerald",
+      "aliases": [
+        "Chlorostilbon maugaeus"
+      ],
+      "popularity": 2811,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Puerto Rican emerald"
+    },
+    {
+      "name": "Red-tailed comet",
+      "aliases": [
+        "Sappho sparganurus"
+      ],
+      "popularity": 2818,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Red-tailed comet"
+    },
+    {
+      "name": "Bahama woodstar",
+      "aliases": [
+        "Calliphlox evelynae",
+        "Philodice evelynae"
+      ],
+      "popularity": 2849,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Bahama woodstar"
+    },
+    {
+      "name": "Horned sungem",
+      "aliases": [
+        "Heliactin bilophus"
+      ],
+      "popularity": 2858,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Horned sungem"
+    },
+    {
+      "name": "Black jacobin",
+      "aliases": [
+        "Florisuga fusca"
+      ],
+      "popularity": 2885,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Black jacobin"
+    },
+    {
+      "name": "Swallow-tailed hummingbird",
+      "aliases": [
+        "Eupetomena macroura"
+      ],
+      "popularity": 2907,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Swallow-tailed hummingbird"
+    },
+    {
+      "name": "Crimson topaz",
+      "aliases": [
+        "Topaza pella"
+      ],
+      "popularity": 2929,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Crimson topaz"
+    },
+    {
+      "name": "Black-throated mango",
+      "aliases": [
+        "Anthracothorax nigricollis"
+      ],
+      "popularity": 2946,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Black-throated mango"
+    },
+    {
+      "name": "Shining sunbeam",
+      "aliases": [
+        "Aglaeactis cupripennis"
+      ],
+      "popularity": 2957,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Shining sunbeam"
+    },
+    {
+      "name": "Volcano hummingbird",
+      "aliases": [
+        "Selasphorus flammula"
+      ],
+      "popularity": 2981,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Volcano hummingbird"
+    },
+    {
+      "name": "Blue-headed hummingbird",
+      "aliases": [
+        "Cyanophaia bicolor"
+      ],
+      "popularity": 3062,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Blue-headed hummingbird"
+    },
+    {
+      "name": "Snowcap",
+      "aliases": [
+        "Microchera albocoronata"
+      ],
+      "popularity": 3131,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Snowcap"
+    },
+    {
+      "name": "Lesser violetear",
+      "aliases": [
+        "Colibri cyanotus",
+        "Colibri cyanotus cyanotus",
+        "Colibri thalassinus cyanotus",
+        "Mountain violet-ear"
+      ],
+      "popularity": 3292,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Lesser violetear"
+    },
+    {
+      "name": "Green-backed firecrown",
+      "aliases": [
+        "Sephanoides sephaniodes",
+        "Sephanoides sephanoides"
+      ],
+      "popularity": 3379,
+      "rarity": 0.112,
+      "tier": 1,
+      "wiki": "Green-backed firecrown"
+    },
+    {
+      "name": "Crowned woodnymph",
+      "aliases": [
+        "Thalurania colombica"
+      ],
+      "popularity": 3384,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Crowned woodnymph"
+    },
+    {
+      "name": "Tufted coquette",
+      "aliases": [
+        "Lophornis ornatus"
+      ],
+      "popularity": 3402,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Tufted coquette"
+    },
+    {
+      "name": "Green-breasted mango",
+      "aliases": [
+        "Anthracothorax prevostii"
+      ],
+      "popularity": 3507,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Green-breasted mango"
+    },
+    {
+      "name": "Lucifer sheartail",
+      "aliases": [
+        "Calothorax lucifer",
+        "Lucifer hummingbird"
+      ],
+      "popularity": 3538,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "Lucifer sheartail"
+    },
+    {
+      "name": "Buff-bellied hummingbird",
+      "aliases": [
+        "Amazilia yucatanensis"
+      ],
+      "popularity": 3603,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Buff-bellied hummingbird"
+    },
+    {
+      "name": "Juan Fernández firecrown",
+      "aliases": [
+        "Juan Fern·ndez firecrown",
+        "Sephanoides fernandensis"
+      ],
+      "popularity": 3697,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Juan Fernández firecrown"
+    },
+    {
+      "name": "Turquoise-throated puffleg",
+      "aliases": [
+        "Eriocnemis godini"
+      ],
+      "popularity": 3708,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Turquoise-throated puffleg"
+    },
+    {
+      "name": "Sparkling violetear",
+      "aliases": [
+        "Colibri coruscans"
+      ],
+      "popularity": 3735,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Sparkling violetear"
+    },
+    {
+      "name": "Long-tailed sylph",
+      "aliases": [
+        "Aglaiocercus kingii"
+      ],
+      "popularity": 3820,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Long-tailed sylph"
+    },
+    {
+      "name": "Green-throated carib",
+      "aliases": [
+        "Eulampis holosericeus",
+        "Sericotes holosericeus"
+      ],
+      "popularity": 4039,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Green-throated carib"
+    },
+    {
+      "name": "Ruby-topaz hummingbird",
+      "aliases": [
+        "Chrysolampis mosquitus"
+      ],
+      "popularity": 4055,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Ruby-topaz hummingbird"
+    },
+    {
+      "name": "Green mango",
+      "aliases": [
+        "Anthracothorax viridis"
+      ],
+      "popularity": 4090,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Green mango"
+    },
+    {
+      "name": "Fawn-breasted brilliant",
+      "aliases": [
+        "Heliodoxa rubinoides"
+      ],
+      "popularity": 4091,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Fawn-breasted brilliant"
+    },
+    {
+      "name": "Xantus's hummingbird",
+      "aliases": [
+        "Basilinna xantusii",
+        "Black-fronted hummingbird",
+        "Hylocharis xantusii"
+      ],
+      "popularity": 4158,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Xantus's hummingbird"
+    },
+    {
+      "name": "Violet sabrewing",
+      "aliases": [
+        "Campylopterus hemileucurus"
+      ],
+      "popularity": 4209,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Violet sabrewing"
+    },
+    {
+      "name": "Vervain hummingbird",
+      "aliases": [
+        "Mellisuga minima"
+      ],
+      "popularity": 4336,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Vervain hummingbird"
+    },
+    {
+      "name": "Rivoli's hummingbird",
+      "aliases": [
+        "Eugenes fulgens",
+        "Magnificent Hummingbird"
+      ],
+      "popularity": 4391,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Rivoli's hummingbird"
+    },
+    {
+      "name": "Purple-throated carib",
+      "aliases": [
+        "Eulampis jugularis"
+      ],
+      "popularity": 4596,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Purple-throated carib"
+    },
+    {
+      "name": "Golden-tailed sapphire",
+      "aliases": [
+        "Chrysuronia oenone"
+      ],
+      "popularity": 4733,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Golden-tailed sapphire"
+    },
+    {
+      "name": "Rufous-tailed hummingbird",
+      "aliases": [
+        "Amazilia tzacatl"
+      ],
+      "popularity": 5041,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Rufous-tailed hummingbird"
+    },
+    {
+      "name": "Fiery-throated hummingbird",
+      "aliases": [
+        "Panterpe insignis"
+      ],
+      "popularity": 5058,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Fiery-throated hummingbird"
+    },
+    {
+      "name": "Green-crowned brilliant",
+      "aliases": [
+        "Heliodoxa jacula"
+      ],
+      "popularity": 5377,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Green-crowned brilliant"
+    },
+    {
+      "name": "Mexican violetear",
+      "aliases": [
+        "Colibri thalassinus"
+      ],
+      "popularity": 5756,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Mexican violetear"
+    },
+    {
+      "name": "Broad-billed hummingbird",
+      "aliases": [
+        "Cynanthus latirostris"
+      ],
+      "popularity": 5856,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Broad-billed hummingbird"
+    },
+    {
+      "name": "Bumblebee hummingbird",
+      "aliases": [
+        "Atthis heloisa"
+      ],
+      "popularity": 6393,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Bumblebee hummingbird"
+    },
+    {
+      "name": "Antillean crested hummingbird",
+      "aliases": [
+        "Orthorhyncus cristatus"
+      ],
+      "popularity": 6434,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Antillean crested hummingbird"
+    },
+    {
+      "name": "White-booted racket-tail",
+      "aliases": [
+        "Ocreatus underwoodii"
+      ],
+      "popularity": 6770,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "White-booted racket-tail"
+    },
+    {
+      "name": "White-necked jacobin",
+      "aliases": [
+        "Florisuga mellivora"
+      ],
+      "popularity": 7374,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "White-necked jacobin"
+    },
+    {
+      "name": "Southern giant hummingbird",
+      "aliases": [
+        "Giant Hummingbird",
+        "Patagona gigas"
+      ],
+      "popularity": 7979,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Southern giant hummingbird"
+    },
+    {
+      "name": "Broad-tailed hummingbird",
+      "aliases": [
+        "Selasphorus platycercus"
+      ],
+      "popularity": 10230,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Broad-tailed hummingbird"
+    },
+    {
+      "name": "Costa's hummingbird",
+      "aliases": [
+        "Calypte Costa Rica ke",
+        "Calypte costae",
+        "Costa's Humming bird"
+      ],
+      "popularity": 12053,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Costa's hummingbird"
+    },
+    {
+      "name": "Marvelous spatuletail",
+      "aliases": [
+        "Loddigesia mirabilis",
+        "Marvellous Spatuletail juju"
+      ],
+      "popularity": 12059,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Marvelous spatuletail"
+    },
+    {
+      "name": "Allen's hummingbird",
+      "aliases": [
+        "Selasphorus sasin"
+      ],
+      "popularity": 13882,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Allen's hummingbird"
+    },
+    {
+      "name": "Sword-billed hummingbird",
+      "aliases": [
+        "Ensifera ensifera"
+      ],
+      "popularity": 16059,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Sword-billed hummingbird"
+    },
+    {
+      "name": "Red-billed streamertail",
+      "aliases": [
+        "Trochilus polytmus"
+      ],
+      "popularity": 16189,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Red-billed streamertail"
+    },
+    {
+      "name": "Calliope hummingbird",
+      "aliases": [
+        "Selasphorus calliope"
+      ],
+      "popularity": 19113,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Calliope hummingbird"
+    },
+    {
+      "name": "Black-chinned hummingbird",
+      "aliases": [
+        "Archilochus alexandri"
+      ],
+      "popularity": 26230,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Black-chinned hummingbird"
+    },
+    {
+      "name": "Coppery emerald",
+      "aliases": [
+        "Chlorostilbon russatus"
+      ],
+      "popularity": 41697,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Coppery emerald"
+    },
+    {
+      "name": "Rufous hummingbird",
+      "aliases": [
+        "Selasphorus rufus"
+      ],
+      "popularity": 50690,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Rufous hummingbird"
+    },
+    {
+      "name": "Ruby-throated hummingbird",
+      "aliases": [
+        "Archilochus colubris"
+      ],
+      "popularity": 66648,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Ruby-throated hummingbird"
+    },
+    {
+      "name": "Anna's hummingbird",
+      "aliases": [
+        "Calypte anna"
+      ],
+      "popularity": 78571,
+      "rarity": 0.003,
+      "tier": 1,
+      "wiki": "Anna's hummingbird"
+    },
+    {
+      "name": "Bee hummingbird",
+      "aliases": [
+        "Helena hummingbird",
+        "Mellisuga helenae",
+        "zunzuncito"
+      ],
+      "popularity": 115534,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Bee hummingbird"
+    }
+  ]
+}

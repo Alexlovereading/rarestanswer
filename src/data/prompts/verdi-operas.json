@@ -1,0 +1,329 @@
+{
+  "id": "verdi-operas",
+  "slug": "verdi-operas",
+  "category": "music",
+  "question": "Name an opera by Giuseppe Verdi",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Ernani (1903 La voce del padrone recording)",
+      "aliases": [],
+      "popularity": 612,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Ernani (1903 La voce del padrone recording)"
+    },
+    {
+      "name": "Aida (1987 film)",
+      "aliases": [],
+      "popularity": 1780,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Aida (1987 film)"
+    },
+    {
+      "name": "Verdi",
+      "aliases": [
+        "Verdi (album)"
+      ],
+      "popularity": 2031,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Verdi (album)"
+    },
+    {
+      "name": "Aroldo",
+      "aliases": [],
+      "popularity": 2748,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Aroldo"
+    },
+    {
+      "name": "La battaglia di Legnano",
+      "aliases": [
+        "The Battle of Legnano"
+      ],
+      "popularity": 2869,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "La battaglia di Legnano"
+    },
+    {
+      "name": "Alzira",
+      "aliases": [
+        "Alzira (opera)"
+      ],
+      "popularity": 3582,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Alzira (opera)"
+    },
+    {
+      "name": "Celeste Aida",
+      "aliases": [],
+      "popularity": 3628,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Celeste Aida"
+    },
+    {
+      "name": "Caro nome che il mio cor",
+      "aliases": [],
+      "popularity": 3645,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Caro nome che il mio cor"
+    },
+    {
+      "name": "Il corsaro",
+      "aliases": [],
+      "popularity": 3814,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Il corsaro"
+    },
+    {
+      "name": "Jérusalem",
+      "aliases": [],
+      "popularity": 3830,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Jérusalem"
+    },
+    {
+      "name": "Oberto",
+      "aliases": [
+        "Oberto (opera)"
+      ],
+      "popularity": 4060,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Oberto (opera)"
+    },
+    {
+      "name": "Un giorno di regno",
+      "aliases": [
+        "A Day's Reign",
+        "Il finto Stanislao",
+        "The False Stanislaw"
+      ],
+      "popularity": 4290,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Un giorno di regno"
+    },
+    {
+      "name": "I due Foscari",
+      "aliases": [
+        "The two Foscari"
+      ],
+      "popularity": 4336,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "I due Foscari"
+    },
+    {
+      "name": "Rigoletto",
+      "aliases": [
+        "Rigoletto (1982 film)"
+      ],
+      "popularity": 4974,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Rigoletto (1982 film)"
+    },
+    {
+      "name": "I Lombardi alla prima crociata",
+      "aliases": [
+        "I Lombardi"
+      ],
+      "popularity": 5447,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "I Lombardi alla prima crociata"
+    },
+    {
+      "name": "Giovanna d'Arco",
+      "aliases": [
+        "Joan of Ark"
+      ],
+      "popularity": 5628,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Giovanna d'Arco"
+    },
+    {
+      "name": "I masnadieri",
+      "aliases": [],
+      "popularity": 6038,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "I masnadieri"
+    },
+    {
+      "name": "Stiffelio",
+      "aliases": [],
+      "popularity": 6087,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Stiffelio"
+    },
+    {
+      "name": "I vespri siciliani",
+      "aliases": [
+        "Giovanna de Guzman"
+      ],
+      "popularity": 6403,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "I vespri siciliani"
+    },
+    {
+      "name": "Attila",
+      "aliases": [
+        "Attila (opera)"
+      ],
+      "popularity": 7404,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Attila (opera)"
+    },
+    {
+      "name": "Luisa Miller",
+      "aliases": [],
+      "popularity": 12856,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Luisa Miller"
+    },
+    {
+      "name": "Ernani (Ernani)",
+      "aliases": [],
+      "popularity": 17912,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Ernani"
+    },
+    {
+      "name": "Simon Boccanegra",
+      "aliases": [],
+      "popularity": 29075,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Simon Boccanegra"
+    },
+    {
+      "name": "La forza del destino",
+      "aliases": [
+        "The Force of Destiny"
+      ],
+      "popularity": 29193,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "La forza del destino"
+    },
+    {
+      "name": "Libiamo ne' lieti calici",
+      "aliases": [
+        "Brindisi"
+      ],
+      "popularity": 30923,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Libiamo ne' lieti calici"
+    },
+    {
+      "name": "Macbeth",
+      "aliases": [
+        "Macbeth (Verdi)"
+      ],
+      "popularity": 33814,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Macbeth (Verdi)"
+    },
+    {
+      "name": "Un ballo in maschera",
+      "aliases": [
+        "A Masked Ball"
+      ],
+      "popularity": 33854,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Un ballo in maschera"
+    },
+    {
+      "name": "Otello",
+      "aliases": [
+        "Othello"
+      ],
+      "popularity": 37258,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Otello"
+    },
+    {
+      "name": "Falstaff",
+      "aliases": [
+        "Falstaff (opera)"
+      ],
+      "popularity": 47943,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Falstaff (opera)"
+    },
+    {
+      "name": "Don Carlos",
+      "aliases": [
+        "Don Carlo"
+      ],
+      "popularity": 52350,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Don Carlos"
+    },
+    {
+      "name": "La donna è mobile",
+      "aliases": [],
+      "popularity": 56324,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "La donna è mobile"
+    },
+    {
+      "name": "Il trovatore",
+      "aliases": [],
+      "popularity": 66486,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Il trovatore"
+    },
+    {
+      "name": "Nabucco",
+      "aliases": [
+        "Nabucodonosor"
+      ],
+      "popularity": 74363,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Nabucco"
+    },
+    {
+      "name": "Aida (Aida)",
+      "aliases": [],
+      "popularity": 179231,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Aida"
+    },
+    {
+      "name": "La traviata",
+      "aliases": [],
+      "popularity": 296971,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "La traviata"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "id": "stegosaurian-dinosaurs",
+  "slug": "stegosaurian-dinosaurs",
+  "category": "animals",
+  "question": "Name a stegosaurian dinosaur",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Saldamosaurus",
+      "aliases": [],
+      "popularity": 133,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Saldamosaurus"
+    },
+    {
+      "name": "Siamodracon",
+      "aliases": [],
+      "popularity": 292,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Siamodracon"
+    },
+    {
+      "name": "Ferganastegos",
+      "aliases": [],
+      "popularity": 338,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Ferganastegos"
+    },
+    {
+      "name": "Changdusaurus",
+      "aliases": [],
+      "popularity": 359,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Changdusaurus"
+    },
+    {
+      "name": "Eoplophysis",
+      "aliases": [],
+      "popularity": 477,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Eoplophysis"
+    },
+    {
+      "name": "Hypsirophus",
+      "aliases": [
+        "Hypsirhophus"
+      ],
+      "popularity": 1029,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Hypsirophus"
+    },
+    {
+      "name": "Monkonosaurus",
+      "aliases": [],
+      "popularity": 2990,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Monkonosaurus"
+    },
+    {
+      "name": "Baiyinosaurus",
+      "aliases": [],
+      "popularity": 3751,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Baiyinosaurus"
+    },
+    {
+      "name": "Regnosaurus",
+      "aliases": [],
+      "popularity": 3903,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Regnosaurus"
+    },
+    {
+      "name": "Craterosaurus",
+      "aliases": [],
+      "popularity": 4568,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Craterosaurus"
+    },
+    {
+      "name": "Chialingosaurus",
+      "aliases": [
+        "Chialingosaurus kuani"
+      ],
+      "popularity": 5001,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Chialingosaurus"
+    },
+    {
+      "name": "Yingshanosaurus",
+      "aliases": [],
+      "popularity": 5222,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Yingshanosaurus"
+    },
+    {
+      "name": "Mongolostegus",
+      "aliases": [],
+      "popularity": 6127,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Mongolostegus"
+    },
+    {
+      "name": "Bashanosaurus",
+      "aliases": [],
+      "popularity": 6271,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Bashanosaurus"
+    },
+    {
+      "name": "Loricatosaurus",
+      "aliases": [],
+      "popularity": 6475,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Loricatosaurus"
+    },
+    {
+      "name": "Jiangjunosaurus",
+      "aliases": [],
+      "popularity": 6780,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Jiangjunosaurus"
+    },
+    {
+      "name": "Dravidosaurus",
+      "aliases": [],
+      "popularity": 6918,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Dravidosaurus"
+    },
+    {
+      "name": "Lexovisaurus",
+      "aliases": [],
+      "popularity": 8235,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Lexovisaurus"
+    },
+    {
+      "name": "Paranthodon",
+      "aliases": [],
+      "popularity": 8323,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Paranthodon"
+    },
+    {
+      "name": "Thyreosaurus",
+      "aliases": [],
+      "popularity": 8377,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Thyreosaurus"
+    },
+    {
+      "name": "Adratiklit",
+      "aliases": [],
+      "popularity": 9338,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Adratiklit"
+    },
+    {
+      "name": "Alcovasaurus",
+      "aliases": [
+        "Natronasaurus"
+      ],
+      "popularity": 10132,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Alcovasaurus"
+    },
+    {
+      "name": "Yanbeilong",
+      "aliases": [],
+      "popularity": 10434,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Yanbeilong"
+    },
+    {
+      "name": "Chungkingosaurus",
+      "aliases": [],
+      "popularity": 12050,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Chungkingosaurus"
+    },
+    {
+      "name": "Huayangosaurus",
+      "aliases": [],
+      "popularity": 12836,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Huayangosaurus"
+    },
+    {
+      "name": "Hesperosaurus",
+      "aliases": [],
+      "popularity": 13097,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Hesperosaurus"
+    },
+    {
+      "name": "Tuojiangosaurus",
+      "aliases": [],
+      "popularity": 15244,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Tuojiangosaurus"
+    },
+    {
+      "name": "Wuerhosaurus",
+      "aliases": [],
+      "popularity": 16032,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Wuerhosaurus"
+    },
+    {
+      "name": "Gigantspinosaurus",
+      "aliases": [],
+      "popularity": 16716,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Gigantspinosaurus"
+    },
+    {
+      "name": "Miragaia longicollum",
+      "aliases": [
+        "Miragaia"
+      ],
+      "popularity": 21854,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Miragaia longicollum"
+    },
+    {
+      "name": "Dacentrurus",
+      "aliases": [],
+      "popularity": 23057,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Dacentrurus"
+    },
+    {
+      "name": "Kentrosaurus",
+      "aliases": [
+        "Doryphorosaurus",
+        "Kentrurosaurus"
+      ],
+      "popularity": 44881,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Kentrosaurus"
+    },
+    {
+      "name": "Stegosaurus",
+      "aliases": [],
+      "popularity": 364297,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Stegosaurus"
+    }
+  ]
+}

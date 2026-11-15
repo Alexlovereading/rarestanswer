@@ -1,0 +1,666 @@
+{
+  "id": "jazz-genres",
+  "slug": "jazz-genres",
+  "category": "music",
+  "question": "Name a genre of jazz",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Afro-jazz",
+      "aliases": [
+        "African jazz",
+        "jazz in Africa"
+      ],
+      "popularity": 142,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Afro-jazz"
+    },
+    {
+      "name": "Finnish jazz",
+      "aliases": [],
+      "popularity": 571,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Finnish jazz"
+    },
+    {
+      "name": "Bulgarian jazz",
+      "aliases": [
+        "jazz in Bulgaria"
+      ],
+      "popularity": 861,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Bulgarian jazz"
+    },
+    {
+      "name": "Pinoy jazz",
+      "aliases": [],
+      "popularity": 897,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Pinoy jazz"
+    },
+    {
+      "name": "New Orleans jazz",
+      "aliases": [
+        "original New Orleans jazz"
+      ],
+      "popularity": 903,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "New Orleans jazz"
+    },
+    {
+      "name": "Jazz in Mexico",
+      "aliases": [
+        "Mexican jazz"
+      ],
+      "popularity": 1020,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Jazz in Mexico"
+    },
+    {
+      "name": "Zimbabwean jazz",
+      "aliases": [],
+      "popularity": 1029,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Zimbabwean jazz"
+    },
+    {
+      "name": "Continental jazz",
+      "aliases": [],
+      "popularity": 1343,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Continental jazz"
+    },
+    {
+      "name": "Flamenco jazz",
+      "aliases": [],
+      "popularity": 1524,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Flamenco jazz"
+    },
+    {
+      "name": "Dutch jazz",
+      "aliases": [],
+      "popularity": 1593,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Dutch jazz"
+    },
+    {
+      "name": "Spanish jazz",
+      "aliases": [
+        "jazz in Spain"
+      ],
+      "popularity": 1744,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Spanish jazz"
+    },
+    {
+      "name": "Armenian jazz",
+      "aliases": [
+        "jazz in Armenia"
+      ],
+      "popularity": 1835,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Armenian jazz"
+    },
+    {
+      "name": "Azerbaijani jazz",
+      "aliases": [],
+      "popularity": 1838,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Azerbaijani jazz"
+    },
+    {
+      "name": "Jazz blues",
+      "aliases": [
+        "blues jazz",
+        "jazzblues"
+      ],
+      "popularity": 2000,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Jazz blues"
+    },
+    {
+      "name": "Yass",
+      "aliases": [
+        "Yass (music)"
+      ],
+      "popularity": 2004,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Yass (music)"
+    },
+    {
+      "name": "Swedish jazz",
+      "aliases": [],
+      "popularity": 2035,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Swedish jazz"
+    },
+    {
+      "name": "Belgian jazz",
+      "aliases": [
+        "jazz of Belgium"
+      ],
+      "popularity": 2118,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Belgian jazz"
+    },
+    {
+      "name": "Danish jazz",
+      "aliases": [],
+      "popularity": 2222,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Danish jazz"
+    },
+    {
+      "name": "Jazz in India",
+      "aliases": [
+        "Indian jazz"
+      ],
+      "popularity": 2455,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Jazz in India"
+    },
+    {
+      "name": "Polish jazz",
+      "aliases": [],
+      "popularity": 2606,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Polish jazz"
+    },
+    {
+      "name": "Sacred jazz",
+      "aliases": [
+        "religious jazz"
+      ],
+      "popularity": 2808,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Sacred jazz"
+    },
+    {
+      "name": "Canadian jazz",
+      "aliases": [
+        "jazz in Canada"
+      ],
+      "popularity": 2854,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Canadian jazz"
+    },
+    {
+      "name": "Ska jazz",
+      "aliases": [],
+      "popularity": 3106,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Ska jazz"
+    },
+    {
+      "name": "Mainstream jazz",
+      "aliases": [],
+      "popularity": 3131,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Mainstream jazz"
+    },
+    {
+      "name": "Italian jazz",
+      "aliases": [],
+      "popularity": 3250,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Italian jazz"
+    },
+    {
+      "name": "Indo jazz",
+      "aliases": [
+        "Indian jazz fusion",
+        "Indo jazz fusion"
+      ],
+      "popularity": 3386,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Indo jazz"
+    },
+    {
+      "name": "Samba-jazz",
+      "aliases": [
+        "hard bossa nova",
+        "jazz-samba",
+        "MPM"
+      ],
+      "popularity": 3565,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Samba-jazz"
+    },
+    {
+      "name": "Progressive jazz",
+      "aliases": [],
+      "popularity": 3639,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Progressive jazz"
+    },
+    {
+      "name": "Brazilian jazz",
+      "aliases": [],
+      "popularity": 3967,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Brazilian jazz"
+    },
+    {
+      "name": "Crossover jazz",
+      "aliases": [],
+      "popularity": 4044,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Crossover jazz"
+    },
+    {
+      "name": "Australian jazz",
+      "aliases": [],
+      "popularity": 4255,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Australian jazz"
+    },
+    {
+      "name": "German jazz",
+      "aliases": [
+        "jazz in Germany"
+      ],
+      "popularity": 4351,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "German jazz"
+    },
+    {
+      "name": "Ethno jazz",
+      "aliases": [
+        "ethnic jazz",
+        "world jazz"
+      ],
+      "popularity": 4507,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Ethno jazz"
+    },
+    {
+      "name": "Russian jazz",
+      "aliases": [],
+      "popularity": 4695,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Russian jazz"
+    },
+    {
+      "name": "Folk jazz",
+      "aliases": [],
+      "popularity": 4857,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Folk jazz"
+    },
+    {
+      "name": "South African jazz",
+      "aliases": [],
+      "popularity": 4857,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "South African jazz"
+    },
+    {
+      "name": "Sweet jazz",
+      "aliases": [
+        "sweet band",
+        "sweet music",
+        "sweet orchestra"
+      ],
+      "popularity": 4961,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Sweet jazz"
+    },
+    {
+      "name": "French jazz",
+      "aliases": [],
+      "popularity": 5148,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "French jazz"
+    },
+    {
+      "name": "Chamber jazz",
+      "aliases": [],
+      "popularity": 6100,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Chamber jazz"
+    },
+    {
+      "name": "Crime jazz",
+      "aliases": [
+        "detective music",
+        "noir jazz"
+      ],
+      "popularity": 6831,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Crime jazz"
+    },
+    {
+      "name": "Orchestral jazz",
+      "aliases": [
+        "symphonic jazz"
+      ],
+      "popularity": 6965,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Orchestral jazz"
+    },
+    {
+      "name": "British jazz",
+      "aliases": [],
+      "popularity": 7496,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "British jazz"
+    },
+    {
+      "name": "British dance band",
+      "aliases": [],
+      "popularity": 7649,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "British dance band"
+    },
+    {
+      "name": "Trad jazz",
+      "aliases": [
+        "two beat jazz"
+      ],
+      "popularity": 11221,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Trad jazz"
+    },
+    {
+      "name": "Iranian jazz",
+      "aliases": [
+        "Persian jazz"
+      ],
+      "popularity": 11518,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Iranian jazz"
+    },
+    {
+      "name": "Jazz poetry",
+      "aliases": [],
+      "popularity": 12130,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Jazz poetry"
+    },
+    {
+      "name": "Jazz piano",
+      "aliases": [
+        "piano jazz"
+      ],
+      "popularity": 12578,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Jazz piano"
+    },
+    {
+      "name": "Kansas City jazz",
+      "aliases": [],
+      "popularity": 14117,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Kansas City jazz"
+    },
+    {
+      "name": "Ethio-jazz",
+      "aliases": [
+        "Ethiopian jazz"
+      ],
+      "popularity": 16447,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Ethio-jazz"
+    },
+    {
+      "name": "West Coast jazz",
+      "aliases": [
+        "West Coast cool"
+      ],
+      "popularity": 17651,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "West Coast jazz"
+    },
+    {
+      "name": "Spiritual jazz",
+      "aliases": [
+        "astral jazz"
+      ],
+      "popularity": 18171,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Spiritual jazz"
+    },
+    {
+      "name": "Soul jazz",
+      "aliases": [
+        "funky jazz",
+        "souljazz"
+      ],
+      "popularity": 18794,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Soul jazz"
+    },
+    {
+      "name": "Latin jazz",
+      "aliases": [],
+      "popularity": 21258,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Latin jazz"
+    },
+    {
+      "name": "Japanese jazz",
+      "aliases": [],
+      "popularity": 24781,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Japanese jazz"
+    },
+    {
+      "name": "Stride",
+      "aliases": [
+        "Harlem stride piano",
+        "Stride (music)",
+        "stride piano"
+      ],
+      "popularity": 26470,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Stride (music)"
+    },
+    {
+      "name": "Jazz-funk",
+      "aliases": [],
+      "popularity": 29393,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Jazz-funk"
+    },
+    {
+      "name": "Avant-garde jazz",
+      "aliases": [
+        "avant-jazz"
+      ],
+      "popularity": 30500,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Avant-garde jazz"
+    },
+    {
+      "name": "Post-bop",
+      "aliases": [],
+      "popularity": 31668,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Post-bop"
+    },
+    {
+      "name": "Third stream",
+      "aliases": [],
+      "popularity": 32225,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Third stream"
+    },
+    {
+      "name": "Balkan jazz",
+      "aliases": [],
+      "popularity": 32856,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Balkan jazz"
+    },
+    {
+      "name": "Nu jazz",
+      "aliases": [
+        "electro jazz",
+        "future jazz",
+        "jazztronica"
+      ],
+      "popularity": 36485,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Nu jazz"
+    },
+    {
+      "name": "Dixieland jazz",
+      "aliases": [],
+      "popularity": 44052,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Dixieland jazz"
+    },
+    {
+      "name": "Gypsy jazz",
+      "aliases": [
+        "Gypsy swing",
+        "hot club jazz",
+        "jazz manouche",
+        "manouche jazz",
+        "sinti jazz"
+      ],
+      "popularity": 44373,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "Gypsy jazz"
+    },
+    {
+      "name": "Smooth jazz",
+      "aliases": [
+        "soft jazz"
+      ],
+      "popularity": 55729,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Smooth jazz"
+    },
+    {
+      "name": "Modal jazz",
+      "aliases": [
+        "modal music"
+      ],
+      "popularity": 65127,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Modal jazz"
+    },
+    {
+      "name": "Cool jazz",
+      "aliases": [],
+      "popularity": 68762,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Cool jazz"
+    },
+    {
+      "name": "Jazz standard",
+      "aliases": [
+        "classic jazz",
+        "standards"
+      ],
+      "popularity": 77028,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Jazz standard"
+    },
+    {
+      "name": "Swing music",
+      "aliases": [
+        "swing",
+        "swing jazz"
+      ],
+      "popularity": 101701,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Swing music"
+    },
+    {
+      "name": "Jazz fusion",
+      "aliases": [
+        "fusion",
+        "fusion jazz",
+        "jazz-rock"
+      ],
+      "popularity": 153763,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Jazz fusion"
+    },
+    {
+      "name": "Bebop",
+      "aliases": [
+        "be-bop",
+        "bop",
+        "jazz bebop",
+        "rebop"
+      ],
+      "popularity": 157070,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Bebop"
+    }
+  ]
+}

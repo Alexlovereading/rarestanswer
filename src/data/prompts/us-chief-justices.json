@@ -1,0 +1,202 @@
+{
+  "id": "us-chief-justices",
+  "slug": "us-chief-justices",
+  "category": "history",
+  "question": "Name a chief justice of the United States",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Morrison Waite",
+      "aliases": [
+        "Morrison R. Waite",
+        "Morrison Remick Waite",
+        "Mott Waite"
+      ],
+      "popularity": 25500,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Morrison Waite"
+    },
+    {
+      "name": "Oliver Ellsworth",
+      "aliases": [
+        "Justice Ellsworth"
+      ],
+      "popularity": 36191,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Oliver Ellsworth"
+    },
+    {
+      "name": "Edward Douglass White",
+      "aliases": [
+        "Edward D. White",
+        "Edward D. White II",
+        "Edward D. White Jr.",
+        "Edward Douglas White",
+        "Edward Douglass White Jr.",
+        "Edward Douglass White Junior"
+      ],
+      "popularity": 42371,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Edward Douglass White"
+    },
+    {
+      "name": "Melville Fuller",
+      "aliases": [
+        "Melville W. Fuller",
+        "Melville Weston Fuller"
+      ],
+      "popularity": 44205,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Melville Fuller"
+    },
+    {
+      "name": "Harlan F. Stone",
+      "aliases": [
+        "Harlan Fiske Stone",
+        "Harlan Stone"
+      ],
+      "popularity": 61102,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Harlan F. Stone"
+    },
+    {
+      "name": "Fred M. Vinson",
+      "aliases": [
+        "Fred Vinson",
+        "Frederick Moore Vinson"
+      ],
+      "popularity": 63401,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Fred M. Vinson"
+    },
+    {
+      "name": "John Rutledge",
+      "aliases": [
+        "Dictator John"
+      ],
+      "popularity": 66764,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "John Rutledge"
+    },
+    {
+      "name": "Warren E. Burger",
+      "aliases": [
+        "Chief Justice Burger",
+        "Warren Burger"
+      ],
+      "popularity": 135050,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Warren E. Burger"
+    },
+    {
+      "name": "Roger B. Taney",
+      "aliases": [
+        "Roger Brooke Taney",
+        "Roger Taney"
+      ],
+      "popularity": 137146,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Roger B. Taney"
+    },
+    {
+      "name": "Charles Evans Hughes",
+      "aliases": [
+        "Charles E. Hughes",
+        "Charles Evans Hughes Sr.",
+        "Charles Hughes",
+        "Chas. E. Hughes",
+        "Governor Hughes"
+      ],
+      "popularity": 140109,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Charles Evans Hughes"
+    },
+    {
+      "name": "Salmon P. Chase",
+      "aliases": [
+        "Salmon Chase",
+        "Salmon Portland Chase"
+      ],
+      "popularity": 184207,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Salmon P. Chase"
+    },
+    {
+      "name": "John Marshall",
+      "aliases": [],
+      "popularity": 221034,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "John Marshall"
+    },
+    {
+      "name": "John Jay",
+      "aliases": [],
+      "popularity": 244892,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "John Jay"
+    },
+    {
+      "name": "William Rehnquist",
+      "aliases": [
+        "Chief Justice Rehnquist",
+        "Justice Rehnquist",
+        "William Hubbs Rehnquist"
+      ],
+      "popularity": 250831,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "William Rehnquist"
+    },
+    {
+      "name": "Earl Warren",
+      "aliases": [
+        "Chief Justice Warren"
+      ],
+      "popularity": 288048,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Earl Warren"
+    },
+    {
+      "name": "John Roberts",
+      "aliases": [
+        "Chief Justice John Roberts",
+        "John G. Roberts",
+        "John G. Roberts Jr.",
+        "John Glover Roberts Jr.",
+        "John Roberts Jr."
+      ],
+      "popularity": 755290,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "John Roberts"
+    },
+    {
+      "name": "William Howard Taft",
+      "aliases": [
+        "President Taft",
+        "W. H. Taft",
+        "W. Taft",
+        "William H. Taft",
+        "William Taft"
+      ],
+      "popularity": 1145202,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "William Howard Taft"
+    }
+  ]
+}

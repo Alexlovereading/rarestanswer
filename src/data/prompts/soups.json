@@ -1,0 +1,3358 @@
+{
+  "id": "soups",
+  "slug": "soups",
+  "category": "food",
+  "question": "Name a soup",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Zhuzangfen",
+      "aliases": [
+        "Wenzhou pig powder"
+      ],
+      "popularity": 0,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Zhuzangfen"
+    },
+    {
+      "name": "Tong Sui Shop",
+      "aliases": [],
+      "popularity": 44,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "Tong Sui Shop"
+    },
+    {
+      "name": "Tshài-bué-thng",
+      "aliases": [
+        "Leftovers Soup"
+      ],
+      "popularity": 61,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Tshài-bué-thng"
+    },
+    {
+      "name": "Shorwa",
+      "aliases": [
+        "shurwa",
+        "surwa"
+      ],
+      "popularity": 94,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Shorwa"
+    },
+    {
+      "name": "Pisca Andina",
+      "aliases": [],
+      "popularity": 214,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Pisca Andina"
+    },
+    {
+      "name": "Goan soup",
+      "aliases": [
+        "Canja de Goa"
+      ],
+      "popularity": 234,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Goan soup"
+    },
+    {
+      "name": "Bogeo",
+      "aliases": [
+        "fugu"
+      ],
+      "popularity": 249,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Bogeo"
+    },
+    {
+      "name": "Soyutma",
+      "aliases": [],
+      "popularity": 339,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Soyutma"
+    },
+    {
+      "name": "Pate acha",
+      "aliases": [
+        "gote",
+        "pete acha",
+        "tere"
+      ],
+      "popularity": 350,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Pate acha"
+    },
+    {
+      "name": "Piracaldo",
+      "aliases": [],
+      "popularity": 365,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Piracaldo"
+    },
+    {
+      "name": "Sopa teologa",
+      "aliases": [],
+      "popularity": 374,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Sopa teologa"
+    },
+    {
+      "name": "Rosolnyk",
+      "aliases": [],
+      "popularity": 397,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Rosolnyk"
+    },
+    {
+      "name": "Nam kaeng hua chai thao",
+      "aliases": [],
+      "popularity": 421,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Nam kaeng hua chai thao"
+    },
+    {
+      "name": "Amiedi",
+      "aliases": [],
+      "popularity": 463,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Amiedi"
+    },
+    {
+      "name": "Otong soup",
+      "aliases": [],
+      "popularity": 464,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Otong soup"
+    },
+    {
+      "name": "Pawpaw soup",
+      "aliases": [],
+      "popularity": 475,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Pawpaw soup"
+    },
+    {
+      "name": "Eka soup",
+      "aliases": [
+        "Beniseed soup"
+      ],
+      "popularity": 484,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Eka soup"
+    },
+    {
+      "name": "Talunan",
+      "aliases": [],
+      "popularity": 507,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Talunan"
+    },
+    {
+      "name": "Soup with risotto",
+      "aliases": [],
+      "popularity": 508,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Soup with risotto"
+    },
+    {
+      "name": "Sheep's sorrel soup",
+      "aliases": [],
+      "popularity": 533,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Sheep's sorrel soup"
+    },
+    {
+      "name": "Jenny Lind's soup",
+      "aliases": [
+        "Jenny Lind Soup"
+      ],
+      "popularity": 545,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Jenny Lind's soup"
+    },
+    {
+      "name": "Gbegiri",
+      "aliases": [
+        "Gbegiri Soup"
+      ],
+      "popularity": 581,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Gbegiri"
+    },
+    {
+      "name": "Yam pepper soup",
+      "aliases": [],
+      "popularity": 598,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Yam pepper soup"
+    },
+    {
+      "name": "Editan",
+      "aliases": [
+        "Editan (soup)"
+      ],
+      "popularity": 600,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Editan (soup)"
+    },
+    {
+      "name": "De-Thuk",
+      "aliases": [],
+      "popularity": 617,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "De-Thuk"
+    },
+    {
+      "name": "Kiszczonka",
+      "aliases": [],
+      "popularity": 707,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Kiszczonka"
+    },
+    {
+      "name": "Snail pepper soup",
+      "aliases": [],
+      "popularity": 720,
+      "rarity": 0.93,
+      "tier": 5,
+      "wiki": "Snail pepper soup"
+    },
+    {
+      "name": "Afia Efere",
+      "aliases": [
+        "White soup"
+      ],
+      "popularity": 731,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "Afia Efere"
+    },
+    {
+      "name": "Binte biluhuta",
+      "aliases": [],
+      "popularity": 740,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Binte biluhuta"
+    },
+    {
+      "name": "Clemole",
+      "aliases": [],
+      "popularity": 742,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Clemole"
+    },
+    {
+      "name": "Ofe Ujuju",
+      "aliases": [],
+      "popularity": 742,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Ofe Ujuju"
+    },
+    {
+      "name": "Molagoottal",
+      "aliases": [],
+      "popularity": 771,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Molagoottal"
+    },
+    {
+      "name": "Chupe andino",
+      "aliases": [],
+      "popularity": 786,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Chupe andino"
+    },
+    {
+      "name": "Samlor prahal",
+      "aliases": [
+        "samlor broheu",
+        "samlor proher",
+        "samlor proheur",
+        "somlar prahal",
+        "somlar proher",
+        "somlar proheur",
+        "somlor broheu",
+        "somlor proher",
+        "somlor proheur"
+      ],
+      "popularity": 787,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Samlor prahal"
+    },
+    {
+      "name": "Marghi special",
+      "aliases": [
+        "Margi cuisine",
+        "Margi special"
+      ],
+      "popularity": 834,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Marghi special"
+    },
+    {
+      "name": "Sopa de lacassá",
+      "aliases": [],
+      "popularity": 859,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Sopa de lacassá"
+    },
+    {
+      "name": "Caldillo de perro",
+      "aliases": [],
+      "popularity": 867,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Caldillo de perro"
+    },
+    {
+      "name": "Zuppa del canavese",
+      "aliases": [
+        "Soup alla Canavese"
+      ],
+      "popularity": 898,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Zuppa del canavese"
+    },
+    {
+      "name": "Phở Ta",
+      "aliases": [],
+      "popularity": 931,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Phở Ta"
+    },
+    {
+      "name": "Kaledo",
+      "aliases": [
+        "Kaledo (soup)"
+      ],
+      "popularity": 957,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Kaledo (soup)"
+    },
+    {
+      "name": "2007 Vietnam food scare",
+      "aliases": [],
+      "popularity": 962,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "2007 Vietnam food scare"
+    },
+    {
+      "name": "Soyo",
+      "aliases": [
+        "Soyo (Paraguay)"
+      ],
+      "popularity": 974,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Soyo (Paraguay)"
+    },
+    {
+      "name": "Ofe akwụ",
+      "aliases": [
+        "Ofe rice"
+      ],
+      "popularity": 991,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Ofe akwụ"
+    },
+    {
+      "name": "Ming'oko",
+      "aliases": [
+        "Mingoko"
+      ],
+      "popularity": 997,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Ming'oko"
+    },
+    {
+      "name": "Abunuabunu",
+      "aliases": [
+        "Abubunabunu"
+      ],
+      "popularity": 1014,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Abunuabunu"
+    },
+    {
+      "name": "Ofe Achara",
+      "aliases": [],
+      "popularity": 1051,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Ofe Achara"
+    },
+    {
+      "name": "Spring soup",
+      "aliases": [],
+      "popularity": 1057,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Spring soup"
+    },
+    {
+      "name": "Tian mo",
+      "aliases": [],
+      "popularity": 1122,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Tian mo"
+    },
+    {
+      "name": "Maryland crab soup",
+      "aliases": [],
+      "popularity": 1135,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Maryland crab soup"
+    },
+    {
+      "name": "Diyabath",
+      "aliases": [],
+      "popularity": 1166,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Diyabath"
+    },
+    {
+      "name": "Zuppa alla modenese",
+      "aliases": [],
+      "popularity": 1178,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Zuppa alla modenese"
+    },
+    {
+      "name": "Sungeo-guk",
+      "aliases": [
+        "Sungeoguk"
+      ],
+      "popularity": 1188,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Sungeo-guk"
+    },
+    {
+      "name": "Zoque",
+      "aliases": [
+        "Zoque (dish)"
+      ],
+      "popularity": 1197,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Zoque (dish)"
+    },
+    {
+      "name": "Psarosoupa",
+      "aliases": [],
+      "popularity": 1204,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Psarosoupa"
+    },
+    {
+      "name": "Oille",
+      "aliases": [],
+      "popularity": 1231,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Oille"
+    },
+    {
+      "name": "Cold Soup",
+      "aliases": [
+        "cold sweet soup"
+      ],
+      "popularity": 1255,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Cold Soup"
+    },
+    {
+      "name": "Taco soup",
+      "aliases": [],
+      "popularity": 1289,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Taco soup"
+    },
+    {
+      "name": "Herring soup",
+      "aliases": [],
+      "popularity": 1370,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Herring soup"
+    },
+    {
+      "name": "Purée Mongole",
+      "aliases": [],
+      "popularity": 1380,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Purée Mongole"
+    },
+    {
+      "name": "Sopa de gato",
+      "aliases": [],
+      "popularity": 1383,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Sopa de gato"
+    },
+    {
+      "name": "Kawlata",
+      "aliases": [],
+      "popularity": 1398,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Kawlata"
+    },
+    {
+      "name": "Cream of crab soup",
+      "aliases": [],
+      "popularity": 1403,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Cream of crab soup"
+    },
+    {
+      "name": "Ori-tang",
+      "aliases": [
+        "Oritang"
+      ],
+      "popularity": 1413,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "Ori-tang"
+    },
+    {
+      "name": "Ollada",
+      "aliases": [],
+      "popularity": 1446,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Ollada"
+    },
+    {
+      "name": "Yeonpo-tang",
+      "aliases": [
+        "Yeonpotang"
+      ],
+      "popularity": 1498,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Yeonpo-tang"
+    },
+    {
+      "name": "Ginestrata",
+      "aliases": [],
+      "popularity": 1573,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Ginestrata"
+    },
+    {
+      "name": "Sop saudara",
+      "aliases": [],
+      "popularity": 1599,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Sop saudara"
+    },
+    {
+      "name": "Juka",
+      "aliases": [
+        "Juka (soup)"
+      ],
+      "popularity": 1600,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "Juka (soup)"
+    },
+    {
+      "name": "Lou fo tong",
+      "aliases": [
+        "Cantonese slow-cooked soup"
+      ],
+      "popularity": 1619,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Lou fo tong"
+    },
+    {
+      "name": "Cuchuco",
+      "aliases": [],
+      "popularity": 1669,
+      "rarity": 0.814,
+      "tier": 5,
+      "wiki": "Cuchuco"
+    },
+    {
+      "name": "Imitation shark fin soup",
+      "aliases": [
+        "imitation shark's fin soup",
+        "vegetarian shark fin soup"
+      ],
+      "popularity": 1679,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Imitation shark fin soup"
+    },
+    {
+      "name": "Pantruca",
+      "aliases": [
+        "pancucha",
+        "pancutra"
+      ],
+      "popularity": 1709,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Pantruca"
+    },
+    {
+      "name": "Ila Alasepo",
+      "aliases": [
+        "ila asepo"
+      ],
+      "popularity": 1716,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Ila Alasepo"
+    },
+    {
+      "name": "Clam soup",
+      "aliases": [],
+      "popularity": 1802,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Clam soup"
+    },
+    {
+      "name": "Mun tahu",
+      "aliases": [],
+      "popularity": 1810,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Mun tahu"
+    },
+    {
+      "name": "Ofe Oha",
+      "aliases": [
+        "Oha soup"
+      ],
+      "popularity": 1810,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Ofe Oha"
+    },
+    {
+      "name": "Caparrones",
+      "aliases": [],
+      "popularity": 1841,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Caparrones"
+    },
+    {
+      "name": "Miyan taushe",
+      "aliases": [],
+      "popularity": 1874,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Miyan taushe"
+    },
+    {
+      "name": "Fabes con almejas",
+      "aliases": [],
+      "popularity": 1876,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Fabes con almejas"
+    },
+    {
+      "name": "Naengguk",
+      "aliases": [
+        "changuk"
+      ],
+      "popularity": 1940,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Naengguk"
+    },
+    {
+      "name": "Fish soup bee hoon",
+      "aliases": [],
+      "popularity": 1944,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Fish soup bee hoon"
+    },
+    {
+      "name": "Toyga soup",
+      "aliases": [],
+      "popularity": 1964,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Toyga soup"
+    },
+    {
+      "name": "Plantain soup",
+      "aliases": [],
+      "popularity": 2052,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Plantain soup"
+    },
+    {
+      "name": "Empal gentong",
+      "aliases": [],
+      "popularity": 2104,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Empal gentong"
+    },
+    {
+      "name": "Conch soup",
+      "aliases": [],
+      "popularity": 2128,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Conch soup"
+    },
+    {
+      "name": "Siemieniotka",
+      "aliases": [
+        "Konopiotka"
+      ],
+      "popularity": 2153,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "Siemieniotka"
+    },
+    {
+      "name": "Caldo de siete mares",
+      "aliases": [],
+      "popularity": 2158,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Caldo de siete mares"
+    },
+    {
+      "name": "Alicot",
+      "aliases": [],
+      "popularity": 2187,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Alicot"
+    },
+    {
+      "name": "Shambar",
+      "aliases": [],
+      "popularity": 2194,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Shambar"
+    },
+    {
+      "name": "Suiton",
+      "aliases": [],
+      "popularity": 2244,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Suiton"
+    },
+    {
+      "name": "Mute",
+      "aliases": [
+        "Mute (soup)"
+      ],
+      "popularity": 2328,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Mute (soup)"
+    },
+    {
+      "name": "Atama soup",
+      "aliases": [
+        "Banga soup"
+      ],
+      "popularity": 2374,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Atama soup"
+    },
+    {
+      "name": "Thukpa bhatuk",
+      "aliases": [],
+      "popularity": 2375,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Thukpa bhatuk"
+    },
+    {
+      "name": "Tekwan",
+      "aliases": [],
+      "popularity": 2383,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Tekwan"
+    },
+    {
+      "name": "Steckrübeneintopf",
+      "aliases": [],
+      "popularity": 2393,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Steckrübeneintopf"
+    },
+    {
+      "name": "Aloo tama",
+      "aliases": [
+        "Alu tama"
+      ],
+      "popularity": 2406,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Aloo tama"
+    },
+    {
+      "name": "Sopa de lima",
+      "aliases": [
+        "Lime soup"
+      ],
+      "popularity": 2409,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Sopa de lima"
+    },
+    {
+      "name": "Crème Ninon",
+      "aliases": [],
+      "popularity": 2410,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Crème Ninon"
+    },
+    {
+      "name": "Pig fallopian tubes",
+      "aliases": [],
+      "popularity": 2424,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Pig fallopian tubes"
+    },
+    {
+      "name": "Mote de queso",
+      "aliases": [
+        "Empanada"
+      ],
+      "popularity": 2430,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Mote de queso"
+    },
+    {
+      "name": "Southern Illinois chowder",
+      "aliases": [],
+      "popularity": 2456,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Southern Illinois chowder"
+    },
+    {
+      "name": "Tom khlong",
+      "aliases": [],
+      "popularity": 2463,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Tom khlong"
+    },
+    {
+      "name": "Aguadito de pollo",
+      "aliases": [
+        "Aguadito"
+      ],
+      "popularity": 2481,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Aguadito de pollo"
+    },
+    {
+      "name": "Zuppa pavese",
+      "aliases": [],
+      "popularity": 2487,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Zuppa pavese"
+    },
+    {
+      "name": "Frejon",
+      "aliases": [],
+      "popularity": 2489,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Frejon"
+    },
+    {
+      "name": "Chè bà ba",
+      "aliases": [],
+      "popularity": 2498,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Chè bà ba"
+    },
+    {
+      "name": "Talabaw",
+      "aliases": [
+        "talapaw"
+      ],
+      "popularity": 2509,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Talabaw"
+    },
+    {
+      "name": "Cantonese seafood soup",
+      "aliases": [],
+      "popularity": 2511,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Cantonese seafood soup"
+    },
+    {
+      "name": "Kapurung",
+      "aliases": [],
+      "popularity": 2535,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Kapurung"
+    },
+    {
+      "name": "Sobá",
+      "aliases": [],
+      "popularity": 2538,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Sobá"
+    },
+    {
+      "name": "Noppe",
+      "aliases": [],
+      "popularity": 2585,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Noppe"
+    },
+    {
+      "name": "Cocido lebaniego",
+      "aliases": [],
+      "popularity": 2642,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Cocido lebaniego"
+    },
+    {
+      "name": "Achu",
+      "aliases": [
+        "Achu (soup)",
+        "Yellow soup"
+      ],
+      "popularity": 2643,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "Achu (soup)"
+    },
+    {
+      "name": "Bacon soup",
+      "aliases": [],
+      "popularity": 2659,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Bacon soup"
+    },
+    {
+      "name": "Tapado",
+      "aliases": [],
+      "popularity": 2698,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Tapado"
+    },
+    {
+      "name": "Soupe aux gourganes",
+      "aliases": [],
+      "popularity": 2757,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Soupe aux gourganes"
+    },
+    {
+      "name": "Soupe kandia",
+      "aliases": [
+        "Soup Kandia",
+        "Soupou Kandja"
+      ],
+      "popularity": 2758,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Soupe kandia"
+    },
+    {
+      "name": "Lobster stew",
+      "aliases": [
+        "Caldereta de langosta"
+      ],
+      "popularity": 2782,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Lobster stew"
+    },
+    {
+      "name": "Bagnun",
+      "aliases": [],
+      "popularity": 2788,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Bagnun"
+    },
+    {
+      "name": "Prežganka",
+      "aliases": [],
+      "popularity": 2827,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Prežganka"
+    },
+    {
+      "name": "Sopa de pata",
+      "aliases": [],
+      "popularity": 2829,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Sopa de pata"
+    },
+    {
+      "name": "Majorcan soup",
+      "aliases": [
+        "Majorcan dry soup",
+        "Mallorcan dry soup",
+        "Mallorcan soup"
+      ],
+      "popularity": 2854,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Majorcan soup"
+    },
+    {
+      "name": "Goat meat pepper soup",
+      "aliases": [],
+      "popularity": 2866,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Goat meat pepper soup"
+    },
+    {
+      "name": "Caldo de costilla",
+      "aliases": [],
+      "popularity": 2877,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "Caldo de costilla"
+    },
+    {
+      "name": "Kalehjoosh",
+      "aliases": [
+        "Eshkaneh Kashk",
+        "Keledoş"
+      ],
+      "popularity": 2955,
+      "rarity": 0.665,
+      "tier": 4,
+      "wiki": "Kalehjoosh"
+    },
+    {
+      "name": "Kenchin-jiru",
+      "aliases": [
+        "Kenchinjiru"
+      ],
+      "popularity": 2976,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Kenchin-jiru"
+    },
+    {
+      "name": "Analı kızlı soup",
+      "aliases": [],
+      "popularity": 2987,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Analı kızlı soup"
+    },
+    {
+      "name": "Stuffed bitter melon soup",
+      "aliases": [
+        "sngaor mreah"
+      ],
+      "popularity": 3013,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Stuffed bitter melon soup"
+    },
+    {
+      "name": "Partan bree",
+      "aliases": [],
+      "popularity": 3019,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Partan bree"
+    },
+    {
+      "name": "Palóc soup",
+      "aliases": [],
+      "popularity": 3022,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Palóc soup"
+    },
+    {
+      "name": "Kesäkeitto",
+      "aliases": [
+        "Summer soup"
+      ],
+      "popularity": 3050,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Kesäkeitto"
+    },
+    {
+      "name": "Amish preaching soup",
+      "aliases": [],
+      "popularity": 3081,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Amish preaching soup"
+    },
+    {
+      "name": "Konro",
+      "aliases": [
+        "Konro Soup"
+      ],
+      "popularity": 3136,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Konro"
+    },
+    {
+      "name": "Buridda",
+      "aliases": [],
+      "popularity": 3144,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Buridda"
+    },
+    {
+      "name": "Egg tong sui",
+      "aliases": [],
+      "popularity": 3294,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Egg tong sui"
+    },
+    {
+      "name": "Ginseng chicken soup",
+      "aliases": [],
+      "popularity": 3351,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Ginseng chicken soup"
+    },
+    {
+      "name": "Owo soup",
+      "aliases": [
+        "ofe owo",
+        "ogh",
+        "oghwevwri",
+        "oghwo",
+        "oghwo evwri",
+        "oghwo ofigbo",
+        "oghwoevwri",
+        "ogwofibo",
+        "owo",
+        "Urhobo owho soup"
+      ],
+      "popularity": 3379,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Owo soup"
+    },
+    {
+      "name": "Prawn soup",
+      "aliases": [
+        "shrimp soup"
+      ],
+      "popularity": 3392,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Prawn soup"
+    },
+    {
+      "name": "Rössypottu",
+      "aliases": [
+        "rössypotut"
+      ],
+      "popularity": 3481,
+      "rarity": 0.626,
+      "tier": 4,
+      "wiki": "Rössypottu"
+    },
+    {
+      "name": "Sup kambing",
+      "aliases": [],
+      "popularity": 3481,
+      "rarity": 0.626,
+      "tier": 4,
+      "wiki": "Sup kambing"
+    },
+    {
+      "name": "Garmugia",
+      "aliases": [],
+      "popularity": 3493,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Garmugia"
+    },
+    {
+      "name": "Gopchang-jeongol",
+      "aliases": [],
+      "popularity": 3562,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Gopchang-jeongol"
+    },
+    {
+      "name": "Cow cod soup",
+      "aliases": [],
+      "popularity": 3622,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Cow cod soup"
+    },
+    {
+      "name": "Nauryz kozhe",
+      "aliases": [
+        "March soup",
+        "Nauryz koje",
+        "Nooruz kozhe"
+      ],
+      "popularity": 3715,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Nauryz kozhe"
+    },
+    {
+      "name": "Tourin",
+      "aliases": [],
+      "popularity": 3738,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Tourin"
+    },
+    {
+      "name": "Potée",
+      "aliases": [],
+      "popularity": 3764,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Potée"
+    },
+    {
+      "name": "Pig's organ soup",
+      "aliases": [],
+      "popularity": 3866,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Pig's organ soup"
+    },
+    {
+      "name": "Chakna",
+      "aliases": [],
+      "popularity": 3943,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Chakna"
+    },
+    {
+      "name": "Okoho",
+      "aliases": [],
+      "popularity": 4001,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Okoho"
+    },
+    {
+      "name": "Red peas soup",
+      "aliases": [],
+      "popularity": 4051,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Red peas soup"
+    },
+    {
+      "name": "Baeksuk",
+      "aliases": [],
+      "popularity": 4090,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Baeksuk"
+    },
+    {
+      "name": "Corn crab soup",
+      "aliases": [],
+      "popularity": 4095,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Corn crab soup"
+    },
+    {
+      "name": "Guthuk",
+      "aliases": [],
+      "popularity": 4098,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Guthuk"
+    },
+    {
+      "name": "Gazpachuelo",
+      "aliases": [],
+      "popularity": 4160,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Gazpachuelo"
+    },
+    {
+      "name": "Jókai bean soup",
+      "aliases": [],
+      "popularity": 4162,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Jókai bean soup"
+    },
+    {
+      "name": "Ohaw",
+      "aliases": [
+        "rur"
+      ],
+      "popularity": 4203,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Ohaw"
+    },
+    {
+      "name": "Bob chorba",
+      "aliases": [],
+      "popularity": 4211,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Bob chorba"
+    },
+    {
+      "name": "Bubur kacang hijau",
+      "aliases": [],
+      "popularity": 4229,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Bubur kacang hijau"
+    },
+    {
+      "name": "Ragout fin",
+      "aliases": [
+        "fine ragout"
+      ],
+      "popularity": 4256,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Ragout fin"
+    },
+    {
+      "name": "Sinabawang gulay",
+      "aliases": [
+        "Utan"
+      ],
+      "popularity": 4279,
+      "rarity": 0.57,
+      "tier": 3,
+      "wiki": "Sinabawang gulay"
+    },
+    {
+      "name": "Cotriade",
+      "aliases": [],
+      "popularity": 4290,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Cotriade"
+    },
+    {
+      "name": "Fugu chiri",
+      "aliases": [],
+      "popularity": 4322,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Fugu chiri"
+    },
+    {
+      "name": "Mokthuk",
+      "aliases": [],
+      "popularity": 4421,
+      "rarity": 0.562,
+      "tier": 3,
+      "wiki": "Mokthuk"
+    },
+    {
+      "name": "Kak'ik",
+      "aliases": [
+        "kakik",
+        "kaq'ik"
+      ],
+      "popularity": 4453,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Kak'ik"
+    },
+    {
+      "name": "Bouillon",
+      "aliases": [
+        "Bouillon (soup)"
+      ],
+      "popularity": 4462,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Bouillon (soup)"
+    },
+    {
+      "name": "Tomato and egg soup",
+      "aliases": [],
+      "popularity": 4503,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Tomato and egg soup"
+    },
+    {
+      "name": "Maraq",
+      "aliases": [
+        "Maraq (dish)"
+      ],
+      "popularity": 4525,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Maraq (dish)"
+    },
+    {
+      "name": "Samlar kako",
+      "aliases": [
+        "samlar korko",
+        "samlor kako",
+        "samlor koko",
+        "samlor korko",
+        "somlaw koko"
+      ],
+      "popularity": 4560,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "Samlar kako"
+    },
+    {
+      "name": "Svartsoppa",
+      "aliases": [],
+      "popularity": 4669,
+      "rarity": 0.546,
+      "tier": 3,
+      "wiki": "Svartsoppa"
+    },
+    {
+      "name": "Theeyal",
+      "aliases": [],
+      "popularity": 4714,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Theeyal"
+    },
+    {
+      "name": "Brenebon",
+      "aliases": [],
+      "popularity": 4715,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Brenebon"
+    },
+    {
+      "name": "Chupe",
+      "aliases": [],
+      "popularity": 4725,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Chupe"
+    },
+    {
+      "name": "Bouneschlupp",
+      "aliases": [],
+      "popularity": 4731,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Bouneschlupp"
+    },
+    {
+      "name": "Watercress soup",
+      "aliases": [],
+      "popularity": 4785,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Watercress soup"
+    },
+    {
+      "name": "Bún ốc",
+      "aliases": [
+        "snail vermicelli soup"
+      ],
+      "popularity": 4812,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "Bún ốc"
+    },
+    {
+      "name": "Sweet potato soup",
+      "aliases": [],
+      "popularity": 4879,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Sweet potato soup"
+    },
+    {
+      "name": "Rumford's Soup",
+      "aliases": [
+        "economy soup"
+      ],
+      "popularity": 5100,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Rumford's Soup"
+    },
+    {
+      "name": "Sayur asem",
+      "aliases": [],
+      "popularity": 5115,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Sayur asem"
+    },
+    {
+      "name": "Borș de burechiușe",
+      "aliases": [
+        "borș de burechițe",
+        "supă de găluște"
+      ],
+      "popularity": 5143,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Borș de burechiușe"
+    },
+    {
+      "name": "Mole de olla",
+      "aliases": [],
+      "popularity": 5180,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Mole de olla"
+    },
+    {
+      "name": "Soto mi",
+      "aliases": [
+        "soto mie"
+      ],
+      "popularity": 5241,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Soto mi"
+    },
+    {
+      "name": "Tongseng",
+      "aliases": [],
+      "popularity": 5241,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Tongseng"
+    },
+    {
+      "name": "Ritschert",
+      "aliases": [
+        "ričet"
+      ],
+      "popularity": 5259,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Ritschert"
+    },
+    {
+      "name": "Porra antequerana",
+      "aliases": [],
+      "popularity": 5369,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Porra antequerana"
+    },
+    {
+      "name": "Spas",
+      "aliases": [
+        "Spas (soup)"
+      ],
+      "popularity": 5489,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Spas (soup)"
+    },
+    {
+      "name": "Geng",
+      "aliases": [
+        "Geng (dish)"
+      ],
+      "popularity": 5490,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Geng (dish)"
+    },
+    {
+      "name": "Kwati",
+      "aliases": [
+        "Kwati (soup)"
+      ],
+      "popularity": 5513,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Kwati (soup)"
+    },
+    {
+      "name": "Ash-e doogh",
+      "aliases": [
+        "ashe doogh"
+      ],
+      "popularity": 5614,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Ash-e doogh"
+    },
+    {
+      "name": "Macaroni soup",
+      "aliases": [],
+      "popularity": 5615,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Macaroni soup"
+    },
+    {
+      "name": "Bookbinder soup",
+      "aliases": [],
+      "popularity": 5669,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "Bookbinder soup"
+    },
+    {
+      "name": "Lung fung soup",
+      "aliases": [],
+      "popularity": 5669,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "Lung fung soup"
+    },
+    {
+      "name": "Kakavia",
+      "aliases": [
+        "Kakavia (soup)"
+      ],
+      "popularity": 5712,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Kakavia (soup)"
+    },
+    {
+      "name": "Sago soup",
+      "aliases": [],
+      "popularity": 5850,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Sago soup"
+    },
+    {
+      "name": "Sinseollo",
+      "aliases": [
+        "royal hot pot",
+        "sinseonlo",
+        "sinseonro"
+      ],
+      "popularity": 5858,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Sinseollo"
+    },
+    {
+      "name": "Yayla çorbası",
+      "aliases": [
+        "yayla soup",
+        "yoğurt çorbası"
+      ],
+      "popularity": 6006,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Yayla çorbası"
+    },
+    {
+      "name": "Tonjiru",
+      "aliases": [
+        "Butajiru"
+      ],
+      "popularity": 6008,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Tonjiru"
+    },
+    {
+      "name": "Soups in East Asian culture",
+      "aliases": [
+        "Asian soup"
+      ],
+      "popularity": 6138,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "Soups in East Asian culture"
+    },
+    {
+      "name": "Khichra",
+      "aliases": [
+        "Khichda"
+      ],
+      "popularity": 6374,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Khichra"
+    },
+    {
+      "name": "Kadyos, baboy, kag langka",
+      "aliases": [],
+      "popularity": 6536,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Kadyos, baboy, kag langka"
+    },
+    {
+      "name": "Afang soup",
+      "aliases": [
+        "Afang"
+      ],
+      "popularity": 6577,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Afang soup"
+    },
+    {
+      "name": "Soup du Barry",
+      "aliases": [],
+      "popularity": 6596,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "Soup du Barry"
+    },
+    {
+      "name": "Coconut soup",
+      "aliases": [],
+      "popularity": 6798,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Coconut soup"
+    },
+    {
+      "name": "Abula",
+      "aliases": [
+        "Abula (soup)"
+      ],
+      "popularity": 6899,
+      "rarity": 0.454,
+      "tier": 3,
+      "wiki": "Abula (soup)"
+    },
+    {
+      "name": "Changua",
+      "aliases": [],
+      "popularity": 6907,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Changua"
+    },
+    {
+      "name": "Imoni",
+      "aliases": [],
+      "popularity": 6907,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Imoni"
+    },
+    {
+      "name": "Tacacá",
+      "aliases": [],
+      "popularity": 6961,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Tacacá"
+    },
+    {
+      "name": "Maccu",
+      "aliases": [],
+      "popularity": 7204,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Maccu"
+    },
+    {
+      "name": "Binignit",
+      "aliases": [],
+      "popularity": 7222,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Binignit"
+    },
+    {
+      "name": "Mami soup",
+      "aliases": [],
+      "popularity": 7354,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Mami soup"
+    },
+    {
+      "name": "Cansi",
+      "aliases": [
+        "Kansi"
+      ],
+      "popularity": 7360,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Cansi"
+    },
+    {
+      "name": "Khao poon",
+      "aliases": [],
+      "popularity": 7448,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Khao poon"
+    },
+    {
+      "name": "Soup Number Five",
+      "aliases": [],
+      "popularity": 7690,
+      "rarity": 0.43,
+      "tier": 3,
+      "wiki": "Soup Number Five"
+    },
+    {
+      "name": "Chorba frik",
+      "aliases": [],
+      "popularity": 7709,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Chorba frik"
+    },
+    {
+      "name": "Hyderabadi marag",
+      "aliases": [],
+      "popularity": 7792,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Hyderabadi marag"
+    },
+    {
+      "name": "Cockchafer soup",
+      "aliases": [],
+      "popularity": 7901,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Cockchafer soup"
+    },
+    {
+      "name": "Ant egg soup",
+      "aliases": [],
+      "popularity": 7913,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Ant egg soup"
+    },
+    {
+      "name": "Panada",
+      "aliases": [],
+      "popularity": 7931,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Panada"
+    },
+    {
+      "name": "Magiritsa",
+      "aliases": [],
+      "popularity": 8057,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Magiritsa"
+    },
+    {
+      "name": "Kulajda",
+      "aliases": [],
+      "popularity": 8182,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Kulajda"
+    },
+    {
+      "name": "Caldo tlalpeño",
+      "aliases": [],
+      "popularity": 8489,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Caldo tlalpeño"
+    },
+    {
+      "name": "Chikhirtma",
+      "aliases": [],
+      "popularity": 8731,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Chikhirtma"
+    },
+    {
+      "name": "Bún mắm",
+      "aliases": [
+        "Vietnamese gumbo"
+      ],
+      "popularity": 8926,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Bún mắm"
+    },
+    {
+      "name": "Nam ngiao",
+      "aliases": [],
+      "popularity": 9013,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Nam ngiao"
+    },
+    {
+      "name": "Gulyásleves",
+      "aliases": [
+        "goulash soup"
+      ],
+      "popularity": 9034,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Gulyásleves"
+    },
+    {
+      "name": "Beyran soup",
+      "aliases": [
+        "beyran"
+      ],
+      "popularity": 9046,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Beyran soup"
+    },
+    {
+      "name": "Nilaga",
+      "aliases": [],
+      "popularity": 9146,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Nilaga"
+    },
+    {
+      "name": "Onion soup",
+      "aliases": [],
+      "popularity": 9146,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Onion soup"
+    },
+    {
+      "name": "Ching bo leung",
+      "aliases": [],
+      "popularity": 9160,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Ching bo leung"
+    },
+    {
+      "name": "Garbure",
+      "aliases": [],
+      "popularity": 9249,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Garbure"
+    },
+    {
+      "name": "Tiger penis soup",
+      "aliases": [],
+      "popularity": 9255,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Tiger penis soup"
+    },
+    {
+      "name": "Cup-a-Soup",
+      "aliases": [],
+      "popularity": 9502,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Cup-a-Soup"
+    },
+    {
+      "name": "Cheese soup",
+      "aliases": [],
+      "popularity": 9555,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Cheese soup"
+    },
+    {
+      "name": "Rose hip soup",
+      "aliases": [],
+      "popularity": 9586,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Rose hip soup"
+    },
+    {
+      "name": "Fruit soup",
+      "aliases": [],
+      "popularity": 9640,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Fruit soup"
+    },
+    {
+      "name": "Krupnik",
+      "aliases": [
+        "Krupnik (soup)"
+      ],
+      "popularity": 9727,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Krupnik (soup)"
+    },
+    {
+      "name": "Instant soup",
+      "aliases": [],
+      "popularity": 9940,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Instant soup"
+    },
+    {
+      "name": "Pasulj",
+      "aliases": [
+        "Serbian bean soup"
+      ],
+      "popularity": 9961,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Pasulj"
+    },
+    {
+      "name": "Escudella",
+      "aliases": [
+        "escudella i carn d'olla"
+      ],
+      "popularity": 10062,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Escudella"
+    },
+    {
+      "name": "Spinach soup",
+      "aliases": [],
+      "popularity": 10091,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Spinach soup"
+    },
+    {
+      "name": "Cream soup",
+      "aliases": [
+        "puréed soup"
+      ],
+      "popularity": 10183,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Cream soup"
+    },
+    {
+      "name": "Sour cherry soup",
+      "aliases": [],
+      "popularity": 10263,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Sour cherry soup"
+    },
+    {
+      "name": "Garlic soup",
+      "aliases": [],
+      "popularity": 10343,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Garlic soup"
+    },
+    {
+      "name": "Mannish water",
+      "aliases": [],
+      "popularity": 10349,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Mannish water"
+    },
+    {
+      "name": "Hodge-Podge",
+      "aliases": [
+        "Hodge-Podge (soup)",
+        "hotch pot"
+      ],
+      "popularity": 10361,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Hodge-Podge (soup)"
+    },
+    {
+      "name": "Jeongol",
+      "aliases": [],
+      "popularity": 10438,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Jeongol"
+    },
+    {
+      "name": "Sayur lodeh",
+      "aliases": [],
+      "popularity": 10584,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Sayur lodeh"
+    },
+    {
+      "name": "Beer soup",
+      "aliases": [],
+      "popularity": 10648,
+      "rarity": 0.335,
+      "tier": 2,
+      "wiki": "Beer soup"
+    },
+    {
+      "name": "Bissara",
+      "aliases": [
+        "Besara",
+        "Beyssar",
+        "Beyssara"
+      ],
+      "popularity": 10677,
+      "rarity": 0.332,
+      "tier": 2,
+      "wiki": "Bissara"
+    },
+    {
+      "name": "Zosui",
+      "aliases": [],
+      "popularity": 11027,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Zosui"
+    },
+    {
+      "name": "Nimono",
+      "aliases": [],
+      "popularity": 11373,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Nimono"
+    },
+    {
+      "name": "Aush",
+      "aliases": [
+        "aash",
+        "āsh",
+        "āshe"
+      ],
+      "popularity": 11388,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Aush"
+    },
+    {
+      "name": "Hōtō",
+      "aliases": [],
+      "popularity": 11858,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Hōtō"
+    },
+    {
+      "name": "Pepper pot soup",
+      "aliases": [
+        "pepper pot",
+        "pepperpot",
+        "pepperpot soup",
+        "Philadelphia pepper pot"
+      ],
+      "popularity": 11906,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Pepper pot soup"
+    },
+    {
+      "name": "Sujebi",
+      "aliases": [
+        "hand-pulled dough soup",
+        "ttŭdŏ-guk"
+      ],
+      "popularity": 11923,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Sujebi"
+    },
+    {
+      "name": "Black sesame soup",
+      "aliases": [
+        "black sesame paste"
+      ],
+      "popularity": 11931,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Black sesame soup"
+    },
+    {
+      "name": "Galbi-tang",
+      "aliases": [],
+      "popularity": 11947,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Galbi-tang"
+    },
+    {
+      "name": "Peppersoup",
+      "aliases": [],
+      "popularity": 12058,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Peppersoup"
+    },
+    {
+      "name": "Meatball soup",
+      "aliases": [],
+      "popularity": 12112,
+      "rarity": 0.305,
+      "tier": 2,
+      "wiki": "Meatball soup"
+    },
+    {
+      "name": "Corn soup",
+      "aliases": [],
+      "popularity": 12300,
+      "rarity": 0.303,
+      "tier": 2,
+      "wiki": "Corn soup"
+    },
+    {
+      "name": "Pasta e ceci",
+      "aliases": [],
+      "popularity": 12435,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Pasta e ceci"
+    },
+    {
+      "name": "Cream stew",
+      "aliases": [],
+      "popularity": 12625,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Cream stew"
+    },
+    {
+      "name": "Hulatang",
+      "aliases": [
+        "hu la tang",
+        "hula soup",
+        "hula tang"
+      ],
+      "popularity": 12701,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Hulatang"
+    },
+    {
+      "name": "Açorda",
+      "aliases": [
+        "açorda à Alentejana"
+      ],
+      "popularity": 13220,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Açorda"
+    },
+    {
+      "name": "Guk",
+      "aliases": [
+        "tang"
+      ],
+      "popularity": 13380,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Guk"
+    },
+    {
+      "name": "15 Bean Soup",
+      "aliases": [],
+      "popularity": 13447,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "15 Bean Soup"
+    },
+    {
+      "name": "Ciorbă de perișoare",
+      "aliases": [],
+      "popularity": 13449,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Ciorbă de perișoare"
+    },
+    {
+      "name": "Flädle",
+      "aliases": [
+        "pancake soup"
+      ],
+      "popularity": 13599,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Flädle"
+    },
+    {
+      "name": "Caldo galego",
+      "aliases": [],
+      "popularity": 13790,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Caldo galego"
+    },
+    {
+      "name": "Snake soup",
+      "aliases": [
+        "Cantonese snake soup",
+        "Chinese snake soup"
+      ],
+      "popularity": 13841,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Snake soup"
+    },
+    {
+      "name": "Suaasat",
+      "aliases": [],
+      "popularity": 14278,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Suaasat"
+    },
+    {
+      "name": "Okra soup",
+      "aliases": [
+        "Okro soup"
+      ],
+      "popularity": 14356,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Okra soup"
+    },
+    {
+      "name": "Olla podrida",
+      "aliases": [],
+      "popularity": 14511,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Olla podrida"
+    },
+    {
+      "name": "Encebollado",
+      "aliases": [
+        "Cebolla"
+      ],
+      "popularity": 15085,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Encebollado"
+    },
+    {
+      "name": "Nettle soup",
+      "aliases": [
+        "utrica soup"
+      ],
+      "popularity": 15234,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Nettle soup"
+    },
+    {
+      "name": "Peanut soup",
+      "aliases": [
+        "Ground nut soup",
+        "groundnut soup"
+      ],
+      "popularity": 15421,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Peanut soup"
+    },
+    {
+      "name": "Cozido à portuguesa",
+      "aliases": [],
+      "popularity": 15695,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Cozido à portuguesa"
+    },
+    {
+      "name": "Borș",
+      "aliases": [
+        "Borș (bran)"
+      ],
+      "popularity": 15752,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Borș (bran)"
+    },
+    {
+      "name": "Bird's nest soup",
+      "aliases": [],
+      "popularity": 15904,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Bird's nest soup"
+    },
+    {
+      "name": "Pappa al pomodoro",
+      "aliases": [
+        "Pappa"
+      ],
+      "popularity": 16073,
+      "rarity": 0.249,
+      "tier": 2,
+      "wiki": "Pappa al pomodoro"
+    },
+    {
+      "name": "Jiuniang",
+      "aliases": [
+        "láozāo"
+      ],
+      "popularity": 16094,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Jiuniang"
+    },
+    {
+      "name": "Bánh canh",
+      "aliases": [],
+      "popularity": 16127,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Bánh canh"
+    },
+    {
+      "name": "Blood soup",
+      "aliases": [],
+      "popularity": 16527,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Blood soup"
+    },
+    {
+      "name": "Rawon",
+      "aliases": [],
+      "popularity": 16557,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Rawon"
+    },
+    {
+      "name": "Ezogelin soup",
+      "aliases": [
+        "Ezo Gelin",
+        "Ezogelin çorba",
+        "Ezogelin çorbası"
+      ],
+      "popularity": 16935,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Ezogelin soup"
+    },
+    {
+      "name": "Pinapaitan",
+      "aliases": [
+        "papaitan"
+      ],
+      "popularity": 17449,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Pinapaitan"
+    },
+    {
+      "name": "Acquacotta",
+      "aliases": [],
+      "popularity": 17458,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Acquacotta"
+    },
+    {
+      "name": "Rassolnik",
+      "aliases": [],
+      "popularity": 17514,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Rassolnik"
+    },
+    {
+      "name": "Manchow soup",
+      "aliases": [],
+      "popularity": 17827,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Manchow soup"
+    },
+    {
+      "name": "Pot liquor",
+      "aliases": [
+        "Collard liquor"
+      ],
+      "popularity": 18527,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Pot liquor"
+    },
+    {
+      "name": "Fish soup",
+      "aliases": [],
+      "popularity": 19057,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Fish soup"
+    },
+    {
+      "name": "Bosintang",
+      "aliases": [
+        "Posintang"
+      ],
+      "popularity": 19070,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Bosintang"
+    },
+    {
+      "name": "Pisto",
+      "aliases": [],
+      "popularity": 19299,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Pisto"
+    },
+    {
+      "name": "Tortilla soup",
+      "aliases": [],
+      "popularity": 19489,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Tortilla soup"
+    },
+    {
+      "name": "Cocido madrileño",
+      "aliases": [],
+      "popularity": 19703,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Cocido madrileño"
+    },
+    {
+      "name": "Rosół",
+      "aliases": [],
+      "popularity": 19841,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Rosół"
+    },
+    {
+      "name": "Crossing-the-bridge noodles",
+      "aliases": [
+        "Guoqiao Mixian"
+      ],
+      "popularity": 20098,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Crossing-the-bridge noodles"
+    },
+    {
+      "name": "Cazuela",
+      "aliases": [],
+      "popularity": 20191,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Cazuela"
+    },
+    {
+      "name": "Soup joumou",
+      "aliases": [
+        "Freedom Soup",
+        "Haitian pumpkin soup",
+        "Independence Soup",
+        "Joumou soup",
+        "Soup jouwoumou",
+        "soupe au giraumon"
+      ],
+      "popularity": 20288,
+      "rarity": 0.197,
+      "tier": 1,
+      "wiki": "Soup joumou"
+    },
+    {
+      "name": "Miyeok-guk",
+      "aliases": [
+        "Korean birthday soup"
+      ],
+      "popularity": 21607,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Miyeok-guk"
+    },
+    {
+      "name": "Yong tau foo",
+      "aliases": [
+        "ngiòng theu fú",
+        "stuffed bean curd",
+        "yen ta fo",
+        "yen tafo",
+        "yentafo",
+        "yin ta fo",
+        "yin tafo",
+        "yong tao foo",
+        "yong tau fu",
+        "yong tau hu",
+        "yong theu fu",
+        "yong tofu"
+      ],
+      "popularity": 21661,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Yong tau foo"
+    },
+    {
+      "name": "Caldo de pollo",
+      "aliases": [],
+      "popularity": 22008,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Caldo de pollo"
+    },
+    {
+      "name": "Batchoy",
+      "aliases": [],
+      "popularity": 22074,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "Batchoy"
+    },
+    {
+      "name": "Windsor soup",
+      "aliases": [
+        "brown Windsor soup"
+      ],
+      "popularity": 22218,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Windsor soup"
+    },
+    {
+      "name": "Aush reshteh",
+      "aliases": [
+        "ash e-reshteh",
+        "Ash Reshteh"
+      ],
+      "popularity": 23031,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Aush reshteh"
+    },
+    {
+      "name": "Tteokguk",
+      "aliases": [],
+      "popularity": 23247,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Tteokguk"
+    },
+    {
+      "name": "Kadhi",
+      "aliases": [
+        "Curry",
+        "Karhi",
+        "Khaddi"
+      ],
+      "popularity": 23653,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Kadhi"
+    },
+    {
+      "name": "Tinola",
+      "aliases": [],
+      "popularity": 24426,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Tinola"
+    },
+    {
+      "name": "Piperade",
+      "aliases": [
+        "Piperrada"
+      ],
+      "popularity": 25018,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Piperade"
+    },
+    {
+      "name": "Yukgaejang",
+      "aliases": [],
+      "popularity": 25205,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Yukgaejang"
+    },
+    {
+      "name": "She-crab soup",
+      "aliases": [
+        "crab soup"
+      ],
+      "popularity": 25466,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "She-crab soup"
+    },
+    {
+      "name": "Sorrel soup",
+      "aliases": [
+        "green borscht",
+        "green shchi",
+        "green soup",
+        "schav",
+        "shav",
+        "shchav",
+        "shtshav"
+      ],
+      "popularity": 25492,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Sorrel soup"
+    },
+    {
+      "name": "Soto",
+      "aliases": [
+        "coto",
+        "Soto (food)",
+        "sroto",
+        "tauto"
+      ],
+      "popularity": 25524,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Soto (food)"
+    },
+    {
+      "name": "Seolleongtang",
+      "aliases": [],
+      "popularity": 26775,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Seolleongtang"
+    },
+    {
+      "name": "Vegetable soup",
+      "aliases": [],
+      "popularity": 26787,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Vegetable soup"
+    },
+    {
+      "name": "Bread soup",
+      "aliases": [],
+      "popularity": 26815,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Bread soup"
+    },
+    {
+      "name": "Kharcho",
+      "aliases": [],
+      "popularity": 27130,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Kharcho"
+    },
+    {
+      "name": "Ogbono soup",
+      "aliases": [
+        "draw soup"
+      ],
+      "popularity": 27161,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Ogbono soup"
+    },
+    {
+      "name": "Tong sui",
+      "aliases": [],
+      "popularity": 27751,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Tong sui"
+    },
+    {
+      "name": "Oxtail soup",
+      "aliases": [],
+      "popularity": 28169,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Oxtail soup"
+    },
+    {
+      "name": "Gukbap",
+      "aliases": [
+        "rice soup"
+      ],
+      "popularity": 28979,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Gukbap"
+    },
+    {
+      "name": "Noodle soup",
+      "aliases": [],
+      "popularity": 29196,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Noodle soup"
+    },
+    {
+      "name": "Scotch broth",
+      "aliases": [],
+      "popularity": 29479,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Scotch broth"
+    },
+    {
+      "name": "Tom yum kung",
+      "aliases": [
+        "Tom yam kung",
+        "Tom yum goong"
+      ],
+      "popularity": 30737,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Tom yum kung"
+    },
+    {
+      "name": "Ajoblanco",
+      "aliases": [
+        "ajo blanco"
+      ],
+      "popularity": 30942,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Ajoblanco"
+    },
+    {
+      "name": "Chorba",
+      "aliases": [],
+      "popularity": 31030,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Chorba"
+    },
+    {
+      "name": "Paya",
+      "aliases": [
+        "Paya (food)",
+        "siri paya"
+      ],
+      "popularity": 31458,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Paya (food)"
+    },
+    {
+      "name": "Bún riêu",
+      "aliases": [],
+      "popularity": 32066,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Bún riêu"
+    },
+    {
+      "name": "Cock-a-leekie",
+      "aliases": [
+        "cock-a-leekie soup"
+      ],
+      "popularity": 33198,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Cock-a-leekie"
+    },
+    {
+      "name": "Stracciatella",
+      "aliases": [
+        "Stracciatella (soup)"
+      ],
+      "popularity": 34212,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Stracciatella (soup)"
+    },
+    {
+      "name": "Shchi",
+      "aliases": [],
+      "popularity": 34787,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Shchi"
+    },
+    {
+      "name": "Avgolemono",
+      "aliases": [],
+      "popularity": 35850,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "Avgolemono"
+    },
+    {
+      "name": "Thukpa",
+      "aliases": [],
+      "popularity": 36280,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Thukpa"
+    },
+    {
+      "name": "Vori vori",
+      "aliases": [
+        "bori-bori",
+        "vorí vorí de pollo"
+      ],
+      "popularity": 36486,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Vori vori"
+    },
+    {
+      "name": "Rasam",
+      "aliases": [
+        "Rasam (dish)"
+      ],
+      "popularity": 37058,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Rasam (dish)"
+    },
+    {
+      "name": "Sopa de mondongo",
+      "aliases": [],
+      "popularity": 37600,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Sopa de mondongo"
+    },
+    {
+      "name": "Harira",
+      "aliases": [],
+      "popularity": 38016,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Harira"
+    },
+    {
+      "name": "Chicken and dumplings",
+      "aliases": [],
+      "popularity": 38366,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Chicken and dumplings"
+    },
+    {
+      "name": "Caldo verde",
+      "aliases": [],
+      "popularity": 41696,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Caldo verde"
+    },
+    {
+      "name": "Zuppa toscana",
+      "aliases": [],
+      "popularity": 43652,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Zuppa toscana"
+    },
+    {
+      "name": "Sundubu-jjigae",
+      "aliases": [],
+      "popularity": 44302,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Sundubu-jjigae"
+    },
+    {
+      "name": "Ribollita",
+      "aliases": [],
+      "popularity": 44502,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Ribollita"
+    },
+    {
+      "name": "Sour cereal soup",
+      "aliases": [
+        "kyselo",
+        "sour rye soup",
+        "West Slavic fermented cereal soups",
+        "zur",
+        "żurek"
+      ],
+      "popularity": 44762,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Sour cereal soup"
+    },
+    {
+      "name": "Egg drop soup",
+      "aliases": [],
+      "popularity": 49321,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Egg drop soup"
+    },
+    {
+      "name": "Mock turtle soup",
+      "aliases": [],
+      "popularity": 51501,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Mock turtle soup"
+    },
+    {
+      "name": "Tomato soup",
+      "aliases": [],
+      "popularity": 53896,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Tomato soup"
+    },
+    {
+      "name": "Sancocho",
+      "aliases": [
+        "sancoche",
+        "sangkochie"
+      ],
+      "popularity": 54846,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Sancocho"
+    },
+    {
+      "name": "Solyanka",
+      "aliases": [],
+      "popularity": 56056,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Solyanka"
+    },
+    {
+      "name": "Italian wedding soup",
+      "aliases": [
+        "wedding soup"
+      ],
+      "popularity": 56345,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Italian wedding soup"
+    },
+    {
+      "name": "Lentil soup",
+      "aliases": [
+        "Mercimek çorba",
+        "Mercimek çorbası",
+        "Mercimek soup"
+      ],
+      "popularity": 63005,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Lentil soup"
+    },
+    {
+      "name": "Budae-jjigae",
+      "aliases": [
+        "army base stew",
+        "sausage stew"
+      ],
+      "popularity": 68320,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Budae-jjigae"
+    },
+    {
+      "name": "Chicken soup",
+      "aliases": [
+        "chicken noodle soup"
+      ],
+      "popularity": 68995,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Chicken soup"
+    },
+    {
+      "name": "Haleem",
+      "aliases": [
+        "Halim"
+      ],
+      "popularity": 70333,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Haleem"
+    },
+    {
+      "name": "Turtle soup",
+      "aliases": [],
+      "popularity": 71381,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Turtle soup"
+    },
+    {
+      "name": "Pasta e fagioli",
+      "aliases": [
+        "pasta fagioli",
+        "pasta fasul",
+        "pasta fazool"
+      ],
+      "popularity": 72264,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Pasta e fagioli"
+    },
+    {
+      "name": "Buddha Jumps Over the Wall",
+      "aliases": [
+        "Buddha's Temptation"
+      ],
+      "popularity": 72986,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Buddha Jumps Over the Wall"
+    },
+    {
+      "name": "Nihari",
+      "aliases": [],
+      "popularity": 73343,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Nihari"
+    },
+    {
+      "name": "Shark fin soup",
+      "aliases": [],
+      "popularity": 83514,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Shark fin soup"
+    },
+    {
+      "name": "Consommé",
+      "aliases": [],
+      "popularity": 88497,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Consommé"
+    },
+    {
+      "name": "Pottage",
+      "aliases": [
+        "potage"
+      ],
+      "popularity": 90097,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Pottage"
+    },
+    {
+      "name": "Malatang",
+      "aliases": [
+        "spicy hot pot",
+        "spicy numbing hot pot",
+        "spicy numbing hot soup"
+      ],
+      "popularity": 97863,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Malatang"
+    },
+    {
+      "name": "Bún bò Huế",
+      "aliases": [],
+      "popularity": 98876,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Bún bò Huế"
+    },
+    {
+      "name": "Chowder",
+      "aliases": [],
+      "popularity": 100120,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Chowder"
+    },
+    {
+      "name": "Vichyssoise",
+      "aliases": [],
+      "popularity": 106563,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Vichyssoise"
+    },
+    {
+      "name": "Cullen skink",
+      "aliases": [],
+      "popularity": 113409,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Cullen skink"
+    },
+    {
+      "name": "Pot-au-feu",
+      "aliases": [],
+      "popularity": 136483,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Pot-au-feu"
+    },
+    {
+      "name": "Bouillabaisse",
+      "aliases": [],
+      "popularity": 137205,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Bouillabaisse"
+    },
+    {
+      "name": "Miso soup",
+      "aliases": [
+        "miso shiru"
+      ],
+      "popularity": 161525,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Miso soup"
+    },
+    {
+      "name": "Pozole",
+      "aliases": [
+        "pozoluquis"
+      ],
+      "popularity": 186305,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Pozole"
+    },
+    {
+      "name": "Hot pot",
+      "aliases": [
+        "huo guo",
+        "huoguo",
+        "steamboat"
+      ],
+      "popularity": 240234,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Hot pot"
+    },
+    {
+      "name": "Goulash",
+      "aliases": [
+        "Hungarian goulash"
+      ],
+      "popularity": 244257,
+      "rarity": 0.003,
+      "tier": 1,
+      "wiki": "Goulash"
+    },
+    {
+      "name": "Ramen",
+      "aliases": [],
+      "popularity": 407134,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Ramen"
+    }
+  ]
+}

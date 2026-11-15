@@ -1,0 +1,140 @@
+{
+  "id": "led-zeppelin-songs",
+  "slug": "led-zeppelin-songs",
+  "category": "music",
+  "question": "Name a Led Zeppelin song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Hot Dog",
+      "aliases": [
+        "Hot Dog (Led Zeppelin song)"
+      ],
+      "popularity": 450,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Hot Dog (Led Zeppelin song)"
+    },
+    {
+      "name": "Royal Orleans",
+      "aliases": [],
+      "popularity": 841,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Royal Orleans"
+    },
+    {
+      "name": "Black Country Woman",
+      "aliases": [],
+      "popularity": 1089,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Black Country Woman"
+    },
+    {
+      "name": "Baby Come On Home",
+      "aliases": [],
+      "popularity": 5907,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Baby Come On Home"
+    },
+    {
+      "name": "The Girl I Love She Got Long Black Wavy Hair",
+      "aliases": [
+        "Girl I Love She Got Long Black Wavy Hair",
+        "The Girl I Love"
+      ],
+      "popularity": 5944,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "The Girl I Love She Got Long Black Wavy Hair"
+    },
+    {
+      "name": "Candy Store Rock",
+      "aliases": [],
+      "popularity": 8231,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Candy Store Rock"
+    },
+    {
+      "name": "Dancing Days",
+      "aliases": [],
+      "popularity": 12199,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Dancing Days"
+    },
+    {
+      "name": "Four Sticks",
+      "aliases": [],
+      "popularity": 15492,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Four Sticks"
+    },
+    {
+      "name": "The Crunge",
+      "aliases": [
+        "Crunge"
+      ],
+      "popularity": 15776,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "The Crunge"
+    },
+    {
+      "name": "Trampled Under Foot",
+      "aliases": [],
+      "popularity": 26905,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Trampled Under Foot"
+    },
+    {
+      "name": "Fool in the Rain",
+      "aliases": [],
+      "popularity": 31156,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Fool in the Rain"
+    },
+    {
+      "name": "Over the Hills and Far Away",
+      "aliases": [
+        "Over the Hills and Far Away (Led Zeppelin song)"
+      ],
+      "popularity": 32445,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Over the Hills and Far Away (Led Zeppelin song)"
+    },
+    {
+      "name": "Rock and Roll",
+      "aliases": [
+        "Rock and Roll (Led Zeppelin song)"
+      ],
+      "popularity": 32808,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Rock and Roll (Led Zeppelin song)"
+    },
+    {
+      "name": "D'yer Mak'er",
+      "aliases": [],
+      "popularity": 48703,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "D'yer Mak'er"
+    },
+    {
+      "name": "Immigrant Song",
+      "aliases": [],
+      "popularity": 107964,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Immigrant Song"
+    }
+  ]
+}

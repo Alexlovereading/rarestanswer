@@ -1,0 +1,247 @@
+{
+  "id": "gibbon-species",
+  "slug": "gibbon-species",
+  "category": "animals",
+  "question": "Name a species of gibbon",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Western grey gibbon",
+      "aliases": [
+        "Abbot's Gray Gibbon",
+        "H. abbotti",
+        "Hylobates abbotti"
+      ],
+      "popularity": 2890,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Western grey gibbon"
+    },
+    {
+      "name": "Northern buffed-cheeked gibbon",
+      "aliases": [
+        "N. annamensis",
+        "Nomascus annamensis"
+      ],
+      "popularity": 3162,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Northern buffed-cheeked gibbon"
+    },
+    {
+      "name": "Eastern grey gibbon",
+      "aliases": [
+        "East Bornean Gray Gibbon",
+        "Hylobates funereus",
+        "northern grey gibbon"
+      ],
+      "popularity": 3474,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Eastern grey gibbon"
+    },
+    {
+      "name": "Kloss's gibbon",
+      "aliases": [
+        "Bilou",
+        "H. klossii",
+        "Hylobates klossii",
+        "Mentawai gibbon"
+      ],
+      "popularity": 4434,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Kloss's gibbon"
+    },
+    {
+      "name": "Southern white-cheeked gibbon",
+      "aliases": [
+        "Nomascus siki"
+      ],
+      "popularity": 4670,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Southern white-cheeked gibbon"
+    },
+    {
+      "name": "Bornean white-bearded gibbon",
+      "aliases": [
+        "Hylobates albibarbis"
+      ],
+      "popularity": 4983,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Bornean white-bearded gibbon"
+    },
+    {
+      "name": "Müller's gibbon",
+      "aliases": [
+        "Bornean gibbon",
+        "H. muelleri",
+        "Hylobates muelleri",
+        "Müller's Bornean gibbon",
+        "southern grey gibbon"
+      ],
+      "popularity": 5903,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Müller's gibbon"
+    },
+    {
+      "name": "Skywalker hoolock gibbon",
+      "aliases": [
+        "Gaoligong hoolock gibbon",
+        "Hoolock tianxing"
+      ],
+      "popularity": 6117,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Skywalker hoolock gibbon"
+    },
+    {
+      "name": "Eastern hoolock gibbon",
+      "aliases": [
+        "H. leuconedys",
+        "Hoolock leuconedys"
+      ],
+      "popularity": 6451,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Eastern hoolock gibbon"
+    },
+    {
+      "name": "Yellow-cheeked gibbon",
+      "aliases": [
+        "buffed-cheeked gibbon",
+        "Gabriella's crested gibbon",
+        "golden-cheeked crested gibbon",
+        "golden-cheeked gibbon",
+        "N. gabriellae",
+        "Nomascus gabriellae",
+        "red-cheeked gibbon",
+        "yellow-cheeked crested gibbon"
+      ],
+      "popularity": 7606,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Yellow-cheeked gibbon"
+    },
+    {
+      "name": "Eastern black crested gibbon",
+      "aliases": [
+        "Cao-vit crested gibbon",
+        "N. nasutus",
+        "Nomascus nasutus"
+      ],
+      "popularity": 7735,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Eastern black crested gibbon"
+    },
+    {
+      "name": "Pileated gibbon",
+      "aliases": [
+        "H. pileatus",
+        "Hylobates pileatus"
+      ],
+      "popularity": 9086,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Pileated gibbon"
+    },
+    {
+      "name": "Black crested gibbon",
+      "aliases": [
+        "N. concolor",
+        "Nomascus concolor"
+      ],
+      "popularity": 9162,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Black crested gibbon"
+    },
+    {
+      "name": "Silvery gibbon",
+      "aliases": [
+        "H. moloch",
+        "Hylobates moloch",
+        "Javan gibbon"
+      ],
+      "popularity": 10393,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Silvery gibbon"
+    },
+    {
+      "name": "Agile gibbon",
+      "aliases": [
+        "black-handed gibbon",
+        "H. agilis",
+        "Hylobates agilis"
+      ],
+      "popularity": 10440,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Agile gibbon"
+    },
+    {
+      "name": "Western hoolock gibbon",
+      "aliases": [
+        "H. hoolock",
+        "hoolock gibbon",
+        "Hoolock hoolock",
+        "western hoolock"
+      ],
+      "popularity": 11598,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Western hoolock gibbon"
+    },
+    {
+      "name": "Northern white-cheeked gibbon",
+      "aliases": [
+        "N. leucogenys",
+        "Nomascus leucogenys"
+      ],
+      "popularity": 17705,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Northern white-cheeked gibbon"
+    },
+    {
+      "name": "Hainan black crested gibbon",
+      "aliases": [
+        "Hainan gibbon",
+        "N. hainanus",
+        "Nomascus hainanus"
+      ],
+      "popularity": 21032,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Hainan black crested gibbon"
+    },
+    {
+      "name": "Lar gibbon",
+      "aliases": [
+        "H. lar",
+        "Hylobates lar",
+        "White-Handed Gibbon"
+      ],
+      "popularity": 53443,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Lar gibbon"
+    },
+    {
+      "name": "Siamang",
+      "aliases": [
+        "Hylobates syndactylus",
+        "Symphalangus syndactylus"
+      ],
+      "popularity": 63753,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Siamang"
+    }
+  ]
+}

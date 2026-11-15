@@ -1,0 +1,489 @@
+{
+  "id": "grammy-record-of-the-year",
+  "slug": "grammy-record-of-the-year",
+  "category": "music",
+  "question": "Name a Grammy Award for Record of the Year winner",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Hans Graf",
+      "aliases": [],
+      "popularity": 4800,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Hans Graf"
+    },
+    {
+      "name": "Mark Rankin",
+      "aliases": [
+        "Mark Rankin (record engineer)"
+      ],
+      "popularity": 4940,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Mark Rankin (record engineer)"
+    },
+    {
+      "name": "Mike Bozzi",
+      "aliases": [],
+      "popularity": 9194,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Mike Bozzi"
+    },
+    {
+      "name": "Tom Elmhirst",
+      "aliases": [],
+      "popularity": 9389,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Tom Elmhirst"
+    },
+    {
+      "name": "Humberto Gatica",
+      "aliases": [
+        "Humberto Gatico"
+      ],
+      "popularity": 15330,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Humberto Gatica"
+    },
+    {
+      "name": "About Damn Time",
+      "aliases": [],
+      "popularity": 32078,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "About Damn Time"
+    },
+    {
+      "name": "Everything I Wanted",
+      "aliases": [],
+      "popularity": 36048,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Everything I Wanted"
+    },
+    {
+      "name": "Paul Epworth",
+      "aliases": [],
+      "popularity": 42752,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Paul Epworth"
+    },
+    {
+      "name": "Not Ready to Make Nice",
+      "aliases": [],
+      "popularity": 53928,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Not Ready to Make Nice"
+    },
+    {
+      "name": "This Is America",
+      "aliases": [],
+      "popularity": 55968,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "This Is America"
+    },
+    {
+      "name": "Leave the Door Open",
+      "aliases": [],
+      "popularity": 56506,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Leave the Door Open"
+    },
+    {
+      "name": "Domenico Modugno",
+      "aliases": [
+        "Mimmo Modugno"
+      ],
+      "popularity": 57089,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Domenico Modugno"
+    },
+    {
+      "name": "Rolling in the Deep",
+      "aliases": [
+        "Rollin' In the Deep"
+      ],
+      "popularity": 110113,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Rolling in the Deep"
+    },
+    {
+      "name": "Bad Guy",
+      "aliases": [
+        "Bad Guy (Billie Eilish song)"
+      ],
+      "popularity": 114016,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Bad Guy (Billie Eilish song)"
+    },
+    {
+      "name": "Daniel Lanois",
+      "aliases": [],
+      "popularity": 127740,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Daniel Lanois"
+    },
+    {
+      "name": "Astrud Gilberto",
+      "aliases": [
+        "Astrud Evangelina Weinert"
+      ],
+      "popularity": 141341,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Astrud Gilberto"
+    },
+    {
+      "name": "Stan Getz",
+      "aliases": [
+        "Stanley Gayetski",
+        "Stanley Getz"
+      ],
+      "popularity": 146547,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Stan Getz"
+    },
+    {
+      "name": "Flowers",
+      "aliases": [
+        "Flowers (Miley Cyrus song)"
+      ],
+      "popularity": 152489,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Flowers (Miley Cyrus song)"
+    },
+    {
+      "name": "Uptown Funk",
+      "aliases": [],
+      "popularity": 191688,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Uptown Funk"
+    },
+    {
+      "name": "Bobby McFerrin",
+      "aliases": [
+        "El Boquerón Tostao",
+        "Robert Keith McFerrin"
+      ],
+      "popularity": 206700,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Bobby McFerrin"
+    },
+    {
+      "name": "Al Jarreau",
+      "aliases": [
+        "Alwin Jarreau",
+        "Alwin Lopez \"Al\" Jarreau",
+        "Alwin Lopez Jarreau",
+        "Alwyn Lopez Jarreau"
+      ],
+      "popularity": 210827,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Al Jarreau"
+    },
+    {
+      "name": "The 5th Dimension",
+      "aliases": [
+        "5th Dimension",
+        "Fifth Dimension",
+        "The Fifth Dimension",
+        "The Versatiles"
+      ],
+      "popularity": 247988,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "The 5th Dimension"
+    },
+    {
+      "name": "Somebody That I Used to Know",
+      "aliases": [],
+      "popularity": 309192,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Somebody That I Used to Know"
+    },
+    {
+      "name": "Trevor Horn",
+      "aliases": [
+        "Trevor Charles Horn"
+      ],
+      "popularity": 321370,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Trevor Horn"
+    },
+    {
+      "name": "Captain & Tennille",
+      "aliases": [
+        "The Captain and Tennille"
+      ],
+      "popularity": 332170,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Captain & Tennille"
+    },
+    {
+      "name": "Not Like Us",
+      "aliases": [],
+      "popularity": 349526,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Not Like Us"
+    },
+    {
+      "name": "Gotye",
+      "aliases": [
+        "Wally De Backer",
+        "Wouter De Backer"
+      ],
+      "popularity": 396618,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Gotye"
+    },
+    {
+      "name": "James Horner",
+      "aliases": [
+        "James Roy Horner"
+      ],
+      "popularity": 397905,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "James Horner"
+    },
+    {
+      "name": "Kings of Leon",
+      "aliases": [],
+      "popularity": 450017,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Kings of Leon"
+    },
+    {
+      "name": "Santana",
+      "aliases": [
+        "Santana (band)"
+      ],
+      "popularity": 471894,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Santana (band)"
+    },
+    {
+      "name": "Roberta Flack",
+      "aliases": [
+        "Roberta Cleopatra Flack"
+      ],
+      "popularity": 474715,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Roberta Flack"
+    },
+    {
+      "name": "Rob Thomas",
+      "aliases": [
+        "Rob Thomas (musician)"
+      ],
+      "popularity": 488546,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Rob Thomas (musician)"
+    },
+    {
+      "name": "Tony Bennett",
+      "aliases": [
+        "Anthony Benedetto",
+        "Anthony Dominick Benedetto",
+        "Anthony Dominick \"Tony\" Benedetto"
+      ],
+      "popularity": 606514,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Tony Bennett"
+    },
+    {
+      "name": "Bobby Darin",
+      "aliases": [
+        "Walden Cassotto",
+        "Walden R. Cassotto",
+        "Walden Robert Cassotto"
+      ],
+      "popularity": 740794,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Bobby Darin"
+    },
+    {
+      "name": "Sam Smith",
+      "aliases": [
+        "Samuel Frederick Smith"
+      ],
+      "popularity": 755071,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Sam Smith"
+    },
+    {
+      "name": "Sheryl Crow",
+      "aliases": [
+        "Sheryl Suzanne Crow"
+      ],
+      "popularity": 780444,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Sheryl Crow"
+    },
+    {
+      "name": "Norah Jones",
+      "aliases": [
+        "Geetali Norah Jones Shankar"
+      ],
+      "popularity": 904982,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Norah Jones"
+    },
+    {
+      "name": "Seal",
+      "aliases": [
+        "Henry Olusegun Adeola Samuel",
+        "Samuel Sealhenry",
+        "Seal Henry Samuel",
+        "Seal (musician)",
+        "Seal Samuel"
+      ],
+      "popularity": 976700,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Seal (musician)"
+    },
+    {
+      "name": "David Foster",
+      "aliases": [
+        "David W. Foster",
+        "David Walter Foster"
+      ],
+      "popularity": 985367,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "David Foster"
+    },
+    {
+      "name": "Ludwig Göransson",
+      "aliases": [
+        "Ludwig Tomas Emil Göransson"
+      ],
+      "popularity": 1279206,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Ludwig Göransson"
+    },
+    {
+      "name": "Adele",
+      "aliases": [
+        "Adele Adkins",
+        "Adele Laurie Blue Adkins"
+      ],
+      "popularity": 1611016,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Adele"
+    },
+    {
+      "name": "Olivia Newton-John",
+      "aliases": [
+        "Olivia Newton"
+      ],
+      "popularity": 1623499,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Olivia Newton-John"
+    },
+    {
+      "name": "Kendrick Lamar",
+      "aliases": [],
+      "popularity": 1789405,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Kendrick Lamar"
+    },
+    {
+      "name": "Tina Turner",
+      "aliases": [
+        "Martha Nell Bullock",
+        "Tina Turner-Bullock"
+      ],
+      "popularity": 1906010,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Tina Turner"
+    },
+    {
+      "name": "Quincy Jones",
+      "aliases": [
+        "Quincy",
+        "Quincy Delight Jones Jr",
+        "Quincy Jones Jr."
+      ],
+      "popularity": 1934354,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Quincy Jones"
+    },
+    {
+      "name": "Celine Dion",
+      "aliases": [
+        "Céline Marie Claudette Dion"
+      ],
+      "popularity": 2232351,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Celine Dion"
+    },
+    {
+      "name": "Billie Eilish",
+      "aliases": [],
+      "popularity": 3339706,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Billie Eilish"
+    },
+    {
+      "name": "Miley Cyrus",
+      "aliases": [
+        "Destiny Hope Cyrus",
+        "Miley",
+        "Miley Ray Cyrus"
+      ],
+      "popularity": 3414196,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Miley Cyrus"
+    },
+    {
+      "name": "Michael Jackson",
+      "aliases": [],
+      "popularity": 16266768,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Michael Jackson"
+    }
+  ]
+}

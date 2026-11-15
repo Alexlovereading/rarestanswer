@@ -139,6 +139,11 @@
     "paginationAria": "Article pagination",
     "spotlight": "Spotlight",
     "keepExploring": "Keep exploring",
+    "pageCount": "{count} pages",
+    "featuredLabel": "Start here",
+    "allPages": "All pages",
+    "readThis": "Read",
+    "backToTop": "Back to top",
     "categories": {
       "geography": "Geography",
       "animals": "Animals",

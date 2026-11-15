@@ -1,0 +1,548 @@
+{
+  "id": "crow-species",
+  "slug": "crow-species",
+  "category": "animals",
+  "question": "Name a species of crow or raven",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "High-billed crow",
+      "aliases": [
+        "Corvus impluviatus"
+      ],
+      "popularity": 1553,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "High-billed crow"
+    },
+    {
+      "name": "Robust crow",
+      "aliases": [
+        "Corvus viriosus"
+      ],
+      "popularity": 2383,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Robust crow"
+    },
+    {
+      "name": "Northwestern crow",
+      "aliases": [
+        "Corvus brachyrhynchos caurinus",
+        "Corvus caurinus"
+      ],
+      "popularity": 2780,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Northwestern crow"
+    },
+    {
+      "name": "Cuban palm crow",
+      "aliases": [
+        "Corvus minutus"
+      ],
+      "popularity": 2922,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Cuban palm crow"
+    },
+    {
+      "name": "Sierra Madre crow",
+      "aliases": [
+        "Corvus sierramadrensis"
+      ],
+      "popularity": 3206,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Sierra Madre crow"
+    },
+    {
+      "name": "Bougainville crow",
+      "aliases": [
+        "Corvus meeki"
+      ],
+      "popularity": 3309,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Bougainville crow"
+    },
+    {
+      "name": "Samar crow",
+      "aliases": [
+        "Corvus samarensis"
+      ],
+      "popularity": 3537,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Samar crow"
+    },
+    {
+      "name": "Hispaniolan palm crow",
+      "aliases": [
+        "Corvus palmarum"
+      ],
+      "popularity": 3545,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Hispaniolan palm crow"
+    },
+    {
+      "name": "Flores crow",
+      "aliases": [
+        "Corvus florensis"
+      ],
+      "popularity": 4052,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Flores crow"
+    },
+    {
+      "name": "Palawan crow",
+      "aliases": [
+        "Corvus pusillus"
+      ],
+      "popularity": 4107,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Palawan crow"
+    },
+    {
+      "name": "Cuban crow",
+      "aliases": [
+        "Corvus nasicus"
+      ],
+      "popularity": 4204,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Cuban crow"
+    },
+    {
+      "name": "Eastern jungle crow",
+      "aliases": [
+        "Corvus levaillantii",
+        "Jungle crow"
+      ],
+      "popularity": 4321,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Eastern jungle crow"
+    },
+    {
+      "name": "Piping crow",
+      "aliases": [
+        "Corvus typicus"
+      ],
+      "popularity": 4392,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Piping crow"
+    },
+    {
+      "name": "Long-billed crow",
+      "aliases": [
+        "Corvus validus"
+      ],
+      "popularity": 4404,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Long-billed crow"
+    },
+    {
+      "name": "Sinaloa crow",
+      "aliases": [
+        "Corvus sinaloae"
+      ],
+      "popularity": 4560,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Sinaloa crow"
+    },
+    {
+      "name": "Brown-headed crow",
+      "aliases": [
+        "Corvus fuscicapillus"
+      ],
+      "popularity": 4847,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Brown-headed crow"
+    },
+    {
+      "name": "Sulawesi crow",
+      "aliases": [
+        "Corvus celebensis"
+      ],
+      "popularity": 5000,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Sulawesi crow"
+    },
+    {
+      "name": "Banggai crow",
+      "aliases": [
+        "Corvus unicolor"
+      ],
+      "popularity": 5276,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Banggai crow"
+    },
+    {
+      "name": "Jamaican crow",
+      "aliases": [
+        "Corvus jamaicensis"
+      ],
+      "popularity": 5473,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Jamaican crow"
+    },
+    {
+      "name": "White-billed crow",
+      "aliases": [
+        "Corvus woodfordi"
+      ],
+      "popularity": 5541,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "White-billed crow"
+    },
+    {
+      "name": "Tamaulipas crow",
+      "aliases": [
+        "Corvus imparatus"
+      ],
+      "popularity": 6523,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Tamaulipas crow"
+    },
+    {
+      "name": "Sunda crow",
+      "aliases": [
+        "Corvus enca",
+        "Slender-billed Crow"
+      ],
+      "popularity": 6619,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Sunda crow"
+    },
+    {
+      "name": "Mariana crow",
+      "aliases": [
+        "aga",
+        "Corvus kubaryi"
+      ],
+      "popularity": 6763,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Mariana crow"
+    },
+    {
+      "name": "Violet crow",
+      "aliases": [
+        "Corvus violaceus"
+      ],
+      "popularity": 6843,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "Violet crow"
+    },
+    {
+      "name": "Philippine jungle crow",
+      "aliases": [
+        "Corvus philippinus"
+      ],
+      "popularity": 7018,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Philippine jungle crow"
+    },
+    {
+      "name": "Collared crow",
+      "aliases": [
+        "Corvus torquatus"
+      ],
+      "popularity": 7130,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Collared crow"
+    },
+    {
+      "name": "Somali crow",
+      "aliases": [
+        "Corvus edithae"
+      ],
+      "popularity": 7171,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Somali crow"
+    },
+    {
+      "name": "Indian jungle crow",
+      "aliases": [
+        "Corvus culminatus"
+      ],
+      "popularity": 7464,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Indian jungle crow"
+    },
+    {
+      "name": "Grey crow",
+      "aliases": [
+        "Corvus tristis"
+      ],
+      "popularity": 7535,
+      "rarity": 0.451,
+      "tier": 3,
+      "wiki": "Grey crow"
+    },
+    {
+      "name": "White-necked crow",
+      "aliases": [
+        "Corvus leucognaphalus"
+      ],
+      "popularity": 8152,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "White-necked crow"
+    },
+    {
+      "name": "Fan-tailed raven",
+      "aliases": [
+        "Corvus rhipidurus"
+      ],
+      "popularity": 8814,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Fan-tailed raven"
+    },
+    {
+      "name": "Cape crow",
+      "aliases": [
+        "Corvus capensis"
+      ],
+      "popularity": 9581,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Cape crow"
+    },
+    {
+      "name": "Brown-necked raven",
+      "aliases": [
+        "Corvus ruficollis"
+      ],
+      "popularity": 12218,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Brown-necked raven"
+    },
+    {
+      "name": "Forest raven",
+      "aliases": [
+        "Corvus tasmanicus"
+      ],
+      "popularity": 13445,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Forest raven"
+    },
+    {
+      "name": "Little raven",
+      "aliases": [
+        "Corvus mellori"
+      ],
+      "popularity": 14276,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Little raven"
+    },
+    {
+      "name": "Little crow",
+      "aliases": [
+        "Corvus bennetti",
+        "Little crow (bird)"
+      ],
+      "popularity": 15466,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Little crow (bird)"
+    },
+    {
+      "name": "White-necked raven",
+      "aliases": [
+        "Corvus albicollis"
+      ],
+      "popularity": 17665,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "White-necked raven"
+    },
+    {
+      "name": "Chihuahuan raven",
+      "aliases": [
+        "Corvus cryptoleucus"
+      ],
+      "popularity": 20173,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Chihuahuan raven"
+    },
+    {
+      "name": "Torresian crow",
+      "aliases": [
+        "Corvus orru"
+      ],
+      "popularity": 22597,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Torresian crow"
+    },
+    {
+      "name": "New Caledonian crow",
+      "aliases": [
+        "C. moneduloides",
+        "Corvus moneduloides"
+      ],
+      "popularity": 29669,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "New Caledonian crow"
+    },
+    {
+      "name": "Fish crow",
+      "aliases": [
+        "Corvus ossifragus"
+      ],
+      "popularity": 36349,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Fish crow"
+    },
+    {
+      "name": "Thick-billed raven",
+      "aliases": [
+        "Corvus crassirostris"
+      ],
+      "popularity": 39540,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Thick-billed raven"
+    },
+    {
+      "name": "Large-billed crow",
+      "aliases": [
+        "Corvus macrorhynchos"
+      ],
+      "popularity": 40099,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Large-billed crow"
+    },
+    {
+      "name": "Australian raven",
+      "aliases": [
+        "Corvus coronoides"
+      ],
+      "popularity": 43799,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Australian raven"
+    },
+    {
+      "name": "House crow",
+      "aliases": [
+        "Corvus splendens"
+      ],
+      "popularity": 44071,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "House crow"
+    },
+    {
+      "name": "Pied crow",
+      "aliases": [
+        "Corvus albus"
+      ],
+      "popularity": 48722,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Pied crow"
+    },
+    {
+      "name": "Hawaiian crow",
+      "aliases": [
+        "Corvus hawaiiensis"
+      ],
+      "popularity": 50471,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Hawaiian crow"
+    },
+    {
+      "name": "Carrion crow",
+      "aliases": [
+        "corbie",
+        "Corvus corone",
+        "crow"
+      ],
+      "popularity": 140442,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Carrion crow"
+    },
+    {
+      "name": "American crow",
+      "aliases": [
+        "common American crow",
+        "common crow",
+        "Corvus brachyrhynchos"
+      ],
+      "popularity": 152177,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "American crow"
+    },
+    {
+      "name": "Hooded crow",
+      "aliases": [
+        "Coatham Crow",
+        "Corvus cornix",
+        "hoodie",
+        "Royston Crow",
+        "Scremerston Crow"
+      ],
+      "popularity": 159392,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Hooded crow"
+    },
+    {
+      "name": "Rook",
+      "aliases": [
+        "Corvus frugilegus",
+        "Rook (bird)"
+      ],
+      "popularity": 195463,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Rook (bird)"
+    },
+    {
+      "name": "Common raven",
+      "aliases": [
+        "corax raven",
+        "Corvus corax",
+        "Northern Raven",
+        "raven",
+        "western raven"
+      ],
+      "popularity": 352441,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Common raven"
+    }
+  ]
+}

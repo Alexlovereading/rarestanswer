@@ -1,0 +1,637 @@
+{
+  "id": "unesco-sites-in-china",
+  "slug": "unesco-sites-in-china",
+  "category": "geography",
+  "question": "Name a UNESCO World Heritage Site in China",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "World Heritage site No. 779",
+      "aliases": [],
+      "popularity": 106,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "World Heritage site No. 779"
+    },
+    {
+      "name": "Chengjiang Fossil Site",
+      "aliases": [
+        "Chengjiangdongwuhuashiqun Provincial Natural Reserve"
+      ],
+      "popularity": 541,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Chengjiang Fossil Site"
+    },
+    {
+      "name": "Guia Lighthouse",
+      "aliases": [],
+      "popularity": 648,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Guia Lighthouse"
+    },
+    {
+      "name": "Lushan Geopark",
+      "aliases": [
+        "Lushan National Geological Park",
+        "Lushan Quarternary Glaciation National Geopark",
+        "Lushan Quaternary Glaciation National Geopark"
+      ],
+      "popularity": 781,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Lushan Geopark"
+    },
+    {
+      "name": "Macau Protestant Chapel",
+      "aliases": [
+        "Morrison Protestant Chapel"
+      ],
+      "popularity": 843,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Macau Protestant Chapel"
+    },
+    {
+      "name": "Sam Kai Vui Kun",
+      "aliases": [
+        "Kuan Tai Temple"
+      ],
+      "popularity": 881,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Sam Kai Vui Kun"
+    },
+    {
+      "name": "Casa Garden",
+      "aliases": [],
+      "popularity": 1040,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Casa Garden"
+    },
+    {
+      "name": "Sir Robert Ho Tung Library",
+      "aliases": [],
+      "popularity": 1147,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Sir Robert Ho Tung Library"
+    },
+    {
+      "name": "Santa Casa da Misericórdia of Macau",
+      "aliases": [
+        "Santa Casa da Misericórdia"
+      ],
+      "popularity": 1630,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Santa Casa da Misericórdia of Macau"
+    },
+    {
+      "name": "Old Protestant Cemetery",
+      "aliases": [
+        "Old Protestant Cemetery (Macau)",
+        "Protestant Cemetery"
+      ],
+      "popularity": 1635,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Old Protestant Cemetery (Macau)"
+    },
+    {
+      "name": "Dom Pedro V Theatre",
+      "aliases": [
+        "Cinema Macau",
+        "Teatro Dom Pedro V",
+        "Teatro Ma Gau"
+      ],
+      "popularity": 1711,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Dom Pedro V Theatre"
+    },
+    {
+      "name": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+      "aliases": [],
+      "popularity": 2110,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang"
+    },
+    {
+      "name": "China Danxia",
+      "aliases": [],
+      "popularity": 2425,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "China Danxia"
+    },
+    {
+      "name": "St. Lawrence's Church, Macau",
+      "aliases": [
+        "St Lawrence's Church"
+      ],
+      "popularity": 2449,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "St. Lawrence's Church, Macau"
+    },
+    {
+      "name": "St. Joseph's Seminary and Church",
+      "aliases": [],
+      "popularity": 2586,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "St. Joseph's Seminary and Church"
+    },
+    {
+      "name": "Tusi Sites",
+      "aliases": [],
+      "popularity": 2695,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Tusi Sites"
+    },
+    {
+      "name": "Leal Senado Building",
+      "aliases": [],
+      "popularity": 3045,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Leal Senado Building"
+    },
+    {
+      "name": "Cathedral of the Nativity of Our Lady, Macau",
+      "aliases": [
+        "Igreja da Sé"
+      ],
+      "popularity": 3085,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Cathedral of the Nativity of Our Lady, Macau"
+    },
+    {
+      "name": "Temple and Cemetery of Confucius and the Kong Family Mansion in Qufu",
+      "aliases": [],
+      "popularity": 3163,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Temple and Cemetery of Confucius and the Kong Family Mansion in Qufu"
+    },
+    {
+      "name": "Zuojiang Huashan Rock Art",
+      "aliases": [
+        "Huashan Petroglyph",
+        "Huashan Pictographs",
+        "Huashan Rock Art",
+        "Rock Paintings of Hua Mountain"
+      ],
+      "popularity": 6119,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Zuojiang Huashan Rock Art"
+    },
+    {
+      "name": "Capital Cities and Tombs of the Ancient Koguryo Kingdom",
+      "aliases": [],
+      "popularity": 7002,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Capital Cities and Tombs of the Ancient Koguryo Kingdom"
+    },
+    {
+      "name": "Fortaleza do Monte",
+      "aliases": [],
+      "popularity": 7104,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Fortaleza do Monte"
+    },
+    {
+      "name": "Mount Sanqing",
+      "aliases": [],
+      "popularity": 7182,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Mount Sanqing"
+    },
+    {
+      "name": "Sichuan Giant Panda Sanctuaries",
+      "aliases": [],
+      "popularity": 8987,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Sichuan Giant Panda Sanctuaries"
+    },
+    {
+      "name": "Beijing Central Axis",
+      "aliases": [
+        "Central Axis of Beijing",
+        "Zhongzhou Road"
+      ],
+      "popularity": 9609,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Beijing Central Axis"
+    },
+    {
+      "name": "Imperial Tombs of the Ming and Qing Dynasties",
+      "aliases": [],
+      "popularity": 10225,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Imperial Tombs of the Ming and Qing Dynasties"
+    },
+    {
+      "name": "Honghe Hani Rice Terraces",
+      "aliases": [
+        "Hani Terraces",
+        "Yuanyang Rice Terraces"
+      ],
+      "popularity": 10293,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Honghe Hani Rice Terraces"
+    },
+    {
+      "name": "Hoh Xil",
+      "aliases": [],
+      "popularity": 10704,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Hoh Xil"
+    },
+    {
+      "name": "Historic Centre of Macau",
+      "aliases": [],
+      "popularity": 10929,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Historic Centre of Macau"
+    },
+    {
+      "name": "Archaeological ruins of Liangzhu City",
+      "aliases": [
+        "Liangzhu site"
+      ],
+      "popularity": 10943,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Archaeological ruins of Liangzhu City"
+    },
+    {
+      "name": "A-Ma Temple",
+      "aliases": [],
+      "popularity": 11331,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "A-Ma Temple"
+    },
+    {
+      "name": "St. Dominic's Church, Macau",
+      "aliases": [
+        "St. Dominic's Church"
+      ],
+      "popularity": 13327,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "St. Dominic's Church, Macau"
+    },
+    {
+      "name": "Western Xia mausoleums",
+      "aliases": [
+        "Western Xia Imperial Tombs"
+      ],
+      "popularity": 13954,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Western Xia mausoleums"
+    },
+    {
+      "name": "Badain Jaran Desert",
+      "aliases": [
+        "Badain Jaran Shamo"
+      ],
+      "popularity": 14422,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Badain Jaran Desert"
+    },
+    {
+      "name": "Zhoukoudian Peking Man Site",
+      "aliases": [
+        "Zhoukoudian site"
+      ],
+      "popularity": 15484,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Zhoukoudian Peking Man Site"
+    },
+    {
+      "name": "Senado Square",
+      "aliases": [],
+      "popularity": 16547,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Senado Square"
+    },
+    {
+      "name": "Three Parallel Rivers",
+      "aliases": [
+        "Three Parallel Rivers National Park"
+      ],
+      "popularity": 17154,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Three Parallel Rivers"
+    },
+    {
+      "name": "Dengfeng",
+      "aliases": [
+        "Dengfeng Shi"
+      ],
+      "popularity": 17160,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Dengfeng"
+    },
+    {
+      "name": "South China Karst",
+      "aliases": [],
+      "popularity": 19698,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "South China Karst"
+    },
+    {
+      "name": "Mount Wutai",
+      "aliases": [
+        "Wu-tai-shan",
+        "Wutai Mountain",
+        "Wutai Shan",
+        "Wutaishan"
+      ],
+      "popularity": 22522,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Mount Wutai"
+    },
+    {
+      "name": "Wuyi Mountains",
+      "aliases": [
+        "Bohea Hills",
+        "Mount Wuyi",
+        "Wuyi Shan",
+        "Wuyishan"
+      ],
+      "popularity": 25890,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Wuyi Mountains"
+    },
+    {
+      "name": "Chengde Mountain Resort",
+      "aliases": [
+        "Bi shu shan zhuang",
+        "Bishushanzhuang",
+        "Imperial Summer Resort"
+      ],
+      "popularity": 26765,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Chengde Mountain Resort"
+    },
+    {
+      "name": "Huanglong Scenic and Historic Interest Area",
+      "aliases": [
+        "Huanglong"
+      ],
+      "popularity": 28137,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Huanglong Scenic and Historic Interest Area"
+    },
+    {
+      "name": "Humble Administrator's Garden",
+      "aliases": [
+        "The Humble Administrator's Garden"
+      ],
+      "popularity": 28148,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Humble Administrator's Garden"
+    },
+    {
+      "name": "Classical Gardens of Suzhou",
+      "aliases": [],
+      "popularity": 28722,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Classical Gardens of Suzhou"
+    },
+    {
+      "name": "Dazu Rock Carvings",
+      "aliases": [],
+      "popularity": 29938,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Dazu Rock Carvings"
+    },
+    {
+      "name": "Yungang Grottoes",
+      "aliases": [],
+      "popularity": 30688,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Yungang Grottoes"
+    },
+    {
+      "name": "Gulangyu",
+      "aliases": [
+        "Kou-lang-se"
+      ],
+      "popularity": 31061,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Gulangyu"
+    },
+    {
+      "name": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor",
+      "aliases": [],
+      "popularity": 32828,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor"
+    },
+    {
+      "name": "Ruins of Saint Paul's",
+      "aliases": [
+        "Ruins of St. Paul's"
+      ],
+      "popularity": 42408,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Ruins of Saint Paul's"
+    },
+    {
+      "name": "Wulingyuan",
+      "aliases": [
+        "Wulingyuan National Park",
+        "Wulingyuan Scenic Reserve"
+      ],
+      "popularity": 45361,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Wulingyuan"
+    },
+    {
+      "name": "Yinxu",
+      "aliases": [
+        "archaeological site of Yin Xu",
+        "Ruins of Yin",
+        "Yin Ruins",
+        "Yin Xu"
+      ],
+      "popularity": 47098,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "Yinxu"
+    },
+    {
+      "name": "Fujian tulou",
+      "aliases": [
+        "Fujian Tulou sites",
+        "Fujian Tulou world heritage site",
+        "Pinghe Tulou"
+      ],
+      "popularity": 51140,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Fujian tulou"
+    },
+    {
+      "name": "Longmen Grottoes",
+      "aliases": [
+        "Long-men shih kʻu",
+        "Longmen Caves",
+        "Longmen National Park",
+        "Longmen Shiku",
+        "Lung-men Caves",
+        "Lung-men Grottoes",
+        "Lung-men shih kʻu",
+        "Lung-men Shiku"
+      ],
+      "popularity": 51512,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Longmen Grottoes"
+    },
+    {
+      "name": "Huangshan",
+      "aliases": [
+        "Yellow Mountain",
+        "Yellow Mountains"
+      ],
+      "popularity": 70608,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Huangshan"
+    },
+    {
+      "name": "Mount Tai",
+      "aliases": [
+        "Tai Mountain",
+        "Tai Shan",
+        "Taishan"
+      ],
+      "popularity": 79350,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Mount Tai"
+    },
+    {
+      "name": "Jiuzhaigou",
+      "aliases": [
+        "Jiu zhai gou",
+        "Jiuzhaigou Valley"
+      ],
+      "popularity": 81300,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Jiuzhaigou"
+    },
+    {
+      "name": "Mogao Caves",
+      "aliases": [
+        "Mogao ku"
+      ],
+      "popularity": 88320,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Mogao Caves"
+    },
+    {
+      "name": "Summer Palace",
+      "aliases": [
+        "New Summer Palace",
+        "Yi He Yuan",
+        "Yiheyuan"
+      ],
+      "popularity": 123984,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Summer Palace"
+    },
+    {
+      "name": "Shangdu",
+      "aliases": [
+        "K'ai-p'ing",
+        "Kai-ping",
+        "Kaiping",
+        "Shang-tu",
+        "Site of Xanadu",
+        "Xanadu",
+        "Yuan Shangdu"
+      ],
+      "popularity": 136430,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Shangdu"
+    },
+    {
+      "name": "Grand Canal",
+      "aliases": [
+        "Beijing-Hangzhou Grand Canal",
+        "Grand Canal (China)",
+        "The Grand Canal"
+      ],
+      "popularity": 147773,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Grand Canal (China)"
+    },
+    {
+      "name": "Temple of Heaven",
+      "aliases": [
+        "Imperial temple of heaven"
+      ],
+      "popularity": 190562,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Temple of Heaven"
+    },
+    {
+      "name": "Mausoleum of Qin Shi Huang",
+      "aliases": [
+        "Mausoleum of Qin Chi Huang",
+        "Qinshihuang Ling"
+      ],
+      "popularity": 317696,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Mausoleum of Qin Shi Huang"
+    }
+  ]
+}

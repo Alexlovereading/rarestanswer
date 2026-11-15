@@ -1,0 +1,1018 @@
+{
+  "id": "condiments",
+  "slug": "condiments",
+  "category": "food",
+  "question": "Name a condiment",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Seasoned rice vinegar",
+      "aliases": [
+        "awasezu"
+      ],
+      "popularity": 176,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Seasoned rice vinegar"
+    },
+    {
+      "name": "Gypsy sauce",
+      "aliases": [],
+      "popularity": 343,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Gypsy sauce"
+    },
+    {
+      "name": "Tuhau",
+      "aliases": [],
+      "popularity": 634,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Tuhau"
+    },
+    {
+      "name": "Eshabwe",
+      "aliases": [],
+      "popularity": 1314,
+      "rarity": 0.972,
+      "tier": 6,
+      "wiki": "Eshabwe"
+    },
+    {
+      "name": "Delal sauce",
+      "aliases": [],
+      "popularity": 1622,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Delal sauce"
+    },
+    {
+      "name": "Tekka",
+      "aliases": [],
+      "popularity": 1657,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Tekka"
+    },
+    {
+      "name": "Sumbala",
+      "aliases": [
+        "Dawadawa",
+        "Soumbala"
+      ],
+      "popularity": 1711,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Sumbala"
+    },
+    {
+      "name": "Horseradish sauce",
+      "aliases": [],
+      "popularity": 1820,
+      "rarity": 0.934,
+      "tier": 6,
+      "wiki": "Horseradish sauce"
+    },
+    {
+      "name": "Mentsuyu",
+      "aliases": [
+        "men-tsuyu"
+      ],
+      "popularity": 2087,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Mentsuyu"
+    },
+    {
+      "name": "Corn sauce",
+      "aliases": [],
+      "popularity": 2556,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Corn sauce"
+    },
+    {
+      "name": "Henry Bain sauce",
+      "aliases": [],
+      "popularity": 2750,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Henry Bain sauce"
+    },
+    {
+      "name": "Fina'denne'",
+      "aliases": [
+        "fina dene",
+        "fina deni",
+        "Finadene"
+      ],
+      "popularity": 2764,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Fina'denne'"
+    },
+    {
+      "name": "Just Mayo",
+      "aliases": [],
+      "popularity": 3012,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Just Mayo"
+    },
+    {
+      "name": "Chammanthi podi",
+      "aliases": [
+        "chattni podi"
+      ],
+      "popularity": 3106,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Chammanthi podi"
+    },
+    {
+      "name": "Chimol",
+      "aliases": [
+        "chirmol"
+      ],
+      "popularity": 3328,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Chimol"
+    },
+    {
+      "name": "Kielecki Mayonnaise",
+      "aliases": [
+        "Majonez Kielecki",
+        "Mayonnaise Kielecki"
+      ],
+      "popularity": 3328,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Kielecki Mayonnaise"
+    },
+    {
+      "name": "Molly McButter",
+      "aliases": [],
+      "popularity": 3821,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Molly McButter"
+    },
+    {
+      "name": "Secret Stadium Sauce",
+      "aliases": [],
+      "popularity": 3906,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Secret Stadium Sauce"
+    },
+    {
+      "name": "Taba ng talangka",
+      "aliases": [
+        "Aligi",
+        "Aligué"
+      ],
+      "popularity": 3911,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Taba ng talangka"
+    },
+    {
+      "name": "White vinegar",
+      "aliases": [
+        "distilled vinegar",
+        "virgin vinegar"
+      ],
+      "popularity": 4065,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "White vinegar"
+    },
+    {
+      "name": "Capuliato",
+      "aliases": [
+        "Capuliata"
+      ],
+      "popularity": 4329,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Capuliato"
+    },
+    {
+      "name": "Cucumber raita",
+      "aliases": [
+        "Kheera raita"
+      ],
+      "popularity": 4407,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Cucumber raita"
+    },
+    {
+      "name": "Iru",
+      "aliases": [
+        "Iru (condiment)"
+      ],
+      "popularity": 4763,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Iru (condiment)"
+    },
+    {
+      "name": "Red ant chutney",
+      "aliases": [
+        "Chapda Chutney",
+        "Chapura",
+        "Chhapra Chutney",
+        "Hao Rit",
+        "Kai Chutney"
+      ],
+      "popularity": 5973,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Red ant chutney"
+    },
+    {
+      "name": "Carolina style",
+      "aliases": [],
+      "popularity": 6248,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Carolina style"
+    },
+    {
+      "name": "Fruit ketchup",
+      "aliases": [],
+      "popularity": 6385,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Fruit ketchup"
+    },
+    {
+      "name": "Chilli vinegar",
+      "aliases": [],
+      "popularity": 6436,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Chilli vinegar"
+    },
+    {
+      "name": "Tewkesbury mustard",
+      "aliases": [],
+      "popularity": 6748,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Tewkesbury mustard"
+    },
+    {
+      "name": "MasterFoods",
+      "aliases": [],
+      "popularity": 6952,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "MasterFoods"
+    },
+    {
+      "name": "Budu",
+      "aliases": [
+        "Budu (sauce)"
+      ],
+      "popularity": 7703,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Budu (sauce)"
+    },
+    {
+      "name": "Nam pla",
+      "aliases": [],
+      "popularity": 8164,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Nam pla"
+    },
+    {
+      "name": "Palapa",
+      "aliases": [
+        "Palapa (condiment)"
+      ],
+      "popularity": 8383,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Palapa (condiment)"
+    },
+    {
+      "name": "Gomashio",
+      "aliases": [
+        "gomasio"
+      ],
+      "popularity": 9331,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Gomashio"
+    },
+    {
+      "name": "Lyutenitsa",
+      "aliases": [
+        "ljutenica"
+      ],
+      "popularity": 9685,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Lyutenitsa"
+    },
+    {
+      "name": "Idli podi",
+      "aliases": [],
+      "popularity": 9872,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Idli podi"
+    },
+    {
+      "name": "Malt vinegar",
+      "aliases": [
+        "Alegar"
+      ],
+      "popularity": 10295,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Malt vinegar"
+    },
+    {
+      "name": "Table syrup",
+      "aliases": [
+        "pancake syrup",
+        "waffle syrup"
+      ],
+      "popularity": 11173,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Table syrup"
+    },
+    {
+      "name": "Pickapeppa Sauce",
+      "aliases": [],
+      "popularity": 11456,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Pickapeppa Sauce"
+    },
+    {
+      "name": "Latik",
+      "aliases": [],
+      "popularity": 11568,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Latik"
+    },
+    {
+      "name": "Merkén",
+      "aliases": [],
+      "popularity": 12028,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Merkén"
+    },
+    {
+      "name": "Mrs. Dash",
+      "aliases": [],
+      "popularity": 12803,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Mrs. Dash"
+    },
+    {
+      "name": "Sweetener",
+      "aliases": [
+        "sweeteners",
+        "sweetening agents"
+      ],
+      "popularity": 13497,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Sweetener"
+    },
+    {
+      "name": "Anchovy paste",
+      "aliases": [],
+      "popularity": 13897,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Anchovy paste"
+    },
+    {
+      "name": "Salmoriglio",
+      "aliases": [],
+      "popularity": 14391,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Salmoriglio"
+    },
+    {
+      "name": "Murri",
+      "aliases": [
+        "Murri (condiment)"
+      ],
+      "popularity": 15374,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Murri (condiment)"
+    },
+    {
+      "name": "Bumbu",
+      "aliases": [
+        "Bumbu (seasoning)"
+      ],
+      "popularity": 15558,
+      "rarity": 0.575,
+      "tier": 3,
+      "wiki": "Bumbu (seasoning)"
+    },
+    {
+      "name": "Yuxiang",
+      "aliases": [
+        "yu xiang",
+        "yuxiang dishes"
+      ],
+      "popularity": 15810,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "Yuxiang"
+    },
+    {
+      "name": "Samurai sauce",
+      "aliases": [],
+      "popularity": 17495,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Samurai sauce"
+    },
+    {
+      "name": "Salt and pepper",
+      "aliases": [
+        "pepper and salt"
+      ],
+      "popularity": 19562,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Salt and pepper"
+    },
+    {
+      "name": "Comeback sauce",
+      "aliases": [],
+      "popularity": 19710,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Comeback sauce"
+    },
+    {
+      "name": "Chrain",
+      "aliases": [],
+      "popularity": 20926,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Chrain"
+    },
+    {
+      "name": "Master stock",
+      "aliases": [
+        "master sauce"
+      ],
+      "popularity": 21346,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Master stock"
+    },
+    {
+      "name": "Salsa golf",
+      "aliases": [],
+      "popularity": 21551,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Salsa golf"
+    },
+    {
+      "name": "Joppie sauce",
+      "aliases": [],
+      "popularity": 22495,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Joppie sauce"
+    },
+    {
+      "name": "Yuzu koshō",
+      "aliases": [
+        "yuzugoshō",
+        "yuzukoshō"
+      ],
+      "popularity": 22591,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Yuzu koshō"
+    },
+    {
+      "name": "Mostarda",
+      "aliases": [],
+      "popularity": 22803,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Mostarda"
+    },
+    {
+      "name": "Curry ketchup",
+      "aliases": [],
+      "popularity": 23355,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Curry ketchup"
+    },
+    {
+      "name": "Salt substitute",
+      "aliases": [],
+      "popularity": 23619,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Salt substitute"
+    },
+    {
+      "name": "Gremolata",
+      "aliases": [],
+      "popularity": 24439,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Gremolata"
+    },
+    {
+      "name": "Bagoong",
+      "aliases": [
+        "bagoóng isdâ"
+      ],
+      "popularity": 27761,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Bagoong"
+    },
+    {
+      "name": "Ssamjang",
+      "aliases": [],
+      "popularity": 28816,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Ssamjang"
+    },
+    {
+      "name": "Algérienne sauce",
+      "aliases": [
+        "Algerian sauce"
+      ],
+      "popularity": 29127,
+      "rarity": 0.425,
+      "tier": 3,
+      "wiki": "Algérienne sauce"
+    },
+    {
+      "name": "Bread sauce",
+      "aliases": [],
+      "popularity": 29822,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Bread sauce"
+    },
+    {
+      "name": "Ajika",
+      "aliases": [
+        "acıka"
+      ],
+      "popularity": 31056,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Ajika"
+    },
+    {
+      "name": "Celery salt",
+      "aliases": [],
+      "popularity": 31065,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Celery salt"
+    },
+    {
+      "name": "Sauce andalouse",
+      "aliases": [
+        "andalouse",
+        "andalouse sauce"
+      ],
+      "popularity": 31567,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Sauce andalouse"
+    },
+    {
+      "name": "Black vinegar",
+      "aliases": [],
+      "popularity": 31788,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Black vinegar"
+    },
+    {
+      "name": "Yum yum sauce",
+      "aliases": [
+        "white sauce",
+        "yummy sauce"
+      ],
+      "popularity": 32944,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Yum yum sauce"
+    },
+    {
+      "name": "Henderson's Relish",
+      "aliases": [],
+      "popularity": 33832,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Henderson's Relish"
+    },
+    {
+      "name": "French's",
+      "aliases": [],
+      "popularity": 36574,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "French's"
+    },
+    {
+      "name": "Nước chấm",
+      "aliases": [
+        "nước mắm pha"
+      ],
+      "popularity": 36940,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Nước chấm"
+    },
+    {
+      "name": "Zhug",
+      "aliases": [
+        "sahawiq",
+        "skhug"
+      ],
+      "popularity": 37263,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Zhug"
+    },
+    {
+      "name": "Mace",
+      "aliases": [
+        "Mace (spice)"
+      ],
+      "popularity": 38868,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Mace (spice)"
+    },
+    {
+      "name": "Verjuice",
+      "aliases": [],
+      "popularity": 46762,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Verjuice"
+    },
+    {
+      "name": "Bouquet garni",
+      "aliases": [],
+      "popularity": 46800,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Bouquet garni"
+    },
+    {
+      "name": "Chili crisp",
+      "aliases": [
+        "chile crisp"
+      ],
+      "popularity": 49282,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Chili crisp"
+    },
+    {
+      "name": "Marie Rose sauce",
+      "aliases": [],
+      "popularity": 50885,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Marie Rose sauce"
+    },
+    {
+      "name": "Shrimp paste",
+      "aliases": [],
+      "popularity": 52214,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Shrimp paste"
+    },
+    {
+      "name": "Sauce",
+      "aliases": [],
+      "popularity": 59690,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Sauce"
+    },
+    {
+      "name": "Syrup",
+      "aliases": [
+        "bartender's syrup",
+        "simple syrup",
+        "sirup"
+      ],
+      "popularity": 61921,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Syrup"
+    },
+    {
+      "name": "Relish",
+      "aliases": [
+        "Kurkkusalaatti"
+      ],
+      "popularity": 69214,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Relish"
+    },
+    {
+      "name": "XO sauce",
+      "aliases": [],
+      "popularity": 71086,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "XO sauce"
+    },
+    {
+      "name": "Giardiniera",
+      "aliases": [],
+      "popularity": 73944,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Giardiniera"
+    },
+    {
+      "name": "Mala",
+      "aliases": [
+        "Mala (seasoning)"
+      ],
+      "popularity": 74338,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Mala (seasoning)"
+    },
+    {
+      "name": "Banana ketchup",
+      "aliases": [
+        "banana sauce"
+      ],
+      "popularity": 81484,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Banana ketchup"
+    },
+    {
+      "name": "Mornay sauce",
+      "aliases": [],
+      "popularity": 81508,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Mornay sauce"
+    },
+    {
+      "name": "Miracle Whip",
+      "aliases": [],
+      "popularity": 82568,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Miracle Whip"
+    },
+    {
+      "name": "Apple cider vinegar",
+      "aliases": [
+        "ACV",
+        "cider vinegar"
+      ],
+      "popularity": 82904,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Apple cider vinegar"
+    },
+    {
+      "name": "Mirin",
+      "aliases": [],
+      "popularity": 111608,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Mirin"
+    },
+    {
+      "name": "Spice",
+      "aliases": [
+        "spices"
+      ],
+      "popularity": 119733,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Spice"
+    },
+    {
+      "name": "Balsamic vinegar",
+      "aliases": [
+        "balsamic"
+      ],
+      "popularity": 132135,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Balsamic vinegar"
+    },
+    {
+      "name": "Lao Gan Ma",
+      "aliases": [
+        "Laoganma"
+      ],
+      "popularity": 139162,
+      "rarity": 0.142,
+      "tier": 1,
+      "wiki": "Lao Gan Ma"
+    },
+    {
+      "name": "Chutney",
+      "aliases": [
+        "chatney",
+        "chatni"
+      ],
+      "popularity": 158687,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Chutney"
+    },
+    {
+      "name": "Thousand Island dressing",
+      "aliases": [
+        "Sophia LaLonde"
+      ],
+      "popularity": 162302,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Thousand Island dressing"
+    },
+    {
+      "name": "Aioli",
+      "aliases": [
+        "Ajoaceite"
+      ],
+      "popularity": 174602,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Aioli"
+    },
+    {
+      "name": "Gochujang",
+      "aliases": [],
+      "popularity": 232652,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Gochujang"
+    },
+    {
+      "name": "Mustard",
+      "aliases": [
+        "culinary mustard",
+        "Mustard (condiment)"
+      ],
+      "popularity": 241452,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Mustard (condiment)"
+    },
+    {
+      "name": "Tahini",
+      "aliases": [
+        "sesame paste",
+        "tahina",
+        "tahiné",
+        "tehina"
+      ],
+      "popularity": 251368,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Tahini"
+    },
+    {
+      "name": "Miso",
+      "aliases": [
+        "Soya paste",
+        "Soybean paste"
+      ],
+      "popularity": 255632,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Miso"
+    },
+    {
+      "name": "Hummus",
+      "aliases": [
+        "houmous"
+      ],
+      "popularity": 265267,
+      "rarity": 0.066,
+      "tier": 1,
+      "wiki": "Hummus"
+    },
+    {
+      "name": "Mayonnaise",
+      "aliases": [
+        "mayo"
+      ],
+      "popularity": 273660,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Mayonnaise"
+    },
+    {
+      "name": "Ketchup",
+      "aliases": [
+        "Catchup",
+        "catsup",
+        "Sos Coch",
+        "tomato ketchup"
+      ],
+      "popularity": 293196,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Ketchup"
+    },
+    {
+      "name": "Vinegar",
+      "aliases": [
+        "acetic acid",
+        "spirit of vinegar",
+        "spirits of vinegar"
+      ],
+      "popularity": 300195,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Vinegar"
+    },
+    {
+      "name": "Sriracha",
+      "aliases": [
+        "sriracha sauce"
+      ],
+      "popularity": 300609,
+      "rarity": 0.028,
+      "tier": 1,
+      "wiki": "Sriracha"
+    },
+    {
+      "name": "Chili pepper",
+      "aliases": [
+        "chile",
+        "chile pepper",
+        "chili",
+        "chilli",
+        "chilli pepper",
+        "hot pepper",
+        "spicy chili pepper",
+        "spicy pepper"
+      ],
+      "popularity": 319941,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Chili pepper"
+    },
+    {
+      "name": "Cardamom",
+      "aliases": [
+        "cardamom seeds",
+        "cardamon",
+        "cardamum",
+        "ground cadamom"
+      ],
+      "popularity": 341740,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Cardamom"
+    },
+    {
+      "name": "Chocolate",
+      "aliases": [],
+      "popularity": 489130,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Chocolate"
+    }
+  ]
+}

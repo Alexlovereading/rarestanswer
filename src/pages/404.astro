@@ -1,70 +1,75 @@
 ---
 /**
- * Global 404 page.
- * Rendered with default locale (English) since 404s have no locale context.
- *
- * v1.5: recovery-first design — the Pagefind search dialog (lazy-loaded,
- * zero JS until open) plus category entry points convert a lost visit into
- * a search or a browse instead of a bounce.
+ * Global 404. Uses the site shell so a lost visit can still reach play,
+ * search, and the two reading sections. Search opens the header dialog
+ * (data-open-search) instead of mounting a second SearchButton.
  */
-import BaseLayout from '~/components/layout/BaseLayout.astro';
-import SearchButton from '~/components/header/SearchButton.astro';
 import { Icon } from 'astro-icon/components';
+import LocaleLayout from '~/components/layout/LocaleLayout.astro';
+import PlayCta from '~/components/article/PlayCta.astro';
 import { NAVIGATION_CONFIG } from '~/config/navigation';
 import { defaultLocale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
-import { listPath, homeUrl } from '~/lib/url';
+import { homeUrl, listPath, localizePath } from '~/lib/url';
 
-const ui = getUi(defaultLocale);
-const nav = ui.nav as Record<string, string>;
+const locale = defaultLocale;
+const ui = getUi(locale);
+const nav = ui.nav;
 const shared = ui.shared;
+
+const recover = [
+  { href: homeUrl(locale), label: nav.play, icon: 'lucide:play' },
+  { href: localizePath('/unlimited/', locale), label: nav.unlimited, icon: 'lucide:infinity' },
+  { href: localizePath('/rarest-answers/', locale), label: nav.rarestAnswers, icon: 'lucide:gem' },
+  ...NAVIGATION_CONFIG.map((item) => ({
+    href: listPath(item.key, locale),
+    label: nav[item.key as keyof typeof nav] ?? item.key,
+    icon: item.icon,
+  })),
+];
 ---
 
-<BaseLayout
-  locale={defaultLocale}
+<LocaleLayout
+  locale={locale}
   title={shared.notFoundTitle}
   description={shared.notFoundDescription}
+  noindex={true}
 >
-  <div
-    class="mx-auto flex min-h-screen max-w-lg flex-col items-center justify-center px-4 text-center"
-  >
-    <Icon name="lucide:compass" class="h-16 w-16 text-nav" />
-    <h1 class="mt-6 text-6xl font-extrabold">404</h1>
-    <p class="mt-2 text-lg font-semibold">{shared.notFoundHeading}</p>
-    <p class="mt-1 text-sm text-muted-foreground">
-      {shared.notFoundText}
-    </p>
+  <div class="mx-auto max-w-xl py-10 text-center sm:py-16">
+    <p class="font-display text-7xl font-extrabold tracking-tight text-nav md:text-8xl">404</p>
+    <h1 class="mt-4 font-display text-3xl font-semibold tracking-tight">{shared.notFoundHeading}</h1>
+    <p class="mt-2 text-muted-foreground">{shared.notFoundText}</p>
 
-    <div class="mt-6 flex items-center gap-3">
-      <div class="inline-flex items-center rounded-md border border-border bg-card">
-        <span class="pl-3 text-sm text-muted-foreground" aria-hidden="true">
-          <Icon name="lucide:search" class="h-4 w-4" />
-        </span>
-        <SearchButton locale={defaultLocale} />
-      </div>
-      <a href={homeUrl(defaultLocale)} class="btn-primary">
-        <Icon name="lucide:home" class="mr-2 h-4 w-4" />
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+      <a href={homeUrl(locale)} class="btn-primary gap-2 px-5 py-2.5">
+        <Icon name="lucide:play" class="h-4 w-4" aria-hidden="true" />
         {shared.notFoundBackHome}
       </a>
+      <button type="button" data-open-search class="btn-outline min-h-11 gap-2 px-4">
+        <Icon name="lucide:search" class="h-4 w-4" aria-hidden="true" />
+        {nav.search}
+      </button>
     </div>
     <p class="mt-3 text-xs text-muted-foreground">{shared.notFoundSearchHint}</p>
 
-    <div class="mt-10 w-full">
-      <p class="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-        {shared.notFoundPopular}
-      </p>
-      <div class="mt-3 flex flex-wrap justify-center gap-2">
+    <div class="mt-12 text-left">
+      <p class="text-xs font-semibold uppercase tracking-[0.14em] text-nav">{shared.notFoundPopular}</p>
+      <ul class="mt-3 grid list-none gap-2 p-0 sm:grid-cols-2">
         {
-          NAVIGATION_CONFIG.map((item) => (
-            <a href={listPath(item.key, defaultLocale)} class="card px-4 py-2 text-sm">
-              <span class="inline-flex items-center gap-1.5">
-                <Icon name={item.icon} class="h-4 w-4 text-nav" />
-                {nav[item.key] ?? item.key}
-              </span>
-            </a>
+          recover.map((item) => (
+            <li>
+              <a href={item.href} class="card flex min-h-11 items-center gap-2 px-4 py-3 text-sm font-medium">
+                <Icon name={item.icon} class="h-4 w-4 shrink-0 text-nav" aria-hidden="true" />
+                {item.label}
+              </a>
+            </li>
           ))
         }
-      </div>
+      </ul>
+    </div>
+
+    <div class="mt-8 text-left">
+      <PlayCta locale={locale} />
     </div>
   </div>
-</BaseLayout>
+</LocaleLayout>

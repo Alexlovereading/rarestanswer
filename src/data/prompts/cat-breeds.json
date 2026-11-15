@@ -1,0 +1,1000 @@
+{
+  "id": "cat-breeds",
+  "slug": "cat-breeds",
+  "category": "animals",
+  "question": "Name a cat breed",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Suffolk cat",
+      "aliases": [
+        "Suffolk",
+        "suffolk cats"
+      ],
+      "popularity": 22,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Suffolk cat"
+    },
+    {
+      "name": "British Semi-longhair",
+      "aliases": [],
+      "popularity": 70,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "British Semi-longhair"
+    },
+    {
+      "name": "Thai Lilac",
+      "aliases": [
+        "Thai Blue Point",
+        "Thai Lilac Point"
+      ],
+      "popularity": 693,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Thai Lilac"
+    },
+    {
+      "name": "Bohemian Rex",
+      "aliases": [],
+      "popularity": 1945,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Bohemian Rex"
+    },
+    {
+      "name": "Karelian Bobtail",
+      "aliases": [],
+      "popularity": 2987,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Karelian Bobtail"
+    },
+    {
+      "name": "Oriental bicolour",
+      "aliases": [],
+      "popularity": 3849,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Oriental bicolour"
+    },
+    {
+      "name": "Foreign White",
+      "aliases": [
+        "White Siamese"
+      ],
+      "popularity": 4875,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Foreign White"
+    },
+    {
+      "name": "Foldex cat",
+      "aliases": [
+        "FoldEx"
+      ],
+      "popularity": 6090,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Foldex cat"
+    },
+    {
+      "name": "Tiffanie",
+      "aliases": [
+        "Asian longhair",
+        "Asian semi longhair",
+        "Burmilla longhair"
+      ],
+      "popularity": 6668,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Tiffanie"
+    },
+    {
+      "name": "Aphrodite's Giant",
+      "aliases": [
+        "Aphrodite",
+        "Aphrodite Giant",
+        "Aphrodite's Giant cat"
+      ],
+      "popularity": 6846,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Aphrodite's Giant"
+    },
+    {
+      "name": "Rex mutation",
+      "aliases": [],
+      "popularity": 7709,
+      "rarity": 0.901,
+      "tier": 5,
+      "wiki": "Rex mutation"
+    },
+    {
+      "name": "California Spangled",
+      "aliases": [
+        "California Spangled Cat"
+      ],
+      "popularity": 8435,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "California Spangled"
+    },
+    {
+      "name": "Squitten",
+      "aliases": [],
+      "popularity": 9368,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Squitten"
+    },
+    {
+      "name": "Bambino cat",
+      "aliases": [
+        "Bambino",
+        "Bambino Sphynx",
+        "Mèo Bambino"
+      ],
+      "popularity": 9476,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Bambino cat"
+    },
+    {
+      "name": "Raas cat",
+      "aliases": [
+        "Busok",
+        "Madura cat",
+        "Raas"
+      ],
+      "popularity": 10008,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Raas cat"
+    },
+    {
+      "name": "Mekong Bobtail",
+      "aliases": [],
+      "popularity": 10588,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Mekong Bobtail"
+    },
+    {
+      "name": "Russian White, Black, and Tabby",
+      "aliases": [],
+      "popularity": 10953,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Russian White, Black, and Tabby"
+    },
+    {
+      "name": "Jianzhou cat",
+      "aliases": [],
+      "popularity": 11293,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "Jianzhou cat"
+    },
+    {
+      "name": "Brazilian Shorthair",
+      "aliases": [],
+      "popularity": 11577,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Brazilian Shorthair"
+    },
+    {
+      "name": "Toybob",
+      "aliases": [],
+      "popularity": 12016,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Toybob"
+    },
+    {
+      "name": "Domestic long-haired cat",
+      "aliases": [],
+      "popularity": 12152,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Domestic long-haired cat"
+    },
+    {
+      "name": "British Longhair",
+      "aliases": [
+        "Britannica",
+        "Highland Straight",
+        "Highlander"
+      ],
+      "popularity": 12548,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "British Longhair"
+    },
+    {
+      "name": "German Rex",
+      "aliases": [],
+      "popularity": 12933,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "German Rex"
+    },
+    {
+      "name": "Suphalak",
+      "aliases": [
+        "Feline catus",
+        "Thong Daeng"
+      ],
+      "popularity": 13608,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "Suphalak"
+    },
+    {
+      "name": "Ukrainian Levkoy",
+      "aliases": [],
+      "popularity": 13836,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Ukrainian Levkoy"
+    },
+    {
+      "name": "Minskin",
+      "aliases": [],
+      "popularity": 15222,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Minskin"
+    },
+    {
+      "name": "Burmilla",
+      "aliases": [],
+      "popularity": 17926,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Burmilla"
+    },
+    {
+      "name": "York Chocolate",
+      "aliases": [],
+      "popularity": 18073,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "York Chocolate"
+    },
+    {
+      "name": "Serengeti cat",
+      "aliases": [
+        "Serengeti"
+      ],
+      "popularity": 18502,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Serengeti cat"
+    },
+    {
+      "name": "Australian Mist",
+      "aliases": [
+        "Aussie cat",
+        "Spotted Mist"
+      ],
+      "popularity": 21255,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Australian Mist"
+    },
+    {
+      "name": "Colorpoint Shorthair",
+      "aliases": [],
+      "popularity": 21334,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Colorpoint Shorthair"
+    },
+    {
+      "name": "Kanaani cat",
+      "aliases": [
+        "Kanaani"
+      ],
+      "popularity": 21371,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "Kanaani cat"
+    },
+    {
+      "name": "Kurilian Bobtail",
+      "aliases": [
+        "Kurile Island Bobtail",
+        "Kurilian Bobtail cat"
+      ],
+      "popularity": 22228,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Kurilian Bobtail"
+    },
+    {
+      "name": "Javanese cat",
+      "aliases": [],
+      "popularity": 22623,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Javanese cat"
+    },
+    {
+      "name": "Oriental Longhair",
+      "aliases": [
+        "British angora",
+        "JAV",
+        "Mandarin",
+        "OLH",
+        "Oriental Longhair cat"
+      ],
+      "popularity": 22779,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "Oriental Longhair"
+    },
+    {
+      "name": "Asian cat",
+      "aliases": [
+        "Asian",
+        "Malayan"
+      ],
+      "popularity": 23172,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Asian cat"
+    },
+    {
+      "name": "Sokoke",
+      "aliases": [
+        "African Shorthair",
+        "Sokoke Forest Cat"
+      ],
+      "popularity": 24867,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Sokoke"
+    },
+    {
+      "name": "LaPerm",
+      "aliases": [],
+      "popularity": 29802,
+      "rarity": 0.634,
+      "tier": 4,
+      "wiki": "LaPerm"
+    },
+    {
+      "name": "Minuet cat",
+      "aliases": [
+        "Napoleon"
+      ],
+      "popularity": 30311,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Minuet cat"
+    },
+    {
+      "name": "Cymric cat",
+      "aliases": [
+        "Cymric"
+      ],
+      "popularity": 32538,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Cymric cat"
+    },
+    {
+      "name": "Domestic short-haired cat",
+      "aliases": [
+        "alley cat",
+        "house cat",
+        "housecat"
+      ],
+      "popularity": 35580,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Domestic short-haired cat"
+    },
+    {
+      "name": "Somali cat",
+      "aliases": [
+        "Somali"
+      ],
+      "popularity": 39158,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Somali cat"
+    },
+    {
+      "name": "Chantilly-Tiffany",
+      "aliases": [
+        "Chantilly",
+        "Chantilly cat",
+        "Foreign Longhair"
+      ],
+      "popularity": 39209,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Chantilly-Tiffany"
+    },
+    {
+      "name": "Chausie",
+      "aliases": [],
+      "popularity": 40471,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Chausie"
+    },
+    {
+      "name": "Toyger",
+      "aliases": [],
+      "popularity": 42669,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Toyger"
+    },
+    {
+      "name": "Peterbald",
+      "aliases": [],
+      "popularity": 42763,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Peterbald"
+    },
+    {
+      "name": "American Curl",
+      "aliases": [
+        "American Curl Longhair"
+      ],
+      "popularity": 43016,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "American Curl"
+    },
+    {
+      "name": "Donskoy cat",
+      "aliases": [
+        "Don Hairless",
+        "Don Sphynx",
+        "Russian Hairless"
+      ],
+      "popularity": 43162,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Donskoy cat"
+    },
+    {
+      "name": "Arabian Mau",
+      "aliases": [],
+      "popularity": 44063,
+      "rarity": 0.525,
+      "tier": 3,
+      "wiki": "Arabian Mau"
+    },
+    {
+      "name": "Singapura cat",
+      "aliases": [
+        "Singapura"
+      ],
+      "popularity": 44847,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Singapura cat"
+    },
+    {
+      "name": "Aegean cat",
+      "aliases": [],
+      "popularity": 45086,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Aegean cat"
+    },
+    {
+      "name": "Dragon Li",
+      "aliases": [
+        "China Li Hua",
+        "Chinese Li Hua",
+        "Li Hua",
+        "Li Hua Mao",
+        "Li Hua Mau",
+        "Li Mao"
+      ],
+      "popularity": 45562,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Dragon Li"
+    },
+    {
+      "name": "Pixie-bob",
+      "aliases": [],
+      "popularity": 46393,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Pixie-bob"
+    },
+    {
+      "name": "Highlander cat",
+      "aliases": [],
+      "popularity": 46564,
+      "rarity": 0.475,
+      "tier": 3,
+      "wiki": "Highlander cat"
+    },
+    {
+      "name": "Traditional Persian",
+      "aliases": [
+        "Old-style Longhair",
+        "Original Longhair",
+        "Traditional Longhair"
+      ],
+      "popularity": 47809,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Traditional Persian"
+    },
+    {
+      "name": "Korat",
+      "aliases": [],
+      "popularity": 49351,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Korat"
+    },
+    {
+      "name": "Ocicat",
+      "aliases": [],
+      "popularity": 49559,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Ocicat"
+    },
+    {
+      "name": "Havana Brown",
+      "aliases": [
+        "Swiss Mountain Cats"
+      ],
+      "popularity": 51332,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Havana Brown"
+    },
+    {
+      "name": "European Shorthair",
+      "aliases": [
+        "Celtic",
+        "pelo corto celta"
+      ],
+      "popularity": 56305,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "European Shorthair"
+    },
+    {
+      "name": "American Bobtail",
+      "aliases": [],
+      "popularity": 57311,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "American Bobtail"
+    },
+    {
+      "name": "Ragamuffin cat",
+      "aliases": [
+        "Ragamuffin"
+      ],
+      "popularity": 57498,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Ragamuffin cat"
+    },
+    {
+      "name": "Neva Masquerade",
+      "aliases": [
+        "Neva Masquerade cat"
+      ],
+      "popularity": 59570,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Neva Masquerade"
+    },
+    {
+      "name": "Selkirk Rex",
+      "aliases": [],
+      "popularity": 67855,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Selkirk Rex"
+    },
+    {
+      "name": "Cornish Rex",
+      "aliases": [],
+      "popularity": 70457,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Cornish Rex"
+    },
+    {
+      "name": "Ojos Azules",
+      "aliases": [
+        "Ojos Azules cat"
+      ],
+      "popularity": 71190,
+      "rarity": 0.366,
+      "tier": 2,
+      "wiki": "Ojos Azules"
+    },
+    {
+      "name": "Tonkinese cat",
+      "aliases": [
+        "Tonkinese"
+      ],
+      "popularity": 71250,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Tonkinese cat"
+    },
+    {
+      "name": "Khao Manee",
+      "aliases": [
+        "Diamond Eye"
+      ],
+      "popularity": 72458,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Khao Manee"
+    },
+    {
+      "name": "Balinese cat",
+      "aliases": [],
+      "popularity": 73306,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "Balinese cat"
+    },
+    {
+      "name": "Thai cat",
+      "aliases": [
+        "Applehead",
+        "Classical Siamese",
+        "Old-Style Siamese",
+        "Old-style Siamese cat",
+        "Thai",
+        "Traditional Siamese",
+        "Wichianmat",
+        "Wichien Maat"
+      ],
+      "popularity": 74172,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Thai cat"
+    },
+    {
+      "name": "Exotic Shorthair",
+      "aliases": [],
+      "popularity": 81461,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Exotic Shorthair"
+    },
+    {
+      "name": "Snowshoe cat",
+      "aliases": [
+        "snowshoe"
+      ],
+      "popularity": 85156,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Snowshoe cat"
+    },
+    {
+      "name": "Lykoi",
+      "aliases": [
+        "Lykoi Cat",
+        "werewolf cat",
+        "wolf cat"
+      ],
+      "popularity": 85177,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Lykoi"
+    },
+    {
+      "name": "Japanese Bobtail",
+      "aliases": [],
+      "popularity": 89744,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Japanese Bobtail"
+    },
+    {
+      "name": "Himalayan cat",
+      "aliases": [
+        "Himalayan"
+      ],
+      "popularity": 91094,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Himalayan cat"
+    },
+    {
+      "name": "Nebelung",
+      "aliases": [],
+      "popularity": 92584,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Nebelung"
+    },
+    {
+      "name": "Birman",
+      "aliases": [
+        "Birman cat",
+        "Sacred Cat of Burma"
+      ],
+      "popularity": 98469,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Birman"
+    },
+    {
+      "name": "Chartreux",
+      "aliases": [],
+      "popularity": 122391,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Chartreux"
+    },
+    {
+      "name": "Moggy",
+      "aliases": [
+        "DLH",
+        "DMH",
+        "Domestic Mediumhair",
+        "DSH",
+        "moggie"
+      ],
+      "popularity": 124874,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Moggy"
+    },
+    {
+      "name": "Burmese cat",
+      "aliases": [
+        "Burmese"
+      ],
+      "popularity": 126587,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Burmese cat"
+    },
+    {
+      "name": "Devon Rex",
+      "aliases": [],
+      "popularity": 131591,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Devon Rex"
+    },
+    {
+      "name": "American Shorthair",
+      "aliases": [],
+      "popularity": 136565,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "American Shorthair"
+    },
+    {
+      "name": "American Wirehair",
+      "aliases": [],
+      "popularity": 141188,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "American Wirehair"
+    },
+    {
+      "name": "Oriental Shorthair",
+      "aliases": [
+        "Orientale"
+      ],
+      "popularity": 142525,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Oriental Shorthair"
+    },
+    {
+      "name": "Turkish Van",
+      "aliases": [
+        "swimming cat",
+        "Turkish cat",
+        "Turkish Vankedisi"
+      ],
+      "popularity": 144766,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Turkish Van"
+    },
+    {
+      "name": "Egyptian Mau",
+      "aliases": [],
+      "popularity": 152210,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Egyptian Mau"
+    },
+    {
+      "name": "Munchkin cat",
+      "aliases": [
+        "Kangaroo cat",
+        "Sausage cat"
+      ],
+      "popularity": 154031,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Munchkin cat"
+    },
+    {
+      "name": "Turkish Angora",
+      "aliases": [
+        "Turkish Angora cats"
+      ],
+      "popularity": 163680,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Turkish Angora"
+    },
+    {
+      "name": "Norwegian Forest Cat",
+      "aliases": [
+        "NFC",
+        "Wegie"
+      ],
+      "popularity": 205046,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Norwegian Forest Cat"
+    },
+    {
+      "name": "Scottish Fold",
+      "aliases": [],
+      "popularity": 208843,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Scottish Fold"
+    },
+    {
+      "name": "Russian Blue",
+      "aliases": [
+        "Angel ruso"
+      ],
+      "popularity": 228116,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Russian Blue"
+    },
+    {
+      "name": "Savannah cat",
+      "aliases": [
+        "Savannah"
+      ],
+      "popularity": 239149,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Savannah cat"
+    },
+    {
+      "name": "Manx cat",
+      "aliases": [
+        "Manx"
+      ],
+      "popularity": 242026,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Manx cat"
+    },
+    {
+      "name": "Bombay cat",
+      "aliases": [
+        "Bombay"
+      ],
+      "popularity": 255389,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Bombay cat"
+    },
+    {
+      "name": "Abyssinian cat",
+      "aliases": [
+        "Abyssinian"
+      ],
+      "popularity": 258033,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Abyssinian cat"
+    },
+    {
+      "name": "Siberian cat",
+      "aliases": [
+        "Siberian",
+        "Siberian forest cat"
+      ],
+      "popularity": 322631,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Siberian cat"
+    },
+    {
+      "name": "Persian cat",
+      "aliases": [
+        "Persian"
+      ],
+      "popularity": 333765,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Persian cat"
+    },
+    {
+      "name": "British Shorthair",
+      "aliases": [],
+      "popularity": 335121,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "British Shorthair"
+    },
+    {
+      "name": "Sphynx cat",
+      "aliases": [
+        "Canadian Hairless",
+        "Canadian Sphynx",
+        "Sphynx"
+      ],
+      "popularity": 342980,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Sphynx cat"
+    },
+    {
+      "name": "Siamese cat",
+      "aliases": [
+        "Siamese"
+      ],
+      "popularity": 345221,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Siamese cat"
+    },
+    {
+      "name": "Bengal cat",
+      "aliases": [
+        "Bengal"
+      ],
+      "popularity": 397433,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Bengal cat"
+    },
+    {
+      "name": "Ragdoll",
+      "aliases": [
+        "Ragdoll cat"
+      ],
+      "popularity": 493898,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Ragdoll"
+    },
+    {
+      "name": "Maine Coon",
+      "aliases": [
+        "American longhair",
+        "Maine coon cat"
+      ],
+      "popularity": 871778,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Maine Coon"
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "id": "nato-members",
+  "slug": "nato-members",
+  "category": "geography",
+  "question": "Name a NATO member state",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Danish Realm",
+      "aliases": [
+        "Danish Commonwealth",
+        "Danmarkar Ríki",
+        "Danmarkip Naalagaaffik",
+        "Danmarks Rige",
+        "Denmark",
+        "Kingdom of Denmark",
+        "Kongeriget Danmark",
+        "Kongsríki Danmarkar",
+        "Kunngeqarfik Danmarki",
+        "Realm of Denmark"
+      ],
+      "popularity": 500835,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Danish Realm"
+    },
+    {
+      "name": "Estonia",
+      "aliases": [
+        "Eesti Vabariik",
+        "Estland",
+        "Republic of Estonia"
+      ],
+      "popularity": 1314627,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Estonia"
+    },
+    {
+      "name": "Latvia",
+      "aliases": [
+        "Latveja",
+        "Latvejas Republika",
+        "Latvian Republic",
+        "Latvija",
+        "Latvijas Republika",
+        "Leţmо̄",
+        "Leţmо̄ Vabāmо̄",
+        "Republic of Latvia"
+      ],
+      "popularity": 1411916,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Latvia"
+    },
+    {
+      "name": "North Macedonia",
+      "aliases": [
+        "Former Yugoslav Republic of Macedonia",
+        "FYR Macedonia",
+        "Macedonia",
+        "Makedonia",
+        "MKD",
+        "Republic of Macedonia",
+        "Republic of North Macedonia"
+      ],
+      "popularity": 1420083,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "North Macedonia"
+    },
+    {
+      "name": "Slovakia",
+      "aliases": [
+        "Slovak Republic",
+        "SVK"
+      ],
+      "popularity": 1431800,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Slovakia"
+    },
+    {
+      "name": "Slovenia",
+      "aliases": [
+        "Republic of Slovenia",
+        "slo",
+        "Slovenija",
+        "svn"
+      ],
+      "popularity": 1454610,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Slovenia"
+    },
+    {
+      "name": "Luxembourg",
+      "aliases": [
+        "Grand Duchy of Luxembourg"
+      ],
+      "popularity": 1475438,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Luxembourg"
+    },
+    {
+      "name": "Lithuania",
+      "aliases": [
+        "Republic of Lithuania"
+      ],
+      "popularity": 1624036,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Lithuania"
+    },
+    {
+      "name": "Bulgaria",
+      "aliases": [
+        "Bulgarian Republic",
+        "Republic of Bulgaria"
+      ],
+      "popularity": 1666545,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Bulgaria"
+    },
+    {
+      "name": "Montenegro",
+      "aliases": [
+        "Republic of Montenegro"
+      ],
+      "popularity": 1722390,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Montenegro"
+    },
+    {
+      "name": "Finland",
+      "aliases": [
+        "Finnia",
+        "Land of Thousand Lakes",
+        "Republic of Finland",
+        "Republiken Finland",
+        "Suomen tasavalta"
+      ],
+      "popularity": 1746291,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Finland"
+    },
+    {
+      "name": "Romania",
+      "aliases": [
+        "Roumania",
+        "Rumania"
+      ],
+      "popularity": 1764587,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Romania"
+    },
+    {
+      "name": "Greece",
+      "aliases": [
+        "Greek Republic",
+        "Hellenic Republic"
+      ],
+      "popularity": 1772104,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Greece"
+    },
+    {
+      "name": "Hungary",
+      "aliases": [],
+      "popularity": 1898501,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Hungary"
+    },
+    {
+      "name": "Iceland",
+      "aliases": [
+        "Icelandic republic",
+        "Isl.",
+        "Republic of Iceland",
+        "Ysland"
+      ],
+      "popularity": 1939686,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Iceland"
+    },
+    {
+      "name": "Albania",
+      "aliases": [
+        "People's Republic of Albania",
+        "Republic of Albania",
+        "Republika Popullore e Shqiperise",
+        "Republika Popullore Socialiste e Shqiperise",
+        "Shqipërisë"
+      ],
+      "popularity": 1999156,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Albania"
+    },
+    {
+      "name": "Belgium",
+      "aliases": [
+        "Kingdom of Belgium"
+      ],
+      "popularity": 2109874,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Belgium"
+    },
+    {
+      "name": "Croatia",
+      "aliases": [
+        "Republic of Croatia"
+      ],
+      "popularity": 2177733,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Croatia"
+    },
+    {
+      "name": "Sweden",
+      "aliases": [
+        "Kingdom of Sweden",
+        "Swedish Kingdom"
+      ],
+      "popularity": 2229134,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Sweden"
+    },
+    {
+      "name": "Portugal",
+      "aliases": [
+        "POR",
+        "Portuguese Republic"
+      ],
+      "popularity": 2278140,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Portugal"
+    },
+    {
+      "name": "Poland",
+      "aliases": [
+        "Republic of Poland"
+      ],
+      "popularity": 2363873,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Poland"
+    },
+    {
+      "name": "Italy",
+      "aliases": [
+        "Italian Republic",
+        "Republic of Italy"
+      ],
+      "popularity": 2513814,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Italy"
+    },
+    {
+      "name": "Norway",
+      "aliases": [
+        "Kingdom of Norway"
+      ],
+      "popularity": 2537637,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Norway"
+    },
+    {
+      "name": "Netherlands",
+      "aliases": [
+        "de Nederlanden",
+        "Holland",
+        "Nederland",
+        "Nederlanden",
+        "the Netherlands"
+      ],
+      "popularity": 2972979,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Netherlands"
+    },
+    {
+      "name": "Czech Republic",
+      "aliases": [
+        "Czechia",
+        "the Czech Republic"
+      ],
+      "popularity": 3046214,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Czech Republic"
+    },
+    {
+      "name": "France",
+      "aliases": [
+        "French Republic"
+      ],
+      "popularity": 3209271,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "France"
+    },
+    {
+      "name": "Spain",
+      "aliases": [
+        "Kingdom of Spain"
+      ],
+      "popularity": 3429063,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Spain"
+    },
+    {
+      "name": "Turkey",
+      "aliases": [
+        "Republic of Turkey",
+        "Republic of Türkiye"
+      ],
+      "popularity": 3465265,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Turkey"
+    },
+    {
+      "name": "Germany",
+      "aliases": [
+        "BRD",
+        "DEU",
+        "Federal Republic of Germany",
+        "FRG"
+      ],
+      "popularity": 3885460,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Germany"
+    },
+    {
+      "name": "Canada",
+      "aliases": [
+        "CAN"
+      ],
+      "popularity": 4232345,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Canada"
+    },
+    {
+      "name": "United Kingdom",
+      "aliases": [
+        "Britain",
+        "G B",
+        "Great Britain",
+        "Great Britain and Northern Ireland",
+        "the UK",
+        "the United Kingdom",
+        "U K"
+      ],
+      "popularity": 6387803,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "United Kingdom"
+    },
+    {
+      "name": "United States",
+      "aliases": [
+        "Merica",
+        "'Murica",
+        "the States",
+        "the U.S.",
+        "the U.S.A.",
+        "the U.S. of A",
+        "the U.S. of America",
+        "the United States",
+        "the United States of America",
+        "the US",
+        "the US of A",
+        "the US of America",
+        "the USA",
+        "U.S.",
+        "U. S. A.",
+        "U.S. of America",
+        "United States of America",
+        "US of A",
+        "US of America",
+        "USA"
+      ],
+      "popularity": 13453739,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "United States"
+    }
+  ]
+}

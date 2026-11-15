@@ -1,0 +1,584 @@
+{
+  "id": "unesco-sites-in-germany",
+  "slug": "unesco-sites-in-germany",
+  "category": "geography",
+  "question": "Name a UNESCO World Heritage Site in Germany",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Grünhirscher Stollen",
+      "aliases": [
+        "Grünhirschler Stollen"
+      ],
+      "popularity": 124,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Grünhirscher Stollen"
+    },
+    {
+      "name": "Dancer of Pergamon",
+      "aliases": [],
+      "popularity": 847,
+      "rarity": 0.983,
+      "tier": 6,
+      "wiki": "Dancer of Pergamon"
+    },
+    {
+      "name": "Aachen Chapel of Hungary",
+      "aliases": [
+        "Hungarian Chapel in Aachen"
+      ],
+      "popularity": 999,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Aachen Chapel of Hungary"
+    },
+    {
+      "name": "Church of Saint George",
+      "aliases": [
+        "Church of Saint George (Reichenau)",
+        "Church of St. George"
+      ],
+      "popularity": 1168,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Church of Saint George (Reichenau)"
+    },
+    {
+      "name": "Augsburg Water Management System",
+      "aliases": [
+        "Water Management System of Augsburg"
+      ],
+      "popularity": 1268,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Augsburg Water Management System"
+    },
+    {
+      "name": "Park an der Ilm",
+      "aliases": [],
+      "popularity": 1617,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Park an der Ilm"
+    },
+    {
+      "name": "Jewish-Medieval Heritage of Erfurt",
+      "aliases": [],
+      "popularity": 1650,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Jewish-Medieval Heritage of Erfurt"
+    },
+    {
+      "name": "Church of the Redeemer, Sacrow",
+      "aliases": [
+        "Church of the Redeemer"
+      ],
+      "popularity": 1684,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Church of the Redeemer, Sacrow"
+    },
+    {
+      "name": "Babelsberg Park",
+      "aliases": [],
+      "popularity": 2476,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Babelsberg Park"
+    },
+    {
+      "name": "Belvedere on the Pfingstberg",
+      "aliases": [],
+      "popularity": 2562,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Belvedere on the Pfingstberg"
+    },
+    {
+      "name": "Classical Weimar",
+      "aliases": [
+        "Classical Weimar (World Heritage Site)"
+      ],
+      "popularity": 2916,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Classical Weimar (World Heritage Site)"
+    },
+    {
+      "name": "Ore Mountain Mining Region",
+      "aliases": [
+        "Mining Cultural Landscape Erzgebirge/Krušnohoří"
+      ],
+      "popularity": 2976,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Ore Mountain Mining Region"
+    },
+    {
+      "name": "Duchess Anna Amalia Library",
+      "aliases": [
+        "HAAB"
+      ],
+      "popularity": 4573,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Duchess Anna Amalia Library"
+    },
+    {
+      "name": "Roman Monuments, Cathedral of St Peter and Church of Our Lady in Trier",
+      "aliases": [],
+      "popularity": 4694,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Roman Monuments, Cathedral of St Peter and Church of Our Lady in Trier"
+    },
+    {
+      "name": "Glienicke Palace",
+      "aliases": [
+        "Schloß Glienicke"
+      ],
+      "popularity": 5152,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Glienicke Palace"
+    },
+    {
+      "name": "Lower Germanic Limes",
+      "aliases": [
+        "Inferior German Limes",
+        "Lower German Limes"
+      ],
+      "popularity": 5305,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Lower Germanic Limes"
+    },
+    {
+      "name": "Babelsberg Palace",
+      "aliases": [],
+      "popularity": 5785,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Babelsberg Palace"
+    },
+    {
+      "name": "Muskau Park",
+      "aliases": [
+        "parc Muzakowski"
+      ],
+      "popularity": 5913,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Muskau Park"
+    },
+    {
+      "name": "Upper Germanic-Rhaetian Limes",
+      "aliases": [
+        "Upper German-Raetian Limes"
+      ],
+      "popularity": 6047,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Upper Germanic-Rhaetian Limes"
+    },
+    {
+      "name": "Bremen City Hall",
+      "aliases": [
+        "Town Hall of Bremen"
+      ],
+      "popularity": 6154,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Bremen City Hall"
+    },
+    {
+      "name": "Aachen Cathedral Treasury",
+      "aliases": [],
+      "popularity": 6324,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Aachen Cathedral Treasury"
+    },
+    {
+      "name": "Berlin Modernism Housing Estates",
+      "aliases": [
+        "Siedlungen der Berliner Moderne"
+      ],
+      "popularity": 7711,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Berlin Modernism Housing Estates"
+    },
+    {
+      "name": "Maulbronn Monastery",
+      "aliases": [
+        "Imperial Monastery of Maulbronn"
+      ],
+      "popularity": 8092,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Maulbronn Monastery"
+    },
+    {
+      "name": "Reichenau Abbey",
+      "aliases": [
+        "Abbey of Reichenau"
+      ],
+      "popularity": 8164,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Reichenau Abbey"
+    },
+    {
+      "name": "Palaces and Parks of Potsdam and Berlin",
+      "aliases": [],
+      "popularity": 8297,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Palaces and Parks of Potsdam and Berlin"
+    },
+    {
+      "name": "Naumburg Cathedral",
+      "aliases": [],
+      "popularity": 8988,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Naumburg Cathedral"
+    },
+    {
+      "name": "Margravial Opera House",
+      "aliases": [],
+      "popularity": 9012,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Margravial Opera House"
+    },
+    {
+      "name": "Caves and Ice Age Art in the Swabian Jura",
+      "aliases": [],
+      "popularity": 9038,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Caves and Ice Age Art in the Swabian Jura"
+    },
+    {
+      "name": "Messel Pit",
+      "aliases": [],
+      "popularity": 9277,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Messel Pit"
+    },
+    {
+      "name": "King's House on Schachen",
+      "aliases": [],
+      "popularity": 9555,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "King's House on Schachen"
+    },
+    {
+      "name": "Völklingen Ironworks",
+      "aliases": [],
+      "popularity": 9611,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Völklingen Ironworks"
+    },
+    {
+      "name": "Princely Abbey of Corvey",
+      "aliases": [
+        "Corvey",
+        "Corvey Abbey"
+      ],
+      "popularity": 9985,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Princely Abbey of Corvey"
+    },
+    {
+      "name": "Pfaueninsel",
+      "aliases": [
+        "Peacock Island"
+      ],
+      "popularity": 10092,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Pfaueninsel"
+    },
+    {
+      "name": "Darmstadt Artists' Colony",
+      "aliases": [
+        "Artists' Colony in Darmstadt",
+        "Mathildenhöhe"
+      ],
+      "popularity": 10633,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Darmstadt Artists' Colony"
+    },
+    {
+      "name": "Danubian Limes",
+      "aliases": [
+        "Danube Limes"
+      ],
+      "popularity": 10874,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Danubian Limes"
+    },
+    {
+      "name": "Reichenau Island",
+      "aliases": [
+        "Insel Reichenau"
+      ],
+      "popularity": 12781,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Reichenau Island"
+    },
+    {
+      "name": "Lorsch Abbey",
+      "aliases": [
+        "Abbey and Altenmünster of Lorsch"
+      ],
+      "popularity": 13649,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Lorsch Abbey"
+    },
+    {
+      "name": "Bauhaus and its Sites in Weimar, Dessau and Bernau",
+      "aliases": [
+        "Bauhaus World Heritage Site"
+      ],
+      "popularity": 13706,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Bauhaus and its Sites in Weimar, Dessau and Bernau"
+    },
+    {
+      "name": "Bergpark Wilhelmshöhe",
+      "aliases": [
+        "Bergpark und Schloss Wilhelmshöhe",
+        "Park Wilhelmshöhe"
+      ],
+      "popularity": 14007,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Bergpark Wilhelmshöhe"
+    },
+    {
+      "name": "Augustusburg and Falkenlust Palaces, Brühl",
+      "aliases": [
+        "Augustusburg and Falkenlust Palaces"
+      ],
+      "popularity": 14301,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Augustusburg and Falkenlust Palaces, Brühl"
+    },
+    {
+      "name": "Wieskirche",
+      "aliases": [
+        "Pilgrimage Church of Wies"
+      ],
+      "popularity": 15722,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Wieskirche"
+    },
+    {
+      "name": "Dessau-Wörlitz Garden Realm",
+      "aliases": [],
+      "popularity": 16820,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Dessau-Wörlitz Garden Realm"
+    },
+    {
+      "name": "Fagus Factory",
+      "aliases": [
+        "Faguswerk"
+      ],
+      "popularity": 18846,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Fagus Factory"
+    },
+    {
+      "name": "Rhine Gorge",
+      "aliases": [],
+      "popularity": 18872,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Rhine Gorge"
+    },
+    {
+      "name": "Prehistoric pile dwellings around the Alps",
+      "aliases": [],
+      "popularity": 19404,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Prehistoric pile dwellings around the Alps"
+    },
+    {
+      "name": "The Architectural Work of Le Corbusier",
+      "aliases": [
+        "Architectural Work of Le Corbusier",
+        "Le Corbusier World Heritage"
+      ],
+      "popularity": 21258,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "The Architectural Work of Le Corbusier"
+    },
+    {
+      "name": "Zollverein Coal Mine Industrial Complex",
+      "aliases": [
+        "Zeche Zollverein"
+      ],
+      "popularity": 22495,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Zollverein Coal Mine Industrial Complex"
+    },
+    {
+      "name": "Bad Kissingen",
+      "aliases": [
+        "Kissingen"
+      ],
+      "popularity": 23576,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Bad Kissingen"
+    },
+    {
+      "name": "Borders of the Roman Empire",
+      "aliases": [
+        "Frontiers of the Roman Empire"
+      ],
+      "popularity": 25358,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Borders of the Roman Empire"
+    },
+    {
+      "name": "Great Spa Towns of Europe",
+      "aliases": [
+        "Great spas of Europe"
+      ],
+      "popularity": 28397,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Great Spa Towns of Europe"
+    },
+    {
+      "name": "Danevirke",
+      "aliases": [
+        "Danewerk",
+        "Dannevirke"
+      ],
+      "popularity": 35977,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Danevirke"
+    },
+    {
+      "name": "Altes Museum",
+      "aliases": [],
+      "popularity": 37968,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Altes Museum"
+    },
+    {
+      "name": "Wartburg",
+      "aliases": [
+        "Schloss Wartburg",
+        "Wartburg Castle"
+      ],
+      "popularity": 41849,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Wartburg"
+    },
+    {
+      "name": "Schwerin Castle",
+      "aliases": [
+        "Schwerin Palace"
+      ],
+      "popularity": 42619,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Schwerin Castle"
+    },
+    {
+      "name": "Dessau",
+      "aliases": [],
+      "popularity": 45325,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Dessau"
+    },
+    {
+      "name": "Speyer Cathedral",
+      "aliases": [
+        "Cathedral of Speyer",
+        "Imperial Cathedral of Speyer",
+        "Mariendom",
+        "Speyerer Dom"
+      ],
+      "popularity": 52267,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Speyer Cathedral"
+    },
+    {
+      "name": "Herrenchiemsee",
+      "aliases": [],
+      "popularity": 52968,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Herrenchiemsee"
+    },
+    {
+      "name": "Museum Island",
+      "aliases": [],
+      "popularity": 54848,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "Museum Island"
+    },
+    {
+      "name": "Linderhof Palace",
+      "aliases": [],
+      "popularity": 59750,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Linderhof Palace"
+    },
+    {
+      "name": "Aachen Cathedral",
+      "aliases": [
+        "Imperial Cathedral"
+      ],
+      "popularity": 103558,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "Aachen Cathedral"
+    },
+    {
+      "name": "Cologne Cathedral",
+      "aliases": [
+        "High Cathedral of St. Peter"
+      ],
+      "popularity": 705367,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Cologne Cathedral"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "space-stations",
+  "slug": "space-stations",
+  "category": "science",
+  "question": "Name a space station",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Kosmos 557",
+      "aliases": [
+        "Cosmos 557",
+        "DOS-3"
+      ],
+      "popularity": 3410,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Kosmos 557"
+    },
+    {
+      "name": "DOS-2",
+      "aliases": [],
+      "popularity": 3553,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "DOS-2"
+    },
+    {
+      "name": "Salyut 4",
+      "aliases": [],
+      "popularity": 7431,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Salyut 4"
+    },
+    {
+      "name": "Salyut 5",
+      "aliases": [
+        "OPS-3"
+      ],
+      "popularity": 9909,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Salyut 5"
+    },
+    {
+      "name": "Salyut 2",
+      "aliases": [],
+      "popularity": 10067,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Salyut 2"
+    },
+    {
+      "name": "Salyut 6",
+      "aliases": [],
+      "popularity": 20539,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Salyut 6"
+    },
+    {
+      "name": "Tiangong-2",
+      "aliases": [
+        "Tiangong2"
+      ],
+      "popularity": 21512,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Tiangong-2"
+    },
+    {
+      "name": "Salyut 3",
+      "aliases": [
+        "Almaz 2"
+      ],
+      "popularity": 25439,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Salyut 3"
+    },
+    {
+      "name": "Tiangong-1",
+      "aliases": [
+        "Heavenly Palace 1",
+        "Tiangong1"
+      ],
+      "popularity": 32397,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Tiangong-1"
+    },
+    {
+      "name": "Salyut 7",
+      "aliases": [],
+      "popularity": 45147,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Salyut 7"
+    },
+    {
+      "name": "Salyut 1",
+      "aliases": [],
+      "popularity": 97972,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Salyut 1"
+    },
+    {
+      "name": "Skylab",
+      "aliases": [],
+      "popularity": 284174,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Skylab"
+    },
+    {
+      "name": "Mir",
+      "aliases": [
+        "Mir space station"
+      ],
+      "popularity": 288305,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Mir"
+    },
+    {
+      "name": "Tiangong space station",
+      "aliases": [
+        "China Space Station",
+        "CSS",
+        "Tiangong"
+      ],
+      "popularity": 429727,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Tiangong space station"
+    },
+    {
+      "name": "International Space Station",
+      "aliases": [
+        "ISS",
+        "NA1SS",
+        "Station Alpha"
+      ],
+      "popularity": 1384110,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "International Space Station"
+    }
+  ]
+}

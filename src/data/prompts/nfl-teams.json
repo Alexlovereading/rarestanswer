@@ -1,0 +1,361 @@
+{
+  "id": "nfl-teams",
+  "slug": "nfl-teams",
+  "category": "sports",
+  "question": "Name a current NFL team",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Cincinnati Bengals",
+      "aliases": [],
+      "popularity": 417146,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Cincinnati Bengals"
+    },
+    {
+      "name": "New Orleans Saints",
+      "aliases": [
+        "Saints"
+      ],
+      "popularity": 443981,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "New Orleans Saints"
+    },
+    {
+      "name": "Atlanta Falcons",
+      "aliases": [
+        "Falcons"
+      ],
+      "popularity": 496795,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Atlanta Falcons"
+    },
+    {
+      "name": "Carolina Panthers",
+      "aliases": [],
+      "popularity": 526893,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Carolina Panthers"
+    },
+    {
+      "name": "Indianapolis Colts",
+      "aliases": [
+        "Indianapolis"
+      ],
+      "popularity": 528459,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Indianapolis Colts"
+    },
+    {
+      "name": "Jacksonville Jaguars",
+      "aliases": [
+        "Jaguars"
+      ],
+      "popularity": 536914,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Jacksonville Jaguars"
+    },
+    {
+      "name": "Detroit Lions",
+      "aliases": [],
+      "popularity": 554387,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Detroit Lions"
+    },
+    {
+      "name": "Minnesota Vikings",
+      "aliases": [
+        "Vikes",
+        "Vikings"
+      ],
+      "popularity": 579857,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Minnesota Vikings"
+    },
+    {
+      "name": "Tampa Bay Buccaneers",
+      "aliases": [
+        "Buccaneers",
+        "Bucs",
+        "Tampa Bay Bucs",
+        "Tampa Bay Bucs Football",
+        "Tampa Bucs",
+        "TB Buccaneers"
+      ],
+      "popularity": 595671,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Tampa Bay Buccaneers"
+    },
+    {
+      "name": "Los Angeles Chargers",
+      "aliases": [
+        "Chargers",
+        "LA Chargers",
+        "San Diego Chargers"
+      ],
+      "popularity": 597675,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Los Angeles Chargers"
+    },
+    {
+      "name": "Miami Dolphins",
+      "aliases": [
+        "Dolphins",
+        "Miami"
+      ],
+      "popularity": 599950,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Miami Dolphins"
+    },
+    {
+      "name": "Houston Texans",
+      "aliases": [
+        "Texans"
+      ],
+      "popularity": 605167,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Houston Texans"
+    },
+    {
+      "name": "Tennessee Titans",
+      "aliases": [
+        "Houston Oilers",
+        "Tennessee Oilers",
+        "Titans"
+      ],
+      "popularity": 618274,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Tennessee Titans"
+    },
+    {
+      "name": "Arizona Cardinals",
+      "aliases": [
+        "Chicago Cardinals",
+        "Morgan Athletic Club",
+        "Phoenix Cardinals",
+        "Racine Cardinals",
+        "St. Louis Cardinals"
+      ],
+      "popularity": 647053,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Arizona Cardinals"
+    },
+    {
+      "name": "New York Jets",
+      "aliases": [
+        "Jets",
+        "New York Titans",
+        "Titans of New York"
+      ],
+      "popularity": 701785,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "New York Jets"
+    },
+    {
+      "name": "Baltimore Ravens",
+      "aliases": [],
+      "popularity": 709031,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Baltimore Ravens"
+    },
+    {
+      "name": "Cleveland Browns",
+      "aliases": [
+        "Browns"
+      ],
+      "popularity": 766849,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Cleveland Browns"
+    },
+    {
+      "name": "Washington Commanders",
+      "aliases": [
+        "Boston Braves",
+        "Boston Redskins",
+        "Commanders",
+        "Redskins",
+        "Washington Football Team",
+        "Washington Redskins"
+      ],
+      "popularity": 822398,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Washington Commanders"
+    },
+    {
+      "name": "Denver Broncos",
+      "aliases": [
+        "Broncos"
+      ],
+      "popularity": 823469,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Denver Broncos"
+    },
+    {
+      "name": "Las Vegas Raiders",
+      "aliases": [
+        "Los Angeles Raiders",
+        "Oakland Raiders",
+        "Raiders"
+      ],
+      "popularity": 846139,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Las Vegas Raiders"
+    },
+    {
+      "name": "Green Bay Packers",
+      "aliases": [
+        "GNB",
+        "Green Bay",
+        "Packers"
+      ],
+      "popularity": 870364,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Green Bay Packers"
+    },
+    {
+      "name": "Kansas City Chiefs",
+      "aliases": [
+        "Chiefs",
+        "Dallas Texans",
+        "KC Chiefs"
+      ],
+      "popularity": 884525,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Kansas City Chiefs"
+    },
+    {
+      "name": "Philadelphia Eagles",
+      "aliases": [
+        "Eagles",
+        "The Birds"
+      ],
+      "popularity": 893316,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Philadelphia Eagles"
+    },
+    {
+      "name": "Pittsburgh Steelers",
+      "aliases": [
+        "Pittsburgh Pirates",
+        "Rooneymen",
+        "Steelers"
+      ],
+      "popularity": 927927,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Pittsburgh Steelers"
+    },
+    {
+      "name": "Buffalo Bills",
+      "aliases": [],
+      "popularity": 968341,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Buffalo Bills"
+    },
+    {
+      "name": "Dallas Cowboys",
+      "aliases": [
+        "Cowboys"
+      ],
+      "popularity": 979343,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Dallas Cowboys"
+    },
+    {
+      "name": "San Francisco 49ers",
+      "aliases": [
+        "49ers",
+        "Forty Niners Football Co. LLC",
+        "Forty Niners Football Company LLC"
+      ],
+      "popularity": 988741,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "San Francisco 49ers"
+    },
+    {
+      "name": "New York Giants",
+      "aliases": [
+        "Giants",
+        "NY Giants",
+        "NYG"
+      ],
+      "popularity": 991907,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "New York Giants"
+    },
+    {
+      "name": "Chicago Bears",
+      "aliases": [
+        "Bears",
+        "Da Bears",
+        "Los Kundes",
+        "Monsters of the Midway."
+      ],
+      "popularity": 1067130,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Chicago Bears"
+    },
+    {
+      "name": "Los Angeles Rams",
+      "aliases": [
+        "Cleveland Rams",
+        "L.A. Rams",
+        "Los Angles Rams",
+        "St. Louis Rams"
+      ],
+      "popularity": 1142657,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Los Angeles Rams"
+    },
+    {
+      "name": "New England Patriots",
+      "aliases": [
+        "Boston Patriots",
+        "Patriots",
+        "Pats",
+        "The New England Patriots"
+      ],
+      "popularity": 1869335,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "New England Patriots"
+    },
+    {
+      "name": "Seattle Seahawks",
+      "aliases": [],
+      "popularity": 2129477,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Seattle Seahawks"
+    }
+  ]
+}

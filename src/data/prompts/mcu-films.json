@@ -1,0 +1,379 @@
+{
+  "id": "mcu-films",
+  "slug": "mcu-films",
+  "category": "screen",
+  "question": "Name a Marvel Cinematic Universe film",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Ant-Man and the Wasp",
+      "aliases": [
+        "AMatW",
+        "Ant-Man 2"
+      ],
+      "popularity": 372234,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Ant-Man and the Wasp"
+    },
+    {
+      "name": "Ant-Man",
+      "aliases": [
+        "Ant-Man (film)"
+      ],
+      "popularity": 448089,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Ant-Man (film)"
+    },
+    {
+      "name": "Thor: The Dark World",
+      "aliases": [],
+      "popularity": 455342,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Thor: The Dark World"
+    },
+    {
+      "name": "Guardians of the Galaxy Vol. 2",
+      "aliases": [],
+      "popularity": 462974,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Guardians of the Galaxy Vol. 2"
+    },
+    {
+      "name": "Doctor Strange",
+      "aliases": [
+        "Doctor Strange (2016 film)"
+      ],
+      "popularity": 550878,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Doctor Strange (2016 film)"
+    },
+    {
+      "name": "Iron Man 2",
+      "aliases": [],
+      "popularity": 602248,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Iron Man 2"
+    },
+    {
+      "name": "Thor: Ragnarok",
+      "aliases": [],
+      "popularity": 612089,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Thor: Ragnarok"
+    },
+    {
+      "name": "Iron Man 3",
+      "aliases": [],
+      "popularity": 613256,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Iron Man 3"
+    },
+    {
+      "name": "Captain America: The Winter Soldier",
+      "aliases": [],
+      "popularity": 616864,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Captain America: The Winter Soldier"
+    },
+    {
+      "name": "Captain America: The First Avenger",
+      "aliases": [],
+      "popularity": 648666,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Captain America: The First Avenger"
+    },
+    {
+      "name": "Ant-Man and the Wasp: Quantumania",
+      "aliases": [
+        "Ant-Man 3"
+      ],
+      "popularity": 649523,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Ant-Man and the Wasp: Quantumania"
+    },
+    {
+      "name": "Thor",
+      "aliases": [
+        "Thor (film)"
+      ],
+      "popularity": 655373,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Thor (film)"
+    },
+    {
+      "name": "Captain Marvel",
+      "aliases": [
+        "Captain Marvel (film)"
+      ],
+      "popularity": 678186,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Captain Marvel (film)"
+    },
+    {
+      "name": "Avengers: Age of Ultron",
+      "aliases": [],
+      "popularity": 785801,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Avengers: Age of Ultron"
+    },
+    {
+      "name": "Black Widow",
+      "aliases": [
+        "Black Widow (2021 film)"
+      ],
+      "popularity": 797560,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Black Widow (2021 film)"
+    },
+    {
+      "name": "The Incredible Hulk",
+      "aliases": [
+        "Incredible Hulk",
+        "Incredible Hulk (film)",
+        "The Incredible Hulk (film)"
+      ],
+      "popularity": 833899,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "The Incredible Hulk (film)"
+    },
+    {
+      "name": "Guardians of the Galaxy",
+      "aliases": [
+        "Guardians of the Galaxy (film)"
+      ],
+      "popularity": 884710,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Guardians of the Galaxy (film)"
+    },
+    {
+      "name": "Captain America: Civil War",
+      "aliases": [],
+      "popularity": 978278,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Captain America: Civil War"
+    },
+    {
+      "name": "Guardians of the Galaxy Vol. 3",
+      "aliases": [
+        "GotG 3",
+        "Guardians of the Galaxy 3"
+      ],
+      "popularity": 988127,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Guardians of the Galaxy Vol. 3"
+    },
+    {
+      "name": "Thor: Love and Thunder",
+      "aliases": [
+        "Thor 4"
+      ],
+      "popularity": 996015,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Thor: Love and Thunder"
+    },
+    {
+      "name": "Iron Man",
+      "aliases": [
+        "Iron Man (2008 film)"
+      ],
+      "popularity": 1023481,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Iron Man (2008 film)"
+    },
+    {
+      "name": "Black Panther: Wakanda Forever",
+      "aliases": [
+        "Black Panther 2",
+        "Black Panther II"
+      ],
+      "popularity": 1031162,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Black Panther: Wakanda Forever"
+    },
+    {
+      "name": "Shang-Chi and the Legend of the Ten Rings",
+      "aliases": [],
+      "popularity": 1041306,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Shang-Chi and the Legend of the Ten Rings"
+    },
+    {
+      "name": "The Avengers",
+      "aliases": [
+        "Avengers",
+        "Avengers (2012 film)",
+        "The Avengers (2012 film)"
+      ],
+      "popularity": 1041513,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "The Avengers (2012 film)"
+    },
+    {
+      "name": "Black Panther",
+      "aliases": [
+        "Black Panther (film)"
+      ],
+      "popularity": 1042646,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Black Panther (film)"
+    },
+    {
+      "name": "The Marvels",
+      "aliases": [
+        "Captain Marvel 2",
+        "Marvels"
+      ],
+      "popularity": 1060085,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "The Marvels"
+    },
+    {
+      "name": "Doctor Strange in the Multiverse of Madness",
+      "aliases": [],
+      "popularity": 1105943,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Doctor Strange in the Multiverse of Madness"
+    },
+    {
+      "name": "Avengers: Infinity War",
+      "aliases": [],
+      "popularity": 1153827,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Avengers: Infinity War"
+    },
+    {
+      "name": "Eternals",
+      "aliases": [
+        "Eternals (film)"
+      ],
+      "popularity": 1181735,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Eternals (film)"
+    },
+    {
+      "name": "Captain America: Brave New World",
+      "aliases": [
+        "Captain America 4"
+      ],
+      "popularity": 1265615,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Captain America: Brave New World"
+    },
+    {
+      "name": "Spider-Man: Far From Home",
+      "aliases": [],
+      "popularity": 1581824,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Spider-Man: Far From Home"
+    },
+    {
+      "name": "Deadpool & Wolverine",
+      "aliases": [
+        "Deadpool 3"
+      ],
+      "popularity": 1854376,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Deadpool & Wolverine"
+    },
+    {
+      "name": "Spider-Man: Homecoming",
+      "aliases": [],
+      "popularity": 1946059,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Spider-Man: Homecoming"
+    },
+    {
+      "name": "Thunderbolts*",
+      "aliases": [
+        "The New Avengers",
+        "Thunderbolts*The New Avengers"
+      ],
+      "popularity": 2197793,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Thunderbolts*"
+    },
+    {
+      "name": "The Fantastic Four: First Steps",
+      "aliases": [
+        "Fantastic 4",
+        "Fantastic Four",
+        "The Fantastic 4",
+        "The Fantastic Four"
+      ],
+      "popularity": 2702926,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "The Fantastic Four: First Steps"
+    },
+    {
+      "name": "Avengers: Endgame",
+      "aliases": [
+        "Endgame"
+      ],
+      "popularity": 2830137,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Avengers: Endgame"
+    },
+    {
+      "name": "Spider-Man: No Way Home",
+      "aliases": [],
+      "popularity": 3436980,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Spider-Man: No Way Home"
+    },
+    {
+      "name": "Avengers: Doomsday",
+      "aliases": [],
+      "popularity": 7729374,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Avengers: Doomsday"
+    },
+    {
+      "name": "Spider-Man: Brand New Day",
+      "aliases": [
+        "Spider-Man 4"
+      ],
+      "popularity": 20260370,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Spider-Man: Brand New Day"
+    }
+  ]
+}

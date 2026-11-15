@@ -1,12 +1,12 @@
 ---
 /**
- * FaqSection — renders the FAQ accordion from locale JSON `home.faq`.
- *
- * Reused on the dedicated /faq page (and could be dropped back onto the
- * homepage in the future if desired). Pure CSS <details> accordion with a
- * tiny inline script to sync aria-expanded.
+ * FAQ accordion. Used by /faq. Native <details>, with a tiny inline script
+ * that keeps aria-expanded in sync. Copy is passed in; this file has no
+ * English of its own.
  */
 import { Icon } from 'astro-icon/components';
+import PlayCta from '~/components/article/PlayCta.astro';
+import { type Locale } from '~/i18n/routing';
 
 interface FaqItem {
   question: string;
@@ -17,37 +17,40 @@ interface Props {
   title: string;
   description?: string;
   items: FaqItem[];
+  /** When set, a daily-game invitation renders under the accordion. */
+  locale?: Locale;
 }
-const { title, description, items = [] } = Astro.props;
+const { title, description, items = [], locale } = Astro.props;
 ---
 
-<section class="section">
-  <h1 class="text-3xl font-extrabold tracking-tight md:text-4xl">{title}</h1>
-  {description && <p class="mt-2 text-muted-foreground">{description}</p>}
+<section class="mx-auto max-w-3xl">
+  <h1 class="font-display text-4xl font-extrabold tracking-tight text-balance md:text-5xl">{title}</h1>
+  {description && <p class="mt-3 text-lg leading-relaxed text-muted-foreground">{description}</p>}
   <div class="mt-8 space-y-2" data-faq-group>
     {
       items.map((item: FaqItem) => (
-        <details class="group rounded-md border bg-card">
-          <summary
-            class="flex cursor-pointer list-none items-center justify-between p-4 font-medium"
-            aria-expanded="false"
-          >
+        <details class="faq-item group">
+          <summary aria-expanded="false">
             {item.question}
-            <Icon name="lucide:chevron-down" class="h-4 w-4 transition group-open:rotate-180" />
+            <Icon
+              name="lucide:chevron-down"
+              class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180"
+            />
           </summary>
-          <div class="px-4 pb-4 text-sm text-muted-foreground">{item.answer}</div>
+          <div>{item.answer}</div>
         </details>
       ))
     }
   </div>
+  {locale && <PlayCta locale={locale} />}
 </section>
 
 <script is:inline>
   // Sync aria-expanded on FAQ summaries when details toggle.
   // ES2018 only — untranspiled inline script, parsed by old webviews.
-  document.querySelectorAll('[data-faq-group] details').forEach((d) => {
-    const sync = () => {
-      const summary = d.querySelector('summary');
+  document.querySelectorAll('[data-faq-group] details').forEach(function (d) {
+    var sync = function () {
+      var summary = d.querySelector('summary');
       if (summary) summary.setAttribute('aria-expanded', d.open ? 'true' : 'false');
     };
     sync();

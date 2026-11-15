@@ -1,0 +1,1584 @@
+{
+  "id": "marsupial-species",
+  "slug": "marsupial-species",
+  "category": "animals",
+  "question": "Name a species of kangaroo, wallaby, koala, wombat, or possum",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Dactylonax palpator",
+      "aliases": [],
+      "popularity": 62,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Dactylonax palpator"
+    },
+    {
+      "name": "Dactylopsila kambuayai",
+      "aliases": [
+        "Arfak striped possum",
+        "Vogelkop ring-tailed possum",
+        "Vogelkop striped possum"
+      ],
+      "popularity": 85,
+      "rarity": 0.993,
+      "tier": 6,
+      "wiki": "Dactylopsila kambuayai"
+    },
+    {
+      "name": "Macropus robustus",
+      "aliases": [
+        "euro",
+        "hill kangaroo",
+        "hill wallaroo",
+        "wallaroo"
+      ],
+      "popularity": 339,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Macropus robustus"
+    },
+    {
+      "name": "D'Albertis's ringtail possum",
+      "aliases": [
+        "D'Albertis' ringtail possum",
+        "Pseudochirops albertisii"
+      ],
+      "popularity": 647,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "D'Albertis's ringtail possum"
+    },
+    {
+      "name": "Daintree River ringtail possum",
+      "aliases": [
+        "Cinereus ringtail possum",
+        "Pseudochirulus cinereus"
+      ],
+      "popularity": 794,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Daintree River ringtail possum"
+    },
+    {
+      "name": "Weyland ringtail possum",
+      "aliases": [
+        "Pseudochirulus caroli"
+      ],
+      "popularity": 833,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Weyland ringtail possum"
+    },
+    {
+      "name": "Reclusive ringtail possum",
+      "aliases": [
+        "Pseudochirops coronatus"
+      ],
+      "popularity": 876,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Reclusive ringtail possum"
+    },
+    {
+      "name": "Masked ringtail possum",
+      "aliases": [
+        "Pseudochirulus larvatus"
+      ],
+      "popularity": 879,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Masked ringtail possum"
+    },
+    {
+      "name": "Painted ringtail possum",
+      "aliases": [
+        "Pseudochirulus forbesi"
+      ],
+      "popularity": 879,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Painted ringtail possum"
+    },
+    {
+      "name": "Vogelkop ringtail possum",
+      "aliases": [
+        "Pseudochirulus schlegelii"
+      ],
+      "popularity": 900,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Vogelkop ringtail possum"
+    },
+    {
+      "name": "Plush-coated ringtail possum",
+      "aliases": [
+        "Pseudochirops corinnae"
+      ],
+      "popularity": 1216,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Plush-coated ringtail possum"
+    },
+    {
+      "name": "Pygmy ringtail possum",
+      "aliases": [
+        "Pseudochirulus mayeri"
+      ],
+      "popularity": 1227,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Pygmy ringtail possum"
+    },
+    {
+      "name": "Coppery ringtail possum",
+      "aliases": [
+        "Pseudochirops cupreus"
+      ],
+      "popularity": 1233,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Coppery ringtail possum"
+    },
+    {
+      "name": "Lowland ringtail possum",
+      "aliases": [
+        "Pseudochirulus canescens"
+      ],
+      "popularity": 1240,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Lowland ringtail possum"
+    },
+    {
+      "name": "Herbert River ringtail possum",
+      "aliases": [
+        "Pseudochirulus herbertensis"
+      ],
+      "popularity": 1499,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Herbert River ringtail possum"
+    },
+    {
+      "name": "Mountain pademelon",
+      "aliases": [
+        "Thylogale lanatus"
+      ],
+      "popularity": 1518,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Mountain pademelon"
+    },
+    {
+      "name": "Godman's rock-wallaby",
+      "aliases": [
+        "Petrogale godmani"
+      ],
+      "popularity": 1544,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Godman's rock-wallaby"
+    },
+    {
+      "name": "Herbert's rock-wallaby",
+      "aliases": [
+        "Petrogale herberti"
+      ],
+      "popularity": 1549,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Herbert's rock-wallaby"
+    },
+    {
+      "name": "Mount Claro rock-wallaby",
+      "aliases": [
+        "Petrogale sharmani"
+      ],
+      "popularity": 1553,
+      "rarity": 0.879,
+      "tier": 5,
+      "wiki": "Mount Claro rock-wallaby"
+    },
+    {
+      "name": "Eastern short-eared rock-wallaby",
+      "aliases": [
+        "Petrogale wilkinsi",
+        "Wilkins' rock-wallaby"
+      ],
+      "popularity": 1704,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Eastern short-eared rock-wallaby"
+    },
+    {
+      "name": "Tate's triok",
+      "aliases": [
+        "Dactylopsila tatei"
+      ],
+      "popularity": 1744,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Tate's triok"
+    },
+    {
+      "name": "Rock-haunting ringtail possum",
+      "aliases": [
+        "Petropseudes dahli",
+        "rock phalanger",
+        "rock ringtail possum"
+      ],
+      "popularity": 1821,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Rock-haunting ringtail possum"
+    },
+    {
+      "name": "Stein's cuscus",
+      "aliases": [
+        "Phalanger vestitus"
+      ],
+      "popularity": 1825,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Stein's cuscus"
+    },
+    {
+      "name": "Cape York rock-wallaby",
+      "aliases": [
+        "Petrogale coenensis"
+      ],
+      "popularity": 1917,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Cape York rock-wallaby"
+    },
+    {
+      "name": "Ornate cuscus",
+      "aliases": [
+        "Phalanger ornatus"
+      ],
+      "popularity": 1978,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Ornate cuscus"
+    },
+    {
+      "name": "Eastern common cuscus",
+      "aliases": [
+        "Phalanger intercastellanus"
+      ],
+      "popularity": 2036,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "Eastern common cuscus"
+    },
+    {
+      "name": "Rothschild's cuscus",
+      "aliases": [
+        "Phalanger rothschildi"
+      ],
+      "popularity": 2050,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Rothschild's cuscus"
+    },
+    {
+      "name": "Woodlark cuscus",
+      "aliases": [
+        "Phalanger lullulae"
+      ],
+      "popularity": 2067,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "Woodlark cuscus"
+    },
+    {
+      "name": "Unadorned rock-wallaby",
+      "aliases": [
+        "Petrogale inornata"
+      ],
+      "popularity": 2122,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Unadorned rock-wallaby"
+    },
+    {
+      "name": "Silky cuscus",
+      "aliases": [
+        "Phalanger sericeus"
+      ],
+      "popularity": 2129,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Silky cuscus"
+    },
+    {
+      "name": "Purple-necked rock-wallaby",
+      "aliases": [
+        "Petrogale purpureicollis"
+      ],
+      "popularity": 2161,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Purple-necked rock-wallaby"
+    },
+    {
+      "name": "Banggai cuscus",
+      "aliases": [
+        "Strigocuscus pelengensis"
+      ],
+      "popularity": 2168,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Banggai cuscus"
+    },
+    {
+      "name": "Rhizophascolonus",
+      "aliases": [
+        "Rhizophascolonus crowcrofti"
+      ],
+      "popularity": 2185,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Rhizophascolonus"
+    },
+    {
+      "name": "Northern nail-tail wallaby",
+      "aliases": [
+        "Onychogalea unguifera"
+      ],
+      "popularity": 2201,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Northern nail-tail wallaby"
+    },
+    {
+      "name": "Seri's tree-kangaroo",
+      "aliases": [
+        "Dendrolagus stellarum"
+      ],
+      "popularity": 2238,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "Seri's tree-kangaroo"
+    },
+    {
+      "name": "Scaly-tailed possum",
+      "aliases": [
+        "Wyulda squamicaudata"
+      ],
+      "popularity": 2240,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Scaly-tailed possum"
+    },
+    {
+      "name": "Mareeba rock-wallaby",
+      "aliases": [
+        "Petrogale mareeba"
+      ],
+      "popularity": 2257,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Mareeba rock-wallaby"
+    },
+    {
+      "name": "Calaby's pademelon",
+      "aliases": [
+        "Thylogale calabyi"
+      ],
+      "popularity": 2261,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Calaby's pademelon"
+    },
+    {
+      "name": "Admiralty Island cuscus",
+      "aliases": [
+        "Spilocuscus kraemeri"
+      ],
+      "popularity": 2439,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Admiralty Island cuscus"
+    },
+    {
+      "name": "Feather-tailed possum",
+      "aliases": [
+        "Distoechurus pennatus",
+        "feathertail possum"
+      ],
+      "popularity": 2471,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Feather-tailed possum"
+    },
+    {
+      "name": "Brown's pademelon",
+      "aliases": [
+        "Thylogale browni"
+      ],
+      "popularity": 2508,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Brown's pademelon"
+    },
+    {
+      "name": "Great-tailed triok",
+      "aliases": [
+        "Dactylopsila megalura"
+      ],
+      "popularity": 2521,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Great-tailed triok"
+    },
+    {
+      "name": "Gebe cuscus",
+      "aliases": [
+        "Phalanger alexandrae"
+      ],
+      "popularity": 2527,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Gebe cuscus"
+    },
+    {
+      "name": "Blue-eyed cuscus",
+      "aliases": [
+        "Phalanger matabiru"
+      ],
+      "popularity": 2655,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Blue-eyed cuscus"
+    },
+    {
+      "name": "Short-eared rock-wallaby",
+      "aliases": [
+        "Petrogale brachyotis"
+      ],
+      "popularity": 2689,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Short-eared rock-wallaby"
+    },
+    {
+      "name": "Long-tailed pygmy possum",
+      "aliases": [
+        "Cercartetus caudatus"
+      ],
+      "popularity": 2706,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Long-tailed pygmy possum"
+    },
+    {
+      "name": "Allied rock-wallaby",
+      "aliases": [
+        "Petrogale assimilis"
+      ],
+      "popularity": 2750,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Allied rock-wallaby"
+    },
+    {
+      "name": "Rothschild's rock-wallaby",
+      "aliases": [
+        "Petrogale rothschildi"
+      ],
+      "popularity": 2758,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Rothschild's rock-wallaby"
+    },
+    {
+      "name": "Long-fingered triok",
+      "aliases": [
+        "Dactylopsila palpator"
+      ],
+      "popularity": 2786,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Long-fingered triok"
+    },
+    {
+      "name": "Small dorcopsis",
+      "aliases": [
+        "Dorcopsulus vanheurni",
+        "lesser forest wallaby"
+      ],
+      "popularity": 2791,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Small dorcopsis"
+    },
+    {
+      "name": "Lowlands tree-kangaroo",
+      "aliases": [
+        "Dendrolagus spadix"
+      ],
+      "popularity": 2828,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Lowlands tree-kangaroo"
+    },
+    {
+      "name": "Dendrolagus notatus",
+      "aliases": [
+        "Ifola tree-kangaroo"
+      ],
+      "popularity": 2959,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Dendrolagus notatus"
+    },
+    {
+      "name": "Short-eared possum",
+      "aliases": [
+        "northern bobuck",
+        "short-eared brush-tailed possum",
+        "Trichosurus caninus"
+      ],
+      "popularity": 2982,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Short-eared possum"
+    },
+    {
+      "name": "Lemuroid ringtail possum",
+      "aliases": [
+        "Hemibelideus lemuroides",
+        "lemur-like ringtail possum"
+      ],
+      "popularity": 3048,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Lemuroid ringtail possum"
+    },
+    {
+      "name": "Mountain cuscus",
+      "aliases": [
+        "Phalanger carmelitae"
+      ],
+      "popularity": 3148,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Mountain cuscus"
+    },
+    {
+      "name": "Long-footed potoroo",
+      "aliases": [
+        "Potorous longipes"
+      ],
+      "popularity": 3208,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Long-footed potoroo"
+    },
+    {
+      "name": "Coppery brushtail possum",
+      "aliases": [
+        "coppery brush-tailed possum",
+        "coppery brushtail",
+        "Trichosurus johnstonii"
+      ],
+      "popularity": 3216,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Coppery brushtail possum"
+    },
+    {
+      "name": "Macleay's dorcopsis",
+      "aliases": [
+        "Dorcopsulus macleayi"
+      ],
+      "popularity": 3310,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Macleay's dorcopsis"
+    },
+    {
+      "name": "Northern greater glider",
+      "aliases": [
+        "Petauroides minor"
+      ],
+      "popularity": 3363,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Northern greater glider"
+    },
+    {
+      "name": "Proserpine rock-wallaby",
+      "aliases": [
+        "Petrogale persephone"
+      ],
+      "popularity": 3375,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Proserpine rock-wallaby"
+    },
+    {
+      "name": "Sulawesi dwarf cuscus",
+      "aliases": [
+        "small sulawesi cuscus",
+        "Strigocuscus celebensis"
+      ],
+      "popularity": 3440,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Sulawesi dwarf cuscus"
+    },
+    {
+      "name": "Northern brushtail possum",
+      "aliases": [
+        "Trichosurus arnhemensis"
+      ],
+      "popularity": 3560,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Northern brushtail possum"
+    },
+    {
+      "name": "Blue-eyed spotted cuscus",
+      "aliases": [
+        "Spilocuscus wilsoni"
+      ],
+      "popularity": 3647,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Blue-eyed spotted cuscus"
+    },
+    {
+      "name": "Northern bettong",
+      "aliases": [
+        "Bettongia tropica"
+      ],
+      "popularity": 3690,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Northern bettong"
+    },
+    {
+      "name": "Green ringtail possum",
+      "aliases": [
+        "Pseudochirops archeri"
+      ],
+      "popularity": 3705,
+      "rarity": 0.57,
+      "tier": 3,
+      "wiki": "Green ringtail possum"
+    },
+    {
+      "name": "Black-striped wallaby",
+      "aliases": [
+        "Notamacropus dorsalis",
+        "scrub wallaby"
+      ],
+      "popularity": 3753,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Black-striped wallaby"
+    },
+    {
+      "name": "Brown dorcopsis",
+      "aliases": [
+        "Dorcopsis muelleri"
+      ],
+      "popularity": 3821,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Brown dorcopsis"
+    },
+    {
+      "name": "Southern common cuscus",
+      "aliases": [
+        "Phalanger mimicus"
+      ],
+      "popularity": 3901,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Southern common cuscus"
+    },
+    {
+      "name": "Gray dorcopsis",
+      "aliases": [
+        "Dorcopsis luctuosa",
+        "Grey dorcopsis"
+      ],
+      "popularity": 3903,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Gray dorcopsis"
+    },
+    {
+      "name": "Waigeou cuscus",
+      "aliases": [
+        "Spilocuscus papuensis",
+        "Waigeo cuscus",
+        "Waigeou spotted cuscus"
+      ],
+      "popularity": 3927,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Waigeou cuscus"
+    },
+    {
+      "name": "Central greater glider",
+      "aliases": [
+        "Petauroides armillatus"
+      ],
+      "popularity": 3929,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "Central greater glider"
+    },
+    {
+      "name": "Mountain brushtail possum",
+      "aliases": [
+        "Cunningham's brush-tailed possum",
+        "mountain brush-tailed possum",
+        "southern bobuck",
+        "Trichosurus cunninghami"
+      ],
+      "popularity": 3955,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Mountain brushtail possum"
+    },
+    {
+      "name": "Monjon",
+      "aliases": [
+        "Petrogale burbidgei"
+      ],
+      "popularity": 4104,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Monjon"
+    },
+    {
+      "name": "Northern glider",
+      "aliases": [
+        "Petaurus abidi"
+      ],
+      "popularity": 4111,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Northern glider"
+    },
+    {
+      "name": "Biak glider",
+      "aliases": [
+        "Petaurus biacensis"
+      ],
+      "popularity": 4240,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Biak glider"
+    },
+    {
+      "name": "Ground cuscus",
+      "aliases": [
+        "Phalanger gymnotis"
+      ],
+      "popularity": 4374,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Ground cuscus"
+    },
+    {
+      "name": "Western pygmy possum",
+      "aliases": [
+        "Cercartetus concinnus",
+        "Southwestern pygmy possum"
+      ],
+      "popularity": 4538,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Western pygmy possum"
+    },
+    {
+      "name": "Spectacled hare-wallaby",
+      "aliases": [
+        "Lagorchestes conspicillatus"
+      ],
+      "popularity": 4617,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Spectacled hare-wallaby"
+    },
+    {
+      "name": "Macropus titan",
+      "aliases": [],
+      "popularity": 4746,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Macropus titan"
+    },
+    {
+      "name": "Telefomin cuscus",
+      "aliases": [
+        "Phalanger matanim"
+      ],
+      "popularity": 4757,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "Telefomin cuscus"
+    },
+    {
+      "name": "Black dorcopsis",
+      "aliases": [
+        "black forest wallaby",
+        "Dorcopsis atrata"
+      ],
+      "popularity": 4785,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Black dorcopsis"
+    },
+    {
+      "name": "Bridled nail-tail wallaby",
+      "aliases": [
+        "Bridled nailtail wallaby",
+        "Onychogalea fraenata"
+      ],
+      "popularity": 4790,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Bridled nail-tail wallaby"
+    },
+    {
+      "name": "Talaud bear cuscus",
+      "aliases": [
+        "Ailurops melanotis"
+      ],
+      "popularity": 4808,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Talaud bear cuscus"
+    },
+    {
+      "name": "Black-spotted cuscus",
+      "aliases": [
+        "Spilocuscus rufoniger"
+      ],
+      "popularity": 5037,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Black-spotted cuscus"
+    },
+    {
+      "name": "Nabarlek",
+      "aliases": [
+        "Petrogale concinna"
+      ],
+      "popularity": 5167,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Nabarlek"
+    },
+    {
+      "name": "Eastern pygmy possum",
+      "aliases": [
+        "Cercartetus nanus"
+      ],
+      "popularity": 5216,
+      "rarity": 0.43,
+      "tier": 3,
+      "wiki": "Eastern pygmy possum"
+    },
+    {
+      "name": "Doria's tree-kangaroo",
+      "aliases": [
+        "Dendrolagus dorianus"
+      ],
+      "popularity": 5301,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Doria's tree-kangaroo"
+    },
+    {
+      "name": "Western brush wallaby",
+      "aliases": [
+        "black-gloved wallaby",
+        "Halmaturus irma",
+        "Macropus irma",
+        "Notamacropus irma",
+        "western bush wallaby"
+      ],
+      "popularity": 5388,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Western brush wallaby"
+    },
+    {
+      "name": "Red-necked pademelon",
+      "aliases": [
+        "Thylogale thetis"
+      ],
+      "popularity": 5494,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Red-necked pademelon"
+    },
+    {
+      "name": "Tasmanian pygmy possum",
+      "aliases": [
+        "Cercartetus lepidus"
+      ],
+      "popularity": 5553,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Tasmanian pygmy possum"
+    },
+    {
+      "name": "Golden-mantled tree-kangaroo",
+      "aliases": [
+        "Dendrolagus pulcherrimus"
+      ],
+      "popularity": 5602,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Golden-mantled tree-kangaroo"
+    },
+    {
+      "name": "Northern common cuscus",
+      "aliases": [
+        "Phalanger orientalis"
+      ],
+      "popularity": 5699,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Northern common cuscus"
+    },
+    {
+      "name": "Ursine tree-kangaroo",
+      "aliases": [
+        "Black tree kangaroo",
+        "Dendrolagus ursinus"
+      ],
+      "popularity": 5844,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Ursine tree-kangaroo"
+    },
+    {
+      "name": "Whiptail wallaby",
+      "aliases": [
+        "Notamacropus parryi"
+      ],
+      "popularity": 5879,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Whiptail wallaby"
+    },
+    {
+      "name": "Western ringtail possum",
+      "aliases": [
+        "ngwayir",
+        "Pseudocheirus occidentalis"
+      ],
+      "popularity": 5882,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Western ringtail possum"
+    },
+    {
+      "name": "Eastern bettong",
+      "aliases": [
+        "Bettongia gaimardi",
+        "Tasmanian bettong"
+      ],
+      "popularity": 6106,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Eastern bettong"
+    },
+    {
+      "name": "Southern greater glider",
+      "aliases": [
+        "greater glider",
+        "Petauroides volans"
+      ],
+      "popularity": 6353,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Southern greater glider"
+    },
+    {
+      "name": "Dactylonax kambuayai",
+      "aliases": [],
+      "popularity": 6440,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Dactylonax kambuayai"
+    },
+    {
+      "name": "White-striped dorcopsis",
+      "aliases": [
+        "Dorcopsis hageni"
+      ],
+      "popularity": 6518,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "White-striped dorcopsis"
+    },
+    {
+      "name": "Rufous rat-kangaroo",
+      "aliases": [
+        "Aepyprymnus rufescens"
+      ],
+      "popularity": 6945,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Rufous rat-kangaroo"
+    },
+    {
+      "name": "Banded hare-wallaby",
+      "aliases": [
+        "Lagostrophus fasciatus"
+      ],
+      "popularity": 7057,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Banded hare-wallaby"
+    },
+    {
+      "name": "Yellow-bellied glider",
+      "aliases": [
+        "Petaurus australis"
+      ],
+      "popularity": 7621,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Yellow-bellied glider"
+    },
+    {
+      "name": "Mahogany glider",
+      "aliases": [
+        "Petaurus gracilis"
+      ],
+      "popularity": 7677,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Mahogany glider"
+    },
+    {
+      "name": "Black-flanked rock-wallaby",
+      "aliases": [
+        "Black-footed rock-wallaby",
+        "Petrogale lateralis"
+      ],
+      "popularity": 7821,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Black-flanked rock-wallaby"
+    },
+    {
+      "name": "Bennett's tree-kangaroo",
+      "aliases": [
+        "Dendrolagus bennettianus"
+      ],
+      "popularity": 7991,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Bennett's tree-kangaroo"
+    },
+    {
+      "name": "Rufous hare-wallaby",
+      "aliases": [
+        "Lagorchestes hirsutus"
+      ],
+      "popularity": 8014,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Rufous hare-wallaby"
+    },
+    {
+      "name": "Dusky pademelon",
+      "aliases": [
+        "Thylogale brunii"
+      ],
+      "popularity": 8343,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Dusky pademelon"
+    },
+    {
+      "name": "Parma wallaby",
+      "aliases": [
+        "Macropus parma",
+        "Notamacropus parma",
+        "Thylogale parma",
+        "Wallabia parma"
+      ],
+      "popularity": 8634,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Parma wallaby"
+    },
+    {
+      "name": "Yellow-footed rock-wallaby",
+      "aliases": [
+        "Petrogale xanthopus",
+        "ring-tailed wallaby"
+      ],
+      "popularity": 8677,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Yellow-footed rock-wallaby"
+    },
+    {
+      "name": "Grizzled tree-kangaroo",
+      "aliases": [
+        "Dendrolagus inustus"
+      ],
+      "popularity": 8860,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Grizzled tree-kangaroo"
+    },
+    {
+      "name": "Boodie",
+      "aliases": [
+        "Bettongia lesueur",
+        "Burrowing bettong"
+      ],
+      "popularity": 8971,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Boodie"
+    },
+    {
+      "name": "Dingiso",
+      "aliases": [
+        "bondegezou",
+        "Dendrolagus mbaiso"
+      ],
+      "popularity": 9404,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Dingiso"
+    },
+    {
+      "name": "Squirrel glider",
+      "aliases": [
+        "Petaurus norfolcensis"
+      ],
+      "popularity": 9556,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Squirrel glider"
+    },
+    {
+      "name": "Brush-tailed rock-wallaby",
+      "aliases": [
+        "Petrogale penicillata"
+      ],
+      "popularity": 9988,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Brush-tailed rock-wallaby"
+    },
+    {
+      "name": "Striped possum",
+      "aliases": [
+        "Dactylopsila trivirgata"
+      ],
+      "popularity": 10175,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Striped possum"
+    },
+    {
+      "name": "Black wallaroo",
+      "aliases": [
+        "Osphranter bernardus"
+      ],
+      "popularity": 10664,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Black wallaroo"
+    },
+    {
+      "name": "Red-legged pademelon",
+      "aliases": [
+        "Thylogale stigmatica"
+      ],
+      "popularity": 10988,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Red-legged pademelon"
+    },
+    {
+      "name": "Agile wallaby",
+      "aliases": [
+        "grass wallaby",
+        "jungle wallaby",
+        "Notamacropus agilis",
+        "river wallaby",
+        "sandy wallaby"
+      ],
+      "popularity": 11978,
+      "rarity": 0.215,
+      "tier": 2,
+      "wiki": "Agile wallaby"
+    },
+    {
+      "name": "Lumholtz's tree-kangaroo",
+      "aliases": [
+        "Dendrolagus lumholtzi"
+      ],
+      "popularity": 12715,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Lumholtz's tree-kangaroo"
+    },
+    {
+      "name": "Long-nosed potoroo",
+      "aliases": [
+        "Potorous tridactylus"
+      ],
+      "popularity": 12781,
+      "rarity": 0.201,
+      "tier": 2,
+      "wiki": "Long-nosed potoroo"
+    },
+    {
+      "name": "Krefft's glider",
+      "aliases": [
+        "Petaurus notatus"
+      ],
+      "popularity": 13105,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Krefft's glider"
+    },
+    {
+      "name": "Leadbeater's possum",
+      "aliases": [
+        "fairy possum",
+        "Gymnobelideus leadbeateri"
+      ],
+      "popularity": 13243,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Leadbeater's possum"
+    },
+    {
+      "name": "Musky rat-kangaroo",
+      "aliases": [
+        "Hypsiprymnodon moschatus"
+      ],
+      "popularity": 14272,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Musky rat-kangaroo"
+    },
+    {
+      "name": "Goodfellow's tree-kangaroo",
+      "aliases": [
+        "Dendrolagus goodfellowi",
+        "ornate tree-kangaroo"
+      ],
+      "popularity": 14579,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Goodfellow's tree-kangaroo"
+    },
+    {
+      "name": "Feathertail glider",
+      "aliases": [
+        "Acrobates pygmaeus",
+        "feather-tailed glider",
+        "narrow-toed feather-tailed glider",
+        "pygmy gliding possum"
+      ],
+      "popularity": 15086,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Feathertail glider"
+    },
+    {
+      "name": "Tammar wallaby",
+      "aliases": [
+        "dama wallaby",
+        "Kangaroo Island wallaby",
+        "Notamacropus eugenii"
+      ],
+      "popularity": 15715,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Tammar wallaby"
+    },
+    {
+      "name": "Southern hairy-nosed wombat",
+      "aliases": [
+        "Lasiorhinus latifrons"
+      ],
+      "popularity": 15757,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Southern hairy-nosed wombat"
+    },
+    {
+      "name": "Mountain pygmy possum",
+      "aliases": [
+        "Broom's pygmy-possum",
+        "burramys",
+        "Burramys parvus"
+      ],
+      "popularity": 16283,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Mountain pygmy possum"
+    },
+    {
+      "name": "Sulawesi bear cuscus",
+      "aliases": [
+        "Ailurops ursinus",
+        "bear cuscus"
+      ],
+      "popularity": 16584,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Sulawesi bear cuscus"
+    },
+    {
+      "name": "Honey possum",
+      "aliases": [
+        "noolbenger",
+        "Tarsipes rostratus"
+      ],
+      "popularity": 18099,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Honey possum"
+    },
+    {
+      "name": "Common spotted cuscus",
+      "aliases": [
+        "Spilocuscus maculatus"
+      ],
+      "popularity": 18167,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Common spotted cuscus"
+    },
+    {
+      "name": "Matschie's tree-kangaroo",
+      "aliases": [
+        "Dendrolagus matschiei",
+        "Huon tree kangaroo"
+      ],
+      "popularity": 18434,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "Matschie's tree-kangaroo"
+    },
+    {
+      "name": "Tasmanian pademelon",
+      "aliases": [
+        "red-bellied pademelon",
+        "rufous-bellied pademelon",
+        "Thylogale billardierii"
+      ],
+      "popularity": 18705,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Tasmanian pademelon"
+    },
+    {
+      "name": "Wondiwoi tree-kangaroo",
+      "aliases": [
+        "Dendrolagus mayri"
+      ],
+      "popularity": 18742,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Wondiwoi tree-kangaroo"
+    },
+    {
+      "name": "Common wallaroo",
+      "aliases": [
+        "Osphranter robustus"
+      ],
+      "popularity": 19611,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "Common wallaroo"
+    },
+    {
+      "name": "Northern hairy-nosed wombat",
+      "aliases": [
+        "Lasiorhinus krefftii"
+      ],
+      "popularity": 22869,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Northern hairy-nosed wombat"
+    },
+    {
+      "name": "Swamp wallaby",
+      "aliases": [
+        "Wallabia bicolor"
+      ],
+      "popularity": 24263,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Swamp wallaby"
+    },
+    {
+      "name": "Antilopine kangaroo",
+      "aliases": [
+        "Osphranter antilopinus"
+      ],
+      "popularity": 25906,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Antilopine kangaroo"
+    },
+    {
+      "name": "Tenkile",
+      "aliases": [
+        "Dendrolagus scottae"
+      ],
+      "popularity": 26158,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Tenkile"
+    },
+    {
+      "name": "Common wombat",
+      "aliases": [
+        "bare-nosed wombat",
+        "Bass Strait wombat",
+        "coarse-haired wombat",
+        "Flinders Island wombat",
+        "forest wombat",
+        "Tasmanian wombat",
+        "Vombatus ursinus"
+      ],
+      "popularity": 32238,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Common wombat"
+    },
+    {
+      "name": "Western grey kangaroo",
+      "aliases": [
+        "black-faced kangaroo",
+        "Macropus fuliginosus",
+        "mallee kangaroo",
+        "sooty kangaroo",
+        "western gray kangaroo",
+        "western grey giant kangaroo"
+      ],
+      "popularity": 34781,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Western grey kangaroo"
+    },
+    {
+      "name": "Common ringtail possum",
+      "aliases": [
+        "Pseudocheirus peregrinus"
+      ],
+      "popularity": 36813,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Common ringtail possum"
+    },
+    {
+      "name": "Gilbert's potoroo",
+      "aliases": [
+        "Potorous gilbertii"
+      ],
+      "popularity": 38308,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Gilbert's potoroo"
+    },
+    {
+      "name": "Red-necked wallaby",
+      "aliases": [
+        "Notamacropus rufogriseus"
+      ],
+      "popularity": 51144,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Red-necked wallaby"
+    },
+    {
+      "name": "Eastern grey kangaroo",
+      "aliases": [
+        "forester kangaroo",
+        "great grey kangaroo",
+        "Macropus giganteus"
+      ],
+      "popularity": 75604,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Eastern grey kangaroo"
+    },
+    {
+      "name": "Common brushtail possum",
+      "aliases": [
+        "common brush-tailed possum",
+        "common brushtail",
+        "silver-gray possum",
+        "silver-grey possum",
+        "Trichosurus vulpecula"
+      ],
+      "popularity": 116535,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Common brushtail possum"
+    },
+    {
+      "name": "Red kangaroo",
+      "aliases": [
+        "Osphranter rufus"
+      ],
+      "popularity": 136021,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Red kangaroo"
+    },
+    {
+      "name": "Sugar glider",
+      "aliases": [
+        "Petaurus breviceps"
+      ],
+      "popularity": 295688,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Sugar glider"
+    },
+    {
+      "name": "Koala",
+      "aliases": [
+        "coala",
+        "koala bear",
+        "koolah",
+        "Phascolarctos cinereus"
+      ],
+      "popularity": 551352,
+      "rarity": 0.007,
+      "tier": 1,
+      "wiki": "Koala"
+    },
+    {
+      "name": "Quokka",
+      "aliases": [
+        "Setonix brachyurus"
+      ],
+      "popularity": 659183,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Quokka"
+    }
+  ]
+}

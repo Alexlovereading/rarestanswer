@@ -1,5 +1,6 @@
 ---
 import LegalPage from '~/components/layout/LegalPage.astro';
+import PlayCta from '~/components/article/PlayCta.astro';
 import { defaultLocale } from '~/i18n/routing';
 import { site } from '~/config/site';
 ---
@@ -68,4 +69,5 @@ import { site } from '~/config/site';
     You do not need an account to read the guides or to play. Streaks and round stats are stored in
     your browser. Corrections and questions go through the <a href="/contact/">contact page</a>.
   </p>
+  <PlayCta slot="after" locale={defaultLocale} />
 </LegalPage>

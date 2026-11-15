@@ -1,0 +1,164 @@
+{
+  "id": "iranian-dishes",
+  "slug": "iranian-dishes",
+  "category": "food",
+  "question": "Name an Iranian dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Kafbikh",
+      "aliases": [],
+      "popularity": 1572,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Kafbikh"
+    },
+    {
+      "name": "Shirin polo",
+      "aliases": [],
+      "popularity": 3833,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Shirin polo"
+    },
+    {
+      "name": "Zeytoon parvardeh",
+      "aliases": [],
+      "popularity": 5916,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Zeytoon parvardeh"
+    },
+    {
+      "name": "Piyaz",
+      "aliases": [],
+      "popularity": 6136,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Piyaz"
+    },
+    {
+      "name": "Sosis Bandari",
+      "aliases": [
+        "Port sausage"
+      ],
+      "popularity": 7182,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Sosis Bandari"
+    },
+    {
+      "name": "Loobia polo",
+      "aliases": [],
+      "popularity": 7875,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Loobia polo"
+    },
+    {
+      "name": "Borani",
+      "aliases": [],
+      "popularity": 7957,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Borani"
+    },
+    {
+      "name": "Tahchin",
+      "aliases": [
+        "Tah Chin"
+      ],
+      "popularity": 13056,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Tahchin"
+    },
+    {
+      "name": "Sholezard",
+      "aliases": [],
+      "popularity": 13291,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Sholezard"
+    },
+    {
+      "name": "Kashk bademjan",
+      "aliases": [
+        "Kashk e badamjan",
+        "kashk-e bademjan",
+        "kashk-o bademjan"
+      ],
+      "popularity": 16047,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Kashk bademjan"
+    },
+    {
+      "name": "Kuku",
+      "aliases": [
+        "Kuku (food)"
+      ],
+      "popularity": 18348,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Kuku (food)"
+    },
+    {
+      "name": "Joshpara",
+      "aliases": [
+        "chuchvara",
+        "düşbere",
+        "dushbara",
+        "shishbarak",
+        "tatarbari"
+      ],
+      "popularity": 19138,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Joshpara"
+    },
+    {
+      "name": "Muhallebi",
+      "aliases": [
+        "mehallabiyya"
+      ],
+      "popularity": 39186,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Muhallebi"
+    },
+    {
+      "name": "Laksa",
+      "aliases": [
+        "laksa noodles"
+      ],
+      "popularity": 125296,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Laksa"
+    },
+    {
+      "name": "Rogan josh",
+      "aliases": [
+        "roghan ghosht"
+      ],
+      "popularity": 125366,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Rogan josh"
+    },
+    {
+      "name": "Ayran",
+      "aliases": [
+        "abdug",
+        "dhallë",
+        "doogh",
+        "tan"
+      ],
+      "popularity": 136848,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Ayran"
+    }
+  ]
+}

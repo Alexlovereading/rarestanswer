@@ -1,0 +1,309 @@
+{
+  "id": "electronic-genres",
+  "slug": "electronic-genres",
+  "category": "music",
+  "question": "Name a genre of electronic music",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Swedish electronic music",
+      "aliases": [],
+      "popularity": 33,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Swedish electronic music"
+    },
+    {
+      "name": "Epic collage",
+      "aliases": [],
+      "popularity": 156,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Epic collage"
+    },
+    {
+      "name": "Rara tech",
+      "aliases": [],
+      "popularity": 1118,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Rara tech"
+    },
+    {
+      "name": "Chilean electronic music",
+      "aliases": [],
+      "popularity": 1266,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Chilean electronic music"
+    },
+    {
+      "name": "Electro-R&B",
+      "aliases": [
+        "electro-R'n'B",
+        "electro RnB",
+        "electronic R&B",
+        "R&B-electro"
+      ],
+      "popularity": 1918,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Electro-R&B"
+    },
+    {
+      "name": "Graphical sound",
+      "aliases": [
+        "drawn sound",
+        "ornamental sound"
+      ],
+      "popularity": 2837,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Graphical sound"
+    },
+    {
+      "name": "Tecno brega",
+      "aliases": [
+        "brega de aparelhagem",
+        "technotacky",
+        "tecnobrega"
+      ],
+      "popularity": 3368,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Tecno brega"
+    },
+    {
+      "name": "German electronic music",
+      "aliases": [],
+      "popularity": 9266,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "German electronic music"
+    },
+    {
+      "name": "Acid",
+      "aliases": [
+        "acid electronic",
+        "Acid (electronic music)",
+        "acid music"
+      ],
+      "popularity": 10604,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Acid (electronic music)"
+    },
+    {
+      "name": "Drift phonk",
+      "aliases": [
+        "cowbell phonk",
+        "drift music",
+        "phonk drift"
+      ],
+      "popularity": 10938,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Drift phonk"
+    },
+    {
+      "name": "French electronic music",
+      "aliases": [],
+      "popularity": 11523,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "French electronic music"
+    },
+    {
+      "name": "Wave music",
+      "aliases": [
+        "dark trap",
+        "Euro bass",
+        "trapwave",
+        "wave"
+      ],
+      "popularity": 15709,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Wave music"
+    },
+    {
+      "name": "Illbient",
+      "aliases": [],
+      "popularity": 17636,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Illbient"
+    },
+    {
+      "name": "Binaural beats",
+      "aliases": [
+        "binaural sounds"
+      ],
+      "popularity": 20478,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Binaural beats"
+    },
+    {
+      "name": "Space music",
+      "aliases": [],
+      "popularity": 22762,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Space music"
+    },
+    {
+      "name": "HexD",
+      "aliases": [
+        "hex"
+      ],
+      "popularity": 27565,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "HexD"
+    },
+    {
+      "name": "Electroacoustic music",
+      "aliases": [
+        "electro-acoustic music",
+        "electroacoustic"
+      ],
+      "popularity": 28036,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Electroacoustic music"
+    },
+    {
+      "name": "Chill-out music",
+      "aliases": [
+        "chill",
+        "chill-out",
+        "chillout",
+        "chillout music"
+      ],
+      "popularity": 32829,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Chill-out music"
+    },
+    {
+      "name": "Witch house",
+      "aliases": [
+        "crunk shoegaze",
+        "drag",
+        "haunted house",
+        "screwgaze"
+      ],
+      "popularity": 34201,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Witch house"
+    },
+    {
+      "name": "Electro-industrial",
+      "aliases": [],
+      "popularity": 36044,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Electro-industrial"
+    },
+    {
+      "name": "Seapunk",
+      "aliases": [],
+      "popularity": 38831,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Seapunk"
+    },
+    {
+      "name": "Chillwave",
+      "aliases": [
+        "downtempo pop",
+        "dream-beat",
+        "glo-fi"
+      ],
+      "popularity": 58375,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Chillwave"
+    },
+    {
+      "name": "Dungeon synth",
+      "aliases": [
+        "dark dungeon music",
+        "dark medieval music",
+        "fantasy music"
+      ],
+      "popularity": 64491,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Dungeon synth"
+    },
+    {
+      "name": "Electronic rock",
+      "aliases": [
+        "digital rock",
+        "electro-rock",
+        "electrorock",
+        "synth-rock",
+        "synthrock"
+      ],
+      "popularity": 66917,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Electronic rock"
+    },
+    {
+      "name": "Nightcore",
+      "aliases": [
+        "NXC"
+      ],
+      "popularity": 85598,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Nightcore"
+    },
+    {
+      "name": "Electronica",
+      "aliases": [
+        "electronic listening music"
+      ],
+      "popularity": 90636,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Electronica"
+    },
+    {
+      "name": "Synthwave",
+      "aliases": [
+        "futuresynth",
+        "retrowave"
+      ],
+      "popularity": 124931,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Synthwave"
+    },
+    {
+      "name": "Phonk",
+      "aliases": [],
+      "popularity": 225831,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Phonk"
+    },
+    {
+      "name": "Electronic dance music",
+      "aliases": [
+        "club music",
+        "dance",
+        "dance music",
+        "EDM"
+      ],
+      "popularity": 332112,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Electronic dance music"
+    }
+  ]
+}

@@ -1,0 +1,1794 @@
+{
+  "id": "waterfowl-species",
+  "slug": "waterfowl-species",
+  "category": "animals",
+  "question": "Name a species of duck, goose, or swan",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Heteroanser vicinus",
+      "aliases": [],
+      "popularity": 27,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Heteroanser vicinus"
+    },
+    {
+      "name": "Amazonetta cubensis",
+      "aliases": [],
+      "popularity": 1003,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Amazonetta cubensis"
+    },
+    {
+      "name": "Sushkin's goose",
+      "aliases": [
+        "Anser neglectus"
+      ],
+      "popularity": 1010,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Sushkin's goose"
+    },
+    {
+      "name": "Chubut steamer duck",
+      "aliases": [
+        "Tachyeres leucocephalus",
+        "White-headed steamerduck"
+      ],
+      "popularity": 1661,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Chubut steamer duck"
+    },
+    {
+      "name": "Red shoveler",
+      "aliases": [
+        "Spatula platalea"
+      ],
+      "popularity": 1732,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Red shoveler"
+    },
+    {
+      "name": "Andean teal",
+      "aliases": [
+        "Anas andium"
+      ],
+      "popularity": 1831,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Andean teal"
+    },
+    {
+      "name": "Cape shoveler",
+      "aliases": [
+        "Spatula smithii"
+      ],
+      "popularity": 1835,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Cape shoveler"
+    },
+    {
+      "name": "Andean duck",
+      "aliases": [
+        "Oxyura ferruginea"
+      ],
+      "popularity": 1995,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Andean duck"
+    },
+    {
+      "name": "Silver teal",
+      "aliases": [
+        "Spatula versicolor"
+      ],
+      "popularity": 2206,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Silver teal"
+    },
+    {
+      "name": "Puna teal",
+      "aliases": [
+        "Spatula puna"
+      ],
+      "popularity": 2212,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Puna teal"
+    },
+    {
+      "name": "Sunda teal",
+      "aliases": [
+        "Anas gibberifrons"
+      ],
+      "popularity": 2246,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Sunda teal"
+    },
+    {
+      "name": "Hartlaub's duck",
+      "aliases": [
+        "Pteronetta hartlaubi",
+        "Pteronetta hartlaubii"
+      ],
+      "popularity": 2252,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Hartlaub's duck"
+    },
+    {
+      "name": "Spotted whistling duck",
+      "aliases": [
+        "Dendrocygna guttata"
+      ],
+      "popularity": 2290,
+      "rarity": 0.93,
+      "tier": 5,
+      "wiki": "Spotted whistling duck"
+    },
+    {
+      "name": "Bernier's teal",
+      "aliases": [
+        "Anas bernieri",
+        "Madagascar teal"
+      ],
+      "popularity": 2386,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Bernier's teal"
+    },
+    {
+      "name": "Southern pochard",
+      "aliases": [
+        "Netta erythrophthalma"
+      ],
+      "popularity": 2439,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Southern pochard"
+    },
+    {
+      "name": "Salvadori's teal",
+      "aliases": [
+        "Salvadorina waigiuensis"
+      ],
+      "popularity": 2486,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Salvadori's teal"
+    },
+    {
+      "name": "Maccoa duck",
+      "aliases": [
+        "Oxyura maccoa"
+      ],
+      "popularity": 2522,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Maccoa duck"
+    },
+    {
+      "name": "Andaman teal",
+      "aliases": [
+        "Anas albogularis"
+      ],
+      "popularity": 2534,
+      "rarity": 0.901,
+      "tier": 5,
+      "wiki": "Andaman teal"
+    },
+    {
+      "name": "Ashy-headed goose",
+      "aliases": [
+        "Chloephaga poliocephala"
+      ],
+      "popularity": 2561,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Ashy-headed goose"
+    },
+    {
+      "name": "Ruddy-headed goose",
+      "aliases": [
+        "Chloephaga rubidiceps"
+      ],
+      "popularity": 2704,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Ruddy-headed goose"
+    },
+    {
+      "name": "Bronze-winged duck",
+      "aliases": [
+        "Anas specularis",
+        "Speculanas specularis"
+      ],
+      "popularity": 2727,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Bronze-winged duck"
+    },
+    {
+      "name": "Flying steamer duck",
+      "aliases": [
+        "Tachyeres patachonicus"
+      ],
+      "popularity": 2816,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Flying steamer duck"
+    },
+    {
+      "name": "Green pygmy goose",
+      "aliases": [
+        "Nettapus pulchellus"
+      ],
+      "popularity": 2857,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Green pygmy goose"
+    },
+    {
+      "name": "Meller's duck",
+      "aliases": [
+        "Anas melleri"
+      ],
+      "popularity": 3084,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Meller's duck"
+    },
+    {
+      "name": "Kelp goose",
+      "aliases": [
+        "Chloephaga hybrida"
+      ],
+      "popularity": 3104,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Kelp goose"
+    },
+    {
+      "name": "Yellow-billed teal",
+      "aliases": [
+        "Anas flavirostris"
+      ],
+      "popularity": 3222,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Yellow-billed teal"
+    },
+    {
+      "name": "Rosy-billed pochard",
+      "aliases": [
+        "Netta peposaca"
+      ],
+      "popularity": 3252,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Rosy-billed pochard"
+    },
+    {
+      "name": "Red-billed teal",
+      "aliases": [
+        "Anas erythrorhyncha"
+      ],
+      "popularity": 3261,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Red-billed teal"
+    },
+    {
+      "name": "Cape teal",
+      "aliases": [
+        "Anas capensis"
+      ],
+      "popularity": 3400,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Cape teal"
+    },
+    {
+      "name": "White-backed duck",
+      "aliases": [
+        "Thalassornis leuconotus"
+      ],
+      "popularity": 3423,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "White-backed duck"
+    },
+    {
+      "name": "Stejneger's scoter",
+      "aliases": [
+        "Melanitta stejnegeri"
+      ],
+      "popularity": 3460,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Stejneger's scoter"
+    },
+    {
+      "name": "Blue-winged goose",
+      "aliases": [
+        "Cyanochen cyanoptera"
+      ],
+      "popularity": 3519,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "Blue-winged goose"
+    },
+    {
+      "name": "Wandering whistling duck",
+      "aliases": [
+        "Dendrocygna arcuata"
+      ],
+      "popularity": 3536,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Wandering whistling duck"
+    },
+    {
+      "name": "Australasian shoveler",
+      "aliases": [
+        "Spatula rhynchotis"
+      ],
+      "popularity": 3684,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Australasian shoveler"
+    },
+    {
+      "name": "Chiloé wigeon",
+      "aliases": [
+        "Mareca sibilatrix"
+      ],
+      "popularity": 3701,
+      "rarity": 0.801,
+      "tier": 5,
+      "wiki": "Chiloé wigeon"
+    },
+    {
+      "name": "Blue-billed teal",
+      "aliases": [
+        "Hottentot teal",
+        "Spatula hottentota"
+      ],
+      "popularity": 3895,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Blue-billed teal"
+    },
+    {
+      "name": "Yellow-billed pintail",
+      "aliases": [
+        "Anas georgica"
+      ],
+      "popularity": 3961,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Yellow-billed pintail"
+    },
+    {
+      "name": "Masked duck",
+      "aliases": [
+        "Nomonyx dominicus",
+        "Oxyura dominica"
+      ],
+      "popularity": 4126,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Masked duck"
+    },
+    {
+      "name": "Andean goose",
+      "aliases": [
+        "Chloephaga melanoptera"
+      ],
+      "popularity": 4239,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Andean goose"
+    },
+    {
+      "name": "Auckland teal",
+      "aliases": [
+        "Anas aucklandica",
+        "Auckland Island Teal",
+        "New Zealand teal"
+      ],
+      "popularity": 4245,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "Auckland teal"
+    },
+    {
+      "name": "South African shelduck",
+      "aliases": [
+        "Tadorna cana"
+      ],
+      "popularity": 4315,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "South African shelduck"
+    },
+    {
+      "name": "Chestnut teal",
+      "aliases": [
+        "Anas castanea"
+      ],
+      "popularity": 4468,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Chestnut teal"
+    },
+    {
+      "name": "Fuegian steamer duck",
+      "aliases": [
+        "Tachyeres pteneres"
+      ],
+      "popularity": 4521,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Fuegian steamer duck"
+    },
+    {
+      "name": "Black-headed duck",
+      "aliases": [
+        "Heteronetta atricapilla"
+      ],
+      "popularity": 4555,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Black-headed duck"
+    },
+    {
+      "name": "Eaton's pintail",
+      "aliases": [
+        "Anas eatoni",
+        "Kerguelen pintail"
+      ],
+      "popularity": 4690,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Eaton's pintail"
+    },
+    {
+      "name": "Comb duck",
+      "aliases": [
+        "Sarkidiornis sylvicola"
+      ],
+      "popularity": 4789,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Comb duck"
+    },
+    {
+      "name": "Hardhead",
+      "aliases": [
+        "Australian white-eyed duck",
+        "Aythya australis"
+      ],
+      "popularity": 4997,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Hardhead"
+    },
+    {
+      "name": "Brazilian merganser",
+      "aliases": [
+        "Mergus octosetaceus"
+      ],
+      "popularity": 5193,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Brazilian merganser"
+    },
+    {
+      "name": "Freckled duck",
+      "aliases": [
+        "Stictonetta naevosa"
+      ],
+      "popularity": 5320,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Freckled duck"
+    },
+    {
+      "name": "Grey teal",
+      "aliases": [
+        "Anas gracilis",
+        "gray teal"
+      ],
+      "popularity": 5416,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Grey teal"
+    },
+    {
+      "name": "Crested duck",
+      "aliases": [
+        "Lophonetta specularioides"
+      ],
+      "popularity": 5458,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Crested duck"
+    },
+    {
+      "name": "Yellow-billed duck",
+      "aliases": [
+        "Anas undulata"
+      ],
+      "popularity": 5519,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Yellow-billed duck"
+    },
+    {
+      "name": "Ringed teal",
+      "aliases": [
+        "Callonetta leucophrys"
+      ],
+      "popularity": 5617,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Ringed teal"
+    },
+    {
+      "name": "Brazilian teal",
+      "aliases": [
+        "Amazonetta brasiliensis"
+      ],
+      "popularity": 5661,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Brazilian teal"
+    },
+    {
+      "name": "New Zealand scaup",
+      "aliases": [
+        "Aythya novaeseelandiae",
+        "Black teal"
+      ],
+      "popularity": 5764,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "New Zealand scaup"
+    },
+    {
+      "name": "Mariana mallard",
+      "aliases": [
+        "Anas oustaleti"
+      ],
+      "popularity": 5990,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Mariana mallard"
+    },
+    {
+      "name": "African black duck",
+      "aliases": [
+        "Anas sparsa"
+      ],
+      "popularity": 6223,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "African black duck"
+    },
+    {
+      "name": "White-cheeked pintail",
+      "aliases": [
+        "Anas bahamensis"
+      ],
+      "popularity": 6238,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "White-cheeked pintail"
+    },
+    {
+      "name": "Marbled duck",
+      "aliases": [
+        "Marbled Teal",
+        "Marmaronetta angustirostris"
+      ],
+      "popularity": 6435,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Marbled duck"
+    },
+    {
+      "name": "Scaly-sided merganser",
+      "aliases": [
+        "Mergus squamatus"
+      ],
+      "popularity": 6461,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Scaly-sided merganser"
+    },
+    {
+      "name": "Pink-eared duck",
+      "aliases": [
+        "Malacorhynchus membranaceus"
+      ],
+      "popularity": 6473,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Pink-eared duck"
+    },
+    {
+      "name": "Cotton pygmy goose",
+      "aliases": [
+        "Nettapus coromandelianus"
+      ],
+      "popularity": 6593,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Cotton pygmy goose"
+    },
+    {
+      "name": "Campbell teal",
+      "aliases": [
+        "Anas nesiotis",
+        "Campbell Island teal"
+      ],
+      "popularity": 6622,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "Campbell teal"
+    },
+    {
+      "name": "Mexican duck",
+      "aliases": [
+        "Anas diazi"
+      ],
+      "popularity": 6717,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Mexican duck"
+    },
+    {
+      "name": "Brown teal",
+      "aliases": [
+        "Anas chlorotis"
+      ],
+      "popularity": 6771,
+      "rarity": 0.626,
+      "tier": 4,
+      "wiki": "Brown teal"
+    },
+    {
+      "name": "African pygmy goose",
+      "aliases": [
+        "Nettapus auritus"
+      ],
+      "popularity": 6825,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "African pygmy goose"
+    },
+    {
+      "name": "Blue-billed duck",
+      "aliases": [
+        "Oxyura australis"
+      ],
+      "popularity": 6908,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Blue-billed duck"
+    },
+    {
+      "name": "Falcated duck",
+      "aliases": [
+        "falcated teal",
+        "Mareca falcata"
+      ],
+      "popularity": 6919,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Falcated duck"
+    },
+    {
+      "name": "Radjah shelduck",
+      "aliases": [
+        "Radjah radjah",
+        "Raja Shelduck",
+        "Tadorna radjah"
+      ],
+      "popularity": 7072,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Radjah shelduck"
+    },
+    {
+      "name": "Crested shelduck",
+      "aliases": [
+        "Tadorna cristata"
+      ],
+      "popularity": 7081,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Crested shelduck"
+    },
+    {
+      "name": "Eastern spot-billed duck",
+      "aliases": [
+        "Anas zonorhyncha",
+        "Chinese Spot-billed Duck"
+      ],
+      "popularity": 7587,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Eastern spot-billed duck"
+    },
+    {
+      "name": "White-winged scoter",
+      "aliases": [
+        "Melanitta deglandi"
+      ],
+      "popularity": 7649,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "White-winged scoter"
+    },
+    {
+      "name": "Baer's pochard",
+      "aliases": [
+        "Aythya baeri"
+      ],
+      "popularity": 7678,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Baer's pochard"
+    },
+    {
+      "name": "West Indian whistling duck",
+      "aliases": [
+        "Dendrocygna arborea"
+      ],
+      "popularity": 7723,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "West Indian whistling duck"
+    },
+    {
+      "name": "Black scoter",
+      "aliases": [
+        "American scoter",
+        "Melanitta americana"
+      ],
+      "popularity": 8112,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Black scoter"
+    },
+    {
+      "name": "Velvet scoter",
+      "aliases": [
+        "Melanitta fusca"
+      ],
+      "popularity": 8325,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Velvet scoter"
+    },
+    {
+      "name": "Spectacled eider",
+      "aliases": [
+        "Somateria fischeri"
+      ],
+      "popularity": 8328,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Spectacled eider"
+    },
+    {
+      "name": "Tundra bean goose",
+      "aliases": [
+        "Anser serrirostris"
+      ],
+      "popularity": 8656,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Tundra bean goose"
+    },
+    {
+      "name": "Orinoco goose",
+      "aliases": [
+        "Neochen jubata",
+        "Neochen jubatus"
+      ],
+      "popularity": 8682,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Orinoco goose"
+    },
+    {
+      "name": "Philippine duck",
+      "aliases": [
+        "Anas luzonica"
+      ],
+      "popularity": 8700,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Philippine duck"
+    },
+    {
+      "name": "Madagascar pochard",
+      "aliases": [
+        "Aythya innotata",
+        "Madagascan pochard"
+      ],
+      "popularity": 8736,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Madagascar pochard"
+    },
+    {
+      "name": "Falkland steamer duck",
+      "aliases": [
+        "Falkland steamerduck",
+        "Tachyeres brachypterus"
+      ],
+      "popularity": 8771,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Falkland steamer duck"
+    },
+    {
+      "name": "Torrent duck",
+      "aliases": [
+        "Merganetta armata"
+      ],
+      "popularity": 8916,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Torrent duck"
+    },
+    {
+      "name": "Common scoter",
+      "aliases": [
+        "Melanitta nigra"
+      ],
+      "popularity": 9102,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Common scoter"
+    },
+    {
+      "name": "Upland goose",
+      "aliases": [
+        "Chloephaga picta",
+        "Magellan Goose"
+      ],
+      "popularity": 9288,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Upland goose"
+    },
+    {
+      "name": "Australian shelduck",
+      "aliases": [
+        "chestnut-breasted shelduck",
+        "mountain duck",
+        "Tadorna tadornoides"
+      ],
+      "popularity": 9625,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Australian shelduck"
+    },
+    {
+      "name": "Mottled duck",
+      "aliases": [
+        "Anas fulvigula"
+      ],
+      "popularity": 9750,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Mottled duck"
+    },
+    {
+      "name": "Plumed whistling duck",
+      "aliases": [
+        "Dendrocygna eytoni"
+      ],
+      "popularity": 9986,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Plumed whistling duck"
+    },
+    {
+      "name": "White-faced whistling duck",
+      "aliases": [
+        "Dendrocygna viduata"
+      ],
+      "popularity": 10054,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "White-faced whistling duck"
+    },
+    {
+      "name": "Knob-billed duck",
+      "aliases": [
+        "Sarkidiornis melanotos"
+      ],
+      "popularity": 10169,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Knob-billed duck"
+    },
+    {
+      "name": "Taiga bean goose",
+      "aliases": [
+        "Anser fabalis"
+      ],
+      "popularity": 10691,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Taiga bean goose"
+    },
+    {
+      "name": "Lesser white-fronted goose",
+      "aliases": [
+        "Anser erythropus"
+      ],
+      "popularity": 10856,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Lesser white-fronted goose"
+    },
+    {
+      "name": "Lesser whistling duck",
+      "aliases": [
+        "Dendrocygna javanica"
+      ],
+      "popularity": 11649,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Lesser whistling duck"
+    },
+    {
+      "name": "Fulvous whistling duck",
+      "aliases": [
+        "Dendrocygna bicolor",
+        "Fulvous tree duck"
+      ],
+      "popularity": 11902,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Fulvous whistling duck"
+    },
+    {
+      "name": "Steller's eider",
+      "aliases": [
+        "Polysticta stelleri"
+      ],
+      "popularity": 12211,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Steller's eider"
+    },
+    {
+      "name": "Barrow's goldeneye",
+      "aliases": [
+        "Bucephala islandica"
+      ],
+      "popularity": 12265,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Barrow's goldeneye"
+    },
+    {
+      "name": "White-winged duck",
+      "aliases": [
+        "Asarcornis scutulata"
+      ],
+      "popularity": 12288,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "White-winged duck"
+    },
+    {
+      "name": "Emperor goose",
+      "aliases": [
+        "Anser canagicus"
+      ],
+      "popularity": 12393,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Emperor goose"
+    },
+    {
+      "name": "Musk duck",
+      "aliases": [
+        "Biziura lobata"
+      ],
+      "popularity": 12501,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Musk duck"
+    },
+    {
+      "name": "Indian spot-billed duck",
+      "aliases": [
+        "Anas poecilorhyncha"
+      ],
+      "popularity": 13314,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Indian spot-billed duck"
+    },
+    {
+      "name": "White-headed duck",
+      "aliases": [
+        "Oxyura leucocephala"
+      ],
+      "popularity": 13553,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "White-headed duck"
+    },
+    {
+      "name": "Ferruginous duck",
+      "aliases": [
+        "Aythya nyroca",
+        "Ferruginous Pochard"
+      ],
+      "popularity": 13634,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Ferruginous duck"
+    },
+    {
+      "name": "Laysan duck",
+      "aliases": [
+        "Anas laysanensis"
+      ],
+      "popularity": 14832,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Laysan duck"
+    },
+    {
+      "name": "Lake duck",
+      "aliases": [
+        "Oxyura vittata"
+      ],
+      "popularity": 14899,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Lake duck"
+    },
+    {
+      "name": "Surf scoter",
+      "aliases": [
+        "Melanitta perspicillata"
+      ],
+      "popularity": 15739,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Surf scoter"
+    },
+    {
+      "name": "Red-breasted goose",
+      "aliases": [
+        "Branta ruficollis"
+      ],
+      "popularity": 15867,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Red-breasted goose"
+    },
+    {
+      "name": "Cinnamon teal",
+      "aliases": [
+        "Spatula cyanoptera"
+      ],
+      "popularity": 16213,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Cinnamon teal"
+    },
+    {
+      "name": "Hawaiian duck",
+      "aliases": [
+        "Anas wyvilliana",
+        "Koloa duck",
+        "koloa maoli"
+      ],
+      "popularity": 16566,
+      "rarity": 0.374,
+      "tier": 2,
+      "wiki": "Hawaiian duck"
+    },
+    {
+      "name": "Ross's goose",
+      "aliases": [
+        "Anser rossii",
+        "Chen rossii"
+      ],
+      "popularity": 16642,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Ross's goose"
+    },
+    {
+      "name": "Lesser scaup",
+      "aliases": [
+        "Aythya affinis"
+      ],
+      "popularity": 16916,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "Lesser scaup"
+    },
+    {
+      "name": "Red-crested pochard",
+      "aliases": [
+        "Netta rufina"
+      ],
+      "popularity": 17161,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Red-crested pochard"
+    },
+    {
+      "name": "Black-necked swan",
+      "aliases": [
+        "Cygnus melancoryphus"
+      ],
+      "popularity": 17337,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Black-necked swan"
+    },
+    {
+      "name": "Coscoroba swan",
+      "aliases": [
+        "Coscoroba coscoroba"
+      ],
+      "popularity": 18275,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Coscoroba swan"
+    },
+    {
+      "name": "Ring-necked duck",
+      "aliases": [
+        "Aythya collaris"
+      ],
+      "popularity": 18321,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Ring-necked duck"
+    },
+    {
+      "name": "Blue duck",
+      "aliases": [
+        "Hymenolaimus malacorhynchos"
+      ],
+      "popularity": 19046,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Blue duck"
+    },
+    {
+      "name": "Spur-winged goose",
+      "aliases": [
+        "Plectropterus gambensis"
+      ],
+      "popularity": 19362,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Spur-winged goose"
+    },
+    {
+      "name": "Pink-footed goose",
+      "aliases": [
+        "Anser brachyrhynchus"
+      ],
+      "popularity": 19628,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Pink-footed goose"
+    },
+    {
+      "name": "Paradise shelduck",
+      "aliases": [
+        "Paradise duck",
+        "Tadorna variegata"
+      ],
+      "popularity": 19842,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Paradise shelduck"
+    },
+    {
+      "name": "American wigeon",
+      "aliases": [
+        "Mareca americana"
+      ],
+      "popularity": 20221,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "American wigeon"
+    },
+    {
+      "name": "Greater scaup",
+      "aliases": [
+        "Aythya marila",
+        "Scaup"
+      ],
+      "popularity": 20712,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Greater scaup"
+    },
+    {
+      "name": "Common shelduck",
+      "aliases": [
+        "Tadorna tadorna"
+      ],
+      "popularity": 20862,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Common shelduck"
+    },
+    {
+      "name": "Baikal teal",
+      "aliases": [
+        "Sibirionetta formosa"
+      ],
+      "popularity": 21275,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Baikal teal"
+    },
+    {
+      "name": "Pacific black duck",
+      "aliases": [
+        "Anas superciliosa",
+        "Grey duck"
+      ],
+      "popularity": 22094,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Pacific black duck"
+    },
+    {
+      "name": "Redhead",
+      "aliases": [
+        "Aythya americana",
+        "red-headed duck",
+        "Redhead (bird)"
+      ],
+      "popularity": 22155,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Redhead (bird)"
+    },
+    {
+      "name": "Green-winged teal",
+      "aliases": [
+        "Anas carolinensis"
+      ],
+      "popularity": 22195,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Green-winged teal"
+    },
+    {
+      "name": "Garganey",
+      "aliases": [
+        "Anas querquedula",
+        "Spatula querquedula"
+      ],
+      "popularity": 22358,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Garganey"
+    },
+    {
+      "name": "Common pochard",
+      "aliases": [
+        "Aythya ferina"
+      ],
+      "popularity": 23003,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Common pochard"
+    },
+    {
+      "name": "Australian wood duck",
+      "aliases": [
+        "Chenonetta jubata",
+        "Maned Duck"
+      ],
+      "popularity": 23209,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Australian wood duck"
+    },
+    {
+      "name": "Canvasback",
+      "aliases": [
+        "Aythya valisineria"
+      ],
+      "popularity": 23295,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Canvasback"
+    },
+    {
+      "name": "Pink-headed duck",
+      "aliases": [
+        "Rhodonessa caryophyllacae",
+        "Rhodonessa caryophyllacea"
+      ],
+      "popularity": 23634,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Pink-headed duck"
+    },
+    {
+      "name": "Blue-winged teal",
+      "aliases": [
+        "Spatula discors"
+      ],
+      "popularity": 23807,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Blue-winged teal"
+    },
+    {
+      "name": "King eider",
+      "aliases": [
+        "Somateria spectabilis"
+      ],
+      "popularity": 24962,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "King eider"
+    },
+    {
+      "name": "Long-tailed duck",
+      "aliases": [
+        "Clangula hyemalis"
+      ],
+      "popularity": 26879,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Long-tailed duck"
+    },
+    {
+      "name": "Red-breasted merganser",
+      "aliases": [
+        "Mergus serrator"
+      ],
+      "popularity": 27682,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Red-breasted merganser"
+    },
+    {
+      "name": "Eurasian wigeon",
+      "aliases": [
+        "Eurasian Widgeon",
+        "Mareca penelope"
+      ],
+      "popularity": 28631,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Eurasian wigeon"
+    },
+    {
+      "name": "Smew",
+      "aliases": [
+        "Mergellus albellus",
+        "Mergus albellus"
+      ],
+      "popularity": 30685,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Smew"
+    },
+    {
+      "name": "Greater white-fronted goose",
+      "aliases": [
+        "Anser albifrons",
+        "white-fronted goose"
+      ],
+      "popularity": 31026,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Greater white-fronted goose"
+    },
+    {
+      "name": "Cape Barren goose",
+      "aliases": [
+        "Cereopsis novaehollandiae"
+      ],
+      "popularity": 31215,
+      "rarity": 0.199,
+      "tier": 1,
+      "wiki": "Cape Barren goose"
+    },
+    {
+      "name": "Tufted duck",
+      "aliases": [
+        "Aythya fuligula"
+      ],
+      "popularity": 31867,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Tufted duck"
+    },
+    {
+      "name": "Ruddy duck",
+      "aliases": [
+        "Oxyura jamaicensis"
+      ],
+      "popularity": 32130,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Ruddy duck"
+    },
+    {
+      "name": "Harlequin duck",
+      "aliases": [
+        "Histrionicus histrionicus"
+      ],
+      "popularity": 32209,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Harlequin duck"
+    },
+    {
+      "name": "Swan goose",
+      "aliases": [
+        "Anser cygnoides"
+      ],
+      "popularity": 33798,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Swan goose"
+    },
+    {
+      "name": "Cackling goose",
+      "aliases": [
+        "Branta hutchinsii"
+      ],
+      "popularity": 34053,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Cackling goose"
+    },
+    {
+      "name": "Gadwall",
+      "aliases": [
+        "Anas strepera",
+        "Mareca strepera"
+      ],
+      "popularity": 35211,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Gadwall"
+    },
+    {
+      "name": "American black duck",
+      "aliases": [
+        "Anas rubripes"
+      ],
+      "popularity": 35987,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "American black duck"
+    },
+    {
+      "name": "Northern shoveler",
+      "aliases": [
+        "shoveler",
+        "Spatula clypeata"
+      ],
+      "popularity": 36586,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Northern shoveler"
+    },
+    {
+      "name": "Northern pintail",
+      "aliases": [
+        "Anas acuta"
+      ],
+      "popularity": 37967,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Northern pintail"
+    },
+    {
+      "name": "Ruddy shelduck",
+      "aliases": [
+        "Brahminy Duck",
+        "Brahminy Shelduck",
+        "Tadorna ferruginea"
+      ],
+      "popularity": 38562,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "Ruddy shelduck"
+    },
+    {
+      "name": "Black-bellied whistling duck",
+      "aliases": [
+        "Dendrocygna autumnalis"
+      ],
+      "popularity": 41007,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Black-bellied whistling duck"
+    },
+    {
+      "name": "Brant",
+      "aliases": [
+        "Brant (goose)",
+        "Branta bernicla",
+        "critically endangered & possibly extinct",
+        "esis",
+        "passeriformes",
+        "possibly extinct genus"
+      ],
+      "popularity": 41311,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Brant (goose)"
+    },
+    {
+      "name": "Bar-headed goose",
+      "aliases": [
+        "Anser indicus"
+      ],
+      "popularity": 41943,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Bar-headed goose"
+    },
+    {
+      "name": "Common goldeneye",
+      "aliases": [
+        "Bucephala clangula",
+        "Goldeneye"
+      ],
+      "popularity": 45975,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Common goldeneye"
+    },
+    {
+      "name": "Tundra swan",
+      "aliases": [
+        "Bewick's Swan",
+        "Cygnus columbianus",
+        "Whistling Swan"
+      ],
+      "popularity": 47348,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Tundra swan"
+    },
+    {
+      "name": "Eurasian teal",
+      "aliases": [
+        "Anas crecca",
+        "common teal",
+        "teal"
+      ],
+      "popularity": 47985,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Eurasian teal"
+    },
+    {
+      "name": "Hooded merganser",
+      "aliases": [
+        "Lophodytes cucullatus",
+        "Mergus cucullatus"
+      ],
+      "popularity": 49997,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Hooded merganser"
+    },
+    {
+      "name": "Common eider",
+      "aliases": [
+        "Eider",
+        "Somateria mollissima"
+      ],
+      "popularity": 56902,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Common eider"
+    },
+    {
+      "name": "Whooper swan",
+      "aliases": [
+        "common swan",
+        "Cygnus cygnus"
+      ],
+      "popularity": 62210,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Whooper swan"
+    },
+    {
+      "name": "Bufflehead",
+      "aliases": [
+        "Bucephala albeola"
+      ],
+      "popularity": 68896,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Bufflehead"
+    },
+    {
+      "name": "Snow goose",
+      "aliases": [
+        "Anser caerulescens"
+      ],
+      "popularity": 75187,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Snow goose"
+    },
+    {
+      "name": "Barnacle goose",
+      "aliases": [
+        "Branta leucopsis"
+      ],
+      "popularity": 81158,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Barnacle goose"
+    },
+    {
+      "name": "Wood duck",
+      "aliases": [
+        "Aix sponsa"
+      ],
+      "popularity": 83551,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Wood duck"
+    },
+    {
+      "name": "Greylag goose",
+      "aliases": [
+        "Anser anser",
+        "Greylag",
+        "Greylag Geese"
+      ],
+      "popularity": 83592,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Greylag goose"
+    },
+    {
+      "name": "Nene",
+      "aliases": [
+        "Branta sandvicensis",
+        "Hawaiian Goose",
+        "Nene (bird)"
+      ],
+      "popularity": 90565,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Nene (bird)"
+    },
+    {
+      "name": "Common merganser",
+      "aliases": [
+        "American merganser",
+        "Goosander",
+        "Mergus merganser"
+      ],
+      "popularity": 92028,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Common merganser"
+    },
+    {
+      "name": "Trumpeter swan",
+      "aliases": [
+        "Cygnus buccinator"
+      ],
+      "popularity": 101896,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Trumpeter swan"
+    },
+    {
+      "name": "Egyptian goose",
+      "aliases": [
+        "Alopochen aegyptiaca"
+      ],
+      "popularity": 114639,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Egyptian goose"
+    },
+    {
+      "name": "Mandarin duck",
+      "aliases": [
+        "Aix galericulata"
+      ],
+      "popularity": 128901,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Mandarin duck"
+    },
+    {
+      "name": "Black swan",
+      "aliases": [
+        "Cygnus atratus"
+      ],
+      "popularity": 137585,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Black swan"
+    },
+    {
+      "name": "Mute swan",
+      "aliases": [
+        "Cygnus olor"
+      ],
+      "popularity": 162255,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Mute swan"
+    },
+    {
+      "name": "Muscovy duck",
+      "aliases": [
+        "Cairina moschata"
+      ],
+      "popularity": 197405,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Muscovy duck"
+    },
+    {
+      "name": "Mallard",
+      "aliases": [
+        "Anas platyrhynchos",
+        "mallard duck",
+        "wild duck"
+      ],
+      "popularity": 346328,
+      "rarity": 0.006,
+      "tier": 1,
+      "wiki": "Mallard"
+    },
+    {
+      "name": "Canada goose",
+      "aliases": [
+        "Branta canadensis",
+        "Canadian Geese",
+        "Greater Canada Goose",
+        "Lesser Canada Goose"
+      ],
+      "popularity": 366358,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Canada goose"
+    }
+  ]
+}

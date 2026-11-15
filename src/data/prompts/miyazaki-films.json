@@ -1,0 +1,234 @@
+{
+  "id": "miyazaki-films",
+  "slug": "miyazaki-films",
+  "category": "screen",
+  "question": "Name a Hayao Miyazaki film",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Nandarō",
+      "aliases": [
+        "Nandarou"
+      ],
+      "popularity": 2711,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Nandarō"
+    },
+    {
+      "name": "Koro's Big Day Out",
+      "aliases": [
+        "Koro no Daisanpo"
+      ],
+      "popularity": 3225,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Koro's Big Day Out"
+    },
+    {
+      "name": "Yuki's Sun",
+      "aliases": [
+        "Yuki no Taiyō"
+      ],
+      "popularity": 3259,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Yuki's Sun"
+    },
+    {
+      "name": "Kūsō no Sora Tobu Kikaitachi",
+      "aliases": [
+        "Kuusou no Sora Tobu Kikaitachi"
+      ],
+      "popularity": 3537,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Kūsō no Sora Tobu Kikaitachi"
+    },
+    {
+      "name": "Looking for a Home",
+      "aliases": [
+        "Looking for a Home (film)",
+        "Yadosagashi"
+      ],
+      "popularity": 3781,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Looking for a Home (film)"
+    },
+    {
+      "name": "Mizugumo Monmon",
+      "aliases": [],
+      "popularity": 4598,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Mizugumo Monmon"
+    },
+    {
+      "name": "Kujiratori",
+      "aliases": [],
+      "popularity": 4792,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Kujiratori"
+    },
+    {
+      "name": "Hoshi o Katta Hi",
+      "aliases": [],
+      "popularity": 7504,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Hoshi o Katta Hi"
+    },
+    {
+      "name": "On Your Mark",
+      "aliases": [
+        "On Your Mark (music video)"
+      ],
+      "popularity": 15019,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "On Your Mark (music video)"
+    },
+    {
+      "name": "Boro the Caterpillar",
+      "aliases": [
+        "Kemushi no Boro"
+      ],
+      "popularity": 18837,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Boro the Caterpillar"
+    },
+    {
+      "name": "The Castle of Cagliostro",
+      "aliases": [
+        "Castle of Cagliostro",
+        "Cliff Hanger"
+      ],
+      "popularity": 146158,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "The Castle of Cagliostro"
+    },
+    {
+      "name": "Porco Rosso",
+      "aliases": [
+        "Kurenai no Buta"
+      ],
+      "popularity": 331644,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Porco Rosso"
+    },
+    {
+      "name": "Castle in the Sky",
+      "aliases": [
+        "Laputa",
+        "Tenkū no Shiro Laputa",
+        "Tenkuu no Shiro Laputa"
+      ],
+      "popularity": 430998,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Castle in the Sky"
+    },
+    {
+      "name": "The Wind Rises",
+      "aliases": [
+        "Kaze Tachinu",
+        "Wind Rises"
+      ],
+      "popularity": 453362,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "The Wind Rises"
+    },
+    {
+      "name": "Nausicaä of the Valley of the Wind",
+      "aliases": [
+        "Nausicaä of the Valley of the Wind (film)"
+      ],
+      "popularity": 464819,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Nausicaä of the Valley of the Wind (film)"
+    },
+    {
+      "name": "Ponyo",
+      "aliases": [
+        "Gake no ue no Ponyo"
+      ],
+      "popularity": 481009,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Ponyo"
+    },
+    {
+      "name": "Kiki's Delivery Service",
+      "aliases": [
+        "Kiki the Little Witch",
+        "Majo no Takkyūbin",
+        "Majo no Takkyuubin",
+        "Witch Delivery Service"
+      ],
+      "popularity": 508307,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Kiki's Delivery Service"
+    },
+    {
+      "name": "Princess Mononoke",
+      "aliases": [
+        "Mononoke-hime"
+      ],
+      "popularity": 725953,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Princess Mononoke"
+    },
+    {
+      "name": "My Neighbor Totoro",
+      "aliases": [
+        "Tonari no Totoro"
+      ],
+      "popularity": 772412,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "My Neighbor Totoro"
+    },
+    {
+      "name": "The Boy and the Heron",
+      "aliases": [
+        "Boy and the Heron",
+        "How Do You Live?",
+        "Kimitachi wa Do Ikiru ka"
+      ],
+      "popularity": 783728,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "The Boy and the Heron"
+    },
+    {
+      "name": "Howl's Moving Castle",
+      "aliases": [
+        "Howl no Ugoku Shiro",
+        "Howl's Moving Castle (film)"
+      ],
+      "popularity": 810720,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Howl's Moving Castle (film)"
+    },
+    {
+      "name": "Spirited Away",
+      "aliases": [
+        "Sen to Chihiro no Kamikakushi"
+      ],
+      "popularity": 1030543,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Spirited Away"
+    }
+  ]
+}

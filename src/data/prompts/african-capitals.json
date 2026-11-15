@@ -1,0 +1,568 @@
+{
+  "id": "african-capitals",
+  "slug": "african-capitals",
+  "category": "geography",
+  "question": "Name a national capital in Africa",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Lobamba",
+      "aliases": [],
+      "popularity": 38547,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Lobamba"
+    },
+    {
+      "name": "Gitega",
+      "aliases": [
+        "Kitega"
+      ],
+      "popularity": 62491,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Gitega"
+    },
+    {
+      "name": "Djibouti City",
+      "aliases": [
+        "Djibouti"
+      ],
+      "popularity": 71116,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Djibouti City"
+    },
+    {
+      "name": "Maseru",
+      "aliases": [],
+      "popularity": 78087,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Maseru"
+    },
+    {
+      "name": "Moroni, Comoros",
+      "aliases": [
+        "Moroni"
+      ],
+      "popularity": 79141,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Moroni, Comoros"
+    },
+    {
+      "name": "Lilongwe",
+      "aliases": [],
+      "popularity": 81792,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Lilongwe"
+    },
+    {
+      "name": "Lomé",
+      "aliases": [],
+      "popularity": 82861,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Lomé"
+    },
+    {
+      "name": "Porto-Novo",
+      "aliases": [
+        "Ajashe",
+        "Hogbonu"
+      ],
+      "popularity": 82864,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Porto-Novo"
+    },
+    {
+      "name": "Bissau",
+      "aliases": [],
+      "popularity": 84372,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Bissau"
+    },
+    {
+      "name": "Libreville",
+      "aliases": [],
+      "popularity": 93417,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Libreville"
+    },
+    {
+      "name": "São Tomé",
+      "aliases": [],
+      "popularity": 98637,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "São Tomé"
+    },
+    {
+      "name": "Banjul",
+      "aliases": [
+        "Bathurst",
+        "City of Banjul"
+      ],
+      "popularity": 99822,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Banjul"
+    },
+    {
+      "name": "Mbabane",
+      "aliases": [],
+      "popularity": 103056,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Mbabane"
+    },
+    {
+      "name": "Victoria, Seychelles",
+      "aliases": [
+        "Port Victoria",
+        "Victoria"
+      ],
+      "popularity": 111624,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Victoria, Seychelles"
+    },
+    {
+      "name": "Niamey",
+      "aliases": [
+        "Niamey Urban Community"
+      ],
+      "popularity": 114899,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Niamey"
+    },
+    {
+      "name": "Port Louis",
+      "aliases": [
+        "Polwi",
+        "Porlwi"
+      ],
+      "popularity": 122030,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Port Louis"
+    },
+    {
+      "name": "Yamoussoukro",
+      "aliases": [],
+      "popularity": 125821,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Yamoussoukro"
+    },
+    {
+      "name": "Dodoma",
+      "aliases": [
+        "Dodoma City"
+      ],
+      "popularity": 125867,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Dodoma"
+    },
+    {
+      "name": "Lusaka",
+      "aliases": [],
+      "popularity": 129311,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Lusaka"
+    },
+    {
+      "name": "N'Djamena",
+      "aliases": [
+        "NDjamena"
+      ],
+      "popularity": 131444,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "N'Djamena"
+    },
+    {
+      "name": "Conakry",
+      "aliases": [],
+      "popularity": 135356,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Conakry"
+    },
+    {
+      "name": "Yaoundé",
+      "aliases": [
+        "Ongola"
+      ],
+      "popularity": 139153,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Yaoundé"
+    },
+    {
+      "name": "Freetown",
+      "aliases": [],
+      "popularity": 146288,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Freetown"
+    },
+    {
+      "name": "Maputo",
+      "aliases": [
+        "Cam Phumo",
+        "Lourenço Marques"
+      ],
+      "popularity": 149006,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Maputo"
+    },
+    {
+      "name": "Gaborone",
+      "aliases": [
+        "Gaberones",
+        "Gabs",
+        "Motse-Mshate"
+      ],
+      "popularity": 152276,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Gaborone"
+    },
+    {
+      "name": "Bangui",
+      "aliases": [],
+      "popularity": 152277,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Bangui"
+    },
+    {
+      "name": "Juba",
+      "aliases": [],
+      "popularity": 155245,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Juba"
+    },
+    {
+      "name": "Nouakchott",
+      "aliases": [
+        "Capital of Mauritania",
+        "Nawākshūṭ",
+        "Nouakchot",
+        "Noukchott",
+        "Nuwākshūṭ"
+      ],
+      "popularity": 172041,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Nouakchott"
+    },
+    {
+      "name": "Bamako",
+      "aliases": [],
+      "popularity": 178107,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Bamako"
+    },
+    {
+      "name": "Asmara",
+      "aliases": [
+        "Asmera"
+      ],
+      "popularity": 180523,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Asmara"
+    },
+    {
+      "name": "Kigali",
+      "aliases": [
+        "City of Kigali",
+        "Kigali City"
+      ],
+      "popularity": 185461,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Kigali"
+    },
+    {
+      "name": "Brazzaville",
+      "aliases": [],
+      "popularity": 186875,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Brazzaville"
+    },
+    {
+      "name": "Ciudad de la Paz",
+      "aliases": [
+        "Oyala"
+      ],
+      "popularity": 201047,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Ciudad de la Paz"
+    },
+    {
+      "name": "Antananarivo",
+      "aliases": [
+        "Analamanga",
+        "Iarivo",
+        "Tananarive"
+      ],
+      "popularity": 206311,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Antananarivo"
+    },
+    {
+      "name": "Ouagadougou",
+      "aliases": [
+        "Kumbee-Tenga",
+        "Ouaga",
+        "Wagadugu"
+      ],
+      "popularity": 231552,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Ouagadougou"
+    },
+    {
+      "name": "Monrovia",
+      "aliases": [],
+      "popularity": 231865,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Monrovia"
+    },
+    {
+      "name": "Tunis",
+      "aliases": [],
+      "popularity": 244765,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Tunis"
+    },
+    {
+      "name": "Luanda",
+      "aliases": [
+        "Loanda",
+        "Saint Paul of Loanda",
+        "Saint Paul of Luanda",
+        "São Paulo de Loanda",
+        "St. Paul of Loanda",
+        "St. Paul of Luanda"
+      ],
+      "popularity": 246224,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Luanda"
+    },
+    {
+      "name": "Windhoek",
+      "aliases": [
+        "ǀAi-ǁGams",
+        "Otjomuise",
+        "Windhök",
+        "Windhuk"
+      ],
+      "popularity": 254867,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Windhoek"
+    },
+    {
+      "name": "Praia",
+      "aliases": [],
+      "popularity": 271042,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Praia"
+    },
+    {
+      "name": "Abuja",
+      "aliases": [],
+      "popularity": 298900,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Abuja"
+    },
+    {
+      "name": "Khartoum",
+      "aliases": [
+        "Khartum"
+      ],
+      "popularity": 300420,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Khartoum"
+    },
+    {
+      "name": "Tripoli, Libya",
+      "aliases": [
+        "Tarabulus",
+        "Tripoli"
+      ],
+      "popularity": 302639,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Tripoli, Libya"
+    },
+    {
+      "name": "Accra",
+      "aliases": [
+        "Akra"
+      ],
+      "popularity": 308167,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Accra"
+    },
+    {
+      "name": "Dakar",
+      "aliases": [],
+      "popularity": 314346,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Dakar"
+    },
+    {
+      "name": "Bloemfontein",
+      "aliases": [],
+      "popularity": 317236,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Bloemfontein"
+    },
+    {
+      "name": "Rabat",
+      "aliases": [
+        "Rabbat"
+      ],
+      "popularity": 327880,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Rabat"
+    },
+    {
+      "name": "Harare",
+      "aliases": [
+        "Fort Salisbury"
+      ],
+      "popularity": 344736,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Harare"
+    },
+    {
+      "name": "Algiers",
+      "aliases": [],
+      "popularity": 368615,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Algiers"
+    },
+    {
+      "name": "Nairobi",
+      "aliases": [
+        "Kenya capital",
+        "Kenya capital city",
+        "Kenya's capital",
+        "Kenyan capital"
+      ],
+      "popularity": 431813,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Nairobi"
+    },
+    {
+      "name": "Mogadishu",
+      "aliases": [
+        "Hamar",
+        "Maqadīshū",
+        "The Seat of the Shah",
+        "Xamar"
+      ],
+      "popularity": 433191,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Mogadishu"
+    },
+    {
+      "name": "Pretoria",
+      "aliases": [],
+      "popularity": 437278,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Pretoria"
+    },
+    {
+      "name": "Kampala",
+      "aliases": [
+        "uganda's Capital city"
+      ],
+      "popularity": 517757,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Kampala"
+    },
+    {
+      "name": "Addis Ababa",
+      "aliases": [
+        "Finfinne"
+      ],
+      "popularity": 550437,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Addis Ababa"
+    },
+    {
+      "name": "Cairo",
+      "aliases": [
+        "ghahere",
+        "Qahira"
+      ],
+      "popularity": 651650,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Cairo"
+    },
+    {
+      "name": "Kinshasa",
+      "aliases": [
+        "Leopoldstad"
+      ],
+      "popularity": 680048,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Kinshasa"
+    },
+    {
+      "name": "Cape Town",
+      "aliases": [
+        "Cape",
+        "iKapa",
+        "Kaap",
+        "Mother City",
+        "Tavern of the Seas",
+        "West side"
+      ],
+      "popularity": 732901,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Cape Town"
+    }
+  ]
+}

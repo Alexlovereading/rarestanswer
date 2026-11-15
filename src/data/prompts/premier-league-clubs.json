@@ -1,0 +1,333 @@
+{
+  "id": "premier-league-clubs",
+  "slug": "premier-league-clubs",
+  "category": "sports",
+  "question": "Name a current Premier League club",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Ipswich Town F.C.",
+      "aliases": [
+        "IPS",
+        "Ipswich",
+        "Ipswich Town",
+        "Ipswich Town FC",
+        "Ipswich Town Football Club",
+        "ITFC",
+        "The Tractor Boys",
+        "Town"
+      ],
+      "popularity": 876082,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Ipswich Town F.C."
+    },
+    {
+      "name": "Brentford F.C.",
+      "aliases": [
+        "BFC",
+        "Brentford",
+        "Brentford FC",
+        "Brentford Football Club",
+        "The Bees"
+      ],
+      "popularity": 885931,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Brentford F.C."
+    },
+    {
+      "name": "Fulham F.C.",
+      "aliases": [
+        "FFC",
+        "Fulham",
+        "Fulham FC",
+        "Fulham Football Club",
+        "The Cottagers"
+      ],
+      "popularity": 958306,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Fulham F.C."
+    },
+    {
+      "name": "Hull City A.F.C.",
+      "aliases": [
+        "HCAFC",
+        "Hull",
+        "Hull City",
+        "Hull City AFC",
+        "Hull City Association Football Club",
+        "The Tigers"
+      ],
+      "popularity": 1114643,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Hull City A.F.C."
+    },
+    {
+      "name": "Brighton & Hove Albion F.C.",
+      "aliases": [
+        "Albion",
+        "BHA",
+        "BHAFC",
+        "Brighton",
+        "Brighton & Hove",
+        "Brighton and Hove Albion",
+        "Brighton and Hove Albion FC",
+        "Brighton F.C.",
+        "Brighton FC",
+        "The Seagulls"
+      ],
+      "popularity": 1115544,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Brighton & Hove Albion F.C."
+    },
+    {
+      "name": "AFC Bournemouth",
+      "aliases": [
+        "A.F.C. Bournemouth",
+        "AFCB",
+        "Boscombe",
+        "Boscombe F.C.",
+        "Boscombe FC",
+        "Boscombe Football Club",
+        "Bournemouth",
+        "Bournemouth and Boscombe Athletic",
+        "Bournemouth and Boscombe Athletic FC",
+        "The Cherries"
+      ],
+      "popularity": 1128886,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "AFC Bournemouth"
+    },
+    {
+      "name": "Sunderland A.F.C.",
+      "aliases": [
+        "SAFC",
+        "Sunderland",
+        "Sunderland AFC",
+        "Sunderland Association Football Club",
+        "The Black Cats"
+      ],
+      "popularity": 1181494,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Sunderland A.F.C."
+    },
+    {
+      "name": "Leeds United F.C.",
+      "aliases": [
+        "L.U.F.C.",
+        "Leeds",
+        "Leeds United",
+        "Leeds United A.F.C.",
+        "Leeds United AFC",
+        "Leeds United Association Football Club",
+        "Leeds United FC",
+        "Leeds United Football Club",
+        "Leeds Utd",
+        "LeedsUnited",
+        "LUFC",
+        "The Peacocks",
+        "United"
+      ],
+      "popularity": 1231988,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Leeds United F.C."
+    },
+    {
+      "name": "Coventry City F.C.",
+      "aliases": [
+        "CCFC",
+        "COV",
+        "Coventry",
+        "Coventry City",
+        "Coventry City FC",
+        "Coventry City Football Club"
+      ],
+      "popularity": 1234125,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Coventry City F.C."
+    },
+    {
+      "name": "Everton F.C.",
+      "aliases": [
+        "EFC",
+        "Everton",
+        "Everton FC",
+        "Everton Football Club",
+        "The Toffees"
+      ],
+      "popularity": 1302652,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Everton F.C."
+    },
+    {
+      "name": "Nottingham Forest F.C.",
+      "aliases": [
+        "Forest",
+        "NFFC",
+        "NFO",
+        "Nottingham Forest",
+        "Nottingham Forest FC",
+        "Nottingham Forest Football Club",
+        "Nottm Forest",
+        "The Reds",
+        "Tricky Trees"
+      ],
+      "popularity": 1326660,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Nottingham Forest F.C."
+    },
+    {
+      "name": "Newcastle United F.C.",
+      "aliases": [
+        "Newcastle",
+        "Newcastle United",
+        "Newcastle United FC",
+        "Newcastle United Football Club",
+        "NUFC",
+        "The Magpies"
+      ],
+      "popularity": 1470983,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Newcastle United F.C."
+    },
+    {
+      "name": "Crystal Palace F.C.",
+      "aliases": [
+        "CPFC",
+        "Crystal Palace",
+        "Crystal Palace FC",
+        "Crystal Palace Football Club",
+        "Palace",
+        "The Eagles",
+        "The Glaziers"
+      ],
+      "popularity": 1552042,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Crystal Palace F.C."
+    },
+    {
+      "name": "Aston Villa F.C.",
+      "aliases": [
+        "Aston Villa",
+        "Aston Villa FC",
+        "Aston Villa Football Club",
+        "AVFC",
+        "The Villa",
+        "The Villans",
+        "Villa"
+      ],
+      "popularity": 1991202,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Aston Villa F.C."
+    },
+    {
+      "name": "Tottenham Hotspur F.C.",
+      "aliases": [
+        "Hotspur",
+        "Spurs",
+        "The Lilywhites",
+        "THFC",
+        "Tottenham",
+        "Tottenham Hotspur",
+        "Tottenham Hotspur FC",
+        "Tottenham Hotspur Football Club"
+      ],
+      "popularity": 2927538,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Tottenham Hotspur F.C."
+    },
+    {
+      "name": "Liverpool F.C.",
+      "aliases": [
+        "L.F.C.",
+        "Liverpool",
+        "LiverpoolF.C.",
+        "LiverpoolFC"
+      ],
+      "popularity": 3081584,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Liverpool F.C."
+    },
+    {
+      "name": "Chelsea F.C.",
+      "aliases": [
+        "CFC",
+        "Chelsea",
+        "Chelsea FC",
+        "Chelsea Football Club",
+        "The Pensioners"
+      ],
+      "popularity": 3663195,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Chelsea F.C."
+    },
+    {
+      "name": "Manchester City F.C.",
+      "aliases": [
+        "Citizens",
+        "Man City",
+        "Manchester City",
+        "Manchester City F.C. Soccer",
+        "Manchester City FC",
+        "Manchester City Football Club",
+        "MCFC",
+        "The Citizens",
+        "The Sky Blues"
+      ],
+      "popularity": 3806185,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Manchester City F.C."
+    },
+    {
+      "name": "Manchester United F.C.",
+      "aliases": [
+        "Man U",
+        "Man United",
+        "Man Utd",
+        "Manchester United",
+        "Manchester United FC",
+        "Manchester United Football Club",
+        "MUFC",
+        "Red Devils"
+      ],
+      "popularity": 4191352,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Manchester United F.C."
+    },
+    {
+      "name": "Arsenal F.C.",
+      "aliases": [
+        "A.F.C.",
+        "AFC",
+        "Arsenal Football Club",
+        "Arsenal London",
+        "The Ars",
+        "The Arsenal",
+        "The Arsenal F.C.",
+        "The Arsenal FC"
+      ],
+      "popularity": 4508095,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Arsenal F.C."
+    }
+  ]
+}

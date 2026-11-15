@@ -1,0 +1,446 @@
+{
+  "id": "combat-sports",
+  "slug": "combat-sports",
+  "category": "sports",
+  "question": "Name a combat sport",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Mokkar Boli Khela",
+      "aliases": [
+        "bali khela",
+        "makkar boli khela",
+        "Mokkaro boli khela"
+      ],
+      "popularity": 499,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Mokkar Boli Khela"
+    },
+    {
+      "name": "Meifu Shinkage-ryū",
+      "aliases": [],
+      "popularity": 779,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Meifu Shinkage-ryū"
+    },
+    {
+      "name": "Koluchstyle",
+      "aliases": [],
+      "popularity": 1164,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Koluchstyle"
+    },
+    {
+      "name": "Freestyle nunchaku",
+      "aliases": [],
+      "popularity": 1702,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Freestyle nunchaku"
+    },
+    {
+      "name": "Namur stilt jousting",
+      "aliases": [
+        "Namur stilt walkers"
+      ],
+      "popularity": 2145,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Namur stilt jousting"
+    },
+    {
+      "name": "Savika",
+      "aliases": [],
+      "popularity": 2887,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Savika"
+    },
+    {
+      "name": "Boli Khela",
+      "aliases": [],
+      "popularity": 2894,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Boli Khela"
+    },
+    {
+      "name": "Bajan stick-licking",
+      "aliases": [
+        "mayolè"
+      ],
+      "popularity": 3329,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Bajan stick-licking"
+    },
+    {
+      "name": "Kalari",
+      "aliases": [],
+      "popularity": 3494,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Kalari"
+    },
+    {
+      "name": "Matrak",
+      "aliases": [],
+      "popularity": 5065,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Matrak"
+    },
+    {
+      "name": "Ludosport",
+      "aliases": [],
+      "popularity": 5478,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Ludosport"
+    },
+    {
+      "name": "Huka-huka",
+      "aliases": [],
+      "popularity": 5594,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Huka-huka"
+    },
+    {
+      "name": "Cumberland and Westmorland wrestling",
+      "aliases": [
+        "Cumberland wrestling",
+        "Westmorland wrestling"
+      ],
+      "popularity": 5600,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Cumberland and Westmorland wrestling"
+    },
+    {
+      "name": "Water jousting",
+      "aliases": [],
+      "popularity": 6456,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Water jousting"
+    },
+    {
+      "name": "Yoseikan budō",
+      "aliases": [],
+      "popularity": 7563,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Yoseikan budō"
+    },
+    {
+      "name": "Jūkendō",
+      "aliases": [],
+      "popularity": 7916,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Jūkendō"
+    },
+    {
+      "name": "Modern Arnis",
+      "aliases": [],
+      "popularity": 8123,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Modern Arnis"
+    },
+    {
+      "name": "War dance",
+      "aliases": [
+        "war dances"
+      ],
+      "popularity": 12166,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "War dance"
+    },
+    {
+      "name": "Glíma",
+      "aliases": [],
+      "popularity": 13394,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Glíma"
+    },
+    {
+      "name": "Er Enish",
+      "aliases": [
+        "Oodarysh"
+      ],
+      "popularity": 14189,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Er Enish"
+    },
+    {
+      "name": "Dambe",
+      "aliases": [],
+      "popularity": 21202,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Dambe"
+    },
+    {
+      "name": "Senegalese wrestling",
+      "aliases": [],
+      "popularity": 22567,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Senegalese wrestling"
+    },
+    {
+      "name": "Robot combat",
+      "aliases": [
+        "Combots",
+        "robot fight",
+        "robot fighting"
+      ],
+      "popularity": 24057,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Robot combat"
+    },
+    {
+      "name": "Hastilude",
+      "aliases": [],
+      "popularity": 30334,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Hastilude"
+    },
+    {
+      "name": "Shootfighting",
+      "aliases": [],
+      "popularity": 32316,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Shootfighting"
+    },
+    {
+      "name": "Taekkyon",
+      "aliases": [
+        "Taekkyeon"
+      ],
+      "popularity": 32720,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Taekkyon"
+    },
+    {
+      "name": "Filipino martial arts",
+      "aliases": [],
+      "popularity": 38252,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Filipino martial arts"
+    },
+    {
+      "name": "Systema",
+      "aliases": [],
+      "popularity": 40121,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Systema"
+    },
+    {
+      "name": "Full contact karate",
+      "aliases": [],
+      "popularity": 40300,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Full contact karate"
+    },
+    {
+      "name": "Shoot wrestling",
+      "aliases": [],
+      "popularity": 45758,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Shoot wrestling"
+    },
+    {
+      "name": "Armored combat",
+      "aliases": [
+        "Armored combat (sport)",
+        "Buhurt",
+        "Historical Medieval Battles",
+        "HMB",
+        "medieval combat sport"
+      ],
+      "popularity": 47755,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Armored combat (sport)"
+    },
+    {
+      "name": "Savate",
+      "aliases": [],
+      "popularity": 101189,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Savate"
+    },
+    {
+      "name": "Lethwei",
+      "aliases": [
+        "Burmese boxing",
+        "Let Whay"
+      ],
+      "popularity": 127756,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Lethwei"
+    },
+    {
+      "name": "Kendo",
+      "aliases": [],
+      "popularity": 160312,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Kendo"
+    },
+    {
+      "name": "Wushu",
+      "aliases": [
+        "Wu-Su",
+        "Wushu (sport)",
+        "Wusu"
+      ],
+      "popularity": 165597,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Wushu (sport)"
+    },
+    {
+      "name": "Tang Soo Do",
+      "aliases": [
+        "Tangsudo"
+      ],
+      "popularity": 171113,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Tang Soo Do"
+    },
+    {
+      "name": "Kickboxing",
+      "aliases": [
+        "kick-boxing"
+      ],
+      "popularity": 185381,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Kickboxing"
+    },
+    {
+      "name": "Wrestling",
+      "aliases": [],
+      "popularity": 214914,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Wrestling"
+    },
+    {
+      "name": "Fencing",
+      "aliases": [],
+      "popularity": 236441,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Fencing"
+    },
+    {
+      "name": "Capoeira",
+      "aliases": [],
+      "popularity": 237235,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Capoeira"
+    },
+    {
+      "name": "Sumo",
+      "aliases": [
+        "sumo wrestling"
+      ],
+      "popularity": 337145,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Sumo"
+    },
+    {
+      "name": "Sambo",
+      "aliases": [
+        "Sambo (martial art)"
+      ],
+      "popularity": 339455,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Sambo (martial art)"
+    },
+    {
+      "name": "Judo",
+      "aliases": [],
+      "popularity": 372474,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Judo"
+    },
+    {
+      "name": "Boxing",
+      "aliases": [
+        "pugilism"
+      ],
+      "popularity": 372615,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Boxing"
+    },
+    {
+      "name": "Professional wrestling",
+      "aliases": [
+        "pro-wrestling"
+      ],
+      "popularity": 428305,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Professional wrestling"
+    },
+    {
+      "name": "Mixed martial arts",
+      "aliases": [
+        "MMA"
+      ],
+      "popularity": 440459,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Mixed martial arts"
+    },
+    {
+      "name": "Muay Thai",
+      "aliases": [
+        "Muaythai",
+        "Thai boxing"
+      ],
+      "popularity": 460233,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Muay Thai"
+    },
+    {
+      "name": "Krav Maga",
+      "aliases": [
+        "Kravmaga"
+      ],
+      "popularity": 501136,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Krav Maga"
+    }
+  ]
+}

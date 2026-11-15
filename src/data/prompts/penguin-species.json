@@ -1,0 +1,248 @@
+{
+  "id": "penguin-species",
+  "slug": "penguin-species",
+  "category": "animals",
+  "question": "Name a species of penguin",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Hunter Island penguin",
+      "aliases": [
+        "Tasidyptes hunteri"
+      ],
+      "popularity": 504,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Hunter Island penguin"
+    },
+    {
+      "name": "Southeastern gentoo penguin",
+      "aliases": [
+        "P. kerguelensis",
+        "Pygoscelis kerguelensis"
+      ],
+      "popularity": 2904,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Southeastern gentoo penguin"
+    },
+    {
+      "name": "Eudyptula novaehollandiae",
+      "aliases": [
+        "Australian little penguin"
+      ],
+      "popularity": 3302,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Eudyptula novaehollandiae"
+    },
+    {
+      "name": "Western rockhopper penguin",
+      "aliases": [
+        "Eudyptes chrysocome",
+        "Southern Rockhopper Penguin"
+      ],
+      "popularity": 14913,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Western rockhopper penguin"
+    },
+    {
+      "name": "Erect-crested penguin",
+      "aliases": [
+        "Eudyptes sclateri"
+      ],
+      "popularity": 14969,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Erect-crested penguin"
+    },
+    {
+      "name": "Fiordland penguin",
+      "aliases": [
+        "Eudyptes pachyrhynchus",
+        "Fiordland Crested Penguin",
+        "Tawaki"
+      ],
+      "popularity": 23589,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Fiordland penguin"
+    },
+    {
+      "name": "Snares penguin",
+      "aliases": [
+        "Eudyptes robustus",
+        "Snares Crested Penguin",
+        "Snares Islands Penguin"
+      ],
+      "popularity": 25196,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Snares penguin"
+    },
+    {
+      "name": "Northern rockhopper penguin",
+      "aliases": [
+        "Eudyptes moseleyi",
+        "Moseley's Rockhopper Penguin"
+      ],
+      "popularity": 33872,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Northern rockhopper penguin"
+    },
+    {
+      "name": "Royal penguin",
+      "aliases": [
+        "Eudyptes schlegeli"
+      ],
+      "popularity": 34346,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Royal penguin"
+    },
+    {
+      "name": "Yellow-eyed penguin",
+      "aliases": [
+        "Bird of the Year 2020",
+        "hoiho",
+        "Megadyptes antipodes"
+      ],
+      "popularity": 35047,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Yellow-eyed penguin"
+    },
+    {
+      "name": "Humboldt penguin",
+      "aliases": [
+        "Humboldt's penguin",
+        "Spheniscus humboldti"
+      ],
+      "popularity": 58912,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Humboldt penguin"
+    },
+    {
+      "name": "Magellanic penguin",
+      "aliases": [
+        "Spheniscus magellanicus"
+      ],
+      "popularity": 70404,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Magellanic penguin"
+    },
+    {
+      "name": "Galapagos penguin",
+      "aliases": [
+        "Spheniscus mendiculus"
+      ],
+      "popularity": 82748,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Galapagos penguin"
+    },
+    {
+      "name": "Chinstrap penguin",
+      "aliases": [
+        "Aptenodytes antarctica",
+        "Bearded penguin",
+        "Pygoscelis antarctica",
+        "Pygoscelis antarcticus",
+        "Ringed penguin",
+        "Stonecracker penguin"
+      ],
+      "popularity": 83752,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Chinstrap penguin"
+    },
+    {
+      "name": "Macaroni penguin",
+      "aliases": [
+        "Eudyptes chrysolophus"
+      ],
+      "popularity": 87242,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Macaroni penguin"
+    },
+    {
+      "name": "King penguin",
+      "aliases": [
+        "Aptenodytes patagonicus"
+      ],
+      "popularity": 126105,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "King penguin"
+    },
+    {
+      "name": "Adélie penguin",
+      "aliases": [
+        "Catarrhactes adeliæ",
+        "Eudyptes adeliae",
+        "Pygoscelis adeliae",
+        "Pygoscelis brevirostris"
+      ],
+      "popularity": 128448,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Adélie penguin"
+    },
+    {
+      "name": "Gentoo penguin",
+      "aliases": [
+        "Johnny penguin",
+        "Pygoscelis papua"
+      ],
+      "popularity": 155799,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Gentoo penguin"
+    },
+    {
+      "name": "Little penguin",
+      "aliases": [
+        "blue fairy penguin",
+        "blue penguin",
+        "Eudyptula minor",
+        "fairy penguin",
+        "kororā",
+        "korora penguin",
+        "little blue penguin"
+      ],
+      "popularity": 158982,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Little penguin"
+    },
+    {
+      "name": "African penguin",
+      "aliases": [
+        "black-footed penguin",
+        "Cape penguin",
+        "jackass penguin",
+        "South African penguin",
+        "Spheniscus demersus"
+      ],
+      "popularity": 160528,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "African penguin"
+    },
+    {
+      "name": "Emperor penguin",
+      "aliases": [
+        "Aptenodytes forsteri"
+      ],
+      "popularity": 392825,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Emperor penguin"
+    }
+  ]
+}

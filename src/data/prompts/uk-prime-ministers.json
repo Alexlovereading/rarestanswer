@@ -1,0 +1,672 @@
+{
+  "id": "uk-prime-ministers",
+  "slug": "uk-prime-ministers",
+  "category": "history",
+  "question": "Name a prime minister of the United Kingdom",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "William Grenville, 1st Baron Grenville",
+      "aliases": [
+        "Lord Grenville",
+        "William Grenville",
+        "William Wyndham Grenville"
+      ],
+      "popularity": 27929,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "William Grenville, 1st Baron Grenville"
+    },
+    {
+      "name": "F. J. Robinson, 1st Viscount Goderich",
+      "aliases": [
+        "Lord Goderich",
+        "Viscount Goderich"
+      ],
+      "popularity": 33572,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "F. J. Robinson, 1st Viscount Goderich"
+    },
+    {
+      "name": "Henry Addington",
+      "aliases": [],
+      "popularity": 34426,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Henry Addington"
+    },
+    {
+      "name": "Augustus FitzRoy, 3rd Duke of Grafton",
+      "aliases": [
+        "Augustus FitzRoy",
+        "Augustus Henry Fitzroy"
+      ],
+      "popularity": 35473,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Augustus FitzRoy, 3rd Duke of Grafton"
+    },
+    {
+      "name": "William Petty, 2nd Earl of Shelburne",
+      "aliases": [
+        "The Earl of Sherburne",
+        "William FitzMaurice-Petty"
+      ],
+      "popularity": 39874,
+      "rarity": 0.93,
+      "tier": 5,
+      "wiki": "William Petty, 2nd Earl of Shelburne"
+    },
+    {
+      "name": "Henry Pelham",
+      "aliases": [
+        "Rt. Hon. Henry Pelham"
+      ],
+      "popularity": 45771,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Henry Pelham"
+    },
+    {
+      "name": "George Grenville",
+      "aliases": [
+        "Gentle Shepherd"
+      ],
+      "popularity": 47859,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "George Grenville"
+    },
+    {
+      "name": "Charles Watson-Wentworth, 2nd Marquess of Rockingham",
+      "aliases": [
+        "Lord Rockingham",
+        "Marquess Charles Watson-Wentworth"
+      ],
+      "popularity": 48776,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Charles Watson-Wentworth, 2nd Marquess of Rockingham"
+    },
+    {
+      "name": "Spencer Compton, 1st Earl of Wilmington",
+      "aliases": [],
+      "popularity": 49826,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Spencer Compton, 1st Earl of Wilmington"
+    },
+    {
+      "name": "Thomas Pelham-Holles, 1st Duke of Newcastle",
+      "aliases": [],
+      "popularity": 52023,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Thomas Pelham-Holles, 1st Duke of Newcastle"
+    },
+    {
+      "name": "George Hamilton-Gordon, 4th Earl of Aberdeen",
+      "aliases": [
+        "4th Earl of Aberdeen",
+        "Earl of Aberdeen",
+        "George Aberdeen",
+        "George Gordon",
+        "George Hamilton Gordon",
+        "George Hamilton Gordon Aberdeen"
+      ],
+      "popularity": 53206,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "George Hamilton-Gordon, 4th Earl of Aberdeen"
+    },
+    {
+      "name": "William Cavendish, 4th Duke of Devonshire",
+      "aliases": [
+        "4th Duke of Devonshire William",
+        "Duke of Devonshire William Cavendish",
+        "William Devonshire"
+      ],
+      "popularity": 57205,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "William Cavendish, 4th Duke of Devonshire"
+    },
+    {
+      "name": "John Stuart, 3rd Earl of Bute",
+      "aliases": [
+        "3rd Earl of Bute John",
+        "Earl of Bute",
+        "Earl of Bute John",
+        "Earl of Bute John Stuart",
+        "Earl of John Stuart Bute",
+        "John Stuart",
+        "John Stuart Bute",
+        "Lord Bute",
+        "Stuart"
+      ],
+      "popularity": 62305,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "John Stuart, 3rd Earl of Bute"
+    },
+    {
+      "name": "William Cavendish-Bentinck, 3rd Duke of Portland",
+      "aliases": [
+        "William Portland",
+        "William Titchfield"
+      ],
+      "popularity": 79236,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "William Cavendish-Bentinck, 3rd Duke of Portland"
+    },
+    {
+      "name": "Edward Smith-Stanley, 14th Earl of Derby",
+      "aliases": [
+        "Edward George Geoffrey Smith Stanley"
+      ],
+      "popularity": 80207,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Edward Smith-Stanley, 14th Earl of Derby"
+    },
+    {
+      "name": "Henry Campbell-Bannerman",
+      "aliases": [
+        "Sir Henry Campbell-Bannerman"
+      ],
+      "popularity": 85070,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Henry Campbell-Bannerman"
+    },
+    {
+      "name": "Frederick North, Lord North",
+      "aliases": [
+        "Frederick North",
+        "Lord North"
+      ],
+      "popularity": 86828,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Frederick North, Lord North"
+    },
+    {
+      "name": "George Canning",
+      "aliases": [],
+      "popularity": 91092,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "George Canning"
+    },
+    {
+      "name": "Archibald Primrose, 5th Earl of Rosebery",
+      "aliases": [
+        "5th Earl of Rosebery",
+        "Archibald",
+        "Archibald Philip Primrose",
+        "Earl Midlothian",
+        "fifth earl of Rosebery",
+        "first earl of Midlothian",
+        "Lord Dalmeny"
+      ],
+      "popularity": 93408,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Archibald Primrose, 5th Earl of Rosebery"
+    },
+    {
+      "name": "Robert Jenkinson, 2nd Earl of Liverpool",
+      "aliases": [
+        "Lord Liverpool"
+      ],
+      "popularity": 101909,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Robert Jenkinson, 2nd Earl of Liverpool"
+    },
+    {
+      "name": "John Russell, 1st Earl Russell",
+      "aliases": [
+        "Finality John",
+        "Lord John Russell"
+      ],
+      "popularity": 114658,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "John Russell, 1st Earl Russell"
+    },
+    {
+      "name": "William Pitt, 1st Earl of Chatham",
+      "aliases": [
+        "Great Commoner",
+        "Pitt the Elder",
+        "The Great Commoner",
+        "William Chatham",
+        "William Pitt Earl of Chatham",
+        "William Pitt the Elder"
+      ],
+      "popularity": 137715,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "William Pitt, 1st Earl of Chatham"
+    },
+    {
+      "name": "Spencer Perceval",
+      "aliases": [],
+      "popularity": 141872,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Spencer Perceval"
+    },
+    {
+      "name": "Bonar Law",
+      "aliases": [
+        "Andrew Bonar Law"
+      ],
+      "popularity": 148278,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Bonar Law"
+    },
+    {
+      "name": "Robert Gascoyne-Cecil, 3rd Marquess of Salisbury",
+      "aliases": [
+        "Robert Arthur Talbot Gascoyne-Cecil",
+        "Robert Gascoyne-Cecil"
+      ],
+      "popularity": 173705,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Robert Gascoyne-Cecil, 3rd Marquess of Salisbury"
+    },
+    {
+      "name": "Charles Grey, 2nd Earl Grey",
+      "aliases": [
+        "The Earl Grey",
+        "Viscount Howick"
+      ],
+      "popularity": 182775,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Charles Grey, 2nd Earl Grey"
+    },
+    {
+      "name": "Arthur Balfour",
+      "aliases": [
+        "1st Earl of Balfour",
+        "A. J. Balfour",
+        "Arthur James Balfour",
+        "first earl of Balfour",
+        "Viscount Traprain of Whittingehame"
+      ],
+      "popularity": 195492,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Arthur Balfour"
+    },
+    {
+      "name": "Ramsay MacDonald",
+      "aliases": [
+        "J. R. M.",
+        "J. Ramsay MacDonald",
+        "J. Ramsay McDonald",
+        "James Ramsay MacDonald"
+      ],
+      "popularity": 239950,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Ramsay MacDonald"
+    },
+    {
+      "name": "Robert Walpole",
+      "aliases": [
+        "Bob Lynn",
+        "Robert Orford",
+        "Sir Robert Walpole"
+      ],
+      "popularity": 273169,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Robert Walpole"
+    },
+    {
+      "name": "Stanley Baldwin",
+      "aliases": [
+        "Lord Baldwin",
+        "Sir Stanley Baldwin"
+      ],
+      "popularity": 289790,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Stanley Baldwin"
+    },
+    {
+      "name": "Henry John Temple, 3rd Viscount Palmerston",
+      "aliases": [],
+      "popularity": 296568,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Henry John Temple, 3rd Viscount Palmerston"
+    },
+    {
+      "name": "Robert Peel",
+      "aliases": [
+        "2nd Bart. Sir Robert Peel",
+        "Peel Collection [2nd Bart.]",
+        "Sir Robert Peel"
+      ],
+      "popularity": 316142,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Robert Peel"
+    },
+    {
+      "name": "William Ewart Gladstone",
+      "aliases": [
+        "Gladstone",
+        "W. E. Gladstone",
+        "William Gladstone"
+      ],
+      "popularity": 319283,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "William Ewart Gladstone"
+    },
+    {
+      "name": "Alec Douglas-Home",
+      "aliases": [
+        "Alec Dunglass",
+        "Alec Home",
+        "Alexander Dunglass",
+        "Alexander Frederick Douglas-Home",
+        "Alexander Home",
+        "Home of the Hirsel",
+        "Lord Home",
+        "Sir Alec Douglas-Home"
+      ],
+      "popularity": 334932,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Alec Douglas-Home"
+    },
+    {
+      "name": "H. H. Asquith",
+      "aliases": [
+        "Herbert Asquith"
+      ],
+      "popularity": 338417,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "H. H. Asquith"
+    },
+    {
+      "name": "William Pitt the Younger",
+      "aliases": [
+        "Pitt the Younger"
+      ],
+      "popularity": 341387,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "William Pitt the Younger"
+    },
+    {
+      "name": "David Lloyd George",
+      "aliases": [
+        "Earl Lloyd-George",
+        "George David Lloyd",
+        "George Lloyd",
+        "Lord Lloyd-George"
+      ],
+      "popularity": 433832,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "David Lloyd George"
+    },
+    {
+      "name": "William Lamb, 2nd Viscount Melbourne",
+      "aliases": [
+        "Lord Melbourne"
+      ],
+      "popularity": 465012,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "William Lamb, 2nd Viscount Melbourne"
+    },
+    {
+      "name": "Benjamin Disraeli",
+      "aliases": [
+        "Dizzy",
+        "Lord Beaconsfield"
+      ],
+      "popularity": 514632,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Benjamin Disraeli"
+    },
+    {
+      "name": "James Callaghan",
+      "aliases": [
+        "Jim Callaghan",
+        "Leonard James Callaghan",
+        "Lord Callaghan",
+        "Lord Callaghan of Cardiff"
+      ],
+      "popularity": 523719,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "James Callaghan"
+    },
+    {
+      "name": "Harold Macmillan",
+      "aliases": [
+        "1st Earl of Stockton",
+        "Earl of Stockton",
+        "Lord Stockton",
+        "Maurice Harold Macmillan",
+        "Supermac"
+      ],
+      "popularity": 537093,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Harold Macmillan"
+    },
+    {
+      "name": "Edward Heath",
+      "aliases": [
+        "Sir Edward Richard George Heath",
+        "Ted Heath",
+        "Teddy"
+      ],
+      "popularity": 548118,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Edward Heath"
+    },
+    {
+      "name": "Clement Attlee",
+      "aliases": [
+        "Clement Richard Lord Attlee",
+        "Earl Attlee",
+        "Lord Attlee",
+        "Viscount Prestwood"
+      ],
+      "popularity": 558985,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Clement Attlee"
+    },
+    {
+      "name": "Anthony Eden",
+      "aliases": [
+        "Earl of Avon",
+        "Lord Avon",
+        "Sir Anthony Eden"
+      ],
+      "popularity": 717372,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Anthony Eden"
+    },
+    {
+      "name": "Neville Chamberlain",
+      "aliases": [
+        "Arthur Neville Chamberlain",
+        "Rt. Hon. Arthur Neville Chamberlain"
+      ],
+      "popularity": 735024,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Neville Chamberlain"
+    },
+    {
+      "name": "Theresa May",
+      "aliases": [
+        "Baroness May of Maidenhead",
+        "PM May",
+        "PM Theresa Mary May",
+        "PM Theresa May",
+        "Prime Minister May",
+        "Prime Minister Theresa Mary May",
+        "Prime Minister Theresa May",
+        "Theresa Brasier",
+        "Theresa Mary Brasier"
+      ],
+      "popularity": 764142,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Theresa May"
+    },
+    {
+      "name": "John Major",
+      "aliases": [
+        "John Roy Major",
+        "Rt. Hon. Sir John Major",
+        "Sir John Major"
+      ],
+      "popularity": 838737,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "John Major"
+    },
+    {
+      "name": "Gordon Brown",
+      "aliases": [],
+      "popularity": 918159,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Gordon Brown"
+    },
+    {
+      "name": "Arthur Wellesley, 1st Duke of Wellington",
+      "aliases": [
+        "1st Duke of Wellington",
+        "Duke of Wellington",
+        "Duke of Wellington Arthur Wellesley",
+        "Great Duke",
+        "Iron Duke",
+        "Nosey",
+        "The Duke of Wellington",
+        "Wellington"
+      ],
+      "popularity": 928421,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Arthur Wellesley, 1st Duke of Wellington"
+    },
+    {
+      "name": "Harold Wilson",
+      "aliases": [
+        "James Harold Wilson"
+      ],
+      "popularity": 969397,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "Harold Wilson"
+    },
+    {
+      "name": "David Cameron",
+      "aliases": [],
+      "popularity": 996019,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "David Cameron"
+    },
+    {
+      "name": "Liz Truss",
+      "aliases": [],
+      "popularity": 1340509,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Liz Truss"
+    },
+    {
+      "name": "Tony Blair",
+      "aliases": [
+        "Anthony Blair",
+        "Anthony Charles Lynton Blair",
+        "Rt. Hon. Tony Blair",
+        "Sir Anthony Charles Lynton Blair",
+        "Sir Tony Blair"
+      ],
+      "popularity": 1523941,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Tony Blair"
+    },
+    {
+      "name": "Boris Johnson",
+      "aliases": [
+        "Alexander Boris de Pfeffel Johnson",
+        "Bo-Jo",
+        "BoJo",
+        "Boris",
+        "Johnson"
+      ],
+      "popularity": 1578884,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Boris Johnson"
+    },
+    {
+      "name": "Rishi Sunak",
+      "aliases": [],
+      "popularity": 1769094,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Rishi Sunak"
+    },
+    {
+      "name": "Margaret Thatcher",
+      "aliases": [],
+      "popularity": 2316455,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Margaret Thatcher"
+    },
+    {
+      "name": "Winston Churchill",
+      "aliases": [
+        "Charles Maurin",
+        "Colonel Warden",
+        "David Winter",
+        "Mr Green",
+        "Sir Leonard Spencer",
+        "Winston Spencer Churchill"
+      ],
+      "popularity": 3327155,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Winston Churchill"
+    },
+    {
+      "name": "Keir Starmer",
+      "aliases": [],
+      "popularity": 4712318,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Keir Starmer"
+    }
+  ]
+}

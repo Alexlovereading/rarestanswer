@@ -1,0 +1,694 @@
+{
+  "id": "english-official-countries",
+  "slug": "english-official-countries",
+  "category": "geography",
+  "question": "Name a country where English is an official language",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Federated States of Micronesia",
+      "aliases": [
+        "Fed. Sts. Micronesia",
+        "Fed. Sts. of Micronesia",
+        "FM",
+        "FSM",
+        "Micronesia"
+      ],
+      "popularity": 435798,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Federated States of Micronesia"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "aliases": [
+        "AG",
+        "Antigua–Barbuda"
+      ],
+      "popularity": 525148,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Antigua and Barbuda"
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "aliases": [
+        "Saint Vincent",
+        "St Vincent",
+        "St. Vincent and the Grenadines",
+        "vct"
+      ],
+      "popularity": 526186,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Saint Vincent and the Grenadines"
+    },
+    {
+      "name": "Solomon Islands",
+      "aliases": [
+        "SOL",
+        "the Solomon Islands"
+      ],
+      "popularity": 543514,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Solomon Islands"
+    },
+    {
+      "name": "Malawi",
+      "aliases": [
+        "MAW",
+        "Republic of Malawi"
+      ],
+      "popularity": 623541,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Malawi"
+    },
+    {
+      "name": "Marshall Islands",
+      "aliases": [
+        "MH",
+        "Republic of the Marshall Islands"
+      ],
+      "popularity": 641675,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Marshall Islands"
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "aliases": [
+        "Kitts and Nevis",
+        "Saint Christopher and Nevis",
+        "St. Kitts and Nevis"
+      ],
+      "popularity": 670545,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Saint Kitts and Nevis"
+    },
+    {
+      "name": "Tuvalu",
+      "aliases": [
+        "Ellice Islands",
+        "TUV"
+      ],
+      "popularity": 685879,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Tuvalu"
+    },
+    {
+      "name": "Tonga",
+      "aliases": [
+        "Friendly Islands",
+        "Kingdom of Tonga",
+        "Tonga Islands"
+      ],
+      "popularity": 695510,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Tonga"
+    },
+    {
+      "name": "Dominica",
+      "aliases": [
+        "Commonwealth of Dominica",
+        "DOM",
+        "Island of Dominica",
+        "The Commonwealth of Dominica",
+        "Wai‘tu kubuli"
+      ],
+      "popularity": 701602,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Dominica"
+    },
+    {
+      "name": "Burundi",
+      "aliases": [
+        "Gouvernement du Burundi",
+        "Republic of Burundi",
+        "Republika y'Uburundi"
+      ],
+      "popularity": 741760,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Burundi"
+    },
+    {
+      "name": "The Gambia",
+      "aliases": [
+        "Gambia",
+        "Islamic Republic of the Gambia",
+        "Republic of the Gambia"
+      ],
+      "popularity": 756273,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "The Gambia"
+    },
+    {
+      "name": "Lesotho",
+      "aliases": [
+        "Kingdom of Lesotho",
+        "LES",
+        "The Mountain Kingdom"
+      ],
+      "popularity": 760604,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Lesotho"
+    },
+    {
+      "name": "Zambia",
+      "aliases": [
+        "Republic of Zambia",
+        "Zed"
+      ],
+      "popularity": 763129,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Zambia"
+    },
+    {
+      "name": "Samoa",
+      "aliases": [
+        "Independent State of Samoa",
+        "SAM",
+        "Western Samoa"
+      ],
+      "popularity": 778866,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Samoa"
+    },
+    {
+      "name": "Saint Lucia",
+      "aliases": [
+        "Hewanorra",
+        "Iyonola",
+        "lca",
+        "St. Lucia"
+      ],
+      "popularity": 781213,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Saint Lucia"
+    },
+    {
+      "name": "Grenada",
+      "aliases": [
+        "GRN"
+      ],
+      "popularity": 812195,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Grenada"
+    },
+    {
+      "name": "Palau",
+      "aliases": [
+        "Belau",
+        "Peeloo",
+        "Pelew",
+        "Pelew islands",
+        "Pellew",
+        "PW",
+        "Republic of Belau",
+        "Republic of Palau"
+      ],
+      "popularity": 815941,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Palau"
+    },
+    {
+      "name": "Botswana",
+      "aliases": [
+        "Lefatshe la Botswana",
+        "Republic of Botswana"
+      ],
+      "popularity": 864702,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Botswana"
+    },
+    {
+      "name": "Vanuatu",
+      "aliases": [
+        "Republic of Vanuatu",
+        "vut"
+      ],
+      "popularity": 907837,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Vanuatu"
+    },
+    {
+      "name": "Sierra Leone",
+      "aliases": [
+        "Republic of Sierra Leone",
+        "SLE"
+      ],
+      "popularity": 950177,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Sierra Leone"
+    },
+    {
+      "name": "Cameroon",
+      "aliases": [
+        "Republic of Cameroon"
+      ],
+      "popularity": 1016894,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Cameroon"
+    },
+    {
+      "name": "Barbados",
+      "aliases": [
+        "BAR",
+        "Barbadoes"
+      ],
+      "popularity": 1087258,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Barbados"
+    },
+    {
+      "name": "Rwanda",
+      "aliases": [
+        "Republic of Rwanda"
+      ],
+      "popularity": 1089846,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Rwanda"
+    },
+    {
+      "name": "South Sudan",
+      "aliases": [
+        "Republic of South Sudan",
+        "Southern Sudan"
+      ],
+      "popularity": 1122536,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "South Sudan"
+    },
+    {
+      "name": "Kenya",
+      "aliases": [
+        "Republic of Kenya"
+      ],
+      "popularity": 1135218,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Kenya"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "aliases": [
+        "Republic of Trinidad and Tobago"
+      ],
+      "popularity": 1169729,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Trinidad and Tobago"
+    },
+    {
+      "name": "The Bahamas",
+      "aliases": [
+        "Bahama Islands",
+        "Bahamas",
+        "Commonwealth of The Bahamas"
+      ],
+      "popularity": 1186143,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "The Bahamas"
+    },
+    {
+      "name": "Nauru",
+      "aliases": [
+        "Naoero",
+        "Pleasant Island",
+        "Republic of Naoero",
+        "Republic of Nauru"
+      ],
+      "popularity": 1197952,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Nauru"
+    },
+    {
+      "name": "Belize",
+      "aliases": [],
+      "popularity": 1217664,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Belize"
+    },
+    {
+      "name": "Liberia",
+      "aliases": [
+        "Liber",
+        "Republic of Liberia"
+      ],
+      "popularity": 1227382,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Liberia"
+    },
+    {
+      "name": "Kiribati",
+      "aliases": [
+        "Republic of Kiribati"
+      ],
+      "popularity": 1229533,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Kiribati"
+    },
+    {
+      "name": "Jamaica",
+      "aliases": [
+        "Commonwealth of Jamaica"
+      ],
+      "popularity": 1246038,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Jamaica"
+    },
+    {
+      "name": "Fiji",
+      "aliases": [
+        "Fijī Gaṇarājya",
+        "Matanitu Tugalala o Viti",
+        "Republic of Fiji",
+        "Republic of the Fiji Islands",
+        "Viti"
+      ],
+      "popularity": 1247503,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Fiji"
+    },
+    {
+      "name": "Eswatini",
+      "aliases": [
+        "Kingdom of Swaziland",
+        "Umbuso weSwatini"
+      ],
+      "popularity": 1295195,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Eswatini"
+    },
+    {
+      "name": "Papua New Guinea",
+      "aliases": [
+        "PNG"
+      ],
+      "popularity": 1305140,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Papua New Guinea"
+    },
+    {
+      "name": "Uganda",
+      "aliases": [
+        "Ouganda",
+        "Pearl of Africa",
+        "Republic of Uganda",
+        "The Republic of Uganda",
+        "Ugandah"
+      ],
+      "popularity": 1349045,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Uganda"
+    },
+    {
+      "name": "Seychelles",
+      "aliases": [
+        "Republic of Seychelles",
+        "SEY"
+      ],
+      "popularity": 1377661,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Seychelles"
+    },
+    {
+      "name": "Zimbabwe",
+      "aliases": [
+        "Republic of Zimbabwe",
+        "Rhodesia",
+        "Southern Rhodesia",
+        "Zimbabwe Rhodesia"
+      ],
+      "popularity": 1407463,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Zimbabwe"
+    },
+    {
+      "name": "Tanzania",
+      "aliases": [
+        "tza",
+        "United Republic of Tanzania"
+      ],
+      "popularity": 1411456,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Tanzania"
+    },
+    {
+      "name": "Namibia",
+      "aliases": [
+        "Republic of Namibia"
+      ],
+      "popularity": 1448748,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Namibia"
+    },
+    {
+      "name": "Sudan",
+      "aliases": [
+        "al-Sudan",
+        "as-Sūdān",
+        "North Sudan",
+        "Republic of Sudan",
+        "Republic of the Sudan",
+        "Soudan",
+        "SUD",
+        "the Sudan"
+      ],
+      "popularity": 1504654,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Sudan"
+    },
+    {
+      "name": "Republic of Ireland",
+      "aliases": [
+        "Ireland",
+        "Irish Republic",
+        "Southern Ireland"
+      ],
+      "popularity": 1619812,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Republic of Ireland"
+    },
+    {
+      "name": "Ghana",
+      "aliases": [],
+      "popularity": 1672815,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Ghana"
+    },
+    {
+      "name": "Guyana",
+      "aliases": [
+        "Co-operative Republic of Guyana",
+        "Republic of Guyana"
+      ],
+      "popularity": 1764097,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Guyana"
+    },
+    {
+      "name": "Malta",
+      "aliases": [
+        "Republic of Malta"
+      ],
+      "popularity": 2148706,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Malta"
+    },
+    {
+      "name": "Nigeria",
+      "aliases": [
+        "Federal Republic of Nigeria",
+        "Naija",
+        "NG"
+      ],
+      "popularity": 2189060,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Nigeria"
+    },
+    {
+      "name": "Mauritius",
+      "aliases": [
+        "Maurice",
+        "Moris",
+        "MRI",
+        "Republic of Mauritius"
+      ],
+      "popularity": 2447288,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Mauritius"
+    },
+    {
+      "name": "New Zealand",
+      "aliases": [
+        "Aotearoa New Zealand",
+        "Dominion of New Zealand"
+      ],
+      "popularity": 2691020,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "New Zealand"
+    },
+    {
+      "name": "South Africa",
+      "aliases": [
+        "R.S.A.",
+        "Republic of South Africa",
+        "RSA",
+        "zaf"
+      ],
+      "popularity": 2693991,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "South Africa"
+    },
+    {
+      "name": "Philippines",
+      "aliases": [
+        "PH",
+        "Philippine Islands",
+        "Republic of the Philippines",
+        "RP",
+        "The Philippines"
+      ],
+      "popularity": 2976230,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Philippines"
+    },
+    {
+      "name": "Pakistan",
+      "aliases": [
+        "Hồi Quốc",
+        "Islamic Republic of Pakistan",
+        "Republic of Pakistan",
+        "Tây Hồi"
+      ],
+      "popularity": 3114080,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Pakistan"
+    },
+    {
+      "name": "Singapore",
+      "aliases": [
+        "Garden City",
+        "Lion City",
+        "Republic of Singapore",
+        "S'pore",
+        "Singapore City"
+      ],
+      "popularity": 3673202,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Singapore"
+    },
+    {
+      "name": "Canada",
+      "aliases": [
+        "CAN"
+      ],
+      "popularity": 4232345,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Canada"
+    },
+    {
+      "name": "Australia",
+      "aliases": [
+        "AUS",
+        "Aussieland",
+        "Commonwealth of Australia",
+        "Down Under",
+        "New Holland",
+        "New Hollandia",
+        "Nova Hollandia",
+        "Stralia",
+        "Straya",
+        "Stria",
+        "The Commonwealth of Australia"
+      ],
+      "popularity": 4247528,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Australia"
+    },
+    {
+      "name": "India",
+      "aliases": [
+        "Al Hind",
+        "Bharat Ganarajya",
+        "Bharata",
+        "Bharatvarsh",
+        "Hindoostan",
+        "Hindustan",
+        "Indostan",
+        "Republic of India",
+        "Tenjiku",
+        "Tianzhu"
+      ],
+      "popularity": 5948855,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "India"
+    },
+    {
+      "name": "United Kingdom",
+      "aliases": [
+        "Britain",
+        "G B",
+        "Great Britain",
+        "Great Britain and Northern Ireland",
+        "the UK",
+        "the United Kingdom",
+        "U K"
+      ],
+      "popularity": 6387803,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "United Kingdom"
+    }
+  ]
+}

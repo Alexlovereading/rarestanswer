@@ -1,0 +1,950 @@
+{
+  "id": "best-picture-winners",
+  "slug": "best-picture-winners",
+  "category": "screen",
+  "question": "Name a Best Picture winner",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "The Life of Emile Zola",
+      "aliases": [
+        "Life of Emile Zola"
+      ],
+      "popularity": 31817,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "The Life of Emile Zola"
+    },
+    {
+      "name": "Cavalcade",
+      "aliases": [
+        "Cavalcade (1933 film)"
+      ],
+      "popularity": 38798,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Cavalcade (1933 film)"
+    },
+    {
+      "name": "The Great Ziegfeld",
+      "aliases": [
+        "Great Ziegfeld"
+      ],
+      "popularity": 47241,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "The Great Ziegfeld"
+    },
+    {
+      "name": "The Broadway Melody",
+      "aliases": [
+        "Broadway Melody"
+      ],
+      "popularity": 52281,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "The Broadway Melody"
+    },
+    {
+      "name": "Hamlet",
+      "aliases": [
+        "Hamlet (1948 film)"
+      ],
+      "popularity": 58427,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Hamlet (1948 film)"
+    },
+    {
+      "name": "All the King's Men",
+      "aliases": [
+        "All the King's Men (1949 film)"
+      ],
+      "popularity": 75603,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "All the King's Men (1949 film)"
+    },
+    {
+      "name": "Cimarron",
+      "aliases": [
+        "Cimarron (1931 film)"
+      ],
+      "popularity": 81933,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Cimarron (1931 film)"
+    },
+    {
+      "name": "Mutiny on the Bounty",
+      "aliases": [
+        "Mutiny on the Bounty (1935 film)"
+      ],
+      "popularity": 82506,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Mutiny on the Bounty (1935 film)"
+    },
+    {
+      "name": "Tom Jones",
+      "aliases": [
+        "Tom Jones (1963 film)"
+      ],
+      "popularity": 88700,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Tom Jones (1963 film)"
+    },
+    {
+      "name": "The Lost Weekend",
+      "aliases": [
+        "Lost Weekend"
+      ],
+      "popularity": 88709,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "The Lost Weekend"
+    },
+    {
+      "name": "Going My Way",
+      "aliases": [],
+      "popularity": 92613,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Going My Way"
+    },
+    {
+      "name": "Gentleman's Agreement",
+      "aliases": [],
+      "popularity": 94776,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Gentleman's Agreement"
+    },
+    {
+      "name": "Grand Hotel",
+      "aliases": [
+        "Grand Hotel (1932 film)"
+      ],
+      "popularity": 103027,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Grand Hotel (1932 film)"
+    },
+    {
+      "name": "You Can't Take It with You",
+      "aliases": [
+        "You Can't Take It with You (film)"
+      ],
+      "popularity": 103693,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "You Can't Take It with You (film)"
+    },
+    {
+      "name": "Mrs. Miniver",
+      "aliases": [],
+      "popularity": 106907,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Mrs. Miniver"
+    },
+    {
+      "name": "The Greatest Show on Earth",
+      "aliases": [
+        "Greatest Show on Earth",
+        "Greatest Show on Earth (film)",
+        "The Greatest Show on Earth (film)"
+      ],
+      "popularity": 123212,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "The Greatest Show on Earth (film)"
+    },
+    {
+      "name": "Wings",
+      "aliases": [
+        "Wings (1927 film)"
+      ],
+      "popularity": 133094,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Wings (1927 film)"
+    },
+    {
+      "name": "Marty",
+      "aliases": [
+        "Marty (film)"
+      ],
+      "popularity": 148303,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Marty (film)"
+    },
+    {
+      "name": "Around the World in 80 Days",
+      "aliases": [
+        "Around the World in 80 Days (1956 film)"
+      ],
+      "popularity": 155658,
+      "rarity": 0.814,
+      "tier": 5,
+      "wiki": "Around the World in 80 Days (1956 film)"
+    },
+    {
+      "name": "An American in Paris",
+      "aliases": [
+        "American in Paris",
+        "American in Paris (film)",
+        "An American in Paris (film)"
+      ],
+      "popularity": 157819,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "An American in Paris (film)"
+    },
+    {
+      "name": "Gigi",
+      "aliases": [
+        "Gigi (1958 film)"
+      ],
+      "popularity": 171208,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Gigi (1958 film)"
+    },
+    {
+      "name": "How Green Was My Valley",
+      "aliases": [
+        "How Green Was My Valley (film)"
+      ],
+      "popularity": 186523,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "How Green Was My Valley (film)"
+    },
+    {
+      "name": "A Beautiful Mind",
+      "aliases": [
+        "Beautiful Mind"
+      ],
+      "popularity": 197203,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "A Beautiful Mind"
+    },
+    {
+      "name": "The Artist",
+      "aliases": [
+        "Artist",
+        "Artist (film)",
+        "The Artist (film)"
+      ],
+      "popularity": 231643,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "The Artist (film)"
+    },
+    {
+      "name": "The Best Years of Our Lives",
+      "aliases": [
+        "Best Years of Our Lives"
+      ],
+      "popularity": 241617,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "The Best Years of Our Lives"
+    },
+    {
+      "name": "From Here to Eternity",
+      "aliases": [],
+      "popularity": 247142,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "From Here to Eternity"
+    },
+    {
+      "name": "It Happened One Night",
+      "aliases": [
+        "Night Bus"
+      ],
+      "popularity": 249460,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "It Happened One Night"
+    },
+    {
+      "name": "Patton",
+      "aliases": [
+        "Patton (film)"
+      ],
+      "popularity": 249614,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Patton (film)"
+    },
+    {
+      "name": "A Man for All Seasons",
+      "aliases": [
+        "A Man for All Seasons (1966 film)",
+        "Man for All Seasons",
+        "Man for All Seasons (1966 film)"
+      ],
+      "popularity": 255042,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "A Man for All Seasons (1966 film)"
+    },
+    {
+      "name": "All Quiet on the Western Front",
+      "aliases": [
+        "All Quiet on the Western Front (1930 film)"
+      ],
+      "popularity": 266628,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "All Quiet on the Western Front (1930 film)"
+    },
+    {
+      "name": "Oliver!",
+      "aliases": [
+        "Oliver! (film)"
+      ],
+      "popularity": 279392,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Oliver! (film)"
+    },
+    {
+      "name": "Rebecca",
+      "aliases": [
+        "Rebecca (1940 film)"
+      ],
+      "popularity": 293838,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Rebecca (1940 film)"
+    },
+    {
+      "name": "The Apartment",
+      "aliases": [
+        "Apartment"
+      ],
+      "popularity": 317942,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "The Apartment"
+    },
+    {
+      "name": "In the Heat of the Night",
+      "aliases": [
+        "In the Heat of the Night (film)"
+      ],
+      "popularity": 327246,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "In the Heat of the Night (film)"
+    },
+    {
+      "name": "Driving Miss Daisy",
+      "aliases": [],
+      "popularity": 330885,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Driving Miss Daisy"
+    },
+    {
+      "name": "Annie Hall",
+      "aliases": [],
+      "popularity": 336582,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Annie Hall"
+    },
+    {
+      "name": "Ordinary People",
+      "aliases": [],
+      "popularity": 349272,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Ordinary People"
+    },
+    {
+      "name": "All About Eve",
+      "aliases": [],
+      "popularity": 354813,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "All About Eve"
+    },
+    {
+      "name": "My Fair Lady",
+      "aliases": [
+        "My Fair Lady (film)"
+      ],
+      "popularity": 358782,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "My Fair Lady (film)"
+    },
+    {
+      "name": "On the Waterfront",
+      "aliases": [],
+      "popularity": 360083,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "On the Waterfront"
+    },
+    {
+      "name": "West Side Story",
+      "aliases": [
+        "West Side Story (1961 film)"
+      ],
+      "popularity": 375870,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "West Side Story (1961 film)"
+    },
+    {
+      "name": "Gandhi",
+      "aliases": [
+        "Gandhi (film)"
+      ],
+      "popularity": 403642,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Gandhi (film)"
+    },
+    {
+      "name": "The French Connection",
+      "aliases": [
+        "French Connection",
+        "French Connection (film)",
+        "The French Connection (film)"
+      ],
+      "popularity": 411009,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "The French Connection (film)"
+    },
+    {
+      "name": "Out of Africa",
+      "aliases": [
+        "Out of Africa (film)"
+      ],
+      "popularity": 413254,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Out of Africa (film)"
+    },
+    {
+      "name": "Chariots of Fire",
+      "aliases": [],
+      "popularity": 424749,
+      "rarity": 0.546,
+      "tier": 3,
+      "wiki": "Chariots of Fire"
+    },
+    {
+      "name": "The English Patient",
+      "aliases": [
+        "English Patient",
+        "English Patient (film)",
+        "The English Patient (film)"
+      ],
+      "popularity": 453511,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "The English Patient (film)"
+    },
+    {
+      "name": "Chicago",
+      "aliases": [
+        "Chicago (2002 film)"
+      ],
+      "popularity": 454182,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Chicago (2002 film)"
+    },
+    {
+      "name": "The Sting",
+      "aliases": [
+        "Sting"
+      ],
+      "popularity": 460766,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "The Sting"
+    },
+    {
+      "name": "The Last Emperor",
+      "aliases": [
+        "L'ultimo imperatore",
+        "Last Emperor",
+        "Le dernier empereur"
+      ],
+      "popularity": 466381,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "The Last Emperor"
+    },
+    {
+      "name": "Shakespeare in Love",
+      "aliases": [],
+      "popularity": 483234,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Shakespeare in Love"
+    },
+    {
+      "name": "The Hurt Locker",
+      "aliases": [
+        "Hurt Locker"
+      ],
+      "popularity": 492275,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "The Hurt Locker"
+    },
+    {
+      "name": "The Bridge on the River Kwai",
+      "aliases": [
+        "Bridge on the River Kwai"
+      ],
+      "popularity": 507512,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "The Bridge on the River Kwai"
+    },
+    {
+      "name": "Terms of Endearment",
+      "aliases": [],
+      "popularity": 511593,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Terms of Endearment"
+    },
+    {
+      "name": "Dances With Wolves",
+      "aliases": [],
+      "popularity": 526861,
+      "rarity": 0.454,
+      "tier": 3,
+      "wiki": "Dances With Wolves"
+    },
+    {
+      "name": "The King's Speech",
+      "aliases": [
+        "King's Speech"
+      ],
+      "popularity": 537853,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "The King's Speech"
+    },
+    {
+      "name": "Kramer vs. Kramer",
+      "aliases": [],
+      "popularity": 563231,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Kramer vs. Kramer"
+    },
+    {
+      "name": "Nomadland",
+      "aliases": [],
+      "popularity": 576608,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Nomadland"
+    },
+    {
+      "name": "CODA",
+      "aliases": [
+        "CODA (2021 film)"
+      ],
+      "popularity": 593945,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "CODA (2021 film)"
+    },
+    {
+      "name": "Birdman",
+      "aliases": [
+        "Birdman (film)"
+      ],
+      "popularity": 626974,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Birdman (film)"
+    },
+    {
+      "name": "Midnight Cowboy",
+      "aliases": [],
+      "popularity": 634065,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Midnight Cowboy"
+    },
+    {
+      "name": "Spotlight",
+      "aliases": [
+        "Spotlight (film)"
+      ],
+      "popularity": 644637,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Spotlight (film)"
+    },
+    {
+      "name": "Unforgiven",
+      "aliases": [],
+      "popularity": 671491,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Unforgiven"
+    },
+    {
+      "name": "Platoon",
+      "aliases": [
+        "Platoon (film)"
+      ],
+      "popularity": 680406,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Platoon (film)"
+    },
+    {
+      "name": "Million Dollar Baby",
+      "aliases": [],
+      "popularity": 695099,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Million Dollar Baby"
+    },
+    {
+      "name": "Rain Man",
+      "aliases": [],
+      "popularity": 714836,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Rain Man"
+    },
+    {
+      "name": "Crash",
+      "aliases": [
+        "Crash (2004 film)"
+      ],
+      "popularity": 751487,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Crash (2004 film)"
+    },
+    {
+      "name": "Slumdog Millionaire",
+      "aliases": [],
+      "popularity": 754468,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Slumdog Millionaire"
+    },
+    {
+      "name": "The Shape of Water",
+      "aliases": [
+        "Shape of Water"
+      ],
+      "popularity": 817911,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "The Shape of Water"
+    },
+    {
+      "name": "The Deer Hunter",
+      "aliases": [
+        "Deer Hunter"
+      ],
+      "popularity": 828183,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "The Deer Hunter"
+    },
+    {
+      "name": "Moonlight",
+      "aliases": [
+        "Moonlight (2016 film)"
+      ],
+      "popularity": 834714,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Moonlight (2016 film)"
+    },
+    {
+      "name": "Amadeus",
+      "aliases": [
+        "Amadeus (film)"
+      ],
+      "popularity": 836015,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Amadeus (film)"
+    },
+    {
+      "name": "Ben-Hur",
+      "aliases": [
+        "Ben-Hur (1959 film)"
+      ],
+      "popularity": 839384,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Ben-Hur (1959 film)"
+    },
+    {
+      "name": "12 Years a Slave",
+      "aliases": [
+        "12 Years a Slave (film)"
+      ],
+      "popularity": 874106,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "12 Years a Slave (film)"
+    },
+    {
+      "name": "Braveheart",
+      "aliases": [],
+      "popularity": 882181,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Braveheart"
+    },
+    {
+      "name": "The Lord of the Rings: The Return of the King",
+      "aliases": [],
+      "popularity": 893838,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "The Lord of the Rings: The Return of the King"
+    },
+    {
+      "name": "Argo",
+      "aliases": [
+        "Argo (2012 film)"
+      ],
+      "popularity": 900913,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Argo (2012 film)"
+    },
+    {
+      "name": "One Flew Over the Cuckoo's Nest",
+      "aliases": [
+        "One Flew Over the Cuckoo's Nest (film)"
+      ],
+      "popularity": 957704,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "One Flew Over the Cuckoo's Nest (film)"
+    },
+    {
+      "name": "American Beauty",
+      "aliases": [
+        "American Beauty (1999 film)"
+      ],
+      "popularity": 994226,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "American Beauty (1999 film)"
+    },
+    {
+      "name": "Rocky",
+      "aliases": [],
+      "popularity": 1062589,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Rocky"
+    },
+    {
+      "name": "Casablanca",
+      "aliases": [
+        "Casablanca (film)"
+      ],
+      "popularity": 1118087,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "Casablanca (film)"
+    },
+    {
+      "name": "Lawrence of Arabia",
+      "aliases": [
+        "Lawrence of Arabia (film)"
+      ],
+      "popularity": 1154132,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Lawrence of Arabia (film)"
+    },
+    {
+      "name": "Parasite",
+      "aliases": [
+        "Gisaengchung",
+        "Parasite (2019 film)"
+      ],
+      "popularity": 1258703,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "Parasite (2019 film)"
+    },
+    {
+      "name": "Green Book",
+      "aliases": [
+        "Green Book (film)"
+      ],
+      "popularity": 1262637,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Green Book (film)"
+    },
+    {
+      "name": "The Godfather Part II",
+      "aliases": [
+        "Godfather Part II"
+      ],
+      "popularity": 1267333,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "The Godfather Part II"
+    },
+    {
+      "name": "The Sound of Music",
+      "aliases": [
+        "Sound of Music",
+        "Sound of Music (film)",
+        "The Sound of Music (film)"
+      ],
+      "popularity": 1377518,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "The Sound of Music (film)"
+    },
+    {
+      "name": "Gone with the Wind",
+      "aliases": [
+        "Gone with the Wind (film)"
+      ],
+      "popularity": 1381590,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Gone with the Wind (film)"
+    },
+    {
+      "name": "The Silence of the Lambs",
+      "aliases": [
+        "Silence of the Lambs",
+        "Silence of the Lambs (film)",
+        "The Silence of the Lambs (film)"
+      ],
+      "popularity": 1435284,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "The Silence of the Lambs (film)"
+    },
+    {
+      "name": "Schindler's List",
+      "aliases": [],
+      "popularity": 1442231,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Schindler's List"
+    },
+    {
+      "name": "Forrest Gump",
+      "aliases": [],
+      "popularity": 1443980,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Forrest Gump"
+    },
+    {
+      "name": "Everything Everywhere All at Once",
+      "aliases": [],
+      "popularity": 1456530,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Everything Everywhere All at Once"
+    },
+    {
+      "name": "The Departed",
+      "aliases": [
+        "Departed"
+      ],
+      "popularity": 1470372,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "The Departed"
+    },
+    {
+      "name": "Gladiator",
+      "aliases": [
+        "Gladiator (2000 film)"
+      ],
+      "popularity": 1535308,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Gladiator (2000 film)"
+    },
+    {
+      "name": "Anora",
+      "aliases": [],
+      "popularity": 1624566,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Anora"
+    },
+    {
+      "name": "No Country for Old Men",
+      "aliases": [],
+      "popularity": 2047875,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "No Country for Old Men"
+    },
+    {
+      "name": "Titanic",
+      "aliases": [
+        "Titanic (1997 film)"
+      ],
+      "popularity": 2201920,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Titanic (1997 film)"
+    },
+    {
+      "name": "The Godfather",
+      "aliases": [
+        "Godfather"
+      ],
+      "popularity": 2427089,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "The Godfather"
+    },
+    {
+      "name": "Oppenheimer",
+      "aliases": [
+        "Oppenheimer (film)"
+      ],
+      "popularity": 3304805,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Oppenheimer (film)"
+    },
+    {
+      "name": "One Battle After Another",
+      "aliases": [],
+      "popularity": 11802196,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "One Battle After Another"
+    }
+  ]
+}

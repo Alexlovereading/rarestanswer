@@ -1,0 +1,1087 @@
+{
+  "id": "newt-species",
+  "slug": "newt-species",
+  "category": "animals",
+  "question": "Name a species of newt or true salamander",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Tiannan crocodile newt",
+      "aliases": [
+        "Tylototriton yangi"
+      ],
+      "popularity": 108,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Tiannan crocodile newt"
+    },
+    {
+      "name": "Wanggao warty newt",
+      "aliases": [
+        "Paramesotriton fuzhongensis"
+      ],
+      "popularity": 168,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Wanggao warty newt"
+    },
+    {
+      "name": "Paramesotriton longliensis",
+      "aliases": [],
+      "popularity": 183,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Paramesotriton longliensis"
+    },
+    {
+      "name": "Pachytriton moi",
+      "aliases": [],
+      "popularity": 185,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Pachytriton moi"
+    },
+    {
+      "name": "Pachytriton wuguanfui",
+      "aliases": [],
+      "popularity": 192,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Pachytriton wuguanfui"
+    },
+    {
+      "name": "Taliang knobby newt",
+      "aliases": [
+        "Liangshantriton taliangensis"
+      ],
+      "popularity": 200,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Taliang knobby newt"
+    },
+    {
+      "name": "Pachytriton feii",
+      "aliases": [],
+      "popularity": 207,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Pachytriton feii"
+    },
+    {
+      "name": "Spot-tailed warty newt",
+      "aliases": [
+        "Paramesotriton caudopunctatus"
+      ],
+      "popularity": 207,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Spot-tailed warty newt"
+    },
+    {
+      "name": "Pachytriton archospotus",
+      "aliases": [],
+      "popularity": 208,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "Pachytriton archospotus"
+    },
+    {
+      "name": "Wenxian knobby newt",
+      "aliases": [
+        "Tylototriton wenxianensis"
+      ],
+      "popularity": 209,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Wenxian knobby newt"
+    },
+    {
+      "name": "Paramesotriton zhijinensis",
+      "aliases": [],
+      "popularity": 222,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Paramesotriton zhijinensis"
+    },
+    {
+      "name": "Pachytriton changi",
+      "aliases": [],
+      "popularity": 227,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Pachytriton changi"
+    },
+    {
+      "name": "Pachytriton xanthospilos",
+      "aliases": [],
+      "popularity": 244,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Pachytriton xanthospilos"
+    },
+    {
+      "name": "Hainan knobby newt",
+      "aliases": [
+        "Tylototriton hainanensis"
+      ],
+      "popularity": 245,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Hainan knobby newt"
+    },
+    {
+      "name": "Chenggong fire belly newt",
+      "aliases": [
+        "Hypselotriton chenggongensis"
+      ],
+      "popularity": 251,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Chenggong fire belly newt"
+    },
+    {
+      "name": "Tylototriton pseudoverrucosus",
+      "aliases": [
+        "Southern Sichuan crocodile newt"
+      ],
+      "popularity": 276,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Tylototriton pseudoverrucosus"
+    },
+    {
+      "name": "Tylototriton notialis",
+      "aliases": [],
+      "popularity": 280,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Tylototriton notialis"
+    },
+    {
+      "name": "Lissotriton maltzani",
+      "aliases": [],
+      "popularity": 282,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Lissotriton maltzani"
+    },
+    {
+      "name": "Tylototriton broadoridgus",
+      "aliases": [],
+      "popularity": 284,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Tylototriton broadoridgus"
+    },
+    {
+      "name": "Dayang newt",
+      "aliases": [
+        "Hypselotriton orphicus"
+      ],
+      "popularity": 288,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Dayang newt"
+    },
+    {
+      "name": "Pachytriton inexpectatus",
+      "aliases": [],
+      "popularity": 289,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Pachytriton inexpectatus"
+    },
+    {
+      "name": "Black knobby newt",
+      "aliases": [
+        "Tylototriton asperrimus"
+      ],
+      "popularity": 290,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Black knobby newt"
+    },
+    {
+      "name": "Paramesotriton yunwuensis",
+      "aliases": [],
+      "popularity": 293,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Paramesotriton yunwuensis"
+    },
+    {
+      "name": "Tylototriton umphangensis",
+      "aliases": [],
+      "popularity": 311,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Tylototriton umphangensis"
+    },
+    {
+      "name": "Tylototriton dabienicus",
+      "aliases": [],
+      "popularity": 322,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Tylototriton dabienicus"
+    },
+    {
+      "name": "Lyciasalamandra atifi",
+      "aliases": [
+        "Atif's Lycian salamander"
+      ],
+      "popularity": 329,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Lyciasalamandra atifi"
+    },
+    {
+      "name": "Paramesotriton maolanensis",
+      "aliases": [],
+      "popularity": 334,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Paramesotriton maolanensis"
+    },
+    {
+      "name": "Lyciasalamandra fazilae",
+      "aliases": [
+        "Fazil Lycian salamander"
+      ],
+      "popularity": 347,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Lyciasalamandra fazilae"
+    },
+    {
+      "name": "Pachytriton granulosus",
+      "aliases": [],
+      "popularity": 351,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Pachytriton granulosus"
+    },
+    {
+      "name": "Paramesotriton guangxiensis",
+      "aliases": [
+        "Guangxi warty newt",
+        "Paramesotriton guanxiensis"
+      ],
+      "popularity": 373,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Paramesotriton guangxiensis"
+    },
+    {
+      "name": "Tylototriton ngarsuensis",
+      "aliases": [
+        "Ywangan crocodile newt"
+      ],
+      "popularity": 398,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Tylototriton ngarsuensis"
+    },
+    {
+      "name": "Lyciasalamandra billae",
+      "aliases": [],
+      "popularity": 400,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Lyciasalamandra billae"
+    },
+    {
+      "name": "Tylototriton ngoclinhensis",
+      "aliases": [],
+      "popularity": 407,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Tylototriton ngoclinhensis"
+    },
+    {
+      "name": "Fuding fire belly newt",
+      "aliases": [
+        "Cynops fudingensis"
+      ],
+      "popularity": 422,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Fuding fire belly newt"
+    },
+    {
+      "name": "Caucasian smooth newt",
+      "aliases": [
+        "Lissotriton lantzi"
+      ],
+      "popularity": 433,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Caucasian smooth newt"
+    },
+    {
+      "name": "Tylototriton panhai",
+      "aliases": [],
+      "popularity": 442,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Tylototriton panhai"
+    },
+    {
+      "name": "Spotted paddle-tail newt",
+      "aliases": [
+        "Pachytriton brevipes"
+      ],
+      "popularity": 449,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Spotted paddle-tail newt"
+    },
+    {
+      "name": "Kosswig's smooth newt",
+      "aliases": [
+        "Lissotriton kosswigi"
+      ],
+      "popularity": 479,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Kosswig's smooth newt"
+    },
+    {
+      "name": "Anatolian banded newt",
+      "aliases": [
+        "Ommatotriton nesterovi"
+      ],
+      "popularity": 518,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Anatolian banded newt"
+    },
+    {
+      "name": "Tylototriton uyenoi",
+      "aliases": [],
+      "popularity": 522,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Tylototriton uyenoi"
+    },
+    {
+      "name": "Lyciasalamandra flavimembris",
+      "aliases": [
+        "Marmaris Lycian salamander"
+      ],
+      "popularity": 559,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Lyciasalamandra flavimembris"
+    },
+    {
+      "name": "Tylototriton vietnamensis",
+      "aliases": [
+        "Vietnamese crocodile newt",
+        "Vietnamese knobby newt"
+      ],
+      "popularity": 567,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Tylototriton vietnamensis"
+    },
+    {
+      "name": "Lyciasalamandra antalyana",
+      "aliases": [],
+      "popularity": 602,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Lyciasalamandra antalyana"
+    },
+    {
+      "name": "Schmidtler's smooth newt",
+      "aliases": [
+        "Lissotriton schmidtleri"
+      ],
+      "popularity": 626,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Schmidtler's smooth newt"
+    },
+    {
+      "name": "Chinhai spiny newt",
+      "aliases": [
+        "Chinhai salamander",
+        "Echinotriton chinhaiensis"
+      ],
+      "popularity": 641,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Chinhai spiny newt"
+    },
+    {
+      "name": "Tylototriton shanorum",
+      "aliases": [],
+      "popularity": 680,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Tylototriton shanorum"
+    },
+    {
+      "name": "Salamandra longirostris",
+      "aliases": [],
+      "popularity": 711,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Salamandra longirostris"
+    },
+    {
+      "name": "Algerian ribbed newt",
+      "aliases": [
+        "Pleurodeles nebulosus"
+      ],
+      "popularity": 720,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Algerian ribbed newt"
+    },
+    {
+      "name": "Greek smooth newt",
+      "aliases": [
+        "Lissotriton graecus"
+      ],
+      "popularity": 756,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Greek smooth newt"
+    },
+    {
+      "name": "Southern marbled newt",
+      "aliases": [
+        "Triturus pygmaeus"
+      ],
+      "popularity": 830,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Southern marbled newt"
+    },
+    {
+      "name": "Pleurodeles poireti",
+      "aliases": [],
+      "popularity": 847,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Pleurodeles poireti"
+    },
+    {
+      "name": "Southern crested newt",
+      "aliases": [
+        "Triturus karelinii"
+      ],
+      "popularity": 855,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Southern crested newt"
+    },
+    {
+      "name": "Paramesotriton labiatus",
+      "aliases": [
+        "Pachytriton labiatus",
+        "Paddletail newt"
+      ],
+      "popularity": 863,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Paramesotriton labiatus"
+    },
+    {
+      "name": "Tylototriton ziegleri",
+      "aliases": [
+        "Ziegler's crocodile newt"
+      ],
+      "popularity": 902,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Tylototriton ziegleri"
+    },
+    {
+      "name": "Corsican brook salamander",
+      "aliases": [
+        "Euproctus montanus"
+      ],
+      "popularity": 913,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Corsican brook salamander"
+    },
+    {
+      "name": "Bosca's newt",
+      "aliases": [
+        "Lissotriton boscai"
+      ],
+      "popularity": 934,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Bosca's newt"
+    },
+    {
+      "name": "Balkan crested newt",
+      "aliases": [
+        "Buresch's crested newt",
+        "Triturus ivanbureschi"
+      ],
+      "popularity": 935,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Balkan crested newt"
+    },
+    {
+      "name": "Lyciasalamandra helverseni",
+      "aliases": [],
+      "popularity": 979,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Lyciasalamandra helverseni"
+    },
+    {
+      "name": "Chuxiong fire-bellied newt",
+      "aliases": [
+        "Cynops cyanurus"
+      ],
+      "popularity": 984,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Chuxiong fire-bellied newt"
+    },
+    {
+      "name": "Tam Dao salamander",
+      "aliases": [
+        "Paramesotriton deloustali",
+        "Vietnamese salamander"
+      ],
+      "popularity": 1002,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Tam Dao salamander"
+    },
+    {
+      "name": "Tylototriton anguliceps",
+      "aliases": [
+        "Angular-headed newt"
+      ],
+      "popularity": 1012,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Tylototriton anguliceps"
+    },
+    {
+      "name": "Anatolian crested newt",
+      "aliases": [
+        "Triturus anatolicus"
+      ],
+      "popularity": 1014,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Anatolian crested newt"
+    },
+    {
+      "name": "Neurergus strauchii",
+      "aliases": [
+        "Anatolian newt"
+      ],
+      "popularity": 1028,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Neurergus strauchii"
+    },
+    {
+      "name": "Chinese warty newt",
+      "aliases": [
+        "Paramesotriton chinensis"
+      ],
+      "popularity": 1047,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Chinese warty newt"
+    },
+    {
+      "name": "Salamandrina perspicillata",
+      "aliases": [
+        "Northern spectacled salamander"
+      ],
+      "popularity": 1069,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Salamandrina perspicillata"
+    },
+    {
+      "name": "Striped newt",
+      "aliases": [
+        "Notophthalmus perstriatus"
+      ],
+      "popularity": 1108,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Striped newt"
+    },
+    {
+      "name": "Red-tailed knobby newt",
+      "aliases": [
+        "Tylototriton kweichowensis"
+      ],
+      "popularity": 1140,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Red-tailed knobby newt"
+    },
+    {
+      "name": "Southern banded newt",
+      "aliases": [
+        "Banded newt",
+        "Ommatotriton vittatus"
+      ],
+      "popularity": 1160,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Southern banded newt"
+    },
+    {
+      "name": "Triturus macedonicus",
+      "aliases": [
+        "Macedonian crested newt"
+      ],
+      "popularity": 1182,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Triturus macedonicus"
+    },
+    {
+      "name": "Italian newt",
+      "aliases": [
+        "Lissotriton italicus"
+      ],
+      "popularity": 1213,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Italian newt"
+    },
+    {
+      "name": "Ommatotriton ophryticus",
+      "aliases": [],
+      "popularity": 1235,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Ommatotriton ophryticus"
+    },
+    {
+      "name": "Carpathian newt",
+      "aliases": [
+        "Lissotriton montandoni"
+      ],
+      "popularity": 1273,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Carpathian newt"
+    },
+    {
+      "name": "Laos warty newt",
+      "aliases": [
+        "Laotriton laoensis"
+      ],
+      "popularity": 1282,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Laos warty newt"
+    },
+    {
+      "name": "Sardinian brook salamander",
+      "aliases": [
+        "Euproctus platycephalus",
+        "Sardinian brook newt"
+      ],
+      "popularity": 1306,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Sardinian brook salamander"
+    },
+    {
+      "name": "Lanza's alpine salamander",
+      "aliases": [
+        "Large alpine salamander",
+        "Salamandra lanzai"
+      ],
+      "popularity": 1314,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Lanza's alpine salamander"
+    },
+    {
+      "name": "Caucasian salamander",
+      "aliases": [
+        "Mertensiella caucasica"
+      ],
+      "popularity": 1326,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Caucasian salamander"
+    },
+    {
+      "name": "Luschan's salamander",
+      "aliases": [
+        "Lyciasalamandra luschani"
+      ],
+      "popularity": 1440,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Luschan's salamander"
+    },
+    {
+      "name": "Hong Kong warty newt",
+      "aliases": [
+        "Paramesotriton hongkongensis"
+      ],
+      "popularity": 1511,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Hong Kong warty newt"
+    },
+    {
+      "name": "Montseny brook newt",
+      "aliases": [
+        "Calotriton arnoldi",
+        "Montseny Newt"
+      ],
+      "popularity": 1535,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Montseny brook newt"
+    },
+    {
+      "name": "Tylototriton himalayanus",
+      "aliases": [],
+      "popularity": 1605,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Tylototriton himalayanus"
+    },
+    {
+      "name": "Notophthalmus meridionalis",
+      "aliases": [
+        "Black-spotted newt"
+      ],
+      "popularity": 1634,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Notophthalmus meridionalis"
+    },
+    {
+      "name": "Spectacled salamander",
+      "aliases": [
+        "Salamandrina terdigitata"
+      ],
+      "popularity": 1690,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Spectacled salamander"
+    },
+    {
+      "name": "Neurergus crocatus",
+      "aliases": [
+        "Lake Urmia newt"
+      ],
+      "popularity": 1727,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Neurergus crocatus"
+    },
+    {
+      "name": "North African fire salamander",
+      "aliases": [
+        "Salamandra algira"
+      ],
+      "popularity": 1746,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "North African fire salamander"
+    },
+    {
+      "name": "Corsican fire salamander",
+      "aliases": [
+        "Salamandra corsica"
+      ],
+      "popularity": 1784,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Corsican fire salamander"
+    },
+    {
+      "name": "Kurdistan newt",
+      "aliases": [
+        "Neurergus microspilotus"
+      ],
+      "popularity": 1857,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Kurdistan newt"
+    },
+    {
+      "name": "Anderson's crocodile newt",
+      "aliases": [
+        "Anderson's Salamander",
+        "Echinotriton andersoni"
+      ],
+      "popularity": 1983,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Anderson's crocodile newt"
+    },
+    {
+      "name": "Pyrenean brook salamander",
+      "aliases": [
+        "Calotriton asper"
+      ],
+      "popularity": 2007,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Pyrenean brook salamander"
+    },
+    {
+      "name": "Sword-tail newt",
+      "aliases": [
+        "Cynops ensicauda",
+        "Sword-tailed newt"
+      ],
+      "popularity": 2050,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Sword-tail newt"
+    },
+    {
+      "name": "Gold-striped salamander",
+      "aliases": [
+        "Chioglossa lusitanica",
+        "Golden-striped Salamander"
+      ],
+      "popularity": 2263,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Gold-striped salamander"
+    },
+    {
+      "name": "Near Eastern fire salamander",
+      "aliases": [
+        "Salamandra infraimmaculata"
+      ],
+      "popularity": 2347,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Near Eastern fire salamander"
+    },
+    {
+      "name": "Italian crested newt",
+      "aliases": [
+        "Triturus carnifex"
+      ],
+      "popularity": 2741,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Italian crested newt"
+    },
+    {
+      "name": "Sierra newt",
+      "aliases": [
+        "Taricha sierrae"
+      ],
+      "popularity": 3264,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Sierra newt"
+    },
+    {
+      "name": "Chinese fire belly newt",
+      "aliases": [
+        "Hypselotriton orientalis"
+      ],
+      "popularity": 3781,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Chinese fire belly newt"
+    },
+    {
+      "name": "Neurergus kaiseri",
+      "aliases": [
+        "Luristan newt"
+      ],
+      "popularity": 3787,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Neurergus kaiseri"
+    },
+    {
+      "name": "Danube crested newt",
+      "aliases": [
+        "Triturus dobrogicus"
+      ],
+      "popularity": 3947,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Danube crested newt"
+    },
+    {
+      "name": "Red-bellied newt",
+      "aliases": [
+        "Taricha rivularis"
+      ],
+      "popularity": 3975,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Red-bellied newt"
+    },
+    {
+      "name": "Tylototriton shanjing",
+      "aliases": [
+        "Emperor newt"
+      ],
+      "popularity": 4271,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Tylototriton shanjing"
+    },
+    {
+      "name": "Japanese fire-bellied newt",
+      "aliases": [
+        "Cynops pyrrhogaster",
+        "Japanese fire belly newt"
+      ],
+      "popularity": 5235,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Japanese fire-bellied newt"
+    },
+    {
+      "name": "Tylototriton verrucosus",
+      "aliases": [],
+      "popularity": 5613,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Tylototriton verrucosus"
+    },
+    {
+      "name": "Marbled newt",
+      "aliases": [
+        "Triturus marmoratus"
+      ],
+      "popularity": 6401,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Marbled newt"
+    },
+    {
+      "name": "Palmate newt",
+      "aliases": [
+        "Lissotriton helveticus"
+      ],
+      "popularity": 9402,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Palmate newt"
+    },
+    {
+      "name": "Alpine salamander",
+      "aliases": [
+        "Salamandra atra"
+      ],
+      "popularity": 16543,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Alpine salamander"
+    },
+    {
+      "name": "Alpine newt",
+      "aliases": [
+        "Ichthyosaura alpestris",
+        "Triturus alpestris"
+      ],
+      "popularity": 17015,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Alpine newt"
+    },
+    {
+      "name": "Iberian ribbed newt",
+      "aliases": [
+        "Pleurodeles waltl",
+        "Sharp-ribbed salamander"
+      ],
+      "popularity": 19671,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "Iberian ribbed newt"
+    },
+    {
+      "name": "California newt",
+      "aliases": [
+        "Taricha torosa"
+      ],
+      "popularity": 20554,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "California newt"
+    },
+    {
+      "name": "Northern crested newt",
+      "aliases": [
+        "GCN",
+        "Great Crested Newt",
+        "Triturus cristatus",
+        "Turanomolge mensbieri",
+        "warty newt"
+      ],
+      "popularity": 24323,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Northern crested newt"
+    },
+    {
+      "name": "Smooth newt",
+      "aliases": [
+        "Lissotriton vulgaris"
+      ],
+      "popularity": 25262,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Smooth newt"
+    },
+    {
+      "name": "Rough-skinned newt",
+      "aliases": [
+        "roughskin newt",
+        "Taricha granulosa"
+      ],
+      "popularity": 34282,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Rough-skinned newt"
+    },
+    {
+      "name": "Eastern newt",
+      "aliases": [
+        "broken-striped newt",
+        "central newt",
+        "Notophthalmus viridescens",
+        "peninsula newt",
+        "red-spotted newt"
+      ],
+      "popularity": 51305,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Eastern newt"
+    },
+    {
+      "name": "Fire salamander",
+      "aliases": [
+        "common fire salamander",
+        "Salamandra salamandra"
+      ],
+      "popularity": 66232,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Fire salamander"
+    }
+  ]
+}

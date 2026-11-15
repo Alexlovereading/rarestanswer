@@ -1,0 +1,260 @@
+{
+  "id": "world-cup-host-countries",
+  "slug": "world-cup-host-countries",
+  "category": "sports",
+  "question": "Name a country that has hosted the FIFA World Cup",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Chile",
+      "aliases": [
+        "CHI",
+        "Republic of Chile"
+      ],
+      "popularity": 1368618,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Chile"
+    },
+    {
+      "name": "Uruguay",
+      "aliases": [
+        "Eastern Republic of Uruguay",
+        "Oriental Republic of Uruguay",
+        "URU"
+      ],
+      "popularity": 1457747,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Uruguay"
+    },
+    {
+      "name": "Qatar",
+      "aliases": [
+        "qat",
+        "State of Qatar"
+      ],
+      "popularity": 1745636,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Qatar"
+    },
+    {
+      "name": "South Korea",
+      "aliases": [
+        "Choson",
+        "Daehan Minguk",
+        "Daehanminguk",
+        "Hanguk",
+        "Korea Republic",
+        "Rep. Korea",
+        "Republic of Korea",
+        "ROK",
+        "S. Korea",
+        "Silla"
+      ],
+      "popularity": 2136570,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "South Korea"
+    },
+    {
+      "name": "Sweden",
+      "aliases": [
+        "Kingdom of Sweden",
+        "Swedish Kingdom"
+      ],
+      "popularity": 2229134,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Sweden"
+    },
+    {
+      "name": "Italy",
+      "aliases": [
+        "Italian Republic",
+        "Republic of Italy"
+      ],
+      "popularity": 2513814,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Italy"
+    },
+    {
+      "name": "Switzerland",
+      "aliases": [
+        "Confoederatio Helvetica",
+        "Swiss",
+        "Swiss Confederation"
+      ],
+      "popularity": 2590280,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Switzerland"
+    },
+    {
+      "name": "South Africa",
+      "aliases": [
+        "R.S.A.",
+        "Republic of South Africa",
+        "RSA",
+        "zaf"
+      ],
+      "popularity": 2693991,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "South Africa"
+    },
+    {
+      "name": "Mexico",
+      "aliases": [
+        "Mexican Republic",
+        "Mexican United States",
+        "MXN",
+        "United Mexican States",
+        "United States of Mexico",
+        "US of M"
+      ],
+      "popularity": 3031824,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Mexico"
+    },
+    {
+      "name": "Brazil",
+      "aliases": [
+        "Federative Republic of Brazil"
+      ],
+      "popularity": 3162803,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Brazil"
+    },
+    {
+      "name": "France",
+      "aliases": [
+        "French Republic"
+      ],
+      "popularity": 3209271,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "France"
+    },
+    {
+      "name": "Spain",
+      "aliases": [
+        "Kingdom of Spain"
+      ],
+      "popularity": 3429063,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Spain"
+    },
+    {
+      "name": "Argentina",
+      "aliases": [
+        "Argentine Republic",
+        "Republic of Argentina",
+        "Republica Argentina"
+      ],
+      "popularity": 3618304,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Argentina"
+    },
+    {
+      "name": "Germany",
+      "aliases": [
+        "BRD",
+        "DEU",
+        "Federal Republic of Germany",
+        "FRG"
+      ],
+      "popularity": 3885460,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Germany"
+    },
+    {
+      "name": "Russia",
+      "aliases": [
+        "Russian Federation"
+      ],
+      "popularity": 3915588,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Russia"
+    },
+    {
+      "name": "Japan",
+      "aliases": [
+        "Iapan",
+        "Iapon",
+        "Land of Rising Sun",
+        "Land of the Rising Sun",
+        "Nihon-koku",
+        "Nippon-koku",
+        "State of Japan"
+      ],
+      "popularity": 3951354,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Japan"
+    },
+    {
+      "name": "Canada",
+      "aliases": [
+        "CAN"
+      ],
+      "popularity": 4232345,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Canada"
+    },
+    {
+      "name": "United Kingdom",
+      "aliases": [
+        "Britain",
+        "G B",
+        "Great Britain",
+        "Great Britain and Northern Ireland",
+        "the UK",
+        "the United Kingdom",
+        "U K"
+      ],
+      "popularity": 6387803,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "United Kingdom"
+    },
+    {
+      "name": "United States",
+      "aliases": [
+        "Merica",
+        "'Murica",
+        "the States",
+        "the U.S.",
+        "the U.S.A.",
+        "the U.S. of A",
+        "the U.S. of America",
+        "the United States",
+        "the United States of America",
+        "the US",
+        "the US of A",
+        "the US of America",
+        "the USA",
+        "U.S.",
+        "U. S. A.",
+        "U.S. of America",
+        "United States of America",
+        "US of A",
+        "US of America",
+        "USA"
+      ],
+      "popularity": 13453739,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "United States"
+    }
+  ]
+}

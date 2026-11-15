@@ -1,0 +1,365 @@
+{
+  "id": "sedimentary-rocks",
+  "slug": "sedimentary-rocks",
+  "category": "science",
+  "question": "Name a sedimentary rock",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Pelagosite",
+      "aliases": [],
+      "popularity": 401,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Pelagosite"
+    },
+    {
+      "name": "Biolith",
+      "aliases": [
+        "biolite",
+        "biolites",
+        "bioliths"
+      ],
+      "popularity": 473,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Biolith"
+    },
+    {
+      "name": "Boundstone",
+      "aliases": [
+        "Boundstone (rock)"
+      ],
+      "popularity": 909,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Boundstone (rock)"
+    },
+    {
+      "name": "Rudstone",
+      "aliases": [],
+      "popularity": 1033,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Rudstone"
+    },
+    {
+      "name": "Pennant Measures",
+      "aliases": [],
+      "popularity": 1068,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Pennant Measures"
+    },
+    {
+      "name": "Encrinite",
+      "aliases": [
+        "encinitre"
+      ],
+      "popularity": 1161,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Encrinite"
+    },
+    {
+      "name": "Tasmanite",
+      "aliases": [],
+      "popularity": 1422,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Tasmanite"
+    },
+    {
+      "name": "Tonstein",
+      "aliases": [],
+      "popularity": 1551,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Tonstein"
+    },
+    {
+      "name": "Lutite",
+      "aliases": [],
+      "popularity": 2024,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Lutite"
+    },
+    {
+      "name": "Eolianite",
+      "aliases": [],
+      "popularity": 2394,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Eolianite"
+    },
+    {
+      "name": "Psammite",
+      "aliases": [
+        "psammitic"
+      ],
+      "popularity": 2413,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Psammite"
+    },
+    {
+      "name": "Organic-rich sedimentary rocks",
+      "aliases": [
+        "organic rock",
+        "organically rich sedimentary rocks"
+      ],
+      "popularity": 2434,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Organic-rich sedimentary rocks"
+    },
+    {
+      "name": "Torbanite",
+      "aliases": [],
+      "popularity": 2532,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Torbanite"
+    },
+    {
+      "name": "Oncolite",
+      "aliases": [],
+      "popularity": 3163,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Oncolite"
+    },
+    {
+      "name": "Siliceous rock",
+      "aliases": [],
+      "popularity": 3462,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Siliceous rock"
+    },
+    {
+      "name": "Beachrock",
+      "aliases": [],
+      "popularity": 5176,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Beachrock"
+    },
+    {
+      "name": "Source rock",
+      "aliases": [],
+      "popularity": 6260,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Source rock"
+    },
+    {
+      "name": "Pelite",
+      "aliases": [
+        "pelitic",
+        "Pelitic texture"
+      ],
+      "popularity": 6273,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Pelite"
+    },
+    {
+      "name": "Molasse",
+      "aliases": [],
+      "popularity": 6955,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Molasse"
+    },
+    {
+      "name": "Radiolarite",
+      "aliases": [
+        "diatomite"
+      ],
+      "popularity": 7257,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Radiolarite"
+    },
+    {
+      "name": "Rotten stone",
+      "aliases": [
+        "rottenstone",
+        "tripoli"
+      ],
+      "popularity": 7775,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Rotten stone"
+    },
+    {
+      "name": "Red beds",
+      "aliases": [],
+      "popularity": 8678,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Red beds"
+    },
+    {
+      "name": "Gritstone",
+      "aliases": [
+        "grit sandstone"
+      ],
+      "popularity": 10383,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Gritstone"
+    },
+    {
+      "name": "Thrombolite",
+      "aliases": [],
+      "popularity": 12128,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Thrombolite"
+    },
+    {
+      "name": "Asphaltite",
+      "aliases": [],
+      "popularity": 15147,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Asphaltite"
+    },
+    {
+      "name": "Argillite",
+      "aliases": [],
+      "popularity": 17781,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Argillite"
+    },
+    {
+      "name": "Carbonate rock",
+      "aliases": [
+        "carbonat rock",
+        "carbonate sedimentary rock"
+      ],
+      "popularity": 18076,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Carbonate rock"
+    },
+    {
+      "name": "Mudstone",
+      "aliases": [],
+      "popularity": 22402,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Mudstone"
+    },
+    {
+      "name": "Clastic rock",
+      "aliases": [
+        "clastic sedimentary rock",
+        "detrital rock"
+      ],
+      "popularity": 23733,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Clastic rock"
+    },
+    {
+      "name": "Ironstone",
+      "aliases": [],
+      "popularity": 23756,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Ironstone"
+    },
+    {
+      "name": "Phosphorite",
+      "aliases": [],
+      "popularity": 30409,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Phosphorite"
+    },
+    {
+      "name": "Oolite",
+      "aliases": [
+        "egg stone"
+      ],
+      "popularity": 31218,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Oolite"
+    },
+    {
+      "name": "Caliche",
+      "aliases": [],
+      "popularity": 45673,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Caliche"
+    },
+    {
+      "name": "Tufa",
+      "aliases": [
+        "calc-tuff",
+        "calcareous",
+        "limestone tuff",
+        "tophus",
+        "tuff"
+      ],
+      "popularity": 49148,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Tufa"
+    },
+    {
+      "name": "Taconite",
+      "aliases": [],
+      "popularity": 67207,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Taconite"
+    },
+    {
+      "name": "Chalk",
+      "aliases": [],
+      "popularity": 135825,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Chalk"
+    },
+    {
+      "name": "Stromatolite",
+      "aliases": [
+        "stromatolites",
+        "stromatolith",
+        "stromatoliths",
+        "stromatolitic"
+      ],
+      "popularity": 136085,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Stromatolite"
+    },
+    {
+      "name": "Bauxite",
+      "aliases": [],
+      "popularity": 190290,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Bauxite"
+    },
+    {
+      "name": "Coal",
+      "aliases": [
+        "carbone"
+      ],
+      "popularity": 286083,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Coal"
+    }
+  ]
+}

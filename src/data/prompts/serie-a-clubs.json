@@ -1,0 +1,331 @@
+{
+  "id": "serie-a-clubs",
+  "slug": "serie-a-clubs",
+  "category": "sports",
+  "question": "Name a current Serie A club",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Frosinone Calcio",
+      "aliases": [
+        "Frosinone 1928",
+        "Frosinone FC",
+        "Frosinone Football Club"
+      ],
+      "popularity": 136115,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Frosinone Calcio"
+    },
+    {
+      "name": "AC Monza",
+      "aliases": [
+        "A.C. Monza",
+        "A.C. Monza Brianza",
+        "A.C. Monza Brianza 1912",
+        "AC Monza Brianza 1912",
+        "ACMonza",
+        "Associazione Calcio Monza",
+        "Associazione Calcio Monza Brianza 1912",
+        "Biancorossi",
+        "Monza",
+        "Monza Calcio",
+        "S.S. Monza",
+        "S.S. Monza 1912 Srl",
+        "Società Sportiva Monza 1912",
+        "Società Sportiva Monza 1912 Srl"
+      ],
+      "popularity": 152975,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "AC Monza"
+    },
+    {
+      "name": "US Lecce",
+      "aliases": [
+        "Lecce",
+        "Lecce Sports Union",
+        "U.S.L.",
+        "U.S.Lecce",
+        "Unione Sportiva Lecce",
+        "USLecce"
+      ],
+      "popularity": 175844,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "US Lecce"
+    },
+    {
+      "name": "Venezia FC",
+      "aliases": [
+        "Arancioneroverdi",
+        "Venezia F.C.",
+        "Venezia Football Club",
+        "VeneziaMestre",
+        "VeneziaMestre FC",
+        "Venice FC",
+        "Venice Football Club",
+        "VFC"
+      ],
+      "popularity": 215322,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Venezia FC"
+    },
+    {
+      "name": "Cagliari Calcio",
+      "aliases": [
+        "Cagliari"
+      ],
+      "popularity": 227325,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Cagliari Calcio"
+    },
+    {
+      "name": "Torino FC",
+      "aliases": [
+        "Torino",
+        "Torino F.C.",
+        "Torino Football Club",
+        "TorinoF.C.",
+        "TorinoFC",
+        "Turin F.C.",
+        "Turin FC",
+        "Turin Football Club"
+      ],
+      "popularity": 239501,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Torino FC"
+    },
+    {
+      "name": "Bologna FC 1909",
+      "aliases": [
+        "BFC1909",
+        "Bologna",
+        "Bologna F.C. 1909",
+        "Bologna Football Club",
+        "Bologna Football Club 1909",
+        "BolognaFC1909"
+      ],
+      "popularity": 300944,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Bologna FC 1909"
+    },
+    {
+      "name": "Genoa CFC",
+      "aliases": [
+        "Genoa",
+        "Genoa C.F.C."
+      ],
+      "popularity": 312594,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Genoa CFC"
+    },
+    {
+      "name": "Udinese Calcio",
+      "aliases": [
+        "First Bianconeri of Italy",
+        "Udinese FC",
+        "Udinese Football",
+        "Udinese Football Club"
+      ],
+      "popularity": 327040,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Udinese Calcio"
+    },
+    {
+      "name": "US Sassuolo Calcio",
+      "aliases": [
+        "Sassuolo",
+        "Sassuolo Calcio",
+        "U.S. Sassuolo Calcio",
+        "Unione Sportiva Sassuolo Calcio"
+      ],
+      "popularity": 327311,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "US Sassuolo Calcio"
+    },
+    {
+      "name": "Parma Calcio 1913",
+      "aliases": [
+        "AC Parma",
+        "Crociati",
+        "Parma",
+        "Parma A.C.",
+        "Parma Associazione Calcio",
+        "Parma Associazione Sportiva",
+        "Parma F.C.",
+        "Parma FC",
+        "Parma Foot Ball Club",
+        "Parma Football Club"
+      ],
+      "popularity": 414027,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Parma Calcio 1913"
+    },
+    {
+      "name": "SS Lazio",
+      "aliases": [
+        "Lazio Calcio",
+        "Lazio Sport Society",
+        "Lazio Sports Society",
+        "S.S.L.",
+        "S.S.Lazio",
+        "Societa Sportiva Lazio",
+        "Sport Society Lazio",
+        "Sports Society Lazio",
+        "SSL",
+        "SSLazio"
+      ],
+      "popularity": 478715,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "SS Lazio"
+    },
+    {
+      "name": "ACF Fiorentina",
+      "aliases": [
+        "A.C.F.Fiorentina",
+        "A.C. Fiorentina",
+        "AC Fiorentina",
+        "Associazione Calcio Fiorentina",
+        "Fiorentina",
+        "Florentia Viola"
+      ],
+      "popularity": 606182,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "ACF Fiorentina"
+    },
+    {
+      "name": "Atalanta BC",
+      "aliases": [
+        "Atalanta",
+        "Atalanta B.C.",
+        "Atalanta Bergamasca Calcio",
+        "Atalanta Bergamo",
+        "AtalantaB.C.",
+        "AtalantaBC"
+      ],
+      "popularity": 606538,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Atalanta BC"
+    },
+    {
+      "name": "AS Roma",
+      "aliases": [
+        "A.S.R",
+        "A.S.R 1927",
+        "A.S.Roma",
+        "A.S.Rome",
+        "ASR",
+        "ASR 1927",
+        "ASRoma",
+        "Associazione Sportiva Roma",
+        "La Roma",
+        "Rome Sport Association",
+        "The Wolfs"
+      ],
+      "popularity": 858418,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "AS Roma"
+    },
+    {
+      "name": "SSC Napoli",
+      "aliases": [
+        "Napoli",
+        "S.S.C.N.",
+        "S.S.C. Napoli",
+        "Società Sportiva Calcio Napoli",
+        "SSC Naples",
+        "SSCN"
+      ],
+      "popularity": 917098,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "SSC Napoli"
+    },
+    {
+      "name": "Como 1907",
+      "aliases": [
+        "Calcio Como",
+        "Como",
+        "Como Calcio",
+        "F.C. Como"
+      ],
+      "popularity": 1298791,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Como 1907"
+    },
+    {
+      "name": "Inter Milan",
+      "aliases": [
+        "F.C.I.M.",
+        "F.C. Inter",
+        "F.C. Inter Milan",
+        "FC Inter",
+        "FC Internazionale Milano",
+        "FCIM",
+        "FCInter",
+        "Football Club Inter",
+        "Football Club Inter Milan",
+        "Football Club Internazionale Milano",
+        "I M",
+        "Inter",
+        "Inter Club",
+        "Inter FC",
+        "Inter Football Club",
+        "Inter Milano",
+        "Inter of Milan",
+        "Inter soccer club",
+        "Internazionale",
+        "Internazionale Milano",
+        "The Inter"
+      ],
+      "popularity": 1509069,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Inter Milan"
+    },
+    {
+      "name": "Juventus FC",
+      "aliases": [
+        "J.F.C.",
+        "Juventus F.C.",
+        "Juventus of Turin",
+        "Juventus Turin",
+        "JuventusF.C.",
+        "JuventusFC",
+        "JuventusFootballClub"
+      ],
+      "popularity": 1580197,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Juventus FC"
+    },
+    {
+      "name": "AC Milan",
+      "aliases": [
+        "A.C.Milan",
+        "ACMilan",
+        "Association Football Milan",
+        "Associazione Calcio Milan",
+        "Milan"
+      ],
+      "popularity": 1712307,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "AC Milan"
+    }
+  ]
+}

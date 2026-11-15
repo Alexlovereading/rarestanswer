@@ -1,0 +1,604 @@
+{
+  "id": "european-capitals",
+  "slug": "european-capitals",
+  "category": "geography",
+  "question": "Name a national capital in Europe",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "City of San Marino",
+      "aliases": [
+        "San Marino"
+      ],
+      "popularity": 61221,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "City of San Marino"
+    },
+    {
+      "name": "Andorra la Vella",
+      "aliases": [],
+      "popularity": 116415,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Andorra la Vella"
+    },
+    {
+      "name": "Vaduz",
+      "aliases": [],
+      "popularity": 146336,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Vaduz"
+    },
+    {
+      "name": "Podgorica",
+      "aliases": [
+        "Burguriçe",
+        "Capital of Montenegro"
+      ],
+      "popularity": 201739,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Podgorica"
+    },
+    {
+      "name": "Luxembourg City",
+      "aliases": [
+        "City of Luxembourg",
+        "Luxembourg",
+        "Luxemburg"
+      ],
+      "popularity": 225474,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Luxembourg City"
+    },
+    {
+      "name": "Chișinău",
+      "aliases": [
+        "Chisnau",
+        "Keshenev",
+        "Keshinov",
+        "Khisinau",
+        "Kischinew",
+        "Kischiniov",
+        "Kiscinev",
+        "Kishinef",
+        "Kishinëv",
+        "Kişinev",
+        "Kišinìv",
+        "Kiszyniów",
+        "Kyshyniv"
+      ],
+      "popularity": 266109,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Chișinău"
+    },
+    {
+      "name": "Pristina",
+      "aliases": [
+        "Prishtina",
+        "Prishtinë"
+      ],
+      "popularity": 268617,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Pristina"
+    },
+    {
+      "name": "City of Brussels",
+      "aliases": [
+        "Brussels",
+        "Brussels City"
+      ],
+      "popularity": 279250,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "City of Brussels"
+    },
+    {
+      "name": "Valletta",
+      "aliases": [
+        "Capital of Malta",
+        "Città Umilissima",
+        "Il-Belt Valletta",
+        "La Valleta"
+      ],
+      "popularity": 291038,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Valletta"
+    },
+    {
+      "name": "Tirana",
+      "aliases": [],
+      "popularity": 299850,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Tirana"
+    },
+    {
+      "name": "Nicosia",
+      "aliases": [
+        "Ledra",
+        "Ledrae",
+        "Ledroi",
+        "Ledron",
+        "Lefkosa",
+        "Lefkosia",
+        "Leucopolis",
+        "Leucosia",
+        "Leucotheon",
+        "Leukoi Theoi",
+        "Leuteon",
+        "Nicosie"
+      ],
+      "popularity": 311880,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Nicosia"
+    },
+    {
+      "name": "Skopje",
+      "aliases": [
+        "Escópia",
+        "Shkup",
+        "Shkupi",
+        "Skoplje",
+        "Üsküb"
+      ],
+      "popularity": 322137,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Skopje"
+    },
+    {
+      "name": "Bern",
+      "aliases": [
+        "Berna",
+        "Berne",
+        "city of Bern"
+      ],
+      "popularity": 326677,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Bern"
+    },
+    {
+      "name": "Zagreb",
+      "aliases": [],
+      "popularity": 392064,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Zagreb"
+    },
+    {
+      "name": "Minsk",
+      "aliases": [
+        "Mensk",
+        "Miensk",
+        "Minskas"
+      ],
+      "popularity": 393299,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Minsk"
+    },
+    {
+      "name": "Riga",
+      "aliases": [
+        "Rige",
+        "Rīgõ",
+        "Riia",
+        "Rija"
+      ],
+      "popularity": 394532,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Riga"
+    },
+    {
+      "name": "Vilnius",
+      "aliases": [
+        "Viļņa",
+        "Vilnė",
+        "Viĺnia",
+        "Vilno",
+        "Vilnyus"
+      ],
+      "popularity": 398161,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Vilnius"
+    },
+    {
+      "name": "Tallinn",
+      "aliases": [
+        "Kolywan",
+        "Lindanäs",
+        "Lyndanisse",
+        "Reuel",
+        "Revel",
+        "Rewel"
+      ],
+      "popularity": 447849,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Tallinn"
+    },
+    {
+      "name": "Sofia",
+      "aliases": [
+        "Serdica",
+        "Sofija",
+        "Sredets",
+        "Sredez"
+      ],
+      "popularity": 463846,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Sofia"
+    },
+    {
+      "name": "Ljubljana",
+      "aliases": [
+        "Labacum",
+        "Lublana"
+      ],
+      "popularity": 474432,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Ljubljana"
+    },
+    {
+      "name": "Bratislava",
+      "aliases": [],
+      "popularity": 489909,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Bratislava"
+    },
+    {
+      "name": "Bucharest",
+      "aliases": [
+        "Bucureşti",
+        "Little Paris",
+        "Paris of the East"
+      ],
+      "popularity": 506856,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Bucharest"
+    },
+    {
+      "name": "Tbilisi",
+      "aliases": [
+        "Tbilissi",
+        "Tiflis",
+        "Tpilisi",
+        "Tpilissi"
+      ],
+      "popularity": 512700,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Tbilisi"
+    },
+    {
+      "name": "Helsinki",
+      "aliases": [
+        "Helsingia",
+        "Helsingin kaupunki",
+        "Hesa",
+        "Stadi"
+      ],
+      "popularity": 538413,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Helsinki"
+    },
+    {
+      "name": "Oslo",
+      "aliases": [
+        "NOOSL"
+      ],
+      "popularity": 601198,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Oslo"
+    },
+    {
+      "name": "Reykjavík",
+      "aliases": [
+        "Reykjavíkurborg"
+      ],
+      "popularity": 613545,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Reykjavík"
+    },
+    {
+      "name": "Belgrade",
+      "aliases": [
+        "City of Belgrade"
+      ],
+      "popularity": 615662,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Belgrade"
+    },
+    {
+      "name": "Kyiv",
+      "aliases": [
+        "Kief",
+        "Kieff",
+        "Kiew",
+        "Kiof",
+        "Kioff",
+        "Kiou",
+        "Kiovia",
+        "Kiow",
+        "Kiowia",
+        "Kiyev",
+        "Kyїv",
+        "Kyiw",
+        "Kyjiw"
+      ],
+      "popularity": 633102,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Kyiv"
+    },
+    {
+      "name": "Sarajevo",
+      "aliases": [
+        "Bosna-Serai",
+        "City of Sarajevo"
+      ],
+      "popularity": 666856,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Sarajevo"
+    },
+    {
+      "name": "Lisbon",
+      "aliases": [],
+      "popularity": 672745,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Lisbon"
+    },
+    {
+      "name": "Stockholm",
+      "aliases": [
+        "STHLM"
+      ],
+      "popularity": 674554,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Stockholm"
+    },
+    {
+      "name": "Warsaw",
+      "aliases": [],
+      "popularity": 728091,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Warsaw"
+    },
+    {
+      "name": "Copenhagen",
+      "aliases": [
+        "CPH",
+        "Hafn",
+        "Kbh.",
+        "Köbenhavn",
+        "Kopenhagen"
+      ],
+      "popularity": 790576,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Copenhagen"
+    },
+    {
+      "name": "Athens",
+      "aliases": [
+        "Athenae",
+        "Athens city"
+      ],
+      "popularity": 813141,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Athens"
+    },
+    {
+      "name": "Madrid",
+      "aliases": [],
+      "popularity": 882252,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Madrid"
+    },
+    {
+      "name": "Dublin",
+      "aliases": [
+        "City of Dublin",
+        "Dublin city"
+      ],
+      "popularity": 884342,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Dublin"
+    },
+    {
+      "name": "Budapest",
+      "aliases": [
+        "Alt-Ofen",
+        "Buda",
+        "Buda-Pest",
+        "Buda-Pesth",
+        "Budapesta",
+        "Budapeszt",
+        "Budim",
+        "Budín",
+        "Budon",
+        "Ofen",
+        "Pešť",
+        "Pešta"
+      ],
+      "popularity": 972288,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Budapest"
+    },
+    {
+      "name": "Moscow",
+      "aliases": [
+        "City of Moscow",
+        "Moskovĭ",
+        "Moskvë",
+        "Moskvi",
+        "Mosky"
+      ],
+      "popularity": 1015847,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Moscow"
+    },
+    {
+      "name": "Amsterdam",
+      "aliases": [
+        "A'dam",
+        "Mokum"
+      ],
+      "popularity": 1016718,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Amsterdam"
+    },
+    {
+      "name": "Vienna",
+      "aliases": [],
+      "popularity": 1062655,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Vienna"
+    },
+    {
+      "name": "Prague",
+      "aliases": [
+        "City of Prague",
+        "Hlavní město Praha"
+      ],
+      "popularity": 1097966,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Prague"
+    },
+    {
+      "name": "Rome",
+      "aliases": [
+        "Capital of the World",
+        "City of Marble",
+        "City of Seven Hills",
+        "Eternal City",
+        "The Capital of the World",
+        "The City of Marble",
+        "The Eternal City"
+      ],
+      "popularity": 1287859,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Rome"
+    },
+    {
+      "name": "Vatican City",
+      "aliases": [
+        "Città del Vaticano",
+        "Holy See",
+        "Papal State",
+        "State of Vatican City",
+        "Stato della Città del Vaticano",
+        "Status Civitatis Vaticanae",
+        "The Vatican",
+        "Vatican",
+        "Vatican City State"
+      ],
+      "popularity": 1333170,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Vatican City"
+    },
+    {
+      "name": "Berlin",
+      "aliases": [
+        "DE-BE"
+      ],
+      "popularity": 1527941,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Berlin"
+    },
+    {
+      "name": "Paris",
+      "aliases": [
+        "City of Light",
+        "City of Love",
+        "Lutetia"
+      ],
+      "popularity": 1663686,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Paris"
+    },
+    {
+      "name": "Monaco",
+      "aliases": [
+        "Fort-Hercule",
+        "Mùnegu",
+        "Principality and Diocese of Monaco",
+        "Principality of Monaco",
+        "Principato di Monaco",
+        "Prinçipatu de Mùnegu",
+        "Principauté de Monaco"
+      ],
+      "popularity": 2294621,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Monaco"
+    },
+    {
+      "name": "London",
+      "aliases": [
+        "Augusta",
+        "Big Smoke",
+        "Kaerlud",
+        "Karelundein",
+        "LDN",
+        "Llan Dian",
+        "Llyn Dain",
+        "Loñ.",
+        "Lond.",
+        "Londini",
+        "Londiniensium",
+        "Londinio",
+        "Londinion",
+        "Londinium",
+        "London U.K.",
+        "London UK",
+        "Loniniensi",
+        "Lunden",
+        "Lundenburgh",
+        "Lundenburh",
+        "Lundenwic",
+        "the Big Smoke",
+        "Trinovantum"
+      ],
+      "popularity": 2589608,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "London"
+    }
+  ]
+}

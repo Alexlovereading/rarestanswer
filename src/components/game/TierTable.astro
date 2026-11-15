@@ -20,7 +20,9 @@ import { TIER_BLURBS } from '~/lib/game/copy';
         TIERS.map((row) => (
           <tr class="border-b border-border">
             <th scope="row" class="py-3 pr-4 font-semibold text-foreground">
-              {row.tier} {row.name}
+              <span class="tier-pill" data-tier={row.tier}>
+                {row.name}
+              </span>
             </th>
             <td class="py-3 pr-4 text-foreground">{TIER_BLURBS[row.tier]}</td>
             <td class="py-3 text-right font-semibold tabular-nums text-foreground">{row.points}</td>

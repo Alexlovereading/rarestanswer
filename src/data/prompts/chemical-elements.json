@@ -1,0 +1,1461 @@
+{
+  "id": "chemical-elements",
+  "slug": "chemical-elements",
+  "category": "science",
+  "question": "Name a chemical element",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Bohrium",
+      "aliases": [
+        "Bh",
+        "element 107"
+      ],
+      "popularity": 40220,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Bohrium"
+    },
+    {
+      "name": "Mendelevium",
+      "aliases": [
+        "101Md",
+        "element 101",
+        "Md",
+        "unnilunium"
+      ],
+      "popularity": 42374,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Mendelevium"
+    },
+    {
+      "name": "Dubnium",
+      "aliases": [
+        "Db",
+        "element 105",
+        "hahnium",
+        "unnilpentium"
+      ],
+      "popularity": 42389,
+      "rarity": 0.983,
+      "tier": 6,
+      "wiki": "Dubnium"
+    },
+    {
+      "name": "Hassium",
+      "aliases": [
+        "element 108",
+        "Hs",
+        "unniloctium",
+        "Uno"
+      ],
+      "popularity": 42975,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Hassium"
+    },
+    {
+      "name": "Darmstadtium",
+      "aliases": [
+        "Ds",
+        "element 110"
+      ],
+      "popularity": 44228,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Darmstadtium"
+    },
+    {
+      "name": "Thulium",
+      "aliases": [
+        "69Tm",
+        "element 69",
+        "Tm"
+      ],
+      "popularity": 45160,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Thulium"
+    },
+    {
+      "name": "Nobelium",
+      "aliases": [
+        "102No",
+        "element 102",
+        "No",
+        "Unb",
+        "unnilbium"
+      ],
+      "popularity": 45183,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Nobelium"
+    },
+    {
+      "name": "Meitnerium",
+      "aliases": [
+        "element 109",
+        "Mt",
+        "Une",
+        "unnilennium"
+      ],
+      "popularity": 45303,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Meitnerium"
+    },
+    {
+      "name": "Erbium",
+      "aliases": [
+        "68Er",
+        "element 68",
+        "Er"
+      ],
+      "popularity": 47520,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Erbium"
+    },
+    {
+      "name": "Terbium",
+      "aliases": [
+        "65Tb",
+        "element 65",
+        "Tb"
+      ],
+      "popularity": 48379,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Terbium"
+    },
+    {
+      "name": "Seaborgium",
+      "aliases": [
+        "element 106",
+        "Sg",
+        "Unh",
+        "unnilhexium"
+      ],
+      "popularity": 50118,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Seaborgium"
+    },
+    {
+      "name": "Rutherfordium",
+      "aliases": [
+        "element 104",
+        "kurchatovium",
+        "Rf",
+        "unnilquadium",
+        "Unq"
+      ],
+      "popularity": 53301,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Rutherfordium"
+    },
+    {
+      "name": "Fermium",
+      "aliases": [
+        "100Fm",
+        "element 100",
+        "Fm"
+      ],
+      "popularity": 53341,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Fermium"
+    },
+    {
+      "name": "Berkelium",
+      "aliases": [
+        "97Bk",
+        "Bk",
+        "element 97"
+      ],
+      "popularity": 56486,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Berkelium"
+    },
+    {
+      "name": "Praseodymium",
+      "aliases": [
+        "59Pr",
+        "element 59",
+        "Pr"
+      ],
+      "popularity": 58947,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Praseodymium"
+    },
+    {
+      "name": "Roentgenium",
+      "aliases": [
+        "element 111",
+        "Rg",
+        "unununium",
+        "Uuu"
+      ],
+      "popularity": 60044,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Roentgenium"
+    },
+    {
+      "name": "Europium",
+      "aliases": [
+        "63Eu",
+        "element 63",
+        "Eu"
+      ],
+      "popularity": 61430,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Europium"
+    },
+    {
+      "name": "Dysprosium",
+      "aliases": [
+        "Dy",
+        "element 66"
+      ],
+      "popularity": 63746,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Dysprosium"
+    },
+    {
+      "name": "Lawrencium",
+      "aliases": [
+        "103Lr",
+        "element 103",
+        "Lr"
+      ],
+      "popularity": 63975,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Lawrencium"
+    },
+    {
+      "name": "Flerovium",
+      "aliases": [
+        "element 114",
+        "Fl",
+        "ununquadium",
+        "Uuq"
+      ],
+      "popularity": 68944,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Flerovium"
+    },
+    {
+      "name": "Copernicium",
+      "aliases": [
+        "Cn",
+        "element 112",
+        "ununbium",
+        "ununnunium",
+        "Uub"
+      ],
+      "popularity": 69661,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Copernicium"
+    },
+    {
+      "name": "Ytterbium",
+      "aliases": [
+        "70Yb",
+        "element 70",
+        "Yb"
+      ],
+      "popularity": 69680,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Ytterbium"
+    },
+    {
+      "name": "Lutetium",
+      "aliases": [
+        "71Lu",
+        "cassiopeium",
+        "cassiopium",
+        "element 71",
+        "Lu",
+        "lutecium"
+      ],
+      "popularity": 72936,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Lutetium"
+    },
+    {
+      "name": "Nihonium",
+      "aliases": [
+        "dvi-indium",
+        "eka-thallium",
+        "element 113",
+        "Nh",
+        "ununnubium",
+        "ununtrium"
+      ],
+      "popularity": 73627,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Nihonium"
+    },
+    {
+      "name": "Livermorium",
+      "aliases": [
+        "eka-polonium",
+        "element 116",
+        "Lv",
+        "ununhexium",
+        "Uuh"
+      ],
+      "popularity": 73739,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Livermorium"
+    },
+    {
+      "name": "Lanthanum",
+      "aliases": [
+        "57La",
+        "element 57",
+        "La",
+        "metallic lanthanum"
+      ],
+      "popularity": 80708,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Lanthanum"
+    },
+    {
+      "name": "Samarium",
+      "aliases": [
+        "62Sm",
+        "element 62",
+        "Sm"
+      ],
+      "popularity": 81136,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Samarium"
+    },
+    {
+      "name": "Actinium",
+      "aliases": [
+        "89Ac",
+        "Ac",
+        "element 89",
+        "emanium"
+      ],
+      "popularity": 81378,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Actinium"
+    },
+    {
+      "name": "Cerium",
+      "aliases": [
+        "58Ce",
+        "Ce",
+        "element 58"
+      ],
+      "popularity": 81614,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Cerium"
+    },
+    {
+      "name": "Curium",
+      "aliases": [
+        "Cm",
+        "element 96"
+      ],
+      "popularity": 84648,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Curium"
+    },
+    {
+      "name": "Neptunium",
+      "aliases": [
+        "93Np",
+        "element 93",
+        "Np"
+      ],
+      "popularity": 87863,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Neptunium"
+    },
+    {
+      "name": "Hafnium",
+      "aliases": [
+        "72Hf",
+        "celtium",
+        "element 72",
+        "Hf"
+      ],
+      "popularity": 89428,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Hafnium"
+    },
+    {
+      "name": "Promethium",
+      "aliases": [
+        "element 61",
+        "Pm"
+      ],
+      "popularity": 92842,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Promethium"
+    },
+    {
+      "name": "Holmium",
+      "aliases": [
+        "element 67",
+        "Ho"
+      ],
+      "popularity": 94548,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Holmium"
+    },
+    {
+      "name": "Einsteinium",
+      "aliases": [
+        "99Es",
+        "element 99",
+        "Es"
+      ],
+      "popularity": 96535,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Einsteinium"
+    },
+    {
+      "name": "Rubidium",
+      "aliases": [
+        "37Rb",
+        "element 37",
+        "Rb"
+      ],
+      "popularity": 98525,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Rubidium"
+    },
+    {
+      "name": "Gadolinium",
+      "aliases": [
+        "64Gd",
+        "element 64",
+        "Gad",
+        "gadolininum",
+        "gadolinum",
+        "Gd"
+      ],
+      "popularity": 100587,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Gadolinium"
+    },
+    {
+      "name": "Rhenium",
+      "aliases": [
+        "75Re",
+        "element 75",
+        "nipponium",
+        "Re"
+      ],
+      "popularity": 105129,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Rhenium"
+    },
+    {
+      "name": "Ruthenium",
+      "aliases": [
+        "44Ru",
+        "element 44",
+        "Ru",
+        "vestium"
+      ],
+      "popularity": 105319,
+      "rarity": 0.675,
+      "tier": 4,
+      "wiki": "Ruthenium"
+    },
+    {
+      "name": "Americium",
+      "aliases": [
+        "Am",
+        "element 95"
+      ],
+      "popularity": 110319,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Americium"
+    },
+    {
+      "name": "Indium",
+      "aliases": [
+        "49In",
+        "element 49",
+        "In",
+        "Indium element",
+        "Indium metal"
+      ],
+      "popularity": 112663,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Indium"
+    },
+    {
+      "name": "Strontium",
+      "aliases": [
+        "38Sr",
+        "element 38",
+        "Sr"
+      ],
+      "popularity": 117571,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Strontium"
+    },
+    {
+      "name": "Scandium",
+      "aliases": [
+        "21Sc",
+        "element 21",
+        "Sc"
+      ],
+      "popularity": 117772,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Scandium"
+    },
+    {
+      "name": "Barium",
+      "aliases": [
+        "56Ba",
+        "Ba",
+        "element 56"
+      ],
+      "popularity": 121487,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Barium"
+    },
+    {
+      "name": "Californium",
+      "aliases": [
+        "98Cf",
+        "Cf",
+        "element 98"
+      ],
+      "popularity": 123052,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Californium"
+    },
+    {
+      "name": "Yttrium",
+      "aliases": [
+        "39Y",
+        "element 39",
+        "Y"
+      ],
+      "popularity": 128162,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Yttrium"
+    },
+    {
+      "name": "Tellurium",
+      "aliases": [
+        "52Te",
+        "element 52",
+        "Te"
+      ],
+      "popularity": 128279,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Tellurium"
+    },
+    {
+      "name": "Neodymium",
+      "aliases": [
+        "60Nd",
+        "element 60",
+        "Nd"
+      ],
+      "popularity": 129379,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Neodymium"
+    },
+    {
+      "name": "Niobium",
+      "aliases": [
+        "41Nb",
+        "Columbite",
+        "columbium",
+        "element 41",
+        "Nb"
+      ],
+      "popularity": 130069,
+      "rarity": 0.59,
+      "tier": 3,
+      "wiki": "Niobium"
+    },
+    {
+      "name": "Tennessine",
+      "aliases": [
+        "eka-astatine",
+        "element 117",
+        "Ts",
+        "ununseptium",
+        "Uus"
+      ],
+      "popularity": 138397,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Tennessine"
+    },
+    {
+      "name": "Francium",
+      "aliases": [
+        "87Fr",
+        "catium",
+        "eka-caesium",
+        "eka-cesium",
+        "element 87",
+        "Fr"
+      ],
+      "popularity": 138611,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Francium"
+    },
+    {
+      "name": "Technetium",
+      "aliases": [
+        "43Tc",
+        "eka-manganese",
+        "element 43",
+        "masurium",
+        "panormium",
+        "Tc"
+      ],
+      "popularity": 143579,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Technetium"
+    },
+    {
+      "name": "Germanium",
+      "aliases": [
+        "32Ge",
+        "element 32",
+        "Ge"
+      ],
+      "popularity": 144294,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Germanium"
+    },
+    {
+      "name": "Zirconium",
+      "aliases": [
+        "element 40",
+        "Zr"
+      ],
+      "popularity": 149047,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Zirconium"
+    },
+    {
+      "name": "Rhodium",
+      "aliases": [
+        "45Rh",
+        "element 45",
+        "Rh"
+      ],
+      "popularity": 154440,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Rhodium"
+    },
+    {
+      "name": "Moscovium",
+      "aliases": [
+        "eka-bismuth",
+        "element 115",
+        "Mc",
+        "ununpentium",
+        "Uup"
+      ],
+      "popularity": 161446,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "Moscovium"
+    },
+    {
+      "name": "Thallium",
+      "aliases": [
+        "81Tl",
+        "element 81",
+        "Tl"
+      ],
+      "popularity": 162658,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Thallium"
+    },
+    {
+      "name": "Krypton",
+      "aliases": [
+        "36Kr",
+        "element 36",
+        "Kr"
+      ],
+      "popularity": 163056,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Krypton"
+    },
+    {
+      "name": "Cadmium",
+      "aliases": [
+        "48Cd",
+        "Cd",
+        "element 48"
+      ],
+      "popularity": 166435,
+      "rarity": 0.504,
+      "tier": 3,
+      "wiki": "Cadmium"
+    },
+    {
+      "name": "Tantalum",
+      "aliases": [
+        "73Ta",
+        "element 73",
+        "Ta"
+      ],
+      "popularity": 171488,
+      "rarity": 0.496,
+      "tier": 3,
+      "wiki": "Tantalum"
+    },
+    {
+      "name": "Protactinium",
+      "aliases": [
+        "91Pa",
+        "brevium",
+        "element 91",
+        "Pa",
+        "protoactinium"
+      ],
+      "popularity": 173138,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Protactinium"
+    },
+    {
+      "name": "Vanadium",
+      "aliases": [
+        "23V",
+        "element 23",
+        "V"
+      ],
+      "popularity": 176666,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Vanadium"
+    },
+    {
+      "name": "Fluorine",
+      "aliases": [
+        "element 9",
+        "F"
+      ],
+      "popularity": 188748,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "Fluorine"
+    },
+    {
+      "name": "Gallium",
+      "aliases": [
+        "31Ga",
+        "element 31",
+        "Ga"
+      ],
+      "popularity": 193250,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Gallium"
+    },
+    {
+      "name": "Thorium",
+      "aliases": [
+        "90Th",
+        "element 90",
+        "Th"
+      ],
+      "popularity": 194212,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Thorium"
+    },
+    {
+      "name": "Caesium",
+      "aliases": [
+        "55Cs",
+        "cæsium",
+        "cesium",
+        "Cs",
+        "element 55"
+      ],
+      "popularity": 198983,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Caesium"
+    },
+    {
+      "name": "Argon",
+      "aliases": [
+        "18Ar",
+        "Ar",
+        "element 18"
+      ],
+      "popularity": 206467,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Argon"
+    },
+    {
+      "name": "Beryllium",
+      "aliases": [
+        "Be",
+        "element 4",
+        "glucineum"
+      ],
+      "popularity": 213083,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Beryllium"
+    },
+    {
+      "name": "Neon",
+      "aliases": [
+        "element 10",
+        "Ne"
+      ],
+      "popularity": 214380,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Neon"
+    },
+    {
+      "name": "Calcium",
+      "aliases": [
+        "20Ca",
+        "Ca",
+        "element 20"
+      ],
+      "popularity": 218179,
+      "rarity": 0.41,
+      "tier": 3,
+      "wiki": "Calcium"
+    },
+    {
+      "name": "Polonium",
+      "aliases": [
+        "84Po",
+        "element 84",
+        "Po"
+      ],
+      "popularity": 221991,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Polonium"
+    },
+    {
+      "name": "Bromine",
+      "aliases": [
+        "Br",
+        "element 35"
+      ],
+      "popularity": 222248,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Bromine"
+    },
+    {
+      "name": "Molybdenum",
+      "aliases": [
+        "42Mo",
+        "element 42",
+        "elemental molybdenum",
+        "metallic molybdenum",
+        "Mo",
+        "molybdenum atom"
+      ],
+      "popularity": 223134,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Molybdenum"
+    },
+    {
+      "name": "Astatine",
+      "aliases": [
+        "At",
+        "element 85"
+      ],
+      "popularity": 233488,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Astatine"
+    },
+    {
+      "name": "Manganese",
+      "aliases": [
+        "25Mn",
+        "element 25",
+        "Mn"
+      ],
+      "popularity": 236459,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Manganese"
+    },
+    {
+      "name": "Radium",
+      "aliases": [
+        "88Ra",
+        "element 88",
+        "Ra"
+      ],
+      "popularity": 249072,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Radium"
+    },
+    {
+      "name": "Radon",
+      "aliases": [
+        "86Rn",
+        "element 86",
+        "Rn"
+      ],
+      "popularity": 253401,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Radon"
+    },
+    {
+      "name": "Nickel",
+      "aliases": [
+        "element 28",
+        "Ni",
+        "nickel metal"
+      ],
+      "popularity": 256704,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Nickel"
+    },
+    {
+      "name": "Osmium",
+      "aliases": [
+        "76Os",
+        "element 76",
+        "Os"
+      ],
+      "popularity": 258391,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Osmium"
+    },
+    {
+      "name": "Selenium",
+      "aliases": [
+        "34Se",
+        "element 34",
+        "Se"
+      ],
+      "popularity": 262021,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Selenium"
+    },
+    {
+      "name": "Chromium",
+      "aliases": [
+        "24Cr",
+        "Cr",
+        "element 24"
+      ],
+      "popularity": 267873,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Chromium"
+    },
+    {
+      "name": "Iridium",
+      "aliases": [
+        "element 77",
+        "Ir"
+      ],
+      "popularity": 273007,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Iridium"
+    },
+    {
+      "name": "Palladium",
+      "aliases": [
+        "46Pd",
+        "element 46",
+        "Pd"
+      ],
+      "popularity": 275007,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Palladium"
+    },
+    {
+      "name": "Boron",
+      "aliases": [
+        "B",
+        "boracium",
+        "element 5"
+      ],
+      "popularity": 276623,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Boron"
+    },
+    {
+      "name": "Iodine",
+      "aliases": [
+        "element 53",
+        "I"
+      ],
+      "popularity": 288651,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Iodine"
+    },
+    {
+      "name": "Magnesium",
+      "aliases": [
+        "12Mg",
+        "element 12",
+        "Mg"
+      ],
+      "popularity": 295584,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Magnesium"
+    },
+    {
+      "name": "Phosphorus",
+      "aliases": [
+        "15P",
+        "element 15",
+        "P"
+      ],
+      "popularity": 296290,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Phosphorus"
+    },
+    {
+      "name": "Zinc",
+      "aliases": [
+        "30Zn",
+        "element 30",
+        "Zn",
+        "Zn2+"
+      ],
+      "popularity": 297882,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Zinc"
+    },
+    {
+      "name": "Chlorine",
+      "aliases": [
+        "bertholite",
+        "Cl",
+        "element 17"
+      ],
+      "popularity": 303172,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Chlorine"
+    },
+    {
+      "name": "Arsenic",
+      "aliases": [
+        "33As",
+        "As",
+        "element 33"
+      ],
+      "popularity": 306135,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Arsenic"
+    },
+    {
+      "name": "Bismuth",
+      "aliases": [
+        "83Bi",
+        "Bi",
+        "element 83"
+      ],
+      "popularity": 311711,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Bismuth"
+    },
+    {
+      "name": "Plutonium",
+      "aliases": [
+        "94Pu",
+        "element 94",
+        "Pu"
+      ],
+      "popularity": 318850,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Plutonium"
+    },
+    {
+      "name": "Titanium",
+      "aliases": [
+        "22Ti",
+        "element 22",
+        "Ti"
+      ],
+      "popularity": 328321,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Titanium"
+    },
+    {
+      "name": "Cobalt",
+      "aliases": [
+        "Co",
+        "element 27"
+      ],
+      "popularity": 333368,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Cobalt"
+    },
+    {
+      "name": "Oganesson",
+      "aliases": [
+        "eka-radon",
+        "element 118",
+        "Og",
+        "ununoctium",
+        "Uuo"
+      ],
+      "popularity": 335950,
+      "rarity": 0.197,
+      "tier": 1,
+      "wiki": "Oganesson"
+    },
+    {
+      "name": "Xenon",
+      "aliases": [
+        "54Xe",
+        "element 54",
+        "Xe"
+      ],
+      "popularity": 341103,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Xenon"
+    },
+    {
+      "name": "Sodium",
+      "aliases": [
+        "11Na",
+        "element 11",
+        "Na"
+      ],
+      "popularity": 347249,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Sodium"
+    },
+    {
+      "name": "Silicon",
+      "aliases": [
+        "14Si",
+        "element 14",
+        "Si"
+      ],
+      "popularity": 354131,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Silicon"
+    },
+    {
+      "name": "Potassium",
+      "aliases": [
+        "19K",
+        "element 19",
+        "K"
+      ],
+      "popularity": 357040,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Potassium"
+    },
+    {
+      "name": "Tin",
+      "aliases": [
+        "element 50",
+        "Sn"
+      ],
+      "popularity": 366168,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Tin"
+    },
+    {
+      "name": "Nitrogen",
+      "aliases": [
+        "element 7",
+        "N"
+      ],
+      "popularity": 371742,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Nitrogen"
+    },
+    {
+      "name": "Lithium",
+      "aliases": [
+        "element 3",
+        "Li"
+      ],
+      "popularity": 372467,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Lithium"
+    },
+    {
+      "name": "Platinum",
+      "aliases": [
+        "78Pt",
+        "element 78",
+        "Pt"
+      ],
+      "popularity": 385916,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Platinum"
+    },
+    {
+      "name": "Carbon",
+      "aliases": [
+        "C",
+        "element 6"
+      ],
+      "popularity": 392986,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Carbon"
+    },
+    {
+      "name": "Helium",
+      "aliases": [
+        "element 2",
+        "He"
+      ],
+      "popularity": 400103,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Helium"
+    },
+    {
+      "name": "Antimony",
+      "aliases": [
+        "51Sb",
+        "element 51",
+        "Sb"
+      ],
+      "popularity": 407837,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Antimony"
+    },
+    {
+      "name": "Lead",
+      "aliases": [
+        "element 82",
+        "Pb"
+      ],
+      "popularity": 417141,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Lead"
+    },
+    {
+      "name": "Sulfur",
+      "aliases": [
+        "brimstone",
+        "element 16",
+        "S",
+        "sulphur"
+      ],
+      "popularity": 430517,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Sulfur"
+    },
+    {
+      "name": "Iron",
+      "aliases": [
+        "element 26",
+        "Fe"
+      ],
+      "popularity": 467651,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Iron"
+    },
+    {
+      "name": "Uranium",
+      "aliases": [
+        "element 92",
+        "U"
+      ],
+      "popularity": 472229,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Uranium"
+    },
+    {
+      "name": "Silver",
+      "aliases": [
+        "Ag",
+        "element 47"
+      ],
+      "popularity": 493733,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Silver"
+    },
+    {
+      "name": "Oxygen",
+      "aliases": [
+        "E948",
+        "element 8",
+        "O"
+      ],
+      "popularity": 501674,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Oxygen"
+    },
+    {
+      "name": "Hydrogen",
+      "aliases": [
+        "element 1",
+        "H"
+      ],
+      "popularity": 538354,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Hydrogen"
+    },
+    {
+      "name": "Copper",
+      "aliases": [
+        "29Cu",
+        "Cu",
+        "CU-7",
+        "element 29",
+        "Paragard T 380A",
+        "Tatum-T"
+      ],
+      "popularity": 552338,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Copper"
+    },
+    {
+      "name": "Tungsten",
+      "aliases": [
+        "74W",
+        "element 74",
+        "W",
+        "wolfram"
+      ],
+      "popularity": 556327,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Tungsten"
+    },
+    {
+      "name": "Aluminium",
+      "aliases": [
+        "13Al",
+        "Al",
+        "aluminum",
+        "element 13"
+      ],
+      "popularity": 568574,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "Aluminium"
+    },
+    {
+      "name": "Mercury",
+      "aliases": [
+        "80Hg",
+        "element 80",
+        "Hg",
+        "hydrargyrum",
+        "Mercury (element)",
+        "quicksilver"
+      ],
+      "popularity": 590319,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Mercury (element)"
+    },
+    {
+      "name": "Gold",
+      "aliases": [
+        "Au",
+        "element 79"
+      ],
+      "popularity": 823349,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Gold"
+    }
+  ]
+}

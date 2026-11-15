@@ -1,0 +1,314 @@
+{
+  "id": "japanese-dishes",
+  "slug": "japanese-dishes",
+  "category": "food",
+  "question": "Name a Japanese dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Shoyumame",
+      "aliases": [],
+      "popularity": 590,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Shoyumame"
+    },
+    {
+      "name": "Dobin mushi",
+      "aliases": [],
+      "popularity": 2704,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Dobin mushi"
+    },
+    {
+      "name": "Kenchin-jiru",
+      "aliases": [
+        "Kenchinjiru"
+      ],
+      "popularity": 2976,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Kenchin-jiru"
+    },
+    {
+      "name": "Kagoshima ramen",
+      "aliases": [],
+      "popularity": 3224,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Kagoshima ramen"
+    },
+    {
+      "name": "Chūkadon",
+      "aliases": [],
+      "popularity": 3671,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Chūkadon"
+    },
+    {
+      "name": "Negimaki",
+      "aliases": [],
+      "popularity": 4011,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Negimaki"
+    },
+    {
+      "name": "Nikuman",
+      "aliases": [
+        "chūka man",
+        "chūkaman"
+      ],
+      "popularity": 5121,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Nikuman"
+    },
+    {
+      "name": "Butadon",
+      "aliases": [
+        "pork bowl"
+      ],
+      "popularity": 7610,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Butadon"
+    },
+    {
+      "name": "Kyaraben",
+      "aliases": [
+        "charaben"
+      ],
+      "popularity": 7657,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Kyaraben"
+    },
+    {
+      "name": "Tenshindon",
+      "aliases": [
+        "Tenshinhan"
+      ],
+      "popularity": 9802,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Tenshindon"
+    },
+    {
+      "name": "Zosui",
+      "aliases": [],
+      "popularity": 11027,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Zosui"
+    },
+    {
+      "name": "Okinawa soba",
+      "aliases": [],
+      "popularity": 15043,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Okinawa soba"
+    },
+    {
+      "name": "Chinmi",
+      "aliases": [],
+      "popularity": 17839,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Chinmi"
+    },
+    {
+      "name": "Agedashi dōfu",
+      "aliases": [
+        "agedashi tofu"
+      ],
+      "popularity": 17870,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Agedashi dōfu"
+    },
+    {
+      "name": "Curry bread",
+      "aliases": [],
+      "popularity": 18695,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Curry bread"
+    },
+    {
+      "name": "Onsen tamago",
+      "aliases": [],
+      "popularity": 22044,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Onsen tamago"
+    },
+    {
+      "name": "Unadon",
+      "aliases": [],
+      "popularity": 23932,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Unadon"
+    },
+    {
+      "name": "Doria",
+      "aliases": [
+        "Doria (food)"
+      ],
+      "popularity": 26650,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Doria (food)"
+    },
+    {
+      "name": "Champon",
+      "aliases": [
+        "chanpon"
+      ],
+      "popularity": 28706,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Champon"
+    },
+    {
+      "name": "Chawanmushi",
+      "aliases": [
+        "chawan-mushi"
+      ],
+      "popularity": 35270,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Chawanmushi"
+    },
+    {
+      "name": "Robatayaki",
+      "aliases": [],
+      "popularity": 38567,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Robatayaki"
+    },
+    {
+      "name": "Tomalley",
+      "aliases": [
+        "tumale"
+      ],
+      "popularity": 48566,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Tomalley"
+    },
+    {
+      "name": "Meat floss",
+      "aliases": [
+        "Dembu",
+        "Denbu",
+        "flossy pork",
+        "meat wool",
+        "pork floss",
+        "pork sung",
+        "rousong",
+        "yuk sung"
+      ],
+      "popularity": 50667,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Meat floss"
+    },
+    {
+      "name": "Osechi",
+      "aliases": [
+        "osechi ryōri"
+      ],
+      "popularity": 53102,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Osechi"
+    },
+    {
+      "name": "Chicken katsu",
+      "aliases": [
+        "chicken cutlet",
+        "torikatsu"
+      ],
+      "popularity": 83555,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Chicken katsu"
+    },
+    {
+      "name": "Yakitori",
+      "aliases": [],
+      "popularity": 88754,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Yakitori"
+    },
+    {
+      "name": "Omurice",
+      "aliases": [
+        "omelette rice",
+        "omu-rice",
+        "omuraisu"
+      ],
+      "popularity": 89357,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Omurice"
+    },
+    {
+      "name": "Yakiniku",
+      "aliases": [],
+      "popularity": 93076,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Yakiniku"
+    },
+    {
+      "name": "Kaiseki",
+      "aliases": [
+        "cha-kaiseki"
+      ],
+      "popularity": 94434,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Kaiseki"
+    },
+    {
+      "name": "Tonkatsu",
+      "aliases": [],
+      "popularity": 118789,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Tonkatsu"
+    },
+    {
+      "name": "Dashi",
+      "aliases": [],
+      "popularity": 182163,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Dashi"
+    },
+    {
+      "name": "Takoyaki",
+      "aliases": [],
+      "popularity": 208628,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Takoyaki"
+    },
+    {
+      "name": "Edamame",
+      "aliases": [],
+      "popularity": 427909,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Edamame"
+    }
+  ]
+}

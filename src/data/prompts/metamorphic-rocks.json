@@ -1,0 +1,283 @@
+{
+  "id": "metamorphic-rocks",
+  "slug": "metamorphic-rocks",
+  "category": "science",
+  "question": "Name a metamorphic rock",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Fruchtschiefer",
+      "aliases": [],
+      "popularity": 234,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Fruchtschiefer"
+    },
+    {
+      "name": "Halleflinta",
+      "aliases": [],
+      "popularity": 500,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Halleflinta"
+    },
+    {
+      "name": "Itabirite",
+      "aliases": [],
+      "popularity": 1677,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Itabirite"
+    },
+    {
+      "name": "Fenite",
+      "aliases": [],
+      "popularity": 1678,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Fenite"
+    },
+    {
+      "name": "Epidosite",
+      "aliases": [],
+      "popularity": 1690,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Epidosite"
+    },
+    {
+      "name": "Granofels",
+      "aliases": [],
+      "popularity": 1771,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Granofels"
+    },
+    {
+      "name": "Calc–silicate rock",
+      "aliases": [
+        "lime-silicate rock"
+      ],
+      "popularity": 1971,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Calc–silicate rock"
+    },
+    {
+      "name": "Tectonite",
+      "aliases": [],
+      "popularity": 2562,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Tectonite"
+    },
+    {
+      "name": "Metavolcanic rock",
+      "aliases": [],
+      "popularity": 2959,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Metavolcanic rock"
+    },
+    {
+      "name": "Pseudotachylyte",
+      "aliases": [
+        "Pseudotachylite"
+      ],
+      "popularity": 2988,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Pseudotachylyte"
+    },
+    {
+      "name": "Khondalite",
+      "aliases": [],
+      "popularity": 3529,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Khondalite"
+    },
+    {
+      "name": "Jadeitite",
+      "aliases": [],
+      "popularity": 3605,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Jadeitite"
+    },
+    {
+      "name": "Metasedimentary rock",
+      "aliases": [],
+      "popularity": 4176,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Metasedimentary rock"
+    },
+    {
+      "name": "Listwanite",
+      "aliases": [
+        "listvenite",
+        "listwaenite"
+      ],
+      "popularity": 5509,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Listwanite"
+    },
+    {
+      "name": "Nuummite",
+      "aliases": [],
+      "popularity": 6392,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Nuummite"
+    },
+    {
+      "name": "Granulite",
+      "aliases": [],
+      "popularity": 7120,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Granulite"
+    },
+    {
+      "name": "Anyolite",
+      "aliases": [],
+      "popularity": 7437,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Anyolite"
+    },
+    {
+      "name": "Suevite",
+      "aliases": [],
+      "popularity": 9814,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Suevite"
+    },
+    {
+      "name": "Eclogite",
+      "aliases": [],
+      "popularity": 13439,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Eclogite"
+    },
+    {
+      "name": "Amphibolite",
+      "aliases": [],
+      "popularity": 20888,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Amphibolite"
+    },
+    {
+      "name": "Unakite",
+      "aliases": [],
+      "popularity": 24110,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Unakite"
+    },
+    {
+      "name": "Emery",
+      "aliases": [
+        "corundite",
+        "Emery (rock)"
+      ],
+      "popularity": 32730,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Emery (rock)"
+    },
+    {
+      "name": "Tektite",
+      "aliases": [],
+      "popularity": 73980,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Tektite"
+    },
+    {
+      "name": "Serpentinite",
+      "aliases": [],
+      "popularity": 76065,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Serpentinite"
+    },
+    {
+      "name": "Quartzite",
+      "aliases": [
+        "recrystallized sandstone"
+      ],
+      "popularity": 83764,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Quartzite"
+    },
+    {
+      "name": "Schist",
+      "aliases": [
+        "crystalline schist",
+        "crystalline shales"
+      ],
+      "popularity": 86024,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Schist"
+    },
+    {
+      "name": "Fulgurite",
+      "aliases": [
+        "petrified lightening"
+      ],
+      "popularity": 101205,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Fulgurite"
+    },
+    {
+      "name": "Soapstone",
+      "aliases": [
+        "massive talc",
+        "soaprock",
+        "soapstone silicate",
+        "steatite"
+      ],
+      "popularity": 113340,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Soapstone"
+    },
+    {
+      "name": "Marble",
+      "aliases": [
+        "recrystallized limestone"
+      ],
+      "popularity": 189550,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Marble"
+    },
+    {
+      "name": "Jade",
+      "aliases": [],
+      "popularity": 296898,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Jade"
+    },
+    {
+      "name": "Lapis lazuli",
+      "aliases": [
+        "lapis"
+      ],
+      "popularity": 532700,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Lapis lazuli"
+    }
+  ]
+}

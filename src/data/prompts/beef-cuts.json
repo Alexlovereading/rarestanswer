@@ -1,0 +1,246 @@
+{
+  "id": "beef-cuts",
+  "slug": "beef-cuts",
+  "category": "food",
+  "question": "Name a cut of beef",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Tournedos",
+      "aliases": [
+        "Tournedos (meat cut)"
+      ],
+      "popularity": 1105,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Tournedos (meat cut)"
+    },
+    {
+      "name": "Fricandeau",
+      "aliases": [
+        "girello"
+      ],
+      "popularity": 1695,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Fricandeau"
+    },
+    {
+      "name": "Beef cheek",
+      "aliases": [],
+      "popularity": 4971,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Beef cheek"
+    },
+    {
+      "name": "Bottom sirloin",
+      "aliases": [],
+      "popularity": 7287,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Bottom sirloin"
+    },
+    {
+      "name": "Blade steak",
+      "aliases": [],
+      "popularity": 11855,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Blade steak"
+    },
+    {
+      "name": "Baseball steak",
+      "aliases": [
+        "center cut top sirloin steak"
+      ],
+      "popularity": 19685,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Baseball steak"
+    },
+    {
+      "name": "Short loin",
+      "aliases": [
+        "sirloin"
+      ],
+      "popularity": 20543,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Short loin"
+    },
+    {
+      "name": "Silverside",
+      "aliases": [
+        "Silverside (beef)"
+      ],
+      "popularity": 29084,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Silverside (beef)"
+    },
+    {
+      "name": "Top sirloin",
+      "aliases": [
+        "Alcatra",
+        "top sirloin steak"
+      ],
+      "popularity": 29205,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Top sirloin"
+    },
+    {
+      "name": "Tafelspitz",
+      "aliases": [
+        "boiled fillet",
+        "cap of rump"
+      ],
+      "popularity": 36643,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Tafelspitz"
+    },
+    {
+      "name": "Beef shank",
+      "aliases": [
+        "shank"
+      ],
+      "popularity": 39632,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Beef shank"
+    },
+    {
+      "name": "Beef tongue",
+      "aliases": [
+        "neat's tongue",
+        "ox tongue"
+      ],
+      "popularity": 41091,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Beef tongue"
+    },
+    {
+      "name": "Rib steak",
+      "aliases": [
+        "beef rib",
+        "Tomahawk steak"
+      ],
+      "popularity": 52755,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Rib steak"
+    },
+    {
+      "name": "Rump steak",
+      "aliases": [],
+      "popularity": 58967,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Rump steak"
+    },
+    {
+      "name": "Flat iron steak",
+      "aliases": [
+        "oyster blade steak"
+      ],
+      "popularity": 77908,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Flat iron steak"
+    },
+    {
+      "name": "Chuck steak",
+      "aliases": [],
+      "popularity": 78428,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Chuck steak"
+    },
+    {
+      "name": "Beefsteak",
+      "aliases": [
+        "beef steak"
+      ],
+      "popularity": 80027,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Beefsteak"
+    },
+    {
+      "name": "Entrecôte",
+      "aliases": [],
+      "popularity": 91978,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Entrecôte"
+    },
+    {
+      "name": "Flank steak",
+      "aliases": [],
+      "popularity": 123975,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Flank steak"
+    },
+    {
+      "name": "Oxtail",
+      "aliases": [
+        "cow's tail"
+      ],
+      "popularity": 124681,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Oxtail"
+    },
+    {
+      "name": "Beef tenderloin",
+      "aliases": [
+        "beef fillet",
+        "fillet",
+        "tenderloin"
+      ],
+      "popularity": 135418,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Beef tenderloin"
+    },
+    {
+      "name": "Sirloin steak",
+      "aliases": [],
+      "popularity": 168725,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Sirloin steak"
+    },
+    {
+      "name": "Picanha",
+      "aliases": [],
+      "popularity": 171113,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Picanha"
+    },
+    {
+      "name": "Chateaubriand",
+      "aliases": [
+        "Chateaubriand (dish)",
+        "Chateaubriand steak"
+      ],
+      "popularity": 177182,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Chateaubriand (dish)"
+    },
+    {
+      "name": "Brisket",
+      "aliases": [],
+      "popularity": 204578,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Brisket"
+    }
+  ]
+}

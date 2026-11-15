@@ -1,0 +1,191 @@
+{
+  "id": "german-states",
+  "slug": "german-states",
+  "category": "geography",
+  "question": "Name a state of Germany",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Bremen",
+      "aliases": [
+        "Bremen (state)",
+        "Free Hanseatic City of Bremen"
+      ],
+      "popularity": 118025,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Bremen (state)"
+    },
+    {
+      "name": "Brandenburg",
+      "aliases": [
+        "Land Brandenburg",
+        "State of Brandenburg"
+      ],
+      "popularity": 224182,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Brandenburg"
+    },
+    {
+      "name": "Saarland",
+      "aliases": [
+        "DE-SL"
+      ],
+      "popularity": 225505,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Saarland"
+    },
+    {
+      "name": "Mecklenburg-Vorpommern",
+      "aliases": [
+        "Mecklenburg-West Pomerania",
+        "Mecklenburg–Western Pomerania"
+      ],
+      "popularity": 242172,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Mecklenburg-Vorpommern"
+    },
+    {
+      "name": "Rhineland-Palatinate",
+      "aliases": [
+        "DE-RP",
+        "Rheinland-Pfalz",
+        "RLP"
+      ],
+      "popularity": 285715,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Rhineland-Palatinate"
+    },
+    {
+      "name": "Schleswig-Holstein",
+      "aliases": [
+        "DE-SH",
+        "Slesvig-Holstein"
+      ],
+      "popularity": 289599,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Schleswig-Holstein"
+    },
+    {
+      "name": "Hesse",
+      "aliases": [
+        "Greater-Hessen",
+        "Hassen",
+        "Hassia",
+        "Hessen",
+        "Land Hessen",
+        "State of Hessen"
+      ],
+      "popularity": 292246,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Hesse"
+    },
+    {
+      "name": "Lower Saxony",
+      "aliases": [
+        "DE-NI",
+        "State of Lower Saxony"
+      ],
+      "popularity": 336592,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Lower Saxony"
+    },
+    {
+      "name": "Thuringia",
+      "aliases": [
+        "DE-TH",
+        "Free State of Thuringia",
+        "Thüringen"
+      ],
+      "popularity": 338504,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Thuringia"
+    },
+    {
+      "name": "Saxony",
+      "aliases": [
+        "DE-SN",
+        "Free State of Saxony",
+        "Sachsen",
+        "Sakska"
+      ],
+      "popularity": 362133,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Saxony"
+    },
+    {
+      "name": "North Rhine-Westphalia",
+      "aliases": [
+        "Nordrhein-Westfalen"
+      ],
+      "popularity": 470095,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "North Rhine-Westphalia"
+    },
+    {
+      "name": "Baden-Württemberg",
+      "aliases": [
+        "BaWü",
+        "Land Baden-Württemberg",
+        "The Länd"
+      ],
+      "popularity": 476128,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Baden-Württemberg"
+    },
+    {
+      "name": "Saxony-Anhalt",
+      "aliases": [
+        "DE-ST",
+        "Land Sachsen-Anhalt"
+      ],
+      "popularity": 488599,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Saxony-Anhalt"
+    },
+    {
+      "name": "Hamburg",
+      "aliases": [],
+      "popularity": 681347,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Hamburg"
+    },
+    {
+      "name": "Bavaria",
+      "aliases": [
+        "Bayern",
+        "Free State of Bavaria",
+        "Freistaat Bayern",
+        "Freistoot Bayern",
+        "State of Bavaria"
+      ],
+      "popularity": 819425,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Bavaria"
+    },
+    {
+      "name": "Berlin",
+      "aliases": [
+        "DE-BE"
+      ],
+      "popularity": 1527941,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Berlin"
+    }
+  ]
+}

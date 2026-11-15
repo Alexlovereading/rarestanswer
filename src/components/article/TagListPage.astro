@@ -7,7 +7,7 @@
  */
 import { Icon } from 'astro-icon/components';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
-import ArticleCover from '~/components/article/ArticleCover.astro';
+import ArticleCard from '~/components/article/ArticleCard.astro';
 import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { getEntriesByTag, localesForTag, parseEntryId, tagLabelFor } from '~/lib/content';
@@ -82,24 +82,22 @@ const jsonLd = [
           <p class="mt-3 text-muted-foreground">{shared.noArticles}</p>
         </div>
       ) : (
-        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {entries.map((entry) => {
             const parsed = parseEntryId(entry.id);
             const category = parsed?.category ?? '';
+            const meta = entry.data.lastModified
+              ? `${shared.lastUpdated}: ${entry.data.lastModified.toLocaleDateString(locale, { timeZone: 'UTC' })}`
+              : `${shared.publishedOn}: ${entry.data.date.toLocaleDateString(locale, { timeZone: 'UTC' })}`;
             return (
-              <a href={detailPath(category, parsed?.slug ?? '', locale)} class="card flex h-full flex-col p-5">
-                {entry.data.image && <ArticleCover src={entry.data.image} />}
-                <p class="text-xs font-semibold uppercase tracking-wider text-nav">{navLabels[category] ?? category}</p>
-                <h2 class="mt-1 font-semibold leading-snug">{entry.data.title}</h2>
-                <p class="mt-1 line-clamp-2 text-sm text-muted-foreground">
-                  {entry.data.description}
-                </p>
-                <p class="mt-3 text-xs text-muted-foreground">
-                  {entry.data.lastModified
-                    ? `${shared.lastUpdated}: ${entry.data.lastModified.toLocaleDateString(locale, { timeZone: 'UTC' })}`
-                    : `${shared.publishedOn}: ${entry.data.date.toLocaleDateString(locale, { timeZone: 'UTC' })}`}
-                </p>
-              </a>
+              <ArticleCard
+                href={detailPath(category, parsed?.slug ?? '', locale)}
+                title={entry.data.title}
+                description={entry.data.description}
+                meta={meta}
+                categoryLabel={navLabels[category] ?? category}
+                image={entry.data.image}
+              />
             );
           })}
         </div>

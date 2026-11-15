@@ -1,0 +1,509 @@
+{
+  "id": "holy-roman-emperors",
+  "slug": "holy-roman-emperors",
+  "category": "history",
+  "question": "Name a Holy Roman Emperor",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Lambert of Italy",
+      "aliases": [
+        "Lambert II of Spoleto",
+        "Lamberto da Spoleto",
+        "Lambertus"
+      ],
+      "popularity": 8358,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Lambert of Italy"
+    },
+    {
+      "name": "Joseph II",
+      "aliases": [
+        "Josef II"
+      ],
+      "popularity": 19550,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Joseph II"
+    },
+    {
+      "name": "Louis the Blind",
+      "aliases": [
+        "Louis III",
+        "Louis III the Blind",
+        "Ludovicus"
+      ],
+      "popularity": 34394,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Louis the Blind"
+    },
+    {
+      "name": "Lothair III, Holy Roman Emperor",
+      "aliases": [
+        "Lothair III"
+      ],
+      "popularity": 34527,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Lothair III, Holy Roman Emperor"
+    },
+    {
+      "name": "Guy III of Spoleto",
+      "aliases": [
+        "Guido da Spoleto",
+        "Guido II di Spoleto",
+        "Guido III di Spoleto"
+      ],
+      "popularity": 36924,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Guy III of Spoleto"
+    },
+    {
+      "name": "Berengar I of Italy",
+      "aliases": [
+        "Berengar",
+        "Berengario I",
+        "Berengarius",
+        "Berenger I",
+        "Perngarius"
+      ],
+      "popularity": 47767,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Berengar I of Italy"
+    },
+    {
+      "name": "Otto IV, Holy Roman Emperor",
+      "aliases": [
+        "Oton IV.a Brunswickekoa",
+        "Otto IV von Braunschweig"
+      ],
+      "popularity": 50174,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Otto IV, Holy Roman Emperor"
+    },
+    {
+      "name": "Otto II, Holy Roman Emperor",
+      "aliases": [
+        "Otto II",
+        "Otto II Rufus",
+        "Otto Rufus",
+        "Otto the Red"
+      ],
+      "popularity": 60060,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Otto II, Holy Roman Emperor"
+    },
+    {
+      "name": "Otto III, Holy Roman Emperor",
+      "aliases": [
+        "Otto III",
+        "Otto III Mirabilia mundi",
+        "Otto Mirabilia mundi"
+      ],
+      "popularity": 69942,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Otto III, Holy Roman Emperor"
+    },
+    {
+      "name": "Conrad II, Holy Roman Emperor",
+      "aliases": [
+        "Conrad II",
+        "Conradus II"
+      ],
+      "popularity": 73770,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Conrad II, Holy Roman Emperor"
+    },
+    {
+      "name": "Henry III, Holy Roman Emperor",
+      "aliases": [
+        "Henricus III",
+        "Henricus Pius",
+        "Henry III"
+      ],
+      "popularity": 76667,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Henry III, Holy Roman Emperor"
+    },
+    {
+      "name": "Henry VII, Holy Roman Emperor",
+      "aliases": [
+        "Heinrich VII",
+        "Henry VII of Luxembourg"
+      ],
+      "popularity": 80076,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Henry VII, Holy Roman Emperor"
+    },
+    {
+      "name": "Henry V, Holy Roman Emperor",
+      "aliases": [
+        "Henricus V",
+        "Henry V",
+        "Holy Roman Emperor Heinrich V",
+        "Holy Roman Emperor Henry V"
+      ],
+      "popularity": 83279,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Henry V, Holy Roman Emperor"
+    },
+    {
+      "name": "Louis IV, Holy Roman Emperor",
+      "aliases": [
+        "Holy Roman Emperor Louis IV",
+        "Louis IV of Bavaria",
+        "Ludwig IV. der Bayern",
+        "the Bavarian"
+      ],
+      "popularity": 90162,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Louis IV, Holy Roman Emperor"
+    },
+    {
+      "name": "Henry II, Holy Roman Emperor",
+      "aliases": [
+        "Henricus II",
+        "Henry II",
+        "Holy Roman Emperor Heinrich II",
+        "Holy Roman Emperor Henry II",
+        "Saint Henry"
+      ],
+      "popularity": 92432,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Henry II, Holy Roman Emperor"
+    },
+    {
+      "name": "Matthias, Holy Roman Emperor",
+      "aliases": [
+        "Emperor Matthias"
+      ],
+      "popularity": 107314,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Matthias, Holy Roman Emperor"
+    },
+    {
+      "name": "Henry VI, Holy Roman Emperor",
+      "aliases": [
+        "Henry VI",
+        "Holy Roman Emperor Henry VI",
+        "King of Sicily Henry VI"
+      ],
+      "popularity": 126839,
+      "rarity": 0.59,
+      "tier": 3,
+      "wiki": "Henry VI, Holy Roman Emperor"
+    },
+    {
+      "name": "Charles VII, Holy Roman Emperor",
+      "aliases": [
+        "Carolus Albertus",
+        "Carolus VII",
+        "Charles Albert",
+        "Charles VII",
+        "Elector of Bavaria Charles Albert",
+        "Elector of Bavaria Karl Albrecht",
+        "empereur germanique Charles VII",
+        "Holy Roman Emperor Charles VII",
+        "Holy Roman Emperor Karl VII",
+        "Karl Albrecht",
+        "Karl VII"
+      ],
+      "popularity": 130430,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Charles VII, Holy Roman Emperor"
+    },
+    {
+      "name": "Joseph I, Holy Roman Emperor",
+      "aliases": [
+        "Josef I"
+      ],
+      "popularity": 131941,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Joseph I, Holy Roman Emperor"
+    },
+    {
+      "name": "Ferdinand III, Holy Roman Emperor",
+      "aliases": [
+        "Ferdinand III"
+      ],
+      "popularity": 152564,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Ferdinand III, Holy Roman Emperor"
+    },
+    {
+      "name": "Maximilian II, Holy Roman Emperor",
+      "aliases": [
+        "Maximilian II",
+        "Maximilian of Austria"
+      ],
+      "popularity": 153500,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Maximilian II, Holy Roman Emperor"
+    },
+    {
+      "name": "Rudolf II, Holy Roman Emperor",
+      "aliases": [
+        "Emperor Rudolf II",
+        "Rudolf II van Habsburg",
+        "Rudolph II"
+      ],
+      "popularity": 169112,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Rudolf II, Holy Roman Emperor"
+    },
+    {
+      "name": "Ferdinand II, Holy Roman Emperor",
+      "aliases": [
+        "Emperor of Germany Ferdinand II",
+        "Ferdinand II",
+        "Holy Roman Emperor Ferdinand II"
+      ],
+      "popularity": 169988,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Ferdinand II, Holy Roman Emperor"
+    },
+    {
+      "name": "Otto the Great",
+      "aliases": [
+        "Otto I",
+        "Otto I Magnus",
+        "Otto I the Great",
+        "Otto Magnus"
+      ],
+      "popularity": 185808,
+      "rarity": 0.41,
+      "tier": 3,
+      "wiki": "Otto the Great"
+    },
+    {
+      "name": "Henry IV, Holy Roman Emperor",
+      "aliases": [
+        "Henry IV"
+      ],
+      "popularity": 189326,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Henry IV, Holy Roman Emperor"
+    },
+    {
+      "name": "Frederick III, Holy Roman Emperor",
+      "aliases": [
+        "Frederick III",
+        "Frederick the Peaceful",
+        "King Frederick IV of Germany"
+      ],
+      "popularity": 224046,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Frederick III, Holy Roman Emperor"
+    },
+    {
+      "name": "Charles the Bald",
+      "aliases": [
+        "Carlus Calvus",
+        "Carolus Calvus",
+        "Charles II",
+        "Charles II The Bald"
+      ],
+      "popularity": 225452,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Charles the Bald"
+    },
+    {
+      "name": "Charles IV, Holy Roman Emperor",
+      "aliases": [
+        "Charles I of Bohemia",
+        "Charles IV",
+        "Charles of Luxembourg",
+        "Karl IV.",
+        "Karl von Luxemburg"
+      ],
+      "popularity": 268859,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Charles IV, Holy Roman Emperor"
+    },
+    {
+      "name": "Ferdinand I, Holy Roman Emperor",
+      "aliases": [],
+      "popularity": 281439,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Ferdinand I, Holy Roman Emperor"
+    },
+    {
+      "name": "Charles VI, Holy Roman Emperor",
+      "aliases": [
+        "Charles VI",
+        "empereur germanique Charles VI",
+        "Holy Roman Emperor Charles VI",
+        "Holy Roman Emperor Karl VI",
+        "Karl VI",
+        "keizer van Duitsland Karl VI",
+        "King of Spain Charles III"
+      ],
+      "popularity": 285884,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Charles VI, Holy Roman Emperor"
+    },
+    {
+      "name": "Leopold I, Holy Roman Emperor",
+      "aliases": [
+        "Leopold Ignaz Joseph Balthasar Felician"
+      ],
+      "popularity": 291750,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Leopold I, Holy Roman Emperor"
+    },
+    {
+      "name": "Francis I, Holy Roman Emperor",
+      "aliases": [
+        "empereur germanique François I",
+        "Emperor of Germany Franz I",
+        "Franz Stephan von Lothringen",
+        "Holy Roman Emperor Francis I",
+        "Holy Roman Emperor Francis Stephen",
+        "Holy Roman Emperor Franz Stephan"
+      ],
+      "popularity": 299816,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Francis I, Holy Roman Emperor"
+    },
+    {
+      "name": "Leopold II, Holy Roman Emperor",
+      "aliases": [
+        "empereur germanique Léopold II",
+        "Emperor of Germany Leopold II",
+        "granduca di Toscana Leopoldo I",
+        "Holy Roman Emperor Leopold II",
+        "King of Hungary Lipót II",
+        "Leopold II"
+      ],
+      "popularity": 300740,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Leopold II, Holy Roman Emperor"
+    },
+    {
+      "name": "Maximilian I, Holy Roman Emperor",
+      "aliases": [
+        "Maximilian I"
+      ],
+      "popularity": 349523,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Maximilian I, Holy Roman Emperor"
+    },
+    {
+      "name": "Frederick II, Holy Roman Emperor",
+      "aliases": [
+        "Federico II",
+        "Frederick II",
+        "Frederick of Hohenstaufen",
+        "Friedrich II",
+        "Friedrich II von Hohenstaufen"
+      ],
+      "popularity": 352465,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Frederick II, Holy Roman Emperor"
+    },
+    {
+      "name": "Frederick Barbarossa",
+      "aliases": [
+        "Aënobarbus",
+        "Barbarossa",
+        "Frederick I Barbarossa",
+        "Fridericus Aënobarbus",
+        "Fridericus I Aënobarbus",
+        "Holy Roman Emperor Frederick I"
+      ],
+      "popularity": 368033,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Frederick Barbarossa"
+    },
+    {
+      "name": "Sigismund, Holy Roman Emperor",
+      "aliases": [
+        "Sigismund",
+        "Super-Grammaticam"
+      ],
+      "popularity": 439292,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Sigismund, Holy Roman Emperor"
+    },
+    {
+      "name": "Francis II, Holy Roman Emperor",
+      "aliases": [
+        "Francis I of Austria",
+        "Francis II"
+      ],
+      "popularity": 551501,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Francis II, Holy Roman Emperor"
+    },
+    {
+      "name": "Charles V, Holy Roman Emperor",
+      "aliases": [
+        "Carlos I",
+        "Carlos V",
+        "Charles I of Spain",
+        "Don Carlos",
+        "Emperor Charles V",
+        "Emperor Karl V",
+        "Holy Roman Emperor Charles V",
+        "Karl V.",
+        "King Carlos",
+        "King Carlos I",
+        "King Charles",
+        "King Charles I"
+      ],
+      "popularity": 1039785,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Charles V, Holy Roman Emperor"
+    },
+    {
+      "name": "Charlemagne",
+      "aliases": [
+        "Carlus Magnus",
+        "Charlemagne the Franc",
+        "Charles the Great",
+        "Emperor Charlemagne",
+        "Karl the Great",
+        "Karolus Magnus"
+      ],
+      "popularity": 1702306,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Charlemagne"
+    }
+  ]
+}

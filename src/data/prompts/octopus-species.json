@@ -1,0 +1,1494 @@
+{
+  "id": "octopus-species",
+  "slug": "octopus-species",
+  "category": "animals",
+  "question": "Name a species of octopus",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Octopus jollyorum",
+      "aliases": [],
+      "popularity": 28,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Octopus jollyorum"
+    },
+    {
+      "name": "Sasakiopus salebrosus",
+      "aliases": [],
+      "popularity": 48,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Sasakiopus salebrosus"
+    },
+    {
+      "name": "Velodona togata",
+      "aliases": [
+        "Velodona togata togata"
+      ],
+      "popularity": 54,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Velodona togata"
+    },
+    {
+      "name": "Graneledone challengeri",
+      "aliases": [],
+      "popularity": 74,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Graneledone challengeri"
+    },
+    {
+      "name": "Euaxoctopus pillsburyae",
+      "aliases": [],
+      "popularity": 123,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Euaxoctopus pillsburyae"
+    },
+    {
+      "name": "Macroctopus maorum",
+      "aliases": [
+        "Octopus maorum"
+      ],
+      "popularity": 192,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Macroctopus maorum"
+    },
+    {
+      "name": "Thaumeledone gunteri",
+      "aliases": [],
+      "popularity": 195,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Thaumeledone gunteri"
+    },
+    {
+      "name": "Pinnoctopus rapanui",
+      "aliases": [
+        "Callistoctopus rapanui"
+      ],
+      "popularity": 203,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Pinnoctopus rapanui"
+    },
+    {
+      "name": "Eledone nigra",
+      "aliases": [],
+      "popularity": 210,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Eledone nigra"
+    },
+    {
+      "name": "Argonauta pacifica",
+      "aliases": [],
+      "popularity": 233,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Argonauta pacifica"
+    },
+    {
+      "name": "Pinnoctopus bunurong",
+      "aliases": [
+        "Callistoctopus bunurong",
+        "Southern white-spot octopus"
+      ],
+      "popularity": 235,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Pinnoctopus bunurong"
+    },
+    {
+      "name": "Graneledone yamana",
+      "aliases": [],
+      "popularity": 245,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Graneledone yamana"
+    },
+    {
+      "name": "Amphioctopus siamensis",
+      "aliases": [],
+      "popularity": 256,
+      "rarity": 0.93,
+      "tier": 5,
+      "wiki": "Amphioctopus siamensis"
+    },
+    {
+      "name": "Eledone gaucha",
+      "aliases": [],
+      "popularity": 258,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Eledone gaucha"
+    },
+    {
+      "name": "Eledone palari",
+      "aliases": [],
+      "popularity": 262,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Eledone palari"
+    },
+    {
+      "name": "Opisthoteuthis hardyi",
+      "aliases": [],
+      "popularity": 281,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Opisthoteuthis hardyi"
+    },
+    {
+      "name": "Pinnoctopus kermadecensis",
+      "aliases": [],
+      "popularity": 281,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Pinnoctopus kermadecensis"
+    },
+    {
+      "name": "Eledone microsicya",
+      "aliases": [],
+      "popularity": 287,
+      "rarity": 0.901,
+      "tier": 5,
+      "wiki": "Eledone microsicya"
+    },
+    {
+      "name": "Eledone caparti",
+      "aliases": [],
+      "popularity": 292,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Eledone caparti"
+    },
+    {
+      "name": "Argonauta cornuta",
+      "aliases": [],
+      "popularity": 315,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Argonauta cornuta"
+    },
+    {
+      "name": "Octopus variabilis",
+      "aliases": [],
+      "popularity": 320,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Octopus variabilis"
+    },
+    {
+      "name": "Euaxoctopus panamensis",
+      "aliases": [],
+      "popularity": 324,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Euaxoctopus panamensis"
+    },
+    {
+      "name": "Eledone massyae",
+      "aliases": [],
+      "popularity": 326,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Eledone massyae"
+    },
+    {
+      "name": "Opisthoteuthis kerberos",
+      "aliases": [],
+      "popularity": 326,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Opisthoteuthis kerberos"
+    },
+    {
+      "name": "Teretoctopus indicus",
+      "aliases": [],
+      "popularity": 328,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Teretoctopus indicus"
+    },
+    {
+      "name": "Insigniteuthis obscura",
+      "aliases": [],
+      "popularity": 338,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Insigniteuthis obscura"
+    },
+    {
+      "name": "Abdopus undulatus",
+      "aliases": [],
+      "popularity": 349,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Abdopus undulatus"
+    },
+    {
+      "name": "Opisthoteuthis dongshaensis",
+      "aliases": [],
+      "popularity": 352,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Opisthoteuthis dongshaensis"
+    },
+    {
+      "name": "Amphioctopus exannulatus",
+      "aliases": [],
+      "popularity": 353,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Amphioctopus exannulatus"
+    },
+    {
+      "name": "Bathypolypus rubrostictus",
+      "aliases": [],
+      "popularity": 382,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Bathypolypus rubrostictus"
+    },
+    {
+      "name": "Amphioctopus kagoshimensis",
+      "aliases": [],
+      "popularity": 383,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Amphioctopus kagoshimensis"
+    },
+    {
+      "name": "Opisthoteuthis robsoni",
+      "aliases": [],
+      "popularity": 386,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "Opisthoteuthis robsoni"
+    },
+    {
+      "name": "Luteuthis shuishi",
+      "aliases": [],
+      "popularity": 398,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Luteuthis shuishi"
+    },
+    {
+      "name": "Opisthoteuthis philipii",
+      "aliases": [],
+      "popularity": 401,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Opisthoteuthis philipii"
+    },
+    {
+      "name": "Eledone schultzei",
+      "aliases": [
+        "Aphrodoctopus schultzei",
+        "Eledone thysanophora"
+      ],
+      "popularity": 402,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Eledone schultzei"
+    },
+    {
+      "name": "Opisthoteuthis pluto",
+      "aliases": [],
+      "popularity": 402,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Opisthoteuthis pluto"
+    },
+    {
+      "name": "Opisthoteuthis japonica",
+      "aliases": [],
+      "popularity": 408,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Opisthoteuthis japonica"
+    },
+    {
+      "name": "Abdopus tonganus",
+      "aliases": [],
+      "popularity": 423,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Abdopus tonganus"
+    },
+    {
+      "name": "Microeledone mangoldi",
+      "aliases": [],
+      "popularity": 423,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Microeledone mangoldi"
+    },
+    {
+      "name": "Opisthoteuthis massyae",
+      "aliases": [],
+      "popularity": 436,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "Opisthoteuthis massyae"
+    },
+    {
+      "name": "Bolitaena pygmaea",
+      "aliases": [],
+      "popularity": 443,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Bolitaena pygmaea"
+    },
+    {
+      "name": "Vitreledonella alberti",
+      "aliases": [],
+      "popularity": 460,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Vitreledonella alberti"
+    },
+    {
+      "name": "Graneledone taniwha",
+      "aliases": [],
+      "popularity": 462,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Graneledone taniwha"
+    },
+    {
+      "name": "Stauroteuthis kengrahami",
+      "aliases": [],
+      "popularity": 466,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Stauroteuthis kengrahami"
+    },
+    {
+      "name": "Octopus sasakii",
+      "aliases": [],
+      "popularity": 476,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Octopus sasakii"
+    },
+    {
+      "name": "Robsonella huttoni",
+      "aliases": [],
+      "popularity": 478,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Robsonella huttoni"
+    },
+    {
+      "name": "Luteuthis dentatus",
+      "aliases": [],
+      "popularity": 484,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Luteuthis dentatus"
+    },
+    {
+      "name": "Abdopus capricornicus",
+      "aliases": [],
+      "popularity": 498,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Abdopus capricornicus"
+    },
+    {
+      "name": "Octopus laqueus",
+      "aliases": [],
+      "popularity": 500,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Octopus laqueus"
+    },
+    {
+      "name": "Pinnoctopus luteus",
+      "aliases": [
+        "Callistoctopus luteus"
+      ],
+      "popularity": 500,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Pinnoctopus luteus"
+    },
+    {
+      "name": "Muusoctopus bizikovi",
+      "aliases": [],
+      "popularity": 506,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Muusoctopus bizikovi"
+    },
+    {
+      "name": "Octopus superciliosus",
+      "aliases": [],
+      "popularity": 508,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Octopus superciliosus"
+    },
+    {
+      "name": "Amphioctopus neglectus",
+      "aliases": [],
+      "popularity": 512,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Amphioctopus neglectus"
+    },
+    {
+      "name": "Opisthoteuthis persephone",
+      "aliases": [],
+      "popularity": 515,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Opisthoteuthis persephone"
+    },
+    {
+      "name": "Scaeurgus unicirrhus",
+      "aliases": [],
+      "popularity": 525,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Scaeurgus unicirrhus"
+    },
+    {
+      "name": "Amphioctopus rex",
+      "aliases": [],
+      "popularity": 526,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Amphioctopus rex"
+    },
+    {
+      "name": "Opisthoteuthis borealis",
+      "aliases": [],
+      "popularity": 535,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Opisthoteuthis borealis"
+    },
+    {
+      "name": "Opisthoteuthis grimaldii",
+      "aliases": [],
+      "popularity": 538,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Opisthoteuthis grimaldii"
+    },
+    {
+      "name": "Octopus oliveri",
+      "aliases": [],
+      "popularity": 543,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Octopus oliveri"
+    },
+    {
+      "name": "Octopus vitiensis",
+      "aliases": [],
+      "popularity": 543,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Octopus vitiensis"
+    },
+    {
+      "name": "Cirroctopus mawsoni",
+      "aliases": [],
+      "popularity": 549,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Cirroctopus mawsoni"
+    },
+    {
+      "name": "Bathypurpurata",
+      "aliases": [
+        "Bathypurpurata profunda"
+      ],
+      "popularity": 552,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Bathypurpurata"
+    },
+    {
+      "name": "Adelieledone polymorpha",
+      "aliases": [],
+      "popularity": 555,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "Adelieledone polymorpha"
+    },
+    {
+      "name": "Opisthoteuthis mero",
+      "aliases": [],
+      "popularity": 561,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Opisthoteuthis mero"
+    },
+    {
+      "name": "Amphioctopus burryi",
+      "aliases": [],
+      "popularity": 569,
+      "rarity": 0.626,
+      "tier": 4,
+      "wiki": "Amphioctopus burryi"
+    },
+    {
+      "name": "Turquet's octopus",
+      "aliases": [
+        "Pareledone turqueti"
+      ],
+      "popularity": 586,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Turquet's octopus"
+    },
+    {
+      "name": "Cirroctopus glacialis",
+      "aliases": [],
+      "popularity": 601,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Cirroctopus glacialis"
+    },
+    {
+      "name": "Bathypolypus valdiviae",
+      "aliases": [],
+      "popularity": 632,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Bathypolypus valdiviae"
+    },
+    {
+      "name": "Bathypolypus sponsalis",
+      "aliases": [],
+      "popularity": 634,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Bathypolypus sponsalis"
+    },
+    {
+      "name": "Cirroctopus antarctica",
+      "aliases": [],
+      "popularity": 634,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Cirroctopus antarctica"
+    },
+    {
+      "name": "Opisthoteuthis medusoides",
+      "aliases": [],
+      "popularity": 634,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Opisthoteuthis medusoides"
+    },
+    {
+      "name": "Opisthoteuthis extensa",
+      "aliases": [],
+      "popularity": 698,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Opisthoteuthis extensa"
+    },
+    {
+      "name": "Octopus tehuelchus",
+      "aliases": [],
+      "popularity": 700,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Octopus tehuelchus"
+    },
+    {
+      "name": "Pinnoctopus ornatus",
+      "aliases": [
+        "Callistoctopus ornatus"
+      ],
+      "popularity": 720,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Pinnoctopus ornatus"
+    },
+    {
+      "name": "Cirroctopus hochbergi",
+      "aliases": [],
+      "popularity": 736,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Cirroctopus hochbergi"
+    },
+    {
+      "name": "Abdopus horridus",
+      "aliases": [],
+      "popularity": 739,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Abdopus horridus"
+    },
+    {
+      "name": "Argonauta bottgeri",
+      "aliases": [
+        "Argonauta boettgeri"
+      ],
+      "popularity": 760,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Argonauta bottgeri"
+    },
+    {
+      "name": "Grimpoteuthis tuftsi",
+      "aliases": [],
+      "popularity": 760,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Grimpoteuthis tuftsi"
+    },
+    {
+      "name": "Graneledone verrucosa",
+      "aliases": [],
+      "popularity": 774,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Graneledone verrucosa"
+    },
+    {
+      "name": "Grimpoteuthis plena",
+      "aliases": [],
+      "popularity": 788,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Grimpoteuthis plena"
+    },
+    {
+      "name": "Octopus oculifer",
+      "aliases": [],
+      "popularity": 793,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Octopus oculifer"
+    },
+    {
+      "name": "Cirroteuthis kirrilyae",
+      "aliases": [],
+      "popularity": 803,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Cirroteuthis kirrilyae"
+    },
+    {
+      "name": "Opisthoteuthis bruuni",
+      "aliases": [],
+      "popularity": 804,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Opisthoteuthis bruuni"
+    },
+    {
+      "name": "Abdopus abaculus",
+      "aliases": [
+        "Octopus abaculus"
+      ],
+      "popularity": 818,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Abdopus abaculus"
+    },
+    {
+      "name": "Grimpoteuthis meangensis",
+      "aliases": [],
+      "popularity": 834,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Grimpoteuthis meangensis"
+    },
+    {
+      "name": "Grimpoteuthis pacifica",
+      "aliases": [],
+      "popularity": 875,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Grimpoteuthis pacifica"
+    },
+    {
+      "name": "Grimpoteuthis innominata",
+      "aliases": [],
+      "popularity": 881,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Grimpoteuthis innominata"
+    },
+    {
+      "name": "Opisthoteuthis calypso",
+      "aliases": [],
+      "popularity": 885,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Opisthoteuthis calypso"
+    },
+    {
+      "name": "Octopus mercatoris",
+      "aliases": [],
+      "popularity": 903,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Octopus mercatoris"
+    },
+    {
+      "name": "Muusoctopus levis",
+      "aliases": [
+        "Benthoctopus levis"
+      ],
+      "popularity": 905,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Muusoctopus levis"
+    },
+    {
+      "name": "Grimpoteuthis wuelkeri",
+      "aliases": [],
+      "popularity": 906,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Grimpoteuthis wuelkeri"
+    },
+    {
+      "name": "Octopus hubbsorum",
+      "aliases": [],
+      "popularity": 936,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Octopus hubbsorum"
+    },
+    {
+      "name": "Octopus conispadiceus",
+      "aliases": [],
+      "popularity": 939,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Octopus conispadiceus"
+    },
+    {
+      "name": "Octopus pallidus",
+      "aliases": [],
+      "popularity": 967,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Octopus pallidus"
+    },
+    {
+      "name": "Stauroteuthis gilchristi",
+      "aliases": [],
+      "popularity": 969,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Stauroteuthis gilchristi"
+    },
+    {
+      "name": "Ocythoe tuberculata",
+      "aliases": [],
+      "popularity": 977,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Ocythoe tuberculata"
+    },
+    {
+      "name": "Octopus hawaiiensis",
+      "aliases": [],
+      "popularity": 1050,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "Octopus hawaiiensis"
+    },
+    {
+      "name": "Argonauta nouryi",
+      "aliases": [],
+      "popularity": 1073,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Argonauta nouryi"
+    },
+    {
+      "name": "Octopus californicus",
+      "aliases": [],
+      "popularity": 1092,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Octopus californicus"
+    },
+    {
+      "name": "Octopus salutii",
+      "aliases": [],
+      "popularity": 1108,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Octopus salutii"
+    },
+    {
+      "name": "Opisthoteuthis albatrossi",
+      "aliases": [],
+      "popularity": 1114,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Opisthoteuthis albatrossi"
+    },
+    {
+      "name": "Grimpoteuthis greeni",
+      "aliases": [],
+      "popularity": 1119,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Grimpoteuthis greeni"
+    },
+    {
+      "name": "Octopus bocki",
+      "aliases": [],
+      "popularity": 1126,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Octopus bocki"
+    },
+    {
+      "name": "Grimpoteuthis challengeri",
+      "aliases": [],
+      "popularity": 1196,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Grimpoteuthis challengeri"
+    },
+    {
+      "name": "Grimpoteuthis feitiana",
+      "aliases": [],
+      "popularity": 1238,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Grimpoteuthis feitiana"
+    },
+    {
+      "name": "Patagonian red octopus",
+      "aliases": [
+        "Enteroctopus megalocyathus"
+      ],
+      "popularity": 1260,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Patagonian red octopus"
+    },
+    {
+      "name": "Opisthoteuthis carnarvonensis",
+      "aliases": [
+        "O. carnarvonensis"
+      ],
+      "popularity": 1291,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Opisthoteuthis carnarvonensis"
+    },
+    {
+      "name": "Octopus kaurna",
+      "aliases": [],
+      "popularity": 1293,
+      "rarity": 0.374,
+      "tier": 2,
+      "wiki": "Octopus kaurna"
+    },
+    {
+      "name": "Grimpoteuthis megaptera",
+      "aliases": [],
+      "popularity": 1353,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Grimpoteuthis megaptera"
+    },
+    {
+      "name": "Grimpoteuthis boylei",
+      "aliases": [],
+      "popularity": 1375,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "Grimpoteuthis boylei"
+    },
+    {
+      "name": "Opisthoteuthis agassizii",
+      "aliases": [],
+      "popularity": 1384,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Opisthoteuthis agassizii"
+    },
+    {
+      "name": "Octopus insularis",
+      "aliases": [],
+      "popularity": 1388,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Octopus insularis"
+    },
+    {
+      "name": "Vulcanoctopus hydrothermalis",
+      "aliases": [],
+      "popularity": 1394,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Vulcanoctopus hydrothermalis"
+    },
+    {
+      "name": "Octopus mimus",
+      "aliases": [],
+      "popularity": 1402,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Octopus mimus"
+    },
+    {
+      "name": "Pinnoctopus cordiformis",
+      "aliases": [],
+      "popularity": 1405,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Pinnoctopus cordiformis"
+    },
+    {
+      "name": "Argonauta nodosa",
+      "aliases": [],
+      "popularity": 1419,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Argonauta nodosa"
+    },
+    {
+      "name": "Octopus australis",
+      "aliases": [
+        "hammer octopus",
+        "southern octopus"
+      ],
+      "popularity": 1427,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Octopus australis"
+    },
+    {
+      "name": "Amphioctopus mototi",
+      "aliases": [],
+      "popularity": 1457,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Amphioctopus mototi"
+    },
+    {
+      "name": "Japetella diaphana",
+      "aliases": [],
+      "popularity": 1502,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Japetella diaphana"
+    },
+    {
+      "name": "Grimpoteuthis umbellata",
+      "aliases": [],
+      "popularity": 1528,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Grimpoteuthis umbellata"
+    },
+    {
+      "name": "Macrotritopus defilippi",
+      "aliases": [],
+      "popularity": 1541,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Macrotritopus defilippi"
+    },
+    {
+      "name": "Grimpoteuthis imperator",
+      "aliases": [
+        "Emperor Dumbo octopus"
+      ],
+      "popularity": 1558,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Grimpoteuthis imperator"
+    },
+    {
+      "name": "Grimpoteuthis hippocrepium",
+      "aliases": [],
+      "popularity": 1574,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Grimpoteuthis hippocrepium"
+    },
+    {
+      "name": "Tremoctopus gelatus",
+      "aliases": [
+        "Gelatinous blanket octopus"
+      ],
+      "popularity": 1603,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Tremoctopus gelatus"
+    },
+    {
+      "name": "Amphioctopus aegina",
+      "aliases": [],
+      "popularity": 1607,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Amphioctopus aegina"
+    },
+    {
+      "name": "Octopus djinda",
+      "aliases": [],
+      "popularity": 1631,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Octopus djinda"
+    },
+    {
+      "name": "Grimpoteuthis angularis",
+      "aliases": [],
+      "popularity": 1883,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Grimpoteuthis angularis"
+    },
+    {
+      "name": "Pinnoctopus macropus",
+      "aliases": [
+        "Octopus macropus"
+      ],
+      "popularity": 1932,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Pinnoctopus macropus"
+    },
+    {
+      "name": "Enteroctopus magnificus",
+      "aliases": [
+        "southern giant octopus"
+      ],
+      "popularity": 1988,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Enteroctopus magnificus"
+    },
+    {
+      "name": "Grimpoteuthis discoveryi",
+      "aliases": [
+        "Dumbo octopus"
+      ],
+      "popularity": 2084,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Grimpoteuthis discoveryi"
+    },
+    {
+      "name": "Grimpoteuthis bathynectes",
+      "aliases": [],
+      "popularity": 2126,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Grimpoteuthis bathynectes"
+    },
+    {
+      "name": "Octopus chierchiae",
+      "aliases": [],
+      "popularity": 2156,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Octopus chierchiae"
+    },
+    {
+      "name": "Octopus maya",
+      "aliases": [
+        "Mexican four-eyed octopus"
+      ],
+      "popularity": 2300,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Octopus maya"
+    },
+    {
+      "name": "Enteroctopus zealandicus",
+      "aliases": [
+        "yellow octopus"
+      ],
+      "popularity": 2345,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Enteroctopus zealandicus"
+    },
+    {
+      "name": "Grimpoteuthis abyssicola",
+      "aliases": [],
+      "popularity": 2395,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Grimpoteuthis abyssicola"
+    },
+    {
+      "name": "Opisthoteuthis chathamensis",
+      "aliases": [],
+      "popularity": 2429,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Opisthoteuthis chathamensis"
+    },
+    {
+      "name": "Inopinoteuthis magna",
+      "aliases": [
+        "Cirrothauma magna"
+      ],
+      "popularity": 2440,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Inopinoteuthis magna"
+    },
+    {
+      "name": "Octopus bimaculatus",
+      "aliases": [],
+      "popularity": 2808,
+      "rarity": 0.199,
+      "tier": 1,
+      "wiki": "Octopus bimaculatus"
+    },
+    {
+      "name": "Cirroteuthis muelleri",
+      "aliases": [],
+      "popularity": 2942,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Cirroteuthis muelleri"
+    },
+    {
+      "name": "Bathypolypus arcticus",
+      "aliases": [],
+      "popularity": 3260,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Bathypolypus arcticus"
+    },
+    {
+      "name": "Telescope octopus",
+      "aliases": [
+        "Amphitretus pelagicus"
+      ],
+      "popularity": 3491,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Telescope octopus"
+    },
+    {
+      "name": "Cirrothauma murrayi",
+      "aliases": [],
+      "popularity": 3854,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Cirrothauma murrayi"
+    },
+    {
+      "name": "Octopus sinensis",
+      "aliases": [],
+      "popularity": 4065,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Octopus sinensis"
+    },
+    {
+      "name": "Eledone moschata",
+      "aliases": [
+        "musky octopus"
+      ],
+      "popularity": 4231,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Eledone moschata"
+    },
+    {
+      "name": "Exsuperoteuthis depressa",
+      "aliases": [
+        "Opisthoteuthis depressa"
+      ],
+      "popularity": 4231,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Exsuperoteuthis depressa"
+    },
+    {
+      "name": "Curled octopus",
+      "aliases": [
+        "Eledone cirrhosa"
+      ],
+      "popularity": 4463,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Curled octopus"
+    },
+    {
+      "name": "Microeledone galapagensis",
+      "aliases": [],
+      "popularity": 4566,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Microeledone galapagensis"
+    },
+    {
+      "name": "Atlantic pygmy octopus",
+      "aliases": [
+        "Octopus joubini"
+      ],
+      "popularity": 5865,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "Atlantic pygmy octopus"
+    },
+    {
+      "name": "Argonauta hians",
+      "aliases": [],
+      "popularity": 6403,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Argonauta hians"
+    },
+    {
+      "name": "Abdopus aculeatus",
+      "aliases": [
+        "A. aculeatus",
+        "Algae octopus"
+      ],
+      "popularity": 6499,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Abdopus aculeatus"
+    },
+    {
+      "name": "Common blanket octopus",
+      "aliases": [
+        "Tremoctopus violaceus"
+      ],
+      "popularity": 6841,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Common blanket octopus"
+    },
+    {
+      "name": "Octopus minor",
+      "aliases": [
+        "Korean common octopus",
+        "long arm octopus",
+        "nakji"
+      ],
+      "popularity": 7169,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Octopus minor"
+    },
+    {
+      "name": "Caribbean reef octopus",
+      "aliases": [
+        "Octopus briareus"
+      ],
+      "popularity": 7316,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Caribbean reef octopus"
+    },
+    {
+      "name": "Stauroteuthis syrtensis",
+      "aliases": [],
+      "popularity": 8530,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Stauroteuthis syrtensis"
+    },
+    {
+      "name": "Glass octopus",
+      "aliases": [
+        "Vitreledonella richardi"
+      ],
+      "popularity": 8815,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Glass octopus"
+    },
+    {
+      "name": "Blue-lined octopus",
+      "aliases": [
+        "Hapalochlaena fasciata"
+      ],
+      "popularity": 10455,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Blue-lined octopus"
+    },
+    {
+      "name": "Octopus wolfi",
+      "aliases": [],
+      "popularity": 10502,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Octopus wolfi"
+    },
+    {
+      "name": "Octopus tetricus",
+      "aliases": [
+        "common Sydney octopus",
+        "gloomy octopus"
+      ],
+      "popularity": 10907,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Octopus tetricus"
+    },
+    {
+      "name": "East Pacific red octopus",
+      "aliases": [
+        "Octopus rubescens"
+      ],
+      "popularity": 11511,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "East Pacific red octopus"
+    },
+    {
+      "name": "Graneledone boreopacifica",
+      "aliases": [],
+      "popularity": 12165,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Graneledone boreopacifica"
+    },
+    {
+      "name": "Octopus cyanea",
+      "aliases": [
+        "big blue octopus",
+        "day octopus"
+      ],
+      "popularity": 12818,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Octopus cyanea"
+    },
+    {
+      "name": "California two-spot octopus",
+      "aliases": [
+        "Octopus bimaculoides"
+      ],
+      "popularity": 13120,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "California two-spot octopus"
+    },
+    {
+      "name": "Argonauta argo",
+      "aliases": [],
+      "popularity": 13411,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Argonauta argo"
+    },
+    {
+      "name": "Amphioctopus marginatus",
+      "aliases": [
+        "Coconut octopus",
+        "Octopus striolatus",
+        "striped octopus",
+        "Veined octopus"
+      ],
+      "popularity": 15409,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Amphioctopus marginatus"
+    },
+    {
+      "name": "Amphioctopus fangsiao",
+      "aliases": [
+        "gold-spot Octopus",
+        "jukkumi",
+        "webfoot octopus"
+      ],
+      "popularity": 16231,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Amphioctopus fangsiao"
+    },
+    {
+      "name": "Southern blue-ringed octopus",
+      "aliases": [
+        "Hapalochlaena maculosa"
+      ],
+      "popularity": 17827,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Southern blue-ringed octopus"
+    },
+    {
+      "name": "Opisthoteuthis californiana",
+      "aliases": [],
+      "popularity": 24034,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Opisthoteuthis californiana"
+    },
+    {
+      "name": "Greater blue-ringed octopus",
+      "aliases": [
+        "Hapalochlaena lunulata"
+      ],
+      "popularity": 34611,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Greater blue-ringed octopus"
+    },
+    {
+      "name": "Seven-arm octopus",
+      "aliases": [
+        "H. atlanticus",
+        "Haliphron atlanticus"
+      ],
+      "popularity": 38176,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Seven-arm octopus"
+    },
+    {
+      "name": "Mimic octopus",
+      "aliases": [
+        "Thaumoctopus mimicus"
+      ],
+      "popularity": 55185,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Mimic octopus"
+    },
+    {
+      "name": "Common octopus",
+      "aliases": [
+        "Octopus vulgaris"
+      ],
+      "popularity": 67549,
+      "rarity": 0.006,
+      "tier": 1,
+      "wiki": "Common octopus"
+    },
+    {
+      "name": "Giant Pacific octopus",
+      "aliases": [
+        "Enteroctopus dofleini",
+        "giant octopus",
+        "North Pacific giant octopus",
+        "Pacific giant octopus"
+      ],
+      "popularity": 228769,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Giant Pacific octopus"
+    }
+  ]
+}

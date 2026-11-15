@@ -1,0 +1,2442 @@
+{
+  "id": "nobel-physics-laureates",
+  "slug": "nobel-physics-laureates",
+  "category": "science",
+  "question": "Name a Nobel laureate in Physics",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Francis Halzen",
+      "aliases": [
+        "F. Halzen",
+        "Francis L. Halzen",
+        "Francis Louis Halzen"
+      ],
+      "popularity": 2133,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Francis Halzen"
+    },
+    {
+      "name": "Charles-Édouard Guillaume",
+      "aliases": [
+        "Charles Guillaume"
+      ],
+      "popularity": 2296,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Charles-Édouard Guillaume"
+    },
+    {
+      "name": "Horst Ludwig Störmer",
+      "aliases": [],
+      "popularity": 3363,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Horst Ludwig Störmer"
+    },
+    {
+      "name": "Robert Coleman Richardson",
+      "aliases": [
+        "Bob Richardson"
+      ],
+      "popularity": 3394,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Robert Coleman Richardson"
+    },
+    {
+      "name": "James Rainwater",
+      "aliases": [
+        "Leo James Rainwater",
+        "Leo Rainwater"
+      ],
+      "popularity": 4016,
+      "rarity": 0.983,
+      "tier": 6,
+      "wiki": "James Rainwater"
+    },
+    {
+      "name": "Clifford Shull",
+      "aliases": [
+        "Clifford Glenwood Shull"
+      ],
+      "popularity": 4060,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Clifford Shull"
+    },
+    {
+      "name": "Hans Georg Dehmelt",
+      "aliases": [],
+      "popularity": 4076,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Hans Georg Dehmelt"
+    },
+    {
+      "name": "Ben Roy Mottelson",
+      "aliases": [
+        "B. R. Mottelson",
+        "Ben Mottelson",
+        "Ben R. Mottelson",
+        "Benjamin Roy Mottelson"
+      ],
+      "popularity": 4232,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Ben Roy Mottelson"
+    },
+    {
+      "name": "K. Alex Müller",
+      "aliases": [
+        "Alex Mueller",
+        "Karl Alex Müller",
+        "Karl Alexander Mueller",
+        "Karl Alexander Müller"
+      ],
+      "popularity": 4372,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "K. Alex Müller"
+    },
+    {
+      "name": "Douglas Osheroff",
+      "aliases": [
+        "Douglas Dean Osheroff"
+      ],
+      "popularity": 4413,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Douglas Osheroff"
+    },
+    {
+      "name": "Donald Glaser",
+      "aliases": [
+        "Donald A. Glaser",
+        "Donald Arthur Glaser"
+      ],
+      "popularity": 4446,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Donald Glaser"
+    },
+    {
+      "name": "Bertram Brockhouse",
+      "aliases": [
+        "Bertram Neville Brockhouse"
+      ],
+      "popularity": 4550,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Bertram Brockhouse"
+    },
+    {
+      "name": "Owen Richardson",
+      "aliases": [
+        "Owen Willans Richardson",
+        "Sir Owen Richardson",
+        "Sir Owen Willans Richardson"
+      ],
+      "popularity": 4750,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Owen Richardson"
+    },
+    {
+      "name": "Russell Alan Hulse",
+      "aliases": [
+        "Russell A. Hulse",
+        "Russell Hulse"
+      ],
+      "popularity": 4757,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Russell Alan Hulse"
+    },
+    {
+      "name": "Heinrich Rohrer",
+      "aliases": [],
+      "popularity": 4918,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Heinrich Rohrer"
+    },
+    {
+      "name": "Kai Siegbahn",
+      "aliases": [
+        "Manne Kai Siegbahn"
+      ],
+      "popularity": 4995,
+      "rarity": 0.934,
+      "tier": 6,
+      "wiki": "Kai Siegbahn"
+    },
+    {
+      "name": "J. Hans D. Jensen",
+      "aliases": [
+        "Hans Jensen",
+        "Johannes Hans Daniel Jensen"
+      ],
+      "popularity": 5036,
+      "rarity": 0.93,
+      "tier": 6,
+      "wiki": "J. Hans D. Jensen"
+    },
+    {
+      "name": "Melvin Schwartz",
+      "aliases": [],
+      "popularity": 5229,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Melvin Schwartz"
+    },
+    {
+      "name": "David Lee",
+      "aliases": [
+        "David Lee (physicist)",
+        "David Morris Lee"
+      ],
+      "popularity": 5291,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "David Lee (physicist)"
+    },
+    {
+      "name": "Charles Barkla",
+      "aliases": [
+        "Charles Glover Barkla"
+      ],
+      "popularity": 5427,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Charles Barkla"
+    },
+    {
+      "name": "Georg Bednorz",
+      "aliases": [
+        "Johannes Bednorz",
+        "Johannes Georg Bednorz"
+      ],
+      "popularity": 5431,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Georg Bednorz"
+    },
+    {
+      "name": "Martin Lewis Perl",
+      "aliases": [
+        "Martin Perl"
+      ],
+      "popularity": 5499,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Martin Lewis Perl"
+    },
+    {
+      "name": "Alfred Kastler",
+      "aliases": [],
+      "popularity": 5501,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Alfred Kastler"
+    },
+    {
+      "name": "Manne Siegbahn",
+      "aliases": [
+        "Karl Manne Georg Siegbahn"
+      ],
+      "popularity": 5666,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Manne Siegbahn"
+    },
+    {
+      "name": "Louis Néel",
+      "aliases": [
+        "Louis Eugène Felix Néel"
+      ],
+      "popularity": 5711,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Louis Néel"
+    },
+    {
+      "name": "Norman Ramsey Jr.",
+      "aliases": [
+        "Norman F. Ramsey Jr.",
+        "Norman Foster Ramsey",
+        "Norman Foster Ramsey Jr.",
+        "Norman Ramsey"
+      ],
+      "popularity": 5776,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Norman Ramsey Jr."
+    },
+    {
+      "name": "Victor Hess",
+      "aliases": [
+        "Victor Francis Hess",
+        "Victor Franz Hess"
+      ],
+      "popularity": 5922,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Victor Hess"
+    },
+    {
+      "name": "James Cronin",
+      "aliases": [
+        "James Watson Cronin"
+      ],
+      "popularity": 5945,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "James Cronin"
+    },
+    {
+      "name": "Albert Fert",
+      "aliases": [],
+      "popularity": 6040,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Albert Fert"
+    },
+    {
+      "name": "Willard Boyle",
+      "aliases": [
+        "Willard S. Boyle",
+        "Willard Sterling Boyle"
+      ],
+      "popularity": 6077,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Willard Boyle"
+    },
+    {
+      "name": "Val Logsdon Fitch",
+      "aliases": [
+        "Val Fitch",
+        "Val L. Fitch"
+      ],
+      "popularity": 6131,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Val Logsdon Fitch"
+    },
+    {
+      "name": "Simon van der Meer",
+      "aliases": [],
+      "popularity": 6155,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Simon van der Meer"
+    },
+    {
+      "name": "Polykarp Kusch",
+      "aliases": [],
+      "popularity": 6260,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Polykarp Kusch"
+    },
+    {
+      "name": "Ilya Frank",
+      "aliases": [
+        "Ilya Mikhailovich Frank"
+      ],
+      "popularity": 6383,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Ilya Frank"
+    },
+    {
+      "name": "Hugh David Politzer",
+      "aliases": [
+        "H. David Politzer",
+        "Hugh Politzer"
+      ],
+      "popularity": 6494,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Hugh David Politzer"
+    },
+    {
+      "name": "Riccardo Giacconi",
+      "aliases": [],
+      "popularity": 6506,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Riccardo Giacconi"
+    },
+    {
+      "name": "Gerd Binnig",
+      "aliases": [
+        "Binnig",
+        "Gerd K. Binnig",
+        "Gerd Karl Binnig"
+      ],
+      "popularity": 6634,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Gerd Binnig"
+    },
+    {
+      "name": "Nikolay Basov",
+      "aliases": [
+        "Nicolay Gennadijevitj Basov",
+        "Nikolay Gennadiyevich Basov"
+      ],
+      "popularity": 6663,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Nikolay Basov"
+    },
+    {
+      "name": "Makoto Kobayashi",
+      "aliases": [],
+      "popularity": 6682,
+      "rarity": 0.834,
+      "tier": 5,
+      "wiki": "Makoto Kobayashi"
+    },
+    {
+      "name": "Richard E. Taylor",
+      "aliases": [
+        "Richard Edward Taylor",
+        "Richard Taylor"
+      ],
+      "popularity": 6882,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Richard E. Taylor"
+    },
+    {
+      "name": "Peter Grünberg",
+      "aliases": [],
+      "popularity": 6965,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Peter Grünberg"
+    },
+    {
+      "name": "Masatoshi Koshiba",
+      "aliases": [],
+      "popularity": 7064,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Masatoshi Koshiba"
+    },
+    {
+      "name": "Owen Chamberlain",
+      "aliases": [],
+      "popularity": 7139,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Owen Chamberlain"
+    },
+    {
+      "name": "Herbert Kroemer",
+      "aliases": [],
+      "popularity": 7157,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Herbert Kroemer"
+    },
+    {
+      "name": "Rudolf Mössbauer",
+      "aliases": [
+        "Rudolf L. Mössbauer",
+        "Rudolf Ludwig Mössbauer"
+      ],
+      "popularity": 7157,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Rudolf Mössbauer"
+    },
+    {
+      "name": "George E. Smith",
+      "aliases": [
+        "George Elwood Smith",
+        "George Smith"
+      ],
+      "popularity": 7169,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "George E. Smith"
+    },
+    {
+      "name": "David Thouless",
+      "aliases": [
+        "David J. Thouless",
+        "David James Thouless"
+      ],
+      "popularity": 7186,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "David Thouless"
+    },
+    {
+      "name": "Toshihide Maskawa",
+      "aliases": [
+        "Masukawa Toshihide",
+        "Toshihide Masukawa"
+      ],
+      "popularity": 7193,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Toshihide Maskawa"
+    },
+    {
+      "name": "Martinus J. G. Veltman",
+      "aliases": [
+        "M.J.G. Veltman",
+        "Martin Veltman",
+        "Martinus Veltman"
+      ],
+      "popularity": 7231,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Martinus J. G. Veltman"
+    },
+    {
+      "name": "Nicolaas Bloembergen",
+      "aliases": [
+        "N. Bloembergen",
+        "Nico Bloembergen"
+      ],
+      "popularity": 7320,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Nicolaas Bloembergen"
+    },
+    {
+      "name": "Nevill Mott",
+      "aliases": [
+        "N. F. Mott",
+        "Nevill Francis Mott",
+        "Sir Nevill Francis Mott",
+        "Sir Nevill Mott"
+      ],
+      "popularity": 7431,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Nevill Mott"
+    },
+    {
+      "name": "C. T. R. Wilson",
+      "aliases": [
+        "C. Wilson",
+        "Charles Thomson Rees Wilson",
+        "Professor C. T. R. Wilson"
+      ],
+      "popularity": 7481,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "C. T. R. Wilson"
+    },
+    {
+      "name": "C. F. Powell",
+      "aliases": [
+        "Cecil Frank Powell",
+        "Cecil Powell"
+      ],
+      "popularity": 7505,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "C. F. Powell"
+    },
+    {
+      "name": "John L. Hall",
+      "aliases": [
+        "John Hall",
+        "John Lewis Hall"
+      ],
+      "popularity": 7528,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "John L. Hall"
+    },
+    {
+      "name": "Theodor W. Hänsch",
+      "aliases": [],
+      "popularity": 7674,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Theodor W. Hänsch"
+    },
+    {
+      "name": "Clinton Davisson",
+      "aliases": [
+        "C. Davisson",
+        "C. J. Davisson",
+        "Clinton J. Davisson",
+        "Clinton Joseph Davisson"
+      ],
+      "popularity": 7833,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Clinton Davisson"
+    },
+    {
+      "name": "Daniel C. Tsui",
+      "aliases": [
+        "Daniel Chee Tsui"
+      ],
+      "popularity": 7870,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Daniel C. Tsui"
+    },
+    {
+      "name": "Arthur Leonard Schawlow",
+      "aliases": [
+        "Arthur L. Schawlow",
+        "Arthur Schawlow"
+      ],
+      "popularity": 8287,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Arthur Leonard Schawlow"
+    },
+    {
+      "name": "Martin Ryle",
+      "aliases": [
+        "Sir Martin Ryle"
+      ],
+      "popularity": 8381,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Martin Ryle"
+    },
+    {
+      "name": "Klaus Hasselmann",
+      "aliases": [],
+      "popularity": 8521,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Klaus Hasselmann"
+    },
+    {
+      "name": "Burton Richter",
+      "aliases": [],
+      "popularity": 8603,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Burton Richter"
+    },
+    {
+      "name": "Alexander Prokhorov",
+      "aliases": [
+        "Aleksandr Prokhorov",
+        "Alexander Mikhailovich Prokhorov"
+      ],
+      "popularity": 8655,
+      "rarity": 0.734,
+      "tier": 4,
+      "wiki": "Alexander Prokhorov"
+    },
+    {
+      "name": "Alexei Abrikosov",
+      "aliases": [
+        "A.A. Abrikosov",
+        "A. Abrikosov",
+        "AA Abrikosov",
+        "Abrikosov",
+        "Abrikosov A.",
+        "Abrikosov A. A.",
+        "Abrikosov AA",
+        "Aleksey A. Abrikosov",
+        "Aleksey Abrikosov",
+        "Aleksey Alekseyevich Abrikosov",
+        "Alexei Abrikosov (physicist)",
+        "Alexei Alexeyevich Abrikosov"
+      ],
+      "popularity": 8922,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Alexei Abrikosov (physicist)"
+    },
+    {
+      "name": "Henry Way Kendall",
+      "aliases": [
+        "Henry Kendall",
+        "Henry W. Kendall"
+      ],
+      "popularity": 8996,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Henry Way Kendall"
+    },
+    {
+      "name": "Gérard Mourou",
+      "aliases": [
+        "G. Mourou",
+        "Gérard A. Mourou",
+        "Gérard Albert Mourou"
+      ],
+      "popularity": 9008,
+      "rarity": 0.721,
+      "tier": 4,
+      "wiki": "Gérard Mourou"
+    },
+    {
+      "name": "William Alfred Fowler",
+      "aliases": [
+        "William Alfred \"Willy\" Fowler",
+        "William Fowler"
+      ],
+      "popularity": 9155,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "William Alfred Fowler"
+    },
+    {
+      "name": "Gustaf Dalén",
+      "aliases": [
+        "Nils Dalen",
+        "Nils Gustaf Dalén"
+      ],
+      "popularity": 9574,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Gustaf Dalén"
+    },
+    {
+      "name": "Raymond Davis Jr.",
+      "aliases": [],
+      "popularity": 9654,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "Raymond Davis Jr."
+    },
+    {
+      "name": "Jerome Isaac Friedman",
+      "aliases": [
+        "Jerome Friedman",
+        "Jerome I. Friedman"
+      ],
+      "popularity": 9755,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Jerome Isaac Friedman"
+    },
+    {
+      "name": "Michel Mayor",
+      "aliases": [
+        "M. G. E. Mayor",
+        "M. G. Mayor",
+        "M. Mayor",
+        "Michel G. E. Mayor",
+        "Michel Gustave E. Mayor",
+        "Michel Gustave Mayor"
+      ],
+      "popularity": 9875,
+      "rarity": 0.699,
+      "tier": 4,
+      "wiki": "Michel Mayor"
+    },
+    {
+      "name": "Takaaki Kajita",
+      "aliases": [
+        "Kajita Takaaki",
+        "T. Kajita"
+      ],
+      "popularity": 9936,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Takaaki Kajita"
+    },
+    {
+      "name": "Jean Perrin",
+      "aliases": [
+        "Jean-Baptiste Perrin"
+      ],
+      "popularity": 10038,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Jean Perrin"
+    },
+    {
+      "name": "Willis Lamb",
+      "aliases": [
+        "Willis E. Lamb",
+        "Willis Eugene Lamb"
+      ],
+      "popularity": 10162,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Willis Lamb"
+    },
+    {
+      "name": "Klaus von Klitzing",
+      "aliases": [
+        "K. v. Klitzing",
+        "K. von Klitzing",
+        "von Klitzing",
+        "von Klitzing K"
+      ],
+      "popularity": 10182,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Klaus von Klitzing"
+    },
+    {
+      "name": "Arthur B. McDonald",
+      "aliases": [
+        "Arthur Bruce McDonald",
+        "Arthur McDonald"
+      ],
+      "popularity": 10194,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Arthur B. McDonald"
+    },
+    {
+      "name": "Pierre Agostini",
+      "aliases": [
+        "P. Agostini",
+        "Pierre A. Agostini"
+      ],
+      "popularity": 10246,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Pierre Agostini"
+    },
+    {
+      "name": "Joseph Hooton Taylor Jr.",
+      "aliases": [
+        "Joseph Hooton Taylor"
+      ],
+      "popularity": 10346,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "Joseph Hooton Taylor Jr."
+    },
+    {
+      "name": "Georges Charpak",
+      "aliases": [],
+      "popularity": 10361,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Georges Charpak"
+    },
+    {
+      "name": "J. Michael Kosterlitz",
+      "aliases": [
+        "John Kosterlitz",
+        "John M. Kosterlitz",
+        "Michael Kosterlitz",
+        "Mike Kosterlitz"
+      ],
+      "popularity": 10409,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "J. Michael Kosterlitz"
+    },
+    {
+      "name": "Frederick Reines",
+      "aliases": [],
+      "popularity": 10639,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Frederick Reines"
+    },
+    {
+      "name": "Frits Zernike",
+      "aliases": [],
+      "popularity": 10674,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Frits Zernike"
+    },
+    {
+      "name": "David J. Wineland",
+      "aliases": [
+        "David Jeffrey Wineland"
+      ],
+      "popularity": 10785,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "David J. Wineland"
+    },
+    {
+      "name": "K. Ferdinand Braun",
+      "aliases": [
+        "Ferdinand Braun",
+        "Karl Ferdinand Braun"
+      ],
+      "popularity": 10813,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "K. Ferdinand Braun"
+    },
+    {
+      "name": "Edward Victor Appleton",
+      "aliases": [
+        "Sir Edward Appleton",
+        "Sir Edward Victor Appleton"
+      ],
+      "popularity": 10978,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Edward Victor Appleton"
+    },
+    {
+      "name": "John Hasbrouck Van Vleck",
+      "aliases": [
+        "J. H. van Vleck",
+        "John H. Van Vleck",
+        "John van Vleck"
+      ],
+      "popularity": 11375,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "John Hasbrouck Van Vleck"
+    },
+    {
+      "name": "Gustav Ludwig Hertz",
+      "aliases": [
+        "Gustav Hertz"
+      ],
+      "popularity": 11379,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Gustav Ludwig Hertz"
+    },
+    {
+      "name": "William Daniel Phillips",
+      "aliases": [
+        "Bill Phillips",
+        "William D Phillips"
+      ],
+      "popularity": 11701,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "William Daniel Phillips"
+    },
+    {
+      "name": "Wolfgang Paul",
+      "aliases": [],
+      "popularity": 11762,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Wolfgang Paul"
+    },
+    {
+      "name": "John Robert Schrieffer",
+      "aliases": [
+        "J. Robert Schrieffer",
+        "John R. Schrieffer",
+        "John Schrieffer"
+      ],
+      "popularity": 11900,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "John Robert Schrieffer"
+    },
+    {
+      "name": "Hiroshi Amano",
+      "aliases": [],
+      "popularity": 12162,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Hiroshi Amano"
+    },
+    {
+      "name": "Duncan Haldane",
+      "aliases": [
+        "F.D.M. Haldane",
+        "F. Duncan Haldane",
+        "F. Duncan M. Haldane",
+        "Frederick D. Haldane",
+        "Frederick Duncan Michael Haldane"
+      ],
+      "popularity": 12256,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Duncan Haldane"
+    },
+    {
+      "name": "Robert B. Laughlin",
+      "aliases": [
+        "Robert Betts Laughlin",
+        "Robert Laughlin"
+      ],
+      "popularity": 12606,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Robert B. Laughlin"
+    },
+    {
+      "name": "Pierre-Gilles de Gennes",
+      "aliases": [
+        "P. de Gennes",
+        "Pierre deGennes"
+      ],
+      "popularity": 12704,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Pierre-Gilles de Gennes"
+    },
+    {
+      "name": "Ernst Ruska",
+      "aliases": [
+        "Ernst August Friedrich Ruska"
+      ],
+      "popularity": 12761,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Ernst Ruska"
+    },
+    {
+      "name": "Zhores Alferov",
+      "aliases": [
+        "Zhores Alfyorov",
+        "Zhores Ivanovich Alferov"
+      ],
+      "popularity": 12776,
+      "rarity": 0.59,
+      "tier": 3,
+      "wiki": "Zhores Alferov"
+    },
+    {
+      "name": "Jack Steinberger",
+      "aliases": [
+        "J. Steinberger"
+      ],
+      "popularity": 12928,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Jack Steinberger"
+    },
+    {
+      "name": "Wilhelm Wien",
+      "aliases": [],
+      "popularity": 13451,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Wilhelm Wien"
+    },
+    {
+      "name": "Percy Williams Bridgman",
+      "aliases": [
+        "Percy Bridgman"
+      ],
+      "popularity": 13471,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Percy Williams Bridgman"
+    },
+    {
+      "name": "Carlo Rubbia",
+      "aliases": [],
+      "popularity": 13648,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Carlo Rubbia"
+    },
+    {
+      "name": "Isamu Akasaki",
+      "aliases": [
+        "Akasaki Isamu"
+      ],
+      "popularity": 14135,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Isamu Akasaki"
+    },
+    {
+      "name": "Leon Cooper",
+      "aliases": [
+        "Leon Neil Cooper"
+      ],
+      "popularity": 14437,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Leon Cooper"
+    },
+    {
+      "name": "Didier Queloz",
+      "aliases": [
+        "D. P. Queloz",
+        "D. Queloz",
+        "Didier P. Queloz",
+        "Queloz",
+        "Queloz D.",
+        "Queloz D. P.",
+        "Queloz DP"
+      ],
+      "popularity": 14674,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Didier Queloz"
+    },
+    {
+      "name": "Serge Haroche",
+      "aliases": [],
+      "popularity": 14751,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Serge Haroche"
+    },
+    {
+      "name": "Arthur Ashkin",
+      "aliases": [],
+      "popularity": 14772,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Arthur Ashkin"
+    },
+    {
+      "name": "Syukuro Manabe",
+      "aliases": [
+        "Shukurō Manabe"
+      ],
+      "popularity": 14803,
+      "rarity": 0.546,
+      "tier": 3,
+      "wiki": "Syukuro Manabe"
+    },
+    {
+      "name": "Pieter Zeeman",
+      "aliases": [
+        "P. Zeeman"
+      ],
+      "popularity": 14838,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Pieter Zeeman"
+    },
+    {
+      "name": "John C. Mather",
+      "aliases": [
+        "John Cromwell Mather",
+        "John Mather"
+      ],
+      "popularity": 14841,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "John C. Mather"
+    },
+    {
+      "name": "Edward Mills Purcell",
+      "aliases": [
+        "Ed Purcell",
+        "Edward Purcell"
+      ],
+      "popularity": 15036,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Edward Mills Purcell"
+    },
+    {
+      "name": "Jim Peebles",
+      "aliases": [
+        "J. Peebles",
+        "James Peebles",
+        "P. J. Peebles",
+        "P. James E. Peebles",
+        "P. James Peebles",
+        "P. Peebles"
+      ],
+      "popularity": 15049,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Jim Peebles"
+    },
+    {
+      "name": "Walther Bothe",
+      "aliases": [
+        "Bothe",
+        "Walter Bothe",
+        "Walther Wilhelm Georg Bothe"
+      ],
+      "popularity": 15074,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Walther Bothe"
+    },
+    {
+      "name": "Anthony Leggett",
+      "aliases": [
+        "Anthony James Leggett",
+        "Sir Anthony James Leggett",
+        "Sir Anthony Leggett"
+      ],
+      "popularity": 15172,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Anthony Leggett"
+    },
+    {
+      "name": "Wolfgang Ketterle",
+      "aliases": [],
+      "popularity": 15368,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Wolfgang Ketterle"
+    },
+    {
+      "name": "Roy J. Glauber",
+      "aliases": [
+        "R.J. Glauber",
+        "Roy Jay Glauber"
+      ],
+      "popularity": 15518,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Roy J. Glauber"
+    },
+    {
+      "name": "Hannes Alfvén",
+      "aliases": [
+        "Hannes Olof Gösta Alfvén",
+        "Olof Johannesson"
+      ],
+      "popularity": 15779,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Hannes Alfvén"
+    },
+    {
+      "name": "Reinhard Genzel",
+      "aliases": [
+        "Genzel",
+        "Genzel R.",
+        "R. Genzel"
+      ],
+      "popularity": 15803,
+      "rarity": 0.502,
+      "tier": 3,
+      "wiki": "Reinhard Genzel"
+    },
+    {
+      "name": "Carl Wieman",
+      "aliases": [
+        "C. E. Wieman",
+        "Carl E. Wieman",
+        "Carl Edwin Wieman"
+      ],
+      "popularity": 15859,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Carl Wieman"
+    },
+    {
+      "name": "Eric Allin Cornell",
+      "aliases": [
+        "E.A. Cornell",
+        "Eric A. Cornell",
+        "Eric Cornell"
+      ],
+      "popularity": 16539,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Eric Allin Cornell"
+    },
+    {
+      "name": "Johannes Stark",
+      "aliases": [
+        "Johannes Nikolaus Stark"
+      ],
+      "popularity": 16703,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Johannes Stark"
+    },
+    {
+      "name": "Vitaly Ginzburg",
+      "aliases": [
+        "Vitaly L. Ginzburg",
+        "Vitaly Lazarevich Ginzburg"
+      ],
+      "popularity": 17005,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Vitaly Ginzburg"
+    },
+    {
+      "name": "Igor Tamm",
+      "aliases": [
+        "Igor Yevgenyevich Tamm"
+      ],
+      "popularity": 17028,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Igor Tamm"
+    },
+    {
+      "name": "Carl David Anderson",
+      "aliases": [],
+      "popularity": 17311,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Carl David Anderson"
+    },
+    {
+      "name": "Ivar Giaever",
+      "aliases": [
+        "Giaever",
+        "Giaever I.",
+        "I. Giaever",
+        "Ivar Giæver"
+      ],
+      "popularity": 17352,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Ivar Giaever"
+    },
+    {
+      "name": "Barry Barish",
+      "aliases": [
+        "B.C. Barish",
+        "Barry C. Barish",
+        "Barry Clark Barish"
+      ],
+      "popularity": 17517,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Barry Barish"
+    },
+    {
+      "name": "Gabriel Lippmann",
+      "aliases": [
+        "Gabriel J. F. Lippmann",
+        "Jonas Ferdinand Gabriel Lippmann",
+        "Joseph Ferdinand Gabriel Lippmann",
+        "M. Lippmann"
+      ],
+      "popularity": 18008,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Gabriel Lippmann"
+    },
+    {
+      "name": "Ernest Walton",
+      "aliases": [
+        "Ernest Thomas Sinton Walton"
+      ],
+      "popularity": 18158,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "Ernest Walton"
+    },
+    {
+      "name": "Otto Stern",
+      "aliases": [
+        "O. Stern"
+      ],
+      "popularity": 18191,
+      "rarity": 0.454,
+      "tier": 3,
+      "wiki": "Otto Stern"
+    },
+    {
+      "name": "Claude Cohen-Tannoudji",
+      "aliases": [
+        "C. Cohen-Tannoudji"
+      ],
+      "popularity": 18465,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Claude Cohen-Tannoudji"
+    },
+    {
+      "name": "Philip W. Anderson",
+      "aliases": [
+        "P. Anderson",
+        "P. W. Anderson",
+        "Philip Anderson",
+        "Philip Warren Anderson"
+      ],
+      "popularity": 18512,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Philip W. Anderson"
+    },
+    {
+      "name": "Samuel C. C. Ting",
+      "aliases": [
+        "Samuel Chao-chung Ting",
+        "Samuel Ting"
+      ],
+      "popularity": 18667,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Samuel C. C. Ting"
+    },
+    {
+      "name": "Robert Hofstadter",
+      "aliases": [],
+      "popularity": 18872,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Robert Hofstadter"
+    },
+    {
+      "name": "Leon M. Lederman",
+      "aliases": [
+        "Léon Lederman",
+        "Leon Max Lederman"
+      ],
+      "popularity": 19077,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Leon M. Lederman"
+    },
+    {
+      "name": "Kenneth G. Wilson",
+      "aliases": [
+        "Kenneth Geddes",
+        "Kenneth Geddes Wilson"
+      ],
+      "popularity": 19819,
+      "rarity": 0.428,
+      "tier": 3,
+      "wiki": "Kenneth G. Wilson"
+    },
+    {
+      "name": "Arno Allan Penzias",
+      "aliases": [
+        "Arno A. Penzias",
+        "Arno Penzias"
+      ],
+      "popularity": 20143,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Arno Allan Penzias"
+    },
+    {
+      "name": "Emilio Segrè",
+      "aliases": [
+        "Emilio G. Segrè",
+        "Emilio Gino Segrè"
+      ],
+      "popularity": 20421,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Emilio Segrè"
+    },
+    {
+      "name": "Antony Hewish",
+      "aliases": [],
+      "popularity": 20492,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Antony Hewish"
+    },
+    {
+      "name": "Walter Brattain",
+      "aliases": [
+        "Walter Houser Brattain"
+      ],
+      "popularity": 20661,
+      "rarity": 0.41,
+      "tier": 3,
+      "wiki": "Walter Brattain"
+    },
+    {
+      "name": "Brian Schmidt",
+      "aliases": [
+        "B.P. Schmidt",
+        "Brian P. Schmidt",
+        "Brian Paul Schmidt"
+      ],
+      "popularity": 20762,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Brian Schmidt"
+    },
+    {
+      "name": "Leo Esaki",
+      "aliases": [
+        "Reona Esaki"
+      ],
+      "popularity": 20976,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Leo Esaki"
+    },
+    {
+      "name": "Yoichiro Nambu",
+      "aliases": [
+        "Nambu Yōichirō",
+        "Nanbu Yoichiro",
+        "Yōichirō Nanbu"
+      ],
+      "popularity": 21334,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Yoichiro Nambu"
+    },
+    {
+      "name": "Charles H. Townes",
+      "aliases": [
+        "Charles Hard Townes"
+      ],
+      "popularity": 21413,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Charles H. Townes"
+    },
+    {
+      "name": "Ferenc Krausz",
+      "aliases": [],
+      "popularity": 21565,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Ferenc Krausz"
+    },
+    {
+      "name": "Heike Kamerlingh Onnes",
+      "aliases": [
+        "H. K. Onnes",
+        "H. Kamerlingh Onnes"
+      ],
+      "popularity": 22054,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Heike Kamerlingh Onnes"
+    },
+    {
+      "name": "Adam Riess",
+      "aliases": [
+        "A.G. Riess",
+        "Adam G. Riess",
+        "Adam Guy Riess"
+      ],
+      "popularity": 22287,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Adam Riess"
+    },
+    {
+      "name": "George Paget Thomson",
+      "aliases": [
+        "George Thomson",
+        "Sir George Paget Thomson",
+        "Sir George Thomson"
+      ],
+      "popularity": 22417,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "George Paget Thomson"
+    },
+    {
+      "name": "James Franck",
+      "aliases": [],
+      "popularity": 22518,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "James Franck"
+    },
+    {
+      "name": "John Cockcroft",
+      "aliases": [
+        "John D. Cockcroft",
+        "John Douglas Cockcroft",
+        "Sir John Douglas Cockcroft"
+      ],
+      "popularity": 23012,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "John Cockcroft"
+    },
+    {
+      "name": "Pavel Cherenkov",
+      "aliases": [
+        "Pavel Alekseyevich Cherenkov"
+      ],
+      "popularity": 23240,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Pavel Cherenkov"
+    },
+    {
+      "name": "Pyotr Kapitsa",
+      "aliases": [
+        "Peter Kapitza",
+        "Pyotr Leonidovich Kapitsa"
+      ],
+      "popularity": 23780,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Pyotr Kapitsa"
+    },
+    {
+      "name": "Anne L'Huillier",
+      "aliases": [
+        "A. L'Huillier",
+        "Anne L’Huillier Wahlström",
+        "L'Huillier",
+        "L'Huillier A."
+      ],
+      "popularity": 24098,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Anne L'Huillier"
+    },
+    {
+      "name": "Robert Woodrow Wilson",
+      "aliases": [
+        "Robert Wilson"
+      ],
+      "popularity": 24377,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Robert Woodrow Wilson"
+    },
+    {
+      "name": "Rainer Weiss",
+      "aliases": [
+        "Rainer \"Rai\" Weiss"
+      ],
+      "popularity": 24537,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Rainer Weiss"
+    },
+    {
+      "name": "Max von Laue",
+      "aliases": [
+        "Max Theodor Felix von Laue"
+      ],
+      "popularity": 24746,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Max von Laue"
+    },
+    {
+      "name": "Saul Perlmutter",
+      "aliases": [],
+      "popularity": 24762,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Saul Perlmutter"
+    },
+    {
+      "name": "Johannes Diderik van der Waals",
+      "aliases": [
+        "J.D. van der Waals",
+        "Johannes van der Waals"
+      ],
+      "popularity": 25462,
+      "rarity": 0.332,
+      "tier": 2,
+      "wiki": "Johannes Diderik van der Waals"
+    },
+    {
+      "name": "William Henry Bragg",
+      "aliases": [],
+      "popularity": 25658,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "William Henry Bragg"
+    },
+    {
+      "name": "Dennis Gabor",
+      "aliases": [
+        "Denis Gabor"
+      ],
+      "popularity": 26164,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Dennis Gabor"
+    },
+    {
+      "name": "Sheldon Glashow",
+      "aliases": [
+        "Glashow",
+        "Sheldon L. Glashow",
+        "Sheldon Lee Glashow"
+      ],
+      "popularity": 26333,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Sheldon Glashow"
+    },
+    {
+      "name": "John Clauser",
+      "aliases": [
+        "John F. Clauser",
+        "John Francis Clauser"
+      ],
+      "popularity": 26352,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "John Clauser"
+    },
+    {
+      "name": "François Englert",
+      "aliases": [],
+      "popularity": 26633,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "François Englert"
+    },
+    {
+      "name": "Anton Zeilinger",
+      "aliases": [
+        "A. Zeilinger",
+        "Zeilinger",
+        "Zeilinger A."
+      ],
+      "popularity": 26734,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Anton Zeilinger"
+    },
+    {
+      "name": "Giorgio Parisi",
+      "aliases": [
+        "G. Parisi",
+        "Parisi",
+        "Parisi G."
+      ],
+      "popularity": 27011,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Giorgio Parisi"
+    },
+    {
+      "name": "Shin'ichirō Tomonaga",
+      "aliases": [
+        "Shinichiro Tomonaga",
+        "Sin-Itiro Tomonaga"
+      ],
+      "popularity": 27250,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Shin'ichirō Tomonaga"
+    },
+    {
+      "name": "John William Strutt, 3rd Baron Rayleigh",
+      "aliases": [
+        "John William Strutt",
+        "Lord Rayleigh"
+      ],
+      "popularity": 27939,
+      "rarity": 0.293,
+      "tier": 2,
+      "wiki": "John William Strutt, 3rd Baron Rayleigh"
+    },
+    {
+      "name": "Andrea M. Ghez",
+      "aliases": [
+        "Andrea Ghez"
+      ],
+      "popularity": 28071,
+      "rarity": 0.288,
+      "tier": 2,
+      "wiki": "Andrea M. Ghez"
+    },
+    {
+      "name": "Felix Bloch",
+      "aliases": [
+        "Bloch",
+        "F. Bloch"
+      ],
+      "popularity": 28556,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Felix Bloch"
+    },
+    {
+      "name": "Konstantin Novoselov",
+      "aliases": [
+        "K.S. Novoselov",
+        "Kostya S. Novoselov",
+        "KS Novoselov",
+        "Sir Konstantin Sergeevich Novoselov"
+      ],
+      "popularity": 28818,
+      "rarity": 0.279,
+      "tier": 2,
+      "wiki": "Konstantin Novoselov"
+    },
+    {
+      "name": "Alain Aspect",
+      "aliases": [],
+      "popularity": 29271,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Alain Aspect"
+    },
+    {
+      "name": "Hideki Yukawa",
+      "aliases": [],
+      "popularity": 30607,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Hideki Yukawa"
+    },
+    {
+      "name": "Arthur Compton",
+      "aliases": [
+        "Arthur H. Compton",
+        "Arthur Holly Compton"
+      ],
+      "popularity": 34025,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "Arthur Compton"
+    },
+    {
+      "name": "Lawrence Bragg",
+      "aliases": [
+        "William Lawrence Bragg"
+      ],
+      "popularity": 34535,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Lawrence Bragg"
+    },
+    {
+      "name": "Brian Josephson",
+      "aliases": [
+        "Brian David Josephson"
+      ],
+      "popularity": 35401,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Brian Josephson"
+    },
+    {
+      "name": "Robert Millikan",
+      "aliases": [
+        "R. A. Millikan",
+        "Robert Andrews Millikan"
+      ],
+      "popularity": 35602,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Robert Millikan"
+    },
+    {
+      "name": "Charles K. Kao",
+      "aliases": [
+        "Charles Kao",
+        "Charles Kuen Kao",
+        "Gao Kun",
+        "Kao Kuen",
+        "Kuen Kao",
+        "Sir Charles Kao Kuen",
+        "Sir Charles Kuen Kao"
+      ],
+      "popularity": 35898,
+      "rarity": 0.249,
+      "tier": 2,
+      "wiki": "Charles K. Kao"
+    },
+    {
+      "name": "Philipp Lenard",
+      "aliases": [
+        "Philipp Eduard Anton von Lenard",
+        "Philipp von Lenard"
+      ],
+      "popularity": 35997,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Philipp Lenard"
+    },
+    {
+      "name": "Donna Strickland",
+      "aliases": [
+        "D. Strickland",
+        "Donna Theo Strickland"
+      ],
+      "popularity": 36454,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Donna Strickland"
+    },
+    {
+      "name": "Frank Wilczek",
+      "aliases": [
+        "Frank A. Wilczek",
+        "Frank Anthony Wilczek"
+      ],
+      "popularity": 39816,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Frank Wilczek"
+    },
+    {
+      "name": "Aage Bohr",
+      "aliases": [
+        "Aage Niels Bohr"
+      ],
+      "popularity": 42283,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Aage Bohr"
+    },
+    {
+      "name": "Michel Devoret",
+      "aliases": [],
+      "popularity": 43879,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Michel Devoret"
+    },
+    {
+      "name": "Gerard 't Hooft",
+      "aliases": [
+        "G. Hooft",
+        "G.W. 't Hooft",
+        "Gerard",
+        "Gerardus",
+        "Gerardus 't Hooft",
+        "Hooft"
+      ],
+      "popularity": 44691,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Gerard 't Hooft"
+    },
+    {
+      "name": "Tsung-Dao Lee",
+      "aliases": [
+        "Li Zhengdao",
+        "T. D. Lee"
+      ],
+      "popularity": 44746,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Tsung-Dao Lee"
+    },
+    {
+      "name": "Albert A. Michelson",
+      "aliases": [
+        "A. A. Michelson",
+        "Albert Abraham Michelson",
+        "Albert Michelson"
+      ],
+      "popularity": 44876,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Albert A. Michelson"
+    },
+    {
+      "name": "Jack Kilby",
+      "aliases": [
+        "Jack Clair Kilby",
+        "Jack S. Kilby",
+        "Jack St. Clair Kilby"
+      ],
+      "popularity": 46500,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Jack Kilby"
+    },
+    {
+      "name": "George Smoot",
+      "aliases": [
+        "George F. Smoot",
+        "George Fitzgerald Smoot III"
+      ],
+      "popularity": 47452,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "George Smoot"
+    },
+    {
+      "name": "Maria Goeppert Mayer",
+      "aliases": [
+        "M. Göppert‐Mayer",
+        "Maria G. Mayer",
+        "Maria Gertrude Goeppert Mayer",
+        "Maria Göppert",
+        "Maria Göppert Mayer",
+        "Maria Mayer"
+      ],
+      "popularity": 48857,
+      "rarity": 0.201,
+      "tier": 2,
+      "wiki": "Maria Goeppert Mayer"
+    },
+    {
+      "name": "Isidor Rabi",
+      "aliases": [
+        "I. I. Rabi",
+        "Isidor Isaac Rabi",
+        "Israel Isaac Rabi"
+      ],
+      "popularity": 49657,
+      "rarity": 0.197,
+      "tier": 1,
+      "wiki": "Isidor Rabi"
+    },
+    {
+      "name": "Julian Schwinger",
+      "aliases": [
+        "Julian Seymour Schwinger"
+      ],
+      "popularity": 51091,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Julian Schwinger"
+    },
+    {
+      "name": "John Hopfield",
+      "aliases": [
+        "Hopfield",
+        "John J. Hopfield",
+        "John Joseph Hopfield"
+      ],
+      "popularity": 53659,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "John Hopfield"
+    },
+    {
+      "name": "John Clarke",
+      "aliases": [
+        "John Clarke (physicist)"
+      ],
+      "popularity": 54404,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "John Clarke (physicist)"
+    },
+    {
+      "name": "David Gross",
+      "aliases": [
+        "D.J. Gross"
+      ],
+      "popularity": 54754,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "David Gross"
+    },
+    {
+      "name": "Andre Geim",
+      "aliases": [
+        "A. Geim",
+        "A.K. Geim",
+        "AK Geim",
+        "Andre K. Geim",
+        "Andre Konstantin Geim",
+        "Andrey Geim",
+        "Andrey K. Geim",
+        "Sir Andre Konstantin Geim"
+      ],
+      "popularity": 55124,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Andre Geim"
+    },
+    {
+      "name": "Patrick Blackett",
+      "aliases": [
+        "Patrick Maynard Stuart Blackett"
+      ],
+      "popularity": 56352,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Patrick Blackett"
+    },
+    {
+      "name": "Steven Chu",
+      "aliases": [],
+      "popularity": 57612,
+      "rarity": 0.166,
+      "tier": 1,
+      "wiki": "Steven Chu"
+    },
+    {
+      "name": "Henri Becquerel",
+      "aliases": [
+        "Antoine Henri Becquerel"
+      ],
+      "popularity": 59929,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Henri Becquerel"
+    },
+    {
+      "name": "Steven Weinberg",
+      "aliases": [],
+      "popularity": 63416,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Steven Weinberg"
+    },
+    {
+      "name": "Hendrik Lorentz",
+      "aliases": [
+        "H. A. Lorentz",
+        "H.Lorentz",
+        "Hendrik Antoon Lorentz",
+        "Lorentz"
+      ],
+      "popularity": 68236,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Hendrik Lorentz"
+    },
+    {
+      "name": "James Chadwick",
+      "aliases": [
+        "Sir James Chadwick"
+      ],
+      "popularity": 71701,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "James Chadwick"
+    },
+    {
+      "name": "Yang Chen-Ning",
+      "aliases": [
+        "C.N. Yang",
+        "Chen-Ning Franklin Yang",
+        "Chen-ning Yang",
+        "Yang Zhenning"
+      ],
+      "popularity": 73743,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Yang Chen-Ning"
+    },
+    {
+      "name": "John M. Martinis",
+      "aliases": [],
+      "popularity": 77315,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "John M. Martinis"
+    },
+    {
+      "name": "Louis de Broglie",
+      "aliases": [
+        "Prince Louis-Victor de Broglie"
+      ],
+      "popularity": 79495,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Louis de Broglie"
+    },
+    {
+      "name": "Eugene Wigner",
+      "aliases": [
+        "Eugene P. Wigner",
+        "Eugene Paul Wigner"
+      ],
+      "popularity": 85361,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Eugene Wigner"
+    },
+    {
+      "name": "Peter Higgs",
+      "aliases": [
+        "Higgs P",
+        "P Higgs",
+        "Peter W. Higgs"
+      ],
+      "popularity": 92050,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Peter Higgs"
+    },
+    {
+      "name": "Murray Gell-Mann",
+      "aliases": [],
+      "popularity": 97411,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Murray Gell-Mann"
+    },
+    {
+      "name": "Luis Walter Alvarez",
+      "aliases": [
+        "Luis Alvarez",
+        "Luis W. Alvarez"
+      ],
+      "popularity": 102733,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Luis Walter Alvarez"
+    },
+    {
+      "name": "Hans Bethe",
+      "aliases": [
+        "Hans A. Bethe",
+        "Hans Albrecht Bethe"
+      ],
+      "popularity": 106514,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Hans Bethe"
+    },
+    {
+      "name": "John Bardeen",
+      "aliases": [],
+      "popularity": 109013,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "John Bardeen"
+    },
+    {
+      "name": "Shuji Nakamura",
+      "aliases": [],
+      "popularity": 112156,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Shuji Nakamura"
+    },
+    {
+      "name": "Lev Landau",
+      "aliases": [
+        "L. D. Landau",
+        "Lev Davidovich Landau",
+        "Lev Davydovitch Landau"
+      ],
+      "popularity": 119410,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Lev Landau"
+    },
+    {
+      "name": "Wolfgang Pauli",
+      "aliases": [
+        "Wolfgang Ernst Pauli"
+      ],
+      "popularity": 127428,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Wolfgang Pauli"
+    },
+    {
+      "name": "Abdus Salam",
+      "aliases": [
+        "Mohammad Abdus Salam",
+        "Muhammad Abdus Salam"
+      ],
+      "popularity": 143660,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Abdus Salam"
+    },
+    {
+      "name": "Ernest Lawrence",
+      "aliases": [],
+      "popularity": 150161,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Ernest Lawrence"
+    },
+    {
+      "name": "J. J. Thomson",
+      "aliases": [
+        "John Thompson",
+        "Joseph John Thomson",
+        "Sir Joseph John Thomson",
+        "Sir Joseph Thomson"
+      ],
+      "popularity": 152027,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "J. J. Thomson"
+    },
+    {
+      "name": "William Shockley",
+      "aliases": [
+        "William Bradford Shockley"
+      ],
+      "popularity": 156128,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "William Shockley"
+    },
+    {
+      "name": "Wilhelm Röntgen",
+      "aliases": [
+        "Wilhelm C. Röntgen",
+        "Wilhelm Konrad von Röntgen"
+      ],
+      "popularity": 184308,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Wilhelm Röntgen"
+    },
+    {
+      "name": "Kip Thorne",
+      "aliases": [
+        "Dr. Kip Thorne",
+        "K.S. Thorne",
+        "Kip S. Thorne",
+        "Kip Stephen Thorne"
+      ],
+      "popularity": 198359,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Kip Thorne"
+    },
+    {
+      "name": "Max Born",
+      "aliases": [],
+      "popularity": 242620,
+      "rarity": 0.066,
+      "tier": 1,
+      "wiki": "Max Born"
+    },
+    {
+      "name": "Subrahmanyan Chandrasekhar",
+      "aliases": [
+        "Chandrasekhar Subrahmanyan",
+        "Subrahmanya Chandrasekhar",
+        "Subramanyan Chandrasekhar"
+      ],
+      "popularity": 251052,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Subrahmanyan Chandrasekhar"
+    },
+    {
+      "name": "Guglielmo Marconi",
+      "aliases": [
+        "Guglielmo Marchese Marconi",
+        "Senatore Guglielmo Marconi"
+      ],
+      "popularity": 259936,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Guglielmo Marconi"
+    },
+    {
+      "name": "Pierre Curie",
+      "aliases": [],
+      "popularity": 265210,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Pierre Curie"
+    },
+    {
+      "name": "Max Planck",
+      "aliases": [],
+      "popularity": 300491,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Max Planck"
+    },
+    {
+      "name": "Paul Dirac",
+      "aliases": [
+        "P A M Dirac",
+        "Paul A M Dirac",
+        "Paul Adrien Maurice Dirac"
+      ],
+      "popularity": 336157,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Paul Dirac"
+    },
+    {
+      "name": "Enrico Fermi",
+      "aliases": [],
+      "popularity": 360222,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Enrico Fermi"
+    },
+    {
+      "name": "Roger Penrose",
+      "aliases": [
+        "R. Penrose",
+        "Sir Roger Penrose"
+      ],
+      "popularity": 374445,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Roger Penrose"
+    },
+    {
+      "name": "C. V. Raman",
+      "aliases": [
+        "Chandrasekhara Venkata Raman",
+        "CV Raman",
+        "Raman",
+        "Sir C.V. Raman",
+        "Sir Chandrasekhara Raman",
+        "Sir Chandrasekhara Venkata Raman",
+        "Sir CV Raman"
+      ],
+      "popularity": 407503,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "C. V. Raman"
+    },
+    {
+      "name": "Erwin Schrödinger",
+      "aliases": [
+        "Erwin Rudolf Josef Alexander Schröndinger",
+        "Erwin Schroedinger",
+        "Schrodinger"
+      ],
+      "popularity": 411392,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Erwin Schrödinger"
+    },
+    {
+      "name": "Niels Bohr",
+      "aliases": [
+        "N. H. D. Bohr"
+      ],
+      "popularity": 477620,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Niels Bohr"
+    },
+    {
+      "name": "Werner Heisenberg",
+      "aliases": [
+        "Heisenberg",
+        "Werner K. Heisenberg",
+        "Werner Karl Heisenberg"
+      ],
+      "popularity": 667384,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "Werner Heisenberg"
+    },
+    {
+      "name": "Geoffrey Hinton",
+      "aliases": [
+        "G. E. Hinton",
+        "Geoff Hinton"
+      ],
+      "popularity": 744287,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Geoffrey Hinton"
+    },
+    {
+      "name": "Richard Feynman",
+      "aliases": [],
+      "popularity": 1213069,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Richard Feynman"
+    },
+    {
+      "name": "Marie Curie",
+      "aliases": [],
+      "popularity": 1932824,
+      "rarity": 0.004,
+      "tier": 1,
+      "wiki": "Marie Curie"
+    },
+    {
+      "name": "Albert Einstein",
+      "aliases": [],
+      "popularity": 4190741,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Albert Einstein"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "id": "ligue-1-clubs",
+  "slug": "ligue-1-clubs",
+  "category": "sports",
+  "question": "Name a current Ligue 1 club",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Le Mans FC",
+      "aliases": [
+        "Le Mans F.C.",
+        "Le Mans Football Club",
+        "Le Mans U.C. 72",
+        "Le MUC"
+      ],
+      "popularity": 97419,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Le Mans FC"
+    },
+    {
+      "name": "Angers SCO",
+      "aliases": [
+        "Angers",
+        "SCO",
+        "SCO of Angers"
+      ],
+      "popularity": 122094,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Angers SCO"
+    },
+    {
+      "name": "Stade Brestois 29",
+      "aliases": [],
+      "popularity": 139569,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Stade Brestois 29"
+    },
+    {
+      "name": "ES Troyes AC",
+      "aliases": [
+        "ES Troyes",
+        "ESTAC",
+        "Troyes AC"
+      ],
+      "popularity": 162463,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "ES Troyes AC"
+    },
+    {
+      "name": "AJ Auxerre",
+      "aliases": [
+        "AJA",
+        "Association de la Jeunesse Auxerroise",
+        "Auxerre",
+        "Les Icaunais"
+      ],
+      "popularity": 171803,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "AJ Auxerre"
+    },
+    {
+      "name": "Toulouse FC",
+      "aliases": [
+        "TFC",
+        "Toulouse",
+        "Toulouse F.C.",
+        "Toulouse Football Club"
+      ],
+      "popularity": 198294,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Toulouse FC"
+    },
+    {
+      "name": "FC Lorient",
+      "aliases": [
+        "F.C. Lorient",
+        "Football Club Lorient-Bretagne Sud"
+      ],
+      "popularity": 225797,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "FC Lorient"
+    },
+    {
+      "name": "Le Havre AC",
+      "aliases": [
+        "HAC",
+        "Le Havre",
+        "Le Havre Athletic Club",
+        "Les Ciel et Marine",
+        "LHV"
+      ],
+      "popularity": 230972,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Le Havre AC"
+    },
+    {
+      "name": "OGC Nice",
+      "aliases": [],
+      "popularity": 271558,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "OGC Nice"
+    },
+    {
+      "name": "Stade Rennais FC",
+      "aliases": [
+        "Rennais",
+        "Rennes",
+        "SRFC",
+        "Stade Rennais",
+        "Stade Rennais F.C.",
+        "Stade Rennais Football Club"
+      ],
+      "popularity": 281421,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Stade Rennais FC"
+    },
+    {
+      "name": "Lille OSC",
+      "aliases": [
+        "Lille",
+        "Lille Olympique Sporting Club",
+        "LOSC"
+      ],
+      "popularity": 506433,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Lille OSC"
+    },
+    {
+      "name": "RC Lens",
+      "aliases": [
+        "Lens",
+        "R.C. Lens",
+        "Racing Club de Lens"
+      ],
+      "popularity": 535234,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "RC Lens"
+    },
+    {
+      "name": "Olympique Lyonnais",
+      "aliases": [
+        "Lyon",
+        "O.L.",
+        "O. Lyon",
+        "O. Lyonnais",
+        "OL"
+      ],
+      "popularity": 609612,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Olympique Lyonnais"
+    },
+    {
+      "name": "Paris FC",
+      "aliases": [
+        "Paris F.C.",
+        "Paris Football Club",
+        "PFC"
+      ],
+      "popularity": 635969,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Paris FC"
+    },
+    {
+      "name": "RC Strasbourg Alsace",
+      "aliases": [
+        "Racing",
+        "Racing Club de Strasbourg",
+        "Racing Club de Strasbourg Alsace",
+        "Racing Strasbourg",
+        "RCSA",
+        "Strasbourg"
+      ],
+      "popularity": 753519,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "RC Strasbourg Alsace"
+    },
+    {
+      "name": "Olympique de Marseille",
+      "aliases": [
+        "Marseille",
+        "O Marseille",
+        "Olympic Marseille",
+        "Olympic of Marseille",
+        "Olympique Marseille"
+      ],
+      "popularity": 778465,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Olympique de Marseille"
+    },
+    {
+      "name": "AS Monaco FC",
+      "aliases": [
+        "A.S.M.F.C.",
+        "A.S. Monaco",
+        "A.S. Monaco F.C.",
+        "AS Monaco",
+        "AS Monaco F.C.",
+        "AS Monaco Football Club",
+        "ASMFC",
+        "ASMonaco",
+        "Monaco"
+      ],
+      "popularity": 971730,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "AS Monaco FC"
+    },
+    {
+      "name": "Paris Saint-Germain FC",
+      "aliases": [
+        "Paris",
+        "PSGFC"
+      ],
+      "popularity": 2526948,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Paris Saint-Germain FC"
+    }
+  ]
+}

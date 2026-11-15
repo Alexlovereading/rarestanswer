@@ -1,0 +1,167 @@
+{
+  "id": "vietnamese-dishes",
+  "slug": "vietnamese-dishes",
+  "category": "food",
+  "question": "Name a Vietnamese dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Nem chua Lai Vung",
+      "aliases": [
+        "Nem Lai Vung"
+      ],
+      "popularity": 379,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Nem chua Lai Vung"
+    },
+    {
+      "name": "Bánh rế",
+      "aliases": [],
+      "popularity": 1203,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Bánh rế"
+    },
+    {
+      "name": "Bánh cáy",
+      "aliases": [],
+      "popularity": 1507,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Bánh cáy"
+    },
+    {
+      "name": "Chả trứng",
+      "aliases": [],
+      "popularity": 2848,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Chả trứng"
+    },
+    {
+      "name": "Chè trôi nước",
+      "aliases": [],
+      "popularity": 6173,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Chè trôi nước"
+    },
+    {
+      "name": "Bánh đậu xanh",
+      "aliases": [
+        "mung bean cake"
+      ],
+      "popularity": 6365,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Bánh đậu xanh"
+    },
+    {
+      "name": "Chả cá Lã Vọng",
+      "aliases": [
+        "chả cá"
+      ],
+      "popularity": 7752,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Chả cá Lã Vọng"
+    },
+    {
+      "name": "Cốm",
+      "aliases": [],
+      "popularity": 9771,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Cốm"
+    },
+    {
+      "name": "Bánh bèo",
+      "aliases": [
+        "water fern cake"
+      ],
+      "popularity": 14676,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Bánh bèo"
+    },
+    {
+      "name": "Bánh tét",
+      "aliases": [],
+      "popularity": 16517,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Bánh tét"
+    },
+    {
+      "name": "Bánh bao",
+      "aliases": [],
+      "popularity": 18883,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Bánh bao"
+    },
+    {
+      "name": "Hủ tiếu",
+      "aliases": [
+        "Hu tieu Saigon"
+      ],
+      "popularity": 24420,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Hủ tiếu"
+    },
+    {
+      "name": "Bánh chưng",
+      "aliases": [
+        "chung cake"
+      ],
+      "popularity": 29403,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Bánh chưng"
+    },
+    {
+      "name": "Tomalley",
+      "aliases": [
+        "tumale"
+      ],
+      "popularity": 48566,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Tomalley"
+    },
+    {
+      "name": "Gỏi cuốn",
+      "aliases": [
+        "Bánh tráng cuốn",
+        "Nem cuốn",
+        "salad roll",
+        "summer roll",
+        "Vietnamese Spring Roll"
+      ],
+      "popularity": 52427,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Gỏi cuốn"
+    },
+    {
+      "name": "Bun cha",
+      "aliases": [],
+      "popularity": 56466,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Bun cha"
+    },
+    {
+      "name": "Pho",
+      "aliases": [
+        "feu"
+      ],
+      "popularity": 338900,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Pho"
+    }
+  ]
+}

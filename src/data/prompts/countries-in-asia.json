@@ -1,0 +1,640 @@
+{
+  "id": "countries-in-asia",
+  "slug": "countries-in-asia",
+  "category": "geography",
+  "question": "Name a country in Asia",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Timor-Leste",
+      "aliases": [
+        "Democratic Republic of Timor-Leste",
+        "East Timor"
+      ],
+      "popularity": 998582,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Timor-Leste"
+    },
+    {
+      "name": "Tajikistan",
+      "aliases": [
+        "Republic of Tajikistan"
+      ],
+      "popularity": 1049836,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Tajikistan"
+    },
+    {
+      "name": "Laos",
+      "aliases": [
+        "Lao PDR",
+        "Lao People's Democratic Republic"
+      ],
+      "popularity": 1100204,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Laos"
+    },
+    {
+      "name": "Brunei",
+      "aliases": [
+        "Negara Brunei Darussalam"
+      ],
+      "popularity": 1250082,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Brunei"
+    },
+    {
+      "name": "Bhutan",
+      "aliases": [
+        "BHU",
+        "Kingdom of Bhutan"
+      ],
+      "popularity": 1285916,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Bhutan"
+    },
+    {
+      "name": "Kuwait",
+      "aliases": [
+        "State of Kuwait"
+      ],
+      "popularity": 1380707,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Kuwait"
+    },
+    {
+      "name": "Turkmenistan",
+      "aliases": [
+        "Turkmenia"
+      ],
+      "popularity": 1385357,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Turkmenistan"
+    },
+    {
+      "name": "Cambodia",
+      "aliases": [
+        "Camboya",
+        "Campuchia",
+        "Kambodzha",
+        "Kamboja",
+        "Kampuchea",
+        "Kingdom of Cambodia"
+      ],
+      "popularity": 1400756,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Cambodia"
+    },
+    {
+      "name": "Jordan",
+      "aliases": [
+        "Giordania",
+        "Hashemite Kingdom of Jordan",
+        "HKJ",
+        "Kingdom of Jordan",
+        "State of Jordan",
+        "Yarden"
+      ],
+      "popularity": 1516140,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Jordan"
+    },
+    {
+      "name": "Mongolia",
+      "aliases": [
+        "Mongol State",
+        "State of Mongolia"
+      ],
+      "popularity": 1549940,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Mongolia"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "aliases": [
+        "Kyrgyz Republic"
+      ],
+      "popularity": 1619125,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Kyrgyzstan"
+    },
+    {
+      "name": "Maldives",
+      "aliases": [
+        "MDV",
+        "Republic of Maldives"
+      ],
+      "popularity": 1734980,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Maldives"
+    },
+    {
+      "name": "Qatar",
+      "aliases": [
+        "qat",
+        "State of Qatar"
+      ],
+      "popularity": 1745636,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Qatar"
+    },
+    {
+      "name": "Yemen",
+      "aliases": [
+        "Rep. Yemen",
+        "Republic of Yemen"
+      ],
+      "popularity": 1792339,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Yemen"
+    },
+    {
+      "name": "Oman",
+      "aliases": [
+        "omn",
+        "Sultanate of Oman",
+        "Uman"
+      ],
+      "popularity": 1875043,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Oman"
+    },
+    {
+      "name": "Iraq",
+      "aliases": [
+        "Republic of Iraq"
+      ],
+      "popularity": 1897566,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Iraq"
+    },
+    {
+      "name": "Azerbaijan",
+      "aliases": [
+        "AZE",
+        "Republic of Azerbaijan"
+      ],
+      "popularity": 1915262,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Azerbaijan"
+    },
+    {
+      "name": "Armenia",
+      "aliases": [
+        "Hayastani Hanrapetut’yun",
+        "Republic of Armenia"
+      ],
+      "popularity": 2041566,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Armenia"
+    },
+    {
+      "name": "Bahrain",
+      "aliases": [
+        "Bahrein Islands",
+        "Dawlat al-Bahrain",
+        "Kingdom of Bahrain",
+        "Mamlakat al-Baḥrayn"
+      ],
+      "popularity": 2048243,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Bahrain"
+    },
+    {
+      "name": "Myanmar",
+      "aliases": [
+        "Birmania",
+        "Burma",
+        "MMR",
+        "Union of Burma"
+      ],
+      "popularity": 2089481,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Myanmar"
+    },
+    {
+      "name": "Syria",
+      "aliases": [
+        "Sūriyā",
+        "Syrian Arab Republic"
+      ],
+      "popularity": 2091587,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Syria"
+    },
+    {
+      "name": "Thailand",
+      "aliases": [
+        "Kingdom of Siam",
+        "Kingdom of Thailand",
+        "Prathet Thai",
+        "Ratcha-anachak Thai",
+        "Thai",
+        "The Kingdom of Siam",
+        "The Kingdom of Thailand"
+      ],
+      "popularity": 2109366,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Thailand"
+    },
+    {
+      "name": "South Korea",
+      "aliases": [
+        "Choson",
+        "Daehan Minguk",
+        "Daehanminguk",
+        "Hanguk",
+        "Korea Republic",
+        "Rep. Korea",
+        "Republic of Korea",
+        "ROK",
+        "S. Korea",
+        "Silla"
+      ],
+      "popularity": 2136570,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "South Korea"
+    },
+    {
+      "name": "Uzbekistan",
+      "aliases": [
+        "Republic of Uzbekistan"
+      ],
+      "popularity": 2157309,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Uzbekistan"
+    },
+    {
+      "name": "Nepal",
+      "aliases": [
+        "Bal-bo",
+        "Bal-po'i yul",
+        "Bal-yul",
+        "Balbo",
+        "Balpo",
+        "Balpo-yul",
+        "Federal Democratic Republic of Nepal",
+        "Naipál",
+        "Naipála",
+        "Ne-pel",
+        "Necbal",
+        "Nehpal",
+        "Nei-pal",
+        "Nekbal",
+        "Nekpal",
+        "Népaal",
+        "Nepall",
+        "Nepaul",
+        "Nercerri",
+        "Ni-po-lo",
+        "Ni-po-louo",
+        "Niepal",
+        "Nipal",
+        "Pa-eul-pou",
+        "Pa-le-pou",
+        "Pa-lo-pou",
+        "Paï-pou",
+        "Palpa",
+        "Palpou"
+      ],
+      "popularity": 2189839,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Nepal"
+    },
+    {
+      "name": "Malaysia",
+      "aliases": [
+        "Federation of Malaysia",
+        "Malaysia Federation",
+        "MYS"
+      ],
+      "popularity": 2228232,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Malaysia"
+    },
+    {
+      "name": "Sri Lanka",
+      "aliases": [
+        "Ceylan",
+        "lke",
+        "Serendib",
+        "sri",
+        "Srilanka",
+        "Taprobane"
+      ],
+      "popularity": 2230012,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Sri Lanka"
+    },
+    {
+      "name": "Palestine",
+      "aliases": [
+        "PSE",
+        "State of Palestine"
+      ],
+      "popularity": 2282515,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Palestine"
+    },
+    {
+      "name": "Vietnam",
+      "aliases": [
+        "Socialist Republic of Viet Nam",
+        "SRV",
+        "VIE",
+        "VNM"
+      ],
+      "popularity": 2357778,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Vietnam"
+    },
+    {
+      "name": "Lebanon",
+      "aliases": [
+        "Lebanese Republic",
+        "Lubnan",
+        "Republic of Lebanon",
+        "State of Lebanon"
+      ],
+      "popularity": 2439333,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Lebanon"
+    },
+    {
+      "name": "Afghanistan",
+      "aliases": [
+        "Affghanistan",
+        "Affghanisthan",
+        "Affghaunistan",
+        "Afghania",
+        "Afghanisthan",
+        "Afghaunistan",
+        "Afghaunistaun"
+      ],
+      "popularity": 2440979,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Afghanistan"
+    },
+    {
+      "name": "Bangladesh",
+      "aliases": [
+        "Bangla Desh",
+        "Country of Bengal",
+        "Land of Bengal",
+        "People's Republic of Bangladesh"
+      ],
+      "popularity": 2488163,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Bangladesh"
+    },
+    {
+      "name": "Kazakhstan",
+      "aliases": [
+        "Republic of Kazakhstan",
+        "Republic of Qazaqstan"
+      ],
+      "popularity": 2536541,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Kazakhstan"
+    },
+    {
+      "name": "North Korea",
+      "aliases": [
+        "DPR Korea",
+        "DPRK",
+        "N. Korea"
+      ],
+      "popularity": 2543937,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "North Korea"
+    },
+    {
+      "name": "Indonesia",
+      "aliases": [
+        "Republic of Indonesia"
+      ],
+      "popularity": 2832222,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Indonesia"
+    },
+    {
+      "name": "Saudi Arabia",
+      "aliases": [
+        "Kingdom of Saudi Arabia",
+        "Saudi"
+      ],
+      "popularity": 2846514,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Saudi Arabia"
+    },
+    {
+      "name": "Philippines",
+      "aliases": [
+        "PH",
+        "Philippine Islands",
+        "Republic of the Philippines",
+        "RP",
+        "The Philippines"
+      ],
+      "popularity": 2976230,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Philippines"
+    },
+    {
+      "name": "Pakistan",
+      "aliases": [
+        "Hồi Quốc",
+        "Islamic Republic of Pakistan",
+        "Republic of Pakistan",
+        "Tây Hồi"
+      ],
+      "popularity": 3114080,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Pakistan"
+    },
+    {
+      "name": "Taiwan",
+      "aliases": [
+        "Chinese Republic",
+        "Chinese Taipei",
+        "Chunghwa Minkuo",
+        "Chunghwa Minkwo",
+        "Free China",
+        "Nationalist China",
+        "Republic of China",
+        "ROC",
+        "Taiwan ROC",
+        "The ROC",
+        "TWN"
+      ],
+      "popularity": 3395770,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Taiwan"
+    },
+    {
+      "name": "Turkey",
+      "aliases": [
+        "Republic of Turkey",
+        "Republic of Türkiye"
+      ],
+      "popularity": 3465265,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Turkey"
+    },
+    {
+      "name": "United Arab Emirates",
+      "aliases": [
+        "Emirates",
+        "the Emirates",
+        "the U.A.E.",
+        "the UAE",
+        "the United Arab Emirates",
+        "U.A.E.",
+        "UAE"
+      ],
+      "popularity": 3589539,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "United Arab Emirates"
+    },
+    {
+      "name": "Singapore",
+      "aliases": [
+        "Garden City",
+        "Lion City",
+        "Republic of Singapore",
+        "S'pore",
+        "Singapore City"
+      ],
+      "popularity": 3673202,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Singapore"
+    },
+    {
+      "name": "Russia",
+      "aliases": [
+        "Russian Federation"
+      ],
+      "popularity": 3915588,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Russia"
+    },
+    {
+      "name": "Japan",
+      "aliases": [
+        "Iapan",
+        "Iapon",
+        "Land of Rising Sun",
+        "Land of the Rising Sun",
+        "Nihon-koku",
+        "Nippon-koku",
+        "State of Japan"
+      ],
+      "popularity": 3951354,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Japan"
+    },
+    {
+      "name": "China",
+      "aliases": [
+        "China PR",
+        "Communist China",
+        "P.R.C.",
+        "People's Republic of China",
+        "PR China",
+        "Red China",
+        "The PRC"
+      ],
+      "popularity": 4422695,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "China"
+    },
+    {
+      "name": "Israel",
+      "aliases": [
+        "ISR",
+        "State of Israel",
+        "Yisrael"
+      ],
+      "popularity": 4622327,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Israel"
+    },
+    {
+      "name": "India",
+      "aliases": [
+        "Al Hind",
+        "Bharat Ganarajya",
+        "Bharata",
+        "Bharatvarsh",
+        "Hindoostan",
+        "Hindustan",
+        "Indostan",
+        "Republic of India",
+        "Tenjiku",
+        "Tianzhu"
+      ],
+      "popularity": 5948855,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "India"
+    },
+    {
+      "name": "Iran",
+      "aliases": [
+        "IRI",
+        "Islamic Rep. Iran",
+        "Islamic Republic of Iran"
+      ],
+      "popularity": 8269134,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Iran"
+    }
+  ]
+}

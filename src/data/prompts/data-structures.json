@@ -1,0 +1,1242 @@
+{
+  "id": "data-structures",
+  "slug": "data-structures",
+  "category": "science",
+  "question": "Name a data structure",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Linear data set",
+      "aliases": [
+        "Linear DataSet"
+      ],
+      "popularity": 77,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Linear data set"
+    },
+    {
+      "name": "Program Memory Area",
+      "aliases": [],
+      "popularity": 77,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Program Memory Area"
+    },
+    {
+      "name": "Compressed cover tree",
+      "aliases": [],
+      "popularity": 154,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Compressed cover tree"
+    },
+    {
+      "name": "User Electronic Signature",
+      "aliases": [],
+      "popularity": 164,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "User Electronic Signature"
+    },
+    {
+      "name": "Addressable heap",
+      "aliases": [],
+      "popularity": 187,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Addressable heap"
+    },
+    {
+      "name": "Active data structure",
+      "aliases": [],
+      "popularity": 193,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Active data structure"
+    },
+    {
+      "name": "Shadow heap",
+      "aliases": [],
+      "popularity": 250,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Shadow heap"
+    },
+    {
+      "name": "Feature data",
+      "aliases": [
+        "feature"
+      ],
+      "popularity": 324,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "Feature data"
+    },
+    {
+      "name": "Relaxed k-d tree",
+      "aliases": [],
+      "popularity": 329,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Relaxed k-d tree"
+    },
+    {
+      "name": "Fieldtree",
+      "aliases": [],
+      "popularity": 333,
+      "rarity": 0.93,
+      "tier": 5,
+      "wiki": "Fieldtree"
+    },
+    {
+      "name": "Job File Table",
+      "aliases": [
+        "JFT"
+      ],
+      "popularity": 367,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Job File Table"
+    },
+    {
+      "name": "Bridge protocol data unit",
+      "aliases": [
+        "Bridge Protocol Data Units"
+      ],
+      "popularity": 386,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Bridge protocol data unit"
+    },
+    {
+      "name": "Interval union-split-find",
+      "aliases": [],
+      "popularity": 425,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Interval union-split-find"
+    },
+    {
+      "name": "Shared snapshot objects",
+      "aliases": [],
+      "popularity": 453,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Shared snapshot objects"
+    },
+    {
+      "name": "Recordset",
+      "aliases": [],
+      "popularity": 454,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Recordset"
+    },
+    {
+      "name": "Kinetic heap",
+      "aliases": [],
+      "popularity": 455,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Kinetic heap"
+    },
+    {
+      "name": "Block allocation map",
+      "aliases": [],
+      "popularity": 472,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Block allocation map"
+    },
+    {
+      "name": "C-trie",
+      "aliases": [],
+      "popularity": 506,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "C-trie"
+    },
+    {
+      "name": "Mergeable heap",
+      "aliases": [],
+      "popularity": 605,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Mergeable heap"
+    },
+    {
+      "name": "Retroactive data structure",
+      "aliases": [
+        "Retroactive data structures"
+      ],
+      "popularity": 622,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Retroactive data structure"
+    },
+    {
+      "name": "Unit Control Block",
+      "aliases": [],
+      "popularity": 685,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Unit Control Block"
+    },
+    {
+      "name": "Data Control Block",
+      "aliases": [
+        "DCB"
+      ],
+      "popularity": 694,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Data Control Block"
+    },
+    {
+      "name": "Conc-tree list",
+      "aliases": [],
+      "popularity": 715,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Conc-tree list"
+    },
+    {
+      "name": "(a,b)-tree",
+      "aliases": [],
+      "popularity": 768,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "(a,b)-tree"
+    },
+    {
+      "name": "Zero page",
+      "aliases": [
+        "Zero page (CP/M)"
+      ],
+      "popularity": 870,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Zero page (CP/M)"
+    },
+    {
+      "name": "Exponential tree",
+      "aliases": [],
+      "popularity": 946,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Exponential tree"
+    },
+    {
+      "name": "Stream",
+      "aliases": [
+        "Stream (abstract data type)"
+      ],
+      "popularity": 948,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Stream (abstract data type)"
+    },
+    {
+      "name": "Priority search tree",
+      "aliases": [],
+      "popularity": 1083,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Priority search tree"
+    },
+    {
+      "name": "Level set",
+      "aliases": [
+        "Level set (data structures)"
+      ],
+      "popularity": 1086,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Level set (data structures)"
+    },
+    {
+      "name": "Oblivious data structure",
+      "aliases": [],
+      "popularity": 1096,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Oblivious data structure"
+    },
+    {
+      "name": "Kinetic data structure",
+      "aliases": [],
+      "popularity": 1137,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Kinetic data structure"
+    },
+    {
+      "name": "B-heap",
+      "aliases": [],
+      "popularity": 1221,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "B-heap"
+    },
+    {
+      "name": "Substring index",
+      "aliases": [],
+      "popularity": 1244,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Substring index"
+    },
+    {
+      "name": "Prefix hash tree",
+      "aliases": [],
+      "popularity": 1316,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Prefix hash tree"
+    },
+    {
+      "name": "Radix heap",
+      "aliases": [],
+      "popularity": 1366,
+      "rarity": 0.734,
+      "tier": 4,
+      "wiki": "Radix heap"
+    },
+    {
+      "name": "Beap",
+      "aliases": [
+        "bi-parental heap"
+      ],
+      "popularity": 1388,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Beap"
+    },
+    {
+      "name": "Search data structure",
+      "aliases": [],
+      "popularity": 1462,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Search data structure"
+    },
+    {
+      "name": "Cover tree",
+      "aliases": [],
+      "popularity": 1641,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Cover tree"
+    },
+    {
+      "name": "Line",
+      "aliases": [
+        "Line (text file)",
+        "text line"
+      ],
+      "popularity": 1691,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Line (text file)"
+    },
+    {
+      "name": "Bidirectional map",
+      "aliases": [],
+      "popularity": 1735,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Bidirectional map"
+    },
+    {
+      "name": "Rendezvous",
+      "aliases": [
+        "Rendezvous (Plan 9)"
+      ],
+      "popularity": 1941,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Rendezvous (Plan 9)"
+    },
+    {
+      "name": "Palindrome tree",
+      "aliases": [
+        "Eertree",
+        "Palindromic tree"
+      ],
+      "popularity": 2237,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Palindrome tree"
+    },
+    {
+      "name": "Hash trie",
+      "aliases": [],
+      "popularity": 2310,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Hash trie"
+    },
+    {
+      "name": "Skip graph",
+      "aliases": [],
+      "popularity": 2385,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Skip graph"
+    },
+    {
+      "name": "Hash tree",
+      "aliases": [
+        "Hash tree (persistent data structure)"
+      ],
+      "popularity": 2438,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Hash tree (persistent data structure)"
+    },
+    {
+      "name": "Sorted array",
+      "aliases": [],
+      "popularity": 2472,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Sorted array"
+    },
+    {
+      "name": "Edge list",
+      "aliases": [],
+      "popularity": 2492,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Edge list"
+    },
+    {
+      "name": "Thread control block",
+      "aliases": [],
+      "popularity": 2531,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Thread control block"
+    },
+    {
+      "name": "File Control Block",
+      "aliases": [
+        "FCB"
+      ],
+      "popularity": 2536,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "File Control Block"
+    },
+    {
+      "name": "Association list",
+      "aliases": [
+        "alist"
+      ],
+      "popularity": 2540,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Association list"
+    },
+    {
+      "name": "Implicit data structure",
+      "aliases": [
+        "space-efficient data structure"
+      ],
+      "popularity": 2594,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Implicit data structure"
+    },
+    {
+      "name": "Hollerith constant",
+      "aliases": [
+        "Hollerith field",
+        "Hollerith string"
+      ],
+      "popularity": 2704,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Hollerith constant"
+    },
+    {
+      "name": "Iliffe vector",
+      "aliases": [
+        "display"
+      ],
+      "popularity": 2773,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Iliffe vector"
+    },
+    {
+      "name": "Concurrent data structure",
+      "aliases": [],
+      "popularity": 2776,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Concurrent data structure"
+    },
+    {
+      "name": "Partition table",
+      "aliases": [],
+      "popularity": 2834,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Partition table"
+    },
+    {
+      "name": "Fractal tree index",
+      "aliases": [],
+      "popularity": 2937,
+      "rarity": 0.57,
+      "tier": 3,
+      "wiki": "Fractal tree index"
+    },
+    {
+      "name": "Scan-Line Interleave",
+      "aliases": [],
+      "popularity": 3042,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Scan-Line Interleave"
+    },
+    {
+      "name": "Hashed array tree",
+      "aliases": [],
+      "popularity": 3135,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Hashed array tree"
+    },
+    {
+      "name": "Matrix representation",
+      "aliases": [],
+      "popularity": 3339,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Matrix representation"
+    },
+    {
+      "name": "Linked data structure",
+      "aliases": [
+        "Connector"
+      ],
+      "popularity": 3474,
+      "rarity": 0.539,
+      "tier": 3,
+      "wiki": "Linked data structure"
+    },
+    {
+      "name": "Program Segment Prefix",
+      "aliases": [
+        "PSP"
+      ],
+      "popularity": 3563,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Program Segment Prefix"
+    },
+    {
+      "name": "Judy array",
+      "aliases": [],
+      "popularity": 3638,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Judy array"
+    },
+    {
+      "name": "Counting Bloom filter",
+      "aliases": [],
+      "popularity": 3830,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Counting Bloom filter"
+    },
+    {
+      "name": "Geodatabase",
+      "aliases": [
+        "Geodatabase (Esri)",
+        "GeoDB"
+      ],
+      "popularity": 3913,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Geodatabase (Esri)"
+    },
+    {
+      "name": "Ternary search tree",
+      "aliases": [
+        "TST"
+      ],
+      "popularity": 3922,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Ternary search tree"
+    },
+    {
+      "name": "Use-define chain",
+      "aliases": [
+        "UD chain"
+      ],
+      "popularity": 4179,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Use-define chain"
+    },
+    {
+      "name": "BIOS parameter block",
+      "aliases": [],
+      "popularity": 4296,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "BIOS parameter block"
+    },
+    {
+      "name": "Packetized elementary stream",
+      "aliases": [
+        "PES"
+      ],
+      "popularity": 4354,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Packetized elementary stream"
+    },
+    {
+      "name": "Left-leaning red–black tree",
+      "aliases": [
+        "LLRB"
+      ],
+      "popularity": 4396,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Left-leaning red–black tree"
+    },
+    {
+      "name": "Task state segment",
+      "aliases": [
+        "TSS"
+      ],
+      "popularity": 4803,
+      "rarity": 0.461,
+      "tier": 3,
+      "wiki": "Task state segment"
+    },
+    {
+      "name": "Memory map",
+      "aliases": [],
+      "popularity": 5155,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Memory map"
+    },
+    {
+      "name": "Purely functional data structure",
+      "aliases": [],
+      "popularity": 5298,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Purely functional data structure"
+    },
+    {
+      "name": "Scapegoat tree",
+      "aliases": [],
+      "popularity": 5606,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Scapegoat tree"
+    },
+    {
+      "name": "Extent",
+      "aliases": [
+        "allocation extent",
+        "Extent (file systems)",
+        "file system extent",
+        "filesystem extent",
+        "FS extent"
+      ],
+      "popularity": 5614,
+      "rarity": 0.43,
+      "tier": 3,
+      "wiki": "Extent (file systems)"
+    },
+    {
+      "name": "Range tree",
+      "aliases": [],
+      "popularity": 6314,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Range tree"
+    },
+    {
+      "name": "System image",
+      "aliases": [],
+      "popularity": 6697,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "System image"
+    },
+    {
+      "name": "Branching",
+      "aliases": [
+        "branch",
+        "Branching (version control)",
+        "development branch",
+        "revision control branch",
+        "VCS branch",
+        "version control branch"
+      ],
+      "popularity": 6801,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Branching (version control)"
+    },
+    {
+      "name": "Passive data structure",
+      "aliases": [
+        "PDS",
+        "plain old data",
+        "plain old data structure",
+        "Plain Old Data Structures",
+        "POD",
+        "PODS"
+      ],
+      "popularity": 6856,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Passive data structure"
+    },
+    {
+      "name": "Succinct data structure",
+      "aliases": [],
+      "popularity": 6875,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Succinct data structure"
+    },
+    {
+      "name": "Summed-area table",
+      "aliases": [
+        "integral image"
+      ],
+      "popularity": 7700,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Summed-area table"
+    },
+    {
+      "name": "Zipper",
+      "aliases": [
+        "Zipper (data structure)"
+      ],
+      "popularity": 7871,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Zipper (data structure)"
+    },
+    {
+      "name": "2–3–4 tree",
+      "aliases": [
+        "2–4 tree"
+      ],
+      "popularity": 8705,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "2–3–4 tree"
+    },
+    {
+      "name": "Triangulated irregular network",
+      "aliases": [
+        "TIN",
+        "triangular irregular network"
+      ],
+      "popularity": 8894,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Triangulated irregular network"
+    },
+    {
+      "name": "2–3 tree",
+      "aliases": [],
+      "popularity": 9421,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "2–3 tree"
+    },
+    {
+      "name": "Nested set model",
+      "aliases": [],
+      "popularity": 9830,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Nested set model"
+    },
+    {
+      "name": "Process control block",
+      "aliases": [],
+      "popularity": 10144,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Process control block"
+    },
+    {
+      "name": "Symbol table",
+      "aliases": [],
+      "popularity": 11816,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Symbol table"
+    },
+    {
+      "name": "Union type",
+      "aliases": [],
+      "popularity": 12001,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Union type"
+    },
+    {
+      "name": "Block",
+      "aliases": [
+        "Block (data storage)",
+        "block of data",
+        "data block",
+        "disk block",
+        "logical block",
+        "logical sector",
+        "physical record",
+        "sector"
+      ],
+      "popularity": 12587,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Block (data storage)"
+    },
+    {
+      "name": "Cons",
+      "aliases": [
+        "cons cell"
+      ],
+      "popularity": 12740,
+      "rarity": 0.305,
+      "tier": 2,
+      "wiki": "Cons"
+    },
+    {
+      "name": "List",
+      "aliases": [
+        "List (abstract data type)",
+        "list data type",
+        "ordered list"
+      ],
+      "popularity": 13113,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "List (abstract data type)"
+    },
+    {
+      "name": "Frame",
+      "aliases": [
+        "data frame",
+        "data-link frame",
+        "Frame (networking)"
+      ],
+      "popularity": 14218,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Frame (networking)"
+    },
+    {
+      "name": "Continuation",
+      "aliases": [],
+      "popularity": 15702,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Continuation"
+    },
+    {
+      "name": "Dynamic array",
+      "aliases": [
+        "array list",
+        "dynamic table",
+        "growable array",
+        "mutable array",
+        "resizable array",
+        "vector"
+      ],
+      "popularity": 17073,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Dynamic array"
+    },
+    {
+      "name": "Semantic triple",
+      "aliases": [
+        "RDF triple",
+        "triple"
+      ],
+      "popularity": 17527,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "Semantic triple"
+    },
+    {
+      "name": "Min-max heap",
+      "aliases": [],
+      "popularity": 17677,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Min-max heap"
+    },
+    {
+      "name": "OLAP cube",
+      "aliases": [],
+      "popularity": 17860,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "OLAP cube"
+    },
+    {
+      "name": "Bit field",
+      "aliases": [],
+      "popularity": 18000,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Bit field"
+    },
+    {
+      "name": "Devicetree",
+      "aliases": [
+        "device tree",
+        "devtree"
+      ],
+      "popularity": 19233,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Devicetree"
+    },
+    {
+      "name": "Splay tree",
+      "aliases": [],
+      "popularity": 23181,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Splay tree"
+    },
+    {
+      "name": "Persistent data structure",
+      "aliases": [],
+      "popularity": 23961,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Persistent data structure"
+    },
+    {
+      "name": "Adjacency list",
+      "aliases": [],
+      "popularity": 25189,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Adjacency list"
+    },
+    {
+      "name": "Graph",
+      "aliases": [
+        "Graph (abstract data type)",
+        "graph data structure"
+      ],
+      "popularity": 26789,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Graph (abstract data type)"
+    },
+    {
+      "name": "Segment tree",
+      "aliases": [],
+      "popularity": 27100,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Segment tree"
+    },
+    {
+      "name": "Page table",
+      "aliases": [],
+      "popularity": 28930,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Page table"
+    },
+    {
+      "name": "Intermediate representation",
+      "aliases": [
+        "bitcode",
+        "bytecode",
+        "intermediate language"
+      ],
+      "popularity": 30219,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Intermediate representation"
+    },
+    {
+      "name": "Polygon mesh",
+      "aliases": [
+        "mesh",
+        "polygonal mesh"
+      ],
+      "popularity": 31840,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Polygon mesh"
+    },
+    {
+      "name": "Database index",
+      "aliases": [
+        "DB index",
+        "index",
+        "SQL index"
+      ],
+      "popularity": 33389,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Database index"
+    },
+    {
+      "name": "Associative array",
+      "aliases": [
+        "associative container",
+        "dict",
+        "dictionary",
+        "dictionary data structure",
+        "map",
+        "map data structure",
+        "property list"
+      ],
+      "popularity": 34133,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Associative array"
+    },
+    {
+      "name": "Fibonacci heap",
+      "aliases": [],
+      "popularity": 35007,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Fibonacci heap"
+    },
+    {
+      "name": "Tree",
+      "aliases": [
+        "Tree (abstract data type)",
+        "tree data structure",
+        "tree structure"
+      ],
+      "popularity": 38281,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Tree (abstract data type)"
+    },
+    {
+      "name": "R-tree (R-tree)",
+      "aliases": [
+        "R-tree"
+      ],
+      "popularity": 47645,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "R-tree"
+    },
+    {
+      "name": "Log-structured merge-tree",
+      "aliases": [
+        "LSM tree",
+        "LSMT"
+      ],
+      "popularity": 48424,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Log-structured merge-tree"
+    },
+    {
+      "name": "Inode",
+      "aliases": [
+        "index node"
+      ],
+      "popularity": 48749,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Inode"
+    },
+    {
+      "name": "Binary heap",
+      "aliases": [],
+      "popularity": 48942,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Binary heap"
+    },
+    {
+      "name": "Array",
+      "aliases": [
+        "Array (data structure)",
+        "array index",
+        "arrays"
+      ],
+      "popularity": 49714,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Array (data structure)"
+    },
+    {
+      "name": "Call stack",
+      "aliases": [
+        "control stack",
+        "execution stack",
+        "machine stack",
+        "program stack",
+        "run-time stack",
+        "runtime stack",
+        "the stack"
+      ],
+      "popularity": 51206,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Call stack"
+    },
+    {
+      "name": "Quadtree",
+      "aliases": [],
+      "popularity": 61665,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Quadtree"
+    },
+    {
+      "name": "Binary search tree",
+      "aliases": [
+        "BST",
+        "ordered binary tree",
+        "sorted binary tree"
+      ],
+      "popularity": 76868,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Binary search tree"
+    },
+    {
+      "name": "Stack",
+      "aliases": [
+        "Stack (abstract data type)",
+        "stack data type"
+      ],
+      "popularity": 76962,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Stack (abstract data type)"
+    },
+    {
+      "name": "Circular buffer",
+      "aliases": [
+        "circular queue",
+        "cyclic buffer",
+        "ring buffer"
+      ],
+      "popularity": 79532,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Circular buffer"
+    },
+    {
+      "name": "K-d tree",
+      "aliases": [
+        "kd-tree"
+      ],
+      "popularity": 79678,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "K-d tree"
+    },
+    {
+      "name": "Disjoint-set data structure",
+      "aliases": [
+        "merge–find set",
+        "union–find data structure"
+      ],
+      "popularity": 80973,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Disjoint-set data structure"
+    },
+    {
+      "name": "Conflict-free replicated data type",
+      "aliases": [
+        "CfRDS",
+        "CfRDT",
+        "conflict-free replicated data structure",
+        "CRDS",
+        "CRDT"
+      ],
+      "popularity": 100139,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Conflict-free replicated data type"
+    },
+    {
+      "name": "B-tree",
+      "aliases": [
+        "balanced multiway tree"
+      ],
+      "popularity": 140041,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "B-tree"
+    },
+    {
+      "name": "Hash table",
+      "aliases": [
+        "hash map",
+        "hashmap",
+        "hashtable"
+      ],
+      "popularity": 145382,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Hash table"
+    },
+    {
+      "name": "Merkle tree",
+      "aliases": [
+        "Tiger-Tree Hash",
+        "TTH"
+      ],
+      "popularity": 205305,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Merkle tree"
+    },
+    {
+      "name": "Red–black tree",
+      "aliases": [
+        "RB tree",
+        "symmetric binary B-trees"
+      ],
+      "popularity": 248474,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Red–black tree"
+    },
+    {
+      "name": "Blockchain",
+      "aliases": [
+        "block chain",
+        "blockchains"
+      ],
+      "popularity": 406624,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Blockchain"
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "id": "ape-species",
+  "slug": "ape-species",
+  "category": "animals",
+  "question": "Name a species of ape",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Lufengpithecus hudienensis",
+      "aliases": [
+        "Lufengpithexus hudienensis"
+      ],
+      "popularity": 39,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Lufengpithecus hudienensis"
+    },
+    {
+      "name": "Ankarapithecus meteai",
+      "aliases": [
+        "A. meteai",
+        "S. meteai",
+        "Sivapithecus meteai"
+      ],
+      "popularity": 118,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Ankarapithecus meteai"
+    },
+    {
+      "name": "Ugandapithecus major",
+      "aliases": [],
+      "popularity": 166,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Ugandapithecus major"
+    },
+    {
+      "name": "Western grey gibbon",
+      "aliases": [
+        "Abbot's Gray Gibbon",
+        "H. abbotti",
+        "Hylobates abbotti"
+      ],
+      "popularity": 2890,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Western grey gibbon"
+    },
+    {
+      "name": "Northern buffed-cheeked gibbon",
+      "aliases": [
+        "N. annamensis",
+        "Nomascus annamensis"
+      ],
+      "popularity": 3162,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Northern buffed-cheeked gibbon"
+    },
+    {
+      "name": "Eastern grey gibbon",
+      "aliases": [
+        "East Bornean Gray Gibbon",
+        "Hylobates funereus",
+        "northern grey gibbon"
+      ],
+      "popularity": 3474,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Eastern grey gibbon"
+    },
+    {
+      "name": "Kloss's gibbon",
+      "aliases": [
+        "Bilou",
+        "H. klossii",
+        "Hylobates klossii",
+        "Mentawai gibbon"
+      ],
+      "popularity": 4434,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Kloss's gibbon"
+    },
+    {
+      "name": "Southern white-cheeked gibbon",
+      "aliases": [
+        "Nomascus siki"
+      ],
+      "popularity": 4670,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Southern white-cheeked gibbon"
+    },
+    {
+      "name": "Bornean white-bearded gibbon",
+      "aliases": [
+        "Hylobates albibarbis"
+      ],
+      "popularity": 4983,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Bornean white-bearded gibbon"
+    },
+    {
+      "name": "Pongo grovesei",
+      "aliases": [],
+      "popularity": 5504,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Pongo grovesei"
+    },
+    {
+      "name": "Müller's gibbon",
+      "aliases": [
+        "Bornean gibbon",
+        "H. muelleri",
+        "Hylobates muelleri",
+        "Müller's Bornean gibbon",
+        "southern grey gibbon"
+      ],
+      "popularity": 5903,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Müller's gibbon"
+    },
+    {
+      "name": "Skywalker hoolock gibbon",
+      "aliases": [
+        "Gaoligong hoolock gibbon",
+        "Hoolock tianxing"
+      ],
+      "popularity": 6117,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Skywalker hoolock gibbon"
+    },
+    {
+      "name": "Eastern hoolock gibbon",
+      "aliases": [
+        "H. leuconedys",
+        "Hoolock leuconedys"
+      ],
+      "popularity": 6451,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Eastern hoolock gibbon"
+    },
+    {
+      "name": "Yellow-cheeked gibbon",
+      "aliases": [
+        "buffed-cheeked gibbon",
+        "Gabriella's crested gibbon",
+        "golden-cheeked crested gibbon",
+        "golden-cheeked gibbon",
+        "N. gabriellae",
+        "Nomascus gabriellae",
+        "red-cheeked gibbon",
+        "yellow-cheeked crested gibbon"
+      ],
+      "popularity": 7606,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Yellow-cheeked gibbon"
+    },
+    {
+      "name": "Eastern black crested gibbon",
+      "aliases": [
+        "Cao-vit crested gibbon",
+        "N. nasutus",
+        "Nomascus nasutus"
+      ],
+      "popularity": 7735,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Eastern black crested gibbon"
+    },
+    {
+      "name": "Pileated gibbon",
+      "aliases": [
+        "H. pileatus",
+        "Hylobates pileatus"
+      ],
+      "popularity": 9086,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Pileated gibbon"
+    },
+    {
+      "name": "Black crested gibbon",
+      "aliases": [
+        "N. concolor",
+        "Nomascus concolor"
+      ],
+      "popularity": 9162,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Black crested gibbon"
+    },
+    {
+      "name": "Silvery gibbon",
+      "aliases": [
+        "H. moloch",
+        "Hylobates moloch",
+        "Javan gibbon"
+      ],
+      "popularity": 10393,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Silvery gibbon"
+    },
+    {
+      "name": "Agile gibbon",
+      "aliases": [
+        "black-handed gibbon",
+        "H. agilis",
+        "Hylobates agilis"
+      ],
+      "popularity": 10440,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Agile gibbon"
+    },
+    {
+      "name": "Western hoolock gibbon",
+      "aliases": [
+        "H. hoolock",
+        "hoolock gibbon",
+        "Hoolock hoolock",
+        "western hoolock"
+      ],
+      "popularity": 11598,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Western hoolock gibbon"
+    },
+    {
+      "name": "Dali Man",
+      "aliases": [
+        "Homo daliensis"
+      ],
+      "popularity": 12769,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Dali Man"
+    },
+    {
+      "name": "Northern white-cheeked gibbon",
+      "aliases": [
+        "N. leucogenys",
+        "Nomascus leucogenys"
+      ],
+      "popularity": 17705,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Northern white-cheeked gibbon"
+    },
+    {
+      "name": "Hainan black crested gibbon",
+      "aliases": [
+        "Hainan gibbon",
+        "N. hainanus",
+        "Nomascus hainanus"
+      ],
+      "popularity": 21032,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Hainan black crested gibbon"
+    },
+    {
+      "name": "Lar gibbon",
+      "aliases": [
+        "H. lar",
+        "Hylobates lar",
+        "White-Handed Gibbon"
+      ],
+      "popularity": 53443,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Lar gibbon"
+    },
+    {
+      "name": "Siamang",
+      "aliases": [
+        "Hylobates syndactylus",
+        "Symphalangus syndactylus"
+      ],
+      "popularity": 63753,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Siamang"
+    },
+    {
+      "name": "Tapanuli orangutan",
+      "aliases": [
+        "Pongo tapanuliensis"
+      ],
+      "popularity": 82421,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Tapanuli orangutan"
+    },
+    {
+      "name": "Sumatran orangutan",
+      "aliases": [
+        "Pongo abelii"
+      ],
+      "popularity": 97433,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Sumatran orangutan"
+    },
+    {
+      "name": "Eastern gorilla",
+      "aliases": [
+        "Gorilla beringei"
+      ],
+      "popularity": 97904,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Eastern gorilla"
+    },
+    {
+      "name": "Western gorilla",
+      "aliases": [
+        "Gorilla gorilla"
+      ],
+      "popularity": 139665,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Western gorilla"
+    },
+    {
+      "name": "Bornean orangutan",
+      "aliases": [
+        "Pongo pygmaeus"
+      ],
+      "popularity": 147453,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Bornean orangutan"
+    },
+    {
+      "name": "Homo sapiens",
+      "aliases": [
+        "human being",
+        "human beings",
+        "humans"
+      ],
+      "popularity": 218819,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Homo sapiens"
+    },
+    {
+      "name": "Chimpanzee",
+      "aliases": [
+        "chimp",
+        "common chimpanzee",
+        "Pan troglodytes",
+        "robust chimpanzee"
+      ],
+      "popularity": 521336,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Chimpanzee"
+    },
+    {
+      "name": "Bonobo",
+      "aliases": [
+        "dwarf chimpanzee",
+        "gracile chimpanzee",
+        "Pan paniscus",
+        "pygmy chimpanzee"
+      ],
+      "popularity": 538268,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Bonobo"
+    }
+  ]
+}

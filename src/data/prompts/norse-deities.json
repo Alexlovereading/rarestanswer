@@ -1,0 +1,609 @@
+{
+  "id": "norse-deities",
+  "slug": "norse-deities",
+  "category": "history",
+  "question": "Name a Norse deity",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Alfadur",
+      "aliases": [],
+      "popularity": 66,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Alfadur"
+    },
+    {
+      "name": "Móði",
+      "aliases": [],
+      "popularity": 397,
+      "rarity": 0.983,
+      "tier": 6,
+      "wiki": "Móði"
+    },
+    {
+      "name": "Ríg",
+      "aliases": [
+        "Ríg (Norse god)"
+      ],
+      "popularity": 1027,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Ríg (Norse god)"
+    },
+    {
+      "name": "Fjörgynn",
+      "aliases": [],
+      "popularity": 1051,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Fjörgynn"
+    },
+    {
+      "name": "Fjörgyn",
+      "aliases": [],
+      "popularity": 1355,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Fjörgyn"
+    },
+    {
+      "name": "Ingunar-Freyr",
+      "aliases": [],
+      "popularity": 1580,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Ingunar-Freyr"
+    },
+    {
+      "name": "Nepr",
+      "aliases": [],
+      "popularity": 1778,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Nepr"
+    },
+    {
+      "name": "Vili",
+      "aliases": [],
+      "popularity": 1989,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Vili"
+    },
+    {
+      "name": "Annar",
+      "aliases": [
+        "Ónar"
+      ],
+      "popularity": 2161,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Annar"
+    },
+    {
+      "name": "Ilmr",
+      "aliases": [
+        "Ilm"
+      ],
+      "popularity": 2177,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Ilmr"
+    },
+    {
+      "name": "Glenr",
+      "aliases": [],
+      "popularity": 2734,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Glenr"
+    },
+    {
+      "name": "Sága",
+      "aliases": [],
+      "popularity": 2981,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Sága"
+    },
+    {
+      "name": "Syn",
+      "aliases": [
+        "Syn (goddess)"
+      ],
+      "popularity": 5075,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Syn (goddess)"
+    },
+    {
+      "name": "Snotra",
+      "aliases": [],
+      "popularity": 5387,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Snotra"
+    },
+    {
+      "name": "Vár",
+      "aliases": [],
+      "popularity": 5629,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Vár"
+    },
+    {
+      "name": "Vör",
+      "aliases": [],
+      "popularity": 5832,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Vör"
+    },
+    {
+      "name": "Sjöfn",
+      "aliases": [],
+      "popularity": 5840,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Sjöfn"
+    },
+    {
+      "name": "Gná",
+      "aliases": [],
+      "popularity": 6407,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Gná"
+    },
+    {
+      "name": "Njörun",
+      "aliases": [],
+      "popularity": 7374,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Njörun"
+    },
+    {
+      "name": "Dellingr",
+      "aliases": [
+        "Delling"
+      ],
+      "popularity": 8118,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Dellingr"
+    },
+    {
+      "name": "Hlín",
+      "aliases": [],
+      "popularity": 8513,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Hlín"
+    },
+    {
+      "name": "Sister-wife of Njörðr",
+      "aliases": [],
+      "popularity": 8883,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Sister-wife of Njörðr"
+    },
+    {
+      "name": "Meili",
+      "aliases": [],
+      "popularity": 9300,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Meili"
+    },
+    {
+      "name": "Lofn",
+      "aliases": [],
+      "popularity": 10104,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Lofn"
+    },
+    {
+      "name": "Lóðurr",
+      "aliases": [],
+      "popularity": 11517,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Lóðurr"
+    },
+    {
+      "name": "Gaut",
+      "aliases": [],
+      "popularity": 13159,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Gaut"
+    },
+    {
+      "name": "Fulla",
+      "aliases": [],
+      "popularity": 13801,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Fulla"
+    },
+    {
+      "name": "Nanna",
+      "aliases": [
+        "Nanna Nepsdóttir",
+        "Nanna (Norse deity)"
+      ],
+      "popularity": 16481,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Nanna (Norse deity)"
+    },
+    {
+      "name": "Hœnir",
+      "aliases": [
+        "Honir"
+      ],
+      "popularity": 16768,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Hœnir"
+    },
+    {
+      "name": "Gefjon",
+      "aliases": [
+        "Gefjun"
+      ],
+      "popularity": 17285,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Gefjon"
+    },
+    {
+      "name": "Hermóðr",
+      "aliases": [
+        "Hermod",
+        "Hermodeus"
+      ],
+      "popularity": 20216,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Hermóðr"
+    },
+    {
+      "name": "Kvasir",
+      "aliases": [],
+      "popularity": 21799,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Kvasir"
+    },
+    {
+      "name": "Gerðr",
+      "aliases": [
+        "Gerd"
+      ],
+      "popularity": 24814,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Gerðr"
+    },
+    {
+      "name": "Forseti",
+      "aliases": [],
+      "popularity": 27654,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Forseti"
+    },
+    {
+      "name": "Bragi",
+      "aliases": [],
+      "popularity": 28633,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Bragi"
+    },
+    {
+      "name": "Rán",
+      "aliases": [],
+      "popularity": 35982,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Rán"
+    },
+    {
+      "name": "Váli",
+      "aliases": [
+        "Áli"
+      ],
+      "popularity": 39053,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Váli"
+    },
+    {
+      "name": "Eir",
+      "aliases": [],
+      "popularity": 39711,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Eir"
+    },
+    {
+      "name": "Sons of Odin",
+      "aliases": [
+        "son of Odin",
+        "the son of Odin",
+        "the sons of Odin"
+      ],
+      "popularity": 40875,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Sons of Odin"
+    },
+    {
+      "name": "Ægir",
+      "aliases": [
+        "Hlér"
+      ],
+      "popularity": 42781,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Ægir"
+    },
+    {
+      "name": "Höðr",
+      "aliases": [
+        "Høder",
+        "Hodhr"
+      ],
+      "popularity": 43454,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Höðr"
+    },
+    {
+      "name": "Sól",
+      "aliases": [
+        "Sól (Germanic mythology)",
+        "Sunna"
+      ],
+      "popularity": 45195,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Sól (Germanic mythology)"
+    },
+    {
+      "name": "Sigyn",
+      "aliases": [
+        "Sigryn",
+        "Siguna",
+        "Sigunn"
+      ],
+      "popularity": 45212,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Sigyn"
+    },
+    {
+      "name": "Óðr",
+      "aliases": [
+        "Odhr",
+        "Ódr",
+        "Odur",
+        "Wōþuz",
+        "Wothuz"
+      ],
+      "popularity": 45937,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Óðr"
+    },
+    {
+      "name": "Iðunn",
+      "aliases": [
+        "Iðun",
+        "Iðuna",
+        "Iðunna",
+        "Idun",
+        "Iduna",
+        "Idunn",
+        "Idunna",
+        "Ithun",
+        "Ithunn"
+      ],
+      "popularity": 55732,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Iðunn"
+    },
+    {
+      "name": "Jörð",
+      "aliases": [
+        "Erda",
+        "Jord"
+      ],
+      "popularity": 55859,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Jörð"
+    },
+    {
+      "name": "Ullr",
+      "aliases": [
+        "Ull"
+      ],
+      "popularity": 57339,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Ullr"
+    },
+    {
+      "name": "Víðarr",
+      "aliases": [
+        "Vidar",
+        "Vidarr",
+        "Vithar",
+        "Vitharr"
+      ],
+      "popularity": 73091,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Víðarr"
+    },
+    {
+      "name": "Njörðr",
+      "aliases": [
+        "Niord",
+        "Njord"
+      ],
+      "popularity": 78551,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Njörðr"
+    },
+    {
+      "name": "Skaði",
+      "aliases": [
+        "Öndurdís",
+        "Öndurguð",
+        "Skade",
+        "Skadi",
+        "Skathi"
+      ],
+      "popularity": 100698,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Skaði"
+    },
+    {
+      "name": "Mímir",
+      "aliases": [
+        "Mim"
+      ],
+      "popularity": 106719,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Mímir"
+    },
+    {
+      "name": "Heimdall",
+      "aliases": [
+        "Heimdal",
+        "Heimdali",
+        "Heimdallr",
+        "Heimdalr",
+        "Vindhlér"
+      ],
+      "popularity": 134089,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Heimdall"
+    },
+    {
+      "name": "Hel",
+      "aliases": [
+        "Hel (mythological being)",
+        "Hela",
+        "Hell"
+      ],
+      "popularity": 138230,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Hel (mythological being)"
+    },
+    {
+      "name": "Frigg",
+      "aliases": [],
+      "popularity": 144654,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Frigg"
+    },
+    {
+      "name": "Freyr",
+      "aliases": [
+        "Frey"
+      ],
+      "popularity": 148948,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Freyr"
+    },
+    {
+      "name": "Baldr",
+      "aliases": [
+        "Balder",
+        "Baldur"
+      ],
+      "popularity": 226155,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Baldr"
+    },
+    {
+      "name": "Týr",
+      "aliases": [
+        "Tui"
+      ],
+      "popularity": 241882,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Týr"
+    },
+    {
+      "name": "Freyja",
+      "aliases": [
+        "Freia",
+        "Freya",
+        "Freyia",
+        "Vanadís"
+      ],
+      "popularity": 446862,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "Freyja"
+    },
+    {
+      "name": "Thor",
+      "aliases": [
+        "Donar",
+        "Þórr",
+        "Thunor",
+        "Þunor"
+      ],
+      "popularity": 447976,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Thor"
+    },
+    {
+      "name": "Loki",
+      "aliases": [
+        "Hveðrungr",
+        "Logi",
+        "Loki Laufeyjarson",
+        "Loki Laufeyson"
+      ],
+      "popularity": 513089,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "Loki"
+    },
+    {
+      "name": "Odin",
+      "aliases": [
+        "Othin",
+        "Wodin"
+      ],
+      "popularity": 645295,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Odin"
+    }
+  ]
+}

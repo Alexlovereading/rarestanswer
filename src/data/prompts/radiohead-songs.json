@@ -1,0 +1,299 @@
+{
+  "id": "radiohead-songs",
+  "slug": "radiohead-songs",
+  "category": "music",
+  "question": "Name a Radiohead song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Anyone Can Play Guitar",
+      "aliases": [],
+      "popularity": 741,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Anyone Can Play Guitar"
+    },
+    {
+      "name": "Planet Telex",
+      "aliases": [],
+      "popularity": 4702,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Planet Telex"
+    },
+    {
+      "name": "Ill Wind",
+      "aliases": [
+        "Ill Wind (Radiohead song)"
+      ],
+      "popularity": 5014,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Ill Wind (Radiohead song)"
+    },
+    {
+      "name": "These Are My Twisted Words",
+      "aliases": [],
+      "popularity": 6409,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "These Are My Twisted Words"
+    },
+    {
+      "name": "Supercollider / The Butcher",
+      "aliases": [],
+      "popularity": 7185,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Supercollider / The Butcher"
+    },
+    {
+      "name": "Go to Sleep",
+      "aliases": [],
+      "popularity": 9006,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Go to Sleep"
+    },
+    {
+      "name": "Bodysnatchers",
+      "aliases": [
+        "Bodysnatchers (song)"
+      ],
+      "popularity": 9365,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Bodysnatchers (song)"
+    },
+    {
+      "name": "House of Cards",
+      "aliases": [
+        "House of Cards (Radiohead song)"
+      ],
+      "popularity": 9571,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "House of Cards (Radiohead song)"
+    },
+    {
+      "name": "Harry Patch",
+      "aliases": [
+        "Harry Patch (In Memory Of)"
+      ],
+      "popularity": 10934,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Harry Patch (In Memory Of)"
+    },
+    {
+      "name": "Stop Whispering",
+      "aliases": [],
+      "popularity": 11558,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Stop Whispering"
+    },
+    {
+      "name": "The Daily Mail / Staircase",
+      "aliases": [
+        "Daily Mail / Staircase"
+      ],
+      "popularity": 13913,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "The Daily Mail / Staircase"
+    },
+    {
+      "name": "Reckoner",
+      "aliases": [],
+      "popularity": 15406,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Reckoner"
+    },
+    {
+      "name": "Daydreaming",
+      "aliases": [
+        "Daydreaming (Radiohead song)"
+      ],
+      "popularity": 16826,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Daydreaming (Radiohead song)"
+    },
+    {
+      "name": "Pop Is Dead",
+      "aliases": [],
+      "popularity": 16883,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Pop Is Dead"
+    },
+    {
+      "name": "There There",
+      "aliases": [
+        "There There (song)"
+      ],
+      "popularity": 21686,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "There There (song)"
+    },
+    {
+      "name": "All I Need",
+      "aliases": [
+        "All I Need (Radiohead song)"
+      ],
+      "popularity": 22288,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "All I Need (Radiohead song)"
+    },
+    {
+      "name": "Burn the Witch",
+      "aliases": [
+        "Burn the Witch (Radiohead song)"
+      ],
+      "popularity": 24041,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Burn the Witch (Radiohead song)"
+    },
+    {
+      "name": "Lucky",
+      "aliases": [
+        "Lucky (Radiohead song)"
+      ],
+      "popularity": 24272,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Lucky (Radiohead song)"
+    },
+    {
+      "name": "High and Dry / Planet Telex",
+      "aliases": [
+        "High and Dry"
+      ],
+      "popularity": 25958,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "High and Dry / Planet Telex"
+    },
+    {
+      "name": "Jigsaw Falling into Place",
+      "aliases": [],
+      "popularity": 27243,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Jigsaw Falling into Place"
+    },
+    {
+      "name": "Just",
+      "aliases": [
+        "Just (song)"
+      ],
+      "popularity": 28274,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Just (song)"
+    },
+    {
+      "name": "Nude",
+      "aliases": [
+        "Nude (song)"
+      ],
+      "popularity": 28818,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Nude (song)"
+    },
+    {
+      "name": "Knives Out",
+      "aliases": [
+        "Knives Out (song)"
+      ],
+      "popularity": 33361,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Knives Out (song)"
+    },
+    {
+      "name": "Pyramid Song",
+      "aliases": [],
+      "popularity": 39867,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Pyramid Song"
+    },
+    {
+      "name": "Street Spirit",
+      "aliases": [
+        "Street Spirit (Fade Out)"
+      ],
+      "popularity": 42511,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Street Spirit (Fade Out)"
+    },
+    {
+      "name": "Let Down",
+      "aliases": [
+        "Let Down (Radiohead song)"
+      ],
+      "popularity": 64284,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Let Down (Radiohead song)"
+    },
+    {
+      "name": "Fake Plastic Trees",
+      "aliases": [],
+      "popularity": 68036,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Fake Plastic Trees"
+    },
+    {
+      "name": "Karma Police",
+      "aliases": [],
+      "popularity": 69163,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Karma Police"
+    },
+    {
+      "name": "My Iron Lung",
+      "aliases": [],
+      "popularity": 73141,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "My Iron Lung"
+    },
+    {
+      "name": "Paranoid Android",
+      "aliases": [],
+      "popularity": 76687,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Paranoid Android"
+    },
+    {
+      "name": "No Surprises",
+      "aliases": [],
+      "popularity": 79845,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "No Surprises"
+    },
+    {
+      "name": "Creep",
+      "aliases": [
+        "Creep (Radiohead song)"
+      ],
+      "popularity": 301841,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Creep (Radiohead song)"
+    }
+  ]
+}

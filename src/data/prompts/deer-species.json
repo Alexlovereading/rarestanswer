@@ -1,0 +1,721 @@
+{
+  "id": "deer-species",
+  "slug": "deer-species",
+  "category": "animals",
+  "question": "Name a species of deer",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Andinocervus rufinus",
+      "aliases": [],
+      "popularity": 33,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Andinocervus rufinus"
+    },
+    {
+      "name": "Metacervocerus punjabiensis",
+      "aliases": [],
+      "popularity": 102,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Metacervocerus punjabiensis"
+    },
+    {
+      "name": "Indochinese hog deer",
+      "aliases": [
+        "Hyelaphus annamiticus"
+      ],
+      "popularity": 171,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Indochinese hog deer"
+    },
+    {
+      "name": "Mazama pandora",
+      "aliases": [],
+      "popularity": 369,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Mazama pandora"
+    },
+    {
+      "name": "Cervus sivalensis",
+      "aliases": [],
+      "popularity": 477,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Cervus sivalensis"
+    },
+    {
+      "name": "Fair brocket",
+      "aliases": [
+        "Mazama tienhoveni"
+      ],
+      "popularity": 571,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Fair brocket"
+    },
+    {
+      "name": "Dama roberti",
+      "aliases": [],
+      "popularity": 581,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Dama roberti"
+    },
+    {
+      "name": "Mérida brocket",
+      "aliases": [
+        "Mazama bricenii"
+      ],
+      "popularity": 615,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "Mérida brocket"
+    },
+    {
+      "name": "Mazama gouazoubira",
+      "aliases": [
+        "Grey brocket"
+      ],
+      "popularity": 777,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Mazama gouazoubira"
+    },
+    {
+      "name": "Mazama chunyi",
+      "aliases": [
+        "Chunyi"
+      ],
+      "popularity": 980,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Mazama chunyi"
+    },
+    {
+      "name": "Alces americanus",
+      "aliases": [
+        "American moose",
+        "Eastern moose"
+      ],
+      "popularity": 1473,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Alces americanus"
+    },
+    {
+      "name": "Small red brocket",
+      "aliases": [
+        "Mazama bororo"
+      ],
+      "popularity": 1824,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Small red brocket"
+    },
+    {
+      "name": "Pudu mephistophiles",
+      "aliases": [],
+      "popularity": 1958,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Pudu mephistophiles"
+    },
+    {
+      "name": "Dwarf brocket",
+      "aliases": [
+        "Subulo chunyi"
+      ],
+      "popularity": 2551,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Dwarf brocket"
+    },
+    {
+      "name": "Little red brocket",
+      "aliases": [
+        "Mazama rufina"
+      ],
+      "popularity": 2639,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Little red brocket"
+    },
+    {
+      "name": "Pygmy brocket",
+      "aliases": [
+        "Mazama nana"
+      ],
+      "popularity": 2750,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Pygmy brocket"
+    },
+    {
+      "name": "Malabar red muntjak",
+      "aliases": [
+        "Muntiacus malabaricus"
+      ],
+      "popularity": 2753,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Malabar red muntjak"
+    },
+    {
+      "name": "Sumatran muntjac",
+      "aliases": [
+        "Muntiacus montanus"
+      ],
+      "popularity": 3313,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Sumatran muntjac"
+    },
+    {
+      "name": "Pu Hoat muntjac",
+      "aliases": [
+        "Muntiacus puhoatensis"
+      ],
+      "popularity": 3647,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Pu Hoat muntjac"
+    },
+    {
+      "name": "Central American red brocket",
+      "aliases": [
+        "Mazama temama"
+      ],
+      "popularity": 4220,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Central American red brocket"
+    },
+    {
+      "name": "Roosevelt's muntjac",
+      "aliases": [
+        "Muntiacus rooseveltorum"
+      ],
+      "popularity": 4345,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Roosevelt's muntjac"
+    },
+    {
+      "name": "Gongshan muntjac",
+      "aliases": [
+        "Muntiacus gongshanensis"
+      ],
+      "popularity": 4462,
+      "rarity": 0.687,
+      "tier": 4,
+      "wiki": "Gongshan muntjac"
+    },
+    {
+      "name": "Pudella carlae",
+      "aliases": [],
+      "popularity": 4467,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Pudella carlae"
+    },
+    {
+      "name": "Amazonian brown brocket",
+      "aliases": [
+        "Mazama nemorivaga"
+      ],
+      "popularity": 4498,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Amazonian brown brocket"
+    },
+    {
+      "name": "Truong Son muntjac",
+      "aliases": [
+        "Muntiacus truongsonensis"
+      ],
+      "popularity": 4875,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Truong Son muntjac"
+    },
+    {
+      "name": "Hairy-fronted muntjac",
+      "aliases": [
+        "Black muntjac",
+        "Muntiacus crinifrons"
+      ],
+      "popularity": 5253,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Hairy-fronted muntjac"
+    },
+    {
+      "name": "Fea's muntjac",
+      "aliases": [
+        "Fea’s barking deer",
+        "Muntiacus feae"
+      ],
+      "popularity": 5318,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Fea's muntjac"
+    },
+    {
+      "name": "Calamian deer",
+      "aliases": [
+        "Axis calamianensis"
+      ],
+      "popularity": 6737,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Calamian deer"
+    },
+    {
+      "name": "Bornean yellow muntjac",
+      "aliases": [
+        "Muntiacus atherodes"
+      ],
+      "popularity": 7214,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Bornean yellow muntjac"
+    },
+    {
+      "name": "Leaf muntjac",
+      "aliases": [
+        "Muntiacus putaoensis"
+      ],
+      "popularity": 7628,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Leaf muntjac"
+    },
+    {
+      "name": "Bawean deer",
+      "aliases": [
+        "Axis kuhlii"
+      ],
+      "popularity": 7668,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Bawean deer"
+    },
+    {
+      "name": "Northern pudu",
+      "aliases": [
+        "Pudella mephistophiles"
+      ],
+      "popularity": 9350,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Northern pudu"
+    },
+    {
+      "name": "Yucatan brown brocket",
+      "aliases": [
+        "Odocoileus pandora"
+      ],
+      "popularity": 9593,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Yucatan brown brocket"
+    },
+    {
+      "name": "Northern red muntjac",
+      "aliases": [
+        "Muntiacus vaginalis"
+      ],
+      "popularity": 9607,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Northern red muntjac"
+    },
+    {
+      "name": "Red brocket",
+      "aliases": [
+        "Mazama americana"
+      ],
+      "popularity": 10794,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Red brocket"
+    },
+    {
+      "name": "Gray brocket",
+      "aliases": [
+        "Subulo gouazoubira"
+      ],
+      "popularity": 11119,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Gray brocket"
+    },
+    {
+      "name": "Southern pudu",
+      "aliases": [
+        "Chilean pudu",
+        "Pudu puda"
+      ],
+      "popularity": 12304,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Southern pudu"
+    },
+    {
+      "name": "Central Asian red deer",
+      "aliases": [
+        "Cervus hanglu",
+        "Tarim red deer"
+      ],
+      "popularity": 12407,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Central Asian red deer"
+    },
+    {
+      "name": "Pampas deer",
+      "aliases": [
+        "Ozotoceros bezoarticus"
+      ],
+      "popularity": 13126,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Pampas deer"
+    },
+    {
+      "name": "Taruca",
+      "aliases": [
+        "Hippocamelus antisensis"
+      ],
+      "popularity": 13274,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Taruca"
+    },
+    {
+      "name": "Visayan spotted deer",
+      "aliases": [
+        "Cervus alfredi",
+        "Philippine Spotted Deer",
+        "Rusa alfredi"
+      ],
+      "popularity": 14555,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Visayan spotted deer"
+    },
+    {
+      "name": "Giant muntjac",
+      "aliases": [
+        "large-antlered muntjac",
+        "Muntiacus vuquangensis"
+      ],
+      "popularity": 15753,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Giant muntjac"
+    },
+    {
+      "name": "Thorold's deer",
+      "aliases": [
+        "Cervus albirostris",
+        "Przewalskium albirostris"
+      ],
+      "popularity": 16643,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Thorold's deer"
+    },
+    {
+      "name": "Tufted deer",
+      "aliases": [
+        "élaphode",
+        "Elaphodus cephalophus"
+      ],
+      "popularity": 17624,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Tufted deer"
+    },
+    {
+      "name": "Southern red muntjac",
+      "aliases": [
+        "Indian muntjac",
+        "Muntiacus muntjak"
+      ],
+      "popularity": 18860,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Southern red muntjac"
+    },
+    {
+      "name": "South Andean deer",
+      "aliases": [
+        "Hippocamelus bisulcus",
+        "Huemul"
+      ],
+      "popularity": 19025,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "South Andean deer"
+    },
+    {
+      "name": "Eld's deer",
+      "aliases": [
+        "brow-antlered deer",
+        "Rucervus eldii",
+        "thamin"
+      ],
+      "popularity": 22230,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Eld's deer"
+    },
+    {
+      "name": "Indian hog deer",
+      "aliases": [
+        "Axis porcinus",
+        "Hog Deer"
+      ],
+      "popularity": 23330,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Indian hog deer"
+    },
+    {
+      "name": "Philippine deer",
+      "aliases": [
+        "Philippine brown deer",
+        "Rusa marianna"
+      ],
+      "popularity": 23712,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Philippine deer"
+    },
+    {
+      "name": "Siberian roe deer",
+      "aliases": [
+        "Capreolus pygargus"
+      ],
+      "popularity": 24999,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Siberian roe deer"
+    },
+    {
+      "name": "Marsh deer",
+      "aliases": [
+        "Blastocerus dichotomus"
+      ],
+      "popularity": 27619,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Marsh deer"
+    },
+    {
+      "name": "Persian fallow deer",
+      "aliases": [
+        "Dama mesopotamica"
+      ],
+      "popularity": 28892,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Persian fallow deer"
+    },
+    {
+      "name": "Reeves's muntjac",
+      "aliases": [
+        "Muntiacus reevesi",
+        "Reeve's muntjac",
+        "Reeves' Muntjac"
+      ],
+      "popularity": 52235,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Reeves's muntjac"
+    },
+    {
+      "name": "Javan rusa",
+      "aliases": [
+        "Cervus timorensis",
+        "Rusa timorensis",
+        "Sunda sambar"
+      ],
+      "popularity": 61244,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Javan rusa"
+    },
+    {
+      "name": "Barasingha",
+      "aliases": [
+        "Rucervus duvaucelii"
+      ],
+      "popularity": 67598,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Barasingha"
+    },
+    {
+      "name": "European fallow deer",
+      "aliases": [
+        "Dama dama",
+        "fallow deer"
+      ],
+      "popularity": 68561,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "European fallow deer"
+    },
+    {
+      "name": "Père David's deer",
+      "aliases": [
+        "elaphure",
+        "Elaphurus davidianus",
+        "milu"
+      ],
+      "popularity": 103409,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Père David's deer"
+    },
+    {
+      "name": "Sambar deer",
+      "aliases": [
+        "Cervus unicolor",
+        "Rusa unicolor",
+        "sambar"
+      ],
+      "popularity": 113714,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Sambar deer"
+    },
+    {
+      "name": "Water deer",
+      "aliases": [
+        "Chinese water deer",
+        "Hydropotes inermis",
+        "vampire deer"
+      ],
+      "popularity": 115249,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Water deer"
+    },
+    {
+      "name": "Chital",
+      "aliases": [
+        "Axis axis",
+        "Axis deer",
+        "cheetal"
+      ],
+      "popularity": 131002,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Chital"
+    },
+    {
+      "name": "Mule deer",
+      "aliases": [
+        "Odocoileus hemionus"
+      ],
+      "popularity": 155085,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Mule deer"
+    },
+    {
+      "name": "Sika deer",
+      "aliases": [
+        "Cervus nippon",
+        "Japanese deer",
+        "spotted deer"
+      ],
+      "popularity": 158846,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Sika deer"
+    },
+    {
+      "name": "Roe deer",
+      "aliases": [
+        "Capreolus capreolus",
+        "western roe deer"
+      ],
+      "popularity": 212367,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Roe deer"
+    },
+    {
+      "name": "Red deer",
+      "aliases": [
+        "Cervus elaphus"
+      ],
+      "popularity": 288747,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Red deer"
+    },
+    {
+      "name": "White-tailed deer",
+      "aliases": [
+        "Dama virginiana",
+        "Odocoileus spelaeus",
+        "Odocoileus virginianus",
+        "Virginia deer",
+        "white-tail",
+        "white tail deer",
+        "whitetail",
+        "whitetail deer"
+      ],
+      "popularity": 318503,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "White-tailed deer"
+    },
+    {
+      "name": "Elk",
+      "aliases": [
+        "American elk",
+        "C. canadensis",
+        "Cervus canadensis",
+        "North American elk",
+        "wapiti"
+      ],
+      "popularity": 402351,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Elk"
+    },
+    {
+      "name": "Reindeer",
+      "aliases": [
+        "caribou",
+        "Rangifer tarandus"
+      ],
+      "popularity": 478481,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Reindeer"
+    },
+    {
+      "name": "Moose",
+      "aliases": [
+        "Alces alces",
+        "Eurasian elk",
+        "moofe deer"
+      ],
+      "popularity": 743150,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Moose"
+    }
+  ]
+}

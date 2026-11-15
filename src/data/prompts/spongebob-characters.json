@@ -1,0 +1,198 @@
+{
+  "id": "spongebob-characters",
+  "slug": "spongebob-characters",
+  "category": "screen",
+  "question": "Name a SpongeBob SquarePants character",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Harold SquarePants",
+      "aliases": [],
+      "popularity": 59,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Harold SquarePants"
+    },
+    {
+      "name": "Scooter",
+      "aliases": [
+        "Incidental 38",
+        "Marv",
+        "Scooter (SpongeBob SquarePants)"
+      ],
+      "popularity": 70,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Scooter (SpongeBob SquarePants)"
+    },
+    {
+      "name": "The Flying Dutchman",
+      "aliases": [
+        "Flying Dutchman",
+        "Flying Dutchman (SpongeBob SquarePants)",
+        "The Flying Dutchman (SpongeBob SquarePants)"
+      ],
+      "popularity": 113,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "The Flying Dutchman (SpongeBob SquarePants)"
+    },
+    {
+      "name": "Margaret SquarePants",
+      "aliases": [
+        "Claire SquarePants"
+      ],
+      "popularity": 139,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Margaret SquarePants"
+    },
+    {
+      "name": "Bubble Bass",
+      "aliases": [],
+      "popularity": 428,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Bubble Bass"
+    },
+    {
+      "name": "King Neptune",
+      "aliases": [
+        "King Neptune (SpongeBob SquarePants)"
+      ],
+      "popularity": 587,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "King Neptune (SpongeBob SquarePants)"
+    },
+    {
+      "name": "Old Man Jenkins",
+      "aliases": [],
+      "popularity": 935,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Old Man Jenkins"
+    },
+    {
+      "name": "Karen Plankton",
+      "aliases": [
+        "Karen",
+        "Wired Integrated Female Electroencephalograph"
+      ],
+      "popularity": 3449,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Karen Plankton"
+    },
+    {
+      "name": "Sheldon J. Plankton",
+      "aliases": [
+        "Plankton",
+        "Sheldon Plankton"
+      ],
+      "popularity": 3732,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Sheldon J. Plankton"
+    },
+    {
+      "name": "Gary the Snail",
+      "aliases": [
+        "Gary Snail"
+      ],
+      "popularity": 9196,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Gary the Snail"
+    },
+    {
+      "name": "Patchy the Pirate",
+      "aliases": [],
+      "popularity": 13511,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Patchy the Pirate"
+    },
+    {
+      "name": "Pearl Krabs",
+      "aliases": [],
+      "popularity": 49957,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Pearl Krabs"
+    },
+    {
+      "name": "Mrs. Puff",
+      "aliases": [
+        "Penelope Puff"
+      ],
+      "popularity": 58898,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Mrs. Puff"
+    },
+    {
+      "name": "Mermaid Man and Barnacle Boy",
+      "aliases": [],
+      "popularity": 78929,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Mermaid Man and Barnacle Boy"
+    },
+    {
+      "name": "Sandy Cheeks",
+      "aliases": [],
+      "popularity": 88769,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Sandy Cheeks"
+    },
+    {
+      "name": "Squidward Tentacles",
+      "aliases": [
+        "Larry Tentacles",
+        "Squidward",
+        "Squidward J. Q. Tentacles",
+        "Squidward Q. Tentacles",
+        "Squidward Quincy Tentacles",
+        "Squidward Tennisballs",
+        "Squidward Tent Poles",
+        "Squidward Tortellini"
+      ],
+      "popularity": 155667,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Squidward Tentacles"
+    },
+    {
+      "name": "Mr. Krabs",
+      "aliases": [
+        "Eugene H. Krabs",
+        "Eugene Harold Krabs",
+        "Eugene Krabs"
+      ],
+      "popularity": 191011,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Mr. Krabs"
+    },
+    {
+      "name": "Patrick Star",
+      "aliases": [],
+      "popularity": 205952,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Patrick Star"
+    },
+    {
+      "name": "SpongeBob SquarePants",
+      "aliases": [
+        "SpongeBob SquarePants (character)"
+      ],
+      "popularity": 354317,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "SpongeBob SquarePants (character)"
+    }
+  ]
+}

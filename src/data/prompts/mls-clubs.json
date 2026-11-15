@@ -1,0 +1,469 @@
+{
+  "id": "mls-clubs",
+  "slug": "mls-clubs",
+  "category": "sports",
+  "question": "Name a current MLS club",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Houston Dynamo FC",
+      "aliases": [
+        "Die Oranje",
+        "Dynamo",
+        "Dynamo FC",
+        "Houston Dynamo",
+        "La Naranja",
+        "Orange Crush",
+        "The Men in Orange",
+        "The Orange"
+      ],
+      "popularity": 121658,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Houston Dynamo FC"
+    },
+    {
+      "name": "St. Louis City SC",
+      "aliases": [
+        "MLS4TheLou",
+        "Saint Louis City SC",
+        "Saint Louis City Soccer Club",
+        "Saint Louis MLS team",
+        "St. Louis City Soccer Club",
+        "St. Louis MLS team",
+        "TKFC LC"
+      ],
+      "popularity": 130849,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "St. Louis City SC"
+    },
+    {
+      "name": "Austin FC",
+      "aliases": [
+        "Austin Football Club"
+      ],
+      "popularity": 150615,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Austin FC"
+    },
+    {
+      "name": "Real Salt Lake",
+      "aliases": [
+        "Claret and Cobalt",
+        "Real Salt Lake City",
+        "RSL"
+      ],
+      "popularity": 158008,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Real Salt Lake"
+    },
+    {
+      "name": "FC Cincinnati",
+      "aliases": [
+        "CIN",
+        "FC Cincy",
+        "FCC",
+        "Football Club Cincinnati",
+        "Fussball Club Cincinnati LLC",
+        "Futbol Club Cincinnati",
+        "Knifey Lions",
+        "Orange and Blue"
+      ],
+      "popularity": 160164,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "FC Cincinnati"
+    },
+    {
+      "name": "Portland Timbers",
+      "aliases": [
+        "FC Portland Timbers",
+        "Football Club Portland Timbers",
+        "Portland Timbers FC",
+        "Portland Timbers Football Club",
+        "Portland Timbers Soccer",
+        "Portland Timbers Soccer Club",
+        "Soccer Club of Portland Timbers",
+        "Soccer Club Portland Timbers",
+        "The Timbers",
+        "Timbers"
+      ],
+      "popularity": 177424,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Portland Timbers"
+    },
+    {
+      "name": "FC Dallas",
+      "aliases": [
+        "Burn",
+        "Dallas 96",
+        "Dallas Burn",
+        "Dallas FC",
+        "Dallas Football Club",
+        "Dallas Soccer Club",
+        "F.C. Dallas",
+        "FCD",
+        "Football Club Dallas",
+        "Hoops",
+        "Red Stripes",
+        "Soccer Club of Dallas",
+        "Toros"
+      ],
+      "popularity": 182460,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "FC Dallas"
+    },
+    {
+      "name": "Sporting Kansas City",
+      "aliases": [
+        "Kansas City Wiz",
+        "Kansas City Wizards",
+        "SKC",
+        "Sporting Kansas City FC",
+        "Sporting Kansas City Football Club",
+        "Sporting Kansas City Soccer",
+        "Sporting Kansas City Soccer Club",
+        "Sporting KC",
+        "Sporting KC FC",
+        "Sporting KC Football Club",
+        "Sporting KC Soccer",
+        "Sporting KC Soccer Club"
+      ],
+      "popularity": 188451,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Sporting Kansas City"
+    },
+    {
+      "name": "Nashville SC",
+      "aliases": [
+        "Nashville S.C.",
+        "Nashville Soccer Club"
+      ],
+      "popularity": 200197,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Nashville SC"
+    },
+    {
+      "name": "Colorado Rapids",
+      "aliases": [
+        "CO Rapids",
+        "CO Rapids FC",
+        "Colorado Rapids FC",
+        "Colorado Rapids Football Club",
+        "Colorado Rapids Soccer",
+        "Colorado Rapids Soccer Club"
+      ],
+      "popularity": 206324,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Colorado Rapids"
+    },
+    {
+      "name": "Philadelphia Union",
+      "aliases": [
+        "Philadelphia",
+        "The U",
+        "Union"
+      ],
+      "popularity": 213157,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Philadelphia Union"
+    },
+    {
+      "name": "Charlotte FC",
+      "aliases": [
+        "Charlotte F.C.",
+        "Charlotte Football Club",
+        "Charlotte MLS"
+      ],
+      "popularity": 226397,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Charlotte FC"
+    },
+    {
+      "name": "San Jose Earthquakes",
+      "aliases": [
+        "Clash",
+        "Earthquakes",
+        "Golden Bay Earthquakes",
+        "Quakes",
+        "San José Clash",
+        "San Jose Quakes",
+        "SJ Clash",
+        "SJ Earthquakes"
+      ],
+      "popularity": 234189,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "San Jose Earthquakes"
+    },
+    {
+      "name": "Toronto FC",
+      "aliases": [
+        "Football Club of Toronto",
+        "Soccer Club of Toronto",
+        "Toronto F.C.",
+        "Toronto Football Club",
+        "Toronto Soccer",
+        "Toronto Soccer Club",
+        "TorontoFC"
+      ],
+      "popularity": 241207,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Toronto FC"
+    },
+    {
+      "name": "D.C. United",
+      "aliases": [
+        "Black-and-Red",
+        "DC United",
+        "DCU",
+        "United",
+        "United D.C."
+      ],
+      "popularity": 241923,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "D.C. United"
+    },
+    {
+      "name": "Atlanta United FC",
+      "aliases": [
+        "ATL United",
+        "ATL United FC",
+        "ATL UTD",
+        "ATL UTD FC",
+        "Atlanta United"
+      ],
+      "popularity": 249031,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Atlanta United FC"
+    },
+    {
+      "name": "Seattle Sounders FC",
+      "aliases": [
+        "Seattle Sounders",
+        "Seattle Sounders Football Club",
+        "Sounders FC",
+        "Sounders Football Club"
+      ],
+      "popularity": 257107,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Seattle Sounders FC"
+    },
+    {
+      "name": "San Diego FC",
+      "aliases": [
+        "San Diego F.C.",
+        "San Diego Football Club",
+        "San Diego MLS team",
+        "SDFC"
+      ],
+      "popularity": 257705,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "San Diego FC"
+    },
+    {
+      "name": "Orlando City SC",
+      "aliases": [
+        "OCSC",
+        "Orlando City",
+        "Orlando City Soccer Club"
+      ],
+      "popularity": 260015,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Orlando City SC"
+    },
+    {
+      "name": "New England Revolution",
+      "aliases": [
+        "NE Revolution",
+        "NE Revs",
+        "NER",
+        "New England Revs",
+        "Revolution",
+        "Revolution Soccer",
+        "Revs",
+        "the Revs"
+      ],
+      "popularity": 267139,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "New England Revolution"
+    },
+    {
+      "name": "CF Montréal",
+      "aliases": [
+        "CF of Montreal",
+        "CFM",
+        "CFM Montreal",
+        "CFMTL",
+        "Club de Foot Montréal",
+        "Club of Football Montreal",
+        "IMFC",
+        "Impact Montreal",
+        "Montreal Football Club",
+        "Montreal Impact"
+      ],
+      "popularity": 267350,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "CF Montréal"
+    },
+    {
+      "name": "Minnesota United FC",
+      "aliases": [
+        "Minnesota United",
+        "Minnesota United Football Club",
+        "MN United FC",
+        "MNU",
+        "MNU FC",
+        "MNUFC",
+        "the Loons"
+      ],
+      "popularity": 277191,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Minnesota United FC"
+    },
+    {
+      "name": "Columbus Crew",
+      "aliases": [
+        "Columbus Crew SC",
+        "Columbus Crew Soccer Club",
+        "Columbus SC",
+        "Columbus Soccer Club",
+        "Crew SC",
+        "Crew Soccer Club",
+        "the Crew",
+        "the Massive"
+      ],
+      "popularity": 303116,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Columbus Crew"
+    },
+    {
+      "name": "Chicago Fire FC",
+      "aliases": [
+        "CF97",
+        "CHI",
+        "Chicago Fire",
+        "Chicago Fire F.C.",
+        "Chicago Fire Football Club",
+        "Chicago Fire S.C.",
+        "Chicago Fire SC",
+        "Chicago Fire Soccer Club",
+        "Men in Red",
+        "the Fire"
+      ],
+      "popularity": 371264,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Chicago Fire FC"
+    },
+    {
+      "name": "New York Red Bulls",
+      "aliases": [
+        "MetroStars",
+        "New York/New Jersey MetroStars",
+        "NY/NJ MetroStars",
+        "NY Red Bulls",
+        "NYRB",
+        "RBNY",
+        "Red Bull New York",
+        "Red Bull NY",
+        "Red Bulls"
+      ],
+      "popularity": 373951,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "New York Red Bulls"
+    },
+    {
+      "name": "New York City FC",
+      "aliases": [
+        "New York City Football Club",
+        "NYCFC"
+      ],
+      "popularity": 380775,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "New York City FC"
+    },
+    {
+      "name": "Vancouver Whitecaps FC",
+      "aliases": [
+        "Caps",
+        "Vancouver Caps",
+        "Vancouver Caps FC",
+        "Vancouver Whitecaps",
+        "Vancouver Whitecaps Football Club",
+        "Whitecaps",
+        "Whitecaps FC",
+        "Whitecaps Football Club"
+      ],
+      "popularity": 431166,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Vancouver Whitecaps FC"
+    },
+    {
+      "name": "LA Galaxy",
+      "aliases": [
+        "Galaxy",
+        "L.A. Galaxy",
+        "Los Angeles Galaxy"
+      ],
+      "popularity": 451315,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "LA Galaxy"
+    },
+    {
+      "name": "Los Angeles FC",
+      "aliases": [
+        "LA FC",
+        "LA Football Club",
+        "LAFC",
+        "Los Angeles Football Club"
+      ],
+      "popularity": 516462,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Los Angeles FC"
+    },
+    {
+      "name": "Inter Miami CF",
+      "aliases": [
+        "Inter Miami",
+        "Inter Miami FC",
+        "Internacional de Miami",
+        "Internacional of Miami",
+        "Miami FC",
+        "Miami Football Club",
+        "Miami Soccer club",
+        "The Herons",
+        "Vice City"
+      ],
+      "popularity": 2063872,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Inter Miami CF"
+    }
+  ]
+}

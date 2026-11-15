@@ -1,0 +1,537 @@
+{
+  "id": "nigerian-dishes",
+  "slug": "nigerian-dishes",
+  "category": "food",
+  "question": "Name a Nigerian dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Kekefia",
+      "aliases": [],
+      "popularity": 254,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Kekefia"
+    },
+    {
+      "name": "Ji akwụkwọ nri",
+      "aliases": [
+        "Yam porridge"
+      ],
+      "popularity": 307,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Ji akwụkwọ nri"
+    },
+    {
+      "name": "Pate acha",
+      "aliases": [
+        "gote",
+        "pete acha",
+        "tere"
+      ],
+      "popularity": 350,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Pate acha"
+    },
+    {
+      "name": "Miyar zogale",
+      "aliases": [],
+      "popularity": 431,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Miyar zogale"
+    },
+    {
+      "name": "Otong soup",
+      "aliases": [],
+      "popularity": 464,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Otong soup"
+    },
+    {
+      "name": "Gbegiri",
+      "aliases": [
+        "Gbegiri Soup"
+      ],
+      "popularity": 581,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Gbegiri"
+    },
+    {
+      "name": "Alkaki",
+      "aliases": [
+        "Dublan"
+      ],
+      "popularity": 611,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Alkaki"
+    },
+    {
+      "name": "Ojojo",
+      "aliases": [],
+      "popularity": 668,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Ojojo"
+    },
+    {
+      "name": "Sinasir",
+      "aliases": [
+        "Pancake",
+        "Rice Pancakes"
+      ],
+      "popularity": 748,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Sinasir"
+    },
+    {
+      "name": "Ofe Nsala",
+      "aliases": [
+        "Nsala soup",
+        "white soup"
+      ],
+      "popularity": 756,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Ofe Nsala"
+    },
+    {
+      "name": "Usi",
+      "aliases": [
+        "Usi (food)"
+      ],
+      "popularity": 1032,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Usi (food)"
+    },
+    {
+      "name": "Ikokore",
+      "aliases": [],
+      "popularity": 1194,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Ikokore"
+    },
+    {
+      "name": "Ofe Owerri",
+      "aliases": [
+        "Ofé Owere"
+      ],
+      "popularity": 1295,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Ofe Owerri"
+    },
+    {
+      "name": "Adalu",
+      "aliases": [
+        "Adalu (food)",
+        "beans and corn porridge"
+      ],
+      "popularity": 1334,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Adalu (food)"
+    },
+    {
+      "name": "Ukodo",
+      "aliases": [],
+      "popularity": 1405,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Ukodo"
+    },
+    {
+      "name": "Tuwon masara",
+      "aliases": [
+        "Tuwo"
+      ],
+      "popularity": 1406,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Tuwon masara"
+    },
+    {
+      "name": "Agidi",
+      "aliases": [],
+      "popularity": 1656,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Agidi"
+    },
+    {
+      "name": "Edo black soup",
+      "aliases": [
+        "omoebe"
+      ],
+      "popularity": 1712,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Edo black soup"
+    },
+    {
+      "name": "Ofe Oha",
+      "aliases": [
+        "Oha soup"
+      ],
+      "popularity": 1810,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Ofe Oha"
+    },
+    {
+      "name": "Ukazi soup",
+      "aliases": [
+        "Okazi soup"
+      ],
+      "popularity": 1879,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Ukazi soup"
+    },
+    {
+      "name": "Banga rice",
+      "aliases": [
+        "Palm oil rice"
+      ],
+      "popularity": 1996,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Banga rice"
+    },
+    {
+      "name": "Egbo",
+      "aliases": [
+        "Egbo (food)"
+      ],
+      "popularity": 2133,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Egbo (food)"
+    },
+    {
+      "name": "Frejon",
+      "aliases": [],
+      "popularity": 2489,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Frejon"
+    },
+    {
+      "name": "Dan wake",
+      "aliases": [
+        "Ɗan wake",
+        "bean dumpling",
+        "danwake"
+      ],
+      "popularity": 2540,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "Dan wake"
+    },
+    {
+      "name": "Ekwang",
+      "aliases": [
+        "Ekpang Nkwukwo"
+      ],
+      "popularity": 2601,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Ekwang"
+    },
+    {
+      "name": "Goat meat pepper soup",
+      "aliases": [
+        "Pepper soup"
+      ],
+      "popularity": 2866,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Goat meat pepper soup"
+    },
+    {
+      "name": "Dambou",
+      "aliases": [
+        "dambu",
+        "dambu jollofff"
+      ],
+      "popularity": 2882,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Dambou"
+    },
+    {
+      "name": "Ekuru",
+      "aliases": [
+        "White Moi Moi",
+        "white Moinmoin"
+      ],
+      "popularity": 2974,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Ekuru"
+    },
+    {
+      "name": "Draw soup",
+      "aliases": [],
+      "popularity": 3457,
+      "rarity": 0.451,
+      "tier": 3,
+      "wiki": "Draw soup"
+    },
+    {
+      "name": "Edikang ikong",
+      "aliases": [
+        "Edikaikong soup",
+        "Edikang ikong soup"
+      ],
+      "popularity": 3933,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Edikang ikong"
+    },
+    {
+      "name": "Okoho",
+      "aliases": [],
+      "popularity": 4001,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Okoho"
+    },
+    {
+      "name": "Isi ewu",
+      "aliases": [
+        "spicy goat head"
+      ],
+      "popularity": 4626,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Isi ewu"
+    },
+    {
+      "name": "Gizdodo",
+      "aliases": [
+        "gizzard and dodo"
+      ],
+      "popularity": 4759,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Gizdodo"
+    },
+    {
+      "name": "Asaro",
+      "aliases": [
+        "Asaro (food)"
+      ],
+      "popularity": 5609,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Asaro (food)"
+    },
+    {
+      "name": "Ewa aganyin",
+      "aliases": [
+        "Ewa Agoyin"
+      ],
+      "popularity": 5918,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Ewa aganyin"
+    },
+    {
+      "name": "Obe ata",
+      "aliases": [],
+      "popularity": 6299,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Obe ata"
+    },
+    {
+      "name": "Tuwon shinkafa",
+      "aliases": [
+        "Rice pudding"
+      ],
+      "popularity": 6319,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Tuwon shinkafa"
+    },
+    {
+      "name": "Afang soup",
+      "aliases": [
+        "Afang"
+      ],
+      "popularity": 6577,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Afang soup"
+    },
+    {
+      "name": "Ewedu soup",
+      "aliases": [
+        "Jute leaves soup"
+      ],
+      "popularity": 7039,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Ewedu soup"
+    },
+    {
+      "name": "Ukwa",
+      "aliases": [
+        "Bread fruit",
+        "Ukwa (food)"
+      ],
+      "popularity": 7164,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Ukwa (food)"
+    },
+    {
+      "name": "Abacha",
+      "aliases": [
+        "Abacha (food)",
+        "African Salad"
+      ],
+      "popularity": 9038,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Abacha (food)"
+    },
+    {
+      "name": "Kilishi",
+      "aliases": [
+        "beef jerky",
+        "Nigerian beef jerky"
+      ],
+      "popularity": 9603,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Kilishi"
+    },
+    {
+      "name": "Palm nut soup",
+      "aliases": [
+        "abenkwan",
+        "Amiedi",
+        "banga",
+        "Banga Soup",
+        "izuwo ibiedi",
+        "ofe akwu",
+        "oghwo amiedi"
+      ],
+      "popularity": 10235,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Palm nut soup"
+    },
+    {
+      "name": "Ofada rice",
+      "aliases": [
+        "Unpolished rice"
+      ],
+      "popularity": 10506,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Ofada rice"
+    },
+    {
+      "name": "Ogi",
+      "aliases": [
+        "akamu",
+        "Koko",
+        "Ogi (food)",
+        "Pap"
+      ],
+      "popularity": 11136,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Ogi (food)"
+    },
+    {
+      "name": "Kuli-kuli",
+      "aliases": [
+        "Kluklu",
+        "Peanuts bars"
+      ],
+      "popularity": 12504,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Kuli-kuli"
+    },
+    {
+      "name": "Eba",
+      "aliases": [
+        "Ebe",
+        "Gari",
+        "Pinon",
+        "ugali"
+      ],
+      "popularity": 18104,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Eba"
+    },
+    {
+      "name": "Amala",
+      "aliases": [
+        "alibo",
+        "Amala (food)"
+      ],
+      "popularity": 24205,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Amala (food)"
+    },
+    {
+      "name": "Efo riro",
+      "aliases": [
+        "Spinach stew"
+      ],
+      "popularity": 25719,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Efo riro"
+    },
+    {
+      "name": "Chin chin",
+      "aliases": [
+        "achomo",
+        "atchomon"
+      ],
+      "popularity": 27273,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Chin chin"
+    },
+    {
+      "name": "Akara",
+      "aliases": [
+        "bean cake",
+        "Scotch&Dutch"
+      ],
+      "popularity": 31403,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Akara"
+    },
+    {
+      "name": "Suya",
+      "aliases": [
+        "Spicy Grilled Kebab",
+        "tsire"
+      ],
+      "popularity": 32782,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Suya"
+    }
+  ]
+}

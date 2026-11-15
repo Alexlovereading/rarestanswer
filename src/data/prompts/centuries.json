@@ -1,0 +1,205 @@
+{
+  "id": "centuries",
+  "slug": "centuries",
+  "category": "history",
+  "question": "Name a century from the 1st century through the 21st century",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "3rd century",
+      "aliases": [],
+      "popularity": 23246,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "3rd century"
+    },
+    {
+      "name": "4th century",
+      "aliases": [],
+      "popularity": 24871,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "4th century"
+    },
+    {
+      "name": "2nd century",
+      "aliases": [
+        "second century",
+        "second century AD",
+        "second century CE"
+      ],
+      "popularity": 27332,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "2nd century"
+    },
+    {
+      "name": "8th century",
+      "aliases": [],
+      "popularity": 30866,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "8th century"
+    },
+    {
+      "name": "9th century",
+      "aliases": [],
+      "popularity": 31249,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "9th century"
+    },
+    {
+      "name": "5th century",
+      "aliases": [],
+      "popularity": 32294,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "5th century"
+    },
+    {
+      "name": "6th century",
+      "aliases": [],
+      "popularity": 34108,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "6th century"
+    },
+    {
+      "name": "10th century",
+      "aliases": [],
+      "popularity": 35446,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "10th century"
+    },
+    {
+      "name": "7th century",
+      "aliases": [],
+      "popularity": 37752,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "7th century"
+    },
+    {
+      "name": "12th century",
+      "aliases": [
+        "twelfth century"
+      ],
+      "popularity": 41697,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "12th century"
+    },
+    {
+      "name": "11th century",
+      "aliases": [],
+      "popularity": 44577,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "11th century"
+    },
+    {
+      "name": "13th century",
+      "aliases": [
+        "13. century"
+      ],
+      "popularity": 48367,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "13th century"
+    },
+    {
+      "name": "14th century",
+      "aliases": [],
+      "popularity": 55316,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "14th century"
+    },
+    {
+      "name": "15th century",
+      "aliases": [
+        "fifteenth century",
+        "Quatro Cento"
+      ],
+      "popularity": 69478,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "15th century"
+    },
+    {
+      "name": "1st century",
+      "aliases": [],
+      "popularity": 70405,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "1st century"
+    },
+    {
+      "name": "16th century",
+      "aliases": [
+        "sixteenth century"
+      ],
+      "popularity": 74353,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "16th century"
+    },
+    {
+      "name": "17th century",
+      "aliases": [
+        "seventeenth century"
+      ],
+      "popularity": 80355,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "17th century"
+    },
+    {
+      "name": "18th century",
+      "aliases": [
+        "Eighteenth Century"
+      ],
+      "popularity": 87543,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "18th century"
+    },
+    {
+      "name": "19th century",
+      "aliases": [
+        "19. century",
+        "nineteenth century",
+        "XIX Century"
+      ],
+      "popularity": 128492,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "19th century"
+    },
+    {
+      "name": "20th century",
+      "aliases": [
+        "the past century",
+        "twentieth century",
+        "XX Century"
+      ],
+      "popularity": 154631,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "20th century"
+    },
+    {
+      "name": "21st century",
+      "aliases": [
+        "twenty-first century",
+        "XXI Century"
+      ],
+      "popularity": 235377,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "21st century"
+    }
+  ]
+}

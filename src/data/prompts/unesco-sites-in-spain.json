@@ -1,0 +1,432 @@
+{
+  "id": "unesco-sites-in-spain",
+  "slug": "unesco-sites-in-spain",
+  "category": "geography",
+  "question": "Name a UNESCO World Heritage Site in Spain",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "San Pedro, Teruel",
+      "aliases": [
+        "Church of St. Peter",
+        "San Pedro Church"
+      ],
+      "popularity": 613,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "San Pedro, Teruel"
+    },
+    {
+      "name": "Colegio Mayor de San Ildefonso",
+      "aliases": [],
+      "popularity": 673,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Colegio Mayor de San Ildefonso"
+    },
+    {
+      "name": "Old Town of Santiago de Compostela",
+      "aliases": [],
+      "popularity": 674,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Old Town of Santiago de Compostela"
+    },
+    {
+      "name": "Colegiata de Santa Maria la Mayor, Calatayud",
+      "aliases": [
+        "Collegiate church of Santa María"
+      ],
+      "popularity": 1002,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Colegiata de Santa Maria la Mayor, Calatayud"
+    },
+    {
+      "name": "Torre de San Martín",
+      "aliases": [],
+      "popularity": 1268,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Torre de San Martín"
+    },
+    {
+      "name": "San Pablo",
+      "aliases": [
+        "San Pablo (Zaragoza)"
+      ],
+      "popularity": 1475,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "San Pablo (Zaragoza)"
+    },
+    {
+      "name": "Pyrénées – Mont Perdu World Heritage Site",
+      "aliases": [],
+      "popularity": 2137,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Pyrénées – Mont Perdu World Heritage Site"
+    },
+    {
+      "name": "Risco Caído",
+      "aliases": [],
+      "popularity": 2364,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Risco Caído"
+    },
+    {
+      "name": "Archaeological Ensemble of Tárraco",
+      "aliases": [
+        "Archaeological Ensemble of Tarragona"
+      ],
+      "popularity": 2486,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Archaeological Ensemble of Tárraco"
+    },
+    {
+      "name": "Tower of the church of San Salvador",
+      "aliases": [],
+      "popularity": 2727,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Tower of the church of San Salvador"
+    },
+    {
+      "name": "Lugo Cathedral",
+      "aliases": [],
+      "popularity": 2839,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Lugo Cathedral"
+    },
+    {
+      "name": "Catalan Romanesque Churches of the Vall de Boí",
+      "aliases": [],
+      "popularity": 3035,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Catalan Romanesque Churches of the Vall de Boí"
+    },
+    {
+      "name": "Teruel Cathedral",
+      "aliases": [],
+      "popularity": 3177,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Teruel Cathedral"
+    },
+    {
+      "name": "Old Town of Cáceres",
+      "aliases": [],
+      "popularity": 3465,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Old Town of Cáceres"
+    },
+    {
+      "name": "Mudéjar architecture of Aragon",
+      "aliases": [],
+      "popularity": 3666,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Mudéjar architecture of Aragon"
+    },
+    {
+      "name": "Lonja de la Seda",
+      "aliases": [
+        "Llotja de la Seda"
+      ],
+      "popularity": 4643,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Lonja de la Seda"
+    },
+    {
+      "name": "Monasteries of San Millán de la Cogolla",
+      "aliases": [],
+      "popularity": 5057,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Monasteries of San Millán de la Cogolla"
+    },
+    {
+      "name": "Heritage of Mercury. Almadén and Idrija",
+      "aliases": [],
+      "popularity": 5142,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Heritage of Mercury. Almadén and Idrija"
+    },
+    {
+      "name": "Monastery of Saint Mary of Guadalupe",
+      "aliases": [
+        "Our Lady of Guadalupe",
+        "Santa Maria de Guadalupe"
+      ],
+      "popularity": 5860,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Monastery of Saint Mary of Guadalupe"
+    },
+    {
+      "name": "Garajonay National Park",
+      "aliases": [],
+      "popularity": 6306,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Garajonay National Park"
+    },
+    {
+      "name": "Poblet Abbey",
+      "aliases": [
+        "Poblet Monastery"
+      ],
+      "popularity": 7162,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Poblet Abbey"
+    },
+    {
+      "name": "Cave of Altamira and Paleolithic Cave Art of Northern Spain",
+      "aliases": [],
+      "popularity": 8659,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Cave of Altamira and Paleolithic Cave Art of Northern Spain"
+    },
+    {
+      "name": "Antequera Dolmens Site",
+      "aliases": [],
+      "popularity": 8925,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Antequera Dolmens Site"
+    },
+    {
+      "name": "Palmeral of Elche",
+      "aliases": [
+        "Elche Palm Grove",
+        "Palmeral de Elche"
+      ],
+      "popularity": 9873,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Palmeral of Elche"
+    },
+    {
+      "name": "Roman walls of Lugo",
+      "aliases": [
+        "Lugo"
+      ],
+      "popularity": 10024,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Roman walls of Lugo"
+    },
+    {
+      "name": "Historic centre of Córdoba",
+      "aliases": [],
+      "popularity": 10514,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Historic centre of Córdoba"
+    },
+    {
+      "name": "Cathedral of the Savior of Zaragoza",
+      "aliases": [
+        "cathedral of Zaragoza",
+        "La Seo Cathedral",
+        "Zaragoza cathedral"
+      ],
+      "popularity": 11060,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Cathedral of the Savior of Zaragoza"
+    },
+    {
+      "name": "Rock art of the Iberian Mediterranean Basin",
+      "aliases": [
+        "Levantine art",
+        "Spanish Levantine art"
+      ],
+      "popularity": 11302,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Rock art of the Iberian Mediterranean Basin"
+    },
+    {
+      "name": "Teide National Park",
+      "aliases": [],
+      "popularity": 16288,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Teide National Park"
+    },
+    {
+      "name": "Vizcaya Bridge",
+      "aliases": [
+        "Portugalete Suspension Bridge"
+      ],
+      "popularity": 18314,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Vizcaya Bridge"
+    },
+    {
+      "name": "Routes of Santiago de Compostela: Camino Francés and Routes of Northern Spain",
+      "aliases": [],
+      "popularity": 19081,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Routes of Santiago de Compostela: Camino Francés and Routes of Northern Spain"
+    },
+    {
+      "name": "Doñana National Park",
+      "aliases": [
+        "Doñana"
+      ],
+      "popularity": 19493,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Doñana National Park"
+    },
+    {
+      "name": "General Archive of the Indies",
+      "aliases": [],
+      "popularity": 21853,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "General Archive of the Indies"
+    },
+    {
+      "name": "Archaeological site of Atapuerca",
+      "aliases": [
+        "Atapuerca",
+        "Atapuerca archaeopaleontological sites",
+        "Atapuerca site"
+      ],
+      "popularity": 22291,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Archaeological site of Atapuerca"
+    },
+    {
+      "name": "Tarraco",
+      "aliases": [
+        "Colonia Iulia Urbs Triumphalis Tarraco"
+      ],
+      "popularity": 25424,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Tarraco"
+    },
+    {
+      "name": "Aljafería",
+      "aliases": [
+        "Aljafería Palace"
+      ],
+      "popularity": 27398,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Aljafería"
+    },
+    {
+      "name": "Madinat al-Zahra",
+      "aliases": [
+        "Caliphate City of Medina Azaharaa",
+        "Delimitación de Madinat al-Zahra",
+        "Medina Azahara"
+      ],
+      "popularity": 32027,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Madinat al-Zahra"
+    },
+    {
+      "name": "Burgos Cathedral",
+      "aliases": [
+        "Cathedral of kdcsk",
+        "Diocesan Cathedral of Burgos"
+      ],
+      "popularity": 32998,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Burgos Cathedral"
+    },
+    {
+      "name": "San Cristóbal de La Laguna",
+      "aliases": [
+        "La Laguna"
+      ],
+      "popularity": 42449,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "San Cristóbal de La Laguna"
+    },
+    {
+      "name": "Las Médulas",
+      "aliases": [],
+      "popularity": 50178,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Las Médulas"
+    },
+    {
+      "name": "Alcázar of Segovia",
+      "aliases": [
+        "Royal Alcázar of Segovia",
+        "Royal Palace of Segovia",
+        "Segovia Alcazar",
+        "Segovia Castle"
+      ],
+      "popularity": 74552,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Alcázar of Segovia"
+    },
+    {
+      "name": "Cave of Altamira",
+      "aliases": [
+        "Cuevas de Altamira"
+      ],
+      "popularity": 90761,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Cave of Altamira"
+    },
+    {
+      "name": "Tower of Hercules",
+      "aliases": [
+        "Herkulesen Dorrea",
+        "Torre de Hércules"
+      ],
+      "popularity": 90989,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Tower of Hercules"
+    },
+    {
+      "name": "Mosque–Cathedral of Córdoba",
+      "aliases": [],
+      "popularity": 249666,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Mosque–Cathedral of Córdoba"
+    },
+    {
+      "name": "Sagrada Família",
+      "aliases": [
+        "Holy Family",
+        "La Sagrada Familia",
+        "Temple of the Holy Family"
+      ],
+      "popularity": 2218551,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Sagrada Família"
+    }
+  ]
+}

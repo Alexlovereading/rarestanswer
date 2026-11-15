@@ -1,0 +1,446 @@
+{
+  "id": "falcon-species",
+  "slug": "falcon-species",
+  "category": "animals",
+  "question": "Name a species of falcon",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Falco hezhengensis",
+      "aliases": [],
+      "popularity": 265,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Falco hezhengensis"
+    },
+    {
+      "name": "Cuban kestrel",
+      "aliases": [
+        "Falco kurochkini"
+      ],
+      "popularity": 911,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Cuban kestrel"
+    },
+    {
+      "name": "Banded kestrel",
+      "aliases": [
+        "Falco zoniventris"
+      ],
+      "popularity": 2198,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Banded kestrel"
+    },
+    {
+      "name": "Dickinson's kestrel",
+      "aliases": [
+        "Dickinsonis kestrel",
+        "Falco dickinsoni"
+      ],
+      "popularity": 2360,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "Dickinson's kestrel"
+    },
+    {
+      "name": "Oriental hobby",
+      "aliases": [
+        "Falco severus"
+      ],
+      "popularity": 2495,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Oriental hobby"
+    },
+    {
+      "name": "Grey kestrel",
+      "aliases": [
+        "Falco ardosiaceus"
+      ],
+      "popularity": 2985,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Grey kestrel"
+    },
+    {
+      "name": "Seychelles kestrel",
+      "aliases": [
+        "Falco araeus"
+      ],
+      "popularity": 3417,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Seychelles kestrel"
+    },
+    {
+      "name": "African hobby",
+      "aliases": [
+        "Falco cuvierii"
+      ],
+      "popularity": 3418,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "African hobby"
+    },
+    {
+      "name": "Spotted kestrel",
+      "aliases": [
+        "Falco moluccensis"
+      ],
+      "popularity": 3431,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Spotted kestrel"
+    },
+    {
+      "name": "Taita falcon",
+      "aliases": [
+        "Falco fasciinucha"
+      ],
+      "popularity": 3486,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Taita falcon"
+    },
+    {
+      "name": "Malagasy kestrel",
+      "aliases": [
+        "Falco newtoni"
+      ],
+      "popularity": 3775,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Malagasy kestrel"
+    },
+    {
+      "name": "Greater kestrel",
+      "aliases": [
+        "Falco rupicoloides"
+      ],
+      "popularity": 4056,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Greater kestrel"
+    },
+    {
+      "name": "Fox kestrel",
+      "aliases": [
+        "Falco alopex"
+      ],
+      "popularity": 4126,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "Fox kestrel"
+    },
+    {
+      "name": "Grey falcon",
+      "aliases": [
+        "Falco hypoleucos"
+      ],
+      "popularity": 4400,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Grey falcon"
+    },
+    {
+      "name": "Orange-breasted falcon",
+      "aliases": [
+        "Falco deiroleucus"
+      ],
+      "popularity": 5143,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Orange-breasted falcon"
+    },
+    {
+      "name": "Red-necked falcon",
+      "aliases": [
+        "Falco chicquera",
+        "Red-headed falcon"
+      ],
+      "popularity": 5733,
+      "rarity": 0.634,
+      "tier": 4,
+      "wiki": "Red-necked falcon"
+    },
+    {
+      "name": "Sooty falcon",
+      "aliases": [
+        "Falco concolor"
+      ],
+      "popularity": 5853,
+      "rarity": 0.61,
+      "tier": 4,
+      "wiki": "Sooty falcon"
+    },
+    {
+      "name": "Rock kestrel",
+      "aliases": [
+        "Falco rupicolus"
+      ],
+      "popularity": 6796,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Rock kestrel"
+    },
+    {
+      "name": "Black falcon",
+      "aliases": [
+        "Falco subniger"
+      ],
+      "popularity": 6850,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Black falcon"
+    },
+    {
+      "name": "Bat falcon",
+      "aliases": [
+        "Falco rufigularis"
+      ],
+      "popularity": 7497,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Bat falcon"
+    },
+    {
+      "name": "Bird of Washington",
+      "aliases": [
+        "Falco washingonii",
+        "The Greater Eagle",
+        "Washington's Eagle"
+      ],
+      "popularity": 7996,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Bird of Washington"
+    },
+    {
+      "name": "Australian hobby",
+      "aliases": [
+        "Falco longipennis",
+        "Little Falcon"
+      ],
+      "popularity": 8036,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "Australian hobby"
+    },
+    {
+      "name": "Laggar falcon",
+      "aliases": [
+        "Falco jugger"
+      ],
+      "popularity": 8143,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Laggar falcon"
+    },
+    {
+      "name": "Barbary falcon",
+      "aliases": [
+        "Falco pelegrinoides"
+      ],
+      "popularity": 12501,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "Barbary falcon"
+    },
+    {
+      "name": "Aplomado falcon",
+      "aliases": [
+        "Falco femoralis"
+      ],
+      "popularity": 12505,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Aplomado falcon"
+    },
+    {
+      "name": "Brown falcon",
+      "aliases": [
+        "Brown Hawk",
+        "Falco berigora"
+      ],
+      "popularity": 13691,
+      "rarity": 0.39,
+      "tier": 2,
+      "wiki": "Brown falcon"
+    },
+    {
+      "name": "Nankeen kestrel",
+      "aliases": [
+        "Falco cenchroides"
+      ],
+      "popularity": 14147,
+      "rarity": 0.366,
+      "tier": 2,
+      "wiki": "Nankeen kestrel"
+    },
+    {
+      "name": "Red-footed falcon",
+      "aliases": [
+        "Falco vespertinus"
+      ],
+      "popularity": 15455,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Red-footed falcon"
+    },
+    {
+      "name": "Mauritius kestrel",
+      "aliases": [
+        "Falco punctatus"
+      ],
+      "popularity": 17606,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Mauritius kestrel"
+    },
+    {
+      "name": "Prairie falcon",
+      "aliases": [
+        "Falco mexicanus"
+      ],
+      "popularity": 18367,
+      "rarity": 0.293,
+      "tier": 2,
+      "wiki": "Prairie falcon"
+    },
+    {
+      "name": "Lesser kestrel",
+      "aliases": [
+        "Falco naumanni"
+      ],
+      "popularity": 19487,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Lesser kestrel"
+    },
+    {
+      "name": "Eleonora's falcon",
+      "aliases": [
+        "Eleonoraís falcon",
+        "Falco eleonorae"
+      ],
+      "popularity": 20896,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Eleonora's falcon"
+    },
+    {
+      "name": "Amur falcon",
+      "aliases": [
+        "Falco amurensis"
+      ],
+      "popularity": 28432,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Amur falcon"
+    },
+    {
+      "name": "New Zealand falcon",
+      "aliases": [
+        "Falco novaeseelandiae"
+      ],
+      "popularity": 28884,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "New Zealand falcon"
+    },
+    {
+      "name": "Lanner falcon",
+      "aliases": [
+        "Falco biarmicus"
+      ],
+      "popularity": 30348,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Lanner falcon"
+    },
+    {
+      "name": "Eurasian hobby",
+      "aliases": [
+        "Falco subbuteo",
+        "hobby"
+      ],
+      "popularity": 40715,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Eurasian hobby"
+    },
+    {
+      "name": "Saker falcon",
+      "aliases": [
+        "Falco cherrug"
+      ],
+      "popularity": 64379,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Saker falcon"
+    },
+    {
+      "name": "Common kestrel",
+      "aliases": [
+        "Eurasian Kestrel",
+        "European Kestrel",
+        "Falco tinnunculus",
+        "Old World Kestrel",
+        "Windhover"
+      ],
+      "popularity": 107237,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Common kestrel"
+    },
+    {
+      "name": "American kestrel",
+      "aliases": [
+        "American sparrowhawk",
+        "Falco sparverius"
+      ],
+      "popularity": 110890,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "American kestrel"
+    },
+    {
+      "name": "Merlin",
+      "aliases": [
+        "Falco columbarius",
+        "Merlin (bird)"
+      ],
+      "popularity": 119635,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Merlin (bird)"
+    },
+    {
+      "name": "Gyrfalcon",
+      "aliases": [
+        "Falco rusticolus",
+        "gerfalcon",
+        "Gyr falcon"
+      ],
+      "popularity": 133331,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Gyrfalcon"
+    },
+    {
+      "name": "Peregrine falcon",
+      "aliases": [
+        "Falco peregrinus",
+        "peregrine",
+        "Sapsan",
+        "Songolmae"
+      ],
+      "popularity": 651918,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Peregrine falcon"
+    }
+  ]
+}

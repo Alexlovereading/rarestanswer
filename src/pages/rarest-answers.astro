@@ -24,7 +24,7 @@ const alternates = languageAlternates(() => HUB_PATH, locales);
 const list = urlListJsonLd({
   name: HUB_TITLE,
   items: prompts.map((prompt) => ({
-    title: prompt.heading,
+    title: prompt.question,
     url: answerAbsolute(prompt.slug),
   })),
 });

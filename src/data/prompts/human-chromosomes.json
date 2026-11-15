@@ -1,0 +1,273 @@
+{
+  "id": "human-chromosomes",
+  "slug": "human-chromosomes",
+  "category": "science",
+  "question": "Name a human chromosome",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Chromosome 14",
+      "aliases": [
+        "chr14",
+        "Homo sapiens chromosome 14",
+        "human chromosome 14"
+      ],
+      "popularity": 5303,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Chromosome 14"
+    },
+    {
+      "name": "Chromosome 20",
+      "aliases": [
+        "chr20",
+        "Homo sapiens chromosome 20",
+        "human chromosome 20"
+      ],
+      "popularity": 5571,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Chromosome 20"
+    },
+    {
+      "name": "Chromosome 10",
+      "aliases": [
+        "chr10",
+        "Homo sapiens chromosome 10",
+        "human chromosome 10"
+      ],
+      "popularity": 5662,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Chromosome 10"
+    },
+    {
+      "name": "Chromosome 18",
+      "aliases": [
+        "chr18",
+        "Homo sapiens chromosome 18",
+        "human chromosome 18"
+      ],
+      "popularity": 6082,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Chromosome 18"
+    },
+    {
+      "name": "Chromosome 12",
+      "aliases": [
+        "chr12",
+        "Homo sapiens chromosome 12",
+        "human chromosome 12"
+      ],
+      "popularity": 6173,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Chromosome 12"
+    },
+    {
+      "name": "Chromosome 19",
+      "aliases": [
+        "chr19",
+        "Homo sapiens chromosome 19",
+        "human chromosome 19"
+      ],
+      "popularity": 7293,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Chromosome 19"
+    },
+    {
+      "name": "Chromosome 13",
+      "aliases": [
+        "chr13",
+        "Homo sapiens chromosome 13",
+        "human chromosome 13"
+      ],
+      "popularity": 7727,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Chromosome 13"
+    },
+    {
+      "name": "Chromosome 5",
+      "aliases": [
+        "chr5",
+        "Homo sapiens chromosome 5",
+        "human chromosome 5"
+      ],
+      "popularity": 7928,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Chromosome 5"
+    },
+    {
+      "name": "Chromosome 4",
+      "aliases": [
+        "chr4",
+        "Homo sapiens chromosome 4",
+        "human chromosome 4"
+      ],
+      "popularity": 8267,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Chromosome 4"
+    },
+    {
+      "name": "Chromosome 9",
+      "aliases": [
+        "chr9",
+        "Homo sapiens chromosome 9",
+        "human chromosome 9"
+      ],
+      "popularity": 8461,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Chromosome 9"
+    },
+    {
+      "name": "Chromosome 17",
+      "aliases": [
+        "chr17",
+        "Homo sapiens chromosome 17",
+        "human chromosome 17"
+      ],
+      "popularity": 9453,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Chromosome 17"
+    },
+    {
+      "name": "Chromosome 16",
+      "aliases": [
+        "chr16",
+        "Homo sapiens chromosome 16",
+        "human chromosome 16"
+      ],
+      "popularity": 9786,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Chromosome 16"
+    },
+    {
+      "name": "Chromosome 15",
+      "aliases": [
+        "chr15",
+        "Homo sapiens chromosome 15",
+        "human chromosome 15"
+      ],
+      "popularity": 10262,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Chromosome 15"
+    },
+    {
+      "name": "Chromosome 11",
+      "aliases": [
+        "chr11",
+        "Homo sapiens chromosome 11",
+        "human chromosome 11"
+      ],
+      "popularity": 10346,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Chromosome 11"
+    },
+    {
+      "name": "Chromosome 6",
+      "aliases": [
+        "chr6",
+        "Homo sapiens chromosome 6",
+        "human chromosome 6"
+      ],
+      "popularity": 10875,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Chromosome 6"
+    },
+    {
+      "name": "Chromosome 7",
+      "aliases": [
+        "chr7",
+        "Homo sapiens chromosome 7",
+        "human chromosome 7"
+      ],
+      "popularity": 11293,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Chromosome 7"
+    },
+    {
+      "name": "Chromosome 22",
+      "aliases": [
+        "chr22",
+        "Homo sapiens chromosome 22",
+        "human chromosome 22"
+      ],
+      "popularity": 11483,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Chromosome 22"
+    },
+    {
+      "name": "Chromosome 3",
+      "aliases": [
+        "chr3",
+        "Homo sapiens chromosome 3",
+        "human chromosome 3"
+      ],
+      "popularity": 16223,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Chromosome 3"
+    },
+    {
+      "name": "Chromosome 8",
+      "aliases": [
+        "chr8",
+        "Homo sapiens chromosome 8",
+        "human chromosome 8"
+      ],
+      "popularity": 17269,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Chromosome 8"
+    },
+    {
+      "name": "Chromosome 1",
+      "aliases": [
+        "chr1",
+        "Homo sapiens chromosome 1",
+        "human chromosome 1"
+      ],
+      "popularity": 22039,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Chromosome 1"
+    },
+    {
+      "name": "Chromosome 2",
+      "aliases": [
+        "chr2",
+        "Homo sapiens chromosome 2",
+        "human chromosome 2"
+      ],
+      "popularity": 33533,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Chromosome 2"
+    },
+    {
+      "name": "Chromosome 21",
+      "aliases": [
+        "chr21",
+        "Homo sapiens chromosome 21",
+        "human chromosome 21"
+      ],
+      "popularity": 37418,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Chromosome 21"
+    }
+  ]
+}

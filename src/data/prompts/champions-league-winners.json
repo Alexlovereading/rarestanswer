@@ -1,0 +1,394 @@
+{
+  "id": "champions-league-winners",
+  "slug": "champions-league-winners",
+  "category": "sports",
+  "question": "Name a club that has won the European Cup or UEFA Champions League",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "FCSB",
+      "aliases": [
+        "Fotbal Club FCSB",
+        "Steaua",
+        "Steaua Bucureşti"
+      ],
+      "popularity": 287463,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "FCSB"
+    },
+    {
+      "name": "Hamburger SV",
+      "aliases": [
+        "H.S.V.",
+        "Hamburg",
+        "Hamburg Sport Club",
+        "Hamburg SV",
+        "Hamburger",
+        "Hamburger S.V.",
+        "Hamburger Sport-Verein",
+        "HamburgerSV",
+        "HSV"
+      ],
+      "popularity": 421492,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Hamburger SV"
+    },
+    {
+      "name": "Red Star Belgrade",
+      "aliases": [
+        "Crvena zvezda",
+        "F.C. Red Star",
+        "F.K. Crvena zvezda",
+        "FC Red Star",
+        "FC Red Star Belgrade",
+        "FK Crvena zvezda",
+        "Red Star of Belgrade"
+      ],
+      "popularity": 449109,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Red Star Belgrade"
+    },
+    {
+      "name": "Feyenoord",
+      "aliases": [
+        "Feyenoord Rotterdam",
+        "FeyenoordRotterdam"
+      ],
+      "popularity": 622138,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Feyenoord"
+    },
+    {
+      "name": "FC Porto",
+      "aliases": [
+        "F.C.P.",
+        "F.C.Porto",
+        "FCP",
+        "FCPorto",
+        "Futebol Clube do Porto",
+        "Porto"
+      ],
+      "popularity": 687048,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "FC Porto"
+    },
+    {
+      "name": "PSV Eindhoven",
+      "aliases": [
+        "Eindhoven Football Club",
+        "Philips Sport Vereniging"
+      ],
+      "popularity": 771664,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "PSV Eindhoven"
+    },
+    {
+      "name": "Olympique de Marseille",
+      "aliases": [
+        "Marseille",
+        "O Marseille",
+        "Olympic Marseille",
+        "Olympic of Marseille",
+        "Olympique Marseille"
+      ],
+      "popularity": 778465,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Olympique de Marseille"
+    },
+    {
+      "name": "AFC Ajax",
+      "aliases": [
+        "Ajax",
+        "Ajax Amsterdam",
+        "Amsterdamsche Football Club Ajax"
+      ],
+      "popularity": 955645,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "AFC Ajax"
+    },
+    {
+      "name": "S.L. Benfica",
+      "aliases": [
+        "Benfica",
+        "SL Benfica",
+        "SLB",
+        "Sport Lisboa e Benfica"
+      ],
+      "popularity": 1012947,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "S.L. Benfica"
+    },
+    {
+      "name": "Nottingham Forest F.C.",
+      "aliases": [
+        "Forest",
+        "NFFC",
+        "NFO",
+        "Nottingham Forest",
+        "Nottingham Forest FC",
+        "Nottingham Forest Football Club",
+        "Nottm Forest",
+        "The Reds",
+        "Tricky Trees"
+      ],
+      "popularity": 1326660,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Nottingham Forest F.C."
+    },
+    {
+      "name": "Celtic F.C.",
+      "aliases": [
+        "Celtic",
+        "Celtic Football Club",
+        "Celtic plc",
+        "The Bhoys",
+        "The Celtic Football Club",
+        "The Celts",
+        "The Hoops"
+      ],
+      "popularity": 1343794,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Celtic F.C."
+    },
+    {
+      "name": "Borussia Dortmund",
+      "aliases": [
+        "BVB",
+        "Die Borussen",
+        "Die Schwarzgelben",
+        "Dortmund",
+        "The Black and Yellows"
+      ],
+      "popularity": 1346112,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Borussia Dortmund"
+    },
+    {
+      "name": "Inter Milan",
+      "aliases": [
+        "F.C.I.M.",
+        "F.C. Inter",
+        "F.C. Inter Milan",
+        "FC Inter",
+        "FC Internazionale Milano",
+        "FCIM",
+        "FCInter",
+        "Football Club Inter",
+        "Football Club Inter Milan",
+        "Football Club Internazionale Milano",
+        "I M",
+        "Inter",
+        "Inter Club",
+        "Inter FC",
+        "Inter Football Club",
+        "Inter Milano",
+        "Inter of Milan",
+        "Inter soccer club",
+        "Internazionale",
+        "Internazionale Milano",
+        "The Inter"
+      ],
+      "popularity": 1509069,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Inter Milan"
+    },
+    {
+      "name": "Juventus FC",
+      "aliases": [
+        "J.F.C.",
+        "Juventus F.C.",
+        "Juventus of Turin",
+        "Juventus Turin",
+        "JuventusF.C.",
+        "JuventusFC",
+        "JuventusFootballClub"
+      ],
+      "popularity": 1580197,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Juventus FC"
+    },
+    {
+      "name": "AC Milan",
+      "aliases": [
+        "A.C.M.",
+        "A.C. Milan",
+        "ACM",
+        "ACMilan",
+        "Association Football Milan",
+        "Associazione Calcio Milan",
+        "Milan"
+      ],
+      "popularity": 1712307,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "AC Milan"
+    },
+    {
+      "name": "Aston Villa F.C.",
+      "aliases": [
+        "Aston Villa",
+        "Aston Villa FC",
+        "Aston Villa Football Club",
+        "AVFC",
+        "The Villa",
+        "The Villans",
+        "Villa"
+      ],
+      "popularity": 1991202,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Aston Villa F.C."
+    },
+    {
+      "name": "FC Bayern Munich",
+      "aliases": [
+        "Bavaria Munich",
+        "Bayern",
+        "Bayern Muenchen",
+        "Bayern München",
+        "Bayern Munich",
+        "Bayern of Munich",
+        "Die Bayernf",
+        "F.C. Bayern Munich",
+        "FC Bavaria Munich",
+        "FC Bayern Muenchen",
+        "FC Bayern Munchen",
+        "FC Hollywood",
+        "FCB Munich",
+        "FCBM",
+        "FCBM 1900",
+        "Munich"
+      ],
+      "popularity": 2191775,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "FC Bayern Munich"
+    },
+    {
+      "name": "Paris Saint-Germain FC",
+      "aliases": [
+        "Paris",
+        "PSGFC"
+      ],
+      "popularity": 2526948,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Paris Saint-Germain FC"
+    },
+    {
+      "name": "Liverpool F.C.",
+      "aliases": [
+        "L.F.C.",
+        "Liverpool",
+        "LiverpoolF.C.",
+        "LiverpoolFC"
+      ],
+      "popularity": 3081584,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Liverpool F.C."
+    },
+    {
+      "name": "Chelsea F.C.",
+      "aliases": [
+        "Chelsea",
+        "Chelsea FC",
+        "Chelsea Football Club",
+        "The Pensioners"
+      ],
+      "popularity": 3663195,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Chelsea F.C."
+    },
+    {
+      "name": "Manchester City F.C.",
+      "aliases": [
+        "Citizens",
+        "Man City",
+        "Manchester City",
+        "Manchester City F.C. Soccer",
+        "Manchester City FC",
+        "Manchester City Football Club",
+        "MCFC",
+        "Sky Blues",
+        "The Citizens",
+        "The Sky Blues"
+      ],
+      "popularity": 3806185,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Manchester City F.C."
+    },
+    {
+      "name": "FC Barcelona",
+      "aliases": [
+        "Barcelona FC",
+        "Barcelona Football Club",
+        "F.C.B.",
+        "F.C.Barcelona",
+        "FC Barcelona Football",
+        "FCBarcelona",
+        "Football Club Barcelona",
+        "Football Club of Barcelona",
+        "Fútbol Club Barcelona"
+      ],
+      "popularity": 3846170,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "FC Barcelona"
+    },
+    {
+      "name": "Manchester United F.C.",
+      "aliases": [
+        "Man U",
+        "Man United",
+        "Man Utd",
+        "Manchester United",
+        "Manchester United FC",
+        "Manchester United Football Club",
+        "MUFC",
+        "Red Devils"
+      ],
+      "popularity": 4191352,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Manchester United F.C."
+    },
+    {
+      "name": "Real Madrid CF",
+      "aliases": [
+        "Madrid FC",
+        "Madrid Football Club",
+        "Real FC",
+        "Real Football Club",
+        "Real Madrid",
+        "Real Madrid C.F.",
+        "Real Madrid Club de Fútbol",
+        "Real Madrid Club of Football",
+        "Real Madrid Football Club",
+        "RMCF",
+        "Royal Madrid",
+        "Royal Madrid Football Club"
+      ],
+      "popularity": 4401222,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Real Madrid CF"
+    }
+  ]
+}

@@ -1,0 +1,4305 @@
+{
+  "id": "parrot-species",
+  "slug": "parrot-species",
+  "category": "animals",
+  "question": "Name a species of parrot",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Antipodes kakariki",
+      "aliases": [
+        "Antipodes Island parakeet",
+        "Antipodes parakeet",
+        "Cyanoramphus unicolor"
+      ],
+      "popularity": 0,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Antipodes kakariki"
+    },
+    {
+      "name": "Chatham Islands kakariki",
+      "aliases": [
+        "Chatham Islands parakeet",
+        "Chatham Parakeet",
+        "Cyanoramphus forbesi"
+      ],
+      "popularity": 0,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Chatham Islands kakariki"
+    },
+    {
+      "name": "New Caledonian kakariki",
+      "aliases": [
+        "Cyanoramphus saisseti",
+        "New Caledonian Parakeet"
+      ],
+      "popularity": 0,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "New Caledonian kakariki"
+    },
+    {
+      "name": "Red-crowned kakariki",
+      "aliases": [
+        "Cyanoramphus novaezelandiae",
+        "Red-fronted parakeet"
+      ],
+      "popularity": 0,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Red-crowned kakariki"
+    },
+    {
+      "name": "Reischek's kakariki",
+      "aliases": [
+        "Cyanoramphus hochstetteri",
+        "Reischek's Parakeet"
+      ],
+      "popularity": 0,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Reischek's kakariki"
+    },
+    {
+      "name": "Yellow-crowned kakariki",
+      "aliases": [
+        "Cyanoramphus auriceps",
+        "Yellow-crowned Parakeet"
+      ],
+      "popularity": 0,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Yellow-crowned kakariki"
+    },
+    {
+      "name": "Orange-fronted kakariki",
+      "aliases": [
+        "Cyanoramphus malherbi",
+        "Malherbe's Parakeet"
+      ],
+      "popularity": 34,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Orange-fronted kakariki"
+    },
+    {
+      "name": "Réunion red and green parakeet",
+      "aliases": [
+        "Dubois's parrot",
+        "Necropsittacus borbonicus",
+        "Réunion parrot"
+      ],
+      "popularity": 45,
+      "rarity": 0.983,
+      "tier": 6,
+      "wiki": "Réunion red and green parakeet"
+    },
+    {
+      "name": "Red-throated parakeet",
+      "aliases": [
+        "Psittacara rubritorquis"
+      ],
+      "popularity": 131,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Red-throated parakeet"
+    },
+    {
+      "name": "Violet macaw",
+      "aliases": [
+        "Anodorhynchus purpurascens"
+      ],
+      "popularity": 251,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Violet macaw"
+    },
+    {
+      "name": "Moluccan hanging parrot",
+      "aliases": [
+        "Loriculus amabilis"
+      ],
+      "popularity": 312,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Moluccan hanging parrot"
+    },
+    {
+      "name": "Orange-fronted hanging parrot",
+      "aliases": [
+        "Loriculus aurantiifrons"
+      ],
+      "popularity": 380,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Orange-fronted hanging parrot"
+    },
+    {
+      "name": "Azuero parakeet",
+      "aliases": [
+        "Pyrrhura eisenmanni"
+      ],
+      "popularity": 387,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Azuero parakeet"
+    },
+    {
+      "name": "Comoro black parrot",
+      "aliases": [
+        "Comoro Parrot",
+        "Coracopsis sibilans"
+      ],
+      "popularity": 405,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Comoro black parrot"
+    },
+    {
+      "name": "Sangihe hanging parrot",
+      "aliases": [
+        "Loriculus catamene"
+      ],
+      "popularity": 408,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Sangihe hanging parrot"
+    },
+    {
+      "name": "Sula hanging parrot",
+      "aliases": [
+        "Loriculus sclateri"
+      ],
+      "popularity": 442,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Sula hanging parrot"
+    },
+    {
+      "name": "Bismarck hanging parrot",
+      "aliases": [
+        "green-fronted hanging parrot",
+        "Loriculus tener"
+      ],
+      "popularity": 502,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Bismarck hanging parrot"
+    },
+    {
+      "name": "Wallace's hanging parrot",
+      "aliases": [
+        "Loriculus flosculus"
+      ],
+      "popularity": 511,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Wallace's hanging parrot"
+    },
+    {
+      "name": "Madeira parakeet",
+      "aliases": [
+        "Pyrrhura pallescens",
+        "Pyrrhura snethlageae"
+      ],
+      "popularity": 522,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Madeira parakeet"
+    },
+    {
+      "name": "Intermediate parakeet",
+      "aliases": [
+        "Intermediate parrot",
+        "Psittacula intermedia"
+      ],
+      "popularity": 563,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Intermediate parakeet"
+    },
+    {
+      "name": "Yellow-throated hanging parrot",
+      "aliases": [
+        "Loriculus pusillus"
+      ],
+      "popularity": 680,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Yellow-throated hanging parrot"
+    },
+    {
+      "name": "Black-billed hanging parrot",
+      "aliases": [
+        "Loriculus bonapartei"
+      ],
+      "popularity": 690,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Black-billed hanging parrot"
+    },
+    {
+      "name": "Pygmy hanging parrot",
+      "aliases": [
+        "Loriculus exilis"
+      ],
+      "popularity": 694,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Pygmy hanging parrot"
+    },
+    {
+      "name": "Great hanging parrot",
+      "aliases": [
+        "Loriculus stigmatus"
+      ],
+      "popularity": 698,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Great hanging parrot"
+    },
+    {
+      "name": "Western ground parrot",
+      "aliases": [
+        "Pezoporus flaviventris"
+      ],
+      "popularity": 705,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Western ground parrot"
+    },
+    {
+      "name": "Black-winged parrot",
+      "aliases": [
+        "Hapalopsittaca melanotis"
+      ],
+      "popularity": 731,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Black-winged parrot"
+    },
+    {
+      "name": "Sula lorikeet",
+      "aliases": [
+        "Citrine Lorikeet",
+        "Trichoglossus flavoviridis"
+      ],
+      "popularity": 754,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Sula lorikeet"
+    },
+    {
+      "name": "White-naped lory",
+      "aliases": [
+        "Lorius albidinucha"
+      ],
+      "popularity": 759,
+      "rarity": 0.934,
+      "tier": 6,
+      "wiki": "White-naped lory"
+    },
+    {
+      "name": "Yellow-billed lorikeet",
+      "aliases": [
+        "Neopsittacus musschenbroekii"
+      ],
+      "popularity": 765,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Yellow-billed lorikeet"
+    },
+    {
+      "name": "Yellow-breasted racket-tail",
+      "aliases": [
+        "Prioniturus flavicans",
+        "Yellowish-breasted racquet-tail"
+      ],
+      "popularity": 780,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Yellow-breasted racket-tail"
+    },
+    {
+      "name": "Simeulue parrot",
+      "aliases": [
+        "Psittinus abbotti"
+      ],
+      "popularity": 788,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "Simeulue parrot"
+    },
+    {
+      "name": "Plum-faced lorikeet",
+      "aliases": [
+        "Oreopsittacus arfaki"
+      ],
+      "popularity": 794,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Plum-faced lorikeet"
+    },
+    {
+      "name": "Rennell parrot",
+      "aliases": [
+        "Geoffroyus hyacinthinus"
+      ],
+      "popularity": 799,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Rennell parrot"
+    },
+    {
+      "name": "Meek's pygmy parrot",
+      "aliases": [
+        "Micropsitta meeki"
+      ],
+      "popularity": 802,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Meek's pygmy parrot"
+    },
+    {
+      "name": "Yellow-cheeked lorikeet",
+      "aliases": [
+        "Mustard-capped lorikeet",
+        "Trichoglossus meyeri"
+      ],
+      "popularity": 803,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Yellow-cheeked lorikeet"
+    },
+    {
+      "name": "Spot-winged parrotlet",
+      "aliases": [
+        "Touit stictopterus"
+      ],
+      "popularity": 812,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Spot-winged parrotlet"
+    },
+    {
+      "name": "Cordilleran parakeet",
+      "aliases": [
+        "Psittacara frontatus"
+      ],
+      "popularity": 813,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Cordilleran parakeet"
+    },
+    {
+      "name": "Dusky-cheeked fig parrot",
+      "aliases": [
+        "Cyclopsitta melanogenia"
+      ],
+      "popularity": 814,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Dusky-cheeked fig parrot"
+    },
+    {
+      "name": "Striated lorikeet",
+      "aliases": [
+        "Charmosyna multistriata"
+      ],
+      "popularity": 817,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Striated lorikeet"
+    },
+    {
+      "name": "Black-fronted fig parrot",
+      "aliases": [
+        "Cyclopsitta nigrifrons"
+      ],
+      "popularity": 824,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Black-fronted fig parrot"
+    },
+    {
+      "name": "Red-chinned lorikeet",
+      "aliases": [
+        "Charmosyna rubrigularis"
+      ],
+      "popularity": 837,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Red-chinned lorikeet"
+    },
+    {
+      "name": "Montane racket-tail",
+      "aliases": [
+        "Prioniturus montanus"
+      ],
+      "popularity": 838,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Montane racket-tail"
+    },
+    {
+      "name": "Jonquil parrot",
+      "aliases": [
+        "Aprosmictus jonquillaceus",
+        "Olive-shouldered parrot"
+      ],
+      "popularity": 839,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Jonquil parrot"
+    },
+    {
+      "name": "Mindoro racket-tail",
+      "aliases": [
+        "Prioniturus mindorensis"
+      ],
+      "popularity": 843,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Mindoro racket-tail"
+    },
+    {
+      "name": "Golden-mantled racket-tail",
+      "aliases": [
+        "Prioniturus platurus"
+      ],
+      "popularity": 847,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Golden-mantled racket-tail"
+    },
+    {
+      "name": "Rufous-fronted parakeet",
+      "aliases": [
+        "Bolborhynchus ferrugineifrons"
+      ],
+      "popularity": 849,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Rufous-fronted parakeet"
+    },
+    {
+      "name": "Golden-tailed parrotlet",
+      "aliases": [
+        "Touit surda",
+        "Touit surdus"
+      ],
+      "popularity": 852,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "Golden-tailed parrotlet"
+    },
+    {
+      "name": "Plum-crowned parrot",
+      "aliases": [
+        "Pionus tumultuosus",
+        "Speckle-faced Parrot"
+      ],
+      "popularity": 864,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Plum-crowned parrot"
+    },
+    {
+      "name": "Pygmy lorikeet",
+      "aliases": [
+        "Charmosyna wilhelminae"
+      ],
+      "popularity": 885,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Pygmy lorikeet"
+    },
+    {
+      "name": "White-capped parrot",
+      "aliases": [
+        "Pionus seniloides"
+      ],
+      "popularity": 889,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "White-capped parrot"
+    },
+    {
+      "name": "Yellow-capped pygmy parrot",
+      "aliases": [
+        "Micropsitta keiensis",
+        "Micropsitta kelensis"
+      ],
+      "popularity": 895,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Yellow-capped pygmy parrot"
+    },
+    {
+      "name": "Blue-eared lory",
+      "aliases": [
+        "Eos semilarvata"
+      ],
+      "popularity": 909,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Blue-eared lory"
+    },
+    {
+      "name": "Josephine's lorikeet",
+      "aliases": [
+        "Charmosyna josefinae"
+      ],
+      "popularity": 915,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Josephine's lorikeet"
+    },
+    {
+      "name": "Mindanao racket-tail",
+      "aliases": [
+        "Prioniturus waterstradti"
+      ],
+      "popularity": 915,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Mindanao racket-tail"
+    },
+    {
+      "name": "West Papuan lorikeet",
+      "aliases": [
+        "Charmosyna papou",
+        "Papuan Lorikeet"
+      ],
+      "popularity": 916,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "West Papuan lorikeet"
+    },
+    {
+      "name": "Azure-rumped parrot",
+      "aliases": [
+        "Tanygnathus sumatranus"
+      ],
+      "popularity": 928,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Azure-rumped parrot"
+    },
+    {
+      "name": "Finsch's pygmy parrot",
+      "aliases": [
+        "Micropsitta finschii"
+      ],
+      "popularity": 933,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Finsch's pygmy parrot"
+    },
+    {
+      "name": "Rusty-faced parrot",
+      "aliases": [
+        "Hapalopsittaca amazonina"
+      ],
+      "popularity": 953,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Rusty-faced parrot"
+    },
+    {
+      "name": "Meek's lorikeet",
+      "aliases": [
+        "Charmosyna meeki"
+      ],
+      "popularity": 963,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Meek's lorikeet"
+    },
+    {
+      "name": "Red-breasted pygmy parrot",
+      "aliases": [
+        "Micropsitta bruijnii",
+        "Micropsitta brujnii"
+      ],
+      "popularity": 968,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Red-breasted pygmy parrot"
+    },
+    {
+      "name": "Red-fronted lorikeet",
+      "aliases": [
+        "Charmosyna rubronotata"
+      ],
+      "popularity": 978,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Red-fronted lorikeet"
+    },
+    {
+      "name": "Buru racket-tail",
+      "aliases": [
+        "Prioniturus mada"
+      ],
+      "popularity": 996,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Buru racket-tail"
+    },
+    {
+      "name": "Red-fronted parrotlet",
+      "aliases": [
+        "Touit costaricensis"
+      ],
+      "popularity": 1004,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Red-fronted parrotlet"
+    },
+    {
+      "name": "Brown-backed parrotlet",
+      "aliases": [
+        "Black-eared parrotlet",
+        "Touit melanonotus",
+        "Touit melanota"
+      ],
+      "popularity": 1012,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Brown-backed parrotlet"
+    },
+    {
+      "name": "Madarasz's tiger parrot",
+      "aliases": [
+        "Maderasz’s parrot",
+        "Psittacella madaraszi",
+        "Psittacella maderaszi"
+      ],
+      "popularity": 1013,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Madarasz's tiger parrot"
+    },
+    {
+      "name": "Salvadori's fig parrot",
+      "aliases": [
+        "Psittaculirostris salvadorii",
+        "Salvadoriís fig-parrot"
+      ],
+      "popularity": 1013,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Salvadori's fig parrot"
+    },
+    {
+      "name": "Scaly-naped amazon",
+      "aliases": [
+        "Amazona mercenaria",
+        "Amazona mercenarius"
+      ],
+      "popularity": 1013,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Scaly-naped amazon"
+    },
+    {
+      "name": "Red-faced parrot",
+      "aliases": [
+        "Hapalopsittaca pyrrhops"
+      ],
+      "popularity": 1014,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Red-faced parrot"
+    },
+    {
+      "name": "Blue-winged amazon",
+      "aliases": [
+        "Amazona gomezgarzai"
+      ],
+      "popularity": 1016,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Blue-winged amazon"
+    },
+    {
+      "name": "Kawall's amazon",
+      "aliases": [
+        "Amazona kawalli"
+      ],
+      "popularity": 1029,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "Kawall's amazon"
+    },
+    {
+      "name": "Perija parakeet",
+      "aliases": [
+        "Pyrrhura caeruleiceps"
+      ],
+      "popularity": 1040,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Perija parakeet"
+    },
+    {
+      "name": "White-breasted parakeet",
+      "aliases": [
+        "Pyrrhura albipectus",
+        "White-necked parakeet"
+      ],
+      "popularity": 1040,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "White-breasted parakeet"
+    },
+    {
+      "name": "Geelvink pygmy parrot",
+      "aliases": [
+        "Micropsitta geelvinkiana"
+      ],
+      "popularity": 1042,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Geelvink pygmy parrot"
+    },
+    {
+      "name": "Palm lorikeet",
+      "aliases": [
+        "Charmosyna palmarum"
+      ],
+      "popularity": 1042,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Palm lorikeet"
+    },
+    {
+      "name": "Modest tiger parrot",
+      "aliases": [
+        "Psittacella modesta"
+      ],
+      "popularity": 1058,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Modest tiger parrot"
+    },
+    {
+      "name": "Painted tiger parrot",
+      "aliases": [
+        "Psittacella picta"
+      ],
+      "popularity": 1064,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Painted tiger parrot"
+    },
+    {
+      "name": "Stella's lorikeet",
+      "aliases": [
+        "Charmosyna stellae"
+      ],
+      "popularity": 1083,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Stella's lorikeet"
+    },
+    {
+      "name": "Leaf lorikeet",
+      "aliases": [
+        "Trichoglossus weberi"
+      ],
+      "popularity": 1093,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Leaf lorikeet"
+    },
+    {
+      "name": "Northern mealy amazon",
+      "aliases": [
+        "Amazona guatemalae"
+      ],
+      "popularity": 1100,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Northern mealy amazon"
+    },
+    {
+      "name": "Blue-collared parrot",
+      "aliases": [
+        "Geoffroyus simplex"
+      ],
+      "popularity": 1106,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Blue-collared parrot"
+    },
+    {
+      "name": "Diademed amazon",
+      "aliases": [
+        "Amazona diadema"
+      ],
+      "popularity": 1114,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Diademed amazon"
+    },
+    {
+      "name": "Rose-faced parrot",
+      "aliases": [
+        "Pionopsitta pulchra",
+        "Pyrilia pulchra"
+      ],
+      "popularity": 1130,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Rose-faced parrot"
+    },
+    {
+      "name": "Santarem parakeet",
+      "aliases": [
+        "Hellmayr's Parakeet",
+        "Pyrrhura amazonum"
+      ],
+      "popularity": 1149,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Santarem parakeet"
+    },
+    {
+      "name": "Blue-fronted parrotlet",
+      "aliases": [
+        "Red-winged parrotlet",
+        "Touit dilectissima",
+        "Touit dilectissimus"
+      ],
+      "popularity": 1156,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Blue-fronted parrotlet"
+    },
+    {
+      "name": "Tepui parrotlet",
+      "aliases": [
+        "Nannopsittaca panychlora"
+      ],
+      "popularity": 1164,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Tepui parrotlet"
+    },
+    {
+      "name": "Grey-hooded parakeet",
+      "aliases": [
+        "Psilopsiagon aymara",
+        "Sierra parakeet"
+      ],
+      "popularity": 1171,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Grey-hooded parakeet"
+    },
+    {
+      "name": "Purple-bellied lory",
+      "aliases": [
+        "Lorius hypoinochrous"
+      ],
+      "popularity": 1186,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Purple-bellied lory"
+    },
+    {
+      "name": "Flame-winged parakeet",
+      "aliases": [
+        "Pyrrhura calliptera"
+      ],
+      "popularity": 1200,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Flame-winged parakeet"
+    },
+    {
+      "name": "Blood-eared parakeet",
+      "aliases": [
+        "Pyrrhura hoematotis"
+      ],
+      "popularity": 1223,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Blood-eared parakeet"
+    },
+    {
+      "name": "Duchess lorikeet",
+      "aliases": [
+        "Charmosyna margarethae"
+      ],
+      "popularity": 1241,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Duchess lorikeet"
+    },
+    {
+      "name": "Fiery-shouldered parakeet",
+      "aliases": [
+        "Pyrrhura egregia"
+      ],
+      "popularity": 1262,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Fiery-shouldered parakeet"
+    },
+    {
+      "name": "Saffron-headed parrot",
+      "aliases": [
+        "Pionopsitta pyrilia",
+        "Pyrilia pyrilia"
+      ],
+      "popularity": 1264,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Saffron-headed parrot"
+    },
+    {
+      "name": "Goldie's lorikeet",
+      "aliases": [
+        "Glossoptilus goldiei",
+        "Psitteuteles goldiei"
+      ],
+      "popularity": 1265,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "Goldie's lorikeet"
+    },
+    {
+      "name": "Scarlet-shouldered parrotlet",
+      "aliases": [
+        "Touit huetii"
+      ],
+      "popularity": 1265,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "Scarlet-shouldered parrotlet"
+    },
+    {
+      "name": "Camiguin hanging parrot",
+      "aliases": [
+        "Loriculus camiguinensis"
+      ],
+      "popularity": 1266,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Camiguin hanging parrot"
+    },
+    {
+      "name": "Orange-billed lorikeet",
+      "aliases": [
+        "Neopsittacus pullicauda"
+      ],
+      "popularity": 1272,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Orange-billed lorikeet"
+    },
+    {
+      "name": "Brehm's tiger parrot",
+      "aliases": [
+        "Psittacella brehmii"
+      ],
+      "popularity": 1280,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Brehm's tiger parrot"
+    },
+    {
+      "name": "Large fig parrot",
+      "aliases": [
+        "Cyclopsitta desmarestii",
+        "Psittaculirostris desmarestii"
+      ],
+      "popularity": 1289,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Large fig parrot"
+    },
+    {
+      "name": "Red-flanked lorikeet",
+      "aliases": [
+        "Charmosyna placentis"
+      ],
+      "popularity": 1292,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Red-flanked lorikeet"
+    },
+    {
+      "name": "Blue-fronted fig parrot",
+      "aliases": [
+        "Cyclopsitta gulielmitertii",
+        "Opopsitta gulielmitertii",
+        "Orange-breasted fig parrot"
+      ],
+      "popularity": 1300,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Blue-fronted fig parrot"
+    },
+    {
+      "name": "Naretha bluebonnet",
+      "aliases": [
+        "Northiella narethae"
+      ],
+      "popularity": 1313,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Naretha bluebonnet"
+    },
+    {
+      "name": "Song parrot",
+      "aliases": [
+        "Geoffroyus heteroclitus"
+      ],
+      "popularity": 1314,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Song parrot"
+    },
+    {
+      "name": "Fuertes's parrot",
+      "aliases": [
+        "Hapalopsittaca fuertesi",
+        "indigo-winged parrot"
+      ],
+      "popularity": 1316,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Fuertes's parrot"
+    },
+    {
+      "name": "Manu parrotlet",
+      "aliases": [
+        "Nannopsittaca dachilleae"
+      ],
+      "popularity": 1316,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Manu parrotlet"
+    },
+    {
+      "name": "Andean parakeet",
+      "aliases": [
+        "Andean Parakeet monu",
+        "Bolborhynchus orbygnesius",
+        "Bolborhynchus orbygnesius pa4 500"
+      ],
+      "popularity": 1322,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Andean parakeet"
+    },
+    {
+      "name": "Caica parrot",
+      "aliases": [
+        "Pionopsitta caica",
+        "Pyrilia caica"
+      ],
+      "popularity": 1337,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Caica parrot"
+    },
+    {
+      "name": "Blue-winged racket-tail",
+      "aliases": [
+        "Prioniturus verticalis"
+      ],
+      "popularity": 1354,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Blue-winged racket-tail"
+    },
+    {
+      "name": "Ouvea parakeet",
+      "aliases": [
+        "Eunymphicus uvaeensis",
+        "Uvea parakeet"
+      ],
+      "popularity": 1362,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Ouvea parakeet"
+    },
+    {
+      "name": "Sapphire-rumped parrotlet",
+      "aliases": [
+        "Touit purpuratus"
+      ],
+      "popularity": 1362,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Sapphire-rumped parrotlet"
+    },
+    {
+      "name": "Tucumán amazon",
+      "aliases": [
+        "Amazona tucumana"
+      ],
+      "popularity": 1365,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Tucumán amazon"
+    },
+    {
+      "name": "Tui parakeet",
+      "aliases": [
+        "Brotogeris sanctithomae"
+      ],
+      "popularity": 1370,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Tui parakeet"
+    },
+    {
+      "name": "Edwards's fig parrot",
+      "aliases": [
+        "Psittaculirostris edwardsii"
+      ],
+      "popularity": 1378,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Edwards's fig parrot"
+    },
+    {
+      "name": "Masked shining parrot",
+      "aliases": [
+        "Prosopeia personata"
+      ],
+      "popularity": 1380,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Masked shining parrot"
+    },
+    {
+      "name": "Fairy lorikeet",
+      "aliases": [
+        "Charmosyna pulchella",
+        "Charmosynopsis pulchella"
+      ],
+      "popularity": 1393,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Fairy lorikeet"
+    },
+    {
+      "name": "Papuan king parrot",
+      "aliases": [
+        "Alisterus chloropterus"
+      ],
+      "popularity": 1411,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Papuan king parrot"
+    },
+    {
+      "name": "Black-winged lory",
+      "aliases": [
+        "Eos cyanogenia"
+      ],
+      "popularity": 1448,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Black-winged lory"
+    },
+    {
+      "name": "Blue-crowned racket-tail",
+      "aliases": [
+        "Prioniturus discurus"
+      ],
+      "popularity": 1449,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Blue-crowned racket-tail"
+    },
+    {
+      "name": "Yellow-streaked lory",
+      "aliases": [
+        "Chalcopsitta scintillata",
+        "Chalcopsitta sintillata",
+        "Yellowish-streaked loly",
+        "Yellowish-streaked Lory"
+      ],
+      "popularity": 1468,
+      "rarity": 0.715,
+      "tier": 4,
+      "wiki": "Yellow-streaked lory"
+    },
+    {
+      "name": "Cobalt-winged parakeet",
+      "aliases": [
+        "Brotogeris cyanoptera"
+      ],
+      "popularity": 1482,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Cobalt-winged parakeet"
+    },
+    {
+      "name": "Golden-winged parakeet",
+      "aliases": [
+        "Brotogeris chrysoptera"
+      ],
+      "popularity": 1482,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Golden-winged parakeet"
+    },
+    {
+      "name": "Red-billed parrot",
+      "aliases": [
+        "Pionus sordidus"
+      ],
+      "popularity": 1490,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Red-billed parrot"
+    },
+    {
+      "name": "White-eared parakeet",
+      "aliases": [
+        "Maroon-faced parakeet",
+        "Pyrrhura leucotis"
+      ],
+      "popularity": 1507,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "White-eared parakeet"
+    },
+    {
+      "name": "Blue-cheeked amazon",
+      "aliases": [
+        "Amazona dufresniana",
+        "blue-cheeked parrot",
+        "Dufresne's amazon"
+      ],
+      "popularity": 1518,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Blue-cheeked amazon"
+    },
+    {
+      "name": "Bonaparte's parakeet",
+      "aliases": [
+        "Pyrrhura lucianii"
+      ],
+      "popularity": 1533,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Bonaparte's parakeet"
+    },
+    {
+      "name": "Olive-headed lorikeet",
+      "aliases": [
+        "Trichoglossus euteles"
+      ],
+      "popularity": 1543,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Olive-headed lorikeet"
+    },
+    {
+      "name": "Santa Marta parakeet",
+      "aliases": [
+        "Pyrrhura viridicata"
+      ],
+      "popularity": 1559,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Santa Marta parakeet"
+    },
+    {
+      "name": "Blue-headed racket-tail",
+      "aliases": [
+        "Prioniturus platenae"
+      ],
+      "popularity": 1568,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "Blue-headed racket-tail"
+    },
+    {
+      "name": "Cardinal lory",
+      "aliases": [
+        "Chalcopsitta cardinalis"
+      ],
+      "popularity": 1581,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Cardinal lory"
+    },
+    {
+      "name": "Grey-cheeked parakeet",
+      "aliases": [
+        "Brotogeris pyrrhoptera"
+      ],
+      "popularity": 1594,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Grey-cheeked parakeet"
+    },
+    {
+      "name": "Red-browed amazon",
+      "aliases": [
+        "Amazona rhodocorytha"
+      ],
+      "popularity": 1599,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Red-browed amazon"
+    },
+    {
+      "name": "Riparian parrotlet",
+      "aliases": [
+        "Forpus crassirostris",
+        "Large-billed parrotlet"
+      ],
+      "popularity": 1602,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Riparian parrotlet"
+    },
+    {
+      "name": "Cuban parakeet",
+      "aliases": [
+        "Psittacara euops"
+      ],
+      "popularity": 1603,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Cuban parakeet"
+    },
+    {
+      "name": "Green racket-tail",
+      "aliases": [
+        "Green Racquet-tail",
+        "Prioniturus luconensis"
+      ],
+      "popularity": 1640,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Green racket-tail"
+    },
+    {
+      "name": "Brown lory",
+      "aliases": [
+        "Chalcopsitta duivenbodei"
+      ],
+      "popularity": 1657,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Brown lory"
+    },
+    {
+      "name": "Biak lorikeet",
+      "aliases": [
+        "Trichoglossus rosenbergii"
+      ],
+      "popularity": 1670,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Biak lorikeet"
+    },
+    {
+      "name": "Maroon-tailed parakeet",
+      "aliases": [
+        "Pyrrhura melanura"
+      ],
+      "popularity": 1682,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Maroon-tailed parakeet"
+    },
+    {
+      "name": "El Oro parakeet",
+      "aliases": [
+        "Pyrrhura orcesi"
+      ],
+      "popularity": 1694,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "El Oro parakeet"
+    },
+    {
+      "name": "Yucatan amazon",
+      "aliases": [
+        "Amazona xantholora",
+        "Yucatan Parrot"
+      ],
+      "popularity": 1694,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "Yucatan amazon"
+    },
+    {
+      "name": "Rose-crowned parakeet",
+      "aliases": [
+        "Pyrrhura rhodocephala"
+      ],
+      "popularity": 1697,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Rose-crowned parakeet"
+    },
+    {
+      "name": "Mountain parakeet",
+      "aliases": [
+        "Psilopsiagon aurifrons"
+      ],
+      "popularity": 1704,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Mountain parakeet"
+    },
+    {
+      "name": "Lilac-tailed parrotlet",
+      "aliases": [
+        "Touit batavica",
+        "Touit batavicus"
+      ],
+      "popularity": 1708,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Lilac-tailed parrotlet"
+    },
+    {
+      "name": "Pohnpei lorikeet",
+      "aliases": [
+        "Trichoglossus rubiginosus"
+      ],
+      "popularity": 1708,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Pohnpei lorikeet"
+    },
+    {
+      "name": "Pfrimer's parakeet",
+      "aliases": [
+        "Pyrrhura pfrimeri"
+      ],
+      "popularity": 1724,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Pfrimer's parakeet"
+    },
+    {
+      "name": "Dusky-billed parrotlet",
+      "aliases": [
+        "Forpus modestus"
+      ],
+      "popularity": 1745,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Dusky-billed parrotlet"
+    },
+    {
+      "name": "Varied lorikeet",
+      "aliases": [
+        "Psitteuteles versicolor",
+        "Trichoglossus versicolor"
+      ],
+      "popularity": 1745,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Varied lorikeet"
+    },
+    {
+      "name": "Venezuelan parakeet",
+      "aliases": [
+        "Pyrrhura emma"
+      ],
+      "popularity": 1752,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Venezuelan parakeet"
+    },
+    {
+      "name": "Turquoise-winged parrotlet",
+      "aliases": [
+        "Forpus spengeli",
+        "Forpus spengelli"
+      ],
+      "popularity": 1779,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Turquoise-winged parrotlet"
+    },
+    {
+      "name": "Sulphur-winged parakeet",
+      "aliases": [
+        "Pyrrhura hoffmanni"
+      ],
+      "popularity": 1788,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Sulphur-winged parakeet"
+    },
+    {
+      "name": "Tres Marías amazon",
+      "aliases": [
+        "Amazona tresmariae"
+      ],
+      "popularity": 1792,
+      "rarity": 0.64,
+      "tier": 4,
+      "wiki": "Tres Marías amazon"
+    },
+    {
+      "name": "Yellow-faced parrotlet",
+      "aliases": [
+        "Forpus xanthops"
+      ],
+      "popularity": 1800,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "Yellow-faced parrotlet"
+    },
+    {
+      "name": "Maroon-fronted parrot",
+      "aliases": [
+        "Rhynchopsitta terrisi"
+      ],
+      "popularity": 1829,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Maroon-fronted parrot"
+    },
+    {
+      "name": "Eastern bluebonnet",
+      "aliases": [
+        "Blue bonnet",
+        "Northiella haematogaster",
+        "Psephotus haematogaster"
+      ],
+      "popularity": 1830,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Eastern bluebonnet"
+    },
+    {
+      "name": "Black-lored parrot",
+      "aliases": [
+        "Tanygnathus gramineus"
+      ],
+      "popularity": 1838,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Black-lored parrot"
+    },
+    {
+      "name": "Caatinga parakeet",
+      "aliases": [
+        "Eupsittula cactorum"
+      ],
+      "popularity": 1845,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Caatinga parakeet"
+    },
+    {
+      "name": "Iris lorikeet",
+      "aliases": [
+        "Psitteuteles iris",
+        "Trichoglossus iris"
+      ],
+      "popularity": 1853,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Iris lorikeet"
+    },
+    {
+      "name": "Scarlet-fronted parakeet",
+      "aliases": [
+        "Aratinga wagleri"
+      ],
+      "popularity": 1857,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Scarlet-fronted parakeet"
+    },
+    {
+      "name": "Pileated parrot",
+      "aliases": [
+        "Pionopsitta pileata"
+      ],
+      "popularity": 1906,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Pileated parrot"
+    },
+    {
+      "name": "Red-spectacled amazon",
+      "aliases": [
+        "Amazona pretrei",
+        "Red-spectacled Parrot"
+      ],
+      "popularity": 1913,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Red-spectacled amazon"
+    },
+    {
+      "name": "Finsch's parakeet",
+      "aliases": [
+        "Psittacara finschi"
+      ],
+      "popularity": 1914,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Finsch's parakeet"
+    },
+    {
+      "name": "Dusky parrot",
+      "aliases": [
+        "Pionus fuscus"
+      ],
+      "popularity": 1952,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Dusky parrot"
+    },
+    {
+      "name": "Grey-breasted parakeet",
+      "aliases": [
+        "Pyrrhura griseipectus"
+      ],
+      "popularity": 1983,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Grey-breasted parakeet"
+    },
+    {
+      "name": "Brown-hooded parrot",
+      "aliases": [
+        "Pionopsitta haematotis",
+        "Pyrilia haematotis"
+      ],
+      "popularity": 1998,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Brown-hooded parrot"
+    },
+    {
+      "name": "Stephen's lorikeet",
+      "aliases": [
+        "Stephenís lorikeet",
+        "Vini stepheni"
+      ],
+      "popularity": 2016,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Stephen's lorikeet"
+    },
+    {
+      "name": "Mindanao lorikeet",
+      "aliases": [
+        "Trichoglossus johnstoniae"
+      ],
+      "popularity": 2031,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Mindanao lorikeet"
+    },
+    {
+      "name": "Short-tailed parrot",
+      "aliases": [
+        "Graydidascalus brachyurus"
+      ],
+      "popularity": 2056,
+      "rarity": 0.601,
+      "tier": 4,
+      "wiki": "Short-tailed parrot"
+    },
+    {
+      "name": "Orange-cheeked parrot",
+      "aliases": [
+        "Pionopsitta barrabandi",
+        "Pyrilia barrabandi"
+      ],
+      "popularity": 2068,
+      "rarity": 0.599,
+      "tier": 3,
+      "wiki": "Orange-cheeked parrot"
+    },
+    {
+      "name": "Rose-fronted parakeet",
+      "aliases": [
+        "Pyrrhura roseifrons"
+      ],
+      "popularity": 2071,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Rose-fronted parakeet"
+    },
+    {
+      "name": "Marigold lorikeet",
+      "aliases": [
+        "Edward's lorikeet",
+        "Trichoglossus capistratus"
+      ],
+      "popularity": 2090,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Marigold lorikeet"
+    },
+    {
+      "name": "Red-tailed amazon",
+      "aliases": [
+        "Amazona brasiliensis"
+      ],
+      "popularity": 2098,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Red-tailed amazon"
+    },
+    {
+      "name": "Yellow-tailed parrot",
+      "aliases": [
+        "Pionites xanthurus"
+      ],
+      "popularity": 2111,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Yellow-tailed parrot"
+    },
+    {
+      "name": "Crimson shining parrot",
+      "aliases": [
+        "Prosopeia splendens"
+      ],
+      "popularity": 2116,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Crimson shining parrot"
+    },
+    {
+      "name": "Yellow-bibbed lory",
+      "aliases": [
+        "Lorius chlorocercus"
+      ],
+      "popularity": 2124,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Yellow-bibbed lory"
+    },
+    {
+      "name": "Vinaceous-breasted amazon",
+      "aliases": [
+        "Amazona vinacea",
+        "vinaceous amazon"
+      ],
+      "popularity": 2183,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Vinaceous-breasted amazon"
+    },
+    {
+      "name": "Red-throated lorikeet",
+      "aliases": [
+        "Charmosyna amabilis"
+      ],
+      "popularity": 2208,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Red-throated lorikeet"
+    },
+    {
+      "name": "Nicobar parakeet",
+      "aliases": [
+        "Psittacula caniceps"
+      ],
+      "popularity": 2243,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Nicobar parakeet"
+    },
+    {
+      "name": "Red-headed macaw",
+      "aliases": [
+        "Ara erythrocephala"
+      ],
+      "popularity": 2247,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Red-headed macaw"
+    },
+    {
+      "name": "Socorro parakeet",
+      "aliases": [
+        "Aratinga brevipes"
+      ],
+      "popularity": 2249,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Socorro parakeet"
+    },
+    {
+      "name": "Blue-bellied parrot",
+      "aliases": [
+        "Triclaria malachitacea"
+      ],
+      "popularity": 2253,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Blue-bellied parrot"
+    },
+    {
+      "name": "Blaze-winged parakeet",
+      "aliases": [
+        "Pyrrhura devillei"
+      ],
+      "popularity": 2263,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Blaze-winged parakeet"
+    },
+    {
+      "name": "Festive amazon",
+      "aliases": [
+        "Amazona festiva"
+      ],
+      "popularity": 2283,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Festive amazon"
+    },
+    {
+      "name": "Lord Howe parakeet",
+      "aliases": [
+        "Cyanoramphus subflavescens",
+        "Lord Howe Island parakeet",
+        "Lord Howe red-fronted parakeet"
+      ],
+      "popularity": 2293,
+      "rarity": 0.562,
+      "tier": 3,
+      "wiki": "Lord Howe parakeet"
+    },
+    {
+      "name": "Blue-streaked lory",
+      "aliases": [
+        "Eos reticulata",
+        "Trichoglossus reticulatus"
+      ],
+      "popularity": 2302,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Blue-streaked lory"
+    },
+    {
+      "name": "Sulphur-breasted parakeet",
+      "aliases": [
+        "Aratinga maculata"
+      ],
+      "popularity": 2303,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Sulphur-breasted parakeet"
+    },
+    {
+      "name": "Niam-Niam parrot",
+      "aliases": [
+        "Poicephalus crassus"
+      ],
+      "popularity": 2358,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Niam-Niam parrot"
+    },
+    {
+      "name": "Ornate lorikeet",
+      "aliases": [
+        "Trichoglossus ornatus"
+      ],
+      "popularity": 2360,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Ornate lorikeet"
+    },
+    {
+      "name": "Tanimbar eclectus",
+      "aliases": [
+        "Eclectus riedeli"
+      ],
+      "popularity": 2437,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Tanimbar eclectus"
+    },
+    {
+      "name": "Blue-backed parrot",
+      "aliases": [
+        "Tanygnathus everetti"
+      ],
+      "popularity": 2456,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Blue-backed parrot"
+    },
+    {
+      "name": "Golden-plumed parakeet",
+      "aliases": [
+        "Golden-plumed Conure",
+        "Leptopsittaca branickii",
+        "Leptosittaca branickii"
+      ],
+      "popularity": 2535,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Golden-plumed parakeet"
+    },
+    {
+      "name": "Sunset lorikeet",
+      "aliases": [
+        "Trichoglossus forsteni"
+      ],
+      "popularity": 2538,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Sunset lorikeet"
+    },
+    {
+      "name": "Yellow-fronted parrot",
+      "aliases": [
+        "Poicephalus flavifrons"
+      ],
+      "popularity": 2547,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Yellow-fronted parrot"
+    },
+    {
+      "name": "Red-cheeked parrot",
+      "aliases": [
+        "Geoffroyus geoffroyi"
+      ],
+      "popularity": 2559,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Red-cheeked parrot"
+    },
+    {
+      "name": "Slender-billed parakeet",
+      "aliases": [
+        "Enicognathus leptorhynchus"
+      ],
+      "popularity": 2661,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Slender-billed parakeet"
+    },
+    {
+      "name": "New Caledonian lorikeet",
+      "aliases": [
+        "Charmosyna diadema"
+      ],
+      "popularity": 2672,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "New Caledonian lorikeet"
+    },
+    {
+      "name": "Red-and-blue lory",
+      "aliases": [
+        "Eos histrio"
+      ],
+      "popularity": 2729,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "Red-and-blue lory"
+    },
+    {
+      "name": "Painted parakeet",
+      "aliases": [
+        "Pyrrhura picta"
+      ],
+      "popularity": 2736,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Painted parakeet"
+    },
+    {
+      "name": "Ochre-marked parakeet",
+      "aliases": [
+        "Blue-chested parakeet",
+        "Pyrrhura cruentata"
+      ],
+      "popularity": 2811,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Ochre-marked parakeet"
+    },
+    {
+      "name": "Spectacled parrotlet",
+      "aliases": [
+        "Forpus conspicillatus"
+      ],
+      "popularity": 2859,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Spectacled parrotlet"
+    },
+    {
+      "name": "Purple-naped lory",
+      "aliases": [
+        "Lorius domicella"
+      ],
+      "popularity": 2896,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Purple-naped lory"
+    },
+    {
+      "name": "Vulturine parrot",
+      "aliases": [
+        "Gypopsitta vulturina",
+        "Pionopsitta vulturina",
+        "Pyrilia vulturina"
+      ],
+      "popularity": 2902,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Vulturine parrot"
+    },
+    {
+      "name": "Hispaniolan parakeet",
+      "aliases": [
+        "Psittacara chloropterus"
+      ],
+      "popularity": 2905,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Hispaniolan parakeet"
+    },
+    {
+      "name": "Violet-necked lory",
+      "aliases": [
+        "Eos squamata"
+      ],
+      "popularity": 2916,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Violet-necked lory"
+    },
+    {
+      "name": "Horned parakeet",
+      "aliases": [
+        "Eunymphicus cornutus"
+      ],
+      "popularity": 2942,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Horned parakeet"
+    },
+    {
+      "name": "Kuhl's lorikeet",
+      "aliases": [
+        "Kuhl's lory",
+        "kura",
+        "Rimatara lorikeet",
+        "Rimitara lorikeet",
+        "Vini kuhlii"
+      ],
+      "popularity": 2960,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Kuhl's lorikeet"
+    },
+    {
+      "name": "Cobalt-rumped parrotlet",
+      "aliases": [
+        "Blue-winged Forpus",
+        "Blue-winged Parrotlet",
+        "Forpus xanthopterygius"
+      ],
+      "popularity": 2971,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Cobalt-rumped parrotlet"
+    },
+    {
+      "name": "Bronze-winged parrot",
+      "aliases": [
+        "Pionus chalcopterus"
+      ],
+      "popularity": 2998,
+      "rarity": 0.504,
+      "tier": 3,
+      "wiki": "Bronze-winged parrot"
+    },
+    {
+      "name": "Solomons corella",
+      "aliases": [
+        "Cacatua ducorpsii",
+        "Solomons Cockatoo"
+      ],
+      "popularity": 3009,
+      "rarity": 0.501,
+      "tier": 3,
+      "wiki": "Solomons corella"
+    },
+    {
+      "name": "St. Croix macaw",
+      "aliases": [
+        "Ara autocthones"
+      ],
+      "popularity": 3065,
+      "rarity": 0.499,
+      "tier": 3,
+      "wiki": "St. Croix macaw"
+    },
+    {
+      "name": "Sri Lanka hanging parrot",
+      "aliases": [
+        "Loriculus beryllinus"
+      ],
+      "popularity": 3078,
+      "rarity": 0.496,
+      "tier": 3,
+      "wiki": "Sri Lanka hanging parrot"
+    },
+    {
+      "name": "Black-legged parrot",
+      "aliases": [
+        "Pionites xanthomerius"
+      ],
+      "popularity": 3079,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Black-legged parrot"
+    },
+    {
+      "name": "Jamaican red macaw",
+      "aliases": [
+        "Ara gossei"
+      ],
+      "popularity": 3134,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Jamaican red macaw"
+    },
+    {
+      "name": "Red-necked amazon",
+      "aliases": [
+        "Amazona arausiaca"
+      ],
+      "popularity": 3170,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Red-necked amazon"
+    },
+    {
+      "name": "Black-collared lovebird",
+      "aliases": [
+        "Agapornis swindernianus"
+      ],
+      "popularity": 3184,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Black-collared lovebird"
+    },
+    {
+      "name": "Pearly parakeet",
+      "aliases": [
+        "Pyrrhura lepida"
+      ],
+      "popularity": 3189,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Pearly parakeet"
+    },
+    {
+      "name": "Mexican parrotlet",
+      "aliases": [
+        "Forpus cyanopygius"
+      ],
+      "popularity": 3203,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Mexican parrotlet"
+    },
+    {
+      "name": "Peach-fronted parakeet",
+      "aliases": [
+        "Eupsittula aurea"
+      ],
+      "popularity": 3216,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Peach-fronted parakeet"
+    },
+    {
+      "name": "Yellow-billed amazon",
+      "aliases": [
+        "Amazona collaria"
+      ],
+      "popularity": 3225,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Yellow-billed amazon"
+    },
+    {
+      "name": "Blue-rumped parrot",
+      "aliases": [
+        "Psittinus cyanurus"
+      ],
+      "popularity": 3238,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Blue-rumped parrot"
+    },
+    {
+      "name": "Olive-throated parakeet",
+      "aliases": [
+        "Aratinga nana",
+        "Aztec Parakeet",
+        "Eupsittula nana"
+      ],
+      "popularity": 3255,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Olive-throated parakeet"
+    },
+    {
+      "name": "Grey-headed parakeet",
+      "aliases": [
+        "Psittacula finschii"
+      ],
+      "popularity": 3277,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "Grey-headed parakeet"
+    },
+    {
+      "name": "Black-winged lovebird",
+      "aliases": [
+        "Agapornis taranta"
+      ],
+      "popularity": 3278,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Black-winged lovebird"
+    },
+    {
+      "name": "Blue-crowned lorikeet",
+      "aliases": [
+        "Vini australis"
+      ],
+      "popularity": 3286,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Blue-crowned lorikeet"
+    },
+    {
+      "name": "Cliff parakeet",
+      "aliases": [
+        "Myiopsitta luchsi",
+        "Myiopsitta monachus luchsi"
+      ],
+      "popularity": 3300,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Cliff parakeet"
+    },
+    {
+      "name": "Rüppell's parrot",
+      "aliases": [
+        "Poicephalus rueppellii"
+      ],
+      "popularity": 3316,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Rüppell's parrot"
+    },
+    {
+      "name": "Layard's parakeet",
+      "aliases": [
+        "Emerald-collared parakeet",
+        "Psittacula calthrapae",
+        "Psittacula calthropae"
+      ],
+      "popularity": 3328,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Layard's parakeet"
+    },
+    {
+      "name": "Yellow-faced parrot",
+      "aliases": [
+        "Alipiopsitta xanthops",
+        "Yellow-faced Amazon"
+      ],
+      "popularity": 3352,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Yellow-faced parrot"
+    },
+    {
+      "name": "Red-headed lovebird",
+      "aliases": [
+        "Agapornis pullarius",
+        "Red-faced lovebird"
+      ],
+      "popularity": 3359,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Red-headed lovebird"
+    },
+    {
+      "name": "Brown-necked parrot",
+      "aliases": [
+        "Poicephalus fuscicollis",
+        "uncape parrot"
+      ],
+      "popularity": 3368,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Brown-necked parrot"
+    },
+    {
+      "name": "Guaiabero",
+      "aliases": [
+        "Bolbopsittacus lunulatus"
+      ],
+      "popularity": 3439,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Guaiabero"
+    },
+    {
+      "name": "Great-billed parrot",
+      "aliases": [
+        "Tanygnathus megalorynchos"
+      ],
+      "popularity": 3462,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Great-billed parrot"
+    },
+    {
+      "name": "Sumba eclectus",
+      "aliases": [
+        "Eclectus cornelia"
+      ],
+      "popularity": 3469,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Sumba eclectus"
+    },
+    {
+      "name": "Moluccan king parrot",
+      "aliases": [
+        "Alisterus amboinensis"
+      ],
+      "popularity": 3516,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Moluccan king parrot"
+    },
+    {
+      "name": "Golden-capped parakeet",
+      "aliases": [
+        "Aratinga auricapilla",
+        "Aratinga auricapillus",
+        "Golden-capped conure"
+      ],
+      "popularity": 3551,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Golden-capped parakeet"
+    },
+    {
+      "name": "Blue-fronted lorikeet",
+      "aliases": [
+        "Charmosyna toxopei"
+      ],
+      "popularity": 3555,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Blue-fronted lorikeet"
+    },
+    {
+      "name": "Elegant parrot",
+      "aliases": [
+        "Neophema elegans"
+      ],
+      "popularity": 3582,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Elegant parrot"
+    },
+    {
+      "name": "Brown-headed parrot",
+      "aliases": [
+        "Poicephalus cryptoxanthus"
+      ],
+      "popularity": 3588,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Brown-headed parrot"
+    },
+    {
+      "name": "White-crowned parrot",
+      "aliases": [
+        "Pionus senilis"
+      ],
+      "popularity": 3629,
+      "rarity": 0.428,
+      "tier": 3,
+      "wiki": "White-crowned parrot"
+    },
+    {
+      "name": "Dominican green-and-yellow macaw",
+      "aliases": [
+        "Ara atwoodi"
+      ],
+      "popularity": 3650,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Dominican green-and-yellow macaw"
+    },
+    {
+      "name": "Buff-faced pygmy parrot",
+      "aliases": [
+        "Micropsitta pusio"
+      ],
+      "popularity": 3653,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Buff-faced pygmy parrot"
+    },
+    {
+      "name": "Little lorikeet",
+      "aliases": [
+        "Glossopsitta pusilla"
+      ],
+      "popularity": 3733,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Little lorikeet"
+    },
+    {
+      "name": "Norfolk parakeet",
+      "aliases": [
+        "Cyanoramphus cookii",
+        "Norfolk Island parakeet"
+      ],
+      "popularity": 3746,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Norfolk parakeet"
+    },
+    {
+      "name": "Dusky-headed parakeet",
+      "aliases": [
+        "Aratinga weddellii"
+      ],
+      "popularity": 3747,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Dusky-headed parakeet"
+    },
+    {
+      "name": "Hooded parrot",
+      "aliases": [
+        "Psephotellus dissimilis"
+      ],
+      "popularity": 3827,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Hooded parrot"
+    },
+    {
+      "name": "Scaly-headed parrot",
+      "aliases": [
+        "Pionus maximiliani"
+      ],
+      "popularity": 3828,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Scaly-headed parrot"
+    },
+    {
+      "name": "Black-billed amazon",
+      "aliases": [
+        "Amazona agilis"
+      ],
+      "popularity": 3851,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Black-billed amazon"
+    },
+    {
+      "name": "Black lory",
+      "aliases": [
+        "Chalcopsitta atra"
+      ],
+      "popularity": 3853,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Black lory"
+    },
+    {
+      "name": "White-eyed parakeet",
+      "aliases": [
+        "Psittacara leucophthalmus"
+      ],
+      "popularity": 3911,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "White-eyed parakeet"
+    },
+    {
+      "name": "Double-eyed fig parrot",
+      "aliases": [
+        "Cyclopsitta diophthalma",
+        "Opopsitta diophthalma"
+      ],
+      "popularity": 3948,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Double-eyed fig parrot"
+    },
+    {
+      "name": "Greater vasa parrot",
+      "aliases": [
+        "Coracopsis vasa"
+      ],
+      "popularity": 4029,
+      "rarity": 0.399,
+      "tier": 2,
+      "wiki": "Greater vasa parrot"
+    },
+    {
+      "name": "Dusky lory",
+      "aliases": [
+        "dusky-orange lory",
+        "Pseudeos fuscata",
+        "white-rumped lory"
+      ],
+      "popularity": 4032,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Dusky lory"
+    },
+    {
+      "name": "Yellow-shouldered amazon",
+      "aliases": [
+        "Amazona barbadensis",
+        "Yellow-shouldered parrot"
+      ],
+      "popularity": 4036,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Yellow-shouldered amazon"
+    },
+    {
+      "name": "Rock parrot",
+      "aliases": [
+        "Neophema petrophila"
+      ],
+      "popularity": 4067,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Rock parrot"
+    },
+    {
+      "name": "Ultramarine lorikeet",
+      "aliases": [
+        "Vini ultramarina"
+      ],
+      "popularity": 4139,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Ultramarine lorikeet"
+    },
+    {
+      "name": "Grey-headed lovebird",
+      "aliases": [
+        "Agapornis canus"
+      ],
+      "popularity": 4183,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Grey-headed lovebird"
+    },
+    {
+      "name": "Macquarie parakeet",
+      "aliases": [
+        "Cyanoramphus erythrotis",
+        "Macquarie Island parakeet"
+      ],
+      "popularity": 4269,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Macquarie parakeet"
+    },
+    {
+      "name": "Slaty-headed parakeet",
+      "aliases": [
+        "Psittacula himalayana"
+      ],
+      "popularity": 4355,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Slaty-headed parakeet"
+    },
+    {
+      "name": "Bald parrot",
+      "aliases": [
+        "Pyrilia aurantiocephala"
+      ],
+      "popularity": 4359,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Bald parrot"
+    },
+    {
+      "name": "Orange-chinned parakeet",
+      "aliases": [
+        "Brotogeris jugularis"
+      ],
+      "popularity": 4374,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Orange-chinned parakeet"
+    },
+    {
+      "name": "Plain parakeet",
+      "aliases": [
+        "Brotogeris tirica"
+      ],
+      "popularity": 4382,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Plain parakeet"
+    },
+    {
+      "name": "Red-bellied parrot",
+      "aliases": [
+        "Poicephalus rufiventris"
+      ],
+      "popularity": 4382,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Red-bellied parrot"
+    },
+    {
+      "name": "Lesser vasa parrot",
+      "aliases": [
+        "Black parrot",
+        "Coracopsis nigra"
+      ],
+      "popularity": 4411,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Lesser vasa parrot"
+    },
+    {
+      "name": "Black-cheeked lovebird",
+      "aliases": [
+        "Agapornis nigrigenis"
+      ],
+      "popularity": 4412,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Black-cheeked lovebird"
+    },
+    {
+      "name": "Pacific parakeet",
+      "aliases": [
+        "Psittacara strenuus"
+      ],
+      "popularity": 4415,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Pacific parakeet"
+    },
+    {
+      "name": "Hispaniolan amazon",
+      "aliases": [
+        "Amazona ventralis"
+      ],
+      "popularity": 4426,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "Hispaniolan amazon"
+    },
+    {
+      "name": "Blue-crowned hanging parrot",
+      "aliases": [
+        "Loriculus galgulus"
+      ],
+      "popularity": 4431,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Blue-crowned hanging parrot"
+    },
+    {
+      "name": "White-winged parakeet",
+      "aliases": [
+        "Brotogeris versicolurus"
+      ],
+      "popularity": 4492,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "White-winged parakeet"
+    },
+    {
+      "name": "Saint Vincent amazon",
+      "aliases": [
+        "Amazona guildingii",
+        "St Vincent Amazon"
+      ],
+      "popularity": 4511,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Saint Vincent amazon"
+    },
+    {
+      "name": "Lilian's lovebird",
+      "aliases": [
+        "Agapornis lilianae",
+        "Lilianís lovebird"
+      ],
+      "popularity": 4573,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Lilian's lovebird"
+    },
+    {
+      "name": "Northern rosella",
+      "aliases": [
+        "Platycercus venustus"
+      ],
+      "popularity": 4624,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Northern rosella"
+    },
+    {
+      "name": "Maroon-bellied parakeet",
+      "aliases": [
+        "Pyrrhura frontalis"
+      ],
+      "popularity": 4640,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Maroon-bellied parakeet"
+    },
+    {
+      "name": "Collared lory",
+      "aliases": [
+        "Vini solitaria"
+      ],
+      "popularity": 4655,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Collared lory"
+    },
+    {
+      "name": "Mulga parrot",
+      "aliases": [
+        "Psephotellus varius"
+      ],
+      "popularity": 4690,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Mulga parrot"
+    },
+    {
+      "name": "Purple-crowned lorikeet",
+      "aliases": [
+        "Glossopsitta porphyrocephala"
+      ],
+      "popularity": 4723,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Purple-crowned lorikeet"
+    },
+    {
+      "name": "Saint Lucia amazon",
+      "aliases": [
+        "Amazona versicolor",
+        "Saint Lucia parrot"
+      ],
+      "popularity": 4784,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Saint Lucia amazon"
+    },
+    {
+      "name": "Green-rumped parrotlet",
+      "aliases": [
+        "Forpus passerinus"
+      ],
+      "popularity": 4796,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Green-rumped parrotlet"
+    },
+    {
+      "name": "Black-capped lory",
+      "aliases": [
+        "Lorius lory"
+      ],
+      "popularity": 5154,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Black-capped lory"
+    },
+    {
+      "name": "Blue-winged parrot",
+      "aliases": [
+        "Blue-banded Grass-parakeet",
+        "Blue-banded Parakeet",
+        "Neophema chrysostoma"
+      ],
+      "popularity": 5204,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Blue-winged parrot"
+    },
+    {
+      "name": "Blue-naped parrot",
+      "aliases": [
+        "Tanygnathus lucionensis"
+      ],
+      "popularity": 5259,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Blue-naped parrot"
+    },
+    {
+      "name": "Lilac-crowned amazon",
+      "aliases": [
+        "Amazona finschi"
+      ],
+      "popularity": 5439,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Lilac-crowned amazon"
+    },
+    {
+      "name": "Brown-throated parakeet",
+      "aliases": [
+        "Eupsittula pertinax"
+      ],
+      "popularity": 5456,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Brown-throated parakeet"
+    },
+    {
+      "name": "Regent parrot",
+      "aliases": [
+        "Polytelis anthopeplus"
+      ],
+      "popularity": 5543,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Regent parrot"
+    },
+    {
+      "name": "Martinique macaw",
+      "aliases": [
+        "Ara martinica"
+      ],
+      "popularity": 5613,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Martinique macaw"
+    },
+    {
+      "name": "Vernal hanging parrot",
+      "aliases": [
+        "Loriculus vernalis"
+      ],
+      "popularity": 5880,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Vernal hanging parrot"
+    },
+    {
+      "name": "Red-capped parrot",
+      "aliases": [
+        "Purpureicephalus spurius"
+      ],
+      "popularity": 5978,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Red-capped parrot"
+    },
+    {
+      "name": "Red-collared lorikeet",
+      "aliases": [
+        "Trichoglossus rubritorquis"
+      ],
+      "popularity": 6079,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Red-collared lorikeet"
+    },
+    {
+      "name": "Red-fronted parrot",
+      "aliases": [
+        "Poicephalus gulielmi"
+      ],
+      "popularity": 6126,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Red-fronted parrot"
+    },
+    {
+      "name": "Long-tailed parakeet",
+      "aliases": [
+        "Psittacula longicauda"
+      ],
+      "popularity": 6172,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Long-tailed parakeet"
+    },
+    {
+      "name": "White-fronted amazon",
+      "aliases": [
+        "Amazona albifrons",
+        "White-fronted Parrot"
+      ],
+      "popularity": 6456,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "White-fronted amazon"
+    },
+    {
+      "name": "Maroon shining parrot",
+      "aliases": [
+        "Prosopeia tabuensis"
+      ],
+      "popularity": 6570,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Maroon shining parrot"
+    },
+    {
+      "name": "Papuan eclectus",
+      "aliases": [
+        "Eclectus polychloros"
+      ],
+      "popularity": 6584,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Papuan eclectus"
+    },
+    {
+      "name": "Yellow-eared parrot",
+      "aliases": [
+        "Ognorhynchus icterotis"
+      ],
+      "popularity": 6652,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Yellow-eared parrot"
+    },
+    {
+      "name": "Mitred parakeet",
+      "aliases": [
+        "mitred conure",
+        "Psittacara mitratus"
+      ],
+      "popularity": 6731,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Mitred parakeet"
+    },
+    {
+      "name": "Mealy amazon",
+      "aliases": [
+        "Amazona farinosa",
+        "Southern Mealy Amazon"
+      ],
+      "popularity": 6755,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Mealy amazon"
+    },
+    {
+      "name": "Black-capped parakeet",
+      "aliases": [
+        "Pyrrhura rupicola"
+      ],
+      "popularity": 6800,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Black-capped parakeet"
+    },
+    {
+      "name": "Scaly-breasted lorikeet",
+      "aliases": [
+        "Trichoglossus chlorolepidotus"
+      ],
+      "popularity": 6818,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Scaly-breasted lorikeet"
+    },
+    {
+      "name": "Cape parrot",
+      "aliases": [
+        "Poicephalus robustus"
+      ],
+      "popularity": 6835,
+      "rarity": 0.285,
+      "tier": 2,
+      "wiki": "Cape parrot"
+    },
+    {
+      "name": "Blue lorikeet",
+      "aliases": [
+        "blue lory",
+        "Vini peruviana"
+      ],
+      "popularity": 6880,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Blue lorikeet"
+    },
+    {
+      "name": "Austral parakeet",
+      "aliases": [
+        "Enicognathus ferrugineus"
+      ],
+      "popularity": 6958,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Austral parakeet"
+    },
+    {
+      "name": "Western rosella",
+      "aliases": [
+        "Platycercus icterotis"
+      ],
+      "popularity": 7129,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Western rosella"
+    },
+    {
+      "name": "Red-winged parrot",
+      "aliases": [
+        "Aprosmictus erythropterus"
+      ],
+      "popularity": 7186,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Red-winged parrot"
+    },
+    {
+      "name": "Crimson-bellied parakeet",
+      "aliases": [
+        "Pyrrhura perlata"
+      ],
+      "popularity": 7269,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Crimson-bellied parakeet"
+    },
+    {
+      "name": "Scarlet-chested parrot",
+      "aliases": [
+        "Neophema splendida"
+      ],
+      "popularity": 7309,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Scarlet-chested parrot"
+    },
+    {
+      "name": "Chatham kākā",
+      "aliases": [
+        "Chatham Island kaka",
+        "Nestor chathamensis"
+      ],
+      "popularity": 7524,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Chatham kākā"
+    },
+    {
+      "name": "Seychelles black parrot",
+      "aliases": [
+        "Coracopsis barklyi",
+        "Coracopsis nigra barklyi"
+      ],
+      "popularity": 7577,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Seychelles black parrot"
+    },
+    {
+      "name": "Lord Derby's parakeet",
+      "aliases": [
+        "Derbyan parakeet",
+        "Psittacula derbiana"
+      ],
+      "popularity": 7583,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Lord Derby's parakeet"
+    },
+    {
+      "name": "Blossom-headed parakeet",
+      "aliases": [
+        "Psittacula roseata"
+      ],
+      "popularity": 7647,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Blossom-headed parakeet"
+    },
+    {
+      "name": "Golden-collared macaw",
+      "aliases": [
+        "Primolius auricollis",
+        "Yellow-collared Macaw"
+      ],
+      "popularity": 7691,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Golden-collared macaw"
+    },
+    {
+      "name": "Ground parrot",
+      "aliases": [
+        "Eastern Ground Parrot",
+        "Pezoporus wallicus"
+      ],
+      "popularity": 7821,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Ground parrot"
+    },
+    {
+      "name": "Red-fronted macaw",
+      "aliases": [
+        "Ara rubrogenys"
+      ],
+      "popularity": 7874,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Red-fronted macaw"
+    },
+    {
+      "name": "Superb parrot",
+      "aliases": [
+        "Polytelis swainsonii"
+      ],
+      "popularity": 7903,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Superb parrot"
+    },
+    {
+      "name": "Musk lorikeet",
+      "aliases": [
+        "Glossopsitta concinna"
+      ],
+      "popularity": 7927,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Musk lorikeet"
+    },
+    {
+      "name": "Blue-headed macaw",
+      "aliases": [
+        "Primolius couloni"
+      ],
+      "popularity": 7941,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Blue-headed macaw"
+    },
+    {
+      "name": "Philippine hanging parrot",
+      "aliases": [
+        "Loriculus philippensis"
+      ],
+      "popularity": 8048,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Philippine hanging parrot"
+    },
+    {
+      "name": "Cuban amazon",
+      "aliases": [
+        "Amazona leucocephala"
+      ],
+      "popularity": 8142,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Cuban amazon"
+    },
+    {
+      "name": "Princess parrot",
+      "aliases": [
+        "Polytelis alexandrae"
+      ],
+      "popularity": 8269,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Princess parrot"
+    },
+    {
+      "name": "Turquoise parrot",
+      "aliases": [
+        "Neophema pulchella"
+      ],
+      "popularity": 8309,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Turquoise parrot"
+    },
+    {
+      "name": "Western corella",
+      "aliases": [
+        "Cacatua pastinator"
+      ],
+      "popularity": 8340,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Western corella"
+    },
+    {
+      "name": "Blue-eyed cockatoo",
+      "aliases": [
+        "Cacatua ophthalmica"
+      ],
+      "popularity": 8597,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Blue-eyed cockatoo"
+    },
+    {
+      "name": "Baudin's black cockatoo",
+      "aliases": [
+        "Zanda baudinii"
+      ],
+      "popularity": 8602,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Baudin's black cockatoo"
+    },
+    {
+      "name": "Blue-winged parakeet",
+      "aliases": [
+        "Malabar parakeet",
+        "Psittacula columboides"
+      ],
+      "popularity": 8603,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Blue-winged parakeet"
+    },
+    {
+      "name": "Eupsittula canicularis",
+      "aliases": [
+        "Aratinga canicularis"
+      ],
+      "popularity": 8739,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Eupsittula canicularis"
+    },
+    {
+      "name": "Yellow-chevroned parakeet",
+      "aliases": [
+        "Brotogeris chiriri"
+      ],
+      "popularity": 8761,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Yellow-chevroned parakeet"
+    },
+    {
+      "name": "Blue-headed parrot",
+      "aliases": [
+        "Pionus menstruus"
+      ],
+      "popularity": 8852,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Blue-headed parrot"
+    },
+    {
+      "name": "Meyer's parrot",
+      "aliases": [
+        "Poicephalus meyeri"
+      ],
+      "popularity": 8952,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Meyer's parrot"
+    },
+    {
+      "name": "Black-headed parrot",
+      "aliases": [
+        "Pionites melanocephala",
+        "Pionites melanocephalus"
+      ],
+      "popularity": 9064,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Black-headed parrot"
+    },
+    {
+      "name": "Chattering lory",
+      "aliases": [
+        "Lorius garrulus"
+      ],
+      "popularity": 9393,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Chattering lory"
+    },
+    {
+      "name": "Blue-winged macaw",
+      "aliases": [
+        "Illiger’s macaw",
+        "Primolius maracana"
+      ],
+      "popularity": 9421,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Blue-winged macaw"
+    },
+    {
+      "name": "Golden-shouldered parrot",
+      "aliases": [
+        "Psephotellus chrysopterygius"
+      ],
+      "popularity": 9578,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Golden-shouldered parrot"
+    },
+    {
+      "name": "Red-lored amazon",
+      "aliases": [
+        "Amazona autumnalis",
+        "Yellow-cheeked Amazon",
+        "Yellow-cheeked Parrot"
+      ],
+      "popularity": 9592,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Red-lored amazon"
+    },
+    {
+      "name": "Orange-winged amazon",
+      "aliases": [
+        "Amazona amazonica"
+      ],
+      "popularity": 9604,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Orange-winged amazon"
+    },
+    {
+      "name": "Blue-crowned parakeet",
+      "aliases": [
+        "Thectocercus acuticaudatus"
+      ],
+      "popularity": 9900,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Blue-crowned parakeet"
+    },
+    {
+      "name": "Red-fan parrot",
+      "aliases": [
+        "Deroptyus accipitrinus"
+      ],
+      "popularity": 10104,
+      "rarity": 0.197,
+      "tier": 1,
+      "wiki": "Red-fan parrot"
+    },
+    {
+      "name": "Red-bellied macaw",
+      "aliases": [
+        "Orthopsittaca manilatus"
+      ],
+      "popularity": 10236,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Red-bellied macaw"
+    },
+    {
+      "name": "Yellow-collared lovebird",
+      "aliases": [
+        "Agapornis personatus",
+        "masked lovebird"
+      ],
+      "popularity": 10338,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Yellow-collared lovebird"
+    },
+    {
+      "name": "Yellow-crowned amazon",
+      "aliases": [
+        "Amazona ochrocephala"
+      ],
+      "popularity": 10501,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Yellow-crowned amazon"
+    },
+    {
+      "name": "Coconut lorikeet",
+      "aliases": [
+        "green-naped lorikeet",
+        "Trichoglossus haematodus"
+      ],
+      "popularity": 10678,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Coconut lorikeet"
+    },
+    {
+      "name": "Red-breasted parakeet",
+      "aliases": [
+        "Psittacula alexandri"
+      ],
+      "popularity": 11161,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Red-breasted parakeet"
+    },
+    {
+      "name": "Burrowing parrot",
+      "aliases": [
+        "Burrowing Parakeet",
+        "Cyanoliseus patagonus"
+      ],
+      "popularity": 11595,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Burrowing parrot"
+    },
+    {
+      "name": "Jandaya parakeet",
+      "aliases": [
+        "Aratinga jandaya"
+      ],
+      "popularity": 11898,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Jandaya parakeet"
+    },
+    {
+      "name": "Red lory",
+      "aliases": [
+        "Eos bornea"
+      ],
+      "popularity": 12085,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Red lory"
+    },
+    {
+      "name": "Yellow-naped amazon",
+      "aliases": [
+        "Amazona auropalliata"
+      ],
+      "popularity": 12483,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Yellow-naped amazon"
+    },
+    {
+      "name": "Glossy black cockatoo",
+      "aliases": [
+        "Calyptorhynchus lathami"
+      ],
+      "popularity": 13031,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Glossy black cockatoo"
+    },
+    {
+      "name": "Green rosella",
+      "aliases": [
+        "Platycercus caledonicus"
+      ],
+      "popularity": 13221,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Green rosella"
+    },
+    {
+      "name": "Chestnut-fronted macaw",
+      "aliases": [
+        "Ara severus"
+      ],
+      "popularity": 13434,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Chestnut-fronted macaw"
+    },
+    {
+      "name": "Red-vented cockatoo",
+      "aliases": [
+        "Cacatua haematuropygia",
+        "Philippine cockatoo"
+      ],
+      "popularity": 13571,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "Red-vented cockatoo"
+    },
+    {
+      "name": "Imperial amazon",
+      "aliases": [
+        "Amazona imperialis",
+        "Imperial Parrot",
+        "Sisserou"
+      ],
+      "popularity": 13572,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Imperial amazon"
+    },
+    {
+      "name": "Barred parakeet",
+      "aliases": [
+        "Bolborhynchus lineola"
+      ],
+      "popularity": 13578,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Barred parakeet"
+    },
+    {
+      "name": "White-bellied parrot",
+      "aliases": [
+        "Pionites leucogaster"
+      ],
+      "popularity": 13655,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "White-bellied parrot"
+    },
+    {
+      "name": "Golden parakeet",
+      "aliases": [
+        "Golden conure",
+        "Guaruba guarouba"
+      ],
+      "popularity": 13681,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Golden parakeet"
+    },
+    {
+      "name": "Red-masked parakeet",
+      "aliases": [
+        "Psittacara erythrogenys",
+        "red-masked conure"
+      ],
+      "popularity": 14400,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Red-masked parakeet"
+    },
+    {
+      "name": "Red-shouldered macaw",
+      "aliases": [
+        "Diopsittaca nobilis"
+      ],
+      "popularity": 14867,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Red-shouldered macaw"
+    },
+    {
+      "name": "Echo parakeet",
+      "aliases": [
+        "Mauritius parakeet",
+        "Psittacula eques",
+        "Reunion Parakeet"
+      ],
+      "popularity": 15292,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Echo parakeet"
+    },
+    {
+      "name": "Tanimbar corella",
+      "aliases": [
+        "Cacatua goffiniana",
+        "Goffin’s cockatoo"
+      ],
+      "popularity": 15608,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Tanimbar corella"
+    },
+    {
+      "name": "Long-billed corella",
+      "aliases": [
+        "Cacatua tenuirostris",
+        "Long-billed Cockatoo"
+      ],
+      "popularity": 16059,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Long-billed corella"
+    },
+    {
+      "name": "Blue-fronted amazon",
+      "aliases": [
+        "Amazona aestiva",
+        "Blue-fronted Parrot"
+      ],
+      "popularity": 16853,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Blue-fronted amazon"
+    },
+    {
+      "name": "Orange-bellied parrot",
+      "aliases": [
+        "Neophema chrysogaster"
+      ],
+      "popularity": 16991,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Orange-bellied parrot"
+    },
+    {
+      "name": "Pale-headed rosella",
+      "aliases": [
+        "Platycercus adscitus"
+      ],
+      "popularity": 17342,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Pale-headed rosella"
+    },
+    {
+      "name": "Pacific parrotlet",
+      "aliases": [
+        "Forpus coelestis"
+      ],
+      "popularity": 17453,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Pacific parrotlet"
+    },
+    {
+      "name": "Swift parrot",
+      "aliases": [
+        "Lathamus discolor"
+      ],
+      "popularity": 17890,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Swift parrot"
+    },
+    {
+      "name": "Moluccan eclectus",
+      "aliases": [
+        "Eclectus roratus"
+      ],
+      "popularity": 18907,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Moluccan eclectus"
+    },
+    {
+      "name": "Senegal parrot",
+      "aliases": [
+        "Poicephalus senegalus"
+      ],
+      "popularity": 19127,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Senegal parrot"
+    },
+    {
+      "name": "Nanday parakeet",
+      "aliases": [
+        "Aratinga nenday",
+        "Nanday conure",
+        "Nandayus nenday"
+      ],
+      "popularity": 19199,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Nanday parakeet"
+    },
+    {
+      "name": "Bourke's parrot",
+      "aliases": [
+        "Neophema bourkii",
+        "Neopsephotus bourkii"
+      ],
+      "popularity": 19203,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Bourke's parrot"
+    },
+    {
+      "name": "Fischer's lovebird",
+      "aliases": [
+        "Agapornis fischeri"
+      ],
+      "popularity": 19679,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Fischer's lovebird"
+    },
+    {
+      "name": "Red-rumped parrot",
+      "aliases": [
+        "Psephotus haematonotus"
+      ],
+      "popularity": 20138,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Red-rumped parrot"
+    },
+    {
+      "name": "Puerto Rican amazon",
+      "aliases": [
+        "Amazona vittata"
+      ],
+      "popularity": 20385,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Puerto Rican amazon"
+    },
+    {
+      "name": "Timneh parrot",
+      "aliases": [
+        "Psittacus timneh"
+      ],
+      "popularity": 20572,
+      "rarity": 0.112,
+      "tier": 1,
+      "wiki": "Timneh parrot"
+    },
+    {
+      "name": "Yellow-headed amazon",
+      "aliases": [
+        "Amazona oratrix",
+        "Yellow-headed Parrot"
+      ],
+      "popularity": 20712,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Yellow-headed amazon"
+    },
+    {
+      "name": "Blue-throated macaw",
+      "aliases": [
+        "Ara glaucogularis"
+      ],
+      "popularity": 21243,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Blue-throated macaw"
+    },
+    {
+      "name": "Australian ringneck",
+      "aliases": [
+        "Barnardius zonarius"
+      ],
+      "popularity": 21483,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Australian ringneck"
+    },
+    {
+      "name": "Carnaby's black cockatoo",
+      "aliases": [
+        "Zanda latirostris"
+      ],
+      "popularity": 21616,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Carnaby's black cockatoo"
+    },
+    {
+      "name": "Little corella",
+      "aliases": [
+        "Cacatua sanguinea"
+      ],
+      "popularity": 21955,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Little corella"
+    },
+    {
+      "name": "Great green macaw",
+      "aliases": [
+        "Ara ambiguus",
+        "Buffon’s macaw"
+      ],
+      "popularity": 22933,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Great green macaw"
+    },
+    {
+      "name": "Lear's macaw",
+      "aliases": [
+        "Anodorhynchus leari",
+        "Indigo Macaw"
+      ],
+      "popularity": 23704,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Lear's macaw"
+    },
+    {
+      "name": "Plum-headed parakeet",
+      "aliases": [
+        "Psittacula cyanocephala"
+      ],
+      "popularity": 24972,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Plum-headed parakeet"
+    },
+    {
+      "name": "Military macaw",
+      "aliases": [
+        "Ara militaris",
+        "soldier macaw"
+      ],
+      "popularity": 26303,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Military macaw"
+    },
+    {
+      "name": "Night parrot",
+      "aliases": [
+        "Geopsittacus occidentalis",
+        "Night Parakeet",
+        "Pezoporus occidentalis",
+        "Spinifex Parrot"
+      ],
+      "popularity": 26488,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Night parrot"
+    },
+    {
+      "name": "Thick-billed parrot",
+      "aliases": [
+        "Rhynchopsitta pachyrhyncha"
+      ],
+      "popularity": 26769,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Thick-billed parrot"
+    },
+    {
+      "name": "Crimson rosella",
+      "aliases": [
+        "Platycercus adelaidae",
+        "Platycercus elegans"
+      ],
+      "popularity": 27749,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Crimson rosella"
+    },
+    {
+      "name": "Red-crowned amazon",
+      "aliases": [
+        "Amazona viridigenalis",
+        "Red-crowned Parrot"
+      ],
+      "popularity": 28099,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Red-crowned amazon"
+    },
+    {
+      "name": "Glaucous macaw",
+      "aliases": [
+        "Anodorhynchus glaucus"
+      ],
+      "popularity": 29388,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Glaucous macaw"
+    },
+    {
+      "name": "Salmon-crested cockatoo",
+      "aliases": [
+        "Cacatua moluccensis",
+        "Moluccan cockatoo"
+      ],
+      "popularity": 29675,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Salmon-crested cockatoo"
+    },
+    {
+      "name": "Yellow-crested cockatoo",
+      "aliases": [
+        "Cacatua sulphurea"
+      ],
+      "popularity": 29958,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Yellow-crested cockatoo"
+    },
+    {
+      "name": "Kākā",
+      "aliases": [
+        "Nestor meridionalis",
+        "New Zealand Kaka"
+      ],
+      "popularity": 36571,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Kākā"
+    },
+    {
+      "name": "Red-and-green macaw",
+      "aliases": [
+        "Ara chloropterus",
+        "Green-winged macaw"
+      ],
+      "popularity": 38435,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Red-and-green macaw"
+    },
+    {
+      "name": "Rosy-faced lovebird",
+      "aliases": [
+        "Agapornis roseicollis"
+      ],
+      "popularity": 38927,
+      "rarity": 0.066,
+      "tier": 1,
+      "wiki": "Rosy-faced lovebird"
+    },
+    {
+      "name": "Australian king parrot",
+      "aliases": [
+        "Alisterus scapularis"
+      ],
+      "popularity": 39128,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Australian king parrot"
+    },
+    {
+      "name": "Eastern rosella",
+      "aliases": [
+        "Platycercus eximius"
+      ],
+      "popularity": 39711,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Eastern rosella"
+    },
+    {
+      "name": "Yellow-tailed black cockatoo",
+      "aliases": [
+        "Calyptorhynchus funereus",
+        "Zanda funerea"
+      ],
+      "popularity": 39883,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Yellow-tailed black cockatoo"
+    },
+    {
+      "name": "White cockatoo",
+      "aliases": [
+        "Cacatua alba"
+      ],
+      "popularity": 41247,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "White cockatoo"
+    },
+    {
+      "name": "Green parakeet",
+      "aliases": [
+        "Psittacara holochlorus"
+      ],
+      "popularity": 42568,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Green parakeet"
+    },
+    {
+      "name": "Gang-gang cockatoo",
+      "aliases": [
+        "Callocephalon fimbriatum"
+      ],
+      "popularity": 42952,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Gang-gang cockatoo"
+    },
+    {
+      "name": "Pesquet's parrot",
+      "aliases": [
+        "Psittrichas fulgidus"
+      ],
+      "popularity": 44944,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Pesquet's parrot"
+    },
+    {
+      "name": "Palm cockatoo",
+      "aliases": [
+        "goliath cockatoo",
+        "great black cockatoo",
+        "Probosciger aterrimus"
+      ],
+      "popularity": 45017,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Palm cockatoo"
+    },
+    {
+      "name": "Pink cockatoo",
+      "aliases": [
+        "Cacatua leadbeateri",
+        "Leadbeater's cockatoo",
+        "Major Mitchell's cockatoo"
+      ],
+      "popularity": 50805,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Pink cockatoo"
+    },
+    {
+      "name": "Green-cheeked parakeet",
+      "aliases": [
+        "green-cheeked conure",
+        "Pyrrhura molinae"
+      ],
+      "popularity": 52453,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Green-cheeked parakeet"
+    },
+    {
+      "name": "Red-tailed black cockatoo",
+      "aliases": [
+        "Banks' black cockatoo",
+        "Banksian black cockatoo",
+        "Calyptorhynchus banksii",
+        "forest red-tailed black cockatoo"
+      ],
+      "popularity": 59484,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Red-tailed black cockatoo"
+    },
+    {
+      "name": "Alexandrine parakeet",
+      "aliases": [
+        "Alexandrian parrot",
+        "Psittacula eupatria"
+      ],
+      "popularity": 59650,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Alexandrine parakeet"
+    },
+    {
+      "name": "Sun conure",
+      "aliases": [
+        "Aratinga solstitialis",
+        "Sun Parakeet"
+      ],
+      "popularity": 83760,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Sun conure"
+    },
+    {
+      "name": "Sulphur-crested cockatoo",
+      "aliases": [
+        "Cacatua galerita"
+      ],
+      "popularity": 94090,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Sulphur-crested cockatoo"
+    },
+    {
+      "name": "Galah",
+      "aliases": [
+        "Eolophus roseicapilla",
+        "Eolophus roseicapillus",
+        "pink and grey cockatoo",
+        "rose-breasted cockatoo"
+      ],
+      "popularity": 94668,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Galah"
+    },
+    {
+      "name": "Blue-and-yellow macaw",
+      "aliases": [
+        "Ara ararauna",
+        "blue yellow macaw",
+        "yellow-and-blue macaw",
+        "yellow blue macaw"
+      ],
+      "popularity": 98852,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Blue-and-yellow macaw"
+    },
+    {
+      "name": "Rainbow lorikeet",
+      "aliases": [
+        "Trichoglossus moluccanus"
+      ],
+      "popularity": 127326,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Rainbow lorikeet"
+    },
+    {
+      "name": "Scarlet macaw",
+      "aliases": [
+        "Ara macao"
+      ],
+      "popularity": 135959,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Scarlet macaw"
+    },
+    {
+      "name": "Monk parakeet",
+      "aliases": [
+        "Myiopsitta monachus",
+        "Mylopsitta monachus"
+      ],
+      "popularity": 142546,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Monk parakeet"
+    },
+    {
+      "name": "Hyacinth macaw",
+      "aliases": [
+        "Anodorhynchus hyacinthinus"
+      ],
+      "popularity": 145653,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "Hyacinth macaw"
+    },
+    {
+      "name": "Kea",
+      "aliases": [
+        "Nestor notabilis"
+      ],
+      "popularity": 152974,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Kea"
+    },
+    {
+      "name": "Grey parrot",
+      "aliases": [
+        "African gray parrot",
+        "African grey parrot",
+        "Psittacus erithacus"
+      ],
+      "popularity": 171811,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Grey parrot"
+    },
+    {
+      "name": "Rose-ringed parakeet",
+      "aliases": [
+        "Psittacula krameri",
+        "Ring-necked Parakeet"
+      ],
+      "popularity": 203895,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Rose-ringed parakeet"
+    },
+    {
+      "name": "Spix's macaw",
+      "aliases": [
+        "Cyanopsitta spixii",
+        "Guacamayo azul pequeño",
+        "guacamayo de Spix",
+        "guacamayo de Spixis"
+      ],
+      "popularity": 220355,
+      "rarity": 0.007,
+      "tier": 1,
+      "wiki": "Spix's macaw"
+    },
+    {
+      "name": "Cockatiel",
+      "aliases": [
+        "cockateel",
+        "cockatoo parrot",
+        "Nymphicus hollandicus"
+      ],
+      "popularity": 251196,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Cockatiel"
+    },
+    {
+      "name": "Budgerigar",
+      "aliases": [
+        "budgie",
+        "Melopsittacus undulatus"
+      ],
+      "popularity": 329999,
+      "rarity": 0.002,
+      "tier": 1,
+      "wiki": "Budgerigar"
+    },
+    {
+      "name": "Kākāpō",
+      "aliases": [
+        "owl parrot",
+        "Strigops habroptila",
+        "Strigops habroptilus"
+      ],
+      "popularity": 489199,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Kākāpō"
+    }
+  ]
+}

@@ -1,0 +1,3421 @@
+{
+  "id": "popes",
+  "slug": "popes",
+  "category": "history",
+  "question": "Name a pope",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Pope Marinus II",
+      "aliases": [
+        "Marinus II",
+        "Martin III",
+        "Pope Martin III"
+      ],
+      "popularity": 2846,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Pope Marinus II"
+    },
+    {
+      "name": "Pope Anastasius III",
+      "aliases": [
+        "Anastasius III"
+      ],
+      "popularity": 3031,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Pope Anastasius III"
+    },
+    {
+      "name": "Pope Stephen VII",
+      "aliases": [
+        "Stephanus de Gabrielli",
+        "Stephanus VIII",
+        "Stephen VII"
+      ],
+      "popularity": 3326,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Pope Stephen VII"
+    },
+    {
+      "name": "Pope Agapetus II",
+      "aliases": [
+        "Agapetus II"
+      ],
+      "popularity": 3939,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Pope Agapetus II"
+    },
+    {
+      "name": "Pope Benedict VII",
+      "aliases": [
+        "Benedict VII",
+        "Benedictus VII"
+      ],
+      "popularity": 3973,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Pope Benedict VII"
+    },
+    {
+      "name": "Pope Adeodatus II",
+      "aliases": [
+        "Adeodatus II"
+      ],
+      "popularity": 4236,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Pope Adeodatus II"
+    },
+    {
+      "name": "Pope Marinus I",
+      "aliases": [
+        "Marinus",
+        "Marinus I",
+        "Martin II",
+        "Pope Marinus",
+        "Pope Martin II"
+      ],
+      "popularity": 4262,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Pope Marinus I"
+    },
+    {
+      "name": "Pope John XVIII",
+      "aliases": [
+        "Fasanius of Rapagnano",
+        "Fasano",
+        "Giovanni Fasano",
+        "Ioannes XVIII",
+        "Iohannes PP. XVIII",
+        "Joannes Fasanus",
+        "Johannes XVIII. Papa",
+        "John XVIII",
+        "papa Giovanni XVIII"
+      ],
+      "popularity": 4614,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Pope John XVIII"
+    },
+    {
+      "name": "Pope Leo VII",
+      "aliases": [
+        "Leo VII"
+      ],
+      "popularity": 4971,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Pope Leo VII"
+    },
+    {
+      "name": "Pope Anastasius IV",
+      "aliases": [
+        "Anastasius IV",
+        "Corrado Demetri della Suburra"
+      ],
+      "popularity": 5007,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Pope Anastasius IV"
+    },
+    {
+      "name": "Pope Benedict VI",
+      "aliases": [
+        "Benedict VI",
+        "Benedictus",
+        "Benedictus VI"
+      ],
+      "popularity": 5070,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Pope Benedict VI"
+    },
+    {
+      "name": "Pope John XV",
+      "aliases": [
+        "Ioannes XV",
+        "John XV"
+      ],
+      "popularity": 5114,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Pope John XV"
+    },
+    {
+      "name": "Pope Celestine II",
+      "aliases": [
+        "Celestine II",
+        "Guido da Città del Castello",
+        "Guido De Castellis",
+        "Guido De Castello",
+        "Guido Del Castello",
+        "Guido di Città di Castello"
+      ],
+      "popularity": 5371,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Pope Celestine II"
+    },
+    {
+      "name": "Pope John XVII",
+      "aliases": [
+        "Ioannes XVII",
+        "John Sicco",
+        "John XVII"
+      ],
+      "popularity": 5472,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Pope John XVII"
+    },
+    {
+      "name": "Pope Sylvester III",
+      "aliases": [
+        "Giovanni dei Crescenzi–Ottaviani",
+        "Silvester III",
+        "Sylvester III"
+      ],
+      "popularity": 5530,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Pope Sylvester III"
+    },
+    {
+      "name": "Pope Lucius II",
+      "aliases": [
+        "Gherardo Caccianemici dal Orso",
+        "Lucius II"
+      ],
+      "popularity": 5590,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Pope Lucius II"
+    },
+    {
+      "name": "Pope Celestine IV",
+      "aliases": [
+        "Caelestinus IV",
+        "Celestine IV",
+        "Coelestinus IV. Papa",
+        "Goffredo Castiglione",
+        "Goffredo da Castiglione",
+        "Gofredo Castiglione"
+      ],
+      "popularity": 5719,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Pope Celestine IV"
+    },
+    {
+      "name": "Pope Gelasius II",
+      "aliases": [
+        "Gelasius II",
+        "Giovanni Caetani"
+      ],
+      "popularity": 6028,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Pope Gelasius II"
+    },
+    {
+      "name": "Pope Adrian III",
+      "aliases": [
+        "Adrian III"
+      ],
+      "popularity": 6173,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Pope Adrian III"
+    },
+    {
+      "name": "Pope Stephen VIII",
+      "aliases": [
+        "Stephanus IX"
+      ],
+      "popularity": 6246,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Pope Stephen VIII"
+    },
+    {
+      "name": "Pope Boniface V",
+      "aliases": [
+        "Boniface V"
+      ],
+      "popularity": 6884,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Pope Boniface V"
+    },
+    {
+      "name": "Pope Clement III",
+      "aliases": [
+        "Clemens III. Papa",
+        "Clemens PP. III",
+        "Clement III",
+        "papa Clemente III",
+        "pape Clément III",
+        "Paulino Scolari"
+      ],
+      "popularity": 7132,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Pope Clement III"
+    },
+    {
+      "name": "Pope Honorius IV",
+      "aliases": [
+        "Honorius IV",
+        "Honorius PP. IV",
+        "Jacobus Savelli",
+        "papa Onorio IV",
+        "pape Honorius IV",
+        "Pope Honorius V"
+      ],
+      "popularity": 7321,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Pope Honorius IV"
+    },
+    {
+      "name": "Pope Damasus II",
+      "aliases": [
+        "Boppo",
+        "Damasus II",
+        "Poppo"
+      ],
+      "popularity": 7385,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Pope Damasus II"
+    },
+    {
+      "name": "Pope Innocent IX",
+      "aliases": [
+        "Innocent IX",
+        "Innocentius PP. IX",
+        "Innozenz IX. Papst"
+      ],
+      "popularity": 7398,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Pope Innocent IX"
+    },
+    {
+      "name": "Pope Sergius IV",
+      "aliases": [
+        "Pietro Martino Buccaporci",
+        "Sergius IV"
+      ],
+      "popularity": 7561,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Pope Sergius IV"
+    },
+    {
+      "name": "Pope Martin IV",
+      "aliases": [
+        "Martin IV"
+      ],
+      "popularity": 7887,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Pope Martin IV"
+    },
+    {
+      "name": "Pope Lucius III",
+      "aliases": [
+        "Lucius III"
+      ],
+      "popularity": 8058,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Pope Lucius III"
+    },
+    {
+      "name": "Pope Innocent VII",
+      "aliases": [
+        "Innocent VII"
+      ],
+      "popularity": 8105,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Pope Innocent VII"
+    },
+    {
+      "name": "Pope Urban III",
+      "aliases": [
+        "Uberto Crivelli",
+        "Urban III"
+      ],
+      "popularity": 8114,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Pope Urban III"
+    },
+    {
+      "name": "Pope Gregory VIII",
+      "aliases": [
+        "Albert de Mora",
+        "Albertus de Morra",
+        "Gregorius VIII. Papa",
+        "Gregory VIII"
+      ],
+      "popularity": 8288,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Pope Gregory VIII"
+    },
+    {
+      "name": "Pope Gregory XIV",
+      "aliases": [
+        "Gregory XIV",
+        "Niccolo Sfondrati",
+        "Nicolaus Sfondrati",
+        "Nicolaus Sfondratus",
+        "pape Grégoire XIV",
+        "Papst Gregor XIV",
+        "Pope Gregorius XIV"
+      ],
+      "popularity": 8425,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Pope Gregory XIV"
+    },
+    {
+      "name": "Pope Eugene II",
+      "aliases": [
+        "Eugene II"
+      ],
+      "popularity": 8603,
+      "rarity": 0.879,
+      "tier": 5,
+      "wiki": "Pope Eugene II"
+    },
+    {
+      "name": "Pope Adrian V",
+      "aliases": [
+        "Adrian V",
+        "Ottobuono de' Fieschi"
+      ],
+      "popularity": 8634,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Pope Adrian V"
+    },
+    {
+      "name": "Pope John XIX",
+      "aliases": [
+        "Ioannes XIX"
+      ],
+      "popularity": 8848,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Pope John XIX"
+    },
+    {
+      "name": "Pope Boniface I",
+      "aliases": [
+        "Boniface",
+        "Boniface I",
+        "Bonifacius I"
+      ],
+      "popularity": 9267,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Pope Boniface I"
+    },
+    {
+      "name": "Pope Innocent V",
+      "aliases": [
+        "Blessed Innocent V",
+        "Innocent V",
+        "Peter of Tarentaise",
+        "Petrus de Tarantasia",
+        "Pope Innocentius V"
+      ],
+      "popularity": 9442,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Pope Innocent V"
+    },
+    {
+      "name": "Pope Siricius",
+      "aliases": [
+        "Cyriacus",
+        "Pope Cyriacus",
+        "Siricius"
+      ],
+      "popularity": 9941,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Pope Siricius"
+    },
+    {
+      "name": "Pope Eugene I",
+      "aliases": [
+        "Eugene",
+        "Eugene I",
+        "Pope Eugene",
+        "St. Eugene"
+      ],
+      "popularity": 9982,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Pope Eugene I"
+    },
+    {
+      "name": "Pope Innocent VI",
+      "aliases": [
+        "Etienne Aubert",
+        "Innocens VI",
+        "Innocent VI",
+        "Innocentius PP. VI",
+        "papa Innocenzo VI",
+        "pape Innocent VI",
+        "Stephen Aubert"
+      ],
+      "popularity": 10135,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Pope Innocent VI"
+    },
+    {
+      "name": "Pope Clement II",
+      "aliases": [
+        "Bischof zu Bamberg Suidger",
+        "Clemens II",
+        "Clement II",
+        "Suidger",
+        "Suidger von Mayendorff",
+        "Suidger von Morsleben"
+      ],
+      "popularity": 10845,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Pope Clement II"
+    },
+    {
+      "name": "Pope Urban IV",
+      "aliases": [
+        "Jacques Pantaleon",
+        "Urban IV"
+      ],
+      "popularity": 11491,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Pope Urban IV"
+    },
+    {
+      "name": "Pope Adeodatus I",
+      "aliases": [
+        "Adeodatus",
+        "Adeodatus I",
+        "Deodatus",
+        "Deodatus I",
+        "Deusdedit I",
+        "Pope Adeodatus",
+        "Pope Deodatus",
+        "Pope Deodatus I",
+        "Pope Deusdedit",
+        "Pope Deusdedit I"
+      ],
+      "popularity": 11814,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Pope Adeodatus I"
+    },
+    {
+      "name": "Pope Clement IV",
+      "aliases": [
+        "Clement IV",
+        "Gui Foucois",
+        "Guy de Foulques",
+        "Guy Folqueis",
+        "Guy Foulques",
+        "Guy le Gros",
+        "Guy le Gros de Foulques",
+        "Guy the Fat",
+        "Pope Clemens",
+        "Pope Clement"
+      ],
+      "popularity": 12050,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Pope Clement IV"
+    },
+    {
+      "name": "Pope Severinus",
+      "aliases": [
+        "Severinus"
+      ],
+      "popularity": 12413,
+      "rarity": 0.834,
+      "tier": 5,
+      "wiki": "Pope Severinus"
+    },
+    {
+      "name": "Pope Donus",
+      "aliases": [
+        "Donus",
+        "Papa Donus",
+        "Pope Domnus"
+      ],
+      "popularity": 12537,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Pope Donus"
+    },
+    {
+      "name": "Pope Clement X",
+      "aliases": [
+        "Clemens PP. X",
+        "Clemens X",
+        "Clement X",
+        "Klemens X. Papst"
+      ],
+      "popularity": 12712,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Pope Clement X"
+    },
+    {
+      "name": "Pope Gregory VI",
+      "aliases": [
+        "Giovanni Graziano",
+        "Gregorius VI",
+        "Gregory VI",
+        "Johannes Gratianus",
+        "John de Gratiano",
+        "John Gratian"
+      ],
+      "popularity": 12797,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Pope Gregory VI"
+    },
+    {
+      "name": "Pope John X",
+      "aliases": [
+        "Giovanni da Tossignano",
+        "Ioannes X",
+        "John X"
+      ],
+      "popularity": 13058,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "Pope John X"
+    },
+    {
+      "name": "Pope Paschal I",
+      "aliases": [
+        "Pascale Massimi",
+        "Paschal",
+        "Paschal I",
+        "Pope Paschal",
+        "St Paschal I"
+      ],
+      "popularity": 13140,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Pope Paschal I"
+    },
+    {
+      "name": "Pope-elect Stephen",
+      "aliases": [
+        "Stephanus II"
+      ],
+      "popularity": 13407,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Pope-elect Stephen"
+    },
+    {
+      "name": "Pope John V",
+      "aliases": [
+        "Ioannes V",
+        "John V"
+      ],
+      "popularity": 13539,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Pope John V"
+    },
+    {
+      "name": "Pope Honorius II",
+      "aliases": [
+        "Honorius II",
+        "Lamberto Scannabecch"
+      ],
+      "popularity": 13639,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Pope Honorius II"
+    },
+    {
+      "name": "Pope Stephen IV",
+      "aliases": [
+        "Stephanus V",
+        "Stephen IV"
+      ],
+      "popularity": 13653,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Pope Stephen IV"
+    },
+    {
+      "name": "Pope Benedict II",
+      "aliases": [
+        "Benedict II",
+        "Benedictus Sabellus"
+      ],
+      "popularity": 13826,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Pope Benedict II"
+    },
+    {
+      "name": "Pope Callixtus II",
+      "aliases": [
+        "Callixtus II",
+        "Guy de Bourgogne",
+        "Guy de Burgundy",
+        "Guy de Vienne"
+      ],
+      "popularity": 13837,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Pope Callixtus II"
+    },
+    {
+      "name": "Pope Alexander VIII",
+      "aliases": [
+        "Alessandro VIII",
+        "Alexander VIII",
+        "Alexander VIII. Papst",
+        "pape Alexandre VIII",
+        "Petrus Otthobonus",
+        "Pietro Ottoboni"
+      ],
+      "popularity": 13926,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Pope Alexander VIII"
+    },
+    {
+      "name": "Pope Benedict IV",
+      "aliases": [
+        "Benedict IV"
+      ],
+      "popularity": 13941,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Pope Benedict IV"
+    },
+    {
+      "name": "Pope Celestine III",
+      "aliases": [
+        "Celestine III",
+        "Giacinto Bobo-Orsini"
+      ],
+      "popularity": 13967,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Pope Celestine III"
+    },
+    {
+      "name": "Pope Sergius II",
+      "aliases": [
+        "Sergius II"
+      ],
+      "popularity": 14037,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Pope Sergius II"
+    },
+    {
+      "name": "Pope Sabinian",
+      "aliases": [
+        "Sabinian"
+      ],
+      "popularity": 14120,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Pope Sabinian"
+    },
+    {
+      "name": "Pope Leo VI",
+      "aliases": [
+        "Leo Sanguini",
+        "Leo VI",
+        "Papa Leo VI"
+      ],
+      "popularity": 14315,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "Pope Leo VI"
+    },
+    {
+      "name": "Pope John III",
+      "aliases": [
+        "Catelinus",
+        "Ioannes III",
+        "Iohannes PP. III",
+        "Johannes III. Papa",
+        "John III"
+      ],
+      "popularity": 14333,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Pope John III"
+    },
+    {
+      "name": "Pope Benedict III",
+      "aliases": [
+        "Benedict III"
+      ],
+      "popularity": 14343,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Pope Benedict III"
+    },
+    {
+      "name": "Pope Boniface III",
+      "aliases": [
+        "Boniface III"
+      ],
+      "popularity": 14399,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Pope Boniface III"
+    },
+    {
+      "name": "Pope Conon",
+      "aliases": [
+        "Conon"
+      ],
+      "popularity": 14700,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Pope Conon"
+    },
+    {
+      "name": "Pope Gregory IV",
+      "aliases": [
+        "Gregorius",
+        "Gregory IV"
+      ],
+      "popularity": 14760,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Pope Gregory IV"
+    },
+    {
+      "name": "Pope Adrian II",
+      "aliases": [
+        "Adrian II"
+      ],
+      "popularity": 14788,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Pope Adrian II"
+    },
+    {
+      "name": "Pope John VII",
+      "aliases": [
+        "Ioannes VII",
+        "John VII"
+      ],
+      "popularity": 14874,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Pope John VII"
+    },
+    {
+      "name": "Pope Benedict VIII",
+      "aliases": [
+        "Benedict VIII",
+        "Benedictus VIII",
+        "Theophylactus"
+      ],
+      "popularity": 14941,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Pope Benedict VIII"
+    },
+    {
+      "name": "Pope John IX",
+      "aliases": [
+        "Ioannes IX",
+        "Iohannes PP. XIV",
+        "John IX",
+        "papa Joan XIV"
+      ],
+      "popularity": 15040,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Pope John IX"
+    },
+    {
+      "name": "Pope Stephen V",
+      "aliases": [
+        "Stephanus VI",
+        "Stephen V"
+      ],
+      "popularity": 15071,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Pope Stephen V"
+    },
+    {
+      "name": "Pope Benedict XI",
+      "aliases": [
+        "Benedict XI",
+        "Blessed Benedict XI",
+        "Nicola Boccasini"
+      ],
+      "popularity": 15129,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Pope Benedict XI"
+    },
+    {
+      "name": "Pope Benedict I",
+      "aliases": [
+        "Benedict",
+        "Benedict I",
+        "Pope Benedict"
+      ],
+      "popularity": 15142,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Pope Benedict I"
+    },
+    {
+      "name": "Pope Marcellus I",
+      "aliases": [
+        "Marcellus",
+        "Marcellus I",
+        "Pope Marcel I"
+      ],
+      "popularity": 15147,
+      "rarity": 0.721,
+      "tier": 4,
+      "wiki": "Pope Marcellus I"
+    },
+    {
+      "name": "Pope John VI",
+      "aliases": [
+        "Ioannes VI",
+        "John VI"
+      ],
+      "popularity": 15400,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Pope John VI"
+    },
+    {
+      "name": "Pope John XIV",
+      "aliases": [
+        "Ioannes XIV",
+        "John XIV"
+      ],
+      "popularity": 15501,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Pope John XIV"
+    },
+    {
+      "name": "Pope Eugene III",
+      "aliases": [
+        "Bernard de Pise",
+        "Bernard Paginelli",
+        "Bernardo da Pisa",
+        "Bernardo dei Paganelli",
+        "Bernardo di Montemagno",
+        "Bernardo Paganelli",
+        "Bernardo Paganelli di Montemagno",
+        "Bernardus Paginelli",
+        "Bernhard aus Pisa",
+        "Blessed Eugene III Pope",
+        "Eigenius III",
+        "Eugen III",
+        "Eugene III",
+        "Eugenio III",
+        "Eugenius III",
+        "Eugenius PP. III",
+        "Pope Blessed Eugene III",
+        "Pope Eugenius III"
+      ],
+      "popularity": 15581,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Pope Eugene III"
+    },
+    {
+      "name": "Pope Boniface IX",
+      "aliases": [
+        "Boniface IX"
+      ],
+      "popularity": 15593,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Pope Boniface IX"
+    },
+    {
+      "name": "Pope Valentine",
+      "aliases": [
+        "Valentine"
+      ],
+      "popularity": 15727,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Pope Valentine"
+    },
+    {
+      "name": "Pope Boniface II",
+      "aliases": [
+        "Boniface II"
+      ],
+      "popularity": 15831,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Pope Boniface II"
+    },
+    {
+      "name": "Pope Pelagius I",
+      "aliases": [
+        "Pelagius",
+        "Pelagius I",
+        "Pope Pelagius"
+      ],
+      "popularity": 16008,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Pope Pelagius I"
+    },
+    {
+      "name": "Pope Benedict XII",
+      "aliases": [
+        "Benedict XII",
+        "Benedictus PP XII",
+        "Benedictus XII",
+        "Giacomo Fournier",
+        "papa Benedetto XII",
+        "pape Benoît XII"
+      ],
+      "popularity": 16150,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Pope Benedict XII"
+    },
+    {
+      "name": "Pope Pelagius II",
+      "aliases": [
+        "Pelagius II"
+      ],
+      "popularity": 16284,
+      "rarity": 0.687,
+      "tier": 4,
+      "wiki": "Pope Pelagius II"
+    },
+    {
+      "name": "Pope Sixtus III",
+      "aliases": [
+        "Sixtus III",
+        "Xystus III"
+      ],
+      "popularity": 16444,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Pope Sixtus III"
+    },
+    {
+      "name": "Pope Romanus",
+      "aliases": [],
+      "popularity": 16539,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Pope Romanus"
+    },
+    {
+      "name": "Pope Sisinnius",
+      "aliases": [
+        "Sisinnius"
+      ],
+      "popularity": 16605,
+      "rarity": 0.675,
+      "tier": 4,
+      "wiki": "Pope Sisinnius"
+    },
+    {
+      "name": "Pope John IV",
+      "aliases": [
+        "Ioannes IV",
+        "Iohannes PP. IV",
+        "John IV",
+        "Pope Giovanni IV"
+      ],
+      "popularity": 16687,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "Pope John IV"
+    },
+    {
+      "name": "Pope Gregory XV",
+      "aliases": [
+        "Alessandro Ludovisio",
+        "Gregory XV"
+      ],
+      "popularity": 16723,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "Pope Gregory XV"
+    },
+    {
+      "name": "Pope Theodore I",
+      "aliases": [
+        "Pope Theodore",
+        "Theodore",
+        "Theodore I"
+      ],
+      "popularity": 16741,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Pope Theodore I"
+    },
+    {
+      "name": "Pope Vitalian",
+      "aliases": [
+        "Vitalian"
+      ],
+      "popularity": 16829,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Pope Vitalian"
+    },
+    {
+      "name": "Pope Felix III",
+      "aliases": [
+        "Felix III",
+        "Pope St. Felix III",
+        "Saint Felix III"
+      ],
+      "popularity": 17201,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Pope Felix III"
+    },
+    {
+      "name": "Pope Marcellus II",
+      "aliases": [
+        "Marcellus II",
+        "Marcellus II. Papst",
+        "Marcellus PP. II",
+        "papa Marcello II",
+        "pape Marcel II"
+      ],
+      "popularity": 17390,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Pope Marcellus II"
+    },
+    {
+      "name": "Pope Clement XIII",
+      "aliases": [
+        "Carlo Rezzonico",
+        "Clemens PP. XIII",
+        "Clemens XIII",
+        "Clement XIII",
+        "papa Clemente XIII",
+        "pape Clément XIII",
+        "Pope Clemens XIII"
+      ],
+      "popularity": 17405,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Pope Clement XIII"
+    },
+    {
+      "name": "Pope John XXI",
+      "aliases": [
+        "Ioannes XXI",
+        "John XXI",
+        "Peter Juliani"
+      ],
+      "popularity": 17408,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Pope John XXI"
+    },
+    {
+      "name": "Pope Theodore II",
+      "aliases": [
+        "Theodore II"
+      ],
+      "popularity": 17435,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Pope Theodore II"
+    },
+    {
+      "name": "Pope Innocent XII",
+      "aliases": [
+        "Innocent XII",
+        "Innocentius PP. XII",
+        "Innozenz XII. Papst",
+        "papa Innocenzo XII",
+        "pape Innocent XII"
+      ],
+      "popularity": 17551,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Pope Innocent XII"
+    },
+    {
+      "name": "Pope Clement XII",
+      "aliases": [
+        "Clemens PP. XII",
+        "Clement XII",
+        "Klemens XII. Papst",
+        "papa Clemente XII",
+        "pape Clément XII",
+        "Pope Clemente XII"
+      ],
+      "popularity": 17793,
+      "rarity": 0.634,
+      "tier": 4,
+      "wiki": "Pope Clement XII"
+    },
+    {
+      "name": "Pope Pius VIII",
+      "aliases": [
+        "Pius VIII"
+      ],
+      "popularity": 17919,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Pope Pius VIII"
+    },
+    {
+      "name": "Pope Boniface IV",
+      "aliases": [
+        "Boniface IV"
+      ],
+      "popularity": 18001,
+      "rarity": 0.626,
+      "tier": 4,
+      "wiki": "Pope Boniface IV"
+    },
+    {
+      "name": "Pope Eutychian",
+      "aliases": [
+        "Eutychian",
+        "Eutychianos",
+        "Eutychianus",
+        "Eutychien",
+        "Pope Eutychianus",
+        "Saint Eutychian"
+      ],
+      "popularity": 18033,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Pope Eutychian"
+    },
+    {
+      "name": "Pope Felix IV",
+      "aliases": [
+        "Felix IV",
+        "Saint Felix IV"
+      ],
+      "popularity": 18158,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Pope Felix IV"
+    },
+    {
+      "name": "Pope Urban VII",
+      "aliases": [
+        "Papa Urbanus VII",
+        "Urban VII"
+      ],
+      "popularity": 18162,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Pope Urban VII"
+    },
+    {
+      "name": "Pope Celestine I",
+      "aliases": [
+        "Caelestinus I",
+        "Celestine I",
+        "Saint Celestine"
+      ],
+      "popularity": 18506,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Pope Celestine I"
+    },
+    {
+      "name": "Pope Leo V",
+      "aliases": [
+        "Leo V"
+      ],
+      "popularity": 18615,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Pope Leo V"
+    },
+    {
+      "name": "Pope Agapetus I",
+      "aliases": [
+        "Agapetus",
+        "Agapetus I",
+        "Pope Agapetus",
+        "Pope Saint Agapetus I"
+      ],
+      "popularity": 18790,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Pope Agapetus I"
+    },
+    {
+      "name": "Pope Stephen III",
+      "aliases": [
+        "Pope Stephanus III",
+        "Stephanus III",
+        "Stephanus IV",
+        "Stephen III"
+      ],
+      "popularity": 19065,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Pope Stephen III"
+    },
+    {
+      "name": "Pope Innocent II",
+      "aliases": [
+        "Innocent II"
+      ],
+      "popularity": 19091,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Pope Innocent II"
+    },
+    {
+      "name": "Pope Simplicius",
+      "aliases": [
+        "Simplicius"
+      ],
+      "popularity": 19374,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Pope Simplicius"
+    },
+    {
+      "name": "Pope Leo II",
+      "aliases": [
+        "Leo II",
+        "Leo Maneius",
+        "Pope Saint Leo II",
+        "St. Leo II"
+      ],
+      "popularity": 19449,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Pope Leo II"
+    },
+    {
+      "name": "Pope John XI",
+      "aliases": [
+        "Ioannes XI",
+        "John XI"
+      ],
+      "popularity": 19608,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Pope John XI"
+    },
+    {
+      "name": "Pope Victor III",
+      "aliases": [
+        "Daufer",
+        "Desiderius",
+        "Papa Victor III",
+        "Pope Blessed Victor III",
+        "Victor III"
+      ],
+      "popularity": 19919,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Pope Victor III"
+    },
+    {
+      "name": "Pope Urban V",
+      "aliases": [
+        "Blessed Pope Urban V",
+        "Blessed Urban V",
+        "Urban V",
+        "William de Grimoard"
+      ],
+      "popularity": 20121,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Pope Urban V"
+    },
+    {
+      "name": "Pope Anastasius I",
+      "aliases": [
+        "Anastasius",
+        "Anastasius I"
+      ],
+      "popularity": 20171,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Pope Anastasius I"
+    },
+    {
+      "name": "Pope Felix I",
+      "aliases": [
+        "Felix",
+        "Felix I",
+        "St. Felix I"
+      ],
+      "popularity": 20175,
+      "rarity": 0.57,
+      "tier": 3,
+      "wiki": "Pope Felix I"
+    },
+    {
+      "name": "Pope Sergius I",
+      "aliases": [
+        "Pope Sergius",
+        "Sergius",
+        "Sergius I"
+      ],
+      "popularity": 20256,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "Pope Sergius I"
+    },
+    {
+      "name": "Pope Innocent XIII",
+      "aliases": [
+        "Innocent XIII",
+        "Innocentius PP. XIII",
+        "Innozenz XIII. Papst",
+        "Michelangelo Conti di Poli",
+        "Michelangiolo dei Conti",
+        "papa Innocenzo XIII",
+        "pape Innocent XIII",
+        "Pope Innocentius XIII"
+      ],
+      "popularity": 20671,
+      "rarity": 0.562,
+      "tier": 3,
+      "wiki": "Pope Innocent XIII"
+    },
+    {
+      "name": "Pope Adrian I",
+      "aliases": [
+        "Adrian",
+        "Adrian I",
+        "Hadrianus I",
+        "Pope Adrian"
+      ],
+      "popularity": 21017,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Pope Adrian I"
+    },
+    {
+      "name": "Pope Eusebius",
+      "aliases": [
+        "Eusebius",
+        "Saint Eusebius"
+      ],
+      "popularity": 21280,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Pope Eusebius"
+    },
+    {
+      "name": "Pope Victor II",
+      "aliases": [
+        "Victor II"
+      ],
+      "popularity": 21350,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Pope Victor II"
+    },
+    {
+      "name": "Pope Paul I",
+      "aliases": [
+        "Paul",
+        "Paul I",
+        "Paulus I",
+        "Pope Paul"
+      ],
+      "popularity": 21436,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Pope Paul I"
+    },
+    {
+      "name": "Pope Symmachus",
+      "aliases": [
+        "Symmachus"
+      ],
+      "popularity": 21941,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Pope Symmachus"
+    },
+    {
+      "name": "Pope Boniface VI",
+      "aliases": [
+        "Boniface VI"
+      ],
+      "popularity": 21957,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Pope Boniface VI"
+    },
+    {
+      "name": "Pope Pius III",
+      "aliases": [
+        "Pius III"
+      ],
+      "popularity": 21993,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Pope Pius III"
+    },
+    {
+      "name": "Pope John XIII",
+      "aliases": [
+        "Giovanni Crescentius",
+        "Ioannes XIII",
+        "John XIII"
+      ],
+      "popularity": 22033,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Pope John XIII"
+    },
+    {
+      "name": "Pope Anastasius II",
+      "aliases": [
+        "Anastasius II"
+      ],
+      "popularity": 22239,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Pope Anastasius II"
+    },
+    {
+      "name": "Pope Lucius I",
+      "aliases": [
+        "Lucius",
+        "Lucius I"
+      ],
+      "popularity": 22692,
+      "rarity": 0.525,
+      "tier": 3,
+      "wiki": "Pope Lucius I"
+    },
+    {
+      "name": "Pope Gregory V",
+      "aliases": [
+        "Bruno of Carinthia",
+        "Gregory V"
+      ],
+      "popularity": 23426,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Pope Gregory V"
+    },
+    {
+      "name": "Pope Mark",
+      "aliases": [
+        "Marcus",
+        "Mark",
+        "Papa Marcus",
+        "Pope Marcus"
+      ],
+      "popularity": 23460,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Pope Mark"
+    },
+    {
+      "name": "Pope Zosimus",
+      "aliases": [
+        "Zosimus"
+      ],
+      "popularity": 23764,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Pope Zosimus"
+    },
+    {
+      "name": "Pope Nicholas II",
+      "aliases": [
+        "Gérard de Bourgogne",
+        "Nicholas II"
+      ],
+      "popularity": 23901,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Pope Nicholas II"
+    },
+    {
+      "name": "Pope Stephen IX",
+      "aliases": [
+        "Frederick of Lorraine",
+        "Pope Stephen X",
+        "Stephanus X",
+        "Stephen IX"
+      ],
+      "popularity": 24311,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Pope Stephen IX"
+    },
+    {
+      "name": "Pope Lando",
+      "aliases": [
+        "Lando"
+      ],
+      "popularity": 24657,
+      "rarity": 0.502,
+      "tier": 3,
+      "wiki": "Pope Lando"
+    },
+    {
+      "name": "Pope Vigilius",
+      "aliases": [
+        "Pope Vigilius I",
+        "Vigilius",
+        "Vigilius I"
+      ],
+      "popularity": 24701,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Pope Vigilius"
+    },
+    {
+      "name": "Pope Clement XIV",
+      "aliases": [
+        "Clemens PP. XIV",
+        "Clemens XIV",
+        "Clement XIV",
+        "Fra Lorenzo",
+        "Klemens XIV. Papst",
+        "Lorenzo Giovanni Vincenzo Antonio Ganganelli",
+        "papa Clemente XIV"
+      ],
+      "popularity": 24731,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Pope Clement XIV"
+    },
+    {
+      "name": "Pope Alexander VII",
+      "aliases": [
+        "Alexander VII",
+        "Alexander VII. Papst",
+        "papa Alessandro VII",
+        "pape Alexandre VII",
+        "Philomathus"
+      ],
+      "popularity": 24809,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Pope Alexander VII"
+    },
+    {
+      "name": "Pope Honorius III",
+      "aliases": [
+        "Honorius III",
+        "pape Honorius III"
+      ],
+      "popularity": 25109,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Pope Honorius III"
+    },
+    {
+      "name": "Pope Gregory X",
+      "aliases": [
+        "Gregory X",
+        "Pope Blessed Gregory X"
+      ],
+      "popularity": 25311,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Pope Gregory X"
+    },
+    {
+      "name": "Pope Caius",
+      "aliases": [
+        "C. C.f.",
+        "Caius",
+        "Caius I"
+      ],
+      "popularity": 25329,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Pope Caius"
+    },
+    {
+      "name": "Pope Anterus",
+      "aliases": [
+        "Anterus"
+      ],
+      "popularity": 25364,
+      "rarity": 0.475,
+      "tier": 3,
+      "wiki": "Pope Anterus"
+    },
+    {
+      "name": "Pope Hormisdas",
+      "aliases": [
+        "Hormisdas",
+        "Saint Pope Hormisdas"
+      ],
+      "popularity": 25445,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Pope Hormisdas"
+    },
+    {
+      "name": "Pope Dionysius",
+      "aliases": [
+        "Dionysius"
+      ],
+      "popularity": 25679,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Pope Dionysius"
+    },
+    {
+      "name": "Pope Benedict V",
+      "aliases": [
+        "Benedetto",
+        "Benedict V",
+        "Benedictus V"
+      ],
+      "popularity": 25803,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Pope Benedict V"
+    },
+    {
+      "name": "Pope Alexander IV",
+      "aliases": [
+        "Alexander IV",
+        "Rinaldo di Jenne"
+      ],
+      "popularity": 25872,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Pope Alexander IV"
+    },
+    {
+      "name": "Pope Marcellinus",
+      "aliases": [
+        "Marcellinus",
+        "Papa MARCELLINUS",
+        "Pope Saint Marcellinus",
+        "Pope St. Marselinus"
+      ],
+      "popularity": 25950,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Pope Marcellinus"
+    },
+    {
+      "name": "Pope Innocent XI",
+      "aliases": [
+        "Innocent XI"
+      ],
+      "popularity": 25986,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Pope Innocent XI"
+    },
+    {
+      "name": "Pope Silverius",
+      "aliases": [
+        "Silverius"
+      ],
+      "popularity": 26007,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Pope Silverius"
+    },
+    {
+      "name": "Pope Gregory II",
+      "aliases": [
+        "Gregorius II. Papa",
+        "Gregorius Sabellus",
+        "Gregory II",
+        "Pope St. Gregory II",
+        "Saint Gregory II"
+      ],
+      "popularity": 26131,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Pope Gregory II"
+    },
+    {
+      "name": "Pope Nicholas IV",
+      "aliases": [
+        "Girolamo d' Ascoli",
+        "Girolamo' Masci",
+        "Jerome of Ascoli",
+        "Nicholas IV",
+        "Nicolas IV pape",
+        "Nicolaus PP. IV",
+        "Nikolaus IV. Papst",
+        "papa Niccolò IV",
+        "Pope Niccolò IV",
+        "Pope Nicolaus IV"
+      ],
+      "popularity": 26223,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Pope Nicholas IV"
+    },
+    {
+      "name": "Pope John II",
+      "aliases": [
+        "Ioannes II",
+        "Iohannes PP. II",
+        "Johannes II. Papa",
+        "John II",
+        "Mercurius"
+      ],
+      "popularity": 26237,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Pope John II"
+    },
+    {
+      "name": "Pope Paschal II",
+      "aliases": [
+        "Paschal II",
+        "Ranierius",
+        "Ranierius Raineri of Bleda"
+      ],
+      "popularity": 26352,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Pope Paschal II"
+    },
+    {
+      "name": "Pope Gregory XI",
+      "aliases": [
+        "Gregorius PP. XI",
+        "Gregorius XI. Papa",
+        "Gregory XI",
+        "papa Gregorio XI",
+        "Papa Gregorius XI",
+        "pape Grégoire XI",
+        "Pope Grégoire XI",
+        "Pope Gregorius",
+        "Pope Gregorius XI"
+      ],
+      "popularity": 26518,
+      "rarity": 0.43,
+      "tier": 3,
+      "wiki": "Pope Gregory XI"
+    },
+    {
+      "name": "Pope Stephen I",
+      "aliases": [
+        "Stephanus I",
+        "Stephen",
+        "Stephen I"
+      ],
+      "popularity": 27237,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Pope Stephen I"
+    },
+    {
+      "name": "Pope Innocent I",
+      "aliases": [
+        "Innocent",
+        "Innocent I",
+        "Innocentius I",
+        "Saint Innocent I"
+      ],
+      "popularity": 27347,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Pope Innocent I"
+    },
+    {
+      "name": "Pope Pius IV",
+      "aliases": [
+        "Gian Angelo de' Medici",
+        "Giovanni Angelo de' Medici",
+        "Pius IV"
+      ],
+      "popularity": 27490,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Pope Pius IV"
+    },
+    {
+      "name": "Pope Constantine",
+      "aliases": [
+        "Constantine"
+      ],
+      "popularity": 28113,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Pope Constantine"
+    },
+    {
+      "name": "Pope Gregory XII",
+      "aliases": [
+        "Angelo Corraro",
+        "Gregory XII"
+      ],
+      "popularity": 28223,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Pope Gregory XII"
+    },
+    {
+      "name": "Pope Hilarius",
+      "aliases": [
+        "Hilarius",
+        "Hilarus",
+        "Hilarus Papst",
+        "Pope Hilary",
+        "Pope Saint Hilarus",
+        "Saint Hilary"
+      ],
+      "popularity": 28579,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Pope Hilarius"
+    },
+    {
+      "name": "Pope Leo XI",
+      "aliases": [
+        "Leo PP. XI",
+        "Leo XI",
+        "Leo XI. Papst",
+        "Léon XI pape",
+        "papa Leone XI"
+      ],
+      "popularity": 29075,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Pope Leo XI"
+    },
+    {
+      "name": "Pope Sergius III",
+      "aliases": [
+        "Sergius III"
+      ],
+      "popularity": 29208,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Pope Sergius III"
+    },
+    {
+      "name": "Pope Julius III",
+      "aliases": [
+        "Julius III"
+      ],
+      "popularity": 29486,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Pope Julius III"
+    },
+    {
+      "name": "Pope Soter",
+      "aliases": [
+        "Soter",
+        "Soterius"
+      ],
+      "popularity": 29492,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Pope Soter"
+    },
+    {
+      "name": "Pope Clement XI",
+      "aliases": [
+        "Clemens PP. XI",
+        "Clemens XI",
+        "Clement XI",
+        "Giovanni Albani",
+        "Klemens XI. Papst",
+        "papa Clemente XI",
+        "pape Clément XI"
+      ],
+      "popularity": 29696,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Pope Clement XI"
+    },
+    {
+      "name": "Pope Nicholas III",
+      "aliases": [
+        "Nicholas III",
+        "Nicolaus III"
+      ],
+      "popularity": 30002,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Pope Nicholas III"
+    },
+    {
+      "name": "Pope Eleutherius",
+      "aliases": [
+        "Eleuterio",
+        "Eleuterus",
+        "Eleuther",
+        "Eleutherus",
+        "Papst Eleutherus",
+        "Pope Eleuterus",
+        "Pope St. Eleutherius",
+        "Pope St. Eleutheros",
+        "Pseudo-Eleutherius",
+        "Saint Eleutherius"
+      ],
+      "popularity": 30436,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Pope Eleutherius"
+    },
+    {
+      "name": "Pope Eugene IV",
+      "aliases": [
+        "Eugene IV",
+        "Eugenius IV",
+        "Gabriele Condulmaro",
+        "pape Eugène IV"
+      ],
+      "popularity": 31012,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Pope Eugene IV"
+    },
+    {
+      "name": "Pope Innocent IV",
+      "aliases": [
+        "Innocent IV",
+        "Sinibaldo de' Fieschi"
+      ],
+      "popularity": 31607,
+      "rarity": 0.374,
+      "tier": 2,
+      "wiki": "Pope Innocent IV"
+    },
+    {
+      "name": "Pope Agatho",
+      "aliases": [
+        "Agatho",
+        "St. Agathon"
+      ],
+      "popularity": 32354,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Pope Agatho"
+    },
+    {
+      "name": "Pope Leo XII",
+      "aliases": [
+        "Leo PP. XII",
+        "Leo XII"
+      ],
+      "popularity": 32446,
+      "rarity": 0.366,
+      "tier": 2,
+      "wiki": "Pope Leo XII"
+    },
+    {
+      "name": "Pope Honorius I",
+      "aliases": [
+        "Honorius",
+        "Honorius I",
+        "Pope Honorius"
+      ],
+      "popularity": 32591,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Pope Honorius I"
+    },
+    {
+      "name": "Pope John I",
+      "aliases": [
+        "Ioannes I",
+        "John I",
+        "Pope John"
+      ],
+      "popularity": 32624,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Pope John I"
+    },
+    {
+      "name": "Pope Hyginus",
+      "aliases": [
+        "Hyginus",
+        "Hyginus Papa"
+      ],
+      "popularity": 33012,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Pope Hyginus"
+    },
+    {
+      "name": "Pope John VIII",
+      "aliases": [
+        "Ioannes VIII",
+        "John VIII"
+      ],
+      "popularity": 33092,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Pope John VIII"
+    },
+    {
+      "name": "Pope Clement VIII",
+      "aliases": [
+        "Clemens PP. VIII",
+        "Clemens VIII",
+        "Clement VIII",
+        "Klemens VIII. Papst",
+        "papa Clemens VIII",
+        "pape Clément VIII",
+        "Pope Clemens VIII"
+      ],
+      "popularity": 33665,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Pope Clement VIII"
+    },
+    {
+      "name": "Pope Urban I",
+      "aliases": [
+        "Urban",
+        "Urban I",
+        "Urbanus I"
+      ],
+      "popularity": 33710,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Pope Urban I"
+    },
+    {
+      "name": "Pope Zachary",
+      "aliases": [
+        "Pope Zacharias",
+        "Zacharias",
+        "Zachary"
+      ],
+      "popularity": 34611,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Pope Zachary"
+    },
+    {
+      "name": "Pope Alexander II",
+      "aliases": [
+        "Alexander II"
+      ],
+      "popularity": 34899,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Pope Alexander II"
+    },
+    {
+      "name": "Pope Cornelius",
+      "aliases": [
+        "Cornelius"
+      ],
+      "popularity": 35782,
+      "rarity": 0.332,
+      "tier": 2,
+      "wiki": "Pope Cornelius"
+    },
+    {
+      "name": "Pope Urban VI",
+      "aliases": [
+        "Urban VI"
+      ],
+      "popularity": 35847,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Pope Urban VI"
+    },
+    {
+      "name": "Pope Paul IV",
+      "aliases": [
+        "Paul IV",
+        "Paulus IV"
+      ],
+      "popularity": 35881,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Pope Paul IV"
+    },
+    {
+      "name": "Pope Leo IV",
+      "aliases": [
+        "Leo IV",
+        "Pope Saint Leo IV"
+      ],
+      "popularity": 36128,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Pope Leo IV"
+    },
+    {
+      "name": "Pope Anicetus",
+      "aliases": [
+        "Anicetus"
+      ],
+      "popularity": 36225,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Pope Anicetus"
+    },
+    {
+      "name": "Pope Zephyrinus",
+      "aliases": [
+        "Zephyrinus"
+      ],
+      "popularity": 36625,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Pope Zephyrinus"
+    },
+    {
+      "name": "Pope Benedict XIV",
+      "aliases": [
+        "Benedict XIV",
+        "Benedictus PP. XIV",
+        "Benedictus XIV",
+        "Benedikt XIV. Papst"
+      ],
+      "popularity": 37508,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Pope Benedict XIV"
+    },
+    {
+      "name": "Pope Callixtus I",
+      "aliases": [
+        "Callistus I",
+        "Callixtus",
+        "Callixtus I"
+      ],
+      "popularity": 39353,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Pope Callixtus I"
+    },
+    {
+      "name": "Pope Telesphorus",
+      "aliases": [
+        "Telesphorus"
+      ],
+      "popularity": 39585,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Pope Telesphorus"
+    },
+    {
+      "name": "Pope Miltiades",
+      "aliases": [
+        "Melchiades",
+        "Melchiades the African",
+        "Miltiades"
+      ],
+      "popularity": 39638,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Pope Miltiades"
+    },
+    {
+      "name": "Pope Sixtus I",
+      "aliases": [
+        "Sextus",
+        "Sixtus I",
+        "Xystus I"
+      ],
+      "popularity": 40870,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Pope Sixtus I"
+    },
+    {
+      "name": "Pope Clement VI",
+      "aliases": [
+        "Clement VI",
+        "Clemente VI",
+        "Pierre Roger de Beuamont"
+      ],
+      "popularity": 41059,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Pope Clement VI"
+    },
+    {
+      "name": "Pope Innocent X",
+      "aliases": [
+        "Giambattista Pamphili",
+        "Innocent X",
+        "Innocentius PP. X",
+        "Innocentius X",
+        "Innozenz X. Papst",
+        "papa Innocenzo X",
+        "Papa Inocencio X",
+        "pape Innocent X"
+      ],
+      "popularity": 41241,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Pope Innocent X"
+    },
+    {
+      "name": "Pope Gelasius I",
+      "aliases": [
+        "Gelasius I",
+        "Gelasius I. Papst",
+        "Pope Gelasio I",
+        "Pope St. Gelasius I",
+        "Saint Gelasius I"
+      ],
+      "popularity": 41673,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Pope Gelasius I"
+    },
+    {
+      "name": "Pope Adrian VI",
+      "aliases": [
+        "Adrian VI",
+        "Hadrianus VI"
+      ],
+      "popularity": 41803,
+      "rarity": 0.279,
+      "tier": 2,
+      "wiki": "Pope Adrian VI"
+    },
+    {
+      "name": "Pope Sixtus II",
+      "aliases": [
+        "Sixtus II",
+        "Xystus II"
+      ],
+      "popularity": 41920,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Pope Sixtus II"
+    },
+    {
+      "name": "Pope Leo VIII",
+      "aliases": [
+        "Leo VIII"
+      ],
+      "popularity": 42219,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Pope Leo VIII"
+    },
+    {
+      "name": "Pope Nicholas I",
+      "aliases": [
+        "Nicholas",
+        "Nicholas I",
+        "Pope Nicholas",
+        "Pope Saint Nicholas",
+        "Pope St. Nicholas",
+        "Saint Nicholas the Great",
+        "St. Nicholas I",
+        "St. Nicholas the Great"
+      ],
+      "popularity": 43893,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Pope Nicholas I"
+    },
+    {
+      "name": "Pope Paul V",
+      "aliases": [
+        "Camille Borghèse",
+        "Camillo Borghèse",
+        "papa Paolo V",
+        "pape Paul V",
+        "Paul V",
+        "Paul V. Papst",
+        "Paulus PP. V",
+        "Paulus V",
+        "Pope Paulus V"
+      ],
+      "popularity": 44044,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Pope Paul V"
+    },
+    {
+      "name": "Pope Alexander I",
+      "aliases": [
+        "Alexander",
+        "Alexander I"
+      ],
+      "popularity": 45481,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Pope Alexander I"
+    },
+    {
+      "name": "Pope Pius I",
+      "aliases": [
+        "Pius",
+        "Pius I"
+      ],
+      "popularity": 45518,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Pope Pius I"
+    },
+    {
+      "name": "Pope Stephen II",
+      "aliases": [
+        "Stephen II"
+      ],
+      "popularity": 45880,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Pope Stephen II"
+    },
+    {
+      "name": "Pope Liberius",
+      "aliases": [
+        "Liberius"
+      ],
+      "popularity": 45922,
+      "rarity": 0.249,
+      "tier": 2,
+      "wiki": "Pope Liberius"
+    },
+    {
+      "name": "Pope Pius VI",
+      "aliases": [
+        "Count Giovanni Angelo Braschi",
+        "Giannangelo Braschi",
+        "Papa Pius VI",
+        "Pius VI"
+      ],
+      "popularity": 46510,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Pope Pius VI"
+    },
+    {
+      "name": "Pope Innocent VIII",
+      "aliases": [
+        "Innocent VIII",
+        "Innocentius PP. VIII",
+        "Innocentius VIII",
+        "papa Innocenzo VIII",
+        "pape Innocent VIII"
+      ],
+      "popularity": 46601,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Pope Innocent VIII"
+    },
+    {
+      "name": "Pope Callixtus III",
+      "aliases": [
+        "Alfonso de Borja y Cabanilles",
+        "Callixtus III"
+      ],
+      "popularity": 47736,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Pope Callixtus III"
+    },
+    {
+      "name": "Pope Fabian",
+      "aliases": [
+        "Fabian",
+        "Fabius Fabianus",
+        "Fabius Flavianus",
+        "Flavianus",
+        "St. Fabian"
+      ],
+      "popularity": 49385,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Pope Fabian"
+    },
+    {
+      "name": "Pope Evaristus",
+      "aliases": [
+        "Aristus",
+        "Evaristus"
+      ],
+      "popularity": 49871,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Pope Evaristus"
+    },
+    {
+      "name": "Pope Sylvester II",
+      "aliases": [
+        "Sylvester II"
+      ],
+      "popularity": 50252,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Pope Sylvester II"
+    },
+    {
+      "name": "Pope Pontian",
+      "aliases": [
+        "Pontian",
+        "Pontianus"
+      ],
+      "popularity": 50473,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Pope Pontian"
+    },
+    {
+      "name": "Pope Gregory IX",
+      "aliases": [
+        "Bishop of Ostia Ugolino",
+        "Di Segni Ugolino",
+        "Gregor IX",
+        "Gregorius PP. IX",
+        "Gregory IX",
+        "Hugo of Segni",
+        "Hugo ze Segni",
+        "Hugolin de' Conti de Segni",
+        "Hugolin di Segna",
+        "Hugolino of Segni",
+        "Hugolinus di Segna",
+        "Hugues di Segna",
+        "Ugo of Segni",
+        "Ugolino d' Ostia",
+        "Ugolino de' Conti di Segni",
+        "Ugolino de Segni",
+        "Ugolino dei conti di Segni",
+        "Ugolino Di Segni",
+        "Ugolino DiSegni",
+        "Ugolino of Segni",
+        "Ugolino Ostia",
+        "Ugolino von Segni",
+        "Ugolino ze Segni"
+      ],
+      "popularity": 50773,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Pope Gregory IX"
+    },
+    {
+      "name": "Pope Leo IX",
+      "aliases": [
+        "Bruno of Egisheim-Dagsburg",
+        "Leo IX",
+        "Pope Saint Leo IX",
+        "St. Leo IX"
+      ],
+      "popularity": 51414,
+      "rarity": 0.215,
+      "tier": 2,
+      "wiki": "Pope Leo IX"
+    },
+    {
+      "name": "Pope Martin I",
+      "aliases": [
+        "Martin I",
+        "Pope Martin",
+        "St. Martin I"
+      ],
+      "popularity": 51712,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Pope Martin I"
+    },
+    {
+      "name": "Pope Gregory XVI",
+      "aliases": [
+        "Bartolommeo Alberto Cappellari",
+        "Gregor XVI. Papst",
+        "Gregorius PP. XVI",
+        "Gregory XVI",
+        "Papa Gregorio XVI",
+        "pape Grégoire XVI"
+      ],
+      "popularity": 52130,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Pope Gregory XVI"
+    },
+    {
+      "name": "Pope Alexander III",
+      "aliases": [
+        "Alexander III",
+        "Roland of Siena"
+      ],
+      "popularity": 54516,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Pope Alexander III"
+    },
+    {
+      "name": "Pope Stephen VI",
+      "aliases": [
+        "Stephanus VII",
+        "Stephen VI"
+      ],
+      "popularity": 54804,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Pope Stephen VI"
+    },
+    {
+      "name": "Pope Damasus I",
+      "aliases": [
+        "Damasus",
+        "Damasus I"
+      ],
+      "popularity": 54973,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Pope Damasus I"
+    },
+    {
+      "name": "Pope Pius II",
+      "aliases": [
+        "Aeneas Silvius Piccolomini",
+        "Aeneas Sylvius Piccolominus",
+        "Enea Silvio Bartolomeo Piccolomini",
+        "Eneas Silvius Piccolomini",
+        "Æneas Silvius",
+        "Papa Pío II",
+        "pape Pie II",
+        "Pius II",
+        "Pius II. Papst",
+        "Pius PP. II",
+        "Silvio Piccolomini"
+      ],
+      "popularity": 55153,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Pope Pius II"
+    },
+    {
+      "name": "Pope Sixtus V",
+      "aliases": [
+        "Felice Peretti di Montalto",
+        "papa Sisto V",
+        "Papa Sixto V",
+        "pape Sixte V",
+        "Pope Sisto V",
+        "Pope Sixte-Quint",
+        "Sixtus PP. V",
+        "Sixtus V",
+        "Sixtus V. Papst"
+      ],
+      "popularity": 56341,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Pope Sixtus V"
+    },
+    {
+      "name": "Pope Urban VIII",
+      "aliases": [
+        "Urban VIII",
+        "Urbanus VIII"
+      ],
+      "popularity": 56716,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Pope Urban VIII"
+    },
+    {
+      "name": "Pope Victor I",
+      "aliases": [
+        "Victor",
+        "Victor I"
+      ],
+      "popularity": 57862,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Pope Victor I"
+    },
+    {
+      "name": "Pope Martin V",
+      "aliases": [
+        "Martin V",
+        "Odo Colonna"
+      ],
+      "popularity": 57908,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "Pope Martin V"
+    },
+    {
+      "name": "Pope Clement V",
+      "aliases": [
+        "Bernard de Got",
+        "Bertrand de Goth",
+        "Bertrand de Guoth",
+        "Bertrand du Got",
+        "Clemens PP. V",
+        "Clement V",
+        "papa Clemens V",
+        "pape Clément V",
+        "Raymond Bertrand de Got"
+      ],
+      "popularity": 58007,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Pope Clement V"
+    },
+    {
+      "name": "Pope Paul II",
+      "aliases": [
+        "papa Paolo II",
+        "pape Paul II",
+        "Paul II",
+        "Paulus II",
+        "Paulus PP. II"
+      ],
+      "popularity": 58190,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Pope Paul II"
+    },
+    {
+      "name": "Pope John XXII",
+      "aliases": [
+        "Ioannes XXII",
+        "Iohannes PP. XXII",
+        "Jacques d'Euse",
+        "Jacques D’euze",
+        "Jacques Duese",
+        "Jacques Dueze",
+        "Johannes XXII. Papst",
+        "John XXII",
+        "papa Giovanni XXII",
+        "papa Iohannes XXII",
+        "pape Jean XXII"
+      ],
+      "popularity": 58193,
+      "rarity": 0.166,
+      "tier": 1,
+      "wiki": "Pope John XXII"
+    },
+    {
+      "name": "Pope Nicholas V",
+      "aliases": [
+        "Nicholas V",
+        "Nicolaus PP. V",
+        "Nikolaus V. Papst",
+        "papa Niccolò V",
+        "pape Nicolas V",
+        "Pope Nikolaus V"
+      ],
+      "popularity": 58557,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Pope Nicholas V"
+    },
+    {
+      "name": "Pope Sylvester I",
+      "aliases": [
+        "Papa Silvester / Sylvester I",
+        "Saint Sylvester",
+        "Silvester I",
+        "St. Sylvester",
+        "Sylvester I"
+      ],
+      "popularity": 59295,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Pope Sylvester I"
+    },
+    {
+      "name": "Pope Benedict XIII",
+      "aliases": [
+        "Benedict XIII",
+        "Benedictus PP. XIII",
+        "Benedictus XIII",
+        "Benedikt XIII. Papst",
+        "Pierfrancesco Orsini",
+        "Vincenzo Maria",
+        "Vincenzo Maria Orsini"
+      ],
+      "popularity": 70360,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Pope Benedict XIII"
+    },
+    {
+      "name": "Pope Leo III",
+      "aliases": [
+        "Leo III"
+      ],
+      "popularity": 71752,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Pope Leo III"
+    },
+    {
+      "name": "Pope Pius V",
+      "aliases": [
+        "Pius V",
+        "Pope Saint Pius V",
+        "Pope St. Pius V",
+        "Saint Pius V"
+      ],
+      "popularity": 73129,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Pope Pius V"
+    },
+    {
+      "name": "Pope Pius VII",
+      "aliases": [
+        "Barnaba Niccolo Maria Luigi Chiaramonti",
+        "Father Gregory",
+        "Gregorio Chiaramonti",
+        "Luigi Barnaba Gregorio Chiaramonti",
+        "Papa Pío VII",
+        "pape Pie VII",
+        "paus Pius VII",
+        "Pius PP. VII",
+        "Pius VII",
+        "Pius VII. Papst",
+        "Pope Pie VII",
+        "Pope Pío VII",
+        "Servant of God Pius VII"
+      ],
+      "popularity": 73375,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Pope Pius VII"
+    },
+    {
+      "name": "Pope Julius I",
+      "aliases": [
+        "Iulius I",
+        "Ivlivs",
+        "Julius",
+        "Julius I",
+        "St. Julius I"
+      ],
+      "popularity": 77393,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "Pope Julius I"
+    },
+    {
+      "name": "Pope Gregory XIII",
+      "aliases": [
+        "Gregor XIII. Papst",
+        "Gregorius PP. XIII",
+        "Gregory XIII",
+        "papa Gregorio XIII",
+        "pape Grégoire XIII",
+        "Pope Gregorius XIII",
+        "Ugo Boncompani"
+      ],
+      "popularity": 80139,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Pope Gregory XIII"
+    },
+    {
+      "name": "Pope Anacletus",
+      "aliases": [
+        "Anacletus",
+        "Cletus"
+      ],
+      "popularity": 86910,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Pope Anacletus"
+    },
+    {
+      "name": "Pope Gregory III",
+      "aliases": [
+        "Gregory III"
+      ],
+      "popularity": 87188,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Pope Gregory III"
+    },
+    {
+      "name": "Pope Sixtus IV",
+      "aliases": [
+        "Sixtus IV"
+      ],
+      "popularity": 88602,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Pope Sixtus IV"
+    },
+    {
+      "name": "Pope Benedict XV",
+      "aliases": [
+        "Benedict XV",
+        "Giacomo Giambattista della Chiesa"
+      ],
+      "popularity": 92697,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "Pope Benedict XV"
+    },
+    {
+      "name": "Pope Formosus",
+      "aliases": [
+        "Formosus"
+      ],
+      "popularity": 96763,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Pope Formosus"
+    },
+    {
+      "name": "Pope Gregory VII",
+      "aliases": [
+        "Gregory VII",
+        "Hildebrand",
+        "Hildebrand of Sovana",
+        "Ildebrando da Soana",
+        "Pope Saint Gregory VII"
+      ],
+      "popularity": 97494,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Pope Gregory VII"
+    },
+    {
+      "name": "Pope Benedict IX",
+      "aliases": [
+        "Benedict IX",
+        "Benedictus IX",
+        "Theophylactus of Tusculum"
+      ],
+      "popularity": 100539,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Pope Benedict IX"
+    },
+    {
+      "name": "Pope Adrian IV",
+      "aliases": [
+        "Adrian IV",
+        "Hadrianus IV",
+        "Nicolas Breakspear"
+      ],
+      "popularity": 102021,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Pope Adrian IV"
+    },
+    {
+      "name": "Pope Paul III",
+      "aliases": [
+        "Paul III",
+        "Paulus III",
+        "Paulus PP. III"
+      ],
+      "popularity": 103709,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Pope Paul III"
+    },
+    {
+      "name": "Pope Boniface VIII",
+      "aliases": [
+        "Benedetto Gaetani",
+        "Benedetto Gaetano",
+        "Benedict Caetani",
+        "Benedictus Caetani",
+        "Boniface VIII",
+        "Bonifacio VIII",
+        "Bonifacius PP. VIII",
+        "Bonifatius VIII. Papa",
+        "pape Boniface VIII"
+      ],
+      "popularity": 111603,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Pope Boniface VIII"
+    },
+    {
+      "name": "Pope Clement IX",
+      "aliases": [
+        "Clemens PP. IX",
+        "Clement IX",
+        "Pope Clemens IX"
+      ],
+      "popularity": 117531,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Pope Clement IX"
+    },
+    {
+      "name": "Pope John XII",
+      "aliases": [
+        "Ioannes XII",
+        "John XII",
+        "Ottaviano"
+      ],
+      "popularity": 123214,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Pope John XII"
+    },
+    {
+      "name": "Pope Celestine V",
+      "aliases": [
+        "Celestine",
+        "Celestine V",
+        "Coelestinus",
+        "Peter of Morrone",
+        "Petrus de Murrone",
+        "Pier Celestino",
+        "Pietro Angeleri",
+        "Pietro Angelerio",
+        "Pietro Celestino",
+        "Pietro da Morrone",
+        "Pietro del Morrone",
+        "Saint Celestine V",
+        "Saint Peter Celestine"
+      ],
+      "popularity": 143237,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Pope Celestine V"
+    },
+    {
+      "name": "Pope Urban II",
+      "aliases": [
+        "Pope Blessed Urban II",
+        "Urban II"
+      ],
+      "popularity": 144698,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Pope Urban II"
+    },
+    {
+      "name": "Pope Innocent III",
+      "aliases": [
+        "Innocent III",
+        "Innocentius PP. III",
+        "Innozenz III. Papst",
+        "Lotario dei Conti di Segni",
+        "Lotario di Segni",
+        "Lothair of Segni",
+        "Lothar of Segni",
+        "papa Innocenzo III",
+        "pape Innocent III",
+        "Pope Innocentius III",
+        "Pope Innocenz III",
+        "Pope Innocenzo III",
+        "Pope Innozenz III"
+      ],
+      "popularity": 156434,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Pope Innocent III"
+    },
+    {
+      "name": "Pope Julius II",
+      "aliases": [
+        "Giuliano Della Rovere",
+        "Iulius II",
+        "Julien de La Rovère",
+        "Julius II",
+        "Julius II. Papst",
+        "Papa Julio II",
+        "pape Jules II",
+        "The Fearsome Pope",
+        "The Warrior Pope"
+      ],
+      "popularity": 160761,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Pope Julius II"
+    },
+    {
+      "name": "Pope Pius XI",
+      "aliases": [
+        "A. Ratti",
+        "Ambrogio Ratti",
+        "Papa Pío XI",
+        "pape Pie XI",
+        "paus Pius XI",
+        "Pius PP. XI",
+        "Pius XI",
+        "Pius XI. Papst",
+        "Pope Pio XI"
+      ],
+      "popularity": 161922,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Pope Pius XI"
+    },
+    {
+      "name": "Clement of Rome",
+      "aliases": [
+        "Clemens",
+        "Clemens I",
+        "Clemens Romanus",
+        "Clemens the Bishop",
+        "Clement",
+        "Clement the Bishop",
+        "Flavius Clemens",
+        "Iklīmindis al-Rūmānī",
+        "Kelemen",
+        "Klemens",
+        "Klēmēs",
+        "Kliment",
+        "Klyment",
+        "Klymentiĭ",
+        "Pope Clement I",
+        "Pope Kelemen I",
+        "Pope Klemens I",
+        "Pope Klyment I",
+        "Pope Saint Clement I",
+        "Saint Clemens",
+        "Saint Clement",
+        "Saint Clement I",
+        "San Clemente",
+        "St. Clemens",
+        "St. Clement"
+      ],
+      "popularity": 166017,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Clement of Rome"
+    },
+    {
+      "name": "Pope Linus",
+      "aliases": [
+        "Linu",
+        "Linus",
+        "Paus Linus",
+        "Pope Saint Linus",
+        "Saint Linus"
+      ],
+      "popularity": 173119,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Pope Linus"
+    },
+    {
+      "name": "Pope Leo I",
+      "aliases": [
+        "Leo I",
+        "Leo the Great"
+      ],
+      "popularity": 177429,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Pope Leo I"
+    },
+    {
+      "name": "Pope Leo X",
+      "aliases": [
+        "Giovanni De' Medici",
+        "Leo PP. X",
+        "Leo X",
+        "Leo X. Papst",
+        "Papa León X",
+        "Pope Leone X"
+      ],
+      "popularity": 223593,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Pope Leo X"
+    },
+    {
+      "name": "Pope Gregory I",
+      "aliases": [
+        "Gregorius Anicius",
+        "Gregorius Magnus",
+        "Gregory",
+        "Gregory I",
+        "Gregory The Great",
+        "Pope Gregory the Great",
+        "Pope Saint Gregory I",
+        "Pope St. Gregory I",
+        "Saint Gregorius Magnus",
+        "Saint Gregory",
+        "Saint Gregory I",
+        "Saint Gregory the Dialogist",
+        "Saint Gregory the Great",
+        "St Gregory",
+        "St Gregory I",
+        "St. Gregory the Dialogist",
+        "St. Gregory the Great"
+      ],
+      "popularity": 223685,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Pope Gregory I"
+    },
+    {
+      "name": "Pope Pius IX",
+      "aliases": [
+        "Pius IX",
+        "Pope Pio IX"
+      ],
+      "popularity": 230879,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Pope Pius IX"
+    },
+    {
+      "name": "Pope Clement VII",
+      "aliases": [
+        "Clemens PP. VII",
+        "Clement VII",
+        "Giulio de’ Medici",
+        "Giulio di Giuliano de Medici",
+        "Julius de Medicis"
+      ],
+      "popularity": 250357,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Pope Clement VII"
+    },
+    {
+      "name": "Pope Pius X",
+      "aliases": [
+        "Pius PP. X",
+        "Pius X",
+        "Pope Saint Pius X",
+        "Saint Pius X"
+      ],
+      "popularity": 286123,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Pope Pius X"
+    },
+    {
+      "name": "Pope John XXIII",
+      "aliases": [
+        "Andzhelo Dzhuzepe Ronkali",
+        "Angelo Giuseppe Roncalli",
+        "Angelo Josef Roncalli",
+        "John XXIII",
+        "Pope Saint John XXIII",
+        "Saint John XXIII"
+      ],
+      "popularity": 314462,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Pope John XXIII"
+    },
+    {
+      "name": "Pope Leo XIII",
+      "aliases": [
+        "Gioacchino Vincenzo Pecci",
+        "Leo PP. XIII",
+        "Leo XIII"
+      ],
+      "popularity": 345371,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Pope Leo XIII"
+    },
+    {
+      "name": "Pope John Paul I",
+      "aliases": [
+        "Blessed John Paul I",
+        "Iohannes Paulus PP. I",
+        "Johannes Paulus",
+        "John Paul",
+        "John Paul I",
+        "JP I",
+        "JPI",
+        "papa Giovanni Paolo I",
+        "Pope Giovanni Paolo I"
+      ],
+      "popularity": 370526,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Pope John Paul I"
+    },
+    {
+      "name": "Pope Paul VI",
+      "aliases": [
+        "Jan Baptist Montini",
+        "Paul VI",
+        "Paulus VI",
+        "Saint Paul VI"
+      ],
+      "popularity": 374143,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Pope Paul VI"
+    },
+    {
+      "name": "Pope Alexander VI",
+      "aliases": [
+        "Alexander Sixth",
+        "Alexander VI",
+        "Roderic Llançol i de Borja",
+        "Rodrigo Lanzol y de Borja"
+      ],
+      "popularity": 485866,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Pope Alexander VI"
+    },
+    {
+      "name": "Pope Pius XII",
+      "aliases": [
+        "Eugenio Marìa Giuseppe Giovanni Pacelli",
+        "Pius PP. XII",
+        "Pius XII",
+        "Pope Pio XII",
+        "Venerable Pius XII"
+      ],
+      "popularity": 507727,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Pope Pius XII"
+    },
+    {
+      "name": "Pope Benedict XVI",
+      "aliases": [
+        "Benedetto XVI",
+        "Benedict XVI",
+        "Pope Benedictus XVI",
+        "Pope Emeritus Benedict XVI"
+      ],
+      "popularity": 898125,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Pope Benedict XVI"
+    },
+    {
+      "name": "Pope John Paul II",
+      "aliases": [
+        "Andrzej Jawień",
+        "Eoin Pól",
+        "Gioan Phaolô",
+        "Giovanni Paolo",
+        "Hovnannēs-Poghos",
+        "Ioan Paul",
+        "Ĭoan Pavel",
+        "Ioann Pavel",
+        "Ioannes Paulus",
+        "Ivan Pavao",
+        "Ivan Pavlo",
+        "Jan Paweł",
+        "Janez Pavel",
+        "Jānis Pāvils",
+        "János Pál",
+        "Jean Paul",
+        "Joannes Paulus",
+        "João Paulo",
+        "Johannes Paul",
+        "John Paul II",
+        "Jōṇ Pōḷ",
+        "Jonas Paulius",
+        "JP II",
+        "JPII",
+        "Juan Pablo",
+        "Ḳarol Ṿoiṭilah",
+        "Karolis Voityla",
+        "Karols Vojtila",
+        "Lolek Wojtyla",
+        "Saint John Paul II",
+        "Stanisław Gruda",
+        "Vojtyla",
+        "Yohan Paoro",
+        "Yoḥanan Paʼulus",
+        "Yohanes Paulus",
+        "Yūḥannā Būlus"
+      ],
+      "popularity": 1169044,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Pope John Paul II"
+    },
+    {
+      "name": "Saint Peter",
+      "aliases": [
+        "Apostle Peter",
+        "Cephas",
+        "Kipa",
+        "Peter",
+        "Peter the Apostle",
+        "Petrus",
+        "Pope Peter",
+        "Saint Peter the Apostle",
+        "Shimon",
+        "Shimoun Bar Younah",
+        "Simeon",
+        "Simon",
+        "St. Peter"
+      ],
+      "popularity": 1228031,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Saint Peter"
+    },
+    {
+      "name": "Pope Francis",
+      "aliases": [
+        "Francis",
+        "Francisco",
+        "Franciscus I",
+        "François Bergoglio",
+        "Pope Francesco",
+        "Pope Francis I",
+        "Pope Francisco",
+        "Pope Franciscus"
+      ],
+      "popularity": 1830856,
+      "rarity": 0.004,
+      "tier": 1,
+      "wiki": "Pope Francis"
+    },
+    {
+      "name": "Pope Leo XIV",
+      "aliases": [
+        "Cardinal Prevost",
+        "Cardinal Robert Francis Prevost",
+        "Cardinal Robert Prevost",
+        "Leo XIV"
+      ],
+      "popularity": 3929580,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Pope Leo XIV"
+    }
+  ]
+}

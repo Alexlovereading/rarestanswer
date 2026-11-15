@@ -1,0 +1,1093 @@
+{
+  "id": "constructed-languages",
+  "slug": "constructed-languages",
+  "category": "history",
+  "question": "Name a constructed language",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Weltpitshn",
+      "aliases": [
+        "Welt'pitshn"
+      ],
+      "popularity": 5,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Weltpitshn"
+    },
+    {
+      "name": "Oiropa'pitshn",
+      "aliases": [
+        "Oiropa pishn",
+        "Opi"
+      ],
+      "popularity": 9,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Oiropa'pitshn"
+    },
+    {
+      "name": "Weltdeutsch (Baumann)",
+      "aliases": [],
+      "popularity": 26,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Weltdeutsch (Baumann)"
+    },
+    {
+      "name": "Latino Moderne",
+      "aliases": [],
+      "popularity": 41,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Latino Moderne"
+    },
+    {
+      "name": "Novegradian language",
+      "aliases": [
+        "Novegradian",
+        "Novgorodian"
+      ],
+      "popularity": 57,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Novegradian language"
+    },
+    {
+      "name": "Chorukor",
+      "aliases": [],
+      "popularity": 76,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Chorukor"
+    },
+    {
+      "name": "Romanica language",
+      "aliases": [
+        "Interlingua Romanica",
+        "Romanica"
+      ],
+      "popularity": 108,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Romanica language"
+    },
+    {
+      "name": "Ptydepe",
+      "aliases": [],
+      "popularity": 154,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Ptydepe"
+    },
+    {
+      "name": "Marain",
+      "aliases": [],
+      "popularity": 157,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Marain"
+    },
+    {
+      "name": "Romanova language",
+      "aliases": [
+        "Romanova"
+      ],
+      "popularity": 180,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Romanova language"
+    },
+    {
+      "name": "Atlamak",
+      "aliases": [],
+      "popularity": 199,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Atlamak"
+    },
+    {
+      "name": "Oromëan",
+      "aliases": [],
+      "popularity": 206,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Oromëan"
+    },
+    {
+      "name": "Goldogrin",
+      "aliases": [
+        "Gnomish"
+      ],
+      "popularity": 209,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Goldogrin"
+    },
+    {
+      "name": "Gibson Code",
+      "aliases": [],
+      "popularity": 241,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Gibson Code"
+    },
+    {
+      "name": "Euronord",
+      "aliases": [],
+      "popularity": 254,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Euronord"
+    },
+    {
+      "name": "Panamane",
+      "aliases": [],
+      "popularity": 286,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Panamane"
+    },
+    {
+      "name": "Asa'pili",
+      "aliases": [],
+      "popularity": 349,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Asa'pili"
+    },
+    {
+      "name": "Baronh",
+      "aliases": [],
+      "popularity": 377,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Baronh"
+    },
+    {
+      "name": "Mänti",
+      "aliases": [
+        "Mänti language"
+      ],
+      "popularity": 406,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Mänti"
+    },
+    {
+      "name": "Taliska",
+      "aliases": [],
+      "popularity": 425,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Taliska"
+    },
+    {
+      "name": "Myska",
+      "aliases": [
+        "Myska language"
+      ],
+      "popularity": 620,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Myska"
+    },
+    {
+      "name": "Entish",
+      "aliases": [],
+      "popularity": 695,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Entish"
+    },
+    {
+      "name": "Transpiranto",
+      "aliases": [],
+      "popularity": 792,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Transpiranto"
+    },
+    {
+      "name": "Langue nouvelle",
+      "aliases": [],
+      "popularity": 880,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Langue nouvelle"
+    },
+    {
+      "name": "High Icelandic",
+      "aliases": [
+        "Háfrónska",
+        "Háíslenska"
+      ],
+      "popularity": 883,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "High Icelandic"
+    },
+    {
+      "name": "Nal Bino",
+      "aliases": [],
+      "popularity": 975,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Nal Bino"
+    },
+    {
+      "name": "Slovio",
+      "aliases": [],
+      "popularity": 1081,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Slovio"
+    },
+    {
+      "name": "Pasilingua",
+      "aliases": [],
+      "popularity": 1148,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Pasilingua"
+    },
+    {
+      "name": "Kalaba-X",
+      "aliases": [],
+      "popularity": 1169,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Kalaba-X"
+    },
+    {
+      "name": "Weltdeutsch (Weltdeutsch)",
+      "aliases": [],
+      "popularity": 1196,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Weltdeutsch"
+    },
+    {
+      "name": "Lydnevi",
+      "aliases": [],
+      "popularity": 1206,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Lydnevi"
+    },
+    {
+      "name": "Efatese language",
+      "aliases": [
+        "Efatese",
+        "Fate"
+      ],
+      "popularity": 1234,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Efatese language"
+    },
+    {
+      "name": "Mezangelle",
+      "aliases": [],
+      "popularity": 1319,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Mezangelle"
+    },
+    {
+      "name": "Spocanian",
+      "aliases": [],
+      "popularity": 1503,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Spocanian"
+    },
+    {
+      "name": "Romániço",
+      "aliases": [],
+      "popularity": 1731,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Romániço"
+    },
+    {
+      "name": "Ladin Dolomitan",
+      "aliases": [],
+      "popularity": 1836,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Ladin Dolomitan"
+    },
+    {
+      "name": "Adjuvilo",
+      "aliases": [],
+      "popularity": 1961,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Adjuvilo"
+    },
+    {
+      "name": "Vonlenska",
+      "aliases": [],
+      "popularity": 2126,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Vonlenska"
+    },
+    {
+      "name": "Eurolengo",
+      "aliases": [],
+      "popularity": 2178,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Eurolengo"
+    },
+    {
+      "name": "Globish",
+      "aliases": [
+        "Globish (Gogate)",
+        "Parallel English"
+      ],
+      "popularity": 2186,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Globish (Gogate)"
+    },
+    {
+      "name": "Teonaht",
+      "aliases": [],
+      "popularity": 2218,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Teonaht"
+    },
+    {
+      "name": "Dritok",
+      "aliases": [],
+      "popularity": 2254,
+      "rarity": 0.634,
+      "tier": 4,
+      "wiki": "Dritok"
+    },
+    {
+      "name": "Runyakitara language",
+      "aliases": [
+        "Kitara",
+        "Kitara language",
+        "Runyakitara"
+      ],
+      "popularity": 2289,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Runyakitara language"
+    },
+    {
+      "name": "Verdurian language",
+      "aliases": [
+        "Verdurian"
+      ],
+      "popularity": 2352,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Verdurian language"
+    },
+    {
+      "name": "Budinos",
+      "aliases": [],
+      "popularity": 2372,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Budinos"
+    },
+    {
+      "name": "Talossan language",
+      "aliases": [
+        "Talossan",
+        "tzl"
+      ],
+      "popularity": 2397,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Talossan language"
+    },
+    {
+      "name": "Romanid",
+      "aliases": [],
+      "popularity": 2404,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Romanid"
+    },
+    {
+      "name": "Communicationssprache",
+      "aliases": [
+        "Komuniklingvo",
+        "Universal Glot",
+        "Weltsprache"
+      ],
+      "popularity": 2507,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Communicationssprache"
+    },
+    {
+      "name": "Folkspraak",
+      "aliases": [
+        "Folksprák"
+      ],
+      "popularity": 2538,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Folkspraak"
+    },
+    {
+      "name": "Poliespo",
+      "aliases": [
+        "Polisinteza Esperanto",
+        "Polysynthetic Esperanto"
+      ],
+      "popularity": 2727,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Poliespo"
+    },
+    {
+      "name": "Iazychie",
+      "aliases": [],
+      "popularity": 2747,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Iazychie"
+    },
+    {
+      "name": "Guosa",
+      "aliases": [],
+      "popularity": 2791,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Guosa"
+    },
+    {
+      "name": "Tsolyáni language",
+      "aliases": [
+        "Tsolyáni"
+      ],
+      "popularity": 3021,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Tsolyáni language"
+    },
+    {
+      "name": "Universalglot",
+      "aliases": [],
+      "popularity": 3157,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Universalglot"
+    },
+    {
+      "name": "Dutton Speedwords",
+      "aliases": [
+        "Dutton's Speedwords"
+      ],
+      "popularity": 3165,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Dutton Speedwords"
+    },
+    {
+      "name": "Rohirric",
+      "aliases": [
+        "Rohanese"
+      ],
+      "popularity": 3312,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Rohirric"
+    },
+    {
+      "name": "Wede",
+      "aliases": [
+        "Weltdialekt"
+      ],
+      "popularity": 3398,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Wede"
+    },
+    {
+      "name": "Lingwa de Planeta",
+      "aliases": [
+        "LdP",
+        "Lidepla"
+      ],
+      "popularity": 3421,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Lingwa de Planeta"
+    },
+    {
+      "name": "Neo language",
+      "aliases": [
+        "Neo"
+      ],
+      "popularity": 3468,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Neo language"
+    },
+    {
+      "name": "Robot Interaction Language",
+      "aliases": [],
+      "popularity": 3651,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Robot Interaction Language"
+    },
+    {
+      "name": "Brajabuli",
+      "aliases": [],
+      "popularity": 3803,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Brajabuli"
+    },
+    {
+      "name": "Valarin",
+      "aliases": [],
+      "popularity": 3892,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Valarin"
+    },
+    {
+      "name": "Afrihili",
+      "aliases": [
+        "the Afrihili language"
+      ],
+      "popularity": 4069,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Afrihili"
+    },
+    {
+      "name": "Uropi",
+      "aliases": [],
+      "popularity": 4430,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Uropi"
+    },
+    {
+      "name": "Tutonish",
+      "aliases": [
+        "Allteutonish",
+        "Alteutonik",
+        "Altutonish",
+        "Neuteutonish",
+        "Niu Teutonish",
+        "Nu Teutonish",
+        "Teutonik",
+        "Teutonish"
+      ],
+      "popularity": 4489,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Tutonish"
+    },
+    {
+      "name": "Kobaïan",
+      "aliases": [],
+      "popularity": 4992,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Kobaïan"
+    },
+    {
+      "name": "Sambahsa",
+      "aliases": [
+        "Sambahsa-Mundialect"
+      ],
+      "popularity": 5123,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Sambahsa"
+    },
+    {
+      "name": "Arcaicam Esperantom",
+      "aliases": [],
+      "popularity": 5500,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Arcaicam Esperantom"
+    },
+    {
+      "name": "Eskayan language",
+      "aliases": [
+        "Bisaya",
+        "Bisayan Declarado",
+        "Bisayan Diklaradu",
+        "Bisayan-Eskaya",
+        "Eskaya",
+        "Eskayan",
+        "Eskayano",
+        "Ineskaya",
+        "Iniskaya",
+        "Iskaya"
+      ],
+      "popularity": 5656,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Eskayan language"
+    },
+    {
+      "name": "Ro language",
+      "aliases": [],
+      "popularity": 5717,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Ro language"
+    },
+    {
+      "name": "Utopian language",
+      "aliases": [
+        "Utopian"
+      ],
+      "popularity": 5797,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Utopian language"
+    },
+    {
+      "name": "Ascian language",
+      "aliases": [
+        "Ascian"
+      ],
+      "popularity": 6271,
+      "rarity": 0.366,
+      "tier": 2,
+      "wiki": "Ascian language"
+    },
+    {
+      "name": "Venedic language",
+      "aliases": [
+        "Venedic",
+        "Wenedyk"
+      ],
+      "popularity": 6493,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Venedic language"
+    },
+    {
+      "name": "Europanto",
+      "aliases": [],
+      "popularity": 7396,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Europanto"
+    },
+    {
+      "name": "Medefaidrin",
+      "aliases": [
+        "Medefidrin",
+        "Obɛri Ɔkaimɛ"
+      ],
+      "popularity": 8143,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Medefaidrin"
+    },
+    {
+      "name": "Balaibalan",
+      "aliases": [
+        "Bala-i-Balan",
+        "Bâleybelen",
+        "Balibilen"
+      ],
+      "popularity": 9210,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Balaibalan"
+    },
+    {
+      "name": "Proto-Esperanto",
+      "aliases": [
+        "Pra-Esperanto"
+      ],
+      "popularity": 9778,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Proto-Esperanto"
+    },
+    {
+      "name": "Kotava",
+      "aliases": [
+        "avk",
+        "Kotava language"
+      ],
+      "popularity": 10091,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Kotava"
+    },
+    {
+      "name": "Brithenig",
+      "aliases": [],
+      "popularity": 10213,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Brithenig"
+    },
+    {
+      "name": "Glosa",
+      "aliases": [],
+      "popularity": 10554,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Glosa"
+    },
+    {
+      "name": "Kiliki language",
+      "aliases": [
+        "Kiliki",
+        "Kilikili"
+      ],
+      "popularity": 11368,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Kiliki language"
+    },
+    {
+      "name": "Lincos language",
+      "aliases": [
+        "Lincos",
+        "lingua cosmica"
+      ],
+      "popularity": 11580,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Lincos language"
+    },
+    {
+      "name": "Kēlen",
+      "aliases": [
+        "Keelen",
+        "Keilen"
+      ],
+      "popularity": 13376,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Kēlen"
+    },
+    {
+      "name": "Latino sine flexione",
+      "aliases": [
+        "LsF",
+        "Peano’s Interlingua"
+      ],
+      "popularity": 13735,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Latino sine flexione"
+    },
+    {
+      "name": "Novial",
+      "aliases": [],
+      "popularity": 15180,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Novial"
+    },
+    {
+      "name": "Láadan",
+      "aliases": [],
+      "popularity": 17400,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Láadan"
+    },
+    {
+      "name": "Interlingue",
+      "aliases": [
+        "Interlingue language",
+        "Occidental"
+      ],
+      "popularity": 19067,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Interlingue"
+    },
+    {
+      "name": "Lingua Franca Nova",
+      "aliases": [
+        "elefen"
+      ],
+      "popularity": 20301,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Lingua Franca Nova"
+    },
+    {
+      "name": "Zaum",
+      "aliases": [],
+      "popularity": 21346,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Zaum"
+    },
+    {
+      "name": "Atlantean language",
+      "aliases": [
+        "Atlantean"
+      ],
+      "popularity": 23634,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Atlantean language"
+    },
+    {
+      "name": "Solresol",
+      "aliases": [
+        "Langue Musicale Universelle"
+      ],
+      "popularity": 26081,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Solresol"
+    },
+    {
+      "name": "Blissymbols",
+      "aliases": [
+        "Blis",
+        "Bliss",
+        "Bliss Symbolics",
+        "Bliss Symbols",
+        "Blissymbolics",
+        "Semantography",
+        "world language",
+        "World Writing",
+        "zbl"
+      ],
+      "popularity": 26664,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Blissymbols"
+    },
+    {
+      "name": "Palawa kani",
+      "aliases": [],
+      "popularity": 29443,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Palawa kani"
+    },
+    {
+      "name": "Damin",
+      "aliases": [],
+      "popularity": 29985,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Damin"
+    },
+    {
+      "name": "Khuzdul",
+      "aliases": [
+        "Dwarfish",
+        "Dwarvish"
+      ],
+      "popularity": 31761,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Khuzdul"
+    },
+    {
+      "name": "Heptapod languages",
+      "aliases": [],
+      "popularity": 34148,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Heptapod languages"
+    },
+    {
+      "name": "Dothraki language",
+      "aliases": [
+        "Dothraki"
+      ],
+      "popularity": 34270,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Dothraki language"
+    },
+    {
+      "name": "Lingua ignota",
+      "aliases": [],
+      "popularity": 34667,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Lingua ignota"
+    },
+    {
+      "name": "Ido",
+      "aliases": [
+        "Ido language"
+      ],
+      "popularity": 39231,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Ido"
+    },
+    {
+      "name": "Interlingua",
+      "aliases": [],
+      "popularity": 61303,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Interlingua"
+    },
+    {
+      "name": "International Code of Signals",
+      "aliases": [
+        "ICS"
+      ],
+      "popularity": 61682,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "International Code of Signals"
+    },
+    {
+      "name": "Volapük",
+      "aliases": [
+        "Volapük nulik"
+      ],
+      "popularity": 70717,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Volapük"
+    },
+    {
+      "name": "Lojban",
+      "aliases": [],
+      "popularity": 75003,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Lojban"
+    },
+    {
+      "name": "Naʼvi language",
+      "aliases": [
+        "Na'vi",
+        "Navi"
+      ],
+      "popularity": 81760,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Naʼvi language"
+    },
+    {
+      "name": "Valyrian languages",
+      "aliases": [
+        "Valyrian"
+      ],
+      "popularity": 86469,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Valyrian languages"
+    },
+    {
+      "name": "Sindarin",
+      "aliases": [
+        "sjn"
+      ],
+      "popularity": 86791,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Sindarin"
+    },
+    {
+      "name": "Ithkuil",
+      "aliases": [
+        "Elartkha",
+        "Ilaksh",
+        "Malëuţřait"
+      ],
+      "popularity": 94691,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Ithkuil"
+    },
+    {
+      "name": "Nadsat",
+      "aliases": [
+        "a malenky bit sad",
+        "appy polly loggy",
+        "droogs",
+        "eggiweg",
+        "get one in the yarbles",
+        "guffawing",
+        "horrorshow",
+        "malchick",
+        "malenky",
+        "polyclef"
+      ],
+      "popularity": 101132,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Nadsat"
+    },
+    {
+      "name": "Black Speech",
+      "aliases": [],
+      "popularity": 103129,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Black Speech"
+    },
+    {
+      "name": "Klingon language",
+      "aliases": [
+        "Klingon",
+        "Klingonese"
+      ],
+      "popularity": 109075,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Klingon language"
+    },
+    {
+      "name": "Enochian",
+      "aliases": [
+        "Angelical",
+        "Celestial Speech",
+        "First Language of God-Christ",
+        "Holy Language",
+        "Language of Angels"
+      ],
+      "popularity": 160276,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Enochian"
+    },
+    {
+      "name": "Toki Pona",
+      "aliases": [
+        "the language of good",
+        "Tokipona"
+      ],
+      "popularity": 224905,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Toki Pona"
+    },
+    {
+      "name": "Esperanto",
+      "aliases": [
+        "Esperanto language"
+      ],
+      "popularity": 734718,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Esperanto"
+    }
+  ]
+}

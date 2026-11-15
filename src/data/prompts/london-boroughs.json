@@ -1,0 +1,342 @@
+{
+  "id": "london-boroughs",
+  "slug": "london-boroughs",
+  "category": "geography",
+  "question": "Name a London borough",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "London Borough of Sutton",
+      "aliases": [
+        "Sutton"
+      ],
+      "popularity": 30345,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "London Borough of Sutton"
+    },
+    {
+      "name": "Royal Borough of Kingston upon Thames",
+      "aliases": [
+        "Kingston upon Thames"
+      ],
+      "popularity": 32808,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Royal Borough of Kingston upon Thames"
+    },
+    {
+      "name": "London Borough of Barking and Dagenham",
+      "aliases": [
+        "Barking",
+        "Barking and Dagenham"
+      ],
+      "popularity": 37361,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "London Borough of Barking and Dagenham"
+    },
+    {
+      "name": "London Borough of Ealing",
+      "aliases": [
+        "Ealing"
+      ],
+      "popularity": 38363,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "London Borough of Ealing"
+    },
+    {
+      "name": "London Borough of Bexley",
+      "aliases": [
+        "Bexley"
+      ],
+      "popularity": 38701,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "London Borough of Bexley"
+    },
+    {
+      "name": "London Borough of Hounslow",
+      "aliases": [
+        "Hounslow"
+      ],
+      "popularity": 39102,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "London Borough of Hounslow"
+    },
+    {
+      "name": "London Borough of Merton",
+      "aliases": [
+        "Merton"
+      ],
+      "popularity": 40805,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "London Borough of Merton"
+    },
+    {
+      "name": "Royal Borough of Greenwich",
+      "aliases": [
+        "Greenwich",
+        "London Borough of Greenwich"
+      ],
+      "popularity": 41243,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Royal Borough of Greenwich"
+    },
+    {
+      "name": "London Borough of Harrow",
+      "aliases": [
+        "Harrow",
+        "LB Harrow",
+        "Municipal Borough of Harrow"
+      ],
+      "popularity": 43011,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "London Borough of Harrow"
+    },
+    {
+      "name": "London Borough of Lewisham",
+      "aliases": [
+        "Lewisham",
+        "Lewisham Council"
+      ],
+      "popularity": 44267,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "London Borough of Lewisham"
+    },
+    {
+      "name": "London Borough of Hammersmith and Fulham",
+      "aliases": [
+        "Hammersmith and Fulham",
+        "LBHF",
+        "London Borough of Hammersmith"
+      ],
+      "popularity": 47408,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "London Borough of Hammersmith and Fulham"
+    },
+    {
+      "name": "London Borough of Redbridge",
+      "aliases": [
+        "Redbridge"
+      ],
+      "popularity": 48324,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "London Borough of Redbridge"
+    },
+    {
+      "name": "London Borough of Bromley",
+      "aliases": [
+        "Bromley"
+      ],
+      "popularity": 54153,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "London Borough of Bromley"
+    },
+    {
+      "name": "London Borough of Wandsworth",
+      "aliases": [
+        "Wandsworth"
+      ],
+      "popularity": 55899,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "London Borough of Wandsworth"
+    },
+    {
+      "name": "London Borough of Croydon",
+      "aliases": [
+        "Croydon"
+      ],
+      "popularity": 58121,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "London Borough of Croydon"
+    },
+    {
+      "name": "London Borough of Waltham Forest",
+      "aliases": [
+        "Waltham Forest"
+      ],
+      "popularity": 58358,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "London Borough of Waltham Forest"
+    },
+    {
+      "name": "London Borough of Hillingdon",
+      "aliases": [
+        "Hillingdon",
+        "LB Hillingdon"
+      ],
+      "popularity": 61098,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "London Borough of Hillingdon"
+    },
+    {
+      "name": "London Borough of Brent",
+      "aliases": [
+        "Brent",
+        "unparished part of Brent"
+      ],
+      "popularity": 62428,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "London Borough of Brent"
+    },
+    {
+      "name": "London Borough of Southwark",
+      "aliases": [
+        "Southwark",
+        "Southwark borough"
+      ],
+      "popularity": 65082,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "London Borough of Southwark"
+    },
+    {
+      "name": "London Borough of Lambeth",
+      "aliases": [
+        "Lambeth"
+      ],
+      "popularity": 67506,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "London Borough of Lambeth"
+    },
+    {
+      "name": "London Borough of Richmond upon Thames",
+      "aliases": [
+        "Richmond upon Thames"
+      ],
+      "popularity": 70539,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "London Borough of Richmond upon Thames"
+    },
+    {
+      "name": "London Borough of Barnet",
+      "aliases": [
+        "Barnet"
+      ],
+      "popularity": 78276,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "London Borough of Barnet"
+    },
+    {
+      "name": "Royal Borough of Kensington and Chelsea",
+      "aliases": [
+        "Kensington and Chelsea",
+        "Kensington and Chelsea Royal Borough",
+        "RBKC"
+      ],
+      "popularity": 85729,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Royal Borough of Kensington and Chelsea"
+    },
+    {
+      "name": "London Borough of Enfield",
+      "aliases": [
+        "Borough of Enfield",
+        "Enfield"
+      ],
+      "popularity": 86325,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "London Borough of Enfield"
+    },
+    {
+      "name": "London Borough of Camden",
+      "aliases": [
+        "Camden"
+      ],
+      "popularity": 104071,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "London Borough of Camden"
+    },
+    {
+      "name": "London Borough of Hackney",
+      "aliases": [
+        "Hackney"
+      ],
+      "popularity": 110593,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "London Borough of Hackney"
+    },
+    {
+      "name": "London Borough of Newham",
+      "aliases": [
+        "Newham"
+      ],
+      "popularity": 114637,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "London Borough of Newham"
+    },
+    {
+      "name": "London Borough of Havering",
+      "aliases": [
+        "Havering"
+      ],
+      "popularity": 115311,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "London Borough of Havering"
+    },
+    {
+      "name": "London Borough of Haringey",
+      "aliases": [
+        "Haringey"
+      ],
+      "popularity": 121009,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "London Borough of Haringey"
+    },
+    {
+      "name": "London Borough of Islington",
+      "aliases": [
+        "Islington"
+      ],
+      "popularity": 133437,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "London Borough of Islington"
+    },
+    {
+      "name": "London Borough of Tower Hamlets",
+      "aliases": [
+        "Tower Hamlets"
+      ],
+      "popularity": 159882,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "London Borough of Tower Hamlets"
+    },
+    {
+      "name": "City of Westminster",
+      "aliases": [
+        "Westminster"
+      ],
+      "popularity": 212096,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "City of Westminster"
+    }
+  ]
+}

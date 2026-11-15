@@ -1,0 +1,2141 @@
+{
+  "id": "chameleon-species",
+  "slug": "chameleon-species",
+  "category": "animals",
+  "question": "Name a species of chameleon",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Brookesia ambreensis",
+      "aliases": [],
+      "popularity": 103,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Brookesia ambreensis"
+    },
+    {
+      "name": "Rhampholeon sabini",
+      "aliases": [],
+      "popularity": 152,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Rhampholeon sabini"
+    },
+    {
+      "name": "Antakarana leaf chameleon",
+      "aliases": [
+        "Brookesia antakarana"
+      ],
+      "popularity": 161,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Antakarana leaf chameleon"
+    },
+    {
+      "name": "Rhampholeon nebulauctor",
+      "aliases": [
+        "Mount Chiperone Pygmy Chameleon"
+      ],
+      "popularity": 179,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Rhampholeon nebulauctor"
+    },
+    {
+      "name": "Karoo dwarf chameleon",
+      "aliases": [
+        "Bradypodion karrooicum"
+      ],
+      "popularity": 181,
+      "rarity": 0.983,
+      "tier": 6,
+      "wiki": "Karoo dwarf chameleon"
+    },
+    {
+      "name": "Bradypodion caeruleogula",
+      "aliases": [
+        "Dhlinza dwarf chameleon",
+        "Eshowe dwarf chameleon"
+      ],
+      "popularity": 187,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Bradypodion caeruleogula"
+    },
+    {
+      "name": "Bradypodion venustum",
+      "aliases": [
+        "Grootvadersbosch dwarf chameleon"
+      ],
+      "popularity": 189,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Bradypodion venustum"
+    },
+    {
+      "name": "Trioceros narraioca",
+      "aliases": [],
+      "popularity": 191,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Trioceros narraioca"
+    },
+    {
+      "name": "Rhampholeon waynelotteri",
+      "aliases": [],
+      "popularity": 194,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Rhampholeon waynelotteri"
+    },
+    {
+      "name": "Bradypodion baviaanense",
+      "aliases": [
+        "Baviaans Dwarf Chameleon"
+      ],
+      "popularity": 199,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Bradypodion baviaanense"
+    },
+    {
+      "name": "Calumma lefona",
+      "aliases": [],
+      "popularity": 205,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Calumma lefona"
+    },
+    {
+      "name": "Kinyongia gyrolepis",
+      "aliases": [
+        "Circular-scaled Chameleon"
+      ],
+      "popularity": 217,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Kinyongia gyrolepis"
+    },
+    {
+      "name": "Rhampholeon princeeai",
+      "aliases": [
+        "ount Chiperone Pygmy Chameleon"
+      ],
+      "popularity": 217,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Rhampholeon princeeai"
+    },
+    {
+      "name": "Trioceros nyirit",
+      "aliases": [],
+      "popularity": 218,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Trioceros nyirit"
+    },
+    {
+      "name": "Vences's chameleon",
+      "aliases": [
+        "Calumma vencesi",
+        "Vences' chameleon"
+      ],
+      "popularity": 218,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Vences's chameleon"
+    },
+    {
+      "name": "Rhampholeon gorongosae",
+      "aliases": [],
+      "popularity": 220,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Rhampholeon gorongosae"
+    },
+    {
+      "name": "Trioceros incornutus",
+      "aliases": [
+        "Chamaeleo incornutus",
+        "Ukinga hornless chameleon"
+      ],
+      "popularity": 221,
+      "rarity": 0.93,
+      "tier": 6,
+      "wiki": "Trioceros incornutus"
+    },
+    {
+      "name": "Calumma radamanus",
+      "aliases": [],
+      "popularity": 223,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Calumma radamanus"
+    },
+    {
+      "name": "Mount Kenya sentinel chameleon",
+      "aliases": [
+        "Kinyongia excubitor"
+      ],
+      "popularity": 223,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Mount Kenya sentinel chameleon"
+    },
+    {
+      "name": "Kinyongia itombwensis",
+      "aliases": [
+        "Itombwe Forest Chameleon"
+      ],
+      "popularity": 224,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Kinyongia itombwensis"
+    },
+    {
+      "name": "Rhampholeon rubeho",
+      "aliases": [],
+      "popularity": 224,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Rhampholeon rubeho"
+    },
+    {
+      "name": "Rhampholeon nchisiensis",
+      "aliases": [
+        "Nchisi pitless pygmy chameleon",
+        "South African stumptail chameleon"
+      ],
+      "popularity": 226,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Rhampholeon nchisiensis"
+    },
+    {
+      "name": "Trioceros kinangopensis",
+      "aliases": [],
+      "popularity": 226,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Trioceros kinangopensis"
+    },
+    {
+      "name": "Calumma juliae",
+      "aliases": [],
+      "popularity": 228,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Calumma juliae"
+    },
+    {
+      "name": "Trioceros perreti",
+      "aliases": [],
+      "popularity": 228,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Trioceros perreti"
+    },
+    {
+      "name": "Rhampholeon viridis",
+      "aliases": [],
+      "popularity": 230,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Rhampholeon viridis"
+    },
+    {
+      "name": "Calumma gehringi",
+      "aliases": [],
+      "popularity": 232,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Calumma gehringi"
+    },
+    {
+      "name": "Mayotte chameleon",
+      "aliases": [
+        "Furcifer polleni"
+      ],
+      "popularity": 232,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Mayotte chameleon"
+    },
+    {
+      "name": "Rhampholeon nicolai",
+      "aliases": [],
+      "popularity": 232,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Rhampholeon nicolai"
+    },
+    {
+      "name": "Magombera chameleon",
+      "aliases": [
+        "Kinyongia magomberae"
+      ],
+      "popularity": 233,
+      "rarity": 0.874,
+      "tier": 5,
+      "wiki": "Magombera chameleon"
+    },
+    {
+      "name": "Brookesia tedi",
+      "aliases": [],
+      "popularity": 239,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Brookesia tedi"
+    },
+    {
+      "name": "Rhampholeon tilburyi",
+      "aliases": [],
+      "popularity": 240,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Rhampholeon tilburyi"
+    },
+    {
+      "name": "Naturelle leaf chameleon",
+      "aliases": [
+        "Brookesia karchei"
+      ],
+      "popularity": 241,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Naturelle leaf chameleon"
+    },
+    {
+      "name": "Kinyongia uluguruensis",
+      "aliases": [],
+      "popularity": 243,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Kinyongia uluguruensis"
+    },
+    {
+      "name": "Trioceros marsabitensis",
+      "aliases": [],
+      "popularity": 243,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Trioceros marsabitensis"
+    },
+    {
+      "name": "Sharp-nosed chameleon",
+      "aliases": [
+        "Kinyongia oxyrhina"
+      ],
+      "popularity": 249,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Sharp-nosed chameleon"
+    },
+    {
+      "name": "Trioceros serratus",
+      "aliases": [],
+      "popularity": 249,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Trioceros serratus"
+    },
+    {
+      "name": "Trioceros ntunte",
+      "aliases": [],
+      "popularity": 250,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Trioceros ntunte"
+    },
+    {
+      "name": "Calumma tjiasmantoi",
+      "aliases": [],
+      "popularity": 256,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Calumma tjiasmantoi"
+    },
+    {
+      "name": "Rhampholeon hattinghi",
+      "aliases": [],
+      "popularity": 259,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Rhampholeon hattinghi"
+    },
+    {
+      "name": "Calumma peyrierasi",
+      "aliases": [],
+      "popularity": 260,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Calumma peyrierasi"
+    },
+    {
+      "name": "Calumma emelinae",
+      "aliases": [],
+      "popularity": 262,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Calumma emelinae"
+    },
+    {
+      "name": "Calumma ratnasariae",
+      "aliases": [],
+      "popularity": 263,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Calumma ratnasariae"
+    },
+    {
+      "name": "Trioceros ituriensis",
+      "aliases": [
+        "Chamaeleon ituriensis"
+      ],
+      "popularity": 263,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Trioceros ituriensis"
+    },
+    {
+      "name": "Trioceros hanangensis",
+      "aliases": [],
+      "popularity": 264,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Trioceros hanangensis"
+    },
+    {
+      "name": "Calumma vatosoa",
+      "aliases": [],
+      "popularity": 265,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Calumma vatosoa"
+    },
+    {
+      "name": "Trioceros tempeli",
+      "aliases": [
+        "Tanzania mountain chameleon",
+        "Udzungwa double-bearded chameleon"
+      ],
+      "popularity": 267,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Trioceros tempeli"
+    },
+    {
+      "name": "Rhampholeon uluguruensis",
+      "aliases": [],
+      "popularity": 270,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Rhampholeon uluguruensis"
+    },
+    {
+      "name": "Calumma peltierorum",
+      "aliases": [],
+      "popularity": 271,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Calumma peltierorum"
+    },
+    {
+      "name": "Calumma uetzi",
+      "aliases": [],
+      "popularity": 274,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Calumma uetzi"
+    },
+    {
+      "name": "Trioceros sternfeldi",
+      "aliases": [],
+      "popularity": 274,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Trioceros sternfeldi"
+    },
+    {
+      "name": "Kentani dwarf chameleon",
+      "aliases": [
+        "Bradypodion kentanicum"
+      ],
+      "popularity": 275,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Kentani dwarf chameleon"
+    },
+    {
+      "name": "Bradypodion barbatulum",
+      "aliases": [
+        "Beardless dwarf chameleon"
+      ],
+      "popularity": 276,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Bradypodion barbatulum"
+    },
+    {
+      "name": "Toothed leaf chameleon",
+      "aliases": [
+        "Brookesia dentata"
+      ],
+      "popularity": 281,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "Toothed leaf chameleon"
+    },
+    {
+      "name": "Calumma marojezense",
+      "aliases": [
+        "Calumma marojezensis"
+      ],
+      "popularity": 282,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Calumma marojezense"
+    },
+    {
+      "name": "Ngome dwarf chameleon",
+      "aliases": [
+        "Bradypodion ngomeense"
+      ],
+      "popularity": 283,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Ngome dwarf chameleon"
+    },
+    {
+      "name": "Rhampholeon bruessoworum",
+      "aliases": [],
+      "popularity": 283,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Rhampholeon bruessoworum"
+    },
+    {
+      "name": "Rhampholeon colemani",
+      "aliases": [],
+      "popularity": 287,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Rhampholeon colemani"
+    },
+    {
+      "name": "Calumma tsycorne",
+      "aliases": [],
+      "popularity": 291,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Calumma tsycorne"
+    },
+    {
+      "name": "Calumma vohibola",
+      "aliases": [],
+      "popularity": 291,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Calumma vohibola"
+    },
+    {
+      "name": "Trioceros wiedersheimi",
+      "aliases": [],
+      "popularity": 297,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Trioceros wiedersheimi"
+    },
+    {
+      "name": "Calumma jejy",
+      "aliases": [],
+      "popularity": 300,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Calumma jejy"
+    },
+    {
+      "name": "Calumma guillaumeti",
+      "aliases": [],
+      "popularity": 304,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Calumma guillaumeti"
+    },
+    {
+      "name": "Calumma tsaratananense",
+      "aliases": [],
+      "popularity": 304,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Calumma tsaratananense"
+    },
+    {
+      "name": "Kinyongia asheorum",
+      "aliases": [],
+      "popularity": 306,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Kinyongia asheorum"
+    },
+    {
+      "name": "Calumma hilleniusi",
+      "aliases": [],
+      "popularity": 307,
+      "rarity": 0.715,
+      "tier": 4,
+      "wiki": "Calumma hilleniusi"
+    },
+    {
+      "name": "Kinyongia mulyai",
+      "aliases": [],
+      "popularity": 307,
+      "rarity": 0.715,
+      "tier": 4,
+      "wiki": "Kinyongia mulyai"
+    },
+    {
+      "name": "Kinyongia uthmoelleri",
+      "aliases": [
+        "Bradypodion uthmoelleri"
+      ],
+      "popularity": 309,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Kinyongia uthmoelleri"
+    },
+    {
+      "name": "Rhampholeon platyceps",
+      "aliases": [],
+      "popularity": 314,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Rhampholeon platyceps"
+    },
+    {
+      "name": "Kinyongia msuyae",
+      "aliases": [
+        "Southern highlands one-horned chameleon"
+      ],
+      "popularity": 315,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Kinyongia msuyae"
+    },
+    {
+      "name": "Rugege Highlands forest chameleon",
+      "aliases": [
+        "Kinyongia rugegensis"
+      ],
+      "popularity": 315,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Rugege Highlands forest chameleon"
+    },
+    {
+      "name": "Trioceros kinetensis",
+      "aliases": [],
+      "popularity": 316,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Trioceros kinetensis"
+    },
+    {
+      "name": "Brookesia ramanantsoai",
+      "aliases": [],
+      "popularity": 317,
+      "rarity": 0.687,
+      "tier": 4,
+      "wiki": "Brookesia ramanantsoai"
+    },
+    {
+      "name": "Trioceros goetzei",
+      "aliases": [
+        "Ilolo Chameleon"
+      ],
+      "popularity": 323,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Trioceros goetzei"
+    },
+    {
+      "name": "Rosette-nosed chameleon",
+      "aliases": [
+        "Rhampholeon spinosus"
+      ],
+      "popularity": 325,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Rosette-nosed chameleon"
+    },
+    {
+      "name": "Furcifer monoceras",
+      "aliases": [],
+      "popularity": 327,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Furcifer monoceras"
+    },
+    {
+      "name": "Brookesia lineata",
+      "aliases": [],
+      "popularity": 333,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Brookesia lineata"
+    },
+    {
+      "name": "Calumma guibei",
+      "aliases": [],
+      "popularity": 340,
+      "rarity": 0.665,
+      "tier": 4,
+      "wiki": "Calumma guibei"
+    },
+    {
+      "name": "Iaraka River leaf chameleon",
+      "aliases": [
+        "Brookesia vadoni"
+      ],
+      "popularity": 343,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Iaraka River leaf chameleon"
+    },
+    {
+      "name": "Spiny-flanked chameleon",
+      "aliases": [
+        "Trioceros laterispinis"
+      ],
+      "popularity": 349,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Spiny-flanked chameleon"
+    },
+    {
+      "name": "Kinyongia tenuis",
+      "aliases": [],
+      "popularity": 353,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Kinyongia tenuis"
+    },
+    {
+      "name": "Brookesia exarmata",
+      "aliases": [
+        "Dwarf chameleon"
+      ],
+      "popularity": 354,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Brookesia exarmata"
+    },
+    {
+      "name": "Kinyongia vanheygeni",
+      "aliases": [
+        "Van Heygen's chameleon"
+      ],
+      "popularity": 355,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Kinyongia vanheygeni"
+    },
+    {
+      "name": "Trioceros schubotzi",
+      "aliases": [],
+      "popularity": 363,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Trioceros schubotzi"
+    },
+    {
+      "name": "Calumma glawi",
+      "aliases": [],
+      "popularity": 366,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Calumma glawi"
+    },
+    {
+      "name": "Trioceros schoutedeni",
+      "aliases": [
+        "Chamaeleo schoutedeni"
+      ],
+      "popularity": 367,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Trioceros schoutedeni"
+    },
+    {
+      "name": "Trioceros pfefferi",
+      "aliases": [],
+      "popularity": 371,
+      "rarity": 0.626,
+      "tier": 4,
+      "wiki": "Trioceros pfefferi"
+    },
+    {
+      "name": "Chamaeleo calcaricarens",
+      "aliases": [],
+      "popularity": 374,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Chamaeleo calcaricarens"
+    },
+    {
+      "name": "Hooded chameleon",
+      "aliases": [
+        "Calumma cucullatum"
+      ],
+      "popularity": 376,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Hooded chameleon"
+    },
+    {
+      "name": "Trioceros camerunensis",
+      "aliases": [],
+      "popularity": 376,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Trioceros camerunensis"
+    },
+    {
+      "name": "Brookesia valerieae",
+      "aliases": [],
+      "popularity": 378,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Brookesia valerieae"
+    },
+    {
+      "name": "Rieppeleon brachyurus",
+      "aliases": [],
+      "popularity": 379,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Rieppeleon brachyurus"
+    },
+    {
+      "name": "Trioceros conirostratus",
+      "aliases": [],
+      "popularity": 379,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Trioceros conirostratus"
+    },
+    {
+      "name": "Furcifer cephalolepis",
+      "aliases": [],
+      "popularity": 382,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Furcifer cephalolepis"
+    },
+    {
+      "name": "Trioceros fuelleborni",
+      "aliases": [],
+      "popularity": 384,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Trioceros fuelleborni"
+    },
+    {
+      "name": "Furcifer tuzetae",
+      "aliases": [],
+      "popularity": 385,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Furcifer tuzetae"
+    },
+    {
+      "name": "Brookesia brunoi",
+      "aliases": [],
+      "popularity": 389,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Brookesia brunoi"
+    },
+    {
+      "name": "Zululand dwarf chameleon",
+      "aliases": [
+        "Bradypodion nemorale",
+        "Zululand Dwarf Chamaeleon"
+      ],
+      "popularity": 390,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Zululand dwarf chameleon"
+    },
+    {
+      "name": "Brookesia lambertoni",
+      "aliases": [],
+      "popularity": 396,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Brookesia lambertoni"
+    },
+    {
+      "name": "Drakensberg dwarf chameleon",
+      "aliases": [
+        "Bradypodion dracomontanum"
+      ],
+      "popularity": 397,
+      "rarity": 0.57,
+      "tier": 3,
+      "wiki": "Drakensberg dwarf chameleon"
+    },
+    {
+      "name": "Brookesia griveaudi",
+      "aliases": [],
+      "popularity": 398,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Brookesia griveaudi"
+    },
+    {
+      "name": "Namaqua dwarf chameleon",
+      "aliases": [
+        "Bradypodion occidentale"
+      ],
+      "popularity": 400,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Namaqua dwarf chameleon"
+    },
+    {
+      "name": "Swartberg dwarf chameleon",
+      "aliases": [
+        "Bradypodion atromontanum"
+      ],
+      "popularity": 400,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Swartberg dwarf chameleon"
+    },
+    {
+      "name": "Chamaeleo necasi",
+      "aliases": [],
+      "popularity": 402,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Chamaeleo necasi"
+    },
+    {
+      "name": "Calumma roaloko",
+      "aliases": [],
+      "popularity": 405,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Calumma roaloko"
+    },
+    {
+      "name": "Brookesia bekolosy",
+      "aliases": [],
+      "popularity": 408,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Brookesia bekolosy"
+    },
+    {
+      "name": "Trioceros chapini",
+      "aliases": [
+        "Chamaeleo chapini"
+      ],
+      "popularity": 408,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Trioceros chapini"
+    },
+    {
+      "name": "Smooth chameleon",
+      "aliases": [
+        "Chamaeleo laevigatus"
+      ],
+      "popularity": 417,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Smooth chameleon"
+    },
+    {
+      "name": "Trioceros feae",
+      "aliases": [],
+      "popularity": 419,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "Trioceros feae"
+    },
+    {
+      "name": "Calumma capuroni",
+      "aliases": [],
+      "popularity": 425,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Calumma capuroni"
+    },
+    {
+      "name": "Transvaal dwarf chameleon",
+      "aliases": [
+        "Bradypodion transvaalense"
+      ],
+      "popularity": 430,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Transvaal dwarf chameleon"
+    },
+    {
+      "name": "Brookesia confidens",
+      "aliases": [],
+      "popularity": 431,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Brookesia confidens"
+    },
+    {
+      "name": "Mount Mabu chameleon",
+      "aliases": [
+        "Nadzikambia baylissi"
+      ],
+      "popularity": 431,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Mount Mabu chameleon"
+    },
+    {
+      "name": "Mount d'Ambre leaf chameleon",
+      "aliases": [
+        "Brookesia tuberculata",
+        "Tuberculate leaf chameleon"
+      ],
+      "popularity": 434,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Mount d'Ambre leaf chameleon"
+    },
+    {
+      "name": "Bradypodion ventrale",
+      "aliases": [
+        "Eastern Cape Dwarf Chameleon",
+        "Southern Dwarf Chameleon"
+      ],
+      "popularity": 437,
+      "rarity": 0.504,
+      "tier": 3,
+      "wiki": "Bradypodion ventrale"
+    },
+    {
+      "name": "Calumma andringitraense",
+      "aliases": [
+        "Calumma andringitraensis"
+      ],
+      "popularity": 445,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Calumma andringitraense"
+    },
+    {
+      "name": "Furcifer major",
+      "aliases": [],
+      "popularity": 445,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Furcifer major"
+    },
+    {
+      "name": "Calumma ambreense",
+      "aliases": [],
+      "popularity": 455,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Calumma ambreense"
+    },
+    {
+      "name": "Brookesia betschi",
+      "aliases": [],
+      "popularity": 456,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Brookesia betschi"
+    },
+    {
+      "name": "Calumma linotum",
+      "aliases": [],
+      "popularity": 462,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Calumma linotum"
+    },
+    {
+      "name": "Furcifer nicosiai",
+      "aliases": [
+        "Chameleon"
+      ],
+      "popularity": 462,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Furcifer nicosiai"
+    },
+    {
+      "name": "Mlanje Mountain chameleon",
+      "aliases": [
+        "Nadzikambia mlanjensis"
+      ],
+      "popularity": 468,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Mlanje Mountain chameleon"
+    },
+    {
+      "name": "Side-striped chameleon",
+      "aliases": [
+        "Trioceros bitaeniatus"
+      ],
+      "popularity": 470,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "Side-striped chameleon"
+    },
+    {
+      "name": "Trioceros balebicornutus",
+      "aliases": [
+        "Chamaeleo balebicornutus"
+      ],
+      "popularity": 473,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Trioceros balebicornutus"
+    },
+    {
+      "name": "Brookesia peyrierasi",
+      "aliases": [
+        "Pygmy stump-tailed chameleon"
+      ],
+      "popularity": 478,
+      "rarity": 0.461,
+      "tier": 3,
+      "wiki": "Brookesia peyrierasi"
+    },
+    {
+      "name": "Kinyongia adolfifriderici",
+      "aliases": [],
+      "popularity": 489,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Kinyongia adolfifriderici"
+    },
+    {
+      "name": "Rhampholeon maspictus",
+      "aliases": [
+        "Mount Mabu Pygmy Chameleon"
+      ],
+      "popularity": 490,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Rhampholeon maspictus"
+    },
+    {
+      "name": "Brookesia ebenaui",
+      "aliases": [
+        "Northern leaf chameleon"
+      ],
+      "popularity": 511,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Brookesia ebenaui"
+    },
+    {
+      "name": "Calumma boettgeri",
+      "aliases": [],
+      "popularity": 517,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Calumma boettgeri"
+    },
+    {
+      "name": "Globe-horned chameleon",
+      "aliases": [
+        "Calumma globifer"
+      ],
+      "popularity": 517,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Globe-horned chameleon"
+    },
+    {
+      "name": "Chamaeleo anchietae",
+      "aliases": [],
+      "popularity": 522,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Chamaeleo anchietae"
+    },
+    {
+      "name": "Kinyongia tolleyae",
+      "aliases": [
+        "Tolley's forest chameleon"
+      ],
+      "popularity": 525,
+      "rarity": 0.43,
+      "tier": 3,
+      "wiki": "Kinyongia tolleyae"
+    },
+    {
+      "name": "Transkei dwarf chameleon",
+      "aliases": [
+        "Bradypodion caffer"
+      ],
+      "popularity": 528,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Transkei dwarf chameleon"
+    },
+    {
+      "name": "Furcifer timoni",
+      "aliases": [],
+      "popularity": 532,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Furcifer timoni"
+    },
+    {
+      "name": "Rhampholeon boulengeri",
+      "aliases": [
+        "Boulenger's Pygmy Chameleon"
+      ],
+      "popularity": 536,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Rhampholeon boulengeri"
+    },
+    {
+      "name": "Perinet chameleon",
+      "aliases": [
+        "Calumma gastrotaenia"
+      ],
+      "popularity": 539,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Perinet chameleon"
+    },
+    {
+      "name": "Calumma malthe",
+      "aliases": [],
+      "popularity": 544,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Calumma malthe"
+    },
+    {
+      "name": "Kinyongia vosseleri",
+      "aliases": [],
+      "popularity": 547,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Kinyongia vosseleri"
+    },
+    {
+      "name": "Canopy chameleon",
+      "aliases": [
+        "Furcifer willsii",
+        "Will's chameleon"
+      ],
+      "popularity": 549,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Canopy chameleon"
+    },
+    {
+      "name": "Black-headed dwarf chameleon",
+      "aliases": [
+        "Bradypodion melanocephalum"
+      ],
+      "popularity": 551,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Black-headed dwarf chameleon"
+    },
+    {
+      "name": "Brookesia bonsi",
+      "aliases": [],
+      "popularity": 555,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Brookesia bonsi"
+    },
+    {
+      "name": "Trioceros affinis",
+      "aliases": [
+        "Chamaeleo affinis"
+      ],
+      "popularity": 565,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Trioceros affinis"
+    },
+    {
+      "name": "Two-banded chameleon",
+      "aliases": [
+        "Furcifer balteatus",
+        "Rainforest Chameleon"
+      ],
+      "popularity": 577,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Two-banded chameleon"
+    },
+    {
+      "name": "Calumma furcifer",
+      "aliases": [],
+      "popularity": 578,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Calumma furcifer"
+    },
+    {
+      "name": "Rhampholeon acuminatus",
+      "aliases": [],
+      "popularity": 578,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Rhampholeon acuminatus"
+    },
+    {
+      "name": "Rhampholeon moyeri",
+      "aliases": [
+        "Moyer's Pygmy Chameleon"
+      ],
+      "popularity": 593,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Rhampholeon moyeri"
+    },
+    {
+      "name": "Antimena chameleon",
+      "aliases": [
+        "Furcifer antimena"
+      ],
+      "popularity": 601,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Antimena chameleon"
+    },
+    {
+      "name": "Trioceros werneri",
+      "aliases": [],
+      "popularity": 606,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Trioceros werneri"
+    },
+    {
+      "name": "Calumma amber",
+      "aliases": [
+        "Amber Mountain chameleon"
+      ],
+      "popularity": 608,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Calumma amber"
+    },
+    {
+      "name": "Lesser chameleon",
+      "aliases": [
+        "Furcifer minor",
+        "Minor’s chameleon"
+      ],
+      "popularity": 610,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "Lesser chameleon"
+    },
+    {
+      "name": "Palleon lolontany",
+      "aliases": [
+        "Brookesia lolontany"
+      ],
+      "popularity": 614,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Palleon lolontany"
+    },
+    {
+      "name": "Brookesia brygooi",
+      "aliases": [
+        "Brygoo’s chameleon"
+      ],
+      "popularity": 619,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Brookesia brygooi"
+    },
+    {
+      "name": "Robertson dwarf chameleon",
+      "aliases": [
+        "Bradypodion gutturale"
+      ],
+      "popularity": 622,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Robertson dwarf chameleon"
+    },
+    {
+      "name": "Brookesia therezieni",
+      "aliases": [],
+      "popularity": 635,
+      "rarity": 0.335,
+      "tier": 2,
+      "wiki": "Brookesia therezieni"
+    },
+    {
+      "name": "Rieppeleon kerstenii",
+      "aliases": [],
+      "popularity": 637,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Rieppeleon kerstenii"
+    },
+    {
+      "name": "Setaro's dwarf chameleon",
+      "aliases": [
+        "Bradypodion setaroi"
+      ],
+      "popularity": 643,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Setaro's dwarf chameleon"
+    },
+    {
+      "name": "Rhampholeon beraduccii",
+      "aliases": [],
+      "popularity": 659,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Rhampholeon beraduccii"
+    },
+    {
+      "name": "Brookesia thieli",
+      "aliases": [],
+      "popularity": 676,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Brookesia thieli"
+    },
+    {
+      "name": "Petter's chameleon",
+      "aliases": [
+        "Furcifer petteri"
+      ],
+      "popularity": 680,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Petter's chameleon"
+    },
+    {
+      "name": "Coarse chameleon",
+      "aliases": [
+        "Trioceros rudis"
+      ],
+      "popularity": 686,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Coarse chameleon"
+    },
+    {
+      "name": "Cameroon sailfin chameleon",
+      "aliases": [
+        "Chamaeleo montium",
+        "Trioceros montium"
+      ],
+      "popularity": 687,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Cameroon sailfin chameleon"
+    },
+    {
+      "name": "Calumma gallus",
+      "aliases": [],
+      "popularity": 691,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Calumma gallus"
+    },
+    {
+      "name": "Arabian chameleon",
+      "aliases": [
+        "Chamaeleo arabicus"
+      ],
+      "popularity": 692,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Arabian chameleon"
+    },
+    {
+      "name": "Brookesia decaryi",
+      "aliases": [
+        "Decary's leaf chameleon",
+        "spiny leaf chameleon"
+      ],
+      "popularity": 697,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Brookesia decaryi"
+    },
+    {
+      "name": "Bizarre-nosed chameleon",
+      "aliases": [
+        "Calumma hafahafa"
+      ],
+      "popularity": 731,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Bizarre-nosed chameleon"
+    },
+    {
+      "name": "Kinyongia matschiei",
+      "aliases": [],
+      "popularity": 739,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Kinyongia matschiei"
+    },
+    {
+      "name": "Trioceros wolfgangboehmei",
+      "aliases": [],
+      "popularity": 746,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Trioceros wolfgangboehmei"
+    },
+    {
+      "name": "Furcifer bifidus",
+      "aliases": [],
+      "popularity": 749,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Furcifer bifidus"
+    },
+    {
+      "name": "Calumma crypticum",
+      "aliases": [
+        "Blue-legged chameleon"
+      ],
+      "popularity": 775,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Calumma crypticum"
+    },
+    {
+      "name": "Brookesia desperata",
+      "aliases": [],
+      "popularity": 776,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Brookesia desperata"
+    },
+    {
+      "name": "O'Shaughnessy's chameleon",
+      "aliases": [
+        "Calumma oshaughnessyi"
+      ],
+      "popularity": 777,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "O'Shaughnessy's chameleon"
+    },
+    {
+      "name": "Trioceros harennae",
+      "aliases": [],
+      "popularity": 849,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Trioceros harennae"
+    },
+    {
+      "name": "Palleon nasus",
+      "aliases": [
+        "Brookesia nasus"
+      ],
+      "popularity": 874,
+      "rarity": 0.252,
+      "tier": 2,
+      "wiki": "Palleon nasus"
+    },
+    {
+      "name": "Angel's chameleon",
+      "aliases": [
+        "Furcifer angeli"
+      ],
+      "popularity": 893,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Angel's chameleon"
+    },
+    {
+      "name": "Owen's chameleon",
+      "aliases": [
+        "Trioceros oweni"
+      ],
+      "popularity": 909,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Owen's chameleon"
+    },
+    {
+      "name": "West Usambara two-horned chameleon",
+      "aliases": [
+        "Kinyongia multituberculata"
+      ],
+      "popularity": 913,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "West Usambara two-horned chameleon"
+    },
+    {
+      "name": "Graceful chameleon",
+      "aliases": [
+        "Chamaeleo gracilis"
+      ],
+      "popularity": 920,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Graceful chameleon"
+    },
+    {
+      "name": "Brookesia stumpffi",
+      "aliases": [
+        "plated leaf chameleon"
+      ],
+      "popularity": 925,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Brookesia stumpffi"
+    },
+    {
+      "name": "Four-horned chameleon",
+      "aliases": [
+        "Trioceros quadricornis"
+      ],
+      "popularity": 949,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Four-horned chameleon"
+    },
+    {
+      "name": "Rhinoceros chameleon",
+      "aliases": [
+        "Furcifer rhinoceratus"
+      ],
+      "popularity": 970,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Rhinoceros chameleon"
+    },
+    {
+      "name": "Trioceros ellioti",
+      "aliases": [
+        "Elliot's chameleon"
+      ],
+      "popularity": 977,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Trioceros ellioti"
+    },
+    {
+      "name": "Antsingy leaf chameleon",
+      "aliases": [
+        "Brookesia perarmata"
+      ],
+      "popularity": 1014,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Antsingy leaf chameleon"
+    },
+    {
+      "name": "Kinyongia boehmei",
+      "aliases": [],
+      "popularity": 1051,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Kinyongia boehmei"
+    },
+    {
+      "name": "Natal Midlands dwarf chameleon",
+      "aliases": [
+        "Bradypodion thamnobates",
+        "Natal midland dwarf chameleon"
+      ],
+      "popularity": 1053,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Natal Midlands dwarf chameleon"
+    },
+    {
+      "name": "Calumma brevicorne",
+      "aliases": [
+        "Short-horned chameleon"
+      ],
+      "popularity": 1062,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Calumma brevicorne"
+    },
+    {
+      "name": "Belalanda chameleon",
+      "aliases": [
+        "Furcifer belalandaensis"
+      ],
+      "popularity": 1076,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Belalanda chameleon"
+    },
+    {
+      "name": "Strange-horned chameleon",
+      "aliases": [
+        "Bradypodion xenorhinum",
+        "Chamaeleo xenorhinum",
+        "Kinyongia xenorhina",
+        "Rwenzori Plate-nosed Chameleon",
+        "Single welded-horn chameleon"
+      ],
+      "popularity": 1104,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Strange-horned chameleon"
+    },
+    {
+      "name": "Trioceros deremensis",
+      "aliases": [],
+      "popularity": 1133,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Trioceros deremensis"
+    },
+    {
+      "name": "Fischer's chameleon",
+      "aliases": [
+        "Kinyongia fischeri"
+      ],
+      "popularity": 1146,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Fischer's chameleon"
+    },
+    {
+      "name": "Brookesia nofy",
+      "aliases": [],
+      "popularity": 1148,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Brookesia nofy"
+    },
+    {
+      "name": "Rhampholeon chapmanorum",
+      "aliases": [
+        "Chapman's Pygmy Chameleon"
+      ],
+      "popularity": 1153,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Rhampholeon chapmanorum"
+    },
+    {
+      "name": "Jewelled chameleon",
+      "aliases": [
+        "Furcifer campani",
+        "Jeweled chameleon"
+      ],
+      "popularity": 1190,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Jewelled chameleon"
+    },
+    {
+      "name": "Knysna dwarf chameleon",
+      "aliases": [
+        "Bradypodion damaranum"
+      ],
+      "popularity": 1191,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "Knysna dwarf chameleon"
+    },
+    {
+      "name": "Kinyongia tavetana",
+      "aliases": [
+        "Dwarf Fischer's Chameleon"
+      ],
+      "popularity": 1195,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Kinyongia tavetana"
+    },
+    {
+      "name": "Brown leaf chameleon",
+      "aliases": [
+        "Brookesia superciliaris",
+        "stump-tailed chameleon"
+      ],
+      "popularity": 1270,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Brown leaf chameleon"
+    },
+    {
+      "name": "Furcifer viridis",
+      "aliases": [],
+      "popularity": 1383,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Furcifer viridis"
+    },
+    {
+      "name": "Rhampholeon temporalis",
+      "aliases": [],
+      "popularity": 1395,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Rhampholeon temporalis"
+    },
+    {
+      "name": "Furcifer verrucosus",
+      "aliases": [
+        "crocodile chameleon",
+        "spiny chameleon",
+        "warty chameleon"
+      ],
+      "popularity": 1415,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Furcifer verrucosus"
+    },
+    {
+      "name": "Chamaeleo monachus",
+      "aliases": [],
+      "popularity": 1422,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Chamaeleo monachus"
+    },
+    {
+      "name": "Calumma nasutum",
+      "aliases": [
+        "big-nosed chameleon",
+        "Madagascar pimple-nose chameleon",
+        "nose-horned chameleon",
+        "pimple-nose chameleon"
+      ],
+      "popularity": 1546,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Calumma nasutum"
+    },
+    {
+      "name": "Calumma tarzan",
+      "aliases": [],
+      "popularity": 1593,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Calumma tarzan"
+    },
+    {
+      "name": "Tiger chameleon",
+      "aliases": [
+        "Archaius tigris"
+      ],
+      "popularity": 1675,
+      "rarity": 0.126,
+      "tier": 1,
+      "wiki": "Tiger chameleon"
+    },
+    {
+      "name": "Voeltzkow's chameleon",
+      "aliases": [
+        "Chamaeleon voeltzkowi",
+        "Furcifer voeltzkowi"
+      ],
+      "popularity": 1687,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Voeltzkow's chameleon"
+    },
+    {
+      "name": "Smith's dwarf chameleon",
+      "aliases": [
+        "Bradypodion taeniabronchum",
+        "Smith's Dwarf Chamaeleon"
+      ],
+      "popularity": 1821,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Smith's dwarf chameleon"
+    },
+    {
+      "name": "Kinyongia carpenteri",
+      "aliases": [],
+      "popularity": 1977,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Kinyongia carpenteri"
+    },
+    {
+      "name": "Rieppeleon brevicaudatus",
+      "aliases": [],
+      "popularity": 2073,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Rieppeleon brevicaudatus"
+    },
+    {
+      "name": "Spectral pygmy chameleon",
+      "aliases": [
+        "Rhampholeon spectrum"
+      ],
+      "popularity": 2076,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Spectral pygmy chameleon"
+    },
+    {
+      "name": "Trioceros johnstoni",
+      "aliases": [
+        "Chamaeleo johnstoni"
+      ],
+      "popularity": 2155,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Trioceros johnstoni"
+    },
+    {
+      "name": "Trioceros hoehnelii",
+      "aliases": [],
+      "popularity": 2202,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Trioceros hoehnelii"
+    },
+    {
+      "name": "Senegal chameleon",
+      "aliases": [
+        "Chamaeleo senegalensis"
+      ],
+      "popularity": 2611,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Senegal chameleon"
+    },
+    {
+      "name": "Crested chameleon",
+      "aliases": [
+        "Trioceros cristatus"
+      ],
+      "popularity": 2787,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Crested chameleon"
+    },
+    {
+      "name": "African chameleon",
+      "aliases": [
+        "Chamaeleo africanus",
+        "Sahel chameleon"
+      ],
+      "popularity": 2917,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "African chameleon"
+    },
+    {
+      "name": "Brookesia minima",
+      "aliases": [
+        "Minute leaf chameleon"
+      ],
+      "popularity": 3166,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Brookesia minima"
+    },
+    {
+      "name": "Carpet chameleon",
+      "aliases": [
+        "Furcifer lateralis",
+        "Jewel chameleon",
+        "white-lined chameleon"
+      ],
+      "popularity": 3322,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Carpet chameleon"
+    },
+    {
+      "name": "Calumma fallax",
+      "aliases": [],
+      "popularity": 3874,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Calumma fallax"
+    },
+    {
+      "name": "Meller's chameleon",
+      "aliases": [
+        "Chamaeleo melleri",
+        "Trioceros melleri"
+      ],
+      "popularity": 4211,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Meller's chameleon"
+    },
+    {
+      "name": "Cape dwarf chameleon",
+      "aliases": [
+        "Bradypodion pumilum"
+      ],
+      "popularity": 4233,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Cape dwarf chameleon"
+    },
+    {
+      "name": "Flap-necked chameleon",
+      "aliases": [
+        "Chamaeleo dilepis"
+      ],
+      "popularity": 4478,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Flap-necked chameleon"
+    },
+    {
+      "name": "Marshall's pygmy chameleon",
+      "aliases": [
+        "Rhampholeon marshalli"
+      ],
+      "popularity": 4715,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Marshall's pygmy chameleon"
+    },
+    {
+      "name": "Namaqua chameleon",
+      "aliases": [
+        "Chamaeleo namaquensis"
+      ],
+      "popularity": 6202,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Namaqua chameleon"
+    },
+    {
+      "name": "Malagasy giant chameleon",
+      "aliases": [
+        "Furcifer oustaleti",
+        "Oustalet's chameleon"
+      ],
+      "popularity": 6227,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Malagasy giant chameleon"
+    },
+    {
+      "name": "Brookesia tristis",
+      "aliases": [],
+      "popularity": 6532,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Brookesia tristis"
+    },
+    {
+      "name": "Brookesia micra",
+      "aliases": [],
+      "popularity": 9678,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Brookesia micra"
+    },
+    {
+      "name": "Parson's chameleon",
+      "aliases": [
+        "Calumma parsonii",
+        "Chamaeleo parsonii"
+      ],
+      "popularity": 11189,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Parson's chameleon"
+    },
+    {
+      "name": "Labord's chameleon",
+      "aliases": [
+        "Furcifer labordi",
+        "Madagascan chameleon"
+      ],
+      "popularity": 11981,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Labord's chameleon"
+    },
+    {
+      "name": "Common chameleon",
+      "aliases": [
+        "Chamaeleo chamaeleon",
+        "Mediterranean chameleon"
+      ],
+      "popularity": 15332,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Common chameleon"
+    },
+    {
+      "name": "Brookesia nana",
+      "aliases": [
+        "nano-chameleon"
+      ],
+      "popularity": 18152,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "Brookesia nana"
+    },
+    {
+      "name": "Indian chameleon",
+      "aliases": [
+        "Chamaeleo zeylanicus"
+      ],
+      "popularity": 26367,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Indian chameleon"
+    },
+    {
+      "name": "Panther chameleon",
+      "aliases": [
+        "Furcifer pardalis"
+      ],
+      "popularity": 36494,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Panther chameleon"
+    },
+    {
+      "name": "Veiled chameleon",
+      "aliases": [
+        "Chamaeleo calyptratus",
+        "cone-head chameleon"
+      ],
+      "popularity": 41258,
+      "rarity": 0.004,
+      "tier": 1,
+      "wiki": "Veiled chameleon"
+    },
+    {
+      "name": "Jackson's chameleon",
+      "aliases": [
+        "Trioceros jacksonii"
+      ],
+      "popularity": 56975,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Jackson's chameleon"
+    }
+  ]
+}

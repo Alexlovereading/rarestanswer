@@ -1,0 +1,3682 @@
+{
+  "id": "woodwind-instruments",
+  "slug": "woodwind-instruments",
+  "category": "music",
+  "question": "Name a woodwind instrument",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Conn-O-Sax",
+      "aliases": [],
+      "popularity": 52,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Conn-O-Sax"
+    },
+    {
+      "name": "Pōrutu",
+      "aliases": [],
+      "popularity": 106,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "Pōrutu"
+    },
+    {
+      "name": "Omubanda",
+      "aliases": [],
+      "popularity": 203,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Omubanda"
+    },
+    {
+      "name": "Slide saxophone",
+      "aliases": [
+        "Swanee-Sax",
+        "swanee saxophone",
+        "swannee sax"
+      ],
+      "popularity": 206,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Slide saxophone"
+    },
+    {
+      "name": "Mišnice",
+      "aliases": [
+        "mjeršnice"
+      ],
+      "popularity": 287,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Mišnice"
+    },
+    {
+      "name": "Omukuli",
+      "aliases": [
+        "African flute"
+      ],
+      "popularity": 305,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Omukuli"
+    },
+    {
+      "name": "Samponha",
+      "aliases": [
+        "cornemuse des Pyrenées"
+      ],
+      "popularity": 316,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Samponha"
+    },
+    {
+      "name": "Puvama",
+      "aliases": [],
+      "popularity": 380,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Puvama"
+    },
+    {
+      "name": "Floyarka",
+      "aliases": [],
+      "popularity": 381,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Floyarka"
+    },
+    {
+      "name": "Gaita cabreiresa",
+      "aliases": [],
+      "popularity": 383,
+      "rarity": 0.975,
+      "tier": 6,
+      "wiki": "Gaita cabreiresa"
+    },
+    {
+      "name": "Okraulo",
+      "aliases": [],
+      "popularity": 403,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Okraulo"
+    },
+    {
+      "name": "Ever büree",
+      "aliases": [],
+      "popularity": 414,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Ever büree"
+    },
+    {
+      "name": "Musette bressane",
+      "aliases": [],
+      "popularity": 415,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Musette bressane"
+    },
+    {
+      "name": "Nguru",
+      "aliases": [
+        "Nguru (flute)"
+      ],
+      "popularity": 438,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Nguru (flute)"
+    },
+    {
+      "name": "Schweizer Sackpfeife",
+      "aliases": [],
+      "popularity": 443,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Schweizer Sackpfeife"
+    },
+    {
+      "name": "Paldong",
+      "aliases": [],
+      "popularity": 451,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Paldong"
+    },
+    {
+      "name": "Paidi",
+      "aliases": [
+        "Paidi (instrument)"
+      ],
+      "popularity": 475,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Paidi (instrument)"
+    },
+    {
+      "name": "Octocontra-alto clarinet",
+      "aliases": [
+        "octo-contralto clarinet",
+        "octocontralto clarinet"
+      ],
+      "popularity": 486,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Octocontra-alto clarinet"
+    },
+    {
+      "name": "Sifung",
+      "aliases": [],
+      "popularity": 487,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Sifung"
+    },
+    {
+      "name": "Dilli tuiduk",
+      "aliases": [
+        "dili tuiduk"
+      ],
+      "popularity": 499,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Dilli tuiduk"
+    },
+    {
+      "name": "Lamzdeliai",
+      "aliases": [
+        "bark pipe",
+        "lamzdelis",
+        "zieves lamzdelis"
+      ],
+      "popularity": 512,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Lamzdeliai"
+    },
+    {
+      "name": "Odrecillo",
+      "aliases": [],
+      "popularity": 512,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Odrecillo"
+    },
+    {
+      "name": "Rakkopilli",
+      "aliases": [],
+      "popularity": 517,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Rakkopilli"
+    },
+    {
+      "name": "Hujia",
+      "aliases": [],
+      "popularity": 544,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Hujia"
+    },
+    {
+      "name": "Pifilca",
+      "aliases": [],
+      "popularity": 569,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Pifilca"
+    },
+    {
+      "name": "Muchosa",
+      "aliases": [],
+      "popularity": 577,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Muchosa"
+    },
+    {
+      "name": "Practice goose",
+      "aliases": [],
+      "popularity": 584,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Practice goose"
+    },
+    {
+      "name": "Loure",
+      "aliases": [
+        "Loure (bagpipe)"
+      ],
+      "popularity": 594,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Loure (bagpipe)"
+    },
+    {
+      "name": "Zubivka",
+      "aliases": [],
+      "popularity": 598,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Zubivka"
+    },
+    {
+      "name": "Reclam de xeremies",
+      "aliases": [],
+      "popularity": 628,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Reclam de xeremies"
+    },
+    {
+      "name": "Müsa",
+      "aliases": [],
+      "popularity": 643,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Müsa"
+    },
+    {
+      "name": "Gaita gastoreña",
+      "aliases": [],
+      "popularity": 662,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Gaita gastoreña"
+    },
+    {
+      "name": "Pyzhatka",
+      "aliases": [],
+      "popularity": 672,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Pyzhatka"
+    },
+    {
+      "name": "Frilka",
+      "aliases": [],
+      "popularity": 690,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Frilka"
+    },
+    {
+      "name": "Lingm",
+      "aliases": [],
+      "popularity": 703,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Lingm"
+    },
+    {
+      "name": "Šupelka",
+      "aliases": [],
+      "popularity": 723,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Šupelka"
+    },
+    {
+      "name": "Chabrette",
+      "aliases": [],
+      "popularity": 728,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Chabrette"
+    },
+    {
+      "name": "Miskal",
+      "aliases": [],
+      "popularity": 755,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Miskal"
+    },
+    {
+      "name": "Yorkshire bagpipe",
+      "aliases": [],
+      "popularity": 755,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Yorkshire bagpipe"
+    },
+    {
+      "name": "Gaita de boto",
+      "aliases": [],
+      "popularity": 759,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "Gaita de boto"
+    },
+    {
+      "name": "Yak",
+      "aliases": [
+        "Yak (instrument)"
+      ],
+      "popularity": 759,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "Yak (instrument)"
+    },
+    {
+      "name": "Gingras",
+      "aliases": [
+        "Gingras (instrument)",
+        "Gingri"
+      ],
+      "popularity": 763,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "Gingras (instrument)"
+    },
+    {
+      "name": "Graïle",
+      "aliases": [],
+      "popularity": 767,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Graïle"
+    },
+    {
+      "name": "Sjøfløyte",
+      "aliases": [
+        "byfløyte",
+        "kjøpefløyte",
+        "sea flute"
+      ],
+      "popularity": 770,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Sjøfløyte"
+    },
+    {
+      "name": "Pilai",
+      "aliases": [],
+      "popularity": 780,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Pilai"
+    },
+    {
+      "name": "Bassanello",
+      "aliases": [
+        "armilloni",
+        "bassanelli"
+      ],
+      "popularity": 805,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Bassanello"
+    },
+    {
+      "name": "Dangjeok",
+      "aliases": [
+        "tang-jok",
+        "tangjŏk"
+      ],
+      "popularity": 815,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Dangjeok"
+    },
+    {
+      "name": "Floyara",
+      "aliases": [],
+      "popularity": 828,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Floyara"
+    },
+    {
+      "name": "Zetland pipes",
+      "aliases": [],
+      "popularity": 828,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Zetland pipes"
+    },
+    {
+      "name": "Bodega",
+      "aliases": [
+        "Bodega (bagpipe)",
+        "craba"
+      ],
+      "popularity": 838,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Bodega (bagpipe)"
+    },
+    {
+      "name": "Minteki",
+      "aliases": [],
+      "popularity": 864,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Minteki"
+    },
+    {
+      "name": "Ney-anbān",
+      "aliases": [],
+      "popularity": 889,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Ney-anbān"
+    },
+    {
+      "name": "Tenor sarrusophone",
+      "aliases": [],
+      "popularity": 891,
+      "rarity": 0.858,
+      "tier": 5,
+      "wiki": "Tenor sarrusophone"
+    },
+    {
+      "name": "Piva",
+      "aliases": [
+        "Piva (bagpipe)",
+        "piva emiliana"
+      ],
+      "popularity": 895,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Piva (bagpipe)"
+    },
+    {
+      "name": "Chiba",
+      "aliases": [
+        "Chiba (instrument)"
+      ],
+      "popularity": 918,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Chiba (instrument)"
+    },
+    {
+      "name": "Selmer Cigar Cutter",
+      "aliases": [],
+      "popularity": 919,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Selmer Cigar Cutter"
+    },
+    {
+      "name": "Pifana",
+      "aliases": [],
+      "popularity": 920,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Pifana"
+    },
+    {
+      "name": "Härjedalspipa",
+      "aliases": [],
+      "popularity": 933,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Härjedalspipa"
+    },
+    {
+      "name": "Sac de gemecs",
+      "aliases": [
+        "botella",
+        "buna",
+        "coixinera"
+      ],
+      "popularity": 934,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Sac de gemecs"
+    },
+    {
+      "name": "Tibia",
+      "aliases": [
+        "Tibia (organ pipe)"
+      ],
+      "popularity": 959,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Tibia (organ pipe)"
+    },
+    {
+      "name": "Dūdas",
+      "aliases": [
+        "Latvian bagpipes",
+        "somas stabules"
+      ],
+      "popularity": 979,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Dūdas"
+    },
+    {
+      "name": "Surma-horn",
+      "aliases": [
+        "surma"
+      ],
+      "popularity": 991,
+      "rarity": 0.834,
+      "tier": 5,
+      "wiki": "Surma-horn"
+    },
+    {
+      "name": "Bülban",
+      "aliases": [],
+      "popularity": 995,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Bülban"
+    },
+    {
+      "name": "Cornemuse du Centre",
+      "aliases": [],
+      "popularity": 1009,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Cornemuse du Centre"
+    },
+    {
+      "name": "Kalyuka",
+      "aliases": [],
+      "popularity": 1027,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Kalyuka"
+    },
+    {
+      "name": "Pea whistle",
+      "aliases": [
+        "trill whistle"
+      ],
+      "popularity": 1035,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Pea whistle"
+    },
+    {
+      "name": "Swallow's nest organ",
+      "aliases": [],
+      "popularity": 1037,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Swallow's nest organ"
+    },
+    {
+      "name": "Dilli kaval",
+      "aliases": [
+        "Tutek"
+      ],
+      "popularity": 1043,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Dilli kaval"
+    },
+    {
+      "name": "Istarski mih",
+      "aliases": [],
+      "popularity": 1058,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Istarski mih"
+    },
+    {
+      "name": "Vox Maris",
+      "aliases": [
+        "Vox Maris (musical instrument)"
+      ],
+      "popularity": 1064,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Vox Maris (musical instrument)"
+    },
+    {
+      "name": "Bass sarrusophone",
+      "aliases": [],
+      "popularity": 1068,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Bass sarrusophone"
+    },
+    {
+      "name": "Reel pipes",
+      "aliases": [
+        "half set"
+      ],
+      "popularity": 1110,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Reel pipes"
+    },
+    {
+      "name": "Fipple flutes",
+      "aliases": [
+        "block flutes",
+        "duct flute",
+        "duct flutes",
+        "flutes with duct",
+        "whistle flutes"
+      ],
+      "popularity": 1124,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Fipple flutes"
+    },
+    {
+      "name": "Souravli",
+      "aliases": [
+        "suravli"
+      ],
+      "popularity": 1178,
+      "rarity": 0.801,
+      "tier": 5,
+      "wiki": "Souravli"
+    },
+    {
+      "name": "Ottu",
+      "aliases": [
+        "Ottu (instrument)"
+      ],
+      "popularity": 1185,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Ottu (instrument)"
+    },
+    {
+      "name": "Larchemi",
+      "aliases": [],
+      "popularity": 1189,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Larchemi"
+    },
+    {
+      "name": "Boha",
+      "aliases": [],
+      "popularity": 1191,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Boha"
+    },
+    {
+      "name": "Kuvytsi",
+      "aliases": [
+        "Kugikly"
+      ],
+      "popularity": 1200,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Kuvytsi"
+    },
+    {
+      "name": "Sodina",
+      "aliases": [],
+      "popularity": 1203,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Sodina"
+    },
+    {
+      "name": "Alto sarrusophone",
+      "aliases": [],
+      "popularity": 1214,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Alto sarrusophone"
+    },
+    {
+      "name": "Xeremia",
+      "aliases": [],
+      "popularity": 1236,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Xeremia"
+    },
+    {
+      "name": "Veuze",
+      "aliases": [],
+      "popularity": 1241,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Veuze"
+    },
+    {
+      "name": "Spilåpipa",
+      "aliases": [
+        "låtpipa",
+        "spälapipa",
+        "spelpipa"
+      ],
+      "popularity": 1255,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Spilåpipa"
+    },
+    {
+      "name": "Sordun",
+      "aliases": [],
+      "popularity": 1259,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Sordun"
+    },
+    {
+      "name": "Schäferpfeife",
+      "aliases": [],
+      "popularity": 1378,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Schäferpfeife"
+    },
+    {
+      "name": "Baritone sarrusophone",
+      "aliases": [],
+      "popularity": 1399,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Baritone sarrusophone"
+    },
+    {
+      "name": "Ligature",
+      "aliases": [
+        "Ligature (instrument)"
+      ],
+      "popularity": 1409,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Ligature (instrument)"
+    },
+    {
+      "name": "Trompeta china",
+      "aliases": [],
+      "popularity": 1433,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Trompeta china"
+    },
+    {
+      "name": "Soprano sarrusophone",
+      "aliases": [],
+      "popularity": 1457,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Soprano sarrusophone"
+    },
+    {
+      "name": "Xirula",
+      "aliases": [
+        "txirula"
+      ],
+      "popularity": 1458,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Xirula"
+    },
+    {
+      "name": "Parkapzuk",
+      "aliases": [
+        "tik"
+      ],
+      "popularity": 1465,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Parkapzuk"
+    },
+    {
+      "name": "Baroque flute",
+      "aliases": [
+        "traverso"
+      ],
+      "popularity": 1518,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Baroque flute"
+    },
+    {
+      "name": "Limbe",
+      "aliases": [
+        "Limbe (instrument)"
+      ],
+      "popularity": 1539,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Limbe (instrument)"
+    },
+    {
+      "name": "Wot",
+      "aliases": [
+        "vot",
+        "Wot (instrument)"
+      ],
+      "popularity": 1549,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Wot (instrument)"
+    },
+    {
+      "name": "Moldavian fluier",
+      "aliases": [
+        "fluier fără dop"
+      ],
+      "popularity": 1573,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Moldavian fluier"
+    },
+    {
+      "name": "Quarter tone clarinet",
+      "aliases": [],
+      "popularity": 1599,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Quarter tone clarinet"
+    },
+    {
+      "name": "Saluang",
+      "aliases": [],
+      "popularity": 1610,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Saluang"
+    },
+    {
+      "name": "Diplica",
+      "aliases": [],
+      "popularity": 1617,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Diplica"
+    },
+    {
+      "name": "Koza",
+      "aliases": [
+        "Koza (bagpipe)",
+        "volynka"
+      ],
+      "popularity": 1640,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Koza (bagpipe)"
+    },
+    {
+      "name": "Kèn bầu",
+      "aliases": [],
+      "popularity": 1670,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Kèn bầu"
+    },
+    {
+      "name": "Sub-contrabass recorder",
+      "aliases": [],
+      "popularity": 1674,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Sub-contrabass recorder"
+    },
+    {
+      "name": "Doedelzak",
+      "aliases": [
+        "moezelzak",
+        "pijpzak"
+      ],
+      "popularity": 1683,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Doedelzak"
+    },
+    {
+      "name": "Surdelina",
+      "aliases": [],
+      "popularity": 1684,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Surdelina"
+    },
+    {
+      "name": "Cabrette",
+      "aliases": [],
+      "popularity": 1699,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Cabrette"
+    },
+    {
+      "name": "Salamuri",
+      "aliases": [],
+      "popularity": 1699,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Salamuri"
+    },
+    {
+      "name": "Residence organ",
+      "aliases": [
+        "Chamber organs"
+      ],
+      "popularity": 1702,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Residence organ"
+    },
+    {
+      "name": "Xindi",
+      "aliases": [
+        "Xindi (instrument)"
+      ],
+      "popularity": 1727,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Xindi (instrument)"
+    },
+    {
+      "name": "Hot fountain pen",
+      "aliases": [
+        "fountain pen",
+        "red hot fountain pen"
+      ],
+      "popularity": 1733,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Hot fountain pen"
+    },
+    {
+      "name": "Subcontrabass clarinet",
+      "aliases": [
+        "octo-contrabass clarinet",
+        "octocontrabass clarinet"
+      ],
+      "popularity": 1740,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Subcontrabass clarinet"
+    },
+    {
+      "name": "Dvoyanka",
+      "aliases": [],
+      "popularity": 1753,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Dvoyanka"
+    },
+    {
+      "name": "Stritch",
+      "aliases": [
+        "Buescher straight alto",
+        "straight alto",
+        "straight alto saxophone",
+        "Stritch (saxophone)"
+      ],
+      "popularity": 1763,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Stritch (saxophone)"
+    },
+    {
+      "name": "Dentsivka",
+      "aliases": [],
+      "popularity": 1764,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Dentsivka"
+    },
+    {
+      "name": "Hirtenschalmei",
+      "aliases": [
+        "shepherd's shawm"
+      ],
+      "popularity": 1801,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Hirtenschalmei"
+    },
+    {
+      "name": "Diaulos",
+      "aliases": [
+        "Diaulos (instrument)"
+      ],
+      "popularity": 1802,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Diaulos (instrument)"
+    },
+    {
+      "name": "Catalan shawm",
+      "aliases": [],
+      "popularity": 1875,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Catalan shawm"
+    },
+    {
+      "name": "Heckel-clarina",
+      "aliases": [],
+      "popularity": 1879,
+      "rarity": 0.687,
+      "tier": 4,
+      "wiki": "Heckel-clarina"
+    },
+    {
+      "name": "Sogeum",
+      "aliases": [
+        "sogŭm"
+      ],
+      "popularity": 1897,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Sogeum"
+    },
+    {
+      "name": "Khloy",
+      "aliases": [],
+      "popularity": 1920,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Khloy"
+    },
+    {
+      "name": "Birbynė",
+      "aliases": [
+        "klernata",
+        "parputas",
+        "ragelis"
+      ],
+      "popularity": 1943,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Birbynė"
+    },
+    {
+      "name": "Reed contrabass",
+      "aliases": [
+        "contrabbasso ad ancia",
+        "contrebasse à anche"
+      ],
+      "popularity": 1959,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Reed contrabass"
+    },
+    {
+      "name": "Gudastviri",
+      "aliases": [
+        "chiboni",
+        "stviri",
+        "tulumi"
+      ],
+      "popularity": 2009,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Gudastviri"
+    },
+    {
+      "name": "Brian Boru bagpipes",
+      "aliases": [
+        "Brian Boru bagpipe"
+      ],
+      "popularity": 2010,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Brian Boru bagpipes"
+    },
+    {
+      "name": "Rondador",
+      "aliases": [],
+      "popularity": 2034,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "Rondador"
+    },
+    {
+      "name": "Tumpong",
+      "aliases": [
+        "inci"
+      ],
+      "popularity": 2037,
+      "rarity": 0.665,
+      "tier": 4,
+      "wiki": "Tumpong"
+    },
+    {
+      "name": "Molinukai",
+      "aliases": [
+        "clay whistle",
+        "molinukas",
+        "svilpaunieks",
+        "Svistulka"
+      ],
+      "popularity": 2057,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Molinukai"
+    },
+    {
+      "name": "Kortholt",
+      "aliases": [],
+      "popularity": 2058,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Kortholt"
+    },
+    {
+      "name": "Yokobue",
+      "aliases": [],
+      "popularity": 2062,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Yokobue"
+    },
+    {
+      "name": "Torupill",
+      "aliases": [
+        "kitsepill",
+        "kotepill",
+        "lootspill"
+      ],
+      "popularity": 2070,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Torupill"
+    },
+    {
+      "name": "Sring",
+      "aliases": [],
+      "popularity": 2093,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Sring"
+    },
+    {
+      "name": "Tambin",
+      "aliases": [],
+      "popularity": 2096,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Tambin"
+    },
+    {
+      "name": "Komabue",
+      "aliases": [],
+      "popularity": 2109,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Komabue"
+    },
+    {
+      "name": "Pinkillu",
+      "aliases": [
+        "pinkillo",
+        "pinkuyllu",
+        "pinqullu"
+      ],
+      "popularity": 2115,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Pinkillu"
+    },
+    {
+      "name": "Simple system flute",
+      "aliases": [],
+      "popularity": 2138,
+      "rarity": 0.64,
+      "tier": 4,
+      "wiki": "Simple system flute"
+    },
+    {
+      "name": "Huemmelchen",
+      "aliases": [
+        "hümmelchen"
+      ],
+      "popularity": 2177,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Huemmelchen"
+    },
+    {
+      "name": "Protos",
+      "aliases": [
+        "Protos (monastic office)"
+      ],
+      "popularity": 2198,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Protos (monastic office)"
+    },
+    {
+      "name": "Folgerphone",
+      "aliases": [],
+      "popularity": 2213,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Folgerphone"
+    },
+    {
+      "name": "Pommer",
+      "aliases": [],
+      "popularity": 2216,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Pommer"
+    },
+    {
+      "name": "Askomandoura",
+      "aliases": [],
+      "popularity": 2225,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Askomandoura"
+    },
+    {
+      "name": "Tarka",
+      "aliases": [
+        "anata",
+        "tarca",
+        "Tarka (flute)",
+        "tharka",
+        "tharqa"
+      ],
+      "popularity": 2230,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Tarka (flute)"
+    },
+    {
+      "name": "Symphonic organ",
+      "aliases": [],
+      "popularity": 2264,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Symphonic organ"
+    },
+    {
+      "name": "Cromorne",
+      "aliases": [],
+      "popularity": 2272,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Cromorne"
+    },
+    {
+      "name": "Dozaleh",
+      "aliases": [
+        "Dozale",
+        "ghoshmeh",
+        "koshnay",
+        "qoʻshnay"
+      ],
+      "popularity": 2327,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Dozaleh"
+    },
+    {
+      "name": "Swedish bagpipes",
+      "aliases": [
+        "säckpipa"
+      ],
+      "popularity": 2357,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Swedish bagpipes"
+    },
+    {
+      "name": "Telenka",
+      "aliases": [
+        "shepherd's flute",
+        "Tilincă",
+        "Tilinka"
+      ],
+      "popularity": 2374,
+      "rarity": 0.61,
+      "tier": 4,
+      "wiki": "Telenka"
+    },
+    {
+      "name": "Palendag",
+      "aliases": [],
+      "popularity": 2385,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Palendag"
+    },
+    {
+      "name": "Hun",
+      "aliases": [
+        "Hun (instrument)"
+      ],
+      "popularity": 2426,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Hun (instrument)"
+    },
+    {
+      "name": "Saxonette",
+      "aliases": [
+        "claribel",
+        "clariphon"
+      ],
+      "popularity": 2429,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Saxonette"
+    },
+    {
+      "name": "Kagurabue",
+      "aliases": [
+        "kagura-bue"
+      ],
+      "popularity": 2508,
+      "rarity": 0.599,
+      "tier": 3,
+      "wiki": "Kagurabue"
+    },
+    {
+      "name": "Chi",
+      "aliases": [
+        "Chi (instrument)"
+      ],
+      "popularity": 2524,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Chi (instrument)"
+    },
+    {
+      "name": "Welsh bagpipes",
+      "aliases": [
+        "pibau cymreig",
+        "pibau cyrn",
+        "Welsh bagpipe"
+      ],
+      "popularity": 2529,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Welsh bagpipes"
+    },
+    {
+      "name": "Chirimia",
+      "aliases": [
+        "chirisuya"
+      ],
+      "popularity": 2571,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Chirimia"
+    },
+    {
+      "name": "Sub-great bass recorder",
+      "aliases": [],
+      "popularity": 2575,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Sub-great bass recorder"
+    },
+    {
+      "name": "Fadno",
+      "aliases": [
+        "Sami flute"
+      ],
+      "popularity": 2583,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Fadno"
+    },
+    {
+      "name": "Zuffolo",
+      "aliases": [],
+      "popularity": 2590,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Zuffolo"
+    },
+    {
+      "name": "Sáo",
+      "aliases": [],
+      "popularity": 2605,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Sáo"
+    },
+    {
+      "name": "Csakan",
+      "aliases": [
+        "czakan",
+        "romantic recorder"
+      ],
+      "popularity": 2655,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Csakan"
+    },
+    {
+      "name": "Hotchiku",
+      "aliases": [
+        "hocchiku",
+        "hochiku"
+      ],
+      "popularity": 2713,
+      "rarity": 0.575,
+      "tier": 3,
+      "wiki": "Hotchiku"
+    },
+    {
+      "name": "Shvi",
+      "aliases": [],
+      "popularity": 2757,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Shvi"
+    },
+    {
+      "name": "Sipsi",
+      "aliases": [],
+      "popularity": 2776,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Sipsi"
+    },
+    {
+      "name": "Gralla",
+      "aliases": [
+        "Gralla (instrument)"
+      ],
+      "popularity": 2807,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Gralla (instrument)"
+    },
+    {
+      "name": "Flabiol",
+      "aliases": [
+        "flaviol"
+      ],
+      "popularity": 2817,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Flabiol"
+    },
+    {
+      "name": "Piccolo heckelphone",
+      "aliases": [],
+      "popularity": 2902,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Piccolo heckelphone"
+    },
+    {
+      "name": "Hne",
+      "aliases": [],
+      "popularity": 2944,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Hne"
+    },
+    {
+      "name": "Washint",
+      "aliases": [],
+      "popularity": 3040,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Washint"
+    },
+    {
+      "name": "Sralai",
+      "aliases": [],
+      "popularity": 3045,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Sralai"
+    },
+    {
+      "name": "Taille",
+      "aliases": [
+        "alto oboe",
+        "taille de hautbois",
+        "Taille (instrument)"
+      ],
+      "popularity": 3057,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Taille (instrument)"
+    },
+    {
+      "name": "Rothphone",
+      "aliases": [
+        "rothophone"
+      ],
+      "popularity": 3157,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Rothphone"
+    },
+    {
+      "name": "Contrabass recorder",
+      "aliases": [],
+      "popularity": 3164,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Contrabass recorder"
+    },
+    {
+      "name": "Binioù",
+      "aliases": [],
+      "popularity": 3245,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Binioù"
+    },
+    {
+      "name": "Gyaling",
+      "aliases": [
+        "gya-ling",
+        "jah-lin",
+        "jah-ling",
+        "jahlin",
+        "jahling",
+        "rgya-gling"
+      ],
+      "popularity": 3291,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Gyaling"
+    },
+    {
+      "name": "Sopranino recorder",
+      "aliases": [
+        "flautino"
+      ],
+      "popularity": 3317,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Sopranino recorder"
+    },
+    {
+      "name": "Gaita asturiana",
+      "aliases": [],
+      "popularity": 3318,
+      "rarity": 0.534,
+      "tier": 3,
+      "wiki": "Gaita asturiana"
+    },
+    {
+      "name": "Reed aerophone",
+      "aliases": [
+        "reedpipe",
+        "reedpipes"
+      ],
+      "popularity": 3321,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "Reed aerophone"
+    },
+    {
+      "name": "Voice flute",
+      "aliases": [],
+      "popularity": 3321,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "Voice flute"
+    },
+    {
+      "name": "Great bass recorder",
+      "aliases": [],
+      "popularity": 3342,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Great bass recorder"
+    },
+    {
+      "name": "Mizwad",
+      "aliases": [
+        "mezoued",
+        "mizwid"
+      ],
+      "popularity": 3395,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Mizwad"
+    },
+    {
+      "name": "Caña de millo",
+      "aliases": [],
+      "popularity": 3412,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Caña de millo"
+    },
+    {
+      "name": "Piffero",
+      "aliases": [
+        "piffaro"
+      ],
+      "popularity": 3422,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Piffero"
+    },
+    {
+      "name": "Mashak",
+      "aliases": [
+        "bin baji",
+        "maśak",
+        "mashak bin",
+        "meshek",
+        "mishek",
+        "moshaq",
+        "moshug",
+        "moshuq",
+        "mushak baja"
+      ],
+      "popularity": 3426,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Mashak"
+    },
+    {
+      "name": "Svirel",
+      "aliases": [],
+      "popularity": 3531,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Svirel"
+    },
+    {
+      "name": "Clarinet d'amore",
+      "aliases": [
+        "clarinet d'amour",
+        "clarinette d'amour"
+      ],
+      "popularity": 3537,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Clarinet d'amore"
+    },
+    {
+      "name": "Diple",
+      "aliases": [],
+      "popularity": 3564,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Diple"
+    },
+    {
+      "name": "Eagle-bone whistle",
+      "aliases": [],
+      "popularity": 3569,
+      "rarity": 0.504,
+      "tier": 3,
+      "wiki": "Eagle-bone whistle"
+    },
+    {
+      "name": "Nose whistle",
+      "aliases": [],
+      "popularity": 3678,
+      "rarity": 0.501,
+      "tier": 3,
+      "wiki": "Nose whistle"
+    },
+    {
+      "name": "Tarpa",
+      "aliases": [
+        "Tarpa (instrument)",
+        "tarpu"
+      ],
+      "popularity": 3679,
+      "rarity": 0.499,
+      "tier": 3,
+      "wiki": "Tarpa (instrument)"
+    },
+    {
+      "name": "Double clarinet",
+      "aliases": [
+        "Zummara"
+      ],
+      "popularity": 3680,
+      "rarity": 0.496,
+      "tier": 3,
+      "wiki": "Double clarinet"
+    },
+    {
+      "name": "Kuisi",
+      "aliases": [
+        "kuizi"
+      ],
+      "popularity": 3744,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Kuisi"
+    },
+    {
+      "name": "Octavin",
+      "aliases": [
+        "oktavin"
+      ],
+      "popularity": 3843,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Octavin"
+    },
+    {
+      "name": "Nohkan",
+      "aliases": [
+        "nō-flute",
+        "nō-kan",
+        "nōkan"
+      ],
+      "popularity": 3882,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "Nohkan"
+    },
+    {
+      "name": "Overtone flute",
+      "aliases": [],
+      "popularity": 3929,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Overtone flute"
+    },
+    {
+      "name": "Danso",
+      "aliases": [
+        "tanso"
+      ],
+      "popularity": 3987,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Danso"
+    },
+    {
+      "name": "Registration",
+      "aliases": [
+        "Registration (organ)"
+      ],
+      "popularity": 4018,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Registration (organ)"
+    },
+    {
+      "name": "Żaqq",
+      "aliases": [
+        "Maltese bagpipe"
+      ],
+      "popularity": 4024,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Żaqq"
+    },
+    {
+      "name": "Zhaleika",
+      "aliases": [
+        "brëlka",
+        "bryolka",
+        "fletnya",
+        "little flute",
+        "pishchelka",
+        "piszczałka",
+        "rozhok",
+        "sopel'",
+        "zgaleyka",
+        "zhaleyka",
+        "zhalijka",
+        "zhalomeika"
+      ],
+      "popularity": 4081,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Zhaleika"
+    },
+    {
+      "name": "Kawala",
+      "aliases": [
+        "salamiya",
+        "salamiyya"
+      ],
+      "popularity": 4199,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Kawala"
+    },
+    {
+      "name": "Txistu",
+      "aliases": [
+        "chistu"
+      ],
+      "popularity": 4209,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Txistu"
+    },
+    {
+      "name": "Treble flute",
+      "aliases": [],
+      "popularity": 4254,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "Treble flute"
+    },
+    {
+      "name": "Paixiao",
+      "aliases": [],
+      "popularity": 4275,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Paixiao"
+    },
+    {
+      "name": "Three-hole pipe",
+      "aliases": [
+        "flute à trois trous",
+        "tabor pipe"
+      ],
+      "popularity": 4356,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Three-hole pipe"
+    },
+    {
+      "name": "C soprano saxophone",
+      "aliases": [],
+      "popularity": 4563,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "C soprano saxophone"
+    },
+    {
+      "name": "Apito",
+      "aliases": [
+        "apito de samba",
+        "samba whistle"
+      ],
+      "popularity": 4574,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Apito"
+    },
+    {
+      "name": "Frula",
+      "aliases": [
+        "jedina",
+        "Jedinka",
+        "jednojka",
+        "Serbian flute",
+        "sviraja",
+        "svirala",
+        "svirale",
+        "žvegljica"
+      ],
+      "popularity": 4603,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Frula"
+    },
+    {
+      "name": "Turkish ney",
+      "aliases": [],
+      "popularity": 4632,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Turkish ney"
+    },
+    {
+      "name": "Soprano flute",
+      "aliases": [
+        "third flute",
+        "tierce flute"
+      ],
+      "popularity": 4688,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Soprano flute"
+    },
+    {
+      "name": "Practice chanter",
+      "aliases": [],
+      "popularity": 4698,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Practice chanter"
+    },
+    {
+      "name": "Garklein recorder",
+      "aliases": [
+        "garklein",
+        "sopranissimo recorder"
+      ],
+      "popularity": 4712,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Garklein recorder"
+    },
+    {
+      "name": "Contrabass sarrusophone",
+      "aliases": [],
+      "popularity": 4721,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "Contrabass sarrusophone"
+    },
+    {
+      "name": "Khlui",
+      "aliases": [],
+      "popularity": 4751,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Khlui"
+    },
+    {
+      "name": "Piston",
+      "aliases": [
+        "Piston (music)"
+      ],
+      "popularity": 4772,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Piston (music)"
+    },
+    {
+      "name": "Double contrabass flute",
+      "aliases": [],
+      "popularity": 4822,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Double contrabass flute"
+    },
+    {
+      "name": "Ryūteki",
+      "aliases": [],
+      "popularity": 4838,
+      "rarity": 0.428,
+      "tier": 3,
+      "wiki": "Ryūteki"
+    },
+    {
+      "name": "Wiener oboe",
+      "aliases": [
+        "Akademiemodel Wiener Oboe"
+      ],
+      "popularity": 4906,
+      "rarity": 0.425,
+      "tier": 3,
+      "wiki": "Wiener oboe"
+    },
+    {
+      "name": "Rauschpfeife",
+      "aliases": [
+        "wind-cap instrument"
+      ],
+      "popularity": 4913,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Rauschpfeife"
+    },
+    {
+      "name": "Tsampouna",
+      "aliases": [
+        "Tsambouna"
+      ],
+      "popularity": 4920,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Tsampouna"
+    },
+    {
+      "name": "Dulzaina",
+      "aliases": [
+        "dulciana"
+      ],
+      "popularity": 4925,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Dulzaina"
+    },
+    {
+      "name": "Cornamuse",
+      "aliases": [],
+      "popularity": 4932,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Cornamuse"
+    },
+    {
+      "name": "Pi",
+      "aliases": [
+        "Pi (instrument)"
+      ],
+      "popularity": 4990,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Pi (instrument)"
+    },
+    {
+      "name": "Alghoza",
+      "aliases": [
+        "alghoze",
+        "algoja",
+        "algoza",
+        "algoze",
+        "beenon",
+        "jodiya pava"
+      ],
+      "popularity": 5027,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Alghoza"
+    },
+    {
+      "name": "Anasazi flute",
+      "aliases": [],
+      "popularity": 5029,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "Anasazi flute"
+    },
+    {
+      "name": "Contra-alto flute",
+      "aliases": [
+        "contr'alto flute",
+        "contralto flute"
+      ],
+      "popularity": 5059,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Contra-alto flute"
+    },
+    {
+      "name": "Piri",
+      "aliases": [
+        "hyangp'iri",
+        "p'iri",
+        "Piri (instrument)"
+      ],
+      "popularity": 5190,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Piri (instrument)"
+    },
+    {
+      "name": "Tulum",
+      "aliases": [
+        "Tulum (bagpipe)"
+      ],
+      "popularity": 5195,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Tulum (bagpipe)"
+    },
+    {
+      "name": "Double flute",
+      "aliases": [],
+      "popularity": 5290,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Double flute"
+    },
+    {
+      "name": "Mey",
+      "aliases": [
+        "Mey (instrument)"
+      ],
+      "popularity": 5363,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Mey (instrument)"
+    },
+    {
+      "name": "Rhaita",
+      "aliases": [
+        "ghaita",
+        "ghayta"
+      ],
+      "popularity": 5399,
+      "rarity": 0.39,
+      "tier": 2,
+      "wiki": "Rhaita"
+    },
+    {
+      "name": "Kōauau",
+      "aliases": [
+        "kooauau"
+      ],
+      "popularity": 5513,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Kōauau"
+    },
+    {
+      "name": "Willow flute",
+      "aliases": [
+        "Folk pipe",
+        "natural flute",
+        "pikkvile",
+        "pitkähuilu",
+        "sälgflöjt",
+        "sallow flute",
+        "seljefløyte",
+        "willow bark flute"
+      ],
+      "popularity": 5595,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Willow flute"
+    },
+    {
+      "name": "Hornpipe",
+      "aliases": [
+        "Hornpipe (instrument)"
+      ],
+      "popularity": 5677,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Hornpipe (instrument)"
+    },
+    {
+      "name": "Tenor recorder",
+      "aliases": [],
+      "popularity": 5959,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Tenor recorder"
+    },
+    {
+      "name": "Tonette",
+      "aliases": [],
+      "popularity": 5975,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Tonette"
+    },
+    {
+      "name": "Gudi",
+      "aliases": [
+        "Gudi (instrument)",
+        "Jiahu bone flute",
+        "Jiahu gudi"
+      ],
+      "popularity": 6015,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Gudi (instrument)"
+    },
+    {
+      "name": "Flûte d'amour",
+      "aliases": [
+        "tenor flute"
+      ],
+      "popularity": 6060,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Flûte d'amour"
+    },
+    {
+      "name": "Glass flute",
+      "aliases": [
+        "crystal flute"
+      ],
+      "popularity": 6106,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Glass flute"
+    },
+    {
+      "name": "Guan",
+      "aliases": [
+        "bili",
+        "Guan (instrument)",
+        "guanzi",
+        "houguan",
+        "kouen",
+        "kuan",
+        "kuan-tzu"
+      ],
+      "popularity": 6116,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Guan (instrument)"
+    },
+    {
+      "name": "Alboka",
+      "aliases": [],
+      "popularity": 6156,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Alboka"
+    },
+    {
+      "name": "Fue",
+      "aliases": [
+        "Fue (flute)",
+        "Japanese flute"
+      ],
+      "popularity": 6181,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Fue (flute)"
+    },
+    {
+      "name": "Musette de cour",
+      "aliases": [
+        "baroque musette"
+      ],
+      "popularity": 6193,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Musette de cour"
+    },
+    {
+      "name": "Mezzo-soprano saxophone",
+      "aliases": [
+        "F alto saxophone"
+      ],
+      "popularity": 6424,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Mezzo-soprano saxophone"
+    },
+    {
+      "name": "Bombard",
+      "aliases": [
+        "Bombard (musical instrument)"
+      ],
+      "popularity": 6478,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Bombard (musical instrument)"
+    },
+    {
+      "name": "Suling",
+      "aliases": [],
+      "popularity": 6583,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Suling"
+    },
+    {
+      "name": "Sopilka",
+      "aliases": [],
+      "popularity": 6591,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Sopilka"
+    },
+    {
+      "name": "Tsuur",
+      "aliases": [],
+      "popularity": 6614,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Tsuur"
+    },
+    {
+      "name": "Taepyeongso",
+      "aliases": [
+        "hojeok",
+        "hojŏk",
+        "nallari",
+        "saenap",
+        "swaenap",
+        "tʻaepʻyŏngso"
+      ],
+      "popularity": 6624,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Taepyeongso"
+    },
+    {
+      "name": "Bass recorder",
+      "aliases": [],
+      "popularity": 6646,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Bass recorder"
+    },
+    {
+      "name": "Contraforte",
+      "aliases": [],
+      "popularity": 6828,
+      "rarity": 0.335,
+      "tier": 2,
+      "wiki": "Contraforte"
+    },
+    {
+      "name": "Launeddas",
+      "aliases": [
+        "Sardinian triple clarinet",
+        "Sardinian triple pipe"
+      ],
+      "popularity": 6952,
+      "rarity": 0.332,
+      "tier": 2,
+      "wiki": "Launeddas"
+    },
+    {
+      "name": "Mijwiz",
+      "aliases": [
+        "matbudj",
+        "mizwidj"
+      ],
+      "popularity": 7054,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Mijwiz"
+    },
+    {
+      "name": "Contrabass oboe",
+      "aliases": [],
+      "popularity": 7104,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Contrabass oboe"
+    },
+    {
+      "name": "Martinshorn",
+      "aliases": [
+        "Martin's trumpet",
+        "Martinstrompete"
+      ],
+      "popularity": 7418,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Martinshorn"
+    },
+    {
+      "name": "Border pipes",
+      "aliases": [],
+      "popularity": 7425,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Border pipes"
+    },
+    {
+      "name": "Soprano recorder",
+      "aliases": [
+        "descant recorder"
+      ],
+      "popularity": 7561,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Soprano recorder"
+    },
+    {
+      "name": "End-blown flute",
+      "aliases": [
+        "edge-blown flute",
+        "end-blown flutes",
+        "notched flute",
+        "rim-blown flute"
+      ],
+      "popularity": 7925,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "End-blown flute"
+    },
+    {
+      "name": "Hichiriki",
+      "aliases": [],
+      "popularity": 8134,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Hichiriki"
+    },
+    {
+      "name": "Gemshorn",
+      "aliases": [
+        "ĉamkorno",
+        "corno di camoscio",
+        "flûte en corne",
+        "gemscorno"
+      ],
+      "popularity": 8245,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Gemshorn"
+    },
+    {
+      "name": "Low whistle",
+      "aliases": [],
+      "popularity": 8266,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Low whistle"
+    },
+    {
+      "name": "Daegeum",
+      "aliases": [
+        "chŏ",
+        "chŏttae",
+        "daegŭm",
+        "taegŭm"
+      ],
+      "popularity": 8524,
+      "rarity": 0.305,
+      "tier": 2,
+      "wiki": "Daegeum"
+    },
+    {
+      "name": "Xaphoon",
+      "aliases": [
+        "bamboo sax"
+      ],
+      "popularity": 8581,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Xaphoon"
+    },
+    {
+      "name": "Contra-alto clarinet",
+      "aliases": [
+        "contralto clarinet",
+        "E♭ contrabass clarinet",
+        "E-flat contrabass clarinet"
+      ],
+      "popularity": 8704,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Contra-alto clarinet"
+    },
+    {
+      "name": "Nai",
+      "aliases": [
+        "muscal",
+        "Nai (pan flute)"
+      ],
+      "popularity": 8714,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Nai (pan flute)"
+    },
+    {
+      "name": "Balaban",
+      "aliases": [
+        "Balaban (instrument)",
+        "narmenay"
+      ],
+      "popularity": 8733,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Balaban (instrument)"
+    },
+    {
+      "name": "Tenoroon",
+      "aliases": [
+        "fagottino",
+        "tenor bassoon"
+      ],
+      "popularity": 8952,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Tenoroon"
+    },
+    {
+      "name": "Rackett",
+      "aliases": [
+        "sausage bassoon"
+      ],
+      "popularity": 9339,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Rackett"
+    },
+    {
+      "name": "Mizmar",
+      "aliases": [
+        "mazāmīr",
+        "Mizmar (instrument)",
+        "sa’īdī mizmār"
+      ],
+      "popularity": 9598,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Mizmar (instrument)"
+    },
+    {
+      "name": "Cimpoi",
+      "aliases": [],
+      "popularity": 9678,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Cimpoi"
+    },
+    {
+      "name": "Siku",
+      "aliases": [
+        "antara",
+        "sicu",
+        "Siku (instrument)",
+        "sikus",
+        "zampolla",
+        "zampona"
+      ],
+      "popularity": 9788,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Siku (instrument)"
+    },
+    {
+      "name": "Arghul",
+      "aliases": [
+        "arghool",
+        "arghoul",
+        "argol",
+        "argul",
+        "arqul",
+        "yarghul"
+      ],
+      "popularity": 9864,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Arghul"
+    },
+    {
+      "name": "Alto recorder",
+      "aliases": [
+        "alt block flute",
+        "treble recorder"
+      ],
+      "popularity": 10092,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Alto recorder"
+    },
+    {
+      "name": "Zampogna",
+      "aliases": [],
+      "popularity": 10446,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Zampogna"
+    },
+    {
+      "name": "A-flat clarinet",
+      "aliases": [
+        "A♭ clarinet",
+        "piccolo clarinet"
+      ],
+      "popularity": 10450,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "A-flat clarinet"
+    },
+    {
+      "name": "Fujara",
+      "aliases": [
+        "Slovak pipe"
+      ],
+      "popularity": 10459,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Fujara"
+    },
+    {
+      "name": "Shinobue",
+      "aliases": [],
+      "popularity": 10469,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Shinobue"
+    },
+    {
+      "name": "Oboe da caccia",
+      "aliases": [
+        "hunting oboe",
+        "oboe da silva",
+        "oboe de caza"
+      ],
+      "popularity": 10711,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Oboe da caccia"
+    },
+    {
+      "name": "Scottish smallpipes",
+      "aliases": [],
+      "popularity": 11137,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Scottish smallpipes"
+    },
+    {
+      "name": "Galician gaita",
+      "aliases": [
+        "Gaita galega",
+        "Gaita gallega"
+      ],
+      "popularity": 11144,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Galician gaita"
+    },
+    {
+      "name": "Subcontrabass flute",
+      "aliases": [
+        "double contr'alto flute",
+        "double contra-alto flute",
+        "double contralto flute",
+        "octocontr'alto flute",
+        "octocontra-alto flute",
+        "octocontralto flute",
+        "subcontr'alto flute",
+        "subcontra-alto flute",
+        "subcontralto flute"
+      ],
+      "popularity": 11209,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Subcontrabass flute"
+    },
+    {
+      "name": "Northumbrian smallpipes",
+      "aliases": [
+        "Northumbrian pipes"
+      ],
+      "popularity": 11526,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Northumbrian smallpipes"
+    },
+    {
+      "name": "Theatre organ",
+      "aliases": [
+        "cinema organ",
+        "theater organ"
+      ],
+      "popularity": 11589,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Theatre organ"
+    },
+    {
+      "name": "Vessel flute",
+      "aliases": [
+        "vessel flutes"
+      ],
+      "popularity": 11606,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Vessel flute"
+    },
+    {
+      "name": "Fluier",
+      "aliases": [],
+      "popularity": 11725,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Fluier"
+    },
+    {
+      "name": "Bamboo flute",
+      "aliases": [],
+      "popularity": 11803,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Bamboo flute"
+    },
+    {
+      "name": "Tárogató",
+      "aliases": [
+        "taragot",
+        "tarakava",
+        "torogoată"
+      ],
+      "popularity": 12503,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Tárogató"
+    },
+    {
+      "name": "Fairground organ",
+      "aliases": [
+        "band organ"
+      ],
+      "popularity": 12539,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Fairground organ"
+    },
+    {
+      "name": "C melody saxophone",
+      "aliases": [
+        "C-sax",
+        "C tenor"
+      ],
+      "popularity": 13031,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "C melody saxophone"
+    },
+    {
+      "name": "Tubax",
+      "aliases": [],
+      "popularity": 13120,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Tubax"
+    },
+    {
+      "name": "Steam whistle",
+      "aliases": [],
+      "popularity": 13196,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Steam whistle"
+    },
+    {
+      "name": "E-flat clarinet",
+      "aliases": [
+        "high E♭ clarinet",
+        "high E-flat clarinet",
+        "sopranino clarinet"
+      ],
+      "popularity": 13204,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "E-flat clarinet"
+    },
+    {
+      "name": "Basset clarinet",
+      "aliases": [],
+      "popularity": 13368,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Basset clarinet"
+    },
+    {
+      "name": "Dulcian",
+      "aliases": [
+        "curtal"
+      ],
+      "popularity": 13523,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Dulcian"
+    },
+    {
+      "name": "Portative organ",
+      "aliases": [
+        "organetto",
+        "portatif",
+        "portatif organ",
+        "portativ",
+        "portativ organ",
+        "portative"
+      ],
+      "popularity": 13550,
+      "rarity": 0.215,
+      "tier": 2,
+      "wiki": "Portative organ"
+    },
+    {
+      "name": "Jug",
+      "aliases": [
+        "Jug (instrument)",
+        "musical jug"
+      ],
+      "popularity": 13957,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Jug (instrument)"
+    },
+    {
+      "name": "Single-reed instrument",
+      "aliases": [
+        "reedpipes with single reeds"
+      ],
+      "popularity": 14006,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Single-reed instrument"
+    },
+    {
+      "name": "Contrabass flute",
+      "aliases": [],
+      "popularity": 14223,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Contrabass flute"
+    },
+    {
+      "name": "Quena",
+      "aliases": [
+        "qina"
+      ],
+      "popularity": 14324,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Quena"
+    },
+    {
+      "name": "Hyperbass flute",
+      "aliases": [
+        "hyper bass flute"
+      ],
+      "popularity": 14477,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Hyperbass flute"
+    },
+    {
+      "name": "Nose flute",
+      "aliases": [],
+      "popularity": 14518,
+      "rarity": 0.199,
+      "tier": 1,
+      "wiki": "Nose flute"
+    },
+    {
+      "name": "Soprano clarinet",
+      "aliases": [
+        "Bb clarinet",
+        "clarionet"
+      ],
+      "popularity": 14613,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Soprano clarinet"
+    },
+    {
+      "name": "Piccolo oboe",
+      "aliases": [
+        "musette pipe",
+        "oboe musette",
+        "piccoloboe"
+      ],
+      "popularity": 15333,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Piccolo oboe"
+    },
+    {
+      "name": "Selmer Mark VI",
+      "aliases": [],
+      "popularity": 15596,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Selmer Mark VI"
+    },
+    {
+      "name": "Pipe",
+      "aliases": [
+        "jombarde",
+        "Pipe (instrument)",
+        "wooden flute"
+      ],
+      "popularity": 15714,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Pipe (instrument)"
+    },
+    {
+      "name": "Train whistle",
+      "aliases": [
+        "air whistle",
+        "steam locomotive whistle",
+        "steam trumpet"
+      ],
+      "popularity": 16798,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Train whistle"
+    },
+    {
+      "name": "Bass oboe",
+      "aliases": [
+        "baritone oboe"
+      ],
+      "popularity": 17000,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Bass oboe"
+    },
+    {
+      "name": "Alto clarinet",
+      "aliases": [],
+      "popularity": 17189,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Alto clarinet"
+    },
+    {
+      "name": "Xiao",
+      "aliases": [
+        "dongxiao",
+        "hsiao",
+        "shuzhudi",
+        "Xiao (flute)"
+      ],
+      "popularity": 17427,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "Xiao (flute)"
+    },
+    {
+      "name": "Sarrusophone",
+      "aliases": [],
+      "popularity": 17442,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Sarrusophone"
+    },
+    {
+      "name": "Crumhorn",
+      "aliases": [
+        "cornamuto torto",
+        "crum horn",
+        "crumm horn",
+        "krummhorn",
+        "krummpfeife",
+        "kumbhorn",
+        "piva torta",
+        "piva torto",
+        "storto"
+      ],
+      "popularity": 17531,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Crumhorn"
+    },
+    {
+      "name": "Paleolithic flute",
+      "aliases": [
+        "bone flute",
+        "kapau-yetpë",
+        "waxkanii-pootaatiikanushal",
+        "yópeque"
+      ],
+      "popularity": 18035,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Paleolithic flute"
+    },
+    {
+      "name": "Slide whistle",
+      "aliases": [
+        "bird warble",
+        "jazz flute",
+        "lotos flute",
+        "lotus flute",
+        "piston flute",
+        "song whistle",
+        "swannee whistle"
+      ],
+      "popularity": 18516,
+      "rarity": 0.166,
+      "tier": 1,
+      "wiki": "Slide whistle"
+    },
+    {
+      "name": "Basset horn",
+      "aliases": [],
+      "popularity": 19069,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Basset horn"
+    },
+    {
+      "name": "Oboe d'amore",
+      "aliases": [
+        "hautbois d'amour",
+        "mezzo-soprano oboe"
+      ],
+      "popularity": 19465,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Oboe d'amore"
+    },
+    {
+      "name": "Bass flute",
+      "aliases": [],
+      "popularity": 19529,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Bass flute"
+    },
+    {
+      "name": "Heckelphone",
+      "aliases": [],
+      "popularity": 19720,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Heckelphone"
+    },
+    {
+      "name": "Irish flute",
+      "aliases": [],
+      "popularity": 20265,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Irish flute"
+    },
+    {
+      "name": "Alto flute",
+      "aliases": [],
+      "popularity": 21118,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Alto flute"
+    },
+    {
+      "name": "Nadaswaram",
+      "aliases": [
+        "Nagaswaram"
+      ],
+      "popularity": 21768,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Nadaswaram"
+    },
+    {
+      "name": "Pungi",
+      "aliases": [],
+      "popularity": 22302,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Pungi"
+    },
+    {
+      "name": "Xun",
+      "aliases": [
+        "Chinese ocarina",
+        "clay ocarina",
+        "earthen ocarina",
+        "huene",
+        "Xun (instrument)"
+      ],
+      "popularity": 22480,
+      "rarity": 0.142,
+      "tier": 1,
+      "wiki": "Xun (instrument)"
+    },
+    {
+      "name": "Sopranino saxophone",
+      "aliases": [
+        "sopranino sax"
+      ],
+      "popularity": 23497,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Sopranino saxophone"
+    },
+    {
+      "name": "Kaval",
+      "aliases": [
+        "Balkan duduk",
+        "Kaval playing",
+        "kavalče"
+      ],
+      "popularity": 23692,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Kaval"
+    },
+    {
+      "name": "Transverse flute",
+      "aliases": [
+        "side-blown flute",
+        "side-blown flutes",
+        "transverse flutes"
+      ],
+      "popularity": 24368,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Transverse flute"
+    },
+    {
+      "name": "Flageolet",
+      "aliases": [],
+      "popularity": 25301,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Flageolet"
+    },
+    {
+      "name": "Contrabass saxophone",
+      "aliases": [],
+      "popularity": 25868,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Contrabass saxophone"
+    },
+    {
+      "name": "Native American flute",
+      "aliases": [
+        "courting flute",
+        "Grandfather's flute",
+        "Indian flute",
+        "love flute",
+        "Native American courting flute",
+        "Native American love flute",
+        "Native American style flute",
+        "North American flute",
+        "Plains flute",
+        "Plains Indian courting flute"
+      ],
+      "popularity": 26916,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Native American flute"
+    },
+    {
+      "name": "Contrabass clarinet",
+      "aliases": [
+        "B♭ contrabass clarinet",
+        "B-flat contrabass clarinet",
+        "contra-bass clarinet",
+        "double bass clarinet",
+        "pedal clarinet"
+      ],
+      "popularity": 26945,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Contrabass clarinet"
+    },
+    {
+      "name": "Suona",
+      "aliases": [
+        "haidi",
+        "laba",
+        "sona",
+        "sorna"
+      ],
+      "popularity": 27348,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Suona"
+    },
+    {
+      "name": "Vox Continental",
+      "aliases": [
+        "Vox Jaguar",
+        "Vox Organ"
+      ],
+      "popularity": 27475,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Vox Continental"
+    },
+    {
+      "name": "Chalumeau",
+      "aliases": [
+        "chalumeaux",
+        "mock trumpet",
+        "pocket clarinet"
+      ],
+      "popularity": 28188,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Chalumeau"
+    },
+    {
+      "name": "Barrel organ",
+      "aliases": [
+        "crank organ",
+        "roller organ"
+      ],
+      "popularity": 30064,
+      "rarity": 0.112,
+      "tier": 1,
+      "wiki": "Barrel organ"
+    },
+    {
+      "name": "Dizi",
+      "aliases": [
+        "di zi",
+        "Dizi (instrument)",
+        "ti-tse",
+        "ti tzu",
+        "tsi-tzü"
+      ],
+      "popularity": 30458,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Dizi (instrument)"
+    },
+    {
+      "name": "Bass saxophone",
+      "aliases": [],
+      "popularity": 33405,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Bass saxophone"
+    },
+    {
+      "name": "Boatswain's call",
+      "aliases": [
+        "boatswain's pipe",
+        "bosun's whistle"
+      ],
+      "popularity": 33716,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Boatswain's call"
+    },
+    {
+      "name": "Water organ",
+      "aliases": [
+        "hydraula",
+        "hydraulic organ",
+        "hydraulos",
+        "hydraulus"
+      ],
+      "popularity": 33909,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "Water organ"
+    },
+    {
+      "name": "Soprillo",
+      "aliases": [
+        "piccolo saxophone",
+        "sopranissimo saxophone"
+      ],
+      "popularity": 34940,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Soprillo"
+    },
+    {
+      "name": "Zurna",
+      "aliases": [
+        "Curla",
+        "sırnay",
+        "sirnay",
+        "surnai",
+        "surnay",
+        "syrnay",
+        "zamour",
+        "zamr",
+        "zokra",
+        "zorna",
+        "zourna",
+        "zurla"
+      ],
+      "popularity": 36451,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Zurna"
+    },
+    {
+      "name": "Shehnai",
+      "aliases": [
+        "sarinai",
+        "sarunai",
+        "sarune",
+        "sarunei",
+        "serunai",
+        "serune"
+      ],
+      "popularity": 36525,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Shehnai"
+    },
+    {
+      "name": "Subcontrabass saxophone",
+      "aliases": [],
+      "popularity": 38144,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Subcontrabass saxophone"
+    },
+    {
+      "name": "Contrabassoon",
+      "aliases": [
+        "contra-bassoon",
+        "double bassoon"
+      ],
+      "popularity": 39519,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Contrabassoon"
+    },
+    {
+      "name": "Clarinet family",
+      "aliases": [],
+      "popularity": 40225,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Clarinet family"
+    },
+    {
+      "name": "Ney",
+      "aliases": [],
+      "popularity": 40493,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Ney"
+    },
+    {
+      "name": "Great Highland bagpipe",
+      "aliases": [
+        "Pibroch",
+        "Scottish bagpipe"
+      ],
+      "popularity": 41566,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Great Highland bagpipe"
+    },
+    {
+      "name": "Whistle",
+      "aliases": [],
+      "popularity": 44120,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Whistle"
+    },
+    {
+      "name": "Shawm",
+      "aliases": [],
+      "popularity": 44686,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Shawm"
+    },
+    {
+      "name": "Bansuri",
+      "aliases": [
+        "bansi",
+        "bansuri flute",
+        "murali",
+        "nadi",
+        "tunava",
+        "vamshi",
+        "venu"
+      ],
+      "popularity": 45544,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Bansuri"
+    },
+    {
+      "name": "Western concert flute",
+      "aliases": [
+        "Boehm flute",
+        "C flute",
+        "concert flute",
+        "orchestral flute"
+      ],
+      "popularity": 48617,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Western concert flute"
+    },
+    {
+      "name": "Dog whistle",
+      "aliases": [
+        "Galton's whistle",
+        "silent whistle"
+      ],
+      "popularity": 48773,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Dog whistle"
+    },
+    {
+      "name": "Fife",
+      "aliases": [
+        "Fife (instrument)"
+      ],
+      "popularity": 55368,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Fife (instrument)"
+    },
+    {
+      "name": "Baritone saxophone",
+      "aliases": [],
+      "popularity": 55756,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Baritone saxophone"
+    },
+    {
+      "name": "Bass clarinet",
+      "aliases": [],
+      "popularity": 56096,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Bass clarinet"
+    },
+    {
+      "name": "Soprano saxophone",
+      "aliases": [],
+      "popularity": 58902,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Soprano saxophone"
+    },
+    {
+      "name": "Tenor saxophone",
+      "aliases": [],
+      "popularity": 71170,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Tenor saxophone"
+    },
+    {
+      "name": "Duduk",
+      "aliases": [],
+      "popularity": 71798,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Duduk"
+    },
+    {
+      "name": "Tin whistle",
+      "aliases": [
+        "Clarke London Flageolet",
+        "English flageolet",
+        "feadóg",
+        "feadóg stáin",
+        "Irish whistle",
+        "penny whistle",
+        "Scottish penny whistle",
+        "siren",
+        "tin flageolet"
+      ],
+      "popularity": 73063,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Tin whistle"
+    },
+    {
+      "name": "Pan flute",
+      "aliases": [
+        "lü-lü",
+        "lülu",
+        "p'ai-hsiao",
+        "pai-hsiao",
+        "pai-ti",
+        "Pan-pipe",
+        "Pan's pipe",
+        "pan-ti",
+        "pandi",
+        "Panflute",
+        "Panpipe",
+        "panpipes",
+        "reeds of Pan",
+        "sets of end-blown flutes",
+        "syrinx"
+      ],
+      "popularity": 73229,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Pan flute"
+    },
+    {
+      "name": "Piccolo",
+      "aliases": [],
+      "popularity": 73579,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Piccolo"
+    },
+    {
+      "name": "Shakuhachi",
+      "aliases": [
+        "syakuhati"
+      ],
+      "popularity": 76324,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Shakuhachi"
+    },
+    {
+      "name": "Aulos",
+      "aliases": [],
+      "popularity": 76502,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Aulos"
+    },
+    {
+      "name": "Alto saxophone",
+      "aliases": [
+        "a. sax",
+        "a. saxophone",
+        "alto sax",
+        "E♭ alto sax",
+        "E♭ alto saxophone"
+      ],
+      "popularity": 83219,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Alto saxophone"
+    },
+    {
+      "name": "Melodica",
+      "aliases": [
+        "blow-organ",
+        "key-flute",
+        "melodión",
+        "pianica"
+      ],
+      "popularity": 100793,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Melodica"
+    },
+    {
+      "name": "Cor anglais",
+      "aliases": [
+        "English horn",
+        "tenor oboe"
+      ],
+      "popularity": 101341,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Cor anglais"
+    },
+    {
+      "name": "Uilleann pipes",
+      "aliases": [
+        "Irish Bagpipes",
+        "Irish organ",
+        "uilean pipe",
+        "uileann pipe",
+        "uilleann pipe",
+        "uilliann pipes",
+        "union pipe"
+      ],
+      "popularity": 114757,
+      "rarity": 0.025,
+      "tier": 1,
+      "wiki": "Uilleann pipes"
+    },
+    {
+      "name": "Pipe organ",
+      "aliases": [],
+      "popularity": 148591,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Pipe organ"
+    },
+    {
+      "name": "Recorder",
+      "aliases": [
+        "basset recorder",
+        "beak flute",
+        "block flute",
+        "Blockflöte",
+        "common flute",
+        "English flute",
+        "flauto dolce",
+        "flutaphone",
+        "Recorder (musical instrument)",
+        "subcontrabass recorder"
+      ],
+      "popularity": 150076,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Recorder (musical instrument)"
+    },
+    {
+      "name": "Clarinet",
+      "aliases": [],
+      "popularity": 155891,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Clarinet"
+    },
+    {
+      "name": "Flute",
+      "aliases": [
+        "edge-blown aerophones"
+      ],
+      "popularity": 177659,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Flute"
+    },
+    {
+      "name": "Oboe",
+      "aliases": [
+        "standard oboe"
+      ],
+      "popularity": 182369,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Oboe"
+    },
+    {
+      "name": "Ocarina",
+      "aliases": [],
+      "popularity": 184870,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Ocarina"
+    },
+    {
+      "name": "Bassoon",
+      "aliases": [
+        "fagot"
+      ],
+      "popularity": 188304,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Bassoon"
+    },
+    {
+      "name": "Bagpipes",
+      "aliases": [
+        "bagpipe",
+        "pipes",
+        "set of bagpipes"
+      ],
+      "popularity": 190450,
+      "rarity": 0.003,
+      "tier": 1,
+      "wiki": "Bagpipes"
+    },
+    {
+      "name": "Saxophone",
+      "aliases": [
+        "sax"
+      ],
+      "popularity": 251272,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Saxophone"
+    }
+  ]
+}

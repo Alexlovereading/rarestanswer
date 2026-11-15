@@ -1,0 +1,774 @@
+{
+  "id": "sausages",
+  "slug": "sausages",
+  "category": "food",
+  "question": "Name a sausage",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Huotuichang",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Huotuichang"
+    },
+    {
+      "name": "Taiwanese sausage",
+      "aliases": [],
+      "popularity": 83,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Taiwanese sausage"
+    },
+    {
+      "name": "Mad sausage",
+      "aliases": [
+        "Ciavàr"
+      ],
+      "popularity": 259,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Mad sausage"
+    },
+    {
+      "name": "Češnjovka",
+      "aliases": [
+        "Češnovka"
+      ],
+      "popularity": 318,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Češnjovka"
+    },
+    {
+      "name": "Azaruja sausage",
+      "aliases": [],
+      "popularity": 358,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Azaruja sausage"
+    },
+    {
+      "name": "Babic",
+      "aliases": [
+        "Babic (sausage)"
+      ],
+      "popularity": 369,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Babic (sausage)"
+    },
+    {
+      "name": "Glutinous rice sausage",
+      "aliases": [
+        "Nuo mi chang"
+      ],
+      "popularity": 390,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Glutinous rice sausage"
+    },
+    {
+      "name": "Kargyong",
+      "aliases": [],
+      "popularity": 688,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Kargyong"
+    },
+    {
+      "name": "Timoleague Brown Pudding",
+      "aliases": [],
+      "popularity": 876,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Timoleague Brown Pudding"
+    },
+    {
+      "name": "Lokerse paardenworst",
+      "aliases": [],
+      "popularity": 1373,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Lokerse paardenworst"
+    },
+    {
+      "name": "Sai gork",
+      "aliases": [],
+      "popularity": 1382,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Sai gork"
+    },
+    {
+      "name": "Androlla",
+      "aliases": [],
+      "popularity": 1386,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Androlla"
+    },
+    {
+      "name": "Mumbar dolması",
+      "aliases": [
+        "bumbar",
+        "keebah",
+        "stuffed intestines"
+      ],
+      "popularity": 1475,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Mumbar dolması"
+    },
+    {
+      "name": "Beutelwurst",
+      "aliases": [],
+      "popularity": 1489,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Beutelwurst"
+    },
+    {
+      "name": "Fläskkorv",
+      "aliases": [
+        "pork sausage"
+      ],
+      "popularity": 1543,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Fläskkorv"
+    },
+    {
+      "name": "Noumboulo",
+      "aliases": [
+        "Nouboulo"
+      ],
+      "popularity": 1545,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Noumboulo"
+    },
+    {
+      "name": "Weckewerk",
+      "aliases": [],
+      "popularity": 1653,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Weckewerk"
+    },
+    {
+      "name": "Waldviertler",
+      "aliases": [],
+      "popularity": 1679,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Waldviertler"
+    },
+    {
+      "name": "Monroe Sausage",
+      "aliases": [],
+      "popularity": 1864,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Monroe Sausage"
+    },
+    {
+      "name": "Mazzafegato",
+      "aliases": [
+        "mezzafegato",
+        "salsiccia matta"
+      ],
+      "popularity": 2042,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Mazzafegato"
+    },
+    {
+      "name": "Salame ticinese",
+      "aliases": [],
+      "popularity": 2120,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Salame ticinese"
+    },
+    {
+      "name": "Oxford sausage",
+      "aliases": [],
+      "popularity": 2231,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Oxford sausage"
+    },
+    {
+      "name": "Sabodet",
+      "aliases": [],
+      "popularity": 2265,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Sabodet"
+    },
+    {
+      "name": "Cabanatuan longganisa",
+      "aliases": [],
+      "popularity": 2457,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Cabanatuan longganisa"
+    },
+    {
+      "name": "Bregenwurst",
+      "aliases": [],
+      "popularity": 2527,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Bregenwurst"
+    },
+    {
+      "name": "Kochwurst",
+      "aliases": [
+        "precooked sausage"
+      ],
+      "popularity": 2844,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Kochwurst"
+    },
+    {
+      "name": "Cervelas de Lyon",
+      "aliases": [],
+      "popularity": 2873,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Cervelas de Lyon"
+    },
+    {
+      "name": "Regensburger Wurst",
+      "aliases": [],
+      "popularity": 3046,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Regensburger Wurst"
+    },
+    {
+      "name": "Garlic sausage",
+      "aliases": [],
+      "popularity": 3172,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Garlic sausage"
+    },
+    {
+      "name": "Ahle Wurst",
+      "aliases": [
+        "Aahle Worscht"
+      ],
+      "popularity": 3228,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Ahle Wurst"
+    },
+    {
+      "name": "Newmarket sausage",
+      "aliases": [],
+      "popularity": 3316,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Newmarket sausage"
+    },
+    {
+      "name": "Chả",
+      "aliases": [],
+      "popularity": 3574,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Chả"
+    },
+    {
+      "name": "Salsiccia cruda",
+      "aliases": [
+        "salsiccia"
+      ],
+      "popularity": 4038,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Salsiccia cruda"
+    },
+    {
+      "name": "Hmong sausage",
+      "aliases": [],
+      "popularity": 4130,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Hmong sausage"
+    },
+    {
+      "name": "Chorizo de Bilbao",
+      "aliases": [],
+      "popularity": 4263,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Chorizo de Bilbao"
+    },
+    {
+      "name": "Ham sausage",
+      "aliases": [],
+      "popularity": 4536,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Ham sausage"
+    },
+    {
+      "name": "Ryynimakkara",
+      "aliases": [],
+      "popularity": 4604,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Ryynimakkara"
+    },
+    {
+      "name": "Diot",
+      "aliases": [],
+      "popularity": 4611,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Diot"
+    },
+    {
+      "name": "Ciauscolo",
+      "aliases": [
+        "ciabuscolo",
+        "Ciauscolo PGI",
+        "ciavuscolo"
+      ],
+      "popularity": 5024,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Ciauscolo"
+    },
+    {
+      "name": "Kupati",
+      "aliases": [],
+      "popularity": 5292,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Kupati"
+    },
+    {
+      "name": "Farinheira",
+      "aliases": [],
+      "popularity": 5327,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Farinheira"
+    },
+    {
+      "name": "Gyoniku soseji",
+      "aliases": [
+        "fish sausage"
+      ],
+      "popularity": 5487,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Gyoniku soseji"
+    },
+    {
+      "name": "Blood tongue",
+      "aliases": [
+        "zungenwurst"
+      ],
+      "popularity": 5495,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Blood tongue"
+    },
+    {
+      "name": "Swiss sausages and cured meats",
+      "aliases": [
+        "Swiss sausage"
+      ],
+      "popularity": 5600,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Swiss sausages and cured meats"
+    },
+    {
+      "name": "Skilandis",
+      "aliases": [
+        "Kindziukas"
+      ],
+      "popularity": 5781,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Skilandis"
+    },
+    {
+      "name": "Extrawurst",
+      "aliases": [],
+      "popularity": 6591,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Extrawurst"
+    },
+    {
+      "name": "Frankfurter Rindswurst",
+      "aliases": [],
+      "popularity": 6980,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Frankfurter Rindswurst"
+    },
+    {
+      "name": "Smiley fritz",
+      "aliases": [],
+      "popularity": 6980,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Smiley fritz"
+    },
+    {
+      "name": "Pinkel",
+      "aliases": [],
+      "popularity": 7289,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Pinkel"
+    },
+    {
+      "name": "New Orleans hot sausage",
+      "aliases": [],
+      "popularity": 7565,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "New Orleans hot sausage"
+    },
+    {
+      "name": "Ventricina",
+      "aliases": [],
+      "popularity": 8383,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Ventricina"
+    },
+    {
+      "name": "Fermented sausage",
+      "aliases": [
+        "dried sausage",
+        "dry sausage"
+      ],
+      "popularity": 9138,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Fermented sausage"
+    },
+    {
+      "name": "Morteau sausage",
+      "aliases": [],
+      "popularity": 9305,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Morteau sausage"
+    },
+    {
+      "name": "Kulen",
+      "aliases": [],
+      "popularity": 11532,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Kulen"
+    },
+    {
+      "name": "Hog's pudding",
+      "aliases": [
+        "hogs pudding"
+      ],
+      "popularity": 11630,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Hog's pudding"
+    },
+    {
+      "name": "Lucanica",
+      "aliases": [],
+      "popularity": 11643,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Lucanica"
+    },
+    {
+      "name": "Sai oua",
+      "aliases": [
+        "Lao sausage",
+        "sai ua"
+      ],
+      "popularity": 11762,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Sai oua"
+    },
+    {
+      "name": "Brühwurst",
+      "aliases": [
+        "cooked sausage",
+        "parboiled sausage",
+        "scalded sausage"
+      ],
+      "popularity": 12967,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Brühwurst"
+    },
+    {
+      "name": "Botifarra",
+      "aliases": [],
+      "popularity": 13647,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Botifarra"
+    },
+    {
+      "name": "Saucisse de Toulouse",
+      "aliases": [],
+      "popularity": 15682,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Saucisse de Toulouse"
+    },
+    {
+      "name": "Lincolnshire sausage",
+      "aliases": [],
+      "popularity": 15966,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Lincolnshire sausage"
+    },
+    {
+      "name": "Hungarian sausages",
+      "aliases": [
+        "Kolbász"
+      ],
+      "popularity": 16690,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Hungarian sausages"
+    },
+    {
+      "name": "Loukaniko",
+      "aliases": [],
+      "popularity": 17700,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Loukaniko"
+    },
+    {
+      "name": "Battered sausage",
+      "aliases": [
+        "sausage in batter"
+      ],
+      "popularity": 17942,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Battered sausage"
+    },
+    {
+      "name": "Jagdwurst",
+      "aliases": [],
+      "popularity": 18824,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Jagdwurst"
+    },
+    {
+      "name": "Glamorgan sausage",
+      "aliases": [],
+      "popularity": 21240,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Glamorgan sausage"
+    },
+    {
+      "name": "Hot link",
+      "aliases": [
+        "Hot link (sausage)",
+        "Louisiana hot link",
+        "Louisiana red hot",
+        "red link"
+      ],
+      "popularity": 23195,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Hot link (sausage)"
+    },
+    {
+      "name": "Lebanon bologna",
+      "aliases": [],
+      "popularity": 25815,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Lebanon bologna"
+    },
+    {
+      "name": "Knackwurst",
+      "aliases": [],
+      "popularity": 26562,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Knackwurst"
+    },
+    {
+      "name": "Devon",
+      "aliases": [
+        "Devon (sausage)"
+      ],
+      "popularity": 28691,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Devon (sausage)"
+    },
+    {
+      "name": "Chả lụa",
+      "aliases": [
+        "giò lụa"
+      ],
+      "popularity": 32079,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Chả lụa"
+    },
+    {
+      "name": "Chipolata",
+      "aliases": [
+        "cocktail sausage"
+      ],
+      "popularity": 36781,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "Chipolata"
+    },
+    {
+      "name": "Cumberland sausage",
+      "aliases": [],
+      "popularity": 38768,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Cumberland sausage"
+    },
+    {
+      "name": "Summer sausage",
+      "aliases": [],
+      "popularity": 42481,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Summer sausage"
+    },
+    {
+      "name": "Braunschweiger",
+      "aliases": [
+        "Braunschweiger (sausage)"
+      ],
+      "popularity": 46889,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Braunschweiger (sausage)"
+    },
+    {
+      "name": "Frikandel",
+      "aliases": [
+        "Dutch Dawg",
+        "Freakandel"
+      ],
+      "popularity": 56788,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Frikandel"
+    },
+    {
+      "name": "Boerewors",
+      "aliases": [],
+      "popularity": 58356,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Boerewors"
+    },
+    {
+      "name": "Lorne sausage",
+      "aliases": [
+        "sliced sausage",
+        "square sausage"
+      ],
+      "popularity": 59107,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Lorne sausage"
+    },
+    {
+      "name": "Weißwurst",
+      "aliases": [
+        "Weisswurst"
+      ],
+      "popularity": 68348,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Weißwurst"
+    },
+    {
+      "name": "Pork roll",
+      "aliases": [],
+      "popularity": 68824,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Pork roll"
+    },
+    {
+      "name": "Andouillette",
+      "aliases": [],
+      "popularity": 81505,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Andouillette"
+    },
+    {
+      "name": "Andouille",
+      "aliases": [],
+      "popularity": 96747,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Andouille"
+    },
+    {
+      "name": "Kielbasa",
+      "aliases": [
+        "Polish sausage",
+        "Ukrainian sausage"
+      ],
+      "popularity": 131763,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Kielbasa"
+    },
+    {
+      "name": "Bratwurst",
+      "aliases": [],
+      "popularity": 138122,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Bratwurst"
+    },
+    {
+      "name": "Blood sausage",
+      "aliases": [],
+      "popularity": 157110,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Blood sausage"
+    },
+    {
+      "name": "'Nduja",
+      "aliases": [],
+      "popularity": 168652,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "'Nduja"
+    }
+  ]
+}

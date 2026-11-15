@@ -214,6 +214,11 @@ const siteOrigin = process.env.SITE_URL || readWranglerSiteUrl() || 'https://anv
 // slash-free — normalize once here instead of at every key construction.
 const normalizePath = (p: string) => (p !== '/' && p.endsWith('/') ? p.slice(0, -1) : p);
 
+/** /ja and /zh (including zh-tw) are removed. Do not submit those URLs. */
+function isRemovedLocalePath(pagePath: string): boolean {
+  return /^\/(?:ja|zh)(?:\/|$|-)/.test(pagePath);
+}
+
 /**
  * Decode a sitemap URL's pathname, defensively. Sitemap URLs come
  * percent-encoded, but a slug with a bare `%` that isn't valid
@@ -245,6 +250,30 @@ const categoryCoverage = new Map<string, Set<string>>();
 const lastmodMap = buildLastmodMap(noindexPaths, localeCoverage, detailCoverage, categoryCoverage);
 
 /**
+ * Hreflang entries for locales that still exist. A coverage hit for ja/zh
+ * (or any other removed code) is dropped, and x-default follows the default
+ * locale URL so the sitemap matches the single-language <head>.
+ */
+function hreflangLinks(
+  codes: Iterable<string>,
+  hrefFor: (locale: string) => string,
+): Array<{ lang: string; url: string }> | undefined {
+  const live = new Set<string>(locales);
+  const links: Array<{ lang: string; url: string }> = [];
+  for (const code of codes) {
+    if (!live.has(code)) continue;
+    links.push({
+      lang: code,
+      url: new URL(hrefFor(code), siteOrigin).href,
+    });
+  }
+  if (links.length === 0) return undefined;
+  const canonical = links.find((link) => link.lang === defaultLocale) ?? links[0];
+  links.push({ lang: 'x-default', url: canonical.url });
+  return links;
+}
+
+/**
  * Article/list hreflang alternates that match the page-level <head> truth.
  * Returns sitemap `links` items ({ lang, url }); undefined = no alternates.
  * The locale segment is anchored by its trailing slash — a bare optional
@@ -260,13 +289,9 @@ function alternatesFor(pagePath: string): Array<{ lang: string; url: string }> |
     // advertised as hreflang alternates.
     const cov = detailCoverage.get(`${art[2]}/${art[3]}`);
     if (cov) {
-      return Array.from(cov).map((l) => ({
-        lang: l,
-        url: new URL(
-          l === defaultLocale ? `/${art[2]}/${art[3]}/` : `/${l}/${art[2]}/${art[3]}/`,
-          siteOrigin,
-        ).href,
-      }));
+      return hreflangLinks(cov, (l) =>
+        l === defaultLocale ? `/${art[2]}/${art[3]}/` : `/${l}/${art[2]}/${art[3]}/`,
+      );
     }
   }
   // Category list: only locales that actually have an article in the
@@ -280,10 +305,9 @@ function alternatesFor(pagePath: string): Array<{ lang: string; url: string }> |
   ) {
     const catCov = categoryCoverage.get(list[2]);
     if (!catCov) return undefined;
-    return Array.from(catCov).map((l) => ({
-      lang: l,
-      url: new URL(l === defaultLocale ? `/${list[2]}/` : `/${l}/${list[2]}/`, siteOrigin).href,
-    }));
+    return hreflangLinks(catCov, (l) =>
+      l === defaultLocale ? `/${list[2]}/` : `/${l}/${list[2]}/`,
+    );
   }
   return undefined;
 }
@@ -340,6 +364,7 @@ export default defineConfig({
         // Play, trivia, answer hub, and per-prompt pages are real HTML routes
         // and stay listed. /game-data/*.json is the lazy play payload, not a page.
         if (pagePath === '/game-data' || pagePath.startsWith('/game-data/')) return false;
+        if (isRemovedLocalePath(pagePath)) return false;
         return (
           !noindexPaths.has(pagePath) && !(landingLinkEnabled && pagePath === '/')
         );

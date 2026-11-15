@@ -1,0 +1,553 @@
+{
+  "id": "chinese-dishes",
+  "slug": "chinese-dishes",
+  "category": "food",
+  "question": "Name a Chinese dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Chao hongguo",
+      "aliases": [
+        "Chao hong guo"
+      ],
+      "popularity": 180,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Chao hongguo"
+    },
+    {
+      "name": "Juanfen",
+      "aliases": [],
+      "popularity": 599,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Juanfen"
+    },
+    {
+      "name": "Bai ye",
+      "aliases": [],
+      "popularity": 670,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Bai ye"
+    },
+    {
+      "name": "Tang bu shuai",
+      "aliases": [
+        "Tong bat lat",
+        "Tong but lut"
+      ],
+      "popularity": 1040,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Tang bu shuai"
+    },
+    {
+      "name": "Mianwo",
+      "aliases": [],
+      "popularity": 1345,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Mianwo"
+    },
+    {
+      "name": "Baodu",
+      "aliases": [
+        "Bao du"
+      ],
+      "popularity": 1519,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Baodu"
+    },
+    {
+      "name": "Crab jujube",
+      "aliases": [],
+      "popularity": 1731,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Crab jujube"
+    },
+    {
+      "name": "Jiaoquan",
+      "aliases": [],
+      "popularity": 1893,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Jiaoquan"
+    },
+    {
+      "name": "Cantonese seafood soup",
+      "aliases": [],
+      "popularity": 2511,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Cantonese seafood soup"
+    },
+    {
+      "name": "Mao xue wang",
+      "aliases": [],
+      "popularity": 2533,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Mao xue wang"
+    },
+    {
+      "name": "Eight treasure rice",
+      "aliases": [
+        "bā bǎo fàn",
+        "Babaofan"
+      ],
+      "popularity": 3545,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Eight treasure rice"
+    },
+    {
+      "name": "Babaocai",
+      "aliases": [
+        "Happosai",
+        "Happousai",
+        "Palbochae"
+      ],
+      "popularity": 3630,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Babaocai"
+    },
+    {
+      "name": "Lychee pork",
+      "aliases": [],
+      "popularity": 3650,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Lychee pork"
+    },
+    {
+      "name": "Chinese walnut cookie",
+      "aliases": [
+        "walnut pastry"
+      ],
+      "popularity": 3922,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Chinese walnut cookie"
+    },
+    {
+      "name": "Pork knuckles and ginger stew",
+      "aliases": [
+        "jyū geuk gēung",
+        "Sweet vinegar pig's trotter",
+        "zhū jiǎo jiāng"
+      ],
+      "popularity": 4054,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Pork knuckles and ginger stew"
+    },
+    {
+      "name": "Corn crab soup",
+      "aliases": [],
+      "popularity": 4095,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Corn crab soup"
+    },
+    {
+      "name": "Yin yang fried rice",
+      "aliases": [],
+      "popularity": 4844,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Yin yang fried rice"
+    },
+    {
+      "name": "Oil noodles",
+      "aliases": [],
+      "popularity": 5233,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Oil noodles"
+    },
+    {
+      "name": "Patriotic soup",
+      "aliases": [],
+      "popularity": 5494,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Patriotic soup"
+    },
+    {
+      "name": "Lung fung soup",
+      "aliases": [],
+      "popularity": 5669,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Lung fung soup"
+    },
+    {
+      "name": "Maocai",
+      "aliases": [],
+      "popularity": 6208,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Maocai"
+    },
+    {
+      "name": "Shuizhu",
+      "aliases": [],
+      "popularity": 6388,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Shuizhu"
+    },
+    {
+      "name": "Zhangcha duck",
+      "aliases": [
+        "smoked duck",
+        "tea-smoked duck"
+      ],
+      "popularity": 6401,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Zhangcha duck"
+    },
+    {
+      "name": "Lo mai chi",
+      "aliases": [
+        "glutinous rice ball",
+        "glutinous rice dumpling",
+        "Nuomici"
+      ],
+      "popularity": 6499,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "Lo mai chi"
+    },
+    {
+      "name": "Minchee",
+      "aliases": [
+        "Min chi",
+        "Minchi"
+      ],
+      "popularity": 7029,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Minchee"
+    },
+    {
+      "name": "Fish with pickled mustard greens",
+      "aliases": [
+        "suan cai yu",
+        "suancaiyu"
+      ],
+      "popularity": 9586,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Fish with pickled mustard greens"
+    },
+    {
+      "name": "Hujiao bing",
+      "aliases": [
+        "bánh tiêu"
+      ],
+      "popularity": 9586,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Hujiao bing"
+    },
+    {
+      "name": "Double skin milk",
+      "aliases": [],
+      "popularity": 11166,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Double skin milk"
+    },
+    {
+      "name": "Yuxiang shredded pork",
+      "aliases": [
+        "fish-flavored pork slices",
+        "shredded pork with garlic sauce",
+        "yuxiang rousi",
+        "yuxiangrousi"
+      ],
+      "popularity": 11662,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Yuxiang shredded pork"
+    },
+    {
+      "name": "Black sesame soup",
+      "aliases": [
+        "black sesame paste"
+      ],
+      "popularity": 11931,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Black sesame soup"
+    },
+    {
+      "name": "Qingtuan",
+      "aliases": [],
+      "popularity": 14249,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Qingtuan"
+    },
+    {
+      "name": "Poon choi",
+      "aliases": [],
+      "popularity": 15046,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Poon choi"
+    },
+    {
+      "name": "Tangbao",
+      "aliases": [
+        "Guantang Baozi",
+        "Guantangbao"
+      ],
+      "popularity": 15575,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Tangbao"
+    },
+    {
+      "name": "Osmanthus cake",
+      "aliases": [
+        "Osmanthus jelly"
+      ],
+      "popularity": 17525,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Osmanthus cake"
+    },
+    {
+      "name": "Shanghai fried noodles",
+      "aliases": [],
+      "popularity": 17810,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Shanghai fried noodles"
+    },
+    {
+      "name": "Ngo hiang",
+      "aliases": [
+        "heh gerng",
+        "kikiam",
+        "lor bak"
+      ],
+      "popularity": 18265,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Ngo hiang"
+    },
+    {
+      "name": "Mala xiang guo",
+      "aliases": [
+        "Ma la xiang guo"
+      ],
+      "popularity": 21968,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Mala xiang guo"
+    },
+    {
+      "name": "Bakpia",
+      "aliases": [
+        "hopia"
+      ],
+      "popularity": 22202,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Bakpia"
+    },
+    {
+      "name": "Chongqing hot pot",
+      "aliases": [
+        "mala hot pot"
+      ],
+      "popularity": 22271,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Chongqing hot pot"
+    },
+    {
+      "name": "Buddha's delight",
+      "aliases": [
+        "lo han jai",
+        "lo hon jai",
+        "Luóhàn zhāi"
+      ],
+      "popularity": 24811,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Buddha's delight"
+    },
+    {
+      "name": "Sweet and sour pork",
+      "aliases": [
+        "gu lao rou",
+        "gu lou juk",
+        "gulaorou",
+        "guloujuk"
+      ],
+      "popularity": 25191,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Sweet and sour pork"
+    },
+    {
+      "name": "Tong sui",
+      "aliases": [],
+      "popularity": 27751,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Tong sui"
+    },
+    {
+      "name": "Cha siu bao",
+      "aliases": [
+        "char siu bao",
+        "roast pork bun"
+      ],
+      "popularity": 29404,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Cha siu bao"
+    },
+    {
+      "name": "Beef chow fun",
+      "aliases": [
+        "dry-fried beef ho fun"
+      ],
+      "popularity": 38419,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Beef chow fun"
+    },
+    {
+      "name": "Lamian",
+      "aliases": [
+        "la mian",
+        "pulled noodle"
+      ],
+      "popularity": 47005,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Lamian"
+    },
+    {
+      "name": "Meat floss",
+      "aliases": [
+        "Dembu",
+        "Denbu",
+        "flossy pork",
+        "meat wool",
+        "pork floss",
+        "pork sung",
+        "rousong",
+        "yuk sung"
+      ],
+      "popularity": 50667,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Meat floss"
+    },
+    {
+      "name": "Zhajiangmian",
+      "aliases": [
+        "fried sauce noodles"
+      ],
+      "popularity": 59469,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Zhajiangmian"
+    },
+    {
+      "name": "Grass jelly",
+      "aliases": [
+        "leaf jelly"
+      ],
+      "popularity": 91345,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Grass jelly"
+    },
+    {
+      "name": "Malatang",
+      "aliases": [
+        "spicy hot pot",
+        "spicy numbing hot pot",
+        "spicy numbing hot soup"
+      ],
+      "popularity": 97863,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Malatang"
+    },
+    {
+      "name": "Zongzi",
+      "aliases": [
+        "Cáe̤ng",
+        "Chàng",
+        "Chùng",
+        "Júng",
+        "rice dumpling",
+        "Tsàng",
+        "Tson",
+        "Zung"
+      ],
+      "popularity": 126495,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Zongzi"
+    },
+    {
+      "name": "Fried rice",
+      "aliases": [],
+      "popularity": 148403,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Fried rice"
+    },
+    {
+      "name": "Head cheese",
+      "aliases": [
+        "brawn"
+      ],
+      "popularity": 179178,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Head cheese"
+    },
+    {
+      "name": "Biangbiang noodles",
+      "aliases": [
+        "biang biang noodles",
+        "biangbiang noodle"
+      ],
+      "popularity": 202466,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Biangbiang noodles"
+    },
+    {
+      "name": "Century egg",
+      "aliases": [
+        "hundred-year egg",
+        "millennium egg",
+        "pidan",
+        "preserved egg",
+        "thousand-year egg",
+        "thousand-year-old egg"
+      ],
+      "popularity": 350285,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Century egg"
+    }
+  ]
+}

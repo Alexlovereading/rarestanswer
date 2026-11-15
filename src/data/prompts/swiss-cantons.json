@@ -1,0 +1,349 @@
+{
+  "id": "swiss-cantons",
+  "slug": "swiss-cantons",
+  "category": "geography",
+  "question": "Name a canton of Switzerland",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Appenzell Ausserrhoden",
+      "aliases": [
+        "Appenzell A.Rh.",
+        "Appenzell Outer Rhodes",
+        "Canton of Appenzell Ausserrhoden",
+        "Kanton Appenzell A.Rh.",
+        "Kanton Appenzell Ausserrhoden"
+      ],
+      "popularity": 17999,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Appenzell Ausserrhoden"
+    },
+    {
+      "name": "Canton of Solothurn",
+      "aliases": [
+        "Canton of Soleure",
+        "Kanton Solothurn",
+        "Soleure",
+        "Solothurn"
+      ],
+      "popularity": 18986,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Canton of Solothurn"
+    },
+    {
+      "name": "Basel-Landschaft",
+      "aliases": [
+        "Bâle-Campagne",
+        "Baselbiet",
+        "Baselland",
+        "Basle-Campagne",
+        "Basle-Country",
+        "Canton of Basel-Country",
+        "Canton of Basel-Land",
+        "Canton of Basel-Landschaft",
+        "Kanton Basel-Land",
+        "Kanton Basel-Landschaft"
+      ],
+      "popularity": 20246,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Basel-Landschaft"
+    },
+    {
+      "name": "Canton of Schaffhausen",
+      "aliases": [
+        "c.sh",
+        "Kanton Schaffhausen",
+        "Schaffhausen"
+      ],
+      "popularity": 20669,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Canton of Schaffhausen"
+    },
+    {
+      "name": "Thurgau",
+      "aliases": [
+        "Canton of Thurgau",
+        "Kanton Thurgau",
+        "Thurgovia"
+      ],
+      "popularity": 22478,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Thurgau"
+    },
+    {
+      "name": "Obwalden",
+      "aliases": [
+        "Canton of Obwald",
+        "Canton of Obwalden",
+        "Kanton Obwalden",
+        "Unterwalden ob dem Wald"
+      ],
+      "popularity": 23014,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Obwalden"
+    },
+    {
+      "name": "Nidwalden",
+      "aliases": [
+        "Canton of Nidwald",
+        "Canton of Nidwalden",
+        "Kanton Nidwalden",
+        "Nidwald",
+        "Unterwalden nid dem Wald"
+      ],
+      "popularity": 24574,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Nidwalden"
+    },
+    {
+      "name": "Canton of Glarus",
+      "aliases": [
+        "Kanton Glarus"
+      ],
+      "popularity": 26154,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Canton of Glarus"
+    },
+    {
+      "name": "Canton of Lucerne",
+      "aliases": [
+        "Canton Lucerne",
+        "Kanton Luzern",
+        "Luzern"
+      ],
+      "popularity": 27183,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Canton of Lucerne"
+    },
+    {
+      "name": "Basel-Stadt",
+      "aliases": [
+        "Bale-Ville",
+        "Basel-City",
+        "Basel-Stadt Canton",
+        "Basle-City",
+        "Basle-Stadt",
+        "Canton of Basel-Stadt",
+        "Canton of Basle-City",
+        "Kanton Basel Stadt"
+      ],
+      "popularity": 30201,
+      "rarity": 0.64,
+      "tier": 4,
+      "wiki": "Basel-Stadt"
+    },
+    {
+      "name": "Canton of Zug",
+      "aliases": [
+        "Kanton Zug",
+        "Zug Canton"
+      ],
+      "popularity": 33268,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Canton of Zug"
+    },
+    {
+      "name": "Canton of Fribourg",
+      "aliases": [
+        "Canton de Fribourg",
+        "Freiburg",
+        "Fribourg",
+        "Kanton Freiburg"
+      ],
+      "popularity": 33538,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Canton of Fribourg"
+    },
+    {
+      "name": "Canton of St. Gallen",
+      "aliases": [
+        "Canton of St. Gall",
+        "Saint Gall",
+        "Saint Gallen",
+        "Sankt Gallen",
+        "St. Gall",
+        "St Gallen"
+      ],
+      "popularity": 36467,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Canton of St. Gallen"
+    },
+    {
+      "name": "Appenzell Innerrhoden",
+      "aliases": [
+        "Appenzell Inner-Rhoden",
+        "Appenzell Inner-Rhodes",
+        "Canton of Appenzell Innerrhoden",
+        "Innerrhoden",
+        "Kanton Appenzell Innerrhoden"
+      ],
+      "popularity": 39956,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Appenzell Innerrhoden"
+    },
+    {
+      "name": "Canton of Uri",
+      "aliases": [
+        "Kanton Uri",
+        "Uri"
+      ],
+      "popularity": 42783,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Canton of Uri"
+    },
+    {
+      "name": "Canton of Neuchâtel",
+      "aliases": [
+        "Canton de Neuchâtel",
+        "Canton Neuchatel",
+        "Neuenburg"
+      ],
+      "popularity": 42808,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Canton of Neuchâtel"
+    },
+    {
+      "name": "Canton of Schwyz",
+      "aliases": [
+        "Canton of Schwytz",
+        "Kanton Schwyz",
+        "Schwytz"
+      ],
+      "popularity": 44280,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Canton of Schwyz"
+    },
+    {
+      "name": "Canton of Jura",
+      "aliases": [
+        "Canton and Republic of Jura",
+        "Canton du Jura",
+        "Canton Jura",
+        "Republic of Jura",
+        "République du Jura"
+      ],
+      "popularity": 44514,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Canton of Jura"
+    },
+    {
+      "name": "Canton of Zurich",
+      "aliases": [
+        "Canton Zurich",
+        "Zurich"
+      ],
+      "popularity": 52390,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Canton of Zurich"
+    },
+    {
+      "name": "Aargau",
+      "aliases": [
+        "Argovia",
+        "Canton of Aargau",
+        "Canton of Argovia",
+        "Kanton Aargau"
+      ],
+      "popularity": 52658,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Aargau"
+    },
+    {
+      "name": "Canton of Geneva",
+      "aliases": [
+        "Canton de Genève",
+        "CH-GE",
+        "Geneva",
+        "Geneve",
+        "Republic and Canton of Geneva"
+      ],
+      "popularity": 73165,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Canton of Geneva"
+    },
+    {
+      "name": "Canton of Bern",
+      "aliases": [
+        "Bern",
+        "Berne",
+        "Canton of Berne",
+        "the Canton of Berne"
+      ],
+      "popularity": 78859,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Canton of Bern"
+    },
+    {
+      "name": "Vaud",
+      "aliases": [
+        "Canton of Vaud",
+        "Canton Vaud",
+        "the Canton of Vaud"
+      ],
+      "popularity": 90314,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Vaud"
+    },
+    {
+      "name": "Grisons",
+      "aliases": [
+        "Canton of Grisons",
+        "Canton of the Grisons",
+        "Graubünden",
+        "Grigioni",
+        "Grischun",
+        "Rhaetian League",
+        "the Grisons"
+      ],
+      "popularity": 115723,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Grisons"
+    },
+    {
+      "name": "Ticino",
+      "aliases": [
+        "Canton of Ticino",
+        "Canton Ticino"
+      ],
+      "popularity": 127390,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Ticino"
+    },
+    {
+      "name": "Valais",
+      "aliases": [
+        "Canton of Valais",
+        "Canton of Wallis",
+        "Canton Valais"
+      ],
+      "popularity": 131444,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Valais"
+    }
+  ]
+}

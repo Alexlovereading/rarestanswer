@@ -1,0 +1,343 @@
+{
+  "id": "indian-dishes",
+  "slug": "indian-dishes",
+  "category": "food",
+  "question": "Name an Indian dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Sohari",
+      "aliases": [],
+      "popularity": 99,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Sohari"
+    },
+    {
+      "name": "Kathi roll",
+      "aliases": [
+        "kati roll"
+      ],
+      "popularity": 863,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Kathi roll"
+    },
+    {
+      "name": "Gobhi paratha",
+      "aliases": [
+        "Gobi paratha"
+      ],
+      "popularity": 1056,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Gobhi paratha"
+    },
+    {
+      "name": "Kichadi",
+      "aliases": [],
+      "popularity": 1451,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Kichadi"
+    },
+    {
+      "name": "Doodhpak",
+      "aliases": [],
+      "popularity": 2084,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Doodhpak"
+    },
+    {
+      "name": "Dahi baigana",
+      "aliases": [],
+      "popularity": 2176,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Dahi baigana"
+    },
+    {
+      "name": "Lia",
+      "aliases": [
+        "Lia (food)"
+      ],
+      "popularity": 2273,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Lia (food)"
+    },
+    {
+      "name": "Indori poha",
+      "aliases": [],
+      "popularity": 2382,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Indori poha"
+    },
+    {
+      "name": "Sweet shells",
+      "aliases": [
+        "Gavvalu"
+      ],
+      "popularity": 2546,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Sweet shells"
+    },
+    {
+      "name": "Dal tadka",
+      "aliases": [],
+      "popularity": 3051,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Dal tadka"
+    },
+    {
+      "name": "Maghaz",
+      "aliases": [
+        "Magaj"
+      ],
+      "popularity": 5022,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Maghaz"
+    },
+    {
+      "name": "Goshtaab",
+      "aliases": [
+        "Goshtaba",
+        "Goshtabe",
+        "Gushtab"
+      ],
+      "popularity": 6217,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Goshtaab"
+    },
+    {
+      "name": "Zarda",
+      "aliases": [
+        "Zarda (food)"
+      ],
+      "popularity": 8861,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Zarda (food)"
+    },
+    {
+      "name": "Kanji",
+      "aliases": [
+        "Kanji (food)"
+      ],
+      "popularity": 13530,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Kanji (food)"
+    },
+    {
+      "name": "Tunde ke kabab",
+      "aliases": [
+        "Tunday kabab"
+      ],
+      "popularity": 14652,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Tunde ke kabab"
+    },
+    {
+      "name": "Achappam",
+      "aliases": [
+        "honeycomb cookie",
+        "rose cookie"
+      ],
+      "popularity": 15522,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Achappam"
+    },
+    {
+      "name": "Pholourie",
+      "aliases": [],
+      "popularity": 17057,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Pholourie"
+    },
+    {
+      "name": "Curd rice",
+      "aliases": [],
+      "popularity": 17286,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Curd rice"
+    },
+    {
+      "name": "Avial",
+      "aliases": [],
+      "popularity": 21373,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Avial"
+    },
+    {
+      "name": "Undhiyu",
+      "aliases": [],
+      "popularity": 23587,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Undhiyu"
+    },
+    {
+      "name": "Murukku",
+      "aliases": [],
+      "popularity": 29278,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Murukku"
+    },
+    {
+      "name": "Pootharekulu",
+      "aliases": [
+        "paper sweet"
+      ],
+      "popularity": 32163,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Pootharekulu"
+    },
+    {
+      "name": "Nasi kandar",
+      "aliases": [],
+      "popularity": 34203,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Nasi kandar"
+    },
+    {
+      "name": "Dhansak",
+      "aliases": [],
+      "popularity": 35321,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Dhansak"
+    },
+    {
+      "name": "Akuri",
+      "aliases": [
+        "khaghina"
+      ],
+      "popularity": 40549,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Akuri"
+    },
+    {
+      "name": "Dhokla",
+      "aliases": [],
+      "popularity": 50302,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Dhokla"
+    },
+    {
+      "name": "Matar paneer",
+      "aliases": [
+        "Mattar paneer",
+        "muttar paneer"
+      ],
+      "popularity": 55764,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Matar paneer"
+    },
+    {
+      "name": "Pav bhaji",
+      "aliases": [
+        "Bhajee Pao",
+        "Bhajee Pav",
+        "Bhaji Pav",
+        "Pao Bhajee",
+        "Pao Bhaji",
+        "Pav Bhajee"
+      ],
+      "popularity": 57463,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Pav bhaji"
+    },
+    {
+      "name": "Appam",
+      "aliases": [
+        "āppa",
+        "hopper",
+        "kallappam",
+        "palappam",
+        "vellappam"
+      ],
+      "popularity": 61745,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Appam"
+    },
+    {
+      "name": "Chana masala",
+      "aliases": [
+        "channa masala",
+        "channay",
+        "masala channa"
+      ],
+      "popularity": 75660,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Chana masala"
+    },
+    {
+      "name": "Dal makhani",
+      "aliases": [],
+      "popularity": 88178,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Dal makhani"
+    },
+    {
+      "name": "Chole bhature",
+      "aliases": [
+        "Halwa poori",
+        "Poori Halwa"
+      ],
+      "popularity": 90523,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Chole bhature"
+    },
+    {
+      "name": "Lassi",
+      "aliases": [
+        "Sweet Lassi"
+      ],
+      "popularity": 96835,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Lassi"
+    },
+    {
+      "name": "Curry",
+      "aliases": [
+        "curries"
+      ],
+      "popularity": 311883,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Curry"
+    },
+    {
+      "name": "Chicken tikka masala",
+      "aliases": [],
+      "popularity": 449432,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Chicken tikka masala"
+    }
+  ]
+}

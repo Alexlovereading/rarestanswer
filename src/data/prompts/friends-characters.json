@@ -1,0 +1,170 @@
+{
+  "id": "friends-characters",
+  "slug": "friends-characters",
+  "category": "screen",
+  "question": "Name a Friends character",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Susan Bunch",
+      "aliases": [],
+      "popularity": 542,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Susan Bunch"
+    },
+    {
+      "name": "Amy Green",
+      "aliases": [],
+      "popularity": 4068,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Amy Green"
+    },
+    {
+      "name": "Jill Green",
+      "aliases": [
+        "Jill Green (Friends)",
+        "Rachel's Sister"
+      ],
+      "popularity": 4171,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Jill Green (Friends)"
+    },
+    {
+      "name": "Carol Willick",
+      "aliases": [],
+      "popularity": 5583,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Carol Willick"
+    },
+    {
+      "name": "Mike Hannigan",
+      "aliases": [
+        "Michael Hannigan"
+      ],
+      "popularity": 6624,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Mike Hannigan"
+    },
+    {
+      "name": "Ben Geller",
+      "aliases": [
+        "Ben Geller-Willick-Bunch"
+      ],
+      "popularity": 6964,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Ben Geller"
+    },
+    {
+      "name": "Emma Geller-Green",
+      "aliases": [
+        "Emma G. Green",
+        "Emma Geller",
+        "Emma Green",
+        "Emma Green-Geller"
+      ],
+      "popularity": 8641,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Emma Geller-Green"
+    },
+    {
+      "name": "Ursula Buffay",
+      "aliases": [
+        "Ursula Pamela Buffay"
+      ],
+      "popularity": 10427,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Ursula Buffay"
+    },
+    {
+      "name": "Richard Burke",
+      "aliases": [
+        "Richard Burke (Friends)"
+      ],
+      "popularity": 10450,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Richard Burke (Friends)"
+    },
+    {
+      "name": "Gunther",
+      "aliases": [
+        "Gunther (Friends)"
+      ],
+      "popularity": 19950,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Gunther (Friends)"
+    },
+    {
+      "name": "Ross Geller",
+      "aliases": [],
+      "popularity": 135412,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Ross Geller"
+    },
+    {
+      "name": "Rachel Green",
+      "aliases": [
+        "Rach",
+        "Rachel Greene",
+        "Rachel Karen Green"
+      ],
+      "popularity": 137942,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Rachel Green"
+    },
+    {
+      "name": "Monica Geller",
+      "aliases": [
+        "Monica Bing",
+        "Monica E. Geller",
+        "Monica E. Geller Bing"
+      ],
+      "popularity": 151609,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Monica Geller"
+    },
+    {
+      "name": "Phoebe Buffay",
+      "aliases": [
+        "Phoebe",
+        "Phoebe Buffay-Hannigan",
+        "Regina Phalange"
+      ],
+      "popularity": 155869,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Phoebe Buffay"
+    },
+    {
+      "name": "Joey Tribbiani",
+      "aliases": [],
+      "popularity": 160195,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Joey Tribbiani"
+    },
+    {
+      "name": "Chandler Bing",
+      "aliases": [
+        "Chandler M Bing",
+        "Chandler Muriel Bing"
+      ],
+      "popularity": 190128,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Chandler Bing"
+    }
+  ]
+}

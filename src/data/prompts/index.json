@@ -1,9 +1,1766 @@
 [
   {
+    "id": "african-capitals",
+    "slug": "african-capitals",
+    "category": "geography",
+    "question": "Name a national capital in Africa",
+    "answerCount": 57
+  },
+  {
+    "id": "asian-capitals",
+    "slug": "asian-capitals",
+    "category": "geography",
+    "question": "Name a national capital in Asia",
+    "answerCount": 51
+  },
+  {
+    "id": "brazilian-states",
+    "slug": "brazilian-states",
+    "category": "geography",
+    "question": "Name a Brazilian state or the Federal District",
+    "answerCount": 27
+  },
+  {
+    "id": "countries-in-africa",
+    "slug": "countries-in-africa",
+    "category": "geography",
+    "question": "Name a country in Africa",
+    "answerCount": 54
+  },
+  {
+    "id": "countries-in-asia",
+    "slug": "countries-in-asia",
+    "category": "geography",
+    "question": "Name a country in Asia",
+    "answerCount": 48
+  },
+  {
+    "id": "countries-in-central-or-south-america",
+    "slug": "countries-in-central-or-south-america",
+    "category": "geography",
+    "question": "Name a country in Central America or South America",
+    "answerCount": 19
+  },
+  {
+    "id": "countries-in-europe",
+    "slug": "countries-in-europe",
+    "category": "geography",
+    "question": "Name a country in Europe",
+    "answerCount": 49
+  },
+  {
+    "id": "countries-in-north-america",
+    "slug": "countries-in-north-america",
+    "category": "geography",
+    "question": "Name a country in North America",
+    "answerCount": 23
+  },
+  {
+    "id": "english-official-countries",
+    "slug": "english-official-countries",
+    "category": "geography",
+    "question": "Name a country where English is an official language",
+    "answerCount": 57
+  },
+  {
+    "id": "eu-member-states",
+    "slug": "eu-member-states",
+    "category": "geography",
+    "question": "Name a European Union member state",
+    "answerCount": 27
+  },
+  {
+    "id": "euro-countries",
+    "slug": "euro-countries",
+    "category": "geography",
+    "question": "Name a country that uses the euro",
+    "answerCount": 27
+  },
+  {
+    "id": "european-capitals",
+    "slug": "european-capitals",
+    "category": "geography",
+    "question": "Name a national capital in Europe",
+    "answerCount": 47
+  },
+  {
+    "id": "german-states",
+    "slug": "german-states",
+    "category": "geography",
+    "question": "Name a state of Germany",
+    "answerCount": 16
+  },
+  {
+    "id": "indian-states-and-territories",
+    "slug": "indian-states-and-territories",
+    "category": "geography",
+    "question": "Name a state or union territory of India",
+    "answerCount": 36
+  },
+  {
+    "id": "italian-regions",
+    "slug": "italian-regions",
+    "category": "geography",
+    "question": "Name a region of Italy",
+    "answerCount": 20
+  },
+  {
+    "id": "japanese-prefectures",
+    "slug": "japanese-prefectures",
+    "category": "geography",
+    "question": "Name a prefecture of Japan",
+    "answerCount": 47
+  },
+  {
+    "id": "landlocked-countries",
+    "slug": "landlocked-countries",
+    "category": "geography",
+    "question": "Name a landlocked country",
+    "answerCount": 45
+  },
+  {
+    "id": "london-boroughs",
+    "slug": "london-boroughs",
+    "category": "geography",
+    "question": "Name a London borough",
+    "answerCount": 32
+  },
+  {
+    "id": "mediterranean-countries",
+    "slug": "mediterranean-countries",
+    "category": "geography",
+    "question": "Name a country on the Mediterranean Sea",
+    "answerCount": 22
+  },
+  {
+    "id": "mexican-states",
+    "slug": "mexican-states",
+    "category": "geography",
+    "question": "Name a state of Mexico",
+    "answerCount": 31
+  },
+  {
+    "id": "nato-members",
+    "slug": "nato-members",
+    "category": "geography",
+    "question": "Name a NATO member state",
+    "answerCount": 32
+  },
+  {
+    "id": "swiss-cantons",
+    "slug": "swiss-cantons",
+    "category": "geography",
+    "question": "Name a canton of Switzerland",
+    "answerCount": 26
+  },
+  {
+    "id": "un-member-states",
+    "slug": "un-member-states",
+    "category": "geography",
+    "question": "Name a UN member state",
+    "answerCount": 193
+  },
+  {
+    "id": "unesco-sites-in-china",
+    "slug": "unesco-sites-in-china",
+    "category": "geography",
+    "question": "Name a UNESCO World Heritage Site in China",
+    "answerCount": 63
+  },
+  {
+    "id": "unesco-sites-in-france",
+    "slug": "unesco-sites-in-france",
+    "category": "geography",
+    "question": "Name a UNESCO World Heritage Site in France",
+    "answerCount": 68
+  },
+  {
+    "id": "unesco-sites-in-germany",
+    "slug": "unesco-sites-in-germany",
+    "category": "geography",
+    "question": "Name a UNESCO World Heritage Site in Germany",
+    "answerCount": 61
+  },
+  {
+    "id": "unesco-sites-in-india",
+    "slug": "unesco-sites-in-india",
+    "category": "geography",
+    "question": "Name a UNESCO World Heritage Site in India",
+    "answerCount": 54
+  },
+  {
+    "id": "unesco-sites-in-italy",
+    "slug": "unesco-sites-in-italy",
+    "category": "geography",
+    "question": "Name a UNESCO World Heritage Site in Italy",
+    "answerCount": 64
+  },
+  {
+    "id": "unesco-sites-in-japan",
+    "slug": "unesco-sites-in-japan",
+    "category": "geography",
+    "question": "Name a UNESCO World Heritage Site in Japan",
+    "answerCount": 27
+  },
+  {
+    "id": "unesco-sites-in-mexico",
+    "slug": "unesco-sites-in-mexico",
+    "category": "geography",
+    "question": "Name a UNESCO World Heritage Site in Mexico",
+    "answerCount": 31
+  },
+  {
+    "id": "unesco-sites-in-spain",
+    "slug": "unesco-sites-in-spain",
+    "category": "geography",
+    "question": "Name a UNESCO World Heritage Site in Spain",
+    "answerCount": 45
+  },
+  {
+    "id": "unesco-sites-in-the-uk",
+    "slug": "unesco-sites-in-the-uk",
+    "category": "geography",
+    "question": "Name a UNESCO World Heritage Site in the United Kingdom",
+    "answerCount": 34
+  },
+  {
+    "id": "unesco-sites-in-the-us",
+    "slug": "unesco-sites-in-the-us",
+    "category": "geography",
+    "question": "Name a UNESCO World Heritage Site in the United States",
+    "answerCount": 29
+  },
+  {
+    "id": "us-national-parks",
+    "slug": "us-national-parks",
+    "category": "geography",
+    "question": "Name a US national park",
+    "answerCount": 63
+  },
+  {
+    "id": "us-state-capitals",
+    "slug": "us-state-capitals",
+    "category": "geography",
+    "question": "Name a US state capital",
+    "answerCount": 50
+  },
+  {
+    "id": "us-states",
+    "slug": "us-states",
+    "category": "geography",
+    "question": "Name a US state",
+    "answerCount": 50
+  },
+  {
+    "id": "albatross-species",
+    "slug": "albatross-species",
+    "category": "animals",
+    "question": "Name a species of albatross",
+    "answerCount": 22
+  },
+  {
+    "id": "ankylosaurian-dinosaurs",
+    "slug": "ankylosaurian-dinosaurs",
+    "category": "animals",
+    "question": "Name an ankylosaurian dinosaur",
+    "answerCount": 89
+  },
+  {
+    "id": "ape-species",
+    "slug": "ape-species",
+    "category": "animals",
+    "question": "Name a species of ape",
+    "answerCount": 33
+  },
+  {
+    "id": "bird-orders",
+    "slug": "bird-orders",
+    "category": "animals",
+    "question": "Name an order of birds",
+    "answerCount": 47
+  },
+  {
+    "id": "bumblebee-species",
+    "slug": "bumblebee-species",
+    "category": "animals",
+    "question": "Name a species of bumblebee",
+    "answerCount": 146
+  },
+  {
+    "id": "canid-species",
+    "slug": "canid-species",
+    "category": "animals",
+    "question": "Name a species in the dog family",
+    "answerCount": 45
+  },
+  {
+    "id": "cat-breeds",
+    "slug": "cat-breeds",
+    "category": "animals",
+    "question": "Name a cat breed",
+    "answerCount": 102
+  },
+  {
+    "id": "ceratopsian-dinosaurs",
+    "slug": "ceratopsian-dinosaurs",
+    "category": "animals",
+    "question": "Name a ceratopsian dinosaur",
+    "answerCount": 91
+  },
+  {
+    "id": "chameleon-species",
+    "slug": "chameleon-species",
+    "category": "animals",
+    "question": "Name a species of chameleon",
+    "answerCount": 231
+  },
+  {
+    "id": "cobra-species",
+    "slug": "cobra-species",
+    "category": "animals",
+    "question": "Name a species of cobra",
+    "answerCount": 35
+  },
+  {
+    "id": "crane-species",
+    "slug": "crane-species",
+    "category": "animals",
+    "question": "Name a species of crane",
+    "answerCount": 15
+  },
+  {
+    "id": "crocodilian-species",
+    "slug": "crocodilian-species",
+    "category": "animals",
+    "question": "Name a species of crocodile, alligator, caiman, or gharial",
+    "answerCount": 29
+  },
+  {
+    "id": "crow-species",
+    "slug": "crow-species",
+    "category": "animals",
+    "question": "Name a species of crow or raven",
+    "answerCount": 52
+  },
+  {
+    "id": "deer-species",
+    "slug": "deer-species",
+    "category": "animals",
+    "question": "Name a species of deer",
+    "answerCount": 68
+  },
+  {
+    "id": "dog-breeds",
+    "slug": "dog-breeds",
+    "category": "animals",
+    "question": "Name a dog breed",
+    "answerCount": 623
+  },
+  {
+    "id": "falcon-species",
+    "slug": "falcon-species",
+    "category": "animals",
+    "question": "Name a species of falcon",
+    "answerCount": 42
+  },
+  {
+    "id": "felid-species",
+    "slug": "felid-species",
+    "category": "animals",
+    "question": "Name a species in the cat family",
+    "answerCount": 54
+  },
+  {
+    "id": "finch-species",
+    "slug": "finch-species",
+    "category": "animals",
+    "question": "Name a species of finch",
+    "answerCount": 226
+  },
+  {
+    "id": "flying-fox-species",
+    "slug": "flying-fox-species",
+    "category": "animals",
+    "question": "Name a species of flying fox",
+    "answerCount": 203
+  },
+  {
+    "id": "gibbon-species",
+    "slug": "gibbon-species",
+    "category": "animals",
+    "question": "Name a species of gibbon",
+    "answerCount": 20
+  },
+  {
     "id": "great-ape-species",
     "slug": "great-ape-species",
     "category": "animals",
     "question": "Name a species of great ape",
     "answerCount": 8
+  },
+  {
+    "id": "gull-species",
+    "slug": "gull-species",
+    "category": "animals",
+    "question": "Name a species of gull or tern",
+    "answerCount": 107
+  },
+  {
+    "id": "hadrosaur-dinosaurs",
+    "slug": "hadrosaur-dinosaurs",
+    "category": "animals",
+    "question": "Name a hadrosaur",
+    "answerCount": 86
+  },
+  {
+    "id": "hornbill-species",
+    "slug": "hornbill-species",
+    "category": "animals",
+    "question": "Name a species of hornbill",
+    "answerCount": 63
+  },
+  {
+    "id": "hummingbird-species",
+    "slug": "hummingbird-species",
+    "category": "animals",
+    "question": "Name a species of hummingbird",
+    "answerCount": 376
+  },
+  {
+    "id": "iguana-species",
+    "slug": "iguana-species",
+    "category": "animals",
+    "question": "Name a species of iguana",
+    "answerCount": 46
+  },
+  {
+    "id": "kingfisher-species",
+    "slug": "kingfisher-species",
+    "category": "animals",
+    "question": "Name a species of kingfisher",
+    "answerCount": 125
+  },
+  {
+    "id": "lemur-species",
+    "slug": "lemur-species",
+    "category": "animals",
+    "question": "Name a species of lemur",
+    "answerCount": 131
+  },
+  {
+    "id": "marsupial-species",
+    "slug": "marsupial-species",
+    "category": "animals",
+    "question": "Name a species of kangaroo, wallaby, koala, wombat, or possum",
+    "answerCount": 150
+  },
+  {
+    "id": "monitor-lizard-species",
+    "slug": "monitor-lizard-species",
+    "category": "animals",
+    "question": "Name a species of monitor lizard",
+    "answerCount": 96
+  },
+  {
+    "id": "newt-species",
+    "slug": "newt-species",
+    "category": "animals",
+    "question": "Name a species of newt or true salamander",
+    "answerCount": 111
+  },
+  {
+    "id": "octopus-species",
+    "slug": "octopus-species",
+    "category": "animals",
+    "question": "Name a species of octopus",
+    "answerCount": 172
+  },
+  {
+    "id": "owl-species",
+    "slug": "owl-species",
+    "category": "animals",
+    "question": "Name a species of owl",
+    "answerCount": 264
+  },
+  {
+    "id": "parrot-species",
+    "slug": "parrot-species",
+    "category": "animals",
+    "question": "Name a species of parrot",
+    "answerCount": 412
+  },
+  {
+    "id": "penguin-species",
+    "slug": "penguin-species",
+    "category": "animals",
+    "question": "Name a species of penguin",
+    "answerCount": 21
+  },
+  {
+    "id": "pheasant-species",
+    "slug": "pheasant-species",
+    "category": "animals",
+    "question": "Name a species of pheasant, quail, grouse, or turkey",
+    "answerCount": 193
+  },
+  {
+    "id": "pigeon-species",
+    "slug": "pigeon-species",
+    "category": "animals",
+    "question": "Name a species of pigeon or dove",
+    "answerCount": 344
+  },
+  {
+    "id": "poison-dart-frog-species",
+    "slug": "poison-dart-frog-species",
+    "category": "animals",
+    "question": "Name a species of poison dart frog",
+    "answerCount": 207
+  },
+  {
+    "id": "python-species",
+    "slug": "python-species",
+    "category": "animals",
+    "question": "Name a species of python",
+    "answerCount": 46
+  },
+  {
+    "id": "rattlesnake-species",
+    "slug": "rattlesnake-species",
+    "category": "animals",
+    "question": "Name a species of rattlesnake",
+    "answerCount": 51
+  },
+  {
+    "id": "sauropod-dinosaurs",
+    "slug": "sauropod-dinosaurs",
+    "category": "animals",
+    "question": "Name a sauropod dinosaur",
+    "answerCount": 321
+  },
+  {
+    "id": "seal-species",
+    "slug": "seal-species",
+    "category": "animals",
+    "question": "Name a species of seal, sea lion, or walrus",
+    "answerCount": 35
+  },
+  {
+    "id": "squirrel-species",
+    "slug": "squirrel-species",
+    "category": "animals",
+    "question": "Name a species of squirrel",
+    "answerCount": 313
+  },
+  {
+    "id": "stegosaurian-dinosaurs",
+    "slug": "stegosaurian-dinosaurs",
+    "category": "animals",
+    "question": "Name a stegosaurian dinosaur",
+    "answerCount": 33
+  },
+  {
+    "id": "tortoise-species",
+    "slug": "tortoise-species",
+    "category": "animals",
+    "question": "Name a species of tortoise",
+    "answerCount": 47
+  },
+  {
+    "id": "toucan-species",
+    "slug": "toucan-species",
+    "category": "animals",
+    "question": "Name a species of toucan",
+    "answerCount": 43
+  },
+  {
+    "id": "tyrannosaurid-dinosaurs",
+    "slug": "tyrannosaurid-dinosaurs",
+    "category": "animals",
+    "question": "Name a tyrannosaurid dinosaur",
+    "answerCount": 18
+  },
+  {
+    "id": "viper-species",
+    "slug": "viper-species",
+    "category": "animals",
+    "question": "Name a species of viper",
+    "answerCount": 392
+  },
+  {
+    "id": "waterfowl-species",
+    "slug": "waterfowl-species",
+    "category": "animals",
+    "question": "Name a species of duck, goose, or swan",
+    "answerCount": 172
+  },
+  {
+    "id": "whale-or-dolphin-species",
+    "slug": "whale-or-dolphin-species",
+    "category": "animals",
+    "question": "Name a species of whale or dolphin",
+    "answerCount": 101
+  },
+  {
+    "id": "woodpecker-species",
+    "slug": "woodpecker-species",
+    "category": "animals",
+    "question": "Name a species of woodpecker",
+    "answerCount": 258
+  },
+  {
+    "id": "american-dishes",
+    "slug": "american-dishes",
+    "category": "food",
+    "question": "Name an American dish",
+    "answerCount": 51
+  },
+  {
+    "id": "beef-cuts",
+    "slug": "beef-cuts",
+    "category": "food",
+    "question": "Name a cut of beef",
+    "answerCount": 25
+  },
+  {
+    "id": "beer-styles",
+    "slug": "beer-styles",
+    "category": "food",
+    "question": "Name a beer style",
+    "answerCount": 82
+  },
+  {
+    "id": "breads",
+    "slug": "breads",
+    "category": "food",
+    "question": "Name a kind of bread",
+    "answerCount": 235
+  },
+  {
+    "id": "british-dishes",
+    "slug": "british-dishes",
+    "category": "food",
+    "question": "Name a British dish",
+    "answerCount": 20
+  },
+  {
+    "id": "chinese-dishes",
+    "slug": "chinese-dishes",
+    "category": "food",
+    "question": "Name a Chinese dish",
+    "answerCount": 54
+  },
+  {
+    "id": "citrus-fruits",
+    "slug": "citrus-fruits",
+    "category": "food",
+    "question": "Name a citrus fruit",
+    "answerCount": 85
+  },
+  {
+    "id": "coffee-drinks",
+    "slug": "coffee-drinks",
+    "category": "food",
+    "question": "Name a coffee drink",
+    "answerCount": 44
+  },
+  {
+    "id": "condiments",
+    "slug": "condiments",
+    "category": "food",
+    "question": "Name a condiment",
+    "answerCount": 107
+  },
+  {
+    "id": "culinary-herbs",
+    "slug": "culinary-herbs",
+    "category": "food",
+    "question": "Name a culinary herb",
+    "answerCount": 29
+  },
+  {
+    "id": "distilled-spirits",
+    "slug": "distilled-spirits",
+    "category": "food",
+    "question": "Name a distilled spirit",
+    "answerCount": 74
+  },
+  {
+    "id": "french-dishes",
+    "slug": "french-dishes",
+    "category": "food",
+    "question": "Name a French dish",
+    "answerCount": 43
+  },
+  {
+    "id": "fruits",
+    "slug": "fruits",
+    "category": "food",
+    "question": "Name a fruit",
+    "answerCount": 70
+  },
+  {
+    "id": "german-dishes",
+    "slug": "german-dishes",
+    "category": "food",
+    "question": "Name a German dish",
+    "answerCount": 24
+  },
+  {
+    "id": "iba-cocktails",
+    "slug": "iba-cocktails",
+    "category": "food",
+    "question": "Name an IBA official cocktail",
+    "answerCount": 95
+  },
+  {
+    "id": "indian-dishes",
+    "slug": "indian-dishes",
+    "category": "food",
+    "question": "Name an Indian dish",
+    "answerCount": 35
+  },
+  {
+    "id": "indonesian-dishes",
+    "slug": "indonesian-dishes",
+    "category": "food",
+    "question": "Name an Indonesian dish",
+    "answerCount": 188
+  },
+  {
+    "id": "iranian-dishes",
+    "slug": "iranian-dishes",
+    "category": "food",
+    "question": "Name an Iranian dish",
+    "answerCount": 16
+  },
+  {
+    "id": "italian-cheeses",
+    "slug": "italian-cheeses",
+    "category": "food",
+    "question": "Name an Italian cheese",
+    "answerCount": 34
+  },
+  {
+    "id": "italian-dishes",
+    "slug": "italian-dishes",
+    "category": "food",
+    "question": "Name an Italian dish",
+    "answerCount": 64
+  },
+  {
+    "id": "japanese-dishes",
+    "slug": "japanese-dishes",
+    "category": "food",
+    "question": "Name a Japanese dish",
+    "answerCount": 33
+  },
+  {
+    "id": "liqueurs",
+    "slug": "liqueurs",
+    "category": "food",
+    "question": "Name a liqueur",
+    "answerCount": 64
+  },
+  {
+    "id": "mexican-dishes",
+    "slug": "mexican-dishes",
+    "category": "food",
+    "question": "Name a Mexican dish",
+    "answerCount": 32
+  },
+  {
+    "id": "nigerian-dishes",
+    "slug": "nigerian-dishes",
+    "category": "food",
+    "question": "Name a Nigerian dish",
+    "answerCount": 52
+  },
+  {
+    "id": "pasta-shapes",
+    "slug": "pasta-shapes",
+    "category": "food",
+    "question": "Name a pasta shape",
+    "answerCount": 111
+  },
+  {
+    "id": "pastries",
+    "slug": "pastries",
+    "category": "food",
+    "question": "Name a pastry",
+    "answerCount": 270
+  },
+  {
+    "id": "philippine-dishes",
+    "slug": "philippine-dishes",
+    "category": "food",
+    "question": "Name a Philippine dish",
+    "answerCount": 45
+  },
+  {
+    "id": "sausages",
+    "slug": "sausages",
+    "category": "food",
+    "question": "Name a sausage",
+    "answerCount": 86
+  },
+  {
+    "id": "soups",
+    "slug": "soups",
+    "category": "food",
+    "question": "Name a soup",
+    "answerCount": 371
+  },
+  {
+    "id": "spanish-dishes",
+    "slug": "spanish-dishes",
+    "category": "food",
+    "question": "Name a Spanish dish",
+    "answerCount": 23
+  },
+  {
+    "id": "spices",
+    "slug": "spices",
+    "category": "food",
+    "question": "Name a spice",
+    "answerCount": 49
+  },
+  {
+    "id": "turkish-dishes",
+    "slug": "turkish-dishes",
+    "category": "food",
+    "question": "Name a Turkish dish",
+    "answerCount": 63
+  },
+  {
+    "id": "vietnamese-dishes",
+    "slug": "vietnamese-dishes",
+    "category": "food",
+    "question": "Name a Vietnamese dish",
+    "answerCount": 17
+  },
+  {
+    "id": "bundesliga-clubs",
+    "slug": "bundesliga-clubs",
+    "category": "sports",
+    "question": "Name a current Bundesliga club",
+    "answerCount": 17
+  },
+  {
+    "id": "champions-league-winners",
+    "slug": "champions-league-winners",
+    "category": "sports",
+    "question": "Name a club that has won the European Cup or UEFA Champions League",
+    "answerCount": 24
+  },
+  {
+    "id": "combat-sports",
+    "slug": "combat-sports",
+    "category": "sports",
+    "question": "Name a combat sport",
+    "answerCount": 48
+  },
+  {
+    "id": "eredivisie-clubs",
+    "slug": "eredivisie-clubs",
+    "category": "sports",
+    "question": "Name a current Eredivisie club",
+    "answerCount": 18
+  },
+  {
+    "id": "fifa-world-cup-tournaments",
+    "slug": "fifa-world-cup-tournaments",
+    "category": "sports",
+    "question": "Name a FIFA World Cup tournament",
+    "answerCount": 23
+  },
+  {
+    "id": "la-liga-clubs",
+    "slug": "la-liga-clubs",
+    "category": "sports",
+    "question": "Name a current La Liga club",
+    "answerCount": 20
+  },
+  {
+    "id": "ligue-1-clubs",
+    "slug": "ligue-1-clubs",
+    "category": "sports",
+    "question": "Name a current Ligue 1 club",
+    "answerCount": 18
+  },
+  {
+    "id": "martial-arts",
+    "slug": "martial-arts",
+    "category": "sports",
+    "question": "Name a martial art",
+    "answerCount": 154
+  },
+  {
+    "id": "mlb-teams",
+    "slug": "mlb-teams",
+    "category": "sports",
+    "question": "Name a current MLB team",
+    "answerCount": 30
+  },
+  {
+    "id": "mls-clubs",
+    "slug": "mls-clubs",
+    "category": "sports",
+    "question": "Name a current MLS club",
+    "answerCount": 30
+  },
+  {
+    "id": "nba-teams",
+    "slug": "nba-teams",
+    "category": "sports",
+    "question": "Name a current NBA team",
+    "answerCount": 30
+  },
+  {
+    "id": "nfl-teams",
+    "slug": "nfl-teams",
+    "category": "sports",
+    "question": "Name a current NFL team",
+    "answerCount": 32
+  },
+  {
+    "id": "nhl-teams",
+    "slug": "nhl-teams",
+    "category": "sports",
+    "question": "Name a current NHL team",
+    "answerCount": 32
+  },
+  {
+    "id": "paris-2024-sports",
+    "slug": "paris-2024-sports",
+    "category": "sports",
+    "question": "Name a sport at the 2024 Summer Olympics",
+    "answerCount": 37
+  },
+  {
+    "id": "premier-league-clubs",
+    "slug": "premier-league-clubs",
+    "category": "sports",
+    "question": "Name a current Premier League club",
+    "answerCount": 20
+  },
+  {
+    "id": "primeira-liga-clubs",
+    "slug": "primeira-liga-clubs",
+    "category": "sports",
+    "question": "Name a current Primeira Liga club",
+    "answerCount": 18
+  },
+  {
+    "id": "serie-a-clubs",
+    "slug": "serie-a-clubs",
+    "category": "sports",
+    "question": "Name a current Serie A club",
+    "answerCount": 20
+  },
+  {
+    "id": "spiel-des-jahres",
+    "slug": "spiel-des-jahres",
+    "category": "sports",
+    "question": "Name a Spiel des Jahres winner",
+    "answerCount": 46
+  },
+  {
+    "id": "world-cup-host-countries",
+    "slug": "world-cup-host-countries",
+    "category": "sports",
+    "question": "Name a country that has hosted the FIFA World Cup",
+    "answerCount": 19
+  },
+  {
+    "id": "world-series-winners",
+    "slug": "world-series-winners",
+    "category": "sports",
+    "question": "Name a World Series winning team",
+    "answerCount": 30
+  },
+  {
+    "id": "avatar-characters",
+    "slug": "avatar-characters",
+    "category": "screen",
+    "question": "Name an Avatar: The Last Airbender character",
+    "answerCount": 17
+  },
+  {
+    "id": "best-animated-feature-films",
+    "slug": "best-animated-feature-films",
+    "category": "screen",
+    "question": "Name a film that won the Oscar for Best Animated Feature",
+    "answerCount": 25
+  },
+  {
+    "id": "best-director-winners",
+    "slug": "best-director-winners",
+    "category": "screen",
+    "question": "Name a winner of the Academy Award for Best Director",
+    "answerCount": 77
+  },
+  {
+    "id": "best-picture-winners",
+    "slug": "best-picture-winners",
+    "category": "screen",
+    "question": "Name a Best Picture winner",
+    "answerCount": 98
+  },
+  {
+    "id": "disney-animated-films",
+    "slug": "disney-animated-films",
+    "category": "screen",
+    "question": "Name a Walt Disney Animation Studios film",
+    "answerCount": 96
+  },
+  {
+    "id": "friends-characters",
+    "slug": "friends-characters",
+    "category": "screen",
+    "question": "Name a Friends character",
+    "answerCount": 16
+  },
+  {
+    "id": "game-of-thrones-characters",
+    "slug": "game-of-thrones-characters",
+    "category": "screen",
+    "question": "Name a Game of Thrones character",
+    "answerCount": 50
+  },
+  {
+    "id": "ghibli-films",
+    "slug": "ghibli-films",
+    "category": "screen",
+    "question": "Name a Studio Ghibli film",
+    "answerCount": 38
+  },
+  {
+    "id": "hitchcock-films",
+    "slug": "hitchcock-films",
+    "category": "screen",
+    "question": "Name an Alfred Hitchcock film",
+    "answerCount": 65
+  },
+  {
+    "id": "james-bond-characters",
+    "slug": "james-bond-characters",
+    "category": "screen",
+    "question": "Name a James Bond character",
+    "answerCount": 54
+  },
+  {
+    "id": "james-bond-films",
+    "slug": "james-bond-films",
+    "category": "screen",
+    "question": "Name a James Bond film",
+    "answerCount": 28
+  },
+  {
+    "id": "mcu-films",
+    "slug": "mcu-films",
+    "category": "screen",
+    "question": "Name a Marvel Cinematic Universe film",
+    "answerCount": 39
+  },
+  {
+    "id": "miyazaki-films",
+    "slug": "miyazaki-films",
+    "category": "screen",
+    "question": "Name a Hayao Miyazaki film",
+    "answerCount": 22
+  },
+  {
+    "id": "palme-dor-films",
+    "slug": "palme-dor-films",
+    "category": "screen",
+    "question": "Name a film that won the Palme d'Or",
+    "answerCount": 84
+  },
+  {
+    "id": "pixar-characters",
+    "slug": "pixar-characters",
+    "category": "screen",
+    "question": "Name a Pixar character",
+    "answerCount": 75
+  },
+  {
+    "id": "pixar-films",
+    "slug": "pixar-films",
+    "category": "screen",
+    "question": "Name a Pixar film",
+    "answerCount": 86
+  },
+  {
+    "id": "scorsese-films",
+    "slug": "scorsese-films",
+    "category": "screen",
+    "question": "Name a Martin Scorsese film",
+    "answerCount": 49
+  },
+  {
+    "id": "spielberg-films",
+    "slug": "spielberg-films",
+    "category": "screen",
+    "question": "Name a Steven Spielberg film",
+    "answerCount": 38
+  },
+  {
+    "id": "spongebob-characters",
+    "slug": "spongebob-characters",
+    "category": "screen",
+    "question": "Name a SpongeBob SquarePants character",
+    "answerCount": 19
+  },
+  {
+    "id": "stranger-things-characters",
+    "slug": "stranger-things-characters",
+    "category": "screen",
+    "question": "Name a Stranger Things character",
+    "answerCount": 14
+  },
+  {
+    "id": "tony-best-musical-winners",
+    "slug": "tony-best-musical-winners",
+    "category": "screen",
+    "question": "Name a Tony Award for Best Musical winner",
+    "answerCount": 65
+  },
+  {
+    "id": "beyonce-songs",
+    "slug": "beyonce-songs",
+    "category": "music",
+    "question": "Name a Beyoncé song",
+    "answerCount": 67
+  },
+  {
+    "id": "bob-dylan-songs",
+    "slug": "bob-dylan-songs",
+    "category": "music",
+    "question": "Name a Bob Dylan song",
+    "answerCount": 26
+  },
+  {
+    "id": "brass-instruments",
+    "slug": "brass-instruments",
+    "category": "music",
+    "question": "Name a brass instrument",
+    "answerCount": 113
+  },
+  {
+    "id": "classical-genres",
+    "slug": "classical-genres",
+    "category": "music",
+    "question": "Name a genre of classical music",
+    "answerCount": 55
+  },
+  {
+    "id": "dances",
+    "slug": "dances",
+    "category": "music",
+    "question": "Name a dance",
+    "answerCount": 192
+  },
+  {
+    "id": "david-bowie-songs",
+    "slug": "david-bowie-songs",
+    "category": "music",
+    "question": "Name a David Bowie song",
+    "answerCount": 76
+  },
+  {
+    "id": "electronic-genres",
+    "slug": "electronic-genres",
+    "category": "music",
+    "question": "Name a genre of electronic music",
+    "answerCount": 29
+  },
+  {
+    "id": "elvis-songs",
+    "slug": "elvis-songs",
+    "category": "music",
+    "question": "Name an Elvis Presley song",
+    "answerCount": 55
+  },
+  {
+    "id": "eminem-songs",
+    "slug": "eminem-songs",
+    "category": "music",
+    "question": "Name an Eminem song",
+    "answerCount": 95
+  },
+  {
+    "id": "folk-genres",
+    "slug": "folk-genres",
+    "category": "music",
+    "question": "Name a genre of folk music",
+    "answerCount": 451
+  },
+  {
+    "id": "grammy-record-of-the-year",
+    "slug": "grammy-record-of-the-year",
+    "category": "music",
+    "question": "Name a Grammy Award for Record of the Year winner",
+    "answerCount": 49
+  },
+  {
+    "id": "hip-hop-genres",
+    "slug": "hip-hop-genres",
+    "category": "music",
+    "question": "Name a genre of hip-hop",
+    "answerCount": 81
+  },
+  {
+    "id": "jazz-genres",
+    "slug": "jazz-genres",
+    "category": "music",
+    "question": "Name a genre of jazz",
+    "answerCount": 70
+  },
+  {
+    "id": "keyboard-instruments",
+    "slug": "keyboard-instruments",
+    "category": "music",
+    "question": "Name a keyboard instrument",
+    "answerCount": 136
+  },
+  {
+    "id": "led-zeppelin-songs",
+    "slug": "led-zeppelin-songs",
+    "category": "music",
+    "question": "Name a Led Zeppelin song",
+    "answerCount": 15
+  },
+  {
+    "id": "madonna-songs",
+    "slug": "madonna-songs",
+    "category": "music",
+    "question": "Name a Madonna song",
+    "answerCount": 66
+  },
+  {
+    "id": "metallica-songs",
+    "slug": "metallica-songs",
+    "category": "music",
+    "question": "Name a Metallica song",
+    "answerCount": 43
+  },
+  {
+    "id": "michael-jackson-songs",
+    "slug": "michael-jackson-songs",
+    "category": "music",
+    "question": "Name a Michael Jackson song",
+    "answerCount": 46
+  },
+  {
+    "id": "national-anthems",
+    "slug": "national-anthems",
+    "category": "music",
+    "question": "Name a national anthem",
+    "answerCount": 197
+  },
+  {
+    "id": "nursery-rhymes",
+    "slug": "nursery-rhymes",
+    "category": "music",
+    "question": "Name a nursery rhyme",
+    "answerCount": 82
+  },
+  {
+    "id": "percussion-instruments",
+    "slug": "percussion-instruments",
+    "category": "music",
+    "question": "Name a percussion instrument",
+    "answerCount": 360
+  },
+  {
+    "id": "prince-songs",
+    "slug": "prince-songs",
+    "category": "music",
+    "question": "Name a Prince song",
+    "answerCount": 71
+  },
+  {
+    "id": "queen-songs",
+    "slug": "queen-songs",
+    "category": "music",
+    "question": "Name a Queen song",
+    "answerCount": 38
+  },
+  {
+    "id": "radiohead-songs",
+    "slug": "radiohead-songs",
+    "category": "music",
+    "question": "Name a Radiohead song",
+    "answerCount": 32
+  },
+  {
+    "id": "rock-genres",
+    "slug": "rock-genres",
+    "category": "music",
+    "question": "Name a genre of rock music",
+    "answerCount": 139
+  },
+  {
+    "id": "rolling-stones-songs",
+    "slug": "rolling-stones-songs",
+    "category": "music",
+    "question": "Name a Rolling Stones song",
+    "answerCount": 33
+  },
+  {
+    "id": "string-instruments",
+    "slug": "string-instruments",
+    "category": "music",
+    "question": "Name a string instrument",
+    "answerCount": 655
+  },
+  {
+    "id": "taylor-swift-songs",
+    "slug": "taylor-swift-songs",
+    "category": "music",
+    "question": "Name a Taylor Swift song",
+    "answerCount": 96
+  },
+  {
+    "id": "u2-songs",
+    "slug": "u2-songs",
+    "category": "music",
+    "question": "Name a U2 song",
+    "answerCount": 59
+  },
+  {
+    "id": "verdi-operas",
+    "slug": "verdi-operas",
+    "category": "music",
+    "question": "Name an opera by Giuseppe Verdi",
+    "answerCount": 35
+  },
+  {
+    "id": "woodwind-instruments",
+    "slug": "woodwind-instruments",
+    "category": "music",
+    "question": "Name a woodwind instrument",
+    "answerCount": 368
+  },
+  {
+    "id": "actinides",
+    "slug": "actinides",
+    "category": "science",
+    "question": "Name an actinide",
+    "answerCount": 15
+  },
+  {
+    "id": "apollo-missions",
+    "slug": "apollo-missions",
+    "category": "science",
+    "question": "Name an Apollo program mission",
+    "answerCount": 15
+  },
+  {
+    "id": "chemical-elements",
+    "slug": "chemical-elements",
+    "category": "science",
+    "question": "Name a chemical element",
+    "answerCount": 118
+  },
+  {
+    "id": "data-structures",
+    "slug": "data-structures",
+    "category": "science",
+    "question": "Name a data structure",
+    "answerCount": 129
+  },
+  {
+    "id": "elementary-particles",
+    "slug": "elementary-particles",
+    "category": "science",
+    "question": "Name an elementary particle",
+    "answerCount": 39
+  },
+  {
+    "id": "fields-medalists",
+    "slug": "fields-medalists",
+    "category": "science",
+    "question": "Name a Fields medalist",
+    "answerCount": 68
+  },
+  {
+    "id": "gemstones",
+    "slug": "gemstones",
+    "category": "science",
+    "question": "Name a gemstone",
+    "answerCount": 40
+  },
+  {
+    "id": "hormones",
+    "slug": "hormones",
+    "category": "science",
+    "question": "Name a hormone",
+    "answerCount": 34
+  },
+  {
+    "id": "human-bones",
+    "slug": "human-bones",
+    "category": "science",
+    "question": "Name a human bone",
+    "answerCount": 68
+  },
+  {
+    "id": "human-chromosomes",
+    "slug": "human-chromosomes",
+    "category": "science",
+    "question": "Name a human chromosome",
+    "answerCount": 22
+  },
+  {
+    "id": "igneous-rocks",
+    "slug": "igneous-rocks",
+    "category": "science",
+    "question": "Name an igneous rock",
+    "answerCount": 31
+  },
+  {
+    "id": "lanthanides",
+    "slug": "lanthanides",
+    "category": "science",
+    "question": "Name a lanthanide",
+    "answerCount": 15
+  },
+  {
+    "id": "local-group-galaxies",
+    "slug": "local-group-galaxies",
+    "category": "science",
+    "question": "Name a galaxy in the Local Group",
+    "answerCount": 17
+  },
+  {
+    "id": "metamorphic-rocks",
+    "slug": "metamorphic-rocks",
+    "category": "science",
+    "question": "Name a metamorphic rock",
+    "answerCount": 31
+  },
+  {
+    "id": "moons-of-jupiter",
+    "slug": "moons-of-jupiter",
+    "category": "science",
+    "question": "Name a moon of Jupiter",
+    "answerCount": 85
+  },
+  {
+    "id": "moons-of-neptune",
+    "slug": "moons-of-neptune",
+    "category": "science",
+    "question": "Name a moon of Neptune",
+    "answerCount": 16
+  },
+  {
+    "id": "moons-of-saturn",
+    "slug": "moons-of-saturn",
+    "category": "science",
+    "question": "Name a moon of Saturn",
+    "answerCount": 155
+  },
+  {
+    "id": "moons-of-uranus",
+    "slug": "moons-of-uranus",
+    "category": "science",
+    "question": "Name a moon of Uranus",
+    "answerCount": 29
+  },
+  {
+    "id": "nobel-chemistry-laureates",
+    "slug": "nobel-chemistry-laureates",
+    "category": "science",
+    "question": "Name a Nobel laureate in Chemistry",
+    "answerCount": 200
+  },
+  {
+    "id": "nobel-medicine-laureates",
+    "slug": "nobel-medicine-laureates",
+    "category": "science",
+    "question": "Name a Nobel laureate in Physiology or Medicine",
+    "answerCount": 235
+  },
+  {
+    "id": "nobel-physics-laureates",
+    "slug": "nobel-physics-laureates",
+    "category": "science",
+    "question": "Name a Nobel laureate in Physics",
+    "answerCount": 230
+  },
+  {
+    "id": "programming-languages-before-1980",
+    "slug": "programming-languages-before-1980",
+    "category": "science",
+    "question": "Name a programming language created before 1980",
+    "answerCount": 169
+  },
+  {
+    "id": "sedimentary-rocks",
+    "slug": "sedimentary-rocks",
+    "category": "science",
+    "question": "Name a sedimentary rock",
+    "answerCount": 39
+  },
+  {
+    "id": "si-prefixes",
+    "slug": "si-prefixes",
+    "category": "science",
+    "question": "Name an SI prefix",
+    "answerCount": 24
+  },
+  {
+    "id": "si-units",
+    "slug": "si-units",
+    "category": "science",
+    "question": "Name an SI unit",
+    "answerCount": 29
+  },
+  {
+    "id": "sorting-algorithms",
+    "slug": "sorting-algorithms",
+    "category": "science",
+    "question": "Name a sorting algorithm",
+    "answerCount": 39
+  },
+  {
+    "id": "space-stations",
+    "slug": "space-stations",
+    "category": "science",
+    "question": "Name a space station",
+    "answerCount": 15
+  },
+  {
+    "id": "space-telescopes",
+    "slug": "space-telescopes",
+    "category": "science",
+    "question": "Name a space telescope",
+    "answerCount": 147
+  },
+  {
+    "id": "tectonic-plates",
+    "slug": "tectonic-plates",
+    "category": "science",
+    "question": "Name a tectonic plate",
+    "answerCount": 78
+  },
+  {
+    "id": "transition-metals",
+    "slug": "transition-metals",
+    "category": "science",
+    "question": "Name a transition metal",
+    "answerCount": 38
+  },
+  {
+    "id": "turing-award-winners",
+    "slug": "turing-award-winners",
+    "category": "science",
+    "question": "Name a Turing Award winner",
+    "answerCount": 79
+  },
+  {
+    "id": "australian-prime-ministers",
+    "slug": "australian-prime-ministers",
+    "category": "history",
+    "question": "Name a prime minister of Australia",
+    "answerCount": 31
+  },
+  {
+    "id": "bible-books",
+    "slug": "bible-books",
+    "category": "history",
+    "question": "Name a book of the Protestant Bible",
+    "answerCount": 66
+  },
+  {
+    "id": "canadian-prime-ministers",
+    "slug": "canadian-prime-ministers",
+    "category": "history",
+    "question": "Name a prime minister of Canada",
+    "answerCount": 24
+  },
+  {
+    "id": "centuries",
+    "slug": "centuries",
+    "category": "history",
+    "question": "Name a century from the 1st century through the 21st century",
+    "answerCount": 21
+  },
+  {
+    "id": "chinese-dynasties",
+    "slug": "chinese-dynasties",
+    "category": "history",
+    "question": "Name a Chinese dynasty",
+    "answerCount": 31
+  },
+  {
+    "id": "constructed-languages",
+    "slug": "constructed-languages",
+    "category": "history",
+    "question": "Name a constructed language",
+    "answerCount": 113
+  },
+  {
+    "id": "declaration-signers",
+    "slug": "declaration-signers",
+    "category": "history",
+    "question": "Name a signer of the United States Declaration of Independence",
+    "answerCount": 56
+  },
+  {
+    "id": "english-interjections",
+    "slug": "english-interjections",
+    "category": "history",
+    "question": "Name an English interjection",
+    "answerCount": 346
+  },
+  {
+    "id": "english-monarchs",
+    "slug": "english-monarchs",
+    "category": "history",
+    "question": "Name a monarch of England",
+    "answerCount": 47
+  },
+  {
+    "id": "french-presidents",
+    "slug": "french-presidents",
+    "category": "history",
+    "question": "Name a president of France",
+    "answerCount": 31
+  },
+  {
+    "id": "greek-deities",
+    "slug": "greek-deities",
+    "category": "history",
+    "question": "Name a Greek deity",
+    "answerCount": 211
+  },
+  {
+    "id": "holy-roman-emperors",
+    "slug": "holy-roman-emperors",
+    "category": "history",
+    "question": "Name a Holy Roman Emperor",
+    "answerCount": 40
+  },
+  {
+    "id": "indian-prime-ministers",
+    "slug": "indian-prime-ministers",
+    "category": "history",
+    "question": "Name a prime minister of India",
+    "answerCount": 15
+  },
+  {
+    "id": "language-families",
+    "slug": "language-families",
+    "category": "history",
+    "question": "Name a language family",
+    "answerCount": 292
+  },
+  {
+    "id": "mughal-emperors",
+    "slug": "mughal-emperors",
+    "category": "history",
+    "question": "Name a Mughal emperor",
+    "answerCount": 20
+  },
+  {
+    "id": "norse-deities",
+    "slug": "norse-deities",
+    "category": "history",
+    "question": "Name a Norse deity",
+    "answerCount": 61
+  },
+  {
+    "id": "ottoman-sultans",
+    "slug": "ottoman-sultans",
+    "category": "history",
+    "question": "Name an Ottoman sultan",
+    "answerCount": 36
+  },
+  {
+    "id": "pharaohs",
+    "slug": "pharaohs",
+    "category": "history",
+    "question": "Name a pharaoh",
+    "answerCount": 385
+  },
+  {
+    "id": "popes",
+    "slug": "popes",
+    "category": "history",
+    "question": "Name a pope",
+    "answerCount": 266
+  },
+  {
+    "id": "roman-emperors",
+    "slug": "roman-emperors",
+    "category": "history",
+    "question": "Name a Roman emperor",
+    "answerCount": 104
+  },
+  {
+    "id": "soviet-republics",
+    "slug": "soviet-republics",
+    "category": "history",
+    "question": "Name a republic of the Soviet Union",
+    "answerCount": 17
+  },
+  {
+    "id": "uk-prime-ministers",
+    "slug": "uk-prime-ministers",
+    "category": "history",
+    "question": "Name a prime minister of the United Kingdom",
+    "answerCount": 58
+  },
+  {
+    "id": "us-associate-justices",
+    "slug": "us-associate-justices",
+    "category": "history",
+    "question": "Name an associate justice of the US Supreme Court",
+    "answerCount": 103
+  },
+  {
+    "id": "us-chief-justices",
+    "slug": "us-chief-justices",
+    "category": "history",
+    "question": "Name a chief justice of the United States",
+    "answerCount": 17
+  },
+  {
+    "id": "us-constitutional-amendments",
+    "slug": "us-constitutional-amendments",
+    "category": "history",
+    "question": "Name an amendment to the United States Constitution",
+    "answerCount": 27
+  },
+  {
+    "id": "us-first-ladies",
+    "slug": "us-first-ladies",
+    "category": "history",
+    "question": "Name a first lady of the United States",
+    "answerCount": 53
+  },
+  {
+    "id": "us-presidents",
+    "slug": "us-presidents",
+    "category": "history",
+    "question": "Name a president of the United States",
+    "answerCount": 45
+  },
+  {
+    "id": "us-vice-presidents",
+    "slug": "us-vice-presidents",
+    "category": "history",
+    "question": "Name a vice president of the United States",
+    "answerCount": 50
+  },
+  {
+    "id": "writing-systems",
+    "slug": "writing-systems",
+    "category": "history",
+    "question": "Name a writing system",
+    "answerCount": 160
   }
 ]

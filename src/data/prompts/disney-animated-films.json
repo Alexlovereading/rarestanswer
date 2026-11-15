@@ -1,0 +1,885 @@
+{
+  "id": "disney-animated-films",
+  "slug": "disney-animated-films",
+  "category": "screen",
+  "question": "Name a Walt Disney Animation Studios film",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Contrary Condor",
+      "aliases": [],
+      "popularity": 1385,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Contrary Condor"
+    },
+    {
+      "name": "Let's Stick Together",
+      "aliases": [
+        "Let's Stick Together (film)"
+      ],
+      "popularity": 1470,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Let's Stick Together (film)"
+    },
+    {
+      "name": "The Flying Squirrel",
+      "aliases": [
+        "Flying Squirrel"
+      ],
+      "popularity": 1542,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "The Flying Squirrel"
+    },
+    {
+      "name": "Two Weeks Vacation",
+      "aliases": [],
+      "popularity": 2374,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Two Weeks Vacation"
+    },
+    {
+      "name": "Hold That Pose",
+      "aliases": [],
+      "popularity": 2390,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Hold That Pose"
+    },
+    {
+      "name": "Bearly Asleep",
+      "aliases": [],
+      "popularity": 2422,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Bearly Asleep"
+    },
+    {
+      "name": "Trail Mix-Up",
+      "aliases": [],
+      "popularity": 2512,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Trail Mix-Up"
+    },
+    {
+      "name": "Grin and Bear It",
+      "aliases": [
+        "Grin and Bear It (film)"
+      ],
+      "popularity": 2716,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Grin and Bear It (film)"
+    },
+    {
+      "name": "Oh Teacher",
+      "aliases": [
+        "Oh Teacher (film)"
+      ],
+      "popularity": 2732,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Oh Teacher (film)"
+    },
+    {
+      "name": "Hockey Homicide",
+      "aliases": [],
+      "popularity": 2871,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Hockey Homicide"
+    },
+    {
+      "name": "Tea for Two Hundred",
+      "aliases": [],
+      "popularity": 2932,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Tea for Two Hundred"
+    },
+    {
+      "name": "Playful Pluto",
+      "aliases": [],
+      "popularity": 3158,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Playful Pluto"
+    },
+    {
+      "name": "Beezy Bear",
+      "aliases": [],
+      "popularity": 3362,
+      "rarity": 0.874,
+      "tier": 5,
+      "wiki": "Beezy Bear"
+    },
+    {
+      "name": "Rugged Bear",
+      "aliases": [],
+      "popularity": 3521,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Rugged Bear"
+    },
+    {
+      "name": "Truant Officer Donald",
+      "aliases": [],
+      "popularity": 3538,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Truant Officer Donald"
+    },
+    {
+      "name": "Donald and Pluto",
+      "aliases": [],
+      "popularity": 3650,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Donald and Pluto"
+    },
+    {
+      "name": "Mickey's Delayed Date",
+      "aliases": [],
+      "popularity": 3802,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "Mickey's Delayed Date"
+    },
+    {
+      "name": "Glago's Guest",
+      "aliases": [],
+      "popularity": 4424,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Glago's Guest"
+    },
+    {
+      "name": "Donald's Dilemma",
+      "aliases": [],
+      "popularity": 4516,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Donald's Dilemma"
+    },
+    {
+      "name": "Mickey's Nightmare",
+      "aliases": [],
+      "popularity": 5118,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Mickey's Nightmare"
+    },
+    {
+      "name": "Tummy Trouble",
+      "aliases": [],
+      "popularity": 5375,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Tummy Trouble"
+    },
+    {
+      "name": "Roller Coaster Rabbit",
+      "aliases": [
+        "Rollercoaster Rabbit"
+      ],
+      "popularity": 5582,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Roller Coaster Rabbit"
+    },
+    {
+      "name": "Donald Duck and the Gorilla",
+      "aliases": [],
+      "popularity": 7341,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Donald Duck and the Gorilla"
+    },
+    {
+      "name": "Winnie the Pooh Discovers the Seasons",
+      "aliases": [],
+      "popularity": 7577,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Winnie the Pooh Discovers the Seasons"
+    },
+    {
+      "name": "The Ballad of Nessie",
+      "aliases": [
+        "Ballad of Nessie"
+      ],
+      "popularity": 8882,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "The Ballad of Nessie"
+    },
+    {
+      "name": "Modern Inventions",
+      "aliases": [],
+      "popularity": 8941,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Modern Inventions"
+    },
+    {
+      "name": "Super Rhino",
+      "aliases": [],
+      "popularity": 8975,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Super Rhino"
+    },
+    {
+      "name": "Clock Cleaners",
+      "aliases": [],
+      "popularity": 9168,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Clock Cleaners"
+    },
+    {
+      "name": "Trick or Treat",
+      "aliases": [
+        "Trick or Treat (1952 film)"
+      ],
+      "popularity": 10269,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Trick or Treat (1952 film)"
+    },
+    {
+      "name": "The Brave Engineer",
+      "aliases": [
+        "Brave Engineer"
+      ],
+      "popularity": 10384,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "The Brave Engineer"
+    },
+    {
+      "name": "Don Donald",
+      "aliases": [],
+      "popularity": 10484,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Don Donald"
+    },
+    {
+      "name": "The Cookie Carnival",
+      "aliases": [
+        "Cookie Carnival"
+      ],
+      "popularity": 10572,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "The Cookie Carnival"
+    },
+    {
+      "name": "Lorenzo",
+      "aliases": [
+        "Lorenzo (film)"
+      ],
+      "popularity": 10603,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "Lorenzo (film)"
+    },
+    {
+      "name": "The Haunted House",
+      "aliases": [
+        "Haunted House",
+        "Haunted House (1929 film)",
+        "The Haunted House (1929 film)"
+      ],
+      "popularity": 10700,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "The Haunted House (1929 film)"
+    },
+    {
+      "name": "Us Again",
+      "aliases": [
+        "Us Again (film)"
+      ],
+      "popularity": 11002,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Us Again (film)"
+    },
+    {
+      "name": "The Barn Dance",
+      "aliases": [
+        "Barn Dance"
+      ],
+      "popularity": 11069,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "The Barn Dance"
+    },
+    {
+      "name": "How to Hook Up Your Home Theater",
+      "aliases": [],
+      "popularity": 12272,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "How to Hook Up Your Home Theater"
+    },
+    {
+      "name": "Prep & Landing: Operation: Secret Santa",
+      "aliases": [],
+      "popularity": 13572,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Prep & Landing: Operation: Secret Santa"
+    },
+    {
+      "name": "Johnny Appleseed",
+      "aliases": [
+        "Johnny Appleseed (film)"
+      ],
+      "popularity": 14769,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Johnny Appleseed (film)"
+    },
+    {
+      "name": "Inner Workings",
+      "aliases": [],
+      "popularity": 15485,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Inner Workings"
+    },
+    {
+      "name": "Feast",
+      "aliases": [
+        "Feast (2014 film)"
+      ],
+      "popularity": 16368,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Feast (2014 film)"
+    },
+    {
+      "name": "Once Upon a Snowman",
+      "aliases": [],
+      "popularity": 16856,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Once Upon a Snowman"
+    },
+    {
+      "name": "Education for Death",
+      "aliases": [],
+      "popularity": 17024,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Education for Death"
+    },
+    {
+      "name": "Disney's American Legends",
+      "aliases": [],
+      "popularity": 23502,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Disney's American Legends"
+    },
+    {
+      "name": "The Little Matchgirl",
+      "aliases": [
+        "Little Matchgirl",
+        "Little Matchgirl (2006 film)",
+        "The Little Matchgirl (2006 film)"
+      ],
+      "popularity": 25762,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "The Little Matchgirl (2006 film)"
+    },
+    {
+      "name": "Paperman",
+      "aliases": [],
+      "popularity": 26983,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Paperman"
+    },
+    {
+      "name": "A Very Merry Pooh Year",
+      "aliases": [
+        "Very Merry Pooh Year"
+      ],
+      "popularity": 27158,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "A Very Merry Pooh Year"
+    },
+    {
+      "name": "Get a Horse!",
+      "aliases": [],
+      "popularity": 34610,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Get a Horse!"
+    },
+    {
+      "name": "Frozen Fever",
+      "aliases": [],
+      "popularity": 38020,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Frozen Fever"
+    },
+    {
+      "name": "Runaway Brain",
+      "aliases": [],
+      "popularity": 41424,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Runaway Brain"
+    },
+    {
+      "name": "Olaf's Frozen Adventure",
+      "aliases": [],
+      "popularity": 43207,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Olaf's Frozen Adventure"
+    },
+    {
+      "name": "Three Little Pigs",
+      "aliases": [
+        "The Three Little Pigs",
+        "Three Little Pigs (film)"
+      ],
+      "popularity": 48116,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Three Little Pigs (film)"
+    },
+    {
+      "name": "Prep & Landing",
+      "aliases": [],
+      "popularity": 51877,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Prep & Landing"
+    },
+    {
+      "name": "Tarzan & Jane",
+      "aliases": [],
+      "popularity": 89373,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Tarzan & Jane"
+    },
+    {
+      "name": "Saludos Amigos",
+      "aliases": [],
+      "popularity": 103643,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Saludos Amigos"
+    },
+    {
+      "name": "The Many Adventures of Winnie the Pooh",
+      "aliases": [
+        "Many Adventures of Winnie the Pooh",
+        "Winnie the Pooh"
+      ],
+      "popularity": 156642,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "The Many Adventures of Winnie the Pooh"
+    },
+    {
+      "name": "Home on the Range",
+      "aliases": [
+        "Home on the Range (2004 film)"
+      ],
+      "popularity": 174613,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Home on the Range (2004 film)"
+    },
+    {
+      "name": "Fantasia 2000",
+      "aliases": [],
+      "popularity": 184403,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Fantasia 2000"
+    },
+    {
+      "name": "Once Upon a Studio",
+      "aliases": [],
+      "popularity": 186355,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Once Upon a Studio"
+    },
+    {
+      "name": "The Great Mouse Detective",
+      "aliases": [
+        "Great Mouse Detective"
+      ],
+      "popularity": 237170,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "The Great Mouse Detective"
+    },
+    {
+      "name": "The Rescuers Down Under",
+      "aliases": [
+        "Rescuers Down Under"
+      ],
+      "popularity": 257565,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "The Rescuers Down Under"
+    },
+    {
+      "name": "Strange World",
+      "aliases": [
+        "Searcher Clade",
+        "Strange World (film)"
+      ],
+      "popularity": 260487,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Strange World (film)"
+    },
+    {
+      "name": "Frozen 3",
+      "aliases": [
+        "Frozen III"
+      ],
+      "popularity": 268774,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Frozen 3"
+    },
+    {
+      "name": "A Goofy Movie",
+      "aliases": [
+        "Goofy Movie"
+      ],
+      "popularity": 287887,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "A Goofy Movie"
+    },
+    {
+      "name": "Bolt",
+      "aliases": [
+        "Bolt (2008 film)"
+      ],
+      "popularity": 289488,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Bolt (2008 film)"
+    },
+    {
+      "name": "Oliver & Company",
+      "aliases": [],
+      "popularity": 307458,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Oliver & Company"
+    },
+    {
+      "name": "Ralph Breaks the Internet",
+      "aliases": [
+        "Wreck-It Ralph 2",
+        "Wreck-It Ralph II",
+        "Wreck-It Ralph Two"
+      ],
+      "popularity": 313293,
+      "rarity": 0.305,
+      "tier": 2,
+      "wiki": "Ralph Breaks the Internet"
+    },
+    {
+      "name": "Chicken Little",
+      "aliases": [
+        "Chicken Little (2005 film)"
+      ],
+      "popularity": 320411,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Chicken Little (2005 film)"
+    },
+    {
+      "name": "Lady and the Tramp",
+      "aliases": [],
+      "popularity": 323328,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Lady and the Tramp"
+    },
+    {
+      "name": "Brother Bear",
+      "aliases": [],
+      "popularity": 332819,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Brother Bear"
+    },
+    {
+      "name": "Sleeping Beauty",
+      "aliases": [
+        "Sleeping Beauty (1959 film)"
+      ],
+      "popularity": 363016,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Sleeping Beauty (1959 film)"
+    },
+    {
+      "name": "Enchanted",
+      "aliases": [
+        "Enchanted (film)"
+      ],
+      "popularity": 364722,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Enchanted (film)"
+    },
+    {
+      "name": "Dinosaur",
+      "aliases": [
+        "Dinosaur (2000 film)",
+        "Disney's Dinosaur"
+      ],
+      "popularity": 383346,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Dinosaur (2000 film)"
+    },
+    {
+      "name": "Raya and the Last Dragon",
+      "aliases": [],
+      "popularity": 385601,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Raya and the Last Dragon"
+    },
+    {
+      "name": "Wish",
+      "aliases": [
+        "Wish (film)"
+      ],
+      "popularity": 396394,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Wish (film)"
+    },
+    {
+      "name": "Wreck-It Ralph",
+      "aliases": [],
+      "popularity": 399320,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Wreck-It Ralph"
+    },
+    {
+      "name": "One Hundred and One Dalmatians",
+      "aliases": [
+        "101 Dalmatians"
+      ],
+      "popularity": 410836,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "One Hundred and One Dalmatians"
+    },
+    {
+      "name": "Meet the Robinsons",
+      "aliases": [],
+      "popularity": 446180,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Meet the Robinsons"
+    },
+    {
+      "name": "Pocahontas",
+      "aliases": [
+        "Pocahontas (1995 film)"
+      ],
+      "popularity": 453867,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Pocahontas (1995 film)"
+    },
+    {
+      "name": "Treasure Planet",
+      "aliases": [],
+      "popularity": 465490,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Treasure Planet"
+    },
+    {
+      "name": "Tarzan",
+      "aliases": [
+        "Tarzan (1999 film)"
+      ],
+      "popularity": 487566,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Tarzan (1999 film)"
+    },
+    {
+      "name": "The Hunchback of Notre Dame",
+      "aliases": [
+        "Hunchback of Notre Dame",
+        "Hunchback of Notre Dame (1996 film)",
+        "The Bells of Notre Dame",
+        "The Hunchback of Notre Dame (1996 film)"
+      ],
+      "popularity": 545487,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "The Hunchback of Notre Dame (1996 film)"
+    },
+    {
+      "name": "The Emperor's New Groove",
+      "aliases": [
+        "Emperor's New Groove"
+      ],
+      "popularity": 546233,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "The Emperor's New Groove"
+    },
+    {
+      "name": "Frozen 2",
+      "aliases": [
+        "Disney's Frozen 2",
+        "Disney's Frozen II",
+        "Frozen II",
+        "Frozen Two"
+      ],
+      "popularity": 548968,
+      "rarity": 0.126,
+      "tier": 1,
+      "wiki": "Frozen 2"
+    },
+    {
+      "name": "Big Hero 6",
+      "aliases": [
+        "Big Hero 6 (film)"
+      ],
+      "popularity": 559043,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Big Hero 6 (film)"
+    },
+    {
+      "name": "Mulan",
+      "aliases": [
+        "Mulan (1998 film)"
+      ],
+      "popularity": 618526,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Mulan (1998 film)"
+    },
+    {
+      "name": "Hexed",
+      "aliases": [
+        "Hexed (2026 film)"
+      ],
+      "popularity": 624997,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Hexed (2026 film)"
+    },
+    {
+      "name": "Beauty and the Beast",
+      "aliases": [
+        "Beauty and the Beast (1991 film)"
+      ],
+      "popularity": 639327,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Beauty and the Beast (1991 film)"
+    },
+    {
+      "name": "Who Framed Roger Rabbit",
+      "aliases": [],
+      "popularity": 743647,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Who Framed Roger Rabbit"
+    },
+    {
+      "name": "Tangled",
+      "aliases": [],
+      "popularity": 831377,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Tangled"
+    },
+    {
+      "name": "Moana 2",
+      "aliases": [],
+      "popularity": 865956,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Moana 2"
+    },
+    {
+      "name": "Frozen",
+      "aliases": [
+        "Frozen (2013 film)"
+      ],
+      "popularity": 885262,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Frozen (2013 film)"
+    },
+    {
+      "name": "The Lion King",
+      "aliases": [
+        "1994 Lion King",
+        "1994 The Lion King",
+        "Lion King"
+      ],
+      "popularity": 1076441,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "The Lion King"
+    },
+    {
+      "name": "Moana",
+      "aliases": [
+        "Moana (2016 film)"
+      ],
+      "popularity": 1223814,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Moana (2016 film)"
+    },
+    {
+      "name": "Zootopia",
+      "aliases": [],
+      "popularity": 1814392,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Zootopia"
+    },
+    {
+      "name": "Zootopia 2",
+      "aliases": [],
+      "popularity": 6850274,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Zootopia 2"
+    }
+  ]
+}

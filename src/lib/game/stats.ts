@@ -30,6 +30,8 @@ export interface StatsV1 {
   totalPoints: number;
   bestDailyScore: number;
   tierHits: TierHits;
+  /** Finished daily scores, oldest first. Capped at SCORE_HISTORY_LIMIT. */
+  dailyScores: number[];
 }
 
 export interface PromptResult {
@@ -57,7 +59,29 @@ export interface DailySave {
 export interface SettingsV1 {
   version: 1;
   noTimer: boolean;
+  /** False until the player closes How to play or starts a round. */
+  seenRules: boolean;
 }
+
+/** How many daily scores the distribution chart keeps. */
+export const SCORE_HISTORY_LIMIT = 60;
+
+export interface DistRow {
+  key: string;
+  count: number;
+  /** 0 when every row is empty, otherwise count / peak. */
+  share: number;
+}
+
+/** Inclusive ranges. The last bucket has no upper bound. */
+export const SCORE_BUCKETS: readonly { key: string; min: number; max: number }[] = [
+  { key: '0', min: 0, max: 0 },
+  { key: '1-49', min: 1, max: 49 },
+  { key: '50-149', min: 50, max: 149 },
+  { key: '150-299', min: 150, max: 299 },
+  { key: '300-499', min: 300, max: 499 },
+  { key: '500+', min: 500, max: Number.POSITIVE_INFINITY },
+];
 
 const DATE_KEY = /^\d{4}-\d{2}-\d{2}$/;
 const SLUG = /^[a-z0-9]+(?:[-_][a-z0-9]+)*$/;
@@ -73,11 +97,43 @@ export function defaultStats(): StatsV1 {
     totalPoints: 0,
     bestDailyScore: 0,
     tierHits: [0, 0, 0, 0, 0, 0],
+    dailyScores: [],
   };
 }
 
 export function defaultSettings(): SettingsV1 {
-  return { version: 1, noTimer: false };
+  return { version: 1, noTimer: false, seenRules: false };
+}
+
+/** Peak-relative bar lengths for a chart. An all-zero series stays flat. */
+export function withShares(rows: readonly { key: string; count: number }[]): DistRow[] {
+  const peak = rows.reduce((max, row) => (row.count > max ? row.count : max), 0);
+  return rows.map((row) => ({
+    key: row.key,
+    count: row.count,
+    share: peak > 0 ? row.count / peak : 0,
+  }));
+}
+
+/** Six bars, keys "1"…"6", from a tierHits tuple. */
+export function tierDistribution(hits: readonly number[]): DistRow[] {
+  const rows = [0, 1, 2, 3, 4, 5].map((index) => ({
+    key: String(index + 1),
+    count: hits[index] ?? 0,
+  }));
+  return withShares(rows);
+}
+
+/** Daily scores grouped into SCORE_BUCKETS. */
+export function scoreDistribution(scores: readonly number[]): DistRow[] {
+  const rows = SCORE_BUCKETS.map((bucket) => ({
+    key: bucket.key,
+    count: scores.reduce(
+      (total, score) => (score >= bucket.min && score <= bucket.max ? total + 1 : total),
+      0,
+    ),
+  }));
+  return withShares(rows);
 }
 
 /**
@@ -102,6 +158,7 @@ export function recordDaily(
     totalPoints: stats.totalPoints + round.score,
     bestDailyScore: Math.max(stats.bestDailyScore, round.score),
     tierHits: addTiers(stats.tierHits, round.tiers),
+    dailyScores: appendScore(stats.dailyScores, round.score),
   };
 }
 
@@ -164,6 +221,7 @@ export function parseStats(value: unknown): StatsV1 | null {
   const totalPoints = intField(value.totalPoints);
   const bestDailyScore = intField(value.bestDailyScore);
   const tierHits = tierHitsField(value.tierHits);
+  const dailyScores = scoreHistoryField(value.dailyScores);
   const lastDailyDate = value.lastDailyDate;
   if (
     streak === null ||
@@ -172,7 +230,8 @@ export function parseStats(value: unknown): StatsV1 | null {
     roundsPlayed === null ||
     totalPoints === null ||
     bestDailyScore === null ||
-    !tierHits
+    !tierHits ||
+    dailyScores === null
   ) {
     return null;
   }
@@ -192,12 +251,15 @@ export function parseStats(value: unknown): StatsV1 | null {
     totalPoints,
     bestDailyScore,
     tierHits,
+    dailyScores,
   };
 }
 
 export function parseSettings(value: unknown): SettingsV1 | null {
   if (!isRecord(value) || value.version !== 1 || typeof value.noTimer !== 'boolean') return null;
-  return { version: 1, noTimer: value.noTimer };
+  const seenRules = value.seenRules === undefined ? false : value.seenRules;
+  if (typeof seenRules !== 'boolean') return null;
+  return { version: 1, noTimer: value.noTimer, seenRules };
 }
 
 export function parseDaily(value: unknown, todayKey: string): DailySave | null {
@@ -267,6 +329,28 @@ function parseResult(value: unknown): PromptResult | null {
     outcome: value.outcome,
     spotlight: value.outcome === 'hit' ? value.spotlight : false,
   };
+}
+
+function appendScore(current: readonly number[], score: number): number[] {
+  const next =
+    current.length >= SCORE_HISTORY_LIMIT
+      ? current.slice(current.length - SCORE_HISTORY_LIMIT + 1)
+      : current.slice();
+  next.push(score);
+  return next;
+}
+
+function scoreHistoryField(value: unknown): number[] | null {
+  if (value === undefined) return [];
+  if (!Array.isArray(value)) return null;
+  const start = Math.max(0, value.length - SCORE_HISTORY_LIMIT);
+  const scores: number[] = [];
+  for (let index = start; index < value.length; index++) {
+    const score = intField(value[index]);
+    if (score === null) return null;
+    scores.push(score);
+  }
+  return scores;
 }
 
 function addTiers(current: TierHits, tiers: readonly number[]): TierHits {

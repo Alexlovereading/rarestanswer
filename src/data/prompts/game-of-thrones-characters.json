@@ -1,0 +1,515 @@
+{
+  "id": "game-of-thrones-characters",
+  "slug": "game-of-thrones-characters",
+  "category": "screen",
+  "question": "Name a Game of Thrones character",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Hodor",
+      "aliases": [
+        "Walder",
+        "Wylis"
+      ],
+      "popularity": 10391,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Hodor"
+    },
+    {
+      "name": "Balon Greyjoy",
+      "aliases": [],
+      "popularity": 21761,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Balon Greyjoy"
+    },
+    {
+      "name": "Bronn",
+      "aliases": [
+        "Bronn (character)",
+        "Ser Bronn of the Blackwater"
+      ],
+      "popularity": 32404,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Bronn (character)"
+    },
+    {
+      "name": "Osha",
+      "aliases": [
+        "Osha (A Song of Ice and Fire)"
+      ],
+      "popularity": 35029,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Osha (A Song of Ice and Fire)"
+    },
+    {
+      "name": "Gilly",
+      "aliases": [
+        "Gilly (A Song of Ice and Fire)"
+      ],
+      "popularity": 38923,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Gilly (A Song of Ice and Fire)"
+    },
+    {
+      "name": "Viserys III Targaryen",
+      "aliases": [
+        "Viserys Targaryen"
+      ],
+      "popularity": 45996,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Viserys III Targaryen"
+    },
+    {
+      "name": "Jaqen H'ghar",
+      "aliases": [],
+      "popularity": 50293,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Jaqen H'ghar"
+    },
+    {
+      "name": "High Sparrow",
+      "aliases": [
+        "The High Sparrow"
+      ],
+      "popularity": 50597,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "High Sparrow"
+    },
+    {
+      "name": "Khal Drogo",
+      "aliases": [
+        "Drogo"
+      ],
+      "popularity": 66754,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Khal Drogo"
+    },
+    {
+      "name": "Gendry",
+      "aliases": [],
+      "popularity": 70830,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Gendry"
+    },
+    {
+      "name": "Davos Seaworth",
+      "aliases": [
+        "Davos of Flea Bottom",
+        "Onion Knight",
+        "Ser Davos Seaworth",
+        "The Onion Knight"
+      ],
+      "popularity": 71767,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Davos Seaworth"
+    },
+    {
+      "name": "Ygritte",
+      "aliases": [],
+      "popularity": 72367,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Ygritte"
+    },
+    {
+      "name": "Samwell Tarly",
+      "aliases": [
+        "Sam Tarly"
+      ],
+      "popularity": 76395,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Samwell Tarly"
+    },
+    {
+      "name": "Roose Bolton",
+      "aliases": [],
+      "popularity": 79229,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Roose Bolton"
+    },
+    {
+      "name": "Renly Baratheon",
+      "aliases": [],
+      "popularity": 80890,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Renly Baratheon"
+    },
+    {
+      "name": "Missandei",
+      "aliases": [
+        "Missandei of Naath"
+      ],
+      "popularity": 85461,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Missandei"
+    },
+    {
+      "name": "Rickon Stark",
+      "aliases": [],
+      "popularity": 85773,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Rickon Stark"
+    },
+    {
+      "name": "Myrcella Baratheon",
+      "aliases": [],
+      "popularity": 90571,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Myrcella Baratheon"
+    },
+    {
+      "name": "Tormund Giantsbane",
+      "aliases": [],
+      "popularity": 91304,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Tormund Giantsbane"
+    },
+    {
+      "name": "Ellaria Sand",
+      "aliases": [],
+      "popularity": 91754,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Ellaria Sand"
+    },
+    {
+      "name": "White Walker",
+      "aliases": [
+        "The Others"
+      ],
+      "popularity": 98366,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "White Walker"
+    },
+    {
+      "name": "Olenna Tyrell",
+      "aliases": [
+        "Olenna Redwyne",
+        "Queen of Thorns"
+      ],
+      "popularity": 102201,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Olenna Tyrell"
+    },
+    {
+      "name": "Varys",
+      "aliases": [
+        "Lord Varys",
+        "The Spider",
+        "Varys the Spider"
+      ],
+      "popularity": 102211,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Varys"
+    },
+    {
+      "name": "Tommen Baratheon",
+      "aliases": [],
+      "popularity": 103467,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Tommen Baratheon"
+    },
+    {
+      "name": "Bran Stark",
+      "aliases": [
+        "Brandon Stark",
+        "Three-eyed raven"
+      ],
+      "popularity": 111980,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Bran Stark"
+    },
+    {
+      "name": "Catelyn Stark",
+      "aliases": [
+        "Catelyn Stark-Tully",
+        "Catelyn Tully",
+        "Catelyn Tully-Stark",
+        "Lady Catelyn Stark",
+        "Lady Catelyn Tully",
+        "Lady Stoneheart"
+      ],
+      "popularity": 120665,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Catelyn Stark"
+    },
+    {
+      "name": "Stannis Baratheon",
+      "aliases": [],
+      "popularity": 122174,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Stannis Baratheon"
+    },
+    {
+      "name": "Jorah Mormont",
+      "aliases": [
+        "Jorah the Andal",
+        "Ser Jorah Mormont"
+      ],
+      "popularity": 125633,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Jorah Mormont"
+    },
+    {
+      "name": "Robb Stark",
+      "aliases": [],
+      "popularity": 127319,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Robb Stark"
+    },
+    {
+      "name": "Daario Naharis",
+      "aliases": [],
+      "popularity": 134027,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Daario Naharis"
+    },
+    {
+      "name": "Sandor Clegane",
+      "aliases": [
+        "The Hound"
+      ],
+      "popularity": 141671,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Sandor Clegane"
+    },
+    {
+      "name": "Petyr Baelish",
+      "aliases": [
+        "Littlefinger"
+      ],
+      "popularity": 147242,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Petyr Baelish"
+    },
+    {
+      "name": "Tywin Lannister",
+      "aliases": [],
+      "popularity": 152641,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Tywin Lannister"
+    },
+    {
+      "name": "Ned Stark",
+      "aliases": [
+        "Eddard \"Ned\" Stark",
+        "Eddard Stark",
+        "Lord Eddard Stark",
+        "Lord Ned Stark"
+      ],
+      "popularity": 156076,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Ned Stark"
+    },
+    {
+      "name": "Melisandre",
+      "aliases": [
+        "Melisandre of Asshai",
+        "The Red Woman"
+      ],
+      "popularity": 156490,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Melisandre"
+    },
+    {
+      "name": "Brienne of Tarth",
+      "aliases": [],
+      "popularity": 158688,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Brienne of Tarth"
+    },
+    {
+      "name": "Oberyn Martell",
+      "aliases": [
+        "Red Viper",
+        "The Red Viper",
+        "The Red Viper of Dorne"
+      ],
+      "popularity": 160075,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Oberyn Martell"
+    },
+    {
+      "name": "Robert Baratheon",
+      "aliases": [
+        "The Usurper"
+      ],
+      "popularity": 163294,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Robert Baratheon"
+    },
+    {
+      "name": "Jaime Lannister",
+      "aliases": [
+        "Kingslayer",
+        "Ser Jaime Lannister",
+        "The Kingslayer",
+        "The Young Lion"
+      ],
+      "popularity": 181649,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Jaime Lannister"
+    },
+    {
+      "name": "Theon Greyjoy",
+      "aliases": [
+        "Reek"
+      ],
+      "popularity": 205595,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Theon Greyjoy"
+    },
+    {
+      "name": "Margaery Tyrell",
+      "aliases": [],
+      "popularity": 211837,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Margaery Tyrell"
+    },
+    {
+      "name": "Ramsay Bolton",
+      "aliases": [
+        "Ramsay Snow"
+      ],
+      "popularity": 215058,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Ramsay Bolton"
+    },
+    {
+      "name": "Gregor Clegane",
+      "aliases": [
+        "Ser Gregor Clegane",
+        "The Mountain"
+      ],
+      "popularity": 216134,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Gregor Clegane"
+    },
+    {
+      "name": "Tyrion Lannister",
+      "aliases": [
+        "The Halfman",
+        "The Imp",
+        "Tyrion",
+        "Tyrion the Halfman",
+        "Tyrion the Imp"
+      ],
+      "popularity": 223906,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Tyrion Lannister"
+    },
+    {
+      "name": "Joffrey Baratheon",
+      "aliases": [
+        "Joffrey the Illborn",
+        "The Young Usurper"
+      ],
+      "popularity": 226592,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Joffrey Baratheon"
+    },
+    {
+      "name": "Arya Stark",
+      "aliases": [
+        "Arya"
+      ],
+      "popularity": 234366,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Arya Stark"
+    },
+    {
+      "name": "Sansa Stark",
+      "aliases": [
+        "Sansa Lannister"
+      ],
+      "popularity": 235798,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Sansa Stark"
+    },
+    {
+      "name": "Cersei Lannister",
+      "aliases": [],
+      "popularity": 268412,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Cersei Lannister"
+    },
+    {
+      "name": "Jon Snow",
+      "aliases": [
+        "Jon Snow (character)",
+        "King Crow",
+        "Lord Snow",
+        "The White Wolf"
+      ],
+      "popularity": 413519,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Jon Snow (character)"
+    },
+    {
+      "name": "Daenerys Targaryen",
+      "aliases": [
+        "Breaker of Chains",
+        "Daenerys Stormborn",
+        "Dany",
+        "Khaleesi",
+        "Mhysa",
+        "Mother of Dragons",
+        "Queen of ashes",
+        "Stormborn",
+        "The Queen",
+        "The Unburnt"
+      ],
+      "popularity": 682210,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Daenerys Targaryen"
+    }
+  ]
+}

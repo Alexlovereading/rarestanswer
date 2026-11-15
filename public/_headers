@@ -20,10 +20,21 @@
   Strict-Transport-Security: max-age=31536000
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
-# Hashed build assets (CSS/JS/fonts) never change — cache immutably for a year.
+# Hashed build assets (CSS/JS) never change — cache immutably for a year.
 # Returning visitors get instant repeat loads (helps LCP on revisit).
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
+
+# Self-hosted faces preloaded from the document head. Filenames include the
+# weight; a face swap should change the filename or this rule.
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Lazy play payloads. Short TTL so a prompt rebuild shows up quickly, and
+# crawlers should not index the JSON.
+/game-data/*
+  Cache-Control: public, max-age=300, must-revalidate
+  X-Robots-Tag: noindex, nofollow
 
 # Static images change only on deploy and have no content hash — one day
 # plus stale-while-revalidate keeps repeat views fast without serving

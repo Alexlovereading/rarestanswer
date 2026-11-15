@@ -221,3 +221,126 @@ Parenthetical "(game)" in the plan is disambiguation. Every other phrase below i
 - Game and guide covers are absent from `.gen-covers-manifest.json`. They have an `image`, so `pnpm gen-covers` skips them. Do not run `pnpm gen-assets --force` (it would replace the gem favicon).
 - `astro.config.ts` still warns that `src/content/tutorials` is missing. The tutorials suite treats a missing directory as an empty collection, so the gate stays green.
 - Preview of this build is still up at `http://127.0.0.1:4399/`.
+
+## C3-CONTENT-FACTS done
+
+Fact-checked all 21 English MDX pages against live official pages on 14 November 2026. No page was set to `draft: true`. `src/data/prompts/**` and `scripts/build-prompts.ts` were not touched. `pnpm check-content` is clean (21 MDX).
+
+Corrections that changed a claim:
+
+- Krillion homepage prints "one in a krillion." Noillirk is two products: playdaily.org (common answer scores more, seven prompts, 25 seconds, calls itself the only official site) and the BlueMind App Store app "Noillirk - Reverse Krillion" (same scoring direction, seven prompts). Neither is krillion.io.
+- NYT Wordle help: the daily puzzle needs no subscription and releases at midnight local time. Games, All Access, and Home Delivery subscribers get the archive back to 19 June 2021, Wordle Bot, and Create Your Wordle. Archive play changes played count, win rate, and guess distribution, and it does not change the streak. Wikipedia's answer list is 2,309 words, seven removed from an original 2,315. The help page spells the absent-letter tile Gray.
+- Farflung homepage FAQ: unlimited mode is "Not yet," themed packs first. The how-to-play German ladder (Luxembourg = Farflung, Belgium = Elusive) is the ranked version; the homepage only names Belgium as the further example.
+- Size It Up how-to-play now publishes Scale Streak (eight questions, three hearts, 100 / 250 base points, 2× after two correct, 3× after four, perk options not listed). sizedle.com/size-it-up is five rounds out of 500. sizeitupgame.com is a different daily: six rounds out of 600, orange silhouette. It is not an archive of gamesizeitup.com.
+- Wonderhop Perfect is only the best answer on the list: #1 in Sky, rarest or rarer than 97% in Abyss, oldest or newest 3% in Past and Future.
+- Brainer archive index listed 256 puzzles (month folders November 2025–November 2026), not 236. Price on the menu is 3.79 euros for lifetime access. Question count is still unpublished.
+- Deep Dive arcade: POG credits Zygomatic, added 19 Mar 2021, coins and oxygen. The control-scheme sentence was removed because the listing does not state one.
+- Majority homepage claims rechecked. The specific "best thing about being single" prompt was not on the homepage and was removed. majority.wtf returned HTTP 525.
+- Rarest Answer Party API reread: playing 8,347, visits 4,821,164, favorites 141,430, votes 2,441 up / 2,243 down. Place id, universe id, maxPlayers 6, created 2026-10-24, updated 2026-11-14T03:17:49.887Z, price null, and `createVipServersAllowed: false` were unchanged. The HTML still said "There are currently no running experiences" in the same session the API reported players.
+- Stranger Things character-list lead and the Tapanuli orangutan article ("the rarest great ape," described 2017, South Tapanuli) match the guides. Eddie Munson is Joseph Quinn, also starring, not a rare pick.
+
+Plan §1 phrases for each page are in that page's title, description, opening paragraph, and one H2. Internal links still end in `/`. The only `/answers/` link is `/answers/great-ape-species/`.
+
+- C3-CONTENT-FACTS → W2-QA: Roblox player, visit, favorite, and vote counts are a same-day snapshot and will be stale. Do not treat them as live. `majority.wtf` is still an error page.
+
+## C5-NEW-CONTENT done
+
+Added 9 new English pages (none of the existing 21 MDX files were edited). Each has a 1200×675 cover in `src/assets/covers/`, rendered with `pnpm gen-covers --out /tmp/c5-covers` and only these PNGs copied. Frontmatter elsewhere was not wired, and `src/assets/covers/.gen-covers-manifest.json` was not updated. `src/data/**`, `scripts/build-prompts.ts`, and `scripts/data/**` were not edited. `pnpm build-prompts` was not run.
+
+Guides: `/guides/rarest-answer-game-tips-geography/`, `/guides/rarest-answers-animals/`, `/guides/how-scoring-works-in-rarest-answer-games/`, `/guides/krillion-vs-rarest-answer/`, `/guides/best-unlimited-trivia-games/`, `/guides/rarest-answer-game-for-classrooms/`, `/guides/rarest-answer-party-ideas/`, `/guides/one-in-a-krillion-strategy/`. Games: `/games/trivia-games-like-sporcle/`. Bodies are about 1,000–1,280 whitespace-words, summaries 40–60 words, five FAQs, question-shaped H2s, tags from `daily-games`, `trivia`, `strategy`, `krillion`, `alternatives`. The only `/answers/` link is `/answers/great-ape-species/`.
+
+Scoring, Spotlight, the 25-second clock, and the empty-category sentence are this site's code. The great-ape tiers are the stored fixture tiers; popularity figures are called placeholders. Wikipedia's Hominidae article (eight living species) and the Tapanuli orangutan article (described 2017, "the rarest great ape," fewer than 800) were fetched 14 November 2026. Krillion facts are from krillion.io, the FAQ, the privacy policy (effective 23 September 2026), Puffer Party, `/unlimited/classic` (no rules sheet), and the packs page (beta, free for now; Words and Language 30 chapters, Movies 30 pictures, Sports 30 games, Geography 30 expeditions, Music coming soon). Sporcle, FunTrivia, TriviaPlaza, Mental Floss quizzes, Seterra, World Geography Games, GeoGuessr, TimeGuessr, Worldle, and Kahoot were opened the same day. FunTrivia's own pages disagreed on quiz totals, so no single total is quoted. JetPunk, Britannica, Braingle, and PurposeGames did not return a readable quiz and are omitted. Classroom copy quotes this site's privacy line that the game is not directed at children under 13. No learning-outcome study is claimed.
+
+`pnpm check-content` clean (30 MDX).
+
+- C5-NEW-CONTENT → W2-QA: new covers are not in `.gen-covers-manifest.json`; they already have `image:`, so a later `pnpm gen-covers` should skip them.
+- C5-NEW-CONTENT → W2-QA: the geography and classroom pages describe the empty-state string ("No geography prompts are loaded yet") as what the game shows when that list is empty. They do not assign tiers to any place. If geography prompts publish, those pages stay accurate only while that conditional stays.
+- C5-NEW-CONTENT → W1-DATA: `/guides/rarest-answers-animals/` ranks only `great-ape-species`, and it says the file is still `source: "fixture"`. Do not treat its popularity numbers as pageviews after the real file lands; the guide should be revised against the published tiers.
+
+## C4-SEO-PERF done
+
+Technical SEO and the answer hub, on the files this agent owns. `src/data/prompts/**` and `scripts/build-prompts.ts` were not edited, and `pnpm build-prompts` was not run. The catalog at build time was still one prompt, `great-ape-species` (`source: "fixture"`).
+
+`/rarest-answers/` is static HTML grouped by category. Each group is a section (`#animals`, and the other category keys when they exist) with a link to `/trivia/<category>/`. A category jump list renders only when two or more categories are present, so the fixture page has no chip row; `#animals` still lands on the Animals heading. The old search box and client filter are gone. Prompt cards are headings inside links, not a second H1. ItemList JSON-LD names each prompt by its question and uses an absolute URL. `content-visibility` was tried and removed: on the fixture page it moved the "Keep exploring" block (CLS 0.095, performance 98).
+
+`/answers/<slug>/` copy is still derived from that prompt's question, answers, rarity, and source. The meta description leads with the count and the plural (or the species label) and then the question, capped at 165 characters. If two prompts would share a document title or a description, the slug is appended. Related links are the next 4–6 prompts in catalog order: same category first, then the following prompts, and fewer than 4 only when fewer than 4 other prompts exist. With one prompt the page says no other Animals prompts yet, and it still links to `/trivia/animals/` and `/rarest-answers/#animals`.
+
+`public/_headers`: `/_astro/*` stays `public, max-age=31536000, immutable`. `/fonts/*` is the same (the preloaded faces are `fraunces-800.woff2` and `source-sans-3-400.woff2`). `/game-data/*` is `public, max-age=300, must-revalidate` plus `X-Robots-Tag: noindex, nofollow`. Sitemap filter drops `/game-data` and `/ja` / `/zh` (including `zh-`). Hreflang entries are limited to locales in `src/i18n/routing.ts` (`en`) and add `x-default` on the default-locale URL. No built page emits `ja` or `zh`.
+
+`pnpm exec astro build --outDir /tmp/c4-dist` (60 HTML pages after other agents added guides and one game; sitemap 59 URLs, `/404.html` omitted). Every HTML title and meta description is unique. Canonical, `og:url`, `og:image`, and `twitter:image` are absolute `https://` URLs. JSON-LD parses: `/` has WebApplication and VideoGame, `/rarest-answers/` has ItemList and BreadcrumbList, `/answers/great-ape-species/` has FAQPage and BreadcrumbList. Sitemap contains `/`, `/unlimited/`, all eight `/trivia/*`, `/rarest-answers/`, `/answers/great-ape-species/`, `/games/*`, and `/guides/*`, and no `/game-data/*`. Font preload tags are on every page. No third-party script URL is in the HTML. This outDir does not include Pagefind; `pnpm build`'s postbuild still indexes `dist`.
+
+Lighthouse 13.6.0 (mobile, `pnpm dlx`; `npx` is not on PATH) against `http://127.0.0.1:4420` serving that directory. After the CLS fix, performance / accessibility / best-practices / SEO were 100 on `/`, `/rarest-answers/`, `/answers/great-ape-species/`, and `/games/krillion/`. The Python server does not apply `_headers`, so those scores are not a cache-header test. At 375px the hub and the great-ape page had document scroll width 375; the answer table scrolls inside its region (640px table, 343px viewport). `pnpm lint` passed. `pnpm typecheck` passed with 0 errors (an earlier run failed only in `src/lib/game/browser.ts` while that file was mid-edit; the rerun was clean).
+
+- C4-SEO-PERF → W1-UI: Lighthouse's render-blocking insight names `/_astro/SearchButton.*.css` (about 68KB, about 430ms on `/rarest-answers/`). The performance score was still 100. That stylesheet is not in these files.
+- C4-SEO-PERF → W1-DATA: answer pages will link 4–6 related prompts once more than one prompt exists. Until then `/answers/great-ape-species/` has no sibling links. A `source` that does not mention Wikipedia is described as stored popularity, not pageviews.
+
+## C6-UI-CHROME done
+
+Site chrome outside the game. Brand tokens in `src/styles/globals.css` are unchanged (`--brand*`, `--tier-1`–`--tier-6`, `--gold`, `--caution`). New color uses those variables. No emoji. Icons are lucide. `pnpm lint`, `pnpm typecheck` (0 errors), and `pnpm check-i18n --strict-ui` are green. `src/data/**`, `scripts/build-prompts.ts`, and `scripts/data/**` were not edited. `pnpm build-prompts` was not run. Game files were not edited.
+
+Lists (`/games/`, `/guides/`, recent, tags): a featured pillar leads the page (`games-like-krillion`, `how-to-find-rare-answers`; if that slug is missing, the first entry), then a cover grid. The category title, intro, and `{count} pages` sit above the grid. Cards keep a 16:9 frame so the grid does not jump. Articles show the cover under the title, Fraunces headings with the body tokens in both themes, a sticky contents rail, the FAQ accordion after the body, related cards with covers, and a tinted "Play today's round" box (`home.closingCta`). The same box is on the list, about, FAQ, and 404. The header is a solid bar (the Play link is the filled pill). Below the `lg` breakpoint the menu is a full-height sheet, locks scroll, and closes on Escape. The footer repeats the gold hairline and a Play button.
+
+New `en.json` strings: `shared.pageCount`, `shared.featuredLabel`, `shared.allPages`, `shared.readThis`, `shared.backToTop`.
+
+Built with `pnpm exec astro build --outDir /tmp/c6-dist` (60 pages). Served at `http://127.0.0.1:4436/`. Playwright (headless Chromium) at 375 and 1280, light and dark, on `/guides/`, `/games/`, `/guides/how-to-find-rare-answers/`, `/about/`, `/faq/`, and `/404.html`, plus the open mobile menu. Document scroll width matched the viewport on every shot. No page errors. The menu opened and Escape closed it.
+
+At the moment of that build, nine covers named by the new MDX were not on disk yet (`en-guides-rarest-answer-game-for-classrooms`, `en-guides-krillion-vs-rarest-answer`, `en-guides-rarest-answers-animals`, `en-guides-how-scoring-works-in-rarest-answer-games`, `en-guides-best-unlimited-trivia-games`, `en-guides-rarest-answer-party-ideas`, `en-guides-one-in-a-krillion-strategy`, `en-guides-rarest-answer-game-tips-geography`, `en-games-trivia-games-like-sporcle`). They were rendered with `pnpm gen-covers --out /tmp/c6-covers` and only those missing PNGs were copied. MDX and `.gen-covers-manifest.json` were not touched. C5's handoff describes the same nine files; a later `pnpm gen-covers` should skip them because `image:` is already set.
+
+- C6-UI-CHROME → W2-QA: preview of this chrome build is `http://127.0.0.1:4436/` (`/tmp/c6-dist`). It is not the repo `dist/`.
+- C6-UI-CHROME → C5-NEW-CONTENT: if your cover copy landed after this note, yours is the file on disk. The chrome copy only filled a path that was missing.
+
+## C7-PLAY-PAGES-SEO done
+
+Play pages only: `src/pages/index.astro`, `src/pages/unlimited.astro`, `src/pages/trivia/[category].astro`, and `src/lib/game/category-copy.ts`. Game components, `src/lib/game/copy.ts`, and the prompt JSON were not edited. `pnpm build-prompts` was not run.
+
+The game stays first. On `/` the intro sentence moved under the card so Play fits a 375×812 viewport (button bottom 750, the SEO block starts at 887). No horizontal overflow on `/`, `/unlimited/`, `/trivia/animals/`, or `/trivia/geography/` at 375, or on `/` and `/trivia/animals/` at 1280.
+
+Below the fold: what the mode is, how rarity is measured, the tier table, a tips teaser (finding guide, strategy guide, how to play), a comparison teaser (`/games/krillion/` and `/games/games-like-krillion/`), and one FAQ. Each of these URLs emits a single FAQPage JSON-LD. The homepage rarity answer is that same paragraph plus the tier sentence from `TIERS`. It does not call the fixture numbers live pageviews. Krillion unlimited is described as a different game. The Krillion guide's 14 November 2026 note (an Unlimited path exists, no public rules sheet for its limits) is cited, not extended.
+
+Rarity text is built from each prompt's `source`. A source that names Wikipedia, Wiktionary, or pageviews is Wikidata (CC0) plus monthly English Wikipedia pageviews, or Wiktionary pageviews when the source says Wiktionary. Any other source is placeholder popularity. This build's only prompt is `great-ape-species` (`source: "fixture"`), so the pages say the loaded list is labeled "fixture".
+
+Trivia pages have their own lead, intro, list note, empty note, and two questions. The list is `src/data/prompts/index.json` for that category, sorted by question, linking to `/answers/<slug>/`. This build: animals has 1 prompt ("Name a species of great ape", 8 answers); the other seven say none are in the catalog. Clicking that link opened `/answers/great-ape-species/`.
+
+Titles are ≤60 characters and already contain "Rarest Answer", so the layout does not add a suffix. Descriptions are 140–160 characters and contain the primary keyword. Home 44 / 153. Unlimited 28 / 141. Category titles 32–47, descriptions 144–154. `category-copy.ts` throws on import if a category title or description leaves that range.
+
+`pnpm lint` and `pnpm typecheck` (0 errors) passed. `pnpm exec vitest run tests/game-engine.test.ts` passed (24). Built with `pnpm exec astro build --outDir /tmp/c7-dist` (60 pages). The preview server on port 4477 was stopped.
+
+- C7-PLAY-PAGES-SEO → whoever rebuilds after the prompt files land: leave the rarity sentences alone. They follow the `source` strings. If a page still says "fixture", that prompt file still says fixture.
+- C7-PLAY-PAGES-SEO → W2-QA: `/tmp/c7-dist` is not the repo `dist/`.
+
+## C2-GAME-UX done
+
+Game feel, rules, reveal, end screen, and stats. Owned files only: `src/components/game/**`, `src/lib/game/**` except `types.ts`, `tests/game-*.test.ts`. `src/data/prompts/**` and `scripts/build-prompts.ts` were not edited. `pnpm build-prompts` was not run. The catalog at build time was still the one-prompt fixture `great-ape-species` (8 answers).
+
+rarest.me was fetched and compared (7 prompts, 25 seconds, a wrong guess costs 1 second, six tiers, a 2× spend, a share postcard, answer lists). Tier names, the 2× name, and the postcard shape were not copied.
+
+What the play card does now:
+
+- First visit opens How to play once (`settings.seenRules`; a missing field stays false). The three rules stay on the start card under Play and the timer switch, so both controls stay on screen at 375×667 and 375×812. Escape closes the dialog and focuses Play.
+- A correct guess flashes the input, then the tier title, the point line, and a six-segment meter. `prefers-reduced-motion` skips the wait and the motion. Focusing Next uses `preventScroll`, so the tier title stays in view (Legendary at y=282 on 375×812).
+- The reveal list is one ranked list ("Every answer, rarest first") when the prompt has 10 or fewer answers, and the rarest 10 plus the most common 10 otherwise. Each row has a tier chip. The hit is marked "You". The page links to `/answers/<slug>/`.
+- The end screen is a share card (score, streak, up to 7 tier squares) plus the spoiler-free text and a canvas image painted from CSS variables. Share text does not include the answer.
+- The stats dialog has two SVG charts: guesses by tier, and daily scores in six buckets. Only a finished daily round appends a score (`dailyScores`, oldest first, cap 60). Free rounds do not.
+- Loading, error, and empty states keep their height. An empty category says no prompts are loaded and disables Play. The daily round still uses whatever is in the list.
+
+Keyboard play, `aria-live` for the guess result, and colors only through `--brand*` and `--tier-1`–`--tier-6` (plus the existing semantic tokens). No sound. Game script gzipped size is 13,002 bytes (limit 40KB).
+
+`pnpm exec astro build --outDir /tmp/c2-dist` (60 pages). Served at `http://127.0.0.1:4410/`. Playwright (already-installed Chromium, headless) at 375 and 1280: miss, duplicate, Spotlight (Common → 10), reveal, end, both charts, geography empty, unlimited Pass, no horizontal overflow, CLS about 0, no page errors, no failed requests. `pnpm lint` passed. `pnpm typecheck` passed with 0 errors (the tutorials glob warning only). `pnpm test`: 25 files, 485 passed, 2 skipped. `tests/game-engine.test.ts` is 24 tests, including `dailyScores`, the two distributions, `seenRules`, and the short-list split.
+
+- C2-GAME-UX → W2-QA: `/tmp/c2-dist` is not the repo `dist/`. The preview on port 4410 is still up. A short prompt stays one list; a prompt with more than 10 answers splits into rarest and common.
+- C2-GAME-UX → W1-DATA: until more than one prompt exists, a daily round is that one prompt. The end card still draws up to 7 squares.
+
+## C1-DATA-AUDIT done
+
+Every playable prompt was checked against the full SPARQL cache (key `full:<slug>:<sha1 12 hex>`) and the in-flight build log. Edits are only in `scripts/data/prompt-defs.ts` and `docs/rarest-data-audit.md`. `scripts/build-prompts.ts` and `src/data/prompts/**` were not touched. `pnpm build-prompts` was not run.
+
+The running build fetched the pre-audit queries. It will write prompts from those queries, including sets this audit then fixed or excluded. The next build has to run `pnpm build-prompts` again before the answer lists match this audit.
+
+`assertPromptDefs()` passes. 286 playable defs: geography 37, animals 51, food 54, sports 21, screen 28, music 32, science 34, history 29.
+
+Fixes that change the answer set: Central America (7 states), European capitals (Ankara, Astana), Commonwealth (United Kingdom), landlocked (7 countries), Mediterranean (seas that are part of it, so Croatia), English official (Eritrea out), NFL (4 proposed teams), NHL (Coyotes), World Series (Brewers), Summer Olympics (3 cancelled and 3 future), FIFA World Cups (2030), planets (IAU 13), SI units (7 base units), SI prefixes (deca-), space stations (launched, including the ISS), UK prime ministers (Burnham and Denbigh), Ottoman sultans (9 pretenders), Declaration signers (John Adams). Species prompts drop hybrids and undescribed names. Euro users, Soviet republics, US vice presidents, and centuries came off the exclusion list: the cached sets are the real ones. Bulgaria has used the euro since 1 January 2026. great-ape-species, stranger-things-characters, and english-interjections were not changed except great-ape aliases (chimp, common chimpanzee, pygmy chimpanzee).
+
+38 prompts stay excluded. The full table is `docs/rarest-data-audit.md`.
+
+- C1-DATA-AUDIT → whoever next runs the data build: re-run `pnpm build-prompts` after this file is what you want fetched. Do not trust the prompts written by the build that was already in flight.
+- C1-DATA-AUDIT → W2-QA: a prompt under 15 answers is still dropped by the builder, except great apes (8) and Stranger Things (12).

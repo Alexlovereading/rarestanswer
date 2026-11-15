@@ -1,0 +1,773 @@
+{
+  "id": "us-states",
+  "slug": "us-states",
+  "category": "geography",
+  "question": "Name a US state",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "North Dakota",
+      "aliases": [
+        "Flickertail State",
+        "N.D.",
+        "N. Dak.",
+        "N. Dakota",
+        "ND",
+        "NoDak",
+        "Peace Garden State",
+        "Roughrider State",
+        "State of North Dakota",
+        "US-ND"
+      ],
+      "popularity": 450364,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "North Dakota"
+    },
+    {
+      "name": "South Dakota",
+      "aliases": [
+        "S.D.",
+        "S. Dak.",
+        "S. Dakota",
+        "SD",
+        "SoDak",
+        "State of South Dakota",
+        "The Coyote State",
+        "The Mount Rushmore State",
+        "US-SD"
+      ],
+      "popularity": 479433,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "South Dakota"
+    },
+    {
+      "name": "Nebraska",
+      "aliases": [
+        "Cornhusker State",
+        "NE",
+        "Neb.",
+        "Nebr.",
+        "State of Nebraska",
+        "US-NE"
+      ],
+      "popularity": 590202,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Nebraska"
+    },
+    {
+      "name": "Idaho",
+      "aliases": [
+        "Gem State",
+        "ID",
+        "Potato State",
+        "State of Idaho",
+        "US-ID"
+      ],
+      "popularity": 612551,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Idaho"
+    },
+    {
+      "name": "Iowa",
+      "aliases": [
+        "Hawk-eye State",
+        "IA",
+        "State of Iowa",
+        "The Land Between Two Rivers",
+        "US-IA"
+      ],
+      "popularity": 616663,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Iowa"
+    },
+    {
+      "name": "Nevada",
+      "aliases": [
+        "Nev.",
+        "NV",
+        "Silver State",
+        "State of Nevada",
+        "The Silver State",
+        "US-NV"
+      ],
+      "popularity": 643526,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Nevada"
+    },
+    {
+      "name": "Delaware",
+      "aliases": [
+        "Blue Hen State",
+        "State of Delaware",
+        "The Diamond State",
+        "The First State",
+        "The Small Wonder",
+        "US-DE"
+      ],
+      "popularity": 644123,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Delaware"
+    },
+    {
+      "name": "Arkansas",
+      "aliases": [
+        "AR",
+        "AR-kən-saw",
+        "Ark.",
+        "ARkənsaw",
+        "Arkansaw",
+        "Arkensaw",
+        "State of Arkansas",
+        "The Natural State",
+        "US-AR"
+      ],
+      "popularity": 651769,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Arkansas"
+    },
+    {
+      "name": "Vermont",
+      "aliases": [
+        "State of Vermont",
+        "The Green Mountain State",
+        "US-VT",
+        "VT"
+      ],
+      "popularity": 681950,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Vermont"
+    },
+    {
+      "name": "South Carolina",
+      "aliases": [
+        "Palmetto State",
+        "S.C.",
+        "SC",
+        "State of South Carolina",
+        "US-SC"
+      ],
+      "popularity": 687047,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "South Carolina"
+    },
+    {
+      "name": "West Virginia",
+      "aliases": [
+        "Almost Heaven",
+        "State of West Virginia",
+        "The Mountain State",
+        "US-WV",
+        "W. Va.",
+        "WV"
+      ],
+      "popularity": 699315,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "West Virginia"
+    },
+    {
+      "name": "Mississippi",
+      "aliases": [
+        "Magnolia State",
+        "Miss.",
+        "State of Mississippi",
+        "US-MS"
+      ],
+      "popularity": 705276,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Mississippi"
+    },
+    {
+      "name": "Kansas",
+      "aliases": [
+        "Kan.",
+        "Kans.",
+        "KS",
+        "State of Kansas",
+        "Sunflower State",
+        "US-KS"
+      ],
+      "popularity": 709139,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Kansas"
+    },
+    {
+      "name": "New Hampshire",
+      "aliases": [
+        "Granite State",
+        "N.H.",
+        "NH",
+        "State of New Hampshire",
+        "The Granite State",
+        "US-NH"
+      ],
+      "popularity": 722760,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "New Hampshire"
+    },
+    {
+      "name": "Kentucky",
+      "aliases": [
+        "Bluegrass State",
+        "Commonwealth of Kentucky",
+        "KY",
+        "US-KY"
+      ],
+      "popularity": 729443,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Kentucky"
+    },
+    {
+      "name": "Indiana",
+      "aliases": [
+        "Hoosier State",
+        "Ind.",
+        "State of Indiana"
+      ],
+      "popularity": 756900,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Indiana"
+    },
+    {
+      "name": "Oregon",
+      "aliases": [
+        "Ore.",
+        "Oreg.",
+        "State of Oregon",
+        "The Beaver State",
+        "US-OR"
+      ],
+      "popularity": 758483,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Oregon"
+    },
+    {
+      "name": "Alabama",
+      "aliases": [
+        "AL",
+        "Ala.",
+        "Bama",
+        "Heart of Dixie",
+        "State of Alabama",
+        "The Yellowhammer State",
+        "US-AL",
+        "Yellowhammer State"
+      ],
+      "popularity": 791203,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Alabama"
+    },
+    {
+      "name": "Louisiana",
+      "aliases": [
+        "18th State",
+        "Pelican State",
+        "State of Louisiana"
+      ],
+      "popularity": 809764,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Louisiana"
+    },
+    {
+      "name": "Oklahoma",
+      "aliases": [
+        "Ekelahema",
+        "Ogalahoma",
+        "OK",
+        "Okla.",
+        "Oklahoma Territory",
+        "Oklahumma",
+        "Sooner State",
+        "State of Oklahoma",
+        "Territory of Oklahoma",
+        "The Sooner State",
+        "Uukaalaasuumaa"
+      ],
+      "popularity": 814565,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Oklahoma"
+    },
+    {
+      "name": "Wisconsin",
+      "aliases": [
+        "Badger State",
+        "State of Wisconsin",
+        "US-WI",
+        "WI",
+        "Wis."
+      ],
+      "popularity": 823437,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Wisconsin"
+    },
+    {
+      "name": "Connecticut",
+      "aliases": [
+        "5th State",
+        "Conn.",
+        "Conneticut",
+        "Constitution State",
+        "CT",
+        "Nutmeg State",
+        "State of Connecticut",
+        "The Constitution State",
+        "The Nutmeg State",
+        "US-CT"
+      ],
+      "popularity": 834259,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Connecticut"
+    },
+    {
+      "name": "Montana",
+      "aliases": [
+        "Big Sky Country",
+        "Mont.",
+        "MT",
+        "State of Montana",
+        "Treasure State",
+        "US-MT"
+      ],
+      "popularity": 843580,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Montana"
+    },
+    {
+      "name": "Maine",
+      "aliases": [
+        "ME",
+        "State of Maine",
+        "The Pine Tree State",
+        "US-ME"
+      ],
+      "popularity": 843747,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Maine"
+    },
+    {
+      "name": "Illinois",
+      "aliases": [
+        "IL",
+        "Ill.",
+        "Ills.",
+        "Land of Lincoln",
+        "Lincoln State",
+        "Prairie State",
+        "State of Illinois",
+        "The Land of Lincoln",
+        "The Prairie State",
+        "US-IL"
+      ],
+      "popularity": 845173,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Illinois"
+    },
+    {
+      "name": "Maryland",
+      "aliases": [
+        "MD",
+        "Old Line State",
+        "State of Maryland",
+        "US-MD"
+      ],
+      "popularity": 850461,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Maryland"
+    },
+    {
+      "name": "Arizona",
+      "aliases": [
+        "Ariz.",
+        "AZ",
+        "Grand Canyon State",
+        "State of Arizona",
+        "The Grand Canyon State",
+        "US-AZ"
+      ],
+      "popularity": 851184,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Arizona"
+    },
+    {
+      "name": "Rhode Island",
+      "aliases": [
+        "13th State",
+        "Little Rhodie",
+        "Little Rhody",
+        "Ocean State",
+        "Providence Plantations",
+        "R.I.",
+        "Rhode Island and Providence Plantations",
+        "Rhode Island State",
+        "RI",
+        "Road Island",
+        "State of Rhode Island",
+        "The Ocean State",
+        "US-RI"
+      ],
+      "popularity": 852202,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Rhode Island"
+    },
+    {
+      "name": "Tennessee",
+      "aliases": [
+        "State of Tennessee",
+        "Tenn.",
+        "The Volunteer State",
+        "TN",
+        "US-TN",
+        "Volunteer State"
+      ],
+      "popularity": 853692,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Tennessee"
+    },
+    {
+      "name": "Utah",
+      "aliases": [
+        "Beehive State",
+        "Mormon State",
+        "State of Utah",
+        "US-UT",
+        "UT"
+      ],
+      "popularity": 872064,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Utah"
+    },
+    {
+      "name": "Colorado",
+      "aliases": [
+        "Centennial State",
+        "CO",
+        "Colo.",
+        "State of Colorado",
+        "US-CO"
+      ],
+      "popularity": 881704,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Colorado"
+    },
+    {
+      "name": "Wyoming",
+      "aliases": [
+        "Big Wyoming",
+        "State of Wyoming",
+        "The Cowboy State",
+        "The Equality State",
+        "US-WY",
+        "WY",
+        "Wyo."
+      ],
+      "popularity": 891604,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Wyoming"
+    },
+    {
+      "name": "Missouri",
+      "aliases": [
+        "MO",
+        "State of Missouri",
+        "The Show Me State",
+        "US-MO"
+      ],
+      "popularity": 893640,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Missouri"
+    },
+    {
+      "name": "New Mexico",
+      "aliases": [
+        "Land of Enchantment",
+        "N.M.",
+        "N. Mex.",
+        "NM",
+        "State of New Mexico"
+      ],
+      "popularity": 932185,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "New Mexico"
+    },
+    {
+      "name": "Michigan",
+      "aliases": [
+        "Great Lakes State",
+        "MI",
+        "Mich.",
+        "State of Michigan",
+        "US-MI",
+        "Wolverine State"
+      ],
+      "popularity": 979151,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Michigan"
+    },
+    {
+      "name": "Ohio",
+      "aliases": [
+        "Buckeye State",
+        "OH",
+        "State of Ohio",
+        "US-OH"
+      ],
+      "popularity": 1006703,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Ohio"
+    },
+    {
+      "name": "North Carolina",
+      "aliases": [
+        "N.C.",
+        "NC",
+        "State of North Carolina",
+        "Tar Heel State",
+        "The Tar Heel State"
+      ],
+      "popularity": 1017567,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "North Carolina"
+    },
+    {
+      "name": "Georgia",
+      "aliases": [
+        "GA",
+        "Georgia (U.S. state)",
+        "State of Georgia",
+        "The Goober State",
+        "The Peach State"
+      ],
+      "popularity": 1026931,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Georgia (U.S. state)"
+    },
+    {
+      "name": "Washington",
+      "aliases": [
+        "Evergreen State",
+        "State of Washington",
+        "US-WA",
+        "WA",
+        "Wash.",
+        "Washington (state)"
+      ],
+      "popularity": 1047890,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Washington (state)"
+    },
+    {
+      "name": "Virginia",
+      "aliases": [
+        "Commonwealth of Virginia",
+        "Old Dominion",
+        "State of Virginia",
+        "US-VA",
+        "VA"
+      ],
+      "popularity": 1051922,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Virginia"
+    },
+    {
+      "name": "New Jersey",
+      "aliases": [
+        "Garden State",
+        "Iersey",
+        "Jersey",
+        "N.J.",
+        "New Iersey",
+        "NJ",
+        "State of New Jersey",
+        "the Garden State",
+        "the State of New Jersey",
+        "US-NJ"
+      ],
+      "popularity": 1126325,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "New Jersey"
+    },
+    {
+      "name": "Massachusetts",
+      "aliases": [
+        "6th State",
+        "Bay State",
+        "Commonwealth of MA",
+        "Commonwealth of Massachusetts",
+        "MA",
+        "Mass.",
+        "Massachusetts state",
+        "Masshole Commonwealth",
+        "State of Massachusetts",
+        "Taxachusetts",
+        "The Bay State",
+        "The Commonwealth of Massachusetts"
+      ],
+      "popularity": 1163808,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Massachusetts"
+    },
+    {
+      "name": "Pennsylvania",
+      "aliases": [
+        "Commonwealth of Pennsylvania",
+        "Keystone State",
+        "PA",
+        "Penn.",
+        "Penna.",
+        "State of Pennsylvania",
+        "US-PA"
+      ],
+      "popularity": 1269585,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Pennsylvania"
+    },
+    {
+      "name": "Minnesota",
+      "aliases": [
+        "Minn.",
+        "MN",
+        "North Star State",
+        "State of Minnesota",
+        "US-MN"
+      ],
+      "popularity": 1321616,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Minnesota"
+    },
+    {
+      "name": "Florida",
+      "aliases": [
+        "FL",
+        "Fla.",
+        "Peninsular State",
+        "State of Florida",
+        "Sunshine State",
+        "The Gator State",
+        "The Sunshine State"
+      ],
+      "popularity": 1333480,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Florida"
+    },
+    {
+      "name": "New York",
+      "aliases": [
+        "Empire State",
+        "N.Y.",
+        "New York (state)",
+        "NY",
+        "NY state",
+        "NYS",
+        "State of New York",
+        "The Empire State",
+        "US-NY"
+      ],
+      "popularity": 1352129,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "New York (state)"
+    },
+    {
+      "name": "Alaska",
+      "aliases": [
+        "AK",
+        "Russian America",
+        "State of Alaska",
+        "The Last Frontier",
+        "US-AK"
+      ],
+      "popularity": 1628254,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Alaska"
+    },
+    {
+      "name": "Texas",
+      "aliases": [
+        "Lone Star State",
+        "State of Texas",
+        "Tex.",
+        "TX",
+        "US-TX"
+      ],
+      "popularity": 1727170,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Texas"
+    },
+    {
+      "name": "California",
+      "aliases": [
+        "CA",
+        "Cal.",
+        "Golden State",
+        "State of California",
+        "The Golden State"
+      ],
+      "popularity": 2419831,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "California"
+    },
+    {
+      "name": "Hawaii",
+      "aliases": [
+        "Hawaii State",
+        "HI",
+        "Kaimana Hila",
+        "Owhyhee",
+        "Owyhee",
+        "State of Hawaii",
+        "The Aloha State"
+      ],
+      "popularity": 2618155,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Hawaii"
+    }
+  ]
+}

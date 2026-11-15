@@ -1,0 +1,288 @@
+{
+  "id": "unesco-sites-in-mexico",
+  "slug": "unesco-sites-in-mexico",
+  "category": "geography",
+  "question": "Name a UNESCO World Heritage Site in Mexico",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Church and former convent of Todos los Santos",
+      "aliases": [],
+      "popularity": 241,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Church and former convent of Todos los Santos"
+    },
+    {
+      "name": "Convent Church of Santo Domingo, Puebla",
+      "aliases": [],
+      "popularity": 1370,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Convent Church of Santo Domingo, Puebla"
+    },
+    {
+      "name": "Alto Golfo de California Biosphere Reserve",
+      "aliases": [
+        "Alto Golfo de California",
+        "Upper Gulf of California"
+      ],
+      "popularity": 1495,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Alto Golfo de California Biosphere Reserve"
+    },
+    {
+      "name": "Historic centre of Puebla",
+      "aliases": [],
+      "popularity": 1588,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Historic centre of Puebla"
+    },
+    {
+      "name": "San Luis Potosí Cathedral",
+      "aliases": [],
+      "popularity": 1717,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "San Luis Potosí Cathedral"
+    },
+    {
+      "name": "Huichol Route to Huiricuta",
+      "aliases": [
+        "Tatehuari Huajuye"
+      ],
+      "popularity": 2061,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Huichol Route to Huiricuta"
+    },
+    {
+      "name": "Aqueduct of Padre Tembleque",
+      "aliases": [],
+      "popularity": 2779,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Aqueduct of Padre Tembleque"
+    },
+    {
+      "name": "Agave Landscape and Ancient Industrial Facilities of Tequila",
+      "aliases": [],
+      "popularity": 2945,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Agave Landscape and Ancient Industrial Facilities of Tequila"
+    },
+    {
+      "name": "Tehuacán-Cuicatlán Biosphere Reserve",
+      "aliases": [],
+      "popularity": 3078,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Tehuacán-Cuicatlán Biosphere Reserve"
+    },
+    {
+      "name": "Franciscan Missions in the Sierra Gorda of Querétaro",
+      "aliases": [],
+      "popularity": 3455,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Franciscan Missions in the Sierra Gorda of Querétaro"
+    },
+    {
+      "name": "Calakmul Biosphere Reserve",
+      "aliases": [],
+      "popularity": 4225,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Calakmul Biosphere Reserve"
+    },
+    {
+      "name": "Rock Paintings of Sierra de San Francisco",
+      "aliases": [],
+      "popularity": 4499,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Rock Paintings of Sierra de San Francisco"
+    },
+    {
+      "name": "Tlacotalpan",
+      "aliases": [],
+      "popularity": 5296,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Tlacotalpan"
+    },
+    {
+      "name": "Monasteries on the slopes of Popocatépetl",
+      "aliases": [],
+      "popularity": 5416,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Monasteries on the slopes of Popocatépetl"
+    },
+    {
+      "name": "El Pinacate y Gran Desierto de Altar Biosphere Reserve",
+      "aliases": [
+        "Pinacate Biosphere Reserve",
+        "Pinacate Reserve"
+      ],
+      "popularity": 6059,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "El Pinacate y Gran Desierto de Altar Biosphere Reserve"
+    },
+    {
+      "name": "Sian Kaʼan Biosphere Reserve",
+      "aliases": [
+        "Sian Ka'an"
+      ],
+      "popularity": 6100,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Sian Kaʼan Biosphere Reserve"
+    },
+    {
+      "name": "Hospicio Cabañas",
+      "aliases": [],
+      "popularity": 9393,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Hospicio Cabañas"
+    },
+    {
+      "name": "Luis Barragán House and Studio",
+      "aliases": [
+        "Casa Barragán",
+        "Casa Luis Barragán"
+      ],
+      "popularity": 11728,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Luis Barragán House and Studio"
+    },
+    {
+      "name": "Ciudad Universitaria, Mexico City",
+      "aliases": [
+        "Ciudad Universitaria"
+      ],
+      "popularity": 12278,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Ciudad Universitaria, Mexico City"
+    },
+    {
+      "name": "Casas Grandes",
+      "aliases": [
+        "Paquimé"
+      ],
+      "popularity": 14145,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Casas Grandes"
+    },
+    {
+      "name": "Xochicalco",
+      "aliases": [],
+      "popularity": 16058,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Xochicalco"
+    },
+    {
+      "name": "Monarch Butterfly Biosphere Reserve",
+      "aliases": [
+        "Mountain of Butterflies"
+      ],
+      "popularity": 18029,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Monarch Butterfly Biosphere Reserve"
+    },
+    {
+      "name": "Temple of the Inscriptions",
+      "aliases": [],
+      "popularity": 20405,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Temple of the Inscriptions"
+    },
+    {
+      "name": "El Tajín",
+      "aliases": [
+        "Tajín Veracruz"
+      ],
+      "popularity": 22875,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "El Tajín"
+    },
+    {
+      "name": "Camino Real de Tierra Adentro",
+      "aliases": [],
+      "popularity": 24049,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Camino Real de Tierra Adentro"
+    },
+    {
+      "name": "Revillagigedo Islands",
+      "aliases": [],
+      "popularity": 44441,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Revillagigedo Islands"
+    },
+    {
+      "name": "Calakmul",
+      "aliases": [],
+      "popularity": 53821,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Calakmul"
+    },
+    {
+      "name": "Palenque",
+      "aliases": [],
+      "popularity": 97764,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Palenque"
+    },
+    {
+      "name": "El Castillo, Chichen Itza",
+      "aliases": [
+        "La Pirámide",
+        "Pyramid of Kukulcan",
+        "Structure 5B18",
+        "Temple of Kukulcan"
+      ],
+      "popularity": 125165,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "El Castillo, Chichen Itza"
+    },
+    {
+      "name": "Teotihuacan",
+      "aliases": [
+        "archeological site of Teotihuacan",
+        "City of the Gods",
+        "City of the Sun",
+        "Place of Reeds"
+      ],
+      "popularity": 510299,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Teotihuacan"
+    },
+    {
+      "name": "Chichen Itza",
+      "aliases": [],
+      "popularity": 577907,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Chichen Itza"
+    }
+  ]
+}

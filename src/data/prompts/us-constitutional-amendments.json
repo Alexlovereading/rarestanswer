@@ -1,0 +1,269 @@
+{
+  "id": "us-constitutional-amendments",
+  "slug": "us-constitutional-amendments",
+  "category": "history",
+  "question": "Name an amendment to the United States Constitution",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Seventh Amendment to the United States Constitution",
+      "aliases": [
+        "Amendment VII",
+        "Seventh Amendment",
+        "The Seventh Amendment"
+      ],
+      "popularity": 41113,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Seventh Amendment to the United States Constitution"
+    },
+    {
+      "name": "Twentieth Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 50900,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Twentieth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Eleventh Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 51693,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Eleventh Amendment to the United States Constitution"
+    },
+    {
+      "name": "Twenty-third Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 52072,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Twenty-third Amendment to the United States Constitution"
+    },
+    {
+      "name": "Ninth Amendment to the United States Constitution",
+      "aliases": [
+        "9th amendment",
+        "Unenumerated Liberties",
+        "Unenumerated Liberty",
+        "Unenumerated Rights",
+        "United States Constitution/Amendment Nine"
+      ],
+      "popularity": 71970,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Ninth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Eighth Amendment to the United States Constitution",
+      "aliases": [
+        "8th amendment"
+      ],
+      "popularity": 76784,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Eighth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Sixth Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 84729,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Sixth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Twenty-fourth Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 90040,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Twenty-fourth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Twenty-first Amendment to the United States Constitution",
+      "aliases": [
+        "21st Amendment"
+      ],
+      "popularity": 90697,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Twenty-first Amendment to the United States Constitution"
+    },
+    {
+      "name": "Third Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 100003,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Third Amendment to the United States Constitution"
+    },
+    {
+      "name": "Sixteenth Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 117175,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Sixteenth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Twenty-sixth Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 125674,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Twenty-sixth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Twelfth Amendment to the United States Constitution",
+      "aliases": [
+        "Amendment XII",
+        "Twelfth Amendment"
+      ],
+      "popularity": 134796,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Twelfth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Tenth Amendment to the United States Constitution",
+      "aliases": [
+        "10th amendment"
+      ],
+      "popularity": 139402,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Tenth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Eighteenth Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 158553,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Eighteenth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Fifteenth Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 159232,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Fifteenth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Twenty-seventh Amendment to the United States Constitution",
+      "aliases": [
+        "Congressional Pay Amendment"
+      ],
+      "popularity": 167490,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Twenty-seventh Amendment to the United States Constitution"
+    },
+    {
+      "name": "Fourth Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 210906,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Fourth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Fifth Amendment to the United States Constitution",
+      "aliases": [
+        "5th Amendment",
+        "Fifth Amendment",
+        "the Fifth"
+      ],
+      "popularity": 291022,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Fifth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Thirteenth Amendment to the United States Constitution",
+      "aliases": [
+        "13th Amendment",
+        "Amendment XIII",
+        "Thirteenth Amendment"
+      ],
+      "popularity": 308139,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Thirteenth Amendment to the United States Constitution"
+    },
+    {
+      "name": "First Amendment to the United States Constitution",
+      "aliases": [
+        "1st Amendment",
+        "Amendment I"
+      ],
+      "popularity": 311483,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "First Amendment to the United States Constitution"
+    },
+    {
+      "name": "Nineteenth Amendment to the United States Constitution",
+      "aliases": [],
+      "popularity": 313596,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Nineteenth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Seventeenth Amendment to the United States Constitution",
+      "aliases": [
+        "Amendment XVII"
+      ],
+      "popularity": 361277,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Seventeenth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Twenty-second Amendment to the United States Constitution",
+      "aliases": [
+        "Twenty-second Amendment；Amendment XXII"
+      ],
+      "popularity": 431326,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Twenty-second Amendment to the United States Constitution"
+    },
+    {
+      "name": "Second Amendment to the United States Constitution",
+      "aliases": [
+        "2nd Amendment",
+        "Amendment II"
+      ],
+      "popularity": 454346,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Second Amendment to the United States Constitution"
+    },
+    {
+      "name": "Fourteenth Amendment to the United States Constitution",
+      "aliases": [
+        "14th amendment"
+      ],
+      "popularity": 640588,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Fourteenth Amendment to the United States Constitution"
+    },
+    {
+      "name": "Twenty-fifth Amendment to the United States Constitution",
+      "aliases": [
+        "25th Amendment",
+        "Amendment XXV"
+      ],
+      "popularity": 747858,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Twenty-fifth Amendment to the United States Constitution"
+    }
+  ]
+}

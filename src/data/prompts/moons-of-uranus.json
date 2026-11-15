@@ -1,0 +1,344 @@
+{
+  "id": "moons-of-uranus",
+  "slug": "moons-of-uranus",
+  "category": "science",
+  "question": "Name a moon of Uranus",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Setebos",
+      "aliases": [
+        "S/1999 U 1",
+        "Setebos (moon)",
+        "Uranus XIX"
+      ],
+      "popularity": 3347,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Setebos (moon)"
+    },
+    {
+      "name": "Prospero",
+      "aliases": [
+        "Prospero (moon)",
+        "S/1999 U 3",
+        "Uranus XVIII"
+      ],
+      "popularity": 3421,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Prospero (moon)"
+    },
+    {
+      "name": "Stephano",
+      "aliases": [
+        "S/1999 U 2",
+        "Stephano (moon)",
+        "Uranus XX"
+      ],
+      "popularity": 3463,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Stephano (moon)"
+    },
+    {
+      "name": "Trinculo",
+      "aliases": [
+        "S/2001 U 1",
+        "Trinculo (moon)",
+        "Uranus XXI"
+      ],
+      "popularity": 3565,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Trinculo (moon)"
+    },
+    {
+      "name": "S/2023 U 1",
+      "aliases": [],
+      "popularity": 4287,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "S/2023 U 1"
+    },
+    {
+      "name": "Uranus XXVIII",
+      "aliases": [
+        "Uranus 28"
+      ],
+      "popularity": 4617,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Uranus XXVIII"
+    },
+    {
+      "name": "Rosalind",
+      "aliases": [
+        "Rosalind (moon)",
+        "S/1986 U 4",
+        "Uranus XIII"
+      ],
+      "popularity": 4695,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Rosalind (moon)"
+    },
+    {
+      "name": "Perdita",
+      "aliases": [
+        "Perdita (moon)",
+        "S/1986 U 10",
+        "Uranus XXV"
+      ],
+      "popularity": 4939,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Perdita (moon)"
+    },
+    {
+      "name": "Ferdinand",
+      "aliases": [
+        "Ferdinand (moon)",
+        "S/2001 U 2",
+        "Uranus XXIV"
+      ],
+      "popularity": 5172,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Ferdinand (moon)"
+    },
+    {
+      "name": "Juliet",
+      "aliases": [
+        "Juliet (moon)",
+        "S/1986 U 2",
+        "Uranus XI"
+      ],
+      "popularity": 5995,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Juliet (moon)"
+    },
+    {
+      "name": "Portia",
+      "aliases": [
+        "Portia (moon)",
+        "S/1986 U 1",
+        "Uranus XII"
+      ],
+      "popularity": 6015,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Portia (moon)"
+    },
+    {
+      "name": "Bianca",
+      "aliases": [
+        "Bianca (moon)",
+        "S/1986 U 9",
+        "Uranus VIII"
+      ],
+      "popularity": 6211,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Bianca (moon)"
+    },
+    {
+      "name": "Caliban",
+      "aliases": [
+        "Caliban (moon)",
+        "S/1997 U 1",
+        "Uranus XVI"
+      ],
+      "popularity": 6215,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Caliban (moon)"
+    },
+    {
+      "name": "Mab",
+      "aliases": [
+        "Mab (moon)",
+        "S/2003 U 1",
+        "Uranus XXVI"
+      ],
+      "popularity": 6303,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Mab (moon)"
+    },
+    {
+      "name": "Desdemona",
+      "aliases": [
+        "Desdemona (moon)",
+        "S/1986 U 6",
+        "Uranus X"
+      ],
+      "popularity": 6574,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Desdemona (moon)"
+    },
+    {
+      "name": "Cressida",
+      "aliases": [
+        "Cressida (moon)",
+        "S/1986 U 3",
+        "Uranus IX"
+      ],
+      "popularity": 6867,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Cressida (moon)"
+    },
+    {
+      "name": "Belinda",
+      "aliases": [
+        "Belinda (moon)",
+        "S/1986 U 5",
+        "Uranus XIV"
+      ],
+      "popularity": 7108,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Belinda (moon)"
+    },
+    {
+      "name": "Cupid",
+      "aliases": [
+        "Cupid (moon)",
+        "S/2003 U 2",
+        "Uranus XXVII"
+      ],
+      "popularity": 7117,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Cupid (moon)"
+    },
+    {
+      "name": "Francisco",
+      "aliases": [
+        "Francisco (moon)",
+        "S/2001 U 3"
+      ],
+      "popularity": 7263,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Francisco (moon)"
+    },
+    {
+      "name": "Sycorax",
+      "aliases": [
+        "S/1997 U 2",
+        "Sycorax (moon)",
+        "Uranus XVII"
+      ],
+      "popularity": 7558,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Sycorax (moon)"
+    },
+    {
+      "name": "Ophelia",
+      "aliases": [
+        "Ophelia (moon)",
+        "S/1986 U 8",
+        "Uranus VII"
+      ],
+      "popularity": 8506,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Ophelia (moon)"
+    },
+    {
+      "name": "Cordelia",
+      "aliases": [
+        "Cordelia (moon)",
+        "S/1986 U 7",
+        "Uranus VI"
+      ],
+      "popularity": 10079,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Cordelia (moon)"
+    },
+    {
+      "name": "Margaret",
+      "aliases": [
+        "Margaret (moon)",
+        "S/2003 U 3",
+        "Uranus XXIII"
+      ],
+      "popularity": 20166,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Margaret (moon)"
+    },
+    {
+      "name": "Umbriel",
+      "aliases": [
+        "Uranus II"
+      ],
+      "popularity": 36698,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Umbriel"
+    },
+    {
+      "name": "Puck",
+      "aliases": [
+        "Puck (moon)",
+        "S/1985 U 1",
+        "Uranus XV"
+      ],
+      "popularity": 43620,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Puck (moon)"
+    },
+    {
+      "name": "Ariel",
+      "aliases": [
+        "Ariel (moon)",
+        "Uranus I"
+      ],
+      "popularity": 46924,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Ariel (moon)"
+    },
+    {
+      "name": "Oberon",
+      "aliases": [
+        "Oberon (moon)",
+        "Uranus IV"
+      ],
+      "popularity": 54380,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Oberon (moon)"
+    },
+    {
+      "name": "Titania",
+      "aliases": [
+        "Titania (moon)",
+        "Uranus III"
+      ],
+      "popularity": 74950,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Titania (moon)"
+    },
+    {
+      "name": "Miranda",
+      "aliases": [
+        "Miranda (moon)",
+        "Uranus V"
+      ],
+      "popularity": 79243,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Miranda (moon)"
+    }
+  ]
+}

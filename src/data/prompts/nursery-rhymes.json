@@ -1,0 +1,810 @@
+{
+  "id": "nursery-rhymes",
+  "slug": "nursery-rhymes",
+  "category": "music",
+  "question": "Name a nursery rhyme",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Entten tentten teelikamentten",
+      "aliases": [],
+      "popularity": 558,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Entten tentten teelikamentten"
+    },
+    {
+      "name": "Tre pepparkaksgubbar",
+      "aliases": [],
+      "popularity": 664,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Tre pepparkaksgubbar"
+    },
+    {
+      "name": "There Was a Man in Our Town",
+      "aliases": [
+        "A Man ſo Wiſe",
+        "Alexander’s Song",
+        "The Man of Newington",
+        "The Man of Thessaly"
+      ],
+      "popularity": 1004,
+      "rarity": 0.975,
+      "tier": 6,
+      "wiki": "There Was a Man in Our Town"
+    },
+    {
+      "name": "Here Comes an Old Soldier from Botany Bay",
+      "aliases": [
+        "Here Comes an Old Soldier"
+      ],
+      "popularity": 1529,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Here Comes an Old Soldier from Botany Bay"
+    },
+    {
+      "name": "Poor Mary",
+      "aliases": [],
+      "popularity": 1795,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Poor Mary"
+    },
+    {
+      "name": "Little Arabella Miller",
+      "aliases": [],
+      "popularity": 1859,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Little Arabella Miller"
+    },
+    {
+      "name": "Needles and Pins",
+      "aliases": [
+        "Needles and Pins (nursery rhyme)"
+      ],
+      "popularity": 2285,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Needles and Pins (nursery rhyme)"
+    },
+    {
+      "name": "Little Poll Parrot",
+      "aliases": [],
+      "popularity": 2583,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Little Poll Parrot"
+    },
+    {
+      "name": "Le Carillon de Vendôme",
+      "aliases": [],
+      "popularity": 2887,
+      "rarity": 0.901,
+      "tier": 5,
+      "wiki": "Le Carillon de Vendôme"
+    },
+    {
+      "name": "I Have Two Hands",
+      "aliases": [],
+      "popularity": 3851,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "I Have Two Hands"
+    },
+    {
+      "name": "Arthur o' Bower",
+      "aliases": [],
+      "popularity": 3952,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Arthur o' Bower"
+    },
+    {
+      "name": "The Old Woman and Her Pig",
+      "aliases": [
+        "Old Woman and Her Pig"
+      ],
+      "popularity": 4103,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "The Old Woman and Her Pig"
+    },
+    {
+      "name": "Pretty Little Dutch Girl",
+      "aliases": [],
+      "popularity": 5324,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Pretty Little Dutch Girl"
+    },
+    {
+      "name": "Nuts in May",
+      "aliases": [
+        "Nuts in May (rhyme)"
+      ],
+      "popularity": 5581,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Nuts in May (rhyme)"
+    },
+    {
+      "name": "Akai Kutsu",
+      "aliases": [],
+      "popularity": 5613,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Akai Kutsu"
+    },
+    {
+      "name": "Five Little Speckled Frogs",
+      "aliases": [],
+      "popularity": 6460,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Five Little Speckled Frogs"
+    },
+    {
+      "name": "Hark, Hark! The Dogs Do Bark",
+      "aliases": [],
+      "popularity": 6506,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Hark, Hark! The Dogs Do Bark"
+    },
+    {
+      "name": "How Many Miles to Babylon?",
+      "aliases": [],
+      "popularity": 6898,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "How Many Miles to Babylon?"
+    },
+    {
+      "name": "Girls and Boys Come Out to Play",
+      "aliases": [],
+      "popularity": 7276,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Girls and Boys Come Out to Play"
+    },
+    {
+      "name": "Down Down Baby",
+      "aliases": [],
+      "popularity": 7807,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Down Down Baby"
+    },
+    {
+      "name": "Did You Ever See a Lassie?",
+      "aliases": [],
+      "popularity": 8434,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Did You Ever See a Lassie?"
+    },
+    {
+      "name": "Matthew, Mark, Luke and John",
+      "aliases": [
+        "\"Black Paternoster\""
+      ],
+      "popularity": 8823,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Matthew, Mark, Luke and John"
+    },
+    {
+      "name": "Two Little Dickie Birds",
+      "aliases": [
+        "Two Little Black Birds"
+      ],
+      "popularity": 10721,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Two Little Dickie Birds"
+    },
+    {
+      "name": "Two Tigers",
+      "aliases": [
+        "Two Tigers (nursery rhyme)"
+      ],
+      "popularity": 10809,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Two Tigers (nursery rhyme)"
+    },
+    {
+      "name": "Little Tommy Tucker",
+      "aliases": [
+        "Little Tom Tucker",
+        "Tom Tucker"
+      ],
+      "popularity": 13381,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Little Tommy Tucker"
+    },
+    {
+      "name": "One for the Money",
+      "aliases": [],
+      "popularity": 13710,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "One for the Money"
+    },
+    {
+      "name": "Five Little Ducks",
+      "aliases": [],
+      "popularity": 14917,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Five Little Ducks"
+    },
+    {
+      "name": "Cock a doodle doo",
+      "aliases": [],
+      "popularity": 15190,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Cock a doodle doo"
+    },
+    {
+      "name": "Yon Yonson",
+      "aliases": [
+        "Jan Jansen",
+        "John Johnson"
+      ],
+      "popularity": 15322,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Yon Yonson"
+    },
+    {
+      "name": "The Queen of Hearts",
+      "aliases": [
+        "Queen of Hearts",
+        "Queen of Hearts (poem)",
+        "The Queen of Hearts (poem)"
+      ],
+      "popularity": 15332,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "The Queen of Hearts (poem)"
+    },
+    {
+      "name": "Bye, baby Bunting",
+      "aliases": [
+        "Another",
+        "Baby Bunting"
+      ],
+      "popularity": 17966,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Bye, baby Bunting"
+    },
+    {
+      "name": "Taffy was a Welshman",
+      "aliases": [
+        "Taffy was a Welchman"
+      ],
+      "popularity": 18393,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Taffy was a Welshman"
+    },
+    {
+      "name": "Tom, Tom, the Piper's Son",
+      "aliases": [],
+      "popularity": 20058,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Tom, Tom, the Piper's Son"
+    },
+    {
+      "name": "Miss Susie",
+      "aliases": [],
+      "popularity": 21446,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Miss Susie"
+    },
+    {
+      "name": "Three Little Kittens",
+      "aliases": [],
+      "popularity": 22513,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Three Little Kittens"
+    },
+    {
+      "name": "Miss Lucy had a baby",
+      "aliases": [],
+      "popularity": 23761,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Miss Lucy had a baby"
+    },
+    {
+      "name": "Ladybird, Ladybird",
+      "aliases": [],
+      "popularity": 24172,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Ladybird, Ladybird"
+    },
+    {
+      "name": "Pussy Cat Pussy Cat",
+      "aliases": [
+        "Pussy Cat",
+        "Pussy‐Cat and Queen",
+        "Roaming Puss",
+        "The Travelled Puss"
+      ],
+      "popularity": 26142,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Pussy Cat Pussy Cat"
+    },
+    {
+      "name": "To market, to market",
+      "aliases": [],
+      "popularity": 26264,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "To market, to market"
+    },
+    {
+      "name": "Miss Polly Had a Dolly",
+      "aliases": [
+        "Miss Molly Had a Dolly",
+        "Miss Polly"
+      ],
+      "popularity": 26467,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Miss Polly Had a Dolly"
+    },
+    {
+      "name": "Pease Porridge Hot",
+      "aliases": [
+        "\"Pease Pudding Hot\""
+      ],
+      "popularity": 26885,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Pease Porridge Hot"
+    },
+    {
+      "name": "Ding Dong Bell",
+      "aliases": [
+        "A Solemn Dirge"
+      ],
+      "popularity": 27425,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Ding Dong Bell"
+    },
+    {
+      "name": "This Is the House That Jack Built",
+      "aliases": [
+        "House That Jack Built",
+        "The House That Jack Built"
+      ],
+      "popularity": 33288,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "This Is the House That Jack Built"
+    },
+    {
+      "name": "Little Boy Blue",
+      "aliases": [],
+      "popularity": 33324,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Little Boy Blue"
+    },
+    {
+      "name": "Jack Be Nimble",
+      "aliases": [],
+      "popularity": 34404,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Jack Be Nimble"
+    },
+    {
+      "name": "Johnny Johnny Yes Papa",
+      "aliases": [
+        "Johnny Johnny",
+        "Johnny Johnny Sí Papá",
+        "Johny Johny",
+        "Johny Johny Yes Papa",
+        "Si papa"
+      ],
+      "popularity": 38448,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Johnny Johnny Yes Papa"
+    },
+    {
+      "name": "Simple Simon",
+      "aliases": [
+        "Simple Simon (nursery rhyme)"
+      ],
+      "popularity": 39628,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Simple Simon (nursery rhyme)"
+    },
+    {
+      "name": "Sticks and Stones",
+      "aliases": [],
+      "popularity": 41468,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Sticks and Stones"
+    },
+    {
+      "name": "Mary Mack",
+      "aliases": [
+        "Miss Mary Mack"
+      ],
+      "popularity": 43054,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Mary Mack"
+    },
+    {
+      "name": "Goosey Goosey Gander",
+      "aliases": [
+        "Goosey Gander",
+        "Goosy goosy gander !"
+      ],
+      "popularity": 45728,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Goosey Goosey Gander"
+    },
+    {
+      "name": "See Saw Margery Daw",
+      "aliases": [],
+      "popularity": 46005,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "See Saw Margery Daw"
+    },
+    {
+      "name": "Hot Cross Buns",
+      "aliases": [
+        "Hot Cross Buns (song)"
+      ],
+      "popularity": 46933,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Hot Cross Buns (song)"
+    },
+    {
+      "name": "Ride a cock horse to Banbury Cross",
+      "aliases": [
+        "The Musical Lady"
+      ],
+      "popularity": 50676,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Ride a cock horse to Banbury Cross"
+    },
+    {
+      "name": "Cock Robin",
+      "aliases": [
+        "Dean’s Moveable Cock Robin",
+        "Death of Cock Robin",
+        "Lost Robin Rondo",
+        "Who Did Kill Cock Robbin",
+        "Who Killed Cock Robin?"
+      ],
+      "popularity": 52281,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Cock Robin"
+    },
+    {
+      "name": "Here We Go Round the Mulberry Bush",
+      "aliases": [
+        "The Mulberry Bush"
+      ],
+      "popularity": 52486,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Here We Go Round the Mulberry Bush"
+    },
+    {
+      "name": "Old King Cole",
+      "aliases": [
+        "Auld King Coul",
+        "Good King Cole",
+        "King Cole",
+        "Old King Coul",
+        "Our auld King Coul"
+      ],
+      "popularity": 53513,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Old King Cole"
+    },
+    {
+      "name": "Jack Sprat",
+      "aliases": [
+        "Jack Sprat and His Wife",
+        "Jack will eat no fat"
+      ],
+      "popularity": 57447,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Jack Sprat"
+    },
+    {
+      "name": "Peter Piper",
+      "aliases": [],
+      "popularity": 59279,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Peter Piper"
+    },
+    {
+      "name": "Old Mother Hubbard",
+      "aliases": [],
+      "popularity": 59556,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Old Mother Hubbard"
+    },
+    {
+      "name": "Peter, Peter, Pumpkin Eater",
+      "aliases": [],
+      "popularity": 65070,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Peter, Peter, Pumpkin Eater"
+    },
+    {
+      "name": "It's Raining, It's Pouring",
+      "aliases": [],
+      "popularity": 65342,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "It's Raining, It's Pouring"
+    },
+    {
+      "name": "Little Bo-Peep",
+      "aliases": [
+        "Little Bopeep"
+      ],
+      "popularity": 65415,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Little Bo-Peep"
+    },
+    {
+      "name": "Wee Willie Winkie",
+      "aliases": [
+        "Willie Winkie"
+      ],
+      "popularity": 67096,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Wee Willie Winkie"
+    },
+    {
+      "name": "This Old Man",
+      "aliases": [
+        "Roud 3550"
+      ],
+      "popularity": 68679,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "This Old Man"
+    },
+    {
+      "name": "Pat-a-cake, pat-a-cake, baker's man",
+      "aliases": [
+        "Patty Cake"
+      ],
+      "popularity": 73511,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Pat-a-cake, pat-a-cake, baker's man"
+    },
+    {
+      "name": "Little Miss Muffet",
+      "aliases": [
+        "Little Miss Moffet",
+        "Little Miss Mopsey",
+        "Little Miss Muffett",
+        "Mary Ester"
+      ],
+      "popularity": 73723,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Little Miss Muffet"
+    },
+    {
+      "name": "Thirty Days Hath September",
+      "aliases": [
+        "The Days of the Month"
+      ],
+      "popularity": 76310,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Thirty Days Hath September"
+    },
+    {
+      "name": "There Was an Old Woman Who Lived in a Shoe",
+      "aliases": [
+        "An Interesting Variant",
+        "The Cross Old Woman"
+      ],
+      "popularity": 84971,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "There Was an Old Woman Who Lived in a Shoe"
+    },
+    {
+      "name": "One, Two, Buckle My Shoe",
+      "aliases": [
+        "Number Song"
+      ],
+      "popularity": 88364,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "One, Two, Buckle My Shoe"
+    },
+    {
+      "name": "Rock-a-bye Baby",
+      "aliases": [
+        "Hush-A-Bye",
+        "Hush-a-bye Baby",
+        "Rock‐a‐bye",
+        "The Nurſe’s Song",
+        "The Nurse’s Song"
+      ],
+      "popularity": 92983,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Rock-a-bye Baby"
+    },
+    {
+      "name": "Row, Row, Row Your Boat",
+      "aliases": [
+        "The Old Log Hut"
+      ],
+      "popularity": 93878,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Row, Row, Row Your Boat"
+    },
+    {
+      "name": "Three Blind Mice",
+      "aliases": [
+        "Three Blinde Mice"
+      ],
+      "popularity": 96712,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Three Blind Mice"
+    },
+    {
+      "name": "Jack and Jill",
+      "aliases": [
+        "Jack and Gill"
+      ],
+      "popularity": 100522,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Jack and Jill"
+    },
+    {
+      "name": "What Are Little Boys Made Of?",
+      "aliases": [],
+      "popularity": 102295,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "What Are Little Boys Made Of?"
+    },
+    {
+      "name": "Little Jack Horner",
+      "aliases": [
+        "Jack Horner"
+      ],
+      "popularity": 106073,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Little Jack Horner"
+    },
+    {
+      "name": "Hey Diddle Diddle",
+      "aliases": [
+        "Heigh Diddle Diddle",
+        "The Cat and the Fiddle"
+      ],
+      "popularity": 111675,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Hey Diddle Diddle"
+    },
+    {
+      "name": "This Little Piggy",
+      "aliases": [
+        "A Song for Five Toes",
+        "Song set to five Fingers",
+        "This Little Pig",
+        "This Pig Went to Market"
+      ],
+      "popularity": 121611,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "This Little Piggy"
+    },
+    {
+      "name": "Mary Had a Little Lamb",
+      "aliases": [
+        "Mary’s Lamb"
+      ],
+      "popularity": 127359,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Mary Had a Little Lamb"
+    },
+    {
+      "name": "Rub-a-dub-dub",
+      "aliases": [
+        "Dub a Dub Dub",
+        "Three Men in a Tub"
+      ],
+      "popularity": 141992,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Rub-a-dub-dub"
+    },
+    {
+      "name": "Sing a Song of Sixpence",
+      "aliases": [
+        "A Sixpenny Song",
+        "A Song of Sixpence",
+        "Four and Twenty Blackbirds",
+        "Sing a Song for Sixpence",
+        "Six Song",
+        "Song of Sixpence",
+        "The Blackbirds"
+      ],
+      "popularity": 145087,
+      "rarity": 0.025,
+      "tier": 1,
+      "wiki": "Sing a Song of Sixpence"
+    },
+    {
+      "name": "Baa, Baa, Black Sheep",
+      "aliases": [
+        "Ba! Ba!",
+        "Ba Ba Black Sheep",
+        "Little Bah Black Sheep"
+      ],
+      "popularity": 155707,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Baa, Baa, Black Sheep"
+    },
+    {
+      "name": "Monday's Child",
+      "aliases": [
+        "Birthdays",
+        "Children of the Week"
+      ],
+      "popularity": 419692,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Monday's Child"
+    }
+  ]
+}

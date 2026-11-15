@@ -1,0 +1,437 @@
+{
+  "id": "mlb-teams",
+  "slug": "mlb-teams",
+  "category": "sports",
+  "question": "Name a current MLB team",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Arizona Diamondbacks",
+      "aliases": [
+        "Arizona D-Backs",
+        "D-Backs",
+        "Diamond Backs",
+        "Diamondbacks"
+      ],
+      "popularity": 255082,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Arizona Diamondbacks"
+    },
+    {
+      "name": "Kansas City Royals",
+      "aliases": [
+        "KC Royals",
+        "KCR",
+        "Royals"
+      ],
+      "popularity": 260525,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Kansas City Royals"
+    },
+    {
+      "name": "Colorado Rockies",
+      "aliases": [
+        "Rockies",
+        "Rox"
+      ],
+      "popularity": 275802,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Colorado Rockies"
+    },
+    {
+      "name": "Minnesota Twins",
+      "aliases": [
+        "Twinkies",
+        "Twins"
+      ],
+      "popularity": 314532,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Minnesota Twins"
+    },
+    {
+      "name": "Cincinnati Reds",
+      "aliases": [
+        "Cincinnati Red Stockings",
+        "Cincinnati Redlegs",
+        "Red Stockings",
+        "Redlegs",
+        "Reds"
+      ],
+      "popularity": 335919,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Cincinnati Reds"
+    },
+    {
+      "name": "Pittsburgh Pirates",
+      "aliases": [
+        "Alleghenys",
+        "Buccos",
+        "Bucs",
+        "Pirates",
+        "Pittsburg Pirates",
+        "Pittsburgh Alleghenys"
+      ],
+      "popularity": 341183,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Pittsburgh Pirates"
+    },
+    {
+      "name": "Tampa Bay Rays",
+      "aliases": [
+        "Devil Rays",
+        "Rays",
+        "Tampa Bay Devil Rays",
+        "Tampa Rays",
+        "TBR"
+      ],
+      "popularity": 343907,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Tampa Bay Rays"
+    },
+    {
+      "name": "Washington Nationals",
+      "aliases": [
+        "Nasty Nats",
+        "Nationals",
+        "Nats"
+      ],
+      "popularity": 350927,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Washington Nationals"
+    },
+    {
+      "name": "Houston Astros",
+      "aliases": [
+        "Astros",
+        "Colt .45's",
+        "Houston Colt .45's",
+        "'Stros"
+      ],
+      "popularity": 352938,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Houston Astros"
+    },
+    {
+      "name": "Detroit Tigers",
+      "aliases": [
+        "Tigers"
+      ],
+      "popularity": 356158,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Detroit Tigers"
+    },
+    {
+      "name": "Baltimore Orioles",
+      "aliases": [
+        "Birds",
+        "O's",
+        "Orioles",
+        "The O's"
+      ],
+      "popularity": 359501,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Baltimore Orioles"
+    },
+    {
+      "name": "Milwaukee Brewers",
+      "aliases": [
+        "Brew Crew",
+        "Brewers",
+        "Pilots",
+        "Seattle Pilots"
+      ],
+      "popularity": 371751,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Milwaukee Brewers"
+    },
+    {
+      "name": "San Diego Padres",
+      "aliases": [
+        "Padres",
+        "SDP"
+      ],
+      "popularity": 377179,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "San Diego Padres"
+    },
+    {
+      "name": "Texas Rangers",
+      "aliases": [
+        "Rangers",
+        "Texas Rangers (baseball)"
+      ],
+      "popularity": 390544,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Texas Rangers (baseball)"
+    },
+    {
+      "name": "Seattle Mariners",
+      "aliases": [
+        "M's",
+        "Mariners"
+      ],
+      "popularity": 393614,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Seattle Mariners"
+    },
+    {
+      "name": "St. Louis Cardinals",
+      "aliases": [
+        "Brown Stockings",
+        "Browns",
+        "Cardinals",
+        "Cards",
+        "Perfectos",
+        "Red Birds",
+        "Saint Louis Cardinals",
+        "St. Louis Brown Stockings",
+        "St. Louis Browns",
+        "St. Louis Perfectos"
+      ],
+      "popularity": 401638,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "St. Louis Cardinals"
+    },
+    {
+      "name": "Miami Marlins",
+      "aliases": [
+        "Marlins"
+      ],
+      "popularity": 413760,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Miami Marlins"
+    },
+    {
+      "name": "Philadelphia Phillies",
+      "aliases": [
+        "Philadelphia Quakers",
+        "Phillies",
+        "Phils",
+        "Quakers"
+      ],
+      "popularity": 428837,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Philadelphia Phillies"
+    },
+    {
+      "name": "San Francisco Giants",
+      "aliases": [
+        "Giants",
+        "Gothams",
+        "New York Giants",
+        "New York Gothams",
+        "SF Giants",
+        "SFG"
+      ],
+      "popularity": 484434,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "San Francisco Giants"
+    },
+    {
+      "name": "Chicago White Sox",
+      "aliases": [
+        "ChiSox",
+        "CHW",
+        "South Siders",
+        "White Sox"
+      ],
+      "popularity": 495900,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Chicago White Sox"
+    },
+    {
+      "name": "Cleveland Guardians",
+      "aliases": [
+        "Blues",
+        "Cleveland Bluebirds",
+        "Cleveland Blues",
+        "Cleveland Broncos",
+        "Cleveland Indians",
+        "Cleveland Lakeshores",
+        "Cleveland Naps",
+        "Guardians",
+        "Indians",
+        "Naps",
+        "The Tribe"
+      ],
+      "popularity": 502979,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Cleveland Guardians"
+    },
+    {
+      "name": "Chicago Cubs",
+      "aliases": [
+        "Chicago Colts",
+        "Chicago Orphans",
+        "Chicago White Stockings",
+        "Chicago Whites",
+        "Colts",
+        "Cubbies",
+        "Cubs",
+        "North Siders",
+        "Orphans",
+        "Remnants"
+      ],
+      "popularity": 537951,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Chicago Cubs"
+    },
+    {
+      "name": "Atlanta Braves",
+      "aliases": [
+        "Beaneaters",
+        "Bees",
+        "Boston Beaneaters",
+        "Boston Bees",
+        "Boston Braves",
+        "Boston Doves",
+        "Boston Red Stockings",
+        "Boston Rustlers",
+        "Braves",
+        "Doves",
+        "Milwaukee Braves",
+        "Rustlers"
+      ],
+      "popularity": 549495,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Atlanta Braves"
+    },
+    {
+      "name": "Los Angeles Angels",
+      "aliases": [
+        "Anaheim Angels",
+        "Angels",
+        "California Angels",
+        "LA Angels",
+        "LAA",
+        "Los Angeles Angels of Anaheim"
+      ],
+      "popularity": 554794,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Los Angeles Angels"
+    },
+    {
+      "name": "New York Mets",
+      "aliases": [
+        "Metropolitans",
+        "Mets",
+        "NYM"
+      ],
+      "popularity": 602865,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "New York Mets"
+    },
+    {
+      "name": "Boston Red Sox",
+      "aliases": [
+        "BoSox",
+        "Boston Americans",
+        "Red Sox",
+        "RedSox",
+        "redsoxs",
+        "Sox"
+      ],
+      "popularity": 696372,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Boston Red Sox"
+    },
+    {
+      "name": "Athletics",
+      "aliases": [
+        "A's",
+        "Athletics (baseball)",
+        "Las Vegas Athletics",
+        "The A's",
+        "The White Elephants"
+      ],
+      "popularity": 743503,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Athletics (baseball)"
+    },
+    {
+      "name": "Toronto Blue Jays",
+      "aliases": [
+        "Blue Jays",
+        "Bluejays",
+        "Jays",
+        "TBJ",
+        "Toronto Bluejays",
+        "Toronto Jays"
+      ],
+      "popularity": 903586,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Toronto Blue Jays"
+    },
+    {
+      "name": "New York Yankees",
+      "aliases": [
+        "Bombers",
+        "Bronx Bombers",
+        "Highlanders",
+        "New York Highlanders",
+        "NY Yankees",
+        "NYY",
+        "Yankees"
+      ],
+      "popularity": 984286,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "New York Yankees"
+    },
+    {
+      "name": "Los Angeles Dodgers",
+      "aliases": [
+        "Atlantics",
+        "Bridegrooms",
+        "Brooklyn Atlantics",
+        "Brooklyn Bridegrooms",
+        "Brooklyn Dodgers",
+        "Brooklyn Grays",
+        "Brooklyn Grooms",
+        "Brooklyn Robins",
+        "Brooklyn Superbas",
+        "Bums",
+        "Dodgers",
+        "Grays",
+        "Grooms",
+        "LA Dodgers",
+        "LAD",
+        "Robins",
+        "Superbas",
+        "Trolley Dodgers"
+      ],
+      "popularity": 1318348,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Los Angeles Dodgers"
+    }
+  ]
+}

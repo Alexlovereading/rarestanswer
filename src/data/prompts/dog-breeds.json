@@ -1,0 +1,5953 @@
+{
+  "id": "dog-breeds",
+  "slug": "dog-breeds",
+  "category": "animals",
+  "question": "Name a dog breed",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Tatra Hound",
+      "aliases": [
+        "Tatranský durič"
+      ],
+      "popularity": 0,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Tatra Hound"
+    },
+    {
+      "name": "Segugio Cravin",
+      "aliases": [],
+      "popularity": 36,
+      "rarity": 0.998,
+      "tier": 6,
+      "wiki": "Segugio Cravin"
+    },
+    {
+      "name": "Berner Niederlaufhund",
+      "aliases": [
+        "Berner Laufhund"
+      ],
+      "popularity": 40,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "Berner Niederlaufhund"
+    },
+    {
+      "name": "Piccolo Segugio dell'Appennino",
+      "aliases": [],
+      "popularity": 41,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Piccolo Segugio dell'Appennino"
+    },
+    {
+      "name": "Rare dog breed",
+      "aliases": [
+        "Rare breed"
+      ],
+      "popularity": 67,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Rare dog breed"
+    },
+    {
+      "name": "Irish bull terrier",
+      "aliases": [
+        "Irish Staffordshire Bull Terrier"
+      ],
+      "popularity": 98,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Irish bull terrier"
+    },
+    {
+      "name": "Carea Castellano Manchego",
+      "aliases": [],
+      "popularity": 198,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Carea Castellano Manchego"
+    },
+    {
+      "name": "Miniature Shar Pei",
+      "aliases": [
+        "Mini Pei"
+      ],
+      "popularity": 210,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Miniature Shar Pei"
+    },
+    {
+      "name": "Poochon",
+      "aliases": [],
+      "popularity": 243,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Poochon"
+    },
+    {
+      "name": "Beaglier",
+      "aliases": [],
+      "popularity": 280,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Beaglier"
+    },
+    {
+      "name": "Gerberian Shepsky",
+      "aliases": [],
+      "popularity": 317,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Gerberian Shepsky"
+    },
+    {
+      "name": "Zuchon",
+      "aliases": [],
+      "popularity": 337,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Zuchon"
+    },
+    {
+      "name": "Leavitt Bulldog",
+      "aliases": [],
+      "popularity": 464,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Leavitt Bulldog"
+    },
+    {
+      "name": "Bergamasco Shepherd Dog",
+      "aliases": [
+        "Bergamasco Shepherd"
+      ],
+      "popularity": 468,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Bergamasco Shepherd Dog"
+    },
+    {
+      "name": "German Spitz Klein",
+      "aliases": [
+        "Kleinspitz",
+        "Miniature spitz",
+        "Small spitz"
+      ],
+      "popularity": 512,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "German Spitz Klein"
+    },
+    {
+      "name": "Illyrian dog",
+      "aliases": [
+        "Illyrian Shepherd"
+      ],
+      "popularity": 582,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Illyrian dog"
+    },
+    {
+      "name": "Prague Ratter",
+      "aliases": [
+        "Prager Rattler",
+        "Pražský Krysařík",
+        "Ratier de Prague"
+      ],
+      "popularity": 584,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Prague Ratter"
+    },
+    {
+      "name": "Armant",
+      "aliases": [
+        "Armant dog",
+        "Armant (dog breed)"
+      ],
+      "popularity": 616,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Armant (dog breed)"
+    },
+    {
+      "name": "Spanish dogo",
+      "aliases": [
+        "Dogo español"
+      ],
+      "popularity": 692,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Spanish dogo"
+    },
+    {
+      "name": "German Spitz Mittel",
+      "aliases": [],
+      "popularity": 744,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "German Spitz Mittel"
+    },
+    {
+      "name": "Meitei Hui",
+      "aliases": [],
+      "popularity": 773,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Meitei Hui"
+    },
+    {
+      "name": "Red Decoy Dog",
+      "aliases": [],
+      "popularity": 870,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Red Decoy Dog"
+    },
+    {
+      "name": "Miniature Australian Shepherd",
+      "aliases": [],
+      "popularity": 1024,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Miniature Australian Shepherd"
+    },
+    {
+      "name": "Beskydský bundáš",
+      "aliases": [],
+      "popularity": 1122,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Beskydský bundáš"
+    },
+    {
+      "name": "Bakhmull",
+      "aliases": [],
+      "popularity": 1171,
+      "rarity": 0.961,
+      "tier": 6,
+      "wiki": "Bakhmull"
+    },
+    {
+      "name": "Shiloh Shepherd dog",
+      "aliases": [
+        "Shiloh Shepherd"
+      ],
+      "popularity": 1417,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Shiloh Shepherd dog"
+    },
+    {
+      "name": "Podengo Galego",
+      "aliases": [
+        "Galician Warren Hound",
+        "galicianpodenco",
+        "podenco gallego"
+      ],
+      "popularity": 1464,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Podengo Galego"
+    },
+    {
+      "name": "Poitevin",
+      "aliases": [
+        "Poitevin (dog breed)",
+        "Poitevin hound"
+      ],
+      "popularity": 1614,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Poitevin (dog breed)"
+    },
+    {
+      "name": "Kintamani",
+      "aliases": [
+        "Bali Berghund",
+        "Kintamani (dog breed)"
+      ],
+      "popularity": 1638,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Kintamani (dog breed)"
+    },
+    {
+      "name": "Mantiqueira Shepherd",
+      "aliases": [
+        "Pastor da mantiqueira"
+      ],
+      "popularity": 1661,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Mantiqueira Shepherd"
+    },
+    {
+      "name": "Königsberger Paukenhund",
+      "aliases": [],
+      "popularity": 1671,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Königsberger Paukenhund"
+    },
+    {
+      "name": "Český Fousek",
+      "aliases": [],
+      "popularity": 1727,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Český Fousek"
+    },
+    {
+      "name": "Tervuren dog",
+      "aliases": [
+        "Tervuren"
+      ],
+      "popularity": 1749,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Tervuren dog"
+    },
+    {
+      "name": "Laekenois dog",
+      "aliases": [
+        "Belgian Shepherd Laekenois",
+        "Laekenois"
+      ],
+      "popularity": 1856,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Laekenois dog"
+    },
+    {
+      "name": "Boca-preta sertanejo",
+      "aliases": [
+        "Brazilian Black-mouth Dog",
+        "Brazilian Cowboy dog",
+        "Sertanejo Dog"
+      ],
+      "popularity": 2005,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "Boca-preta sertanejo"
+    },
+    {
+      "name": "Morkie",
+      "aliases": [],
+      "popularity": 2149,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Morkie"
+    },
+    {
+      "name": "Guicho",
+      "aliases": [],
+      "popularity": 2155,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Guicho"
+    },
+    {
+      "name": "Ratonero Murciano",
+      "aliases": [
+        "Murcian Ratter"
+      ],
+      "popularity": 2159,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Ratonero Murciano"
+    },
+    {
+      "name": "Landseer",
+      "aliases": [
+        "Landseer (dog breed)"
+      ],
+      "popularity": 2348,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Landseer (dog breed)"
+    },
+    {
+      "name": "Ca de Conills",
+      "aliases": [
+        "Ca de Conills de Menorca",
+        "Can de Conejos de Menorca"
+      ],
+      "popularity": 2349,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Ca de Conills"
+    },
+    {
+      "name": "Celtic Hounds",
+      "aliases": [],
+      "popularity": 2358,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Celtic Hounds"
+    },
+    {
+      "name": "Majestic Tree Hound",
+      "aliases": [],
+      "popularity": 2480,
+      "rarity": 0.934,
+      "tier": 6,
+      "wiki": "Majestic Tree Hound"
+    },
+    {
+      "name": "Cão do Barrocal Algarvio",
+      "aliases": [
+        "Algarvian Barrocal Dog",
+        "Barrocal Algarvio"
+      ],
+      "popularity": 2481,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Cão do Barrocal Algarvio"
+    },
+    {
+      "name": "Mi-Ki",
+      "aliases": [
+        "Miki"
+      ],
+      "popularity": 2523,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Mi-Ki"
+    },
+    {
+      "name": "Groenendael dog",
+      "aliases": [
+        "Groenendael"
+      ],
+      "popularity": 2808,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Groenendael dog"
+    },
+    {
+      "name": "Czech Mountain Dog",
+      "aliases": [
+        "Bohemian Mountain Dog",
+        "Český horský pes",
+        "Tschechischer Berghund"
+      ],
+      "popularity": 2822,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Czech Mountain Dog"
+    },
+    {
+      "name": "Dogo Sardesco",
+      "aliases": [
+        "Dogo Sardo",
+        "Sardinian Dogo",
+        "Sardinian Mastiff"
+      ],
+      "popularity": 2847,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Dogo Sardesco"
+    },
+    {
+      "name": "Ecuadorian Hairless Dog",
+      "aliases": [],
+      "popularity": 2857,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Ecuadorian Hairless Dog"
+    },
+    {
+      "name": "Rize Koyun",
+      "aliases": [
+        "Rize Koyan"
+      ],
+      "popularity": 2890,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Rize Koyun"
+    },
+    {
+      "name": "American Akita",
+      "aliases": [
+        "Great Japanese Dog"
+      ],
+      "popularity": 3046,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "American Akita"
+    },
+    {
+      "name": "Sulimov dog",
+      "aliases": [],
+      "popularity": 3120,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Sulimov dog"
+    },
+    {
+      "name": "Grand Anglo-Français Blanc et Orange",
+      "aliases": [],
+      "popularity": 3261,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Grand Anglo-Français Blanc et Orange"
+    },
+    {
+      "name": "Hygen Hound",
+      "aliases": [
+        "Hygenhund"
+      ],
+      "popularity": 3263,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Hygen Hound"
+    },
+    {
+      "name": "Perdigueiro Galego",
+      "aliases": [],
+      "popularity": 3444,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Perdigueiro Galego"
+    },
+    {
+      "name": "St. Hubert Jura Hound",
+      "aliases": [],
+      "popularity": 3446,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "St. Hubert Jura Hound"
+    },
+    {
+      "name": "Kawakami Inu",
+      "aliases": [
+        "Kawakami Ken"
+      ],
+      "popularity": 3508,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Kawakami Inu"
+    },
+    {
+      "name": "Halden Hound",
+      "aliases": [],
+      "popularity": 3559,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Halden Hound"
+    },
+    {
+      "name": "Saint-Usuge Spaniel",
+      "aliases": [
+        "St Usuge Spaniel"
+      ],
+      "popularity": 3560,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Saint-Usuge Spaniel"
+    },
+    {
+      "name": "Chien Français Tricolore",
+      "aliases": [
+        "French Tricolour Hound"
+      ],
+      "popularity": 3659,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Chien Français Tricolore"
+    },
+    {
+      "name": "Briquet de Provence",
+      "aliases": [],
+      "popularity": 3675,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Briquet de Provence"
+    },
+    {
+      "name": "Chien Français Blanc et Orange",
+      "aliases": [
+        "Français Blanc et Orange"
+      ],
+      "popularity": 3735,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Chien Français Blanc et Orange"
+    },
+    {
+      "name": "Villanuco de Las Encartaciones",
+      "aliases": [
+        "Basque Ratter",
+        "Enkarterriko billanuko",
+        "Ratonero Basco"
+      ],
+      "popularity": 3847,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Villanuco de Las Encartaciones"
+    },
+    {
+      "name": "Original Fila Brasileiro",
+      "aliases": [
+        "OFB",
+        "Old Brazilian Fila",
+        "Old Brazilian Mastiff",
+        "Old Fila Brasileiro",
+        "Old Fila Dog"
+      ],
+      "popularity": 3860,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Original Fila Brasileiro"
+    },
+    {
+      "name": "Petit Bleu de Gascogne",
+      "aliases": [],
+      "popularity": 3861,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Petit Bleu de Gascogne"
+    },
+    {
+      "name": "Denmark Feist",
+      "aliases": [],
+      "popularity": 3979,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Denmark Feist"
+    },
+    {
+      "name": "West Country Harrier",
+      "aliases": [
+        "Somerset Harrier"
+      ],
+      "popularity": 4039,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "West Country Harrier"
+    },
+    {
+      "name": "Grand Anglo-Français Blanc et Noir",
+      "aliases": [],
+      "popularity": 4106,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Grand Anglo-Français Blanc et Noir"
+    },
+    {
+      "name": "Valdueza",
+      "aliases": [],
+      "popularity": 4162,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "Valdueza"
+    },
+    {
+      "name": "Tonya Finosu",
+      "aliases": [
+        "Fino of Tonya",
+        "Kobi"
+      ],
+      "popularity": 4230,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Tonya Finosu"
+    },
+    {
+      "name": "King Shepherd",
+      "aliases": [
+        "King Shepherd Dog"
+      ],
+      "popularity": 4306,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "King Shepherd"
+    },
+    {
+      "name": "Segugio Italiano a Pelo Forte",
+      "aliases": [
+        "Italian Rough-haired Segugio"
+      ],
+      "popularity": 4332,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Segugio Italiano a Pelo Forte"
+    },
+    {
+      "name": "Can de Chira",
+      "aliases": [
+        "Pastor altoaragonés"
+      ],
+      "popularity": 4581,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Can de Chira"
+    },
+    {
+      "name": "Stephens Stock",
+      "aliases": [
+        "Stephens Cur"
+      ],
+      "popularity": 4637,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Stephens Stock"
+    },
+    {
+      "name": "German Roughhaired Pointer",
+      "aliases": [
+        "Stichelhaar"
+      ],
+      "popularity": 4751,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "German Roughhaired Pointer"
+    },
+    {
+      "name": "Ratonero Valenciano",
+      "aliases": [
+        "Gos Rater Valencià"
+      ],
+      "popularity": 4756,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Ratonero Valenciano"
+    },
+    {
+      "name": "Schillerstövare",
+      "aliases": [],
+      "popularity": 4758,
+      "rarity": 0.879,
+      "tier": 5,
+      "wiki": "Schillerstövare"
+    },
+    {
+      "name": "Smaland Hound",
+      "aliases": [
+        "Smålandsstövare"
+      ],
+      "popularity": 4782,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Smaland Hound"
+    },
+    {
+      "name": "Old Welsh Grey Sheepdog",
+      "aliases": [],
+      "popularity": 4791,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Old Welsh Grey Sheepdog"
+    },
+    {
+      "name": "Kunma Dog",
+      "aliases": [],
+      "popularity": 4811,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Kunma Dog"
+    },
+    {
+      "name": "Norman Hound",
+      "aliases": [],
+      "popularity": 4851,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Norman Hound"
+    },
+    {
+      "name": "Segugio Italiano a Pelo Raso",
+      "aliases": [
+        "Italian Short-haired Segugio"
+      ],
+      "popularity": 4890,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Segugio Italiano a Pelo Raso"
+    },
+    {
+      "name": "Pont-Audemer Spaniel",
+      "aliases": [],
+      "popularity": 4974,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Pont-Audemer Spaniel"
+    },
+    {
+      "name": "Chien Français Blanc et Noir",
+      "aliases": [],
+      "popularity": 5059,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Chien Français Blanc et Noir"
+    },
+    {
+      "name": "Sporting Lucas Terrier",
+      "aliases": [],
+      "popularity": 5100,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Sporting Lucas Terrier"
+    },
+    {
+      "name": "Serbian Tricolour Hound",
+      "aliases": [],
+      "popularity": 5153,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Serbian Tricolour Hound"
+    },
+    {
+      "name": "Istrian Coarse-haired Hound",
+      "aliases": [],
+      "popularity": 5160,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Istrian Coarse-haired Hound"
+    },
+    {
+      "name": "Pampas Deerhound",
+      "aliases": [
+        "Gaucho deer-hound",
+        "Pampeano Deer-hound",
+        "Veadeiro Pampeano"
+      ],
+      "popularity": 5228,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Pampas Deerhound"
+    },
+    {
+      "name": "Schweizer Laufhund",
+      "aliases": [],
+      "popularity": 5294,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Schweizer Laufhund"
+    },
+    {
+      "name": "Ca Mè Mallorquí",
+      "aliases": [],
+      "popularity": 5356,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Ca Mè Mallorquí"
+    },
+    {
+      "name": "Dikkulak",
+      "aliases": [
+        "Çivikulak",
+        "Turkish Dikkulak"
+      ],
+      "popularity": 5392,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Dikkulak"
+    },
+    {
+      "name": "Small Međimurje Dog",
+      "aliases": [],
+      "popularity": 5432,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Small Međimurje Dog"
+    },
+    {
+      "name": "Perro Majorero",
+      "aliases": [],
+      "popularity": 5483,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Perro Majorero"
+    },
+    {
+      "name": "Lapponian Shepherd",
+      "aliases": [
+        "Cockhill's Finnish Lapphound"
+      ],
+      "popularity": 5485,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Lapponian Shepherd"
+    },
+    {
+      "name": "Bulgarian Hound",
+      "aliases": [],
+      "popularity": 5502,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Bulgarian Hound"
+    },
+    {
+      "name": "Styrian Coarse-haired Hound",
+      "aliases": [],
+      "popularity": 5508,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Styrian Coarse-haired Hound"
+    },
+    {
+      "name": "Erbi Txakur",
+      "aliases": [],
+      "popularity": 5599,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Erbi Txakur"
+    },
+    {
+      "name": "Bulgarian Scenthound",
+      "aliases": [],
+      "popularity": 5657,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Bulgarian Scenthound"
+    },
+    {
+      "name": "Villano de Las Encartaciones",
+      "aliases": [
+        "Villano de carranza"
+      ],
+      "popularity": 5737,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Villano de Las Encartaciones"
+    },
+    {
+      "name": "Maneto",
+      "aliases": [],
+      "popularity": 5798,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Maneto"
+    },
+    {
+      "name": "Molossus of Epirus",
+      "aliases": [
+        "Epirus Molosser"
+      ],
+      "popularity": 5836,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Molossus of Epirus"
+    },
+    {
+      "name": "Portuguese Sheepdog",
+      "aliases": [
+        "Cão da Serra de Aires"
+      ],
+      "popularity": 5850,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Portuguese Sheepdog"
+    },
+    {
+      "name": "Segugio dell'Appennino",
+      "aliases": [],
+      "popularity": 5920,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Segugio dell'Appennino"
+    },
+    {
+      "name": "Schweizerischer Niederlaufhund",
+      "aliases": [
+        "Small Swiss Hound"
+      ],
+      "popularity": 6017,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Schweizerischer Niederlaufhund"
+    },
+    {
+      "name": "Mojee",
+      "aliases": [],
+      "popularity": 6046,
+      "rarity": 0.834,
+      "tier": 5,
+      "wiki": "Mojee"
+    },
+    {
+      "name": "Lobito Herreño",
+      "aliases": [
+        "Hierran Wolfdog"
+      ],
+      "popularity": 6105,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Lobito Herreño"
+    },
+    {
+      "name": "Tarsus çatalburun",
+      "aliases": [
+        "Çatalburun",
+        "Çatalburun Pointer",
+        "Tarsus Fork-nose",
+        "Tarsus Pointer",
+        "Turkish Fork-nose",
+        "Turkish Pointer",
+        "Turkish Split-Nosed Pointer"
+      ],
+      "popularity": 6165,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Tarsus çatalburun"
+    },
+    {
+      "name": "Ca de Bestiar",
+      "aliases": [
+        "Majorca Shepherd Dog"
+      ],
+      "popularity": 6193,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Ca de Bestiar"
+    },
+    {
+      "name": "Treeing Cur",
+      "aliases": [],
+      "popularity": 6276,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Treeing Cur"
+    },
+    {
+      "name": "Cane Paratore",
+      "aliases": [
+        "Cane Toccatore"
+      ],
+      "popularity": 6303,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Cane Paratore"
+    },
+    {
+      "name": "Braque Saint-Germain",
+      "aliases": [],
+      "popularity": 6365,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Braque Saint-Germain"
+    },
+    {
+      "name": "Old Croatian Sighthound",
+      "aliases": [],
+      "popularity": 6369,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Old Croatian Sighthound"
+    },
+    {
+      "name": "Old Danish Pointer",
+      "aliases": [
+        "Gammel Dansk Hønsehund"
+      ],
+      "popularity": 6411,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Old Danish Pointer"
+    },
+    {
+      "name": "Gascon Saintongeois",
+      "aliases": [
+        "Virelade Hound"
+      ],
+      "popularity": 6542,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Gascon Saintongeois"
+    },
+    {
+      "name": "Pastor Garafiano",
+      "aliases": [
+        "Perro de pastor garafiano"
+      ],
+      "popularity": 6627,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Pastor Garafiano"
+    },
+    {
+      "name": "Hällefors Elkhound",
+      "aliases": [
+        "Hälleforshund"
+      ],
+      "popularity": 6649,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Hällefors Elkhound"
+    },
+    {
+      "name": "Bohemian Spotted Dog",
+      "aliases": [
+        "Český strakatý pes",
+        "Czech Spotted Dog",
+        "Horákův laboratorní pes",
+        "Strakáč"
+      ],
+      "popularity": 6674,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Bohemian Spotted Dog"
+    },
+    {
+      "name": "Lithuanian Hound",
+      "aliases": [],
+      "popularity": 6690,
+      "rarity": 0.814,
+      "tier": 5,
+      "wiki": "Lithuanian Hound"
+    },
+    {
+      "name": "Istrian Shorthaired Hound",
+      "aliases": [],
+      "popularity": 6717,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Istrian Shorthaired Hound"
+    },
+    {
+      "name": "King's White Hound",
+      "aliases": [
+        "Chien Blanc du Roi"
+      ],
+      "popularity": 6782,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "King's White Hound"
+    },
+    {
+      "name": "Sarail Hound",
+      "aliases": [],
+      "popularity": 6851,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Sarail Hound"
+    },
+    {
+      "name": "Gaucho sheepdog",
+      "aliases": [
+        "Brazilian collie",
+        "Brazilian gaucho sheepdog",
+        "Ovelheiro gaucho"
+      ],
+      "popularity": 6882,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Gaucho sheepdog"
+    },
+    {
+      "name": "Grand Fauve de Bretagne",
+      "aliases": [],
+      "popularity": 6884,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Grand Fauve de Bretagne"
+    },
+    {
+      "name": "Ca Rater Mallorquí",
+      "aliases": [
+        "Majorca Ratter",
+        "Mallorcan ratter"
+      ],
+      "popularity": 6894,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Ca Rater Mallorquí"
+    },
+    {
+      "name": "Griffon Bleu de Gascogne",
+      "aliases": [
+        "Blue Gascony Griffon"
+      ],
+      "popularity": 6985,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Griffon Bleu de Gascogne"
+    },
+    {
+      "name": "Chilean Terrier",
+      "aliases": [
+        "Chilean Fox Terrier"
+      ],
+      "popularity": 7027,
+      "rarity": 0.801,
+      "tier": 5,
+      "wiki": "Chilean Terrier"
+    },
+    {
+      "name": "Segugio Maremmano",
+      "aliases": [],
+      "popularity": 7038,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Segugio Maremmano"
+    },
+    {
+      "name": "Terceira Mastiff",
+      "aliases": [],
+      "popularity": 7141,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Terceira Mastiff"
+    },
+    {
+      "name": "Langqing Quan",
+      "aliases": [],
+      "popularity": 7150,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Langqing Quan"
+    },
+    {
+      "name": "Slovenský kopov",
+      "aliases": [],
+      "popularity": 7153,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Slovenský kopov"
+    },
+    {
+      "name": "Ramanadhapuram Mandai",
+      "aliases": [],
+      "popularity": 7224,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Ramanadhapuram Mandai"
+    },
+    {
+      "name": "Montenegrin Mountain Hound",
+      "aliases": [],
+      "popularity": 7299,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Montenegrin Mountain Hound"
+    },
+    {
+      "name": "Welsh Hillman",
+      "aliases": [],
+      "popularity": 7340,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Welsh Hillman"
+    },
+    {
+      "name": "Liangshan Dog",
+      "aliases": [],
+      "popularity": 7381,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Liangshan Dog"
+    },
+    {
+      "name": "Griffon Nivernais",
+      "aliases": [],
+      "popularity": 7412,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Griffon Nivernais"
+    },
+    {
+      "name": "Lài dog",
+      "aliases": [],
+      "popularity": 7476,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Lài dog"
+    },
+    {
+      "name": "Estonian Hound",
+      "aliases": [],
+      "popularity": 7568,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Estonian Hound"
+    },
+    {
+      "name": "Cantabrian Water Dog",
+      "aliases": [],
+      "popularity": 7630,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Cantabrian Water Dog"
+    },
+    {
+      "name": "Ariégeois",
+      "aliases": [],
+      "popularity": 7655,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Ariégeois"
+    },
+    {
+      "name": "Bruno Jura Hound",
+      "aliases": [
+        "Bruno Saint Hubert français"
+      ],
+      "popularity": 7693,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Bruno Jura Hound"
+    },
+    {
+      "name": "Castro Laboreiro Dog",
+      "aliases": [
+        "Cão de Castro Laboreiro",
+        "Portuguese Cattle Dog"
+      ],
+      "popularity": 7772,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Castro Laboreiro Dog"
+    },
+    {
+      "name": "Dunker",
+      "aliases": [
+        "Norwegian Hound"
+      ],
+      "popularity": 7805,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "Dunker"
+    },
+    {
+      "name": "Segugio Italiano",
+      "aliases": [],
+      "popularity": 7827,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Segugio Italiano"
+    },
+    {
+      "name": "Billy",
+      "aliases": [
+        "Billy (dog breed)"
+      ],
+      "popularity": 7836,
+      "rarity": 0.772,
+      "tier": 4,
+      "wiki": "Billy (dog breed)"
+    },
+    {
+      "name": "Burgos Pointer",
+      "aliases": [
+        "Burgos Retriever",
+        "Perdiguero de Burgos"
+      ],
+      "popularity": 7912,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "Burgos Pointer"
+    },
+    {
+      "name": "Barbado da Terceira",
+      "aliases": [
+        "Terceira Cattle Dog"
+      ],
+      "popularity": 7926,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Barbado da Terceira"
+    },
+    {
+      "name": "Assyrian Mastiff",
+      "aliases": [],
+      "popularity": 7939,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Assyrian Mastiff"
+    },
+    {
+      "name": "Braque Dupuy",
+      "aliases": [
+        "Braque du Puy"
+      ],
+      "popularity": 7953,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Braque Dupuy"
+    },
+    {
+      "name": "Can de Palleiro",
+      "aliases": [
+        "Galician Cattledog",
+        "Galician Palleiro Dog",
+        "Palleiro",
+        "Palleiro Shepherd Dog"
+      ],
+      "popularity": 7983,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Can de Palleiro"
+    },
+    {
+      "name": "Karelo-Finnish Laika",
+      "aliases": [
+        "Karelo-Finskaya Laika",
+        "Karero-Finnish Laika",
+        "Karjalais-suomalainen laika",
+        "Laika Karelo-Finskaya",
+        "Suomenpystykorva"
+      ],
+      "popularity": 8048,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Karelo-Finnish Laika"
+    },
+    {
+      "name": "Patagonian Sheepdog",
+      "aliases": [],
+      "popularity": 8124,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Patagonian Sheepdog"
+    },
+    {
+      "name": "Braque d'Auvergne",
+      "aliases": [],
+      "popularity": 8162,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Braque d'Auvergne"
+    },
+    {
+      "name": "Griffon Fauve de Bretagne",
+      "aliases": [
+        "Fawn Brittany Griffon"
+      ],
+      "popularity": 8215,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Griffon Fauve de Bretagne"
+    },
+    {
+      "name": "Colombian Fino Hound",
+      "aliases": [
+        "Perro fino Colombiano"
+      ],
+      "popularity": 8245,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Colombian Fino Hound"
+    },
+    {
+      "name": "Pachón Navarro",
+      "aliases": [
+        "Nafar eper txakurra",
+        "Nafarroako eper txakur",
+        "Pachón",
+        "Pachón de Vitoria",
+        "Pachón español",
+        "Perdiguero común",
+        "Perdiguero navarro"
+      ],
+      "popularity": 8309,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Pachón Navarro"
+    },
+    {
+      "name": "Macedonian Shepherd Dog",
+      "aliases": [
+        "Karaman",
+        "Macedonian Karaman",
+        "Makedonsko ovcharko kuche"
+      ],
+      "popularity": 8331,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Macedonian Shepherd Dog"
+    },
+    {
+      "name": "Grand Anglo-Français Tricolore",
+      "aliases": [
+        "Great Anglo-French Tricolour Hound"
+      ],
+      "popularity": 8343,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Grand Anglo-Français Tricolore"
+    },
+    {
+      "name": "Sardinian Shepherd Dog",
+      "aliases": [
+        "Pastore Fonnese"
+      ],
+      "popularity": 8359,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Sardinian Shepherd Dog"
+    },
+    {
+      "name": "Porcelaine",
+      "aliases": [],
+      "popularity": 8433,
+      "rarity": 0.748,
+      "tier": 4,
+      "wiki": "Porcelaine"
+    },
+    {
+      "name": "Ariège Pointer",
+      "aliases": [
+        "Braque de l’ariège"
+      ],
+      "popularity": 8498,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Ariège Pointer"
+    },
+    {
+      "name": "Slovak Rough-haired Pointer",
+      "aliases": [
+        "Slovakian Rough-haired Pointer",
+        "Slovakian Wirehaired Pointer"
+      ],
+      "popularity": 8533,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Slovak Rough-haired Pointer"
+    },
+    {
+      "name": "Tyrolean Hound",
+      "aliases": [],
+      "popularity": 8640,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Tyrolean Hound"
+    },
+    {
+      "name": "Danish Spitz",
+      "aliases": [],
+      "popularity": 8665,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Danish Spitz"
+    },
+    {
+      "name": "Schapendoes",
+      "aliases": [],
+      "popularity": 8679,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Schapendoes"
+    },
+    {
+      "name": "Finnish Hound",
+      "aliases": [],
+      "popularity": 8757,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Finnish Hound"
+    },
+    {
+      "name": "Briquet Griffon Vendéen",
+      "aliases": [],
+      "popularity": 8793,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Briquet Griffon Vendéen"
+    },
+    {
+      "name": "Serbian Hound",
+      "aliases": [],
+      "popularity": 8891,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Serbian Hound"
+    },
+    {
+      "name": "Posavac Hound",
+      "aliases": [],
+      "popularity": 8947,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Posavac Hound"
+    },
+    {
+      "name": "Grand Griffon Vendéen",
+      "aliases": [],
+      "popularity": 8951,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Grand Griffon Vendéen"
+    },
+    {
+      "name": "Tibetan Kyi Apso",
+      "aliases": [],
+      "popularity": 9070,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Tibetan Kyi Apso"
+    },
+    {
+      "name": "Portuguese Pointer",
+      "aliases": [],
+      "popularity": 9078,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Portuguese Pointer"
+    },
+    {
+      "name": "Slovak Cuvac",
+      "aliases": [],
+      "popularity": 9213,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Slovak Cuvac"
+    },
+    {
+      "name": "Kerry Beagle",
+      "aliases": [],
+      "popularity": 9345,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Kerry Beagle"
+    },
+    {
+      "name": "Westphalian Dachsbracke",
+      "aliases": [],
+      "popularity": 9452,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Westphalian Dachsbracke"
+    },
+    {
+      "name": "Seppala Siberian Sleddog",
+      "aliases": [],
+      "popularity": 9528,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Seppala Siberian Sleddog"
+    },
+    {
+      "name": "Buckhound",
+      "aliases": [],
+      "popularity": 9560,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Buckhound"
+    },
+    {
+      "name": "Treeing Feist",
+      "aliases": [],
+      "popularity": 9652,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Treeing Feist"
+    },
+    {
+      "name": "Jeju dog",
+      "aliases": [],
+      "popularity": 9699,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Jeju dog"
+    },
+    {
+      "name": "Fu Quan",
+      "aliases": [],
+      "popularity": 9710,
+      "rarity": 0.715,
+      "tier": 4,
+      "wiki": "Fu Quan"
+    },
+    {
+      "name": "Anglo-Français de Petite Vénerie",
+      "aliases": [
+        "Medium-sized Anglo-French Hound"
+      ],
+      "popularity": 9885,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Anglo-Français de Petite Vénerie"
+    },
+    {
+      "name": "Lucas Terrier",
+      "aliases": [],
+      "popularity": 9940,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Lucas Terrier"
+    },
+    {
+      "name": "Artois Hound",
+      "aliases": [],
+      "popularity": 9953,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Artois Hound"
+    },
+    {
+      "name": "Serrano Bulldog",
+      "aliases": [
+        "Buldogue Serrano"
+      ],
+      "popularity": 9954,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Serrano Bulldog"
+    },
+    {
+      "name": "Corsican Dog",
+      "aliases": [
+        "Cursinu"
+      ],
+      "popularity": 9965,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "Corsican Dog"
+    },
+    {
+      "name": "Russo-European Laika",
+      "aliases": [],
+      "popularity": 9975,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Russo-European Laika"
+    },
+    {
+      "name": "East Siberian Laika",
+      "aliases": [],
+      "popularity": 9982,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "East Siberian Laika"
+    },
+    {
+      "name": "Greyster",
+      "aliases": [],
+      "popularity": 10033,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Greyster"
+    },
+    {
+      "name": "Northern Inuit Dog",
+      "aliases": [
+        "Northern Inuit"
+      ],
+      "popularity": 10080,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Northern Inuit Dog"
+    },
+    {
+      "name": "Limer",
+      "aliases": [
+        "Lime-hound",
+        "Limier",
+        "Lyam",
+        "Lymer"
+      ],
+      "popularity": 10085,
+      "rarity": 0.699,
+      "tier": 4,
+      "wiki": "Limer"
+    },
+    {
+      "name": "Donggyeongi",
+      "aliases": [
+        "Daeng gyeong",
+        "Dong-gyeong"
+      ],
+      "popularity": 10168,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Donggyeongi"
+    },
+    {
+      "name": "Rastreador Brasileiro",
+      "aliases": [],
+      "popularity": 10192,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Rastreador Brasileiro"
+    },
+    {
+      "name": "Drever",
+      "aliases": [
+        "Swedish Beagle",
+        "Swedish Dachsbracke"
+      ],
+      "popularity": 10221,
+      "rarity": 0.695,
+      "tier": 4,
+      "wiki": "Drever"
+    },
+    {
+      "name": "Picardy Spaniel",
+      "aliases": [],
+      "popularity": 10452,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "Picardy Spaniel"
+    },
+    {
+      "name": "Pastore della Lessinia e del Lagorai",
+      "aliases": [
+        "Lessinia and Lagorai Shepherd"
+      ],
+      "popularity": 10596,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Pastore della Lessinia e del Lagorai"
+    },
+    {
+      "name": "Welsh Hound",
+      "aliases": [],
+      "popularity": 10627,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Welsh Hound"
+    },
+    {
+      "name": "Phalène",
+      "aliases": [],
+      "popularity": 10703,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Phalène"
+    },
+    {
+      "name": "Anatolian Shepherd",
+      "aliases": [
+        "Anatolian Shepherd Dog"
+      ],
+      "popularity": 10772,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Anatolian Shepherd"
+    },
+    {
+      "name": "Sabueso Español",
+      "aliases": [],
+      "popularity": 10868,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Sabueso Español"
+    },
+    {
+      "name": "Dumfriesshire hound",
+      "aliases": [],
+      "popularity": 11035,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Dumfriesshire hound"
+    },
+    {
+      "name": "Lupo Italiano",
+      "aliases": [],
+      "popularity": 11124,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Lupo Italiano"
+    },
+    {
+      "name": "Magyar Agár",
+      "aliases": [],
+      "popularity": 11152,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Magyar Agár"
+    },
+    {
+      "name": "Swedish Lapphund",
+      "aliases": [],
+      "popularity": 11165,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Swedish Lapphund"
+    },
+    {
+      "name": "Wetterhoun",
+      "aliases": [
+        "Dutch Spaniel",
+        "Dutch Water Dog",
+        "Frisian Water Dog",
+        "Otterhoun"
+      ],
+      "popularity": 11447,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Wetterhoun"
+    },
+    {
+      "name": "Drentse Patrijshond",
+      "aliases": [
+        "Drentsche patrijshond",
+        "Dutch Partridge Dog",
+        "Hollanninpeltopyykoira",
+        "Perdiguero de Drenthe",
+        "Spaniel perdigueiro de Drente"
+      ],
+      "popularity": 11500,
+      "rarity": 0.675,
+      "tier": 4,
+      "wiki": "Drentse Patrijshond"
+    },
+    {
+      "name": "Karst Shepherd",
+      "aliases": [],
+      "popularity": 11554,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Karst Shepherd"
+    },
+    {
+      "name": "German Hound",
+      "aliases": [
+        "Deutsche Bracke"
+      ],
+      "popularity": 11644,
+      "rarity": 0.672,
+      "tier": 4,
+      "wiki": "German Hound"
+    },
+    {
+      "name": "Austrian Black and Tan Hound",
+      "aliases": [],
+      "popularity": 11668,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Austrian Black and Tan Hound"
+    },
+    {
+      "name": "Hanover Hound",
+      "aliases": [
+        "Hanoverian Hound",
+        "Hanoverian Scenthound"
+      ],
+      "popularity": 11707,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Hanover Hound"
+    },
+    {
+      "name": "Scotch Collie",
+      "aliases": [
+        "Scottish collie"
+      ],
+      "popularity": 11751,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Scotch Collie"
+    },
+    {
+      "name": "Grand Bleu de Gascogne",
+      "aliases": [
+        "Great Gascony Blue",
+        "Great Gascony Hound"
+      ],
+      "popularity": 11765,
+      "rarity": 0.666,
+      "tier": 4,
+      "wiki": "Grand Bleu de Gascogne"
+    },
+    {
+      "name": "Zerdava",
+      "aliases": [
+        "Kapi Kopegi",
+        "Zerdeva"
+      ],
+      "popularity": 11779,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Zerdava"
+    },
+    {
+      "name": "Ryukyu dog",
+      "aliases": [
+        "Okinawa Native Dog",
+        "Ryukyu Inu"
+      ],
+      "popularity": 11800,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Ryukyu dog"
+    },
+    {
+      "name": "Basset Artésien Normand",
+      "aliases": [],
+      "popularity": 11803,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Basset Artésien Normand"
+    },
+    {
+      "name": "Norrbottenspets",
+      "aliases": [
+        "Norbottenspitz",
+        "Nordic Spitz",
+        "Pohjanpystykorva",
+        "Spitz de Norboten"
+      ],
+      "popularity": 11804,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Norrbottenspets"
+    },
+    {
+      "name": "Black Norwegian Elkhound",
+      "aliases": [],
+      "popularity": 11947,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Black Norwegian Elkhound"
+    },
+    {
+      "name": "Bắc Hà dog",
+      "aliases": [
+        "chó Bắc Hà",
+        "Vietspitz"
+      ],
+      "popularity": 11999,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Bắc Hà dog"
+    },
+    {
+      "name": "Blue Picardy Spaniel",
+      "aliases": [],
+      "popularity": 12126,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Blue Picardy Spaniel"
+    },
+    {
+      "name": "Basset",
+      "aliases": [],
+      "popularity": 12228,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Basset"
+    },
+    {
+      "name": "Chortai",
+      "aliases": [
+        "Chortaj"
+      ],
+      "popularity": 12249,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Chortai"
+    },
+    {
+      "name": "Polish Hound",
+      "aliases": [],
+      "popularity": 12379,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Polish Hound"
+    },
+    {
+      "name": "Braque du Bourbonnais",
+      "aliases": [],
+      "popularity": 12397,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Braque du Bourbonnais"
+    },
+    {
+      "name": "Campeiro Bulldog",
+      "aliases": [
+        "Buldogue campeiro",
+        "Pampas Bulldog"
+      ],
+      "popularity": 12417,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Campeiro Bulldog"
+    },
+    {
+      "name": "Basset Bleu de Gascogne",
+      "aliases": [],
+      "popularity": 12558,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Basset Bleu de Gascogne"
+    },
+    {
+      "name": "Staghound",
+      "aliases": [
+        "English Staghound"
+      ],
+      "popularity": 12592,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Staghound"
+    },
+    {
+      "name": "Kazakh Tazy",
+      "aliases": [
+        "Central Asian Tazi",
+        "Middleasian greyhound",
+        "Tazi"
+      ],
+      "popularity": 12621,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Kazakh Tazy"
+    },
+    {
+      "name": "Tahitian Dog",
+      "aliases": [],
+      "popularity": 12635,
+      "rarity": 0.64,
+      "tier": 4,
+      "wiki": "Tahitian Dog"
+    },
+    {
+      "name": "Cão de Gado Transmontano",
+      "aliases": [
+        "Transmontano Cattle Dog",
+        "Transmontano Mastiff"
+      ],
+      "popularity": 12641,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Cão de Gado Transmontano"
+    },
+    {
+      "name": "Barak hound",
+      "aliases": [
+        "Bosnian Broken-haired Hound",
+        "Bosnian Coarse-haired Hound",
+        "Bosnian Rough-coated Hound",
+        "Bosnian Rough-haired Hound"
+      ],
+      "popularity": 12645,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "Barak hound"
+    },
+    {
+      "name": "American Staghound",
+      "aliases": [],
+      "popularity": 12736,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "American Staghound"
+    },
+    {
+      "name": "Japanese Terrier",
+      "aliases": [
+        "Kobe Terrier",
+        "Mikado Terrier",
+        "Nippon Terrier",
+        "Oyuki Terrier"
+      ],
+      "popularity": 12740,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Japanese Terrier"
+    },
+    {
+      "name": "Continental Bulldog",
+      "aliases": [],
+      "popularity": 12787,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Continental Bulldog"
+    },
+    {
+      "name": "Podenco Valenciano",
+      "aliases": [
+        "Xarnego Valenciano"
+      ],
+      "popularity": 12788,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Podenco Valenciano"
+    },
+    {
+      "name": "Polish Greyhound",
+      "aliases": [],
+      "popularity": 12942,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Polish Greyhound"
+    },
+    {
+      "name": "Brazilian Terrier",
+      "aliases": [],
+      "popularity": 13240,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Brazilian Terrier"
+    },
+    {
+      "name": "Cesky Terrier",
+      "aliases": [],
+      "popularity": 13322,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Cesky Terrier"
+    },
+    {
+      "name": "Treeing Tennessee Brindle",
+      "aliases": [],
+      "popularity": 13393,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Treeing Tennessee Brindle"
+    },
+    {
+      "name": "Cimarrón Uruguayo",
+      "aliases": [
+        "Uruguayan Cimarron"
+      ],
+      "popularity": 13425,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Cimarrón Uruguayo"
+    },
+    {
+      "name": "Russian Spaniel",
+      "aliases": [],
+      "popularity": 13425,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Russian Spaniel"
+    },
+    {
+      "name": "Paisley Terrier",
+      "aliases": [
+        "Clydesdale Terrier"
+      ],
+      "popularity": 13611,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Paisley Terrier"
+    },
+    {
+      "name": "Dutch Smoushond",
+      "aliases": [],
+      "popularity": 13630,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Dutch Smoushond"
+    },
+    {
+      "name": "Moscow Water Dog",
+      "aliases": [],
+      "popularity": 13728,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Moscow Water Dog"
+    },
+    {
+      "name": "Braque Français",
+      "aliases": [],
+      "popularity": 13855,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Braque Français"
+    },
+    {
+      "name": "Thai Bangkaew Dog",
+      "aliases": [
+        "Bangkaew Dog"
+      ],
+      "popularity": 13908,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Thai Bangkaew Dog"
+    },
+    {
+      "name": "Jonangi",
+      "aliases": [],
+      "popularity": 14540,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Jonangi"
+    },
+    {
+      "name": "Saint Miguel Cattle Dog",
+      "aliases": [
+        "Azores Cattle Dog",
+        "Azores Cow Dog",
+        "Cão Fila de São Miguel",
+        "São Miguel Catch Dog",
+        "São Miguel Cattle Dog"
+      ],
+      "popularity": 14564,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Saint Miguel Cattle Dog"
+    },
+    {
+      "name": "Smithfield",
+      "aliases": [
+        "Smithfield (dog)"
+      ],
+      "popularity": 14726,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Smithfield (dog)"
+    },
+    {
+      "name": "Gull Dong",
+      "aliases": [],
+      "popularity": 14740,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Gull Dong"
+    },
+    {
+      "name": "Hmong bobtail dog",
+      "aliases": [],
+      "popularity": 14746,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Hmong bobtail dog"
+    },
+    {
+      "name": "Beagle-Harrier",
+      "aliases": [],
+      "popularity": 14754,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Beagle-Harrier"
+    },
+    {
+      "name": "French Spaniel",
+      "aliases": [],
+      "popularity": 14790,
+      "rarity": 0.601,
+      "tier": 4,
+      "wiki": "French Spaniel"
+    },
+    {
+      "name": "Gończy Polski",
+      "aliases": [
+        "Polish Hunting Dog",
+        "Polish Scenthound"
+      ],
+      "popularity": 14819,
+      "rarity": 0.6,
+      "tier": 3,
+      "wiki": "Gończy Polski"
+    },
+    {
+      "name": "Dogue Brasileiro",
+      "aliases": [
+        "Brazilian Dogge",
+        "Brazilian Dogo"
+      ],
+      "popularity": 14982,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Dogue Brasileiro"
+    },
+    {
+      "name": "African village dog",
+      "aliases": [],
+      "popularity": 14996,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "African village dog"
+    },
+    {
+      "name": "Bouvier des Ardennes",
+      "aliases": [],
+      "popularity": 15014,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Bouvier des Ardennes"
+    },
+    {
+      "name": "Bulgae",
+      "aliases": [
+        "Korean fire dog",
+        "Korean flame dog"
+      ],
+      "popularity": 15015,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Bulgae"
+    },
+    {
+      "name": "Kromfohrländer",
+      "aliases": [],
+      "popularity": 15123,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Kromfohrländer"
+    },
+    {
+      "name": "New Zealand Heading Dog",
+      "aliases": [],
+      "popularity": 15209,
+      "rarity": 0.59,
+      "tier": 3,
+      "wiki": "New Zealand Heading Dog"
+    },
+    {
+      "name": "Austrian Pinscher",
+      "aliases": [],
+      "popularity": 15279,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Austrian Pinscher"
+    },
+    {
+      "name": "Argentine Pila",
+      "aliases": [
+        "Argentine Pila Dog"
+      ],
+      "popularity": 15538,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Argentine Pila"
+    },
+    {
+      "name": "Croatian Sheepdog",
+      "aliases": [
+        "Hrvatski Ovčar"
+      ],
+      "popularity": 15602,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Croatian Sheepdog"
+    },
+    {
+      "name": "Greek Harehound",
+      "aliases": [
+        "Hellenic Hound"
+      ],
+      "popularity": 15632,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Greek Harehound"
+    },
+    {
+      "name": "Rampur Greyhound",
+      "aliases": [
+        "Rampur Hound"
+      ],
+      "popularity": 15676,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Rampur Greyhound"
+    },
+    {
+      "name": "Romanian Raven Shepherd Dog",
+      "aliases": [],
+      "popularity": 15693,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Romanian Raven Shepherd Dog"
+    },
+    {
+      "name": "Bolognese",
+      "aliases": [
+        "Bolognese (dog breed)"
+      ],
+      "popularity": 15711,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Bolognese (dog breed)"
+    },
+    {
+      "name": "Tenterfield Terrier",
+      "aliases": [],
+      "popularity": 15750,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Tenterfield Terrier"
+    },
+    {
+      "name": "Transylvanian Hound",
+      "aliases": [],
+      "popularity": 16124,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Transylvanian Hound"
+    },
+    {
+      "name": "German Spaniel",
+      "aliases": [],
+      "popularity": 16219,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "German Spaniel"
+    },
+    {
+      "name": "South Russian Ovcharka",
+      "aliases": [
+        "Ukrainian Vivcharka"
+      ],
+      "popularity": 16227,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "South Russian Ovcharka"
+    },
+    {
+      "name": "Kunming dog",
+      "aliases": [
+        "Kunming wolfdog"
+      ],
+      "popularity": 16430,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Kunming dog"
+    },
+    {
+      "name": "Cretan Hound",
+      "aliases": [
+        "Cretan Harehound",
+        "Cretan Tracker",
+        "Kritikos Ichnilatis",
+        "Kritikos Lagonikos"
+      ],
+      "popularity": 16463,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Cretan Hound"
+    },
+    {
+      "name": "Double-nosed Andean tiger hound",
+      "aliases": [],
+      "popularity": 16742,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Double-nosed Andean tiger hound"
+    },
+    {
+      "name": "Moscow Watchdog",
+      "aliases": [],
+      "popularity": 16803,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "Moscow Watchdog"
+    },
+    {
+      "name": "Sapsali",
+      "aliases": [
+        "Sabsal Gae"
+      ],
+      "popularity": 16869,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Sapsali"
+    },
+    {
+      "name": "Grand Basset Griffon Vendéen",
+      "aliases": [
+        "GBGV",
+        "Large Vendeen Griffon Basset"
+      ],
+      "popularity": 17230,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Grand Basset Griffon Vendéen"
+    },
+    {
+      "name": "Polynesian Dog",
+      "aliases": [],
+      "popularity": 17325,
+      "rarity": 0.561,
+      "tier": 3,
+      "wiki": "Polynesian Dog"
+    },
+    {
+      "name": "Markiesje",
+      "aliases": [
+        "Dutch Tulip Dog"
+      ],
+      "popularity": 17547,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Markiesje"
+    },
+    {
+      "name": "Alopekis",
+      "aliases": [],
+      "popularity": 17612,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Alopekis"
+    },
+    {
+      "name": "Toy Manchester Terrier",
+      "aliases": [],
+      "popularity": 17746,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Toy Manchester Terrier"
+    },
+    {
+      "name": "Norwegian Buhund",
+      "aliases": [],
+      "popularity": 17776,
+      "rarity": 0.555,
+      "tier": 3,
+      "wiki": "Norwegian Buhund"
+    },
+    {
+      "name": "Podenco Andaluz",
+      "aliases": [
+        "Andalusian Hound",
+        "Andalusian Podenco",
+        "Andalusian Warren Hound"
+      ],
+      "popularity": 17821,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Podenco Andaluz"
+    },
+    {
+      "name": "Jämthund",
+      "aliases": [
+        "Swedish Elkhound"
+      ],
+      "popularity": 17827,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Jämthund"
+    },
+    {
+      "name": "Xiasi Dog",
+      "aliases": [],
+      "popularity": 17910,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Xiasi Dog"
+    },
+    {
+      "name": "Estrela Mountain Dog",
+      "aliases": [
+        "Portuguese Mountain Dog"
+      ],
+      "popularity": 17922,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Estrela Mountain Dog"
+    },
+    {
+      "name": "Lapponian Herder",
+      "aliases": [
+        "Lapinporokoira",
+        "Lapland Reindeer Dog"
+      ],
+      "popularity": 17939,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Lapponian Herder"
+    },
+    {
+      "name": "Telomian",
+      "aliases": [],
+      "popularity": 18011,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Telomian"
+    },
+    {
+      "name": "Romanian Mioritic Shepherd Dog",
+      "aliases": [
+        "Mioritic"
+      ],
+      "popularity": 18325,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Romanian Mioritic Shepherd Dog"
+    },
+    {
+      "name": "German Longhaired Pointer",
+      "aliases": [],
+      "popularity": 18348,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "German Longhaired Pointer"
+    },
+    {
+      "name": "English Toy Terrier",
+      "aliases": [
+        "English Toy Terrier (Black & Tan)"
+      ],
+      "popularity": 18349,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "English Toy Terrier (Black & Tan)"
+    },
+    {
+      "name": "Catalan Sheepdog",
+      "aliases": [
+        "Pastor Català"
+      ],
+      "popularity": 18370,
+      "rarity": 0.539,
+      "tier": 3,
+      "wiki": "Catalan Sheepdog"
+    },
+    {
+      "name": "West Siberian Laika",
+      "aliases": [],
+      "popularity": 18411,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "West Siberian Laika"
+    },
+    {
+      "name": "Chukotka sled dog",
+      "aliases": [],
+      "popularity": 18452,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Chukotka sled dog"
+    },
+    {
+      "name": "Argentine polar dog",
+      "aliases": [],
+      "popularity": 18527,
+      "rarity": 0.534,
+      "tier": 3,
+      "wiki": "Argentine polar dog"
+    },
+    {
+      "name": "Talbot",
+      "aliases": [
+        "Talbot (dog breed)"
+      ],
+      "popularity": 18636,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Talbot (dog breed)"
+    },
+    {
+      "name": "Basque Shepherd Dog",
+      "aliases": [
+        "Euskal ardi-txakur",
+        "Euskal Artzain Txakurra"
+      ],
+      "popularity": 18766,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Basque Shepherd Dog"
+    },
+    {
+      "name": "Georgian Shepherd",
+      "aliases": [
+        "Georgian Mountain Dog",
+        "Nagazi dog"
+      ],
+      "popularity": 18862,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Georgian Shepherd"
+    },
+    {
+      "name": "Tatra Shepherd Dog",
+      "aliases": [
+        "Polish Tatra Sheepdog"
+      ],
+      "popularity": 18944,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Tatra Shepherd Dog"
+    },
+    {
+      "name": "Alpine Dachsbracke",
+      "aliases": [
+        "Alpenländische Dachsbracke"
+      ],
+      "popularity": 19012,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Alpine Dachsbracke"
+    },
+    {
+      "name": "Kanni",
+      "aliases": [],
+      "popularity": 19557,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Kanni"
+    },
+    {
+      "name": "Belgian Mastiff",
+      "aliases": [
+        "Belgian Drafting Dog"
+      ],
+      "popularity": 19579,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Belgian Mastiff"
+    },
+    {
+      "name": "Irish Red and White Setter",
+      "aliases": [
+        "Rossmore Setter"
+      ],
+      "popularity": 19688,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Irish Red and White Setter"
+    },
+    {
+      "name": "Bohemian Shepherd",
+      "aliases": [
+        "Chodenhund",
+        "Chodský pes",
+        "Czech Sheepdog"
+      ],
+      "popularity": 20177,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Bohemian Shepherd"
+    },
+    {
+      "name": "Curly-coated Retriever",
+      "aliases": [],
+      "popularity": 20195,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Curly-coated Retriever"
+    },
+    {
+      "name": "Bakharwal dog",
+      "aliases": [],
+      "popularity": 20328,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Bakharwal dog"
+    },
+    {
+      "name": "Kishu",
+      "aliases": [
+        "Kishu Inu",
+        "Kumano Ken",
+        "Taichi Ken"
+      ],
+      "popularity": 20472,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Kishu"
+    },
+    {
+      "name": "Andalusian Terrier",
+      "aliases": [
+        "Andalusian Mouse-Hunting Terrier",
+        "Ratonero Bodeguero Andaluz COOPER"
+      ],
+      "popularity": 20749,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Andalusian Terrier"
+    },
+    {
+      "name": "Hokkaido",
+      "aliases": [
+        "Ainu Dog",
+        "Ainu Ken",
+        "Hokkaido (dog breed)",
+        "Hokkaido inu",
+        "Seta"
+      ],
+      "popularity": 20838,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Hokkaido (dog breed)"
+    },
+    {
+      "name": "Polish Lowland Sheepdog",
+      "aliases": [],
+      "popularity": 20891,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Polish Lowland Sheepdog"
+    },
+    {
+      "name": "Tang Dog",
+      "aliases": [
+        "Chinese dog",
+        "Tang Gou",
+        "Tong gau",
+        "Village dog"
+      ],
+      "popularity": 20912,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Tang Dog"
+    },
+    {
+      "name": "Kars dog",
+      "aliases": [],
+      "popularity": 20942,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Kars dog"
+    },
+    {
+      "name": "Chinook",
+      "aliases": [
+        "Chinook (dog breed)"
+      ],
+      "popularity": 21087,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Chinook (dog breed)"
+    },
+    {
+      "name": "Nenets Herding Laika",
+      "aliases": [],
+      "popularity": 21157,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Nenets Herding Laika"
+    },
+    {
+      "name": "Broholmer",
+      "aliases": [
+        "Danish Mastiff"
+      ],
+      "popularity": 21302,
+      "rarity": 0.502,
+      "tier": 3,
+      "wiki": "Broholmer"
+    },
+    {
+      "name": "Harrier",
+      "aliases": [
+        "Harrier (dog breed)"
+      ],
+      "popularity": 21414,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Harrier (dog breed)"
+    },
+    {
+      "name": "Pyrenean Sheepdog",
+      "aliases": [
+        "Pyrenean Shepherd"
+      ],
+      "popularity": 21715,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Pyrenean Sheepdog"
+    },
+    {
+      "name": "Gull Terrier",
+      "aliases": [
+        "Gull Terr"
+      ],
+      "popularity": 22018,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Gull Terrier"
+    },
+    {
+      "name": "Xigou",
+      "aliases": [],
+      "popularity": 22068,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Xigou"
+    },
+    {
+      "name": "Miniature Fox Terrier",
+      "aliases": [],
+      "popularity": 22652,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Miniature Fox Terrier"
+    },
+    {
+      "name": "Sarabi dog",
+      "aliases": [
+        "Iranian Mastiff",
+        "Persian Mastiff",
+        "Sarabi Mastiff"
+      ],
+      "popularity": 22681,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Sarabi dog"
+    },
+    {
+      "name": "Phu Quoc Ridgeback",
+      "aliases": [
+        "Phu Quoc ridgeback dog"
+      ],
+      "popularity": 22811,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Phu Quoc Ridgeback"
+    },
+    {
+      "name": "Black and Tan Terrier",
+      "aliases": [
+        "Old English Terrier"
+      ],
+      "popularity": 23048,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Black and Tan Terrier"
+    },
+    {
+      "name": "Kurdish Mastiff",
+      "aliases": [
+        "Assyrian Shepherd",
+        "Kurd Mastiff",
+        "Kurdish dog",
+        "Mesopotamian Mastiff",
+        "Pshdar dog"
+      ],
+      "popularity": 23281,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Kurdish Mastiff"
+    },
+    {
+      "name": "American Hairless Terrier",
+      "aliases": [],
+      "popularity": 23321,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "American Hairless Terrier"
+    },
+    {
+      "name": "Danish–Swedish Farmdog",
+      "aliases": [],
+      "popularity": 23350,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Danish–Swedish Farmdog"
+    },
+    {
+      "name": "English Water Spaniel",
+      "aliases": [],
+      "popularity": 23417,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "English Water Spaniel"
+    },
+    {
+      "name": "Sussex Spaniel",
+      "aliases": [],
+      "popularity": 23456,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Sussex Spaniel"
+    },
+    {
+      "name": "Abyssinian sand terrier",
+      "aliases": [],
+      "popularity": 23473,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Abyssinian sand terrier"
+    },
+    {
+      "name": "Laconian",
+      "aliases": [
+        "Laconian (dog)"
+      ],
+      "popularity": 23615,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Laconian (dog)"
+    },
+    {
+      "name": "Bucovina Shepherd Dog",
+      "aliases": [
+        "Romanian Bucovina Shepherd Dog"
+      ],
+      "popularity": 23908,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Bucovina Shepherd Dog"
+    },
+    {
+      "name": "Russian Toy",
+      "aliases": [
+        "Moscovian Miniature Terrier",
+        "Moscow Toy Terrier",
+        "Russian Terrier",
+        "Russian Toy Terrier",
+        "Russkiy Toy"
+      ],
+      "popularity": 23979,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Russian Toy"
+    },
+    {
+      "name": "Hairless dog",
+      "aliases": [],
+      "popularity": 24218,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Hairless dog"
+    },
+    {
+      "name": "American Leopard Hound",
+      "aliases": [],
+      "popularity": 24406,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "American Leopard Hound"
+    },
+    {
+      "name": "Ca de Bou",
+      "aliases": [
+        "Perro de Presa Mallorquin"
+      ],
+      "popularity": 24451,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Ca de Bou"
+    },
+    {
+      "name": "Löwchen",
+      "aliases": [],
+      "popularity": 24581,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Löwchen"
+    },
+    {
+      "name": "Tornjak",
+      "aliases": [],
+      "popularity": 24765,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "Tornjak"
+    },
+    {
+      "name": "Pumi dog",
+      "aliases": [
+        "Hungarian herding terrier",
+        "Pumi"
+      ],
+      "popularity": 25250,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Pumi dog"
+    },
+    {
+      "name": "Toy Fox Terrier",
+      "aliases": [
+        "American Toy Terrier"
+      ],
+      "popularity": 25778,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Toy Fox Terrier"
+    },
+    {
+      "name": "Armenian Gampr",
+      "aliases": [
+        "Armenian Gampr dog"
+      ],
+      "popularity": 25890,
+      "rarity": 0.461,
+      "tier": 3,
+      "wiki": "Armenian Gampr"
+    },
+    {
+      "name": "American English Coonhound",
+      "aliases": [
+        "English Coonhound"
+      ],
+      "popularity": 25919,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "American English Coonhound"
+    },
+    {
+      "name": "Griffon",
+      "aliases": [
+        "Griffon (dog type)"
+      ],
+      "popularity": 25926,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Griffon (dog type)"
+    },
+    {
+      "name": "Large Münsterländer",
+      "aliases": [],
+      "popularity": 25938,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Large Münsterländer"
+    },
+    {
+      "name": "Podenco Canario",
+      "aliases": [],
+      "popularity": 25971,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Podenco Canario"
+    },
+    {
+      "name": "Australian Stumpy Tail Cattle Dog",
+      "aliases": [],
+      "popularity": 26076,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Australian Stumpy Tail Cattle Dog"
+    },
+    {
+      "name": "Laizhou Hong",
+      "aliases": [
+        "Laizhou Red Dog"
+      ],
+      "popularity": 26117,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Laizhou Hong"
+    },
+    {
+      "name": "Yakutian Laika",
+      "aliases": [],
+      "popularity": 26134,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Yakutian Laika"
+    },
+    {
+      "name": "American Water Spaniel",
+      "aliases": [
+        "AWS"
+      ],
+      "popularity": 26152,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "American Water Spaniel"
+    },
+    {
+      "name": "Barbet",
+      "aliases": [
+        "Barbet (dog breed)"
+      ],
+      "popularity": 26590,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Barbet (dog breed)"
+    },
+    {
+      "name": "Carpathian Shepherd Dog",
+      "aliases": [],
+      "popularity": 27232,
+      "rarity": 0.445,
+      "tier": 3,
+      "wiki": "Carpathian Shepherd Dog"
+    },
+    {
+      "name": "Small Münsterländer",
+      "aliases": [],
+      "popularity": 27351,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Small Münsterländer"
+    },
+    {
+      "name": "Pungsan dog",
+      "aliases": [
+        "Poongsan",
+        "Pungsan"
+      ],
+      "popularity": 27496,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Pungsan dog"
+    },
+    {
+      "name": "East European Shepherd",
+      "aliases": [],
+      "popularity": 27499,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "East European Shepherd"
+    },
+    {
+      "name": "Bankhar dog",
+      "aliases": [
+        "Buryat-Mongolian Wolfhound"
+      ],
+      "popularity": 27514,
+      "rarity": 0.439,
+      "tier": 3,
+      "wiki": "Bankhar dog"
+    },
+    {
+      "name": "Aidi",
+      "aliases": [
+        "Atlas Mountain Dog"
+      ],
+      "popularity": 27718,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Aidi"
+    },
+    {
+      "name": "Taigan",
+      "aliases": [
+        "Kyrgyzskaya Borzaya Taigan"
+      ],
+      "popularity": 27804,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Taigan"
+    },
+    {
+      "name": "Lancashire Heeler",
+      "aliases": [
+        "Ormskirk Heeler"
+      ],
+      "popularity": 28151,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Lancashire Heeler"
+    },
+    {
+      "name": "Petit Basset Griffon Vendéen",
+      "aliases": [
+        "PBGV"
+      ],
+      "popularity": 28461,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Petit Basset Griffon Vendéen"
+    },
+    {
+      "name": "Australian Terrier",
+      "aliases": [],
+      "popularity": 28532,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Australian Terrier"
+    },
+    {
+      "name": "Taiwan Dog",
+      "aliases": [
+        "Formosan Mountain Dog",
+        "Huling Bale",
+        "Huling Seediq",
+        "National Dog",
+        "Taiwan Canis",
+        "Taiwanese Canis",
+        "Taiwanese Dog",
+        "Taiwanese Native Dog",
+        "Takasago Dog"
+      ],
+      "popularity": 28552,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Taiwan Dog"
+    },
+    {
+      "name": "Volpino Italiano",
+      "aliases": [],
+      "popularity": 28651,
+      "rarity": 0.428,
+      "tier": 3,
+      "wiki": "Volpino Italiano"
+    },
+    {
+      "name": "Cirneco dell'Etna",
+      "aliases": [
+        "Etnahund",
+        "Sicilian Greyhound"
+      ],
+      "popularity": 28864,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Cirneco dell'Etna"
+    },
+    {
+      "name": "Shikoku dog",
+      "aliases": [
+        "Kochi Ken",
+        "Shikoku Ken"
+      ],
+      "popularity": 28941,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Shikoku dog"
+    },
+    {
+      "name": "Chongqing dog",
+      "aliases": [
+        "Chinese Chongqing Dog",
+        "Chuandong Hound"
+      ],
+      "popularity": 28973,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Chongqing dog"
+    },
+    {
+      "name": "Mudi",
+      "aliases": [],
+      "popularity": 29115,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Mudi"
+    },
+    {
+      "name": "Wirehaired Vizsla",
+      "aliases": [
+        "Drotzörü Magyar Vizsla"
+      ],
+      "popularity": 29779,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Wirehaired Vizsla"
+    },
+    {
+      "name": "Stabyhoun",
+      "aliases": [
+        "Beike",
+        "Cão de aponte frisão",
+        "Frisian Pointer",
+        "Frisian Pointing Dog",
+        "Perdiguero frisón",
+        "Stabij",
+        "Stabijhoun",
+        "Staby"
+      ],
+      "popularity": 30124,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Stabyhoun"
+    },
+    {
+      "name": "Bavarian Mountain Hound",
+      "aliases": [],
+      "popularity": 30311,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Bavarian Mountain Hound"
+    },
+    {
+      "name": "Aksaray Malaklisi",
+      "aliases": [
+        "Aksaray Malaklısı",
+        "Anatolian Lion",
+        "Anatolian Mastiff",
+        "Malaklı Karabaş",
+        "Turkish Mastiff"
+      ],
+      "popularity": 30359,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Aksaray Malaklisi"
+    },
+    {
+      "name": "Hovawart",
+      "aliases": [],
+      "popularity": 30631,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Hovawart"
+    },
+    {
+      "name": "Alano Español",
+      "aliases": [
+        "Spanish Alano"
+      ],
+      "popularity": 30657,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Alano Español"
+    },
+    {
+      "name": "Icelandic Sheepdog",
+      "aliases": [
+        "Islenskur Fjárhundur"
+      ],
+      "popularity": 30952,
+      "rarity": 0.41,
+      "tier": 3,
+      "wiki": "Icelandic Sheepdog"
+    },
+    {
+      "name": "Malinois dog",
+      "aliases": [
+        "Belgian Shepherd Malinois",
+        "Malinois"
+      ],
+      "popularity": 31383,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Malinois dog"
+    },
+    {
+      "name": "Kai Ken",
+      "aliases": [
+        "Tora Inu"
+      ],
+      "popularity": 31575,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Kai Ken"
+    },
+    {
+      "name": "Welsh Sheepdog",
+      "aliases": [],
+      "popularity": 32351,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Welsh Sheepdog"
+    },
+    {
+      "name": "Entlebucher Mountain Dog",
+      "aliases": [
+        "Entlebuch Mountain Dogs",
+        "Entlebucher Cattle Dogs",
+        "Entlebucher Sennenhund"
+      ],
+      "popularity": 32359,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Entlebucher Mountain Dog"
+    },
+    {
+      "name": "Appenzeller Sennenhund",
+      "aliases": [
+        "Blackberry Pink Justice"
+      ],
+      "popularity": 32472,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Appenzeller Sennenhund"
+    },
+    {
+      "name": "Chippiparai",
+      "aliases": [],
+      "popularity": 33368,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Chippiparai"
+    },
+    {
+      "name": "Basset Fauve de Bretagne",
+      "aliases": [
+        "Fawn Brittany Basset"
+      ],
+      "popularity": 33480,
+      "rarity": 0.399,
+      "tier": 2,
+      "wiki": "Basset Fauve de Bretagne"
+    },
+    {
+      "name": "Tibetan spaniel",
+      "aliases": [],
+      "popularity": 33642,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Tibetan spaniel"
+    },
+    {
+      "name": "Mexican lapdog",
+      "aliases": [
+        "Mexican lap-dog"
+      ],
+      "popularity": 33786,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Mexican lapdog"
+    },
+    {
+      "name": "Pudelpointer",
+      "aliases": [],
+      "popularity": 33956,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Pudelpointer"
+    },
+    {
+      "name": "Berger Picard",
+      "aliases": [
+        "Picardy Shepherd"
+      ],
+      "popularity": 34057,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Berger Picard"
+    },
+    {
+      "name": "English Foxhound",
+      "aliases": [
+        "Foxhound"
+      ],
+      "popularity": 34862,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "English Foxhound"
+    },
+    {
+      "name": "Greek Shepherd",
+      "aliases": [
+        "Greek sheepdodg"
+      ],
+      "popularity": 34896,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Greek Shepherd"
+    },
+    {
+      "name": "Córdoba fighting dog",
+      "aliases": [],
+      "popularity": 35728,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Córdoba fighting dog"
+    },
+    {
+      "name": "Finnish Spitz",
+      "aliases": [
+        "Finnish Hunting Dog",
+        "Finnish Pom"
+      ],
+      "popularity": 36111,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Finnish Spitz"
+    },
+    {
+      "name": "Rafeiro do Alentejo",
+      "aliases": [
+        "Alentejo Herder",
+        "Alentejo Mastiff",
+        "Portuguese Mastiff"
+      ],
+      "popularity": 36127,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Rafeiro do Alentejo"
+    },
+    {
+      "name": "Field Spaniel",
+      "aliases": [],
+      "popularity": 36988,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Field Spaniel"
+    },
+    {
+      "name": "Alapaha Blue Blood Bulldog",
+      "aliases": [],
+      "popularity": 37013,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Alapaha Blue Blood Bulldog"
+    },
+    {
+      "name": "Kerry Blue Terrier",
+      "aliases": [],
+      "popularity": 37389,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Kerry Blue Terrier"
+    },
+    {
+      "name": "English Shepherd",
+      "aliases": [],
+      "popularity": 37807,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "English Shepherd"
+    },
+    {
+      "name": "Japanese Chin",
+      "aliases": [
+        "Chin",
+        "Japanese Spaniel"
+      ],
+      "popularity": 38018,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Japanese Chin"
+    },
+    {
+      "name": "Irish Water Spaniel",
+      "aliases": [],
+      "popularity": 38562,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Irish Water Spaniel"
+    },
+    {
+      "name": "Sloughi",
+      "aliases": [],
+      "popularity": 38775,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Sloughi"
+    },
+    {
+      "name": "Smooth Fox Terrier",
+      "aliases": [],
+      "popularity": 39673,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Smooth Fox Terrier"
+    },
+    {
+      "name": "Welsh Terrier",
+      "aliases": [],
+      "popularity": 39992,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Welsh Terrier"
+    },
+    {
+      "name": "Black and Tan Coonhound",
+      "aliases": [],
+      "popularity": 40386,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Black and Tan Coonhound"
+    },
+    {
+      "name": "Teddy Roosevelt Terrier",
+      "aliases": [],
+      "popularity": 40451,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Teddy Roosevelt Terrier"
+    },
+    {
+      "name": "Spanish Water Dog",
+      "aliases": [
+        "Perro de agua español"
+      ],
+      "popularity": 40565,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Spanish Water Dog"
+    },
+    {
+      "name": "Spanish Mastiff",
+      "aliases": [
+        "mastín Español"
+      ],
+      "popularity": 41078,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "Spanish Mastiff"
+    },
+    {
+      "name": "Welsh Springer Spaniel",
+      "aliases": [],
+      "popularity": 41353,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Welsh Springer Spaniel"
+    },
+    {
+      "name": "Pye-dog",
+      "aliases": [
+        "Pariah dog"
+      ],
+      "popularity": 41609,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Pye-dog"
+    },
+    {
+      "name": "Lakeland Terrier",
+      "aliases": [],
+      "popularity": 41669,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Lakeland Terrier"
+    },
+    {
+      "name": "Calupoh",
+      "aliases": [
+        "Mexican wolfdog",
+        "Perro lobo mexicano"
+      ],
+      "popularity": 41727,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Calupoh"
+    },
+    {
+      "name": "Sealyham Terrier",
+      "aliases": [],
+      "popularity": 41795,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Sealyham Terrier"
+    },
+    {
+      "name": "Norwegian Lundehund",
+      "aliases": [],
+      "popularity": 41944,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Norwegian Lundehund"
+    },
+    {
+      "name": "Otterhound",
+      "aliases": [
+        "Otter hound"
+      ],
+      "popularity": 42168,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "Otterhound"
+    },
+    {
+      "name": "Thai Ridgeback",
+      "aliases": [
+        "Mah Thai Lang Ahn",
+        "Thai Lang-An"
+      ],
+      "popularity": 42287,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Thai Ridgeback"
+    },
+    {
+      "name": "Azawakh",
+      "aliases": [],
+      "popularity": 42427,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Azawakh"
+    },
+    {
+      "name": "Australian Silky Terrier",
+      "aliases": [
+        "Sydney Silky Terrier"
+      ],
+      "popularity": 42465,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Australian Silky Terrier"
+    },
+    {
+      "name": "Himalayan Sheepdog",
+      "aliases": [
+        "Kinnaur Sheepdog"
+      ],
+      "popularity": 42481,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Himalayan Sheepdog"
+    },
+    {
+      "name": "Galgo Español",
+      "aliases": [
+        "Spanish Greyhound"
+      ],
+      "popularity": 42607,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Galgo Español"
+    },
+    {
+      "name": "Spinone Italiano",
+      "aliases": [],
+      "popularity": 43358,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Spinone Italiano"
+    },
+    {
+      "name": "Pyrenean Mastiff",
+      "aliases": [],
+      "popularity": 43558,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Pyrenean Mastiff"
+    },
+    {
+      "name": "Kombai dog",
+      "aliases": [
+        "Combai"
+      ],
+      "popularity": 44360,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Kombai dog"
+    },
+    {
+      "name": "Miniature Bull Terrier",
+      "aliases": [],
+      "popularity": 44468,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Miniature Bull Terrier"
+    },
+    {
+      "name": "Ibizan Hound",
+      "aliases": [
+        "Ibizan Podenco",
+        "Podenco Ibicenco"
+      ],
+      "popularity": 44957,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Ibizan Hound"
+    },
+    {
+      "name": "Saarloos wolfdog",
+      "aliases": [
+        "perro enojón"
+      ],
+      "popularity": 44966,
+      "rarity": 0.334,
+      "tier": 2,
+      "wiki": "Saarloos wolfdog"
+    },
+    {
+      "name": "Continental Toy Spaniel",
+      "aliases": [
+        "Papillon"
+      ],
+      "popularity": 45094,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Continental Toy Spaniel"
+    },
+    {
+      "name": "Molossian hound",
+      "aliases": [
+        "Epirus mastiff",
+        "Molosser",
+        "Molossus"
+      ],
+      "popularity": 45851,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Molossian hound"
+    },
+    {
+      "name": "Bearded Collie",
+      "aliases": [],
+      "popularity": 45895,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Bearded Collie"
+    },
+    {
+      "name": "Glen of Imaal Terrier",
+      "aliases": [],
+      "popularity": 46131,
+      "rarity": 0.328,
+      "tier": 2,
+      "wiki": "Glen of Imaal Terrier"
+    },
+    {
+      "name": "Huntaway",
+      "aliases": [],
+      "popularity": 46801,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Huntaway"
+    },
+    {
+      "name": "Briard",
+      "aliases": [
+        "Berger de Brie"
+      ],
+      "popularity": 46866,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Briard"
+    },
+    {
+      "name": "Manchester Terrier",
+      "aliases": [],
+      "popularity": 46915,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Manchester Terrier"
+    },
+    {
+      "name": "Techichi",
+      "aliases": [],
+      "popularity": 47872,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Techichi"
+    },
+    {
+      "name": "Bolonka",
+      "aliases": [
+        "Russian Tsvetnaya Bolonka",
+        "Russkaya tsvetnaya bolonka"
+      ],
+      "popularity": 48211,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Bolonka"
+    },
+    {
+      "name": "Gordon Setter",
+      "aliases": [],
+      "popularity": 48302,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Gordon Setter"
+    },
+    {
+      "name": "Smooth Collie",
+      "aliases": [],
+      "popularity": 48485,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Smooth Collie"
+    },
+    {
+      "name": "Wirehaired Pointing Griffon",
+      "aliases": [],
+      "popularity": 50697,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Wirehaired Pointing Griffon"
+    },
+    {
+      "name": "Jagdterrier",
+      "aliases": [
+        "German Hunting Terrier"
+      ],
+      "popularity": 51188,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Jagdterrier"
+    },
+    {
+      "name": "Mudhol Hound",
+      "aliases": [],
+      "popularity": 51305,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "Mudhol Hound"
+    },
+    {
+      "name": "Fuegian dog",
+      "aliases": [],
+      "popularity": 51716,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Fuegian dog"
+    },
+    {
+      "name": "Norwich Terrier",
+      "aliases": [],
+      "popularity": 51795,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Norwich Terrier"
+    },
+    {
+      "name": "Norfolk Terrier",
+      "aliases": [
+        "Norfork Terrier"
+      ],
+      "popularity": 52813,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Norfolk Terrier"
+    },
+    {
+      "name": "Standard Schnauzer",
+      "aliases": [
+        "Schnauzer"
+      ],
+      "popularity": 52871,
+      "rarity": 0.305,
+      "tier": 2,
+      "wiki": "Standard Schnauzer"
+    },
+    {
+      "name": "Koolie",
+      "aliases": [],
+      "popularity": 53246,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Koolie"
+    },
+    {
+      "name": "Kokoni",
+      "aliases": [
+        "Small Greek Domestic Dog"
+      ],
+      "popularity": 53575,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Kokoni"
+    },
+    {
+      "name": "Bull Arab",
+      "aliases": [],
+      "popularity": 53649,
+      "rarity": 0.301,
+      "tier": 2,
+      "wiki": "Bull Arab"
+    },
+    {
+      "name": "Peruvian Hairless Dog",
+      "aliases": [
+        "Peruvian Inca Orchid"
+      ],
+      "popularity": 53684,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Peruvian Hairless Dog"
+    },
+    {
+      "name": "White Shepherd",
+      "aliases": [
+        "American white shepherd",
+        "White Canadian Shepherd",
+        "White german shepherd",
+        "White Shepherd Dog"
+      ],
+      "popularity": 54495,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "White Shepherd"
+    },
+    {
+      "name": "Africanis",
+      "aliases": [],
+      "popularity": 54621,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Africanis"
+    },
+    {
+      "name": "Olde English Bulldogge",
+      "aliases": [
+        "OEB"
+      ],
+      "popularity": 55635,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Olde English Bulldogge"
+    },
+    {
+      "name": "Skye Terrier",
+      "aliases": [],
+      "popularity": 55687,
+      "rarity": 0.293,
+      "tier": 2,
+      "wiki": "Skye Terrier"
+    },
+    {
+      "name": "Cardigan Welsh Corgi",
+      "aliases": [],
+      "popularity": 55866,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Cardigan Welsh Corgi"
+    },
+    {
+      "name": "American Foxhound",
+      "aliases": [],
+      "popularity": 56131,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "American Foxhound"
+    },
+    {
+      "name": "Indian Spitz",
+      "aliases": [],
+      "popularity": 56180,
+      "rarity": 0.288,
+      "tier": 2,
+      "wiki": "Indian Spitz"
+    },
+    {
+      "name": "Karakachan dog",
+      "aliases": [],
+      "popularity": 56446,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Karakachan dog"
+    },
+    {
+      "name": "Blue Lacy",
+      "aliases": [],
+      "popularity": 56641,
+      "rarity": 0.285,
+      "tier": 2,
+      "wiki": "Blue Lacy"
+    },
+    {
+      "name": "Rajapalayam dog",
+      "aliases": [
+        "Rajapalayam",
+        "Rajapalayam Hound"
+      ],
+      "popularity": 57541,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Rajapalayam dog"
+    },
+    {
+      "name": "Greenland Dog",
+      "aliases": [],
+      "popularity": 57644,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Greenland Dog"
+    },
+    {
+      "name": "Portuguese Podengo",
+      "aliases": [
+        "Podengo Português",
+        "Portuguese Warren Hound"
+      ],
+      "popularity": 57961,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Portuguese Podengo"
+    },
+    {
+      "name": "Swedish Vallhund",
+      "aliases": [
+        "Länsigöötanmaanpystykorva",
+        "Spitz dos visigodos",
+        "Vallhund sueco",
+        "Vallhund suédois",
+        "Västgötaspets"
+      ],
+      "popularity": 58028,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Swedish Vallhund"
+    },
+    {
+      "name": "Irish Terrier",
+      "aliases": [],
+      "popularity": 58430,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Irish Terrier"
+    },
+    {
+      "name": "Finnish Lapphund",
+      "aliases": [
+        "Finnish Lapponian Dog",
+        "Lapphund"
+      ],
+      "popularity": 58564,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Finnish Lapphund"
+    },
+    {
+      "name": "Hamiltonstövare",
+      "aliases": [
+        "Hamilton Hound",
+        "Swedish Foxhound"
+      ],
+      "popularity": 58940,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Hamiltonstövare"
+    },
+    {
+      "name": "Fila Brasileiro",
+      "aliases": [
+        "Brazilian Mastiff"
+      ],
+      "popularity": 59133,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Fila Brasileiro"
+    },
+    {
+      "name": "Greater Swiss Mountain Dog",
+      "aliases": [
+        "Gran boyero suizo",
+        "Grand bouvier suisse",
+        "Grande bovaro svizzero",
+        "Great Swiss Mountain Dog",
+        "Grosse",
+        "Grosser Schweizer Sennenhund",
+        "Isosveitsinpaimenkoira",
+        "Swissy"
+      ],
+      "popularity": 59164,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Greater Swiss Mountain Dog"
+    },
+    {
+      "name": "Canadian Eskimo Dog",
+      "aliases": [
+        "Canadian Inuit Dog",
+        "Canis familiaris borealis",
+        "Kingmik",
+        "Qinmmik"
+      ],
+      "popularity": 59408,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Canadian Eskimo Dog"
+    },
+    {
+      "name": "Treeing Walker Coonhound",
+      "aliases": [
+        "TWC",
+        "Walker hound"
+      ],
+      "popularity": 60739,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Treeing Walker Coonhound"
+    },
+    {
+      "name": "Kuvasz",
+      "aliases": [],
+      "popularity": 61316,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Kuvasz"
+    },
+    {
+      "name": "Pharaoh Hound",
+      "aliases": [],
+      "popularity": 61523,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Pharaoh Hound"
+    },
+    {
+      "name": "Bracco Italiano",
+      "aliases": [
+        "Braque italien",
+        "Italian Pointer",
+        "Italian Pointing Dog"
+      ],
+      "popularity": 61634,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Bracco Italiano"
+    },
+    {
+      "name": "Akbash",
+      "aliases": [
+        "Akbaş",
+        "Akbash Dog"
+      ],
+      "popularity": 61962,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Akbash"
+    },
+    {
+      "name": "Canaan Dog",
+      "aliases": [],
+      "popularity": 62398,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Canaan Dog"
+    },
+    {
+      "name": "White Swiss Shepherd Dog",
+      "aliases": [
+        "Berger Blanc Suisse",
+        "White Swiss Shepherd"
+      ],
+      "popularity": 62775,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "White Swiss Shepherd Dog"
+    },
+    {
+      "name": "Mountain Cur",
+      "aliases": [],
+      "popularity": 63462,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Mountain Cur"
+    },
+    {
+      "name": "Black Russian Terrier",
+      "aliases": [
+        "Chornyi Terrier",
+        "Tchiorny Terrier"
+      ],
+      "popularity": 63866,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Black Russian Terrier"
+    },
+    {
+      "name": "Nureongi",
+      "aliases": [],
+      "popularity": 64319,
+      "rarity": 0.252,
+      "tier": 2,
+      "wiki": "Nureongi"
+    },
+    {
+      "name": "Dandie Dinmont Terrier",
+      "aliases": [],
+      "popularity": 64372,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Dandie Dinmont Terrier"
+    },
+    {
+      "name": "Tosa",
+      "aliases": [
+        "Japanese Fighting Dog",
+        "Japanese Mastiff",
+        "Japanese Tosa",
+        "Tosa (dog breed)",
+        "Tosa Fighting Dog",
+        "Tosa Inu",
+        "Tosa Tōken"
+      ],
+      "popularity": 65109,
+      "rarity": 0.249,
+      "tier": 2,
+      "wiki": "Tosa (dog breed)"
+    },
+    {
+      "name": "Eurasier",
+      "aliases": [
+        "Eurasian"
+      ],
+      "popularity": 65959,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Eurasier"
+    },
+    {
+      "name": "Šarplaninac",
+      "aliases": [
+        "Sharplanina",
+        "Yugoslavian Shepherd Dog"
+      ],
+      "popularity": 66233,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "Šarplaninac"
+    },
+    {
+      "name": "Redbone Coonhound",
+      "aliases": [],
+      "popularity": 66959,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Redbone Coonhound"
+    },
+    {
+      "name": "Coonhound",
+      "aliases": [],
+      "popularity": 73501,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Coonhound"
+    },
+    {
+      "name": "Bluetick Coonhound",
+      "aliases": [],
+      "popularity": 73637,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Bluetick Coonhound"
+    },
+    {
+      "name": "Bouvier des Flandres",
+      "aliases": [],
+      "popularity": 74198,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Bouvier des Flandres"
+    },
+    {
+      "name": "Tibetan Terrier",
+      "aliases": [],
+      "popularity": 74458,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Tibetan Terrier"
+    },
+    {
+      "name": "Bull and terrier",
+      "aliases": [
+        "Half-and-half"
+      ],
+      "popularity": 74560,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Bull and terrier"
+    },
+    {
+      "name": "American Cocker Spaniel",
+      "aliases": [],
+      "popularity": 74711,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "American Cocker Spaniel"
+    },
+    {
+      "name": "Puli dog",
+      "aliases": [
+        "Puli"
+      ],
+      "popularity": 74741,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Puli dog"
+    },
+    {
+      "name": "Wire Fox Terrier",
+      "aliases": [],
+      "popularity": 74854,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Wire Fox Terrier"
+    },
+    {
+      "name": "Japanese Spitz",
+      "aliases": [],
+      "popularity": 75102,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Japanese Spitz"
+    },
+    {
+      "name": "Brittany Spaniel",
+      "aliases": [
+        "Bretagnenspanieli",
+        "Breton",
+        "Bretoni",
+        "Brittany",
+        "Épagneul breton",
+        "French Brittany",
+        "Spaniel bretão",
+        "Spaniel bretón"
+      ],
+      "popularity": 75453,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Brittany Spaniel"
+    },
+    {
+      "name": "Biewer Terrier",
+      "aliases": [],
+      "popularity": 75812,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Biewer Terrier"
+    },
+    {
+      "name": "Fox Terrier",
+      "aliases": [],
+      "popularity": 76017,
+      "rarity": 0.225,
+      "tier": 2,
+      "wiki": "Fox Terrier"
+    },
+    {
+      "name": "Karelian Bear Dog",
+      "aliases": [
+        "Karelian Bear Laika"
+      ],
+      "popularity": 76802,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Karelian Bear Dog"
+    },
+    {
+      "name": "Chesapeake Bay Retriever",
+      "aliases": [],
+      "popularity": 78238,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Chesapeake Bay Retriever"
+    },
+    {
+      "name": "Silken Windhound",
+      "aliases": [],
+      "popularity": 78711,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Silken Windhound"
+    },
+    {
+      "name": "English Setter",
+      "aliases": [],
+      "popularity": 78734,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "English Setter"
+    },
+    {
+      "name": "German Wirehaired Pointer",
+      "aliases": [],
+      "popularity": 79644,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "German Wirehaired Pointer"
+    },
+    {
+      "name": "Norwegian Elkhound",
+      "aliases": [],
+      "popularity": 82263,
+      "rarity": 0.215,
+      "tier": 2,
+      "wiki": "Norwegian Elkhound"
+    },
+    {
+      "name": "Plott Hound",
+      "aliases": [],
+      "popularity": 83874,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Plott Hound"
+    },
+    {
+      "name": "German Pinscher",
+      "aliases": [
+        "Deutscher Pinscher"
+      ],
+      "popularity": 85223,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "German Pinscher"
+    },
+    {
+      "name": "Parson Russell Terrier",
+      "aliases": [],
+      "popularity": 86643,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Parson Russell Terrier"
+    },
+    {
+      "name": "Boykin Spaniel",
+      "aliases": [],
+      "popularity": 86783,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Boykin Spaniel"
+    },
+    {
+      "name": "Affenpinscher",
+      "aliases": [
+        "Monkey Dog"
+      ],
+      "popularity": 88457,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Affenpinscher"
+    },
+    {
+      "name": "American Eskimo Dog",
+      "aliases": [],
+      "popularity": 89123,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "American Eskimo Dog"
+    },
+    {
+      "name": "Bully Kutta",
+      "aliases": [
+        "Alangu Mastiff",
+        "Indian Mastiff",
+        "Pakistani Mastiff",
+        "Sindh Mastiff"
+      ],
+      "popularity": 89465,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Bully Kutta"
+    },
+    {
+      "name": "Pointer",
+      "aliases": [
+        "English Pointer",
+        "Pointer (dog breed)"
+      ],
+      "popularity": 90538,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Pointer (dog breed)"
+    },
+    {
+      "name": "Scottish Deerhound",
+      "aliases": [],
+      "popularity": 90563,
+      "rarity": 0.201,
+      "tier": 2,
+      "wiki": "Scottish Deerhound"
+    },
+    {
+      "name": "Korean Jindo",
+      "aliases": [
+        "Jindo",
+        "Korean Jindo Dog"
+      ],
+      "popularity": 92044,
+      "rarity": 0.199,
+      "tier": 1,
+      "wiki": "Korean Jindo"
+    },
+    {
+      "name": "Miniature American Shepherd",
+      "aliases": [
+        "American Shepherd",
+        "Mini American",
+        "Mini Aussie",
+        "North American Shepherd"
+      ],
+      "popularity": 92828,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Miniature American Shepherd"
+    },
+    {
+      "name": "Komondor",
+      "aliases": [
+        "Hungarian sheepdog"
+      ],
+      "popularity": 93575,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Komondor"
+    },
+    {
+      "name": "Chinese Crested Dog",
+      "aliases": [],
+      "popularity": 95802,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Chinese Crested Dog"
+    },
+    {
+      "name": "Soft-coated Wheaten Terrier",
+      "aliases": [],
+      "popularity": 95812,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Soft-coated Wheaten Terrier"
+    },
+    {
+      "name": "Kooikerhondje",
+      "aliases": [],
+      "popularity": 99363,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Kooikerhondje"
+    },
+    {
+      "name": "Neapolitan Mastiff",
+      "aliases": [],
+      "popularity": 102917,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Neapolitan Mastiff"
+    },
+    {
+      "name": "Flat-coated Retriever",
+      "aliases": [],
+      "popularity": 103911,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Flat-coated Retriever"
+    },
+    {
+      "name": "Griffon Bruxellois",
+      "aliases": [
+        "Brussels Griffon",
+        "Petit Brabançon"
+      ],
+      "popularity": 104820,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "Griffon Bruxellois"
+    },
+    {
+      "name": "Australian Cobberdog",
+      "aliases": [],
+      "popularity": 105763,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Australian Cobberdog"
+    },
+    {
+      "name": "Old English Sheepdog",
+      "aliases": [
+        "Shepherd's Dog"
+      ],
+      "popularity": 110963,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Old English Sheepdog"
+    },
+    {
+      "name": "Maremmano-Abruzzese Sheepdog",
+      "aliases": [
+        "Abruzzo-Maremma Sheepdog"
+      ],
+      "popularity": 112551,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Maremmano-Abruzzese Sheepdog"
+    },
+    {
+      "name": "Schipperke",
+      "aliases": [],
+      "popularity": 113337,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Schipperke"
+    },
+    {
+      "name": "Patterdale Terrier",
+      "aliases": [],
+      "popularity": 115799,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Patterdale Terrier"
+    },
+    {
+      "name": "Bedlington Terrier",
+      "aliases": [
+        "Rothbury Terrier"
+      ],
+      "popularity": 118412,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "Bedlington Terrier"
+    },
+    {
+      "name": "Collie",
+      "aliases": [],
+      "popularity": 119826,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Collie"
+    },
+    {
+      "name": "King Charles Spaniel",
+      "aliases": [
+        "English Toy Spaniel"
+      ],
+      "popularity": 119854,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "King Charles Spaniel"
+    },
+    {
+      "name": "Keeshond",
+      "aliases": [
+        "Wolfspitz"
+      ],
+      "popularity": 119989,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Keeshond"
+    },
+    {
+      "name": "German Spitz",
+      "aliases": [],
+      "popularity": 122825,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "German Spitz"
+    },
+    {
+      "name": "Clumber Spaniel",
+      "aliases": [],
+      "popularity": 126746,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Clumber Spaniel"
+    },
+    {
+      "name": "Dutch Shepherd",
+      "aliases": [
+        "Dutch Shepherd Dog",
+        "Hollandse Herdershond"
+      ],
+      "popularity": 129519,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Dutch Shepherd"
+    },
+    {
+      "name": "Alaskan Klee Kai",
+      "aliases": [],
+      "popularity": 129972,
+      "rarity": 0.166,
+      "tier": 1,
+      "wiki": "Alaskan Klee Kai"
+    },
+    {
+      "name": "Border Terrier",
+      "aliases": [],
+      "popularity": 131212,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Border Terrier"
+    },
+    {
+      "name": "Dogue de Bordeaux",
+      "aliases": [
+        "Bordeaux dog",
+        "French Mastiff"
+      ],
+      "popularity": 132376,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Dogue de Bordeaux"
+    },
+    {
+      "name": "Italian Greyhound",
+      "aliases": [],
+      "popularity": 135444,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Italian Greyhound"
+    },
+    {
+      "name": "New Guinea singing dog",
+      "aliases": [],
+      "popularity": 138247,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "New Guinea singing dog"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "aliases": [
+        "Sheltie"
+      ],
+      "popularity": 140529,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Shetland Sheepdog"
+    },
+    {
+      "name": "Pembroke Welsh Corgi",
+      "aliases": [],
+      "popularity": 142013,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Pembroke Welsh Corgi"
+    },
+    {
+      "name": "Rough Collie",
+      "aliases": [],
+      "popularity": 142620,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Rough Collie"
+    },
+    {
+      "name": "Irish Setter",
+      "aliases": [
+        "Red Setter"
+      ],
+      "popularity": 142870,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Irish Setter"
+    },
+    {
+      "name": "Portuguese Water Dog",
+      "aliases": [],
+      "popularity": 143544,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Portuguese Water Dog"
+    },
+    {
+      "name": "Giant Schnauzer",
+      "aliases": [
+        "Munich Schnauzer"
+      ],
+      "popularity": 145558,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Giant Schnauzer"
+    },
+    {
+      "name": "Coton de Tulear",
+      "aliases": [],
+      "popularity": 147376,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Coton de Tulear"
+    },
+    {
+      "name": "Scottish Terrier",
+      "aliases": [
+        "Aberdeen Terrier",
+        "Scottie",
+        "Scotty Dog"
+      ],
+      "popularity": 148160,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Scottish Terrier"
+    },
+    {
+      "name": "Rat Terrier",
+      "aliases": [],
+      "popularity": 148380,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Rat Terrier"
+    },
+    {
+      "name": "Central Asian Shepherd Dog",
+      "aliases": [
+        "Alabai",
+        "CAO",
+        "Central Asia Ovcharka",
+        "Central Asian Shepherd"
+      ],
+      "popularity": 149010,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Central Asian Shepherd Dog"
+    },
+    {
+      "name": "American Bulldog",
+      "aliases": [],
+      "popularity": 149621,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "American Bulldog"
+    },
+    {
+      "name": "Miniature Pinscher",
+      "aliases": [
+        "Minpin"
+      ],
+      "popularity": 155955,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "Miniature Pinscher"
+    },
+    {
+      "name": "English Cocker Spaniel",
+      "aliases": [],
+      "popularity": 156016,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "English Cocker Spaniel"
+    },
+    {
+      "name": "Lagotto Romagnolo",
+      "aliases": [
+        "Italian Truffle Dog",
+        "Romagna Water Dog"
+      ],
+      "popularity": 161886,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Lagotto Romagnolo"
+    },
+    {
+      "name": "Carolina Dog",
+      "aliases": [
+        "American dingo",
+        "Dixie dingo",
+        "North American native dog"
+      ],
+      "popularity": 162172,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Carolina Dog"
+    },
+    {
+      "name": "Cairn Terrier",
+      "aliases": [],
+      "popularity": 164313,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Cairn Terrier"
+    },
+    {
+      "name": "Airedale Terrier",
+      "aliases": [],
+      "popularity": 164314,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Airedale Terrier"
+    },
+    {
+      "name": "Beauceron",
+      "aliases": [
+        "Bas rouge",
+        "Beaucenpaimenkoira",
+        "Berger de Beauce",
+        "Boseron",
+        "Boseronas",
+        "Cane da pastore di Beauce",
+        "Pastor de Beauce"
+      ],
+      "popularity": 164531,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Beauceron"
+    },
+    {
+      "name": "Bullmastiff",
+      "aliases": [
+        "English Bullmastiff"
+      ],
+      "popularity": 166517,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Bullmastiff"
+    },
+    {
+      "name": "German Shorthaired Pointer",
+      "aliases": [
+        "German Shorthair Pointer"
+      ],
+      "popularity": 168398,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "German Shorthaired Pointer"
+    },
+    {
+      "name": "Mongrel",
+      "aliases": [
+        "mongrel dog",
+        "mongrel dogs",
+        "mongrels",
+        "muts",
+        "mutt",
+        "mutts"
+      ],
+      "popularity": 168556,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Mongrel"
+    },
+    {
+      "name": "Boxer",
+      "aliases": [
+        "Boxer (dog breed)",
+        "Deutscher Boxer",
+        "German Boxer"
+      ],
+      "popularity": 170385,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Boxer (dog breed)"
+    },
+    {
+      "name": "English Springer Spaniel",
+      "aliases": [],
+      "popularity": 170576,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "English Springer Spaniel"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "aliases": [
+        "Poltallock Terrier",
+        "Westie"
+      ],
+      "popularity": 178784,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "West Highland White Terrier"
+    },
+    {
+      "name": "Czechoslovakian Wolfdog",
+      "aliases": [],
+      "popularity": 182496,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Czechoslovakian Wolfdog"
+    },
+    {
+      "name": "Afghan Hound",
+      "aliases": [],
+      "popularity": 183955,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Afghan Hound"
+    },
+    {
+      "name": "Shar Pei",
+      "aliases": [
+        "Shar-Pei dog"
+      ],
+      "popularity": 197209,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Shar Pei"
+    },
+    {
+      "name": "Leonberger",
+      "aliases": [],
+      "popularity": 202179,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Leonberger"
+    },
+    {
+      "name": "Miniature Schnauzer",
+      "aliases": [],
+      "popularity": 204566,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Miniature Schnauzer"
+    },
+    {
+      "name": "Boston Terrier",
+      "aliases": [],
+      "popularity": 205341,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Boston Terrier"
+    },
+    {
+      "name": "English Mastiff",
+      "aliases": [
+        "British Mastiff",
+        "Mastiff",
+        "Old English Mastiff"
+      ],
+      "popularity": 206266,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "English Mastiff"
+    },
+    {
+      "name": "Catahoula Leopard Dog",
+      "aliases": [
+        "Catahoula Cur",
+        "Louisiana Catahoula Leopard Dog"
+      ],
+      "popularity": 214810,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "Catahoula Leopard Dog"
+    },
+    {
+      "name": "Whippet",
+      "aliases": [
+        "English Whippet",
+        "Snap dog"
+      ],
+      "popularity": 217112,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Whippet"
+    },
+    {
+      "name": "Maltese dog",
+      "aliases": [
+        "Maltese",
+        "Maltese terrier"
+      ],
+      "popularity": 222489,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Maltese dog"
+    },
+    {
+      "name": "Weimaraner",
+      "aliases": [
+        "Braco de Weimar",
+        "Braque de Weimar",
+        "Grey Ghost"
+      ],
+      "popularity": 223268,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Weimaraner"
+    },
+    {
+      "name": "Pyrenean Mountain Dog",
+      "aliases": [
+        "Great Pyrenees"
+      ],
+      "popularity": 225048,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "Pyrenean Mountain Dog"
+    },
+    {
+      "name": "Tibetan Mastiff",
+      "aliases": [
+        "Do-Khyi"
+      ],
+      "popularity": 225558,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Tibetan Mastiff"
+    },
+    {
+      "name": "Bloodhound",
+      "aliases": [
+        "Saint Hubert's dog"
+      ],
+      "popularity": 225695,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "Bloodhound"
+    },
+    {
+      "name": "American Staffordshire Terrier",
+      "aliases": [
+        "AmStaff",
+        "AST"
+      ],
+      "popularity": 225949,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "American Staffordshire Terrier"
+    },
+    {
+      "name": "Basset Hound",
+      "aliases": [],
+      "popularity": 226314,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Basset Hound"
+    },
+    {
+      "name": "Lhasa Apso",
+      "aliases": [],
+      "popularity": 228755,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Lhasa Apso"
+    },
+    {
+      "name": "Black Mouth Cur",
+      "aliases": [
+        "Blackmouth Cur"
+      ],
+      "popularity": 229120,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Black Mouth Cur"
+    },
+    {
+      "name": "Caucasian Shepherd Dog",
+      "aliases": [
+        "Caucasian Mountain Dog"
+      ],
+      "popularity": 229853,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Caucasian Shepherd Dog"
+    },
+    {
+      "name": "Dalmatian dog",
+      "aliases": [
+        "Dalmatian"
+      ],
+      "popularity": 229955,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Dalmatian dog"
+    },
+    {
+      "name": "Australian Kelpie",
+      "aliases": [],
+      "popularity": 232706,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Australian Kelpie"
+    },
+    {
+      "name": "Pekingese",
+      "aliases": [
+        "Pekinese"
+      ],
+      "popularity": 236220,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Pekingese"
+    },
+    {
+      "name": "Dogo Argentino",
+      "aliases": [
+        "Argentine Dogo",
+        "Argentine Mastiff",
+        "Argentinian Mastiff",
+        "Dogo"
+      ],
+      "popularity": 236727,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Dogo Argentino"
+    },
+    {
+      "name": "Saluki",
+      "aliases": [],
+      "popularity": 237533,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Saluki"
+    },
+    {
+      "name": "Yorkshire Terrier",
+      "aliases": [
+        "Yorkie",
+        "Yorkie Terrier"
+      ],
+      "popularity": 241078,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Yorkshire Terrier"
+    },
+    {
+      "name": "Basenji",
+      "aliases": [],
+      "popularity": 241828,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Basenji"
+    },
+    {
+      "name": "Havanese dog",
+      "aliases": [
+        "Havanese",
+        "Havanese Bichon"
+      ],
+      "popularity": 243063,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Havanese dog"
+    },
+    {
+      "name": "Nova Scotia Duck Tolling Retriever",
+      "aliases": [],
+      "popularity": 243283,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Nova Scotia Duck Tolling Retriever"
+    },
+    {
+      "name": "Bichon Frisé",
+      "aliases": [],
+      "popularity": 248068,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Bichon Frisé"
+    },
+    {
+      "name": "Welsh Corgi",
+      "aliases": [
+        "Corgi"
+      ],
+      "popularity": 248198,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Welsh Corgi"
+    },
+    {
+      "name": "Newfoundland dog",
+      "aliases": [],
+      "popularity": 250151,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Newfoundland dog"
+    },
+    {
+      "name": "Greyhound",
+      "aliases": [],
+      "popularity": 256417,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Greyhound"
+    },
+    {
+      "name": "Presa Canario",
+      "aliases": [
+        "Canary Dog",
+        "Canary Mastiff",
+        "Dogo Canario",
+        "Perro de Presa Canario",
+        "Presa"
+      ],
+      "popularity": 258336,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Presa Canario"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "aliases": [
+        "Malamute"
+      ],
+      "popularity": 267749,
+      "rarity": 0.066,
+      "tier": 1,
+      "wiki": "Alaskan Malamute"
+    },
+    {
+      "name": "Siberian Husky",
+      "aliases": [
+        "Huskie",
+        "Husky"
+      ],
+      "popularity": 281350,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Siberian Husky"
+    },
+    {
+      "name": "St. Bernard",
+      "aliases": [
+        "Bernhardiner",
+        "St. Bernard dog",
+        "St. Bernard (dog breed)"
+      ],
+      "popularity": 283706,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "St. Bernard (dog breed)"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "aliases": [],
+      "popularity": 289691,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Cocker Spaniel"
+    },
+    {
+      "name": "Boerboel",
+      "aliases": [
+        "African Boerboel",
+        "African Mastiff",
+        "Boerbol",
+        "Boerbull",
+        "South African Boerboel",
+        "South African Mastiff"
+      ],
+      "popularity": 296038,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Boerboel"
+    },
+    {
+      "name": "Akita",
+      "aliases": [
+        "Akita (dog breed)",
+        "Akita Inu",
+        "Japanese Akita",
+        "Japanese Akitainu"
+      ],
+      "popularity": 303822,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Akita (dog breed)"
+    },
+    {
+      "name": "Borzoi",
+      "aliases": [
+        "Barzoi",
+        "Borzaya",
+        "Russian Wolfhound"
+      ],
+      "popularity": 308307,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Borzoi"
+    },
+    {
+      "name": "Xoloitzcuintle",
+      "aliases": [
+        "Mexican Hairless Dog",
+        "Xolo",
+        "Xoloitzquintle"
+      ],
+      "popularity": 316686,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "Xoloitzcuintle"
+    },
+    {
+      "name": "Bull Terrier",
+      "aliases": [
+        "English Bull Terrier",
+        "Hinks Bull Terrier"
+      ],
+      "popularity": 319017,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Bull Terrier"
+    },
+    {
+      "name": "Irish Wolfhound",
+      "aliases": [],
+      "popularity": 319702,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Irish Wolfhound"
+    },
+    {
+      "name": "Bulldog",
+      "aliases": [
+        "British Bulldog",
+        "English Bulldog"
+      ],
+      "popularity": 321620,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "Bulldog"
+    },
+    {
+      "name": "French Bulldog",
+      "aliases": [
+        "Frenchie"
+      ],
+      "popularity": 339220,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "French Bulldog"
+    },
+    {
+      "name": "Pug",
+      "aliases": [
+        "carlin",
+        "mops"
+      ],
+      "popularity": 346955,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Pug"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "aliases": [
+        "Cavalier",
+        "Cavi",
+        "CKCS"
+      ],
+      "popularity": 354859,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Cavalier King Charles Spaniel"
+    },
+    {
+      "name": "Staffordshire Bull Terrier",
+      "aliases": [
+        "Staffbull",
+        "Staffie",
+        "Staffy"
+      ],
+      "popularity": 360304,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Staffordshire Bull Terrier"
+    },
+    {
+      "name": "Australian Shepherd",
+      "aliases": [
+        "Aussie"
+      ],
+      "popularity": 382306,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Australian Shepherd"
+    },
+    {
+      "name": "Vizsla",
+      "aliases": [
+        "Hungarian Vizsla"
+      ],
+      "popularity": 385373,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Vizsla"
+    },
+    {
+      "name": "American Pit Bull Terrier",
+      "aliases": [
+        "APBT",
+        "Pit Bull"
+      ],
+      "popularity": 386310,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "American Pit Bull Terrier"
+    },
+    {
+      "name": "Dobermann",
+      "aliases": [
+        "Doberman",
+        "Doberman Pinscher",
+        "Dobermann Pinscher"
+      ],
+      "popularity": 387343,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Dobermann"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "aliases": [
+        "African Lion Dog",
+        "Van Rooyen's Lion Dog"
+      ],
+      "popularity": 388258,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Rhodesian Ridgeback"
+    },
+    {
+      "name": "Jack Russell Terrier",
+      "aliases": [],
+      "popularity": 388479,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Jack Russell Terrier"
+    },
+    {
+      "name": "Great Dane",
+      "aliases": [
+        "Deutsche Dogge",
+        "German Mastiff"
+      ],
+      "popularity": 401100,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Great Dane"
+    },
+    {
+      "name": "Poodle",
+      "aliases": [],
+      "popularity": 404664,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Poodle"
+    },
+    {
+      "name": "Beagle",
+      "aliases": [],
+      "popularity": 413640,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Beagle"
+    },
+    {
+      "name": "American Bully",
+      "aliases": [
+        "Bully",
+        "Bully dog"
+      ],
+      "popularity": 414311,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "American Bully"
+    },
+    {
+      "name": "Samoyed dog",
+      "aliases": [
+        "Bjelkier",
+        "Sammy",
+        "Samoyed"
+      ],
+      "popularity": 424211,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Samoyed dog"
+    },
+    {
+      "name": "Chow Chow",
+      "aliases": [
+        "Chow"
+      ],
+      "popularity": 438034,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Chow Chow"
+    },
+    {
+      "name": "Kangal Shepherd Dog",
+      "aliases": [
+        "Kangal",
+        "Kangal Dog",
+        "Sivas Kangal Dog"
+      ],
+      "popularity": 447152,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Kangal Shepherd Dog"
+    },
+    {
+      "name": "Australian Cattle Dog",
+      "aliases": [
+        "ACD",
+        "Australian Heeler",
+        "Blue Heeler",
+        "Cattle Dog",
+        "Heeler",
+        "Queensland Heeler",
+        "Red Heeler"
+      ],
+      "popularity": 459531,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Australian Cattle Dog"
+    },
+    {
+      "name": "Border Collie",
+      "aliases": [],
+      "popularity": 462606,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Border Collie"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "aliases": [
+        "Berner Sennenhund"
+      ],
+      "popularity": 490696,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Bernese Mountain Dog"
+    },
+    {
+      "name": "Belgian Shepherd",
+      "aliases": [
+        "Belgian Shepherd Dog",
+        "Belgian Tervuren"
+      ],
+      "popularity": 511813,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Belgian Shepherd"
+    },
+    {
+      "name": "Shih Tzu",
+      "aliases": [
+        "Xi Shi",
+        "Xishi"
+      ],
+      "popularity": 529359,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Shih Tzu"
+    },
+    {
+      "name": "Shiba Inu",
+      "aliases": [],
+      "popularity": 543878,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Shiba Inu"
+    },
+    {
+      "name": "Chihuahua",
+      "aliases": [
+        "Chihuahua (dog breed)",
+        "Chihuahueño"
+      ],
+      "popularity": 607278,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Chihuahua (dog breed)"
+    },
+    {
+      "name": "Dingo",
+      "aliases": [
+        "Canis dingo",
+        "Canis familiaris dingo",
+        "Canis lupus dingo"
+      ],
+      "popularity": 624064,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Dingo"
+    },
+    {
+      "name": "Labrador Retriever",
+      "aliases": [
+        "Lab",
+        "Labrador"
+      ],
+      "popularity": 649509,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Labrador Retriever"
+    },
+    {
+      "name": "Rottweiler",
+      "aliases": [
+        "Rottie"
+      ],
+      "popularity": 669347,
+      "rarity": 0.006,
+      "tier": 1,
+      "wiki": "Rottweiler"
+    },
+    {
+      "name": "Golden Retriever",
+      "aliases": [
+        "Golden",
+        "Goldie"
+      ],
+      "popularity": 707101,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Golden Retriever"
+    },
+    {
+      "name": "German Shepherd",
+      "aliases": [
+        "Alsatian",
+        "Alsatian dog",
+        "Alsatian wolf dog",
+        "Berger Allemand",
+        "Deutscher Schäferhund",
+        "German Shepherd Dog",
+        "GSD",
+        "Schäferhund"
+      ],
+      "popularity": 722132,
+      "rarity": 0.003,
+      "tier": 1,
+      "wiki": "German Shepherd"
+    },
+    {
+      "name": "Dachshund",
+      "aliases": [
+        "badger dog",
+        "dackel",
+        "sausage dog",
+        "teckel",
+        "wiener dog"
+      ],
+      "popularity": 967750,
+      "rarity": 0.002,
+      "tier": 1,
+      "wiki": "Dachshund"
+    },
+    {
+      "name": "Cane Corso",
+      "aliases": [
+        "Cane Corso Italiano",
+        "Corso",
+        "Italian Cane Corso",
+        "Italian Corso",
+        "Italian Corso Dog"
+      ],
+      "popularity": 1121530,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Cane Corso"
+    }
+  ]
+}

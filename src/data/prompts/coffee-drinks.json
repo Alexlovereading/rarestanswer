@@ -1,0 +1,428 @@
+{
+  "id": "coffee-drinks",
+  "slug": "coffee-drinks",
+  "category": "food",
+  "question": "Name a coffee drink",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Mustang coffee",
+      "aliases": [],
+      "popularity": 704,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Mustang coffee"
+    },
+    {
+      "name": "Nitro cold brew coffee",
+      "aliases": [],
+      "popularity": 3022,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Nitro cold brew coffee"
+    },
+    {
+      "name": "Black coffee",
+      "aliases": [],
+      "popularity": 3256,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Black coffee"
+    },
+    {
+      "name": "Mırra",
+      "aliases": [],
+      "popularity": 3347,
+      "rarity": 0.93,
+      "tier": 6,
+      "wiki": "Mırra"
+    },
+    {
+      "name": "Espressino",
+      "aliases": [],
+      "popularity": 4389,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Espressino"
+    },
+    {
+      "name": "Net-filter coffee",
+      "aliases": [
+        "ca phe vot",
+        "cloth-filtered coffee",
+        "net coffee",
+        "racket coffee",
+        "stocking coffee"
+      ],
+      "popularity": 5944,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Net-filter coffee"
+    },
+    {
+      "name": "Karsk",
+      "aliases": [],
+      "popularity": 6332,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Karsk"
+    },
+    {
+      "name": "Kopi tubruk",
+      "aliases": [],
+      "popularity": 6399,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Kopi tubruk"
+    },
+    {
+      "name": "Café Touba",
+      "aliases": [],
+      "popularity": 7955,
+      "rarity": 0.814,
+      "tier": 5,
+      "wiki": "Café Touba"
+    },
+    {
+      "name": "Asiático",
+      "aliases": [],
+      "popularity": 8372,
+      "rarity": 0.791,
+      "tier": 4,
+      "wiki": "Asiático"
+    },
+    {
+      "name": "Ipoh white coffee",
+      "aliases": [],
+      "popularity": 14860,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Ipoh white coffee"
+    },
+    {
+      "name": "Mazagran",
+      "aliases": [
+        "café masagran",
+        "café mazagran",
+        "masagran",
+        "Mazagran (drink)"
+      ],
+      "popularity": 16547,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Mazagran (drink)"
+    },
+    {
+      "name": "Milk coffee",
+      "aliases": [
+        "coffee with milk"
+      ],
+      "popularity": 20320,
+      "rarity": 0.721,
+      "tier": 4,
+      "wiki": "Milk coffee"
+    },
+    {
+      "name": "Coffee in Italy",
+      "aliases": [
+        "caffè",
+        "Italian coffee"
+      ],
+      "popularity": 20859,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Coffee in Italy"
+    },
+    {
+      "name": "Liqueur coffee",
+      "aliases": [
+        "coffee cocktail"
+      ],
+      "popularity": 22317,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Liqueur coffee"
+    },
+    {
+      "name": "Bicerin",
+      "aliases": [],
+      "popularity": 24585,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Bicerin"
+    },
+    {
+      "name": "Marocchino",
+      "aliases": [],
+      "popularity": 25332,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Marocchino"
+    },
+    {
+      "name": "Long black",
+      "aliases": [],
+      "popularity": 31961,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Long black"
+    },
+    {
+      "name": "Kopi",
+      "aliases": [
+        "Kopi (drink)",
+        "Kopi O"
+      ],
+      "popularity": 38503,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Kopi (drink)"
+    },
+    {
+      "name": "Café con leche",
+      "aliases": [],
+      "popularity": 41795,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Café con leche"
+    },
+    {
+      "name": "Café de olla",
+      "aliases": [],
+      "popularity": 43980,
+      "rarity": 0.535,
+      "tier": 3,
+      "wiki": "Café de olla"
+    },
+    {
+      "name": "Indian filter coffee",
+      "aliases": [
+        "Kaapi"
+      ],
+      "popularity": 44334,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Indian filter coffee"
+    },
+    {
+      "name": "Raf coffee",
+      "aliases": [
+        "Raf",
+        "Raph",
+        "Raph Coffee"
+      ],
+      "popularity": 44468,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "Raf coffee"
+    },
+    {
+      "name": "Camp Coffee",
+      "aliases": [],
+      "popularity": 45163,
+      "rarity": 0.465,
+      "tier": 3,
+      "wiki": "Camp Coffee"
+    },
+    {
+      "name": "Cuban espresso",
+      "aliases": [
+        "Café cubano"
+      ],
+      "popularity": 46735,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Cuban espresso"
+    },
+    {
+      "name": "Pumpkin spice latte",
+      "aliases": [
+        "PSL",
+        "pumpkin spice lattes"
+      ],
+      "popularity": 51250,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Pumpkin spice latte"
+    },
+    {
+      "name": "Egg coffee",
+      "aliases": [],
+      "popularity": 51275,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Egg coffee"
+    },
+    {
+      "name": "Yuenyeung",
+      "aliases": [
+        "coffee with tea",
+        "yuanyang"
+      ],
+      "popularity": 51570,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Yuenyeung"
+    },
+    {
+      "name": "Caffè crema",
+      "aliases": [],
+      "popularity": 57658,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Caffè crema"
+    },
+    {
+      "name": "Iced coffee",
+      "aliases": [
+        "ice coffee"
+      ],
+      "popularity": 64495,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Iced coffee"
+    },
+    {
+      "name": "Latte macchiato",
+      "aliases": [
+        "Caramel macchiato"
+      ],
+      "popularity": 70114,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Latte macchiato"
+    },
+    {
+      "name": "Instant coffee",
+      "aliases": [
+        "coffee crystals",
+        "coffee powder",
+        "soluble coffee"
+      ],
+      "popularity": 70741,
+      "rarity": 0.279,
+      "tier": 2,
+      "wiki": "Instant coffee"
+    },
+    {
+      "name": "Frappé coffee",
+      "aliases": [
+        "café frappé",
+        "frappé"
+      ],
+      "popularity": 85055,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Frappé coffee"
+    },
+    {
+      "name": "Frappuccino",
+      "aliases": [],
+      "popularity": 85279,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Frappuccino"
+    },
+    {
+      "name": "Black Russian",
+      "aliases": [],
+      "popularity": 86727,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Black Russian"
+    },
+    {
+      "name": "Caffè macchiato",
+      "aliases": [
+        "macchiato"
+      ],
+      "popularity": 105895,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "Caffè macchiato"
+    },
+    {
+      "name": "Cold brew coffee",
+      "aliases": [
+        "cold drip",
+        "cold press coffee",
+        "Dutch coffee",
+        "Kyoto style cold brew"
+      ],
+      "popularity": 108191,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Cold brew coffee"
+    },
+    {
+      "name": "Vietnamese iced coffee",
+      "aliases": [
+        "Vietnamese coffee"
+      ],
+      "popularity": 127167,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "Vietnamese iced coffee"
+    },
+    {
+      "name": "Caffè mocha",
+      "aliases": [
+        "cafè mocha",
+        "mocha",
+        "mochachino"
+      ],
+      "popularity": 154438,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Caffè mocha"
+    },
+    {
+      "name": "Latte",
+      "aliases": [
+        "cafe latte",
+        "caffè e latte",
+        "caffè latte",
+        "caffellate",
+        "Lattes"
+      ],
+      "popularity": 166595,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Latte"
+    },
+    {
+      "name": "Cortado",
+      "aliases": [],
+      "popularity": 183975,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Cortado"
+    },
+    {
+      "name": "Flat white",
+      "aliases": [],
+      "popularity": 221739,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Flat white"
+    },
+    {
+      "name": "Cappuccino",
+      "aliases": [
+        "Kapuziner"
+      ],
+      "popularity": 221822,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Cappuccino"
+    },
+    {
+      "name": "Coffee",
+      "aliases": [],
+      "popularity": 566793,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Coffee"
+    }
+  ]
+}

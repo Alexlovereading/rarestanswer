@@ -1,0 +1,361 @@
+{
+  "id": "spielberg-films",
+  "slug": "spielberg-films",
+  "category": "screen",
+  "question": "Name a Steven Spielberg film",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Savage",
+      "aliases": [
+        "Savage (1973 TV film)"
+      ],
+      "popularity": 5701,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Savage (1973 TV film)"
+    },
+    {
+      "name": "Something Evil",
+      "aliases": [],
+      "popularity": 14224,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Something Evil"
+    },
+    {
+      "name": "Amblin'",
+      "aliases": [],
+      "popularity": 32470,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Amblin'"
+    },
+    {
+      "name": "Minority Report",
+      "aliases": [],
+      "popularity": 89145,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Minority Report"
+    },
+    {
+      "name": "Firelight",
+      "aliases": [
+        "Firelight (1964 film)"
+      ],
+      "popularity": 109668,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "Firelight (1964 film)"
+    },
+    {
+      "name": "The Sugarland Express",
+      "aliases": [
+        "Sugarland Express"
+      ],
+      "popularity": 182269,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "The Sugarland Express"
+    },
+    {
+      "name": "Always",
+      "aliases": [
+        "Always (1989 film)"
+      ],
+      "popularity": 221450,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Always (1989 film)"
+    },
+    {
+      "name": "War Horse",
+      "aliases": [
+        "War Horse (film)"
+      ],
+      "popularity": 358485,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "War Horse (film)"
+    },
+    {
+      "name": "Amistad",
+      "aliases": [
+        "Amistad (film)"
+      ],
+      "popularity": 376898,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Amistad (film)"
+    },
+    {
+      "name": "Duel",
+      "aliases": [
+        "Duel (1971 film)"
+      ],
+      "popularity": 428788,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Duel (1971 film)"
+    },
+    {
+      "name": "The Post",
+      "aliases": [
+        "Post",
+        "Post (film)",
+        "The Post (film)"
+      ],
+      "popularity": 458609,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "The Post (film)"
+    },
+    {
+      "name": "The Adventures of Tintin",
+      "aliases": [
+        "Adventures of Tintin",
+        "Adventures of Tintin (film)",
+        "The Adventures of Tintin (film)"
+      ],
+      "popularity": 478371,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "The Adventures of Tintin (film)"
+    },
+    {
+      "name": "Twilight Zone: The Movie",
+      "aliases": [],
+      "popularity": 484684,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Twilight Zone: The Movie"
+    },
+    {
+      "name": "The Color Purple",
+      "aliases": [
+        "Color Purple",
+        "Color Purple (1985 film)",
+        "The Color Purple (1985 film)"
+      ],
+      "popularity": 513881,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "The Color Purple (1985 film)"
+    },
+    {
+      "name": "West Side Story",
+      "aliases": [
+        "West Side Story (2021 film)"
+      ],
+      "popularity": 578059,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "West Side Story (2021 film)"
+    },
+    {
+      "name": "Indiana Jones and the Kingdom of the Crystal Skull",
+      "aliases": [],
+      "popularity": 591855,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Indiana Jones and the Kingdom of the Crystal Skull"
+    },
+    {
+      "name": "Munich",
+      "aliases": [
+        "Munich (2005 film)"
+      ],
+      "popularity": 593230,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Munich (2005 film)"
+    },
+    {
+      "name": "Bridge of Spies",
+      "aliases": [
+        "Bridge of Spies (film)"
+      ],
+      "popularity": 596497,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Bridge of Spies (film)"
+    },
+    {
+      "name": "Lincoln",
+      "aliases": [
+        "Lincoln (film)"
+      ],
+      "popularity": 626297,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Lincoln (film)"
+    },
+    {
+      "name": "Hook",
+      "aliases": [
+        "Hook (film)"
+      ],
+      "popularity": 650292,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "Hook (film)"
+    },
+    {
+      "name": "Indiana Jones and the Temple of Doom",
+      "aliases": [],
+      "popularity": 670073,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "Indiana Jones and the Temple of Doom"
+    },
+    {
+      "name": "Indiana Jones and the Last Crusade",
+      "aliases": [],
+      "popularity": 671923,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Indiana Jones and the Last Crusade"
+    },
+    {
+      "name": "The Lost World: Jurassic Park",
+      "aliases": [],
+      "popularity": 714912,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "The Lost World: Jurassic Park"
+    },
+    {
+      "name": "The Fabelmans",
+      "aliases": [
+        "Fabelmans"
+      ],
+      "popularity": 719027,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "The Fabelmans"
+    },
+    {
+      "name": "War of the Worlds",
+      "aliases": [
+        "War of the Worlds (2005 film)"
+      ],
+      "popularity": 747294,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "War of the Worlds (2005 film)"
+    },
+    {
+      "name": "Empire of the Sun",
+      "aliases": [
+        "Empire of the Sun (film)"
+      ],
+      "popularity": 756671,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Empire of the Sun (film)"
+    },
+    {
+      "name": "Close Encounters of the Third Kind",
+      "aliases": [],
+      "popularity": 764081,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Close Encounters of the Third Kind"
+    },
+    {
+      "name": "A.I. Artificial Intelligence",
+      "aliases": [],
+      "popularity": 823994,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "A.I. Artificial Intelligence"
+    },
+    {
+      "name": "Ready Player One",
+      "aliases": [
+        "Ready Player One (film)"
+      ],
+      "popularity": 887189,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Ready Player One (film)"
+    },
+    {
+      "name": "The Terminal",
+      "aliases": [
+        "Terminal"
+      ],
+      "popularity": 913473,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "The Terminal"
+    },
+    {
+      "name": "E.T. the Extra-Terrestrial",
+      "aliases": [],
+      "popularity": 947694,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "E.T. the Extra-Terrestrial"
+    },
+    {
+      "name": "Raiders of the Lost Ark",
+      "aliases": [],
+      "popularity": 1122101,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Raiders of the Lost Ark"
+    },
+    {
+      "name": "Jaws",
+      "aliases": [
+        "Jaws (film)"
+      ],
+      "popularity": 1165739,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Jaws (film)"
+    },
+    {
+      "name": "Saving Private Ryan",
+      "aliases": [],
+      "popularity": 1261290,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "Saving Private Ryan"
+    },
+    {
+      "name": "Catch Me If You Can",
+      "aliases": [],
+      "popularity": 1326951,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Catch Me If You Can"
+    },
+    {
+      "name": "Schindler's List",
+      "aliases": [],
+      "popularity": 1442231,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Schindler's List"
+    },
+    {
+      "name": "Jurassic Park",
+      "aliases": [],
+      "popularity": 1659235,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Jurassic Park"
+    },
+    {
+      "name": "Disclosure Day",
+      "aliases": [],
+      "popularity": 7749925,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Disclosure Day"
+    }
+  ]
+}

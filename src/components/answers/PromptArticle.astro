@@ -23,8 +23,9 @@ interface Props {
 const { prompt } = Astro.props;
 const ui = getUi(defaultLocale);
 const label = categoryLabel(prompt.category);
-const related = relatedPrompts(prompt);
-const shown = related.slice(0, 6);
+const shown = relatedPrompts(prompt);
+const mixed = shown.some((item) => item.category !== prompt.category);
+const relatedTitle = mixed ? 'Related prompts' : `More ${label} prompts`;
 const pagefindTitle = prompt.heading.replace(/:/g, ' -');
 ---
 
@@ -80,7 +81,7 @@ const pagefindTitle = prompt.heading.replace(/:/g, ' -');
   </section>
 
   <section class="mt-10" aria-labelledby="related-prompts">
-    <h2 id="related-prompts" class="text-xl font-bold tracking-tight">More {label} prompts</h2>
+    <h2 id="related-prompts" class="text-xl font-bold tracking-tight">{relatedTitle}</h2>
     {
       shown.length > 0 ? (
         <ul class="mt-3 grid list-none gap-2 p-0 sm:grid-cols-2">
@@ -92,6 +93,11 @@ const pagefindTitle = prompt.heading.replace(/:/g, ' -');
                   href={answerPath(item.slug)}
                   class="card block h-full p-3 hover:border-nav/40"
                 >
+                  {mixed && (
+                    <span class="text-xs font-semibold uppercase tracking-wide text-nav">
+                      {categoryLabel(item.category)}
+                    </span>
+                  )}
                   <span class="font-medium">{item.question}</span>
                   {rare && (
                     <span class="mt-1 block text-sm text-muted-foreground">

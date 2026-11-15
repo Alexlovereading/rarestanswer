@@ -1,0 +1,445 @@
+{
+  "id": "toucan-species",
+  "slug": "toucan-species",
+  "category": "animals",
+  "question": "Name a species of toucan",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Brown-mandibled aracari",
+      "aliases": [
+        "Pteroglossus mariae"
+      ],
+      "popularity": 201,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Brown-mandibled aracari"
+    },
+    {
+      "name": "Stripe-billed aracari",
+      "aliases": [
+        "Pteroglossus sanguineus"
+      ],
+      "popularity": 483,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Stripe-billed aracari"
+    },
+    {
+      "name": "Hooded mountain toucan",
+      "aliases": [
+        "Andigena cucullata"
+      ],
+      "popularity": 674,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Hooded mountain toucan"
+    },
+    {
+      "name": "Tepui toucanet",
+      "aliases": [
+        "Aulacorhynchus whitelianus"
+      ],
+      "popularity": 774,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Tepui toucanet"
+    },
+    {
+      "name": "Black-throated toucanet",
+      "aliases": [
+        "Aulacorhynchus atrogularis"
+      ],
+      "popularity": 794,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Black-throated toucanet"
+    },
+    {
+      "name": "Blue-throated toucanet",
+      "aliases": [
+        "Aulacorhynchus caeruleogularis"
+      ],
+      "popularity": 855,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "Blue-throated toucanet"
+    },
+    {
+      "name": "Chestnut-tipped toucanet",
+      "aliases": [
+        "Aulacorhynchus derbianus"
+      ],
+      "popularity": 989,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Chestnut-tipped toucanet"
+    },
+    {
+      "name": "Tawny-tufted toucanet",
+      "aliases": [
+        "Selenidera nattereri"
+      ],
+      "popularity": 1075,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Tawny-tufted toucanet"
+    },
+    {
+      "name": "Citron-throated toucan",
+      "aliases": [
+        "Ramphastos citreolaemus"
+      ],
+      "popularity": 1099,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Citron-throated toucan"
+    },
+    {
+      "name": "Wagler's toucanet",
+      "aliases": [
+        "Aulacorhynchus wagleri"
+      ],
+      "popularity": 1120,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Wagler's toucanet"
+    },
+    {
+      "name": "Groove-billed toucanet",
+      "aliases": [
+        "Aulacorhynchus sulcatus"
+      ],
+      "popularity": 1189,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Groove-billed toucanet"
+    },
+    {
+      "name": "Blue-banded toucanet",
+      "aliases": [
+        "Aulacorhynchus coeruleicinctis"
+      ],
+      "popularity": 1211,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Blue-banded toucanet"
+    },
+    {
+      "name": "Golden-collared toucanet",
+      "aliases": [
+        "Selenidera reinwardtii"
+      ],
+      "popularity": 1224,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Golden-collared toucanet"
+    },
+    {
+      "name": "Gould's toucanet",
+      "aliases": [
+        "Selenidera gouldii"
+      ],
+      "popularity": 1314,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Gould's toucanet"
+    },
+    {
+      "name": "Yellow-browed toucanet",
+      "aliases": [
+        "Aulacorhynchus huallagae"
+      ],
+      "popularity": 1410,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Yellow-browed toucanet"
+    },
+    {
+      "name": "Red-necked aracari",
+      "aliases": [
+        "Pteroglossus bitorquatus"
+      ],
+      "popularity": 1579,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Red-necked aracari"
+    },
+    {
+      "name": "Southern emerald toucanet",
+      "aliases": [
+        "Aulacorhynchus albivitta",
+        "White-throated Toucanet"
+      ],
+      "popularity": 1645,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Southern emerald toucanet"
+    },
+    {
+      "name": "Guianan toucanet",
+      "aliases": [
+        "Guyana toucanet",
+        "Selenidera piperivora"
+      ],
+      "popularity": 1923,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Guianan toucanet"
+    },
+    {
+      "name": "Crimson-rumped toucanet",
+      "aliases": [
+        "Aulacorhynchus haematopygus"
+      ],
+      "popularity": 1944,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Crimson-rumped toucanet"
+    },
+    {
+      "name": "Grey-breasted mountain toucan",
+      "aliases": [
+        "Andigena hypoglauca"
+      ],
+      "popularity": 1950,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Grey-breasted mountain toucan"
+    },
+    {
+      "name": "Spot-billed toucanet",
+      "aliases": [
+        "Selenidera maculirostris"
+      ],
+      "popularity": 2058,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Spot-billed toucanet"
+    },
+    {
+      "name": "Many-banded aracari",
+      "aliases": [
+        "Pteroglossus pluricinctus"
+      ],
+      "popularity": 2062,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Many-banded aracari"
+    },
+    {
+      "name": "Black-billed mountain toucan",
+      "aliases": [
+        "Andigena nigrirostris"
+      ],
+      "popularity": 2188,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Black-billed mountain toucan"
+    },
+    {
+      "name": "Yellow-eared toucanet",
+      "aliases": [
+        "Selenidera spectabilis"
+      ],
+      "popularity": 2270,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Yellow-eared toucanet"
+    },
+    {
+      "name": "Ivory-billed aracari",
+      "aliases": [
+        "Pteroglossus azara",
+        "Pteroglossus flavirostris"
+      ],
+      "popularity": 2376,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Ivory-billed aracari"
+    },
+    {
+      "name": "Pale-mandibled aracari",
+      "aliases": [
+        "Pteroglossus erythropygius"
+      ],
+      "popularity": 2469,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Pale-mandibled aracari"
+    },
+    {
+      "name": "Black-necked aracari",
+      "aliases": [
+        "Pteroglossus aracari"
+      ],
+      "popularity": 3054,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Black-necked aracari"
+    },
+    {
+      "name": "Lettered aracari",
+      "aliases": [
+        "Pteroglossus inscriptus"
+      ],
+      "popularity": 3834,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Lettered aracari"
+    },
+    {
+      "name": "Fiery-billed aracari",
+      "aliases": [
+        "Pteroglossus frantzii"
+      ],
+      "popularity": 3933,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Fiery-billed aracari"
+    },
+    {
+      "name": "Choco toucan",
+      "aliases": [
+        "Ramphastos brevis"
+      ],
+      "popularity": 4037,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Choco toucan"
+    },
+    {
+      "name": "Saffron toucanet",
+      "aliases": [
+        "Pteroglossus bailloni"
+      ],
+      "popularity": 4423,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Saffron toucanet"
+    },
+    {
+      "name": "Green aracari",
+      "aliases": [
+        "Pteroglossus viridis"
+      ],
+      "popularity": 4944,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Green aracari"
+    },
+    {
+      "name": "Red-breasted toucan",
+      "aliases": [
+        "Green-billed Toucan",
+        "Ramphastos dicolorus"
+      ],
+      "popularity": 5224,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Red-breasted toucan"
+    },
+    {
+      "name": "Northern emerald toucanet",
+      "aliases": [
+        "Aulacorhynchus prasinus",
+        "Emerald Toucanet"
+      ],
+      "popularity": 5837,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Northern emerald toucanet"
+    },
+    {
+      "name": "White-throated toucan",
+      "aliases": [
+        "Ramphastos tucanus"
+      ],
+      "popularity": 7995,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "White-throated toucan"
+    },
+    {
+      "name": "Yellow-throated toucan",
+      "aliases": [
+        "Black-mandibled Toucan",
+        "Ramphastos ambiguus"
+      ],
+      "popularity": 8946,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Yellow-throated toucan"
+    },
+    {
+      "name": "Collared aracari",
+      "aliases": [
+        "Pteroglossus torquatus"
+      ],
+      "popularity": 9329,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Collared aracari"
+    },
+    {
+      "name": "Channel-billed toucan",
+      "aliases": [
+        "Ramphastos vitellinus"
+      ],
+      "popularity": 10696,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "Channel-billed toucan"
+    },
+    {
+      "name": "Curl-crested aracari",
+      "aliases": [
+        "Pteroglossus beauharnaesii"
+      ],
+      "popularity": 13727,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Curl-crested aracari"
+    },
+    {
+      "name": "Plate-billed mountain toucan",
+      "aliases": [
+        "Andigena laminirostris"
+      ],
+      "popularity": 14132,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Plate-billed mountain toucan"
+    },
+    {
+      "name": "Chestnut-eared aracari",
+      "aliases": [
+        "Pteroglossus castanotis"
+      ],
+      "popularity": 14528,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Chestnut-eared aracari"
+    },
+    {
+      "name": "Keel-billed toucan",
+      "aliases": [
+        "Ramphastos sulfuratus"
+      ],
+      "popularity": 43244,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Keel-billed toucan"
+    },
+    {
+      "name": "Toco toucan",
+      "aliases": [
+        "Ramphastos toco"
+      ],
+      "popularity": 109007,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Toco toucan"
+    }
+  ]
+}

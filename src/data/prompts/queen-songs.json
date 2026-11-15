@@ -1,0 +1,353 @@
+{
+  "id": "queen-songs",
+  "slug": "queen-songs",
+  "category": "music",
+  "question": "Name a Queen song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Say It's Not True",
+      "aliases": [],
+      "popularity": 2267,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Say It's Not True"
+    },
+    {
+      "name": "Let Me in Your Heart Again",
+      "aliases": [],
+      "popularity": 5709,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Let Me in Your Heart Again"
+    },
+    {
+      "name": "I Can't Live with You",
+      "aliases": [],
+      "popularity": 7902,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "I Can't Live with You"
+    },
+    {
+      "name": "Pain Is So Close to Pleasure",
+      "aliases": [],
+      "popularity": 7971,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Pain Is So Close to Pleasure"
+    },
+    {
+      "name": "Flick of the Wrist",
+      "aliases": [],
+      "popularity": 9712,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "Flick of the Wrist"
+    },
+    {
+      "name": "Calling All Girls",
+      "aliases": [],
+      "popularity": 9738,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Calling All Girls"
+    },
+    {
+      "name": "One Year of Love",
+      "aliases": [],
+      "popularity": 9984,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "One Year of Love"
+    },
+    {
+      "name": "Need Your Loving Tonight",
+      "aliases": [],
+      "popularity": 10547,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Need Your Loving Tonight"
+    },
+    {
+      "name": "Face It Alone",
+      "aliases": [],
+      "popularity": 10668,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Face It Alone"
+    },
+    {
+      "name": "Let Me Live",
+      "aliases": [],
+      "popularity": 10820,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Let Me Live"
+    },
+    {
+      "name": "Las Palabras de Amor",
+      "aliases": [],
+      "popularity": 12248,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Las Palabras de Amor"
+    },
+    {
+      "name": "Liar",
+      "aliases": [
+        "Liar (Queen song)"
+      ],
+      "popularity": 12862,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Liar (Queen song)"
+    },
+    {
+      "name": "Scandal",
+      "aliases": [
+        "Scandal (song)"
+      ],
+      "popularity": 13862,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Scandal (song)"
+    },
+    {
+      "name": "Friends Will Be Friends",
+      "aliases": [],
+      "popularity": 15548,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Friends Will Be Friends"
+    },
+    {
+      "name": "Heaven for Everyone",
+      "aliases": [],
+      "popularity": 15801,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Heaven for Everyone"
+    },
+    {
+      "name": "The Miracle",
+      "aliases": [
+        "Miracle",
+        "Miracle (song)",
+        "The Miracle (song)"
+      ],
+      "popularity": 16310,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "The Miracle (song)"
+    },
+    {
+      "name": "Made in Heaven",
+      "aliases": [
+        "Made in Heaven (song)"
+      ],
+      "popularity": 16843,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Made in Heaven (song)"
+    },
+    {
+      "name": "Headlong",
+      "aliases": [
+        "Headlong (song)"
+      ],
+      "popularity": 16959,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Headlong (song)"
+    },
+    {
+      "name": "Save Me",
+      "aliases": [
+        "Save Me (Queen song)"
+      ],
+      "popularity": 17747,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Save Me (Queen song)"
+    },
+    {
+      "name": "Body Language",
+      "aliases": [
+        "Body Language (Queen song)"
+      ],
+      "popularity": 18793,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "Body Language (Queen song)"
+    },
+    {
+      "name": "The Invisible Man",
+      "aliases": [
+        "Invisible Man",
+        "Invisible Man (song)",
+        "The Invisible Man (song)"
+      ],
+      "popularity": 19113,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "The Invisible Man (song)"
+    },
+    {
+      "name": "You Don't Fool Me",
+      "aliases": [],
+      "popularity": 19262,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "You Don't Fool Me"
+    },
+    {
+      "name": "Play the Game",
+      "aliases": [
+        "Play the Game (song)"
+      ],
+      "popularity": 19404,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Play the Game (song)"
+    },
+    {
+      "name": "Breakthru",
+      "aliases": [
+        "Breakthru (song)"
+      ],
+      "popularity": 20922,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Breakthru (song)"
+    },
+    {
+      "name": "I'm Going Slightly Mad",
+      "aliases": [],
+      "popularity": 22192,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "I'm Going Slightly Mad"
+    },
+    {
+      "name": "I Was Born to Love You",
+      "aliases": [
+        "I Was Born to Love You (song)"
+      ],
+      "popularity": 23241,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "I Was Born to Love You (song)"
+    },
+    {
+      "name": "Flash",
+      "aliases": [
+        "Flash (Queen song)"
+      ],
+      "popularity": 30501,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Flash (Queen song)"
+    },
+    {
+      "name": "Innuendo",
+      "aliases": [
+        "Innuendo (song)"
+      ],
+      "popularity": 32350,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Innuendo (song)"
+    },
+    {
+      "name": "You're My Best Friend",
+      "aliases": [],
+      "popularity": 32702,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "You're My Best Friend"
+    },
+    {
+      "name": "Hammer to Fall",
+      "aliases": [],
+      "popularity": 33563,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Hammer to Fall"
+    },
+    {
+      "name": "No-One but You",
+      "aliases": [
+        "No-One but You (Only the Good Die Young)"
+      ],
+      "popularity": 33707,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "No-One but You (Only the Good Die Young)"
+    },
+    {
+      "name": "I Want It All",
+      "aliases": [
+        "I Want It All (Queen song)"
+      ],
+      "popularity": 37190,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "I Want It All (Queen song)"
+    },
+    {
+      "name": "Princes of the Universe",
+      "aliases": [],
+      "popularity": 82832,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Princes of the Universe"
+    },
+    {
+      "name": "Killer Queen",
+      "aliases": [],
+      "popularity": 85614,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "Killer Queen"
+    },
+    {
+      "name": "Somebody to Love",
+      "aliases": [
+        "Somebody to Love (Queen song)"
+      ],
+      "popularity": 86620,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Somebody to Love (Queen song)"
+    },
+    {
+      "name": "Who Wants to Live Forever",
+      "aliases": [],
+      "popularity": 98488,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Who Wants to Live Forever"
+    },
+    {
+      "name": "The Show Must Go On",
+      "aliases": [
+        "Show Must Go On",
+        "Show Must Go On (Queen song)",
+        "The Show Must Go On (Queen song)"
+      ],
+      "popularity": 109028,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "The Show Must Go On (Queen song)"
+    },
+    {
+      "name": "Another One Bites the Dust",
+      "aliases": [],
+      "popularity": 211675,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Another One Bites the Dust"
+    }
+  ]
+}

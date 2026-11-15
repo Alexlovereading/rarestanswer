@@ -1,0 +1,192 @@
+{
+  "id": "moons-of-neptune",
+  "slug": "moons-of-neptune",
+  "category": "science",
+  "question": "Name a moon of Neptune",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "S/2002 N 5",
+      "aliases": [
+        "c02N4"
+      ],
+      "popularity": 4726,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "S/2002 N 5"
+    },
+    {
+      "name": "Laomedeia",
+      "aliases": [
+        "Neptune XII",
+        "S/2002 N 3"
+      ],
+      "popularity": 4902,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Laomedeia"
+    },
+    {
+      "name": "Psamathe",
+      "aliases": [
+        "Neptune X",
+        "Psamathe (moon)",
+        "S/2003 N 1"
+      ],
+      "popularity": 5540,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Psamathe (moon)"
+    },
+    {
+      "name": "Sao",
+      "aliases": [
+        "Neptune XI",
+        "S/2002 N 2",
+        "Sao (moon)"
+      ],
+      "popularity": 5985,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Sao (moon)"
+    },
+    {
+      "name": "Halimede",
+      "aliases": [
+        "Halimede (moon)",
+        "Neptune IX",
+        "S/2002 N 1"
+      ],
+      "popularity": 9071,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Halimede (moon)"
+    },
+    {
+      "name": "S/2021 N 1",
+      "aliases": [],
+      "popularity": 10659,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "S/2021 N 1"
+    },
+    {
+      "name": "Thalassa",
+      "aliases": [
+        "Neptune IV",
+        "S/1989 N 5",
+        "Thalassa (moon)"
+      ],
+      "popularity": 10971,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Thalassa (moon)"
+    },
+    {
+      "name": "Despina",
+      "aliases": [
+        "Despina (moon)",
+        "Neptune V",
+        "S/1989 N 3"
+      ],
+      "popularity": 11164,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Despina (moon)"
+    },
+    {
+      "name": "Hippocamp",
+      "aliases": [
+        "Hippocamp (moon)",
+        "S/2004 N 1"
+      ],
+      "popularity": 13033,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Hippocamp (moon)"
+    },
+    {
+      "name": "Galatea",
+      "aliases": [
+        "Galatea (moon)",
+        "Neptune VI",
+        "S/1989 N 4"
+      ],
+      "popularity": 14281,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Galatea (moon)"
+    },
+    {
+      "name": "Larissa",
+      "aliases": [
+        "Larissa (moon)",
+        "Neptune VII",
+        "S/1981 N 1",
+        "S/1989 N 2"
+      ],
+      "popularity": 14807,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Larissa (moon)"
+    },
+    {
+      "name": "Naiad",
+      "aliases": [
+        "Naiad (moon)",
+        "Neptune III",
+        "S/1989 N 6"
+      ],
+      "popularity": 15235,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Naiad (moon)"
+    },
+    {
+      "name": "Neso",
+      "aliases": [
+        "Neptune XIII",
+        "Neso (moon)",
+        "S/2002 N 4"
+      ],
+      "popularity": 21429,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Neso (moon)"
+    },
+    {
+      "name": "Nereid",
+      "aliases": [
+        "Neptune II",
+        "Nereid (moon)"
+      ],
+      "popularity": 37073,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Nereid (moon)"
+    },
+    {
+      "name": "Proteus",
+      "aliases": [
+        "Neptune VIII",
+        "Proteus (moon)",
+        "S/1989 N 1"
+      ],
+      "popularity": 38382,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Proteus (moon)"
+    },
+    {
+      "name": "Triton",
+      "aliases": [
+        "Neptune I",
+        "Triton (moon)"
+      ],
+      "popularity": 237017,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Triton (moon)"
+    }
+  ]
+}

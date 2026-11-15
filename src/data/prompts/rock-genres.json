@@ -1,0 +1,1353 @@
+{
+  "id": "rock-genres",
+  "slug": "rock-genres",
+  "category": "music",
+  "question": "Name a genre of rock music",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Prison rock",
+      "aliases": [],
+      "popularity": 104,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Prison rock"
+    },
+    {
+      "name": "Bravú",
+      "aliases": [
+        "Bravú Rock"
+      ],
+      "popularity": 209,
+      "rarity": 0.993,
+      "tier": 6,
+      "wiki": "Bravú"
+    },
+    {
+      "name": "Tatar rock",
+      "aliases": [],
+      "popularity": 395,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Tatar rock"
+    },
+    {
+      "name": "Detroit rock",
+      "aliases": [
+        "high energy rock"
+      ],
+      "popularity": 411,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Detroit rock"
+    },
+    {
+      "name": "Tango-rock",
+      "aliases": [],
+      "popularity": 456,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Tango-rock"
+    },
+    {
+      "name": "Rock music in Angola",
+      "aliases": [
+        "Angolan rock"
+      ],
+      "popularity": 693,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Rock music in Angola"
+    },
+    {
+      "name": "Hakata no Rokku",
+      "aliases": [
+        "Mentai beat",
+        "Mentai rock"
+      ],
+      "popularity": 714,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Hakata no Rokku"
+    },
+    {
+      "name": "Rock music in Iceland",
+      "aliases": [
+        "Icelandic rock",
+        "Icelandic rock music"
+      ],
+      "popularity": 780,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Rock music in Iceland"
+    },
+    {
+      "name": "Rock music in Latvia",
+      "aliases": [
+        "Latvian rock"
+      ],
+      "popularity": 806,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Rock music in Latvia"
+    },
+    {
+      "name": "Lounge rock",
+      "aliases": [],
+      "popularity": 868,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Lounge rock"
+    },
+    {
+      "name": "Haitian rock",
+      "aliases": [
+        "rock kreyòl"
+      ],
+      "popularity": 1167,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Haitian rock"
+    },
+    {
+      "name": "Trip rock",
+      "aliases": [],
+      "popularity": 1170,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Trip rock"
+    },
+    {
+      "name": "Rock identitaire français",
+      "aliases": [
+        "French identity rock"
+      ],
+      "popularity": 1201,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Rock identitaire français"
+    },
+    {
+      "name": "Ecuadorian rock",
+      "aliases": [
+        "Rock de Ecuador"
+      ],
+      "popularity": 1236,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Ecuadorian rock"
+    },
+    {
+      "name": "Guatemalan rock",
+      "aliases": [
+        "rock chapín"
+      ],
+      "popularity": 1327,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Guatemalan rock"
+    },
+    {
+      "name": "Rock music in Slovenia",
+      "aliases": [
+        "Slovenian rock"
+      ],
+      "popularity": 1430,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Rock music in Slovenia"
+    },
+    {
+      "name": "Azerbaijani rock",
+      "aliases": [],
+      "popularity": 1486,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Azerbaijani rock"
+    },
+    {
+      "name": "Rock music in Denmark",
+      "aliases": [
+        "Danish rock"
+      ],
+      "popularity": 1564,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Rock music in Denmark"
+    },
+    {
+      "name": "Indigenous rock",
+      "aliases": [
+        "aboriginal rock"
+      ],
+      "popularity": 1570,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Indigenous rock"
+    },
+    {
+      "name": "Rock music in Belarus",
+      "aliases": [
+        "Belarusian rock music"
+      ],
+      "popularity": 1731,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Rock music in Belarus"
+    },
+    {
+      "name": "Rock music in Estonia",
+      "aliases": [
+        "Estonian rock"
+      ],
+      "popularity": 1736,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Rock music in Estonia"
+    },
+    {
+      "name": "Nepalese rock",
+      "aliases": [],
+      "popularity": 1784,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Nepalese rock"
+    },
+    {
+      "name": "Arabic rock",
+      "aliases": [
+        "Arabic rock music"
+      ],
+      "popularity": 1789,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Arabic rock"
+    },
+    {
+      "name": "Taiwanese rock",
+      "aliases": [
+        "Taiwan rock"
+      ],
+      "popularity": 1869,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Taiwanese rock"
+    },
+    {
+      "name": "Dominican rock",
+      "aliases": [
+        "rock dominicano"
+      ],
+      "popularity": 2086,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Dominican rock"
+    },
+    {
+      "name": "Rock music in Bosnia and Herzegovina",
+      "aliases": [
+        "Bosnian and Herzegovinian rock",
+        "Bosnian rock"
+      ],
+      "popularity": 2147,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "Rock music in Bosnia and Herzegovina"
+    },
+    {
+      "name": "Cuban rock",
+      "aliases": [
+        "Rock music in Cuba"
+      ],
+      "popularity": 2183,
+      "rarity": 0.812,
+      "tier": 5,
+      "wiki": "Cuban rock"
+    },
+    {
+      "name": "Rock music in Lithuania",
+      "aliases": [
+        "Lithuanian rock"
+      ],
+      "popularity": 2192,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Rock music in Lithuania"
+    },
+    {
+      "name": "Rock català",
+      "aliases": [
+        "Catalan rock"
+      ],
+      "popularity": 2199,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Rock català"
+    },
+    {
+      "name": "Rock music in Switzerland",
+      "aliases": [
+        "Swiss rock"
+      ],
+      "popularity": 2335,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Rock music in Switzerland"
+    },
+    {
+      "name": "Colombian rock",
+      "aliases": [],
+      "popularity": 2366,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Colombian rock"
+    },
+    {
+      "name": "Uruguayan rock",
+      "aliases": [
+        "rock uruguayo"
+      ],
+      "popularity": 2395,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "Uruguayan rock"
+    },
+    {
+      "name": "Rock music in Romania",
+      "aliases": [
+        "Romanian rock"
+      ],
+      "popularity": 2456,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Rock music in Romania"
+    },
+    {
+      "name": "Punta rock",
+      "aliases": [],
+      "popularity": 2525,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Punta rock"
+    },
+    {
+      "name": "Pakistani rock",
+      "aliases": [],
+      "popularity": 2646,
+      "rarity": 0.754,
+      "tier": 4,
+      "wiki": "Pakistani rock"
+    },
+    {
+      "name": "Rock music in Portugal",
+      "aliases": [
+        "Portuguese rock"
+      ],
+      "popularity": 2655,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Rock music in Portugal"
+    },
+    {
+      "name": "Rock violin",
+      "aliases": [],
+      "popularity": 2734,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Rock violin"
+    },
+    {
+      "name": "Venezuelan rock",
+      "aliases": [],
+      "popularity": 2828,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Venezuelan rock"
+    },
+    {
+      "name": "Armenian rock",
+      "aliases": [],
+      "popularity": 2869,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Armenian rock"
+    },
+    {
+      "name": "Rock music in Albania",
+      "aliases": [
+        "Albanian rock"
+      ],
+      "popularity": 2967,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Rock music in Albania"
+    },
+    {
+      "name": "Akron Sound",
+      "aliases": [],
+      "popularity": 3007,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Akron Sound"
+    },
+    {
+      "name": "Rock music in Belgium",
+      "aliases": [
+        "Belgian rock"
+      ],
+      "popularity": 3031,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Rock music in Belgium"
+    },
+    {
+      "name": "Jewish rock",
+      "aliases": [],
+      "popularity": 3169,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Jewish rock"
+    },
+    {
+      "name": "Rock music in Spain",
+      "aliases": [
+        "Spanish rock"
+      ],
+      "popularity": 3184,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Rock music in Spain"
+    },
+    {
+      "name": "Time Lord rock",
+      "aliases": [
+        "trock"
+      ],
+      "popularity": 3230,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Time Lord rock"
+    },
+    {
+      "name": "Big-beat",
+      "aliases": [
+        "Big-beat (Eastern Bloc)",
+        "big bit",
+        "bigbit"
+      ],
+      "popularity": 3318,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Big-beat (Eastern Bloc)"
+    },
+    {
+      "name": "Könsrock",
+      "aliases": [
+        "genitalia rock"
+      ],
+      "popularity": 3399,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Könsrock"
+    },
+    {
+      "name": "Rock music in Norway",
+      "aliases": [
+        "Norwegian rock"
+      ],
+      "popularity": 3505,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Rock music in Norway"
+    },
+    {
+      "name": "Pagan rock",
+      "aliases": [],
+      "popularity": 3540,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Pagan rock"
+    },
+    {
+      "name": "Peruvian rock",
+      "aliases": [
+        "Rock in Peru"
+      ],
+      "popularity": 3553,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Peruvian rock"
+    },
+    {
+      "name": "Bengali Rock music",
+      "aliases": [
+        "Bengali rock",
+        "Bengali Rock music (India)",
+        "West Bengal rock music"
+      ],
+      "popularity": 3754,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Bengali Rock music (India)"
+    },
+    {
+      "name": "Malaysian rock",
+      "aliases": [],
+      "popularity": 3859,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Malaysian rock"
+    },
+    {
+      "name": "Rock music in Hungary",
+      "aliases": [
+        "Hungarian rock"
+      ],
+      "popularity": 3885,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Rock music in Hungary"
+    },
+    {
+      "name": "Flamenco rock",
+      "aliases": [
+        "Andalusian rock",
+        "rock andaluz"
+      ],
+      "popularity": 4167,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Flamenco rock"
+    },
+    {
+      "name": "Indonesian rock",
+      "aliases": [],
+      "popularity": 4226,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Indonesian rock"
+    },
+    {
+      "name": "Rock music in the Netherlands",
+      "aliases": [
+        "Dutch rock"
+      ],
+      "popularity": 4353,
+      "rarity": 0.601,
+      "tier": 4,
+      "wiki": "Rock music in the Netherlands"
+    },
+    {
+      "name": "Rock music in Serbia",
+      "aliases": [
+        "Serbian rock"
+      ],
+      "popularity": 4398,
+      "rarity": 0.594,
+      "tier": 3,
+      "wiki": "Rock music in Serbia"
+    },
+    {
+      "name": "Rock music in Poland",
+      "aliases": [
+        "Polish rock",
+        "Polish rock music"
+      ],
+      "popularity": 4406,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Rock music in Poland"
+    },
+    {
+      "name": "Israeli rock",
+      "aliases": [],
+      "popularity": 4477,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Israeli rock"
+    },
+    {
+      "name": "Bangladeshi rock",
+      "aliases": [
+        "Bangla rock"
+      ],
+      "popularity": 4590,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Bangladeshi rock"
+    },
+    {
+      "name": "Rock music in Germany",
+      "aliases": [
+        "Deutschrock",
+        "German rock",
+        "German rock music"
+      ],
+      "popularity": 4621,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Rock music in Germany"
+    },
+    {
+      "name": "Rock music in Greece",
+      "aliases": [
+        "Greek rock"
+      ],
+      "popularity": 4777,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Rock music in Greece"
+    },
+    {
+      "name": "Rock music in Ukraine",
+      "aliases": [
+        "Ukrainian rock"
+      ],
+      "popularity": 4790,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Rock music in Ukraine"
+    },
+    {
+      "name": "Rock music in Italy",
+      "aliases": [
+        "Italian rock",
+        "Italian rock music"
+      ],
+      "popularity": 5003,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Rock music in Italy"
+    },
+    {
+      "name": "Chilean rock",
+      "aliases": [],
+      "popularity": 5172,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Chilean rock"
+    },
+    {
+      "name": "Sufi rock",
+      "aliases": [
+        "Sufi folk rock"
+      ],
+      "popularity": 5201,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Sufi rock"
+    },
+    {
+      "name": "New Primitivism",
+      "aliases": [
+        "new primitives",
+        "novi primitivisti",
+        "novi primitivizam"
+      ],
+      "popularity": 5521,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "New Primitivism"
+    },
+    {
+      "name": "Kindie rock",
+      "aliases": [],
+      "popularity": 5742,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Kindie rock"
+    },
+    {
+      "name": "Rock music in New Zealand",
+      "aliases": [
+        "Kiwi rock",
+        "New Zealand rock music",
+        "NZ rock"
+      ],
+      "popularity": 5935,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Rock music in New Zealand"
+    },
+    {
+      "name": "Cello rock",
+      "aliases": [
+        "cello metal"
+      ],
+      "popularity": 6828,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Cello rock"
+    },
+    {
+      "name": "Rock music in Mexico",
+      "aliases": [
+        "Mexican rock music"
+      ],
+      "popularity": 7083,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Rock music in Mexico"
+    },
+    {
+      "name": "Rock music in Finland",
+      "aliases": [
+        "Finnish rock",
+        "Finnrock",
+        "Finnsrock",
+        "Finrock",
+        "suomirock",
+        "suomirokki"
+      ],
+      "popularity": 7113,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "Rock music in Finland"
+    },
+    {
+      "name": "Afro rock",
+      "aliases": [],
+      "popularity": 7360,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Afro rock"
+    },
+    {
+      "name": "Iranian rock",
+      "aliases": [
+        "Persian rock",
+        "Rocka red"
+      ],
+      "popularity": 7498,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Iranian rock"
+    },
+    {
+      "name": "Rock music in France",
+      "aliases": [
+        "French rock"
+      ],
+      "popularity": 7783,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Rock music in France"
+    },
+    {
+      "name": "Mainstream rock",
+      "aliases": [],
+      "popularity": 8173,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Mainstream rock"
+    },
+    {
+      "name": "Korean rock",
+      "aliases": [
+        "K-rock"
+      ],
+      "popularity": 8193,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Korean rock"
+    },
+    {
+      "name": "Progg",
+      "aliases": [
+        "svensk progg",
+        "Swedish alternative music movement",
+        "Swedish music movement",
+        "Swedish progg",
+        "Swedish progressive music movement"
+      ],
+      "popularity": 8309,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Progg"
+    },
+    {
+      "name": "Thai rock",
+      "aliases": [],
+      "popularity": 8362,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Thai rock"
+    },
+    {
+      "name": "Cambodian rock",
+      "aliases": [
+        "Cambodian rock (1960s–1970s)"
+      ],
+      "popularity": 8849,
+      "rarity": 0.428,
+      "tier": 3,
+      "wiki": "Cambodian rock (1960s–1970s)"
+    },
+    {
+      "name": "Brazilian rock",
+      "aliases": [
+        "rock nacional brasileiro"
+      ],
+      "popularity": 9326,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Brazilian rock"
+    },
+    {
+      "name": "Rock music in Ireland",
+      "aliases": [
+        "Irish rock"
+      ],
+      "popularity": 9562,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Rock music in Ireland"
+    },
+    {
+      "name": "British rhythm and blues",
+      "aliases": [
+        "British R&B",
+        "R&B"
+      ],
+      "popularity": 10543,
+      "rarity": 0.406,
+      "tier": 3,
+      "wiki": "British rhythm and blues"
+    },
+    {
+      "name": "Indian rock",
+      "aliases": [],
+      "popularity": 10682,
+      "rarity": 0.399,
+      "tier": 2,
+      "wiki": "Indian rock"
+    },
+    {
+      "name": "American rock",
+      "aliases": [
+        "American rock music"
+      ],
+      "popularity": 10723,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "American rock"
+    },
+    {
+      "name": "Pinoy rock",
+      "aliases": [
+        "Filipino rock"
+      ],
+      "popularity": 10809,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Pinoy rock"
+    },
+    {
+      "name": "Rock musical",
+      "aliases": [
+        "Broadway rock",
+        "musical theatre rock",
+        "rock & roll musical"
+      ],
+      "popularity": 11822,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Rock musical"
+    },
+    {
+      "name": "Wagnerian rock",
+      "aliases": [],
+      "popularity": 12002,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Wagnerian rock"
+    },
+    {
+      "name": "Chinese rock",
+      "aliases": [
+        "C-rock"
+      ],
+      "popularity": 12432,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Chinese rock"
+    },
+    {
+      "name": "Proto-prog",
+      "aliases": [
+        "proto-progressive"
+      ],
+      "popularity": 12754,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Proto-prog"
+    },
+    {
+      "name": "Symphonic rock",
+      "aliases": [],
+      "popularity": 12819,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Symphonic rock"
+    },
+    {
+      "name": "Argentine rock",
+      "aliases": [
+        "rock argentino",
+        "rock nacional argentino"
+      ],
+      "popularity": 13587,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Argentine rock"
+    },
+    {
+      "name": "Modern rock",
+      "aliases": [],
+      "popularity": 14282,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Modern rock"
+    },
+    {
+      "name": "Latin rock",
+      "aliases": [],
+      "popularity": 14345,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Latin rock"
+    },
+    {
+      "name": "Rock en español",
+      "aliases": [
+        "rock in Spanish language",
+        "roque en Español",
+        "Spanish-language rock",
+        "Surda"
+      ],
+      "popularity": 15076,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Rock en español"
+    },
+    {
+      "name": "Post-progressive",
+      "aliases": [],
+      "popularity": 16802,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "Post-progressive"
+    },
+    {
+      "name": "Jazz rock",
+      "aliases": [
+        "fusion",
+        "rock-jazz"
+      ],
+      "popularity": 18197,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Jazz rock"
+    },
+    {
+      "name": "Reggae rock",
+      "aliases": [],
+      "popularity": 19647,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Reggae rock"
+    },
+    {
+      "name": "Rock music in Australia",
+      "aliases": [
+        "Australian rock",
+        "Oz rock"
+      ],
+      "popularity": 20080,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Rock music in Australia"
+    },
+    {
+      "name": "Rock music in Russia",
+      "aliases": [
+        "Russian rock"
+      ],
+      "popularity": 20130,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Rock music in Russia"
+    },
+    {
+      "name": "Instrumental rock",
+      "aliases": [
+        "rock instrumental"
+      ],
+      "popularity": 20541,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Instrumental rock"
+    },
+    {
+      "name": "Rock music of Canada",
+      "aliases": [
+        "Canadian rock"
+      ],
+      "popularity": 20856,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Rock music of Canada"
+    },
+    {
+      "name": "Zamrock",
+      "aliases": [],
+      "popularity": 21878,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Zamrock"
+    },
+    {
+      "name": "Comedy rock",
+      "aliases": [],
+      "popularity": 26916,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Comedy rock"
+    },
+    {
+      "name": "British rock music",
+      "aliases": [
+        "Brit rock",
+        "British rock"
+      ],
+      "popularity": 27965,
+      "rarity": 0.246,
+      "tier": 2,
+      "wiki": "British rock music"
+    },
+    {
+      "name": "Chicano rock",
+      "aliases": [],
+      "popularity": 28358,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Chicano rock"
+    },
+    {
+      "name": "Cock rock",
+      "aliases": [],
+      "popularity": 31229,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "Cock rock"
+    },
+    {
+      "name": "Dance-rock",
+      "aliases": [
+        "disco-rock",
+        "DOR"
+      ],
+      "popularity": 36672,
+      "rarity": 0.225,
+      "tier": 2,
+      "wiki": "Dance-rock"
+    },
+    {
+      "name": "Funk rock",
+      "aliases": [],
+      "popularity": 42761,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Funk rock"
+    },
+    {
+      "name": "Pub rock",
+      "aliases": [
+        "Pub rock (United Kingdom)"
+      ],
+      "popularity": 44852,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Pub rock (United Kingdom)"
+    },
+    {
+      "name": "Power ballad",
+      "aliases": [
+        "hard rock ballad",
+        "rock ballad"
+      ],
+      "popularity": 47713,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Power ballad"
+    },
+    {
+      "name": "Christian rock",
+      "aliases": [],
+      "popularity": 58496,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Christian rock"
+    },
+    {
+      "name": "Rap rock",
+      "aliases": [
+        "hip-hop rock"
+      ],
+      "popularity": 63694,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Rap rock"
+    },
+    {
+      "name": "Shock rock",
+      "aliases": [],
+      "popularity": 64354,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Shock rock"
+    },
+    {
+      "name": "Roots rock",
+      "aliases": [],
+      "popularity": 66872,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Roots rock"
+    },
+    {
+      "name": "Electronic rock",
+      "aliases": [
+        "digital rock",
+        "electro-rock",
+        "electrorock",
+        "synth-rock",
+        "synthrock"
+      ],
+      "popularity": 66917,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Electronic rock"
+    },
+    {
+      "name": "Experimental rock",
+      "aliases": [
+        "avant-garde rock",
+        "avant-rock"
+      ],
+      "popularity": 70444,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Experimental rock"
+    },
+    {
+      "name": "Country rock",
+      "aliases": [],
+      "popularity": 75692,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Country rock"
+    },
+    {
+      "name": "Rock opera",
+      "aliases": [],
+      "popularity": 80515,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Rock opera"
+    },
+    {
+      "name": "Industrial rock",
+      "aliases": [],
+      "popularity": 82373,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Industrial rock"
+    },
+    {
+      "name": "Surf music",
+      "aliases": [],
+      "popularity": 85641,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Surf music"
+    },
+    {
+      "name": "Southern rock",
+      "aliases": [],
+      "popularity": 94914,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Southern rock"
+    },
+    {
+      "name": "Album-oriented rock",
+      "aliases": [
+        "album rock"
+      ],
+      "popularity": 99925,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Album-oriented rock"
+    },
+    {
+      "name": "Noise rock",
+      "aliases": [
+        "noise punk"
+      ],
+      "popularity": 102749,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Noise rock"
+    },
+    {
+      "name": "Heartland rock",
+      "aliases": [],
+      "popularity": 104415,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "Heartland rock"
+    },
+    {
+      "name": "Blues rock",
+      "aliases": [],
+      "popularity": 111325,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Blues rock"
+    },
+    {
+      "name": "Folk rock",
+      "aliases": [],
+      "popularity": 113320,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Folk rock"
+    },
+    {
+      "name": "Arena rock",
+      "aliases": [
+        "anthem rock",
+        "corporate rock",
+        "dad rock",
+        "melodic rock",
+        "pomp rock",
+        "stadium rock"
+      ],
+      "popularity": 118303,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Arena rock"
+    },
+    {
+      "name": "Art rock",
+      "aliases": [],
+      "popularity": 133039,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Art rock"
+    },
+    {
+      "name": "Garage rock",
+      "aliases": [
+        "'60s punk"
+      ],
+      "popularity": 150427,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Garage rock"
+    },
+    {
+      "name": "Pop rock",
+      "aliases": [
+        "rockpop"
+      ],
+      "popularity": 199158,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Pop rock"
+    },
+    {
+      "name": "Glam rock",
+      "aliases": [],
+      "popularity": 209505,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Glam rock"
+    },
+    {
+      "name": "Psychedelic rock",
+      "aliases": [
+        "acid rock",
+        "psy rock",
+        "psych-rock",
+        "psyrock"
+      ],
+      "popularity": 227102,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Psychedelic rock"
+    },
+    {
+      "name": "Hard rock",
+      "aliases": [
+        "heavy rock"
+      ],
+      "popularity": 262476,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Hard rock"
+    },
+    {
+      "name": "Math rock",
+      "aliases": [],
+      "popularity": 336999,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Math rock"
+    },
+    {
+      "name": "Rock and roll",
+      "aliases": [
+        "rock n' roll"
+      ],
+      "popularity": 386231,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Rock and roll"
+    },
+    {
+      "name": "Progressive rock",
+      "aliases": [
+        "classical rock",
+        "prog",
+        "prog-rock",
+        "progressive pop"
+      ],
+      "popularity": 412203,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Progressive rock"
+    },
+    {
+      "name": "New wave music",
+      "aliases": [
+        "new wave"
+      ],
+      "popularity": 443203,
+      "rarity": 0.007,
+      "tier": 1,
+      "wiki": "New wave music"
+    },
+    {
+      "name": "Alternative rock",
+      "aliases": [
+        "alt rock"
+      ],
+      "popularity": 484172,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Alternative rock"
+    }
+  ]
+}

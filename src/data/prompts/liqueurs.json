@@ -1,0 +1,569 @@
+{
+  "id": "liqueurs",
+  "slug": "liqueurs",
+  "category": "food",
+  "question": "Name a liqueur",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Villa Massa Limoncello",
+      "aliases": [],
+      "popularity": 119,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Villa Massa Limoncello"
+    },
+    {
+      "name": "Eau de créole",
+      "aliases": [
+        "Eau Creole"
+      ],
+      "popularity": 236,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Eau de créole"
+    },
+    {
+      "name": "Garluche",
+      "aliases": [],
+      "popularity": 332,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Garluche"
+    },
+    {
+      "name": "Cantueso",
+      "aliases": [],
+      "popularity": 372,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Cantueso"
+    },
+    {
+      "name": "Micheline",
+      "aliases": [
+        "Micheline (liqueur)"
+      ],
+      "popularity": 570,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Micheline (liqueur)"
+    },
+    {
+      "name": "Toussaint Coffee Liqueur",
+      "aliases": [],
+      "popularity": 628,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Toussaint Coffee Liqueur"
+    },
+    {
+      "name": "Kruškovac",
+      "aliases": [],
+      "popularity": 690,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Kruškovac"
+    },
+    {
+      "name": "Cucui",
+      "aliases": [
+        "coecoei"
+      ],
+      "popularity": 767,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Cucui"
+    },
+    {
+      "name": "Tip van Bootz",
+      "aliases": [],
+      "popularity": 872,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Tip van Bootz"
+    },
+    {
+      "name": "Calisaya",
+      "aliases": [
+        "Calisaya (liqueur)"
+      ],
+      "popularity": 1112,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Calisaya (liqueur)"
+    },
+    {
+      "name": "Pucker",
+      "aliases": [],
+      "popularity": 1452,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Pucker"
+    },
+    {
+      "name": "Licor de oro",
+      "aliases": [],
+      "popularity": 1527,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Licor de oro"
+    },
+    {
+      "name": "Bargnolino",
+      "aliases": [],
+      "popularity": 1675,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Bargnolino"
+    },
+    {
+      "name": "Stellina",
+      "aliases": [
+        "Stellina (liqueur)"
+      ],
+      "popularity": 1781,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Stellina (liqueur)"
+    },
+    {
+      "name": "Cedratine",
+      "aliases": [],
+      "popularity": 1909,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Cedratine"
+    },
+    {
+      "name": "Nespolino",
+      "aliases": [],
+      "popularity": 1959,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Nespolino"
+    },
+    {
+      "name": "Bierlikör",
+      "aliases": [],
+      "popularity": 2045,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Bierlikör"
+    },
+    {
+      "name": "Boerenjongens",
+      "aliases": [],
+      "popularity": 2201,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Boerenjongens"
+    },
+    {
+      "name": "Verveine du Velay",
+      "aliases": [],
+      "popularity": 2332,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Verveine du Velay"
+    },
+    {
+      "name": "Grappamiel",
+      "aliases": [
+        "Grapamiel"
+      ],
+      "popularity": 3099,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Grappamiel"
+    },
+    {
+      "name": "Vin de liqueur",
+      "aliases": [
+        "Mistela"
+      ],
+      "popularity": 3147,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Vin de liqueur"
+    },
+    {
+      "name": "Sourz",
+      "aliases": [],
+      "popularity": 4591,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Sourz"
+    },
+    {
+      "name": "Izarra",
+      "aliases": [
+        "Izarra (liqueur)"
+      ],
+      "popularity": 4752,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Izarra (liqueur)"
+    },
+    {
+      "name": "Blutwurz",
+      "aliases": [],
+      "popularity": 4942,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Blutwurz"
+    },
+    {
+      "name": "Apfelkorn",
+      "aliases": [],
+      "popularity": 5714,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Apfelkorn"
+    },
+    {
+      "name": "Fruit soju",
+      "aliases": [
+        "Gwail Soju"
+      ],
+      "popularity": 6152,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Fruit soju"
+    },
+    {
+      "name": "Pine liqueur",
+      "aliases": [
+        "Zirbenlikör"
+      ],
+      "popularity": 6261,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Pine liqueur"
+    },
+    {
+      "name": "Parfait d'amour",
+      "aliases": [],
+      "popularity": 6860,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Parfait d'amour"
+    },
+    {
+      "name": "Ammazzacaffè",
+      "aliases": [],
+      "popularity": 7438,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Ammazzacaffè"
+    },
+    {
+      "name": "Ancho Reyes",
+      "aliases": [],
+      "popularity": 7511,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Ancho Reyes"
+    },
+    {
+      "name": "Gold Strike",
+      "aliases": [
+        "Gold Strike (drink)"
+      ],
+      "popularity": 8012,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Gold Strike (drink)"
+    },
+    {
+      "name": "Rosolio",
+      "aliases": [],
+      "popularity": 9237,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Rosolio"
+    },
+    {
+      "name": "Agwa de Bolivia",
+      "aliases": [],
+      "popularity": 9619,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Agwa de Bolivia"
+    },
+    {
+      "name": "Centerbe",
+      "aliases": [],
+      "popularity": 10738,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Centerbe"
+    },
+    {
+      "name": "Crème liqueur",
+      "aliases": [],
+      "popularity": 10914,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Crème liqueur"
+    },
+    {
+      "name": "Pisang Ambon",
+      "aliases": [],
+      "popularity": 12353,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Pisang Ambon"
+    },
+    {
+      "name": "Cream liqueur",
+      "aliases": [],
+      "popularity": 13194,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Cream liqueur"
+    },
+    {
+      "name": "Salmiakki Koskenkorva",
+      "aliases": [
+        "salmari",
+        "salmiakkikossu"
+      ],
+      "popularity": 14300,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Salmiakki Koskenkorva"
+    },
+    {
+      "name": "Cordial",
+      "aliases": [
+        "Cordial (medicine)"
+      ],
+      "popularity": 14976,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Cordial (medicine)"
+    },
+    {
+      "name": "Kümmel",
+      "aliases": [
+        "caraway-flavoured spirit drink",
+        "Kümmel (liqueur)"
+      ],
+      "popularity": 15403,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Kümmel (liqueur)"
+    },
+    {
+      "name": "Vana Tallinn",
+      "aliases": [],
+      "popularity": 15887,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Vana Tallinn"
+    },
+    {
+      "name": "Alchermes",
+      "aliases": [],
+      "popularity": 17944,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Alchermes"
+    },
+    {
+      "name": "Tubi 60",
+      "aliases": [],
+      "popularity": 20769,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Tubi 60"
+    },
+    {
+      "name": "Punsch",
+      "aliases": [],
+      "popularity": 22262,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Punsch"
+    },
+    {
+      "name": "Select",
+      "aliases": [
+        "Select (apéritif)"
+      ],
+      "popularity": 23588,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Select (apéritif)"
+    },
+    {
+      "name": "Kräuterlikör",
+      "aliases": [
+        "herb liqueur",
+        "herbal liqueur",
+        "plant liqueur"
+      ],
+      "popularity": 23701,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Kräuterlikör"
+    },
+    {
+      "name": "Chocolate liqueur",
+      "aliases": [],
+      "popularity": 23926,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Chocolate liqueur"
+    },
+    {
+      "name": "Bäsk",
+      "aliases": [
+        "bäsk brännvin"
+      ],
+      "popularity": 32302,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Bäsk"
+    },
+    {
+      "name": "Sheridan's",
+      "aliases": [],
+      "popularity": 33814,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Sheridan's"
+    },
+    {
+      "name": "Shrub",
+      "aliases": [
+        "Shrub (drink)"
+      ],
+      "popularity": 38369,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Shrub (drink)"
+    },
+    {
+      "name": "Hpnotiq",
+      "aliases": [],
+      "popularity": 38493,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Hpnotiq"
+    },
+    {
+      "name": "Elixir",
+      "aliases": [],
+      "popularity": 39178,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Elixir"
+    },
+    {
+      "name": "Tia Maria",
+      "aliases": [],
+      "popularity": 46356,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Tia Maria"
+    },
+    {
+      "name": "Riga Black Balsam",
+      "aliases": [],
+      "popularity": 46565,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Riga Black Balsam"
+    },
+    {
+      "name": "Unicum",
+      "aliases": [],
+      "popularity": 58626,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Unicum"
+    },
+    {
+      "name": "Amarula",
+      "aliases": [],
+      "popularity": 59687,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Amarula"
+    },
+    {
+      "name": "Irish cream",
+      "aliases": [],
+      "popularity": 61176,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Irish cream"
+    },
+    {
+      "name": "Falernum",
+      "aliases": [],
+      "popularity": 63698,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Falernum"
+    },
+    {
+      "name": "St-Germain",
+      "aliases": [
+        "St-Germain (liqueur)"
+      ],
+      "popularity": 80449,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "St-Germain (liqueur)"
+    },
+    {
+      "name": "Mastika",
+      "aliases": [],
+      "popularity": 87609,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Mastika"
+    },
+    {
+      "name": "Pastis",
+      "aliases": [
+        "pastaga"
+      ],
+      "popularity": 90325,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Pastis"
+    },
+    {
+      "name": "Advocaat",
+      "aliases": [],
+      "popularity": 93239,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Advocaat"
+    },
+    {
+      "name": "Baileys Irish Cream",
+      "aliases": [
+        "Baileys"
+      ],
+      "popularity": 263470,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Baileys Irish Cream"
+    },
+    {
+      "name": "Jägermeister",
+      "aliases": [
+        "Jaegermeister"
+      ],
+      "popularity": 728370,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Jägermeister"
+    }
+  ]
+}

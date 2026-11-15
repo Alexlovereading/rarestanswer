@@ -1,0 +1,4584 @@
+{
+  "id": "folk-genres",
+  "slug": "folk-genres",
+  "category": "music",
+  "question": "Name a genre of folk music",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Contra dance music",
+      "aliases": [
+        "contra",
+        "contra music"
+      ],
+      "popularity": 26,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Contra dance music"
+    },
+    {
+      "name": "Maracatu cearense",
+      "aliases": [],
+      "popularity": 41,
+      "rarity": 0.998,
+      "tier": 6,
+      "wiki": "Maracatu cearense"
+    },
+    {
+      "name": "Corsican folk music",
+      "aliases": [
+        "Corsican traditional music"
+      ],
+      "popularity": 52,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Corsican folk music"
+    },
+    {
+      "name": "Cossack songs of the Dnipropetrovsk Region",
+      "aliases": [],
+      "popularity": 116,
+      "rarity": 0.993,
+      "tier": 6,
+      "wiki": "Cossack songs of the Dnipropetrovsk Region"
+    },
+    {
+      "name": "Ethnic Swazi music",
+      "aliases": [
+        "Swazi music",
+        "Swazi traditional music"
+      ],
+      "popularity": 119,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Ethnic Swazi music"
+    },
+    {
+      "name": "Albazo",
+      "aliases": [],
+      "popularity": 146,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Albazo"
+    },
+    {
+      "name": "Batrelaky",
+      "aliases": [],
+      "popularity": 149,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Batrelaky"
+    },
+    {
+      "name": "Al-ayyalah",
+      "aliases": [
+        "al-ayala",
+        "al-yola",
+        "al-yowlah",
+        "ayala",
+        "yola",
+        "yowlah"
+      ],
+      "popularity": 150,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Al-ayyalah"
+    },
+    {
+      "name": "Ponto cantado",
+      "aliases": [
+        "ponto de umbanda"
+      ],
+      "popularity": 154,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Ponto cantado"
+    },
+    {
+      "name": "Seonsori",
+      "aliases": [
+        "ipchang"
+      ],
+      "popularity": 156,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Seonsori"
+    },
+    {
+      "name": "Irish folk music (2000–2009)",
+      "aliases": [],
+      "popularity": 158,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Irish folk music (2000–2009)"
+    },
+    {
+      "name": "Naduri",
+      "aliases": [],
+      "popularity": 161,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Naduri"
+    },
+    {
+      "name": "Mbira music",
+      "aliases": [
+        "Shona Mbira music"
+      ],
+      "popularity": 186,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Mbira music"
+    },
+    {
+      "name": "Haimen folk song",
+      "aliases": [],
+      "popularity": 188,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Haimen folk song"
+    },
+    {
+      "name": "Chinese folk flute music",
+      "aliases": [],
+      "popularity": 192,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Chinese folk flute music"
+    },
+    {
+      "name": "Irish folk music (1970–1979)",
+      "aliases": [],
+      "popularity": 194,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Irish folk music (1970–1979)"
+    },
+    {
+      "name": "Muliza",
+      "aliases": [],
+      "popularity": 207,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Muliza"
+    },
+    {
+      "name": "Romanian peasant music",
+      "aliases": [],
+      "popularity": 212,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Romanian peasant music"
+    },
+    {
+      "name": "Irish folk music (1500–1899)",
+      "aliases": [],
+      "popularity": 213,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Irish folk music (1500–1899)"
+    },
+    {
+      "name": "Tovareća mužika",
+      "aliases": [],
+      "popularity": 228,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Tovareća mužika"
+    },
+    {
+      "name": "La Sardana de l'alcalde",
+      "aliases": [
+        "sardana de l'Alcalde"
+      ],
+      "popularity": 235,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "La Sardana de l'alcalde"
+    },
+    {
+      "name": "Traditional country music",
+      "aliases": [
+        "traditional country"
+      ],
+      "popularity": 240,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Traditional country music"
+    },
+    {
+      "name": "Imsil pilbong nongak",
+      "aliases": [],
+      "popularity": 244,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Imsil pilbong nongak"
+    },
+    {
+      "name": "Irish folk music (1950–1959)",
+      "aliases": [],
+      "popularity": 250,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Irish folk music (1950–1959)"
+    },
+    {
+      "name": "Venezuelan bambuco",
+      "aliases": [],
+      "popularity": 255,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Venezuelan bambuco"
+    },
+    {
+      "name": "Liuqiang",
+      "aliases": [],
+      "popularity": 262,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Liuqiang"
+    },
+    {
+      "name": "Tongzi opera",
+      "aliases": [],
+      "popularity": 263,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Tongzi opera"
+    },
+    {
+      "name": "Eastern Joropo",
+      "aliases": [
+        "Joropo oriental"
+      ],
+      "popularity": 267,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "Eastern Joropo"
+    },
+    {
+      "name": "Pokua",
+      "aliases": [
+        "liām-kua",
+        "pakkoa",
+        "pakoa",
+        "song of 7 characters",
+        "Song of Compliment",
+        "Song of Praise",
+        "Tshit-jī-á kua"
+      ],
+      "popularity": 285,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Pokua"
+    },
+    {
+      "name": "Kanhaiya Geet",
+      "aliases": [
+        "meena dangal",
+        "meena geet",
+        "meena pad"
+      ],
+      "popularity": 293,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Kanhaiya Geet"
+    },
+    {
+      "name": "Kont",
+      "aliases": [
+        "Kont (Caribbean)"
+      ],
+      "popularity": 295,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Kont (Caribbean)"
+    },
+    {
+      "name": "Caipira pagode",
+      "aliases": [
+        "cipó preto",
+        "pagode",
+        "pagode caipira",
+        "pagode de viola",
+        "pagode sertanejo"
+      ],
+      "popularity": 308,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Caipira pagode"
+    },
+    {
+      "name": "Huaihai opera",
+      "aliases": [],
+      "popularity": 322,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Huaihai opera"
+    },
+    {
+      "name": "Cornkister",
+      "aliases": [],
+      "popularity": 329,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "Cornkister"
+    },
+    {
+      "name": "Longjiang opera",
+      "aliases": [],
+      "popularity": 330,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Longjiang opera"
+    },
+    {
+      "name": "Manhan folk song",
+      "aliases": [
+        "Mahan folk song"
+      ],
+      "popularity": 334,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Manhan folk song"
+    },
+    {
+      "name": "Yuanben",
+      "aliases": [
+        "Yuan ben"
+      ],
+      "popularity": 354,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Yuanben"
+    },
+    {
+      "name": "Baul music",
+      "aliases": [
+        "baul gaan",
+        "baul gan",
+        "baul sangeet",
+        "baul song"
+      ],
+      "popularity": 362,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Baul music"
+    },
+    {
+      "name": "Yangzhou opera",
+      "aliases": [
+        "weiyangxi",
+        "yangju",
+        "yangzhouxi"
+      ],
+      "popularity": 374,
+      "rarity": 0.916,
+      "tier": 5,
+      "wiki": "Yangzhou opera"
+    },
+    {
+      "name": "Tsutsube",
+      "aliases": [],
+      "popularity": 375,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Tsutsube"
+    },
+    {
+      "name": "Pungmul as protest",
+      "aliases": [],
+      "popularity": 378,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Pungmul as protest"
+    },
+    {
+      "name": "Red music",
+      "aliases": [
+        "hónggē",
+        "red song",
+        "red songs"
+      ],
+      "popularity": 400,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Red music"
+    },
+    {
+      "name": "Pu opera",
+      "aliases": [
+        "Puju"
+      ],
+      "popularity": 407,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Pu opera"
+    },
+    {
+      "name": "Međimurska popevka",
+      "aliases": [
+        "Međimurje song"
+      ],
+      "popularity": 417,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Međimurska popevka"
+    },
+    {
+      "name": "Finnish folk music",
+      "aliases": [
+        "Finnish traditional music"
+      ],
+      "popularity": 419,
+      "rarity": 0.902,
+      "tier": 5,
+      "wiki": "Finnish folk music"
+    },
+    {
+      "name": "Dhumpa sangita",
+      "aliases": [],
+      "popularity": 424,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Dhumpa sangita"
+    },
+    {
+      "name": "Cantu a chiterra",
+      "aliases": [],
+      "popularity": 428,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Cantu a chiterra"
+    },
+    {
+      "name": "Lu opera (Lu opera)",
+      "aliases": [
+        "Lu opera",
+        "Luju"
+      ],
+      "popularity": 428,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Lü opera"
+    },
+    {
+      "name": "Hò khoan",
+      "aliases": [],
+      "popularity": 442,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Hò khoan"
+    },
+    {
+      "name": "Portuguese folk music",
+      "aliases": [
+        "folk music of Portugal",
+        "Portuguese traditional music",
+        "traditional music of Portugal"
+      ],
+      "popularity": 453,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Portuguese folk music"
+    },
+    {
+      "name": "Puxian opera",
+      "aliases": [
+        "Hing-hua̍ opera",
+        "Pó-sing opera"
+      ],
+      "popularity": 455,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Puxian opera"
+    },
+    {
+      "name": "Errentai",
+      "aliases": [
+        "Er ren tai"
+      ],
+      "popularity": 466,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Errentai"
+    },
+    {
+      "name": "Ou opera",
+      "aliases": [
+        "Ouju"
+      ],
+      "popularity": 476,
+      "rarity": 0.884,
+      "tier": 5,
+      "wiki": "Ou opera"
+    },
+    {
+      "name": "Rekilaulu",
+      "aliases": [],
+      "popularity": 478,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Rekilaulu"
+    },
+    {
+      "name": "Huai opera",
+      "aliases": [
+        "Huaiju"
+      ],
+      "popularity": 483,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Huai opera"
+    },
+    {
+      "name": "Maoqiang",
+      "aliases": [
+        "Maoqiang Opera"
+      ],
+      "popularity": 489,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Maoqiang"
+    },
+    {
+      "name": "Hela Khayal Dangal",
+      "aliases": [
+        "Hela Khayal Sangeet Dangal"
+      ],
+      "popularity": 498,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "Hela Khayal Dangal"
+    },
+    {
+      "name": "Nhạc dân tộc cải biên",
+      "aliases": [],
+      "popularity": 507,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Nhạc dân tộc cải biên"
+    },
+    {
+      "name": "Toada de boi",
+      "aliases": [
+        "toada",
+        "toada do boi"
+      ],
+      "popularity": 509,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Toada de boi"
+    },
+    {
+      "name": "Trống quân",
+      "aliases": [],
+      "popularity": 513,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Trống quân"
+    },
+    {
+      "name": "Holehole bushi",
+      "aliases": [
+        "Horehorebushi"
+      ],
+      "popularity": 521,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Holehole bushi"
+    },
+    {
+      "name": "Fulía",
+      "aliases": [],
+      "popularity": 537,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Fulía"
+    },
+    {
+      "name": "Baisha xiyue",
+      "aliases": [
+        "Baisha fine music",
+        "Baisha orchestral music",
+        "Baisha traditional music",
+        "Baisha xile"
+      ],
+      "popularity": 538,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Baisha xiyue"
+    },
+    {
+      "name": "Holler blues",
+      "aliases": [],
+      "popularity": 540,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Holler blues"
+    },
+    {
+      "name": "Irish folk music (1990–1999)",
+      "aliases": [],
+      "popularity": 547,
+      "rarity": 0.858,
+      "tier": 5,
+      "wiki": "Irish folk music (1990–1999)"
+    },
+    {
+      "name": "Shchedrivka",
+      "aliases": [
+        "shchedrivky",
+        "shchedrovka"
+      ],
+      "popularity": 552,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Shchedrivka"
+    },
+    {
+      "name": "Sega tambour of Rodrigues Island",
+      "aliases": [],
+      "popularity": 559,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Sega tambour of Rodrigues Island"
+    },
+    {
+      "name": "Kalamatianó",
+      "aliases": [],
+      "popularity": 571,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Kalamatianó"
+    },
+    {
+      "name": "Earl of Erroll",
+      "aliases": [
+        "Earl of Erroll (reel)"
+      ],
+      "popularity": 577,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Earl of Erroll (reel)"
+    },
+    {
+      "name": "Sari gan",
+      "aliases": [],
+      "popularity": 581,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Sari gan"
+    },
+    {
+      "name": "Boedra",
+      "aliases": [
+        "drukdra",
+        "gorgom",
+        "zhabdro gorgom"
+      ],
+      "popularity": 584,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Boedra"
+    },
+    {
+      "name": "Hebei bangzi",
+      "aliases": [],
+      "popularity": 584,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Hebei bangzi"
+    },
+    {
+      "name": "Nóta",
+      "aliases": [
+        "magyar nóta"
+      ],
+      "popularity": 587,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Nóta"
+    },
+    {
+      "name": "Naattupurapaattu",
+      "aliases": [],
+      "popularity": 596,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Naattupurapaattu"
+    },
+    {
+      "name": "Lithuanian laments",
+      "aliases": [],
+      "popularity": 604,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Lithuanian laments"
+    },
+    {
+      "name": "Jilin opera",
+      "aliases": [
+        "Jiju"
+      ],
+      "popularity": 649,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Jilin opera"
+    },
+    {
+      "name": "Agamani-Vijaya",
+      "aliases": [],
+      "popularity": 653,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Agamani-Vijaya"
+    },
+    {
+      "name": "Sega tambour Chagos",
+      "aliases": [],
+      "popularity": 678,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Sega tambour Chagos"
+    },
+    {
+      "name": "Suzhou opera",
+      "aliases": [],
+      "popularity": 684,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Suzhou opera"
+    },
+    {
+      "name": "Fakaseasea",
+      "aliases": [],
+      "popularity": 686,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Fakaseasea"
+    },
+    {
+      "name": "Neue Volksmusik",
+      "aliases": [
+        "New folk music",
+        "Tradimix",
+        "Volxmusik"
+      ],
+      "popularity": 693,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Neue Volksmusik"
+    },
+    {
+      "name": "Tyrolienne",
+      "aliases": [],
+      "popularity": 709,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Tyrolienne"
+    },
+    {
+      "name": "Chinese classical music",
+      "aliases": [
+        "classical Chinese music"
+      ],
+      "popularity": 719,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Chinese classical music"
+    },
+    {
+      "name": "Wuxi opera",
+      "aliases": [
+        "Xi Opera"
+      ],
+      "popularity": 768,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Wuxi opera"
+    },
+    {
+      "name": "Zhungdra",
+      "aliases": [],
+      "popularity": 790,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Zhungdra"
+    },
+    {
+      "name": "Kosovan folk music",
+      "aliases": [
+        "traditional folk music of Kosovo",
+        "traditional music in Kosovo"
+      ],
+      "popularity": 796,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Kosovan folk music"
+    },
+    {
+      "name": "Ritual opera",
+      "aliases": [
+        "Cantonese ritual opera",
+        "opera with divine powers",
+        "Shengong opera",
+        "shéngōngxì"
+      ],
+      "popularity": 803,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Ritual opera"
+    },
+    {
+      "name": "Son calentano",
+      "aliases": [],
+      "popularity": 820,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Son calentano"
+    },
+    {
+      "name": "Han opera",
+      "aliases": [],
+      "popularity": 821,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Han opera"
+    },
+    {
+      "name": "Liyuan opera",
+      "aliases": [
+        "Pear Garden opera"
+      ],
+      "popularity": 821,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Liyuan opera"
+    },
+    {
+      "name": "Hakka opera",
+      "aliases": [],
+      "popularity": 834,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Hakka opera"
+    },
+    {
+      "name": "Croatian tamburica",
+      "aliases": [],
+      "popularity": 851,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Croatian tamburica"
+    },
+    {
+      "name": "Gaojia opera",
+      "aliases": [
+        "Kaochia Opera",
+        "Káu-kak Opera",
+        "Ko-kah Opera"
+      ],
+      "popularity": 852,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Gaojia opera"
+    },
+    {
+      "name": "Ambasse bey",
+      "aliases": [
+        "ambas-i-bay"
+      ],
+      "popularity": 854,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Ambasse bey"
+    },
+    {
+      "name": "Chouval bwa",
+      "aliases": [],
+      "popularity": 854,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Chouval bwa"
+    },
+    {
+      "name": "Bocet",
+      "aliases": [
+        "jelanie"
+      ],
+      "popularity": 856,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Bocet"
+    },
+    {
+      "name": "English country music",
+      "aliases": [],
+      "popularity": 863,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "English country music"
+    },
+    {
+      "name": "Springar",
+      "aliases": [],
+      "popularity": 866,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Springar"
+    },
+    {
+      "name": "Turlutte",
+      "aliases": [
+        "turlute",
+        "Turlutte (music)"
+      ],
+      "popularity": 869,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Turlutte (music)"
+    },
+    {
+      "name": "Urban champeta",
+      "aliases": [],
+      "popularity": 888,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Urban champeta"
+    },
+    {
+      "name": "Doină cu noduri",
+      "aliases": [
+        "hore cu noduri",
+        "hore în grumaz"
+      ],
+      "popularity": 894,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Doină cu noduri"
+    },
+    {
+      "name": "Vattappattu",
+      "aliases": [],
+      "popularity": 901,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Vattappattu"
+    },
+    {
+      "name": "Bubu music",
+      "aliases": [],
+      "popularity": 910,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Bubu music"
+    },
+    {
+      "name": "Tifa totobuang",
+      "aliases": [],
+      "popularity": 915,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Tifa totobuang"
+    },
+    {
+      "name": "Mormon folk music",
+      "aliases": [],
+      "popularity": 921,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Mormon folk music"
+    },
+    {
+      "name": "Xi'an guyue",
+      "aliases": [
+        "Xi'an drum music"
+      ],
+      "popularity": 921,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Xi'an guyue"
+    },
+    {
+      "name": "Muzică populară",
+      "aliases": [
+        "Romanian muzica populara",
+        "Romanian popular folk music"
+      ],
+      "popularity": 922,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Muzică populară"
+    },
+    {
+      "name": "Dongjing",
+      "aliases": [
+        "Dongjing ancient music",
+        "Dongjing (music)",
+        "Dongjing yinyue",
+        "Donjiang"
+      ],
+      "popularity": 924,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Dongjing (music)"
+    },
+    {
+      "name": "Shanxi opera",
+      "aliases": [],
+      "popularity": 924,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Shanxi opera"
+    },
+    {
+      "name": "Tokari geet",
+      "aliases": [],
+      "popularity": 926,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Tokari geet"
+    },
+    {
+      "name": "Unyago",
+      "aliases": [],
+      "popularity": 933,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Unyago"
+    },
+    {
+      "name": "Traditional song",
+      "aliases": [
+        "folk song",
+        "folksong",
+        "traditional folk song"
+      ],
+      "popularity": 942,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Traditional song"
+    },
+    {
+      "name": "Maracatu Nação",
+      "aliases": [
+        "maracatu de baque virado"
+      ],
+      "popularity": 943,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Maracatu Nação"
+    },
+    {
+      "name": "Flower-drum opera",
+      "aliases": [
+        "Huaguxi"
+      ],
+      "popularity": 977,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Flower-drum opera"
+    },
+    {
+      "name": "Fungi",
+      "aliases": [
+        "Fungi (music)",
+        "Quelbe",
+        "Scratch Band Music"
+      ],
+      "popularity": 981,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Fungi (music)"
+    },
+    {
+      "name": "Gstanzl",
+      "aliases": [
+        "Schamperliedlein",
+        "Schandliedlein",
+        "Schelmenliedlein",
+        "Schlumperliedl",
+        "Schnadahüpfel",
+        "Schnadahüpfeln",
+        "Schnadahüpfln",
+        "Schnaderhacki",
+        "Schnaderhüpfel",
+        "Schnaderhüpfeln",
+        "Schnaderhüpfl",
+        "Schnaderhüpfln",
+        "Schnatterliedl",
+        "Trutzgsangl",
+        "Trutzliedl",
+        "Vierzeiler"
+      ],
+      "popularity": 1000,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Gstanzl"
+    },
+    {
+      "name": "Pala",
+      "aliases": [
+        "Pala (folk art)"
+      ],
+      "popularity": 1011,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Pala (folk art)"
+    },
+    {
+      "name": "Musok eumak",
+      "aliases": [
+        "Korean shamanistic music",
+        "muak"
+      ],
+      "popularity": 1033,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Musok eumak"
+    },
+    {
+      "name": "Seto leelo",
+      "aliases": [
+        "setu leelo"
+      ],
+      "popularity": 1039,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Seto leelo"
+    },
+    {
+      "name": "Palam",
+      "aliases": [
+        "Palam (music)",
+        "pallam"
+      ],
+      "popularity": 1048,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Palam (music)"
+    },
+    {
+      "name": "Dagbon music and dance",
+      "aliases": [
+        "Dagbamba music",
+        "Dagbani dance",
+        "Dagbani music",
+        "Dagbon dance",
+        "Dagbon music",
+        "Dagomba music"
+      ],
+      "popularity": 1065,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Dagbon music and dance"
+    },
+    {
+      "name": "Fakanau",
+      "aliases": [],
+      "popularity": 1084,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Fakanau"
+    },
+    {
+      "name": "Pols",
+      "aliases": [
+        "Polsk",
+        "Springlek"
+      ],
+      "popularity": 1098,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Pols"
+    },
+    {
+      "name": "Bushi",
+      "aliases": [
+        "Bushi (music)"
+      ],
+      "popularity": 1106,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Bushi (music)"
+    },
+    {
+      "name": "Qaytarma",
+      "aliases": [],
+      "popularity": 1107,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Qaytarma"
+    },
+    {
+      "name": "Rizitika",
+      "aliases": [],
+      "popularity": 1118,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Rizitika"
+    },
+    {
+      "name": "Ping opera",
+      "aliases": [
+        "Pingju"
+      ],
+      "popularity": 1133,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Ping opera"
+    },
+    {
+      "name": "Teochew string music",
+      "aliases": [
+        "chaozhou xianshi",
+        "chaozhou xianyue",
+        "xianshiyue"
+      ],
+      "popularity": 1140,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "Teochew string music"
+    },
+    {
+      "name": "Min opera",
+      "aliases": [
+        "Fuzhou drama",
+        "Hók-ciŭ opera",
+        "Mìng opera"
+      ],
+      "popularity": 1152,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Min opera"
+    },
+    {
+      "name": "Wu opera",
+      "aliases": [
+        "Wuju"
+      ],
+      "popularity": 1200,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Wu opera"
+    },
+    {
+      "name": "Bozlak",
+      "aliases": [],
+      "popularity": 1211,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Bozlak"
+    },
+    {
+      "name": "Wyrd folk",
+      "aliases": [],
+      "popularity": 1223,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Wyrd folk"
+    },
+    {
+      "name": "Cariso",
+      "aliases": [
+        "caïso",
+        "kaiso",
+        "Trinidadian cariso"
+      ],
+      "popularity": 1226,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "Cariso"
+    },
+    {
+      "name": "Beiguan music",
+      "aliases": [
+        "Beiguan",
+        "Luantan",
+        "Pak-koán music",
+        "Pak-kuan music",
+        "Peikuan",
+        "Pet-kón music"
+      ],
+      "popularity": 1233,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Beiguan music"
+    },
+    {
+      "name": "Dasakathia",
+      "aliases": [
+        "Daskathia"
+      ],
+      "popularity": 1235,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Dasakathia"
+    },
+    {
+      "name": "Deusi/Bhailo",
+      "aliases": [
+        "Bhailo",
+        "Deusi"
+      ],
+      "popularity": 1265,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Deusi/Bhailo"
+    },
+    {
+      "name": "Naamyam",
+      "aliases": [],
+      "popularity": 1287,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Naamyam"
+    },
+    {
+      "name": "Seresta",
+      "aliases": [
+        "sereno",
+        "Seresta (music)"
+      ],
+      "popularity": 1307,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Seresta (music)"
+    },
+    {
+      "name": "Malagueña",
+      "aliases": [
+        "Malagueña (genre)",
+        "malagueña venezolana"
+      ],
+      "popularity": 1309,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "Malagueña (genre)"
+    },
+    {
+      "name": "Gaelic folk music",
+      "aliases": [
+        "Gaelic traditional music"
+      ],
+      "popularity": 1323,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Gaelic folk music"
+    },
+    {
+      "name": "Lam saravane",
+      "aliases": [],
+      "popularity": 1324,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Lam saravane"
+    },
+    {
+      "name": "Kavishari",
+      "aliases": [],
+      "popularity": 1330,
+      "rarity": 0.687,
+      "tier": 4,
+      "wiki": "Kavishari"
+    },
+    {
+      "name": "Toi music",
+      "aliases": [
+        "toi"
+      ],
+      "popularity": 1333,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Toi music"
+    },
+    {
+      "name": "Chuanqi",
+      "aliases": [
+        "Chuanqi (theatre)",
+        "transmission of the strange"
+      ],
+      "popularity": 1336,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Chuanqi (theatre)"
+    },
+    {
+      "name": "Fann at-Tanbura",
+      "aliases": [],
+      "popularity": 1341,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Fann at-Tanbura"
+    },
+    {
+      "name": "Stev",
+      "aliases": [],
+      "popularity": 1350,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Stev"
+    },
+    {
+      "name": "Xaxado",
+      "aliases": [],
+      "popularity": 1353,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Xaxado"
+    },
+    {
+      "name": "Cuban folk music",
+      "aliases": [
+        "Cuban traditional music"
+      ],
+      "popularity": 1364,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Cuban folk music"
+    },
+    {
+      "name": "Kawachi ondo",
+      "aliases": [],
+      "popularity": 1366,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Kawachi ondo"
+    },
+    {
+      "name": "Ich bin der Doktor Eisenbart",
+      "aliases": [
+        "Eisenbart Song",
+        "I am the Doctor Eisenbart"
+      ],
+      "popularity": 1393,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Ich bin der Doktor Eisenbart"
+    },
+    {
+      "name": "Sua",
+      "aliases": [
+        "Sua (folk music)"
+      ],
+      "popularity": 1406,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Sua (folk music)"
+    },
+    {
+      "name": "Hui opera",
+      "aliases": [
+        "Huiju"
+      ],
+      "popularity": 1419,
+      "rarity": 0.664,
+      "tier": 4,
+      "wiki": "Hui opera"
+    },
+    {
+      "name": "Kurdish folk music",
+      "aliases": [],
+      "popularity": 1420,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Kurdish folk music"
+    },
+    {
+      "name": "Free folk",
+      "aliases": [],
+      "popularity": 1428,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Free folk"
+    },
+    {
+      "name": "Slovak folk music",
+      "aliases": [
+        "Slovakian folk music"
+      ],
+      "popularity": 1434,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Slovak folk music"
+    },
+    {
+      "name": "Montea",
+      "aliases": [
+        "moutia",
+        "moutya"
+      ],
+      "popularity": 1441,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Montea"
+    },
+    {
+      "name": "Nanxi",
+      "aliases": [
+        "Nanxi (theatre)"
+      ],
+      "popularity": 1442,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Nanxi (theatre)"
+    },
+    {
+      "name": "Shao opera",
+      "aliases": [],
+      "popularity": 1443,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Shao opera"
+    },
+    {
+      "name": "Chula",
+      "aliases": [
+        "Chula (music)"
+      ],
+      "popularity": 1446,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Chula (music)"
+    },
+    {
+      "name": "Music of Mizoram",
+      "aliases": [
+        "Mizo music"
+      ],
+      "popularity": 1454,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Music of Mizoram"
+    },
+    {
+      "name": "Zäuerli",
+      "aliases": [],
+      "popularity": 1482,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Zäuerli"
+    },
+    {
+      "name": "Fatele",
+      "aliases": [],
+      "popularity": 1513,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Fatele"
+    },
+    {
+      "name": "Bluegrass fiddle",
+      "aliases": [],
+      "popularity": 1525,
+      "rarity": 0.64,
+      "tier": 4,
+      "wiki": "Bluegrass fiddle"
+    },
+    {
+      "name": "Iavnana",
+      "aliases": [],
+      "popularity": 1540,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Iavnana"
+    },
+    {
+      "name": "New acoustic music",
+      "aliases": [],
+      "popularity": 1543,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "New acoustic music"
+    },
+    {
+      "name": "Pakistani folk music",
+      "aliases": [],
+      "popularity": 1548,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Pakistani folk music"
+    },
+    {
+      "name": "Alpini songs",
+      "aliases": [
+        "Alpini song"
+      ],
+      "popularity": 1580,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "Alpini songs"
+    },
+    {
+      "name": "Chakacha",
+      "aliases": [],
+      "popularity": 1586,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Chakacha"
+    },
+    {
+      "name": "Nerd-folk",
+      "aliases": [
+        "dork-folk",
+        "dorkfolk",
+        "geek-folk",
+        "geek folk music",
+        "geekfolk",
+        "nerd folk music",
+        "nerdfolk"
+      ],
+      "popularity": 1603,
+      "rarity": 0.627,
+      "tier": 4,
+      "wiki": "Nerd-folk"
+    },
+    {
+      "name": "Jinku",
+      "aliases": [],
+      "popularity": 1612,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Jinku"
+    },
+    {
+      "name": "Lullabies of Armenia",
+      "aliases": [
+        "Armenian lullabies"
+      ],
+      "popularity": 1612,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Lullabies of Armenia"
+    },
+    {
+      "name": "Chamarrita",
+      "aliases": [],
+      "popularity": 1628,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Chamarrita"
+    },
+    {
+      "name": "Čalgija",
+      "aliases": [
+        "chalgiya"
+      ],
+      "popularity": 1654,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Čalgija"
+    },
+    {
+      "name": "Xẩm",
+      "aliases": [
+        "hát xẩm"
+      ],
+      "popularity": 1658,
+      "rarity": 0.616,
+      "tier": 4,
+      "wiki": "Xẩm"
+    },
+    {
+      "name": "Tumba",
+      "aliases": [
+        "Tumba (music)"
+      ],
+      "popularity": 1659,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Tumba (music)"
+    },
+    {
+      "name": "Dodoitsu",
+      "aliases": [],
+      "popularity": 1666,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Dodoitsu"
+    },
+    {
+      "name": "Slide",
+      "aliases": [
+        "Slide (tune type)"
+      ],
+      "popularity": 1695,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Slide (tune type)"
+    },
+    {
+      "name": "Desgarrada",
+      "aliases": [
+        "cantares ao desafio",
+        "cantigas à desgarrada",
+        "cantigas ao desafio",
+        "desgarradas"
+      ],
+      "popularity": 1697,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Desgarrada"
+    },
+    {
+      "name": "Kui",
+      "aliases": [
+        "Dombra Kuy",
+        "Kui (music)",
+        "Kuyi",
+        "Kuyis",
+        "Kyuiler"
+      ],
+      "popularity": 1748,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Kui (music)"
+    },
+    {
+      "name": "Traditional Nordic dance music",
+      "aliases": [
+        "Gammaldans",
+        "Nordic Old Time Dance Music",
+        "Spelmansmusik"
+      ],
+      "popularity": 1753,
+      "rarity": 0.602,
+      "tier": 4,
+      "wiki": "Traditional Nordic dance music"
+    },
+    {
+      "name": "Ballos",
+      "aliases": [],
+      "popularity": 1766,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Ballos"
+    },
+    {
+      "name": "Hakka hill song",
+      "aliases": [],
+      "popularity": 1779,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Hakka hill song"
+    },
+    {
+      "name": "Henan opera",
+      "aliases": [
+        "Henan bangzi",
+        "Henan gaodiao",
+        "Yu ju",
+        "Yu opera",
+        "Yuju",
+        "Yuju opera"
+      ],
+      "popularity": 1783,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Henan opera"
+    },
+    {
+      "name": "Liscio",
+      "aliases": [
+        "ballo liscio",
+        "musica da ballo romagnola"
+      ],
+      "popularity": 1821,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Liscio"
+    },
+    {
+      "name": "Alternative folk",
+      "aliases": [
+        "alt-folk"
+      ],
+      "popularity": 1841,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Alternative folk"
+    },
+    {
+      "name": "Sinawi",
+      "aliases": [
+        "Shinawi"
+      ],
+      "popularity": 1884,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Sinawi"
+    },
+    {
+      "name": "Pirekua",
+      "aliases": [],
+      "popularity": 1914,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Pirekua"
+    },
+    {
+      "name": "Starogradska muzika",
+      "aliases": [
+        "Serbian old town music",
+        "Serbian starogradska muzika"
+      ],
+      "popularity": 1925,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Starogradska muzika"
+    },
+    {
+      "name": "Ojkanje",
+      "aliases": [
+        "ojkača",
+        "ojkača singing",
+        "ojkanje singing"
+      ],
+      "popularity": 1970,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Ojkanje"
+    },
+    {
+      "name": "Azerbaijani folk music",
+      "aliases": [
+        "Azerbaijani traditional music"
+      ],
+      "popularity": 1982,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Azerbaijani folk music"
+    },
+    {
+      "name": "Qudud Halabiya",
+      "aliases": [
+        "Al-Qudoud al-Halabiya",
+        "Kudūd ḥalabiyya"
+      ],
+      "popularity": 1986,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Qudud Halabiya"
+    },
+    {
+      "name": "Türkü",
+      "aliases": [],
+      "popularity": 2030,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Türkü"
+    },
+    {
+      "name": "Tonada",
+      "aliases": [],
+      "popularity": 2065,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Tonada"
+    },
+    {
+      "name": "Sanedo",
+      "aliases": [],
+      "popularity": 2074,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Sanedo"
+    },
+    {
+      "name": "Vaar",
+      "aliases": [],
+      "popularity": 2089,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Vaar"
+    },
+    {
+      "name": "Tea-picking opera",
+      "aliases": [],
+      "popularity": 2106,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Tea-picking opera"
+    },
+    {
+      "name": "Lithuanian folk music",
+      "aliases": [
+        "Lithuanian traditional music"
+      ],
+      "popularity": 2114,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Lithuanian folk music"
+    },
+    {
+      "name": "Jongo",
+      "aliases": [
+        "Caxambu"
+      ],
+      "popularity": 2138,
+      "rarity": 0.562,
+      "tier": 3,
+      "wiki": "Jongo"
+    },
+    {
+      "name": "Vesnianky",
+      "aliases": [
+        "hahilka",
+        "hahilky",
+        "hailka",
+        "hailky",
+        "haivka",
+        "haivky",
+        "vesnianka"
+      ],
+      "popularity": 2179,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Vesnianky"
+    },
+    {
+      "name": "Kan ha diskan",
+      "aliases": [],
+      "popularity": 2220,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Kan ha diskan"
+    },
+    {
+      "name": "Bosnian root music",
+      "aliases": [
+        "izvorna",
+        "izvorna bosanska muzika",
+        "izvorna muzika"
+      ],
+      "popularity": 2222,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Bosnian root music"
+    },
+    {
+      "name": "Shan'ge",
+      "aliases": [
+        "mountain song",
+        "shange"
+      ],
+      "popularity": 2225,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Shan'ge"
+    },
+    {
+      "name": "Ripsaw music",
+      "aliases": [
+        "Combina Music",
+        "Rake 'n' Scrape",
+        "ripsaw"
+      ],
+      "popularity": 2233,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Ripsaw music"
+    },
+    {
+      "name": "Bothy ballad",
+      "aliases": [],
+      "popularity": 2242,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "Bothy ballad"
+    },
+    {
+      "name": "Nisiotika",
+      "aliases": [
+        "nisiotiko"
+      ],
+      "popularity": 2328,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Nisiotika"
+    },
+    {
+      "name": "Occitan folk music",
+      "aliases": [
+        "Occitan traditional music",
+        "Occitanian traditional music"
+      ],
+      "popularity": 2331,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Occitan folk music"
+    },
+    {
+      "name": "Danish traditional music",
+      "aliases": [
+        "Danish folk music"
+      ],
+      "popularity": 2362,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Danish traditional music"
+    },
+    {
+      "name": "Campus folk song",
+      "aliases": [
+        "campus folk",
+        "school campus song",
+        "Taiwanese campus folk song"
+      ],
+      "popularity": 2372,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Campus folk song"
+    },
+    {
+      "name": "Boduberu",
+      "aliases": [
+        "baburu lava",
+        "bodu beru"
+      ],
+      "popularity": 2377,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Boduberu"
+    },
+    {
+      "name": "Son huasteco",
+      "aliases": [
+        "huapango"
+      ],
+      "popularity": 2409,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Son huasteco"
+    },
+    {
+      "name": "Boeremusiek",
+      "aliases": [],
+      "popularity": 2429,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Boeremusiek"
+    },
+    {
+      "name": "Zamacueca",
+      "aliases": [
+        "Marinera de Lima Perú"
+      ],
+      "popularity": 2429,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Zamacueca"
+    },
+    {
+      "name": "Chaiti",
+      "aliases": [],
+      "popularity": 2457,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Chaiti"
+    },
+    {
+      "name": "Hiragasy",
+      "aliases": [],
+      "popularity": 2475,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Hiragasy"
+    },
+    {
+      "name": "Wienerlied",
+      "aliases": [],
+      "popularity": 2475,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Wienerlied"
+    },
+    {
+      "name": "Moravian folk music",
+      "aliases": [
+        "Moravian traditional music",
+        "Moravská lidová hudba"
+      ],
+      "popularity": 2516,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Moravian folk music"
+    },
+    {
+      "name": "Bećarac",
+      "aliases": [],
+      "popularity": 2523,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "Bećarac"
+    },
+    {
+      "name": "Batuque",
+      "aliases": [
+        "batuk",
+        "batuku",
+        "Batuque (Cape Verde)"
+      ],
+      "popularity": 2529,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Batuque (Cape Verde)"
+    },
+    {
+      "name": "Sanjo",
+      "aliases": [
+        "Sanjo (music)"
+      ],
+      "popularity": 2529,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Sanjo (music)"
+    },
+    {
+      "name": "Saya",
+      "aliases": [
+        "Afro-Bolivian saya",
+        "saya afroboliviana",
+        "Saya (art form)"
+      ],
+      "popularity": 2542,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Saya (art form)"
+    },
+    {
+      "name": "Shanghai opera",
+      "aliases": [
+        "huju",
+        "shēnqǔ"
+      ],
+      "popularity": 2604,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Shanghai opera"
+    },
+    {
+      "name": "Dohori",
+      "aliases": [
+        "dohori song",
+        "lok dohori"
+      ],
+      "popularity": 2629,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Dohori"
+    },
+    {
+      "name": "Liwa",
+      "aliases": [
+        "al-laywah",
+        "laywah",
+        "Liwa (music)"
+      ],
+      "popularity": 2659,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Liwa (music)"
+    },
+    {
+      "name": "Armenian folk music",
+      "aliases": [
+        "Armenian national music",
+        "Armenian traditional music"
+      ],
+      "popularity": 2676,
+      "rarity": 0.504,
+      "tier": 3,
+      "wiki": "Armenian folk music"
+    },
+    {
+      "name": "Aita",
+      "aliases": [
+        "Aita (Morocco)",
+        "Al-aita"
+      ],
+      "popularity": 2695,
+      "rarity": 0.502,
+      "tier": 3,
+      "wiki": "Aita (Morocco)"
+    },
+    {
+      "name": "Modinha",
+      "aliases": [
+        "Moda brasileira",
+        "Modinha brasileira",
+        "Modinha de salão",
+        "Modinha imperial"
+      ],
+      "popularity": 2700,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Modinha"
+    },
+    {
+      "name": "Iranian folk music",
+      "aliases": [
+        "Iranian traditional music",
+        "musiqi-e mahali",
+        "Persian folk music"
+      ],
+      "popularity": 2783,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Iranian folk music"
+    },
+    {
+      "name": "Reggada",
+      "aliases": [],
+      "popularity": 2790,
+      "rarity": 0.496,
+      "tier": 3,
+      "wiki": "Reggada"
+    },
+    {
+      "name": "Zortziko",
+      "aliases": [],
+      "popularity": 2814,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Zortziko"
+    },
+    {
+      "name": "Son jalisciense",
+      "aliases": [
+        "son jaliscience"
+      ],
+      "popularity": 2845,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Son jalisciense"
+    },
+    {
+      "name": "Czech bluegrass",
+      "aliases": [],
+      "popularity": 2851,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Czech bluegrass"
+    },
+    {
+      "name": "Icelandic folk music",
+      "aliases": [],
+      "popularity": 2860,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Icelandic folk music"
+    },
+    {
+      "name": "Assyrian folk-pop music",
+      "aliases": [
+        "Assyrian folk music",
+        "Assyrian folk/pop",
+        "Assyrian pop music",
+        "Assyrian/Syriac folk music",
+        "modern Syriac music",
+        "Syriac folk music"
+      ],
+      "popularity": 3000,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Assyrian folk-pop music"
+    },
+    {
+      "name": "Lundu",
+      "aliases": [
+        "landu",
+        "landum",
+        "londu",
+        "Lundu (dance)",
+        "lundum"
+      ],
+      "popularity": 3007,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Lundu (dance)"
+    },
+    {
+      "name": "Schrammelmusik",
+      "aliases": [],
+      "popularity": 3007,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Schrammelmusik"
+    },
+    {
+      "name": "Balkan folk music",
+      "aliases": [
+        "Balkan traditional music",
+        "folk muzika",
+        "narodna glasba",
+        "narodna glazba",
+        "narodna muzika"
+      ],
+      "popularity": 3023,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Balkan folk music"
+    },
+    {
+      "name": "Fijiri",
+      "aliases": [
+        "fidjeri",
+        "fijri",
+        "Fjiri"
+      ],
+      "popularity": 3042,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Fijiri"
+    },
+    {
+      "name": "Chèo",
+      "aliases": [
+        "hát chèo"
+      ],
+      "popularity": 3088,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Chèo"
+    },
+    {
+      "name": "Hambo",
+      "aliases": [],
+      "popularity": 3102,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "Hambo"
+    },
+    {
+      "name": "Trallalero",
+      "aliases": [
+        "tralalêro",
+        "trallallero"
+      ],
+      "popularity": 3102,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "Trallalero"
+    },
+    {
+      "name": "Chinese traditional music",
+      "aliases": [
+        "Chinese folk music"
+      ],
+      "popularity": 3156,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Chinese traditional music"
+    },
+    {
+      "name": "Ngoma music",
+      "aliases": [
+        "ing'oma music",
+        "ng'oma music"
+      ],
+      "popularity": 3162,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Ngoma music"
+    },
+    {
+      "name": "Tamborito",
+      "aliases": [],
+      "popularity": 3193,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Tamborito"
+    },
+    {
+      "name": "Carnavalito",
+      "aliases": [],
+      "popularity": 3228,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Carnavalito"
+    },
+    {
+      "name": "Métis fiddle",
+      "aliases": [
+        "Métis fiddling"
+      ],
+      "popularity": 3231,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Métis fiddle"
+    },
+    {
+      "name": "Serbian folk music",
+      "aliases": [
+        "Serbian musical folklore",
+        "Serbian traditional music"
+      ],
+      "popularity": 3254,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Serbian folk music"
+    },
+    {
+      "name": "Bentonia School",
+      "aliases": [
+        "Bentonia blues",
+        "Bentonia school of blues",
+        "Bentonia school of Delta blues",
+        "Bentonia sound"
+      ],
+      "popularity": 3263,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Bentonia School"
+    },
+    {
+      "name": "Vira",
+      "aliases": [
+        "Vira (dance)",
+        "vira do Minho",
+        "vira português"
+      ],
+      "popularity": 3266,
+      "rarity": 0.451,
+      "tier": 3,
+      "wiki": "Vira (dance)"
+    },
+    {
+      "name": "Colindă",
+      "aliases": [
+        "colind",
+        "colinde",
+        "colinduri",
+        "Romanian Christmas carol"
+      ],
+      "popularity": 3267,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Colindă"
+    },
+    {
+      "name": "Bhawaiya",
+      "aliases": [
+        "bhaowaiya",
+        "bhāoẏāiẏā"
+      ],
+      "popularity": 3327,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Bhawaiya"
+    },
+    {
+      "name": "Muiñeira",
+      "aliases": [],
+      "popularity": 3338,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Muiñeira"
+    },
+    {
+      "name": "Skiladiko",
+      "aliases": [
+        "skiladika",
+        "skyladiko"
+      ],
+      "popularity": 3340,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Skiladiko"
+    },
+    {
+      "name": "Quan họ",
+      "aliases": [
+        "Quan họ Bắc Ninh"
+      ],
+      "popularity": 3348,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Quan họ"
+    },
+    {
+      "name": "Sanjuanito",
+      "aliases": [
+        "san juanito"
+      ],
+      "popularity": 3359,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Sanjuanito"
+    },
+    {
+      "name": "Coimbra fado",
+      "aliases": [
+        "Canção de Coimbra",
+        "Fado de Coimbra",
+        "Fado de Estudante",
+        "Student Fado"
+      ],
+      "popularity": 3420,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Coimbra fado"
+    },
+    {
+      "name": "Snapsvisa",
+      "aliases": [],
+      "popularity": 3452,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Snapsvisa"
+    },
+    {
+      "name": "Bambuco",
+      "aliases": [],
+      "popularity": 3485,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Bambuco"
+    },
+    {
+      "name": "Kujawiak",
+      "aliases": [
+        "gładki",
+        "kolebany",
+        "kouiaviak",
+        "ksebka",
+        "kujaviak",
+        "odsibka",
+        "okrągły",
+        "owczarek",
+        "śpiący"
+      ],
+      "popularity": 3486,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Kujawiak"
+    },
+    {
+      "name": "Kouta",
+      "aliases": [
+        "Kota",
+        "Kouta (music)"
+      ],
+      "popularity": 3640,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Kouta (music)"
+    },
+    {
+      "name": "Teochew opera",
+      "aliases": [
+        "Chaozhou opera"
+      ],
+      "popularity": 3662,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Teochew opera"
+    },
+    {
+      "name": "Folk songs of Lithuania",
+      "aliases": [
+        "Lithuanian folk song"
+      ],
+      "popularity": 3695,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Folk songs of Lithuania"
+    },
+    {
+      "name": "Dengbêj",
+      "aliases": [
+        "art of the dengbej",
+        "dengbêjî",
+        "kurdish oral art"
+      ],
+      "popularity": 3722,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Dengbêj"
+    },
+    {
+      "name": "Jiangnan sizhu",
+      "aliases": [
+        "sizhu"
+      ],
+      "popularity": 3816,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Jiangnan sizhu"
+    },
+    {
+      "name": "Gaita zuliana",
+      "aliases": [
+        "gaita"
+      ],
+      "popularity": 3892,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Gaita zuliana"
+    },
+    {
+      "name": "Bélé",
+      "aliases": [
+        "bel-air",
+        "belair",
+        "fine-air"
+      ],
+      "popularity": 3895,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Bélé"
+    },
+    {
+      "name": "Meykhana",
+      "aliases": [
+        "meyxana"
+      ],
+      "popularity": 3947,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Meykhana"
+    },
+    {
+      "name": "Bhatiali",
+      "aliases": [],
+      "popularity": 3958,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Bhatiali"
+    },
+    {
+      "name": "Rōkyoku",
+      "aliases": [
+        "naniwa-bushi"
+      ],
+      "popularity": 3965,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Rōkyoku"
+    },
+    {
+      "name": "Daina",
+      "aliases": [
+        "Daina (Latvia)"
+      ],
+      "popularity": 3999,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Daina (Latvia)"
+    },
+    {
+      "name": "Blue yodeling",
+      "aliases": [
+        "blue yodel",
+        "yodeling blues"
+      ],
+      "popularity": 4002,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Blue yodeling"
+    },
+    {
+      "name": "Shima-uta",
+      "aliases": [
+        "shimauta"
+      ],
+      "popularity": 4019,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Shima-uta"
+    },
+    {
+      "name": "Ganga",
+      "aliases": [
+        "Ganga (music)"
+      ],
+      "popularity": 4056,
+      "rarity": 0.398,
+      "tier": 2,
+      "wiki": "Ganga (music)"
+    },
+    {
+      "name": "Industrial folk music",
+      "aliases": [
+        "industrial folk song",
+        "industrial work song",
+        "labor song",
+        "labour-movement song",
+        "working song"
+      ],
+      "popularity": 4096,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Industrial folk music"
+    },
+    {
+      "name": "Rekuhkara",
+      "aliases": [
+        "rekuxkara"
+      ],
+      "popularity": 4116,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Rekuhkara"
+    },
+    {
+      "name": "Duma",
+      "aliases": [
+        "Duma (epic)"
+      ],
+      "popularity": 4131,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Duma (epic)"
+    },
+    {
+      "name": "Volkslied",
+      "aliases": [
+        "German folk song"
+      ],
+      "popularity": 4138,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Volkslied"
+    },
+    {
+      "name": "Nanguan music",
+      "aliases": [
+        "Lam-im",
+        "Lam-koan",
+        "Lam-kuan",
+        "langjunyue",
+        "nan-kouan",
+        "nanguan",
+        "nanqu",
+        "nanyin",
+        "nanyue",
+        "xianguan"
+      ],
+      "popularity": 4171,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Nanguan music"
+    },
+    {
+      "name": "Welsh folk music",
+      "aliases": [
+        "traditional Welsh music",
+        "Welsh traditional music"
+      ],
+      "popularity": 4187,
+      "rarity": 0.384,
+      "tier": 2,
+      "wiki": "Welsh folk music"
+    },
+    {
+      "name": "Haitian Vodou drumming",
+      "aliases": [
+        "haitian vodoun drumming",
+        "haitian voodoo drumming",
+        "vodou drumming",
+        "vodoun drumming"
+      ],
+      "popularity": 4307,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Haitian Vodou drumming"
+    },
+    {
+      "name": "Traditional music of Galicia, Cantabria and Asturias",
+      "aliases": [
+        "Northwest Iberian folk music"
+      ],
+      "popularity": 4366,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Traditional music of Galicia, Cantabria and Asturias"
+    },
+    {
+      "name": "Canadian folk music",
+      "aliases": [],
+      "popularity": 4376,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Canadian folk music"
+    },
+    {
+      "name": "Fife and drum blues",
+      "aliases": [
+        "fife and drum",
+        "fife and drum band music"
+      ],
+      "popularity": 4382,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Fife and drum blues"
+    },
+    {
+      "name": "Qinqiang",
+      "aliases": [],
+      "popularity": 4401,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Qinqiang"
+    },
+    {
+      "name": "Taiwanese opera",
+      "aliases": [
+        "guaˊhiˋ",
+        "Hokkien opera",
+        "Ke-Tse opera",
+        "koa-a-hi"
+      ],
+      "popularity": 4517,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Taiwanese opera"
+    },
+    {
+      "name": "Benna",
+      "aliases": [
+        "Benna (genre)",
+        "Bennah",
+        "Ditti"
+      ],
+      "popularity": 4531,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "Benna (genre)"
+    },
+    {
+      "name": "Malagueñas",
+      "aliases": [
+        "Malagueñas (flamenco style)"
+      ],
+      "popularity": 4540,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Malagueñas (flamenco style)"
+    },
+    {
+      "name": "Għana",
+      "aliases": [
+        "Għana (folk music)",
+        "ghana"
+      ],
+      "popularity": 4627,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Għana (folk music)"
+    },
+    {
+      "name": "French folk music",
+      "aliases": [
+        "folk music of France"
+      ],
+      "popularity": 4694,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "French folk music"
+    },
+    {
+      "name": "Neo-medieval music",
+      "aliases": [
+        "medieval folk music",
+        "neo-medieval folk"
+      ],
+      "popularity": 4708,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Neo-medieval music"
+    },
+    {
+      "name": "Gaelic psalm singing",
+      "aliases": [
+        "Gaelic psalm",
+        "Gaelic Psalmody",
+        "Salmadaireachd",
+        "Salmaireachd",
+        "Seinn nan salm"
+      ],
+      "popularity": 4717,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Gaelic psalm singing"
+    },
+    {
+      "name": "Rasiya",
+      "aliases": [],
+      "popularity": 4741,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Rasiya"
+    },
+    {
+      "name": "Traditional bluegrass",
+      "aliases": [],
+      "popularity": 4741,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Traditional bluegrass"
+    },
+    {
+      "name": "Korean revolutionary opera",
+      "aliases": [],
+      "popularity": 4773,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Korean revolutionary opera"
+    },
+    {
+      "name": "Swedish folk music",
+      "aliases": [],
+      "popularity": 4834,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Swedish folk music"
+    },
+    {
+      "name": "Folk jazz",
+      "aliases": [],
+      "popularity": 4857,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Folk jazz"
+    },
+    {
+      "name": "Ainu folk music",
+      "aliases": [
+        "Ainu traditional music"
+      ],
+      "popularity": 4875,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Ainu folk music"
+    },
+    {
+      "name": "Verbunkos",
+      "aliases": [],
+      "popularity": 4880,
+      "rarity": 0.342,
+      "tier": 2,
+      "wiki": "Verbunkos"
+    },
+    {
+      "name": "Border ballad",
+      "aliases": [],
+      "popularity": 4926,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Border ballad"
+    },
+    {
+      "name": "Cossack songs",
+      "aliases": [
+        "cosaques",
+        "Cossack song",
+        "kozaki"
+      ],
+      "popularity": 4962,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Cossack songs"
+    },
+    {
+      "name": "Australian folk music",
+      "aliases": [],
+      "popularity": 4979,
+      "rarity": 0.336,
+      "tier": 2,
+      "wiki": "Australian folk music"
+    },
+    {
+      "name": "Música popular",
+      "aliases": [
+        "Música popular (Colombia)",
+        "música popular colombiana"
+      ],
+      "popularity": 4994,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Música popular (Colombia)"
+    },
+    {
+      "name": "Traditional folk music",
+      "aliases": [
+        "folklore music",
+        "musical folklore",
+        "traditional folk",
+        "traditional music"
+      ],
+      "popularity": 5007,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Traditional folk music"
+    },
+    {
+      "name": "Capoeira music",
+      "aliases": [],
+      "popularity": 5018,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Capoeira music"
+    },
+    {
+      "name": "Apala",
+      "aliases": [
+        "akpala"
+      ],
+      "popularity": 5031,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Apala"
+    },
+    {
+      "name": "Cape Breton fiddling",
+      "aliases": [],
+      "popularity": 5205,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Cape Breton fiddling"
+    },
+    {
+      "name": "Payada",
+      "aliases": [
+        "pajada",
+        "pallada",
+        "paya"
+      ],
+      "popularity": 5237,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Payada"
+    },
+    {
+      "name": "Burra katha",
+      "aliases": [
+        "burrakatha",
+        "Telugu folk storytelling",
+        "Telugu storytelling"
+      ],
+      "popularity": 5302,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Burra katha"
+    },
+    {
+      "name": "Zaju",
+      "aliases": [
+        "Yuan zaju"
+      ],
+      "popularity": 5305,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Zaju"
+    },
+    {
+      "name": "Hungarian folk music",
+      "aliases": [
+        "magyar népzene",
+        "népzene"
+      ],
+      "popularity": 5333,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Hungarian folk music"
+    },
+    {
+      "name": "Biraha",
+      "aliases": [
+        "birha"
+      ],
+      "popularity": 5340,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Biraha"
+    },
+    {
+      "name": "Saeta",
+      "aliases": [
+        "flamenco saeta",
+        "saeta antigua de cabra",
+        "saeta antiguas",
+        "saeta de cabra",
+        "Saeta (flamenco)"
+      ],
+      "popularity": 5347,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Saeta (flamenco)"
+    },
+    {
+      "name": "Long song",
+      "aliases": [
+        "Urtiin duu",
+        "Urtin duu",
+        "Urtyn duu"
+      ],
+      "popularity": 5460,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Long song"
+    },
+    {
+      "name": "Ondo",
+      "aliases": [
+        "Ondo (music)"
+      ],
+      "popularity": 5523,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Ondo (music)"
+    },
+    {
+      "name": "American roots music",
+      "aliases": [
+        "roots music"
+      ],
+      "popularity": 5588,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "American roots music"
+    },
+    {
+      "name": "Chamamé",
+      "aliases": [],
+      "popularity": 5614,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Chamamé"
+    },
+    {
+      "name": "Romanian traditional music",
+      "aliases": [
+        "Romanian folk",
+        "Romanian folk music"
+      ],
+      "popularity": 5686,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Romanian traditional music"
+    },
+    {
+      "name": "Balkan brass",
+      "aliases": [
+        "Balkan brass band music"
+      ],
+      "popularity": 5757,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Balkan brass"
+    },
+    {
+      "name": "Chacarera",
+      "aliases": [],
+      "popularity": 5766,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Chacarera"
+    },
+    {
+      "name": "Klapa",
+      "aliases": [
+        "klape",
+        "klapsko pjevanje"
+      ],
+      "popularity": 5792,
+      "rarity": 0.293,
+      "tier": 2,
+      "wiki": "Klapa"
+    },
+    {
+      "name": "Ukrainian folk music",
+      "aliases": [
+        "Ukrainian traditional music"
+      ],
+      "popularity": 5820,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Ukrainian folk music"
+    },
+    {
+      "name": "Alpine folk music",
+      "aliases": [
+        "Alpenmusik",
+        "Bavarian folk music",
+        "folk music of Alpine region"
+      ],
+      "popularity": 5946,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Alpine folk music"
+    },
+    {
+      "name": "Old time fiddle",
+      "aliases": [],
+      "popularity": 5947,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Old time fiddle"
+    },
+    {
+      "name": "Aguinaldo",
+      "aliases": [
+        "Aguinaldo (music)"
+      ],
+      "popularity": 5981,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Aguinaldo (music)"
+    },
+    {
+      "name": "Huangmei opera",
+      "aliases": [
+        "Huang Mei Opera"
+      ],
+      "popularity": 6042,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Huangmei opera"
+    },
+    {
+      "name": "Cante Alentejano",
+      "aliases": [
+        "canto alentejano"
+      ],
+      "popularity": 6123,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Cante Alentejano"
+    },
+    {
+      "name": "Koliadka",
+      "aliases": [
+        "kolіadky",
+        "kolyadka",
+        "kolyadky",
+        "Slavic Christmas carol"
+      ],
+      "popularity": 6135,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Koliadka"
+    },
+    {
+      "name": "Parang",
+      "aliases": [],
+      "popularity": 6170,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Parang"
+    },
+    {
+      "name": "Kajari",
+      "aliases": [],
+      "popularity": 6205,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Kajari"
+    },
+    {
+      "name": "Xinyao",
+      "aliases": [
+        "xinjiapo geyao",
+        "xinjiapo nianqingren zichuang geyao"
+      ],
+      "popularity": 6208,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Xinyao"
+    },
+    {
+      "name": "Copla",
+      "aliases": [
+        "Andalusian copla",
+        "canción andaluza",
+        "canción española",
+        "canción folklórica",
+        "copla andaluza",
+        "Copla (music)",
+        "tonadilla",
+        "tonadilla escénica"
+      ],
+      "popularity": 6266,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Copla (music)"
+    },
+    {
+      "name": "Semba",
+      "aliases": [],
+      "popularity": 6348,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Semba"
+    },
+    {
+      "name": "Doina",
+      "aliases": [],
+      "popularity": 6405,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Doina"
+    },
+    {
+      "name": "Mappila songs",
+      "aliases": [
+        "Malabar Muslim folk",
+        "Mappila folk",
+        "Mappila paattu",
+        "Mappila song"
+      ],
+      "popularity": 6424,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Mappila songs"
+    },
+    {
+      "name": "Krakowiak",
+      "aliases": [
+        "cracovienne",
+        "krakauer"
+      ],
+      "popularity": 6437,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Krakowiak"
+    },
+    {
+      "name": "Pungmul",
+      "aliases": [
+        "nongak"
+      ],
+      "popularity": 6538,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Pungmul"
+    },
+    {
+      "name": "Folk music of Punjab",
+      "aliases": [
+        "Punjabi folk music",
+        "Punjabi lok geet"
+      ],
+      "popularity": 6656,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Folk music of Punjab"
+    },
+    {
+      "name": "Lăutărească music",
+      "aliases": [
+        "lăutărească",
+        "lăutari music",
+        "muzică lăutărească"
+      ],
+      "popularity": 6766,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Lăutărească music"
+    },
+    {
+      "name": "Warabe uta",
+      "aliases": [],
+      "popularity": 6891,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Warabe uta"
+    },
+    {
+      "name": "Slip jig",
+      "aliases": [
+        "hop jig"
+      ],
+      "popularity": 7048,
+      "rarity": 0.249,
+      "tier": 2,
+      "wiki": "Slip jig"
+    },
+    {
+      "name": "Zamba",
+      "aliases": [
+        "Zamba (artform)"
+      ],
+      "popularity": 7146,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Zamba (artform)"
+    },
+    {
+      "name": "Cantu a tenore",
+      "aliases": [],
+      "popularity": 7179,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Cantu a tenore"
+    },
+    {
+      "name": "Son mexicano",
+      "aliases": [
+        "Mexican son music"
+      ],
+      "popularity": 7417,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Son mexicano"
+    },
+    {
+      "name": "Son jarocho",
+      "aliases": [],
+      "popularity": 7449,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Son jarocho"
+    },
+    {
+      "name": "Folk baroque",
+      "aliases": [
+        "baroque guitar"
+      ],
+      "popularity": 7484,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Folk baroque"
+    },
+    {
+      "name": "Maracatu",
+      "aliases": [],
+      "popularity": 7485,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Maracatu"
+    },
+    {
+      "name": "Philippine folk music",
+      "aliases": [
+        "Filipino folk music"
+      ],
+      "popularity": 7533,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Philippine folk music"
+    },
+    {
+      "name": "Tallava",
+      "aliases": [
+        "talava"
+      ],
+      "popularity": 7572,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Tallava"
+    },
+    {
+      "name": "Greek traditional music",
+      "aliases": [
+        "Greek folk music"
+      ],
+      "popularity": 7620,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Greek traditional music"
+    },
+    {
+      "name": "Nuo theatre",
+      "aliases": [
+        "Nuo drama",
+        "Nuo opera",
+        "Nuoxi"
+      ],
+      "popularity": 7890,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Nuo theatre"
+    },
+    {
+      "name": "Polska",
+      "aliases": [
+        "Polska (dance)"
+      ],
+      "popularity": 8079,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Polska (dance)"
+    },
+    {
+      "name": "Pygmy music",
+      "aliases": [],
+      "popularity": 8202,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Pygmy music"
+    },
+    {
+      "name": "Traditional black gospel",
+      "aliases": [],
+      "popularity": 8220,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Traditional black gospel"
+    },
+    {
+      "name": "Sevillanas",
+      "aliases": [],
+      "popularity": 8286,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Sevillanas"
+    },
+    {
+      "name": "Progressive bluegrass",
+      "aliases": [
+        "newgrass"
+      ],
+      "popularity": 8329,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Progressive bluegrass"
+    },
+    {
+      "name": "Yukar",
+      "aliases": [],
+      "popularity": 8371,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Yukar"
+    },
+    {
+      "name": "Chastushka",
+      "aliases": [],
+      "popularity": 8672,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Chastushka"
+    },
+    {
+      "name": "Italian folk music",
+      "aliases": [],
+      "popularity": 9088,
+      "rarity": 0.209,
+      "tier": 2,
+      "wiki": "Italian folk music"
+    },
+    {
+      "name": "Min'yō",
+      "aliases": [
+        "Japanese min'yō",
+        "minyo",
+        "Nihon min'yō"
+      ],
+      "popularity": 9294,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Min'yō"
+    },
+    {
+      "name": "Méringue",
+      "aliases": [
+        "Haitian méringue",
+        "mereng",
+        "méringue de salon",
+        "méringue lente",
+        "méringue music"
+      ],
+      "popularity": 9298,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Méringue"
+    },
+    {
+      "name": "Country folk",
+      "aliases": [],
+      "popularity": 9348,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Country folk"
+    },
+    {
+      "name": "Runic song",
+      "aliases": [
+        "regilaul",
+        "rune singing",
+        "rune song",
+        "runesang",
+        "runo song",
+        "runolaul",
+        "runolaulu",
+        "runosång"
+      ],
+      "popularity": 9356,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Runic song"
+    },
+    {
+      "name": "Indian folk music",
+      "aliases": [
+        "folk music of India"
+      ],
+      "popularity": 9703,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Indian folk music"
+    },
+    {
+      "name": "Yayue",
+      "aliases": [
+        "Chinese court music"
+      ],
+      "popularity": 9776,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Yayue"
+    },
+    {
+      "name": "Memphis blues",
+      "aliases": [],
+      "popularity": 9790,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Memphis blues"
+    },
+    {
+      "name": "Tsugaru-jamisen",
+      "aliases": [
+        "tsugaru-shamisen"
+      ],
+      "popularity": 9971,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Tsugaru-jamisen"
+    },
+    {
+      "name": "Kuda Lumping",
+      "aliases": [
+        "ebeg",
+        "jaran kepang",
+        "jaranan",
+        "jathilan",
+        "kuda kepang",
+        "sang hyang jaran"
+      ],
+      "popularity": 10402,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Kuda Lumping"
+    },
+    {
+      "name": "Christian country music",
+      "aliases": [
+        "Christian country",
+        "country gospel",
+        "gospel country",
+        "inspirational country"
+      ],
+      "popularity": 10681,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Christian country music"
+    },
+    {
+      "name": "Kumina",
+      "aliases": [
+        "Cumina"
+      ],
+      "popularity": 10794,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Kumina"
+    },
+    {
+      "name": "Sichuan opera",
+      "aliases": [
+        "chuānjù",
+        "cuan ju",
+        "Sichuanese opera"
+      ],
+      "popularity": 11248,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Sichuan opera"
+    },
+    {
+      "name": "Jota",
+      "aliases": [
+        "Jota (music)"
+      ],
+      "popularity": 11249,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Jota (music)"
+    },
+    {
+      "name": "Yue opera",
+      "aliases": [
+        "Shaoxing literal opera",
+        "Shaoxing opera"
+      ],
+      "popularity": 11260,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Yue opera"
+    },
+    {
+      "name": "Huayno",
+      "aliases": [
+        "huaino"
+      ],
+      "popularity": 11285,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Huayno"
+    },
+    {
+      "name": "Turkish folk music",
+      "aliases": [
+        "halk müziği",
+        "Turkish traditional music"
+      ],
+      "popularity": 11379,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Turkish folk music"
+    },
+    {
+      "name": "Bal-musette",
+      "aliases": [
+        "accordion musette",
+        "musette"
+      ],
+      "popularity": 11433,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Bal-musette"
+    },
+    {
+      "name": "White voice",
+      "aliases": [],
+      "popularity": 11477,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "White voice"
+    },
+    {
+      "name": "Russian folk music",
+      "aliases": [
+        "Russian ethnic music",
+        "Russian traditional music",
+        "traditional Russian music"
+      ],
+      "popularity": 11492,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Russian folk music"
+    },
+    {
+      "name": "Progressive folk",
+      "aliases": [
+        "prog folk",
+        "progressive folk music"
+      ],
+      "popularity": 11618,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Progressive folk"
+    },
+    {
+      "name": "Drinking song",
+      "aliases": [
+        "alcohol song",
+        "bacchanalian song",
+        "bar song",
+        "pub song"
+      ],
+      "popularity": 11765,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Drinking song"
+    },
+    {
+      "name": "Waulking song",
+      "aliases": [
+        "Milling Song",
+        "Òrain luathaidh"
+      ],
+      "popularity": 12693,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Waulking song"
+    },
+    {
+      "name": "Sardana",
+      "aliases": [],
+      "popularity": 12823,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Sardana"
+    },
+    {
+      "name": "Milonga",
+      "aliases": [
+        "habanera pobre",
+        "Milonga (music)"
+      ],
+      "popularity": 12861,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Milonga (music)"
+    },
+    {
+      "name": "Scrumpy and Western",
+      "aliases": [],
+      "popularity": 13039,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Scrumpy and Western"
+    },
+    {
+      "name": "Albanian iso-polyphony",
+      "aliases": [
+        "iso-Polyphony"
+      ],
+      "popularity": 13341,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Albanian iso-polyphony"
+    },
+    {
+      "name": "Nordic folk music",
+      "aliases": [
+        "Nordic traditional music"
+      ],
+      "popularity": 13531,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Nordic folk music"
+    },
+    {
+      "name": "Seguidilla",
+      "aliases": [],
+      "popularity": 13769,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Seguidilla"
+    },
+    {
+      "name": "Canzone napoletana",
+      "aliases": [
+        "Neapolitan music",
+        "Neapolitan song"
+      ],
+      "popularity": 13954,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Canzone napoletana"
+    },
+    {
+      "name": "Joropo",
+      "aliases": [],
+      "popularity": 14110,
+      "rarity": 0.142,
+      "tier": 1,
+      "wiki": "Joropo"
+    },
+    {
+      "name": "Kunqu",
+      "aliases": [
+        "kun opera",
+        "kunju",
+        "kunqu opera",
+        "kunqu theatre"
+      ],
+      "popularity": 14419,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "Kunqu"
+    },
+    {
+      "name": "Scottish folk music",
+      "aliases": [
+        "traditional Scottish folk"
+      ],
+      "popularity": 14458,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Scottish folk music"
+    },
+    {
+      "name": "Conjunto",
+      "aliases": [
+        "conjunto norteño",
+        "conjunto tejano"
+      ],
+      "popularity": 14802,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Conjunto"
+    },
+    {
+      "name": "Harana",
+      "aliases": [
+        "Harana (serenade)"
+      ],
+      "popularity": 15881,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Harana (serenade)"
+    },
+    {
+      "name": "Bardcore",
+      "aliases": [
+        "tavernwave"
+      ],
+      "popularity": 16088,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Bardcore"
+    },
+    {
+      "name": "Cueca",
+      "aliases": [],
+      "popularity": 16090,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Cueca"
+    },
+    {
+      "name": "Talking blues",
+      "aliases": [],
+      "popularity": 16616,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Talking blues"
+    },
+    {
+      "name": "Sevdalinka",
+      "aliases": [
+        "sevdah",
+        "sevdalinke"
+      ],
+      "popularity": 16656,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Sevdalinka"
+    },
+    {
+      "name": "New Weird America",
+      "aliases": [
+        "NWA"
+      ],
+      "popularity": 16793,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "New Weird America"
+    },
+    {
+      "name": "Chalga",
+      "aliases": [],
+      "popularity": 16966,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Chalga"
+    },
+    {
+      "name": "Laïko",
+      "aliases": [
+        "laika",
+        "laïki"
+      ],
+      "popularity": 17217,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Laïko"
+    },
+    {
+      "name": "Kundiman",
+      "aliases": [],
+      "popularity": 17328,
+      "rarity": 0.116,
+      "tier": 1,
+      "wiki": "Kundiman"
+    },
+    {
+      "name": "Field holler",
+      "aliases": [
+        "field call",
+        "plantation songs",
+        "slave songs"
+      ],
+      "popularity": 17467,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Field holler"
+    },
+    {
+      "name": "Barcarolle",
+      "aliases": [],
+      "popularity": 17650,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Barcarolle"
+    },
+    {
+      "name": "Kulning",
+      "aliases": [
+        "herding calls",
+        "kauking",
+        "kaukning",
+        "kulokk",
+        "kulokker",
+        "kyrlokker",
+        "laling",
+        "lålning",
+        "lockrop"
+      ],
+      "popularity": 18044,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Kulning"
+    },
+    {
+      "name": "Hill country blues",
+      "aliases": [
+        "North Mississippi blues",
+        "North Mississippi hill country blues"
+      ],
+      "popularity": 18521,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Hill country blues"
+    },
+    {
+      "name": "Cantonese opera",
+      "aliases": [
+        "Yue Ju"
+      ],
+      "popularity": 19013,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Cantonese opera"
+    },
+    {
+      "name": "Candombe",
+      "aliases": [],
+      "popularity": 20949,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Candombe"
+    },
+    {
+      "name": "Reel",
+      "aliases": [
+        "Reel (dance)",
+        "reels"
+      ],
+      "popularity": 21515,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Reel (dance)"
+    },
+    {
+      "name": "American primitive guitar",
+      "aliases": [
+        "American primitivism"
+      ],
+      "popularity": 22279,
+      "rarity": 0.098,
+      "tier": 1,
+      "wiki": "American primitive guitar"
+    },
+    {
+      "name": "Country blues",
+      "aliases": [
+        "backwoods blues",
+        "downhome blues",
+        "folk blues",
+        "rural blues"
+      ],
+      "popularity": 23179,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Country blues"
+    },
+    {
+      "name": "Revolutionary opera",
+      "aliases": [
+        "Chinese revolutionary opera",
+        "model opera",
+        "yangban xi"
+      ],
+      "popularity": 24997,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Revolutionary opera"
+    },
+    {
+      "name": "Irish rebel song",
+      "aliases": [
+        "Irish rebel music"
+      ],
+      "popularity": 25166,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Irish rebel song"
+    },
+    {
+      "name": "English folk music",
+      "aliases": [
+        "folk music of England"
+      ],
+      "popularity": 25990,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "English folk music"
+    },
+    {
+      "name": "Manele",
+      "aliases": [
+        "manea"
+      ],
+      "popularity": 26224,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Manele"
+    },
+    {
+      "name": "Piedmont blues",
+      "aliases": [
+        "East Coast blues",
+        "Southeastern blues"
+      ],
+      "popularity": 27618,
+      "rarity": 0.084,
+      "tier": 1,
+      "wiki": "Piedmont blues"
+    },
+    {
+      "name": "Work song",
+      "aliases": [
+        "work songs",
+        "work tune"
+      ],
+      "popularity": 27921,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Work song"
+    },
+    {
+      "name": "Gnawa music",
+      "aliases": [
+        "Ghanawi music",
+        "Gnawa"
+      ],
+      "popularity": 28089,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Gnawa music"
+    },
+    {
+      "name": "Freak folk",
+      "aliases": [
+        "freakfolk"
+      ],
+      "popularity": 28154,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Freak folk"
+    },
+    {
+      "name": "Bian lian",
+      "aliases": [
+        "Face-Changing"
+      ],
+      "popularity": 31792,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Bian lian"
+    },
+    {
+      "name": "Jug band",
+      "aliases": [
+        "acoustic jug band"
+      ],
+      "popularity": 32942,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Jug band"
+    },
+    {
+      "name": "Folk-pop",
+      "aliases": [
+        "pop-folk"
+      ],
+      "popularity": 33500,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Folk-pop"
+    },
+    {
+      "name": "Jig",
+      "aliases": [
+        "port"
+      ],
+      "popularity": 34449,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Jig"
+    },
+    {
+      "name": "Rebetiko",
+      "aliases": [
+        "Rebetika",
+        "Rembetika",
+        "Rembetiko",
+        "Rempetiko"
+      ],
+      "popularity": 34708,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Rebetiko"
+    },
+    {
+      "name": "Pansori",
+      "aliases": [
+        "Korean epic chants",
+        "P'ansori"
+      ],
+      "popularity": 35133,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Pansori"
+    },
+    {
+      "name": "Turbo-folk",
+      "aliases": [
+        "turbofolk"
+      ],
+      "popularity": 36677,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Turbo-folk"
+    },
+    {
+      "name": "Psychedelic folk",
+      "aliases": [
+        "acid folk",
+        "psych-folk",
+        "psyfolk"
+      ],
+      "popularity": 39140,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Psychedelic folk"
+    },
+    {
+      "name": "Old-time music",
+      "aliases": [
+        "old familiar tune",
+        "old-time",
+        "old time song",
+        "old-timey"
+      ],
+      "popularity": 39980,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Old-time music"
+    },
+    {
+      "name": "Pasodoble",
+      "aliases": [
+        "paso doble"
+      ],
+      "popularity": 42003,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Pasodoble"
+    },
+    {
+      "name": "Sean-nós singing",
+      "aliases": [
+        "old style Irish song",
+        "sean-nós",
+        "sean-nós song"
+      ],
+      "popularity": 42838,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Sean-nós singing"
+    },
+    {
+      "name": "Filk music",
+      "aliases": [
+        "fan music",
+        "filk",
+        "Filker",
+        "filksong"
+      ],
+      "popularity": 43147,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Filk music"
+    },
+    {
+      "name": "Chinese opera",
+      "aliases": [
+        "xìqǔ"
+      ],
+      "popularity": 46179,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Chinese opera"
+    },
+    {
+      "name": "Contemporary folk music",
+      "aliases": [
+        "contemporary folk",
+        "folk music",
+        "folk revival music",
+        "Western folk"
+      ],
+      "popularity": 46802,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Contemporary folk music"
+    },
+    {
+      "name": "Military cadence",
+      "aliases": [
+        "army cadence",
+        "cadence call",
+        "jodies",
+        "jody calls"
+      ],
+      "popularity": 48712,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Military cadence"
+    },
+    {
+      "name": "Spirituals",
+      "aliases": [
+        "African-American spirituals",
+        "Negro spirituals",
+        "spiritual",
+        "spiritual music"
+      ],
+      "popularity": 51709,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Spirituals"
+    },
+    {
+      "name": "Fandango",
+      "aliases": [
+        "murciana",
+        "rodena",
+        "rondeña"
+      ],
+      "popularity": 52224,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Fandango"
+    },
+    {
+      "name": "Lullaby",
+      "aliases": [
+        "lullabies"
+      ],
+      "popularity": 52873,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Lullaby"
+    },
+    {
+      "name": "Kirtan",
+      "aliases": [],
+      "popularity": 54144,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Kirtan"
+    },
+    {
+      "name": "American folk music",
+      "aliases": [
+        "American traditional music",
+        "United States folk",
+        "USA folk music"
+      ],
+      "popularity": 55368,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "American folk music"
+    },
+    {
+      "name": "Irish traditional music",
+      "aliases": [
+        "folk music of Ireland",
+        "Irish trad",
+        "traditional Irish music",
+        "traditional music of Ireland"
+      ],
+      "popularity": 55662,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Irish traditional music"
+    },
+    {
+      "name": "Morin khuur",
+      "aliases": [
+        "hur",
+        "khil-khuur",
+        "ma tʻou chʻin",
+        "matou qin",
+        "matouqin",
+        "Mongolian horse-head fiddle"
+      ],
+      "popularity": 56109,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Morin khuur"
+    },
+    {
+      "name": "Neofolk",
+      "aliases": [
+        "apocalyptic folk",
+        "dark folk",
+        "folk noir",
+        "neo-folk",
+        "noir folk"
+      ],
+      "popularity": 59599,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Neofolk"
+    },
+    {
+      "name": "Anti-folk",
+      "aliases": [
+        "antifolk",
+        "unfolk"
+      ],
+      "popularity": 67950,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Anti-folk"
+    },
+    {
+      "name": "Peking opera",
+      "aliases": [
+        "Beijing opera",
+        "Guójù",
+        "Jīngjù"
+      ],
+      "popularity": 70787,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Peking opera"
+    },
+    {
+      "name": "Indie folk",
+      "aliases": [
+        "stomp clap hey"
+      ],
+      "popularity": 71116,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Indie folk"
+    },
+    {
+      "name": "Corrido",
+      "aliases": [],
+      "popularity": 77658,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "Corrido"
+    },
+    {
+      "name": "Fado",
+      "aliases": [],
+      "popularity": 82210,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Fado"
+    },
+    {
+      "name": "Delta blues",
+      "aliases": [
+        "Mississippi Delta blues"
+      ],
+      "popularity": 88555,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Delta blues"
+    },
+    {
+      "name": "Keening",
+      "aliases": [
+        "moan",
+        "wailing"
+      ],
+      "popularity": 105182,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Keening"
+    },
+    {
+      "name": "Narcocorrido",
+      "aliases": [
+        "narco-corrido"
+      ],
+      "popularity": 115489,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Narcocorrido"
+    },
+    {
+      "name": "Sea shanty",
+      "aliases": [
+        "chantey",
+        "chanty",
+        "shanty"
+      ],
+      "popularity": 118212,
+      "rarity": 0.007,
+      "tier": 1,
+      "wiki": "Sea shanty"
+    },
+    {
+      "name": "Nursery rhyme",
+      "aliases": [
+        "Mother Goose rhyme",
+        "nursery ballad",
+        "nursery poem",
+        "nursery poetry",
+        "nursery rhymes",
+        "nursery song"
+      ],
+      "popularity": 159620,
+      "rarity": 0.004,
+      "tier": 1,
+      "wiki": "Nursery rhyme"
+    },
+    {
+      "name": "Skiffle",
+      "aliases": [
+        "skiffle revival"
+      ],
+      "popularity": 171884,
+      "rarity": 0.002,
+      "tier": 1,
+      "wiki": "Skiffle"
+    },
+    {
+      "name": "Bluegrass music",
+      "aliases": [
+        "bluegrass"
+      ],
+      "popularity": 233847,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Bluegrass music"
+    }
+  ]
+}

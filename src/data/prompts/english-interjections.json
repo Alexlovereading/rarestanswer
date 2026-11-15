@@ -1,0 +1,2434 @@
+{
+  "id": "english-interjections",
+  "slug": "english-interjections",
+  "category": "history",
+  "question": "Name an English interjection",
+  "source": "Wikidata lexemes + Wiktionary pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "rockaby",
+      "aliases": [],
+      "popularity": 21,
+      "rarity": 1,
+      "tier": 6
+    },
+    {
+      "name": "jiggers",
+      "aliases": [],
+      "popularity": 80,
+      "rarity": 0.997,
+      "tier": 6
+    },
+    {
+      "name": "fiddlededee",
+      "aliases": [],
+      "popularity": 110,
+      "rarity": 0.994,
+      "tier": 6
+    },
+    {
+      "name": "horrors",
+      "aliases": [],
+      "popularity": 161,
+      "rarity": 0.991,
+      "tier": 6
+    },
+    {
+      "name": "hubba-hubba",
+      "aliases": [],
+      "popularity": 162,
+      "rarity": 0.988,
+      "tier": 6
+    },
+    {
+      "name": "woo-hoo",
+      "aliases": [],
+      "popularity": 193,
+      "rarity": 0.986,
+      "tier": 6
+    },
+    {
+      "name": "wirra",
+      "aliases": [],
+      "popularity": 202,
+      "rarity": 0.983,
+      "tier": 6
+    },
+    {
+      "name": "ho hum",
+      "aliases": [],
+      "popularity": 245,
+      "rarity": 0.98,
+      "tier": 6
+    },
+    {
+      "name": "h'm",
+      "aliases": [],
+      "popularity": 259,
+      "rarity": 0.977,
+      "tier": 6
+    },
+    {
+      "name": "sirree",
+      "aliases": [],
+      "popularity": 285,
+      "rarity": 0.974,
+      "tier": 6
+    },
+    {
+      "name": "Bazinga",
+      "aliases": [],
+      "popularity": 309,
+      "rarity": 0.971,
+      "tier": 6
+    },
+    {
+      "name": "huzza",
+      "aliases": [],
+      "popularity": 350,
+      "rarity": 0.968,
+      "tier": 6
+    },
+    {
+      "name": "bring it on",
+      "aliases": [],
+      "popularity": 363,
+      "rarity": 0.965,
+      "tier": 6
+    },
+    {
+      "name": "fiddle-faddle",
+      "aliases": [],
+      "popularity": 382,
+      "rarity": 0.962,
+      "tier": 6
+    },
+    {
+      "name": "eish",
+      "aliases": [],
+      "popularity": 386,
+      "rarity": 0.959,
+      "tier": 6
+    },
+    {
+      "name": "yoicks",
+      "aliases": [],
+      "popularity": 387,
+      "rarity": 0.957,
+      "tier": 6
+    },
+    {
+      "name": "ohh",
+      "aliases": [],
+      "popularity": 394,
+      "rarity": 0.954,
+      "tier": 6
+    },
+    {
+      "name": "Od",
+      "aliases": [],
+      "popularity": 399,
+      "rarity": 0.951,
+      "tier": 6
+    },
+    {
+      "name": "good-by",
+      "aliases": [],
+      "popularity": 433,
+      "rarity": 0.946,
+      "tier": 6
+    },
+    {
+      "name": "yoo-hoo",
+      "aliases": [],
+      "popularity": 433,
+      "rarity": 0.946,
+      "tier": 6
+    },
+    {
+      "name": "the devil",
+      "aliases": [
+        "devil"
+      ],
+      "popularity": 439,
+      "rarity": 0.942,
+      "tier": 6
+    },
+    {
+      "name": "curses",
+      "aliases": [],
+      "popularity": 446,
+      "rarity": 0.939,
+      "tier": 6
+    },
+    {
+      "name": "yecch",
+      "aliases": [],
+      "popularity": 465,
+      "rarity": 0.936,
+      "tier": 6
+    },
+    {
+      "name": "ILY",
+      "aliases": [],
+      "popularity": 499,
+      "rarity": 0.933,
+      "tier": 6
+    },
+    {
+      "name": "heigh-ho",
+      "aliases": [],
+      "popularity": 512,
+      "rarity": 0.93,
+      "tier": 6
+    },
+    {
+      "name": "crumbs",
+      "aliases": [],
+      "popularity": 513,
+      "rarity": 0.926,
+      "tier": 5
+    },
+    {
+      "name": "yipe",
+      "aliases": [],
+      "popularity": 513,
+      "rarity": 0.926,
+      "tier": 5
+    },
+    {
+      "name": "quotha",
+      "aliases": [],
+      "popularity": 547,
+      "rarity": 0.922,
+      "tier": 5
+    },
+    {
+      "name": "botheration",
+      "aliases": [],
+      "popularity": 605,
+      "rarity": 0.919,
+      "tier": 5
+    },
+    {
+      "name": "slips",
+      "aliases": [],
+      "popularity": 618,
+      "rarity": 0.916,
+      "tier": 5
+    },
+    {
+      "name": "cracky",
+      "aliases": [],
+      "popularity": 646,
+      "rarity": 0.913,
+      "tier": 5
+    },
+    {
+      "name": "Gad",
+      "aliases": [],
+      "popularity": 669,
+      "rarity": 0.91,
+      "tier": 5
+    },
+    {
+      "name": "cobblers",
+      "aliases": [],
+      "popularity": 740,
+      "rarity": 0.907,
+      "tier": 5
+    },
+    {
+      "name": "right on",
+      "aliases": [],
+      "popularity": 805,
+      "rarity": 0.904,
+      "tier": 5
+    },
+    {
+      "name": "wellaway",
+      "aliases": [],
+      "popularity": 869,
+      "rarity": 0.901,
+      "tier": 5
+    },
+    {
+      "name": "wahoo",
+      "aliases": [],
+      "popularity": 890,
+      "rarity": 0.899,
+      "tier": 5
+    },
+    {
+      "name": "bravissimo",
+      "aliases": [],
+      "popularity": 945,
+      "rarity": 0.896,
+      "tier": 5
+    },
+    {
+      "name": "righto",
+      "aliases": [],
+      "popularity": 947,
+      "rarity": 0.893,
+      "tier": 5
+    },
+    {
+      "name": "cooee",
+      "aliases": [],
+      "popularity": 981,
+      "rarity": 0.89,
+      "tier": 5
+    },
+    {
+      "name": "whoopee",
+      "aliases": [],
+      "popularity": 1024,
+      "rarity": 0.887,
+      "tier": 5
+    },
+    {
+      "name": "lackaday",
+      "aliases": [],
+      "popularity": 1032,
+      "rarity": 0.884,
+      "tier": 5
+    },
+    {
+      "name": "skoal",
+      "aliases": [],
+      "popularity": 1093,
+      "rarity": 0.881,
+      "tier": 5
+    },
+    {
+      "name": "nerts",
+      "aliases": [],
+      "popularity": 1100,
+      "rarity": 0.878,
+      "tier": 5
+    },
+    {
+      "name": "peace be upon him",
+      "aliases": [],
+      "popularity": 1115,
+      "rarity": 0.875,
+      "tier": 5
+    },
+    {
+      "name": "boo hoo",
+      "aliases": [],
+      "popularity": 1116,
+      "rarity": 0.872,
+      "tier": 5
+    },
+    {
+      "name": "kasme",
+      "aliases": [],
+      "popularity": 1122,
+      "rarity": 0.87,
+      "tier": 5
+    },
+    {
+      "name": "by jingo",
+      "aliases": [],
+      "popularity": 1129,
+      "rarity": 0.867,
+      "tier": 5
+    },
+    {
+      "name": "plunk",
+      "aliases": [],
+      "popularity": 1133,
+      "rarity": 0.864,
+      "tier": 5
+    },
+    {
+      "name": "pah",
+      "aliases": [],
+      "popularity": 1245,
+      "rarity": 0.861,
+      "tier": 5
+    },
+    {
+      "name": "heads up",
+      "aliases": [],
+      "popularity": 1276,
+      "rarity": 0.858,
+      "tier": 5
+    },
+    {
+      "name": "nothing doing",
+      "aliases": [],
+      "popularity": 1285,
+      "rarity": 0.855,
+      "tier": 5
+    },
+    {
+      "name": "mum's the word",
+      "aliases": [],
+      "popularity": 1293,
+      "rarity": 0.852,
+      "tier": 5
+    },
+    {
+      "name": "whoo",
+      "aliases": [],
+      "popularity": 1298,
+      "rarity": 0.849,
+      "tier": 5
+    },
+    {
+      "name": "wham",
+      "aliases": [],
+      "popularity": 1307,
+      "rarity": 0.846,
+      "tier": 5
+    },
+    {
+      "name": "rats",
+      "aliases": [],
+      "popularity": 1345,
+      "rarity": 0.843,
+      "tier": 5
+    },
+    {
+      "name": "BRB",
+      "aliases": [],
+      "popularity": 1368,
+      "rarity": 0.841,
+      "tier": 5
+    },
+    {
+      "name": "beaut",
+      "aliases": [],
+      "popularity": 1425,
+      "rarity": 0.838,
+      "tier": 5
+    },
+    {
+      "name": "cripes",
+      "aliases": [],
+      "popularity": 1430,
+      "rarity": 0.835,
+      "tier": 5
+    },
+    {
+      "name": "zindabad",
+      "aliases": [],
+      "popularity": 1438,
+      "rarity": 0.832,
+      "tier": 5
+    },
+    {
+      "name": "shalom aleichem",
+      "aliases": [],
+      "popularity": 1445,
+      "rarity": 0.829,
+      "tier": 5
+    },
+    {
+      "name": "whee",
+      "aliases": [],
+      "popularity": 1464,
+      "rarity": 0.826,
+      "tier": 5
+    },
+    {
+      "name": "gee whiz",
+      "aliases": [],
+      "popularity": 1525,
+      "rarity": 0.823,
+      "tier": 5
+    },
+    {
+      "name": "whoops",
+      "aliases": [],
+      "popularity": 1528,
+      "rarity": 0.82,
+      "tier": 5
+    },
+    {
+      "name": "faugh",
+      "aliases": [],
+      "popularity": 1580,
+      "rarity": 0.817,
+      "tier": 5
+    },
+    {
+      "name": "avaunt",
+      "aliases": [],
+      "popularity": 1590,
+      "rarity": 0.814,
+      "tier": 5
+    },
+    {
+      "name": "goody",
+      "aliases": [],
+      "popularity": 1612,
+      "rarity": 0.812,
+      "tier": 5
+    },
+    {
+      "name": "brava",
+      "aliases": [],
+      "popularity": 1617,
+      "rarity": 0.809,
+      "tier": 5
+    },
+    {
+      "name": "gramercy",
+      "aliases": [],
+      "popularity": 1628,
+      "rarity": 0.806,
+      "tier": 5
+    },
+    {
+      "name": "so long",
+      "aliases": [],
+      "popularity": 1709,
+      "rarity": 0.803,
+      "tier": 5
+    },
+    {
+      "name": "psst",
+      "aliases": [],
+      "popularity": 1811,
+      "rarity": 0.8,
+      "tier": 5
+    },
+    {
+      "name": "begone",
+      "aliases": [],
+      "popularity": 1816,
+      "rarity": 0.797,
+      "tier": 4
+    },
+    {
+      "name": "hah",
+      "aliases": [],
+      "popularity": 1859,
+      "rarity": 0.794,
+      "tier": 4
+    },
+    {
+      "name": "oh dear",
+      "aliases": [],
+      "popularity": 1865,
+      "rarity": 0.791,
+      "tier": 4
+    },
+    {
+      "name": "jeez",
+      "aliases": [],
+      "popularity": 1888,
+      "rarity": 0.788,
+      "tier": 4
+    },
+    {
+      "name": "periodt",
+      "aliases": [],
+      "popularity": 1920,
+      "rarity": 0.786,
+      "tier": 4
+    },
+    {
+      "name": "whew",
+      "aliases": [],
+      "popularity": 2001,
+      "rarity": 0.783,
+      "tier": 4
+    },
+    {
+      "name": "pow",
+      "aliases": [],
+      "popularity": 2018,
+      "rarity": 0.78,
+      "tier": 4
+    },
+    {
+      "name": "all hail",
+      "aliases": [],
+      "popularity": 2039,
+      "rarity": 0.777,
+      "tier": 4
+    },
+    {
+      "name": "objection",
+      "aliases": [],
+      "popularity": 2084,
+      "rarity": 0.774,
+      "tier": 4
+    },
+    {
+      "name": "halloo",
+      "aliases": [],
+      "popularity": 2158,
+      "rarity": 0.771,
+      "tier": 4
+    },
+    {
+      "name": "oink",
+      "aliases": [],
+      "popularity": 2217,
+      "rarity": 0.768,
+      "tier": 4
+    },
+    {
+      "name": "God bless you",
+      "aliases": [],
+      "popularity": 2221,
+      "rarity": 0.764,
+      "tier": 4
+    },
+    {
+      "name": "humph",
+      "aliases": [],
+      "popularity": 2221,
+      "rarity": 0.764,
+      "tier": 4
+    },
+    {
+      "name": "oyez",
+      "aliases": [],
+      "popularity": 2258,
+      "rarity": 0.759,
+      "tier": 4
+    },
+    {
+      "name": "alleluia",
+      "aliases": [],
+      "popularity": 2281,
+      "rarity": 0.757,
+      "tier": 4
+    },
+    {
+      "name": "begorra",
+      "aliases": [],
+      "popularity": 2340,
+      "rarity": 0.754,
+      "tier": 4
+    },
+    {
+      "name": "phooey",
+      "aliases": [],
+      "popularity": 2354,
+      "rarity": 0.751,
+      "tier": 4
+    },
+    {
+      "name": "shush",
+      "aliases": [],
+      "popularity": 2385,
+      "rarity": 0.748,
+      "tier": 4
+    },
+    {
+      "name": "doggone",
+      "aliases": [],
+      "popularity": 2399,
+      "rarity": 0.745,
+      "tier": 4
+    },
+    {
+      "name": "tallyho",
+      "aliases": [],
+      "popularity": 2450,
+      "rarity": 0.742,
+      "tier": 4
+    },
+    {
+      "name": "boink",
+      "aliases": [],
+      "popularity": 2468,
+      "rarity": 0.739,
+      "tier": 4
+    },
+    {
+      "name": "bon voyage",
+      "aliases": [],
+      "popularity": 2475,
+      "rarity": 0.735,
+      "tier": 4
+    },
+    {
+      "name": "for real",
+      "aliases": [],
+      "popularity": 2475,
+      "rarity": 0.735,
+      "tier": 4
+    },
+    {
+      "name": "prithee",
+      "aliases": [],
+      "popularity": 2487,
+      "rarity": 0.73,
+      "tier": 4
+    },
+    {
+      "name": "cheerio",
+      "aliases": [],
+      "popularity": 2554,
+      "rarity": 0.728,
+      "tier": 4
+    },
+    {
+      "name": "whist",
+      "aliases": [],
+      "popularity": 2564,
+      "rarity": 0.725,
+      "tier": 4
+    },
+    {
+      "name": "olé",
+      "aliases": [],
+      "popularity": 2582,
+      "rarity": 0.722,
+      "tier": 4
+    },
+    {
+      "name": "oho",
+      "aliases": [],
+      "popularity": 2613,
+      "rarity": 0.719,
+      "tier": 4
+    },
+    {
+      "name": "oh no",
+      "aliases": [],
+      "popularity": 2700,
+      "rarity": 0.716,
+      "tier": 4
+    },
+    {
+      "name": "shucks",
+      "aliases": [],
+      "popularity": 2701,
+      "rarity": 0.713,
+      "tier": 4
+    },
+    {
+      "name": "voila",
+      "aliases": [],
+      "popularity": 2855,
+      "rarity": 0.71,
+      "tier": 4
+    },
+    {
+      "name": "howdy",
+      "aliases": [],
+      "popularity": 2894,
+      "rarity": 0.707,
+      "tier": 4
+    },
+    {
+      "name": "goodness",
+      "aliases": [],
+      "popularity": 2910,
+      "rarity": 0.704,
+      "tier": 4
+    },
+    {
+      "name": "vive",
+      "aliases": [],
+      "popularity": 2912,
+      "rarity": 0.701,
+      "tier": 4
+    },
+    {
+      "name": "fiddlesticks",
+      "aliases": [],
+      "popularity": 2920,
+      "rarity": 0.699,
+      "tier": 4
+    },
+    {
+      "name": "yum",
+      "aliases": [],
+      "popularity": 2926,
+      "rarity": 0.696,
+      "tier": 4
+    },
+    {
+      "name": "adios",
+      "aliases": [],
+      "popularity": 2988,
+      "rarity": 0.693,
+      "tier": 4
+    },
+    {
+      "name": "good day",
+      "aliases": [],
+      "popularity": 3014,
+      "rarity": 0.69,
+      "tier": 4
+    },
+    {
+      "name": "good evening",
+      "aliases": [],
+      "popularity": 3027,
+      "rarity": 0.687,
+      "tier": 4
+    },
+    {
+      "name": "woah",
+      "aliases": [],
+      "popularity": 3069,
+      "rarity": 0.684,
+      "tier": 4
+    },
+    {
+      "name": "gangway",
+      "aliases": [],
+      "popularity": 3074,
+      "rarity": 0.681,
+      "tier": 4
+    },
+    {
+      "name": "heigh",
+      "aliases": [],
+      "popularity": 3087,
+      "rarity": 0.678,
+      "tier": 4
+    },
+    {
+      "name": "en garde",
+      "aliases": [],
+      "popularity": 3112,
+      "rarity": 0.675,
+      "tier": 4
+    },
+    {
+      "name": "hush",
+      "aliases": [],
+      "popularity": 3113,
+      "rarity": 0.672,
+      "tier": 4
+    },
+    {
+      "name": "pish",
+      "aliases": [],
+      "popularity": 3123,
+      "rarity": 0.67,
+      "tier": 4
+    },
+    {
+      "name": "alack",
+      "aliases": [],
+      "popularity": 3148,
+      "rarity": 0.667,
+      "tier": 4
+    },
+    {
+      "name": "no way",
+      "aliases": [],
+      "popularity": 3221,
+      "rarity": 0.664,
+      "tier": 4
+    },
+    {
+      "name": "sh",
+      "aliases": [],
+      "popularity": 3229,
+      "rarity": 0.661,
+      "tier": 4
+    },
+    {
+      "name": "TBH",
+      "aliases": [],
+      "popularity": 3234,
+      "rarity": 0.658,
+      "tier": 4
+    },
+    {
+      "name": "rah",
+      "aliases": [],
+      "popularity": 3239,
+      "rarity": 0.655,
+      "tier": 4
+    },
+    {
+      "name": "banzai",
+      "aliases": [],
+      "popularity": 3249,
+      "rarity": 0.652,
+      "tier": 4
+    },
+    {
+      "name": "hurrah",
+      "aliases": [],
+      "popularity": 3282,
+      "rarity": 0.649,
+      "tier": 4
+    },
+    {
+      "name": "tia",
+      "aliases": [],
+      "popularity": 3300,
+      "rarity": 0.646,
+      "tier": 4
+    },
+    {
+      "name": "hosanna",
+      "aliases": [],
+      "popularity": 3310,
+      "rarity": 0.643,
+      "tier": 4
+    },
+    {
+      "name": "bam",
+      "aliases": [],
+      "popularity": 3339,
+      "rarity": 0.641,
+      "tier": 4
+    },
+    {
+      "name": "golly",
+      "aliases": [],
+      "popularity": 3346,
+      "rarity": 0.638,
+      "tier": 4
+    },
+    {
+      "name": "gracious",
+      "aliases": [],
+      "popularity": 3370,
+      "rarity": 0.635,
+      "tier": 4
+    },
+    {
+      "name": "A-OK",
+      "aliases": [],
+      "popularity": 3375,
+      "rarity": 0.632,
+      "tier": 4
+    },
+    {
+      "name": "bye-bye",
+      "aliases": [],
+      "popularity": 3386,
+      "rarity": 0.629,
+      "tier": 4
+    },
+    {
+      "name": "AFAIK",
+      "aliases": [],
+      "popularity": 3424,
+      "rarity": 0.626,
+      "tier": 4
+    },
+    {
+      "name": "avast",
+      "aliases": [],
+      "popularity": 3531,
+      "rarity": 0.623,
+      "tier": 4
+    },
+    {
+      "name": "yippee",
+      "aliases": [],
+      "popularity": 3547,
+      "rarity": 0.62,
+      "tier": 4
+    },
+    {
+      "name": "OMG",
+      "aliases": [],
+      "popularity": 3554,
+      "rarity": 0.617,
+      "tier": 4
+    },
+    {
+      "name": "gobble",
+      "aliases": [],
+      "popularity": 3559,
+      "rarity": 0.614,
+      "tier": 4
+    },
+    {
+      "name": "kak",
+      "aliases": [],
+      "popularity": 3571,
+      "rarity": 0.612,
+      "tier": 4
+    },
+    {
+      "name": "gosh",
+      "aliases": [],
+      "popularity": 3608,
+      "rarity": 0.609,
+      "tier": 4
+    },
+    {
+      "name": "banco",
+      "aliases": [],
+      "popularity": 3613,
+      "rarity": 0.606,
+      "tier": 4
+    },
+    {
+      "name": "break a leg",
+      "aliases": [],
+      "popularity": 3646,
+      "rarity": 0.603,
+      "tier": 4
+    },
+    {
+      "name": "YOLO",
+      "aliases": [],
+      "popularity": 3654,
+      "rarity": 0.6,
+      "tier": 4
+    },
+    {
+      "name": "tush",
+      "aliases": [],
+      "popularity": 3672,
+      "rarity": 0.597,
+      "tier": 3
+    },
+    {
+      "name": "pooh",
+      "aliases": [],
+      "popularity": 3695,
+      "rarity": 0.594,
+      "tier": 3
+    },
+    {
+      "name": "shalom",
+      "aliases": [],
+      "popularity": 3734,
+      "rarity": 0.591,
+      "tier": 3
+    },
+    {
+      "name": "hooray",
+      "aliases": [],
+      "popularity": 3799,
+      "rarity": 0.588,
+      "tier": 3
+    },
+    {
+      "name": "zap",
+      "aliases": [],
+      "popularity": 3805,
+      "rarity": 0.586,
+      "tier": 3
+    },
+    {
+      "name": "shoo",
+      "aliases": [],
+      "popularity": 3909,
+      "rarity": 0.583,
+      "tier": 3
+    },
+    {
+      "name": "hawk tuah",
+      "aliases": [],
+      "popularity": 3918,
+      "rarity": 0.58,
+      "tier": 3
+    },
+    {
+      "name": "JK",
+      "aliases": [],
+      "popularity": 3952,
+      "rarity": 0.577,
+      "tier": 3
+    },
+    {
+      "name": "oof",
+      "aliases": [],
+      "popularity": 3984,
+      "rarity": 0.574,
+      "tier": 3
+    },
+    {
+      "name": "phew",
+      "aliases": [],
+      "popularity": 4017,
+      "rarity": 0.571,
+      "tier": 3
+    },
+    {
+      "name": "dang",
+      "aliases": [],
+      "popularity": 4020,
+      "rarity": 0.568,
+      "tier": 3
+    },
+    {
+      "name": "bingo",
+      "aliases": [],
+      "popularity": 4059,
+      "rarity": 0.565,
+      "tier": 3
+    },
+    {
+      "name": "huzzah",
+      "aliases": [],
+      "popularity": 4093,
+      "rarity": 0.562,
+      "tier": 3
+    },
+    {
+      "name": "mazel tov",
+      "aliases": [],
+      "popularity": 4131,
+      "rarity": 0.559,
+      "tier": 3
+    },
+    {
+      "name": "steady",
+      "aliases": [],
+      "popularity": 4132,
+      "rarity": 0.557,
+      "tier": 3
+    },
+    {
+      "name": "tarnation",
+      "aliases": [],
+      "popularity": 4174,
+      "rarity": 0.554,
+      "tier": 3
+    },
+    {
+      "name": "gesundheit",
+      "aliases": [],
+      "popularity": 4191,
+      "rarity": 0.551,
+      "tier": 3
+    },
+    {
+      "name": "crud",
+      "aliases": [],
+      "popularity": 4216,
+      "rarity": 0.548,
+      "tier": 3
+    },
+    {
+      "name": "shh",
+      "aliases": [],
+      "popularity": 4269,
+      "rarity": 0.545,
+      "tier": 3
+    },
+    {
+      "name": "bless you",
+      "aliases": [],
+      "popularity": 4301,
+      "rarity": 0.542,
+      "tier": 3
+    },
+    {
+      "name": "drat",
+      "aliases": [],
+      "popularity": 4365,
+      "rarity": 0.539,
+      "tier": 3
+    },
+    {
+      "name": "yow",
+      "aliases": [],
+      "popularity": 4554,
+      "rarity": 0.536,
+      "tier": 3
+    },
+    {
+      "name": "fudge",
+      "aliases": [],
+      "popularity": 4582,
+      "rarity": 0.533,
+      "tier": 3
+    },
+    {
+      "name": "yikes",
+      "aliases": [],
+      "popularity": 4612,
+      "rarity": 0.53,
+      "tier": 3
+    },
+    {
+      "name": "bah",
+      "aliases": [],
+      "popularity": 4689,
+      "rarity": 0.528,
+      "tier": 3
+    },
+    {
+      "name": "tweet",
+      "aliases": [],
+      "popularity": 4702,
+      "rarity": 0.525,
+      "tier": 3
+    },
+    {
+      "name": "hoot",
+      "aliases": [],
+      "popularity": 4703,
+      "rarity": 0.522,
+      "tier": 3
+    },
+    {
+      "name": "aloha",
+      "aliases": [],
+      "popularity": 4740,
+      "rarity": 0.519,
+      "tier": 3
+    },
+    {
+      "name": "cheer",
+      "aliases": [],
+      "popularity": 4749,
+      "rarity": 0.516,
+      "tier": 3
+    },
+    {
+      "name": "moo",
+      "aliases": [],
+      "popularity": 4781,
+      "rarity": 0.513,
+      "tier": 3
+    },
+    {
+      "name": "eureka",
+      "aliases": [],
+      "popularity": 4801,
+      "rarity": 0.51,
+      "tier": 3
+    },
+    {
+      "name": "shuck",
+      "aliases": [],
+      "popularity": 4866,
+      "rarity": 0.507,
+      "tier": 3
+    },
+    {
+      "name": "rubbish",
+      "aliases": [],
+      "popularity": 4876,
+      "rarity": 0.504,
+      "tier": 3
+    },
+    {
+      "name": "yuck",
+      "aliases": [],
+      "popularity": 4889,
+      "rarity": 0.501,
+      "tier": 3
+    },
+    {
+      "name": "heck",
+      "aliases": [],
+      "popularity": 4906,
+      "rarity": 0.499,
+      "tier": 3
+    },
+    {
+      "name": "good luck",
+      "aliases": [],
+      "popularity": 4918,
+      "rarity": 0.496,
+      "tier": 3
+    },
+    {
+      "name": "ahem",
+      "aliases": [],
+      "popularity": 4932,
+      "rarity": 0.493,
+      "tier": 3
+    },
+    {
+      "name": "yahoo",
+      "aliases": [],
+      "popularity": 4964,
+      "rarity": 0.49,
+      "tier": 3
+    },
+    {
+      "name": "long time no see",
+      "aliases": [],
+      "popularity": 5011,
+      "rarity": 0.487,
+      "tier": 3
+    },
+    {
+      "name": "hot dog",
+      "aliases": [],
+      "popularity": 5104,
+      "rarity": 0.484,
+      "tier": 3
+    },
+    {
+      "name": "whoa",
+      "aliases": [],
+      "popularity": 5118,
+      "rarity": 0.481,
+      "tier": 3
+    },
+    {
+      "name": "aha",
+      "aliases": [],
+      "popularity": 5156,
+      "rarity": 0.478,
+      "tier": 3
+    },
+    {
+      "name": "mm-hmm",
+      "aliases": [],
+      "popularity": 5227,
+      "rarity": 0.475,
+      "tier": 3
+    },
+    {
+      "name": "GG",
+      "aliases": [],
+      "popularity": 5258,
+      "rarity": 0.472,
+      "tier": 3
+    },
+    {
+      "name": "checkmate",
+      "aliases": [],
+      "popularity": 5276,
+      "rarity": 0.47,
+      "tier": 3
+    },
+    {
+      "name": "ow",
+      "aliases": [],
+      "popularity": 5290,
+      "rarity": 0.467,
+      "tier": 3
+    },
+    {
+      "name": "yeehaw",
+      "aliases": [],
+      "popularity": 5308,
+      "rarity": 0.464,
+      "tier": 3
+    },
+    {
+      "name": "egad",
+      "aliases": [],
+      "popularity": 5350,
+      "rarity": 0.461,
+      "tier": 3
+    },
+    {
+      "name": "crikey",
+      "aliases": [],
+      "popularity": 5411,
+      "rarity": 0.458,
+      "tier": 3
+    },
+    {
+      "name": "coo",
+      "aliases": [],
+      "popularity": 5476,
+      "rarity": 0.455,
+      "tier": 3
+    },
+    {
+      "name": "tut",
+      "aliases": [],
+      "popularity": 5478,
+      "rarity": 0.452,
+      "tier": 3
+    },
+    {
+      "name": "mush",
+      "aliases": [],
+      "popularity": 5486,
+      "rarity": 0.449,
+      "tier": 3
+    },
+    {
+      "name": "uh",
+      "aliases": [],
+      "popularity": 5537,
+      "rarity": 0.446,
+      "tier": 3
+    },
+    {
+      "name": "lock and load",
+      "aliases": [],
+      "popularity": 5603,
+      "rarity": 0.443,
+      "tier": 3
+    },
+    {
+      "name": "blast",
+      "aliases": [],
+      "popularity": 5708,
+      "rarity": 0.441,
+      "tier": 3
+    },
+    {
+      "name": "prosit",
+      "aliases": [],
+      "popularity": 5727,
+      "rarity": 0.438,
+      "tier": 3
+    },
+    {
+      "name": "oops",
+      "aliases": [],
+      "popularity": 5773,
+      "rarity": 0.435,
+      "tier": 3
+    },
+    {
+      "name": "hum",
+      "aliases": [],
+      "popularity": 5851,
+      "rarity": 0.432,
+      "tier": 3
+    },
+    {
+      "name": "ouch",
+      "aliases": [],
+      "popularity": 5879,
+      "rarity": 0.429,
+      "tier": 3
+    },
+    {
+      "name": "zounds",
+      "aliases": [],
+      "popularity": 5914,
+      "rarity": 0.426,
+      "tier": 3
+    },
+    {
+      "name": "viva",
+      "aliases": [],
+      "popularity": 5996,
+      "rarity": 0.423,
+      "tier": 3
+    },
+    {
+      "name": "Jesus Christ",
+      "aliases": [],
+      "popularity": 6046,
+      "rarity": 0.42,
+      "tier": 3
+    },
+    {
+      "name": "good night",
+      "aliases": [],
+      "popularity": 6078,
+      "rarity": 0.417,
+      "tier": 3
+    },
+    {
+      "name": "haw",
+      "aliases": [],
+      "popularity": 6162,
+      "rarity": 0.414,
+      "tier": 3
+    },
+    {
+      "name": "foo",
+      "aliases": [],
+      "popularity": 6178,
+      "rarity": 0.412,
+      "tier": 3
+    },
+    {
+      "name": "argh",
+      "aliases": [],
+      "popularity": 6183,
+      "rarity": 0.409,
+      "tier": 3
+    },
+    {
+      "name": "roger",
+      "aliases": [],
+      "popularity": 6184,
+      "rarity": 0.406,
+      "tier": 3
+    },
+    {
+      "name": "darn",
+      "aliases": [],
+      "popularity": 6185,
+      "rarity": 0.403,
+      "tier": 3
+    },
+    {
+      "name": "barley",
+      "aliases": [],
+      "popularity": 6222,
+      "rarity": 0.4,
+      "tier": 3
+    },
+    {
+      "name": "pardon",
+      "aliases": [],
+      "popularity": 6243,
+      "rarity": 0.397,
+      "tier": 2
+    },
+    {
+      "name": "behold",
+      "aliases": [],
+      "popularity": 6256,
+      "rarity": 0.394,
+      "tier": 2
+    },
+    {
+      "name": "bother",
+      "aliases": [],
+      "popularity": 6305,
+      "rarity": 0.391,
+      "tier": 2
+    },
+    {
+      "name": "au revoir",
+      "aliases": [],
+      "popularity": 6349,
+      "rarity": 0.388,
+      "tier": 2
+    },
+    {
+      "name": "woof",
+      "aliases": [],
+      "popularity": 6448,
+      "rarity": 0.386,
+      "tier": 2
+    },
+    {
+      "name": "abracadabra",
+      "aliases": [],
+      "popularity": 6497,
+      "rarity": 0.383,
+      "tier": 2
+    },
+    {
+      "name": "wagwan",
+      "aliases": [],
+      "popularity": 6518,
+      "rarity": 0.38,
+      "tier": 2
+    },
+    {
+      "name": "ahoy",
+      "aliases": [],
+      "popularity": 6533,
+      "rarity": 0.375,
+      "tier": 2
+    },
+    {
+      "name": "indeed",
+      "aliases": [],
+      "popularity": 6533,
+      "rarity": 0.375,
+      "tier": 2
+    },
+    {
+      "name": "fie",
+      "aliases": [],
+      "popularity": 6549,
+      "rarity": 0.371,
+      "tier": 2
+    },
+    {
+      "name": "uh-oh",
+      "aliases": [],
+      "popularity": 6577,
+      "rarity": 0.368,
+      "tier": 2
+    },
+    {
+      "name": "bonk",
+      "aliases": [],
+      "popularity": 6605,
+      "rarity": 0.365,
+      "tier": 2
+    },
+    {
+      "name": "cheers",
+      "aliases": [],
+      "popularity": 6763,
+      "rarity": 0.362,
+      "tier": 2
+    },
+    {
+      "name": "jinx",
+      "aliases": [],
+      "popularity": 6774,
+      "rarity": 0.359,
+      "tier": 2
+    },
+    {
+      "name": "och",
+      "aliases": [],
+      "popularity": 6825,
+      "rarity": 0.357,
+      "tier": 2
+    },
+    {
+      "name": "haha",
+      "aliases": [],
+      "popularity": 6852,
+      "rarity": 0.354,
+      "tier": 2
+    },
+    {
+      "name": "auf Wiedersehen",
+      "aliases": [],
+      "popularity": 6894,
+      "rarity": 0.351,
+      "tier": 2
+    },
+    {
+      "name": "later",
+      "aliases": [],
+      "popularity": 6930,
+      "rarity": 0.348,
+      "tier": 2
+    },
+    {
+      "name": "dash",
+      "aliases": [],
+      "popularity": 6937,
+      "rarity": 0.345,
+      "tier": 2
+    },
+    {
+      "name": "by Jove",
+      "aliases": [],
+      "popularity": 6964,
+      "rarity": 0.342,
+      "tier": 2
+    },
+    {
+      "name": "hallelujah",
+      "aliases": [],
+      "popularity": 7025,
+      "rarity": 0.339,
+      "tier": 2
+    },
+    {
+      "name": "alright",
+      "aliases": [],
+      "popularity": 7101,
+      "rarity": 0.336,
+      "tier": 2
+    },
+    {
+      "name": "farewell",
+      "aliases": [],
+      "popularity": 7133,
+      "rarity": 0.333,
+      "tier": 2
+    },
+    {
+      "name": "ooh",
+      "aliases": [],
+      "popularity": 7310,
+      "rarity": 0.33,
+      "tier": 2
+    },
+    {
+      "name": "duh",
+      "aliases": [],
+      "popularity": 7334,
+      "rarity": 0.328,
+      "tier": 2
+    },
+    {
+      "name": "hip",
+      "aliases": [],
+      "popularity": 7515,
+      "rarity": 0.325,
+      "tier": 2
+    },
+    {
+      "name": "attention",
+      "aliases": [],
+      "popularity": 7605,
+      "rarity": 0.322,
+      "tier": 2
+    },
+    {
+      "name": "heil",
+      "aliases": [],
+      "popularity": 7849,
+      "rarity": 0.319,
+      "tier": 2
+    },
+    {
+      "name": "ew",
+      "aliases": [],
+      "popularity": 7906,
+      "rarity": 0.316,
+      "tier": 2
+    },
+    {
+      "name": "LMFAO",
+      "aliases": [],
+      "popularity": 7926,
+      "rarity": 0.313,
+      "tier": 2
+    },
+    {
+      "name": "encore",
+      "aliases": [],
+      "popularity": 8018,
+      "rarity": 0.31,
+      "tier": 2
+    },
+    {
+      "name": "nay",
+      "aliases": [],
+      "popularity": 8051,
+      "rarity": 0.307,
+      "tier": 2
+    },
+    {
+      "name": "nuts",
+      "aliases": [],
+      "popularity": 8082,
+      "rarity": 0.304,
+      "tier": 2
+    },
+    {
+      "name": "snap",
+      "aliases": [],
+      "popularity": 8286,
+      "rarity": 0.301,
+      "tier": 2
+    },
+    {
+      "name": "inshallah",
+      "aliases": [],
+      "popularity": 8347,
+      "rarity": 0.299,
+      "tier": 2
+    },
+    {
+      "name": "timber",
+      "aliases": [],
+      "popularity": 8367,
+      "rarity": 0.296,
+      "tier": 2
+    },
+    {
+      "name": "LMAO",
+      "aliases": [],
+      "popularity": 8573,
+      "rarity": 0.293,
+      "tier": 2
+    },
+    {
+      "name": "really",
+      "aliases": [],
+      "popularity": 8638,
+      "rarity": 0.29,
+      "tier": 2
+    },
+    {
+      "name": "fancy",
+      "aliases": [],
+      "popularity": 8648,
+      "rarity": 0.287,
+      "tier": 2
+    },
+    {
+      "name": "touché",
+      "aliases": [],
+      "popularity": 8944,
+      "rarity": 0.284,
+      "tier": 2
+    },
+    {
+      "name": "thanks",
+      "aliases": [],
+      "popularity": 8970,
+      "rarity": 0.281,
+      "tier": 2
+    },
+    {
+      "name": "bully",
+      "aliases": [],
+      "popularity": 9028,
+      "rarity": 0.278,
+      "tier": 2
+    },
+    {
+      "name": "adieu",
+      "aliases": [],
+      "popularity": 9164,
+      "rarity": 0.275,
+      "tier": 2
+    },
+    {
+      "name": "shut up",
+      "aliases": [],
+      "popularity": 9200,
+      "rarity": 0.272,
+      "tier": 2
+    },
+    {
+      "name": "gee",
+      "aliases": [],
+      "popularity": 9233,
+      "rarity": 0.27,
+      "tier": 2
+    },
+    {
+      "name": "marry",
+      "aliases": [],
+      "popularity": 9314,
+      "rarity": 0.267,
+      "tier": 2
+    },
+    {
+      "name": "excelsior",
+      "aliases": [],
+      "popularity": 9350,
+      "rarity": 0.264,
+      "tier": 2
+    },
+    {
+      "name": "ditto",
+      "aliases": [],
+      "popularity": 9369,
+      "rarity": 0.261,
+      "tier": 2
+    },
+    {
+      "name": "listen",
+      "aliases": [],
+      "popularity": 9531,
+      "rarity": 0.258,
+      "tier": 2
+    },
+    {
+      "name": "hallo",
+      "aliases": [],
+      "popularity": 9639,
+      "rarity": 0.255,
+      "tier": 2
+    },
+    {
+      "name": "boo",
+      "aliases": [],
+      "popularity": 9688,
+      "rarity": 0.252,
+      "tier": 2
+    },
+    {
+      "name": "vide",
+      "aliases": [],
+      "popularity": 9691,
+      "rarity": 0.249,
+      "tier": 2
+    },
+    {
+      "name": "okay",
+      "aliases": [],
+      "popularity": 9720,
+      "rarity": 0.246,
+      "tier": 2
+    },
+    {
+      "name": "wow",
+      "aliases": [],
+      "popularity": 9993,
+      "rarity": 0.243,
+      "tier": 2
+    },
+    {
+      "name": "meow",
+      "aliases": [],
+      "popularity": 10122,
+      "rarity": 0.241,
+      "tier": 2
+    },
+    {
+      "name": "faith",
+      "aliases": [],
+      "popularity": 10125,
+      "rarity": 0.238,
+      "tier": 2
+    },
+    {
+      "name": "woe",
+      "aliases": [],
+      "popularity": 10127,
+      "rarity": 0.235,
+      "tier": 2
+    },
+    {
+      "name": "cave",
+      "aliases": [],
+      "popularity": 10130,
+      "rarity": 0.232,
+      "tier": 2
+    },
+    {
+      "name": "poof",
+      "aliases": [],
+      "popularity": 10138,
+      "rarity": 0.229,
+      "tier": 2
+    },
+    {
+      "name": "good morning",
+      "aliases": [],
+      "popularity": 10473,
+      "rarity": 0.226,
+      "tier": 2
+    },
+    {
+      "name": "bye",
+      "aliases": [],
+      "popularity": 10688,
+      "rarity": 0.223,
+      "tier": 2
+    },
+    {
+      "name": "beauty",
+      "aliases": [],
+      "popularity": 10697,
+      "rarity": 0.22,
+      "tier": 2
+    },
+    {
+      "name": "blimey",
+      "aliases": [],
+      "popularity": 10810,
+      "rarity": 0.217,
+      "tier": 2
+    },
+    {
+      "name": "eh",
+      "aliases": [],
+      "popularity": 10842,
+      "rarity": 0.214,
+      "tier": 2
+    },
+    {
+      "name": "shoot",
+      "aliases": [],
+      "popularity": 11100,
+      "rarity": 0.212,
+      "tier": 2
+    },
+    {
+      "name": "bravo",
+      "aliases": [],
+      "popularity": 11324,
+      "rarity": 0.209,
+      "tier": 2
+    },
+    {
+      "name": "LOL",
+      "aliases": [],
+      "popularity": 11441,
+      "rarity": 0.206,
+      "tier": 2
+    },
+    {
+      "name": "done",
+      "aliases": [],
+      "popularity": 11525,
+      "rarity": 0.203,
+      "tier": 2
+    },
+    {
+      "name": "wait",
+      "aliases": [],
+      "popularity": 11533,
+      "rarity": 0.2,
+      "tier": 1
+    },
+    {
+      "name": "never",
+      "aliases": [],
+      "popularity": 11706,
+      "rarity": 0.197,
+      "tier": 1
+    },
+    {
+      "name": "bet",
+      "aliases": [],
+      "popularity": 11833,
+      "rarity": 0.194,
+      "tier": 1
+    },
+    {
+      "name": "peace",
+      "aliases": [],
+      "popularity": 12435,
+      "rarity": 0.191,
+      "tier": 1
+    },
+    {
+      "name": "alas",
+      "aliases": [],
+      "popularity": 12438,
+      "rarity": 0.188,
+      "tier": 1
+    },
+    {
+      "name": "plop",
+      "aliases": [],
+      "popularity": 12628,
+      "rarity": 0.186,
+      "tier": 1
+    },
+    {
+      "name": "uncle",
+      "aliases": [],
+      "popularity": 13218,
+      "rarity": 0.183,
+      "tier": 1
+    },
+    {
+      "name": "ay",
+      "aliases": [],
+      "popularity": 13219,
+      "rarity": 0.18,
+      "tier": 1
+    },
+    {
+      "name": "amen",
+      "aliases": [],
+      "popularity": 13235,
+      "rarity": 0.177,
+      "tier": 1
+    },
+    {
+      "name": "ugh",
+      "aliases": [],
+      "popularity": 13265,
+      "rarity": 0.174,
+      "tier": 1
+    },
+    {
+      "name": "fore",
+      "aliases": [],
+      "popularity": 13439,
+      "rarity": 0.171,
+      "tier": 1
+    },
+    {
+      "name": "dear",
+      "aliases": [],
+      "popularity": 13747,
+      "rarity": 0.168,
+      "tier": 1
+    },
+    {
+      "name": "aye",
+      "aliases": [],
+      "popularity": 13764,
+      "rarity": 0.165,
+      "tier": 1
+    },
+    {
+      "name": "wallahi",
+      "aliases": [],
+      "popularity": 13792,
+      "rarity": 0.162,
+      "tier": 1
+    },
+    {
+      "name": "hail",
+      "aliases": [],
+      "popularity": 13906,
+      "rarity": 0.159,
+      "tier": 1
+    },
+    {
+      "name": "rot",
+      "aliases": [],
+      "popularity": 14825,
+      "rarity": 0.157,
+      "tier": 1
+    },
+    {
+      "name": "ah",
+      "aliases": [],
+      "popularity": 14848,
+      "rarity": 0.154,
+      "tier": 1
+    },
+    {
+      "name": "aw",
+      "aliases": [],
+      "popularity": 15304,
+      "rarity": 0.151,
+      "tier": 1
+    },
+    {
+      "name": "thank you",
+      "aliases": [],
+      "popularity": 15627,
+      "rarity": 0.148,
+      "tier": 1
+    },
+    {
+      "name": "ciao",
+      "aliases": [],
+      "popularity": 15846,
+      "rarity": 0.145,
+      "tier": 1
+    },
+    {
+      "name": "check",
+      "aliases": [],
+      "popularity": 16054,
+      "rarity": 0.142,
+      "tier": 1
+    },
+    {
+      "name": "God",
+      "aliases": [],
+      "popularity": 16225,
+      "rarity": 0.139,
+      "tier": 1
+    },
+    {
+      "name": "help",
+      "aliases": [],
+      "popularity": 17342,
+      "rarity": 0.136,
+      "tier": 1
+    },
+    {
+      "name": "out",
+      "aliases": [],
+      "popularity": 17693,
+      "rarity": 0.133,
+      "tier": 1
+    },
+    {
+      "name": "sorry",
+      "aliases": [],
+      "popularity": 17721,
+      "rarity": 0.13,
+      "tier": 1
+    },
+    {
+      "name": "vale",
+      "aliases": [],
+      "popularity": 18026,
+      "rarity": 0.128,
+      "tier": 1
+    },
+    {
+      "name": "huh",
+      "aliases": [],
+      "popularity": 18789,
+      "rarity": 0.125,
+      "tier": 1
+    },
+    {
+      "name": "welcome",
+      "aliases": [],
+      "popularity": 19077,
+      "rarity": 0.122,
+      "tier": 1
+    },
+    {
+      "name": "um",
+      "aliases": [],
+      "popularity": 19159,
+      "rarity": 0.119,
+      "tier": 1
+    },
+    {
+      "name": "Jesus",
+      "aliases": [],
+      "popularity": 19257,
+      "rarity": 0.116,
+      "tier": 1
+    },
+    {
+      "name": "oh",
+      "aliases": [],
+      "popularity": 19757,
+      "rarity": 0.113,
+      "tier": 1
+    },
+    {
+      "name": "well",
+      "aliases": [],
+      "popularity": 19840,
+      "rarity": 0.11,
+      "tier": 1
+    },
+    {
+      "name": "brother",
+      "aliases": [],
+      "popularity": 19879,
+      "rarity": 0.107,
+      "tier": 1
+    },
+    {
+      "name": "fast",
+      "aliases": [],
+      "popularity": 20160,
+      "rarity": 0.104,
+      "tier": 1
+    },
+    {
+      "name": "hey",
+      "aliases": [],
+      "popularity": 20729,
+      "rarity": 0.101,
+      "tier": 1
+    },
+    {
+      "name": "pshaw",
+      "aliases": [],
+      "popularity": 20897,
+      "rarity": 0.099,
+      "tier": 1
+    },
+    {
+      "name": "ha",
+      "aliases": [],
+      "popularity": 20942,
+      "rarity": 0.096,
+      "tier": 1
+    },
+    {
+      "name": "hell",
+      "aliases": [],
+      "popularity": 21297,
+      "rarity": 0.093,
+      "tier": 1
+    },
+    {
+      "name": "why",
+      "aliases": [],
+      "popularity": 21574,
+      "rarity": 0.09,
+      "tier": 1
+    },
+    {
+      "name": "yo",
+      "aliases": [],
+      "popularity": 22293,
+      "rarity": 0.087,
+      "tier": 1
+    },
+    {
+      "name": "super",
+      "aliases": [],
+      "popularity": 22631,
+      "rarity": 0.084,
+      "tier": 1
+    },
+    {
+      "name": "say",
+      "aliases": [],
+      "popularity": 22683,
+      "rarity": 0.081,
+      "tier": 1
+    },
+    {
+      "name": "uh-huh",
+      "aliases": [],
+      "popularity": 22790,
+      "rarity": 0.078,
+      "tier": 1
+    },
+    {
+      "name": "night",
+      "aliases": [],
+      "popularity": 22837,
+      "rarity": 0.075,
+      "tier": 1
+    },
+    {
+      "name": "ta",
+      "aliases": [],
+      "popularity": 23148,
+      "rarity": 0.072,
+      "tier": 1
+    },
+    {
+      "name": "ball",
+      "aliases": [],
+      "popularity": 23417,
+      "rarity": 0.07,
+      "tier": 1
+    },
+    {
+      "name": "goodbye",
+      "aliases": [],
+      "popularity": 23862,
+      "rarity": 0.067,
+      "tier": 1
+    },
+    {
+      "name": "here",
+      "aliases": [],
+      "popularity": 24573,
+      "rarity": 0.064,
+      "tier": 1
+    },
+    {
+      "name": "ho",
+      "aliases": [],
+      "popularity": 25405,
+      "rarity": 0.061,
+      "tier": 1
+    },
+    {
+      "name": "my",
+      "aliases": [],
+      "popularity": 25542,
+      "rarity": 0.058,
+      "tier": 1
+    },
+    {
+      "name": "right",
+      "aliases": [],
+      "popularity": 28398,
+      "rarity": 0.055,
+      "tier": 1
+    },
+    {
+      "name": "nix",
+      "aliases": [],
+      "popularity": 28777,
+      "rarity": 0.052,
+      "tier": 1
+    },
+    {
+      "name": "yes",
+      "aliases": [],
+      "popularity": 28897,
+      "rarity": 0.049,
+      "tier": 1
+    },
+    {
+      "name": "boy",
+      "aliases": [],
+      "popularity": 29317,
+      "rarity": 0.046,
+      "tier": 1
+    },
+    {
+      "name": "la",
+      "aliases": [],
+      "popularity": 29990,
+      "rarity": 0.043,
+      "tier": 1
+    },
+    {
+      "name": "er",
+      "aliases": [],
+      "popularity": 30460,
+      "rarity": 0.041,
+      "tier": 1
+    },
+    {
+      "name": "there",
+      "aliases": [],
+      "popularity": 31950,
+      "rarity": 0.038,
+      "tier": 1
+    },
+    {
+      "name": "so",
+      "aliases": [],
+      "popularity": 34566,
+      "rarity": 0.035,
+      "tier": 1
+    },
+    {
+      "name": "word",
+      "aliases": [],
+      "popularity": 35763,
+      "rarity": 0.032,
+      "tier": 1
+    },
+    {
+      "name": "come",
+      "aliases": [],
+      "popularity": 37680,
+      "rarity": 0.029,
+      "tier": 1
+    },
+    {
+      "name": "he",
+      "aliases": [],
+      "popularity": 37826,
+      "rarity": 0.026,
+      "tier": 1
+    },
+    {
+      "name": "good",
+      "aliases": [],
+      "popularity": 38373,
+      "rarity": 0.023,
+      "tier": 1
+    },
+    {
+      "name": "lo",
+      "aliases": [],
+      "popularity": 45849,
+      "rarity": 0.02,
+      "tier": 1
+    },
+    {
+      "name": "please",
+      "aliases": [],
+      "popularity": 53798,
+      "rarity": 0.017,
+      "tier": 1
+    },
+    {
+      "name": "hello",
+      "aliases": [],
+      "popularity": 58835,
+      "rarity": 0.014,
+      "tier": 1
+    },
+    {
+      "name": "man",
+      "aliases": [],
+      "popularity": 65303,
+      "rarity": 0.012,
+      "tier": 1
+    },
+    {
+      "name": "hi",
+      "aliases": [],
+      "popularity": 66777,
+      "rarity": 0.009,
+      "tier": 1
+    },
+    {
+      "name": "how",
+      "aliases": [],
+      "popularity": 73284,
+      "rarity": 0.006,
+      "tier": 1
+    },
+    {
+      "name": "hmm",
+      "aliases": [],
+      "popularity": 79805,
+      "rarity": 0.003,
+      "tier": 1
+    },
+    {
+      "name": "what",
+      "aliases": [],
+      "popularity": 104701,
+      "rarity": 0,
+      "tier": 1
+    }
+  ],
+  "seoNoun": "English interjections"
+}

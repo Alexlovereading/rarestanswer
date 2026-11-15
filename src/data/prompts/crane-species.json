@@ -1,0 +1,170 @@
+{
+  "id": "crane-species",
+  "slug": "crane-species",
+  "category": "animals",
+  "question": "Name a species of crane",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Hooded crane",
+      "aliases": [
+        "Grus monacha"
+      ],
+      "popularity": 7495,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Hooded crane"
+    },
+    {
+      "name": "Wattled crane",
+      "aliases": [
+        "Bugeranus carunculatus",
+        "Grus carunculata"
+      ],
+      "popularity": 9823,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Wattled crane"
+    },
+    {
+      "name": "White-naped crane",
+      "aliases": [
+        "Antigone vipio"
+      ],
+      "popularity": 13810,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "White-naped crane"
+    },
+    {
+      "name": "Black crowned crane",
+      "aliases": [
+        "Balearica pavonina"
+      ],
+      "popularity": 16570,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Black crowned crane"
+    },
+    {
+      "name": "Blue crane",
+      "aliases": [
+        "Anthropoides paradiseus",
+        "paradise crane",
+        "Stanley crane"
+      ],
+      "popularity": 21385,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Blue crane"
+    },
+    {
+      "name": "Black-necked crane",
+      "aliases": [
+        "Grus nigricollis",
+        "Tibetan crane"
+      ],
+      "popularity": 22761,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Black-necked crane"
+    },
+    {
+      "name": "Brolga",
+      "aliases": [
+        "Grus rubicunda"
+      ],
+      "popularity": 34551,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Brolga"
+    },
+    {
+      "name": "Siberian crane",
+      "aliases": [
+        "Leucogeranus leucogeranus"
+      ],
+      "popularity": 37085,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Siberian crane"
+    },
+    {
+      "name": "Demoiselle crane",
+      "aliases": [
+        "Anthropoides virgo"
+      ],
+      "popularity": 47894,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Demoiselle crane"
+    },
+    {
+      "name": "Sarus crane",
+      "aliases": [
+        "Antigone antigone"
+      ],
+      "popularity": 58526,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Sarus crane"
+    },
+    {
+      "name": "Grey crowned crane",
+      "aliases": [
+        "Balearica regulorum",
+        "Crested Crane",
+        "East African Crowned Crane",
+        "Mahem",
+        "Uganda Crested Crane"
+      ],
+      "popularity": 63119,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Grey crowned crane"
+    },
+    {
+      "name": "Common crane",
+      "aliases": [
+        "Eurasian Crane",
+        "Grus grus"
+      ],
+      "popularity": 64418,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Common crane"
+    },
+    {
+      "name": "Red-crowned crane",
+      "aliases": [
+        "Grus japonensis",
+        "Japanese crane",
+        "Manchurian crane"
+      ],
+      "popularity": 84814,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Red-crowned crane"
+    },
+    {
+      "name": "Whooping crane",
+      "aliases": [
+        "Grus americana"
+      ],
+      "popularity": 105647,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Whooping crane"
+    },
+    {
+      "name": "Sandhill crane",
+      "aliases": [
+        "Grus canadensis"
+      ],
+      "popularity": 280185,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Sandhill crane"
+    }
+  ]
+}

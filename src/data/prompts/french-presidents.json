@@ -1,0 +1,300 @@
+{
+  "id": "french-presidents",
+  "slug": "french-presidents",
+  "category": "history",
+  "question": "Name a president of France",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Frédéric François-Marsal",
+      "aliases": [],
+      "popularity": 2300,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Frédéric François-Marsal"
+    },
+    {
+      "name": "Charles Dupuy",
+      "aliases": [],
+      "popularity": 3558,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Charles Dupuy"
+    },
+    {
+      "name": "Louis-Jules Trochu",
+      "aliases": [],
+      "popularity": 13792,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Louis-Jules Trochu"
+    },
+    {
+      "name": "Georges Bidault",
+      "aliases": [
+        "Georges-Augustin Bidault"
+      ],
+      "popularity": 16200,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Georges Bidault"
+    },
+    {
+      "name": "Alain Poher",
+      "aliases": [],
+      "popularity": 18648,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Alain Poher"
+    },
+    {
+      "name": "Louis-Eugène Cavaignac",
+      "aliases": [
+        "Eugène Cavaignac",
+        "General Cavaignac"
+      ],
+      "popularity": 23698,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Louis-Eugène Cavaignac"
+    },
+    {
+      "name": "Armand Fallières",
+      "aliases": [],
+      "popularity": 28445,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Armand Fallières"
+    },
+    {
+      "name": "Jean Casimir-Perier",
+      "aliases": [
+        "Casimir-Perier"
+      ],
+      "popularity": 29242,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Jean Casimir-Perier"
+    },
+    {
+      "name": "Émile Loubet",
+      "aliases": [],
+      "popularity": 33469,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Émile Loubet"
+    },
+    {
+      "name": "Paul Deschanel",
+      "aliases": [],
+      "popularity": 34722,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Paul Deschanel"
+    },
+    {
+      "name": "Gaston Doumergue",
+      "aliases": [
+        "Pierre-Paul-Henri-Gaston Doumer"
+      ],
+      "popularity": 36652,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Gaston Doumergue"
+    },
+    {
+      "name": "Jules Grévy",
+      "aliases": [
+        "François Paul Jules Grévy"
+      ],
+      "popularity": 39730,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Jules Grévy"
+    },
+    {
+      "name": "Alexandre Millerand",
+      "aliases": [],
+      "popularity": 40798,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Alexandre Millerand"
+    },
+    {
+      "name": "Paul Doumer",
+      "aliases": [
+        "Joseph Athanase Doumer",
+        "Joseph Athanase Gaston Paul Doumer"
+      ],
+      "popularity": 46089,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Paul Doumer"
+    },
+    {
+      "name": "Sadi Carnot",
+      "aliases": [
+        "Marie François Carnot",
+        "Sadi Carnot (statesman)"
+      ],
+      "popularity": 46666,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Sadi Carnot (statesman)"
+    },
+    {
+      "name": "Vincent Auriol",
+      "aliases": [],
+      "popularity": 46798,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Vincent Auriol"
+    },
+    {
+      "name": "Félix Faure",
+      "aliases": [
+        "François Felix Faure"
+      ],
+      "popularity": 71859,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Félix Faure"
+    },
+    {
+      "name": "René Coty",
+      "aliases": [
+        "Rene Jules Gustave Coty"
+      ],
+      "popularity": 72955,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "René Coty"
+    },
+    {
+      "name": "Albert Lebrun",
+      "aliases": [
+        "Albert François Lebrun"
+      ],
+      "popularity": 76870,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Albert Lebrun"
+    },
+    {
+      "name": "Raymond Poincaré",
+      "aliases": [
+        "Raymond Nicolas Landry Poincaré"
+      ],
+      "popularity": 81808,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Raymond Poincaré"
+    },
+    {
+      "name": "Patrice de MacMahon",
+      "aliases": [],
+      "popularity": 89192,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Patrice de MacMahon"
+    },
+    {
+      "name": "Adolphe Thiers",
+      "aliases": [
+        "Louis-Adolphe Thiers"
+      ],
+      "popularity": 131270,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Adolphe Thiers"
+    },
+    {
+      "name": "Georges Pompidou",
+      "aliases": [],
+      "popularity": 152383,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Georges Pompidou"
+    },
+    {
+      "name": "Valéry Giscard d'Estaing",
+      "aliases": [
+        "Giscard",
+        "Giscard d'Estaing",
+        "VGE"
+      ],
+      "popularity": 184034,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Valéry Giscard d'Estaing"
+    },
+    {
+      "name": "François Hollande",
+      "aliases": [
+        "François Gérard Georges Nicolas Hollande"
+      ],
+      "popularity": 313742,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "François Hollande"
+    },
+    {
+      "name": "Jacques Chirac",
+      "aliases": [],
+      "popularity": 345020,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Jacques Chirac"
+    },
+    {
+      "name": "François Mitterrand",
+      "aliases": [
+        "Francois Marie Adrien Maurice Mitterrand"
+      ],
+      "popularity": 359417,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "François Mitterrand"
+    },
+    {
+      "name": "Nicolas Sarkozy",
+      "aliases": [
+        "Sarko",
+        "Sarkozy"
+      ],
+      "popularity": 575600,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Nicolas Sarkozy"
+    },
+    {
+      "name": "Napoleon III",
+      "aliases": [
+        "Louis Napoleon",
+        "Louis-Napoléon Bonaparte"
+      ],
+      "popularity": 1139161,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Napoleon III"
+    },
+    {
+      "name": "Charles de Gaulle",
+      "aliases": [
+        "General Charles de Gaulle"
+      ],
+      "popularity": 1247799,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Charles de Gaulle"
+    },
+    {
+      "name": "Emmanuel Macron",
+      "aliases": [],
+      "popularity": 2135932,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Emmanuel Macron"
+    }
+  ]
+}

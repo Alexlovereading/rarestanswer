@@ -1,0 +1,622 @@
+{
+  "id": "turkish-dishes",
+  "slug": "turkish-dishes",
+  "category": "food",
+  "question": "Name a Turkish dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Paçanga böreği",
+      "aliases": [
+        "paçanga"
+      ],
+      "popularity": 427,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Paçanga böreği"
+    },
+    {
+      "name": "Ntolmás",
+      "aliases": [
+        "stuffed vine leaves",
+        "vine leaf roll"
+      ],
+      "popularity": 430,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Ntolmás"
+    },
+    {
+      "name": "Kağıt kebabı",
+      "aliases": [
+        "kağıt kebap"
+      ],
+      "popularity": 1116,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Kağıt kebabı"
+    },
+    {
+      "name": "Çörek",
+      "aliases": [],
+      "popularity": 1261,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Çörek"
+    },
+    {
+      "name": "Islama köfte",
+      "aliases": [
+        "ıslama köfte"
+      ],
+      "popularity": 1327,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Islama köfte"
+    },
+    {
+      "name": "Rummaniyeh",
+      "aliases": [
+        "rummaneyye",
+        "rummaniyya"
+      ],
+      "popularity": 1358,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Rummaniyeh"
+    },
+    {
+      "name": "Stuffed mallow",
+      "aliases": [],
+      "popularity": 1454,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Stuffed mallow"
+    },
+    {
+      "name": "Soğan kebabı",
+      "aliases": [],
+      "popularity": 1473,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Soğan kebabı"
+    },
+    {
+      "name": "Düğün çorbası",
+      "aliases": [
+        "Turkish wedding soup",
+        "Wedding soup"
+      ],
+      "popularity": 1550,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Düğün çorbası"
+    },
+    {
+      "name": "Sogan-dolma",
+      "aliases": [
+        "stuffed onions"
+      ],
+      "popularity": 1694,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Sogan-dolma"
+    },
+    {
+      "name": "Siron",
+      "aliases": [
+        "Siron (food)"
+      ],
+      "popularity": 1894,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Siron (food)"
+    },
+    {
+      "name": "Toyga soup",
+      "aliases": [],
+      "popularity": 1964,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Toyga soup"
+    },
+    {
+      "name": "Tatar böreği",
+      "aliases": [],
+      "popularity": 1968,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Tatar böreği"
+    },
+    {
+      "name": "Nokul",
+      "aliases": [],
+      "popularity": 2224,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Nokul"
+    },
+    {
+      "name": "Sarburma",
+      "aliases": [
+        "pierekaczewnik",
+        "Tatarski pieróg"
+      ],
+      "popularity": 2303,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Sarburma"
+    },
+    {
+      "name": "Cream tubes",
+      "aliases": [
+        "torpedo dessert"
+      ],
+      "popularity": 2879,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Cream tubes"
+    },
+    {
+      "name": "Şöbiyet",
+      "aliases": [],
+      "popularity": 2895,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Şöbiyet"
+    },
+    {
+      "name": "Acıbadem kurabiyesi",
+      "aliases": [
+        "bitter almond cookie"
+      ],
+      "popularity": 3203,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Acıbadem kurabiyesi"
+    },
+    {
+      "name": "İnegöl meatballs",
+      "aliases": [],
+      "popularity": 3303,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "İnegöl meatballs"
+    },
+    {
+      "name": "Ayva tatlısı",
+      "aliases": [
+        "quince dessert"
+      ],
+      "popularity": 3335,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Ayva tatlısı"
+    },
+    {
+      "name": "Bülbül yuvası",
+      "aliases": [
+        "bülbülyuvası"
+      ],
+      "popularity": 3552,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Bülbül yuvası"
+    },
+    {
+      "name": "Sulu köfte",
+      "aliases": [],
+      "popularity": 3553,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Sulu köfte"
+    },
+    {
+      "name": "Sütlü Nuriye",
+      "aliases": [
+        "Nuriye dessert"
+      ],
+      "popularity": 3781,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Sütlü Nuriye"
+    },
+    {
+      "name": "Fava",
+      "aliases": [
+        "Fava (Turkish dish)"
+      ],
+      "popularity": 4046,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Fava (Turkish dish)"
+    },
+    {
+      "name": "Arnavut ciğeri",
+      "aliases": [
+        "Albanian liver"
+      ],
+      "popularity": 4541,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Arnavut ciğeri"
+    },
+    {
+      "name": "Kömbe",
+      "aliases": [],
+      "popularity": 4622,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Kömbe"
+    },
+    {
+      "name": "Ramazan pidesi",
+      "aliases": [
+        "Ramadan pide"
+      ],
+      "popularity": 4972,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Ramazan pidesi"
+    },
+    {
+      "name": "Yayla çorbası",
+      "aliases": [
+        "yayla soup",
+        "yoğurt çorbası"
+      ],
+      "popularity": 6006,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Yayla çorbası"
+    },
+    {
+      "name": "Piyaz",
+      "aliases": [],
+      "popularity": 6136,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Piyaz"
+    },
+    {
+      "name": "Bici bici",
+      "aliases": [
+        "Bici bici dessert"
+      ],
+      "popularity": 6684,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Bici bici"
+    },
+    {
+      "name": "Kesme",
+      "aliases": [
+        "erişte"
+      ],
+      "popularity": 6869,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Kesme"
+    },
+    {
+      "name": "Taboon bread",
+      "aliases": [
+        "laffa"
+      ],
+      "popularity": 7490,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Taboon bread"
+    },
+    {
+      "name": "Kemal Pasha dessert",
+      "aliases": [
+        "Kemalpaşa dessert"
+      ],
+      "popularity": 7511,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Kemal Pasha dessert"
+    },
+    {
+      "name": "Mücver",
+      "aliases": [],
+      "popularity": 7998,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Mücver"
+    },
+    {
+      "name": "Beyran soup",
+      "aliases": [
+        "beyran"
+      ],
+      "popularity": 9046,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Beyran soup"
+    },
+    {
+      "name": "Çökertme kebabı",
+      "aliases": [
+        "Çökertme"
+      ],
+      "popularity": 9712,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Çökertme kebabı"
+    },
+    {
+      "name": "Balık ekmek",
+      "aliases": [],
+      "popularity": 11616,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Balık ekmek"
+    },
+    {
+      "name": "Popara",
+      "aliases": [
+        "papara"
+      ],
+      "popularity": 11829,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Popara"
+    },
+    {
+      "name": "Macun",
+      "aliases": [
+        "macun şekeri"
+      ],
+      "popularity": 12413,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Macun"
+    },
+    {
+      "name": "Kuymak",
+      "aliases": [],
+      "popularity": 12839,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Kuymak"
+    },
+    {
+      "name": "Yahni",
+      "aliases": [
+        "stew",
+        "yahniya",
+        "yakhni"
+      ],
+      "popularity": 13335,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Yahni"
+    },
+    {
+      "name": "Hünkârbeğendi",
+      "aliases": [],
+      "popularity": 13801,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Hünkârbeğendi"
+    },
+    {
+      "name": "Karnıyarık",
+      "aliases": [
+        "karniyarik"
+      ],
+      "popularity": 14214,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Karnıyarık"
+    },
+    {
+      "name": "Barbecue chicken",
+      "aliases": [],
+      "popularity": 15146,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Barbecue chicken"
+    },
+    {
+      "name": "Nettle soup",
+      "aliases": [
+        "utrica soup"
+      ],
+      "popularity": 15234,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Nettle soup"
+    },
+    {
+      "name": "Güllaç",
+      "aliases": [],
+      "popularity": 15282,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Güllaç"
+    },
+    {
+      "name": "Cağ kebabı",
+      "aliases": [
+        "Bîco"
+      ],
+      "popularity": 15307,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Cağ kebabı"
+    },
+    {
+      "name": "Ezogelin soup",
+      "aliases": [
+        "Ezo Gelin",
+        "Ezogelin çorba",
+        "Ezogelin çorbası"
+      ],
+      "popularity": 16935,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Ezogelin soup"
+    },
+    {
+      "name": "Çoban salatası",
+      "aliases": [
+        "çoban salad",
+        "Çoban salata"
+      ],
+      "popularity": 17942,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Çoban salatası"
+    },
+    {
+      "name": "Pişmaniye",
+      "aliases": [],
+      "popularity": 19409,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Pişmaniye"
+    },
+    {
+      "name": "Çılbır",
+      "aliases": [],
+      "popularity": 20827,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Çılbır"
+    },
+    {
+      "name": "Kumpir",
+      "aliases": [
+        "Turkish baked potato"
+      ],
+      "popularity": 22405,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "Kumpir"
+    },
+    {
+      "name": "Tavukgöğsü",
+      "aliases": [
+        "tavuk göğsü"
+      ],
+      "popularity": 27666,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Tavukgöğsü"
+    },
+    {
+      "name": "İçli pide",
+      "aliases": [
+        "pide"
+      ],
+      "popularity": 28570,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "İçli pide"
+    },
+    {
+      "name": "İmam bayıldı",
+      "aliases": [
+        "Imambayıldı"
+      ],
+      "popularity": 28857,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "İmam bayıldı"
+    },
+    {
+      "name": "Ekmek kadayıfı",
+      "aliases": [],
+      "popularity": 33231,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Ekmek kadayıfı"
+    },
+    {
+      "name": "Lokma",
+      "aliases": [
+        "lokma fritter",
+        "lokma tatlısı",
+        "loqmat al qadi",
+        "loukmades",
+        "loukoumades",
+        "loukoumas",
+        "luqaimat",
+        "luqmat al-qadi",
+        "zalabyieh"
+      ],
+      "popularity": 37976,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Lokma"
+    },
+    {
+      "name": "Menemen",
+      "aliases": [
+        "Menemen (food)"
+      ],
+      "popularity": 46910,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Menemen (food)"
+    },
+    {
+      "name": "Dondurma",
+      "aliases": [
+        "Dövme dondurma",
+        "Maraş dondurması",
+        "Turkish ice cream"
+      ],
+      "popularity": 51838,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Dondurma"
+    },
+    {
+      "name": "Pastirma",
+      "aliases": [
+        "pastırma"
+      ],
+      "popularity": 64872,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Pastirma"
+    },
+    {
+      "name": "Sujuk",
+      "aliases": [
+        "sucuk"
+      ],
+      "popularity": 77345,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Sujuk"
+    },
+    {
+      "name": "Meze",
+      "aliases": [
+        "mezze"
+      ],
+      "popularity": 95455,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Meze"
+    },
+    {
+      "name": "Ayran",
+      "aliases": [
+        "abdug",
+        "dhallë",
+        "doogh",
+        "tan"
+      ],
+      "popularity": 136848,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Ayran"
+    }
+  ]
+}

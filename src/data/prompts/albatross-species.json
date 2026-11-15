@@ -1,0 +1,239 @@
+{
+  "id": "albatross-species",
+  "slug": "albatross-species",
+  "category": "animals",
+  "question": "Name a species of albatross",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Campbell albatross",
+      "aliases": [
+        "Thalassarche impavida"
+      ],
+      "popularity": 2976,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Campbell albatross"
+    },
+    {
+      "name": "Chatham albatross",
+      "aliases": [
+        "Thalassarche eremita"
+      ],
+      "popularity": 3322,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Chatham albatross"
+    },
+    {
+      "name": "Salvin's albatross",
+      "aliases": [
+        "Thalassarche salvini"
+      ],
+      "popularity": 3881,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Salvin's albatross"
+    },
+    {
+      "name": "Light-mantled albatross",
+      "aliases": [
+        "Phoebetria palpebrata"
+      ],
+      "popularity": 5105,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Light-mantled albatross"
+    },
+    {
+      "name": "Buller's albatross",
+      "aliases": [
+        "Thalassarche bulleri"
+      ],
+      "popularity": 5260,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Buller's albatross"
+    },
+    {
+      "name": "Indian yellow-nosed albatross",
+      "aliases": [
+        "Thalassarche carteri",
+        "Yellow-nosed albatross"
+      ],
+      "popularity": 5296,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Indian yellow-nosed albatross"
+    },
+    {
+      "name": "Antipodean albatross",
+      "aliases": [
+        "Diomedea antipodensis"
+      ],
+      "popularity": 6180,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Antipodean albatross"
+    },
+    {
+      "name": "White-capped albatross",
+      "aliases": [
+        "Thalassarche steadi"
+      ],
+      "popularity": 6284,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "White-capped albatross"
+    },
+    {
+      "name": "Atlantic yellow-nosed albatross",
+      "aliases": [
+        "Thalassarche chlororhynchos"
+      ],
+      "popularity": 7278,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Atlantic yellow-nosed albatross"
+    },
+    {
+      "name": "Shy albatross",
+      "aliases": [
+        "Thalassarche cauta"
+      ],
+      "popularity": 8431,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Shy albatross"
+    },
+    {
+      "name": "Sooty albatross",
+      "aliases": [
+        "dark-mantled sooty albatross",
+        "Dusky Albatross",
+        "Phoebetria fusca"
+      ],
+      "popularity": 8889,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Sooty albatross"
+    },
+    {
+      "name": "Amsterdam albatross",
+      "aliases": [
+        "Diomedea amsterdamensis"
+      ],
+      "popularity": 9253,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Amsterdam albatross"
+    },
+    {
+      "name": "Tristan albatross",
+      "aliases": [
+        "Diomedea dabbenena"
+      ],
+      "popularity": 9538,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Tristan albatross"
+    },
+    {
+      "name": "Grey-headed albatross",
+      "aliases": [
+        "grey-headed mollymawk",
+        "Thalassarche chrysostoma"
+      ],
+      "popularity": 9841,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Grey-headed albatross"
+    },
+    {
+      "name": "Northern royal albatross",
+      "aliases": [
+        "Diomedea sanfordi"
+      ],
+      "popularity": 11503,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Northern royal albatross"
+    },
+    {
+      "name": "Waved albatross",
+      "aliases": [
+        "Phoebastria irrorata"
+      ],
+      "popularity": 12079,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Waved albatross"
+    },
+    {
+      "name": "Black-footed albatross",
+      "aliases": [
+        "Diomedea nigripes",
+        "Phoebastria nigripes"
+      ],
+      "popularity": 15180,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Black-footed albatross"
+    },
+    {
+      "name": "Black-browed albatross",
+      "aliases": [
+        "Black-browed Mollymawk",
+        "Thalassarche melanophris",
+        "Thalassarche melanophrys"
+      ],
+      "popularity": 18503,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Black-browed albatross"
+    },
+    {
+      "name": "Short-tailed albatross",
+      "aliases": [
+        "Phoebastria albatrus",
+        "Steller's albatross"
+      ],
+      "popularity": 20376,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Short-tailed albatross"
+    },
+    {
+      "name": "Southern royal albatross",
+      "aliases": [
+        "Diomedea epomophora",
+        "Royal Albatross"
+      ],
+      "popularity": 26304,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Southern royal albatross"
+    },
+    {
+      "name": "Laysan albatross",
+      "aliases": [
+        "Phoebastria immutabilis"
+      ],
+      "popularity": 39700,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Laysan albatross"
+    },
+    {
+      "name": "Snowy albatross",
+      "aliases": [
+        "Diomedea exulans",
+        "Wandering Albatross"
+      ],
+      "popularity": 83347,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Snowy albatross"
+    }
+  ]
+}

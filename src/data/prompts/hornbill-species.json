@@ -1,0 +1,661 @@
+{
+  "id": "hornbill-species",
+  "slug": "hornbill-species",
+  "category": "animals",
+  "question": "Name a species of hornbill",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Eastern dwarf hornbill",
+      "aliases": [
+        "Horizocerus granti"
+      ],
+      "popularity": 468,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Eastern dwarf hornbill"
+    },
+    {
+      "name": "Southern rufous hornbill",
+      "aliases": [
+        "Buceros mindanensis"
+      ],
+      "popularity": 527,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Southern rufous hornbill"
+    },
+    {
+      "name": "Eastern long-tailed hornbill",
+      "aliases": [
+        "Horizocerus cassini"
+      ],
+      "popularity": 567,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Eastern long-tailed hornbill"
+    },
+    {
+      "name": "Pale-billed hornbill",
+      "aliases": [
+        "Lophoceros pallidirostris"
+      ],
+      "popularity": 683,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Pale-billed hornbill"
+    },
+    {
+      "name": "Western dwarf hornbill",
+      "aliases": [
+        "Black Dwarf Hornbill",
+        "Horizocerus hartlaubi",
+        "Tockus hartlaubi"
+      ],
+      "popularity": 715,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Western dwarf hornbill"
+    },
+    {
+      "name": "Hemprich's hornbill",
+      "aliases": [
+        "Lophoceros hemprichii"
+      ],
+      "popularity": 754,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Hemprich's hornbill"
+    },
+    {
+      "name": "Red-billed dwarf hornbill",
+      "aliases": [
+        "Lophoceros camurus"
+      ],
+      "popularity": 986,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Red-billed dwarf hornbill"
+    },
+    {
+      "name": "Bradfield's hornbill",
+      "aliases": [
+        "Lophoceros bradfieldi"
+      ],
+      "popularity": 1021,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Bradfield's hornbill"
+    },
+    {
+      "name": "West African pied hornbill",
+      "aliases": [
+        "Lophoceros semifasciatus"
+      ],
+      "popularity": 1083,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "West African pied hornbill"
+    },
+    {
+      "name": "Tickell's brown hornbill",
+      "aliases": [
+        "Anorrhinus tickelli",
+        "Austen's Brwon Hornbill",
+        "Ptilolaemus tickelli",
+        "Tickell's hornbill"
+      ],
+      "popularity": 1118,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Tickell's brown hornbill"
+    },
+    {
+      "name": "Brown-cheeked hornbill",
+      "aliases": [
+        "Bycanistes cylindricus"
+      ],
+      "popularity": 1162,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Brown-cheeked hornbill"
+    },
+    {
+      "name": "Western long-tailed hornbill",
+      "aliases": [
+        "Horizocerus albocristatus",
+        "White-crested Hornbill"
+      ],
+      "popularity": 1213,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Western long-tailed hornbill"
+    },
+    {
+      "name": "White-thighed hornbill",
+      "aliases": [
+        "Bycanistes albotibialis"
+      ],
+      "popularity": 1342,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "White-thighed hornbill"
+    },
+    {
+      "name": "Congo pied hornbill",
+      "aliases": [
+        "African Pied Hornbill",
+        "Lophoceros fasciatus"
+      ],
+      "popularity": 1364,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Congo pied hornbill"
+    },
+    {
+      "name": "Monteiro's hornbill",
+      "aliases": [
+        "Tockus monteiri"
+      ],
+      "popularity": 1414,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Monteiro's hornbill"
+    },
+    {
+      "name": "Jackson's hornbill",
+      "aliases": [
+        "Tockus jacksoni"
+      ],
+      "popularity": 1440,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Jackson's hornbill"
+    },
+    {
+      "name": "Damara red-billed hornbill",
+      "aliases": [
+        "Tockus damarensis"
+      ],
+      "popularity": 1468,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Damara red-billed hornbill"
+    },
+    {
+      "name": "Piping hornbill",
+      "aliases": [
+        "Bycanistes fistulator"
+      ],
+      "popularity": 1477,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Piping hornbill"
+    },
+    {
+      "name": "Sumba hornbill",
+      "aliases": [
+        "Everett's hornbill",
+        "Rhyticeros everetti"
+      ],
+      "popularity": 1624,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Sumba hornbill"
+    },
+    {
+      "name": "Writhed hornbill",
+      "aliases": [
+        "Aceros leucocephalus",
+        "Rhabdotorrhinus leucocephalus"
+      ],
+      "popularity": 1642,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Writhed hornbill"
+    },
+    {
+      "name": "Yellow-casqued hornbill",
+      "aliases": [
+        "Ceratogymna elata",
+        "Yellow-casqued Wattled Hornbill"
+      ],
+      "popularity": 1667,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Yellow-casqued hornbill"
+    },
+    {
+      "name": "Mindanao hornbill",
+      "aliases": [
+        "Penelopides affinis"
+      ],
+      "popularity": 1705,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Mindanao hornbill"
+    },
+    {
+      "name": "Bushy-crested hornbill",
+      "aliases": [
+        "Anorrhinus galeritus"
+      ],
+      "popularity": 1725,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Bushy-crested hornbill"
+    },
+    {
+      "name": "Plain-pouched hornbill",
+      "aliases": [
+        "Rhyticeros subruficollis"
+      ],
+      "popularity": 1726,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Plain-pouched hornbill"
+    },
+    {
+      "name": "Sulawesi hornbill",
+      "aliases": [
+        "Rhabdotorrhinus exarhatus",
+        "sulawesi dwarf hornbill",
+        "sulawesi tarictic hornbill",
+        "temminck's hornbill"
+      ],
+      "popularity": 1746,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Sulawesi hornbill"
+    },
+    {
+      "name": "Mindoro hornbill",
+      "aliases": [
+        "Penelopides mindorensis"
+      ],
+      "popularity": 1776,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Mindoro hornbill"
+    },
+    {
+      "name": "Eastern yellow-billed hornbill",
+      "aliases": [
+        "Tockus flavirostris"
+      ],
+      "popularity": 1865,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Eastern yellow-billed hornbill"
+    },
+    {
+      "name": "Samar hornbill",
+      "aliases": [
+        "Penelopides samarensis"
+      ],
+      "popularity": 1888,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Samar hornbill"
+    },
+    {
+      "name": "Tanzanian red-billed hornbill",
+      "aliases": [
+        "Tockus ruahae"
+      ],
+      "popularity": 2385,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Tanzanian red-billed hornbill"
+    },
+    {
+      "name": "Western red-billed hornbill",
+      "aliases": [
+        "Tockus kempi"
+      ],
+      "popularity": 2470,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Western red-billed hornbill"
+    },
+    {
+      "name": "Austen's brown hornbill",
+      "aliases": [
+        "Anorrhinus austeni"
+      ],
+      "popularity": 2510,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Austen's brown hornbill"
+    },
+    {
+      "name": "Luzon hornbill",
+      "aliases": [
+        "Penelopides manillae"
+      ],
+      "popularity": 3249,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Luzon hornbill"
+    },
+    {
+      "name": "Crowned hornbill",
+      "aliases": [
+        "Lophoceros alboterminatus"
+      ],
+      "popularity": 3393,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Crowned hornbill"
+    },
+    {
+      "name": "White-crowned hornbill",
+      "aliases": [
+        "Berenicornis comatus"
+      ],
+      "popularity": 3727,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "White-crowned hornbill"
+    },
+    {
+      "name": "Walden's hornbill",
+      "aliases": [
+        "Rhabdotorrhinus waldeni"
+      ],
+      "popularity": 3779,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Walden's hornbill"
+    },
+    {
+      "name": "Wrinkled hornbill",
+      "aliases": [
+        "Rhabdotorrhinus corrugatus"
+      ],
+      "popularity": 3873,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Wrinkled hornbill"
+    },
+    {
+      "name": "Black-and-white-casqued hornbill",
+      "aliases": [
+        "Bycanistes subcylindricus"
+      ],
+      "popularity": 3962,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Black-and-white-casqued hornbill"
+    },
+    {
+      "name": "Silvery-cheeked hornbill",
+      "aliases": [
+        "Bycanistes brevis"
+      ],
+      "popularity": 4261,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Silvery-cheeked hornbill"
+    },
+    {
+      "name": "Northern red-billed hornbill",
+      "aliases": [
+        "Tockus erythrorhynchus"
+      ],
+      "popularity": 4278,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Northern red-billed hornbill"
+    },
+    {
+      "name": "Sri Lanka grey hornbill",
+      "aliases": [
+        "Ocyceros gingalensis",
+        "Tockus gingalensis"
+      ],
+      "popularity": 4452,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Sri Lanka grey hornbill"
+    },
+    {
+      "name": "Black hornbill",
+      "aliases": [
+        "Anthracoceros malayanus"
+      ],
+      "popularity": 4541,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Black hornbill"
+    },
+    {
+      "name": "Black-casqued hornbill",
+      "aliases": [
+        "Black-casqued Wattled Hornbill",
+        "Ceratogymna atrata"
+      ],
+      "popularity": 4657,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Black-casqued hornbill"
+    },
+    {
+      "name": "Von der Decken's hornbill",
+      "aliases": [
+        "Tockus deckeni"
+      ],
+      "popularity": 4765,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Von der Decken's hornbill"
+    },
+    {
+      "name": "Narcondam hornbill",
+      "aliases": [
+        "Rhyticeros narcondami"
+      ],
+      "popularity": 5205,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Narcondam hornbill"
+    },
+    {
+      "name": "Visayan hornbill",
+      "aliases": [
+        "Penelopides panini",
+        "Tarictic Hornbill",
+        "Visayan tarictic"
+      ],
+      "popularity": 5437,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Visayan hornbill"
+    },
+    {
+      "name": "Blyth's hornbill",
+      "aliases": [
+        "Rhyticeros plicatus"
+      ],
+      "popularity": 5524,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Blyth's hornbill"
+    },
+    {
+      "name": "Palawan hornbill",
+      "aliases": [
+        "Anthracoceros marchei"
+      ],
+      "popularity": 5826,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Palawan hornbill"
+    },
+    {
+      "name": "Knobbed hornbill",
+      "aliases": [
+        "Rhyticeros cassidix",
+        "Sulawesi wrinkled hornbill"
+      ],
+      "popularity": 6340,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Knobbed hornbill"
+    },
+    {
+      "name": "Trumpeter hornbill",
+      "aliases": [
+        "Bycanistes bucinator"
+      ],
+      "popularity": 6502,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Trumpeter hornbill"
+    },
+    {
+      "name": "Rufous-necked hornbill",
+      "aliases": [
+        "Aceros nipalensis"
+      ],
+      "popularity": 6632,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Rufous-necked hornbill"
+    },
+    {
+      "name": "Southern yellow-billed hornbill",
+      "aliases": [
+        "Tockus leucomelas"
+      ],
+      "popularity": 6857,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Southern yellow-billed hornbill"
+    },
+    {
+      "name": "African grey hornbill",
+      "aliases": [
+        "Lophoceros nasutus"
+      ],
+      "popularity": 6910,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "African grey hornbill"
+    },
+    {
+      "name": "Sulu hornbill",
+      "aliases": [
+        "Anthracoceros montani"
+      ],
+      "popularity": 7629,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Sulu hornbill"
+    },
+    {
+      "name": "Wreathed hornbill",
+      "aliases": [
+        "Rhyticeros undulates",
+        "Rhyticeros undulatus"
+      ],
+      "popularity": 8518,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Wreathed hornbill"
+    },
+    {
+      "name": "Malabar grey hornbill",
+      "aliases": [
+        "Ocyceros griseus",
+        "Tockus griseus"
+      ],
+      "popularity": 9753,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Malabar grey hornbill"
+    },
+    {
+      "name": "Southern red-billed hornbill",
+      "aliases": [
+        "Tockus rufirostris"
+      ],
+      "popularity": 10306,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Southern red-billed hornbill"
+    },
+    {
+      "name": "Rufous hornbill",
+      "aliases": [
+        "Buceros hydrocorax"
+      ],
+      "popularity": 11117,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Rufous hornbill"
+    },
+    {
+      "name": "Malabar pied hornbill",
+      "aliases": [
+        "Anthracoceros coronatus",
+        "Indian Pied Hornbill"
+      ],
+      "popularity": 18040,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Malabar pied hornbill"
+    },
+    {
+      "name": "Helmeted hornbill",
+      "aliases": [
+        "Rhinoplax vigil"
+      ],
+      "popularity": 22015,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Helmeted hornbill"
+    },
+    {
+      "name": "Oriental pied hornbill",
+      "aliases": [
+        "Anthracoceros albirostris"
+      ],
+      "popularity": 23146,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Oriental pied hornbill"
+    },
+    {
+      "name": "Indian grey hornbill",
+      "aliases": [
+        "Ocyceros birostris",
+        "Tockus birostris"
+      ],
+      "popularity": 26247,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Indian grey hornbill"
+    },
+    {
+      "name": "Rhinoceros hornbill",
+      "aliases": [
+        "Buceros rhinoceros"
+      ],
+      "popularity": 36149,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Rhinoceros hornbill"
+    },
+    {
+      "name": "Great hornbill",
+      "aliases": [
+        "Buceros bicornis"
+      ],
+      "popularity": 93647,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Great hornbill"
+    }
+  ]
+}

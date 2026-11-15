@@ -12,6 +12,8 @@ import {
   CATEGORY_ORDER,
   comparePromptSeo,
   derivePromptSeo,
+  ensureUniquePromptMeta,
+  selectRelated,
   type PromptInput,
   type PromptSeo,
 } from './copy';
@@ -48,9 +50,7 @@ export function getPrompt(slug: string): PromptSeo | undefined {
 }
 
 export function relatedPrompts(prompt: PromptSeo): PromptSeo[] {
-  return getPrompts().filter(
-    (other) => other.category === prompt.category && other.slug !== prompt.slug,
-  );
+  return selectRelated(prompt, getPrompts());
 }
 
 export function answerPath(slug: string): string {
@@ -69,8 +69,9 @@ export function triviaPath(category: CategoryKey): string {
   return localizePath(`/trivia/${category}`, defaultLocale);
 }
 
+/** In-page category anchor. The hub has no client filter. */
 export function hubCategoryPath(category: CategoryKey): string {
-  return `${HUB_PATH}?category=${encodeURIComponent(category)}`;
+  return `${HUB_PATH}#${category}`;
 }
 
 export function answerCrumbJsonLd(opts: {
@@ -129,6 +130,7 @@ function loadPrompts(): PromptSeo[] {
   }
   warnIndexDrift(slugs);
   prompts.sort(comparePromptSeo);
+  ensureUniquePromptMeta(prompts);
   return prompts;
 }
 

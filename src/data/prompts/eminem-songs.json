@@ -1,0 +1,892 @@
+{
+  "id": "eminem-songs",
+  "slug": "eminem-songs",
+  "category": "music",
+  "question": "Name an Eminem song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Bad One",
+      "aliases": [],
+      "popularity": 17,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Bad One"
+    },
+    {
+      "name": "Road Rage",
+      "aliases": [
+        "Road Rage (Eminem song)"
+      ],
+      "popularity": 18,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Road Rage (Eminem song)"
+    },
+    {
+      "name": "Head Honcho",
+      "aliases": [
+        "Head Honcho (song)"
+      ],
+      "popularity": 20,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Head Honcho (song)"
+    },
+    {
+      "name": "All You Got",
+      "aliases": [],
+      "popularity": 21,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "All You Got"
+    },
+    {
+      "name": "You're Never Over",
+      "aliases": [],
+      "popularity": 325,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "You're Never Over"
+    },
+    {
+      "name": "Shit Hits the Fan",
+      "aliases": [],
+      "popularity": 451,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Shit Hits the Fan"
+    },
+    {
+      "name": "Black Magic",
+      "aliases": [
+        "Black Magic (Eminem song)"
+      ],
+      "popularity": 1306,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Black Magic (Eminem song)"
+    },
+    {
+      "name": "Rap Name",
+      "aliases": [],
+      "popularity": 1423,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Rap Name"
+    },
+    {
+      "name": "Bang",
+      "aliases": [
+        "Bang (Conway the Machine song)"
+      ],
+      "popularity": 1583,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Bang (Conway the Machine song)"
+    },
+    {
+      "name": "Higher",
+      "aliases": [
+        "Higher (Eminem song)"
+      ],
+      "popularity": 1727,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Higher (Eminem song)"
+    },
+    {
+      "name": "Throw That",
+      "aliases": [],
+      "popularity": 2097,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Throw That"
+    },
+    {
+      "name": "Chloraseptic",
+      "aliases": [
+        "Chloraseptic (song)"
+      ],
+      "popularity": 2240,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Chloraseptic (song)"
+    },
+    {
+      "name": "Hell Breaks Loose",
+      "aliases": [],
+      "popularity": 2261,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Hell Breaks Loose"
+    },
+    {
+      "name": "Elevator",
+      "aliases": [
+        "Elevator (Eminem song)"
+      ],
+      "popularity": 2310,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Elevator (Eminem song)"
+    },
+    {
+      "name": "Evil",
+      "aliases": [
+        "Evil (Eminem song)"
+      ],
+      "popularity": 2376,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Evil (Eminem song)"
+    },
+    {
+      "name": "Writer's Block",
+      "aliases": [
+        "Writer's Block (Royce da 5'9\" song)"
+      ],
+      "popularity": 2393,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Writer's Block (Royce da 5'9\" song)"
+    },
+    {
+      "name": "Untouchable",
+      "aliases": [
+        "Untouchable (Eminem song)"
+      ],
+      "popularity": 2984,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Untouchable (Eminem song)"
+    },
+    {
+      "name": "One Day at a Time",
+      "aliases": [
+        "One Day at a Time (Em's Version)"
+      ],
+      "popularity": 3459,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "One Day at a Time (Em's Version)"
+    },
+    {
+      "name": "Renaissance",
+      "aliases": [
+        "Renaissance (Eminem song)"
+      ],
+      "popularity": 3606,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Renaissance (Eminem song)"
+    },
+    {
+      "name": "Lucifer",
+      "aliases": [
+        "Lucifer (Eminem and Sly Pyper song)"
+      ],
+      "popularity": 3609,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Lucifer (Eminem and Sly Pyper song)"
+    },
+    {
+      "name": "Fuel",
+      "aliases": [
+        "Fuel (JID and Eminem song)"
+      ],
+      "popularity": 3950,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Fuel (JID and Eminem song)"
+    },
+    {
+      "name": "Old Time's Sake",
+      "aliases": [],
+      "popularity": 4291,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Old Time's Sake"
+    },
+    {
+      "name": "Nowhere Fast",
+      "aliases": [
+        "Nowhere Fast (Eminem song)"
+      ],
+      "popularity": 4488,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Nowhere Fast (Eminem song)"
+    },
+    {
+      "name": "C'mon Let Me Ride",
+      "aliases": [],
+      "popularity": 4810,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "C'mon Let Me Ride"
+    },
+    {
+      "name": "Rock City",
+      "aliases": [
+        "Rock City (song)"
+      ],
+      "popularity": 4839,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Rock City (song)"
+    },
+    {
+      "name": "The Adventures of Moon Man & Slim Shady",
+      "aliases": [
+        "Adventures of Moon Man & Slim Shady"
+      ],
+      "popularity": 5265,
+      "rarity": 0.734,
+      "tier": 4,
+      "wiki": "The Adventures of Moon Man & Slim Shady"
+    },
+    {
+      "name": "Phenomenal",
+      "aliases": [
+        "Phenomenal (song)"
+      ],
+      "popularity": 5334,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Phenomenal (song)"
+    },
+    {
+      "name": "Jimmy Crack Corn",
+      "aliases": [
+        "Jimmy Crack Corn (Eminem song)"
+      ],
+      "popularity": 5699,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Jimmy Crack Corn (Eminem song)"
+    },
+    {
+      "name": "Kings Never Die",
+      "aliases": [],
+      "popularity": 5743,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Kings Never Die"
+    },
+    {
+      "name": "Calm Down",
+      "aliases": [
+        "Calm Down (Busta Rhymes song)"
+      ],
+      "popularity": 6063,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Calm Down (Busta Rhymes song)"
+    },
+    {
+      "name": "Temporary",
+      "aliases": [
+        "Temporary (song)"
+      ],
+      "popularity": 6305,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Temporary (song)"
+    },
+    {
+      "name": "My Life",
+      "aliases": [
+        "My Life (50 Cent song)"
+      ],
+      "popularity": 6678,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "My Life (50 Cent song)"
+    },
+    {
+      "name": "Hellbound",
+      "aliases": [
+        "Hellbound (song)"
+      ],
+      "popularity": 6713,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Hellbound (song)"
+    },
+    {
+      "name": "Guilty Conscience 2",
+      "aliases": [],
+      "popularity": 6783,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Guilty Conscience 2"
+    },
+    {
+      "name": "Lace It",
+      "aliases": [],
+      "popularity": 6785,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Lace It"
+    },
+    {
+      "name": "Campaign Speech",
+      "aliases": [],
+      "popularity": 6956,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Campaign Speech"
+    },
+    {
+      "name": "Antichrist",
+      "aliases": [
+        "Antichrist (song)"
+      ],
+      "popularity": 7380,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Antichrist (song)"
+    },
+    {
+      "name": "Welcome 2 Detroit",
+      "aliases": [
+        "Welcome 2 Detroit (song)"
+      ],
+      "popularity": 7619,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Welcome 2 Detroit (song)"
+    },
+    {
+      "name": "From the D 2 the LBC",
+      "aliases": [],
+      "popularity": 8005,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "From the D 2 the LBC"
+    },
+    {
+      "name": "That's All She Wrote",
+      "aliases": [],
+      "popularity": 8285,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "That's All She Wrote"
+    },
+    {
+      "name": "Lucky You",
+      "aliases": [
+        "Lucky You (Eminem song)"
+      ],
+      "popularity": 8953,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Lucky You (Eminem song)"
+    },
+    {
+      "name": "Homicide",
+      "aliases": [
+        "Homicide (song)"
+      ],
+      "popularity": 8990,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Homicide (song)"
+    },
+    {
+      "name": "Brand New Dance",
+      "aliases": [
+        "Brand New Dance (song)"
+      ],
+      "popularity": 9652,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Brand New Dance (song)"
+    },
+    {
+      "name": "Guts Over Fear",
+      "aliases": [],
+      "popularity": 9773,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Guts Over Fear"
+    },
+    {
+      "name": "Fast Lane",
+      "aliases": [
+        "Fast Lane (Bad Meets Evil song)"
+      ],
+      "popularity": 9811,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Fast Lane (Bad Meets Evil song)"
+    },
+    {
+      "name": "Encore",
+      "aliases": [
+        "Curtains Down",
+        "Encore (Eminem song)",
+        "ƎNCORE"
+      ],
+      "popularity": 10314,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Encore (Eminem song)"
+    },
+    {
+      "name": "3 a.m.",
+      "aliases": [
+        "3 a.m. (Eminem song)"
+      ],
+      "popularity": 10375,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "3 a.m. (Eminem song)"
+    },
+    {
+      "name": "Business",
+      "aliases": [
+        "Business (song)"
+      ],
+      "popularity": 10672,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Business (song)"
+    },
+    {
+      "name": "You Don't Know",
+      "aliases": [
+        "You Don't Know (Eminem song)"
+      ],
+      "popularity": 10766,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "You Don't Know (Eminem song)"
+    },
+    {
+      "name": "Survival",
+      "aliases": [
+        "Survival (Eminem song)"
+      ],
+      "popularity": 10891,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Survival (Eminem song)"
+    },
+    {
+      "name": "Walk on Water",
+      "aliases": [
+        "Walk on Water (Eminem song)"
+      ],
+      "popularity": 12391,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Walk on Water (Eminem song)"
+    },
+    {
+      "name": "Fall",
+      "aliases": [
+        "Fall (Eminem song)"
+      ],
+      "popularity": 12736,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Fall (Eminem song)"
+    },
+    {
+      "name": "River",
+      "aliases": [
+        "River (Eminem song)"
+      ],
+      "popularity": 12880,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "River (Eminem song)"
+    },
+    {
+      "name": "Bitch Please II",
+      "aliases": [],
+      "popularity": 13058,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Bitch Please II"
+    },
+    {
+      "name": "Drop the World",
+      "aliases": [],
+      "popularity": 13425,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Drop the World"
+    },
+    {
+      "name": "Role Model",
+      "aliases": [
+        "Role Model (song)"
+      ],
+      "popularity": 14979,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Role Model (song)"
+    },
+    {
+      "name": "Darkness",
+      "aliases": [
+        "Darkness (Eminem song)"
+      ],
+      "popularity": 16027,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Darkness (Eminem song)"
+    },
+    {
+      "name": "Space Bound",
+      "aliases": [],
+      "popularity": 16450,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Space Bound"
+    },
+    {
+      "name": "Berzerk",
+      "aliases": [
+        "Berzerk (song)"
+      ],
+      "popularity": 18079,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Berzerk (song)"
+    },
+    {
+      "name": "Crack a Bottle",
+      "aliases": [],
+      "popularity": 18152,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Crack a Bottle"
+    },
+    {
+      "name": "Just Don't Give a Fuck",
+      "aliases": [],
+      "popularity": 18660,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Just Don't Give a Fuck"
+    },
+    {
+      "name": "Venom",
+      "aliases": [
+        "Venom (Eminem song)"
+      ],
+      "popularity": 18729,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Venom (Eminem song)"
+    },
+    {
+      "name": "Somebody Save Me",
+      "aliases": [
+        "Somebody Save Me (Eminem song)"
+      ],
+      "popularity": 19073,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Somebody Save Me (Eminem song)"
+    },
+    {
+      "name": "No Love",
+      "aliases": [],
+      "popularity": 19132,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "No Love"
+    },
+    {
+      "name": "Beautiful",
+      "aliases": [
+        "Beautiful (Eminem song)"
+      ],
+      "popularity": 20295,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Beautiful (Eminem song)"
+    },
+    {
+      "name": "Headlights",
+      "aliases": [
+        "Headlights (Eminem song)"
+      ],
+      "popularity": 20815,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Headlights (Eminem song)"
+    },
+    {
+      "name": "When I'm Gone",
+      "aliases": [
+        "When I'm Gone (Eminem song)"
+      ],
+      "popularity": 22936,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "When I'm Gone (Eminem song)"
+    },
+    {
+      "name": "Ass Like That",
+      "aliases": [
+        "A** Like That",
+        "Butt Like That",
+        "@$$ Like That"
+      ],
+      "popularity": 24776,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Ass Like That"
+    },
+    {
+      "name": "Guilty Conscience",
+      "aliases": [
+        "Guilty Conscience (song)"
+      ],
+      "popularity": 26816,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Guilty Conscience (song)"
+    },
+    {
+      "name": "I Need a Doctor",
+      "aliases": [],
+      "popularity": 30813,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "I Need a Doctor"
+    },
+    {
+      "name": "Shake That",
+      "aliases": [
+        "Shake That Ass"
+      ],
+      "popularity": 31977,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Shake That"
+    },
+    {
+      "name": "Superman",
+      "aliases": [
+        "Superman (Eminem song)"
+      ],
+      "popularity": 34387,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Superman (Eminem song)"
+    },
+    {
+      "name": "Smack You",
+      "aliases": [],
+      "popularity": 34988,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Smack You"
+    },
+    {
+      "name": "We Made You",
+      "aliases": [],
+      "popularity": 36854,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "We Made You"
+    },
+    {
+      "name": "Not Afraid",
+      "aliases": [],
+      "popularity": 37307,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Not Afraid"
+    },
+    {
+      "name": "'Till I Collapse",
+      "aliases": [],
+      "popularity": 37349,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "'Till I Collapse"
+    },
+    {
+      "name": "Sing for the Moment",
+      "aliases": [],
+      "popularity": 38610,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Sing for the Moment"
+    },
+    {
+      "name": "Godzilla",
+      "aliases": [
+        "Godzilla (Eminem song)"
+      ],
+      "popularity": 40141,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Godzilla (Eminem song)"
+    },
+    {
+      "name": "Cleanin' Out My Closet",
+      "aliases": [],
+      "popularity": 43618,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Cleanin' Out My Closet"
+    },
+    {
+      "name": "Like Toy Soldiers",
+      "aliases": [],
+      "popularity": 44746,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Like Toy Soldiers"
+    },
+    {
+      "name": "Just Lose It",
+      "aliases": [],
+      "popularity": 44763,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Just Lose It"
+    },
+    {
+      "name": "Killshot",
+      "aliases": [
+        "Killshot (song)"
+      ],
+      "popularity": 44847,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Killshot (song)"
+    },
+    {
+      "name": "Forgot About Dre",
+      "aliases": [],
+      "popularity": 47028,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Forgot About Dre"
+    },
+    {
+      "name": "Smack That",
+      "aliases": [],
+      "popularity": 56756,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Smack That"
+    },
+    {
+      "name": "Forever",
+      "aliases": [],
+      "popularity": 56869,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Forever (Drake, Kanye West, Lil Wayne, and Eminem song)"
+    },
+    {
+      "name": "Houdini",
+      "aliases": [
+        "Houdini (Eminem song)"
+      ],
+      "popularity": 57830,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Houdini (Eminem song)"
+    },
+    {
+      "name": "Rap God",
+      "aliases": [],
+      "popularity": 62157,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Rap God"
+    },
+    {
+      "name": "The Monster",
+      "aliases": [
+        "Monster",
+        "Monster (song)",
+        "The Monster (song)"
+      ],
+      "popularity": 75869,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "The Monster (song)"
+    },
+    {
+      "name": "My Name Is",
+      "aliases": [],
+      "popularity": 75952,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "My Name Is"
+    },
+    {
+      "name": "Mockingbird",
+      "aliases": [
+        "Lyrics",
+        "Mockingbird (Eminem song)"
+      ],
+      "popularity": 82190,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Mockingbird (Eminem song)"
+    },
+    {
+      "name": "Without Me",
+      "aliases": [
+        "Without Me (Eminem song)"
+      ],
+      "popularity": 97474,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Without Me (Eminem song)"
+    },
+    {
+      "name": "The Real Slim Shady",
+      "aliases": [
+        "Real Slim Shady"
+      ],
+      "popularity": 107682,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "The Real Slim Shady"
+    },
+    {
+      "name": "Love the Way You Lie",
+      "aliases": [],
+      "popularity": 108390,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Love the Way You Lie"
+    },
+    {
+      "name": "Lose Yourself",
+      "aliases": [
+        "Mom's Spaghetti"
+      ],
+      "popularity": 185619,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Lose Yourself"
+    },
+    {
+      "name": "Stan",
+      "aliases": [
+        "Stan (song)"
+      ],
+      "popularity": 224318,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Stan (song)"
+    }
+  ]
+}

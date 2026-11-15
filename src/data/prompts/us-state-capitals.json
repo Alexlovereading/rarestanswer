@@ -1,0 +1,598 @@
+{
+  "id": "us-state-capitals",
+  "slug": "us-state-capitals",
+  "category": "geography",
+  "question": "Name a US state capital",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Concord, New Hampshire",
+      "aliases": [
+        "Concord",
+        "Concord N.H.",
+        "Concord NH"
+      ],
+      "popularity": 108842,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Concord, New Hampshire"
+    },
+    {
+      "name": "Dover, Delaware",
+      "aliases": [
+        "Dover"
+      ],
+      "popularity": 115189,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Dover, Delaware"
+    },
+    {
+      "name": "Pierre, South Dakota",
+      "aliases": [
+        "Pierre"
+      ],
+      "popularity": 116144,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Pierre, South Dakota"
+    },
+    {
+      "name": "Frankfort, Kentucky",
+      "aliases": [
+        "Frankfort"
+      ],
+      "popularity": 118073,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Frankfort, Kentucky"
+    },
+    {
+      "name": "Augusta, Maine",
+      "aliases": [
+        "Augusta"
+      ],
+      "popularity": 133420,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Augusta, Maine"
+    },
+    {
+      "name": "Jefferson City, Missouri",
+      "aliases": [
+        "Jeff City",
+        "Jefferson",
+        "Jefferson City"
+      ],
+      "popularity": 134887,
+      "rarity": 0.898,
+      "tier": 5,
+      "wiki": "Jefferson City, Missouri"
+    },
+    {
+      "name": "Montpelier, Vermont",
+      "aliases": [
+        "Montpelier"
+      ],
+      "popularity": 147411,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Montpelier, Vermont"
+    },
+    {
+      "name": "Bismarck, North Dakota",
+      "aliases": [
+        "Bismarck"
+      ],
+      "popularity": 170529,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Bismarck, North Dakota"
+    },
+    {
+      "name": "Topeka, Kansas",
+      "aliases": [
+        "Topeka"
+      ],
+      "popularity": 171967,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Topeka, Kansas"
+    },
+    {
+      "name": "Lansing, Michigan",
+      "aliases": [
+        "Lansing"
+      ],
+      "popularity": 179406,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Lansing, Michigan"
+    },
+    {
+      "name": "Salem, Oregon",
+      "aliases": [
+        "Salem"
+      ],
+      "popularity": 184190,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Salem, Oregon"
+    },
+    {
+      "name": "Olympia, Washington",
+      "aliases": [
+        "Olympia"
+      ],
+      "popularity": 189641,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Olympia, Washington"
+    },
+    {
+      "name": "Springfield, Illinois",
+      "aliases": [
+        "Calhoun",
+        "Springfield"
+      ],
+      "popularity": 190531,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Springfield, Illinois"
+    },
+    {
+      "name": "Trenton, New Jersey",
+      "aliases": [
+        "Trenton",
+        "Western New Jersey"
+      ],
+      "popularity": 195282,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Trenton, New Jersey"
+    },
+    {
+      "name": "Carson City, Nevada",
+      "aliases": [
+        "Carson City",
+        "Consolidated Municipality of Carson City"
+      ],
+      "popularity": 204784,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Carson City, Nevada"
+    },
+    {
+      "name": "Lincoln, Nebraska",
+      "aliases": [
+        "Lincoln"
+      ],
+      "popularity": 210348,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Lincoln, Nebraska"
+    },
+    {
+      "name": "Helena, Montana",
+      "aliases": [
+        "Helena"
+      ],
+      "popularity": 221865,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Helena, Montana"
+    },
+    {
+      "name": "Harrisburg, Pennsylvania",
+      "aliases": [
+        "Harrisburg"
+      ],
+      "popularity": 231689,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Harrisburg, Pennsylvania"
+    },
+    {
+      "name": "Annapolis, Maryland",
+      "aliases": [
+        "Annapolis",
+        "Anne Arundel's Towne"
+      ],
+      "popularity": 236961,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Annapolis, Maryland"
+    },
+    {
+      "name": "Charleston, West Virginia",
+      "aliases": [
+        "Charleston"
+      ],
+      "popularity": 252486,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Charleston, West Virginia"
+    },
+    {
+      "name": "Columbia, South Carolina",
+      "aliases": [
+        "City of Columbia",
+        "Cola",
+        "Columbia",
+        "Soda City"
+      ],
+      "popularity": 270445,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Columbia, South Carolina"
+    },
+    {
+      "name": "Montgomery, Alabama",
+      "aliases": [
+        "Montgomery"
+      ],
+      "popularity": 292612,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Montgomery, Alabama"
+    },
+    {
+      "name": "Tallahassee, Florida",
+      "aliases": [
+        "Tallahassee"
+      ],
+      "popularity": 304928,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Tallahassee, Florida"
+    },
+    {
+      "name": "Hartford, Connecticut",
+      "aliases": [
+        "Capital of Connecticut",
+        "Hartford",
+        "Hartford CT"
+      ],
+      "popularity": 306596,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Hartford, Connecticut"
+    },
+    {
+      "name": "Little Rock, Arkansas",
+      "aliases": [
+        "Little Rock",
+        "LR",
+        "the Little Rock"
+      ],
+      "popularity": 311875,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Little Rock, Arkansas"
+    },
+    {
+      "name": "Jackson, Mississippi",
+      "aliases": [
+        "City of Jackson",
+        "Jackson"
+      ],
+      "popularity": 312480,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Jackson, Mississippi"
+    },
+    {
+      "name": "Cheyenne, Wyoming",
+      "aliases": [
+        "Cheyenne"
+      ],
+      "popularity": 319535,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Cheyenne, Wyoming"
+    },
+    {
+      "name": "Saint Paul, Minnesota",
+      "aliases": [
+        "Saint Paul",
+        "St. Paul"
+      ],
+      "popularity": 339336,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Saint Paul, Minnesota"
+    },
+    {
+      "name": "Madison, Wisconsin",
+      "aliases": [
+        "City of Madison",
+        "Madison"
+      ],
+      "popularity": 355267,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Madison, Wisconsin"
+    },
+    {
+      "name": "Baton Rouge, Louisiana",
+      "aliases": [
+        "Baton Rouge"
+      ],
+      "popularity": 361245,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Baton Rouge, Louisiana"
+    },
+    {
+      "name": "Des Moines, Iowa",
+      "aliases": [
+        "Des Moines"
+      ],
+      "popularity": 387103,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Des Moines, Iowa"
+    },
+    {
+      "name": "Boise, Idaho",
+      "aliases": [
+        "Boise"
+      ],
+      "popularity": 388625,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Boise, Idaho"
+    },
+    {
+      "name": "Albany, New York",
+      "aliases": [
+        "Albany"
+      ],
+      "popularity": 429137,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Albany, New York"
+    },
+    {
+      "name": "Juneau, Alaska",
+      "aliases": [
+        "City and Borough of Juneau"
+      ],
+      "popularity": 447088,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Juneau, Alaska"
+    },
+    {
+      "name": "Santa Fe, New Mexico",
+      "aliases": [
+        "Apoga",
+        "Apoge",
+        "Cua-P'ho-o-ge",
+        "Cua P'Hoge",
+        "Cua-Po-o-que",
+        "Cua-po-oge",
+        "Kua-p'o-o-ge",
+        "Kuapooge",
+        "O gah Po'geh",
+        "Og-a-p'o-ge",
+        "Oga P'Hoge",
+        "Oghá P'o'oge",
+        "Po-o-ge",
+        "Poga",
+        "Poge",
+        "Santa Fe",
+        "SFNM",
+        "White Shell Water Place",
+        "Yootó"
+      ],
+      "popularity": 462445,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Santa Fe, New Mexico"
+    },
+    {
+      "name": "Providence, Rhode Island",
+      "aliases": [
+        "Providence"
+      ],
+      "popularity": 474532,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Providence, Rhode Island"
+    },
+    {
+      "name": "Oklahoma City",
+      "aliases": [
+        "OK City",
+        "OKC",
+        "Okla. City"
+      ],
+      "popularity": 474897,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Oklahoma City"
+    },
+    {
+      "name": "Raleigh, North Carolina",
+      "aliases": [
+        "Raleigh"
+      ],
+      "popularity": 479971,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Raleigh, North Carolina"
+    },
+    {
+      "name": "Richmond, Virginia",
+      "aliases": [
+        "Richmond",
+        "Richmond City",
+        "RVA"
+      ],
+      "popularity": 506430,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Richmond, Virginia"
+    },
+    {
+      "name": "Sacramento, California",
+      "aliases": [
+        "Camellia City",
+        "City of Sacramento",
+        "River City",
+        "Sac",
+        "Sac-Town",
+        "Sacramento",
+        "The Big Tomato",
+        "The Capitol City",
+        "The Indomitable City"
+      ],
+      "popularity": 549740,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Sacramento, California"
+    },
+    {
+      "name": "Indianapolis",
+      "aliases": [
+        "Circle City",
+        "Crossroads of America",
+        "India-no-place",
+        "INDPLS",
+        "Indy",
+        "Naptown",
+        "Racing Capital of the World",
+        "Railroad City"
+      ],
+      "popularity": 567054,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Indianapolis"
+    },
+    {
+      "name": "Honolulu",
+      "aliases": [
+        "Hanarourou",
+        "Honolulu CDP",
+        "Urban Honolulu"
+      ],
+      "popularity": 585607,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Honolulu"
+    },
+    {
+      "name": "Columbus, Ohio",
+      "aliases": [
+        "Arch City",
+        "Cbus",
+        "Columbus",
+        "Cowtown",
+        "Indie Art Capital",
+        "Kolumbus",
+        "The Discovery City"
+      ],
+      "popularity": 627706,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Columbus, Ohio"
+    },
+    {
+      "name": "Salt Lake City",
+      "aliases": [
+        "Salt Lake",
+        "SLC"
+      ],
+      "popularity": 726691,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Salt Lake City"
+    },
+    {
+      "name": "Denver",
+      "aliases": [
+        "City and County of Denver",
+        "Mile High City",
+        "Queen City of the Plains",
+        "Queen City of the West"
+      ],
+      "popularity": 735574,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "Denver"
+    },
+    {
+      "name": "Phoenix, Arizona",
+      "aliases": [
+        "City of Phoenix",
+        "Phœnix",
+        "Phoenix",
+        "PHX",
+        "Valley of the Sun"
+      ],
+      "popularity": 777498,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Phoenix, Arizona"
+    },
+    {
+      "name": "Austin, Texas",
+      "aliases": [
+        "ATX",
+        "Austin"
+      ],
+      "popularity": 813119,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Austin, Texas"
+    },
+    {
+      "name": "Nashville, Tennessee",
+      "aliases": [
+        "Nashville",
+        "Nashville–Davidson County"
+      ],
+      "popularity": 885895,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Nashville, Tennessee"
+    },
+    {
+      "name": "Atlanta",
+      "aliases": [
+        "Hotlanta",
+        "Marthasville",
+        "Terminus",
+        "The A",
+        "The ATL",
+        "The Big Peach"
+      ],
+      "popularity": 1192527,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Atlanta"
+    },
+    {
+      "name": "Boston",
+      "aliases": [
+        "Bean Town",
+        "Beantown",
+        "Bostonia",
+        "Capital of Massachusetts",
+        "City of Boston",
+        "Puritan City",
+        "The Athens of America",
+        "The Cradle of Liberty",
+        "The Cradle of Modern America",
+        "The Hub",
+        "The Hub of the Universe",
+        "The Walking City"
+      ],
+      "popularity": 1343265,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Boston"
+    }
+  ]
+}

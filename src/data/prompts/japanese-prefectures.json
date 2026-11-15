@@ -1,0 +1,449 @@
+{
+  "id": "japanese-prefectures",
+  "slug": "japanese-prefectures",
+  "category": "geography",
+  "question": "Name a prefecture of Japan",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Hokkaido Prefecture",
+      "aliases": [
+        "Hokkaido",
+        "Hokkaido region",
+        "JP-01"
+      ],
+      "popularity": 2940,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Hokkaido Prefecture"
+    },
+    {
+      "name": "Tokushima Prefecture",
+      "aliases": [],
+      "popularity": 34710,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Tokushima Prefecture"
+    },
+    {
+      "name": "Miyazaki Prefecture",
+      "aliases": [
+        "Miyazaki"
+      ],
+      "popularity": 37472,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Miyazaki Prefecture"
+    },
+    {
+      "name": "Ōita Prefecture",
+      "aliases": [
+        "Oita-ken",
+        "Ooita-ken"
+      ],
+      "popularity": 39636,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Ōita Prefecture"
+    },
+    {
+      "name": "Wakayama Prefecture",
+      "aliases": [
+        "JP-30",
+        "Wakayama",
+        "Wakayama-ken"
+      ],
+      "popularity": 41381,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Wakayama Prefecture"
+    },
+    {
+      "name": "Saga Prefecture",
+      "aliases": [],
+      "popularity": 41533,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Saga Prefecture"
+    },
+    {
+      "name": "Kōchi Prefecture",
+      "aliases": [
+        "Kōchi-ken"
+      ],
+      "popularity": 41818,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Kōchi Prefecture"
+    },
+    {
+      "name": "Toyama Prefecture",
+      "aliases": [],
+      "popularity": 48073,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Toyama Prefecture"
+    },
+    {
+      "name": "Shimane Prefecture",
+      "aliases": [],
+      "popularity": 49688,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Shimane Prefecture"
+    },
+    {
+      "name": "Kagawa Prefecture",
+      "aliases": [],
+      "popularity": 50395,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Kagawa Prefecture"
+    },
+    {
+      "name": "Okayama Prefecture",
+      "aliases": [],
+      "popularity": 51614,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Okayama Prefecture"
+    },
+    {
+      "name": "Yamaguchi Prefecture",
+      "aliases": [],
+      "popularity": 51887,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Yamaguchi Prefecture"
+    },
+    {
+      "name": "Tottori Prefecture",
+      "aliases": [],
+      "popularity": 52337,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Tottori Prefecture"
+    },
+    {
+      "name": "Fukui Prefecture",
+      "aliases": [],
+      "popularity": 52774,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Fukui Prefecture"
+    },
+    {
+      "name": "Shiga Prefecture",
+      "aliases": [],
+      "popularity": 53447,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Shiga Prefecture"
+    },
+    {
+      "name": "Yamagata Prefecture",
+      "aliases": [],
+      "popularity": 54062,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Yamagata Prefecture"
+    },
+    {
+      "name": "Hiroshima Prefecture",
+      "aliases": [
+        "Hiroshima-ken",
+        "Prefecture of Hiroshima"
+      ],
+      "popularity": 54160,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Hiroshima Prefecture"
+    },
+    {
+      "name": "Ehime Prefecture",
+      "aliases": [],
+      "popularity": 55042,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Ehime Prefecture"
+    },
+    {
+      "name": "Nagasaki Prefecture",
+      "aliases": [],
+      "popularity": 55902,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Nagasaki Prefecture"
+    },
+    {
+      "name": "Tochigi Prefecture",
+      "aliases": [],
+      "popularity": 58921,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Tochigi Prefecture"
+    },
+    {
+      "name": "Ishikawa Prefecture",
+      "aliases": [
+        "Ishikawa"
+      ],
+      "popularity": 60327,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Ishikawa Prefecture"
+    },
+    {
+      "name": "Niigata Prefecture",
+      "aliases": [
+        "JP-15"
+      ],
+      "popularity": 66165,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Niigata Prefecture"
+    },
+    {
+      "name": "Fukushima Prefecture",
+      "aliases": [
+        "JP-07"
+      ],
+      "popularity": 69534,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Fukushima Prefecture"
+    },
+    {
+      "name": "Akita Prefecture",
+      "aliases": [],
+      "popularity": 71259,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Akita Prefecture"
+    },
+    {
+      "name": "Gifu Prefecture",
+      "aliases": [],
+      "popularity": 71924,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Gifu Prefecture"
+    },
+    {
+      "name": "Kyoto Prefecture",
+      "aliases": [
+        "Kyoto",
+        "Kyoto-fu",
+        "Kyouto-fu"
+      ],
+      "popularity": 73105,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Kyoto Prefecture"
+    },
+    {
+      "name": "Nara Prefecture",
+      "aliases": [],
+      "popularity": 74107,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Nara Prefecture"
+    },
+    {
+      "name": "Kagoshima Prefecture",
+      "aliases": [
+        "Kagoshima"
+      ],
+      "popularity": 74821,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Kagoshima Prefecture"
+    },
+    {
+      "name": "Gunma Prefecture",
+      "aliases": [
+        "Gumma Prefecture"
+      ],
+      "popularity": 74989,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Gunma Prefecture"
+    },
+    {
+      "name": "Yamanashi Prefecture",
+      "aliases": [],
+      "popularity": 76948,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Yamanashi Prefecture"
+    },
+    {
+      "name": "Nagano Prefecture",
+      "aliases": [],
+      "popularity": 77885,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Nagano Prefecture"
+    },
+    {
+      "name": "Fukuoka Prefecture",
+      "aliases": [],
+      "popularity": 79606,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Fukuoka Prefecture"
+    },
+    {
+      "name": "Aomori Prefecture",
+      "aliases": [],
+      "popularity": 80669,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Aomori Prefecture"
+    },
+    {
+      "name": "Ibaraki Prefecture",
+      "aliases": [
+        "Ibaraki"
+      ],
+      "popularity": 82309,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Ibaraki Prefecture"
+    },
+    {
+      "name": "Iwate Prefecture",
+      "aliases": [],
+      "popularity": 86941,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Iwate Prefecture"
+    },
+    {
+      "name": "Miyagi Prefecture",
+      "aliases": [],
+      "popularity": 87948,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Miyagi Prefecture"
+    },
+    {
+      "name": "Mie Prefecture",
+      "aliases": [],
+      "popularity": 93114,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Mie Prefecture"
+    },
+    {
+      "name": "Osaka Prefecture",
+      "aliases": [
+        "Oosaka-fu",
+        "Osaka",
+        "Ōsaka-fu",
+        "Osaka Urban Prefecture",
+        "Prefecture of Osaka"
+      ],
+      "popularity": 94795,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Osaka Prefecture"
+    },
+    {
+      "name": "Kumamoto Prefecture",
+      "aliases": [],
+      "popularity": 95607,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Kumamoto Prefecture"
+    },
+    {
+      "name": "Shizuoka Prefecture",
+      "aliases": [],
+      "popularity": 113539,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Shizuoka Prefecture"
+    },
+    {
+      "name": "Saitama Prefecture",
+      "aliases": [
+        "Prefecture of Saitama"
+      ],
+      "popularity": 114256,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Saitama Prefecture"
+    },
+    {
+      "name": "Hyōgo Prefecture",
+      "aliases": [
+        "Hyōgo",
+        "Hyōgo-ken",
+        "Hyougo-ken"
+      ],
+      "popularity": 115435,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Hyōgo Prefecture"
+    },
+    {
+      "name": "Chiba Prefecture",
+      "aliases": [
+        "Chiba",
+        "Prefecture of Chiba"
+      ],
+      "popularity": 115449,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Chiba Prefecture"
+    },
+    {
+      "name": "Aichi Prefecture",
+      "aliases": [
+        "Aichi",
+        "Aichi-ken"
+      ],
+      "popularity": 165817,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Aichi Prefecture"
+    },
+    {
+      "name": "Kanagawa Prefecture",
+      "aliases": [],
+      "popularity": 207585,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Kanagawa Prefecture"
+    },
+    {
+      "name": "Okinawa Prefecture",
+      "aliases": [
+        "Uchina"
+      ],
+      "popularity": 392394,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Okinawa Prefecture"
+    },
+    {
+      "name": "Tokyo",
+      "aliases": [
+        "Edo",
+        "Jedo",
+        "Tokei",
+        "Tokio",
+        "Tokyo Metropolis",
+        "Tokyo Metropolitan prefecture",
+        "Tokyo Prefecture",
+        "Tōkyō-to",
+        "Yedo"
+      ],
+      "popularity": 1529771,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Tokyo"
+    }
+  ]
+}

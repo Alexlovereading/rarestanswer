@@ -1,0 +1,2654 @@
+{
+  "id": "woodpecker-species",
+  "slug": "woodpecker-species",
+  "category": "animals",
+  "question": "Name a species of woodpecker",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Dryobates stricklandi",
+      "aliases": [],
+      "popularity": 7,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Dryobates stricklandi"
+    },
+    {
+      "name": "Black-crowned woodpecker",
+      "aliases": [
+        "Colaptes atriceps"
+      ],
+      "popularity": 12,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Black-crowned woodpecker"
+    },
+    {
+      "name": "Picus miniaceus",
+      "aliases": [],
+      "popularity": 17,
+      "rarity": 0.992,
+      "tier": 6,
+      "wiki": "Picus miniaceus"
+    },
+    {
+      "name": "Javan yellownape",
+      "aliases": [
+        "Chrysophlegma mentale"
+      ],
+      "popularity": 22,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Javan yellownape"
+    },
+    {
+      "name": "Northern Andean flicker",
+      "aliases": [
+        "Colaptes cinereicapillus"
+      ],
+      "popularity": 22,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Northern Andean flicker"
+    },
+    {
+      "name": "Dusky-winged woodpecker",
+      "aliases": [
+        "Hylatomus fuscipennis"
+      ],
+      "popularity": 25,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Dusky-winged woodpecker"
+    },
+    {
+      "name": "Dark-bodied woodpecker",
+      "aliases": [
+        "Picoides funebris"
+      ],
+      "popularity": 27,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Dark-bodied woodpecker"
+    },
+    {
+      "name": "Tawny piculet",
+      "aliases": [
+        "Picumnus fulvescens"
+      ],
+      "popularity": 29,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Tawny piculet"
+    },
+    {
+      "name": "Black-naped woodpecker",
+      "aliases": [
+        "Picus guerini"
+      ],
+      "popularity": 31,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Black-naped woodpecker"
+    },
+    {
+      "name": "Dendrocopos dorae",
+      "aliases": [],
+      "popularity": 31,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Dendrocopos dorae"
+    },
+    {
+      "name": "Golden-breasted woodpecker",
+      "aliases": [
+        "Colaptes melanolaimus"
+      ],
+      "popularity": 37,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Golden-breasted woodpecker"
+    },
+    {
+      "name": "Red-crested woodpecker",
+      "aliases": [
+        "Hemicircus concretus"
+      ],
+      "popularity": 37,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Red-crested woodpecker"
+    },
+    {
+      "name": "Pampas flicker",
+      "aliases": [
+        "Colaptes campestroides"
+      ],
+      "popularity": 45,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Pampas flicker"
+    },
+    {
+      "name": "Amazonian black-breasted woodpecker",
+      "aliases": [
+        "Celeus occidentalis"
+      ],
+      "popularity": 63,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "Amazonian black-breasted woodpecker"
+    },
+    {
+      "name": "Atlantic black-breasted woodpecker",
+      "aliases": [
+        "Celeus tinnunculus"
+      ],
+      "popularity": 80,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Atlantic black-breasted woodpecker"
+    },
+    {
+      "name": "Velasquez's woodpecker",
+      "aliases": [
+        "Melanerpes santacruzi"
+      ],
+      "popularity": 212,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Velasquez's woodpecker"
+    },
+    {
+      "name": "Sumatran woodpecker",
+      "aliases": [
+        "Picus dedemi"
+      ],
+      "popularity": 251,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Sumatran woodpecker"
+    },
+    {
+      "name": "Bronze-winged woodpecker",
+      "aliases": [
+        "Colaptes aeruginosus"
+      ],
+      "popularity": 256,
+      "rarity": 0.934,
+      "tier": 6,
+      "wiki": "Bronze-winged woodpecker"
+    },
+    {
+      "name": "Black-dotted piculet",
+      "aliases": [
+        "Picumnus nigropunctatus"
+      ],
+      "popularity": 274,
+      "rarity": 0.93,
+      "tier": 5,
+      "wiki": "Black-dotted piculet"
+    },
+    {
+      "name": "Necklaced woodpecker",
+      "aliases": [
+        "Dryobates pernyii"
+      ],
+      "popularity": 284,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Necklaced woodpecker"
+    },
+    {
+      "name": "Amami woodpecker",
+      "aliases": [
+        "Dendrocopos owstoni"
+      ],
+      "popularity": 295,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Amami woodpecker"
+    },
+    {
+      "name": "Dot-fronted woodpecker",
+      "aliases": [
+        "Veniliornis frontalis"
+      ],
+      "popularity": 345,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Dot-fronted woodpecker"
+    },
+    {
+      "name": "Fine-banded woodpecker",
+      "aliases": [
+        "Campethera taeniolaema"
+      ],
+      "popularity": 352,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Fine-banded woodpecker"
+    },
+    {
+      "name": "Speckle-throated woodpecker",
+      "aliases": [
+        "Campethera scriptoricauda"
+      ],
+      "popularity": 357,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Speckle-throated woodpecker"
+    },
+    {
+      "name": "Plain-breasted piculet",
+      "aliases": [
+        "Picumnus castelnau"
+      ],
+      "popularity": 363,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Plain-breasted piculet"
+    },
+    {
+      "name": "Little spotted woodpecker",
+      "aliases": [
+        "Campethera cailliautii",
+        "Green-backed Woodpecker"
+      ],
+      "popularity": 384,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Little spotted woodpecker"
+    },
+    {
+      "name": "Tullberg's woodpecker",
+      "aliases": [
+        "Campethera tullbergi"
+      ],
+      "popularity": 391,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Tullberg's woodpecker"
+    },
+    {
+      "name": "Gabon woodpecker",
+      "aliases": [
+        "Dendropicos gabonensis"
+      ],
+      "popularity": 401,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Gabon woodpecker"
+    },
+    {
+      "name": "Scaly-breasted woodpecker",
+      "aliases": [
+        "Celeus grammicus"
+      ],
+      "popularity": 412,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Scaly-breasted woodpecker"
+    },
+    {
+      "name": "Chocó woodpecker",
+      "aliases": [
+        "Veniliornis chocoensis"
+      ],
+      "popularity": 420,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Chocó woodpecker"
+    },
+    {
+      "name": "Lita woodpecker",
+      "aliases": [
+        "Piculus litae"
+      ],
+      "popularity": 431,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Lita woodpecker"
+    },
+    {
+      "name": "Fine-barred piculet",
+      "aliases": [
+        "Picumnus subtilis"
+      ],
+      "popularity": 433,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Fine-barred piculet"
+    },
+    {
+      "name": "Rusty-necked piculet",
+      "aliases": [
+        "Picumnus fuscus"
+      ],
+      "popularity": 433,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Rusty-necked piculet"
+    },
+    {
+      "name": "Rufous-breasted piculet",
+      "aliases": [
+        "Picumnus rufiventris"
+      ],
+      "popularity": 437,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Rufous-breasted piculet"
+    },
+    {
+      "name": "White-throated woodpecker",
+      "aliases": [
+        "Piculus leucolaemus"
+      ],
+      "popularity": 443,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "White-throated woodpecker"
+    },
+    {
+      "name": "Mombasa woodpecker",
+      "aliases": [
+        "Campethera mombassica"
+      ],
+      "popularity": 444,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Mombasa woodpecker"
+    },
+    {
+      "name": "Golden-collared woodpecker",
+      "aliases": [
+        "Veniliornis cassini"
+      ],
+      "popularity": 453,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Golden-collared woodpecker"
+    },
+    {
+      "name": "Speckle-breasted woodpecker",
+      "aliases": [
+        "Dendropicos poecilolaemus"
+      ],
+      "popularity": 470,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Speckle-breasted woodpecker"
+    },
+    {
+      "name": "Yellow-eared woodpecker",
+      "aliases": [
+        "Veniliornis maculifrons"
+      ],
+      "popularity": 474,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Yellow-eared woodpecker"
+    },
+    {
+      "name": "Stierling's woodpecker",
+      "aliases": [
+        "Dendropicos stierlingi"
+      ],
+      "popularity": 475,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Stierling's woodpecker"
+    },
+    {
+      "name": "Southern sooty woodpecker",
+      "aliases": [
+        "Mulleripicus fuliginosus"
+      ],
+      "popularity": 489,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Southern sooty woodpecker"
+    },
+    {
+      "name": "Yellow-vented woodpecker",
+      "aliases": [
+        "Veniliornis dignus"
+      ],
+      "popularity": 489,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Yellow-vented woodpecker"
+    },
+    {
+      "name": "Stripe-cheeked woodpecker",
+      "aliases": [
+        "Piculus callopterus"
+      ],
+      "popularity": 495,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Stripe-cheeked woodpecker"
+    },
+    {
+      "name": "Chestnut piculet",
+      "aliases": [
+        "Picumnus cinnamomeus",
+        "Picumnus cinnamoneus"
+      ],
+      "popularity": 504,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Chestnut piculet"
+    },
+    {
+      "name": "Black-and-buff woodpecker",
+      "aliases": [
+        "Meiglyptes jugularis"
+      ],
+      "popularity": 506,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Black-and-buff woodpecker"
+    },
+    {
+      "name": "Elliot's woodpecker",
+      "aliases": [
+        "Dendropicos elliotii"
+      ],
+      "popularity": 506,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Elliot's woodpecker"
+    },
+    {
+      "name": "Brown-eared woodpecker",
+      "aliases": [
+        "Campethera caroli"
+      ],
+      "popularity": 507,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "Brown-eared woodpecker"
+    },
+    {
+      "name": "Mottled piculet",
+      "aliases": [
+        "Picumnus nebulosus"
+      ],
+      "popularity": 514,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Mottled piculet"
+    },
+    {
+      "name": "Ecuadorian piculet",
+      "aliases": [
+        "Picumnus sclateri"
+      ],
+      "popularity": 518,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Ecuadorian piculet"
+    },
+    {
+      "name": "Maroon woodpecker",
+      "aliases": [
+        "Blythipicus rubiginosus"
+      ],
+      "popularity": 529,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Maroon woodpecker"
+    },
+    {
+      "name": "Scarlet-backed woodpecker",
+      "aliases": [
+        "Veniliornis callonotus"
+      ],
+      "popularity": 532,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Scarlet-backed woodpecker"
+    },
+    {
+      "name": "Bar-bellied woodpecker",
+      "aliases": [
+        "Veniliornis nigriceps"
+      ],
+      "popularity": 535,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Bar-bellied woodpecker"
+    },
+    {
+      "name": "Ochraceous piculet",
+      "aliases": [
+        "Picumnus limae"
+      ],
+      "popularity": 536,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Ochraceous piculet"
+    },
+    {
+      "name": "White-wedged piculet",
+      "aliases": [
+        "Picumnus albosquamatus"
+      ],
+      "popularity": 540,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "White-wedged piculet"
+    },
+    {
+      "name": "Ochre-backed woodpecker",
+      "aliases": [
+        "Celeus ochraceus"
+      ],
+      "popularity": 542,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Ochre-backed woodpecker"
+    },
+    {
+      "name": "White-bellied piculet",
+      "aliases": [
+        "Picumnus spilogaster"
+      ],
+      "popularity": 543,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "White-bellied piculet"
+    },
+    {
+      "name": "Little grey woodpecker",
+      "aliases": [
+        "Dendropicos elachus"
+      ],
+      "popularity": 546,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Little grey woodpecker"
+    },
+    {
+      "name": "Greyish piculet",
+      "aliases": [
+        "Picumnus granadensis"
+      ],
+      "popularity": 547,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Greyish piculet"
+    },
+    {
+      "name": "Scaled piculet",
+      "aliases": [
+        "Picumnus squamulatus",
+        "Picumnus squanulatus"
+      ],
+      "popularity": 550,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Scaled piculet"
+    },
+    {
+      "name": "Fine-spotted woodpecker",
+      "aliases": [
+        "Campethera punctuligera"
+      ],
+      "popularity": 552,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Fine-spotted woodpecker"
+    },
+    {
+      "name": "Spotted piculet",
+      "aliases": [
+        "Picumnus pygmaeus"
+      ],
+      "popularity": 552,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "Spotted piculet"
+    },
+    {
+      "name": "Northern sooty woodpecker",
+      "aliases": [
+        "Mulleripicus funebris"
+      ],
+      "popularity": 554,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "Northern sooty woodpecker"
+    },
+    {
+      "name": "Sulawesi pygmy woodpecker",
+      "aliases": [
+        "Yungipicus temminckii"
+      ],
+      "popularity": 555,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Sulawesi pygmy woodpecker"
+    },
+    {
+      "name": "Blood-colored woodpecker",
+      "aliases": [
+        "Blood-coloured Woodpecker",
+        "Veniliornis sanguineus"
+      ],
+      "popularity": 558,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Blood-colored woodpecker"
+    },
+    {
+      "name": "Crimson-naped woodpecker",
+      "aliases": [
+        "Crimson-breasted Woodpecker",
+        "Dryobates cathpharius"
+      ],
+      "popularity": 566,
+      "rarity": 0.751,
+      "tier": 4,
+      "wiki": "Crimson-naped woodpecker"
+    },
+    {
+      "name": "Fire-bellied woodpecker",
+      "aliases": [
+        "Dendropicos pyrrhogaster"
+      ],
+      "popularity": 568,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Fire-bellied woodpecker"
+    },
+    {
+      "name": "Red-stained woodpecker",
+      "aliases": [
+        "Veniliornis affinis"
+      ],
+      "popularity": 568,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Red-stained woodpecker"
+    },
+    {
+      "name": "Varzea piculet",
+      "aliases": [
+        "Picumnus varzeae"
+      ],
+      "popularity": 571,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Varzea piculet"
+    },
+    {
+      "name": "Olive-backed woodpecker",
+      "aliases": [
+        "Dinopium rafflesii"
+      ],
+      "popularity": 575,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Olive-backed woodpecker"
+    },
+    {
+      "name": "Streak-breasted woodpecker",
+      "aliases": [
+        "Picus viridanus"
+      ],
+      "popularity": 580,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Streak-breasted woodpecker"
+    },
+    {
+      "name": "Buff-necked woodpecker",
+      "aliases": [
+        "Meiglyptes tukki"
+      ],
+      "popularity": 585,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Buff-necked woodpecker"
+    },
+    {
+      "name": "Speckle-chested piculet",
+      "aliases": [
+        "Picumnus steindachneri"
+      ],
+      "popularity": 589,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Speckle-chested piculet"
+    },
+    {
+      "name": "Javan flameback",
+      "aliases": [
+        "Chrysocolaptes strictus"
+      ],
+      "popularity": 590,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Javan flameback"
+    },
+    {
+      "name": "Red-collared woodpecker",
+      "aliases": [
+        "Picus rabieri"
+      ],
+      "popularity": 597,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Red-collared woodpecker"
+    },
+    {
+      "name": "Spot-throated flameback",
+      "aliases": [
+        "Dinopium everetti"
+      ],
+      "popularity": 601,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Spot-throated flameback"
+    },
+    {
+      "name": "Melancholy woodpecker",
+      "aliases": [
+        "Dendropicos lugubris"
+      ],
+      "popularity": 602,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Melancholy woodpecker"
+    },
+    {
+      "name": "Black-necked woodpecker",
+      "aliases": [
+        "Colaptes atricollis"
+      ],
+      "popularity": 605,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Black-necked woodpecker"
+    },
+    {
+      "name": "Grey-crowned woodpecker",
+      "aliases": [
+        "Colaptes auricularis"
+      ],
+      "popularity": 606,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Grey-crowned woodpecker"
+    },
+    {
+      "name": "White-spotted woodpecker",
+      "aliases": [
+        "Veniliornis spilogaster"
+      ],
+      "popularity": 608,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "White-spotted woodpecker"
+    },
+    {
+      "name": "Sulu pygmy woodpecker",
+      "aliases": [
+        "Yungipicus ramsayi"
+      ],
+      "popularity": 610,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "Sulu pygmy woodpecker"
+    },
+    {
+      "name": "Pale-headed woodpecker",
+      "aliases": [
+        "Gecinulus grantia"
+      ],
+      "popularity": 628,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Pale-headed woodpecker"
+    },
+    {
+      "name": "Rufous-winged woodpecker",
+      "aliases": [
+        "Piculus simplex"
+      ],
+      "popularity": 630,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Rufous-winged woodpecker"
+    },
+    {
+      "name": "Rufous-headed woodpecker",
+      "aliases": [
+        "Celeus spectabilis"
+      ],
+      "popularity": 647,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Rufous-headed woodpecker"
+    },
+    {
+      "name": "Yellow-browed woodpecker",
+      "aliases": [
+        "Piculus aurulentus"
+      ],
+      "popularity": 666,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Yellow-browed woodpecker"
+    },
+    {
+      "name": "Waved woodpecker",
+      "aliases": [
+        "Celeus undatus"
+      ],
+      "popularity": 667,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Waved woodpecker"
+    },
+    {
+      "name": "Golden-spangled piculet",
+      "aliases": [
+        "Picumnus exilis"
+      ],
+      "popularity": 673,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Golden-spangled piculet"
+    },
+    {
+      "name": "Grey-breasted woodpecker",
+      "aliases": [
+        "Melanerpes hypopolius"
+      ],
+      "popularity": 673,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Grey-breasted woodpecker"
+    },
+    {
+      "name": "Orinoco piculet",
+      "aliases": [
+        "Picumnus pumilus"
+      ],
+      "popularity": 676,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Orinoco piculet"
+    },
+    {
+      "name": "Grey-and-buff woodpecker",
+      "aliases": [
+        "Hemicircus sordidus"
+      ],
+      "popularity": 683,
+      "rarity": 0.658,
+      "tier": 4,
+      "wiki": "Grey-and-buff woodpecker"
+    },
+    {
+      "name": "Stripe-breasted woodpecker",
+      "aliases": [
+        "Dendrocopos atratus",
+        "Picoides atratus"
+      ],
+      "popularity": 690,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Stripe-breasted woodpecker"
+    },
+    {
+      "name": "Eastern grey woodpecker",
+      "aliases": [
+        "Dendropicos spodocephalus"
+      ],
+      "popularity": 696,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Eastern grey woodpecker"
+    },
+    {
+      "name": "Checker-throated woodpecker",
+      "aliases": [
+        "chequer-throated yellownape",
+        "Chrysophlegma humii"
+      ],
+      "popularity": 710,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Checker-throated woodpecker"
+    },
+    {
+      "name": "Buff-rumped woodpecker",
+      "aliases": [
+        "Meiglyptes grammithorax"
+      ],
+      "popularity": 724,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Buff-rumped woodpecker"
+    },
+    {
+      "name": "Ashy woodpecker",
+      "aliases": [
+        "Mulleripicus fulvus"
+      ],
+      "popularity": 738,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Ashy woodpecker"
+    },
+    {
+      "name": "Strickland's woodpecker",
+      "aliases": [
+        "Leuconotopicus stricklandi"
+      ],
+      "popularity": 738,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Strickland's woodpecker"
+    },
+    {
+      "name": "White-fronted woodpecker",
+      "aliases": [
+        "Melanerpes cactorum"
+      ],
+      "popularity": 739,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "White-fronted woodpecker"
+    },
+    {
+      "name": "Yellow-crested woodpecker",
+      "aliases": [
+        "Dendropicos xantholophus"
+      ],
+      "popularity": 742,
+      "rarity": 0.626,
+      "tier": 4,
+      "wiki": "Yellow-crested woodpecker"
+    },
+    {
+      "name": "White-winged woodpecker",
+      "aliases": [
+        "Dendrocopos leucopterus",
+        "Picoides leucopterus"
+      ],
+      "popularity": 744,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "White-winged woodpecker"
+    },
+    {
+      "name": "Guayaquil woodpecker",
+      "aliases": [
+        "Campephilus gayaquilensis"
+      ],
+      "popularity": 748,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Guayaquil woodpecker"
+    },
+    {
+      "name": "White-barred piculet",
+      "aliases": [
+        "Picumnus cirratus"
+      ],
+      "popularity": 758,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "White-barred piculet"
+    },
+    {
+      "name": "Checkered woodpecker",
+      "aliases": [
+        "Picoides mixtus",
+        "Veniliornis mixtus"
+      ],
+      "popularity": 771,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Checkered woodpecker"
+    },
+    {
+      "name": "Splendid woodpecker",
+      "aliases": [
+        "Campephilus splendens"
+      ],
+      "popularity": 775,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Splendid woodpecker"
+    },
+    {
+      "name": "Lafresnaye's piculet",
+      "aliases": [
+        "Picumnus lafresnayi"
+      ],
+      "popularity": 778,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Lafresnaye's piculet"
+    },
+    {
+      "name": "Bamboo woodpecker",
+      "aliases": [
+        "Gecinulus viridis"
+      ],
+      "popularity": 789,
+      "rarity": 0.599,
+      "tier": 3,
+      "wiki": "Bamboo woodpecker"
+    },
+    {
+      "name": "Buff-spotted woodpecker",
+      "aliases": [
+        "Campethera nivosa"
+      ],
+      "popularity": 791,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Buff-spotted woodpecker"
+    },
+    {
+      "name": "Red-rumped woodpecker",
+      "aliases": [
+        "Veniliornis kirkii"
+      ],
+      "popularity": 798,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Red-rumped woodpecker"
+    },
+    {
+      "name": "Pale-crested woodpecker",
+      "aliases": [
+        "Celeus lugubris"
+      ],
+      "popularity": 803,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Pale-crested woodpecker"
+    },
+    {
+      "name": "Red-headed flameback",
+      "aliases": [
+        "Chrysocolaptes erythrocephalus"
+      ],
+      "popularity": 805,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Red-headed flameback"
+    },
+    {
+      "name": "Freckle-breasted woodpecker",
+      "aliases": [
+        "Dendrocopos analis"
+      ],
+      "popularity": 812,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Freckle-breasted woodpecker"
+    },
+    {
+      "name": "Little green woodpecker",
+      "aliases": [
+        "Campethera maculosa"
+      ],
+      "popularity": 819,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Little green woodpecker"
+    },
+    {
+      "name": "Olivaceous piculet",
+      "aliases": [
+        "Picumnus olivaceus"
+      ],
+      "popularity": 824,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Olivaceous piculet"
+    },
+    {
+      "name": "Cinnamon woodpecker",
+      "aliases": [
+        "Celeus loricatus"
+      ],
+      "popularity": 825,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Cinnamon woodpecker"
+    },
+    {
+      "name": "Ochre-collared piculet",
+      "aliases": [
+        "Picumnus temminckii"
+      ],
+      "popularity": 828,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Ochre-collared piculet"
+    },
+    {
+      "name": "Arrowhead piculet",
+      "aliases": [
+        "Picumnus minutissimus"
+      ],
+      "popularity": 831,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Arrowhead piculet"
+    },
+    {
+      "name": "Golden-green woodpecker",
+      "aliases": [
+        "Piculus chrysochloros"
+      ],
+      "popularity": 834,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Golden-green woodpecker"
+    },
+    {
+      "name": "Chestnut woodpecker",
+      "aliases": [
+        "Celeus elegans"
+      ],
+      "popularity": 864,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Chestnut woodpecker"
+    },
+    {
+      "name": "Black-bodied woodpecker",
+      "aliases": [
+        "Dryocopus schulzii"
+      ],
+      "popularity": 865,
+      "rarity": 0.549,
+      "tier": 3,
+      "wiki": "Black-bodied woodpecker"
+    },
+    {
+      "name": "Crimson-winged woodpecker",
+      "aliases": [
+        "Picus puniceus"
+      ],
+      "popularity": 869,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Crimson-winged woodpecker"
+    },
+    {
+      "name": "Cream-backed woodpecker",
+      "aliases": [
+        "Campephilus leucopogon"
+      ],
+      "popularity": 883,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Cream-backed woodpecker"
+    },
+    {
+      "name": "Crimson-mantled woodpecker",
+      "aliases": [
+        "Colaptes rivolii",
+        "Piculus rivolii"
+      ],
+      "popularity": 884,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Crimson-mantled woodpecker"
+    },
+    {
+      "name": "Crimson-bellied woodpecker",
+      "aliases": [
+        "Campephilus haematogaster"
+      ],
+      "popularity": 897,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Crimson-bellied woodpecker"
+    },
+    {
+      "name": "Ringed woodpecker",
+      "aliases": [
+        "Celeus torquatus"
+      ],
+      "popularity": 903,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Ringed woodpecker"
+    },
+    {
+      "name": "Buff-spotted flameback",
+      "aliases": [
+        "Chrysocolaptes lucidus"
+      ],
+      "popularity": 908,
+      "rarity": 0.525,
+      "tier": 3,
+      "wiki": "Buff-spotted flameback"
+    },
+    {
+      "name": "Luzon flameback",
+      "aliases": [
+        "Chrysocolaptes haematribon"
+      ],
+      "popularity": 919,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Luzon flameback"
+    },
+    {
+      "name": "Eurasian green woodpecker",
+      "aliases": [
+        "European Green Woodpecker",
+        "Green Woodpecker",
+        "Picus viridis"
+      ],
+      "popularity": 920,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Eurasian green woodpecker"
+    },
+    {
+      "name": "Darjeeling woodpecker",
+      "aliases": [
+        "Dendrocopos darjellensis",
+        "Picoides darjellensis"
+      ],
+      "popularity": 940,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Darjeeling woodpecker"
+    },
+    {
+      "name": "Brown-fronted woodpecker",
+      "aliases": [
+        "Dendrocopos auriceps",
+        "Picoides auriceps"
+      ],
+      "popularity": 947,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Brown-fronted woodpecker"
+    },
+    {
+      "name": "Bay woodpecker",
+      "aliases": [
+        "Blythipicus pyrrhotis"
+      ],
+      "popularity": 963,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Bay woodpecker"
+    },
+    {
+      "name": "Scaly-bellied woodpecker",
+      "aliases": [
+        "Picus squamatus"
+      ],
+      "popularity": 969,
+      "rarity": 0.502,
+      "tier": 3,
+      "wiki": "Scaly-bellied woodpecker"
+    },
+    {
+      "name": "Yellow-throated woodpecker",
+      "aliases": [
+        "Piculus flavigula"
+      ],
+      "popularity": 973,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Yellow-throated woodpecker"
+    },
+    {
+      "name": "Brown-backed woodpecker",
+      "aliases": [
+        "Dendropicos obsoletus"
+      ],
+      "popularity": 978,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Brown-backed woodpecker"
+    },
+    {
+      "name": "Sind woodpecker",
+      "aliases": [
+        "Dendrocopos assimilis",
+        "Picoides assimilis"
+      ],
+      "popularity": 980,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Sind woodpecker"
+    },
+    {
+      "name": "Knysna woodpecker",
+      "aliases": [
+        "Campethera notata"
+      ],
+      "popularity": 986,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "Knysna woodpecker"
+    },
+    {
+      "name": "Striped woodpecker",
+      "aliases": [
+        "Picoides lignarius",
+        "Veniliornis lignarius"
+      ],
+      "popularity": 1001,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "Striped woodpecker"
+    },
+    {
+      "name": "Laced woodpecker",
+      "aliases": [
+        "Picus vittatus"
+      ],
+      "popularity": 1007,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "Laced woodpecker"
+    },
+    {
+      "name": "Malabar flameback",
+      "aliases": [
+        "Chrysocolaptes socialis"
+      ],
+      "popularity": 1038,
+      "rarity": 0.475,
+      "tier": 3,
+      "wiki": "Malabar flameback"
+    },
+    {
+      "name": "Robust woodpecker",
+      "aliases": [
+        "Campephilus robustus"
+      ],
+      "popularity": 1042,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Robust woodpecker"
+    },
+    {
+      "name": "White-browed piculet",
+      "aliases": [
+        "Sasia ochracea"
+      ],
+      "popularity": 1051,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "White-browed piculet"
+    },
+    {
+      "name": "Black-headed woodpecker",
+      "aliases": [
+        "Picus erythropygius"
+      ],
+      "popularity": 1053,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Black-headed woodpecker"
+    },
+    {
+      "name": "Abyssinian woodpecker",
+      "aliases": [
+        "Dendropicos abyssinicus"
+      ],
+      "popularity": 1059,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "Abyssinian woodpecker"
+    },
+    {
+      "name": "Spot-breasted woodpecker",
+      "aliases": [
+        "Colaptes punctigula"
+      ],
+      "popularity": 1074,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Spot-breasted woodpecker"
+    },
+    {
+      "name": "Himalayan flameback",
+      "aliases": [
+        "Dinopium shorii",
+        "Himalayan Flamebacked Woodpecker"
+      ],
+      "popularity": 1086,
+      "rarity": 0.451,
+      "tier": 3,
+      "wiki": "Himalayan flameback"
+    },
+    {
+      "name": "Helmeted woodpecker",
+      "aliases": [
+        "Celeus galeatus"
+      ],
+      "popularity": 1092,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Helmeted woodpecker"
+    },
+    {
+      "name": "Kaempfer's woodpecker",
+      "aliases": [
+        "Celeus obrieni"
+      ],
+      "popularity": 1192,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Kaempfer's woodpecker"
+    },
+    {
+      "name": "Himalayan woodpecker",
+      "aliases": [
+        "Dendrocopos himalayensis",
+        "Picoides himalayensis"
+      ],
+      "popularity": 1193,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Himalayan woodpecker"
+    },
+    {
+      "name": "Nubian woodpecker",
+      "aliases": [
+        "Campethera nubica"
+      ],
+      "popularity": 1201,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Nubian woodpecker"
+    },
+    {
+      "name": "Chestnut-colored woodpecker",
+      "aliases": [
+        "Celeus castaneus",
+        "Chestnut-coloured Woodpecker"
+      ],
+      "popularity": 1228,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Chestnut-colored woodpecker"
+    },
+    {
+      "name": "Golden-naped woodpecker",
+      "aliases": [
+        "Melanerpes chrysauchen"
+      ],
+      "popularity": 1232,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Golden-naped woodpecker"
+    },
+    {
+      "name": "Red-necked woodpecker",
+      "aliases": [
+        "Campephilus rubricollis"
+      ],
+      "popularity": 1232,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Red-necked woodpecker"
+    },
+    {
+      "name": "Arabian woodpecker",
+      "aliases": [
+        "Dendrocoptes dorae"
+      ],
+      "popularity": 1233,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Arabian woodpecker"
+    },
+    {
+      "name": "Rufous piculet",
+      "aliases": [
+        "Sasia abnormis"
+      ],
+      "popularity": 1243,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Rufous piculet"
+    },
+    {
+      "name": "Sunda pygmy woodpecker",
+      "aliases": [
+        "Dendrocopos moluccensis",
+        "Yungipicus moluccensis"
+      ],
+      "popularity": 1247,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Sunda pygmy woodpecker"
+    },
+    {
+      "name": "African piculet",
+      "aliases": [
+        "Sasia africana"
+      ],
+      "popularity": 1248,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "African piculet"
+    },
+    {
+      "name": "Golden-cheeked woodpecker",
+      "aliases": [
+        "Melanerpes chrysogenys",
+        "Melanerpes chysogenys"
+      ],
+      "popularity": 1261,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Golden-cheeked woodpecker"
+    },
+    {
+      "name": "Chilean flicker",
+      "aliases": [
+        "Colaptes pitius"
+      ],
+      "popularity": 1264,
+      "rarity": 0.401,
+      "tier": 3,
+      "wiki": "Chilean flicker"
+    },
+    {
+      "name": "Andaman woodpecker",
+      "aliases": [
+        "Dryocopus hodgei"
+      ],
+      "popularity": 1274,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Andaman woodpecker"
+    },
+    {
+      "name": "Yellow-faced flameback",
+      "aliases": [
+        "Chrysocolaptes xanthocephalus"
+      ],
+      "popularity": 1278,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Yellow-faced flameback"
+    },
+    {
+      "name": "Jamaican woodpecker",
+      "aliases": [
+        "Melanerpes radiolatus"
+      ],
+      "popularity": 1282,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Jamaican woodpecker"
+    },
+    {
+      "name": "Crimson-backed flameback",
+      "aliases": [
+        "Chrysocolaptes lucidus stricklandi",
+        "Chrysocolaptes stricklandi",
+        "Greater Sri Lanka flameback"
+      ],
+      "popularity": 1313,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Crimson-backed flameback"
+    },
+    {
+      "name": "Beautiful woodpecker",
+      "aliases": [
+        "Melanerpes pulcher"
+      ],
+      "popularity": 1323,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Beautiful woodpecker"
+    },
+    {
+      "name": "Orange-backed woodpecker",
+      "aliases": [
+        "Reinwardtipicus validus"
+      ],
+      "popularity": 1323,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Orange-backed woodpecker"
+    },
+    {
+      "name": "Little woodpecker",
+      "aliases": [
+        "Veniliornis passerinus"
+      ],
+      "popularity": 1331,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Little woodpecker"
+    },
+    {
+      "name": "Smoky-brown woodpecker",
+      "aliases": [
+        "Leuconotopicus fumigatus"
+      ],
+      "popularity": 1331,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Smoky-brown woodpecker"
+    },
+    {
+      "name": "Guatemalan flicker",
+      "aliases": [
+        "Colaptes mexicanoides"
+      ],
+      "popularity": 1348,
+      "rarity": 0.366,
+      "tier": 2,
+      "wiki": "Guatemalan flicker"
+    },
+    {
+      "name": "Antillean piculet",
+      "aliases": [
+        "Nesoctites micromegas"
+      ],
+      "popularity": 1373,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Antillean piculet"
+    },
+    {
+      "name": "Bennett's woodpecker",
+      "aliases": [
+        "Campethera bennettii"
+      ],
+      "popularity": 1378,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Bennett's woodpecker"
+    },
+    {
+      "name": "Zebra woodpecker",
+      "aliases": [
+        "Meiglyptes tristis",
+        "White-rumped woodpecker"
+      ],
+      "popularity": 1385,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "Zebra woodpecker"
+    },
+    {
+      "name": "Streak-throated woodpecker",
+      "aliases": [
+        "Picus xanthopygaeus"
+      ],
+      "popularity": 1394,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Streak-throated woodpecker"
+    },
+    {
+      "name": "Fulvous-breasted woodpecker",
+      "aliases": [
+        "Dendrocopos macei",
+        "Picoides macei",
+        "Streak-bellied woodpecker"
+      ],
+      "popularity": 1400,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Fulvous-breasted woodpecker"
+    },
+    {
+      "name": "Black-cheeked woodpecker",
+      "aliases": [
+        "Melanerpes pucherani"
+      ],
+      "popularity": 1435,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Black-cheeked woodpecker"
+    },
+    {
+      "name": "Grey-capped pygmy woodpecker",
+      "aliases": [
+        "Dendrocopos canicapillus",
+        "Grey-capped Woodpecker",
+        "Picoides canicapillus",
+        "Yungipicus canicapillus"
+      ],
+      "popularity": 1435,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Grey-capped pygmy woodpecker"
+    },
+    {
+      "name": "Banded woodpecker",
+      "aliases": [
+        "Chrysophlegma miniaceum"
+      ],
+      "popularity": 1436,
+      "rarity": 0.335,
+      "tier": 2,
+      "wiki": "Banded woodpecker"
+    },
+    {
+      "name": "Yellow-fronted woodpecker",
+      "aliases": [
+        "Melanerpes flavifrons"
+      ],
+      "popularity": 1458,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Yellow-fronted woodpecker"
+    },
+    {
+      "name": "Yellow-tufted woodpecker",
+      "aliases": [
+        "Melanerpes cruentatus"
+      ],
+      "popularity": 1513,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Yellow-tufted woodpecker"
+    },
+    {
+      "name": "Olive woodpecker",
+      "aliases": [
+        "Dendropicos griseocephalus"
+      ],
+      "popularity": 1551,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Olive woodpecker"
+    },
+    {
+      "name": "Ocellated piculet",
+      "aliases": [
+        "Picumnus dorbignyanus"
+      ],
+      "popularity": 1565,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Ocellated piculet"
+    },
+    {
+      "name": "Fernandina's flicker",
+      "aliases": [
+        "Colaptes fernandinae",
+        "Fernandinaís flicker"
+      ],
+      "popularity": 1566,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Fernandina's flicker"
+    },
+    {
+      "name": "Golden-tailed woodpecker",
+      "aliases": [
+        "Campethera abingoni"
+      ],
+      "popularity": 1572,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Golden-tailed woodpecker"
+    },
+    {
+      "name": "Hoffmann's woodpecker",
+      "aliases": [
+        "Hoffman’s woodpecker",
+        "Melanerpes hoffmanni",
+        "Melanerpes hoffmannii"
+      ],
+      "popularity": 1587,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "Hoffmann's woodpecker"
+    },
+    {
+      "name": "African grey woodpecker",
+      "aliases": [
+        "Dendropicos goertae",
+        "Grey Woodpecker"
+      ],
+      "popularity": 1637,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "African grey woodpecker"
+    },
+    {
+      "name": "Golden-olive woodpecker",
+      "aliases": [
+        "Colaptes rubiginosus",
+        "Piculus rubiginosus"
+      ],
+      "popularity": 1666,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Golden-olive woodpecker"
+    },
+    {
+      "name": "Blond-crested woodpecker",
+      "aliases": [
+        "Celeus flavescens"
+      ],
+      "popularity": 1673,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Blond-crested woodpecker"
+    },
+    {
+      "name": "Brown-capped pygmy woodpecker",
+      "aliases": [
+        "Yungipicus nanus"
+      ],
+      "popularity": 1689,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Brown-capped pygmy woodpecker"
+    },
+    {
+      "name": "Powerful woodpecker",
+      "aliases": [
+        "Campephilus pollens"
+      ],
+      "popularity": 1698,
+      "rarity": 0.288,
+      "tier": 2,
+      "wiki": "Powerful woodpecker"
+    },
+    {
+      "name": "Rufous-bellied woodpecker",
+      "aliases": [
+        "Dendrocopos hyperythrus",
+        "Picoides hyperythrus"
+      ],
+      "popularity": 1734,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Rufous-bellied woodpecker"
+    },
+    {
+      "name": "Cuban green woodpecker",
+      "aliases": [
+        "Xiphidiopicus percussus"
+      ],
+      "popularity": 1743,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Cuban green woodpecker"
+    },
+    {
+      "name": "Speckled piculet",
+      "aliases": [
+        "Picumnus innominatus"
+      ],
+      "popularity": 1744,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Speckled piculet"
+    },
+    {
+      "name": "West Indian woodpecker",
+      "aliases": [
+        "Melanerpes superciliaris"
+      ],
+      "popularity": 1748,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "West Indian woodpecker"
+    },
+    {
+      "name": "Yucatan woodpecker",
+      "aliases": [
+        "Melanerpes pygmaeus"
+      ],
+      "popularity": 1801,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Yucatan woodpecker"
+    },
+    {
+      "name": "Lesser yellownape",
+      "aliases": [
+        "Lesser Yellownape Woodpecker",
+        "Picus chlorolophus"
+      ],
+      "popularity": 1819,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Lesser yellownape"
+    },
+    {
+      "name": "Greater yellownape",
+      "aliases": [
+        "Chrysophlegma flavinucha",
+        "Greater Yellownape Woodpecker",
+        "Picus flavinucha"
+      ],
+      "popularity": 1820,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Greater yellownape"
+    },
+    {
+      "name": "Heart-spotted woodpecker",
+      "aliases": [
+        "Hemicircus canente"
+      ],
+      "popularity": 1888,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Heart-spotted woodpecker"
+    },
+    {
+      "name": "Bar-breasted piculet",
+      "aliases": [
+        "Picumnus aurifrons"
+      ],
+      "popularity": 1917,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Bar-breasted piculet"
+    },
+    {
+      "name": "Guadeloupe woodpecker",
+      "aliases": [
+        "Melanerpes herminieri"
+      ],
+      "popularity": 1934,
+      "rarity": 0.249,
+      "tier": 2,
+      "wiki": "Guadeloupe woodpecker"
+    },
+    {
+      "name": "Bearded woodpecker",
+      "aliases": [
+        "Bearded woodpecke",
+        "Chloropicus namaquus",
+        "Dendropicos namaquus"
+      ],
+      "popularity": 2005,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Bearded woodpecker"
+    },
+    {
+      "name": "Yellow-crowned woodpecker",
+      "aliases": [
+        "Leiopicus mahrattensis"
+      ],
+      "popularity": 2031,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Yellow-crowned woodpecker"
+    },
+    {
+      "name": "Ground woodpecker",
+      "aliases": [
+        "Geocolaptes olivaceus"
+      ],
+      "popularity": 2092,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Ground woodpecker"
+    },
+    {
+      "name": "Philippine pygmy woodpecker",
+      "aliases": [
+        "Dendrocopos maculatus",
+        "Yungipicus maculatus"
+      ],
+      "popularity": 2123,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Philippine pygmy woodpecker"
+    },
+    {
+      "name": "Japanese green woodpecker",
+      "aliases": [
+        "Picus awokera"
+      ],
+      "popularity": 2173,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Japanese green woodpecker"
+    },
+    {
+      "name": "Arizona woodpecker",
+      "aliases": [
+        "Leuconotopicus arizonae"
+      ],
+      "popularity": 2195,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Arizona woodpecker"
+    },
+    {
+      "name": "Levaillant's woodpecker",
+      "aliases": [
+        "Picus vaillantii"
+      ],
+      "popularity": 2204,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Levaillant's woodpecker"
+    },
+    {
+      "name": "White-naped woodpecker",
+      "aliases": [
+        "Chrysocolaptes festivus"
+      ],
+      "popularity": 2207,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "White-naped woodpecker"
+    },
+    {
+      "name": "Andean flicker",
+      "aliases": [
+        "Colaptes rupicola"
+      ],
+      "popularity": 2359,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Andean flicker"
+    },
+    {
+      "name": "Red-backed flameback",
+      "aliases": [
+        "Dinopium psarodes",
+        "Lesser Sri Lanka flameback"
+      ],
+      "popularity": 2384,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Red-backed flameback"
+    },
+    {
+      "name": "Puerto Rican woodpecker",
+      "aliases": [
+        "Melanerpes portoricensis"
+      ],
+      "popularity": 2532,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Puerto Rican woodpecker"
+    },
+    {
+      "name": "White woodpecker",
+      "aliases": [
+        "Melanerpes candidus"
+      ],
+      "popularity": 2573,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "White woodpecker"
+    },
+    {
+      "name": "Green-barred woodpecker",
+      "aliases": [
+        "Colaptes melanochloros"
+      ],
+      "popularity": 2713,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Green-barred woodpecker"
+    },
+    {
+      "name": "Rufous woodpecker",
+      "aliases": [
+        "Micropternus brachyurus"
+      ],
+      "popularity": 2881,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Rufous woodpecker"
+    },
+    {
+      "name": "Campo flicker",
+      "aliases": [
+        "Colaptes campestris"
+      ],
+      "popularity": 2929,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Campo flicker"
+    },
+    {
+      "name": "Crimson-crested woodpecker",
+      "aliases": [
+        "Campephilus melanoleucos"
+      ],
+      "popularity": 2980,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Crimson-crested woodpecker"
+    },
+    {
+      "name": "Red-throated wryneck",
+      "aliases": [
+        "African wryneck",
+        "Jynx ruficollis",
+        "rufous-necked wryneck"
+      ],
+      "popularity": 2992,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Red-throated wryneck"
+    },
+    {
+      "name": "Hispaniolan woodpecker",
+      "aliases": [
+        "Melanerpes striatus"
+      ],
+      "popularity": 3123,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Hispaniolan woodpecker"
+    },
+    {
+      "name": "Williamson's sapsucker",
+      "aliases": [
+        "Sphyrapicus thyroideus"
+      ],
+      "popularity": 3282,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Williamson's sapsucker"
+    },
+    {
+      "name": "White-headed woodpecker",
+      "aliases": [
+        "Leuconotopicus albolarvatus"
+      ],
+      "popularity": 3292,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "White-headed woodpecker"
+    },
+    {
+      "name": "Japanese pygmy woodpecker",
+      "aliases": [
+        "Yungipicus kizuki"
+      ],
+      "popularity": 3357,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Japanese pygmy woodpecker"
+    },
+    {
+      "name": "Greater flameback",
+      "aliases": [
+        "Chrysocolaptes guttacristatus"
+      ],
+      "popularity": 3490,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Greater flameback"
+    },
+    {
+      "name": "Red-crowned woodpecker",
+      "aliases": [
+        "Melanerpes rubricapillus"
+      ],
+      "popularity": 3497,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Red-crowned woodpecker"
+    },
+    {
+      "name": "Cardinal woodpecker",
+      "aliases": [
+        "Dendropicos fuscescens"
+      ],
+      "popularity": 3551,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Cardinal woodpecker"
+    },
+    {
+      "name": "Common flameback",
+      "aliases": [
+        "Common Flamebacked Woodpecker",
+        "common goldenback",
+        "Dinopium javanense"
+      ],
+      "popularity": 3845,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Common flameback"
+    },
+    {
+      "name": "Cream-colored woodpecker",
+      "aliases": [
+        "Celeus flavus"
+      ],
+      "popularity": 3927,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Cream-colored woodpecker"
+    },
+    {
+      "name": "Pale-billed woodpecker",
+      "aliases": [
+        "Campephilus guatemalensis"
+      ],
+      "popularity": 4320,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Pale-billed woodpecker"
+    },
+    {
+      "name": "White-bellied woodpecker",
+      "aliases": [
+        "Dryocopus javensis"
+      ],
+      "popularity": 4593,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "White-bellied woodpecker"
+    },
+    {
+      "name": "Syrian woodpecker",
+      "aliases": [
+        "Dendrocopos syriacus",
+        "Picoides syriacus"
+      ],
+      "popularity": 4695,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Syrian woodpecker"
+    },
+    {
+      "name": "Iberian green woodpecker",
+      "aliases": [
+        "Iberian Woodpecker",
+        "Picus sharpei",
+        "Picus viridis sharpei"
+      ],
+      "popularity": 5159,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Iberian green woodpecker"
+    },
+    {
+      "name": "Red-naped sapsucker",
+      "aliases": [
+        "Sphyrapicus nuchalis"
+      ],
+      "popularity": 5366,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Red-naped sapsucker"
+    },
+    {
+      "name": "Eurasian three-toed woodpecker",
+      "aliases": [
+        "Picoides tridactylus",
+        "Three-toed Woodpecker"
+      ],
+      "popularity": 5709,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Eurasian three-toed woodpecker"
+    },
+    {
+      "name": "Okinawa woodpecker",
+      "aliases": [
+        "Dendrocopos noguchii"
+      ],
+      "popularity": 5713,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "Okinawa woodpecker"
+    },
+    {
+      "name": "Golden-fronted woodpecker",
+      "aliases": [
+        "Melanerpes aurifrons"
+      ],
+      "popularity": 5782,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Golden-fronted woodpecker"
+    },
+    {
+      "name": "Lineated woodpecker",
+      "aliases": [
+        "Dryocopus lineatus"
+      ],
+      "popularity": 5925,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Lineated woodpecker"
+    },
+    {
+      "name": "Nuttall's woodpecker",
+      "aliases": [
+        "Dryobates nuttallii"
+      ],
+      "popularity": 6017,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Nuttall's woodpecker"
+    },
+    {
+      "name": "Gilded flicker",
+      "aliases": [
+        "Colaptes chrysoides"
+      ],
+      "popularity": 6255,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Gilded flicker"
+    },
+    {
+      "name": "American three-toed woodpecker",
+      "aliases": [
+        "Picoides dorsalis"
+      ],
+      "popularity": 6400,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "American three-toed woodpecker"
+    },
+    {
+      "name": "Magellanic woodpecker",
+      "aliases": [
+        "Campephilus magellanicus"
+      ],
+      "popularity": 6637,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Magellanic woodpecker"
+    },
+    {
+      "name": "Ladder-backed woodpecker",
+      "aliases": [
+        "Dryobates scalaris"
+      ],
+      "popularity": 6667,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Ladder-backed woodpecker"
+    },
+    {
+      "name": "Black-backed woodpecker",
+      "aliases": [
+        "Picoides arcticus"
+      ],
+      "popularity": 7180,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Black-backed woodpecker"
+    },
+    {
+      "name": "White-backed woodpecker",
+      "aliases": [
+        "Aksırtlı ağaçkakan",
+        "Dendrocopos leucotos",
+        "Dendrocopos leucotos lilfordi",
+        "Lilford’s woodpecker"
+      ],
+      "popularity": 7297,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "White-backed woodpecker"
+    },
+    {
+      "name": "Middle spotted woodpecker",
+      "aliases": [
+        "Dendrocopos medius",
+        "Dendrocoptes medius"
+      ],
+      "popularity": 7566,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Middle spotted woodpecker"
+    },
+    {
+      "name": "Red-breasted sapsucker",
+      "aliases": [
+        "Sphyrapicus ruber"
+      ],
+      "popularity": 8519,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Red-breasted sapsucker"
+    },
+    {
+      "name": "Lewis's woodpecker",
+      "aliases": [
+        "Melanerpes lewis"
+      ],
+      "popularity": 9641,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Lewis's woodpecker"
+    },
+    {
+      "name": "Grey-headed woodpecker",
+      "aliases": [
+        "Picus canus"
+      ],
+      "popularity": 10029,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Grey-headed woodpecker"
+    },
+    {
+      "name": "Black-rumped flameback",
+      "aliases": [
+        "Black-rumped Flameblack",
+        "Dinopium benghalense",
+        "Lesser golden-backed woodpecker",
+        "Lesser goldenback"
+      ],
+      "popularity": 11101,
+      "rarity": 0.066,
+      "tier": 1,
+      "wiki": "Black-rumped flameback"
+    },
+    {
+      "name": "Great slaty woodpecker",
+      "aliases": [
+        "Mulleripicus pulverulentus"
+      ],
+      "popularity": 14110,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Great slaty woodpecker"
+    },
+    {
+      "name": "Eurasian wryneck",
+      "aliases": [
+        "Jynx torquilla",
+        "Northern wryneck",
+        "Wryneck"
+      ],
+      "popularity": 16909,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Eurasian wryneck"
+    },
+    {
+      "name": "Gila woodpecker",
+      "aliases": [
+        "Melanerpes uropygialis"
+      ],
+      "popularity": 17518,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Gila woodpecker"
+    },
+    {
+      "name": "Lesser spotted woodpecker",
+      "aliases": [
+        "Dendrocopos minor",
+        "Dryobates minor",
+        "Picoides minor"
+      ],
+      "popularity": 19289,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "Lesser spotted woodpecker"
+    },
+    {
+      "name": "Red-cockaded woodpecker",
+      "aliases": [
+        "Dendrocopos borealis",
+        "Dendrocopos borealis borealis",
+        "Dendrocopos borealis hylonomus",
+        "Dryobates borealis",
+        "Leuconotopicus borealis",
+        "Picoides borealis",
+        "Picoides borealis hylonomus",
+        "Picus borealis"
+      ],
+      "popularity": 19965,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Red-cockaded woodpecker"
+    },
+    {
+      "name": "Acorn woodpecker",
+      "aliases": [
+        "Melanerpes formicivorus"
+      ],
+      "popularity": 30550,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Acorn woodpecker"
+    },
+    {
+      "name": "Yellow-bellied sapsucker",
+      "aliases": [
+        "Sphyrapicus varius"
+      ],
+      "popularity": 32699,
+      "rarity": 0.039,
+      "tier": 1,
+      "wiki": "Yellow-bellied sapsucker"
+    },
+    {
+      "name": "Imperial woodpecker",
+      "aliases": [
+        "Campephilus imperialis"
+      ],
+      "popularity": 33415,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "Imperial woodpecker"
+    },
+    {
+      "name": "Black woodpecker",
+      "aliases": [
+        "Dryocopus martius"
+      ],
+      "popularity": 33895,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Black woodpecker"
+    },
+    {
+      "name": "Hairy woodpecker",
+      "aliases": [
+        "Leuconotopicus villosus",
+        "Picoides villosus"
+      ],
+      "popularity": 33987,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Hairy woodpecker"
+    },
+    {
+      "name": "Red-headed woodpecker",
+      "aliases": [
+        "Melanerpes erythrocephalus"
+      ],
+      "popularity": 55972,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Red-headed woodpecker"
+    },
+    {
+      "name": "Downy woodpecker",
+      "aliases": [
+        "Dryobates pubescens"
+      ],
+      "popularity": 71141,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Downy woodpecker"
+    },
+    {
+      "name": "Great spotted woodpecker",
+      "aliases": [
+        "Dendrocopos major",
+        "GSW",
+        "Picoides major"
+      ],
+      "popularity": 74299,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Great spotted woodpecker"
+    },
+    {
+      "name": "Red-bellied woodpecker",
+      "aliases": [
+        "Melanerpes carolinus"
+      ],
+      "popularity": 92899,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Red-bellied woodpecker"
+    },
+    {
+      "name": "Ivory-billed woodpecker",
+      "aliases": [
+        "Campephilus principalis"
+      ],
+      "popularity": 130789,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Ivory-billed woodpecker"
+    },
+    {
+      "name": "Northern flicker",
+      "aliases": [
+        "Colaptes auratus"
+      ],
+      "popularity": 211680,
+      "rarity": 0.004,
+      "tier": 1,
+      "wiki": "Northern flicker"
+    },
+    {
+      "name": "Pileated woodpecker",
+      "aliases": [
+        "Dryocopus pileatus"
+      ],
+      "popularity": 212880,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Pileated woodpecker"
+    }
+  ]
+}

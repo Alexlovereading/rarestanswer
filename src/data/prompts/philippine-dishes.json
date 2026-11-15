@@ -1,0 +1,408 @@
+{
+  "id": "philippine-dishes",
+  "slug": "philippine-dishes",
+  "category": "food",
+  "question": "Name a Philippine dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Betamax",
+      "aliases": [
+        "Betamax (food)"
+      ],
+      "popularity": 464,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Betamax (food)"
+    },
+    {
+      "name": "Empanadilla",
+      "aliases": [],
+      "popularity": 709,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Empanadilla"
+    },
+    {
+      "name": "Binakle",
+      "aliases": [],
+      "popularity": 779,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Binakle"
+    },
+    {
+      "name": "Pancit buko",
+      "aliases": [],
+      "popularity": 973,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Pancit buko"
+    },
+    {
+      "name": "Sinigapuna",
+      "aliases": [],
+      "popularity": 982,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Sinigapuna"
+    },
+    {
+      "name": "Ginataang ampalaya",
+      "aliases": [],
+      "popularity": 1055,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Ginataang ampalaya"
+    },
+    {
+      "name": "Tortang kalabasa",
+      "aliases": [],
+      "popularity": 1164,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Tortang kalabasa"
+    },
+    {
+      "name": "Tinapayan",
+      "aliases": [],
+      "popularity": 1229,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Tinapayan"
+    },
+    {
+      "name": "Sayongsong",
+      "aliases": [],
+      "popularity": 1667,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Sayongsong"
+    },
+    {
+      "name": "Mache",
+      "aliases": [
+        "Mache (food)"
+      ],
+      "popularity": 1857,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Mache (food)"
+    },
+    {
+      "name": "Ginataang labong",
+      "aliases": [],
+      "popularity": 1894,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Ginataang labong"
+    },
+    {
+      "name": "Ginataang hipon",
+      "aliases": [],
+      "popularity": 1941,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Ginataang hipon"
+    },
+    {
+      "name": "Piutu",
+      "aliases": [
+        "piyutu",
+        "putu"
+      ],
+      "popularity": 1954,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Piutu"
+    },
+    {
+      "name": "Daral",
+      "aliases": [
+        "Daral (food)"
+      ],
+      "popularity": 2042,
+      "rarity": 0.705,
+      "tier": 4,
+      "wiki": "Daral (food)"
+    },
+    {
+      "name": "Pancit choca",
+      "aliases": [],
+      "popularity": 2207,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Pancit choca"
+    },
+    {
+      "name": "Ginataang isda",
+      "aliases": [],
+      "popularity": 2491,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Ginataang isda"
+    },
+    {
+      "name": "Salukara",
+      "aliases": [],
+      "popularity": 2604,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Salukara"
+    },
+    {
+      "name": "Moche",
+      "aliases": [
+        "Moche (food)",
+        "motsi",
+        "músi",
+        "mutsi"
+      ],
+      "popularity": 2971,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Moche (food)"
+    },
+    {
+      "name": "Ginataang kuhol",
+      "aliases": [
+        "snail stew"
+      ],
+      "popularity": 3184,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Ginataang kuhol"
+    },
+    {
+      "name": "Masi",
+      "aliases": [
+        "Masi (food)"
+      ],
+      "popularity": 3455,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Masi (food)"
+    },
+    {
+      "name": "Ginataang mais",
+      "aliases": [],
+      "popularity": 3588,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Ginataang mais"
+    },
+    {
+      "name": "Sinantolan",
+      "aliases": [
+        "ginataang santol",
+        "giniling na santol",
+        "gulay na santol",
+        "gulayon na santol",
+        "santolan",
+        "sinantulan"
+      ],
+      "popularity": 3657,
+      "rarity": 0.523,
+      "tier": 3,
+      "wiki": "Sinantolan"
+    },
+    {
+      "name": "Kinalas",
+      "aliases": [],
+      "popularity": 3755,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Kinalas"
+    },
+    {
+      "name": "Panyalam",
+      "aliases": [],
+      "popularity": 3780,
+      "rarity": 0.477,
+      "tier": 3,
+      "wiki": "Panyalam"
+    },
+    {
+      "name": "Ginataang langka",
+      "aliases": [],
+      "popularity": 4052,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Ginataang langka"
+    },
+    {
+      "name": "Kiampong",
+      "aliases": [
+        "kiampung"
+      ],
+      "popularity": 4180,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Kiampong"
+    },
+    {
+      "name": "Ginataang munggo",
+      "aliases": [],
+      "popularity": 4644,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Ginataang munggo"
+    },
+    {
+      "name": "Ginataang kalabasa",
+      "aliases": [],
+      "popularity": 5782,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Ginataang kalabasa"
+    },
+    {
+      "name": "Goto",
+      "aliases": [
+        "Goto (food)"
+      ],
+      "popularity": 6116,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Goto (food)"
+    },
+    {
+      "name": "Poqui poqui",
+      "aliases": [],
+      "popularity": 7291,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Poqui poqui"
+    },
+    {
+      "name": "Mami soup",
+      "aliases": [],
+      "popularity": 7354,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Mami soup"
+    },
+    {
+      "name": "Paelya",
+      "aliases": [],
+      "popularity": 8639,
+      "rarity": 0.295,
+      "tier": 2,
+      "wiki": "Paelya"
+    },
+    {
+      "name": "Java rice",
+      "aliases": [],
+      "popularity": 10148,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Java rice"
+    },
+    {
+      "name": "Adobo",
+      "aliases": [
+        "Adobo (Filipino dish)"
+      ],
+      "popularity": 10372,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Adobo (Filipino dish)"
+    },
+    {
+      "name": "Paksiw",
+      "aliases": [],
+      "popularity": 11010,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Paksiw"
+    },
+    {
+      "name": "Ginataan",
+      "aliases": [
+        "guinataan"
+      ],
+      "popularity": 12377,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "Ginataan"
+    },
+    {
+      "name": "Igado",
+      "aliases": [],
+      "popularity": 12463,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Igado"
+    },
+    {
+      "name": "Pinipig",
+      "aliases": [],
+      "popularity": 12930,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Pinipig"
+    },
+    {
+      "name": "Pares",
+      "aliases": [
+        "Pares (food)"
+      ],
+      "popularity": 13948,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Pares (food)"
+    },
+    {
+      "name": "Silog",
+      "aliases": [],
+      "popularity": 15062,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Silog"
+    },
+    {
+      "name": "Humba",
+      "aliases": [],
+      "popularity": 16302,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Humba"
+    },
+    {
+      "name": "Laing",
+      "aliases": [
+        "Laing (food)"
+      ],
+      "popularity": 18729,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Laing (food)"
+    },
+    {
+      "name": "Kalamay",
+      "aliases": [],
+      "popularity": 19692,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Kalamay"
+    },
+    {
+      "name": "Pinakbet",
+      "aliases": [],
+      "popularity": 22845,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Pinakbet"
+    },
+    {
+      "name": "Siopao",
+      "aliases": [
+        "salapao"
+      ],
+      "popularity": 31557,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Siopao"
+    }
+  ]
+}

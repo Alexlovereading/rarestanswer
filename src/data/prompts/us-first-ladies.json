@@ -1,0 +1,694 @@
+{
+  "id": "us-first-ladies",
+  "slug": "us-first-ladies",
+  "category": "history",
+  "question": "Name a first lady of the United States",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Jane Irwin Harrison",
+      "aliases": [
+        "Jane Harrison"
+      ],
+      "popularity": 11264,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Jane Irwin Harrison"
+    },
+    {
+      "name": "Priscilla Cooper Tyler",
+      "aliases": [
+        "Elizabeth Priscilla Cooper Tyler"
+      ],
+      "popularity": 22610,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Priscilla Cooper Tyler"
+    },
+    {
+      "name": "Angelica Singleton Van Buren",
+      "aliases": [
+        "Angelica Singleton",
+        "Angelica Van Buren",
+        "Sarah Angelica Van Buren"
+      ],
+      "popularity": 24449,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Angelica Singleton Van Buren"
+    },
+    {
+      "name": "Letitia Christian Tyler",
+      "aliases": [
+        "Letitia Christian",
+        "Letitia Tyler"
+      ],
+      "popularity": 27288,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Letitia Christian Tyler"
+    },
+    {
+      "name": "Sarah Yorke Jackson",
+      "aliases": [
+        "Sarah Jackson",
+        "Sarah Yorke"
+      ],
+      "popularity": 30707,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Sarah Yorke Jackson"
+    },
+    {
+      "name": "Mary Harrison McKee",
+      "aliases": [
+        "Mary McKee",
+        "Mary Scott Harrison",
+        "Mary Scott Harrison McKee",
+        "Mary Scott McKee"
+      ],
+      "popularity": 33318,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Mary Harrison McKee"
+    },
+    {
+      "name": "Emily Donelson",
+      "aliases": [
+        "Emily Tennessee Donelson"
+      ],
+      "popularity": 34935,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Emily Donelson"
+    },
+    {
+      "name": "Caroline Harrison",
+      "aliases": [
+        "Caroline Lavinia Harrison",
+        "Caroline Lavinia Scott",
+        "Caroline Lavinia Scott Harrison",
+        "Caroline Scott",
+        "Caroline Scott Harrison"
+      ],
+      "popularity": 35441,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Caroline Harrison"
+    },
+    {
+      "name": "Elizabeth Monroe",
+      "aliases": [
+        "Elizabeth Kortright",
+        "Elizabeth Kortright Monroe",
+        "Kortright"
+      ],
+      "popularity": 37131,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Elizabeth Monroe"
+    },
+    {
+      "name": "Rose Cleveland",
+      "aliases": [
+        "Libby Cleveland",
+        "Rose Elizabeth Cleveland",
+        "Rose Elizabeth ”Libby” Cleveland"
+      ],
+      "popularity": 38027,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Rose Cleveland"
+    },
+    {
+      "name": "Abigail Fillmore",
+      "aliases": [
+        "Abigail Powers Fillmore"
+      ],
+      "popularity": 38582,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Abigail Fillmore"
+    },
+    {
+      "name": "Eliza McCardle Johnson",
+      "aliases": [
+        "Eliza Johnson",
+        "Eliza McCardle"
+      ],
+      "popularity": 39383,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Eliza McCardle Johnson"
+    },
+    {
+      "name": "Lucy Webb Hayes",
+      "aliases": [
+        "Lucy Ware Hayes",
+        "Lucy Ware Webb",
+        "Lucy Ware Webb Hayes",
+        "Lucy Webb"
+      ],
+      "popularity": 41078,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Lucy Webb Hayes"
+    },
+    {
+      "name": "Mary Arthur McElroy",
+      "aliases": [
+        "Mary Arthur",
+        "Mary McElroy"
+      ],
+      "popularity": 43090,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Mary Arthur McElroy"
+    },
+    {
+      "name": "Julia Gardiner Tyler",
+      "aliases": [
+        "Julia Gardiner",
+        "Julia Tyler",
+        "Rose of Long Island"
+      ],
+      "popularity": 45849,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Julia Gardiner Tyler"
+    },
+    {
+      "name": "Anna Harrison",
+      "aliases": [
+        "Anna Symmes Harrison",
+        "Anna Tuthill Harrison"
+      ],
+      "popularity": 48514,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Anna Harrison"
+    },
+    {
+      "name": "Sarah Childress Polk",
+      "aliases": [
+        "Sarah Childress",
+        "Sarah Polk"
+      ],
+      "popularity": 50398,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Sarah Childress Polk"
+    },
+    {
+      "name": "Jane Pierce",
+      "aliases": [
+        "Jane Appleton",
+        "Jane Appleton Pierce",
+        "Jane Means Appleton Pierce",
+        "Jane Means Pierce"
+      ],
+      "popularity": 53738,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Jane Pierce"
+    },
+    {
+      "name": "Florence Harding",
+      "aliases": [
+        "Florence Kling",
+        "Florence Kling Harding",
+        "Florence Mabel \"Flossie\" Kling Harding",
+        "Florence Mabel Harding"
+      ],
+      "popularity": 54155,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Florence Harding"
+    },
+    {
+      "name": "Harriet Lane",
+      "aliases": [
+        "Harriet Johnston",
+        "Harriet Lane Johnston",
+        "Harriet Rebecca Lane",
+        "Harriet Rebecca Lane Johnston"
+      ],
+      "popularity": 59824,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Harriet Lane"
+    },
+    {
+      "name": "Margaret Woodrow Wilson",
+      "aliases": [
+        "Margaret Wilson"
+      ],
+      "popularity": 62685,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Margaret Woodrow Wilson"
+    },
+    {
+      "name": "Helen Herron Taft",
+      "aliases": [
+        "Helen Herron",
+        "Helen Louise Herron",
+        "Helen Louise Taft",
+        "Helen Taft",
+        "Nellie Herron",
+        "Nellie Taft"
+      ],
+      "popularity": 63165,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Helen Herron Taft"
+    },
+    {
+      "name": "Julia Grant",
+      "aliases": [
+        "Julia Boggs Grant",
+        "Julia Dent",
+        "Julia Dent Grant"
+      ],
+      "popularity": 67747,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Julia Grant"
+    },
+    {
+      "name": "Ellen Axson Wilson",
+      "aliases": [
+        "Ellen Axson",
+        "Ellen Louise Axson",
+        "Ellen Louise Axson Wilson",
+        "Ellen Louise Wilson",
+        "Ellen Wilson",
+        "Mrs. Woodrow Wilson"
+      ],
+      "popularity": 69229,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Ellen Axson Wilson"
+    },
+    {
+      "name": "Ida Saxton McKinley",
+      "aliases": [
+        "Ida McKinley",
+        "Ida Saxton",
+        "Mrs. William McKinley"
+      ],
+      "popularity": 73679,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Ida Saxton McKinley"
+    },
+    {
+      "name": "Margaret Taylor",
+      "aliases": [
+        "Margaret Mackall \"Peggy\" Smith Taylor",
+        "Margaret Mackall Smith",
+        "Margaret Smith",
+        "Margaret Smith Taylor",
+        "Peggy Smith",
+        "Peggy Taylor"
+      ],
+      "popularity": 97369,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Margaret Taylor"
+    },
+    {
+      "name": "Bess Truman",
+      "aliases": [
+        "Bess Wallace",
+        "Bess Wallace Truman",
+        "Elizabeth Truman",
+        "Elizabeth Virginia Truman",
+        "Elizabeth Virginia Wallace",
+        "Elizabeth Virginia Wallace Truman",
+        "Elizabeth Wallace",
+        "Elizabeth Wallace Truman"
+      ],
+      "popularity": 100342,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Bess Truman"
+    },
+    {
+      "name": "Lou Henry Hoover",
+      "aliases": [
+        "Lou Hoover"
+      ],
+      "popularity": 120201,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Lou Henry Hoover"
+    },
+    {
+      "name": "Edith Roosevelt",
+      "aliases": [
+        "Edie Carow",
+        "Edie Roosevelt",
+        "Edith Carow",
+        "Edith Carow Roosevelt",
+        "Edith Kermit Carow Roosevelt",
+        "Edith Kermit Roosevelt"
+      ],
+      "popularity": 137783,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Edith Roosevelt"
+    },
+    {
+      "name": "Grace Coolidge",
+      "aliases": [
+        "Grace Anna Coolidge",
+        "Grace Anna Goodhue",
+        "Grace Goodhue",
+        "Grace Goodhue Coolidge"
+      ],
+      "popularity": 143558,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Grace Coolidge"
+    },
+    {
+      "name": "Edith Wilson",
+      "aliases": [
+        "Edith Bolling Galt",
+        "Edith Bolling Galt Wilson",
+        "Edith Bolling Wilson"
+      ],
+      "popularity": 148959,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Edith Wilson"
+    },
+    {
+      "name": "Martha Jefferson Randolph",
+      "aliases": [
+        "Martha Jefferson"
+      ],
+      "popularity": 150739,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Martha Jefferson Randolph"
+    },
+    {
+      "name": "Dolley Madison",
+      "aliases": [
+        "Dolley Payne Todd Madison",
+        "Dolley Todd",
+        "Dolley Todd Madison",
+        "Dolly Madison",
+        "Dolly P. Madison"
+      ],
+      "popularity": 167142,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Dolley Madison"
+    },
+    {
+      "name": "Rosalynn Carter",
+      "aliases": [
+        "Eleanor Carter",
+        "Eleanor Rosalynn Carter",
+        "Eleanor Rosalynn Smith",
+        "Eleanor Rosalynn Smith Carter",
+        "Eleanor Smith",
+        "Rosalynn Smith",
+        "Rosalynn Smith Carter"
+      ],
+      "popularity": 188137,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Rosalynn Carter"
+    },
+    {
+      "name": "Louisa Adams",
+      "aliases": [
+        "Louisa Catherine Adams",
+        "Louisa Catherine Johnson Adams",
+        "Louisa Johnson",
+        "Louisa Johnson Adams"
+      ],
+      "popularity": 199399,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Louisa Adams"
+    },
+    {
+      "name": "Frances Cleveland",
+      "aliases": [
+        "Frances Clara Cleveland Preston",
+        "Frances Clara Folsom",
+        "Frances Clara Folsom Cleveland",
+        "Frances Clara Folsom Cleveland Preston",
+        "Frances Cleveland Preston",
+        "Frances F. Cleveland",
+        "Frances Folsom Cleveland",
+        "Frances Folsom Cleveland Preston",
+        "Frances Preston",
+        "Frank Clara Folsom",
+        "Mrs. Grover Cleveland",
+        "Mrs. Thomas Jex Preston"
+      ],
+      "popularity": 210052,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Frances Cleveland"
+    },
+    {
+      "name": "Betty Ford",
+      "aliases": [
+        "Betty Bloomer",
+        "Betty Bloomer Ford",
+        "Elizabeth Ann Bloomer",
+        "Elizabeth Ann Bloomer Warren Ford",
+        "Elizabeth Ann Ford",
+        "Elizabeth Anne Blommer Ford",
+        "Elizabeth Anne Bloomer Ford",
+        "Elizabeth Anne Ford",
+        "Elizabeth Bloomer",
+        "Elizabeth Bloomer Ford",
+        "Elizabeth Ford"
+      ],
+      "popularity": 242632,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Betty Ford"
+    },
+    {
+      "name": "Mamie Eisenhower",
+      "aliases": [
+        "Mamie Doud",
+        "Mamie Doud Eisenhower",
+        "Mamie Geneva Doud",
+        "Mamie Geneva Doud Eisenhower"
+      ],
+      "popularity": 246943,
+      "rarity": 0.288,
+      "tier": 2,
+      "wiki": "Mamie Eisenhower"
+    },
+    {
+      "name": "Pat Nixon",
+      "aliases": [
+        "Pat Ryan",
+        "Patricia Ryan Nixon",
+        "Patricia Thelma Ryan",
+        "Thelma Catherine \"Pat\" Ryan Nixon",
+        "Thelma Catherine Patricia Ryan Nixon",
+        "Thelma Catherine Ryan Nixon",
+        "Thelma \"Pat\" Ryan Nixon",
+        "Thelma Ryan"
+      ],
+      "popularity": 284131,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Pat Nixon"
+    },
+    {
+      "name": "Abigail Adams",
+      "aliases": [
+        "Abigail Smith"
+      ],
+      "popularity": 374761,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Abigail Adams"
+    },
+    {
+      "name": "Lady Bird Johnson",
+      "aliases": [
+        "Claudia Johnson",
+        "Claudia Taylor",
+        "Claudia Taylor Johnson",
+        "Lady Bird",
+        "Lady Bird Taylor Johnson",
+        "Mrs. Claudia T. Johnson"
+      ],
+      "popularity": 472757,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Lady Bird Johnson"
+    },
+    {
+      "name": "Martha Washington",
+      "aliases": [
+        "Martha Custis",
+        "Martha Dandridge"
+      ],
+      "popularity": 478892,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Martha Washington"
+    },
+    {
+      "name": "Laura Bush",
+      "aliases": [
+        "Laura Lane Welch",
+        "Laura Lane Welch Bush",
+        "Laura Welch",
+        "Laura Welch Bush"
+      ],
+      "popularity": 487729,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Laura Bush"
+    },
+    {
+      "name": "Nancy Reagan",
+      "aliases": [
+        "Anne Frances Robbins",
+        "Anne Robbins",
+        "Nancy Davis",
+        "Nancy Davis Reagan",
+        "Nancy Robbins"
+      ],
+      "popularity": 503080,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Nancy Reagan"
+    },
+    {
+      "name": "Barbara Bush",
+      "aliases": [
+        "Barbara Pierce",
+        "Barbara Pierce Bush"
+      ],
+      "popularity": 520999,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Barbara Bush"
+    },
+    {
+      "name": "Mary Todd Lincoln",
+      "aliases": [
+        "Mary Ann Lincoln",
+        "Mary Ann Todd",
+        "Mary Ann Todd Lincoln",
+        "Mary Todd"
+      ],
+      "popularity": 667464,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Mary Todd Lincoln"
+    },
+    {
+      "name": "Lucretia Garfield",
+      "aliases": [
+        "Crete Garfield",
+        "Crete Rudolph",
+        "Lucretia R. Garfield",
+        "Lucretia Rudolph",
+        "Lucretia Rudolph Garfield"
+      ],
+      "popularity": 693908,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Lucretia Garfield"
+    },
+    {
+      "name": "Jill Biden",
+      "aliases": [
+        "Dr. Biden",
+        "Dr. Jill Biden",
+        "First Lady Jill Biden",
+        "FLOTUS 46",
+        "FLOTUS Biden",
+        "FLOTUS46",
+        "Jill Jacobs-Biden",
+        "Jill Stevenson",
+        "Jill Tracy Biden",
+        "Jill Tracy Jacobs Biden",
+        "Jill Tracy Stevenson"
+      ],
+      "popularity": 727757,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Jill Biden"
+    },
+    {
+      "name": "Eleanor Roosevelt",
+      "aliases": [
+        "Anna Eleanor Roosevelt",
+        "Anna Eleanor Roosevelt Roosevelt",
+        "Anna Roosevelt",
+        "Elaenore Roosevelt",
+        "Eleanor Roosevelt Roosevelt",
+        "First Lady of the world"
+      ],
+      "popularity": 1001122,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Eleanor Roosevelt"
+    },
+    {
+      "name": "Michelle Obama",
+      "aliases": [],
+      "popularity": 1208374,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Michelle Obama"
+    },
+    {
+      "name": "Hillary Clinton",
+      "aliases": [],
+      "popularity": 1859518,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Hillary Clinton"
+    },
+    {
+      "name": "Melania Trump",
+      "aliases": [
+        "Melania",
+        "Melania Knauss",
+        "Melania Knauss-Trump"
+      ],
+      "popularity": 4771224,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Melania Trump"
+    },
+    {
+      "name": "Jacqueline Kennedy Onassis",
+      "aliases": [
+        "Jackie Bouvier Kennedy",
+        "Jackie Bouvier Kennedy Onassis",
+        "Jackie Kennedy Onassis",
+        "Jackie-O",
+        "Jacqueline Bouvier Kennedy Onassis",
+        "Jacqueline Bouvier Onassis",
+        "Jacqueline Lee Bouvier Kennedy",
+        "Jacqueline Lee Kennedy",
+        "Jacqueline Lee Kennedy Onassis"
+      ],
+      "popularity": 5107653,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Jacqueline Kennedy Onassis"
+    }
+  ]
+}

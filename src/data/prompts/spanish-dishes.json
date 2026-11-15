@@ -1,0 +1,208 @@
+{
+  "id": "spanish-dishes",
+  "slug": "spanish-dishes",
+  "category": "food",
+  "question": "Name a Spanish dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Judías de El Barco de Ávila",
+      "aliases": [],
+      "popularity": 699,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Judías de El Barco de Ávila"
+    },
+    {
+      "name": "Freginat",
+      "aliases": [],
+      "popularity": 841,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Freginat"
+    },
+    {
+      "name": "Conejo en salmorejo",
+      "aliases": [],
+      "popularity": 2978,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Conejo en salmorejo"
+    },
+    {
+      "name": "Hornado",
+      "aliases": [],
+      "popularity": 3689,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Hornado"
+    },
+    {
+      "name": "Lacón",
+      "aliases": [
+        "Lacón Gallego"
+      ],
+      "popularity": 3840,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Lacón"
+    },
+    {
+      "name": "Esqueixada",
+      "aliases": [],
+      "popularity": 4313,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Esqueixada"
+    },
+    {
+      "name": "Esgarrat",
+      "aliases": [],
+      "popularity": 4397,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Esgarrat"
+    },
+    {
+      "name": "Carcamusas",
+      "aliases": [
+        "carcamusa"
+      ],
+      "popularity": 5194,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Carcamusas"
+    },
+    {
+      "name": "Paelya",
+      "aliases": [],
+      "popularity": 8639,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Paelya"
+    },
+    {
+      "name": "Gachas",
+      "aliases": [],
+      "popularity": 9252,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Gachas"
+    },
+    {
+      "name": "Cocido",
+      "aliases": [
+        "cozido"
+      ],
+      "popularity": 12070,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Cocido"
+    },
+    {
+      "name": "Puchero",
+      "aliases": [],
+      "popularity": 13578,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Puchero"
+    },
+    {
+      "name": "Caldo galego",
+      "aliases": [],
+      "popularity": 13790,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Caldo galego"
+    },
+    {
+      "name": "Callos a la Madrileña",
+      "aliases": [],
+      "popularity": 14062,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Callos a la Madrileña"
+    },
+    {
+      "name": "Moros y Cristianos",
+      "aliases": [
+        "Moros y Cristianos (dish)"
+      ],
+      "popularity": 14722,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Moros y Cristianos (dish)"
+    },
+    {
+      "name": "Chistorra",
+      "aliases": [
+        "txistorra"
+      ],
+      "popularity": 17205,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Chistorra"
+    },
+    {
+      "name": "Pisto",
+      "aliases": [],
+      "popularity": 19299,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Pisto"
+    },
+    {
+      "name": "Tarta de Santiago",
+      "aliases": [],
+      "popularity": 19772,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Tarta de Santiago"
+    },
+    {
+      "name": "Fabada asturiana",
+      "aliases": [],
+      "popularity": 21338,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Fabada asturiana"
+    },
+    {
+      "name": "Gofio",
+      "aliases": [
+        "cofio"
+      ],
+      "popularity": 25154,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Gofio"
+    },
+    {
+      "name": "Fideuà",
+      "aliases": [],
+      "popularity": 37185,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Fideuà"
+    },
+    {
+      "name": "Migas",
+      "aliases": [],
+      "popularity": 52725,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Migas"
+    },
+    {
+      "name": "Turrón",
+      "aliases": [
+        "torró",
+        "torrone"
+      ],
+      "popularity": 74826,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Turrón"
+    }
+  ]
+}

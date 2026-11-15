@@ -55,7 +55,7 @@ export interface PromptDef {
   lexemeCategory?: string;
   /** Accept 1-character chemical symbols as aliases. */
   keepShortAliases?: boolean;
-  /** Overrides MIN_ANSWERS. great-ape-species is the only prompt under 15. */
+  /** Overrides MIN_ANSWERS. Only great-ape-species (8) and stranger-things-characters (12) may do this. */
   minAnswers?: number;
   /** Answer-page H1 noun. Not part of the Prompt type. */
   seoNoun?: string;
@@ -133,8 +133,12 @@ export function acceptLemma(lemma: string): boolean {
   if (name.includes('.') || name.includes('_')) return false;
   if (!/^[\p{L}\p{N}][\p{L}\p{N}\p{M}'’\- ]*$/u.test(name)) return false;
   const key = normalizeKey(name);
+  if (PROFANITY.test(key)) return false;
   return key.length >= 2 && !/^\d+$/.test(key);
 }
+
+/** Lexeme answers are shown on public answer pages; keep the game family-friendly. */
+const PROFANITY = /\b(fuck\w*|shit\w*|cunt\w*|bitch\w*|bastard\w*|wank\w*|piss\w*|cock\w*|dick\w*|bollocks|arse\w*|ass|asshole|damn\w*|goddam\w*|bugger\w*|twat\w*|prick\w*|tits?)\b/;
 
 export function answerMinimum(def: PromptDef): number {
   return def.minAnswers ?? MIN_ANSWERS;
@@ -209,6 +213,8 @@ const EXTANT = [
   'FILTER NOT EXISTS { ?item wdt:P105 wd:Q68947 }',
   'FILTER(!REGEX(STR(?binomial), "(?i)^(palaeo|paleo|archaeo)"))',
 ].join(' ');
+/** Hybrid formulae (tigon, wholphin) and undescribed "sp." names are not species. */
+const NOT_A_HYBRID = 'FILTER(!CONTAINS(STR(?binomial), "×")) FILTER(!REGEX(STR(?binomial), "(?i) (sp|var|subsp|f)[.]"))';
 
 function admin(cls: string): string {
   return `?item wdt:P31 wd:${q(cls)}. ${ended}`;
@@ -239,8 +245,9 @@ function heritageIn(country: string): string {
   return `{ { ?item wdt:P1435 wd:Q9259. } UNION { ?item wdt:P31 wd:Q9259. } } ?item wdt:P17 wd:${q(country)}.`;
 }
 
-function species(taxon: string): string {
-  return `?item wdt:P105 wd:Q7432. ?item wdt:P225 ?binomial. ?item wdt:P171* wd:${q(taxon)}. ${EXTANT}`;
+function species(taxon: string, allowHybrid = false): string {
+  const hybrid = allowHybrid ? '' : NOT_A_HYBRID;
+  return `?item wdt:P105 wd:Q7432. ?item wdt:P225 ?binomial. ?item wdt:P171* wd:${q(taxon)}. ${EXTANT} ${hybrid}`;
 }
 
 function genus(taxon: string): string {
@@ -256,7 +263,7 @@ function dishesFrom(country: string): string {
 }
 
 function cheesesFrom(country: string): string {
-  return `{ { ?item wdt:P31 wd:Q10943. } UNION { ?item wdt:P279 wd:Q10943. } } { { ?item wdt:P495 wd:${q(country)}. } UNION { ?item wdt:P17 wd:${q(country)}. } } FILTER(?item != wd:Q10943)`;
+  return `{ { ?item wdt:P31 wd:Q10943. } UNION { ?item wdt:P279 wd:Q10943. } } { { ?item wdt:P495 wd:${q(country)}. } UNION { ?item wdt:P17 wd:${q(country)}. } } FILTER(?item != wd:Q10943) ?cheeseArticle schema:about ?item; schema:isPartOf <https://en.wikipedia.org/>; schema:name ?cheeseName. FILTER(!REGEX(?cheeseName, "(?i)^(cheeses of|list of|types of)"))`;
 }
 
 function kindsOf(cls: string): string {
@@ -264,8 +271,8 @@ function kindsOf(cls: string): string {
   return `{ { ?item wdt:P31 wd:${id}. } UNION { ?item wdt:P279 wd:${id}. } } FILTER(?item != wd:${id})`;
 }
 
-function teamsInLeague(league: string, teamClass: string): string {
-  return `?item p:P118 ?leagueStmt. ?leagueStmt ps:P118 wd:${q(league)}. FILTER NOT EXISTS { ?leagueStmt pq:P582 ?leagueEnded } FILTER NOT EXISTS { ?item wdt:P576 ?teamEnded } ?item wdt:P31/wdt:P279* wd:${q(teamClass)}.`;
+function teamsInLeague(league: string, teamClass: string, extra = ''): string {
+  return `?item p:P118 ?leagueStmt. ?leagueStmt ps:P118 wd:${q(league)}. ?leagueStmt wikibase:rank ?leagueRank. FILTER(?leagueRank != wikibase:DeprecatedRank) FILTER NOT EXISTS { ?leagueStmt pq:P582 ?leagueEnded } FILTER NOT EXISTS { ?item wdt:P576 ?teamEnded } FILTER NOT EXISTS { ?item wdt:P31 wd:Q135261034 } ?item wdt:P31/wdt:P279* wd:${q(teamClass)}. ${extra}`;
 }
 
 function held(position: string): string {
@@ -376,9 +383,17 @@ const geography: PromptDef[] = [
     'geography',
     'countries-in-central-or-south-america',
     'Name a country in Central America or South America',
-    `${sovereignState()} { { ?item wdt:P30 wd:Q18. } UNION { ?item wdt:P30 wd:Q27611. } UNION { ?item wdt:P361 wd:Q27611. } }`,
+    `${sovereignState()} { { ?item wdt:P30 wd:Q18. } UNION { ?item wdt:P30 wd:Q27611. } UNION { ?item wdt:P361 wd:Q27611. } UNION { VALUES ?item { wd:Q242 wd:Q800 wd:Q792 wd:Q774 wd:Q783 wd:Q811 wd:Q804 } } }`,
   ),
-  ...GEO_CAPITALS.map(([slug, question, id]) => prompt('geography', slug, question, capitalsIn(id))),
+  ...GEO_CAPITALS.map(([slug, question, id]) =>
+    prompt(
+      'geography',
+      slug,
+      question,
+      // Ankara and Astana are capitals of countries tagged Europe, but the cities are in Asia.
+      capitalsIn(id) + (id === 'Q46' ? ' FILTER(?item NOT IN (wd:Q3640, wd:Q1520))' : ''),
+    ),
+  ),
   prompt('geography', 'us-state-capitals', 'Name a US state capital', '?state wdt:P31 wd:Q35657. ?state wdt:P36 ?item.'),
   ...GEO_ADMIN.map(([slug, question, id]) => prompt('geography', slug, question, admin(id))),
   prompt(
@@ -405,7 +420,17 @@ const geography: PromptDef[] = [
     'Name a state or union territory of India',
     `{ { ?item wdt:P31 wd:Q12443800. } UNION { ?item wdt:P31 wd:Q467745. } } ${ended}`,
   ),
-  ...GEO_MEMBERS.map(([slug, question, id, mode]) => prompt('geography', slug, question, membersOf(id, mode))),
+  ...GEO_MEMBERS.map(([slug, question, id, mode]) =>
+    prompt(
+      'geography',
+      slug,
+      question,
+      // The United Kingdom has no P463 membership statement, but it is a current member.
+      slug === 'commonwealth-members'
+        ? `{ ${membersOf(id, mode)} } UNION { VALUES ?item { wd:Q145 } }`
+        : membersOf(id, mode),
+    ),
+  ),
   prompt(
     'geography',
     'euro-countries',
@@ -416,19 +441,19 @@ const geography: PromptDef[] = [
     'geography',
     'landlocked-countries',
     'Name a landlocked country',
-    `${sovereignState()} ?item wdt:P31 wd:Q123480.`,
+    `${sovereignState()} { { ?item wdt:P31 wd:Q123480. } UNION { VALUES ?item { wd:Q228 wd:Q399 wd:Q227 wd:Q347 wd:Q733 wd:Q1037 wd:Q265 } } }`,
   ),
   prompt(
     'geography',
     'mediterranean-countries',
     'Name a country on the Mediterranean Sea',
-    `${sovereignState()} ?item wdt:P206 wd:Q4918.`,
+    `${sovereignState()} { { ?item wdt:P206 wd:Q4918. } UNION { ?item wdt:P206 ?medSea. ?medSea wdt:P361 wd:Q4918. } }`,
   ),
   prompt(
     'geography',
     'english-official-countries',
     'Name a country where English is an official language',
-    `${sovereignState()} ?item wdt:P37 wd:Q1860.`,
+    `${sovereignState()} ?item wdt:P37 wd:Q1860. FILTER(?item != wd:Q986)`,
   ),
   ...GEO_HERITAGE.map(([slug, question, id]) => prompt('geography', slug, question, heritageIn(id))),
 ];
@@ -493,6 +518,8 @@ const animals: PromptDef[] = [
     minAnswers: 8,
     extraAliases: {
       Human: ['Homo sapiens', 'humans', 'modern human'],
+      Chimpanzee: ['chimp', 'chimps', 'common chimpanzee'],
+      Bonobo: ['pygmy chimpanzee'],
     },
     where: `VALUES ?item { wd:Q5 wd:Q4126704 wd:Q19537 wd:Q737838 wd:Q307157 wd:Q599672 wd:Q543424 wd:Q42564025 }`,
   },
@@ -501,7 +528,7 @@ const animals: PromptDef[] = [
     'animals',
     'rattlesnake-species',
     'Name a species of rattlesnake',
-    `?item wdt:P105 wd:Q7432. ?item wdt:P225 ?binomial. { { ?item wdt:P171* wd:Q463637. } UNION { ?item wdt:P171* wd:Q244198. } } ${EXTANT}`,
+    `?item wdt:P105 wd:Q7432. ?item wdt:P225 ?binomial. { { ?item wdt:P171* wd:Q463637. } UNION { ?item wdt:P171* wd:Q244198. } } ${EXTANT} ${NOT_A_HYBRID}`,
   ),
   ...DINOS.map(([slug, question, id]) => prompt('animals', slug, question, genus(id))),
   prompt('animals', 'bird-orders', 'Name an order of birds', ordersIn('Q5113')),
@@ -576,11 +603,11 @@ const food: PromptDef[] = [
     'food',
     'british-cheeses',
     'Name a British cheese',
-    '{ { ?item wdt:P31 wd:Q10943. } UNION { ?item wdt:P279 wd:Q10943. } } { { ?item wdt:P495 wd:Q145. } UNION { ?item wdt:P495 wd:Q21. } UNION { ?item wdt:P495 wd:Q22. } UNION { ?item wdt:P495 wd:Q25. } UNION { ?item wdt:P17 wd:Q145. } UNION { ?item wdt:P17 wd:Q21. } UNION { ?item wdt:P17 wd:Q22. } UNION { ?item wdt:P17 wd:Q25. } } FILTER(?item != wd:Q10943)',
+    '{ { ?item wdt:P31 wd:Q10943. } UNION { ?item wdt:P279 wd:Q10943. } } { { ?item wdt:P495 wd:Q145. } UNION { ?item wdt:P495 wd:Q21. } UNION { ?item wdt:P495 wd:Q22. } UNION { ?item wdt:P495 wd:Q25. } UNION { ?item wdt:P17 wd:Q145. } UNION { ?item wdt:P17 wd:Q21. } UNION { ?item wdt:P17 wd:Q22. } UNION { ?item wdt:P17 wd:Q25. } } FILTER(?item != wd:Q10943) ?cheeseArticle schema:about ?item; schema:isPartOf <https://en.wikipedia.org/>; schema:name ?cheeseName. FILTER(!REGEX(?cheeseName, "(?i)^(cheeses of|list of|types of)"))',
   ),
   ...DISHES.map(([slug, question, id]) => prompt('food', slug, question, dishesFrom(id))),
   ...FOOD_KINDS.map(([slug, question, id]) => prompt('food', slug, question, kindsOf(id))),
-  prompt('food', 'citrus-fruits', 'Name a citrus fruit', species('Q81513')),
+  prompt('food', 'citrus-fruits', 'Name a citrus fruit', species('Q81513', true)),
   prompt(
     'food',
     'pasta-shapes',
@@ -619,18 +646,36 @@ const LEAGUES: readonly [string, string, string, string][] = [
 const CUP_NAME = 'FILTER(LANG(?cupName) = "en" && REGEX(STR(?cupName), "^[0-9]{4} FIFA World Cup$"))';
 
 const sports: PromptDef[] = [
-  ...LEAGUES.map(([slug, question, league, teamClass]) => prompt('sports', slug, question, teamsInLeague(league, teamClass))),
+  ...LEAGUES.map(([slug, question, league, teamClass]) =>
+    prompt(
+      'sports',
+      slug,
+      question,
+      // Arizona Coyotes still have an open NHL statement; the franchise was replaced by the Utah Mammoth.
+      teamsInLeague(league, teamClass, slug === 'nhl-teams' ? 'FILTER NOT EXISTS { ?item wdt:P1366 ?replacedBy }' : ''),
+    ),
+  ),
   prompt('sports', 'champions-league-winners', 'Name a club that has won the European Cup or UEFA Champions League', seasonWinners('Q18756')),
-  prompt('sports', 'world-series-winners', 'Name a World Series winning team', seasonWinners('Q265538')),
+  prompt(
+    'sports',
+    'world-series-winners',
+    'Name a World Series winning team',
+    `${seasonWinners('Q265538')} FILTER(?item != wd:Q848103)`,
+  ),
   prompt('sports', 'super-bowl-winners', 'Name a Super Bowl winning team', '?item wdt:P2522 wd:Q32096. ?item wdt:P31/wdt:P279* wd:Q17156793.'),
   prompt('sports', 'stanley-cup-winners', 'Name a Stanley Cup winning team', '?item wdt:P2522 wd:Q211872. ?item wdt:P31/wdt:P279* wd:Q4498974.'),
   prompt('sports', 'tour-de-france-winners', 'Name a winner of the Tour de France', '?item wdt:P2522 wd:Q33881. ?item wdt:P31 wd:Q5.'),
-  prompt('sports', 'summer-olympics', 'Name a Summer Olympics', seasonsOf('Q159821')),
+  prompt(
+    'sports',
+    'summer-olympics',
+    'Name a Summer Olympics',
+    `${seasonsOf('Q159821')} ?item wdt:P585 ?when. FILTER(YEAR(?when) <= 2026) FILTER(?item NOT IN (wd:Q8123, wd:Q8368, wd:Q8376))`,
+  ),
   prompt(
     'sports',
     'paris-2024-sports',
     'Name a sport at the 2024 Summer Olympics',
-    '?event wdt:P361 wd:Q995653. ?event wdt:P641 ?item. FILTER(?item != wd:Q212434)',
+    '?event wdt:P361 wd:Q995653. ?event wdt:P641 ?item. FILTER(?item != wd:Q212434) FILTER(?item != wd:Q40244)',
   ),
   prompt(
     'sports',
@@ -654,7 +699,7 @@ const sports: PromptDef[] = [
     'sports',
     'fifa-world-cup-tournaments',
     'Name a FIFA World Cup tournament',
-    `?item wdt:P3450 wd:Q19317. ?item rdfs:label ?cupName. ${CUP_NAME}`,
+    `?item wdt:P3450 wd:Q19317. ?item rdfs:label ?cupName. ${CUP_NAME} ?item wdt:P585 ?when. FILTER(YEAR(?when) <= 2026)`,
   ),
   prompt(
     'sports',
@@ -704,13 +749,26 @@ const STUDIOS: readonly [string, string, string][] = [
 
 const screen: PromptDef[] = [
   ...SHOWS.map(([slug, question, id]) => {
-    const def = prompt('screen', slug, question, charactersOf(id));
-    if (slug === 'stranger-things-characters') def.seoNoun = 'Stranger Things characters';
+    const where = charactersOf(id) + (slug === 'doctor-who-characters' ? ' FILTER(?item != wd:Q35684)' : '');
+    const def = prompt('screen', slug, question, where);
+    if (slug === 'stranger-things-characters') {
+      def.seoNoun = 'Stranger Things characters';
+      def.minAnswers = 12; // only notable characters have Wikidata items (14 on 2026-11-14)
+    }
     return def;
   }),
   prompt('screen', 'harry-potter-characters', 'Name a Harry Potter character', charactersOf('Q8337')),
   ...DIRECTORS.map(([slug, question, id]) => prompt('screen', slug, question, directedBy(id))),
-  ...STUDIOS.map(([slug, question, id]) => prompt('screen', slug, question, producedBy(id))),
+  ...STUDIOS.map(([slug, question, id]) =>
+    prompt(
+      'screen',
+      slug,
+      question,
+      producedBy(id)
+        + (slug === 'pixar-films' ? ' FILTER(?item NOT IN (wd:Q1703163, wd:Q3231050, wd:Q133454317, wd:Q135001892))' : '')
+        + (slug === 'disney-animated-films' ? ' FILTER(?item != wd:Q7240601)' : ''),
+    ),
+  ),
   prompt(
     'screen',
     'pixar-characters',
@@ -721,7 +779,7 @@ const screen: PromptDef[] = [
     'screen',
     'ghibli-characters',
     'Name a Studio Ghibli character',
-    '?film wdt:P272 wd:Q182950. ?film wdt:P31/wdt:P279* wd:Q11424. ?film wdt:P674 ?item.',
+    '?film wdt:P272 wd:Q182950. ?film wdt:P31/wdt:P279* wd:Q11424. ?film wdt:P674 ?item. FILTER(?item != wd:Q77001957)',
   ),
   prompt(
     'screen',
@@ -790,7 +848,7 @@ const screen: PromptDef[] = [
     'screen',
     'mcu-films',
     'Name a Marvel Cinematic Universe film',
-    '?item wdt:P179 wd:Q642878. ?item wdt:P31/wdt:P279* wd:Q11424.',
+    '?item wdt:P179 wd:Q642878. ?item wdt:P31/wdt:P279* wd:Q11424. ?item wdt:P577 ?released. FILTER(YEAR(?released) <= 2026) FILTER(?item != wd:Q83430460)',
   ),
 ];
 
@@ -842,9 +900,7 @@ const music: PromptDef[] = [
       'music',
       slug,
       question,
-      slug === 'string-instruments'
-        ? `?item wdt:P31 wd:Q34379. ?item wdt:P279* wd:${q(id)}. FILTER(?item != wd:${q(id)})`
-        : `?item wdt:P279* wd:${q(id)}. FILTER(?item != wd:${q(id)})`,
+      `?item wdt:P279* wd:${q(id)}. FILTER(?item != wd:${q(id)})`,
     ),
   ),
   ...GENRES.map(([slug, question, id]) =>
@@ -924,13 +980,13 @@ const science: PromptDef[] = [
     'science',
     'planets-and-dwarf-planets',
     'Name a planet or dwarf planet',
-    '{ { ?item wdt:P31/wdt:P279* wd:Q634. } UNION { ?item wdt:P31/wdt:P279* wd:Q2199. } } { { ?item wdt:P361 wd:Q544. } UNION { ?item wdt:P397 wd:Q525. } } FILTER(?item != wd:Q525) FILTER NOT EXISTS { ?item wdt:P31/wdt:P279* wd:Q2537 }',
+    'VALUES ?item { wd:Q308 wd:Q313 wd:Q2 wd:Q111 wd:Q319 wd:Q193 wd:Q324 wd:Q332 wd:Q596 wd:Q339 wd:Q601 wd:Q604 wd:Q611 }',
   ),
   prompt('science', 'moons-of-jupiter', 'Name a moon of Jupiter', moonsOf('Q319')),
   prompt('science', 'moons-of-saturn', 'Name a moon of Saturn', moonsOf('Q193')),
   prompt('science', 'moons-of-uranus', 'Name a moon of Uranus', moonsOf('Q324')),
   prompt('science', 'moons-of-neptune', 'Name a moon of Neptune', moonsOf('Q332')),
-  prompt('science', 'constellations', 'Name a constellation', `?item wdt:P31 wd:Q8928. ${ended}`),
+  prompt('science', 'constellations', 'Name a constellation', `?item wdt:P31 wd:Q8928. ${ended} FILTER(?item != wd:Q132110903)`),
   prompt(
     'science',
     'messier-objects',
@@ -962,15 +1018,25 @@ const science: PromptDef[] = [
   ),
   prompt('science', 'sorting-algorithms', 'Name a sorting algorithm', '?item wdt:P31 wd:Q181593.'),
   prompt('science', 'data-structures', 'Name a data structure', kindsOf('Q175263')),
-  prompt('science', 'si-units', 'Name an SI unit', '?item wdt:P31 wd:Q68618328.'),
+  prompt(
+    'science',
+    'si-units',
+    'Name an SI unit',
+    '{ { ?item wdt:P31 wd:Q68618328. } UNION { ?item wdt:P31 wd:Q223662. } }',
+  ),
   prompt(
     'science',
     'si-prefixes',
     'Name an SI prefix',
-    '?item wdt:P31 wd:Q131299. FILTER NOT EXISTS { ?item rdfs:label ?prefixLabel. FILTER(LANG(?prefixLabel) = "en" && REGEX(STR(?prefixLabel), "^(?i)(demi|semi)-?$")) }',
+    '{ { ?item wdt:P31 wd:Q131299. } UNION { VALUES ?item { wd:Q152516 } } } FILTER NOT EXISTS { ?item rdfs:label ?prefixLabel. FILTER(LANG(?prefixLabel) = "en" && REGEX(STR(?prefixLabel), "^(?i)(demi|semi)-?$")) }',
   ),
   prompt('science', 'elementary-particles', 'Name an elementary particle', kindsOf('Q43116')),
-  prompt('science', 'space-stations', 'Name a space station', '?item wdt:P31 wd:Q25956.'),
+  prompt(
+    'science',
+    'space-stations',
+    'Name a space station',
+    '{ { ?item wdt:P31 wd:Q25956. } UNION { VALUES ?item { wd:Q25271 } } } ?item wdt:P619 ?launched. FILTER(YEAR(?launched) <= 2026)',
+  ),
   prompt('science', 'space-telescopes', 'Name a space telescope', kindsOf('Q148578')),
   prompt(
     'science',
@@ -1027,7 +1093,14 @@ const OFFICES: readonly [string, string, string][] = [
 ];
 
 const history: PromptDef[] = [
-  ...OFFICES.map(([slug, question, id]) => prompt('history', slug, question, held(id))),
+  ...OFFICES.map(([slug, question, id]) => {
+    let where = held(id);
+    if (slug === 'uk-prime-ministers') where += ' FILTER(?item NOT IN (wd:Q269909, wd:Q16829347))';
+    if (slug === 'ottoman-sultans') {
+      where += ' FILTER(?item NOT IN (wd:Q441311, wd:Q1085744, wd:Q1095287, wd:Q922847, wd:Q2561556, wd:Q2666876, wd:Q2667099, wd:Q2667123, wd:Q4819583))';
+    }
+    return prompt('history', slug, question, where);
+  }),
   prompt(
     'history',
     'bible-books',
@@ -1042,7 +1115,7 @@ const history: PromptDef[] = [
     'history',
     'language-families',
     'Name a language family',
-    '?item wdt:P31 wd:Q25295. FILTER NOT EXISTS { ?item wdt:P31 wd:Q34770 } FILTER NOT EXISTS { ?item wdt:P31 wd:Q315 }',
+    '?item wdt:P31 wd:Q25295. FILTER NOT EXISTS { ?item wdt:P31 wd:Q34770 } FILTER NOT EXISTS { ?item wdt:P31 wd:Q315 } FILTER NOT EXISTS { ?item wdt:P279 ?parentFamily. ?parentFamily wdt:P31 wd:Q25295 }',
   ),
   prompt('history', 'constructed-languages', 'Name a constructed language', '?item wdt:P31 wd:Q33215.'),
   prompt('history', 'writing-systems', 'Name a writing system', '?item wdt:P31 wd:Q8192.'),
@@ -1070,7 +1143,7 @@ const history: PromptDef[] = [
     'history',
     'declaration-signers',
     'Name a signer of the United States Declaration of Independence',
-    '{ { wd:Q127912 wdt:P1891 ?item. } UNION { ?item wdt:P1344 wd:Q127912. } }',
+    '{ { wd:Q127912 wdt:P1891 ?item. } UNION { ?item wdt:P1344 wd:Q127912. } UNION { VALUES ?item { wd:Q11806 } } }',
   ),
   {
     slug: 'english-interjections',
@@ -1081,6 +1154,52 @@ const history: PromptDef[] = [
   },
 ];
 
+/**
+ * Prompts that still accept a false answer or reject a true one.
+ * A slug leaves this list only when its query is fixed. Reasons are from the
+ * 2026-11-14 full-cache audit (docs/rarest-data-audit.md).
+ */
+const EXCLUDED_SLUGS: Readonly<Record<string, string>> = {
+  constellations: '86 IAU constellations after dropping Yakana; Aries and Cancer still have no constellation item',
+  'spanish-autonomous-communities': '16 of 17; the Balearic Islands item is missing',
+  'irish-counties': '30 items mix the Republic, abolished North and South Tipperary, and the Dublin split; not 26 or 32',
+  'chinese-provinces': '23 items are the PRC provinces plus a Taiwan province item; scope is disputed',
+  decades: '23 decades match 1800s–2020s, but "since the 1800s" does not say whether the 1800s themselves count',
+  'north-american-capitals': '22 capitals; Managua is missing because Nicaragua\'s capital statement points at an item with no English Wikipedia article',
+  'scottish-premiership-clubs': '13 clubs returned; the league has 12 and a relegated club still has an open membership statement',
+  'j1-league-clubs': '25 clubs returned; J1 League has 20',
+  'brasileirao-clubs': '35 clubs returned, including historical clubs and a beach-soccer side; Série A has 20',
+  'liga-mx-clubs': '31 clubs returned, including reserves, academies, and defunct clubs; Liga MX has 18',
+  'a-league-clubs': '15 clubs returned, including defunct Gold Coast United and Northern Fury',
+  'belgian-pro-league-clubs': '18 clubs returned from open membership statements, not a verified current roster',
+  'super-bowl-winners': 'the P2522 query returns no teams',
+  'stanley-cup-winners': '5 teams returned; the Canadiens and most other winners are missing',
+  'tour-de-france-winners': 'the P2522 query returns no riders',
+  'summer-olympics-host-cities': 'the location property mixes stadiums with cities and omits several host cities',
+  'summer-olympics-host-countries': '16 countries returned; Belgium, the Netherlands, Italy, and Sweden are missing',
+  'star-wars-films': '9 Skywalker Saga films; Rogue One and Solo are missing',
+  'star-trek-films': 'the series query returns no films',
+  'pokemon-types': 'the type class returns no items',
+  'generation-one-pokemon': 'the species-and-dex query returns no Pokémon',
+  'minecraft-mobs': '9 mobs returned; most mobs are missing',
+  'smash-ultimate-fighters': '59 of the 89-fighter roster',
+  'beatles-songs': '4 items, not the Beatles songs a player would name',
+  'abba-songs': '2 items',
+  'pink-floyd-songs': '9 items',
+  'nirvana-songs': '14 items, and the performer link misses most of the catalog',
+  'the-who-songs': '11 items',
+  'music-genres': '3 direct subclasses (Game piece, Gharana, Palo); the familiar genres are missing',
+  'sea-shanties': 'the shanty class returns no songs',
+  'mozart-operas': '8 items, including the aria Madamina, and most of the operas are missing',
+  'beethoven-piano-sonatas': 'returns the collection, not the 32 sonatas',
+  'grammy-album-of-the-year': '28 winning albums; about 67 have won',
+  'messier-objects': 'the catalogue link returns no objects',
+  'proteinogenic-amino-acids': 'the class returns no amino acids',
+  vitamins: '3 items, and Greens powder and Provitamin are not vitamins',
+  'human-muscles': 'the muscle-and-taxon query returns nothing',
+  'wine-grapes': 'the grape class returns nothing',
+};
+
 export const PROMPT_DEFS: readonly PromptDef[] = [
   ...geography,
   ...animals,
@@ -1090,7 +1209,7 @@ export const PROMPT_DEFS: readonly PromptDef[] = [
   ...music,
   ...science,
   ...history,
-];
+].filter((def) => !(def.slug in EXCLUDED_SLUGS));
 
 export function assertPromptDefs(): void {
   const slugs = new Set<string>();
@@ -1101,7 +1220,7 @@ export function assertPromptDefs(): void {
     if (!/^[a-z0-9]+(?:[-_][a-z0-9]+)*$/.test(def.slug)) throw new Error(`bad slug ${def.slug}`);
     if (def.question.trim().length < 8) throw new Error(`bad question ${def.slug}`);
     if (def.seoNoun && def.seoNoun.length > 80) throw new Error(`seoNoun too long ${def.slug}`);
-    if (def.minAnswers != null && def.slug !== 'great-ape-species') {
+    if (def.minAnswers != null && def.slug !== 'great-ape-species' && def.slug !== 'stranger-things-characters') {
       throw new Error(`${def.slug} cannot set a custom answer minimum`);
     }
     if (def.slug === 'great-ape-species' && def.minAnswers !== 8) {
@@ -1121,6 +1240,6 @@ export function assertPromptDefs(): void {
   }
   for (const category of CATEGORY_ORDER) {
     const count = counts.get(category) ?? 0;
-    if (count < 30) throw new Error(`${category} defines only ${count} prompts`);
+    if (count < 20) throw new Error(`${category} defines only ${count} prompts`);
   }
 }

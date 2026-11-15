@@ -1,0 +1,750 @@
+{
+  "id": "pixar-characters",
+  "slug": "pixar-characters",
+  "category": "screen",
+  "question": "Name a Pixar character",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Princess Atta",
+      "aliases": [
+        "Atta"
+      ],
+      "popularity": 23,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Princess Atta"
+    },
+    {
+      "name": "Molly",
+      "aliases": [
+        "Molly Davis",
+        "Molly (Toy Story)"
+      ],
+      "popularity": 32,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Molly (Toy Story)"
+    },
+    {
+      "name": "Lynda Weathers",
+      "aliases": [
+        "Mrs. The King"
+      ],
+      "popularity": 34,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Lynda Weathers"
+    },
+    {
+      "name": "Andy's Mom",
+      "aliases": [
+        "Jennifer Davis",
+        "Mrs. Davis"
+      ],
+      "popularity": 36,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Andy's Mom"
+    },
+    {
+      "name": "Bruce the Shark",
+      "aliases": [
+        "Bruce",
+        "Bruce the Shark (Finding Nemo)"
+      ],
+      "popularity": 61,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "Bruce the Shark (Finding Nemo)"
+    },
+    {
+      "name": "Child Detection Agency",
+      "aliases": [
+        "CDA"
+      ],
+      "popularity": 76,
+      "rarity": 0.932,
+      "tier": 6,
+      "wiki": "Child Detection Agency"
+    },
+    {
+      "name": "Nigel",
+      "aliases": [
+        "Nigel (Finding Nemo)"
+      ],
+      "popularity": 117,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Nigel (Finding Nemo)"
+    },
+    {
+      "name": "Wade Ripple",
+      "aliases": [],
+      "popularity": 121,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Wade Ripple"
+    },
+    {
+      "name": "Dot",
+      "aliases": [
+        "Dot (A Bug's Life)",
+        "Princess Dot"
+      ],
+      "popularity": 122,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "Dot (A Bug's Life)"
+    },
+    {
+      "name": "Alfredo Linguini",
+      "aliases": [
+        "Linguini"
+      ],
+      "popularity": 196,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Alfredo Linguini"
+    },
+    {
+      "name": "Ember Lumen",
+      "aliases": [],
+      "popularity": 226,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Ember Lumen"
+    },
+    {
+      "name": "Darla",
+      "aliases": [
+        "Darla (Finding Nemo)",
+        "Darla Sherman"
+      ],
+      "popularity": 245,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Darla (Finding Nemo)"
+    },
+    {
+      "name": "Boo",
+      "aliases": [],
+      "popularity": 276,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Boo (Monsters, Inc.)"
+    },
+    {
+      "name": "Flik",
+      "aliases": [
+        "Flik (A Bug's Life)"
+      ],
+      "popularity": 329,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Flik (A Bug's Life)"
+    },
+    {
+      "name": "Marlin",
+      "aliases": [
+        "Marlin (Finding Nemo)"
+      ],
+      "popularity": 360,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Marlin (Finding Nemo)"
+    },
+    {
+      "name": "Hopper",
+      "aliases": [
+        "Hopper (A Bug's Life)"
+      ],
+      "popularity": 514,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Hopper (A Bug's Life)"
+    },
+    {
+      "name": "Miles Axlerod",
+      "aliases": [
+        "Axlerod",
+        "Gospod Axlerod",
+        "Sir Miles Axlerod"
+      ],
+      "popularity": 562,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Miles Axlerod"
+    },
+    {
+      "name": "Charles Muntz",
+      "aliases": [
+        "Charles F. Muntz"
+      ],
+      "popularity": 644,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "Charles Muntz"
+    },
+    {
+      "name": "Nemo",
+      "aliases": [
+        "Nemo (Finding Nemo)"
+      ],
+      "popularity": 653,
+      "rarity": 0.757,
+      "tier": 4,
+      "wiki": "Nemo (Finding Nemo)"
+    },
+    {
+      "name": "Scud",
+      "aliases": [
+        "Scud (Toy Story)"
+      ],
+      "popularity": 758,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Scud (Toy Story)"
+    },
+    {
+      "name": "EVE",
+      "aliases": [
+        "EVE probe",
+        "EVE (WALL-E)",
+        "Extraterrestrial Vegetation Evaluator",
+        "Probe One"
+      ],
+      "popularity": 929,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "EVE (WALL-E)"
+    },
+    {
+      "name": "Remy",
+      "aliases": [
+        "Remy (Ratatouille)"
+      ],
+      "popularity": 1004,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Remy (Ratatouille)"
+    },
+    {
+      "name": "Gabby Gabby",
+      "aliases": [
+        "Gabby"
+      ],
+      "popularity": 1025,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Gabby Gabby"
+    },
+    {
+      "name": "Jackson Storm",
+      "aliases": [],
+      "popularity": 1384,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Jackson Storm"
+    },
+    {
+      "name": "Darrell Cartrip",
+      "aliases": [],
+      "popularity": 1544,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Darrell Cartrip"
+    },
+    {
+      "name": "Yeti",
+      "aliases": [],
+      "popularity": 1774,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Yeti (Monsters, Inc.)"
+    },
+    {
+      "name": "Sarge",
+      "aliases": [
+        "Sarge (Cars)"
+      ],
+      "popularity": 1858,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Sarge (Cars)"
+    },
+    {
+      "name": "Ken",
+      "aliases": [
+        "Ken (Toy Story)"
+      ],
+      "popularity": 2023,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Ken (Toy Story)"
+    },
+    {
+      "name": "Wheezy",
+      "aliases": [
+        "Wheezy (Toy Story)"
+      ],
+      "popularity": 2049,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Wheezy (Toy Story)"
+    },
+    {
+      "name": "Sheriff",
+      "aliases": [
+        "Sheriff (Cars)"
+      ],
+      "popularity": 2073,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Sheriff (Cars)"
+    },
+    {
+      "name": "Barbie",
+      "aliases": [
+        "Barbara Millicent Roberts",
+        "Barbie (Toy Story)"
+      ],
+      "popularity": 2289,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Barbie (Toy Story)"
+    },
+    {
+      "name": "Mrs. Potato Head",
+      "aliases": [
+        "Mrs. Potato Head (Toy Story)"
+      ],
+      "popularity": 2424,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Mrs. Potato Head (Toy Story)"
+    },
+    {
+      "name": "Sid Phillips",
+      "aliases": [
+        "Sid Phillips (Toy Story)"
+      ],
+      "popularity": 2435,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Sid Phillips (Toy Story)"
+    },
+    {
+      "name": "Mr. Potato Head",
+      "aliases": [
+        "Mr. Potato Head (Toy Story)",
+        "Sr. Potato"
+      ],
+      "popularity": 3020,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Mr. Potato Head (Toy Story)"
+    },
+    {
+      "name": "Mack",
+      "aliases": [
+        "Mack (Cars)"
+      ],
+      "popularity": 3260,
+      "rarity": 0.541,
+      "tier": 3,
+      "wiki": "Mack (Cars)"
+    },
+    {
+      "name": "Flo",
+      "aliases": [
+        "Flo (Cars)"
+      ],
+      "popularity": 3429,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Flo (Cars)"
+    },
+    {
+      "name": "Lotso",
+      "aliases": [
+        "Lots-O'-Huggin' Bear"
+      ],
+      "popularity": 3622,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Lotso"
+    },
+    {
+      "name": "Lizzie",
+      "aliases": [
+        "Lizzie (Cars)"
+      ],
+      "popularity": 3728,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Lizzie (Cars)"
+    },
+    {
+      "name": "Guido",
+      "aliases": [
+        "Guido (Cars)"
+      ],
+      "popularity": 3901,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "Guido (Cars)"
+    },
+    {
+      "name": "Rex",
+      "aliases": [
+        "Rex (Toy Story)"
+      ],
+      "popularity": 4540,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Rex (Toy Story)"
+    },
+    {
+      "name": "Henry J. Waternoose",
+      "aliases": [
+        "Henry J. Waternoose III",
+        "Mr. Waternoose"
+      ],
+      "popularity": 4878,
+      "rarity": 0.459,
+      "tier": 3,
+      "wiki": "Henry J. Waternoose"
+    },
+    {
+      "name": "Bonnie Anderson",
+      "aliases": [
+        "Bonnie Anderson (Toy Story)"
+      ],
+      "popularity": 4969,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "Bonnie Anderson (Toy Story)"
+    },
+    {
+      "name": "Ramone",
+      "aliases": [
+        "Ramone (Cars)"
+      ],
+      "popularity": 5374,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "Ramone (Cars)"
+    },
+    {
+      "name": "James P. Sullivan",
+      "aliases": [
+        "James P. Sullivan (Monsters Inc.)",
+        "James Patrick \"Sulley\" Sullivan",
+        "James Patrick Sullivan",
+        "James Sullivan",
+        "Sulley"
+      ],
+      "popularity": 5377,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "James P. Sullivan (Monsters Inc.)"
+    },
+    {
+      "name": "Professor Zündapp",
+      "aliases": [
+        "Professor Z"
+      ],
+      "popularity": 5569,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Professor Zündapp"
+    },
+    {
+      "name": "Hamm",
+      "aliases": [
+        "Evil Dr. Porkchop",
+        "Hamm (Toy Story)"
+      ],
+      "popularity": 5678,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Hamm (Toy Story)"
+    },
+    {
+      "name": "Buttercup",
+      "aliases": [
+        "Buttercup (Toy Story)"
+      ],
+      "popularity": 6234,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Buttercup (Toy Story)"
+    },
+    {
+      "name": "Al McWhiggin",
+      "aliases": [],
+      "popularity": 6894,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Al McWhiggin"
+    },
+    {
+      "name": "Celia Mae",
+      "aliases": [],
+      "popularity": 7880,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Celia Mae"
+    },
+    {
+      "name": "Strip \"The King\" Weathers",
+      "aliases": [
+        "Kralj",
+        "Strip Weathers"
+      ],
+      "popularity": 8120,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Strip \"The King\" Weathers"
+    },
+    {
+      "name": "Finn McMissile",
+      "aliases": [],
+      "popularity": 8857,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Finn McMissile"
+    },
+    {
+      "name": "Holley Shiftwell",
+      "aliases": [],
+      "popularity": 9232,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Holley Shiftwell"
+    },
+    {
+      "name": "Stinky Pete",
+      "aliases": [
+        "Prospector",
+        "the Prospector"
+      ],
+      "popularity": 9774,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Stinky Pete"
+    },
+    {
+      "name": "Fillmore",
+      "aliases": [
+        "Fillmore (Cars)"
+      ],
+      "popularity": 10463,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Fillmore (Cars)"
+    },
+    {
+      "name": "Forky",
+      "aliases": [],
+      "popularity": 10998,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Forky"
+    },
+    {
+      "name": "Randall Boggs",
+      "aliases": [],
+      "popularity": 12545,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Randall Boggs"
+    },
+    {
+      "name": "Chick Hicks",
+      "aliases": [],
+      "popularity": 15545,
+      "rarity": 0.243,
+      "tier": 2,
+      "wiki": "Chick Hicks"
+    },
+    {
+      "name": "Emperor Zurg",
+      "aliases": [],
+      "popularity": 16153,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Emperor Zurg"
+    },
+    {
+      "name": "Andy Davis",
+      "aliases": [
+        "Andy Davis (Toy Story)"
+      ],
+      "popularity": 18025,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Andy Davis (Toy Story)"
+    },
+    {
+      "name": "Slinky Dog",
+      "aliases": [
+        "Slinky",
+        "Slinky Dog (character)"
+      ],
+      "popularity": 19127,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Slinky Dog (character)"
+    },
+    {
+      "name": "Mr. Pricklepants",
+      "aliases": [],
+      "popularity": 20651,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Mr. Pricklepants"
+    },
+    {
+      "name": "Bullseye",
+      "aliases": [
+        "Bullseye (Toy Story)"
+      ],
+      "popularity": 32134,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Bullseye (Toy Story)"
+    },
+    {
+      "name": "Doc Hudson",
+      "aliases": [
+        "The Fabulous Hudson Hornet"
+      ],
+      "popularity": 42898,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Doc Hudson"
+    },
+    {
+      "name": "Mr. Incredible",
+      "aliases": [
+        "Bob Parr",
+        "Robert Parr"
+      ],
+      "popularity": 56202,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Mr. Incredible"
+    },
+    {
+      "name": "Carl Fredricksen",
+      "aliases": [],
+      "popularity": 66440,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Carl Fredricksen"
+    },
+    {
+      "name": "WALL-E",
+      "aliases": [
+        "WALL-E (character)"
+      ],
+      "popularity": 67729,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "WALL-E (character)"
+    },
+    {
+      "name": "Sally Carrera",
+      "aliases": [
+        "Sally"
+      ],
+      "popularity": 72153,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "Sally Carrera"
+    },
+    {
+      "name": "Dory",
+      "aliases": [
+        "Dory (Finding Nemo)"
+      ],
+      "popularity": 96016,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Dory (Finding Nemo)"
+    },
+    {
+      "name": "Tow Mater",
+      "aliases": [
+        "Mater",
+        "Sir Tow Mater"
+      ],
+      "popularity": 146262,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Tow Mater"
+    },
+    {
+      "name": "Bo Peep",
+      "aliases": [
+        "Bo Peep (Toy Story)"
+      ],
+      "popularity": 192101,
+      "rarity": 0.068,
+      "tier": 1,
+      "wiki": "Bo Peep (Toy Story)"
+    },
+    {
+      "name": "Mike Wazowski",
+      "aliases": [],
+      "popularity": 202145,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "Mike Wazowski"
+    },
+    {
+      "name": "Woody",
+      "aliases": [
+        "Sheriff Woody",
+        "Sheriff Woody Pride",
+        "Woody Pride",
+        "Woody (Toy Story)"
+      ],
+      "popularity": 238763,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Woody (Toy Story)"
+    },
+    {
+      "name": "Buzz Lightyear",
+      "aliases": [],
+      "popularity": 272546,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Buzz Lightyear"
+    },
+    {
+      "name": "Jessie",
+      "aliases": [
+        "Jessie Pride",
+        "Jessie the Yodeling Cowgirl",
+        "Jessie (Toy Story)",
+        "Sheriff Jessie"
+      ],
+      "popularity": 281074,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Jessie (Toy Story)"
+    },
+    {
+      "name": "Lightning McQueen",
+      "aliases": [],
+      "popularity": 346331,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Lightning McQueen"
+    }
+  ]
+}

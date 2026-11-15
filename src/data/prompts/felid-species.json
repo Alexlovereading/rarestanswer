@@ -1,0 +1,612 @@
+{
+  "id": "felid-species",
+  "slug": "felid-species",
+  "category": "animals",
+  "question": "Name a species in the cat family",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Pardofelis badia",
+      "aliases": [
+        "Bornean bay cat",
+        "Bornean cat",
+        "Bornean marbled cat"
+      ],
+      "popularity": 62,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Pardofelis badia"
+    },
+    {
+      "name": "Felis leo",
+      "aliases": [],
+      "popularity": 63,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Felis leo"
+    },
+    {
+      "name": "Dinofelis paleoonca",
+      "aliases": [],
+      "popularity": 67,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Dinofelis paleoonca"
+    },
+    {
+      "name": "Leopardus munoai",
+      "aliases": [
+        "Larranaga's Pampas Cat",
+        "Leopardus fasciatus",
+        "Munoa's Pampas Cat",
+        "Uruguayan Colocolo",
+        "Uruguayan Pampas Cat",
+        "Uruguayan Pantanal Cat"
+      ],
+      "popularity": 175,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Leopardus munoai"
+    },
+    {
+      "name": "Leopardus pajeros",
+      "aliases": [],
+      "popularity": 1263,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Leopardus pajeros"
+    },
+    {
+      "name": "Cave lynx",
+      "aliases": [
+        "Lynx spelaea"
+      ],
+      "popularity": 2235,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Cave lynx"
+    },
+    {
+      "name": "Garlepp's pampas cat",
+      "aliases": [
+        "Desert Pampas cat",
+        "Leopardus garleppi"
+      ],
+      "popularity": 2513,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Garlepp's pampas cat"
+    },
+    {
+      "name": "Puma incurva",
+      "aliases": [],
+      "popularity": 4618,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Puma incurva"
+    },
+    {
+      "name": "Pantanal cat",
+      "aliases": [
+        "Leopardus braccatus"
+      ],
+      "popularity": 5892,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Pantanal cat"
+    },
+    {
+      "name": "Puma pumoides",
+      "aliases": [],
+      "popularity": 7231,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Puma pumoides"
+    },
+    {
+      "name": "Leopardus narinensis",
+      "aliases": [
+        "red tigrina"
+      ],
+      "popularity": 14579,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Leopardus narinensis"
+    },
+    {
+      "name": "Felis catus",
+      "aliases": [
+        "domestic cat",
+        "domesticated cat",
+        "house cat"
+      ],
+      "popularity": 18786,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Felis catus"
+    },
+    {
+      "name": "Clouded tiger cat",
+      "aliases": [
+        "Clouded Oncilla",
+        "Leopardus pardinoides"
+      ],
+      "popularity": 20210,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Clouded tiger cat"
+    },
+    {
+      "name": "Leopardus guttulus",
+      "aliases": [
+        "Atlantic forest tiger cat",
+        "southern oncilla",
+        "southern tiger cat",
+        "southern tigrina"
+      ],
+      "popularity": 24151,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Leopardus guttulus"
+    },
+    {
+      "name": "Sunda leopard cat",
+      "aliases": [
+        "Prionailurus javanensis"
+      ],
+      "popularity": 28095,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Sunda leopard cat"
+    },
+    {
+      "name": "Marbled cat",
+      "aliases": [
+        "Pardofelis marmorata"
+      ],
+      "popularity": 44887,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Marbled cat"
+    },
+    {
+      "name": "Sunda clouded leopard",
+      "aliases": [
+        "Diard’s clouded leopard",
+        "Neofelis diardi"
+      ],
+      "popularity": 47016,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Sunda clouded leopard"
+    },
+    {
+      "name": "Andean mountain cat",
+      "aliases": [
+        "Andean cat",
+        "Leopardus jacobita",
+        "Oreailurus jacobita"
+      ],
+      "popularity": 48011,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Andean mountain cat"
+    },
+    {
+      "name": "African golden cat",
+      "aliases": [
+        "Profelis aurata"
+      ],
+      "popularity": 48954,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "African golden cat"
+    },
+    {
+      "name": "Bay cat",
+      "aliases": [
+        "Catopuma badia"
+      ],
+      "popularity": 59931,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Bay cat"
+    },
+    {
+      "name": "Geoffroy's cat",
+      "aliases": [
+        "Geoffroyís cat",
+        "Leopardus geoffroyi"
+      ],
+      "popularity": 61021,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Geoffroy's cat"
+    },
+    {
+      "name": "Flat-headed cat",
+      "aliases": [
+        "Prionailurus planiceps"
+      ],
+      "popularity": 65713,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Flat-headed cat"
+    },
+    {
+      "name": "Chinese mountain cat",
+      "aliases": [
+        "Chinese desert cat",
+        "Felis bieti",
+        "pale desert cat"
+      ],
+      "popularity": 74964,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Chinese mountain cat"
+    },
+    {
+      "name": "Asian golden cat",
+      "aliases": [
+        "Asiatic golden cat",
+        "Pardofelis temminckii"
+      ],
+      "popularity": 76561,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "Asian golden cat"
+    },
+    {
+      "name": "Pampas cat",
+      "aliases": [
+        "Chilean Pampa Cat",
+        "Colocolo",
+        "Leopardus colocola"
+      ],
+      "popularity": 85926,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Pampas cat"
+    },
+    {
+      "name": "Kodkod",
+      "aliases": [
+        "guigna",
+        "Leopardus guigna"
+      ],
+      "popularity": 101385,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Kodkod"
+    },
+    {
+      "name": "Margay",
+      "aliases": [
+        "Leopardus wiedii"
+      ],
+      "popularity": 110438,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Margay"
+    },
+    {
+      "name": "Oncilla",
+      "aliases": [
+        "Leopardus tigrinus",
+        "northern tiger cat",
+        "savanna tiger cat",
+        "savannah tiger-cat",
+        "tiger cat"
+      ],
+      "popularity": 114805,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Oncilla"
+    },
+    {
+      "name": "Jungle cat",
+      "aliases": [
+        "Felis chaus",
+        "reed cat",
+        "swamp cat"
+      ],
+      "popularity": 133225,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Jungle cat"
+    },
+    {
+      "name": "Rusty-spotted cat",
+      "aliases": [
+        "Prionailurus rubiginosus"
+      ],
+      "popularity": 151010,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Rusty-spotted cat"
+    },
+    {
+      "name": "Fishing cat",
+      "aliases": [
+        "Prionailurus viverrinus"
+      ],
+      "popularity": 162752,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Fishing cat"
+    },
+    {
+      "name": "Iberian lynx",
+      "aliases": [
+        "Lynx pardinus",
+        "Pardel lynx"
+      ],
+      "popularity": 180974,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Iberian lynx"
+    },
+    {
+      "name": "Clouded leopard",
+      "aliases": [
+        "mainland clouded leopard",
+        "Neofelis nebulosa"
+      ],
+      "popularity": 210780,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Clouded leopard"
+    },
+    {
+      "name": "Leopard cat",
+      "aliases": [
+        "Prionailurus bengalensis"
+      ],
+      "popularity": 222763,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Leopard cat"
+    },
+    {
+      "name": "Jaguarundi",
+      "aliases": [
+        "Herpailurus yagouaroundi",
+        "Puma yagouaroundi"
+      ],
+      "popularity": 226336,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Jaguarundi"
+    },
+    {
+      "name": "Eurasian lynx",
+      "aliases": [
+        "Lynx lynx"
+      ],
+      "popularity": 232686,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Eurasian lynx"
+    },
+    {
+      "name": "Black-footed cat",
+      "aliases": [
+        "Felis nigripes",
+        "small-spotted cat"
+      ],
+      "popularity": 237976,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Black-footed cat"
+    },
+    {
+      "name": "Sand cat",
+      "aliases": [
+        "Felis margarita",
+        "sand dune cat"
+      ],
+      "popularity": 238807,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Sand cat"
+    },
+    {
+      "name": "African wildcat",
+      "aliases": [
+        "African wild cat",
+        "Felis lybica"
+      ],
+      "popularity": 259125,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "African wildcat"
+    },
+    {
+      "name": "Canada lynx",
+      "aliases": [
+        "Canadian lynx",
+        "Felis lynx",
+        "Felis lynx canadensis",
+        "Lynx canadensis"
+      ],
+      "popularity": 261032,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Canada lynx"
+    },
+    {
+      "name": "European wildcat",
+      "aliases": [
+        "Felis silvestris",
+        "wild cat",
+        "wild cats",
+        "wildcat",
+        "wildcats"
+      ],
+      "popularity": 270992,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "European wildcat"
+    },
+    {
+      "name": "Serval",
+      "aliases": [
+        "Leptailurus serval"
+      ],
+      "popularity": 357908,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Serval"
+    },
+    {
+      "name": "Ocelot",
+      "aliases": [
+        "dwarf leopard",
+        "Leopardus pardalis",
+        "ocelots"
+      ],
+      "popularity": 366800,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Ocelot"
+    },
+    {
+      "name": "Tilcayo",
+      "aliases": [
+        "Leopardus tilcayo"
+      ],
+      "popularity": 423642,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Tilcayo"
+    },
+    {
+      "name": "Caracal",
+      "aliases": [
+        "Caracal caracal",
+        "desert lynx",
+        "Lynx caracal",
+        "Persian lynx"
+      ],
+      "popularity": 450791,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Caracal"
+    },
+    {
+      "name": "Snow leopard",
+      "aliases": [
+        "ounce",
+        "P. uncia",
+        "Panthera uncia",
+        "Uncia uncia"
+      ],
+      "popularity": 601006,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Snow leopard"
+    },
+    {
+      "name": "Bobcat",
+      "aliases": [
+        "Felis rufus",
+        "Lynx rufus",
+        "red lynx"
+      ],
+      "popularity": 636641,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Bobcat"
+    },
+    {
+      "name": "Pallas's cat",
+      "aliases": [
+        "manul",
+        "Otocolobus manul",
+        "Pallas' cat"
+      ],
+      "popularity": 641211,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Pallas's cat"
+    },
+    {
+      "name": "Leopard",
+      "aliases": [
+        "panther",
+        "Panthera pardus"
+      ],
+      "popularity": 679750,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Leopard"
+    },
+    {
+      "name": "Cheetah",
+      "aliases": [
+        "Acinonyx jubatus",
+        "African cheetah",
+        "Felis lanea",
+        "geopard",
+        "white cheetah",
+        "woolly cheetah"
+      ],
+      "popularity": 798288,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Cheetah"
+    },
+    {
+      "name": "Cougar",
+      "aliases": [
+        "catamount",
+        "Felis concolor",
+        "mountain lion",
+        "puma",
+        "Puma concolor"
+      ],
+      "popularity": 835146,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Cougar"
+    },
+    {
+      "name": "Jaguar",
+      "aliases": [
+        "panter",
+        "Panthera onca"
+      ],
+      "popularity": 892079,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Jaguar"
+    },
+    {
+      "name": "Tiger",
+      "aliases": [
+        "P. tigris",
+        "Panthera tigris",
+        "tigers",
+        "tigress"
+      ],
+      "popularity": 1135507,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Tiger"
+    },
+    {
+      "name": "Lion",
+      "aliases": [
+        "African lion",
+        "Asiatic lion",
+        "Panthera leo",
+        "q140",
+        "the lion"
+      ],
+      "popularity": 1203139,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Lion"
+    }
+  ]
+}

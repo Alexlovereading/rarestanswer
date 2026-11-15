@@ -1,0 +1,294 @@
+{
+  "id": "brazilian-states",
+  "slug": "brazilian-states",
+  "category": "geography",
+  "question": "Name a Brazilian state or the Federal District",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Sergipe",
+      "aliases": [
+        "Sergipe State"
+      ],
+      "popularity": 35679,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Sergipe"
+    },
+    {
+      "name": "Piauí",
+      "aliases": [
+        "Piaui State"
+      ],
+      "popularity": 38466,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Piauí"
+    },
+    {
+      "name": "Rio Grande do Norte",
+      "aliases": [
+        "Rio Grande do Norte State"
+      ],
+      "popularity": 38905,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Rio Grande do Norte"
+    },
+    {
+      "name": "Paraíba",
+      "aliases": [
+        "Paraiba State"
+      ],
+      "popularity": 41222,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Paraíba"
+    },
+    {
+      "name": "Tocantins",
+      "aliases": [
+        "Tocantins State"
+      ],
+      "popularity": 42167,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Tocantins"
+    },
+    {
+      "name": "Mato Grosso do Sul",
+      "aliases": [
+        "Southern Mato Grosso"
+      ],
+      "popularity": 51596,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Mato Grosso do Sul"
+    },
+    {
+      "name": "Ceará",
+      "aliases": [
+        "Ceara State",
+        "State of Ceará"
+      ],
+      "popularity": 54032,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Ceará"
+    },
+    {
+      "name": "Roraima",
+      "aliases": [
+        "Roraima State"
+      ],
+      "popularity": 56661,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Roraima"
+    },
+    {
+      "name": "Rondônia",
+      "aliases": [
+        "Rondônia State"
+      ],
+      "popularity": 61719,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Rondônia"
+    },
+    {
+      "name": "Amapá",
+      "aliases": [
+        "Portuguese Guiana",
+        "State of Amapá"
+      ],
+      "popularity": 62029,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Amapá"
+    },
+    {
+      "name": "Goiás",
+      "aliases": [
+        "Goias State"
+      ],
+      "popularity": 63672,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Goiás"
+    },
+    {
+      "name": "Maranhão",
+      "aliases": [
+        "Maranhao State",
+        "Maranhato"
+      ],
+      "popularity": 64084,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Maranhão"
+    },
+    {
+      "name": "Federal District",
+      "aliases": [
+        "Distrito Federal",
+        "Federal District (Brazil)"
+      ],
+      "popularity": 64139,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Federal District (Brazil)"
+    },
+    {
+      "name": "Alagoas",
+      "aliases": [
+        "Alagoas State",
+        "State of Alagoas"
+      ],
+      "popularity": 64263,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Alagoas"
+    },
+    {
+      "name": "Espírito Santo",
+      "aliases": [
+        "Espirito Santo State",
+        "Espiritu Santo"
+      ],
+      "popularity": 66531,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Espírito Santo"
+    },
+    {
+      "name": "Pará",
+      "aliases": [
+        "Para State"
+      ],
+      "popularity": 80473,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Pará"
+    },
+    {
+      "name": "Acre",
+      "aliases": [
+        "Acre (state)",
+        "State of Acre"
+      ],
+      "popularity": 88276,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Acre (state)"
+    },
+    {
+      "name": "Mato Grosso",
+      "aliases": [
+        "Mato Grosso State"
+      ],
+      "popularity": 90088,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Mato Grosso"
+    },
+    {
+      "name": "Pernambuco",
+      "aliases": [
+        "Pernambuco State"
+      ],
+      "popularity": 95496,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Pernambuco"
+    },
+    {
+      "name": "Paraná",
+      "aliases": [
+        "Paraná (state)"
+      ],
+      "popularity": 105026,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Paraná (state)"
+    },
+    {
+      "name": "Amazonas",
+      "aliases": [
+        "Amazonas (Brazilian state)",
+        "Amazonas State",
+        "State of Amazonas"
+      ],
+      "popularity": 109510,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Amazonas (Brazilian state)"
+    },
+    {
+      "name": "Rio de Janeiro",
+      "aliases": [
+        "BR-RJ",
+        "Estado do Rio de Janeiro",
+        "Rio de Janeiro (state)",
+        "State of Rio de Janeiro"
+      ],
+      "popularity": 115681,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Rio de Janeiro (state)"
+    },
+    {
+      "name": "Santa Catarina",
+      "aliases": [
+        "Santa Catarina (state)"
+      ],
+      "popularity": 131169,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Santa Catarina (state)"
+    },
+    {
+      "name": "Bahia",
+      "aliases": [
+        "Bahia State",
+        "State of Bahia"
+      ],
+      "popularity": 156531,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Bahia"
+    },
+    {
+      "name": "Rio Grande do Sul",
+      "aliases": [
+        "Rio Grande do Sul State"
+      ],
+      "popularity": 167432,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Rio Grande do Sul"
+    },
+    {
+      "name": "São Paulo",
+      "aliases": [
+        "São Paulo (state)",
+        "State of São Paulo"
+      ],
+      "popularity": 205611,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "São Paulo (state)"
+    },
+    {
+      "name": "Minas Gerais",
+      "aliases": [
+        "Minais Gerais",
+        "Minas Gerais State"
+      ],
+      "popularity": 207907,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Minas Gerais"
+    }
+  ]
+}

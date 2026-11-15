@@ -1,0 +1,603 @@
+{
+  "id": "unesco-sites-in-india",
+  "slug": "unesco-sites-in-india",
+  "category": "geography",
+  "question": "Name a UNESCO World Heritage Site in India",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Secretariat Building, Chandigarh",
+      "aliases": [
+        "Secretariat Building"
+      ],
+      "popularity": 4081,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Secretariat Building, Chandigarh"
+    },
+    {
+      "name": "Nanda Devi and Valley of Flowers National Parks",
+      "aliases": [],
+      "popularity": 4484,
+      "rarity": 0.981,
+      "tier": 6,
+      "wiki": "Nanda Devi and Valley of Flowers National Parks"
+    },
+    {
+      "name": "Tomb of Isa Khan",
+      "aliases": [
+        "Isa Khan Niyazi's Tomb",
+        "Isa Khan's Tomb",
+        "Tomb of Isa Khan Niazi"
+      ],
+      "popularity": 7204,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Tomb of Isa Khan"
+    },
+    {
+      "name": "Victorian Gothic and Art Deco Ensembles of Mumbai",
+      "aliases": [],
+      "popularity": 8931,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Victorian Gothic and Art Deco Ensembles of Mumbai"
+    },
+    {
+      "name": "Historic City of Ahmadabad",
+      "aliases": [
+        "Fort and Gates of Ahmedabad",
+        "Old Ahmedabad",
+        "Walled City of Ahmedabad"
+      ],
+      "popularity": 8968,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Historic City of Ahmadabad"
+    },
+    {
+      "name": "Moidam",
+      "aliases": [
+        "Maidam"
+      ],
+      "popularity": 9047,
+      "rarity": 0.906,
+      "tier": 5,
+      "wiki": "Moidam"
+    },
+    {
+      "name": "Sacred Ensembles of the Hoysalas",
+      "aliases": [],
+      "popularity": 9877,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Sacred Ensembles of the Hoysalas"
+    },
+    {
+      "name": "Churches and convents of Goa",
+      "aliases": [],
+      "popularity": 11149,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Churches and convents of Goa"
+    },
+    {
+      "name": "Santiniketan",
+      "aliases": [
+        "Shantiniketan"
+      ],
+      "popularity": 12361,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Santiniketan"
+    },
+    {
+      "name": "Great Himalayan National Park",
+      "aliases": [],
+      "popularity": 13143,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Great Himalayan National Park"
+    },
+    {
+      "name": "Nanda Devi National Park",
+      "aliases": [
+        "Nanda Devi Biosphere Reserve"
+      ],
+      "popularity": 14820,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Nanda Devi National Park"
+    },
+    {
+      "name": "Mountain railways of India",
+      "aliases": [],
+      "popularity": 15301,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Mountain railways of India"
+    },
+    {
+      "name": "Kas Plateau Reserved Forest",
+      "aliases": [
+        "Kaas Plateau"
+      ],
+      "popularity": 16753,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Kas Plateau Reserved Forest"
+    },
+    {
+      "name": "Champaner-Pavagadh Archaeological Park",
+      "aliases": [],
+      "popularity": 16754,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Champaner-Pavagadh Archaeological Park"
+    },
+    {
+      "name": "Descent of the Ganges",
+      "aliases": [
+        "Arjuna’s Penance",
+        "Descent of the Ganges (Mahabalipuram)"
+      ],
+      "popularity": 16833,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Descent of the Ganges (Mahabalipuram)"
+    },
+    {
+      "name": "The Architectural Work of Le Corbusier",
+      "aliases": [
+        "Architectural Work of Le Corbusier",
+        "Le Corbusier World Heritage"
+      ],
+      "popularity": 21258,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "The Architectural Work of Le Corbusier"
+    },
+    {
+      "name": "Khangchendzonga National Park",
+      "aliases": [],
+      "popularity": 25266,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Khangchendzonga National Park"
+    },
+    {
+      "name": "Hill Forts of Rajasthan",
+      "aliases": [],
+      "popularity": 26273,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Hill Forts of Rajasthan"
+    },
+    {
+      "name": "Maratha Military Landscapes of India",
+      "aliases": [
+        "Maratha Military Architecture in Maharashtra"
+      ],
+      "popularity": 26714,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Maratha Military Landscapes of India"
+    },
+    {
+      "name": "Qutb Minar complex",
+      "aliases": [
+        "Kootub",
+        "Kutub",
+        "Qutb complex",
+        "Qutub"
+      ],
+      "popularity": 27891,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Qutb Minar complex"
+    },
+    {
+      "name": "Keoladeo National Park",
+      "aliases": [
+        "Bharatpur Bird Sanctuary",
+        "Bharatpur National Park",
+        "Bharatpur NP",
+        "Keoladeo Ghana National Park",
+        "Kevladev Bird Sanctuary",
+        "Kevladev National Park"
+      ],
+      "popularity": 30767,
+      "rarity": 0.623,
+      "tier": 4,
+      "wiki": "Keoladeo National Park"
+    },
+    {
+      "name": "Great Living Chola Temples",
+      "aliases": [
+        "Chola Temples",
+        "Tanjavur temples",
+        "Thanjavur temples"
+      ],
+      "popularity": 30851,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Great Living Chola Temples"
+    },
+    {
+      "name": "Group of Monuments at Mahabalipuram",
+      "aliases": [
+        "Mamallapuram temples",
+        "Seven Pagodas"
+      ],
+      "popularity": 33356,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Group of Monuments at Mahabalipuram"
+    },
+    {
+      "name": "Sundarbans National Park",
+      "aliases": [
+        "Sundarban National Park",
+        "Sunderban National Park",
+        "Sunderbans National Park"
+      ],
+      "popularity": 33663,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "Sundarbans National Park"
+    },
+    {
+      "name": "Manas National Park",
+      "aliases": [],
+      "popularity": 36906,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Manas National Park"
+    },
+    {
+      "name": "Ramappa Temple",
+      "aliases": [
+        "Gaurisa temple",
+        "Ramalingeswara temple",
+        "Ramappa temples complex",
+        "Rudresvara temple"
+      ],
+      "popularity": 47717,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Ramappa Temple"
+    },
+    {
+      "name": "Valley of Flowers National Park",
+      "aliases": [],
+      "popularity": 48291,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Valley of Flowers National Park"
+    },
+    {
+      "name": "Humayun's tomb",
+      "aliases": [
+        "Maqbara e Humayun"
+      ],
+      "popularity": 58216,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Humayun's tomb"
+    },
+    {
+      "name": "Pattadakal",
+      "aliases": [
+        "Group of Monuments at Pattadakal",
+        "Pattada-Kisuvolal",
+        "Pattadakal Group of Monuments",
+        "Petirgal",
+        "Raktapur"
+      ],
+      "popularity": 64795,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Pattadakal"
+    },
+    {
+      "name": "Jantar Mantar, Jaipur",
+      "aliases": [
+        "Jyotish Yantralaya"
+      ],
+      "popularity": 73437,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Jantar Mantar, Jaipur"
+    },
+    {
+      "name": "Dholavira",
+      "aliases": [
+        "Kotda Timba"
+      ],
+      "popularity": 79848,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Dholavira"
+    },
+    {
+      "name": "Mahabodhi Temple",
+      "aliases": [
+        "Maha Bodhi Temple",
+        "Mahabodhi",
+        "Mahabodhi Temple Complex",
+        "Mahabodi"
+      ],
+      "popularity": 84163,
+      "rarity": 0.415,
+      "tier": 3,
+      "wiki": "Mahabodhi Temple"
+    },
+    {
+      "name": "Rani ki Vav",
+      "aliases": [
+        "Rani Ki Vav Stepwell"
+      ],
+      "popularity": 88777,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Rani ki Vav"
+    },
+    {
+      "name": "Kaziranga National Park",
+      "aliases": [],
+      "popularity": 90988,
+      "rarity": 0.377,
+      "tier": 2,
+      "wiki": "Kaziranga National Park"
+    },
+    {
+      "name": "Bhimbetka rock shelters",
+      "aliases": [
+        "Auditorium cave",
+        "Bhonrawali shelters",
+        "Jhondra Pahari",
+        "Lakha Juar",
+        "Muni Babaki Pahari",
+        "Pre – historic rock shelters",
+        "Vinayaka Pahari"
+      ],
+      "popularity": 94815,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Bhimbetka rock shelters"
+    },
+    {
+      "name": "Elephanta Caves",
+      "aliases": [
+        "Gharapuri Caves"
+      ],
+      "popularity": 114910,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Elephanta Caves"
+    },
+    {
+      "name": "Sarnath",
+      "aliases": [],
+      "popularity": 119672,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Sarnath"
+    },
+    {
+      "name": "Hampi",
+      "aliases": [
+        "Bhaskara-kshetra",
+        "Group of Monuments at Hampi",
+        "Hampe",
+        "Hampi Group of Monuments",
+        "Kishkindha-kshetra",
+        "Pampa-kshetra",
+        "Vijayanagara ruins"
+      ],
+      "popularity": 122873,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Hampi"
+    },
+    {
+      "name": "Iron pillar of Delhi",
+      "aliases": [],
+      "popularity": 127653,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Iron pillar of Delhi"
+    },
+    {
+      "name": "Sanchi Stupa",
+      "aliases": [
+        "Buddhist monuments at Sanchi",
+        "Great Sanchi Stupa",
+        "Sanchi",
+        "Sanchi Tope"
+      ],
+      "popularity": 136601,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Sanchi Stupa"
+    },
+    {
+      "name": "Fatehpur Sikri",
+      "aliases": [
+        "Fatehpur Sikri Old",
+        "Fatepur Sikri",
+        "Fathpur Sikri",
+        "Futtehpore Sikri",
+        "Futtipoor Seehnee",
+        "Futtipoor Sicri",
+        "Futty Poor Sicri",
+        "Futtypore Sicri",
+        "Old Fatehpur Sikri"
+      ],
+      "popularity": 137687,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Fatehpur Sikri"
+    },
+    {
+      "name": "Agra Fort",
+      "aliases": [
+        "Agra's Red Fort"
+      ],
+      "popularity": 140929,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Agra Fort"
+    },
+    {
+      "name": "Jantar Mantar, New Delhi",
+      "aliases": [],
+      "popularity": 145241,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "Jantar Mantar, New Delhi"
+    },
+    {
+      "name": "Chhatrapati Shivaji Terminus",
+      "aliases": [
+        "Bombay VT",
+        "Chhatrapati Shivaji Maharaj Terminus",
+        "Chhatrapati Shivaji Terminus railway station",
+        "Mumbai CSMT",
+        "Victoria Terminus"
+      ],
+      "popularity": 156308,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Chhatrapati Shivaji Terminus"
+    },
+    {
+      "name": "Nalanda mahavihara",
+      "aliases": [
+        "Mahavihara of Nalanda"
+      ],
+      "popularity": 162920,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Nalanda mahavihara"
+    },
+    {
+      "name": "Ellora Caves",
+      "aliases": [
+        "Elora"
+      ],
+      "popularity": 185248,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Ellora Caves"
+    },
+    {
+      "name": "Western Ghats",
+      "aliases": [
+        "Sahayadri",
+        "Sahayadri Hills",
+        "Sahya Mountains",
+        "Sahya Parvat",
+        "Sahya Parvatam",
+        "Sahya Parvatham",
+        "Sahyadri",
+        "Sahyadri mountain range",
+        "Sahyadri mountain ranges",
+        "Sahyadri Mountains",
+        "Sahyadris",
+        "Tamhini Ghat",
+        "The Western Ghats",
+        "Western Ghat mountain range",
+        "Western Ghat mountain ranges",
+        "Western Ghat mountains",
+        "Western Ghats of Maharashtra",
+        "Western Ghauts"
+      ],
+      "popularity": 203173,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Western Ghats"
+    },
+    {
+      "name": "Qutb Minar",
+      "aliases": [
+        "Dhruv Stambh",
+        "Dhurva Stambha",
+        "Qutab Minar",
+        "Qutub Minar"
+      ],
+      "popularity": 241696,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Qutb Minar"
+    },
+    {
+      "name": "Konark Sun Temple",
+      "aliases": [
+        "Good Black Pagoda",
+        "Konarak Temple",
+        "Konarka Temple",
+        "Sun Temple",
+        "Surya Deula",
+        "Surya Temple",
+        "Temple of the Sun"
+      ],
+      "popularity": 242841,
+      "rarity": 0.094,
+      "tier": 1,
+      "wiki": "Konark Sun Temple"
+    },
+    {
+      "name": "Ajanta Caves",
+      "aliases": [],
+      "popularity": 262747,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Ajanta Caves"
+    },
+    {
+      "name": "Khajuraho Group of Monuments",
+      "aliases": [
+        "Khajuraho Hindu temples",
+        "Khajuraho Jain temples",
+        "Khajuraho temples",
+        "Kharjuravahaka"
+      ],
+      "popularity": 277261,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Khajuraho Group of Monuments"
+    },
+    {
+      "name": "Red Fort",
+      "aliases": [
+        "Lal Qila"
+      ],
+      "popularity": 324423,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Red Fort"
+    },
+    {
+      "name": "Jaipur",
+      "aliases": [
+        "Pink City"
+      ],
+      "popularity": 343484,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Jaipur"
+    },
+    {
+      "name": "Taj Mahal",
+      "aliases": [
+        "Crown of the Palace",
+        "the Taj Mahal"
+      ],
+      "popularity": 1437546,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Taj Mahal"
+    }
+  ]
+}

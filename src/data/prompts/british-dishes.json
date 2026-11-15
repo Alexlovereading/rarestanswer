@@ -1,0 +1,191 @@
+{
+  "id": "british-dishes",
+  "slug": "british-dishes",
+  "category": "food",
+  "question": "Name a British dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Yorkshire Christmas pie",
+      "aliases": [],
+      "popularity": 2084,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Yorkshire Christmas pie"
+    },
+    {
+      "name": "Stonner kebab",
+      "aliases": [],
+      "popularity": 3121,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Stonner kebab"
+    },
+    {
+      "name": "Boiled beef",
+      "aliases": [],
+      "popularity": 9106,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Boiled beef"
+    },
+    {
+      "name": "Banbury cake",
+      "aliases": [],
+      "popularity": 12644,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Banbury cake"
+    },
+    {
+      "name": "Black peas",
+      "aliases": [
+        "maple peas",
+        "parched peas"
+      ],
+      "popularity": 17228,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Black peas"
+    },
+    {
+      "name": "Cauliflower cheese",
+      "aliases": [
+        "cauliflower and cheese"
+      ],
+      "popularity": 19245,
+      "rarity": 0.737,
+      "tier": 4,
+      "wiki": "Cauliflower cheese"
+    },
+    {
+      "name": "Cheese on toast",
+      "aliases": [],
+      "popularity": 21169,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "Cheese on toast"
+    },
+    {
+      "name": "Crumble",
+      "aliases": [],
+      "popularity": 31940,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Crumble"
+    },
+    {
+      "name": "Lardy cake",
+      "aliases": [],
+      "popularity": 33813,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Lardy cake"
+    },
+    {
+      "name": "Melba toast",
+      "aliases": [],
+      "popularity": 42077,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Melba toast"
+    },
+    {
+      "name": "Egg tart",
+      "aliases": [
+        "egg custard tart"
+      ],
+      "popularity": 70750,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Egg tart"
+    },
+    {
+      "name": "Coronation chicken",
+      "aliases": [
+        "poulet Reine Élizabeth"
+      ],
+      "popularity": 80775,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Coronation chicken"
+    },
+    {
+      "name": "Baked potato",
+      "aliases": [
+        "jacket potato"
+      ],
+      "popularity": 98630,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Baked potato"
+    },
+    {
+      "name": "Jellied eels",
+      "aliases": [],
+      "popularity": 134247,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Jellied eels"
+    },
+    {
+      "name": "Ploughman's lunch",
+      "aliases": [],
+      "popularity": 142386,
+      "rarity": 0.263,
+      "tier": 2,
+      "wiki": "Ploughman's lunch"
+    },
+    {
+      "name": "Toad in the hole",
+      "aliases": [
+        "sausage toad"
+      ],
+      "popularity": 172549,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Toad in the hole"
+    },
+    {
+      "name": "Welsh rarebit",
+      "aliases": [
+        "Welsh rabbit"
+      ],
+      "popularity": 218258,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Welsh rarebit"
+    },
+    {
+      "name": "Cookie",
+      "aliases": [
+        "biscuit",
+        "cookies",
+        "cracker"
+      ],
+      "popularity": 257985,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Cookie"
+    },
+    {
+      "name": "Faggot",
+      "aliases": [
+        "Faggot (food)",
+        "faggots"
+      ],
+      "popularity": 400159,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Faggot (food)"
+    },
+    {
+      "name": "Chicken tikka masala",
+      "aliases": [],
+      "popularity": 449432,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Chicken tikka masala"
+    }
+  ]
+}

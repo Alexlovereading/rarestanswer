@@ -1,0 +1,296 @@
+{
+  "id": "mexican-dishes",
+  "slug": "mexican-dishes",
+  "category": "food",
+  "question": "Name a Mexican dish",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Plátanos rellenos",
+      "aliases": [],
+      "popularity": 410,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Plátanos rellenos"
+    },
+    {
+      "name": "Mexican pizza",
+      "aliases": [],
+      "popularity": 746,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Mexican pizza"
+    },
+    {
+      "name": "Chicharrón de la Ramos",
+      "aliases": [],
+      "popularity": 897,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Chicharrón de la Ramos"
+    },
+    {
+      "name": "Encacahuatado",
+      "aliases": [],
+      "popularity": 1359,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Encacahuatado"
+    },
+    {
+      "name": "Flauta",
+      "aliases": [
+        "tacos dorados"
+      ],
+      "popularity": 2570,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Flauta"
+    },
+    {
+      "name": "Pollo al carbón",
+      "aliases": [
+        "Chicken al carbón",
+        "Pollo asado al carbón"
+      ],
+      "popularity": 2909,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Pollo al carbón"
+    },
+    {
+      "name": "Chahuis",
+      "aliases": [],
+      "popularity": 3094,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Chahuis"
+    },
+    {
+      "name": "Manchamanteles",
+      "aliases": [],
+      "popularity": 3520,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Manchamanteles"
+    },
+    {
+      "name": "Burro percherón",
+      "aliases": [],
+      "popularity": 5427,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Burro percherón"
+    },
+    {
+      "name": "Taco pizza",
+      "aliases": [],
+      "popularity": 6204,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Taco pizza"
+    },
+    {
+      "name": "Nopalito",
+      "aliases": [],
+      "popularity": 7266,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Nopalito"
+    },
+    {
+      "name": "Enfrijoladas",
+      "aliases": [],
+      "popularity": 7496,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Enfrijoladas"
+    },
+    {
+      "name": "Discada",
+      "aliases": [
+        "cowboy wok",
+        "plowdisc cooker"
+      ],
+      "popularity": 8218,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Discada"
+    },
+    {
+      "name": "Borracho beans",
+      "aliases": [],
+      "popularity": 9571,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Borracho beans"
+    },
+    {
+      "name": "Rajas con crema",
+      "aliases": [],
+      "popularity": 10599,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Rajas con crema"
+    },
+    {
+      "name": "Chiles en nogada",
+      "aliases": [],
+      "popularity": 45888,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Chiles en nogada"
+    },
+    {
+      "name": "Mexican rice",
+      "aliases": [
+        "Spanish rice?"
+      ],
+      "popularity": 49936,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Mexican rice"
+    },
+    {
+      "name": "Gordita",
+      "aliases": [],
+      "popularity": 52424,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Gordita"
+    },
+    {
+      "name": "Quesabirria",
+      "aliases": [
+        "quesotacos",
+        "red tacos"
+      ],
+      "popularity": 64440,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Quesabirria"
+    },
+    {
+      "name": "Champurrado",
+      "aliases": [],
+      "popularity": 65166,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Champurrado"
+    },
+    {
+      "name": "Tostada",
+      "aliases": [
+        "Tostada (tortilla)"
+      ],
+      "popularity": 68504,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Tostada (tortilla)"
+    },
+    {
+      "name": "Taquito",
+      "aliases": [
+        "taco dorado"
+      ],
+      "popularity": 74219,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Taquito"
+    },
+    {
+      "name": "Refried beans",
+      "aliases": [],
+      "popularity": 96642,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Refried beans"
+    },
+    {
+      "name": "Huevos rancheros",
+      "aliases": [],
+      "popularity": 122288,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Huevos rancheros"
+    },
+    {
+      "name": "Nachos",
+      "aliases": [],
+      "popularity": 151535,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Nachos"
+    },
+    {
+      "name": "Fajita",
+      "aliases": [],
+      "popularity": 153348,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Fajita"
+    },
+    {
+      "name": "Chipotle",
+      "aliases": [
+        "chilpotle",
+        "Chipotle pepper"
+      ],
+      "popularity": 164253,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Chipotle"
+    },
+    {
+      "name": "Quesadilla",
+      "aliases": [],
+      "popularity": 177174,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Quesadilla"
+    },
+    {
+      "name": "Burrito",
+      "aliases": [],
+      "popularity": 221333,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Burrito"
+    },
+    {
+      "name": "Enchilada",
+      "aliases": [],
+      "popularity": 238958,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Enchilada"
+    },
+    {
+      "name": "Taco",
+      "aliases": [
+        "chicken tacos",
+        "fish tacos",
+        "ground beef tacos",
+        "shrimp tacos",
+        "Tacos",
+        "tacos al pastor",
+        "tacos carne asada",
+        "tacos de chorizo"
+      ],
+      "popularity": 272100,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Taco"
+    },
+    {
+      "name": "Chili con carne",
+      "aliases": [
+        "chili"
+      ],
+      "popularity": 284885,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Chili con carne"
+    }
+  ]
+}

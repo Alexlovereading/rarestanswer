@@ -1,0 +1,745 @@
+{
+  "id": "ceratopsian-dinosaurs",
+  "slug": "ceratopsian-dinosaurs",
+  "category": "animals",
+  "question": "Name a ceratopsian dinosaur",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Beg",
+      "aliases": [
+        "Beg (dinosaur)"
+      ],
+      "popularity": 255,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Beg (dinosaur)"
+    },
+    {
+      "name": "Gremlin",
+      "aliases": [
+        "Gremlin (genus)"
+      ],
+      "popularity": 267,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Gremlin (genus)"
+    },
+    {
+      "name": "Magnirostris",
+      "aliases": [],
+      "popularity": 385,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Magnirostris"
+    },
+    {
+      "name": "Platyceratops",
+      "aliases": [],
+      "popularity": 395,
+      "rarity": 0.967,
+      "tier": 6,
+      "wiki": "Platyceratops"
+    },
+    {
+      "name": "Eoceratops",
+      "aliases": [],
+      "popularity": 408,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Eoceratops"
+    },
+    {
+      "name": "Gobiceratops",
+      "aliases": [],
+      "popularity": 473,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Gobiceratops"
+    },
+    {
+      "name": "Lamaceratops",
+      "aliases": [],
+      "popularity": 496,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Lamaceratops"
+    },
+    {
+      "name": "Kulceratops",
+      "aliases": [],
+      "popularity": 2112,
+      "rarity": 0.922,
+      "tier": 5,
+      "wiki": "Kulceratops"
+    },
+    {
+      "name": "Ischioceratops",
+      "aliases": [],
+      "popularity": 2386,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Ischioceratops"
+    },
+    {
+      "name": "Gryphoceratops",
+      "aliases": [],
+      "popularity": 2483,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Gryphoceratops"
+    },
+    {
+      "name": "Mosaiceratops",
+      "aliases": [],
+      "popularity": 2486,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Mosaiceratops"
+    },
+    {
+      "name": "Xuanhuaceratops",
+      "aliases": [],
+      "popularity": 2512,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Xuanhuaceratops"
+    },
+    {
+      "name": "Hualianceratops",
+      "aliases": [],
+      "popularity": 2643,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Hualianceratops"
+    },
+    {
+      "name": "Terminocavus",
+      "aliases": [],
+      "popularity": 2780,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Terminocavus"
+    },
+    {
+      "name": "Unescoceratops",
+      "aliases": [],
+      "popularity": 2789,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Unescoceratops"
+    },
+    {
+      "name": "Bainoceratops",
+      "aliases": [],
+      "popularity": 2799,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Bainoceratops"
+    },
+    {
+      "name": "Ferrisaurus",
+      "aliases": [],
+      "popularity": 3127,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Ferrisaurus"
+    },
+    {
+      "name": "Helioceratops",
+      "aliases": [],
+      "popularity": 3161,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Helioceratops"
+    },
+    {
+      "name": "Dysganus",
+      "aliases": [],
+      "popularity": 3245,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Dysganus"
+    },
+    {
+      "name": "Yamaceratops",
+      "aliases": [],
+      "popularity": 3355,
+      "rarity": 0.789,
+      "tier": 4,
+      "wiki": "Yamaceratops"
+    },
+    {
+      "name": "Menefeeceratops",
+      "aliases": [],
+      "popularity": 3547,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Menefeeceratops"
+    },
+    {
+      "name": "Bisticeratops",
+      "aliases": [],
+      "popularity": 3662,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "Bisticeratops"
+    },
+    {
+      "name": "Zhuchengceratops",
+      "aliases": [],
+      "popularity": 3716,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Zhuchengceratops"
+    },
+    {
+      "name": "Judiceratops",
+      "aliases": [],
+      "popularity": 3738,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Judiceratops"
+    },
+    {
+      "name": "Navajoceratops",
+      "aliases": [],
+      "popularity": 3885,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Navajoceratops"
+    },
+    {
+      "name": "Cerasinops",
+      "aliases": [],
+      "popularity": 3894,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Cerasinops"
+    },
+    {
+      "name": "Crittendenceratops",
+      "aliases": [],
+      "popularity": 3956,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Crittendenceratops"
+    },
+    {
+      "name": "Asiaceratops",
+      "aliases": [],
+      "popularity": 3994,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Asiaceratops"
+    },
+    {
+      "name": "Liaoceratops",
+      "aliases": [],
+      "popularity": 4018,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "Liaoceratops"
+    },
+    {
+      "name": "Sierraceratops",
+      "aliases": [],
+      "popularity": 4020,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Sierraceratops"
+    },
+    {
+      "name": "Furcatoceratops",
+      "aliases": [],
+      "popularity": 4241,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Furcatoceratops"
+    },
+    {
+      "name": "Brachyceratops",
+      "aliases": [],
+      "popularity": 4473,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Brachyceratops"
+    },
+    {
+      "name": "Mercuriceratops",
+      "aliases": [],
+      "popularity": 4530,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Mercuriceratops"
+    },
+    {
+      "name": "Polyonax",
+      "aliases": [],
+      "popularity": 4621,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Polyonax"
+    },
+    {
+      "name": "Yehuecauhceratops",
+      "aliases": [],
+      "popularity": 4682,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Yehuecauhceratops"
+    },
+    {
+      "name": "Auroraceratops",
+      "aliases": [],
+      "popularity": 4738,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Auroraceratops"
+    },
+    {
+      "name": "Machairoceratops",
+      "aliases": [],
+      "popularity": 4757,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Machairoceratops"
+    },
+    {
+      "name": "Prenoceratops",
+      "aliases": [],
+      "popularity": 4853,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Prenoceratops"
+    },
+    {
+      "name": "Graciliceratops",
+      "aliases": [],
+      "popularity": 4999,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "Graciliceratops"
+    },
+    {
+      "name": "Sasayamagnomus",
+      "aliases": [],
+      "popularity": 5161,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Sasayamagnomus"
+    },
+    {
+      "name": "Montanoceratops",
+      "aliases": [],
+      "popularity": 5369,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Montanoceratops"
+    },
+    {
+      "name": "Tatankaceratops",
+      "aliases": [],
+      "popularity": 5844,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Tatankaceratops"
+    },
+    {
+      "name": "Coronosaurus",
+      "aliases": [],
+      "popularity": 5850,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Coronosaurus"
+    },
+    {
+      "name": "Stellasaurus",
+      "aliases": [],
+      "popularity": 6085,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Stellasaurus"
+    },
+    {
+      "name": "Turanoceratops",
+      "aliases": [],
+      "popularity": 6199,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Turanoceratops"
+    },
+    {
+      "name": "Bravoceratops",
+      "aliases": [],
+      "popularity": 6319,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Bravoceratops"
+    },
+    {
+      "name": "Wendiceratops",
+      "aliases": [],
+      "popularity": 6575,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Wendiceratops"
+    },
+    {
+      "name": "Archaeoceratops",
+      "aliases": [],
+      "popularity": 6604,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Archaeoceratops"
+    },
+    {
+      "name": "Serendipaceratops",
+      "aliases": [],
+      "popularity": 7024,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Serendipaceratops"
+    },
+    {
+      "name": "Spiclypeus",
+      "aliases": [],
+      "popularity": 7150,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Spiclypeus"
+    },
+    {
+      "name": "Xenoceratops",
+      "aliases": [],
+      "popularity": 7483,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Xenoceratops"
+    },
+    {
+      "name": "Coahuilaceratops",
+      "aliases": [],
+      "popularity": 7656,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Coahuilaceratops"
+    },
+    {
+      "name": "Agujaceratops",
+      "aliases": [],
+      "popularity": 7844,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Agujaceratops"
+    },
+    {
+      "name": "Koreaceratops",
+      "aliases": [],
+      "popularity": 7876,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Koreaceratops"
+    },
+    {
+      "name": "Avaceratops",
+      "aliases": [],
+      "popularity": 8126,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Avaceratops"
+    },
+    {
+      "name": "Utahceratops",
+      "aliases": [],
+      "popularity": 8546,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Utahceratops"
+    },
+    {
+      "name": "Regaliceratops",
+      "aliases": [],
+      "popularity": 9133,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Regaliceratops"
+    },
+    {
+      "name": "Arrhinoceratops",
+      "aliases": [],
+      "popularity": 9201,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Arrhinoceratops"
+    },
+    {
+      "name": "Vagaceratops",
+      "aliases": [],
+      "popularity": 9330,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Vagaceratops"
+    },
+    {
+      "name": "Udanoceratops",
+      "aliases": [],
+      "popularity": 9342,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Udanoceratops"
+    },
+    {
+      "name": "Cryptarcus",
+      "aliases": [],
+      "popularity": 10078,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Cryptarcus"
+    },
+    {
+      "name": "Albertaceratops",
+      "aliases": [],
+      "popularity": 10497,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Albertaceratops"
+    },
+    {
+      "name": "Anchiceratops",
+      "aliases": [],
+      "popularity": 10549,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Anchiceratops"
+    },
+    {
+      "name": "Nedoceratops",
+      "aliases": [],
+      "popularity": 10610,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Nedoceratops"
+    },
+    {
+      "name": "Monoclonius",
+      "aliases": [],
+      "popularity": 12021,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Monoclonius"
+    },
+    {
+      "name": "Yinlong",
+      "aliases": [],
+      "popularity": 12025,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Yinlong"
+    },
+    {
+      "name": "Chaoyangsaurus",
+      "aliases": [],
+      "popularity": 12499,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Chaoyangsaurus"
+    },
+    {
+      "name": "Ceratops",
+      "aliases": [],
+      "popularity": 13077,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Ceratops"
+    },
+    {
+      "name": "Zuniceratops",
+      "aliases": [],
+      "popularity": 14080,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Zuniceratops"
+    },
+    {
+      "name": "Leptoceratops",
+      "aliases": [],
+      "popularity": 14752,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Leptoceratops"
+    },
+    {
+      "name": "Eotriceratops",
+      "aliases": [],
+      "popularity": 14807,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Eotriceratops"
+    },
+    {
+      "name": "Agathaumas",
+      "aliases": [],
+      "popularity": 16138,
+      "rarity": 0.211,
+      "tier": 2,
+      "wiki": "Agathaumas"
+    },
+    {
+      "name": "Titanoceratops",
+      "aliases": [],
+      "popularity": 16222,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Titanoceratops"
+    },
+    {
+      "name": "Microceratus",
+      "aliases": [],
+      "popularity": 16898,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Microceratus"
+    },
+    {
+      "name": "Kosmoceratops",
+      "aliases": [],
+      "popularity": 17459,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Kosmoceratops"
+    },
+    {
+      "name": "Einiosaurus",
+      "aliases": [
+        "Einiosaur"
+      ],
+      "popularity": 17718,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Einiosaurus"
+    },
+    {
+      "name": "Lokiceratops",
+      "aliases": [],
+      "popularity": 19329,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Lokiceratops"
+    },
+    {
+      "name": "Diabloceratops",
+      "aliases": [],
+      "popularity": 20547,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Diabloceratops"
+    },
+    {
+      "name": "Ferenceratops",
+      "aliases": [],
+      "popularity": 22283,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Ferenceratops"
+    },
+    {
+      "name": "Sinoceratops",
+      "aliases": [],
+      "popularity": 22412,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Sinoceratops"
+    },
+    {
+      "name": "Pentaceratops",
+      "aliases": [],
+      "popularity": 22639,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Pentaceratops"
+    },
+    {
+      "name": "Centrosaurus",
+      "aliases": [],
+      "popularity": 29771,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Centrosaurus"
+    },
+    {
+      "name": "Chasmosaurus",
+      "aliases": [],
+      "popularity": 30253,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Chasmosaurus"
+    },
+    {
+      "name": "Torosaurus",
+      "aliases": [],
+      "popularity": 43497,
+      "rarity": 0.078,
+      "tier": 1,
+      "wiki": "Torosaurus"
+    },
+    {
+      "name": "Pachyrhinosaurus",
+      "aliases": [],
+      "popularity": 47898,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Pachyrhinosaurus"
+    },
+    {
+      "name": "Psittacosaurus",
+      "aliases": [],
+      "popularity": 70419,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Psittacosaurus"
+    },
+    {
+      "name": "Protoceratops",
+      "aliases": [],
+      "popularity": 72206,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Protoceratops"
+    },
+    {
+      "name": "Styracosaurus",
+      "aliases": [],
+      "popularity": 78538,
+      "rarity": 0.033,
+      "tier": 1,
+      "wiki": "Styracosaurus"
+    },
+    {
+      "name": "Aquilops",
+      "aliases": [],
+      "popularity": 78910,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Aquilops"
+    },
+    {
+      "name": "Achelousaurus",
+      "aliases": [],
+      "popularity": 131045,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Achelousaurus"
+    },
+    {
+      "name": "Triceratops",
+      "aliases": [
+        "Triceratopses"
+      ],
+      "popularity": 367110,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Triceratops"
+    }
+  ]
+}

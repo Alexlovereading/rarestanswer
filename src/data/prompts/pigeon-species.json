@@ -1,0 +1,3583 @@
+{
+  "id": "pigeon-species",
+  "slug": "pigeon-species",
+  "category": "animals",
+  "question": "Name a species of pigeon or dove",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Rusty imperial pigeon",
+      "aliases": [
+        "Ducula obiensis"
+      ],
+      "popularity": 7,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Rusty imperial pigeon"
+    },
+    {
+      "name": "Cream-bellied fruit dove",
+      "aliases": [
+        "Cream-breasted Fruit Dove",
+        "Ptilinopus merrilli"
+      ],
+      "popularity": 19,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "Cream-bellied fruit dove"
+    },
+    {
+      "name": "Many-coloured fruit dove",
+      "aliases": [
+        "Ptilinopus perousii"
+      ],
+      "popularity": 139,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "Many-coloured fruit dove"
+    },
+    {
+      "name": "Louisiade imperial pigeon",
+      "aliases": [
+        "Ducula salvadori"
+      ],
+      "popularity": 155,
+      "rarity": 0.991,
+      "tier": 6,
+      "wiki": "Louisiade imperial pigeon"
+    },
+    {
+      "name": "Finsch's imperial pigeon",
+      "aliases": [
+        "Ducula finschii",
+        "Finschís imperial-pigeon"
+      ],
+      "popularity": 339,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Finsch's imperial pigeon"
+    },
+    {
+      "name": "Rufescent imperial pigeon",
+      "aliases": [
+        "Ducula chalconota",
+        "Shining Imperial-pigeon"
+      ],
+      "popularity": 350,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Rufescent imperial pigeon"
+    },
+    {
+      "name": "Seram imperial pigeon",
+      "aliases": [
+        "Ducula neglecta"
+      ],
+      "popularity": 350,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Seram imperial pigeon"
+    },
+    {
+      "name": "Geelvink imperial pigeon",
+      "aliases": [
+        "Ducula geelvinkiana"
+      ],
+      "popularity": 375,
+      "rarity": 0.98,
+      "tier": 6,
+      "wiki": "Geelvink imperial pigeon"
+    },
+    {
+      "name": "Sula cuckoo-dove",
+      "aliases": [
+        "Turacoena sulaensis"
+      ],
+      "popularity": 393,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Sula cuckoo-dove"
+    },
+    {
+      "name": "Enggano imperial pigeon",
+      "aliases": [
+        "Ducula oenothorax"
+      ],
+      "popularity": 411,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "Enggano imperial pigeon"
+    },
+    {
+      "name": "Comoro green pigeon",
+      "aliases": [
+        "Comoros green pigeon",
+        "Treron griveaudi"
+      ],
+      "popularity": 457,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Comoro green pigeon"
+    },
+    {
+      "name": "Dark-backed imperial pigeon",
+      "aliases": [
+        "Ducula lacernulata"
+      ],
+      "popularity": 466,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Dark-backed imperial pigeon"
+    },
+    {
+      "name": "Grey-headed imperial pigeon",
+      "aliases": [
+        "Ducula radiata"
+      ],
+      "popularity": 493,
+      "rarity": 0.965,
+      "tier": 6,
+      "wiki": "Grey-headed imperial pigeon"
+    },
+    {
+      "name": "Spectacled imperial pigeon",
+      "aliases": [
+        "Ducula perspicillata",
+        "white-eyed imperial pigeon"
+      ],
+      "popularity": 506,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Spectacled imperial pigeon"
+    },
+    {
+      "name": "Sula fruit dove",
+      "aliases": [
+        "Ptilinopus mangoliensis"
+      ],
+      "popularity": 508,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Sula fruit dove"
+    },
+    {
+      "name": "Pinon's imperial pigeon",
+      "aliases": [
+        "Ducula pinon"
+      ],
+      "popularity": 566,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Pinon's imperial pigeon"
+    },
+    {
+      "name": "Red-eared fruit dove",
+      "aliases": [
+        "Ptilinopus fischeri"
+      ],
+      "popularity": 572,
+      "rarity": 0.953,
+      "tier": 6,
+      "wiki": "Red-eared fruit dove"
+    },
+    {
+      "name": "Cinnamon-bellied imperial pigeon",
+      "aliases": [
+        "Ducula basilica"
+      ],
+      "popularity": 574,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Cinnamon-bellied imperial pigeon"
+    },
+    {
+      "name": "Timor imperial pigeon",
+      "aliases": [
+        "Ducula cineracea"
+      ],
+      "popularity": 577,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Timor imperial pigeon"
+    },
+    {
+      "name": "Tanimbar cuckoo-dove",
+      "aliases": [
+        "Macropygia timorlaoensis"
+      ],
+      "popularity": 583,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "Tanimbar cuckoo-dove"
+    },
+    {
+      "name": "Purple quail-dove",
+      "aliases": [
+        "Geotrygon purpurata",
+        "indigo-crowned quail-dove"
+      ],
+      "popularity": 603,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Purple quail-dove"
+    },
+    {
+      "name": "Pink-headed imperial pigeon",
+      "aliases": [
+        "Ducula rosacea"
+      ],
+      "popularity": 610,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Pink-headed imperial pigeon"
+    },
+    {
+      "name": "Spice imperial pigeon",
+      "aliases": [
+        "Ducula myristicivora"
+      ],
+      "popularity": 619,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Spice imperial pigeon"
+    },
+    {
+      "name": "Yellowish imperial pigeon",
+      "aliases": [
+        "Ducula subflavescens"
+      ],
+      "popularity": 622,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Yellowish imperial pigeon"
+    },
+    {
+      "name": "Red-knobbed imperial pigeon",
+      "aliases": [
+        "Ducula rubricera"
+      ],
+      "popularity": 623,
+      "rarity": 0.93,
+      "tier": 6,
+      "wiki": "Red-knobbed imperial pigeon"
+    },
+    {
+      "name": "Chestnut-bellied imperial pigeon",
+      "aliases": [
+        "Ducula brenchleyi"
+      ],
+      "popularity": 646,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "Chestnut-bellied imperial pigeon"
+    },
+    {
+      "name": "Spot-breasted cuckoo-dove",
+      "aliases": [
+        "Mackinlay's Cuckoo-Dove",
+        "Macropygia mackinlayi"
+      ],
+      "popularity": 648,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Spot-breasted cuckoo-dove"
+    },
+    {
+      "name": "Island imperial pigeon",
+      "aliases": [
+        "Ducula pistrinaria"
+      ],
+      "popularity": 659,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Island imperial pigeon"
+    },
+    {
+      "name": "Vanuatu imperial pigeon",
+      "aliases": [
+        "Ducula bakeri"
+      ],
+      "popularity": 675,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Vanuatu imperial pigeon"
+    },
+    {
+      "name": "Grey-fronted quail-dove",
+      "aliases": [
+        "Geotrygon caniceps",
+        "Grey-headed quail-dove"
+      ],
+      "popularity": 680,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Grey-fronted quail-dove"
+    },
+    {
+      "name": "Moreno's ground dove",
+      "aliases": [
+        "Metriopelia morenoi"
+      ],
+      "popularity": 686,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Moreno's ground dove"
+    },
+    {
+      "name": "Flores Sea cuckoo-dove",
+      "aliases": [
+        "Macropygia macassariensis"
+      ],
+      "popularity": 689,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Flores Sea cuckoo-dove"
+    },
+    {
+      "name": "Collared imperial pigeon",
+      "aliases": [
+        "Ducula mullerii"
+      ],
+      "popularity": 697,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Collared imperial pigeon"
+    },
+    {
+      "name": "Barusan cuckoo-dove",
+      "aliases": [
+        "Macropygia modiglianii"
+      ],
+      "popularity": 705,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Barusan cuckoo-dove"
+    },
+    {
+      "name": "Banggai fruit dove",
+      "aliases": [
+        "Ptilinopus subgularis"
+      ],
+      "popularity": 712,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Banggai fruit dove"
+    },
+    {
+      "name": "Oberholser's fruit dove",
+      "aliases": [
+        "Ptilinopus epius"
+      ],
+      "popularity": 712,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Oberholser's fruit dove"
+    },
+    {
+      "name": "Ochre-bellied dove",
+      "aliases": [
+        "Leptotila ochraceiventris"
+      ],
+      "popularity": 716,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Ochre-bellied dove"
+    },
+    {
+      "name": "Enggano cuckoo-dove",
+      "aliases": [
+        "Macropygia cinnamomea",
+        "Macropygia cinnamonea"
+      ],
+      "popularity": 729,
+      "rarity": 0.892,
+      "tier": 5,
+      "wiki": "Enggano cuckoo-dove"
+    },
+    {
+      "name": "Russet-crowned quail-dove",
+      "aliases": [
+        "Zentrygon goldmani"
+      ],
+      "popularity": 732,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Russet-crowned quail-dove"
+    },
+    {
+      "name": "Elegant imperial pigeon",
+      "aliases": [
+        "blue-tailed Imperial-pigeon",
+        "Ducula concinna"
+      ],
+      "popularity": 742,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Elegant imperial pigeon"
+    },
+    {
+      "name": "Bare-faced ground dove",
+      "aliases": [
+        "Metriopelia ceciliae"
+      ],
+      "popularity": 746,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Bare-faced ground dove"
+    },
+    {
+      "name": "Puerto Rican quail-dove",
+      "aliases": [
+        "Geotrygon larva"
+      ],
+      "popularity": 748,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Puerto Rican quail-dove"
+    },
+    {
+      "name": "Timor cuckoo-dove",
+      "aliases": [
+        "Bar-necked Cuckoo-Dove",
+        "Macropygia magna"
+      ],
+      "popularity": 750,
+      "rarity": 0.878,
+      "tier": 5,
+      "wiki": "Timor cuckoo-dove"
+    },
+    {
+      "name": "Malabar imperial pigeon",
+      "aliases": [
+        "Ducula cuprea"
+      ],
+      "popularity": 753,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Malabar imperial pigeon"
+    },
+    {
+      "name": "Grey-headed fruit dove",
+      "aliases": [
+        "Ptilinopus hyogaster",
+        "Ptilinopus hyogastrus"
+      ],
+      "popularity": 756,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Grey-headed fruit dove"
+    },
+    {
+      "name": "Bar-tailed cuckoo-dove",
+      "aliases": [
+        "Macropygia nigrirostris"
+      ],
+      "popularity": 761,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Bar-tailed cuckoo-dove"
+    },
+    {
+      "name": "Purplish-backed quail-dove",
+      "aliases": [
+        "Zentrygon lawrencii"
+      ],
+      "popularity": 762,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "Purplish-backed quail-dove"
+    },
+    {
+      "name": "Purple-tailed imperial pigeon",
+      "aliases": [
+        "Ducula rufigaster"
+      ],
+      "popularity": 763,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Purple-tailed imperial pigeon"
+    },
+    {
+      "name": "Sapphire quail-dove",
+      "aliases": [
+        "Geotrygon saphirina"
+      ],
+      "popularity": 782,
+      "rarity": 0.86,
+      "tier": 5,
+      "wiki": "Sapphire quail-dove"
+    },
+    {
+      "name": "Yungas dove",
+      "aliases": [
+        "Leptotila megalura"
+      ],
+      "popularity": 798,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Yungas dove"
+    },
+    {
+      "name": "Lined quail-dove",
+      "aliases": [
+        "Zentrygon linearis"
+      ],
+      "popularity": 801,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Lined quail-dove"
+    },
+    {
+      "name": "Pale mountain pigeon",
+      "aliases": [
+        "Gymnophaps solomonensis"
+      ],
+      "popularity": 809,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Pale mountain pigeon"
+    },
+    {
+      "name": "Sombre pigeon",
+      "aliases": [
+        "Cryptophaps poecilorrhoa"
+      ],
+      "popularity": 825,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Sombre pigeon"
+    },
+    {
+      "name": "Nicobar imperial pigeon",
+      "aliases": [
+        "Ducula nicobarica"
+      ],
+      "popularity": 826,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Nicobar imperial pigeon"
+    },
+    {
+      "name": "Tolima dove",
+      "aliases": [
+        "Leptotila conoveri"
+      ],
+      "popularity": 829,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Tolima dove"
+    },
+    {
+      "name": "Yellow-bibbed fruit dove",
+      "aliases": [
+        "Ptilinopus solomonensis"
+      ],
+      "popularity": 833,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Yellow-bibbed fruit dove"
+    },
+    {
+      "name": "Chiriqui quail-dove",
+      "aliases": [
+        "Zentrygon chiriquensis"
+      ],
+      "popularity": 834,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Chiriqui quail-dove"
+    },
+    {
+      "name": "Pallid dove",
+      "aliases": [
+        "Leptotila pallida"
+      ],
+      "popularity": 834,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Pallid dove"
+    },
+    {
+      "name": "Silver-tipped imperial pigeon",
+      "aliases": [
+        "Ducula luctuosa",
+        "white imperial pigeon",
+        "white-tipped imperial pigeon"
+      ],
+      "popularity": 853,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Silver-tipped imperial pigeon"
+    },
+    {
+      "name": "White-throated quail-dove",
+      "aliases": [
+        "Zentrygon frenata"
+      ],
+      "popularity": 854,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "White-throated quail-dove"
+    },
+    {
+      "name": "White-fronted ground dove",
+      "aliases": [
+        "Alopecoenas kubaryi",
+        "Caroline Islands Ground-Dove"
+      ],
+      "popularity": 858,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "White-fronted ground dove"
+    },
+    {
+      "name": "White-bellied imperial pigeon",
+      "aliases": [
+        "Ducula forsteni"
+      ],
+      "popularity": 864,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "White-bellied imperial pigeon"
+    },
+    {
+      "name": "Golden-spotted ground dove",
+      "aliases": [
+        "Metriopelia aymara"
+      ],
+      "popularity": 865,
+      "rarity": 0.819,
+      "tier": 5,
+      "wiki": "Golden-spotted ground dove"
+    },
+    {
+      "name": "Mindanao brown dove",
+      "aliases": [
+        "Phapitreron brunneiceps"
+      ],
+      "popularity": 866,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Mindanao brown dove"
+    },
+    {
+      "name": "White-faced quail-dove",
+      "aliases": [
+        "Zentrygon albifacies"
+      ],
+      "popularity": 874,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "White-faced quail-dove"
+    },
+    {
+      "name": "White-faced cuckoo-dove",
+      "aliases": [
+        "Turacoena manadensis",
+        "White-faced Dove"
+      ],
+      "popularity": 884,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "White-faced cuckoo-dove"
+    },
+    {
+      "name": "Chestnut-quilled rock pigeon",
+      "aliases": [
+        "Petrophassa rufipennis"
+      ],
+      "popularity": 892,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Chestnut-quilled rock pigeon"
+    },
+    {
+      "name": "Seram mountain pigeon",
+      "aliases": [
+        "Gymnophaps stalkeri"
+      ],
+      "popularity": 893,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Seram mountain pigeon"
+    },
+    {
+      "name": "Buru mountain pigeon",
+      "aliases": [
+        "Gymnophaps mada"
+      ],
+      "popularity": 895,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Buru mountain pigeon"
+    },
+    {
+      "name": "Raiatea fruit dove",
+      "aliases": [
+        "Ptilinopus chrysogaster"
+      ],
+      "popularity": 898,
+      "rarity": 0.799,
+      "tier": 4,
+      "wiki": "Raiatea fruit dove"
+    },
+    {
+      "name": "Kosrae fruit dove",
+      "aliases": [
+        "Ptilinopus hernsheimi"
+      ],
+      "popularity": 902,
+      "rarity": 0.796,
+      "tier": 4,
+      "wiki": "Kosrae fruit dove"
+    },
+    {
+      "name": "Ecuadorian ground dove",
+      "aliases": [
+        "Columbina buckleyi"
+      ],
+      "popularity": 910,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Ecuadorian ground dove"
+    },
+    {
+      "name": "Scarlet-breasted fruit dove",
+      "aliases": [
+        "Ptilinopus bernsteinii"
+      ],
+      "popularity": 914,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Scarlet-breasted fruit dove"
+    },
+    {
+      "name": "Blue-capped fruit dove",
+      "aliases": [
+        "Ptilinopus monacha"
+      ],
+      "popularity": 917,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Blue-capped fruit dove"
+    },
+    {
+      "name": "Flores green pigeon",
+      "aliases": [
+        "Treron floris"
+      ],
+      "popularity": 919,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Flores green pigeon"
+    },
+    {
+      "name": "Silver-capped fruit dove",
+      "aliases": [
+        "Ptilinopus richardsii"
+      ],
+      "popularity": 920,
+      "rarity": 0.781,
+      "tier": 4,
+      "wiki": "Silver-capped fruit dove"
+    },
+    {
+      "name": "Micronesian imperial pigeon",
+      "aliases": [
+        "Ducula oceanica"
+      ],
+      "popularity": 922,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Micronesian imperial pigeon"
+    },
+    {
+      "name": "Sumba green pigeon",
+      "aliases": [
+        "Sumba Islands green pigeon",
+        "Treron teysmanni",
+        "Treron teysmannii"
+      ],
+      "popularity": 925,
+      "rarity": 0.776,
+      "tier": 4,
+      "wiki": "Sumba green pigeon"
+    },
+    {
+      "name": "White-fronted quail-dove",
+      "aliases": [
+        "Geotrygon leucometopia"
+      ],
+      "popularity": 926,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "White-fronted quail-dove"
+    },
+    {
+      "name": "White-winged collared dove",
+      "aliases": [
+        "Streptopelia reichenowi"
+      ],
+      "popularity": 927,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "White-winged collared dove"
+    },
+    {
+      "name": "New Guinea bronzewing",
+      "aliases": [
+        "Henicophaps albifrons"
+      ],
+      "popularity": 929,
+      "rarity": 0.767,
+      "tier": 4,
+      "wiki": "New Guinea bronzewing"
+    },
+    {
+      "name": "Carunculated fruit dove",
+      "aliases": [
+        "Ptilinopus granulifrons"
+      ],
+      "popularity": 933,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Carunculated fruit dove"
+    },
+    {
+      "name": "Violaceous quail-dove",
+      "aliases": [
+        "Geotrygon violacea"
+      ],
+      "popularity": 939,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Violaceous quail-dove"
+    },
+    {
+      "name": "Bronze ground dove",
+      "aliases": [
+        "Gallicolumba beccarii",
+        "Pampusana beccarii",
+        "Western Bronze Ground-dove"
+      ],
+      "popularity": 944,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Bronze ground dove"
+    },
+    {
+      "name": "São Tomé green pigeon",
+      "aliases": [
+        "Treron sanctithomae"
+      ],
+      "popularity": 950,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "São Tomé green pigeon"
+    },
+    {
+      "name": "Grey-chested dove",
+      "aliases": [
+        "Leptotila cassinii"
+      ],
+      "popularity": 953,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Grey-chested dove"
+    },
+    {
+      "name": "Yellow-vented green pigeon",
+      "aliases": [
+        "Treron seimundi"
+      ],
+      "popularity": 959,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Yellow-vented green pigeon"
+    },
+    {
+      "name": "Zoe's imperial pigeon",
+      "aliases": [
+        "Ducula zoeae"
+      ],
+      "popularity": 965,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Zoe's imperial pigeon"
+    },
+    {
+      "name": "Stephan's emerald dove",
+      "aliases": [
+        "Chalcophaps stephani",
+        "Stephan's Dove"
+      ],
+      "popularity": 970,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Stephan's emerald dove"
+    },
+    {
+      "name": "Buff-fronted quail-dove",
+      "aliases": [
+        "Zentrygon costaricensis"
+      ],
+      "popularity": 979,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Buff-fronted quail-dove"
+    },
+    {
+      "name": "Azuero dove",
+      "aliases": [
+        "Leptotila battyi"
+      ],
+      "popularity": 995,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Azuero dove"
+    },
+    {
+      "name": "Maroon-chested ground dove",
+      "aliases": [
+        "Claravis mondetoura",
+        "Paraclaravis mondetoura"
+      ],
+      "popularity": 999,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Maroon-chested ground dove"
+    },
+    {
+      "name": "Knob-billed fruit dove",
+      "aliases": [
+        "Ptilinopus insolitus"
+      ],
+      "popularity": 1000,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Knob-billed fruit dove"
+    },
+    {
+      "name": "Grey-cheeked green pigeon",
+      "aliases": [
+        "Treron griseicauda"
+      ],
+      "popularity": 1001,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Grey-cheeked green pigeon"
+    },
+    {
+      "name": "Comoro blue pigeon",
+      "aliases": [
+        "Alectroenas sganzini",
+        "Comoros Blue Pigeon"
+      ],
+      "popularity": 1003,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Comoro blue pigeon"
+    },
+    {
+      "name": "White-bibbed fruit dove",
+      "aliases": [
+        "Ptilinopus rivoli"
+      ],
+      "popularity": 1004,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "White-bibbed fruit dove"
+    },
+    {
+      "name": "Sultan's cuckoo-dove",
+      "aliases": [
+        "Macropygia doreya"
+      ],
+      "popularity": 1009,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Sultan's cuckoo-dove"
+    },
+    {
+      "name": "Marquesan ground dove",
+      "aliases": [
+        "Alopecoenas rubescens"
+      ],
+      "popularity": 1022,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Marquesan ground dove"
+    },
+    {
+      "name": "Ruddy cuckoo-dove",
+      "aliases": [
+        "Macropygia emiliana"
+      ],
+      "popularity": 1039,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Ruddy cuckoo-dove"
+    },
+    {
+      "name": "Tuxtla quail-dove",
+      "aliases": [
+        "Zentrygon carrikeri"
+      ],
+      "popularity": 1052,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Tuxtla quail-dove"
+    },
+    {
+      "name": "Black-billed wood dove",
+      "aliases": [
+        "Turtur abyssinicus"
+      ],
+      "popularity": 1053,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Black-billed wood dove"
+    },
+    {
+      "name": "Tawitawi brown dove",
+      "aliases": [
+        "Phapitreron cinereiceps"
+      ],
+      "popularity": 1078,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Tawitawi brown dove"
+    },
+    {
+      "name": "Grey-headed dove",
+      "aliases": [
+        "Leptotila plumbeiceps"
+      ],
+      "popularity": 1082,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Grey-headed dove"
+    },
+    {
+      "name": "Grey imperial pigeon",
+      "aliases": [
+        "Ducula pickeringii"
+      ],
+      "popularity": 1087,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Grey imperial pigeon"
+    },
+    {
+      "name": "Black-winged ground dove",
+      "aliases": [
+        "Metriopelia melanoptera"
+      ],
+      "popularity": 1089,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "Black-winged ground dove"
+    },
+    {
+      "name": "Coroneted fruit dove",
+      "aliases": [
+        "Ptilinopus coronulatus"
+      ],
+      "popularity": 1128,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Coroneted fruit dove"
+    },
+    {
+      "name": "Orange-bellied fruit dove",
+      "aliases": [
+        "Ptilinopus iozonus"
+      ],
+      "popularity": 1128,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Orange-bellied fruit dove"
+    },
+    {
+      "name": "Tanna fruit dove",
+      "aliases": [
+        "Ptilinopus tannensis"
+      ],
+      "popularity": 1158,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Tanna fruit dove"
+    },
+    {
+      "name": "Red-naped fruit dove",
+      "aliases": [
+        "Ptilinopus dohertyi"
+      ],
+      "popularity": 1159,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Red-naped fruit dove"
+    },
+    {
+      "name": "White-quilled rock pigeon",
+      "aliases": [
+        "Petrophassa albipennis"
+      ],
+      "popularity": 1167,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "White-quilled rock pigeon"
+    },
+    {
+      "name": "Barking imperial pigeon",
+      "aliases": [
+        "Ducula latrans"
+      ],
+      "popularity": 1181,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Barking imperial pigeon"
+    },
+    {
+      "name": "Pemba green pigeon",
+      "aliases": [
+        "Treron pembaensis"
+      ],
+      "popularity": 1186,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Pemba green pigeon"
+    },
+    {
+      "name": "Long-tailed ground dove",
+      "aliases": [
+        "Uropelia campestris"
+      ],
+      "popularity": 1187,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Long-tailed ground dove"
+    },
+    {
+      "name": "Ashy-headed green pigeon",
+      "aliases": [
+        "Treron phayrei"
+      ],
+      "popularity": 1221,
+      "rarity": 0.671,
+      "tier": 4,
+      "wiki": "Ashy-headed green pigeon"
+    },
+    {
+      "name": "Wetar ground dove",
+      "aliases": [
+        "Alopecoenas hoedtii"
+      ],
+      "popularity": 1240,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "Wetar ground dove"
+    },
+    {
+      "name": "Grey-fronted dove",
+      "aliases": [
+        "Leptotila rufaxilla"
+      ],
+      "popularity": 1249,
+      "rarity": 0.665,
+      "tier": 4,
+      "wiki": "Grey-fronted dove"
+    },
+    {
+      "name": "Spotted imperial pigeon",
+      "aliases": [
+        "Ducula carola"
+      ],
+      "popularity": 1254,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Spotted imperial pigeon"
+    },
+    {
+      "name": "Geelvink fruit dove",
+      "aliases": [
+        "Ptilinopus speciosus"
+      ],
+      "popularity": 1266,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Geelvink fruit dove"
+    },
+    {
+      "name": "Olive-backed quail-dove",
+      "aliases": [
+        "Leptotrygon veraguensis"
+      ],
+      "popularity": 1269,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Olive-backed quail-dove"
+    },
+    {
+      "name": "Pink-bellied imperial pigeon",
+      "aliases": [
+        "Ducula poliocephala"
+      ],
+      "popularity": 1273,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Pink-bellied imperial pigeon"
+    },
+    {
+      "name": "Purple-capped fruit dove",
+      "aliases": [
+        "Ptilinopus ponapensis"
+      ],
+      "popularity": 1278,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Purple-capped fruit dove"
+    },
+    {
+      "name": "Polynesian imperial pigeon",
+      "aliases": [
+        "Ducula aurorae"
+      ],
+      "popularity": 1282,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Polynesian imperial pigeon"
+    },
+    {
+      "name": "Claret-breasted fruit dove",
+      "aliases": [
+        "Ptilinopus viridis"
+      ],
+      "popularity": 1291,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Claret-breasted fruit dove"
+    },
+    {
+      "name": "Papuan mountain pigeon",
+      "aliases": [
+        "Bare-eyed mountain pigeon",
+        "Gymnophaps albertisii"
+      ],
+      "popularity": 1295,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Papuan mountain pigeon"
+    },
+    {
+      "name": "Andaman cuckoo-dove",
+      "aliases": [
+        "Macropygia rufipennis"
+      ],
+      "popularity": 1300,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Andaman cuckoo-dove"
+    },
+    {
+      "name": "Santa Cruz ground dove",
+      "aliases": [
+        "Alopecoenas sanctaecrucis"
+      ],
+      "popularity": 1304,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Santa Cruz ground dove"
+    },
+    {
+      "name": "Madagascar green pigeon",
+      "aliases": [
+        "Madagascan Green Pigeon",
+        "Treron australis"
+      ],
+      "popularity": 1323,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Madagascar green pigeon"
+    },
+    {
+      "name": "Mindoro imperial pigeon",
+      "aliases": [
+        "Ducula mindorensis"
+      ],
+      "popularity": 1329,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Mindoro imperial pigeon"
+    },
+    {
+      "name": "Pied cuckoo-dove",
+      "aliases": [
+        "Reinwardtoena browni"
+      ],
+      "popularity": 1329,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Pied cuckoo-dove"
+    },
+    {
+      "name": "Dusky pigeon",
+      "aliases": [
+        "Patagioenas goodsoni"
+      ],
+      "popularity": 1334,
+      "rarity": 0.624,
+      "tier": 4,
+      "wiki": "Dusky pigeon"
+    },
+    {
+      "name": "Andaman green pigeon",
+      "aliases": [
+        "Treron chloropterus"
+      ],
+      "popularity": 1336,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Andaman green pigeon"
+    },
+    {
+      "name": "Lilac-crowned fruit dove",
+      "aliases": [
+        "Cook Islands fruit-dove",
+        "Ptilinopus raratongensis",
+        "Ptilinopus rarotongensis",
+        "Raratongan fruit dove"
+      ],
+      "popularity": 1340,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Lilac-crowned fruit dove"
+    },
+    {
+      "name": "São Tomé olive pigeon",
+      "aliases": [
+        "Columba thomensis",
+        "Maroon pigeon"
+      ],
+      "popularity": 1344,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "São Tomé olive pigeon"
+    },
+    {
+      "name": "New Britain bronzewing",
+      "aliases": [
+        "Henicophaps foersteri"
+      ],
+      "popularity": 1348,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "New Britain bronzewing"
+    },
+    {
+      "name": "Buru green pigeon",
+      "aliases": [
+        "Treron aromaticus"
+      ],
+      "popularity": 1353,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Buru green pigeon"
+    },
+    {
+      "name": "Orange-fronted fruit dove",
+      "aliases": [
+        "Ptilinopus aurantifrons",
+        "Ptilinopus aurantiifrons"
+      ],
+      "popularity": 1355,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Orange-fronted fruit dove"
+    },
+    {
+      "name": "White-capped fruit dove",
+      "aliases": [
+        "Ptilinopus dupetithouarsii"
+      ],
+      "popularity": 1356,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "White-capped fruit dove"
+    },
+    {
+      "name": "Nuku Hiva imperial pigeon",
+      "aliases": [
+        "Ducula galeata",
+        "Marquesan Imperial Pigeon",
+        "upe"
+      ],
+      "popularity": 1365,
+      "rarity": 0.601,
+      "tier": 4,
+      "wiki": "Nuku Hiva imperial pigeon"
+    },
+    {
+      "name": "Crested cuckoo-dove",
+      "aliases": [
+        "Reinwardtoena crassirostris"
+      ],
+      "popularity": 1382,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Crested cuckoo-dove"
+    },
+    {
+      "name": "Black-chinned fruit dove",
+      "aliases": [
+        "Ptilinopus leclancheri"
+      ],
+      "popularity": 1392,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Black-chinned fruit dove"
+    },
+    {
+      "name": "Red-bellied fruit dove",
+      "aliases": [
+        "Grey's fruit dove",
+        "Ptilinopus greyi",
+        "Ptilinopus greyii"
+      ],
+      "popularity": 1398,
+      "rarity": 0.592,
+      "tier": 3,
+      "wiki": "Red-bellied fruit dove"
+    },
+    {
+      "name": "Comoro olive pigeon",
+      "aliases": [
+        "Columba pollenii",
+        "Comoros Olive Pigeon"
+      ],
+      "popularity": 1425,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "Comoro olive pigeon"
+    },
+    {
+      "name": "Pin-tailed green pigeon",
+      "aliases": [
+        "Treron apicauda"
+      ],
+      "popularity": 1426,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Pin-tailed green pigeon"
+    },
+    {
+      "name": "Eastern bronze-naped pigeon",
+      "aliases": [
+        "Columba delegorguei"
+      ],
+      "popularity": 1444,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Eastern bronze-naped pigeon"
+    },
+    {
+      "name": "Little cuckoo-dove",
+      "aliases": [
+        "Macropygia ruficeps"
+      ],
+      "popularity": 1446,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Little cuckoo-dove"
+    },
+    {
+      "name": "Blue-headed wood dove",
+      "aliases": [
+        "Turtur brehmeri"
+      ],
+      "popularity": 1452,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Blue-headed wood dove"
+    },
+    {
+      "name": "Western bronze-naped pigeon",
+      "aliases": [
+        "Columba iriditorques"
+      ],
+      "popularity": 1460,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Western bronze-naped pigeon"
+    },
+    {
+      "name": "Cameroon olive pigeon",
+      "aliases": [
+        "Cameroun olive pigeon",
+        "Columba sjostedti"
+      ],
+      "popularity": 1464,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Cameroon olive pigeon"
+    },
+    {
+      "name": "Palau ground dove",
+      "aliases": [
+        "Pampusana canifrons"
+      ],
+      "popularity": 1470,
+      "rarity": 0.569,
+      "tier": 3,
+      "wiki": "Palau ground dove"
+    },
+    {
+      "name": "White-naped pigeon",
+      "aliases": [
+        "Columba albinucha"
+      ],
+      "popularity": 1472,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "White-naped pigeon"
+    },
+    {
+      "name": "Yellow-legged pigeon",
+      "aliases": [
+        "Columba pallidiceps"
+      ],
+      "popularity": 1478,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Yellow-legged pigeon"
+    },
+    {
+      "name": "Large green pigeon",
+      "aliases": [
+        "Treron capellei"
+      ],
+      "popularity": 1497,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Large green pigeon"
+    },
+    {
+      "name": "Maranon pigeon",
+      "aliases": [
+        "Patagioenas oenops",
+        "Peruvian pigeon",
+        "Salvin's pigeon"
+      ],
+      "popularity": 1534,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Maranon pigeon"
+    },
+    {
+      "name": "Short-billed pigeon",
+      "aliases": [
+        "Patagioenas nigrirostris"
+      ],
+      "popularity": 1559,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Short-billed pigeon"
+    },
+    {
+      "name": "Ornate fruit dove",
+      "aliases": [
+        "Ptilinopus ornatus",
+        "western ornate fruit-dove"
+      ],
+      "popularity": 1582,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Ornate fruit dove"
+    },
+    {
+      "name": "Island bronze-naped pigeon",
+      "aliases": [
+        "Columba malherbii"
+      ],
+      "popularity": 1585,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Island bronze-naped pigeon"
+    },
+    {
+      "name": "White-headed fruit dove",
+      "aliases": [
+        "Ptilinopus eugeniae"
+      ],
+      "popularity": 1594,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "White-headed fruit dove"
+    },
+    {
+      "name": "Crested quail-dove",
+      "aliases": [
+        "Geotrygon versicolor"
+      ],
+      "popularity": 1631,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Crested quail-dove"
+    },
+    {
+      "name": "Croaking ground dove",
+      "aliases": [
+        "Columbina cruziana"
+      ],
+      "popularity": 1639,
+      "rarity": 0.539,
+      "tier": 3,
+      "wiki": "Croaking ground dove"
+    },
+    {
+      "name": "Atoll fruit dove",
+      "aliases": [
+        "Ptilinopus coralensis"
+      ],
+      "popularity": 1641,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Atoll fruit dove"
+    },
+    {
+      "name": "Amethyst brown dove",
+      "aliases": [
+        "Greater brown fruit dove",
+        "Phapipteron amethystina",
+        "Phapitreron amethystinus"
+      ],
+      "popularity": 1668,
+      "rarity": 0.534,
+      "tier": 3,
+      "wiki": "Amethyst brown dove"
+    },
+    {
+      "name": "Christmas imperial pigeon",
+      "aliases": [
+        "Ducula whartoni"
+      ],
+      "popularity": 1687,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Christmas imperial pigeon"
+    },
+    {
+      "name": "White-breasted ground dove",
+      "aliases": [
+        "Alopecoenas jobiensis"
+      ],
+      "popularity": 1700,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "White-breasted ground dove"
+    },
+    {
+      "name": "Shy ground dove",
+      "aliases": [
+        "Alopecoenas stairi"
+      ],
+      "popularity": 1725,
+      "rarity": 0.525,
+      "tier": 3,
+      "wiki": "Shy ground dove"
+    },
+    {
+      "name": "Bridled quail-dove",
+      "aliases": [
+        "Geotrygon mystacea"
+      ],
+      "popularity": 1736,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Bridled quail-dove"
+    },
+    {
+      "name": "Flame-breasted fruit dove",
+      "aliases": [
+        "Ptilinopus marchei",
+        "Ramphiculus marchei"
+      ],
+      "popularity": 1742,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Flame-breasted fruit dove"
+    },
+    {
+      "name": "Chatham Islands pigeon",
+      "aliases": [
+        "Chatham Island pigeon",
+        "Chatham Pigeon",
+        "Hemiphaga chathamensis",
+        "Parea"
+      ],
+      "popularity": 1748,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Chatham Islands pigeon"
+    },
+    {
+      "name": "Flock bronzewing",
+      "aliases": [
+        "harlequin pigeon",
+        "Phaps histrionica"
+      ],
+      "popularity": 1754,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Flock bronzewing"
+    },
+    {
+      "name": "Black-banded fruit dove",
+      "aliases": [
+        "Ptilinopus alligator"
+      ],
+      "popularity": 1755,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Black-banded fruit dove"
+    },
+    {
+      "name": "Banded fruit dove",
+      "aliases": [
+        "Black-breasted fruit dove",
+        "Ptilinopus cincta",
+        "Ptilinopus cinctus"
+      ],
+      "popularity": 1791,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Banded fruit dove"
+    },
+    {
+      "name": "Barred dove",
+      "aliases": [
+        "Geopelia maugei"
+      ],
+      "popularity": 1797,
+      "rarity": 0.504,
+      "tier": 3,
+      "wiki": "Barred dove"
+    },
+    {
+      "name": "Whistling dove",
+      "aliases": [
+        "Ptilinopus layardi",
+        "Whistling Fruit Dove"
+      ],
+      "popularity": 1799,
+      "rarity": 0.501,
+      "tier": 3,
+      "wiki": "Whistling dove"
+    },
+    {
+      "name": "Mountain imperial pigeon",
+      "aliases": [
+        "Ducula badia",
+        "Maroon-backed Imperial pigeon"
+      ],
+      "popularity": 1823,
+      "rarity": 0.499,
+      "tier": 3,
+      "wiki": "Mountain imperial pigeon"
+    },
+    {
+      "name": "Makatea fruit dove",
+      "aliases": [
+        "Ptilinopus chalcurus"
+      ],
+      "popularity": 1834,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Makatea fruit dove"
+    },
+    {
+      "name": "Philippine cuckoo-dove",
+      "aliases": [
+        "Macropygia tenuirostris"
+      ],
+      "popularity": 1834,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Philippine cuckoo-dove"
+    },
+    {
+      "name": "Little green pigeon",
+      "aliases": [
+        "Treron olax"
+      ],
+      "popularity": 1857,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Little green pigeon"
+    },
+    {
+      "name": "Pink-spotted fruit dove",
+      "aliases": [
+        "Ptilinopus perlatus"
+      ],
+      "popularity": 1861,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "Pink-spotted fruit dove"
+    },
+    {
+      "name": "Sumatran green pigeon",
+      "aliases": [
+        "Treron oxyura",
+        "Treron oxyurus"
+      ],
+      "popularity": 1866,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Sumatran green pigeon"
+    },
+    {
+      "name": "Blue-spotted wood dove",
+      "aliases": [
+        "Turtur afer",
+        "Turtur aferer"
+      ],
+      "popularity": 1878,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Blue-spotted wood dove"
+    },
+    {
+      "name": "Goliath imperial pigeon",
+      "aliases": [
+        "Ducula goliath"
+      ],
+      "popularity": 1913,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Goliath imperial pigeon"
+    },
+    {
+      "name": "Burmese collared dove",
+      "aliases": [
+        "Streptopelia xanthocycla"
+      ],
+      "popularity": 1914,
+      "rarity": 0.475,
+      "tier": 3,
+      "wiki": "Burmese collared dove"
+    },
+    {
+      "name": "Plumbeous pigeon",
+      "aliases": [
+        "Columba plumbea",
+        "Patagioenas plumbea"
+      ],
+      "popularity": 1921,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Plumbeous pigeon"
+    },
+    {
+      "name": "Partridge pigeon",
+      "aliases": [
+        "Bare-eyed partridge bronzewing",
+        "Geophaps smithii",
+        "Petrophassa smithii"
+      ],
+      "popularity": 1946,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Partridge pigeon"
+    },
+    {
+      "name": "Wallace's fruit dove",
+      "aliases": [
+        "Ptilinopus wallacii",
+        "Wallaceís fruit dove"
+      ],
+      "popularity": 1957,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "Wallace's fruit dove"
+    },
+    {
+      "name": "Amboyna cuckoo-dove",
+      "aliases": [
+        "Macropygia amboinensis"
+      ],
+      "popularity": 1959,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Amboyna cuckoo-dove"
+    },
+    {
+      "name": "Cinnamon-headed green pigeon",
+      "aliases": [
+        "Treron fulvicollis"
+      ],
+      "popularity": 1974,
+      "rarity": 0.461,
+      "tier": 3,
+      "wiki": "Cinnamon-headed green pigeon"
+    },
+    {
+      "name": "Spot-winged pigeon",
+      "aliases": [
+        "Columba maculosa",
+        "Patagioenas maculosa",
+        "Spotted pigeon"
+      ],
+      "popularity": 1978,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Spot-winged pigeon"
+    },
+    {
+      "name": "Yellow-breasted fruit dove",
+      "aliases": [
+        "Ptilinopus occipitalis"
+      ],
+      "popularity": 1995,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Yellow-breasted fruit dove"
+    },
+    {
+      "name": "Grey-fronted green pigeon",
+      "aliases": [
+        "Treron affinis"
+      ],
+      "popularity": 2046,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Grey-fronted green pigeon"
+    },
+    {
+      "name": "Madagascar blue pigeon",
+      "aliases": [
+        "Alectroenas madagascariensis"
+      ],
+      "popularity": 2063,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Madagascar blue pigeon"
+    },
+    {
+      "name": "White-throated ground dove",
+      "aliases": [
+        "Alopecoenas xanthonurus"
+      ],
+      "popularity": 2075,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "White-throated ground dove"
+    },
+    {
+      "name": "Scaled dove",
+      "aliases": [
+        "Columbina squammata",
+        "Scardafella squammata"
+      ],
+      "popularity": 2083,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Scaled dove"
+    },
+    {
+      "name": "Taiwan green pigeon",
+      "aliases": [
+        "Treron formosae",
+        "Whistling Green Pigeon"
+      ],
+      "popularity": 2090,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Taiwan green pigeon"
+    },
+    {
+      "name": "Ashy wood pigeon",
+      "aliases": [
+        "Columba pulchricollis"
+      ],
+      "popularity": 2100,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Ashy wood pigeon"
+    },
+    {
+      "name": "Plain-breasted ground dove",
+      "aliases": [
+        "Columbina minuta"
+      ],
+      "popularity": 2119,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Plain-breasted ground dove"
+    },
+    {
+      "name": "Purple-winged ground dove",
+      "aliases": [
+        "Paraclaravis geoffroyi"
+      ],
+      "popularity": 2121,
+      "rarity": 0.431,
+      "tier": 3,
+      "wiki": "Purple-winged ground dove"
+    },
+    {
+      "name": "Wedge-tailed green pigeon",
+      "aliases": [
+        "Treron sphenurus"
+      ],
+      "popularity": 2134,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Wedge-tailed green pigeon"
+    },
+    {
+      "name": "Dwarf fruit dove",
+      "aliases": [
+        "Ptilinopus naina",
+        "Ptilinopus nainus"
+      ],
+      "popularity": 2148,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Dwarf fruit dove"
+    },
+    {
+      "name": "Barred cuckoo-dove",
+      "aliases": [
+        "Macropygia unchall"
+      ],
+      "popularity": 2183,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Barred cuckoo-dove"
+    },
+    {
+      "name": "Key West quail-dove",
+      "aliases": [
+        "Geotrygon chrysia"
+      ],
+      "popularity": 2186,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Key West quail-dove"
+    },
+    {
+      "name": "Ruddy pigeon",
+      "aliases": [
+        "Patagioenas subvinacea"
+      ],
+      "popularity": 2193,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Ruddy pigeon"
+    },
+    {
+      "name": "Sunda collared dove",
+      "aliases": [
+        "Island Collared Dove",
+        "Streptopelia bitorquata"
+      ],
+      "popularity": 2230,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Sunda collared dove"
+    },
+    {
+      "name": "Great cuckoo-dove",
+      "aliases": [
+        "Reinwardt's long-tailed pigeon",
+        "Reinwardtoena reinwardti",
+        "Reinwardtoena reinwardtii",
+        "Reinwardtoena reinwardtsi"
+      ],
+      "popularity": 2241,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Great cuckoo-dove"
+    },
+    {
+      "name": "Ring-tailed pigeon",
+      "aliases": [
+        "Jamaican band-tailed pigeon",
+        "Patagioenas caribaea"
+      ],
+      "popularity": 2249,
+      "rarity": 0.408,
+      "tier": 3,
+      "wiki": "Ring-tailed pigeon"
+    },
+    {
+      "name": "Vinaceous dove",
+      "aliases": [
+        "Streptopelia vinacea"
+      ],
+      "popularity": 2252,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "Vinaceous dove"
+    },
+    {
+      "name": "Rapa fruit dove",
+      "aliases": [
+        "Ptilinopus huttoni"
+      ],
+      "popularity": 2290,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Rapa fruit dove"
+    },
+    {
+      "name": "Beautiful fruit dove",
+      "aliases": [
+        "crimson-capped fruit dove",
+        "Ptilinopus pulchellus",
+        "rose-fronted pigeon"
+      ],
+      "popularity": 2362,
+      "rarity": 0.399,
+      "tier": 2,
+      "wiki": "Beautiful fruit dove"
+    },
+    {
+      "name": "Picui ground dove",
+      "aliases": [
+        "Columbina picui"
+      ],
+      "popularity": 2379,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Picui ground dove"
+    },
+    {
+      "name": "Pacific imperial pigeon",
+      "aliases": [
+        "Ducula pacifica"
+      ],
+      "popularity": 2389,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Pacific imperial pigeon"
+    },
+    {
+      "name": "Sulawesi ground dove",
+      "aliases": [
+        "Gallicolumba tristigmata"
+      ],
+      "popularity": 2412,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Sulawesi ground dove"
+    },
+    {
+      "name": "Henderson fruit dove",
+      "aliases": [
+        "Ptilinopus insularis",
+        "Scarlet-capped Fruit Dove"
+      ],
+      "popularity": 2422,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Henderson fruit dove"
+    },
+    {
+      "name": "Squatter pigeon",
+      "aliases": [
+        "Geophaps scripta"
+      ],
+      "popularity": 2441,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Squatter pigeon"
+    },
+    {
+      "name": "Dusky turtle dove",
+      "aliases": [
+        "Streptopelia lugens"
+      ],
+      "popularity": 2455,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Dusky turtle dove"
+    },
+    {
+      "name": "Adamawa turtle dove",
+      "aliases": [
+        "Streptopelia hypopyrrha"
+      ],
+      "popularity": 2467,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Adamawa turtle dove"
+    },
+    {
+      "name": "Crimson-crowned fruit dove",
+      "aliases": [
+        "Ptilinopus porphyraceus"
+      ],
+      "popularity": 2486,
+      "rarity": 0.376,
+      "tier": 2,
+      "wiki": "Crimson-crowned fruit dove"
+    },
+    {
+      "name": "Philippine green pigeon",
+      "aliases": [
+        "Treron axillaris"
+      ],
+      "popularity": 2489,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "Philippine green pigeon"
+    },
+    {
+      "name": "Caribbean dove",
+      "aliases": [
+        "Leptotila jamaicensis"
+      ],
+      "popularity": 2499,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Caribbean dove"
+    },
+    {
+      "name": "Timor green pigeon",
+      "aliases": [
+        "Treron psittacea",
+        "Treron psittaceus"
+      ],
+      "popularity": 2569,
+      "rarity": 0.367,
+      "tier": 2,
+      "wiki": "Timor green pigeon"
+    },
+    {
+      "name": "Chilean pigeon",
+      "aliases": [
+        "Patagioenas araucana"
+      ],
+      "popularity": 2574,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Chilean pigeon"
+    },
+    {
+      "name": "Norfolk ground dove",
+      "aliases": [
+        "Gallicolumba norfolciensis",
+        "Pampusana norfolkensis"
+      ],
+      "popularity": 2578,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Norfolk ground dove"
+    },
+    {
+      "name": "Malagasy turtle dove",
+      "aliases": [
+        "Nesoenas picturatus"
+      ],
+      "popularity": 2579,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Malagasy turtle dove"
+    },
+    {
+      "name": "Sri Lanka green pigeon",
+      "aliases": [
+        "Pompadour Green Pigeon",
+        "Treron pompadora"
+      ],
+      "popularity": 2613,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Sri Lanka green pigeon"
+    },
+    {
+      "name": "Bruce's green pigeon",
+      "aliases": [
+        "Treron waalia"
+      ],
+      "popularity": 2649,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Bruce's green pigeon"
+    },
+    {
+      "name": "Speckled wood pigeon",
+      "aliases": [
+        "Columba hodgsonii"
+      ],
+      "popularity": 2674,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Speckled wood pigeon"
+    },
+    {
+      "name": "Thick-billed ground pigeon",
+      "aliases": [
+        "Trugon terrestris"
+      ],
+      "popularity": 2698,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Thick-billed ground pigeon"
+    },
+    {
+      "name": "Ryukyu green pigeon",
+      "aliases": [
+        "Treron permagnus"
+      ],
+      "popularity": 2712,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Ryukyu green pigeon"
+    },
+    {
+      "name": "Afep pigeon",
+      "aliases": [
+        "Columba unicincta"
+      ],
+      "popularity": 2714,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Afep pigeon"
+    },
+    {
+      "name": "Palau fruit dove",
+      "aliases": [
+        "Ptilinopus pelewensis"
+      ],
+      "popularity": 2716,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Palau fruit dove"
+    },
+    {
+      "name": "Polynesian ground dove",
+      "aliases": [
+        "Alopecoenas erythropterus",
+        "Pampusana erythroptera"
+      ],
+      "popularity": 2726,
+      "rarity": 0.335,
+      "tier": 2,
+      "wiki": "Polynesian ground dove"
+    },
+    {
+      "name": "Pale-vented pigeon",
+      "aliases": [
+        "Patagioenas cayennensis",
+        "Rufous pigeon"
+      ],
+      "popularity": 2818,
+      "rarity": 0.332,
+      "tier": 2,
+      "wiki": "Pale-vented pigeon"
+    },
+    {
+      "name": "Cloven-feathered dove",
+      "aliases": [
+        "Drepanoptila holosericea"
+      ],
+      "popularity": 2829,
+      "rarity": 0.329,
+      "tier": 2,
+      "wiki": "Cloven-feathered dove"
+    },
+    {
+      "name": "Philippine collared dove",
+      "aliases": [
+        "Streptopelia dusumieri"
+      ],
+      "popularity": 2867,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Philippine collared dove"
+    },
+    {
+      "name": "Emerald-spotted wood dove",
+      "aliases": [
+        "Turtur chalcospilos"
+      ],
+      "popularity": 2883,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Emerald-spotted wood dove"
+    },
+    {
+      "name": "Sri Lanka wood pigeon",
+      "aliases": [
+        "Columba torringtoniae",
+        "Lady Torrington's pigeon"
+      ],
+      "popularity": 2885,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Sri Lanka wood pigeon"
+    },
+    {
+      "name": "Black-naped fruit dove",
+      "aliases": [
+        "Ptilinopus melanospila",
+        "Ptilinopus melanospilus"
+      ],
+      "popularity": 2901,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "Black-naped fruit dove"
+    },
+    {
+      "name": "Cinnamon ground dove",
+      "aliases": [
+        "Gallicolumba rufigula",
+        "red-throated ground dove"
+      ],
+      "popularity": 2908,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Cinnamon ground dove"
+    },
+    {
+      "name": "White-eared brown dove",
+      "aliases": [
+        "Lesser brown fruit dove",
+        "Phapipteron leucotis",
+        "Phapitreron leucotis"
+      ],
+      "popularity": 3035,
+      "rarity": 0.312,
+      "tier": 2,
+      "wiki": "White-eared brown dove"
+    },
+    {
+      "name": "Plain pigeon",
+      "aliases": [
+        "Patagioenas inornata"
+      ],
+      "popularity": 3050,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Plain pigeon"
+    },
+    {
+      "name": "Seychelles blue pigeon",
+      "aliases": [
+        "Alectroenas pulcherrimus"
+      ],
+      "popularity": 3080,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Seychelles blue pigeon"
+    },
+    {
+      "name": "Ruddy quail-dove",
+      "aliases": [
+        "Geotrygon montana"
+      ],
+      "popularity": 3092,
+      "rarity": 0.303,
+      "tier": 2,
+      "wiki": "Ruddy quail-dove"
+    },
+    {
+      "name": "Grey-green fruit dove",
+      "aliases": [
+        "Ptilinopus purpuratus"
+      ],
+      "popularity": 3135,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Grey-green fruit dove"
+    },
+    {
+      "name": "Pale-capped pigeon",
+      "aliases": [
+        "Columba punicea"
+      ],
+      "popularity": 3271,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Pale-capped pigeon"
+    },
+    {
+      "name": "Orange-breasted green pigeon",
+      "aliases": [
+        "Treron bicincta",
+        "Treron bicinctus"
+      ],
+      "popularity": 3273,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Orange-breasted green pigeon"
+    },
+    {
+      "name": "Galápagos dove",
+      "aliases": [
+        "Zenaida galapagoensis"
+      ],
+      "popularity": 3346,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Galápagos dove"
+    },
+    {
+      "name": "Tambourine dove",
+      "aliases": [
+        "Turtur tympanistria"
+      ],
+      "popularity": 3374,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Tambourine dove"
+    },
+    {
+      "name": "Blue-headed quail-dove",
+      "aliases": [
+        "Starnoenas cyanocephala"
+      ],
+      "popularity": 3490,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Blue-headed quail-dove"
+    },
+    {
+      "name": "Somali pigeon",
+      "aliases": [
+        "Columba oliviae",
+        "Somali Pigeon Bird",
+        "Somali stock dove"
+      ],
+      "popularity": 3542,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Somali pigeon"
+    },
+    {
+      "name": "Silvery pigeon",
+      "aliases": [
+        "Columba argentina"
+      ],
+      "popularity": 3588,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Silvery pigeon"
+    },
+    {
+      "name": "Thick-billed green pigeon",
+      "aliases": [
+        "Treron curvirostra"
+      ],
+      "popularity": 3592,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "Thick-billed green pigeon"
+    },
+    {
+      "name": "West Peruvian dove",
+      "aliases": [
+        "Zenaida meloda"
+      ],
+      "popularity": 3603,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "West Peruvian dove"
+    },
+    {
+      "name": "Brush bronzewing",
+      "aliases": [
+        "Phaps elegans"
+      ],
+      "popularity": 3604,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Brush bronzewing"
+    },
+    {
+      "name": "Bare-eyed pigeon",
+      "aliases": [
+        "Patagioenas corensis"
+      ],
+      "popularity": 3671,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Bare-eyed pigeon"
+    },
+    {
+      "name": "Yellow-eyed pigeon",
+      "aliases": [
+        "Columba eversmanni",
+        "Pale-backed Pigeon"
+      ],
+      "popularity": 3723,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Yellow-eyed pigeon"
+    },
+    {
+      "name": "Golden dove",
+      "aliases": [
+        "golden fruit dove",
+        "Ptilinopus luteovirens"
+      ],
+      "popularity": 3805,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Golden dove"
+    },
+    {
+      "name": "Picazuro pigeon",
+      "aliases": [
+        "Patagioenas picazuro"
+      ],
+      "popularity": 3848,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Picazuro pigeon"
+    },
+    {
+      "name": "Red-billed pigeon",
+      "aliases": [
+        "Patagioenas flavirostris"
+      ],
+      "popularity": 3902,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "Red-billed pigeon"
+    },
+    {
+      "name": "Black cuckoo-dove",
+      "aliases": [
+        "Black Dove",
+        "Turacoena modesta"
+      ],
+      "popularity": 3945,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Black cuckoo-dove"
+    },
+    {
+      "name": "Nilgiri wood pigeon",
+      "aliases": [
+        "Columba elphinstonii"
+      ],
+      "popularity": 4016,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Nilgiri wood pigeon"
+    },
+    {
+      "name": "Bolle's pigeon",
+      "aliases": [
+        "Columba bollii",
+        "Dark-tailed laurel pigeon"
+      ],
+      "popularity": 4053,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Bolle's pigeon"
+    },
+    {
+      "name": "Scaled pigeon",
+      "aliases": [
+        "Patagioenas speciosa"
+      ],
+      "popularity": 4071,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Scaled pigeon"
+    },
+    {
+      "name": "Jambu fruit dove",
+      "aliases": [
+        "Ptilinopus jambu",
+        "Ramphiculus jambu"
+      ],
+      "popularity": 4077,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Jambu fruit dove"
+    },
+    {
+      "name": "Bar-shouldered dove",
+      "aliases": [
+        "Geopelia humeralis"
+      ],
+      "popularity": 4159,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Bar-shouldered dove"
+    },
+    {
+      "name": "Pacific emerald dove",
+      "aliases": [
+        "Brown-capped Emerald Dove",
+        "Chalcophaps longirostris"
+      ],
+      "popularity": 4254,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Pacific emerald dove"
+    },
+    {
+      "name": "Blue-eyed ground dove",
+      "aliases": [
+        "Columbina cyanopis"
+      ],
+      "popularity": 4281,
+      "rarity": 0.233,
+      "tier": 2,
+      "wiki": "Blue-eyed ground dove"
+    },
+    {
+      "name": "White-collared pigeon",
+      "aliases": [
+        "Columba albitorques"
+      ],
+      "popularity": 4287,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "White-collared pigeon"
+    },
+    {
+      "name": "Negros bleeding-heart pigeon",
+      "aliases": [
+        "Gallicolumba keayi",
+        "Negros Bleeding-heart"
+      ],
+      "popularity": 4293,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Negros bleeding-heart pigeon"
+    },
+    {
+      "name": "Metallic pigeon",
+      "aliases": [
+        "Columba vitiensis"
+      ],
+      "popularity": 4363,
+      "rarity": 0.224,
+      "tier": 2,
+      "wiki": "Metallic pigeon"
+    },
+    {
+      "name": "Blue ground dove",
+      "aliases": [
+        "Claravis pretiosa"
+      ],
+      "popularity": 4412,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Blue ground dove"
+    },
+    {
+      "name": "Sclater's crowned pigeon",
+      "aliases": [
+        "Goura sclaterii"
+      ],
+      "popularity": 4434,
+      "rarity": 0.219,
+      "tier": 2,
+      "wiki": "Sclater's crowned pigeon"
+    },
+    {
+      "name": "Scheepmaker's crowned pigeon",
+      "aliases": [
+        "Goura scheepmakeri",
+        "Southern crowned-pigeon"
+      ],
+      "popularity": 4520,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Scheepmaker's crowned pigeon"
+    },
+    {
+      "name": "White-bellied green pigeon",
+      "aliases": [
+        "Treron sieboldii"
+      ],
+      "popularity": 4522,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "White-bellied green pigeon"
+    },
+    {
+      "name": "Torresian imperial pigeon",
+      "aliases": [
+        "Ducula spilorrhoa"
+      ],
+      "popularity": 4535,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Torresian imperial pigeon"
+    },
+    {
+      "name": "Mariana fruit dove",
+      "aliases": [
+        "Marianas fruit dove",
+        "Ptilinopus rosecapilla",
+        "Ptilinopus roseicapilla"
+      ],
+      "popularity": 4557,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Mariana fruit dove"
+    },
+    {
+      "name": "Black wood pigeon",
+      "aliases": [
+        "Black pigeon",
+        "Columba janthina",
+        "Japanese Wood Pigeon"
+      ],
+      "popularity": 4618,
+      "rarity": 0.204,
+      "tier": 2,
+      "wiki": "Black wood pigeon"
+    },
+    {
+      "name": "Orange dove",
+      "aliases": [
+        "Orange Fruit Dove",
+        "Ptilinopus victor"
+      ],
+      "popularity": 4666,
+      "rarity": 0.201,
+      "tier": 2,
+      "wiki": "Orange dove"
+    },
+    {
+      "name": "Lemon dove",
+      "aliases": [
+        "Aplopelia larvata",
+        "Columba larvata"
+      ],
+      "popularity": 4768,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Lemon dove"
+    },
+    {
+      "name": "Grenada dove",
+      "aliases": [
+        "Leptotila wellsi"
+      ],
+      "popularity": 4789,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Grenada dove"
+    },
+    {
+      "name": "Black imperial pigeon",
+      "aliases": [
+        "Ducula melanochroa"
+      ],
+      "popularity": 4844,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Black imperial pigeon"
+    },
+    {
+      "name": "Laurel pigeon",
+      "aliases": [
+        "Columba junoniae"
+      ],
+      "popularity": 5091,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Laurel pigeon"
+    },
+    {
+      "name": "Scaly-naped pigeon",
+      "aliases": [
+        "Patagioenas squamosa"
+      ],
+      "popularity": 5317,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "Scaly-naped pigeon"
+    },
+    {
+      "name": "White-tipped dove",
+      "aliases": [
+        "Leptotila verreauxi"
+      ],
+      "popularity": 5358,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "White-tipped dove"
+    },
+    {
+      "name": "Sulu bleeding-heart",
+      "aliases": [
+        "Gallicolumba menagei"
+      ],
+      "popularity": 5526,
+      "rarity": 0.181,
+      "tier": 1,
+      "wiki": "Sulu bleeding-heart"
+    },
+    {
+      "name": "Superb fruit dove",
+      "aliases": [
+        "Ptilinopus superbus"
+      ],
+      "popularity": 5531,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Superb fruit dove"
+    },
+    {
+      "name": "Pink-headed fruit dove",
+      "aliases": [
+        "Pink-necked fruit dove",
+        "Ptilinopus porphyrea",
+        "Ptilinopus porphyreus"
+      ],
+      "popularity": 5634,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Pink-headed fruit dove"
+    },
+    {
+      "name": "African green pigeon",
+      "aliases": [
+        "Treron calvus"
+      ],
+      "popularity": 5807,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "African green pigeon"
+    },
+    {
+      "name": "Red-eyed dove",
+      "aliases": [
+        "Streptopelia semitorquata"
+      ],
+      "popularity": 5980,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Red-eyed dove"
+    },
+    {
+      "name": "African olive pigeon",
+      "aliases": [
+        "Columba arquatrix"
+      ],
+      "popularity": 5991,
+      "rarity": 0.166,
+      "tier": 1,
+      "wiki": "African olive pigeon"
+    },
+    {
+      "name": "Rose-crowned fruit dove",
+      "aliases": [
+        "Ptilinopus regina"
+      ],
+      "popularity": 6060,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Rose-crowned fruit dove"
+    },
+    {
+      "name": "Red collared dove",
+      "aliases": [
+        "Red Turtle Dove",
+        "Streptopelia tranquebarica"
+      ],
+      "popularity": 6139,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Red collared dove"
+    },
+    {
+      "name": "Ruddy ground dove",
+      "aliases": [
+        "Columbina talpacoti"
+      ],
+      "popularity": 6263,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Ruddy ground dove"
+    },
+    {
+      "name": "Green imperial pigeon",
+      "aliases": [
+        "Ducula aenea"
+      ],
+      "popularity": 6394,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Green imperial pigeon"
+    },
+    {
+      "name": "Andaman wood pigeon",
+      "aliases": [
+        "Columba palumboides"
+      ],
+      "popularity": 6589,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Andaman wood pigeon"
+    },
+    {
+      "name": "Mindoro bleeding-heart",
+      "aliases": [
+        "Gallicolumba platenae"
+      ],
+      "popularity": 6765,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Mindoro bleeding-heart"
+    },
+    {
+      "name": "Wonga pigeon",
+      "aliases": [
+        "Leucosarcia melanoleuca"
+      ],
+      "popularity": 6815,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Wonga pigeon"
+    },
+    {
+      "name": "Wompoo fruit dove",
+      "aliases": [
+        "Ptilinopus magnificus"
+      ],
+      "popularity": 7219,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Wompoo fruit dove"
+    },
+    {
+      "name": "Trocaz pigeon",
+      "aliases": [
+        "Columba trocaz"
+      ],
+      "popularity": 7225,
+      "rarity": 0.14,
+      "tier": 1,
+      "wiki": "Trocaz pigeon"
+    },
+    {
+      "name": "Topknot pigeon",
+      "aliases": [
+        "Lopholaimus antarcticus"
+      ],
+      "popularity": 7531,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Topknot pigeon"
+    },
+    {
+      "name": "Hill pigeon",
+      "aliases": [
+        "Columba rupestris",
+        "eastern rock dove",
+        "Turkestan hill dove"
+      ],
+      "popularity": 7589,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Hill pigeon"
+    },
+    {
+      "name": "Snow pigeon",
+      "aliases": [
+        "Columba leuconota"
+      ],
+      "popularity": 7884,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Snow pigeon"
+    },
+    {
+      "name": "Namaqua dove",
+      "aliases": [
+        "Oena capensis"
+      ],
+      "popularity": 8512,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Namaqua dove"
+    },
+    {
+      "name": "Peaceful dove",
+      "aliases": [
+        "Geopelia placida"
+      ],
+      "popularity": 8940,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Peaceful dove"
+    },
+    {
+      "name": "Brown cuckoo-dove",
+      "aliases": [
+        "Macropygia phasianella"
+      ],
+      "popularity": 8973,
+      "rarity": 0.122,
+      "tier": 1,
+      "wiki": "Brown cuckoo-dove"
+    },
+    {
+      "name": "Mourning collared dove",
+      "aliases": [
+        "Streptopelia decipiens"
+      ],
+      "popularity": 9003,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Mourning collared dove"
+    },
+    {
+      "name": "Pied imperial pigeon",
+      "aliases": [
+        "Ducula bicolor"
+      ],
+      "popularity": 9004,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Pied imperial pigeon"
+    },
+    {
+      "name": "White-headed pigeon",
+      "aliases": [
+        "Columba leucomela"
+      ],
+      "popularity": 9290,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "White-headed pigeon"
+    },
+    {
+      "name": "Western crowned pigeon",
+      "aliases": [
+        "Goura cristata"
+      ],
+      "popularity": 9699,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Western crowned pigeon"
+    },
+    {
+      "name": "African collared dove",
+      "aliases": [
+        "Streptopelia roseogrisea"
+      ],
+      "popularity": 10304,
+      "rarity": 0.108,
+      "tier": 1,
+      "wiki": "African collared dove"
+    },
+    {
+      "name": "Mindanao bleeding-heart",
+      "aliases": [
+        "Bartlett's bleeding heart",
+        "Gallicolumba crinigera"
+      ],
+      "popularity": 10605,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Mindanao bleeding-heart"
+    },
+    {
+      "name": "White-crowned pigeon",
+      "aliases": [
+        "Columba leucocephala",
+        "Patagioenas leucocephala"
+      ],
+      "popularity": 10609,
+      "rarity": 0.102,
+      "tier": 1,
+      "wiki": "White-crowned pigeon"
+    },
+    {
+      "name": "Zenaida dove",
+      "aliases": [
+        "Zenaida aurita"
+      ],
+      "popularity": 11079,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Zenaida dove"
+    },
+    {
+      "name": "Inca dove",
+      "aliases": [
+        "Columbina inca",
+        "Mexican dove",
+        "Scardafella inca"
+      ],
+      "popularity": 11859,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Inca dove"
+    },
+    {
+      "name": "Eared dove",
+      "aliases": [
+        "Zenaida auriculata"
+      ],
+      "popularity": 12135,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Eared dove"
+    },
+    {
+      "name": "Common bronzewing",
+      "aliases": [
+        "Phaps chalcoptera"
+      ],
+      "popularity": 12418,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Common bronzewing"
+    },
+    {
+      "name": "Common ground dove",
+      "aliases": [
+        "Columbina passerina"
+      ],
+      "popularity": 14235,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Common ground dove"
+    },
+    {
+      "name": "Diamond dove",
+      "aliases": [
+        "Geopelia cuneata"
+      ],
+      "popularity": 14959,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Diamond dove"
+    },
+    {
+      "name": "Spinifex pigeon",
+      "aliases": [
+        "Geophaps plumifera",
+        "Petrophassa ferruginea",
+        "Red-plumed pigeon"
+      ],
+      "popularity": 15723,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Spinifex pigeon"
+    },
+    {
+      "name": "Common emerald dove",
+      "aliases": [
+        "Asian emerald dove",
+        "Chalcophaps indica",
+        "Grey-capped Emerald Dove"
+      ],
+      "popularity": 17858,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Common emerald dove"
+    },
+    {
+      "name": "Speckled pigeon",
+      "aliases": [
+        "Columba guinea"
+      ],
+      "popularity": 18360,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Speckled pigeon"
+    },
+    {
+      "name": "Oriental turtle dove",
+      "aliases": [
+        "Streptopelia orientalis"
+      ],
+      "popularity": 18493,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Oriental turtle dove"
+    },
+    {
+      "name": "Tooth-billed pigeon",
+      "aliases": [
+        "Didunculus strigirostris"
+      ],
+      "popularity": 20460,
+      "rarity": 0.07,
+      "tier": 1,
+      "wiki": "Tooth-billed pigeon"
+    },
+    {
+      "name": "Band-tailed pigeon",
+      "aliases": [
+        "Patagioenas fasciata"
+      ],
+      "popularity": 23292,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Band-tailed pigeon"
+    },
+    {
+      "name": "Pink-necked green pigeon",
+      "aliases": [
+        "Treron vernans"
+      ],
+      "popularity": 23956,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Pink-necked green pigeon"
+    },
+    {
+      "name": "Yellow-footed green pigeon",
+      "aliases": [
+        "Treron phoenicopterus"
+      ],
+      "popularity": 25062,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Yellow-footed green pigeon"
+    },
+    {
+      "name": "Pheasant pigeon",
+      "aliases": [
+        "Otidiphaps nobilis"
+      ],
+      "popularity": 26629,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Pheasant pigeon"
+    },
+    {
+      "name": "Ring-necked dove",
+      "aliases": [
+        "Streptopelia capicola"
+      ],
+      "popularity": 28398,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "Ring-necked dove"
+    },
+    {
+      "name": "Stock dove",
+      "aliases": [
+        "Columba oenas",
+        "Stock Pigeon"
+      ],
+      "popularity": 28766,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Stock dove"
+    },
+    {
+      "name": "Pink pigeon",
+      "aliases": [
+        "Columba mayeri",
+        "Nesoenas mayeri"
+      ],
+      "popularity": 29401,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "Pink pigeon"
+    },
+    {
+      "name": "Zebra dove",
+      "aliases": [
+        "Geopelia striata"
+      ],
+      "popularity": 30501,
+      "rarity": 0.047,
+      "tier": 1,
+      "wiki": "Zebra dove"
+    },
+    {
+      "name": "Barbary dove",
+      "aliases": [
+        "ring dove",
+        "ring-necked turtle dove",
+        "ringed turtle dove",
+        "ringneck dove",
+        "Streptopelia risoria"
+      ],
+      "popularity": 32286,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Barbary dove"
+    },
+    {
+      "name": "Socorro dove",
+      "aliases": [
+        "Grayson's dove",
+        "Zenaida graysoni"
+      ],
+      "popularity": 32435,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Socorro dove"
+    },
+    {
+      "name": "Crested pigeon",
+      "aliases": [
+        "Ocyphaps lophotes"
+      ],
+      "popularity": 33887,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Crested pigeon"
+    },
+    {
+      "name": "White-winged dove",
+      "aliases": [
+        "Zenaida asiatica"
+      ],
+      "popularity": 35079,
+      "rarity": 0.035,
+      "tier": 1,
+      "wiki": "White-winged dove"
+    },
+    {
+      "name": "Negros fruit dove",
+      "aliases": [
+        "Ptilinopus arcanus"
+      ],
+      "popularity": 36474,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Negros fruit dove"
+    },
+    {
+      "name": "Victoria crowned pigeon",
+      "aliases": [
+        "Goura victoria"
+      ],
+      "popularity": 40942,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Victoria crowned pigeon"
+    },
+    {
+      "name": "Laughing dove",
+      "aliases": [
+        "Spilopelia senegalensis"
+      ],
+      "popularity": 41721,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "Laughing dove"
+    },
+    {
+      "name": "Kererū",
+      "aliases": [
+        "Hemiphaga novaeseelandiae",
+        "kererū pigeon",
+        "kūkū",
+        "kūkupa",
+        "New Zealand Pigeon"
+      ],
+      "popularity": 45459,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Kererū"
+    },
+    {
+      "name": "Luzon bleeding-heart",
+      "aliases": [
+        "Gallicolumba luzonica"
+      ],
+      "popularity": 46992,
+      "rarity": 0.02,
+      "tier": 1,
+      "wiki": "Luzon bleeding-heart"
+    },
+    {
+      "name": "Spotted dove",
+      "aliases": [
+        "Eastern Spotted Dove",
+        "Spilopelia chinensis"
+      ],
+      "popularity": 57011,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "Spotted dove"
+    },
+    {
+      "name": "European turtle dove",
+      "aliases": [
+        "Streptopelia turtur",
+        "turtle dove",
+        "turtledove"
+      ],
+      "popularity": 69383,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "European turtle dove"
+    },
+    {
+      "name": "Common wood pigeon",
+      "aliases": [
+        "Columba palumbus",
+        "common woodpigeon",
+        "woodpigeon"
+      ],
+      "popularity": 104088,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Common wood pigeon"
+    },
+    {
+      "name": "Nicobar pigeon",
+      "aliases": [
+        "Caloenas nicobarica"
+      ],
+      "popularity": 107116,
+      "rarity": 0.009,
+      "tier": 1,
+      "wiki": "Nicobar pigeon"
+    },
+    {
+      "name": "Eurasian collared dove",
+      "aliases": [
+        "Collared Dove",
+        "Streptopelia decaocto",
+        "Turkish Dove"
+      ],
+      "popularity": 120378,
+      "rarity": 0.006,
+      "tier": 1,
+      "wiki": "Eurasian collared dove"
+    },
+    {
+      "name": "Rock dove",
+      "aliases": [
+        "Blue rock pigeon",
+        "Columba livia",
+        "common pigeon",
+        "rock pigeon",
+        "Rock Pigeon or Feral Pigeon"
+      ],
+      "popularity": 294946,
+      "rarity": 0.003,
+      "tier": 1,
+      "wiki": "Rock dove"
+    },
+    {
+      "name": "Mourning dove",
+      "aliases": [
+        "American mourning dove",
+        "Carolina pigeon",
+        "rain dove",
+        "Zenaida macroura"
+      ],
+      "popularity": 324657,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Mourning dove"
+    }
+  ]
+}

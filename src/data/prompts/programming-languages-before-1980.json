@@ -1,0 +1,1598 @@
+{
+  "id": "programming-languages-before-1980",
+  "slug": "programming-languages-before-1980",
+  "category": "science",
+  "question": "Name a programming language created before 1980",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Klerer–May System",
+      "aliases": [],
+      "popularity": 254,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Klerer–May System"
+    },
+    {
+      "name": "CS-4",
+      "aliases": [
+        "CS-4 (programming language)"
+      ],
+      "popularity": 301,
+      "rarity": 0.994,
+      "tier": 6,
+      "wiki": "CS-4 (programming language)"
+    },
+    {
+      "name": "ZOPL",
+      "aliases": [],
+      "popularity": 376,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "ZOPL"
+    },
+    {
+      "name": "CORC",
+      "aliases": [],
+      "popularity": 431,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "CORC"
+    },
+    {
+      "name": "WSFN",
+      "aliases": [
+        "Which Stands for Nothing",
+        "WSFN (programming language)"
+      ],
+      "popularity": 432,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "WSFN (programming language)"
+    },
+    {
+      "name": "PACT",
+      "aliases": [
+        "PACT (compiler)",
+        "PACT I",
+        "PACT IA"
+      ],
+      "popularity": 518,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "PACT (compiler)"
+    },
+    {
+      "name": "Sort Merge Generator",
+      "aliases": [],
+      "popularity": 551,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Sort Merge Generator"
+    },
+    {
+      "name": "Absys",
+      "aliases": [],
+      "popularity": 583,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "Absys"
+    },
+    {
+      "name": "SP/k",
+      "aliases": [],
+      "popularity": 662,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "SP/k"
+    },
+    {
+      "name": "TELCOMP",
+      "aliases": [],
+      "popularity": 680,
+      "rarity": 0.946,
+      "tier": 6,
+      "wiki": "TELCOMP"
+    },
+    {
+      "name": "XPL0",
+      "aliases": [],
+      "popularity": 683,
+      "rarity": 0.94,
+      "tier": 6,
+      "wiki": "XPL0"
+    },
+    {
+      "name": "ALCOR",
+      "aliases": [
+        "ALGOL Converter"
+      ],
+      "popularity": 684,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "ALCOR"
+    },
+    {
+      "name": "FACT",
+      "aliases": [
+        "FACT (computer language)",
+        "Fully Automated Compiling Technique"
+      ],
+      "popularity": 749,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "FACT (computer language)"
+    },
+    {
+      "name": "PROSE modeling language",
+      "aliases": [
+        "PROSE"
+      ],
+      "popularity": 769,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "PROSE modeling language"
+    },
+    {
+      "name": "RTL/2",
+      "aliases": [],
+      "popularity": 797,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "RTL/2"
+    },
+    {
+      "name": "LYaPAS",
+      "aliases": [],
+      "popularity": 799,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "LYaPAS"
+    },
+    {
+      "name": "Analitik",
+      "aliases": [],
+      "popularity": 815,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Analitik"
+    },
+    {
+      "name": "LIS",
+      "aliases": [
+        "LIS (programming language)"
+      ],
+      "popularity": 816,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "LIS (programming language)"
+    },
+    {
+      "name": "Id",
+      "aliases": [
+        "Id (programming language)",
+        "Irvine Dataflow"
+      ],
+      "popularity": 861,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Id (programming language)"
+    },
+    {
+      "name": "Data General Business Basic",
+      "aliases": [],
+      "popularity": 874,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Data General Business Basic"
+    },
+    {
+      "name": "A Sharp",
+      "aliases": [
+        "A Sharp (Axiom)",
+        "Sharp",
+        "Sharp (Axiom)"
+      ],
+      "popularity": 919,
+      "rarity": 0.881,
+      "tier": 5,
+      "wiki": "A Sharp (Axiom)"
+    },
+    {
+      "name": "TTM",
+      "aliases": [
+        "TTM (programming language)"
+      ],
+      "popularity": 958,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "TTM (programming language)"
+    },
+    {
+      "name": "TREE-META",
+      "aliases": [],
+      "popularity": 974,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "TREE-META"
+    },
+    {
+      "name": "El-76",
+      "aliases": [],
+      "popularity": 1011,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "El-76"
+    },
+    {
+      "name": "Mary",
+      "aliases": [
+        "Mary (programming language)"
+      ],
+      "popularity": 1025,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Mary (programming language)"
+    },
+    {
+      "name": "KRL",
+      "aliases": [
+        "KRL (programming language)"
+      ],
+      "popularity": 1055,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "KRL (programming language)"
+    },
+    {
+      "name": "PL-11",
+      "aliases": [],
+      "popularity": 1059,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "PL-11"
+    },
+    {
+      "name": "Babbage",
+      "aliases": [
+        "Babbage (programming language)"
+      ],
+      "popularity": 1066,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Babbage (programming language)"
+    },
+    {
+      "name": "COWSEL",
+      "aliases": [
+        "COntrolled Working SpacE Language",
+        "POP-1"
+      ],
+      "popularity": 1082,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "COWSEL"
+    },
+    {
+      "name": "Data Language Interface",
+      "aliases": [
+        "Data Language/I",
+        "Data Language/One",
+        "DL/I"
+      ],
+      "popularity": 1111,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Data Language Interface"
+    },
+    {
+      "name": "ELAN",
+      "aliases": [
+        "ELAN (programming language)"
+      ],
+      "popularity": 1125,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "ELAN (programming language)"
+    },
+    {
+      "name": "MIMIC",
+      "aliases": [],
+      "popularity": 1212,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "MIMIC"
+    },
+    {
+      "name": "Mark IV",
+      "aliases": [
+        "Mark IV (software)"
+      ],
+      "popularity": 1228,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Mark IV (software)"
+    },
+    {
+      "name": "CGOL",
+      "aliases": [],
+      "popularity": 1281,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "CGOL"
+    },
+    {
+      "name": "IBM RPG III",
+      "aliases": [],
+      "popularity": 1297,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "IBM RPG III"
+    },
+    {
+      "name": "Plus",
+      "aliases": [
+        "Plus (programming language)"
+      ],
+      "popularity": 1298,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Plus (programming language)"
+    },
+    {
+      "name": "GEORGE",
+      "aliases": [
+        "GEORGE (programming language)"
+      ],
+      "popularity": 1353,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "GEORGE (programming language)"
+    },
+    {
+      "name": "Executive Systems Problem Oriented Language",
+      "aliases": [
+        "ESPOL"
+      ],
+      "popularity": 1364,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Executive Systems Problem Oriented Language"
+    },
+    {
+      "name": "Edinburgh IMP",
+      "aliases": [],
+      "popularity": 1386,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Edinburgh IMP"
+    },
+    {
+      "name": "FORMAC",
+      "aliases": [],
+      "popularity": 1405,
+      "rarity": 0.768,
+      "tier": 4,
+      "wiki": "FORMAC"
+    },
+    {
+      "name": "Euclid",
+      "aliases": [
+        "Euclid (programming language)"
+      ],
+      "popularity": 1413,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Euclid (programming language)"
+    },
+    {
+      "name": "ARITH-MATIC",
+      "aliases": [
+        "A-3"
+      ],
+      "popularity": 1420,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "ARITH-MATIC"
+    },
+    {
+      "name": "Atlas Autocode",
+      "aliases": [],
+      "popularity": 1425,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Atlas Autocode"
+    },
+    {
+      "name": "MIIS",
+      "aliases": [
+        "Meditech Interpretive Information System",
+        "MIIS (programming language)"
+      ],
+      "popularity": 1444,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "MIIS (programming language)"
+    },
+    {
+      "name": "Language H",
+      "aliases": [],
+      "popularity": 1509,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Language H"
+    },
+    {
+      "name": "LSE",
+      "aliases": [
+        "LSE (programming language)"
+      ],
+      "popularity": 1510,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "LSE (programming language)"
+    },
+    {
+      "name": "MATH-MATIC",
+      "aliases": [],
+      "popularity": 1608,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "MATH-MATIC"
+    },
+    {
+      "name": "PL360",
+      "aliases": [
+        "PL/360"
+      ],
+      "popularity": 1666,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "PL360"
+    },
+    {
+      "name": "Polymorphic Programming Language",
+      "aliases": [
+        "PPL"
+      ],
+      "popularity": 1727,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Polymorphic Programming Language"
+    },
+    {
+      "name": "Compiler Description Language",
+      "aliases": [
+        "CDL"
+      ],
+      "popularity": 1769,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Compiler Description Language"
+    },
+    {
+      "name": "TUTOR",
+      "aliases": [],
+      "popularity": 1783,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "TUTOR"
+    },
+    {
+      "name": "Programming Language for Business",
+      "aliases": [
+        "PL/B"
+      ],
+      "popularity": 1808,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Programming Language for Business"
+    },
+    {
+      "name": "SASL",
+      "aliases": [
+        "SASL (programming language)",
+        "St Andrews Standard Language",
+        "St Andrews Static Language"
+      ],
+      "popularity": 1846,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "SASL (programming language)"
+    },
+    {
+      "name": "Basic/Four",
+      "aliases": [
+        "MAI Basic Four"
+      ],
+      "popularity": 1971,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Basic/Four"
+    },
+    {
+      "name": "DIBOL",
+      "aliases": [
+        "Digital's Business Oriented Language"
+      ],
+      "popularity": 2022,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "DIBOL"
+    },
+    {
+      "name": "COMIT",
+      "aliases": [],
+      "popularity": 2051,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "COMIT"
+    },
+    {
+      "name": "Level I BASIC",
+      "aliases": [],
+      "popularity": 2127,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Level I BASIC"
+    },
+    {
+      "name": "CORAL",
+      "aliases": [
+        "Coral 66"
+      ],
+      "popularity": 2165,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "CORAL"
+    },
+    {
+      "name": "Laning and Zierler system",
+      "aliases": [],
+      "popularity": 2167,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Laning and Zierler system"
+    },
+    {
+      "name": "UNCOL",
+      "aliases": [
+        "Universal Computer Oriented Language"
+      ],
+      "popularity": 2171,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "UNCOL"
+    },
+    {
+      "name": "TRAC",
+      "aliases": [
+        "Text Reckoning And Compiling",
+        "TRAC (programming language)"
+      ],
+      "popularity": 2178,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "TRAC (programming language)"
+    },
+    {
+      "name": "IBM PL/S",
+      "aliases": [
+        "PL/S"
+      ],
+      "popularity": 2201,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "IBM PL/S"
+    },
+    {
+      "name": "BASIC-PLUS",
+      "aliases": [],
+      "popularity": 2219,
+      "rarity": 0.631,
+      "tier": 4,
+      "wiki": "BASIC-PLUS"
+    },
+    {
+      "name": "ALGO",
+      "aliases": [],
+      "popularity": 2353,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "ALGO"
+    },
+    {
+      "name": "Mouse",
+      "aliases": [
+        "Mouse (programming language)"
+      ],
+      "popularity": 2355,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Mouse (programming language)"
+    },
+    {
+      "name": "Speakeasy",
+      "aliases": [
+        "Speakeasy (computational environment)"
+      ],
+      "popularity": 2401,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Speakeasy (computational environment)"
+    },
+    {
+      "name": "TI BASIC",
+      "aliases": [
+        "TI BASIC (TI 99/4A)"
+      ],
+      "popularity": 2528,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "TI BASIC (TI 99/4A)"
+    },
+    {
+      "name": "SAIL",
+      "aliases": [
+        "SAIL (programming language)",
+        "Stanford Artificial Intelligence Language"
+      ],
+      "popularity": 2536,
+      "rarity": 0.601,
+      "tier": 4,
+      "wiki": "SAIL (programming language)"
+    },
+    {
+      "name": "GRASS",
+      "aliases": [
+        "GRASS (programming language)"
+      ],
+      "popularity": 2566,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "GRASS (programming language)"
+    },
+    {
+      "name": "IBM RPG II",
+      "aliases": [],
+      "popularity": 2575,
+      "rarity": 0.589,
+      "tier": 3,
+      "wiki": "IBM RPG II"
+    },
+    {
+      "name": "CMS-2",
+      "aliases": [],
+      "popularity": 2590,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "CMS-2"
+    },
+    {
+      "name": "Programming Computable Functions",
+      "aliases": [
+        "PCF"
+      ],
+      "popularity": 2606,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Programming Computable Functions"
+    },
+    {
+      "name": "Address programming language",
+      "aliases": [
+        "APL"
+      ],
+      "popularity": 2655,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Address programming language"
+    },
+    {
+      "name": "MAPPER",
+      "aliases": [],
+      "popularity": 2656,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "MAPPER"
+    },
+    {
+      "name": "WATFIV",
+      "aliases": [
+        "WATerloo FORTRAN IV"
+      ],
+      "popularity": 2662,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "WATFIV"
+    },
+    {
+      "name": "Euler",
+      "aliases": [
+        "Euler (programming language)"
+      ],
+      "popularity": 2698,
+      "rarity": 0.554,
+      "tier": 3,
+      "wiki": "Euler (programming language)"
+    },
+    {
+      "name": "COMTRAN",
+      "aliases": [
+        "Commercial Translator"
+      ],
+      "popularity": 2721,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "COMTRAN"
+    },
+    {
+      "name": "ALTRAN",
+      "aliases": [],
+      "popularity": 2726,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "ALTRAN"
+    },
+    {
+      "name": "Lucid",
+      "aliases": [
+        "Lucid (programming language)"
+      ],
+      "popularity": 2859,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Lucid (programming language)"
+    },
+    {
+      "name": "ALGOL 68C",
+      "aliases": [],
+      "popularity": 2924,
+      "rarity": 0.53,
+      "tier": 3,
+      "wiki": "ALGOL 68C"
+    },
+    {
+      "name": "Intermediate language",
+      "aliases": [
+        "Intermediate Programming Language"
+      ],
+      "popularity": 2968,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Intermediate language"
+    },
+    {
+      "name": "Superplan",
+      "aliases": [],
+      "popularity": 3012,
+      "rarity": 0.518,
+      "tier": 3,
+      "wiki": "Superplan"
+    },
+    {
+      "name": "PILOT",
+      "aliases": [],
+      "popularity": 3118,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "PILOT"
+    },
+    {
+      "name": "PLEX",
+      "aliases": [
+        "PLEX (programming language)",
+        "Programming Language for EXchanges"
+      ],
+      "popularity": 3155,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "PLEX (programming language)"
+    },
+    {
+      "name": "XPL",
+      "aliases": [],
+      "popularity": 3379,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "XPL"
+    },
+    {
+      "name": "ISWIM",
+      "aliases": [],
+      "popularity": 3414,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "ISWIM"
+    },
+    {
+      "name": "PL/C",
+      "aliases": [],
+      "popularity": 3611,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "PL/C"
+    },
+    {
+      "name": "MAD",
+      "aliases": [
+        "GOM",
+        "MAD/I",
+        "MAD (programming language)",
+        "Michigan Algorithm Decoder"
+      ],
+      "popularity": 3714,
+      "rarity": 0.482,
+      "tier": 3,
+      "wiki": "MAD (programming language)"
+    },
+    {
+      "name": "Planner",
+      "aliases": [
+        "Planner (programming language)"
+      ],
+      "popularity": 3746,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Planner (programming language)"
+    },
+    {
+      "name": "Lisp Machine Lisp",
+      "aliases": [],
+      "popularity": 3797,
+      "rarity": 0.47,
+      "tier": 3,
+      "wiki": "Lisp Machine Lisp"
+    },
+    {
+      "name": "Interlisp",
+      "aliases": [],
+      "popularity": 3866,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Interlisp"
+    },
+    {
+      "name": "Refal",
+      "aliases": [
+        "Recursive functions algorithmic language"
+      ],
+      "popularity": 3979,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "Refal"
+    },
+    {
+      "name": "TMG",
+      "aliases": [
+        "TMG (language)",
+        "TransMoGrifier"
+      ],
+      "popularity": 4146,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "TMG (language)"
+    },
+    {
+      "name": "COMAL",
+      "aliases": [],
+      "popularity": 4383,
+      "rarity": 0.446,
+      "tier": 3,
+      "wiki": "COMAL"
+    },
+    {
+      "name": "Hope",
+      "aliases": [
+        "Hope (programming language)"
+      ],
+      "popularity": 4577,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Hope (programming language)"
+    },
+    {
+      "name": "POP-2",
+      "aliases": [],
+      "popularity": 4627,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "POP-2"
+    },
+    {
+      "name": "Short Code",
+      "aliases": [
+        "Short Code (computer language)"
+      ],
+      "popularity": 4774,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Short Code (computer language)"
+    },
+    {
+      "name": "BlooP and FlooP",
+      "aliases": [],
+      "popularity": 5018,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "BlooP and FlooP"
+    },
+    {
+      "name": "Modula",
+      "aliases": [],
+      "popularity": 5210,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Modula"
+    },
+    {
+      "name": "Ratfor",
+      "aliases": [
+        "Rational Fortran"
+      ],
+      "popularity": 5255,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Ratfor"
+    },
+    {
+      "name": "MDL",
+      "aliases": [
+        "MDL (programming language)",
+        "MIT Design Language"
+      ],
+      "popularity": 5287,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "MDL (programming language)"
+    },
+    {
+      "name": "FOCAL",
+      "aliases": [
+        "FOCAL (programming language)",
+        "FOrmula CALculator"
+      ],
+      "popularity": 5460,
+      "rarity": 0.399,
+      "tier": 2,
+      "wiki": "FOCAL (programming language)"
+    },
+    {
+      "name": "JOSS",
+      "aliases": [],
+      "popularity": 5597,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "JOSS"
+    },
+    {
+      "name": "SETL",
+      "aliases": [],
+      "popularity": 5700,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "SETL"
+    },
+    {
+      "name": "FP",
+      "aliases": [
+        "FP (programming language)"
+      ],
+      "popularity": 5971,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "FP (programming language)"
+    },
+    {
+      "name": "PEARL",
+      "aliases": [
+        "PEARL (programming language)"
+      ],
+      "popularity": 6215,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "PEARL (programming language)"
+    },
+    {
+      "name": "ALGOL W",
+      "aliases": [],
+      "popularity": 6335,
+      "rarity": 0.369,
+      "tier": 2,
+      "wiki": "ALGOL W"
+    },
+    {
+      "name": "GPSS",
+      "aliases": [],
+      "popularity": 6351,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "GPSS"
+    },
+    {
+      "name": "SLIP",
+      "aliases": [
+        "SLIP (programming language)",
+        "Symmetric LIst Processor"
+      ],
+      "popularity": 6523,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "SLIP (programming language)"
+    },
+    {
+      "name": "Atari BASIC",
+      "aliases": [],
+      "popularity": 6852,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Atari BASIC"
+    },
+    {
+      "name": "Mesa",
+      "aliases": [
+        "Mesa (programming language)"
+      ],
+      "popularity": 6984,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Mesa (programming language)"
+    },
+    {
+      "name": "Icon",
+      "aliases": [
+        "Icon (programming language)"
+      ],
+      "popularity": 7044,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Icon (programming language)"
+    },
+    {
+      "name": "HAL/S",
+      "aliases": [
+        "HAL/S-360",
+        "HAL/S-FC",
+        "High-order Assembly Language/Shuttl"
+      ],
+      "popularity": 7155,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "HAL/S"
+    },
+    {
+      "name": "Mizar system",
+      "aliases": [
+        "Mizar"
+      ],
+      "popularity": 7167,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Mizar system"
+    },
+    {
+      "name": "Information Processing Language",
+      "aliases": [
+        "IPL"
+      ],
+      "popularity": 8540,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Information Processing Language"
+    },
+    {
+      "name": "Integer BASIC",
+      "aliases": [],
+      "popularity": 8616,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Integer BASIC"
+    },
+    {
+      "name": "Autocode",
+      "aliases": [],
+      "popularity": 9171,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Autocode"
+    },
+    {
+      "name": "UCSD Pascal",
+      "aliases": [],
+      "popularity": 9391,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "UCSD Pascal"
+    },
+    {
+      "name": "TECO",
+      "aliases": [
+        "Tape Editor and COrrector",
+        "TECO (text editor)",
+        "Text Editor and COrrector"
+      ],
+      "popularity": 10365,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "TECO (text editor)"
+    },
+    {
+      "name": "CPL",
+      "aliases": [
+        "Cambridge Programming Language",
+        "Combined Programming Language",
+        "CPL (programming language)"
+      ],
+      "popularity": 10445,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "CPL (programming language)"
+    },
+    {
+      "name": "P′′",
+      "aliases": [],
+      "popularity": 11385,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "P′′"
+    },
+    {
+      "name": "Applesoft BASIC",
+      "aliases": [
+        "badgear NT POINT BREAK"
+      ],
+      "popularity": 11752,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Applesoft BASIC"
+    },
+    {
+      "name": "JOVIAL",
+      "aliases": [],
+      "popularity": 11848,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "JOVIAL"
+    },
+    {
+      "name": "CLU",
+      "aliases": [
+        "CLU (programming language)"
+      ],
+      "popularity": 12620,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "CLU (programming language)"
+    },
+    {
+      "name": "Tiny BASIC",
+      "aliases": [],
+      "popularity": 12642,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Tiny BASIC"
+    },
+    {
+      "name": "Bc",
+      "aliases": [
+        "Basic Calculator",
+        "Bc (programming language)",
+        "UNIX bc"
+      ],
+      "popularity": 13407,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Bc (programming language)"
+    },
+    {
+      "name": "Speedcoding",
+      "aliases": [
+        "Speedcode"
+      ],
+      "popularity": 14057,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Speedcoding"
+    },
+    {
+      "name": "CICS",
+      "aliases": [
+        "Customer Information Control System"
+      ],
+      "popularity": 14957,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "CICS"
+    },
+    {
+      "name": "Rexx",
+      "aliases": [
+        "Restructured Extended Executor"
+      ],
+      "popularity": 15410,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Rexx"
+    },
+    {
+      "name": "IDL",
+      "aliases": [
+        "IDL (programming language)",
+        "Interactive Data Language"
+      ],
+      "popularity": 16324,
+      "rarity": 0.232,
+      "tier": 2,
+      "wiki": "IDL (programming language)"
+    },
+    {
+      "name": "Commodore BASIC",
+      "aliases": [
+        "CBM-BASIC",
+        "PET Basic"
+      ],
+      "popularity": 16615,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Commodore BASIC"
+    },
+    {
+      "name": "Modula-2",
+      "aliases": [],
+      "popularity": 17949,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Modula-2"
+    },
+    {
+      "name": "PL/M",
+      "aliases": [
+        "PL/M-86"
+      ],
+      "popularity": 18251,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "PL/M"
+    },
+    {
+      "name": "M4",
+      "aliases": [
+        "M4 (computer language)",
+        "UNIX m4"
+      ],
+      "popularity": 18904,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "M4 (computer language)"
+    },
+    {
+      "name": "FLOW-MATIC",
+      "aliases": [
+        "B-0",
+        "Business Language version 0"
+      ],
+      "popularity": 19455,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "FLOW-MATIC"
+    },
+    {
+      "name": "Altair BASIC",
+      "aliases": [],
+      "popularity": 20222,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Altair BASIC"
+    },
+    {
+      "name": "BLISS",
+      "aliases": [],
+      "popularity": 21621,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "BLISS"
+    },
+    {
+      "name": "Microsoft BASIC",
+      "aliases": [],
+      "popularity": 23094,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Microsoft BASIC"
+    },
+    {
+      "name": "ABC",
+      "aliases": [
+        "ABC (programming language)",
+        "JSON"
+      ],
+      "popularity": 24348,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "ABC (programming language)"
+    },
+    {
+      "name": "IBM RPG",
+      "aliases": [
+        "Report Program Generator",
+        "RPG"
+      ],
+      "popularity": 25415,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "IBM RPG"
+    },
+    {
+      "name": "INTERCAL",
+      "aliases": [],
+      "popularity": 28518,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "INTERCAL"
+    },
+    {
+      "name": "Plankalkül",
+      "aliases": [],
+      "popularity": 28983,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Plankalkül"
+    },
+    {
+      "name": "C shell",
+      "aliases": [
+        "Csh",
+        "csh.1",
+        "tcsh"
+      ],
+      "popularity": 30227,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "C shell"
+    },
+    {
+      "name": "PL/0",
+      "aliases": [],
+      "popularity": 32957,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "PL/0"
+    },
+    {
+      "name": "Simula",
+      "aliases": [],
+      "popularity": 34487,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Simula"
+    },
+    {
+      "name": "BCPL",
+      "aliases": [
+        "Basic Combined Programming Language"
+      ],
+      "popularity": 38613,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "BCPL"
+    },
+    {
+      "name": "MUMPS",
+      "aliases": [
+        "Multi-User Multi-Programming System"
+      ],
+      "popularity": 43933,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "MUMPS"
+    },
+    {
+      "name": "S",
+      "aliases": [
+        "S (programming language)"
+      ],
+      "popularity": 44261,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "S (programming language)"
+    },
+    {
+      "name": "ALGOL",
+      "aliases": [
+        "ALGO rithmic L anguage"
+      ],
+      "popularity": 49695,
+      "rarity": 0.119,
+      "tier": 1,
+      "wiki": "ALGOL"
+    },
+    {
+      "name": "VisiCalc",
+      "aliases": [],
+      "popularity": 49708,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "VisiCalc"
+    },
+    {
+      "name": "Bourne shell",
+      "aliases": [
+        "/bin/sh"
+      ],
+      "popularity": 55578,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Bourne shell"
+    },
+    {
+      "name": "ML",
+      "aliases": [
+        "ML (programming language)"
+      ],
+      "popularity": 59817,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "ML (programming language)"
+    },
+    {
+      "name": "CHIP-8",
+      "aliases": [],
+      "popularity": 60764,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "CHIP-8"
+    },
+    {
+      "name": "G-code",
+      "aliases": [],
+      "popularity": 66523,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "G-code"
+    },
+    {
+      "name": "Make",
+      "aliases": [
+        "Make (software)"
+      ],
+      "popularity": 67359,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Make (software)"
+    },
+    {
+      "name": "Logo",
+      "aliases": [
+        "Logo (programming language)"
+      ],
+      "popularity": 68697,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Logo (programming language)"
+    },
+    {
+      "name": "PL/I",
+      "aliases": [],
+      "popularity": 73261,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "PL/I"
+    },
+    {
+      "name": "Scheme",
+      "aliases": [
+        "Scheme (programming language)"
+      ],
+      "popularity": 75275,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Scheme (programming language)"
+    },
+    {
+      "name": "Forth",
+      "aliases": [
+        "Forth (programming language)"
+      ],
+      "popularity": 85332,
+      "rarity": 0.06,
+      "tier": 1,
+      "wiki": "Forth (programming language)"
+    },
+    {
+      "name": "B",
+      "aliases": [
+        "B (programming language)"
+      ],
+      "popularity": 108145,
+      "rarity": 0.054,
+      "tier": 1,
+      "wiki": "B (programming language)"
+    },
+    {
+      "name": "Smalltalk",
+      "aliases": [],
+      "popularity": 109597,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Smalltalk"
+    },
+    {
+      "name": "Prolog",
+      "aliases": [
+        "Programming in Logic"
+      ],
+      "popularity": 110613,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Prolog"
+    },
+    {
+      "name": "TeX",
+      "aliases": [],
+      "popularity": 125573,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "TeX"
+    },
+    {
+      "name": "SNOBOL",
+      "aliases": [],
+      "popularity": 203054,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "SNOBOL"
+    },
+    {
+      "name": "Fortran",
+      "aliases": [],
+      "popularity": 248638,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Fortran"
+    },
+    {
+      "name": "COBOL",
+      "aliases": [
+        "Common Business-Oriented Language"
+      ],
+      "popularity": 277115,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "COBOL"
+    },
+    {
+      "name": "SQL",
+      "aliases": [
+        "Structural Query Language"
+      ],
+      "popularity": 317611,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "SQL"
+    },
+    {
+      "name": "Assembly language",
+      "aliases": [
+        "asm",
+        "assembler language",
+        "assembly",
+        "assembly code"
+      ],
+      "popularity": 353560,
+      "rarity": 0.006,
+      "tier": 1,
+      "wiki": "Assembly language"
+    },
+    {
+      "name": "C",
+      "aliases": [
+        "C language",
+        "C (programming language)"
+      ],
+      "popularity": 1452804,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "C (programming language)"
+    }
+  ]
+}

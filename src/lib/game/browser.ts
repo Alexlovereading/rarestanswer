@@ -17,14 +17,14 @@ import {
 } from './daily';
 import { createTried, matchGuess, rememberGuess, type Matchable, type Tried } from './match';
 import {
-  commonAnswers,
+  answerRank,
   couldHaveNamedLine,
   countRarer,
   isSlug,
+  placementLine,
   promptDataPath,
   PROMPT_INDEX_PATH,
-  rarerThanLine,
-  rarestAnswers,
+  revealLists,
   toClientPrompt,
   isPromptIndexEntry,
   type ClientPrompt,
@@ -40,11 +40,31 @@ import {
 } from './score';
 import { buildShareText, sharePageUrl, type ShareMode } from './share';
 import {
+  PLAY,
+  alreadyPlayedLine,
+  answersLinkLabel,
+  chartSummary,
+  emptyCategoryLine,
+  meterLabel,
+  nextDailyLine,
+  pointsLine,
+  progressLine,
+  resumeLine,
+  revealAnswerLine,
+  roundCompleteLive,
+  shareHeading,
+  streakLine,
+  tierLive,
+  timerLabel,
+} from './copy';
+import {
   readDaily,
   readSettings,
   readStats,
   recordDaily,
   recordFreeRound,
+  scoreDistribution,
+  tierDistribution,
   writeDaily,
   writeSettings,
   writeStats,
@@ -68,6 +88,7 @@ interface Session {
   score: ScoreState;
   spotlightArmed: boolean;
   noTimer: boolean;
+  seenRules: boolean;
   timerLocked: boolean;
   results: PromptResult[];
   recorded: boolean;
@@ -88,6 +109,9 @@ interface Ui {
   noTimer: HTMLButtonElement;
   noTimerLabel: HTMLElement;
   progress: HTMLElement;
+  playView: HTMLElement;
+  revealView: HTMLElement;
+  endView: HTMLElement;
   promptCat: HTMLElement;
   question: HTMLElement;
   form: HTMLFormElement;
@@ -107,10 +131,15 @@ interface Ui {
   could: HTMLElement;
   rarer: HTMLElement;
   answersLink: HTMLAnchorElement;
+  rarestHeading: HTMLElement;
   rarest: HTMLOListElement;
+  commonBlock: HTMLElement;
   common: HTMLOListElement;
+  outside: HTMLElement;
   next: HTMLButtonElement;
   finalHeading: HTMLElement;
+  cardTitle: HTMLElement;
+  endStreak: HTMLElement;
   finalScore: HTMLElement;
   squares: HTMLElement[];
   tierCounts: HTMLElement[];
@@ -126,6 +155,20 @@ interface Ui {
   dialog: HTMLDialogElement;
   dialogClose: HTMLButtonElement;
   dialogTitle: HTMLElement;
+  statsOpen: HTMLButtonElement[];
+  statsDialog: HTMLDialogElement;
+  statsClose: HTMLButtonElement;
+  statsTitle: HTMLElement;
+  statStreak: HTMLElement;
+  statBestStreak: HTMLElement;
+  statBest: HTMLElement;
+  statDailies: HTMLElement;
+  statRounds: HTMLElement;
+  statPoints: HTMLElement;
+  guessSvg: SVGSVGElement;
+  scoreSvg: SVGSVGElement;
+  guessEmpty: HTMLElement;
+  scoreEmpty: HTMLElement;
 }
 
 export function mountGame(root: HTMLElement): void {
@@ -136,7 +179,7 @@ export function mountGame(root: HTMLElement): void {
     ui = grab(root);
   } catch {
     const status = root.querySelector('[data-game-status]');
-    if (status) status.textContent = 'This round could not start in this browser.';
+    if (status) status.textContent = PLAY.mountFailed;
     return;
   }
   void run(ui);
@@ -161,6 +204,9 @@ function run(ui: Ui): void {
   let announcedSecond = -1;
   let tried: Tried = createTried();
   let current: ClientPrompt | null = null;
+  let hitTimer = 0;
+  let statsReturn: HTMLElement | null = null;
+  const settings = readSettings(store);
   const session: Session = {
     mode,
     category: mode === 'category' ? category : '',
@@ -171,22 +217,38 @@ function run(ui: Ui): void {
     index: [],
     score: freshScore(),
     spotlightArmed: false,
-    noTimer: readSettings(store).noTimer,
+    noTimer: settings.noTimer,
+    seenRules: settings.seenRules,
     timerLocked: false,
     results: [],
     recorded: false,
   };
 
-  ui.helpOpen.addEventListener('click', () => {
-    ui.dialog.showModal();
-    ui.dialogTitle.focus();
-  });
+  ui.helpOpen.addEventListener('click', () => openHowTo());
   ui.dialogClose.addEventListener('click', () => ui.dialog.close());
+  ui.dialog.addEventListener('close', () => {
+    markRulesSeen();
+    if (!ui.play.disabled && !ui.playView.hidden) return;
+    if (!ui.play.disabled) ui.play.focus();
+  });
+  ui.dialog.addEventListener('click', (event) => {
+    if (event.target === ui.dialog) ui.dialog.close();
+  });
   ui.noTimer.addEventListener('click', () => {
     if (ui.noTimer.disabled) return;
     session.noTimer = !session.noTimer;
-    writeSettings(store, { version: 1, noTimer: session.noTimer });
+    persistSettings();
     paintSwitch();
+  });
+  for (const button of ui.statsOpen) {
+    button.addEventListener('click', () => openStats(button));
+  }
+  ui.statsClose.addEventListener('click', () => ui.statsDialog.close());
+  ui.statsDialog.addEventListener('close', () => {
+    statsReturn?.focus();
+  });
+  ui.statsDialog.addEventListener('click', (event) => {
+    if (event.target === ui.statsDialog) ui.statsDialog.close();
   });
   ui.play.addEventListener('click', () => {
     void onPlay();
@@ -230,7 +292,7 @@ function run(ui: Ui): void {
     action = 'load';
     ui.root.setAttribute('aria-busy', 'true');
     paintPlay();
-    ui.status.textContent = '';
+    ui.status.textContent = PLAY.loadingStatus;
     try {
       const res = await fetch(PROMPT_INDEX_PATH);
       if (!res.ok) throw new Error('index');
@@ -242,7 +304,7 @@ function run(ui: Ui): void {
       prepareRound();
     } catch {
       action = 'retry';
-      ui.status.textContent = 'The prompt list did not load. Try again.';
+      ui.status.textContent = PLAY.loadError;
       paintPlay();
     } finally {
       ui.root.setAttribute('aria-busy', 'false');
@@ -295,22 +357,21 @@ function run(ui: Ui): void {
         session.slugs.length > 0)
     ) {
       action = 'results';
-      ui.status.textContent = `You already played today. Score ${session.score.total}.`;
+      ui.status.textContent = alreadyPlayedLine(session.score.total);
       paintCountdownLine();
       startCountdown();
     } else if (session.results.length > 0) {
       action = 'resume';
-      ui.status.textContent = `Round in progress. Prompt ${session.results.length + 1} of ${session.slugs.length} is next.`;
+      ui.status.textContent = resumeLine(session.results.length + 1, session.slugs.length);
     } else {
       action = 'start';
-      ui.status.textContent =
-        session.mode === 'daily'
-          ? 'Same prompts for everyone on this date.'
-          : 'A fresh set of prompts. The daily streak stays put.';
+      ui.status.textContent = session.mode === 'daily' ? PLAY.samePrompts : PLAY.freshSet;
     }
     paintSwitch();
     paintPlay();
     prefetch(session.slugs[session.results.length]);
+    if (action === 'resume' || action === 'results') markRulesSeen();
+    else if (action === 'start') maybeCoach();
   }
 
   function restoreSave(save: DailySave): void {
@@ -333,6 +394,8 @@ function run(ui: Ui): void {
       return;
     }
     if (action === 'empty' || action === 'load' || starting) return;
+    markRulesSeen();
+    if (ui.dialog.open) ui.dialog.close();
     starting = true;
     if (session.mode === 'daily' && session.results.length === 0) {
       session.dateKey = localDateKey(new Date());
@@ -369,16 +432,18 @@ function run(ui: Ui): void {
     showView(ui.root, 'play');
     locked = true;
     stopTimer();
-    ui.question.textContent = 'Loading prompt';
+    clearHit();
+    ui.question.textContent = PLAY.loadingPrompt;
     ui.input.disabled = true;
-    ui.progress.textContent = `Prompt ${session.results.length + 1} of ${session.slugs.length}`;
+    ui.input.removeAttribute('aria-invalid');
+    ui.progress.textContent = progressLine(session.results.length + 1, session.slugs.length);
     let prompt: ClientPrompt;
     try {
       prompt = await loadPrompt(slug);
     } catch {
       if (my !== token) return;
       action = 'retry';
-      ui.status.textContent = 'That prompt did not load. Try again.';
+      ui.status.textContent = PLAY.promptError;
       showView(ui.root, 'start');
       paintPlay();
       return;
@@ -408,13 +473,15 @@ function run(ui: Ui): void {
     rememberGuess(tried, raw, result);
     if (result.status === 'duplicate') {
       shake(ui.form);
-      ui.hint.textContent = 'Already tried. That does not cost a second.';
-      announce(ui, 'Already tried');
+      ui.input.setAttribute('aria-invalid', 'true');
+      ui.hint.textContent = PLAY.duplicate;
+      announce(ui, PLAY.alreadyTried);
       ui.input.select();
       return;
     }
     if (result.status === 'miss') {
       shake(ui.form);
+      ui.input.setAttribute('aria-invalid', 'true');
       if (!session.noTimer) {
         liveMs = Math.max(0, liveMs - PENALTY_MS);
         if (liveMs <= 0) {
@@ -424,13 +491,12 @@ function run(ui: Ui): void {
         deadline = performance.now() + liveMs;
         paintTimer(liveMs);
       }
-      ui.hint.textContent = session.noTimer
-        ? 'Not on the list.'
-        : 'Not on the list. One second off the clock.';
+      ui.hint.textContent = session.noTimer ? PLAY.missUntimed : PLAY.missTimed;
       announce(ui, ui.hint.textContent);
       ui.input.select();
       return;
     }
+    ui.input.removeAttribute('aria-invalid');
     resolve('hit', result.answer);
   }
 
@@ -454,29 +520,28 @@ function run(ui: Ui): void {
     };
     session.results.push(row);
     persistDaily();
-    showReveal(current, row);
+    const prompt = current;
+    const go = () => showReveal(prompt, row);
+    if (row.outcome === 'hit' && !reduceMotion) {
+      ui.playView.classList.add('ra-hit');
+      ui.hint.textContent = PLAY.lockedIn;
+      hitTimer = window.setTimeout(() => {
+        hitTimer = 0;
+        ui.playView.classList.remove('ra-hit');
+        go();
+      }, 220);
+      return;
+    }
+    go();
   }
 
   function showReveal(prompt: ClientPrompt, result: PromptResult): void {
     const label = tierName(result.tier);
     ui.revealKicker.textContent = CATEGORY_LABELS[prompt.category];
-    ui.revealTier.textContent = result.tier === 0 ? 'No points' : label;
-    ui.revealAnswer.textContent =
-      result.outcome === 'hit' && result.answer
-        ? `You answered ${result.answer}.`
-        : result.outcome === 'pass'
-          ? 'You passed.'
-          : 'Time ran out.';
-    ui.revealPoints.textContent =
-      result.points === 0
-        ? '0 points'
-        : result.spotlight
-          ? `${result.points} points with Spotlight`
-          : `${result.points} points`;
-    ui.meter.setAttribute(
-      'aria-label',
-      result.tier === 0 ? 'No tier' : `${label}, tier ${result.tier} of 6`,
-    );
+    ui.revealTier.textContent = result.tier === 0 ? PLAY.noPoints : label;
+    ui.revealAnswer.textContent = revealAnswerLine(result.outcome, result.answer);
+    ui.revealPoints.textContent = pointsLine(result.points, result.spotlight);
+    ui.meter.setAttribute('aria-label', meterLabel(result.tier, label));
     ui.meter.querySelectorAll<HTMLElement>('[data-tier]').forEach((seg) => {
       const n = Number(seg.dataset.tier);
       if (result.tier > 0 && n <= result.tier) seg.dataset.on = 'true';
@@ -486,28 +551,46 @@ function run(ui: Ui): void {
     if (result.outcome === 'hit') {
       const mine = prompt.answers.find((row) => row.name === result.answer);
       ui.rarer.hidden = false;
-      ui.rarer.textContent = rarerThanLine(countRarer(prompt.answers, mine?.rarity ?? 1));
+      ui.rarer.textContent = placementLine(
+        answerRank(countRarer(prompt.answers, mine?.rarity ?? 1)),
+        prompt.answers.length,
+      );
     } else {
       ui.rarer.hidden = true;
       ui.rarer.textContent = '';
     }
     ui.answersLink.href = `/answers/${encodeURIComponent(prompt.slug)}/`;
-    fillList(ui.rarest, rarestAnswers(prompt.answers), result.answer);
-    fillList(ui.common, commonAnswers(prompt.answers), result.answer);
+    ui.answersLink.textContent = answersLinkLabel(prompt.answers.length);
+    const lists = revealLists(prompt.answers);
+    ui.rarestHeading.textContent = lists.complete ? PLAY.everyAnswer : PLAY.rarestHeading;
+    ui.commonBlock.hidden = lists.complete;
+    fillList(ui.rarest, lists.rarest, result.answer);
+    fillList(ui.common, lists.common, result.answer);
+    const listed =
+      !result.answer ||
+      lists.rarest.some((row) => row.name === result.answer) ||
+      lists.common.some((row) => row.name === result.answer);
+    ui.outside.hidden = result.outcome !== 'hit' || listed;
     const last = session.results.length >= session.slugs.length;
-    ui.next.textContent = last ? 'See results' : 'Next prompt';
+    ui.next.textContent = last ? PLAY.seeResults : PLAY.nextPrompt;
+    ui.root.dataset.revealHit = result.tier > 0 ? 'true' : 'false';
     showView(ui.root, 'reveal');
-    announce(
-      ui,
-      result.tier === 0 ? 'No points on that prompt.' : `${label}. ${result.points} points.`,
-    );
-    ui.next.focus();
+    announce(ui, result.tier === 0 ? PLAY.noPointsLive : tierLive(label, result.points));
+    ui.revealTier.focus({ preventScroll: true });
+    ui.next.focus({ preventScroll: true });
   }
 
   function showEnd(): void {
     finalizeStats();
     const tiers = session.results.map((row) => row.tier);
     ui.finalScore.textContent = String(session.score.total);
+    ui.cardTitle.textContent = shareHeading(
+      session.mode,
+      session.roundNumber,
+      session.category ? CATEGORY_LABELS[session.category] : undefined,
+    );
+    ui.endStreak.textContent =
+      session.mode === 'daily' && stats.streak > 0 ? streakLine(stats.streak) : '';
     ui.squares.forEach((square, index) => {
       const tier = tiers[index];
       if (tier === undefined) {
@@ -540,7 +623,7 @@ function run(ui: Ui): void {
       ui.countdown.hidden = true;
       ui.countdown.textContent = '';
     }
-    announce(ui, `Round complete. ${session.score.total} points.`);
+    announce(ui, roundCompleteLive(session.score.total));
     ui.finalHeading.focus();
   }
 
@@ -619,35 +702,35 @@ function run(ui: Ui): void {
   function paintTimer(ms: number | null): void {
     if (ms === null) {
       ui.seconds.textContent = 'Off';
-      ui.timer.setAttribute('aria-label', 'Timer off');
+      ui.timer.setAttribute('aria-label', timerLabel(null));
       ui.ring.style.strokeDashoffset = '100';
       delete ui.ring.dataset.low;
       return;
     }
     const second = Math.ceil(ms / 1000);
     ui.seconds.textContent = String(second);
-    ui.timer.setAttribute('aria-label', `${second} seconds left`);
+    ui.timer.setAttribute('aria-label', timerLabel(second));
     const progress = Math.min(1, Math.max(0, ms / TIMER_MS));
     ui.ring.style.strokeDashoffset = String(100 * (1 - progress));
     if (second <= 5) ui.ring.dataset.low = 'true';
     else delete ui.ring.dataset.low;
     if (second !== announcedSecond) {
       announcedSecond = second;
-      if (second === 10 || second === 5) announce(ui, `${second} seconds left`);
+      if (second === 10 || second === 5) announce(ui, timerLabel(second));
     }
   }
 
   function paintSwitch(): void {
     ui.noTimer.disabled = session.timerLocked;
     ui.noTimer.setAttribute('aria-checked', session.noTimer ? 'true' : 'false');
-    ui.noTimerLabel.textContent = session.noTimer ? 'No timer' : 'Timer on';
+    ui.noTimerLabel.textContent = session.noTimer ? PLAY.noTimer : PLAY.timerOn;
   }
 
   function paintSpotlight(): void {
     if (session.score.spotlightUsed) {
       ui.spotlight.disabled = true;
       ui.spotlight.setAttribute('aria-pressed', 'false');
-      ui.spotlightLabel.textContent = 'Spotlight used';
+      ui.spotlightLabel.textContent = PLAY.spotlightUsed;
       ui.spotlight.classList.remove('btn-primary');
       ui.spotlight.classList.add('btn-outline');
       return;
@@ -655,33 +738,34 @@ function run(ui: Ui): void {
     ui.spotlight.disabled = false;
     if (session.spotlightArmed) {
       ui.spotlight.setAttribute('aria-pressed', 'true');
-      ui.spotlightLabel.textContent = 'Spotlight armed';
+      ui.spotlightLabel.textContent = PLAY.spotlightArmed;
       ui.spotlight.classList.add('btn-primary');
       ui.spotlight.classList.remove('btn-outline');
       return;
     }
     ui.spotlight.setAttribute('aria-pressed', 'false');
-    ui.spotlightLabel.textContent = 'Spotlight ×2';
+    ui.spotlightLabel.textContent = PLAY.spotlight;
     ui.spotlight.classList.remove('btn-primary');
     ui.spotlight.classList.add('btn-outline');
   }
 
   function paintHint(): void {
-    ui.hint.textContent = session.noTimer
-      ? 'Enter to guess. A wrong guess does not cost time. Pass to move on.'
-      : 'Enter to guess. A wrong guess costs one second.';
+    ui.hint.textContent = session.noTimer ? PLAY.hintUntimed : PLAY.hintTimed;
   }
 
   function paintPlay(): void {
+    const phase =
+      action === 'load' ? 'loading' : action === 'retry' ? 'error' : action === 'empty' ? 'empty' : 'ready';
+    ui.root.dataset.gamePhase = phase;
     ui.play.disabled = action === 'load' || action === 'empty';
     ui.playIcon.hidden = action === 'results' || action === 'retry' || action === 'empty';
     const labels: Record<PlayAction, string> = {
-      load: 'Loading round',
-      retry: 'Try again',
-      start: 'Play',
-      resume: 'Continue',
-      results: 'See your result',
-      empty: 'Nothing to play',
+      load: PLAY.loadingRound,
+      retry: PLAY.tryAgain,
+      start: PLAY.play,
+      resume: PLAY.continue,
+      results: PLAY.seeYourResult,
+      empty: PLAY.nothingToPlay,
     };
     ui.playLabel.textContent = labels[action];
   }
@@ -695,6 +779,13 @@ function run(ui: Ui): void {
   function paintStats(): void {
     ui.streak.textContent = String(stats.streak);
     ui.best.textContent = stats.dailyPlayed > 0 ? String(stats.bestDailyScore) : '–';
+    ui.statStreak.textContent = String(stats.streak);
+    ui.statBestStreak.textContent = String(stats.bestStreak);
+    ui.statDailies.textContent = String(stats.dailyPlayed);
+    ui.statRounds.textContent = String(stats.roundsPlayed);
+    ui.statPoints.textContent = String(stats.totalPoints);
+    ui.statBest.textContent = stats.dailyPlayed > 0 ? String(stats.bestDailyScore) : '–';
+    paintCharts();
   }
 
   function paintCountdownLine(): void {
@@ -703,20 +794,14 @@ function run(ui: Ui): void {
       return;
     }
     const ms = msUntilNextLocalMidnight(new Date());
-    ui.startCountdown.textContent =
-      ms <= 0
-        ? 'The next daily is ready. Reload to play it.'
-        : `Next daily in ${formatCountdown(ms)}`;
+    ui.startCountdown.textContent = nextDailyLine(ms <= 0 ? null : formatCountdown(ms));
   }
 
   function startCountdown(): void {
     stopCountdown();
     const tick = () => {
       const ms = msUntilNextLocalMidnight(new Date());
-      const text =
-        ms <= 0
-          ? 'The next daily is ready. Reload to play it.'
-          : `Next daily in ${formatCountdown(ms)}`;
+      const text = nextDailyLine(ms <= 0 ? null : formatCountdown(ms));
       ui.countdown.textContent = text;
       paintCountdownLine();
     };
@@ -747,9 +832,9 @@ function run(ui: Ui): void {
     const nav = navigator as Navigator & { share?: (data: ShareData) => Promise<void> };
     if (typeof nav.share === 'function') {
       try {
-        await nav.share({ title: 'Rarest Answer', text });
-        ui.shareStatus.textContent = 'Shared';
-        announce(ui, 'Shared');
+        await nav.share({ title: PLAY.wordmark, text });
+        ui.shareStatus.textContent = PLAY.shared;
+        announce(ui, PLAY.shared);
         return;
       } catch (err) {
         if (err instanceof DOMException && err.name === 'AbortError') return;
@@ -761,24 +846,30 @@ function run(ui: Ui): void {
   async function copyText(text: string): Promise<void> {
     try {
       await navigator.clipboard.writeText(text);
-      ui.shareStatus.textContent = 'Copied';
-      announce(ui, 'Result copied');
+      ui.shareStatus.textContent = PLAY.copied;
+      announce(ui, PLAY.resultCopied);
     } catch {
-      ui.shareStatus.textContent = 'Select the result below to copy it.';
-      announce(ui, 'Select the result text to copy it');
+      ui.shareStatus.textContent = PLAY.copyFallback;
+      announce(ui, PLAY.selectToCopy);
     }
   }
 
   function downloadCard(): void {
     drawShareCard(ui.canvas, {
-      title: shareHeading(),
+      title: shareHeading(
+        session.mode,
+        session.roundNumber,
+        session.category ? CATEGORY_LABELS[session.category] : undefined,
+      ),
       score: session.score.total,
       tiers: session.results.map((row) => row.tier),
+      spotlight: session.score.spotlightUsed,
+      noTimer: session.noTimer,
       url: sharePageUrl(session.origin, session.mode, session.category || undefined),
     });
     ui.canvas.toBlob((blob) => {
       if (!blob) {
-        ui.shareStatus.textContent = 'The image could not be built.';
+        ui.shareStatus.textContent = PLAY.imageFailed;
         return;
       }
       const url = URL.createObjectURL(blob);
@@ -789,15 +880,9 @@ function run(ui: Ui): void {
       link.click();
       link.remove();
       URL.revokeObjectURL(url);
-      ui.shareStatus.textContent = 'Image downloaded';
-      announce(ui, 'Image downloaded');
+      ui.shareStatus.textContent = PLAY.downloaded;
+      announce(ui, PLAY.downloaded);
     });
-  }
-
-  function shareHeading(): string {
-    if (session.mode === 'daily') return `Daily #${session.roundNumber}`;
-    if (session.mode === 'category' && session.category) return CATEGORY_LABELS[session.category];
-    return 'Unlimited';
   }
 
   function downloadName(): string {
@@ -809,9 +894,9 @@ function run(ui: Ui): void {
 
   function emptyMessage(): string {
     if (session.mode === 'category' && session.category) {
-      return `No ${CATEGORY_LABELS[session.category].toLowerCase()} prompts are loaded yet. The daily round still plays whatever is in the list.`;
+      return emptyCategoryLine(CATEGORY_LABELS[session.category]);
     }
-    return 'No prompts are loaded yet.';
+    return PLAY.emptyAll;
   }
 
   function loadPrompt(slug: string): Promise<ClientPrompt> {
@@ -835,6 +920,59 @@ function run(ui: Ui): void {
     if (!slug) return;
     void loadPrompt(slug).catch(() => {});
   }
+
+  function persistSettings(): void {
+    writeSettings(store, { version: 1, noTimer: session.noTimer, seenRules: session.seenRules });
+  }
+
+  function markRulesSeen(): void {
+    if (session.seenRules) return;
+    session.seenRules = true;
+    persistSettings();
+  }
+
+  function maybeCoach(): void {
+    if (session.seenRules) return;
+    openHowTo();
+  }
+
+  function openHowTo(): void {
+    if (ui.dialog.open) return;
+    ui.dialog.showModal();
+    ui.dialogTitle.focus();
+  }
+
+  function openStats(from: HTMLElement): void {
+    statsReturn = from;
+    paintCharts();
+    if (ui.statsDialog.open) return;
+    ui.statsDialog.showModal();
+    ui.statsTitle.focus();
+  }
+
+  function clearHit(): void {
+    if (hitTimer) window.clearTimeout(hitTimer);
+    hitTimer = 0;
+    ui.playView.classList.remove('ra-hit');
+  }
+
+  function paintCharts(): void {
+    const guesses = tierDistribution(stats.tierHits).map((row) => ({
+      label: tierName(Number(row.key)),
+      count: row.count,
+      share: row.share,
+      tier: Number(row.key),
+    }));
+    const scores = scoreDistribution(stats.dailyScores).map((row) => ({
+      label: row.key,
+      count: row.count,
+      share: row.share,
+    }));
+    paintDistribution(ui.guessSvg, guesses, PLAY.guessChart);
+    paintDistribution(ui.scoreSvg, scores, PLAY.scoreChart);
+    ui.guessEmpty.hidden = guesses.some((row) => row.count > 0);
+    ui.scoreEmpty.hidden = stats.dailyScores.length > 0;
+  }
 }
 
 function readMode(value: string | undefined): Mode {
@@ -843,8 +981,12 @@ function readMode(value: string | undefined): Mode {
 }
 
 function showView(root: HTMLElement, name: string): void {
+  const celebrate = root.dataset.revealHit === 'true';
   root.querySelectorAll<HTMLElement>('[data-game-view]').forEach((node) => {
-    node.hidden = node.dataset.gameView !== name;
+    const on = node.dataset.gameView === name;
+    node.hidden = !on;
+    node.classList.toggle('ra-reveal-in', on && name === 'reveal' && celebrate);
+    node.classList.toggle('ra-end-in', on && name === 'end');
   });
 }
 
@@ -868,27 +1010,97 @@ function fillList(
 ): void {
   list.replaceChildren();
   for (const answer of answers) {
+    const yours = player !== null && answer.name === player;
     const item = document.createElement('li');
-    item.className =
-      'flex items-baseline justify-between gap-3 border-b border-border py-2 text-sm';
+    item.className = 'ra-row flex items-center justify-between gap-3 py-2 text-sm';
+    if (yours) {
+      item.dataset.yours = 'true';
+      item.setAttribute('aria-current', 'true');
+    }
     const name = document.createElement('span');
-    name.className =
-      player && answer.name === player
-        ? 'min-w-0 flex-1 break-words font-semibold text-nav'
-        : 'min-w-0 flex-1 break-words text-foreground';
+    name.className = 'min-w-0 flex-1 break-words text-foreground';
     name.textContent = answer.name;
-    if (player && answer.name === player) item.setAttribute('aria-current', 'true');
+    if (yours) {
+      const mark = document.createElement('span');
+      mark.className = 'ml-2 text-xs font-semibold text-nav';
+      mark.textContent = PLAY.you;
+      name.append(mark);
+    }
     const tier = document.createElement('span');
-    tier.className = 'shrink-0 text-muted-foreground';
+    tier.className = 'tier-pill shrink-0';
+    tier.dataset.tier = String(answer.tier);
     tier.textContent = tierName(answer.tier);
     item.append(name, tier);
     list.append(item);
   }
 }
 
+const SVG_NS = 'http://www.w3.org/2000/svg';
+
+function paintDistribution(
+  svg: SVGSVGElement,
+  rows: { label: string; count: number; share: number; tier?: number }[],
+  caption: string,
+): void {
+  svg.setAttribute('aria-label', chartSummary(caption, rows));
+  svg.replaceChildren();
+  rows.forEach((row, index) => {
+    const y = 4 + index * 28;
+    const text = svgEl('text');
+    text.setAttribute('x', '0');
+    text.setAttribute('y', String(y + 14));
+    text.setAttribute('fill', 'currentColor');
+    text.setAttribute('font-size', '12');
+    text.setAttribute('font-family', 'Source Sans 3, ui-sans-serif, system-ui, sans-serif');
+    text.textContent = row.label;
+    const track = svgEl('rect');
+    track.setAttribute('x', '108');
+    track.setAttribute('y', String(y + 4));
+    track.setAttribute('width', '150');
+    track.setAttribute('height', '12');
+    track.setAttribute('rx', '6');
+    track.setAttribute('fill', hslFromToken('--muted'));
+    svg.append(text, track);
+    if (row.share > 0) {
+      const fill = svgEl('rect');
+      const width = Math.max(8, Math.round(row.share * 150));
+      fill.setAttribute('x', '108');
+      fill.setAttribute('y', String(y + 4));
+      fill.setAttribute('width', String(width));
+      fill.setAttribute('height', '12');
+      fill.setAttribute('rx', '6');
+      fill.setAttribute(
+        'fill',
+        row.tier ? hslFromToken(`--tier-${row.tier}`) : hslFromToken('--brand'),
+      );
+      svg.append(fill);
+    }
+    const count = svgEl('text');
+    count.setAttribute('x', '316');
+    count.setAttribute('y', String(y + 14));
+    count.setAttribute('text-anchor', 'end');
+    count.setAttribute('fill', 'currentColor');
+    count.setAttribute('font-size', '12');
+    count.setAttribute('font-family', 'Source Sans 3, ui-sans-serif, system-ui, sans-serif');
+    count.textContent = String(row.count);
+    svg.append(count);
+  });
+}
+
+function svgEl(name: string): SVGElement {
+  return document.createElementNS(SVG_NS, name);
+}
+
 function drawShareCard(
   canvas: HTMLCanvasElement,
-  card: { title: string; score: number; tiers: number[]; url: string },
+  card: {
+    title: string;
+    score: number;
+    tiers: number[];
+    spotlight: boolean;
+    noTimer: boolean;
+    url: string;
+  },
 ): void {
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
@@ -897,34 +1109,54 @@ function drawShareCard(
   ctx.clearRect(0, 0, width, height);
   ctx.fillStyle = hslFromToken('--background');
   ctx.fillRect(0, 0, width, height);
-  ctx.fillStyle = hslFromToken('--brand', 40);
-  ctx.fillRect(0, 0, width, 16);
+  ctx.fillStyle = hslFromToken('--brand');
+  ctx.fillRect(0, 0, width, 18);
   ctx.fillStyle = hslFromToken('--foreground');
-  ctx.font = '700 64px ui-sans-serif, system-ui, sans-serif';
-  ctx.fillText('Rarest Answer', 72, 150);
+  ctx.font = '700 56px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
+  ctx.fillText(PLAY.wordmark, 64, 110);
   ctx.fillStyle = hslFromToken('--muted-foreground');
-  ctx.font = '500 28px ui-sans-serif, system-ui, sans-serif';
-  ctx.fillText(card.title, 72, 202);
+  ctx.font = '500 28px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
+  ctx.fillText(card.title, 64, 158);
+  const flags = [card.spotlight ? PLAY.spotlightUsed : '', card.noTimer ? PLAY.noTimer : '']
+    .filter(Boolean)
+    .join(' · ');
+  if (flags) {
+    ctx.font = '500 22px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
+    ctx.fillText(flags, 64, 198);
+  }
   ctx.fillStyle = hslFromToken('--foreground');
-  ctx.font = '700 92px ui-sans-serif, system-ui, sans-serif';
+  ctx.font = '700 108px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
   const scoreText = String(card.score);
-  ctx.fillText(scoreText, 72, 330);
+  ctx.fillText(scoreText, 64, 330);
   const scoreWidth = ctx.measureText(scoreText).width;
   ctx.fillStyle = hslFromToken('--muted-foreground');
-  ctx.font = '500 28px ui-sans-serif, system-ui, sans-serif';
-  ctx.fillText('points', 72 + scoreWidth + 20, 330);
+  ctx.font = '500 28px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
+  ctx.fillText(PLAY.pointsWord, 64 + scoreWidth + 20, 330);
 
-  const size = 64;
-  const gap = 16;
-  const total = card.tiers.length * size + Math.max(0, card.tiers.length - 1) * gap;
+  const size = 56;
+  const gap = 14;
+  const count = Math.max(card.tiers.length, 1);
+  const total = count * size + Math.max(0, count - 1) * gap;
   let x = (width - total) / 2;
-  const y = 390;
   for (const tier of card.tiers) {
     ctx.fillStyle = tier === 0 ? hslFromToken('--muted') : hslFromToken(`--tier-${tier}`);
-    roundRect(ctx, x, y, size, size, 12);
+    roundRect(ctx, x, 380, size, size, 12);
     x += size + gap;
   }
 
+  ctx.fillStyle = hslFromToken('--muted-foreground');
+  ctx.font = '500 24px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
+  ctx.fillText(PLAY.tagline, 64, 500);
+  const legend = [1, 2, 3, 4, 5, 6];
+  const cell = (width - 128) / legend.length;
+  legend.forEach((tier, index) => {
+    const left = 64 + index * cell;
+    ctx.fillStyle = hslFromToken(`--tier-${tier}`);
+    roundRect(ctx, left, 528, 18, 18, 4);
+    ctx.fillStyle = hslFromToken('--foreground');
+    ctx.font = '500 18px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
+    ctx.fillText(tierName(tier), left + 26, 543);
+  });
   let host = card.url;
   try {
     host = new URL(card.url).host;
@@ -932,8 +1164,11 @@ function drawShareCard(
     host = card.url;
   }
   ctx.fillStyle = hslFromToken('--muted-foreground');
-  ctx.font = '500 24px ui-sans-serif, system-ui, sans-serif';
-  ctx.fillText(host, 72, height - 56);
+  ctx.font = '500 22px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
+  ctx.fillText(host, 64, height - 36);
+  ctx.strokeStyle = hslFromToken('--border');
+  ctx.lineWidth = 4;
+  ctx.strokeRect(2, 2, width - 4, height - 4);
 }
 
 function roundRect(
@@ -995,6 +1230,9 @@ function grab(root: HTMLElement): Ui {
     noTimer: mustButton(root, '[data-game-notimer]'),
     noTimerLabel: must(root, '[data-game-notimer-label]'),
     progress: must(root, '[data-game-progress]'),
+    playView: must(root, '[data-game-view="play"]'),
+    revealView: must(root, '[data-game-view="reveal"]'),
+    endView: must(root, '[data-game-view="end"]'),
     promptCat: must(root, '[data-game-prompt-cat]'),
     question: must(root, '[data-game-question]'),
     form: mustForm(root, '[data-game-form]'),
@@ -1014,10 +1252,15 @@ function grab(root: HTMLElement): Ui {
     could: must(root, '[data-game-could]'),
     rarer: must(root, '[data-game-rarer]'),
     answersLink: mustAnchor(root, '[data-game-answers]'),
+    rarestHeading: must(root, '[data-game-rarest-heading]'),
     rarest: mustList(root, '[data-game-rarest]'),
+    commonBlock: must(root, '[data-game-common-block]'),
     common: mustList(root, '[data-game-common]'),
+    outside: must(root, '[data-game-outside]'),
     next: mustButton(root, '[data-game-next]'),
     finalHeading: must(root, '[data-game-final-heading]'),
+    cardTitle: must(root, '[data-game-card-title]'),
+    endStreak: must(root, '[data-game-end-streak]'),
     finalScore: must(root, '[data-game-final-score]'),
     squares: mustAll(root, '[data-game-sq]'),
     tierCounts: mustAll(root, '[data-game-tier-count]'),
@@ -1033,6 +1276,20 @@ function grab(root: HTMLElement): Ui {
     dialog: mustDialog(root, '[data-game-dialog]'),
     dialogClose: mustButton(root, '[data-game-dialog-close]'),
     dialogTitle: must(root, '[data-game-dialog-title]'),
+    statsOpen: mustButtons(root, '[data-game-stats-open]'),
+    statsDialog: mustDialog(root, '[data-game-stats-dialog]'),
+    statsClose: mustButton(root, '[data-game-stats-close]'),
+    statsTitle: must(root, '[data-game-stats-title]'),
+    statStreak: must(root, '[data-game-stat-streak]'),
+    statBestStreak: must(root, '[data-game-stat-best-streak]'),
+    statBest: must(root, '[data-game-stat-best]'),
+    statDailies: must(root, '[data-game-stat-dailies]'),
+    statRounds: must(root, '[data-game-stat-rounds]'),
+    statPoints: must(root, '[data-game-stat-points]'),
+    guessSvg: mustSvg(root, '[data-game-guess-svg]'),
+    scoreSvg: mustSvg(root, '[data-game-score-svg]'),
+    guessEmpty: must(root, '[data-game-guess-empty]'),
+    scoreEmpty: must(root, '[data-game-score-empty]'),
   };
 }
 
@@ -1044,6 +1301,12 @@ function must(root: ParentNode, selector: string): HTMLElement {
 
 function mustAll(root: ParentNode, selector: string): HTMLElement[] {
   return [...root.querySelectorAll(selector)].filter((node) => node instanceof HTMLElement);
+}
+
+function mustButtons(root: ParentNode, selector: string): HTMLButtonElement[] {
+  const nodes = [...root.querySelectorAll(selector)].filter((node) => node instanceof HTMLButtonElement);
+  if (nodes.length === 0) throw new Error(selector);
+  return nodes;
 }
 
 function mustButton(root: ParentNode, selector: string): HTMLButtonElement {
@@ -1087,6 +1350,12 @@ function mustAnchor(root: ParentNode, selector: string): HTMLAnchorElement {
 function mustList(root: ParentNode, selector: string): HTMLOListElement {
   const node = root.querySelector(selector);
   if (!(node instanceof HTMLOListElement)) throw new Error(selector);
+  return node;
+}
+
+function mustSvg(root: ParentNode, selector: string): SVGSVGElement {
+  const node = root.querySelector(selector);
+  if (!(node instanceof SVGSVGElement)) throw new Error(selector);
   return node;
 }
 

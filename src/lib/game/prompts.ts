@@ -100,6 +100,37 @@ export function rarerThanLine(count: number): string {
   return `${count} answers are rarer than yours.`;
 }
 
+/**
+ * One list when the prompt is short enough to show in full. Longer prompts
+ * keep the rarest slice and the most-common slice, which can overlap.
+ */
+export function revealLists<T>(
+  answers: readonly T[],
+  limit = 10,
+): { complete: boolean; rarest: T[]; common: T[] } {
+  if (answers.length <= limit) {
+    return { complete: true, rarest: answers.slice(), common: [] };
+  }
+  return {
+    complete: false,
+    rarest: rarestAnswers(answers, limit),
+    common: commonAnswers(answers, limit),
+  };
+}
+
+/** 1-based rank from a rarest-first list. Ties share the rank above them. */
+export function answerRank(rarerCount: number): number {
+  return rarerCount + 1;
+}
+
+export function placementLine(rank: number, total: number): string {
+  if (total <= 1) return 'Only one accepted answer.';
+  if (rank <= 1) return `Rarest of ${total}.`;
+  const rarer = rank - 1;
+  if (rarer === 1) return `Rank ${rank} of ${total}. 1 answer is rarer than yours.`;
+  return `Rank ${rank} of ${total}. ${rarer} answers are rarer than yours.`;
+}
+
 function toClientAnswer(value: unknown): ClientAnswer | null {
   if (!isRecord(value)) return null;
   const name = typeof value.name === 'string' ? value.name.trim() : '';

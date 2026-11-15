@@ -1,0 +1,64 @@
+---
+/**
+ * Cover-led article card for list, recent, and tag grids.
+ * The 16:9 frame is reserved even when a cover is missing, so the grid
+ * does not jump. The cover is decorative: the title is the link name.
+ */
+import type { ImageMetadata } from 'astro';
+import ArticleCover from './ArticleCover.astro';
+
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+  meta: string;
+  categoryLabel?: string;
+  image?: ImageMetadata;
+  sizes?: string;
+  /** Card title level. List grids under an "All pages" h2 use h3. */
+  heading?: 'h2' | 'h3';
+}
+const {
+  href,
+  title,
+  description,
+  meta,
+  categoryLabel,
+  image,
+  sizes,
+  heading = 'h2',
+} = Astro.props;
+const Title = heading;
+---
+
+<a href={href} class="card group flex h-full flex-col overflow-hidden p-0">
+  <div class="aspect-video overflow-hidden bg-muted">
+    {
+      image ? (
+        <ArticleCover
+          src={image}
+          alt=""
+          sizes={sizes}
+          class="mb-0 h-full w-full rounded-none object-cover"
+        />
+      ) : null
+    }
+  </div>
+  <div class="flex flex-1 flex-col p-4 sm:p-5">
+    {
+      categoryLabel && (
+        <p class="text-xs font-semibold uppercase tracking-wider text-nav">{categoryLabel}</p>
+      )
+    }
+    <Title
+      class:list={[
+        'font-display text-lg font-semibold leading-snug tracking-tight',
+        categoryLabel && 'mt-1',
+      ]}
+    >
+      {title}
+    </Title>
+    <p class="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-muted-foreground">{description}</p>
+    <p class="mt-4 text-xs text-muted-foreground">{meta}</p>
+  </div>
+</a>

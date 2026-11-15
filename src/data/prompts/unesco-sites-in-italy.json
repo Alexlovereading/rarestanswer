@@ -1,0 +1,602 @@
+{
+  "id": "unesco-sites-in-italy",
+  "slug": "unesco-sites-in-italy",
+  "category": "geography",
+  "question": "Name a UNESCO World Heritage Site in Italy",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Palazzo Giorgio Centurione",
+      "aliases": [
+        "Palazzo Centurione-Cambiaso",
+        "Palazzo Centurione Giorgio"
+      ],
+      "popularity": 199,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Palazzo Giorgio Centurione"
+    },
+    {
+      "name": "Palazzo Cosmo Centurione",
+      "aliases": [],
+      "popularity": 228,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Palazzo Cosmo Centurione"
+    },
+    {
+      "name": "Palazzo Giorgio Spinola",
+      "aliases": [
+        "Palazzo Spinola Giorgio"
+      ],
+      "popularity": 252,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Palazzo Giorgio Spinola"
+    },
+    {
+      "name": "Palazzo Stefano De Mari",
+      "aliases": [
+        "Palazzo De Mari Stefano"
+      ],
+      "popularity": 277,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Palazzo Stefano De Mari"
+    },
+    {
+      "name": "Palazzo Lomellini-Doria Lamba",
+      "aliases": [
+        "Palazzo Stefano Lomellini"
+      ],
+      "popularity": 295,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Palazzo Lomellini-Doria Lamba"
+    },
+    {
+      "name": "Palazzo Spinola Gambaro",
+      "aliases": [
+        "Palazzo Pantaleo Spinola"
+      ],
+      "popularity": 337,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Palazzo Spinola Gambaro"
+    },
+    {
+      "name": "Palazzo Giacomo Lomellini",
+      "aliases": [
+        "Palazzo Giacomo Patrone Lomellini"
+      ],
+      "popularity": 350,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Palazzo Giacomo Lomellini"
+    },
+    {
+      "name": "Palazzo Campanella o di Baldassarre Lomellini",
+      "aliases": [
+        "Palazzo Baldassarre Lomellini",
+        "palazzo di Cristoforo Spinola"
+      ],
+      "popularity": 351,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Palazzo Campanella o di Baldassarre Lomellini"
+    },
+    {
+      "name": "Palazzo Belimbau",
+      "aliases": [
+        "Palazzo Antoniotto Cattaneo"
+      ],
+      "popularity": 368,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Palazzo Belimbau"
+    },
+    {
+      "name": "Palazzo Interiano Pallavicini",
+      "aliases": [
+        "Palazzo Paolo e Niccolò Interiano"
+      ],
+      "popularity": 401,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Palazzo Interiano Pallavicini"
+    },
+    {
+      "name": "Palazzo Lercari-Parodi",
+      "aliases": [],
+      "popularity": 416,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Palazzo Lercari-Parodi"
+    },
+    {
+      "name": "Palazzo Carrega-Cataldi",
+      "aliases": [],
+      "popularity": 613,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Palazzo Carrega-Cataldi"
+    },
+    {
+      "name": "Palazzo Angelo Giovanni Spinola",
+      "aliases": [],
+      "popularity": 696,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Palazzo Angelo Giovanni Spinola"
+    },
+    {
+      "name": "Palazzo Cattaneo-Adorno",
+      "aliases": [
+        "palazzo Lazzaro e Giacomo Spinola"
+      ],
+      "popularity": 818,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Palazzo Cattaneo-Adorno"
+    },
+    {
+      "name": "Palazzo Cambiaso Pallavicini",
+      "aliases": [
+        "Palazzo Agostino Pallavicino",
+        "Palazzo Pallavicini Cambiaso"
+      ],
+      "popularity": 849,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Palazzo Cambiaso Pallavicini"
+    },
+    {
+      "name": "Palazzo Ambrogio Di Negro",
+      "aliases": [
+        "Palazzo Ambrogio De Nigro",
+        "Palazzo De Nigro Ambrogio"
+      ],
+      "popularity": 924,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Palazzo Ambrogio Di Negro"
+    },
+    {
+      "name": "Via Cairoli",
+      "aliases": [],
+      "popularity": 1022,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Via Cairoli"
+    },
+    {
+      "name": "Rhaetian Railway in the Albula / Bernina Landscapes",
+      "aliases": [],
+      "popularity": 1137,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Rhaetian Railway in the Albula / Bernina Landscapes"
+    },
+    {
+      "name": "Palazzo Gerolamo Grimaldi",
+      "aliases": [
+        "Palazzo della Meridiana",
+        "Palazzo di Gerolamo Grimaldi"
+      ],
+      "popularity": 1212,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Palazzo Gerolamo Grimaldi"
+    },
+    {
+      "name": "Royal Armoury of Turin",
+      "aliases": [
+        "Armeria reale di Torino"
+      ],
+      "popularity": 1675,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Royal Armoury of Turin"
+    },
+    {
+      "name": "Palazzo Spinola di Pellicceria",
+      "aliases": [
+        "Palazzo Spinola a Pellicceria"
+      ],
+      "popularity": 1892,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Palazzo Spinola di Pellicceria"
+    },
+    {
+      "name": "Palazzo Rosso",
+      "aliases": [],
+      "popularity": 2635,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Palazzo Rosso"
+    },
+    {
+      "name": "National Archaeological Museum of Paestum",
+      "aliases": [
+        "National Archaeological Museum Paestum"
+      ],
+      "popularity": 2698,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "National Archaeological Museum of Paestum"
+    },
+    {
+      "name": "Palazzo Doria-Tursi",
+      "aliases": [],
+      "popularity": 2740,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Palazzo Doria-Tursi"
+    },
+    {
+      "name": "Palazzo Bianco",
+      "aliases": [
+        "White Palace"
+      ],
+      "popularity": 2761,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Palazzo Bianco"
+    },
+    {
+      "name": "Foreste Casentinesi, Monte Falterona, Campigna National Park",
+      "aliases": [],
+      "popularity": 2888,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Foreste Casentinesi, Monte Falterona, Campigna National Park"
+    },
+    {
+      "name": "Vineyard Landscape of Piedmont: Langhe-Roero and Monferrato",
+      "aliases": [],
+      "popularity": 3784,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Vineyard Landscape of Piedmont: Langhe-Roero and Monferrato"
+    },
+    {
+      "name": "Longobards in Italy: Places of Power",
+      "aliases": [
+        "Longobard sites"
+      ],
+      "popularity": 3910,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Longobards in Italy: Places of Power (568–774 A.D.)"
+    },
+    {
+      "name": "Padua's fourteenth-century fresco cycles",
+      "aliases": [
+        "Padova Urbs picta"
+      ],
+      "popularity": 3964,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Padua's fourteenth-century fresco cycles"
+    },
+    {
+      "name": "Via Traiana",
+      "aliases": [],
+      "popularity": 5081,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Via Traiana"
+    },
+    {
+      "name": "Sacri Monti of Piedmont and Lombardy",
+      "aliases": [],
+      "popularity": 5487,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Sacri Monti of Piedmont and Lombardy"
+    },
+    {
+      "name": "Historic Centre of Naples",
+      "aliases": [],
+      "popularity": 6283,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Historic Centre of Naples"
+    },
+    {
+      "name": "Cinque Terre National Park",
+      "aliases": [
+        "Parco Nazionale delle Cinque Terre"
+      ],
+      "popularity": 6310,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Cinque Terre National Park"
+    },
+    {
+      "name": "Orto botanico di Padova",
+      "aliases": [
+        "Padova botanical garden"
+      ],
+      "popularity": 6594,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Orto botanico di Padova"
+    },
+    {
+      "name": "City of Vicenza and the Palladian Villas of the Veneto",
+      "aliases": [],
+      "popularity": 6599,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "City of Vicenza and the Palladian Villas of the Veneto"
+    },
+    {
+      "name": "Crespi d'Adda",
+      "aliases": [],
+      "popularity": 6935,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Crespi d'Adda"
+    },
+    {
+      "name": "Palazzo Gio. Battista Grimaldi (Piazza San Luca)",
+      "aliases": [],
+      "popularity": 7779,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Palazzo Gio. Battista Grimaldi (Piazza San Luca)"
+    },
+    {
+      "name": "Palazzo Gio Battista Grimaldi (Vico San Luca)",
+      "aliases": [],
+      "popularity": 8906,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Palazzo Gio Battista Grimaldi (Vico San Luca)"
+    },
+    {
+      "name": "Domus de Janas",
+      "aliases": [],
+      "popularity": 10897,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Domus de Janas"
+    },
+    {
+      "name": "Modena Cathedral",
+      "aliases": [],
+      "popularity": 11579,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Modena Cathedral"
+    },
+    {
+      "name": "Historic Centre of Florence",
+      "aliases": [
+        "Historic Center of Florence"
+      ],
+      "popularity": 12017,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Historic Centre of Florence"
+    },
+    {
+      "name": "Su Nuraxi",
+      "aliases": [
+        "Su Nuraxi (Barumini)",
+        "Su Nuraxi di Barumini"
+      ],
+      "popularity": 12874,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Su Nuraxi (Barumini)"
+    },
+    {
+      "name": "Arab-Norman Palermo and the Cathedral Churches of Cefalù and Monreale",
+      "aliases": [],
+      "popularity": 13390,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Arab-Norman Palermo and the Cathedral Churches of Cefalù and Monreale"
+    },
+    {
+      "name": "Residences of the Royal House of Savoy",
+      "aliases": [],
+      "popularity": 13486,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Residences of the Royal House of Savoy"
+    },
+    {
+      "name": "Porticoes of Bologna",
+      "aliases": [
+        "Bologna Arcades",
+        "The Porticoes of Bologna"
+      ],
+      "popularity": 18825,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Porticoes of Bologna"
+    },
+    {
+      "name": "Medici villas",
+      "aliases": [],
+      "popularity": 19148,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Medici villas"
+    },
+    {
+      "name": "Prehistoric pile dwellings around the Alps",
+      "aliases": [],
+      "popularity": 19404,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Prehistoric pile dwellings around the Alps"
+    },
+    {
+      "name": "Rock Drawings in Valcamonica",
+      "aliases": [],
+      "popularity": 21847,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Rock Drawings in Valcamonica"
+    },
+    {
+      "name": "Madonna di San Luca, Bologna",
+      "aliases": [
+        "The Madonna of San Luca"
+      ],
+      "popularity": 22697,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Madonna di San Luca, Bologna"
+    },
+    {
+      "name": "Piazza dei Miracoli",
+      "aliases": [
+        "Piazza del Duomo"
+      ],
+      "popularity": 26293,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Piazza dei Miracoli"
+    },
+    {
+      "name": "Porto Venere",
+      "aliases": [
+        "Portovenere"
+      ],
+      "popularity": 27308,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Porto Venere"
+    },
+    {
+      "name": "Great Spa Towns of Europe",
+      "aliases": [
+        "Great spas of Europe"
+      ],
+      "popularity": 28397,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Great Spa Towns of Europe"
+    },
+    {
+      "name": "Val d'Orcia",
+      "aliases": [],
+      "popularity": 33561,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Val d'Orcia"
+    },
+    {
+      "name": "Castel del Monte, Apulia",
+      "aliases": [
+        "Castel del Monte"
+      ],
+      "popularity": 41335,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Castel del Monte, Apulia"
+    },
+    {
+      "name": "Villa d'Este",
+      "aliases": [],
+      "popularity": 53685,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Villa d'Este"
+    },
+    {
+      "name": "Valle dei Templi",
+      "aliases": [
+        "Archaeological Area of Agrigento"
+      ],
+      "popularity": 56133,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Valle dei Templi"
+    },
+    {
+      "name": "Genoa: Le Strade Nuove and the system of the Palazzi dei Rolli",
+      "aliases": [],
+      "popularity": 56669,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Genoa: Le Strade Nuove and the system of the Palazzi dei Rolli"
+    },
+    {
+      "name": "Santa Maria delle Grazie, Milan",
+      "aliases": [
+        "Basilica of Santa Maria Grazie",
+        "Santa Maria delle Grazie",
+        "Santa Maria delle Grazie Church"
+      ],
+      "popularity": 65583,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Santa Maria delle Grazie, Milan"
+    },
+    {
+      "name": "Villa Romana del Casale",
+      "aliases": [],
+      "popularity": 69602,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Villa Romana del Casale"
+    },
+    {
+      "name": "Aeolian Islands",
+      "aliases": [
+        "Lipari Islands",
+        "Æolian Islands"
+      ],
+      "popularity": 70666,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Aeolian Islands"
+    },
+    {
+      "name": "Hadrian's Villa",
+      "aliases": [
+        "Villa Adriana"
+      ],
+      "popularity": 73074,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Hadrian's Villa"
+    },
+    {
+      "name": "Appian Way",
+      "aliases": [
+        "Via Appia"
+      ],
+      "popularity": 190420,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Appian Way"
+    },
+    {
+      "name": "Amalfi Coast",
+      "aliases": [
+        "Costa d'Amalfi",
+        "Costiera amalfitana"
+      ],
+      "popularity": 291330,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Amalfi Coast"
+    },
+    {
+      "name": "Verona",
+      "aliases": [],
+      "popularity": 305834,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Verona"
+    }
+  ]
+}

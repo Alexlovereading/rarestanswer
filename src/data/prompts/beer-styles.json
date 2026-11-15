@@ -1,0 +1,754 @@
+{
+  "id": "beer-styles",
+  "slug": "beer-styles",
+  "category": "food",
+  "question": "Name a beer style",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Flavoured beer",
+      "aliases": [],
+      "popularity": 26,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Flavoured beer"
+    },
+    {
+      "name": "Caves",
+      "aliases": [
+        "Caves (beer)"
+      ],
+      "popularity": 410,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Caves (beer)"
+    },
+    {
+      "name": "Red Beer",
+      "aliases": [],
+      "popularity": 508,
+      "rarity": 0.975,
+      "tier": 6,
+      "wiki": "Red Beer"
+    },
+    {
+      "name": "Ukrainian golden ale",
+      "aliases": [],
+      "popularity": 638,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Ukrainian golden ale"
+    },
+    {
+      "name": "Abbey beers",
+      "aliases": [
+        "abbey beer"
+      ],
+      "popularity": 751,
+      "rarity": 0.951,
+      "tier": 6,
+      "wiki": "Abbey beers"
+    },
+    {
+      "name": "Dark beer",
+      "aliases": [],
+      "popularity": 800,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Dark beer"
+    },
+    {
+      "name": "Blonde beer",
+      "aliases": [
+        "Belgian blond ale",
+        "Belgian blonde ale",
+        "blond",
+        "blond beer"
+      ],
+      "popularity": 832,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Blonde beer"
+    },
+    {
+      "name": "Peeterman Artois",
+      "aliases": [],
+      "popularity": 891,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Peeterman Artois"
+    },
+    {
+      "name": "Rye IPA",
+      "aliases": [
+        "rye India Pale Ale"
+      ],
+      "popularity": 930,
+      "rarity": 0.901,
+      "tier": 5,
+      "wiki": "Rye IPA"
+    },
+    {
+      "name": "Amber Ale",
+      "aliases": [],
+      "popularity": 1287,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Amber Ale"
+    },
+    {
+      "name": "Steinbier",
+      "aliases": [],
+      "popularity": 1737,
+      "rarity": 0.877,
+      "tier": 5,
+      "wiki": "Steinbier"
+    },
+    {
+      "name": "Copper ale",
+      "aliases": [],
+      "popularity": 1756,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Copper ale"
+    },
+    {
+      "name": "American wild ale",
+      "aliases": [
+        "wild ale"
+      ],
+      "popularity": 2109,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "American wild ale"
+    },
+    {
+      "name": "Seasonal beer",
+      "aliases": [],
+      "popularity": 2474,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "Seasonal beer"
+    },
+    {
+      "name": "Pumpkin ale",
+      "aliases": [
+        "pumpkin beer"
+      ],
+      "popularity": 2674,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Pumpkin ale"
+    },
+    {
+      "name": "Brunswick Mum",
+      "aliases": [],
+      "popularity": 2697,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Brunswick Mum"
+    },
+    {
+      "name": "Hemp beer",
+      "aliases": [],
+      "popularity": 2820,
+      "rarity": 0.802,
+      "tier": 5,
+      "wiki": "Hemp beer"
+    },
+    {
+      "name": "Near beer",
+      "aliases": [],
+      "popularity": 3517,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Near beer"
+    },
+    {
+      "name": "Cock ale",
+      "aliases": [],
+      "popularity": 4121,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Cock ale"
+    },
+    {
+      "name": "Strong ale",
+      "aliases": [],
+      "popularity": 4355,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Strong ale"
+    },
+    {
+      "name": "Siwa",
+      "aliases": [
+        "Siwa (beer)"
+      ],
+      "popularity": 4376,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Siwa (beer)"
+    },
+    {
+      "name": "Happōshu",
+      "aliases": [
+        "low-malt beer"
+      ],
+      "popularity": 4730,
+      "rarity": 0.741,
+      "tier": 4,
+      "wiki": "Happōshu"
+    },
+    {
+      "name": "Kveik",
+      "aliases": [],
+      "popularity": 4902,
+      "rarity": 0.728,
+      "tier": 4,
+      "wiki": "Kveik"
+    },
+    {
+      "name": "Bouza",
+      "aliases": [
+        "Bouza (beer)"
+      ],
+      "popularity": 5027,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Bouza (beer)"
+    },
+    {
+      "name": "Zoigl",
+      "aliases": [],
+      "popularity": 5166,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Zoigl"
+    },
+    {
+      "name": "Svagdricka",
+      "aliases": [
+        "light drink",
+        "low drink",
+        "soft drink",
+        "weak drink"
+      ],
+      "popularity": 5443,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Svagdricka"
+    },
+    {
+      "name": "Tella",
+      "aliases": [
+        "Talla"
+      ],
+      "popularity": 6073,
+      "rarity": 0.679,
+      "tier": 4,
+      "wiki": "Tella"
+    },
+    {
+      "name": "Zhigulevskoye",
+      "aliases": [
+        "Žiguli"
+      ],
+      "popularity": 6107,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Zhigulevskoye"
+    },
+    {
+      "name": "Oud bruin",
+      "aliases": [
+        "Flanders Oud Bruin",
+        "Oudenaards bruin"
+      ],
+      "popularity": 6940,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Oud bruin"
+    },
+    {
+      "name": "Scotch Ale",
+      "aliases": [],
+      "popularity": 7322,
+      "rarity": 0.642,
+      "tier": 4,
+      "wiki": "Scotch Ale"
+    },
+    {
+      "name": "Rye beer",
+      "aliases": [],
+      "popularity": 7400,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Rye beer"
+    },
+    {
+      "name": "American pale ale",
+      "aliases": [
+        "APA"
+      ],
+      "popularity": 8705,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "American pale ale"
+    },
+    {
+      "name": "Bière de Garde",
+      "aliases": [],
+      "popularity": 9055,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Bière de Garde"
+    },
+    {
+      "name": "Corn beer",
+      "aliases": [],
+      "popularity": 9459,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Corn beer"
+    },
+    {
+      "name": "Old ale",
+      "aliases": [],
+      "popularity": 9603,
+      "rarity": 0.58,
+      "tier": 3,
+      "wiki": "Old ale"
+    },
+    {
+      "name": "Dortmunder Export",
+      "aliases": [],
+      "popularity": 9906,
+      "rarity": 0.568,
+      "tier": 3,
+      "wiki": "Dortmunder Export"
+    },
+    {
+      "name": "Farmhouse ale",
+      "aliases": [],
+      "popularity": 10066,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Farmhouse ale"
+    },
+    {
+      "name": "Flanders red ale",
+      "aliases": [],
+      "popularity": 10377,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Flanders red ale"
+    },
+    {
+      "name": "Dubbel",
+      "aliases": [],
+      "popularity": 10652,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Dubbel"
+    },
+    {
+      "name": "Grodziskie",
+      "aliases": [
+        "Grätzer"
+      ],
+      "popularity": 10889,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Grodziskie"
+    },
+    {
+      "name": "Banana beer",
+      "aliases": [
+        "Omubisi"
+      ],
+      "popularity": 11178,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Banana beer"
+    },
+    {
+      "name": "Quadrupel",
+      "aliases": [
+        "quadrupel beer"
+      ],
+      "popularity": 11559,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Quadrupel"
+    },
+    {
+      "name": "Framboise",
+      "aliases": [],
+      "popularity": 12631,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Framboise"
+    },
+    {
+      "name": "Umqombothi",
+      "aliases": [],
+      "popularity": 12890,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Umqombothi"
+    },
+    {
+      "name": "Cream ale",
+      "aliases": [],
+      "popularity": 14777,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Cream ale"
+    },
+    {
+      "name": "Brown ale",
+      "aliases": [],
+      "popularity": 16219,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Brown ale"
+    },
+    {
+      "name": "American lager",
+      "aliases": [],
+      "popularity": 18024,
+      "rarity": 0.432,
+      "tier": 3,
+      "wiki": "American lager"
+    },
+    {
+      "name": "Smoked beer",
+      "aliases": [
+        "Rauchbier"
+      ],
+      "popularity": 18172,
+      "rarity": 0.42,
+      "tier": 3,
+      "wiki": "Smoked beer"
+    },
+    {
+      "name": "Fruit beer",
+      "aliases": [],
+      "popularity": 18223,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Fruit beer"
+    },
+    {
+      "name": "Ice beer",
+      "aliases": [],
+      "popularity": 18653,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Ice beer"
+    },
+    {
+      "name": "Gueuze",
+      "aliases": [
+        "Brussels champagne",
+        "geuze"
+      ],
+      "popularity": 19080,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Gueuze"
+    },
+    {
+      "name": "Schwarzbier",
+      "aliases": [],
+      "popularity": 19300,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Schwarzbier"
+    },
+    {
+      "name": "Kellerbier",
+      "aliases": [
+        "zwickelbier"
+      ],
+      "popularity": 20045,
+      "rarity": 0.358,
+      "tier": 2,
+      "wiki": "Kellerbier"
+    },
+    {
+      "name": "Kriek lambic",
+      "aliases": [
+        "kriek"
+      ],
+      "popularity": 22652,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Kriek lambic"
+    },
+    {
+      "name": "Tripel",
+      "aliases": [
+        "tripel beer"
+      ],
+      "popularity": 23908,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Tripel"
+    },
+    {
+      "name": "Altbier",
+      "aliases": [],
+      "popularity": 27460,
+      "rarity": 0.321,
+      "tier": 2,
+      "wiki": "Altbier"
+    },
+    {
+      "name": "Light beer",
+      "aliases": [],
+      "popularity": 27753,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Light beer"
+    },
+    {
+      "name": "Saison",
+      "aliases": [],
+      "popularity": 29372,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Saison"
+    },
+    {
+      "name": "Dunkel",
+      "aliases": [],
+      "popularity": 31028,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Dunkel"
+    },
+    {
+      "name": "Irish red ale",
+      "aliases": [
+        "Red Ale"
+      ],
+      "popularity": 31232,
+      "rarity": 0.272,
+      "tier": 2,
+      "wiki": "Irish red ale"
+    },
+    {
+      "name": "Barley wine",
+      "aliases": [
+        "barleywine"
+      ],
+      "popularity": 32161,
+      "rarity": 0.259,
+      "tier": 2,
+      "wiki": "Barley wine"
+    },
+    {
+      "name": "Gose",
+      "aliases": [],
+      "popularity": 38196,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Gose"
+    },
+    {
+      "name": "Gruit",
+      "aliases": [
+        "gruyt"
+      ],
+      "popularity": 39523,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Gruit"
+    },
+    {
+      "name": "Märzen",
+      "aliases": [],
+      "popularity": 42610,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Märzen"
+    },
+    {
+      "name": "Bitter",
+      "aliases": [
+        "best bitter",
+        "Bitter (beer)",
+        "English bitter"
+      ],
+      "popularity": 43958,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Bitter (beer)"
+    },
+    {
+      "name": "Helles",
+      "aliases": [
+        "hell"
+      ],
+      "popularity": 46471,
+      "rarity": 0.198,
+      "tier": 1,
+      "wiki": "Helles"
+    },
+    {
+      "name": "Pale ale",
+      "aliases": [],
+      "popularity": 52985,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Pale ale"
+    },
+    {
+      "name": "Bock",
+      "aliases": [],
+      "popularity": 53139,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Bock"
+    },
+    {
+      "name": "Pale lager",
+      "aliases": [],
+      "popularity": 62955,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "Pale lager"
+    },
+    {
+      "name": "Lambic",
+      "aliases": [
+        "lambiek",
+        "lambik"
+      ],
+      "popularity": 65878,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Lambic"
+    },
+    {
+      "name": "Desperados",
+      "aliases": [
+        "Desperados (beer)"
+      ],
+      "popularity": 66509,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "Desperados (beer)"
+    },
+    {
+      "name": "Kölsch",
+      "aliases": [
+        "Kölsch (beer)"
+      ],
+      "popularity": 74672,
+      "rarity": 0.123,
+      "tier": 1,
+      "wiki": "Kölsch (beer)"
+    },
+    {
+      "name": "Low-alcohol beer",
+      "aliases": [
+        "non-alcoholic beer",
+        "small ale",
+        "small beer",
+        "zero-alcohol beer"
+      ],
+      "popularity": 80689,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Low-alcohol beer"
+    },
+    {
+      "name": "Porter",
+      "aliases": [
+        "Porter (beer)"
+      ],
+      "popularity": 91547,
+      "rarity": 0.099,
+      "tier": 1,
+      "wiki": "Porter (beer)"
+    },
+    {
+      "name": "Wheat beer",
+      "aliases": [
+        "Kiihle blonde",
+        "Weiss Bier"
+      ],
+      "popularity": 92866,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Wheat beer"
+    },
+    {
+      "name": "Trappist beer",
+      "aliases": [],
+      "popularity": 102063,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Trappist beer"
+    },
+    {
+      "name": "Ale",
+      "aliases": [],
+      "popularity": 116291,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Ale"
+    },
+    {
+      "name": "Malt liquor",
+      "aliases": [],
+      "popularity": 117205,
+      "rarity": 0.049,
+      "tier": 1,
+      "wiki": "Malt liquor"
+    },
+    {
+      "name": "Lager",
+      "aliases": [],
+      "popularity": 125668,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Lager"
+    },
+    {
+      "name": "Pilsner",
+      "aliases": [
+        "pils",
+        "pilsen",
+        "pilsener"
+      ],
+      "popularity": 136166,
+      "rarity": 0.025,
+      "tier": 1,
+      "wiki": "Pilsner"
+    },
+    {
+      "name": "Stout",
+      "aliases": [],
+      "popularity": 138597,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Stout"
+    },
+    {
+      "name": "India pale ale",
+      "aliases": [
+        "Indian Pale Ale",
+        "IPA",
+        "IPA Beer"
+      ],
+      "popularity": 209091,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "India pale ale"
+    }
+  ]
+}

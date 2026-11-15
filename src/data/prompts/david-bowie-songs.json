@@ -1,0 +1,710 @@
+{
+  "id": "david-bowie-songs",
+  "slug": "david-bowie-songs",
+  "category": "music",
+  "question": "Name a David Bowie song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Ragazzo solo, ragazza sola",
+      "aliases": [],
+      "popularity": 1230,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Ragazzo solo, ragazza sola"
+    },
+    {
+      "name": "Rebel Never Gets Old",
+      "aliases": [],
+      "popularity": 1567,
+      "rarity": 0.987,
+      "tier": 6,
+      "wiki": "Rebel Never Gets Old"
+    },
+    {
+      "name": "Just for One Day",
+      "aliases": [
+        "Just for One Day (Heroes)"
+      ],
+      "popularity": 2370,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Just for One Day (Heroes)"
+    },
+    {
+      "name": "Miracle Goodnight",
+      "aliases": [],
+      "popularity": 2760,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Miracle Goodnight"
+    },
+    {
+      "name": "Survive",
+      "aliases": [
+        "Survive (David Bowie song)"
+      ],
+      "popularity": 2857,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Survive (David Bowie song)"
+    },
+    {
+      "name": "Seven",
+      "aliases": [
+        "Seven (David Bowie song)"
+      ],
+      "popularity": 3148,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Seven (David Bowie song)"
+    },
+    {
+      "name": "Pallas Athena",
+      "aliases": [
+        "Pallas Athena (song)"
+      ],
+      "popularity": 3409,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Pallas Athena (song)"
+    },
+    {
+      "name": "The Pretty Things Are Going to Hell",
+      "aliases": [
+        "Pretty Things Are Going to Hell"
+      ],
+      "popularity": 3610,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "The Pretty Things Are Going to Hell"
+    },
+    {
+      "name": "Do Anything You Say",
+      "aliases": [],
+      "popularity": 3738,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Do Anything You Say"
+    },
+    {
+      "name": "Real Cool World",
+      "aliases": [],
+      "popularity": 4120,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Real Cool World"
+    },
+    {
+      "name": "I Can't Read",
+      "aliases": [],
+      "popularity": 4197,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "I Can't Read"
+    },
+    {
+      "name": "Love Is Lost",
+      "aliases": [],
+      "popularity": 4240,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Love Is Lost"
+    },
+    {
+      "name": "The Buddha of Suburbia",
+      "aliases": [
+        "Buddha of Suburbia",
+        "Buddha of Suburbia (song)",
+        "The Buddha of Suburbia (song)"
+      ],
+      "popularity": 4447,
+      "rarity": 0.84,
+      "tier": 5,
+      "wiki": "The Buddha of Suburbia (song)"
+    },
+    {
+      "name": "Telling Lies",
+      "aliases": [
+        "Telling Lies (song)"
+      ],
+      "popularity": 4499,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Telling Lies (song)"
+    },
+    {
+      "name": "Black Tie White Noise",
+      "aliases": [
+        "Black Tie White Noise (song)"
+      ],
+      "popularity": 4521,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Black Tie White Noise (song)"
+    },
+    {
+      "name": "I Dig Everything",
+      "aliases": [],
+      "popularity": 4568,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "I Dig Everything"
+    },
+    {
+      "name": "Valentine's Day",
+      "aliases": [
+        "Valentine's Day (song)"
+      ],
+      "popularity": 4572,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Valentine's Day (song)"
+    },
+    {
+      "name": "Everyone Says \"Hi\"",
+      "aliases": [],
+      "popularity": 4632,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Everyone Says \"Hi\""
+    },
+    {
+      "name": "New Killer Star",
+      "aliases": [],
+      "popularity": 5062,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "New Killer Star"
+    },
+    {
+      "name": "Rock 'n' Roll with Me",
+      "aliases": [],
+      "popularity": 5119,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Rock 'n' Roll with Me"
+    },
+    {
+      "name": "Dead Man Walking",
+      "aliases": [
+        "Dead Man Walking (David Bowie song)"
+      ],
+      "popularity": 5382,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Dead Man Walking (David Bowie song)"
+    },
+    {
+      "name": "Never Let Me Down",
+      "aliases": [
+        "Never Let Me Down (David Bowie song)"
+      ],
+      "popularity": 5746,
+      "rarity": 0.72,
+      "tier": 4,
+      "wiki": "Never Let Me Down (David Bowie song)"
+    },
+    {
+      "name": "The Next Day",
+      "aliases": [
+        "Next Day",
+        "Next Day (song)",
+        "The Next Day (song)"
+      ],
+      "popularity": 6156,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "The Next Day (song)"
+    },
+    {
+      "name": "I've Been Waiting for You",
+      "aliases": [
+        "I've Been Waiting for You (Neil Young song)"
+      ],
+      "popularity": 6441,
+      "rarity": 0.693,
+      "tier": 4,
+      "wiki": "I've Been Waiting for You (Neil Young song)"
+    },
+    {
+      "name": "Holy Holy",
+      "aliases": [
+        "Holy Holy (song)"
+      ],
+      "popularity": 6661,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Holy Holy (song)"
+    },
+    {
+      "name": "Without You I'm Nothing",
+      "aliases": [
+        "Without You I'm Nothing (song)"
+      ],
+      "popularity": 6723,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Without You I'm Nothing (song)"
+    },
+    {
+      "name": "Rubber Band",
+      "aliases": [
+        "Rubber Band (song)"
+      ],
+      "popularity": 6814,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Rubber Band (song)"
+    },
+    {
+      "name": "Day-In Day-Out",
+      "aliases": [],
+      "popularity": 6824,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Day-In Day-Out"
+    },
+    {
+      "name": "Slow Burn",
+      "aliases": [
+        "Slow Burn (David Bowie song)"
+      ],
+      "popularity": 6824,
+      "rarity": 0.633,
+      "tier": 4,
+      "wiki": "Slow Burn (David Bowie song)"
+    },
+    {
+      "name": "Up the Hill Backwards",
+      "aliases": [],
+      "popularity": 7050,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Up the Hill Backwards"
+    },
+    {
+      "name": "Crystal Japan",
+      "aliases": [],
+      "popularity": 7156,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Crystal Japan"
+    },
+    {
+      "name": "You've Got a Habit of Leaving",
+      "aliases": [],
+      "popularity": 7222,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "You've Got a Habit of Leaving"
+    },
+    {
+      "name": "Can't Help Thinking About Me",
+      "aliases": [],
+      "popularity": 7231,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Can't Help Thinking About Me"
+    },
+    {
+      "name": "Time Will Crawl",
+      "aliases": [],
+      "popularity": 7477,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Time Will Crawl"
+    },
+    {
+      "name": "Scary Monsters (and Super Creeps)",
+      "aliases": [
+        "Scary Monsters",
+        "Scary Monsters (and Super Creeps) (song)"
+      ],
+      "popularity": 7664,
+      "rarity": 0.547,
+      "tier": 3,
+      "wiki": "Scary Monsters (and Super Creeps) (song)"
+    },
+    {
+      "name": "Liza Jane",
+      "aliases": [
+        "Liza Jane (David Bowie song)"
+      ],
+      "popularity": 7748,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Liza Jane (David Bowie song)"
+    },
+    {
+      "name": "The Stars",
+      "aliases": [
+        "Stars",
+        "Stars (Are Out Tonight)",
+        "The Stars (Are Out Tonight)"
+      ],
+      "popularity": 7821,
+      "rarity": 0.52,
+      "tier": 3,
+      "wiki": "The Stars (Are Out Tonight)"
+    },
+    {
+      "name": "Without You",
+      "aliases": [
+        "Without You (David Bowie song)"
+      ],
+      "popularity": 8049,
+      "rarity": 0.507,
+      "tier": 3,
+      "wiki": "Without You (David Bowie song)"
+    },
+    {
+      "name": "Love You till Tuesday",
+      "aliases": [
+        "Love You till Tuesday (song)"
+      ],
+      "popularity": 8090,
+      "rarity": 0.493,
+      "tier": 3,
+      "wiki": "Love You till Tuesday (song)"
+    },
+    {
+      "name": "Beauty and the Beast",
+      "aliases": [
+        "Beauty and the Beast (David Bowie song)"
+      ],
+      "popularity": 8102,
+      "rarity": 0.48,
+      "tier": 3,
+      "wiki": "Beauty and the Beast (David Bowie song)"
+    },
+    {
+      "name": "Strangers When We Meet",
+      "aliases": [
+        "Strangers When We Meet (David Bowie song)"
+      ],
+      "popularity": 8114,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Strangers When We Meet (David Bowie song)"
+    },
+    {
+      "name": "Underground",
+      "aliases": [
+        "Underground (David Bowie song)"
+      ],
+      "popularity": 9452,
+      "rarity": 0.453,
+      "tier": 3,
+      "wiki": "Underground (David Bowie song)"
+    },
+    {
+      "name": "When the Wind Blows",
+      "aliases": [
+        "When the Wind Blows (song)"
+      ],
+      "popularity": 9768,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "When the Wind Blows (song)"
+    },
+    {
+      "name": "Time",
+      "aliases": [
+        "Time (David Bowie song)"
+      ],
+      "popularity": 9980,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Time (David Bowie song)"
+    },
+    {
+      "name": "Jump They Say",
+      "aliases": [],
+      "popularity": 10115,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Jump They Say"
+    },
+    {
+      "name": "Memory of a Free Festival",
+      "aliases": [],
+      "popularity": 10792,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Memory of a Free Festival"
+    },
+    {
+      "name": "Look Back in Anger",
+      "aliases": [
+        "Look Back in Anger (song)"
+      ],
+      "popularity": 11469,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Look Back in Anger (song)"
+    },
+    {
+      "name": "The Hearts Filthy Lesson",
+      "aliases": [
+        "Hearts Filthy Lesson"
+      ],
+      "popularity": 12512,
+      "rarity": 0.373,
+      "tier": 2,
+      "wiki": "The Hearts Filthy Lesson"
+    },
+    {
+      "name": "Loving the Alien",
+      "aliases": [],
+      "popularity": 12595,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Loving the Alien"
+    },
+    {
+      "name": "Tonight",
+      "aliases": [
+        "Tonight (Iggy Pop song)"
+      ],
+      "popularity": 12745,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Tonight (Iggy Pop song)"
+    },
+    {
+      "name": "Diamond Dogs",
+      "aliases": [
+        "Diamond Dogs (song)"
+      ],
+      "popularity": 12951,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Diamond Dogs (song)"
+    },
+    {
+      "name": "Sue",
+      "aliases": [
+        "Sue (Or in a Season of Crime)"
+      ],
+      "popularity": 13362,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Sue (Or in a Season of Crime)"
+    },
+    {
+      "name": "I Can't Give Everything Away",
+      "aliases": [],
+      "popularity": 14884,
+      "rarity": 0.307,
+      "tier": 2,
+      "wiki": "I Can't Give Everything Away"
+    },
+    {
+      "name": "Blue Jean",
+      "aliases": [],
+      "popularity": 15396,
+      "rarity": 0.293,
+      "tier": 2,
+      "wiki": "Blue Jean"
+    },
+    {
+      "name": "Magic Dance",
+      "aliases": [],
+      "popularity": 15419,
+      "rarity": 0.28,
+      "tier": 2,
+      "wiki": "Magic Dance"
+    },
+    {
+      "name": "Station to Station",
+      "aliases": [
+        "Station to Station (song)"
+      ],
+      "popularity": 16423,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Station to Station (song)"
+    },
+    {
+      "name": "'Tis a Pity She Was a Whore",
+      "aliases": [],
+      "popularity": 17836,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "'Tis a Pity She Was a Whore"
+    },
+    {
+      "name": "Where Are We Now?",
+      "aliases": [],
+      "popularity": 18689,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Where Are We Now?"
+    },
+    {
+      "name": "Rock 'n' Roll Suicide",
+      "aliases": [],
+      "popularity": 19853,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Rock 'n' Roll Suicide"
+    },
+    {
+      "name": "The Laughing Gnome",
+      "aliases": [
+        "Laughing Gnome"
+      ],
+      "popularity": 20246,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "The Laughing Gnome"
+    },
+    {
+      "name": "Hallo Spaceboy",
+      "aliases": [],
+      "popularity": 20330,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Hallo Spaceboy"
+    },
+    {
+      "name": "John, I'm Only Dancing",
+      "aliases": [],
+      "popularity": 20990,
+      "rarity": 0.187,
+      "tier": 1,
+      "wiki": "John, I'm Only Dancing"
+    },
+    {
+      "name": "Fashion",
+      "aliases": [
+        "Fashion (David Bowie song)"
+      ],
+      "popularity": 21298,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Fashion (David Bowie song)"
+    },
+    {
+      "name": "TVC 15",
+      "aliases": [],
+      "popularity": 22213,
+      "rarity": 0.16,
+      "tier": 1,
+      "wiki": "TVC 15"
+    },
+    {
+      "name": "Cowboys Are Frequently, Secretly Fond of Each Other",
+      "aliases": [],
+      "popularity": 23992,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Cowboys Are Frequently, Secretly Fond of Each Other"
+    },
+    {
+      "name": "Young Americans",
+      "aliases": [
+        "Young Americans (song)"
+      ],
+      "popularity": 28593,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Young Americans (song)"
+    },
+    {
+      "name": "Blackstar",
+      "aliases": [
+        "Blackstar (song)"
+      ],
+      "popularity": 32272,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Blackstar (song)"
+    },
+    {
+      "name": "Golden Years",
+      "aliases": [
+        "Golden Years (David Bowie song)"
+      ],
+      "popularity": 41499,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Golden Years (David Bowie song)"
+    },
+    {
+      "name": "Lazarus",
+      "aliases": [
+        "Lazarus (David Bowie song)"
+      ],
+      "popularity": 42515,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Lazarus (David Bowie song)"
+    },
+    {
+      "name": "Rebel Rebel",
+      "aliases": [],
+      "popularity": 49240,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Rebel Rebel"
+    },
+    {
+      "name": "Changes",
+      "aliases": [
+        "Changes (David Bowie song)"
+      ],
+      "popularity": 55763,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Changes (David Bowie song)"
+    },
+    {
+      "name": "Peace on Earth/Little Drummer Boy",
+      "aliases": [],
+      "popularity": 66769,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Peace on Earth/Little Drummer Boy"
+    },
+    {
+      "name": "China Girl",
+      "aliases": [
+        "China Girl (song)"
+      ],
+      "popularity": 85265,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "China Girl (song)"
+    },
+    {
+      "name": "Fame",
+      "aliases": [
+        "Fame (David Bowie song)"
+      ],
+      "popularity": 88422,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Fame (David Bowie song)"
+    },
+    {
+      "name": "Starman",
+      "aliases": [
+        "Starman (song)"
+      ],
+      "popularity": 89961,
+      "rarity": 0.013,
+      "tier": 1,
+      "wiki": "Starman (song)"
+    },
+    {
+      "name": "Space Oddity",
+      "aliases": [],
+      "popularity": 217064,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Space Oddity"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "id": "unesco-sites-in-japan",
+  "slug": "unesco-sites-in-japan",
+  "category": "geography",
+  "question": "Name a UNESCO World Heritage Site in Japan",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Fujisan, sacred place and source of artistic inspiration",
+      "aliases": [],
+      "popularity": 305,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Fujisan, sacred place and source of artistic inspiration"
+    },
+    {
+      "name": "The Tomioka Silk Mill and Related Industrial Heritage",
+      "aliases": [
+        "Tomioka Silk Mill and Related Industrial Heritage"
+      ],
+      "popularity": 559,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "The Tomioka Silk Mill and Related Industrial Heritage"
+    },
+    {
+      "name": "Yambaru National Park",
+      "aliases": [
+        "Yanbaru National Park"
+      ],
+      "popularity": 1671,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "Yambaru National Park"
+    },
+    {
+      "name": "Sacred Island of Okinoshima and Associated Sites in the Munakata Region",
+      "aliases": [],
+      "popularity": 2935,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Sacred Island of Okinoshima and Associated Sites in the Munakata Region"
+    },
+    {
+      "name": "Ancient Capitals of Asuka and Fujiwara",
+      "aliases": [
+        "Asuka-Fujiwara"
+      ],
+      "popularity": 3038,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Ancient Capitals of Asuka and Fujiwara"
+    },
+    {
+      "name": "Jōmon Prehistoric Sites in Northern Japan",
+      "aliases": [],
+      "popularity": 4335,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Jōmon Prehistoric Sites in Northern Japan"
+    },
+    {
+      "name": "Gusuku Sites and Related Properties of the Kingdom of Ryukyu",
+      "aliases": [],
+      "popularity": 5113,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Gusuku Sites and Related Properties of the Kingdom of Ryukyu"
+    },
+    {
+      "name": "Buddhist Monuments in the Hōryū-ji Area",
+      "aliases": [],
+      "popularity": 5417,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Buddhist Monuments in the Hōryū-ji Area"
+    },
+    {
+      "name": "Historic Monuments and Sites of Hiraizumi",
+      "aliases": [],
+      "popularity": 5575,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Historic Monuments and Sites of Hiraizumi"
+    },
+    {
+      "name": "Nemuri-neko",
+      "aliases": [
+        "Sleeping Cat"
+      ],
+      "popularity": 6603,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Nemuri-neko"
+    },
+    {
+      "name": "Sacred Sites and Pilgrimage Routes in the Kii Mountain Range",
+      "aliases": [],
+      "popularity": 7763,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Sacred Sites and Pilgrimage Routes in the Kii Mountain Range"
+    },
+    {
+      "name": "Shrines and Temples of Nikkō",
+      "aliases": [],
+      "popularity": 8180,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Shrines and Temples of Nikkō"
+    },
+    {
+      "name": "Iwami Ginzan Silver Mine",
+      "aliases": [
+        "Ōmori Ginzan",
+        "Sama Ginzan"
+      ],
+      "popularity": 8321,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Iwami Ginzan Silver Mine"
+    },
+    {
+      "name": "Sado mine",
+      "aliases": [],
+      "popularity": 8562,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Sado mine"
+    },
+    {
+      "name": "Historic Monuments of Ancient Nara",
+      "aliases": [],
+      "popularity": 9493,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Historic Monuments of Ancient Nara"
+    },
+    {
+      "name": "Shirakami-Sanchi",
+      "aliases": [
+        "Kōsei Mountains",
+        "Shirakami Mountains"
+      ],
+      "popularity": 9905,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Shirakami-Sanchi"
+    },
+    {
+      "name": "Shiretoko Peninsula",
+      "aliases": [
+        "Shiretoko-hantō"
+      ],
+      "popularity": 10750,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Shiretoko Peninsula"
+    },
+    {
+      "name": "Ogasawara Islands",
+      "aliases": [
+        "Bonin Archipelago",
+        "Bonin Islands",
+        "Ogasawara",
+        "Ogasawara Archipelago",
+        "Ogasawara-Shotō"
+      ],
+      "popularity": 14983,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Ogasawara Islands"
+    },
+    {
+      "name": "Historic Monuments of Ancient Kyoto",
+      "aliases": [],
+      "popularity": 17387,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)"
+    },
+    {
+      "name": "Hidden Christian Sites in the Nagasaki Region",
+      "aliases": [],
+      "popularity": 18066,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Hidden Christian Sites in the Nagasaki Region"
+    },
+    {
+      "name": "The Architectural Work of Le Corbusier",
+      "aliases": [
+        "Architectural Work of Le Corbusier",
+        "Le Corbusier World Heritage"
+      ],
+      "popularity": 21258,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "The Architectural Work of Le Corbusier"
+    },
+    {
+      "name": "Historic Villages of Shirakawa-gō and Gokayama",
+      "aliases": [],
+      "popularity": 29263,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Historic Villages of Shirakawa-gō and Gokayama"
+    },
+    {
+      "name": "Yakushima",
+      "aliases": [
+        "Yaku Island",
+        "Yaku-shima"
+      ],
+      "popularity": 56520,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Yakushima"
+    },
+    {
+      "name": "Kyoto Prefecture",
+      "aliases": [
+        "Kyoto",
+        "Kyōto-fu",
+        "Kyouto-fu"
+      ],
+      "popularity": 73105,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Kyoto Prefecture"
+    },
+    {
+      "name": "Itsukushima Shrine",
+      "aliases": [
+        "Aki Ichinomiya",
+        "Itsukushima Shinto Shrine"
+      ],
+      "popularity": 116955,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Itsukushima Shrine"
+    },
+    {
+      "name": "Hiroshima Peace Memorial",
+      "aliases": [
+        "A-Bomb Dome",
+        "Atomic Bomb Dome",
+        "Genbaku Dome"
+      ],
+      "popularity": 144065,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Hiroshima Peace Memorial"
+    },
+    {
+      "name": "Himeji Castle",
+      "aliases": [
+        "Hakuro Castle",
+        "Shirasagi Castle",
+        "White Egret Castle",
+        "White Heron Castle"
+      ],
+      "popularity": 236982,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Himeji Castle"
+    }
+  ]
+}

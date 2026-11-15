@@ -1,0 +1,735 @@
+{
+  "id": "english-monarchs",
+  "slug": "english-monarchs",
+  "category": "history",
+  "question": "Name a monarch of England",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Harold Harefoot",
+      "aliases": [
+        "Harold I",
+        "Harold I Harefoot"
+      ],
+      "popularity": 144843,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Harold Harefoot"
+    },
+    {
+      "name": "Eadwig",
+      "aliases": [
+        "Eaduuig",
+        "Eaduuig All-Fair",
+        "Eaduuig of England",
+        "Eaduuig the Fair",
+        "Eadwig All-Fair",
+        "Eadwig of England",
+        "Eadwig the Fair",
+        "Eduuig All-Fair",
+        "Edwig",
+        "Edwig All-Fair",
+        "Edwig of England",
+        "Edwig the Fair",
+        "Edwy",
+        "Edwy All-Fair",
+        "Edwy the Fair"
+      ],
+      "popularity": 186892,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Eadwig"
+    },
+    {
+      "name": "Eadred",
+      "aliases": [
+        "Eadræd",
+        "Eadræd of England",
+        "Eadred of England",
+        "Edred of England",
+        "King Eadræd",
+        "King Eadred",
+        "King Edred"
+      ],
+      "popularity": 193422,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Eadred"
+    },
+    {
+      "name": "Swein Forkbeard",
+      "aliases": [
+        "Sweyn Forkbeard",
+        "Sweyn I of Denmark"
+      ],
+      "popularity": 205020,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Swein Forkbeard"
+    },
+    {
+      "name": "Edmund Ironside",
+      "aliases": [
+        "Edmund II",
+        "Edmund II of England"
+      ],
+      "popularity": 212106,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Edmund Ironside"
+    },
+    {
+      "name": "Edgar, King of England",
+      "aliases": [
+        "Eadgar",
+        "Eadgar I",
+        "Eadgar of England",
+        "Eadgar of Wessex",
+        "Eadgar the Peaceable",
+        "Eadgar the Peaceful",
+        "Edgar",
+        "Edgar I",
+        "Edgar of England",
+        "Edgar of Wessex",
+        "Edgar the Peaceable",
+        "Edgar the Peaceful",
+        "King Eadgar I"
+      ],
+      "popularity": 234239,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Edgar, King of England"
+    },
+    {
+      "name": "Edward the Martyr",
+      "aliases": [
+        "Eadueard Martyr",
+        "Eaduueard Martyr",
+        "Eadward Martyr",
+        "Eadweard the Martyr",
+        "Eduard",
+        "Eduard Martyr",
+        "Eduuard Martyr",
+        "Edward Martyr",
+        "King Eadweard",
+        "King Eadweard the Martyr",
+        "King Edward II",
+        "King Edward of England",
+        "King Edward the Martyr",
+        "Saint Eadweard",
+        "Saint Eadweard the Martyr",
+        "Saint Edward",
+        "Saint Edward the Martyr",
+        "St. Eadweard",
+        "St. Eadweard the Martyr",
+        "St. Edward",
+        "St. Edward the Martyr"
+      ],
+      "popularity": 254355,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Edward the Martyr"
+    },
+    {
+      "name": "Edmund I",
+      "aliases": [
+        "Eadmund",
+        "Eadmund I",
+        "Eadmund I of England",
+        "Eadmund the Deed-Doer",
+        "Eadmund the Elder",
+        "Eadmund the Just",
+        "Eadmund the Magnificent",
+        "Edmund the Deed-Doer",
+        "Edmund the Elder",
+        "Edmund the Just",
+        "Edmund the Magnificent",
+        "King Eadmund",
+        "King Eadmund I",
+        "King Edmund",
+        "King Edmund I"
+      ],
+      "popularity": 318243,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Edmund I"
+    },
+    {
+      "name": "Harthacnut",
+      "aliases": [
+        "Canute III",
+        "Cnut III",
+        "Harðacnut",
+        "Hardecanute",
+        "Hardeknud",
+        "Hardicanute",
+        "Harthacanute"
+      ],
+      "popularity": 336660,
+      "rarity": 0.826,
+      "tier": 5,
+      "wiki": "Harthacnut"
+    },
+    {
+      "name": "William II of England",
+      "aliases": [
+        "William II",
+        "William Rufus",
+        "William the Red"
+      ],
+      "popularity": 460030,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "William II of England"
+    },
+    {
+      "name": "Edward the Elder",
+      "aliases": [
+        "Eaduueard",
+        "Eadweard the Elder",
+        "King Eadweard the Elder",
+        "King Edward",
+        "King Edward I the Elder"
+      ],
+      "popularity": 481413,
+      "rarity": 0.783,
+      "tier": 4,
+      "wiki": "Edward the Elder"
+    },
+    {
+      "name": "Stephen, King of England",
+      "aliases": [
+        "King Stephen",
+        "King Stephen of England",
+        "Stephen",
+        "Stephen of Blois"
+      ],
+      "popularity": 547921,
+      "rarity": 0.761,
+      "tier": 4,
+      "wiki": "Stephen, King of England"
+    },
+    {
+      "name": "Æthelred the Unready",
+      "aliases": [
+        "Aethelraed",
+        "Aethelraed II",
+        "Aethelraed II of England",
+        "Aethelraed of England",
+        "Aethelraed the Unready",
+        "Aethelred",
+        "Aethelred II",
+        "Aethelred II of England",
+        "Aethelred of England",
+        "Aethelred the Unready",
+        "Athelred",
+        "Athelred II",
+        "Athelred II of England",
+        "Athelred of England",
+        "Athelred the Unready",
+        "Ethelred",
+        "Ethelred II",
+        "Ethelred II of England",
+        "Ethelred of England",
+        "Ethelred the Unready",
+        "King Aethelraed",
+        "King Aethelraed II",
+        "King Aethelred",
+        "King Aethelred II",
+        "King Athelred",
+        "King Athelred II",
+        "King Ethelred",
+        "King Ethelred II",
+        "King Æthelræd",
+        "King Æthelræd II",
+        "King Æthelred",
+        "King Æthelred II",
+        "Æthelræd",
+        "Æthelræd II",
+        "Æthelræd II of England",
+        "Æthelræd of England",
+        "Æthelræd the Unready",
+        "Æthelred",
+        "Æthelred II",
+        "Æthelred II of England",
+        "Æthelred of England"
+      ],
+      "popularity": 568796,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Æthelred the Unready"
+    },
+    {
+      "name": "Mary II",
+      "aliases": [
+        "Lady Mary of England",
+        "Lady Mary Stuart",
+        "Mary Clorine",
+        "Mary II of England",
+        "Mary II of Ireland",
+        "Mary II of Scotland",
+        "Mary II Stuart",
+        "Mary Stuart",
+        "Queen Mary II",
+        "The Lady Mary of England",
+        "The Lady Mary Stuart"
+      ],
+      "popularity": 593114,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Mary II"
+    },
+    {
+      "name": "Edward V",
+      "aliases": [
+        "Edward V of England"
+      ],
+      "popularity": 595503,
+      "rarity": 0.696,
+      "tier": 4,
+      "wiki": "Edward V"
+    },
+    {
+      "name": "Æthelstan",
+      "aliases": [
+        "Aethelstan",
+        "Aethelstan of England",
+        "Aethelstan of Wessex",
+        "Athelstan",
+        "Athelstan of England",
+        "Athelstan of Wessex",
+        "Ethelstan",
+        "Ethelstan of England",
+        "Ethelstan of Wessex",
+        "King Aethelstan",
+        "King Athelstan",
+        "King Ethelstan",
+        "King Æthelstan",
+        "Æthelstan of England",
+        "Æthelstan of Wessex"
+      ],
+      "popularity": 705698,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Æthelstan"
+    },
+    {
+      "name": "Cnut",
+      "aliases": [
+        "Canute",
+        "Canute the Dane",
+        "Cnut the Great"
+      ],
+      "popularity": 738557,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Cnut"
+    },
+    {
+      "name": "Henry III of England",
+      "aliases": [
+        "Henry III",
+        "Henry of Winchester"
+      ],
+      "popularity": 755465,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Henry III of England"
+    },
+    {
+      "name": "Henry I of England",
+      "aliases": [
+        "Beauclerk",
+        "Henry Beauclerc",
+        "Henry I",
+        "King Henry I of England"
+      ],
+      "popularity": 773300,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Henry I of England"
+    },
+    {
+      "name": "Richard II of England",
+      "aliases": [
+        "Richard II"
+      ],
+      "popularity": 804364,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Richard II of England"
+    },
+    {
+      "name": "Edward I",
+      "aliases": [
+        "Edward I Longshanks",
+        "Edward I of England",
+        "Edward Longshanks",
+        "Hammer of the Scots"
+      ],
+      "popularity": 822115,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Edward I"
+    },
+    {
+      "name": "Edward III",
+      "aliases": [
+        "Edward III of England",
+        "Edward of Windsor"
+      ],
+      "popularity": 851074,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Edward III"
+    },
+    {
+      "name": "William III of England",
+      "aliases": [
+        "King Billy",
+        "King William",
+        "William",
+        "William II and III",
+        "William II of Scotland",
+        "William III and II",
+        "William III of Orange",
+        "William of Orange"
+      ],
+      "popularity": 878522,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "William III of England"
+    },
+    {
+      "name": "Edward II",
+      "aliases": [
+        "Edward II of England",
+        "Edward of Caernarfon",
+        "Edward of Caernarvon"
+      ],
+      "popularity": 879356,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Edward II"
+    },
+    {
+      "name": "Henry IV of England",
+      "aliases": [
+        "Henry IV",
+        "King Henry Bolingbroke",
+        "King Henry IV",
+        "King Henry IV of England"
+      ],
+      "popularity": 971026,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Henry IV of England"
+    },
+    {
+      "name": "Harold Godwinson",
+      "aliases": [
+        "Harold Godwineson",
+        "Harold II"
+      ],
+      "popularity": 990399,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Harold Godwinson"
+    },
+    {
+      "name": "Edward the Confessor",
+      "aliases": [
+        "Ēadƿeard se Andettere",
+        "Eduard der Bekenner",
+        "Saint Edward the Confessor",
+        "St Edward the Confessor"
+      ],
+      "popularity": 996227,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Edward the Confessor"
+    },
+    {
+      "name": "Edward IV",
+      "aliases": [
+        "Edward IV of England",
+        "Edward Plantagenet",
+        "King Edward IV",
+        "King Edward IV of England"
+      ],
+      "popularity": 996966,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Edward IV"
+    },
+    {
+      "name": "Henry II of England",
+      "aliases": [
+        "Henry Curtmantle",
+        "Henry FitzEmpress",
+        "Henry II",
+        "Henry of Anjou",
+        "Henry Plantagenet",
+        "King Henry II",
+        "King Henry II of England"
+      ],
+      "popularity": 1131000,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Henry II of England"
+    },
+    {
+      "name": "Henry VI of England",
+      "aliases": [
+        "Henry VI"
+      ],
+      "popularity": 1144938,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Henry VI of England"
+    },
+    {
+      "name": "John, King of England",
+      "aliases": [
+        "John I Lackland",
+        "John of England",
+        "King John",
+        "King John of England"
+      ],
+      "popularity": 1157311,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "John, King of England"
+    },
+    {
+      "name": "Alfred the Great",
+      "aliases": [
+        "Aelfred",
+        "Aelfred of Wessex",
+        "Aelfred the Great",
+        "Aelfred the Great of Wessex",
+        "Alfred",
+        "Alfred of England",
+        "Alfred of Wessex",
+        "Alfred the Great of Wessex",
+        "Alfred the Wise",
+        "Alfred the Wise of England",
+        "Alfred the Wise of Wessex",
+        "King Aelfred",
+        "King Aelfred of Wessex",
+        "King Aelfred the Great",
+        "King Alfred",
+        "King Alfred of England",
+        "King Alfred of Wessex",
+        "King Alfred the Wise"
+      ],
+      "popularity": 1182817,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Alfred the Great"
+    },
+    {
+      "name": "Richard I of England",
+      "aliases": [
+        "Cœur de Lion",
+        "Lionheart",
+        "Richard Cœur de Lion",
+        "Richard I",
+        "Richard the Lionheart"
+      ],
+      "popularity": 1191429,
+      "rarity": 0.304,
+      "tier": 2,
+      "wiki": "Richard I of England"
+    },
+    {
+      "name": "James II of England",
+      "aliases": [
+        "James II and VII",
+        "James II Stuart",
+        "James VII",
+        "James VII and II",
+        "James VII of Scotland",
+        "King James II and VII"
+      ],
+      "popularity": 1222308,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "James II of England"
+    },
+    {
+      "name": "Edward VI",
+      "aliases": [
+        "Edward Tudor",
+        "Edward VI of England",
+        "King Edward VI",
+        "King Edward VI of England"
+      ],
+      "popularity": 1311102,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Edward VI"
+    },
+    {
+      "name": "Richard III of England",
+      "aliases": [
+        "King Richard III"
+      ],
+      "popularity": 1434439,
+      "rarity": 0.239,
+      "tier": 2,
+      "wiki": "Richard III of England"
+    },
+    {
+      "name": "Henry V of England",
+      "aliases": [
+        "Henry",
+        "Henry of Monmouth",
+        "Henry V",
+        "King of England Henry V"
+      ],
+      "popularity": 1509566,
+      "rarity": 0.217,
+      "tier": 2,
+      "wiki": "Henry V of England"
+    },
+    {
+      "name": "Lady Jane Grey",
+      "aliases": [
+        "Lady Jane Dudley",
+        "Lady Jane Greykjbh",
+        "Queen Jane",
+        "The Nine Days' Queen"
+      ],
+      "popularity": 1515160,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Lady Jane Grey"
+    },
+    {
+      "name": "Mary I",
+      "aliases": [
+        "Bloody Mary",
+        "Mary I Queen of England",
+        "Mary Tudor",
+        "Queen Mary",
+        "Queen Mary I"
+      ],
+      "popularity": 1523138,
+      "rarity": 0.174,
+      "tier": 1,
+      "wiki": "Mary I"
+    },
+    {
+      "name": "Anne, Queen of Great Britain",
+      "aliases": [
+        "Anne of Great Britain",
+        "Lady Anne of England",
+        "Lady Anne Stuart",
+        "Queen Anne",
+        "Queen Anne of Great Britain",
+        "The Lady Anne of England",
+        "The Lady Anne Stuart"
+      ],
+      "popularity": 1680288,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Anne, Queen of Great Britain"
+    },
+    {
+      "name": "Henry VII of England",
+      "aliases": [
+        "Solomon of England"
+      ],
+      "popularity": 1747210,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Henry VII of England"
+    },
+    {
+      "name": "Charles II of England",
+      "aliases": [
+        "Merry Monarch",
+        "The Merry Monarch"
+      ],
+      "popularity": 1759736,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Charles II of England"
+    },
+    {
+      "name": "Charles I of England",
+      "aliases": [
+        "Charles the 1st",
+        "King Charles I",
+        "King Charles the Martyr"
+      ],
+      "popularity": 1941779,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Charles I of England"
+    },
+    {
+      "name": "William the Conqueror",
+      "aliases": [
+        "William I",
+        "William I of England",
+        "William I the Conqueror",
+        "William of Normandy",
+        "William the Bastard"
+      ],
+      "popularity": 2010908,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "William the Conqueror"
+    },
+    {
+      "name": "James VI and I",
+      "aliases": [
+        "C. Philopatris",
+        "James I and James VI",
+        "James I and VI",
+        "James I of England",
+        "James VI of Scotland"
+      ],
+      "popularity": 2170429,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "James VI and I"
+    },
+    {
+      "name": "Elizabeth I",
+      "aliases": [
+        "Elisabeth I",
+        "Elisabetta I",
+        "Elizabeth I of England",
+        "Elizabeth the Virgin Queen",
+        "Elizabeth Tudor",
+        "Gloriana",
+        "Good Queen Bess",
+        "Lady Elizabeth",
+        "Princess Elizabeth of England",
+        "Queen Bess",
+        "Queen Elizabeth",
+        "Queen Elizabeth I",
+        "The Virgin Queen",
+        "Virgin Queen"
+      ],
+      "popularity": 2981249,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Elizabeth I"
+    },
+    {
+      "name": "Henry VIII",
+      "aliases": [
+        "Henry the Eighth",
+        "Henry VIII of England"
+      ],
+      "popularity": 3581758,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Henry VIII"
+    }
+  ]
+}

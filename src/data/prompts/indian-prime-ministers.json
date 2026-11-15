@@ -1,0 +1,150 @@
+{
+  "id": "indian-prime-ministers",
+  "slug": "indian-prime-ministers",
+  "category": "history",
+  "question": "Name a prime minister of India",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Gulzarilal Nanda",
+      "aliases": [],
+      "popularity": 123168,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Gulzarilal Nanda"
+    },
+    {
+      "name": "Charan Singh",
+      "aliases": [
+        "Chaudhary Charan Singh",
+        "Chaudhuri Charan Singh",
+        "Chauduri Charan Singh"
+      ],
+      "popularity": 255116,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Charan Singh"
+    },
+    {
+      "name": "Inder Kumar Gujral",
+      "aliases": [],
+      "popularity": 280013,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Inder Kumar Gujral"
+    },
+    {
+      "name": "V. P. Singh",
+      "aliases": [
+        "Vishwanath Pratap Singh"
+      ],
+      "popularity": 297307,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "V. P. Singh"
+    },
+    {
+      "name": "Lal Bahadur Shastri",
+      "aliases": [],
+      "popularity": 356358,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Lal Bahadur Shastri"
+    },
+    {
+      "name": "Chandra Shekhar",
+      "aliases": [
+        "Chandra Shekhar Singh"
+      ],
+      "popularity": 381115,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Chandra Shekhar"
+    },
+    {
+      "name": "P. V. Narasimha Rao",
+      "aliases": [
+        "Pamulaparti Venkata Narasimha Rao"
+      ],
+      "popularity": 462367,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "P. V. Narasimha Rao"
+    },
+    {
+      "name": "H. D. Deve Gowda",
+      "aliases": [],
+      "popularity": 469944,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "H. D. Deve Gowda"
+    },
+    {
+      "name": "Morarji Desai",
+      "aliases": [
+        "Morarji Ranchhodji Desai"
+      ],
+      "popularity": 637204,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Morarji Desai"
+    },
+    {
+      "name": "Manmohan Singh",
+      "aliases": [
+        "Dr. Manmohan Singh"
+      ],
+      "popularity": 841115,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Manmohan Singh"
+    },
+    {
+      "name": "Atal Bihari Vajpayee",
+      "aliases": [],
+      "popularity": 931314,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Atal Bihari Vajpayee"
+    },
+    {
+      "name": "Rajiv Gandhi",
+      "aliases": [],
+      "popularity": 1013436,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Rajiv Gandhi"
+    },
+    {
+      "name": "Jawaharlal Nehru",
+      "aliases": [],
+      "popularity": 1419789,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Jawaharlal Nehru"
+    },
+    {
+      "name": "Indira Gandhi",
+      "aliases": [
+        "Gandhi Indira",
+        "Indira Feroze Gandhi",
+        "Indira Ghandi",
+        "Indira Nehru",
+        "Indira Priyadarshini Nehru",
+        "Nehru Indira"
+      ],
+      "popularity": 1606060,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Indira Gandhi"
+    },
+    {
+      "name": "Narendra Modi",
+      "aliases": [],
+      "popularity": 3016436,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Narendra Modi"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "id": "fifa-world-cup-tournaments",
+  "slug": "fifa-world-cup-tournaments",
+  "category": "sports",
+  "question": "Name a FIFA World Cup tournament",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "1962 FIFA World Cup",
+      "aliases": [
+        "FIFA World Cup 1962",
+        "Jules Rimet Cup 1962"
+      ],
+      "popularity": 688674,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "1962 FIFA World Cup"
+    },
+    {
+      "name": "1954 FIFA World Cup",
+      "aliases": [
+        "1954 FIFA World Cup Switzerland",
+        "1954 Jules Rimet Cup",
+        "FIFA World Cup 1954",
+        "Jules Rimet Cup 1954"
+      ],
+      "popularity": 704885,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "1954 FIFA World Cup"
+    },
+    {
+      "name": "1938 FIFA World Cup",
+      "aliases": [
+        "1938 Jules Rimet Cup",
+        "FIFA World Cup 1938",
+        "Jules Rimet Cup 1938"
+      ],
+      "popularity": 719098,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "1938 FIFA World Cup"
+    },
+    {
+      "name": "1934 FIFA World Cup",
+      "aliases": [
+        "1934 Jules Rimet Cup",
+        "FIFA World Cup 1934",
+        "Jules Rimet Cup 1934"
+      ],
+      "popularity": 730353,
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "1934 FIFA World Cup"
+    },
+    {
+      "name": "1950 FIFA World Cup",
+      "aliases": [
+        "1950 Jules Rimet Cup",
+        "FIFA World Cup 1950",
+        "Jules Rimet Cup 1950"
+      ],
+      "popularity": 796985,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "1950 FIFA World Cup"
+    },
+    {
+      "name": "1958 FIFA World Cup",
+      "aliases": [
+        "1958 FIFA World Cup Sweden",
+        "1958 Jules Rimet Cup",
+        "FIFA World Cup 1958",
+        "Jules Rimet Cup 1958"
+      ],
+      "popularity": 812724,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "1958 FIFA World Cup"
+    },
+    {
+      "name": "1974 FIFA World Cup",
+      "aliases": [
+        "FIFA World Cup 1974"
+      ],
+      "popularity": 959726,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "1974 FIFA World Cup"
+    },
+    {
+      "name": "1970 FIFA World Cup",
+      "aliases": [
+        "1970 Jules Rimet Cup",
+        "FIFA World Cup 1970",
+        "Jules Rimet Cup 1970"
+      ],
+      "popularity": 997647,
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "1970 FIFA World Cup"
+    },
+    {
+      "name": "1978 FIFA World Cup",
+      "aliases": [
+        "FIFA World Cup 1978"
+      ],
+      "popularity": 1068780,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "1978 FIFA World Cup"
+    },
+    {
+      "name": "1982 FIFA World Cup",
+      "aliases": [
+        "1982 World Cup",
+        "FIFA World Cup 1982",
+        "Spain 1982",
+        "Spain 82"
+      ],
+      "popularity": 1277516,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "1982 FIFA World Cup"
+    },
+    {
+      "name": "1966 FIFA World Cup",
+      "aliases": [
+        "FIFA World Cup 1966",
+        "Jules Rimet Cup 1966"
+      ],
+      "popularity": 1304770,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "1966 FIFA World Cup"
+    },
+    {
+      "name": "1930 FIFA World Cup",
+      "aliases": [
+        "1930 Jules Rimet Cup",
+        "FIFA World Cup 1930",
+        "Jules Rimet Cup 1930"
+      ],
+      "popularity": 1416640,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "1930 FIFA World Cup"
+    },
+    {
+      "name": "1990 FIFA World Cup",
+      "aliases": [
+        "FIFA World Cup 1990"
+      ],
+      "popularity": 1617861,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "1990 FIFA World Cup"
+    },
+    {
+      "name": "1986 FIFA World Cup",
+      "aliases": [
+        "FIFA World Cup 1986"
+      ],
+      "popularity": 1666127,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "1986 FIFA World Cup"
+    },
+    {
+      "name": "1998 FIFA World Cup",
+      "aliases": [
+        "FIFA 1998",
+        "FIFA World Cup 1998",
+        "France 98"
+      ],
+      "popularity": 2234932,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "1998 FIFA World Cup"
+    },
+    {
+      "name": "1994 FIFA World Cup",
+      "aliases": [
+        "FIFA World Cup 1994",
+        "World Cup USA 94"
+      ],
+      "popularity": 2434906,
+      "rarity": 0.318,
+      "tier": 2,
+      "wiki": "1994 FIFA World Cup"
+    },
+    {
+      "name": "2006 FIFA World Cup",
+      "aliases": [
+        "2006 World Cup",
+        "FIFA 2006",
+        "FIFA World Cup 2006"
+      ],
+      "popularity": 2969715,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "2006 FIFA World Cup"
+    },
+    {
+      "name": "2002 FIFA World Cup",
+      "aliases": [
+        "FIFA 2002",
+        "FIFA World Cup 2002"
+      ],
+      "popularity": 3112410,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "2002 FIFA World Cup"
+    },
+    {
+      "name": "2010 FIFA World Cup",
+      "aliases": [
+        "FIFA 2010",
+        "FIFA World Cup 2010"
+      ],
+      "popularity": 3629279,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "2010 FIFA World Cup"
+    },
+    {
+      "name": "2014 FIFA World Cup",
+      "aliases": [
+        "2014 FIFA World Cup Brasil",
+        "2014 FIFA World Cup Brazil",
+        "20th FIFA World Cup",
+        "FIFA 2014",
+        "FIFA World Cup 2014"
+      ],
+      "popularity": 4043097,
+      "rarity": 0.136,
+      "tier": 1,
+      "wiki": "2014 FIFA World Cup"
+    },
+    {
+      "name": "2018 FIFA World Cup",
+      "aliases": [
+        "2018 World Cup",
+        "FIFA 2018",
+        "FIFA World Cup 2018",
+        "World Cup 2018",
+        "World Cup 2018 in Russia"
+      ],
+      "popularity": 4263099,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "2018 FIFA World Cup"
+    },
+    {
+      "name": "2022 FIFA World Cup",
+      "aliases": [
+        "2022 World Cup",
+        "FIFA 2022",
+        "FIFA World Cup 2022",
+        "Qatar 2022"
+      ],
+      "popularity": 6238239,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "2022 FIFA World Cup"
+    },
+    {
+      "name": "2026 FIFA World Cup",
+      "aliases": [
+        "FIFA 2026",
+        "FIFA World Cup 26"
+      ],
+      "popularity": 44961946,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "2026 FIFA World Cup"
+    }
+  ]
+}

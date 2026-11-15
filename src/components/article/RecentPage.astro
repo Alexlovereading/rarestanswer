@@ -6,7 +6,7 @@
  */
 import { Icon } from 'astro-icon/components';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
-import ArticleCover from '~/components/article/ArticleCover.astro';
+import ArticleCard from '~/components/article/ArticleCard.astro';
 import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { getRecentEntries, parseEntryId } from '~/lib/content';
@@ -60,16 +60,17 @@ const jsonLd = [
 >
   <div class="space-y-6">
     <header>
-      <nav class="text-sm text-muted-foreground" aria-label={shared.breadcrumbAria ?? 'Breadcrumb'}>
+      <nav class="flex flex-wrap items-center gap-1 text-sm text-muted-foreground" aria-label={shared.breadcrumbAria ?? 'Breadcrumb'}>
         <a href={homeUrl(locale)} class="hover:text-nav">{nav.home}</a>
-        <span class="mx-1">/</span>
+        <Icon name="lucide:chevron-right" class="h-3.5 w-3.5" aria-hidden="true" />
         <span class="text-foreground">{title}</span>
       </nav>
-      <div class="mt-2 flex items-start gap-3">
-        <Icon name="lucide:history" class="mt-1.5 h-7 w-7 shrink-0 text-nav" />
-        <h1 class="font-display text-3xl font-extrabold tracking-tight text-balance">{title}</h1>
+      <div class="mt-4 flex items-center gap-2 text-nav">
+        <Icon name="lucide:history" class="h-4 w-4" aria-hidden="true" />
+        <p class="text-xs font-semibold uppercase tracking-[0.14em]">{title}</p>
       </div>
-      <p class="mt-2 max-w-2xl text-muted-foreground">{description}</p>
+      <h1 class="mt-2 font-display text-4xl font-extrabold tracking-tight text-balance md:text-5xl">{title}</h1>
+      <p class="mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">{description}</p>
     </header>
 
     {
@@ -79,24 +80,22 @@ const jsonLd = [
           <p class="mt-3 text-muted-foreground">{shared.noArticles}</p>
         </div>
       ) : (
-        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {entries.map((entry) => {
             const parsed = parseEntryId(entry.id);
             const category = parsed?.category ?? '';
+            const meta = entry.data.lastModified
+              ? `${shared.lastUpdated}: ${entry.data.lastModified.toLocaleDateString(locale, { timeZone: 'UTC' })}`
+              : `${shared.publishedOn}: ${entry.data.date.toLocaleDateString(locale, { timeZone: 'UTC' })}`;
             return (
-              <a href={detailPath(category, parsed?.slug ?? '', locale)} class="card flex h-full flex-col p-5">
-                {entry.data.image && <ArticleCover src={entry.data.image} />}
-                <p class="text-xs font-semibold uppercase tracking-wider text-nav">{navLabels[category] ?? category}</p>
-                <h2 class="mt-1 font-semibold leading-snug">{entry.data.title}</h2>
-                <p class="mt-1 line-clamp-2 text-sm text-muted-foreground">
-                  {entry.data.description}
-                </p>
-                <p class="mt-3 text-xs text-muted-foreground">
-                  {entry.data.lastModified
-                    ? `${shared.lastUpdated}: ${entry.data.lastModified.toLocaleDateString(locale, { timeZone: 'UTC' })}`
-                    : `${shared.publishedOn}: ${entry.data.date.toLocaleDateString(locale, { timeZone: 'UTC' })}`}
-                </p>
-              </a>
+              <ArticleCard
+                href={detailPath(category, parsed?.slug ?? '', locale)}
+                title={entry.data.title}
+                description={entry.data.description}
+                meta={meta}
+                categoryLabel={navLabels[category] ?? category}
+                image={entry.data.image}
+              />
             );
           })}
         </div>

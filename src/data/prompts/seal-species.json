@@ -1,0 +1,385 @@
+{
+  "id": "seal-species",
+  "slug": "seal-species",
+  "category": "animals",
+  "question": "Name a species of seal, sea lion, or walrus",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Juan Fernández fur seal",
+      "aliases": [
+        "Arctocephalus philippii"
+      ],
+      "popularity": 8753,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Juan Fernández fur seal"
+    },
+    {
+      "name": "Guadalupe fur seal",
+      "aliases": [
+        "Arctocephalus townsendi"
+      ],
+      "popularity": 10337,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Guadalupe fur seal"
+    },
+    {
+      "name": "Galápagos fur seal",
+      "aliases": [
+        "Arctocephalus galapagoensis"
+      ],
+      "popularity": 12201,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Galápagos fur seal"
+    },
+    {
+      "name": "Subantarctic fur seal",
+      "aliases": [
+        "Arctocephalus tropicalis"
+      ],
+      "popularity": 12800,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Subantarctic fur seal"
+    },
+    {
+      "name": "South American fur seal",
+      "aliases": [
+        "Arctocephalus australis",
+        "Arctophoca australis"
+      ],
+      "popularity": 14824,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "South American fur seal"
+    },
+    {
+      "name": "Arctocephalus forsteri",
+      "aliases": [
+        "Antipodean fur seal",
+        "Australasian fur seal",
+        "Fur seal",
+        "long-nosed fur seal",
+        "New Zealand fur seal",
+        "South Australian fur seal"
+      ],
+      "popularity": 18420,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Arctocephalus forsteri"
+    },
+    {
+      "name": "Arctocephalus pusillus",
+      "aliases": [
+        "Australian fur seal",
+        "Brown Fur Seal",
+        "Cape fur seal",
+        "South African fur seal"
+      ],
+      "popularity": 30179,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "Arctocephalus pusillus"
+    },
+    {
+      "name": "Spotted seal",
+      "aliases": [
+        "Phoca largha"
+      ],
+      "popularity": 31626,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Spotted seal"
+    },
+    {
+      "name": "Ribbon seal",
+      "aliases": [
+        "Histriophoca fasciata"
+      ],
+      "popularity": 31839,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Ribbon seal"
+    },
+    {
+      "name": "Australian sea lion",
+      "aliases": [
+        "Australian sealion",
+        "Neophoca cinerea"
+      ],
+      "popularity": 35292,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Australian sea lion"
+    },
+    {
+      "name": "Northern fur seal",
+      "aliases": [
+        "Callorhinus ursinus"
+      ],
+      "popularity": 35911,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Northern fur seal"
+    },
+    {
+      "name": "New Zealand sea lion",
+      "aliases": [
+        "Hooker’s sea lion",
+        "Phocarctos hookeri"
+      ],
+      "popularity": 37137,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "New Zealand sea lion"
+    },
+    {
+      "name": "Antarctic fur seal",
+      "aliases": [
+        "Arctocephalus gazella"
+      ],
+      "popularity": 37394,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Antarctic fur seal"
+    },
+    {
+      "name": "Galápagos sea lion",
+      "aliases": [
+        "Zalophus wollebaeki"
+      ],
+      "popularity": 37779,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Galápagos sea lion"
+    },
+    {
+      "name": "South American sea lion",
+      "aliases": [
+        "Otaria dentro",
+        "Otaria flavescens"
+      ],
+      "popularity": 38160,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "South American sea lion"
+    },
+    {
+      "name": "Bearded seal",
+      "aliases": [
+        "Erignathus barbatus"
+      ],
+      "popularity": 46875,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Bearded seal"
+    },
+    {
+      "name": "Saimaa ringed seal",
+      "aliases": [
+        "Pusa saimensis"
+      ],
+      "popularity": 47418,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Saimaa ringed seal"
+    },
+    {
+      "name": "Hooded seal",
+      "aliases": [
+        "Cystophora cristata"
+      ],
+      "popularity": 47875,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Hooded seal"
+    },
+    {
+      "name": "Caspian seal",
+      "aliases": [
+        "Pusa caspica"
+      ],
+      "popularity": 49260,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Caspian seal"
+    },
+    {
+      "name": "Ross seal",
+      "aliases": [
+        "Ommatophoca rossii"
+      ],
+      "popularity": 55473,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Ross seal"
+    },
+    {
+      "name": "Crabeater seal",
+      "aliases": [
+        "Lobodon carcinophaga",
+        "Lobodon carcinophagus"
+      ],
+      "popularity": 63994,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Crabeater seal"
+    },
+    {
+      "name": "Northern elephant seal",
+      "aliases": [
+        "Mirounga angustirostris"
+      ],
+      "popularity": 67787,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Northern elephant seal"
+    },
+    {
+      "name": "Weddell seal",
+      "aliases": [
+        "Leptonychotes weddellii"
+      ],
+      "popularity": 68020,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Weddell seal"
+    },
+    {
+      "name": "Ringed seal",
+      "aliases": [
+        "Pusa hispida"
+      ],
+      "popularity": 78417,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Ringed seal"
+    },
+    {
+      "name": "Mediterranean monk seal",
+      "aliases": [
+        "Monachus monachus"
+      ],
+      "popularity": 82907,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Mediterranean monk seal"
+    },
+    {
+      "name": "Hawaiian monk seal",
+      "aliases": [
+        "Monachus schauinslandi"
+      ],
+      "popularity": 84273,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Hawaiian monk seal"
+    },
+    {
+      "name": "Grey seal",
+      "aliases": [
+        "Atlantic seal",
+        "gray seal",
+        "Halichoerus grypus",
+        "horsehead seal"
+      ],
+      "popularity": 98245,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Grey seal"
+    },
+    {
+      "name": "California sea lion",
+      "aliases": [
+        "Zalophus californianus"
+      ],
+      "popularity": 101505,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "California sea lion"
+    },
+    {
+      "name": "Harp seal",
+      "aliases": [
+        "Pagophilus groenlandica",
+        "Pagophilus groenlandicus"
+      ],
+      "popularity": 105179,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Harp seal"
+    },
+    {
+      "name": "Steller sea lion",
+      "aliases": [
+        "Eumatopias jubatus",
+        "Eumetopias jubatus",
+        "Lyon marine",
+        "Steller's sea lion"
+      ],
+      "popularity": 121085,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Steller sea lion"
+    },
+    {
+      "name": "Baikal seal",
+      "aliases": [
+        "Lake baikal seal",
+        "Nerpa",
+        "Phoca sibirica",
+        "Pusa sibirica"
+      ],
+      "popularity": 130465,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Baikal seal"
+    },
+    {
+      "name": "Harbor seal",
+      "aliases": [
+        "Common Seal",
+        "harbour seal",
+        "Phoca vitulina"
+      ],
+      "popularity": 138188,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Harbor seal"
+    },
+    {
+      "name": "Southern elephant seal",
+      "aliases": [
+        "Mirounga leonina"
+      ],
+      "popularity": 224930,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Southern elephant seal"
+    },
+    {
+      "name": "Walrus",
+      "aliases": [
+        "Odobenus rosmarus"
+      ],
+      "popularity": 456802,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Walrus"
+    },
+    {
+      "name": "Leopard seal",
+      "aliases": [
+        "Hydrurga leptonyx",
+        "sea leopard"
+      ],
+      "popularity": 465547,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Leopard seal"
+    }
+  ]
+}

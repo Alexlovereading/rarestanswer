@@ -1,0 +1,1286 @@
+{
+  "id": "bumblebee-species",
+  "slug": "bumblebee-species",
+  "category": "animals",
+  "question": "Name a species of bumblebee",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Bombus skorikovi",
+      "aliases": [],
+      "popularity": 100,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "Bombus skorikovi"
+    },
+    {
+      "name": "Bombus superbus",
+      "aliases": [],
+      "popularity": 100,
+      "rarity": 0.997,
+      "tier": 6,
+      "wiki": "Bombus superbus"
+    },
+    {
+      "name": "Bombus turneri",
+      "aliases": [],
+      "popularity": 113,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Bombus turneri"
+    },
+    {
+      "name": "Bombus ferganicus",
+      "aliases": [],
+      "popularity": 123,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Bombus ferganicus"
+    },
+    {
+      "name": "Bombus morawitzianus",
+      "aliases": [],
+      "popularity": 128,
+      "rarity": 0.972,
+      "tier": 6,
+      "wiki": "Bombus morawitzianus"
+    },
+    {
+      "name": "Bombus expolitus",
+      "aliases": [],
+      "popularity": 131,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Bombus expolitus"
+    },
+    {
+      "name": "Bombus tibetanus",
+      "aliases": [],
+      "popularity": 136,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Bombus tibetanus"
+    },
+    {
+      "name": "Bombus incognitus",
+      "aliases": [],
+      "popularity": 137,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Bombus incognitus"
+    },
+    {
+      "name": "Bombus monozonus",
+      "aliases": [],
+      "popularity": 137,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Bombus monozonus"
+    },
+    {
+      "name": "Bombus bellardii",
+      "aliases": [],
+      "popularity": 146,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Bombus bellardii"
+    },
+    {
+      "name": "Bombus perezi",
+      "aliases": [],
+      "popularity": 149,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Bombus perezi"
+    },
+    {
+      "name": "Bombus coreanus",
+      "aliases": [],
+      "popularity": 156,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Bombus coreanus"
+    },
+    {
+      "name": "Bombus novus",
+      "aliases": [],
+      "popularity": 157,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Bombus novus"
+    },
+    {
+      "name": "Bombus chinensis",
+      "aliases": [],
+      "popularity": 164,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Bombus chinensis"
+    },
+    {
+      "name": "Bombus trinominatus",
+      "aliases": [],
+      "popularity": 165,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Bombus trinominatus"
+    },
+    {
+      "name": "Bombus sibiricus",
+      "aliases": [],
+      "popularity": 167,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Bombus sibiricus"
+    },
+    {
+      "name": "Bombus bicoloratus",
+      "aliases": [],
+      "popularity": 181,
+      "rarity": 0.89,
+      "tier": 5,
+      "wiki": "Bombus bicoloratus"
+    },
+    {
+      "name": "Bombus macgregori",
+      "aliases": [],
+      "popularity": 186,
+      "rarity": 0.879,
+      "tier": 5,
+      "wiki": "Bombus macgregori"
+    },
+    {
+      "name": "Bombus maxillosus",
+      "aliases": [],
+      "popularity": 186,
+      "rarity": 0.879,
+      "tier": 5,
+      "wiki": "Bombus maxillosus"
+    },
+    {
+      "name": "Bombus branickii",
+      "aliases": [],
+      "popularity": 192,
+      "rarity": 0.869,
+      "tier": 5,
+      "wiki": "Bombus branickii"
+    },
+    {
+      "name": "Bombus amurensis",
+      "aliases": [],
+      "popularity": 196,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Bombus amurensis"
+    },
+    {
+      "name": "Bombus cornutus",
+      "aliases": [],
+      "popularity": 221,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Bombus cornutus"
+    },
+    {
+      "name": "Bombus trifasciatus",
+      "aliases": [
+        "three-striped bumblebee"
+      ],
+      "popularity": 225,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Bombus trifasciatus"
+    },
+    {
+      "name": "Bombus mucidus",
+      "aliases": [],
+      "popularity": 241,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Bombus mucidus"
+    },
+    {
+      "name": "Sichel's bumblebee",
+      "aliases": [
+        "Bombus sichelii"
+      ],
+      "popularity": 246,
+      "rarity": 0.834,
+      "tier": 5,
+      "wiki": "Sichel's bumblebee"
+    },
+    {
+      "name": "Bombus morawitzi",
+      "aliases": [],
+      "popularity": 278,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Bombus morawitzi"
+    },
+    {
+      "name": "Bombus cingulatus",
+      "aliases": [],
+      "popularity": 288,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Bombus cingulatus"
+    },
+    {
+      "name": "Bombus medius",
+      "aliases": [],
+      "popularity": 288,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Bombus medius"
+    },
+    {
+      "name": "Bombus mongolensis",
+      "aliases": [],
+      "popularity": 299,
+      "rarity": 0.807,
+      "tier": 5,
+      "wiki": "Bombus mongolensis"
+    },
+    {
+      "name": "Bombus kashmirensis",
+      "aliases": [],
+      "popularity": 308,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Bombus kashmirensis"
+    },
+    {
+      "name": "Bombus steindachneri",
+      "aliases": [],
+      "popularity": 309,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Bombus steindachneri"
+    },
+    {
+      "name": "Bombus genalis",
+      "aliases": [],
+      "popularity": 328,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Bombus genalis"
+    },
+    {
+      "name": "Bombus erzurumensis",
+      "aliases": [],
+      "popularity": 335,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Bombus erzurumensis"
+    },
+    {
+      "name": "Bombus coccineus",
+      "aliases": [
+        "scarlet-tailed bumble bee"
+      ],
+      "popularity": 343,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Bombus coccineus"
+    },
+    {
+      "name": "Bombus semenoviellus",
+      "aliases": [],
+      "popularity": 343,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Bombus semenoviellus"
+    },
+    {
+      "name": "Bombus pullatus",
+      "aliases": [],
+      "popularity": 345,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Bombus pullatus"
+    },
+    {
+      "name": "Bombus pyrenaeus",
+      "aliases": [],
+      "popularity": 350,
+      "rarity": 0.752,
+      "tier": 4,
+      "wiki": "Bombus pyrenaeus"
+    },
+    {
+      "name": "Bombus grahami",
+      "aliases": [],
+      "popularity": 355,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Bombus grahami"
+    },
+    {
+      "name": "Bombus nobilis",
+      "aliases": [],
+      "popularity": 362,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Bombus nobilis"
+    },
+    {
+      "name": "Bombus quadricolor",
+      "aliases": [],
+      "popularity": 373,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Bombus quadricolor"
+    },
+    {
+      "name": "Bombus haueri",
+      "aliases": [],
+      "popularity": 386,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Bombus haueri"
+    },
+    {
+      "name": "Bombus mendax",
+      "aliases": [],
+      "popularity": 389,
+      "rarity": 0.717,
+      "tier": 4,
+      "wiki": "Bombus mendax"
+    },
+    {
+      "name": "Bombus veteranus",
+      "aliases": [],
+      "popularity": 396,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Bombus veteranus"
+    },
+    {
+      "name": "Bombus lantschouensis",
+      "aliases": [],
+      "popularity": 413,
+      "rarity": 0.703,
+      "tier": 4,
+      "wiki": "Bombus lantschouensis"
+    },
+    {
+      "name": "Bombus norvegicus",
+      "aliases": [],
+      "popularity": 441,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "Bombus norvegicus"
+    },
+    {
+      "name": "Bombus mexicanus",
+      "aliases": [],
+      "popularity": 453,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Bombus mexicanus"
+    },
+    {
+      "name": "Bombus brachycephalus",
+      "aliases": [],
+      "popularity": 460,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Bombus brachycephalus"
+    },
+    {
+      "name": "Bombus ardens",
+      "aliases": [],
+      "popularity": 463,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Bombus ardens"
+    },
+    {
+      "name": "Bombus vandykei",
+      "aliases": [],
+      "popularity": 465,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Bombus vandykei"
+    },
+    {
+      "name": "Bombus inexspectatus",
+      "aliases": [],
+      "popularity": 470,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Bombus inexspectatus"
+    },
+    {
+      "name": "Bombus angustus",
+      "aliases": [],
+      "popularity": 477,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Bombus angustus"
+    },
+    {
+      "name": "Bombus sitkensis",
+      "aliases": [],
+      "popularity": 484,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Bombus sitkensis"
+    },
+    {
+      "name": "Bombus neoboreus",
+      "aliases": [],
+      "popularity": 485,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "Bombus neoboreus"
+    },
+    {
+      "name": "Bombus eximius",
+      "aliases": [],
+      "popularity": 488,
+      "rarity": 0.634,
+      "tier": 4,
+      "wiki": "Bombus eximius"
+    },
+    {
+      "name": "Bombus mesomelas",
+      "aliases": [],
+      "popularity": 502,
+      "rarity": 0.628,
+      "tier": 4,
+      "wiki": "Bombus mesomelas"
+    },
+    {
+      "name": "Bombus ephippiatus",
+      "aliases": [],
+      "popularity": 505,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Bombus ephippiatus"
+    },
+    {
+      "name": "Bombus armeniacus",
+      "aliases": [],
+      "popularity": 526,
+      "rarity": 0.614,
+      "tier": 4,
+      "wiki": "Bombus armeniacus"
+    },
+    {
+      "name": "Bombus flavidus",
+      "aliases": [],
+      "popularity": 536,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Bombus flavidus"
+    },
+    {
+      "name": "Bombus consobrinus",
+      "aliases": [],
+      "popularity": 547,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Bombus consobrinus"
+    },
+    {
+      "name": "Bombus funebris",
+      "aliases": [
+        "mourning bee"
+      ],
+      "popularity": 554,
+      "rarity": 0.593,
+      "tier": 3,
+      "wiki": "Bombus funebris"
+    },
+    {
+      "name": "Bombus sylvicola",
+      "aliases": [],
+      "popularity": 566,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Bombus sylvicola"
+    },
+    {
+      "name": "Bombus breviceps",
+      "aliases": [],
+      "popularity": 589,
+      "rarity": 0.579,
+      "tier": 3,
+      "wiki": "Bombus breviceps"
+    },
+    {
+      "name": "Bombus bellicosus",
+      "aliases": [],
+      "popularity": 602,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Bombus bellicosus"
+    },
+    {
+      "name": "Bombus cockerelli",
+      "aliases": [],
+      "popularity": 606,
+      "rarity": 0.566,
+      "tier": 3,
+      "wiki": "Bombus cockerelli"
+    },
+    {
+      "name": "Broken-belted bumblebee",
+      "aliases": [
+        "Bombus soroeensis",
+        "Ilfracombe bumblebee"
+      ],
+      "popularity": 613,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "Broken-belted bumblebee"
+    },
+    {
+      "name": "Bombus centralis",
+      "aliases": [],
+      "popularity": 659,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Bombus centralis"
+    },
+    {
+      "name": "Bombus appositus",
+      "aliases": [],
+      "popularity": 663,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Bombus appositus"
+    },
+    {
+      "name": "Bombus caliginosus",
+      "aliases": [],
+      "popularity": 669,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Bombus caliginosus"
+    },
+    {
+      "name": "Bombus kirbiellus",
+      "aliases": [],
+      "popularity": 682,
+      "rarity": 0.531,
+      "tier": 3,
+      "wiki": "Bombus kirbiellus"
+    },
+    {
+      "name": "Bombus frigidus",
+      "aliases": [
+        "frigid bumblebee"
+      ],
+      "popularity": 693,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Bombus frigidus"
+    },
+    {
+      "name": "Bombus sandersoni",
+      "aliases": [],
+      "popularity": 698,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Bombus sandersoni"
+    },
+    {
+      "name": "Bombus fernaldae",
+      "aliases": [
+        "Fernald's cuckoo bumblebee"
+      ],
+      "popularity": 707,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Bombus fernaldae"
+    },
+    {
+      "name": "Bombus transversalis",
+      "aliases": [],
+      "popularity": 710,
+      "rarity": 0.503,
+      "tier": 3,
+      "wiki": "Bombus transversalis"
+    },
+    {
+      "name": "Bombus argillaceus",
+      "aliases": [],
+      "popularity": 761,
+      "rarity": 0.497,
+      "tier": 3,
+      "wiki": "Bombus argillaceus"
+    },
+    {
+      "name": "Bombus cullumanus",
+      "aliases": [
+        "Cullum's bumblebee",
+        "Cullum's humble-bee"
+      ],
+      "popularity": 768,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Bombus cullumanus"
+    },
+    {
+      "name": "Bombus morrisoni",
+      "aliases": [
+        "Morrison bumblebee"
+      ],
+      "popularity": 794,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Bombus morrisoni"
+    },
+    {
+      "name": "Bombus hypocrita",
+      "aliases": [
+        "short-tongued bumblebee"
+      ],
+      "popularity": 840,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Bombus hypocrita"
+    },
+    {
+      "name": "Bombus wurflenii",
+      "aliases": [],
+      "popularity": 894,
+      "rarity": 0.469,
+      "tier": 3,
+      "wiki": "Bombus wurflenii"
+    },
+    {
+      "name": "Bombus irisanensis",
+      "aliases": [],
+      "popularity": 913,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Bombus irisanensis"
+    },
+    {
+      "name": "Bombus confusus",
+      "aliases": [],
+      "popularity": 918,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Bombus confusus"
+    },
+    {
+      "name": "Bombus borealis",
+      "aliases": [],
+      "popularity": 938,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Bombus borealis"
+    },
+    {
+      "name": "Bombus insularis",
+      "aliases": [],
+      "popularity": 973,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Bombus insularis"
+    },
+    {
+      "name": "Bombus pomorum",
+      "aliases": [],
+      "popularity": 984,
+      "rarity": 0.434,
+      "tier": 3,
+      "wiki": "Bombus pomorum"
+    },
+    {
+      "name": "Brown-banded carder bee",
+      "aliases": [
+        "Bombus humilis"
+      ],
+      "popularity": 1017,
+      "rarity": 0.428,
+      "tier": 3,
+      "wiki": "Brown-banded carder bee"
+    },
+    {
+      "name": "Bombus ashtoni",
+      "aliases": [],
+      "popularity": 1053,
+      "rarity": 0.421,
+      "tier": 3,
+      "wiki": "Bombus ashtoni"
+    },
+    {
+      "name": "Bombus barbutellus",
+      "aliases": [
+        "Barbut's cuckoo-bee"
+      ],
+      "popularity": 1084,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Bombus barbutellus"
+    },
+    {
+      "name": "Bombus variabilis",
+      "aliases": [],
+      "popularity": 1148,
+      "rarity": 0.407,
+      "tier": 3,
+      "wiki": "Bombus variabilis"
+    },
+    {
+      "name": "Short-haired bumblebee",
+      "aliases": [
+        "Bombus subterraneus",
+        "short-haired humble-bee"
+      ],
+      "popularity": 1167,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Short-haired bumblebee"
+    },
+    {
+      "name": "Bombus mixtus",
+      "aliases": [],
+      "popularity": 1220,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Bombus mixtus"
+    },
+    {
+      "name": "Bombus morio",
+      "aliases": [],
+      "popularity": 1248,
+      "rarity": 0.386,
+      "tier": 2,
+      "wiki": "Bombus morio"
+    },
+    {
+      "name": "Bombus campestris",
+      "aliases": [],
+      "popularity": 1268,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Bombus campestris"
+    },
+    {
+      "name": "Bombus alpinus",
+      "aliases": [],
+      "popularity": 1307,
+      "rarity": 0.372,
+      "tier": 2,
+      "wiki": "Bombus alpinus"
+    },
+    {
+      "name": "Bombus bifarius",
+      "aliases": [],
+      "popularity": 1316,
+      "rarity": 0.366,
+      "tier": 2,
+      "wiki": "Bombus bifarius"
+    },
+    {
+      "name": "Bombus jonellus",
+      "aliases": [
+        "heath humble-bee"
+      ],
+      "popularity": 1458,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "Bombus jonellus"
+    },
+    {
+      "name": "Bombus magnus",
+      "aliases": [
+        "northern white-tailed bumblebee"
+      ],
+      "popularity": 1462,
+      "rarity": 0.352,
+      "tier": 2,
+      "wiki": "Bombus magnus"
+    },
+    {
+      "name": "Bombus sylvestris",
+      "aliases": [
+        "forest cuckoo bumblebee",
+        "four-coloured cuckoo bee"
+      ],
+      "popularity": 1489,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Bombus sylvestris"
+    },
+    {
+      "name": "Bombus monticola",
+      "aliases": [],
+      "popularity": 1547,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Bombus monticola"
+    },
+    {
+      "name": "Bombus rupestris",
+      "aliases": [],
+      "popularity": 1559,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Bombus rupestris"
+    },
+    {
+      "name": "Bombus vancouverensis",
+      "aliases": [
+        "Vancouver bumble bee",
+        "Vancouver bumblebee"
+      ],
+      "popularity": 1643,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Bombus vancouverensis"
+    },
+    {
+      "name": "Bombus pauloensis",
+      "aliases": [
+        "Bombus atratus"
+      ],
+      "popularity": 1656,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Bombus pauloensis"
+    },
+    {
+      "name": "Bombus balteatus",
+      "aliases": [],
+      "popularity": 1705,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Bombus balteatus"
+    },
+    {
+      "name": "Bombus flavifrons",
+      "aliases": [],
+      "popularity": 1715,
+      "rarity": 0.303,
+      "tier": 2,
+      "wiki": "Bombus flavifrons"
+    },
+    {
+      "name": "Bombus cryptarum",
+      "aliases": [
+        "cryptic bumblebee"
+      ],
+      "popularity": 1725,
+      "rarity": 0.297,
+      "tier": 2,
+      "wiki": "Bombus cryptarum"
+    },
+    {
+      "name": "Bombus fraternus",
+      "aliases": [
+        "Southern Plains bumblebee"
+      ],
+      "popularity": 1783,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Bombus fraternus"
+    },
+    {
+      "name": "Bombus ruderarius",
+      "aliases": [
+        "red-shanked bumblebee",
+        "red-shanked carder bee"
+      ],
+      "popularity": 1889,
+      "rarity": 0.283,
+      "tier": 2,
+      "wiki": "Bombus ruderarius"
+    },
+    {
+      "name": "Bombus hyperboreus",
+      "aliases": [],
+      "popularity": 1899,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Bombus hyperboreus"
+    },
+    {
+      "name": "Bombus distinguendus",
+      "aliases": [
+        "great yellow bumblebee"
+      ],
+      "popularity": 1972,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Bombus distinguendus"
+    },
+    {
+      "name": "Bombus sylvarum",
+      "aliases": [
+        "Shrill carder bee"
+      ],
+      "popularity": 2059,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Bombus sylvarum"
+    },
+    {
+      "name": "Bombus ignitus",
+      "aliases": [],
+      "popularity": 2187,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Bombus ignitus"
+    },
+    {
+      "name": "Bombus citrinus",
+      "aliases": [],
+      "popularity": 2250,
+      "rarity": 0.248,
+      "tier": 2,
+      "wiki": "Bombus citrinus"
+    },
+    {
+      "name": "Bombus lapponicus",
+      "aliases": [],
+      "popularity": 2532,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Bombus lapponicus"
+    },
+    {
+      "name": "Bombus californicus",
+      "aliases": [],
+      "popularity": 2644,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Bombus californicus"
+    },
+    {
+      "name": "Bombus sonorus",
+      "aliases": [
+        "Sonoran Bumble Bee"
+      ],
+      "popularity": 2773,
+      "rarity": 0.228,
+      "tier": 2,
+      "wiki": "Bombus sonorus"
+    },
+    {
+      "name": "Bombus vestalis",
+      "aliases": [
+        "Vestal cuckoo bee"
+      ],
+      "popularity": 2823,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Bombus vestalis"
+    },
+    {
+      "name": "Bombus perplexus",
+      "aliases": [],
+      "popularity": 2999,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Bombus perplexus"
+    },
+    {
+      "name": "Bombus nevadensis",
+      "aliases": [
+        "Nevada bumble bee"
+      ],
+      "popularity": 3027,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Bombus nevadensis"
+    },
+    {
+      "name": "Bombus terricola",
+      "aliases": [
+        "yellow-banded bumble bee"
+      ],
+      "popularity": 3105,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Bombus terricola"
+    },
+    {
+      "name": "Bombus suckleyi",
+      "aliases": [],
+      "popularity": 3129,
+      "rarity": 0.193,
+      "tier": 1,
+      "wiki": "Bombus suckleyi"
+    },
+    {
+      "name": "Bombus vagans",
+      "aliases": [],
+      "popularity": 3137,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "Bombus vagans"
+    },
+    {
+      "name": "Bombus crotchii",
+      "aliases": [
+        "Crotch's bumble bee"
+      ],
+      "popularity": 3314,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Bombus crotchii"
+    },
+    {
+      "name": "Bombus rufocinctus",
+      "aliases": [
+        "red-belted bumblebee"
+      ],
+      "popularity": 3338,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Bombus rufocinctus"
+    },
+    {
+      "name": "Bombus huntii",
+      "aliases": [],
+      "popularity": 3437,
+      "rarity": 0.166,
+      "tier": 1,
+      "wiki": "Bombus huntii"
+    },
+    {
+      "name": "Bombus auricomus",
+      "aliases": [
+        "black and gold bumblebee"
+      ],
+      "popularity": 3734,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Bombus auricomus"
+    },
+    {
+      "name": "Bombus ruderatus",
+      "aliases": [
+        "large garden bumblebee",
+        "ruderal bumblebee"
+      ],
+      "popularity": 3789,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Bombus ruderatus"
+    },
+    {
+      "name": "Franklin's bumblebee",
+      "aliases": [
+        "Bombus franklini",
+        "Franklin's Bumble Bee"
+      ],
+      "popularity": 3848,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Franklin's bumblebee"
+    },
+    {
+      "name": "Bombus occidentalis",
+      "aliases": [
+        "western bumble bee"
+      ],
+      "popularity": 3986,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Bombus occidentalis"
+    },
+    {
+      "name": "Bombus bohemicus",
+      "aliases": [
+        "Ashton's cuckoo bumblebee",
+        "gypsy cuckoo bumble bee",
+        "gypsy's cuckoo bumblebee"
+      ],
+      "popularity": 4419,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Bombus bohemicus"
+    },
+    {
+      "name": "Bombus hortorum",
+      "aliases": [
+        "garden bumblebee",
+        "Small garden bumblebee"
+      ],
+      "popularity": 4893,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Bombus hortorum"
+    },
+    {
+      "name": "Bombus muscorum",
+      "aliases": [
+        "large carder bee",
+        "moss carder bee"
+      ],
+      "popularity": 5089,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Bombus muscorum"
+    },
+    {
+      "name": "Early bumblebee",
+      "aliases": [
+        "Bombus pratorum"
+      ],
+      "popularity": 5127,
+      "rarity": 0.11,
+      "tier": 1,
+      "wiki": "Early bumblebee"
+    },
+    {
+      "name": "Two-spotted bumble bee",
+      "aliases": [
+        "Bombus bimaculatus"
+      ],
+      "popularity": 5357,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Two-spotted bumble bee"
+    },
+    {
+      "name": "Bombus polaris",
+      "aliases": [],
+      "popularity": 5587,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Bombus polaris"
+    },
+    {
+      "name": "Bombus fervidus",
+      "aliases": [
+        "Golden northern bumble bee"
+      ],
+      "popularity": 5744,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Bombus fervidus"
+    },
+    {
+      "name": "Bombus griseocollis",
+      "aliases": [
+        "brown-belted bumblebee"
+      ],
+      "popularity": 7287,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Bombus griseocollis"
+    },
+    {
+      "name": "Bombus melanopygus",
+      "aliases": [],
+      "popularity": 7390,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Bombus melanopygus"
+    },
+    {
+      "name": "Bombus vosnesenskii",
+      "aliases": [],
+      "popularity": 8392,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Bombus vosnesenskii"
+    },
+    {
+      "name": "Bombus lucorum",
+      "aliases": [
+        "white-tailed bumblebee"
+      ],
+      "popularity": 9757,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Bombus lucorum"
+    },
+    {
+      "name": "Bombus pensylvanicus",
+      "aliases": [],
+      "popularity": 10562,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "Bombus pensylvanicus"
+    },
+    {
+      "name": "Bombus affinis",
+      "aliases": [
+        "rusty patched bumble bee"
+      ],
+      "popularity": 10892,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Bombus affinis"
+    },
+    {
+      "name": "Bombus pascuorum",
+      "aliases": [
+        "common carder bumblebee"
+      ],
+      "popularity": 11851,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Bombus pascuorum"
+    },
+    {
+      "name": "Bombus dahlbomii",
+      "aliases": [],
+      "popularity": 13008,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Bombus dahlbomii"
+    },
+    {
+      "name": "Bombus hypnorum",
+      "aliases": [
+        "new garden bumblebee",
+        "tree bumblebee"
+      ],
+      "popularity": 14311,
+      "rarity": 0.028,
+      "tier": 1,
+      "wiki": "Bombus hypnorum"
+    },
+    {
+      "name": "Bombus ternarius",
+      "aliases": [],
+      "popularity": 17861,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Bombus ternarius"
+    },
+    {
+      "name": "Bombus impatiens",
+      "aliases": [
+        "common eastern bumble bee"
+      ],
+      "popularity": 20793,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Bombus impatiens"
+    },
+    {
+      "name": "Bombus lapidarius",
+      "aliases": [
+        "Orange tailed-bee",
+        "red-tailed bumblebee"
+      ],
+      "popularity": 23726,
+      "rarity": 0.007,
+      "tier": 1,
+      "wiki": "Bombus lapidarius"
+    },
+    {
+      "name": "Bombus terrestris",
+      "aliases": [
+        "buff-tailed bumblebee",
+        "large earth bumblebee"
+      ],
+      "popularity": 42546,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Bombus terrestris"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "avatar-characters",
+  "slug": "avatar-characters",
+  "category": "screen",
+  "question": "Name an Avatar: The Last Airbender character",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Princess Ursa",
+      "aliases": [
+        "Mother of Zuko & Azula",
+        "Noriko",
+        "Ursa",
+        "Wife of the Fire Lord"
+      ],
+      "popularity": 32,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Princess Ursa"
+    },
+    {
+      "name": "Jet",
+      "aliases": [],
+      "popularity": 169,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Jet (Avatar: The Last Airbender)"
+    },
+    {
+      "name": "Kyoshi",
+      "aliases": [
+        "Avatar Kyoshi",
+        "Kyoshi (character)"
+      ],
+      "popularity": 244,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Kyoshi (character)"
+    },
+    {
+      "name": "Hakoda",
+      "aliases": [],
+      "popularity": 280,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Hakoda"
+    },
+    {
+      "name": "Mai",
+      "aliases": [],
+      "popularity": 2827,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Mai (Avatar: The Last Airbender)"
+    },
+    {
+      "name": "Princess Yue",
+      "aliases": [
+        "Yue"
+      ],
+      "popularity": 4170,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Princess Yue"
+    },
+    {
+      "name": "Admiral Zhao",
+      "aliases": [
+        "Commander Zhao",
+        "Zhao"
+      ],
+      "popularity": 4212,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Admiral Zhao"
+    },
+    {
+      "name": "Avatar Roku",
+      "aliases": [
+        "Roku"
+      ],
+      "popularity": 5976,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Avatar Roku"
+    },
+    {
+      "name": "Fire Lord Ozai",
+      "aliases": [
+        "Ozai"
+      ],
+      "popularity": 6570,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Fire Lord Ozai"
+    },
+    {
+      "name": "Ty Lee",
+      "aliases": [],
+      "popularity": 10169,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Ty Lee"
+    },
+    {
+      "name": "Sokka",
+      "aliases": [],
+      "popularity": 92993,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Sokka"
+    },
+    {
+      "name": "Azula",
+      "aliases": [
+        "Princess Azula"
+      ],
+      "popularity": 126579,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Azula"
+    },
+    {
+      "name": "Iroh",
+      "aliases": [
+        "General Iroh",
+        "Prince Iroh",
+        "Uncle Iroh"
+      ],
+      "popularity": 127180,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Iroh"
+    },
+    {
+      "name": "Katara",
+      "aliases": [],
+      "popularity": 164726,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Katara (Avatar: The Last Airbender)"
+    },
+    {
+      "name": "Toph Beifong",
+      "aliases": [
+        "Toph"
+      ],
+      "popularity": 168331,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Toph Beifong"
+    },
+    {
+      "name": "Zuko",
+      "aliases": [
+        "Fire Lord Zuko",
+        "Lee",
+        "Lord Zuko",
+        "Prince Zuko",
+        "Sifu Hotman",
+        "The Blue Spirit",
+        "Zuzu"
+      ],
+      "popularity": 173932,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Zuko"
+    },
+    {
+      "name": "Aang",
+      "aliases": [
+        "Avatar Aang",
+        "The Avatar"
+      ],
+      "popularity": 198073,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Aang"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "eredivisie-clubs",
+  "slug": "eredivisie-clubs",
+  "category": "sports",
+  "question": "Name a current Eredivisie club",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Willem II Tilburg",
+      "aliases": [
+        "Willem II"
+      ],
+      "popularity": 58266,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Willem II Tilburg"
+    },
+    {
+      "name": "SC Cambuur",
+      "aliases": [
+        "SC Cambuur Leeuwarden"
+      ],
+      "popularity": 70703,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "SC Cambuur"
+    },
+    {
+      "name": "Excelsior Rotterdam",
+      "aliases": [
+        "SBV Excelsior",
+        "SBV Excelsior Rotterdam"
+      ],
+      "popularity": 107340,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Excelsior Rotterdam"
+    },
+    {
+      "name": "PEC Zwolle",
+      "aliases": [
+        "FC Zwolle",
+        "PEC",
+        "PEC Zwolle '82"
+      ],
+      "popularity": 109000,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "PEC Zwolle"
+    },
+    {
+      "name": "ADO Den Haag",
+      "aliases": [],
+      "popularity": 113600,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "ADO Den Haag"
+    },
+    {
+      "name": "SC Telstar",
+      "aliases": [
+        "SCT",
+        "Sportclub Telstar",
+        "Telstar Vrouwen",
+        "Witte Leeuwen"
+      ],
+      "popularity": 116077,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "SC Telstar"
+    },
+    {
+      "name": "SC Heerenveen",
+      "aliases": [
+        "Sportclub Heerenveen"
+      ],
+      "popularity": 121594,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "SC Heerenveen"
+    },
+    {
+      "name": "Fortuna Sittard",
+      "aliases": [
+        "Fortuna Geleen"
+      ],
+      "popularity": 126502,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Fortuna Sittard"
+    },
+    {
+      "name": "Sparta Rotterdam",
+      "aliases": [
+        "Sparta"
+      ],
+      "popularity": 127198,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Sparta Rotterdam"
+    },
+    {
+      "name": "FC Groningen",
+      "aliases": [
+        "Football Club Groningen"
+      ],
+      "popularity": 146287,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "FC Groningen"
+    },
+    {
+      "name": "FC Utrecht",
+      "aliases": [
+        "Football Club Utrecht",
+        "UTR"
+      ],
+      "popularity": 150051,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "FC Utrecht"
+    },
+    {
+      "name": "Go Ahead Eagles",
+      "aliases": [
+        "GAE"
+      ],
+      "popularity": 174535,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Go Ahead Eagles"
+    },
+    {
+      "name": "FC Twente",
+      "aliases": [
+        "Football Club Twente",
+        "Twente Enschede"
+      ],
+      "popularity": 182770,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "FC Twente"
+    },
+    {
+      "name": "NEC Nijmegen",
+      "aliases": [
+        "N.E.C.",
+        "NEC",
+        "Nijmegen Eendracht Combinatie"
+      ],
+      "popularity": 259245,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "NEC Nijmegen"
+    },
+    {
+      "name": "AZ Alkmaar",
+      "aliases": [
+        "Alkmaar Zaanstreek",
+        "AZ '67",
+        "The Cheese Farmers"
+      ],
+      "popularity": 480512,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "AZ Alkmaar"
+    },
+    {
+      "name": "Feyenoord",
+      "aliases": [
+        "Feyenoord Rotterdam",
+        "FeyenoordRotterdam"
+      ],
+      "popularity": 622138,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "Feyenoord"
+    },
+    {
+      "name": "PSV Eindhoven",
+      "aliases": [
+        "Eindhoven Football Club",
+        "Philips Sport Vereniging"
+      ],
+      "popularity": 771664,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "PSV Eindhoven"
+    },
+    {
+      "name": "AFC Ajax",
+      "aliases": [
+        "Ajax",
+        "Ajax Amsterdam",
+        "Amsterdamsche Football Club Ajax"
+      ],
+      "popularity": 955645,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "AFC Ajax"
+    }
+  ]
+}

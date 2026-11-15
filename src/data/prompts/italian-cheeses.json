@@ -1,0 +1,340 @@
+{
+  "id": "italian-cheeses",
+  "slug": "italian-cheeses",
+  "category": "food",
+  "question": "Name an Italian cheese",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Casàda",
+      "aliases": [
+        "Casàda PAT",
+        "Colostra"
+      ],
+      "popularity": 377,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Casàda"
+    },
+    {
+      "name": "Bela Badia",
+      "aliases": [
+        "formaggio da taglio Bela Badia",
+        "Schnittkäse Bela Badia PAT"
+      ],
+      "popularity": 393,
+      "rarity": 0.97,
+      "tier": 6,
+      "wiki": "Bela Badia"
+    },
+    {
+      "name": "Spressa delle Giudicarie",
+      "aliases": [
+        "Spressa delle Giudicarie PDO"
+      ],
+      "popularity": 487,
+      "rarity": 0.939,
+      "tier": 6,
+      "wiki": "Spressa delle Giudicarie"
+    },
+    {
+      "name": "Valle d'Aosta Fromadzo",
+      "aliases": [
+        "Valle d'Aosta Fromadzo PDO",
+        "Vallée d'Aoste Fromadzo"
+      ],
+      "popularity": 594,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Valle d'Aosta Fromadzo"
+    },
+    {
+      "name": "Vezzena",
+      "aliases": [],
+      "popularity": 650,
+      "rarity": 0.879,
+      "tier": 5,
+      "wiki": "Vezzena"
+    },
+    {
+      "name": "Silter",
+      "aliases": [
+        "Silter PDO"
+      ],
+      "popularity": 710,
+      "rarity": 0.848,
+      "tier": 5,
+      "wiki": "Silter"
+    },
+    {
+      "name": "Formai de Mut dell'Alta Valle Brembana",
+      "aliases": [],
+      "popularity": 774,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Formai de Mut dell'Alta Valle Brembana"
+    },
+    {
+      "name": "Casciotta d'Urbino",
+      "aliases": [
+        "Casciotta d'Urbino PDO"
+      ],
+      "popularity": 844,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Casciotta d'Urbino"
+    },
+    {
+      "name": "Rosa Camuna",
+      "aliases": [],
+      "popularity": 923,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Rosa Camuna"
+    },
+    {
+      "name": "Pecorino di Carmasciano",
+      "aliases": [
+        "Carmasciano",
+        "Pecorino di Carmasciano PAT"
+      ],
+      "popularity": 973,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Pecorino di Carmasciano"
+    },
+    {
+      "name": "Quartirolo lombardo",
+      "aliases": [
+        "Quartirolo Lombardo PDO"
+      ],
+      "popularity": 1345,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "Quartirolo lombardo"
+    },
+    {
+      "name": "Pecorino di Filiano",
+      "aliases": [
+        "Pecorino di Filiano PDO"
+      ],
+      "popularity": 1441,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Pecorino di Filiano"
+    },
+    {
+      "name": "Raschera",
+      "aliases": [
+        "Raschera PDO"
+      ],
+      "popularity": 1552,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Raschera"
+    },
+    {
+      "name": "Bra cheese",
+      "aliases": [
+        "Bra PDO"
+      ],
+      "popularity": 1830,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Bra cheese"
+    },
+    {
+      "name": "Monte Veronese",
+      "aliases": [
+        "Monte Veronese PDO"
+      ],
+      "popularity": 1831,
+      "rarity": 0.576,
+      "tier": 3,
+      "wiki": "Monte Veronese"
+    },
+    {
+      "name": "Crucolo",
+      "aliases": [],
+      "popularity": 1940,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Crucolo"
+    },
+    {
+      "name": "Ragusano cheese",
+      "aliases": [
+        "Ragusano PDO"
+      ],
+      "popularity": 2648,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Ragusano cheese"
+    },
+    {
+      "name": "Puzzone di Moena",
+      "aliases": [],
+      "popularity": 2680,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Puzzone di Moena"
+    },
+    {
+      "name": "Valtellina Casera",
+      "aliases": [
+        "Valtellina Casera PDO"
+      ],
+      "popularity": 2805,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Valtellina Casera"
+    },
+    {
+      "name": "Formaggio di fossa",
+      "aliases": [],
+      "popularity": 2863,
+      "rarity": 0.424,
+      "tier": 3,
+      "wiki": "Formaggio di fossa"
+    },
+    {
+      "name": "Castelmagno cheese",
+      "aliases": [
+        "Castelmagno PDO"
+      ],
+      "popularity": 4615,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Castelmagno cheese"
+    },
+    {
+      "name": "Pecorino toscano",
+      "aliases": [
+        "Pecorino Toscano PDO"
+      ],
+      "popularity": 5060,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Pecorino toscano"
+    },
+    {
+      "name": "Piave cheese",
+      "aliases": [
+        "Piave PDO"
+      ],
+      "popularity": 6530,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Piave cheese"
+    },
+    {
+      "name": "Caciotta",
+      "aliases": [],
+      "popularity": 8210,
+      "rarity": 0.303,
+      "tier": 2,
+      "wiki": "Caciotta"
+    },
+    {
+      "name": "Pecorino sardo",
+      "aliases": [
+        "Pecorino Sardo PDO"
+      ],
+      "popularity": 21457,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Pecorino sardo"
+    },
+    {
+      "name": "Fontina",
+      "aliases": [
+        "Fontina PDO"
+      ],
+      "popularity": 40725,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Fontina"
+    },
+    {
+      "name": "Asiago cheese",
+      "aliases": [
+        "Asiago PDO"
+      ],
+      "popularity": 55064,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Asiago cheese"
+    },
+    {
+      "name": "Taleggio cheese",
+      "aliases": [
+        "Taleggio PDO"
+      ],
+      "popularity": 59289,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Taleggio cheese"
+    },
+    {
+      "name": "Pecorino",
+      "aliases": [],
+      "popularity": 65551,
+      "rarity": 0.152,
+      "tier": 1,
+      "wiki": "Pecorino"
+    },
+    {
+      "name": "Buffalo mozzarella",
+      "aliases": [
+        "Mozzarella di Bufala Campana PDO"
+      ],
+      "popularity": 90356,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "Buffalo mozzarella"
+    },
+    {
+      "name": "Pecorino romano",
+      "aliases": [
+        "Pecorino Romano PDO"
+      ],
+      "popularity": 96347,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Pecorino romano"
+    },
+    {
+      "name": "Grana Padano",
+      "aliases": [
+        "Grana Padano cheese",
+        "Grana Padano PDO"
+      ],
+      "popularity": 130526,
+      "rarity": 0.061,
+      "tier": 1,
+      "wiki": "Grana Padano"
+    },
+    {
+      "name": "Mozzarella",
+      "aliases": [
+        "mozzarella cheese"
+      ],
+      "popularity": 172054,
+      "rarity": 0.03,
+      "tier": 1,
+      "wiki": "Mozzarella"
+    },
+    {
+      "name": "Parmesan",
+      "aliases": [
+        "Parmesan cheese",
+        "Parmigiano",
+        "Parmigiano-Reggiano"
+      ],
+      "popularity": 244004,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Parmesan"
+    }
+  ]
+}

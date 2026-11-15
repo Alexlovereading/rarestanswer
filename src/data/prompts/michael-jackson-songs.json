@@ -1,0 +1,428 @@
+{
+  "id": "michael-jackson-songs",
+  "slug": "michael-jackson-songs",
+  "category": "music",
+  "question": "Name a Michael Jackson song",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Xscape",
+      "aliases": [
+        "Xscape (Michael Jackson song)"
+      ],
+      "popularity": 72,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Xscape (Michael Jackson song)"
+    },
+    {
+      "name": "Scream/Childhood",
+      "aliases": [
+        "Childhood",
+        "Scream"
+      ],
+      "popularity": 1634,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Scream/Childhood"
+    },
+    {
+      "name": "Someone Put Your Hand Out",
+      "aliases": [],
+      "popularity": 1756,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Someone Put Your Hand Out"
+    },
+    {
+      "name": "Happy",
+      "aliases": [
+        "Happy (Bobby Darin song)"
+      ],
+      "popularity": 2279,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Happy (Bobby Darin song)"
+    },
+    {
+      "name": "Behind the Mask",
+      "aliases": [
+        "Behind the Mask (Michael Jackson song)"
+      ],
+      "popularity": 2429,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Behind the Mask (Michael Jackson song)"
+    },
+    {
+      "name": "Don't Be Messin' 'Round",
+      "aliases": [],
+      "popularity": 4288,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Don't Be Messin' 'Round"
+    },
+    {
+      "name": "Immortal Megamix",
+      "aliases": [],
+      "popularity": 4402,
+      "rarity": 0.867,
+      "tier": 5,
+      "wiki": "Immortal Megamix"
+    },
+    {
+      "name": "Ease On down the Road",
+      "aliases": [],
+      "popularity": 5000,
+      "rarity": 0.844,
+      "tier": 5,
+      "wiki": "Ease On down the Road"
+    },
+    {
+      "name": "Blood on the Dance Floor x Dangerous",
+      "aliases": [],
+      "popularity": 6665,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Blood on the Dance Floor x Dangerous"
+    },
+    {
+      "name": "I Need You",
+      "aliases": [
+        "I Need You (Eric Carmen song)"
+      ],
+      "popularity": 7324,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "I Need You (Eric Carmen song)"
+    },
+    {
+      "name": "Whoops Now / What'll I Do",
+      "aliases": [
+        "What'll I Do",
+        "Whoops Now"
+      ],
+      "popularity": 7462,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Whoops Now / What'll I Do"
+    },
+    {
+      "name": "Morning Glow",
+      "aliases": [],
+      "popularity": 7849,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Morning Glow"
+    },
+    {
+      "name": "Just a Little Bit of You",
+      "aliases": [],
+      "popularity": 8034,
+      "rarity": 0.733,
+      "tier": 4,
+      "wiki": "Just a Little Bit of You"
+    },
+    {
+      "name": "Night Time Lover",
+      "aliases": [],
+      "popularity": 9050,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Night Time Lover"
+    },
+    {
+      "name": "I'm So Blue",
+      "aliases": [
+        "I'm So Blue (Michael Jackson song)"
+      ],
+      "popularity": 10678,
+      "rarity": 0.689,
+      "tier": 4,
+      "wiki": "I'm So Blue (Michael Jackson song)"
+    },
+    {
+      "name": "We're Almost There",
+      "aliases": [],
+      "popularity": 11463,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "We're Almost There"
+    },
+    {
+      "name": "Mind Is the Magic",
+      "aliases": [],
+      "popularity": 13997,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Mind Is the Magic"
+    },
+    {
+      "name": "Girl You're So Together",
+      "aliases": [],
+      "popularity": 17543,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Girl You're So Together"
+    },
+    {
+      "name": "(I Like) The Way You Love Me",
+      "aliases": [
+        "The Way You Love Me"
+      ],
+      "popularity": 17805,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "(I Like) The Way You Love Me"
+    },
+    {
+      "name": "A Brand New Day",
+      "aliases": [
+        "A Brand New Day (The Wiz song)",
+        "Brand New Day",
+        "Brand New Day (The Wiz song)"
+      ],
+      "popularity": 18618,
+      "rarity": 0.578,
+      "tier": 3,
+      "wiki": "A Brand New Day (The Wiz song)"
+    },
+    {
+      "name": "Breaking News",
+      "aliases": [
+        "Breaking News (song)"
+      ],
+      "popularity": 21089,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Breaking News (song)"
+    },
+    {
+      "name": "Is It Scary",
+      "aliases": [],
+      "popularity": 23243,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Is It Scary"
+    },
+    {
+      "name": "You Can't Win",
+      "aliases": [
+        "You Can't Win (song)"
+      ],
+      "popularity": 23620,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "You Can't Win (song)"
+    },
+    {
+      "name": "Hollywood Tonight",
+      "aliases": [],
+      "popularity": 29066,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Hollywood Tonight"
+    },
+    {
+      "name": "This Time Around",
+      "aliases": [
+        "This Time Around (Michael Jackson song)"
+      ],
+      "popularity": 29618,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "This Time Around (Michael Jackson song)"
+    },
+    {
+      "name": "HIStory",
+      "aliases": [
+        "HIStory/Ghosts",
+        "HIStory (song)"
+      ],
+      "popularity": 32078,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "HIStory (song)"
+    },
+    {
+      "name": "Why",
+      "aliases": [
+        "Why (3T song)"
+      ],
+      "popularity": 34222,
+      "rarity": 0.422,
+      "tier": 3,
+      "wiki": "Why (3T song)"
+    },
+    {
+      "name": "2300 Jackson Street",
+      "aliases": [
+        "2300 Jackson Street (song)"
+      ],
+      "popularity": 34608,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "2300 Jackson Street (song)"
+    },
+    {
+      "name": "One Day in Your Life",
+      "aliases": [
+        "One Day in Your Life (Michael Jackson song)"
+      ],
+      "popularity": 34918,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "One Day in Your Life (Michael Jackson song)"
+    },
+    {
+      "name": "Whatzupwitu",
+      "aliases": [],
+      "popularity": 36315,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Whatzupwitu"
+    },
+    {
+      "name": "Butterflies",
+      "aliases": [
+        "Butterflies (Michael Jackson song)"
+      ],
+      "popularity": 36606,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Butterflies (Michael Jackson song)"
+    },
+    {
+      "name": "Speechless",
+      "aliases": [
+        "Speechless (Michael Jackson song)"
+      ],
+      "popularity": 39316,
+      "rarity": 0.311,
+      "tier": 2,
+      "wiki": "Speechless (Michael Jackson song)"
+    },
+    {
+      "name": "What More Can I Give",
+      "aliases": [],
+      "popularity": 43350,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "What More Can I Give"
+    },
+    {
+      "name": "Don't Matter to Me",
+      "aliases": [],
+      "popularity": 46389,
+      "rarity": 0.267,
+      "tier": 2,
+      "wiki": "Don't Matter to Me"
+    },
+    {
+      "name": "Cry",
+      "aliases": [
+        "Cry (Michael Jackson song)"
+      ],
+      "popularity": 46747,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Cry (Michael Jackson song)"
+    },
+    {
+      "name": "Hold My Hand",
+      "aliases": [
+        "Hold My Hand (Michael Jackson and Akon song)"
+      ],
+      "popularity": 48867,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Hold My Hand (Michael Jackson and Akon song)"
+    },
+    {
+      "name": "One More Chance",
+      "aliases": [
+        "One More Chance (Michael Jackson song)"
+      ],
+      "popularity": 54424,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "One More Chance (Michael Jackson song)"
+    },
+    {
+      "name": "This Is It",
+      "aliases": [
+        "This Is It (Michael Jackson song)"
+      ],
+      "popularity": 61236,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "This Is It (Michael Jackson song)"
+    },
+    {
+      "name": "Ben",
+      "aliases": [
+        "Ben (song)"
+      ],
+      "popularity": 123191,
+      "rarity": 0.156,
+      "tier": 1,
+      "wiki": "Ben (song)"
+    },
+    {
+      "name": "Love Never Felt So Good",
+      "aliases": [],
+      "popularity": 132688,
+      "rarity": 0.133,
+      "tier": 1,
+      "wiki": "Love Never Felt So Good"
+    },
+    {
+      "name": "Say Say Say",
+      "aliases": [],
+      "popularity": 162046,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Say Say Say"
+    },
+    {
+      "name": "You Rock My World",
+      "aliases": [],
+      "popularity": 184913,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "You Rock My World"
+    },
+    {
+      "name": "You Are Not Alone",
+      "aliases": [],
+      "popularity": 185316,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "You Are Not Alone"
+    },
+    {
+      "name": "Earth Song",
+      "aliases": [],
+      "popularity": 201188,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Earth Song"
+    },
+    {
+      "name": "They Don't Care About Us",
+      "aliases": [],
+      "popularity": 505874,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "They Don't Care About Us"
+    },
+    {
+      "name": "Beat It",
+      "aliases": [],
+      "popularity": 519484,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Beat It"
+    }
+  ]
+}

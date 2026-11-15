@@ -1,0 +1,467 @@
+{
+  "id": "scorsese-films",
+  "slug": "scorsese-films",
+  "category": "screen",
+  "question": "Name a Martin Scorsese film",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "The Irishman: In Conversation",
+      "aliases": [],
+      "popularity": 962,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "The Irishman: In Conversation"
+    },
+    {
+      "name": "Made in Milan",
+      "aliases": [
+        "Fatto a Milano"
+      ],
+      "popularity": 3611,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Made in Milan"
+    },
+    {
+      "name": "The Key to Reserva",
+      "aliases": [
+        "Key to Reserva"
+      ],
+      "popularity": 3622,
+      "rarity": 0.958,
+      "tier": 6,
+      "wiki": "The Key to Reserva"
+    },
+    {
+      "name": "Street Scenes 1970",
+      "aliases": [
+        "Street Scenes"
+      ],
+      "popularity": 5226,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Street Scenes 1970"
+    },
+    {
+      "name": "The 50 Year Argument",
+      "aliases": [
+        "50 Year Argument"
+      ],
+      "popularity": 6457,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "The 50 Year Argument"
+    },
+    {
+      "name": "What's a Nice Girl like You Doing in a Place like This?",
+      "aliases": [],
+      "popularity": 8810,
+      "rarity": 0.896,
+      "tier": 5,
+      "wiki": "What's a Nice Girl like You Doing in a Place like This?"
+    },
+    {
+      "name": "It's Not Just You, Murray!",
+      "aliases": [
+        "It's Not Just You"
+      ],
+      "popularity": 9787,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "It's Not Just You, Murray!"
+    },
+    {
+      "name": "My Voyage to Italy",
+      "aliases": [],
+      "popularity": 10731,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "My Voyage to Italy"
+    },
+    {
+      "name": "A Letter to Elia",
+      "aliases": [
+        "Letter to Elia"
+      ],
+      "popularity": 11809,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "A Letter to Elia"
+    },
+    {
+      "name": "A Personal Journey with Martin Scorsese Through American Movies",
+      "aliases": [
+        "Personal Journey with Martin Scorsese Through American Movies"
+      ],
+      "popularity": 12612,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "A Personal Journey with Martin Scorsese Through American Movies"
+    },
+    {
+      "name": "Public Speaking",
+      "aliases": [
+        "Public Speaking (film)"
+      ],
+      "popularity": 14732,
+      "rarity": 0.792,
+      "tier": 4,
+      "wiki": "Public Speaking (film)"
+    },
+    {
+      "name": "Italianamerican",
+      "aliases": [],
+      "popularity": 18470,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Italianamerican"
+    },
+    {
+      "name": "The Big Shave",
+      "aliases": [
+        "Big Shave"
+      ],
+      "popularity": 20907,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "The Big Shave"
+    },
+    {
+      "name": "Shine a Light",
+      "aliases": [
+        "Shine a Light (film)"
+      ],
+      "popularity": 22240,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Shine a Light (film)"
+    },
+    {
+      "name": "American Boy: A Profile of Steven Prince",
+      "aliases": [],
+      "popularity": 24646,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "American Boy: A Profile of Steven Prince"
+    },
+    {
+      "name": "George Harrison: Living in the Material World",
+      "aliases": [],
+      "popularity": 29685,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "George Harrison: Living in the Material World"
+    },
+    {
+      "name": "No Direction Home",
+      "aliases": [],
+      "popularity": 36593,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "No Direction Home"
+    },
+    {
+      "name": "Rolling Thunder Revue: A Bob Dylan Story by Martin Scorsese",
+      "aliases": [],
+      "popularity": 37959,
+      "rarity": 0.646,
+      "tier": 4,
+      "wiki": "Rolling Thunder Revue: A Bob Dylan Story by Martin Scorsese"
+    },
+    {
+      "name": "New York Stories",
+      "aliases": [],
+      "popularity": 65549,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "New York Stories"
+    },
+    {
+      "name": "Woodstock",
+      "aliases": [
+        "Woodstock (film)"
+      ],
+      "popularity": 66129,
+      "rarity": 0.604,
+      "tier": 4,
+      "wiki": "Woodstock (film)"
+    },
+    {
+      "name": "The Audition",
+      "aliases": [
+        "Audition",
+        "Audition (2015 film)",
+        "The Audition (2015 film)"
+      ],
+      "popularity": 77646,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "The Audition (2015 film)"
+    },
+    {
+      "name": "Boxcar Bertha",
+      "aliases": [],
+      "popularity": 113209,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Boxcar Bertha"
+    },
+    {
+      "name": "Who's That Knocking at My Door",
+      "aliases": [],
+      "popularity": 115585,
+      "rarity": 0.542,
+      "tier": 3,
+      "wiki": "Who's That Knocking at My Door"
+    },
+    {
+      "name": "Bringing Out the Dead",
+      "aliases": [],
+      "popularity": 199750,
+      "rarity": 0.521,
+      "tier": 3,
+      "wiki": "Bringing Out the Dead"
+    },
+    {
+      "name": "Kundun",
+      "aliases": [],
+      "popularity": 207174,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Kundun"
+    },
+    {
+      "name": "New York, New York",
+      "aliases": [],
+      "popularity": 234165,
+      "rarity": 0.479,
+      "tier": 3,
+      "wiki": "New York, New York (1977 film)"
+    },
+    {
+      "name": "The Last Waltz",
+      "aliases": [
+        "Last Waltz"
+      ],
+      "popularity": 237172,
+      "rarity": 0.458,
+      "tier": 3,
+      "wiki": "The Last Waltz"
+    },
+    {
+      "name": "The King of Comedy",
+      "aliases": [
+        "King of Comedy",
+        "King of Comedy (film)",
+        "The King of Comedy (film)"
+      ],
+      "popularity": 307197,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "The King of Comedy (film)"
+    },
+    {
+      "name": "Mean Streets",
+      "aliases": [],
+      "popularity": 326006,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Mean Streets"
+    },
+    {
+      "name": "Alice Doesn't Live Here Anymore",
+      "aliases": [],
+      "popularity": 359088,
+      "rarity": 0.396,
+      "tier": 2,
+      "wiki": "Alice Doesn't Live Here Anymore"
+    },
+    {
+      "name": "The Color of Money",
+      "aliases": [
+        "Color of Money"
+      ],
+      "popularity": 369118,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "The Color of Money"
+    },
+    {
+      "name": "The Age of Innocence",
+      "aliases": [
+        "Age of Innocence",
+        "Age of Innocence (1993 film)",
+        "The Age of Innocence (1993 film)"
+      ],
+      "popularity": 436861,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "The Age of Innocence (1993 film)"
+    },
+    {
+      "name": "Hugo",
+      "aliases": [
+        "Hugo (film)"
+      ],
+      "popularity": 473025,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Hugo (film)"
+    },
+    {
+      "name": "The Last Temptation of Christ",
+      "aliases": [
+        "Last Temptation of Christ",
+        "Last Temptation of Christ (film)",
+        "The Last Temptation of Christ (film)"
+      ],
+      "popularity": 487130,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "The Last Temptation of Christ (film)"
+    },
+    {
+      "name": "After Hours",
+      "aliases": [
+        "After Hours (film)"
+      ],
+      "popularity": 515503,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "After Hours (film)"
+    },
+    {
+      "name": "Killers of the Flower Moon",
+      "aliases": [],
+      "popularity": 542900,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Killers of the Flower Moon"
+    },
+    {
+      "name": "Raging Bull",
+      "aliases": [],
+      "popularity": 560893,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Raging Bull"
+    },
+    {
+      "name": "What Happens at Night",
+      "aliases": [],
+      "popularity": 689415,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "What Happens at Night"
+    },
+    {
+      "name": "The Aviator",
+      "aliases": [
+        "Aviator",
+        "Aviator (2004 film)",
+        "The Aviator (2004 film)"
+      ],
+      "popularity": 713133,
+      "rarity": 0.208,
+      "tier": 2,
+      "wiki": "The Aviator (2004 film)"
+    },
+    {
+      "name": "Silence",
+      "aliases": [
+        "Silence (2016 film)"
+      ],
+      "popularity": 753326,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Silence (2016 film)"
+    },
+    {
+      "name": "Casino",
+      "aliases": [
+        "Casino (1995 film)"
+      ],
+      "popularity": 993305,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Casino (1995 film)"
+    },
+    {
+      "name": "Gangs of New York",
+      "aliases": [],
+      "popularity": 1021892,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Gangs of New York"
+    },
+    {
+      "name": "The Irishman",
+      "aliases": [
+        "Irishman"
+      ],
+      "popularity": 1095625,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "The Irishman"
+    },
+    {
+      "name": "Taxi Driver",
+      "aliases": [],
+      "popularity": 1250369,
+      "rarity": 0.104,
+      "tier": 1,
+      "wiki": "Taxi Driver"
+    },
+    {
+      "name": "Goodfellas",
+      "aliases": [],
+      "popularity": 1290068,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Goodfellas"
+    },
+    {
+      "name": "The Departed",
+      "aliases": [
+        "Departed"
+      ],
+      "popularity": 1470372,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "The Departed"
+    },
+    {
+      "name": "Cape Fear",
+      "aliases": [
+        "Cape Fear (1991 film)"
+      ],
+      "popularity": 1588976,
+      "rarity": 0.042,
+      "tier": 1,
+      "wiki": "Cape Fear (1991 film)"
+    },
+    {
+      "name": "The Wolf of Wall Street",
+      "aliases": [
+        "The Wolf of Wall Street (2013 film)",
+        "Wolf of Wall Street",
+        "Wolf of Wall Street (2013 film)"
+      ],
+      "popularity": 1673623,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "The Wolf of Wall Street (2013 film)"
+    },
+    {
+      "name": "Shutter Island",
+      "aliases": [
+        "Shutter Island (film)"
+      ],
+      "popularity": 2089052,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Shutter Island (film)"
+    }
+  ]
+}

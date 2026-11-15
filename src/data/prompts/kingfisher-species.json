@@ -1,0 +1,1297 @@
+{
+  "id": "kingfisher-species",
+  "slug": "kingfisher-species",
+  "category": "animals",
+  "question": "Name a species of kingfisher",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Morotai paradise kingfisher",
+      "aliases": [
+        "Tanysiptera doris"
+      ],
+      "popularity": 0,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Morotai paradise kingfisher"
+    },
+    {
+      "name": "Papuan paradise kingfisher",
+      "aliases": [
+        "Common Paradise Kingfisher",
+        "Tanysiptera galatea"
+      ],
+      "popularity": 0,
+      "rarity": 0.996,
+      "tier": 6,
+      "wiki": "Papuan paradise kingfisher"
+    },
+    {
+      "name": "Bougainville dwarf kingfisher",
+      "aliases": [
+        "Ceyx pallidus"
+      ],
+      "popularity": 13,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Bougainville dwarf kingfisher"
+    },
+    {
+      "name": "Alcedo websteri",
+      "aliases": [],
+      "popularity": 19,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Alcedo websteri"
+    },
+    {
+      "name": "Alcedo azurea",
+      "aliases": [],
+      "popularity": 93,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Alcedo azurea"
+    },
+    {
+      "name": "Plain-backed kingfisher",
+      "aliases": [
+        "Actenoides regalis"
+      ],
+      "popularity": 142,
+      "rarity": 0.96,
+      "tier": 6,
+      "wiki": "Plain-backed kingfisher"
+    },
+    {
+      "name": "North Solomons dwarf kingfisher",
+      "aliases": [
+        "Ceyx meeki"
+      ],
+      "popularity": 307,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "North Solomons dwarf kingfisher"
+    },
+    {
+      "name": "Buru dwarf kingfisher",
+      "aliases": [
+        "Ceyx cajeli"
+      ],
+      "popularity": 308,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Buru dwarf kingfisher"
+    },
+    {
+      "name": "Sula dwarf kingfisher",
+      "aliases": [
+        "Ceyx wallacii"
+      ],
+      "popularity": 310,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Sula dwarf kingfisher"
+    },
+    {
+      "name": "New Britain dwarf kingfisher",
+      "aliases": [
+        "Ceyx sacerdotis"
+      ],
+      "popularity": 313,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "New Britain dwarf kingfisher"
+    },
+    {
+      "name": "Black-headed kingfisher",
+      "aliases": [
+        "Actenoides capucinus"
+      ],
+      "popularity": 316,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Black-headed kingfisher"
+    },
+    {
+      "name": "Malaita dwarf kingfisher",
+      "aliases": [
+        "Ceyx malaitae"
+      ],
+      "popularity": 316,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Malaita dwarf kingfisher"
+    },
+    {
+      "name": "New Georgia dwarf kingfisher",
+      "aliases": [
+        "Ceyx collectoris"
+      ],
+      "popularity": 316,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "New Georgia dwarf kingfisher"
+    },
+    {
+      "name": "Guadalcanal dwarf kingfisher",
+      "aliases": [
+        "Ceyx nigromaxilla"
+      ],
+      "popularity": 325,
+      "rarity": 0.895,
+      "tier": 5,
+      "wiki": "Guadalcanal dwarf kingfisher"
+    },
+    {
+      "name": "Makira dwarf kingfisher",
+      "aliases": [
+        "Ceyx gentianus"
+      ],
+      "popularity": 336,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Makira dwarf kingfisher"
+    },
+    {
+      "name": "New Ireland dwarf kingfisher",
+      "aliases": [
+        "Ceyx mulcatus"
+      ],
+      "popularity": 374,
+      "rarity": 0.879,
+      "tier": 5,
+      "wiki": "New Ireland dwarf kingfisher"
+    },
+    {
+      "name": "Papuan dwarf kingfisher",
+      "aliases": [
+        "Ceyx solitarius"
+      ],
+      "popularity": 405,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Papuan dwarf kingfisher"
+    },
+    {
+      "name": "Sangihe lilac kingfisher",
+      "aliases": [
+        "Cittura sanghirensis"
+      ],
+      "popularity": 458,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Sangihe lilac kingfisher"
+    },
+    {
+      "name": "Manus dwarf kingfisher",
+      "aliases": [
+        "Ceyx dispar"
+      ],
+      "popularity": 537,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Manus dwarf kingfisher"
+    },
+    {
+      "name": "Little paradise kingfisher",
+      "aliases": [
+        "Tanysiptera hydrocharis"
+      ],
+      "popularity": 549,
+      "rarity": 0.847,
+      "tier": 5,
+      "wiki": "Little paradise kingfisher"
+    },
+    {
+      "name": "White-rumped kingfisher",
+      "aliases": [
+        "Caridonax fulgidus",
+        "Glittering Kingfisher"
+      ],
+      "popularity": 571,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "White-rumped kingfisher"
+    },
+    {
+      "name": "Mountain kingfisher",
+      "aliases": [
+        "Mountain yellow-billed kingfisher",
+        "Syma megarhyncha"
+      ],
+      "popularity": 613,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Mountain kingfisher"
+    },
+    {
+      "name": "Talaud kingfisher",
+      "aliases": [
+        "Obscure kingfisher",
+        "Todiramphus enigma"
+      ],
+      "popularity": 711,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Talaud kingfisher"
+    },
+    {
+      "name": "Cinnamon-banded kingfisher",
+      "aliases": [
+        "Halcyon australasia",
+        "Timor kingfisher",
+        "Todiramphus australasia"
+      ],
+      "popularity": 742,
+      "rarity": 0.815,
+      "tier": 5,
+      "wiki": "Cinnamon-banded kingfisher"
+    },
+    {
+      "name": "Melanesian kingfisher",
+      "aliases": [
+        "Todiramphus tristrami"
+      ],
+      "popularity": 761,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Melanesian kingfisher"
+    },
+    {
+      "name": "Black-capped paradise kingfisher",
+      "aliases": [
+        "Tanysiptera nigriceps"
+      ],
+      "popularity": 766,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Black-capped paradise kingfisher"
+    },
+    {
+      "name": "Islet kingfisher",
+      "aliases": [
+        "Todiramphus colonus"
+      ],
+      "popularity": 775,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Islet kingfisher"
+    },
+    {
+      "name": "Moluccan dwarf kingfisher",
+      "aliases": [
+        "Ceyx lepidus"
+      ],
+      "popularity": 775,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Moluccan dwarf kingfisher"
+    },
+    {
+      "name": "Sulawesi lilac kingfisher",
+      "aliases": [
+        "Cittura cyanotis",
+        "Lilac-cheeked kingfisher"
+      ],
+      "popularity": 777,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Sulawesi lilac kingfisher"
+    },
+    {
+      "name": "Northern silvery kingfisher",
+      "aliases": [
+        "Ceyx flumenicola"
+      ],
+      "popularity": 798,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Northern silvery kingfisher"
+    },
+    {
+      "name": "Red-breasted paradise kingfisher",
+      "aliases": [
+        "Tanysiptera nympha"
+      ],
+      "popularity": 807,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Red-breasted paradise kingfisher"
+    },
+    {
+      "name": "Sulawesi dwarf kingfisher",
+      "aliases": [
+        "Celebes Dwarf Kingfisher",
+        "Celebes pygmy-kingfisher",
+        "Ceyx fallax",
+        "Sulawesi Forest Kingfisher",
+        "Sulawesi kingfisher",
+        "Sulawesi Kingisher",
+        "Sulawesi Pygmy Kingfisher"
+      ],
+      "popularity": 813,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Sulawesi dwarf kingfisher"
+    },
+    {
+      "name": "Great-billed kingfisher",
+      "aliases": [
+        "black-billed kingfisher",
+        "Pelargopsis melanorhyncha"
+      ],
+      "popularity": 817,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Great-billed kingfisher"
+    },
+    {
+      "name": "Scaly-breasted kingfisher",
+      "aliases": [
+        "Actenoides princeps"
+      ],
+      "popularity": 817,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Scaly-breasted kingfisher"
+    },
+    {
+      "name": "Numfor paradise kingfisher",
+      "aliases": [
+        "Tanysiptera carolinae"
+      ],
+      "popularity": 829,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Numfor paradise kingfisher"
+    },
+    {
+      "name": "White-bellied kingfisher",
+      "aliases": [
+        "Corythornis leucogaster"
+      ],
+      "popularity": 839,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "White-bellied kingfisher"
+    },
+    {
+      "name": "Sombre kingfisher",
+      "aliases": [
+        "Todiramphus funebris"
+      ],
+      "popularity": 843,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Sombre kingfisher"
+    },
+    {
+      "name": "Flat-billed kingfisher",
+      "aliases": [
+        "Todiramphus recurvirostris"
+      ],
+      "popularity": 863,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Flat-billed kingfisher"
+    },
+    {
+      "name": "Chocolate-backed kingfisher",
+      "aliases": [
+        "Halcyon badia"
+      ],
+      "popularity": 869,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Chocolate-backed kingfisher"
+    },
+    {
+      "name": "Biak paradise kingfisher",
+      "aliases": [
+        "Tanysiptera riedelii",
+        "Tanysiptera riedelli"
+      ],
+      "popularity": 880,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "Biak paradise kingfisher"
+    },
+    {
+      "name": "Ultramarine kingfisher",
+      "aliases": [
+        "Todiramphus leucopygius"
+      ],
+      "popularity": 921,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Ultramarine kingfisher"
+    },
+    {
+      "name": "Chattering kingfisher",
+      "aliases": [
+        "Todiramphus tutus"
+      ],
+      "popularity": 939,
+      "rarity": 0.669,
+      "tier": 4,
+      "wiki": "Chattering kingfisher"
+    },
+    {
+      "name": "Brown-headed paradise kingfisher",
+      "aliases": [
+        "Tanysiptera danae"
+      ],
+      "popularity": 963,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Brown-headed paradise kingfisher"
+    },
+    {
+      "name": "Sangihe dwarf kingfisher",
+      "aliases": [
+        "Ceyx sangirensis"
+      ],
+      "popularity": 992,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Sangihe dwarf kingfisher"
+    },
+    {
+      "name": "Dimorphic dwarf kingfisher",
+      "aliases": [
+        "Ceyx margarethae"
+      ],
+      "popularity": 1013,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Dimorphic dwarf kingfisher"
+    },
+    {
+      "name": "Vanuatu kingfisher",
+      "aliases": [
+        "Chestnut-bellied kingfisher",
+        "Todiramphus farquhari"
+      ],
+      "popularity": 1037,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "Vanuatu kingfisher"
+    },
+    {
+      "name": "Blue-and-white kingfisher",
+      "aliases": [
+        "Moluccan kingfisher",
+        "Todiramphus diops"
+      ],
+      "popularity": 1070,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Blue-and-white kingfisher"
+    },
+    {
+      "name": "Society kingfisher",
+      "aliases": [
+        "Todiramphus veneratus"
+      ],
+      "popularity": 1087,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Society kingfisher"
+    },
+    {
+      "name": "Green-backed kingfisher",
+      "aliases": [
+        "Actenoides monachus",
+        "Blue-headed Kingfisher"
+      ],
+      "popularity": 1095,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Green-backed kingfisher"
+    },
+    {
+      "name": "Rufous-lored kingfisher",
+      "aliases": [
+        "Todiramphus winchelli",
+        "Winchell's Kingfisher"
+      ],
+      "popularity": 1121,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Rufous-lored kingfisher"
+    },
+    {
+      "name": "Rusty-capped kingfisher",
+      "aliases": [
+        "Palau Kingfisher",
+        "Todiramphus pelewensis"
+      ],
+      "popularity": 1171,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Rusty-capped kingfisher"
+    },
+    {
+      "name": "Niau kingfisher",
+      "aliases": [
+        "Todiramphus gertrudae"
+      ],
+      "popularity": 1188,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "Niau kingfisher"
+    },
+    {
+      "name": "White-mantled kingfisher",
+      "aliases": [
+        "Todiramphus albonotatus",
+        "White-backed kingfisher"
+      ],
+      "popularity": 1188,
+      "rarity": 0.585,
+      "tier": 3,
+      "wiki": "White-mantled kingfisher"
+    },
+    {
+      "name": "Southern silvery kingfisher",
+      "aliases": [
+        "Ceyx argentatus"
+      ],
+      "popularity": 1191,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Southern silvery kingfisher"
+    },
+    {
+      "name": "Beach kingfisher",
+      "aliases": [
+        "Todiramphus saurophaga",
+        "Todiramphus saurophagus"
+      ],
+      "popularity": 1209,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Beach kingfisher"
+    },
+    {
+      "name": "Blue-black kingfisher",
+      "aliases": [
+        "Todiramphus nigrocyaneus"
+      ],
+      "popularity": 1213,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Blue-black kingfisher"
+    },
+    {
+      "name": "Lazuli kingfisher",
+      "aliases": [
+        "South Moluccan kingfisher",
+        "Todiramphus lazuli"
+      ],
+      "popularity": 1232,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Lazuli kingfisher"
+    },
+    {
+      "name": "Hook-billed kingfisher",
+      "aliases": [
+        "Melidora macrorrhina"
+      ],
+      "popularity": 1236,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Hook-billed kingfisher"
+    },
+    {
+      "name": "Pohnpei kingfisher",
+      "aliases": [
+        "Todiramphus reichenbachii"
+      ],
+      "popularity": 1246,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Pohnpei kingfisher"
+    },
+    {
+      "name": "Blue-capped kingfisher",
+      "aliases": [
+        "Actenoides hombroni",
+        "Hombron's Kingfisher"
+      ],
+      "popularity": 1249,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Blue-capped kingfisher"
+    },
+    {
+      "name": "Kofiau paradise kingfisher",
+      "aliases": [
+        "Tanysiptera ellioti"
+      ],
+      "popularity": 1272,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Kofiau paradise kingfisher"
+    },
+    {
+      "name": "Mangareva kingfisher",
+      "aliases": [
+        "Todiramphus gambieri",
+        "Tuamotu Kingfisher"
+      ],
+      "popularity": 1275,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Mangareva kingfisher"
+    },
+    {
+      "name": "Moustached kingfisher",
+      "aliases": [
+        "Actenoides bougainvillei"
+      ],
+      "popularity": 1286,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Moustached kingfisher"
+    },
+    {
+      "name": "Madagascar pygmy kingfisher",
+      "aliases": [
+        "Corythornis madagascariensis"
+      ],
+      "popularity": 1291,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Madagascar pygmy kingfisher"
+    },
+    {
+      "name": "Bismarck kingfisher",
+      "aliases": [
+        "Ceyx websteri"
+      ],
+      "popularity": 1309,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Bismarck kingfisher"
+    },
+    {
+      "name": "Malagasy kingfisher",
+      "aliases": [
+        "Corythornis vintsioides"
+      ],
+      "popularity": 1340,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Malagasy kingfisher"
+    },
+    {
+      "name": "Mariana kingfisher",
+      "aliases": [
+        "Todiramphus albicilla"
+      ],
+      "popularity": 1376,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Mariana kingfisher"
+    },
+    {
+      "name": "Mewing kingfisher",
+      "aliases": [
+        "Mangaia kingfisher",
+        "Todiramphus ruficollaris"
+      ],
+      "popularity": 1427,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Mewing kingfisher"
+    },
+    {
+      "name": "Rufous-collared kingfisher",
+      "aliases": [
+        "Actenoides concretus",
+        "Chestnut-collared kingfisher"
+      ],
+      "popularity": 1467,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Rufous-collared kingfisher"
+    },
+    {
+      "name": "Malaysian blue-banded kingfisher",
+      "aliases": [
+        "Alcedo peninsulae",
+        "Malay Blue-banded Kingfisher"
+      ],
+      "popularity": 1527,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Malaysian blue-banded kingfisher"
+    },
+    {
+      "name": "Shining-blue kingfisher",
+      "aliases": [
+        "Alcedo quadribrachys"
+      ],
+      "popularity": 1560,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Shining-blue kingfisher"
+    },
+    {
+      "name": "Brown-winged kingfisher",
+      "aliases": [
+        "Pelargopsis amauroptera"
+      ],
+      "popularity": 1624,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Brown-winged kingfisher"
+    },
+    {
+      "name": "Marquesan kingfisher",
+      "aliases": [
+        "Halcyon godeffroyi",
+        "Marquesas kingfisher",
+        "Todiramphus godeffroyi"
+      ],
+      "popularity": 1630,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Marquesan kingfisher"
+    },
+    {
+      "name": "Green-and-rufous kingfisher",
+      "aliases": [
+        "Chloroceryle inda"
+      ],
+      "popularity": 1753,
+      "rarity": 0.411,
+      "tier": 3,
+      "wiki": "Green-and-rufous kingfisher"
+    },
+    {
+      "name": "Spotted wood kingfisher",
+      "aliases": [
+        "Actenoides lindsayi"
+      ],
+      "popularity": 1761,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Spotted wood kingfisher"
+    },
+    {
+      "name": "Indigo-banded kingfisher",
+      "aliases": [
+        "Ceyx cyanopectus"
+      ],
+      "popularity": 1931,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Indigo-banded kingfisher"
+    },
+    {
+      "name": "Mangrove kingfisher",
+      "aliases": [
+        "Halcyon senegaloides"
+      ],
+      "popularity": 1946,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Mangrove kingfisher"
+    },
+    {
+      "name": "Half-collared kingfisher",
+      "aliases": [
+        "Alcedo semitorquata"
+      ],
+      "popularity": 1954,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Half-collared kingfisher"
+    },
+    {
+      "name": "Torresian kingfisher",
+      "aliases": [
+        "Todiramphus sordidus"
+      ],
+      "popularity": 2040,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Torresian kingfisher"
+    },
+    {
+      "name": "Striped kingfisher",
+      "aliases": [
+        "Halcyon chelicuti"
+      ],
+      "popularity": 2143,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "Striped kingfisher"
+    },
+    {
+      "name": "African dwarf kingfisher",
+      "aliases": [
+        "Ispidina lecontei"
+      ],
+      "popularity": 2285,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "African dwarf kingfisher"
+    },
+    {
+      "name": "Brown-breasted kingfisher",
+      "aliases": [
+        "Halcyon gularis"
+      ],
+      "popularity": 2326,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Brown-breasted kingfisher"
+    },
+    {
+      "name": "Javan blue-banded kingfisher",
+      "aliases": [
+        "Alcedo euryzona",
+        "Blue-banded Kingfisher"
+      ],
+      "popularity": 2344,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Javan blue-banded kingfisher"
+    },
+    {
+      "name": "Little kingfisher",
+      "aliases": [
+        "Ceyx pusillus"
+      ],
+      "popularity": 2530,
+      "rarity": 0.331,
+      "tier": 2,
+      "wiki": "Little kingfisher"
+    },
+    {
+      "name": "Rufous-backed dwarf kingfisher",
+      "aliases": [
+        "black-backed kingfisher",
+        "Ceyx rufidorsa",
+        "rufous-backed kingfisher"
+      ],
+      "popularity": 2577,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Rufous-backed dwarf kingfisher"
+    },
+    {
+      "name": "Red-backed kingfisher",
+      "aliases": [
+        "Todiramphus pyrrhopygius"
+      ],
+      "popularity": 2633,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Red-backed kingfisher"
+    },
+    {
+      "name": "Yellow-billed kingfisher",
+      "aliases": [
+        "Syma torotoro"
+      ],
+      "popularity": 2846,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Yellow-billed kingfisher"
+    },
+    {
+      "name": "Blyth's kingfisher",
+      "aliases": [
+        "Alcedo hercules"
+      ],
+      "popularity": 2872,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Blyth's kingfisher"
+    },
+    {
+      "name": "Buff-breasted paradise kingfisher",
+      "aliases": [
+        "Tanysiptera sylvia"
+      ],
+      "popularity": 3009,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Buff-breasted paradise kingfisher"
+    },
+    {
+      "name": "Javan kingfisher",
+      "aliases": [
+        "blue-bellied kingfisher",
+        "Halcyon cyanoventris",
+        "java kingfisher"
+      ],
+      "popularity": 3352,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Javan kingfisher"
+    },
+    {
+      "name": "American pygmy kingfisher",
+      "aliases": [
+        "Chloroceryle aenea"
+      ],
+      "popularity": 3466,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "American pygmy kingfisher"
+    },
+    {
+      "name": "Philippine dwarf kingfisher",
+      "aliases": [
+        "Ceyx melanurus"
+      ],
+      "popularity": 3543,
+      "rarity": 0.266,
+      "tier": 2,
+      "wiki": "Philippine dwarf kingfisher"
+    },
+    {
+      "name": "Blue-breasted kingfisher",
+      "aliases": [
+        "Halcyon malimbica"
+      ],
+      "popularity": 3858,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Blue-breasted kingfisher"
+    },
+    {
+      "name": "Banded kingfisher",
+      "aliases": [
+        "Lacedo pulchella"
+      ],
+      "popularity": 4110,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Banded kingfisher"
+    },
+    {
+      "name": "African pygmy kingfisher",
+      "aliases": [
+        "Ispidina picta"
+      ],
+      "popularity": 4574,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "African pygmy kingfisher"
+    },
+    {
+      "name": "Cerulean kingfisher",
+      "aliases": [
+        "Alcedo coerulescens",
+        "small blue kingfisher"
+      ],
+      "popularity": 4602,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Cerulean kingfisher"
+    },
+    {
+      "name": "Brown-hooded kingfisher",
+      "aliases": [
+        "Halcyon albiventris"
+      ],
+      "popularity": 4779,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Brown-hooded kingfisher"
+    },
+    {
+      "name": "Grey-headed kingfisher",
+      "aliases": [
+        "Halcyon leucocephala"
+      ],
+      "popularity": 4897,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Grey-headed kingfisher"
+    },
+    {
+      "name": "Amazon kingfisher",
+      "aliases": [
+        "Chloroceryle amazona"
+      ],
+      "popularity": 4950,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Amazon kingfisher"
+    },
+    {
+      "name": "Spangled kookaburra",
+      "aliases": [
+        "Dacelo tyro"
+      ],
+      "popularity": 5335,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Spangled kookaburra"
+    },
+    {
+      "name": "Pacific kingfisher",
+      "aliases": [
+        "Todiramphus sacer"
+      ],
+      "popularity": 5397,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Pacific kingfisher"
+    },
+    {
+      "name": "Rufous-bellied kookaburra",
+      "aliases": [
+        "Dacelo gaudichaud",
+        "Gaudichaud’s kookaburra"
+      ],
+      "popularity": 5657,
+      "rarity": 0.185,
+      "tier": 1,
+      "wiki": "Rufous-bellied kookaburra"
+    },
+    {
+      "name": "Ruddy kingfisher",
+      "aliases": [
+        "Halcyon coromanda"
+      ],
+      "popularity": 5680,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "Ruddy kingfisher"
+    },
+    {
+      "name": "Black-capped kingfisher",
+      "aliases": [
+        "Halcyon pileata"
+      ],
+      "popularity": 5707,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Black-capped kingfisher"
+    },
+    {
+      "name": "Blue-eared kingfisher",
+      "aliases": [
+        "Alcedo meninting"
+      ],
+      "popularity": 6208,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Blue-eared kingfisher"
+    },
+    {
+      "name": "Shovel-billed kookaburra",
+      "aliases": [
+        "Clytoceyx rex",
+        "Dacelo rex"
+      ],
+      "popularity": 6693,
+      "rarity": 0.153,
+      "tier": 1,
+      "wiki": "Shovel-billed kookaburra"
+    },
+    {
+      "name": "Green kingfisher",
+      "aliases": [
+        "Chloroceryle americana"
+      ],
+      "popularity": 6712,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Green kingfisher"
+    },
+    {
+      "name": "Forest kingfisher",
+      "aliases": [
+        "Todiramphus macleayii"
+      ],
+      "popularity": 6819,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Forest kingfisher"
+    },
+    {
+      "name": "Woodland kingfisher",
+      "aliases": [
+        "Halcyon senegalensis"
+      ],
+      "popularity": 7255,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Woodland kingfisher"
+    },
+    {
+      "name": "Stork-billed kingfisher",
+      "aliases": [
+        "Pelargopsis capensis"
+      ],
+      "popularity": 7410,
+      "rarity": 0.121,
+      "tier": 1,
+      "wiki": "Stork-billed kingfisher"
+    },
+    {
+      "name": "Malachite kingfisher",
+      "aliases": [
+        "Alcedo cristata"
+      ],
+      "popularity": 8277,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Malachite kingfisher"
+    },
+    {
+      "name": "Crested kingfisher",
+      "aliases": [
+        "Megaceryle lugubris"
+      ],
+      "popularity": 8811,
+      "rarity": 0.105,
+      "tier": 1,
+      "wiki": "Crested kingfisher"
+    },
+    {
+      "name": "Giant kingfisher",
+      "aliases": [
+        "Megaceryle maxima"
+      ],
+      "popularity": 10207,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Giant kingfisher"
+    },
+    {
+      "name": "Ringed kingfisher",
+      "aliases": [
+        "Megaceryle torquata"
+      ],
+      "popularity": 10215,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Ringed kingfisher"
+    },
+    {
+      "name": "Azure kingfisher",
+      "aliases": [
+        "Ceyx azureus"
+      ],
+      "popularity": 11251,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Azure kingfisher"
+    },
+    {
+      "name": "Black-backed dwarf kingfisher",
+      "aliases": [
+        "Ceyx erithaca",
+        "oriental dwarf kingfisher",
+        "three-toed kingfisher"
+      ],
+      "popularity": 12392,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Black-backed dwarf kingfisher"
+    },
+    {
+      "name": "Collared kingfisher",
+      "aliases": [
+        "Todiramphus chloris"
+      ],
+      "popularity": 14599,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Collared kingfisher"
+    },
+    {
+      "name": "Pied kingfisher",
+      "aliases": [
+        "Ceryle rudis"
+      ],
+      "popularity": 17275,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Pied kingfisher"
+    },
+    {
+      "name": "Sacred kingfisher",
+      "aliases": [
+        "Todiramphus sanctus"
+      ],
+      "popularity": 19884,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Sacred kingfisher"
+    },
+    {
+      "name": "Blue-winged kookaburra",
+      "aliases": [
+        "Dacelo leachii"
+      ],
+      "popularity": 23064,
+      "rarity": 0.04,
+      "tier": 1,
+      "wiki": "Blue-winged kookaburra"
+    },
+    {
+      "name": "White-throated kingfisher",
+      "aliases": [
+        "Halcyon smyrnensis",
+        "White-breasted kingfisher"
+      ],
+      "popularity": 34676,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "White-throated kingfisher"
+    },
+    {
+      "name": "Guam kingfisher",
+      "aliases": [
+        "Micronesian kingfisher",
+        "Todiramphus cinnamominus"
+      ],
+      "popularity": 58039,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Guam kingfisher"
+    },
+    {
+      "name": "Belted kingfisher",
+      "aliases": [
+        "Megaceryle alcyon"
+      ],
+      "popularity": 62932,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Belted kingfisher"
+    },
+    {
+      "name": "Laughing kookaburra",
+      "aliases": [
+        "Dacelo novaeguineae"
+      ],
+      "popularity": 86869,
+      "rarity": 0.008,
+      "tier": 1,
+      "wiki": "Laughing kookaburra"
+    },
+    {
+      "name": "Common kingfisher",
+      "aliases": [
+        "Alcedo atthis"
+      ],
+      "popularity": 108518,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Common kingfisher"
+    }
+  ]
+}

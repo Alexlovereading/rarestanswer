@@ -1,0 +1,3074 @@
+{
+  "id": "language-families",
+  "slug": "language-families",
+  "category": "history",
+  "question": "Name a language family",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Atlantic languages",
+      "aliases": [
+        "Atlantic languages (Afroasiatic)"
+      ],
+      "popularity": 0,
+      "rarity": 0.998,
+      "tier": 6,
+      "wiki": "Atlantic languages (Afroasiatic)"
+    },
+    {
+      "name": "Marrgu–Wurrugu languages",
+      "aliases": [
+        "Marrku–Wurrugu",
+        "Marrku–Wurrugu languages"
+      ],
+      "popularity": 0,
+      "rarity": 0.998,
+      "tier": 6,
+      "wiki": "Marrgu–Wurrugu languages"
+    },
+    {
+      "name": "Maybrat-Karon languages",
+      "aliases": [
+        "Mai Brat",
+        "Mai Brat languages"
+      ],
+      "popularity": 18,
+      "rarity": 0.993,
+      "tier": 6,
+      "wiki": "Maybrat-Karon languages"
+    },
+    {
+      "name": "Roinji–Nenaya languages",
+      "aliases": [
+        "Roinji–Nenaya"
+      ],
+      "popularity": 30,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Roinji–Nenaya languages"
+    },
+    {
+      "name": "Javanic languages",
+      "aliases": [
+        "Javanic"
+      ],
+      "popularity": 39,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Javanic languages"
+    },
+    {
+      "name": "Mengen languages",
+      "aliases": [
+        "Mengen",
+        "Mengenic"
+      ],
+      "popularity": 50,
+      "rarity": 0.983,
+      "tier": 6,
+      "wiki": "Mengen languages"
+    },
+    {
+      "name": "Sundic languages",
+      "aliases": [
+        "Sundic"
+      ],
+      "popularity": 51,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Sundic languages"
+    },
+    {
+      "name": "Lenmichí languages",
+      "aliases": [
+        "Lenmichí"
+      ],
+      "popularity": 62,
+      "rarity": 0.976,
+      "tier": 6,
+      "wiki": "Lenmichí languages"
+    },
+    {
+      "name": "Extended West Papuan languages",
+      "aliases": [
+        "Extended West Papuan"
+      ],
+      "popularity": 77,
+      "rarity": 0.973,
+      "tier": 6,
+      "wiki": "Extended West Papuan languages"
+    },
+    {
+      "name": "Hunno-Bulgar languages",
+      "aliases": [
+        "Hunno-Bulgar"
+      ],
+      "popularity": 113,
+      "rarity": 0.969,
+      "tier": 6,
+      "wiki": "Hunno-Bulgar languages"
+    },
+    {
+      "name": "Kaure–Kapori languages",
+      "aliases": [
+        "Kaure–Kapori"
+      ],
+      "popularity": 141,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Kaure–Kapori languages"
+    },
+    {
+      "name": "Hodï–Saliban languages",
+      "aliases": [
+        "Duho",
+        "Duho languages",
+        "Hodï–Saliban",
+        "Jodï–Saliban"
+      ],
+      "popularity": 181,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Hodï–Saliban languages"
+    },
+    {
+      "name": "Apauwar Coast languages",
+      "aliases": [
+        "Apauwar Coast",
+        "Samarokena–Airoran"
+      ],
+      "popularity": 194,
+      "rarity": 0.959,
+      "tier": 6,
+      "wiki": "Apauwar Coast languages"
+    },
+    {
+      "name": "Kawesqaran languages",
+      "aliases": [
+        "Alacalufan",
+        "Alacalufan languages"
+      ],
+      "popularity": 196,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Kawesqaran languages"
+    },
+    {
+      "name": "Nehan–Bougainville languages",
+      "aliases": [
+        "Nehan–Bougainville"
+      ],
+      "popularity": 206,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Nehan–Bougainville languages"
+    },
+    {
+      "name": "Macro-Otomákoan languages",
+      "aliases": [
+        "Macro-Otomákoan"
+      ],
+      "popularity": 208,
+      "rarity": 0.948,
+      "tier": 6,
+      "wiki": "Macro-Otomákoan languages"
+    },
+    {
+      "name": "Dani–Kwerba languages",
+      "aliases": [
+        "Dani–Kwerba"
+      ],
+      "popularity": 211,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "Dani–Kwerba languages"
+    },
+    {
+      "name": "Otomacoan languages",
+      "aliases": [
+        "Otomákoan",
+        "Otomákoan languages"
+      ],
+      "popularity": 212,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Otomacoan languages"
+    },
+    {
+      "name": "Niger–Kordofanian languages",
+      "aliases": [
+        "Niger-Kordofanian"
+      ],
+      "popularity": 217,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Niger–Kordofanian languages"
+    },
+    {
+      "name": "Puinave–Makú languages",
+      "aliases": [
+        "Macro-Puinavean",
+        "Macro-Puinavean languages",
+        "Puinave-Maku"
+      ],
+      "popularity": 240,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Puinave–Makú languages"
+    },
+    {
+      "name": "Western Skou languages",
+      "aliases": [
+        "Western Skou"
+      ],
+      "popularity": 250,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Western Skou languages"
+    },
+    {
+      "name": "Left May–Kwomtari languages",
+      "aliases": [
+        "Left May–Kwomtari"
+      ],
+      "popularity": 251,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Left May–Kwomtari languages"
+    },
+    {
+      "name": "Porapora languages",
+      "aliases": [
+        "Porapora",
+        "Porapora River"
+      ],
+      "popularity": 264,
+      "rarity": 0.924,
+      "tier": 5,
+      "wiki": "Porapora languages"
+    },
+    {
+      "name": "Trans-Araguaia languages",
+      "aliases": [
+        "Trans-Araguaia"
+      ],
+      "popularity": 272,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Trans-Araguaia languages"
+    },
+    {
+      "name": "Kapauri–Sause languages",
+      "aliases": [
+        "Kapauri–Sause"
+      ],
+      "popularity": 281,
+      "rarity": 0.918,
+      "tier": 5,
+      "wiki": "Kapauri–Sause languages"
+    },
+    {
+      "name": "Rotenese languages",
+      "aliases": [
+        "Rotenese"
+      ],
+      "popularity": 282,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Rotenese languages"
+    },
+    {
+      "name": "Jayapura Bay languages",
+      "aliases": [
+        "Jayapura Bay"
+      ],
+      "popularity": 291,
+      "rarity": 0.911,
+      "tier": 5,
+      "wiki": "Jayapura Bay languages"
+    },
+    {
+      "name": "Tor–Kwerba languages",
+      "aliases": [
+        "Tor–Kwerba"
+      ],
+      "popularity": 304,
+      "rarity": 0.907,
+      "tier": 5,
+      "wiki": "Tor–Kwerba languages"
+    },
+    {
+      "name": "Lower Ramu languages",
+      "aliases": [
+        "Lower Ramu"
+      ],
+      "popularity": 325,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Lower Ramu languages"
+    },
+    {
+      "name": "Macro-Andean languages",
+      "aliases": [
+        "Macro-Andean"
+      ],
+      "popularity": 345,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Macro-Andean languages"
+    },
+    {
+      "name": "Wamo–Chapakura languages",
+      "aliases": [
+        "Wamo–Chapakura"
+      ],
+      "popularity": 349,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Wamo–Chapakura languages"
+    },
+    {
+      "name": "Esmeralda–Yaruroan languages",
+      "aliases": [
+        "Esmeralda–Yaruroan",
+        "Takame–Jarúroan languages"
+      ],
+      "popularity": 354,
+      "rarity": 0.893,
+      "tier": 5,
+      "wiki": "Esmeralda–Yaruroan languages"
+    },
+    {
+      "name": "Katembri–Taruma languages",
+      "aliases": [
+        "Katembri–Taruma"
+      ],
+      "popularity": 365,
+      "rarity": 0.89,
+      "tier": 5,
+      "wiki": "Katembri–Taruma languages"
+    },
+    {
+      "name": "Namla–Tofanma languages",
+      "aliases": [
+        "Namla–Tofanma"
+      ],
+      "popularity": 366,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Namla–Tofanma languages"
+    },
+    {
+      "name": "Tequiraca–Canichana languages",
+      "aliases": [
+        "Tequiraca–Canichana"
+      ],
+      "popularity": 391,
+      "rarity": 0.883,
+      "tier": 5,
+      "wiki": "Tequiraca–Canichana languages"
+    },
+    {
+      "name": "Tolatecan languages",
+      "aliases": [
+        "Tolatecan"
+      ],
+      "popularity": 408,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Tolatecan languages"
+    },
+    {
+      "name": "Awyu languages",
+      "aliases": [
+        "Awyu"
+      ],
+      "popularity": 417,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Awyu languages"
+    },
+    {
+      "name": "Macro-Warpean languages",
+      "aliases": [
+        "Macro-Warpean"
+      ],
+      "popularity": 417,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Macro-Warpean languages"
+    },
+    {
+      "name": "Teberan–Pawaian languages",
+      "aliases": [
+        "Teberan–Pawaian"
+      ],
+      "popularity": 417,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Teberan–Pawaian languages"
+    },
+    {
+      "name": "West Pauwasi languages",
+      "aliases": [
+        "West Pauwasi"
+      ],
+      "popularity": 420,
+      "rarity": 0.866,
+      "tier": 5,
+      "wiki": "West Pauwasi languages"
+    },
+    {
+      "name": "East Bird's Head–Sentani languages",
+      "aliases": [
+        "East Bird's Head–Sentani"
+      ],
+      "popularity": 428,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "East Bird's Head–Sentani languages"
+    },
+    {
+      "name": "Central Loloish languages",
+      "aliases": [
+        "Central Loloish"
+      ],
+      "popularity": 435,
+      "rarity": 0.859,
+      "tier": 5,
+      "wiki": "Central Loloish languages"
+    },
+    {
+      "name": "Mongol–Langam languages",
+      "aliases": [
+        "Koam languages",
+        "Mongol–Langam",
+        "Ulmapo languages"
+      ],
+      "popularity": 455,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Mongol–Langam languages"
+    },
+    {
+      "name": "Vale languages",
+      "aliases": [
+        "Nduga-Luto languages",
+        "Vale"
+      ],
+      "popularity": 463,
+      "rarity": 0.852,
+      "tier": 5,
+      "wiki": "Vale languages"
+    },
+    {
+      "name": "Urim languages",
+      "aliases": [
+        "Urim"
+      ],
+      "popularity": 466,
+      "rarity": 0.849,
+      "tier": 5,
+      "wiki": "Urim languages"
+    },
+    {
+      "name": "Inanwatan–Duriankere languages",
+      "aliases": [
+        "Inanwatan",
+        "Inanwatan–Duriankere",
+        "Inanwatan languages"
+      ],
+      "popularity": 471,
+      "rarity": 0.845,
+      "tier": 5,
+      "wiki": "Inanwatan–Duriankere languages"
+    },
+    {
+      "name": "Keram languages",
+      "aliases": [
+        "Keram"
+      ],
+      "popularity": 481,
+      "rarity": 0.842,
+      "tier": 5,
+      "wiki": "Keram languages"
+    },
+    {
+      "name": "Doso–Turumsa languages",
+      "aliases": [
+        "Doso-Turumsa"
+      ],
+      "popularity": 494,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Doso–Turumsa languages"
+    },
+    {
+      "name": "Kwomtari–Fas languages",
+      "aliases": [
+        "Kwomtari–Fas"
+      ],
+      "popularity": 514,
+      "rarity": 0.835,
+      "tier": 5,
+      "wiki": "Kwomtari–Fas languages"
+    },
+    {
+      "name": "East New Guinea Highlands languages",
+      "aliases": [
+        "East New Guinea Highlands"
+      ],
+      "popularity": 531,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "East New Guinea Highlands languages"
+    },
+    {
+      "name": "Manubaran languages",
+      "aliases": [
+        "Manubaran"
+      ],
+      "popularity": 545,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Manubaran languages"
+    },
+    {
+      "name": "Ngumbin languages",
+      "aliases": [
+        "Ngumbin"
+      ],
+      "popularity": 568,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Ngumbin languages"
+    },
+    {
+      "name": "South Pauwasi languages",
+      "aliases": [
+        "Lepki–Murkim languages",
+        "South Pauwasi"
+      ],
+      "popularity": 586,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "South Pauwasi languages"
+    },
+    {
+      "name": "Bayono–Awbono languages",
+      "aliases": [
+        "Bayono–Awbono"
+      ],
+      "popularity": 592,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Bayono–Awbono languages"
+    },
+    {
+      "name": "Antioquian languages",
+      "aliases": [
+        "Antioquian"
+      ],
+      "popularity": 598,
+      "rarity": 0.814,
+      "tier": 5,
+      "wiki": "Antioquian languages"
+    },
+    {
+      "name": "Hamitic languages",
+      "aliases": [
+        "Hamitic"
+      ],
+      "popularity": 612,
+      "rarity": 0.811,
+      "tier": 5,
+      "wiki": "Hamitic languages"
+    },
+    {
+      "name": "Kwalean languages",
+      "aliases": [
+        "Kwalean"
+      ],
+      "popularity": 614,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Kwalean languages"
+    },
+    {
+      "name": "Hatam–Mansim languages",
+      "aliases": [
+        "Hatam–Mansim"
+      ],
+      "popularity": 645,
+      "rarity": 0.804,
+      "tier": 5,
+      "wiki": "Hatam–Mansim languages"
+    },
+    {
+      "name": "West Papuan Highlands languages",
+      "aliases": [
+        "West Papuan Highlands"
+      ],
+      "popularity": 658,
+      "rarity": 0.801,
+      "tier": 5,
+      "wiki": "West Papuan Highlands languages"
+    },
+    {
+      "name": "Turama–Kikorian languages",
+      "aliases": [
+        "Turama-Kikori languages",
+        "Turama–Kikorian"
+      ],
+      "popularity": 677,
+      "rarity": 0.797,
+      "tier": 4,
+      "wiki": "Turama–Kikorian languages"
+    },
+    {
+      "name": "Binanderean–Goilalan languages",
+      "aliases": [
+        "Binanderean–Goilalan",
+        "Oro–Wharton Range"
+      ],
+      "popularity": 690,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Binanderean–Goilalan languages"
+    },
+    {
+      "name": "Mataguayan languages",
+      "aliases": [
+        "Matacoan",
+        "Matacoan languages"
+      ],
+      "popularity": 692,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Mataguayan languages"
+    },
+    {
+      "name": "Walio languages",
+      "aliases": [
+        "Walio"
+      ],
+      "popularity": 694,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Walio languages"
+    },
+    {
+      "name": "Xukuruan languages",
+      "aliases": [
+        "Xukuruan"
+      ],
+      "popularity": 694,
+      "rarity": 0.785,
+      "tier": 4,
+      "wiki": "Xukuruan languages"
+    },
+    {
+      "name": "Sechura–Catacao languages",
+      "aliases": [
+        "Sechura–Catacao"
+      ],
+      "popularity": 720,
+      "rarity": 0.78,
+      "tier": 4,
+      "wiki": "Sechura–Catacao languages"
+    },
+    {
+      "name": "Trans-Fly–Bulaka River languages",
+      "aliases": [
+        "Trans-Fly–Bulaka River"
+      ],
+      "popularity": 721,
+      "rarity": 0.777,
+      "tier": 4,
+      "wiki": "Trans-Fly–Bulaka River languages"
+    },
+    {
+      "name": "Teberan languages",
+      "aliases": [
+        "Teberan"
+      ],
+      "popularity": 722,
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Teberan languages"
+    },
+    {
+      "name": "Paranilotic languages",
+      "aliases": [
+        "Paranilotic"
+      ],
+      "popularity": 732,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "Paranilotic languages"
+    },
+    {
+      "name": "Dagan languages",
+      "aliases": [
+        "Dagan"
+      ],
+      "popularity": 738,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Dagan languages"
+    },
+    {
+      "name": "West New Britain languages",
+      "aliases": [
+        "West New Britain"
+      ],
+      "popularity": 742,
+      "rarity": 0.763,
+      "tier": 4,
+      "wiki": "West New Britain languages"
+    },
+    {
+      "name": "Arai–Samaia languages",
+      "aliases": [
+        "Arai–Samaia"
+      ],
+      "popularity": 751,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Arai–Samaia languages"
+    },
+    {
+      "name": "Kaure–Kosare languages",
+      "aliases": [
+        "Kaure–Kosare"
+      ],
+      "popularity": 762,
+      "rarity": 0.756,
+      "tier": 4,
+      "wiki": "Kaure–Kosare languages"
+    },
+    {
+      "name": "Orya–Tor languages",
+      "aliases": [
+        "Orya–Tor",
+        "Tor-Orya languages"
+      ],
+      "popularity": 773,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Orya–Tor languages"
+    },
+    {
+      "name": "Macro-Paesan languages",
+      "aliases": [
+        "Macro-Paesan"
+      ],
+      "popularity": 791,
+      "rarity": 0.749,
+      "tier": 4,
+      "wiki": "Macro-Paesan languages"
+    },
+    {
+      "name": "Nuclear South Bird's Head languages",
+      "aliases": [
+        "Core South Bird's Head",
+        "East South Bird's Head",
+        "Nuclear South Bird's Head"
+      ],
+      "popularity": 816,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Nuclear South Bird's Head languages"
+    },
+    {
+      "name": "Trans–São Francisco languages",
+      "aliases": [
+        "Trans–São Francisco"
+      ],
+      "popularity": 873,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Trans–São Francisco languages"
+    },
+    {
+      "name": "Demta–Sentani languages",
+      "aliases": [
+        "Demta–Sentani",
+        "Sentani",
+        "Sentani languages",
+        "Sentanic",
+        "Sentanic languages"
+      ],
+      "popularity": 881,
+      "rarity": 0.739,
+      "tier": 4,
+      "wiki": "Demta–Sentani languages"
+    },
+    {
+      "name": "Kutubuan languages",
+      "aliases": [
+        "Kutubuan"
+      ],
+      "popularity": 907,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Kutubuan languages"
+    },
+    {
+      "name": "Senu River languages",
+      "aliases": [
+        "Kwomtari",
+        "Kwomtari languages"
+      ],
+      "popularity": 923,
+      "rarity": 0.732,
+      "tier": 4,
+      "wiki": "Senu River languages"
+    },
+    {
+      "name": "Upper Yuat languages",
+      "aliases": [
+        "Arafundi–Piawi languages",
+        "Upper Yuat"
+      ],
+      "popularity": 943,
+      "rarity": 0.729,
+      "tier": 4,
+      "wiki": "Upper Yuat languages"
+    },
+    {
+      "name": "Arutani–Sape languages",
+      "aliases": [
+        "Arutani–Sape",
+        "Awake–Kaliana languages",
+        "Kalianan languages"
+      ],
+      "popularity": 968,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Arutani–Sape languages"
+    },
+    {
+      "name": "Fas languages",
+      "aliases": [
+        "Baibai-Fas languages",
+        "Fas"
+      ],
+      "popularity": 971,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Fas languages"
+    },
+    {
+      "name": "East New Britain languages",
+      "aliases": [
+        "East New Britain"
+      ],
+      "popularity": 989,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "East New Britain languages"
+    },
+    {
+      "name": "Bulaka River languages",
+      "aliases": [
+        "Bulaka River"
+      ],
+      "popularity": 991,
+      "rarity": 0.715,
+      "tier": 4,
+      "wiki": "Bulaka River languages"
+    },
+    {
+      "name": "Saparo–Yawan languages",
+      "aliases": [
+        "Saparo–Yawan",
+        "Zaparo–Peba languages",
+        "Zaparo–Yaguan languages"
+      ],
+      "popularity": 1014,
+      "rarity": 0.711,
+      "tier": 4,
+      "wiki": "Saparo–Yawan languages"
+    },
+    {
+      "name": "Somahai language",
+      "aliases": [
+        "Momina",
+        "Momuna Samboga language",
+        "Momuna Samboka language",
+        "Somage language",
+        "Somahai",
+        "Somahai languages",
+        "Sumohai language"
+      ],
+      "popularity": 1022,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Somahai language"
+    },
+    {
+      "name": "Arafundi languages",
+      "aliases": [
+        "Arafundi"
+      ],
+      "popularity": 1034,
+      "rarity": 0.704,
+      "tier": 4,
+      "wiki": "Arafundi languages"
+    },
+    {
+      "name": "Macro-Jibaro languages",
+      "aliases": [
+        "Macro-Jibaro"
+      ],
+      "popularity": 1046,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Macro-Jibaro languages"
+    },
+    {
+      "name": "Andoque–Urequena languages",
+      "aliases": [
+        "Andoque–Urequena"
+      ],
+      "popularity": 1057,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Andoque–Urequena languages"
+    },
+    {
+      "name": "Amto–Musan languages",
+      "aliases": [
+        "Amto–Musan"
+      ],
+      "popularity": 1058,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Amto–Musan languages"
+    },
+    {
+      "name": "Leonhard Schultze languages",
+      "aliases": [
+        "Walio–Papi",
+        "Walio–Papi languages"
+      ],
+      "popularity": 1061,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Leonhard Schultze languages"
+    },
+    {
+      "name": "Lule–Vilela languages",
+      "aliases": [
+        "Lule–Vilela"
+      ],
+      "popularity": 1088,
+      "rarity": 0.687,
+      "tier": 4,
+      "wiki": "Lule–Vilela languages"
+    },
+    {
+      "name": "East Strickland languages",
+      "aliases": [
+        "East Strickland",
+        "Strickland River"
+      ],
+      "popularity": 1089,
+      "rarity": 0.684,
+      "tier": 4,
+      "wiki": "East Strickland languages"
+    },
+    {
+      "name": "Senagi languages",
+      "aliases": [
+        "Senagi"
+      ],
+      "popularity": 1122,
+      "rarity": 0.68,
+      "tier": 4,
+      "wiki": "Senagi languages"
+    },
+    {
+      "name": "Yele – West New Britain languages",
+      "aliases": [
+        "Yele – West New Britain"
+      ],
+      "popularity": 1137,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Yele – West New Britain languages"
+    },
+    {
+      "name": "Yuat languages",
+      "aliases": [
+        "Yuat"
+      ],
+      "popularity": 1170,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Yuat languages"
+    },
+    {
+      "name": "Mairasi languages",
+      "aliases": [
+        "Mairasi",
+        "Mairasic languages"
+      ],
+      "popularity": 1199,
+      "rarity": 0.67,
+      "tier": 4,
+      "wiki": "Mairasi languages"
+    },
+    {
+      "name": "Bosavi languages",
+      "aliases": [
+        "Bosavi"
+      ],
+      "popularity": 1204,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Bosavi languages"
+    },
+    {
+      "name": "Ramu–Lower Sepik languages",
+      "aliases": [
+        "Lower Sepik–Ramu",
+        "Ramu–Lower Sepik"
+      ],
+      "popularity": 1219,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "Ramu–Lower Sepik languages"
+    },
+    {
+      "name": "Kolopom languages",
+      "aliases": [
+        "Kimanghama",
+        "Kolopom"
+      ],
+      "popularity": 1242,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Kolopom languages"
+    },
+    {
+      "name": "Left May languages",
+      "aliases": [
+        "Arai",
+        "Left May"
+      ],
+      "popularity": 1253,
+      "rarity": 0.656,
+      "tier": 4,
+      "wiki": "Left May languages"
+    },
+    {
+      "name": "Papuan Gulf languages",
+      "aliases": [
+        "Papuan Gulf"
+      ],
+      "popularity": 1269,
+      "rarity": 0.653,
+      "tier": 4,
+      "wiki": "Papuan Gulf languages"
+    },
+    {
+      "name": "Eleman languages",
+      "aliases": [
+        "Eleman"
+      ],
+      "popularity": 1356,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Eleman languages"
+    },
+    {
+      "name": "Kiwaian languages",
+      "aliases": [
+        "Kiwaian"
+      ],
+      "popularity": 1356,
+      "rarity": 0.648,
+      "tier": 4,
+      "wiki": "Kiwaian languages"
+    },
+    {
+      "name": "Komuz languages",
+      "aliases": [
+        "Komuz"
+      ],
+      "popularity": 1392,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Komuz languages"
+    },
+    {
+      "name": "East Geelvink Bay languages",
+      "aliases": [
+        "East Geelvink Bay"
+      ],
+      "popularity": 1412,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "East Geelvink Bay languages"
+    },
+    {
+      "name": "Arnhem Land languages",
+      "aliases": [],
+      "popularity": 1416,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Arnhem Land languages"
+    },
+    {
+      "name": "Sepik–Ramu languages",
+      "aliases": [
+        "Sepik–Ramu"
+      ],
+      "popularity": 1443,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Sepik–Ramu languages"
+    },
+    {
+      "name": "Hibito–Cholon languages",
+      "aliases": [
+        "Cholónan languages",
+        "Hibito–Cholon"
+      ],
+      "popularity": 1482,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Hibito–Cholon languages"
+    },
+    {
+      "name": "Chimuan languages",
+      "aliases": [
+        "Chimuan",
+        "Yuncan languages"
+      ],
+      "popularity": 1494,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Chimuan languages"
+    },
+    {
+      "name": "Purian languages",
+      "aliases": [
+        "Purian"
+      ],
+      "popularity": 1525,
+      "rarity": 0.622,
+      "tier": 4,
+      "wiki": "Purian languages"
+    },
+    {
+      "name": "Northwest Papuan languages",
+      "aliases": [
+        "Northwest Papuan"
+      ],
+      "popularity": 1541,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "Northwest Papuan languages"
+    },
+    {
+      "name": "Greater Siangic languages",
+      "aliases": [
+        "Greater Siangic"
+      ],
+      "popularity": 1605,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Greater Siangic languages"
+    },
+    {
+      "name": "Maningrida languages",
+      "aliases": [
+        "Maningrida"
+      ],
+      "popularity": 1635,
+      "rarity": 0.612,
+      "tier": 4,
+      "wiki": "Maningrida languages"
+    },
+    {
+      "name": "Timotean languages",
+      "aliases": [
+        "Timotean"
+      ],
+      "popularity": 1641,
+      "rarity": 0.608,
+      "tier": 4,
+      "wiki": "Timotean languages"
+    },
+    {
+      "name": "Armeno-Phrygian languages",
+      "aliases": [
+        "Armeno-Phrygian"
+      ],
+      "popularity": 1685,
+      "rarity": 0.605,
+      "tier": 4,
+      "wiki": "Armeno-Phrygian languages"
+    },
+    {
+      "name": "Austronesian–Ongan languages",
+      "aliases": [
+        "Austronesian–Ongan"
+      ],
+      "popularity": 1690,
+      "rarity": 0.601,
+      "tier": 4,
+      "wiki": "Austronesian–Ongan languages"
+    },
+    {
+      "name": "Pauwasi languages",
+      "aliases": [
+        "Pauwasi"
+      ],
+      "popularity": 1703,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Pauwasi languages"
+    },
+    {
+      "name": "Tangkhulic languages",
+      "aliases": [
+        "Tangkhul",
+        "Tangkhul languages"
+      ],
+      "popularity": 1711,
+      "rarity": 0.595,
+      "tier": 3,
+      "wiki": "Tangkhulic languages"
+    },
+    {
+      "name": "Yawa languages",
+      "aliases": [
+        "Yapen",
+        "Yapen languages",
+        "Yawa–Saweru",
+        "Yawa–Saweru languages",
+        "Yawan",
+        "Yawan languages"
+      ],
+      "popularity": 1749,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Yawa languages"
+    },
+    {
+      "name": "Calusa–Tunica languages",
+      "aliases": [
+        "Calusa–Tunica"
+      ],
+      "popularity": 1758,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Calusa–Tunica languages"
+    },
+    {
+      "name": "Baining languages",
+      "aliases": [
+        "Baining"
+      ],
+      "popularity": 1839,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Baining languages"
+    },
+    {
+      "name": "Chukotko-Kamchatkan–Amuric languages",
+      "aliases": [
+        "Chukotko-Kamchatkan–Amuric"
+      ],
+      "popularity": 1880,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Chukotko-Kamchatkan–Amuric languages"
+    },
+    {
+      "name": "Jirajaran languages",
+      "aliases": [
+        "Jirajaran"
+      ],
+      "popularity": 1894,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Jirajaran languages"
+    },
+    {
+      "name": "Moseten–Chonan languages",
+      "aliases": [
+        "Moseten–Chonan"
+      ],
+      "popularity": 1919,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Moseten–Chonan languages"
+    },
+    {
+      "name": "Mascoian languages",
+      "aliases": [
+        "Mascoian"
+      ],
+      "popularity": 1920,
+      "rarity": 0.57,
+      "tier": 3,
+      "wiki": "Mascoian languages"
+    },
+    {
+      "name": "Harákmbut–Katukinan languages",
+      "aliases": [
+        "Harákmbut–Katukinan"
+      ],
+      "popularity": 1937,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Harákmbut–Katukinan languages"
+    },
+    {
+      "name": "Harákmbut language",
+      "aliases": [
+        "Harakmbut",
+        "Harakmbut languages"
+      ],
+      "popularity": 1938,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Harákmbut language"
+    },
+    {
+      "name": "Bunuban languages",
+      "aliases": [
+        "Bunaban languages",
+        "Bunuban"
+      ],
+      "popularity": 1940,
+      "rarity": 0.56,
+      "tier": 3,
+      "wiki": "Bunuban languages"
+    },
+    {
+      "name": "Piaroa–Saliban languages",
+      "aliases": [
+        "Piaroa–Saliban"
+      ],
+      "popularity": 1953,
+      "rarity": 0.557,
+      "tier": 3,
+      "wiki": "Piaroa–Saliban languages"
+    },
+    {
+      "name": "Pakawan languages",
+      "aliases": [
+        "Pakawan"
+      ],
+      "popularity": 1975,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Pakawan languages"
+    },
+    {
+      "name": "Waroid languages",
+      "aliases": [
+        "Waroid"
+      ],
+      "popularity": 1976,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Waroid languages"
+    },
+    {
+      "name": "Newaric languages",
+      "aliases": [
+        "Newaric"
+      ],
+      "popularity": 2042,
+      "rarity": 0.546,
+      "tier": 3,
+      "wiki": "Newaric languages"
+    },
+    {
+      "name": "Western Daly languages",
+      "aliases": [
+        "Western Daly"
+      ],
+      "popularity": 2047,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Western Daly languages"
+    },
+    {
+      "name": "Daly languages",
+      "aliases": [
+        "Daly"
+      ],
+      "popularity": 2051,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Daly languages"
+    },
+    {
+      "name": "Border languages",
+      "aliases": [
+        "Border",
+        "Border languages (New Guinea)",
+        "Upper Tami languages"
+      ],
+      "popularity": 2068,
+      "rarity": 0.536,
+      "tier": 3,
+      "wiki": "Border languages (New Guinea)"
+    },
+    {
+      "name": "Sino-Uralic hypothesis",
+      "aliases": [
+        "Sino-Uralic",
+        "Sino-Uralic languages"
+      ],
+      "popularity": 2084,
+      "rarity": 0.533,
+      "tier": 3,
+      "wiki": "Sino-Uralic hypothesis"
+    },
+    {
+      "name": "Jê–Tupi–Carib languages",
+      "aliases": [
+        "Je-Tupi-Carib"
+      ],
+      "popularity": 2126,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Jê–Tupi–Carib languages"
+    },
+    {
+      "name": "Nambikwaran languages",
+      "aliases": [
+        "Nambikwaran",
+        "Nambiquaran languages"
+      ],
+      "popularity": 2133,
+      "rarity": 0.526,
+      "tier": 3,
+      "wiki": "Nambikwaran languages"
+    },
+    {
+      "name": "Bora–Witoto languages",
+      "aliases": [
+        "Bora–Witoto"
+      ],
+      "popularity": 2153,
+      "rarity": 0.522,
+      "tier": 3,
+      "wiki": "Bora–Witoto languages"
+    },
+    {
+      "name": "Paezan languages",
+      "aliases": [
+        "Paezan"
+      ],
+      "popularity": 2186,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Paezan languages"
+    },
+    {
+      "name": "Jarrakan languages",
+      "aliases": [
+        "Djeragan languages",
+        "Jarrakan"
+      ],
+      "popularity": 2199,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Jarrakan languages"
+    },
+    {
+      "name": "Trans-Fly languages",
+      "aliases": [
+        "Trans-Fly"
+      ],
+      "popularity": 2228,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Trans-Fly languages"
+    },
+    {
+      "name": "Darwin Region languages",
+      "aliases": [
+        "Darwin Region"
+      ],
+      "popularity": 2233,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Darwin Region languages"
+    },
+    {
+      "name": "Central Nahuatl languages",
+      "aliases": [
+        "Central Nahuatl"
+      ],
+      "popularity": 2271,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Central Nahuatl languages"
+    },
+    {
+      "name": "Macro-Mayan languages",
+      "aliases": [
+        "Macro-Mayan"
+      ],
+      "popularity": 2286,
+      "rarity": 0.502,
+      "tier": 3,
+      "wiki": "Macro-Mayan languages"
+    },
+    {
+      "name": "Eastern Trans-Fly languages",
+      "aliases": [
+        "Eastern Trans-Fly"
+      ],
+      "popularity": 2301,
+      "rarity": 0.498,
+      "tier": 3,
+      "wiki": "Eastern Trans-Fly languages"
+    },
+    {
+      "name": "Katloid languages",
+      "aliases": [
+        "Katla",
+        "Katla languages",
+        "Katla-Tima languages",
+        "Katloid"
+      ],
+      "popularity": 2353,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Katloid languages"
+    },
+    {
+      "name": "Indigenous languages of the Caribbean",
+      "aliases": [],
+      "popularity": 2355,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Indigenous languages of the Caribbean"
+    },
+    {
+      "name": "Anim languages",
+      "aliases": [
+        "Anim",
+        "Fly River languages"
+      ],
+      "popularity": 2356,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "Anim languages"
+    },
+    {
+      "name": "Skou languages",
+      "aliases": [
+        "Skou"
+      ],
+      "popularity": 2454,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Skou languages"
+    },
+    {
+      "name": "Mirndi languages",
+      "aliases": [
+        "Mirndi"
+      ],
+      "popularity": 2504,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Mirndi languages"
+    },
+    {
+      "name": "Aztec–Tanoan languages",
+      "aliases": [
+        "Aztec–Tanoan"
+      ],
+      "popularity": 2534,
+      "rarity": 0.478,
+      "tier": 3,
+      "wiki": "Aztec–Tanoan languages"
+    },
+    {
+      "name": "Chocoan languages",
+      "aliases": [
+        "Choco",
+        "Choco languages",
+        "Chocoan"
+      ],
+      "popularity": 2569,
+      "rarity": 0.474,
+      "tier": 3,
+      "wiki": "Chocoan languages"
+    },
+    {
+      "name": "East Papuan languages",
+      "aliases": [
+        "East Papuan"
+      ],
+      "popularity": 2577,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "East Papuan languages"
+    },
+    {
+      "name": "Central Solomon languages",
+      "aliases": [
+        "Central Solomon"
+      ],
+      "popularity": 2605,
+      "rarity": 0.467,
+      "tier": 3,
+      "wiki": "Central Solomon languages"
+    },
+    {
+      "name": "Taman languages",
+      "aliases": [
+        "Tamaic languages",
+        "Taman"
+      ],
+      "popularity": 2618,
+      "rarity": 0.464,
+      "tier": 3,
+      "wiki": "Taman languages"
+    },
+    {
+      "name": "Yam languages",
+      "aliases": [
+        "Morehead and Upper Maro River",
+        "Morehead-Maro",
+        "Morehead-Maro languages",
+        "Morehead River",
+        "Yam"
+      ],
+      "popularity": 2648,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Yam languages"
+    },
+    {
+      "name": "Nyima languages",
+      "aliases": [
+        "Nyima",
+        "Nyimang languages"
+      ],
+      "popularity": 2720,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Nyima languages"
+    },
+    {
+      "name": "Puquina languages",
+      "aliases": [],
+      "popularity": 2745,
+      "rarity": 0.454,
+      "tier": 3,
+      "wiki": "Puquina languages"
+    },
+    {
+      "name": "Yuki–Wappo languages",
+      "aliases": [
+        "Wappo-Yukian",
+        "Yuki–Wappo"
+      ],
+      "popularity": 2829,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Yuki–Wappo languages"
+    },
+    {
+      "name": "Pano-Tacanan languages",
+      "aliases": [
+        "Pano-Tacana languages",
+        "Pano-Tacanan",
+        "Páno-Takána languages",
+        "Pano-Takánan languages"
+      ],
+      "popularity": 2865,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Pano-Tacanan languages"
+    },
+    {
+      "name": "Worrorran languages",
+      "aliases": [
+        "Worrorran"
+      ],
+      "popularity": 2941,
+      "rarity": 0.443,
+      "tier": 3,
+      "wiki": "Worrorran languages"
+    },
+    {
+      "name": "Zamucoan languages",
+      "aliases": [
+        "Zamucoan"
+      ],
+      "popularity": 3106,
+      "rarity": 0.44,
+      "tier": 3,
+      "wiki": "Zamucoan languages"
+    },
+    {
+      "name": "Kunama languages",
+      "aliases": [
+        "Kunama"
+      ],
+      "popularity": 3113,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Kunama languages"
+    },
+    {
+      "name": "Bʼaga languages",
+      "aliases": [
+        "Bʼaga",
+        "Gumuz",
+        "Gumuz languages",
+        "Gumuzoid languages"
+      ],
+      "popularity": 3238,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Bʼaga languages"
+    },
+    {
+      "name": "Uralic–Yukaghir hypothesis",
+      "aliases": [
+        "Uralic–Yukaghir",
+        "Uralic–Yukaghir languages"
+      ],
+      "popularity": 3320,
+      "rarity": 0.43,
+      "tier": 3,
+      "wiki": "Uralic–Yukaghir hypothesis"
+    },
+    {
+      "name": "Arabic-based creole languages",
+      "aliases": [],
+      "popularity": 3329,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Arabic-based creole languages"
+    },
+    {
+      "name": "Comecrudan languages",
+      "aliases": [
+        "Comecrudan"
+      ],
+      "popularity": 3360,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Comecrudan languages"
+    },
+    {
+      "name": "Nyulnyulan languages",
+      "aliases": [
+        "Nyulnyulan"
+      ],
+      "popularity": 3388,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Nyulnyulan languages"
+    },
+    {
+      "name": "Ibero-Caucasian languages",
+      "aliases": [
+        "Caucasian languages",
+        "Ibero-Caucasian"
+      ],
+      "popularity": 3401,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Ibero-Caucasian languages"
+    },
+    {
+      "name": "Dizoid languages",
+      "aliases": [
+        "Dizoid",
+        "Maji languages",
+        "Majoid languages"
+      ],
+      "popularity": 3413,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Dizoid languages"
+    },
+    {
+      "name": "Mao languages",
+      "aliases": [
+        "Blue Nile Mao languages",
+        "Mao"
+      ],
+      "popularity": 3490,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Mao languages"
+    },
+    {
+      "name": "South Bougainville languages",
+      "aliases": [
+        "East Bougainville languages",
+        "South Bougainville"
+      ],
+      "popularity": 3512,
+      "rarity": 0.405,
+      "tier": 3,
+      "wiki": "South Bougainville languages"
+    },
+    {
+      "name": "Chapacuran languages",
+      "aliases": [
+        "Chapacuran",
+        "Chapakuran"
+      ],
+      "popularity": 3518,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Chapacuran languages"
+    },
+    {
+      "name": "Vietnamese sign languages",
+      "aliases": [],
+      "popularity": 3540,
+      "rarity": 0.399,
+      "tier": 2,
+      "wiki": "Vietnamese sign languages"
+    },
+    {
+      "name": "Mataco–Guaicuru languages",
+      "aliases": [
+        "Mataco-Guaicuru"
+      ],
+      "popularity": 3606,
+      "rarity": 0.395,
+      "tier": 2,
+      "wiki": "Mataco–Guaicuru languages"
+    },
+    {
+      "name": "Totozoquean languages",
+      "aliases": [
+        "Totozoquean"
+      ],
+      "popularity": 3626,
+      "rarity": 0.392,
+      "tier": 2,
+      "wiki": "Totozoquean languages"
+    },
+    {
+      "name": "Goalpariya dialects",
+      "aliases": [
+        "Goalpariya"
+      ],
+      "popularity": 3658,
+      "rarity": 0.388,
+      "tier": 2,
+      "wiki": "Goalpariya dialects"
+    },
+    {
+      "name": "Gulf languages",
+      "aliases": [
+        "Gulf"
+      ],
+      "popularity": 3735,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Gulf languages"
+    },
+    {
+      "name": "Pumpokolic languages",
+      "aliases": [
+        "Arin-Pumpokol",
+        "Pumpokolic"
+      ],
+      "popularity": 3752,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Pumpokolic languages"
+    },
+    {
+      "name": "Uru–Chipaya languages",
+      "aliases": [
+        "Uru–Chipaya"
+      ],
+      "popularity": 3895,
+      "rarity": 0.378,
+      "tier": 2,
+      "wiki": "Uru–Chipaya languages"
+    },
+    {
+      "name": "Macro-Arawakan languages",
+      "aliases": [
+        "Macro-Arawakan"
+      ],
+      "popularity": 4063,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Macro-Arawakan languages"
+    },
+    {
+      "name": "Marquesic languages",
+      "aliases": [
+        "Marquesic"
+      ],
+      "popularity": 4175,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Marquesic languages"
+    },
+    {
+      "name": "Ladakhi–Balti languages",
+      "aliases": [
+        "Ladakhi–Balti",
+        "North-Western Tibetic languages",
+        "Western Archaic Tibetan",
+        "Western Tibetic"
+      ],
+      "popularity": 4596,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Ladakhi–Balti languages"
+    },
+    {
+      "name": "Tahitic languages",
+      "aliases": [
+        "Tahitic"
+      ],
+      "popularity": 4619,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Tahitic languages"
+    },
+    {
+      "name": "Charruan languages",
+      "aliases": [
+        "Charruan"
+      ],
+      "popularity": 4688,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Charruan languages"
+    },
+    {
+      "name": "Mosan languages",
+      "aliases": [
+        "Mosan"
+      ],
+      "popularity": 4764,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Mosan languages"
+    },
+    {
+      "name": "North Bougainville languages",
+      "aliases": [
+        "North Bougainville"
+      ],
+      "popularity": 4785,
+      "rarity": 0.354,
+      "tier": 2,
+      "wiki": "North Bougainville languages"
+    },
+    {
+      "name": "Macro-Siouan languages",
+      "aliases": [
+        "Macro-Siouan"
+      ],
+      "popularity": 4937,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Macro-Siouan languages"
+    },
+    {
+      "name": "Sepik languages",
+      "aliases": [
+        "Sepik"
+      ],
+      "popularity": 5041,
+      "rarity": 0.347,
+      "tier": 2,
+      "wiki": "Sepik languages"
+    },
+    {
+      "name": "Guaicuruan languages",
+      "aliases": [
+        "Guaicuruan"
+      ],
+      "popularity": 5098,
+      "rarity": 0.344,
+      "tier": 2,
+      "wiki": "Guaicuruan languages"
+    },
+    {
+      "name": "Torricelli languages",
+      "aliases": [
+        "Torricelli"
+      ],
+      "popularity": 5134,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Torricelli languages"
+    },
+    {
+      "name": "Lakes Plain languages",
+      "aliases": [
+        "Lakes Plain"
+      ],
+      "popularity": 5349,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "Lakes Plain languages"
+    },
+    {
+      "name": "Tiniguan languages",
+      "aliases": [
+        "Tiniguan"
+      ],
+      "popularity": 5607,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Tiniguan languages"
+    },
+    {
+      "name": "Eskimo–Uralic languages",
+      "aliases": [
+        "Eskimo–Uralic"
+      ],
+      "popularity": 5812,
+      "rarity": 0.33,
+      "tier": 2,
+      "wiki": "Eskimo–Uralic languages"
+    },
+    {
+      "name": "Pasigraphy",
+      "aliases": [],
+      "popularity": 5922,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Pasigraphy"
+    },
+    {
+      "name": "West Papuan languages",
+      "aliases": [
+        "West Papuan"
+      ],
+      "popularity": 5945,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "West Papuan languages"
+    },
+    {
+      "name": "Coahuiltecan languages",
+      "aliases": [
+        "Coahuiltecan"
+      ],
+      "popularity": 5972,
+      "rarity": 0.32,
+      "tier": 2,
+      "wiki": "Coahuiltecan languages"
+    },
+    {
+      "name": "Berta languages",
+      "aliases": [
+        "Berta"
+      ],
+      "popularity": 6072,
+      "rarity": 0.316,
+      "tier": 2,
+      "wiki": "Berta languages"
+    },
+    {
+      "name": "Chimakuan languages",
+      "aliases": [
+        "Chimakuan"
+      ],
+      "popularity": 6086,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Chimakuan languages"
+    },
+    {
+      "name": "Amazonian languages",
+      "aliases": [
+        "Amazonian"
+      ],
+      "popularity": 6089,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Amazonian languages"
+    },
+    {
+      "name": "Karasuk languages",
+      "aliases": [
+        "Karasuk"
+      ],
+      "popularity": 6297,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Karasuk languages"
+    },
+    {
+      "name": "Tucanoan languages",
+      "aliases": [
+        "Tucanoan"
+      ],
+      "popularity": 6373,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Tucanoan languages"
+    },
+    {
+      "name": "Quechumaran languages",
+      "aliases": [
+        "Quechumaran"
+      ],
+      "popularity": 6455,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Quechumaran languages"
+    },
+    {
+      "name": "Paleo-Laplandic languages",
+      "aliases": [
+        "Paleo-Laplandic"
+      ],
+      "popularity": 6575,
+      "rarity": 0.296,
+      "tier": 2,
+      "wiki": "Paleo-Laplandic languages"
+    },
+    {
+      "name": "Turanian languages",
+      "aliases": [
+        "Turanian"
+      ],
+      "popularity": 6655,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Turanian languages"
+    },
+    {
+      "name": "Algonquian–Wakashan languages",
+      "aliases": [
+        "Algonquian–Wakashan"
+      ],
+      "popularity": 7133,
+      "rarity": 0.289,
+      "tier": 2,
+      "wiki": "Algonquian–Wakashan languages"
+    },
+    {
+      "name": "Classification of Thracian",
+      "aliases": [],
+      "popularity": 7141,
+      "rarity": 0.285,
+      "tier": 2,
+      "wiki": "Classification of Thracian"
+    },
+    {
+      "name": "Sino-Austronesian languages",
+      "aliases": [
+        "Sino-Austronesian"
+      ],
+      "popularity": 7175,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Sino-Austronesian languages"
+    },
+    {
+      "name": "Barbacoan languages",
+      "aliases": [
+        "Barbacoan",
+        "Barbacoana",
+        "Barbacoano",
+        "Barbakóan"
+      ],
+      "popularity": 7288,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Barbacoan languages"
+    },
+    {
+      "name": "Indo-Semitic languages",
+      "aliases": [
+        "Indo-Semitic"
+      ],
+      "popularity": 7364,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Indo-Semitic languages"
+    },
+    {
+      "name": "Alarodian languages",
+      "aliases": [
+        "Alarodian"
+      ],
+      "popularity": 7854,
+      "rarity": 0.271,
+      "tier": 2,
+      "wiki": "Alarodian languages"
+    },
+    {
+      "name": "Totonacan languages",
+      "aliases": [
+        "Totonacan",
+        "Totonacans languages"
+      ],
+      "popularity": 7876,
+      "rarity": 0.268,
+      "tier": 2,
+      "wiki": "Totonacan languages"
+    },
+    {
+      "name": "Pontic languages",
+      "aliases": [
+        "Pontic"
+      ],
+      "popularity": 8249,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Pontic languages"
+    },
+    {
+      "name": "Misumalpan languages",
+      "aliases": [
+        "Misumalpan"
+      ],
+      "popularity": 8275,
+      "rarity": 0.261,
+      "tier": 2,
+      "wiki": "Misumalpan languages"
+    },
+    {
+      "name": "Puyŏ languages",
+      "aliases": [
+        "Koguryoic",
+        "Koguryoic languages",
+        "Puyŏ"
+      ],
+      "popularity": 9063,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Puyŏ languages"
+    },
+    {
+      "name": "Macro-Pama–Nyungan languages",
+      "aliases": [
+        "Macro-Pama–Nyungan"
+      ],
+      "popularity": 9264,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Macro-Pama–Nyungan languages"
+    },
+    {
+      "name": "Araucanian languages",
+      "aliases": [
+        "Araucanian"
+      ],
+      "popularity": 9666,
+      "rarity": 0.251,
+      "tier": 2,
+      "wiki": "Araucanian languages"
+    },
+    {
+      "name": "Dravido-Korean languages",
+      "aliases": [
+        "Dravido-Korean",
+        "Tamil-Korean",
+        "Tamil-Korean languages"
+      ],
+      "popularity": 9732,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Dravido-Korean languages"
+    },
+    {
+      "name": "Bodish languages",
+      "aliases": [
+        "Bodish"
+      ],
+      "popularity": 9945,
+      "rarity": 0.244,
+      "tier": 2,
+      "wiki": "Bodish languages"
+    },
+    {
+      "name": "Chonan languages",
+      "aliases": [
+        "Chonan"
+      ],
+      "popularity": 10002,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Chonan languages"
+    },
+    {
+      "name": "Dutch-based creole languages",
+      "aliases": [],
+      "popularity": 10262,
+      "rarity": 0.237,
+      "tier": 2,
+      "wiki": "Dutch-based creole languages"
+    },
+    {
+      "name": "East Asian languages",
+      "aliases": [],
+      "popularity": 10605,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "East Asian languages"
+    },
+    {
+      "name": "Sindhi languages",
+      "aliases": [
+        "Sindhic languages"
+      ],
+      "popularity": 10831,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Sindhi languages"
+    },
+    {
+      "name": "Uralo-Siberian languages",
+      "aliases": [
+        "Uralo-Siberian"
+      ],
+      "popularity": 11179,
+      "rarity": 0.227,
+      "tier": 2,
+      "wiki": "Uralo-Siberian languages"
+    },
+    {
+      "name": "Mixe–Zoque languages",
+      "aliases": [
+        "Mixe–Zoque",
+        "Mixe-Zoquean languages"
+      ],
+      "popularity": 11434,
+      "rarity": 0.223,
+      "tier": 2,
+      "wiki": "Mixe–Zoque languages"
+    },
+    {
+      "name": "Esperantido",
+      "aliases": [],
+      "popularity": 12647,
+      "rarity": 0.22,
+      "tier": 2,
+      "wiki": "Esperantido"
+    },
+    {
+      "name": "Macro-Jê languages",
+      "aliases": [
+        "Macro-Gê",
+        "Macro-Jê"
+      ],
+      "popularity": 13836,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Macro-Jê languages"
+    },
+    {
+      "name": "Penutian languages",
+      "aliases": [
+        "Penutian"
+      ],
+      "popularity": 14181,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Penutian languages"
+    },
+    {
+      "name": "Middle Indo-Aryan languages",
+      "aliases": [
+        "MIA",
+        "Middle Indian",
+        "Middle Indic",
+        "Middle Indo-Aryan"
+      ],
+      "popularity": 14354,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Middle Indo-Aryan languages"
+    },
+    {
+      "name": "Yanomaman languages",
+      "aliases": [
+        "Yanomaman",
+        "Yanomami languages",
+        "Yanomamic"
+      ],
+      "popularity": 14640,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Yanomaman languages"
+    },
+    {
+      "name": "Aymaran languages",
+      "aliases": [
+        "Aymaran"
+      ],
+      "popularity": 14774,
+      "rarity": 0.203,
+      "tier": 2,
+      "wiki": "Aymaran languages"
+    },
+    {
+      "name": "Para-Romani",
+      "aliases": [
+        "para-Romani languages"
+      ],
+      "popularity": 15504,
+      "rarity": 0.199,
+      "tier": 1,
+      "wiki": "Para-Romani"
+    },
+    {
+      "name": "Tanoan languages",
+      "aliases": [
+        "Tanoan"
+      ],
+      "popularity": 15794,
+      "rarity": 0.196,
+      "tier": 1,
+      "wiki": "Tanoan languages"
+    },
+    {
+      "name": "Spanish-based creole languages",
+      "aliases": [],
+      "popularity": 15903,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Spanish-based creole languages"
+    },
+    {
+      "name": "Keres language",
+      "aliases": [
+        "Keres",
+        "Keresan",
+        "Keresan languages"
+      ],
+      "popularity": 15957,
+      "rarity": 0.189,
+      "tier": 1,
+      "wiki": "Keres language"
+    },
+    {
+      "name": "Austric languages",
+      "aliases": [
+        "Austric"
+      ],
+      "popularity": 16127,
+      "rarity": 0.186,
+      "tier": 1,
+      "wiki": "Austric languages"
+    },
+    {
+      "name": "Western Aramaic languages",
+      "aliases": [
+        "Western Aramaic"
+      ],
+      "popularity": 17002,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Western Aramaic languages"
+    },
+    {
+      "name": "Amerind languages",
+      "aliases": [],
+      "popularity": 17477,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Amerind languages"
+    },
+    {
+      "name": "Wakashan languages",
+      "aliases": [
+        "Wakashan"
+      ],
+      "popularity": 18442,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Wakashan languages"
+    },
+    {
+      "name": "Caddoan languages",
+      "aliases": [
+        "Caddoan"
+      ],
+      "popularity": 19824,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Caddoan languages"
+    },
+    {
+      "name": "Borean languages",
+      "aliases": [
+        "Boreal",
+        "Borean"
+      ],
+      "popularity": 20382,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Borean languages"
+    },
+    {
+      "name": "Austro-Tai languages",
+      "aliases": [
+        "Austro-Tai"
+      ],
+      "popularity": 22153,
+      "rarity": 0.165,
+      "tier": 1,
+      "wiki": "Austro-Tai languages"
+    },
+    {
+      "name": "Chibchan languages",
+      "aliases": [
+        "Chibchan",
+        "Chibchano"
+      ],
+      "popularity": 22436,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Chibchan languages"
+    },
+    {
+      "name": "Eastern Aramaic languages",
+      "aliases": [
+        "Eastern Aramaic"
+      ],
+      "popularity": 24363,
+      "rarity": 0.158,
+      "tier": 1,
+      "wiki": "Eastern Aramaic languages"
+    },
+    {
+      "name": "Elamo-Dravidian languages",
+      "aliases": [
+        "Elamo-Dravidian"
+      ],
+      "popularity": 24652,
+      "rarity": 0.155,
+      "tier": 1,
+      "wiki": "Elamo-Dravidian languages"
+    },
+    {
+      "name": "Ongan languages",
+      "aliases": [
+        "Jarawa-Onge languages",
+        "Ongan"
+      ],
+      "popularity": 25159,
+      "rarity": 0.151,
+      "tier": 1,
+      "wiki": "Ongan languages"
+    },
+    {
+      "name": "Dené–Caucasian languages",
+      "aliases": [
+        "Dené–Caucasian"
+      ],
+      "popularity": 25808,
+      "rarity": 0.148,
+      "tier": 1,
+      "wiki": "Dené–Caucasian languages"
+    },
+    {
+      "name": "Andamanese languages",
+      "aliases": [
+        "Andamanese"
+      ],
+      "popularity": 26213,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Andamanese languages"
+    },
+    {
+      "name": "Trans–New Guinea languages",
+      "aliases": [
+        "Trans–New Guinea"
+      ],
+      "popularity": 29525,
+      "rarity": 0.141,
+      "tier": 1,
+      "wiki": "Trans–New Guinea languages"
+    },
+    {
+      "name": "Serbi–Mongolic languages",
+      "aliases": [
+        "Serbi–Mongolic"
+      ],
+      "popularity": 31184,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Serbi–Mongolic languages"
+    },
+    {
+      "name": "Muskogean languages",
+      "aliases": [
+        "Muskogean"
+      ],
+      "popularity": 34303,
+      "rarity": 0.134,
+      "tier": 1,
+      "wiki": "Muskogean languages"
+    },
+    {
+      "name": "Ural-Altaic languages",
+      "aliases": [
+        "Ural–Altaic"
+      ],
+      "popularity": 34461,
+      "rarity": 0.131,
+      "tier": 1,
+      "wiki": "Ural-Altaic languages"
+    },
+    {
+      "name": "Chukotko-Kamchatkan languages",
+      "aliases": [
+        "Chukchi–Kamchatkan",
+        "Chukotko-Kamchatkan"
+      ],
+      "popularity": 37181,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Chukotko-Kamchatkan languages"
+    },
+    {
+      "name": "Dene–Yeniseian languages",
+      "aliases": [
+        "Dene-Yenisei",
+        "Dené–Yeniseian",
+        "Dene-Yeniseic",
+        "Dene-Yeniseic languages"
+      ],
+      "popularity": 37236,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Dene–Yeniseian languages"
+    },
+    {
+      "name": "Antillean Creole",
+      "aliases": [
+        "Antillean Creole French",
+        "Antillean French Creole",
+        "Antillean French patois",
+        "Lesser Antillean French Creole",
+        "Lesser Antilles Creole French"
+      ],
+      "popularity": 38002,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Antillean Creole"
+    },
+    {
+      "name": "Illyrian language",
+      "aliases": [
+        "Illyrian",
+        "Illyrian languages"
+      ],
+      "popularity": 43656,
+      "rarity": 0.117,
+      "tier": 1,
+      "wiki": "Illyrian language"
+    },
+    {
+      "name": "Tupian languages",
+      "aliases": [
+        "Tupian"
+      ],
+      "popularity": 44849,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Tupian languages"
+    },
+    {
+      "name": "Hmong–Mien languages",
+      "aliases": [
+        "Hmong–Mien",
+        "Miao–Yao",
+        "Yangtzean"
+      ],
+      "popularity": 46623,
+      "rarity": 0.11,
+      "tier": 1,
+      "wiki": "Hmong–Mien languages"
+    },
+    {
+      "name": "Hurro-Urartian languages",
+      "aliases": [
+        "Hurro-Urartian"
+      ],
+      "popularity": 47159,
+      "rarity": 0.107,
+      "tier": 1,
+      "wiki": "Hurro-Urartian languages"
+    },
+    {
+      "name": "Maghrebi Arabic",
+      "aliases": [
+        "Darija",
+        "North African Arabic",
+        "Western Arabic"
+      ],
+      "popularity": 49167,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Maghrebi Arabic"
+    },
+    {
+      "name": "French-based creole languages",
+      "aliases": [
+        "French-based creole language",
+        "French creole",
+        "French creoles"
+      ],
+      "popularity": 49298,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "French-based creole languages"
+    },
+    {
+      "name": "Neo-Aramaic languages",
+      "aliases": [
+        "modern Aramaic languages",
+        "Neo-Aramaic"
+      ],
+      "popularity": 53420,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Neo-Aramaic languages"
+    },
+    {
+      "name": "Tyrsenian languages",
+      "aliases": [
+        "Common Tyrrhenic",
+        "Tyrrhenian",
+        "Tyrrhenian languages",
+        "Tyrsenian"
+      ],
+      "popularity": 56330,
+      "rarity": 0.093,
+      "tier": 1,
+      "wiki": "Tyrsenian languages"
+    },
+    {
+      "name": "Paleo-European languages",
+      "aliases": [
+        "Old European languages"
+      ],
+      "popularity": 57855,
+      "rarity": 0.089,
+      "tier": 1,
+      "wiki": "Paleo-European languages"
+    },
+    {
+      "name": "Salishan languages",
+      "aliases": [
+        "Salish",
+        "Salish languages",
+        "Salishan"
+      ],
+      "popularity": 61598,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Salishan languages"
+    },
+    {
+      "name": "Algic languages",
+      "aliases": [
+        "Algic"
+      ],
+      "popularity": 61826,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Algic languages"
+    },
+    {
+      "name": "Siculo-Arabic",
+      "aliases": [
+        "Sicilian Arabic"
+      ],
+      "popularity": 63307,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Siculo-Arabic"
+    },
+    {
+      "name": "Pre-Indo-European languages",
+      "aliases": [],
+      "popularity": 63400,
+      "rarity": 0.076,
+      "tier": 1,
+      "wiki": "Pre-Indo-European languages"
+    },
+    {
+      "name": "Khoisan languages",
+      "aliases": [
+        "Khoisan"
+      ],
+      "popularity": 64327,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Khoisan languages"
+    },
+    {
+      "name": "Yeniseian languages",
+      "aliases": [
+        "Yeniseian"
+      ],
+      "popularity": 72566,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Yeniseian languages"
+    },
+    {
+      "name": "Arawakan languages",
+      "aliases": [],
+      "popularity": 72664,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Arawakan languages"
+    },
+    {
+      "name": "Na-Dene languages",
+      "aliases": [
+        "Athabaskan–Eyak–Tlingit",
+        "Na-Dene",
+        "Nadene",
+        "Tlina–Dene"
+      ],
+      "popularity": 75802,
+      "rarity": 0.062,
+      "tier": 1,
+      "wiki": "Na-Dene languages"
+    },
+    {
+      "name": "Eskaleut languages",
+      "aliases": [
+        "Eskimo–Aleut languages",
+        "Inuit–Yupik–Unangan",
+        "Inuit–Yupik–Unangan languages"
+      ],
+      "popularity": 81072,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Eskaleut languages"
+    },
+    {
+      "name": "Ainu languages",
+      "aliases": [
+        "Ainu",
+        "Ainuic"
+      ],
+      "popularity": 84678,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "Ainu languages"
+    },
+    {
+      "name": "Nilo-Saharan languages",
+      "aliases": [
+        "Central and Eastern Sudanic languages",
+        "Nilo-Saharan"
+      ],
+      "popularity": 85566,
+      "rarity": 0.052,
+      "tier": 1,
+      "wiki": "Nilo-Saharan languages"
+    },
+    {
+      "name": "Iroquoian languages",
+      "aliases": [
+        "iro"
+      ],
+      "popularity": 88749,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Iroquoian languages"
+    },
+    {
+      "name": "Uto-Aztecan languages",
+      "aliases": [
+        "Uto-Aztecan",
+        "Uto-Aztecan and Uto-Nahua"
+      ],
+      "popularity": 91462,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Uto-Aztecan languages"
+    },
+    {
+      "name": "Mongolic languages",
+      "aliases": [
+        "Mongolian languages",
+        "Mongolic"
+      ],
+      "popularity": 94453,
+      "rarity": 0.041,
+      "tier": 1,
+      "wiki": "Mongolic languages"
+    },
+    {
+      "name": "Australian Aboriginal languages",
+      "aliases": [
+        "Australian languages",
+        "Indigenous Australian languages"
+      ],
+      "popularity": 97464,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Australian Aboriginal languages"
+    },
+    {
+      "name": "Altaic languages",
+      "aliases": [
+        "Altaic",
+        "Transeurasian languages"
+      ],
+      "popularity": 113882,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Altaic languages"
+    },
+    {
+      "name": "Tungusic languages",
+      "aliases": [
+        "Tungusic"
+      ],
+      "popularity": 118879,
+      "rarity": 0.031,
+      "tier": 1,
+      "wiki": "Tungusic languages"
+    },
+    {
+      "name": "Niger–Congo languages",
+      "aliases": [
+        "Niger–Congo"
+      ],
+      "popularity": 148066,
+      "rarity": 0.027,
+      "tier": 1,
+      "wiki": "Niger–Congo languages"
+    },
+    {
+      "name": "Japonic languages",
+      "aliases": [
+        "Japanese–Ryukyuan",
+        "Japanese-Ryukyuan languages",
+        "Japonic"
+      ],
+      "popularity": 164760,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Japonic languages"
+    },
+    {
+      "name": "Austroasiatic languages",
+      "aliases": [
+        "Austro-Asiatic languages",
+        "Austroasiatic"
+      ],
+      "popularity": 227141,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Austroasiatic languages"
+    },
+    {
+      "name": "Dravidian languages",
+      "aliases": [
+        "Dravidian",
+        "Tamulic"
+      ],
+      "popularity": 299768,
+      "rarity": 0.017,
+      "tier": 1,
+      "wiki": "Dravidian languages"
+    },
+    {
+      "name": "Afroasiatic languages",
+      "aliases": [
+        "afa",
+        "Afrasan",
+        "Afrasan languages",
+        "Afrasian",
+        "Afrasian languages",
+        "African-Asiatic",
+        "African-Asiatic languages",
+        "Afro Asiatic",
+        "Afro-Asiatic languages",
+        "Afroasiatic",
+        "Chamito-Semitic",
+        "Hamito-Semitic",
+        "Hamito-Semitic languages",
+        "Lisramic",
+        "Semito-Hamitic languages"
+      ],
+      "popularity": 356136,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Afroasiatic languages"
+    },
+    {
+      "name": "Turkic languages",
+      "aliases": [
+        "trk",
+        "Turkic"
+      ],
+      "popularity": 360344,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Turkic languages"
+    },
+    {
+      "name": "Uralic languages",
+      "aliases": [
+        "Finno-Samoyedic",
+        "Uralian",
+        "Uralic"
+      ],
+      "popularity": 390762,
+      "rarity": 0.007,
+      "tier": 1,
+      "wiki": "Uralic languages"
+    },
+    {
+      "name": "Albanian language",
+      "aliases": [
+        "Albanian",
+        "Shqip"
+      ],
+      "popularity": 414506,
+      "rarity": 0.003,
+      "tier": 1,
+      "wiki": "Albanian language"
+    },
+    {
+      "name": "Indo-European languages",
+      "aliases": [
+        "Graeco-Aryan languages",
+        "Indo-Anatolian languages",
+        "Indo-European",
+        "Indo-European language family",
+        "Indo-Germanic languages",
+        "Indo-Hittite languages",
+        "Japhetic languages"
+      ],
+      "popularity": 1072598,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Indo-European languages"
+    }
+  ]
+}
