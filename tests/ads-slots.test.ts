@@ -337,7 +337,11 @@ describe('reserved ads outside the game', () => {
     expect(css).toContain('@media (min-width: 1440px)');
     expect(css).toContain('width: calc(100% - 384px)');
     expect(css).toContain('position: sticky');
-    expect(css).toContain('108px + env(safe-area-inset-bottom');
-    expect(css).toContain('148px + env(safe-area-inset-bottom');
+    // Tight anchor bar (2026-11-15): unit height + 12px — 50+12 mobile, 90+12 desktop.
+    // Body padding must reserve exactly the bar height so nothing is covered.
+    expect(css).toContain('height: calc(62px + env(safe-area-inset-bottom');
+    expect(css).toContain('padding-bottom: calc(62px + env(safe-area-inset-bottom');
+    expect(css).toContain('height: calc(102px + env(safe-area-inset-bottom');
+    expect(css).toContain('padding-bottom: calc(102px + env(safe-area-inset-bottom');
   });
 });
