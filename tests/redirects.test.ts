@@ -2,6 +2,9 @@ import { existsSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { expect, test } from 'vitest';
 
+// This site removed the template's GitHub workflows; setup.yml parity checks only apply when it exists.
+const HAS_SETUP_YML = existsSync(new URL('../.github/workflows/setup.yml', import.meta.url));
+
 /**
  * public/_redirects was the demo landing storefront's 301 list (handbook
  * slug renames, /zh and /en guesses, root → /zh/landing/). This fork removed
@@ -17,7 +20,7 @@ test('the landing redirect file is gone', () => {
   expect(existsSync(`${repoRoot}public/_redirects`)).toBe(false);
 });
 
-test('fork initialization removes the file on both channels (CLI + setup.yml)', () => {
+test.skipIf(!HAS_SETUP_YML)('fork initialization removes the file on both channels (CLI + setup.yml)', () => {
   const cli = readFileSync(`${repoRoot}scripts/apply-template.ts`, 'utf8');
   expect(cli).toMatch(/'public\/_redirects'/);
   const yml = readFileSync(`${repoRoot}.github/workflows/setup.yml`, 'utf8');
@@ -31,7 +34,7 @@ test('fork initialization removes the file on both channels (CLI + setup.yml)', 
   expect(demoStep).not.toContain('public/_redirects');
 });
 
-test('fork initialization deletes src/pages/demo.astro on both channels — and never RootGateway.astro', () => {
+test.skipIf(!HAS_SETUP_YML)('fork initialization deletes src/pages/demo.astro on both channels — and never RootGateway.astro', () => {
   const cli = readFileSync(`${repoRoot}scripts/apply-template.ts`, 'utf8');
   expect(cli).toMatch(/'src\/pages\/demo\.astro'/);
   const yml = readFileSync(`${repoRoot}.github/workflows/setup.yml`, 'utf8');

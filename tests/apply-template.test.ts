@@ -73,6 +73,9 @@ import {
   PRESET_ONLY_CATEGORIES,
 } from '../src/config/navigation';
 
+// This site removed the template's GitHub workflows; setup.yml parity checks only apply when it exists.
+const HAS_SETUP_YML = existsSync(new URL('../.github/workflows/setup.yml', import.meta.url));
+
 const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 function makeInput(overrides: Partial<SkinInput> = {}): SkinInput {
@@ -574,7 +577,7 @@ describe('buildScaffoldDescription (scaffold must satisfy the 40-165 schema for 
 });
 
 describe('demo asset inventories stay in sync with setup.yml (drift has shipped before)', () => {
-  test('image inventories stay in the setup rm list; public config uses the content-aware script', () => {
+  test.skipIf(!HAS_SETUP_YML)('image inventories stay in the setup rm list; public config uses the content-aware script', () => {
     const yml = readFileSync(join(repoRoot, '.github/workflows/setup.yml'), 'utf8');
     const listed = new Set(yml.match(/[\w-]+\.png/g) || []);
     const demoImages = new Set([
@@ -898,7 +901,7 @@ describe('demo article clearing is content-aware (re-runs must keep user work)',
     expect(out.demo).toHaveLength(0);
   });
 
-  test('setup.yml clears articles via the content-aware script (never a blanket find -delete)', () => {
+  test.skipIf(!HAS_SETUP_YML)('setup.yml clears articles via the content-aware script (never a blanket find -delete)', () => {
     const yml = readFileSync(join(repoRoot, '.github/workflows/setup.yml'), 'utf8');
     expect(yml).not.toContain('find src/content/wiki');
     expect(yml).toContain('scripts/clear-demo-content.ts');
@@ -924,7 +927,7 @@ describe('setup.yml demo-author removal still matches the real authors.ts', () =
   // changes shape, the regex silently no-ops and the fork ships the demo
   // author. This contract runs the ACTUAL pattern from setup.yml against the
   // ACTUAL authors.ts, so either side drifting goes red here.
-  test('the inline python regex removes exactly the demo block, byte-preserving the rest', () => {
+  test.skipIf(!HAS_SETUP_YML)('the inline python regex removes exactly the demo block, byte-preserving the rest', () => {
     const yml = readFileSync(join(repoRoot, '.github/workflows/setup.yml'), 'utf8');
     const literal = yml.match(/re\.sub\(r"((?:[^"\\]|\\.)*)", '\\n', s\)/);
     expect(literal, 'setup.yml demo-author re.sub literal not found — step rewritten?').toBeTruthy();
@@ -1410,7 +1413,7 @@ describe('stripDemoAuthors — the CLI authors.ts regex (real-file contract + se
     expect(stripDemoAuthors(stripped.cleaned).changed).toBe(false);
   });
 
-  test('the CLI regex output equals the setup.yml python re.sub output (no channel drift)', () => {
+  test.skipIf(!HAS_SETUP_YML)('the CLI regex output equals the setup.yml python re.sub output (no channel drift)', () => {
     const yml = readFileSync(join(repoRoot, '.github/workflows/setup.yml'), 'utf8');
     const literal = yml.match(/re\.sub\(r"((?:[^"\\]|\\.)*)", '\\n', s\)/);
     expect(literal, 'setup.yml demo-author re.sub literal not found — step rewritten?').toBeTruthy();

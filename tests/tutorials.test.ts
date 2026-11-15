@@ -1,3 +1,4 @@
+import { existsSync } from 'node:fs';
 /**
  * Tutorials line contract (src/content/tutorials/{en,zh}/*.md).
  *
@@ -30,6 +31,9 @@ import {
   tutorialPath,
   type TutorialLike,
 } from '~/lib/landing-tutorials';
+
+// This site removed the template's GitHub workflows; setup.yml parity checks only apply when it exists.
+const HAS_SETUP_YML = existsSync(new URL('../.github/workflows/setup.yml', import.meta.url));
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const TUTORIALS_DIR = path.resolve(ROOT, 'src/content/tutorials');
@@ -255,7 +259,7 @@ describe('lib/landing-tutorials pure functions', () => {
 describe('tutorials: fork-removal three-channel sync', () => {
   const read = (rel: string) => fs.readFileSync(path.resolve(ROOT, rel), 'utf8');
 
-  it('src/content/tutorials is registered in all three removal channels', () => {
+  it.skipIf(!HAS_SETUP_YML)('src/content/tutorials is registered in all three removal channels', () => {
     // apply-template LANDING_PATHS / setup.yml rm line / e2e absence
     // assertions — forgetting any one channel leaves the marketing content
     // behind in forks (v2.31.1-class drift).
@@ -264,7 +268,7 @@ describe('tutorials: fork-removal three-channel sync', () => {
     expect(read('scripts/e2e-apply-template.mjs')).toContain('src/content/tutorials');
   });
 
-  it('the tutorials routes + lib are covered by the directory-level channels', () => {
+  it.skipIf(!HAS_SETUP_YML)('the tutorials routes + lib are covered by the directory-level channels', () => {
     // The four route paths live under src/pages/landing{,/zh} directories
     // already listed in LANDING_PATHS; the setup.yml rm line lists them
     // explicitly — pin the explicit forms so a future edit cannot drop them.
@@ -279,7 +283,7 @@ describe('tutorials: fork-removal three-channel sync', () => {
     }
   });
 
-  it('RootGateway is never listed for removal (survive pin echo)', () => {
+  it.skipIf(!HAS_SETUP_YML)('RootGateway is never listed for removal (survive pin echo)', () => {
     // tests/redirects.test.ts owns the survive pin; this echoes it for the
     // tutorials channels so a copy-paste edit cannot drag the component in.
     // The quoted form is what a removal list entry would look like.
