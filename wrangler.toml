@@ -43,8 +43,8 @@ PUBLIC_PLAUSIBLE_SRC = "https://plausible.io/js/pa-jGVDCe_47QOLAY8mGpGII.js"
 #PUBLIC_ADSENSE_SLOT_STICKY = ""
 #PUBLIC_ADSENSE_SLOT_SIDEBAR = ""
 #PUBLIC_ADSENSE_SLOT_INCONTENT = ""
-# Preview reserved positions without any ad-network requests.
-PUBLIC_AD_PLACEHOLDERS = "true"
+# Turned off with the house ads; set back to "true" to preview reserved positions.
+PUBLIC_AD_PLACEHOLDERS = "false"
 # Fixed shell positions: left/right 160x600; bottom desktop 728x90 / mobile 320x50.
 #PUBLIC_ADSENSE_SLOT_RAIL_LEFT = ""
 #PUBLIC_ADSENSE_SLOT_RAIL_RIGHT = ""

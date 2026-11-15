@@ -1,4 +1,8 @@
+// HIDDEN 2026-11-15 by owner request — to re-enable, uncomment these entries
+// Uncomment the preserved import and creative helper along with the placements.
+/*
 import en from '~/locales/en.json';
+*/
 
 /** First-party, static creative. Network IDs belong in env, never here. */
 export type HouseAdPlacement = 'rail-left' | 'rail-right' | 'anchor';
@@ -24,6 +28,7 @@ export interface HouseAd {
 
 export type HouseAds = Readonly<Partial<Record<HouseAdPlacement, HouseAd>>>;
 
+/*
 function creative(stem: string, width: number, height: number): HouseAdImage {
   const base = `/images/promos/${stem}`;
   return {
@@ -34,9 +39,12 @@ function creative(stem: string, width: number, height: number): HouseAdImage {
     height,
   };
 }
+*/
 
-/** Remove a placement entry to disable its house-ad fallback. */
+/** Comment out a placement entry to disable its house-ad fallback. */
 export const HOUSE_ADS: HouseAds = {
+  // HIDDEN 2026-11-15 by owner request — to re-enable, uncomment these entries
+  /*
   'rail-left': {
     href: 'https://fivoraco.com/house/20-christmas-gift-ideas/',
     images: {
@@ -62,4 +70,5 @@ export const HOUSE_ADS: HouseAds = {
     ...en.houseAds.synthpulse,
     sponsored: true,
   },
+  */
 };

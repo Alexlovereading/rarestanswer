@@ -5,7 +5,8 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { runInNewContext } from 'node:vm';
 import { build } from 'esbuild';
 import { describe, expect, test } from 'vitest';
-import { HOUSE_ADS, type HouseAds } from '../src/config/house-ads';
+import { HOUSE_ADS, type HouseAdImage, type HouseAds } from '../src/config/house-ads';
+import en from '../src/locales/en.json';
 import {
   configuredAdSenseClient,
   requiresAdConsent,
@@ -84,6 +85,42 @@ const preview = { PUBLIC_AD_PLACEHOLDERS: 'true' };
 const shell = 'src/components/ads/SiteAds.astro';
 const head = 'src/components/ads/AdLayoutHead.astro';
 const anchorFile = 'src/components/ads/MobileAnchorAd.astro';
+
+// Keep enabled-house-ad coverage independent of the owner's shipped on/off choice.
+function fixtureCreative(stem: string, width: number, height: number): HouseAdImage {
+  const base = `/images/promos/${stem}`;
+  return {
+    src: `/images/promos/${stem}-${width}x${height}.webp`,
+    srcSet: `${base}-${width}x${height}.webp 1x, ${base}-${width * 2}x${height * 2}.webp 2x`,
+    avifSrcSet: `${base}-${width}x${height}.avif 1x, ${base}-${width * 2}x${height * 2}.avif 2x`,
+    width,
+    height,
+  };
+}
+
+const houseAdsFixture: HouseAds = {
+  'rail-left': {
+    href: 'https://fivoraco.com/house/20-christmas-gift-ideas/',
+    images: { desktop: fixtureCreative('christmas-gifts', 160, 600) },
+    ...en.houseAds.christmas,
+    sponsored: true,
+  },
+  'rail-right': {
+    href: 'https://join.trendndailyofficial.com/aff_c?offer_id=16783&aff_id=2130',
+    images: { desktop: fixtureCreative('gift-card', 160, 600) },
+    ...en.houseAds.giftCard,
+    sponsored: true,
+  },
+  anchor: {
+    href: 'https://synthpulseai.com/',
+    images: {
+      desktop: fixtureCreative('ai-music', 728, 90),
+      mobile: fixtureCreative('ai-music', 320, 50),
+    },
+    ...en.houseAds.synthpulse,
+    sponsored: true,
+  },
+};
 
 function classList(initial: string[] = []) {
   const values = new Set(initial);
@@ -197,6 +234,37 @@ function runtime(
 }
 
 describe('reserved ads outside the game', () => {
+  test('shipped house config and wrangler vars render no ad shell or layout reservation', async () => {
+    const vars = read('wrangler.toml').match(/(?:^|\n)\[vars\]\r?\n([\s\S]*?)(?=\r?\n\[|$)/)![1];
+    const env: AdEnv = Object.fromEntries(
+      [...vars.matchAll(/^(PUBLIC_\w+)\s*=\s*"([^"]*)"\s*$/gm)].map((match) => [
+        match[1],
+        match[2],
+      ]),
+    );
+    expect(HOUSE_ADS).toEqual({});
+    expect(env.PUBLIC_AD_PLACEHOLDERS).toBe('false');
+    for (const placement of ['left', 'right', 'desktop', 'mobile'] as const) {
+      expect(resolvePlacement(env, placement).provider).toBe('none');
+      expect(
+        (await render('src/components/ads/ReservedAdSlot.astro', env, { placement })).trim(),
+      ).toBe('');
+    }
+    for (const file of [shell, head, anchorFile]) {
+      expect((await render(file, env, { siteWide: true })).trim()).toBe('');
+    }
+    const html = await render(
+      'src/components/layout/BaseLayout.astro',
+      env,
+      { title: 'Test', description: 'Test', locale: 'en' },
+      { default: '<main id="main">Normal content</main>' },
+    );
+    expect(html).toContain('<main id="main">Normal content</main>');
+    expect(html).not.toMatch(
+      /site-anchor-ad|site-ad-rail|has-site-ad|data-ad-anchor|data-site-ad|Advertisement|Sponsored|fivoraco|trendndailyofficial|synthpulseai|padding-bottom|100% - 384px/,
+    );
+  });
+
   test('disabled house ads, empty env and placeholders=false render no shell or network code', async () => {
     const env = { PUBLIC_AD_PLACEHOLDERS: 'false' };
     for (const file of [shell, head, anchorFile])
@@ -267,6 +335,7 @@ describe('reserved ads outside the game', () => {
         default:
           '<main id="main"><section data-game-root><input aria-label="Answer"></section></main>',
       },
+      houseAdsFixture,
     );
     const game = html.match(/<section data-game-root>[\s\S]*?<\/section>/)![0];
     expect(game).not.toMatch(/data-site-ad|data-house-ad|sponsored|adsbygoogle|<iframe/);
@@ -304,7 +373,7 @@ describe('reserved ads outside the game', () => {
   });
 
   test('house ads render sponsored links, visible disclosures and local dimensioned art', async () => {
-    const html = await render(shell, { PUBLIC_AD_PLACEHOLDERS: 'true' });
+    const html = await render(shell, preview, {}, {}, houseAdsFixture);
     expect(html.match(/data-ad-provider="house"/g)).toHaveLength(4);
     expect(html.match(/rel="sponsored noopener" target="_blank"/g)).toHaveLength(4);
     expect(html.match(/class="house-ad-sponsored">Sponsored</g)).toHaveLength(4);
@@ -319,15 +388,15 @@ describe('reserved ads outside the game', () => {
       expect(image).toMatch(/\salt(?:="")?(?=\s|>)/);
       expect(image).toContain('loading="lazy"');
     }
-    expect(Object.keys(HOUSE_ADS)).toEqual(['rail-left', 'rail-right', 'anchor']);
-    expect(HOUSE_ADS['rail-left']?.href).toBe(
+    expect(Object.keys(houseAdsFixture)).toEqual(['rail-left', 'rail-right', 'anchor']);
+    expect(houseAdsFixture['rail-left']?.href).toBe(
       'https://fivoraco.com/house/20-christmas-gift-ideas/',
     );
-    expect(HOUSE_ADS['rail-right']?.href).toBe(
+    expect(houseAdsFixture['rail-right']?.href).toBe(
       'https://join.trendndailyofficial.com/aff_c?offer_id=16783&aff_id=2130',
     );
-    expect(HOUSE_ADS.anchor?.href).toBe('https://synthpulseai.com/');
-    for (const ad of Object.values(HOUSE_ADS)) {
+    expect(houseAdsFixture.anchor?.href).toBe('https://synthpulseai.com/');
+    for (const ad of Object.values(houseAdsFixture)) {
       for (const image of Object.values(ad.images)) {
         expect(existsSync(join(root, 'public', image.src))).toBe(true);
         for (const srcSet of [image.srcSet, image.avifSrcSet]) {
@@ -353,14 +422,17 @@ describe('reserved ads outside the game', () => {
         [`PUBLIC_ADSTERRA_SLOT_${adsterra}`]: 'unit',
       };
       const file = 'src/components/ads/ReservedAdSlot.astro';
-      const adsenseHtml = await render(file, env, { placement });
+      const adsenseHtml = await render(file, env, { placement }, {}, houseAdsFixture);
       expect(adsenseHtml).toContain('data-ad-provider="adsense"');
       expect(adsenseHtml).not.toContain('data-house-ad');
       env[`PUBLIC_ADSENSE_SLOT_${adsense}`] = '';
-      const adsterraHtml = await render(file, env, { placement });
+      const adsterraHtml = await render(file, env, { placement }, {}, houseAdsFixture);
       expect(adsterraHtml).toContain('data-ad-provider="adsterra"');
       expect(adsterraHtml).not.toContain('data-house-ad');
-      expect(resolvePlacement({}, placement).provider).toBe('house');
+      expect(resolvePlacement({}, placement, houseAdsFixture).provider).toBe('house');
+      expect(await render(file, {}, { placement }, {}, houseAdsFixture)).toContain(
+        'data-ad-provider="house"',
+      );
       expect(resolvePlacement(preview, placement, {}).provider).toBe('placeholder');
       expect(resolvePlacement({}, placement, {}).provider).toBe('none');
     }

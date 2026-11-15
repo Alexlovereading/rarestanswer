@@ -22,9 +22,16 @@ Rails are sticky from 1440px upward in viewports at least 812px tall (so the ful
 
 ### Rarest Answer house ads
 
-`HOUSE_ADS` in `src/config/house-ads.ts` owns the `rail-left` (Fivoraco holiday gift guide), `rail-right` (Walmart gift card affiliate offer), and `anchor` (SynthPulse) links and local image variants under `public/images/promos/`. English headlines, sub-lines, CTA labels, and the visible **Sponsored** disclosure live in the new `houseAds` keys in `src/locales/en.json`. Change those entries to replace a promotion; remove a placement from `HOUSE_ADS` to disable its house fallback, or set the registry to `{}` to disable all house ads. With network env values empty and placeholders `"false"`, disabled positions render nothing. Configured network units continue to win for each responsive size.
+**Currently hidden (2026-11-15, owner request).** All three house ads and reserved placeholders are off; the local promo images remain on disk. To re-enable:
 
-These static units load no third-party scripts or cookies and do not wait for consent. Every promotional link opens a new tab with `rel="sponsored noopener"`; the bottom close control still works. Keep the exact 160×600 / 728×90 / 320×50 frames, decorative image alt text when HTML repeats the message, and a visible Sponsored label. Only use owner-verified copy: no gift count for Fivoraco, no amount or free/win/claim/guarantee wording or brand artwork for the Walmart offer.
+1. Uncomment the preserved import, creative helper, and placement entries in `src/config/house-ads.ts`.
+2. Optionally set `PUBLIC_AD_PLACEHOLDERS = "true"` in `wrangler.toml` to preview any positions without a configured ad.
+
+Then run `pnpm deploy:cf`.
+
+`HOUSE_ADS` in `src/config/house-ads.ts` owns the `rail-left` (Fivoraco holiday gift guide), `rail-right` (Walmart gift card affiliate offer), and `anchor` (SynthPulse) links and local image variants under `public/images/promos/`. English headlines, sub-lines, CTA labels, and the visible **Sponsored** disclosure live in the new `houseAds` keys in `src/locales/en.json`. Change those entries to replace a promotion; comment out a placement in `HOUSE_ADS` to disable its house fallback, or set the registry to `{}` to disable all house ads. With network env values empty and placeholders `"false"`, disabled positions render nothing. Configured network units continue to win for each responsive size.
+
+When enabled, these static units load no third-party scripts or cookies and do not wait for consent. Every promotional link opens a new tab with `rel="sponsored noopener"`; the bottom close control still works. Keep the exact 160×600 / 728×90 / 320×50 frames, decorative image alt text when HTML repeats the message, and a visible Sponsored label. Only use owner-verified copy: no gift count for Fivoraco, no amount or free/win/claim/guarantee wording or brand artwork for the Walmart offer.
 
 模板内置 3 个广告位(Sticky 粘底 / Sidebar 侧栏 / InContent 文中),由 `PUBLIC_ADSENSE_CLIENT` + 3 个 slot 环境变量控制,**留空 = 不渲染,默认全关**。这个"默认关"正是为下面的时机策略设计的——站可以先干净上线,时机到了再填变量打开。
 
