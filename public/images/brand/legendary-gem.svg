@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="260" viewBox="0 0 240 260">
+    <defs><linearGradient id="gem" x2=".8" y2="1"><stop stop-color="#fff2bf"/><stop offset=".5" stop-color="#f7ca59"/><stop offset="1" stop-color="#c78b2e"/></linearGradient></defs>
+    <ellipse cx="120" cy="240" rx="70" ry="11" fill="#17113e" opacity=".2"/>
+    <path d="m120 16 86 53v102l-86 66-86-66V69Z" fill="#17113e" stroke="#f7ca59" stroke-width="3"/>
+    <path d="m120 30 74 46v88l-74 58-74-58V76Z" fill="#4938a2" stroke="#8f80de" stroke-width="2"/>
+    <path d="m76 81 88 0 27 38-71 81-71-81Z" fill="url(#gem)"/>
+    <path d="m76 81 17 38h54l17-38m-115 38h142m-98 0 27 81 27-81" fill="none" stroke="#fff2bf" stroke-width="2"/>
+    <path d="m76 81 17 38-44 0Zm71 38 44 0-71 81Z" fill="#a86523" opacity=".5"/><path d="m93 119 27 81 27-81Z" fill="#fff2bf" opacity=".6"/>
+    <path d="M178 42Q178 56 192 56Q178 56 178 70Q178 56 164 56Q178 56 178 42Z" fill="#fff2bf"/><path d="M58 171Q58 179 66 179Q58 179 58 187Q58 179 50 179Q58 179 58 171Z" fill="#f7ca59"/>
+    <path d="m109 44 11-9 11 9-11 8Z" fill="#f7ca59"/>
+  </svg>

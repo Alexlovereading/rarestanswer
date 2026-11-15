@@ -1,5 +1,7 @@
 ---
 import TierChip from './TierChip.astro';
+import { getUi } from '~/i18n/ui';
+import { defaultLocale } from '~/i18n/routing';
 import { formatRarity, formatViews, wikipediaUrl, type PromptSeo } from './copy';
 
 interface Props {
@@ -7,29 +9,28 @@ interface Props {
 }
 
 const { prompt } = Astro.props;
-const countLabel =
-  prompt.answers.length === 1 ? '1 answer' : `${prompt.answers.length} answers`;
+const labels = getUi(defaultLocale).shared.visuals;
+const countLabel = `${prompt.answers.length} ${prompt.answers.length === 1 ? labels.answerLabel : labels.answersLabel}`;
 ---
 
 <section aria-labelledby="ranked-answers">
-  <h2 id="ranked-answers" class="text-xl font-bold tracking-tight">Ranked answers</h2>
+  <h2 id="ranked-answers" class="text-xl font-bold tracking-tight">{labels.rankedAnswers}</h2>
   <div
-    class="mt-3 overflow-x-auto"
+    class="answer-ranking mt-3 overflow-x-auto"
     tabindex="0"
     role="region"
-    aria-label="Answers ranked from rarest to most common"
+    aria-label={labels.rankedRegion}
   >
     <table class="w-full min-w-[40rem] border-collapse text-sm">
       <caption class="caption-top mb-2 text-left text-sm text-muted-foreground">
-        {countLabel} to “{prompt.question}”, rarest first. A rarity of 1 is the rarest answer in this
-        prompt.
+        {labels.rankedCaption.replace('{count}', countLabel).replace('{question}', prompt.question)}
       </caption>
       <thead>
         <tr class="border-b border-border text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-          <th scope="col" class="px-3 py-2 font-semibold">Rank</th>
-          <th scope="col" class="px-3 py-2 font-semibold">Answer</th>
-          <th scope="col" class="px-3 py-2 font-semibold">Tier</th>
-          <th scope="col" class="px-3 py-2 text-right font-semibold">Rarity</th>
+          <th scope="col" class="px-3 py-2 font-semibold">{labels.rank}</th>
+          <th scope="col" class="px-3 py-2 font-semibold">{labels.answer}</th>
+          <th scope="col" class="px-3 py-2 font-semibold">{labels.tier}</th>
+          <th scope="col" class="px-3 py-2 text-right font-semibold">{labels.rarity}</th>
           <th scope="col" class="px-3 py-2 text-right font-semibold" aria-describedby="views-note">
             {prompt.viewsHeading}
           </th>
@@ -38,20 +39,20 @@ const countLabel =
       <tbody>
         {
           prompt.answers.map((answer, index) => (
-            <tr class="border-b border-border last:border-0">
-              <td class="px-3 py-2 tabular-nums text-muted-foreground">{index + 1}</td>
+            <tr class="answer-ranking__row border-b border-border last:border-0" data-tier={answer.tier}>
+              <td class="px-3 py-2 tabular-nums text-muted-foreground" data-rank={index + 1}>{index + 1}</td>
               <th scope="row" class="px-3 py-2 text-left font-medium">
                 {answer.wiki ? (
                   <a class="text-nav hover:underline" href={wikipediaUrl(answer.wiki)}>
                     {answer.name}
-                    <span class="sr-only"> on Wikipedia</span>
+                    <span class="sr-only">{labels.onWikipedia}</span>
                   </a>
                 ) : (
                   answer.name
                 )}
               </th>
               <td class="px-3 py-2">
-                <TierChip tier={answer.tier} />
+                <TierChip tier={answer.tier} art={index < 3} />
               </td>
               <td class="px-3 py-2 text-right tabular-nums">{formatRarity(answer.rarity)}</td>
               <td class="whitespace-nowrap px-3 py-2 text-right tabular-nums">

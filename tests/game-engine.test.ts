@@ -69,6 +69,12 @@ import {
   type KeyValueStore,
 } from '~/lib/game/stats';
 import { TIERS, type CategoryKey, type PromptIndexEntry } from '~/lib/game/types';
+import {
+  celebrationParticles,
+  clockVisual,
+  currentCombo,
+  scoreAtProgress,
+} from '~/lib/game/visuals';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const client = toClientPrompt(fixture);
@@ -418,9 +424,7 @@ describe('stats storage', () => {
     expect(parseStats({ ...legacy, dailyScores: 'nope' })).toBeNull();
     expect(parseStats({ ...legacy, dailyScores: [-1] })).toBeNull();
     const long = Array.from({ length: SCORE_HISTORY_LIMIT + 5 }, (_, index) => index);
-    expect(parseStats({ ...legacy, dailyScores: long })?.dailyScores).toEqual(
-      long.slice(5),
-    );
+    expect(parseStats({ ...legacy, dailyScores: long })?.dailyScores).toEqual(long.slice(5));
   });
 
   test('guess and score charts use the peak bar as full width', () => {
@@ -626,7 +630,7 @@ describe('play pages', () => {
     expect(index).toContain('HOME.title');
     expect(index).toContain('HOME.h1');
     expect(index).toContain('HOME.description');
-    expect(index).toContain('faqPageJsonLd');
+    expect(index).toContain('GameFaq');
     expect(index).toContain('videoGameJsonLd');
     const unlimitedPage = readFileSync(join(root, 'src/pages/unlimited.astro'), 'utf8');
     expect(unlimitedPage).toContain('UNLIMITED.title');
@@ -707,5 +711,47 @@ describe('live prompt catalog', () => {
         }).toMatchObject({ ordered: true });
       }
     }
+  });
+});
+
+describe('game presentation calculations', () => {
+  test('clock colors follow real remaining time and the ring stays bounded', () => {
+    expect(clockVisual(25_000, 25_000)).toEqual({ phase: 'steady', offset: 0 });
+    expect(clockVisual(10_000, 25_000)).toEqual({ phase: 'warning', offset: 60 });
+    expect(clockVisual(5_000, 25_000)).toEqual({ phase: 'urgent', offset: 80 });
+    expect(clockVisual(-1, 25_000)).toEqual({ phase: 'urgent', offset: 100 });
+    expect(clockVisual(30_000, 25_000).offset).toBe(0);
+    expect(clockVisual(null, 25_000)).toEqual({ phase: 'off', offset: 100 });
+    expect(clockVisual(Number.NaN, 0).offset).toBe(100);
+  });
+
+  test('combo counts consecutive scored prompts and resets after an unscored prompt', () => {
+    expect(currentCombo([])).toBe(0);
+    expect(currentCombo([{ tier: 6 }, { tier: 1 }, { tier: 4 }])).toBe(3);
+    expect(currentCombo([{ tier: 6 }, { tier: 0 }])).toBe(0);
+    expect(currentCombo([{ tier: 6 }, { tier: 0 }, { tier: 2 }])).toBe(1);
+  });
+
+  test('score roll lands exactly on the true score, including replay resets', () => {
+    expect(scoreAtProgress(5, 205, 0)).toBe(5);
+    expect(scoreAtProgress(5, 205, 1)).toBe(205);
+    expect(scoreAtProgress(5, 205, 0.5)).toBeGreaterThan(5);
+    expect(scoreAtProgress(205, 0, 1)).toBe(0);
+    expect(scoreAtProgress(5, 205, -1)).toBe(5);
+    expect(scoreAtProgress(5, 205, 2)).toBe(205);
+    expect(scoreAtProgress(5, 205, Number.NaN)).toBe(205);
+  });
+
+  test('bursts are tier-scaled, deterministic and bounded; a pass has no celebration', () => {
+    expect(celebrationParticles(0)).toEqual([]);
+    const common = celebrationParticles(1);
+    const legendary = celebrationParticles(6);
+    expect(legendary.length).toBeGreaterThan(common.length);
+    expect(legendary.length).toBeLessThanOrEqual(50);
+    expect(legendary).toEqual(celebrationParticles(6));
+    expect(legendary.every((particle) => particle.ribbon)).toBe(true);
+    expect(
+      legendary.every((particle) => Math.abs(particle.x) < 200 && Math.abs(particle.y) < 225),
+    ).toBe(true);
   });
 });

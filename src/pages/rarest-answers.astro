@@ -3,7 +3,7 @@
  * /rarest-answers/ — every prompt with its rarest correct answer.
  * Prompt JSON is loaded in ~/components/answers/prompts.ts.
  */
-import AnswerHub from '~/components/answers/AnswerHub.astro';
+import AnswerLobby from '~/components/home/AnswerLobby.astro';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import {
   HUB_PATH,
@@ -46,6 +46,7 @@ const jsonLd = [
   alternates={alternates}
   jsonLd={jsonLd}
   noindex={prompts.length === 0}
+  fullBleed
 >
-  <AnswerHub prompts={prompts} />
+  <AnswerLobby prompts={prompts} />
 </LocaleLayout>

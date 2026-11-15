@@ -1,0 +1,19 @@
+---
+import CategoryArt from '~/components/art/CategoryArt.astro';
+import HeroArt from '~/components/art/HeroArt.astro';
+import type { CategoryKey } from '~/lib/game/types';
+
+interface Props {
+  category?: CategoryKey;
+  compact?: boolean;
+  decorative?: boolean;
+  lazy?: boolean;
+}
+const { category, compact = false, decorative = false, lazy = false } = Astro.props;
+---
+
+<div class:list={['world-art', compact && 'world-art--compact']}>
+  {category ? <CategoryArt category={category} size={compact ? 80 : 160} decorative={decorative} /> : lazy ? (
+    <img src="/images/brand/hero-1200x675.webp" width="1200" height="675" alt="" aria-hidden="true" loading="lazy" decoding="async" />
+  ) : <HeroArt />}
+</div>

@@ -4,14 +4,19 @@
  * reads `--tier-1` … `--tier-6` (HSL components) and switches fill vs
  * tint between light and dark. The visible text is the tier name.
  */
+import TierBadge from '~/components/art/TierBadge.astro';
 import { TIERS, type Answer } from '~/lib/game/types';
 
 interface Props {
   tier: Answer['tier'];
+  art?: boolean;
 }
 
-const { tier } = Astro.props;
+const { tier, art = false } = Astro.props;
 const name = TIERS.find((row) => row.tier === tier)?.name ?? `Tier ${tier}`;
 ---
 
-<span class="tier-pill" data-tier={tier}>{name}</span>
+<span class:list={['inline-flex items-center gap-2', !art && 'tier-chip--unadorned']}>
+  {art && <TierBadge tier={tier} size={28} />}
+  <span class="tier-pill" data-tier={tier}>{name}</span>
+</span>

@@ -1,0 +1,171 @@
+---
+import { Icon } from 'astro-icon/components';
+import CategoryArt from '~/components/art/CategoryArt.astro';
+import { LOBBY, lobbySpotlights, type CatalogPrompt } from '~/lib/game/category-copy';
+import { TIERS } from '~/lib/game/types';
+interface Props {
+  catalog: readonly CatalogPrompt[];
+}
+const { catalog } = Astro.props;
+const spotlights = lobbySpotlights(catalog);
+---
+
+{
+  spotlights.length > 0 && (
+    <section aria-labelledby="spotlight-title" class="spotlight-strip" data-pagefind-body>
+      <div class="spotlight-heading">
+        <>
+          <div>
+            <>
+              <p class="eyebrow">
+                <Icon name="lucide:sparkles" aria-hidden="true" />
+                {LOBBY.spotlightKicker}
+              </p>
+              <h2 id="spotlight-title">{LOBBY.spotlightTitle}</h2>
+            </>
+          </div>
+          <p>{LOBBY.spotlightNote}</p>
+        </>
+      </div>
+      <ul>
+        {spotlights.map((prompt) => (
+          <li>
+            <a href={`/answers/${prompt.slug}/`}>
+              <span class="spotlight-art">
+                <CategoryArt category={prompt.category} size={64} decorative />
+              </span>
+              <div class="spotlight-content">
+                <p class="prompt-question">{prompt.question}</p>
+                <h3>{prompt.rare.name}</h3>
+                <span class="tier-pill" data-tier={prompt.rare.tier}>
+                  {TIERS.find((tier) => tier.tier === prompt.rare.tier)?.name}
+                </span>
+                <span class="ranking-link">
+                  {LOBBY.spotlightLink}
+                  <Icon name="lucide:arrow-right" aria-hidden="true" />
+                </span>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .spotlight-strip {
+    padding: 1.5rem;
+    border: 1px solid hsl(var(--brand) / 0.2);
+    border-radius: 1.5rem;
+    background: linear-gradient(125deg, hsl(var(--brand) / 0.07), hsl(var(--card)));
+  }
+  .spotlight-heading {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 2rem;
+    align-items: end;
+    justify-content: space-between;
+  }
+  .spotlight-heading > p {
+    max-width: 38ch;
+    color: hsl(var(--muted-foreground));
+    font-size: 0.9rem;
+  }
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: hsl(var(--brand-text));
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .eyebrow :global(svg) {
+    width: 15px;
+    height: 15px;
+  }
+  h2 {
+    margin-top: 0.35rem;
+    font-size: clamp(1.65rem, 2.7vw, 2rem);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+  ul {
+    display: grid;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    min-width: 0;
+  }
+  li a {
+    display: flex;
+    gap: 0.875rem;
+    height: 100%;
+    padding: 1rem;
+    border: 1px solid hsl(var(--border));
+    border-radius: 1rem;
+    background: hsl(var(--card));
+    transition:
+      border-color 0.2s,
+      transform 0.2s;
+  }
+  li a:hover {
+    border-color: hsl(var(--brand));
+    transform: translateY(-2px);
+  }
+  li a:focus-visible {
+    outline: 3px solid hsl(var(--brand));
+    outline-offset: 3px;
+  }
+  .spotlight-art {
+    width: 64px;
+    height: 64px;
+    flex: 0 0 64px;
+  }
+  .spotlight-content {
+    min-width: 0;
+  }
+  .prompt-question {
+    color: hsl(var(--muted-foreground));
+    font-size: 0.8rem;
+    line-height: 1.35;
+  }
+  h3 {
+    margin: 0.4rem 0 0.65rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+  .ranking-link {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 0.8rem;
+    color: hsl(var(--brand-text));
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .ranking-link :global(svg) {
+    width: 14px;
+    height: 14px;
+  }
+  @media (min-width: 850px) {
+    ul {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .spotlight-strip * {
+      animation: none !important;
+      transition: none !important;
+      transform: none !important;
+    }
+  }
+</style>

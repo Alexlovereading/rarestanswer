@@ -1,6 +1,7 @@
 /**
  * Browser controller for one [data-game-root]. Pure rules stay in the
- * sibling modules. This file is the only game code that touches the DOM.
+ * sibling modules. Presentation effects and canvas export have their own
+ * DOM helpers in effects.ts and share-card.ts.
  */
 
 import { CATEGORY_LABELS, isCategoryKey, type CategoryKey } from './categories';
@@ -73,6 +74,9 @@ import {
   type PromptResult,
 } from './stats';
 import type { PromptIndexEntry } from './types';
+import { createGameEffects } from './effects';
+import { clockVisual } from './visuals';
+import { drawShareCard } from './share-card';
 
 type Mode = ShareMode;
 type PlayAction = 'load' | 'retry' | 'start' | 'resume' | 'results' | 'empty';
@@ -188,6 +192,7 @@ export function mountGame(root: HTMLElement): void {
 function run(ui: Ui): void {
   const store = browserStore();
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const effects = createGameEffects(ui.root);
   const mode = readMode(ui.root.dataset.mode);
   const categoryAttr = ui.root.dataset.category ?? '';
   const category = isCategoryKey(categoryAttr) ? categoryAttr : '';
@@ -273,7 +278,9 @@ function run(ui: Ui): void {
   ui.copy.addEventListener('click', () => {
     void copyText(currentShareText());
   });
-  ui.download.addEventListener('click', () => downloadCard());
+  ui.download.addEventListener('click', () => {
+    void downloadCard();
+  });
   if (ui.again) {
     ui.again.addEventListener('click', () => {
       stopCountdown();
@@ -342,6 +349,15 @@ function run(ui: Ui): void {
       session.slugs = [];
     }
 
+    const entries = new Map(session.index.map((entry) => [entry.slug, entry]));
+    effects.lineup(
+      session.slugs.flatMap((slug) => {
+        const entry = entries.get(slug);
+        return entry ? [entry.category] : [];
+      }),
+    );
+    effects.score(session.score.total, false);
+    effects.combo(session.results);
     ui.count.textContent = session.slugs.length > 0 ? String(session.slugs.length) : '0';
     if (session.slugs.length === 0) {
       action = 'empty';
@@ -429,6 +445,14 @@ function run(ui: Ui): void {
       return;
     }
     const my = ++token;
+    effects.clearBurst();
+    effects.score(session.score.total, false);
+    effects.combo(session.results);
+    effects.art(
+      ui.root.querySelector('[data-game-prompt-art]'),
+      'category',
+      session.index.find((entry) => entry.slug === slug)?.category ?? '',
+    );
     showView(ui.root, 'play');
     locked = true;
     stopTimer();
@@ -458,6 +482,7 @@ function run(ui: Ui): void {
     ui.input.value = '';
     ui.question.textContent = prompt.question;
     ui.promptCat.textContent = CATEGORY_LABELS[prompt.category];
+    effects.art(ui.root.querySelector('[data-game-prompt-art]'), 'category', prompt.category);
     paintHint();
     paintSpotlight();
     paintTimer(session.noTimer ? null : liveMs);
@@ -574,7 +599,11 @@ function run(ui: Ui): void {
     const last = session.results.length >= session.slugs.length;
     ui.next.textContent = last ? PLAY.seeResults : PLAY.nextPrompt;
     ui.root.dataset.revealHit = result.tier > 0 ? 'true' : 'false';
+    effects.badge(ui.root.querySelector('[data-game-reveal-badge]'), result.tier);
     showView(ui.root, 'reveal');
+    effects.score(session.score.total);
+    effects.combo(session.results);
+    effects.burst(result.tier);
     announce(ui, result.tier === 0 ? PLAY.noPointsLive : tierLive(label, result.points));
     ui.revealTier.focus({ preventScroll: true });
     ui.next.focus({ preventScroll: true });
@@ -583,7 +612,6 @@ function run(ui: Ui): void {
   function showEnd(): void {
     finalizeStats();
     const tiers = session.results.map((row) => row.tier);
-    ui.finalScore.textContent = String(session.score.total);
     ui.cardTitle.textContent = shareHeading(
       session.mode,
       session.roundNumber,
@@ -599,6 +627,7 @@ function run(ui: Ui): void {
       }
       square.hidden = false;
       square.dataset.tier = String(tier);
+      effects.resultBadge(square, tier, index);
     });
     const grid = ui.squares[0]?.parentElement;
     if (grid) {
@@ -616,6 +645,9 @@ function run(ui: Ui): void {
     ui.sharePreview.textContent = currentShareText();
     ui.shareStatus.textContent = '';
     showView(ui.root, 'end');
+    effects.clearBurst();
+    effects.score(0, false);
+    effects.score(session.score.total);
     if (session.mode === 'daily') {
       ui.countdown.hidden = false;
       startCountdown();
@@ -700,20 +732,17 @@ function run(ui: Ui): void {
   }
 
   function paintTimer(ms: number | null): void {
+    const visual = clockVisual(ms, TIMER_MS);
+    ui.timer.dataset.phase = visual.phase;
+    ui.ring.style.strokeDashoffset = String(visual.offset);
     if (ms === null) {
-      ui.seconds.textContent = 'Off';
+      ui.seconds.textContent = PLAY.clockOff;
       ui.timer.setAttribute('aria-label', timerLabel(null));
-      ui.ring.style.strokeDashoffset = '100';
-      delete ui.ring.dataset.low;
       return;
     }
     const second = Math.ceil(ms / 1000);
     ui.seconds.textContent = String(second);
     ui.timer.setAttribute('aria-label', timerLabel(second));
-    const progress = Math.min(1, Math.max(0, ms / TIMER_MS));
-    ui.ring.style.strokeDashoffset = String(100 * (1 - progress));
-    if (second <= 5) ui.ring.dataset.low = 'true';
-    else delete ui.ring.dataset.low;
     if (second !== announcedSecond) {
       announcedSecond = second;
       if (second === 10 || second === 5) announce(ui, timerLabel(second));
@@ -755,7 +784,13 @@ function run(ui: Ui): void {
 
   function paintPlay(): void {
     const phase =
-      action === 'load' ? 'loading' : action === 'retry' ? 'error' : action === 'empty' ? 'empty' : 'ready';
+      action === 'load'
+        ? 'loading'
+        : action === 'retry'
+          ? 'error'
+          : action === 'empty'
+            ? 'empty'
+            : 'ready';
     ui.root.dataset.gamePhase = phase;
     ui.play.disabled = action === 'load' || action === 'empty';
     ui.playIcon.hidden = action === 'results' || action === 'retry' || action === 'empty';
@@ -854,20 +889,22 @@ function run(ui: Ui): void {
     }
   }
 
-  function downloadCard(): void {
-    drawShareCard(ui.canvas, {
-      title: shareHeading(
-        session.mode,
-        session.roundNumber,
-        session.category ? CATEGORY_LABELS[session.category] : undefined,
-      ),
-      score: session.score.total,
-      tiers: session.results.map((row) => row.tier),
-      spotlight: session.score.spotlightUsed,
-      noTimer: session.noTimer,
-      url: sharePageUrl(session.origin, session.mode, session.category || undefined),
-    });
-    ui.canvas.toBlob((blob) => {
+  async function downloadCard(): Promise<void> {
+    ui.download.disabled = true;
+    try {
+      await drawShareCard(ui.canvas, ui.root, {
+        title: shareHeading(
+          session.mode,
+          session.roundNumber,
+          session.category ? CATEGORY_LABELS[session.category] : undefined,
+        ),
+        score: session.score.total,
+        tiers: session.results.map((row) => row.tier),
+        spotlight: session.score.spotlightUsed,
+        noTimer: session.noTimer,
+        url: sharePageUrl(session.origin, session.mode, session.category || undefined),
+      });
+      const blob = await new Promise<Blob | null>((resolve) => ui.canvas.toBlob(resolve));
       if (!blob) {
         ui.shareStatus.textContent = PLAY.imageFailed;
         return;
@@ -882,7 +919,11 @@ function run(ui: Ui): void {
       URL.revokeObjectURL(url);
       ui.shareStatus.textContent = PLAY.downloaded;
       announce(ui, PLAY.downloaded);
-    });
+    } catch {
+      ui.shareStatus.textContent = PLAY.imageFailed;
+    } finally {
+      ui.download.disabled = false;
+    }
   }
 
   function downloadName(): string {
@@ -1091,106 +1132,10 @@ function svgEl(name: string): SVGElement {
   return document.createElementNS(SVG_NS, name);
 }
 
-function drawShareCard(
-  canvas: HTMLCanvasElement,
-  card: {
-    title: string;
-    score: number;
-    tiers: number[];
-    spotlight: boolean;
-    noTimer: boolean;
-    url: string;
-  },
-): void {
-  const ctx = canvas.getContext('2d');
-  if (!ctx) return;
-  const width = canvas.width;
-  const height = canvas.height;
-  ctx.clearRect(0, 0, width, height);
-  ctx.fillStyle = hslFromToken('--background');
-  ctx.fillRect(0, 0, width, height);
-  ctx.fillStyle = hslFromToken('--brand');
-  ctx.fillRect(0, 0, width, 18);
-  ctx.fillStyle = hslFromToken('--foreground');
-  ctx.font = '700 56px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
-  ctx.fillText(PLAY.wordmark, 64, 110);
-  ctx.fillStyle = hslFromToken('--muted-foreground');
-  ctx.font = '500 28px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
-  ctx.fillText(card.title, 64, 158);
-  const flags = [card.spotlight ? PLAY.spotlightUsed : '', card.noTimer ? PLAY.noTimer : '']
-    .filter(Boolean)
-    .join(' · ');
-  if (flags) {
-    ctx.font = '500 22px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
-    ctx.fillText(flags, 64, 198);
-  }
-  ctx.fillStyle = hslFromToken('--foreground');
-  ctx.font = '700 108px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
-  const scoreText = String(card.score);
-  ctx.fillText(scoreText, 64, 330);
-  const scoreWidth = ctx.measureText(scoreText).width;
-  ctx.fillStyle = hslFromToken('--muted-foreground');
-  ctx.font = '500 28px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
-  ctx.fillText(PLAY.pointsWord, 64 + scoreWidth + 20, 330);
-
-  const size = 56;
-  const gap = 14;
-  const count = Math.max(card.tiers.length, 1);
-  const total = count * size + Math.max(0, count - 1) * gap;
-  let x = (width - total) / 2;
-  for (const tier of card.tiers) {
-    ctx.fillStyle = tier === 0 ? hslFromToken('--muted') : hslFromToken(`--tier-${tier}`);
-    roundRect(ctx, x, 380, size, size, 12);
-    x += size + gap;
-  }
-
-  ctx.fillStyle = hslFromToken('--muted-foreground');
-  ctx.font = '500 24px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
-  ctx.fillText(PLAY.tagline, 64, 500);
-  const legend = [1, 2, 3, 4, 5, 6];
-  const cell = (width - 128) / legend.length;
-  legend.forEach((tier, index) => {
-    const left = 64 + index * cell;
-    ctx.fillStyle = hslFromToken(`--tier-${tier}`);
-    roundRect(ctx, left, 528, 18, 18, 4);
-    ctx.fillStyle = hslFromToken('--foreground');
-    ctx.font = '500 18px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
-    ctx.fillText(tierName(tier), left + 26, 543);
-  });
-  let host = card.url;
-  try {
-    host = new URL(card.url).host;
-  } catch {
-    host = card.url;
-  }
-  ctx.fillStyle = hslFromToken('--muted-foreground');
-  ctx.font = '500 22px "Source Sans 3", ui-sans-serif, system-ui, sans-serif';
-  ctx.fillText(host, 64, height - 36);
-  ctx.strokeStyle = hslFromToken('--border');
-  ctx.lineWidth = 4;
-  ctx.strokeRect(2, 2, width - 4, height - 4);
-}
-
-function roundRect(
-  ctx: CanvasRenderingContext2D,
-  x: number,
-  y: number,
-  w: number,
-  h: number,
-  radius: number,
-): void {
-  ctx.beginPath();
-  if (typeof ctx.roundRect === 'function') ctx.roundRect(x, y, w, h, radius);
-  else ctx.rect(x, y, w, h);
-  ctx.fill();
-}
-
-function hslFromToken(name: string, lightness?: number): string {
-  const raw = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-  const parts = raw.split(/\s+/);
-  if (parts.length < 3) return 'hsl(0, 0%, 45%)';
-  const light = lightness === undefined ? parts[2] : `${lightness}%`;
-  return `hsl(${parts[0]}, ${parts[1]}, ${light})`;
+function hslFromToken(name: string): string {
+  const css = getComputedStyle(document.documentElement);
+  const raw = css.getPropertyValue(name).trim();
+  return raw ? `hsl(${raw})` : css.color;
 }
 
 function randomSeed(): number {
@@ -1304,7 +1249,9 @@ function mustAll(root: ParentNode, selector: string): HTMLElement[] {
 }
 
 function mustButtons(root: ParentNode, selector: string): HTMLButtonElement[] {
-  const nodes = [...root.querySelectorAll(selector)].filter((node) => node instanceof HTMLButtonElement);
+  const nodes = [...root.querySelectorAll(selector)].filter(
+    (node) => node instanceof HTMLButtonElement,
+  );
   if (nodes.length === 0) throw new Error(selector);
   return nodes;
 }

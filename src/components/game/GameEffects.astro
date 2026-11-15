@@ -1,0 +1,333 @@
+<div data-game-particles class="ra-particles" aria-hidden="true"></div>
+
+<style is:global>
+  .game-shell {
+    isolation: isolate;
+  }
+  .game-shell [data-game-view] {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    border-color: hsl(var(--brand) / 0.24);
+    box-shadow:
+      0 18px 52px -32px hsl(var(--brand) / 0.4),
+      inset 0 1px 0 hsl(var(--background) / 0.7);
+  }
+  .game-shell [data-game-view]::before {
+    position: absolute;
+    z-index: -1;
+    inset: -30%;
+    pointer-events: none;
+    content: '';
+    opacity: 0.7;
+    background:
+      radial-gradient(ellipse at 15% 20%, hsl(var(--brand) / 0.1), transparent 40%),
+      radial-gradient(ellipse at 80% 70%, hsl(var(--tier-6) / 0.07), transparent 35%);
+    animation: ra-ambient 16s ease-in-out infinite alternate;
+  }
+  .game-shell [data-game-view][hidden] {
+    display: none;
+  }
+  .game-shell .ra-lobby-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 116px;
+    align-items: center;
+    min-height: 96px;
+  }
+  .game-shell .ra-lobby-hero {
+    height: 96px;
+    width: 116px;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .game-shell .ra-lobby-hero > * {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .game-shell .ra-lineup {
+    display: flex;
+    justify-content: center;
+    gap: clamp(0.25rem, 1vw, 0.65rem);
+    height: 62px;
+    margin: 0.25rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .game-shell .ra-lineup-item {
+    width: 42px;
+    min-width: 0;
+    text-align: center;
+  }
+  .game-shell .ra-lineup-art {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid hsl(var(--brand) / 0.15);
+    border-radius: 0.75rem;
+    background: hsl(var(--brand) / 0.04);
+  }
+  .game-shell .ra-lineup-number {
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: hsl(var(--muted-foreground));
+  }
+  .game-shell .ra-lineup-art :is(svg, img),
+  .game-shell [data-game-prompt-art] :is(svg, img),
+  .game-shell [data-game-reveal-badge] :is(svg, img),
+  .game-shell .ra-result-badge :is(svg, img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .game-shell .ra-prompt-heading {
+    position: relative;
+    margin-top: 1rem;
+  }
+  .game-shell [data-game-prompt-cat] {
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    padding-right: 50px;
+  }
+  .game-shell [data-game-question] {
+    min-height: 8rem;
+  }
+  .game-shell [data-game-prompt-art] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+  }
+  .game-shell .ra-play-score {
+    display: flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    font-size: 0.75rem;
+    color: hsl(var(--muted-foreground));
+  }
+  .game-shell .ra-play-score [data-game-running-score] {
+    font-size: 1.35rem;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    color: hsl(var(--foreground));
+  }
+  .game-shell .ra-combo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    min-height: 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: hsl(var(--muted-foreground));
+  }
+  .game-shell .ra-combo[data-active='true'] {
+    color: hsl(var(--tier-6));
+  }
+  .game-shell .ra-combo[data-active='true'] .ra-combo-flame {
+    transform-origin: center bottom;
+    animation: ra-flame 0.9s ease-in-out infinite alternate;
+  }
+  .game-shell .ra-reveal-heading {
+    display: grid;
+    grid-template-columns: 104px minmax(0, 1fr);
+    align-items: center;
+    gap: 1rem;
+  }
+  .game-shell [data-game-reveal-badge] {
+    position: relative;
+    width: 104px;
+    height: 104px;
+  }
+  .game-shell [data-game-reveal-badge][data-tier='0']::after {
+    content: '–';
+    position: absolute;
+    inset: 12px;
+    display: grid;
+    place-items: center;
+    border: 1px dashed hsl(var(--border));
+    border-radius: 50%;
+    font-size: 2rem;
+    color: hsl(var(--muted-foreground));
+  }
+  .game-shell .ra-reveal-in [data-game-reveal-badge] {
+    animation: ra-badge-flip 620ms cubic-bezier(0.18, 0.8, 0.3, 1) both;
+  }
+  .game-shell .ra-reveal-in [data-game-reveal-badge]::before {
+    position: absolute;
+    z-index: -1;
+    inset: -10px;
+    border-radius: 50%;
+    content: '';
+    background: radial-gradient(circle, hsl(var(--tier-6) / 0.2), transparent 68%);
+    animation: ra-badge-halo 800ms ease-out both;
+  }
+  .game-shell .ra-result-card {
+    position: relative;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    border: 1px solid hsl(var(--tier-6) / 0.4);
+    background:
+      radial-gradient(ellipse at 90% 5%, hsl(var(--tier-6) / 0.12), transparent 48%),
+      hsl(var(--background));
+    box-shadow: inset 0 0 0 5px hsl(var(--brand) / 0.04);
+  }
+  .game-shell .ra-result-card .ra-share-bar {
+    margin: -1.25rem -1.25rem 1rem;
+    background: linear-gradient(90deg, hsl(var(--brand)), hsl(var(--tier-6)));
+  }
+  .game-shell .ra-result-grid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 0.25rem;
+    min-height: 66px;
+  }
+  .game-shell .ra-result-badge {
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    padding-bottom: 1rem;
+    box-sizing: content-box;
+  }
+  .game-shell .ra-result-badge[hidden] {
+    display: none;
+  }
+  .game-shell .ra-result-badge[data-tier='0']::before {
+    position: absolute;
+    inset: 12% 12% 35%;
+    content: '';
+    border: 1px dashed hsl(var(--border));
+    border-radius: 50%;
+  }
+  .game-shell .ra-result-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: hsl(var(--muted-foreground));
+  }
+  .game-shell .ra-end-in .ra-result-badge {
+    animation: ra-badge-flip 540ms ease both;
+  }
+  .game-shell .ra-end-in .ra-result-badge:nth-child(2n) {
+    animation-delay: 80ms;
+  }
+  .game-shell .ra-end-in .ra-result-badge:nth-child(3n) {
+    animation-delay: 160ms;
+  }
+  .game-shell .ra-particles {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 88px;
+    width: 1px;
+    height: 1px;
+    pointer-events: none;
+  }
+  .game-shell .ra-particle {
+    position: absolute;
+    display: block;
+    width: var(--ra-size);
+    height: var(--ra-size);
+    border-radius: 50%;
+    background: hsl(var(--ra-burst-color));
+    opacity: 0;
+    animation: ra-confetti 900ms var(--ra-delay) ease-out both;
+  }
+  .game-shell .ra-particle-ribbon {
+    border-radius: 1px;
+    height: calc(var(--ra-size) * 1.8);
+  }
+  .game-shell [data-game-timer] {
+    --ra-clock: var(--brand);
+  }
+  .game-shell [data-game-timer][data-phase='warning'] {
+    --ra-clock: var(--tier-6);
+  }
+  .game-shell [data-game-timer][data-phase='urgent'] {
+    --ra-clock: var(--tier-5);
+  }
+  .game-shell [data-game-timer] .ra-ring-value {
+    stroke: hsl(var(--ra-clock));
+    transition:
+      stroke 300ms,
+      stroke-dashoffset 100ms linear;
+  }
+  .game-shell [data-game-timer][data-phase='urgent'] {
+    animation: ra-clock-pulse 1s ease-in-out infinite;
+  }
+  @keyframes ra-ambient {
+    to {
+      transform: translate3d(3%, 3%, 0) rotate(8deg);
+    }
+  }
+  @keyframes ra-flame {
+    to {
+      transform: scaleY(1.15) rotate(-6deg);
+    }
+  }
+  @keyframes ra-clock-pulse {
+    50% {
+      filter: drop-shadow(0 0 5px hsl(var(--ra-clock) / 0.45));
+    }
+  }
+  @keyframes ra-badge-flip {
+    from {
+      opacity: 0;
+      transform: perspective(400px) rotateY(-85deg) scale(0.65);
+    }
+    65% {
+      opacity: 1;
+      transform: perspective(400px) rotateY(12deg) scale(1.06);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes ra-badge-halo {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    45% {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      transform: scale(1.7);
+    }
+  }
+  @keyframes ra-confetti {
+    0% {
+      opacity: 0;
+      transform: translate(0, 0) rotate(0) scale(0);
+    }
+    12% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(var(--ra-x), calc(var(--ra-y) + 70px)) rotate(var(--ra-spin)) scale(0.7);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .game-shell *,
+    .game-shell *::before,
+    .game-shell *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+    .game-shell .ra-particles {
+      display: none;
+    }
+  }
+</style>

@@ -1,0 +1,156 @@
+---
+import type { Answer } from '../../lib/game/types';
+
+interface Props {
+  tier: Answer['tier'];
+  size?: number;
+}
+
+const { tier, size = 64 } = Astro.props;
+const dimension = Number.isFinite(size) && size > 0 ? size : 64;
+---
+
+{/* Decorative: the surrounding HTML must name the tier and its points. */}
+<span
+  class:list={['tier-badge', { 'tier-badge--legendary': tier === 6 }]}
+  style={`--badge-color: var(--tier-${tier}); width: ${dimension}px;`}
+  aria-hidden="true"
+>
+  <svg width={dimension} height={dimension} viewBox="0 0 120 120" fill="none" focusable="false">
+    {
+      tier >= 3 && (
+        <path class="badge-ribbon" d="m34 74-12 30 22-5 15 13 2-32m25-6 12 30-22-5-15 13-2-32" />
+      )
+    }
+    {
+      tier >= 5 && (
+        <path
+          class="badge-laurel"
+          d="M27 91C9 76 8 51 22 32M18 75 7 65l11-2M16 58 8 45l13 3m74 43c18-15 19-40 5-59m4 43 11-10-11-2m2-5 8-13-13 3"
+        />
+      )
+    }
+    <path
+      class="badge-frame"
+      d={tier === 1 ? 'm60 18 36 23v43l-36 22-36-22V41Z' : 'm60 10 44 27v49l-44 28-44-28V37Z'}
+    ></path>
+    {tier >= 2 && <path class="badge-inset" d="m60 18 36 23v40l-36 24-36-24V41Z" />}
+    {tier >= 4 && <path class="badge-crown" d="m42 27-5-17 15 8 8-15 8 15 15-8-5 17Z" />}
+    <path class="badge-gem" d="m40 43 40 0 14 21-34 32-34-32Z"></path>
+    <path class="badge-facet-dark" d="m40 43 10 21-24 0Zm30 21h24L60 96Z"></path>
+    <path class="badge-facet-light" d="m40 43 40 0-10 21H50Zm10 21 10 32 10-32Z"></path>
+    <path class="badge-edges" d="m40 43 10 21h20l10-21M26 64h68M50 64l10 32 10-32"></path>
+    {tier >= 3 && <path class="badge-star" d="m60 30 3 5-3 4-3-4Z" />}
+    {
+      tier === 6 && (
+        <>
+          <>
+            <path
+              class="badge-spark"
+              d="M99 21q0 11 11 11-11 0-11 11 0-11-11-11 11 0 11-11ZM18 85q0 7 7 7-7 0-7 7 0-7-7-7 7 0 7-7Z"
+            />
+            <path class="badge-shimmer" d="m40 43 40 0-10 21H50Z" />
+          </>
+        </>
+      )
+    }
+  </svg>
+</span>
+
+<style>
+  .tier-badge {
+    display: inline-block;
+    max-width: 100%;
+    aspect-ratio: 1;
+    color: hsl(var(--badge-color));
+    vertical-align: middle;
+  }
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+  .badge-frame {
+    fill: hsl(var(--background));
+    stroke: currentColor;
+    stroke-width: 2.5;
+    stroke-linejoin: round;
+  }
+  .badge-inset {
+    fill: hsl(var(--badge-color) / 0.12);
+    stroke: hsl(var(--badge-color) / 0.35);
+  }
+  .badge-gem,
+  .badge-crown,
+  .badge-star,
+  .badge-spark {
+    fill: currentColor;
+  }
+  .badge-facet-dark {
+    fill: hsl(var(--foreground) / 0.24);
+  }
+  .badge-facet-light {
+    fill: hsl(var(--background) / 0.36);
+  }
+  .badge-edges {
+    stroke: hsl(var(--background) / 0.6);
+    stroke-width: 1;
+  }
+  .badge-ribbon {
+    fill: hsl(var(--badge-color) / 0.24);
+    stroke: hsl(var(--badge-color) / 0.65);
+    stroke-width: 1.5;
+    stroke-linejoin: round;
+  }
+  .badge-laurel {
+    stroke: hsl(var(--badge-color) / 0.65);
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .badge-shimmer {
+    fill: hsl(var(--background));
+    opacity: 0;
+    transform-origin: center;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .tier-badge--legendary .badge-shimmer {
+      animation: badge-shimmer 6s ease-in-out infinite;
+    }
+    .tier-badge--legendary .badge-spark {
+      animation: badge-spark 4s ease-in-out infinite;
+      transform-origin: center;
+    }
+  }
+  @keyframes badge-shimmer {
+    0%,
+    55%,
+    100% {
+      opacity: 0;
+    }
+    65% {
+      opacity: 0.7;
+    }
+    78% {
+      opacity: 0;
+    }
+  }
+  @keyframes badge-spark {
+    0%,
+    100% {
+      opacity: 0.55;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>

@@ -9,6 +9,7 @@ import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { homeUrl, localizePath, recentPath, tagsPath } from '~/lib/url';
 import BrandMark from '~/components/layout/BrandMark.astro';
+import CategoryArt from '~/components/art/CategoryArt.astro';
 import { Icon } from 'astro-icon/components';
 
 interface Props {
@@ -75,6 +76,14 @@ const legalLinks: Array<{ key: keyof typeof footer; path: string }> = [
 <footer class="mt-20 border-t border-border bg-muted/50">
   <div class="h-px bg-gradient-to-r from-transparent via-gold/70 to-transparent" aria-hidden="true"></div>
   <div class="mx-auto max-w-7xl px-4 py-12">
+    <nav class="footer-worlds" aria-label={footer.trivia}>
+      {triviaKeys.map((key) => (
+        <a href={localizePath(`/trivia/${key}/`, locale)} class="footer-worlds__link">
+          <CategoryArt category={key} size={48} decorative />
+          <span>{shared.categories[key]}</span>
+        </a>
+      ))}
+    </nav>
     <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
       <div>
         <a href={homeUrl(locale)} class="flex items-center gap-2 font-display text-lg font-semibold">

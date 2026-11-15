@@ -5,6 +5,7 @@
  * brand fill, so body text stays on --foreground.
  */
 import { Icon } from 'astro-icon/components';
+import TierBadge from '~/components/art/TierBadge.astro';
 import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { homeUrl } from '~/lib/url';
@@ -17,9 +18,9 @@ const cta = getUi(locale).home.closingCta;
 ---
 
 <aside class="play-cta" aria-label={cta.title}>
+  <div class="play-cta__art" aria-hidden="true"><TierBadge tier={6} size={80} /></div>
   <div class="min-w-0 flex-1">
     <p class="flex items-center gap-2 font-display text-xl font-semibold tracking-tight text-foreground">
-      <Icon name="lucide:play" class="h-5 w-5 shrink-0 text-nav" aria-hidden="true" />
       {cta.title}
     </p>
     <p class="mt-1 max-w-xl text-sm leading-relaxed text-muted-foreground">{cta.description}</p>

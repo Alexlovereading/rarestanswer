@@ -3,6 +3,9 @@ import { Icon } from 'astro-icon/components';
 import AnswerFaq from './AnswerFaq.astro';
 import AnswerTable from './AnswerTable.astro';
 import QuickAnswer from './QuickAnswer.astro';
+import RarityChart from './RarityChart.astro';
+import CategoryArt from '~/components/art/CategoryArt.astro';
+import TierBadge from '~/components/art/TierBadge.astro';
 import { categoryLabel, type PromptSeo } from './copy';
 import {
   HUB_PATH,
@@ -22,10 +25,11 @@ interface Props {
 
 const { prompt } = Astro.props;
 const ui = getUi(defaultLocale);
+const labels = ui.shared.visuals;
 const label = categoryLabel(prompt.category);
 const shown = relatedPrompts(prompt);
 const mixed = shown.some((item) => item.category !== prompt.category);
-const relatedTitle = mixed ? 'Related prompts' : `More ${label} prompts`;
+const relatedTitle = mixed ? labels.relatedPrompts : labels.morePrompts.replace('{category}', label);
 const pagefindTitle = prompt.heading.replace(/:/g, ' -');
 ---
 
@@ -42,16 +46,31 @@ const pagefindTitle = prompt.heading.replace(/:/g, ' -');
     <span class="break-words text-foreground" aria-current="page">{prompt.crumb}</span>
   </nav>
 
-  <p class="mt-4 text-sm font-semibold uppercase tracking-wider text-nav">
-    <a class="hover:underline" href={hubCategoryPath(prompt.category)}>{label}</a>
-  </p>
-  <h1 class="mt-2 text-3xl font-extrabold tracking-tight md:text-4xl">{prompt.heading}</h1>
-  <p class="mt-4 leading-relaxed">{prompt.intro}</p>
+  <header class="content-band mt-5">
+    <div class="min-w-0">
+      <p class="text-xs font-semibold uppercase tracking-[0.14em] text-nav">
+        <a class="hover:underline" href={hubCategoryPath(prompt.category)}>{label}</a>
+      </p>
+      <h1 class="mt-2 text-3xl font-extrabold tracking-tight md:text-4xl">{prompt.heading}</h1>
+      <p class="mt-4 leading-relaxed text-muted-foreground">{prompt.intro}</p>
+      <a class="btn-primary mt-5 min-h-11 gap-2" href={playPath(prompt.slug)}>
+        <Icon name="lucide:play" class="h-4 w-4" aria-hidden="true" />
+        {labels.playPrompt}
+      </a>
+    </div>
+    <div class="content-band__art">
+      <CategoryArt category={prompt.category} size={160} />
+    </div>
+  </header>
 
   <div class="mt-10">
     <QuickAnswer prompt={prompt} />
   </div>
   <p id="views-note" class="mt-3 text-sm leading-relaxed text-muted-foreground">{prompt.viewsNote}</p>
+
+  <div class="mt-8">
+    <RarityChart prompt={prompt} />
+  </div>
 
   <div class="mt-10">
     <AnswerTable prompt={prompt} />
@@ -61,22 +80,25 @@ const pagefindTitle = prompt.heading.replace(/:/g, ' -');
     <AnswerFaq items={prompt.faq} />
   </div>
 
-  <section class="mt-10" aria-labelledby="play-prompt">
-    <h2 id="play-prompt" class="text-xl font-bold tracking-tight">Play</h2>
+  <section class="play-cta prompt-play-cta mt-10" aria-labelledby="play-prompt">
+    <div class="prompt-play-cta__badge"><TierBadge tier={6} size={96} /></div>
+    <div class="min-w-0 flex-1">
+    <h2 id="play-prompt" class="text-xl font-bold tracking-tight">{labels.play}</h2>
     <p class="mt-2 text-sm leading-relaxed text-muted-foreground">
-      Unlimited mode uses this prompt. A rarer correct answer scores more.
+      {labels.playPromptNote}
     </p>
     <div class="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
       <a class="btn-primary gap-2" href={playPath(prompt.slug)}>
         <Icon name="lucide:play" class="h-4 w-4" aria-hidden="true" />
-        Play this prompt
+        {labels.playPrompt}
       </a>
       <a class="btn-outline gap-2" href={triviaPath(prompt.category)}>
         <Icon name="lucide:list" class="h-4 w-4" aria-hidden="true" />
-        {label} trivia
+        {labels.categoryTrivia.replace('{category}', label)}
       </a>
       <a class="btn-outline gap-2" href={localizePath('/games/', defaultLocale)}>{ui.nav.games}</a>
       <a class="btn-outline gap-2" href={localizePath('/guides/', defaultLocale)}>{ui.nav.guides}</a>
+    </div>
     </div>
   </section>
 
@@ -91,37 +113,40 @@ const pagefindTitle = prompt.heading.replace(/:/g, ' -');
               <li class="min-w-0">
                 <a
                   href={answerPath(item.slug)}
-                  class="card block h-full p-3 hover:border-nav/40"
+                  class="card illustrated-prompt-card h-full hover:border-nav/40"
                 >
+                  <div class="illustrated-prompt-card__art"><CategoryArt category={item.category} size={64} decorative /></div>
+                  <div class="min-w-0">
                   {mixed && (
                     <span class="text-xs font-semibold uppercase tracking-wide text-nav">
                       {categoryLabel(item.category)}
                     </span>
                   )}
-                  <span class="font-medium">{item.question}</span>
+                  <span class="block font-display text-lg font-semibold leading-snug">{item.question}</span>
                   {rare && (
                     <span class="mt-1 block text-sm text-muted-foreground">
-                      Rarest answer: {rare.name}
+                      {labels.rarestAnswer} {rare.name}
                     </span>
                   )}
+                  </div>
                 </a>
               </li>
             );
           })}
         </ul>
       ) : (
-        <p class="mt-3 text-sm text-muted-foreground">No other prompts in {label} yet.</p>
+        <p class="mt-3 text-sm text-muted-foreground">{labels.noOtherPrompts.replace('{category}', label)}</p>
       )
     }
     <p class="mt-3 text-sm">
       <a class="text-nav hover:underline" href={hubCategoryPath(prompt.category)}>
-        All {label} prompts
+        {labels.allPrompts.replace('{category}', label)}
       </a>
     </p>
   </section>
 
   <section class="mt-10" aria-labelledby="sources">
-    <h2 id="sources" class="text-xl font-bold tracking-tight">Sources</h2>
+    <h2 id="sources" class="text-xl font-bold tracking-tight">{labels.sources}</h2>
     <p class="mt-3 text-sm leading-relaxed">{prompt.sourceNote}</p>
     <ul class="mt-3 flex list-none flex-col gap-1 p-0 text-sm">
       <li>

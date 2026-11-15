@@ -10,6 +10,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CATEGORY_LABELS, isCategoryKey, type CategoryKey } from './categories';
 import { isPromptIndexEntry } from './prompts';
+import { readClientPrompt } from './load-prompts';
 import { TIMER_MS } from './score';
 import { TIERS } from './types';
 
@@ -51,6 +52,77 @@ export interface TextLink {
   label: string;
 }
 
+/** Lobby copy stays in this build-only module, outside the game bundle. */
+export const LOBBY = {
+  dailyLead: 'Many right answers. One rare find.',
+  unlimitedLead: 'A fresh round. Another chance to find the unexpected.',
+  heroCaption: 'Your niche knowledge is worth points.',
+  heroNote: 'Common to Legendary. Every correct answer gets you closer.',
+  categoryKicker: 'Find your home advantage',
+  categoryTitle: 'Pick your playground',
+  categoryNote: 'Eight categories. Follow your curiosity, or play to your strengths.',
+  spotlightKicker: 'A little inspiration',
+  spotlightTitle: "Today's spotlight",
+  spotlightNote: 'Real rare finds from the catalog. Rarity is relative to each prompt.',
+  spotlightLink: 'See the ranking',
+  howKicker: 'Ready in three moves',
+  howTitle: 'Think beyond the obvious',
+  tierKicker: 'Every answer has a level',
+  tierTitle: 'Climb the rarity ladder',
+  tierNote:
+    'The less familiar the answer, the bigger the score. One Spotlight doubles a scored prompt.',
+  browseKicker: 'Build your next brilliant guess',
+  browseTitle: 'A rabbit hole of rare answers',
+  browseNote:
+    'Explore every accepted answer, ranked from rarest to most common. Find something you will remember next round.',
+  browseLink: 'Browse the answer vault',
+  prompts: 'prompts',
+  answers: 'accepted answers',
+  points: 'points',
+  rarest: 'Rarest answer',
+  categoryRound: 'Category round',
+  catalog: 'The prompt collection',
+} as const;
+
+export const CATEGORY_HOOKS: Record<CategoryKey, string> = {
+  geography: 'Go off the map',
+  animals: 'Think beyond the familiar',
+  food: 'Serve a surprising answer',
+  sports: 'Back your specialist knowledge',
+  screen: 'Find a deep cut',
+  music: 'Skip the greatest hits',
+  science: 'Make a discovery',
+  history: 'Look beyond the headlines',
+};
+
+export const LOBBY_STEPS = [
+  {
+    icon: 'lucide:keyboard',
+    title: 'Name something that fits',
+    body: 'One prompt, many correct answers. Type a name you know and make it count.',
+  },
+  {
+    icon: 'lucide:gem',
+    title: 'Find the unexpected',
+    body: 'A less familiar answer climbs the tiers. Common scores 5; Legendary scores 100.',
+  },
+  {
+    icon: 'lucide:scan-line',
+    title: 'Reveal your rare finds',
+    body: 'Learn from the rankings, then share a result that keeps your answers a secret.',
+  },
+] as const;
+
+/** A small, real-data selection; names and tiers never live in marketing copy. */
+export function lobbySpotlights(catalog: readonly CatalogPrompt[]) {
+  return ['countries-in-africa', 'great-ape-species', 'chemical-elements'].flatMap((slug) => {
+    const entry = catalog.find((prompt) => prompt.slug === slug);
+    const prompt = entry && readClientPrompt(slug);
+    const rare = prompt?.answers[0];
+    return entry && rare ? [{ ...entry, rare }] : [];
+  });
+}
+
 export const GUIDE_LINKS: readonly TextLink[] = [
   { href: '/guides/how-to-find-rare-answers/', label: 'How to find rare answers' },
   { href: '/guides/rarest-answer-strategy/', label: 'Guess the rarest answer: strategy' },
@@ -77,7 +149,7 @@ export const UNLIMITED_TIPS =
   'Unlimited is where you practice without spending the daily streak. Turn the timer off until a more specific legal name comes easily, then turn it on. Leave the daily round for the run you want on the streak. The strategy guide is that choice in full.';
 
 export const UNLIMITED_COMPARE =
-  "People searching for Krillion unlimited often land here. This page is the Rarest Answer game unlimited, not the unlimited path on krillion.io. The Krillion guide says that path exists, and that a public rules page for its limits was not available on 14 November 2026. Read that guide before treating the two games as the same.";
+  'People searching for Krillion unlimited often land here. This page is the Rarest Answer game unlimited, not the unlimited path on krillion.io. The Krillion guide says that path exists, and that a public rules page for its limits was not available on 14 November 2026. Read that guide before treating the two games as the same.';
 
 export function categoryTips(h1: string): string {
   return `${h1} uses the same six tiers and the same Spotlight as the daily Rarest Answer game. Skip the famous legal name when you have a more specific one, and do not leave the set. The finding guide and the strategy guide are the long version.`;
@@ -150,7 +222,8 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
     lead: 'Name a place. The rarest correct answer scores the most.',
     intro:
       'Geography trivia here is a naming game, not a map quiz with a single official key. A prompt asks you to name a place: a country, a capital, a river, a range, a coast. Every real answer counts. The capital everyone can point to is usually the low tier. The river you only met in a textbook is where the points are. This page deals geography prompts only, as many rounds as you want, with the same six tiers and the same Spotlight as the daily game.',
-    listNote: 'A place prompt is a naming round. The ranking is inside that prompt, not a map score.',
+    listNote:
+      'A place prompt is a naming round. The ranking is inside that prompt, not a map score.',
     emptyNote:
       'No geography trivia prompts are in the catalog yet. The daily round still plays whatever other categories have loaded.',
     faq: [
@@ -313,8 +386,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       'Science trivia for the Rarest Answer game. Name an element, a body, a unit, or a scientist. The rarest correct answer scores the most. Free rounds.',
     lead: 'Name an element, a body, or a unit. The rarest correct answer scores the most.',
     intro: `Science trivia asks you to name a thing in the field: an element, a body in the sky, a unit, a scientist, a species of particle. The textbook example is the one the clock will tempt you to type. The name from a footnote is the one that scores. Rounds on this page use science prompts only, under the same ${seconds}-second clock you can switch off before you start.`,
-    listNote:
-      'A science prompt ranks accepted names. It does not decide which fact is more true.',
+    listNote: 'A science prompt ranks accepted names. It does not decide which fact is more true.',
     emptyNote:
       'No science trivia prompts are in the catalog yet. Each science prompt will be linked here when one is published.',
     faq: [
@@ -340,8 +412,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
     lead: 'Name a person, an event, or a place. The rarest correct answer scores the most.',
     intro:
       'History trivia on this page is a naming round. People, events, places, and objects from the past all fit, depending on the prompt. The name on the poster is the low tier. The name you met in a single chapter is the high one. Play history prompts only, as many rounds as you want, and share the square grid when you finish. The grid never shows the names you typed.',
-    listNote:
-      'A history prompt ranks accepted names. It does not rank which event mattered more.',
+    listNote: 'A history prompt ranks accepted names. It does not rank which event mattered more.',
     emptyNote:
       'No history trivia prompts are in the catalog yet. Person and event prompts will be linked here when they are published.',
     faq: [
@@ -382,10 +453,7 @@ export function categoryPage(key: string): CategoryPageCopy | null {
 
 export const CATEGORY_PAGE_LIST: readonly CategoryPageCopy[] = Object.values(CATEGORY_PAGES);
 
-export function promptsFor(
-  catalog: readonly CatalogPrompt[],
-  key: CategoryKey,
-): CatalogPrompt[] {
+export function promptsFor(catalog: readonly CatalogPrompt[], key: CategoryKey): CatalogPrompt[] {
   return catalog
     .filter((entry) => entry.category === key)
     .sort(

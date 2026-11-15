@@ -10,7 +10,7 @@ interface Props {
 const { class: className = 'h-8 w-8' } = Astro.props;
 ---
 
-<svg class={className} viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+<svg class:list={[className, 'brand-gem']} width="32" height="32" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
   <rect class="mark-tile" width="32" height="32" rx="8"></rect>
   <path class="mark-star" d="M16 4.2 19.6 12.4 27.8 16 19.6 19.6 16 27.8 12.4 19.6 4.2 16 12.4 12.4Z"></path>
   <path class="mark-facet" d="M16 11 18.3 16 16 21 13.7 16Z"></path>

@@ -1,0 +1,116 @@
+---
+import { Icon } from 'astro-icon/components';
+import CategoryArt from '~/components/art/CategoryArt.astro';
+import { CATEGORY_PAGE_LIST, LOBBY } from '~/lib/game/category-copy';
+---
+
+<section class="browse-answers" aria-labelledby="browse-title" data-pagefind-body>
+  <div class="browse-copy">
+    <p class="eyebrow">{LOBBY.browseKicker}</p><h2 id="browse-title">{LOBBY.browseTitle}</h2><p
+      class="browse-note"
+    >
+      {LOBBY.browseNote}
+    </p><a href="/rarest-answers/" class="btn-primary"
+      >{LOBBY.browseLink}<Icon name="lucide:arrow-right" class="h-4 w-4" aria-hidden="true" /></a>
+  </div>
+  <ul>
+    {
+      CATEGORY_PAGE_LIST.map((page) => (
+        <li>
+          <a href={`/rarest-answers/#${page.key}`}>
+            <>
+              <CategoryArt category={page.key} size={56} decorative />
+              <span>{page.label}</span>
+            </>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<style>
+  .browse-answers {
+    display: grid;
+    gap: 1.75rem;
+    padding: 1.5rem;
+    border: 1px solid hsl(var(--brand) / 0.25);
+    border-radius: 1.5rem;
+    background:
+      radial-gradient(ellipse at right, hsl(var(--brand-light) / 0.12), transparent 70%),
+      hsl(var(--card));
+  }
+  .eyebrow {
+    color: hsl(var(--brand-text));
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  h2 {
+    max-width: 20ch;
+    margin-top: 0.5rem;
+    font-size: clamp(1.65rem, 2.7vw, 2rem);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+  .browse-note {
+    margin-top: 0.875rem;
+    color: hsl(var(--muted-foreground));
+    line-height: 1.5;
+  }
+  .browse-copy > a {
+    gap: 0.75rem;
+    min-height: 44px;
+    margin-top: 1.25rem;
+    padding: 0.75rem 1rem;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.75rem 0.25rem;
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    min-width: 0;
+  }
+  li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 0;
+    border: 1px solid hsl(var(--border));
+    border-radius: 0.875rem;
+    background: hsl(var(--background) / 0.7);
+  }
+  li a:hover {
+    border-color: hsl(var(--brand));
+  }
+  li a:focus-visible {
+    outline: 3px solid hsl(var(--brand));
+    outline-offset: 2px;
+  }
+  li span {
+    color: hsl(var(--foreground));
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  @media (min-width: 800px) {
+    .browse-answers {
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      padding: 2.25rem;
+      align-items: center;
+    }
+    ul {
+      gap: 0.75rem;
+    }
+    li span {
+      font-size: 0.8rem;
+    }
+  }
+</style>

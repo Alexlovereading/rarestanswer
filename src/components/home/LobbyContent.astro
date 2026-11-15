@@ -1,0 +1,67 @@
+---
+/** Shared reading layout. All content remains server-rendered and searchable. */
+---
+
+<div class="lobby-content"><slot /></div>
+
+<style>
+  .lobby-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.5rem 1rem 4rem;
+  }
+  .lobby-content > :global(*) + :global(*) {
+    margin-top: 3.5rem;
+  }
+  .lobby-content :global(.reading-grid) {
+    display: grid;
+    gap: 1rem;
+  }
+  .lobby-content :global(.reading-card) {
+    min-width: 0;
+    padding: 1.5rem;
+    border: 1px solid hsl(var(--border));
+    border-radius: 1.25rem;
+    background: hsl(var(--card));
+  }
+  .lobby-content :global(.reading-card h2) {
+    font-size: 1.4rem;
+    line-height: 1.25;
+  }
+  .lobby-content :global(.reading-card p),
+  .lobby-content :global(.reading-card li) {
+    font-size: 0.975rem;
+    line-height: 1.65;
+  }
+  .lobby-content :global(.rules-detail) {
+    margin-top: 1.25rem;
+    border-top: 1px solid hsl(var(--border));
+    padding-top: 1rem;
+  }
+  .lobby-content :global(.rules-detail summary) {
+    cursor: pointer;
+    color: hsl(var(--brand-text));
+    font-weight: 600;
+  }
+  @media (min-width: 800px) {
+    .lobby-content {
+      padding: 3rem 2rem 5rem;
+    }
+    .lobby-content :global(.reading-grid) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.5rem;
+    }
+    .lobby-content :global(.reading-card) {
+      padding: 1.75rem;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .lobby-content :global(*),
+    .lobby-content :global(*::before),
+    .lobby-content :global(*::after) {
+      animation: none !important;
+      transition: none !important;
+      scroll-behavior: auto !important;
+    }
+  }
+</style>

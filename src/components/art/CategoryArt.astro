@@ -1,0 +1,37 @@
+---
+import type { CategoryKey } from '../../lib/game/types';
+import { categoryArt } from './artwork';
+
+interface Props {
+  category: CategoryKey;
+  size?: number;
+  decorative?: boolean;
+}
+
+const { category, size = 96, decorative = false } = Astro.props;
+const dimension = Number.isFinite(size) && size > 0 ? size : 96;
+---
+
+<img
+  class="category-art"
+  src={`/images/brand/category-${category}.svg`}
+  width={dimension}
+  height={dimension}
+  alt={decorative ? '' : categoryArt[category].alt}
+  aria-hidden={decorative ? 'true' : undefined}
+  loading="lazy"
+  decoding="async"
+  draggable="false"
+/>
+
+<style>
+  .category-art {
+    display: block;
+    flex: none;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: contain;
+    user-select: none;
+  }
+</style>

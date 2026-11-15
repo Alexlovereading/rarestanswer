@@ -1,5 +1,7 @@
 ---
 import TierChip from './TierChip.astro';
+import CategoryArt from '~/components/art/CategoryArt.astro';
+import HeroArt from '~/components/art/HeroArt.astro';
 import { HUB_TITLE, categoriesIn, categoryLabel, hubIntro, type PromptSeo } from './copy';
 import { answerPath, triviaPath } from './prompts';
 import { getUi } from '~/i18n/ui';
@@ -13,6 +15,7 @@ interface Props {
 
 const { prompts } = Astro.props;
 const ui = getUi(defaultLocale);
+const labels = ui.shared.visuals;
 const categories = categoriesIn(prompts);
 const groups = categories.map((category) => ({
   category,
@@ -28,14 +31,19 @@ const groups = categories.map((category) => ({
     <span class="text-foreground" aria-current="page">{ui.nav.rarestAnswers}</span>
   </nav>
 
+  <header class="content-band content-band--wide mt-5">
+  <div class="min-w-0">
   <h1 class="mt-3 text-3xl font-extrabold tracking-tight md:text-4xl" data-pagefind-meta={`title:${HUB_TITLE}`}>
     {HUB_TITLE}
   </h1>
-  <p class="mt-4 max-w-3xl leading-relaxed">{hubIntro(prompts)}</p>
+  <p class="mt-4 max-w-3xl leading-relaxed text-muted-foreground">{hubIntro(prompts)}</p>
+  </div>
+  <div class="content-band__art"><HeroArt /></div>
+  </header>
 
   {
     groups.length > 1 && (
-      <nav class="mt-6" aria-label="Prompt categories">
+      <nav class="mt-6" aria-label={labels.promptCategories}>
         <ul class="flex list-none flex-wrap gap-2 p-0">
           {groups.map((group) => (
             <li>
@@ -60,12 +68,15 @@ const groups = categories.map((category) => ({
         class="mt-10 scroll-mt-20"
         aria-labelledby={`heading-${group.category}`}
       >
-        <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-          <h2 id={`heading-${group.category}`} class="text-2xl font-bold tracking-tight">
-            {group.label}
-          </h2>
+        <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+          <div class="flex items-center gap-3">
+            <CategoryArt category={group.category} size={56} decorative />
+            <h2 id={`heading-${group.category}`} class="text-2xl font-bold tracking-tight">
+              {group.label}
+            </h2>
+          </div>
           <a class="text-sm font-medium text-nav hover:underline" href={triviaPath(group.category)}>
-            {group.label} trivia
+            {labels.categoryTrivia.replace('{category}', group.label)}
           </a>
         </div>
         <ul class="mt-4 grid list-none grid-cols-1 gap-3 p-0 sm:grid-cols-2" data-pagefind-ignore>
@@ -77,12 +88,12 @@ const groups = categories.map((category) => ({
                   <h3 class="text-lg font-semibold leading-snug">{prompt.heading}</h3>
                   {rare && (
                     <p class="mt-2 text-sm text-muted-foreground">
-                      Rarest answer: <span class="font-medium text-foreground">{rare.name}</span>
+                      {labels.rarestAnswer} <span class="font-medium text-foreground">{rare.name}</span>
                     </p>
                   )}
                   <p class="mt-2 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
                     <span>
-                      {prompt.answers.length === 1 ? '1 answer' : `${prompt.answers.length} answers`}
+                      {prompt.answers.length} {prompt.answers.length === 1 ? labels.answerLabel : labels.answersLabel}
                     </span>
                     {rare && <TierChip tier={rare.tier} />}
                   </p>

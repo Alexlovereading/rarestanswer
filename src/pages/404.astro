@@ -7,6 +7,8 @@
 import { Icon } from 'astro-icon/components';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import PlayCta from '~/components/article/PlayCta.astro';
+import HeroArt from '~/components/art/HeroArt.astro';
+import TierBadge from '~/components/art/TierBadge.astro';
 import { NAVIGATION_CONFIG } from '~/config/navigation';
 import { defaultLocale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
@@ -36,9 +38,13 @@ const recover = [
   noindex={true}
 >
   <div class="mx-auto max-w-xl py-10 text-center sm:py-16">
+    <div class="rare-page-art">
+      <HeroArt />
+      <div class="rare-page-art__badge"><TierBadge tier={6} size={64} /></div>
+    </div>
     <p class="font-display text-7xl font-extrabold tracking-tight text-nav md:text-8xl">404</p>
-    <h1 class="mt-4 font-display text-3xl font-semibold tracking-tight">{shared.notFoundHeading}</h1>
-    <p class="mt-2 text-muted-foreground">{shared.notFoundText}</p>
+    <h1 class="mt-4 font-display text-3xl font-semibold tracking-tight">{shared.visuals.rarePage}</h1>
+    <p class="mt-2 text-muted-foreground">{shared.visuals.rarePageNote}</p>
 
     <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
       <a href={homeUrl(locale)} class="btn-primary gap-2 px-5 py-2.5">

@@ -145,7 +145,15 @@ export const PLAY = {
   secondsWord: 'seconds left',
   reloadNext: 'The next daily is ready. Reload to play it.',
   pointsWord: 'points',
+  lineup: 'This round’s lineup',
+  combo: 'Combo',
+  resultCard: 'Your rarity collection',
+  clockOff: 'Off',
 } as const;
+
+export function comboLine(count: number): string {
+  return `${count} in a row`;
+}
 
 export function emptyCategoryLine(label: string): string {
   return `No ${label.toLowerCase()} prompts are loaded yet. The daily round still plays whatever is in the list.`;

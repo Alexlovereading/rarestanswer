@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+    <defs>
+      <linearGradient id="tile" x2=".8" y2="1"><stop stop-color="#5541b7"/><stop offset="1" stop-color="#17113e"/></linearGradient>
+      <linearGradient id="object" x2=".8" y2="1"><stop stop-color="#9789ed"/><stop offset="1" stop-color="#302087"/></linearGradient>
+      <linearGradient id="gold" x2=".7" y2="1"><stop stop-color="#fff0b3"/><stop offset=".5" stop-color="#f7ca59"/><stop offset="1" stop-color="#bd8531"/></linearGradient>
+    </defs>
+    <ellipse cx="128" cy="232" rx="83" ry="12" fill="#17113e" opacity=".12"/>
+    <rect x="25" y="28" width="206" height="202" rx="59" fill="#17113e"/>
+    <rect x="25" y="20" width="206" height="202" rx="59" fill="url(#tile)" stroke="#9e8fea" stroke-width="1.5"/>
+    <rect x="34" y="29" width="188" height="184" rx="50" fill="none" stroke="#f8cf68" stroke-opacity=".13"/>
+    <circle cx="128" cy="118" r="79" fill="#f8cf68" fill-opacity=".045" stroke="#f8cf68" stroke-opacity=".15" stroke-dasharray="2 8"/>
+    
+      <path d="M96 76H66q-6 50 39 51m55-51h29q5 50-39 51" fill="none" stroke="#f7ca59" stroke-width="9"/>
+      <path d="M91 64h74l-6 48q-3 29-31 31-28-2-32-31Z" fill="url(#gold)" stroke="#fff0b3" stroke-width="3"/>
+      <path d="M127 142v25m-25 12h52m-17-13h-21l-8 13h37Z" fill="#f7ca59" stroke="#f7ca59" stroke-width="6" stroke-linecap="round"/>
+      <path d="m128 80 5 11 13 2-9 9 2 13-11-6-12 6 3-13-10-9 13-2Z" fill="#17113e" opacity=".75"/>
+      <circle cx="180" cy="163" r="36" fill="#f8cf68" stroke="#fff0b3" stroke-width="3"/>
+      <path d="M145 160q35 15 69-6m-46-24q-9 38 11 69m17-65q-27 17-44 47m-1-40q42 9 57 43" fill="none" stroke="#17113e" stroke-width="3"/>
+      <path d="M54 129V64l30 10-30 20" fill="#f8cf68" stroke="#fff0b3" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M209 39Q209 46 216 46Q209 46 209 53Q209 46 202 46Q209 46 209 39Z" fill="#f7ca59"/><path d="M45 182Q45 187 50 187Q45 187 45 192Q45 187 40 187Q45 187 45 182Z" fill="#f8cf68"/>
+    <circle cx="52" cy="46" r="2.5" fill="#f8cf68"/><circle cx="209" cy="196" r="2" fill="#f7ca59"/>
+  </svg>

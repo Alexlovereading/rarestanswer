@@ -9,6 +9,10 @@ import { Icon } from 'astro-icon/components';
 import { TIERS } from '~/lib/game/types';
 import { HOW_TO_STEPS, PLAY, RULES_AT_A_GLANCE } from '~/lib/game/copy';
 import { siteUrl } from '~/config/site';
+import HeroArt from '~/components/art/HeroArt.astro';
+import GameArt from './GameArt.astro';
+import GameEffects from './GameEffects.astro';
+import Combo from './Combo.astro';
 
 interface Props {
   mode: 'daily' | 'unlimited' | 'category';
@@ -17,7 +21,11 @@ interface Props {
 
 const { mode, category = '' } = Astro.props;
 const kicker =
-  mode === 'daily' ? PLAY.dailyKicker : mode === 'unlimited' ? PLAY.unlimitedKicker : PLAY.categoryKicker;
+  mode === 'daily'
+    ? PLAY.dailyKicker
+    : mode === 'unlimited'
+      ? PLAY.unlimitedKicker
+      : PLAY.categoryKicker;
 ---
 
 <div
@@ -28,6 +36,8 @@ const kicker =
   data-category={category}
   data-origin={siteUrl}
 >
+  <GameEffects />
+  <GameArt />
   <div
     data-game-view="start"
     class="rounded-2xl border bg-card p-4 text-card-foreground shadow-sm sm:p-6"
@@ -44,12 +54,20 @@ const kicker =
         {PLAY.stats}
       </button>
     </div>
-    <p data-game-date class="mt-1 min-h-[1.5rem] text-lg font-semibold text-foreground">
-      {PLAY.todayFallback}
-    </p>
+    <div class="ra-lobby-intro">
+      <div>
+        <p data-game-date class="min-h-[1.5rem] text-base font-semibold text-foreground">
+          {PLAY.todayFallback}
+        </p>
+        <p class="mt-1 max-w-[12rem] text-sm text-muted-foreground">{PLAY.tagline}</p>
+      </div>
+      <div class="ra-lobby-hero" aria-hidden="true"><HeroArt /></div>
+    </div>
     <dl class="mt-3 grid grid-cols-3 gap-2 text-center">
       <div class="rounded-lg bg-muted px-2 py-2">
-        <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">{PLAY.prompts}</dt>
+        <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+          {PLAY.prompts}
+        </dt>
         <dd
           data-game-prompt-count
           class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums text-foreground"
@@ -58,20 +76,35 @@ const kicker =
         </dd>
       </div>
       <div class="rounded-lg bg-muted px-2 py-2">
-        <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">{PLAY.streak}</dt>
-        <dd data-game-streak class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums text-foreground">
-          –
+        <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+          {PLAY.streak}
+        </dt>
+        <dd
+          class="mt-1 flex min-h-[1.75rem] items-center justify-center gap-1 text-xl font-bold tabular-nums text-foreground"
+        >
+          <Icon name="lucide:flame" class="h-4 w-4 text-nav" aria-hidden="true" />
+          <span data-game-streak>–</span>
         </dd>
       </div>
       <div class="rounded-lg bg-muted px-2 py-2">
-        <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">{PLAY.best}</dt>
-        <dd data-game-best class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums text-foreground">
+        <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+          {PLAY.best}
+        </dt>
+        <dd
+          data-game-best
+          class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums text-foreground"
+        >
           –
         </dd>
       </div>
     </dl>
-    <p data-game-status class="mt-3 min-h-[3rem] text-sm text-foreground" role="status"></p>
-    <p data-game-start-countdown class="min-h-[1.25rem] text-sm font-medium tabular-nums text-nav"></p>
+    <p class="mt-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+      {PLAY.lineup}
+    </p>
+    <ol data-game-lineup class="ra-lineup" aria-label={PLAY.lineup}></ol>
+    <p data-game-status class="mt-2 min-h-[3rem] text-sm text-foreground" role="status"></p>
+    <p data-game-start-countdown class="min-h-[1.25rem] text-sm font-medium tabular-nums text-nav">
+    </p>
     <button type="button" data-game-play class="btn-primary mt-2 h-12 w-full text-base" disabled>
       <span data-game-play-icon class="mr-2 inline-flex" aria-hidden="true">
         <Icon name="lucide:play" class="h-4 w-4" />
@@ -79,7 +112,12 @@ const kicker =
       <span data-game-play-label>{PLAY.loadingRound}</span>
     </button>
     <div class="mt-3 grid grid-cols-2 gap-2">
-      <button type="button" data-game-help-open class="btn-outline h-11 text-sm" aria-haspopup="dialog">
+      <button
+        type="button"
+        data-game-help-open
+        class="btn-outline h-11 text-sm"
+        aria-haspopup="dialog"
+      >
         <Icon name="lucide:circle-help" class="mr-2 h-4 w-4" aria-hidden="true" />
         {PLAY.howTo}
       </button>
@@ -95,7 +133,9 @@ const kicker =
       </button>
     </div>
     <div class="mt-3 rounded-lg bg-muted px-3 py-3">
-      <p class="text-xs font-semibold uppercase tracking-wide text-muted-foreground">{PLAY.rulesTitle}</p>
+      <p class="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+        {PLAY.rulesTitle}
+      </p>
       <ol class="mt-2 list-decimal space-y-1 pl-5 text-sm leading-snug text-foreground">
         {RULES_AT_A_GLANCE.map((step) => <li>{step}</li>)}
       </ol>
@@ -111,8 +151,17 @@ const kicker =
     class="rounded-2xl border bg-card p-4 text-card-foreground shadow-sm sm:p-6"
   >
     <div class="flex items-center justify-between gap-3">
-      <p data-game-progress class="text-sm font-semibold text-nav">{PLAY.promptLabel}</p>
-      <div data-game-timer class="relative h-14 w-14 shrink-0" role="timer" aria-label="25 seconds left">
+      <div>
+        <p data-game-progress class="text-sm font-semibold text-nav">{PLAY.promptLabel}</p>
+        <p class="ra-play-score"><span data-game-running-score>0</span> {PLAY.pointsWord}</p>
+      </div>
+      <Combo />
+      <div
+        data-game-timer
+        class="relative h-14 w-14 shrink-0"
+        role="timer"
+        aria-label="25 seconds left"
+      >
         <svg viewBox="0 0 36 36" class="h-14 w-14" aria-hidden="true">
           <circle class="ra-ring ra-ring-track" cx="18" cy="18" r="15.5" pathLength="100"></circle>
           <circle
@@ -132,14 +181,22 @@ const kicker =
         >
       </div>
     </div>
-    <p
-      data-game-prompt-cat
-      class="mt-3 min-h-[1.25rem] text-xs font-semibold uppercase tracking-wide text-muted-foreground"
-    >
-    </p>
-    <h2 data-game-question class="mt-1 min-h-[4.5rem] text-2xl font-bold tracking-tight text-foreground">
-      {PLAY.loadingPrompt}
-    </h2>
+    <div class="ra-prompt-heading">
+      <div>
+        <p
+          data-game-prompt-cat
+          class="min-h-[1.25rem] text-xs font-semibold uppercase tracking-wide text-muted-foreground"
+        >
+        </p>
+        <h2
+          data-game-question
+          class="mt-1 min-h-[4.5rem] text-2xl font-bold tracking-tight text-foreground"
+        >
+          {PLAY.loadingPrompt}
+        </h2>
+      </div>
+      <div data-game-prompt-art aria-hidden="true"></div>
+    </div>
     <button
       type="button"
       data-game-spotlight
@@ -176,7 +233,9 @@ const kicker =
       </p>
       <div class="mt-3 grid grid-cols-[1fr_auto] gap-2">
         <button type="submit" class="btn-primary h-12 text-base">{PLAY.guess}</button>
-        <button type="button" data-game-pass class="btn-outline h-12 px-4 text-base">{PLAY.pass}</button>
+        <button type="button" data-game-pass class="btn-outline h-12 px-4 text-base"
+          >{PLAY.pass}</button
+        >
       </div>
     </form>
   </div>
@@ -186,29 +245,46 @@ const kicker =
     hidden
     class="rounded-2xl border bg-card p-4 text-card-foreground shadow-sm sm:p-6"
   >
+    <div class="mb-3 flex items-center justify-between gap-3">
+      <p class="ra-play-score"><span data-game-running-score>0</span> {PLAY.pointsWord}</p>
+      <Combo />
+    </div>
+    <div class="ra-reveal-heading">
+      <div data-game-reveal-badge aria-hidden="true"></div>
+      <div>
+        <p
+          data-game-reveal-kicker
+          class="min-h-[1.25rem] text-xs font-semibold uppercase tracking-wide text-muted-foreground"
+        >
+        </p>
+        <h2
+          data-game-reveal-tier
+          class="mt-1 min-h-[2.5rem] text-3xl font-black tracking-tight text-foreground"
+          tabindex="-1"
+        >
+          {PLAY.tierMeter}
+        </h2>
+      </div>
+    </div>
+    <p data-game-reveal-answer class="mt-2 min-h-[1.5rem] text-base text-foreground"></p>
     <p
-      data-game-reveal-kicker
-      class="min-h-[1.25rem] text-xs font-semibold uppercase tracking-wide text-muted-foreground"
+      data-game-reveal-points
+      class="mt-1 min-h-[1.75rem] text-lg font-semibold tabular-nums text-nav"
     >
     </p>
-    <h2
-      data-game-reveal-tier
-      class="mt-1 min-h-[2.5rem] text-3xl font-black tracking-tight text-foreground"
-      tabindex="-1"
-    >
-      {PLAY.tierMeter}
-    </h2>
-    <p data-game-reveal-answer class="mt-2 min-h-[1.5rem] text-base text-foreground"></p>
-    <p data-game-reveal-points class="mt-1 min-h-[1.75rem] text-lg font-semibold tabular-nums text-nav"></p>
     <div data-game-meter class="mt-4 flex gap-1.5" role="img" aria-label={PLAY.tierMeter}>
       {TIERS.map((row) => <span class="ra-seg h-3 flex-1 rounded-full" data-tier={row.tier} />)}
     </div>
     <p data-game-could class="mt-4 min-h-[1.25rem] text-sm text-foreground"></p>
     <p data-game-rarer class="mt-1 min-h-[1.25rem] text-sm text-foreground" hidden></p>
     <p class="mt-3 min-h-[1.25rem]">
-      <a data-game-answers class="text-sm font-semibold text-nav" href="/rarest-answers/">{PLAY.seeAll}</a>
+      <a data-game-answers class="text-sm font-semibold text-nav" href="/rarest-answers/"
+        >{PLAY.seeAll}</a
+      >
     </p>
-    <h3 data-game-rarest-heading class="mt-6 text-sm font-semibold text-foreground">{PLAY.rarestHeading}</h3>
+    <h3 data-game-rarest-heading class="mt-6 text-sm font-semibold text-foreground">
+      {PLAY.rarestHeading}
+    </h3>
     <ol data-game-rarest class="m-0 mt-2 flex list-none flex-col p-0"></ol>
     <div data-game-common-block>
       <h3 data-game-common-heading class="mt-6 text-sm font-semibold text-foreground">
@@ -216,8 +292,12 @@ const kicker =
       </h3>
       <ol data-game-common class="m-0 mt-2 flex list-none flex-col p-0"></ol>
     </div>
-    <p data-game-outside class="mt-3 min-h-[1.25rem] text-sm text-foreground" hidden>{PLAY.outside}</p>
-    <button type="button" data-game-next class="btn-primary mt-6 h-12 w-full text-base">{PLAY.nextPrompt}</button>
+    <p data-game-outside class="mt-3 min-h-[1.25rem] text-sm text-foreground" hidden>
+      {PLAY.outside}
+    </p>
+    <button type="button" data-game-next class="btn-primary mt-6 h-12 w-full text-base"
+      >{PLAY.nextPrompt}</button
+    >
   </div>
 
   <div
@@ -232,17 +312,31 @@ const kicker =
     >
       {PLAY.roundComplete}
     </h2>
-    <div class="ra-share mt-4">
+    <div class="ra-share ra-result-card mt-4">
       <div class="ra-share-bar" aria-hidden="true"></div>
-      <p class="text-sm font-semibold text-foreground">{PLAY.wordmark}</p>
+      <div class="flex items-center justify-between gap-3">
+        <p class="text-sm font-semibold text-foreground">{PLAY.wordmark}</p>
+        <Icon name="lucide:gem" class="h-6 w-6 text-nav" aria-hidden="true" />
+      </div>
       <p data-game-card-title class="min-h-[1.25rem] text-sm text-muted-foreground"></p>
-      <p class="mt-3 text-xs font-medium uppercase tracking-wide text-muted-foreground">{PLAY.totalPoints}</p>
-      <p data-game-final-score class="text-5xl font-black tabular-nums leading-none text-foreground">0</p>
+      <p class="mt-3 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+        {PLAY.totalPoints}
+      </p>
+      <p
+        data-game-final-score
+        data-game-running-score
+        class="mt-1 text-5xl font-black tabular-nums leading-none text-foreground"
+      >
+        0
+      </p>
       <p data-game-end-streak class="mt-1 min-h-[1.25rem] text-sm font-semibold text-nav"></p>
-      <div data-game-grid class="mt-4 flex min-h-[2.5rem] gap-2" role="img" aria-label={PLAY.resultGrid}>
+      <p class="mt-4 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+        {PLAY.resultCard}
+      </p>
+      <div data-game-grid class="ra-result-grid mt-2" role="img" aria-label={PLAY.resultGrid}>
         {
           Array.from({ length: 7 }, () => (
-            <span class="ra-sq h-8 w-8 rounded-md" data-game-sq hidden aria-hidden="true" />
+            <span class="ra-result-badge" data-game-sq hidden aria-hidden="true" />
           ))
         }
       </div>
@@ -256,7 +350,7 @@ const kicker =
               <span class="tier-pill shrink-0" data-tier={row.tier}>
                 {row.name}
               </span>
-              <span class="text-muted-foreground tabular-nums">{row.points}</span>
+              <span class="tabular-nums text-muted-foreground">{row.points}</span>
             </span>
             <span
               data-game-tier-count
@@ -273,16 +367,27 @@ const kicker =
           <span class="ra-sq mr-2 h-2.5 w-2.5 rounded-sm" aria-hidden="true"></span>
           {PLAY.passed}
         </span>
-        <span data-game-tier-count data-tier="0" class="font-semibold tabular-nums text-foreground">0</span>
+        <span data-game-tier-count data-tier="0" class="font-semibold tabular-nums text-foreground"
+          >0</span
+        >
       </li>
     </ul>
-    <p data-game-countdown class="mt-4 min-h-[1.5rem] text-sm font-medium tabular-nums text-nav" hidden></p>
-    <p class="mt-4 text-xs font-semibold uppercase tracking-wide text-muted-foreground">{PLAY.shareTextLabel}</p>
+    <p
+      data-game-countdown
+      class="mt-4 min-h-[1.5rem] text-sm font-medium tabular-nums text-nav"
+      hidden
+    >
+    </p>
+    <p class="mt-4 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+      {PLAY.shareTextLabel}
+    </p>
     <pre
       data-game-share-preview
       class="mt-2 min-h-[4.5rem] overflow-x-auto whitespace-pre-wrap rounded-lg bg-muted p-3 font-sans text-sm text-foreground"
-      aria-label={PLAY.shareTextLabel}></pre>
-    <p data-game-share-status class="mt-2 min-h-[1.25rem] text-sm text-foreground" role="status"></p>
+      aria-label={PLAY.shareTextLabel}>
+    </pre>
+    <p data-game-share-status class="mt-2 min-h-[1.25rem] text-sm text-foreground" role="status">
+    </p>
     <div class="mt-3 flex flex-col gap-2">
       {
         mode !== 'daily' && (
@@ -292,7 +397,12 @@ const kicker =
           </button>
         )
       }
-      <button type="button" data-game-stats-open class="btn-outline h-12 w-full text-base" aria-haspopup="dialog">
+      <button
+        type="button"
+        data-game-stats-open
+        class="btn-outline h-12 w-full text-base"
+        aria-haspopup="dialog"
+      >
         <Icon name="lucide:chart-column" class="mr-2 h-4 w-4" aria-hidden="true" />
         {PLAY.stats}
       </button>
@@ -324,13 +434,20 @@ const kicker =
     class="ra-dialog w-[min(100%,32rem)] rounded-2xl border bg-card p-6 text-card-foreground backdrop:bg-foreground/60"
     aria-labelledby="ra-how-title"
   >
-    <h2 id="ra-how-title" data-game-dialog-title class="shrink-0 text-xl font-bold text-foreground" tabindex="-1">
+    <h2
+      id="ra-how-title"
+      data-game-dialog-title
+      class="shrink-0 text-xl font-bold text-foreground"
+      tabindex="-1"
+    >
       {PLAY.howTo}
     </h2>
     <ol class="mt-4 min-h-0 list-decimal space-y-3 overflow-y-auto pl-5 text-sm text-foreground">
       {HOW_TO_STEPS.map((step) => <li>{step}</li>)}
     </ol>
-    <button type="button" data-game-dialog-close class="btn-primary mt-6 h-11 w-full shrink-0">{PLAY.gotIt}</button>
+    <button type="button" data-game-dialog-close class="btn-primary mt-6 h-11 w-full shrink-0"
+      >{PLAY.gotIt}</button
+    >
   </dialog>
 
   <dialog
@@ -338,34 +455,64 @@ const kicker =
     class="ra-dialog w-[min(100%,32rem)] rounded-2xl border bg-card p-6 text-card-foreground backdrop:bg-foreground/60"
     aria-labelledby="ra-stats-title"
   >
-    <h2 id="ra-stats-title" data-game-stats-title class="shrink-0 text-xl font-bold text-foreground" tabindex="-1">
+    <h2
+      id="ra-stats-title"
+      data-game-stats-title
+      class="shrink-0 text-xl font-bold text-foreground"
+      tabindex="-1"
+    >
       {PLAY.statsTitle}
     </h2>
     <div class="mt-4 min-h-0 overflow-y-auto">
       <dl class="grid grid-cols-3 gap-2 text-center">
         <div class="rounded-lg bg-muted px-2 py-3">
-          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">{PLAY.streak}</dt>
-          <dd data-game-stat-streak class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums">0</dd>
+          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+            {PLAY.streak}
+          </dt>
+          <dd data-game-stat-streak class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums">
+            0
+          </dd>
         </div>
         <div class="rounded-lg bg-muted px-2 py-3">
-          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">{PLAY.bestStreak}</dt>
-          <dd data-game-stat-best-streak class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums">0</dd>
+          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+            {PLAY.bestStreak}
+          </dt>
+          <dd
+            data-game-stat-best-streak
+            class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums"
+          >
+            0
+          </dd>
         </div>
         <div class="rounded-lg bg-muted px-2 py-3">
-          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">{PLAY.bestDaily}</dt>
+          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+            {PLAY.bestDaily}
+          </dt>
           <dd data-game-stat-best class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums">–</dd>
         </div>
         <div class="rounded-lg bg-muted px-2 py-3">
-          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">{PLAY.dailies}</dt>
-          <dd data-game-stat-dailies class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums">0</dd>
+          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+            {PLAY.dailies}
+          </dt>
+          <dd data-game-stat-dailies class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums">
+            0
+          </dd>
         </div>
         <div class="rounded-lg bg-muted px-2 py-3">
-          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">{PLAY.rounds}</dt>
-          <dd data-game-stat-rounds class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums">0</dd>
+          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+            {PLAY.rounds}
+          </dt>
+          <dd data-game-stat-rounds class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums">
+            0
+          </dd>
         </div>
         <div class="rounded-lg bg-muted px-2 py-3">
-          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">{PLAY.pointsTotal}</dt>
-          <dd data-game-stat-points class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums">0</dd>
+          <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+            {PLAY.pointsTotal}
+          </dt>
+          <dd data-game-stat-points class="mt-1 min-h-[1.75rem] text-xl font-bold tabular-nums">
+            0
+          </dd>
         </div>
       </dl>
       <figure class="mt-6">
@@ -393,7 +540,9 @@ const kicker =
         </p>
       </figure>
     </div>
-    <button type="button" data-game-stats-close class="btn-primary mt-6 h-11 w-full shrink-0">{PLAY.close}</button>
+    <button type="button" data-game-stats-close class="btn-primary mt-6 h-11 w-full shrink-0"
+      >{PLAY.close}</button
+    >
   </dialog>
 </div>
 
@@ -419,9 +568,6 @@ const kicker =
   .ra-ring-value {
     stroke: hsl(var(--brand-h) var(--brand-s) 40%);
   }
-  .ra-ring-value[data-low='true'] {
-    stroke: hsl(var(--foreground));
-  }
   .ra-seg {
     background: hsl(var(--muted));
   }
@@ -446,30 +592,6 @@ const kicker =
   .ra-sq {
     background: hsl(var(--muted));
     border: 1px solid hsl(var(--border));
-  }
-  .ra-sq[data-tier='1'] {
-    background: hsl(var(--tier-1));
-    border-color: transparent;
-  }
-  .ra-sq[data-tier='2'] {
-    background: hsl(var(--tier-2));
-    border-color: transparent;
-  }
-  .ra-sq[data-tier='3'] {
-    background: hsl(var(--tier-3));
-    border-color: transparent;
-  }
-  .ra-sq[data-tier='4'] {
-    background: hsl(var(--tier-4));
-    border-color: transparent;
-  }
-  .ra-sq[data-tier='5'] {
-    background: hsl(var(--tier-5));
-    border-color: transparent;
-  }
-  .ra-sq[data-tier='6'] {
-    background: hsl(var(--tier-6));
-    border-color: transparent;
   }
   .ra-share {
     overflow: hidden;
@@ -540,27 +662,6 @@ const kicker =
   .ra-end-in [data-game-final-score] {
     animation: ra-pop 0.34s ease backwards;
   }
-  .ra-end-in .ra-sq:not([hidden]) {
-    animation: ra-pop 0.32s ease backwards;
-  }
-  .ra-end-in .ra-sq:nth-child(2) {
-    animation-delay: 0.04s;
-  }
-  .ra-end-in .ra-sq:nth-child(3) {
-    animation-delay: 0.08s;
-  }
-  .ra-end-in .ra-sq:nth-child(4) {
-    animation-delay: 0.12s;
-  }
-  .ra-end-in .ra-sq:nth-child(5) {
-    animation-delay: 0.16s;
-  }
-  .ra-end-in .ra-sq:nth-child(6) {
-    animation-delay: 0.2s;
-  }
-  .ra-end-in .ra-sq:nth-child(7) {
-    animation-delay: 0.24s;
-  }
   .game-shell[data-game-phase='loading'] [data-game-prompt-count],
   .game-shell[data-game-phase='loading'] [data-game-streak],
   .game-shell[data-game-phase='loading'] [data-game-best] {
@@ -616,7 +717,6 @@ const kicker =
     .ra-reveal-in [data-game-reveal-points],
     .ra-reveal-in .ra-seg[data-on='true'],
     .ra-end-in [data-game-final-score],
-    .ra-end-in .ra-sq:not([hidden]),
     .game-shell[data-game-phase='loading'] [data-game-prompt-count],
     .game-shell[data-game-phase='loading'] [data-game-streak],
     .game-shell[data-game-phase='loading'] [data-game-best] {

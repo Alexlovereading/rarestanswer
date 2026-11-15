@@ -1,0 +1,9 @@
+---
+import { Icon } from 'astro-icon/components';
+import { PLAY } from '~/lib/game/copy';
+---
+
+<span class="ra-combo" data-game-combo data-active="false">
+  <Icon name="lucide:flame" class="ra-combo-flame h-4 w-4" aria-hidden="true" />
+  <span data-game-combo-label>{PLAY.combo}</span>
+</span>

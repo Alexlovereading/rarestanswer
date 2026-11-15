@@ -1,0 +1,22 @@
+---
+/** Render each illustration once; the controller clones it into reserved art slots. */
+import CategoryArt from '~/components/art/CategoryArt.astro';
+import TierBadge from '~/components/art/TierBadge.astro';
+import { CATEGORY_KEYS } from '~/lib/game/categories';
+import { TIERS } from '~/lib/game/types';
+---
+
+{
+  CATEGORY_KEYS.map((category) => (
+    <template data-game-category-template={category}>
+      <CategoryArt category={category} size={80} decorative />
+    </template>
+  ))
+}
+{
+  TIERS.map((row) => (
+    <template data-game-badge-template={row.tier}>
+      <TierBadge tier={row.tier} size={104} />
+    </template>
+  ))
+}

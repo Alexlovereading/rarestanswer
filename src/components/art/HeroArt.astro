@@ -1,0 +1,155 @@
+---
+interface Props {
+  class?: string;
+}
+const { class: className } = Astro.props;
+---
+
+{/* Decorative scene: all game instructions, scores, and calls to action stay in HTML. */}
+<div class:list={['hero-art', className]} aria-hidden="true">
+  <img
+    class="hero-art__scene"
+    src="/images/brand/hero-scene.svg"
+    width="720"
+    height="600"
+    alt=""
+    decoding="async"
+    draggable="false"
+  />
+  <div class="hero-art__layer hero-art__layer--back">
+    <img
+      src="/images/brand/answer-card-epic.svg"
+      width="280"
+      height="150"
+      alt=""
+      decoding="async"
+      draggable="false"
+    />
+  </div>
+  <div class="hero-art__layer hero-art__layer--front">
+    <img
+      src="/images/brand/answer-card-rare.svg"
+      width="280"
+      height="150"
+      alt=""
+      decoding="async"
+      draggable="false"
+    />
+  </div>
+  <div class="hero-art__layer hero-art__layer--gem">
+    <img
+      src="/images/brand/legendary-gem.svg"
+      width="240"
+      height="260"
+      alt=""
+      decoding="async"
+      draggable="false"
+    />
+  </div>
+  <div class="hero-art__layer hero-art__layer--lens">
+    <img
+      src="/images/brand/magnifier.svg"
+      width="180"
+      height="200"
+      alt=""
+      decoding="async"
+      draggable="false"
+    />
+  </div>
+</div>
+
+<style>
+  .hero-art {
+    position: relative;
+    isolation: isolate;
+    width: 100%;
+    max-width: 720px;
+    aspect-ratio: 6 / 5;
+    pointer-events: none;
+    user-select: none;
+  }
+  .hero-art img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .hero-art__scene {
+    position: absolute;
+    inset: 0;
+  }
+  .hero-art__layer {
+    position: absolute;
+  }
+  .hero-art__layer--back {
+    top: 18%;
+    left: 16%;
+    width: 39%;
+    rotate: -13deg;
+  }
+  .hero-art__layer--front {
+    top: 38%;
+    right: 7%;
+    width: 39%;
+    rotate: 11deg;
+  }
+  .hero-art__layer--gem {
+    top: 29%;
+    left: 34%;
+    width: 33.333%;
+  }
+  .hero-art__layer--lens {
+    top: 53%;
+    left: 17%;
+    width: 25%;
+    rotate: -12deg;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .hero-art__layer--back {
+      animation: card-drift 10s ease-in-out infinite;
+    }
+    .hero-art__layer--front {
+      animation: card-drift 12s ease-in-out -4s infinite reverse;
+    }
+    .hero-art__layer--gem {
+      animation: gem-float 7s ease-in-out -2s infinite;
+    }
+    .hero-art__layer--lens {
+      animation: lens-drift 11s ease-in-out -3s infinite;
+    }
+  }
+  @keyframes card-drift {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+    50% {
+      transform: translate3d(4px, -8px, 0);
+    }
+  }
+  @keyframes gem-float {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+    50% {
+      transform: translate3d(0, -10px, 0);
+    }
+  }
+  @keyframes lens-drift {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0) rotate(0);
+    }
+    50% {
+      transform: translate3d(-3px, -6px, 0) rotate(3deg);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>

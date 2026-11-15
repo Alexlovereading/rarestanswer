@@ -6,6 +6,8 @@
  */
 import type { ImageMetadata } from 'astro';
 import ArticleCover from './ArticleCover.astro';
+import WorldArt from './WorldArt.astro';
+import { articleArtCategory } from './article-art';
 
 interface Props {
   href: string;
@@ -32,7 +34,7 @@ const Title = heading;
 ---
 
 <a href={href} class="card group flex h-full flex-col overflow-hidden p-0">
-  <div class="aspect-video overflow-hidden bg-muted">
+  <div class="relative aspect-video overflow-hidden bg-muted">
     {
       image ? (
         <ArticleCover
@@ -43,6 +45,7 @@ const Title = heading;
         />
       ) : null
     }
+    <div class="related-art-stamp"><WorldArt category={articleArtCategory(title)} compact decorative lazy /></div>
   </div>
   <div class="flex flex-1 flex-col p-4 sm:p-5">
     {

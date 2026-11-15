@@ -1,0 +1,393 @@
+---
+/** The hub's static content, with illustrated category headings. No client filter. */
+import { Icon } from 'astro-icon/components';
+import CategoryArt from '~/components/art/CategoryArt.astro';
+import TierChip from '~/components/answers/TierChip.astro';
+import {
+  HUB_TITLE,
+  categoriesIn,
+  categoryLabel,
+  hubIntro,
+  type PromptSeo,
+} from '~/components/answers/copy';
+import { answerPath, triviaPath } from '~/components/answers/prompts';
+import { getUi } from '~/i18n/ui';
+import { defaultLocale } from '~/i18n/routing';
+import { CATEGORY_PAGES, LOBBY } from '~/lib/game/category-copy';
+import { homeUrl, localizePath } from '~/lib/url';
+interface Props {
+  prompts: PromptSeo[];
+}
+const { prompts } = Astro.props;
+const ui = getUi(defaultLocale);
+const groups = categoriesIn(prompts).map((category) => ({
+  category,
+  label: categoryLabel(category),
+  prompts: prompts.filter((prompt) => prompt.category === category),
+}));
+---
+
+<div class="answer-lobby" data-pagefind-body>
+  <header class="vault-header">
+    <nav class="text-sm text-muted-foreground" aria-label={ui.shared.breadcrumbAria}>
+      <a href={homeUrl(defaultLocale)} class="hover:text-nav">{ui.nav.home}</a><span class="mx-1"
+        >/</span
+      ><span class="text-foreground" aria-current="page">{ui.nav.rarestAnswers}</span>
+    </nav>
+    <p class="eyebrow vault-kicker">{LOBBY.browseKicker}</p>
+    <h1 data-pagefind-meta={`title:${HUB_TITLE}`}>{HUB_TITLE}</h1>
+    <p class="vault-intro">{hubIntro(prompts)}</p>
+    {
+      groups.length > 1 && (
+        <nav class="vault-nav" aria-label="Prompt categories">
+          <ul>
+            {groups.map((group) => (
+              <li>
+                <a href={`#${group.category}`}>
+                  <CategoryArt category={group.category} size={56} decorative />
+                  <span>
+                    {group.label}
+                    <small>
+                      {group.prompts.length} {LOBBY.prompts}
+                    </small>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+  </header>
+  {
+    groups.map((group) => (
+      <section
+        id={group.category}
+        class="vault-category"
+        aria-labelledby={`heading-${group.category}`}
+      >
+        <header class="category-header">
+          <>
+            <div class="category-heading">
+              <>
+                <CategoryArt category={group.category} size={96} />
+                <div>
+                  <>
+                    <p class="eyebrow">
+                      {group.prompts.length} {LOBBY.prompts}
+                    </p>
+                    <h2 id={`heading-${group.category}`}>{group.label}</h2>
+                  </>
+                </div>
+              </>
+            </div>
+            <a href={triviaPath(group.category)} class="category-play">
+              {group.label} trivia
+              <Icon name="lucide:arrow-up-right" aria-hidden="true" />
+            </a>
+          </>
+        </header>
+        <ul class="answer-grid" data-pagefind-ignore>
+          {group.prompts.map((prompt) => {
+            const rare = prompt.answers[0];
+            return (
+              <li>
+                <a href={answerPath(prompt.slug)} class="answer-card">
+                  <h3>{prompt.heading}</h3>
+                  {rare && (
+                    <p class="rare-answer">
+                      {LOBBY.rarest}: <span>{rare.name}</span>
+                    </p>
+                  )}
+                  <p class="answer-meta">
+                    <span>
+                      {prompt.answers.length === 1
+                        ? '1 answer'
+                        : `${prompt.answers.length} answers`}
+                    </span>
+                    {rare && <TierChip tier={rare.tier} />}
+                  </p>
+                  <Icon name="lucide:arrow-right" class="card-arrow" aria-hidden="true" />
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    ))
+  }
+  <nav class="explore-nav" aria-label={ui.shared.keepExploring}>
+    <h2>{ui.shared.keepExploring}</h2><ul>
+      {
+        [
+          { href: homeUrl(defaultLocale), label: ui.nav.play },
+          { href: localizePath('/unlimited/', defaultLocale), label: ui.nav.unlimited },
+          {
+            href: localizePath('/trivia/animals/', defaultLocale),
+            label: CATEGORY_PAGES.animals.h1,
+          },
+          { href: localizePath('/games/', defaultLocale), label: ui.nav.games },
+          { href: localizePath('/guides/', defaultLocale), label: ui.nav.guides },
+        ].map((link) => (
+          <li>
+            <a href={link.href}>
+              {link.label}
+              <Icon name="lucide:arrow-right" aria-hidden="true" />
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</div>
+
+<style>
+  .answer-lobby {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 1.5rem 1rem 4rem;
+  }
+  .vault-header {
+    padding: 1.5rem;
+    border: 1px solid hsl(var(--brand) / 0.2);
+    border-radius: 1.5rem;
+    background:
+      radial-gradient(ellipse at top right, hsl(var(--brand-light) / 0.13), transparent 70%),
+      hsl(var(--card));
+  }
+  .eyebrow {
+    color: hsl(var(--brand-text));
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+  .vault-kicker {
+    margin-top: 1.75rem;
+  }
+  h1 {
+    max-width: 26ch;
+    margin-top: 0.5rem;
+    font-size: clamp(1.85rem, 3.6vw, 3rem);
+    line-height: 1.1;
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    text-wrap: balance;
+  }
+  .vault-intro {
+    max-width: 85ch;
+    margin-top: 1.25rem;
+    color: hsl(var(--muted-foreground));
+    line-height: 1.6;
+  }
+  .vault-nav {
+    margin-top: 1.5rem;
+  }
+  .vault-nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.625rem;
+    list-style: none;
+    padding: 0;
+  }
+  .vault-nav li {
+    min-width: 0;
+  }
+  .vault-nav a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 100%;
+    padding: 0.6rem 0.4rem;
+    border: 1px solid hsl(var(--border));
+    border-radius: 0.875rem;
+    background: hsl(var(--background) / 0.7);
+  }
+  .vault-nav :global(svg),
+  .vault-nav :global(img) {
+    flex: 0 0 44px;
+    width: 44px;
+    height: 44px;
+  }
+  .vault-nav span {
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .vault-nav small {
+    display: block;
+    margin-top: 0.3rem;
+    color: hsl(var(--muted-foreground));
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+  .vault-category {
+    margin-top: 3rem;
+    scroll-margin-top: 6rem;
+  }
+  .category-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid hsl(var(--border));
+  }
+  .category-heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .category-heading > :global(svg),
+  .category-heading > :global(img) {
+    flex: 0 0 80px;
+    width: 80px;
+    height: 80px;
+  }
+  h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+  }
+  .category-heading h2 {
+    margin-top: 0.4rem;
+  }
+  .category-play {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    color: hsl(var(--brand-text));
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .category-play :global(svg) {
+    width: 16px;
+    height: 16px;
+  }
+  .answer-grid {
+    display: grid;
+    gap: 0.875rem;
+    margin-top: 1.25rem;
+    padding: 0;
+    list-style: none;
+  }
+  .answer-grid li {
+    min-width: 0;
+  }
+  .answer-card {
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 1.25rem 1.25rem 2rem;
+    border: 1px solid hsl(var(--border));
+    border-radius: 1rem;
+    background: hsl(var(--card));
+    transition:
+      transform 0.2s,
+      border-color 0.2s;
+  }
+  .answer-card:hover {
+    transform: translateY(-3px);
+    border-color: hsl(var(--brand));
+  }
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+  .rare-answer {
+    margin-top: 0.875rem;
+    color: hsl(var(--muted-foreground));
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  .rare-answer span {
+    color: hsl(var(--foreground));
+    font-weight: 600;
+  }
+  .answer-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    color: hsl(var(--muted-foreground));
+    font-size: 0.8125rem;
+  }
+  .card-arrow {
+    position: absolute;
+    bottom: 0.875rem;
+    right: 1.1rem;
+    width: 16px;
+    height: 16px;
+    color: hsl(var(--brand-text));
+  }
+  .explore-nav {
+    margin-top: 3.5rem;
+  }
+  .explore-nav ul {
+    display: grid;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+    list-style: none;
+    padding: 0;
+  }
+  .explore-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 48px;
+    padding: 0.75rem 1rem;
+    border: 1px solid hsl(var(--border));
+    border-radius: 0.75rem;
+    background: hsl(var(--card));
+    color: hsl(var(--brand-text));
+    font-weight: 600;
+  }
+  .explore-nav :global(svg) {
+    width: 16px;
+    height: 16px;
+  }
+  a:focus-visible {
+    outline: 3px solid hsl(var(--brand));
+    outline-offset: 3px;
+  }
+  .vault-nav a:hover,
+  .explore-nav a:hover {
+    border-color: hsl(var(--brand));
+  }
+  @media (min-width: 640px) {
+    .vault-nav ul {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .answer-grid,
+    .explore-nav ul {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (min-width: 1050px) {
+    .answer-lobby {
+      padding: 2.5rem 2rem 5rem;
+    }
+    .vault-header {
+      padding: 2rem;
+    }
+    .answer-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .answer-lobby *,
+    .answer-lobby *::before,
+    .answer-lobby *::after {
+      animation: none !important;
+      transition: none !important;
+      transform: none !important;
+      scroll-behavior: auto !important;
+    }
+  }
+</style>

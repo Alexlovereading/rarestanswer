@@ -1,8 +1,11 @@
 ---
 import LegalPage from '~/components/layout/LegalPage.astro';
 import PlayCta from '~/components/article/PlayCta.astro';
+import HeroArt from '~/components/art/HeroArt.astro';
+import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
 import { site } from '~/config/site';
+const labels = getUi(defaultLocale).shared.visuals;
 ---
 
 <LegalPage
@@ -11,6 +14,13 @@ import { site } from '~/config/site';
   description="What Rarest Answer is, how the rarest correct answer scores, and what this site does and does not claim."
   lastUpdated="2026-11-14"
 >
+  <aside slot="illustration" class="content-band mt-6">
+    <div class="min-w-0">
+      <p class="font-display text-2xl font-semibold leading-snug">{labels.aboutBand}</p>
+      <p class="mt-3 text-sm leading-relaxed text-muted-foreground">{labels.aboutBandNote}</p>
+    </div>
+    <div class="content-band__art"><HeroArt /></div>
+  </aside>
   <p>
     {site.name} is the home of {site.game.name}, a free daily trivia game you play in the browser.
     A prompt asks you to name something that fits. Every accepted answer is correct. A rarer correct

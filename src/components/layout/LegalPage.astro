@@ -34,6 +34,7 @@ const ui = getUi(locale);
     {lastUpdated && (
       <p class="mt-3 text-sm text-muted-foreground">{ui.shared.lastUpdated}: {lastUpdated}</p>
     )}
+    <slot name="illustration" />
     <div
       class="prose prose-lg mt-8 max-w-none dark:prose-invert prose-headings:scroll-mt-20 prose-a:text-nav"
     >

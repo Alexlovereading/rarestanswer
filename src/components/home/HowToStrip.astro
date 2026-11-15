@@ -1,0 +1,132 @@
+---
+import { Icon } from 'astro-icon/components';
+import { LOBBY, LOBBY_STEPS } from '~/lib/game/category-copy';
+---
+
+<section aria-labelledby="how-title" class="how-strip" data-pagefind-body>
+  <p class="eyebrow">{LOBBY.howKicker}</p>
+  <h2 id="how-title">{LOBBY.howTitle}</h2>
+  <ol>
+    {
+      LOBBY_STEPS.map((step, index) => (
+        <li>
+          <div class="step-top">
+            <>
+              <span class="step-icon" style={`--step-delay: ${index * -1.5}s`}>
+                <Icon name={step.icon} aria-hidden="true" />
+              </span>
+              <span class="step-number" aria-hidden="true">
+                0{index + 1}
+              </span>
+            </>
+          </div>
+          <>
+            <h3>{step.title}</h3>
+            <p>{step.body}</p>
+          </>
+        </li>
+      ))
+    }
+  </ol>
+</section>
+
+<style>
+  .eyebrow {
+    color: hsl(var(--brand-text));
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  h2 {
+    margin-top: 0.35rem;
+    font-size: clamp(1.65rem, 2.7vw, 2rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+  }
+  ol {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    position: relative;
+    padding: 1.5rem;
+    border: 1px solid hsl(var(--border));
+    border-radius: 1.125rem;
+    background: hsl(var(--card));
+  }
+  .step-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .step-icon {
+    display: grid;
+    width: 3rem;
+    height: 3rem;
+    place-items: center;
+    border-radius: 0.875rem;
+    color: hsl(var(--brand-text));
+    background: hsl(var(--brand) / 0.08);
+    animation: icon-lift 6s ease-in-out infinite;
+    animation-delay: var(--step-delay);
+  }
+  .step-icon :global(svg) {
+    width: 24px;
+    height: 24px;
+  }
+  .step-number {
+    color: hsl(var(--muted-foreground));
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.1em;
+  }
+  h3 {
+    margin-top: 1rem;
+    font-size: 1.15rem;
+    line-height: 1.3;
+    font-weight: 700;
+  }
+  li p {
+    margin-top: 0.625rem;
+    font-size: 0.95rem;
+    color: hsl(var(--muted-foreground));
+    line-height: 1.5;
+  }
+  @keyframes icon-lift {
+    0%,
+    30%,
+    100% {
+      transform: translateY(0) rotate(0);
+    }
+    15% {
+      transform: translateY(-4px) rotate(-5deg);
+    }
+  }
+  @media (min-width: 700px) {
+    ol {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    li:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 3rem;
+      right: -1rem;
+      z-index: 1;
+      width: 1rem;
+      border-top: 2px dashed hsl(var(--brand) / 0.4);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .how-strip *,
+    .how-strip *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>

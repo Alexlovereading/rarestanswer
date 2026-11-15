@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="600" viewBox="0 0 720 600">
+    <defs><radialGradient id="halo"><stop stop-color="#7561df" stop-opacity=".22"/><stop offset="1" stop-color="#7561df" stop-opacity="0"/></radialGradient><linearGradient id="pedestal" x2=".8" y2="1"><stop stop-color="#7561df"/><stop offset="1" stop-color="#21164f"/></linearGradient></defs>
+    <circle cx="360" cy="290" r="280" fill="url(#halo)"/>
+    <g fill="none" stroke="#9586e0"><ellipse cx="360" cy="318" rx="278" ry="113" transform="rotate(-25 360 318)" stroke-opacity=".25"/><ellipse cx="360" cy="318" rx="250" ry="158" transform="rotate(29 360 318)" stroke-opacity=".15" stroke-dasharray="4 10"/><circle cx="360" cy="286" r="185" stroke-opacity=".08"/></g>
+    <ellipse cx="360" cy="510" rx="171" ry="24" fill="#17113e" opacity=".12"/>
+    <path d="M223 441v30c0 37 274 37 274 0v-30" fill="url(#pedestal)" stroke="#9e8fea" stroke-width="1.5"/>
+    <ellipse cx="360" cy="441" rx="137" ry="29" fill="#48378e" stroke="#b6a6ec" stroke-width="1.5"/>
+    <ellipse cx="360" cy="439" rx="111" ry="18" fill="none" stroke="#f7ca59" stroke-opacity=".5"/>
+    <path d="m238 449 0 19m244-19v19" stroke="#f7ca59" stroke-opacity=".4" stroke-width="3"/>
+    <path d="M143 191Q143 202 154 202Q143 202 143 213Q143 202 132 202Q143 202 143 191Z" fill="#f7ca59"/><path d="M555 360Q555 373 568 373Q555 373 555 386Q555 373 542 373Q555 373 555 360Z" fill="#f7ca59"/><path d="M503 95Q503 102 510 102Q503 102 503 109Q503 102 496 102Q503 102 503 95Z" fill="#b9aaff"/><path d="M232 347Q232 352 237 352Q232 352 232 357Q232 352 227 352Q232 352 232 347Z" fill="#b9aaff"/><path d="M343 77Q343 83 349 83Q343 83 343 89Q343 83 337 83Q343 83 343 77Z" fill="#f7ca59"/>
+    <g fill="#b9aaff"><circle cx="183" cy="389" r="3"/><circle cx="566" cy="231" r="3"/><circle cx="274" cy="126" r="2"/><circle cx="484" cy="496" r="2"/></g>
+    <circle cx="583" cy="306" r="11" fill="#70dfdc" stroke="#d8fffb" stroke-width="2"/><circle cx="178" cy="321" r="7" fill="#f7ca59"/>
+  </svg>
