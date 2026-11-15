@@ -1,0 +1,32 @@
+---
+import { resolveSiteAds } from './placements';
+import css from '~/styles/ads.css?inline';
+const ads = resolveSiteAds(import.meta.env);
+const show = Object.values(ads).some((ad) => ad.provider !== 'none');
+const rails = ads.left.provider !== 'none' || ads.right.provider !== 'none';
+const desktop = ads.desktop.provider !== 'none';
+const mobile = ads.mobile.provider !== 'none';
+---
+
+{show && (
+  <>
+    <style set:html={css} />
+    <script is:inline define:vars={{ rails, desktop, mobile }}>
+      // Reserve gutters and the full anchor height BEFORE the first body paint.
+      // Keep the reservation while consent is pending so acceptance causes no CLS.
+      (function () {
+        var root = document.documentElement;
+        if (rails) root.classList.add('has-site-ad-rails');
+        if (desktop) root.setAttribute('data-ad-anchor-desktop', '1');
+        if (mobile) root.setAttribute('data-ad-anchor-mobile', '1');
+        var dismissed = false;
+        try {
+          dismissed = sessionStorage.getItem('site-anchor-dismissed') === '1';
+        } catch (e) {
+          /* storage unavailable — dismissal still works on this page */
+        }
+        if ((desktop || mobile) && !dismissed) root.classList.add('has-site-ad-anchor');
+      })();
+    </script>
+  </>
+)}

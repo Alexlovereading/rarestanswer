@@ -599,3 +599,399 @@ Verification: `pnpm lint` passed. `pnpm typecheck` passed, 0 diagnostics (the ex
 Data verification against that build: catalog 276 prompts / 23,132 answers / 8 categories. The locally selected daily deal had answer counts 26, 52, 64, 90, 36, 95, 47 = 410; tier counts Common through Legendary were 85, 79, 80, 81, 53, 32 = 410, matching the loaded JSON. These are verification snapshots, not hardcoded UI values.
 
 Rendered QA remains unverified: Ego could not start in the sandbox, and the already-installed Playwright Chromium 1248 closed during launch. No screenshots or measured CLS/contrast claims. No server was started. Integration QA should check the two-row lineup at 375px, both themes, Stats scrolling/focus, lazy loading/reopen, and the transition to personal stats after a completed round.
+
+### A3-HOME-LAYOUT integration requests (in progress)
+
+A3 owns the home/play page layout and `src/components/home/**`. A1: please append final public hero, three how-to scenes, and Nova mascot image paths/dimensions (and any art component API) here as soon as available; A3 will poll and integrate. A2: A3 keeps using `CategoryArt` and `TierBadge` so the raster upgrade flows through without duplicate asset work. A5: hero/content will use a centered maximum width of 1040px, leaving 200px per side at 1440px (including a 16px content inset); please keep rails outside that content footprint. No ad markup will be added by A3. All new page copy stays in the owned build-only `category-copy.ts` module, following the existing play-page copy arrangement; locale JSON is outside A3 ownership.
+
+- A4-GAME-ART-INGAME → A1/A2 coordination (2026-11-15): integrating within game/article/answers/404 only. A2 `TierBadge(tier,size)` and `CategoryArt(category,size,decorative)` existing API will be reused, including `<img>/<picture>` extraction for canvas share exports. Please keep large treasure detail available at 160–176px display / 2x. A1: please publish Nova thinking/celebrating/surprised/sleeping and the 404 scene paths + component API here; game will clone lazy `<img>` templates into fixed-size reveal/end/countdown slots. No new raster generation from A4 because public assets/scripts are outside A4 ownership. Originals `.art-src/` ignore should be added by its owner.
+
+
+### A2-TIER-CATEGORY-ART integration notes (in progress)
+
+- Root / .gitignore owner: please add `.art-src/` to `.gitignore`; A2 is preserving generated source PNGs there and does not own `.gitignore`.
+- A1 world art: A2 owns `HeroArt.astro` and will use the hero in `public/images/world/` once it exists; please record the preferred hero filename/dimensions in this handoff.
+- Game agent: `TierBadge` is moving to raster `<picture>` art, retaining a hidden SVG compatibility fallback for the current `share-card.ts` serializer. Prefer updating `badgeImage` to decode the template img (`/images/tiers/<tier>-256.webp`) so exported cards use the same new treasures. A2 cannot edit game code.
+
+- A4 → A2: `share-card.ts` now decodes a cloned template `<img>`/`<picture>` first, retaining SVG only as a legacy fallback. Hidden SVG compatibility art is no longer needed for A4. Reveal template uses `TierBadge size={176}`, end/table slots downscale that template; a 352px or 384px tier variant would keep the large reveal/export crisp if feasible. Category headers will be 160–208px; API remains unchanged.
+
+- A4 → A5 integration check: interim `pnpm typecheck` (03:11 local tool timestamp) found two pending ad API mismatches in `ReservedAdSlot.astro`: `AdsterraSlot` has no `managed` prop yet; `AdSenseSlot position` currently rejects left/right/desktop/mobile. A4 owned files had no diagnostics. Assuming these are in-progress edits; will recheck after assets arrive.
+
+- A1-HERO-MASCOT → integration agents: portrait hero READY at `/images/world/hero-observatory-520x780.webp` (61,476 bytes) and `-1040x1560.webp` (159,584 bytes). AVIF encoded larger, so use WebP. Display 520×780; use width/height to reserve the 2:3 frame. Suggested alt: “Nova the owl watches six celestial treasures rise above the floating Rarity Observatory.” This is the only image eligible for homepage fetchpriority=high; keep gameplay and tier facts in HTML. Social and remaining poses/scenes are in progress. Shared optimizer is ready: `node --import tsx scripts/optimize-art.ts --help` (read/call only, A1 owns edits).
+- A1-HERO-MASCOT → .gitignore owner / final integrator: please add `.art-src/` to `.gitignore`. A1 does not own that file. Original PNGs are currently outside the repo at `/tmp/a1-hero-mascot-art-src/` and the built-in generated-images directory; optimized public assets only enter the repo. Once ignored, sources can be copied to `.art-src/A1-HERO-MASCOT/`.
+
+- A3 → A1/A2: the portrait hero is now integrated directly into the desktop LobbyHero as a responsive 520/1040 WebP picture with the full 2:3 composition, descriptive alt, dimensions, and the sole page `fetchpriority="high"`. WebP is smaller than the supplied AVIF here. `HeroArt` remains available for compact game chrome. Nova waving has been detected; integrating it into the closing CTA next.
+- A3 → A5/final integrator: interim lint and typecheck passed (one existing MobileAnchorAd `addListener` deprecation hint). Full tests now have the known three content-links `tsx` sandbox IPC failures, plus a new ownership-external `apply-template.test.ts:292` failure because shipped wrangler value `"true"` is not in the allowed set. Please align that contract with your new ad flags if intentional; A3 will leave your env/tests untouched.
+
+- A4 → A1 visual QA: waving/thinking are wired through lazy fixed-size image templates. The thinking pose has a clearly readable glowing “?” above Nova; please replace that glyph with a star swirl/constellation when convenient so the art bible's no-text-inside-images rule stays clean. Remaining integration paths assumed `/images/world/nova-{celebrating,surprised,sleeping}-160x160.webp` + 320×320. Please note if your chosen filenames differ. A4 still needs the 404 scene filename/dimensions before final QA.
+
+- A3 → A1: `NovaCta` now uses the 160/320 waving pair at exactly 160 CSS px. Three how-to scenes are the remaining A3 asset dependency: (1) name an accepted answer, (2) discover a rarer celestial treasure, (3) reveal/share the round. Preferred landscape 320×200 / 640×400, but please record your actual aspect ratio/paths and I will match the frames. Existing icons remain until these land.
+- A1-HERO-MASCOT → integration agents: hero social adaptation now ready at `/images/world/hero-observatory-social-1200x675.webp` (+ 2400×1350). The five true-alpha Nova poses use stable names `/images/world/nova-{waving,thinking,celebrating,surprised,sleeping}-{160x160,320x320}.webp` (all are being exported now). Render 160×160 with the 320px image as 2×. Scenes will be `how-reading-640x400.webp`, `how-typing-640x400.webp`, `how-catching-640x400.webp`, and `empty-observatory-640x400.webp`, each also 1280×800. A1 will append final sizes and alt suggestions after verification.
+
+- A3 → A4: the desktop page already has the full tall Observatory hero. Its compact `.ra-lobby-hero` inside GameApp is constrained to 64×64 on small screens and hidden at ≥960px to keep Play high. Consider using the waving Nova there instead of the portrait HeroArt when you update the start card. Home's new ladder uses pageview-only tier descriptions; `copy.ts` still has “Most players will say it” / “Few people land here” in TIER_BLURBS, which are outside A3 ownership and imply unmeasured player behavior.
+- A3 visual QA: preview server bind is denied (`PermissionError: EPERM`) and the installed Playwright Chromium 1248 aborts at launch (SIGABRT); Ego first returned a task space, but launching the browser then failed with macOS XPC `Connection invalid` / “Failed to start ego lite.” No screenshot/CLS/mobile-fold claim. No server remains. A no-server follow-up Playwright smoke script is at `/tmp/A3-playwright-layout-qa.mjs`, ready for the integrator after rebuilding `/tmp/A3-HOME-LAYOUT-dist`.
+
+- A4 → A3/A1: all five Nova pose pairs are now integrated with no placeholder fallback; the compact start-card art is waving Nova. `TIER_BLURBS` no longer claims measured player behavior or knowledge: descriptions now refer only to the prompt's published view ranking. Celebrating/surprised/sleeping match the mascot design; all poses keep lazy loading and fixed reveal/end/countdown frames. Waiting on `empty-observatory-640x400.webp` / 1280×800 for 404.
+
+- A2 → A4/A3: the three art components now render raster pictures. Tier paths are `/images/tiers/{common,familiar,uncommon,rare,epic,legendary}-{128x128,192x192,256x256,384x384}.webp`; the 384px pair supports the 176px reveal. Category paths are `/images/categories/<key>-{64x64,128x128,256x256,512x512,1024x1024}.webp`. Compression is still running; final sizes/QA follow. No hidden SVG remains now that A4 export supports images. HeroArt uses A1 portrait hero with lazy loading and no high fetch priority, preserving A3 sole LCP image.
+
+
+## A5-AD-SLOTS done
+
+Implemented only the assigned ad components, ad-only BaseLayout/LocaleLayout mounting, new `src/styles/ads.css`, ad vars in `wrangler.toml`, `.env.example`, a short `docs/ads.md` section, and new `tests/ads-slots.test.ts`. Updated only the allowed AGENTS commands-table line: 24 → 25 suites, adding ads-slots. Existing `shared.adLabel` / `shared.closeAd` JSON keys were reused; en.json was not edited. Other agents' changes were preserved. No state-changing git commands.
+
+LEFT and RIGHT are exact 160×600 sticky units in dedicated gutters from 1440px upward; main and footer text keep at least 24px clearance. They wait for an 860px-tall viewport so a complete creative fits above the bottom bar. BOTTOM is one fixed, responsive shell mount: 728×90 at ≥768px, 320×50 below that. The 44px close target has a separate row above the creative; dismissal uses sessionStorage (`site-anchor-dismissed`) and persists across pages/reloads in the current tab session. Prepaint CSS/script reserve the full bar height (148px desktop / 108px mobile + safe-area inset), including while consent is pending; dismissal drops the reservation. Back-to-top clears the bar. No animation is introduced. Actual rendered CLS remains unmeasured because browser launch is blocked.
+
+The shell reuses AdSenseSlot/AdsterraSlot. Managed units wait for consent AND their visible breakpoint, so hidden rails/alternate bottom variants never request inventory. The existing consent banner now also gates Adsterra-only configurations. An AdSense client without any configured slot no longer loads its network script. AdSense wins if both providers are configured for one position. BaseLayout mounts SiteAds after the page slot, outside game markup; the old LocaleLayout top StickyBanner is unmounted, and legacy article-level MobileAnchorAd calls are inert to prevent duplicate bottom bars. No ad is inserted inside the play card, input, or dialogs. No schema was added.
+
+`PUBLIC_AD_PLACEHOLDERS = "true"` is enabled in wrangler.toml as requested. Missing real units preview as exact-size dashed boxes labeled Advertisement with no fake creative or network request. False + empty ad env renders no ad markup, styles, or ad script. Configured real units replace only their own placeholder. Fill `PUBLIC_ADSENSE_CLIENT` + `PUBLIC_ADSENSE_SLOT_RAIL_LEFT`, `_RAIL_RIGHT`, `_ANCHOR_DESKTOP`, `_ANCHOR_MOBILE`; Adsterra alternatives and the required per-unit HTML filenames are listed in docs/ads.md and .env.example. Real Adsterra HTML files were not created because no unit code was provided.
+
+Validation: pnpm lint passed; focused owned-file ESLint with --max-warnings 0 passed; pnpm typecheck passed with 0 errors/warnings/hints (existing missing tutorials-directory glob warning remains). New ad suite: 8 tests passed; with consent and AGENTS registry suites: 14/14 passed. Tests render the actual Astro components via the installed compiler/container and execute the actual controller: empty-env output, exact preview sizes, outside-game mounting, Adsterra-only consent banner, deferred network variants, short-view height guard, session dismissal, and prepaint reservation. Final `pnpm exec astro build --outDir /tmp/a5-ad-slots-dist` passed, 331 pages; all 331 built HTML pages have four preview placements, exactly one bottom anchor, and no ad descendants of a game root or real managed units. Owned-file git diff --check passed.
+
+Full pnpm test: 468 passed, 11 skipped, 4 failed. Three failures are the previously documented tests/content-links.test.ts subprocess cases: sandbox rejects the tsx IPC socket (listen EPERM). One additional failure is the unowned tests/apply-template.test.ts “shipped wrangler.toml” allowlist rejecting the newly required string value `true`. Integration request: update that test to permit PUBLIC_AD_PLACEHOLDERS=true specifically (prefer a key-aware assertion), preserving the other env leak checks. It was left untouched because A5 owns only new tests/ads-*.test.ts.
+
+Browser QA: Ego Lite failed to start under the sandbox; the already-installed Playwright Chromium 1248 aborted with SIGABRT before page creation. No screenshot or measured overflow/CLS claim. No server was started or left running. `/tmp/a5-ad-slots-smoke.mjs` is a syntax-checked follow-up using the static outDir directly, with no server: 375/1280/1440/1920px in both themes, gutter/unit geometry, footer clearance, no preview network calls, keyboard close, dismissal across reload/navigation, and CLS reporting. No browser dependency was installed.
+
+Image files and sizes: none — ad placeholders intentionally contain only the localized label. No PNG originals, .art-src, image assets, or .gitignore edits were needed.
+
+- A4 → A2: confirmed the new raster component API is active and the six tier sets are present. The canvas exporter now uses raster only; removed the old SVG serializer and object-URL machinery. All answer-table rows now carry `TierBadge` via `TierChip`, rather than embedding large SVG markup only in the first three rows. Will verify responsive sources and all file references after your final export pass.
+
+- A3 → A2/A4: raster components verified and hooked into the layout. Home/category tiles stay at 128px so the 256px (~20KB for geography) source covers 2× displays; ladder badges are 88px and select the 192px (~11KB Legendary) source at 2×. The page ladder now reuses A4's corrected shared TIER_BLURBS, removing the temporary duplicate copy. Direct hero/waving asset integration remains A1's files, unchanged.
+
+
+## A2-TIER-CATEGORY-ART done
+
+Generated six celestial tier treasures and eight square painted Observatory exhibits with the built-in image_gen tool. The categories share brass-edged stone plinths, arched night-sky windows, clouds, jewel tones, and warm lantern light; celestial props carry the world theme without introducing another Nova design. Tier art is Common grey comet pebble, Familiar teal shard, Uncommon green aurora crystal, Rare blue star-sapphire orb, Epic violet nebula orb, Legendary golden star crystal. No text, logos, mines, caves, pickaxes, or copied characters/layouts were added.
+
+Only owned `public/images/tiers/**`, `public/images/categories/**`, and `src/components/art/**` were edited, plus the authorized source-art workspace and this append-only handoff. The CategoryArt `{category,size,decorative}`, TierBadge `{tier,size}`, and HeroArt `{class}` APIs are unchanged. CategoryArt and TierBadge use responsive `<picture>` sources with explicit dimensions, descriptive alt, lazy loading, and reserved square geometry. HeroArt now uses A1’s 520×780 / 1040×1560 world hero, with a reserved 2:3 frame and lazy loading; A3 keeps the sole per-page high-priority LCP hero. No new JS, animation, schema, dependencies, or git state-changing commands. The old inline tier SVGs were removed after A4 confirmed that share-card export decodes raster pictures. Existing artwork.ts/brand SVG sources remain because the cover generator and other consumers still use them.
+
+Optimization: sharp via A1’s `scripts/optimize-art.ts` and the local A2 optimizer. All WebPs use quality 78. AVIF category versions use quality 52 and are smaller than WebP at every size. Every tier is true-alpha with transparent corners; all 24 tier files are below 25 KiB (largest 24,174 bytes). Added 192/384px tier variants for A4’s 176px reveal/export. Only three 384px icons needed alpha quantization to meet the strict budget; color quality remains 78. Category files peak at 170,112 bytes. Total: 104 responsive files, 3,460,874 bytes.
+
+PNG originals, exact prompt set, provenance, optimizer, and size manifest are in `.art-src/a2/` (`manifest.json`, `optimize.mjs`, `sizes.json`). Built-in source files also remain in the generated-images directory. **Integration request: add `.art-src/` to root `.gitignore` before staging; A2 does not own `.gitignore` and has not changed it.** No PNGs were added to public or staged.
+
+Verification: `pnpm lint` passed, focused owned-art ESLint with --max-warnings 0 passed, `pnpm typecheck` passed with 0 errors/warnings/hints (existing missing tutorials glob warning), and `pnpm exec astro build --outDir /tmp/A2-TIER-CATEGORY-ART-dist` passed (331 pages). `pnpm test` ran: 468 passed, 11 skipped, 4 failed outside ownership: the three known `tests/content-links.test.ts` subprocess cases hit sandbox `tsx` IPC EPERM, and `tests/apply-template.test.ts:292` rejects A5’s required `PUBLIC_AD_PLACEHOLDERS="true"`. No unowned tests or configuration were changed. Owned `git diff --check` passed.
+
+Static built-output QA checked all 331 pages: all 30,763 tier/category/world-hero image instances have width/height/alt, all 152,508 corresponding srcset references resolve, and no page has more than one high-priority image. All six tier corner-alpha checks passed. Inspected the eight-category contact sheet and tiers at 32/48/64/96px in both light and dark palettes; review PNGs are `/tmp/a2-category-review.png` and `/tmp/a2-tier-review.png`. Ego Lite could not launch under the sandbox (macOS XPC Connection invalid); rendered page screenshots, runtime export, measured CLS, and mobile overflow remain integration checks. No server was started or left running.
+
+Image files below list exact encoded bytes (all square; dimensions are in filenames).
+
+### Tier files
+
+- `public/images/tiers/common-128x128.webp` — 3,898 bytes
+
+- `public/images/tiers/common-192x192.webp` — 5,688 bytes
+
+- `public/images/tiers/common-256x256.webp` — 9,128 bytes
+
+- `public/images/tiers/common-384x384.webp` — 14,970 bytes
+
+- `public/images/tiers/familiar-128x128.webp` — 2,734 bytes
+
+- `public/images/tiers/familiar-192x192.webp` — 4,320 bytes
+
+- `public/images/tiers/familiar-256x256.webp` — 6,160 bytes
+
+- `public/images/tiers/familiar-384x384.webp` — 9,906 bytes
+
+- `public/images/tiers/uncommon-128x128.webp` — 7,248 bytes
+
+- `public/images/tiers/uncommon-192x192.webp` — 12,322 bytes
+
+- `public/images/tiers/uncommon-256x256.webp` — 19,032 bytes
+
+- `public/images/tiers/uncommon-384x384.webp` — 17,022 bytes
+
+- `public/images/tiers/rare-128x128.webp` — 4,178 bytes
+
+- `public/images/tiers/rare-192x192.webp` — 6,718 bytes
+
+- `public/images/tiers/rare-256x256.webp` — 9,874 bytes
+
+- `public/images/tiers/rare-384x384.webp` — 16,240 bytes
+
+- `public/images/tiers/epic-128x128.webp` — 6,148 bytes
+
+- `public/images/tiers/epic-192x192.webp` — 10,304 bytes
+
+- `public/images/tiers/epic-256x256.webp` — 15,438 bytes
+
+- `public/images/tiers/epic-384x384.webp` — 24,174 bytes
+
+- `public/images/tiers/legendary-128x128.webp` — 6,550 bytes
+
+- `public/images/tiers/legendary-192x192.webp` — 10,954 bytes
+
+- `public/images/tiers/legendary-256x256.webp` — 16,996 bytes
+
+- `public/images/tiers/legendary-384x384.webp` — 22,092 bytes
+
+
+### Category files
+
+- `public/images/categories/geography-64x64.webp` — 2,068 bytes
+
+- `public/images/categories/geography-64x64.avif` — 1,395 bytes
+
+- `public/images/categories/geography-128x128.webp` — 6,626 bytes
+
+- `public/images/categories/geography-128x128.avif` — 3,953 bytes
+
+- `public/images/categories/geography-256x256.webp` — 20,234 bytes
+
+- `public/images/categories/geography-256x256.avif` — 11,907 bytes
+
+- `public/images/categories/geography-512x512.webp` — 59,986 bytes
+
+- `public/images/categories/geography-512x512.avif` — 36,556 bytes
+
+- `public/images/categories/geography-1024x1024.webp` — 163,286 bytes
+
+- `public/images/categories/geography-1024x1024.avif` — 102,129 bytes
+
+- `public/images/categories/animals-64x64.webp` — 1,902 bytes
+
+- `public/images/categories/animals-64x64.avif` — 1,283 bytes
+
+- `public/images/categories/animals-128x128.webp` — 5,872 bytes
+
+- `public/images/categories/animals-128x128.avif` — 3,548 bytes
+
+- `public/images/categories/animals-256x256.webp` — 18,078 bytes
+
+- `public/images/categories/animals-256x256.avif` — 10,696 bytes
+
+- `public/images/categories/animals-512x512.webp` — 56,496 bytes
+
+- `public/images/categories/animals-512x512.avif` — 33,902 bytes
+
+- `public/images/categories/animals-1024x1024.webp` — 168,434 bytes
+
+- `public/images/categories/animals-1024x1024.avif` — 105,249 bytes
+
+- `public/images/categories/food-64x64.webp` — 1,928 bytes
+
+- `public/images/categories/food-64x64.avif` — 1,315 bytes
+
+- `public/images/categories/food-128x128.webp` — 6,146 bytes
+
+- `public/images/categories/food-128x128.avif` — 3,771 bytes
+
+- `public/images/categories/food-256x256.webp` — 19,006 bytes
+
+- `public/images/categories/food-256x256.avif` — 11,667 bytes
+
+- `public/images/categories/food-512x512.webp` — 58,670 bytes
+
+- `public/images/categories/food-512x512.avif` — 36,363 bytes
+
+- `public/images/categories/food-1024x1024.webp` — 170,112 bytes
+
+- `public/images/categories/food-1024x1024.avif` — 108,856 bytes
+
+- `public/images/categories/sports-64x64.webp` — 1,946 bytes
+
+- `public/images/categories/sports-64x64.avif` — 1,303 bytes
+
+- `public/images/categories/sports-128x128.webp` — 5,954 bytes
+
+- `public/images/categories/sports-128x128.avif` — 3,833 bytes
+
+- `public/images/categories/sports-256x256.webp` — 17,738 bytes
+
+- `public/images/categories/sports-256x256.avif` — 10,942 bytes
+
+- `public/images/categories/sports-512x512.webp` — 52,554 bytes
+
+- `public/images/categories/sports-512x512.avif` — 33,468 bytes
+
+- `public/images/categories/sports-1024x1024.webp` — 154,808 bytes
+
+- `public/images/categories/sports-1024x1024.avif` — 100,732 bytes
+
+- `public/images/categories/screen-64x64.webp` — 1,988 bytes
+
+- `public/images/categories/screen-64x64.avif` — 1,308 bytes
+
+- `public/images/categories/screen-128x128.webp` — 5,984 bytes
+
+- `public/images/categories/screen-128x128.avif` — 3,708 bytes
+
+- `public/images/categories/screen-256x256.webp` — 18,294 bytes
+
+- `public/images/categories/screen-256x256.avif` — 10,927 bytes
+
+- `public/images/categories/screen-512x512.webp` — 56,132 bytes
+
+- `public/images/categories/screen-512x512.avif` — 34,063 bytes
+
+- `public/images/categories/screen-1024x1024.webp` — 169,698 bytes
+
+- `public/images/categories/screen-1024x1024.avif` — 100,928 bytes
+
+- `public/images/categories/music-64x64.webp` — 1,974 bytes
+
+- `public/images/categories/music-64x64.avif` — 1,335 bytes
+
+- `public/images/categories/music-128x128.webp` — 6,234 bytes
+
+- `public/images/categories/music-128x128.avif` — 3,802 bytes
+
+- `public/images/categories/music-256x256.webp` — 18,864 bytes
+
+- `public/images/categories/music-256x256.avif` — 11,551 bytes
+
+- `public/images/categories/music-512x512.webp` — 57,626 bytes
+
+- `public/images/categories/music-512x512.avif` — 36,034 bytes
+
+- `public/images/categories/music-1024x1024.webp` — 166,922 bytes
+
+- `public/images/categories/music-1024x1024.avif` — 102,506 bytes
+
+- `public/images/categories/science-64x64.webp` — 1,974 bytes
+
+- `public/images/categories/science-64x64.avif` — 1,326 bytes
+
+- `public/images/categories/science-128x128.webp` — 6,244 bytes
+
+- `public/images/categories/science-128x128.avif` — 3,931 bytes
+
+- `public/images/categories/science-256x256.webp` — 19,006 bytes
+
+- `public/images/categories/science-256x256.avif` — 11,827 bytes
+
+- `public/images/categories/science-512x512.webp` — 57,328 bytes
+
+- `public/images/categories/science-512x512.avif` — 36,311 bytes
+
+- `public/images/categories/science-1024x1024.webp` — 159,518 bytes
+
+- `public/images/categories/science-1024x1024.avif` — 105,902 bytes
+
+- `public/images/categories/history-64x64.webp` — 1,906 bytes
+
+- `public/images/categories/history-64x64.avif` — 1,278 bytes
+
+- `public/images/categories/history-128x128.webp` — 5,802 bytes
+
+- `public/images/categories/history-128x128.avif` — 3,528 bytes
+
+- `public/images/categories/history-256x256.webp` — 17,102 bytes
+
+- `public/images/categories/history-256x256.avif` — 10,635 bytes
+
+- `public/images/categories/history-512x512.webp` — 51,356 bytes
+
+- `public/images/categories/history-512x512.avif` — 32,800 bytes
+
+- `public/images/categories/history-1024x1024.webp` — 149,012 bytes
+
+- `public/images/categories/history-1024x1024.avif` — 97,404 bytes
+
+- A4 → A1: 404 star-map scene is integrated and visually checked; final alt describes Nova, the lantern, star map, star trail and floating observatory. All 331 pages / 276 answer tables pass static asset, dimensions, srcset and row-count checks. The thinking pose still visibly contains the question-mark glyph as of this check; the earlier no-text art-bible cleanup request remains with A1 (A4 cannot edit your image files).
+
+
+## A3-HOME-LAYOUT done
+
+Edited only the assigned home/play routes, home components, and build-only category-copy.ts, plus append-only notes here. New component: src/components/home/NovaCta.astro. No state-changing git commands, framework/runtime additions, data edits, schema additions, ad markup, asset mutations, or edits to another agent's files.
+
+Daily, unlimited, and all eight category pages now share a two-column desktop hero: headline and play card on the left, A1's full 2:3 Observatory illustration in a rounded arch frame on the right. The frame has a subtle float/glow when motion is allowed. Mobile keeps the play card before external art, hides that external desktop illustration, reduces the compact start-art footprint to 64px, and removes the repeated mode eyebrow. A4's start card now supplies the compact waving Nova. Both hero and reading content cap at 1040px; at 1440px this leaves 200px on each side before inner padding. A5's rails/anchor remain outside these components.
+
+Below the game: three illustrated how-to cards with A1 reading/typing/catching scenes; the six A2 celestial TierBadge treasures with TIERS points and A4's shared pageview-based descriptions; an eight-tile CategoryArt grid with live catalog prompt counts (two columns on mobile, four on desktop); Rare finds using actual first-ranked answers from the existing prompt JSON; the answer-vault/reading/FAQ links; and a friendly waving-Nova closing CTA. Rare finds are Togo, Tapanuli orangutan, and Bohrium in the current data, all verified against their stored tiers. These names and tiers remain data-driven. Existing metadata/H1s and visible FAQs stay; no FAQPage was introduced. New page copy/alt text stays in the owned build-only copy module, following the established play-page arrangement because locale JSON is outside A3 ownership.
+
+A1's directly integrated image files are listed below. A3 created no image files and did not touch the originals or optimizer. All are WebP; AVIF was larger for this art. Hero has width/height plus the only page fetchpriority=high. How-to and CTA images have descriptive alt, explicit dimensions/aspect ratios, responsive sources and lazy loading. A2's shared CategoryArt/TierBadge source lists and exact bytes are in the A2-TIER-CATEGORY-ART done section above. Home category art displays at 128px (256px source for 2×); ladder art displays at 88px (192px source for 2×). Scores, rules, counts and navigation remain HTML.
+
+| Integrated file | Pixels | Bytes |
+|---|---:|---:|
+| `public/images/world/hero-observatory-520x780.webp` | 520×780 | 61,476 |
+| `public/images/world/hero-observatory-1040x1560.webp` | 1040×1560 | 159,584 |
+| `public/images/world/nova-waving-160x160.webp` | 160×160 | 8,534 |
+| `public/images/world/nova-waving-320x320.webp` | 320×320 | 23,294 |
+| `public/images/world/how-reading-640x400.webp` | 640×400 | 46,714 |
+| `public/images/world/how-reading-1280x800.webp` | 1280×800 | 126,212 |
+| `public/images/world/how-typing-640x400.webp` | 640×400 | 66,180 |
+| `public/images/world/how-typing-1280x800.webp` | 1280×800 | 180,926 |
+| `public/images/world/how-catching-640x400.webp` | 640×400 | 51,956 |
+| `public/images/world/how-catching-1280x800.webp` | 1280×800 | 144,482 |
+
+Verification on the final shared tree: pnpm lint passed; pnpm typecheck passed with 0 errors/warnings/hints (the existing missing tutorials-directory glob warning remains); owned-file Prettier and git diff --check passed. pnpm exec astro build --outDir /tmp/A3-HOME-LAYOUT-dist passed, 331 pages. Built-HTML smoke passed on all ten play pages: exactly one H1 and game root, no duplicate IDs/FAQPage, a single high-priority hero, the correct six tier names and 5/10/20/40/70/100 points, current category counts, actual rare-find names/tiers, lazy correctly sized how-to/Nova images, and all local img/srcset URLs present. Sharp verified the direct image dimensions and WebP format. Catalog snapshot: 276 prompts in eight categories (counts are computed in the UI).
+
+Full pnpm test: 468 passed, 11 skipped, 4 failed. Three are the previously documented content-links subprocess cases, whose tsx IPC socket is denied by the sandbox (listen EPERM). The fourth is the unowned apply-template.test.ts shipped-wrangler allowlist rejecting A5's required PUBLIC_AD_PLACEHOLDERS=true. The final integrator should permit that specific key/value while preserving the other leak checks; A3 left the test/env untouched.
+
+Rendered QA remains unverified. Ego's browser launch failed with macOS XPC Connection invalid / Failed to start ego lite; the already-installed Playwright Chromium 1248 also aborted before page creation (SIGABRT). The preview server could not bind (EPERM), and no server remains running. No screenshot, measured CLS, actual keyboard behavior, rendered overflow, or 375×812 Play-position claim is made. A no-server Playwright follow-up is at /tmp/A3-playwright-layout-qa.mjs (375×812, 1280×812, 1440×812; both themes; home/unlimited/geography), and the successful static checker is /tmp/A3-built-check.py. Final visual QA should check Play above the mobile anchor, both themes, rail clearance and reduced motion. The .gitignore owner still needs to handle the shared .art-src/ ignore request from A1/A2; A3 owns neither that file nor PNG sources.
+
+## A1-HERO-MASCOT done
+
+Created 11 original painterly illustrations and 22 responsive WebP exports under `public/images/world/`: portrait observatory hero + landscape social adaptation, five true-alpha Nova poses (waving, thinking, celebrating, surprised, sleeping), three how-to scenes (reading, typing against an hourglass, catching a blue star-sapphire in a jar), and an empty-state/404 observatory scene. The hero shipped first via the earlier integration note; current components already reference the final stable filenames. No external art reference was passed to the generator, and no mine/miner theme, text, logos, game characters, schema, or player data were added.
+
+Also created `scripts/optimize-art.ts` (shared sharp CLI, call read-only) and `docs/art-bible.md` (world, exact CSS-tier palette references, Nova identity, alt suggestions, source/reference chain, all 11 exact built-in generation prompts, and export commands). This agent edited only its owned repo paths and its own handoff notes; other agents' concurrent changes were preserved. No state-changing git commands. No server or browser was started.
+
+All public images are below 220,000 bytes; every pose is below 25,000 bytes, including 2×. Color quality is 78 except the waving 2× file at 75; pose alpha quality 70 preserves true transparency and clean feather edges while meeting the budget. Hero and scene exports are opaque. AVIF was measured for the heroes and poses and encoded larger, so the deliverable set uses WebP. PNG masters stay outside public/ and outside git. Total optimized set: **1,477,352 bytes (1.41 MiB)**.
+
+| Image file under `public/images/world/` | Dimensions | Bytes | KiB |
+| --- | --- | ---: | ---: |
+| `empty-observatory-1280x800.webp` | 1280×800 | 138,474 | 135.2 |
+| `empty-observatory-640x400.webp` | 640×400 | 49,150 | 48.0 |
+| `hero-observatory-1040x1560.webp` | 1040×1560 | 159,584 | 155.8 |
+| `hero-observatory-520x780.webp` | 520×780 | 61,476 | 60.0 |
+| `hero-observatory-social-1200x675.webp` | 1200×675 | 92,452 | 90.3 |
+| `hero-observatory-social-2400x1350.webp` | 2400×1350 | 212,110 | 207.1 |
+| `how-catching-1280x800.webp` | 1280×800 | 144,482 | 141.1 |
+| `how-catching-640x400.webp` | 640×400 | 51,956 | 50.7 |
+| `how-reading-1280x800.webp` | 1280×800 | 126,212 | 123.3 |
+| `how-reading-640x400.webp` | 640×400 | 46,714 | 45.6 |
+| `how-typing-1280x800.webp` | 1280×800 | 180,926 | 176.7 |
+| `how-typing-640x400.webp` | 640×400 | 66,180 | 64.6 |
+| `nova-celebrating-160x160.webp` | 160×160 | 7,698 | 7.5 |
+| `nova-celebrating-320x320.webp` | 320×320 | 20,662 | 20.2 |
+| `nova-sleeping-160x160.webp` | 160×160 | 8,534 | 8.3 |
+| `nova-sleeping-320x320.webp` | 320×320 | 21,754 | 21.2 |
+| `nova-surprised-160x160.webp` | 160×160 | 7,972 | 7.8 |
+| `nova-surprised-320x320.webp` | 320×320 | 20,478 | 20.0 |
+| `nova-thinking-160x160.webp` | 160×160 | 7,976 | 7.8 |
+| `nova-thinking-320x320.webp` | 320×320 | 20,734 | 20.2 |
+| `nova-waving-160x160.webp` | 160×160 | 8,534 | 8.3 |
+| `nova-waving-320x320.webp` | 320×320 | 23,294 | 22.7 |
+
+Verification: final `pnpm lint` passed; final `pnpm typecheck` passed with 0 errors/warnings/hints (the existing missing tutorials-directory glob warning remains). `pnpm test` ran: 468 passed, 11 skipped, 4 failed. Three are the existing `tests/content-links.test.ts` subprocess cases blocked by the sandbox's tsx IPC socket (`listen EPERM`); the fourth is `tests/apply-template.test.ts` rejecting A5's newly requested `PUBLIC_AD_PLACEHOLDERS="true"` value. These unowned tests were left untouched; A5 has the same integration request recorded above.
+
+Final requested `pnpm exec astro build --outDir /tmp/a1-hero-mascot-dist` **passed from the actual repo: 331 pages**, after the parallel build activity settled. Log: `/tmp/a1-final-build.log`. Earlier concurrent attempts hit missing chunks in the shared `.astro/.prerender/` directory; an isolated source snapshot at `/tmp/a1-hero-mascot-build-workspace/` also passed with the existing installed dependencies linked for use. Its one-shot `pnpm_config_verify_deps_before_run=false` flag prevented pnpm's automatic reinstall of those linked dependencies. No packages were installed or removed. The final artifact checks below were repeated against the successful direct repo build.
+
+Artifact checks passed: all 22 filenames match actual dimensions; every pose has alpha range 0–255; scenes are opaque; metadata is stripped; strict byte ceilings pass; all 22 build-copy hashes equal the current repo assets. Built-HTML audit: 331 pages, 177 world-image elements with alt and explicit dimensions, every referenced world asset present, at most one high-priority world hero per page, zero FAQPage. Direct visual QA covered the hero/social images, final scene crops, and all five final cutouts on light and dark backgrounds at 1× and 2×. Contact sheets: `/tmp/a1-scenes-review.png`, `/tmp/a1-nova-{light,dark}-2x-review.png`. No rendered-browser screenshot/CLS claim; consuming page layout remains integration QA.
+
+Integration request for the root `.gitignore` owner: add `.art-src/` before staging any masters. A1 does not own that file and did not edit it. All 11 named PNG masters are currently safe at `/tmp/a1-hero-mascot-art-src/`, and originals also persist in `/Users/alex/.codex/generated_images/01a1dee3-cf47-76c0-a1c2-5c9fa62bd6cc/`. Once ignored, copy the named working set to `.art-src/A1-HERO-MASCOT/`; the art bible's commands already target that location. Use the waving master as Nova's close-up identity reference and the portrait as the world reference. Required instructions, scores, rarity labels, and status must stay in HTML.
+
+
+## A4-GAME-ART-INGAME done
+
+Edited only the owned game components, game libraries (never types.ts or A3's category-copy.ts), visual article/answer components, 404, the existing game-engine test suite, and this append-only handoff. New components are GameNova.astro and article/TierTableCell.astro. No data, scoring, timer, storage, schema, dependencies, asset-generator, global-style, or state-changing git edits.
+
+- Reveal: a 176px celestial treasure (160px on very narrow screens), tier-colored halo and bounded sparkle/ribbon burst; Nova celebrates Rare+, thinks for Common/Familiar/Uncommon, and looks surprised on unscored reveals. Fixed art frames reserve geometry before lazy images load. Reduced motion disables the existing motion effects and particles.
+- End: Nova reacts to the best awarded tier beside the true score, with a reserved overview that keeps the mascot clear of the treasure collection. The daily reset countdown has sleeping Nova. The compact start card uses waving Nova. Result slots and the canvas share image use A2's actual raster treasure pictures. Removed the SVG serializer; export eagerly decodes the optimized picture only on the explicit save action and always removes its temporary stage.
+- Reading: answer headers show larger category vignettes; every ranked answer has its tier treasure without changing any row or numeric value. Article headers use category art where inferred, with Nova as the general-topic fallback. Both tier tables in our own how-to-play guide receive 32px treasures through a scoped MDX td renderer; other games' tier systems are left alone. The play-page TierTable and end breakdown also have treasures. 404 uses A1's full star-map scene with descriptive alt and a reserved 8:5 frame.
+- Shared TIER_BLURBS now describe the prompt's view ranking, replacing unsupported player-behavior/knowledge claims. A3's ladder reuses this source. New descriptions live in the existing game copy module; no visible game facts were invented. All scores, points, tier names, answer text, and the corrected last-12-month view wording remain in HTML.
+
+Final validation: pnpm lint passed; pnpm typecheck passed with 0 errors/warnings/hints (the existing missing tutorials-directory glob warning remains); the 39 game-engine tests passed, including new reaction-boundary and raster-share-export tests. Final pnpm exec astro build --outDir /tmp/a4-game-art-ingame-dist passed, 331 pages. Static QA checked all 331 HTML pages / 31,165 img elements and all local image/srcset references, all 10 game roots and their four reaction templates, all 276 answer-table row counts, and the guide's 12 treasure cells. No page has more than one high-priority image; no FAQPage was introduced. Game bundle GameApp.astro_astro_type_script_index_0_lang._NOB2rf0.js is 48,428 bytes raw / 15,835 bytes gzip (<40KB). Owned git diff --check passed. Static checker: /tmp/a4-game-art-ingame-static-qa.py.
+
+Full pnpm test: 468 passed, 11 skipped, 4 failed across 25 suites. Three existing content-links subprocess tests fail because the sandbox denies tsx's IPC socket (listen EPERM); the fourth is the unowned apply-template.test.ts shipped-wrangler allowlist rejecting A5's required PUBLIC_AD_PLACEHOLDERS="true". Final integration should permit that specific key/value while preserving the other env leak checks. No unowned test or env file was changed.
+
+Browser QA was attempted with the ego-browser skill and the already-installed Playwright Chromium headless shell 1248. Ego failed at macOS XPC launch; Chromium aborted at MachPortRendezvous bootstrap_check_in with Permission denied. No server was started or left running. No screenshot, actual keyboard-navigation, measured CLS, rendered contrast, or mobile-overflow claim is made. Static reserved geometry and reduced-motion guards are present. The final integrator should check reveal/end/save-image and the long answer table at 320/375px and desktop, both themes.
+
+Art review follow-up remains with A1: the thinking pose still contains a readable glowing question-mark glyph; a no-text cleanup was requested twice above. A4 cannot edit A1's image files. The stable pose filenames mean the asset can be replaced without another A4 code change. The root .art-src/ ignore request remains with its owner, as recorded by A1/A2.
+
+A4 generated no raster files because the asset directories are outside its ownership. It reuses A1's following world files (encoded-byte snapshot at this handoff; dimensions are in filenames). All Nova files are true-alpha and <25KiB; both 404 images are <220KiB. A2's complete 104-file tier/category inventory and exact bytes are in the A2-TIER-CATEGORY-ART done section above; all 24 tier files are <25KiB and the category files peak at 170,112 bytes. A4 uses the unchanged TierBadge/CategoryArt APIs and verified their references.
+
+| Reused image file | Bytes |
+| --- | ---: |
+| `public/images/world/empty-observatory-1280x800.webp` | 138,474 |
+| `public/images/world/empty-observatory-640x400.webp` | 49,150 |
+| `public/images/world/nova-celebrating-160x160.webp` | 7,698 |
+| `public/images/world/nova-celebrating-320x320.webp` | 20,662 |
+| `public/images/world/nova-sleeping-160x160.webp` | 8,534 |
+| `public/images/world/nova-sleeping-320x320.webp` | 21,754 |
+| `public/images/world/nova-surprised-160x160.webp` | 7,972 |
+| `public/images/world/nova-surprised-320x320.webp` | 20,478 |
+| `public/images/world/nova-thinking-160x160.webp` | 7,976 |
+| `public/images/world/nova-thinking-320x320.webp` | 20,734 |
+| `public/images/world/nova-waving-160x160.webp` | 8,534 |
+| `public/images/world/nova-waving-320x320.webp` | 23,294 |

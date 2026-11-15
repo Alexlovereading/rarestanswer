@@ -1,184 +1,101 @@
 ---
 /**
- * MobileAnchorAd — Adsterra 320×50 bottom anchor, MOBILE ONLY (`md:hidden`).
- *
- * The template deliberately excludes a mobile TOP sticky (StickyBanner note:
- * a 320×50 strip under the header eats ~16% of a phone's first screen). The
- * BOTTOM anchor is the different animal — content scrolls over it instead of
- * being pushed down, so reading is never interrupted, and the anchor keeps
- * the three properties that make it acceptable:
- *
- *   1. Dismissible — × removes it and the choice persists in localStorage
- *      (same pattern as StickyBanner; storage-blocked browsers degrade to
- *      "dismiss works, just not remembered").
- *   2. Zero CLS — `position: fixed` never shifts layout; on reveal a small
- *      bottom padding is added to <body> (mobile media query only) so the
- *      article's last block can't stay covered behind the bar.
- *   3. Consent-gated — the wrapped AdsterraSlot defers the iframe until
- *      consent (its own data-src mechanism), and THIS wrapper stays hidden
- *      until the same signal: declined or unchosen consent → neither ad nor
- *      empty bar ever appears.
- *
- * Gated on PUBLIC_ADSTERRA_SLOT_STICKY_320X50: empty = nothing rendered
- * (zero-ad fork contract). Mounted on article pages only (ArticlePage).
- * Storage/event names mirror src/lib/shared-ui.ts (inline scripts can't
- * import).
+ * Site-wide bottom anchor: desktop 728×90 / mobile 320×50.
+ * The old article-level <MobileAnchorAd /> is intentionally a no-op: BaseLayout
+ * now owns the one global mount. `siteWide` prevents duplicate article bars.
+ * The shared controller remembers dismissal in sessionStorage, defers real
+ * units until consent, and only loads the variant matching the viewport.
  */
-import { Icon } from 'astro-icon/components';
-import AdsterraSlot from './AdsterraSlot.astro';
-import { currentSharedStrings } from '~/lib/shared-ui';
-
-const show = !!import.meta.env.PUBLIC_ADSTERRA_SLOT_STICKY_320X50;
-// Same env condition under which BaseLayout renders CookieConsent — when
-// either is set the consent promise is live and the anchor must wait for it.
-const consentBannerActive = !!(
-  (import.meta.env.PUBLIC_GA_ID as string | undefined) ||
-  (import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined)
-);
-const sharedStrings = currentSharedStrings(Astro.currentLocale);
-const closeAd = sharedStrings.closeAd ?? 'Close ad';
-// Astro hoists <style> tags out of JSX conditionals — a hoisted style would
-// ship dead rules into every zero-ad fork page. `show` is a build-time
-// constant, so the CSS renders as a raw gated element instead.
-const anchorCss = `
-  /* AdsterraSlot wraps its iframe in a my-8 flow container — right for
-     in-content slots, dead space inside a fixed anchor bar. */
-  #mobile-anchor-ad > div > div {
-    margin: 0;
-  }
-  /* Keep the article's tail (related / comments) reachable above the bar.
-     Mobile media query: the wrapper is md:hidden, so desktop must not
-     inherit the padding if the viewport is resized after reveal. */
-  @media (max-width: 767px) {
-    body.has-mobile-anchor {
-      /* Plain 62px first: engines without env() drop the calc() line and
-         keep the fallback instead of losing the compensation entirely. The
-         inset is part of the bar's real height (#mobile-anchor-ad below
-         grows by it), so a fixed 62px left the article tail covered on
-         notched iPhones. */
-      padding-bottom: 62px;
-      padding-bottom: calc(62px + env(safe-area-inset-bottom));
-    }
-    /* BackToTop shares this bottom-right corner (fixed bottom-5 right-5
-       z-40, one layer above the z-30 bar) — with the bar revealed its ×
-       close button sits underneath and taps land on "back to top" instead
-       of "close ad" (~90% overlap at 375px). Lift the button above the bar
-       via the same body class the reveal/dismiss script toggles (zero new
-       JS): bar min-height 58px + the button's own 20px bottom-5 resting
-       offset = 78px. The env() term tracks the bar's own safe-area
-       padding-bottom so the gap stays constant on notched iPhones; plain
-       78px first keeps engines without env() compensated (same two-line
-       cascade as the body padding above). */
-    body.has-mobile-anchor #back-to-top {
-      bottom: 78px;
-      bottom: calc(78px + env(safe-area-inset-bottom));
-    }
-  }
-  /* iOS home-indicator safe area — bar content rides above it. */
-  #mobile-anchor-ad {
-    padding-bottom: env(safe-area-inset-bottom);
-  }
-`;
+import ReservedAdSlot from './ReservedAdSlot.astro';
+import { resolveSiteAds } from './placements';
+import { getUi } from '~/i18n/ui';
+interface Props { siteWide?: boolean; }
+const { siteWide = false } = Astro.props;
+const ads = resolveSiteAds(import.meta.env);
+const show = siteWide && (ads.desktop.provider !== 'none' || ads.mobile.provider !== 'none');
+const control = siteWide && Object.values(ads).some((ad) => ad.provider !== 'none');
+const closeAd = getUi(Astro.currentLocale ?? 'en').shared.closeAd;
 ---
 
-{
-  show && (
-    <div
-      id="mobile-anchor-ad"
-      class="fixed inset-x-0 bottom-0 z-30 hidden border-t border-border bg-background/95 backdrop-blur md:hidden"
-      data-consent-deferred={consentBannerActive ? '1' : undefined}
-    >
-      <div class="relative mx-auto flex min-h-[58px] w-[320px] max-w-full items-center justify-center px-2">
-        <AdsterraSlot name="sticky-320x50" width={320} height={50} label={false} />
-        <button
-          id="dismiss-mobile-anchor"
-          type="button"
-          aria-label={closeAd}
-          class="absolute -right-1 -top-1 z-10 rounded-full border bg-background p-1 text-muted-foreground transition hover:bg-muted"
-        >
-          <Icon name="lucide:x" class="h-3 w-3" />
-        </button>
-      </div>
-    </div>
-  )
-}
+{show && (
+  <aside id="site-anchor-ad" hidden data-pagefind-ignore>
+    {ads.desktop.provider !== 'none' && <div class="site-anchor-desktop"><ReservedAdSlot placement="desktop" /></div>}
+    {ads.mobile.provider !== 'none' && <div class="site-anchor-mobile"><ReservedAdSlot placement="mobile" /></div>}
+    <button id="dismiss-site-anchor" type="button" aria-label={closeAd}>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+        <path d="m6 6 12 12M18 6 6 18" />
+      </svg>
+    </button>
+  </aside>
+)}
 
-{
-  show && <style set:html={anchorCss} />
-}
+{control && (
+  <script is:inline>
+    /* Runs inline only when a shell placement exists. ES2018; no network in preview mode. */
+    (function () {
+      var CONSENT_KEY = 'aw-cookie-consent';
+      var CONSENT_EVENT = 'aw:consent-accepted';
+      var root = document.documentElement;
+      var anchor = document.getElementById('site-anchor-ad');
+      var close = document.getElementById('dismiss-site-anchor');
+      var desktop = window.matchMedia('(min-width: 768px)');
+      var wide = window.matchMedia('(min-width: 1440px) and (min-height: 860px)');
+      var consent = false;
+      try { consent = localStorage.getItem(CONSENT_KEY) === 'accepted'; } catch (e) { /* unavailable */ }
 
-{
-  show && (
-    <script is:inline>
-      /* ES2018 only (no optional chaining / nullish coalescing / optional
-         catch binding) — runs untranspiled in the HTML. Reveal-on-consent +
-         dismiss-with-memory: declined/unchosen consent keeps the anchor
-         hidden forever; dismissed hides it for good and drops the body
-         padding. Event + storage names mirror src/lib/shared-ui.ts (inline
-         scripts can't import; tests/consent.test.ts pins the duplicates). */
-      (function () {
-        var ID = 'mobile-anchor-ad';
-        var BTN_ID = 'dismiss-mobile-anchor';
-        var DISMISS_KEY = 'mobile-anchor-dismissed';
-        var CONSENT_KEY = 'aw-cookie-consent';
-        var CONSENT_EVENT = 'aw:consent-accepted';
-        var anchor = document.getElementById(ID);
-        var btn = document.getElementById(BTN_ID);
-        if (!anchor) return;
-        var gone = false;
-        try {
-          gone = localStorage.getItem(DISMISS_KEY) === '1';
-        } catch (e) {
-          /* storage unavailable — dismiss works, just not remembered */
-        }
-        if (gone) {
-          anchor.remove();
-          return;
-        }
-        var revealed = false;
-        var reveal = function () {
-          if (revealed) return;
-          revealed = true;
-          anchor.classList.remove('hidden');
-          document.body.classList.add('has-mobile-anchor');
-        };
-        var consentDeferred = anchor.getAttribute('data-consent-deferred') === '1';
-        var wireConsent = function () {
-          var stored = null;
-          try {
-            stored = localStorage.getItem(CONSENT_KEY);
-          } catch (e) {
-            /* treat as no consent yet */
+      function isVisible(unit) {
+        var placement = unit.getAttribute('data-site-ad');
+        if (placement === 'left' || placement === 'right') return wide.matches;
+        if (!root.classList.contains('has-site-ad-anchor')) return false;
+        return placement === 'desktop' ? desktop.matches : !desktop.matches;
+      }
+
+      function refresh() {
+        var units = document.querySelectorAll('[data-site-ad]');
+        var anchorVisible = false;
+        for (var i = 0; i < units.length; i++) {
+          var unit = units[i];
+          var provider = unit.getAttribute('data-ad-provider');
+          var ready = isVisible(unit) && (provider === 'placeholder' || consent);
+          unit.classList.toggle('site-ad-ready', ready);
+          if (!ready) continue;
+          var placement = unit.getAttribute('data-site-ad');
+          if (placement === 'desktop' || placement === 'mobile') {
+            anchorVisible = true;
+            // AdSense measures synchronously when its queue is already loaded.
+            if (anchor) anchor.hidden = false;
           }
-          if (stored === 'accepted') {
-            reveal();
-            return;
+          // Hidden rail / alternate anchor variants never request inventory.
+          var frame = unit.querySelector('iframe[data-ad-managed]');
+          if (frame) {
+            frame.src = frame.getAttribute('data-src');
+            frame.removeAttribute('data-src');
+            frame.removeAttribute('data-ad-managed');
           }
-          document.addEventListener(CONSENT_EVENT, reveal);
-        };
-        if (consentDeferred) {
-          if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', wireConsent);
-          } else {
-            wireConsent();
+          var ins = unit.querySelector('ins[data-ad-managed]');
+          if (ins) {
+            ins.removeAttribute('data-ad-managed');
+            window.adsbygoogle = window.adsbygoogle || [];
+            window.adsbygoogle.push({});
           }
-        } else {
-          /* No tracking env → consent banner never renders → show directly
-             (out-of-box behavior: ads load without a consent step). */
-          reveal();
         }
-        if (btn) {
-          btn.addEventListener('click', function () {
-            try {
-              localStorage.setItem(DISMISS_KEY, '1');
-            } catch (e) {
-              /* storage unavailable */
-            }
-            document.body.classList.remove('has-mobile-anchor');
-            anchor.remove();
-          });
-        }
-      })();
-    </script>
-  )
-}
+        if (anchor) anchor.hidden = !anchorVisible;
+      }
+
+      if (anchor && !root.classList.contains('has-site-ad-anchor')) anchor.remove();
+      if (close) close.addEventListener('click', function () {
+        try { sessionStorage.setItem('site-anchor-dismissed', '1'); } catch (e) { /* unavailable */ }
+        root.classList.remove('has-site-ad-anchor');
+        // A later consent event must never resurrect a dismissed bar.
+        if (anchor) anchor.remove();
+        refresh();
+      });
+      document.addEventListener(CONSENT_EVENT, function () { consent = true; refresh(); });
+      [desktop, wide].forEach(function (query) {
+        if (query.addEventListener) query.addEventListener('change', refresh);
+        else window.addEventListener('resize', refresh);
+      });
+      refresh();
+    })();
+  </script>
+)}

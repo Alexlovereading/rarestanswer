@@ -1,0 +1,794 @@
+[
+  {
+    "file": "public/images/tiers/common-128x128.webp",
+    "bytes": 3898,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/common-192x192.webp",
+    "bytes": 5688,
+    "width": 192,
+    "height": 192,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/common-256x256.webp",
+    "bytes": 9128,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/common-384x384.webp",
+    "bytes": 14970,
+    "width": 384,
+    "height": 384,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/familiar-128x128.webp",
+    "bytes": 2734,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/familiar-192x192.webp",
+    "bytes": 4320,
+    "width": 192,
+    "height": 192,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/familiar-256x256.webp",
+    "bytes": 6160,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/familiar-384x384.webp",
+    "bytes": 9906,
+    "width": 384,
+    "height": 384,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/uncommon-128x128.webp",
+    "bytes": 7248,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/uncommon-192x192.webp",
+    "bytes": 12322,
+    "width": 192,
+    "height": 192,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/uncommon-256x256.webp",
+    "bytes": 19032,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/uncommon-384x384.webp",
+    "bytes": 17022,
+    "width": 384,
+    "height": 384,
+    "quality": 78,
+    "alphaStep": 16
+  },
+  {
+    "file": "public/images/tiers/rare-128x128.webp",
+    "bytes": 4178,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/rare-192x192.webp",
+    "bytes": 6718,
+    "width": 192,
+    "height": 192,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/rare-256x256.webp",
+    "bytes": 9874,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/rare-384x384.webp",
+    "bytes": 16240,
+    "width": 384,
+    "height": 384,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/epic-128x128.webp",
+    "bytes": 6148,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/epic-192x192.webp",
+    "bytes": 10304,
+    "width": 192,
+    "height": 192,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/epic-256x256.webp",
+    "bytes": 15438,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/epic-384x384.webp",
+    "bytes": 24174,
+    "width": 384,
+    "height": 384,
+    "quality": 78,
+    "alphaStep": 8
+  },
+  {
+    "file": "public/images/tiers/legendary-128x128.webp",
+    "bytes": 6550,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/legendary-192x192.webp",
+    "bytes": 10954,
+    "width": 192,
+    "height": 192,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/legendary-256x256.webp",
+    "bytes": 16996,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/tiers/legendary-384x384.webp",
+    "bytes": 22092,
+    "width": 384,
+    "height": 384,
+    "quality": 78,
+    "alphaStep": 8
+  },
+  {
+    "file": "public/images/categories/geography-64x64.webp",
+    "bytes": 2068,
+    "width": 64,
+    "height": 64,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/geography-64x64.avif",
+    "bytes": 1395,
+    "width": 64,
+    "height": 64,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/geography-128x128.webp",
+    "bytes": 6626,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/geography-128x128.avif",
+    "bytes": 3953,
+    "width": 128,
+    "height": 128,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/geography-256x256.webp",
+    "bytes": 20234,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/geography-256x256.avif",
+    "bytes": 11907,
+    "width": 256,
+    "height": 256,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/geography-512x512.webp",
+    "bytes": 59986,
+    "width": 512,
+    "height": 512,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/geography-512x512.avif",
+    "bytes": 36556,
+    "width": 512,
+    "height": 512,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/geography-1024x1024.webp",
+    "bytes": 163286,
+    "width": 1024,
+    "height": 1024,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/geography-1024x1024.avif",
+    "bytes": 102129,
+    "width": 1024,
+    "height": 1024,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/animals-64x64.webp",
+    "bytes": 1902,
+    "width": 64,
+    "height": 64,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/animals-64x64.avif",
+    "bytes": 1283,
+    "width": 64,
+    "height": 64,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/animals-128x128.webp",
+    "bytes": 5872,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/animals-128x128.avif",
+    "bytes": 3548,
+    "width": 128,
+    "height": 128,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/animals-256x256.webp",
+    "bytes": 18078,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/animals-256x256.avif",
+    "bytes": 10696,
+    "width": 256,
+    "height": 256,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/animals-512x512.webp",
+    "bytes": 56496,
+    "width": 512,
+    "height": 512,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/animals-512x512.avif",
+    "bytes": 33902,
+    "width": 512,
+    "height": 512,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/animals-1024x1024.webp",
+    "bytes": 168434,
+    "width": 1024,
+    "height": 1024,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/animals-1024x1024.avif",
+    "bytes": 105249,
+    "width": 1024,
+    "height": 1024,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/food-64x64.webp",
+    "bytes": 1928,
+    "width": 64,
+    "height": 64,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/food-64x64.avif",
+    "bytes": 1315,
+    "width": 64,
+    "height": 64,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/food-128x128.webp",
+    "bytes": 6146,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/food-128x128.avif",
+    "bytes": 3771,
+    "width": 128,
+    "height": 128,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/food-256x256.webp",
+    "bytes": 19006,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/food-256x256.avif",
+    "bytes": 11667,
+    "width": 256,
+    "height": 256,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/food-512x512.webp",
+    "bytes": 58670,
+    "width": 512,
+    "height": 512,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/food-512x512.avif",
+    "bytes": 36363,
+    "width": 512,
+    "height": 512,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/food-1024x1024.webp",
+    "bytes": 170112,
+    "width": 1024,
+    "height": 1024,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/food-1024x1024.avif",
+    "bytes": 108856,
+    "width": 1024,
+    "height": 1024,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/sports-64x64.webp",
+    "bytes": 1946,
+    "width": 64,
+    "height": 64,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/sports-64x64.avif",
+    "bytes": 1303,
+    "width": 64,
+    "height": 64,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/sports-128x128.webp",
+    "bytes": 5954,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/sports-128x128.avif",
+    "bytes": 3833,
+    "width": 128,
+    "height": 128,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/sports-256x256.webp",
+    "bytes": 17738,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/sports-256x256.avif",
+    "bytes": 10942,
+    "width": 256,
+    "height": 256,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/sports-512x512.webp",
+    "bytes": 52554,
+    "width": 512,
+    "height": 512,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/sports-512x512.avif",
+    "bytes": 33468,
+    "width": 512,
+    "height": 512,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/sports-1024x1024.webp",
+    "bytes": 154808,
+    "width": 1024,
+    "height": 1024,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/sports-1024x1024.avif",
+    "bytes": 100732,
+    "width": 1024,
+    "height": 1024,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/screen-64x64.webp",
+    "bytes": 1988,
+    "width": 64,
+    "height": 64,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/screen-64x64.avif",
+    "bytes": 1308,
+    "width": 64,
+    "height": 64,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/screen-128x128.webp",
+    "bytes": 5984,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/screen-128x128.avif",
+    "bytes": 3708,
+    "width": 128,
+    "height": 128,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/screen-256x256.webp",
+    "bytes": 18294,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/screen-256x256.avif",
+    "bytes": 10927,
+    "width": 256,
+    "height": 256,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/screen-512x512.webp",
+    "bytes": 56132,
+    "width": 512,
+    "height": 512,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/screen-512x512.avif",
+    "bytes": 34063,
+    "width": 512,
+    "height": 512,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/screen-1024x1024.webp",
+    "bytes": 169698,
+    "width": 1024,
+    "height": 1024,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/screen-1024x1024.avif",
+    "bytes": 100928,
+    "width": 1024,
+    "height": 1024,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/music-64x64.webp",
+    "bytes": 1974,
+    "width": 64,
+    "height": 64,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/music-64x64.avif",
+    "bytes": 1335,
+    "width": 64,
+    "height": 64,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/music-128x128.webp",
+    "bytes": 6234,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/music-128x128.avif",
+    "bytes": 3802,
+    "width": 128,
+    "height": 128,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/music-256x256.webp",
+    "bytes": 18864,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/music-256x256.avif",
+    "bytes": 11551,
+    "width": 256,
+    "height": 256,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/music-512x512.webp",
+    "bytes": 57626,
+    "width": 512,
+    "height": 512,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/music-512x512.avif",
+    "bytes": 36034,
+    "width": 512,
+    "height": 512,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/music-1024x1024.webp",
+    "bytes": 166922,
+    "width": 1024,
+    "height": 1024,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/music-1024x1024.avif",
+    "bytes": 102506,
+    "width": 1024,
+    "height": 1024,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/science-64x64.webp",
+    "bytes": 1974,
+    "width": 64,
+    "height": 64,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/science-64x64.avif",
+    "bytes": 1326,
+    "width": 64,
+    "height": 64,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/science-128x128.webp",
+    "bytes": 6244,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/science-128x128.avif",
+    "bytes": 3931,
+    "width": 128,
+    "height": 128,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/science-256x256.webp",
+    "bytes": 19006,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/science-256x256.avif",
+    "bytes": 11827,
+    "width": 256,
+    "height": 256,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/science-512x512.webp",
+    "bytes": 57328,
+    "width": 512,
+    "height": 512,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/science-512x512.avif",
+    "bytes": 36311,
+    "width": 512,
+    "height": 512,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/science-1024x1024.webp",
+    "bytes": 159518,
+    "width": 1024,
+    "height": 1024,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/science-1024x1024.avif",
+    "bytes": 105902,
+    "width": 1024,
+    "height": 1024,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/history-64x64.webp",
+    "bytes": 1906,
+    "width": 64,
+    "height": 64,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/history-64x64.avif",
+    "bytes": 1278,
+    "width": 64,
+    "height": 64,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/history-128x128.webp",
+    "bytes": 5802,
+    "width": 128,
+    "height": 128,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/history-128x128.avif",
+    "bytes": 3528,
+    "width": 128,
+    "height": 128,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/history-256x256.webp",
+    "bytes": 17102,
+    "width": 256,
+    "height": 256,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/history-256x256.avif",
+    "bytes": 10635,
+    "width": 256,
+    "height": 256,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/history-512x512.webp",
+    "bytes": 51356,
+    "width": 512,
+    "height": 512,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/history-512x512.avif",
+    "bytes": 32800,
+    "width": 512,
+    "height": 512,
+    "quality": 52
+  },
+  {
+    "file": "public/images/categories/history-1024x1024.webp",
+    "bytes": 149012,
+    "width": 1024,
+    "height": 1024,
+    "quality": 78,
+    "alphaStep": 1
+  },
+  {
+    "file": "public/images/categories/history-1024x1024.avif",
+    "bytes": 97404,
+    "width": 1024,
+    "height": 1024,
+    "quality": 52
+  }
+]

@@ -14,6 +14,16 @@ const penaltySeconds = PENALTY_MS / 1000;
 const common = TIERS[0];
 const legendary = TIERS[TIERS.length - 1];
 
+/** Descriptions of A1's Nova artwork; score and timing remain in adjacent HTML. */
+export const NOVA_ALT = {
+  waving: 'Nova, a round explorer owl with brass goggles, a teal scarf and a glowing lantern, waves hello.',
+  thinking: 'Nova the explorer owl thoughtfully studies the stars, lantern glowing beside a teal scarf.',
+  celebrating: 'Nova the explorer owl beams while holding a radiant golden star beside a glowing lantern.',
+  surprised: 'Nova the explorer owl opens wide eyes in surprise beneath brass goggles.',
+  sleeping: 'Nova the explorer owl sleeps beside a warm lantern while waiting for tomorrow’s stars.',
+  emptyObservatory: 'Nova the explorer owl studies a star map beside a lantern, following a trail of stars toward a floating observatory.',
+} as const;
+
 export const HOME = {
   title: 'Rarest Answer Game — Guess the Rarest Answer',
   h1: 'Rarest Answer Game — Guess the Rarest Answer',
@@ -307,10 +317,10 @@ export const HOME_FAQ: readonly FaqItem[] = [
 ];
 
 export const TIER_BLURBS: Record<(typeof TIERS)[number]['tier'], string> = {
-  1: 'Most players will say it',
-  2: 'Widely known',
-  3: 'A solid, less obvious pick',
-  4: 'Specialist knowledge',
-  5: 'Few people land here',
-  6: 'Among the least known answers on this prompt',
+  1: 'The higher-viewed end of this prompt’s list',
+  2: 'A little lower in this prompt’s view ranking',
+  3: 'Below the more-viewed answers in this set',
+  4: 'Among the lower-viewed answers in this set',
+  5: 'Near the rare end of this prompt’s list',
+  6: 'Among the lowest-viewed answers in this set',
 };

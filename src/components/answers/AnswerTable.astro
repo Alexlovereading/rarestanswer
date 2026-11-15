@@ -55,7 +55,7 @@ const labels = getUi(defaultLocale).shared.visuals;
                 )}
               </th>
               <td class="px-3 py-2">
-                <TierChip tier={answer.tier} art={index < 3} />
+                <TierChip tier={answer.tier} art />
               </td>
               <td class="px-3 py-2 text-right">{rarityShort(answer, prompt.answers)}</td>
               <td class="whitespace-nowrap px-3 py-2 text-right tabular-nums">

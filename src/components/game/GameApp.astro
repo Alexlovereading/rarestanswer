@@ -9,7 +9,8 @@ import { Icon } from 'astro-icon/components';
 import { TIERS } from '~/lib/game/types';
 import { HOW_TO_STEPS, PLAY, RULES_AT_A_GLANCE } from '~/lib/game/copy';
 import { siteUrl } from '~/config/site';
-import HeroArt from '~/components/art/HeroArt.astro';
+import TierBadge from '~/components/art/TierBadge.astro';
+import GameNova from './GameNova.astro';
 import GameArt from './GameArt.astro';
 import GameEffects from './GameEffects.astro';
 import Combo from './Combo.astro';
@@ -61,7 +62,7 @@ const kicker =
         </p>
         <p class="mt-1 max-w-[12rem] text-sm text-muted-foreground">{PLAY.tagline}</p>
       </div>
-      <div class="ra-lobby-hero" aria-hidden="true"><HeroArt /></div>
+      <div class="ra-lobby-hero" aria-hidden="true"><GameNova mood="waving" /></div>
     </div>
     <dl class="mt-3 grid grid-cols-3 gap-2 text-center">
       <div class="rounded-lg bg-muted px-2 py-2">
@@ -252,9 +253,14 @@ const kicker =
       <p class="ra-play-score"><span data-game-running-score>0</span> {PLAY.pointsWord}</p>
       <Combo />
     </div>
+    <div class="ra-reveal-scene">
+      <div class="ra-treasure-stage">
+        <div data-game-reveal-badge aria-hidden="true"></div>
+      </div>
+      <div data-game-reveal-mascot class="ra-nova ra-nova--reveal"></div>
+    </div>
     <div class="ra-reveal-heading">
-      <div data-game-reveal-badge aria-hidden="true"></div>
-      <div>
+      <div class="min-w-0">
         <p
           data-game-reveal-kicker
           class="min-h-[1.25rem] text-xs font-semibold uppercase tracking-wide text-muted-foreground"
@@ -321,18 +327,21 @@ const kicker =
         <p class="text-sm font-semibold text-foreground">{PLAY.wordmark}</p>
         <Icon name="lucide:gem" class="h-6 w-6 text-nav" aria-hidden="true" />
       </div>
-      <p data-game-card-title class="min-h-[1.25rem] text-sm text-muted-foreground"></p>
-      <p class="mt-3 text-xs font-medium uppercase tracking-wide text-muted-foreground">
-        {PLAY.totalPoints}
-      </p>
-      <p
-        data-game-final-score
-        data-game-running-score
-        class="mt-1 text-5xl font-black tabular-nums leading-none text-foreground"
-      >
-        0
-      </p>
-      <p data-game-end-streak class="mt-1 min-h-[1.25rem] text-sm font-semibold text-nav"></p>
+      <div class="ra-result-overview">
+        <div data-game-end-mascot class="ra-nova ra-nova--end"></div>
+        <p data-game-card-title class="ra-result-summary min-h-[1.25rem] text-sm text-muted-foreground"></p>
+        <p class="ra-result-summary mt-3 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+          {PLAY.totalPoints}
+        </p>
+        <p
+          data-game-final-score
+          data-game-running-score
+          class="ra-result-summary mt-1 text-5xl font-black tabular-nums leading-none text-foreground"
+        >
+          0
+        </p>
+        <p data-game-end-streak class="ra-result-summary mt-1 min-h-[1.25rem] text-sm font-semibold text-nav"></p>
+      </div>
       <p class="mt-4 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
         {PLAY.resultCard}
       </p>
@@ -350,6 +359,7 @@ const kicker =
         TIERS.map((row) => (
           <li class="flex items-center justify-between gap-3 py-2 text-sm">
             <span class="inline-flex min-w-0 items-center gap-2 text-foreground">
+              <TierBadge tier={row.tier} size={32} />
               <span class="tier-pill shrink-0" data-tier={row.tier}>
                 {row.name}
               </span>
@@ -375,12 +385,15 @@ const kicker =
         >
       </li>
     </ul>
-    <p
-      data-game-countdown
-      class="mt-4 min-h-[1.5rem] text-sm font-medium tabular-nums text-nav"
-      hidden
-    >
-    </p>
+    <div class:list={['ra-tomorrow', mode !== 'daily' && 'hidden']}>
+      <div data-game-sleeping-mascot class="ra-nova ra-nova--sleeping"></div>
+      <p
+        data-game-countdown
+        class="min-h-[1.5rem] text-sm font-medium tabular-nums text-nav"
+        hidden
+      >
+      </p>
+    </div>
     <p class="mt-4 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
       {PLAY.shareTextLabel}
     </p>

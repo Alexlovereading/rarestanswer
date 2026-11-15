@@ -1,6 +1,7 @@
 ---
 import { TIERS } from '~/lib/game/types';
 import { TIER_BLURBS } from '~/lib/game/copy';
+import TierBadge from '~/components/art/TierBadge.astro';
 ---
 
 <div class="overflow-x-auto">
@@ -20,8 +21,9 @@ import { TIER_BLURBS } from '~/lib/game/copy';
         TIERS.map((row) => (
           <tr class="border-b border-border">
             <th scope="row" class="py-3 pr-4 font-semibold text-foreground">
-              <span class="tier-pill" data-tier={row.tier}>
-                {row.name}
+              <span class="inline-flex items-center gap-2">
+                <TierBadge tier={row.tier} size={32} />
+                <span class="tier-pill" data-tier={row.tier}>{row.name}</span>
               </span>
             </th>
             <td class="py-3 pr-4 text-foreground">{TIER_BLURBS[row.tier]}</td>

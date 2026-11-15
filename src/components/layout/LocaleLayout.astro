@@ -8,7 +8,6 @@
 import BaseLayout from './BaseLayout.astro';
 import SiteHeader from '~/components/header/SiteHeader.astro';
 import SiteFooter from '~/components/footer/SiteFooter.astro';
-import StickyBanner from '~/components/ads/StickyBanner.astro';
 import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 
@@ -41,12 +40,6 @@ interface Props {
 const { locale, availableLocales, fullBleed = false, ...rest } = Astro.props;
 const currentPath = Astro.url.pathname;
 const shared = getUi(locale).shared;
-// Play routes stay clear of the desktop leaderboard. An empty slot already
-// renders nothing; a filled unit must not sit above the card.
-const playRoute =
-  currentPath === '/' ||
-  currentPath.startsWith('/unlimited') ||
-  currentPath.startsWith('/trivia/');
 ---
 
 <BaseLayout locale={locale} fullBleed={fullBleed} {...rest}>
@@ -58,7 +51,6 @@ const playRoute =
     {shared.skipToContent ?? 'Skip to content'}
   </a>
   <SiteHeader locale={locale} currentPath={currentPath} availableLocales={availableLocales} />
-  {!playRoute && <StickyBanner />}
   <main
     id="main"
     class:list={[

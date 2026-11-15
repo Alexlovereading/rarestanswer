@@ -1,7 +1,7 @@
 ---
 import CategoryArt from '~/components/art/CategoryArt.astro';
-import HeroArt from '~/components/art/HeroArt.astro';
 import type { CategoryKey } from '~/lib/game/types';
+import { NOVA_ALT } from '~/lib/game/copy';
 
 interface Props {
   category?: CategoryKey;
@@ -13,7 +13,17 @@ const { category, compact = false, decorative = false, lazy = false } = Astro.pr
 ---
 
 <div class:list={['world-art', compact && 'world-art--compact']}>
-  {category ? <CategoryArt category={category} size={compact ? 80 : 160} decorative={decorative} /> : lazy ? (
-    <img src="/images/brand/hero-1200x675.webp" width="1200" height="675" alt="" aria-hidden="true" loading="lazy" decoding="async" />
-  ) : <HeroArt />}
+  {category ? <CategoryArt category={category} size={compact ? 80 : 160} decorative={decorative} /> : (
+    <img
+      src="/images/world/nova-waving-160x160.webp"
+      srcset="/images/world/nova-waving-160x160.webp 160w, /images/world/nova-waving-320x320.webp 320w"
+      sizes={compact ? '80px' : '160px'}
+      width="160"
+      height="160"
+      alt={decorative ? '' : NOVA_ALT.waving}
+      aria-hidden={decorative ? 'true' : undefined}
+      loading={lazy ? 'lazy' : 'eager'}
+      decoding="async"
+    />
+  )}
 </div>

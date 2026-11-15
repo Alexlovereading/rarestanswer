@@ -74,7 +74,7 @@ import {
 } from './stats';
 import type { PromptIndexEntry } from './types';
 import { createGameEffects } from './effects';
-import { clockVisual } from './visuals';
+import { clockVisual, novaReaction } from './visuals';
 import { drawShareCard } from './share-card';
 import { createStatsView } from './stats-view';
 
@@ -594,6 +594,7 @@ function run(ui: Ui): void {
     ui.next.textContent = last ? PLAY.seeResults : PLAY.nextPrompt;
     ui.root.dataset.revealHit = result.tier > 0 ? 'true' : 'false';
     effects.badge(ui.root.querySelector('[data-game-reveal-badge]'), result.tier);
+    effects.mascot(ui.root.querySelector('[data-game-reveal-mascot]'), novaReaction(result.tier));
     showView(ui.root, 'reveal');
     effects.score(session.score.total);
     effects.combo(session.results);
@@ -606,6 +607,11 @@ function run(ui: Ui): void {
   function showEnd(): void {
     finalizeStats();
     const tiers = session.results.map((row) => row.tier);
+    const bestTier = tiers.reduce<RoundTier>((best, tier) => tier > best ? tier : best, 0);
+    effects.mascot(ui.root.querySelector('[data-game-end-mascot]'), novaReaction(bestTier));
+    if (session.mode === 'daily') {
+      effects.mascot(ui.root.querySelector('[data-game-sleeping-mascot]'), 'sleeping');
+    }
     ui.cardTitle.textContent = shareHeading(
       session.mode,
       session.roundNumber,

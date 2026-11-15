@@ -4,6 +4,10 @@ import CategoryArt from '~/components/art/CategoryArt.astro';
 import TierBadge from '~/components/art/TierBadge.astro';
 import { CATEGORY_KEYS } from '~/lib/game/categories';
 import { TIERS } from '~/lib/game/types';
+import GameNova from './GameNova.astro';
+import type { NovaMood } from '~/lib/game/visuals';
+
+const moods: NovaMood[] = ['thinking', 'celebrating', 'surprised', 'sleeping'];
 ---
 
 {
@@ -14,9 +18,16 @@ import { TIERS } from '~/lib/game/types';
   ))
 }
 {
+  moods.map((mood) => (
+    <template data-game-mascot-template={mood}>
+      <GameNova mood={mood} />
+    </template>
+  ))
+}
+{
   TIERS.map((row) => (
     <template data-game-badge-template={row.tier}>
-      <TierBadge tier={row.tier} size={104} />
+      <TierBadge tier={row.tier} size={176} />
     </template>
   ))
 }

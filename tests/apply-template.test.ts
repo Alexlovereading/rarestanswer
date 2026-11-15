@@ -286,6 +286,8 @@ describe('rewriteWranglerVars is value-aware (a re-run must not wipe the user en
       'pathname',
       'https://rarestanswer.xyz',
       'https://plausible.io/js/pa-jGVDCe_47QOLAY8mGpGII.js',
+      // PUBLIC_AD_PLACEHOLDERS: shows reserved ad boxes until a network is set.
+      'true',
     ]);
     for (const v of values) {
       expect(DEMO_VAR_VALUES.includes(v), `demo value still shipped: "${v}"`).toBe(false);

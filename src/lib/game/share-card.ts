@@ -1,4 +1,4 @@
-/** Canvas export reuses the rendered TierBadge SVGs, including their theme colors. */
+/** Canvas export reuses the same optimized raster treasures as the game. */
 import { PLAY } from './copy';
 import { tierName } from './score';
 
@@ -122,51 +122,19 @@ async function badgeImage(root: HTMLElement, tier: number): Promise<HTMLImageEle
   if (!template) throw new Error('Badge unavailable');
   const stage = document.createElement('span');
   stage.style.cssText =
-    'position:fixed;left:-10000px;top:0;width:104px;height:104px;visibility:hidden;pointer-events:none';
+    'position:fixed;left:-10000px;top:0;width:176px;height:176px;visibility:hidden;pointer-events:none';
   stage.setAttribute('aria-hidden', 'true');
   stage.append(template.content.cloneNode(true));
   root.append(stage);
-  let url = '';
   try {
-    const svg = stage.querySelector('svg');
-    if (!svg) throw new Error('Badge SVG unavailable');
-    const clone = svg.cloneNode(true);
-    if (!(clone instanceof SVGSVGElement)) throw new Error('Badge SVG unavailable');
-    const originals = [svg, ...svg.querySelectorAll('*')];
-    const copies = [clone, ...clone.querySelectorAll('*')];
-    // Inline computed paint so currentColor, theme tokens and Astro-scoped CSS
-    // survive rasterization without relying on the page stylesheet.
-    originals.forEach((node, index) => {
-      const css = getComputedStyle(node);
-      const target = copies[index];
-      target.removeAttribute('class');
-      target.removeAttribute('style');
-      for (const property of [
-        'fill',
-        'stroke',
-        'stroke-width',
-        'stroke-linecap',
-        'stroke-linejoin',
-        'opacity',
-        'fill-opacity',
-        'stroke-opacity',
-        'color',
-      ]) {
-        target.setAttribute(property, css.getPropertyValue(property));
-      }
-    });
-    clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-    clone.setAttribute('width', '120');
-    clone.setAttribute('height', '120');
-    url = URL.createObjectURL(
-      new Blob([new XMLSerializer().serializeToString(clone)], { type: 'image/svg+xml' }),
-    );
-    const image = new Image();
-    image.src = url;
-    await image.decode();
-    return image;
+    const raster = stage.querySelector('img');
+    if (!raster) throw new Error('Treasure image unavailable');
+    // Keep <picture>'s optimized sources. Export is an explicit user action,
+    // so this offscreen image loads immediately rather than waiting for a scroll.
+    raster.loading = 'eager';
+    await raster.decode();
+    return raster;
   } finally {
     stage.remove();
-    if (url) URL.revokeObjectURL(url);
   }
 }

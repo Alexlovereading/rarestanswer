@@ -1,6 +1,6 @@
 ---
 import type { CategoryKey } from '../../lib/game/types';
-import { categoryArt } from './artwork';
+import { exhibitAlt } from './raster-art';
 
 interface Props {
   category: CategoryKey;
@@ -10,28 +10,44 @@ interface Props {
 
 const { category, size = 96, decorative = false } = Astro.props;
 const dimension = Number.isFinite(size) && size > 0 ? size : 96;
+const widths = [64, 128, 256, 512, 1024];
+const srcset = (format: string) =>
+  widths.map((width) => `/images/categories/${category}-${width}x${width}.${format} ${width}w`).join(', ');
 ---
 
-<img
+<picture
   class="category-art"
-  src={`/images/brand/category-${category}.svg`}
-  width={dimension}
-  height={dimension}
-  alt={decorative ? '' : categoryArt[category].alt}
+  style={`width: ${dimension}px;`}
   aria-hidden={decorative ? 'true' : undefined}
-  loading="lazy"
-  decoding="async"
-  draggable="false"
-/>
+>
+  <source type="image/avif" srcset={srcset('avif')} sizes={`${dimension}px`} />
+  <source type="image/webp" srcset={srcset('webp')} sizes={`${dimension}px`} />
+  <img
+    src={`/images/categories/${category}-512x512.webp`}
+    width={dimension}
+    height={dimension}
+    alt={decorative ? '' : exhibitAlt[category]}
+    loading="lazy"
+    decoding="async"
+    draggable="false"
+  />
+</picture>
 
 <style>
   .category-art {
     display: block;
     flex: none;
     max-width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 18%;
+    user-select: none;
+  }
+  .category-art img {
+    display: block;
+    width: 100%;
     height: auto;
     aspect-ratio: 1;
     object-fit: contain;
-    user-select: none;
   }
 </style>

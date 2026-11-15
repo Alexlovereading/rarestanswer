@@ -1,0 +1,46 @@
+---
+import AdSenseSlot from './AdSenseSlot.astro';
+import AdsterraSlot from './AdsterraSlot.astro';
+import { resolvePlacement, type Placement } from './placements';
+import { getUi } from '~/i18n/ui';
+
+interface Props {
+  placement: Placement;
+}
+const { placement } = Astro.props;
+const ad = resolvePlacement(import.meta.env, placement);
+const label = getUi(Astro.currentLocale ?? 'en').shared.adLabel;
+---
+
+{
+  ad.provider !== 'none' && (
+    <div
+      class:list={['site-ad-unit', { 'site-ad-placeholder': ad.provider === 'placeholder' }]}
+      data-site-ad={placement}
+      data-ad-provider={ad.provider}
+      style={`--ad-width:${ad.width}px;--ad-height:${ad.height}px`}
+      role={ad.provider === 'placeholder' ? 'note' : undefined}
+      aria-label={label}
+    >
+      <span class="site-ad-label">{label}</span>
+      {ad.provider === 'adsense' && (
+        <AdSenseSlot
+          position={placement}
+          responsive={false}
+          width={ad.width}
+          height={ad.height}
+          managed
+        />
+      )}
+      {ad.provider === 'adsterra' && (
+        <AdsterraSlot
+          name={ad.adsterra}
+          width={ad.width}
+          height={ad.height}
+          label={false}
+          managed
+        />
+      )}
+    </div>
+  )
+}

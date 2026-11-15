@@ -1,6 +1,6 @@
 /** Small DOM effects, isolated from the game engine and its persisted state. */
 import { PLAY, answerCountLine, comboLine, lineupLabel } from './copy';
-import { celebrationParticles, currentCombo, scoreAtProgress } from './visuals';
+import { celebrationParticles, currentCombo, scoreAtProgress, type NovaMood } from './visuals';
 import type { PromptIndexEntry } from './types';
 import { CATEGORY_LABELS } from './categories';
 import { tierName, type RoundTier } from './score';
@@ -13,7 +13,7 @@ export function createGameEffects(root: HTMLElement) {
   let shownScore = 0;
   let targetScore = 0;
 
-  function art(target: HTMLElement | null, kind: 'category' | 'badge', key: string): void {
+  function art(target: HTMLElement | null, kind: 'category' | 'badge' | 'mascot', key: string): void {
     if (!target) return;
     const template = root.querySelector<HTMLTemplateElement>(
       `[data-game-${kind}-template="${key}"]`,
@@ -108,6 +108,13 @@ export function createGameEffects(root: HTMLElement) {
     art(target, 'badge', String(tier));
     if (!target) return;
     target.dataset.tier = String(tier);
+    target.style.setProperty('--ra-treasure', tier > 0 ? `var(--tier-${tier})` : 'var(--muted-foreground)');
+  }
+
+  function mascot(target: HTMLElement | null, mood: NovaMood): void {
+    if (!target || target.dataset.mood === mood) return;
+    art(target, 'mascot', mood);
+    target.dataset.mood = mood;
   }
 
   function resultBadge(target: HTMLElement, tier: RoundTier, index: number): void {
@@ -134,5 +141,5 @@ export function createGameEffects(root: HTMLElement) {
     { once: true },
   );
 
-  return { art, lineup, score, combo, burst, clearBurst, badge, resultBadge };
+  return { art, lineup, score, combo, burst, clearBurst, badge, resultBadge, mascot };
 }

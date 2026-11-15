@@ -31,6 +31,7 @@ import BackToTop from '~/components/article/BackToTop.astro';
 import ArticleCover from '~/components/article/ArticleCover.astro';
 import PlayCta from '~/components/article/PlayCta.astro';
 import WorldArt from '~/components/article/WorldArt.astro';
+import TierTableCell from '~/components/article/TierTableCell.astro';
 import { articleArtCategory } from '~/components/article/article-art';
 import WikiSidebar from '~/components/sidebar/WikiSidebar.astro';
 import { CONTENT_TYPES, NAVIGATION_CONFIG } from '~/config/navigation';
@@ -239,10 +240,10 @@ const jsonLd = [
     </nav>
 
     {/* Header */}
-    <header class="article-header mt-4" data-pagefind-meta={`category:${category}`}>
+    <header class="article-header article-header--observatory mt-4" data-pagefind-meta={`category:${category}`}>
       <div class="article-header__crest">
         <p class="text-xs font-semibold uppercase tracking-[0.14em] text-nav">{category === 'guides' ? shared.visuals.fieldNotes : shared.visuals.gameLibrary}</p>
-        <WorldArt category={artCategory} compact />
+        <WorldArt category={artCategory} />
       </div>
       <div class="flex items-center gap-2">
         {navItem && <Icon name={navItem.icon} class="h-5 w-5 text-nav" />}
@@ -394,7 +395,7 @@ const jsonLd = [
       class="prose prose-lg mt-8 max-w-none dark:prose-invert prose-headings:scroll-mt-20 prose-a:text-nav"
       data-pagefind-body
     >
-      <Content />
+      <Content components={category === 'guides' && slug === 'how-to-play-rarest-answer' ? { td: TierTableCell } : {}} />
     </div>
 
     {/* Fallback videos — only IDs NOT inlined in the body via <Video/>.
@@ -578,6 +579,27 @@ const jsonLd = [
   {/* Floating back-to-top (appears after 600px of scroll) */}
   <BackToTop />
 </LocaleLayout>
+
+<style>
+  .article-header--observatory .article-header__crest {
+    min-height: 144px;
+    gap: 0.75rem;
+  }
+  .article-header--observatory .article-header__crest :global(.world-art) {
+    width: 144px;
+    height: 144px;
+    filter: drop-shadow(0 8px 16px hsl(var(--brand) / 0.15));
+  }
+  @media (min-width: 640px) {
+    .article-header--observatory .article-header__crest {
+      min-height: 160px;
+    }
+    .article-header--observatory .article-header__crest :global(.world-art) {
+      width: 160px;
+      height: 160px;
+    }
+  }
+</style>
 
 <script>
   // Reading progress bar — article scroll depth as a top-edge bar.

@@ -46,7 +46,7 @@ const pagefindTitle = prompt.heading.replace(/:/g, ' -');
     <span class="break-words text-foreground" aria-current="page">{prompt.crumb}</span>
   </nav>
 
-  <header class="content-band mt-5">
+  <header class="content-band prompt-observatory mt-5">
     <div class="min-w-0">
       <p class="text-xs font-semibold uppercase tracking-[0.14em] text-nav">
         <a class="hover:underline" href={hubCategoryPath(prompt.category)}>{label}</a>
@@ -59,7 +59,7 @@ const pagefindTitle = prompt.heading.replace(/:/g, ' -');
       </a>
     </div>
     <div class="content-band__art">
-      <CategoryArt category={prompt.category} size={160} />
+      <CategoryArt category={prompt.category} size={208} />
     </div>
   </header>
 
@@ -168,3 +168,20 @@ const pagefindTitle = prompt.heading.replace(/:/g, ' -');
     </ul>
   </section>
 </article>
+
+<style>
+  .prompt-observatory .content-band__art {
+    width: 176px;
+    height: 176px;
+    filter: drop-shadow(0 12px 20px hsl(var(--brand) / 0.15));
+  }
+  @media (min-width: 640px) {
+    .prompt-observatory {
+      grid-template-columns: minmax(0, 1fr) 208px;
+    }
+    .prompt-observatory .content-band__art {
+      width: 208px;
+      height: 208px;
+    }
+  }
+</style>

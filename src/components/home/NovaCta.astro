@@ -1,0 +1,126 @@
+---
+import { Icon } from 'astro-icon/components';
+import { LOBBY } from '~/lib/game/category-copy';
+---
+
+<section class="nova-cta" aria-labelledby="nova-title" data-pagefind-body>
+  <div class="nova-art">
+    <img
+      src="/images/world/nova-waving-160x160.webp"
+      srcset="/images/world/nova-waving-160x160.webp 1x, /images/world/nova-waving-320x320.webp 2x"
+      width="160"
+      height="160"
+      alt={LOBBY.novaAlt}
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+  <div class="nova-copy">
+    <p class="eyebrow">{LOBBY.closeKicker}</p>
+    <h2 id="nova-title">{LOBBY.closeTitle}</h2>
+    <p class="nova-note">{LOBBY.closeNote}</p>
+    <div class="nova-actions">
+      <a class="btn-primary" href="/unlimited/">
+        {LOBBY.closePlay}<Icon name="lucide:arrow-right" aria-hidden="true" />
+      </a>
+      <a class="btn-outline" href="/">{LOBBY.closeDaily}</a>
+    </div>
+    <a class="nova-guide" href="/guides/how-to-find-rare-answers/">{LOBBY.closeGuide}</a>
+  </div>
+</section>
+
+<style>
+  .nova-cta {
+    position: relative;
+    display: grid;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1.5rem;
+    border: 1px solid hsl(var(--gold) / 0.35);
+    border-radius: 2rem;
+    background:
+      radial-gradient(ellipse at 15% 30%, hsl(var(--gold) / 0.1), transparent 50%),
+      radial-gradient(ellipse at 100% 100%, hsl(var(--brand-light) / 0.15), transparent 65%),
+      hsl(var(--card));
+  }
+  .nova-art {
+    position: relative;
+    isolation: isolate;
+    width: 160px;
+    aspect-ratio: 1;
+    margin: auto;
+  }
+  .nova-art::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: -1rem;
+    border: 1px solid hsl(var(--gold) / 0.2);
+    border-radius: 50%;
+    background: radial-gradient(circle, hsl(var(--gold) / 0.14), transparent 70%);
+  }
+  .nova-art img {
+    display: block;
+    width: 160px;
+    height: 160px;
+  }
+  .eyebrow {
+    color: hsl(var(--brand-text));
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  h2 {
+    max-width: 24ch;
+    margin-top: 0.5rem;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+  .nova-note {
+    max-width: 48ch;
+    margin-top: 1rem;
+    color: hsl(var(--muted-foreground));
+    line-height: 1.6;
+  }
+  .nova-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  .nova-actions a {
+    min-height: 48px;
+    gap: 0.75rem;
+    padding-inline: 1.25rem;
+  }
+  .nova-actions :global(svg) {
+    width: 16px;
+    height: 16px;
+  }
+  .nova-guide {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    margin-top: 0.5rem;
+    color: hsl(var(--brand-text));
+    font-size: 0.875rem;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  @media (min-width: 700px) {
+    .nova-cta {
+      grid-template-columns: minmax(180px, 0.6fr) minmax(0, 1.4fr);
+      padding: 2.5rem;
+      gap: 2.5rem;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .nova-cta :global(*) {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>

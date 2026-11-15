@@ -13,6 +13,8 @@ import CategoryDeck from '~/components/home/CategoryDeck.astro';
 import TierLadder from '~/components/home/TierLadder.astro';
 import HowToStrip from '~/components/home/HowToStrip.astro';
 import BrowseAnswers from '~/components/home/BrowseAnswers.astro';
+import SpotlightStrip from '~/components/home/SpotlightStrip.astro';
+import NovaCta from '~/components/home/NovaCta.astro';
 import { UNLIMITED } from '~/lib/game/copy';
 import {
   CATEGORY_PAGE_LIST,
@@ -78,9 +80,10 @@ const links = [
   </LobbyHero>
 
   <LobbyContent>
-    <CategoryDeck catalog={catalog} />
     <HowToStrip />
     <TierLadder />
+    <CategoryDeck catalog={catalog} />
+    <SpotlightStrip catalog={catalog} />
     <BrowseAnswers />
     <div data-pagefind-body class="reading-grid">
       <section class="reading-card" id="what">
@@ -135,5 +138,6 @@ const links = [
     </div>
     <RelatedLinks title="Keep playing" links={links} />
     <GameFaq title="Unlimited round questions" items={faq} />
+    <NovaCta />
   </LobbyContent>
 </LocaleLayout>

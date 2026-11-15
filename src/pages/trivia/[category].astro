@@ -14,6 +14,9 @@ import CategoryDeck from '~/components/home/CategoryDeck.astro';
 import TierLadder from '~/components/home/TierLadder.astro';
 import CategoryPrompts from '~/components/home/CategoryPrompts.astro';
 import BrowseAnswers from '~/components/home/BrowseAnswers.astro';
+import HowToStrip from '~/components/home/HowToStrip.astro';
+import SpotlightStrip from '~/components/home/SpotlightStrip.astro';
+import NovaCta from '~/components/home/NovaCta.astro';
 import {
   categoryCompare,
   categoryPage,
@@ -127,9 +130,11 @@ const links = [
   </LobbyHero>
 
   <LobbyContent>
-    <CategoryPrompts page={page} prompts={prompts} />
+    <HowToStrip />
     <TierLadder />
     <CategoryDeck catalog={catalog} />
+    <SpotlightStrip catalog={catalog} />
+    <CategoryPrompts page={page} prompts={prompts} />
     <div data-pagefind-body class="reading-grid">
       <section class="reading-card">
         <h2 class="text-2xl font-bold tracking-tight text-foreground">
@@ -178,5 +183,6 @@ const links = [
     <BrowseAnswers />
     <RelatedLinks title="Other rounds" links={links} />
     <GameFaq title={`${page.h1} questions`} items={page.faq} />
+    <NovaCta />
   </LobbyContent>
 </LocaleLayout>

@@ -1,0 +1,25 @@
+---
+import ReservedAdSlot from './ReservedAdSlot.astro';
+import MobileAnchorAd from './MobileAnchorAd.astro';
+import { resolveSiteAds } from './placements';
+const ads = resolveSiteAds(import.meta.env);
+const show = Object.values(ads).some((ad) => ad.provider !== 'none');
+---
+
+{
+  show && (
+    <>
+      {(['left', 'right'] as const).map(
+        (placement) =>
+          ads[placement].provider !== 'none' && (
+            <aside class={`site-ad-rail site-ad-rail-${placement}`} data-ad-rail={placement} data-pagefind-ignore>
+              <div class="site-ad-rail-sticky">
+                <ReservedAdSlot placement={placement} />
+              </div>
+            </aside>
+          ),
+      )}
+      <MobileAnchorAd siteWide />
+    </>
+  )
+}

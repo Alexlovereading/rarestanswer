@@ -21,15 +21,12 @@
  * html file itself is not build inputs — also create it in `public/ads/` or
  * the iframe 404s as an empty box.
  *
- * Consent-gated like GA/AdSense: when the cookie banner is active (its own
- * render condition in BaseLayout = PUBLIC_GA_ID or PUBLIC_ADSENSE_CLIENT
- * set), the iframe mounts WITHOUT src (data-src holds the real URL) and a
- * small ES2018 inline script promotes data-src → src only after the visitor
- * has consented — either a stored 'accepted' in CookieConsent's localStorage
- * flag, or the `aw:consent-accepted` event it dispatches on accept. Declined
- * or unchosen → the unit never loads, matching the banner's promise that
- * ads wait for consent. No tracking env vars → banner never renders → the
- * iframe loads directly (out-of-box zero-consent behavior unchanged).
+ * Consent-gated like GA/AdSense: every configured Adsterra unit activates
+ * the existing CookieConsent banner, including Adsterra-only setups. The
+ * iframe starts without src; the real local HTML URL stays in data-src.
+ * Stored accepted consent or the aw:consent-accepted event activates it.
+ * Managed shell placements additionally wait for their visible breakpoint;
+ * their shared controller owns activation. Declined or unchosen never loads.
  */
 interface Props {
   /** Slot name = html filename stem under public/ads/ (e.g. `sidebar-300x250`). */
@@ -47,19 +44,18 @@ interface Props {
    * fills any width. Same pattern as StickyBanner's `hidden md:block`.
    */
   hideOnMobile?: boolean;
+  /** Site shell owns viewport and consent activation for this fixed unit. */
+  managed?: boolean;
 }
 
+import { envValue, requiresAdConsent } from './placements';
 import { currentSharedStrings } from '~/lib/shared-ui';
 
-const { name, width, height, label = true, hideOnMobile = false } = Astro.props;
+const { name, width, height, label = true, hideOnMobile = false, managed = false } = Astro.props;
 const envKey = `PUBLIC_ADSTERRA_SLOT_${name.replace(/-/g, '_').toUpperCase()}`;
-const show = !!import.meta.env[envKey];
-// Same env condition under which BaseLayout renders CookieConsent — when
-// either is set the banner (and its consent promise) is live on every page.
-const consentBannerActive = !!(
-  (import.meta.env.PUBLIC_GA_ID as string | undefined) ||
-  (import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined)
-);
+const show = !!envValue(import.meta.env, envKey);
+// Includes Adsterra-only configurations: they also show CookieConsent.
+const consentBannerActive = requiresAdConsent(import.meta.env);
 const iframeSrc = `/ads/${name}.html`;
 const sharedStrings = currentSharedStrings(Astro.currentLocale);
 const adLabel = sharedStrings.adLabel ?? 'Advertisement';
@@ -77,16 +73,17 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
           <span class="mb-1 text-[10px] uppercase tracking-wider text-muted-foreground">{adLabel}</span>
         )}
         <iframe
-          src={consentBannerActive ? undefined : iframeSrc}
-          data-src={consentBannerActive ? iframeSrc : undefined}
-          data-adsterra-defer={consentBannerActive ? '1' : undefined}
+          src={consentBannerActive || managed ? undefined : iframeSrc}
+          data-src={consentBannerActive || managed ? iframeSrc : undefined}
+          data-adsterra-defer={consentBannerActive && !managed ? '1' : undefined}
+          data-ad-managed={managed ? '1' : undefined}
           style={`width:100%;max-width:${width}px;height:${height}px;border:0`}
           loading="lazy"
           sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
           title={adLabel}
         />
       </div>
-      {consentBannerActive && (
+      {consentBannerActive && !managed && (
         <script is:inline>
           /* ES2018 only (no optional chaining / nullish coalescing / optional
              catch binding) — runs untranspiled in the HTML, old webviews parse

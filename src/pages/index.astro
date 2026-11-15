@@ -15,6 +15,7 @@ import CategoryDeck from '~/components/home/CategoryDeck.astro';
 import TierLadder from '~/components/home/TierLadder.astro';
 import HowToStrip from '~/components/home/HowToStrip.astro';
 import BrowseAnswers from '~/components/home/BrowseAnswers.astro';
+import NovaCta from '~/components/home/NovaCta.astro';
 import { HOME, HOME_FAQ, HOW_TO_STEPS } from '~/lib/game/copy';
 import {
   CATEGORY_PAGE_LIST,
@@ -85,10 +86,10 @@ const links = [
   </LobbyHero>
 
   <LobbyContent>
-    <CategoryDeck catalog={catalog} />
-    <SpotlightStrip catalog={catalog} />
     <HowToStrip />
     <TierLadder />
+    <CategoryDeck catalog={catalog} />
+    <SpotlightStrip catalog={catalog} />
     <BrowseAnswers />
     <div data-pagefind-body class="reading-grid">
       <section id="what" class="reading-card">
@@ -162,5 +163,6 @@ const links = [
     </div>
     <RelatedLinks id="more-ways" title="More ways to play" links={links} />
     <GameFaq title="Rarest Answer questions" items={faq} />
+    <NovaCta />
   </LobbyContent>
 </LocaleLayout>

@@ -5,6 +5,21 @@
 
 ## 你的广告开关在哪(30 秒背景)
 
+### Rarest Answer: LEFT / RIGHT / BOTTOM reserved positions
+
+`PUBLIC_AD_PLACEHOLDERS = "true"` in `wrangler.toml` currently previews empty positions as dashed boxes labeled **Advertisement**, with no ad-network requests. Set it to `"false"` to hide unconfigured positions. Fill these `[vars]` values to enable real units (AdSense also requires `PUBLIC_ADSENSE_CLIENT`):
+
+| Position | Creative size | AdSense slot variable | Adsterra variable / HTML filename |
+| --- | --- | --- | --- |
+| Left gutter | 160×600 | `PUBLIC_ADSENSE_SLOT_RAIL_LEFT` | `PUBLIC_ADSTERRA_SLOT_RAIL_LEFT_160X600` / `rail-left-160x600.html` |
+| Right gutter | 160×600 | `PUBLIC_ADSENSE_SLOT_RAIL_RIGHT` | `PUBLIC_ADSTERRA_SLOT_RAIL_RIGHT_160X600` / `rail-right-160x600.html` |
+| Bottom desktop | 728×90 | `PUBLIC_ADSENSE_SLOT_ANCHOR_DESKTOP` | `PUBLIC_ADSTERRA_SLOT_ANCHOR_728X90` / `anchor-728x90.html` |
+| Bottom mobile | 320×50 | `PUBLIC_ADSENSE_SLOT_ANCHOR_MOBILE` | `PUBLIC_ADSTERRA_SLOT_STICKY_320X50` / `sticky-320x50.html` |
+
+Create each enabled Adsterra HTML file under `public/ads/` with its own dashboard unit code. AdSense takes precedence when both networks are configured for a position. Use fixed-size AdSense units matching the table. Real units wait for the existing consent banner, including Adsterra-only setups. Hidden rails and the alternate bottom size do not request ads until their breakpoint becomes visible.
+
+Rails are sticky from 1440px upward in viewports at least 860px tall (so the full creative fits above the bottom bar), in reserved gutters with at least 24px separation from main and footer content. The bottom switches at 768px, stays outside the game card, and has a keyboard-accessible close button remembered for the current browser-tab session. Its full height (148px desktop / 108px mobile, including the close-button row, plus the safe-area inset) is reserved before first paint and while consent is pending, so loading a creative cannot shift content or cover the page tail. Closing it removes the reservation. The old article mobile-anchor invocation is inert; BaseLayout mounts one responsive bottom bar per page. No new ad art is used.
+
 模板内置 3 个广告位(Sticky 粘底 / Sidebar 侧栏 / InContent 文中),由 `PUBLIC_ADSENSE_CLIENT` + 3 个 slot 环境变量控制,**留空 = 不渲染,默认全关**。这个"默认关"正是为下面的时机策略设计的——站可以先干净上线,时机到了再填变量打开。
 
 AdSense 之外的常用备选是 Adsterra(审核快、零流量门槛),它的广告单元是一段独立脚本,在你自己的 fork 里粘到对应位置即可——具体粘哪、怎么和模板 3 个 AdSense 位共存,见本文第三节。

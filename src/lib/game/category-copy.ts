@@ -54,23 +54,30 @@ export interface TextLink {
 
 /** Lobby copy stays in this build-only module, outside the game bundle. */
 export const LOBBY = {
-  dailyLead: 'Many right answers. One rare find.',
-  unlimitedLead: 'A fresh round. Another chance to find the unexpected.',
-  heroCaption: 'Your niche knowledge is worth points.',
-  heroNote: 'Common to Legendary. Every correct answer gets you closer.',
-  categoryKicker: 'Find your home advantage',
-  categoryTitle: 'Pick your playground',
+  world: 'The Rarity Observatory',
+  dailyLead: 'Every correct answer is a star. Find the unexpected, and make yours shine brighter.',
+  unlimitedLead:
+    'The sky is full of possibilities. Deal a fresh round and keep searching for a rare find.',
+  heroCaption: 'A whole sky of rare possibilities.',
+  heroAlt:
+    'Nova, a round owl with brass goggles, a teal scarf and a lantern, watches celestial treasures above a cloud-top observatory.',
+  heroNote:
+    'Join Nova above the clouds. Bring your curiosity; the rarest correct answers bring the points.',
+  categoryKicker: 'Choose your constellation',
+  categoryTitle: 'Where will your curiosity take you?',
   categoryNote: 'Eight categories. Follow your curiosity, or play to your strengths.',
-  spotlightKicker: 'A little inspiration',
-  spotlightTitle: "Today's spotlight",
-  spotlightNote: 'Real rare finds from the catalog. Rarity is relative to each prompt.',
+  spotlightKicker: 'From the real answer collection',
+  spotlightTitle: 'Rare finds',
+  spotlightNote:
+    'Actual rarest answers in these sets. The rankings use pageviews, not player guesses.',
   spotlightLink: 'See the ranking',
   howKicker: 'Ready in three moves',
-  howTitle: 'Think beyond the obvious',
-  tierKicker: 'Every answer has a level',
+  howTitle: 'How it works',
+  howNote: 'A simple question. A surprising answer. A brighter star.',
+  tierKicker: 'From comet pebble to golden star',
   tierTitle: 'Climb the rarity ladder',
   tierNote:
-    'The less familiar the answer, the bigger the score. One Spotlight doubles a scored prompt.',
+    'Lower pageviews within a prompt mean a higher tier and more points. Spotlight doubles one scored prompt per round.',
   browseKicker: 'Build your next brilliant guess',
   browseTitle: 'A rabbit hole of rare answers',
   browseNote:
@@ -82,6 +89,15 @@ export const LOBBY = {
   rarest: 'Rarest answer',
   categoryRound: 'Category round',
   catalog: 'The prompt collection',
+  closeKicker: 'Nova saved you a place',
+  novaAlt:
+    'Nova the owl waves a wing, wearing brass goggles and a teal scarf and carrying a glowing lantern.',
+  closeTitle: 'There is a rare find with your name on it.',
+  closeNote:
+    'One unexpected answer can light up a round. Take a little curiosity into the next one.',
+  closePlay: 'Play a fresh round',
+  closeDaily: 'Back to the daily',
+  closeGuide: 'Learn how to find rare answers',
 } as const;
 
 export const CATEGORY_HOOKS: Record<CategoryKey, string> = {
@@ -97,18 +113,21 @@ export const CATEGORY_HOOKS: Record<CategoryKey, string> = {
 
 export const LOBBY_STEPS = [
   {
-    icon: 'lucide:keyboard',
-    title: 'Name something that fits',
-    body: 'One prompt, many correct answers. Type a name the list accepts.',
+    scene: 'how-reading',
+    alt: 'Nova the owl reads a constellation scroll by lantern light on the observatory balcony.',
+    title: 'Read your prompt',
+    body: 'One prompt, many correct answers. Think of a name that belongs on the accepted list.',
   },
   {
-    icon: 'lucide:gem',
-    title: 'Find the unexpected',
-    body: `Rarer answers score more. ${TIERS[0]?.name ?? 'Common'} scores ${TIERS[0]?.points ?? 5}; ${TIERS[TIERS.length - 1]?.name ?? 'Legendary'} scores ${TIERS[TIERS.length - 1]?.points ?? 100}.`,
+    scene: 'how-typing',
+    alt: 'Nova the owl types at a brass typewriter beside a golden hourglass in the observatory.',
+    title: 'Make your rarest guess',
+    body: `Type an accepted answer. Rarer picks score more: ${TIERS[0]?.name ?? 'Common'} earns ${TIERS[0]?.points ?? 5} points; ${TIERS[TIERS.length - 1]?.name ?? 'Legendary'} earns ${TIERS[TIERS.length - 1]?.points ?? 100}.`,
   },
   {
-    icon: 'lucide:scan-line',
-    title: 'Reveal your rare finds',
+    scene: 'how-catching',
+    alt: 'Nova the owl holds a glass jar beneath a glowing blue star-sapphire above the clouds.',
+    title: 'Reveal your rare find',
     body: 'Learn from the rankings, then share a result that keeps your answers a secret.',
   },
 ] as const;
@@ -220,7 +239,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       'Geography trivia for the Rarest Answer game. Name a country, capital, river, or coast. The rarest correct answer scores the most. Free rounds, no account.',
     lead: 'Name a place. The rarest correct answer scores the most.',
     intro:
-      'Geography trivia here is a naming game, not a map quiz with a single official key. A prompt asks you to name a place: a country, a capital, a river, a range, a coast. Only a place on that prompt\'s list counts. The capital everyone can point to is usually the low tier. The river you only met in a textbook is where the points are. This page deals geography prompts only, as many rounds as you want, with the same six tiers and the same Spotlight as the daily game.',
+      "Geography trivia here is a naming game, not a map quiz with a single official key. A prompt asks you to name a place: a country, a capital, a river, a range, a coast. Only a place on that prompt's list counts. The capital everyone can point to is usually the low tier. The river you only met in a textbook is where the points are. This page deals geography prompts only, as many rounds as you want, with the same six tiers and the same Spotlight as the daily game.",
     listNote:
       'A place prompt is a naming round. The ranking is inside that prompt, not a map score.',
     emptyNote:

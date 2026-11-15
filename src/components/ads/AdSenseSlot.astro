@@ -7,23 +7,32 @@
  *   - sticky   → PUBLIC_ADSENSE_SLOT_STICKY
  *   - sidebar  → PUBLIC_ADSENSE_SLOT_SIDEBAR
  *   - incontent→ PUBLIC_ADSENSE_SLOT_INCONTENT
+ *   - left/right → PUBLIC_ADSENSE_SLOT_RAIL_LEFT / RAIL_RIGHT
+ *   - desktop/mobile → PUBLIC_ADSENSE_SLOT_ANCHOR_DESKTOP / ANCHOR_MOBILE
  *
  * When client OR the position's slot ID is empty, the component renders
  * nothing — beginners can deploy with no ads configured and the site
  * works fine (template's out-of-box Lighthouse 4×100 contract).
  *
  * The AdSense loader script is injected once in BaseLayout.astro `<head>`
- * (gated on PUBLIC_ADSENSE_CLIENT). Each slot just drops an
- * `<ins class="adsbygoogle">` tag and pushes to the `adsbygoogle` queue.
+ * (requires a client plus at least one configured slot). Each slot drops an
+ * `<ins class="adsbygoogle">` tag. Managed shell units defer their queue push
+ * until the unit is visible and the existing consent event has fired.
  *
  * Usage:
  *   <AdSenseSlot position="sticky" />
  *   <AdSenseSlot position="sidebar" />
  *   <AdSenseSlot position="incontent" />
  */
+import { envValue } from './placements';
+
 interface Props {
   /** Where the ad lives — maps to a PUBLIC_ADSENSE_SLOT_* env var. */
-  position: 'sticky' | 'sidebar' | 'incontent';
+  position: 'sticky' | 'sidebar' | 'incontent' | 'left' | 'right' | 'desktop' | 'mobile';
+  /** Shell controller loads only a visible, consented placement. */
+  managed?: boolean;
+  width?: number;
+  height?: number;
   /** Ad format: "auto" (default) or "fluid". */
   format?: 'auto' | 'fluid';
   /** Enable full-width responsive ads. Default true. */
@@ -36,26 +45,43 @@ const positionToEnv: Record<Props['position'], string> = {
   sticky: 'PUBLIC_ADSENSE_SLOT_STICKY',
   sidebar: 'PUBLIC_ADSENSE_SLOT_SIDEBAR',
   incontent: 'PUBLIC_ADSENSE_SLOT_INCONTENT',
+  left: 'PUBLIC_ADSENSE_SLOT_RAIL_LEFT',
+  right: 'PUBLIC_ADSENSE_SLOT_RAIL_RIGHT',
+  desktop: 'PUBLIC_ADSENSE_SLOT_ANCHOR_DESKTOP',
+  mobile: 'PUBLIC_ADSENSE_SLOT_ANCHOR_MOBILE',
 };
 
-const { position, format = 'auto', responsive = true, class: className = '' } = Astro.props;
-const client = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined;
-const slot = import.meta.env[positionToEnv[position]] as string | undefined;
+const {
+  position,
+  format = 'auto',
+  responsive = true,
+  class: className = '',
+  managed = false,
+  width,
+  height,
+} = Astro.props;
+const client = envValue(import.meta.env, 'PUBLIC_ADSENSE_CLIENT');
+const slot = envValue(import.meta.env, positionToEnv[position]);
 ---
 
-{client && slot && (
-  <ins
-    class={`adsbygoogle ${className}`.trim()}
-    style="display:block"
-    data-ad-client={client}
-    data-ad-slot={slot}
-    data-ad-format={format}
-    data-full-width-responsive={responsive ? 'true' : 'false'}
-  />
-)}
+{
+  client && slot && (
+    <ins
+      class={`adsbygoogle ${className}`.trim()}
+      style={
+        width && height ? `display:block;width:${width}px;height:${height}px` : 'display:block'
+      }
+      data-ad-managed={managed ? '1' : undefined}
+      data-ad-client={client}
+      data-ad-slot={slot}
+      data-ad-format={width && height ? undefined : format}
+      data-full-width-responsive={responsive ? 'true' : 'false'}
+    />
+  )
+}
 
-{client && slot && (
-  <script is:inline>
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-)}
+{
+  client && slot && !managed && (
+    <script is:inline>(window.adsbygoogle = window.adsbygoogle || []).push({});</script>
+  )
+}

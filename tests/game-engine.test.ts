@@ -5,7 +5,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test, vi } from 'vitest';
 import fixture from './fixtures/great-ape-species.json';
 import fixtureIndex from './fixtures/prompts-index.json';
 import { CATEGORY_KEYS, isCategoryKey } from '~/lib/game/categories';
@@ -52,6 +52,7 @@ import {
   TIMER_MS,
 } from '~/lib/game/score';
 import { buildShareText, sharePageUrl, tierSquare } from '~/lib/game/share';
+import { drawShareCard } from '~/lib/game/share-card';
 import {
   DAILY_STORAGE_KEY,
   STATS_STORAGE_KEY,
@@ -75,6 +76,7 @@ import {
   celebrationParticles,
   clockVisual,
   currentCombo,
+  novaReaction,
   scoreAtProgress,
 } from '~/lib/game/visuals';
 
@@ -748,6 +750,57 @@ describe('live prompt catalog', () => {
 });
 
 describe('game presentation calculations', () => {
+  test('share export decodes raster treasures eagerly and removes its temporary stage', async () => {
+    const stub = <T extends object>(value: Partial<T>): T => value as T;
+    const image = stub<HTMLImageElement>({ loading: 'lazy', decode: vi.fn().mockResolvedValue(undefined) });
+    const stage = stub<HTMLElement>({
+      style: stub<CSSStyleDeclaration>({}),
+      setAttribute: vi.fn(),
+      append: vi.fn(),
+      querySelector: vi.fn().mockReturnValue(image),
+      remove: vi.fn(),
+    });
+    const template = stub<HTMLTemplateElement>({
+      content: stub<DocumentFragment>({ cloneNode: vi.fn().mockReturnValue({}) }),
+    });
+    const host = stub<HTMLElement>({ querySelector: vi.fn().mockReturnValue(template), append: vi.fn() });
+    const gradient = { addColorStop: vi.fn() };
+    const ctx = stub<CanvasRenderingContext2D>({
+      clearRect: vi.fn(), fillRect: vi.fn(), createRadialGradient: vi.fn().mockReturnValue(gradient),
+      createLinearGradient: vi.fn().mockReturnValue(gradient), beginPath: vi.fn(), roundRect: vi.fn(),
+      stroke: vi.fn(), fillText: vi.fn(), measureText: vi.fn().mockReturnValue({ width: 60 }),
+      drawImage: vi.fn(), setLineDash: vi.fn(), arc: vi.fn(),
+    });
+    const canvas = stub<HTMLCanvasElement>({ width: 1200, height: 630, getContext: vi.fn().mockReturnValue(ctx) });
+    vi.stubGlobal('document', {
+      documentElement: {}, fonts: { ready: Promise.resolve() }, createElement: () => stage,
+    });
+    vi.stubGlobal('getComputedStyle', () => ({ getPropertyValue: () => '0 0% 50%' }));
+    try {
+      await drawShareCard(canvas, host, {
+        title: 'Round', score: 100, tiers: [6, 0, 6], spotlight: false, noTimer: false,
+        url: 'https://example.test/',
+      });
+      expect(image.loading).toBe('eager');
+      expect(image.decode).toHaveBeenCalledOnce();
+      expect(ctx.drawImage).toHaveBeenCalledTimes(3);
+      expect(ctx.drawImage).toHaveBeenNthCalledWith(1, image, 960, 88, 156, 156);
+      expect(stage.remove).toHaveBeenCalledOnce();
+    } finally {
+      vi.unstubAllGlobals();
+    }
+  });
+
+  test('Nova celebrates Rare and above and reacts to unscored prompts', () => {
+    expect(novaReaction(0)).toBe('surprised');
+    expect([1, 2, 3].map((tier) => novaReaction(tier as 1 | 2 | 3))).toEqual([
+      'thinking', 'thinking', 'thinking',
+    ]);
+    expect([4, 5, 6].map((tier) => novaReaction(tier as 4 | 5 | 6))).toEqual([
+      'celebrating', 'celebrating', 'celebrating',
+    ]);
+  });
+
   test('clock colors follow real remaining time and the ring stays bounded', () => {
     expect(clockVisual(25_000, 25_000)).toEqual({ phase: 'steady', offset: 0 });
     expect(clockVisual(10_000, 25_000)).toEqual({ phase: 'warning', offset: 60 });

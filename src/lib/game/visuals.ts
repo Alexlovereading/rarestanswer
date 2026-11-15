@@ -3,6 +3,13 @@ import type { RoundTier } from './score';
 
 export type ClockPhase = 'steady' | 'warning' | 'urgent' | 'off';
 
+export type NovaMood = 'thinking' | 'celebrating' | 'surprised' | 'sleeping';
+
+/** Nova responds to the awarded tier; Spotlight never changes the reaction. */
+export function novaReaction(tier: RoundTier): NovaMood {
+  return tier === 0 ? 'surprised' : tier >= 4 ? 'celebrating' : 'thinking';
+}
+
 export function clockVisual(
   ms: number | null,
   duration: number,

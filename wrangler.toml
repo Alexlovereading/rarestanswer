@@ -43,6 +43,13 @@ PUBLIC_PLAUSIBLE_SRC = "https://plausible.io/js/pa-jGVDCe_47QOLAY8mGpGII.js"
 #PUBLIC_ADSENSE_SLOT_STICKY = ""
 #PUBLIC_ADSENSE_SLOT_SIDEBAR = ""
 #PUBLIC_ADSENSE_SLOT_INCONTENT = ""
+# Preview reserved positions without any ad-network requests.
+PUBLIC_AD_PLACEHOLDERS = "true"
+# Fixed shell positions: left/right 160x600; bottom desktop 728x90 / mobile 320x50.
+#PUBLIC_ADSENSE_SLOT_RAIL_LEFT = ""
+#PUBLIC_ADSENSE_SLOT_RAIL_RIGHT = ""
+#PUBLIC_ADSENSE_SLOT_ANCHOR_DESKTOP = ""
+#PUBLIC_ADSENSE_SLOT_ANCHOR_MOBILE = ""
 # Adsterra — for each slot you enable, also create public/ads/<name>.html with
 # the snippet from the Adsterra dashboard (pattern: docs/ads.md 「广告位怎么挂」).
 #PUBLIC_ADSTERRA_SLOT_SIDEBAR_300X250 = ""
@@ -51,6 +58,9 @@ PUBLIC_PLAUSIBLE_SRC = "https://plausible.io/js/pa-jGVDCe_47QOLAY8mGpGII.js"
 #PUBLIC_ADSTERRA_SLOT_STICKY_320X50 = ""
 #PUBLIC_ADSTERRA_SLOT_SIDEBAR_160X300 = ""
 #PUBLIC_ADSTERRA_SLOT_SIDEBAR_160X600 = ""
+#PUBLIC_ADSTERRA_SLOT_RAIL_LEFT_160X600 = ""
+#PUBLIC_ADSTERRA_SLOT_RAIL_RIGHT_160X600 = ""
+#PUBLIC_ADSTERRA_SLOT_ANCHOR_728X90 = ""
 # VibeCafé product telemetry — set BOTH this and the auth key to enable.
 #PUBLIC_VIBECAFE_PRODUCT_ID = ""
 #PUBLIC_VIBECAFE_AUTH_KEY = ""

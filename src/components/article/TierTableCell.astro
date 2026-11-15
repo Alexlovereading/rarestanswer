@@ -1,0 +1,26 @@
+---
+/** Only mounted for our own game's guide, never other games' tier systems. */
+import TierBadge from '~/components/art/TierBadge.astro';
+import { TIERS } from '~/lib/game/types';
+
+const contents = await Astro.slots.render('default');
+const tier = TIERS.find((row) => row.name === contents.trim());
+---
+
+<td {...Astro.props}>
+  {tier ? (
+    <span class="article-tier-treasure">
+      <TierBadge tier={tier.tier} size={32} />
+      <Fragment set:html={contents} />
+    </span>
+  ) : <Fragment set:html={contents} />}
+</td>
+
+<style>
+  .article-tier-treasure {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+  }
+</style>

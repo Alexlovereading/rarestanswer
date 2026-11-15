@@ -13,7 +13,7 @@ import { LOBBY } from '~/lib/game/category-copy';
       TIERS.map((row) => (
         <li style={`--tier-color: var(--tier-${row.tier})`}>
           <span class="badge">
-            <TierBadge tier={row.tier} size={72} />
+            <TierBadge tier={row.tier} size={88} />
           </span>
           <>
             <h3>{row.name}</h3>
@@ -51,7 +51,7 @@ import { LOBBY } from '~/lib/game/category-copy';
   }
   ol {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.65rem;
     margin-top: 1.5rem;
     padding: 0;
@@ -59,17 +59,19 @@ import { LOBBY } from '~/lib/game/category-copy';
   }
   li {
     min-width: 0;
-    padding: 1.1rem 0.5rem;
+    padding: 1.25rem 0.65rem;
     border: 1px solid hsl(var(--tier-color) / 0.28);
     border-bottom: 3px solid hsl(var(--tier-color));
-    border-radius: 1rem;
-    background: linear-gradient(to bottom, hsl(var(--tier-color) / 0.07), hsl(var(--card)));
+    border-radius: 1.25rem;
+    background:
+      radial-gradient(ellipse at 50% 0%, hsl(var(--tier-color) / 0.15), transparent 65%),
+      hsl(var(--card));
     text-align: center;
   }
   .badge {
     display: block;
-    width: 72px;
-    height: 72px;
+    width: 88px;
+    height: 88px;
     margin: 0 auto 0.75rem;
   }
   h3 {
@@ -92,12 +94,17 @@ import { LOBBY } from '~/lib/game/category-copy';
   }
   .tier-blurb {
     margin: 0.65rem auto 0;
-    max-width: 16ch;
+    max-width: 19ch;
     color: hsl(var(--muted-foreground));
     font-size: 0.8125rem;
     line-height: 1.3;
   }
-  @media (min-width: 800px) {
+  @media (min-width: 520px) {
+    ol {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  @media (min-width: 900px) {
     ol {
       grid-template-columns: repeat(6, minmax(0, 1fr));
       gap: 0.875rem;

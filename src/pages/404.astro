@@ -7,12 +7,11 @@
 import { Icon } from 'astro-icon/components';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import PlayCta from '~/components/article/PlayCta.astro';
-import HeroArt from '~/components/art/HeroArt.astro';
-import TierBadge from '~/components/art/TierBadge.astro';
 import { NAVIGATION_CONFIG } from '~/config/navigation';
 import { defaultLocale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { homeUrl, listPath, localizePath } from '~/lib/url';
+import { NOVA_ALT } from '~/lib/game/copy';
 
 const locale = defaultLocale;
 const ui = getUi(locale);
@@ -37,10 +36,18 @@ const recover = [
   description={shared.notFoundDescription}
   noindex={true}
 >
-  <div class="mx-auto max-w-xl py-10 text-center sm:py-16">
+  <div class="mx-auto max-w-2xl py-10 text-center sm:py-16">
     <div class="rare-page-art">
-      <HeroArt />
-      <div class="rare-page-art__badge"><TierBadge tier={6} size={64} /></div>
+      <img
+        src="/images/world/empty-observatory-640x400.webp"
+        srcset="/images/world/empty-observatory-640x400.webp 640w, /images/world/empty-observatory-1280x800.webp 1280w"
+        sizes="(min-width: 704px) 640px, calc(100vw - 64px)"
+        width="640"
+        height="400"
+        alt={NOVA_ALT.emptyObservatory}
+        loading="eager"
+        decoding="async"
+      />
     </div>
     <p class="font-display text-7xl font-extrabold tracking-tight text-nav md:text-8xl">404</p>
     <h1 class="mt-4 font-display text-3xl font-semibold tracking-tight">{shared.visuals.rarePage}</h1>
@@ -79,3 +86,21 @@ const recover = [
     </div>
   </div>
 </LocaleLayout>
+
+<style>
+  .rare-page-art {
+    width: min(100%, 640px);
+    aspect-ratio: 8 / 5;
+    overflow: hidden;
+    border: 1px solid hsl(var(--brand) / 0.2);
+    border-radius: 1.5rem;
+    background: hsl(var(--brand) / 0.08);
+    box-shadow: 0 20px 50px -30px hsl(var(--brand) / 0.5);
+  }
+  .rare-page-art img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+</style>
