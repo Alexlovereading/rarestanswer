@@ -1,5 +1,27 @@
 {
   "$schema": "../../docs/home.schema.json",
+  "houseAds": {
+    "sponsored": "Sponsored",
+    "privacySponsoredLinks": "Sponsored links are paid or affiliate placements served as local images and links without third-party scripts or cookies; the destination site applies its own privacy policy when you follow a link.",
+    "christmas": {
+      "headline": "Christmas gift ideas",
+      "subline": "Holiday gift guide by recipient",
+      "ctaLabel": "Read the guide",
+      "alt": ""
+    },
+    "giftCard": {
+      "headline": "Walmart Gift Card",
+      "subline": "See the offer",
+      "ctaLabel": "See the offer",
+      "alt": ""
+    },
+    "synthpulse": {
+      "headline": "Make a song with AI",
+      "subline": "Turn ideas into songs with SynthPulse",
+      "ctaLabel": "Try SynthPulse",
+      "alt": ""
+    }
+  },
   "site": {
     "name": "Rarest Answer",
     "shortName": "Rarest Answer",

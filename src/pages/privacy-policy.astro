@@ -3,6 +3,7 @@ import LegalPage from '~/components/layout/LegalPage.astro';
 import { defaultLocale } from '~/i18n/routing';
 import { site } from '~/config/site';
 import { contactEmail } from '~/lib/contact-email';
+import { getUi } from '~/i18n/ui';
 
 const email = contactEmail();
 ---
@@ -60,6 +61,7 @@ const email = contactEmail();
     published prompts use that label.
   </p>
   <h2>Third-party services</h2>
+  <p>{getUi(defaultLocale).houseAds.privacySponsoredLinks}</p>
   <p>
     Advertising, analytics, and comments are off unless the matching environment variables are
     set. This site currently uses one of them: Plausible Analytics, described first below. The

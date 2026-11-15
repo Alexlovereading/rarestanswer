@@ -7,7 +7,7 @@
 
 ### Rarest Answer: LEFT / RIGHT / BOTTOM reserved positions
 
-`PUBLIC_AD_PLACEHOLDERS = "true"` in `wrangler.toml` currently previews empty positions as dashed boxes labeled **Advertisement**, with no ad-network requests. Set it to `"false"` to hide unconfigured positions. Fill these `[vars]` values to enable real units (AdSense also requires `PUBLIC_ADSENSE_CLIENT`):
+Each position uses a configured network unit first, then a static house ad from `src/config/house-ads.ts`, then a reserved placeholder if `PUBLIC_AD_PLACEHOLDERS = "true"`, otherwise nothing. The placeholder flag only controls positions without a network unit or house ad. Fill these `[vars]` values to enable real units (AdSense also requires `PUBLIC_ADSENSE_CLIENT`):
 
 | Position | Creative size | AdSense slot variable | Adsterra variable / HTML filename |
 | --- | --- | --- | --- |
@@ -18,7 +18,13 @@
 
 Create each enabled Adsterra HTML file under `public/ads/` with its own dashboard unit code. AdSense takes precedence when both networks are configured for a position. Use fixed-size AdSense units matching the table. Real units wait for the existing consent banner, including Adsterra-only setups. Hidden rails and the alternate bottom size do not request ads until their breakpoint becomes visible.
 
-Rails are sticky from 1440px upward in viewports at least 860px tall (so the full creative fits above the bottom bar), in reserved gutters with at least 24px separation from main and footer content. The bottom switches at 768px, stays outside the game card, and has a keyboard-accessible close button remembered for the current browser-tab session. Its full height (148px desktop / 108px mobile, including the close-button row, plus the safe-area inset) is reserved before first paint and while consent is pending, so loading a creative cannot shift content or cover the page tail. Closing it removes the reservation. The old article mobile-anchor invocation is inert; BaseLayout mounts one responsive bottom bar per page. No new ad art is used.
+Rails are sticky from 1440px upward in viewports at least 812px tall (so the full creative fits above the bottom bar), in reserved gutters with at least 24px separation from main and footer content. The bottom switches at 768px, stays outside the game card, and has a keyboard-accessible close button remembered for the current browser-tab session. Its full height (102px desktop / 62px mobile, plus the safe-area inset) is reserved before first paint and while consent is pending, so loading a creative cannot shift content or cover the page tail. Closing it removes the reservation. The old article mobile-anchor invocation is inert; BaseLayout mounts one responsive bottom bar per page.
+
+### Rarest Answer house ads
+
+`HOUSE_ADS` in `src/config/house-ads.ts` owns the `rail-left` (Fivoraco holiday gift guide), `rail-right` (Walmart gift card affiliate offer), and `anchor` (SynthPulse) links and local image variants under `public/images/promos/`. English headlines, sub-lines, CTA labels, and the visible **Sponsored** disclosure live in the new `houseAds` keys in `src/locales/en.json`. Change those entries to replace a promotion; remove a placement from `HOUSE_ADS` to disable its house fallback, or set the registry to `{}` to disable all house ads. With network env values empty and placeholders `"false"`, disabled positions render nothing. Configured network units continue to win for each responsive size.
+
+These static units load no third-party scripts or cookies and do not wait for consent. Every promotional link opens a new tab with `rel="sponsored noopener"`; the bottom close control still works. Keep the exact 160×600 / 728×90 / 320×50 frames, decorative image alt text when HTML repeats the message, and a visible Sponsored label. Only use owner-verified copy: no gift count for Fivoraco, no amount or free/win/claim/guarantee wording or brand artwork for the Walmart offer.
 
 模板内置 3 个广告位(Sticky 粘底 / Sidebar 侧栏 / InContent 文中),由 `PUBLIC_ADSENSE_CLIENT` + 3 个 slot 环境变量控制,**留空 = 不渲染,默认全关**。这个"默认关"正是为下面的时机策略设计的——站可以先干净上线,时机到了再填变量打开。
 

@@ -1,10 +1,11 @@
-import { readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { runInNewContext } from 'node:vm';
 import { build } from 'esbuild';
 import { describe, expect, test } from 'vitest';
+import { HOUSE_ADS, type HouseAds } from '../src/config/house-ads';
 import {
   configuredAdSenseClient,
   requiresAdConsent,
@@ -19,7 +20,7 @@ const astroRequire = createRequire(require.resolve('astro/package.json'));
 // Use the installed Astro compiler and container, with no dev server or network.
 const { transform } = astroRequire('@astrojs/compiler-rs');
 
-async function render(component: string, env: AdEnv, props = {}, slots = {}) {
+async function render(component: string, env: AdEnv, props = {}, slots = {}, houseAds?: HouseAds) {
   const result = await build({
     entryPoints: [join(root, component)],
     bundle: true,
@@ -32,6 +33,12 @@ async function render(component: string, env: AdEnv, props = {}, slots = {}) {
       {
         name: 'astro-ad-test',
         setup(builder) {
+          if (houseAds !== undefined) {
+            builder.onLoad({ filter: /\/config\/house-ads\.ts$/ }, () => ({
+              contents: `export const HOUSE_ADS = ${JSON.stringify(houseAds)};`,
+              loader: 'ts',
+            }));
+          }
           builder.onResolve({ filter: /^astro\// }, (args) => ({
             path: pathToFileURL(astroRequire.resolve(args.path)).href,
             external: true,
@@ -93,7 +100,7 @@ function classList(initial: string[] = []) {
 
 /** Execute the actual inline controller against only the DOM APIs it consumes. */
 function runtime(
-  provider: 'placeholder' | 'adsterra' | 'adsense',
+  provider: 'house' | 'placeholder' | 'adsterra' | 'adsense',
   width: number,
   choice: string | null = null,
   dismissed = false,
@@ -159,8 +166,8 @@ function runtime(
         changes.desktop = listener;
       },
     },
-    '(min-width: 1440px) and (min-height: 860px)': {
-      matches: width >= 1440 && height >= 860,
+    '(min-width: 1440px) and (min-height: 812px)': {
+      matches: width >= 1440 && height >= 812,
       addEventListener(_type: string, listener: () => void) {
         changes.wide = listener;
       },
@@ -190,22 +197,31 @@ function runtime(
 }
 
 describe('reserved ads outside the game', () => {
-  test('empty env and placeholders=false render no shell, head, unit, or legacy article mount', async () => {
+  test('disabled house ads, empty env and placeholders=false render no shell or network code', async () => {
     const env = { PUBLIC_AD_PLACEHOLDERS: 'false' };
-    for (const file of [shell, head, anchorFile]) expect((await render(file, env)).trim()).toBe('');
+    for (const file of [shell, head, anchorFile])
+      expect((await render(file, env, {}, {}, {})).trim()).toBe('');
     expect(
-      (await render('src/components/ads/ReservedAdSlot.astro', env, { placement: 'left' })).trim(),
+      (
+        await render('src/components/ads/ReservedAdSlot.astro', env, { placement: 'left' }, {}, {})
+      ).trim(),
     ).toBe('');
     expect(configuredAdSenseClient({ PUBLIC_ADSENSE_CLIENT: 'ca-pub-test' })).toBe('');
     expect(requiresAdConsent(env)).toBe(false);
-    const base = await render('src/components/layout/BaseLayout.astro', env,
-      { title: 'Test', description: 'Test', locale: 'en' });
-    expect(base).not.toMatch(/data-site-ad=|id="site-anchor-ad"|id="cookie-consent"|__awLoadTrackers/);
-
+    const base = await render(
+      'src/components/layout/BaseLayout.astro',
+      env,
+      { title: 'Test', description: 'Test', locale: 'en' },
+      {},
+      {},
+    );
+    expect(base).not.toMatch(
+      /data-site-ad=|id="site-anchor-ad"|id="cookie-consent"|__awLoadTrackers/,
+    );
   });
 
   test('preview renders four exact-size, labeled boxes and no network units', async () => {
-    const html = await render(shell, preview);
+    const html = await render(shell, preview, {}, {}, {});
     expect(html.match(/data-ad-provider="placeholder"/g)).toHaveLength(4);
     expect(html.match(/--ad-width:160px;--ad-height:600px/g)).toHaveLength(2);
     expect(html).toContain('--ad-width:728px;--ad-height:90px');
@@ -224,7 +240,7 @@ describe('reserved ads outside the game', () => {
       PUBLIC_ADSTERRA_SLOT_RAIL_LEFT_160X600: 'unit',
       PUBLIC_ADSTERRA_SLOT_RAIL_RIGHT_160X600: 'unit',
     };
-    const html = await render(shell, env);
+    const html = await render(shell, env, {}, {}, {});
     expect(html.match(/data-ad-provider="placeholder"/g)).toHaveLength(2);
     expect(html).toContain('data-ad-slot="123"');
     expect(html).toContain('display:block;width:160px;height:600px');
@@ -233,12 +249,13 @@ describe('reserved ads outside the game', () => {
     expect(html).not.toContain('data-adsterra-defer');
     expect(resolvePlacement(env, 'left').provider).toBe('adsense');
     expect(requiresAdConsent({ PUBLIC_ADSTERRA_SLOT_RAIL_LEFT_160X600: 'unit' })).toBe(true);
-    const adsterraOnly = await render('src/components/layout/BaseLayout.astro',
+    const adsterraOnly = await render(
+      'src/components/layout/BaseLayout.astro',
       { PUBLIC_ADSTERRA_SLOT_RAIL_LEFT_160X600: 'unit' },
-      { title: 'Test', description: 'Test', locale: 'en' });
+      { title: 'Test', description: 'Test', locale: 'en' },
+    );
     expect(adsterraOnly).toContain('id="cookie-consent"');
     expect(adsterraOnly).not.toMatch(/<iframe[^>]*\ssrc=/);
-
   });
 
   test('BaseLayout renders shell ads after game markup, never inside the play card', async () => {
@@ -252,7 +269,8 @@ describe('reserved ads outside the game', () => {
       },
     );
     const game = html.match(/<section data-game-root>[\s\S]*?<\/section>/)![0];
-    expect(game).not.toMatch(/data-site-ad|adsbygoogle|<iframe/);
+    expect(game).not.toMatch(/data-site-ad|data-house-ad|sponsored|adsbygoogle|<iframe/);
+    expect(html).toContain('data-ad-provider="house"');
     expect(html.indexOf('data-ad-rail="left"')).toBeGreaterThan(html.indexOf('</main>'));
     expect(html.match(/id="site-anchor-ad"/g)).toHaveLength(1);
     for (const name of readdirSync(join(root, 'src/components/game')).filter((name) =>
@@ -262,7 +280,7 @@ describe('reserved ads outside the game', () => {
         read(`src/components/game/${name}`).replace(/\/\*[\s\S]*?\*\//g, ''),
         name,
       ).not.toMatch(
-        /from\s+['"][^'"]*components\/ads\/|<(?:AdSenseSlot|AdsterraSlot|ReservedAdSlot|SiteAds)\b/,
+        /from\s+['"][^'"]*components\/ads\/|<(?:AdSenseSlot|AdsterraSlot|ReservedAdSlot|SiteAds|HouseAd)\b/,
       );
     }
   });
@@ -285,13 +303,100 @@ describe('reserved ads outside the game', () => {
     ).toEqual(['left', 'right', 'desktop']);
   });
 
+  test('house ads render sponsored links, visible disclosures and local dimensioned art', async () => {
+    const html = await render(shell, { PUBLIC_AD_PLACEHOLDERS: 'true' });
+    expect(html.match(/data-ad-provider="house"/g)).toHaveLength(4);
+    expect(html.match(/rel="sponsored noopener" target="_blank"/g)).toHaveLength(4);
+    expect(html.match(/class="house-ad-sponsored">Sponsored</g)).toHaveLength(4);
+    expect(html).toContain('Christmas gift ideas');
+    expect(html).toContain('Walmart Gift Card');
+    expect(html).toContain('Make a song with AI');
+    expect(html).toContain('Try SynthPulse');
+    expect(html).not.toMatch(/<iframe|<ins|data-ad-provider="placeholder"/);
+    for (const image of html.match(/<img\b[^>]*>/g) ?? []) {
+      expect(image).toContain('src="/images/promos/');
+      expect(image).toMatch(/width="(?:160|728|320)" height="(?:600|90|50)"/);
+      expect(image).toMatch(/\salt(?:="")?(?=\s|>)/);
+      expect(image).toContain('loading="lazy"');
+    }
+    expect(Object.keys(HOUSE_ADS)).toEqual(['rail-left', 'rail-right', 'anchor']);
+    expect(HOUSE_ADS['rail-left']?.href).toBe(
+      'https://fivoraco.com/house/20-christmas-gift-ideas/',
+    );
+    expect(HOUSE_ADS['rail-right']?.href).toBe(
+      'https://join.trendndailyofficial.com/aff_c?offer_id=16783&aff_id=2130',
+    );
+    expect(HOUSE_ADS.anchor?.href).toBe('https://synthpulseai.com/');
+    for (const ad of Object.values(HOUSE_ADS)) {
+      for (const image of Object.values(ad.images)) {
+        expect(existsSync(join(root, 'public', image.src))).toBe(true);
+        for (const srcSet of [image.srcSet, image.avifSrcSet]) {
+          for (const variant of srcSet?.split(',') ?? []) {
+            expect(existsSync(join(root, 'public', variant.trim().split(' ')[0]))).toBe(true);
+          }
+        }
+      }
+    }
+  });
+
+  test('network inventory wins per slot, then house ads, placeholders, or nothing', async () => {
+    for (const [placement, adsense, adsterra] of [
+      ['left', 'RAIL_LEFT', 'RAIL_LEFT_160X600'],
+      ['right', 'RAIL_RIGHT', 'RAIL_RIGHT_160X600'],
+      ['desktop', 'ANCHOR_DESKTOP', 'ANCHOR_728X90'],
+      ['mobile', 'ANCHOR_MOBILE', 'STICKY_320X50'],
+    ] as const) {
+      const env: AdEnv = {
+        ...preview,
+        PUBLIC_ADSENSE_CLIENT: 'ca-pub-test',
+        [`PUBLIC_ADSENSE_SLOT_${adsense}`]: '123',
+        [`PUBLIC_ADSTERRA_SLOT_${adsterra}`]: 'unit',
+      };
+      const file = 'src/components/ads/ReservedAdSlot.astro';
+      const adsenseHtml = await render(file, env, { placement });
+      expect(adsenseHtml).toContain('data-ad-provider="adsense"');
+      expect(adsenseHtml).not.toContain('data-house-ad');
+      env[`PUBLIC_ADSENSE_SLOT_${adsense}`] = '';
+      const adsterraHtml = await render(file, env, { placement });
+      expect(adsterraHtml).toContain('data-ad-provider="adsterra"');
+      expect(adsterraHtml).not.toContain('data-house-ad');
+      expect(resolvePlacement({}, placement).provider).toBe('house');
+      expect(resolvePlacement(preview, placement, {}).provider).toBe('placeholder');
+      expect(resolvePlacement({}, placement, {}).provider).toBe('none');
+    }
+  });
+
+  test('house ads ignore consent, load no network inventory, and keep dismissal working', () => {
+    expect(requiresAdConsent({})).toBe(false);
+    const mobile = runtime('house', 375, 'declined');
+    expect(mobile.anchor.hidden).toBe(false);
+    expect(
+      mobile.units
+        .filter((unit) => unit.classList.contains('site-ad-ready'))
+        .map((unit) => unit.placement),
+    ).toEqual(['mobile']);
+    expect(mobile.units.every((unit) => unit.frame.src === '')).toBe(true);
+    expect(mobile.window.adsbygoogle).toHaveLength(0);
+    mobile.events.close();
+    expect(mobile.anchor.removed).toBe(true);
+    expect(mobile.memory.get('site-anchor-dismissed')).toBe('1');
+    mobile.events['aw:consent-accepted']();
+    expect(mobile.anchor.hidden).toBe(true);
+    const wide = runtime('house', 1440, null, false, 812);
+    expect(
+      wide.units
+        .filter((unit) => unit.classList.contains('site-ad-ready'))
+        .map((unit) => unit.placement),
+    ).toEqual(['left', 'right', 'desktop']);
+  });
+
   test('real ads wait for consent and do not load hidden rails or the alternate bottom size', () => {
     const state = runtime('adsterra', 1280, 'declined');
     expect(state.anchor.hidden).toBe(true);
     expect(state.units.every((unit) => unit.frame.src === '')).toBe(true);
     state.events['aw:consent-accepted']();
     expect(state.units.map((unit) => unit.frame.src)).toEqual(['', '', '/ads/desktop.html', '']);
-    state.queries['(min-width: 1440px) and (min-height: 860px)'].matches = true;
+    state.queries['(min-width: 1440px) and (min-height: 812px)'].matches = true;
     state.changes.wide();
     expect(state.units.map((unit) => unit.frame.src)).toEqual([
       '/ads/left.html',

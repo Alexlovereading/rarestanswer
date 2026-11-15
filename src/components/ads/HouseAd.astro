@@ -1,0 +1,47 @@
+---
+import type { HouseAd } from '~/config/house-ads';
+import { getUi } from '~/i18n/ui';
+import type { Placement } from './placements';
+
+interface Props {
+  ad: HouseAd;
+  placement: Placement;
+}
+
+const { ad, placement } = Astro.props;
+const image = placement === 'mobile' ? (ad.images.mobile ?? ad.images.desktop) : ad.images.desktop;
+const sponsored = getUi(Astro.currentLocale ?? 'en').houseAds.sponsored;
+---
+
+<div class={`house-ad house-ad-${placement}`} data-house-ad={placement}>
+  <picture class="house-ad-art" aria-hidden={ad.alt === '' ? 'true' : undefined}>
+    {image.avifSrcSet && <source type="image/avif" srcset={image.avifSrcSet} />}
+    <img
+      src={image.src}
+      srcset={image.srcSet}
+      width={image.width}
+      height={image.height}
+      alt={ad.alt}
+      loading="lazy"
+      decoding="async"
+    />
+  </picture>
+  {ad.sponsored && <span class="house-ad-sponsored">{sponsored}</span>}
+  <div class="house-ad-copy">
+    <p class="house-ad-headline">{ad.headline}</p>
+    <p class="house-ad-subline">{ad.subline}</p>
+  </div>
+  <a class="house-ad-cta" href={ad.href} rel="sponsored noopener" target="_blank">
+    {ad.ctaLabel}
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M7 17 17 7M7 7h10v10"></path>
+    </svg>
+  </a>
+</div>

@@ -31,7 +31,7 @@ const closeAd = getUi(Astro.currentLocale ?? 'en').shared.closeAd;
 
 {control && (
   <script is:inline>
-    /* Runs inline only when a shell placement exists. ES2018; no network in preview mode. */
+    /* Runs only when a shell placement exists. House ads use local art and need no consent. */
     (function () {
       var CONSENT_KEY = 'aw-cookie-consent';
       var CONSENT_EVENT = 'aw:consent-accepted';
@@ -39,7 +39,7 @@ const closeAd = getUi(Astro.currentLocale ?? 'en').shared.closeAd;
       var anchor = document.getElementById('site-anchor-ad');
       var close = document.getElementById('dismiss-site-anchor');
       var desktop = window.matchMedia('(min-width: 768px)');
-      var wide = window.matchMedia('(min-width: 1440px) and (min-height: 860px)');
+      var wide = window.matchMedia('(min-width: 1440px) and (min-height: 812px)');
       var consent = false;
       try { consent = localStorage.getItem(CONSENT_KEY) === 'accepted'; } catch (e) { /* unavailable */ }
 
@@ -56,7 +56,7 @@ const closeAd = getUi(Astro.currentLocale ?? 'en').shared.closeAd;
         for (var i = 0; i < units.length; i++) {
           var unit = units[i];
           var provider = unit.getAttribute('data-ad-provider');
-          var ready = isVisible(unit) && (provider === 'placeholder' || consent);
+          var ready = isVisible(unit) && (provider === 'house' || provider === 'placeholder' || consent);
           unit.classList.toggle('site-ad-ready', ready);
           if (!ready) continue;
           var placement = unit.getAttribute('data-site-ad');

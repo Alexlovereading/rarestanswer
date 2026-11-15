@@ -995,3 +995,62 @@ A4 generated no raster files because the asset directories are outside its owner
 | `public/images/world/nova-thinking-320x320.webp` | 20,734 |
 | `public/images/world/nova-waving-160x160.webp` | 8,534 |
 | `public/images/world/nova-waving-320x320.webp` | 23,294 |
+
+
+### B2-HOUSE-ADS → B1 integration request (in progress)
+
+B2 has the house-ad slot renderer and fallback priority in place. The B1 task’s exact `public/images/promos/` filenames were not included in B2’s brief, and that directory is not present yet. B1 / integrator: please append the agreed filenames for the two 160×600 rail images and the SynthPulse 728×90 / 320×50 variants (including 2× files, if supplied); B2 will wire them into `src/config/house-ads.ts`. Images remain exclusively B1-owned.
+
+- B1-PROMO-ART → B2 integration: all 16 exact requested `public/images/promos/` filenames are ready (8 WebP + 8 AVIF), including desktop/mobile SynthPulse artwork. No lettering, logo, product claims, or HTML baked in. Rail bottoms and banner right areas are calm dark indigo. All files are under 30,000 bytes; dimensions match filenames. Built-in generation + sharp; visual/export QA complete, repo gates running. Masters/prompts/optimizer are safely gitignored within `.art-src/promos/` via its owned local ignore file.
+
+## B3-HERO-ALIGN done
+
+Edited only `src/components/home/LobbyHero.astro`, plus this authorized append. All ten play routes inherit the fix: `/`, `/unlimited/`, and the eight `/trivia/<category>/` pages. No route content, game logic, ads, assets, dependencies, or other agents' files were edited; no state-changing git commands.
+
+The desktop grid explicitly stretches both cells in the game-card row. The illustration no longer spans the heading row or centers itself at an independent height. The game shell also uses grid so its visible card fills the shared row. A desktop-only 44rem minimum reserves normal round space; longer reveal/end content can grow both columns together. The right frame uses `minmax(0, 1fr) auto`: the caption remains at the bottom and a positioned image fills the remaining area with `object-fit: cover; object-position: 50% 60%`. Its existing width/height attributes remain; image decoding cannot determine or resize the row. Removed the outer frame's floating transform to keep its edges aligned when motion is allowed. Reduced-motion guards remain. Existing markup, colors, focus behavior, base/mobile CSS and the 375px overrides are unchanged (verified against HEAD).
+
+Validation: `pnpm lint` passed; final `pnpm typecheck` passed with 0 errors/warnings/hints (existing missing tutorials-directory loader warning remains); Prettier and owned-file `git diff --check` passed. `pnpm exec astro build --outDir /tmp/B3-HERO-ALIGN-dist` passed, 331 pages; log `/tmp/B3-HERO-ALIGN-build.log`. Static checks passed for all ten routes: one shared hero, one game root, one H1, and one high-priority world hero image with explicit dimensions and descriptive alt.
+
+Final `pnpm test`: 469 passed, 11 skipped, 6 failed across 25 suites. Three are the existing `content-links.test.ts` child-process cases blocked by sandbox `tsx` IPC (`listen EPERM`). Three are outside ownership in the concurrently updated `ads-slots.test.ts`: shell house-ad rendering, sponsored house-art rendering, and house-provider fallback assertions. The earlier transient ad-test TypeScript error was resolved by the final typecheck. No unowned test/config changes were made to hide failures. Logs: `/tmp/B3-HERO-ALIGN-tests.log`, `/tmp/B3-HERO-ALIGN-typecheck.log`.
+
+Browser QA remains unmeasured: already-installed Playwright Chromium headless shell 1248 aborted at launch with macOS MachPortRendezvous `bootstrap_check_in ... Permission denied`; no screenshot, measured CLS, rendered contrast or actual state-transition geometry is claimed. No server was started. A syntax-checked, no-server follow-up script is at `/tmp/B3-HERO-ALIGN-layout-qa.mjs`: all ten routes, 375/1024/1280/1440/1600/1920px, both themes, keyboard start/pass/next through start/play/reveal/end, card/frame edge assertions, initial CLS, overflow and screenshots. Run it after rebuilding the isolated outDir in an environment that permits Chromium.
+
+## B1-PROMO-ART done
+
+Delivered all 16 exact requested files under `public/images/promos/`: eight WebPs and their eight AVIF twins. Three original built-in imagegen masters: cozy Christmas tree/wrapped gifts/snow; a completely blank anonymous gift card in a blue envelope with a gold bow; headphones, glowing sound waves and decorative musical notes. Painterly jewel colors, warm gold light and friendly deep indigo match the art bible. No text, letters, numerals, logos, brand artwork, monetary amounts or product claims are baked into any image. Art is static and opaque. Rail bottoms and the banner's right two thirds remain quiet/dark for B2's separate HTML copy and buttons.
+
+B2 can use the final filenames immediately, without renaming. Reserve exactly 160×600 for rails, 728×90 for desktop anchor and 320×50 for mobile; use each matching 2× variant. Every unit still needs B2's visible Sponsored label, verified copy, keyboard-accessible link, `rel="sponsored noopener"` and `target="_blank"`. B1 adds no links, markup, scripts or product statements.
+
+| Filename stem (both .webp and .avif) | Pixels | WebP bytes | AVIF bytes |
+| --- | --- | ---: | ---: |
+| `christmas-gifts-160x600` | 160×600 | 9,842 | 8,030 |
+| `christmas-gifts-320x1200` | 320×1200 | 29,670 | 22,346 |
+| `gift-card-160x600` | 160×600 | 7,594 | 6,604 |
+| `gift-card-320x1200` | 320×1200 | 21,660 | 17,862 |
+| `ai-music-728x90` | 728×90 | 2,386 | 2,234 |
+| `ai-music-1456x180` | 1456×180 | 6,776 | 5,480 |
+| `ai-music-320x50` | 320×50 | 1,062 | 1,071 |
+| `ai-music-640x100` | 640×100 | 2,652 | 2,478 |
+
+All files are below the strict 60,000-byte limit, including every 2× export; largest is 29,670 bytes. Total set: 147,747 bytes. Sharp exports at WebP quality 82 / AVIF 62 strip metadata and preserve full subjects with quiet edge extension to the exact ratios. Visual checks inspected the final rails and desktop/mobile banner variants. Pixel calculations against the reserved overlay areas give white text at least 18.00:1 contrast across all 16 files; this is an asset-only calculation, not rendered UI contrast or CLS measurement.
+
+Original PNGs, exact final prompt set (`prompts.json`), reproducible sharp optimizer (`optimize.mjs`), dimensions/bytes manifest (`sizes.json`), and asset QA (`qa.json`) are in `.art-src/promos/`. The owned local `.art-src/promos/.gitignore` ignores the entire source working set; `git check-ignore` confirmed the masters are ignored, with no root .gitignore edit. Built-in sources also remain under `/Users/alex/.codex/generated_images/01a1dfd1-db9d-7861-8501-c8002a99bcf9/`. Built-in tool mode was used, no fallback CLI or external art reference.
+
+Validation: `pnpm lint` passed; `pnpm typecheck` passed with 0 errors/warnings/hints (the existing missing tutorials-directory glob warning remains). `pnpm test` ran: 469 passed, 11 skipped, 6 failed. Three existing `tests/content-links.test.ts` subprocess failures are the sandbox's tsx IPC `listen EPERM`; three `tests/ads-slots.test.ts` failures concern in-progress B2 house-ad integration (house provider missing in shell; sponsored house markup missing; default provider resolving none). No unowned test/config/component was edited. The requested && chain stopped at those tests; `pnpm exec astro build --outDir /tmp/B1-PROMO-ART-dist` was then run separately and passed, 331 pages. All 16 built promo files match the source bytes exactly. Build log: `/tmp/B1-PROMO-ART-build.log`.
+
+Edited only owned public promo images, ignored promo sources, and these append-only handoff notes. Other agents' concurrent edits were left intact. No state-changing git commands, dependencies, server, browser process, frameworks, runtime motion or schema were added. No server was started or left running.
+
+- B1 final visual check: directly inspected the 320×50 mobile WebP as well; headphones remain legible at display size and the copy area stays dark.
+
+
+## B2-HOUSE-ADS done
+
+Implemented the three static paid/affiliate placements in `src/config/house-ads.ts`: `rail-left` → the supplied Fivoraco guide, `rail-right` → the supplied Walmart gift-card affiliate URL, and `anchor` → SynthPulse. The typed registry uses B1's exact `christmas-gifts-{160x600,320x1200}`, `gift-card-{160x600,320x1200}`, and `ai-music-{728x90,1456x180,320x50,640x100}` WebP/AVIF files under `/images/promos/`; all 16 referenced variants exist. B1's images were read only. All new UI copy is under new `houseAds` keys in `src/locales/en.json`; pre-existing keys are unchanged. No gift count, Walmart amount/free/win/claim/guarantee wording, logo, spark, or brand artwork was added.
+
+`ReservedAdSlot` now resolves configured AdSense > configured Adsterra > the matching house ad > reserved placeholder when enabled > nothing. Existing network consent gating and deferred inventory remain intact. House ads need no consent, use decorative dimensioned `<picture>` art with AVIF/WebP 1×/2× variants, visible Sponsored labels, and HTML headlines/sub-lines/CTA links with exactly `rel="sponsored noopener" target="_blank"`. Rails remain exactly 160×600 with bottom gradient copy; the bottom unit uses 728×90 / 320×50 layouts. Token-based colors, hover glow, focus-visible rings and reduced-motion guards are included. Anchor session dismissal still works. Matched the controller's rail height breakpoint to the existing 812px CSS boundary; corrected stale dimensions in the owned ad docs. Added a short change/disable section and one locale-backed sentence about sponsored links to privacy-policy. No frameworks, third-party house-ad scripts, env IDs, dependencies, server, or git-state mutations were introduced.
+
+Final gates: `pnpm lint` passed; `pnpm typecheck` passed with 0 errors/warnings/hints (the existing missing tutorials-directory loader warning remains); all 11 `tests/ads-slots.test.ts` tests pass, covering sponsored rendering, exact local assets, every network override, disabled/placeholder fallbacks, consent independence, close behavior, prepaint geometry, and no ads in the game card. Full `pnpm test`: 472 passed, 11 skipped, 3 failed only in the existing `tests/content-links.test.ts` child-process checks because this sandbox rejects tsx's IPC socket with `listen EPERM`. No unowned tests were edited to mask those failures. Because that failure stops the requested `&&` chain, the isolated build was run separately: `pnpm exec astro build --outDir /tmp/B2-HOUSE-ADS-dist` passed, 331 pages. Logs: `/tmp/B2-HOUSE-ADS-tests.log`, `/tmp/B2-HOUSE-ADS-build.log`. Owned-file `git diff --check` passed. A parser verified all 331 built HTML pages contain four exact-size, labeled sponsored variants with existing local images and zero ad units inside game roots.
+
+Browser QA succeeded with the ego-browser skill in a temporary task space, closed at completion. The QA fixture `/tmp/B2-HOUSE-ADS-preview.html` uses the built HTML/CSS/local art, omitting external/module scripts to isolate ads; this is ad QA, not a live game-state test. Captured 1440px desktop light/dark and 375px/320px mobile views; the tested small viewports had no horizontal overflow and the compact headline fit. Keyboard Tab reached Close ad, Enter removed the bar/reservation and remembered dismissal; actual keyboard focus on the CTA produced a solid 3px ring. Reduced-motion mode yielded a 0s transition. A decode observation kept the fixed ad geometry and recorded 0 ad-related layout shift; it does not measure the whole live game's initial CLS. Computed token contrast, conservatively including a 7% black/white image layer and hover tint, stayed at least 7.35:1 light, 4.70:1 dark, 5.05:1 AMOLED. Screenshots: `/tmp/B2-HOUSE-ADS-1440-light.png`, `/tmp/B2-HOUSE-ADS-1440-dark.png`, `/tmp/B2-HOUSE-ADS-375-dark.png`, `/tmp/B2-HOUSE-ADS-320-light-focus.png`, `/tmp/B2-HOUSE-ADS-desktop-keyboard-focus.png`. No promoted destination was opened and no server was started.
+
+Integrator documentation follow-up outside B2 ownership: `.env.example`'s existing comment “false + empty IDs = nothing” should say that the house-ad registry must also be empty for a position to disappear; the owned `docs/ads.md` now explains the exact priority. B3's `LobbyHero.astro`, B1's assets and all other unowned files were left untouched.

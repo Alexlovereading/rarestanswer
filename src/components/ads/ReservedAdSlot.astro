@@ -1,6 +1,7 @@
 ---
 import AdSenseSlot from './AdSenseSlot.astro';
 import AdsterraSlot from './AdsterraSlot.astro';
+import HouseAd from './HouseAd.astro';
 import { resolvePlacement, type Placement } from './placements';
 import { getUi } from '~/i18n/ui';
 
@@ -19,10 +20,11 @@ const label = getUi(Astro.currentLocale ?? 'en').shared.adLabel;
       data-site-ad={placement}
       data-ad-provider={ad.provider}
       style={`--ad-width:${ad.width}px;--ad-height:${ad.height}px`}
-      role={ad.provider === 'placeholder' ? 'note' : undefined}
+      role={ad.provider === 'placeholder' ? 'note' : 'group'}
       aria-label={label}
     >
-      <span class="site-ad-label">{label}</span>
+      {ad.provider !== 'house' && <span class="site-ad-label">{label}</span>}
+      {ad.provider === 'house' && ad.houseAd && <HouseAd ad={ad.houseAd} placement={placement} />}
       {ad.provider === 'adsense' && (
         <AdSenseSlot
           position={placement}
