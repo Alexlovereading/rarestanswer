@@ -366,3 +366,35 @@ New or fixed sets, written count equals the checked count: Summer Olympics 30 (h
 Details and the returned-versus-expected table are in `docs/rarest-data-audit.md`.
 
 - F2-DATA-FILL → W2-QA: the live catalog is 276 prompts. A prompt under 15 answers is still dropped, except great apes (8) and planets and dwarf planets (13). Stranger Things no longer has a lower minimum.
+
+## F3-FINAL-QA done
+
+Rebuilt `dist/` after the 276-prompt catalog landed and rechecked the plan §1 keyword rows against that HTML. Every phrase is a case-insensitive substring of that URL's `<title>`, H1, or meta description. Parenthetical "(game)" in the plan is disambiguation and is not required as text. "interjection" is on `/answers/english-interjections/` (title "Rarest English Interjections — All 346 Answers Ranked by Rarity — Rarest Answer"). "stranger things characters" is on `/answers/stranger-things-characters/`. The earlier W2 note that those two answer URLs were missing is stale.
+
+`README.md` already stated 276 prompts (geography 37, animals 51, food 33, sports 31, screen 30, music 31, science 32, history 31), great ape species 8, Stranger Things characters 129, and English interjections 346. Those counts match `src/data/prompts/`. Node `>=22.23.4` and pnpm `11.1.1` match `package.json`. No README edit.
+
+The game script in `dist/_astro/` is `GameApp.astro_astro_type_script_index_0_lang.BZ3nhDF2.js`: 40,552 bytes, 12,931 bytes gzipped, under the 40KB cap.
+
+Gates, all green, on this tree:
+
+- `pnpm lint` exit 0
+- `pnpm typecheck` 0 errors, 0 warnings, 0 hints. The glob-loader still warns that `src/content/tutorials/` does not exist. That warning does not fail the command.
+- `pnpm test` 25 files, 486 passed, 2 skipped
+- `pnpm check-config` consistent
+- `pnpm check-content` clean (30 MDX)
+- `pnpm check-i18n --strict-ui` all locales covered
+- `pnpm build` 335 pages. Pagefind indexed 317 pages. IndexNow key file written from `.indexnow-key`.
+- `pnpm check-links` 17,883 links across 335 pages, 0 broken
+
+Playwright 1.64.1 with the installed Chromium 1248 (headless) against `pnpm preview --host 127.0.0.1 --port 4430`. The preview process was stopped afterward (port 4430 closed).
+
+Daily round, keyboard only, at 375×812 and 1280×900, light and dark: first visit opens How to play, Escape closes it, Enter starts, the input is focused, the clock moves from 25 to 24, a miss says "Not on the list" and takes one second, Spotlight on a Common answer scores 10 ("points with Spotlight"), seven tier squares, the end score is the sum, the share text has the colored squares and the score and does not contain the typed names, and the countdown to local midnight is on the end card. No page errors, no console errors, no failed requests, and document scroll width matched the viewport on the start, play, reveal, and end views. The same overflow, console, and contrast check passed for `/`, `/unlimited/`, `/trivia/animals/` (51 prompts, not the empty-catalog sentence), `/rarest-answers/`, `/answers/great-ape-species/`, `/answers/stranger-things-characters/`, `/answers/english-interjections/`, `/games/krillion/`, and `/guides/how-to-find-rare-answers/`, in both themes. Lowest measured contrast was 5.17:1 (light, Legendary pill, 12px) and 7.12:1 (dark). Copy, with the button focused and Enter, writes that share text to the clipboard. Save image downloads `rarest-answer-2026-11-14.png` (PNG signature, 57,369 bytes). When `navigator.share` is stubbed to resolve, Share sets the status to Shared and passes the same spoiler-free text.
+
+### Remaining
+
+- Headless Chrome for Testing exposes `navigator.share` and the promise never settles, so the real Share button shows no status in that browser. Copy is the clipboard path and it works. A resolving `share()` is what sets "Shared". No product change.
+- `contact@rarestanswer.com` is still the unverified placeholder in `docs/rarest-todo.md`. `site.contactEmail` stays `''` because `tests/apply-template.test.ts` pins that string.
+- `home.faq` in `src/locales/en.json` is still a second FAQ. `/faq/` uses `src/pages/faq.astro`. The homepage does not render `home.faq`.
+- Game and guide covers are still absent from `.gen-covers-manifest.json`. They have `image:`, so `pnpm gen-covers` skips them. Do not run `pnpm gen-assets --force`.
+- `astro.config.ts` still warns that `src/content/tutorials` is missing. The tutorials suite treats a missing directory as an empty collection.
+- Roblox player, visit, favorite, and vote counts in the party guide are the 14 November 2026 snapshot from C3-CONTENT-FACTS. `majority.wtf` was an error page that day.
