@@ -525,7 +525,7 @@ describe('share text and client payload', () => {
       score: 105,
       spotlightUsed: true,
       noTimer: true,
-      url: 'https://rarestanswer.com/',
+      url: 'https://rarestanswer.xyz/',
     });
     expect(text).toContain('Rarest Answer #318');
     expect(text).toContain('🟧⬜⬛');
@@ -533,12 +533,12 @@ describe('share text and client payload', () => {
     expect(text).toContain('Spotlight used');
     expect(text).toContain('No timer');
     expect(text).not.toContain('Tapanuli');
-    expect(sharePageUrl('https://rarestanswer.com/', 'daily')).toBe('https://rarestanswer.com/');
-    expect(sharePageUrl('https://rarestanswer.com', 'unlimited')).toBe(
-      'https://rarestanswer.com/unlimited/',
+    expect(sharePageUrl('https://rarestanswer.xyz/', 'daily')).toBe('https://rarestanswer.xyz/');
+    expect(sharePageUrl('https://rarestanswer.xyz', 'unlimited')).toBe(
+      'https://rarestanswer.xyz/unlimited/',
     );
-    expect(sharePageUrl('https://rarestanswer.com', 'category', 'animals')).toBe(
-      'https://rarestanswer.com/trivia/animals/',
+    expect(sharePageUrl('https://rarestanswer.xyz', 'category', 'animals')).toBe(
+      'https://rarestanswer.xyz/trivia/animals/',
     );
   });
 

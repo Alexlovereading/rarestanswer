@@ -8,7 +8,7 @@
 - **Product**: "Rarest Answer" — a free daily trivia game where the *rarest correct answer wins*, plus an SEO content layer (rarest-answer lists, how-to guides, alternatives to Krillion & other daily games).
 - **Benchmark**: https://rarest.me/ . Goal = better UX + better UI + more search coverage. **Do not copy** its text, tier names (Flicker…Inferno), "Thermal" naming, or visuals. Own identity.
 - **Language**: English only (`en`, no locale prefix). Remove `ja` and every `zh` landing page.
-- **Domain**: placeholder `rarestanswer.com` via `SITE_URL` env (never hardcode).
+- **Domain**: placeholder `rarestanswer.xyz` via `SITE_URL` env (never hardcode).
 - **Stack**: this AnvilWiki template (Astro 7 static, Cloudflare Pages). **No React/Vue/Svelte** — game UI is Astro + vanilla TypeScript (`<script>` modules), `<dialog>`, CSS. All colors via CSS variables. Icons = lucide via astro-icon. No emoji in UI chrome (share text may use colored squares — that is output text, not UI).
 
 ## 1. 关键词 → 页面映射 / Keyword → Page map (MUST all be covered)

@@ -43,7 +43,7 @@ import {
 } from './data/prompt-defs';
 import { parseStrangerThingsWikitext, type ListedCharacter } from './data/wikipedia-characters';
 
-const UA = 'RarestAnswerBot/1.0 (contact@rarestanswer.com)';
+const UA = 'RarestAnswerBot/1.0 (contact@rarestanswer.xyz)';
 const SPARQL_URL = 'https://query.wikidata.org/sparql';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CACHE_DIR = join(ROOT, '.cache', 'build-prompts');

@@ -74,7 +74,7 @@ export const site: SiteConfig = {
   shortName: 'Rarest Answer',
   description:
     'Play Rarest Answer, a free daily trivia game where the rarest correct answer wins. Read guides and pages about similar daily games.',
-  domain: 'rarestanswer.com',
+  domain: 'rarestanswer.xyz',
   tagline: 'The daily trivia game where the rarest correct answer wins',
   legalNotice:
     'Rarest Answer is an independent daily trivia game. Pages about other games are unofficial and are not affiliated with those games.',
@@ -82,7 +82,7 @@ export const site: SiteConfig = {
   // renders it as a mailto link.
   contactEmail: '',
   social: {
-    official: 'https://rarestanswer.com',
+    official: 'https://rarestanswer.xyz',
   },
   game: {
     name: 'Rarest Answer',

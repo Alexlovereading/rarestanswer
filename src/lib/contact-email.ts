@@ -6,7 +6,7 @@
  */
 import { site } from '~/config/site';
 
-export const PLACEHOLDER_CONTACT_EMAIL = 'contact@rarestanswer.com';
+export const PLACEHOLDER_CONTACT_EMAIL = 'contact@rarestanswer.xyz';
 
 export function contactEmail(): string {
   const configured = site.contactEmail?.trim() ?? '';

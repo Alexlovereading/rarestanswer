@@ -276,8 +276,8 @@ describe('rewriteWranglerVars is value-aware (a re-run must not wipe the user en
     const values = [...section.matchAll(/^([A-Za-z_][A-Za-z0-9_]*)\s*=\s*"(.*)"\s*$/gm)].map(
       (m) => m[2],
     );
-    expect(values).toContain('https://rarestanswer.com');
-    const allowed = new Set(['', 'pathname', 'https://rarestanswer.com']);
+    expect(values).toContain('https://rarestanswer.xyz');
+    const allowed = new Set(['', 'pathname', 'https://rarestanswer.xyz']);
     for (const v of values) {
       expect(DEMO_VAR_VALUES.includes(v), `demo value still shipped: "${v}"`).toBe(false);
       expect(allowed.has(v), `unexpected wrangler value: "${v}"`).toBe(true);
@@ -1066,7 +1066,7 @@ describe('re-run identity detection (S12: re-run = confirm current, never demo d
     const raw = readFileSync(join(repoRoot, 'src/config/site.ts'), 'utf8');
     // Interface comments still use the old demo as an example. The assigned
     // fields are what a re-run reads back.
-    expect(raw).toContain("domain: 'rarestanswer.com'");
+    expect(raw).toContain("domain: 'rarestanswer.xyz'");
     expect(raw).toContain("name: 'Rarest Answer'");
     expect(raw).toMatch(/game:\s*\{\s*name:\s*'Rarest Answer'/);
     expect(raw).not.toMatch(/^\s*name:\s*'Anvil Quest/m);
@@ -1075,7 +1075,7 @@ describe('re-run identity detection (S12: re-run = confirm current, never demo d
     if (id) {
       expect(isDemoSiteTsIdentity(id)).toBe(false);
       expect(DEMO_DOMAINS).not.toContain(id.domain);
-      expect(id.domain).toBe('rarestanswer.com');
+      expect(id.domain).toBe('rarestanswer.xyz');
       expect(id.gameName).toBe('Rarest Answer');
     }
   });

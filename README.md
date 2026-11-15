@@ -16,7 +16,7 @@ The same site publishes an index of prompts, guides, and unofficial pages about 
 | Other daily games | `/games/` |
 | Guides | `/guides/` |
 
-Domain placeholder: `rarestanswer.com`, via the `SITE_URL` environment variable. Do not hardcode the host in page code.
+Domain placeholder: `rarestanswer.xyz`, via the `SITE_URL` environment variable. Do not hardcode the host in page code.
 
 ## Local development
 
@@ -27,7 +27,7 @@ pnpm install
 pnpm dev
 ```
 
-Open http://localhost:4321/ . The dev server reads `SITE_URL` from the environment when it is set, and otherwise the site config uses `https://rarestanswer.com`.
+Open http://localhost:4321/ . The dev server reads `SITE_URL` from the environment when it is set, and otherwise the site config uses `https://rarestanswer.xyz`.
 
 ```bash
 pnpm build    # static output in dist/ ; postbuild indexes on-site search
@@ -56,7 +56,7 @@ The shipped catalog is **276 prompts**: geography 37, animals 51, food 33, sport
 - Output directory: `dist`
 - Set `NODE_VERSION` to `22` on the Pages project (Node 22.23.4 or newer)
 
-`[vars]` already sets `SITE_URL = "https://rarestanswer.com"`. Change the domain there, and keep the `https://` scheme. Analytics, ads, and comments stay off while their variables are blank.
+`[vars]` already sets `SITE_URL = "https://rarestanswer.xyz"`. Change the domain there, and keep the `https://` scheme. Analytics, ads, and comments stay off while their variables are blank.
 
 Local production preview of the built site:
 

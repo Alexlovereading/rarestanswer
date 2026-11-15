@@ -1,4 +1,4 @@
-# ads.txt for Rarest Answer (rarestanswer.com).
+# ads.txt for Rarest Answer (rarestanswer.xyz).
 # Authorized digital sellers.
 #
 # BEFORE AdSense approval: leave this file comments-only (that is valid —
