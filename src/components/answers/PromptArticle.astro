@@ -63,6 +63,16 @@ const pagefindTitle = prompt.heading.replace(/:/g, ' -');
     </div>
   </header>
 
+  {
+    prompt.guide.length > 0 && (
+      <div class="mt-8 flex flex-col gap-4 leading-relaxed">
+        {prompt.guide.map((paragraph) => (
+          <p>{paragraph}</p>
+        ))}
+      </div>
+    )
+  }
+
   <div class="mt-10">
     <QuickAnswer prompt={prompt} />
   </div>

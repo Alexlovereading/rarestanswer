@@ -40,7 +40,7 @@ import { getUi } from '~/i18n/ui';
 import { getRelatedEntries, getEntriesByCategory, isPossiblyOutdated, parseEntryId, slugifyTag, estimateReadMinutes, type WikiEntry, type ResolvedEntry } from '~/lib/content';
 import LazyYouTube from '~/components/video/LazyYouTube.astro';
 import SponsorCard from '~/components/article/SponsorCard.astro';
-import { articleJsonLd, breadcrumbJsonLd, pageTitle, videoObjectJsonLd, imageObjectJsonLd, faqPageJsonLd, recipeJsonLd } from '~/lib/seo';
+import { articleJsonLd, breadcrumbJsonLd, pageTitle, videoObjectJsonLd, imageObjectJsonLd, recipeJsonLd } from '~/lib/seo';
 import { listPath, detailPath, tagPath, homeUrl } from '~/lib/url';
 import { site } from '~/config/site';
 import { getAuthor } from '~/config/authors';
@@ -84,8 +84,7 @@ const coverUrl = entry.data.image
 // this entry's siblings and "Related" would silently disappear.
 const related = await getRelatedEntries(entry, servedLocale, 3);
 
-// Visible codes FAQ — same strings feed faqPageJsonLd (marking up invisible
-// content violates Google's structured-data policy).
+// Visible codes FAQ. The questions stay on the page; they are not JSON-LD.
 const codesFaqItems =
   entry.data.codes && entry.data.codes.length > 0
     ? (shared.codesFaq ?? [])
@@ -94,10 +93,8 @@ const codesFaqItems =
 // partial translations), so no hardcoded English fallback — a renamed key
 // must surface, not silently degrade to English.
 const codesFaqTitle = shared.codesFaqTitle;
-// Per-article FAQ (frontmatter `faq`, any page type). Merged with the codes
-// FAQ into ONE FAQPage JSON-LD entity — Google allows one per page.
+// Per-article FAQ (frontmatter `faq`, any page type). Visible only.
 const articleFaqItems = (entry.data.faq ?? []) as Array<{ question: string; answer: string }>;
-const faqJsonLdItems = [...codesFaqItems, ...articleFaqItems];
 const faqTitle = shared.faqTitle;
 
 // Videos inlined in the MDX body (via <Video id="..."/>) skip the bottom
@@ -134,12 +131,20 @@ const jsonLd = [
     description: entry.data.description,
     image: coverUrl,
     datePublished: entry.data.date,
-    dateModified: entry.data.lastModified,
+    // The header prints "Last updated" only when lastModified is set.
+    ...(entry.data.lastModified ? { dateModified: entry.data.lastModified } : {}),
     category,
     slug,
     locale,
-    authorName: entry.data.author,
-    authorSameAs: authorInfo?.sameAs,
+    // Same string as the byline. The default byline is the editorial team,
+    // an organization. A different frontmatter name is a person.
+    ...(author
+      ? {
+          authorName: author,
+          authorType: author === site.defaultAuthor ? 'Organization' : 'Person',
+          ...(authorInfo?.url ? { authorUrl: authorInfo.url } : {}),
+        }
+      : {}),
   }),
   breadcrumbJsonLd({
     category,
@@ -167,7 +172,12 @@ const jsonLd = [
           description: entry.data.description,
           image: coverUrl,
           url: `${siteUrl}${detailPath(category, slug, locale)}`,
-          authorName: entry.data.author,
+          ...(author
+            ? {
+                authorName: author,
+                authorType: author === site.defaultAuthor ? 'Organization' : 'Person',
+              }
+            : {}),
           datePublished: entry.data.date,
           cuisine: entry.data.recipe.cuisine,
           servings: entry.data.recipe.servings,
@@ -182,9 +192,6 @@ const jsonLd = [
   ...entry.data.gallery.map((g: { image: { src: string }; caption?: string; alt?: string }) =>
     imageObjectJsonLd({ url: `${siteUrl}${g.image.src}`, caption: g.caption, alt: g.alt }),
   ),
-  // Structured FAQ → FAQPage schema (codes FAQ + per-article frontmatter FAQ
-  // merged — a single FAQPage per page, every question visibly rendered).
-  ...(faqJsonLdItems.length > 0 ? [faqPageJsonLd(faqJsonLdItems)] : []),
 ];
 ---
 
@@ -407,8 +414,8 @@ const jsonLd = [
     {/* Gallery — thumbnail grid + native dialog lightbox (renders nothing when empty) */}
     <ArticleGallery items={entry.data.gallery} heading={shared.gallery} labels={shared.galleryLabels ?? {}} />
 
-    {/* Visible codes FAQ — keeps the FAQPage structured data honest. Native
-        <details>, zero JS. Sits after the body so the guide is read first. */}
+    {/* Visible codes FAQ. Native <details>, zero JS. Sits after the body
+        so the guide is read first. */}
     {codesFaqItems.length > 0 && (
       <section class="mt-10 not-prose" aria-label={codesFaqTitle}>
         <h2 class="font-display text-2xl font-semibold tracking-tight">{codesFaqTitle}</h2>
@@ -426,8 +433,7 @@ const jsonLd = [
       </section>
     )}
 
-    {/* Visible per-article FAQ (frontmatter `faq`) — same strings feed the
-        merged FAQPage JSON-LD above. */}
+    {/* Visible per-article FAQ (frontmatter `faq`). */}
     {articleFaqItems.length > 0 && (
       <section class="mt-10 not-prose" aria-label={faqTitle}>
         <h2 class="font-display text-2xl font-semibold tracking-tight">{faqTitle}</h2>

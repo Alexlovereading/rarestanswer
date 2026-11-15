@@ -1,7 +1,7 @@
 ---
 import TierChip from './TierChip.astro';
 import TierBadge from '~/components/art/TierBadge.astro';
-import { formatMeasure, formatRarity, type PromptSeo } from './copy';
+import { formatMeasure, rarityPlain, type PromptSeo } from './copy';
 import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
 
@@ -35,7 +35,7 @@ const labels = shared.visuals;
           <span class="mx-1" aria-hidden="true">
             ·
           </span>
-          {labels.rarity} {formatRarity(rare.rarity)}
+          {rarityPlain(rare, prompt.answers)}
         </p>
       </aside>
     ) : (
@@ -52,7 +52,7 @@ const labels = shared.visuals;
             <span class="mx-1" aria-hidden="true">
               ·
             </span>
-            {labels.rarity} {formatRarity(rare.rarity)}
+            {rarityPlain(rare, prompt.answers)}
           </p>
         </aside>
         <aside class="answer-discovery">
@@ -67,7 +67,7 @@ const labels = shared.visuals;
             <span class="mx-1" aria-hidden="true">
               ·
             </span>
-            {labels.rarity} {formatRarity(common.rarity)}
+            {rarityPlain(common, prompt.answers)}
           </p>
         </aside>
       </div>

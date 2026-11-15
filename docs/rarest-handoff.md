@@ -453,3 +453,102 @@ Validation: `pnpm lint` exit 0; `pnpm typecheck` 0 errors/warnings/hints (existi
 Browser QA remains for an environment that permits browser/server execution. Attempted the already-installed Playwright 1.64.1 and Chromium 1248; the sandbox rejected local server binding with `EPERM`, and Chromium aborted during launch. No screenshots or runtime/export/CLS assertions are claimed, and no server was started. `/tmp/x1-game-fx-smoke.mjs` contains the attempted keyboard/play/reveal/end/download smoke for 375 and 1280. A full `pnpm test` attempt also hit the sandbox's blocked `tsx` IPC socket: three pre-existing `tests/content-links.test.ts` subprocess cases fail because the child produces no stdout; other files were not modified to mask it. The game suite is independently green.
 
 Final follow-up: download now catches canvas encoding failures as well as badge-render failures and always re-enables Save image. Re-ran owned ESLint, all 29 game tests, typecheck (0 diagnostics), and the 335-page build successfully. Final game bundle is `GameApp.astro_astro_type_script_index_0_lang.B2XitpAw.js`: 45,941 bytes raw / 14,837 bytes gzip.
+
+## Y2-GAME-LABELS done
+
+G1 inside the game UI. The reveal, end screen, and share text do not print a view count: the client still drops `popularity`, `wiki`, and `source`, and that payload was not changed. Scoring, matching, and the round picker are unchanged. X1's art, motion, and share card were left in place.
+
+The false "monthly" label lived in the play-page rarity copy. `measureCopy` and the "How is rarity decided?" answer now say English Wikipedia views, last 12 months, and English Wiktionary views, last 12 months. A source that names neither stays placeholder popularity. The built phrase on `/`, `/unlimited/`, and all eight `/trivia/` pages is "Wikipedia views, last 12 months".
+
+How-to text that did not match the engine:
+
+- A daily round deals up to 7 prompts. It is shorter only when the catalog has fewer than 7. An empty category does not by itself shorten the round.
+- Only an answer the prompt accepts counts. A leading a, an, or the is ignored when another word follows. One inserted, deleted, or substituted character counts only when both strings are at least six characters and exactly one answer is that close.
+- A miss costs one second only while the timer is on. The switch locks when the round starts. Pass scores nothing with or without the timer.
+- A pass or a timeout is not shown as a tier. The share text is still colored squares and still omits the typed names.
+- Geography no longer says every real place counts. Food no longer says other players' guesses set the tier. Science no longer says only the footnote name scores. The lobby steps say the list must accept the name, and the 5 and 100 points are read from `TIERS`.
+
+`pnpm lint` passed. `pnpm typecheck` passed with 0 errors (the missing `src/content/tutorials/` glob warning remains). `pnpm exec vitest run tests/game-engine.test.ts` passed, 30 tests. `pnpm test` was 1 failed / 439 passed / 11 skipped. The failure is `tests/apply-template.test.ts` "demo placeholder values are wiped", because shipped `src/config/site.ts` now contains `defaultAuthor`. That file is not in this task. `pnpm exec astro build --outDir /tmp/y2-game-labels-dist` built 335 pages. All 10 play pages contain both 12-month phrases and the word "monthly" zero times. The game script `GameApp.astro_astro_type_script_index_0_lang.DZBu9k81.js` also has no "monthly". No server was started. No redirect lines.
+
+## Y6-WHO-HOW done
+
+G6 and G7, without inventing a person. `site.defaultAuthor` is `Rarest Answer editorial team`. `src/config/authors.ts` maps that exact string to `/about/`. No frontmatter `author` exists, so the article header uses the default. In `/tmp/y6-who-how-dist`, all 30 `/games/` and `/guides/` articles (list indexes excluded) render `<a href="/about/" rel="author noopener">Rarest Answer editorial team</a>`. No photo, biography, or credential was added. `docs/rarest-todo.md` asks the owner for a real byline name if they want one.
+
+`/about/` keeps the existing illustration band. New sections: "Who runs this site" (small independent team, the editorial-team byline, not affiliated with Krillion or the other games named here, email from `contactEmail()` so it matches the contact page) and "How we make this". The how section states Wikidata answer sets (CC0; lexemes for English interjections; the Stranger Things list parsed from the English Wikipedia character list, with a name that has no article counted as 1), English Wikipedia pageviews summed over the last 12 complete months (Wiktionary for interjections), the published window November 2025–October 2026 labeled 2026-10, refresh by `scripts/build-prompts.ts`, rarity as a percentile inside the prompt (1 = least viewed; ties share a rarity), tier cutoffs from `scripts/data/prompt-defs.ts` (0.2 / 0.4 / 0.6 / 0.8 / 0.93) and points from `TIERS` in `src/lib/game/types.ts` (5 / 10 / 20 / 40 / 70 / 100). Guides and other-game pages are described as written with AI assistance, with facts checked against the sources those pages link. Answer pages are described as generated from the prompt files. `LegalContent` about and contact copy says the same. Privacy, terms, and copyright in that file were not edited. `en.json` was not edited. `site.contactEmail` is still `''`; the address printed on `/about/` is `contact@rarestanswer.xyz`, the same placeholder `contactEmail()` already publishes. The mailbox is still unverified.
+
+`pnpm lint` exited 0. `pnpm typecheck` was 0 errors, 0 warnings, 0 hints (the missing `src/content/tutorials/` glob warning remains). `pnpm exec astro build --outDir /tmp/y6-who-how-dist` built 335 pages. Built HTML for `/about/` contains both new headings, the 12-month window, the tier cutoffs, the AI sentence, the mailto, and the existing hero band. No server was started. No redirect lines.
+
+- Y6-WHO-HOW → whoever owns `src/lib/seo.ts`: article JSON-LD types this byline as `"@type":"Person"`. It is an organization name, not a person. Please emit Organization for `Rarest Answer editorial team`. I did not edit `seo.ts` or `ArticlePage.astro`.
+- Y6-WHO-HOW → whoever owns `tests/apply-template.test.ts`: "demo placeholder values are wiped on a first run" fails because shipped `site.ts` now has `defaultAuthor: 'Rarest Answer editorial team'`, and `rewriteSiteTs` keeps that non-demo value. `stripDemoAuthors` is still a no-op on `authors.ts`. I did not edit the test.
+
+## Y4-KRILLION-CLUSTER done
+
+G3 and G4 for the Krillion cluster. Two reader tasks stayed. `/games/krillion/` is the game page: what the daily dive is, how the gem is chosen, the lookalike names, and how this site differs. `/games/games-like-krillion/` stays because it is a map of other daily games, not a second Krillion profile. `/guides/krillion-vs-rarest-answer/` and `/guides/one-in-a-krillion-strategy/` repeated that game page for query variants. Their checked facts (packs beta and the four pack counts, archive wording, server-vs-browser comparison, the 5-to-100 table living only here, the gem sitting between an invisible string and a catchphrase, Puffer Party rewarding a fast name) moved into `/games/krillion/`. Both MDX files were deleted. Cover PNGs were left on disk. No new facts were researched, and the word "monthly" was not added. The great-ape source line stays "Wikipedia pageviews (2026-10)".
+
+Titles a person would write, one topic each. `/games/krillion/` is "Krillion: How the Daily Dive Works" (was "Krillion Game, Krillon Game, Noillirk, One in a Krillion"). The homepage line "one in a krillion" appears once in the body. Krillon and Krillian appear once, in the same sentence. Noillirk is named once, and the App Store listing is quoted by its title. `/games/games-like-krillion/` is "Games Like Krillion" (was "A Game Like Krillion: Games Like Krillion"). The other `games/*` titles and descriptions are "Name: what it does" and were left. The exception is `/games/games-like-wordle/`, whose title was "Games Like Wordle: Daily Games You Can Play" and whose description was three keyword sentences. It is now "Games Like Wordle". `lastModified` on those three pages is 2026-11-15. `date` is still 2026-11-14.
+
+`public/_redirects` (created; I own it) has exact 301s, both slash forms, targets with a trailing slash:
+
+```
+/guides/krillion-vs-rarest-answer/ /games/krillion/ 301
+/guides/krillion-vs-rarest-answer /games/krillion/ 301
+/guides/one-in-a-krillion-strategy/ /games/krillion/ 301
+/guides/one-in-a-krillion-strategy /games/krillion/ 301
+```
+
+No "### redirects requested" block was in this file at the end of the run, so no other agent's lines were added. Internal links in `how-scoring-works-in-rarest-answer-games.mdx`, `best-unlimited-trivia-games.mdx`, `rarest-answer-party-ideas.mdx`, and `how-to-play-rarest-answer.mdx` now point at `/games/krillion/`. Those edits are the link sentence only.
+
+`pnpm check-content` clean (28 MDX). `pnpm lint` exit 0. `pnpm typecheck` 0 errors (the missing `src/content/tutorials/` glob warning remains). `pnpm exec astro build --outDir /tmp/y4-krillion-cluster-dist` built 333 pages. Built HTML: the three new titles, H1s, and descriptions; canonicals `https://rarestanswer.xyz/games/krillion/` and `.../games/games-like-krillion/`; the two old HTML paths absent; those slugs absent from the sitemap and from every HTML `href`; `_redirects` copied into that outDir. No server was started. Article art and chrome were not edited.
+
+- Y4-KRILLION-CLUSTER → whoever owns `tests/redirects.test.ts`: "the landing redirect file is gone" still expects `public/_redirects` to be absent. The audit fix needs the file above. I did not edit the test. Please allow these four exact 301s and still reject the old landing rules.
+
+## Y3-SCHEMA done
+
+G2 and G8 outside `/answers/` (Y1 still owns those pages). Visible FAQ text is unchanged on articles, `/faq/`, and the play pages. `faqPageJsonLd` remains only so `/answers/` can keep calling it.
+
+Removed FAQPage JSON-LD from `ArticlePage`, `/faq/`, and the ten play pages. Play pages now emit one `VideoGame` and no `WebApplication` or `Offer`. Its name, description, and URL are the H1, the intro paragraph, and that page's canonical URL. Genre and platform stay off because the config strings are not the words on the page. The publisher name is the site name shown in the header.
+
+Article JSON-LD dates are the UTC calendar day the header prints (`2026-11-14` for "11/14/2026"). `dateModified` is included only when the header shows "Last updated". The byline "Rarest Answer editorial team" is an Organization (Y6's request), with `url` `https://rarestanswer.xyz/about/`, the same page the byline links to. A different frontmatter name would stay a Person. No byline means no author property.
+
+`pnpm exec vitest run tests/seo.test.ts tests/tags.test.ts` passed (33). `pnpm lint` passed. `pnpm typecheck` passed with 0 errors (the missing `src/content/tutorials/` glob warning remains). `pnpm exec astro build --outDir /tmp/y3-schema-dist` built 331 pages. In that HTML: FAQPage appears only under `/answers/`; "Offer" and "WebApplication" appear on zero pages; all 10 play pages have one VideoGame whose name and description are in the body; all 26 article pages' author and dates match the header. No server was started. Lobby and article art were not edited.
+
+`src/pages/[locale]/faq.astro` still calls `faqPageJsonLd`. It generates no pages while `locales` is `['en']`, so this build has no extra FAQPage. I do not own that file.
+
+### redirects requested
+
+None.
+
+## Y5-GUIDES-CLUSTER done
+
+G3 and G4 for the how-to cluster. Two reader tasks stayed. `/guides/how-to-play-rarest-answer/` is the rules page (matching, the daily of up to seven, the six tiers, the 25-second clock, the one-second miss, Spotlight, the reveal split, and how a tier is stored). `/guides/how-to-find-rare-answers/` is the in-round choice (skip the famous legal name, the great-ape worked example, when a higher tier is worth it, when to bank the obvious name, when to arm Spotlight, what to read on the reveal). `/guides/how-scoring-works-in-rarest-answer-games/` repeated the rules page. `/guides/rarest-answer-strategy/` repeated the finding page. Both MDX files were deleted. Their checked facts moved into the page that kept the task. Cover PNGs for the deleted slugs were left on disk.
+
+Titles are one topic each. How to play is "How to Play Rarest Answer" (was "Rarest Answer Game: Why the Rarest Answer Wins"). Finding is "How to Find a Rare Answer" (was "Finding Rare Answers: Guess Rarest Answer"). Geography is "Geography Tips for Rarest Answer". The daily roundup is "Daily Trivia Games Worth a Streak". Animals, classrooms, party ideas, the Roblox party, and unlimited trivia stay: each is a different job (one ranked animal list, a class period, a house party, a Roblox room, a library of sites you can reopen). `date` is still 2026-11-14. `lastModified` is 2026-11-15 only on pages whose title or facts changed.
+
+Facts follow the engine and the great-ape file. Tiers are 5/10/20/40/70/100. Spotlight doubles one scored prompt and is not spent on a miss, a pass, or a timeout. A wrong guess costs one second only while the timer is on. A repeat guess does not. The daily deals up to seven, does not repeat a slug, and does not invent a prompt; with more than seven categories, the extras rotate out. Streak counts at most one finished daily per local date. Pageviews on these pages are the sum from November 2025 through October 2026, not a single month and not a player poll. The great-ape order is the published file (Tapanuli orangutan Legendary through Human Common). Krillion still does not get this point table; that sentence cites the 14 November 2026 FAQ read and links `/games/krillion/`. Y4's link edit on that sentence was left in place.
+
+Link edits, not rewrites, for the removed URLs: about, the other guides, and one sentence in `games/krillion.mdx`. `src/lib/game/category-copy.ts` `GUIDE_LINKS` dropped the strategy URL because `/`, `/unlimited/`, and `/trivia/*` render that list. Two sentences there that named "the strategy guide" now name the finding guide or the how-to-play page. Four covers whose titles changed were regenerated with `pnpm gen-covers --out` and copied; other covers and the manifest were not touched. `public/_redirects` was not edited. Y4 already owns that file. Please append the four lines below (both slash forms, same shape as the Krillion 301s).
+
+`pnpm check-content` clean (26 MDX). `pnpm lint` exit 0. `pnpm typecheck` 0 errors (the missing `src/content/tutorials/` glob warning remains). `pnpm exec astro build --outDir /tmp/y5-guides-cluster-dist` built 331 pages. Built HTML: the new titles, H1s, and descriptions; both removed guide paths absent from all 331 HTML files and from the sitemap. No server was started. Article art and chrome were not edited.
+
+### redirects requested
+
+/guides/rarest-answer-strategy/ /guides/how-to-find-rare-answers/ 301
+/guides/rarest-answer-strategy /guides/how-to-find-rare-answers/ 301
+/guides/how-scoring-works-in-rarest-answer-games/ /guides/how-to-play-rarest-answer/ 301
+/guides/how-scoring-works-in-rarest-answer-games /guides/how-to-play-rarest-answer/ 301
+
+## Y1-ANSWERS-GEO done
+
+G1, G5, and G2 for `/answers/<slug>/` and `/rarest-answers/`. Visual work on those pages (content band, category art, tier badges, rarity chart, related cards, play CTA) was left in place. `src/pages/rarest-answers.astro` was not edited: the hub still renders `AnswerLobby`, and its intro and meta description come from `hubIntro` / `hubDescription` in `copy.ts`.
+
+G1 wording, used on every label, sentence, table header, meta description, and the views note: "Wikipedia views, last 12 months". The one Wiktionary prompt (`english-interjections`) uses "Wiktionary views, last 12 months" and does not call those figures Wikipedia views. A source that is neither says "stored popularity". The window is read from `scripts/data/prompt-defs.ts` as text (`VIEW_START` `20251101`, `VIEW_END` `20261001`): November 2025–October 2026. Each number is the sum of those 12 months. The hub, which mixes both sources, says "Wikipedia views, last 12 months, or Wiktionary views, last 12 months, in that set."
+
+G5: generated guide, FAQ text, quick-answer line, table caption, and rarity cells are built in `src/components/answers/player-copy.ts` from the prompt JSON and the matcher. Rarity is the tier name plus a plain-language percentile ("the rarest in this set", "tied for rarest", "the most common in this set", "Rarer than N%"). Decimal rarity and ratio sentences are gone. Scope, aliases that score, and near-misses that the matcher rejects come only from the answer names and aliases. Easy vs hard follows the view ranking in that file. The scoring tip uses that prompt's least-viewed names and the published tier points. Paragraph order and the opener rotate by list shape (under 15, closed under 40, long under 120, open 120+) and a hash of the slug. The two lists under 15 (`great-ape-species`, `planets-and-dwarf-planets`) stay indexable and say they are a small closed set. The ranked table is unchanged in row count.
+
+G2: FAQPage JSON-LD is removed from `/answers/<slug>/`. The visible Q&A stays. BreadcrumbList stays on answer pages. The hub keeps BreadcrumbList and ItemList (question titles and absolute URLs).
+
+`pnpm lint` exit 0. `pnpm typecheck` 0 errors (the missing `src/content/tutorials/` glob warning remains). `pnpm exec astro build --outDir /tmp/y1-answers-geo-dist` built 331 pages. In that HTML: 276 answer pages; FAQPage on 0 pages; every Wikipedia answer page contains "Wikipedia views, last 12 months"; the interjection page contains the Wiktionary phrase and not "Wikipedia views"; both small sets say "small closed set"; no "monthly Wikipedia", "monthly Wiktionary", "Combined monthly", "rarity 1.ddd", or "× the figure"; every answer table row count matches its JSON; the hub description is 153 characters and names both measures. No server was started. No browser tool was available in this session, so the check is the built HTML.
+
+### redirects requested
+
+None.

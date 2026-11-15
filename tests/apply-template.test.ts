@@ -1243,7 +1243,12 @@ describe('rewriteSiteTs is value-aware on the optional hand-fill fields', () => 
     // The blank-template shape is intact: no optional extras on a first run.
     expect(block).toContain("contactEmail: '',");
     expect(block).not.toContain('discord:');
-    expect(block).not.toContain('defaultAuthor');
+    // This site ships a real organization byline (GEO audit G6). A non-demo
+    // value is user data, so the value-aware rewrite must keep it; only a
+    // site.ts without one must stay without one.
+    const shippedAuthor = demoSrc.match(/defaultAuthor:\s*'([^']*)'/)?.[1];
+    if (shippedAuthor) expect(block).toContain(`defaultAuthor: '${shippedAuthor}'`);
+    else expect(block).not.toContain('defaultAuthor');
     expect(block).not.toContain('sameAs');
   });
 

@@ -95,6 +95,7 @@ export const site: SiteConfig = {
   // update these in src/config/site.ts to match (wrong dims mis-crop share cards).
   ogImageWidth: 1200,
   ogImageHeight: 630,
+  defaultAuthor: 'Rarest Answer editorial team',
 };
 
 /** Absolute site URL (no trailing slash). Falls back to the Astro `site` config. */

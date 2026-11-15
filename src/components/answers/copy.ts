@@ -12,6 +12,7 @@ import { defaultLocale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { TIERS, type Answer, type CategoryKey, type Prompt } from '~/lib/game/types';
 import { pageTitle } from '~/lib/seo';
+import { buildPlayerCopy, measureHeading, measureKind, measureLabel } from './player-copy';
 
 export const HUB_TITLE = "Rarest Answers — Every Prompt's Rarest Answer";
 
@@ -58,11 +59,15 @@ export interface PromptSeo {
   heading: string;
   crumb: string;
   description: string;
+  /** One- or two-sentence lead under the title. */
   intro: string;
+  /** Useful playing notes: scope, aliases, near-misses, easy/hard, scoring tip. */
+  guide: string[];
   viewsNote: string;
-  /** Column heading: Wikipedia views, Wiktionary views, or stored popularity. */
+  /** Column heading. Wikipedia pages use "Wikipedia views, last 12 months". */
   viewsHeading: string;
   sourceNote: string;
+  tableCaption: string;
   answers: Answer[];
   faq: FaqItem[];
 }
@@ -144,43 +149,20 @@ export function wikipediaUrl(title: string): string {
   return `https://en.wikipedia.org/wiki/${slug}`;
 }
 
-type MeasureKind = 'wikipedia' | 'wiktionary' | 'stored';
-
-/** Wiktionary is checked first: those source lines also contain "pageviews". */
-function measureKind(source: string): MeasureKind {
-  if (/wiktionary/i.test(source)) return 'wiktionary';
-  if (/wikipedia|page\s*views?/i.test(source)) return 'wikipedia';
-  return 'stored';
-}
-
-function measurePhrase(source: string): string {
-  const kind = measureKind(source);
-  if (kind === 'wiktionary') return 'monthly Wiktionary views';
-  if (kind === 'wikipedia') return 'monthly Wikipedia views';
-  return 'popularity';
-}
+export { measureKind, measureLabel, rarityPlain, rarityShort } from './player-copy';
 
 /** Table heading for the popularity column. */
 export function viewsColumnLabel(source: string): string {
-  const kind = measureKind(source);
-  if (kind === 'wiktionary') return 'Monthly Wiktionary views';
-  if (kind === 'wikipedia') return 'Monthly Wikipedia views';
-  return 'Popularity';
+  return measureHeading(source);
 }
 
 /** Card label next to a popularity figure. */
 export function formatMeasure(n: number, source: string): string {
   const formatted = formatViews(n);
-  const phrase = measurePhrase(source);
-  if (phrase === 'popularity') return `Popularity ${formatted}`;
-  return `${formatted} ${phrase}`;
-}
-
-function withMeasure(n: number, source: string): string {
-  const formatted = formatViews(n);
-  const phrase = measurePhrase(source);
-  if (phrase === 'popularity') return `a popularity of ${formatted}`;
-  return `${formatted} ${phrase}`;
+  const label = measureLabel(source);
+  if (label === 'stored popularity') return `Stored popularity ${formatted}`;
+  if (Math.round(n) === 1) return `1 under ${label}`;
+  return `${formatted} ${label}`;
 }
 
 function normalizePhrase(text: string): string {
@@ -284,6 +266,17 @@ function pluralPhrase(phrase: string): string {
   return words.join(' ');
 }
 
+/** Pluralize the head noun, not the object of "in"/"of" ("country in Africa" → "countries in Africa"). */
+function pluralHead(phrase: string): string {
+  const species = speciesLabel(phrase);
+  if (species) return species;
+  const orParts = phrase.split(/ or /i);
+  if (orParts.length > 1) return orParts.map((part) => pluralHead(part.trim())).join(' or ');
+  const prep = phrase.match(/^(.*?)(\s+(?:of|in|from|on|for|with|by)\s+.+)$/i);
+  if (prep?.[1] && prep[2]) return `${pluralPhrase(prep[1])}${prep[2]}`;
+  return pluralPhrase(phrase);
+}
+
 /** "species of great ape" → "great ape species" (species is invariant). */
 function speciesLabel(phrase: string): string | null {
   const match = phrase.match(/^species of (.+)$/i);
@@ -300,33 +293,6 @@ function capMeta(text: string): string {
   return `${base.trimEnd()}…`;
 }
 
-function formatMultiple(ratio: number): string {
-  if (ratio >= 1000) return Math.round(ratio).toLocaleString('en-US');
-  if (ratio >= 10) {
-    const rounded = Math.round(ratio * 10) / 10;
-    return rounded.toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
-  }
-  const rounded = Math.round(ratio * 100) / 100;
-  return rounded.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-}
-
-/** How `other` compares with `baseline`. Null when the comparison would be misleading. */
-function timesPhrase(baseline: number, other: number): string | null {
-  if (!(baseline > 0) || !(other > 0)) return null;
-  const ratio = other / baseline;
-  if (ratio < 0.95) return null;
-  if (ratio < 1.05) return 'about the same as';
-  return `${formatMultiple(ratio)}× the figure for`;
-}
-
-function formatShare(part: number, total: number): string {
-  if (!(total > 0)) return '0%';
-  const pct = (part / total) * 100;
-  if (pct > 0 && pct < 0.1) return 'under 0.1%';
-  if (pct >= 10) return `${Math.round(pct)}%`;
-  return `${pct.toFixed(1)}%`;
-}
-
 function joinNames(names: string[]): string {
   if (names.length <= 1) return names[0] ?? '';
   if (names.length === 2) return `${names[0]} and ${names[1]}`;
@@ -339,156 +305,44 @@ function compareAnswers(a: Answer, b: Answer): number {
   return a.name.localeCompare(b.name, 'en');
 }
 
-function rarestSentence(rare: Answer, nounPhrase: string, source: string): string {
-  return `${rare.name} is the rarest ${nounPhrase} in this ranking, with ${withMeasure(rare.popularity, source)} (rarity ${formatRarity(rare.rarity)}, ${tierName(rare.tier)}).`;
-}
-
-function commonSentence(common: Answer, nounPhrase: string, source: string, only: boolean): string {
-  if (only) {
-    return `${common.name} is the only accepted answer, so it is both the rarest and the most common.`;
-  }
-  return `${common.name} is the most common ${nounPhrase} in this ranking, with ${withMeasure(common.popularity, source)} (${tierName(common.tier)}).`;
-}
-
 function buildHeading(nounTitle: string, count: number): string {
   const answers = count === 1 ? 'Answer' : 'Answers';
   return `Rarest ${nounTitle} — All ${count} ${answers} Ranked by Rarity`;
 }
 
 function buildDescription(
-  rareName: string,
+  rare: Answer,
   nounPhrase: string,
-  species: string | null,
   count: number,
   question: string,
+  source: string,
   seoNoun?: string,
 ): string {
-  const plural = pluralPhrase(nounPhrase);
-  const group = species ?? (count === 1 ? nounPhrase : plural);
+  const group = count === 1 ? nounPhrase : pluralHead(nounPhrase);
+  const heading = measureHeading(source);
+  const rankedBy =
+    heading === 'Stored popularity' ? 'Ranked by stored popularity.' : `Ranked by ${heading}.`;
+  let text = `${count} ${group}. ${rare.name} is the rarest (${tierName(rare.tier)}). ${rankedBy}`;
   const asked = stripEndPunctuation(question);
-  const base = `${count} ${group}: ${rareName} is the rarest ${nounPhrase} in this ranking.`;
-  const withQuestion =
-    asked && !base.toLowerCase().includes(asked.toLowerCase()) ? `${base} “${asked}”.` : base;
+  const withQuestion = ` “${asked}”.`;
+  if (
+    asked &&
+    !text.toLowerCase().includes(asked.toLowerCase()) &&
+    text.length + withQuestion.length <= 165
+  ) {
+    text += withQuestion;
+  }
   const noun = seoNoun?.trim();
-  const withNoun =
-    noun && !withQuestion.toLowerCase().includes(noun.toLowerCase())
-      ? `${noun}. ${withQuestion}`
-      : withQuestion;
-  const capped = capMeta(withNoun);
-  if (capped.length >= 40) return capped;
-  return capMeta(`${capped} Ranked from rarest to most common.`);
-}
-
-function buildIntro(
-  question: string,
-  nounPhrase: string,
-  species: string | null,
-  source: string,
-  answers: Answer[],
-): string {
-  const rare = answers[0];
-  const common = answers[answers.length - 1];
-  if (!rare || !common) return '';
-  const n = answers.length;
-  const sentences: string[] = [];
-
-  if (species) {
-    sentences.push(
-      `${n} ${species} ${n === 1 ? 'is an accepted answer' : 'are accepted answers'} for “${question}”.`,
-    );
-  } else {
-    sentences.push(
-      `${n} ${n === 1 ? 'answer is accepted' : 'answers are accepted'} for “${question}”.`,
-    );
+  if (noun && !text.toLowerCase().includes(noun.toLowerCase())) {
+    const withNoun = `${noun}. ${text}`;
+    if (withNoun.length <= 165) text = withNoun;
   }
-
-  sentences.push(rarestSentence(rare, nounPhrase, source));
-
-  const next = answers[1];
-  if (n > 2 && next) {
-    if (next.rarity === rare.rarity) {
-      sentences.push(`${next.name} ties ${rare.name} on rarity, with ${withMeasure(next.popularity, source)}.`);
-    } else {
-      const rel = timesPhrase(rare.popularity, next.popularity);
-      sentences.push(
-        rel
-          ? `${next.name} is the second-rarest with ${withMeasure(next.popularity, source)}, ${rel} ${rare.name}.`
-          : `${next.name} is the second-rarest with ${withMeasure(next.popularity, source)}.`,
-      );
-    }
+  if (text.length > 165) {
+    const core = `${count} ${group}. ${rare.name} is the rarest (${tierName(rare.tier)}). ${rankedBy}`;
+    return capMeta(core.length <= 165 ? core : `${count} ${group}. ${rare.name} is the rarest (${tierName(rare.tier)}).`);
   }
-
-  if (n >= 2) {
-    const rel = timesPhrase(rare.popularity, common.popularity);
-    sentences.push(
-      rel
-        ? `${common.name} is the most common ${nounPhrase} in this ranking, with ${withMeasure(common.popularity, source)}, ${rel} the rarest.`
-        : `${common.name} is the most common ${nounPhrase} in this ranking, with ${withMeasure(common.popularity, source)}.`,
-    );
-  }
-
-  const total = answers.reduce((sum, answer) => sum + answer.popularity, 0);
-  if (n > 1 && total > 0) {
-    const unit = measurePhrase(source);
-    sentences.push(`Combined ${unit} across the ${n} answers: ${formatViews(total)}.`);
-    sentences.push(`${rare.name} is ${formatShare(rare.popularity, total)} of that total.`);
-  }
-
-  const high = answers.filter((answer) => answer.tier >= 5);
-  if (high.length >= 3 && high.length < n) {
-    const preview = high.slice(0, 3).map((answer) => `${answer.name} (${tierName(answer.tier)})`);
-    const list = high.length > 3 ? `${preview.join(', ')}, and ${high.length - 3} more` : joinNames(preview);
-    sentences.push(`${high.length} answers are Epic or Legendary: ${list}.`);
-  }
-
-  return sentences.join(' ');
-}
-
-function buildFaq(nounPhrase: string, plural: string, source: string, answers: Answer[]): FaqItem[] {
-  const rare = answers[0];
-  const common = answers[answers.length - 1];
-  if (!rare || !common) return [];
-  const only = answers.length === 1;
-  const howMany = only
-    ? `This prompt ranks 1 answer: ${rare.name}.`
-    : `There are ${answers.length} ${plural} in this ranking, from ${rare.name} (rarest) to ${common.name} (most common).`;
-  return [
-    {
-      question: `What is the rarest ${nounPhrase}?`,
-      answer: rarestSentence(rare, nounPhrase, source),
-    },
-    {
-      question: `How many ${plural} are there?`,
-      answer: howMany,
-    },
-    {
-      question: `What is the most common ${nounPhrase}?`,
-      answer: commonSentence(common, nounPhrase, source, only),
-    },
-  ];
-}
-
-function buildViewsNote(source: string): string {
-  const kind = measureKind(source);
-  if (kind === 'wiktionary') return `Monthly English Wiktionary pageviews. Source: ${source}.`;
-  if (kind === 'wikipedia') return `Monthly English Wikipedia pageviews. Source: ${source}.`;
-  return `Placeholder popularity numbers (source: ${source}), listed under Popularity. Not a live pageview count.`;
-}
-
-function buildSourceNote(source: string, hasWiki: boolean): string {
-  const wiki = hasWiki
-    ? ' Linked names open the English Wikipedia article stored on that answer.'
-    : '';
-  const rarity =
-    'Rarity is the percentile of the popularity figure inside this prompt: 1 is the rarest and 0 is the most common.';
-  const kind = measureKind(source);
-  if (kind === 'wiktionary') {
-    return `Recorded source: ${source}. The answer list is compiled from Wikidata lexemes (CC0), and the view counts are monthly English Wiktionary pageviews. ${rarity}${wiki}`;
-  }
-  if (kind === 'wikipedia') {
-    return `Recorded source: ${source}. The answer list is compiled from Wikidata (CC0), and the view counts are monthly English Wikipedia pageviews. ${rarity}${wiki}`;
-  }
-  return `Recorded source: ${source}. The figures in the table are the popularity numbers stored on this prompt, not a live pageview count. When a prompt's source names Wikipedia, those counts are monthly English Wikipedia pageviews and the answer list is compiled from Wikidata (CC0). When it names Wiktionary, the counts are monthly English Wiktionary pageviews. ${rarity}${wiki}`;
+  if (text.length >= 40) return text;
+  return capMeta(`${text} Ranked from rarest to most common.`);
 }
 
 export function derivePromptSeo(input: PromptInput): PromptSeo {
@@ -496,10 +350,13 @@ export function derivePromptSeo(input: PromptInput): PromptSeo {
   const rare = answers[0];
   if (!rare) throw new Error(`Prompt ${input.slug} has no answers`);
   const { nounTitle, nounPhrase } = deriveNoun(input.question, input.seoNoun);
-  const species = speciesLabel(nounPhrase);
   const heading = buildHeading(nounTitle, answers.length);
-  const plural = pluralPhrase(nounPhrase);
-  const hasWiki = answers.some((answer) => Boolean(answer.wiki));
+  const player = buildPlayerCopy({
+    slug: input.slug,
+    question: input.question,
+    source: input.source,
+    answers,
+  });
   return {
     id: input.id,
     slug: input.slug,
@@ -511,19 +368,21 @@ export function derivePromptSeo(input: PromptInput): PromptSeo {
     heading,
     crumb: `Rarest ${nounTitle}`,
     description: buildDescription(
-      rare.name,
+      rare,
       nounPhrase,
-      species,
       answers.length,
       input.question,
+      input.source,
       input.seoNoun,
     ),
-    intro: buildIntro(input.question, nounPhrase, species, input.source, answers),
-    viewsNote: buildViewsNote(input.source),
-    viewsHeading: viewsColumnLabel(input.source),
-    sourceNote: buildSourceNote(input.source, hasWiki),
+    intro: player.lead,
+    guide: player.guide,
+    viewsNote: player.viewsNote,
+    viewsHeading: player.viewsHeading,
+    sourceNote: player.sourceNote,
+    tableCaption: player.tableCaption,
     answers,
-    faq: buildFaq(nounPhrase, plural, input.source, answers),
+    faq: player.faq,
   };
 }
 
@@ -623,16 +482,34 @@ export function comparePromptSeo(a: PromptSeo, b: PromptSeo): number {
   return a.question.localeCompare(b.question) || a.slug.localeCompare(b.slug);
 }
 
-export function hubDescription(prompts: readonly { answers: readonly unknown[] }[]): string {
+function hubMeasure(prompts: readonly { source: string }[]): string {
+  const kinds = new Set(prompts.map((prompt) => measureKind(prompt.source)));
+  const wiki = kinds.has('wikipedia');
+  const wikt = kinds.has('wiktionary');
+  const stored = kinds.has('stored');
+  if (wiki && !wikt && !stored) return 'Wikipedia views, last 12 months';
+  if (wikt && !wiki && !stored) return 'Wiktionary views, last 12 months';
+  if (wiki && wikt && !stored) {
+    return 'Wikipedia views, last 12 months, or Wiktionary views, last 12 months, in that set';
+  }
+  return 'stored figure in that set';
+}
+
+export function hubDescription(prompts: readonly { source?: string; answers: readonly unknown[] }[]): string {
   if (prompts.length === 0) {
     return 'Rarest answers for every prompt, with the rarest correct answer and the full ranking on its own page.';
   }
   const answers = prompts.reduce((sum, prompt) => sum + prompt.answers.length, 0);
   const promptWord = prompts.length === 1 ? 'prompt' : 'prompts';
   const answerWord = answers === 1 ? 'answer' : 'answers';
-  return capMeta(
-    `Rarest answers for ${prompts.length} ${promptWord} and ${answers} ranked ${answerWord}. See each prompt's rarest correct answer, then open the full ranking.`,
+  const sourced = prompts.filter((prompt): prompt is { source: string; answers: readonly unknown[] } =>
+    typeof prompt.source === 'string',
   );
+  const measure = sourced.length === prompts.length ? hubMeasure(sourced) : 'stored figure in that set';
+  const full = `Rarest answers for ${prompts.length} ${promptWord} and ${answers.toLocaleString('en-US')} ranked ${answerWord}. Each card’s rarest name has the fewest ${measure}.`;
+  if (full.length <= 165) return full;
+  const short = `Rarest answers for ${prompts.length} ${promptWord}. Each card’s rarest name has the fewest ${measure}.`;
+  return capMeta(short);
 }
 
 export function hubIntro(prompts: readonly PromptSeo[]): string {
@@ -644,5 +521,6 @@ export function hubIntro(prompts: readonly PromptSeo[]): string {
   const where = cats.length === 1 ? `the ${cats[0]} category` : joinNames(cats);
   const promptWord = prompts.length === 1 ? 'prompt' : 'prompts';
   const answerWord = answers === 1 ? 'answer' : 'answers';
-  return `Every prompt is listed with its rarest correct answer — the accepted answer with the lowest popularity in that set. This index has ${prompts.length} ${promptWord} in ${where}, and ${answers} ranked ${answerWord}. Open a prompt for the full table, from rarest to most common.`;
+  const measure = hubMeasure(prompts);
+  return `Each card shows that prompt’s rarest accepted answer: the name with the fewest ${measure}. This index has ${prompts.length} ${promptWord} in ${where}, and ${answers.toLocaleString('en-US')} ranked ${answerWord}. Open a prompt for the full list, the aliases that count, and which names score high.`;
 }

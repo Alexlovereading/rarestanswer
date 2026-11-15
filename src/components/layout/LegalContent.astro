@@ -25,9 +25,16 @@ const email = contactEmail();
         {site.name} is a free daily trivia game you play in the browser. Each prompt has many
         correct answers. A rarer correct answer scores more.
       </p>
+      <h2>Who runs this site</h2>
       <p>
-        The site also publishes guides for the game and unofficial pages about other daily trivia
-        games. Those pages are not affiliated with or endorsed by the games they describe.
+        A small independent team runs {site.name}. Guides and pages about other games are signed
+        Rarest Answer editorial team, and that byline links to this page. The name is this site's
+        editorial group. {site.name} is not affiliated with Krillion or with the other games named
+        on this site.
+      </p>
+      <p>
+        Questions and corrections go to <a href={`mailto:${email}`}>{email}</a>, the address on the
+        contact page.
       </p>
       <h2>What you can do here</h2>
       <ul>
@@ -36,12 +43,26 @@ const email = contactEmail();
         <li>Read lists of rarest answers</li>
         <li>Read guides on how to play and how to find rare answers</li>
       </ul>
-      <h2>Where the answers come from</h2>
+      <h2>How we make this</h2>
       <p>
-        Prompt lists are compiled from Wikidata (CC0) and Wikipedia or Wiktionary pageview counts.
-        An answer is ranked only against the other answers to the same prompt. A real name can be
-        missing when that public data does not include it. English interjections use Wiktionary
-        pageviews. The other published prompts use English Wikipedia pageviews.
+        Most answer lists come from Wikidata (CC0). English interjections come from Wikidata
+        lexemes. The Stranger Things character list is parsed from the English Wikipedia page List
+        of Stranger Things characters, and a name on that list with no article is counted as 1
+        pageview. The build script scripts/build-prompts.ts sums English Wikipedia pageviews over
+        the last 12 complete months, and English Wiktionary pageviews for interjections. The files
+        published now cover November 2025 through October 2026. Running the script again refreshes
+        the prompt files from those sources.
+      </p>
+      <p>
+        Rarity is a percentile inside that prompt: 1 is the rarest. Tier cutoffs are in
+        scripts/data/prompt-defs.ts (below 0.2 Common, below 0.4 Familiar, below 0.6 Uncommon,
+        below 0.8 Rare, below 0.93 Epic, and 0.93 or higher Legendary). Points for those tiers are
+        the TIERS table in src/lib/game/types.ts: 5, 10, 20, 40, 70, and 100.
+      </p>
+      <p>
+        Answer pages are generated from the prompt files. Guides and pages about other games are
+        written with AI assistance. Facts in those articles are checked against the sources the
+        page links.
       </p>
       <h2>Contact</h2>
       <p>
@@ -188,7 +209,12 @@ const email = contactEmail();
     <>
       {/* h2, not h1 — LegalPage already renders the page H1 (single-H1 rule). */}
       <h2>Contact {site.name}</h2>
-      <p>{site.name} is a free daily trivia game and the guides published with it.</p>
+      <p>
+        {site.name} is a free daily trivia game and the guides published with it. A small
+        independent team runs the site. It is not affiliated with Krillion or with the other games
+        named here. Guides are signed Rarest Answer editorial team; that byline is explained on
+        the about page.
+      </p>
       <ul>
         <li>
           <strong>Email:</strong> <a href={`mailto:${email}`}>{email}</a>

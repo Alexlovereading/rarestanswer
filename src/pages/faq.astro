@@ -9,7 +9,7 @@ import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import FaqSection from '~/components/home/FaqSection.astro';
 import { defaultLocale, locales } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
-import { faqPageJsonLd, simpleBreadcrumbJsonLd } from '~/lib/seo';
+import { simpleBreadcrumbJsonLd } from '~/lib/seo';
 import { localizePath, languageAlternates } from '~/lib/url';
 import { TIERS } from '~/lib/game/types';
 import { site } from '~/config/site';
@@ -67,7 +67,6 @@ const faq = {
 };
 
 const jsonLd = [
-  faqPageJsonLd(faq.items),
   simpleBreadcrumbJsonLd({
     pageLabel: faq.title,
     path: faqPath,

@@ -16,8 +16,27 @@ const HAS_SETUP_YML = existsSync(new URL('../.github/workflows/setup.yml', impor
  */
 const repoRoot = fileURLToPath(new URL('..', import.meta.url));
 
-test('the landing redirect file is gone', () => {
-  expect(existsSync(`${repoRoot}public/_redirects`)).toBe(false);
+// public/_redirects now holds this site's own 301s for merged guide pages
+// (GEO audit G4, 2026-11-15). The landing storefront rules must not return,
+// every source must be a removed page, and every target a live MDX page.
+test('site redirects point removed pages at live pages, with no landing rules', () => {
+  const file = `${repoRoot}public/_redirects`;
+  if (!existsSync(file)) return;
+  const rules = readFileSync(file, 'utf8')
+    .split('\n')
+    .map((line) => line.trim())
+    .filter((line) => line && !line.startsWith('#'))
+    .map((line) => line.split(/\s+/));
+  expect(rules.length).toBeGreaterThan(0);
+  for (const [from, to, status] of rules) {
+    expect(status).toBe('301');
+    expect(from).not.toMatch(/landing|^\/zh|^\/en\b|^\/$/);
+    const live = (path: string) =>
+      existsSync(`${repoRoot}src/content/wiki/en${path.replace(/\/$/, '')}.mdx`);
+    expect(live(from)).toBe(false);
+    expect(to.endsWith('/')).toBe(true);
+    expect(live(to)).toBe(true);
+  }
 });
 
 test.skipIf(!HAS_SETUP_YML)('fork initialization removes the file on both channels (CLI + setup.yml)', () => {

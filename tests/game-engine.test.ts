@@ -9,8 +9,8 @@ import { describe, expect, test } from 'vitest';
 import fixture from './fixtures/great-ape-species.json';
 import fixtureIndex from './fixtures/prompts-index.json';
 import { CATEGORY_KEYS, isCategoryKey } from '~/lib/game/categories';
-import { CATEGORY_PAGES } from '~/lib/game/category-copy';
-import { HOME, HOME_FAQ, HOW_TO_STEPS, UNLIMITED } from '~/lib/game/copy';
+import { CATEGORY_PAGES, measureCopy } from '~/lib/game/category-copy';
+import { HOME, HOME_FAQ, HOW_TO_STEPS, RULES_AT_A_GLANCE, UNLIMITED } from '~/lib/game/copy';
 import {
   HISTORY_DAYS,
   ROUND_SIZE,
@@ -649,6 +649,37 @@ describe('play pages', () => {
     expect(trivia).toContain('page.h1');
     expect(HOW_TO_STEPS.join(' ')).toContain(String(ROUND_SIZE));
     expect(HOME_FAQ.some((item) => item.answer.includes('25'))).toBe(true);
+  });
+
+  test('view totals are the last 12 months, and the how-to matches the engine', () => {
+    const wiki = measureCopy(['Wikidata + Wikipedia pageviews (2026-10)'], 'none');
+    expect(wiki).toContain('Wikipedia views, last 12 months');
+    expect(wiki.toLowerCase()).not.toContain('monthly');
+    const wikt = measureCopy(['Wikidata lexemes + Wiktionary pageviews (2026-10)'], 'none');
+    expect(wikt).toContain('Wiktionary views, last 12 months');
+    expect(wikt.toLowerCase()).not.toContain('monthly');
+    const placeholder = measureCopy(['fixture'], 'none');
+    expect(placeholder).toContain('placeholder popularity');
+    expect(placeholder.toLowerCase()).not.toContain('monthly');
+
+    const how = HOW_TO_STEPS.join(' ');
+    expect(how).toContain('the prompt accepts');
+    expect(how).not.toContain('any real answer');
+    expect(how).not.toContain('category is still empty');
+    expect(how).toContain('a, an, or the');
+    expect(how).toContain('at least six characters');
+    expect(how).toContain('only one answer is that close');
+    expect(how).toContain('costs no time');
+    expect(how).toContain('locks once the round starts');
+    expect(RULES_AT_A_GLANCE.join(' ')).toContain('while the timer is on');
+
+    const rarity = HOME_FAQ.find((item) => item.question.toLowerCase().includes('how is rarity'));
+    expect(rarity?.answer).toContain('Wikipedia views, last 12 months');
+    expect(rarity?.answer).toContain('Wiktionary views, last 12 months');
+    expect(rarity?.answer.toLowerCase()).not.toContain('monthly');
+    expect(CATEGORY_PAGES.geography.intro).toContain("prompt's list");
+    expect(CATEGORY_PAGES.geography.intro).not.toContain('Every real answer counts');
+    expect(CATEGORY_PAGES.food.intro).not.toContain('other players');
   });
 
   test('the play surface does not mount an ad slot', () => {

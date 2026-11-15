@@ -16,6 +16,8 @@ export interface AuthorInfo {
 }
 
 export const authors: Record<string, AuthorInfo> = {
+  // Organization byline. No individual name was supplied; do not invent one.
+  'Rarest Answer editorial team': { url: '/about/' },
   // Example:
   // 'Yuan Ruiqin': { url: 'https://ruiqin.dev', sameAs: ['https://github.com/PNGTRID'] },
 };

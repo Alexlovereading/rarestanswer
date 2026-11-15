@@ -30,16 +30,15 @@ export const UNLIMITED = {
   description:
     'Play the Rarest Answer game unlimited. Searching for Krillion unlimited? Start a free round anytime, with the same scoring and no daily lock.',
   kicker: 'Unlimited',
-  intro:
-    'The daily round is once per local date. Unlimited deals a new set each time you play: same tiers, same 25-second clock, same one Spotlight. If you searched for Krillion unlimited, you can keep going here without waiting for midnight.',
+  intro: `The daily round is once per local date. Unlimited deals a new set each time you play: same tiers, same ${seconds}-second clock, same one Spotlight. If you searched for Krillion unlimited, you can keep going here without waiting for midnight.`,
 };
 
 export const HOW_TO_STEPS: readonly string[] = [
-  `Press Play. A daily round deals ${ROUND_SIZE} prompts when the list is full, fewer when a category is still empty, and the same prompts for everyone on your local date.`,
-  'Type any real answer and press Enter. Capital letters, accents, punctuation, and a leading "the" do not matter. On a name of six letters or more, one wrong character still counts.',
-  `You have ${seconds} seconds. A wrong guess takes ${penaltySeconds} second off the clock and you can try again. Turn the timer off before the round if you want to think, then use Pass when you are done.`,
+  `Press Play. A daily round deals up to ${ROUND_SIZE} prompts, fewer only when the catalog has fewer than ${ROUND_SIZE}, and the same prompts for everyone on your local date.`,
+  'Type an answer the prompt accepts and press Enter. Capital letters, accents, punctuation, and a leading a, an, or the do not matter when another word follows. One wrong, extra, or missing character still counts when both the guess and the answer are at least six characters and only one answer is that close.',
+  `You have ${seconds} seconds. A wrong guess takes ${penaltySeconds} second off the clock and you can try again. Turn the timer off before the round starts if you want no clock: a miss then costs no time. Pass ends the prompt with no points, with or without the timer. The timer choice locks once the round starts.`,
   'Arm Spotlight once per round to double that prompt. It is spent only when you score, and you can turn it off again before you submit.',
-  'After each prompt you see your tier. A list of ten or fewer answers is shown in full, rarest first. A longer list shows the ten rarest and the ten most common. The share grid is colored squares. It does not include what you typed.',
+  'After a scored prompt you see your tier. A pass or a timeout scores nothing. A list of ten or fewer answers is shown in full, rarest first. A longer list shows the ten rarest and the ten most common. The share text is colored squares and does not include what you typed.',
   'From the answer box, Enter submits. Tab moves to Guess and Pass. Escape closes a dialog.',
 ];
 
@@ -49,7 +48,7 @@ const legendaryPoints = legendary?.points ?? 100;
 /** Three lines on the start card, before Play. The dialog has the full rules. */
 export const RULES_AT_A_GLANCE: readonly string[] = [
   `Rarer answers score more, from ${commonPoints} to ${legendaryPoints}.`,
-  `${seconds} seconds on the clock. A miss costs ${penaltySeconds} second.`,
+  `${seconds} seconds on the clock. A miss costs ${penaltySeconds} second while the timer is on.`,
   'Spotlight doubles one prompt, and only when you score.',
 ];
 
@@ -260,7 +259,7 @@ export const HOME_FAQ: readonly FaqItem[] = [
   },
   {
     question: 'How is rarity decided?',
-    answer: `Answers are ranked only against the other answers on the same prompt. The signal is public Wikipedia pageviews: names people read about more often sit in lower tiers. The tiers are ${TIERS.map((row) => row.name).join(', ')}. ${common?.name ?? 'Common'} scores ${common?.points ?? 5}. ${legendary?.name ?? 'Legendary'} scores ${legendary?.points ?? 100}.`,
+    answer: `Answers are ranked only against the other answers on the same prompt. When the prompt's source names Wikipedia, the signal is English Wikipedia views, last 12 months: names people read about more often sit in lower tiers. When it names Wiktionary, the signal is English Wiktionary views, last 12 months. The tiers are ${TIERS.map((row) => row.name).join(', ')}. ${common?.name ?? 'Common'} scores ${common?.points ?? 5}. ${legendary?.name ?? 'Legendary'} scores ${legendary?.points ?? 100}.`,
   },
   {
     question: 'Can I play more than once a day?',

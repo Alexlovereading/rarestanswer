@@ -972,9 +972,12 @@ function run(ui: Ui): void {
     persistSettings();
   }
 
+  // The start card already shows the three short rules under Play, so the
+  // full How-to dialog opens only on request. Auto-opening it covered the
+  // game on first visit (2026-11-15 review). First visit just records that
+  // the rules were shown on the card.
   function maybeCoach(): void {
-    if (session.seenRules) return;
-    openHowTo();
+    markRulesSeen();
   }
 
   function openHowTo(): void {

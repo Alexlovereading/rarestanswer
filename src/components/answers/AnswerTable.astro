@@ -2,7 +2,7 @@
 import TierChip from './TierChip.astro';
 import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
-import { formatRarity, formatViews, wikipediaUrl, type PromptSeo } from './copy';
+import { formatViews, rarityShort, wikipediaUrl, type PromptSeo } from './copy';
 
 interface Props {
   prompt: PromptSeo;
@@ -10,7 +10,6 @@ interface Props {
 
 const { prompt } = Astro.props;
 const labels = getUi(defaultLocale).shared.visuals;
-const countLabel = `${prompt.answers.length} ${prompt.answers.length === 1 ? labels.answerLabel : labels.answersLabel}`;
 ---
 
 <section aria-labelledby="ranked-answers">
@@ -23,7 +22,7 @@ const countLabel = `${prompt.answers.length} ${prompt.answers.length === 1 ? lab
   >
     <table class="w-full min-w-[40rem] border-collapse text-sm">
       <caption class="caption-top mb-2 text-left text-sm text-muted-foreground">
-        {labels.rankedCaption.replace('{count}', countLabel).replace('{question}', prompt.question)}
+        {prompt.tableCaption}
       </caption>
       <thead>
         <tr class="border-b border-border text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground">
@@ -31,7 +30,11 @@ const countLabel = `${prompt.answers.length} ${prompt.answers.length === 1 ? lab
           <th scope="col" class="px-3 py-2 font-semibold">{labels.answer}</th>
           <th scope="col" class="px-3 py-2 font-semibold">{labels.tier}</th>
           <th scope="col" class="px-3 py-2 text-right font-semibold">{labels.rarity}</th>
-          <th scope="col" class="px-3 py-2 text-right font-semibold" aria-describedby="views-note">
+          <th
+            scope="col"
+            class="whitespace-nowrap px-3 py-2 text-right font-semibold"
+            aria-describedby="views-note"
+          >
             {prompt.viewsHeading}
           </th>
         </tr>
@@ -54,7 +57,7 @@ const countLabel = `${prompt.answers.length} ${prompt.answers.length === 1 ? lab
               <td class="px-3 py-2">
                 <TierChip tier={answer.tier} art={index < 3} />
               </td>
-              <td class="px-3 py-2 text-right tabular-nums">{formatRarity(answer.rarity)}</td>
+              <td class="px-3 py-2 text-right">{rarityShort(answer, prompt.answers)}</td>
               <td class="whitespace-nowrap px-3 py-2 text-right tabular-nums">
                 {formatViews(answer.popularity)}
               </td>

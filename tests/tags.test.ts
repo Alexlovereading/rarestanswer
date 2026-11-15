@@ -59,7 +59,7 @@ describe('videoObjectJsonLd', () => {
     expect(json.description).toBe('A test video description.');
     expect(json.thumbnailUrl[0]).toBe('https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg');
     expect(json.embedUrl).toBe('https://www.youtube.com/embed/dQw4w9WgXcQ');
-    expect(json.uploadDate).toBe('2026-01-01T00:00:00.000Z');
+    expect(json.uploadDate).toBe('2026-01-01');
   });
 });
 

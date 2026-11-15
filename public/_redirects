@@ -1,0 +1,10 @@
+# Exact 301s only. Cloudflare does not add a trailing slash to a path with no file,
+# so each removed URL is listed with and without the slash. Targets keep the slash.
+/guides/krillion-vs-rarest-answer/ /games/krillion/ 301
+/guides/krillion-vs-rarest-answer /games/krillion/ 301
+/guides/one-in-a-krillion-strategy/ /games/krillion/ 301
+/guides/one-in-a-krillion-strategy /games/krillion/ 301
+/guides/how-scoring-works-in-rarest-answer-games/ /guides/how-to-play-rarest-answer/ 301
+/guides/how-scoring-works-in-rarest-answer-games /guides/how-to-play-rarest-answer/ 301
+/guides/rarest-answer-strategy/ /guides/how-to-find-rare-answers/ 301
+/guides/rarest-answer-strategy /guides/how-to-find-rare-answers/ 301

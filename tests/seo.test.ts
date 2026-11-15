@@ -9,6 +9,7 @@ import {
   simpleBreadcrumbJsonLd,
   itemListJsonLd,
   faqPageJsonLd,
+  videoGameJsonLd,
   pageTitle,
 } from '~/lib/seo';
 import { fallbackDetailPaths } from '~/lib/fallback-paths';
@@ -57,34 +58,72 @@ describe('SEO helpers', () => {
       });
       expect(json['@type']).toBe('Article');
       expect(json.headline).toBe('Test Article');
-      expect(json.datePublished).toContain('2026-01-01');
+      expect(json.datePublished).toBe('2026-01-01');
       expect(json.image).toMatch(/^https?:\/\//);
       expect(json.mainEntityOfPage['@id']).toMatch(/\/bosses\/test-slug\/$/);
+      expect(json).not.toHaveProperty('author');
+      expect(json).not.toHaveProperty('dateModified');
     });
 
-    it('uses dateModified when provided, otherwise falls back to datePublished', () => {
+    it('prints dateModified only when the page shows an updated date', () => {
       const published = new Date('2026-01-01');
       const modified = new Date('2026-06-01');
       const withModified = articleJsonLd({
         title: 'T',
- description: 'Desc that is long enough for validation here.',
+        description: 'Desc that is long enough for validation here.',
         datePublished: published,
         dateModified: modified,
         category: 'bosses',
         slug: 's',
         locale: 'en',
       });
-      expect(withModified.dateModified).toContain('2026-06-01');
+      expect(withModified.datePublished).toBe('2026-01-01');
+      expect(withModified.dateModified).toBe('2026-06-01');
 
       const noModified = articleJsonLd({
         title: 'T',
- description: 'Desc that is long enough for validation here.',
+        description: 'Desc that is long enough for validation here.',
         datePublished: published,
         category: 'bosses',
         slug: 's',
         locale: 'en',
       });
-      expect(noModified.dateModified).toContain('2026-01-01');
+      expect(noModified).not.toHaveProperty('dateModified');
+    });
+
+    it('uses the byline string and omits an author the page does not show', () => {
+      const named = articleJsonLd({
+        title: 'T',
+        description: 'Desc that is long enough for validation here.',
+        datePublished: new Date('2026-01-01'),
+        category: 'guides',
+        slug: 's',
+        locale: 'en',
+        authorName: 'Ada Lovelace',
+        authorUrl: 'https://example.com/ada',
+      });
+      expect(named.author).toEqual({
+        '@type': 'Person',
+        name: 'Ada Lovelace',
+        url: 'https://example.com/ada',
+      });
+
+      const team = articleJsonLd({
+        title: 'T',
+        description: 'Desc that is long enough for validation here.',
+        datePublished: new Date('2026-01-01'),
+        category: 'guides',
+        slug: 's',
+        locale: 'en',
+        authorName: '  Rarest Answer editorial team  ',
+        authorUrl: '/about/',
+        authorType: 'Organization',
+      });
+      expect(team.author).toMatchObject({
+        '@type': 'Organization',
+        name: 'Rarest Answer editorial team',
+      });
+      expect(team.author?.url).toMatch(/\/about\/$/);
     });
   });
 
@@ -170,13 +209,62 @@ describe('SEO helpers', () => {
   });
 
   describe('faqPageJsonLd', () => {
-    it('maps Q&A pairs to Question/Answer schema', () => {
+    it('maps Q&A pairs to Question/Answer schema for answer pages', () => {
       const json = faqPageJsonLd([
         { question: 'What is X?', answer: 'X is Y.' },
       ]);
       expect(json['@type']).toBe('FAQPage');
       expect(json.mainEntity[0]['@type']).toBe('Question');
       expect(json.mainEntity[0].acceptedAnswer.text).toBe('X is Y.');
+    });
+  });
+
+  describe('videoGameJsonLd', () => {
+    it('is one VideoGame with the page name, description, and URL, and no Offer', () => {
+      const json = videoGameJsonLd({
+        name: 'Rarest Answer Game Unlimited',
+        description: 'Unlimited deals a new set each time you play.',
+        url: 'https://rarestanswer.xyz/unlimited/',
+      });
+      expect(json['@type']).toBe('VideoGame');
+      expect(json.name).toBe('Rarest Answer Game Unlimited');
+      expect(json.description).toBe('Unlimited deals a new set each time you play.');
+      expect(json.url).toBe('https://rarestanswer.xyz/unlimited/');
+      expect(json.publisher.name).toBe(site.name);
+      expect(json).not.toHaveProperty('offers');
+      expect(json).not.toHaveProperty('gamePlatform');
+      expect(JSON.stringify(json)).not.toContain('Offer');
+      expect(JSON.stringify(json)).not.toContain('WebApplication');
+    });
+  });
+
+  describe('G2 and G8 wiring', () => {
+    const playAndFaq = [
+      'src/pages/index.astro',
+      'src/pages/unlimited.astro',
+      'src/pages/trivia/[category].astro',
+      'src/pages/faq.astro',
+      'src/components/article/ArticlePage.astro',
+    ];
+
+    it('does not emit FAQPage from articles, the FAQ page, or play pages', () => {
+      for (const rel of playAndFaq) {
+        const text = src(rel);
+        expect(text, rel).not.toContain('faqPageJsonLd');
+        expect(text, rel).not.toContain('FAQPage');
+      }
+    });
+
+    it('play pages keep a single VideoGame and no Offer', () => {
+      for (const rel of playAndFaq.slice(0, 3)) {
+        const text = src(rel);
+        expect(text, rel).toContain('videoGameJsonLd');
+        expect(text, rel).not.toContain('WebApplication');
+        expect(text, rel).not.toContain('Offer');
+      }
+      const builder = src('src/lib/seo.ts');
+      expect(builder).not.toContain("'@type': 'Offer'");
+      expect(builder).not.toContain("'@type': 'WebApplication'");
     });
   });
 

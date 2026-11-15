@@ -28,10 +28,9 @@ import {
   measureCopy,
   tierSentence,
 } from '~/lib/game/category-copy';
-import { site, siteUrl } from '~/config/site';
 import { defaultLocale, locales } from '~/i18n/routing';
 import { videoGameJsonLd, websiteJsonLd } from '~/lib/seo';
-import { homeUrl, languageAlternates } from '~/lib/url';
+import { absoluteUrl, homeUrl, languageAlternates } from '~/lib/url';
 
 const locale = defaultLocale;
 const alternates = languageAlternates((loc) => homeUrl(loc), locales);
@@ -45,19 +44,14 @@ const faq = HOME_FAQ.map((item) =>
     ? { question: item.question, answer: `${rarityBody} ${tierSentence()}` }
     : item,
 );
-const webApp: Record<string, unknown> = {
-  '@context': 'https://schema.org',
-  '@type': 'WebApplication',
-  name: site.game.name,
-  url: `${siteUrl}/`,
-  applicationCategory: 'GameApplication',
-  operatingSystem: 'Web',
-  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-  isAccessibleForFree: true,
-  description: HOME.description,
-  inLanguage: 'en',
-};
-const jsonLd: Record<string, unknown>[] = [websiteJsonLd(locale), videoGameJsonLd(), webApp];
+const jsonLd: Record<string, unknown>[] = [
+  websiteJsonLd(locale),
+  videoGameJsonLd({
+    name: HOME.h1,
+    description: HOME.intro,
+    url: absoluteUrl('/', locale),
+  }),
+];
 const links = [
   { href: '/unlimited/', label: 'Rarest Answer game unlimited' },
   ...CATEGORY_PAGE_LIST.map((page) => ({ href: `/trivia/${page.key}/`, label: page.h1 })),

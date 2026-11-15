@@ -5,14 +5,17 @@ import HeroArt from '~/components/art/HeroArt.astro';
 import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
 import { site } from '~/config/site';
+import { contactEmail } from '~/lib/contact-email';
+
 const labels = getUi(defaultLocale).shared.visuals;
+const email = contactEmail();
 ---
 
 <LegalPage
   locale={defaultLocale}
   title="About"
-  description="What Rarest Answer is, how the rarest correct answer scores, and what this site does and does not claim."
-  lastUpdated="2026-11-14"
+  description="Who runs Rarest Answer, how answer lists and guides are made, and what this independent trivia site does not claim."
+  lastUpdated="2026-11-15"
 >
   <aside slot="illustration" class="content-band mt-6">
     <div class="min-w-0">
@@ -26,6 +29,20 @@ const labels = getUi(defaultLocale).shared.visuals;
     A prompt asks you to name something that fits. Every accepted answer is correct. A rarer correct
     answer scores higher than the name almost everyone types first.
   </p>
+  <h2>Who runs this site</h2>
+  <p>
+    A small independent team runs {site.name}. Guides and pages about other games are signed
+    Rarest Answer editorial team. Article pages show that byline and link to this page. The name
+    is this site's editorial group.
+  </p>
+  <p>
+    {site.name} is not affiliated with Krillion or with the other games named on this site.
+    {site.legalNotice}
+  </p>
+  <p>
+    Questions and corrections go to <a href={`mailto:${email}`}>{email}</a>. That is the address
+    on the <a href="/contact/">contact page</a>.
+  </p>
   <h2>What you can do here</h2>
   <ul>
     <li>
@@ -35,9 +52,8 @@ const labels = getUi(defaultLocale).shared.visuals;
       Keep practicing in <a href="/unlimited/">unlimited mode</a>, or pick one category under trivia.
     </li>
     <li>
-      Read the <a href="/guides/how-to-play-rarest-answer/">rules</a>, the
-      <a href="/guides/how-to-find-rare-answers/">guide to finding rare answers</a>, and
-      <a href="/guides/rarest-answer-strategy/">strategy</a>.
+      Read the <a href="/guides/how-to-play-rarest-answer/">rules</a> and the
+      <a href="/guides/how-to-find-rare-answers/">guide to finding a rare answer</a>.
     </li>
     <li>
       Compare other <a href="/guides/best-daily-trivia-games/">daily trivia games</a> and
@@ -64,22 +80,49 @@ const labels = getUi(defaultLocale).shared.visuals;
     <a href="/guides/rarest-answer-party-roblox/">Roblox page</a> quotes the experience description
     and a dated read of Roblox's games API. Live player counts on that page will move.
   </p>
-  <h2>Where the answers come from</h2>
+  <h2>How we make this</h2>
   <p>
-    Each prompt has a fixed list of accepted answers and a rarity rank inside that list. The
-    published set is compiled from Wikidata (CC0) and monthly Wikipedia or Wiktionary pageviews.
+    Each prompt is a fixed list of accepted answers. Most lists come from Wikidata, which is
+    published under CC0. English interjections come from Wikidata lexemes. The Stranger Things
+    character list is parsed from the English Wikipedia page
+    <a href="https://en.wikipedia.org/wiki/List_of_Stranger_Things_characters">List of Stranger Things characters</a>.
+    On that list, a name with no English Wikipedia article is counted as 1 pageview.
+  </p>
+  <p>
+    Rarity uses those pageview totals. The build script <code>scripts/build-prompts.ts</code> sums
+    English Wikipedia pageviews over the last 12 complete months. English interjections use
+    English Wiktionary pageviews for the same months. The files published now use November 2025
+    through October 2026, labeled 2026-10 on each prompt. Running the script again refreshes the
+    prompt files from those sources.
+  </p>
+  <p>
+    Inside one prompt, rarity is a percentile of that total. The value runs from 0 to 1, and 1 is
+    the rarest, the least viewed. Answers with the same total share a rarity. Tier cutoffs live in
+    <code>scripts/data/prompt-defs.ts</code>: below 0.2 is Common, below 0.4 Familiar, below 0.6
+    Uncommon, below 0.8 Rare, below 0.93 Epic, and 0.93 or higher is Legendary. Points for those
+    tiers, 5, 10, 20, 40, 70, and 100, are the <code>TIERS</code> table in
+    <code>src/lib/game/types.ts</code>. An answer is ranked only against the other answers to the
+    same prompt.
+  </p>
+  <p>
     "Name a species of great ape" is one of those prompts: eight living species, with the Tapanuli
     orangutan in the rarest tier. The
     <a href="/guides/how-to-find-rare-answers/">finding guide</a> uses the names and the tier order,
-    and it says when a biological fact comes from Wikipedia instead. The Stranger Things list is a
-    scored prompt too, on the
-    <a href="/answers/stranger-things-characters/">characters page</a>, ranked by pageviews rather
-    than by billing.
+    and it says when a biological fact comes from Wikipedia. The Stranger Things list is a scored
+    prompt on the <a href="/answers/stranger-things-characters/">characters page</a>, ranked by
+    those pageview totals.
+  </p>
+  <p>
+    Answer pages are generated from the prompt files. The guides and the pages about other games
+    are written with AI assistance. Facts in those articles are checked against the sources the
+    page links: an official page, a Wikipedia article, a dated public API read, or this site's own
+    rules and prompt files.
   </p>
   <h2>Contact</h2>
   <p>
     You do not need an account to read the guides or to play. Streaks and round stats are stored in
-    your browser. Corrections and questions go through the <a href="/contact/">contact page</a>.
+    your browser. Write to <a href={`mailto:${email}`}>{email}</a> or use the
+    <a href="/contact/">contact page</a>.
   </p>
   <PlayCta slot="after" locale={defaultLocale} />
 </LegalPage>

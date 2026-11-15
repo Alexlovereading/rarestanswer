@@ -8,7 +8,7 @@ import { answerCrumbJsonLd, answerPath, getPrompt, getPrompts } from '~/componen
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import { defaultLocale, locales } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
-import { faqPageJsonLd, pageTitle } from '~/lib/seo';
+import { pageTitle } from '~/lib/seo';
 import { languageAlternates } from '~/lib/url';
 
 export function getStaticPaths() {
@@ -24,7 +24,6 @@ if (!prompt) throw new Error(`No prompt data for /answers/${slug}/`);
 const ui = getUi(defaultLocale);
 const alternates = languageAlternates(() => answerPath(prompt.slug), locales);
 const jsonLd = [
-  faqPageJsonLd(prompt.faq),
   answerCrumbJsonLd({
     homeLabel: ui.nav.home,
     hubLabel: ui.nav.rarestAnswers,

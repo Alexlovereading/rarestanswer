@@ -25,10 +25,10 @@ import {
   measureCopy,
   unlimitedFaq,
 } from '~/lib/game/category-copy';
-import { site, siteUrl } from '~/config/site';
+import { site } from '~/config/site';
 import { defaultLocale, locales } from '~/i18n/routing';
 import { simpleBreadcrumbJsonLd, videoGameJsonLd } from '~/lib/seo';
-import { languageAlternates, localizePath } from '~/lib/url';
+import { absoluteUrl, languageAlternates, localizePath } from '~/lib/url';
 
 const locale = defaultLocale;
 const path = localizePath('/unlimited/', locale);
@@ -39,21 +39,12 @@ const rarityBody = measureCopy(
   'No prompts are loaded, so this page has no view count to quote.',
 );
 const faq = unlimitedFaq();
-const webApp: Record<string, unknown> = {
-  '@context': 'https://schema.org',
-  '@type': 'WebApplication',
-  name: 'Rarest Answer Unlimited',
-  url: `${siteUrl}/unlimited/`,
-  applicationCategory: 'GameApplication',
-  operatingSystem: 'Web',
-  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-  isAccessibleForFree: true,
-  description: UNLIMITED.description,
-  inLanguage: 'en',
-};
 const jsonLd: Record<string, unknown>[] = [
-  videoGameJsonLd(),
-  webApp,
+  videoGameJsonLd({
+    name: UNLIMITED.h1,
+    description: UNLIMITED.intro,
+    url: absoluteUrl('/unlimited/', locale),
+  }),
   simpleBreadcrumbJsonLd({
     pageLabel: UNLIMITED.h1,
     path,

@@ -99,12 +99,12 @@ export const LOBBY_STEPS = [
   {
     icon: 'lucide:keyboard',
     title: 'Name something that fits',
-    body: 'One prompt, many correct answers. Type a name you know and make it count.',
+    body: 'One prompt, many correct answers. Type a name the list accepts.',
   },
   {
     icon: 'lucide:gem',
     title: 'Find the unexpected',
-    body: 'A less familiar answer climbs the tiers. Common scores 5; Legendary scores 100.',
+    body: `Rarer answers score more. ${TIERS[0]?.name ?? 'Common'} scores ${TIERS[0]?.points ?? 5}; ${TIERS[TIERS.length - 1]?.name ?? 'Legendary'} scores ${TIERS[TIERS.length - 1]?.points ?? 100}.`,
   },
   {
     icon: 'lucide:scan-line',
@@ -124,9 +124,8 @@ export function lobbySpotlights(catalog: readonly CatalogPrompt[]) {
 }
 
 export const GUIDE_LINKS: readonly TextLink[] = [
-  { href: '/guides/how-to-find-rare-answers/', label: 'How to find rare answers' },
-  { href: '/guides/rarest-answer-strategy/', label: 'Guess the rarest answer: strategy' },
-  { href: '/guides/how-to-play-rarest-answer/', label: 'How to play the Rarest Answer game' },
+  { href: '/guides/how-to-find-rare-answers/', label: 'How to find a rare answer' },
+  { href: '/guides/how-to-play-rarest-answer/', label: 'How to play Rarest Answer' },
 ];
 
 export const COMPARE_LINKS: readonly TextLink[] = [
@@ -146,13 +145,13 @@ export const HOME_COMPARE =
   "Rarest Answer is the game on this site. Krillion is a separate daily game. The Krillion page here is unofficial. It says krillion.io has an Unlimited path, and that a public rules page for that path's limits was not available when the guide was checked on 14 November 2026. Unlimited rounds on this site do not use Krillion's scoring. The games-like-Krillion page is the comparison with other daily games opened for this site.";
 
 export const UNLIMITED_TIPS =
-  'Unlimited is where you practice without spending the daily streak. Turn the timer off until a more specific legal name comes easily, then turn it on. Leave the daily round for the run you want on the streak. The strategy guide is that choice in full.';
+  'Unlimited is where you practice without spending the daily streak. Turn the timer off until a more specific legal name comes easily, then turn it on. Leave the daily round for the run you want on the streak. The finding guide is that choice in full.';
 
 export const UNLIMITED_COMPARE =
   'People searching for Krillion unlimited often land here. This page is the Rarest Answer game unlimited, not the unlimited path on krillion.io. The Krillion guide says that path exists, and that a public rules page for its limits was not available on 14 November 2026. Read that guide before treating the two games as the same.';
 
 export function categoryTips(h1: string): string {
-  return `${h1} uses the same six tiers and the same Spotlight as the daily Rarest Answer game. Skip the famous legal name when you have a more specific one, and do not leave the set. The finding guide and the strategy guide are the long version.`;
+  return `${h1} uses the same six tiers and the same Spotlight as the daily Rarest Answer game. Skip the famous legal name when you have a more specific one, and do not leave the set. The finding guide and the how-to-play page are the long version.`;
 }
 
 export function categoryCompare(h1: string): string {
@@ -206,7 +205,7 @@ const MEASURED = /wikipedia|wiktionary|page\s*views?/i;
  */
 export function measureCopy(sources: readonly (string | null)[], none: string): string {
   const method =
-    'Rarity is a rank inside one prompt. A name is common or legendary only beside the other accepted answers on that prompt. When the source names Wikipedia, the answer list is compiled from Wikidata (CC0) and monthly English Wikipedia pageviews set the rank. More views means a lower tier. When the source names Wiktionary, the rank uses monthly English Wiktionary pageviews. Any other source is placeholder popularity, not a live pageview count.';
+    'Rarity is a rank inside one prompt. A name is common or legendary only beside the other accepted answers on that prompt. When the source names Wikipedia, the answer list is compiled from Wikidata (CC0) and the rank uses English Wikipedia views, last 12 months. More views means a lower tier. When the source names Wiktionary, the rank uses English Wiktionary views, last 12 months. Any other source is placeholder popularity, not a live pageview count.';
   return `${method} ${sourceStatus(sources, none)}`;
 }
 
@@ -221,7 +220,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       'Geography trivia for the Rarest Answer game. Name a country, capital, river, or coast. The rarest correct answer scores the most. Free rounds, no account.',
     lead: 'Name a place. The rarest correct answer scores the most.',
     intro:
-      'Geography trivia here is a naming game, not a map quiz with a single official key. A prompt asks you to name a place: a country, a capital, a river, a range, a coast. Every real answer counts. The capital everyone can point to is usually the low tier. The river you only met in a textbook is where the points are. This page deals geography prompts only, as many rounds as you want, with the same six tiers and the same Spotlight as the daily game.',
+      'Geography trivia here is a naming game, not a map quiz with a single official key. A prompt asks you to name a place: a country, a capital, a river, a range, a coast. Only a place on that prompt\'s list counts. The capital everyone can point to is usually the low tier. The river you only met in a textbook is where the points are. This page deals geography prompts only, as many rounds as you want, with the same six tiers and the same Spotlight as the daily game.',
     listNote:
       'A place prompt is a naming round. The ranking is inside that prompt, not a map score.',
     emptyNote:
@@ -277,7 +276,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       'Food trivia for the Rarest Answer game. Name a dish, ingredient, or cuisine. The rarest correct answer scores the most. Free rounds, no account.',
     lead: 'Name a dish or an ingredient. The rarest correct answer scores the most.',
     intro:
-      'Food trivia here asks you to name something you could cook, order, or shop for. The item on a standard menu is the one other players type, so it sits in a low tier. A regional dish, a variety, or a technique you actually use is the rarer guess. Rounds on this page stay on food prompts. The timer, the tiers, and Spotlight match the daily Rarest Answer game.',
+      'Food trivia here asks you to name something you could cook, order, or shop for. A familiar menu item is often a low tier. A regional dish, a variety, or a technique the list accepts can score higher. Rounds on this page stay on food prompts. The timer, the tiers, and Spotlight match the daily Rarest Answer game.',
     listNote: 'A food prompt ranks accepted names. It does not rank how good the dish tastes.',
     emptyNote:
       'No food trivia prompts are in the catalog yet. Each dish prompt will be linked here when one is published.',
@@ -385,7 +384,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
     description:
       'Science trivia for the Rarest Answer game. Name an element, a body, a unit, or a scientist. The rarest correct answer scores the most. Free rounds.',
     lead: 'Name an element, a body, or a unit. The rarest correct answer scores the most.',
-    intro: `Science trivia asks you to name a thing in the field: an element, a body in the sky, a unit, a scientist, a species of particle. The textbook example is the one the clock will tempt you to type. The name from a footnote is the one that scores. Rounds on this page use science prompts only, under the same ${seconds}-second clock you can switch off before you start.`,
+    intro: `Science trivia asks you to name a thing in the field: an element, a body in the sky, a unit, a scientist, a species of particle. The textbook example is the one the clock will tempt you to type. A name from a footnote can score higher when the list accepts it. Rounds on this page use science prompts only, under the same ${seconds}-second clock you can switch off before you start.`,
     listNote: 'A science prompt ranks accepted names. It does not decide which fact is more true.',
     emptyNote:
       'No science trivia prompts are in the catalog yet. Each science prompt will be linked here when one is published.',

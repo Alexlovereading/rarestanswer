@@ -38,20 +38,41 @@ export function websiteJsonLd(locale: Locale = defaultLocale) {
   };
 }
 
+/**
+ * UTC calendar day. Article pages print dates with `timeZone: 'UTC'`, so the
+ * JSON-LD day is that same day (date-only ISO 8601, no invented time).
+ */
+function utcDateOnly(date: Date): string {
+  return date.toISOString().slice(0, 10);
+}
+
+/** Absolute form of a byline href. A site path resolves to the same page. */
+function schemaUrl(url: string): string {
+  if (/^https?:\/\//.test(url)) return url;
+  if (url.startsWith('/')) return `${siteUrl}${url}`;
+  return url;
+}
+
 /** Article JSON-LD — injected on article detail pages. */
 export function articleJsonLd(opts: {
   title: string;
   description: string;
   image?: string;
   datePublished: Date;
+  /** Only when the page shows a separate "last updated" date. */
   dateModified?: Date;
   category: string;
   slug: string;
   locale: Locale;
-  /** Named author (E-E-A-T) — renders as Person; falls back to the Organization. */
+  /** Byline exactly as rendered. Omit when the page shows no author. */
   authorName?: string;
-  /** Profile URLs folded into the Person's sameAs (knowledge-graph signal). */
-  authorSameAs?: string[];
+  /** Profile link on the byline. Omitted when the name is plain text. */
+  authorUrl?: string;
+  /**
+   * Person for a named individual. Organization for the site byline
+   * (the editorial team is not a person).
+   */
+  authorType?: 'Person' | 'Organization';
 }) {
   const {
     title,
@@ -63,29 +84,31 @@ export function articleJsonLd(opts: {
     slug,
     locale,
     authorName,
-    authorSameAs,
+    authorUrl,
+    authorType = 'Person',
   } = opts;
   const coverUrl = image
     ? image.startsWith('http')
       ? image
       : `${siteUrl}${image}`
     : `${siteUrl}/images/hero.webp`;
-  const author = authorName
+  const byline = authorName?.trim();
+  const author = byline
     ? {
-        '@type': 'Person',
-        name: authorName,
-        ...(authorSameAs && authorSameAs.length > 0 ? { sameAs: authorSameAs } : {}),
+        '@type': authorType,
+        name: byline,
+        ...(authorUrl ? { url: schemaUrl(authorUrl) } : {}),
       }
-    : { '@type': 'Organization', name: site.name };
+    : undefined;
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: title,
     description,
     image: coverUrl,
-    datePublished: datePublished.toISOString(),
-    dateModified: (dateModified ?? datePublished).toISOString(),
-    author,
+    datePublished: utcDateOnly(datePublished),
+    ...(dateModified ? { dateModified: utcDateOnly(dateModified) } : {}),
+    ...(author ? { author } : {}),
     publisher: {
       '@type': 'Organization',
       name: site.name,
@@ -192,7 +215,11 @@ export function itemListJsonLd(opts: {
   };
 }
 
-/** FAQPage JSON-LD — for homepage FAQ section (eligible for SERP rich results). */
+/**
+ * FAQPage JSON-LD. FAQ rich results stopped showing on 2026-05-07, so this
+ * stays only for `/answers/` pages (owned elsewhere). Article, FAQ, and play
+ * pages keep the visible questions and do not call this.
+ */
 export function faqPageJsonLd(items: Array<{ question: string; answer: string }>) {
   return {
     '@context': 'https://schema.org',
@@ -262,7 +289,7 @@ export function videoObjectJsonLd(opts: {
     name: title,
     description,
     thumbnailUrl: [`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`],
-    uploadDate: uploadDate.toISOString(),
+    uploadDate: utcDateOnly(uploadDate),
     embedUrl: `https://www.youtube.com/embed/${videoId}`,
   };
 }
@@ -283,18 +310,28 @@ export function pageTitle(title: string): string {
   return `${title} — ${suffix}`;
 }
 
-/** VideoGame JSON-LD — injected on the homepage for game entity recognition. */
-export function videoGameJsonLd() {
+/**
+ * VideoGame JSON-LD for a play page. One type per page (not also
+ * WebApplication). No Offer: the game has no price on the page.
+ * Pass the name, description, and URL that this page actually shows.
+ * Genre and platform stay off — the config strings ("Daily trivia game",
+ * "Web") are not the words on the page.
+ */
+export function videoGameJsonLd(opts: {
+  name?: string;
+  description?: string;
+  url?: string;
+} = {}) {
+  const name = opts.name?.trim() || site.game.name;
+  const description = opts.description?.trim() || site.description;
+  const url = opts.url?.trim() || `${siteUrl}/`;
   return {
     '@context': 'https://schema.org',
     '@type': 'VideoGame',
-    name: site.game.name,
-    description: site.description,
-    url: siteUrl,
-    genre: site.game.genre,
-    gamePlatform: site.game.platform,
-    publisher: { '@type': 'Organization', name: site.game.developer },
-    ...(site.game.releaseDate ? { datePublished: site.game.releaseDate } : {}),
+    name,
+    description,
+    url,
+    publisher: { '@type': 'Organization', name: site.name },
   };
 }
 
@@ -313,6 +350,7 @@ export function recipeJsonLd(opts: {
   image: string;
   url: string;
   authorName?: string;
+  authorType?: 'Person' | 'Organization';
   datePublished?: Date;
   cuisine?: string;
   servings: string;
@@ -329,8 +367,10 @@ export function recipeJsonLd(opts: {
     description: opts.description,
     image: opts.image,
     url: opts.url,
-    ...(opts.authorName ? { author: { '@type': 'Person', name: opts.authorName } } : {}),
-    ...(opts.datePublished ? { datePublished: opts.datePublished.toISOString() } : {}),
+    ...(opts.authorName
+      ? { author: { '@type': opts.authorType ?? 'Person', name: opts.authorName } }
+      : {}),
+    ...(opts.datePublished ? { datePublished: utcDateOnly(opts.datePublished) } : {}),
     ...(opts.cuisine ? { recipeCuisine: opts.cuisine } : {}),
     recipeYield: opts.servings,
     ...(isIsoDuration(opts.prepTime) ? { prepTime: opts.prepTime } : {}),

@@ -30,7 +30,7 @@ import {
 } from '~/lib/game/category-copy';
 import { defaultLocale, locales } from '~/i18n/routing';
 import { simpleBreadcrumbJsonLd, urlListJsonLd, videoGameJsonLd } from '~/lib/seo';
-import { languageAlternates, localizePath } from '~/lib/url';
+import { absoluteUrl, languageAlternates, localizePath } from '~/lib/url';
 import { siteUrl } from '~/config/site';
 
 export function getStaticPaths() {
@@ -59,21 +59,12 @@ const rarityBody = measureCopy(
   prompts.map((prompt) => prompt.source),
   `No ${page.keyword} prompts are in the catalog, so this page has no view count to quote.`,
 );
-const webApp: Record<string, unknown> = {
-  '@context': 'https://schema.org',
-  '@type': 'WebApplication',
-  name: page.h1,
-  url: `${siteUrl}${path}`,
-  applicationCategory: 'GameApplication',
-  operatingSystem: 'Web',
-  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-  isAccessibleForFree: true,
-  description: page.description,
-  inLanguage: 'en',
-};
 const jsonLd: Record<string, unknown>[] = [
-  videoGameJsonLd(),
-  webApp,
+  videoGameJsonLd({
+    name: page.h1,
+    description: page.intro,
+    url: absoluteUrl(`/trivia/${page.key}/`, locale),
+  }),
   simpleBreadcrumbJsonLd({
     pageLabel: page.h1,
     path,
