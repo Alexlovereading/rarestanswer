@@ -60,7 +60,8 @@
     "check-versions": "tsx scripts/check-versions.ts",
     "check-content": "tsx scripts/check-content.ts",
     "refresh-audit": "tsx scripts/refresh-audit.ts",
-    "build-prompts": "tsx scripts/build-prompts.ts"
+    "build-prompts": "tsx scripts/build-prompts.ts",
+    "deploy:cf": "pnpm build && pnpm dlx wrangler pages deploy dist --project-name rarestanswer --branch main"
   },
   "dependencies": {
     "@astrojs/mdx": "^8.0.1",
