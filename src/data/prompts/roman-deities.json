@@ -1,0 +1,2045 @@
+{
+  "id": "roman-deities",
+  "slug": "roman-deities",
+  "category": "history",
+  "question": "Name a Roman deity",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Dea nutrix",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Dea nutrix"
+    },
+    {
+      "name": "Bellum",
+      "aliases": [
+        "Bellum (daemon)",
+        "Polemos"
+      ],
+      "popularity": 9,
+      "rarity": 0.995,
+      "tier": 6,
+      "wiki": "Bellum (daemon)"
+    },
+    {
+      "name": "Alemonia",
+      "aliases": [
+        "Alemona"
+      ],
+      "popularity": 170,
+      "rarity": 0.99,
+      "tier": 6,
+      "wiki": "Alemonia"
+    },
+    {
+      "name": "Adeona",
+      "aliases": [
+        "Adeona (goddess)"
+      ],
+      "popularity": 182,
+      "rarity": 0.986,
+      "tier": 6,
+      "wiki": "Adeona (goddess)"
+    },
+    {
+      "name": "Tibertus",
+      "aliases": [],
+      "popularity": 185,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Tibertus"
+    },
+    {
+      "name": "Viriplaca",
+      "aliases": [],
+      "popularity": 185,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Viriplaca"
+    },
+    {
+      "name": "Sentinus deus",
+      "aliases": [
+        "Sentinus"
+      ],
+      "popularity": 201,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Sentinus deus"
+    },
+    {
+      "name": "Insitor",
+      "aliases": [],
+      "popularity": 212,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Insitor"
+    },
+    {
+      "name": "Reparator",
+      "aliases": [
+        "Rederator"
+      ],
+      "popularity": 231,
+      "rarity": 0.962,
+      "tier": 6,
+      "wiki": "Reparator"
+    },
+    {
+      "name": "Imporcitor",
+      "aliases": [],
+      "popularity": 278,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Imporcitor"
+    },
+    {
+      "name": "Vervactor",
+      "aliases": [],
+      "popularity": 456,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Vervactor"
+    },
+    {
+      "name": "Domiduca",
+      "aliases": [],
+      "popularity": 551,
+      "rarity": 0.947,
+      "tier": 6,
+      "wiki": "Domiduca"
+    },
+    {
+      "name": "Tutilina",
+      "aliases": [
+        "Tutelina"
+      ],
+      "popularity": 562,
+      "rarity": 0.942,
+      "tier": 6,
+      "wiki": "Tutilina"
+    },
+    {
+      "name": "Dea Viriplaca",
+      "aliases": [],
+      "popularity": 566,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Dea Viriplaca"
+    },
+    {
+      "name": "Lateranus",
+      "aliases": [],
+      "popularity": 584,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Lateranus"
+    },
+    {
+      "name": "Pellonia",
+      "aliases": [
+        "Pellonia (deity)"
+      ],
+      "popularity": 592,
+      "rarity": 0.928,
+      "tier": 5,
+      "wiki": "Pellonia (deity)"
+    },
+    {
+      "name": "Spiniensis",
+      "aliases": [],
+      "popularity": 598,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Spiniensis"
+    },
+    {
+      "name": "Vallonia",
+      "aliases": [
+        "Vallonia (mythology)"
+      ],
+      "popularity": 598,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Vallonia (mythology)"
+    },
+    {
+      "name": "Edesia",
+      "aliases": [
+        "Edusa"
+      ],
+      "popularity": 603,
+      "rarity": 0.913,
+      "tier": 5,
+      "wiki": "Edesia"
+    },
+    {
+      "name": "Nascio",
+      "aliases": [],
+      "popularity": 691,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Nascio"
+    },
+    {
+      "name": "Faustitas",
+      "aliases": [],
+      "popularity": 694,
+      "rarity": 0.904,
+      "tier": 5,
+      "wiki": "Faustitas"
+    },
+    {
+      "name": "Olloudius",
+      "aliases": [
+        "Mars Olloudius",
+        "Olludius"
+      ],
+      "popularity": 777,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Olloudius"
+    },
+    {
+      "name": "Semonia",
+      "aliases": [],
+      "popularity": 782,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Semonia"
+    },
+    {
+      "name": "Clitumnus",
+      "aliases": [
+        "Clitunno"
+      ],
+      "popularity": 916,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Clitumnus"
+    },
+    {
+      "name": "Agonius",
+      "aliases": [
+        "Enagonios",
+        "Enagonius"
+      ],
+      "popularity": 919,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Agonius"
+    },
+    {
+      "name": "Molae",
+      "aliases": [],
+      "popularity": 999,
+      "rarity": 0.88,
+      "tier": 5,
+      "wiki": "Molae"
+    },
+    {
+      "name": "Helernus",
+      "aliases": [
+        "Alernus"
+      ],
+      "popularity": 1008,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Helernus"
+    },
+    {
+      "name": "Deverra",
+      "aliases": [],
+      "popularity": 1014,
+      "rarity": 0.87,
+      "tier": 5,
+      "wiki": "Deverra"
+    },
+    {
+      "name": "Puta",
+      "aliases": [
+        "Puta (mythology)"
+      ],
+      "popularity": 1053,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Puta (mythology)"
+    },
+    {
+      "name": "Ferentina",
+      "aliases": [],
+      "popularity": 1207,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Ferentina"
+    },
+    {
+      "name": "Murcia",
+      "aliases": [
+        "Murcia (deity)"
+      ],
+      "popularity": 1316,
+      "rarity": 0.856,
+      "tier": 5,
+      "wiki": "Murcia (deity)"
+    },
+    {
+      "name": "Fecunditas",
+      "aliases": [],
+      "popularity": 1325,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Fecunditas"
+    },
+    {
+      "name": "Rediculus",
+      "aliases": [
+        "Tutanus"
+      ],
+      "popularity": 1354,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "Rediculus"
+    },
+    {
+      "name": "Talasius",
+      "aliases": [],
+      "popularity": 1369,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Talasius"
+    },
+    {
+      "name": "Almo",
+      "aliases": [
+        "Almo (god)"
+      ],
+      "popularity": 1385,
+      "rarity": 0.837,
+      "tier": 5,
+      "wiki": "Almo (god)"
+    },
+    {
+      "name": "Gallia",
+      "aliases": [
+        "Gallia (goddess)"
+      ],
+      "popularity": 1441,
+      "rarity": 0.832,
+      "tier": 5,
+      "wiki": "Gallia (goddess)"
+    },
+    {
+      "name": "Fabulinus",
+      "aliases": [],
+      "popularity": 1548,
+      "rarity": 0.827,
+      "tier": 5,
+      "wiki": "Fabulinus"
+    },
+    {
+      "name": "Pilumnus",
+      "aliases": [],
+      "popularity": 1650,
+      "rarity": 0.822,
+      "tier": 5,
+      "wiki": "Pilumnus"
+    },
+    {
+      "name": "Stata Mater",
+      "aliases": [],
+      "popularity": 1659,
+      "rarity": 0.817,
+      "tier": 5,
+      "wiki": "Stata Mater"
+    },
+    {
+      "name": "Picumnus",
+      "aliases": [
+        "Picumnus (mythology)"
+      ],
+      "popularity": 1661,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Picumnus (mythology)"
+    },
+    {
+      "name": "Verminus",
+      "aliases": [],
+      "popularity": 1727,
+      "rarity": 0.808,
+      "tier": 5,
+      "wiki": "Verminus"
+    },
+    {
+      "name": "Fortuna Redux",
+      "aliases": [],
+      "popularity": 1882,
+      "rarity": 0.803,
+      "tier": 5,
+      "wiki": "Fortuna Redux"
+    },
+    {
+      "name": "Bubona",
+      "aliases": [],
+      "popularity": 1903,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Bubona"
+    },
+    {
+      "name": "Liberalitas",
+      "aliases": [],
+      "popularity": 1906,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Liberalitas"
+    },
+    {
+      "name": "Agenoria",
+      "aliases": [
+        "Agenoria (mythology)",
+        "Agerona"
+      ],
+      "popularity": 1930,
+      "rarity": 0.788,
+      "tier": 4,
+      "wiki": "Agenoria (mythology)"
+    },
+    {
+      "name": "Tranquillitas",
+      "aliases": [],
+      "popularity": 1970,
+      "rarity": 0.784,
+      "tier": 4,
+      "wiki": "Tranquillitas"
+    },
+    {
+      "name": "Viduus",
+      "aliases": [],
+      "popularity": 1973,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Viduus"
+    },
+    {
+      "name": "Aius Locutius",
+      "aliases": [
+        "Aius Loquens",
+        "Locutius"
+      ],
+      "popularity": 2028,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Aius Locutius"
+    },
+    {
+      "name": "Postverta",
+      "aliases": [
+        "Postvorta"
+      ],
+      "popularity": 2132,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Postverta"
+    },
+    {
+      "name": "Vica Pota",
+      "aliases": [],
+      "popularity": 2143,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Vica Pota"
+    },
+    {
+      "name": "Sors",
+      "aliases": [],
+      "popularity": 2174,
+      "rarity": 0.76,
+      "tier": 4,
+      "wiki": "Sors"
+    },
+    {
+      "name": "Strenua",
+      "aliases": [
+        "Strenia"
+      ],
+      "popularity": 2194,
+      "rarity": 0.755,
+      "tier": 4,
+      "wiki": "Strenua"
+    },
+    {
+      "name": "Trivia",
+      "aliases": [
+        "Trivia (mythology)"
+      ],
+      "popularity": 2302,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Trivia (mythology)"
+    },
+    {
+      "name": "Averruncus",
+      "aliases": [],
+      "popularity": 2430,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Averruncus"
+    },
+    {
+      "name": "Orbona",
+      "aliases": [],
+      "popularity": 2527,
+      "rarity": 0.74,
+      "tier": 4,
+      "wiki": "Orbona"
+    },
+    {
+      "name": "Suadela",
+      "aliases": [],
+      "popularity": 2570,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Suadela"
+    },
+    {
+      "name": "Mana Genita",
+      "aliases": [
+        "Geneta",
+        "Genita Mana"
+      ],
+      "popularity": 2601,
+      "rarity": 0.731,
+      "tier": 4,
+      "wiki": "Mana Genita"
+    },
+    {
+      "name": "Fortuna Huiusce Diei",
+      "aliases": [],
+      "popularity": 2662,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Fortuna Huiusce Diei"
+    },
+    {
+      "name": "Mens",
+      "aliases": [
+        "Bona Mens",
+        "Mens Bona"
+      ],
+      "popularity": 2837,
+      "rarity": 0.721,
+      "tier": 4,
+      "wiki": "Mens"
+    },
+    {
+      "name": "Palatua",
+      "aliases": [],
+      "popularity": 3025,
+      "rarity": 0.716,
+      "tier": 4,
+      "wiki": "Palatua"
+    },
+    {
+      "name": "Nenia Dea",
+      "aliases": [],
+      "popularity": 3080,
+      "rarity": 0.712,
+      "tier": 4,
+      "wiki": "Nenia Dea"
+    },
+    {
+      "name": "Dius Fidius",
+      "aliases": [
+        "Dius Fidus"
+      ],
+      "popularity": 3294,
+      "rarity": 0.707,
+      "tier": 4,
+      "wiki": "Dius Fidius"
+    },
+    {
+      "name": "Mellona",
+      "aliases": [],
+      "popularity": 3352,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Mellona"
+    },
+    {
+      "name": "Cura",
+      "aliases": [
+        "Cura (mythology)"
+      ],
+      "popularity": 3464,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "Cura (mythology)"
+    },
+    {
+      "name": "Manth",
+      "aliases": [
+        "Mantus"
+      ],
+      "popularity": 3591,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Manth"
+    },
+    {
+      "name": "Fraus",
+      "aliases": [],
+      "popularity": 3675,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Fraus"
+    },
+    {
+      "name": "Securitas",
+      "aliases": [],
+      "popularity": 3695,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Securitas"
+    },
+    {
+      "name": "Annona",
+      "aliases": [
+        "Annona Augusti",
+        "Annona (mythology)"
+      ],
+      "popularity": 3769,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Annona (mythology)"
+    },
+    {
+      "name": "Disciplina",
+      "aliases": [],
+      "popularity": 3839,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "Disciplina"
+    },
+    {
+      "name": "Smertrios",
+      "aliases": [
+        "Smertrius"
+      ],
+      "popularity": 3961,
+      "rarity": 0.668,
+      "tier": 4,
+      "wiki": "Smertrios"
+    },
+    {
+      "name": "Iana",
+      "aliases": [
+        "Iana (goddess)"
+      ],
+      "popularity": 3970,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "Iana (goddess)"
+    },
+    {
+      "name": "Fabius",
+      "aliases": [],
+      "popularity": 3978,
+      "rarity": 0.659,
+      "tier": 4,
+      "wiki": "Fabius"
+    },
+    {
+      "name": "Bonus Eventus",
+      "aliases": [],
+      "popularity": 4076,
+      "rarity": 0.654,
+      "tier": 4,
+      "wiki": "Bonus Eventus"
+    },
+    {
+      "name": "Lupercus",
+      "aliases": [
+        "Lupercus (mythology)"
+      ],
+      "popularity": 4301,
+      "rarity": 0.649,
+      "tier": 4,
+      "wiki": "Lupercus (mythology)"
+    },
+    {
+      "name": "Falacer",
+      "aliases": [],
+      "popularity": 4323,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Falacer"
+    },
+    {
+      "name": "Levana",
+      "aliases": [
+        "dea Levana"
+      ],
+      "popularity": 4365,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Levana"
+    },
+    {
+      "name": "Vagitanus",
+      "aliases": [
+        "Vaticanus"
+      ],
+      "popularity": 4537,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Vagitanus"
+    },
+    {
+      "name": "Antevorta",
+      "aliases": [
+        "Porrima",
+        "Prorsa",
+        "Prosa",
+        "Proversa"
+      ],
+      "popularity": 4548,
+      "rarity": 0.63,
+      "tier": 4,
+      "wiki": "Antevorta"
+    },
+    {
+      "name": "Honos",
+      "aliases": [
+        "Honor"
+      ],
+      "popularity": 5241,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Honos"
+    },
+    {
+      "name": "Volturnus",
+      "aliases": [
+        "Vulturnus"
+      ],
+      "popularity": 5383,
+      "rarity": 0.62,
+      "tier": 4,
+      "wiki": "Volturnus"
+    },
+    {
+      "name": "Canens",
+      "aliases": [
+        "Canens (mythology)"
+      ],
+      "popularity": 5470,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "Canens (mythology)"
+    },
+    {
+      "name": "Tutela",
+      "aliases": [],
+      "popularity": 5480,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Tutela"
+    },
+    {
+      "name": "Crepitus",
+      "aliases": [
+        "Crepitus (mythology)"
+      ],
+      "popularity": 5514,
+      "rarity": 0.606,
+      "tier": 4,
+      "wiki": "Crepitus (mythology)"
+    },
+    {
+      "name": "Empanda",
+      "aliases": [
+        "Panda"
+      ],
+      "popularity": 5525,
+      "rarity": 0.601,
+      "tier": 4,
+      "wiki": "Empanda"
+    },
+    {
+      "name": "Dea Dia",
+      "aliases": [
+        "Divine Goddess"
+      ],
+      "popularity": 5584,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Dea Dia"
+    },
+    {
+      "name": "Fauna",
+      "aliases": [
+        "Fatidica",
+        "Fatua",
+        "Fauna (deity)",
+        "Favna"
+      ],
+      "popularity": 5794,
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Fauna (deity)"
+    },
+    {
+      "name": "Febris",
+      "aliases": [],
+      "popularity": 5848,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Febris"
+    },
+    {
+      "name": "Lympha",
+      "aliases": [],
+      "popularity": 6142,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Lympha"
+    },
+    {
+      "name": "Rumina",
+      "aliases": [
+        "Diva Rumina"
+      ],
+      "popularity": 6238,
+      "rarity": 0.577,
+      "tier": 3,
+      "wiki": "Rumina"
+    },
+    {
+      "name": "Caca",
+      "aliases": [
+        "Caca (mythology)"
+      ],
+      "popularity": 6426,
+      "rarity": 0.572,
+      "tier": 3,
+      "wiki": "Caca (mythology)"
+    },
+    {
+      "name": "Fornax",
+      "aliases": [
+        "Fornax (mythology)"
+      ],
+      "popularity": 6635,
+      "rarity": 0.567,
+      "tier": 3,
+      "wiki": "Fornax (mythology)"
+    },
+    {
+      "name": "Consus",
+      "aliases": [],
+      "popularity": 6807,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Consus"
+    },
+    {
+      "name": "Providentia",
+      "aliases": [],
+      "popularity": 6986,
+      "rarity": 0.558,
+      "tier": 3,
+      "wiki": "Providentia"
+    },
+    {
+      "name": "Nona",
+      "aliases": [
+        "Neuna",
+        "Nona (mythology)"
+      ],
+      "popularity": 7029,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Nona (mythology)"
+    },
+    {
+      "name": "Fontus",
+      "aliases": [],
+      "popularity": 7389,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Fontus"
+    },
+    {
+      "name": "Tages",
+      "aliases": [],
+      "popularity": 7405,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "Tages"
+    },
+    {
+      "name": "Fulgora",
+      "aliases": [
+        "Fulgora (mythology)"
+      ],
+      "popularity": 7470,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Fulgora (mythology)"
+    },
+    {
+      "name": "Camulus",
+      "aliases": [],
+      "popularity": 7490,
+      "rarity": 0.534,
+      "tier": 3,
+      "wiki": "Camulus"
+    },
+    {
+      "name": "Tempestas",
+      "aliases": [],
+      "popularity": 7562,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Tempestas"
+    },
+    {
+      "name": "Pales",
+      "aliases": [
+        "Pale"
+      ],
+      "popularity": 7791,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Pales"
+    },
+    {
+      "name": "Laetitia",
+      "aliases": [
+        "Laetitia (goddess)"
+      ],
+      "popularity": 7858,
+      "rarity": 0.519,
+      "tier": 3,
+      "wiki": "Laetitia (goddess)"
+    },
+    {
+      "name": "Mania",
+      "aliases": [
+        "Manea",
+        "Mania (deity)"
+      ],
+      "popularity": 7874,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Mania (deity)"
+    },
+    {
+      "name": "Sancus",
+      "aliases": [
+        "Semo Sancus Sanctus Deus Fidius"
+      ],
+      "popularity": 7959,
+      "rarity": 0.51,
+      "tier": 3,
+      "wiki": "Sancus"
+    },
+    {
+      "name": "Camenae",
+      "aliases": [
+        "Camenæ",
+        "Camena",
+        "Camoena",
+        "Casmena"
+      ],
+      "popularity": 7979,
+      "rarity": 0.505,
+      "tier": 3,
+      "wiki": "Camenae"
+    },
+    {
+      "name": "Libitina",
+      "aliases": [],
+      "popularity": 8325,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Libitina"
+    },
+    {
+      "name": "Lua",
+      "aliases": [
+        "Lua (goddess)"
+      ],
+      "popularity": 8379,
+      "rarity": 0.495,
+      "tier": 3,
+      "wiki": "Lua (goddess)"
+    },
+    {
+      "name": "Decima",
+      "aliases": [
+        "Decima (mythology)"
+      ],
+      "popularity": 8431,
+      "rarity": 0.49,
+      "tier": 3,
+      "wiki": "Decima (mythology)"
+    },
+    {
+      "name": "Sterquilinus",
+      "aliases": [
+        "Sterculius",
+        "Stercutius",
+        "Stercutus"
+      ],
+      "popularity": 8550,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "Sterquilinus"
+    },
+    {
+      "name": "Felicitas",
+      "aliases": [],
+      "popularity": 8622,
+      "rarity": 0.481,
+      "tier": 3,
+      "wiki": "Felicitas"
+    },
+    {
+      "name": "Acca Larentia",
+      "aliases": [
+        "Acca Larentina",
+        "Acca-Laurentia",
+        "Arca-Laurentia",
+        "Laurentia"
+      ],
+      "popularity": 9000,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Acca Larentia"
+    },
+    {
+      "name": "Vejovis",
+      "aliases": [
+        "Vediovis",
+        "Vedius",
+        "Veiovis"
+      ],
+      "popularity": 9034,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Vejovis"
+    },
+    {
+      "name": "Dies",
+      "aliases": [
+        "Dies (mythology)"
+      ],
+      "popularity": 9113,
+      "rarity": 0.466,
+      "tier": 3,
+      "wiki": "Dies (mythology)"
+    },
+    {
+      "name": "Angitia",
+      "aliases": [],
+      "popularity": 9159,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "Angitia"
+    },
+    {
+      "name": "Carmenta",
+      "aliases": [
+        "Carmentis",
+        "Nicostrata"
+      ],
+      "popularity": 9375,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Carmenta"
+    },
+    {
+      "name": "Angerona",
+      "aliases": [],
+      "popularity": 9418,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Angerona"
+    },
+    {
+      "name": "Morta",
+      "aliases": [
+        "Maurtia",
+        "Morta (mythology)"
+      ],
+      "popularity": 9422,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Morta (mythology)"
+    },
+    {
+      "name": "Aeternitas",
+      "aliases": [
+        "Aeternitas Imperii"
+      ],
+      "popularity": 9573,
+      "rarity": 0.442,
+      "tier": 3,
+      "wiki": "Aeternitas"
+    },
+    {
+      "name": "Furrina",
+      "aliases": [],
+      "popularity": 9778,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Furrina"
+    },
+    {
+      "name": "Mater Matuta",
+      "aliases": [
+        "Mother Matuta"
+      ],
+      "popularity": 10485,
+      "rarity": 0.433,
+      "tier": 3,
+      "wiki": "Mater Matuta"
+    },
+    {
+      "name": "Clementia",
+      "aliases": [],
+      "popularity": 10518,
+      "rarity": 0.428,
+      "tier": 3,
+      "wiki": "Clementia"
+    },
+    {
+      "name": "Pudicitia",
+      "aliases": [],
+      "popularity": 10611,
+      "rarity": 0.423,
+      "tier": 3,
+      "wiki": "Pudicitia"
+    },
+    {
+      "name": "Portunus",
+      "aliases": [
+        "Portunes",
+        "Portunus (mythology)"
+      ],
+      "popularity": 10811,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Portunus (mythology)"
+    },
+    {
+      "name": "Mefitis",
+      "aliases": [],
+      "popularity": 11068,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "Mefitis"
+    },
+    {
+      "name": "Inuus",
+      "aliases": [
+        "Fatulcus",
+        "Fatuus"
+      ],
+      "popularity": 11358,
+      "rarity": 0.409,
+      "tier": 3,
+      "wiki": "Inuus"
+    },
+    {
+      "name": "Nerio",
+      "aliases": [
+        "Neriene"
+      ],
+      "popularity": 11464,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Nerio"
+    },
+    {
+      "name": "Fames",
+      "aliases": [],
+      "popularity": 11545,
+      "rarity": 0.399,
+      "tier": 2,
+      "wiki": "Fames"
+    },
+    {
+      "name": "Jupiter Dolichenus",
+      "aliases": [
+        "Dolichenus",
+        "Iupiter Dolichenus",
+        "Iuppiter Dolichenus"
+      ],
+      "popularity": 12122,
+      "rarity": 0.394,
+      "tier": 2,
+      "wiki": "Jupiter Dolichenus"
+    },
+    {
+      "name": "Pax",
+      "aliases": [
+        "Pax (goddess)"
+      ],
+      "popularity": 12500,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Pax (goddess)"
+    },
+    {
+      "name": "Summanus",
+      "aliases": [],
+      "popularity": 12658,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Summanus"
+    },
+    {
+      "name": "Dea Tacita",
+      "aliases": [
+        "Dea Muta",
+        "Lara",
+        "Muta",
+        "Muta Tacita",
+        "Tacita"
+      ],
+      "popularity": 12667,
+      "rarity": 0.38,
+      "tier": 2,
+      "wiki": "Dea Tacita"
+    },
+    {
+      "name": "Abundantia",
+      "aliases": [],
+      "popularity": 12733,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Abundantia"
+    },
+    {
+      "name": "Aequitas",
+      "aliases": [
+        "Aequitatis"
+      ],
+      "popularity": 12965,
+      "rarity": 0.37,
+      "tier": 2,
+      "wiki": "Aequitas"
+    },
+    {
+      "name": "Roma",
+      "aliases": [
+        "Roma (personification)"
+      ],
+      "popularity": 12976,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Roma (personification)"
+    },
+    {
+      "name": "Fides",
+      "aliases": [
+        "Fides (deity)"
+      ],
+      "popularity": 13002,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Fides (deity)"
+    },
+    {
+      "name": "Libera",
+      "aliases": [
+        "Libera (mythology)"
+      ],
+      "popularity": 13035,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Libera (mythology)"
+    },
+    {
+      "name": "Feronia",
+      "aliases": [
+        "Feronia (mythology)"
+      ],
+      "popularity": 13233,
+      "rarity": 0.351,
+      "tier": 2,
+      "wiki": "Feronia (mythology)"
+    },
+    {
+      "name": "Maia",
+      "aliases": [
+        "Maia Maiestas",
+        "Maia (Roman goddess)"
+      ],
+      "popularity": 13258,
+      "rarity": 0.346,
+      "tier": 2,
+      "wiki": "Maia (Roman goddess)"
+    },
+    {
+      "name": "Laverna",
+      "aliases": [],
+      "popularity": 13384,
+      "rarity": 0.341,
+      "tier": 2,
+      "wiki": "Laverna"
+    },
+    {
+      "name": "Spes",
+      "aliases": [
+        "Hope"
+      ],
+      "popularity": 13431,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "Spes"
+    },
+    {
+      "name": "Virtus",
+      "aliases": [
+        "Virtus (deity)"
+      ],
+      "popularity": 13584,
+      "rarity": 0.332,
+      "tier": 2,
+      "wiki": "Virtus (deity)"
+    },
+    {
+      "name": "Anna Perenna",
+      "aliases": [],
+      "popularity": 13904,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Anna Perenna"
+    },
+    {
+      "name": "Juturna",
+      "aliases": [],
+      "popularity": 14012,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Juturna"
+    },
+    {
+      "name": "Africa",
+      "aliases": [
+        "Africa (goddess)",
+        "Dea Africa"
+      ],
+      "popularity": 14073,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Africa (goddess)"
+    },
+    {
+      "name": "Diana Nemorensis",
+      "aliases": [
+        "Cult of Diana Nemorensis",
+        "Diana of Nemi",
+        "Diana of the Wood"
+      ],
+      "popularity": 14172,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Diana Nemorensis"
+    },
+    {
+      "name": "Picus",
+      "aliases": [],
+      "popularity": 14584,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Picus"
+    },
+    {
+      "name": "Arimanius",
+      "aliases": [],
+      "popularity": 16447,
+      "rarity": 0.303,
+      "tier": 2,
+      "wiki": "Arimanius"
+    },
+    {
+      "name": "Egeria",
+      "aliases": [
+        "Egeria (mythology)"
+      ],
+      "popularity": 16846,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "Egeria (mythology)"
+    },
+    {
+      "name": "Moneta",
+      "aliases": [],
+      "popularity": 16930,
+      "rarity": 0.293,
+      "tier": 2,
+      "wiki": "Moneta"
+    },
+    {
+      "name": "Februus",
+      "aliases": [],
+      "popularity": 17641,
+      "rarity": 0.288,
+      "tier": 2,
+      "wiki": "Februus"
+    },
+    {
+      "name": "Lucina",
+      "aliases": [
+        "Lucina (mythology)"
+      ],
+      "popularity": 17773,
+      "rarity": 0.284,
+      "tier": 2,
+      "wiki": "Lucina (mythology)"
+    },
+    {
+      "name": "Cardea",
+      "aliases": [
+        "Carda",
+        "Cardina"
+      ],
+      "popularity": 17908,
+      "rarity": 0.279,
+      "tier": 2,
+      "wiki": "Cardea"
+    },
+    {
+      "name": "Salus",
+      "aliases": [
+        "Salus populi Romani",
+        "Salus publica"
+      ],
+      "popularity": 18229,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Salus"
+    },
+    {
+      "name": "Juventas",
+      "aliases": [
+        "Iuventas"
+      ],
+      "popularity": 18347,
+      "rarity": 0.269,
+      "tier": 2,
+      "wiki": "Juventas"
+    },
+    {
+      "name": "Pluto",
+      "aliases": [
+        "Plouton",
+        "Pluto (god)",
+        "Pluton"
+      ],
+      "popularity": 18699,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Pluto (god)"
+    },
+    {
+      "name": "Cloacina",
+      "aliases": [],
+      "popularity": 19316,
+      "rarity": 0.26,
+      "tier": 2,
+      "wiki": "Cloacina"
+    },
+    {
+      "name": "Śuri",
+      "aliases": [
+        "Soranus"
+      ],
+      "popularity": 21293,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Śuri"
+    },
+    {
+      "name": "Vertumnus",
+      "aliases": [
+        "Vertimnus",
+        "Vortumnus"
+      ],
+      "popularity": 22304,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Vertumnus"
+    },
+    {
+      "name": "Concordia",
+      "aliases": [
+        "Concordia (mythology)"
+      ],
+      "popularity": 22419,
+      "rarity": 0.245,
+      "tier": 2,
+      "wiki": "Concordia (mythology)"
+    },
+    {
+      "name": "Terminus",
+      "aliases": [
+        "Terminus (god)"
+      ],
+      "popularity": 23144,
+      "rarity": 0.24,
+      "tier": 2,
+      "wiki": "Terminus (god)"
+    },
+    {
+      "name": "Salacia",
+      "aliases": [],
+      "popularity": 26353,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Salacia"
+    },
+    {
+      "name": "Discordia",
+      "aliases": [],
+      "popularity": 27612,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "Discordia"
+    },
+    {
+      "name": "Pietas",
+      "aliases": [
+        "filial piety"
+      ],
+      "popularity": 28418,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Pietas"
+    },
+    {
+      "name": "Mors",
+      "aliases": [
+        "Mors (mythology)"
+      ],
+      "popularity": 30074,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Mors (mythology)"
+    },
+    {
+      "name": "Voluptas",
+      "aliases": [
+        "Volupia",
+        "Volupta"
+      ],
+      "popularity": 30968,
+      "rarity": 0.216,
+      "tier": 2,
+      "wiki": "Voluptas"
+    },
+    {
+      "name": "Somnus",
+      "aliases": [],
+      "popularity": 37582,
+      "rarity": 0.212,
+      "tier": 2,
+      "wiki": "Somnus"
+    },
+    {
+      "name": "Faunus",
+      "aliases": [],
+      "popularity": 38593,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Faunus"
+    },
+    {
+      "name": "Bacchus",
+      "aliases": [],
+      "popularity": 41150,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Bacchus"
+    },
+    {
+      "name": "Flora",
+      "aliases": [
+        "Flora (mythology)"
+      ],
+      "popularity": 41712,
+      "rarity": 0.197,
+      "tier": 1,
+      "wiki": "Flora (mythology)"
+    },
+    {
+      "name": "Silvanus",
+      "aliases": [
+        "Silvanus (mythology)"
+      ],
+      "popularity": 43191,
+      "rarity": 0.192,
+      "tier": 1,
+      "wiki": "Silvanus (mythology)"
+    },
+    {
+      "name": "Mutunus Tutunus",
+      "aliases": [
+        "Mutinus Titinus"
+      ],
+      "popularity": 46246,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Mutunus Tutunus"
+    },
+    {
+      "name": "Invidia",
+      "aliases": [],
+      "popularity": 48153,
+      "rarity": 0.183,
+      "tier": 1,
+      "wiki": "Invidia"
+    },
+    {
+      "name": "Victoria",
+      "aliases": [
+        "Diva Victoria",
+        "Victoria (mythology)",
+        "Victory",
+        "Winged Nike",
+        "Winged Victory"
+      ],
+      "popularity": 49291,
+      "rarity": 0.178,
+      "tier": 1,
+      "wiki": "Victoria (mythology)"
+    },
+    {
+      "name": "Quirinus",
+      "aliases": [
+        "Quilinus"
+      ],
+      "popularity": 50415,
+      "rarity": 0.173,
+      "tier": 1,
+      "wiki": "Quirinus"
+    },
+    {
+      "name": "Liber",
+      "aliases": [
+        "Father Liber"
+      ],
+      "popularity": 53617,
+      "rarity": 0.168,
+      "tier": 1,
+      "wiki": "Liber"
+    },
+    {
+      "name": "Ops",
+      "aliases": [
+        "Opis"
+      ],
+      "popularity": 60971,
+      "rarity": 0.163,
+      "tier": 1,
+      "wiki": "Ops"
+    },
+    {
+      "name": "Veritas",
+      "aliases": [
+        "Truth"
+      ],
+      "popularity": 61933,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Veritas"
+    },
+    {
+      "name": "Dis Pater",
+      "aliases": [
+        "Dis",
+        "Dispater",
+        "Father Dis",
+        "King of the Underworld",
+        "Rex Infernus"
+      ],
+      "popularity": 63270,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Dis Pater"
+    },
+    {
+      "name": "Libertas",
+      "aliases": [
+        "Dea Libertas"
+      ],
+      "popularity": 66524,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Libertas"
+    },
+    {
+      "name": "Bellona",
+      "aliases": [
+        "Bellona (goddess)",
+        "Duellona"
+      ],
+      "popularity": 69666,
+      "rarity": 0.144,
+      "tier": 1,
+      "wiki": "Bellona (goddess)"
+    },
+    {
+      "name": "Fascinus",
+      "aliases": [
+        "fascinum"
+      ],
+      "popularity": 73883,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Fascinus"
+    },
+    {
+      "name": "Orcus",
+      "aliases": [],
+      "popularity": 75094,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Orcus"
+    },
+    {
+      "name": "Aurora",
+      "aliases": [
+        "Aurora (mythology)",
+        "Dawn",
+        "Goddess Aurora"
+      ],
+      "popularity": 77231,
+      "rarity": 0.13,
+      "tier": 1,
+      "wiki": "Aurora (mythology)"
+    },
+    {
+      "name": "Luna",
+      "aliases": [
+        "Luna (goddess)"
+      ],
+      "popularity": 90190,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Luna (goddess)"
+    },
+    {
+      "name": "Terra",
+      "aliases": [
+        "Mother Earth",
+        "Tellus",
+        "Tellus Mater",
+        "Terra Mater",
+        "Terra (mythology)"
+      ],
+      "popularity": 92656,
+      "rarity": 0.12,
+      "tier": 1,
+      "wiki": "Terra (mythology)"
+    },
+    {
+      "name": "Caelus",
+      "aliases": [
+        "Caelum",
+        "Coelus"
+      ],
+      "popularity": 96748,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Caelus"
+    },
+    {
+      "name": "Proserpina",
+      "aliases": [
+        "Cora",
+        "Proserpine"
+      ],
+      "popularity": 97013,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Proserpina"
+    },
+    {
+      "name": "Sol",
+      "aliases": [
+        "Sol (Roman mythology)"
+      ],
+      "popularity": 112521,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Sol (Roman mythology)"
+    },
+    {
+      "name": "Fortuna",
+      "aliases": [
+        "Annnonaria",
+        "Annonaria",
+        "Fors Fortuna",
+        "Lady Fortune",
+        "Lady Luck",
+        "Muliebris",
+        "Primigenia",
+        "Respiciens",
+        "Virilis",
+        "Vortumna"
+      ],
+      "popularity": 112793,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "Fortuna"
+    },
+    {
+      "name": "Vesta",
+      "aliases": [
+        "Veſta",
+        "Vesta (mythology)"
+      ],
+      "popularity": 131808,
+      "rarity": 0.096,
+      "tier": 1,
+      "wiki": "Vesta (mythology)"
+    },
+    {
+      "name": "Ceres",
+      "aliases": [
+        "Ceres (mythology)"
+      ],
+      "popularity": 141092,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Ceres (mythology)"
+    },
+    {
+      "name": "Vulcan",
+      "aliases": [
+        "Hephaestus",
+        "Iūnōnigena",
+        "Junonigena",
+        "Molsiber",
+        "Mulciber",
+        "Volcanus",
+        "Vulcan (mythology)",
+        "Vulcānus"
+      ],
+      "popularity": 159196,
+      "rarity": 0.087,
+      "tier": 1,
+      "wiki": "Vulcan (mythology)"
+    },
+    {
+      "name": "Neptune",
+      "aliases": [
+        "Neptune (mythology)",
+        "Neptunus",
+        "Poseidon"
+      ],
+      "popularity": 162527,
+      "rarity": 0.082,
+      "tier": 1,
+      "wiki": "Neptune (mythology)"
+    },
+    {
+      "name": "Mercury",
+      "aliases": [
+        "Mercurius",
+        "Mercury (mythology)"
+      ],
+      "popularity": 194610,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Mercury (mythology)"
+    },
+    {
+      "name": "Cybele",
+      "aliases": [],
+      "popularity": 209975,
+      "rarity": 0.072,
+      "tier": 1,
+      "wiki": "Cybele"
+    },
+    {
+      "name": "Sol Invictus",
+      "aliases": [],
+      "popularity": 219135,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Sol Invictus"
+    },
+    {
+      "name": "Lady Justice",
+      "aliases": [
+        "Justitia"
+      ],
+      "popularity": 219848,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Lady Justice"
+    },
+    {
+      "name": "Cupid",
+      "aliases": [
+        "Amor",
+        "Amore",
+        "Cupido"
+      ],
+      "popularity": 231387,
+      "rarity": 0.058,
+      "tier": 1,
+      "wiki": "Cupid"
+    },
+    {
+      "name": "Jupiter",
+      "aliases": [
+        "Diespiter",
+        "Dju Pater",
+        "Ioue",
+        "Jove",
+        "Jupiter (god)",
+        "Juppiter"
+      ],
+      "popularity": 240774,
+      "rarity": 0.053,
+      "tier": 1,
+      "wiki": "Jupiter (god)"
+    },
+    {
+      "name": "Mars",
+      "aliases": [
+        "god Mars",
+        "Mars (mythology)",
+        "Roman god Mars"
+      ],
+      "popularity": 242723,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Mars (mythology)"
+    },
+    {
+      "name": "Diana",
+      "aliases": [
+        "Diana (mythology)"
+      ],
+      "popularity": 260684,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Diana (mythology)"
+    },
+    {
+      "name": "Juno",
+      "aliases": [
+        "Iuno",
+        "Juno (mythology)",
+        "Regina"
+      ],
+      "popularity": 273259,
+      "rarity": 0.038,
+      "tier": 1,
+      "wiki": "Juno (mythology)"
+    },
+    {
+      "name": "Janus",
+      "aliases": [
+        "Ianus",
+        "Ianus Bifrons",
+        "Ianus Quadrifrons",
+        "Ianuspater"
+      ],
+      "popularity": 311835,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Janus"
+    },
+    {
+      "name": "Venus",
+      "aliases": [
+        "Venus (mythology)"
+      ],
+      "popularity": 323486,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Venus (mythology)"
+    },
+    {
+      "name": "Minerva",
+      "aliases": [
+        "Menrva"
+      ],
+      "popularity": 339318,
+      "rarity": 0.024,
+      "tier": 1,
+      "wiki": "Minerva"
+    },
+    {
+      "name": "Saturn",
+      "aliases": [
+        "Saturn (mythology)"
+      ],
+      "popularity": 347468,
+      "rarity": 0.019,
+      "tier": 1,
+      "wiki": "Saturn (mythology)"
+    },
+    {
+      "name": "Hercules",
+      "aliases": [],
+      "popularity": 492010,
+      "rarity": 0.014,
+      "tier": 1,
+      "wiki": "Hercules"
+    },
+    {
+      "name": "Gaia",
+      "aliases": [
+        "Gaea"
+      ],
+      "popularity": 503276,
+      "rarity": 0.01,
+      "tier": 1,
+      "wiki": "Gaia"
+    },
+    {
+      "name": "Lucifer",
+      "aliases": [
+        "Eôsphoros",
+        "Hêlēl",
+        "Heosphoros",
+        "Light-Bringer",
+        "Morning Star",
+        "The shining one"
+      ],
+      "popularity": 899056,
+      "rarity": 0.005,
+      "tier": 1,
+      "wiki": "Lucifer"
+    },
+    {
+      "name": "Apollo",
+      "aliases": [
+        "Apeilōn",
+        "Apellōn",
+        "Aploun",
+        "Apollōn",
+        "Phoebus"
+      ],
+      "popularity": 1195472,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Apollo"
+    }
+  ]
+}

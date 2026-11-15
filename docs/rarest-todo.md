@@ -13,4 +13,5 @@ Append-only. One bullet per item. Prefix with your agent id. Do not delete anoth
 
 ## Resolved
 
-- (none yet)
+- **F3-FINAL-QA** — The fixture prompt item is closed. `great-ape-species.json` source is `Wikidata + Wikipedia pageviews (2026-10)`. `package.json` defines `build-prompts`. The catalog is 276 prompts. Guides, about, FAQ, privacy, terms, copyright, and `llms.txt` no longer say that file is a fixture.
+- **F3-FINAL-QA** — `home.faq` no longer says the sample prompt is a fixture. `/faq` still does not render `home.faq`.

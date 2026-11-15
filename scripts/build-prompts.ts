@@ -41,6 +41,7 @@ import {
   tierFor,
   answerMinimum,
 } from './data/prompt-defs';
+import { parseStrangerThingsWikitext, type ListedCharacter } from './data/wikipedia-characters';
 
 const UA = 'RarestAnswerBot/1.0 (contact@rarestanswer.com)';
 const SPARQL_URL = 'https://query.wikidata.org/sparql';
@@ -194,7 +195,26 @@ function wikiFilters(): string {
  * Small VALUES-style sets where Blazegraph's optimizer runs the outer OPTIONALs
  * before the subquery and times out (verified 2026-11-14). Keep written order.
  */
-const FIXED_ORDER = new Set(['great-ape-species', 'commonwealth-members', 'planets-and-dwarf-planets', 'human-chromosomes']);
+const FIXED_ORDER = new Set([
+  'great-ape-species',
+  'commonwealth-members',
+  'planets-and-dwarf-planets',
+  'human-chromosomes',
+  'f1-world-champions',
+  'nba-mvps',
+  'ballon-dor-winners',
+  'heisman-winners',
+  'world-series-mvps',
+  'f1-constructors-champions',
+  'super-bowl-mvps',
+  'super-bowl-coaches',
+  'stanley-cup-coaches',
+  'tour-de-france-winners',
+  'emmy-comedy-series',
+  'lotr-characters',
+  'doctor-who-incarnations',
+  'world-wonders',
+]);
 
 function sparqlFor(def: PromptDef, mode: 'count' | 'full'): string {
   if (!def.where) throw new Error(`${def.slug} has no SPARQL pattern`);
@@ -501,8 +521,117 @@ async function pageviewsFor(project: string, title: string): Promise<number> {
   return views;
 }
 
+interface MediaWikiParse {
+  parse?: {
+    wikitext?: string;
+    sections?: { line?: string }[];
+  };
+}
+
+async function mediaWikiParse(page: string): Promise<MediaWikiParse> {
+  const file = cachePath('wiki-parse', page);
+  const cached = readCache(file);
+  if (cached && typeof cached === 'object' && cached !== null && 'parse' in cached) return cached as MediaWikiParse;
+  const url = `https://en.wikipedia.org/w/api.php?${new URLSearchParams({
+    action: 'parse',
+    page,
+    prop: 'wikitext|sections|links',
+    format: 'json',
+    formatversion: '2',
+    redirects: '1',
+  })}`;
+  const response = await fetchRetry(
+    url,
+    { headers: { Accept: 'application/json', 'User-Agent': UA, 'Api-User-Agent': UA } },
+    40_000,
+  );
+  const text = await response.text();
+  if (!response.ok) throw new Error(`MediaWiki HTTP ${response.status}: ${text.slice(0, 180)}`);
+  const parsed = JSON.parse(text) as MediaWikiParse;
+  if (typeof parsed.parse?.wikitext !== 'string') throw new Error('MediaWiki parse missing wikitext');
+  writeCache(file, parsed);
+  return parsed;
+}
+
+interface ResolvedTitle {
+  title?: string;
+  missing?: boolean;
+}
+
+async function resolveWikiTitles(titles: readonly string[]): Promise<Map<string, string>> {
+  const resolved = new Map<string, string>();
+  const unique = [...new Set(titles.map((title) => title.trim()).filter(Boolean))];
+  for (let index = 0; index < unique.length; index += 40) {
+    const batch = unique.slice(index, index + 40);
+    const file = cachePath('wiki-resolve', batch.join('|'));
+    const cached = readCache(file);
+    let payload: { query?: { normalized?: { from: string; to: string }[]; redirects?: { from: string; to: string }[]; pages?: ResolvedTitle[] } };
+    if (cached && typeof cached === 'object') {
+      payload = cached as typeof payload;
+    } else {
+      const url = `https://en.wikipedia.org/w/api.php?${new URLSearchParams({
+        action: 'query',
+        titles: batch.join('|'),
+        redirects: '1',
+        format: 'json',
+        formatversion: '2',
+      })}`;
+      const response = await fetchRetry(
+        url,
+        { headers: { Accept: 'application/json', 'User-Agent': UA, 'Api-User-Agent': UA } },
+        PAGEVIEW_TIMEOUT_MS,
+      );
+      if (!response.ok) throw new Error(`MediaWiki query HTTP ${response.status}`);
+      payload = (await response.json()) as typeof payload;
+      writeCache(file, payload);
+    }
+    const normalized = new Map((payload.query?.normalized ?? []).map((row) => [row.from, row.to]));
+    const redirects = new Map((payload.query?.redirects ?? []).map((row) => [row.from, row.to]));
+    const pages = new Map((payload.query?.pages ?? []).filter((page) => page.title).map((page) => [page.title as string, page]));
+    for (const requested of batch) {
+      const normalizedTitle = normalized.get(requested) ?? requested;
+      const target = redirects.get(normalizedTitle) ?? normalizedTitle;
+      const page = pages.get(target);
+      if (!page || page.missing || !page.title) continue;
+      if (page.title.startsWith('List of ')) continue;
+      resolved.set(requested, page.title);
+    }
+  }
+  return resolved;
+}
+
+async function wikipediaListDrafts(def: PromptDef): Promise<Draft[]> {
+  const page = def.wikipediaList?.page;
+  if (page !== 'List of Stranger Things characters') {
+    throw new Error(`${def.slug} has no Wikipedia list parser`);
+  }
+  const parsed = await mediaWikiParse(page);
+  const characters = parseStrangerThingsWikitext(parsed.parse?.wikitext ?? '');
+  const titles = characters.flatMap((character) => [character.wiki, character.name].filter((title): title is string => Boolean(title)));
+  const resolved = await resolveWikiTitles(titles);
+  return characters.map((character) => draftFromListed(character, resolved));
+}
+
+function draftFromListed(character: ListedCharacter, resolved: Map<string, string>): Draft {
+  const aliases: string[] = [];
+  const seen = new Set<string>([normalizeKey(character.name)]);
+  for (const alias of character.aliases) pushAlias(aliases, seen, alias, 'alt', false);
+  for (const variant of generatedVariants(character.name)) pushAlias(aliases, seen, variant, 'generated', false);
+  const wiki = (character.wiki ? resolved.get(character.wiki) : undefined) ?? resolved.get(character.name);
+  const draft: Draft = { name: character.name, aliases, popularity: 0 };
+  if (wiki) draft.wiki = wiki;
+  return draft;
+}
+
 async function countDef(def: PromptDef): Promise<CountRow> {
   try {
+    if (def.wikipediaList) {
+      const drafts = await wikipediaListDrafts(def);
+      const count = drafts.length;
+      const status: CountRow['status'] = count >= answerMinimum(def) ? 'ok' : 'low';
+      console.error(`${status.toUpperCase()} ${count} ${def.slug}`);
+      return { slug: def.slug, category: def.category, count, status, detail: drafts.slice(0, 6).map((draft) => draft.name).join(', ') };
+    }
     if (def.lexemeCategory) {
       const payload = await sparql(lexemeSparql(def.lexemeCategory), `lex:${def.slug}`);
       const lemmas = bindingsOf(payload).map((row) => row.lemma?.value ?? '').filter(acceptLemma);
@@ -644,6 +773,11 @@ async function main(): Promise<void> {
   console.error('fetching answer sets');
   const fetched: FetchedPrompt[] = await mapPool(defs, SPARQL_CONCURRENCY, SPARQL_GAP_MS, async (def) => {
     try {
+      if (def.wikipediaList) {
+        const drafts = await wikipediaListDrafts(def);
+        console.error(`wiki-list ${def.slug}: ${drafts.length}`);
+        return { def, drafts };
+      }
       if (def.lexemeCategory) {
         const payload = await sparql(lexemeSparql(def.lexemeCategory), `lex:${def.slug}`);
         const drafts = draftsFromLemmas(bindingsOf(payload).map((row) => row.lemma?.value ?? ''));
@@ -699,6 +833,9 @@ async function main(): Promise<void> {
         aliases: [...draft.aliases],
         popularity: views.get(`${project(row.def)}::${draft.wiki ?? draft.name}`) ?? 0,
       }));
+      if (row.def.wikipediaList) {
+        drafts = drafts.map((draft) => (draft.popularity > 0 ? draft : { ...draft, popularity: 1 }));
+      }
       applyExtraAliases(drafts, row.def.extraAliases);
       drafts = mergeDrafts(drafts);
       if (row.def.lexemeCategory) {

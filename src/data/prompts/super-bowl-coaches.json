@@ -1,0 +1,384 @@
+{
+  "id": "super-bowl-coaches",
+  "slug": "super-bowl-coaches",
+  "category": "sports",
+  "question": "Name a Super Bowl-winning head coach",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Don McCafferty",
+      "aliases": [
+        "Donald William McCafferty"
+      ],
+      "popularity": 14958,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Don McCafferty"
+    },
+    {
+      "name": "Weeb Ewbank",
+      "aliases": [
+        "Wilbur Charles Ewbank"
+      ],
+      "popularity": 42602,
+      "rarity": 0.972,
+      "tier": 6,
+      "wiki": "Weeb Ewbank"
+    },
+    {
+      "name": "Hank Stram",
+      "aliases": [
+        "Henry Louis Stram"
+      ],
+      "popularity": 52006,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Hank Stram"
+    },
+    {
+      "name": "George Seifert",
+      "aliases": [
+        "George Gerald Seifert"
+      ],
+      "popularity": 93154,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "George Seifert"
+    },
+    {
+      "name": "Tom Flores",
+      "aliases": [
+        "Thomas Raymond Flores"
+      ],
+      "popularity": 128275,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Tom Flores"
+    },
+    {
+      "name": "Brian Billick",
+      "aliases": [
+        "Brian Harold Billick"
+      ],
+      "popularity": 132425,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Brian Billick"
+    },
+    {
+      "name": "Bill Walsh",
+      "aliases": [
+        "William Ernest Walsh"
+      ],
+      "popularity": 169483,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Bill Walsh"
+    },
+    {
+      "name": "Mike Holmgren",
+      "aliases": [
+        "Michael George Holmgren",
+        "Michael Holmgren"
+      ],
+      "popularity": 176165,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Mike Holmgren"
+    },
+    {
+      "name": "Tom Coughlin",
+      "aliases": [
+        "Thomas Coughlin",
+        "Thomas Richard Coughlin"
+      ],
+      "popularity": 176551,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Tom Coughlin"
+    },
+    {
+      "name": "Doug Pederson",
+      "aliases": [
+        "Douglas Irving Pederson"
+      ],
+      "popularity": 196642,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Doug Pederson"
+    },
+    {
+      "name": "Dick Vermeil",
+      "aliases": [
+        "Richard Albert Vermeil"
+      ],
+      "popularity": 199073,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Dick Vermeil"
+    },
+    {
+      "name": "Chuck Noll",
+      "aliases": [
+        "Charles Henry Noll"
+      ],
+      "popularity": 213779,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Chuck Noll"
+    },
+    {
+      "name": "Barry Switzer",
+      "aliases": [
+        "Barry Layne Switzer"
+      ],
+      "popularity": 217493,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Barry Switzer"
+    },
+    {
+      "name": "Bruce Arians",
+      "aliases": [],
+      "popularity": 239351,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Bruce Arians"
+    },
+    {
+      "name": "Joe Gibbs",
+      "aliases": [
+        "Joe Jackson Gibbs"
+      ],
+      "popularity": 249175,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Joe Gibbs"
+    },
+    {
+      "name": "Tom Landry",
+      "aliases": [
+        "Thomas Wade Landry"
+      ],
+      "popularity": 265825,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Tom Landry"
+    },
+    {
+      "name": "Tony Dungy",
+      "aliases": [
+        "Anthony Kevin Dungy"
+      ],
+      "popularity": 298891,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Tony Dungy"
+    },
+    {
+      "name": "Don Shula",
+      "aliases": [
+        "Donald Francis Shula"
+      ],
+      "popularity": 339880,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Don Shula"
+    },
+    {
+      "name": "Bill Parcells",
+      "aliases": [],
+      "popularity": 348365,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Bill Parcells"
+    },
+    {
+      "name": "Vince Lombardi",
+      "aliases": [
+        "Vincent Lombardi",
+        "Vincent Thomas Lombardi"
+      ],
+      "popularity": 358628,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Vince Lombardi"
+    },
+    {
+      "name": "Jimmy Johnson",
+      "aliases": [
+        "James William Johnson",
+        "Jimmy Johnson (American football coach)"
+      ],
+      "popularity": 397775,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Jimmy Johnson (American football coach)"
+    },
+    {
+      "name": "Bill Cowher",
+      "aliases": [
+        "William Laird Cowher"
+      ],
+      "popularity": 413782,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Bill Cowher"
+    },
+    {
+      "name": "Nick Sirianni",
+      "aliases": [
+        "Nicholas John Sirianni"
+      ],
+      "popularity": 486421,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Nick Sirianni"
+    },
+    {
+      "name": "Mike Shanahan",
+      "aliases": [
+        "Michael Edward Shanahan"
+      ],
+      "popularity": 520423,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Mike Shanahan"
+    },
+    {
+      "name": "Gary Kubiak",
+      "aliases": [
+        "Gary Wayne Kubiak"
+      ],
+      "popularity": 536929,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Gary Kubiak"
+    },
+    {
+      "name": "Mike Ditka",
+      "aliases": [
+        "Iron Mike",
+        "Michael Ditka",
+        "Michael Dyczko",
+        "Michael Keller Ditka"
+      ],
+      "popularity": 574502,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Mike Ditka"
+    },
+    {
+      "name": "Jon Gruden",
+      "aliases": [
+        "John Gruden",
+        "Jon David Gruden"
+      ],
+      "popularity": 650625,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "Jon Gruden"
+    },
+    {
+      "name": "Andy Reid",
+      "aliases": [],
+      "popularity": 720398,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Andy Reid"
+    },
+    {
+      "name": "Sean Payton",
+      "aliases": [
+        "Patrick Sean Payton",
+        "Sean Patrick Payton"
+      ],
+      "popularity": 823444,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Sean Payton"
+    },
+    {
+      "name": "Pete Carroll",
+      "aliases": [
+        "Peter Clay Carroll"
+      ],
+      "popularity": 876156,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Pete Carroll"
+    },
+    {
+      "name": "John Madden",
+      "aliases": [
+        "John Earl Madden"
+      ],
+      "popularity": 906932,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "John Madden"
+    },
+    {
+      "name": "Sean McVay",
+      "aliases": [],
+      "popularity": 1034685,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Sean McVay"
+    },
+    {
+      "name": "Mike McCarthy",
+      "aliases": [
+        "Michael John McCarthy"
+      ],
+      "popularity": 1187073,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Mike McCarthy"
+    },
+    {
+      "name": "Bill Belichick",
+      "aliases": [
+        "The Hoodie",
+        "William Stephen Belichick"
+      ],
+      "popularity": 1405851,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Bill Belichick"
+    },
+    {
+      "name": "John Harbaugh",
+      "aliases": [
+        "John W. Harbaugh",
+        "John William Harbaugh"
+      ],
+      "popularity": 1632006,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "John Harbaugh"
+    },
+    {
+      "name": "Mike Tomlin",
+      "aliases": [
+        "Michael Pettaway Tomlin",
+        "Michael Tomlin"
+      ],
+      "popularity": 1675689,
+      "rarity": 0.028,
+      "tier": 1,
+      "wiki": "Mike Tomlin"
+    },
+    {
+      "name": "Mike Macdonald",
+      "aliases": [
+        "Michael Hugh Macdonald",
+        "Michael Macdonald"
+      ],
+      "popularity": 2009026,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Mike Macdonald"
+    }
+  ]
+}

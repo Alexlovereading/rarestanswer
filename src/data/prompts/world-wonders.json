@@ -1,0 +1,232 @@
+{
+  "id": "world-wonders",
+  "slug": "world-wonders",
+  "category": "history",
+  "question": "Name a wonder of the ancient world, the New 7 Wonders, or the New 7 Wonders of Nature",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Jeju Volcanic Island and Lava Tubes",
+      "aliases": [],
+      "popularity": 13851,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Jeju Volcanic Island and Lava Tubes"
+    },
+    {
+      "name": "Puerto Princesa Subterranean River National Park",
+      "aliases": [],
+      "popularity": 29665,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Puerto Princesa Subterranean River National Park"
+    },
+    {
+      "name": "Komodo",
+      "aliases": [
+        "Komodo (island)",
+        "Pulau Komodo"
+      ],
+      "popularity": 90702,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "Komodo (island)"
+    },
+    {
+      "name": "Table Mountain",
+      "aliases": [],
+      "popularity": 131299,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Table Mountain"
+    },
+    {
+      "name": "Hạ Long Bay",
+      "aliases": [],
+      "popularity": 134795,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Hạ Long Bay"
+    },
+    {
+      "name": "Iguazu Falls",
+      "aliases": [
+        "Iguaçu Falls"
+      ],
+      "popularity": 288595,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Iguazu Falls"
+    },
+    {
+      "name": "Statue of Zeus at Olympia",
+      "aliases": [],
+      "popularity": 315585,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Statue of Zeus at Olympia"
+    },
+    {
+      "name": "Mausoleum at Halicarnassus",
+      "aliases": [
+        "Mausoleion",
+        "Mausoleon",
+        "Mausoleum",
+        "the Mausoleum",
+        "Tomb of Mausolus"
+      ],
+      "popularity": 352667,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Mausoleum at Halicarnassus"
+    },
+    {
+      "name": "Temple of Artemis",
+      "aliases": [
+        "Temple of Artemis at Ephesus",
+        "Temple of Ephesian Artemis"
+      ],
+      "popularity": 434781,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Temple of Artemis"
+    },
+    {
+      "name": "Lighthouse of Alexandria",
+      "aliases": [
+        "Alexandria Lighthouse",
+        "Pharos of Alexandria"
+      ],
+      "popularity": 440075,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "Lighthouse of Alexandria"
+    },
+    {
+      "name": "Chichen Itza",
+      "aliases": [],
+      "popularity": 577907,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Chichen Itza"
+    },
+    {
+      "name": "Colossus of Rhodes",
+      "aliases": [],
+      "popularity": 600442,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Colossus of Rhodes"
+    },
+    {
+      "name": "Hanging Gardens of Babylon",
+      "aliases": [
+        "The Hanging Gardens of Babylon"
+      ],
+      "popularity": 607727,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Hanging Gardens of Babylon"
+    },
+    {
+      "name": "Amazon rainforest",
+      "aliases": [
+        "Amazon forest",
+        "Amazon rain forest",
+        "Amazonas",
+        "Amazonia",
+        "Amazonian rain forest",
+        "Amazonian rainforest",
+        "Amazons",
+        "Brazilian Amazon"
+      ],
+      "popularity": 657711,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Amazon rainforest"
+    },
+    {
+      "name": "Christ the Redeemer",
+      "aliases": [
+        "Christ the Redeemer (statue)"
+      ],
+      "popularity": 693323,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Christ the Redeemer (statue)"
+    },
+    {
+      "name": "Petra",
+      "aliases": [
+        "Mint of Petra"
+      ],
+      "popularity": 837739,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Petra"
+    },
+    {
+      "name": "Great Pyramid of Giza",
+      "aliases": [
+        "Pyramid of Cheops",
+        "Pyramid of Khufu"
+      ],
+      "popularity": 990686,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Great Pyramid of Giza"
+    },
+    {
+      "name": "Colosseum",
+      "aliases": [
+        "Coliseum",
+        "Flavian Amphitheater",
+        "Flavian Amphitheatre",
+        "Flavius amphitheatre",
+        "Roman Coliseum",
+        "Roman Colosseum",
+        "the Colosseum"
+      ],
+      "popularity": 1105999,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Colosseum"
+    },
+    {
+      "name": "Machu Picchu",
+      "aliases": [
+        "Huayna Picchu",
+        "Wayna Picchu"
+      ],
+      "popularity": 1127885,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Machu Picchu"
+    },
+    {
+      "name": "Great Wall of China",
+      "aliases": [
+        "Changcheng",
+        "Chinese Wall",
+        "Great Wall",
+        "The Great Wall of China",
+        "Wanli Changcheng"
+      ],
+      "popularity": 1296943,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "Great Wall of China"
+    },
+    {
+      "name": "Taj Mahal",
+      "aliases": [
+        "Crown of the Palace",
+        "the Taj Mahal"
+      ],
+      "popularity": 1437546,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Taj Mahal"
+    }
+  ]
+}

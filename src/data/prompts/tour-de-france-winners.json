@@ -1,0 +1,578 @@
+{
+  "id": "tour-de-france-winners",
+  "slug": "tour-de-france-winners",
+  "category": "sports",
+  "question": "Name a winner of the Tour de France",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Léon Scieur",
+      "aliases": [],
+      "popularity": 957,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Léon Scieur"
+    },
+    {
+      "name": "Romain Maes",
+      "aliases": [],
+      "popularity": 1308,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Romain Maes"
+    },
+    {
+      "name": "Maurice De Waele",
+      "aliases": [],
+      "popularity": 1313,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Maurice De Waele"
+    },
+    {
+      "name": "Roger Lapébie",
+      "aliases": [],
+      "popularity": 1337,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Roger Lapébie"
+    },
+    {
+      "name": "Georges Speicher",
+      "aliases": [],
+      "popularity": 1355,
+      "rarity": 0.937,
+      "tier": 6,
+      "wiki": "Georges Speicher"
+    },
+    {
+      "name": "Odile Defraye",
+      "aliases": [
+        "Odiel Defraeye"
+      ],
+      "popularity": 1585,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Odile Defraye"
+    },
+    {
+      "name": "Gustave Garrigou",
+      "aliases": [
+        "Cyprien Gustave Garrigou"
+      ],
+      "popularity": 1675,
+      "rarity": 0.905,
+      "tier": 5,
+      "wiki": "Gustave Garrigou"
+    },
+    {
+      "name": "Louis Trousselier",
+      "aliases": [],
+      "popularity": 1877,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Louis Trousselier"
+    },
+    {
+      "name": "Roger Pingeon",
+      "aliases": [],
+      "popularity": 2260,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Roger Pingeon"
+    },
+    {
+      "name": "Firmin Lambot",
+      "aliases": [],
+      "popularity": 2359,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Firmin Lambot"
+    },
+    {
+      "name": "Lucien Buysse",
+      "aliases": [],
+      "popularity": 2364,
+      "rarity": 0.841,
+      "tier": 5,
+      "wiki": "Lucien Buysse"
+    },
+    {
+      "name": "Sylvère Maes",
+      "aliases": [],
+      "popularity": 2390,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Sylvère Maes"
+    },
+    {
+      "name": "Roger Walkowiak",
+      "aliases": [],
+      "popularity": 2631,
+      "rarity": 0.81,
+      "tier": 5,
+      "wiki": "Roger Walkowiak"
+    },
+    {
+      "name": "Lucien Aimar",
+      "aliases": [],
+      "popularity": 2634,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Lucien Aimar"
+    },
+    {
+      "name": "Ferdinand Kübler",
+      "aliases": [
+        "Ferdi Kübler",
+        "Ferdinand Kuebler",
+        "Ferdy Kübler"
+      ],
+      "popularity": 2905,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Ferdinand Kübler"
+    },
+    {
+      "name": "René Pottier",
+      "aliases": [],
+      "popularity": 3163,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "René Pottier"
+    },
+    {
+      "name": "Nicolas Frantz",
+      "aliases": [],
+      "popularity": 3299,
+      "rarity": 0.746,
+      "tier": 4,
+      "wiki": "Nicolas Frantz"
+    },
+    {
+      "name": "Lucien Petit-Breton",
+      "aliases": [
+        "Lucien Georges Mazan"
+      ],
+      "popularity": 3368,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Lucien Petit-Breton"
+    },
+    {
+      "name": "Hugo Koblet",
+      "aliases": [],
+      "popularity": 3692,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Hugo Koblet"
+    },
+    {
+      "name": "Octave Lapize",
+      "aliases": [],
+      "popularity": 3716,
+      "rarity": 0.698,
+      "tier": 4,
+      "wiki": "Octave Lapize"
+    },
+    {
+      "name": "Henri Cornet",
+      "aliases": [
+        "Henri Auguste François Jardry",
+        "La rigolo"
+      ],
+      "popularity": 3813,
+      "rarity": 0.683,
+      "tier": 4,
+      "wiki": "Henri Cornet"
+    },
+    {
+      "name": "Gastone Nencini",
+      "aliases": [],
+      "popularity": 3972,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Gastone Nencini"
+    },
+    {
+      "name": "Henri Pélissier",
+      "aliases": [],
+      "popularity": 4100,
+      "rarity": 0.651,
+      "tier": 4,
+      "wiki": "Henri Pélissier"
+    },
+    {
+      "name": "Philippe Thys",
+      "aliases": [
+        "Philippe Thys (cyclist)"
+      ],
+      "popularity": 4157,
+      "rarity": 0.635,
+      "tier": 4,
+      "wiki": "Philippe Thys (cyclist)"
+    },
+    {
+      "name": "François Faber",
+      "aliases": [],
+      "popularity": 4284,
+      "rarity": 0.619,
+      "tier": 4,
+      "wiki": "François Faber"
+    },
+    {
+      "name": "Jean Robic",
+      "aliases": [],
+      "popularity": 4390,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "Jean Robic"
+    },
+    {
+      "name": "Antonin Magne",
+      "aliases": [],
+      "popularity": 5736,
+      "rarity": 0.587,
+      "tier": 3,
+      "wiki": "Antonin Magne"
+    },
+    {
+      "name": "Ottavio Bottecchia",
+      "aliases": [],
+      "popularity": 6354,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Ottavio Bottecchia"
+    },
+    {
+      "name": "Jan Janssen",
+      "aliases": [],
+      "popularity": 6428,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Jan Janssen"
+    },
+    {
+      "name": "Bernard Thévenet",
+      "aliases": [],
+      "popularity": 6669,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Bernard Thévenet"
+    },
+    {
+      "name": "Federico Bahamontes",
+      "aliases": [
+        "Bahamontes",
+        "Federico Martín Bahamontes",
+        "The Eagle of Toledo"
+      ],
+      "popularity": 7079,
+      "rarity": 0.524,
+      "tier": 3,
+      "wiki": "Federico Bahamontes"
+    },
+    {
+      "name": "Lucien Van Impe",
+      "aliases": [],
+      "popularity": 7081,
+      "rarity": 0.508,
+      "tier": 3,
+      "wiki": "Lucien Van Impe"
+    },
+    {
+      "name": "Charly Gaul",
+      "aliases": [],
+      "popularity": 7407,
+      "rarity": 0.492,
+      "tier": 3,
+      "wiki": "Charly Gaul"
+    },
+    {
+      "name": "Louison Bobet",
+      "aliases": [],
+      "popularity": 7877,
+      "rarity": 0.476,
+      "tier": 3,
+      "wiki": "Louison Bobet"
+    },
+    {
+      "name": "Pedro Delgado",
+      "aliases": [],
+      "popularity": 11061,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Pedro Delgado"
+    },
+    {
+      "name": "Luis Ocaña",
+      "aliases": [],
+      "popularity": 11330,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Luis Ocaña"
+    },
+    {
+      "name": "Felice Gimondi",
+      "aliases": [],
+      "popularity": 11430,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Felice Gimondi"
+    },
+    {
+      "name": "André Leducq",
+      "aliases": [],
+      "popularity": 11435,
+      "rarity": 0.413,
+      "tier": 3,
+      "wiki": "André Leducq"
+    },
+    {
+      "name": "Carlos Sastre",
+      "aliases": [
+        "Carlos Sastre Candil"
+      ],
+      "popularity": 15053,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Carlos Sastre"
+    },
+    {
+      "name": "Óscar Pereiro",
+      "aliases": [],
+      "popularity": 15927,
+      "rarity": 0.381,
+      "tier": 2,
+      "wiki": "Óscar Pereiro"
+    },
+    {
+      "name": "Joop Zoetemelk",
+      "aliases": [
+        "Hendrik Gerardus Joseph Zoetemelk",
+        "Zoetemelk"
+      ],
+      "popularity": 16462,
+      "rarity": 0.365,
+      "tier": 2,
+      "wiki": "Joop Zoetemelk"
+    },
+    {
+      "name": "Bjarne Riis",
+      "aliases": [],
+      "popularity": 18736,
+      "rarity": 0.349,
+      "tier": 2,
+      "wiki": "Bjarne Riis"
+    },
+    {
+      "name": "Maurice Garin",
+      "aliases": [
+        "Maurice-Francois Garin"
+      ],
+      "popularity": 22786,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Maurice Garin"
+    },
+    {
+      "name": "Andy Schleck",
+      "aliases": [
+        "Andy Torticollis"
+      ],
+      "popularity": 34445,
+      "rarity": 0.317,
+      "tier": 2,
+      "wiki": "Andy Schleck"
+    },
+    {
+      "name": "Fausto Coppi",
+      "aliases": [
+        "Angelo Fausto Coppi"
+      ],
+      "popularity": 36235,
+      "rarity": 0.302,
+      "tier": 2,
+      "wiki": "Fausto Coppi"
+    },
+    {
+      "name": "Vincenzo Nibali",
+      "aliases": [
+        "Lo Squalo"
+      ],
+      "popularity": 36823,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Vincenzo Nibali"
+    },
+    {
+      "name": "Laurent Fignon",
+      "aliases": [
+        "Laurent Patrick Fignon"
+      ],
+      "popularity": 38060,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Laurent Fignon"
+    },
+    {
+      "name": "Stephen Roche",
+      "aliases": [],
+      "popularity": 38067,
+      "rarity": 0.254,
+      "tier": 2,
+      "wiki": "Stephen Roche"
+    },
+    {
+      "name": "Jacques Anquetil",
+      "aliases": [],
+      "popularity": 47775,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Jacques Anquetil"
+    },
+    {
+      "name": "Gino Bartali",
+      "aliases": [],
+      "popularity": 52977,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Gino Bartali"
+    },
+    {
+      "name": "Cadel Evans",
+      "aliases": [
+        "Cadel Lee Evans",
+        "carroñas"
+      ],
+      "popularity": 58502,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Cadel Evans"
+    },
+    {
+      "name": "Geraint Thomas",
+      "aliases": [
+        "Geraint Howell Thomas"
+      ],
+      "popularity": 70644,
+      "rarity": 0.19,
+      "tier": 1,
+      "wiki": "Geraint Thomas"
+    },
+    {
+      "name": "Jan Ullrich",
+      "aliases": [],
+      "popularity": 74727,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Jan Ullrich"
+    },
+    {
+      "name": "Alberto Contador",
+      "aliases": [
+        "El Pistolero"
+      ],
+      "popularity": 76710,
+      "rarity": 0.159,
+      "tier": 1,
+      "wiki": "Alberto Contador"
+    },
+    {
+      "name": "Bernard Hinault",
+      "aliases": [],
+      "popularity": 77285,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Bernard Hinault"
+    },
+    {
+      "name": "Egan Bernal",
+      "aliases": [],
+      "popularity": 80120,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Egan Bernal"
+    },
+    {
+      "name": "Miguel Induráin",
+      "aliases": [],
+      "popularity": 90310,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Miguel Induráin"
+    },
+    {
+      "name": "Marco Pantani",
+      "aliases": [],
+      "popularity": 101691,
+      "rarity": 0.095,
+      "tier": 1,
+      "wiki": "Marco Pantani"
+    },
+    {
+      "name": "Greg LeMond",
+      "aliases": [
+        "Gregory James LeMond"
+      ],
+      "popularity": 123303,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Greg LeMond"
+    },
+    {
+      "name": "Bradley Wiggins",
+      "aliases": [
+        "Brad Wiggins",
+        "Bradley Marc Wiggins",
+        "Sir Bradley Marc Wiggins",
+        "Sir Bradley Wiggins",
+        "Wiggo"
+      ],
+      "popularity": 139818,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Bradley Wiggins"
+    },
+    {
+      "name": "Chris Froome",
+      "aliases": [
+        "Christopher Clive Froome",
+        "Christopher Froome",
+        "Froomey"
+      ],
+      "popularity": 150049,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Chris Froome"
+    },
+    {
+      "name": "Eddy Merckx",
+      "aliases": [],
+      "popularity": 220986,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Eddy Merckx"
+    },
+    {
+      "name": "Jonas Vingegaard",
+      "aliases": [
+        "Jonas Vingegaard Rasmussen"
+      ],
+      "popularity": 342836,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Jonas Vingegaard"
+    },
+    {
+      "name": "Tadej Pogačar",
+      "aliases": [
+        "Pogi"
+      ],
+      "popularity": 1053330,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Tadej Pogačar"
+    }
+  ]
+}

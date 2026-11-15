@@ -1,0 +1,167 @@
+{
+  "id": "planets-and-dwarf-planets",
+  "slug": "planets-and-dwarf-planets",
+  "category": "science",
+  "question": "Name a planet or dwarf planet",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Haumea",
+      "aliases": [
+        "136108 Haumea",
+        "2003 EL61",
+        "K40506A"
+      ],
+      "popularity": 214519,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Haumea"
+    },
+    {
+      "name": "Makemake",
+      "aliases": [
+        "136472 Makemake",
+        "2005 FY9",
+        "Maha-Maha",
+        "Make-Make"
+      ],
+      "popularity": 264240,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Makemake"
+    },
+    {
+      "name": "Eris",
+      "aliases": [
+        "Eris (dwarf planet)",
+        "Sol k",
+        "Xena"
+      ],
+      "popularity": 401043,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Eris (dwarf planet)"
+    },
+    {
+      "name": "Ceres",
+      "aliases": [
+        "1 Ceres",
+        "Ceres (dwarf planet)"
+      ],
+      "popularity": 548287,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Ceres (dwarf planet)"
+    },
+    {
+      "name": "Uranus",
+      "aliases": [
+        "34 Tauri",
+        "Bulls-eye planet",
+        "Georgium Sidus",
+        "Planet Uranus",
+        "Sol 7",
+        "Sol h",
+        "Sol VII",
+        "the Georgian Planet"
+      ],
+      "popularity": 779368,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Uranus"
+    },
+    {
+      "name": "Mercury",
+      "aliases": [
+        "Hermes",
+        "Mercury (planet)",
+        "Planet Mercury",
+        "Sol 1",
+        "Sol b",
+        "Sol I"
+      ],
+      "popularity": 904572,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Mercury (planet)"
+    },
+    {
+      "name": "Neptune",
+      "aliases": [
+        "Sol 8",
+        "Sol VIII"
+      ],
+      "popularity": 925104,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Neptune"
+    },
+    {
+      "name": "Pluto",
+      "aliases": [
+        "Sol j"
+      ],
+      "popularity": 1091610,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Pluto"
+    },
+    {
+      "name": "Venus",
+      "aliases": [
+        "Planet Venus"
+      ],
+      "popularity": 1145229,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Venus"
+    },
+    {
+      "name": "Mars",
+      "aliases": [
+        "Planet Mars",
+        "Red Planet"
+      ],
+      "popularity": 1153116,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Mars"
+    },
+    {
+      "name": "Saturn",
+      "aliases": [
+        "Sol 6",
+        "Sol VI"
+      ],
+      "popularity": 1169552,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Saturn"
+    },
+    {
+      "name": "Jupiter",
+      "aliases": [
+        "Planet Jupiter",
+        "Sol 5",
+        "Sol V"
+      ],
+      "popularity": 1478255,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Jupiter"
+    },
+    {
+      "name": "Earth",
+      "aliases": [
+        "Mother Earth",
+        "Planet Earth",
+        "The Blue Planet",
+        "The Earth"
+      ],
+      "popularity": 3129814,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Earth"
+    }
+  ]
+}

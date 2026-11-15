@@ -1,0 +1,815 @@
+{
+  "id": "best-supporting-actor-winners",
+  "slug": "best-supporting-actor-winners",
+  "category": "screen",
+  "question": "Name a winner of the Academy Award for Best Supporting Actor",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "James Dunn",
+      "aliases": [
+        "James Dunn (actor)",
+        "Jimmy Dunn"
+      ],
+      "popularity": 33516,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "James Dunn (actor)"
+    },
+    {
+      "name": "Joseph Schildkraut",
+      "aliases": [],
+      "popularity": 51442,
+      "rarity": 0.988,
+      "tier": 6,
+      "wiki": "Joseph Schildkraut"
+    },
+    {
+      "name": "Donald Crisp",
+      "aliases": [],
+      "popularity": 82997,
+      "rarity": 0.975,
+      "tier": 6,
+      "wiki": "Donald Crisp"
+    },
+    {
+      "name": "Barry Fitzgerald",
+      "aliases": [
+        "William Joseph Shields"
+      ],
+      "popularity": 91404,
+      "rarity": 0.963,
+      "tier": 6,
+      "wiki": "Barry Fitzgerald"
+    },
+    {
+      "name": "Hugh Griffith",
+      "aliases": [
+        "Hugh Emrys Griffith"
+      ],
+      "popularity": 98526,
+      "rarity": 0.95,
+      "tier": 6,
+      "wiki": "Hugh Griffith"
+    },
+    {
+      "name": "Charles Coburn",
+      "aliases": [
+        "Charles Douville Coburn"
+      ],
+      "popularity": 105684,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Charles Coburn"
+    },
+    {
+      "name": "Edmund Gwenn",
+      "aliases": [
+        "Edmund Kellaway"
+      ],
+      "popularity": 127702,
+      "rarity": 0.925,
+      "tier": 5,
+      "wiki": "Edmund Gwenn"
+    },
+    {
+      "name": "Harold Russell",
+      "aliases": [
+        "Harold John Avery Russell"
+      ],
+      "popularity": 132297,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "Harold Russell"
+    },
+    {
+      "name": "John Houseman",
+      "aliases": [],
+      "popularity": 168459,
+      "rarity": 0.9,
+      "tier": 5,
+      "wiki": "John Houseman"
+    },
+    {
+      "name": "Edmond O'Brien",
+      "aliases": [],
+      "popularity": 170709,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Edmond O'Brien"
+    },
+    {
+      "name": "Van Heflin",
+      "aliases": [
+        "Emmett Evan Heflin",
+        "Emmett Evan Heflin Jr."
+      ],
+      "popularity": 176529,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "Van Heflin"
+    },
+    {
+      "name": "Melvyn Douglas",
+      "aliases": [
+        "Melvyn Edouard Hesselberg"
+      ],
+      "popularity": 180739,
+      "rarity": 0.863,
+      "tier": 5,
+      "wiki": "Melvyn Douglas"
+    },
+    {
+      "name": "Thomas Mitchell",
+      "aliases": [
+        "Thomas Mitchell (actor)"
+      ],
+      "popularity": 190619,
+      "rarity": 0.85,
+      "tier": 5,
+      "wiki": "Thomas Mitchell (actor)"
+    },
+    {
+      "name": "Walter Huston",
+      "aliases": [
+        "Walter Thomas Huston"
+      ],
+      "popularity": 194716,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Walter Huston"
+    },
+    {
+      "name": "Dean Jagger",
+      "aliases": [
+        "Dean Jeffries",
+        "Dean Jeffries Jagger",
+        "Ira Dean Jagger",
+        "Ira Hope"
+      ],
+      "popularity": 205476,
+      "rarity": 0.825,
+      "tier": 5,
+      "wiki": "Dean Jagger"
+    },
+    {
+      "name": "Red Buttons",
+      "aliases": [
+        "Aaron Chwatt"
+      ],
+      "popularity": 213150,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Red Buttons"
+    },
+    {
+      "name": "Haing S. Ngor",
+      "aliases": [
+        "Haing Somnang Ngor"
+      ],
+      "popularity": 222802,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Haing S. Ngor"
+    },
+    {
+      "name": "Ed Begley",
+      "aliases": [
+        "Edward James Begley",
+        "Edward James Begley Sr."
+      ],
+      "popularity": 223276,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Ed Begley"
+    },
+    {
+      "name": "George Chakiris",
+      "aliases": [
+        "George Kerris"
+      ],
+      "popularity": 232506,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "George Chakiris"
+    },
+    {
+      "name": "Karl Malden",
+      "aliases": [
+        "Mladen George Sekulovich"
+      ],
+      "popularity": 306615,
+      "rarity": 0.762,
+      "tier": 4,
+      "wiki": "Karl Malden"
+    },
+    {
+      "name": "Ben Johnson",
+      "aliases": [
+        "Ben Johnson (actor)",
+        "Francis Benjamin Johnson"
+      ],
+      "popularity": 306978,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Ben Johnson (actor)"
+    },
+    {
+      "name": "Jack Albertson",
+      "aliases": [
+        "Harold Albertson"
+      ],
+      "popularity": 323357,
+      "rarity": 0.738,
+      "tier": 4,
+      "wiki": "Jack Albertson"
+    },
+    {
+      "name": "Don Ameche",
+      "aliases": [
+        "Dominic Felix Amici"
+      ],
+      "popularity": 338661,
+      "rarity": 0.725,
+      "tier": 4,
+      "wiki": "Don Ameche"
+    },
+    {
+      "name": "John Gielgud",
+      "aliases": [
+        "John Gielguld",
+        "Sir John Gielgud"
+      ],
+      "popularity": 342027,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "John Gielgud"
+    },
+    {
+      "name": "Martin Balsam",
+      "aliases": [],
+      "popularity": 347026,
+      "rarity": 0.7,
+      "tier": 4,
+      "wiki": "Martin Balsam"
+    },
+    {
+      "name": "Burl Ives",
+      "aliases": [
+        "Burl Icle Ivanhoe Ives"
+      ],
+      "popularity": 353342,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Burl Ives"
+    },
+    {
+      "name": "John Mills",
+      "aliases": [
+        "Lewis Ernest Watts Mills",
+        "Sir John Mills"
+      ],
+      "popularity": 355202,
+      "rarity": 0.675,
+      "tier": 4,
+      "wiki": "John Mills"
+    },
+    {
+      "name": "Walter Brennan",
+      "aliases": [
+        "Walter Andrew Brennan"
+      ],
+      "popularity": 368626,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Walter Brennan"
+    },
+    {
+      "name": "Gig Young",
+      "aliases": [
+        "Byron Barr"
+      ],
+      "popularity": 369595,
+      "rarity": 0.65,
+      "tier": 4,
+      "wiki": "Gig Young"
+    },
+    {
+      "name": "Troy Kotsur",
+      "aliases": [
+        "Troy Michael Kotsur"
+      ],
+      "popularity": 398839,
+      "rarity": 0.637,
+      "tier": 4,
+      "wiki": "Troy Kotsur"
+    },
+    {
+      "name": "Joel Grey",
+      "aliases": [
+        "Joel David Katz",
+        "Joel Katz",
+        "Joel Kaye"
+      ],
+      "popularity": 404510,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Joel Grey"
+    },
+    {
+      "name": "George Sanders",
+      "aliases": [],
+      "popularity": 416122,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "George Sanders"
+    },
+    {
+      "name": "Jack Palance",
+      "aliases": [
+        "Jack Brazzo",
+        "Volodymyr Palahniuk",
+        "Walter J. Palance",
+        "Walter Jack Palance",
+        "Walter Palance"
+      ],
+      "popularity": 463853,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Jack Palance"
+    },
+    {
+      "name": "Louis Gossett Jr.",
+      "aliases": [
+        "Lou Gossett",
+        "Louis C. Gossett Jr.",
+        "Louis Cameron Gossett Jr.",
+        "Louis Gossett"
+      ],
+      "popularity": 468943,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Louis Gossett Jr."
+    },
+    {
+      "name": "Peter Ustinov",
+      "aliases": [
+        "Peter Alexander Ustinov",
+        "Sir Peter Alexander Ustinov",
+        "Sir Peter Alexander von Ustinov"
+      ],
+      "popularity": 471929,
+      "rarity": 0.575,
+      "tier": 3,
+      "wiki": "Peter Ustinov"
+    },
+    {
+      "name": "Martin Landau",
+      "aliases": [
+        "Martin James Landau"
+      ],
+      "popularity": 497363,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Martin Landau"
+    },
+    {
+      "name": "George Kennedy",
+      "aliases": [
+        "George Harris Kennedy"
+      ],
+      "popularity": 509943,
+      "rarity": 0.55,
+      "tier": 3,
+      "wiki": "George Kennedy"
+    },
+    {
+      "name": "Jason Robards",
+      "aliases": [],
+      "popularity": 551972,
+      "rarity": 0.537,
+      "tier": 3,
+      "wiki": "Jason Robards"
+    },
+    {
+      "name": "George Burns",
+      "aliases": [
+        "George N. Burns"
+      ],
+      "popularity": 594417,
+      "rarity": 0.525,
+      "tier": 3,
+      "wiki": "George Burns"
+    },
+    {
+      "name": "Mark Rylance",
+      "aliases": [
+        "David Mark Rylance Waters",
+        "Sir David Mark Rylance Waters",
+        "Sir Mark Rylance"
+      ],
+      "popularity": 655767,
+      "rarity": 0.512,
+      "tier": 3,
+      "wiki": "Mark Rylance"
+    },
+    {
+      "name": "James Coburn",
+      "aliases": [],
+      "popularity": 662730,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "James Coburn"
+    },
+    {
+      "name": "Walter Matthau",
+      "aliases": [
+        "Walter John Matthow",
+        "Walter Matthow"
+      ],
+      "popularity": 663617,
+      "rarity": 0.488,
+      "tier": 3,
+      "wiki": "Walter Matthau"
+    },
+    {
+      "name": "Chris Cooper",
+      "aliases": [
+        "Christopher W. \"Chris\" Cooper",
+        "Christopher W. Cooper",
+        "Christopher Walton \"Chris\" Cooper",
+        "Coop"
+      ],
+      "popularity": 688317,
+      "rarity": 0.475,
+      "tier": 3,
+      "wiki": "Chris Cooper"
+    },
+    {
+      "name": "Anthony Quinn",
+      "aliases": [
+        "Manuel Antonio Rodolfo Quinn Pallares"
+      ],
+      "popularity": 690910,
+      "rarity": 0.463,
+      "tier": 3,
+      "wiki": "Anthony Quinn"
+    },
+    {
+      "name": "Timothy Hutton",
+      "aliases": [
+        "Timothy Tarquin Hutton"
+      ],
+      "popularity": 696835,
+      "rarity": 0.45,
+      "tier": 3,
+      "wiki": "Timothy Hutton"
+    },
+    {
+      "name": "Jim Broadbent",
+      "aliases": [
+        "James \"Jim\" Broadbent"
+      ],
+      "popularity": 698281,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Jim Broadbent"
+    },
+    {
+      "name": "Alan Arkin",
+      "aliases": [],
+      "popularity": 778721,
+      "rarity": 0.425,
+      "tier": 3,
+      "wiki": "Alan Arkin"
+    },
+    {
+      "name": "Jack Lemmon",
+      "aliases": [
+        "John Lemmon",
+        "John Uhler Lemmon"
+      ],
+      "popularity": 817580,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Jack Lemmon"
+    },
+    {
+      "name": "Daniel Kaluuya",
+      "aliases": [],
+      "popularity": 836183,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Daniel Kaluuya"
+    },
+    {
+      "name": "Kevin Kline",
+      "aliases": [],
+      "popularity": 1049279,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Kevin Kline"
+    },
+    {
+      "name": "Cuba Gooding Jr.",
+      "aliases": [
+        "Cuba M. Gooding Jr."
+      ],
+      "popularity": 1052001,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Cuba Gooding Jr."
+    },
+    {
+      "name": "Mahershala Ali",
+      "aliases": [
+        "Mahershala Gilmore",
+        "Mahershalalhashbaz Ali",
+        "Mahershalalhashbaz Gilmore"
+      ],
+      "popularity": 1379858,
+      "rarity": 0.363,
+      "tier": 2,
+      "wiki": "Mahershala Ali"
+    },
+    {
+      "name": "Ke Huy Quan",
+      "aliases": [
+        "Jonathan Ke Quan",
+        "Jonathan Luke Ke Huy Quan"
+      ],
+      "popularity": 1402008,
+      "rarity": 0.35,
+      "tier": 2,
+      "wiki": "Ke Huy Quan"
+    },
+    {
+      "name": "Tim Robbins",
+      "aliases": [
+        "Timothy Francis Robbins"
+      ],
+      "popularity": 1484652,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Tim Robbins"
+    },
+    {
+      "name": "Christopher Plummer",
+      "aliases": [
+        "Arthur Christopher Orme Plummer"
+      ],
+      "popularity": 1510820,
+      "rarity": 0.325,
+      "tier": 2,
+      "wiki": "Christopher Plummer"
+    },
+    {
+      "name": "Joe Pesci",
+      "aliases": [
+        "Joseph Frank \"Joe\" Pesci",
+        "Joseph Pesci"
+      ],
+      "popularity": 1617992,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Joe Pesci"
+    },
+    {
+      "name": "Christopher Walken",
+      "aliases": [
+        "Ronald Walken"
+      ],
+      "popularity": 1652418,
+      "rarity": 0.3,
+      "tier": 2,
+      "wiki": "Christopher Walken"
+    },
+    {
+      "name": "J. K. Simmons",
+      "aliases": [
+        "JK Simmons",
+        "Jonathan Kimble \"J. K.\" Simmons",
+        "Jonathan Kimble Simmons"
+      ],
+      "popularity": 1751959,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "J. K. Simmons"
+    },
+    {
+      "name": "Sam Rockwell",
+      "aliases": [
+        "Samuel Rockwell"
+      ],
+      "popularity": 1760288,
+      "rarity": 0.275,
+      "tier": 2,
+      "wiki": "Sam Rockwell"
+    },
+    {
+      "name": "Christoph Waltz",
+      "aliases": [],
+      "popularity": 1775118,
+      "rarity": 0.262,
+      "tier": 2,
+      "wiki": "Christoph Waltz"
+    },
+    {
+      "name": "Gene Hackman",
+      "aliases": [],
+      "popularity": 1789305,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Gene Hackman"
+    },
+    {
+      "name": "Benicio del Toro",
+      "aliases": [],
+      "popularity": 1828668,
+      "rarity": 0.238,
+      "tier": 2,
+      "wiki": "Benicio del Toro"
+    },
+    {
+      "name": "Kevin Spacey",
+      "aliases": [],
+      "popularity": 2069004,
+      "rarity": 0.225,
+      "tier": 2,
+      "wiki": "Kevin Spacey"
+    },
+    {
+      "name": "Tommy Lee Jones",
+      "aliases": [
+        "Thomas Lee Jones",
+        "Tom Lee Jones"
+      ],
+      "popularity": 2117961,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Tommy Lee Jones"
+    },
+    {
+      "name": "Kieran Culkin",
+      "aliases": [
+        "Kieran K. Culkin",
+        "Kieran Kyle Culkin"
+      ],
+      "popularity": 2161466,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Kieran Culkin"
+    },
+    {
+      "name": "Sean Connery",
+      "aliases": [],
+      "popularity": 2439534,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Sean Connery"
+    },
+    {
+      "name": "Morgan Freeman",
+      "aliases": [],
+      "popularity": 2547348,
+      "rarity": 0.175,
+      "tier": 1,
+      "wiki": "Morgan Freeman"
+    },
+    {
+      "name": "Jared Leto",
+      "aliases": [],
+      "popularity": 2559901,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Jared Leto"
+    },
+    {
+      "name": "Denzel Washington",
+      "aliases": [
+        "Denzel Washington Jr."
+      ],
+      "popularity": 2564227,
+      "rarity": 0.15,
+      "tier": 1,
+      "wiki": "Denzel Washington"
+    },
+    {
+      "name": "Michael Caine",
+      "aliases": [
+        "Maurice Joseph Micklewhite",
+        "Sir Michael Caine"
+      ],
+      "popularity": 2599079,
+      "rarity": 0.137,
+      "tier": 1,
+      "wiki": "Michael Caine"
+    },
+    {
+      "name": "Robert Downey Jr.",
+      "aliases": [],
+      "popularity": 2614335,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Robert Downey Jr."
+    },
+    {
+      "name": "Christian Bale",
+      "aliases": [
+        "Christian Charles Philip Bale",
+        "Christian Charles Phillip Bale",
+        "Christian Morgan Bale"
+      ],
+      "popularity": 2713854,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Christian Bale"
+    },
+    {
+      "name": "Frank Sinatra",
+      "aliases": [
+        "Francis Albert Sinatra",
+        "Ol' Blue Eyes",
+        "Old Blue Eyes",
+        "Sinatra"
+      ],
+      "popularity": 2738699,
+      "rarity": 0.1,
+      "tier": 1,
+      "wiki": "Frank Sinatra"
+    },
+    {
+      "name": "Jack Nicholson",
+      "aliases": [
+        "John Nicholson"
+      ],
+      "popularity": 2802784,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Jack Nicholson"
+    },
+    {
+      "name": "Javier Bardem",
+      "aliases": [],
+      "popularity": 2961912,
+      "rarity": 0.075,
+      "tier": 1,
+      "wiki": "Javier Bardem"
+    },
+    {
+      "name": "George Clooney",
+      "aliases": [
+        "George Timothy Clooney"
+      ],
+      "popularity": 3142509,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "George Clooney"
+    },
+    {
+      "name": "Robert De Niro",
+      "aliases": [
+        "De Niro",
+        "Robert Anthony De Niro"
+      ],
+      "popularity": 3339203,
+      "rarity": 0.05,
+      "tier": 1,
+      "wiki": "Robert De Niro"
+    },
+    {
+      "name": "Sean Penn",
+      "aliases": [],
+      "popularity": 3625335,
+      "rarity": 0.037,
+      "tier": 1,
+      "wiki": "Sean Penn"
+    },
+    {
+      "name": "Heath Ledger",
+      "aliases": [],
+      "popularity": 3828886,
+      "rarity": 0.025,
+      "tier": 1,
+      "wiki": "Heath Ledger"
+    },
+    {
+      "name": "Robin Williams",
+      "aliases": [
+        "Robin McLaurin Williams"
+      ],
+      "popularity": 4200063,
+      "rarity": 0.012,
+      "tier": 1,
+      "wiki": "Robin Williams"
+    },
+    {
+      "name": "Brad Pitt",
+      "aliases": [],
+      "popularity": 4208305,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Brad Pitt"
+    }
+  ]
+}

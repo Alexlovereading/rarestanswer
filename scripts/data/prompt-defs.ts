@@ -7,8 +7,9 @@
  * (the set would be an arbitrary slice, so a true answer could be missing).
  * Living species prompts require species rank and exclude fossil taxa, extinct
  * taxa, and IUCN extinct. Dinosaur prompts are fossil genera on purpose: the
- * question is about dinosaurs. great-ape-species is the eight living species
- * and is the one prompt allowed under 15 answers.
+ * question is about dinosaurs. great-ape-species is the eight living species.
+ * planets-and-dwarf-planets is the 13 IAU bodies. Those two are the only
+ * prompts allowed under 15 answers.
  *
  * Rarity is the average-rank percentile of popularity within the prompt,
  * inverted so 1 is the least viewed. Ties share a rarity.
@@ -51,11 +52,13 @@ export interface PromptDef {
   question: string;
   /** SPARQL graph pattern. Must bind ?item. */
   where?: string;
+  /** English Wikipedia list page parsed for character names. Not a SPARQL set. */
+  wikipediaList?: { page: string; source: string };
   /** Wikidata lexical category, English lexemes only. */
   lexemeCategory?: string;
   /** Accept 1-character chemical symbols as aliases. */
   keepShortAliases?: boolean;
-  /** Overrides MIN_ANSWERS. Only great-ape-species (8) and stranger-things-characters (12) may do this. */
+  /** Overrides MIN_ANSWERS. Only great-ape-species (8) and planets-and-dwarf-planets (13) may do this. */
   minAnswers?: number;
   /** Answer-page H1 noun. Not part of the Prompt type. */
   seoNoun?: string;
@@ -174,6 +177,7 @@ export function round3(value: number): number {
 }
 
 export function sourceLine(def: PromptDef): string {
+  if (def.wikipediaList) return def.wikipediaList.source;
   if (def.lexemeCategory) return `Wikidata lexemes + Wiktionary pageviews (${SOURCE_MONTH})`;
   return `Wikidata + Wikipedia pageviews (${SOURCE_MONTH})`;
 }
@@ -425,9 +429,11 @@ const geography: PromptDef[] = [
       'geography',
       slug,
       question,
-      // The United Kingdom has no P463 membership statement, but it is a current member.
+      // The 56 current members, from the flag rows in the "Current member states"
+      // table on English Wikipedia "Member states of the Commonwealth of Nations".
+      // The P463 query times out and also omits the United Kingdom.
       slug === 'commonwealth-members'
-        ? `{ ${membersOf(id, mode)} } UNION { VALUES ?item { wd:Q145 } }`
+        ? 'VALUES ?item { wd:Q781 wd:Q408 wd:Q778 wd:Q902 wd:Q244 wd:Q242 wd:Q963 wd:Q921 wd:Q1009 wd:Q16 wd:Q229 wd:Q784 wd:Q1050 wd:Q712 wd:Q1000 wd:Q1005 wd:Q117 wd:Q769 wd:Q734 wd:Q668 wd:Q766 wd:Q114 wd:Q710 wd:Q1013 wd:Q1020 wd:Q833 wd:Q826 wd:Q233 wd:Q1027 wd:Q1029 wd:Q1030 wd:Q697 wd:Q664 wd:Q1033 wd:Q843 wd:Q691 wd:Q1037 wd:Q763 wd:Q760 wd:Q757 wd:Q683 wd:Q1042 wd:Q1044 wd:Q334 wd:Q685 wd:Q258 wd:Q854 wd:Q924 wd:Q945 wd:Q678 wd:Q754 wd:Q672 wd:Q1036 wd:Q145 wd:Q686 wd:Q953 }'
         : membersOf(id, mode),
     ),
   ),
@@ -664,12 +670,12 @@ const sports: PromptDef[] = [
   ),
   prompt('sports', 'super-bowl-winners', 'Name a Super Bowl winning team', '?item wdt:P2522 wd:Q32096. ?item wdt:P31/wdt:P279* wd:Q17156793.'),
   prompt('sports', 'stanley-cup-winners', 'Name a Stanley Cup winning team', '?item wdt:P2522 wd:Q211872. ?item wdt:P31/wdt:P279* wd:Q4498974.'),
-  prompt('sports', 'tour-de-france-winners', 'Name a winner of the Tour de France', '?item wdt:P2522 wd:Q33881. ?item wdt:P31 wd:Q5.'),
+  prompt('sports', 'tour-de-france-winners', 'Name a winner of the Tour de France', 'VALUES ?item { wd:Q436707 wd:Q221001 wd:Q121976 wd:Q155010 wd:Q21936667 wd:Q358167 wd:Q379572 wd:Q503647 wd:Q132738 wd:Q219912 wd:Q337219 wd:Q265299 wd:Q436733 wd:Q336292 wd:Q190919 wd:Q267607 wd:Q13484 wd:Q456089 wd:Q319591 wd:Q273842 wd:Q352501 wd:Q15983 wd:Q313526 wd:Q109255 wd:Q105542 wd:Q380930 wd:Q123548 wd:Q458713 wd:Q375340 wd:Q712285 wd:Q352448 wd:Q503630 wd:Q312697 wd:Q254235 wd:Q559277 wd:Q454969 wd:Q103756 wd:Q712543 wd:Q312322 wd:Q358336 wd:Q273860 wd:Q378848 wd:Q132049 wd:Q318033 wd:Q481783 wd:Q26904312 wd:Q337113 wd:Q310288 wd:Q505211 wd:Q356473 wd:Q105228 wd:Q241280 wd:Q445091 wd:Q559250 wd:Q367064 wd:Q356327 wd:Q324961 wd:Q350650 wd:Q57959 wd:Q350698 wd:Q26868933 wd:Q509655 wd:Q193876 wd:Q320010 }'),
   prompt(
     'sports',
     'summer-olympics',
     'Name a Summer Olympics',
-    `${seasonsOf('Q159821')} ?item wdt:P585 ?when. FILTER(YEAR(?when) <= 2026) FILTER(?item NOT IN (wd:Q8123, wd:Q8368, wd:Q8376))`,
+    `${seasonsOf('Q159821')} FILTER(?item NOT IN (wd:Q8123, wd:Q8368, wd:Q8376)) OPTIONAL { ?item wdt:P585 ?point } OPTIONAL { ?item wdt:P1619 ?opened } OPTIONAL { ?item wdt:P580 ?started } BIND(COALESCE(?point, ?opened, ?started) AS ?when) FILTER(BOUND(?when) && YEAR(?when) <= 2026)`,
   ),
   prompt(
     'sports',
@@ -719,6 +725,62 @@ const sports: PromptDef[] = [
     'Name a country that has hosted the FIFA World Cup',
     `?edition wdt:P3450 wd:Q19317. ?edition rdfs:label ?cupName. ${CUP_NAME} ?edition wdt:P585 ?when. FILTER(YEAR(?when) <= 2026) ?edition wdt:P17 ?item.`,
   ),
+  prompt(
+    'sports',
+    'f1-world-champions',
+    "Name a Formula One World Drivers' Champion",
+    'VALUES ?item { wd:Q9671 wd:Q9673 wd:Q2069 wd:Q10494 wd:Q42311 wd:Q2239218 wd:Q2125 wd:Q3188 wd:Q78489 wd:Q171346 wd:Q10490 wd:Q2086 wd:Q3128 wd:Q3137 wd:Q172849 wd:Q172842 wd:Q10514 wd:Q2040 wd:Q2104 wd:Q3112 wd:Q3153 wd:Q3166 wd:Q3234 wd:Q140393 wd:Q171312 wd:Q172775 wd:Q172753 wd:Q171381 wd:Q10501 wd:Q10505 wd:Q172843 wd:Q11192 wd:Q10510 wd:Q75820 wd:Q22007193 wd:Q112073790 }',
+  ),
+  prompt(
+    'sports',
+    'nba-mvps',
+    'Name an NBA Most Valuable Player',
+    'VALUES ?item { wd:Q368561 wd:Q312643 wd:Q242185 wd:Q182455 wd:Q17717 wd:Q456776 wd:Q380515 wd:Q179051 wd:Q264393 wd:Q553232 wd:Q363246 wd:Q316179 wd:Q209921 wd:Q190152 wd:Q134183 wd:Q41421 wd:Q192707 wd:Q273256 wd:Q211876 wd:Q199896 wd:Q169452 wd:Q190094 wd:Q193020 wd:Q189240 wd:Q192955 wd:Q44068 wd:Q25369 wd:Q36159 wd:Q205326 wd:Q29545 wd:Q352159 wd:Q196185 wd:Q136678 wd:Q8991894 wd:Q17281073 wd:Q15920046 wd:Q32860369 }',
+    false,
+    { extraAliases: { 'Kareem Abdul-Jabbar': ['Lew Alcindor'] } },
+  ),
+  prompt(
+    'sports',
+    'ballon-dor-winners',
+    "Name a winner of the Ballon d'Or",
+    'VALUES ?item { wd:Q216140 wd:Q164546 wd:Q123118 wd:Q270367 wd:Q220700 wd:Q223158 wd:Q167828 wd:Q233565 wd:Q162043 wd:Q171583 wd:Q201534 wd:Q164521 wd:Q230046 wd:Q43744 wd:Q17163 wd:Q4457 wd:Q186691 wd:Q153463 wd:Q152832 wd:Q152871 wd:Q178628 wd:Q4261 wd:Q311410 wd:Q173972 wd:Q483629 wd:Q36386 wd:Q13494 wd:Q67964 wd:Q187125 wd:Q173139 wd:Q57183 wd:Q529207 wd:Q1835 wd:Q483577 wd:Q483145 wd:Q128829 wd:Q171295 wd:Q41244 wd:Q39444 wd:Q102027 wd:Q531814 wd:Q11571 wd:Q615 wd:Q483837 wd:Q1912 wd:Q20994118 wd:Q20851003 wd:Q969725 }',
+  ),
+  prompt(
+    'sports',
+    'heisman-winners',
+    'Name a Heisman Trophy winner',
+    'VALUES ?item { wd:Q379491 wd:Q2636612 wd:Q7704079 wd:Q5524678 wd:Q1691335 wd:Q535640 wd:Q321872 wd:Q1233692 wd:Q714292 wd:Q245633 wd:Q56860229 wd:Q555271 wd:Q522372 wd:Q4912321 wd:Q3181191 wd:Q5919292 wd:Q284613 wd:Q1500180 wd:Q66825384 wd:Q1356923 wd:Q1379926 wd:Q7171923 wd:Q7363689 wd:Q1147480 wd:Q1380819 wd:Q1251736 wd:Q2979327 wd:Q4872246 wd:Q80559 wd:Q321288 wd:Q617158 wd:Q3530742 wd:Q1818883 wd:Q16729768 wd:Q363509 wd:Q1129334 wd:Q509646 wd:Q1700517 wd:Q110442577 wd:Q452154 wd:Q887401 wd:Q24809702 wd:Q7924830 wd:Q5273083 wd:Q3218066 wd:Q321573 wd:Q1610505 wd:Q963234 wd:Q471897 wd:Q716875 wd:Q6758302 wd:Q14950655 wd:Q123411920 wd:Q18648942 wd:Q591678 wd:Q582850 wd:Q7613529 wd:Q1045461 wd:Q726211 wd:Q6267603 wd:Q3101881 wd:Q2091437 wd:Q7294771 wd:Q809097 wd:Q44473 wd:Q2903722 wd:Q3082815 wd:Q2926477 wd:Q68974853 wd:Q3055549 wd:Q7614020 wd:Q736932 wd:Q7144051 wd:Q517467 wd:Q584532 wd:Q716376 wd:Q4913418 wd:Q1233083 wd:Q609950 wd:Q71980 wd:Q4754903 wd:Q2964889 wd:Q2960443 wd:Q3163015 wd:Q108878513 wd:Q1349267 wd:Q6127917 wd:Q1066501 wd:Q1164813 wd:Q79416176 }',
+  ),
+  prompt(
+    'sports',
+    'world-series-mvps',
+    'Name a World Series MVP',
+    'VALUES ?item { wd:Q1365880 wd:Q1155003 wd:Q3268250 wd:Q6122597 wd:Q2988807 wd:Q3237263 wd:Q3700330 wd:Q684020 wd:Q3036755 wd:Q97672385 wd:Q7331347 wd:Q4983591 wd:Q930232 wd:Q716267 wd:Q542827 wd:Q1345775 wd:Q3087003 wd:Q960743 wd:Q1131535 wd:Q1364355 wd:Q943668 wd:Q3030308 wd:Q1107989 wd:Q2882961 wd:Q2410775 wd:Q959112 wd:Q353511 wd:Q123682 wd:Q3420530 wd:Q440256 wd:Q919907 wd:Q6838697 wd:Q1388356 wd:Q954080 wd:Q1972377 wd:Q2386218 wd:Q448005 wd:Q902082 wd:Q111316773 wd:Q3470332 wd:Q3182958 wd:Q3016475 wd:Q375648 wd:Q168880 wd:Q869771 wd:Q3111680 wd:Q382303 wd:Q521270 wd:Q1317158 wd:Q739866 wd:Q2924542 wd:Q1190237 wd:Q954975 wd:Q1147513 wd:Q17403431 wd:Q6491105 wd:Q5544750 wd:Q1054942 wd:Q3017268 wd:Q1192310 wd:Q5531495 wd:Q4357583 wd:Q1588047 wd:Q4356076 wd:Q659741 wd:Q3182721 wd:Q30935992 wd:Q7614376 wd:Q1061268 }',
+  ),
+  prompt(
+    'sports',
+    'f1-constructors-champions',
+    "Name a Formula One World Constructors' Champion",
+    'VALUES ?item { wd:Q171329 wd:Q173103 wd:Q17596 wd:Q173012 wd:Q173003 wd:Q173996 wd:Q844092 wd:Q172030 wd:Q65954812 wd:Q173663 wd:Q65954940 wd:Q169898 wd:Q171992 wd:Q173093 wd:Q171337 }',
+  ),
+  prompt(
+    'sports',
+    'super-bowl-mvps',
+    'Name a Super Bowl MVP',
+    'VALUES ?item { wd:Q525002 wd:Q379491 wd:Q3357777 wd:Q3752602 wd:Q633263 wd:Q313381 wd:Q780333 wd:Q38952 wd:Q944485 wd:Q322663 wd:Q732266 wd:Q726229 wd:Q3934792 wd:Q448961 wd:Q432931 wd:Q795406 wd:Q3876006 wd:Q1333547 wd:Q717908 wd:Q509646 wd:Q332255 wd:Q26923572 wd:Q3025619 wd:Q16235552 wd:Q44428 wd:Q19667998 wd:Q316187 wd:Q7539 wd:Q48695 wd:Q1823140 wd:Q348011 wd:Q720558 wd:Q726211 wd:Q505423 wd:Q260045 wd:Q302581 wd:Q353917 wd:Q6124979 wd:Q596953 wd:Q1338802 wd:Q3843850 wd:Q809211 wd:Q736932 wd:Q441528 wd:Q108602387 wd:Q482838 wd:Q945750 wd:Q1849885 wd:Q951164 wd:Q740086 }',
+  ),
+  prompt(
+    'sports',
+    'super-bowl-coaches',
+    'Name a Super Bowl-winning head coach',
+    'VALUES ?item { wd:Q4046340 wd:Q720027 wd:Q911873 wd:Q1758777 wd:Q1378304 wd:Q862033 wd:Q1355840 wd:Q719098 wd:Q1777333 wd:Q2439654 wd:Q1254455 wd:Q365882 wd:Q2412102 wd:Q5247485 wd:Q4353509 wd:Q3758515 wd:Q1374361 wd:Q553321 wd:Q105360125 wd:Q1345694 wd:Q1239307 wd:Q506866 wd:Q7441250 wd:Q952108 wd:Q364415 wd:Q2414784 wd:Q5300814 wd:Q2622812 wd:Q5544402 wd:Q1857407 wd:Q1239512 wd:Q7027935 wd:Q1575579 wd:Q453258 wd:Q371118 wd:Q1209818 wd:Q2365047 }',
+  ),
+  prompt(
+    'sports',
+    'stanley-cup-coaches',
+    'Name a Stanley Cup-winning head coach',
+    'VALUES ?item { wd:Q1354191 wd:Q705925 wd:Q646123 wd:Q6159905 wd:Q937022 wd:Q285583 wd:Q1354316 wd:Q920331 wd:Q949869 wd:Q718749 wd:Q1159017 wd:Q597514 wd:Q2926405 wd:Q16196878 wd:Q385565 wd:Q6377848 wd:Q933461 wd:Q927215 wd:Q1146865 wd:Q5228826 wd:Q1369406 wd:Q6378152 wd:Q2943696 wd:Q330714 wd:Q359298 wd:Q343282 wd:Q937250 wd:Q1715686 wd:Q800012 wd:Q728053 wd:Q268386 wd:Q1390167 wd:Q713383 wd:Q681705 wd:Q2542734 wd:Q730063 wd:Q1701155 wd:Q741292 wd:Q1366313 wd:Q3173917 wd:Q3446807 wd:Q324363 wd:Q1387131 wd:Q1806113 wd:Q539010 wd:Q2978107 wd:Q280813 wd:Q1167950 wd:Q1586821 wd:Q433308 wd:Q2903357 wd:Q1933555 wd:Q717856 wd:Q1378237 wd:Q608839 wd:Q328812 }',
+  ),
 ];
 
 const SHOWS: readonly [string, string, string][] = [
@@ -750,12 +812,20 @@ const STUDIOS: readonly [string, string, string][] = [
 const screen: PromptDef[] = [
   ...SHOWS.map(([slug, question, id]) => {
     const where = charactersOf(id) + (slug === 'doctor-who-characters' ? ' FILTER(?item != wd:Q35684)' : '');
-    const def = prompt('screen', slug, question, where);
     if (slug === 'stranger-things-characters') {
-      def.seoNoun = 'Stranger Things characters';
-      def.minAnswers = 12; // only notable characters have Wikidata items (14 on 2026-11-14)
+      const listed: PromptDef = {
+        slug,
+        category: 'screen',
+        question,
+        seoNoun: 'Stranger Things characters',
+        wikipediaList: {
+          page: 'List of Stranger Things characters',
+          source: `English Wikipedia "List of Stranger Things characters" via MediaWiki parse (cast tables, character headings, and recurring/guest credits) + Wikipedia pageviews (${SOURCE_MONTH}); a name with no article counts as 1`,
+        },
+      };
+      return listed;
     }
-    return def;
+    return prompt('screen', slug, question, where);
   }),
   prompt('screen', 'harry-potter-characters', 'Name a Harry Potter character', charactersOf('Q8337')),
   ...DIRECTORS.map(([slug, question, id]) => prompt('screen', slug, question, directedBy(id))),
@@ -849,6 +919,68 @@ const screen: PromptDef[] = [
     'mcu-films',
     'Name a Marvel Cinematic Universe film',
     '?item wdt:P179 wd:Q642878. ?item wdt:P31/wdt:P279* wd:Q11424. ?item wdt:P577 ?released. FILTER(YEAR(?released) <= 2026) FILTER(?item != wd:Q83430460)',
+  ),
+  prompt(
+    'screen',
+    'simpsons-characters',
+    'Name a character from The Simpsons',
+    charactersOf('Q886'),
+    false,
+    { seoNoun: 'Simpsons characters' },
+  ),
+  prompt(
+    'screen',
+    'mcu-characters',
+    'Name a character in a Marvel Cinematic Universe film',
+    '?film wdt:P179 wd:Q642878. ?film wdt:P31/wdt:P279* wd:Q11424. ?film wdt:P577 ?released. FILTER(YEAR(?released) <= 2026) ?film wdt:P674 ?item. ?item wdt:P31/wdt:P279* wd:Q95074.',
+    false,
+    { seoNoun: 'Marvel Cinematic Universe characters' },
+  ),
+  prompt(
+    'screen',
+    'doctor-who-incarnations',
+    'Name an incarnation of the Doctor',
+    '?item wdt:P31 wd:Q47543030.',
+    false,
+    { seoNoun: 'Doctor Who incarnations' },
+  ),
+  prompt(
+    'screen',
+    'best-actor-winners',
+    'Name a winner of the Academy Award for Best Actor',
+    peopleAwarded('Q103916'),
+  ),
+  prompt(
+    'screen',
+    'best-supporting-actress-winners',
+    'Name a winner of the Academy Award for Best Supporting Actress',
+    peopleAwarded('Q106301'),
+  ),
+  prompt(
+    'screen',
+    'best-actress-winners',
+    'Name a winner of the Academy Award for Best Actress',
+    `${peopleAwarded('Q103618')} FILTER(?item != wd:Q116730545)`,
+  ),
+  prompt(
+    'screen',
+    'best-supporting-actor-winners',
+    'Name a winner of the Academy Award for Best Supporting Actor',
+    `{ { ?item wdt:P31 wd:Q5. ?item wdt:P166 wd:Q106291. } UNION { VALUES ?item { wd:Q312364 } } } ${notCharacter}`,
+  ),
+  prompt(
+    'screen',
+    'emmy-comedy-series',
+    'Name a Primetime Emmy Award for Outstanding Comedy Series winner',
+    'VALUES ?item { wd:Q189350 wd:Q1048856 wd:Q244803 wd:Q11598 wd:Q16950893 wd:Q808487 wd:Q112761982 wd:Q7718958 wd:Q732063 wd:Q463999 wd:Q1248905 wd:Q530706 wd:Q208568 wd:Q16868648 wd:Q209282 wd:Q79784 wd:Q1247268 wd:Q912467 wd:Q106819328 wd:Q181943 wd:Q1565777 wd:Q494244 wd:Q30634329 wd:Q615944 wd:Q16756 wd:Q1031053 wd:Q521718 wd:Q1248840 wd:Q23831 wd:Q7756888 wd:Q2960406 wd:Q17111973 wd:Q23733 wd:Q35791 wd:Q125185497 wd:Q427529 wd:Q96407897 wd:Q74801 wd:Q212135 wd:Q691581 }',
+  ),
+  prompt(
+    'screen',
+    'lotr-characters',
+    'Name a character from The Lord of the Rings',
+    'VALUES ?item { wd:Q177499 wd:Q308661 wd:Q185737 wd:Q718380 wd:Q219504 wd:Q219473 wd:Q1234661 wd:Q748450 wd:Q716565 wd:Q216605 wd:Q280608 wd:Q719492 wd:Q2069844 wd:Q754477 wd:Q2485929 wd:Q206018 wd:Q753773 wd:Q719208 wd:Q719736 wd:Q780499 wd:Q2071479 wd:Q15007 wd:Q216489 wd:Q206818 wd:Q223468 wd:Q219498 wd:Q219493 wd:Q308813 wd:Q559524 wd:Q180322 wd:Q208426 wd:Q177329 wd:Q204274 wd:Q206324 wd:Q213480 wd:Q2281 }',
+    false,
+    { seoNoun: 'Lord of the Rings characters' },
   ),
 ];
 
@@ -981,6 +1113,8 @@ const science: PromptDef[] = [
     'planets-and-dwarf-planets',
     'Name a planet or dwarf planet',
     'VALUES ?item { wd:Q308 wd:Q313 wd:Q2 wd:Q111 wd:Q319 wd:Q193 wd:Q324 wd:Q332 wd:Q596 wd:Q339 wd:Q601 wd:Q604 wd:Q611 }',
+    false,
+    { minAnswers: 13 },
   ),
   prompt('science', 'moons-of-jupiter', 'Name a moon of Jupiter', moonsOf('Q319')),
   prompt('science', 'moons-of-saturn', 'Name a moon of Saturn', moonsOf('Q193')),
@@ -1111,6 +1245,13 @@ const history: PromptDef[] = [
   ),
   prompt('history', 'greek-deities', 'Name a Greek deity', '?item wdt:P31 wd:Q22989102.'),
   prompt('history', 'norse-deities', 'Name a Norse deity', '?item wdt:P31 wd:Q16513881.'),
+  prompt('history', 'roman-deities', 'Name a Roman deity', '?item wdt:P31 wd:Q11688446.'),
+  prompt(
+    'history',
+    'world-wonders',
+    'Name a wonder of the ancient world, the New 7 Wonders, or the New 7 Wonders of Nature',
+    '{ { wd:Q489772 wdt:P527 ?item. } UNION { wd:Q712728 wdt:P527 ?item. } UNION { wd:Q846154 wdt:P527 ?item. } }',
+  ),
   prompt(
     'history',
     'language-families',
@@ -1174,7 +1315,6 @@ const EXCLUDED_SLUGS: Readonly<Record<string, string>> = {
   'belgian-pro-league-clubs': '18 clubs returned from open membership statements, not a verified current roster',
   'super-bowl-winners': 'the P2522 query returns no teams',
   'stanley-cup-winners': '5 teams returned; the Canadiens and most other winners are missing',
-  'tour-de-france-winners': 'the P2522 query returns no riders',
   'summer-olympics-host-cities': 'the location property mixes stadiums with cities and omits several host cities',
   'summer-olympics-host-countries': '16 countries returned; Belgium, the Netherlands, Italy, and Sweden are missing',
   'star-wars-films': '9 Skywalker Saga films; Rogue One and Solo are missing',
@@ -1220,11 +1360,14 @@ export function assertPromptDefs(): void {
     if (!/^[a-z0-9]+(?:[-_][a-z0-9]+)*$/.test(def.slug)) throw new Error(`bad slug ${def.slug}`);
     if (def.question.trim().length < 8) throw new Error(`bad question ${def.slug}`);
     if (def.seoNoun && def.seoNoun.length > 80) throw new Error(`seoNoun too long ${def.slug}`);
-    if (def.minAnswers != null && def.slug !== 'great-ape-species' && def.slug !== 'stranger-things-characters') {
+    if (def.minAnswers != null && def.slug !== 'great-ape-species' && def.slug !== 'planets-and-dwarf-planets') {
       throw new Error(`${def.slug} cannot set a custom answer minimum`);
     }
     if (def.slug === 'great-ape-species' && def.minAnswers !== 8) {
       throw new Error('great-ape-species must allow 8 answers');
+    }
+    if (def.slug === 'planets-and-dwarf-planets' && def.minAnswers !== 13) {
+      throw new Error('planets-and-dwarf-planets must allow 13 answers');
     }
     if (def.slug === 'stranger-things-characters' && def.seoNoun !== 'Stranger Things characters') {
       throw new Error('stranger-things-characters needs seoNoun');
@@ -1232,8 +1375,9 @@ export function assertPromptDefs(): void {
     if (def.slug === 'english-interjections' && def.seoNoun !== 'English interjections') {
       throw new Error('english-interjections needs seoNoun');
     }
-    if (!def.where && !def.lexemeCategory) throw new Error(`no source ${def.slug}`);
+    if (!def.where && !def.lexemeCategory && !def.wikipediaList) throw new Error(`no source ${def.slug}`);
     if (def.where && !def.where.includes('?item')) throw new Error(`where does not bind ?item: ${def.slug}`);
+    if (def.wikipediaList && !def.wikipediaList.page) throw new Error(`wikipedia list missing page ${def.slug}`);
     if (!CATEGORY_ORDER.includes(def.category)) throw new Error(`bad category ${def.slug}`);
     slugs.add(def.slug);
     counts.set(def.category, (counts.get(def.category) ?? 0) + 1);

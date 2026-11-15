@@ -43,9 +43,9 @@ Compiled prompts live in `src/data/prompts/`:
 - `index.json` lists every prompt (`id`, `slug`, `category`, `question`, `answerCount`).
 - `<slug>.json` is one prompt: accepted answers, aliases, a popularity figure, a rarity percentile, and a tier.
 
-`pnpm build-prompts` is the pipeline entry (`scripts/build-prompts.ts`). It queries the Wikidata SPARQL endpoint and the Wikipedia pageviews API, caches responses under `.cache/`, and rewrites that folder.
+`pnpm build-prompts` (`package.json`, `scripts/build-prompts.ts`) queries the Wikidata SPARQL endpoint and the Wikipedia or Wiktionary pageviews API, caches responses under `.cache/build-prompts/`, and rewrites that folder.
 
-As of this README, `package.json` does not define `build-prompts` yet. Until that script lands, the only shipped prompt is `great-ape-species`, with `source` set to `fixture`. Popularity numbers in that file are placeholders, not live pageviews.
+The shipped catalog is **276 prompts**: geography 37, animals 51, food 33, sports 31, screen 30, music 31, science 32, history 31. Each category has at least 30. Great ape species (8 answers), Stranger Things characters (129), and English interjections (346, ranked by Wiktionary pageviews) are included. Sources on the files name Wikidata plus English Wikipedia pageviews for October 2026, except the interjection list, which uses Wiktionary pageviews for the same month.
 
 ## Deploy to Cloudflare Pages
 

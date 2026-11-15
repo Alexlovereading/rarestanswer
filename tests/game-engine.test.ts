@@ -6,7 +6,8 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, test } from 'vitest';
-import fixture from '~/data/prompts/great-ape-species.json';
+import fixture from './fixtures/great-ape-species.json';
+import fixtureIndex from './fixtures/prompts-index.json';
 import { CATEGORY_KEYS, isCategoryKey } from '~/lib/game/categories';
 import { CATEGORY_PAGES } from '~/lib/game/category-copy';
 import { HOME, HOME_FAQ, HOW_TO_STEPS, UNLIMITED } from '~/lib/game/copy';
@@ -24,13 +25,15 @@ import {
   selectUnlimited,
   withPinnedPrompt,
 } from '~/lib/game/daily';
-import { readClientPrompt, readPromptIndex } from '~/lib/game/load-prompts';
+import { readClientPrompt } from '~/lib/game/load-prompts';
 import { createTried, matchGuess, rememberGuess, type Matchable } from '~/lib/game/match';
 import { levenshtein, normalize } from '~/lib/game/normalize';
 import {
   commonAnswers,
   couldHaveNamedLine,
   countRarer,
+  isPromptIndexEntry,
+  isSlug,
   placementLine,
   promptDataPath,
   PROMPT_INDEX_PATH,
@@ -70,6 +73,72 @@ import { TIERS, type CategoryKey, type PromptIndexEntry } from '~/lib/game/types
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const client = toClientPrompt(fixture);
 if (!client) throw new Error('fixture prompt did not parse');
+
+/** The frozen one-prompt catalog. Engine cases must not read src/data/prompts. */
+function frozenIndex(): PromptIndexEntry[] {
+  const index = fixtureIndex.filter(isPromptIndexEntry);
+  if (index.length !== fixtureIndex.length) {
+    throw new Error('tests/fixtures/prompts-index.json has an entry the engine would drop');
+  }
+  return index;
+}
+
+interface RankedAnswer {
+  name: string;
+  rarity: number;
+  tier: 1 | 2 | 3 | 4 | 5 | 6;
+}
+
+function isPromptFile(value: unknown): value is {
+  id: string;
+  slug: string;
+  category: string;
+  question: string;
+  answers: unknown[];
+} {
+  if (typeof value !== 'object' || value === null) return false;
+  if (
+    !('id' in value) ||
+    !('slug' in value) ||
+    !('category' in value) ||
+    !('question' in value) ||
+    !('answers' in value)
+  ) {
+    return false;
+  }
+  return (
+    typeof value.id === 'string' &&
+    value.id.length > 0 &&
+    typeof value.slug === 'string' &&
+    typeof value.category === 'string' &&
+    typeof value.question === 'string' &&
+    value.question.trim().length > 0 &&
+    Array.isArray(value.answers)
+  );
+}
+
+function isRankedAnswer(value: unknown): value is RankedAnswer {
+  if (typeof value !== 'object' || value === null) return false;
+  if (!('name' in value) || !('rarity' in value) || !('tier' in value)) return false;
+  return (
+    typeof value.name === 'string' &&
+    value.name.length > 0 &&
+    typeof value.rarity === 'number' &&
+    Number.isFinite(value.rarity) &&
+    isTierNumber(value.tier)
+  );
+}
+
+function isTierNumber(value: unknown): value is RankedAnswer['tier'] {
+  return value === 1 || value === 2 || value === 3 || value === 4 || value === 5 || value === 6;
+}
+
+/** Higher rarity first. Ties break on tier, then display name, same as the client sort. */
+function isRarestFirst(prev: RankedAnswer, next: RankedAnswer): boolean {
+  if (prev.rarity !== next.rarity) return prev.rarity > next.rarity;
+  if (prev.tier !== next.tier) return prev.tier > next.tier;
+  return prev.name.localeCompare(next.name, 'en') <= 0;
+}
 
 function catalog(perCategory: number): PromptIndexEntry[] {
   const out: PromptIndexEntry[] = [];
@@ -256,10 +325,15 @@ describe('daily seed', () => {
     );
   });
 
-  test('the fixture deals its one prompt instead of repeating it', () => {
-    const index = readPromptIndex();
+  test('a one-prompt catalog deals that prompt instead of repeating it', () => {
+    const index = frozenIndex();
+    expect(index).toHaveLength(1);
     const round = selectDaily(index, new Date(2026, 10, 14));
     expect(round.map((entry) => entry.slug)).toEqual(['great-ape-species']);
+    expect(round).toHaveLength(1);
+    expect(selectDaily(index, new Date(2026, 10, 15)).map((entry) => entry.slug)).toEqual([
+      'great-ape-species',
+    ]);
     expect(selectDaily([], new Date(2026, 10, 14))).toEqual([]);
   });
 
@@ -469,6 +543,7 @@ describe('share text and client payload', () => {
   });
 
   test('client JSON drops popularity, wiki, and source, and sorts rarest-first', () => {
+    expect(fixture.source).toBe('fixture');
     expect(client.answers[0]?.name).toBe('Tapanuli orangutan');
     expect(client.answers.at(-1)?.name).toBe('Human');
     const encoded = JSON.stringify(client);
@@ -515,13 +590,15 @@ describe('share text and client payload', () => {
   test('prompt files are read from the index, not a hardcoded slug list', () => {
     expect(PROMPT_INDEX_PATH).toBe('/game-data/index.json');
     expect(promptDataPath('great-ape-species')).toBe('/game-data/great-ape-species.json');
-    const index = readPromptIndex();
-    expect(index.some((entry) => entry.slug === 'great-ape-species')).toBe(true);
-    const loaded = readClientPrompt('great-ape-species');
+    const index = frozenIndex();
+    expect(index.map((entry) => entry.slug)).toEqual(['great-ape-species']);
+    expect(index[0]?.question).toBe(fixture.question);
+    expect(index[0]?.answerCount).toBe(fixture.answers.length);
+    const loaded = toClientPrompt(fixture);
     expect(loaded?.question).toBe('Name a species of great ape');
     expect(JSON.stringify(loaded)).not.toContain('popularity');
     expect(readClientPrompt('../etc/passwd')).toBeNull();
-    expect(readClientPrompt('not-a-real-prompt')).toBeNull();
+    expect(readClientPrompt('NOT a prompt')).toBeNull();
     const endpoint = readFileSync(join(root, 'src/pages/game-data/[slug].json.ts'), 'utf8');
     expect(endpoint).toContain('readPromptIndex');
     expect(endpoint).not.toContain('great-ape-species');
@@ -575,6 +652,60 @@ describe('play pages', () => {
     for (const file of readdirSync(dir)) {
       const src = readFileSync(join(dir, file), 'utf8');
       expect(src).not.toMatch(/AdSense|Adsterra|StickyBanner/);
+    }
+  });
+});
+
+describe('live prompt catalog', () => {
+  test('every prompt file matches the index, slug rule, rarest-first order, and tiers 1..6', () => {
+    const dir = join(root, 'src/data/prompts');
+    const indexRaw: unknown = JSON.parse(readFileSync(join(dir, 'index.json'), 'utf8'));
+    expect(Array.isArray(indexRaw)).toBe(true);
+    if (!Array.isArray(indexRaw)) return;
+
+    const bySlug = new Map<string, PromptIndexEntry>();
+    for (const entry of indexRaw) {
+      expect([isPromptIndexEntry(entry), entry]).toEqual([true, entry]);
+      if (!isPromptIndexEntry(entry)) continue;
+      expect(isSlug(entry.slug)).toBe(true);
+      expect(bySlug.has(entry.slug)).toBe(false);
+      bySlug.set(entry.slug, entry);
+    }
+
+    const files = readdirSync(dir)
+      .filter((name) => name.endsWith('.json') && name !== 'index.json')
+      .sort();
+    expect(files).toEqual([...bySlug.keys()].map((slug) => `${slug}.json`).sort());
+    expect(files.length).toBeGreaterThan(0);
+
+    for (const file of files) {
+      const slug = file.slice(0, -'.json'.length);
+      const raw: unknown = JSON.parse(readFileSync(join(dir, file), 'utf8'));
+      expect([isPromptFile(raw), slug]).toEqual([true, slug]);
+      if (!isPromptFile(raw)) continue;
+      const entry = bySlug.get(slug);
+      expect(entry?.id).toBe(raw.id);
+      expect(raw.slug).toBe(entry?.slug);
+      expect(raw.category).toBe(entry?.category);
+      expect(raw.question).toBe(entry?.question);
+      expect(raw.answers).toHaveLength(entry?.answerCount ?? -1);
+      expect(raw.answers.length).toBeGreaterThan(0);
+      const ranked: RankedAnswer[] = [];
+      for (const row of raw.answers) {
+        expect([isRankedAnswer(row), slug]).toEqual([true, slug]);
+        if (isRankedAnswer(row)) ranked.push(row);
+      }
+      for (let i = 1; i < ranked.length; i++) {
+        const prev = ranked[i - 1];
+        const next = ranked[i];
+        if (!prev || !next) continue;
+        expect({
+          slug,
+          prev: prev.name,
+          next: next.name,
+          ordered: isRarestFirst(prev, next),
+        }).toMatchObject({ ordered: true });
+      }
     }
   });
 });

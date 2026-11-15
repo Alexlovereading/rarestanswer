@@ -1,0 +1,187 @@
+{
+  "id": "f1-constructors-champions",
+  "slug": "f1-constructors-champions",
+  "category": "sports",
+  "question": "Name a Formula One World Constructors' Champion",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Equipe Matra Sports",
+      "aliases": [
+        "Matra F1",
+        "Matra F1 team",
+        "Matra Formula One team",
+        "Matra-Simca Division Automobile"
+      ],
+      "popularity": 21898,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Equipe Matra Sports"
+    },
+    {
+      "name": "Vanwall",
+      "aliases": [
+        "Vandervell Engineering",
+        "Vandervell Products Ltd.",
+        "Vanwall F1 team",
+        "Vanwall Formula One team"
+      ],
+      "popularity": 24709,
+      "rarity": 0.929,
+      "tier": 5,
+      "wiki": "Vanwall"
+    },
+    {
+      "name": "British Racing Motors",
+      "aliases": [
+        "BRM",
+        "BRM F1 team",
+        "BRM Formula One team",
+        "Owen Racing Organisation"
+      ],
+      "popularity": 47254,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "British Racing Motors"
+    },
+    {
+      "name": "Cooper Car Company",
+      "aliases": [
+        "CCC F1 team",
+        "CCC Formula One team",
+        "Cooper F1 team",
+        "Cooper Formula One team"
+      ],
+      "popularity": 51573,
+      "rarity": 0.786,
+      "tier": 4,
+      "wiki": "Cooper Car Company"
+    },
+    {
+      "name": "Tyrrell Racing",
+      "aliases": [
+        "Tyrrell F1 team",
+        "Tyrrell Formula One team",
+        "Tyrrell Racing Organization Ltd."
+      ],
+      "popularity": 81389,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Tyrrell Racing"
+    },
+    {
+      "name": "Brabham",
+      "aliases": [
+        "Brabham F1 team",
+        "Brabham Formula One team",
+        "Motor Racing Developments Ltd."
+      ],
+      "popularity": 101643,
+      "rarity": 0.643,
+      "tier": 4,
+      "wiki": "Brabham"
+    },
+    {
+      "name": "Team Lotus",
+      "aliases": [],
+      "popularity": 117653,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Team Lotus"
+    },
+    {
+      "name": "Benetton Formula",
+      "aliases": [
+        "Benetton F1",
+        "Benetton F1 team",
+        "Benetton Formula One team"
+      ],
+      "popularity": 147015,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Benetton Formula"
+    },
+    {
+      "name": "Renault in Formula One",
+      "aliases": [],
+      "popularity": 223127,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Renault in Formula One"
+    },
+    {
+      "name": "Brawn GP",
+      "aliases": [
+        "Brawn F1 team",
+        "Brawn Formula One team",
+        "Brawn GP Formula One Team",
+        "Brawn GP Limited"
+      ],
+      "popularity": 260033,
+      "rarity": 0.357,
+      "tier": 2,
+      "wiki": "Brawn GP"
+    },
+    {
+      "name": "Williams Racing",
+      "aliases": [
+        "Williams",
+        "Williams F1",
+        "Williams Grand Prix Engineering Limited"
+      ],
+      "popularity": 453802,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Williams Racing"
+    },
+    {
+      "name": "Mercedes-Benz in Formula One",
+      "aliases": [],
+      "popularity": 462472,
+      "rarity": 0.214,
+      "tier": 2,
+      "wiki": "Mercedes-Benz in Formula One"
+    },
+    {
+      "name": "Scuderia Ferrari",
+      "aliases": [
+        "Ferrari F1 team",
+        "Ferrari Formula One team",
+        "Scuderia Ferrari Mission Winnow"
+      ],
+      "popularity": 672273,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Scuderia Ferrari"
+    },
+    {
+      "name": "Red Bull Racing",
+      "aliases": [
+        "Aston Martin Red Bull Racing",
+        "Infiniti Red Bull Racing",
+        "Oracle Red Bull Racing",
+        "RB Racing",
+        "Red Bull",
+        "Red Bull F1 team",
+        "Red Bull Formula One team"
+      ],
+      "popularity": 710160,
+      "rarity": 0.071,
+      "tier": 1,
+      "wiki": "Red Bull Racing"
+    },
+    {
+      "name": "McLaren",
+      "aliases": [
+        "McLaren F1 team",
+        "McLaren Formula 1 Team",
+        "McLaren Formula One team",
+        "McLaren Racing Limited"
+      ],
+      "popularity": 752402,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "McLaren"
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "id": "heisman-winners",
+  "slug": "heisman-winners",
+  "category": "sports",
+  "question": "Name a Heisman Trophy winner",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Clint Frank",
+      "aliases": [],
+      "popularity": 5296,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Clint Frank"
+    },
+    {
+      "name": "Billy Vessels",
+      "aliases": [
+        "Billy Dale Vessels"
+      ],
+      "popularity": 7839,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Billy Vessels"
+    },
+    {
+      "name": "Bruce Smith",
+      "aliases": [
+        "Bruce Phillip Smith",
+        "Bruce Smith (halfback)"
+      ],
+      "popularity": 9631,
+      "rarity": 0.978,
+      "tier": 6,
+      "wiki": "Bruce Smith (halfback)"
+    },
+    {
+      "name": "Les Horvath",
+      "aliases": [
+        "Leslie Horvath"
+      ],
+      "popularity": 10713,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Les Horvath"
+    },
+    {
+      "name": "Larry Kelley",
+      "aliases": [
+        "Lawrence Morgan Kelley"
+      ],
+      "popularity": 11700,
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Larry Kelley"
+    },
+    {
+      "name": "Vic Janowicz",
+      "aliases": [
+        "Victor Felix Janowicz"
+      ],
+      "popularity": 12561,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Vic Janowicz"
+    },
+    {
+      "name": "Frank Sinkwich",
+      "aliases": [],
+      "popularity": 13158,
+      "rarity": 0.933,
+      "tier": 6,
+      "wiki": "Frank Sinkwich"
+    },
+    {
+      "name": "Leon Hart",
+      "aliases": [
+        "Leon Joseph Hart"
+      ],
+      "popularity": 13791,
+      "rarity": 0.921,
+      "tier": 5,
+      "wiki": "Leon Hart"
+    },
+    {
+      "name": "Angelo Bertelli",
+      "aliases": [
+        "Angelo Bortolo Bertelli"
+      ],
+      "popularity": 14586,
+      "rarity": 0.91,
+      "tier": 5,
+      "wiki": "Angelo Bertelli"
+    },
+    {
+      "name": "Gary Beban",
+      "aliases": [
+        "Gary Joseph Beban"
+      ],
+      "popularity": 15660,
+      "rarity": 0.899,
+      "tier": 5,
+      "wiki": "Gary Beban"
+    },
+    {
+      "name": "Howard Cassady",
+      "aliases": [
+        "Hopalong Cassady",
+        "Howard \"Hopalong\" Cassady"
+      ],
+      "popularity": 17751,
+      "rarity": 0.888,
+      "tier": 5,
+      "wiki": "Howard Cassady"
+    },
+    {
+      "name": "John Huarte",
+      "aliases": [
+        "John Gregory Huarte"
+      ],
+      "popularity": 18446,
+      "rarity": 0.876,
+      "tier": 5,
+      "wiki": "John Huarte"
+    },
+    {
+      "name": "Joe Bellino",
+      "aliases": [
+        "Joseph Michael Bellino"
+      ],
+      "popularity": 19087,
+      "rarity": 0.865,
+      "tier": 5,
+      "wiki": "Joe Bellino"
+    },
+    {
+      "name": "Steve Owens",
+      "aliases": [
+        "Steve Owens (American football)"
+      ],
+      "popularity": 19672,
+      "rarity": 0.854,
+      "tier": 5,
+      "wiki": "Steve Owens (American football)"
+    },
+    {
+      "name": "Terry Baker",
+      "aliases": [
+        "Terry Wayne Baker"
+      ],
+      "popularity": 20040,
+      "rarity": 0.843,
+      "tier": 5,
+      "wiki": "Terry Baker"
+    },
+    {
+      "name": "Doc Blanchard",
+      "aliases": [],
+      "popularity": 20797,
+      "rarity": 0.831,
+      "tier": 5,
+      "wiki": "Doc Blanchard"
+    },
+    {
+      "name": "Davey O'Brien",
+      "aliases": [
+        "Robert David O'Brien"
+      ],
+      "popularity": 20816,
+      "rarity": 0.82,
+      "tier": 5,
+      "wiki": "Davey O'Brien"
+    },
+    {
+      "name": "Dick Kazmaier",
+      "aliases": [],
+      "popularity": 21516,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Dick Kazmaier"
+    },
+    {
+      "name": "Johnny Lujack",
+      "aliases": [
+        "John Christopher Lujack"
+      ],
+      "popularity": 22770,
+      "rarity": 0.798,
+      "tier": 4,
+      "wiki": "Johnny Lujack"
+    },
+    {
+      "name": "John David Crow",
+      "aliases": [],
+      "popularity": 23611,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "John David Crow"
+    },
+    {
+      "name": "Johnny Lattner",
+      "aliases": [
+        "John Joseph Lattner",
+        "John Lattner"
+      ],
+      "popularity": 26884,
+      "rarity": 0.775,
+      "tier": 4,
+      "wiki": "Johnny Lattner"
+    },
+    {
+      "name": "Johnny Rodgers",
+      "aliases": [
+        "Johnny Steven Rodgers"
+      ],
+      "popularity": 27983,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Johnny Rodgers"
+    },
+    {
+      "name": "Mike Garrett",
+      "aliases": [
+        "Michael Lockett Garrett"
+      ],
+      "popularity": 28845,
+      "rarity": 0.753,
+      "tier": 4,
+      "wiki": "Mike Garrett"
+    },
+    {
+      "name": "Pat Sullivan",
+      "aliases": [
+        "Pat Sullivan (American football)",
+        "Patrick Joseph Sullivan"
+      ],
+      "popularity": 30854,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Pat Sullivan (American football)"
+    },
+    {
+      "name": "Charles White",
+      "aliases": [
+        "Charles Raymond White",
+        "Charles White (American football)"
+      ],
+      "popularity": 35570,
+      "rarity": 0.73,
+      "tier": 4,
+      "wiki": "Charles White (American football)"
+    },
+    {
+      "name": "Alan Ameche",
+      "aliases": [],
+      "popularity": 36266,
+      "rarity": 0.719,
+      "tier": 4,
+      "wiki": "Alan Ameche"
+    },
+    {
+      "name": "Pete Dawkins",
+      "aliases": [
+        "Peter M. Dawkins",
+        "Peter Miller Dawkins"
+      ],
+      "popularity": 37190,
+      "rarity": 0.708,
+      "tier": 4,
+      "wiki": "Pete Dawkins"
+    },
+    {
+      "name": "Glenn Davis",
+      "aliases": [
+        "Glenn Davis (halfback)",
+        "Glenn W. Davis",
+        "Glenn Woodward Davis"
+      ],
+      "popularity": 44504,
+      "rarity": 0.697,
+      "tier": 4,
+      "wiki": "Glenn Davis (halfback)"
+    },
+    {
+      "name": "John Cappelletti",
+      "aliases": [],
+      "popularity": 46153,
+      "rarity": 0.685,
+      "tier": 4,
+      "wiki": "John Cappelletti"
+    },
+    {
+      "name": "Mike Rozier",
+      "aliases": [],
+      "popularity": 46755,
+      "rarity": 0.674,
+      "tier": 4,
+      "wiki": "Mike Rozier"
+    },
+    {
+      "name": "Nile Kinnick",
+      "aliases": [
+        "Nile Clarke Kinnick Jr."
+      ],
+      "popularity": 50616,
+      "rarity": 0.663,
+      "tier": 4,
+      "wiki": "Nile Kinnick"
+    },
+    {
+      "name": "Doak Walker",
+      "aliases": [
+        "Ewell Doak Walker II"
+      ],
+      "popularity": 52630,
+      "rarity": 0.652,
+      "tier": 4,
+      "wiki": "Doak Walker"
+    },
+    {
+      "name": "Rashaan Salaam",
+      "aliases": [
+        "Rashaan Iman Salaam"
+      ],
+      "popularity": 53139,
+      "rarity": 0.64,
+      "tier": 4,
+      "wiki": "Rashaan Salaam"
+    },
+    {
+      "name": "Jay Berwanger",
+      "aliases": [
+        "Berwanger"
+      ],
+      "popularity": 53190,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Jay Berwanger"
+    },
+    {
+      "name": "George Rogers",
+      "aliases": [
+        "George Rogers (American football)",
+        "George Washington Rogers"
+      ],
+      "popularity": 56585,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "George Rogers (American football)"
+    },
+    {
+      "name": "Ron Dayne",
+      "aliases": [
+        "Ronald Dayne"
+      ],
+      "popularity": 60892,
+      "rarity": 0.607,
+      "tier": 4,
+      "wiki": "Ron Dayne"
+    },
+    {
+      "name": "Danny Wuerffel",
+      "aliases": [],
+      "popularity": 61157,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Danny Wuerffel"
+    },
+    {
+      "name": "Gino Torretta",
+      "aliases": [
+        "Gino Louis Torretta"
+      ],
+      "popularity": 62396,
+      "rarity": 0.584,
+      "tier": 3,
+      "wiki": "Gino Torretta"
+    },
+    {
+      "name": "Billy Sims",
+      "aliases": [
+        "Billy Ray Sims"
+      ],
+      "popularity": 64403,
+      "rarity": 0.573,
+      "tier": 3,
+      "wiki": "Billy Sims"
+    },
+    {
+      "name": "Eric Crouch",
+      "aliases": [
+        "Eric Eugene Crouch"
+      ],
+      "popularity": 69410,
+      "rarity": 0.562,
+      "tier": 3,
+      "wiki": "Eric Crouch"
+    },
+    {
+      "name": "Andre Ware",
+      "aliases": [
+        "Andre Trevor Ware"
+      ],
+      "popularity": 73822,
+      "rarity": 0.551,
+      "tier": 3,
+      "wiki": "Andre Ware"
+    },
+    {
+      "name": "Troy Smith",
+      "aliases": [
+        "Troy James Smith"
+      ],
+      "popularity": 79216,
+      "rarity": 0.539,
+      "tier": 3,
+      "wiki": "Troy Smith"
+    },
+    {
+      "name": "Billy Cannon",
+      "aliases": [],
+      "popularity": 80006,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Billy Cannon"
+    },
+    {
+      "name": "Ty Detmer",
+      "aliases": [
+        "Ty Hubert Detmer"
+      ],
+      "popularity": 83138,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Ty Detmer"
+    },
+    {
+      "name": "Paul Hornung",
+      "aliases": [
+        "Paul Vernon Hornung"
+      ],
+      "popularity": 84345,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Paul Hornung"
+    },
+    {
+      "name": "Jason White",
+      "aliases": [
+        "Jason White (American football)"
+      ],
+      "popularity": 84933,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Jason White (American football)"
+    },
+    {
+      "name": "Tim Brown",
+      "aliases": [
+        "Tim Brown (American football)",
+        "Timothy Donell Brown"
+      ],
+      "popularity": 113545,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Tim Brown (American football)"
+    },
+    {
+      "name": "Archie Griffin",
+      "aliases": [
+        "Archie Mason Griffin"
+      ],
+      "popularity": 114406,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Archie Griffin"
+    },
+    {
+      "name": "Ernie Davis",
+      "aliases": [
+        "Ernest Davis",
+        "Ernest R. Davis"
+      ],
+      "popularity": 128634,
+      "rarity": 0.461,
+      "tier": 3,
+      "wiki": "Ernie Davis"
+    },
+    {
+      "name": "Chris Weinke",
+      "aliases": [
+        "Christopher Jon Weinke"
+      ],
+      "popularity": 133839,
+      "rarity": 0.449,
+      "tier": 3,
+      "wiki": "Chris Weinke"
+    },
+    {
+      "name": "Charlie Ward",
+      "aliases": [
+        "Charlie Ward Jr."
+      ],
+      "popularity": 168980,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Charlie Ward"
+    },
+    {
+      "name": "Tom Harmon",
+      "aliases": [
+        "Old 98",
+        "Thomas Dudley Harmon",
+        "Thomas Harmon"
+      ],
+      "popularity": 189445,
+      "rarity": 0.427,
+      "tier": 3,
+      "wiki": "Tom Harmon"
+    },
+    {
+      "name": "Earl Campbell",
+      "aliases": [
+        "Earl Christian Campbell"
+      ],
+      "popularity": 196955,
+      "rarity": 0.416,
+      "tier": 3,
+      "wiki": "Earl Campbell"
+    },
+    {
+      "name": "Marcus Allen",
+      "aliases": [
+        "Marcus LeMarr Allen"
+      ],
+      "popularity": 199358,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Marcus Allen"
+    },
+    {
+      "name": "Tony Dorsett",
+      "aliases": [
+        "Anthony Drew Dorsett"
+      ],
+      "popularity": 209751,
+      "rarity": 0.393,
+      "tier": 2,
+      "wiki": "Tony Dorsett"
+    },
+    {
+      "name": "Mark Ingram II",
+      "aliases": [
+        "Mark Ingram",
+        "Mark Ingram Jr.",
+        "Mark Valentino Ingram II"
+      ],
+      "popularity": 216750,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Mark Ingram II"
+    },
+    {
+      "name": "Vinny Testaverde",
+      "aliases": [
+        "Vincent F. Testaverde",
+        "Vincent Frank Testaverde Sr."
+      ],
+      "popularity": 220408,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Vinny Testaverde"
+    },
+    {
+      "name": "Desmond Howard",
+      "aliases": [
+        "Desmond Kevin Howard"
+      ],
+      "popularity": 230060,
+      "rarity": 0.36,
+      "tier": 2,
+      "wiki": "Desmond Howard"
+    },
+    {
+      "name": "Carson Palmer",
+      "aliases": [
+        "Carson Hilton Palmer"
+      ],
+      "popularity": 243475,
+      "rarity": 0.348,
+      "tier": 2,
+      "wiki": "Carson Palmer"
+    },
+    {
+      "name": "Eddie George",
+      "aliases": [],
+      "popularity": 253119,
+      "rarity": 0.337,
+      "tier": 2,
+      "wiki": "Eddie George"
+    },
+    {
+      "name": "Steve Spurrier",
+      "aliases": [
+        "Head Ball Coach"
+      ],
+      "popularity": 259966,
+      "rarity": 0.326,
+      "tier": 2,
+      "wiki": "Steve Spurrier"
+    },
+    {
+      "name": "Jim Plunkett",
+      "aliases": [
+        "James William Plunkett"
+      ],
+      "popularity": 260525,
+      "rarity": 0.315,
+      "tier": 2,
+      "wiki": "Jim Plunkett"
+    },
+    {
+      "name": "Sam Bradford",
+      "aliases": [
+        "Samuel Jacob Bradford"
+      ],
+      "popularity": 261219,
+      "rarity": 0.303,
+      "tier": 2,
+      "wiki": "Sam Bradford"
+    },
+    {
+      "name": "Charles Woodson",
+      "aliases": [
+        "Charles C. Woodson",
+        "Charles Cameron Woodson"
+      ],
+      "popularity": 306692,
+      "rarity": 0.292,
+      "tier": 2,
+      "wiki": "Charles Woodson"
+    },
+    {
+      "name": "Ricky Williams",
+      "aliases": [
+        "Errick Lynne Williams Jr."
+      ],
+      "popularity": 319870,
+      "rarity": 0.281,
+      "tier": 2,
+      "wiki": "Ricky Williams"
+    },
+    {
+      "name": "Roger Staubach",
+      "aliases": [
+        "Roger Thomas Staubach"
+      ],
+      "popularity": 345055,
+      "rarity": 0.27,
+      "tier": 2,
+      "wiki": "Roger Staubach"
+    },
+    {
+      "name": "Robert Griffin III",
+      "aliases": [
+        "RG3",
+        "RGIII",
+        "Robert Griffin",
+        "Robert Lee Griffin III"
+      ],
+      "popularity": 373144,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Robert Griffin III"
+    },
+    {
+      "name": "Herschel Walker",
+      "aliases": [
+        "Herschel Junior Walker"
+      ],
+      "popularity": 390519,
+      "rarity": 0.247,
+      "tier": 2,
+      "wiki": "Herschel Walker"
+    },
+    {
+      "name": "DeVonta Smith",
+      "aliases": [],
+      "popularity": 405084,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "DeVonta Smith"
+    },
+    {
+      "name": "Reggie Bush",
+      "aliases": [],
+      "popularity": 413074,
+      "rarity": 0.225,
+      "tier": 2,
+      "wiki": "Reggie Bush"
+    },
+    {
+      "name": "Matt Leinart",
+      "aliases": [
+        "Matthew Stephen Leinart"
+      ],
+      "popularity": 421760,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Matt Leinart"
+    },
+    {
+      "name": "Travis Hunter",
+      "aliases": [],
+      "popularity": 434000,
+      "rarity": 0.202,
+      "tier": 2,
+      "wiki": "Travis Hunter"
+    },
+    {
+      "name": "Barry Sanders",
+      "aliases": [],
+      "popularity": 437179,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Barry Sanders"
+    },
+    {
+      "name": "Doug Flutie",
+      "aliases": [
+        "Douglas Richard Flutie"
+      ],
+      "popularity": 450206,
+      "rarity": 0.18,
+      "tier": 1,
+      "wiki": "Doug Flutie"
+    },
+    {
+      "name": "Marcus Mariota",
+      "aliases": [
+        "Marcus Ardel Taulauniu Mariota"
+      ],
+      "popularity": 683973,
+      "rarity": 0.169,
+      "tier": 1,
+      "wiki": "Marcus Mariota"
+    },
+    {
+      "name": "Johnny Manziel",
+      "aliases": [
+        "Johnathan Paul Manziel",
+        "Johnny Cocaine Machine Manny",
+        "Johnny Football"
+      ],
+      "popularity": 764109,
+      "rarity": 0.157,
+      "tier": 1,
+      "wiki": "Johnny Manziel"
+    },
+    {
+      "name": "Bryce Young",
+      "aliases": [
+        "Bryce Christopher Young"
+      ],
+      "popularity": 798639,
+      "rarity": 0.146,
+      "tier": 1,
+      "wiki": "Bryce Young"
+    },
+    {
+      "name": "Jayden Daniels",
+      "aliases": [],
+      "popularity": 881288,
+      "rarity": 0.135,
+      "tier": 1,
+      "wiki": "Jayden Daniels"
+    },
+    {
+      "name": "Bo Jackson",
+      "aliases": [
+        "Vincent Edward \"Bo\" Jackson"
+      ],
+      "popularity": 896458,
+      "rarity": 0.124,
+      "tier": 1,
+      "wiki": "Bo Jackson"
+    },
+    {
+      "name": "Lamar Jackson",
+      "aliases": [
+        "Lamar Demeatrice Jackson",
+        "Lamar Demeatrice Jackson Jr.",
+        "Lamar Jackson Jr."
+      ],
+      "popularity": 903095,
+      "rarity": 0.112,
+      "tier": 1,
+      "wiki": "Lamar Jackson"
+    },
+    {
+      "name": "Derrick Henry",
+      "aliases": [
+        "Derrick Lamar Henry",
+        "Derrick Lamar Henry Jr."
+      ],
+      "popularity": 927998,
+      "rarity": 0.101,
+      "tier": 1,
+      "wiki": "Derrick Henry"
+    },
+    {
+      "name": "Tim Tebow",
+      "aliases": [
+        "Tebow"
+      ],
+      "popularity": 950647,
+      "rarity": 0.09,
+      "tier": 1,
+      "wiki": "Tim Tebow"
+    },
+    {
+      "name": "Kyler Murray",
+      "aliases": [
+        "Kyler Cole Murray"
+      ],
+      "popularity": 1017185,
+      "rarity": 0.079,
+      "tier": 1,
+      "wiki": "Kyler Murray"
+    },
+    {
+      "name": "Baker Mayfield",
+      "aliases": [
+        "Baker Reagan Mayfield"
+      ],
+      "popularity": 1030915,
+      "rarity": 0.067,
+      "tier": 1,
+      "wiki": "Baker Mayfield"
+    },
+    {
+      "name": "Jameis Winston",
+      "aliases": [
+        "Famous Jameis",
+        "Jameis Lanaed Winston",
+        "Jameis1of1"
+      ],
+      "popularity": 1080966,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Jameis Winston"
+    },
+    {
+      "name": "Cam Newton",
+      "aliases": [
+        "Cameron Jerrell Newton"
+      ],
+      "popularity": 1093040,
+      "rarity": 0.045,
+      "tier": 1,
+      "wiki": "Cam Newton"
+    },
+    {
+      "name": "Joe Burrow",
+      "aliases": [
+        "Joe Cool",
+        "Joseph Lee Burrow"
+      ],
+      "popularity": 1136760,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Joe Burrow"
+    },
+    {
+      "name": "Caleb Williams",
+      "aliases": [],
+      "popularity": 1482759,
+      "rarity": 0.022,
+      "tier": 1,
+      "wiki": "Caleb Williams"
+    },
+    {
+      "name": "O. J. Simpson",
+      "aliases": [
+        "Juice",
+        "OJ Simpson",
+        "Orenthal James Simpson",
+        "The Juice"
+      ],
+      "popularity": 2983092,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "O. J. Simpson"
+    },
+    {
+      "name": "Fernando Mendoza",
+      "aliases": [
+        "Fernando Gabriel Mandoza",
+        "Fernando Gabriel Mendoza V",
+        "Nandolorian"
+      ],
+      "popularity": 5450642,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Fernando Mendoza"
+    }
+  ]
+}

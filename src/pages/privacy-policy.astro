@@ -54,9 +54,10 @@ const email = contactEmail();
     signal. We do not republish Wikipedia article text.
   </p>
   <p>
-    A prompt file can still be marked <code>source: fixture</code>. The sample "Name a species of
-    great ape" prompt is in that state. Popularity numbers on a fixture are placeholders, not live
-    pageviews. The <code>source</code> field on the prompt is the label to trust.
+    Each prompt's <code>source</code> field names the dataset behind it. The published prompts use
+    Wikidata with English Wikipedia pageviews, or Wiktionary pageviews for the English interjection
+    list. A file marked <code>source: fixture</code> would still be placeholder numbers. None of the
+    published prompts use that label.
   </p>
   <h2>Third-party services</h2>
   <p>

@@ -37,11 +37,12 @@ const email = contactEmail();
   <h2>Scores and accuracy</h2>
   <p>
     A tier is a rank inside that prompt's answer list. It is computed from the popularity number
-    stored with the answer. When the dataset has been built, that number is a Wikipedia pageview
-    count for the answer's Wikipedia article. A prompt whose <code>source</code> is <code>fixture</code>
-    still has placeholder numbers. The sample great-ape prompt is a fixture. Rankings change when
-    the dataset is rebuilt. A score is not a scientific ranking, a box-office ranking, or a claim
-    that one real-world thing is "better" than another.
+    stored with the answer. On the published prompts, that number is a Wikipedia pageview count, or
+    a Wiktionary pageview count for the English interjection list. A prompt whose
+    <code>source</code> is <code>fixture</code> would still have placeholder numbers. None of the
+    published prompts use that label. Rankings change when the dataset is rebuilt. A score is not a
+    scientific ranking, a box-office ranking, or a claim that one real-world thing is "better" than
+    another.
   </p>
   <p>
     We try to keep guides accurate. A rule that a public page does not state is left out rather

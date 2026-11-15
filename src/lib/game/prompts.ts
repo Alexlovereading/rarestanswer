@@ -70,7 +70,7 @@ export function toClientPrompt(value: unknown): ClientPrompt | null {
     if (answer) answers.push(answer);
   }
   if (answers.length === 0) return null;
-  answers.sort((a, b) => b.rarity - a.rarity || b.tier - a.tier || (a.name < b.name ? -1 : 1));
+  answers.sort((a, b) => b.rarity - a.rarity || b.tier - a.tier || a.name.localeCompare(b.name, 'en'));
   const id = typeof value.id === 'string' && value.id.length > 0 ? value.id : slug;
   return { id, slug, category, question, answers };
 }

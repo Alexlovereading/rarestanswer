@@ -95,7 +95,7 @@ export const GET: APIRoute = async () => {
     '',
     `${site.game.name} is a free browser trivia game. A rarer correct answer scores more. A daily round is seven shared prompts and resets at local midnight. Unlimited play is a separate mode. There is no account. Streak and round stats stay in localStorage on the device.`,
     '',
-    'Prompt lists are compiled from Wikidata (CC0) and Wikipedia pageview counts. A prompt whose source is "fixture" still has placeholder popularity numbers. The site is not affiliated with Krillion or with any other game named on the game and guide pages.',
+    'Prompt lists are compiled from Wikidata (CC0) and Wikipedia or Wiktionary pageview counts. English interjections use Wiktionary pageviews. A prompt whose source is "fixture" would still have placeholder popularity numbers. The published prompts do not use that label. The site is not affiliated with Krillion or with any other game named on the game and guide pages.',
     '',
     'Six score tiers: Common 5, Familiar 10, Uncommon 20, Rare 40, Epic 70, Legendary 100. Legendary is the rarest. Spotlight doubles one prompt, once per round.',
     '',

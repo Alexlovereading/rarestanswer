@@ -1,0 +1,695 @@
+{
+  "id": "simpsons-characters",
+  "slug": "simpsons-characters",
+  "category": "screen",
+  "question": "Name a character from The Simpsons",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Gino Terwilliger",
+      "aliases": [],
+      "popularity": 135,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Gino Terwilliger"
+    },
+    {
+      "name": "Sea Captain",
+      "aliases": [
+        "Captain Horatio McCallister",
+        "Sea Captain (The Simpsons)",
+        "The Sea Captain"
+      ],
+      "popularity": 319,
+      "rarity": 0.984,
+      "tier": 6,
+      "wiki": "Sea Captain (The Simpsons)"
+    },
+    {
+      "name": "Brandine Spuckler",
+      "aliases": [],
+      "popularity": 510,
+      "rarity": 0.968,
+      "tier": 6,
+      "wiki": "Brandine Spuckler"
+    },
+    {
+      "name": "Jebediah Springfield",
+      "aliases": [
+        "Hans Sprungfeld",
+        "Jebediah Obadiah Zachariah Jedediah Springfield"
+      ],
+      "popularity": 1414,
+      "rarity": 0.952,
+      "tier": 6,
+      "wiki": "Jebediah Springfield"
+    },
+    {
+      "name": "Snowball",
+      "aliases": [
+        "Snowball III",
+        "Snowball IV",
+        "Snowball (The Simpsons)",
+        "Snowball V"
+      ],
+      "popularity": 1695,
+      "rarity": 0.935,
+      "tier": 6,
+      "wiki": "Snowball (The Simpsons)"
+    },
+    {
+      "name": "Dr. Marvin Monroe",
+      "aliases": [
+        "Marvin Monroe"
+      ],
+      "popularity": 1716,
+      "rarity": 0.919,
+      "tier": 5,
+      "wiki": "Dr. Marvin Monroe"
+    },
+    {
+      "name": "Dr. Nick",
+      "aliases": [
+        "Dr. Nicholas Riviera",
+        "Dr. Nick Riviera",
+        "Nicholas Riviera",
+        "Nick Riviera"
+      ],
+      "popularity": 1762,
+      "rarity": 0.903,
+      "tier": 5,
+      "wiki": "Dr. Nick"
+    },
+    {
+      "name": "Herbert Powell",
+      "aliases": [
+        "Herb Powell",
+        "Herb Simpson",
+        "Herbert Powell (The Simpsons)",
+        "Herbert Simpson"
+      ],
+      "popularity": 1956,
+      "rarity": 0.887,
+      "tier": 5,
+      "wiki": "Herbert Powell (The Simpsons)"
+    },
+    {
+      "name": "Dolph Starbeam",
+      "aliases": [
+        "Dolph",
+        "Dolphin Starbeam"
+      ],
+      "popularity": 2110,
+      "rarity": 0.871,
+      "tier": 5,
+      "wiki": "Dolph Starbeam"
+    },
+    {
+      "name": "Disco Stu",
+      "aliases": [],
+      "popularity": 2292,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Disco Stu"
+    },
+    {
+      "name": "Rod Flanders",
+      "aliases": [
+        "Rod"
+      ],
+      "popularity": 3158,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Rod Flanders"
+    },
+    {
+      "name": "Kearney Zzyzwicz",
+      "aliases": [
+        "Kearney"
+      ],
+      "popularity": 3200,
+      "rarity": 0.823,
+      "tier": 5,
+      "wiki": "Kearney Zzyzwicz"
+    },
+    {
+      "name": "Luann Van Houten",
+      "aliases": [],
+      "popularity": 3560,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Luann Van Houten"
+    },
+    {
+      "name": "Agnes Skinner",
+      "aliases": [
+        "Agnes Tamzarian"
+      ],
+      "popularity": 3746,
+      "rarity": 0.79,
+      "tier": 4,
+      "wiki": "Agnes Skinner"
+    },
+    {
+      "name": "Patty Bouvier",
+      "aliases": [
+        "Patricia Maleficent Bouvier",
+        "Patricia \"Patty\" Maleficent Bouvier"
+      ],
+      "popularity": 4063,
+      "rarity": 0.774,
+      "tier": 4,
+      "wiki": "Patty Bouvier"
+    },
+    {
+      "name": "Snake Jailbird",
+      "aliases": [],
+      "popularity": 4133,
+      "rarity": 0.758,
+      "tier": 4,
+      "wiki": "Snake Jailbird"
+    },
+    {
+      "name": "Selma Bouvier",
+      "aliases": [],
+      "popularity": 4468,
+      "rarity": 0.742,
+      "tier": 4,
+      "wiki": "Selma Bouvier"
+    },
+    {
+      "name": "Todd Flanders",
+      "aliases": [
+        "Todd",
+        "Todd Homer Flanders"
+      ],
+      "popularity": 4528,
+      "rarity": 0.726,
+      "tier": 4,
+      "wiki": "Todd Flanders"
+    },
+    {
+      "name": "Bleeding Gums Murphy",
+      "aliases": [],
+      "popularity": 6186,
+      "rarity": 0.71,
+      "tier": 4,
+      "wiki": "Bleeding Gums Murphy"
+    },
+    {
+      "name": "Sideshow Mel",
+      "aliases": [
+        "Mel",
+        "Melvin Van Horne"
+      ],
+      "popularity": 6204,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Sideshow Mel"
+    },
+    {
+      "name": "Lenny Leonard",
+      "aliases": [],
+      "popularity": 6380,
+      "rarity": 0.677,
+      "tier": 4,
+      "wiki": "Lenny Leonard"
+    },
+    {
+      "name": "Cletus Spuckler",
+      "aliases": [
+        "Cletus Delroy Spuckler",
+        "Cletus the Slack-Jawed Yokel"
+      ],
+      "popularity": 6398,
+      "rarity": 0.661,
+      "tier": 4,
+      "wiki": "Cletus Spuckler"
+    },
+    {
+      "name": "Carl Carlson",
+      "aliases": [
+        "Carl"
+      ],
+      "popularity": 6859,
+      "rarity": 0.645,
+      "tier": 4,
+      "wiki": "Carl Carlson"
+    },
+    {
+      "name": "Hans Moleman",
+      "aliases": [
+        "Ralph Melish"
+      ],
+      "popularity": 7451,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Hans Moleman"
+    },
+    {
+      "name": "Otto Mann",
+      "aliases": [],
+      "popularity": 7751,
+      "rarity": 0.613,
+      "tier": 4,
+      "wiki": "Otto Mann"
+    },
+    {
+      "name": "Jimbo Jones",
+      "aliases": [],
+      "popularity": 8399,
+      "rarity": 0.597,
+      "tier": 3,
+      "wiki": "Jimbo Jones"
+    },
+    {
+      "name": "Kirk Van Houten",
+      "aliases": [],
+      "popularity": 9577,
+      "rarity": 0.581,
+      "tier": 3,
+      "wiki": "Kirk Van Houten"
+    },
+    {
+      "name": "Superintendent Chalmers",
+      "aliases": [
+        "Gary Chalmers",
+        "Super Nintendo Chalmers",
+        "Superintendent Gary Chalmers"
+      ],
+      "popularity": 10663,
+      "rarity": 0.565,
+      "tier": 3,
+      "wiki": "Superintendent Chalmers"
+    },
+    {
+      "name": "Maude Flanders",
+      "aliases": [],
+      "popularity": 11944,
+      "rarity": 0.548,
+      "tier": 3,
+      "wiki": "Maude Flanders"
+    },
+    {
+      "name": "Martin Prince",
+      "aliases": [],
+      "popularity": 13890,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Martin Prince"
+    },
+    {
+      "name": "Kent Brockman",
+      "aliases": [
+        "Kenny Brockelstein"
+      ],
+      "popularity": 17875,
+      "rarity": 0.516,
+      "tier": 3,
+      "wiki": "Kent Brockman"
+    },
+    {
+      "name": "Mona Simpson",
+      "aliases": [
+        "Mona Penelope Olsen",
+        "Mona Penelope Simpson",
+        "Mona Simpson (The Simpsons)",
+        "Penelope Mona Olsen",
+        "Penelope Mona Simpson"
+      ],
+      "popularity": 23383,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Mona Simpson (The Simpsons)"
+    },
+    {
+      "name": "Professor Frink",
+      "aliases": [
+        "Jonathan Frink",
+        "Professor John Frink",
+        "Professor John Nerdelbaum Frink"
+      ],
+      "popularity": 28663,
+      "rarity": 0.484,
+      "tier": 3,
+      "wiki": "Professor Frink"
+    },
+    {
+      "name": "Mayor Quimby",
+      "aliases": [
+        "Diamond Joe",
+        "Joe Quimby"
+      ],
+      "popularity": 32868,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Mayor Quimby"
+    },
+    {
+      "name": "Reverend Lovejoy",
+      "aliases": [
+        "Rev. Lovejoy",
+        "Reverend Timothy Lovejoy",
+        "Timothy Lovejoy"
+      ],
+      "popularity": 33388,
+      "rarity": 0.452,
+      "tier": 3,
+      "wiki": "Reverend Lovejoy"
+    },
+    {
+      "name": "Dr. Hibbert",
+      "aliases": [
+        "Dr. Julius Hibbert",
+        "Dr. Julius M. Hibbert",
+        "Julius Hibbert",
+        "Julius M. Hibbert"
+      ],
+      "popularity": 33535,
+      "rarity": 0.435,
+      "tier": 3,
+      "wiki": "Dr. Hibbert"
+    },
+    {
+      "name": "Chief Wiggum",
+      "aliases": [
+        "Chief Clancy Wiggum",
+        "Clancy Wiggum",
+        "Police Chief Wiggum",
+        "Wiggum"
+      ],
+      "popularity": 34278,
+      "rarity": 0.419,
+      "tier": 3,
+      "wiki": "Chief Wiggum"
+    },
+    {
+      "name": "Groundskeeper Willie",
+      "aliases": [
+        "Dr. William MacDougal",
+        "G.K. Willington Esquire",
+        "William MacDougal",
+        "William MacMoran",
+        "Willie MacDougal"
+      ],
+      "popularity": 36556,
+      "rarity": 0.403,
+      "tier": 3,
+      "wiki": "Groundskeeper Willie"
+    },
+    {
+      "name": "Nelson Muntz",
+      "aliases": [
+        "Nelson Mandela Muntz"
+      ],
+      "popularity": 36982,
+      "rarity": 0.387,
+      "tier": 2,
+      "wiki": "Nelson Muntz"
+    },
+    {
+      "name": "Kang and Kodos",
+      "aliases": [
+        "Kodos and Kang"
+      ],
+      "popularity": 39240,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Kang and Kodos"
+    },
+    {
+      "name": "Barney Gumble",
+      "aliases": [
+        "Barnard Arnold \"Barney\" Gumble",
+        "Barnard Arnold Gumble"
+      ],
+      "popularity": 40826,
+      "rarity": 0.355,
+      "tier": 2,
+      "wiki": "Barney Gumble"
+    },
+    {
+      "name": "Fat Tony",
+      "aliases": [
+        "Anthony \"Fat Tony\" D'Amico",
+        "Fat Tony (The Simpsons)",
+        "Marion Anthony D'Amico"
+      ],
+      "popularity": 41466,
+      "rarity": 0.339,
+      "tier": 2,
+      "wiki": "Fat Tony (The Simpsons)"
+    },
+    {
+      "name": "Grampa Simpson",
+      "aliases": [
+        "Abe Simpson",
+        "Abraham \"Abe\" Simpson",
+        "Abraham J. Simpson",
+        "Abraham Jebediah \"Abe\" Simpson II",
+        "Abraham Jebediah Simpson II",
+        "Abraham Simpson",
+        "Grampa",
+        "Grandpa Simpson"
+      ],
+      "popularity": 46837,
+      "rarity": 0.323,
+      "tier": 2,
+      "wiki": "Grampa Simpson"
+    },
+    {
+      "name": "Principal Skinner",
+      "aliases": [
+        "Armin Tamzarian",
+        "Principal Seymour Skinner",
+        "Seymour Skinner",
+        "W. Seymour Skinner"
+      ],
+      "popularity": 47509,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Principal Skinner"
+    },
+    {
+      "name": "Comic Book Guy",
+      "aliases": [
+        "Jeff Albertson",
+        "Jeffrey Albertson",
+        "Jeffrey \"Jeff\" Albertson"
+      ],
+      "popularity": 50155,
+      "rarity": 0.29,
+      "tier": 2,
+      "wiki": "Comic Book Guy"
+    },
+    {
+      "name": "Santa's Little Helper",
+      "aliases": [],
+      "popularity": 56564,
+      "rarity": 0.274,
+      "tier": 2,
+      "wiki": "Santa's Little Helper"
+    },
+    {
+      "name": "Lionel Hutz",
+      "aliases": [],
+      "popularity": 58813,
+      "rarity": 0.258,
+      "tier": 2,
+      "wiki": "Lionel Hutz"
+    },
+    {
+      "name": "Milhouse Van Houten",
+      "aliases": [
+        "Milhouse Mussolini Van Houten"
+      ],
+      "popularity": 59201,
+      "rarity": 0.242,
+      "tier": 2,
+      "wiki": "Milhouse Van Houten"
+    },
+    {
+      "name": "Waylon Smithers",
+      "aliases": [
+        "Mr. Smithers",
+        "Smithers",
+        "Waylon J. Smithers",
+        "Waylon J. Smithers Jr.",
+        "Waylon Smithers Jr."
+      ],
+      "popularity": 61399,
+      "rarity": 0.226,
+      "tier": 2,
+      "wiki": "Waylon Smithers"
+    },
+    {
+      "name": "Ralph Wiggum",
+      "aliases": [
+        "Ralph"
+      ],
+      "popularity": 69884,
+      "rarity": 0.21,
+      "tier": 2,
+      "wiki": "Ralph Wiggum"
+    },
+    {
+      "name": "Moe Szyslak",
+      "aliases": [
+        "Morris \"Moe\" Szyslak",
+        "Morris Szyslak"
+      ],
+      "popularity": 73435,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Moe Szyslak"
+    },
+    {
+      "name": "Krusty the Clown",
+      "aliases": [
+        "Herschek Shmoikel Pinkus Yerucham Krustofsky",
+        "Herschel Krustofsky",
+        "Krusty the Klown"
+      ],
+      "popularity": 86868,
+      "rarity": 0.177,
+      "tier": 1,
+      "wiki": "Krusty the Clown"
+    },
+    {
+      "name": "Edna Krabappel",
+      "aliases": [
+        "Edna Krabappel-Flanders",
+        "Mrs. Krabappel",
+        "Ms. Krabappel"
+      ],
+      "popularity": 95724,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Edna Krabappel"
+    },
+    {
+      "name": "Troy McClure",
+      "aliases": [],
+      "popularity": 100733,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Troy McClure"
+    },
+    {
+      "name": "Maggie Simpson",
+      "aliases": [
+        "Margaret Lenny \"Maggie\" Simpson",
+        "Margaret Lenny Simpson",
+        "Margaret \"Maggie\" Simpson"
+      ],
+      "popularity": 101295,
+      "rarity": 0.129,
+      "tier": 1,
+      "wiki": "Maggie Simpson"
+    },
+    {
+      "name": "Ned Flanders",
+      "aliases": [
+        "Flanders",
+        "Ned",
+        "Nedward Flanders Jr.",
+        "Nedward \"Ned\" Flanders"
+      ],
+      "popularity": 115883,
+      "rarity": 0.113,
+      "tier": 1,
+      "wiki": "Ned Flanders"
+    },
+    {
+      "name": "Lisa Simpson",
+      "aliases": [
+        "Lisa Marie Simpson",
+        "Lise"
+      ],
+      "popularity": 127402,
+      "rarity": 0.097,
+      "tier": 1,
+      "wiki": "Lisa Simpson"
+    },
+    {
+      "name": "Mr. Burns",
+      "aliases": [
+        "C. M. Burns",
+        "C. Montgomery Burns",
+        "Charles Montgomery Burns",
+        "Charles Montgomery Plantagenet Schicklgruber Burns",
+        "Montgomery Burns",
+        "Monty Burns"
+      ],
+      "popularity": 134414,
+      "rarity": 0.081,
+      "tier": 1,
+      "wiki": "Mr. Burns"
+    },
+    {
+      "name": "Apu Nahasapeemapetilon",
+      "aliases": [
+        "Apu Nahasapeemapetilan"
+      ],
+      "popularity": 177584,
+      "rarity": 0.065,
+      "tier": 1,
+      "wiki": "Apu Nahasapeemapetilon"
+    },
+    {
+      "name": "Marge Simpson",
+      "aliases": [
+        "Marge Bouvier",
+        "Marjorie Bouvier",
+        "Marjorie Bouvier \"Marge\" Simpson",
+        "Marjorie Bouvier Simpson"
+      ],
+      "popularity": 194870,
+      "rarity": 0.048,
+      "tier": 1,
+      "wiki": "Marge Simpson"
+    },
+    {
+      "name": "Sideshow Bob",
+      "aliases": [
+        "Bob Terwilliger",
+        "Bob Terwilliger Jr.",
+        "Robert \"Bob\" Terwilliger",
+        "Robert Onderdonk Terwilliger",
+        "Robert Onderdonk Terwilliger Jr.",
+        "Robert Terwilliger"
+      ],
+      "popularity": 195168,
+      "rarity": 0.032,
+      "tier": 1,
+      "wiki": "Sideshow Bob"
+    },
+    {
+      "name": "Homer Simpson",
+      "aliases": [
+        "Jay Simpson Homer"
+      ],
+      "popularity": 320914,
+      "rarity": 0.016,
+      "tier": 1,
+      "wiki": "Homer Simpson"
+    },
+    {
+      "name": "Bart Simpson",
+      "aliases": [
+        "Bartholomew Jo-Jo \"Bart\" Simpson",
+        "Bartholomew Jo-Jo Simpson",
+        "Bartman",
+        "El Barto",
+        "Ratboy",
+        "The Bartman",
+        "The Boy"
+      ],
+      "popularity": 371350,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Bart Simpson"
+    }
+  ],
+  "seoNoun": "Simpsons characters"
+}

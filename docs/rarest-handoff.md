@@ -344,3 +344,25 @@ Fixes that change the answer set: Central America (7 states), European capitals 
 
 - C1-DATA-AUDIT → whoever next runs the data build: re-run `pnpm build-prompts` after this file is what you want fetched. Do not trust the prompts written by the build that was already in flight.
 - C1-DATA-AUDIT → W2-QA: a prompt under 15 answers is still dropped by the builder, except great apes (8) and Stranger Things (12).
+
+## F1-TEST-FIX done
+
+Engine tests no longer read `src/data/prompts/`. Matching, rarity order, and the one-prompt daily round use a frozen copy of the W0 placeholder: `tests/fixtures/great-ape-species.json` (`source: "fixture"`, 8 answers, Tapanuli orangutan rarest, Eastern gorilla second, Chimpanzee then Human at the common end, including the `grauer's gorilla` / `chimpanzees` aliases) and `tests/fixtures/prompts-index.json` (that one index row). A one-prompt catalog still deals `great-ape-species` once, on two different dates, and an empty catalog still deals nothing. The game-data route check still requires `readPromptIndex` in `src/pages/game-data/[slug].json.ts` and rejects a slug the loader's regex refuses. It does not assert the live file's question or rarity order.
+
+One new smoke test in `tests/game-engine.test.ts` reads the live catalog at whatever size it is. Every `src/data/prompts/<slug>.json` except `index.json` matches an index row (`id`, `slug`, `category`, `question`, `answerCount`), the filename is that slug, the slug passes `isSlug`, answers are rarest-first (rarity, then tier, then name), and every tier is 1, 2, 3, 4, 5, or 6. The reverse is checked too: every index slug has that file. At this run the catalog was 252 files. The test does not pin that count.
+
+`pnpm test`: 25 files, 486 passed, 2 skipped. `tests/game-engine.test.ts` is 25 tests. `pnpm lint` passed. `pnpm typecheck` passed with 0 errors. The missing `src/content/tutorials/` glob warning is unchanged. No commit.
+
+## F2-DATA-FILL done
+
+`pnpm build-prompts` finished and wrote 276 prompts. Per category: geography 37, animals 51, food 33, sports 31, screen 30, music 31, science 32, history 31. Sports, screen, and history are each at least 30. `pnpm exec astro build --outDir /tmp/f2-dist` completed (335 pages, exit 0). `assertPromptDefs()` passes. Profanity filter and the other EXCLUDED_SLUGS reasons are unchanged. `tour-de-france-winners` left the exclusion list because its query is now the Wikipedia category set. No commit.
+
+Planets: the 13 IAU bodies (optimizer hint + VALUES). The builder query returned those 13, so the answer minimum for that slug is 13. Written names are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Ceres, Pluto, Haumea, Makemake, and Eris.
+
+Stranger Things: 129 names from a MediaWiki parse of "List of Stranger Things characters" (cast tables, character headings, recurring and guest credits). A name with no article counts as 1 pageview. Barb, Dr. Brenner, Papa, Eddie Munson, Erica Sinclair, Murray Bauman, Argyle, Bob Newby, Karen Wheeler, and Demogorgon are accepted. seoNoun is still "Stranger Things characters".
+
+New or fixed sets, written count equals the checked count: Summer Olympics 30 (held games through 2024; 1916, 1940, and 1944 out; 2028 and later out). Formula One World Drivers' Champions 36, including Antonelli. NBA MVPs 37, with Lew Alcindor as an alias of Kareem Abdul-Jabbar. Ballon d'Or 48 men's 1st-place winners through Harry Kane, not the Féminin award. Heisman 90. World Series MVPs 69. Formula One constructors' champions 15. Super Bowl MVPs 50. Super Bowl-winning head coaches 37. Stanley Cup-winning head coaches 56. Tour de France 64. Simpsons characters 63. MCU film characters 36. Doctor Who incarnations 17 (First through Fifteenth, War, Fugitive). Best Actor 87. Best Actress 81 (Sonia Mbele removed; her article does not support the award). Best Supporting Actor 81, including Haing S. Ngor. Best Supporting Actress 88. Emmy Outstanding Comedy Series 40. Lord of the Rings characters 36. Roman deities 209. World wonders 21. Commonwealth members 56, from the current-members table, because the P463 query times out; the United Kingdom and Trinidad and Tobago are in the set.
+
+Details and the returned-versus-expected table are in `docs/rarest-data-audit.md`.
+
+- F2-DATA-FILL → W2-QA: the live catalog is 276 prompts. A prompt under 15 answers is still dropped, except great apes (8) and planets and dwarf planets (13). Stranger Things no longer has a lower minimum.

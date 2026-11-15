@@ -1,0 +1,383 @@
+{
+  "id": "summer-olympics",
+  "slug": "summer-olympics",
+  "category": "sports",
+  "question": "Name a Summer Olympics",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "1908 Summer Olympics",
+      "aliases": [
+        "Games of the IV Olympiad",
+        "London 1908"
+      ],
+      "popularity": 96803,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "1908 Summer Olympics"
+    },
+    {
+      "name": "1924 Summer Olympics",
+      "aliases": [
+        "Games of the VIII Olympiad",
+        "Paris 1924"
+      ],
+      "popularity": 97115,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "1924 Summer Olympics"
+    },
+    {
+      "name": "1932 Summer Olympics",
+      "aliases": [
+        "10th Olympic Games",
+        "Games of the X Olympiad",
+        "Los Angeles 1932"
+      ],
+      "popularity": 101325,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "1932 Summer Olympics"
+    },
+    {
+      "name": "1912 Summer Olympics",
+      "aliases": [
+        "Games of the V Olympiad",
+        "Stockholm 1912"
+      ],
+      "popularity": 101413,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "1912 Summer Olympics"
+    },
+    {
+      "name": "1960 Summer Olympics",
+      "aliases": [
+        "Games of the XVII Olympiad",
+        "Rome 1960"
+      ],
+      "popularity": 102930,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "1960 Summer Olympics"
+    },
+    {
+      "name": "1920 Summer Olympics",
+      "aliases": [
+        "Antwerp 1920",
+        "Games of the VII Olympiad"
+      ],
+      "popularity": 103582,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "1920 Summer Olympics"
+    },
+    {
+      "name": "1952 Summer Olympics",
+      "aliases": [
+        "Games of the XV Olympiad",
+        "Helsinki 1952"
+      ],
+      "popularity": 104846,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "1952 Summer Olympics"
+    },
+    {
+      "name": "1900 Summer Olympics",
+      "aliases": [
+        "Games of the II Olympiad",
+        "Paris 1900"
+      ],
+      "popularity": 107871,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "1900 Summer Olympics"
+    },
+    {
+      "name": "1928 Summer Olympics",
+      "aliases": [
+        "Amsterdam 1928",
+        "Games of the IX Olympiad"
+      ],
+      "popularity": 116919,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "1928 Summer Olympics"
+    },
+    {
+      "name": "1904 Summer Olympics",
+      "aliases": [
+        "Games of the III Olympiad",
+        "Saint Louis 1904",
+        "St. Louis 1904"
+      ],
+      "popularity": 125443,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "1904 Summer Olympics"
+    },
+    {
+      "name": "1956 Summer Olympics",
+      "aliases": [
+        "Games of the XVI Olympiad",
+        "Melbourne 1956",
+        "The 1956 Summer Olympics"
+      ],
+      "popularity": 127411,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "1956 Summer Olympics"
+    },
+    {
+      "name": "1964 Summer Olympics",
+      "aliases": [
+        "Games of the 18th Olympiad",
+        "Games of the XVIII Olympiad",
+        "Tokyo 1964"
+      ],
+      "popularity": 129149,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "1964 Summer Olympics"
+    },
+    {
+      "name": "1968 Summer Olympics",
+      "aliases": [
+        "Games of the XIX Olympiad",
+        "Mexico 1968",
+        "Mexico City 1968"
+      ],
+      "popularity": 140545,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "1968 Summer Olympics"
+    },
+    {
+      "name": "1976 Summer Olympics",
+      "aliases": [
+        "Games of the XXI Olympiad",
+        "Montréal 1976"
+      ],
+      "popularity": 204270,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "1976 Summer Olympics"
+    },
+    {
+      "name": "1972 Summer Olympics",
+      "aliases": [
+        "Games of the XX Olympiad",
+        "Munich 1972"
+      ],
+      "popularity": 215661,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "1972 Summer Olympics"
+    },
+    {
+      "name": "1988 Summer Olympics",
+      "aliases": [
+        "1988 Olympics",
+        "Games of the XXIV Olympiad",
+        "Seoul 1988",
+        "Seoul 1988 Olympics",
+        "Seoul '88",
+        "Seoul Olympics"
+      ],
+      "popularity": 220152,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "1988 Summer Olympics"
+    },
+    {
+      "name": "1992 Summer Olympics",
+      "aliases": [
+        "1992 Olympics",
+        "1992 Summer Olympic Games",
+        "Barcelona 1992",
+        "Barcelona '92",
+        "Games of the XXV Olympiad"
+      ],
+      "popularity": 220945,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "1992 Summer Olympics"
+    },
+    {
+      "name": "1948 Summer Olympics",
+      "aliases": [
+        "Games of the XIV Olympiad",
+        "London 1948"
+      ],
+      "popularity": 224197,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "1948 Summer Olympics"
+    },
+    {
+      "name": "1896 Summer Olympics",
+      "aliases": [],
+      "popularity": 226967,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "1896 Summer Olympics"
+    },
+    {
+      "name": "1980 Summer Olympics",
+      "aliases": [
+        "1980 Moscow",
+        "Juegos de la XXII Olimpiada",
+        "Moscow 1980"
+      ],
+      "popularity": 234470,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "1980 Summer Olympics"
+    },
+    {
+      "name": "1984 Summer Olympics",
+      "aliases": [
+        "1984 Olympics",
+        "Games of the XXIII Olympiad",
+        "LA84",
+        "Los Angeles 1984"
+      ],
+      "popularity": 256695,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "1984 Summer Olympics"
+    },
+    {
+      "name": "2000 Summer Olympics",
+      "aliases": [
+        "2000 Olympics",
+        "Games of the XXVII Olympics",
+        "Sydney 2000",
+        "Sydney Olympics",
+        "The 2000 Summer Olympics"
+      ],
+      "popularity": 257503,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "2000 Summer Olympics"
+    },
+    {
+      "name": "2004 Summer Olympics",
+      "aliases": [
+        "Athens 2004",
+        "Games of the XXVIII Olympiad"
+      ],
+      "popularity": 263987,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "2004 Summer Olympics"
+    },
+    {
+      "name": "1996 Summer Olympics",
+      "aliases": [
+        "1996 Atlanta Summer Olympics",
+        "1996 Olympics",
+        "Atlanta 1996",
+        "Centennial Olympic Games",
+        "Centennial Olympics",
+        "Games of the XXVI Olympiad"
+      ],
+      "popularity": 293015,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "1996 Summer Olympics"
+    },
+    {
+      "name": "2008 Summer Olympics",
+      "aliases": [
+        "2008 Olympics",
+        "Beijing 2008",
+        "Games of the XXIX Olympiad",
+        "The Beijing Olympics"
+      ],
+      "popularity": 328082,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "2008 Summer Olympics"
+    },
+    {
+      "name": "1936 Summer Olympics",
+      "aliases": [
+        "Berlin 1936",
+        "Games of the XI Olympiad"
+      ],
+      "popularity": 370456,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "1936 Summer Olympics"
+    },
+    {
+      "name": "2016 Summer Olympics",
+      "aliases": [
+        "2016 Olympics",
+        "2016 Summer Olympic Games",
+        "Games of the XXXI Olympiad",
+        "Rio 2016",
+        "Rio de Janeiro 2016",
+        "Rio de Janeiro Olympic Games",
+        "Rio Olympics"
+      ],
+      "popularity": 389110,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "2016 Summer Olympics"
+    },
+    {
+      "name": "2012 Summer Olympics",
+      "aliases": [
+        "2012 London Olympics",
+        "2012 Olympics",
+        "Games of the XXX Olympiad",
+        "London 2012",
+        "London Olympic Games",
+        "London Olympics"
+      ],
+      "popularity": 409118,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "2012 Summer Olympics"
+    },
+    {
+      "name": "2020 Summer Olympics",
+      "aliases": [
+        "2020 Olympic Games",
+        "2020 Olympics",
+        "2020 Tokyo Olympics",
+        "2021 Olympic Games",
+        "2021 Olympics",
+        "2021 Summer Olympics",
+        "Games of the XXXII Olympiad",
+        "Olympics 2020",
+        "The Tokyo Olympics",
+        "Tokyo 2020",
+        "Tokyo Olympic Games",
+        "Tokyo Olympics"
+      ],
+      "popularity": 589511,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "2020 Summer Olympics"
+    },
+    {
+      "name": "2024 Summer Olympics",
+      "aliases": [
+        "2024 Olympic Games",
+        "2024 Olympics",
+        "Olympic Games Paris 2024",
+        "Paris 2024",
+        "Paris Olympic Games 2024",
+        "Paris Olympics 2024"
+      ],
+      "popularity": 1268763,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "2024 Summer Olympics"
+    }
+  ]
+}

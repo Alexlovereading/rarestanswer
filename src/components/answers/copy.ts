@@ -60,6 +60,8 @@ export interface PromptSeo {
   description: string;
   intro: string;
   viewsNote: string;
+  /** Column heading: Wikipedia views, Wiktionary views, or stored popularity. */
+  viewsHeading: string;
   sourceNote: string;
   answers: Answer[];
   faq: FaqItem[];
@@ -142,21 +144,43 @@ export function wikipediaUrl(title: string): string {
   return `https://en.wikipedia.org/wiki/${slug}`;
 }
 
-function usesWikipediaSignal(source: string): boolean {
-  return /wikipedia|page\s*views?/i.test(source);
+type MeasureKind = 'wikipedia' | 'wiktionary' | 'stored';
+
+/** Wiktionary is checked first: those source lines also contain "pageviews". */
+function measureKind(source: string): MeasureKind {
+  if (/wiktionary/i.test(source)) return 'wiktionary';
+  if (/wikipedia|page\s*views?/i.test(source)) return 'wikipedia';
+  return 'stored';
+}
+
+function measurePhrase(source: string): string {
+  const kind = measureKind(source);
+  if (kind === 'wiktionary') return 'monthly Wiktionary views';
+  if (kind === 'wikipedia') return 'monthly Wikipedia views';
+  return 'popularity';
+}
+
+/** Table heading for the popularity column. */
+export function viewsColumnLabel(source: string): string {
+  const kind = measureKind(source);
+  if (kind === 'wiktionary') return 'Monthly Wiktionary views';
+  if (kind === 'wikipedia') return 'Monthly Wikipedia views';
+  return 'Popularity';
 }
 
 /** Card label next to a popularity figure. */
 export function formatMeasure(n: number, source: string): string {
   const formatted = formatViews(n);
-  if (usesWikipediaSignal(source)) return `${formatted} monthly Wikipedia views`;
-  return `Popularity ${formatted}`;
+  const phrase = measurePhrase(source);
+  if (phrase === 'popularity') return `Popularity ${formatted}`;
+  return `${formatted} ${phrase}`;
 }
 
 function withMeasure(n: number, source: string): string {
   const formatted = formatViews(n);
-  if (usesWikipediaSignal(source)) return `${formatted} monthly Wikipedia views`;
-  return `a popularity of ${formatted}`;
+  const phrase = measurePhrase(source);
+  if (phrase === 'popularity') return `a popularity of ${formatted}`;
+  return `${formatted} ${phrase}`;
 }
 
 function normalizePhrase(text: string): string {
@@ -312,7 +336,7 @@ function joinNames(names: string[]): string {
 function compareAnswers(a: Answer, b: Answer): number {
   if (b.rarity !== a.rarity) return b.rarity - a.rarity;
   if (a.popularity !== b.popularity) return a.popularity - b.popularity;
-  return a.name.localeCompare(b.name);
+  return a.name.localeCompare(b.name, 'en');
 }
 
 function rarestSentence(rare: Answer, nounPhrase: string, source: string): string {
@@ -405,7 +429,7 @@ function buildIntro(
 
   const total = answers.reduce((sum, answer) => sum + answer.popularity, 0);
   if (n > 1 && total > 0) {
-    const unit = usesWikipediaSignal(source) ? 'monthly Wikipedia views' : 'popularity';
+    const unit = measurePhrase(source);
     sentences.push(`Combined ${unit} across the ${n} answers: ${formatViews(total)}.`);
     sentences.push(`${rare.name} is ${formatShare(rare.popularity, total)} of that total.`);
   }
@@ -445,10 +469,10 @@ function buildFaq(nounPhrase: string, plural: string, source: string, answers: A
 }
 
 function buildViewsNote(source: string): string {
-  if (usesWikipediaSignal(source)) {
-    return `Monthly English Wikipedia pageviews. Source: ${source}.`;
-  }
-  return `Placeholder popularity numbers (source: ${source}), listed under Monthly Wikipedia views. Not a live pageview count.`;
+  const kind = measureKind(source);
+  if (kind === 'wiktionary') return `Monthly English Wiktionary pageviews. Source: ${source}.`;
+  if (kind === 'wikipedia') return `Monthly English Wikipedia pageviews. Source: ${source}.`;
+  return `Placeholder popularity numbers (source: ${source}), listed under Popularity. Not a live pageview count.`;
 }
 
 function buildSourceNote(source: string, hasWiki: boolean): string {
@@ -457,10 +481,14 @@ function buildSourceNote(source: string, hasWiki: boolean): string {
     : '';
   const rarity =
     'Rarity is the percentile of the popularity figure inside this prompt: 1 is the rarest and 0 is the most common.';
-  if (usesWikipediaSignal(source)) {
+  const kind = measureKind(source);
+  if (kind === 'wiktionary') {
+    return `Recorded source: ${source}. The answer list is compiled from Wikidata lexemes (CC0), and the view counts are monthly English Wiktionary pageviews. ${rarity}${wiki}`;
+  }
+  if (kind === 'wikipedia') {
     return `Recorded source: ${source}. The answer list is compiled from Wikidata (CC0), and the view counts are monthly English Wikipedia pageviews. ${rarity}${wiki}`;
   }
-  return `Recorded source: ${source}. The figures in the table are the popularity numbers stored on this prompt, not a live English Wikipedia pageview count. When a prompt's source names Wikipedia, those counts are monthly English Wikipedia pageviews and the answer list is compiled from Wikidata (CC0). ${rarity}${wiki}`;
+  return `Recorded source: ${source}. The figures in the table are the popularity numbers stored on this prompt, not a live pageview count. When a prompt's source names Wikipedia, those counts are monthly English Wikipedia pageviews and the answer list is compiled from Wikidata (CC0). When it names Wiktionary, the counts are monthly English Wiktionary pageviews. ${rarity}${wiki}`;
 }
 
 export function derivePromptSeo(input: PromptInput): PromptSeo {
@@ -492,6 +520,7 @@ export function derivePromptSeo(input: PromptInput): PromptSeo {
     ),
     intro: buildIntro(input.question, nounPhrase, species, input.source, answers),
     viewsNote: buildViewsNote(input.source),
+    viewsHeading: viewsColumnLabel(input.source),
     sourceNote: buildSourceNote(input.source, hasWiki),
     answers,
     faq: buildFaq(nounPhrase, plural, input.source, answers),

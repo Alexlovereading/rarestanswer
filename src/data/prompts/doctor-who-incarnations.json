@@ -1,0 +1,192 @@
+{
+  "id": "doctor-who-incarnations",
+  "slug": "doctor-who-incarnations",
+  "category": "screen",
+  "question": "Name an incarnation of the Doctor",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Fugitive Doctor",
+      "aliases": [
+        "Ruth Clayton"
+      ],
+      "popularity": 44803,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Fugitive Doctor"
+    },
+    {
+      "name": "Second Doctor",
+      "aliases": [
+        "2nd Doctor"
+      ],
+      "popularity": 62274,
+      "rarity": 0.938,
+      "tier": 6,
+      "wiki": "Second Doctor"
+    },
+    {
+      "name": "War Doctor",
+      "aliases": [
+        "Doctor of War",
+        "The Renegade",
+        "The Warrior"
+      ],
+      "popularity": 66567,
+      "rarity": 0.875,
+      "tier": 5,
+      "wiki": "War Doctor"
+    },
+    {
+      "name": "Third Doctor",
+      "aliases": [
+        "3rd Doctor"
+      ],
+      "popularity": 70199,
+      "rarity": 0.813,
+      "tier": 5,
+      "wiki": "Third Doctor"
+    },
+    {
+      "name": "Seventh Doctor",
+      "aliases": [
+        "7th Doctor"
+      ],
+      "popularity": 70840,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Seventh Doctor"
+    },
+    {
+      "name": "Fifth Doctor",
+      "aliases": [
+        "5th Doctor",
+        "The Fifth Doctor"
+      ],
+      "popularity": 71323,
+      "rarity": 0.688,
+      "tier": 4,
+      "wiki": "Fifth Doctor"
+    },
+    {
+      "name": "Sixth Doctor",
+      "aliases": [
+        "6th Doctor"
+      ],
+      "popularity": 74052,
+      "rarity": 0.625,
+      "tier": 4,
+      "wiki": "Sixth Doctor"
+    },
+    {
+      "name": "Eighth Doctor",
+      "aliases": [
+        "8th Doctor"
+      ],
+      "popularity": 89837,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Eighth Doctor"
+    },
+    {
+      "name": "First Doctor",
+      "aliases": [
+        "1st Doctor",
+        "Earl Foreman",
+        "The First Doctor"
+      ],
+      "popularity": 99137,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "First Doctor"
+    },
+    {
+      "name": "Fourth Doctor",
+      "aliases": [
+        "4th Doctor"
+      ],
+      "popularity": 100386,
+      "rarity": 0.438,
+      "tier": 3,
+      "wiki": "Fourth Doctor"
+    },
+    {
+      "name": "Ninth Doctor",
+      "aliases": [
+        "9th Doctor",
+        "The Ninth Doctor"
+      ],
+      "popularity": 111741,
+      "rarity": 0.375,
+      "tier": 2,
+      "wiki": "Ninth Doctor"
+    },
+    {
+      "name": "Twelfth Doctor",
+      "aliases": [
+        "12th Doctor",
+        "Doctor Disco",
+        "John Smith",
+        "The Twelfth Doctor"
+      ],
+      "popularity": 127144,
+      "rarity": 0.313,
+      "tier": 2,
+      "wiki": "Twelfth Doctor"
+    },
+    {
+      "name": "Thirteenth Doctor",
+      "aliases": [
+        "13th Doctor",
+        "The Thirteenth Doctor"
+      ],
+      "popularity": 130248,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Thirteenth Doctor"
+    },
+    {
+      "name": "Tenth Doctor",
+      "aliases": [
+        "10th Doctor",
+        "The Tenth Doctor"
+      ],
+      "popularity": 171364,
+      "rarity": 0.188,
+      "tier": 1,
+      "wiki": "Tenth Doctor"
+    },
+    {
+      "name": "Eleventh Doctor",
+      "aliases": [
+        "11th Doctor",
+        "The Eleventh Doctor"
+      ],
+      "popularity": 172594,
+      "rarity": 0.125,
+      "tier": 1,
+      "wiki": "Eleventh Doctor"
+    },
+    {
+      "name": "Fourteenth Doctor",
+      "aliases": [
+        "14th Doctor"
+      ],
+      "popularity": 184898,
+      "rarity": 0.063,
+      "tier": 1,
+      "wiki": "Fourteenth Doctor"
+    },
+    {
+      "name": "Fifteenth Doctor",
+      "aliases": [
+        "15th Doctor"
+      ],
+      "popularity": 234182,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Fifteenth Doctor"
+    }
+  ],
+  "seoNoun": "Doctor Who incarnations"
+}

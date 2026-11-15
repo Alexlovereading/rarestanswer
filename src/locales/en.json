@@ -70,7 +70,7 @@
       },
       {
         "question": "Where do the trivia answers come from?",
-        "answer": "Answer lists are built from Wikidata. Rarity uses public Wikipedia pageview statistics. An answer is ranked only against the other answers to the same prompt."
+        "answer": "Answer lists are built from Wikidata. Rarity uses public Wikipedia pageview statistics, or Wiktionary pageviews for English interjections. An answer is ranked only against the other answers to the same prompt."
       },
       {
         "question": "Do answers expire?",
@@ -296,7 +296,7 @@
         },
         {
           "question": "Where do the answers come from?",
-          "answer": "Prompt lists are compiled from Wikidata (CC0) and Wikipedia pageview counts. An answer is ranked only against the other answers to the same prompt. A real name can be missing when that public data does not include it. The sample prompt still on the site is marked as a fixture, and its popularity numbers are placeholders, not live pageviews."
+          "answer": "Prompt lists are compiled from Wikidata (CC0) and Wikipedia or Wiktionary pageview counts. An answer is ranked only against the other answers to the same prompt. A real name can be missing when that public data does not include it. English interjections use Wiktionary pageviews. The other published prompts use English Wikipedia pageviews."
         },
         {
           "question": "Can I play more than the daily round?",

@@ -1,0 +1,385 @@
+{
+  "id": "emmy-comedy-series",
+  "slug": "emmy-comedy-series",
+  "category": "screen",
+  "question": "Name a Primetime Emmy Award for Outstanding Comedy Series winner",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "The Art Carney Special",
+      "aliases": [
+        "Art Carney Special"
+      ],
+      "popularity": 875,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "The Art Carney Special"
+    },
+    {
+      "name": "The Bob Newhart Show",
+      "aliases": [
+        "Bob Newhart Show",
+        "Bob Newhart Show (1961 TV series)",
+        "The Bob Newhart Show (1961 TV series)"
+      ],
+      "popularity": 13062,
+      "rarity": 0.974,
+      "tier": 6,
+      "wiki": "The Bob Newhart Show (1961 TV series)"
+    },
+    {
+      "name": "My World and Welcome to It",
+      "aliases": [],
+      "popularity": 19936,
+      "rarity": 0.949,
+      "tier": 6,
+      "wiki": "My World and Welcome to It"
+    },
+    {
+      "name": "The Red Skelton Show",
+      "aliases": [
+        "Red Skelton Show"
+      ],
+      "popularity": 34727,
+      "rarity": 0.923,
+      "tier": 5,
+      "wiki": "The Red Skelton Show"
+    },
+    {
+      "name": "The Phil Silvers Show",
+      "aliases": [
+        "Phil Silvers Show"
+      ],
+      "popularity": 54767,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "The Phil Silvers Show"
+    },
+    {
+      "name": "The Jack Benny Program",
+      "aliases": [
+        "Jack Benny Program"
+      ],
+      "popularity": 61160,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "The Jack Benny Program"
+    },
+    {
+      "name": "The Danny Thomas Show",
+      "aliases": [
+        "Danny Thomas Show",
+        "Make Room for Daddy"
+      ],
+      "popularity": 86792,
+      "rarity": 0.846,
+      "tier": 5,
+      "wiki": "The Danny Thomas Show"
+    },
+    {
+      "name": "The Monkees",
+      "aliases": [
+        "Monkees",
+        "Monkees (TV series)",
+        "The Monkees (TV series)"
+      ],
+      "popularity": 109932,
+      "rarity": 0.821,
+      "tier": 5,
+      "wiki": "The Monkees (TV series)"
+    },
+    {
+      "name": "Murphy Brown",
+      "aliases": [],
+      "popularity": 191655,
+      "rarity": 0.795,
+      "tier": 4,
+      "wiki": "Murphy Brown"
+    },
+    {
+      "name": "Barney Miller",
+      "aliases": [],
+      "popularity": 247152,
+      "rarity": 0.769,
+      "tier": 4,
+      "wiki": "Barney Miller"
+    },
+    {
+      "name": "Get Smart",
+      "aliases": [],
+      "popularity": 269884,
+      "rarity": 0.744,
+      "tier": 4,
+      "wiki": "Get Smart"
+    },
+    {
+      "name": "The Mary Tyler Moore Show",
+      "aliases": [
+        "Mary Tyler Moore",
+        "Mary Tyler Moore Show"
+      ],
+      "popularity": 287227,
+      "rarity": 0.718,
+      "tier": 4,
+      "wiki": "The Mary Tyler Moore Show"
+    },
+    {
+      "name": "Taxi",
+      "aliases": [
+        "Taxi (TV series)"
+      ],
+      "popularity": 345189,
+      "rarity": 0.692,
+      "tier": 4,
+      "wiki": "Taxi (TV series)"
+    },
+    {
+      "name": "The Dick Van Dyke Show",
+      "aliases": [
+        "Dick Van Dyke Show"
+      ],
+      "popularity": 347073,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "The Dick Van Dyke Show"
+    },
+    {
+      "name": "I Love Lucy",
+      "aliases": [],
+      "popularity": 368944,
+      "rarity": 0.641,
+      "tier": 4,
+      "wiki": "I Love Lucy"
+    },
+    {
+      "name": "The Cosby Show",
+      "aliases": [
+        "Cosby Show"
+      ],
+      "popularity": 379012,
+      "rarity": 0.615,
+      "tier": 4,
+      "wiki": "The Cosby Show"
+    },
+    {
+      "name": "The Wonder Years",
+      "aliases": [
+        "Wonder Years"
+      ],
+      "popularity": 434048,
+      "rarity": 0.59,
+      "tier": 3,
+      "wiki": "The Wonder Years"
+    },
+    {
+      "name": "Will & Grace",
+      "aliases": [],
+      "popularity": 466914,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Will & Grace"
+    },
+    {
+      "name": "Ally McBeal",
+      "aliases": [],
+      "popularity": 471549,
+      "rarity": 0.538,
+      "tier": 3,
+      "wiki": "Ally McBeal"
+    },
+    {
+      "name": "Veep",
+      "aliases": [],
+      "popularity": 518161,
+      "rarity": 0.513,
+      "tier": 3,
+      "wiki": "Veep"
+    },
+    {
+      "name": "All in the Family",
+      "aliases": [],
+      "popularity": 710939,
+      "rarity": 0.487,
+      "tier": 3,
+      "wiki": "All in the Family"
+    },
+    {
+      "name": "30 Rock",
+      "aliases": [
+        "30Rock",
+        "Thirty Rock"
+      ],
+      "popularity": 716021,
+      "rarity": 0.462,
+      "tier": 3,
+      "wiki": "30 Rock"
+    },
+    {
+      "name": "Fleabag",
+      "aliases": [],
+      "popularity": 717118,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Fleabag"
+    },
+    {
+      "name": "Frasier",
+      "aliases": [],
+      "popularity": 740016,
+      "rarity": 0.41,
+      "tier": 3,
+      "wiki": "Frasier"
+    },
+    {
+      "name": "Cheers",
+      "aliases": [],
+      "popularity": 770707,
+      "rarity": 0.385,
+      "tier": 2,
+      "wiki": "Cheers"
+    },
+    {
+      "name": "The Marvelous Mrs. Maisel",
+      "aliases": [
+        "Marvelous Mrs. Maisel"
+      ],
+      "popularity": 847635,
+      "rarity": 0.359,
+      "tier": 2,
+      "wiki": "The Marvelous Mrs. Maisel"
+    },
+    {
+      "name": "M*A*S*H",
+      "aliases": [
+        "M*A*S*H (TV series)",
+        "MASH",
+        "Mobile Army Surgical Hospital"
+      ],
+      "popularity": 881448,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "M*A*S*H (TV series)"
+    },
+    {
+      "name": "Arrested Development",
+      "aliases": [],
+      "popularity": 958117,
+      "rarity": 0.308,
+      "tier": 2,
+      "wiki": "Arrested Development"
+    },
+    {
+      "name": "Everybody Loves Raymond",
+      "aliases": [],
+      "popularity": 969607,
+      "rarity": 0.282,
+      "tier": 2,
+      "wiki": "Everybody Loves Raymond"
+    },
+    {
+      "name": "Seinfeld",
+      "aliases": [],
+      "popularity": 1064608,
+      "rarity": 0.256,
+      "tier": 2,
+      "wiki": "Seinfeld"
+    },
+    {
+      "name": "The Studio",
+      "aliases": [
+        "Studio",
+        "Studio (TV series)",
+        "The Studio (TV series)"
+      ],
+      "popularity": 1081827,
+      "rarity": 0.231,
+      "tier": 2,
+      "wiki": "The Studio (TV series)"
+    },
+    {
+      "name": "The Golden Girls",
+      "aliases": [
+        "Golden Girls"
+      ],
+      "popularity": 1085917,
+      "rarity": 0.205,
+      "tier": 2,
+      "wiki": "The Golden Girls"
+    },
+    {
+      "name": "Sex and the City",
+      "aliases": [
+        "SATC"
+      ],
+      "popularity": 1184279,
+      "rarity": 0.179,
+      "tier": 1,
+      "wiki": "Sex and the City"
+    },
+    {
+      "name": "Schitt's Creek",
+      "aliases": [],
+      "popularity": 1370350,
+      "rarity": 0.154,
+      "tier": 1,
+      "wiki": "Schitt's Creek"
+    },
+    {
+      "name": "Hacks",
+      "aliases": [],
+      "popularity": 1389051,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Hacks"
+    },
+    {
+      "name": "Modern Family",
+      "aliases": [],
+      "popularity": 1390014,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Modern Family"
+    },
+    {
+      "name": "Friends",
+      "aliases": [],
+      "popularity": 1577900,
+      "rarity": 0.077,
+      "tier": 1,
+      "wiki": "Friends"
+    },
+    {
+      "name": "The Office",
+      "aliases": [
+        "Flor cabrera",
+        "Office",
+        "Office (American TV series)",
+        "The Office (American TV series)"
+      ],
+      "popularity": 1738977,
+      "rarity": 0.051,
+      "tier": 1,
+      "wiki": "The Office (American TV series)"
+    },
+    {
+      "name": "The Bear",
+      "aliases": [
+        "Bear",
+        "Bear (TV series)",
+        "The Bear (TV series)"
+      ],
+      "popularity": 2500806,
+      "rarity": 0.026,
+      "tier": 1,
+      "wiki": "The Bear (TV series)"
+    },
+    {
+      "name": "Ted Lasso",
+      "aliases": [],
+      "popularity": 4823473,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Ted Lasso"
+    }
+  ]
+}

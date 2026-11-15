@@ -1,0 +1,403 @@
+{
+  "id": "mcu-characters",
+  "slug": "mcu-characters",
+  "category": "screen",
+  "question": "Name a character in a Marvel Cinematic Universe film",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Ho Yinsen",
+      "aliases": [
+        "Yinsen"
+      ],
+      "popularity": 16502,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Ho Yinsen"
+    },
+    {
+      "name": "Sif",
+      "aliases": [
+        "Lady Sif",
+        "Sif (Marvel Cinematic Universe)"
+      ],
+      "popularity": 32780,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Sif (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Maria Rambeau",
+      "aliases": [],
+      "popularity": 39498,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Maria Rambeau"
+    },
+    {
+      "name": "Erik Selvig",
+      "aliases": [
+        "Dr. Selvig"
+      ],
+      "popularity": 57311,
+      "rarity": 0.914,
+      "tier": 5,
+      "wiki": "Erik Selvig"
+    },
+    {
+      "name": "Pepper Potts",
+      "aliases": [
+        "Pepper Potts (Marvel Cinematic Universe)",
+        "Virginia Potts"
+      ],
+      "popularity": 58921,
+      "rarity": 0.886,
+      "tier": 5,
+      "wiki": "Pepper Potts (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Drax",
+      "aliases": [
+        "Drax (Marvel Cinematic Universe)",
+        "Drax the Destroyer"
+      ],
+      "popularity": 59474,
+      "rarity": 0.857,
+      "tier": 5,
+      "wiki": "Drax (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Groot",
+      "aliases": [
+        "Groot (Marvel Cinematic Universe)"
+      ],
+      "popularity": 61517,
+      "rarity": 0.829,
+      "tier": 5,
+      "wiki": "Groot (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Rocket",
+      "aliases": [
+        "Rocket (Marvel Cinematic Universe)",
+        "Rocket Raccoon",
+        "Subject 89P13"
+      ],
+      "popularity": 68842,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Rocket (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Valentina Allegra de Fontaine",
+      "aliases": [
+        "Contessa Valentina de la Fontaine"
+      ],
+      "popularity": 74613,
+      "rarity": 0.771,
+      "tier": 4,
+      "wiki": "Valentina Allegra de Fontaine"
+    },
+    {
+      "name": "Jane Foster",
+      "aliases": [
+        "Jane Foster (Marvel Cinematic Universe)",
+        "Mighty Thor"
+      ],
+      "popularity": 86646,
+      "rarity": 0.743,
+      "tier": 4,
+      "wiki": "Jane Foster (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Gamora",
+      "aliases": [
+        "Gamora (Marvel Cinematic Universe)"
+      ],
+      "popularity": 93732,
+      "rarity": 0.714,
+      "tier": 4,
+      "wiki": "Gamora (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Peter Quill",
+      "aliases": [
+        "Peter Jason Quill",
+        "Peter Quill (Marvel Cinematic Universe)",
+        "Star-Lord",
+        "Starlord"
+      ],
+      "popularity": 100659,
+      "rarity": 0.686,
+      "tier": 4,
+      "wiki": "Peter Quill (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Falcon",
+      "aliases": [
+        "Falcon (comics)",
+        "Sam Wilson",
+        "Samuel Wilson"
+      ],
+      "popularity": 116149,
+      "rarity": 0.657,
+      "tier": 4,
+      "wiki": "Falcon (comics)"
+    },
+    {
+      "name": "Taskmaster",
+      "aliases": [
+        "Anthony Masters",
+        "Taskmaster (character)",
+        "Tony Masters"
+      ],
+      "popularity": 118154,
+      "rarity": 0.629,
+      "tier": 4,
+      "wiki": "Taskmaster (character)"
+    },
+    {
+      "name": "Carol Danvers",
+      "aliases": [
+        "Captain Marvel",
+        "Carol Danvers (Marvel Cinematic Universe)"
+      ],
+      "popularity": 120992,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Carol Danvers (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Phil Coulson",
+      "aliases": [
+        "Phillip Coulson",
+        "Phillip J. Coulson",
+        "Phillip \"Phil\" Coulson"
+      ],
+      "popularity": 126046,
+      "rarity": 0.571,
+      "tier": 3,
+      "wiki": "Phil Coulson"
+    },
+    {
+      "name": "War Machine",
+      "aliases": [],
+      "popularity": 139243,
+      "rarity": 0.543,
+      "tier": 3,
+      "wiki": "War Machine"
+    },
+    {
+      "name": "Nick Fury",
+      "aliases": [
+        "Nicholas Joseph Fury",
+        "Nick Fury (Marvel Cinematic Universe)"
+      ],
+      "popularity": 139613,
+      "rarity": 0.514,
+      "tier": 3,
+      "wiki": "Nick Fury (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Stephen Strange",
+      "aliases": [
+        "Stephen Strange (Marvel Cinematic Universe)"
+      ],
+      "popularity": 150638,
+      "rarity": 0.486,
+      "tier": 3,
+      "wiki": "Stephen Strange (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Thor",
+      "aliases": [
+        "Thor (Marvel Cinematic Universe)",
+        "Thor Odinson"
+      ],
+      "popularity": 152946,
+      "rarity": 0.457,
+      "tier": 3,
+      "wiki": "Thor (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Bucky Barnes",
+      "aliases": [
+        "Bucky Barnes (Marvel Cinematic Universe)",
+        "Winter Soldier"
+      ],
+      "popularity": 154692,
+      "rarity": 0.429,
+      "tier": 3,
+      "wiki": "Bucky Barnes (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Thanos",
+      "aliases": [
+        "Thanos (Marvel Cinematic Universe)"
+      ],
+      "popularity": 159844,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Thanos (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Peggy Carter",
+      "aliases": [
+        "Peggy Carter (Marvel Cinematic Universe)"
+      ],
+      "popularity": 168708,
+      "rarity": 0.371,
+      "tier": 2,
+      "wiki": "Peggy Carter (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Loki",
+      "aliases": [
+        "Loki Laufeyson",
+        "Loki (Marvel Cinematic Universe)",
+        "Loki Odinson"
+      ],
+      "popularity": 170100,
+      "rarity": 0.343,
+      "tier": 2,
+      "wiki": "Loki (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Yelena Belova",
+      "aliases": [
+        "Black Widow"
+      ],
+      "popularity": 181914,
+      "rarity": 0.314,
+      "tier": 2,
+      "wiki": "Yelena Belova"
+    },
+    {
+      "name": "Steve Rogers",
+      "aliases": [
+        "Steve Rogers (Marvel Cinematic Universe)",
+        "Steven Grant Rogers"
+      ],
+      "popularity": 186113,
+      "rarity": 0.286,
+      "tier": 2,
+      "wiki": "Steve Rogers (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "James Rhodes",
+      "aliases": [
+        "James Rhodes (Marvel Cinematic Universe)"
+      ],
+      "popularity": 199246,
+      "rarity": 0.257,
+      "tier": 2,
+      "wiki": "James Rhodes (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Bruce Banner",
+      "aliases": [
+        "Bruce Banner (Marvel Cinematic Universe)",
+        "Hulk",
+        "The Hulk"
+      ],
+      "popularity": 202509,
+      "rarity": 0.229,
+      "tier": 2,
+      "wiki": "Bruce Banner (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Trevor Slattery",
+      "aliases": [
+        "The Mandarin"
+      ],
+      "popularity": 244931,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Trevor Slattery"
+    },
+    {
+      "name": "Doctor Strange",
+      "aliases": [
+        "Dr. Stephen Vincent Strange",
+        "Dr. Strange",
+        "Stephen \"Steve\" Vincent Strange",
+        "Stephen Vincent Strange"
+      ],
+      "popularity": 328512,
+      "rarity": 0.171,
+      "tier": 1,
+      "wiki": "Doctor Strange"
+    },
+    {
+      "name": "Peter Parker",
+      "aliases": [
+        "Iron Spider",
+        "Night Monkey",
+        "Peter #1",
+        "Peter-One",
+        "Peter Parker (Marvel Cinematic Universe)",
+        "Spider-Man"
+      ],
+      "popularity": 348876,
+      "rarity": 0.143,
+      "tier": 1,
+      "wiki": "Peter Parker (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Tony Stark",
+      "aliases": [
+        "Tony Stark (Marvel Cinematic Universe)"
+      ],
+      "popularity": 353500,
+      "rarity": 0.114,
+      "tier": 1,
+      "wiki": "Tony Stark (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Natasha Romanoff",
+      "aliases": [
+        "Natalia Alianovna Romanoff",
+        "Natalia Alianovna Romanova",
+        "Natalia Ivanovna Romanoff",
+        "Natalia Ivanovna Romanova",
+        "Natalie Rushman",
+        "Natasha Romanoff (Marvel Cinematic Universe)"
+      ],
+      "popularity": 355389,
+      "rarity": 0.086,
+      "tier": 1,
+      "wiki": "Natasha Romanoff (Marvel Cinematic Universe)"
+    },
+    {
+      "name": "Iron Man",
+      "aliases": [
+        "Anthony Edward \"Tony\" Stark"
+      ],
+      "popularity": 490668,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Iron Man"
+    },
+    {
+      "name": "Captain America",
+      "aliases": [
+        "Steven Rogers"
+      ],
+      "popularity": 553649,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Captain America"
+    },
+    {
+      "name": "Sentry",
+      "aliases": [
+        "Sentry (Robert Reynolds)"
+      ],
+      "popularity": 646916,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Sentry (Robert Reynolds)"
+    }
+  ],
+  "seoNoun": "Marvel Cinematic Universe characters"
+}

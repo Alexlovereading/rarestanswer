@@ -21,6 +21,13 @@
     "answerCount": 27
   },
   {
+    "id": "commonwealth-members",
+    "slug": "commonwealth-members",
+    "category": "geography",
+    "question": "Name a Commonwealth member state",
+    "answerCount": 56
+  },
+  {
     "id": "countries-in-africa",
     "slug": "countries-in-africa",
     "category": "geography",
@@ -840,6 +847,13 @@
     "answerCount": 17
   },
   {
+    "id": "ballon-dor-winners",
+    "slug": "ballon-dor-winners",
+    "category": "sports",
+    "question": "Name a winner of the Ballon d'Or",
+    "answerCount": 48
+  },
+  {
     "id": "bundesliga-clubs",
     "slug": "bundesliga-clubs",
     "category": "sports",
@@ -868,11 +882,32 @@
     "answerCount": 18
   },
   {
+    "id": "f1-constructors-champions",
+    "slug": "f1-constructors-champions",
+    "category": "sports",
+    "question": "Name a Formula One World Constructors' Champion",
+    "answerCount": 15
+  },
+  {
+    "id": "f1-world-champions",
+    "slug": "f1-world-champions",
+    "category": "sports",
+    "question": "Name a Formula One World Drivers' Champion",
+    "answerCount": 36
+  },
+  {
     "id": "fifa-world-cup-tournaments",
     "slug": "fifa-world-cup-tournaments",
     "category": "sports",
     "question": "Name a FIFA World Cup tournament",
     "answerCount": 23
+  },
+  {
+    "id": "heisman-winners",
+    "slug": "heisman-winners",
+    "category": "sports",
+    "question": "Name a Heisman Trophy winner",
+    "answerCount": 90
   },
   {
     "id": "la-liga-clubs",
@@ -908,6 +943,13 @@
     "category": "sports",
     "question": "Name a current MLS club",
     "answerCount": 30
+  },
+  {
+    "id": "nba-mvps",
+    "slug": "nba-mvps",
+    "category": "sports",
+    "question": "Name an NBA Most Valuable Player",
+    "answerCount": 37
   },
   {
     "id": "nba-teams",
@@ -966,11 +1008,53 @@
     "answerCount": 46
   },
   {
+    "id": "stanley-cup-coaches",
+    "slug": "stanley-cup-coaches",
+    "category": "sports",
+    "question": "Name a Stanley Cup-winning head coach",
+    "answerCount": 56
+  },
+  {
+    "id": "summer-olympics",
+    "slug": "summer-olympics",
+    "category": "sports",
+    "question": "Name a Summer Olympics",
+    "answerCount": 30
+  },
+  {
+    "id": "super-bowl-coaches",
+    "slug": "super-bowl-coaches",
+    "category": "sports",
+    "question": "Name a Super Bowl-winning head coach",
+    "answerCount": 37
+  },
+  {
+    "id": "super-bowl-mvps",
+    "slug": "super-bowl-mvps",
+    "category": "sports",
+    "question": "Name a Super Bowl MVP",
+    "answerCount": 50
+  },
+  {
+    "id": "tour-de-france-winners",
+    "slug": "tour-de-france-winners",
+    "category": "sports",
+    "question": "Name a winner of the Tour de France",
+    "answerCount": 64
+  },
+  {
     "id": "world-cup-host-countries",
     "slug": "world-cup-host-countries",
     "category": "sports",
     "question": "Name a country that has hosted the FIFA World Cup",
     "answerCount": 19
+  },
+  {
+    "id": "world-series-mvps",
+    "slug": "world-series-mvps",
+    "category": "sports",
+    "question": "Name a World Series MVP",
+    "answerCount": 69
   },
   {
     "id": "world-series-winners",
@@ -985,6 +1069,20 @@
     "category": "screen",
     "question": "Name an Avatar: The Last Airbender character",
     "answerCount": 17
+  },
+  {
+    "id": "best-actor-winners",
+    "slug": "best-actor-winners",
+    "category": "screen",
+    "question": "Name a winner of the Academy Award for Best Actor",
+    "answerCount": 87
+  },
+  {
+    "id": "best-actress-winners",
+    "slug": "best-actress-winners",
+    "category": "screen",
+    "question": "Name a winner of the Academy Award for Best Actress",
+    "answerCount": 81
   },
   {
     "id": "best-animated-feature-films",
@@ -1008,11 +1106,39 @@
     "answerCount": 98
   },
   {
+    "id": "best-supporting-actor-winners",
+    "slug": "best-supporting-actor-winners",
+    "category": "screen",
+    "question": "Name a winner of the Academy Award for Best Supporting Actor",
+    "answerCount": 81
+  },
+  {
+    "id": "best-supporting-actress-winners",
+    "slug": "best-supporting-actress-winners",
+    "category": "screen",
+    "question": "Name a winner of the Academy Award for Best Supporting Actress",
+    "answerCount": 88
+  },
+  {
     "id": "disney-animated-films",
     "slug": "disney-animated-films",
     "category": "screen",
     "question": "Name a Walt Disney Animation Studios film",
     "answerCount": 96
+  },
+  {
+    "id": "doctor-who-incarnations",
+    "slug": "doctor-who-incarnations",
+    "category": "screen",
+    "question": "Name an incarnation of the Doctor",
+    "answerCount": 17
+  },
+  {
+    "id": "emmy-comedy-series",
+    "slug": "emmy-comedy-series",
+    "category": "screen",
+    "question": "Name a Primetime Emmy Award for Outstanding Comedy Series winner",
+    "answerCount": 40
   },
   {
     "id": "friends-characters",
@@ -1057,6 +1183,20 @@
     "answerCount": 28
   },
   {
+    "id": "lotr-characters",
+    "slug": "lotr-characters",
+    "category": "screen",
+    "question": "Name a character from The Lord of the Rings",
+    "answerCount": 36
+  },
+  {
+    "id": "mcu-characters",
+    "slug": "mcu-characters",
+    "category": "screen",
+    "question": "Name a character in a Marvel Cinematic Universe film",
+    "answerCount": 36
+  },
+  {
     "id": "mcu-films",
     "slug": "mcu-films",
     "category": "screen",
@@ -1099,6 +1239,13 @@
     "answerCount": 49
   },
   {
+    "id": "simpsons-characters",
+    "slug": "simpsons-characters",
+    "category": "screen",
+    "question": "Name a character from The Simpsons",
+    "answerCount": 63
+  },
+  {
     "id": "spielberg-films",
     "slug": "spielberg-films",
     "category": "screen",
@@ -1117,7 +1264,7 @@
     "slug": "stranger-things-characters",
     "category": "screen",
     "question": "Name a Stranger Things character",
-    "answerCount": 14
+    "answerCount": 129
   },
   {
     "id": "tony-best-musical-winners",
@@ -1491,6 +1638,13 @@
     "answerCount": 230
   },
   {
+    "id": "planets-and-dwarf-planets",
+    "slug": "planets-and-dwarf-planets",
+    "category": "science",
+    "question": "Name a planet or dwarf planet",
+    "answerCount": 13
+  },
+  {
     "id": "programming-languages-before-1980",
     "slug": "programming-languages-before-1980",
     "category": "science",
@@ -1694,6 +1848,13 @@
     "answerCount": 266
   },
   {
+    "id": "roman-deities",
+    "slug": "roman-deities",
+    "category": "history",
+    "question": "Name a Roman deity",
+    "answerCount": 209
+  },
+  {
     "id": "roman-emperors",
     "slug": "roman-emperors",
     "category": "history",
@@ -1755,6 +1916,13 @@
     "category": "history",
     "question": "Name a vice president of the United States",
     "answerCount": 50
+  },
+  {
+    "id": "world-wonders",
+    "slug": "world-wonders",
+    "category": "history",
+    "question": "Name a wonder of the ancient world, the New 7 Wonders, or the New 7 Wonders of Nature",
+    "answerCount": 21
   },
   {
     "id": "writing-systems",

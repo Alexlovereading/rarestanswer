@@ -1,0 +1,860 @@
+{
+  "id": "best-supporting-actress-winners",
+  "slug": "best-supporting-actress-winners",
+  "category": "screen",
+  "question": "Name a winner of the Academy Award for Best Supporting Actress",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Katina Paxinou",
+      "aliases": [],
+      "popularity": 20388,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Katina Paxinou"
+    },
+    {
+      "name": "Josephine Hull",
+      "aliases": [
+        "Josephine Sherwood",
+        "Josephine Sherwood Hull",
+        "Marie Josephine Hull",
+        "Mary Josephine Sherwood"
+      ],
+      "popularity": 27657,
+      "rarity": 0.989,
+      "tier": 6,
+      "wiki": "Josephine Hull"
+    },
+    {
+      "name": "Alice Brady",
+      "aliases": [
+        "Alice Brady Crane"
+      ],
+      "popularity": 29161,
+      "rarity": 0.977,
+      "tier": 6,
+      "wiki": "Alice Brady"
+    },
+    {
+      "name": "Lila Kedrova",
+      "aliases": [],
+      "popularity": 32382,
+      "rarity": 0.966,
+      "tier": 6,
+      "wiki": "Lila Kedrova"
+    },
+    {
+      "name": "Fay Bainter",
+      "aliases": [
+        "Fay Okell Bainter"
+      ],
+      "popularity": 42137,
+      "rarity": 0.954,
+      "tier": 6,
+      "wiki": "Fay Bainter"
+    },
+    {
+      "name": "Anne Revere",
+      "aliases": [
+        "Ann Revere"
+      ],
+      "popularity": 47022,
+      "rarity": 0.943,
+      "tier": 6,
+      "wiki": "Anne Revere"
+    },
+    {
+      "name": "Gale Sondergaard",
+      "aliases": [],
+      "popularity": 70737,
+      "rarity": 0.931,
+      "tier": 6,
+      "wiki": "Gale Sondergaard"
+    },
+    {
+      "name": "Miyoshi Umeki",
+      "aliases": [
+        "Myoshi Umeki"
+      ],
+      "popularity": 75894,
+      "rarity": 0.92,
+      "tier": 5,
+      "wiki": "Miyoshi Umeki"
+    },
+    {
+      "name": "Jane Darwell",
+      "aliases": [],
+      "popularity": 87426,
+      "rarity": 0.908,
+      "tier": 5,
+      "wiki": "Jane Darwell"
+    },
+    {
+      "name": "Eileen Heckart",
+      "aliases": [
+        "Anna Eileen Heckart",
+        "Anna Eileen Herbert",
+        "Anna Eileen Stark"
+      ],
+      "popularity": 100901,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Eileen Heckart"
+    },
+    {
+      "name": "Jo Van Fleet",
+      "aliases": [
+        "Catherine Josephine Van Fleet"
+      ],
+      "popularity": 105204,
+      "rarity": 0.885,
+      "tier": 5,
+      "wiki": "Jo Van Fleet"
+    },
+    {
+      "name": "Wendy Hiller",
+      "aliases": [
+        "Dame Wendy Hiller",
+        "Dame Wendy Margaret Hiller"
+      ],
+      "popularity": 113014,
+      "rarity": 0.874,
+      "tier": 5,
+      "wiki": "Wendy Hiller"
+    },
+    {
+      "name": "Beatrice Straight",
+      "aliases": [],
+      "popularity": 117118,
+      "rarity": 0.862,
+      "tier": 5,
+      "wiki": "Beatrice Straight"
+    },
+    {
+      "name": "Peggy Ashcroft",
+      "aliases": [
+        "Dame Edith Margaret Emily Ashcroft",
+        "Dame Peggy Ashcroft",
+        "Edith Margaret Emily Ashcroft"
+      ],
+      "popularity": 132335,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Peggy Ashcroft"
+    },
+    {
+      "name": "Mercedes McCambridge",
+      "aliases": [
+        "Carlotta Mercedes Agnes McCambridge"
+      ],
+      "popularity": 135434,
+      "rarity": 0.839,
+      "tier": 5,
+      "wiki": "Mercedes McCambridge"
+    },
+    {
+      "name": "Ethel Barrymore",
+      "aliases": [
+        "Ethel Barrymore Colt",
+        "Ethel Mae Blythe"
+      ],
+      "popularity": 141446,
+      "rarity": 0.828,
+      "tier": 5,
+      "wiki": "Ethel Barrymore"
+    },
+    {
+      "name": "Celeste Holm",
+      "aliases": [],
+      "popularity": 161179,
+      "rarity": 0.816,
+      "tier": 5,
+      "wiki": "Celeste Holm"
+    },
+    {
+      "name": "Margaret Rutherford",
+      "aliases": [
+        "Dame Margaret Rutherford",
+        "Dame Margaret Taylor Rutherford"
+      ],
+      "popularity": 165998,
+      "rarity": 0.805,
+      "tier": 5,
+      "wiki": "Margaret Rutherford"
+    },
+    {
+      "name": "Kim Hunter",
+      "aliases": [
+        "Janet Cole"
+      ],
+      "popularity": 166109,
+      "rarity": 0.793,
+      "tier": 4,
+      "wiki": "Kim Hunter"
+    },
+    {
+      "name": "Maureen Stapleton",
+      "aliases": [
+        "Lois Maureen Stapleton"
+      ],
+      "popularity": 170550,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Maureen Stapleton"
+    },
+    {
+      "name": "Claire Trevor",
+      "aliases": [],
+      "popularity": 173014,
+      "rarity": 0.77,
+      "tier": 4,
+      "wiki": "Claire Trevor"
+    },
+    {
+      "name": "Estelle Parsons",
+      "aliases": [
+        "Estelle Margaret Parsons"
+      ],
+      "popularity": 200113,
+      "rarity": 0.759,
+      "tier": 4,
+      "wiki": "Estelle Parsons"
+    },
+    {
+      "name": "Teresa Wright",
+      "aliases": [
+        "Muriel Teresa Wright",
+        "Theresa Wright"
+      ],
+      "popularity": 207814,
+      "rarity": 0.747,
+      "tier": 4,
+      "wiki": "Teresa Wright"
+    },
+    {
+      "name": "Dorothy Malone",
+      "aliases": [
+        "Dorothy Eloise Maloney"
+      ],
+      "popularity": 209936,
+      "rarity": 0.736,
+      "tier": 4,
+      "wiki": "Dorothy Malone"
+    },
+    {
+      "name": "Mary Astor",
+      "aliases": [
+        "Astor",
+        "Lucile Langhanke",
+        "Lucile Vasconcellos Langhanke",
+        "Mary Del Campo",
+        "Mary Hawks",
+        "Mary Thorpe",
+        "Mary Wheelock"
+      ],
+      "popularity": 244852,
+      "rarity": 0.724,
+      "tier": 4,
+      "wiki": "Mary Astor"
+    },
+    {
+      "name": "Mercedes Ruehl",
+      "aliases": [],
+      "popularity": 245864,
+      "rarity": 0.713,
+      "tier": 4,
+      "wiki": "Mercedes Ruehl"
+    },
+    {
+      "name": "Helen Hayes",
+      "aliases": [
+        "Helen Hayes Brown",
+        "Helen Hayes MacArthur"
+      ],
+      "popularity": 249065,
+      "rarity": 0.701,
+      "tier": 4,
+      "wiki": "Helen Hayes"
+    },
+    {
+      "name": "Youn Yuh-jung",
+      "aliases": [
+        "Yuh-jung Youn",
+        "Yun Yeo-jeong"
+      ],
+      "popularity": 279544,
+      "rarity": 0.69,
+      "tier": 4,
+      "wiki": "Youn Yuh-jung"
+    },
+    {
+      "name": "Mo'Nique",
+      "aliases": [
+        "Imes",
+        "Mo'Nique Imes"
+      ],
+      "popularity": 282773,
+      "rarity": 0.678,
+      "tier": 4,
+      "wiki": "Mo'Nique"
+    },
+    {
+      "name": "Sandy Dennis",
+      "aliases": [
+        "Sandra Dale Dennis"
+      ],
+      "popularity": 305265,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Sandy Dennis"
+    },
+    {
+      "name": "Ruth Gordon",
+      "aliases": [],
+      "popularity": 319349,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Ruth Gordon"
+    },
+    {
+      "name": "Hattie McDaniel",
+      "aliases": [],
+      "popularity": 321322,
+      "rarity": 0.644,
+      "tier": 4,
+      "wiki": "Hattie McDaniel"
+    },
+    {
+      "name": "Gloria Grahame",
+      "aliases": [
+        "Gloria Grahame Hallward"
+      ],
+      "popularity": 412221,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Gloria Grahame"
+    },
+    {
+      "name": "Lee Grant",
+      "aliases": [
+        "Lyova Haskell Rosenthal"
+      ],
+      "popularity": 419514,
+      "rarity": 0.621,
+      "tier": 4,
+      "wiki": "Lee Grant"
+    },
+    {
+      "name": "Anne Baxter",
+      "aliases": [],
+      "popularity": 421066,
+      "rarity": 0.609,
+      "tier": 4,
+      "wiki": "Anne Baxter"
+    },
+    {
+      "name": "Olympia Dukakis",
+      "aliases": [],
+      "popularity": 446892,
+      "rarity": 0.598,
+      "tier": 3,
+      "wiki": "Olympia Dukakis"
+    },
+    {
+      "name": "Linda Hunt",
+      "aliases": [
+        "Lydia Susanna Hunter"
+      ],
+      "popularity": 493275,
+      "rarity": 0.586,
+      "tier": 3,
+      "wiki": "Linda Hunt"
+    },
+    {
+      "name": "Shelley Winters",
+      "aliases": [
+        "Shirley Schrift"
+      ],
+      "popularity": 510500,
+      "rarity": 0.575,
+      "tier": 3,
+      "wiki": "Shelley Winters"
+    },
+    {
+      "name": "Juliette Binoche",
+      "aliases": [],
+      "popularity": 575822,
+      "rarity": 0.563,
+      "tier": 3,
+      "wiki": "Juliette Binoche"
+    },
+    {
+      "name": "Da'Vine Joy Randolph",
+      "aliases": [],
+      "popularity": 578087,
+      "rarity": 0.552,
+      "tier": 3,
+      "wiki": "Da'Vine Joy Randolph"
+    },
+    {
+      "name": "Melissa Leo",
+      "aliases": [],
+      "popularity": 629143,
+      "rarity": 0.54,
+      "tier": 3,
+      "wiki": "Melissa Leo"
+    },
+    {
+      "name": "Eva Marie Saint",
+      "aliases": [],
+      "popularity": 643407,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Eva Marie Saint"
+    },
+    {
+      "name": "Ariana DeBose",
+      "aliases": [],
+      "popularity": 647944,
+      "rarity": 0.517,
+      "tier": 3,
+      "wiki": "Ariana DeBose"
+    },
+    {
+      "name": "Marcia Gay Harden",
+      "aliases": [],
+      "popularity": 675366,
+      "rarity": 0.506,
+      "tier": 3,
+      "wiki": "Marcia Gay Harden"
+    },
+    {
+      "name": "Shirley Jones",
+      "aliases": [
+        "Shirley Mae Jones"
+      ],
+      "popularity": 697324,
+      "rarity": 0.494,
+      "tier": 3,
+      "wiki": "Shirley Jones"
+    },
+    {
+      "name": "Donna Reed",
+      "aliases": [],
+      "popularity": 716901,
+      "rarity": 0.483,
+      "tier": 3,
+      "wiki": "Donna Reed"
+    },
+    {
+      "name": "Rita Moreno",
+      "aliases": [
+        "Rosa Dolores Alverio Marcano",
+        "Rosita Moreno"
+      ],
+      "popularity": 785605,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Rita Moreno"
+    },
+    {
+      "name": "Cloris Leachman",
+      "aliases": [],
+      "popularity": 788442,
+      "rarity": 0.46,
+      "tier": 3,
+      "wiki": "Cloris Leachman"
+    },
+    {
+      "name": "Mira Sorvino",
+      "aliases": [
+        "Mira Katherine Sorvino"
+      ],
+      "popularity": 963861,
+      "rarity": 0.448,
+      "tier": 3,
+      "wiki": "Mira Sorvino"
+    },
+    {
+      "name": "Octavia Spencer",
+      "aliases": [
+        "Octavia L. Spencer"
+      ],
+      "popularity": 1005816,
+      "rarity": 0.437,
+      "tier": 3,
+      "wiki": "Octavia Spencer"
+    },
+    {
+      "name": "Patty Duke",
+      "aliases": [
+        "Anna Marie Duke",
+        "Anna Marie-Pearce",
+        "Patty Duke Astin",
+        "Patty Duke Austin"
+      ],
+      "popularity": 1017277,
+      "rarity": 0.425,
+      "tier": 3,
+      "wiki": "Patty Duke"
+    },
+    {
+      "name": "Tatum O'Neal",
+      "aliases": [
+        "Tatum Beatrice O’Neal"
+      ],
+      "popularity": 1036528,
+      "rarity": 0.414,
+      "tier": 3,
+      "wiki": "Tatum O'Neal"
+    },
+    {
+      "name": "Regina King",
+      "aliases": [
+        "Regina Rene King"
+      ],
+      "popularity": 1037896,
+      "rarity": 0.402,
+      "tier": 3,
+      "wiki": "Regina King"
+    },
+    {
+      "name": "Dianne Wiest",
+      "aliases": [
+        "Dianne Evelyn Wiest"
+      ],
+      "popularity": 1043858,
+      "rarity": 0.391,
+      "tier": 2,
+      "wiki": "Dianne Wiest"
+    },
+    {
+      "name": "Kim Basinger",
+      "aliases": [
+        "Kimila Ann"
+      ],
+      "popularity": 1091520,
+      "rarity": 0.379,
+      "tier": 2,
+      "wiki": "Kim Basinger"
+    },
+    {
+      "name": "Anjelica Huston",
+      "aliases": [
+        "Angelica Huston"
+      ],
+      "popularity": 1135426,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Anjelica Huston"
+    },
+    {
+      "name": "Jennifer Hudson",
+      "aliases": [
+        "J.Hud",
+        "Jennifer Kate Hudson"
+      ],
+      "popularity": 1163962,
+      "rarity": 0.356,
+      "tier": 2,
+      "wiki": "Jennifer Hudson"
+    },
+    {
+      "name": "Ingrid Bergman",
+      "aliases": [],
+      "popularity": 1177115,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Ingrid Bergman"
+    },
+    {
+      "name": "Viola Davis",
+      "aliases": [],
+      "popularity": 1200746,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Viola Davis"
+    },
+    {
+      "name": "Brenda Fricker",
+      "aliases": [],
+      "popularity": 1204735,
+      "rarity": 0.322,
+      "tier": 2,
+      "wiki": "Brenda Fricker"
+    },
+    {
+      "name": "Jessica Lange",
+      "aliases": [],
+      "popularity": 1222634,
+      "rarity": 0.31,
+      "tier": 2,
+      "wiki": "Jessica Lange"
+    },
+    {
+      "name": "Tilda Swinton",
+      "aliases": [
+        "Katherine Matilda Swinton",
+        "Katherine Matilda \"Tilda\" Swinton"
+      ],
+      "popularity": 1354833,
+      "rarity": 0.299,
+      "tier": 2,
+      "wiki": "Tilda Swinton"
+    },
+    {
+      "name": "Whoopi Goldberg",
+      "aliases": [],
+      "popularity": 1411520,
+      "rarity": 0.287,
+      "tier": 2,
+      "wiki": "Whoopi Goldberg"
+    },
+    {
+      "name": "Anna Paquin",
+      "aliases": [],
+      "popularity": 1435005,
+      "rarity": 0.276,
+      "tier": 2,
+      "wiki": "Anna Paquin"
+    },
+    {
+      "name": "Vanessa Redgrave",
+      "aliases": [
+        "Dame Vanessa Redgrave"
+      ],
+      "popularity": 1491054,
+      "rarity": 0.264,
+      "tier": 2,
+      "wiki": "Vanessa Redgrave"
+    },
+    {
+      "name": "Alicia Vikander",
+      "aliases": [],
+      "popularity": 1527924,
+      "rarity": 0.253,
+      "tier": 2,
+      "wiki": "Alicia Vikander"
+    },
+    {
+      "name": "Allison Janney",
+      "aliases": [],
+      "popularity": 1565765,
+      "rarity": 0.241,
+      "tier": 2,
+      "wiki": "Allison Janney"
+    },
+    {
+      "name": "Maggie Smith",
+      "aliases": [],
+      "popularity": 1618358,
+      "rarity": 0.23,
+      "tier": 2,
+      "wiki": "Maggie Smith"
+    },
+    {
+      "name": "Patricia Arquette",
+      "aliases": [
+        "Patricia Tiffany Arquette"
+      ],
+      "popularity": 1639963,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Patricia Arquette"
+    },
+    {
+      "name": "Judi Dench",
+      "aliases": [
+        "Dame Judi Dench"
+      ],
+      "popularity": 1677473,
+      "rarity": 0.207,
+      "tier": 2,
+      "wiki": "Judi Dench"
+    },
+    {
+      "name": "Cate Blanchett",
+      "aliases": [
+        "Catherine Blanchett",
+        "Catherine Élise Blanchett"
+      ],
+      "popularity": 1683996,
+      "rarity": 0.195,
+      "tier": 1,
+      "wiki": "Cate Blanchett"
+    },
+    {
+      "name": "Renée Zellweger",
+      "aliases": [
+        "Renee Kathleen Zellweger",
+        "Renée Kathleen Zellweiger"
+      ],
+      "popularity": 1707552,
+      "rarity": 0.184,
+      "tier": 1,
+      "wiki": "Renée Zellweger"
+    },
+    {
+      "name": "Catherine Zeta-Jones",
+      "aliases": [
+        "Catherine Douglas",
+        "Catherine Jones",
+        "Catherine Zeta-Jones Douglas",
+        "Katherine Zeta-Jones Douglas"
+      ],
+      "popularity": 1960841,
+      "rarity": 0.172,
+      "tier": 1,
+      "wiki": "Catherine Zeta-Jones"
+    },
+    {
+      "name": "Geena Davis",
+      "aliases": [
+        "Virginia Elizabeth \"Geena\" Davis"
+      ],
+      "popularity": 2186269,
+      "rarity": 0.161,
+      "tier": 1,
+      "wiki": "Geena Davis"
+    },
+    {
+      "name": "Laura Dern",
+      "aliases": [
+        "Dern",
+        "Dern-Harper",
+        "Dr. Ellie Sattler",
+        "L. Dern",
+        "L. E. Dern",
+        "L. E. Dern-Harper",
+        "Laura E. Dern",
+        "Laura E. Dern-Harper",
+        "Laura Elizabeth Dern",
+        "Laura Elizabeth Dern-Harper"
+      ],
+      "popularity": 2299060,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Laura Dern"
+    },
+    {
+      "name": "Penélope Cruz",
+      "aliases": [
+        "Penélope Cruz Sánchez"
+      ],
+      "popularity": 2366422,
+      "rarity": 0.138,
+      "tier": 1,
+      "wiki": "Penélope Cruz"
+    },
+    {
+      "name": "Lupita Nyong'o",
+      "aliases": [
+        "Lupita Amondi Nyong'o"
+      ],
+      "popularity": 2378567,
+      "rarity": 0.126,
+      "tier": 1,
+      "wiki": "Lupita Nyong'o"
+    },
+    {
+      "name": "Jennifer Connelly",
+      "aliases": [
+        "Jennifer Lynn Connelly"
+      ],
+      "popularity": 2425211,
+      "rarity": 0.115,
+      "tier": 1,
+      "wiki": "Jennifer Connelly"
+    },
+    {
+      "name": "Marisa Tomei",
+      "aliases": [
+        "Marisa Veriga Tomei"
+      ],
+      "popularity": 2452069,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "Marisa Tomei"
+    },
+    {
+      "name": "Mary Steenburgen",
+      "aliases": [
+        "Mary Nell Steenburgen"
+      ],
+      "popularity": 2521558,
+      "rarity": 0.092,
+      "tier": 1,
+      "wiki": "Mary Steenburgen"
+    },
+    {
+      "name": "Jamie Lee Curtis",
+      "aliases": [],
+      "popularity": 2588918,
+      "rarity": 0.08,
+      "tier": 1,
+      "wiki": "Jamie Lee Curtis"
+    },
+    {
+      "name": "Rachel Weisz",
+      "aliases": [],
+      "popularity": 2726044,
+      "rarity": 0.069,
+      "tier": 1,
+      "wiki": "Rachel Weisz"
+    },
+    {
+      "name": "Amy Madigan",
+      "aliases": [
+        "Amy Marie Madigan"
+      ],
+      "popularity": 3131878,
+      "rarity": 0.057,
+      "tier": 1,
+      "wiki": "Amy Madigan"
+    },
+    {
+      "name": "Goldie Hawn",
+      "aliases": [],
+      "popularity": 3430693,
+      "rarity": 0.046,
+      "tier": 1,
+      "wiki": "Goldie Hawn"
+    },
+    {
+      "name": "Angelina Jolie",
+      "aliases": [],
+      "popularity": 3514181,
+      "rarity": 0.034,
+      "tier": 1,
+      "wiki": "Angelina Jolie"
+    },
+    {
+      "name": "Zoe Saldaña",
+      "aliases": [
+        "Zoe Yadira Saldaña Nazario",
+        "Zoë Yadira Saldaña-Perego"
+      ],
+      "popularity": 3670806,
+      "rarity": 0.023,
+      "tier": 1,
+      "wiki": "Zoe Saldaña"
+    },
+    {
+      "name": "Meryl Streep",
+      "aliases": [],
+      "popularity": 4048457,
+      "rarity": 0.011,
+      "tier": 1,
+      "wiki": "Meryl Streep"
+    },
+    {
+      "name": "Anne Hathaway",
+      "aliases": [],
+      "popularity": 8384814,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Anne Hathaway"
+    }
+  ]
+}

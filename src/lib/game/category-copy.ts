@@ -134,7 +134,7 @@ const MEASURED = /wikipedia|wiktionary|page\s*views?/i;
  */
 export function measureCopy(sources: readonly (string | null)[], none: string): string {
   const method =
-    'Rarity is a rank inside one prompt. A name is common or legendary only beside the other accepted answers on that prompt. When the source names Wikipedia or pageviews, the answer list is compiled from Wikidata (CC0) and monthly English Wikipedia pageviews set the rank. More views means a lower tier. When the source names Wiktionary, the rank uses Wiktionary pageviews. Any other source is placeholder popularity, not a live pageview count.';
+    'Rarity is a rank inside one prompt. A name is common or legendary only beside the other accepted answers on that prompt. When the source names Wikipedia, the answer list is compiled from Wikidata (CC0) and monthly English Wikipedia pageviews set the rank. More views means a lower tier. When the source names Wiktionary, the rank uses monthly English Wiktionary pageviews. Any other source is placeholder popularity, not a live pageview count.';
   return `${method} ${sourceStatus(sources, none)}`;
 }
 

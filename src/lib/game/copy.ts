@@ -39,7 +39,7 @@ export const HOW_TO_STEPS: readonly string[] = [
   'Type any real answer and press Enter. Capital letters, accents, punctuation, and a leading "the" do not matter. On a name of six letters or more, one wrong character still counts.',
   `You have ${seconds} seconds. A wrong guess takes ${penaltySeconds} second off the clock and you can try again. Turn the timer off before the round if you want to think, then use Pass when you are done.`,
   'Arm Spotlight once per round to double that prompt. It is spent only when you score, and you can turn it off again before you submit.',
-  'After each prompt you see your tier, ten of the rarest answers, and ten of the most common. The share grid is colored squares. It does not include what you typed.',
+  'After each prompt you see your tier. A list of ten or fewer answers is shown in full, rarest first. A longer list shows the ten rarest and the ten most common. The share grid is colored squares. It does not include what you typed.',
   'From the answer box, Enter submits. Tab moves to Guess and Pass. Escape closes a dialog.',
 ];
 

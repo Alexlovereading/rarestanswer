@@ -1,0 +1,535 @@
+{
+  "id": "stanley-cup-coaches",
+  "slug": "stanley-cup-coaches",
+  "category": "sports",
+  "question": "Name a Stanley Cup-winning head coach",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Pete Green",
+      "aliases": [
+        "Pete Green (ice hockey)",
+        "Peter Green"
+      ],
+      "popularity": 644,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Pete Green (ice hockey)"
+    },
+    {
+      "name": "Dave Gill",
+      "aliases": [
+        "David Norman Gill"
+      ],
+      "popularity": 1249,
+      "rarity": 0.982,
+      "tier": 6,
+      "wiki": "Dave Gill"
+    },
+    {
+      "name": "Pete Muldoon",
+      "aliases": [
+        "Linton Muldoon Treacy"
+      ],
+      "popularity": 1622,
+      "rarity": 0.964,
+      "tier": 6,
+      "wiki": "Pete Muldoon"
+    },
+    {
+      "name": "Jimmy Skinner",
+      "aliases": [
+        "James Donald Skinner"
+      ],
+      "popularity": 1648,
+      "rarity": 0.945,
+      "tier": 6,
+      "wiki": "Jimmy Skinner"
+    },
+    {
+      "name": "Bill Stewart",
+      "aliases": [
+        "Bill Stewart (sports official)",
+        "William Joseph Stewart"
+      ],
+      "popularity": 1704,
+      "rarity": 0.927,
+      "tier": 5,
+      "wiki": "Bill Stewart (sports official)"
+    },
+    {
+      "name": "Rudy Pilous",
+      "aliases": [
+        "Rudolph Pilous"
+      ],
+      "popularity": 1899,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Rudy Pilous"
+    },
+    {
+      "name": "Claude Ruel",
+      "aliases": [],
+      "popularity": 3024,
+      "rarity": 0.891,
+      "tier": 5,
+      "wiki": "Claude Ruel"
+    },
+    {
+      "name": "Tommy Ivan",
+      "aliases": [
+        "Thomas Nathaniel Ivan"
+      ],
+      "popularity": 3037,
+      "rarity": 0.873,
+      "tier": 5,
+      "wiki": "Tommy Ivan"
+    },
+    {
+      "name": "Tommy Gorman",
+      "aliases": [
+        "Thomas Patrick Gorman"
+      ],
+      "popularity": 3135,
+      "rarity": 0.855,
+      "tier": 5,
+      "wiki": "Tommy Gorman"
+    },
+    {
+      "name": "Cooney Weiland",
+      "aliases": [],
+      "popularity": 3746,
+      "rarity": 0.836,
+      "tier": 5,
+      "wiki": "Cooney Weiland"
+    },
+    {
+      "name": "Cy Denneny",
+      "aliases": [
+        "Cyril Joseph Denneny"
+      ],
+      "popularity": 4289,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Cy Denneny"
+    },
+    {
+      "name": "Joe Primeau",
+      "aliases": [
+        "Joseph Primeau"
+      ],
+      "popularity": 4464,
+      "rarity": 0.8,
+      "tier": 5,
+      "wiki": "Joe Primeau"
+    },
+    {
+      "name": "Tom Johnson",
+      "aliases": [
+        "Tom Johnson (ice hockey)"
+      ],
+      "popularity": 5136,
+      "rarity": 0.782,
+      "tier": 4,
+      "wiki": "Tom Johnson (ice hockey)"
+    },
+    {
+      "name": "Jean Perron",
+      "aliases": [],
+      "popularity": 5798,
+      "rarity": 0.764,
+      "tier": 4,
+      "wiki": "Jean Perron"
+    },
+    {
+      "name": "Cecil Hart",
+      "aliases": [
+        "Cecil Mordecai Hart"
+      ],
+      "popularity": 6431,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Cecil Hart"
+    },
+    {
+      "name": "Al MacNeil",
+      "aliases": [
+        "Allister Wences \"Al\" MacNeil",
+        "Allister Wences MacNeil"
+      ],
+      "popularity": 6695,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Al MacNeil"
+    },
+    {
+      "name": "Hap Day",
+      "aliases": [
+        "Clarence Henry \"Happy\" Day"
+      ],
+      "popularity": 7571,
+      "rarity": 0.709,
+      "tier": 4,
+      "wiki": "Hap Day"
+    },
+    {
+      "name": "Frank Boucher",
+      "aliases": [],
+      "popularity": 7713,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Frank Boucher"
+    },
+    {
+      "name": "John Muckler",
+      "aliases": [],
+      "popularity": 11032,
+      "rarity": 0.673,
+      "tier": 4,
+      "wiki": "John Muckler"
+    },
+    {
+      "name": "Fred Shero",
+      "aliases": [
+        "Frederick Alexander Shero"
+      ],
+      "popularity": 13240,
+      "rarity": 0.655,
+      "tier": 4,
+      "wiki": "Fred Shero"
+    },
+    {
+      "name": "Dick Irvin",
+      "aliases": [],
+      "popularity": 14077,
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Dick Irvin"
+    },
+    {
+      "name": "Terry Crisp",
+      "aliases": [
+        "Terrance Arthur Crisp"
+      ],
+      "popularity": 15109,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Terry Crisp"
+    },
+    {
+      "name": "Lester Patrick",
+      "aliases": [],
+      "popularity": 16455,
+      "rarity": 0.6,
+      "tier": 4,
+      "wiki": "Lester Patrick"
+    },
+    {
+      "name": "Art Ross",
+      "aliases": [
+        "Arthur Howe Ross"
+      ],
+      "popularity": 16572,
+      "rarity": 0.582,
+      "tier": 3,
+      "wiki": "Art Ross"
+    },
+    {
+      "name": "Harry Sinden",
+      "aliases": [
+        "Harry James Sinden"
+      ],
+      "popularity": 17735,
+      "rarity": 0.564,
+      "tier": 3,
+      "wiki": "Harry Sinden"
+    },
+    {
+      "name": "Punch Imlach",
+      "aliases": [],
+      "popularity": 21354,
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Punch Imlach"
+    },
+    {
+      "name": "Bob Johnson",
+      "aliases": [
+        "Badger Bob",
+        "Robert Johnson",
+        "Robert Norman \"Badger Bob\" Johnson",
+        "Robert Norman Johnson"
+      ],
+      "popularity": 23324,
+      "rarity": 0.527,
+      "tier": 3,
+      "wiki": "Bob Johnson (ice hockey, born 1931)"
+    },
+    {
+      "name": "Al Arbour",
+      "aliases": [
+        "Alger Joseph Arbour"
+      ],
+      "popularity": 24359,
+      "rarity": 0.509,
+      "tier": 3,
+      "wiki": "Al Arbour"
+    },
+    {
+      "name": "Marc Crawford",
+      "aliases": [
+        "Marc Joseph John Crawford"
+      ],
+      "popularity": 25650,
+      "rarity": 0.491,
+      "tier": 3,
+      "wiki": "Marc Crawford"
+    },
+    {
+      "name": "Jacques Demers",
+      "aliases": [],
+      "popularity": 26129,
+      "rarity": 0.473,
+      "tier": 3,
+      "wiki": "Jacques Demers"
+    },
+    {
+      "name": "Randy Carlyle",
+      "aliases": [
+        "Randolph Robert Carlyle"
+      ],
+      "popularity": 26318,
+      "rarity": 0.455,
+      "tier": 3,
+      "wiki": "Randy Carlyle"
+    },
+    {
+      "name": "Claude Julien",
+      "aliases": [
+        "Claude Julien (ice hockey)"
+      ],
+      "popularity": 29133,
+      "rarity": 0.436,
+      "tier": 3,
+      "wiki": "Claude Julien (ice hockey)"
+    },
+    {
+      "name": "Toe Blake",
+      "aliases": [],
+      "popularity": 29890,
+      "rarity": 0.418,
+      "tier": 3,
+      "wiki": "Toe Blake"
+    },
+    {
+      "name": "Ken Hitchcock",
+      "aliases": [],
+      "popularity": 30144,
+      "rarity": 0.4,
+      "tier": 3,
+      "wiki": "Ken Hitchcock"
+    },
+    {
+      "name": "Pat Burns",
+      "aliases": [
+        "Patrick John Joseph Burns"
+      ],
+      "popularity": 30556,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Pat Burns"
+    },
+    {
+      "name": "Bob Hartley",
+      "aliases": [
+        "Robert Hartley"
+      ],
+      "popularity": 31415,
+      "rarity": 0.364,
+      "tier": 2,
+      "wiki": "Bob Hartley"
+    },
+    {
+      "name": "Glen Sather",
+      "aliases": [
+        "Glen Cameron Sather"
+      ],
+      "popularity": 31766,
+      "rarity": 0.345,
+      "tier": 2,
+      "wiki": "Glen Sather"
+    },
+    {
+      "name": "Dan Bylsma",
+      "aliases": [
+        "Daniel Brian Bylsma"
+      ],
+      "popularity": 35557,
+      "rarity": 0.327,
+      "tier": 2,
+      "wiki": "Dan Bylsma"
+    },
+    {
+      "name": "Jack Adams",
+      "aliases": [
+        "John J. Adams",
+        "John James Adams"
+      ],
+      "popularity": 36879,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Jack Adams"
+    },
+    {
+      "name": "Jacques Lemaire",
+      "aliases": [
+        "Jacques Gerard Lemaire"
+      ],
+      "popularity": 38059,
+      "rarity": 0.291,
+      "tier": 2,
+      "wiki": "Jacques Lemaire"
+    },
+    {
+      "name": "Darryl Sutter",
+      "aliases": [],
+      "popularity": 46197,
+      "rarity": 0.273,
+      "tier": 2,
+      "wiki": "Darryl Sutter"
+    },
+    {
+      "name": "Barry Trotz",
+      "aliases": [],
+      "popularity": 49198,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Barry Trotz"
+    },
+    {
+      "name": "Mike Keenan",
+      "aliases": [
+        "Michael Edward Keenan"
+      ],
+      "popularity": 53218,
+      "rarity": 0.236,
+      "tier": 2,
+      "wiki": "Mike Keenan"
+    },
+    {
+      "name": "Larry Robinson",
+      "aliases": [
+        "Larry Clark Robinson"
+      ],
+      "popularity": 82847,
+      "rarity": 0.218,
+      "tier": 2,
+      "wiki": "Larry Robinson"
+    },
+    {
+      "name": "Paul Maurice",
+      "aliases": [],
+      "popularity": 96062,
+      "rarity": 0.2,
+      "tier": 1,
+      "wiki": "Paul Maurice"
+    },
+    {
+      "name": "Peter Laviolette",
+      "aliases": [],
+      "popularity": 112386,
+      "rarity": 0.182,
+      "tier": 1,
+      "wiki": "Peter Laviolette"
+    },
+    {
+      "name": "Jared Bednar",
+      "aliases": [],
+      "popularity": 132067,
+      "rarity": 0.164,
+      "tier": 1,
+      "wiki": "Jared Bednar"
+    },
+    {
+      "name": "Craig Berube",
+      "aliases": [],
+      "popularity": 136948,
+      "rarity": 0.145,
+      "tier": 1,
+      "wiki": "Craig Berube"
+    },
+    {
+      "name": "Scotty Bowman",
+      "aliases": [
+        "William Scott Bowman"
+      ],
+      "popularity": 171245,
+      "rarity": 0.127,
+      "tier": 1,
+      "wiki": "Scotty Bowman"
+    },
+    {
+      "name": "Bruce Cassidy",
+      "aliases": [
+        "Bruce James Cassidy"
+      ],
+      "popularity": 187109,
+      "rarity": 0.109,
+      "tier": 1,
+      "wiki": "Bruce Cassidy"
+    },
+    {
+      "name": "Joel Quenneville",
+      "aliases": [
+        "Joel Norman Quenneville"
+      ],
+      "popularity": 193101,
+      "rarity": 0.091,
+      "tier": 1,
+      "wiki": "Joel Quenneville"
+    },
+    {
+      "name": "Jon Cooper",
+      "aliases": [],
+      "popularity": 262249,
+      "rarity": 0.073,
+      "tier": 1,
+      "wiki": "Jon Cooper"
+    },
+    {
+      "name": "Mike Babcock",
+      "aliases": [],
+      "popularity": 278655,
+      "rarity": 0.055,
+      "tier": 1,
+      "wiki": "Mike Babcock"
+    },
+    {
+      "name": "Mike Sullivan",
+      "aliases": [
+        "Michael Barry Sullivan",
+        "Mike Sullivan (ice hockey)"
+      ],
+      "popularity": 283802,
+      "rarity": 0.036,
+      "tier": 1,
+      "wiki": "Mike Sullivan (ice hockey)"
+    },
+    {
+      "name": "John Tortorella",
+      "aliases": [],
+      "popularity": 657975,
+      "rarity": 0.018,
+      "tier": 1,
+      "wiki": "John Tortorella"
+    },
+    {
+      "name": "Rod Brind'Amour",
+      "aliases": [],
+      "popularity": 806366,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Rod Brind'Amour"
+    }
+  ]
+}

@@ -4,7 +4,9 @@ Audit date: 14 November 2026. Counts are the English Wikipedia titles in the ful
 
 The build that is running used the queries from before this audit. It will write `src/data/prompts/**` from those queries. The fixes below are in `scripts/data/prompt-defs.ts` and apply on the next build. This audit did not run `build-prompts` and did not edit `src/data/prompts/**`.
 
-A prompt under 15 answers is not written (except great apes at 8 and Stranger Things at 12). A prompt that fills all 801 rows is not written, because the slice would drop true answers.
+A prompt under 15 answers is not written (except great apes at 8, and planets and dwarf planets at 13). A prompt that fills all 801 rows is not written, because the slice would drop true answers.
+
+Build 15 November 2026 (`pnpm build-prompts`, cache reused): 276 prompts written. geography 37, animals 51, food 33, sports 31, screen 30, music 31, science 32, history 31. Sports, screen, and history are each at least 30. The rows below that this build changed are marked with the counts it wrote.
 
 Playable defs after this audit: 286. Per category: geography 37, animals 51, food 54, sports 21, screen 28, music 32, science 34, history 29. Each category is at least 20.
 
@@ -42,7 +44,7 @@ Still excluded: anything in the table marked excluded. The query was not good en
 | un-member-states | geography | 193 | 193 | pass | pass |
 | eu-member-states | geography | 27 | 27 | pass | pass |
 | nato-members | geography | 32 | 32 | pass | pass |
-| commonwealth-members | geography | 55 | 56 | fixed | the United Kingdom has no P463 statement and is unioned in |
+| commonwealth-members | geography | 56 | 56 | pass | the P463 query times out and omits the UK. Pinned to the 56 flag rows in the current-members table on "Member states of the Commonwealth of Nations", including the United Kingdom and Trinidad and Tobago |
 | euro-countries | geography | 27 | 27 | pass | Bulgaria adopted the euro on 1 January 2026; the other six are the monetary-agreement and unilateral users. The question is "uses the euro", not "eurozone member" |
 | landlocked-countries | geography | 38 | 45 | fixed | Andorra, Armenia, Azerbaijan, Liechtenstein, Paraguay, Rwanda, and Uzbekistan were missing the landlocked class |
 | mediterranean-countries | geography | 21 | 22+ | fixed | a sea that is part of the Mediterranean now counts, which is how Croatia was missing. Fresh count is not in the cache |
@@ -176,14 +178,14 @@ Still excluded: anything in the table marked excluded. The query was not good en
 | eredivisie-clubs | sports | 18 | 18 | pass | pass |
 | champions-league-winners | sports | 24 | 24 | pass | the 24 European Cup and Champions League clubs |
 | world-series-winners | sports | 31 | 30 | fixed | Milwaukee Brewers removed; they have never won. Historical franchise names that did win stay |
-| summer-olympics | sports | 36 | 30 | fixed | 1916, 1940, and 1944 were cancelled, and 2028, 2032, and 2036 have not been held |
+| summer-olympics | sports | 30 | 30 | pass | year is COALESCE of point in time, opening date, and start. 1916, 1940, and 1944 stay out. 2028, 2032, and 2036 stay out. 2020 Summer Olympics stays (held in 2021) |
 | paris-2024-sports | sports | 38 | 37 | fixed | Marathon removed. Swimming, diving, and beach volleyball stay as the events a player names |
 | martial-arts | sports | 154 | open | pass | no album, list, or fossil title in the checks that were run; not every label was listed |
 | combat-sports | sports | 48 | open | pass | no album, list, or fossil title in the checks that were run; not every label was listed |
 | spiel-des-jahres | sports | 46 | 46 | pass | 1979–2024 is 46; the 2025 winner was not checked |
 | fifa-world-cup-tournaments | sports | 24 | 23 | fixed | 2030 has not been played. 1930 through 2026, skipping the war years, is 23 |
 | world-cup-host-countries | sports | 19 | 19 | pass | hosts through 2026, with Germany covering 1974 and 2006 and the UK covering 1966 |
-| stranger-things-characters | screen | 14 | 14 | pass | where clause unchanged. Minimum stays 12 |
+| stranger-things-characters | screen | 129 | 129 | pass | MediaWiki parse of "List of Stranger Things characters" (cast tables, character headings, recurring and guest credits). Pageviews when an article or redirect exists, otherwise 1. Barb, Dr. Brenner, Papa, Eddie Munson, Erica Sinclair, Murray Bauman, Argyle, Bob Newby, Karen Wheeler, and Demogorgon are accepted. seoNoun unchanged |
 | friends-characters | screen | 16 | 16 | pass | every listed name is a character |
 | breaking-bad-characters | screen | 14 | 14 | skipped | under 15, and every listed name is a character |
 | game-of-thrones-characters | screen | 50 | open | pass | no album, list, or fossil title in the checks that were run; not every label was listed |
@@ -247,7 +249,7 @@ Still excluded: anything in the table marked excluded. The query was not good en
 | transition-metals | science | 38 | 38 | pass | the four IUPAC ranges, without lanthanum, lutetium, actinium, or lawrencium |
 | lanthanides | science | 15 | 15 | pass | pass |
 | actinides | science | 15 | 15 | pass | pass |
-| planets-and-dwarf-planets | science | 19 | 13 | fixed | the 8 planets plus Ceres, Pluto, Haumea, Makemake, and Eris. Theia and the non-IAU dwarfs are gone |
+| planets-and-dwarf-planets | science | 13 | 13 | pass | VALUES of the 13 IAU bodies plus the optimizer hint. Written names: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Ceres, Pluto, Haumea, Makemake, Eris. Minimum is 13 because that is the whole set |
 | moons-of-jupiter | science | 85 | open | pass | no album, list, or fossil title in the checks that were run; not every label was listed |
 | moons-of-saturn | science | 155 | open | pass | no album, list, or fossil title in the checks that were run; not every label was listed |
 | moons-of-uranus | science | 29 | open | pass | no album, list, or fossil title in the checks that were run; not every label was listed |
@@ -320,7 +322,7 @@ Still excluded: anything in the table marked excluded. The query was not good en
 | belgian-pro-league-clubs | excluded | 18 | — | excluded | 18 clubs returned from open membership statements, not a verified current roster |
 | super-bowl-winners | excluded | 0 | — | excluded | the P2522 query returns no teams |
 | stanley-cup-winners | excluded | 5 | — | excluded | 5 teams returned; the Canadiens and most other winners are missing |
-| tour-de-france-winners | excluded | 0 | — | excluded | the P2522 query returns no riders |
+| tour-de-france-winners | sports | 64 | 64 | pass | Wikipedia category "Tour de France winners", minus the two list pages and "Stage 3 of the 1952 Tour de France". The P2522 query is no longer used |
 | summer-olympics-host-cities | excluded | 21 | — | excluded | the location property mixes stadiums with cities and omits several host cities |
 | summer-olympics-host-countries | excluded | 16 | — | excluded | 16 countries returned; Belgium, the Netherlands, Italy, and Sweden are missing |
 | star-wars-films | excluded | 9 | — | excluded | 9 Skywalker Saga films; Rogue One and Solo are missing |
@@ -344,3 +346,23 @@ Still excluded: anything in the table marked excluded. The query was not good en
 | vitamins | excluded | 3 | — | excluded | 3 items, and Greens powder and Provitamin are not vitamins |
 | human-muscles | excluded | 0 | — | excluded | the muscle-and-taxon query returns nothing |
 | wine-grapes | excluded | 0 | — | excluded | the grape class returns nothing |
+| f1-world-champions | sports | 36 | 36 | pass | the 36 drivers in the "By driver" table on "List of Formula One World Drivers' Champions", including Kimi Antonelli. The 2026 season article says he clinched the title at the Mexico City Grand Prix. Same 36 people as the Wikipedia category minus its list page |
+| nba-mvps | sports | 37 | 37 | pass | unique people in the winners table on "NBA Most Valuable Player" through Shai Gilgeous-Alexander (2). Lew Alcindor is an alias of Kareem Abdul-Jabbar. Joel Embiid is included; P166 alone missed him |
+| ballon-dor-winners | sports | 48 | 48 | pass | unique players in the gold 1st-place rows of the Winners table on "Ballon d'Or", through Harry Kane. A commented-out 2027 row was not counted. Ballon d'Or Féminin is not in this set |
+| heisman-winners | sports | 90 | 90 | pass | person pages in Category:Heisman Trophy winners. "List of Heisman Trophy winners" is not an answer |
+| world-series-mvps | sports | 69 | 69 | pass | person pages in Category:World Series Most Valuable Player Award winners. The award article is not an answer |
+| f1-constructors-champions | sports | 15 | 15 | pass | the 15 constructor articles in Category:Formula One World Constructors' Champions |
+| super-bowl-mvps | sports | 50 | 50 | pass | person pages in Category:Super Bowl MVPs. The award article is not an answer |
+| super-bowl-coaches | sports | 37 | 37 | pass | coach pages in Category:Super Bowl–winning head coaches. "List of Super Bowl head coaches" is not an answer |
+| stanley-cup-coaches | sports | 56 | 56 | pass | coach pages in Category:Stanley Cup championship–winning head coaches |
+| simpsons-characters | screen | 63 | 63 | pass | characters linked from The Simpsons (Q886) that have an English Wikipedia article. The titles were reviewed as characters |
+| mcu-characters | screen | 36 | 36 | pass | characters linked from Marvel Cinematic Universe films released by 2026 that survive the English Wikipedia title filters. The 36 names were reviewed; they are characters, not actors |
+| doctor-who-incarnations | screen | 17 | 17 | pass | every item that is a regeneration of the Doctor (Q47543030) with an English Wikipedia article: First through Fifteenth, the War Doctor, and the Fugitive Doctor. "Sixteenth Doctor" only redirects to the actors list |
+| best-actor-winners | screen | 87 | 87 | pass | people with the Academy Award for Best Actor. Matches Category:Best Actor Academy Award winners once the award article itself is ignored |
+| best-actress-winners | screen | 81 | 81 | pass | same check against Category:Best Actress Academy Award winners. Sonia Mbele is excluded: Wikidata gives her the award and her article does not |
+| best-supporting-actor-winners | screen | 81 | 81 | pass | P166 winners plus Haing S. Ngor (Q312364), who is in the winners category and missing from P166 |
+| best-supporting-actress-winners | screen | 88 | 88 | pass | matches Category:Best Supporting Actress Academy Award winners once the award article is ignored |
+| emmy-comedy-series | screen | 40 | 40 | pass | series pages in Category:Primetime Emmy Award for Outstanding Comedy Series winners. The award article is not an answer |
+| lotr-characters | screen | 36 | 36 | pass | articles in Category:The Lord of the Rings characters that have their own Wikidata item. Redirects were not folded into a different character. Includes Frodo, Gandalf, Aragorn, Gollum, and Celeborn |
+| roman-deities | history | 209 | open | pass | instance of Roman deity (Q11688446) with an English Wikipedia article. The class has 473 items. Jupiter (god), Juno, Venus, Mars, Minerva, and Neptune are in it. A title filter found no album, film, list, or novel pages |
+| world-wonders | history | 21 | 21 | pass | the parts of the Seven Wonders of the Ancient World, the New 7 Wonders, and the New 7 Wonders of Nature. 7 + 7 + 7, no overlap in the returned titles |

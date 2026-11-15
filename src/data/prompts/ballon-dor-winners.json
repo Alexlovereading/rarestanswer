@@ -1,0 +1,472 @@
+{
+  "id": "ballon-dor-winners",
+  "slug": "ballon-dor-winners",
+  "category": "sports",
+  "question": "Name a winner of the Ballon d'Or",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Luis Suárez",
+      "aliases": [
+        "Luis Suárez Miramontes",
+        "Luis Suárez (Spanish footballer)"
+      ],
+      "popularity": 17434,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Luis Suárez (Spanish footballer)"
+    },
+    {
+      "name": "Josef Masopust",
+      "aliases": [],
+      "popularity": 52148,
+      "rarity": 0.979,
+      "tier": 6,
+      "wiki": "Josef Masopust"
+    },
+    {
+      "name": "Flórián Albert",
+      "aliases": [],
+      "popularity": 57058,
+      "rarity": 0.957,
+      "tier": 6,
+      "wiki": "Flórián Albert"
+    },
+    {
+      "name": "Omar Sívori",
+      "aliases": [
+        "Enrique Sivori"
+      ],
+      "popularity": 66437,
+      "rarity": 0.936,
+      "tier": 6,
+      "wiki": "Omar Sívori"
+    },
+    {
+      "name": "Allan Simonsen",
+      "aliases": [],
+      "popularity": 75409,
+      "rarity": 0.915,
+      "tier": 5,
+      "wiki": "Allan Simonsen"
+    },
+    {
+      "name": "Igor Belanov",
+      "aliases": [],
+      "popularity": 78816,
+      "rarity": 0.894,
+      "tier": 5,
+      "wiki": "Igor Belanov"
+    },
+    {
+      "name": "Gianni Rivera",
+      "aliases": [
+        "Giovanni Rivera"
+      ],
+      "popularity": 93409,
+      "rarity": 0.872,
+      "tier": 5,
+      "wiki": "Gianni Rivera"
+    },
+    {
+      "name": "Oleg Blokhin",
+      "aliases": [
+        "Oleh Blokhin"
+      ],
+      "popularity": 102392,
+      "rarity": 0.851,
+      "tier": 5,
+      "wiki": "Oleg Blokhin"
+    },
+    {
+      "name": "Raymond Kopa",
+      "aliases": [
+        "Raymond Kopaszewski"
+      ],
+      "popularity": 118141,
+      "rarity": 0.83,
+      "tier": 5,
+      "wiki": "Raymond Kopa"
+    },
+    {
+      "name": "Matthias Sammer",
+      "aliases": [],
+      "popularity": 150715,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Matthias Sammer"
+    },
+    {
+      "name": "Jean-Pierre Papin",
+      "aliases": [
+        "Jean-Pierre Roger Guillaume Papin"
+      ],
+      "popularity": 193532,
+      "rarity": 0.787,
+      "tier": 4,
+      "wiki": "Jean-Pierre Papin"
+    },
+    {
+      "name": "Denis Law",
+      "aliases": [],
+      "popularity": 242490,
+      "rarity": 0.766,
+      "tier": 4,
+      "wiki": "Denis Law"
+    },
+    {
+      "name": "Stanley Matthews",
+      "aliases": [
+        "Sir Stanley Matthews"
+      ],
+      "popularity": 248632,
+      "rarity": 0.745,
+      "tier": 4,
+      "wiki": "Stanley Matthews"
+    },
+    {
+      "name": "Karl-Heinz Rummenigge",
+      "aliases": [],
+      "popularity": 270767,
+      "rarity": 0.723,
+      "tier": 4,
+      "wiki": "Karl-Heinz Rummenigge"
+    },
+    {
+      "name": "Paolo Rossi",
+      "aliases": [],
+      "popularity": 297237,
+      "rarity": 0.702,
+      "tier": 4,
+      "wiki": "Paolo Rossi"
+    },
+    {
+      "name": "Pavel Nedvěd",
+      "aliases": [],
+      "popularity": 306456,
+      "rarity": 0.681,
+      "tier": 4,
+      "wiki": "Pavel Nedvěd"
+    },
+    {
+      "name": "Hristo Stoichkov",
+      "aliases": [
+        "Christo Stoičkov",
+        "Hristo Stoichkov Stoichkov",
+        "Hristo Stoitchkov",
+        "Xristo Stoiçkov"
+      ],
+      "popularity": 362786,
+      "rarity": 0.66,
+      "tier": 4,
+      "wiki": "Hristo Stoichkov"
+    },
+    {
+      "name": "Lothar Matthäus",
+      "aliases": [],
+      "popularity": 467072,
+      "rarity": 0.638,
+      "tier": 4,
+      "wiki": "Lothar Matthäus"
+    },
+    {
+      "name": "Eusébio",
+      "aliases": [
+        "Eusebueno",
+        "Euséddbio da Silva Ferreira"
+      ],
+      "popularity": 489827,
+      "rarity": 0.617,
+      "tier": 4,
+      "wiki": "Eusébio"
+    },
+    {
+      "name": "Andriy Shevchenko",
+      "aliases": [
+        "Andriy Mykolayovych Shevchenko"
+      ],
+      "popularity": 505941,
+      "rarity": 0.596,
+      "tier": 3,
+      "wiki": "Andriy Shevchenko"
+    },
+    {
+      "name": "Gerd Müller",
+      "aliases": [
+        "Gerd Mueller",
+        "Gerhard Mueller",
+        "Gerhard Müller"
+      ],
+      "popularity": 514393,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Gerd Müller"
+    },
+    {
+      "name": "Lev Yashin",
+      "aliases": [
+        "Lev Ivanovich Yashin"
+      ],
+      "popularity": 537106,
+      "rarity": 0.553,
+      "tier": 3,
+      "wiki": "Lev Yashin"
+    },
+    {
+      "name": "Alfredo Di Stéfano",
+      "aliases": [
+        "Alfredo Stefano di Stefano Laulhe"
+      ],
+      "popularity": 545992,
+      "rarity": 0.532,
+      "tier": 3,
+      "wiki": "Alfredo Di Stéfano"
+    },
+    {
+      "name": "Michel Platini",
+      "aliases": [
+        "Michel Francois Platini"
+      ],
+      "popularity": 549971,
+      "rarity": 0.511,
+      "tier": 3,
+      "wiki": "Michel Platini"
+    },
+    {
+      "name": "Ruud Gullit",
+      "aliases": [
+        "Ridi Dil \"Ruud\" Gullit",
+        "Rudi Dil \"Ruud\" Gullit"
+      ],
+      "popularity": 558597,
+      "rarity": 0.489,
+      "tier": 3,
+      "wiki": "Ruud Gullit"
+    },
+    {
+      "name": "Marco van Basten",
+      "aliases": [
+        "Marcel van Basten"
+      ],
+      "popularity": 571275,
+      "rarity": 0.468,
+      "tier": 3,
+      "wiki": "Marco van Basten"
+    },
+    {
+      "name": "Bobby Charlton",
+      "aliases": [
+        "Robert Charlton",
+        "Sir Bobby Charlton",
+        "Sir Robert Charlton"
+      ],
+      "popularity": 625834,
+      "rarity": 0.447,
+      "tier": 3,
+      "wiki": "Bobby Charlton"
+    },
+    {
+      "name": "Franz Beckenbauer",
+      "aliases": [
+        "Der Kaiser"
+      ],
+      "popularity": 672193,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Franz Beckenbauer"
+    },
+    {
+      "name": "Rodri",
+      "aliases": [],
+      "popularity": 676985,
+      "rarity": 0.404,
+      "tier": 3,
+      "wiki": "Rodri"
+    },
+    {
+      "name": "Rivaldo",
+      "aliases": [
+        "Rivaldo Vítor Borba Ferreira"
+      ],
+      "popularity": 680865,
+      "rarity": 0.383,
+      "tier": 2,
+      "wiki": "Rivaldo"
+    },
+    {
+      "name": "Luís Figo",
+      "aliases": [],
+      "popularity": 719700,
+      "rarity": 0.362,
+      "tier": 2,
+      "wiki": "Luís Figo"
+    },
+    {
+      "name": "Fabio Cannavaro",
+      "aliases": [
+        "Il muro de Berlino"
+      ],
+      "popularity": 725395,
+      "rarity": 0.34,
+      "tier": 2,
+      "wiki": "Fabio Cannavaro"
+    },
+    {
+      "name": "Roberto Baggio",
+      "aliases": [],
+      "popularity": 742060,
+      "rarity": 0.319,
+      "tier": 2,
+      "wiki": "Roberto Baggio"
+    },
+    {
+      "name": "George Weah",
+      "aliases": [
+        "George Manneh Oppong Weah"
+      ],
+      "popularity": 826137,
+      "rarity": 0.298,
+      "tier": 2,
+      "wiki": "George Weah"
+    },
+    {
+      "name": "George Best",
+      "aliases": [
+        "Georgie Best"
+      ],
+      "popularity": 863410,
+      "rarity": 0.277,
+      "tier": 2,
+      "wiki": "George Best"
+    },
+    {
+      "name": "Johan Cruyff",
+      "aliases": [
+        "Hendrik Johannes Cruijff"
+      ],
+      "popularity": 1139896,
+      "rarity": 0.255,
+      "tier": 2,
+      "wiki": "Johan Cruyff"
+    },
+    {
+      "name": "Michael Owen",
+      "aliases": [
+        "Michael James Owen"
+      ],
+      "popularity": 1164059,
+      "rarity": 0.234,
+      "tier": 2,
+      "wiki": "Michael Owen"
+    },
+    {
+      "name": "Kaká",
+      "aliases": [
+        "Ricardo Kaká"
+      ],
+      "popularity": 1332994,
+      "rarity": 0.213,
+      "tier": 2,
+      "wiki": "Kaká"
+    },
+    {
+      "name": "Karim Benzema",
+      "aliases": [
+        "Karim Mostafa Benzema"
+      ],
+      "popularity": 1601318,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Karim Benzema"
+    },
+    {
+      "name": "Kevin Keegan",
+      "aliases": [
+        "Joseph Kevin Keegan"
+      ],
+      "popularity": 2354330,
+      "rarity": 0.17,
+      "tier": 1,
+      "wiki": "Kevin Keegan"
+    },
+    {
+      "name": "Luka Modrić",
+      "aliases": [],
+      "popularity": 2530538,
+      "rarity": 0.149,
+      "tier": 1,
+      "wiki": "Luka Modrić"
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "aliases": [
+        "Masour Ousmane Dembélé"
+      ],
+      "popularity": 2987998,
+      "rarity": 0.128,
+      "tier": 1,
+      "wiki": "Ousmane Dembélé"
+    },
+    {
+      "name": "Ronaldinho",
+      "aliases": [
+        "Ronaldinho Gaúcho",
+        "Ronaldo de Assis Moreira"
+      ],
+      "popularity": 3218779,
+      "rarity": 0.106,
+      "tier": 1,
+      "wiki": "Ronaldinho"
+    },
+    {
+      "name": "Zinedine Zidane",
+      "aliases": [
+        "Zinedine Yazid Zidane"
+      ],
+      "popularity": 3471785,
+      "rarity": 0.085,
+      "tier": 1,
+      "wiki": "Zinedine Zidane"
+    },
+    {
+      "name": "Ronaldo",
+      "aliases": [
+        "Ronaldo (Brazilian footballer)",
+        "Ronaldo Nazário"
+      ],
+      "popularity": 3474513,
+      "rarity": 0.064,
+      "tier": 1,
+      "wiki": "Ronaldo (Brazilian footballer)"
+    },
+    {
+      "name": "Harry Kane",
+      "aliases": [
+        "Harry Edward Kane"
+      ],
+      "popularity": 6627321,
+      "rarity": 0.043,
+      "tier": 1,
+      "wiki": "Harry Kane"
+    },
+    {
+      "name": "Lionel Messi",
+      "aliases": [],
+      "popularity": 14819253,
+      "rarity": 0.021,
+      "tier": 1,
+      "wiki": "Lionel Messi"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "aliases": [
+        "CR7",
+        "Cristiano Ronaldo dos Santos Aveiro"
+      ],
+      "popularity": 14910758,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Cristiano Ronaldo"
+    }
+  ]
+}

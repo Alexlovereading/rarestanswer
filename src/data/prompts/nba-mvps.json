@@ -1,0 +1,428 @@
+{
+  "id": "nba-mvps",
+  "slug": "nba-mvps",
+  "category": "sports",
+  "question": "Name an NBA Most Valuable Player",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Dave Cowens",
+      "aliases": [
+        "David William Cowens"
+      ],
+      "popularity": 105494,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Dave Cowens"
+    },
+    {
+      "name": "Wes Unseld",
+      "aliases": [
+        "Westley Sissel Unseld Sr."
+      ],
+      "popularity": 146413,
+      "rarity": 0.972,
+      "tier": 6,
+      "wiki": "Wes Unseld"
+    },
+    {
+      "name": "Bob Pettit",
+      "aliases": [
+        "Robert E. Lee Pettit Jr.",
+        "Robert Pettit",
+        "Robert Pettit Jr."
+      ],
+      "popularity": 202896,
+      "rarity": 0.944,
+      "tier": 6,
+      "wiki": "Bob Pettit"
+    },
+    {
+      "name": "Bob McAdoo",
+      "aliases": [
+        "Robert Allen McAdoo"
+      ],
+      "popularity": 220352,
+      "rarity": 0.917,
+      "tier": 5,
+      "wiki": "Bob McAdoo"
+    },
+    {
+      "name": "Willis Reed",
+      "aliases": [
+        "Willis Reed Jr."
+      ],
+      "popularity": 239139,
+      "rarity": 0.889,
+      "tier": 5,
+      "wiki": "Willis Reed"
+    },
+    {
+      "name": "Bob Cousy",
+      "aliases": [
+        "Robert Joseph Cousy"
+      ],
+      "popularity": 265107,
+      "rarity": 0.861,
+      "tier": 5,
+      "wiki": "Bob Cousy"
+    },
+    {
+      "name": "Oscar Robertson",
+      "aliases": [
+        "The Big O"
+      ],
+      "popularity": 306449,
+      "rarity": 0.833,
+      "tier": 5,
+      "wiki": "Oscar Robertson"
+    },
+    {
+      "name": "Moses Malone",
+      "aliases": [
+        "Big Mo",
+        "Chairman of the Boards",
+        "Mo Malone",
+        "Mumbles Malone"
+      ],
+      "popularity": 375200,
+      "rarity": 0.806,
+      "tier": 5,
+      "wiki": "Moses Malone"
+    },
+    {
+      "name": "Bill Walton",
+      "aliases": [
+        "William Theodore Walton"
+      ],
+      "popularity": 394775,
+      "rarity": 0.778,
+      "tier": 4,
+      "wiki": "Bill Walton"
+    },
+    {
+      "name": "David Robinson",
+      "aliases": [
+        "D-Rob",
+        "The Admiral",
+        "The Battleship"
+      ],
+      "popularity": 566942,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "David Robinson"
+    },
+    {
+      "name": "Julius Erving",
+      "aliases": [
+        "Doctor J",
+        "J. W. Erving",
+        "The Doctor"
+      ],
+      "popularity": 599526,
+      "rarity": 0.722,
+      "tier": 4,
+      "wiki": "Julius Erving"
+    },
+    {
+      "name": "Hakeem Olajuwon",
+      "aliases": [
+        "Akeem Abdul Olajuwon",
+        "Akeem the Dream",
+        "dream shake",
+        "Hakeem the Dream",
+        "Little Moses",
+        "The Dream"
+      ],
+      "popularity": 687982,
+      "rarity": 0.694,
+      "tier": 4,
+      "wiki": "Hakeem Olajuwon"
+    },
+    {
+      "name": "Dirk Nowitzki",
+      "aliases": [
+        "Dirkules",
+        "German Wunderkind"
+      ],
+      "popularity": 693028,
+      "rarity": 0.667,
+      "tier": 4,
+      "wiki": "Dirk Nowitzki"
+    },
+    {
+      "name": "Bill Russell",
+      "aliases": [
+        "William Felton \"Bill\" Russell",
+        "William Russell"
+      ],
+      "popularity": 726160,
+      "rarity": 0.639,
+      "tier": 4,
+      "wiki": "Bill Russell"
+    },
+    {
+      "name": "Kevin Garnett",
+      "aliases": [
+        "The Big Ticket",
+        "The Kid"
+      ],
+      "popularity": 745787,
+      "rarity": 0.611,
+      "tier": 4,
+      "wiki": "Kevin Garnett"
+    },
+    {
+      "name": "Joel Embiid",
+      "aliases": [
+        "Joel Hans Embiid"
+      ],
+      "popularity": 804462,
+      "rarity": 0.583,
+      "tier": 3,
+      "wiki": "Joel Embiid"
+    },
+    {
+      "name": "Steve Nash",
+      "aliases": [],
+      "popularity": 839314,
+      "rarity": 0.556,
+      "tier": 3,
+      "wiki": "Steve Nash"
+    },
+    {
+      "name": "Karl Malone",
+      "aliases": [
+        "The Mailman"
+      ],
+      "popularity": 871748,
+      "rarity": 0.528,
+      "tier": 3,
+      "wiki": "Karl Malone"
+    },
+    {
+      "name": "Derrick Rose",
+      "aliases": [
+        "Derrick Martell Rose",
+        "Rose"
+      ],
+      "popularity": 958245,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Derrick Rose"
+    },
+    {
+      "name": "Allen Iverson",
+      "aliases": [
+        "The Answer"
+      ],
+      "popularity": 1094641,
+      "rarity": 0.472,
+      "tier": 3,
+      "wiki": "Allen Iverson"
+    },
+    {
+      "name": "Tim Duncan",
+      "aliases": [
+        "The Big Fundamental",
+        "Timothy T. Duncan"
+      ],
+      "popularity": 1156166,
+      "rarity": 0.444,
+      "tier": 3,
+      "wiki": "Tim Duncan"
+    },
+    {
+      "name": "Charles Barkley",
+      "aliases": [
+        "Amana",
+        "Big Daddy",
+        "Bread Truck",
+        "Chuck",
+        "Chuck Barkley",
+        "Crisco Kid",
+        "Fatboy",
+        "Food World",
+        "Goodtime Blimp",
+        "Love Boat",
+        "Pancho",
+        "Porkley",
+        "Sir Charles",
+        "The Chuck Wagon",
+        "The Chuckster",
+        "The Prince of Pizza",
+        "The Round Mound of Rebound",
+        "Ton of Fun",
+        "Wide Load from Leeds"
+      ],
+      "popularity": 1185383,
+      "rarity": 0.417,
+      "tier": 3,
+      "wiki": "Charles Barkley"
+    },
+    {
+      "name": "Russell Westbrook",
+      "aliases": [
+        "Mr. Triple Double",
+        "Russell Westbrook Jr."
+      ],
+      "popularity": 1298128,
+      "rarity": 0.389,
+      "tier": 2,
+      "wiki": "Russell Westbrook"
+    },
+    {
+      "name": "Wilt Chamberlain",
+      "aliases": [
+        "Big Musty",
+        "Dip",
+        "Dippy",
+        "George Marcus",
+        "Mr 100",
+        "The Big Dipper",
+        "The Load",
+        "The Record Book",
+        "Wilt the Stilt"
+      ],
+      "popularity": 1359621,
+      "rarity": 0.361,
+      "tier": 2,
+      "wiki": "Wilt Chamberlain"
+    },
+    {
+      "name": "Nikola Jokić",
+      "aliases": [
+        "the Joker",
+        "The Serbian King"
+      ],
+      "popularity": 1506853,
+      "rarity": 0.333,
+      "tier": 2,
+      "wiki": "Nikola Jokić"
+    },
+    {
+      "name": "Larry Bird",
+      "aliases": [
+        "Kodak",
+        "Mr. Wonderful"
+      ],
+      "popularity": 1542266,
+      "rarity": 0.306,
+      "tier": 2,
+      "wiki": "Larry Bird"
+    },
+    {
+      "name": "James Harden",
+      "aliases": [
+        "The Beard"
+      ],
+      "popularity": 1691799,
+      "rarity": 0.278,
+      "tier": 2,
+      "wiki": "James Harden"
+    },
+    {
+      "name": "Kareem Abdul-Jabbar",
+      "aliases": [
+        "Lew Alcindor"
+      ],
+      "popularity": 1709695,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Kareem Abdul-Jabbar"
+    },
+    {
+      "name": "Magic Johnson",
+      "aliases": [
+        "Earvin Johnson Jr.",
+        "Earvin \"Magic\" Johnson"
+      ],
+      "popularity": 1841033,
+      "rarity": 0.222,
+      "tier": 2,
+      "wiki": "Magic Johnson"
+    },
+    {
+      "name": "Kevin Durant",
+      "aliases": [
+        "K. Durant"
+      ],
+      "popularity": 2003784,
+      "rarity": 0.194,
+      "tier": 1,
+      "wiki": "Kevin Durant"
+    },
+    {
+      "name": "Giannis Antetokounmpo",
+      "aliases": [
+        "Akumpo",
+        "Anteto",
+        "Greek Freak",
+        "Yannis Antetokounmpo"
+      ],
+      "popularity": 2006273,
+      "rarity": 0.167,
+      "tier": 1,
+      "wiki": "Giannis Antetokounmpo"
+    },
+    {
+      "name": "Shai Gilgeous-Alexander",
+      "aliases": [
+        "SGA"
+      ],
+      "popularity": 2264772,
+      "rarity": 0.139,
+      "tier": 1,
+      "wiki": "Shai Gilgeous-Alexander"
+    },
+    {
+      "name": "Stephen Curry",
+      "aliases": [],
+      "popularity": 2827697,
+      "rarity": 0.111,
+      "tier": 1,
+      "wiki": "Stephen Curry"
+    },
+    {
+      "name": "Kobe Bryant",
+      "aliases": [
+        "Black Mamba",
+        "KB24",
+        "Kobe",
+        "Kobe B. Bryant"
+      ],
+      "popularity": 2988614,
+      "rarity": 0.083,
+      "tier": 1,
+      "wiki": "Kobe Bryant"
+    },
+    {
+      "name": "Shaquille O'Neal",
+      "aliases": [
+        "Shaq O'Neal",
+        "Shaquille",
+        "Shaquille Rashaun O’Neal"
+      ],
+      "popularity": 3091213,
+      "rarity": 0.056,
+      "tier": 1,
+      "wiki": "Shaquille O'Neal"
+    },
+    {
+      "name": "Michael Jordan",
+      "aliases": [],
+      "popularity": 4071495,
+      "rarity": 0.028,
+      "tier": 1,
+      "wiki": "Michael Jordan"
+    },
+    {
+      "name": "LeBron James",
+      "aliases": [],
+      "popularity": 6284930,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "LeBron James"
+    }
+  ]
+}

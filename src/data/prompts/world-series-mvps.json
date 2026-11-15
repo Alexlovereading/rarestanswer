@@ -1,0 +1,723 @@
+{
+  "id": "world-series-mvps",
+  "slug": "world-series-mvps",
+  "category": "sports",
+  "question": "Name a World Series MVP",
+  "source": "Wikidata + Wikipedia pageviews (2026-10)",
+  "answers": [
+    {
+      "name": "Larry Sherry",
+      "aliases": [
+        "Lawrence Sherry"
+      ],
+      "popularity": 6078,
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Larry Sherry"
+    },
+    {
+      "name": "Bob Turley",
+      "aliases": [
+        "Robert Lee Turley"
+      ],
+      "popularity": 11367,
+      "rarity": 0.985,
+      "tier": 6,
+      "wiki": "Bob Turley"
+    },
+    {
+      "name": "Ralph Terry",
+      "aliases": [
+        "Ralph Willard Terry"
+      ],
+      "popularity": 11663,
+      "rarity": 0.971,
+      "tier": 6,
+      "wiki": "Ralph Terry"
+    },
+    {
+      "name": "Donn Clendenon",
+      "aliases": [
+        "Donn Alvin Clendenon"
+      ],
+      "popularity": 14625,
+      "rarity": 0.956,
+      "tier": 6,
+      "wiki": "Donn Clendenon"
+    },
+    {
+      "name": "Lew Burdette",
+      "aliases": [],
+      "popularity": 15490,
+      "rarity": 0.941,
+      "tier": 6,
+      "wiki": "Lew Burdette"
+    },
+    {
+      "name": "Gene Tenace",
+      "aliases": [
+        "Fiore Gino Tennaci"
+      ],
+      "popularity": 19283,
+      "rarity": 0.926,
+      "tier": 5,
+      "wiki": "Gene Tenace"
+    },
+    {
+      "name": "José Rijo",
+      "aliases": [],
+      "popularity": 19580,
+      "rarity": 0.912,
+      "tier": 5,
+      "wiki": "José Rijo"
+    },
+    {
+      "name": "Johnny Podres",
+      "aliases": [
+        "John Joseph Podres"
+      ],
+      "popularity": 20763,
+      "rarity": 0.897,
+      "tier": 5,
+      "wiki": "Johnny Podres"
+    },
+    {
+      "name": "Darrell Porter",
+      "aliases": [
+        "Darrell Ray Porter"
+      ],
+      "popularity": 21002,
+      "rarity": 0.882,
+      "tier": 5,
+      "wiki": "Darrell Porter"
+    },
+    {
+      "name": "Pat Borders",
+      "aliases": [
+        "Patrick Lance Borders"
+      ],
+      "popularity": 22867,
+      "rarity": 0.868,
+      "tier": 5,
+      "wiki": "Pat Borders"
+    },
+    {
+      "name": "Rick Dempsey",
+      "aliases": [
+        "John Rikard Dempsey"
+      ],
+      "popularity": 24422,
+      "rarity": 0.853,
+      "tier": 5,
+      "wiki": "Rick Dempsey"
+    },
+    {
+      "name": "Pedro Guerrero",
+      "aliases": [
+        "Pedro Guerrero (first baseman/outfielder)"
+      ],
+      "popularity": 25976,
+      "rarity": 0.838,
+      "tier": 5,
+      "wiki": "Pedro Guerrero (first baseman/outfielder)"
+    },
+    {
+      "name": "John Wetteland",
+      "aliases": [
+        "John Karl Wetteland"
+      ],
+      "popularity": 26122,
+      "rarity": 0.824,
+      "tier": 5,
+      "wiki": "John Wetteland"
+    },
+    {
+      "name": "Steve Pearce",
+      "aliases": [
+        "Steve Pearce (baseball)",
+        "Steven Pearce",
+        "Steven Wayne Pearce"
+      ],
+      "popularity": 29376,
+      "rarity": 0.809,
+      "tier": 5,
+      "wiki": "Steve Pearce (baseball)"
+    },
+    {
+      "name": "Scott Brosius",
+      "aliases": [
+        "Scott D. Brosius",
+        "Scott David Brosius"
+      ],
+      "popularity": 29712,
+      "rarity": 0.794,
+      "tier": 4,
+      "wiki": "Scott Brosius"
+    },
+    {
+      "name": "Liván Hernández",
+      "aliases": [],
+      "popularity": 29818,
+      "rarity": 0.779,
+      "tier": 4,
+      "wiki": "Liván Hernández"
+    },
+    {
+      "name": "Jermaine Dye",
+      "aliases": [
+        "Jermaine Trevell Dye"
+      ],
+      "popularity": 30176,
+      "rarity": 0.765,
+      "tier": 4,
+      "wiki": "Jermaine Dye"
+    },
+    {
+      "name": "Frank Viola",
+      "aliases": [
+        "Frank John Viola"
+      ],
+      "popularity": 30504,
+      "rarity": 0.75,
+      "tier": 4,
+      "wiki": "Frank Viola"
+    },
+    {
+      "name": "Mike Lowell",
+      "aliases": [
+        "Michael Averett Lowell"
+      ],
+      "popularity": 34901,
+      "rarity": 0.735,
+      "tier": 4,
+      "wiki": "Mike Lowell"
+    },
+    {
+      "name": "Troy Glaus",
+      "aliases": [
+        "Troy Edward Glaus"
+      ],
+      "popularity": 36178,
+      "rarity": 0.721,
+      "tier": 4,
+      "wiki": "Troy Glaus"
+    },
+    {
+      "name": "Bret Saberhagen",
+      "aliases": [
+        "Bret William Saberhagen"
+      ],
+      "popularity": 42772,
+      "rarity": 0.706,
+      "tier": 4,
+      "wiki": "Bret Saberhagen"
+    },
+    {
+      "name": "Bobby Richardson",
+      "aliases": [
+        "Robert Clinton \"Bobby\" Richardson"
+      ],
+      "popularity": 46123,
+      "rarity": 0.691,
+      "tier": 4,
+      "wiki": "Bobby Richardson"
+    },
+    {
+      "name": "Don Larsen",
+      "aliases": [
+        "Don James Larsen",
+        "Donald James Larsen"
+      ],
+      "popularity": 46947,
+      "rarity": 0.676,
+      "tier": 4,
+      "wiki": "Don Larsen"
+    },
+    {
+      "name": "Ron Cey",
+      "aliases": [
+        "Ronald Charles Cey"
+      ],
+      "popularity": 48582,
+      "rarity": 0.662,
+      "tier": 4,
+      "wiki": "Ron Cey"
+    },
+    {
+      "name": "Édgar Rentería",
+      "aliases": [
+        "Edgar Enrique Rentería Herazo"
+      ],
+      "popularity": 49207,
+      "rarity": 0.647,
+      "tier": 4,
+      "wiki": "Édgar Rentería"
+    },
+    {
+      "name": "Steve Yeager",
+      "aliases": [
+        "Stephen Wayne \"Steve\" Yeager",
+        "Stephen Wayne Yeager"
+      ],
+      "popularity": 50769,
+      "rarity": 0.632,
+      "tier": 4,
+      "wiki": "Steve Yeager"
+    },
+    {
+      "name": "Ray Knight",
+      "aliases": [
+        "Charles Ray Knight"
+      ],
+      "popularity": 52586,
+      "rarity": 0.618,
+      "tier": 4,
+      "wiki": "Ray Knight"
+    },
+    {
+      "name": "David Freese",
+      "aliases": [
+        "David R. Freese",
+        "David Richard Freese"
+      ],
+      "popularity": 53748,
+      "rarity": 0.603,
+      "tier": 4,
+      "wiki": "David Freese"
+    },
+    {
+      "name": "Alan Trammell",
+      "aliases": [
+        "Alan Stuart Trammell"
+      ],
+      "popularity": 56164,
+      "rarity": 0.588,
+      "tier": 3,
+      "wiki": "Alan Trammell"
+    },
+    {
+      "name": "Pablo Sandoval",
+      "aliases": [
+        "Kung-Fu Panda",
+        "Pablo Emilio Sandoval",
+        "Pablo Emilio Sandoval Reyes"
+      ],
+      "popularity": 58646,
+      "rarity": 0.574,
+      "tier": 3,
+      "wiki": "Pablo Sandoval"
+    },
+    {
+      "name": "David Eckstein",
+      "aliases": [],
+      "popularity": 59302,
+      "rarity": 0.559,
+      "tier": 3,
+      "wiki": "David Eckstein"
+    },
+    {
+      "name": "Bucky Dent",
+      "aliases": [
+        "Russell Earl \"Bucky\" Dent"
+      ],
+      "popularity": 62221,
+      "rarity": 0.544,
+      "tier": 3,
+      "wiki": "Bucky Dent"
+    },
+    {
+      "name": "Josh Beckett",
+      "aliases": [
+        "Joshua Patrick Becket",
+        "Joshua Patrick Beckett"
+      ],
+      "popularity": 66085,
+      "rarity": 0.529,
+      "tier": 3,
+      "wiki": "Josh Beckett"
+    },
+    {
+      "name": "Dave Stewart",
+      "aliases": [
+        "Dave Stewart (baseball)",
+        "David Keith Stewart"
+      ],
+      "popularity": 71029,
+      "rarity": 0.515,
+      "tier": 3,
+      "wiki": "Dave Stewart (baseball)"
+    },
+    {
+      "name": "Jeremy Peña",
+      "aliases": [],
+      "popularity": 84645,
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Jeremy Peña"
+    },
+    {
+      "name": "Willie Stargell",
+      "aliases": [
+        "\"Pops\"",
+        "Wilver Dornell Stargell",
+        "Wilver Stargell"
+      ],
+      "popularity": 85360,
+      "rarity": 0.485,
+      "tier": 3,
+      "wiki": "Willie Stargell"
+    },
+    {
+      "name": "Brooks Robinson",
+      "aliases": [],
+      "popularity": 87553,
+      "rarity": 0.471,
+      "tier": 3,
+      "wiki": "Brooks Robinson"
+    },
+    {
+      "name": "Whitey Ford",
+      "aliases": [
+        "Ed Ford",
+        "Edward Charles Ford",
+        "Edward Charles \"Whitey\" Ford",
+        "The Chairman of the Board"
+      ],
+      "popularity": 87680,
+      "rarity": 0.456,
+      "tier": 3,
+      "wiki": "Whitey Ford"
+    },
+    {
+      "name": "Jack Morris",
+      "aliases": [
+        "John Scott Morris"
+      ],
+      "popularity": 98171,
+      "rarity": 0.441,
+      "tier": 3,
+      "wiki": "Jack Morris"
+    },
+    {
+      "name": "Ben Zobrist",
+      "aliases": [
+        "Ben T. Zobrist",
+        "Benjamin T. Zobrist",
+        "Benjamin Thomas \"Ben\" Zobrist",
+        "Benjamin Thomas Zobrist"
+      ],
+      "popularity": 104789,
+      "rarity": 0.426,
+      "tier": 3,
+      "wiki": "Ben Zobrist"
+    },
+    {
+      "name": "Tom Glavine",
+      "aliases": [
+        "Thomas Michael Glavine"
+      ],
+      "popularity": 107973,
+      "rarity": 0.412,
+      "tier": 3,
+      "wiki": "Tom Glavine"
+    },
+    {
+      "name": "Rollie Fingers",
+      "aliases": [
+        "Roland Fingers",
+        "Roland Glen Fingers"
+      ],
+      "popularity": 110999,
+      "rarity": 0.397,
+      "tier": 2,
+      "wiki": "Rollie Fingers"
+    },
+    {
+      "name": "Mickey Lolich",
+      "aliases": [
+        "Michael Stephen Lolich"
+      ],
+      "popularity": 113067,
+      "rarity": 0.382,
+      "tier": 2,
+      "wiki": "Mickey Lolich"
+    },
+    {
+      "name": "Cole Hamels",
+      "aliases": [
+        "Colbert Michael Hamels"
+      ],
+      "popularity": 116204,
+      "rarity": 0.368,
+      "tier": 2,
+      "wiki": "Cole Hamels"
+    },
+    {
+      "name": "Frank Robinson",
+      "aliases": [],
+      "popularity": 122965,
+      "rarity": 0.353,
+      "tier": 2,
+      "wiki": "Frank Robinson"
+    },
+    {
+      "name": "Paul Molitor",
+      "aliases": [
+        "Paul Leo Molitor"
+      ],
+      "popularity": 126735,
+      "rarity": 0.338,
+      "tier": 2,
+      "wiki": "Paul Molitor"
+    },
+    {
+      "name": "Hideki Matsui",
+      "aliases": [],
+      "popularity": 127996,
+      "rarity": 0.324,
+      "tier": 2,
+      "wiki": "Hideki Matsui"
+    },
+    {
+      "name": "Mike Schmidt",
+      "aliases": [
+        "Michael Jack Schmidt"
+      ],
+      "popularity": 135195,
+      "rarity": 0.309,
+      "tier": 2,
+      "wiki": "Mike Schmidt"
+    },
+    {
+      "name": "Stephen Strasburg",
+      "aliases": [
+        "Stephen J. Strasburg",
+        "Stephen James Strasburg"
+      ],
+      "popularity": 136574,
+      "rarity": 0.294,
+      "tier": 2,
+      "wiki": "Stephen Strasburg"
+    },
+    {
+      "name": "William Contreras",
+      "aliases": [
+        "William Jesus Contreras"
+      ],
+      "popularity": 137348,
+      "rarity": 0.279,
+      "tier": 2,
+      "wiki": "William Contreras"
+    },
+    {
+      "name": "Bob Gibson",
+      "aliases": [
+        "Pack Robert Gibson",
+        "Robert Gibson"
+      ],
+      "popularity": 147043,
+      "rarity": 0.265,
+      "tier": 2,
+      "wiki": "Bob Gibson"
+    },
+    {
+      "name": "Madison Bumgarner",
+      "aliases": [
+        "Mad Bum",
+        "MadBum",
+        "Madison Kyle Bumgarner"
+      ],
+      "popularity": 149446,
+      "rarity": 0.25,
+      "tier": 2,
+      "wiki": "Madison Bumgarner"
+    },
+    {
+      "name": "Johnny Bench",
+      "aliases": [
+        "John Lee Bench",
+        "John Lee \"Johnny\" Bench",
+        "Johnny Lee Bench"
+      ],
+      "popularity": 166262,
+      "rarity": 0.235,
+      "tier": 2,
+      "wiki": "Johnny Bench"
+    },
+    {
+      "name": "Orel Hershiser",
+      "aliases": [
+        "Orel Leonard Hershiser IV",
+        "Orel Surgery"
+      ],
+      "popularity": 173740,
+      "rarity": 0.221,
+      "tier": 2,
+      "wiki": "Orel Hershiser"
+    },
+    {
+      "name": "Corey Seager",
+      "aliases": [
+        "Corey Drew Seager",
+        "Seags"
+      ],
+      "popularity": 174943,
+      "rarity": 0.206,
+      "tier": 2,
+      "wiki": "Corey Seager"
+    },
+    {
+      "name": "Salvador Perez",
+      "aliases": [],
+      "popularity": 176633,
+      "rarity": 0.191,
+      "tier": 1,
+      "wiki": "Salvador Perez"
+    },
+    {
+      "name": "Curt Schilling",
+      "aliases": [
+        "Curtis Montague \"Curt\" Schilling",
+        "Curtis Montague Schilling"
+      ],
+      "popularity": 206235,
+      "rarity": 0.176,
+      "tier": 1,
+      "wiki": "Curt Schilling"
+    },
+    {
+      "name": "Manny Ramirez",
+      "aliases": [
+        "Manuel Ramirez"
+      ],
+      "popularity": 221899,
+      "rarity": 0.162,
+      "tier": 1,
+      "wiki": "Manny Ramirez"
+    },
+    {
+      "name": "Mariano Rivera",
+      "aliases": [
+        "Sandman"
+      ],
+      "popularity": 273524,
+      "rarity": 0.147,
+      "tier": 1,
+      "wiki": "Mariano Rivera"
+    },
+    {
+      "name": "Reggie Jackson",
+      "aliases": [
+        "Reginald Martinez Jackson",
+        "Reginald Martinez \"Reggie\" Jackson"
+      ],
+      "popularity": 390516,
+      "rarity": 0.132,
+      "tier": 1,
+      "wiki": "Reggie Jackson"
+    },
+    {
+      "name": "George Springer",
+      "aliases": [
+        "George Chelston Springer",
+        "George Chelston Springer III"
+      ],
+      "popularity": 425789,
+      "rarity": 0.118,
+      "tier": 1,
+      "wiki": "George Springer"
+    },
+    {
+      "name": "David Ortiz",
+      "aliases": [
+        "Big Papi",
+        "David Americo Ortiz Arias"
+      ],
+      "popularity": 441644,
+      "rarity": 0.103,
+      "tier": 1,
+      "wiki": "David Ortiz"
+    },
+    {
+      "name": "Roberto Clemente",
+      "aliases": [
+        "Roberto Clemente Walker",
+        "Roberto Enrique Clemente Walker"
+      ],
+      "popularity": 481908,
+      "rarity": 0.088,
+      "tier": 1,
+      "wiki": "Roberto Clemente"
+    },
+    {
+      "name": "Sandy Koufax",
+      "aliases": [
+        "Sanford Braun",
+        "Sanford Koufax"
+      ],
+      "popularity": 483998,
+      "rarity": 0.074,
+      "tier": 1,
+      "wiki": "Sandy Koufax"
+    },
+    {
+      "name": "Pete Rose",
+      "aliases": [
+        "Charlie Hustle",
+        "Pete Edward Rose",
+        "Peter Edward \"Pete\" Rose Sr."
+      ],
+      "popularity": 492058,
+      "rarity": 0.059,
+      "tier": 1,
+      "wiki": "Pete Rose"
+    },
+    {
+      "name": "Randy Johnson",
+      "aliases": [
+        "Randall David Johnson",
+        "Randall David \"Randy\" Johnson",
+        "Randall Johnson",
+        "The Big Unit"
+      ],
+      "popularity": 499714,
+      "rarity": 0.044,
+      "tier": 1,
+      "wiki": "Randy Johnson"
+    },
+    {
+      "name": "Freddie Freeman",
+      "aliases": [
+        "Frederick Charles \"Freddie\" Freeman",
+        "Frederick Charles Freeman",
+        "Frederick Freeman"
+      ],
+      "popularity": 775582,
+      "rarity": 0.029,
+      "tier": 1,
+      "wiki": "Freddie Freeman"
+    },
+    {
+      "name": "Derek Jeter",
+      "aliases": [
+        "Captain Clutch",
+        "Derek Sanderson Jeter",
+        "Mr. November"
+      ],
+      "popularity": 880915,
+      "rarity": 0.015,
+      "tier": 1,
+      "wiki": "Derek Jeter"
+    },
+    {
+      "name": "Yoshinobu Yamamoto",
+      "aliases": [
+        "Yamamoto Yoshinobu"
+      ],
+      "popularity": 943128,
+      "rarity": 0,
+      "tier": 1,
+      "wiki": "Yoshinobu Yamamoto"
+    }
+  ]
+}
