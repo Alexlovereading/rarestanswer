@@ -9,7 +9,11 @@
  *
  * Pure fs scan (no astro:content under Vitest — see lib/url notes).
  */
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, test, vi } from 'vitest';
+import { runInNewContext } from 'node:vm';
+import en from '../src/locales/en.json';
+import manifest from '../public/manifest.json';
+import { hslToHex } from '../src/lib/covers';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -275,5 +279,202 @@ describe('lib/handbook pure functions', () => {
     expect(handbookPath('en', 'pick-your-game')).toBe('/landing/docs/pick-your-game/');
     expect(handbookPath('zh', 'pick-your-game')).toBe('/zh/landing/docs/pick-your-game/');
     expect(handbookPath('zh', '', true)).toBe('/zh/landing/docs/');
+  });
+});
+
+// Shared-shell theme regressions belong with the existing inline-script contracts.
+const read = (path: string) => fs.readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
+const layout = read('src/components/layout/BaseLayout.astro');
+const toggle = read('src/components/header/ThemeToggle.astro');
+const css = read('src/styles/globals.css');
+const inlineScripts = (source: string) =>
+  [...source.matchAll(/<script is:inline>([\s\S]*?)<\/script>/g)].map((match) => match[1]);
+const initScript = inlineScripts(layout).find((script) => script.includes("getItem('theme')"))!;
+const chromeScript = inlineScripts(layout).find((script) => script.includes('theme-color'))!;
+const toggleScript = inlineScripts(toggle)[0];
+
+function background(selector: string): string {
+  const blocks = [...css.matchAll(new RegExp(`${selector}\\s*\\{([^}]+)\\}`, 'g'))];
+  return blocks.map((block) => block[1].match(/--background:\s*([^;]+);/)?.[1]).find(Boolean)!;
+}
+
+/** Run the actual prepaint/toggle scripts with the DOM/storage APIs they use. */
+function visit(
+  memory = new Map<string, string>(),
+  { osDark = false, storageBlocked = false } = {},
+) {
+  const classes = new Set(layout.match(/<html[^>]*class="([^"]+)"/)![1].split(/\s+/));
+  const html = {
+    classList: {
+      contains: (value: string) => classes.has(value),
+      toggle(value: string, enabled: boolean) {
+        if (enabled) classes.add(value);
+        else classes.delete(value);
+      },
+    },
+    style: { colorScheme: 'dark' },
+  };
+  const [light, dark, black] = en.shared.themeToggleTitle.split('/').map((label) => label.trim());
+  const labels = new Map([
+    ['data-toggle-label', en.shared.toggleTheme],
+    ['data-label-light', light],
+    ['data-label-dark', dark],
+    ['data-label-black', black],
+  ]);
+  let click = () => {};
+  const button = {
+    getAttribute: (name: string) => labels.get(name) ?? null,
+    setAttribute: (name: string, value: string) => labels.set(name, value),
+    addEventListener: (name: string, callback: () => void) => {
+      if (name === 'click') click = callback;
+    },
+  };
+  const meta = new Map([['content', manifest.theme_color]]);
+  const observers: (() => void)[] = [];
+  const matchMedia = vi.fn(() => ({ matches: osDark }));
+  const context = {
+    document: {
+      documentElement: html,
+      getElementById: (id: string) => (id === 'theme-toggle' ? button : null),
+      querySelector: (selector: string) =>
+        selector === 'meta[name="theme-color"]'
+          ? { setAttribute: (name: string, value: string) => meta.set(name, value) }
+          : null,
+    },
+    window: { matchMedia },
+    localStorage: {
+      getItem(key: string) {
+        if (storageBlocked) throw new Error('Storage blocked');
+        return memory.get(key) ?? null;
+      },
+      setItem(key: string, value: string) {
+        if (storageBlocked) throw new Error('Storage blocked');
+        memory.set(key, value);
+      },
+    },
+    getComputedStyle: () => ({
+      getPropertyValue: (name: string) =>
+        name === '--background'
+          ? background(
+              classes.has('black') ? '\\.black' : classes.has('dark') ? '\\.dark' : ':root',
+            )
+          : '',
+    }),
+    MutationObserver: class {
+      constructor(callback: () => void) {
+        observers.push(callback);
+      }
+      observe() {}
+    },
+  };
+  runInNewContext(initScript, context);
+  runInNewContext(chromeScript, context);
+  runInNewContext(toggleScript, context);
+  return {
+    html,
+    memory,
+    classes,
+    meta,
+    labels,
+    matchMedia,
+    click() {
+      click();
+      // Browser MutationObserver callbacks run after the click handler.
+      observers.forEach((callback) => callback());
+    },
+  };
+}
+
+describe('dark default and saved theme preferences', () => {
+  test.each([false, true])('first visit starts dark with OS dark = %s', (osDark) => {
+    const page = visit(new Map(), { osDark });
+    expect(page.classes.has('dark')).toBe(true);
+    expect(page.classes.has('black')).toBe(false);
+    expect(page.html.style.colorScheme).toBe('dark');
+    expect(page.meta.get('content')).toBe(`hsl(${background('\\.dark')})`);
+    expect(page.labels.get('aria-label')).toBe('Toggle theme: Dark');
+    expect(page.memory.has('theme')).toBe(false);
+    expect(page.matchMedia).not.toHaveBeenCalled();
+  });
+
+  test.each([
+    ['light', false, false, 'light', 'Light'],
+    ['dark', true, false, 'dark', 'Dark'],
+    ['black', true, true, 'dark', 'AMOLED black'],
+  ] as const)(
+    'saved %s restores classes, native controls, chrome and label',
+    (theme, dark, black, scheme, label) => {
+      const page = visit(new Map([['theme', theme]]), { osDark: !dark });
+      expect(page.classes.has('dark')).toBe(dark);
+      expect(page.classes.has('black')).toBe(black);
+      expect(page.html.style.colorScheme).toBe(scheme);
+      expect(page.labels.get('aria-label')).toBe(`Toggle theme: ${label}`);
+      expect(page.meta.get('content')).toBe(
+        `hsl(${background(black ? '\\.black' : dark ? '\\.dark' : ':root')})`,
+      );
+    },
+  );
+
+  test('cycling to black, light, then dark persists each choice across page loads', () => {
+    let page = visit();
+    for (const theme of ['black', 'light', 'dark']) {
+      page.click();
+      expect(page.memory.get('theme')).toBe(theme);
+      const snapshot = {
+        classes: [...page.classes],
+        scheme: page.html.style.colorScheme,
+        label: page.labels.get('aria-label'),
+        chrome: page.meta.get('content'),
+      };
+      page = visit(page.memory);
+      expect({
+        classes: [...page.classes],
+        scheme: page.html.style.colorScheme,
+        label: page.labels.get('aria-label'),
+        chrome: page.meta.get('content'),
+      }).toEqual(snapshot);
+    }
+  });
+
+  test('blocked storage still defaults dark and allows session theme changes', () => {
+    const page = visit(new Map(), { storageBlocked: true });
+    expect(page.html.style.colorScheme).toBe('dark');
+    page.click();
+    page.click();
+    expect(page.classes.has('dark')).toBe(false);
+    expect(page.html.style.colorScheme).toBe('light');
+    expect(page.labels.get('aria-label')).toBe('Toggle theme: Light');
+  });
+
+  test('unrecognized preferences fall back to dark', () => {
+    expect(visit(new Map([['theme', 'invalid']])).html.style.colorScheme).toBe('dark');
+  });
+});
+
+describe('prepaint metadata and theme indicators', () => {
+  test('the static shell is dark before JS, using the manifest for chrome', () => {
+    expect(layout).toMatch(/<html[^>]*class="[^"]*\bdark\b[^"]*"[^>]*style="color-scheme: dark"/);
+    expect(layout).toContain('<meta name="theme-color" content={manifest.theme_color} />');
+    expect(layout.indexOf(initScript)).toBeLessThan(layout.indexOf('</head>'));
+    expect(toggle).toContain('aria-label={`${toggleTheme}: ${darkLabel}`}');
+  });
+
+  test('manifest colors match the dark background token', () => {
+    const [h, s, l] = background('\\.dark')
+      .match(/[\d.]+/g)!
+      .map(Number);
+    expect(manifest.background_color).toBe(hslToHex(h, s, l));
+    expect(manifest.theme_color).toBe(manifest.background_color);
+  });
+
+  test('exactly the active theme icon is selected by the prepaint HTML classes', () => {
+    for (const selector of [
+      "html:not(.dark) [data-theme-icon='light']",
+      "html.dark:not(.black) [data-theme-icon='dark']",
+      "html.black [data-theme-icon='black']",
+    ]) {
+      expect(toggle).toContain(`${selector} {\n    display: inline-flex;`);
+    }
+    expect(toggle).toContain('[data-theme-icon] {\n    display: none;');
   });
 });

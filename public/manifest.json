@@ -4,8 +4,8 @@
   "description": "Play Rarest Answer, a free daily trivia game where the rarest correct answer wins. Read guides and pages about similar daily games.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f8f8fc",
-  "theme_color": "#2a1f8e",
+  "background_color": "#0a0816",
+  "theme_color": "#0a0816",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

@@ -11,6 +11,7 @@
  * Pages should wrap themselves in LocaleLayout (which wraps this), not call this directly.
  */
 import '~/styles/globals.css';
+import manifest from '../../../public/manifest.json';
 import { site, siteUrl } from '~/config/site';
 import { defaultLocale, locales, OG_LOCALE_MAP, type Locale } from '~/i18n/routing';
 import { organizationJsonLd } from '~/lib/seo';
@@ -167,7 +168,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
 ---
 
 <!doctype html>
-<html lang={mainLocale} class="scroll-smooth">
+<html lang={mainLocale} class="scroll-smooth dark" style="color-scheme: dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -343,7 +344,8 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
 
     <AdLayoutHead />
 
-    {/* No-FOUC theme init — runs before first paint. */}
+    {/* Dark by default, including light OS settings and unavailable storage.
+        Only an explicit saved light choice overrides the pre-rendered dark shell. */}
     <script is:inline>
       (() => {
         let stored = null;
@@ -352,26 +354,25 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
         } catch (e) {
           /* storage unavailable */
         }
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (stored === 'dark' || stored === 'black' || (!stored && prefersDark)) {
-          document.documentElement.classList.add('dark');
-          if (stored === 'black') document.documentElement.classList.add('black');
-        }
+        const html = document.documentElement;
+        html.classList.toggle('dark', stored !== 'light');
+        html.classList.toggle('black', stored === 'black');
+        html.style.colorScheme = stored === 'light' ? 'light' : 'dark';
       })();
     </script>
 
-    {/* Keep <meta name="theme-color"> in sync with the active theme color.
+    {/* The manifest supplies the dark default before scripts run.
         Meta content is a plain string — var() never resolves there, so the
-        browser chrome color is derived from the computed --brand-text at
+        browser chrome color is derived from the computed --background at
         runtime (initial paint + every theme toggle, via class observer). */}
+    <meta name="theme-color" content={manifest.theme_color} />
     <script is:inline>
       (() => {
-        const meta = document.createElement('meta');
-        meta.name = 'theme-color';
-        document.head.appendChild(meta);
+        const meta = document.querySelector('meta[name="theme-color"]');
+        if (!meta) return;
         const apply = () => {
           const v = getComputedStyle(document.documentElement)
-            .getPropertyValue('--brand-text')
+            .getPropertyValue('--background')
             .trim();
           if (v) meta.setAttribute('content', `hsl(${v})`);
         };
