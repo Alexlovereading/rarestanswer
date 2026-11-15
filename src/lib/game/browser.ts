@@ -10,6 +10,7 @@ import {
   formatCountdown,
   formatLocalDate,
   localDateKey,
+  parseDateKey,
   msUntilNextLocalMidnight,
   selectCategory,
   selectDaily,
@@ -33,6 +34,7 @@ import {
 import {
   applyScore,
   freshScore,
+  maxRoundScore,
   PENALTY_MS,
   TIMER_MS,
   tierName,
@@ -44,7 +46,6 @@ import {
   PLAY,
   alreadyPlayedLine,
   answersLinkLabel,
-  chartSummary,
   emptyCategoryLine,
   meterLabel,
   nextDailyLine,
@@ -64,8 +65,6 @@ import {
   readStats,
   recordDaily,
   recordFreeRound,
-  scoreDistribution,
-  tierDistribution,
   writeDaily,
   writeSettings,
   writeStats,
@@ -77,6 +76,7 @@ import type { PromptIndexEntry } from './types';
 import { createGameEffects } from './effects';
 import { clockVisual } from './visuals';
 import { drawShareCard } from './share-card';
+import { createStatsView } from './stats-view';
 
 type Mode = ShareMode;
 type PlayAction = 'load' | 'retry' | 'start' | 'resume' | 'results' | 'empty';
@@ -104,6 +104,7 @@ interface Ui {
   count: HTMLElement;
   streak: HTMLElement;
   best: HTMLElement;
+  bestLabel: HTMLElement;
   status: HTMLElement;
   startCountdown: HTMLElement;
   play: HTMLButtonElement;
@@ -163,16 +164,6 @@ interface Ui {
   statsDialog: HTMLDialogElement;
   statsClose: HTMLButtonElement;
   statsTitle: HTMLElement;
-  statStreak: HTMLElement;
-  statBestStreak: HTMLElement;
-  statBest: HTMLElement;
-  statDailies: HTMLElement;
-  statRounds: HTMLElement;
-  statPoints: HTMLElement;
-  guessSvg: SVGSVGElement;
-  scoreSvg: SVGSVGElement;
-  guessEmpty: HTMLElement;
-  scoreEmpty: HTMLElement;
 }
 
 export function mountGame(root: HTMLElement): void {
@@ -197,6 +188,8 @@ function run(ui: Ui): void {
   const categoryAttr = ui.root.dataset.category ?? '';
   const category = isCategoryKey(categoryAttr) ? categoryAttr : '';
   const promptCache = new Map<string, Promise<ClientPrompt>>();
+  const statsView = createStatsView(ui.root, loadPrompt);
+  let indexLoaded = false;
   let stats = readStats(store);
   let action: PlayAction = 'load';
   let starting = false;
@@ -306,6 +299,7 @@ function run(ui: Ui): void {
       const body: unknown = await res.json();
       if (!Array.isArray(body)) throw new Error('index');
       session.index = body.filter(isPromptIndexEntry);
+      indexLoaded = true;
       session.dateKey = localDateKey(new Date());
       session.roundNumber = dailyRoundNumber(session.dateKey);
       prepareRound();
@@ -320,7 +314,6 @@ function run(ui: Ui): void {
 
   function prepareRound(): void {
     stats = readStats(store);
-    paintStats();
     paintDate();
     session.results = [];
     session.score = freshScore();
@@ -353,9 +346,10 @@ function run(ui: Ui): void {
     effects.lineup(
       session.slugs.flatMap((slug) => {
         const entry = entries.get(slug);
-        return entry ? [entry.category] : [];
+        return entry ? [entry] : [];
       }),
     );
+    paintStats();
     effects.score(session.score.total, false);
     effects.combo(session.results);
     ui.count.textContent = session.slugs.length > 0 ? String(session.slugs.length) : '0';
@@ -812,15 +806,36 @@ function run(ui: Ui): void {
   }
 
   function paintStats(): void {
+    const daily = todaysEntries();
     ui.streak.textContent = String(stats.streak);
-    ui.best.textContent = stats.dailyPlayed > 0 ? String(stats.bestDailyScore) : '–';
-    ui.statStreak.textContent = String(stats.streak);
-    ui.statBestStreak.textContent = String(stats.bestStreak);
-    ui.statDailies.textContent = String(stats.dailyPlayed);
-    ui.statRounds.textContent = String(stats.roundsPlayed);
-    ui.statPoints.textContent = String(stats.totalPoints);
-    ui.statBest.textContent = stats.dailyPlayed > 0 ? String(stats.bestDailyScore) : '–';
-    paintCharts();
+    ui.bestLabel.textContent = stats.dailyPlayed > 0 ? PLAY.best : PLAY.maxToday;
+    ui.best.textContent =
+      stats.dailyPlayed > 0
+        ? String(stats.bestDailyScore)
+        : indexLoaded
+          ? String(maxRoundScore(daily.length))
+          : '…';
+    const hits = stats.tierHits.slice();
+    if (!session.recorded) {
+      for (const result of session.results) {
+        if (result.tier > 0) hits[result.tier - 1] = (hits[result.tier - 1] ?? 0) + 1;
+      }
+    }
+    statsView.paint({ stats, index: session.index, daily, loaded: indexLoaded, hits });
+    if (ui.statsDialog.open) void statsView.loadRound();
+  }
+
+  function todaysEntries(): PromptIndexEntry[] {
+    const entries = new Map(session.index.map((entry) => [entry.slug, entry]));
+    const save = readDaily(store, session.dateKey);
+    const slugs = session.mode === 'daily' ? session.slugs : save?.slugs;
+    if (slugs?.length && slugs.every((slug) => entries.has(slug))) {
+      return slugs.flatMap((slug) => {
+        const entry = entries.get(slug);
+        return entry ? [entry] : [];
+      });
+    }
+    return selectDaily(session.index, parseDateKey(session.dateKey));
   }
 
   function paintCountdownLine(): void {
@@ -988,34 +1003,17 @@ function run(ui: Ui): void {
 
   function openStats(from: HTMLElement): void {
     statsReturn = from;
-    paintCharts();
+    paintStats();
     if (ui.statsDialog.open) return;
     ui.statsDialog.showModal();
     ui.statsTitle.focus();
+    void statsView.loadRound();
   }
 
   function clearHit(): void {
     if (hitTimer) window.clearTimeout(hitTimer);
     hitTimer = 0;
     ui.playView.classList.remove('ra-hit');
-  }
-
-  function paintCharts(): void {
-    const guesses = tierDistribution(stats.tierHits).map((row) => ({
-      label: tierName(Number(row.key)),
-      count: row.count,
-      share: row.share,
-      tier: Number(row.key),
-    }));
-    const scores = scoreDistribution(stats.dailyScores).map((row) => ({
-      label: row.key,
-      count: row.count,
-      share: row.share,
-    }));
-    paintDistribution(ui.guessSvg, guesses, PLAY.guessChart);
-    paintDistribution(ui.scoreSvg, scores, PLAY.scoreChart);
-    ui.guessEmpty.hidden = guesses.some((row) => row.count > 0);
-    ui.scoreEmpty.hidden = stats.dailyScores.length > 0;
   }
 }
 
@@ -1079,68 +1077,6 @@ function fillList(
   }
 }
 
-const SVG_NS = 'http://www.w3.org/2000/svg';
-
-function paintDistribution(
-  svg: SVGSVGElement,
-  rows: { label: string; count: number; share: number; tier?: number }[],
-  caption: string,
-): void {
-  svg.setAttribute('aria-label', chartSummary(caption, rows));
-  svg.replaceChildren();
-  rows.forEach((row, index) => {
-    const y = 4 + index * 28;
-    const text = svgEl('text');
-    text.setAttribute('x', '0');
-    text.setAttribute('y', String(y + 14));
-    text.setAttribute('fill', 'currentColor');
-    text.setAttribute('font-size', '12');
-    text.setAttribute('font-family', 'Source Sans 3, ui-sans-serif, system-ui, sans-serif');
-    text.textContent = row.label;
-    const track = svgEl('rect');
-    track.setAttribute('x', '108');
-    track.setAttribute('y', String(y + 4));
-    track.setAttribute('width', '150');
-    track.setAttribute('height', '12');
-    track.setAttribute('rx', '6');
-    track.setAttribute('fill', hslFromToken('--muted'));
-    svg.append(text, track);
-    if (row.share > 0) {
-      const fill = svgEl('rect');
-      const width = Math.max(8, Math.round(row.share * 150));
-      fill.setAttribute('x', '108');
-      fill.setAttribute('y', String(y + 4));
-      fill.setAttribute('width', String(width));
-      fill.setAttribute('height', '12');
-      fill.setAttribute('rx', '6');
-      fill.setAttribute(
-        'fill',
-        row.tier ? hslFromToken(`--tier-${row.tier}`) : hslFromToken('--brand'),
-      );
-      svg.append(fill);
-    }
-    const count = svgEl('text');
-    count.setAttribute('x', '316');
-    count.setAttribute('y', String(y + 14));
-    count.setAttribute('text-anchor', 'end');
-    count.setAttribute('fill', 'currentColor');
-    count.setAttribute('font-size', '12');
-    count.setAttribute('font-family', 'Source Sans 3, ui-sans-serif, system-ui, sans-serif');
-    count.textContent = String(row.count);
-    svg.append(count);
-  });
-}
-
-function svgEl(name: string): SVGElement {
-  return document.createElementNS(SVG_NS, name);
-}
-
-function hslFromToken(name: string): string {
-  const css = getComputedStyle(document.documentElement);
-  const raw = css.getPropertyValue(name).trim();
-  return raw ? `hsl(${raw})` : css.color;
-}
-
 function randomSeed(): number {
   try {
     const buf = new Uint32Array(1);
@@ -1169,6 +1105,7 @@ function grab(root: HTMLElement): Ui {
     count: must(root, '[data-game-prompt-count]'),
     streak: must(root, '[data-game-streak]'),
     best: must(root, '[data-game-best]'),
+    bestLabel: must(root, '[data-game-best-label]'),
     status: must(root, '[data-game-status]'),
     startCountdown: must(root, '[data-game-start-countdown]'),
     play: mustButton(root, '[data-game-play]'),
@@ -1228,16 +1165,6 @@ function grab(root: HTMLElement): Ui {
     statsDialog: mustDialog(root, '[data-game-stats-dialog]'),
     statsClose: mustButton(root, '[data-game-stats-close]'),
     statsTitle: must(root, '[data-game-stats-title]'),
-    statStreak: must(root, '[data-game-stat-streak]'),
-    statBestStreak: must(root, '[data-game-stat-best-streak]'),
-    statBest: must(root, '[data-game-stat-best]'),
-    statDailies: must(root, '[data-game-stat-dailies]'),
-    statRounds: must(root, '[data-game-stat-rounds]'),
-    statPoints: must(root, '[data-game-stat-points]'),
-    guessSvg: mustSvg(root, '[data-game-guess-svg]'),
-    scoreSvg: mustSvg(root, '[data-game-score-svg]'),
-    guessEmpty: must(root, '[data-game-guess-empty]'),
-    scoreEmpty: must(root, '[data-game-score-empty]'),
   };
 }
 
@@ -1300,12 +1227,6 @@ function mustAnchor(root: ParentNode, selector: string): HTMLAnchorElement {
 function mustList(root: ParentNode, selector: string): HTMLOListElement {
   const node = root.querySelector(selector);
   if (!(node instanceof HTMLOListElement)) throw new Error(selector);
-  return node;
-}
-
-function mustSvg(root: ParentNode, selector: string): SVGSVGElement {
-  const node = root.querySelector(selector);
-  if (!(node instanceof SVGSVGElement)) throw new Error(selector);
   return node;
 }
 

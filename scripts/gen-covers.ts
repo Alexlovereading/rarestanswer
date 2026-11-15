@@ -1,9 +1,9 @@
 /**
- * gen-covers — generate og:image covers for wiki articles (v2.0).
+ * gen-covers — illustrated, crop-safe 1200×675 article covers.
  *
  * Usage:
- *   pnpm gen-covers                    # articles WITHOUT a cover (PNG + wires frontmatter)
- *   pnpm gen-covers --all              # also refresh covers this script generated before
+ *   pnpm gen-covers                    # missing covers + changed managed covers
+ *   pnpm gen-covers --all              # also adopt existing local cover PNGs
  *   pnpm gen-covers --force            # ignore the manifest cache
  *   pnpm gen-covers --out <dir>        # render elsewhere — frontmatter is NOT touched
  *   pnpm gen-covers --fonts-dir <dir>  # offline source for Noto CJK OTFs (see below)
@@ -12,20 +12,29 @@
  * large-image previews need ≥1200px width) rendered with satori + resvg.
  *
  * Fonts:
- *   - Latin: bundled OFL Lato (scripts/fonts/) — deterministic, no network.
+ *   - Latin: existing OFL Fraunces + Lato — deterministic, no network.
  *   - CJK titles: Noto Sans SC/JP. Full OTFs (~16MB each) are NOT committed;
  *     they download once into node_modules/.cache/gen-covers/fonts/ (or use
  *     --fonts-dir with pre-downloaded files) and are subset per title with
  *     subset-font (60–200KB per render) — satori only accepts TTF/OTF.
  *
- * Cache: <out>/.gen-covers-manifest.json maps filename → hash(title + brand +
- * size). Unchanged entries are skipped; --force regenerates everything.
+ * Cache includes the live title, theme, illustration contents, fonts, and
+ * layout version. Existing image paths keep their filenames. Unreferenced
+ * PNGs and stale manifest entries are removed; draft references are kept.
  *
  * Frontmatter wiring (only when writing to the default covers dir and the
  * article has no `image:` yet): inserts `image: '<relative path>'` after the
  * `category:` line so the Zod image() helper picks the PNG up on next build.
  */
-import { existsSync, mkdirSync, readFileSync, readdirSync, renameSync, writeFileSync } from 'node:fs';
+import {
+  existsSync,
+  mkdirSync,
+  readFileSync,
+  readdirSync,
+  renameSync,
+  unlinkSync,
+  writeFileSync,
+} from 'node:fs';
 import { dirname, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import satori from 'satori';
@@ -34,24 +43,34 @@ import subsetFont from 'subset-font';
 import { site } from '~/config/site';
 import { NOTO_BASE } from './lib/fonts';
 import {
-  coverFilename,
-  hslToHex,
-  parseBrandHsl,
   pickCjkScript,
-  pickFontSize,
   spliceImageIntoFrontmatter,
   stableHash,
   stripEmoji,
   subsetText,
 } from '~/lib/covers';
+import {
+  COVER_FONT_FILES,
+  COVER_SIZE,
+  COVER_TITLE_BOX,
+  COVER_VERSION,
+  coverArtFiles,
+  coverCacheKey,
+  managedCoverFile,
+  orphanCoverFiles,
+  pickCoverIllustration,
+  readCoverFrontmatter,
+  readCoverManifest,
+  readCoverPalette,
+} from './lib/covers';
+import type { CoverIllustration, CoverManifest, CoverPalette } from './lib/covers';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const W = 1200;
-const H = 675;
+const { width: W, height: H } = COVER_SIZE;
 const CONTENT_DIR = join(root, 'src/content/wiki');
 const COVERS_DIR = join(root, 'src/assets/covers');
 const FONT_CACHE = join(root, 'node_modules/.cache/gen-covers/fonts');
-const MANIFEST_VERSION = 1;
+const ART_DIR = join(root, 'public/images/brand');
 
 // Per-locale merged CJK fonts (NotoSansCJKjp/sc, ~16MB each) — family names
 // must match the internal font family satori matches on. The download base
@@ -68,7 +87,7 @@ interface Article {
   absPath: string;
   locale: string;
   title: string;
-  hasImage: boolean;
+  image?: string;
   draft: boolean;
 }
 
@@ -80,8 +99,8 @@ const opt = (name: string): string | undefined => {
   const i = args.indexOf(`--${name}`);
   return i >= 0 ? args[i + 1] : undefined;
 };
-const ALL = flag('all');
 const FORCE = flag('force');
+const ALL = flag('all') || FORCE;
 const OUT_DIR = opt('out') ? resolve(opt('out') as string) : COVERS_DIR;
 const FONTS_DIR = opt('fonts-dir') ? resolve(opt('fonts-dir') as string) : undefined;
 const WIRE_FRONTMATTER = OUT_DIR === COVERS_DIR;
@@ -97,33 +116,27 @@ function listMdxFiles(dir: string, acc: string[] = []): string[] {
   return acc;
 }
 
-/** Minimal frontmatter read — same split-on-'---' approach as refresh-audit. */
-function fmValue(fm: string, key: string): string | undefined {
-  const m = fm.match(new RegExp(`^${key}:\\s*(.+)$`, 'm'));
-  if (!m) return undefined;
-  return m[1].trim().replace(/^['"]|['"]$/g, '');
-}
-
 function collectArticles(): Article[] {
-  return listMdxFiles(CONTENT_DIR).map((absPath) => {
-    const src = readFileSync(absPath, 'utf8');
-    const fm = src.split('---')[1] ?? '';
-    // Normalize win32 separators before splitting: path.relative yields
-    // backslashes there, and locale/coverFilename both split on '/'.
-    const rel = relative(CONTENT_DIR, absPath)
-      .split('\\')
-      .join('/')
-      .replace(/\.mdx$/, '');
-    const [locale] = rel.split('/');
-    return {
-      id: rel,
-      absPath,
-      locale,
-      title: fmValue(fm, 'title') ?? rel,
-      hasImage: /^image:/m.test(fm),
-      draft: /^draft:\s*true/m.test(fm),
-    };
-  });
+  return listMdxFiles(CONTENT_DIR)
+    .sort()
+    .map((absPath) => {
+      const fm = readCoverFrontmatter(readFileSync(absPath, 'utf8'));
+      // Normalize win32 separators before splitting: path.relative yields
+      // backslashes there, and locale/coverFilename both split on '/'.
+      const rel = relative(CONTENT_DIR, absPath)
+        .split('\\')
+        .join('/')
+        .replace(/\.mdx$/, '');
+      const [locale] = rel.split('/');
+      return {
+        id: rel,
+        absPath,
+        locale,
+        title: fm.title,
+        image: fm.image,
+        draft: fm.draft,
+      };
+    });
 }
 
 // --- fonts ---------------------------------------------------------------------
@@ -136,18 +149,23 @@ interface SatoriFont {
   style: 'normal';
 }
 
-function readLatinFonts(): SatoriFont[] {
-  return (
-    [
-      ['Lato-Regular.ttf', 400],
-      ['Lato-Bold.ttf', 700],
-    ] as const
-  ).map(([file, weight]) => ({
-    name: 'Lato',
-    data: readFileSync(join(root, 'scripts/fonts', file)),
-    weight,
-    style: 'normal' as const,
-  }));
+async function readLatinFonts(glyphs: string): Promise<SatoriFont[]> {
+  return [
+    {
+      name: 'Fraunces',
+      data: await subsetFont(readFileSync(join(root, COVER_FONT_FILES[0])), glyphs, {
+        targetFormat: 'sfnt',
+      }),
+      weight: 700,
+      style: 'normal',
+    },
+    {
+      name: 'Lato',
+      data: readFileSync(join(root, COVER_FONT_FILES[1])),
+      weight: 700,
+      style: 'normal',
+    },
+  ];
 }
 
 async function ensureNotoOtf(script: Script, weight: 'Regular' | 'Bold'): Promise<Buffer> {
@@ -168,7 +186,8 @@ async function ensureNotoOtf(script: Script, weight: 'Regular' | 'Bold'): Promis
     );
   }
   const buf = Buffer.from(await res.arrayBuffer());
-  if (buf.length < 1_000_000) throw new Error(`${file} looks truncated (${buf.length} bytes) — not cached.`);
+  if (buf.length < 1_000_000)
+    throw new Error(`${file} looks truncated (${buf.length} bytes) — not cached.`);
   mkdirSync(FONT_CACHE, { recursive: true });
   writeFileSync(join(FONT_CACHE, file), buf);
   return buf;
@@ -206,108 +225,212 @@ interface Element {
   };
 }
 
-function el(type: string, style: Record<string, unknown>, children?: unknown, extra: Record<string, unknown> = {}): Element {
+function el(
+  type: string,
+  style: Record<string, unknown>,
+  children?: unknown,
+  extra: Record<string, unknown> = {},
+): Element {
   return { type, props: { ...extra, style, ...(children !== undefined ? { children } : {}) } };
+}
+
+/** Data URIs keep SVG assets untouched and require no network during rendering. */
+function artImage(
+  file: string,
+  left: number,
+  top: number,
+  width: number,
+  height: number,
+  rotate = 0,
+): Element {
+  return el(
+    'img',
+    {
+      position: 'absolute',
+      left,
+      top,
+      width,
+      height,
+      ...(rotate ? { transform: `rotate(${rotate}deg)` } : {}),
+    },
+    undefined,
+    {
+      width,
+      height,
+      src: `data:image/svg+xml;base64,${readFileSync(join(ART_DIR, file)).toString('base64')}`,
+    },
+  );
+}
+
+function illustrationElements(illustration: CoverIllustration): Element[] {
+  if (illustration !== 'hero') {
+    return [
+      artImage('hero-scene.svg', 136, 138, 400, 334),
+      artImage(`category-${illustration}.svg`, 156, 164, 352, 352),
+    ];
+  }
+  // The site's original trivia scene, composed from its existing layers.
+  // Cards contain abstract strokes, not invented answers or player statistics.
+  return [
+    artImage('hero-scene.svg', 136, 142, 400, 334),
+    artImage('answer-card-epic.svg', 186, 200, 172, 92, -13),
+    artImage('answer-card-rare.svg', 331, 300, 172, 92, 11),
+    artImage('legendary-gem.svg', 273, 237, 142, 154),
+    artImage('magnifier.svg', 188, 331, 102, 113, -12),
+  ];
 }
 
 function coverElement(opts: {
   title: string;
   fontSize: number;
-  brandHex: string;
-  brandDeepHex: string;
+  palette: CoverPalette;
+  illustration: CoverIllustration;
   lang: string;
   fontFamily: string;
 }): Element {
-  const shortName = site.shortName.toUpperCase();
+  const p = opts.palette;
+  const box = COVER_TITLE_BOX;
   return el(
     'div',
     {
       width: '100%',
       height: '100%',
       display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'space-between',
-      padding: '72px 72px 64px 96px',
-      backgroundImage: `linear-gradient(135deg, #0f131c 0%, #151b28 55%, ${opts.brandDeepHex} 100%)`,
       position: 'relative',
-      fontFamily: opts.fontFamily,
-      backgroundColor: '#0f131c',
+      backgroundColor: p.background,
+      color: p.foreground,
+      fontFamily: 'Lato',
+      overflow: 'hidden',
     },
     [
-      // Brand accent bar — the only brand-colored surface on the cover.
-      el('div', { position: 'absolute', left: 0, top: 0, bottom: 0, width: '14px', backgroundColor: opts.brandHex }),
-      // Top row: wiki short name.
-      el(
-        'div',
-        { display: 'flex', alignItems: 'center' },
-        el(
-          'div',
-          {
-            fontSize: '30px',
-            fontWeight: 700,
-            color: opts.brandHex,
-            letterSpacing: '6px',
-          },
-          shortName,
-        ),
-      ),
-      // Title — sized by pickFontSize to stay within ~2 lines.
+      // Full-bleed decoration may crop; the brand/title/art are kept well inside.
+      el('div', {
+        position: 'absolute',
+        left: -240,
+        top: -25,
+        width: 800,
+        height: 800,
+        borderRadius: '50%',
+        backgroundColor: p.muted,
+      }),
+      el('div', {
+        position: 'absolute',
+        left: -180,
+        top: 42,
+        width: 660,
+        height: 660,
+        borderRadius: '50%',
+        border: `1px solid ${p.border}`,
+      }),
+      ...illustrationElements(opts.illustration),
       el(
         'div',
         {
+          position: 'absolute',
+          left: box.left,
+          top: 150,
           display: 'flex',
           alignItems: 'center',
-          flexGrow: 1,
-          paddingTop: '24px',
-          paddingBottom: '24px',
+          gap: 12,
+          height: 40,
         },
-        el('div', {
-          fontSize: `${opts.fontSize}px`,
-          fontWeight: 700,
-          color: '#f1f5f9',
-          lineHeight: 1.18,
-          maxWidth: '1000px',
-          textWrap: 'balance',
-        }, opts.title),
-      ),
-      // Bottom row: game name · domain.
-      el(
-        'div',
-        { display: 'flex', alignItems: 'center', gap: '18px' },
         [
-          el('div', { width: '46px', height: '5px', backgroundColor: opts.brandHex, borderRadius: '3px' }),
+          el('img', { width: 34, height: 37 }, undefined, {
+            width: 34,
+            height: 37,
+            src: `data:image/svg+xml;base64,${readFileSync(join(ART_DIR, 'legendary-gem.svg')).toString('base64')}`,
+          }),
           el(
             'div',
-            { fontSize: '26px', color: '#8b95a8', letterSpacing: '1px' },
-            `${site.game.name}  ·  ${site.domain}`,
+            {
+              fontSize: 25,
+              fontWeight: 700,
+              color: p.brand,
+              letterSpacing: '0.5px',
+            },
+            site.shortName,
           ),
         ],
       ),
+      el(
+        'div',
+        {
+          position: 'absolute',
+          left: box.left,
+          top: box.top,
+          width: box.width,
+          height: box.height,
+          display: 'flex',
+          alignItems: 'center',
+        },
+        el(
+          'div',
+          {
+            width: box.width,
+            fontSize: opts.fontSize,
+            fontFamily: opts.fontFamily,
+            fontWeight: 700,
+            lineHeight: 1.08,
+            color: p.foreground,
+          },
+          opts.title,
+          { id: 'cover-title' },
+        ),
+      ),
+      el('div', {
+        position: 'absolute',
+        left: box.left,
+        top: 550,
+        width: 58,
+        height: 5,
+        backgroundColor: p.gold,
+        borderRadius: 3,
+      }),
     ],
     { lang: opts.lang },
   );
 }
 
-async function renderCover(article: Article, brandHex: string, brandDeepHex: string): Promise<Buffer> {
+async function renderCover(
+  article: Article,
+  palette: CoverPalette,
+  illustration: CoverIllustration,
+  latinFonts: SatoriFont[],
+): Promise<Buffer> {
   const title = stripEmoji(article.title);
-  if (title !== article.title) console.warn(`  ⚠ stripped emoji from "${article.title}"`);
+  if (title !== article.title) console.warn(`  stripped pictographs from "${article.title}"`);
   const script = pickCjkScript(article.locale, title);
-  const fonts: SatoriFont[] = readLatinFonts();
-  let fontFamily = 'Lato';
+  const fonts = [...latinFonts];
+  let fontFamily = 'Fraunces, Lato';
   let lang = 'en';
   if (script) {
-    const glyphs = subsetText(title, site.shortName, site.game.name);
-    fonts.push(...(await subsetNoto(script, glyphs)));
-    fontFamily = `Lato, ${NOTO_VARIANTS[script].family}`;
+    fonts.push(...(await subsetNoto(script, subsetText(title, site.shortName))));
+    fontFamily += `, ${NOTO_VARIANTS[script].family}`;
     lang = script === 'ja' ? 'ja-JP' : 'zh-CN';
   }
-  const element = coverElement({ title, fontSize: pickFontSize(title), brandHex, brandDeepHex, lang, fontFamily });
-  const svg = await satori(element as unknown as Parameters<typeof satori>[0], {
-    width: W,
-    height: H,
-    fonts,
-  });
-  return new Resvg(svg, { fitTo: { mode: 'width', value: W } }).render().asPng();
+  // Measure the actual font layout, rather than trusting character counts.
+  // Never truncate the live title: shrink to fit, or fail before writing a PNG.
+  for (let fontSize = 76; fontSize >= 28; fontSize -= 2) {
+    let titleFits = false;
+    const element = coverElement({ title, fontSize, palette, illustration, lang, fontFamily });
+    const svg = await satori(element as Parameters<typeof satori>[0], {
+      width: W,
+      height: H,
+      fonts,
+      onNodeDetected(node) {
+        if (node.props.id === 'cover-title') {
+          titleFits =
+            node.width <= COVER_TITLE_BOX.width + 0.5 &&
+            node.height <= COVER_TITLE_BOX.height + 0.5 &&
+            node.left >= COVER_TITLE_BOX.left - 0.5 &&
+            node.top >= COVER_TITLE_BOX.top - 0.5 &&
+            node.top + node.height <= COVER_TITLE_BOX.top + COVER_TITLE_BOX.height + 0.5;
+        }
+      },
+    });
+    if (titleFits) return new Resvg(svg, { fitTo: { mode: 'width', value: W } }).render().asPng();
+  }
+  throw new Error(`Title cannot fit the crop-safe area: ${article.title}`);
 }
 
 // --- frontmatter wiring ------------------------------------------------------------
@@ -332,22 +455,19 @@ async function main(): Promise<void> {
     process.exit(1);
   }
   const css = readFileSync(join(root, 'src/styles/globals.css'), 'utf8');
-  const brand = parseBrandHsl(css);
-  if (!brand) {
-    console.error('Could not parse --brand from src/styles/globals.css.');
-    process.exit(1);
-  }
-  const brandHex = hslToHex(brand.h, brand.s, brand.l);
-  const brandDeepHex = hslToHex(brand.h, brand.s, 20);
+  const palette = readCoverPalette(css);
 
-  const articles = collectArticles().filter((a) => !a.draft);
+  const allArticles = collectArticles();
+  const articles = allArticles.filter((a) => !a.draft);
   const manifestPath = join(OUT_DIR, '.gen-covers-manifest.json');
-  let manifest: { version: number; entries: Record<string, string> } = { version: MANIFEST_VERSION, entries: {} };
+  let manifest: CoverManifest = { version: COVER_VERSION, entries: {} };
+  let adoptExisting = ALL;
   if (existsSync(manifestPath)) {
     try {
-      manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
+      manifest = readCoverManifest(readFileSync(manifestPath, 'utf8'));
     } catch {
       console.warn('manifest unreadable — regenerating all covers.');
+      adoptExisting = true;
     }
   }
 
@@ -355,29 +475,46 @@ async function main(): Promise<void> {
   let generated = 0;
   let skipped = 0;
   let wired = 0;
+  const fontHashes = COVER_FONT_FILES.map((file) =>
+    stableHash(readFileSync(join(root, file)).toString('base64')),
+  );
+  const latinFonts = await readLatinFonts(
+    subsetText(site.shortName, ...articles.map((article) => stripEmoji(article.title))),
+  );
 
   for (const article of articles) {
-    const ours = manifest.entries[coverFilename(article.id)] !== undefined;
-    // Custom --out is a preview run: render everything (frontmatter untouched).
-    const eligible = !WIRE_FRONTMATTER || !article.hasImage || (ALL && ours);
+    const file = managedCoverFile(article.id, article.image, article.absPath, COVERS_DIR);
+    // Custom images outside the covers directory are never overwritten.
+    if (!file) continue;
+    const ours = manifest.entries[file] !== undefined;
+    // --all adopts the previously untracked PNGs without changing MDX paths.
+    const eligible = !WIRE_FRONTMATTER || !article.image || ours || adoptExisting;
     if (!eligible) continue;
 
-    const file = coverFilename(article.id);
-    const key = stableHash(
-      `${article.title}|${site.shortName}|${site.game.name}|${brandHex}|${W}x${H}|v${MANIFEST_VERSION}`,
-    );
+    const illustration = pickCoverIllustration(article.id, article.title);
+    const key = coverCacheKey({
+      title: article.title,
+      shortName: site.shortName,
+      palette,
+      illustration,
+      assets: coverArtFiles(illustration).map((asset) =>
+        stableHash(readFileSync(join(ART_DIR, asset), 'utf8')),
+      ),
+      fonts: fontHashes,
+    });
     if (!FORCE && manifest.entries[file] === key && existsSync(join(OUT_DIR, file))) {
       skipped++;
-      continue;
+    } else {
+      console.log(`Rendering ${file} — ${article.title} (${illustration})`);
+      const png = await renderCover(article, palette, illustration, latinFonts);
+      const tmpPath = join(OUT_DIR, `${file}.tmp`);
+      writeFileSync(tmpPath, png);
+      renameSync(tmpPath, join(OUT_DIR, file));
+      manifest.entries[file] = key;
+      generated++;
     }
 
-    console.log(`▸ ${file} — ${article.title}`);
-    const png = await renderCover(article, brandHex, brandDeepHex);
-    writeFileSync(join(OUT_DIR, file), png);
-    manifest.entries[file] = key;
-    generated++;
-
-    if (WIRE_FRONTMATTER && !article.hasImage) {
+    if (WIRE_FRONTMATTER && !article.image) {
       const absCover = join(COVERS_DIR, file);
       const relFromMdx = relative(dirname(article.absPath), absCover).split('\\').join('/');
       if (wireFrontmatter(article.absPath, relFromMdx)) {
@@ -387,8 +524,33 @@ async function main(): Promise<void> {
     }
   }
 
-  writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
-  console.log(`\nDone: ${generated} generated, ${skipped} cached, ${wired} wired → ${relative(root, OUT_DIR)}`);
+  const referenced = new Set(
+    allArticles.flatMap((article) => {
+      const file = managedCoverFile(article.id, article.image, article.absPath, COVERS_DIR);
+      return file ? [file] : [];
+    }),
+  );
+  // The default directory contains only article covers. A preview directory
+  // may also contain unrelated PNGs: remove only its previously managed files.
+  // Draft article references are intentionally kept in either mode.
+  const orphans = orphanCoverFiles(
+    readdirSync(OUT_DIR),
+    referenced,
+    WIRE_FRONTMATTER ? undefined : new Set(Object.keys(manifest.entries)),
+  );
+  for (const file of orphans) {
+    unlinkSync(join(OUT_DIR, file));
+    console.log(`Removed orphan ${file}`);
+  }
+  manifest.entries = Object.fromEntries(
+    Object.entries(manifest.entries).filter(([file]) => referenced.has(file)),
+  );
+  const manifestTmp = `${manifestPath}.tmp`;
+  writeFileSync(manifestTmp, JSON.stringify(manifest, null, 2) + '\n');
+  renameSync(manifestTmp, manifestPath);
+  console.log(
+    `\nDone: ${generated} generated, ${skipped} cached, ${wired} wired, ${orphans.length} orphan PNGs removed → ${relative(root, OUT_DIR)}`,
+  );
   if (!WIRE_FRONTMATTER) console.log('(custom --out: frontmatter untouched)');
 }
 

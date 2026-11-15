@@ -9,6 +9,7 @@ import { Icon } from 'astro-icon/components';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import ArticleCard from '~/components/article/ArticleCard.astro';
 import ArticleCover from '~/components/article/ArticleCover.astro';
+import ArticleCardMeta from '~/components/article/ArticleCardMeta.astro';
 import DealsOverview from '~/components/article/DealsOverview.astro';
 import PlayCta from '~/components/article/PlayCta.astro';
 import WorldArt from '~/components/article/WorldArt.astro';
@@ -16,7 +17,7 @@ import { NAVIGATION_CONFIG } from '~/config/navigation';
 import { site } from '~/config/site';
 import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
-import { getEntriesByCategory, parseEntryId } from '~/lib/content';
+import { estimateReadMinutes, getEntriesByCategory, parseEntryId } from '~/lib/content';
 import { toDealMerchants } from '~/lib/content-utils';
 import { itemListJsonLd, pageTitle, simpleBreadcrumbJsonLd } from '~/lib/seo';
 import { CATEGORY_PAGES } from '~/lib/game/category-copy';
@@ -85,6 +86,8 @@ const featured =
   null;
 const rest = featured ? entries.filter((entry) => entry !== featured) : entries;
 const pageCountLabel = shared.pageCount.replace('{count}', String(entries.length));
+const readTime = (entry: (typeof entries)[number]) =>
+  `${estimateReadMinutes(entry.body ?? '', locale)} ${shared.minuteRead}`;
 
 const stamp = (entry: (typeof entries)[number]) =>
   entry.data.lastModified
@@ -161,40 +164,51 @@ const jsonLd = [
       ) : (
         <div class="space-y-8">
           {featured && (
-            <a
-              href={detailPath(category, parseEntryId(featured.id)?.slug ?? '', locale)}
-              class="card group grid overflow-hidden p-0 md:grid-cols-2"
-            >
-              <div class="relative aspect-video overflow-hidden bg-muted md:aspect-auto md:h-full md:min-h-[16rem]">
-                {featured.data.image && (
-                  <ArticleCover
-                    src={featured.data.image}
-                    alt=""
-                    loading="eager"
-                    sizes="(max-width: 768px) 100vw, 40rem"
-                    widths={[400, 800, 1200]}
-                    class="mb-0 h-full w-full rounded-none object-cover md:absolute md:inset-0"
-                  />
-                )}
+            <article class="featured-guide" aria-labelledby="featured-guide-title">
+              <div class="featured-guide__media">
+                <div class="featured-guide__frame">
+                  {featured.data.image ? (
+                    <ArticleCover
+                      src={featured.data.image}
+                      alt=""
+                      loading="eager"
+                      sizes="(max-width: 1023px) calc(100vw - 2rem), 38rem"
+                      widths={[400, 800, 1200]}
+                      height={Math.round(800 * featured.data.image.height / featured.data.image.width)}
+                      class="featured-guide__image"
+                    />
+                  ) : <WorldArt decorative />}
+                </div>
               </div>
-              <div class="flex flex-col justify-center p-5 sm:p-8">
-                <p class="text-xs font-semibold uppercase tracking-[0.14em] text-nav">{shared.featuredLabel}</p>
-                <h2 class="mt-2 font-display text-2xl font-semibold leading-snug tracking-tight md:text-3xl">
+              <div class="featured-guide__content">
+                <div class="featured-guide__labels">
+                  <p class="featured-guide__eyebrow">{shared.featuredLabel}</p>
+                  <span class="featured-guide__category">{nav[category] ?? category}</span>
+                </div>
+                <h2 id="featured-guide-title" class="featured-guide__title">
                   {featured.data.title}
                 </h2>
-                <p class="mt-3 text-base leading-relaxed text-muted-foreground">{featured.data.description}</p>
-                <p class="mt-4 text-xs text-muted-foreground">{stamp(featured)}</p>
-                <p class="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-nav">
-                  {shared.readThis}
-                  <Icon name="lucide:arrow-right" class="h-4 w-4" aria-hidden="true" />
-                </p>
+                <p class="featured-guide__description">{featured.data.summary || featured.data.description}</p>
+                <ArticleCardMeta
+                  readTime={readTime(featured)}
+                  meta={stamp(featured)}
+                  date={featured.data.lastModified ?? featured.data.date}
+                />
+                <a
+                  href={detailPath(category, parseEntryId(featured.id)?.slug ?? '', locale)}
+                  class="featured-guide__cta"
+                  aria-describedby="featured-guide-title"
+                >
+                  {shared.readTheGuide}
+                  <Icon name="lucide:arrow-up-right" class="h-4 w-4" aria-hidden="true" />
+                </a>
               </div>
-            </a>
+            </article>
           )}
           {rest.length > 0 && (
             <div>
               <h2 class="font-display text-2xl font-semibold tracking-tight">{shared.allPages}</h2>
-              <div class="mt-4 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+              <div class="article-list-grid mt-4">
                 {rest.map((entry) => {
                   const slug = parseEntryId(entry.id)?.slug ?? '';
                   return (
@@ -203,6 +217,8 @@ const jsonLd = [
                       title={entry.data.title}
                       description={entry.data.description}
                       meta={stamp(entry)}
+                      date={entry.data.lastModified ?? entry.data.date}
+                      readTime={readTime(entry)}
                       image={entry.data.image}
                       heading="h3"
                     />
@@ -236,3 +252,171 @@ const jsonLd = [
     {entries.length > 0 && <PlayCta locale={locale} />}
   </div>
 </LocaleLayout>
+
+<style>
+  .featured-guide {
+    display: grid;
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid hsl(var(--brand) / 0.23);
+    border-radius: calc(var(--radius) + 0.5rem);
+    background: hsl(var(--card));
+    box-shadow: 0 16px 40px -28px hsl(var(--brand) / 0.35);
+  }
+
+  .featured-guide__media {
+    display: grid;
+    align-items: center;
+    min-width: 0;
+    background: hsl(var(--muted));
+  }
+
+  /* The image keeps its own ratio even when the text panel is taller.
+     Contain preserves edge labels on both old covers and replacement art. */
+  .featured-guide__frame {
+    position: relative;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 16 / 9;
+    isolation: isolate;
+  }
+
+  .featured-guide__frame::after {
+    position: absolute;
+    inset: 0;
+    content: '';
+    pointer-events: none;
+    background: linear-gradient(180deg, hsl(var(--brand) / 0), hsl(var(--brand) / 0.08));
+  }
+
+  .featured-guide__frame :global(.featured-guide__image) {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .featured-guide__content {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    padding: clamp(1.25rem, 3vw, 2.25rem);
+    background: radial-gradient(ellipse at 100% 0%, hsl(var(--brand) / 0.055), hsl(var(--card) / 0) 70%);
+  }
+
+  .featured-guide__labels {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.875rem;
+    color: hsl(var(--brand-text));
+  }
+
+  .featured-guide__eyebrow {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .featured-guide__category {
+    border: 1px solid hsl(var(--brand) / 0.2);
+    border-radius: 999px;
+    padding: 0.25rem 0.625rem;
+    background: hsl(var(--brand) / 0.07);
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  .featured-guide__title {
+    color: hsl(var(--foreground));
+    font-size: clamp(1.625rem, 2.5vw, 2rem);
+    font-weight: 700;
+    line-height: 1.18;
+    overflow-wrap: anywhere;
+    text-wrap: balance;
+  }
+
+  .featured-guide__description {
+    color: hsl(var(--muted-foreground));
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .featured-guide__cta {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 0.25rem;
+    border: 1px solid hsl(var(--brand));
+    border-radius: 0.75rem;
+    padding: 0.75rem 1.125rem;
+    background: hsl(var(--brand));
+    color: hsl(var(--background));
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .featured-guide__cta:hover {
+    background: hsl(var(--brand-text));
+    border-color: hsl(var(--brand-text));
+  }
+
+  .featured-guide__cta:focus-visible {
+    outline: 3px solid hsl(var(--brand-text));
+    outline-offset: 4px;
+  }
+
+  .featured-guide:focus-within {
+    border-color: hsl(var(--brand));
+    box-shadow: 0 12px 36px -20px hsl(var(--brand) / 0.3);
+  }
+
+  .article-list-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .article-list-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .featured-guide {
+      grid-template-columns: 1.08fr 1fr;
+    }
+
+    .featured-guide__media {
+      border-inline-end: 1px solid hsl(var(--brand) / 0.15);
+    }
+
+    .article-list-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .featured-guide {
+      transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+    }
+
+    @media (hover: hover) {
+      .featured-guide:hover {
+        transform: translateY(-3px);
+        border-color: hsl(var(--brand) / 0.45);
+        box-shadow: 0 18px 40px -22px hsl(var(--brand) / 0.3);
+      }
+    }
+  }
+</style>

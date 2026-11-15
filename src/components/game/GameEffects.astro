@@ -46,31 +46,40 @@
     object-fit: contain;
   }
   .game-shell .ra-lineup {
-    display: flex;
-    justify-content: center;
-    gap: clamp(0.25rem, 1vw, 0.65rem);
-    height: 62px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.25rem;
+    height: 116px;
     margin: 0.25rem 0 0;
     padding: 0;
     list-style: none;
   }
   .game-shell .ra-lineup-item {
-    width: 42px;
     min-width: 0;
     text-align: center;
   }
   .game-shell .ra-lineup-art {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
     border: 1px solid hsl(var(--brand) / 0.15);
     border-radius: 0.75rem;
     background: hsl(var(--brand) / 0.04);
   }
-  .game-shell .ra-lineup-number {
-    font-size: 0.625rem;
-    font-weight: 700;
+  .game-shell .ra-lineup-label {
+    display: block;
+    margin-top: 0.125rem;
+    font-size: 0.6875rem;
+    line-height: 0.875rem;
+    font-weight: 600;
     color: hsl(var(--muted-foreground));
+  }
+  @media (min-width: 640px) {
+    .game-shell .ra-lineup {
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      height: 62px;
+    }
   }
   .game-shell .ra-lineup-art :is(svg, img),
   .game-shell [data-game-prompt-art] :is(svg, img),

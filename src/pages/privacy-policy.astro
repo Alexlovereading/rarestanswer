@@ -62,12 +62,18 @@ const email = contactEmail();
   <h2>Third-party services</h2>
   <p>
     Advertising, analytics, and comments are off unless the matching environment variables are
-    set. In the <code>wrangler.toml</code> shipped with this repository, the AdSense, Adsterra,
-    Google Analytics, Cloudflare Web Analytics, VibeCafé, and giscus identifiers are blank, so a
-    build from that file does not load them. If a deployment fills them in, the services below can
-    collect information under their own policies.
+    set. This site currently uses one of them: Plausible Analytics, described first below. The
+    AdSense, Adsterra, Google Analytics, Cloudflare Web Analytics, VibeCafé, and giscus identifiers
+    are blank, so they do not load. If they are enabled later, the services below can collect
+    information under their own policies.
   </p>
   <ul>
+    <li>
+      <strong>Plausible Analytics</strong> (in use) — counts page views and referrers so we can see
+      which pages people read. It sets no cookies, does not store your IP address, and reports only
+      aggregate numbers, so it does not wait for the cookie banner. See
+      <a href="https://plausible.io/data-policy" rel="noopener">Plausible's data policy</a>.
+    </li>
     <li>
       <strong>Advertising partners</strong> (e.g. Google AdSense, Adsterra) — may use cookies to
       serve ads. AdSense and Adsterra units load only after you accept the cookie banner, and only

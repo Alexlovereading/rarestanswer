@@ -63,6 +63,7 @@ export const PLAY = {
   prompts: 'Prompts',
   streak: 'Streak',
   best: 'Best',
+  maxToday: 'Max today',
   loadingRound: 'Loading round',
   loadingStatus: 'Loading the prompt list.',
   loadError: 'The prompt list did not load. Try again.',
@@ -98,8 +99,7 @@ export const PLAY = {
   spotlight: 'Spotlight ×2',
   spotlightArmed: 'Spotlight armed',
   spotlightUsed: 'Spotlight used',
-  spotlightNote:
-    'Doubles one prompt this round. Tap again to cancel. A miss does not spend it.',
+  spotlightNote: 'Doubles one prompt this round. Tap again to cancel. A miss does not spend it.',
   loadingPrompt: 'Loading prompt',
   promptLabel: 'Prompt',
   noPoints: 'No points',
@@ -135,7 +135,15 @@ export const PLAY = {
   rounds: 'Rounds',
   pointsTotal: 'Points',
   bestDaily: 'Best daily',
-  guessChart: 'Guesses by tier',
+  guessChart: 'Your guesses by tier',
+  roundChart: "Answers by tier in today's round",
+  todayRound: "Today's round",
+  answerPool: 'Total answer pool',
+  maxScore: "Today's maximum score",
+  statsLoading: "Loading today's round data.",
+  tiersLoading: 'Loading answer tiers for these prompts.',
+  tiersError: 'Answer tiers could not load. Reopen Stats to try again.',
+  statsLocal: 'Your results stay in this browser.',
   scoreChart: 'Daily scores',
   guessEmpty: 'Scored guesses will show up here after you play.',
   scoreEmpty: 'Finish a daily round and your scores will show up here.',
@@ -149,6 +157,28 @@ export const PLAY = {
   resultCard: 'Your rarity collection',
   clockOff: 'Off',
 } as const;
+
+export function answerCountLine(count: number): string {
+  return `${count.toLocaleString('en-US')} ${count === 1 ? 'answer' : 'answers'}`;
+}
+
+export function lineupLabel(category: string, count: number): string {
+  return `${category} · ${count.toLocaleString('en-US')}`;
+}
+
+export function catalogLine(totals: {
+  prompts: number;
+  answers: number;
+  categories: number;
+}): string {
+  const prompts = `${totals.prompts.toLocaleString('en-US')} ${totals.prompts === 1 ? 'prompt' : 'prompts'}`;
+  const categories = `${totals.categories} ${totals.categories === 1 ? 'category' : 'categories'}`;
+  return `Catalog: ${prompts} · ${answerCountLine(totals.answers)} · ${categories}.`;
+}
+
+export function emptyScoresLine(maxScore: number): string {
+  return `Daily scores fill in after your first daily. Today's maximum: ${maxScore.toLocaleString('en-US')} points.`;
+}
 
 export function comboLine(count: number): string {
   return `${count} in a row`;
@@ -222,7 +252,10 @@ export function tierLive(name: string, points: number): string {
   return `${name}. ${points} points.`;
 }
 
-export function chartSummary(caption: string, rows: readonly { label: string; count: number }[]): string {
+export function chartSummary(
+  caption: string,
+  rows: readonly { label: string; count: number }[],
+): string {
   const body = rows.map((row) => `${row.label} ${row.count}`).join(', ');
   return `${caption}. ${body}`;
 }

@@ -26,6 +26,7 @@ import {
   withPinnedPrompt,
 } from '~/lib/game/daily';
 import { readClientPrompt } from '~/lib/game/load-prompts';
+import { catalogTotals, promptTierDistribution } from '~/lib/game/round-summary';
 import { createTried, matchGuess, rememberGuess, type Matchable } from '~/lib/game/match';
 import { levenshtein, normalize } from '~/lib/game/normalize';
 import {
@@ -44,6 +45,7 @@ import {
 import {
   applyScore,
   freshScore,
+  maxRoundScore,
   PENALTY_MS,
   pointsForTier,
   scorePrompt,
@@ -784,5 +786,76 @@ describe('game presentation calculations', () => {
     expect(
       legendary.every((particle) => Math.abs(particle.x) < 200 && Math.abs(particle.y) < 225),
     ).toBe(true);
+  });
+});
+
+describe('round maximum', () => {
+  test('uses the highest published tier and spends Spotlight exactly once', () => {
+    expect(maxRoundScore(7)).toBe(800);
+    const highest = TIERS.reduce((best, row) => (row.points > best.points ? row : best));
+    for (const count of [1, 3, 7]) {
+      expect(maxRoundScore(count)).toBe(
+        (count - 1) * scorePrompt(highest.tier, false) + scorePrompt(highest.tier, true),
+      );
+    }
+  });
+
+  test('empty or invalid deals cannot award a Spotlight bonus', () => {
+    for (const count of [0, -1, NaN, Infinity]) expect(maxRoundScore(count)).toBe(0);
+  });
+});
+
+describe('published data totals', () => {
+  test('sums every index answer count and counts only represented categories', () => {
+    const index: PromptIndexEntry[] = [
+      { id: 'a', slug: 'first', question: 'First?', category: 'animals', answerCount: 8 },
+      { id: 'b', slug: 'second', question: 'Second?', category: 'animals', answerCount: 51 },
+      { id: 'c', slug: 'third', question: 'Third?', category: 'science', answerCount: 13 },
+    ];
+    expect(catalogTotals(index)).toEqual({ prompts: 3, answers: 72, categories: 2 });
+    expect(catalogTotals(index.slice(0, 1))).toEqual({ prompts: 1, answers: 8, categories: 1 });
+    expect(index[1]?.answerCount).toBe(51);
+  });
+
+  test('an empty catalog stays empty', () => {
+    expect(catalogTotals([])).toEqual({ prompts: 0, answers: 0, categories: 0 });
+  });
+});
+
+describe('answers by tier across the dealt prompts', () => {
+  test('aggregates exact answer counts, including absent tiers, with proportional bars', () => {
+    const prompt = toClientPrompt(fixture);
+    if (!prompt) throw new Error('Invalid fixture');
+    const first = prompt.answers[0];
+    if (!first) throw new Error('Missing fixture answer');
+    const tier = (n: (typeof TIERS)[number]['tier']) => ({ ...first, tier: n });
+    const prompts = [
+      { answers: [tier(1), tier(1), tier(4)] },
+      { answers: [tier(1), tier(3), tier(6), tier(6)] },
+    ];
+    const rows = promptTierDistribution(prompts);
+    expect(rows.map((row) => row.key)).toEqual(TIERS.map((row) => String(row.tier)));
+    expect(rows.map((row) => row.count)).toEqual([3, 0, 1, 1, 0, 2]);
+    expect(rows.map((row) => row.share)).toEqual([1, 0, 1 / 3, 1 / 3, 0, 2 / 3]);
+    expect(rows.reduce((total, row) => total + row.count, 0)).toBe(7);
+    expect(prompts.map((entry) => entry.answers.length)).toEqual([3, 4]);
+  });
+
+  test('counts the frozen prompt answers without treating aliases as answers', () => {
+    const prompt = toClientPrompt(fixture);
+    if (!prompt) throw new Error('Invalid fixture');
+    const rows = promptTierDistribution([prompt]);
+    expect(rows.reduce((sum, row) => sum + row.count, 0)).toBe(prompt.answers.length);
+    for (const row of rows) {
+      expect(row.count).toBe(
+        prompt.answers.filter((answer) => String(answer.tier) === row.key).length,
+      );
+    }
+  });
+
+  test('empty rounds produce no answers or invented distribution', () => {
+    const rows = promptTierDistribution([]);
+    expect(rows).toHaveLength(TIERS.length);
+    expect(rows.every((row) => row.count === 0 && row.share === 0)).toBe(true);
   });
 });

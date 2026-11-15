@@ -1,7 +1,7 @@
 /** Small DOM effects, isolated from the game engine and its persisted state. */
-import { PLAY, comboLine } from './copy';
+import { PLAY, answerCountLine, comboLine, lineupLabel } from './copy';
 import { celebrationParticles, currentCombo, scoreAtProgress } from './visuals';
-import type { CategoryKey } from './categories';
+import type { PromptIndexEntry } from './types';
 import { CATEGORY_LABELS } from './categories';
 import { tierName, type RoundTier } from './score';
 
@@ -21,26 +21,24 @@ export function createGameEffects(root: HTMLElement) {
     target.replaceChildren(...(template ? [template.content.cloneNode(true)] : []));
   }
 
-  function lineup(categories: CategoryKey[]): void {
+  function lineup(entries: readonly PromptIndexEntry[]): void {
     const list = root.querySelector<HTMLElement>('[data-game-lineup]');
     if (!list) return;
     list.replaceChildren();
-    categories.forEach((category, index) => {
+    entries.forEach(({ category, answerCount }) => {
       const item = document.createElement('li');
       item.className = 'ra-lineup-item';
-      item.title = CATEGORY_LABELS[category];
+      item.title = `${CATEGORY_LABELS[category]}, ${answerCountLine(answerCount)}`;
+      item.setAttribute('aria-label', item.title);
       const illustration = document.createElement('span');
       illustration.className = 'ra-lineup-art';
       illustration.setAttribute('aria-hidden', 'true');
       art(illustration, 'category', category);
       const label = document.createElement('span');
-      label.className = 'sr-only';
-      label.textContent = CATEGORY_LABELS[category];
-      const number = document.createElement('span');
-      number.className = 'ra-lineup-number';
-      number.setAttribute('aria-hidden', 'true');
-      number.textContent = String(index + 1).padStart(2, '0');
-      item.append(illustration, label, number);
+      label.className = 'ra-lineup-label';
+      label.setAttribute('aria-hidden', 'true');
+      label.textContent = lineupLabel(CATEGORY_LABELS[category], answerCount);
+      item.append(illustration, label);
       list.append(item);
     });
   }

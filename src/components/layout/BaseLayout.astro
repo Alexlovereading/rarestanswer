@@ -133,6 +133,7 @@ const xDefaultHref = defaultAlt
 // Optional analytics / verification / ads (env-var gated — empty = not injected).
 const gaId = import.meta.env.PUBLIC_GA_ID as string | undefined;
 const cfBeaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN as string | undefined;
+const plausibleSrc = import.meta.env.PUBLIC_PLAUSIBLE_SRC as string | undefined;
 const vibecafeProductId = import.meta.env.PUBLIC_VIBECAFE_PRODUCT_ID as string | undefined;
 const vibecafeAuthKey = import.meta.env.PUBLIC_VIBECAFE_AUTH_KEY as string | undefined;
 const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
@@ -299,6 +300,21 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
         src="https://static.cloudflareinsights.com/beacon.min.js"
         data-cf-beacon={JSON.stringify({ token: cfBeaconToken })}
       ></script>
+    )}
+
+    {/*
+      Plausible Analytics (optional) — cookieless and aggregate-only, so like
+      the CF beacon it needs no consent gate. Empty PUBLIC_PLAUSIBLE_SRC =
+      nothing injected. The inline queue stub is Plausible's own snippet.
+    */}
+    {plausibleSrc && (
+      <>
+        <script is:inline async src={plausibleSrc}></script>
+        <script is:inline>
+          window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+          plausible.init()
+        </script>
+      </>
     )}
 
     {/*

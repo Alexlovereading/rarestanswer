@@ -87,8 +87,11 @@ const kicker =
         </dd>
       </div>
       <div class="rounded-lg bg-muted px-2 py-2">
-        <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">
-          {PLAY.best}
+        <dt
+          data-game-best-label
+          class="text-xs font-medium uppercase tracking-wide text-muted-foreground"
+        >
+          {PLAY.maxToday}
         </dt>
         <dd
           data-game-best
@@ -464,7 +467,18 @@ const kicker =
       {PLAY.statsTitle}
     </h2>
     <div class="mt-4 min-h-0 overflow-y-auto">
-      <dl class="grid grid-cols-3 gap-2 text-center">
+      <section
+        data-game-today-round
+        aria-labelledby="ra-today-title"
+        class="rounded-xl border bg-muted/40 p-4"
+      >
+        <h3 id="ra-today-title" class="font-semibold text-foreground">{PLAY.todayRound}</h3>
+        <ol data-game-today-prompts class="mt-3 list-decimal space-y-3 pl-5 text-sm"></ol>
+        <dl data-game-today-summary class="mt-4 grid grid-cols-2 gap-3 border-t pt-3">
+          {PLAY.statsLoading}
+        </dl>
+      </section>
+      <dl data-game-personal-stats class="grid grid-cols-3 gap-2 text-center" hidden>
         <div class="rounded-lg bg-muted px-2 py-3">
           <dt class="text-xs font-medium uppercase tracking-wide text-muted-foreground">
             {PLAY.streak}
@@ -515,30 +529,40 @@ const kicker =
           </dd>
         </div>
       </dl>
-      <figure class="mt-6">
-        <figcaption class="text-sm font-semibold text-foreground">{PLAY.guessChart}</figcaption>
+      <figure data-game-guess-figure class="mt-6">
+        <figcaption data-game-guess-title class="text-sm font-semibold text-foreground">
+          {PLAY.roundChart}
+        </figcaption>
         <svg
           data-game-guess-svg
           class="mt-2 h-44 w-full"
           viewBox="0 0 320 176"
           role="img"
-          aria-label={PLAY.guessChart}></svg>
-        <p data-game-guess-empty class="mt-2 min-h-[1.25rem] text-sm text-muted-foreground" hidden>
-          {PLAY.guessEmpty}
+          aria-label={PLAY.roundChart}></svg>
+        <p
+          data-game-guess-empty
+          class="mt-2 min-h-[2.5rem] text-sm text-muted-foreground"
+          role="status"
+        >
+          {PLAY.tiersLoading}
         </p>
       </figure>
       <figure class="mt-6">
         <figcaption class="text-sm font-semibold text-foreground">{PLAY.scoreChart}</figcaption>
-        <svg
-          data-game-score-svg
-          class="mt-2 h-44 w-full"
-          viewBox="0 0 320 176"
-          role="img"
-          aria-label={PLAY.scoreChart}></svg>
-        <p data-game-score-empty class="mt-2 min-h-[1.25rem] text-sm text-muted-foreground" hidden>
+        <div data-game-score-chart hidden>
+          <svg
+            data-game-score-svg
+            class="mt-2 h-44 w-full"
+            viewBox="0 0 320 176"
+            role="img"
+            aria-label={PLAY.scoreChart}></svg>
+        </div>
+        <p data-game-score-empty class="mt-2 min-h-[1.25rem] text-sm text-muted-foreground">
           {PLAY.scoreEmpty}
         </p>
       </figure>
+      <p data-game-catalog class="mt-5 text-sm text-muted-foreground">{PLAY.statsLoading}</p>
+      <p class="mt-2 text-sm text-muted-foreground">{PLAY.statsLocal}</p>
     </div>
     <button type="button" data-game-stats-close class="btn-primary mt-6 h-11 w-full shrink-0"
       >{PLAY.close}</button
@@ -623,6 +647,12 @@ const kicker =
     display: flex;
     max-height: calc(100dvh - 2rem);
     flex-direction: column;
+  }
+  .ra-dialog[data-game-stats-dialog] {
+    height: min(48rem, calc(100dvh - 2rem));
+  }
+  .ra-dialog [hidden] {
+    display: none !important;
   }
   .ra-shake {
     animation: ra-shake 0.28s ease;

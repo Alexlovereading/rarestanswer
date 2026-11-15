@@ -32,6 +32,13 @@ export function scorePrompt(tier: RoundTier, spotlight: boolean): number {
   return spotlight ? base * 2 : base;
 }
 
+/** Every dealt prompt at the highest tier, with one scored Spotlight. */
+export function maxRoundScore(promptCount: number): number {
+  if (!Number.isFinite(promptCount) || promptCount < 1) return 0;
+  const peak = Math.max(0, ...TIERS.map((row) => row.points));
+  return (Math.floor(promptCount) + 1) * peak;
+}
+
 export interface ScoreState {
   total: number;
   spotlightUsed: boolean;

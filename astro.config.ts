@@ -209,6 +209,22 @@ function readWranglerSiteUrl(): string | undefined {
 
 const siteOrigin = process.env.SITE_URL || readWranglerSiteUrl() || 'https://anvil.wiki';
 
+/** This site deploys by direct upload (`pnpm deploy:cf` builds locally), so
+ *  Cloudflare never injects [vars]. Copy every non-empty PUBLIC_* value from
+ *  wrangler.toml into process.env (real env vars still win) so local builds
+ *  match what a Pages build would see. Empty values stay unset = disabled. */
+function loadWranglerPublicVars(): void {
+  try {
+    const src = fs.readFileSync(new URL('./wrangler.toml', import.meta.url), 'utf8');
+    for (const m of src.matchAll(/^(PUBLIC_[A-Z0-9_]+)\s*=\s*"([^"]+)"/gm)) {
+      if (!process.env[m[1]]) process.env[m[1]] = m[2];
+    }
+  } catch {
+    // No wrangler.toml: nothing to load.
+  }
+}
+loadWranglerPublicVars();
+
 // trailingSlash:'always' makes every generated URL end with "/", but the
 // lookup tables above (lastmodMap / noindexPaths / coverage keys) are built
 // slash-free — normalize once here instead of at every key construction.

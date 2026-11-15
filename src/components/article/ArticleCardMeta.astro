@@ -1,0 +1,46 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  meta: string;
+  readTime?: string;
+  date?: Date;
+}
+const { meta, readTime, date } = Astro.props;
+---
+
+<div class="article-card-meta">
+  {readTime && (
+    <span class="article-card-meta__item">
+      <Icon name="lucide:clock-3" class="article-card-meta__icon" aria-hidden="true" />
+      {readTime}
+    </span>
+  )}
+  <span class="article-card-meta__item">
+    <Icon name="lucide:calendar-days" class="article-card-meta__icon" aria-hidden="true" />
+    {date ? <time datetime={date.toISOString().slice(0, 10)}>{meta}</time> : meta}
+  </span>
+</div>
+
+<style>
+  .article-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    color: hsl(var(--muted-foreground));
+    font-size: 0.8125rem;
+    line-height: 1.5;
+  }
+
+  .article-card-meta__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+  }
+
+  .article-card-meta__item :global(.article-card-meta__icon) {
+    width: 0.875rem;
+    height: 0.875rem;
+    flex-shrink: 0;
+  }
+</style>

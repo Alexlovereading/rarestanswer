@@ -280,7 +280,13 @@ describe('rewriteWranglerVars is value-aware (a re-run must not wipe the user en
       (m) => m[2],
     );
     expect(values).toContain('https://rarestanswer.xyz');
-    const allowed = new Set(['', 'pathname', 'https://rarestanswer.xyz']);
+    // Plausible is this site's own cookieless analytics script (not a demo value).
+    const allowed = new Set([
+      '',
+      'pathname',
+      'https://rarestanswer.xyz',
+      'https://plausible.io/js/pa-jGVDCe_47QOLAY8mGpGII.js',
+    ]);
     for (const v of values) {
       expect(DEMO_VAR_VALUES.includes(v), `demo value still shipped: "${v}"`).toBe(false);
       expect(allowed.has(v), `unexpected wrangler value: "${v}"`).toBe(true);
