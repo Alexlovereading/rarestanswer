@@ -19,9 +19,7 @@ import { UNLIMITED } from '~/lib/game/copy';
 import {
   CATEGORY_PAGE_LIST,
   LOBBY,
-  COMPARE_LINKS,
   GUIDE_LINKS,
-  UNLIMITED_COMPARE,
   UNLIMITED_TIPS,
   loadCatalog,
   measureCopy,
@@ -40,15 +38,26 @@ const rarityBody = measureCopy(
   catalog.map((entry) => entry.source),
   'No prompts are loaded, so this page has no view count to quote.',
 );
-const faq = unlimitedFaq();
+const pageTitle = 'Rarest Answer Unlimited: A Krillion Unlimited Alternative';
+const pageDescription =
+  'Extra Rarest Answer rounds with no daily lock. A new set on every start, same tiers and Spotlight, scored by Wikipedia pageviews.';
+if (pageTitle.length > 60) {
+  throw new Error(`Unlimited title is ${pageTitle.length} characters before any suffix`);
+}
+if (UNLIMITED.title.length < 1 || UNLIMITED.h1.length < 1) {
+  throw new Error('Unlimited labels are missing');
+}
+const faq = unlimitedFaq().filter(
+  (item) => !`${item.question} ${item.answer}`.toLowerCase().includes('krillion unlimited'),
+);
 const jsonLd: Record<string, unknown>[] = [
   videoGameJsonLd({
-    name: UNLIMITED.h1,
-    description: UNLIMITED.intro,
+    name: pageTitle,
+    description: pageDescription,
     url: absoluteUrl('/unlimited/', locale),
   }),
   simpleBreadcrumbJsonLd({
-    pageLabel: UNLIMITED.h1,
+    pageLabel: pageTitle,
     path,
     locale,
     homeLabel: 'Home',
@@ -65,13 +74,13 @@ const links = [
 
 <LocaleLayout
   locale={locale}
-  title={UNLIMITED.title}
-  description={UNLIMITED.description}
+  title={pageTitle}
+  description={pageDescription}
   alternates={alternates}
   jsonLd={jsonLd}
   fullBleed
 >
-  <LobbyHero kicker={UNLIMITED.kicker} title={UNLIMITED.h1} lead={LOBBY.unlimitedLead}>
+  <LobbyHero kicker={UNLIMITED.kicker} title={pageTitle} lead={LOBBY.unlimitedLead}>
     <GameApp mode="unlimited">
       <a slot="end" class="btn-outline flex h-12 w-full items-center justify-center" href="/">
         Back to the daily
@@ -88,10 +97,17 @@ const links = [
     <div data-pagefind-body class="reading-grid">
       <section class="reading-card" id="what">
         <h2 class="text-2xl font-bold tracking-tight text-foreground">What unlimited play is</h2>
-        <p class="mt-3 text-foreground">{UNLIMITED.intro}</p>
+        <p class="mt-3 text-foreground">
+          The daily round is once per local date. This page deals a new set each time you start,
+          with the same tiers, the same clock, and one Spotlight, and it does not move the streak.
+        </p>
         <p class="mt-3 text-foreground">
           Category pages do the same thing inside one topic. Geography, animals, food, sports,
           movies and TV, music, science, and history each have a page.
+        </p>
+        <p class="mt-3 text-foreground">
+          Rarest Answer Unlimited is scored from public rankings of Wikipedia pageviews, and it is
+          not <a class="text-nav underline underline-offset-2" href="/games/krillion/">Krillion Unlimited</a>.
         </p>
       </section>
 
@@ -118,23 +134,6 @@ const links = [
         </ul>
       </section>
 
-      <section class="reading-card" id="compare">
-        <h2 class="text-2xl font-bold tracking-tight text-foreground">
-          Krillion unlimited is a different game
-        </h2>
-        <p class="mt-3 text-foreground">{UNLIMITED_COMPARE}</p>
-        <ul class="mt-4 list-disc space-y-2 pl-5">
-          {
-            COMPARE_LINKS.map((link) => (
-              <li>
-                <a class="text-nav underline underline-offset-2" href={link.href}>
-                  {link.label}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </section>
     </div>
     <RelatedLinks title="Keep playing" links={links} />
     <GameFaq title="Unlimited round questions" items={faq} />

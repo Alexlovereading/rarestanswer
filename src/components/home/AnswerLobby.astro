@@ -4,7 +4,6 @@ import { Icon } from 'astro-icon/components';
 import CategoryArt from '~/components/art/CategoryArt.astro';
 import TierChip from '~/components/answers/TierChip.astro';
 import {
-  HUB_TITLE,
   categoriesIn,
   categoryLabel,
   hubIntro,
@@ -20,6 +19,7 @@ interface Props {
 }
 const { prompts } = Astro.props;
 const ui = getUi(defaultLocale);
+const hubHeading = 'Rare answers for every prompt';
 const groups = categoriesIn(prompts).map((category) => ({
   category,
   label: categoryLabel(category),
@@ -35,7 +35,7 @@ const groups = categoriesIn(prompts).map((category) => ({
       ><span class="text-foreground" aria-current="page">{ui.nav.rarestAnswers}</span>
     </nav>
     <p class="eyebrow vault-kicker">{LOBBY.browseKicker}</p>
-    <h1 data-pagefind-meta={`title:${HUB_TITLE}`}>{HUB_TITLE}</h1>
+    <h1 data-pagefind-meta={`title:${hubHeading}`}>{hubHeading}</h1>
     <p class="vault-intro">{hubIntro(prompts)}</p>
     {
       groups.length > 1 && (

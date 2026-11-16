@@ -19,7 +19,11 @@ import { languageAlternates, localizePath } from '~/lib/url';
 
 const prompts = getPrompts();
 const ui = getUi(defaultLocale);
-const description = hubDescription(prompts);
+const answerCount = prompts.reduce((sum, prompt) => sum + prompt.answers.length, 0);
+const description =
+  prompts.length === 0
+    ? hubDescription(prompts)
+    : `Rarest answers for ${prompts.length} prompts and ${answerCount.toLocaleString('en-US')} accepted names. Each card shows the least-viewed Wikipedia or Wiktionary article in that set, not what players typed.`;
 const alternates = languageAlternates(() => HUB_PATH, locales);
 const list = urlListJsonLd({
   name: HUB_TITLE,

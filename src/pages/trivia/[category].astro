@@ -18,14 +18,13 @@ import HowToStrip from '~/components/home/HowToStrip.astro';
 import SpotlightStrip from '~/components/home/SpotlightStrip.astro';
 import NovaCta from '~/components/home/NovaCta.astro';
 import {
-  categoryCompare,
   categoryPage,
   categoryTips,
   CATEGORY_PAGE_LIST,
-  COMPARE_LINKS,
   GUIDE_LINKS,
   loadCatalog,
   measureCopy,
+  NEIGHBOR_CLOSE,
   promptSectionTitle,
   promptsFor,
   type CatalogPrompt,
@@ -86,6 +85,7 @@ if (prompts.length > 0) {
     }),
   );
 }
+const linkClass = 'text-nav underline underline-offset-2';
 const links = [
   { href: '/', label: "Play today's daily" },
   { href: '/unlimited/', label: 'Rarest Answer game unlimited' },
@@ -94,7 +94,7 @@ const links = [
     label: other.h1,
   })),
   { href: '/rarest-answers/', label: 'Rarest answers' },
-  { href: '/games/', label: 'Games like Krillion' },
+  { href: '/games/', label: 'Daily trivia games' },
   { href: '/guides/', label: 'Rarest Answer guides' },
   { href: '/guides/how-to-find-rare-answers/', label: 'How to find rare answers' },
 ];
@@ -136,6 +136,26 @@ const links = [
     <SpotlightStrip catalog={catalog} />
     <CategoryPrompts page={page} prompts={prompts} />
     <div data-pagefind-body class="reading-grid">
+      {
+        page.neighbor && (
+          <section class="reading-card" id="neighbor">
+            <h2 class="text-2xl font-bold tracking-tight text-foreground">
+              {page.neighbor.heading}
+            </h2>
+            {[...page.neighbor.paragraphs, NEIGHBOR_CLOSE].map((paragraph) => (
+              <p class="mt-3 text-foreground">
+                {paragraph.map((part) =>
+                  part.href ? (
+                    <a class={linkClass} href={part.href} set:text={part.text} />
+                  ) : (
+                    part.text
+                  ),
+                )}
+              </p>
+            ))}
+          </section>
+        )
+      }
       <section class="reading-card">
         <h2 class="text-2xl font-bold tracking-tight text-foreground">
           What {page.keyword} is here
@@ -154,22 +174,6 @@ const links = [
         <ul class="mt-4 list-disc space-y-2 pl-5">
           {
             GUIDE_LINKS.map((link) => (
-              <li>
-                <a class="text-nav underline underline-offset-2" href={link.href}>
-                  {link.label}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </section>
-
-      <section class="reading-card" id="compare">
-        <h2 class="text-2xl font-bold tracking-tight text-foreground">Not a Krillion mode</h2>
-        <p class="mt-3 text-foreground">{categoryCompare(page.h1)}</p>
-        <ul class="mt-4 list-disc space-y-2 pl-5">
-          {
-            COMPARE_LINKS.map((link) => (
               <li>
                 <a class="text-nav underline underline-offset-2" href={link.href}>
                   {link.label}

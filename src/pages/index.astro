@@ -95,11 +95,24 @@ const links = [
     <div data-pagefind-body class="reading-grid">
       <section id="what" class="reading-card">
         <h2 class="text-2xl font-bold tracking-tight text-foreground">
-          What is the Rarest Answer game?
+          What is a rare answer game?
         </h2>
         <p class="mt-3 text-foreground">{site.description}</p>
         <p class="mt-3 text-foreground">{HOME.intro}</p>
-        {HOME_WHAT.map((paragraph) => <p class="mt-3 text-foreground">{paragraph}</p>)}
+        <p class="mt-3 text-foreground">
+          It is a niche answer game: ordinary trivia prompts, with more points for a correct name
+          whose article is viewed less. A rare answers game still accepts the famous name. That
+          name is the low tier.
+        </p>
+        {HOME_WHAT[1] && <p class="mt-3 text-foreground">{HOME_WHAT[1]}</p>}
+        <h2 class="mt-8 text-2xl font-bold tracking-tight text-foreground">
+          What is a game where you try to get the rarest answer?
+        </h2>
+        <p class="mt-3 text-foreground">
+          Rarest Answer is a guess the rarest answer game you play in the browser. A prompt accepts
+          many correct names. The least-viewed article in that set scores the most. A familiar
+          correct name still scores, only fewer points.
+        </p>
         <p class="mt-3 text-foreground">
           The full rules are on
           <a
@@ -152,7 +165,7 @@ const links = [
         <p class="mt-3 text-foreground">{HOME_COMPARE}</p>
         <ul class="mt-4 list-disc space-y-2 pl-5">
           {
-            COMPARE_LINKS.map((link) => (
+            COMPARE_LINKS.filter((link) => link.href !== '/games/krillion/').map((link) => (
               <li>
                 <a class="text-nav underline underline-offset-2" href={link.href}>
                   {link.label}
@@ -161,6 +174,31 @@ const links = [
             ))
           }
         </ul>
+      </section>
+
+      <section class="reading-card" id="like-krillion">
+        <h2 class="text-2xl font-bold tracking-tight text-foreground">
+          Like One in a Krillion? Try Rarest Answer
+        </h2>
+        <p class="mt-3 text-foreground">
+          On 16 November 2026, three separate sites were live: krillion.to, published by AFK LLC,
+          plus krillion.io and krillion.org. The AFK LLC site is free daily trivia: seven typed
+          answers, 25 seconds to type each one, editor-assigned score tiers, and three free games a
+          day. The third site states that it is not affiliated with the second.
+        </p>
+        <p class="mt-3 text-foreground">
+          Rarest Answer scores a correct name by how rarely its Wikipedia article is viewed, and it
+          publishes the
+          <a class="text-nav underline underline-offset-2" href="/rarest-answers/">
+            ranking for every prompt
+          </a>. You can play a daily round, an
+          <a class="text-nav underline underline-offset-2" href="/unlimited/">unlimited round</a>, or
+          one category.
+        </p>
+        <p class="mt-3 text-foreground">
+          Rarest Answer is not Krillion and is not affiliated with it. Notes from that check are in
+          the <a class="text-nav underline underline-offset-2" href="/games/krillion/">Krillion game guide</a>.
+        </p>
       </section>
     </div>
     <RelatedLinks id="more-ways" title="More ways to play" links={links} />

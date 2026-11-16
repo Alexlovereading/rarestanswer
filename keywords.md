@@ -1,9 +1,39 @@
 # Rarest Answer（rarestanswer.xyz）关键词清单
 
-更新：2026-11-15。数据来源：线上同版构建产物 `dist/` 中每个页面的 `<title>`、H1、meta description，以及建站时的关键词映射（`docs/rarest-plan.md` §1，已按 GEO 审查后的页面合并更新）。
+更新：2026-11-16。数据来源：线上同版构建产物 `dist/` 中每个页面的 `<title>`、H1、meta description 与正文；点击量来自你提供的 krillion.org / krillion.to 关键词截图（每月自然点击）与 Ahrefs、Google Trends 数据。
 
-## 一、核心目标关键词 → 承接页面
+## 一、竞品流量词覆盖表（2026-11-16）
 
+「出现」= 该词在页面正文中的次数；「位置」= 是否出现在 title / H1 / description。只列最主要的承接页。
+
+| 关键词 | 每月点击 | 主要承接页（正文次数，位置） |
+|---|---|---|
+| one in a krillion | 980.3K | /games/krillion/（7次，H1/title）；/games/one-in-a-million-game/（3次）；/games/jinxed-game/（2次）；/games/majority-game/（2次） |
+| krillion game | 200.3K | /games/krillion/（2次，H1/title）；/games/jinxed-game/（2次）；/games/majority-game/（2次）；/games/ball-knowledge-game/（1次） |
+| krillion | 138.5K | /games/krillion/（104次，H1/desc/title）；/games/games-like-krillion/（33次，H1/title）；/unlimited/（3次，H1/title）；/trivia/geography/（7次，desc） |
+| 1 in a krillion | 39.9K | /games/krillion/（1次） |
+| one in krillion | 15K | /games/krillion/（1次） |
+| the krillion | 13.7K | /games/games-like-krillion/（3次）；/games/one-in-a-million-game/（2次）；/games/cosmillion/（1次）；/games/deep-dive-game/（1次） |
+| one in a kirllion | 13.4K | /games/krillion/（1次） |
+| rare answer game | 12.6K | /（1次，desc） |
+| rarest answer game | 10.1K | /（5次，H1/desc/title）；/guides/rarest-answer-game-for-classrooms/（3次，H1/desc/title）；/trivia/food/（4次，desc/title）；/trivia/animals/（3次，desc/title） |
+| one krillion | 9.6K | /games/krillion/（1次） |
+| rare answers game | 6.5K | /guides/how-to-find-rare-answers/（1次）；/（1次） |
+| krillion unlimited | 5K | /unlimited/（2次，H1/title）；/games/krillion/（1次） |
+| on in a krillion | 4.4K | /games/krillion/（1次） |
+| krillion geography | 115.3K | /trivia/geography/（1次，desc） |
+| sports krillion / krillion sports | 35.7K / 29.6K | /trivia/sports/（1次，desc） |
+| krillion movies | 5.9K | /trivia/screen/（0次，desc） |
+| krillion pop culture | 620 | /trivia/music/（1次，desc） |
+| niche answer game | 3.7K | /（1次） |
+| rare answers | 3.4K | /games/jinxed-game/（3次，H1/title）；/（7次，desc）；/guides/（1次，desc）；/rarest-answers/（1次，H1） |
+| when does krillion reset | 570 | /games/krillion/（5次） |
+| krillion free | 1.7K | /games/krillion/（5次） |
+| krillion 1v1 / multiplayer | 4.2K | /games/krillion/（9次）；/games/jinxed-game/（3次）；/guides/rarest-answer-party-ideas/（3次）；/guides/best-daily-trivia-games/（2次） |
+
+> 拼写变体（one in krillion、one krillion、one in a kirllion、on in a krillion）只在 `/games/krillion/` 的「Spelling help」框中各出现一次，避免关键词堆砌。分类页的 Krillion 对照段落控制在每页 7 次以内，并写明本站与 Krillion 无关联。
+
+## 二、核心目标关键词 → 承接页面（建站初始映射）
 搜索量为你提供的 Ahrefs 截图数据；趋势词来自 Google Trends 上升词 CSV（Breakout）。
 
 | 关键词 | 搜索量/趋势 | 承接页面 |
@@ -39,23 +69,23 @@
 
 > 已合并的页面（301 跳转）：`/guides/krillion-vs-rarest-answer/`、`/guides/one-in-a-krillion-strategy/` → `/games/krillion/`；`/guides/rarest-answer-strategy/` → `/guides/how-to-find-rare-answers/`；`/guides/how-scoring-works-in-rarest-answer-games/` → `/guides/how-to-play-rarest-answer/`。
 
-## 二、游戏与玩法页
+## 三、游戏与玩法页
 
 | URL | Title | H1 | Meta description |
 |---|---|---|---|
 | / | Rarest Answer Game — Guess the Rarest Answer | Rarest Answer Game — Guess the Rarest Answer | Guess the rarest answer in the Rarest Answer game. Free daily games and trivia where the rarest answer wins. A rare answer game for finding rare answers. |
-| /rarest-answers/ | Rarest Answers — Every Prompt's Rarest Answer | Rarest Answers — Every Prompt's Rarest Answer | Rarest answers for 276 prompts. Each card’s rarest name has the fewest Wikipedia views, last 12 months, or Wiktionary views, last 12 months, in that set. |
+| /rarest-answers/ | Rarest Answers — Every Prompt's Rarest Answer | Rare answers for every prompt | Rarest answers for 276 prompts and 23,125 accepted names. Each card shows the least-viewed Wikipedia or Wiktionary article in that set, not what players typed. |
 | /trivia/animals/ | Animal Trivia — Rarest Answer Game | Animal Trivia | Animal trivia for the Rarest Answer game. Name a species, including a great ape. The rarest correct answer scores the most. Free rounds, no account. |
 | /trivia/food/ | Food Trivia — Rarest Answer Game | Food Trivia | Food trivia for the Rarest Answer game. Name a dish, ingredient, or cuisine. The rarest correct answer scores the most. Free rounds, no account. |
-| /trivia/geography/ | Geography Trivia — Rarest Answer Game | Geography Trivia | Geography trivia for the Rarest Answer game. Name a country, capital, river, or coast. The rarest correct answer scores the most. Free rounds, no account. |
+| /trivia/geography/ | Geography Trivia: Rarest Answer Game | Geography Trivia | Geography trivia for Rarest Answer. Searched Krillion Geography? Name a country or capital. The rarest answer scores the most. Free daily and unlimited rounds. |
 | /trivia/history/ | History Trivia — Rarest Answer Game | History Trivia | History trivia for the Rarest Answer game. Name a person, an event, or a place. The rarest correct answer scores the most. Free rounds, no account. |
-| /trivia/music/ | Music Trivia — Rarest Answer Game | Music Trivia | Music trivia for the Rarest Answer game. Name a song, an artist, an album, or an instrument. The rarest correct answer scores the most. Free rounds. |
+| /trivia/music/ | Music Trivia: Rarest Answer Game | Music Trivia | Music trivia for Rarest Answer. Searched Krillion pop culture? Name a song, an artist, or an instrument. The rarest correct answer scores most. Free rounds. |
 | /trivia/science/ | Science Trivia — Rarest Answer Game | Science Trivia | Science trivia for the Rarest Answer game. Name an element, a body, a unit, or a scientist. The rarest correct answer scores the most. Free rounds. |
-| /trivia/screen/ | Movie Trivia and TV Trivia — Rarest Answer Game | Movie and TV Trivia | Movie trivia and TV trivia for the Rarest Answer game. Name a film, a show, or a character. The rarest correct answer scores the most. Free rounds. |
-| /trivia/sports/ | Sports Trivia — Rarest Answer Game | Sports Trivia | Sports trivia for the Rarest Answer game. Name a team, athlete, venue, or event. The rarest correct answer scores the most. Free rounds, no account. |
-| /unlimited/ | Rarest Answer Game Unlimited | Rarest Answer Game Unlimited | Play the Rarest Answer game unlimited. Searching for Krillion unlimited? Start a free round anytime, with the same scoring and no daily lock. |
+| /trivia/screen/ | Movie Trivia: Rarest Answer Game | Movie and TV Trivia | Movie trivia for the Rarest Answer game. Searched Krillion movies? Name a film, show, or character. The rarest correct answer scores the most. Free rounds. |
+| /trivia/sports/ | Sports Trivia: Rarest Answer Game | Sports Trivia | Sports trivia for Rarest Answer. Searched Krillion Sports? Name a team or athlete. The rarest correct answer scores the most. Free daily and unlimited rounds. |
+| /unlimited/ | Rarest Answer Unlimited: A Krillion Unlimited Alternative | Rarest Answer Unlimited: A Krillion Unlimited Alternative | Extra Rarest Answer rounds with no daily lock. A new set on every start, same tiers and Spotlight, scored by Wikipedia pageviews. |
 
-## 三、类似游戏页（/games/）
+## 四、类似游戏页（/games/）
 
 | URL | Title | H1 | Meta description |
 |---|---|---|---|
@@ -65,46 +95,47 @@
 | /games/dartle-game/ | Dartle Game: Hit Exactly 100 — Rarest Answer | Dartle Game: Hit Exactly 100 | How the Dartle game works: one daily category, up to three answers, and a total that has to land on exactly 100. |
 | /games/deep-dive-game/ | Deep Dive Game: Which One You Actually Found — Rarest Answer | Deep Dive Game: Which One You Actually Found | What a Deep Dive game search finds: a browser trivia page, an older arcade diver, and several games that only use the words. |
 | /games/farflung-game/ | Farflung Game: Pin a Country and Go Further — Rarest Answer | Farflung Game: Pin a Country and Go Further | How the Farflung game works: five geography prompts a day, one country pin each, and rarer correct answers travel further. |
-| /games/games-like-krillion/ | Games Like Krillion — Rarest Answer | Games Like Krillion | Daily games that pay more for a less obvious correct answer, including this site, plus neighbours with a different task. |
+| /games/games-like-krillion/ | Games Like Krillion — Rarest Answer | Games Like Krillion | Daily games that pay more for a less obvious correct answer, including this site, plus neighbours with a different task. Themed category rounds are linked too. |
 | /games/games-like-wordle/ | Games Like Wordle — Rarest Answer | Games Like Wordle | Short once-a-day puzzles in the Wordle habit: a hidden word, a grid, or a rare correct answer instead. |
 | /games/ | Games Like Krillion & Other Daily Trivia Games — Rarest Answer | Games Like Krillion & Other Daily Trivia Games | Unofficial pages about games like Krillion and other daily trivia games, and how they sit next to Rarest Answer. |
 | /games/jinxed-game/ | Jinxed Game: Rare Answers, Split If You Match — Rarest Answer | Jinxed Game: Rare Answers, Split If You Match | How the Jinxed game works: type many fitting answers, score the rare ones, and split the points if you match a friend. |
-| /games/krillion/ | Krillion: How the Daily Dive Works — Rarest Answer | Krillion: How the Daily Dive Works | An unofficial guide to the daily dive at krillion.io: seven prompts, how the top gem is chosen, and how this site differs. |
+| /games/krillion/ | Krillion Game (One in a Krillion): How the Daily Dive Works — Rarest Answer | Krillion Game (One in a Krillion): How the Daily Dive Works | Unofficial notes on the daily dive at krillion.io, checked 16 November 2026, and how that site's rarity differs from Wikipedia pageviews here. |
 | /games/majority-game/ | Majority Game: Guess What Everyone Typed — Rarest Answer | Majority Game: Guess What Everyone Typed | How the Majority game works: five fresh questions a day, and you score by typing the answer most people typed. |
 | /games/one-in-a-million-game/ | One in a Million Game: What That Search Finds — Rarest Answer | One in a Million Game: What That Search Finds | What a One in a Million game search finds: a 1967 TV show, an English idiom, and no verified daily trivia game by that title. |
 | /games/seldom-game/ | Seldom Game: How the Lower Score Wins — Rarest Answer | Seldom Game: How the Lower Score Wins | How the Seldom game works: one shared question a day, five guesses, and a lower score when the answer is rarer. |
 | /games/size-it-up-game/ | Size It Up Game: Guess the Real-World Scale — Rarest Answer | Size It Up Game: Guess the Real-World Scale | How the Size It Up game works: resize a silhouette against a known object across five daily rounds, with no timer. |
-| /games/trivia-games-like-sporcle/ | Trivia Games Like Sporcle — Rarest Answer | Trivia Games Like Sporcle | Trivia games like Sporcle whose pages opened on 14 November 2026, kept apart from rarest-answer dailies and map pins. |
+| /games/trivia-games-like-sporcle/ | Trivia Games Like Sporcle — Rarest Answer | Trivia Games Like Sporcle | Trivia games like Sporcle, opened again on 15 November 2026 and kept apart from rarest-answer dailies and map pins. |
 | /games/wonderhop/ | Wonderhop: Four Daily Games, One Shared Day — Rarest Answer | Wonderhop: Four Daily Games, One Shared Day | How Wonderhop works: four free daily games where you name the common answer, the rarest, the oldest, or the newest. |
 
-## 四、攻略页（/guides/）
+## 五、攻略页（/guides/）
 
 | URL | Title | H1 | Meta description |
 |---|---|---|---|
 | /guides/best-daily-trivia-games/ | Daily Trivia Games Worth a Streak — Rarest Answer | Daily Trivia Games Worth a Streak | Wordle-style dailies, geography puzzles, and trivia libraries. Every URL in this roundup was checked before it was listed. |
-| /guides/best-unlimited-trivia-games/ | Best Unlimited Trivia Games — Rarest Answer | Best Unlimited Trivia Games | Best unlimited trivia games you can reopen without waiting for midnight. Every site below answered on 14 November 2026. |
-| /guides/how-to-find-rare-answers/ | How to Find a Rare Answer — Rarest Answer | How to Find a Rare Answer | Skip the famous legal name, then submit a more specific one you can explain. The great-ape list shows how that choice changes the score. |
-| /guides/how-to-play-rarest-answer/ | How to Play Rarest Answer | How to Play Rarest Answer | A daily round deals up to seven shared prompts. Correct answers score 5 to 100 by tier. One Spotlight can double a single scored prompt. |
+| /guides/best-unlimited-trivia-games/ | Best Unlimited Trivia Games — Rarest Answer | Best Unlimited Trivia Games | Best unlimited trivia games you can reopen without waiting for midnight. Access lines were checked again on 15 November 2026. |
+| /guides/how-to-find-rare-answers/ | How to Find a Rare Answer — Rarest Answer | How to Find a Rare Answer | Skip the famous legal name, then submit a more specific one you can explain. The great-ape list shows how that choice changes the score. Tiers follow pageviews. |
+| /guides/how-to-play-rarest-answer/ | How to Play Rarest Answer | How to Play Rarest Answer | A daily round deals up to seven shared prompts. Correct answers score 5 to 100 by tier. One Spotlight can double a single scored prompt. No account. |
 | /guides/ | Rarest Answer Guides & Strategy | Rarest Answer Guides & Strategy | Rarest Answer guides and strategy: how to play the daily trivia game and how to find rare answers. |
 | /guides/rarest-answer-game-for-classrooms/ | Rarest Answer Game for Classrooms | Rarest Answer Game for Classrooms | How teachers can use the rarest answer game in class: no account, a timer you can switch off, and the privacy line on children. |
 | /guides/rarest-answer-game-tips-geography/ | Geography Tips for Rarest Answer | Geography Tips for Rarest Answer | Skip the famous place on a geography prompt and stay inside the set the question named. A map quiz does not rank those places by rarity. |
 | /guides/rarest-answer-party-ideas/ | Rarest Answer Party Ideas | Rarest Answer Party Ideas | Rarest Answer party ideas that use the browser game: one shared daily, a spoiler-free share grid, and house rules that are not features. |
-| /guides/rarest-answer-party-roblox/ | Rarest Answer Party Roblox: Rules and a Snapshot | Rarest Answer Party Roblox: Rules and a Snapshot | Rarest Answer Party Roblox, by Torrey Pines: the official description, plus a 14 November 2026 snapshot from the games API. |
+| /guides/rarest-answer-party-roblox/ | Rarest Answer Party Roblox: Rules and a Snapshot | Rarest Answer Party Roblox: Rules and a Snapshot | Rarest Answer Party Roblox, by Torrey Pines: the official description, plus a 15 November 2026 snapshot from the games API. |
 | /guides/rarest-answers-animals/ | Rarest Answers for Animal Prompts | Rarest Answers for Animal Prompts | Rarest answers on animal prompts, using the published great-ape list. A specific species beats the headline name. |
 | /guides/stranger-things-characters-trivia/ | Stranger Things Characters Trivia — Rarest Answer | Stranger Things Characters Trivia | Stranger Things characters on the scored list: 129 names ranked by Wikipedia pageviews. Eddie Munson is Common. |
 
-## 五、站点信息页
+## 六、站点信息页
 
 | URL | Title | H1 | Meta description |
 |---|---|---|---|
-| /about/ | About — Rarest Answer | About | Who runs Rarest Answer, how answer lists and guides are made, and what this independent trivia site does not claim. |
+| /about/ | About — Rarest Answer | About | Rarest Answer on rarestanswer.xyz: a free daily trivia game with public answer rankings for every prompt, scored by Wikipedia pageviews, set in a star-observatory world. |
 | /contact/ | Contact — Rarest Answer | Contact | Email contact@rarestanswer.xyz. Rarest Answer is a free browser trivia game with no account. |
 | /copyright/ | Copyright — Rarest Answer | Copyright | Copyright for Rarest Answer: original text, the MIT software license, Wikidata (CC0), and Wikipedia pageviews. |
+| /data-updates/ | Data updates & corrections — Rarest Answer | Data updates & corrections | Data updates and corrections for Rarest Answer. This build publishes 276 prompts. Rankings use Wikipedia or Wiktionary pageviews. Report a wrong answer by email. |
 | /faq/ | FAQ — Rarest Answer | FAQ | How Rarest Answer works: daily rounds, localStorage stats, Wikidata and Wikipedia data, and no affiliation with Krillion. |
 | /privacy-policy/ | Privacy Policy — Rarest Answer | Privacy Policy | Privacy policy for Rarest Answer: localStorage stats, no account, Wikidata and Wikipedia data, and optional analytics, ads, and comments. |
 | /terms-of-service/ | Terms of Service — Rarest Answer | Terms of Service | Terms for Rarest Answer, a free browser trivia game. No account, and no affiliation with Krillion or other games named here. |
 
-## 六、答案页（/answers/，共 276 个）
+## 七、答案页（/answers/，共 276 个）
 
 每页的主关键词形式为「rarest + 题目名词」，例如 rarest species of great ape、rarest NBA team；长尾词为「题目名词 + list / answers / ranked」。
 
@@ -386,4 +417,3 @@
 | 历史 | /answers/us-vice-presidents/ | Rarest Vice President of the United States — All 50 Answers Ranked by Rarity — Rarest Answer |
 | 历史 | /answers/world-wonders/ | Rarest Wonder of the Ancient World, the New 7 Wonders, or the New 7 Wonders of Nature — All 21 Answers Ranked by Rarity — Rarest Answer |
 | 历史 | /answers/writing-systems/ | Rarest Writing System — All 160 Answers Ranked by Rarity — Rarest Answer |
-

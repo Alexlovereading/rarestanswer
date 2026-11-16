@@ -1140,3 +1140,184 @@ Edited `scripts/build-prompts.ts`, `scripts/data/prompt-defs.ts`, `scripts/data/
 Rebuild: 276 prompts, 23,125 answers (was 23,132). 122 answers are noData. Zero answers have `0 < popularity <= 1`. Stranger Things is 122 answers (was 129): 7 same-actor short/full pairs merged (Troy Walsh alias Troy, and the six pairs in the audit), 23 verified wiki titles, 99 noData. Troy the city and Alaska are not linked. Eleven stays `Eleven (Stranger Things)`. Tina and Tina Turnbow stay separate. The other 23 noData rows are the former popularity-0 answers in 14 prompts (listed in the audit), including Pastasciutta antifascista, whose article returned HTTP 200 with 0 views and is therefore not used as a rarity signal.
 
 `pnpm lint` passed. `pnpm typecheck` passed with 0 errors/warnings/hints (existing missing tutorials-directory glob warning). `pnpm test` 26 files, 497 passed, 11 skipped. `pnpm exec astro build --outDir /tmp/k1-dist` completed, 332 pages. K2 and K3 built before these flags were in the prompt files; a later build of their pages will see `noData`. K5's `/data-updates/` heading match is `15 November 2026` in `docs/rarest-data-audit.md`.
+
+## L1-HOME-GENERIC done
+
+Copy only. No layout rewrite, no new routes, no FAQPage schema, no Krillion claims, no misspelling variants, no git state changes, no server started.
+
+Built HTML (`/tmp/l1-home-generic-dist`, 332 pages):
+
+| Page | Title | H1 | Meta description |
+| --- | --- | --- | --- |
+| `/` | Rarest Answer Game — Guess the Rarest Answer (44) | same as title | Guess the rarest answer in the Rarest Answer game. Free daily games and trivia where the rarest answer wins. A rare answer game for finding rare answers. (153) |
+| `/rarest-answers/` | Rarest Answers — Every Prompt's Rarest Answer (45) | Rare answers for every prompt (29) | Rarest answers for 276 prompts and 23,125 accepted names. Each card shows the least-viewed Wikipedia or Wiktionary article in that set, not what players typed. (159) |
+| `/guides/how-to-play-rarest-answer/` | How to Play Rarest Answer (25) | same as title | A daily round deals up to seven shared prompts. Correct answers score 5 to 100 by tier. One Spotlight can double a single scored prompt. No account. (148) |
+| `/guides/how-to-find-rare-answers/` | How to Find a Rare Answer — Rarest Answer (41) | How to Find a Rare Answer (25) | Skip the famous legal name, then submit a more specific one you can explain. The great-ape list shows how that choice changes the score. Tiers follow pageviews. (160) |
+
+Keyword landing (one natural use each, unless noted):
+
+- rarest answer game: kept as the home title and H1. Already in the existing meta description. Not added again in the explainer.
+- rare answer game: home H2 "What is a rare answer game?" plus the existing meta description (og/twitter repeat that same description).
+- niche answer game: one sentence in the home explainer under that H2.
+- rare answers game: the next sentence in that same explainer.
+- guess the rarest answer game: one sentence answering the visible question below.
+- "game where you try to get the rarest answer": visible H2 on `/`, not inside the collapsed FAQ and not in FAQPage JSON-LD (none on these four pages).
+- rare answers: `/rarest-answers/` H1 "Rare answers for every prompt". Title stays "Rarest Answers — …". Pagefind title matches the H1.
+- niche naming game and name rare answers: one sentence in the how-to-play opening. "name rare answers game" is not forced as a separate string.
+- rare answers game: one sentence at the start of how-to-find. The guide's great-ape focus is unchanged.
+
+The brand sentence still opens the home explainer. The H2 above it is now "What is a rare answer game?". Counts in the hub description are from the prompt files at build time (276 prompts, 23,125 accepted names). Guide `lastModified` is 2026-11-16.
+
+`pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 26 files, 497 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/l1-home-generic-dist` completed, 332 pages.
+
+## L2-CATEGORY-PAGES done
+
+Edited only `src/pages/trivia/[category].astro`, `src/lib/game/category-copy.ts`, new `docs/krillion-variants-2026-11-16.md`, and this append. No locale keys. No git state changes. The preview server on 127.0.0.1:8791 was stopped. Animals, food, science, and history titles and copy are unchanged.
+
+Checked in a browser on 16 November 2026. Three sites use the name and are not written up as one product. krillion.to is published by AFK LLC (legal notice dated that day). krillion.io’s FAQ still names one person, kp. krillion.org says it is independently operated and not affiliated with krillion.io. No round was played. Full URLs and rules are in the variants note. krillion.to has Geography, Sports, and Movies modes (7 questions, 25 seconds, rarer accepted answers score more; free play is 3 games a day). krillion.io’s packs page lists Geography (30 expeditions), Sports (30 games), and At the Movies (30 pictures), marked free for now and in beta, and Music as coming soon (`/music` was a 404). krillion.org has seven-question geography, sports (The Deep Bench), and movies (At the Movies) screens, plus a music screen (The Deep Cut, 7 questions, 20 seconds). krillion.to has no music page (404); music sits in Endless Pop, 319 games.
+
+Built HTML (`/tmp/L2-CATEGORY-PAGES-dist`, 332 pages). Titles are the document titles (no suffix). Descriptions are 140–160 characters. The prompt list and the older intro on each page are still there.
+
+| Page | Title | H1 | Meta description |
+| --- | --- | --- | --- |
+| `/trivia/geography/` | Geography Trivia: Rarest Answer Game (36) | Geography Trivia | Geography trivia for Rarest Answer. Searched Krillion Geography? Name a country or capital. The rarest answer scores the most. Free daily and unlimited rounds. (159) |
+| `/trivia/sports/` | Sports Trivia: Rarest Answer Game (33) | Sports Trivia | Sports trivia for Rarest Answer. Searched Krillion Sports? Name a team or athlete. The rarest correct answer scores the most. Free daily and unlimited rounds. (158) |
+| `/trivia/screen/` | Movie Trivia: Rarest Answer Game (32) | Movie and TV Trivia | Movie trivia for the Rarest Answer game. Searched Krillion movies? Name a film, show, or character. The rarest correct answer scores the most. Free rounds. (155) |
+| `/trivia/music/` | Music Trivia: Rarest Answer Game (32) | Music Trivia | Music trivia for Rarest Answer. Searched Krillion pop culture? Name a song, an artist, or an instrument. The rarest correct answer scores most. Free rounds. (156) |
+
+Keyword landing. Each kept phrase is once in the H2 or once in the description, not in the title or H1. Body sentences do not repeat that exact phrase. Reversed queries, misspellings, and domain-as-keyword targets were not added.
+
+- Krillion Geography: H2 “Looking for Krillion Geography?” and the geography description. “geography krillion”, “krillion geography game”, “krillion geographic”, “krillion geo”, “krillion country”, and “krillion map game” are not used. The body names countries, capitals, and “Name a US state”, which are real prompts. The page is still a naming round, not a map quiz.
+- Krillion Sports: H2 “Like Krillion Sports?” and the sports description. “sports krillion” is not used. Once each, next to real prompts: NBA basketball teams, NFL football teams, Premier League soccer clubs, MLB baseball teams. “football krillion”, “soccer krillion”, “nfl krillion”, “baseball krillion”, and “krillion basketball” are not used.
+- Krillion movies: the screen description only. H2 “For Krillion at the Movies fans” holds “Krillion at the Movies” once. “movie krillion” and “film krillion” are not used. “film” appears with Pixar, Marvel Cinematic Universe, and James Bond, which are real prompts.
+- Krillion pop culture: H2 “Looking for Krillion pop culture?” and the music description. The body then names Endless Pop as the pop culture pack. “music krillion” and “krillion music” are not used. There is no verified page titled Krillion Music. Real prompts named: a Beyoncé song, a Taylor Swift song, a Queen song, a brass instrument.
+- Each of the four sections links to `/games/krillion/` as the unofficial guide to the separate krillion.io daily dive.
+
+`pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 26 files, 497 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/L2-CATEGORY-PAGES-dist` completed, 332 pages. Built pages opened in the browser: the four H2s, the guide link, and the NBA line were present, and document scroll width matched the viewport at the default width and at 375.
+
+## L3-KRILLION-PAGE done
+
+Edited only `src/content/wiki/en/games/krillion.mdx`, `src/content/wiki/en/games/games-like-krillion.mdx`, and this append. `lastModified` is 2026-11-16 on both. No git state changes. The Krillion browser space was closed. `docs/krillion-variants-2026-11-16.md` was not present while the pages were written; it was read afterward. Its krillion.io pack lines match what this page already says. Statements about krillion.to were not copied in, because that site was not opened here.
+
+Checked on 16 November 2026: https://krillion.io/ (how-to list opened), https://krillion.io/faq (no separate Help link in the menu), https://krillion.io/privacy, https://krillion.io/packs, https://krillion.io/party (1V1 size clicked), https://krillion.io/unlimited/classic, https://krillion.io/archive, https://krillion.io/friends. No round was finished and the $5 unlock was not bought.
+
+Built HTML from `/tmp/L3-KRILLION-PAGE-dist` (332 pages). Titles below are the document titles.
+
+| Page | Title | H1 | Meta description |
+| --- | --- | --- | --- |
+| `/games/krillion/` | Krillion: How the Daily Dive Works — Rarest Answer (50) | Krillion: How the Daily Dive Works | Unofficial notes on the daily dive, checked 16 November 2026: seven shared prompts, how the gem is chosen, the daily limit, and which screens show a price. (155) |
+| `/games/games-like-krillion/` | Games Like Krillion — Rarest Answer (35) | Games Like Krillion | Daily games that pay more for a less obvious correct answer, including this site, plus neighbours with a different task. Themed category rounds are linked too. (159) |
+
+Keyword landing on `/games/krillion/`. Each phrase is once, in an H2 or one body sentence, except "what is krillion", which is the H2 and the existing FAQ question. None of these phrases are in the title, H1, or description. Misspellings and domain-as-keyword targets were not added. The old Krillon / Krillian / Noillirk list was removed.
+
+- what is krillion: H2 "What is Krillion?" and the FAQ question.
+- how to play krillion: H2 "How to play Krillion?" The opened homepage list is quoted there (7 prompts, 25 seconds, 700 as the trench, one dive per day).
+- krillion rules: H2 "What do the Krillion rules say about a rare answer?"
+- when does krillion reset: H2 "When does Krillion reset?" Body says one dive per day and that a clock time could not be confirmed. The privacy policy says "the daily reset" with no hour or time zone.
+- krillion free: H2 "Is Krillion free?"
+- free krillion: one body sentence, the privacy policy's free practice dive. The same section quotes packs "Free for now · BETA" and the archive line "Unlock Unlimited · $5".
+- krillion unlimited: H2 "Is Krillion unlimited the same as an endless dive?"
+- krillion endless: one body sentence. The Unlimited URL titled itself "The Endless Dive".
+- infinite krillion and krillion infinite: one sentence saying those names could not be confirmed. The menu uses an infinity symbol beside Unlimited. The word infinite was not on that screen.
+- krillion 1v1: one body sentence under the required H2 "Does Krillion have 1v1 or multiplayer modes?" Puffer Party's 1V1 size reads "one on one."
+- krillion battle royale, krillion battle mode, pvp krillion, and group krillion: once each, in the sentence that says they could not be confirmed. Friends is described as the Google sign-in leaderboard that was on https://krillion.io/friends. The FAQ still says multiplayer is "Eventually, yes," which disagrees with the live Puffer Party page. Both are cited.
+
+`/games/games-like-krillion/` keeps "games like krillion" in the title/H1, the summary, and the existing FAQ question. The new paragraph does not repeat it. It points at `/trivia/geography/`, `/trivia/sports/`, and `/trivia/screen/` because the packs page listed Geography (30 expeditions), Sports (30 games), and At the Movies (30 pictures). Words & Language was listed too. Music was marked coming soon, so `/trivia/music/` was not added as a Krillion music pack.
+
+`pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 26 files, 497 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/L3-KRILLION-PAGE-dist` completed, 332 pages.
+
+## L4-ONE-IN-A-KRILLION done
+
+Edited only `src/content/wiki/en/games/krillion.mdx` and this append. `lastModified` stays 2026-11-16. No git state changes. No server was started. The browser space was closed.
+
+Checked on 16 November 2026, without starting a round: https://krillion.io/ (title "Krillion · the daily dive"; meta description ends "One in a krillion."; menu footer prints "one in a krillion."; how-to list does not use the phrase), https://krillion.io/faq (one person, kp, pseudonym, 23-year-old American CS grad; business@krillion.io and support@krillion.io; no mention of krillion.org or of the tagline), https://www.krillion.org/ (https://krillion.org/ landed here; title "Krillion | Play and Explore Rare-Answer Trivia"; the phrase is not on the page), https://www.krillion.org/about/ ("Krillion.org is independently operated and is not affiliated with or endorsed by Krillion.io."; editorial contact chaodit@gmail.com; "Scores are editorial familiarity estimates, not measured player answer frequencies."), https://www.krillion.org/how-to-play/ (about 20 seconds; scores from the published answer bank, not the share of players). They are different products. "One in a Krillion" is krillion.io's tagline, not the game's name and not a third site. This page does not claim to be Krillion or to be affiliated with either site. Click totals supplied for this task were not copied onto the page.
+
+Title and H1: "Krillion (One in a Krillion): How the Daily Dive Works" (54 characters before " — Rarest Answer"). Document title in the built page: "Krillion (One in a Krillion): How the Daily Dive Works — Rarest Answer". Meta description (152): "Unofficial notes on what one in a krillion means on the daily dive, checked 16 November 2026, and how that rarity differs from Wikipedia pageviews here." The description field contains "one in a krillion" once. New H2: What does "one in a krillion" mean? It quotes the meta sentence and the menu footer, names both operators with those URLs, and contrasts krillion.io's familiarity scoring with Wikipedia pageviews on this site. Links to `/` and `/games/games-like-krillion/`. "1 in a krillion" appears once ("also written 1 in a krillion"). "one in krillion" and "one in a krillion game" are not used. L3's sections were left in place; the new H2 sits after How to play so "quoted in the next section" still points at that list.
+
+`pnpm lint` passed. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/l4-dist` completed, 332 pages. In `/tmp/l4-dist/games/krillion/index.html` the exact lowercase string "one in a krillion" occurs 11 times: the description is repeated in the meta, Open Graph, Twitter, and Article JSON-LD tags plus the visible lede (5), the H2 is repeated in the contents links (4) plus the heading itself (1), and the menu-footer quote is in the body (1). "1 in a krillion" occurs once in that file.
+
+## M2-KRILLION-VARIANTS done
+
+Edited `src/content/wiki/en/games/krillion.mdx`. L4's sources stay: krillion.io checked 16 November 2026 (title, tagline, menu footer, how-to list, FAQ, kp, both emails) and krillion.org as a different product (about page, chaodit@gmail.com, editorial scores, about 20 seconds). This page still says it is not Krillion and is not affiliated with either site. No new page. No server was started. No state-changing git commands.
+
+`lastModified` stays 2026-11-16, the day of this edit. Title before the suffix is 59 characters, so the layout adds " — Rarest Answer".
+
+| | Text | Chars |
+| --- | --- | --- |
+| Title / H1 | Krillion Game (One in a Krillion): How the Daily Dive Works | 59 |
+| Document title | Krillion Game (One in a Krillion): How the Daily Dive Works — Rarest Answer | 75 |
+| Meta description | Unofficial notes on the daily dive at krillion.io, checked 16 November 2026, and how that site's rarity differs from Wikipedia pageviews here. | 142 |
+
+The description no longer repeats "one in a krillion"; that phrase is the title and the meaning H2. The homepage meta is still quoted through "Obvious ones barely count," and the next sentence says the tagline follows. The meaning section still says the meta and the menu footer used that tagline, and that the how-to list did not. "1 in a krillion" stays once, with the note that the numeral form was not on the pages checked.
+
+One info Callout, title "Spelling help", sits under the meaning H2. Its only sentence is: "People also type the name as one in krillion, one krillion, one in a kirllion or on in a krillion — they all mean Krillion, the daily dive game." Those four forms are only in that box.
+
+"the Krillion" is once, in running text: the FAQ's name for the top gem. Two older sentences that said "the Krillion" were rephrased so the count stays one: the rules H2 is now "What do Krillion's rules say about a rare answer?", and the Puffer Party line is "That control is Krillion 1v1 on Puffer Party." "Krillion Unlimited" is once, in the unlimited section: it opens from the menu item labeled Unlimited, at the same URL that titled itself "The Endless Dive" on 16 November 2026. The section heading is now "Is the unlimited screen the same as an endless dive?"
+
+The new title changed the cover hash, so `pnpm gen-covers` rewrote only `src/assets/covers/en-games-krillion.png` and the one matching line in `src/assets/covers/.gen-covers-manifest.json` (`37cb68b8` → `dcfe8f5d`). The rendered title fits the cover. No other cover was regenerated.
+
+Built HTML `/tmp/M2-KRILLION-VARIANTS-dist/games/krillion/index.html` (332 pages). Counts are case-insensitive substrings in that file.
+
+| Phrase | Count | Where |
+| --- | ---: | --- |
+| one in a krillion | 15 | Authored twice (title and the meaning H2). The title string is repeated in the document title, og:title, twitter:title, Article headline, breadcrumb name, pagefind meta, h1, share attribute, and the related-card title plus its text (10). The H2 is repeated in four contents links plus the heading (5). |
+| krillion game | 11 | Authored once, in the title. Ten of the hits are that title string in the same chrome as above. The 11th is the existing footer link "Krillion game guide" from `en.json`, not this article. |
+| krillion | 237 | The page subject, including krillion.io / krillion.org URLs, headings, and chrome. |
+| 1 in a krillion | 1 | Body sentence in the meaning section. |
+| one in krillion | 1 | Spelling help box only. |
+| the krillion | 1 | "the FAQ's name for the top gem is the Krillion." |
+| one in a kirllion | 1 | Spelling help box only. |
+| rare answer game | 0 | Not used on this page. |
+| rarest answer game | 2 | Related-card title "Rarest Answer Game for Classrooms" (attribute plus link text). Not this article's copy. |
+| one krillion | 1 | Spelling help box only. |
+| rare answers game | 0 | Not used on this page. |
+| krillion unlimited | 1 | First sentence of the unlimited section. |
+| on in a krillion | 1 | Spelling help box only. |
+
+`pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 26 files, 497 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/M2-KRILLION-VARIANTS-dist` completed, 332 pages. No server was started.
+
+## M1-HOME-UNLIMITED-LINKS done
+
+Edited `src/pages/index.astro` (copy and one below-the-fold section; the game card stays first), `src/pages/unlimited.astro`, `src/components/footer/SiteFooter.astro`, link sentences in `src/lib/game/category-copy.ts`, and one new `footer.krillionGuide` key in `src/locales/en.json`. No new page. No misspellings. No claim that this site is Krillion or affiliated with it. No state-changing git commands. The preview server on 127.0.0.1:8766 was stopped. Home components under `src/components/home/**` did not need edits.
+
+Home title and H1 stay "Rarest Answer Game — Guess the Rarest Answer" (44). The meta description stays L1's sentence, including "rare answer game" and "rare answers game" (153). New H2: "Like One in a Krillion? Try Rarest Answer". Three short paragraphs: on 16 November 2026, krillion.to (AFK LLC), krillion.io, and krillion.org were separate sites; the AFK LLC site is free daily trivia with seven typed answers, 25 seconds to type each one, editor-assigned score tiers, and three free games a day, and krillion.org says it is not affiliated with krillion.io. Rarest Answer scores by Wikipedia pageviews, publishes the ranking for every prompt, and has a daily round, an unlimited round, and categories. The next sentence is exactly "Rarest Answer is not Krillion and is not affiliated with it." The link anchor "Krillion game guide" goes to `/games/krillion/`. "one in a krillion" is only in that H2. "krillion game" is that anchor, plus the same words in the footer.
+
+`/unlimited/` title and H1 are "Rarest Answer Unlimited: A Krillion Unlimited Alternative" (57 characters; the title already contains "Rarest Answer", so no suffix is added). Description (129) does not repeat "krillion unlimited": "Extra Rarest Answer rounds with no daily lock. A new set on every start, same tiers and Spotlight, scored by Wikipedia pageviews." One sentence says this page is not Krillion Unlimited, with that anchor linking to `/games/krillion/`.
+
+Footer Read column links `/games/krillion/` as "Krillion game guide". On geography, sports, movies, and music, the neighbor sentence now ends "This page is not One in a Krillion." The compare list on all eight category pages uses the same anchor. Animals, food, science, and history therefore have the phrase once. The four neighbor pages have it twice (sentence and list).
+
+Built HTML `/tmp/M1-HOME-UNLIMITED-LINKS-dist` (332 pages). Counts are case-insensitive substrings. "krillion" matches inside longer phrases and inside krillion.to / krillion.io / krillion.org.
+
+| Page | Title | H1 | Meta description |
+| --- | --- | --- | --- |
+| `/` | Rarest Answer Game — Guess the Rarest Answer (44) | same | Guess the rarest answer in the Rarest Answer game. Free daily games and trivia where the rarest answer wins. A rare answer game for finding rare answers. (153) |
+| `/unlimited/` | Rarest Answer Unlimited: A Krillion Unlimited Alternative (57) | same | Extra Rarest Answer rounds with no daily lock. A new set on every start, same tiers and Spotlight, scored by Wikipedia pageviews. (129) |
+
+`/` phrase counts: one in a krillion 1 (the new H2); krillion game 2 (section link and footer); krillion 23 (that short string inside the phrases above, the three hostnames, the header, and the existing compare paragraph); the krillion 1 (existing "The Krillion page"); rare answer game 4 (description echoed in meta, Open Graph, and Twitter, plus the existing H2); rarest answer game 12 (title echoed in title, og:title, twitter:title, VideoGame name, and h1, the description echoed three times, plus four existing body lines); rare answers game 1 (existing explainer). The other eight target phrases are 0. None of the rare-answer counts were added in this edit.
+
+`/unlimited/` phrase counts: krillion unlimited 7 (the title string in the document title, og:title, twitter:title, VideoGame name, breadcrumb name, and h1, plus the body anchor once; the description does not contain it); krillion game 1 (footer only); krillion 15 (those hits plus hostnames elsewhere on the page and "Games like Krillion"). The other ten target phrases are 0.
+
+Category pages, from the same build: "one in a krillion" is 2 on geography, sports, screen, and music, and 1 on animals, food, science, and history. "krillion game" is 1 on each (the footer). "the krillion" is 1 on each, from the existing "The Krillion page" sentence.
+
+`pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 26 files, 497 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/M1-HOME-UNLIMITED-LINKS-dist` completed, 332 pages. At 1188px and 375px, `/` and `/unlimited/` had document scroll width equal to the viewport. The game card stayed above the new section. Both new anchors opened `/games/krillion/`.
+
+## N1-DEDUPE-CATEGORY done
+
+Edited `src/pages/trivia/[category].astro` and `src/lib/game/category-copy.ts` only. Titles and meta descriptions were left as they already were. No server was started. No state-changing git commands.
+
+The shared "Not a Krillion mode" section (`id="compare"`) and its link list are gone on all eight category pages. Geography, sports, screen, and music keep one section (`id="neighbor"`) with the existing H2. The 16 November 2026 facts stay, and each hostname is a source link (play or pack page checked that day; "three games a day" links to the krillion.to how-to; "says it is not affiliated with that site" links to the krillion.org about page, and "that site" is krillion.io). One sentence follows: "Rarest Answer is not Krillion and is not affiliated with it; see One in a Krillion and games like Krillion." Those anchors go to `/games/krillion/` and `/games/games-like-krillion/`. The other-rounds label that used to say "Games like Krillion" is now "Daily trivia games", so that phrase is not repeated inside `<main>`. Animals, food, science, and history had no neighbor note; removing the duplicate section leaves them with no Krillion line in `<main>`.
+
+Counts are case-insensitive "krillion" inside `<main>` of `/tmp/n1-dist/trivia/*/index.html` (332 pages). Visible is tag-stripped text, so it includes link text and compounds such as "Krillion Geography", and it excludes href attributes plus the header and footer. Raw is the same substring over the `<main>` HTML, so source URLs add extra hits.
+
+| Page | Visible | Raw HTML in `<main>` |
+| --- | ---: | ---: |
+| geography | 7 | 14 |
+| sports | 7 | 14 |
+| screen | 7 | 13 |
+| music | 7 | 15 |
+| animals | 0 | 0 |
+| food | 0 | 0 |
+| science | 0 | 0 |
+| history | 0 | 0 |
+
+`pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 26 files, 497 passed, 11 skipped. `pnpm exec astro build --outDir /tmp/n1-dist` completed, 332 pages.

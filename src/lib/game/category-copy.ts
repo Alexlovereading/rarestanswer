@@ -21,6 +21,22 @@ export interface PlayFaq {
   answer: string;
 }
 
+/** One visible run in a neighbor note. `href` turns that run into a source link. */
+export interface NeighborRun {
+  text: string;
+  href?: string;
+}
+
+/** Dated note for a category people also look up under a Krillion name. */
+export interface CategoryNeighborNote {
+  heading: string;
+  /**
+   * Verified facts. Each hostname is a source link, named once.
+   * The heading already used the search phrase.
+   */
+  paragraphs: readonly (readonly NeighborRun[])[];
+}
+
 export interface CategoryPageCopy {
   key: CategoryKey;
   label: string;
@@ -35,6 +51,8 @@ export interface CategoryPageCopy {
   listNote: string;
   /** Shown when this category has none. */
   emptyNote: string;
+  /** Set only where a Krillion category was checked. See docs/krillion-variants-2026-11-16.md. */
+  neighbor?: CategoryNeighborNote;
   faq: readonly PlayFaq[];
 }
 
@@ -148,8 +166,21 @@ export const GUIDE_LINKS: readonly TextLink[] = [
 ];
 
 export const COMPARE_LINKS: readonly TextLink[] = [
-  { href: '/games/krillion/', label: 'The Krillion game' },
+  { href: '/games/krillion/', label: 'One in a Krillion' },
   { href: '/games/games-like-krillion/', label: 'Games like Krillion' },
+];
+
+/**
+ * Closing line for a category neighbor note.
+ * One sentence: this site is not Krillion and is not affiliated with it,
+ * then the two guide links. Do not add another Krillion name on that page.
+ */
+export const NEIGHBOR_CLOSE: readonly NeighborRun[] = [
+  { text: 'Rarest Answer is not Krillion and is not affiliated with it; see ' },
+  { text: 'One in a Krillion', href: '/games/krillion/' },
+  { text: ' and ' },
+  { text: 'games like Krillion', href: '/games/games-like-krillion/' },
+  { text: '.' },
 ];
 
 export const HOME_WHAT: readonly string[] = [
@@ -171,10 +202,6 @@ export const UNLIMITED_COMPARE =
 
 export function categoryTips(h1: string): string {
   return `${h1} uses the same six tiers and the same Spotlight as the daily Rarest Answer game. Skip the famous legal name when you have a more specific one, and do not leave the set. The finding guide and the how-to-play page are the long version.`;
-}
-
-export function categoryCompare(h1: string): string {
-  return `${h1} is a Rarest Answer category, not a Krillion mode. Krillion is a separate game. The Krillion page says what this site could verify, and the games-like-Krillion page sets it next to other daily games.`;
 }
 
 export function tierSentence(): string {
@@ -217,6 +244,16 @@ export function answerCountLabel(count: number): string {
 
 const MEASURED = /wikipedia|wiktionary|page\s*views?/i;
 
+function run(text: string): NeighborRun {
+  return { text };
+}
+
+function source(text: string, href: string): NeighborRun {
+  return { text, href };
+}
+
+const KRILLION_ABOUT = 'https://www.krillion.org/about/';
+
 /**
  * How rarity is measured, then what the source strings on `sources` actually say.
  * `none` is used when the list is empty. A source that does not mention
@@ -233,10 +270,10 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
     key: 'geography',
     label: CATEGORY_LABELS.geography,
     keyword: 'geography trivia',
-    title: 'Geography Trivia — Rarest Answer Game',
+    title: 'Geography Trivia: Rarest Answer Game',
     h1: 'Geography Trivia',
     description:
-      'Geography trivia for the Rarest Answer game. Name a country, capital, river, or coast. The rarest correct answer scores the most. Free rounds, no account.',
+      'Geography trivia for Rarest Answer. Searched Krillion Geography? Name a country or capital. The rarest answer scores the most. Free daily and unlimited rounds.',
     lead: 'Name a place. The rarest correct answer scores the most.',
     intro:
       "Geography trivia here is a naming game, not a map quiz with a single official key. A prompt asks you to name a place: a country, a capital, a river, a range, a coast. Only a place on that prompt's list counts. The capital with the most-viewed article is usually the low tier. A river with a less-viewed article is where the points are. This page deals geography prompts only, as many rounds as you want, with the same six tiers and the same Spotlight as the daily game.",
@@ -244,6 +281,36 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       'A place prompt is a naming round. The ranking is inside that prompt, not a map score.',
     emptyNote:
       'No geography trivia prompts are in the catalog yet. The daily round still plays whatever other categories have loaded.',
+    neighbor: {
+      heading: 'Looking for Krillion Geography?',
+      paragraphs: [
+        [
+          run('On 16 November 2026, the geography round published by AFK LLC at '),
+          source('krillion.to', 'https://krillion.to/en/geography'),
+          run(
+            ' used seven questions on countries, capitals, borders, and islands, with 25 seconds each, more points for a rarer accepted answer, and free play capped at ',
+          ),
+          source('three games a day', 'https://krillion.to/en/how-to-play'),
+          run('.'),
+        ],
+        [
+          run('The same day, '),
+          source('krillion.io', 'https://krillion.io/packs'),
+          run(
+            ' listed a separate Geography pack of 30 expeditions and called its packs free for now, in beta, while ',
+          ),
+          source('krillion.org', 'https://www.krillion.org/play/geography/'),
+          run(', which '),
+          source('says it is not affiliated with that site', KRILLION_ABOUT),
+          run(', showed a seven-question geography challenge it marked free in that build.'),
+        ],
+        [
+          run(
+            'This page is Rarest Answer. Prompts such as “Name a country in Europe,” “Name a national capital in Africa,” and “Name a US state” come from Wikidata, and a rarer correct answer is the one with fewer English Wikipedia pageviews over the last 12 months, on the daily round or as many extra rounds as you want.',
+          ),
+        ],
+      ],
+    },
     faq: [
       {
         question: 'What is geography trivia in the Rarest Answer game?',
@@ -316,16 +383,46 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
     key: 'sports',
     label: CATEGORY_LABELS.sports,
     keyword: 'sports trivia',
-    title: 'Sports Trivia — Rarest Answer Game',
+    title: 'Sports Trivia: Rarest Answer Game',
     h1: 'Sports Trivia',
     description:
-      'Sports trivia for the Rarest Answer game. Name a team, athlete, venue, or event. The rarest correct answer scores the most. Free rounds, no account.',
+      'Sports trivia for Rarest Answer. Searched Krillion Sports? Name a team or athlete. The rarest correct answer scores the most. Free daily and unlimited rounds.',
     lead: 'Name a team, an athlete, or an event. The rarest correct answer scores the most.',
     intro:
       'Sports trivia on this page does not ask who won. It asks you to name a team, an athlete, a venue, or an event that fits the prompt. The dynasty with the most-viewed article is the common answer. A club with a less-viewed article can score much higher. Rounds stay inside sports prompts, and you can deal a new one as soon as the last one ends.',
     listNote: 'A sports prompt ranks accepted names. It does not rank who won.',
     emptyNote:
       'No sports trivia prompts are in the catalog yet. Team and athlete prompts will be linked here when they are published.',
+    neighbor: {
+      heading: 'Like Krillion Sports?',
+      paragraphs: [
+        [
+          run('On 16 November 2026, the sports round published by AFK LLC at '),
+          source('krillion.to', 'https://krillion.to/en/sports'),
+          run(', its '),
+          source('Game On pack', 'https://krillion.to/en/packs/sports'),
+          run(
+            ', used seven questions on stars, teams, rules, and competitions, 25 seconds each, with tiers that site’s editors assigned rather than a count of typed answers.',
+          ),
+        ],
+        [
+          run('The same day, '),
+          source('krillion.io', 'https://krillion.io/packs'),
+          run(
+            ' listed a separate sports pack of 30 games and marked its packs free for now, in beta, while ',
+          ),
+          source('krillion.org', 'https://www.krillion.org/play/sports/'),
+          run(', which '),
+          source('says it is not affiliated with that site', KRILLION_ABOUT),
+          run(', listed The Deep Bench as seven daily sports questions.'),
+        ],
+        [
+          run(
+            'Prompts here include current NBA basketball teams, NFL football teams, Premier League soccer clubs, and current MLB baseball teams, from Wikidata, ranked by English Wikipedia pageviews over the last 12 months.',
+          ),
+        ],
+      ],
+    },
     faq: [
       {
         question: 'What is sports trivia in the Rarest Answer game?',
@@ -343,10 +440,10 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
     key: 'screen',
     label: CATEGORY_LABELS.screen,
     keyword: 'movie trivia',
-    title: 'Movie Trivia and TV Trivia — Rarest Answer Game',
+    title: 'Movie Trivia: Rarest Answer Game',
     h1: 'Movie and TV Trivia',
     description:
-      'Movie trivia and TV trivia for the Rarest Answer game. Name a film, a show, or a character. The rarest correct answer scores the most. Free rounds.',
+      'Movie trivia for the Rarest Answer game. Searched Krillion movies? Name a film, show, or character. The rarest correct answer scores the most. Free rounds.',
     lead: 'Name a film, a show, or a character. The rarest correct answer scores the most.',
     intro:
       'Movie trivia and TV trivia share this page because both are answers from the screen. A prompt asks you to name a film, a series, or a character. The franchise with the most-viewed article lands in a low tier. A limited series, a supporting character, or a film with a less-viewed article is where the score climbs. Rounds on this page use screen prompts only, with the same Spotlight and the same six tiers as the daily game.',
@@ -354,6 +451,31 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       'A movie or TV prompt ranks accepted titles and characters. It does not rank reviews or box office.',
     emptyNote:
       'No movie trivia prompts are in the catalog yet. Film and show prompts will be linked here when they are published.',
+    neighbor: {
+      heading: 'For Krillion at the Movies fans',
+      paragraphs: [
+        [
+          run('On 16 November 2026, the Movies and TV pack published by AFK LLC at '),
+          source('krillion.to', 'https://krillion.to/en/packs/movies'),
+          run(
+            ' held 174 games of seven questions on lines, characters, franchises, and shows, 25 seconds each, and a top answer there is worth 700 points.',
+          ),
+        ],
+        [
+          source('krillion.io', 'https://krillion.io/packs'),
+          run(' called its own movie pack At the Movies, with 30 pictures, and '),
+          source('krillion.org', 'https://www.krillion.org/play/movies/'),
+          run(', which '),
+          source('says it is not affiliated with that site', KRILLION_ABOUT),
+          run(', used that same label for seven daily questions.'),
+        ],
+        [
+          run(
+            'Here you can name a Pixar film, a Marvel Cinematic Universe film, or a James Bond film, from Wikidata lists ranked by English Wikipedia pageviews over the last 12 months.',
+          ),
+        ],
+      ],
+    },
     faq: [
       {
         question: 'What is movie trivia in the Rarest Answer game?',
@@ -371,16 +493,47 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
     key: 'music',
     label: CATEGORY_LABELS.music,
     keyword: 'music trivia',
-    title: 'Music Trivia — Rarest Answer Game',
+    title: 'Music Trivia: Rarest Answer Game',
     h1: 'Music Trivia',
     description:
-      'Music trivia for the Rarest Answer game. Name a song, an artist, an album, or an instrument. The rarest correct answer scores the most. Free rounds.',
+      'Music trivia for Rarest Answer. Searched Krillion pop culture? Name a song, an artist, or an instrument. The rarest correct answer scores most. Free rounds.',
     lead: 'Name a song, an artist, or an instrument. The rarest correct answer scores the most.',
     intro:
       'Music trivia here is naming, not a clip quiz. A prompt can ask for a song, an artist, an album, or an instrument. The chorus you can hum is usually a low tier. A deep cut, a session player, or a form you studied is the rarer guess. This page deals music prompts only. Play another round whenever you want. It does not touch the daily streak.',
     listNote: 'A music prompt ranks accepted names. This page does not play a clip.',
     emptyNote:
       'No music trivia prompts are in the catalog yet. Song and artist prompts will be linked here when they are published.',
+    neighbor: {
+      heading: 'Looking for Krillion pop culture?',
+      paragraphs: [
+        [
+          run('On 16 November 2026, '),
+          source('krillion.to', 'https://krillion.to/en/music'),
+          run(' had no music page (that address was a 404), and music questions sat inside '),
+          source('Endless Pop', 'https://krillion.to/en/packs/pop-culture'),
+          run(
+            ', the pop culture pack of video games, animation, and songs, as 319 games of seven questions.',
+          ),
+        ],
+        [
+          source('krillion.io', 'https://krillion.io/packs'),
+          run(' marked Music as coming soon and its '),
+          source('music address', 'https://krillion.io/music'),
+          run(' was a 404, while '),
+          source('krillion.org', 'https://www.krillion.org/play/music/'),
+          run(', which '),
+          source('says it is not affiliated with that site', KRILLION_ABOUT),
+          run(
+            ', had a music round called The Deep Cut: seven questions, 20 seconds each, and no headphones required.',
+          ),
+        ],
+        [
+          run(
+            'This page asks you to name a Beyoncé song, a Taylor Swift song, a Queen song, or a brass instrument, from Wikidata, ranked by English Wikipedia pageviews over the last 12 months.',
+          ),
+        ],
+      ],
+    },
     faq: [
       {
         question: 'What is music trivia in the Rarest Answer game?',
