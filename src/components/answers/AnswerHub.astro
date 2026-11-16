@@ -2,7 +2,7 @@
 import TierChip from './TierChip.astro';
 import CategoryArt from '~/components/art/CategoryArt.astro';
 import HeroArt from '~/components/art/HeroArt.astro';
-import { HUB_TITLE, categoriesIn, categoryLabel, hubIntro, type PromptSeo } from './copy';
+import { HUB_TITLE, categoriesIn, categoryLabel, hubIntro, isNoData, type PromptSeo } from './copy';
 import { answerPath, triviaPath } from './prompts';
 import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
@@ -81,7 +81,7 @@ const groups = categories.map((category) => ({
         </div>
         <ul class="mt-4 grid list-none grid-cols-1 gap-3 p-0 sm:grid-cols-2" data-pagefind-ignore>
           {group.prompts.map((prompt) => {
-            const rare = prompt.answers[0];
+            const rare = prompt.answers.find((answer) => !isNoData(answer));
             return (
               <li class="min-w-0">
                 <a href={answerPath(prompt.slug)} class="card block h-full p-4">

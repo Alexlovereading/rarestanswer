@@ -3,15 +3,17 @@ import TierBadge from '~/components/art/TierBadge.astro';
 import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
 import { TIERS } from '~/lib/game/types';
-import type { PromptSeo } from './copy';
+import { isNoData, type PromptSeo } from './copy';
 
 interface Props { prompt: PromptSeo }
 const { prompt } = Astro.props;
 const shared = getUi(defaultLocale).shared;
 const labels = shared.visuals;
+const ranked = prompt.answers.filter((answer) => !isNoData(answer));
+const unranked = prompt.answers.length - ranked.length;
 const rows = [...TIERS].reverse().map((tier) => ({
   ...tier,
-  count: prompt.answers.filter((answer) => answer.tier === tier.tier).length,
+  count: ranked.filter((answer) => answer.tier === tier.tier).length,
 }));
 const largest = Math.max(1, ...rows.map((row) => row.count));
 ---
@@ -19,9 +21,20 @@ const largest = Math.max(1, ...rows.map((row) => row.count));
 <section class="rarity-chart" aria-labelledby="rarity-distribution">
   <div class="mb-5 flex flex-wrap items-baseline justify-between gap-2">
     <h2 id="rarity-distribution" class="text-xl font-bold tracking-tight">{labels.distribution}</h2>
-    <p class="text-xs text-muted-foreground">{labels.distributionTotal.replace('{count}', String(prompt.answers.length))}</p>
+    <p class="text-xs text-muted-foreground">
+      {
+        unranked === 0
+          ? labels.distributionTotal.replace('{count}', String(prompt.answers.length))
+          : `${ranked.length} ranked by pageviews`
+      }
+    </p>
   </div>
-  <p class="mb-5 text-sm leading-relaxed text-muted-foreground">{labels.distributionNote}</p>
+  <p class="mb-5 text-sm leading-relaxed text-muted-foreground">
+    {labels.distributionNote}
+    {prompt.noDataNote && ` ${prompt.noDataNote}`}
+    {unranked > 0 && ranked.length > 0 && ' They are not included in the bars below.'}
+  </p>
+  {ranked.length > 0 && (
   <ul class="m-0 grid list-none gap-3 p-0">
     {rows.map((row) => (
       <li class="rarity-chart__row" style={`--chart-tier: var(--tier-${row.tier})`}>
@@ -38,4 +51,5 @@ const largest = Math.max(1, ...rows.map((row) => row.count));
       </li>
     ))}
   </ul>
+  )}
 </section>

@@ -16,6 +16,7 @@ import TierLadder from '~/components/home/TierLadder.astro';
 import HowToStrip from '~/components/home/HowToStrip.astro';
 import BrowseAnswers from '~/components/home/BrowseAnswers.astro';
 import NovaCta from '~/components/home/NovaCta.astro';
+import { site } from '~/config/site';
 import { HOME, HOME_FAQ, HOW_TO_STEPS } from '~/lib/game/copy';
 import {
   CATEGORY_PAGE_LIST,
@@ -96,6 +97,7 @@ const links = [
         <h2 class="text-2xl font-bold tracking-tight text-foreground">
           What is the Rarest Answer game?
         </h2>
+        <p class="mt-3 text-foreground">{site.description}</p>
         <p class="mt-3 text-foreground">{HOME.intro}</p>
         {HOME_WHAT.map((paragraph) => <p class="mt-3 text-foreground">{paragraph}</p>)}
         <p class="mt-3 text-foreground">

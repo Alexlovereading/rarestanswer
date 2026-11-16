@@ -138,6 +138,7 @@ interface ParsedName {
   aliases: string[];
   wiki?: string;
   preferred: boolean;
+  actor?: string;
 }
 
 function namesFromPhrase(raw: string, wiki: string | undefined, preferred: boolean, allowLower = false): ParsedName | null {
@@ -163,7 +164,22 @@ function namesFromPhrase(raw: string, wiki: string | undefined, preferred: boole
   if (!allowLower && !/^[A-Z]/.test(name) && !/^Dr\b/.test(name)) return null;
   if (/[|=]/.test(name)) return null;
   const unique = dedupeAliases(name, aliases);
-  return { name, aliases: unique, wiki: wiki ?? firstArticle, preferred };
+  const linked = plausibleListWiki(name, wiki ?? firstArticle);
+  return { name, aliases: unique, wiki: linked, preferred };
+}
+
+/** A link on the list page is kept only when the title itself names this character. */
+function plausibleListWiki(name: string, title: string | undefined): string | undefined {
+  if (!title) return undefined;
+  if (/\(Stranger Things\)\s*$/i.test(title)) return title;
+  return titleHasPhrase(title, name) ? title : undefined;
+}
+
+function titleHasPhrase(title: string, name: string): boolean {
+  const titleKey = norm(title);
+  const nameKey = norm(name);
+  if (!titleKey || !nameKey) return false;
+  return ` ${titleKey} `.includes(` ${nameKey} `);
 }
 
 function dedupeAliases(name: string, aliases: string[]): string[] {
@@ -274,13 +290,27 @@ function parentsOf(chunks: SectionChunk[]): string[][] {
   });
 }
 
+function cleanActor(raw: string): string | undefined {
+  const cleaned = cleanMarkup(raw).replace(/^[\s|*]+/, '').trim();
+  const clipped = cutAtComma(cleaned).replace(/\.+$/, '').trim();
+  if (!clipped || clipped.length < 2 || clipped.length > 80) return undefined;
+  if (!/[A-Za-z]/.test(clipped)) return undefined;
+  if (/^(?:himself|herself|themselves|narrator|various|others|n\/a)$/i.test(clipped)) return undefined;
+  return clipped;
+}
+
 function tableCharacters(body: string): ParsedName[] {
   const found: ParsedName[] = [];
   for (const row of body.split('\n|-')) {
     const cell = row.match(/!\s*scope="row"[^|\n]*\|([^\n]*)/);
-    if (!cell?.[1]) continue;
+    if (!cell?.[1] || cell.index == null) continue;
     const parsed = namesFromPhrase(stripComments(stripRefs(cell[1])), undefined, false);
-    if (parsed) found.push(parsed);
+    if (!parsed) continue;
+    const after = row.slice(cell.index + cell[0].length);
+    const actorLine = after.split('\n').map((line) => line.trim()).find((line) => line.startsWith('|'));
+    const actor = actorLine ? cleanActor(actorLine.replace(/^\|/, '')) : undefined;
+    if (actor) parsed.actor = actor;
+    found.push(parsed);
   }
   return found;
 }
@@ -301,13 +331,22 @@ function creditCharacters(body: string): ParsedName[] {
     for (const start of indexes) {
       const phrase = cleaned.slice(start).replace(/^\s*as\s+/i, '').replace(/\s+and\s+\[\[[^\]]+\]\][\s\S]*$/i, '');
       const parsed = namesFromPhrase(phrase, undefined, false);
-      if (parsed) found.push(parsed);
+      if (!parsed) continue;
+      const before = cleaned.slice(0, start);
+      const actorChunk = before.split(/\sand\s+/i).pop() ?? before;
+      const actor = cleanActor(actorChunk.replace(/^\*\s*/, ''));
+      if (actor) parsed.actor = actor;
+      found.push(parsed);
     }
   }
   return found;
 }
 
-function mergeAll(entries: ParsedName[]): ListedCharacter[] {
+interface CastCharacter extends ListedCharacter {
+  actor?: string;
+}
+
+function mergeAll(entries: ParsedName[]): CastCharacter[] {
   const byKey = new Map<string, ParsedName>();
   const aliasOwner = new Map<string, string>();
   const absorb = (into: ParsedName, extra: ParsedName): void => {
@@ -320,6 +359,7 @@ function mergeAll(entries: ParsedName[]): ListedCharacter[] {
     }
     into.aliases.push(...extra.aliases);
     into.wiki = into.wiki ?? extra.wiki;
+    if (!into.actor && extra.actor) into.actor = extra.actor;
     into.aliases = dedupeAliases(into.name, into.aliases);
   };
   for (const entry of entries) {
@@ -359,10 +399,162 @@ function mergeAll(entries: ParsedName[]): ListedCharacter[] {
     aliasOwner.set(norm(owner.name), ownerKey);
   }
   return [...byKey.values()].map((entry) => {
-    const character: ListedCharacter = { name: entry.name, aliases: dedupeAliases(entry.name, entry.aliases) };
+    const character: CastCharacter = { name: entry.name, aliases: dedupeAliases(entry.name, entry.aliases) };
     if (entry.wiki) character.wiki = entry.wiki;
+    if (entry.actor) character.actor = entry.actor;
     return character;
   });
+}
+
+const ROLE_TITLE = new Set(['dr', 'lt', 'col', 'colonel', 'sgt', 'sergeant', 'gen', 'general', 'mayor', 'miss', 'ms', 'mr', 'mrs', 'agent', 'director', 'officer']);
+
+function nameTokens(value: string): string[] {
+  return norm(value).split(' ').filter(Boolean);
+}
+
+/** Short cast name vs the fuller credit, not two different people who share a first name. */
+export function isShortForm(shortName: string, fullName: string): boolean {
+  const short = nameTokens(shortName);
+  const full = nameTokens(fullName);
+  if (short.length === 0 || full.length === 0) return false;
+  if (short.join(' ') === full.join(' ')) return false;
+  if (short.length < full.length && short.every((token, index) => full[index] === token)) return true;
+  if (full.length === short.length + 1 && ROLE_TITLE.has(full[0] ?? '') && short.every((token, index) => full[index + 1] === token)) {
+    return true;
+  }
+  if (short.length >= 2 && short.length === full.length) {
+    const initial = short[short.length - 1] ?? '';
+    const expanded = full[full.length - 1] ?? '';
+    if (initial.length === 1 && expanded.startsWith(initial) && expanded.length > 1) {
+      return short.slice(0, -1).every((token, index) => full[index] === token);
+    }
+  }
+  return false;
+}
+
+/**
+ * Same actor on the list page, and one name is a short form of the other.
+ * "Tina" (Madelyn Cline) stays apart from "Tina Turnbow" (Caroline Elle Abrams).
+ * The longer name is the answer; the short name becomes an alias.
+ */
+export function mergeCharactersByActor(characters: readonly (ListedCharacter & { actor?: string })[]): ListedCharacter[] {
+  const items = characters.map((character) => ({
+    name: character.name,
+    aliases: [...character.aliases],
+    wiki: character.wiki,
+    actor: character.actor ? norm(character.actor) : undefined,
+  }));
+  const longer = new Map<number, number>();
+  for (let index = 0; index < items.length; index += 1) {
+    const matches: number[] = [];
+    for (let other = 0; other < items.length; other += 1) {
+      if (index === other) continue;
+      const left = items[index];
+      const right = items[other];
+      if (!left?.actor || left.actor !== right?.actor) continue;
+      if (isShortForm(left.name, right.name)) matches.push(other);
+    }
+    if (matches.length === 1 && matches[0] != null) longer.set(index, matches[0]);
+  }
+  const rootOf = (start: number): number => {
+    const seen = new Set<number>();
+    let current = start;
+    while (longer.has(current) && !seen.has(current)) {
+      seen.add(current);
+      const next = longer.get(current);
+      if (next == null) break;
+      current = next;
+    }
+    return current;
+  };
+  const groups = new Map<number, number[]>();
+  for (let index = 0; index < items.length; index += 1) {
+    const root = rootOf(index);
+    const group = groups.get(root) ?? [];
+    group.push(index);
+    groups.set(root, group);
+  }
+  const merged: ListedCharacter[] = [];
+  for (const indexes of groups.values()) {
+    const members = indexes.map((index) => items[index]).filter((item): item is NonNullable<typeof item> => Boolean(item));
+    members.sort((a, b) => nameTokens(b.name).length - nameTokens(a.name).length || b.name.length - a.name.length || a.name.localeCompare(b.name, 'en'));
+    const primary = members[0];
+    if (!primary) continue;
+    const aliases = [...primary.aliases];
+    for (const member of members.slice(1)) aliases.push(member.name, ...member.aliases);
+    const character: ListedCharacter = { name: primary.name, aliases: dedupeAliases(primary.name, aliases) };
+    const wiki = members.map((member) => member.wiki).find((title) => title && (/\(Stranger Things\)/i.test(title) || titleHasPhrase(title, primary.name)));
+    if (wiki) character.wiki = wiki;
+    merged.push(character);
+  }
+  return merged.sort((a, b) => a.name.localeCompare(b.name, 'en'));
+}
+
+export interface WikiProbe {
+  requested: string;
+  title?: string;
+  missing?: boolean;
+  redirectTo?: string;
+  fragment?: string;
+  description?: string;
+}
+
+/** Titles worth resolving. One-word aliases are only tried with the disambiguator. */
+export function characterWikiCandidates(name: string, aliases: readonly string[]): string[] {
+  const out: string[] = [];
+  const add = (value: string): void => {
+    const cleaned = value.replace(/\s+/g, ' ').trim();
+    if (!cleaned || cleaned.length > 90 || cleaned.includes('/')) return;
+    if (out.some((current) => norm(current) === norm(cleaned))) return;
+    out.push(cleaned);
+  };
+  add(name);
+  add(`${name} (Stranger Things)`);
+  for (const alias of aliases) {
+    if (nameTokens(alias).length >= 2) add(alias);
+    add(`${alias} (Stranger Things)`);
+  }
+  return out;
+}
+
+function baseMatches(title: string, names: readonly string[]): boolean {
+  const match = /^(.*)\(Stranger Things\)\s*$/i.exec(title);
+  if (!match?.[1]) return false;
+  const base = match[1].trim();
+  return names.some((candidate) => norm(candidate) === norm(base) || titleHasPhrase(base, candidate) || titleHasPhrase(candidate, base));
+}
+
+function fragmentMatches(fragment: string | undefined, names: readonly string[]): boolean {
+  if (!fragment) return false;
+  const key = norm(fragment);
+  return names.some((candidate) => norm(candidate) === key);
+}
+
+/**
+ * Wikipedia title for one character, or undefined when no article is about them.
+ * A redirect onto that character's own section of the list page uses the
+ * character's title, not the list page. Generic articles (Troy the city, Alaska)
+ * are not returned.
+ */
+export function pickCharacterWiki(name: string, aliases: readonly string[], probes: readonly WikiProbe[]): string | undefined {
+  const names = [name, ...aliases];
+  for (const probe of probes) {
+    if (!probe.title || probe.missing) continue;
+    if (/\(Stranger Things\)\s*$/i.test(probe.title) && baseMatches(probe.title, names)) return probe.title;
+  }
+  for (const probe of probes) {
+    if (probe.redirectTo !== 'List of Stranger Things characters') continue;
+    if (!fragmentMatches(probe.fragment, names)) continue;
+    if (!names.some((candidate) => norm(candidate) === norm(probe.requested))) continue;
+    return probe.requested;
+  }
+  for (const probe of probes) {
+    if (!probe.title || probe.missing) continue;
+    if (probe.redirectTo?.startsWith('List of ')) continue;
+    if (!probe.description || !/stranger things/i.test(probe.description)) continue;
+    if (names.some((candidate) => titleHasPhrase(probe.title ?? '', candidate))) return probe.title;
+  }
+  return undefined;
 }
 
 /** Cast tables, character headings, and recurring/guest credits on the list page. */
@@ -406,9 +598,9 @@ export function parseStrangerThingsWikitext(wikitext: string): ListedCharacter[]
       parsed.push(...creditCharacters(chunk.body));
     }
   });
-  const merged = mergeAll(parsed);
+  const merged = mergeCharactersByActor(mergeAll(parsed));
   if (merged.length < 15) {
     throw new Error(`parsed only ${merged.length} Stranger Things characters`);
   }
-  return merged.sort((a, b) => a.name.localeCompare(b.name, 'en'));
+  return merged;
 }

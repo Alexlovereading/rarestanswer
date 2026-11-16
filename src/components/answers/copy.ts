@@ -12,7 +12,17 @@ import { defaultLocale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { TIERS, type Answer, type CategoryKey, type Prompt } from '~/lib/game/types';
 import { pageTitle } from '~/lib/seo';
-import { buildPlayerCopy, measureHeading, measureKind, measureLabel } from './player-copy';
+import {
+  buildPlayerCopy,
+  dataUpdatedLine,
+  isNoData,
+  measureHeading,
+  measureKind,
+  measureLabel,
+  noDataExplanation,
+  rankedAnswers,
+  rarityBasis,
+} from './player-copy';
 
 export const HUB_TITLE = "Rarest Answers — Every Prompt's Rarest Answer";
 
@@ -64,11 +74,15 @@ export interface PromptSeo {
   /** Useful playing notes: scope, aliases, near-misses, easy/hard, scoring tip. */
   guide: string[];
   viewsNote: string;
-  /** Column heading. Wikipedia pages use "Wikipedia views, last 12 months". */
+  /** Column heading. Wikipedia pages use "English Wikipedia pageviews, last 12 months". */
   viewsHeading: string;
   sourceNote: string;
   tableCaption: string;
-  answers: Answer[];
+  /** "Data updated October 2026." Null when `source` names no month. */
+  dataUpdated: string | null;
+  /** One line above the table when any answer has no Wikipedia article. */
+  noDataNote: string;
+  answers: SeoAnswer[];
   faq: FaqItem[];
 }
 
@@ -149,7 +163,25 @@ export function wikipediaUrl(title: string): string {
   return `https://en.wikipedia.org/wiki/${slug}`;
 }
 
-export { measureKind, measureLabel, rarityPlain, rarityShort } from './player-copy';
+export {
+  dataUpdatedLine,
+  isNoData,
+  measureKind,
+  measureLabel,
+  noDataExplanation,
+  rankedAnswers,
+  rarityBasis,
+  rarityPlain,
+  rarityShort,
+  sourceMonthLabel,
+} from './player-copy';
+
+export type SeoAnswer = Answer & { noData?: true };
+
+/** mailto subject is exactly `Answer report: <slug>`. */
+export function reportAnswerHref(slug: string): string {
+  return `mailto:contact@rarestanswer.xyz?subject=${encodeURIComponent(`Answer report: ${slug}`)}`;
+}
 
 /** Table heading for the popularity column. */
 export function viewsColumnLabel(source: string): string {
@@ -299,15 +331,30 @@ function joinNames(names: string[]): string {
   return `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
 }
 
-function compareAnswers(a: Answer, b: Answer): number {
+function compareAnswers(a: SeoAnswer, b: SeoAnswer): number {
+  const aMissing = isNoData(a);
+  const bMissing = isNoData(b);
+  if (aMissing !== bMissing) return aMissing ? 1 : -1;
   if (b.rarity !== a.rarity) return b.rarity - a.rarity;
   if (a.popularity !== b.popularity) return a.popularity - b.popularity;
   return a.name.localeCompare(b.name, 'en');
 }
 
-function buildHeading(nounTitle: string, count: number): string {
-  const answers = count === 1 ? 'Answer' : 'Answers';
-  return `Rarest ${nounTitle} — All ${count} ${answers} Ranked by Rarity`;
+function buildHeading(nounTitle: string, total: number, ranked: number): string {
+  if (ranked <= 0) return `${nounTitle} — No Ranked Rarest Answer`;
+  if (ranked !== total) {
+    const answers = ranked === 1 ? 'Answer' : 'Answers';
+    return `Rarest ${nounTitle} — ${ranked} ${answers} Ranked by Pageviews`;
+  }
+  const answers = total === 1 ? 'Answer' : 'Answers';
+  return `Rarest ${nounTitle} — All ${total} ${answers} Ranked by Rarity`;
+}
+
+function buildUnrankedDescription(nounPhrase: string, count: number): string {
+  const group = count === 1 ? nounPhrase : pluralHead(nounPhrase);
+  return capMeta(
+    `${count} ${group}. None of these answers has an English Wikipedia article, so none is ranked as the rarest.`,
+  );
 }
 
 function buildDescription(
@@ -347,10 +394,11 @@ function buildDescription(
 
 export function derivePromptSeo(input: PromptInput): PromptSeo {
   const answers = [...input.answers].sort(compareAnswers);
-  const rare = answers[0];
-  if (!rare) throw new Error(`Prompt ${input.slug} has no answers`);
+  if (answers.length === 0) throw new Error(`Prompt ${input.slug} has no answers`);
+  const ranked = rankedAnswers(answers);
+  const rare = ranked[0];
   const { nounTitle, nounPhrase } = deriveNoun(input.question, input.seoNoun);
-  const heading = buildHeading(nounTitle, answers.length);
+  const heading = buildHeading(nounTitle, answers.length, ranked.length);
   const player = buildPlayerCopy({
     slug: input.slug,
     question: input.question,
@@ -366,21 +414,18 @@ export function derivePromptSeo(input: PromptInput): PromptSeo {
     nounTitle,
     nounPhrase,
     heading,
-    crumb: `Rarest ${nounTitle}`,
-    description: buildDescription(
-      rare,
-      nounPhrase,
-      answers.length,
-      input.question,
-      input.source,
-      input.seoNoun,
-    ),
-    intro: player.lead,
+    crumb: ranked.length > 0 ? `Rarest ${nounTitle}` : nounTitle,
+    description: rare
+      ? buildDescription(rare, nounPhrase, answers.length, input.question, input.source, input.seoNoun)
+      : buildUnrankedDescription(nounPhrase, answers.length),
+    intro: `${rarityBasis(input.source)} ${player.lead}`,
     guide: player.guide,
     viewsNote: player.viewsNote,
     viewsHeading: player.viewsHeading,
     sourceNote: player.sourceNote,
     tableCaption: player.tableCaption,
+    dataUpdated: dataUpdatedLine(input.source),
+    noDataNote: noDataExplanation(answers),
     answers,
     faq: player.faq,
   };
@@ -487,10 +532,10 @@ function hubMeasure(prompts: readonly { source: string }[]): string {
   const wiki = kinds.has('wikipedia');
   const wikt = kinds.has('wiktionary');
   const stored = kinds.has('stored');
-  if (wiki && !wikt && !stored) return 'Wikipedia views, last 12 months';
-  if (wikt && !wiki && !stored) return 'Wiktionary views, last 12 months';
+  if (wiki && !wikt && !stored) return 'English Wikipedia pageviews, last 12 months';
+  if (wikt && !wiki && !stored) return 'English Wiktionary pageviews, last 12 months';
   if (wiki && wikt && !stored) {
-    return 'Wikipedia views, last 12 months, or Wiktionary views, last 12 months, in that set';
+    return 'English Wikipedia pageviews, last 12 months, or English Wiktionary pageviews, last 12 months, in that set';
   }
   return 'stored figure in that set';
 }
@@ -506,9 +551,10 @@ export function hubDescription(prompts: readonly { source?: string; answers: rea
     typeof prompt.source === 'string',
   );
   const measure = sourced.length === prompts.length ? hubMeasure(sourced) : 'stored figure in that set';
-  const full = `Rarest answers for ${prompts.length} ${promptWord} and ${answers.toLocaleString('en-US')} ranked ${answerWord}. Each card’s rarest name has the fewest ${measure}.`;
+  const notPlayers = ' Not a count of player answers.';
+  const full = `Rarest answers for ${prompts.length} ${promptWord} and ${answers.toLocaleString('en-US')} accepted ${answerWord}. Each card’s rarest name has the fewest ${measure}.${notPlayers}`;
   if (full.length <= 165) return full;
-  const short = `Rarest answers for ${prompts.length} ${promptWord}. Each card’s rarest name has the fewest ${measure}.`;
+  const short = `Rarest answers for ${prompts.length} ${promptWord}. Each card’s rarest name has the fewest ${measure}.${notPlayers}`;
   return capMeta(short);
 }
 
@@ -522,5 +568,27 @@ export function hubIntro(prompts: readonly PromptSeo[]): string {
   const promptWord = prompts.length === 1 ? 'prompt' : 'prompts';
   const answerWord = answers === 1 ? 'answer' : 'answers';
   const measure = hubMeasure(prompts);
-  return `Each card shows that prompt’s rarest accepted answer: the name with the fewest ${measure}. This index has ${prompts.length} ${promptWord} in ${where}, and ${answers.toLocaleString('en-US')} ranked ${answerWord}. Open a prompt for the full list, the aliases that count, and which names score high.`;
+  const basis = catalogBasis(prompts);
+  const updated = sharedUpdated(prompts);
+  const updatedSentence = updated ? ` ${updated}` : '';
+  return `${basis} Each card shows that prompt’s rarest ranked answer: the name with the fewest ${measure}. Answers with no English Wikipedia article are not called the rarest. This index has ${prompts.length} ${promptWord} in ${where}, and ${answers.toLocaleString('en-US')} accepted ${answerWord}. Open a prompt for the full list, the aliases that count, and which names score high.${updatedSentence}`;
+}
+
+function catalogBasis(prompts: readonly { source: string }[]): string {
+  const kinds = new Set(prompts.map((prompt) => measureKind(prompt.source)));
+  const wiki = kinds.has('wikipedia');
+  const wikt = kinds.has('wiktionary');
+  const stored = kinds.has('stored');
+  if (wiki && !wikt && !stored) return rarityBasis('Wikipedia pageviews');
+  if (wikt && !wiki && !stored) return rarityBasis('Wiktionary pageviews');
+  if (stored && !wiki && !wikt) return rarityBasis('stored popularity');
+  return 'When a prompt names Wikipedia, rarity comes from English Wikipedia pageviews over the last 12 months, not from player answers. A Wiktionary source uses English Wiktionary pageviews over the last 12 months. Any other source is stored popularity, not player answers.';
+}
+
+function sharedUpdated(prompts: readonly { source: string }[]): string | null {
+  if (prompts.length === 0) return null;
+  const lines = prompts.map((prompt) => dataUpdatedLine(prompt.source));
+  const first = lines[0];
+  if (!first || lines.some((line) => line !== first)) return null;
+  return first;
 }

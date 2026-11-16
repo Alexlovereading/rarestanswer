@@ -92,7 +92,7 @@ With the timer off, a wrong guess only shakes. Pass still scores 0. Turning the 
 
 The game reads the tier stored on the answer. It does not recompute fame while you type.
 
-The files are ranked inside one prompt. The signal is English Wikipedia pageviews, or English Wiktionary pageviews for a word prompt, summed over the 12 complete months from November 2025 through October 2026. A source line of `Wikidata + Wikipedia pageviews (2026-10)` means that window. The figure on an answer page is the sum, not an average month and not a count of what players typed.
+The files are ranked inside one prompt. The signal is English Wikipedia pageviews, summed over the 12 complete months from November 2025 through October 2026. The interjections prompt is the exception: its source line is Wikidata lexemes plus English Wiktionary pageviews for the same window. A source line of `Wikidata + Wikipedia pageviews (2026-10)` means that window. The figure on an answer page is the sum, not an average month and not a count of what players typed.
 
 Rarity is the inverted average-rank percentile of that sum, so 1 is the least viewed name in the prompt. Ties share a rarity. The cuts are Common below 0.2, Familiar below 0.4, Uncommon below 0.6, Rare below 0.8, Epic below 0.93, and Legendary from 0.93 up. Wikimedia's [page view reference](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html) says those endpoints report views for Wikimedia projects, with data from 1 July 2015.
 

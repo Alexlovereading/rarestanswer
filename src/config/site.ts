@@ -73,9 +73,10 @@ export const site: SiteConfig = {
   name: 'Rarest Answer',
   shortName: 'Rarest Answer',
   description:
-    'Play Rarest Answer, a free daily trivia game where the rarest correct answer wins. Read guides and pages about similar daily games.',
+    'Rarest Answer on rarestanswer.xyz: a free daily trivia game with public answer rankings for every prompt, scored by Wikipedia pageviews, set in a star-observatory world.',
   domain: 'rarestanswer.xyz',
-  tagline: 'The daily trivia game where the rarest correct answer wins',
+  tagline:
+    'Rarest Answer on rarestanswer.xyz: a free daily trivia game with public answer rankings for every prompt, scored by Wikipedia pageviews, set in a star-observatory world.',
   legalNotice:
     'Rarest Answer is an independent daily trivia game. Pages about other games are unofficial and are not affiliated with those games.',
   // Set a real address if you run no social channels — the contact page

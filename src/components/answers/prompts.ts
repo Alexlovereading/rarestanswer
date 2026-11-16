@@ -232,8 +232,12 @@ function parseAnswer(value: unknown, file: string, index: number): Answer {
     const trimmed = obj.wiki.trim();
     wiki = trimmed === '' ? undefined : trimmed;
   }
-  const answer: Answer = { name, aliases, popularity, rarity, tier };
+  const answer: Answer & { noData?: true } = { name, aliases, popularity, rarity, tier };
   if (wiki) answer.wiki = wiki;
+  if (obj.noData === true) answer.noData = true;
+  else if (obj.noData != null && obj.noData !== false) {
+    throw new Error(`prompts/${label}: noData must be true or false when present`);
+  }
   return answer;
 }
 

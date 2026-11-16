@@ -6,20 +6,10 @@
   "source": "Wikidata + Wikipedia pageviews (2026-10)",
   "answers": [
     {
-      "name": "Pastasciutta antifascista",
-      "aliases": [
-        "Anti-fascist pasta"
-      ],
-      "popularity": 0,
-      "rarity": 1,
-      "tier": 6,
-      "wiki": "Pastasciutta antifascista"
-    },
-    {
       "name": "Pumpkin flower fritter",
       "aliases": [],
       "popularity": 70,
-      "rarity": 0.984,
+      "rarity": 1,
       "tier": 6,
       "wiki": "Pumpkin flower fritter"
     },
@@ -30,7 +20,7 @@
         "Pizzaridd"
       ],
       "popularity": 322,
-      "rarity": 0.968,
+      "rarity": 0.984,
       "tier": 6,
       "wiki": "Pizzarello (food)"
     },
@@ -38,7 +28,7 @@
       "name": "Ciambella romagnola",
       "aliases": [],
       "popularity": 862,
-      "rarity": 0.952,
+      "rarity": 0.968,
       "tier": 6,
       "wiki": "Ciambella romagnola"
     },
@@ -46,7 +36,7 @@
       "name": "Polpettone di melanzane",
       "aliases": [],
       "popularity": 889,
-      "rarity": 0.937,
+      "rarity": 0.952,
       "tier": 6,
       "wiki": "Polpettone di melanzane"
     },
@@ -56,15 +46,15 @@
         "Mazzerelle"
       ],
       "popularity": 1038,
-      "rarity": 0.921,
-      "tier": 5,
+      "rarity": 0.935,
+      "tier": 6,
       "wiki": "Mazzarelle"
     },
     {
       "name": "Caldume",
       "aliases": [],
       "popularity": 1271,
-      "rarity": 0.905,
+      "rarity": 0.919,
       "tier": 5,
       "wiki": "Caldume"
     },
@@ -72,7 +62,7 @@
       "name": "Batsoà",
       "aliases": [],
       "popularity": 1364,
-      "rarity": 0.889,
+      "rarity": 0.903,
       "tier": 5,
       "wiki": "Batsoà"
     },
@@ -80,7 +70,7 @@
       "name": "Pasta â Paolina",
       "aliases": [],
       "popularity": 1715,
-      "rarity": 0.873,
+      "rarity": 0.887,
       "tier": 5,
       "wiki": "Pasta â Paolina"
     },
@@ -88,7 +78,7 @@
       "name": "Rigatoni con la pajata",
       "aliases": [],
       "popularity": 2052,
-      "rarity": 0.857,
+      "rarity": 0.871,
       "tier": 5,
       "wiki": "Rigatoni con la pajata"
     },
@@ -96,7 +86,7 @@
       "name": "Acquasale",
       "aliases": [],
       "popularity": 2374,
-      "rarity": 0.841,
+      "rarity": 0.855,
       "tier": 5,
       "wiki": "Acquasale"
     },
@@ -104,7 +94,7 @@
       "name": "Torcinello",
       "aliases": [],
       "popularity": 2572,
-      "rarity": 0.825,
+      "rarity": 0.839,
       "tier": 5,
       "wiki": "Torcinello"
     },
@@ -112,7 +102,7 @@
       "name": "Zucchine alla scapece",
       "aliases": [],
       "popularity": 2690,
-      "rarity": 0.81,
+      "rarity": 0.823,
       "tier": 5,
       "wiki": "Zucchine alla scapece"
     },
@@ -122,15 +112,15 @@
         "pan rozzo"
       ],
       "popularity": 2730,
-      "rarity": 0.794,
-      "tier": 4,
+      "rarity": 0.806,
+      "tier": 5,
       "wiki": "Parrozzo"
     },
     {
       "name": "Sartù di riso",
       "aliases": [],
       "popularity": 4205,
-      "rarity": 0.778,
+      "rarity": 0.79,
       "tier": 4,
       "wiki": "Sartù di riso"
     },
@@ -140,7 +130,7 @@
         "pane frattau"
       ],
       "popularity": 4298,
-      "rarity": 0.762,
+      "rarity": 0.774,
       "tier": 4,
       "wiki": "Pane fratau"
     },
@@ -150,7 +140,7 @@
         "boconotto"
       ],
       "popularity": 4356,
-      "rarity": 0.746,
+      "rarity": 0.758,
       "tier": 4,
       "wiki": "Bocconotto"
     },
@@ -163,7 +153,7 @@
         "pizzalandrea"
       ],
       "popularity": 4372,
-      "rarity": 0.73,
+      "rarity": 0.742,
       "tier": 4,
       "wiki": "Sardenaira"
     },
@@ -171,7 +161,7 @@
       "name": "Coniglio alla sanremese",
       "aliases": [],
       "popularity": 4575,
-      "rarity": 0.714,
+      "rarity": 0.726,
       "tier": 4,
       "wiki": "Coniglio alla sanremese"
     },
@@ -181,7 +171,7 @@
         "Tigella"
       ],
       "popularity": 5234,
-      "rarity": 0.698,
+      "rarity": 0.71,
       "tier": 4,
       "wiki": "Crescentina modenese"
     },
@@ -191,7 +181,7 @@
         "Cuccìa PAT"
       ],
       "popularity": 5374,
-      "rarity": 0.683,
+      "rarity": 0.694,
       "tier": 4,
       "wiki": "Cuccìa"
     },
@@ -199,7 +189,7 @@
       "name": "Macaroni soup",
       "aliases": [],
       "popularity": 5615,
-      "rarity": 0.667,
+      "rarity": 0.677,
       "tier": 4,
       "wiki": "Macaroni soup"
     },
@@ -209,7 +199,7 @@
         "Brüscitt"
       ],
       "popularity": 5650,
-      "rarity": 0.651,
+      "rarity": 0.661,
       "tier": 4,
       "wiki": "Bruscitti"
     },
@@ -219,7 +209,7 @@
         "Sarde in saor PAT"
       ],
       "popularity": 5829,
-      "rarity": 0.635,
+      "rarity": 0.645,
       "tier": 4,
       "wiki": "Sarde in saor"
     },
@@ -227,7 +217,7 @@
       "name": "Pasta mollicata",
       "aliases": [],
       "popularity": 6267,
-      "rarity": 0.619,
+      "rarity": 0.629,
       "tier": 4,
       "wiki": "Pasta mollicata"
     },
@@ -235,7 +225,7 @@
       "name": "Pagliata",
       "aliases": [],
       "popularity": 6781,
-      "rarity": 0.603,
+      "rarity": 0.613,
       "tier": 4,
       "wiki": "Pagliata"
     },
@@ -243,7 +233,7 @@
       "name": "Ciccioli",
       "aliases": [],
       "popularity": 7403,
-      "rarity": 0.587,
+      "rarity": 0.597,
       "tier": 3,
       "wiki": "Ciccioli"
     },
@@ -253,7 +243,7 @@
         "amatriciana sauce"
       ],
       "popularity": 7708,
-      "rarity": 0.571,
+      "rarity": 0.581,
       "tier": 3,
       "wiki": "Amatriciana"
     },
@@ -261,7 +251,7 @@
       "name": "Agliata",
       "aliases": [],
       "popularity": 8936,
-      "rarity": 0.556,
+      "rarity": 0.565,
       "tier": 3,
       "wiki": "Agliata"
     },
@@ -273,7 +263,7 @@
         "csanzöi"
       ],
       "popularity": 9117,
-      "rarity": 0.54,
+      "rarity": 0.548,
       "tier": 3,
       "wiki": "Casunziei"
     },
@@ -281,7 +271,7 @@
       "name": "Baccalà mantecato",
       "aliases": [],
       "popularity": 10521,
-      "rarity": 0.524,
+      "rarity": 0.532,
       "tier": 3,
       "wiki": "Baccalà mantecato"
     },
@@ -289,7 +279,7 @@
       "name": "Gnocchi alla romana",
       "aliases": [],
       "popularity": 10654,
-      "rarity": 0.508,
+      "rarity": 0.516,
       "tier": 3,
       "wiki": "Gnocchi alla romana"
     },
@@ -297,15 +287,25 @@
       "name": "Orzotto",
       "aliases": [],
       "popularity": 11479,
-      "rarity": 0.492,
+      "rarity": 0.5,
       "tier": 3,
       "wiki": "Orzotto"
+    },
+    {
+      "name": "Pastasciutta antifascista",
+      "aliases": [
+        "Anti-fascist pasta"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
     },
     {
       "name": "Pasta con le sarde",
       "aliases": [],
       "popularity": 11568,
-      "rarity": 0.476,
+      "rarity": 0.484,
       "tier": 3,
       "wiki": "Pasta con le sarde"
     },
@@ -316,7 +316,7 @@
         "stuffed pasta"
       ],
       "popularity": 12101,
-      "rarity": 0.46,
+      "rarity": 0.468,
       "tier": 3,
       "wiki": "Filled pasta"
     },
@@ -324,7 +324,7 @@
       "name": "Seafood pizza",
       "aliases": [],
       "popularity": 12876,
-      "rarity": 0.444,
+      "rarity": 0.452,
       "tier": 3,
       "wiki": "Seafood pizza"
     },
@@ -334,7 +334,7 @@
         "olive ascolane ripiene"
       ],
       "popularity": 13387,
-      "rarity": 0.429,
+      "rarity": 0.435,
       "tier": 3,
       "wiki": "Olive all'ascolana"
     },
@@ -348,7 +348,7 @@
         "struki"
       ],
       "popularity": 14072,
-      "rarity": 0.413,
+      "rarity": 0.419,
       "tier": 3,
       "wiki": "Štruklji"
     },
@@ -356,8 +356,8 @@
       "name": "Trippa alla romana",
       "aliases": [],
       "popularity": 17473,
-      "rarity": 0.397,
-      "tier": 2,
+      "rarity": 0.403,
+      "tier": 3,
       "wiki": "Trippa alla romana"
     },
     {
@@ -366,7 +366,7 @@
         "crostino"
       ],
       "popularity": 19113,
-      "rarity": 0.381,
+      "rarity": 0.387,
       "tier": 2,
       "wiki": "Crostini"
     },
@@ -376,7 +376,7 @@
         "Pissalandrea or Pissaladière"
       ],
       "popularity": 20531,
-      "rarity": 0.365,
+      "rarity": 0.371,
       "tier": 2,
       "wiki": "Pissaladière"
     },
@@ -386,7 +386,7 @@
         "Carne pizzaiola"
       ],
       "popularity": 22369,
-      "rarity": 0.349,
+      "rarity": 0.355,
       "tier": 2,
       "wiki": "Pizzaiola"
     },
@@ -394,7 +394,7 @@
       "name": "Tramezzino",
       "aliases": [],
       "popularity": 25045,
-      "rarity": 0.333,
+      "rarity": 0.339,
       "tier": 2,
       "wiki": "Tramezzino"
     },
@@ -402,7 +402,7 @@
       "name": "Supplì",
       "aliases": [],
       "popularity": 25390,
-      "rarity": 0.317,
+      "rarity": 0.323,
       "tier": 2,
       "wiki": "Supplì"
     },
@@ -412,7 +412,7 @@
         "Stracciatella (soup)"
       ],
       "popularity": 34212,
-      "rarity": 0.302,
+      "rarity": 0.306,
       "tier": 2,
       "wiki": "Stracciatella (soup)"
     },
@@ -420,7 +420,7 @@
       "name": "Lampredotto",
       "aliases": [],
       "popularity": 35822,
-      "rarity": 0.286,
+      "rarity": 0.29,
       "tier": 2,
       "wiki": "Lampredotto"
     },
@@ -432,7 +432,7 @@
         "tomato pasta"
       ],
       "popularity": 39215,
-      "rarity": 0.27,
+      "rarity": 0.274,
       "tier": 2,
       "wiki": "Pasta al pomodoro"
     },
@@ -440,7 +440,7 @@
       "name": "Spaghetti alle vongole",
       "aliases": [],
       "popularity": 41052,
-      "rarity": 0.254,
+      "rarity": 0.258,
       "tier": 2,
       "wiki": "Spaghetti alle vongole"
     },
@@ -454,7 +454,7 @@
         "quattro stagioni"
       ],
       "popularity": 43425,
-      "rarity": 0.238,
+      "rarity": 0.242,
       "tier": 2,
       "wiki": "Pizza quattro stagioni"
     },
@@ -462,7 +462,7 @@
       "name": "Ribollita",
       "aliases": [],
       "popularity": 44502,
-      "rarity": 0.222,
+      "rarity": 0.226,
       "tier": 2,
       "wiki": "Ribollita"
     },
@@ -472,7 +472,7 @@
         "garlic bread roll"
       ],
       "popularity": 57791,
-      "rarity": 0.206,
+      "rarity": 0.21,
       "tier": 2,
       "wiki": "Garlic bread"
     },
@@ -483,7 +483,7 @@
         "Quattro formaggi pizza"
       ],
       "popularity": 64751,
-      "rarity": 0.19,
+      "rarity": 0.194,
       "tier": 1,
       "wiki": "Pizza quattro formaggi"
     },
@@ -493,7 +493,7 @@
         "noodle salad"
       ],
       "popularity": 80542,
-      "rarity": 0.175,
+      "rarity": 0.177,
       "tier": 1,
       "wiki": "Pasta salad"
     },
@@ -501,7 +501,7 @@
       "name": "Parmigiana",
       "aliases": [],
       "popularity": 91700,
-      "rarity": 0.159,
+      "rarity": 0.161,
       "tier": 1,
       "wiki": "Parmigiana"
     },
@@ -511,7 +511,7 @@
         "cacciatora"
       ],
       "popularity": 113252,
-      "rarity": 0.143,
+      "rarity": 0.145,
       "tier": 1,
       "wiki": "Cacciatore"
     },
@@ -519,7 +519,7 @@
       "name": "Ragù",
       "aliases": [],
       "popularity": 126583,
-      "rarity": 0.127,
+      "rarity": 0.129,
       "tier": 1,
       "wiki": "Ragù"
     },
@@ -527,7 +527,7 @@
       "name": "Cacio e pepe",
       "aliases": [],
       "popularity": 178642,
-      "rarity": 0.111,
+      "rarity": 0.113,
       "tier": 1,
       "wiki": "Cacio e pepe"
     },
@@ -537,7 +537,7 @@
         "brawn"
       ],
       "popularity": 179178,
-      "rarity": 0.095,
+      "rarity": 0.097,
       "tier": 1,
       "wiki": "Head cheese"
     },
@@ -547,7 +547,7 @@
         "lasagne"
       ],
       "popularity": 235828,
-      "rarity": 0.079,
+      "rarity": 0.081,
       "tier": 1,
       "wiki": "Lasagna"
     },
@@ -555,7 +555,7 @@
       "name": "Pizza Margherita",
       "aliases": [],
       "popularity": 280188,
-      "rarity": 0.063,
+      "rarity": 0.065,
       "tier": 1,
       "wiki": "Pizza Margherita"
     },

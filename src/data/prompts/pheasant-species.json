@@ -6,23 +6,12 @@
   "source": "Wikidata + Wikipedia pageviews (2026-10)",
   "answers": [
     {
-      "name": "Sumatran peacock-pheasant",
-      "aliases": [
-        "Bronze-tailed Peacock-Pheasant",
-        "Polyplectron chalcurum"
-      ],
-      "popularity": 0,
-      "rarity": 1,
-      "tier": 6,
-      "wiki": "Sumatran peacock-pheasant"
-    },
-    {
       "name": "Malaysian partridge",
       "aliases": [
         "Arborophila campbelli"
       ],
       "popularity": 15,
-      "rarity": 0.992,
+      "rarity": 0.997,
       "tier": 6,
       "wiki": "Malaysian partridge"
     },
@@ -30,7 +19,7 @@
       "name": "Palaealectoris incertus",
       "aliases": [],
       "popularity": 15,
-      "rarity": 0.992,
+      "rarity": 0.997,
       "tier": 6,
       "wiki": "Palaealectoris incertus"
     },
@@ -41,7 +30,7 @@
         "Rheinardia nigrescens"
       ],
       "popularity": 30,
-      "rarity": 0.984,
+      "rarity": 0.99,
       "tier": 6,
       "wiki": "Malaysian crested argus"
     },
@@ -51,7 +40,7 @@
         "Pternistis atrifrons"
       ],
       "popularity": 202,
-      "rarity": 0.979,
+      "rarity": 0.984,
       "tier": 6,
       "wiki": "Black-fronted spurfowl"
     },
@@ -61,7 +50,7 @@
         "Arborophila diversa"
       ],
       "popularity": 269,
-      "rarity": 0.974,
+      "rarity": 0.979,
       "tier": 6,
       "wiki": "Siamese partridge"
     },
@@ -71,7 +60,7 @@
         "Scleroptila whytei"
       ],
       "popularity": 470,
-      "rarity": 0.969,
+      "rarity": 0.974,
       "tier": 6,
       "wiki": "Whyte's francolin"
     },
@@ -82,7 +71,7 @@
         "Pternistis griseostriatus"
       ],
       "popularity": 551,
-      "rarity": 0.964,
+      "rarity": 0.969,
       "tier": 6,
       "wiki": "Grey-striped spurfowl"
     },
@@ -92,7 +81,7 @@
         "Xenoperdix obscuratus"
       ],
       "popularity": 577,
-      "rarity": 0.958,
+      "rarity": 0.963,
       "tier": 6,
       "wiki": "Rubeho forest partridge"
     },
@@ -103,7 +92,7 @@
         "Pternistis icterorhynchus"
       ],
       "popularity": 644,
-      "rarity": 0.953,
+      "rarity": 0.958,
       "tier": 6,
       "wiki": "Heuglin's spurfowl"
     },
@@ -114,7 +103,7 @@
         "Pternistis castaneicollis"
       ],
       "popularity": 665,
-      "rarity": 0.948,
+      "rarity": 0.953,
       "tier": 6,
       "wiki": "Chestnut-naped spurfowl"
     },
@@ -125,7 +114,7 @@
         "Tan-breasted Partridge"
       ],
       "popularity": 673,
-      "rarity": 0.943,
+      "rarity": 0.948,
       "tier": 6,
       "wiki": "Roll's partridge"
     },
@@ -136,7 +125,7 @@
         "Scleroptila finschi"
       ],
       "popularity": 676,
-      "rarity": 0.938,
+      "rarity": 0.942,
       "tier": 6,
       "wiki": "Finsch's francolin"
     },
@@ -146,7 +135,7 @@
         "Pternistis swierstrai"
       ],
       "popularity": 685,
-      "rarity": 0.932,
+      "rarity": 0.937,
       "tier": 6,
       "wiki": "Swierstra's spurfowl"
     },
@@ -157,8 +146,8 @@
         "Pternistis clappertoni"
       ],
       "popularity": 704,
-      "rarity": 0.927,
-      "tier": 5,
+      "rarity": 0.932,
+      "tier": 6,
       "wiki": "Clapperton's spurfowl"
     },
     {
@@ -167,7 +156,7 @@
         "Peliperdix schlegelii"
       ],
       "popularity": 716,
-      "rarity": 0.922,
+      "rarity": 0.927,
       "tier": 5,
       "wiki": "Schlegel's francolin"
     },
@@ -178,7 +167,7 @@
         "Pternistis hildebrandti"
       ],
       "popularity": 746,
-      "rarity": 0.917,
+      "rarity": 0.921,
       "tier": 5,
       "wiki": "Hildebrandt's spurfowl"
     },
@@ -188,7 +177,7 @@
         "Pternistis camerunensis"
       ],
       "popularity": 794,
-      "rarity": 0.911,
+      "rarity": 0.916,
       "tier": 5,
       "wiki": "Mount Cameroon spurfowl"
     },
@@ -198,7 +187,7 @@
         "Arborophila sumatrana"
       ],
       "popularity": 806,
-      "rarity": 0.906,
+      "rarity": 0.911,
       "tier": 5,
       "wiki": "Sumatran partridge"
     },
@@ -209,7 +198,7 @@
         "Pternistis harwoodi"
       ],
       "popularity": 851,
-      "rarity": 0.901,
+      "rarity": 0.906,
       "tier": 5,
       "wiki": "Harwood's spurfowl"
     },
@@ -220,7 +209,7 @@
         "Scaly Francolin"
       ],
       "popularity": 862,
-      "rarity": 0.896,
+      "rarity": 0.901,
       "tier": 5,
       "wiki": "Scaly spurfowl"
     },
@@ -231,7 +220,7 @@
         "Tetraophasis obscurus"
       ],
       "popularity": 875,
-      "rarity": 0.891,
+      "rarity": 0.895,
       "tier": 5,
       "wiki": "Chestnut-throated monal-partridge"
     },
@@ -241,7 +230,7 @@
         "Francolinus hartlaubi"
       ],
       "popularity": 889,
-      "rarity": 0.885,
+      "rarity": 0.89,
       "tier": 5,
       "wiki": "Hartlaub's spurfowl"
     },
@@ -254,7 +243,7 @@
         "Scleroptila psilolaemus"
       ],
       "popularity": 899,
-      "rarity": 0.88,
+      "rarity": 0.885,
       "tier": 5,
       "wiki": "Moorland francolin"
     },
@@ -265,7 +254,7 @@
         "Scleroptila streptophorus"
       ],
       "popularity": 908,
-      "rarity": 0.875,
+      "rarity": 0.88,
       "tier": 5,
       "wiki": "Ring-necked francolin"
     },
@@ -276,7 +265,7 @@
         "Tetraophasis szechenyii"
       ],
       "popularity": 909,
-      "rarity": 0.87,
+      "rarity": 0.874,
       "tier": 5,
       "wiki": "Buff-throated monal-partridge"
     },
@@ -286,7 +275,7 @@
         "Pternistis rufopictus"
       ],
       "popularity": 974,
-      "rarity": 0.865,
+      "rarity": 0.869,
       "tier": 5,
       "wiki": "Grey-breasted spurfowl"
     },
@@ -296,7 +285,7 @@
         "Arborophila cambodiana"
       ],
       "popularity": 996,
-      "rarity": 0.859,
+      "rarity": 0.864,
       "tier": 5,
       "wiki": "Chestnut-headed partridge"
     },
@@ -306,7 +295,7 @@
         "Peliperdix albogularis"
       ],
       "popularity": 1026,
-      "rarity": 0.854,
+      "rarity": 0.859,
       "tier": 5,
       "wiki": "White-throated francolin"
     },
@@ -316,7 +305,7 @@
         "Tropicoperdix graydoni"
       ],
       "popularity": 1060,
-      "rarity": 0.849,
+      "rarity": 0.853,
       "tier": 5,
       "wiki": "Sabah partridge"
     },
@@ -327,7 +316,7 @@
         "White-cheeked Hill Partridge"
       ],
       "popularity": 1080,
-      "rarity": 0.844,
+      "rarity": 0.848,
       "tier": 5,
       "wiki": "White-cheeked partridge"
     },
@@ -339,7 +328,7 @@
         "Pternistis jacksoni"
       ],
       "popularity": 1090,
-      "rarity": 0.839,
+      "rarity": 0.843,
       "tier": 5,
       "wiki": "Jackson's spurfowl"
     },
@@ -349,7 +338,7 @@
         "Arborophila hyperythra"
       ],
       "popularity": 1111,
-      "rarity": 0.833,
+      "rarity": 0.838,
       "tier": 5,
       "wiki": "Red-breasted partridge"
     },
@@ -360,7 +349,7 @@
         "Lophura hoogerwerfi"
       ],
       "popularity": 1133,
-      "rarity": 0.828,
+      "rarity": 0.832,
       "tier": 5,
       "wiki": "Hoogerwerf's pheasant"
     },
@@ -372,7 +361,7 @@
         "Tropicoperdix chloropus"
       ],
       "popularity": 1143,
-      "rarity": 0.823,
+      "rarity": 0.827,
       "tier": 5,
       "wiki": "Green-legged partridge"
     },
@@ -383,7 +372,7 @@
         "White-faced partridge"
       ],
       "popularity": 1150,
-      "rarity": 0.818,
+      "rarity": 0.822,
       "tier": 5,
       "wiki": "Grey-breasted partridge"
     },
@@ -394,7 +383,7 @@
         "Scleroptila shelleyi"
       ],
       "popularity": 1255,
-      "rarity": 0.813,
+      "rarity": 0.817,
       "tier": 5,
       "wiki": "Shelley's francolin"
     },
@@ -404,7 +393,7 @@
         "Scleroptila levaillantii"
       ],
       "popularity": 1297,
-      "rarity": 0.807,
+      "rarity": 0.812,
       "tier": 5,
       "wiki": "Red-winged francolin"
     },
@@ -415,7 +404,7 @@
         "Malay Crestless Fireback"
       ],
       "popularity": 1305,
-      "rarity": 0.802,
+      "rarity": 0.806,
       "tier": 5,
       "wiki": "Crestless fireback"
     },
@@ -427,7 +416,7 @@
         "brown-breasted hill-partridge"
       ],
       "popularity": 1325,
-      "rarity": 0.792,
+      "rarity": 0.796,
       "tier": 4,
       "wiki": "Bar-backed partridge"
     },
@@ -437,7 +426,7 @@
         "Pternistis nobilis"
       ],
       "popularity": 1325,
-      "rarity": 0.792,
+      "rarity": 0.796,
       "tier": 4,
       "wiki": "Handsome spurfowl"
     },
@@ -447,7 +436,7 @@
         "Arborophila davidi"
       ],
       "popularity": 1325,
-      "rarity": 0.792,
+      "rarity": 0.796,
       "tier": 4,
       "wiki": "Orange-necked partridge"
     },
@@ -457,7 +446,7 @@
         "Bambusicola sonorivox"
       ],
       "popularity": 1342,
-      "rarity": 0.781,
+      "rarity": 0.785,
       "tier": 4,
       "wiki": "Taiwan bamboo partridge"
     },
@@ -470,7 +459,7 @@
         "Scleroptila gutturalis"
       ],
       "popularity": 1386,
-      "rarity": 0.773,
+      "rarity": 0.777,
       "tier": 4,
       "wiki": "Orange River francolin"
     },
@@ -480,7 +469,7 @@
         "Xenoperdix udzungwensis"
       ],
       "popularity": 1386,
-      "rarity": 0.773,
+      "rarity": 0.777,
       "tier": 4,
       "wiki": "Udzungwa forest partridge"
     },
@@ -490,7 +479,7 @@
         "Tropicoperdix charltonii"
       ],
       "popularity": 1388,
-      "rarity": 0.766,
+      "rarity": 0.77,
       "tier": 4,
       "wiki": "Chestnut-necklaced partridge"
     },
@@ -500,7 +489,7 @@
         "Meleagris crassipes"
       ],
       "popularity": 1398,
-      "rarity": 0.76,
+      "rarity": 0.764,
       "tier": 4,
       "wiki": "Southwestern turkey"
     },
@@ -510,7 +499,7 @@
         "Arborophila javanica"
       ],
       "popularity": 1411,
-      "rarity": 0.755,
+      "rarity": 0.759,
       "tier": 4,
       "wiki": "Chestnut-bellied partridge"
     },
@@ -521,7 +510,7 @@
         "Rhizothera dulitensis"
       ],
       "popularity": 1451,
-      "rarity": 0.75,
+      "rarity": 0.754,
       "tier": 4,
       "wiki": "Dulit partridge"
     },
@@ -531,7 +520,7 @@
         "Peliperdix lathami"
       ],
       "popularity": 1456,
-      "rarity": 0.745,
+      "rarity": 0.749,
       "tier": 4,
       "wiki": "Latham's francolin"
     },
@@ -542,7 +531,7 @@
         "Taiwan Hill Partridge"
       ],
       "popularity": 1470,
-      "rarity": 0.74,
+      "rarity": 0.743,
       "tier": 4,
       "wiki": "Taiwan partridge"
     },
@@ -553,7 +542,7 @@
         "Hainan Hill Partridge"
       ],
       "popularity": 1529,
-      "rarity": 0.734,
+      "rarity": 0.738,
       "tier": 4,
       "wiki": "Hainan partridge"
     },
@@ -565,7 +554,7 @@
         "Scleroptila africanus"
       ],
       "popularity": 1540,
-      "rarity": 0.729,
+      "rarity": 0.733,
       "tier": 4,
       "wiki": "Grey-winged francolin"
     },
@@ -576,7 +565,7 @@
         "Pternistis ahantensis"
       ],
       "popularity": 1545,
-      "rarity": 0.724,
+      "rarity": 0.728,
       "tier": 4,
       "wiki": "Ahanta spurfowl"
     },
@@ -587,7 +576,7 @@
         "Pternistis bicalcaratus"
       ],
       "popularity": 1551,
-      "rarity": 0.719,
+      "rarity": 0.723,
       "tier": 4,
       "wiki": "Double-spurred spurfowl"
     },
@@ -598,7 +587,7 @@
         "Sichuan Hill Partridge"
       ],
       "popularity": 1557,
-      "rarity": 0.714,
+      "rarity": 0.717,
       "tier": 4,
       "wiki": "Sichuan partridge"
     },
@@ -610,7 +599,7 @@
         "Chestnut-breasted Hill Partridge"
       ],
       "popularity": 1565,
-      "rarity": 0.708,
+      "rarity": 0.712,
       "tier": 4,
       "wiki": "Chestnut-breasted partridge"
     },
@@ -620,7 +609,7 @@
         "Margaroperdix madagarensis"
       ],
       "popularity": 1603,
-      "rarity": 0.703,
+      "rarity": 0.707,
       "tier": 4,
       "wiki": "Madagascar partridge"
     },
@@ -630,7 +619,7 @@
         "Rhizothera longirostris"
       ],
       "popularity": 1666,
-      "rarity": 0.698,
+      "rarity": 0.702,
       "tier": 4,
       "wiki": "Long-billed partridge"
     },
@@ -641,7 +630,7 @@
         "White-necklaced Hill Partridge"
       ],
       "popularity": 1708,
-      "rarity": 0.693,
+      "rarity": 0.696,
       "tier": 4,
       "wiki": "White-necklaced partridge"
     },
@@ -651,7 +640,7 @@
         "Perdix hodgsoniae"
       ],
       "popularity": 1811,
-      "rarity": 0.688,
+      "rarity": 0.691,
       "tier": 4,
       "wiki": "Tibetan partridge"
     },
@@ -661,7 +650,7 @@
         "Lophura pyronota"
       ],
       "popularity": 1859,
-      "rarity": 0.682,
+      "rarity": 0.686,
       "tier": 4,
       "wiki": "Bornean crestless fireback"
     },
@@ -671,7 +660,7 @@
         "Pternistis ochropectus"
       ],
       "popularity": 1863,
-      "rarity": 0.677,
+      "rarity": 0.681,
       "tier": 4,
       "wiki": "Djibouti spurfowl"
     },
@@ -682,7 +671,7 @@
         "Red-billed francolin"
       ],
       "popularity": 1933,
-      "rarity": 0.672,
+      "rarity": 0.675,
       "tier": 4,
       "wiki": "Red-billed spurfowl"
     },
@@ -693,7 +682,7 @@
         "Rusty-necklaced Partridge"
       ],
       "popularity": 1973,
-      "rarity": 0.667,
+      "rarity": 0.67,
       "tier": 4,
       "wiki": "Przevalski's partridge"
     },
@@ -703,7 +692,7 @@
         "Campocolinus coqui"
       ],
       "popularity": 1995,
-      "rarity": 0.661,
+      "rarity": 0.665,
       "tier": 4,
       "wiki": "Coqui francolin"
     },
@@ -713,7 +702,7 @@
         "Galloperdix bicalcarata"
       ],
       "popularity": 2064,
-      "rarity": 0.656,
+      "rarity": 0.66,
       "tier": 4,
       "wiki": "Sri Lanka spurfowl"
     },
@@ -723,7 +712,7 @@
         "Bambusicola fytchii"
       ],
       "popularity": 2107,
-      "rarity": 0.651,
+      "rarity": 0.654,
       "tier": 4,
       "wiki": "Mountain bamboo partridge"
     },
@@ -734,7 +723,7 @@
         "Yellow-necked francolin"
       ],
       "popularity": 2116,
-      "rarity": 0.646,
+      "rarity": 0.649,
       "tier": 4,
       "wiki": "Yellow-necked spurfowl"
     },
@@ -744,7 +733,7 @@
         "Tetrastes sewerzowi"
       ],
       "popularity": 2127,
-      "rarity": 0.641,
+      "rarity": 0.644,
       "tier": 4,
       "wiki": "Chinese grouse"
     },
@@ -754,7 +743,7 @@
         "Haematortyx sanguiniceps"
       ],
       "popularity": 2132,
-      "rarity": 0.635,
+      "rarity": 0.639,
       "tier": 4,
       "wiki": "Crimson-headed partridge"
     },
@@ -765,7 +754,7 @@
         "Crossoptilon harmani"
       ],
       "popularity": 2136,
-      "rarity": 0.63,
+      "rarity": 0.634,
       "tier": 4,
       "wiki": "Tibetan eared pheasant"
     },
@@ -776,7 +765,7 @@
         "Rufous-throated Hill Partridge"
       ],
       "popularity": 2160,
-      "rarity": 0.625,
+      "rarity": 0.628,
       "tier": 4,
       "wiki": "Rufous-throated partridge"
     },
@@ -788,7 +777,7 @@
         "Pternistis natalensis"
       ],
       "popularity": 2173,
-      "rarity": 0.62,
+      "rarity": 0.623,
       "tier": 4,
       "wiki": "Natal spurfowl"
     },
@@ -799,7 +788,7 @@
         "Ortygornis gularis"
       ],
       "popularity": 2243,
-      "rarity": 0.615,
+      "rarity": 0.618,
       "tier": 4,
       "wiki": "Swamp francolin"
     },
@@ -809,7 +798,7 @@
         "Alectoris philbyi"
       ],
       "popularity": 2263,
-      "rarity": 0.609,
+      "rarity": 0.613,
       "tier": 4,
       "wiki": "Philby's partridge"
     },
@@ -819,7 +808,7 @@
         "Perdicula erythrorhyncha"
       ],
       "popularity": 2305,
-      "rarity": 0.604,
+      "rarity": 0.607,
       "tier": 4,
       "wiki": "Painted bush quail"
     },
@@ -829,8 +818,8 @@
         "Perdicula argoondah"
       ],
       "popularity": 2371,
-      "rarity": 0.599,
-      "tier": 3,
+      "rarity": 0.602,
+      "tier": 4,
       "wiki": "Rock bush quail"
     },
     {
@@ -839,7 +828,7 @@
         "Galloperdix lunulata"
       ],
       "popularity": 2394,
-      "rarity": 0.594,
+      "rarity": 0.597,
       "tier": 3,
       "wiki": "Painted spurfowl"
     },
@@ -851,7 +840,7 @@
         "Melanoperdix nigra"
       ],
       "popularity": 2398,
-      "rarity": 0.589,
+      "rarity": 0.592,
       "tier": 3,
       "wiki": "Black partridge"
     },
@@ -861,7 +850,7 @@
         "Tetraogallus altaicus"
       ],
       "popularity": 2418,
-      "rarity": 0.583,
+      "rarity": 0.586,
       "tier": 3,
       "wiki": "Altai snowcock"
     },
@@ -871,7 +860,7 @@
         "Tetraogallus caucasicus"
       ],
       "popularity": 2421,
-      "rarity": 0.578,
+      "rarity": 0.581,
       "tier": 3,
       "wiki": "Caucasian snowcock"
     },
@@ -881,7 +870,7 @@
         "Synoicus monorthonyx"
       ],
       "popularity": 2489,
-      "rarity": 0.573,
+      "rarity": 0.576,
       "tier": 3,
       "wiki": "Snow Mountain quail"
     },
@@ -891,7 +880,7 @@
         "Arborophila rubrirostris"
       ],
       "popularity": 2518,
-      "rarity": 0.568,
+      "rarity": 0.571,
       "tier": 3,
       "wiki": "Red-billed partridge"
     },
@@ -902,7 +891,7 @@
         "Salvadoriís pheasant"
       ],
       "popularity": 2561,
-      "rarity": 0.563,
+      "rarity": 0.565,
       "tier": 3,
       "wiki": "Salvadori's pheasant"
     },
@@ -913,7 +902,7 @@
         "Pternistis erckelii"
       ],
       "popularity": 2592,
-      "rarity": 0.557,
+      "rarity": 0.56,
       "tier": 3,
       "wiki": "Erckel's spurfowl"
     },
@@ -923,7 +912,7 @@
         "Pternistis afer"
       ],
       "popularity": 2614,
-      "rarity": 0.552,
+      "rarity": 0.555,
       "tier": 3,
       "wiki": "Red-necked spurfowl"
     },
@@ -933,7 +922,7 @@
         "Tetraogallus caspius"
       ],
       "popularity": 2676,
-      "rarity": 0.547,
+      "rarity": 0.55,
       "tier": 3,
       "wiki": "Caspian snowcock"
     },
@@ -943,7 +932,7 @@
         "Francolinus pintadeanus"
       ],
       "popularity": 2751,
-      "rarity": 0.542,
+      "rarity": 0.545,
       "tier": 3,
       "wiki": "Chinese francolin"
     },
@@ -953,7 +942,7 @@
         "Alectoris melanocephala"
       ],
       "popularity": 2771,
-      "rarity": 0.536,
+      "rarity": 0.539,
       "tier": 3,
       "wiki": "Arabian partridge"
     },
@@ -963,7 +952,7 @@
         "Lophophorus lhuysii"
       ],
       "popularity": 2788,
-      "rarity": 0.531,
+      "rarity": 0.534,
       "tier": 3,
       "wiki": "Chinese monal"
     },
@@ -973,7 +962,7 @@
         "Polyplectron katsumatae"
       ],
       "popularity": 2850,
-      "rarity": 0.526,
+      "rarity": 0.529,
       "tier": 3,
       "wiki": "Hainan peacock-pheasant"
     },
@@ -985,7 +974,7 @@
         "Pternistis swainsonii"
       ],
       "popularity": 2878,
-      "rarity": 0.521,
+      "rarity": 0.524,
       "tier": 3,
       "wiki": "Swainson's spurfowl"
     },
@@ -995,7 +984,7 @@
         "Dendroperdix sephaena"
       ],
       "popularity": 2887,
-      "rarity": 0.516,
+      "rarity": 0.518,
       "tier": 3,
       "wiki": "Crested francolin"
     },
@@ -1006,7 +995,7 @@
         "Common Hill Partridge"
       ],
       "popularity": 2897,
-      "rarity": 0.51,
+      "rarity": 0.513,
       "tier": 3,
       "wiki": "Hill partridge"
     },
@@ -1017,7 +1006,7 @@
         "Sclaterís monal"
       ],
       "popularity": 2904,
-      "rarity": 0.505,
+      "rarity": 0.508,
       "tier": 3,
       "wiki": "Sclater's monal"
     },
@@ -1027,9 +1016,20 @@
         "Lophura imperialis"
       ],
       "popularity": 2973,
-      "rarity": 0.5,
+      "rarity": 0.503,
       "tier": 3,
       "wiki": "Imperial pheasant"
+    },
+    {
+      "name": "Sumatran peacock-pheasant",
+      "aliases": [
+        "Bronze-tailed Peacock-Pheasant",
+        "Polyplectron chalcurum"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
     },
     {
       "name": "Manipur bush quail",
@@ -1037,7 +1037,7 @@
         "Perdicula manipurensis"
       ],
       "popularity": 2979,
-      "rarity": 0.495,
+      "rarity": 0.497,
       "tier": 3,
       "wiki": "Manipur bush quail"
     },
@@ -1048,7 +1048,7 @@
         "Malay Crested Fireback"
       ],
       "popularity": 2986,
-      "rarity": 0.49,
+      "rarity": 0.492,
       "tier": 3,
       "wiki": "Malayan crested fireback"
     },
@@ -1058,7 +1058,7 @@
         "Ammoperdix griseogularis"
       ],
       "popularity": 2994,
-      "rarity": 0.484,
+      "rarity": 0.487,
       "tier": 3,
       "wiki": "See-see partridge"
     },
@@ -1068,7 +1068,7 @@
         "Perdix dauurica"
       ],
       "popularity": 3068,
-      "rarity": 0.479,
+      "rarity": 0.482,
       "tier": 3,
       "wiki": "Daurian partridge"
     },
@@ -1079,7 +1079,7 @@
         "Polyplectron germaini"
       ],
       "popularity": 3143,
-      "rarity": 0.474,
+      "rarity": 0.476,
       "tier": 3,
       "wiki": "Germain's peacock-pheasant"
     },
@@ -1089,7 +1089,7 @@
         "Crossoptilon mantchuricum"
       ],
       "popularity": 3327,
-      "rarity": 0.469,
+      "rarity": 0.471,
       "tier": 3,
       "wiki": "Brown eared pheasant"
     },
@@ -1099,7 +1099,7 @@
         "Polyplectron inopinatum"
       ],
       "popularity": 3436,
-      "rarity": 0.464,
+      "rarity": 0.466,
       "tier": 3,
       "wiki": "Mountain peacock-pheasant"
     },
@@ -1109,7 +1109,7 @@
         "Crossoptilon auritum"
       ],
       "popularity": 3447,
-      "rarity": 0.458,
+      "rarity": 0.461,
       "tier": 3,
       "wiki": "Blue eared pheasant"
     },
@@ -1119,7 +1119,7 @@
         "Ammoperdix heyi"
       ],
       "popularity": 3462,
-      "rarity": 0.453,
+      "rarity": 0.455,
       "tier": 3,
       "wiki": "Sand partridge"
     },
@@ -1130,7 +1130,7 @@
         "Caloperdix oculeus"
       ],
       "popularity": 3481,
-      "rarity": 0.448,
+      "rarity": 0.45,
       "tier": 3,
       "wiki": "Ferruginous partridge"
     },
@@ -1140,7 +1140,7 @@
         "Galloperdix spadicea"
       ],
       "popularity": 3849,
-      "rarity": 0.443,
+      "rarity": 0.445,
       "tier": 3,
       "wiki": "Red spurfowl"
     },
@@ -1150,7 +1150,7 @@
         "Falcipennis falcipennis"
       ],
       "popularity": 3912,
-      "rarity": 0.438,
+      "rarity": 0.44,
       "tier": 3,
       "wiki": "Siberian grouse"
     },
@@ -1161,7 +1161,7 @@
         "Bambusicola thoracicus"
       ],
       "popularity": 3955,
-      "rarity": 0.432,
+      "rarity": 0.435,
       "tier": 3,
       "wiki": "Chinese bamboo partridge"
     },
@@ -1171,7 +1171,7 @@
         "Tetraogallus tibetanus"
       ],
       "popularity": 3959,
-      "rarity": 0.427,
+      "rarity": 0.429,
       "tier": 3,
       "wiki": "Tibetan snowcock"
     },
@@ -1181,7 +1181,7 @@
         "Pternistis capensis"
       ],
       "popularity": 4160,
-      "rarity": 0.422,
+      "rarity": 0.424,
       "tier": 3,
       "wiki": "Cape spurfowl"
     },
@@ -1194,7 +1194,7 @@
         "Tetrao mlokosiewiczi"
       ],
       "popularity": 4327,
-      "rarity": 0.417,
+      "rarity": 0.419,
       "tier": 3,
       "wiki": "Caucasian grouse"
     },
@@ -1206,7 +1206,7 @@
         "Rheinartia ocellata"
       ],
       "popularity": 4391,
-      "rarity": 0.411,
+      "rarity": 0.414,
       "tier": 3,
       "wiki": "Vietnamese crested argus"
     },
@@ -1216,7 +1216,7 @@
         "Synoicus adansonii"
       ],
       "popularity": 4394,
-      "rarity": 0.406,
+      "rarity": 0.408,
       "tier": 3,
       "wiki": "Blue quail"
     },
@@ -1226,7 +1226,7 @@
         "Perdicula asiatica"
       ],
       "popularity": 4401,
-      "rarity": 0.401,
+      "rarity": 0.403,
       "tier": 3,
       "wiki": "Jungle bush quail"
     },
@@ -1236,7 +1236,7 @@
         "Lerwa lerwa"
       ],
       "popularity": 4502,
-      "rarity": 0.396,
+      "rarity": 0.398,
       "tier": 2,
       "wiki": "Snow partridge"
     },
@@ -1247,7 +1247,7 @@
         "Lophura bulweri"
       ],
       "popularity": 4525,
-      "rarity": 0.391,
+      "rarity": 0.393,
       "tier": 2,
       "wiki": "Bulwer's pheasant"
     },
@@ -1258,7 +1258,7 @@
         "Syrmaticus ellioti"
       ],
       "popularity": 4681,
-      "rarity": 0.385,
+      "rarity": 0.387,
       "tier": 2,
       "wiki": "Elliot's pheasant"
     },
@@ -1268,7 +1268,7 @@
         "Polyplectron schleiermacheri"
       ],
       "popularity": 4690,
-      "rarity": 0.38,
+      "rarity": 0.382,
       "tier": 2,
       "wiki": "Bornean peacock-pheasant"
     },
@@ -1278,7 +1278,7 @@
         "Lophura hatinhensis"
       ],
       "popularity": 4702,
-      "rarity": 0.375,
+      "rarity": 0.377,
       "tier": 2,
       "wiki": "Vietnamese pheasant"
     },
@@ -1289,7 +1289,7 @@
         "Tragopan caboti"
       ],
       "popularity": 4807,
-      "rarity": 0.37,
+      "rarity": 0.372,
       "tier": 2,
       "wiki": "Cabot's tragopan"
     },
@@ -1300,7 +1300,7 @@
         "Lophura ignita"
       ],
       "popularity": 5185,
-      "rarity": 0.365,
+      "rarity": 0.366,
       "tier": 2,
       "wiki": "Bornean crested fireback"
     },
@@ -1310,7 +1310,7 @@
         "Crossoptilon crossoptilon"
       ],
       "popularity": 5412,
-      "rarity": 0.359,
+      "rarity": 0.361,
       "tier": 2,
       "wiki": "White eared pheasant"
     },
@@ -1320,7 +1320,7 @@
         "Coturnix coromandelica"
       ],
       "popularity": 5726,
-      "rarity": 0.354,
+      "rarity": 0.356,
       "tier": 2,
       "wiki": "Rain quail"
     },
@@ -1331,7 +1331,7 @@
         "Gunnison Grouse"
       ],
       "popularity": 5769,
-      "rarity": 0.349,
+      "rarity": 0.351,
       "tier": 2,
       "wiki": "Gunnison sage-grouse"
     },
@@ -1341,7 +1341,7 @@
         "Francolinus pictus"
       ],
       "popularity": 5832,
-      "rarity": 0.344,
+      "rarity": 0.346,
       "tier": 2,
       "wiki": "Painted francolin"
     },
@@ -1352,7 +1352,7 @@
         "Polyplectron malacense"
       ],
       "popularity": 5860,
-      "rarity": 0.339,
+      "rarity": 0.34,
       "tier": 2,
       "wiki": "Malayan peacock-pheasant"
     },
@@ -1363,7 +1363,7 @@
         "Lophura edwardsi"
       ],
       "popularity": 7274,
-      "rarity": 0.333,
+      "rarity": 0.335,
       "tier": 2,
       "wiki": "Edwards's pheasant"
     },
@@ -1373,7 +1373,7 @@
         "Coturnix pectoralis"
       ],
       "popularity": 7725,
-      "rarity": 0.328,
+      "rarity": 0.33,
       "tier": 2,
       "wiki": "Stubble quail"
     },
@@ -1383,7 +1383,7 @@
         "Alectoris barbara"
       ],
       "popularity": 7867,
-      "rarity": 0.323,
+      "rarity": 0.325,
       "tier": 2,
       "wiki": "Barbary partridge"
     },
@@ -1393,7 +1393,7 @@
         "Coturnix delegorguei"
       ],
       "popularity": 7872,
-      "rarity": 0.318,
+      "rarity": 0.319,
       "tier": 2,
       "wiki": "Harlequin quail"
     },
@@ -1403,7 +1403,7 @@
         "Catreus wallichii"
       ],
       "popularity": 7917,
-      "rarity": 0.313,
+      "rarity": 0.314,
       "tier": 2,
       "wiki": "Cheer pheasant"
     },
@@ -1413,7 +1413,7 @@
         "Syrmaticus mikado"
       ],
       "popularity": 8160,
-      "rarity": 0.307,
+      "rarity": 0.309,
       "tier": 2,
       "wiki": "Mikado pheasant"
     },
@@ -1423,7 +1423,7 @@
         "Pucrasia macrolopha"
       ],
       "popularity": 8237,
-      "rarity": 0.302,
+      "rarity": 0.304,
       "tier": 2,
       "wiki": "Koklass pheasant"
     },
@@ -1433,7 +1433,7 @@
         "Polyplectron bicalcaratum"
       ],
       "popularity": 8693,
-      "rarity": 0.297,
+      "rarity": 0.298,
       "tier": 2,
       "wiki": "Grey peacock-pheasant"
     },
@@ -1444,7 +1444,7 @@
         "Swinhoeís pheasant"
       ],
       "popularity": 8699,
-      "rarity": 0.292,
+      "rarity": 0.293,
       "tier": 2,
       "wiki": "Swinhoe's pheasant"
     },
@@ -1455,7 +1455,7 @@
         "Tragopan satyra"
       ],
       "popularity": 8873,
-      "rarity": 0.286,
+      "rarity": 0.288,
       "tier": 2,
       "wiki": "Satyr tragopan"
     },
@@ -1467,7 +1467,7 @@
         "yamadori"
       ],
       "popularity": 8875,
-      "rarity": 0.281,
+      "rarity": 0.283,
       "tier": 2,
       "wiki": "Copper pheasant"
     },
@@ -1480,7 +1480,7 @@
         "Syrmaticus humiae"
       ],
       "popularity": 8996,
-      "rarity": 0.276,
+      "rarity": 0.277,
       "tier": 2,
       "wiki": "Mrs. Hume's pheasant"
     },
@@ -1491,7 +1491,7 @@
         "Tragopan blythii"
       ],
       "popularity": 9094,
-      "rarity": 0.271,
+      "rarity": 0.272,
       "tier": 2,
       "wiki": "Blyth's tragopan"
     },
@@ -1501,7 +1501,7 @@
         "Tympanuchus pallidicinctus"
       ],
       "popularity": 9196,
-      "rarity": 0.266,
+      "rarity": 0.267,
       "tier": 2,
       "wiki": "Lesser prairie-chicken"
     },
@@ -1511,7 +1511,7 @@
         "Tetrao urogalloides"
       ],
       "popularity": 9479,
-      "rarity": 0.26,
+      "rarity": 0.262,
       "tier": 2,
       "wiki": "Black-billed capercaillie"
     },
@@ -1522,7 +1522,7 @@
         "Tragopan temminckii"
       ],
       "popularity": 10041,
-      "rarity": 0.255,
+      "rarity": 0.257,
       "tier": 2,
       "wiki": "Temminck's tragopan"
     },
@@ -1532,7 +1532,7 @@
         "Ophrysia superciliosa"
       ],
       "popularity": 10086,
-      "rarity": 0.25,
+      "rarity": 0.251,
       "tier": 2,
       "wiki": "Himalayan quail"
     },
@@ -1542,7 +1542,7 @@
         "Alectoris graeca"
       ],
       "popularity": 10616,
-      "rarity": 0.245,
+      "rarity": 0.246,
       "tier": 2,
       "wiki": "Rock partridge"
     },
@@ -1552,7 +1552,7 @@
         "Tragopan melanocephalus"
       ],
       "popularity": 10926,
-      "rarity": 0.24,
+      "rarity": 0.241,
       "tier": 2,
       "wiki": "Western tragopan"
     },
@@ -1562,7 +1562,7 @@
         "Tetraogallus himalayensis"
       ],
       "popularity": 11242,
-      "rarity": 0.234,
+      "rarity": 0.236,
       "tier": 2,
       "wiki": "Himalayan snowcock"
     },
@@ -1572,7 +1572,7 @@
         "Dendragapus fuliginosus"
       ],
       "popularity": 11596,
-      "rarity": 0.229,
+      "rarity": 0.23,
       "tier": 2,
       "wiki": "Sooty grouse"
     },
@@ -1583,7 +1583,7 @@
         "Lophura diardi"
       ],
       "popularity": 11868,
-      "rarity": 0.224,
+      "rarity": 0.225,
       "tier": 2,
       "wiki": "Siamese fireback"
     },
@@ -1598,7 +1598,7 @@
         "roul-roul"
       ],
       "popularity": 12786,
-      "rarity": 0.219,
+      "rarity": 0.22,
       "tier": 2,
       "wiki": "Crested partridge"
     },
@@ -1608,7 +1608,7 @@
         "Dendragapus obscurus"
       ],
       "popularity": 13547,
-      "rarity": 0.214,
+      "rarity": 0.215,
       "tier": 2,
       "wiki": "Dusky grouse"
     },
@@ -1619,7 +1619,7 @@
         "Polyplectron napoleonis"
       ],
       "popularity": 13650,
-      "rarity": 0.208,
+      "rarity": 0.209,
       "tier": 2,
       "wiki": "Palawan peacock-pheasant"
     },
@@ -1629,7 +1629,7 @@
         "Syrmaticus reevesii"
       ],
       "popularity": 13744,
-      "rarity": 0.203,
+      "rarity": 0.204,
       "tier": 2,
       "wiki": "Reeves's pheasant"
     },
@@ -1639,7 +1639,7 @@
         "Lophura nycthemera"
       ],
       "popularity": 14932,
-      "rarity": 0.198,
+      "rarity": 0.199,
       "tier": 1,
       "wiki": "Silver pheasant"
     },
@@ -1649,7 +1649,7 @@
         "Lagopus leucura"
       ],
       "popularity": 15693,
-      "rarity": 0.193,
+      "rarity": 0.194,
       "tier": 1,
       "wiki": "White-tailed ptarmigan"
     },
@@ -1669,7 +1669,7 @@
         "Ithaginis cruentus"
       ],
       "popularity": 17330,
-      "rarity": 0.182,
+      "rarity": 0.183,
       "tier": 1,
       "wiki": "Blood pheasant"
     },
@@ -1679,7 +1679,7 @@
         "Tympanuchus phasianellus"
       ],
       "popularity": 17575,
-      "rarity": 0.177,
+      "rarity": 0.178,
       "tier": 1,
       "wiki": "Sharp-tailed grouse"
     },
@@ -1689,7 +1689,7 @@
         "Francolinus francolinus"
       ],
       "popularity": 18529,
-      "rarity": 0.172,
+      "rarity": 0.173,
       "tier": 1,
       "wiki": "Black francolin"
     },
@@ -1700,7 +1700,7 @@
         "White-crested Kalij pheasant"
       ],
       "popularity": 18807,
-      "rarity": 0.167,
+      "rarity": 0.168,
       "tier": 1,
       "wiki": "Kalij pheasant"
     },
@@ -1710,7 +1710,7 @@
         "Argusianus argus"
       ],
       "popularity": 19351,
-      "rarity": 0.161,
+      "rarity": 0.162,
       "tier": 1,
       "wiki": "Great argus"
     },
@@ -1721,7 +1721,7 @@
         "Tetrastes bonasia"
       ],
       "popularity": 21425,
-      "rarity": 0.156,
+      "rarity": 0.157,
       "tier": 1,
       "wiki": "Hazel grouse"
     },
@@ -1732,7 +1732,7 @@
         "Falcipennis canadensis"
       ],
       "popularity": 23356,
-      "rarity": 0.151,
+      "rarity": 0.152,
       "tier": 1,
       "wiki": "Spruce grouse"
     },
@@ -1744,7 +1744,7 @@
         "Synoicus chinensis"
       ],
       "popularity": 25930,
-      "rarity": 0.146,
+      "rarity": 0.147,
       "tier": 1,
       "wiki": "King quail"
     },
@@ -1764,7 +1764,7 @@
         "Gallus varius"
       ],
       "popularity": 29948,
-      "rarity": 0.135,
+      "rarity": 0.136,
       "tier": 1,
       "wiki": "Green junglefowl"
     },
@@ -1775,7 +1775,7 @@
         "Indian grey francolin"
       ],
       "popularity": 30876,
-      "rarity": 0.13,
+      "rarity": 0.131,
       "tier": 1,
       "wiki": "Grey francolin"
     },
@@ -1785,7 +1785,7 @@
         "Alectoris rufa"
       ],
       "popularity": 32227,
-      "rarity": 0.125,
+      "rarity": 0.126,
       "tier": 1,
       "wiki": "Red-legged partridge"
     },
@@ -1817,7 +1817,7 @@
         "Sonnerat's Junglefowl"
       ],
       "popularity": 39506,
-      "rarity": 0.109,
+      "rarity": 0.11,
       "tier": 1,
       "wiki": "Grey junglefowl"
     },
@@ -1827,7 +1827,7 @@
         "Perdix perdix"
       ],
       "popularity": 39882,
-      "rarity": 0.104,
+      "rarity": 0.105,
       "tier": 1,
       "wiki": "Grey partridge"
     },
@@ -1869,7 +1869,7 @@
         "Tympanuchus cupido"
       ],
       "popularity": 46814,
-      "rarity": 0.083,
+      "rarity": 0.084,
       "tier": 1,
       "wiki": "Greater prairie-chicken"
     },
@@ -1881,7 +1881,7 @@
         "Sagehen"
       ],
       "popularity": 49274,
-      "rarity": 0.078,
+      "rarity": 0.079,
       "tier": 1,
       "wiki": "Greater sage-grouse"
     },
@@ -1925,7 +1925,7 @@
         "Chrysolophus pictus"
       ],
       "popularity": 67386,
-      "rarity": 0.057,
+      "rarity": 0.058,
       "tier": 1,
       "wiki": "Golden pheasant"
     },
@@ -1970,7 +1970,7 @@
         "Lophophorus impejanus"
       ],
       "popularity": 94549,
-      "rarity": 0.036,
+      "rarity": 0.037,
       "tier": 1,
       "wiki": "Himalayan monal"
     },

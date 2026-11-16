@@ -1,0 +1,343 @@
+---
+/**
+ * Public log of published prompt-data changes.
+ * Counts and source lines are read from src/data/prompts at build time.
+ * The pageview window is read from scripts/data/prompt-defs.ts.
+ * A dated note is included only when docs/rarest-data-audit.md has one.
+ */
+import { existsSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import LegalPage from '~/components/layout/LegalPage.astro';
+import { defaultLocale } from '~/i18n/routing';
+import { getUi } from '~/i18n/ui';
+import { contactEmail } from '~/lib/contact-email';
+import { loadCatalog } from '~/lib/game/category-copy';
+import { CATEGORY_KEYS, type CategoryKey } from '~/lib/game/categories';
+
+const email = contactEmail();
+const labels = getUi(defaultLocale).shared.categories;
+const catalog = loadCatalog();
+
+const MONTHS = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+] as const;
+
+interface ConstRead {
+  value: string;
+  note: string | null;
+}
+
+function quotedConst(source: string, name: string): ConstRead | null {
+  const match = new RegExp(
+    `(?:/\\*\\*\\s*([^*]+?)\\s*\\*/\\s*)?^export const ${name} = ['"]([^'"]+)['"];`,
+    'm',
+  ).exec(source);
+  if (!match?.[2]) return null;
+  const note = match[1]?.replace(/\s+/g, ' ').trim() || null;
+  return { value: match[2], note };
+}
+
+function monthName(ymd: string): string | null {
+  if (!/^\d{8}$/.test(ymd)) return null;
+  const label = MONTHS[Number(ymd.slice(4, 6)) - 1];
+  return label ? `${label} ${ymd.slice(0, 4)}` : null;
+}
+
+interface WindowRead {
+  sentence: string;
+  sourceMonth: string;
+  viewStart: ConstRead;
+  viewEnd: ConstRead;
+}
+
+let windowRead: WindowRead | null = null;
+try {
+  const defs = readFileSync(join(process.cwd(), 'scripts/data/prompt-defs.ts'), 'utf8');
+  const sourceMonth = quotedConst(defs, 'SOURCE_MONTH');
+  const viewStart = quotedConst(defs, 'VIEW_START');
+  const viewEnd = quotedConst(defs, 'VIEW_END');
+  const startLabel = viewStart ? monthName(viewStart.value) : null;
+  const endLabel = viewEnd ? monthName(viewEnd.value) : null;
+  if (sourceMonth && viewStart && viewEnd && startLabel && endLabel) {
+    const span =
+      (Number(viewEnd.value.slice(0, 4)) - Number(viewStart.value.slice(0, 4))) * 12 +
+      (Number(viewEnd.value.slice(4, 6)) - Number(viewStart.value.slice(4, 6))) +
+      1;
+    const inclusive = viewEnd.note ? /inclusive/i.test(viewEnd.note) : false;
+    const range = inclusive
+      ? `from ${startLabel} through ${endLabel} (${span} complete months)`
+      : `with VIEW_START ${viewStart.value} and VIEW_END ${viewEnd.value}`;
+    windowRead = {
+      sourceMonth: sourceMonth.value,
+      viewStart,
+      viewEnd,
+      sentence: `The script sums monthly pageviews ${range}, labeled ${sourceMonth.value} on each prompt file (VIEW_START ${viewStart.value}, VIEW_END ${viewEnd.value}).`,
+    };
+  }
+} catch {
+  windowRead = null;
+}
+
+const counts = new Map<CategoryKey, number>(CATEGORY_KEYS.map((key) => [key, 0]));
+const sources = new Map<string, number>();
+let missingSource = 0;
+for (const entry of catalog) {
+  counts.set(entry.category, (counts.get(entry.category) ?? 0) + 1);
+  if (entry.source) sources.set(entry.source, (sources.get(entry.source) ?? 0) + 1);
+  else missingSource += 1;
+}
+const sourceRows = [...sources.entries()].sort(
+  (a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'en'),
+);
+
+const auditPath = join(process.cwd(), 'docs/rarest-data-audit.md');
+const audit = existsSync(auditPath) ? readFileSync(auditPath, 'utf8') : '';
+
+function recordedBuild(markdown: string): Map<CategoryKey, number> | null {
+  const line = markdown.split('\n').find((row) => row.startsWith('Build 15 November 2026'));
+  if (!line) return null;
+  const totalMatch = /(\d+) prompts written/.exec(line);
+  if (!totalMatch) return null;
+  const recorded = new Map<CategoryKey, number>();
+  for (const key of CATEGORY_KEYS) {
+    const match = new RegExp(`\\b${key} (\\d+)`).exec(line);
+    if (!match) return null;
+    recorded.set(key, Number(match[1]));
+  }
+  const sum = [...recorded.values()].reduce((total, count) => total + count, 0);
+  return sum === Number(totalMatch[1]) ? recorded : null;
+}
+
+const recorded = recordedBuild(audit);
+const totalsMatch =
+  recorded !== null && CATEGORY_KEYS.every((key) => recorded.get(key) === counts.get(key));
+
+interface TextBlock {
+  type: 'p';
+  text: string;
+}
+interface ListBlock {
+  type: 'ul';
+  items: string[];
+}
+
+function plain(text: string): string {
+  return text.replace(/\*\*/g, '').replace(/`/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function datedNotes(markdown: string): Array<TextBlock | ListBlock> {
+  const lines = markdown.split(/\r?\n/);
+  const chunks: string[][] = [];
+  let current: string[] | null = null;
+  let level = 0;
+  const flush = () => {
+    if (!current) return;
+    chunks.push(current);
+    current = null;
+  };
+  for (const line of lines) {
+    const heading = /^(#{2,3})\s+(.+)$/.exec(line);
+    if (heading) {
+      const headingLevel = heading[1].length;
+      if (current && headingLevel <= level) flush();
+      const dated = /2026-11-15|15 November 2026/.test(heading[2]);
+      if (dated && !current) {
+        current = [];
+        level = headingLevel;
+      } else if (current) {
+        current.push(heading[2]);
+      }
+      continue;
+    }
+    if (current) current.push(line);
+  }
+  flush();
+
+  const blocks: Array<TextBlock | ListBlock> = [];
+  for (const chunk of chunks) {
+    let paragraph: string[] = [];
+    let items: string[] | null = null;
+    const flushParagraph = () => {
+      const text = plain(paragraph.join(' '));
+      if (text) blocks.push({ type: 'p', text });
+      paragraph = [];
+    };
+    const flushItems = () => {
+      if (items && items.length > 0) blocks.push({ type: 'ul', items });
+      items = null;
+    };
+    for (const raw of chunk) {
+      const line = raw.trim();
+      if (!line) {
+        flushParagraph();
+        flushItems();
+        continue;
+      }
+      if (line.startsWith('|')) {
+        flushParagraph();
+        const cells = line
+          .split('|')
+          .map((cell) => cell.trim())
+          .filter(Boolean);
+        if (cells.length === 0 || cells.every((cell) => /^:?-{3,}:?$/.test(cell))) continue;
+        items ??= [];
+        items.push(plain(cells.join(' — ')));
+        continue;
+      }
+      const item = /^[-*]\s+(.+)$/.exec(line);
+      if (item?.[1]) {
+        flushParagraph();
+        items ??= [];
+        items.push(plain(item[1]));
+        continue;
+      }
+      flushItems();
+      paragraph.push(line);
+    }
+    flushParagraph();
+    flushItems();
+  }
+  return blocks;
+}
+
+const notes = datedNotes(audit);
+const recordedTotal = recorded
+  ? [...recorded.values()].reduce((total, count) => total + count, 0)
+  : null;
+const description = `Data updates and corrections for Rarest Answer. This build publishes ${catalog.length} prompts. Rankings use Wikipedia or Wiktionary pageviews. Report a wrong answer by email.`;
+---
+
+<LegalPage
+  locale={defaultLocale}
+  title="Data updates & corrections"
+  description={description}
+  lastUpdated="2026-11-15"
+>
+  <p>
+    This page lists published changes to the answer lists on Rarest Answer. A ranking is a
+    Wikipedia or Wiktionary pageview total, not a count of what players typed. How the lists are
+    refreshed is on the <a href="/about/">about page</a>.
+  </p>
+  <h2>Report a wrong answer</h2>
+  <p>
+    If a published answer is wrong, missing, or tied to the wrong article, email
+    <a href={`mailto:${email}`}>{email}</a>. Name the prompt and the answer. A correction that
+    changes a published list is added here with the date it was published.
+  </p>
+  {
+    recorded || notes.length > 0 ? (
+      <h2>2026-11-15</h2>
+    ) : (
+      <h2>Published prompt index</h2>
+    )
+  }
+  <p>The published prompt index contains {catalog.length} prompts.</p>
+  <ul>
+    {
+      CATEGORY_KEYS.map((key) => (
+        <li>
+          {labels[key]}: {counts.get(key) ?? 0}
+        </li>
+      ))
+    }
+  </ul>
+  {
+    totalsMatch && recordedTotal !== null && (
+      <p>
+        Those totals match the 15 November 2026 build, which recorded {recordedTotal} prompts
+        written.
+      </p>
+    )
+  }
+  {
+    !totalsMatch && recorded && recordedTotal !== null && (
+      <>
+        <p>
+          The 15 November 2026 build recorded {recordedTotal} prompts written. The index above is
+          what this build publishes. Category totals recorded for that build:
+        </p>
+        <ul>
+          {
+            CATEGORY_KEYS.map((key) => (
+              <li>
+                {labels[key]}: {recorded?.get(key) ?? 0}
+              </li>
+            ))
+          }
+        </ul>
+      </>
+    )
+  }
+  {
+    !recorded && (
+      <p>The data audit has no 15 November 2026 build line to compare with this index.</p>
+    )
+  }
+  <p>Source lines on the published prompt files:</p>
+  <ul>
+    {
+      sourceRows.map(([source, count]) => (
+        <li>
+          {count} {count === 1 ? 'prompt' : 'prompts'}: {source}
+        </li>
+      ))
+    }
+  </ul>
+  {
+    missingSource > 0 && (
+      <p>
+        {missingSource} {missingSource === 1 ? 'prompt has' : 'prompts have'} no source line.
+      </p>
+    )
+  }
+  {
+    windowRead ? (
+      <>
+        <p>{windowRead.sentence}</p>
+        <p>
+          In <code>scripts/data/prompt-defs.ts</code>, SOURCE_MONTH is {windowRead.sourceMonth},
+          VIEW_START is {windowRead.viewStart.value}, and VIEW_END is {windowRead.viewEnd.value}.
+        </p>
+        {
+          windowRead.viewStart.note && (
+            <p>The comment on VIEW_START says: {windowRead.viewStart.note}</p>
+          )
+        }
+        {
+          windowRead.viewEnd.note && <p>The comment on VIEW_END says: {windowRead.viewEnd.note}</p>
+        }
+      </>
+    ) : (
+      <p>The pageview-window constants could not be read for this build. The source lines above are the labels on the prompt files.</p>
+    )
+  }
+  {
+    notes.length > 0 && (
+      <>
+        <h3>Notes recorded for this date</h3>
+        {notes.map((block) =>
+          block.type === 'ul' ? (
+            <ul>
+              {block.items.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ul>
+          ) : (
+            <p>{block.text}</p>
+          ),
+        )}
+      </>
+    )
+  }
+</LegalPage>

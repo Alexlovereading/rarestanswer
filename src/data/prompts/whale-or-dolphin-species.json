@@ -6,20 +6,12 @@
   "source": "Wikidata + Wikipedia pageviews (2026-10)",
   "answers": [
     {
-      "name": "Delphinus minimus",
-      "aliases": [],
-      "popularity": 0,
-      "rarity": 1,
-      "tier": 6,
-      "wiki": "Delphinus minimus"
-    },
-    {
       "name": "Vanbreenia trigonia",
       "aliases": [
         "V. trigonia"
       ],
       "popularity": 24,
-      "rarity": 0.99,
+      "rarity": 1,
       "tier": 6,
       "wiki": "Vanbreenia trigonia"
     },
@@ -30,7 +22,7 @@
         "Sittang whale"
       ],
       "popularity": 984,
-      "rarity": 0.98,
+      "rarity": 0.99,
       "tier": 6,
       "wiki": "Balaenoptera edeni"
     },
@@ -40,7 +32,7 @@
         "Delphinus capensis"
       ],
       "popularity": 1093,
-      "rarity": 0.97,
+      "rarity": 0.98,
       "tier": 6,
       "wiki": "Long-beaked common dolphin"
     },
@@ -50,7 +42,7 @@
         "Mesoplodon peruvianus"
       ],
       "popularity": 2942,
-      "rarity": 0.96,
+      "rarity": 0.97,
       "tier": 6,
       "wiki": "Pygmy beaked whale"
     },
@@ -61,7 +53,7 @@
         "Mesoplodon europaeus"
       ],
       "popularity": 3337,
-      "rarity": 0.95,
+      "rarity": 0.96,
       "tier": 6,
       "wiki": "Gervais's beaked whale"
     },
@@ -71,7 +63,7 @@
         "Mesoplodon stejnegeri"
       ],
       "popularity": 3640,
-      "rarity": 0.94,
+      "rarity": 0.949,
       "tier": 6,
       "wiki": "Stejneger's beaked whale"
     },
@@ -81,8 +73,8 @@
         "Mesoplodon eueu"
       ],
       "popularity": 3675,
-      "rarity": 0.93,
-      "tier": 5,
+      "rarity": 0.939,
+      "tier": 6,
       "wiki": "Ramari's beaked whale"
     },
     {
@@ -91,7 +83,7 @@
         "Mesoplodon carlhubbsi"
       ],
       "popularity": 3691,
-      "rarity": 0.92,
+      "rarity": 0.929,
       "tier": 5,
       "wiki": "Hubbs' beaked whale"
     },
@@ -101,7 +93,7 @@
         "Berardius minimus"
       ],
       "popularity": 4166,
-      "rarity": 0.91,
+      "rarity": 0.919,
       "tier": 5,
       "wiki": "Sato's beaked whale"
     },
@@ -111,7 +103,7 @@
         "Mesoplodon hectori"
       ],
       "popularity": 4818,
-      "rarity": 0.9,
+      "rarity": 0.909,
       "tier": 5,
       "wiki": "Hector's beaked whale"
     },
@@ -121,7 +113,7 @@
         "Mesoplodon perrini"
       ],
       "popularity": 4968,
-      "rarity": 0.89,
+      "rarity": 0.899,
       "tier": 5,
       "wiki": "Perrin's beaked whale"
     },
@@ -131,7 +123,7 @@
         "Indopacetus pacificus"
       ],
       "popularity": 5062,
-      "rarity": 0.88,
+      "rarity": 0.889,
       "tier": 5,
       "wiki": "Tropical bottlenose whale"
     },
@@ -142,7 +134,7 @@
         "Sousa teuszii"
       ],
       "popularity": 5405,
-      "rarity": 0.87,
+      "rarity": 0.879,
       "tier": 5,
       "wiki": "Atlantic humpback dolphin"
     },
@@ -152,7 +144,7 @@
         "Mesoplodon bowdoini"
       ],
       "popularity": 5487,
-      "rarity": 0.86,
+      "rarity": 0.869,
       "tier": 5,
       "wiki": "Andrews' beaked whale"
     },
@@ -162,7 +154,7 @@
         "Sousa sahulensis"
       ],
       "popularity": 5598,
-      "rarity": 0.85,
+      "rarity": 0.859,
       "tier": 5,
       "wiki": "Australian humpback dolphin"
     },
@@ -173,7 +165,7 @@
         "Tursiops australis"
       ],
       "popularity": 5692,
-      "rarity": 0.84,
+      "rarity": 0.848,
       "tier": 5,
       "wiki": "Burrunan dolphin"
     },
@@ -184,7 +176,7 @@
         "Haviside's dolphin"
       ],
       "popularity": 6046,
-      "rarity": 0.83,
+      "rarity": 0.838,
       "tier": 5,
       "wiki": "Heaviside's dolphin"
     },
@@ -194,7 +186,7 @@
         "Mesoplodon grayi"
       ],
       "popularity": 6413,
-      "rarity": 0.82,
+      "rarity": 0.828,
       "tier": 5,
       "wiki": "Gray's beaked whale"
     },
@@ -204,7 +196,7 @@
         "Tursiops erebennus"
       ],
       "popularity": 6969,
-      "rarity": 0.81,
+      "rarity": 0.818,
       "tier": 5,
       "wiki": "Tamanend's bottlenose dolphin"
     },
@@ -214,7 +206,7 @@
         "Phocoena spinipinnis"
       ],
       "popularity": 7178,
-      "rarity": 0.8,
+      "rarity": 0.808,
       "tier": 5,
       "wiki": "Burmeister's porpoise"
     },
@@ -224,7 +216,7 @@
         "Lagenorhynchus australis"
       ],
       "popularity": 7194,
-      "rarity": 0.79,
+      "rarity": 0.798,
       "tier": 4,
       "wiki": "Peale's dolphin"
     },
@@ -234,7 +226,7 @@
         "Sousa plumbea"
       ],
       "popularity": 7272,
-      "rarity": 0.78,
+      "rarity": 0.788,
       "tier": 4,
       "wiki": "Indian Ocean humpback dolphin"
     },
@@ -244,7 +236,7 @@
         "Tasmacetus shepherdi"
       ],
       "popularity": 7414,
-      "rarity": 0.77,
+      "rarity": 0.778,
       "tier": 4,
       "wiki": "Shepherd's beaked whale"
     },
@@ -254,7 +246,7 @@
         "Lagenodelphis hosei"
       ],
       "popularity": 7713,
-      "rarity": 0.76,
+      "rarity": 0.768,
       "tier": 4,
       "wiki": "Fraser's dolphin"
     },
@@ -264,7 +256,7 @@
         "Neophocaena sunameri"
       ],
       "popularity": 7714,
-      "rarity": 0.75,
+      "rarity": 0.758,
       "tier": 4,
       "wiki": "East Asian finless porpoise"
     },
@@ -274,7 +266,7 @@
         "Mesoplodon bidens"
       ],
       "popularity": 7924,
-      "rarity": 0.74,
+      "rarity": 0.747,
       "tier": 4,
       "wiki": "Sowerby's beaked whale"
     },
@@ -284,7 +276,7 @@
         "Cephalorhynchus eutropia"
       ],
       "popularity": 8781,
-      "rarity": 0.73,
+      "rarity": 0.737,
       "tier": 4,
       "wiki": "Chilean dolphin"
     },
@@ -294,7 +286,7 @@
         "Berardius arnuxii"
       ],
       "popularity": 8806,
-      "rarity": 0.72,
+      "rarity": 0.727,
       "tier": 4,
       "wiki": "Arnoux's beaked whale"
     },
@@ -304,7 +296,7 @@
         "Mesoplodon mirus"
       ],
       "popularity": 8838,
-      "rarity": 0.71,
+      "rarity": 0.717,
       "tier": 4,
       "wiki": "True's beaked whale"
     },
@@ -314,7 +306,7 @@
         "Mesoplodon hotaula"
       ],
       "popularity": 9152,
-      "rarity": 0.7,
+      "rarity": 0.707,
       "tier": 4,
       "wiki": "Deraniyagala's beaked whale"
     },
@@ -324,7 +316,7 @@
         "Orcaella heinsohni"
       ],
       "popularity": 9495,
-      "rarity": 0.69,
+      "rarity": 0.697,
       "tier": 4,
       "wiki": "Australian snubfin dolphin"
     },
@@ -334,7 +326,7 @@
         "Stenella clymene"
       ],
       "popularity": 9596,
-      "rarity": 0.68,
+      "rarity": 0.687,
       "tier": 4,
       "wiki": "Clymene dolphin"
     },
@@ -344,7 +336,7 @@
         "Hyperoodon planifrons"
       ],
       "popularity": 9659,
-      "rarity": 0.67,
+      "rarity": 0.677,
       "tier": 4,
       "wiki": "Southern bottlenose whale"
     },
@@ -354,7 +346,7 @@
         "Phocoena dioptrica"
       ],
       "popularity": 9700,
-      "rarity": 0.66,
+      "rarity": 0.667,
       "tier": 4,
       "wiki": "Spectacled porpoise"
     },
@@ -364,7 +356,7 @@
         "Sotalia guianensis"
       ],
       "popularity": 10383,
-      "rarity": 0.65,
+      "rarity": 0.657,
       "tier": 4,
       "wiki": "Guiana dolphin"
     },
@@ -375,7 +367,7 @@
         "Neophocaena phocaenoides"
       ],
       "popularity": 10888,
-      "rarity": 0.64,
+      "rarity": 0.646,
       "tier": 4,
       "wiki": "Indo-Pacific finless porpoise"
     },
@@ -385,7 +377,7 @@
         "Lagenorhynchus albirostris"
       ],
       "popularity": 11135,
-      "rarity": 0.63,
+      "rarity": 0.636,
       "tier": 4,
       "wiki": "White-beaked dolphin"
     },
@@ -395,7 +387,7 @@
         "Inia araguaiaensis"
       ],
       "popularity": 11988,
-      "rarity": 0.62,
+      "rarity": 0.626,
       "tier": 4,
       "wiki": "Araguaian river dolphin"
     },
@@ -405,7 +397,7 @@
         "Stenella attenuata"
       ],
       "popularity": 12369,
-      "rarity": 0.61,
+      "rarity": 0.616,
       "tier": 4,
       "wiki": "Pantropical spotted dolphin"
     },
@@ -415,7 +407,7 @@
         "Stenella frontalis"
       ],
       "popularity": 12506,
-      "rarity": 0.6,
+      "rarity": 0.606,
       "tier": 4,
       "wiki": "Atlantic spotted dolphin"
     },
@@ -425,7 +417,7 @@
         "Mesoplodon densirostris"
       ],
       "popularity": 13034,
-      "rarity": 0.59,
+      "rarity": 0.596,
       "tier": 3,
       "wiki": "Blainville's beaked whale"
     },
@@ -435,7 +427,7 @@
         "Lissodelphis peronii"
       ],
       "popularity": 13138,
-      "rarity": 0.58,
+      "rarity": 0.586,
       "tier": 3,
       "wiki": "Southern right whale dolphin"
     },
@@ -445,7 +437,7 @@
         "Steno bredanensis"
       ],
       "popularity": 13695,
-      "rarity": 0.57,
+      "rarity": 0.576,
       "tier": 3,
       "wiki": "Rough-toothed dolphin"
     },
@@ -455,7 +447,7 @@
         "Lissodelphis borealis"
       ],
       "popularity": 15295,
-      "rarity": 0.56,
+      "rarity": 0.566,
       "tier": 3,
       "wiki": "Northern right whale dolphin"
     },
@@ -465,7 +457,7 @@
         "Lagenorhynchus cruciger"
       ],
       "popularity": 15708,
-      "rarity": 0.55,
+      "rarity": 0.556,
       "tier": 3,
       "wiki": "Hourglass dolphin"
     },
@@ -476,7 +468,7 @@
         "Pontoporia blainvillei"
       ],
       "popularity": 15787,
-      "rarity": 0.54,
+      "rarity": 0.545,
       "tier": 3,
       "wiki": "La Plata dolphin"
     },
@@ -486,7 +478,7 @@
         "Stenella coeruleoalba"
       ],
       "popularity": 17436,
-      "rarity": 0.53,
+      "rarity": 0.535,
       "tier": 3,
       "wiki": "Striped dolphin"
     },
@@ -497,7 +489,7 @@
         "Tucuxi dolphin"
       ],
       "popularity": 17588,
-      "rarity": 0.52,
+      "rarity": 0.525,
       "tier": 3,
       "wiki": "Tucuxi"
     },
@@ -507,7 +499,7 @@
         "Lagenorhynchus obscurus"
       ],
       "popularity": 18160,
-      "rarity": 0.51,
+      "rarity": 0.515,
       "tier": 3,
       "wiki": "Dusky dolphin"
     },
@@ -518,9 +510,17 @@
         "Tursiops aduncus"
       ],
       "popularity": 18476,
-      "rarity": 0.5,
+      "rarity": 0.505,
       "tier": 3,
       "wiki": "Indo-Pacific bottlenose dolphin"
+    },
+    {
+      "name": "Delphinus minimus",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
     },
     {
       "name": "Pacific white-sided dolphin",
@@ -528,7 +528,7 @@
         "Lagenorhynchus obliquidens"
       ],
       "popularity": 19890,
-      "rarity": 0.49,
+      "rarity": 0.495,
       "tier": 3,
       "wiki": "Pacific white-sided dolphin"
     },
@@ -538,7 +538,7 @@
         "Balaenoptera bonaerensis"
       ],
       "popularity": 20051,
-      "rarity": 0.48,
+      "rarity": 0.485,
       "tier": 3,
       "wiki": "Antarctic minke whale"
     },
@@ -548,7 +548,7 @@
         "Lagenorhynchus acutus"
       ],
       "popularity": 20853,
-      "rarity": 0.47,
+      "rarity": 0.475,
       "tier": 3,
       "wiki": "Atlantic white-sided dolphin"
     },
@@ -558,7 +558,7 @@
         "Hyperoodon ampullatus"
       ],
       "popularity": 21769,
-      "rarity": 0.46,
+      "rarity": 0.465,
       "tier": 3,
       "wiki": "Northern bottlenose whale"
     },
@@ -568,7 +568,7 @@
         "Cephalorhynchus commersonii"
       ],
       "popularity": 21776,
-      "rarity": 0.45,
+      "rarity": 0.455,
       "tier": 3,
       "wiki": "Commerson's dolphin"
     },
@@ -578,7 +578,7 @@
         "Globicephala macrorhynchus"
       ],
       "popularity": 23859,
-      "rarity": 0.44,
+      "rarity": 0.444,
       "tier": 3,
       "wiki": "Short-finned pilot whale"
     },
@@ -588,7 +588,7 @@
         "Berardius bairdii"
       ],
       "popularity": 25878,
-      "rarity": 0.43,
+      "rarity": 0.434,
       "tier": 3,
       "wiki": "Baird's beaked whale"
     },
@@ -598,7 +598,7 @@
         "Phocoenoides dalli"
       ],
       "popularity": 25920,
-      "rarity": 0.42,
+      "rarity": 0.424,
       "tier": 3,
       "wiki": "Dall's porpoise"
     },
@@ -609,7 +609,7 @@
         "Mesoplodon layardii"
       ],
       "popularity": 26592,
-      "rarity": 0.41,
+      "rarity": 0.414,
       "tier": 3,
       "wiki": "Strap-toothed whale"
     },
@@ -619,7 +619,7 @@
         "Caperea marginata"
       ],
       "popularity": 27192,
-      "rarity": 0.4,
+      "rarity": 0.404,
       "tier": 3,
       "wiki": "Pygmy right whale"
     },
@@ -629,7 +629,7 @@
         "Feresa attenuata"
       ],
       "popularity": 27989,
-      "rarity": 0.39,
+      "rarity": 0.394,
       "tier": 2,
       "wiki": "Pygmy killer whale"
     },
@@ -639,7 +639,7 @@
         "Balaenoptera omurai"
       ],
       "popularity": 29523,
-      "rarity": 0.38,
+      "rarity": 0.384,
       "tier": 2,
       "wiki": "Omura's whale"
     },
@@ -649,7 +649,7 @@
         "Stenella longirostris"
       ],
       "popularity": 30980,
-      "rarity": 0.37,
+      "rarity": 0.374,
       "tier": 2,
       "wiki": "Spinner dolphin"
     },
@@ -662,7 +662,7 @@
         "Sousa chinensis chinensis"
       ],
       "popularity": 31190,
-      "rarity": 0.36,
+      "rarity": 0.364,
       "tier": 2,
       "wiki": "Indo-Pacific humpback dolphin"
     },
@@ -675,7 +675,7 @@
         "Peponocephala electra"
       ],
       "popularity": 34019,
-      "rarity": 0.35,
+      "rarity": 0.354,
       "tier": 2,
       "wiki": "Melon-headed whale"
     },
@@ -685,7 +685,7 @@
         "Cephalorhynchus hectori"
       ],
       "popularity": 34740,
-      "rarity": 0.34,
+      "rarity": 0.343,
       "tier": 2,
       "wiki": "Hector's dolphin"
     },
@@ -697,7 +697,7 @@
         "Northern Pilot Whale"
       ],
       "popularity": 38758,
-      "rarity": 0.33,
+      "rarity": 0.333,
       "tier": 2,
       "wiki": "Long-finned pilot whale"
     },
@@ -709,7 +709,7 @@
         "Neophocaena asiaorientalis"
       ],
       "popularity": 40779,
-      "rarity": 0.32,
+      "rarity": 0.323,
       "tier": 2,
       "wiki": "Yangtze finless porpoise"
     },
@@ -720,7 +720,7 @@
         "minke whale"
       ],
       "popularity": 43740,
-      "rarity": 0.31,
+      "rarity": 0.313,
       "tier": 2,
       "wiki": "Common minke whale"
     },
@@ -730,7 +730,7 @@
         "Mesoplodon ginkgodens"
       ],
       "popularity": 44491,
-      "rarity": 0.3,
+      "rarity": 0.303,
       "tier": 2,
       "wiki": "Ginkgo-toothed beaked whale"
     },
@@ -741,7 +741,7 @@
         "Short-beaked Common Dolphin"
       ],
       "popularity": 45843,
-      "rarity": 0.29,
+      "rarity": 0.293,
       "tier": 2,
       "wiki": "Common dolphin"
     },
@@ -751,7 +751,7 @@
         "Platanista minor"
       ],
       "popularity": 46096,
-      "rarity": 0.28,
+      "rarity": 0.283,
       "tier": 2,
       "wiki": "Indus river dolphin"
     },
@@ -761,7 +761,7 @@
         "Kogia breviceps"
       ],
       "popularity": 48315,
-      "rarity": 0.27,
+      "rarity": 0.273,
       "tier": 2,
       "wiki": "Pygmy sperm whale"
     },
@@ -771,7 +771,7 @@
         "Eubalaena japonica"
       ],
       "popularity": 50431,
-      "rarity": 0.26,
+      "rarity": 0.263,
       "tier": 2,
       "wiki": "North Pacific right whale"
     },
@@ -781,7 +781,7 @@
         "Kogia sima"
       ],
       "popularity": 51528,
-      "rarity": 0.25,
+      "rarity": 0.253,
       "tier": 2,
       "wiki": "Dwarf sperm whale"
     },
@@ -791,7 +791,7 @@
         "Mesoplodon traversii"
       ],
       "popularity": 57448,
-      "rarity": 0.24,
+      "rarity": 0.242,
       "tier": 2,
       "wiki": "Spade-toothed whale"
     },
@@ -803,7 +803,7 @@
         "Gulf of Mexico whale"
       ],
       "popularity": 61719,
-      "rarity": 0.23,
+      "rarity": 0.232,
       "tier": 2,
       "wiki": "Rice's whale"
     },
@@ -813,7 +813,7 @@
         "Grampus griseus"
       ],
       "popularity": 63261,
-      "rarity": 0.22,
+      "rarity": 0.222,
       "tier": 2,
       "wiki": "Risso's dolphin"
     },
@@ -823,7 +823,7 @@
         "Orcaella brevirostris"
       ],
       "popularity": 63473,
-      "rarity": 0.21,
+      "rarity": 0.212,
       "tier": 2,
       "wiki": "Irrawaddy dolphin"
     },
@@ -836,8 +836,8 @@
         "Tursiops truncatus"
       ],
       "popularity": 66093,
-      "rarity": 0.2,
-      "tier": 1,
+      "rarity": 0.202,
+      "tier": 2,
       "wiki": "Common bottlenose dolphin"
     },
     {
@@ -847,7 +847,7 @@
         "Phocoena phocoena"
       ],
       "popularity": 66496,
-      "rarity": 0.19,
+      "rarity": 0.192,
       "tier": 1,
       "wiki": "Harbour porpoise"
     },
@@ -857,7 +857,7 @@
         "Balaenoptera brydei"
       ],
       "popularity": 69336,
-      "rarity": 0.18,
+      "rarity": 0.182,
       "tier": 1,
       "wiki": "Bryde's whale"
     },
@@ -867,7 +867,7 @@
         "Eubalaena australis"
       ],
       "popularity": 70124,
-      "rarity": 0.17,
+      "rarity": 0.172,
       "tier": 1,
       "wiki": "Southern right whale"
     },
@@ -877,7 +877,7 @@
         "Balaenoptera borealis"
       ],
       "popularity": 71716,
-      "rarity": 0.16,
+      "rarity": 0.162,
       "tier": 1,
       "wiki": "Sei whale"
     },
@@ -888,7 +888,7 @@
         "South Asian river dolphin"
       ],
       "popularity": 88368,
-      "rarity": 0.15,
+      "rarity": 0.152,
       "tier": 1,
       "wiki": "Ganges river dolphin"
     },
@@ -899,7 +899,7 @@
         "Ziphius cavirostris"
       ],
       "popularity": 98942,
-      "rarity": 0.14,
+      "rarity": 0.141,
       "tier": 1,
       "wiki": "Cuvier's beaked whale"
     },
@@ -909,7 +909,7 @@
         "Eubalaena glacialis"
       ],
       "popularity": 100232,
-      "rarity": 0.13,
+      "rarity": 0.131,
       "tier": 1,
       "wiki": "North Atlantic right whale"
     },
@@ -930,7 +930,7 @@
         "Rhachianectes glaucus"
       ],
       "popularity": 116597,
-      "rarity": 0.12,
+      "rarity": 0.121,
       "tier": 1,
       "wiki": "Gray whale"
     },
@@ -945,7 +945,7 @@
         "Yangtze river dolphin"
       ],
       "popularity": 165075,
-      "rarity": 0.11,
+      "rarity": 0.111,
       "tier": 1,
       "wiki": "Baiji"
     },
@@ -959,7 +959,7 @@
         "razorback"
       ],
       "popularity": 176383,
-      "rarity": 0.1,
+      "rarity": 0.101,
       "tier": 1,
       "wiki": "Fin whale"
     },
@@ -970,7 +970,7 @@
         "Pseudorca crassidens"
       ],
       "popularity": 192948,
-      "rarity": 0.09,
+      "rarity": 0.091,
       "tier": 1,
       "wiki": "False killer whale"
     },
@@ -982,7 +982,7 @@
         "pink river dolphin"
       ],
       "popularity": 212943,
-      "rarity": 0.08,
+      "rarity": 0.081,
       "tier": 1,
       "wiki": "Amazon river dolphin"
     },
@@ -994,7 +994,7 @@
         "Greenland right whale"
       ],
       "popularity": 221536,
-      "rarity": 0.07,
+      "rarity": 0.071,
       "tier": 1,
       "wiki": "Bowhead whale"
     },
@@ -1008,7 +1008,7 @@
         "Vaquita porpoise"
       ],
       "popularity": 282836,
-      "rarity": 0.06,
+      "rarity": 0.061,
       "tier": 1,
       "wiki": "Vaquita"
     },
@@ -1023,7 +1023,7 @@
         "white whale"
       ],
       "popularity": 343485,
-      "rarity": 0.05,
+      "rarity": 0.051,
       "tier": 1,
       "wiki": "Beluga whale"
     },

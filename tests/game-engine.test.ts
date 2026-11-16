@@ -10,7 +10,15 @@ import fixture from './fixtures/great-ape-species.json';
 import fixtureIndex from './fixtures/prompts-index.json';
 import { CATEGORY_KEYS, isCategoryKey } from '~/lib/game/categories';
 import { CATEGORY_PAGES, measureCopy } from '~/lib/game/category-copy';
-import { HOME, HOME_FAQ, HOW_TO_STEPS, RULES_AT_A_GLANCE, UNLIMITED } from '~/lib/game/copy';
+import {
+  HOME,
+  HOME_FAQ,
+  HOW_TO_STEPS,
+  PLAY,
+  RULES_AT_A_GLANCE,
+  UNLIMITED,
+  revealTierLabel,
+} from '~/lib/game/copy';
 import {
   HISTORY_DAYS,
   ROUND_SIZE,
@@ -35,15 +43,18 @@ import {
   countRarer,
   isPromptIndexEntry,
   isSlug,
+  pickWarmupSlug,
   placementLine,
   promptDataPath,
   PROMPT_INDEX_PATH,
   rarestAnswers,
+  reportAnswerHref,
   revealLists,
   toClientPrompt,
 } from '~/lib/game/prompts';
 import {
   applyScore,
+  effectiveTier,
   freshScore,
   maxRoundScore,
   PENALTY_MS,
@@ -67,7 +78,9 @@ import {
   SCORE_HISTORY_LIMIT,
   scoreDistribution,
   tierDistribution,
+  writeDailyIfScored,
   writeStats,
+  writeStatsIfScored,
   type DailySave,
   type KeyValueStore,
 } from '~/lib/game/stats';
@@ -910,5 +923,179 @@ describe('answers by tier across the dealt prompts', () => {
     const rows = promptTierDistribution([]);
     expect(rows).toHaveLength(TIERS.length);
     expect(rows.every((row) => row.count === 0 && row.share === 0)).toBe(true);
+  });
+});
+
+describe('noData answers and warm-up', () => {
+  test('a noData answer is accepted and scores as Uncommon, never as the rarest', () => {
+    const ranked = Array.from({ length: 11 }, (_, index) => ({
+      name: `Body ${index}`,
+      aliases: [],
+      popularity: 1000 - index,
+      rarity: (10 - index) / 20,
+      tier: 1 as const,
+      wiki: `Body_${index}`,
+    }));
+    const prompt = toClientPrompt({
+      id: 'planets',
+      slug: 'planets-and-dwarf-planets',
+      category: 'science',
+      question: 'Name a planet or dwarf planet',
+      source: 'test',
+      answers: [
+        {
+          name: 'Haumea',
+          aliases: ['haumea'],
+          popularity: 0,
+          rarity: 1,
+          tier: 6,
+          noData: true,
+        },
+        ...ranked,
+      ],
+    });
+    expect(prompt).not.toBeNull();
+    if (!prompt) return;
+    const ghost = prompt.answers.find((answer) => answer.name === 'Haumea');
+    expect(ghost?.noData).toBe(true);
+    expect(ghost?.tier).toBe(3);
+    expect(JSON.stringify(prompt)).not.toContain('popularity');
+    expect(JSON.stringify(prompt)).not.toContain('"wiki"');
+    const tried = createTried();
+    const hit = matchGuess(prompt.answers, 'haumea', tried);
+    expect(hit.status).toBe('hit');
+    if (hit.status !== 'hit') return;
+    expect(effectiveTier(hit.answer)).toBe(3);
+    expect(pointsForTier(3)).toBe(20);
+    expect(scorePrompt(effectiveTier(hit.answer), false)).toBe(20);
+    expect(applyScore(freshScore(), effectiveTier(hit.answer), true).points).toBe(40);
+    expect(revealTierLabel(hit.answer)).toBe(PLAY.noDataReveal);
+    expect(revealTierLabel(hit.answer).toLowerCase()).not.toContain('legendary');
+    expect(revealTierLabel(hit.answer).toLowerCase()).not.toContain('rarest');
+    const lists = revealLists(prompt.answers);
+    expect(lists.rarest.map((answer) => answer.name)).not.toContain('Haumea');
+    expect(lists.common.map((answer) => answer.name)).not.toContain('Haumea');
+    expect(lists.rarest).toHaveLength(10);
+    expect(rarestAnswers(prompt.answers).every((answer) => answer.noData !== true)).toBe(true);
+    expect(countRarer([{ rarity: 1, noData: true }, { rarity: 0.2 }], 0.2)).toBe(0);
+
+    const bare = toClientPrompt({
+      slug: 'bare-prompt',
+      category: 'science',
+      question: 'Name one',
+      answers: [{ name: 'Ceres', aliases: ['ceres'], noData: true }],
+    });
+    expect(bare?.answers[0]).toMatchObject({ name: 'Ceres', tier: 3, rarity: 0.5, noData: true });
+    const kept = toClientPrompt({
+      slug: 'kept-prompt',
+      category: 'science',
+      question: 'Name one',
+      answers: [{ name: 'Earth', aliases: [], popularity: 9, rarity: 1, tier: 6, wiki: 'Earth' }],
+    });
+    expect(kept?.answers[0]?.noData).toBeUndefined();
+    expect(kept?.answers[0]?.tier).toBe(6);
+    expect(scorePrompt(effectiveTier(kept?.answers[0] ?? { tier: 6 }), false)).toBe(100);
+  });
+
+  test('warm-up does not touch stats or the daily save', () => {
+    const stats = defaultStats();
+    stats.streak = 4;
+    stats.dailyPlayed = 2;
+    const save: DailySave = {
+      version: 1,
+      date: '2026-11-15',
+      slugs: ['great-ape-species'],
+      cursor: 1,
+      score: 5,
+      spotlightUsed: false,
+      noTimer: false,
+      results: [
+        {
+          slug: 'great-ape-species',
+          tier: 1,
+          points: 5,
+          answer: 'Human',
+          outcome: 'hit',
+          spotlight: false,
+        },
+      ],
+      completed: true,
+      recorded: true,
+    };
+    const store = memoryStore({
+      [STATS_STORAGE_KEY]: JSON.stringify(stats),
+      [DAILY_STORAGE_KEY]: JSON.stringify(save),
+    });
+    const beforeStats = store.getItem(STATS_STORAGE_KEY);
+    const beforeDaily = store.getItem(DAILY_STORAGE_KEY);
+    writeStatsIfScored(store, { ...stats, streak: 99 }, true);
+    writeDailyIfScored(
+      store,
+      { ...save, score: 100, results: save.results.map((row) => ({ ...row, points: 100 })) },
+      true,
+    );
+    expect(store.getItem(STATS_STORAGE_KEY)).toBe(beforeStats);
+    expect(store.getItem(DAILY_STORAGE_KEY)).toBe(beforeDaily);
+    expect(readStats(store)).toMatchObject({ streak: 4, dailyPlayed: 2 });
+    expect(readDaily(store, '2026-11-15')?.score).toBe(5);
+
+    expect(
+      pickWarmupSlug([
+        { slug: 'countries-in-europe' },
+        { slug: 'us-states' },
+        { slug: 'planets-and-dwarf-planets' },
+      ]),
+    ).toBe('planets-and-dwarf-planets');
+    expect(pickWarmupSlug([{ slug: 'us-states' }, { slug: 'countries-in-europe' }])).toBe(
+      'us-states',
+    );
+    expect(pickWarmupSlug([{ slug: 'countries-in-europe' }])).toBe('countries-in-europe');
+    expect(pickWarmupSlug([{ slug: 'great-ape-species' }])).toBeNull();
+
+    const browser = readFileSync(join(root, 'src/lib/game/browser.ts'), 'utf8');
+    expect(browser).toContain('writeStatsIfScored(store, stats, true)');
+    expect(browser).toContain('writeDailyIfScored(store, readDaily(store, session.dateKey), true)');
+    expect(browser).toContain('if (!practice)');
+  });
+
+  test('the reveal explains rarity, reports a wrong answer, and puts Next above the list', () => {
+    const href = reportAnswerHref('us-states', 'Name a US state', 'Ohio');
+    const url = new URL(href);
+    expect(href.startsWith('mailto:contact@rarestanswer.xyz?')).toBe(true);
+    expect(url.searchParams.get('subject')).toBe('Answer report: us-states');
+    const body = url.searchParams.get('body') ?? '';
+    expect(body).toContain('Name a US state');
+    expect(body).toContain('Typed answer: Ohio');
+
+    expect(PLAY.rarityLine).toBe(
+      "Rarity = how rarely an answer's Wikipedia article is viewed — not what other players typed.",
+    );
+    expect(PLAY.noDataReveal).toBe('No Wikipedia article — scored as Uncommon');
+    expect(PLAY.warmupNote).toBe('Practice — not scored, does not affect streak');
+    const app = readFileSync(join(root, 'src/components/game/GameApp.astro'), 'utf8');
+    expect(app.split('{PLAY.rarityLine}').length - 1).toBe(2);
+    expect(app).toContain('{PLAY.warmupNote}');
+    expect(app).toContain('data-game-warmup');
+    expect(app).toContain('data-game-report');
+    expect(app).toContain('{PLAY.reportAnswer}');
+    const reveal = app.slice(
+      app.indexOf('data-game-view="reveal"'),
+      app.indexOf('data-game-view="end"'),
+    );
+    expect(reveal.indexOf('data-game-next')).toBeGreaterThan(-1);
+    expect(reveal.indexOf('data-game-next')).toBeLessThan(reveal.indexOf('data-game-rarest'));
+
+    const files = [
+      join(root, 'src/lib/game/copy.ts'),
+      join(root, 'src/lib/game/category-copy.ts'),
+      ...readdirSync(join(root, 'src/components/game')).map((name) =>
+        join(root, 'src/components/game', name),
+      ),
+    ];
+    const blob = files.map((file) => readFileSync(file, 'utf8')).join('\n');
+    expect(blob).not.toContain('few other players');
+    expect(blob).not.toContain('nobody else');
+    expect(blob).not.toContain('% of players');
+    expect(blob).not.toContain('Other players will type');
   });
 });

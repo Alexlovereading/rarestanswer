@@ -6,33 +6,13 @@
   "source": "Wikidata + Wikipedia pageviews (2026-10)",
   "answers": [
     {
-      "name": "Northern fish owl",
-      "aliases": [
-        "Ketupa doerriesi"
-      ],
-      "popularity": 0,
-      "rarity": 0.998,
-      "tier": 6,
-      "wiki": "Northern fish owl"
-    },
-    {
-      "name": "Paramo horned owl",
-      "aliases": [
-        "Bubo nigrescens"
-      ],
-      "popularity": 0,
-      "rarity": 0.998,
-      "tier": 6,
-      "wiki": "Paramo horned owl"
-    },
-    {
       "name": "Megascops napensis",
       "aliases": [
         "Napo screech owl",
         "Rio Napo Screech-owl"
       ],
       "popularity": 19,
-      "rarity": 0.992,
+      "rarity": 1,
       "tier": 6,
       "wiki": "Megascops napensis"
     },
@@ -44,7 +24,7 @@
         "Otus columbianus"
       ],
       "popularity": 33,
-      "rarity": 0.989,
+      "rarity": 0.996,
       "tier": 6,
       "wiki": "Colombian screech owl"
     },
@@ -56,7 +36,7 @@
         "Ninox sumbaensis"
       ],
       "popularity": 50,
-      "rarity": 0.985,
+      "rarity": 0.992,
       "tier": 6,
       "wiki": "Little Sumba boobook"
     },
@@ -66,7 +46,7 @@
         "Ninox roseoaxillaris"
       ],
       "popularity": 56,
-      "rarity": 0.981,
+      "rarity": 0.989,
       "tier": 6,
       "wiki": "Makira boobook"
     },
@@ -76,7 +56,7 @@
         "Craves's Giant Barn Owl"
       ],
       "popularity": 161,
-      "rarity": 0.977,
+      "rarity": 0.985,
       "tier": 6,
       "wiki": "Tyto cravesae"
     },
@@ -86,7 +66,7 @@
         "Glaucidium tucumanum"
       ],
       "popularity": 199,
-      "rarity": 0.973,
+      "rarity": 0.981,
       "tier": 6,
       "wiki": "Tucuman pygmy-owl"
     },
@@ -97,7 +77,7 @@
         "Sumba Boobook"
       ],
       "popularity": 237,
-      "rarity": 0.97,
+      "rarity": 0.977,
       "tier": 6,
       "wiki": "Great Sumba boobook"
     },
@@ -107,7 +87,7 @@
         "Bubo magellanicus"
       ],
       "popularity": 269,
-      "rarity": 0.966,
+      "rarity": 0.973,
       "tier": 6,
       "wiki": "Magellanic horned owl"
     },
@@ -117,7 +97,7 @@
         "Glaucidium castaneum"
       ],
       "popularity": 306,
-      "rarity": 0.962,
+      "rarity": 0.969,
       "tier": 6,
       "wiki": "Chestnut owlet"
     },
@@ -128,7 +108,7 @@
         "Strix davidi"
       ],
       "popularity": 321,
-      "rarity": 0.958,
+      "rarity": 0.966,
       "tier": 6,
       "wiki": "Père David's owl"
     },
@@ -139,7 +119,7 @@
         "Rainforest Scops Owl"
       ],
       "popularity": 419,
-      "rarity": 0.954,
+      "rarity": 0.962,
       "tier": 6,
       "wiki": "Madagascar scops owl"
     },
@@ -149,7 +129,7 @@
         "Otus tempestatis"
       ],
       "popularity": 705,
-      "rarity": 0.951,
+      "rarity": 0.958,
       "tier": 6,
       "wiki": "Wetar scops owl"
     },
@@ -159,7 +139,7 @@
         "Tyto almae"
       ],
       "popularity": 710,
-      "rarity": 0.947,
+      "rarity": 0.954,
       "tier": 6,
       "wiki": "Seram masked owl"
     },
@@ -169,7 +149,7 @@
         "Megascops stangiae"
       ],
       "popularity": 729,
-      "rarity": 0.943,
+      "rarity": 0.95,
       "tier": 6,
       "wiki": "Xingu screech owl"
     },
@@ -179,7 +159,7 @@
         "Otus mendeni"
       ],
       "popularity": 730,
-      "rarity": 0.939,
+      "rarity": 0.946,
       "tier": 6,
       "wiki": "Banggai scops owl"
     },
@@ -189,7 +169,7 @@
         "Otus beccarii"
       ],
       "popularity": 761,
-      "rarity": 0.935,
+      "rarity": 0.943,
       "tier": 6,
       "wiki": "Biak scops owl"
     },
@@ -199,7 +179,7 @@
         "Megascops alagoensis"
       ],
       "popularity": 779,
-      "rarity": 0.932,
+      "rarity": 0.939,
       "tier": 6,
       "wiki": "Alagoas screech owl"
     },
@@ -209,8 +189,8 @@
         "Bubo vosseleri"
       ],
       "popularity": 809,
-      "rarity": 0.928,
-      "tier": 5,
+      "rarity": 0.935,
+      "tier": 6,
       "wiki": "Usambara eagle-owl"
     },
     {
@@ -219,8 +199,8 @@
         "Otus mentawi"
       ],
       "popularity": 810,
-      "rarity": 0.924,
-      "tier": 5,
+      "rarity": 0.931,
+      "tier": 6,
       "wiki": "Mentawai scops owl"
     },
     {
@@ -230,7 +210,7 @@
         "tanimbar hawk-owl"
       ],
       "popularity": 814,
-      "rarity": 0.92,
+      "rarity": 0.927,
       "tier": 5,
       "wiki": "Tanimbar boobook"
     },
@@ -240,7 +220,7 @@
         "Otus umbra"
       ],
       "popularity": 848,
-      "rarity": 0.916,
+      "rarity": 0.923,
       "tier": 5,
       "wiki": "Simeulue scops owl"
     },
@@ -250,7 +230,7 @@
         "Otus enganensis"
       ],
       "popularity": 857,
-      "rarity": 0.913,
+      "rarity": 0.92,
       "tier": 5,
       "wiki": "Enggano scops owl"
     },
@@ -260,7 +240,7 @@
         "Ninox hypogramma"
       ],
       "popularity": 860,
-      "rarity": 0.909,
+      "rarity": 0.916,
       "tier": 5,
       "wiki": "Halmahera boobook"
     },
@@ -272,7 +252,7 @@
         "Peruvian screech owl"
       ],
       "popularity": 862,
-      "rarity": 0.905,
+      "rarity": 0.912,
       "tier": 5,
       "wiki": "West Peruvian screech owl"
     },
@@ -284,7 +264,7 @@
         "Ninox squamipila"
       ],
       "popularity": 872,
-      "rarity": 0.901,
+      "rarity": 0.908,
       "tier": 5,
       "wiki": "Seram boobook"
     },
@@ -295,7 +275,7 @@
         "Otus mindoroensis"
       ],
       "popularity": 873,
-      "rarity": 0.897,
+      "rarity": 0.904,
       "tier": 5,
       "wiki": "Mindoro scops owl"
     },
@@ -305,7 +285,7 @@
         "Ninox hantu"
       ],
       "popularity": 882,
-      "rarity": 0.894,
+      "rarity": 0.9,
       "tier": 5,
       "wiki": "Buru boobook"
     },
@@ -315,7 +295,7 @@
         "Ninox meeki"
       ],
       "popularity": 984,
-      "rarity": 0.89,
+      "rarity": 0.897,
       "tier": 5,
       "wiki": "Manus boobook"
     },
@@ -325,7 +305,7 @@
         "Otus hartlaubi"
       ],
       "popularity": 990,
-      "rarity": 0.886,
+      "rarity": 0.893,
       "tier": 5,
       "wiki": "São Tomé scops owl"
     },
@@ -336,7 +316,7 @@
         "Otus magicus"
       ],
       "popularity": 993,
-      "rarity": 0.882,
+      "rarity": 0.889,
       "tier": 5,
       "wiki": "Moluccan scops owl"
     },
@@ -346,7 +326,7 @@
         "Glaucidium parkeri"
       ],
       "popularity": 994,
-      "rarity": 0.878,
+      "rarity": 0.885,
       "tier": 5,
       "wiki": "Subtropical pygmy owl"
     },
@@ -356,7 +336,7 @@
         "Megascops hoyi"
       ],
       "popularity": 1003,
-      "rarity": 0.875,
+      "rarity": 0.881,
       "tier": 5,
       "wiki": "Yungas screech owl"
     },
@@ -367,7 +347,7 @@
         "Otus silvicola"
       ],
       "popularity": 1025,
-      "rarity": 0.871,
+      "rarity": 0.877,
       "tier": 5,
       "wiki": "Wallace's scops owl"
     },
@@ -377,7 +357,7 @@
         "Otus feae"
       ],
       "popularity": 1042,
-      "rarity": 0.867,
+      "rarity": 0.874,
       "tier": 5,
       "wiki": "Annobón scops owl"
     },
@@ -387,7 +367,7 @@
         "Otus mayottensis"
       ],
       "popularity": 1047,
-      "rarity": 0.861,
+      "rarity": 0.868,
       "tier": 5,
       "wiki": "Mayotte scops owl"
     },
@@ -398,7 +378,7 @@
         "togian hawk-owl"
       ],
       "popularity": 1047,
-      "rarity": 0.861,
+      "rarity": 0.868,
       "tier": 5,
       "wiki": "Togian boobook"
     },
@@ -408,7 +388,7 @@
         "Megascops vermiculatus"
       ],
       "popularity": 1051,
-      "rarity": 0.856,
+      "rarity": 0.862,
       "tier": 5,
       "wiki": "Vermiculated screech owl"
     },
@@ -419,7 +399,7 @@
         "Otus ingens"
       ],
       "popularity": 1058,
-      "rarity": 0.852,
+      "rarity": 0.858,
       "tier": 5,
       "wiki": "Rufescent screech owl"
     },
@@ -429,7 +409,7 @@
         "Otus fuliginosus"
       ],
       "popularity": 1077,
-      "rarity": 0.848,
+      "rarity": 0.854,
       "tier": 5,
       "wiki": "Palawan scops owl"
     },
@@ -439,7 +419,7 @@
         "Glaucidium bolivianum"
       ],
       "popularity": 1083,
-      "rarity": 0.844,
+      "rarity": 0.851,
       "tier": 5,
       "wiki": "Yungas pygmy owl"
     },
@@ -449,7 +429,7 @@
         "Megascops gilesi"
       ],
       "popularity": 1095,
-      "rarity": 0.84,
+      "rarity": 0.847,
       "tier": 5,
       "wiki": "Santa Marta screech owl"
     },
@@ -459,7 +439,7 @@
         "Otus madagascariensis"
       ],
       "popularity": 1108,
-      "rarity": 0.837,
+      "rarity": 0.843,
       "tier": 5,
       "wiki": "Torotoroka scops owl"
     },
@@ -470,7 +450,7 @@
         "Otus marshalli"
       ],
       "popularity": 1112,
-      "rarity": 0.833,
+      "rarity": 0.839,
       "tier": 5,
       "wiki": "Cloud-forest screech owl"
     },
@@ -480,7 +460,7 @@
         "Otus pembaensis"
       ],
       "popularity": 1114,
-      "rarity": 0.829,
+      "rarity": 0.835,
       "tier": 5,
       "wiki": "Pemba scops owl"
     },
@@ -490,7 +470,7 @@
         "Otus mirus"
       ],
       "popularity": 1129,
-      "rarity": 0.825,
+      "rarity": 0.831,
       "tier": 5,
       "wiki": "Mindanao scops owl"
     },
@@ -501,7 +481,7 @@
         "Ninox mindorensis"
       ],
       "popularity": 1146,
-      "rarity": 0.821,
+      "rarity": 0.828,
       "tier": 5,
       "wiki": "Mindoro boobook"
     },
@@ -511,7 +491,7 @@
         "Otus pamelae"
       ],
       "popularity": 1147,
-      "rarity": 0.817,
+      "rarity": 0.824,
       "tier": 5,
       "wiki": "Arabian scops owl"
     },
@@ -521,7 +501,7 @@
         "Glaucidium palmarum"
       ],
       "popularity": 1159,
-      "rarity": 0.812,
+      "rarity": 0.818,
       "tier": 5,
       "wiki": "Colima pygmy owl"
     },
@@ -531,7 +511,7 @@
         "Athene malaitae"
       ],
       "popularity": 1159,
-      "rarity": 0.812,
+      "rarity": 0.818,
       "tier": 5,
       "wiki": "Malaita owl"
     },
@@ -541,7 +521,7 @@
         "Pulsatrix koeniswaldiana"
       ],
       "popularity": 1184,
-      "rarity": 0.806,
+      "rarity": 0.812,
       "tier": 5,
       "wiki": "Tawny-browed owl"
     },
@@ -551,7 +531,7 @@
         "Otus mantananensis"
       ],
       "popularity": 1199,
-      "rarity": 0.802,
+      "rarity": 0.808,
       "tier": 5,
       "wiki": "Mantanani scops owl"
     },
@@ -563,8 +543,8 @@
         "Otus koepckeae"
       ],
       "popularity": 1217,
-      "rarity": 0.798,
-      "tier": 4,
+      "rarity": 0.805,
+      "tier": 5,
       "wiki": "Koepcke's screech owl"
     },
     {
@@ -573,8 +553,8 @@
         "Athene granti"
       ],
       "popularity": 1218,
-      "rarity": 0.795,
-      "tier": 4,
+      "rarity": 0.801,
+      "tier": 5,
       "wiki": "Guadalcanal owl"
     },
     {
@@ -583,7 +563,7 @@
         "Megascops centralis"
       ],
       "popularity": 1220,
-      "rarity": 0.791,
+      "rarity": 0.797,
       "tier": 4,
       "wiki": "Chocó screech owl"
     },
@@ -593,7 +573,7 @@
         "Ninox ochracea"
       ],
       "popularity": 1221,
-      "rarity": 0.787,
+      "rarity": 0.793,
       "tier": 4,
       "wiki": "Ochre-bellied boobook"
     },
@@ -603,7 +583,7 @@
         "Ninox theomacha"
       ],
       "popularity": 1224,
-      "rarity": 0.783,
+      "rarity": 0.789,
       "tier": 4,
       "wiki": "Papuan boobook"
     },
@@ -613,7 +593,7 @@
         "Otus icterorhynchus"
       ],
       "popularity": 1229,
-      "rarity": 0.779,
+      "rarity": 0.785,
       "tier": 4,
       "wiki": "Sandy scops owl"
     },
@@ -623,7 +603,7 @@
         "Megascops roraimae"
       ],
       "popularity": 1231,
-      "rarity": 0.776,
+      "rarity": 0.782,
       "tier": 4,
       "wiki": "Foothill screech owl"
     },
@@ -633,7 +613,7 @@
         "Otus brookii"
       ],
       "popularity": 1234,
-      "rarity": 0.772,
+      "rarity": 0.778,
       "tier": 4,
       "wiki": "Rajah scops owl"
     },
@@ -643,7 +623,7 @@
         "Otus collari"
       ],
       "popularity": 1257,
-      "rarity": 0.768,
+      "rarity": 0.774,
       "tier": 4,
       "wiki": "Sangihe scops owl"
     },
@@ -653,7 +633,7 @@
         "Ninox variegata"
       ],
       "popularity": 1259,
-      "rarity": 0.764,
+      "rarity": 0.77,
       "tier": 4,
       "wiki": "New Ireland boobook"
     },
@@ -663,7 +643,7 @@
         "Pulsatrix melanota"
       ],
       "popularity": 1262,
-      "rarity": 0.76,
+      "rarity": 0.766,
       "tier": 4,
       "wiki": "Band-bellied owl"
     },
@@ -673,7 +653,7 @@
         "Otus socotranus"
       ],
       "popularity": 1283,
-      "rarity": 0.757,
+      "rarity": 0.762,
       "tier": 4,
       "wiki": "Socotra scops owl"
     },
@@ -683,7 +663,7 @@
         "Glaucidium cobanense"
       ],
       "popularity": 1292,
-      "rarity": 0.753,
+      "rarity": 0.759,
       "tier": 4,
       "wiki": "Guatemalan pygmy owl"
     },
@@ -694,7 +674,7 @@
         "Otus seductus"
       ],
       "popularity": 1293,
-      "rarity": 0.749,
+      "rarity": 0.755,
       "tier": 4,
       "wiki": "Balsas screech owl"
     },
@@ -704,7 +684,7 @@
         "Otus pauliani"
       ],
       "popularity": 1298,
-      "rarity": 0.745,
+      "rarity": 0.751,
       "tier": 4,
       "wiki": "Karthala scops owl"
     },
@@ -716,7 +696,7 @@
         "Otus atricapillus"
       ],
       "popularity": 1309,
-      "rarity": 0.741,
+      "rarity": 0.747,
       "tier": 4,
       "wiki": "Black-capped screech owl"
     },
@@ -729,7 +709,7 @@
         "Pyrroglaux podarginus"
       ],
       "popularity": 1310,
-      "rarity": 0.738,
+      "rarity": 0.743,
       "tier": 4,
       "wiki": "Palau scops owl"
     },
@@ -739,7 +719,7 @@
         "Otus manadensis"
       ],
       "popularity": 1316,
-      "rarity": 0.734,
+      "rarity": 0.739,
       "tier": 4,
       "wiki": "Sulawesi scops owl"
     },
@@ -749,7 +729,7 @@
         "Athene roseoaxillaris"
       ],
       "popularity": 1328,
-      "rarity": 0.73,
+      "rarity": 0.736,
       "tier": 4,
       "wiki": "Makira owl"
     },
@@ -762,7 +742,7 @@
         "Spotted hawk owl"
       ],
       "popularity": 1331,
-      "rarity": 0.726,
+      "rarity": 0.732,
       "tier": 4,
       "wiki": "Romblon boobook"
     },
@@ -772,7 +752,7 @@
         "Glaucidium griseiceps"
       ],
       "popularity": 1341,
-      "rarity": 0.722,
+      "rarity": 0.728,
       "tier": 4,
       "wiki": "Central American pygmy owl"
     },
@@ -782,7 +762,7 @@
         "Otus everetti"
       ],
       "popularity": 1375,
-      "rarity": 0.719,
+      "rarity": 0.724,
       "tier": 4,
       "wiki": "Everett's scops owl"
     },
@@ -793,7 +773,7 @@
         "Russet hawk-owl"
       ],
       "popularity": 1392,
-      "rarity": 0.713,
+      "rarity": 0.718,
       "tier": 4,
       "wiki": "New Britain boobook"
     },
@@ -803,7 +783,7 @@
         "Otus alius"
       ],
       "popularity": 1392,
-      "rarity": 0.713,
+      "rarity": 0.718,
       "tier": 4,
       "wiki": "Nicobar scops owl"
     },
@@ -813,7 +793,7 @@
         "Otus nigrorum"
       ],
       "popularity": 1402,
-      "rarity": 0.707,
+      "rarity": 0.713,
       "tier": 4,
       "wiki": "Negros scops owl"
     },
@@ -824,7 +804,7 @@
         "Ninox spilocephala"
       ],
       "popularity": 1403,
-      "rarity": 0.703,
+      "rarity": 0.709,
       "tier": 4,
       "wiki": "Mindanao boobook"
     },
@@ -834,7 +814,7 @@
         "Glaucidium sylvaticum"
       ],
       "popularity": 1411,
-      "rarity": 0.7,
+      "rarity": 0.705,
       "tier": 4,
       "wiki": "Sunda owlet"
     },
@@ -845,7 +825,7 @@
         "Ninox ios"
       ],
       "popularity": 1413,
-      "rarity": 0.696,
+      "rarity": 0.701,
       "tier": 4,
       "wiki": "Cinnabar boobook"
     },
@@ -855,7 +835,7 @@
         "Otus longicornis"
       ],
       "popularity": 1418,
-      "rarity": 0.692,
+      "rarity": 0.697,
       "tier": 4,
       "wiki": "Luzon scops owl"
     },
@@ -866,7 +846,7 @@
         "Otus peterseni"
       ],
       "popularity": 1426,
-      "rarity": 0.688,
+      "rarity": 0.693,
       "tier": 4,
       "wiki": "Cinnamon screech owl"
     },
@@ -876,7 +856,7 @@
         "Otus rufescens"
       ],
       "popularity": 1432,
-      "rarity": 0.684,
+      "rarity": 0.69,
       "tier": 4,
       "wiki": "Reddish scops owl"
     },
@@ -886,7 +866,7 @@
         "Glaucidium jardinii"
       ],
       "popularity": 1438,
-      "rarity": 0.681,
+      "rarity": 0.686,
       "tier": 4,
       "wiki": "Andean pygmy owl"
     },
@@ -897,7 +877,7 @@
         "Otus albogularis"
       ],
       "popularity": 1441,
-      "rarity": 0.677,
+      "rarity": 0.682,
       "tier": 4,
       "wiki": "White-throated screech owl"
     },
@@ -908,7 +888,7 @@
         "Otus clarkii"
       ],
       "popularity": 1446,
-      "rarity": 0.673,
+      "rarity": 0.678,
       "tier": 4,
       "wiki": "Bare-shanked screech owl"
     },
@@ -919,7 +899,7 @@
         "oriental hawk-owl"
       ],
       "popularity": 1463,
-      "rarity": 0.669,
+      "rarity": 0.674,
       "tier": 4,
       "wiki": "Speckled boobook"
     },
@@ -930,7 +910,7 @@
         "Otus watsonii"
       ],
       "popularity": 1475,
-      "rarity": 0.665,
+      "rarity": 0.67,
       "tier": 4,
       "wiki": "Tawny-bellied screech owl"
     },
@@ -940,7 +920,7 @@
         "Ninox leventisi"
       ],
       "popularity": 1488,
-      "rarity": 0.662,
+      "rarity": 0.667,
       "tier": 4,
       "wiki": "Camiguin boobook"
     },
@@ -951,7 +931,7 @@
         "Sulu Hawk-Owl"
       ],
       "popularity": 1502,
-      "rarity": 0.658,
+      "rarity": 0.663,
       "tier": 4,
       "wiki": "Sulu boobook"
     },
@@ -961,7 +941,7 @@
         "Ninox fusca"
       ],
       "popularity": 1504,
-      "rarity": 0.654,
+      "rarity": 0.659,
       "tier": 4,
       "wiki": "Timor boobook"
     },
@@ -971,7 +951,7 @@
         "Glaucidium costaricanum"
       ],
       "popularity": 1508,
-      "rarity": 0.65,
+      "rarity": 0.655,
       "tier": 4,
       "wiki": "Costa Rican pygmy owl"
     },
@@ -981,7 +961,7 @@
         "Glaucidium siju"
       ],
       "popularity": 1537,
-      "rarity": 0.646,
+      "rarity": 0.651,
       "tier": 4,
       "wiki": "Cuban pygmy owl"
     },
@@ -992,7 +972,7 @@
         "Sjostedtís owlet"
       ],
       "popularity": 1577,
-      "rarity": 0.643,
+      "rarity": 0.648,
       "tier": 4,
       "wiki": "Sjöstedt's barred owlet"
     },
@@ -1003,7 +983,7 @@
         "Glaucidium hoskinsii"
       ],
       "popularity": 1580,
-      "rarity": 0.639,
+      "rarity": 0.644,
       "tier": 4,
       "wiki": "Baja pygmy owl"
     },
@@ -1013,7 +993,7 @@
         "Ninox rotiensis"
       ],
       "popularity": 1594,
-      "rarity": 0.635,
+      "rarity": 0.64,
       "tier": 4,
       "wiki": "Rote boobook"
     },
@@ -1024,7 +1004,7 @@
         "Solomons Boobook"
       ],
       "popularity": 1600,
-      "rarity": 0.631,
+      "rarity": 0.636,
       "tier": 4,
       "wiki": "West Solomons owl"
     },
@@ -1034,7 +1014,7 @@
         "Otus balli"
       ],
       "popularity": 1620,
-      "rarity": 0.627,
+      "rarity": 0.632,
       "tier": 4,
       "wiki": "Andaman scops owl"
     },
@@ -1044,7 +1024,7 @@
         "Ninox obscura"
       ],
       "popularity": 1640,
-      "rarity": 0.624,
+      "rarity": 0.628,
       "tier": 4,
       "wiki": "Hume's boobook"
     },
@@ -1054,7 +1034,7 @@
         "Ninox plesseni"
       ],
       "popularity": 1651,
-      "rarity": 0.62,
+      "rarity": 0.625,
       "tier": 4,
       "wiki": "Alor boobook"
     },
@@ -1064,7 +1044,7 @@
         "Glaucidium tephronotum"
       ],
       "popularity": 1685,
-      "rarity": 0.616,
+      "rarity": 0.621,
       "tier": 4,
       "wiki": "Red-chested owlet"
     },
@@ -1074,7 +1054,7 @@
         "Glaucidium minutissimum"
       ],
       "popularity": 1700,
-      "rarity": 0.612,
+      "rarity": 0.617,
       "tier": 4,
       "wiki": "East Brazilian pygmy owl"
     },
@@ -1084,7 +1064,7 @@
         "Glaucidium albertinum"
       ],
       "popularity": 1721,
-      "rarity": 0.608,
+      "rarity": 0.613,
       "tier": 4,
       "wiki": "Albertine owlet"
     },
@@ -1094,7 +1074,7 @@
         "Glaucidium peruanum"
       ],
       "popularity": 1733,
-      "rarity": 0.605,
+      "rarity": 0.609,
       "tier": 4,
       "wiki": "Pacific pygmy owl"
     },
@@ -1104,7 +1084,7 @@
         "Otus bikegila"
       ],
       "popularity": 1734,
-      "rarity": 0.601,
+      "rarity": 0.605,
       "tier": 4,
       "wiki": "Principe scops owl"
     },
@@ -1114,8 +1094,8 @@
         "Otus sagittatus"
       ],
       "popularity": 1746,
-      "rarity": 0.597,
-      "tier": 3,
+      "rarity": 0.602,
+      "tier": 4,
       "wiki": "White-fronted scops owl"
     },
     {
@@ -1125,7 +1105,7 @@
         "Otus barbarus"
       ],
       "popularity": 1773,
-      "rarity": 0.593,
+      "rarity": 0.598,
       "tier": 3,
       "wiki": "Bearded screech owl"
     },
@@ -1135,7 +1115,7 @@
         "Otus angelinae"
       ],
       "popularity": 1791,
-      "rarity": 0.589,
+      "rarity": 0.594,
       "tier": 3,
       "wiki": "Javan scops owl"
     },
@@ -1145,7 +1125,7 @@
         "Glaucidium nubicola"
       ],
       "popularity": 1815,
-      "rarity": 0.586,
+      "rarity": 0.59,
       "tier": 3,
       "wiki": "Cloud-forest pygmy owl"
     },
@@ -1155,7 +1135,7 @@
         "Megascops sanctaecatarinae"
       ],
       "popularity": 1829,
-      "rarity": 0.582,
+      "rarity": 0.586,
       "tier": 3,
       "wiki": "Long-tufted screech owl"
     },
@@ -1165,7 +1145,7 @@
         "Otus alfredi"
       ],
       "popularity": 1877,
-      "rarity": 0.578,
+      "rarity": 0.582,
       "tier": 3,
       "wiki": "Flores scops owl"
     },
@@ -1175,7 +1155,7 @@
         "Glaucidium castanopterum"
       ],
       "popularity": 1885,
-      "rarity": 0.574,
+      "rarity": 0.579,
       "tier": 3,
       "wiki": "Javan owlet"
     },
@@ -1185,7 +1165,7 @@
         "Scotopelia ussheri"
       ],
       "popularity": 1893,
-      "rarity": 0.57,
+      "rarity": 0.575,
       "tier": 3,
       "wiki": "Rufous fishing owl"
     },
@@ -1195,7 +1175,7 @@
         "Otus capnodes"
       ],
       "popularity": 1897,
-      "rarity": 0.567,
+      "rarity": 0.571,
       "tier": 3,
       "wiki": "Anjouan scops owl"
     },
@@ -1206,7 +1186,7 @@
         "Otus elegans"
       ],
       "popularity": 1913,
-      "rarity": 0.563,
+      "rarity": 0.567,
       "tier": 3,
       "wiki": "Ryūkyū scops owl"
     },
@@ -1217,7 +1197,7 @@
         "Otus vermiculatus"
       ],
       "popularity": 1933,
-      "rarity": 0.559,
+      "rarity": 0.563,
       "tier": 3,
       "wiki": "Middle American screech owl"
     },
@@ -1227,7 +1207,7 @@
         "Scotopelia bouvieri"
       ],
       "popularity": 1935,
-      "rarity": 0.555,
+      "rarity": 0.559,
       "tier": 3,
       "wiki": "Vermiculated fishing owl"
     },
@@ -1238,7 +1218,7 @@
         "Otus cooperii"
       ],
       "popularity": 1960,
-      "rarity": 0.551,
+      "rarity": 0.556,
       "tier": 3,
       "wiki": "Pacific screech owl"
     },
@@ -1249,7 +1229,7 @@
         "Ninox affinis"
       ],
       "popularity": 2017,
-      "rarity": 0.548,
+      "rarity": 0.552,
       "tier": 3,
       "wiki": "Andaman boobook"
     },
@@ -1259,7 +1239,7 @@
         "Otus spilocephalus"
       ],
       "popularity": 2025,
-      "rarity": 0.544,
+      "rarity": 0.548,
       "tier": 3,
       "wiki": "Mountain scops owl"
     },
@@ -1270,7 +1250,7 @@
         "White-browed Hawk-Owl"
       ],
       "popularity": 2028,
-      "rarity": 0.54,
+      "rarity": 0.544,
       "tier": 3,
       "wiki": "White-browed owl"
     },
@@ -1280,7 +1260,7 @@
         "Glaucidium hardyi"
       ],
       "popularity": 2031,
-      "rarity": 0.536,
+      "rarity": 0.54,
       "tier": 3,
       "wiki": "Amazonian pygmy owl"
     },
@@ -1290,7 +1270,7 @@
         "Otus jolandae"
       ],
       "popularity": 2076,
-      "rarity": 0.532,
+      "rarity": 0.536,
       "tier": 3,
       "wiki": "Rinjani scops owl"
     },
@@ -1301,7 +1281,7 @@
         "Glaucidium castanotum"
       ],
       "popularity": 2082,
-      "rarity": 0.529,
+      "rarity": 0.533,
       "tier": 3,
       "wiki": "Chestnut-backed owlet"
     },
@@ -1311,7 +1291,7 @@
         "Otus insularis"
       ],
       "popularity": 2089,
-      "rarity": 0.525,
+      "rarity": 0.529,
       "tier": 3,
       "wiki": "Seychelles scops owl"
     },
@@ -1321,7 +1301,7 @@
         "Otus cyprius"
       ],
       "popularity": 2096,
-      "rarity": 0.521,
+      "rarity": 0.525,
       "tier": 3,
       "wiki": "Cyprus scops owl"
     },
@@ -1332,7 +1312,7 @@
         "Ninox philippensis"
       ],
       "popularity": 2233,
-      "rarity": 0.517,
+      "rarity": 0.521,
       "tier": 3,
       "wiki": "Luzon boobook"
     },
@@ -1342,7 +1322,7 @@
         "Ninox randi"
       ],
       "popularity": 2239,
-      "rarity": 0.513,
+      "rarity": 0.517,
       "tier": 3,
       "wiki": "Chocolate boobook"
     },
@@ -1352,7 +1332,7 @@
         "Otus brucei"
       ],
       "popularity": 2276,
-      "rarity": 0.51,
+      "rarity": 0.513,
       "tier": 3,
       "wiki": "Pallid scops owl"
     },
@@ -1363,7 +1343,7 @@
         "Ninox rumseyi"
       ],
       "popularity": 2306,
-      "rarity": 0.506,
+      "rarity": 0.51,
       "tier": 3,
       "wiki": "Cebu boobook"
     },
@@ -1373,7 +1353,7 @@
         "Strix hylophila"
       ],
       "popularity": 2376,
-      "rarity": 0.502,
+      "rarity": 0.506,
       "tier": 3,
       "wiki": "Rusty-barred owl"
     },
@@ -1383,9 +1363,29 @@
         "Asio madagascariensis"
       ],
       "popularity": 2389,
-      "rarity": 0.498,
+      "rarity": 0.502,
       "tier": 3,
       "wiki": "Madagascar owl"
+    },
+    {
+      "name": "Northern fish owl",
+      "aliases": [
+        "Ketupa doerriesi"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Paramo horned owl",
+      "aliases": [
+        "Bubo nigrescens"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
     },
     {
       "name": "Papuan hawk-owl",
@@ -1393,7 +1393,7 @@
         "Uroglaux dimorpha"
       ],
       "popularity": 2405,
-      "rarity": 0.494,
+      "rarity": 0.498,
       "tier": 3,
       "wiki": "Papuan hawk-owl"
     },
@@ -1403,7 +1403,7 @@
         "Otus lempiji"
       ],
       "popularity": 2481,
-      "rarity": 0.49,
+      "rarity": 0.494,
       "tier": 3,
       "wiki": "Sunda scops owl"
     },
@@ -1413,7 +1413,7 @@
         "Jubula lettii"
       ],
       "popularity": 2489,
-      "rarity": 0.487,
+      "rarity": 0.49,
       "tier": 3,
       "wiki": "Maned owl"
     },
@@ -1424,7 +1424,7 @@
         "Strix sartorii"
       ],
       "popularity": 2503,
-      "rarity": 0.483,
+      "rarity": 0.487,
       "tier": 3,
       "wiki": "Cinereous owl"
     },
@@ -1435,7 +1435,7 @@
         "Strix albitarsus"
       ],
       "popularity": 2565,
-      "rarity": 0.479,
+      "rarity": 0.483,
       "tier": 3,
       "wiki": "Rufous-banded owl"
     },
@@ -1443,7 +1443,7 @@
       "name": "Tyto robusta",
       "aliases": [],
       "popularity": 2626,
-      "rarity": 0.475,
+      "rarity": 0.479,
       "tier": 3,
       "wiki": "Tyto robusta"
     },
@@ -1454,7 +1454,7 @@
         "Ninox natalis"
       ],
       "popularity": 2650,
-      "rarity": 0.471,
+      "rarity": 0.475,
       "tier": 3,
       "wiki": "Christmas boobook"
     },
@@ -1464,7 +1464,7 @@
         "Margarobyas lawrencii"
       ],
       "popularity": 2716,
-      "rarity": 0.468,
+      "rarity": 0.471,
       "tier": 3,
       "wiki": "Bare-legged owl"
     },
@@ -1475,7 +1475,7 @@
         "Strix rufipes"
       ],
       "popularity": 2817,
-      "rarity": 0.464,
+      "rarity": 0.467,
       "tier": 3,
       "wiki": "Rufous-legged owl"
     },
@@ -1485,7 +1485,7 @@
         "Aegolius ridgwayi"
       ],
       "popularity": 2917,
-      "rarity": 0.46,
+      "rarity": 0.464,
       "tier": 3,
       "wiki": "Unspotted saw-whet owl"
     },
@@ -1495,7 +1495,7 @@
         "Ketupa leucosticta"
       ],
       "popularity": 2939,
-      "rarity": 0.456,
+      "rarity": 0.46,
       "tier": 3,
       "wiki": "Akun eagle-owl"
     },
@@ -1505,7 +1505,7 @@
         "Glaucidium capense"
       ],
       "popularity": 2983,
-      "rarity": 0.452,
+      "rarity": 0.456,
       "tier": 3,
       "wiki": "African barred owlet"
     },
@@ -1515,7 +1515,7 @@
         "Tyto manusi"
       ],
       "popularity": 3018,
-      "rarity": 0.449,
+      "rarity": 0.452,
       "tier": 3,
       "wiki": "Manus masked owl"
     },
@@ -1525,7 +1525,7 @@
         "Aegolius harrisii"
       ],
       "popularity": 3052,
-      "rarity": 0.445,
+      "rarity": 0.448,
       "tier": 3,
       "wiki": "Buff-fronted owl"
     },
@@ -1535,7 +1535,7 @@
         "Strix chacoensis"
       ],
       "popularity": 3079,
-      "rarity": 0.441,
+      "rarity": 0.444,
       "tier": 3,
       "wiki": "Chaco owl"
     },
@@ -1545,7 +1545,7 @@
         "Glaucidium gnoma"
       ],
       "popularity": 3092,
-      "rarity": 0.437,
+      "rarity": 0.441,
       "tier": 3,
       "wiki": "Mountain pygmy owl"
     },
@@ -1555,7 +1555,7 @@
         "Otus ireneae"
       ],
       "popularity": 3101,
-      "rarity": 0.433,
+      "rarity": 0.437,
       "tier": 3,
       "wiki": "Sokoke scops owl"
     },
@@ -1566,7 +1566,7 @@
         "Fraserís eagle-owl"
       ],
       "popularity": 3129,
-      "rarity": 0.43,
+      "rarity": 0.433,
       "tier": 3,
       "wiki": "Fraser's eagle-owl"
     },
@@ -1576,7 +1576,7 @@
         "Bubo shelleyi"
       ],
       "popularity": 3154,
-      "rarity": 0.426,
+      "rarity": 0.429,
       "tier": 3,
       "wiki": "Shelley's eagle-owl"
     },
@@ -1586,7 +1586,7 @@
         "Strix fulvescens"
       ],
       "popularity": 3158,
-      "rarity": 0.422,
+      "rarity": 0.425,
       "tier": 3,
       "wiki": "Fulvous owl"
     },
@@ -1596,7 +1596,7 @@
         "Otus gurneyi"
       ],
       "popularity": 3179,
-      "rarity": 0.418,
+      "rarity": 0.421,
       "tier": 3,
       "wiki": "Giant scops owl"
     },
@@ -1607,7 +1607,7 @@
         "Tyto rosenbergii"
       ],
       "popularity": 3356,
-      "rarity": 0.414,
+      "rarity": 0.418,
       "tier": 3,
       "wiki": "Sulawesi masked owl"
     },
@@ -1617,7 +1617,7 @@
         "Nesasio solomonensis"
       ],
       "popularity": 3379,
-      "rarity": 0.411,
+      "rarity": 0.414,
       "tier": 3,
       "wiki": "Fearful owl"
     },
@@ -1627,7 +1627,7 @@
         "Glaucidium sanchezi"
       ],
       "popularity": 3470,
-      "rarity": 0.407,
+      "rarity": 0.41,
       "tier": 3,
       "wiki": "Tamaulipas pygmy owl"
     },
@@ -1637,7 +1637,7 @@
         "Asio abyssinicus"
       ],
       "popularity": 3513,
-      "rarity": 0.403,
+      "rarity": 0.406,
       "tier": 3,
       "wiki": "Abyssinian owl"
     },
@@ -1647,8 +1647,8 @@
         "Pseudoscops grammicus"
       ],
       "popularity": 3514,
-      "rarity": 0.399,
-      "tier": 2,
+      "rarity": 0.402,
+      "tier": 3,
       "wiki": "Jamaican owl"
     },
     {
@@ -1657,7 +1657,7 @@
         "Otus moheliensis"
       ],
       "popularity": 3520,
-      "rarity": 0.395,
+      "rarity": 0.398,
       "tier": 2,
       "wiki": "Moheli scops owl"
     },
@@ -1667,7 +1667,7 @@
         "Bubo cinerascens"
       ],
       "popularity": 3710,
-      "rarity": 0.392,
+      "rarity": 0.395,
       "tier": 2,
       "wiki": "Greyish eagle-owl"
     },
@@ -1678,7 +1678,7 @@
         "Strix butleri"
       ],
       "popularity": 3788,
-      "rarity": 0.388,
+      "rarity": 0.391,
       "tier": 2,
       "wiki": "Omani owl"
     },
@@ -1689,7 +1689,7 @@
         "Tyto sororcula"
       ],
       "popularity": 3791,
-      "rarity": 0.384,
+      "rarity": 0.387,
       "tier": 2,
       "wiki": "Moluccan masked owl"
     },
@@ -1700,7 +1700,7 @@
         "Glaucidium nanum"
       ],
       "popularity": 3813,
-      "rarity": 0.38,
+      "rarity": 0.383,
       "tier": 2,
       "wiki": "Austral pygmy owl"
     },
@@ -1710,7 +1710,7 @@
         "Ninox leucopsis"
       ],
       "popularity": 3837,
-      "rarity": 0.376,
+      "rarity": 0.379,
       "tier": 2,
       "wiki": "Tasmanian boobook"
     },
@@ -1720,7 +1720,7 @@
         "Glaucidium brodiei"
       ],
       "popularity": 3838,
-      "rarity": 0.373,
+      "rarity": 0.375,
       "tier": 2,
       "wiki": "Collared owlet"
     },
@@ -1731,7 +1731,7 @@
         "Strix mauritanica"
       ],
       "popularity": 3848,
-      "rarity": 0.369,
+      "rarity": 0.372,
       "tier": 2,
       "wiki": "Maghreb owl"
     },
@@ -1742,7 +1742,7 @@
         "Strix nivicolum"
       ],
       "popularity": 3966,
-      "rarity": 0.365,
+      "rarity": 0.368,
       "tier": 2,
       "wiki": "Himalayan owl"
     },
@@ -1752,7 +1752,7 @@
         "Glaucidium mooreorum"
       ],
       "popularity": 4020,
-      "rarity": 0.361,
+      "rarity": 0.364,
       "tier": 2,
       "wiki": "Pernambuco pygmy owl"
     },
@@ -1762,7 +1762,7 @@
         "Phodilus assimilis"
       ],
       "popularity": 4028,
-      "rarity": 0.357,
+      "rarity": 0.36,
       "tier": 2,
       "wiki": "Sri Lanka bay owl"
     },
@@ -1773,7 +1773,7 @@
         "Otus choliba"
       ],
       "popularity": 4140,
-      "rarity": 0.354,
+      "rarity": 0.356,
       "tier": 2,
       "wiki": "Tropical screech owl"
     },
@@ -1785,7 +1785,7 @@
         "Tyto nigrobrunnea"
       ],
       "popularity": 4173,
-      "rarity": 0.35,
+      "rarity": 0.352,
       "tier": 2,
       "wiki": "Taliabu masked owl"
     },
@@ -1795,7 +1795,7 @@
         "Strix woodfordii"
       ],
       "popularity": 4265,
-      "rarity": 0.346,
+      "rarity": 0.349,
       "tier": 2,
       "wiki": "African wood owl"
     },
@@ -1806,7 +1806,7 @@
         "Phodilus prigoginei"
       ],
       "popularity": 4312,
-      "rarity": 0.342,
+      "rarity": 0.345,
       "tier": 2,
       "wiki": "Itombwe owl"
     },
@@ -1816,7 +1816,7 @@
         "Otus thilohoffmanni"
       ],
       "popularity": 4338,
-      "rarity": 0.338,
+      "rarity": 0.341,
       "tier": 2,
       "wiki": "Serendib scops owl"
     },
@@ -1826,7 +1826,7 @@
         "Otus lettia"
       ],
       "popularity": 4352,
-      "rarity": 0.335,
+      "rarity": 0.337,
       "tier": 2,
       "wiki": "Collared scops owl"
     },
@@ -1836,7 +1836,7 @@
         "Tyto castanops"
       ],
       "popularity": 4386,
-      "rarity": 0.331,
+      "rarity": 0.333,
       "tier": 2,
       "wiki": "Tasmanian masked owl"
     },
@@ -1847,7 +1847,7 @@
         "Otus trichopsis"
       ],
       "popularity": 4502,
-      "rarity": 0.327,
+      "rarity": 0.33,
       "tier": 2,
       "wiki": "Whiskered screech owl"
     },
@@ -1857,7 +1857,7 @@
         "Bubo milesi"
       ],
       "popularity": 4548,
-      "rarity": 0.323,
+      "rarity": 0.326,
       "tier": 2,
       "wiki": "Arabian eagle-owl"
     },
@@ -1867,7 +1867,7 @@
         "Bubo coromandus"
       ],
       "popularity": 4782,
-      "rarity": 0.319,
+      "rarity": 0.322,
       "tier": 2,
       "wiki": "Dusky eagle-owl"
     },
@@ -1877,7 +1877,7 @@
         "Glaucidium radiatum"
       ],
       "popularity": 4892,
-      "rarity": 0.316,
+      "rarity": 0.318,
       "tier": 2,
       "wiki": "Jungle owlet"
     },
@@ -1887,7 +1887,7 @@
         "Strix virgata"
       ],
       "popularity": 4917,
-      "rarity": 0.312,
+      "rarity": 0.314,
       "tier": 2,
       "wiki": "Mottled owl"
     },
@@ -1897,7 +1897,7 @@
         "Strix nigrolineata"
       ],
       "popularity": 5057,
-      "rarity": 0.308,
+      "rarity": 0.31,
       "tier": 2,
       "wiki": "Black-and-white owl"
     },
@@ -1907,7 +1907,7 @@
         "Glaucidium cuculoides"
       ],
       "popularity": 5087,
-      "rarity": 0.304,
+      "rarity": 0.307,
       "tier": 2,
       "wiki": "Asian barred owlet"
     },
@@ -1920,7 +1920,7 @@
         "Tyto inexspectata"
       ],
       "popularity": 5094,
-      "rarity": 0.3,
+      "rarity": 0.303,
       "tier": 2,
       "wiki": "Minahasa masked owl"
     },
@@ -1931,7 +1931,7 @@
         "Northern Boobok"
       ],
       "popularity": 5106,
-      "rarity": 0.297,
+      "rarity": 0.299,
       "tier": 2,
       "wiki": "Northern boobook"
     },
@@ -1941,7 +1941,7 @@
         "Glaucidium perlatum"
       ],
       "popularity": 5190,
-      "rarity": 0.293,
+      "rarity": 0.295,
       "tier": 2,
       "wiki": "Pearl-spotted owlet"
     },
@@ -1951,7 +1951,7 @@
         "Otus senegalensis"
       ],
       "popularity": 5253,
-      "rarity": 0.289,
+      "rarity": 0.291,
       "tier": 2,
       "wiki": "African scops owl"
     },
@@ -1961,7 +1961,7 @@
         "Otus sunia"
       ],
       "popularity": 5322,
-      "rarity": 0.285,
+      "rarity": 0.287,
       "tier": 2,
       "wiki": "Oriental scops owl"
     },
@@ -1971,7 +1971,7 @@
         "Ketupa flavipes"
       ],
       "popularity": 5327,
-      "rarity": 0.281,
+      "rarity": 0.284,
       "tier": 2,
       "wiki": "Tawny fish owl"
     },
@@ -1981,7 +1981,7 @@
         "Ptilopsis granti"
       ],
       "popularity": 5398,
-      "rarity": 0.278,
+      "rarity": 0.28,
       "tier": 2,
       "wiki": "Southern white-faced owl"
     },
@@ -1991,7 +1991,7 @@
         "Otus siaoensis"
       ],
       "popularity": 5484,
-      "rarity": 0.274,
+      "rarity": 0.276,
       "tier": 2,
       "wiki": "Siau scops owl"
     },
@@ -2001,7 +2001,7 @@
         "Strix seloputo"
       ],
       "popularity": 5525,
-      "rarity": 0.27,
+      "rarity": 0.272,
       "tier": 2,
       "wiki": "Spotted wood owl"
     },
@@ -2011,7 +2011,7 @@
         "Lophostrix cristata"
       ],
       "popularity": 5614,
-      "rarity": 0.266,
+      "rarity": 0.268,
       "tier": 2,
       "wiki": "Crested owl"
     },
@@ -2021,7 +2021,7 @@
         "Otus megalotis"
       ],
       "popularity": 5654,
-      "rarity": 0.262,
+      "rarity": 0.264,
       "tier": 2,
       "wiki": "Philippine scops owl"
     },
@@ -2031,7 +2031,7 @@
         "Tyto aurantia"
       ],
       "popularity": 5914,
-      "rarity": 0.259,
+      "rarity": 0.261,
       "tier": 2,
       "wiki": "Golden masked owl"
     },
@@ -2041,7 +2041,7 @@
         "Asio clamator"
       ],
       "popularity": 5943,
-      "rarity": 0.255,
+      "rarity": 0.257,
       "tier": 2,
       "wiki": "Striped owl"
     },
@@ -2051,7 +2051,7 @@
         "Asio capensis"
       ],
       "popularity": 5985,
-      "rarity": 0.251,
+      "rarity": 0.253,
       "tier": 2,
       "wiki": "Marsh owl"
     },
@@ -2061,7 +2061,7 @@
         "Otus bakkamoena"
       ],
       "popularity": 6102,
-      "rarity": 0.247,
+      "rarity": 0.249,
       "tier": 2,
       "wiki": "Indian scops owl"
     },
@@ -2071,7 +2071,7 @@
         "Otus semitorques"
       ],
       "popularity": 6104,
-      "rarity": 0.243,
+      "rarity": 0.245,
       "tier": 2,
       "wiki": "Japanese scops owl"
     },
@@ -2081,7 +2081,7 @@
         "Ninox rufa"
       ],
       "popularity": 6202,
-      "rarity": 0.24,
+      "rarity": 0.241,
       "tier": 2,
       "wiki": "Rufous owl"
     },
@@ -2091,7 +2091,7 @@
         "Xenoglaux loweryi"
       ],
       "popularity": 6421,
-      "rarity": 0.236,
+      "rarity": 0.238,
       "tier": 2,
       "wiki": "Long-whiskered owlet"
     },
@@ -2103,7 +2103,7 @@
         "Puerto Rican Screech Owl"
       ],
       "popularity": 6765,
-      "rarity": 0.232,
+      "rarity": 0.234,
       "tier": 2,
       "wiki": "Puerto Rican owl"
     },
@@ -2113,7 +2113,7 @@
         "Strix leptogrammica"
       ],
       "popularity": 6839,
-      "rarity": 0.228,
+      "rarity": 0.23,
       "tier": 2,
       "wiki": "Brown wood owl"
     },
@@ -2124,7 +2124,7 @@
         "Strix hadorami"
       ],
       "popularity": 7104,
-      "rarity": 0.224,
+      "rarity": 0.226,
       "tier": 2,
       "wiki": "Desert owl"
     },
@@ -2134,7 +2134,7 @@
         "Ninox scutulata"
       ],
       "popularity": 7301,
-      "rarity": 0.221,
+      "rarity": 0.222,
       "tier": 2,
       "wiki": "Brown boobook"
     },
@@ -2144,7 +2144,7 @@
         "Bubo capensis"
       ],
       "popularity": 7355,
-      "rarity": 0.217,
+      "rarity": 0.218,
       "tier": 2,
       "wiki": "Cape eagle-owl"
     },
@@ -2154,7 +2154,7 @@
         "Strix huhula"
       ],
       "popularity": 7460,
-      "rarity": 0.213,
+      "rarity": 0.215,
       "tier": 2,
       "wiki": "Black-banded owl"
     },
@@ -2165,7 +2165,7 @@
         "Scotopelia peli"
       ],
       "popularity": 7726,
-      "rarity": 0.209,
+      "rarity": 0.211,
       "tier": 2,
       "wiki": "Pel's fishing owl"
     },
@@ -2175,7 +2175,7 @@
         "Strix ocellata"
       ],
       "popularity": 7886,
-      "rarity": 0.205,
+      "rarity": 0.207,
       "tier": 2,
       "wiki": "Mottled wood owl"
     },
@@ -2185,7 +2185,7 @@
         "Tyto glaucops"
       ],
       "popularity": 7982,
-      "rarity": 0.202,
+      "rarity": 0.203,
       "tier": 2,
       "wiki": "Ashy-faced owl"
     },
@@ -2195,7 +2195,7 @@
         "Tyto multipunctata"
       ],
       "popularity": 8508,
-      "rarity": 0.198,
+      "rarity": 0.199,
       "tier": 1,
       "wiki": "Lesser sooty owl"
     },
@@ -2205,7 +2205,7 @@
         "Tyto capensis"
       ],
       "popularity": 8820,
-      "rarity": 0.194,
+      "rarity": 0.195,
       "tier": 1,
       "wiki": "African grass owl"
     },
@@ -2215,7 +2215,7 @@
         "Phodilus badius"
       ],
       "popularity": 8822,
-      "rarity": 0.19,
+      "rarity": 0.192,
       "tier": 1,
       "wiki": "Oriental bay owl"
     },
@@ -2226,7 +2226,7 @@
         "Malay fish owl"
       ],
       "popularity": 9165,
-      "rarity": 0.186,
+      "rarity": 0.188,
       "tier": 1,
       "wiki": "Buffy fish owl"
     },
@@ -2237,7 +2237,7 @@
         "Tyto longimembris"
       ],
       "popularity": 9217,
-      "rarity": 0.183,
+      "rarity": 0.184,
       "tier": 1,
       "wiki": "Eastern grass owl"
     },
@@ -2247,7 +2247,7 @@
         "Psiloscops flammeolus"
       ],
       "popularity": 9330,
-      "rarity": 0.179,
+      "rarity": 0.18,
       "tier": 1,
       "wiki": "Flammulated owl"
     },
@@ -2257,7 +2257,7 @@
         "Glaucidium brasilianum"
       ],
       "popularity": 9414,
-      "rarity": 0.175,
+      "rarity": 0.176,
       "tier": 1,
       "wiki": "Ferruginous pygmy owl"
     },
@@ -2268,7 +2268,7 @@
         "Malay Eagle-owl"
       ],
       "popularity": 9500,
-      "rarity": 0.171,
+      "rarity": 0.172,
       "tier": 1,
       "wiki": "Barred eagle-owl"
     },
@@ -2278,7 +2278,7 @@
         "Glaucidium californicum"
       ],
       "popularity": 9877,
-      "rarity": 0.167,
+      "rarity": 0.169,
       "tier": 1,
       "wiki": "Northern pygmy owl"
     },
@@ -2288,7 +2288,7 @@
         "Bubo philippensis"
       ],
       "popularity": 10342,
-      "rarity": 0.163,
+      "rarity": 0.165,
       "tier": 1,
       "wiki": "Philippine eagle-owl"
     },
@@ -2298,7 +2298,7 @@
         "Tyto novaehollandiae"
       ],
       "popularity": 10690,
-      "rarity": 0.16,
+      "rarity": 0.161,
       "tier": 1,
       "wiki": "Australian masked owl"
     },
@@ -2308,7 +2308,7 @@
         "Bubo nipalensis"
       ],
       "popularity": 10974,
-      "rarity": 0.156,
+      "rarity": 0.157,
       "tier": 1,
       "wiki": "Spot-bellied eagle-owl"
     },
@@ -2319,7 +2319,7 @@
         "Tyto soumagnei"
       ],
       "popularity": 11128,
-      "rarity": 0.152,
+      "rarity": 0.153,
       "tier": 1,
       "wiki": "Red owl"
     },
@@ -2329,7 +2329,7 @@
         "Tyto deroepstorffi"
       ],
       "popularity": 11587,
-      "rarity": 0.148,
+      "rarity": 0.149,
       "tier": 1,
       "wiki": "Andaman masked owl"
     },
@@ -2340,7 +2340,7 @@
         "Glaucidium passerinum"
       ],
       "popularity": 11865,
-      "rarity": 0.144,
+      "rarity": 0.146,
       "tier": 1,
       "wiki": "Eurasian pygmy owl"
     },
@@ -2350,7 +2350,7 @@
         "Ketupa zeylonensis"
       ],
       "popularity": 11911,
-      "rarity": 0.141,
+      "rarity": 0.142,
       "tier": 1,
       "wiki": "Brown fish owl"
     },
@@ -2361,7 +2361,7 @@
         "Otus kennicotti"
       ],
       "popularity": 12980,
-      "rarity": 0.137,
+      "rarity": 0.138,
       "tier": 1,
       "wiki": "Western screech owl"
     },
@@ -2371,7 +2371,7 @@
         "Ninox connivens"
       ],
       "popularity": 13040,
-      "rarity": 0.133,
+      "rarity": 0.134,
       "tier": 1,
       "wiki": "Barking owl"
     },
@@ -2382,7 +2382,7 @@
         "Ptilopsis leucotis"
       ],
       "popularity": 13076,
-      "rarity": 0.129,
+      "rarity": 0.13,
       "tier": 1,
       "wiki": "Northern white-faced owl"
     },
@@ -2392,7 +2392,7 @@
         "Athene brama"
       ],
       "popularity": 14045,
-      "rarity": 0.125,
+      "rarity": 0.126,
       "tier": 1,
       "wiki": "Spotted owlet"
     },
@@ -2402,7 +2402,7 @@
         "Pulsatrix perspicillata"
       ],
       "popularity": 14591,
-      "rarity": 0.122,
+      "rarity": 0.123,
       "tier": 1,
       "wiki": "Spectacled owl"
     },
@@ -2412,7 +2412,7 @@
         "Bubo africanus"
       ],
       "popularity": 14660,
-      "rarity": 0.118,
+      "rarity": 0.119,
       "tier": 1,
       "wiki": "Spotted eagle-owl"
     },
@@ -2422,7 +2422,7 @@
         "Bubo bengalensis"
       ],
       "popularity": 17158,
-      "rarity": 0.114,
+      "rarity": 0.115,
       "tier": 1,
       "wiki": "Indian eagle-owl"
     },
@@ -2432,7 +2432,7 @@
         "Bubo ascalaphus"
       ],
       "popularity": 17319,
-      "rarity": 0.11,
+      "rarity": 0.111,
       "tier": 1,
       "wiki": "Pharaoh eagle-owl"
     },
@@ -2442,7 +2442,7 @@
         "Tyto tenebricosa"
       ],
       "popularity": 18087,
-      "rarity": 0.106,
+      "rarity": 0.107,
       "tier": 1,
       "wiki": "Greater sooty owl"
     },
@@ -2462,7 +2462,7 @@
         "Athene blewitti"
       ],
       "popularity": 19526,
-      "rarity": 0.099,
+      "rarity": 0.1,
       "tier": 1,
       "wiki": "Forest owlet"
     },
@@ -2474,7 +2474,7 @@
         "milky eagle owl"
       ],
       "popularity": 21663,
-      "rarity": 0.095,
+      "rarity": 0.096,
       "tier": 1,
       "wiki": "Verreaux's eagle-owl"
     },
@@ -2484,7 +2484,7 @@
         "Strix uralensis"
       ],
       "popularity": 26826,
-      "rarity": 0.091,
+      "rarity": 0.092,
       "tier": 1,
       "wiki": "Ural owl"
     },
@@ -2495,7 +2495,7 @@
         "Tengmalm's Owl"
       ],
       "popularity": 27570,
-      "rarity": 0.087,
+      "rarity": 0.088,
       "tier": 1,
       "wiki": "Boreal owl"
     },
@@ -2527,7 +2527,7 @@
         "Tyto javanica"
       ],
       "popularity": 36844,
-      "rarity": 0.076,
+      "rarity": 0.077,
       "tier": 1,
       "wiki": "Eastern barn owl"
     },
@@ -2537,7 +2537,7 @@
         "Strix occidentalis"
       ],
       "popularity": 37323,
-      "rarity": 0.072,
+      "rarity": 0.073,
       "tier": 1,
       "wiki": "Spotted owl"
     },
@@ -2547,7 +2547,7 @@
         "Ninox strenua"
       ],
       "popularity": 37584,
-      "rarity": 0.068,
+      "rarity": 0.069,
       "tier": 1,
       "wiki": "Powerful owl"
     },
@@ -2589,7 +2589,7 @@
         "Asio flammeus"
       ],
       "popularity": 44585,
-      "rarity": 0.053,
+      "rarity": 0.054,
       "tier": 1,
       "wiki": "Short-eared owl"
     },
@@ -2600,7 +2600,7 @@
         "Otus asio"
       ],
       "popularity": 46756,
-      "rarity": 0.049,
+      "rarity": 0.05,
       "tier": 1,
       "wiki": "Eastern screech owl"
     },
@@ -2654,7 +2654,7 @@
         "Athene noctua"
       ],
       "popularity": 86844,
-      "rarity": 0.03,
+      "rarity": 0.031,
       "tier": 1,
       "wiki": "Little owl"
     },

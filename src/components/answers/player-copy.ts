@@ -6,8 +6,11 @@
  * scripts/data/prompt-defs.ts (VIEW_START..VIEW_END, read at build).
  * Popularity is the sum of those 12 complete months, not a monthly average.
  *
- * The view label is fixed: "Wikipedia views, last 12 months"
- * (or "Wiktionary views, last 12 months" when the source says Wiktionary).
+ * The view label is fixed: "English Wikipedia pageviews, last 12 months"
+ * (or "English Wiktionary pageviews, last 12 months" when the source says Wiktionary).
+ * Rarity is that pageview total, not how often players answer.
+ * Answers with `noData: true` are accepted but unranked: they sort after
+ * answers that have pageviews and are never called the rarest.
  */
 
 import { readFileSync } from 'node:fs';
@@ -174,9 +177,66 @@ export function measureKind(source: string): MeasureKind {
 /** Exact label used on every Wikipedia or Wiktionary figure this page owns. */
 export function measureLabel(source: string): string {
   const kind = measureKind(source);
-  if (kind === 'wiktionary') return 'Wiktionary views, last 12 months';
-  if (kind === 'wikipedia') return 'Wikipedia views, last 12 months';
+  if (kind === 'wiktionary') return 'English Wiktionary pageviews, last 12 months';
+  if (kind === 'wikipedia') return 'English Wikipedia pageviews, last 12 months';
   return 'stored popularity';
+}
+
+/** True only when the prompt file sets `noData`. Absence means the answer is ranked. */
+export function isNoData(answer: object): boolean {
+  return 'noData' in answer && (answer as { noData?: boolean }).noData === true;
+}
+
+export function rankedAnswers<T extends object>(answers: readonly T[]): T[] {
+  return answers.filter((answer) => !isNoData(answer));
+}
+
+/** Month named in the prompt source, such as "(2026-10)" → "October 2026". */
+export function sourceMonthLabel(source: string): string | null {
+  const match = source.match(/\((20\d{2})-(0[1-9]|1[0-2])(?:-\d{2})?\)/);
+  if (!match?.[1] || !match[2]) return null;
+  const name = MONTHS[Number(match[2]) - 1];
+  if (!name) return null;
+  return `${name} ${match[1]}`;
+}
+
+/** Visible stamp. Null when the source string has no month — nothing is invented. */
+export function dataUpdatedLine(source: string): string | null {
+  const month = sourceMonthLabel(source);
+  if (!month) return null;
+  return `Data updated ${month}.`;
+}
+
+/** Plain definition. Wiktionary and stored figures are not relabeled as Wikipedia. */
+export function rarityBasis(source: string): string {
+  const kind = measureKind(source);
+  if (kind === 'wiktionary') {
+    return 'Rarity comes from English Wiktionary pageviews over the last 12 months, not from player answers.';
+  }
+  if (kind === 'wikipedia') {
+    return 'Rarity comes from English Wikipedia pageviews over the last 12 months, not from player answers.';
+  }
+  return 'These figures are stored popularity on this prompt, not a count of player answers.';
+}
+
+/** One line above the ranking table. Empty when every answer is ranked. */
+export function noDataExplanation(answers: readonly object[]): string {
+  const unranked = answers.filter((answer) => isNoData(answer)).length;
+  const ranked = answers.length - unranked;
+  if (unranked === 0) return '';
+  if (ranked === 0) {
+    return unranked === 1
+      ? 'This answer has no English Wikipedia article. It is Uncommon (unranked), and it is not the rarest.'
+      : 'None of these answers has an English Wikipedia article. They are Uncommon (unranked), and none of them is the rarest.';
+  }
+  if (unranked === 1) {
+    return 'One answer has no English Wikipedia article. It is listed after the ranked answers as Uncommon (unranked), and it is not the rarest.';
+  }
+  return 'Answers with no English Wikipedia article are listed after the ranked answers as Uncommon (unranked). They are not the rarest.';
+}
+
+function pageviewSignal(source: string): 'pageviews' | 'stored popularity' {
+  return measureKind(source) === 'stored' ? 'stored popularity' : 'pageviews';
 }
 
 export function measureHeading(source: string): string {
@@ -195,13 +255,16 @@ function tierPoints(tier: Answer['tier']): string {
   return `${row.name}, ${row.points} points`;
 }
 
-export function rarityPlain(answer: Answer, answers: readonly Answer[]): string {
-  if (answers.length === 1) return 'the only answer in this set';
+export function rarityPlain(answer: Answer, answers: readonly Answer[], source = ''): string {
+  if (isNoData(answer)) return 'unranked, because it has no English Wikipedia article';
+  const pool = rankedAnswers(answers);
+  if (pool.length === 0) return 'unranked, because it has no English Wikipedia article';
+  if (pool.length === 1) return 'the only ranked answer in this set';
   let max = -Infinity;
   let min = Infinity;
   let maxCount = 0;
   let minCount = 0;
-  for (const item of answers) {
+  for (const item of pool) {
     if (item.rarity > max) {
       max = item.rarity;
       maxCount = 1;
@@ -211,26 +274,31 @@ export function rarityPlain(answer: Answer, answers: readonly Answer[]): string 
       minCount = 1;
     } else if (item.rarity === min) minCount += 1;
   }
-  if (max === min) return 'tied with every other answer in this set';
+  if (max === min) return 'tied with every other ranked answer in this set';
   if (answer.rarity === max) {
     return maxCount > 1 ? 'tied for rarest in this set' : 'the rarest in this set';
   }
   if (answer.rarity === min) {
     return minCount > 1 ? 'tied for most common in this set' : 'the most common in this set';
   }
-  return `rarer than about ${percent(answer.rarity)}% of this set`;
+  const signal = pageviewSignal(source);
+  return `fewer ${signal} than about ${percent(answer.rarity)}% of the ranked answers`;
 }
 
 /** Short cell text for the ranking table. */
-export function rarityShort(answer: Answer, answers: readonly Answer[]): string {
-  const phrase = rarityPlain(answer, answers);
-  if (phrase === 'the only answer in this set') return 'Only answer';
-  if (phrase === 'tied with every other answer in this set') return 'Tied with the set';
+export function rarityShort(answer: Answer, answers: readonly Answer[], source = ''): string {
+  if (isNoData(answer)) return 'Unranked';
+  const phrase = rarityPlain(answer, answers, source);
+  if (phrase === 'the only ranked answer in this set') return 'Only ranked answer';
+  if (phrase === 'unranked, because it has no English Wikipedia article') return 'Unranked';
+  if (phrase === 'tied with every other ranked answer in this set') return 'Tied with ranked answers';
   if (phrase === 'tied for rarest in this set') return 'Tied for rarest';
   if (phrase === 'the rarest in this set') return 'Rarest';
   if (phrase === 'tied for most common in this set') return 'Tied for most common';
   if (phrase === 'the most common in this set') return 'Most common';
-  return `Rarer than ${percent(answer.rarity)}%`;
+  const pct = percent(answer.rarity);
+  if (pageviewSignal(source) === 'stored popularity') return `Lower stored popularity than ${pct}%`;
+  return `Fewer pageviews than ${pct}%`;
 }
 
 function percent(rarity: number): number {
@@ -304,18 +372,25 @@ function easyBand(answers: readonly Answer[]): Band {
   return { tier, names: group.slice(-3).map((answer) => answer.name), total: group.length };
 }
 
-function bandClause(band: Band, role: 'least' | 'most'): string {
+function bandClause(
+  band: Band,
+  role: 'least' | 'most',
+  signal: 'pageviews' | 'stored popularity' = 'pageviews',
+): string {
   const points = tierPoints(band.tier);
   const extra = band.total > band.names.length ? `, ${band.total} in this tier` : '';
   const names = joinNames(band.names);
-  if (role === 'least') {
-    return band.total === 1
-      ? `The least-viewed answer is ${names} (${points})`
-      : `The least-viewed answers include ${names} (${points}${extra})`;
-  }
+  const phrase =
+    role === 'least'
+      ? signal === 'stored popularity'
+        ? 'lowest stored popularity'
+        : 'fewest pageviews'
+      : signal === 'stored popularity'
+        ? 'highest stored popularity'
+        : 'most pageviews';
   return band.total === 1
-    ? `The most-viewed answer is ${names} (${points})`
-    : `The most-viewed answers include ${names} (${points}${extra})`;
+    ? `The answer with the ${phrase} is ${names} (${points})`
+    : `The answers with the ${phrase} include ${names} (${points}${extra})`;
 }
 
 function containsName(aliasKey: string, otherKey: string): boolean {
@@ -438,9 +513,7 @@ function ownerList(owners: string[]): string {
 function leadParagraph(slug: string, question: string, source: string, answers: readonly Answer[]): string {
   const count = answers.length;
   const asked = quoteQuestion(question);
-  const rare = answers[0];
-  if (!rare) return '';
-  const cluster = answers.filter((answer) => answer.rarity === rare.rarity);
+  if (count === 0) return '';
   const word = count === 1 ? 'answer' : 'answers';
   let opener: string;
   if (count < 15) {
@@ -452,54 +525,86 @@ function leadParagraph(slug: string, question: string, source: string, answers: 
     opener = frames[frame(slug, 'lead', frames.length)] ?? frames[0]!;
   } else if (count >= 120) {
     const frames = [
-      `${asked} accepts ${count} answers, ranked from least viewed to most viewed.`,
-      `${count} answers count for ${asked}. The list runs from the least viewed name to the most viewed.`,
+      `${asked} accepts ${count} answers. Ranked rows run from fewest pageviews to most pageviews.`,
+      `${count} answers count for ${asked}. Ranked rows run from the fewest pageviews to the most pageviews.`,
       `The accepted set for ${asked} is ${count} names long, ranked by ${measureLabel(source)}.`,
     ];
     opener = frames[frame(slug, 'lead', frames.length)] ?? frames[0]!;
   } else if (count >= 40) {
     const frames = [
-      `${asked} has ${count} accepted answers. The table ranks them from least viewed to most viewed.`,
+      `${asked} has ${count} accepted answers. Ranked rows run from fewest pageviews to most pageviews.`,
       `${count} names count for ${asked}. Fewer ${measureLabel(source)} means a higher tier.`,
       `Every accepted answer to ${asked} is in the table below (${count} in total).`,
     ];
     opener = frames[frame(slug, 'lead', frames.length)] ?? frames[0]!;
   } else {
     const frames = [
-      `${asked} has ${count} accepted answers, a closed list ranked from least viewed to most viewed.`,
+      `${asked} has ${count} accepted answers, a closed list. Ranked rows run from fewest pageviews to most pageviews.`,
       `There are ${count} accepted answers to ${asked}. The table is the full list.`,
       `${count} answers are accepted for ${asked}. Learn the rare end of this closed list if you want a high score.`,
     ];
     opener = frames[frame(slug, 'lead', frames.length)] ?? frames[0]!;
   }
 
-  if (count === 1) {
-    return `${opener} ${rare.name} is ${tierPoints(rare.tier)}, with ${viewsClause(rare.popularity, source)}.`;
+  const ranked = rankedAnswers(answers);
+  const rare = ranked[0];
+  if (!rare) {
+    return `${asked} accepts ${count} ${word}. None of them has an English Wikipedia article, so none is ranked and none is the rarest. Each is scored as Uncommon (unranked).`;
+  }
+  const cluster = ranked.filter((answer) => answer.rarity === rare.rarity);
+  const omitted = answers.length - ranked.length;
+  const omittedNote =
+    omitted === 0
+      ? ''
+      : ` ${omitted} ${omitted === 1 ? 'answer has' : 'answers have'} no English Wikipedia article and ${omitted === 1 ? 'is' : 'are'} not part of this ranking.`;
+  if (ranked.length === 1) {
+    return `${opener} ${rare.name} is the rarest ranked answer: ${tierPoints(rare.tier)}, with ${viewsClause(rare.popularity, source)}.${omittedNote}`;
   }
   if (cluster.length > 3) {
     const sample = joinNames(cluster.slice(0, 3).map((answer) => answer.name));
-    return `${opener} ${cluster.length} answers tie for rarest (${tierPoints(rare.tier)}), including ${sample}. Each shows ${viewsClause(rare.popularity, source)}.`;
+    return `${opener} ${cluster.length} ranked answers tie for rarest (${tierPoints(rare.tier)}), including ${sample}. Each shows ${viewsClause(rare.popularity, source)}.${omittedNote}`;
   }
   if (cluster.length > 1) {
-    return `${opener} ${joinNames(cluster.map((answer) => answer.name))} tie for rarest (${tierPoints(rare.tier)}), with ${viewsClause(rare.popularity, source)} each.`;
+    return `${opener} ${joinNames(cluster.map((answer) => answer.name))} tie for rarest (${tierPoints(rare.tier)}), with ${viewsClause(rare.popularity, source)} each.${omittedNote}`;
   }
-  return `${opener} ${rare.name} is the rarest: ${tierPoints(rare.tier)}, ${rarityPlain(rare, answers)}, with ${viewsClause(rare.popularity, source)}.`;
+  return `${opener} ${rare.name} is the rarest: ${tierPoints(rare.tier)}, ${rarityPlain(rare, ranked, source)}, with ${viewsClause(rare.popularity, source)}.${omittedNote}`;
+}
+
+function unrankedClause(answers: readonly Answer[]): string {
+  const unranked = answers.filter((answer) => isNoData(answer));
+  if (unranked.length === 0) return '';
+  const ranked = answers.length - unranked.length;
+  if (ranked === 0) {
+    return unranked.length === 1
+      ? ' It has no English Wikipedia article, so it is Uncommon (unranked) and it is not the rarest.'
+      : ' None of them has an English Wikipedia article, so they are Uncommon (unranked) and none of them is the rarest.';
+  }
+  if (unranked.length <= 8) {
+    return ` Also accepted, with no English Wikipedia article: ${joinNames(unranked.map((answer) => answer.name))}. They are Uncommon (unranked) and are not the rarest.`;
+  }
+  return ` ${unranked.length} other accepted answers have no English Wikipedia article. They are Uncommon (unranked) and are not the rarest.`;
 }
 
 function scopeParagraph(question: string, answers: readonly Answer[]): string {
+  const ranked = rankedAnswers(answers);
   const count = answers.length;
   const asked = quoteQuestion(question);
+  const extra = unrankedClause(answers);
+  if (ranked.length === 0) {
+    return `${asked} accepts ${count} ${count === 1 ? 'answer' : 'answers'}.${extra}`;
+  }
   if (count < 15) {
-    const list = joinNames(answers.map((answer) => answer.name));
-    return `${asked} accepts only ${count} ${count === 1 ? 'answer' : 'answers'}, and the table is the whole list. From rarest to most common: ${list}.`;
+    const list = joinNames(ranked.map((answer) => answer.name));
+    const order = ranked.length === 1 ? list : `From fewest pageviews to most: ${list}.`;
+    return `${asked} accepts ${count} ${count === 1 ? 'answer' : 'answers'}. ${order}${extra}`;
   }
   if (count >= 120) {
-    return `${asked} accepts ${count} answers. The table is the whole set, rarest first. A guess counts when it matches a listed name or an alias stored on that name.`;
+    return `${asked} accepts ${count} answers. Ranked rows are ordered by pageviews, fewest first.${extra} A guess counts when it matches a listed name or an alias stored on that name.`;
   }
   if (count >= 40) {
-    return `There are ${count} accepted answers to ${asked}. Every one of them is in the table. A name that is not listed, and is not a stored alias, does not count.`;
+    return `There are ${count} accepted answers to ${asked}. Every one of them is in the table.${extra} A name that is not listed, and is not a stored alias, does not count.`;
   }
-  return `${asked} has ${count} accepted answers, a closed list. The table is that list, rarest first. Only those names and their stored aliases count.`;
+  return `${asked} has ${count} accepted answers, a closed list. Ranked rows are ordered by pageviews, fewest first.${extra} Only those names and their stored aliases count.`;
 }
 
 function distinctAlias(answers: readonly Answer[]): { alias: string; name: string } | null {
@@ -543,32 +648,41 @@ function missParagraph(misses: readonly Miss[]): string {
 }
 
 function standingsParagraph(answers: readonly Answer[], source: string, shape: Shape): string {
-  if (answers.length < 2) return '';
-  const hard = hardBand(answers);
-  const easy = easyBand(answers);
+  const ranked = rankedAnswers(answers);
+  if (ranked.length < 2) return '';
+  const signal = pageviewSignal(source);
+  const hard = hardBand(ranked);
+  const easy = easyBand(ranked);
   const viewed = measureLabel(source);
-  const rare = answers[0];
-  const common = answers[answers.length - 1];
+  const rare = ranked[0];
+  const common = ranked[ranked.length - 1];
   if (!rare || !common) return '';
   if (hard.tier === easy.tier) {
-    return `All ${answers.length} answers are ${tierPoints(hard.tier)}. ${rare.name} is the least viewed of them, and ${common.name} is the most viewed.`;
+    const few = signal === 'stored popularity' ? 'lowest stored popularity' : 'fewest pageviews';
+    const many = signal === 'stored popularity' ? 'highest stored popularity' : 'most pageviews';
+    return `All ${ranked.length} ranked answers are ${tierPoints(hard.tier)}. ${rare.name} has the ${few} among them, and ${common.name} has the ${many}.`;
   }
-  const least = `${bandClause(hard, 'least')}.`;
-  const most = `${bandClause(easy, 'most')}.`;
+  const least = `${bandClause(hard, 'least', signal)}.`;
+  const most = `${bandClause(easy, 'most', signal)}.`;
   if (shape === 'long' || shape === 'open') {
-    return `${most} They have the most ${viewed}, so this ranking treats them as the familiar picks. ${least} They have the fewest, so they are the hard scores.`;
+    return `${most} They have the most ${viewed}. ${least} They have the fewest, so they are the high scores on this ranking.`;
   }
-  return `${least} ${most} The most-viewed names are the familiar ones on this ranking, and the least-viewed names are the hard scores.`;
+  const commonEnd = signal === 'stored popularity' ? 'higher stored popularity' : 'more pageviews';
+  const highEnd = signal === 'stored popularity' ? 'lower stored popularity' : 'fewer pageviews';
+  return `${least} ${most} Names with ${commonEnd} are the common end of this ranking. Names with ${highEnd} are the high scores.`;
 }
 
 function tipParagraph(answers: readonly Answer[], shape: Shape): string {
-  const rare = answers[0];
-  if (!rare) return '';
-  if (answers.length === 1) {
-    return `${rare.name} is the only accepted answer, at ${tierPoints(rare.tier)}.`;
+  const ranked = rankedAnswers(answers);
+  const rare = ranked[0];
+  if (!rare) {
+    return 'No answer on this prompt is ranked by pageviews. Accepted answers with no English Wikipedia article score as Uncommon (unranked), and none of them is the rarest.';
   }
-  const hard = hardBand(answers);
-  const easy = easyBand(answers);
+  if (ranked.length === 1) {
+    return `${rare.name} is the only ranked answer, at ${tierPoints(rare.tier)}. It is the rarest on this prompt.`;
+  }
+  const hard = hardBand(ranked);
+  const easy = easyBand(ranked);
   const hardNames = joinNames(hard.names);
   const easyNames = joinNames(easy.names);
   const easyPoints = tierPoints(easy.tier);
@@ -578,18 +692,18 @@ function tipParagraph(answers: readonly Answer[], shape: Shape): string {
       : tierPoints(hard.tier);
   const easyVerb = easy.names.length === 1 ? 'is' : 'are';
   if (shape === 'small') {
-    return `To score high in this small set, name ${hardNames} (${hardLabel}). ${easyNames} ${easyVerb} ${easyPoints}.`;
+    return `To score high among the ranked answers, name ${hardNames} (${hardLabel}). ${easyNames} ${easyVerb} ${easyPoints}.`;
   }
   if (shape === 'open') {
-    return `On a list of ${answers.length}, the high scores are the least-viewed tier: ${hardNames} (${hardLabel}). ${easyNames} ${easyVerb} the most-viewed end (${easyPoints}).`;
+    return `On this list, the high scores among ranked answers are the names with the fewest pageviews: ${hardNames} (${hardLabel}). ${easyNames} ${easyVerb} the most-pageviews end (${easyPoints}).`;
   }
   if (shape === 'long') {
-    return `Aim for ${hardNames} (${hardLabel}). ${easyNames} ${easyVerb} ${easyPoints}, the familiar end of this list.`;
+    return `Aim for ${hardNames} (${hardLabel}). ${easyNames} ${easyVerb} ${easyPoints}, the most-pageviews end of the ranked list.`;
   }
   const high =
     hard.names.length === 1
-      ? `The high score on this closed list is ${hardNames} (${hardLabel}).`
-      : `The high scores on this closed list are ${hardNames} (${hardLabel}).`;
+      ? `The high score among ranked answers is ${hardNames} (${hardLabel}).`
+      : `The high scores among ranked answers are ${hardNames} (${hardLabel}).`;
   return `${high} ${easyNames} ${easyVerb} ${easyPoints}.`;
 }
 
@@ -603,6 +717,7 @@ function aliasFaq(answers: readonly Answer[], uses: readonly AliasUse[], misses:
 
 function buildFaq(
   question: string,
+  source: string,
   answers: readonly Answer[],
   uses: readonly AliasUse[],
   misses: readonly Miss[],
@@ -610,17 +725,39 @@ function buildFaq(
 ): PlayerFaq[] {
   const asked = quoteQuestion(question);
   const count = answers.length;
-  const hard = hardBand(answers);
-  const easy = easyBand(answers);
+  const ranked = rankedAnswers(answers);
+  const signal = pageviewSignal(source);
   const tip = tipParagraph(answers, shape);
   const spelling = aliasFaq(answers, uses, misses);
+  const mostQuestion =
+    signal === 'stored popularity'
+      ? 'Which names have the highest stored popularity?'
+      : 'Which names have the most pageviews?';
+  if (ranked.length === 0) {
+    return [
+      {
+        question: `How many answers does ${asked} accept?`,
+        answer: `${count}. None has an English Wikipedia article, so none is ranked and none is the rarest. Each scores as Uncommon (unranked).`,
+      },
+      {
+        question: 'Which answer is the rarest?',
+        answer: 'None. No answer on this prompt has an English Wikipedia article, so none is ranked as rarest.',
+      },
+      {
+        question: 'Which other spellings count?',
+        answer: spelling,
+      },
+    ];
+  }
+  const hard = hardBand(ranked);
+  const easy = easyBand(ranked);
   if (shape === 'small') {
-    const rare = answers[0];
-    const common = answers[answers.length - 1];
+    const rare = ranked[0];
+    const common = ranked[ranked.length - 1];
     const howMany =
-      !rare || !common || count === 1
-        ? `${count}. It is a small closed set${rare ? `: ${rare.name}` : ''}.`
-        : `${count}. It is a small closed set, from ${rare.name} (rarest) to ${common.name} (most common).`;
+      !rare || !common || ranked.length === 1
+        ? `${count}. It is a small closed set${rare ? `, and ${rare.name} is the rarest ranked answer` : ''}.`
+        : `${count}. It is a small closed set, from ${rare.name} (rarest) to ${common.name} (${signal === 'stored popularity' ? 'highest stored popularity' : 'most pageviews'}).`;
     return [
       {
         question: `How many answers does ${asked} accept?`,
@@ -643,8 +780,8 @@ function buildFaq(
         answer: `Yes. The table is the accepted set for ${asked}. A name that is not listed, and is not a stored alias, does not count.`,
       },
       {
-        question: 'Which names are the familiar ones?',
-        answer: `${bandClause(easy, 'most')}. This ranking treats those most-viewed names as the familiar picks.`,
+        question: mostQuestion,
+        answer: `${bandClause(easy, 'most', signal)}.`,
       },
       {
         question: 'How do you score high on this prompt?',
@@ -659,8 +796,8 @@ function buildFaq(
         answer: `The ${count} names in the table, plus any alias stored on a row. A name that is neither does not count.`,
       },
       {
-        question: 'Which names are the hard scores?',
-        answer: `${bandClause(hard, 'least')}.`,
+        question: 'Which names are the high scores?',
+        answer: `${bandClause(hard, 'least', signal)}.`,
       },
       {
         question: 'Which spellings besides the main name count?',
@@ -674,8 +811,8 @@ function buildFaq(
       answer: `${count} names, listed in the table, plus the aliases stored on those rows.`,
     },
     {
-      question: 'Which names are the familiar ones?',
-      answer: `${bandClause(easy, 'most')}.`,
+      question: mostQuestion,
+      answer: `${bandClause(easy, 'most', signal)}.`,
     },
     {
       question: 'How do you score high on this prompt?',
@@ -686,13 +823,21 @@ function buildFaq(
 
 function viewsNote(source: string, answers: readonly Answer[]): string {
   const kind = measureKind(source);
+  const unranked = answers.filter((answer) => isNoData(answer)).length;
   if (kind === 'stored') {
-    return `These numbers are the stored popularity figures on this prompt. Source: ${source}.`;
+    const base = `These numbers are the stored popularity figures on this prompt, not a count of player answers. Source: ${source}.`;
+    if (unranked === 0) return base;
+    return `${base} ${noDataExplanation(answers)} The pageview cell says “No article”.`;
   }
   const heading = measureHeading(source);
   const window = viewBounds().label;
-  let text = `${heading} (${window}). Each number is the sum of those 12 months. Source: ${source}.`;
-  if (/counts as 1/i.test(source)) {
+  let text = `${heading} (${window}). Each number is the sum of those 12 months, not a count of player answers. Source: ${source}.`;
+  if (unranked > 0) {
+    text +=
+      unranked === 1
+        ? ' One answer has no English Wikipedia article. Its pageview cell says “No article”. It is Uncommon (unranked) and is not the rarest.'
+        : ` ${unranked} answers have no English Wikipedia article. Their pageview cells say “No article”. They are Uncommon (unranked) and are not the rarest.`;
+  } else if (/counts as 1/i.test(source)) {
     const ones = answers.filter((answer) => answer.popularity === 1).length;
     text +=
       ones > 0
@@ -706,26 +851,39 @@ function sourceNote(source: string, answers: readonly Answer[]): string {
   const kind = measureKind(source);
   const hasWiki = answers.some((answer) => Boolean(answer.wiki));
   const links = hasWiki
-    ? ' Linked names open the English Wikipedia article stored on that answer.'
-    : '';
+    ? ' The Wikipedia article column links an answer only when an English Wikipedia title is stored on it.'
+    : ' No English Wikipedia title is stored on these answers, so the Wikipedia article column has no links.';
+  const unranked = answers.filter((answer) => isNoData(answer)).length;
   if (kind === 'stored') {
-    return `Recorded source: ${source}. The table shows the stored popularity figures on this prompt.${links}`;
+    return `Recorded source: ${source}. The table shows the stored popularity figures on this prompt, not a count of player answers.${links}`;
   }
   const heading = measureHeading(source);
   const window = viewBounds().label;
-  let text = `Recorded source: ${source}. The view column is ${heading} (${window}), added across those months. Inside this prompt, more of those views means a more common rank.`;
+  let text = `Recorded source: ${source}. The pageview column is ${heading} (${window}), added across those months. Inside this prompt, more of those pageviews means a more common rank. This is not a count of player answers.`;
   if (/wikidata/i.test(source)) {
     text += ' The source names Wikidata as where the answer list was compiled.';
   }
-  if (/counts as 1/i.test(source)) {
+  if (unranked > 0) {
+    text += ' A row that says “No article” has no English Wikipedia article. It is Uncommon (unranked) and is not the rarest.';
+  } else if (/counts as 1/i.test(source)) {
     text += ' A 1 in that column is the source’s own placeholder for a name with no article.';
   }
   return `${text}${links}`;
 }
 
-function tableCaption(question: string, source: string, count: number): string {
-  const word = count === 1 ? 'answer' : 'answers';
-  return `${count} accepted ${word} to ${quoteQuestion(question)}, rarest first. The last column is ${measureHeading(source)}.`;
+function tableCaption(question: string, source: string, answers: readonly Answer[]): string {
+  const total = answers.length;
+  const unranked = answers.filter((answer) => isNoData(answer)).length;
+  const ranked = total - unranked;
+  const heading = measureHeading(source);
+  const asked = quoteQuestion(question);
+  const order = measureKind(source) === 'stored' ? 'lowest stored popularity first' : 'fewest pageviews first';
+  if (unranked === 0) {
+    const word = total === 1 ? 'answer' : 'answers';
+    return `${total} accepted ${word} to ${asked}, ${order}. The pageview column is ${heading}.`;
+  }
+  const rankedWord = ranked === 1 ? 'answer' : 'answers';
+  return `${ranked} ranked ${rankedWord} to ${asked}, ${order}, then ${unranked} with no English Wikipedia article (Uncommon, unranked). The pageview column is ${heading}.`;
 }
 
 export function buildPlayerCopy(input: {
@@ -758,10 +916,10 @@ export function buildPlayerCopy(input: {
   return {
     lead: leadParagraph(input.slug, input.question, input.source, answers),
     guide: rotated.map((key) => parts[key]).filter((paragraph) => paragraph.trim().length > 0),
-    faq: buildFaq(input.question, answers, uses, misses, shape),
+    faq: buildFaq(input.question, input.source, answers, uses, misses, shape),
     viewsNote: viewsNote(input.source, answers),
     viewsHeading: measureHeading(input.source),
     sourceNote: sourceNote(input.source, answers),
-    tableCaption: tableCaption(input.question, input.source, answers.length),
+    tableCaption: tableCaption(input.question, input.source, answers),
   };
 }

@@ -10,10 +10,12 @@ import { TIERS, type Answer } from '~/lib/game/types';
 interface Props {
   tier: Answer['tier'];
   art?: boolean;
+  /** Replaces the tier name. Used for unranked answers: "Uncommon (unranked)". */
+  label?: string;
 }
 
-const { tier, art = false } = Astro.props;
-const name = TIERS.find((row) => row.tier === tier)?.name ?? `Tier ${tier}`;
+const { tier, art = false, label } = Astro.props;
+const name = label ?? TIERS.find((row) => row.tier === tier)?.name ?? `Tier ${tier}`;
 ---
 
 <span class:list={['inline-flex items-center gap-2', !art && 'tier-chip--unadorned']}>

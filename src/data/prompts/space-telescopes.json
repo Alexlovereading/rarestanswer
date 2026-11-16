@@ -6,35 +6,13 @@
   "source": "Wikidata + Wikipedia pageviews (2026-10)",
   "answers": [
     {
-      "name": "Akari",
-      "aliases": [
-        "AKARI 500@399",
-        "Akari (space telescope)",
-        "ASTRO-F"
-      ],
-      "popularity": 0,
-      "rarity": 0.997,
-      "tier": 6,
-      "wiki": "Akari (space telescope)"
-    },
-    {
-      "name": "PRIMA",
-      "aliases": [
-        "PRIMA (space telescope)"
-      ],
-      "popularity": 0,
-      "rarity": 0.997,
-      "tier": 6,
-      "wiki": "PRIMA (space telescope)"
-    },
-    {
       "name": "High-Definition Space Telescope",
       "aliases": [
         "HDST",
         "LUVOIR-A"
       ],
       "popularity": 93,
-      "rarity": 0.986,
+      "rarity": 1,
       "tier": 6,
       "wiki": "High-Definition Space Telescope"
     },
@@ -45,7 +23,7 @@
         "X-ray astronomy spacecraft"
       ],
       "popularity": 119,
-      "rarity": 0.979,
+      "rarity": 0.993,
       "tier": 6,
       "wiki": "X-ray space telescope"
     },
@@ -55,7 +33,7 @@
         "CIBER"
       ],
       "popularity": 224,
-      "rarity": 0.973,
+      "rarity": 0.986,
       "tier": 6,
       "wiki": "Cosmic Infrared Background ExpeRiment"
     },
@@ -65,7 +43,7 @@
         "DS-U1-A No.1"
       ],
       "popularity": 298,
-      "rarity": 0.966,
+      "rarity": 0.979,
       "tier": 6,
       "wiki": "Kosmos 215"
     },
@@ -73,7 +51,7 @@
       "name": "Supernova/Acceleration Probe",
       "aliases": [],
       "popularity": 316,
-      "rarity": 0.959,
+      "rarity": 0.972,
       "tier": 6,
       "wiki": "Supernova/Acceleration Probe"
     },
@@ -83,7 +61,7 @@
         "SWAP (instrument)"
       ],
       "popularity": 318,
-      "rarity": 0.952,
+      "rarity": 0.965,
       "tier": 6,
       "wiki": "SWAP (instrument)"
     },
@@ -100,7 +78,7 @@
         "UniBRITE"
       ],
       "popularity": 320,
-      "rarity": 0.945,
+      "rarity": 0.958,
       "tier": 6,
       "wiki": "UniBRITE-1"
     },
@@ -110,7 +88,7 @@
         "HIBARI (satellite)"
       ],
       "popularity": 377,
-      "rarity": 0.938,
+      "rarity": 0.951,
       "tier": 6,
       "wiki": "HIBARI (satellite)"
     },
@@ -121,7 +99,7 @@
         "STARS - Astronomical Observations"
       ],
       "popularity": 384,
-      "rarity": 0.932,
+      "rarity": 0.944,
       "tier": 6,
       "wiki": "Stars-AO"
     },
@@ -132,16 +110,16 @@
         "Max Valier (satellite)"
       ],
       "popularity": 424,
-      "rarity": 0.925,
-      "tier": 5,
+      "rarity": 0.938,
+      "tier": 6,
       "wiki": "Max Valier (satellite)"
     },
     {
       "name": "Space Solar Telescope",
       "aliases": [],
       "popularity": 541,
-      "rarity": 0.918,
-      "tier": 5,
+      "rarity": 0.931,
+      "tier": 6,
       "wiki": "Space Solar Telescope"
     },
     {
@@ -151,7 +129,7 @@
         "LUVOIR-B"
       ],
       "popularity": 565,
-      "rarity": 0.911,
+      "rarity": 0.924,
       "tier": 5,
       "wiki": "Advanced Technology Large-Aperture Space Telescope"
     },
@@ -159,7 +137,7 @@
       "name": "STSat-1",
       "aliases": [],
       "popularity": 586,
-      "rarity": 0.904,
+      "rarity": 0.917,
       "tier": 5,
       "wiki": "STSat-1"
     },
@@ -169,7 +147,7 @@
         "Eddington (spacecraft)"
       ],
       "popularity": 615,
-      "rarity": 0.897,
+      "rarity": 0.91,
       "tier": 5,
       "wiki": "Eddington (spacecraft)"
     },
@@ -180,7 +158,7 @@
         "Thor-Delta 1A"
       ],
       "popularity": 655,
-      "rarity": 0.89,
+      "rarity": 0.903,
       "tier": 5,
       "wiki": "TD-1A"
     },
@@ -197,7 +175,7 @@
         "CanX-3B"
       ],
       "popularity": 718,
-      "rarity": 0.884,
+      "rarity": 0.896,
       "tier": 5,
       "wiki": "TUGSAT-1"
     },
@@ -208,7 +186,7 @@
         "Gravity and Extreme Magnetism SMEX"
       ],
       "popularity": 729,
-      "rarity": 0.877,
+      "rarity": 0.889,
       "tier": 5,
       "wiki": "Gravity and Extreme Magnetism Small Explorer"
     },
@@ -216,7 +194,7 @@
       "name": "XEUS",
       "aliases": [],
       "popularity": 735,
-      "rarity": 0.87,
+      "rarity": 0.882,
       "tier": 5,
       "wiki": "XEUS"
     },
@@ -235,7 +213,7 @@
         "Heweliusz (satellite)"
       ],
       "popularity": 737,
-      "rarity": 0.863,
+      "rarity": 0.875,
       "tier": 5,
       "wiki": "Heweliusz (satellite)"
     },
@@ -243,7 +221,7 @@
       "name": "LOFT",
       "aliases": [],
       "popularity": 745,
-      "rarity": 0.856,
+      "rarity": 0.868,
       "tier": 5,
       "wiki": "LOFT"
     },
@@ -254,7 +232,7 @@
         "P89-1B"
       ],
       "popularity": 755,
-      "rarity": 0.849,
+      "rarity": 0.861,
       "tier": 5,
       "wiki": "Array of Low Energy X-ray Imaging Sensors"
     },
@@ -262,7 +240,7 @@
       "name": "ABRIXAS",
       "aliases": [],
       "popularity": 763,
-      "rarity": 0.842,
+      "rarity": 0.854,
       "tier": 5,
       "wiki": "ABRIXAS"
     },
@@ -272,7 +250,7 @@
         "Exoplanet Characterisation Observatory"
       ],
       "popularity": 789,
-      "rarity": 0.836,
+      "rarity": 0.847,
       "tier": 5,
       "wiki": "EChO"
     },
@@ -282,7 +260,7 @@
         "Ginga (satellite)"
       ],
       "popularity": 832,
-      "rarity": 0.829,
+      "rarity": 0.84,
       "tier": 5,
       "wiki": "Ginga (satellite)"
     },
@@ -293,7 +271,7 @@
         "Hinotori (satellite)"
       ],
       "popularity": 845,
-      "rarity": 0.822,
+      "rarity": 0.833,
       "tier": 5,
       "wiki": "Hinotori (satellite)"
     },
@@ -303,7 +281,7 @@
         "HUT"
       ],
       "popularity": 848,
-      "rarity": 0.815,
+      "rarity": 0.826,
       "tier": 5,
       "wiki": "Hopkins Ultraviolet Telescope"
     },
@@ -323,7 +301,7 @@
         "Lem (satellite)"
       ],
       "popularity": 859,
-      "rarity": 0.808,
+      "rarity": 0.819,
       "tier": 5,
       "wiki": "Lem (satellite)"
     },
@@ -336,7 +314,7 @@
         "SAS3"
       ],
       "popularity": 868,
-      "rarity": 0.801,
+      "rarity": 0.813,
       "tier": 5,
       "wiki": "Small Astronomy Satellite 3"
     },
@@ -348,8 +326,8 @@
         "HEAO 1. GSFC. NASA"
       ],
       "popularity": 979,
-      "rarity": 0.795,
-      "tier": 4,
+      "rarity": 0.806,
+      "tier": 5,
       "wiki": "High Energy Astronomy Observatory 1"
     },
     {
@@ -362,7 +340,7 @@
         "UNEX-2"
       ],
       "popularity": 990,
-      "rarity": 0.788,
+      "rarity": 0.799,
       "tier": 4,
       "wiki": "CHIPS (satellite)"
     },
@@ -374,7 +352,7 @@
         "SPRINT-A"
       ],
       "popularity": 1052,
-      "rarity": 0.781,
+      "rarity": 0.792,
       "tier": 4,
       "wiki": "Hisaki (satellite)"
     },
@@ -382,7 +360,7 @@
       "name": "High Energy Astronomy Observatory 3",
       "aliases": [],
       "popularity": 1070,
-      "rarity": 0.774,
+      "rarity": 0.785,
       "tier": 4,
       "wiki": "High Energy Astronomy Observatory 3"
     },
@@ -390,7 +368,7 @@
       "name": "Hakucho",
       "aliases": [],
       "popularity": 1073,
-      "rarity": 0.767,
+      "rarity": 0.778,
       "tier": 4,
       "wiki": "Hakucho"
     },
@@ -400,7 +378,7 @@
         "TSUBAME (satellite)"
       ],
       "popularity": 1100,
-      "rarity": 0.76,
+      "rarity": 0.771,
       "tier": 4,
       "wiki": "TSUBAME (satellite)"
     },
@@ -411,7 +389,7 @@
         "MVL-300"
       ],
       "popularity": 1139,
-      "rarity": 0.753,
+      "rarity": 0.764,
       "tier": 4,
       "wiki": "Mikhailo Lomonosov (satellite)"
     },
@@ -423,7 +401,7 @@
         "SMEX-1"
       ],
       "popularity": 1167,
-      "rarity": 0.747,
+      "rarity": 0.757,
       "tier": 4,
       "wiki": "Solar Anomalous and Magnetospheric Particle Explorer"
     },
@@ -433,7 +411,7 @@
         "AXIS"
       ],
       "popularity": 1169,
-      "rarity": 0.74,
+      "rarity": 0.75,
       "tier": 4,
       "wiki": "Advanced X-ray Imaging Satellite"
     },
@@ -443,7 +421,7 @@
         "CALET"
       ],
       "popularity": 1198,
-      "rarity": 0.733,
+      "rarity": 0.743,
       "tier": 4,
       "wiki": "Calorimetric Electron Telescope"
     },
@@ -456,7 +434,7 @@
         "SAS2"
       ],
       "popularity": 1219,
-      "rarity": 0.726,
+      "rarity": 0.736,
       "tier": 4,
       "wiki": "Small Astronomy Satellite 2"
     },
@@ -467,7 +445,7 @@
         "X-ray Observatory satellite"
       ],
       "popularity": 1262,
-      "rarity": 0.719,
+      "rarity": 0.729,
       "tier": 4,
       "wiki": "EXOSAT"
     },
@@ -479,7 +457,7 @@
         "Gamma (satellite)"
       ],
       "popularity": 1294,
-      "rarity": 0.712,
+      "rarity": 0.722,
       "tier": 4,
       "wiki": "Gamma (satellite)"
     },
@@ -487,7 +465,7 @@
       "name": "Orbiting Astronomical Observatory 3",
       "aliases": [],
       "popularity": 1355,
-      "rarity": 0.705,
+      "rarity": 0.715,
       "tier": 4,
       "wiki": "Orbiting Astronomical Observatory 3"
     },
@@ -498,7 +476,7 @@
         "Astronomical Netherland Satellite"
       ],
       "popularity": 1364,
-      "rarity": 0.699,
+      "rarity": 0.708,
       "tier": 4,
       "wiki": "Astronomical Netherlands Satellite"
     },
@@ -506,7 +484,7 @@
       "name": "Solar Radiation and Climate Experiment",
       "aliases": [],
       "popularity": 1366,
-      "rarity": 0.692,
+      "rarity": 0.701,
       "tier": 4,
       "wiki": "Solar Radiation and Climate Experiment"
     },
@@ -516,7 +494,7 @@
         "AGILE (satellite)"
       ],
       "popularity": 1501,
-      "rarity": 0.685,
+      "rarity": 0.694,
       "tier": 4,
       "wiki": "AGILE (satellite)"
     },
@@ -527,7 +505,7 @@
         "COS-B Satellite Mission"
       ],
       "popularity": 1517,
-      "rarity": 0.678,
+      "rarity": 0.688,
       "tier": 4,
       "wiki": "Cos-B"
     },
@@ -540,7 +518,7 @@
         "MOST (spacecraft)"
       ],
       "popularity": 1530,
-      "rarity": 0.671,
+      "rarity": 0.681,
       "tier": 4,
       "wiki": "MOST (spacecraft)"
     },
@@ -548,7 +526,7 @@
       "name": "Galileo Solar Space Telescope",
       "aliases": [],
       "popularity": 1584,
-      "rarity": 0.664,
+      "rarity": 0.674,
       "tier": 4,
       "wiki": "Galileo Solar Space Telescope"
     },
@@ -559,7 +537,7 @@
         "Tenma X-ray Satellite Mission"
       ],
       "popularity": 1642,
-      "rarity": 0.658,
+      "rarity": 0.667,
       "tier": 4,
       "wiki": "Tenma"
     },
@@ -567,7 +545,7 @@
       "name": "Liquid-mirror space telescope",
       "aliases": [],
       "popularity": 1646,
-      "rarity": 0.651,
+      "rarity": 0.66,
       "tier": 4,
       "wiki": "Liquid-mirror space telescope"
     },
@@ -578,7 +556,7 @@
         "Insight-HXMT"
       ],
       "popularity": 1690,
-      "rarity": 0.644,
+      "rarity": 0.653,
       "tier": 4,
       "wiki": "Hard X-ray Modulation Telescope"
     },
@@ -588,7 +566,7 @@
         "Solar-A"
       ],
       "popularity": 1748,
-      "rarity": 0.637,
+      "rarity": 0.646,
       "tier": 4,
       "wiki": "Yohkoh"
     },
@@ -598,7 +576,7 @@
         "NEOSSAT"
       ],
       "popularity": 1868,
-      "rarity": 0.63,
+      "rarity": 0.639,
       "tier": 4,
       "wiki": "Near Earth Object Surveillance Satellite"
     },
@@ -608,7 +586,7 @@
         "BeppoSAX X-ray satellite"
       ],
       "popularity": 1948,
-      "rarity": 0.623,
+      "rarity": 0.632,
       "tier": 4,
       "wiki": "BeppoSAX"
     },
@@ -620,7 +598,7 @@
         "WIRE"
       ],
       "popularity": 1991,
-      "rarity": 0.616,
+      "rarity": 0.625,
       "tier": 4,
       "wiki": "Wide Field Infrared Explorer"
     },
@@ -630,7 +608,7 @@
         "ASTERIA (spacecraft)"
       ],
       "popularity": 2003,
-      "rarity": 0.61,
+      "rarity": 0.618,
       "tier": 4,
       "wiki": "ASTERIA (spacecraft)"
     },
@@ -640,7 +618,7 @@
         "SPICA (spacecraft)"
       ],
       "popularity": 2021,
-      "rarity": 0.603,
+      "rarity": 0.611,
       "tier": 4,
       "wiki": "SPICA (spacecraft)"
     },
@@ -652,8 +630,8 @@
         "MIDEX-0"
       ],
       "popularity": 2025,
-      "rarity": 0.596,
-      "tier": 3,
+      "rarity": 0.604,
+      "tier": 4,
       "wiki": "Far Ultraviolet Spectroscopic Explorer"
     },
     {
@@ -663,7 +641,7 @@
         "Explorer 67"
       ],
       "popularity": 2056,
-      "rarity": 0.589,
+      "rarity": 0.597,
       "tier": 3,
       "wiki": "Extreme Ultraviolet Explorer"
     },
@@ -676,7 +654,7 @@
         "VSOP"
       ],
       "popularity": 2113,
-      "rarity": 0.582,
+      "rarity": 0.59,
       "tier": 3,
       "wiki": "HALCA"
     },
@@ -684,7 +662,7 @@
       "name": "Explorer 11",
       "aliases": [],
       "popularity": 2159,
-      "rarity": 0.575,
+      "rarity": 0.583,
       "tier": 3,
       "wiki": "Explorer 11"
     },
@@ -694,7 +672,7 @@
         "Whipple (spacecraft)"
       ],
       "popularity": 2164,
-      "rarity": 0.568,
+      "rarity": 0.576,
       "tier": 3,
       "wiki": "Whipple (spacecraft)"
     },
@@ -705,7 +683,7 @@
         "RXTE"
       ],
       "popularity": 2172,
-      "rarity": 0.562,
+      "rarity": 0.569,
       "tier": 3,
       "wiki": "Rossi X-ray Timing Explorer"
     },
@@ -713,7 +691,7 @@
       "name": "Midcourse Space Experiment",
       "aliases": [],
       "popularity": 2212,
-      "rarity": 0.555,
+      "rarity": 0.563,
       "tier": 3,
       "wiki": "Midcourse Space Experiment"
     },
@@ -721,7 +699,7 @@
       "name": "TianQin",
       "aliases": [],
       "popularity": 2355,
-      "rarity": 0.548,
+      "rarity": 0.556,
       "tier": 3,
       "wiki": "TianQin"
     },
@@ -731,7 +709,7 @@
         "Star-Planet Activity Research CubeSat"
       ],
       "popularity": 2386,
-      "rarity": 0.541,
+      "rarity": 0.549,
       "tier": 3,
       "wiki": "SPARCS"
     },
@@ -743,7 +721,7 @@
         "WSO-UV"
       ],
       "popularity": 2428,
-      "rarity": 0.534,
+      "rarity": 0.542,
       "tier": 3,
       "wiki": "Spektr-UV"
     },
@@ -753,7 +731,7 @@
         "EURECA 1"
       ],
       "popularity": 2621,
-      "rarity": 0.527,
+      "rarity": 0.535,
       "tier": 3,
       "wiki": "European Retrievable Carrier"
     },
@@ -761,7 +739,7 @@
       "name": "THESEUS",
       "aliases": [],
       "popularity": 2726,
-      "rarity": 0.521,
+      "rarity": 0.528,
       "tier": 3,
       "wiki": "THESEUS"
     },
@@ -772,7 +750,7 @@
         "Wukong"
       ],
       "popularity": 2729,
-      "rarity": 0.514,
+      "rarity": 0.521,
       "tier": 3,
       "wiki": "Dark Matter Particle Explorer"
     },
@@ -784,7 +762,7 @@
         "Suzaku (satellite)"
       ],
       "popularity": 2795,
-      "rarity": 0.507,
+      "rarity": 0.514,
       "tier": 3,
       "wiki": "Suzaku (satellite)"
     },
@@ -792,9 +770,21 @@
       "name": "Sentinel Space Telescope",
       "aliases": [],
       "popularity": 2801,
-      "rarity": 0.5,
+      "rarity": 0.507,
       "tier": 3,
       "wiki": "Sentinel Space Telescope"
+    },
+    {
+      "name": "Akari",
+      "aliases": [
+        "AKARI 500@399",
+        "Akari (space telescope)",
+        "ASTRO-F"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
     },
     {
       "name": "Koronas-Foton",
@@ -803,9 +793,19 @@
         "Koronas"
       ],
       "popularity": 2834,
-      "rarity": 0.493,
+      "rarity": 0.5,
       "tier": 3,
       "wiki": "Koronas-Foton"
+    },
+    {
+      "name": "PRIMA",
+      "aliases": [
+        "PRIMA (space telescope)"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
     },
     {
       "name": "BlackCAT",
@@ -813,7 +813,7 @@
         "Black Hole Coded Aperture Telescope"
       ],
       "popularity": 2942,
-      "rarity": 0.486,
+      "rarity": 0.493,
       "tier": 3,
       "wiki": "BlackCAT"
     },
@@ -823,7 +823,7 @@
         "Odin (satellite)"
       ],
       "popularity": 2952,
-      "rarity": 0.479,
+      "rarity": 0.486,
       "tier": 3,
       "wiki": "Odin (satellite)"
     },
@@ -831,7 +831,7 @@
       "name": "TRACE",
       "aliases": [],
       "popularity": 2974,
-      "rarity": 0.473,
+      "rarity": 0.479,
       "tier": 3,
       "wiki": "TRACE"
     },
@@ -839,7 +839,7 @@
       "name": "AstroSat-2",
       "aliases": [],
       "popularity": 3010,
-      "rarity": 0.466,
+      "rarity": 0.472,
       "tier": 3,
       "wiki": "AstroSat-2"
     },
@@ -849,7 +849,7 @@
         "ISO"
       ],
       "popularity": 3314,
-      "rarity": 0.459,
+      "rarity": 0.465,
       "tier": 3,
       "wiki": "Infrared Space Observatory"
     },
@@ -859,7 +859,7 @@
         "Astron (spacecraft)"
       ],
       "popularity": 3324,
-      "rarity": 0.452,
+      "rarity": 0.458,
       "tier": 3,
       "wiki": "Astron (spacecraft)"
     },
@@ -872,7 +872,7 @@
         "SMEX-12"
       ],
       "popularity": 3401,
-      "rarity": 0.445,
+      "rarity": 0.451,
       "tier": 3,
       "wiki": "Interface Region Imaging Spectrograph"
     },
@@ -880,7 +880,7 @@
       "name": "Einstein Observatory",
       "aliases": [],
       "popularity": 3408,
-      "rarity": 0.438,
+      "rarity": 0.444,
       "tier": 3,
       "wiki": "Einstein Observatory"
     },
@@ -894,7 +894,7 @@
         "SMEX-6"
       ],
       "popularity": 3409,
-      "rarity": 0.432,
+      "rarity": 0.438,
       "tier": 3,
       "wiki": "Reuven Ramaty High Energy Solar Spectroscopic Imager"
     },
@@ -902,7 +902,7 @@
       "name": "Orbiting Astronomical Observatory 2",
       "aliases": [],
       "popularity": 3460,
-      "rarity": 0.425,
+      "rarity": 0.431,
       "tier": 3,
       "wiki": "Orbiting Astronomical Observatory 2"
     },
@@ -914,7 +914,7 @@
         "International Astrophysical Observatory \"GRANAT\""
       ],
       "popularity": 3710,
-      "rarity": 0.418,
+      "rarity": 0.424,
       "tier": 3,
       "wiki": "Granat"
     },
@@ -926,7 +926,7 @@
         "SIM PlanetQuest"
       ],
       "popularity": 3806,
-      "rarity": 0.411,
+      "rarity": 0.417,
       "tier": 3,
       "wiki": "Space Interferometry Mission"
     },
@@ -938,7 +938,7 @@
         "SAS-D"
       ],
       "popularity": 3961,
-      "rarity": 0.404,
+      "rarity": 0.41,
       "tier": 3,
       "wiki": "International Ultraviolet Explorer"
     },
@@ -946,8 +946,8 @@
       "name": "Origins Space Telescope",
       "aliases": [],
       "popularity": 4248,
-      "rarity": 0.397,
-      "tier": 2,
+      "rarity": 0.403,
+      "tier": 3,
       "wiki": "Origins Space Telescope"
     },
     {
@@ -956,7 +956,7 @@
         "ROentgen SATellite"
       ],
       "popularity": 4259,
-      "rarity": 0.39,
+      "rarity": 0.396,
       "tier": 2,
       "wiki": "ROSAT"
     },
@@ -964,7 +964,7 @@
       "name": "XPoSat",
       "aliases": [],
       "popularity": 4301,
-      "rarity": 0.384,
+      "rarity": 0.389,
       "tier": 2,
       "wiki": "XPoSat"
     },
@@ -974,7 +974,7 @@
         "Ultraviolet Explorer"
       ],
       "popularity": 4645,
-      "rarity": 0.377,
+      "rarity": 0.382,
       "tier": 2,
       "wiki": "UVEX"
     },
@@ -987,7 +987,7 @@
         "STP 2"
       ],
       "popularity": 4694,
-      "rarity": 0.37,
+      "rarity": 0.375,
       "tier": 2,
       "wiki": "Hinode (satellite)"
     },
@@ -998,7 +998,7 @@
         "Einstein Tanzhen"
       ],
       "popularity": 4942,
-      "rarity": 0.363,
+      "rarity": 0.368,
       "tier": 2,
       "wiki": "Einstein Probe"
     },
@@ -1008,7 +1008,7 @@
         "OAO"
       ],
       "popularity": 4998,
-      "rarity": 0.356,
+      "rarity": 0.361,
       "tier": 2,
       "wiki": "Orbiting Astronomical Observatory"
     },
@@ -1021,7 +1021,7 @@
         "SMEX-14"
       ],
       "popularity": 5117,
-      "rarity": 0.349,
+      "rarity": 0.354,
       "tier": 2,
       "wiki": "IXPE"
     },
@@ -1032,7 +1032,7 @@
         "Uhuru (satellite)"
       ],
       "popularity": 5160,
-      "rarity": 0.342,
+      "rarity": 0.347,
       "tier": 2,
       "wiki": "Uhuru (satellite)"
     },
@@ -1040,7 +1040,7 @@
       "name": "Kvant-1",
       "aliases": [],
       "popularity": 5512,
-      "rarity": 0.336,
+      "rarity": 0.34,
       "tier": 2,
       "wiki": "Kvant-1"
     },
@@ -1050,7 +1050,7 @@
         "SVOM"
       ],
       "popularity": 5800,
-      "rarity": 0.329,
+      "rarity": 0.333,
       "tier": 2,
       "wiki": "Space Variable Objects Monitor"
     },
@@ -1063,7 +1063,7 @@
         "SXG"
       ],
       "popularity": 5857,
-      "rarity": 0.322,
+      "rarity": 0.326,
       "tier": 2,
       "wiki": "Spektr-RG"
     },
@@ -1074,7 +1074,7 @@
         "SRT"
       ],
       "popularity": 5896,
-      "rarity": 0.315,
+      "rarity": 0.319,
       "tier": 2,
       "wiki": "Spektr-R"
     },
@@ -1082,7 +1082,7 @@
       "name": "GALEX",
       "aliases": [],
       "popularity": 6260,
-      "rarity": 0.308,
+      "rarity": 0.313,
       "tier": 2,
       "wiki": "GALEX"
     },
@@ -1090,7 +1090,7 @@
       "name": "LiteBIRD",
       "aliases": [],
       "popularity": 6353,
-      "rarity": 0.301,
+      "rarity": 0.306,
       "tier": 2,
       "wiki": "LiteBIRD"
     },
@@ -1098,7 +1098,7 @@
       "name": "Apollo Telescope Mount",
       "aliases": [],
       "popularity": 6369,
-      "rarity": 0.295,
+      "rarity": 0.299,
       "tier": 2,
       "wiki": "Apollo Telescope Mount"
     },
@@ -1111,7 +1111,7 @@
         "SolarMax"
       ],
       "popularity": 6445,
-      "rarity": 0.288,
+      "rarity": 0.292,
       "tier": 2,
       "wiki": "Solar Maximum Mission"
     },
@@ -1122,7 +1122,7 @@
         "Habitable Exoplanet Imaging Mission"
       ],
       "popularity": 6453,
-      "rarity": 0.281,
+      "rarity": 0.285,
       "tier": 2,
       "wiki": "Habitable Exoplanets Observatory"
     },
@@ -1130,7 +1130,7 @@
       "name": "Compton Spectrometer and Imager",
       "aliases": [],
       "popularity": 6643,
-      "rarity": 0.274,
+      "rarity": 0.278,
       "tier": 2,
       "wiki": "Compton Spectrometer and Imager"
     },
@@ -1138,7 +1138,7 @@
       "name": "AstroSat",
       "aliases": [],
       "popularity": 7100,
-      "rarity": 0.267,
+      "rarity": 0.271,
       "tier": 2,
       "wiki": "AstroSat"
     },
@@ -1148,7 +1148,7 @@
         "International Gamma-Ray Astrophysics Laboratory"
       ],
       "popularity": 7663,
-      "rarity": 0.26,
+      "rarity": 0.264,
       "tier": 2,
       "wiki": "INTEGRAL"
     },
@@ -1159,7 +1159,7 @@
         "IR Astronomy Satellite"
       ],
       "popularity": 7917,
-      "rarity": 0.253,
+      "rarity": 0.257,
       "tier": 2,
       "wiki": "IRAS"
     },
@@ -1167,7 +1167,7 @@
       "name": "NuSTAR",
       "aliases": [],
       "popularity": 8139,
-      "rarity": 0.247,
+      "rarity": 0.25,
       "tier": 2,
       "wiki": "NuSTAR"
     },
@@ -1178,7 +1178,7 @@
         "DSS2"
       ],
       "popularity": 8143,
-      "rarity": 0.24,
+      "rarity": 0.243,
       "tier": 2,
       "wiki": "Digitized Sky Survey"
     },
@@ -1189,7 +1189,7 @@
         "Explorer 71"
       ],
       "popularity": 8364,
-      "rarity": 0.233,
+      "rarity": 0.236,
       "tier": 2,
       "wiki": "Advanced Composition Explorer"
     },
@@ -1199,7 +1199,7 @@
         "Convection Rotation and Planetary Transits"
       ],
       "popularity": 8622,
-      "rarity": 0.226,
+      "rarity": 0.229,
       "tier": 2,
       "wiki": "CoRoT"
     },
@@ -1209,7 +1209,7 @@
         "Characterising Exoplanets Satellite"
       ],
       "popularity": 9887,
-      "rarity": 0.219,
+      "rarity": 0.222,
       "tier": 2,
       "wiki": "CHEOPS"
     },
@@ -1219,7 +1219,7 @@
         "TPF"
       ],
       "popularity": 10375,
-      "rarity": 0.212,
+      "rarity": 0.215,
       "tier": 2,
       "wiki": "Terrestrial Planet Finder"
     },
@@ -1234,7 +1234,7 @@
         "NEOS"
       ],
       "popularity": 11172,
-      "rarity": 0.205,
+      "rarity": 0.208,
       "tier": 2,
       "wiki": "NEO Surveyor"
     },
@@ -1244,8 +1244,8 @@
         "OSO"
       ],
       "popularity": 11256,
-      "rarity": 0.199,
-      "tier": 1,
+      "rarity": 0.201,
+      "tier": 2,
       "wiki": "Orbiting Solar Observatory"
     },
     {
@@ -1260,7 +1260,7 @@
         "Spectroscopic All Sky Cosmic Explorer"
       ],
       "popularity": 11294,
-      "rarity": 0.192,
+      "rarity": 0.194,
       "tier": 1,
       "wiki": "Euclid (space telescope)"
     },
@@ -1270,7 +1270,7 @@
         "Pandora (spacecraft)"
       ],
       "popularity": 12050,
-      "rarity": 0.185,
+      "rarity": 0.188,
       "tier": 1,
       "wiki": "Pandora (spacecraft)"
     },
@@ -1278,7 +1278,7 @@
       "name": "ARIEL",
       "aliases": [],
       "popularity": 12826,
-      "rarity": 0.178,
+      "rarity": 0.181,
       "tier": 1,
       "wiki": "ARIEL"
     },
@@ -1288,7 +1288,7 @@
         "ATHENA"
       ],
       "popularity": 12941,
-      "rarity": 0.171,
+      "rarity": 0.174,
       "tier": 1,
       "wiki": "Advanced Telescope for High Energy Astrophysics"
     },
@@ -1299,7 +1299,7 @@
         "MIDEX-9"
       ],
       "popularity": 14084,
-      "rarity": 0.164,
+      "rarity": 0.167,
       "tier": 1,
       "wiki": "SPHEREx"
     },
@@ -1310,7 +1310,7 @@
         "Explorer 66"
       ],
       "popularity": 14727,
-      "rarity": 0.158,
+      "rarity": 0.16,
       "tier": 1,
       "wiki": "Cosmic Background Explorer"
     },
@@ -1322,7 +1322,7 @@
         "SWAS"
       ],
       "popularity": 15378,
-      "rarity": 0.151,
+      "rarity": 0.153,
       "tier": 1,
       "wiki": "Submillimeter Wave Astronomy Satellite"
     },
@@ -1332,7 +1332,7 @@
         "Herschel"
       ],
       "popularity": 15753,
-      "rarity": 0.144,
+      "rarity": 0.146,
       "tier": 1,
       "wiki": "Herschel Space Observatory"
     },
@@ -1344,7 +1344,7 @@
         "Gammy Ray Observatory"
       ],
       "popularity": 17895,
-      "rarity": 0.137,
+      "rarity": 0.139,
       "tier": 1,
       "wiki": "Compton Gamma Ray Observatory"
     },
@@ -1352,7 +1352,7 @@
       "name": "Hipparcos",
       "aliases": [],
       "popularity": 19824,
-      "rarity": 0.13,
+      "rarity": 0.132,
       "tier": 1,
       "wiki": "Hipparcos"
     },
@@ -1365,7 +1365,7 @@
         "MIDEX-2"
       ],
       "popularity": 19999,
-      "rarity": 0.123,
+      "rarity": 0.125,
       "tier": 1,
       "wiki": "Wilkinson Microwave Anisotropy Probe"
     },
@@ -1377,7 +1377,7 @@
         "solar gravity lens"
       ],
       "popularity": 20025,
-      "rarity": 0.116,
+      "rarity": 0.118,
       "tier": 1,
       "wiki": "Solar gravitational lens"
     },
@@ -1388,7 +1388,7 @@
         "XMM"
       ],
       "popularity": 21705,
-      "rarity": 0.11,
+      "rarity": 0.111,
       "tier": 1,
       "wiki": "XMM-Newton"
     },
@@ -1407,7 +1407,7 @@
         "WISE 500@-163"
       ],
       "popularity": 21724,
-      "rarity": 0.103,
+      "rarity": 0.104,
       "tier": 1,
       "wiki": "Wide-field Infrared Survey Explorer"
     },
@@ -1417,7 +1417,7 @@
         "PLATO (spacecraft)"
       ],
       "popularity": 24695,
-      "rarity": 0.096,
+      "rarity": 0.097,
       "tier": 1,
       "wiki": "PLATO (spacecraft)"
     },
@@ -1429,7 +1429,7 @@
         "GLAST"
       ],
       "popularity": 25023,
-      "rarity": 0.089,
+      "rarity": 0.09,
       "tier": 1,
       "wiki": "Fermi Gamma-ray Space Telescope"
     },
@@ -1442,7 +1442,7 @@
         "Solar Heliospheric Observatory"
       ],
       "popularity": 25192,
-      "rarity": 0.082,
+      "rarity": 0.083,
       "tier": 1,
       "wiki": "Solar and Heliospheric Observatory"
     },
@@ -1450,7 +1450,7 @@
       "name": "Transiting Exoplanet Survey Satellite",
       "aliases": [],
       "popularity": 34672,
-      "rarity": 0.075,
+      "rarity": 0.076,
       "tier": 1,
       "wiki": "Transiting Exoplanet Survey Satellite"
     },
@@ -1461,7 +1461,7 @@
         "CSST"
       ],
       "popularity": 35560,
-      "rarity": 0.068,
+      "rarity": 0.069,
       "tier": 1,
       "wiki": "Xuntian"
     },
@@ -1472,7 +1472,7 @@
         "Planck (spacecraft)"
       ],
       "popularity": 36265,
-      "rarity": 0.062,
+      "rarity": 0.063,
       "tier": 1,
       "wiki": "Planck (spacecraft)"
     },
@@ -1483,7 +1483,7 @@
         "Space Infrared Telescope Facility"
       ],
       "popularity": 40860,
-      "rarity": 0.055,
+      "rarity": 0.056,
       "tier": 1,
       "wiki": "Spitzer Space Telescope"
     },
@@ -1495,7 +1495,7 @@
         "Swift Gamma-ray Burst Mission"
       ],
       "popularity": 51171,
-      "rarity": 0.048,
+      "rarity": 0.049,
       "tier": 1,
       "wiki": "Neil Gehrels Swift Observatory"
     },
@@ -1505,7 +1505,7 @@
         "HWO"
       ],
       "popularity": 51587,
-      "rarity": 0.041,
+      "rarity": 0.042,
       "tier": 1,
       "wiki": "Habitable Worlds Observatory"
     },
@@ -1516,7 +1516,7 @@
         "Global Astrometric Interferometer for Astrophysics"
       ],
       "popularity": 58942,
-      "rarity": 0.034,
+      "rarity": 0.035,
       "tier": 1,
       "wiki": "Gaia (spacecraft)"
     },
@@ -1526,7 +1526,7 @@
         "Kepler Space Observatory"
       ],
       "popularity": 66515,
-      "rarity": 0.027,
+      "rarity": 0.028,
       "tier": 1,
       "wiki": "Kepler space telescope"
     },

@@ -23,9 +23,11 @@ import {
   couldHaveNamedLine,
   countRarer,
   isSlug,
+  pickWarmupSlug,
   placementLine,
   promptDataPath,
   PROMPT_INDEX_PATH,
+  reportAnswerHref,
   revealLists,
   toClientPrompt,
   isPromptIndexEntry,
@@ -33,6 +35,7 @@ import {
 } from './prompts';
 import {
   applyScore,
+  effectiveTier,
   freshScore,
   maxRoundScore,
   PENALTY_MS,
@@ -53,6 +56,7 @@ import {
   progressLine,
   resumeLine,
   revealAnswerLine,
+  revealTierLabel,
   roundCompleteLive,
   shareHeading,
   streakLine,
@@ -65,9 +69,9 @@ import {
   readStats,
   recordDaily,
   recordFreeRound,
-  writeDaily,
+  writeDailyIfScored,
   writeSettings,
-  writeStats,
+  writeStatsIfScored,
   type DailySave,
   type KeyValueStore,
   type PromptResult,
@@ -142,6 +146,9 @@ interface Ui {
   common: HTMLOListElement;
   outside: HTMLElement;
   next: HTMLButtonElement;
+  warmup: HTMLButtonElement;
+  report: HTMLAnchorElement;
+  noDataNote: HTMLElement;
   finalHeading: HTMLElement;
   cardTitle: HTMLElement;
   endStreak: HTMLElement;
@@ -204,6 +211,8 @@ function run(ui: Ui): void {
   let current: ClientPrompt | null = null;
   let hitTimer = 0;
   let statsReturn: HTMLElement | null = null;
+  let practicing = false;
+  let practiceArmed = false;
   const settings = readSettings(store);
   const session: Session = {
     mode,
@@ -251,17 +260,29 @@ function run(ui: Ui): void {
   ui.play.addEventListener('click', () => {
     void onPlay();
   });
+  ui.warmup.addEventListener('click', () => {
+    void onWarmup();
+  });
   ui.form.addEventListener('submit', (event) => {
     event.preventDefault();
     onGuess(ui.input.value);
   });
-  ui.pass.addEventListener('click', () => resolve('pass'));
+  ui.pass.addEventListener('click', () => resolve('pass', undefined, ui.input.value));
   ui.spotlight.addEventListener('click', () => {
+    if (practicing) {
+      practiceArmed = !practiceArmed;
+      paintSpotlight();
+      return;
+    }
     if (session.score.spotlightUsed) return;
     session.spotlightArmed = !session.spotlightArmed;
     paintSpotlight();
   });
   ui.next.addEventListener('click', () => {
+    if (practicing) {
+      endPractice();
+      return;
+    }
     if (session.results.length >= session.slugs.length) showEnd();
     else void startPrompt();
   });
@@ -394,7 +415,43 @@ function run(ui: Ui): void {
     if (save.completed && !save.recorded) finalizeStats();
   }
 
+  async function onWarmup(): Promise<void> {
+    if (practicing || starting || action === 'load') return;
+    const slug = pickWarmupSlug(session.index);
+    if (!slug) return;
+    practicing = true;
+    practiceArmed = false;
+    starting = true;
+    paintWarmup();
+    try {
+      await startPrompt(slug);
+    } finally {
+      starting = false;
+      paintWarmup();
+    }
+  }
+
+  function endPractice(): void {
+    stopTimer();
+    clearHit();
+    locked = true;
+    writeStatsIfScored(store, stats, true);
+    writeDailyIfScored(store, readDaily(store, session.dateKey), true);
+    practicing = false;
+    practiceArmed = false;
+    locked = false;
+    current = null;
+    showView(ui.root, 'start');
+    effects.clearBurst();
+    effects.score(session.score.total, false);
+    effects.combo(session.results);
+    paintSpotlight();
+    paintPlay();
+    ui.play.focus();
+  }
+
   async function onPlay(): Promise<void> {
+    if (practicing) return;
     if (action === 'retry') {
       await loadIndex();
       return;
@@ -425,9 +482,13 @@ function run(ui: Ui): void {
     }
   }
 
-  async function startPrompt(): Promise<void> {
-    const slug = session.slugs[session.results.length];
+  async function startPrompt(practiceSlug?: string): Promise<void> {
+    const slug = practiceSlug ?? session.slugs[session.results.length];
     if (!slug) {
+      if (practiceSlug) {
+        endPractice();
+        return;
+      }
       if (session.results.length === 0) {
         action = 'empty';
         ui.status.textContent = emptyMessage();
@@ -454,12 +515,22 @@ function run(ui: Ui): void {
     ui.question.textContent = PLAY.loadingPrompt;
     ui.input.disabled = true;
     ui.input.removeAttribute('aria-invalid');
-    ui.progress.textContent = progressLine(session.results.length + 1, session.slugs.length);
+    ui.progress.textContent = practiceSlug
+      ? PLAY.warmup
+      : progressLine(session.results.length + 1, session.slugs.length);
     let prompt: ClientPrompt;
     try {
       prompt = await loadPrompt(slug);
     } catch {
       if (my !== token) return;
+      if (practicing) {
+        practicing = false;
+        practiceArmed = false;
+        ui.status.textContent = PLAY.promptError;
+        showView(ui.root, 'start');
+        paintPlay();
+        return;
+      }
       action = 'retry';
       ui.status.textContent = PLAY.promptError;
       showView(ui.root, 'start');
@@ -480,7 +551,7 @@ function run(ui: Ui): void {
     paintHint();
     paintSpotlight();
     paintTimer(session.noTimer ? null : liveMs);
-    prefetch(session.slugs[session.results.length + 1]);
+    if (!practiceSlug) prefetch(session.slugs[session.results.length + 1]);
     startTimer();
     ui.input.focus();
   }
@@ -504,7 +575,7 @@ function run(ui: Ui): void {
       if (!session.noTimer) {
         liveMs = Math.max(0, liveMs - PENALTY_MS);
         if (liveMs <= 0) {
-          resolve('time');
+          resolve('time', undefined, raw);
           return;
         }
         deadline = performance.now() + liveMs;
@@ -516,19 +587,28 @@ function run(ui: Ui): void {
       return;
     }
     ui.input.removeAttribute('aria-invalid');
-    resolve('hit', result.answer);
+    resolve('hit', result.answer, raw);
   }
 
-  function resolve(outcome: 'hit' | 'time' | 'pass', answer?: Matchable): void {
+  function resolve(outcome: 'hit' | 'time' | 'pass', answer?: Matchable, typed?: string): void {
     if (locked || !current) return;
     locked = true;
     stopTimer();
-    const tier: RoundTier = outcome === 'hit' && answer ? answer.tier : 0;
-    const before = session.score.spotlightUsed;
-    const applied = applyScore(session.score, tier, session.spotlightArmed);
-    session.score = applied.state;
+    const typedAnswer = typed ?? ui.input.value;
+    const practice = practicing;
+    const tier: RoundTier = outcome === 'hit' && answer ? effectiveTier(answer) : 0;
+    const before = practice ? false : session.score.spotlightUsed;
+    const applied = applyScore(
+      practice ? freshScore() : session.score,
+      tier,
+      practice ? practiceArmed : session.spotlightArmed,
+    );
+    if (practice) practiceArmed = false;
+    else {
+      session.score = applied.state;
+      session.spotlightArmed = false;
+    }
     const spotlight = !before && applied.state.spotlightUsed;
-    session.spotlightArmed = false;
     const row: PromptResult = {
       slug: current.slug,
       tier,
@@ -537,10 +617,12 @@ function run(ui: Ui): void {
       outcome,
       spotlight,
     };
-    session.results.push(row);
-    persistDaily();
+    if (!practice) {
+      session.results.push(row);
+      persistDaily();
+    }
     const prompt = current;
-    const go = () => showReveal(prompt, row);
+    const go = () => showReveal(prompt, row, typedAnswer, practice);
     if (row.outcome === 'hit' && !reduceMotion) {
       ui.playView.classList.add('ra-hit');
       ui.hint.textContent = PLAY.lockedIn;
@@ -554,34 +636,53 @@ function run(ui: Ui): void {
     go();
   }
 
-  function showReveal(prompt: ClientPrompt, result: PromptResult): void {
-    const label = tierName(result.tier);
+  function showReveal(
+    prompt: ClientPrompt,
+    result: PromptResult,
+    typed: string,
+    practice: boolean,
+  ): void {
+    const mine =
+      result.outcome === 'hit'
+        ? prompt.answers.find((row) => row.name === result.answer)
+        : undefined;
+    const noDataHit = mine?.noData === true;
+    const label = noDataHit ? PLAY.noDataReveal : tierName(result.tier);
     ui.revealKicker.textContent = CATEGORY_LABELS[prompt.category];
+    if (noDataHit) ui.revealTier.dataset.nodata = 'true';
+    else delete ui.revealTier.dataset.nodata;
     ui.revealTier.textContent = result.tier === 0 ? PLAY.noPoints : label;
     ui.revealAnswer.textContent = revealAnswerLine(result.outcome, result.answer);
-    ui.revealPoints.textContent = pointsLine(result.points, result.spotlight);
-    ui.meter.setAttribute('aria-label', meterLabel(result.tier, label));
+    ui.revealPoints.textContent = practice
+      ? PLAY.warmupNote
+      : pointsLine(result.points, result.spotlight);
+    ui.meter.setAttribute('aria-label', meterLabel(result.tier, noDataHit ? tierName(3) : label));
     ui.meter.querySelectorAll<HTMLElement>('[data-tier]').forEach((seg) => {
       const n = Number(seg.dataset.tier);
       if (result.tier > 0 && n <= result.tier) seg.dataset.on = 'true';
       else delete seg.dataset.on;
     });
+    const ranked = prompt.answers.filter((row) => row.noData !== true);
     ui.could.textContent = couldHaveNamedLine(prompt.answers.length);
-    if (result.outcome === 'hit') {
-      const mine = prompt.answers.find((row) => row.name === result.answer);
+    if (result.outcome === 'hit' && !noDataHit) {
       ui.rarer.hidden = false;
       ui.rarer.textContent = placementLine(
-        answerRank(countRarer(prompt.answers, mine?.rarity ?? 1)),
-        prompt.answers.length,
+        answerRank(countRarer(ranked, mine?.rarity ?? 1)),
+        ranked.length,
       );
     } else {
       ui.rarer.hidden = true;
       ui.rarer.textContent = '';
     }
+    const excluded = prompt.answers.some((row) => row.noData === true);
+    ui.noDataNote.hidden = !excluded || noDataHit;
+    ui.noDataNote.textContent = excluded ? PLAY.noDataReveal : '';
     ui.answersLink.href = `/answers/${encodeURIComponent(prompt.slug)}/`;
     ui.answersLink.textContent = answersLinkLabel(prompt.answers.length);
+    ui.report.href = reportAnswerHref(prompt.slug, prompt.question, typed);
     const lists = revealLists(prompt.answers);
-    ui.rarestHeading.textContent = lists.complete ? PLAY.everyAnswer : PLAY.rarestHeading;
+    ui.rarestHeading.textContent =
+      lists.complete && !excluded ? PLAY.everyAnswer : PLAY.rarestHeading;
     ui.commonBlock.hidden = lists.complete;
     fillList(ui.rarest, lists.rarest, result.answer);
     fillList(ui.common, lists.common, result.answer);
@@ -589,9 +690,9 @@ function run(ui: Ui): void {
       !result.answer ||
       lists.rarest.some((row) => row.name === result.answer) ||
       lists.common.some((row) => row.name === result.answer);
-    ui.outside.hidden = result.outcome !== 'hit' || listed;
-    const last = session.results.length >= session.slugs.length;
-    ui.next.textContent = last ? PLAY.seeResults : PLAY.nextPrompt;
+    ui.outside.hidden = result.outcome !== 'hit' || listed || noDataHit;
+    const last = !practice && session.results.length >= session.slugs.length;
+    ui.next.textContent = practice ? PLAY.warmupBack : last ? PLAY.seeResults : PLAY.nextPrompt;
     ui.root.dataset.revealHit = result.tier > 0 ? 'true' : 'false';
     effects.badge(ui.root.querySelector('[data-game-reveal-badge]'), result.tier);
     effects.mascot(ui.root.querySelector('[data-game-reveal-mascot]'), novaReaction(result.tier));
@@ -599,9 +700,10 @@ function run(ui: Ui): void {
     effects.score(session.score.total);
     effects.combo(session.results);
     effects.burst(result.tier);
-    announce(ui, result.tier === 0 ? PLAY.noPointsLive : tierLive(label, result.points));
-    ui.revealTier.focus({ preventScroll: true });
-    ui.next.focus({ preventScroll: true });
+    if (practice) announce(ui, PLAY.warmupNote);
+    else if (noDataHit) announce(ui, PLAY.noDataReveal);
+    else announce(ui, result.tier === 0 ? PLAY.noPointsLive : tierLive(label, result.points));
+    ui.next.focus();
   }
 
   function showEnd(): void {
@@ -660,7 +762,10 @@ function run(ui: Ui): void {
   }
 
   function finalizeStats(): void {
-    if (session.recorded) return;
+    if (session.recorded || practicing) {
+      if (practicing) writeStatsIfScored(store, stats, true);
+      return;
+    }
     const tiers = session.results.map((row) => row.tier);
     if (session.mode === 'daily') {
       stats = recordDaily(stats, {
@@ -671,7 +776,7 @@ function run(ui: Ui): void {
     } else {
       stats = recordFreeRound(stats, { score: session.score.total, tiers });
     }
-    writeStats(store, stats);
+    writeStatsIfScored(store, stats, false);
     session.recorded = true;
     persistDaily();
     paintStats();
@@ -706,7 +811,7 @@ function run(ui: Ui): void {
       completed: session.results.length >= session.slugs.length && session.slugs.length > 0,
       recorded: session.recorded,
     };
-    writeDaily(store, save);
+    writeDailyIfScored(store, save, practicing);
   }
 
   function startTimer(): void {
@@ -755,7 +860,21 @@ function run(ui: Ui): void {
     ui.noTimerLabel.textContent = session.noTimer ? PLAY.noTimer : PLAY.timerOn;
   }
 
+  function paintWarmup(): void {
+    const slug = indexLoaded ? pickWarmupSlug(session.index) : null;
+    ui.warmup.hidden = !slug;
+    ui.warmup.disabled = !slug || action === 'load' || practicing || starting;
+  }
+
   function paintSpotlight(): void {
+    if (practicing) {
+      ui.spotlight.disabled = false;
+      ui.spotlight.setAttribute('aria-pressed', practiceArmed ? 'true' : 'false');
+      ui.spotlightLabel.textContent = practiceArmed ? PLAY.spotlightArmed : PLAY.spotlight;
+      ui.spotlight.classList.toggle('btn-primary', practiceArmed);
+      ui.spotlight.classList.toggle('btn-outline', !practiceArmed);
+      return;
+    }
     if (session.score.spotlightUsed) {
       ui.spotlight.disabled = true;
       ui.spotlight.setAttribute('aria-pressed', 'false');
@@ -803,6 +922,7 @@ function run(ui: Ui): void {
       empty: PLAY.nothingToPlay,
     };
     ui.playLabel.textContent = labels[action];
+    paintWarmup();
   }
 
   function paintDate(): void {
@@ -1075,9 +1195,12 @@ function fillList(
       name.append(mark);
     }
     const tier = document.createElement('span');
-    tier.className = 'tier-pill shrink-0';
-    tier.dataset.tier = String(answer.tier);
-    tier.textContent = tierName(answer.tier);
+    const noData = answer.noData === true;
+    tier.className = noData
+      ? 'max-w-[14rem] shrink text-right text-xs font-semibold leading-snug text-foreground'
+      : 'tier-pill shrink-0';
+    tier.dataset.tier = String(noData ? 3 : answer.tier);
+    tier.textContent = revealTierLabel(answer);
     item.append(name, tier);
     list.append(item);
   }
@@ -1149,6 +1272,9 @@ function grab(root: HTMLElement): Ui {
     common: mustList(root, '[data-game-common]'),
     outside: must(root, '[data-game-outside]'),
     next: mustButton(root, '[data-game-next]'),
+    warmup: mustButton(root, '[data-game-warmup]'),
+    report: mustAnchor(root, '[data-game-report]'),
+    noDataNote: must(root, '[data-game-nodata]'),
     finalHeading: must(root, '[data-game-final-heading]'),
     cardTitle: must(root, '[data-game-card-title]'),
     endStreak: must(root, '[data-game-end-streak]'),

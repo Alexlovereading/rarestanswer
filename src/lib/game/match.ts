@@ -14,6 +14,8 @@ export interface Matchable {
   aliases: readonly string[];
   tier: Answer['tier'];
   rarity?: number;
+  /** True when the answer has no Wikipedia article. Scoring forces Uncommon. */
+  noData?: boolean;
 }
 
 export interface Tried {

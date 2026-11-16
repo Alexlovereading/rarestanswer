@@ -13,6 +13,8 @@
  *
  * Rarity is the average-rank percentile of popularity within the prompt,
  * inverted so 1 is the least viewed. Ties share a rarity.
+ * Answers with noData are left out of that percentile. They are stored as
+ * popularity 0, rarity 0.5, tier 3 (Uncommon), and no wiki title.
  * Tiers: <0.2 Common, <0.4 Familiar, <0.6 Uncommon, <0.8 Rare, <0.93 Epic, else Legendary.
  *
  * The answer shown to players is the English Wikipedia title. Wikidata's
@@ -174,6 +176,101 @@ export function round3(value: number): number {
   if (rounded < 0) return 0;
   if (rounded > 1) return 1;
   return rounded;
+}
+
+const WIKI_TOKEN_SKIP = new Set(['dr', 'lt', 'col', 'sgt', 'gen', 'mr', 'mrs', 'ms', 'st']);
+
+/** Significant tokens. Parenthetical disambiguators stay in the token list. */
+export function wikiTokens(value: string): string[] {
+  return normalizeKey(value)
+    .split(' ')
+    .filter((token) => token.length > 0 && !WIKI_TOKEN_SKIP.has(token));
+}
+
+/**
+ * The answer's tokens must sit inside the Wikipedia title.
+ * "Eleven" agrees with "Eleven (Stranger Things)". "Troy Walsh" does not agree
+ * with "Troy", and "Yuri Ismaylov" does not agree with "Alaska".
+ */
+export function wikiTokensAgree(name: string, wiki: string): boolean {
+  const nameTokens = wikiTokens(name);
+  const wikiTitleTokens = wikiTokens(wiki);
+  if (nameTokens.length === 0 || wikiTitleTokens.length === 0) return false;
+  const inTitle = new Set(wikiTitleTokens);
+  return nameTokens.every((token) => inTitle.has(token));
+}
+
+export interface ScoredDraft {
+  name: string;
+  aliases: string[];
+  popularity: number;
+  wiki?: string;
+  noData?: true;
+}
+
+function stripSharedAliases(answers: Answer[]): void {
+  const nameOwners = new Map<string, number>();
+  answers.forEach((answer, index) => {
+    nameOwners.set(normalizeKey(answer.name), index);
+  });
+  const aliasOwners = new Map<string, Set<number>>();
+  answers.forEach((answer, index) => {
+    for (const alias of answer.aliases) {
+      const key = normalizeKey(alias);
+      if (!key) continue;
+      const owners = aliasOwners.get(key) ?? new Set<number>();
+      owners.add(index);
+      aliasOwners.set(key, owners);
+    }
+  });
+  for (const answer of answers) {
+    const own = normalizeKey(answer.name);
+    const kept: string[] = [];
+    const seen = new Set<string>();
+    for (const alias of answer.aliases) {
+      const key = normalizeKey(alias);
+      if (!key || key === own || seen.has(key)) continue;
+      const owners = aliasOwners.get(key);
+      if (owners && owners.size > 1) continue;
+      if (nameOwners.has(key)) continue;
+      seen.add(key);
+      kept.push(alias);
+    }
+    kept.sort((a, b) => normalizeKey(a).localeCompare(normalizeKey(b), 'en') || a.localeCompare(b, 'en'));
+    answer.aliases = kept;
+  }
+}
+
+/** Rarest-first. noData rows stay at rarity 0.5 / tier 3 and do not move the others. */
+export function scoreAnswerDrafts(drafts: readonly ScoredDraft[]): Answer[] {
+  const measured = drafts.filter((draft) => !draft.noData);
+  const popularities = measured.map((draft) => draft.popularity);
+  const answers = drafts.map((draft) => {
+    if (draft.noData) {
+      const unmarked: Answer = {
+        name: draft.name,
+        aliases: [...draft.aliases],
+        popularity: 0,
+        rarity: 0.5,
+        tier: 3,
+        noData: true,
+      };
+      return unmarked;
+    }
+    const raw = rarityOf(draft.popularity, popularities);
+    const answer: Answer = {
+      name: draft.name,
+      aliases: [...draft.aliases],
+      popularity: draft.popularity,
+      rarity: round3(raw),
+      tier: tierFor(raw),
+    };
+    if (draft.wiki) answer.wiki = draft.wiki;
+    return answer;
+  });
+  answers.sort((a, b) => b.rarity - a.rarity || b.tier - a.tier || a.name.localeCompare(b.name, 'en'));
+  stripSharedAliases(answers);
+  return answers;
 }
 
 export function sourceLine(def: PromptDef): string {
@@ -820,7 +917,7 @@ const screen: PromptDef[] = [
         seoNoun: 'Stranger Things characters',
         wikipediaList: {
           page: 'List of Stranger Things characters',
-          source: `English Wikipedia "List of Stranger Things characters" via MediaWiki parse (cast tables, character headings, and recurring/guest credits) + Wikipedia pageviews (${SOURCE_MONTH}); a name with no article counts as 1`,
+          source: `English Wikipedia "List of Stranger Things characters" via MediaWiki parse (cast tables, character headings, and recurring/guest credits) + Wikipedia pageviews (${SOURCE_MONTH}); a name with no verifiable article is noData`,
         },
       };
       return listed;

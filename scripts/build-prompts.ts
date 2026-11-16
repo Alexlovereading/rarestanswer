@@ -19,7 +19,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, w
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import type { Answer, Prompt, PromptIndexEntry } from '../src/lib/game/types';
+import type { Prompt, PromptIndexEntry } from '../src/lib/game/types';
 import {
   CATEGORY_ORDER,
   MAX_ANSWERS,
@@ -29,19 +29,28 @@ import {
   VIEW_END,
   VIEW_START,
   type PromptDef,
+  type ScoredDraft,
   acceptLemma,
   aliasAllowed,
+  answerMinimum,
   assertPromptDefs,
   generatedVariants,
   normalizeKey,
   pageviewProject,
   rarityOf,
   round3,
+  scoreAnswerDrafts,
   sourceLine,
   tierFor,
-  answerMinimum,
+  wikiTokensAgree,
 } from './data/prompt-defs';
-import { parseStrangerThingsWikitext, type ListedCharacter } from './data/wikipedia-characters';
+import {
+  characterWikiCandidates,
+  parseStrangerThingsWikitext,
+  pickCharacterWiki,
+  type ListedCharacter,
+  type WikiProbe,
+} from './data/wikipedia-characters';
 
 const UA = 'RarestAnswerBot/1.0 (contact@rarestanswer.xyz)';
 const SPARQL_URL = 'https://query.wikidata.org/sparql';
@@ -82,6 +91,7 @@ interface Draft {
   aliases: string[];
   popularity: number;
   wiki?: string;
+  noData?: true;
 }
 
 interface CountRow {
@@ -410,9 +420,10 @@ function mergeDrafts(drafts: Draft[]): Draft[] {
       byName.set(key, { ...draft, aliases: [...draft.aliases] });
       continue;
     }
-    if (draft.popularity > existing.popularity) {
+    if (!draft.noData && (existing.noData || draft.popularity > existing.popularity)) {
       existing.wiki = draft.wiki ?? existing.wiki;
       existing.popularity = draft.popularity;
+      delete existing.noData;
     }
     for (const alias of draft.aliases) {
       if (!existing.aliases.some((current) => normalizeKey(current) === normalizeKey(alias))) {
@@ -424,9 +435,13 @@ function mergeDrafts(drafts: Draft[]): Draft[] {
 }
 
 function capDrafts(drafts: Draft[]): Draft[] {
-  if (drafts.length <= MAX_ANSWERS) return drafts;
-  const sorted = [...drafts].sort((a, b) => a.popularity - b.popularity || a.name.localeCompare(b.name, 'en'));
-  const picked = [...sorted.slice(0, MAX_ANSWERS / 2), ...sorted.slice(-MAX_ANSWERS / 2)];
+  const measured = drafts.filter((draft) => !draft.noData);
+  const unmarked = drafts.filter((draft) => draft.noData);
+  if (measured.length + unmarked.length <= MAX_ANSWERS) return drafts;
+  const room = Math.max(0, MAX_ANSWERS - unmarked.length);
+  const sorted = [...measured].sort((a, b) => a.popularity - b.popularity || a.name.localeCompare(b.name, 'en'));
+  const rareCount = Math.ceil(room / 2);
+  const picked = [...sorted.slice(0, rareCount), ...sorted.slice(sorted.length - (room - rareCount))];
   const seen = new Set<string>();
   const kept: Draft[] = [];
   for (const draft of picked) {
@@ -435,60 +450,11 @@ function capDrafts(drafts: Draft[]): Draft[] {
     seen.add(key);
     kept.push(draft);
   }
-  return kept;
+  return [...kept, ...unmarked];
 }
 
-function stripCollisions(answers: Answer[]): void {
-  const nameOwners = new Map<string, number>();
-  answers.forEach((answer, index) => {
-    nameOwners.set(normalizeKey(answer.name), index);
-  });
-  const aliasOwners = new Map<string, Set<number>>();
-  answers.forEach((answer, index) => {
-    for (const alias of answer.aliases) {
-      const key = normalizeKey(alias);
-      if (!key) continue;
-      const owners = aliasOwners.get(key) ?? new Set<number>();
-      owners.add(index);
-      aliasOwners.set(key, owners);
-    }
-  });
-  for (const answer of answers) {
-    const own = normalizeKey(answer.name);
-    const kept: string[] = [];
-    const seen = new Set<string>();
-    for (const alias of answer.aliases) {
-      const key = normalizeKey(alias);
-      if (!key || key === own || seen.has(key)) continue;
-      const owners = aliasOwners.get(key);
-      if (owners && owners.size > 1) continue;
-      if (nameOwners.has(key)) continue;
-      seen.add(key);
-      kept.push(alias);
-    }
-    kept.sort((a, b) => normalizeKey(a).localeCompare(normalizeKey(b), 'en') || a.localeCompare(b, 'en'));
-    answer.aliases = kept;
-  }
-}
-
-function scoreDrafts(drafts: Draft[]): Answer[] {
-  const popularities = drafts.map((draft) => draft.popularity);
-  const scored = drafts.map((draft) => {
-    const raw = rarityOf(draft.popularity, popularities);
-    const answer: Answer = {
-      name: draft.name,
-      aliases: draft.aliases,
-      popularity: draft.popularity,
-      rarity: round3(raw),
-      tier: tierFor(raw),
-    };
-    if (draft.wiki) answer.wiki = draft.wiki;
-    return { answer, raw };
-  });
-  scored.sort((a, b) => b.raw - a.raw || a.answer.popularity - b.answer.popularity || a.answer.name.localeCompare(b.answer.name, 'en'));
-  const answers = scored.map((row) => row.answer);
-  stripCollisions(answers);
-  return answers;
+function asNoData(draft: Draft): Draft {
+  return { name: draft.name, aliases: draft.aliases, popularity: 0, noData: true };
 }
 
 function pageviewUrl(project: string, title: string): string {
@@ -553,24 +519,34 @@ async function mediaWikiParse(page: string): Promise<MediaWikiParse> {
   return parsed;
 }
 
-interface ResolvedTitle {
+interface WikiQueryPage {
   title?: string;
   missing?: boolean;
+  description?: string;
 }
 
-async function resolveWikiTitles(titles: readonly string[]): Promise<Map<string, string>> {
-  const resolved = new Map<string, string>();
+interface WikiQueryPayload {
+  query?: {
+    normalized?: { from: string; to: string }[];
+    redirects?: { from: string; to: string; tofragment?: string }[];
+    pages?: WikiQueryPage[];
+  };
+}
+
+async function probeWikiTitles(titles: readonly string[]): Promise<WikiProbe[]> {
   const unique = [...new Set(titles.map((title) => title.trim()).filter(Boolean))];
+  const probes: WikiProbe[] = [];
   for (let index = 0; index < unique.length; index += 40) {
     const batch = unique.slice(index, index + 40);
-    const file = cachePath('wiki-resolve', batch.join('|'));
+    const file = cachePath('wiki-about', batch.join('|'));
     const cached = readCache(file);
-    let payload: { query?: { normalized?: { from: string; to: string }[]; redirects?: { from: string; to: string }[]; pages?: ResolvedTitle[] } };
+    let payload: WikiQueryPayload;
     if (cached && typeof cached === 'object') {
-      payload = cached as typeof payload;
+      payload = cached as WikiQueryPayload;
     } else {
       const url = `https://en.wikipedia.org/w/api.php?${new URLSearchParams({
         action: 'query',
+        prop: 'description',
         titles: batch.join('|'),
         redirects: '1',
         format: 'json',
@@ -582,22 +558,32 @@ async function resolveWikiTitles(titles: readonly string[]): Promise<Map<string,
         PAGEVIEW_TIMEOUT_MS,
       );
       if (!response.ok) throw new Error(`MediaWiki query HTTP ${response.status}`);
-      payload = (await response.json()) as typeof payload;
+      payload = (await response.json()) as WikiQueryPayload;
       writeCache(file, payload);
     }
     const normalized = new Map((payload.query?.normalized ?? []).map((row) => [row.from, row.to]));
-    const redirects = new Map((payload.query?.redirects ?? []).map((row) => [row.from, row.to]));
+    const redirects = new Map((payload.query?.redirects ?? []).map((row) => [row.from, row]));
     const pages = new Map((payload.query?.pages ?? []).filter((page) => page.title).map((page) => [page.title as string, page]));
     for (const requested of batch) {
       const normalizedTitle = normalized.get(requested) ?? requested;
-      const target = redirects.get(normalizedTitle) ?? normalizedTitle;
+      const redirect = redirects.get(normalizedTitle);
+      const target = redirect?.to ?? normalizedTitle;
       const page = pages.get(target);
-      if (!page || page.missing || !page.title) continue;
-      if (page.title.startsWith('List of ')) continue;
-      resolved.set(requested, page.title);
+      const probe: WikiProbe = { requested };
+      if (redirect) {
+        probe.redirectTo = redirect.to;
+        if (redirect.tofragment) probe.fragment = redirect.tofragment;
+      }
+      if (!page || page.missing || !page.title) {
+        probe.missing = true;
+      } else {
+        probe.title = page.title;
+        if (page.description) probe.description = page.description;
+      }
+      probes.push(probe);
     }
   }
-  return resolved;
+  return probes;
 }
 
 async function wikipediaListDrafts(def: PromptDef): Promise<Draft[]> {
@@ -607,19 +593,22 @@ async function wikipediaListDrafts(def: PromptDef): Promise<Draft[]> {
   }
   const parsed = await mediaWikiParse(page);
   const characters = parseStrangerThingsWikitext(parsed.parse?.wikitext ?? '');
-  const titles = characters.flatMap((character) => [character.wiki, character.name].filter((title): title is string => Boolean(title)));
-  const resolved = await resolveWikiTitles(titles);
-  return characters.map((character) => draftFromListed(character, resolved));
+  const wanted = characters.flatMap((character) => characterWikiCandidates(character.name, character.aliases));
+  const probes = await probeWikiTitles(wanted);
+  const byRequest = new Map(probes.map((probe) => [normalizeKey(probe.requested), probe]));
+  return characters.map((character) => draftFromListed(character, byRequest));
 }
 
-function draftFromListed(character: ListedCharacter, resolved: Map<string, string>): Draft {
+function draftFromListed(character: ListedCharacter, probes: Map<string, WikiProbe>): Draft {
   const aliases: string[] = [];
   const seen = new Set<string>([normalizeKey(character.name)]);
   for (const alias of character.aliases) pushAlias(aliases, seen, alias, 'alt', false);
   for (const variant of generatedVariants(character.name)) pushAlias(aliases, seen, variant, 'generated', false);
-  const wiki = (character.wiki ? resolved.get(character.wiki) : undefined) ?? resolved.get(character.name);
+  const candidates = characterWikiCandidates(character.name, aliases);
+  const matched = candidates.map((candidate) => probes.get(normalizeKey(candidate))).filter((probe): probe is WikiProbe => Boolean(probe));
+  const wiki = pickCharacterWiki(character.name, aliases, matched);
   const draft: Draft = { name: character.name, aliases, popularity: 0 };
-  if (wiki) draft.wiki = wiki;
+  if (wiki && wikiTokensAgree(character.name, wiki)) draft.wiki = wiki;
   return draft;
 }
 
@@ -803,6 +792,7 @@ async function main(): Promise<void> {
   for (const row of fetched) {
     if (row.error) continue;
     for (const draft of row.drafts) {
+      if (row.def.wikipediaList && !draft.wiki) continue;
       const title = draft.wiki ?? draft.name;
       titleKeys.set(`${project(row.def)}::${title}`, { project: project(row.def), title });
     }
@@ -828,26 +818,28 @@ async function main(): Promise<void> {
       continue;
     }
     try {
-      let drafts = row.drafts.map((draft) => ({
-        ...draft,
-        aliases: [...draft.aliases],
-        popularity: views.get(`${project(row.def)}::${draft.wiki ?? draft.name}`) ?? 0,
-      }));
-      if (row.def.wikipediaList) {
-        drafts = drafts.map((draft) => (draft.popularity > 0 ? draft : { ...draft, popularity: 1 }));
-      }
+      let drafts = row.drafts.map((draft) => {
+        const copy: Draft = { ...draft, aliases: [...draft.aliases] };
+        if (row.def.wikipediaList && !copy.wiki) return asNoData(copy);
+        const title = copy.wiki ?? copy.name;
+        const popularity = views.get(`${project(row.def)}::${title}`) ?? 0;
+        if (row.def.lexemeCategory) return { ...copy, popularity };
+        if (!copy.wiki || popularity <= 1 || !wikiTokensAgree(copy.name, copy.wiki)) return asNoData(copy);
+        return { ...copy, popularity };
+      });
       applyExtraAliases(drafts, row.def.extraAliases);
       drafts = mergeDrafts(drafts);
       if (row.def.lexemeCategory) {
-        const known = drafts.filter((draft) => draft.popularity > 0);
+        const known = drafts.filter((draft) => draft.popularity > 1);
         if (known.length >= answerMinimum(row.def)) drafts = known;
+        drafts = drafts.map((draft) => (draft.popularity > 1 ? draft : asNoData(draft)));
       }
       const capped = drafts.length > MAX_ANSWERS;
       drafts = capDrafts(drafts);
       if (capped) console.error(`cap ${row.def.slug}: kept ${drafts.length}`);
-      const maxPopularity = drafts.reduce((max, draft) => Math.max(max, draft.popularity), 0);
-      if (maxPopularity === 0) throw new Error('every answer has 0 pageviews');
-      const answers = scoreDrafts(drafts);
+      const measured = drafts.filter((draft) => !draft.noData);
+      if (measured.length === 0) throw new Error('every answer lacks a verifiable article');
+      const answers = scoreAnswerDrafts(drafts satisfies ScoredDraft[]);
       if (answers.length < answerMinimum(row.def)) {
         throw new Error(`only ${answers.length} answers`);
       }

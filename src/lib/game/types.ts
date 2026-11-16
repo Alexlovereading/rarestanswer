@@ -24,7 +24,12 @@ export interface Answer {
   rarity: number;
   /** 6 = rarest. */
   tier: 1 | 2 | 3 | 4 | 5 | 6;
-  /** en.wikipedia title. */
+  /**
+   * No verifiable article. Stored as popularity 0, rarity 0.5, tier 3, and no wiki.
+   * Left out of the other answers' rarity percentile.
+   */
+  noData?: true;
+  /** en.wikipedia title. Omitted when noData is set. */
   wiki?: string;
 }
 

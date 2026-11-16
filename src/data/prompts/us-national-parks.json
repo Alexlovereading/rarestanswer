@@ -6,21 +6,10 @@
   "source": "Wikidata + Wikipedia pageviews (2026-10)",
   "answers": [
     {
-      "name": "Chiricahua National Park",
-      "aliases": [
-        "CHIR",
-        "Chiricahua National Monument"
-      ],
-      "popularity": 0,
-      "rarity": 1,
-      "tier": 6,
-      "wiki": "Chiricahua National Park"
-    },
-    {
       "name": "Wrangell–St. Elias National Park",
       "aliases": [],
       "popularity": 377,
-      "rarity": 0.984,
+      "rarity": 1,
       "tier": 6,
       "wiki": "Wrangell–St. Elias National Park"
     },
@@ -28,7 +17,7 @@
       "name": "New River Gorge National Park",
       "aliases": [],
       "popularity": 1215,
-      "rarity": 0.968,
+      "rarity": 0.984,
       "tier": 6,
       "wiki": "New River Gorge National Park"
     },
@@ -36,7 +25,7 @@
       "name": "Glacier Bay National Park",
       "aliases": [],
       "popularity": 1623,
-      "rarity": 0.952,
+      "rarity": 0.967,
       "tier": 6,
       "wiki": "Glacier Bay National Park"
     },
@@ -44,7 +33,7 @@
       "name": "Great Sand Dunes National Park",
       "aliases": [],
       "popularity": 1891,
-      "rarity": 0.935,
+      "rarity": 0.951,
       "tier": 6,
       "wiki": "Great Sand Dunes National Park"
     },
@@ -52,15 +41,15 @@
       "name": "Gates of the Arctic National Park",
       "aliases": [],
       "popularity": 2046,
-      "rarity": 0.919,
-      "tier": 5,
+      "rarity": 0.934,
+      "tier": 6,
       "wiki": "Gates of the Arctic National Park"
     },
     {
       "name": "Lake Clark National Park",
       "aliases": [],
       "popularity": 6051,
-      "rarity": 0.903,
+      "rarity": 0.918,
       "tier": 5,
       "wiki": "Lake Clark National Park"
     },
@@ -68,7 +57,7 @@
       "name": "Denali National Park",
       "aliases": [],
       "popularity": 10381,
-      "rarity": 0.887,
+      "rarity": 0.902,
       "tier": 5,
       "wiki": "Denali National Park"
     },
@@ -78,7 +67,7 @@
         "REDW"
       ],
       "popularity": 12060,
-      "rarity": 0.871,
+      "rarity": 0.885,
       "tier": 5,
       "wiki": "Redwood National Park"
     },
@@ -86,7 +75,7 @@
       "name": "Katmai National Park",
       "aliases": [],
       "popularity": 13740,
-      "rarity": 0.855,
+      "rarity": 0.869,
       "tier": 5,
       "wiki": "Katmai National Park"
     },
@@ -96,7 +85,7 @@
         "KOVA"
       ],
       "popularity": 19350,
-      "rarity": 0.839,
+      "rarity": 0.852,
       "tier": 5,
       "wiki": "Kobuk Valley National Park"
     },
@@ -106,7 +95,7 @@
         "KEFJ"
       ],
       "popularity": 25883,
-      "rarity": 0.823,
+      "rarity": 0.836,
       "tier": 5,
       "wiki": "Kenai Fjords National Park"
     },
@@ -117,7 +106,7 @@
         "NPSA"
       ],
       "popularity": 26606,
-      "rarity": 0.806,
+      "rarity": 0.82,
       "tier": 5,
       "wiki": "National Park of American Samoa"
     },
@@ -127,8 +116,8 @@
         "GUMO"
       ],
       "popularity": 30651,
-      "rarity": 0.79,
-      "tier": 4,
+      "rarity": 0.803,
+      "tier": 5,
       "wiki": "Guadalupe Mountains National Park"
     },
     {
@@ -137,7 +126,7 @@
         "HALE"
       ],
       "popularity": 31817,
-      "rarity": 0.774,
+      "rarity": 0.787,
       "tier": 4,
       "wiki": "Haleakalā National Park"
     },
@@ -147,7 +136,7 @@
         "BISC"
       ],
       "popularity": 35828,
-      "rarity": 0.758,
+      "rarity": 0.77,
       "tier": 4,
       "wiki": "Biscayne National Park"
     },
@@ -157,7 +146,7 @@
         "WICA"
       ],
       "popularity": 36342,
-      "rarity": 0.742,
+      "rarity": 0.754,
       "tier": 4,
       "wiki": "Wind Cave National Park"
     },
@@ -167,7 +156,7 @@
         "VOYA"
       ],
       "popularity": 36368,
-      "rarity": 0.726,
+      "rarity": 0.738,
       "tier": 4,
       "wiki": "Voyageurs National Park"
     },
@@ -180,7 +169,7 @@
         "Volcanoes National Park"
       ],
       "popularity": 40087,
-      "rarity": 0.71,
+      "rarity": 0.721,
       "tier": 4,
       "wiki": "Hawaiʻi Volcanoes National Park"
     },
@@ -190,7 +179,7 @@
         "CHIS"
       ],
       "popularity": 41226,
-      "rarity": 0.694,
+      "rarity": 0.705,
       "tier": 4,
       "wiki": "Channel Islands National Park"
     },
@@ -201,7 +190,7 @@
         "Hot Springs Reservation"
       ],
       "popularity": 44309,
-      "rarity": 0.677,
+      "rarity": 0.689,
       "tier": 4,
       "wiki": "Hot Springs National Park"
     },
@@ -212,7 +201,7 @@
         "Saguaro National Monument"
       ],
       "popularity": 45461,
-      "rarity": 0.661,
+      "rarity": 0.672,
       "tier": 4,
       "wiki": "Saguaro National Park"
     },
@@ -222,7 +211,7 @@
         "BLCA"
       ],
       "popularity": 45690,
-      "rarity": 0.645,
+      "rarity": 0.656,
       "tier": 4,
       "wiki": "Black Canyon of the Gunnison National Park"
     },
@@ -234,7 +223,7 @@
         "Wheeler Peak Scenic Area"
       ],
       "popularity": 46716,
-      "rarity": 0.629,
+      "rarity": 0.639,
       "tier": 4,
       "wiki": "Great Basin National Park"
     },
@@ -244,7 +233,7 @@
         "NOCA"
       ],
       "popularity": 46929,
-      "rarity": 0.613,
+      "rarity": 0.623,
       "tier": 4,
       "wiki": "North Cascades National Park"
     },
@@ -254,8 +243,8 @@
         "CONG"
       ],
       "popularity": 47272,
-      "rarity": 0.597,
-      "tier": 3,
+      "rarity": 0.607,
+      "tier": 4,
       "wiki": "Congaree National Park"
     },
     {
@@ -264,7 +253,7 @@
         "CANY"
       ],
       "popularity": 49161,
-      "rarity": 0.581,
+      "rarity": 0.59,
       "tier": 3,
       "wiki": "Canyonlands National Park"
     },
@@ -274,7 +263,7 @@
         "PINN"
       ],
       "popularity": 50432,
-      "rarity": 0.565,
+      "rarity": 0.574,
       "tier": 3,
       "wiki": "Pinnacles National Park"
     },
@@ -285,7 +274,7 @@
         "MRNP"
       ],
       "popularity": 50817,
-      "rarity": 0.548,
+      "rarity": 0.557,
       "tier": 3,
       "wiki": "Mount Rainier National Park"
     },
@@ -296,7 +285,7 @@
         "Cuyahoga Valley National Recreation Area"
       ],
       "popularity": 54710,
-      "rarity": 0.532,
+      "rarity": 0.541,
       "tier": 3,
       "wiki": "Cuyahoga Valley National Park"
     },
@@ -307,7 +296,7 @@
         "INDU"
       ],
       "popularity": 55616,
-      "rarity": 0.516,
+      "rarity": 0.525,
       "tier": 3,
       "wiki": "Indiana Dunes National Park"
     },
@@ -317,9 +306,20 @@
         "THRO"
       ],
       "popularity": 57597,
-      "rarity": 0.5,
+      "rarity": 0.508,
       "tier": 3,
       "wiki": "Theodore Roosevelt National Park"
+    },
+    {
+      "name": "Chiricahua National Park",
+      "aliases": [
+        "CHIR",
+        "Chiricahua National Monument"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
     },
     {
       "name": "Crater Lake National Park",
@@ -327,7 +327,7 @@
         "CRLA"
       ],
       "popularity": 58938,
-      "rarity": 0.484,
+      "rarity": 0.492,
       "tier": 3,
       "wiki": "Crater Lake National Park"
     },
@@ -338,7 +338,7 @@
         "Jefferson National Expansion Memorial"
       ],
       "popularity": 60142,
-      "rarity": 0.468,
+      "rarity": 0.475,
       "tier": 3,
       "wiki": "Gateway Arch National Park"
     },
@@ -348,7 +348,7 @@
         "CARE"
       ],
       "popularity": 61836,
-      "rarity": 0.452,
+      "rarity": 0.459,
       "tier": 3,
       "wiki": "Capitol Reef National Park"
     },
@@ -358,7 +358,7 @@
         "LAVO"
       ],
       "popularity": 62224,
-      "rarity": 0.435,
+      "rarity": 0.443,
       "tier": 3,
       "wiki": "Lassen Volcanic National Park"
     },
@@ -368,7 +368,7 @@
         "ISRO"
       ],
       "popularity": 62850,
-      "rarity": 0.419,
+      "rarity": 0.426,
       "tier": 3,
       "wiki": "Isle Royale National Park"
     },
@@ -379,7 +379,7 @@
         "ROMO"
       ],
       "popularity": 63713,
-      "rarity": 0.403,
+      "rarity": 0.41,
       "tier": 3,
       "wiki": "Rocky Mountain National Park"
     },
@@ -390,7 +390,7 @@
         "Kings Canyon NP"
       ],
       "popularity": 65606,
-      "rarity": 0.387,
+      "rarity": 0.393,
       "tier": 2,
       "wiki": "Kings Canyon National Park"
     },
@@ -400,7 +400,7 @@
         "SHEN"
       ],
       "popularity": 81124,
-      "rarity": 0.371,
+      "rarity": 0.377,
       "tier": 2,
       "wiki": "Shenandoah National Park"
     },
@@ -410,7 +410,7 @@
         "PEFO"
       ],
       "popularity": 83324,
-      "rarity": 0.355,
+      "rarity": 0.361,
       "tier": 2,
       "wiki": "Petrified Forest National Park"
     },
@@ -420,7 +420,7 @@
         "DRTO"
       ],
       "popularity": 91058,
-      "rarity": 0.339,
+      "rarity": 0.344,
       "tier": 2,
       "wiki": "Dry Tortugas National Park"
     },
@@ -430,7 +430,7 @@
         "CAVE"
       ],
       "popularity": 91616,
-      "rarity": 0.323,
+      "rarity": 0.328,
       "tier": 2,
       "wiki": "Carlsbad Caverns National Park"
     },
@@ -440,7 +440,7 @@
         "EVER"
       ],
       "popularity": 92272,
-      "rarity": 0.306,
+      "rarity": 0.311,
       "tier": 2,
       "wiki": "Everglades National Park"
     },
@@ -451,7 +451,7 @@
         "WHSA"
       ],
       "popularity": 97164,
-      "rarity": 0.29,
+      "rarity": 0.295,
       "tier": 2,
       "wiki": "White Sands National Park"
     },
@@ -462,7 +462,7 @@
         "Badlands National Monument"
       ],
       "popularity": 112783,
-      "rarity": 0.274,
+      "rarity": 0.279,
       "tier": 2,
       "wiki": "Badlands National Park"
     },
@@ -472,7 +472,7 @@
         "BIBE"
       ],
       "popularity": 113274,
-      "rarity": 0.258,
+      "rarity": 0.262,
       "tier": 2,
       "wiki": "Big Bend National Park"
     },
@@ -482,7 +482,7 @@
         "MEVE"
       ],
       "popularity": 119580,
-      "rarity": 0.242,
+      "rarity": 0.246,
       "tier": 2,
       "wiki": "Mesa Verde National Park"
     },
@@ -493,7 +493,7 @@
         "Marble Canyon National Monument"
       ],
       "popularity": 120405,
-      "rarity": 0.226,
+      "rarity": 0.23,
       "tier": 2,
       "wiki": "Grand Canyon National Park"
     },
@@ -503,7 +503,7 @@
         "BRCA"
       ],
       "popularity": 121019,
-      "rarity": 0.21,
+      "rarity": 0.213,
       "tier": 2,
       "wiki": "Bryce Canyon National Park"
     },
@@ -513,7 +513,7 @@
         "ARCH"
       ],
       "popularity": 121028,
-      "rarity": 0.194,
+      "rarity": 0.197,
       "tier": 1,
       "wiki": "Arches National Park"
     },
@@ -525,7 +525,7 @@
         "ONP"
       ],
       "popularity": 124656,
-      "rarity": 0.177,
+      "rarity": 0.18,
       "tier": 1,
       "wiki": "Olympic National Park"
     },
@@ -538,7 +538,7 @@
         "GSMNP"
       ],
       "popularity": 134432,
-      "rarity": 0.161,
+      "rarity": 0.164,
       "tier": 1,
       "wiki": "Great Smoky Mountains National Park"
     },
@@ -549,7 +549,7 @@
         "hottest place in the world"
       ],
       "popularity": 135821,
-      "rarity": 0.145,
+      "rarity": 0.148,
       "tier": 1,
       "wiki": "Death Valley National Park"
     },
@@ -559,7 +559,7 @@
         "GRTE"
       ],
       "popularity": 148659,
-      "rarity": 0.129,
+      "rarity": 0.131,
       "tier": 1,
       "wiki": "Grand Teton National Park"
     },
@@ -571,7 +571,7 @@
         "Sequoia Park"
       ],
       "popularity": 154289,
-      "rarity": 0.113,
+      "rarity": 0.115,
       "tier": 1,
       "wiki": "Sequoia National Park"
     },
@@ -581,7 +581,7 @@
         "ACAD"
       ],
       "popularity": 154585,
-      "rarity": 0.097,
+      "rarity": 0.098,
       "tier": 1,
       "wiki": "Acadia National Park"
     },
@@ -593,7 +593,7 @@
         "United States Glacier National Park"
       ],
       "popularity": 156325,
-      "rarity": 0.081,
+      "rarity": 0.082,
       "tier": 1,
       "wiki": "Glacier National Park (U.S.)"
     },
@@ -603,7 +603,7 @@
         "ZION"
       ],
       "popularity": 169113,
-      "rarity": 0.065,
+      "rarity": 0.066,
       "tier": 1,
       "wiki": "Zion National Park"
     },
@@ -614,7 +614,7 @@
         "Mammoth Cave Biosphere Reserve"
       ],
       "popularity": 194216,
-      "rarity": 0.048,
+      "rarity": 0.049,
       "tier": 1,
       "wiki": "Mammoth Cave National Park"
     },
@@ -627,7 +627,7 @@
         "JOTR"
       ],
       "popularity": 212892,
-      "rarity": 0.032,
+      "rarity": 0.033,
       "tier": 1,
       "wiki": "Joshua Tree National Park"
     },

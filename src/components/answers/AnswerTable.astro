@@ -2,7 +2,7 @@
 import TierChip from './TierChip.astro';
 import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
-import { formatViews, rarityShort, wikipediaUrl, type PromptSeo } from './copy';
+import { formatViews, isNoData, rarityShort, wikipediaUrl, type PromptSeo } from './copy';
 
 interface Props {
   prompt: PromptSeo;
@@ -10,17 +10,32 @@ interface Props {
 
 const { prompt } = Astro.props;
 const labels = getUi(defaultLocale).shared.visuals;
+const ranked = prompt.answers.filter((answer) => !isNoData(answer));
+let rank = 0;
+const rows = prompt.answers.map((answer) => {
+  const unranked = isNoData(answer);
+  if (!unranked) rank += 1;
+  return { answer, unranked, rank: unranked ? null : rank };
+});
+const regionLabel = prompt.noDataNote
+  ? 'Ranked answers, then answers with no Wikipedia article'
+  : labels.rankedRegion;
 ---
 
 <section aria-labelledby="ranked-answers">
   <h2 id="ranked-answers" class="text-xl font-bold tracking-tight">{labels.rankedAnswers}</h2>
+  {
+    prompt.noDataNote && (
+      <p class="mt-3 text-sm leading-relaxed text-muted-foreground">{prompt.noDataNote}</p>
+    )
+  }
   <div
     class="answer-ranking mt-3 overflow-x-auto"
     tabindex="0"
     role="region"
-    aria-label={labels.rankedRegion}
+    aria-label={regionLabel}
   >
-    <table class="w-full min-w-[40rem] border-collapse text-sm">
+    <table class="w-full min-w-[52rem] border-collapse text-sm">
       <caption class="caption-top mb-2 text-left text-sm text-muted-foreground">
         {prompt.tableCaption}
       </caption>
@@ -30,36 +45,43 @@ const labels = getUi(defaultLocale).shared.visuals;
           <th scope="col" class="px-3 py-2 font-semibold">{labels.answer}</th>
           <th scope="col" class="px-3 py-2 font-semibold">{labels.tier}</th>
           <th scope="col" class="px-3 py-2 text-right font-semibold">{labels.rarity}</th>
-          <th
-            scope="col"
-            class="whitespace-nowrap px-3 py-2 text-right font-semibold"
-            aria-describedby="views-note"
-          >
+          <th scope="col" class="px-3 py-2 text-right font-semibold" aria-describedby="views-note">
             {prompt.viewsHeading}
           </th>
+          <th scope="col" class="px-3 py-2 font-semibold">Wikipedia article</th>
         </tr>
       </thead>
       <tbody>
         {
-          prompt.answers.map((answer, index) => (
-            <tr class="answer-ranking__row border-b border-border last:border-0" data-tier={answer.tier}>
-              <td class="px-3 py-2 tabular-nums text-muted-foreground" data-rank={index + 1}>{index + 1}</td>
+          rows.map((row) => (
+            <tr class="answer-ranking__row border-b border-border last:border-0" data-tier={row.unranked ? 3 : row.answer.tier}>
+              <td class="px-3 py-2 tabular-nums text-muted-foreground" data-rank={row.rank ?? undefined}>
+                {row.rank ?? '—'}
+              </td>
               <th scope="row" class="px-3 py-2 text-left font-medium">
-                {answer.wiki ? (
-                  <a class="text-nav hover:underline" href={wikipediaUrl(answer.wiki)}>
-                    {answer.name}
-                    <span class="sr-only">{labels.onWikipedia}</span>
-                  </a>
-                ) : (
-                  answer.name
-                )}
+                {row.answer.name}
               </th>
               <td class="px-3 py-2">
-                <TierChip tier={answer.tier} art />
+                {row.unranked ? (
+                  <TierChip tier={3} label="Uncommon (unranked)" />
+                ) : (
+                  <TierChip tier={row.answer.tier} art />
+                )}
               </td>
-              <td class="px-3 py-2 text-right">{rarityShort(answer, prompt.answers)}</td>
+              <td class="px-3 py-2 text-right">
+                {row.unranked ? 'Unranked' : rarityShort(row.answer, ranked, prompt.source)}
+              </td>
               <td class="whitespace-nowrap px-3 py-2 text-right tabular-nums">
-                {formatViews(answer.popularity)}
+                {row.unranked ? 'No article' : formatViews(row.answer.popularity)}
+              </td>
+              <td class="px-3 py-2">
+                {row.answer.wiki ? (
+                  <a class="text-nav hover:underline" href={wikipediaUrl(row.answer.wiki)}>
+                    {row.answer.wiki}
+                  </a>
+                ) : (
+                  <span class="text-muted-foreground">—</span>
+                )}
               </td>
             </tr>
           ))

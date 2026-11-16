@@ -366,3 +366,79 @@ Still excluded: anything in the table marked excluded. The query was not good en
 | lotr-characters | screen | 36 | 36 | pass | articles in Category:The Lord of the Rings characters that have their own Wikidata item. Redirects were not folded into a different character. Includes Frodo, Gandalf, Aragorn, Gollum, and Celeborn |
 | roman-deities | history | 209 | open | pass | instance of Roman deity (Q11688446) with an English Wikipedia article. The class has 473 items. Jupiter (god), Juno, Venus, Mars, Minerva, and Neptune are in it. A title filter found no album, film, list, or novel pages |
 | world-wonders | history | 21 | 21 | pass | the parts of the Seven Wonders of the Ancient World, the New 7 Wonders, and the New 7 Wonders of Nature. 7 + 7 + 7, no overlap in the returned titles |
+
+## 15 November 2026 — noData contract and entity links
+
+Rebuilt with `pnpm build-prompts` (pageview cache reused; new Wikipedia description probes under `.cache/build-prompts/wiki-about`). Catalog stays 276 prompts: geography 37, animals 51, food 33, sports 31, screen 30, music 31, science 32, history 31. Answers 23,132 → 23,125. The seven-answer drop is the Stranger Things merges below. No prompt was added or removed.
+
+`Answer.noData: true` means popularity 0, rarity 0.5, tier 3 (Uncommon), and no `wiki`. Those answers are still accepted. They are left out of the percentile that scores the other answers in the same prompt. 122 answers are noData. None have a popularity from 1 through the old placeholder.
+
+### Stranger Things characters
+
+129 names → 122. Seven pairs from the list page are the same character (same actor, short name plus fuller name) and are now one answer. The other form is an alias:
+
+| Kept name | Alias | Actor on the list page |
+| --- | --- | --- |
+| Troy Walsh | Troy | Peyton Wich |
+| James Dante | James | Cade Jones |
+| Carol Perkins | Carol | Chelsea Talmadge |
+| Stacey Albright | Stacey | Sydney Bullock |
+| Bruce Lowe | Bruce | Jake Busey |
+| Tommy Hagan | Tommy H | Chester Rushing |
+| Dr. Alexei | Alexei | Alec Utgoff |
+
+Not merged, because the list credits different actors: Tina (Madelyn Cline) and Tina Turnbow (Caroline Elle Abrams); Vicki (Abigail Cowen) and Vickie Dunne (Amybeth McNulty).
+
+A character keeps a Wikipedia title only when the article is about that character. Checked on 15 November 2026 against the MediaWiki parse of "List of Stranger Things characters" and short descriptions:
+
+- The title is `Name (Stranger Things)`, and the base name is the character. Kept: Eleven, Jim Hopper, Mike Wheeler, Max Mayfield, Ted Wheeler, Vecna. The bare titles were not used: Eleven redirects to the number 11, Jim Hopper to James Hopper, Mike Wheeler to Michael Wheeler, Max Mayfield is a meteorologist, Ted Wheeler is a politician, and Vecna is the Dungeons & Dragons character.
+- The short description says the page is a Stranger Things character, and the title contains the character's name. Kept: Dustin Henderson, Joyce Byers, Nancy Wheeler, Robin Buckley, Steve Harrington, Will Byers.
+- The title redirects to that character's own section of "List of Stranger Things characters". The stored title is the character's name, and the popularity is that redirect's pageviews, not the list page's. Kept: Scott Clarke, Derek Turnbow, Holly Wheeler, Lonnie Byers, Murray Bauman, Erica Sinclair, Bob Newby, Lucas Sinclair, Martin Brenner, Billy Hargrove, Eddie Munson.
+
+23 answers keep a wiki title. 99 are noData, including every name that previously had no article (those had been stored as popularity 1).
+
+Links removed because the article is a different entity. Old popularity was that other article's pageviews:
+
+| Answer | Removed wiki | Old popularity |
+| --- | --- | --- |
+| Troy (now an alias of Troy Walsh) | Troy (ancient city) | 1,958,968 |
+| Yuri Ismaylov | Alaska | 1,628,254 |
+| Lt. Colonel Jack Sullivan | United States Army | 1,274,356 |
+| Nikki Baxter | Stranger Things: Tales from '85 | 972,902 |
+| General Stepanov | KGB | 667,366 |
+| Suzie Bingham | Mormons | 645,354 |
+| Florence | Florence (the city in Tuscany) | 637,579 |
+| Jason Carver | Satanic panic | 516,491 |
+| Two | 2 | 437,605 |
+| Mind Flayer | Illithid | 141,600 |
+| Connie Frazier | United States Department of Energy | 140,268 |
+| Kali Prasad | Illusion | 56,357 |
+| Vickie Dunne | Hospital volunteer | 44,256 |
+| Neil Hargrove | Reno Riggins | 6,481 |
+
+Same-title articles that are not the character were also dropped: Barbara Holland (American writer, 1933–2010), Karen Wheeler (American artist, born 1955), Sam Owens (American musician), Jonathan Byers (disambiguation page). One-word titles that are name lists, given names, or disambiguations (Argyle, Mary, James, Carol, and the same pattern) were dropped. After the Troy Walsh merge, the city article "Troy" is not a link.
+
+Scott Clarke is the rarest scored character in this prompt (301 redirect views, tier 6). Vecna (Stranger Things) is the most viewed (1,611,977). Eddie Munson keeps the redirect title and 104,332 views; among the 23 scored answers that lands on rarity 0.5, tier 3, and he is not noData.
+
+### Other prompts
+
+The same rule: no usable article (pageviews 404, or a total of 0 or 1 in the window) is noData, and that row is left out of the percentile. These 23 were popularity 0 before. Twenty-two were pageview HTTP 404. Pastasciutta antifascista returned HTTP 200 with 0 views, so the article exists but is not used as a rarity signal, and the wiki field is omitted. Dmitri Antonov (Stranger Things) had 1 view and is included in the 99 noData rows above.
+
+| Prompt | noData answers |
+| --- | --- |
+| dog-breeds | Tatra Hound |
+| italian-dishes | Pastasciutta antifascista |
+| kingfisher-species | Morotai paradise kingfisher, Papuan paradise kingfisher |
+| language-families | Atlantic languages, Marrgu–Wurrugu languages |
+| owl-species | Northern fish owl, Paramo horned owl |
+| parrot-species | Antipodes kakariki, Chatham Islands kakariki, New Caledonian kakariki, Red-crowned kakariki, Reischek's kakariki, Yellow-crowned kakariki |
+| pheasant-species | Sumatran peacock-pheasant |
+| roman-deities | Dea nutrix |
+| sausages | Huotuichang |
+| soups | Zhuzangfen |
+| space-telescopes | Akari, PRIMA |
+| tyrannosaurid-dinosaurs | Tromerosaurus |
+| us-national-parks | Chiricahua National Park |
+| whale-or-dolphin-species | Delphinus minimus |
+
+Those 14 prompts were rescored. A token check of every remaining wiki title against the answer name found no mismatch outside the Stranger Things cases above, which are fixed.

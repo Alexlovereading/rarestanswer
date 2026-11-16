@@ -6,6 +6,7 @@
 
 import type { Answer, CategoryKey, Prompt, PromptIndexEntry } from './types';
 import { isCategoryKey } from './categories';
+import { effectiveTier } from './score';
 
 export const PROMPT_INDEX_PATH = '/game-data/index.json';
 
@@ -24,6 +25,30 @@ export interface ClientAnswer {
   aliases: string[];
   tier: Answer['tier'];
   rarity: number;
+  /** Set only when the answer has no Wikipedia article. Absent means the field was not sent. */
+  noData?: true;
+}
+
+/** Familiar practice prompts, most familiar first. Chosen only if the live index contains the slug. */
+export const WARMUP_SLUGS = [
+  'planets-and-dwarf-planets',
+  'us-states',
+  'countries-in-europe',
+] as const;
+
+export function pickWarmupSlug(index: readonly { slug: string }[]): string | null {
+  const have = new Set(index.map((entry) => entry.slug));
+  for (const slug of WARMUP_SLUGS) {
+    if (have.has(slug)) return slug;
+  }
+  return null;
+}
+
+export function reportAnswerHref(slug: string, question: string, typed: string): string {
+  const subject = `Answer report: ${slug}`;
+  const body = `${question}\n\nTyped answer: ${typed}`;
+  const query = `subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  return `mailto:contact@rarestanswer.xyz?${query}`;
 }
 
 export interface ClientPrompt {
@@ -75,8 +100,11 @@ export function toClientPrompt(value: unknown): ClientPrompt | null {
   return { id, slug, category, question, answers };
 }
 
-export function rarestAnswers<T>(answers: readonly T[], limit = 10): T[] {
-  return answers.slice(0, limit);
+export function rarestAnswers<T extends { noData?: boolean }>(
+  answers: readonly T[],
+  limit = 10,
+): T[] {
+  return answers.filter((answer) => answer.noData !== true).slice(0, limit);
 }
 
 /** Most-common first. The input is rarest-first. */
@@ -90,8 +118,14 @@ export function couldHaveNamedLine(count: number): string {
   return `You could have named any of ${count} answers.`;
 }
 
-export function countRarer(answers: readonly { rarity: number }[], rarity: number): number {
-  return answers.reduce((total, answer) => (answer.rarity > rarity ? total + 1 : total), 0);
+export function countRarer(
+  answers: readonly { rarity: number; noData?: boolean }[],
+  rarity: number,
+): number {
+  return answers.reduce(
+    (total, answer) => (answer.noData !== true && answer.rarity > rarity ? total + 1 : total),
+    0,
+  );
 }
 
 export function rarerThanLine(count: number): string {
@@ -104,17 +138,18 @@ export function rarerThanLine(count: number): string {
  * One list when the prompt is short enough to show in full. Longer prompts
  * keep the rarest slice and the most-common slice, which can overlap.
  */
-export function revealLists<T>(
+export function revealLists<T extends { noData?: boolean }>(
   answers: readonly T[],
   limit = 10,
 ): { complete: boolean; rarest: T[]; common: T[] } {
-  if (answers.length <= limit) {
-    return { complete: true, rarest: answers.slice(), common: [] };
+  const ranked = answers.filter((answer) => answer.noData !== true);
+  if (ranked.length <= limit) {
+    return { complete: true, rarest: ranked.slice(), common: [] };
   }
   return {
     complete: false,
-    rarest: rarestAnswers(answers, limit),
-    common: commonAnswers(answers, limit),
+    rarest: rarestAnswers(ranked, limit),
+    common: commonAnswers(ranked, limit),
   };
 }
 
@@ -135,15 +170,22 @@ function toClientAnswer(value: unknown): ClientAnswer | null {
   if (!isRecord(value)) return null;
   const name = typeof value.name === 'string' ? value.name.trim() : '';
   if (!name || name.length > 200) return null;
-  if (!isTier(value.tier)) return null;
-  if (typeof value.rarity !== 'number' || !Number.isFinite(value.rarity)) return null;
+  const noData = value.noData === true;
+  const storedTier = isTier(value.tier) ? value.tier : null;
+  if (!noData && storedTier === null) return null;
+  const tier = effectiveTier({ tier: storedTier ?? 3, noData });
+  const rarity =
+    typeof value.rarity === 'number' && Number.isFinite(value.rarity) ? value.rarity : null;
+  if (rarity === null && !noData) return null;
   const aliases: string[] = [];
   if (Array.isArray(value.aliases)) {
     for (const alias of value.aliases) {
       if (typeof alias === 'string' && alias.trim()) aliases.push(alias.trim());
     }
   }
-  return { name, aliases, tier: value.tier, rarity: value.rarity };
+  const answer: ClientAnswer = { name, aliases, tier, rarity: rarity ?? 0.5 };
+  if (noData) answer.noData = true;
+  return answer;
 }
 
 function isTier(value: unknown): value is Answer['tier'] {

@@ -5,7 +5,7 @@
  */
 
 import { TIERS } from './types';
-import { PENALTY_MS, TIMER_MS } from './score';
+import { PENALTY_MS, TIMER_MS, tierName } from './score';
 import { ROUND_SIZE } from './daily';
 import type { ShareMode } from './share';
 
@@ -48,7 +48,7 @@ export const HOW_TO_STEPS: readonly string[] = [
   'Type an answer the prompt accepts and press Enter. Capital letters, accents, punctuation, and a leading a, an, or the do not matter when another word follows. One wrong, extra, or missing character still counts when both the guess and the answer are at least six characters and only one answer is that close.',
   `You have ${seconds} seconds. A wrong guess takes ${penaltySeconds} second off the clock and you can try again. Turn the timer off before the round starts if you want no clock: a miss then costs no time. Pass ends the prompt with no points, with or without the timer. The timer choice locks once the round starts.`,
   'Arm Spotlight once per round to double that prompt. It is spent only when you score, and you can turn it off again before you submit.',
-  'After a scored prompt you see your tier. A pass or a timeout scores nothing. A list of ten or fewer answers is shown in full, rarest first. A longer list shows the ten rarest and the ten most common. The share text is colored squares and does not include what you typed.',
+  'After a scored prompt you see your tier. A pass or a timeout scores nothing. A list of ten or fewer answers with Wikipedia articles is shown in full, rarest first. A longer list shows the ten rarest and the ten most common. An answer with no Wikipedia article still counts, scores as Uncommon, and is left out of that rarest ten. The share text is colored squares and does not include what you typed.',
   'From the answer box, Enter submits. Tab moves to Guess and Pass. Escape closes a dialog.',
 ];
 
@@ -123,6 +123,13 @@ export const PLAY = {
   outside: 'Your answer sits between these two lists.',
   nextPrompt: 'Next prompt',
   seeResults: 'See results',
+  rarityLine:
+    "Rarity = how rarely an answer's Wikipedia article is viewed — not what other players typed.",
+  noDataReveal: 'No Wikipedia article — scored as Uncommon',
+  warmup: 'Warm-up',
+  warmupNote: 'Practice — not scored, does not affect streak',
+  warmupBack: 'Back',
+  reportAnswer: 'Report a wrong answer',
   roundComplete: 'Round complete',
   totalPoints: 'Total points',
   passed: 'Passed',
@@ -233,6 +240,11 @@ export function timerLabel(left: number | null): string {
   return `${left} seconds left`;
 }
 
+export function revealTierLabel(answer: { tier: number; noData?: boolean }): string {
+  if (answer.noData === true) return PLAY.noDataReveal;
+  return tierName(answer.tier);
+}
+
 export function meterLabel(tier: number, name: string): string {
   if (tier <= 0) return 'No tier';
   return `${name}, tier ${tier} of 6`;
@@ -284,7 +296,7 @@ export const HOME_FAQ: readonly FaqItem[] = [
   {
     question: 'How do you guess the rarest answer?',
     answer:
-      'Skip the first name that comes to mind. Other players will type it too, and it lands in a low tier. A specific answer you know from a niche usually scores higher. A common answer still beats a blank one. Finding rare answers is mostly refusing your own first instinct.',
+      'Skip the first famous name that comes to mind. A heavily viewed Wikipedia article lands in a low tier. A specific answer with a less-viewed article usually scores higher. A common answer still beats a blank one. The rank is article views, not what anyone typed.',
   },
   {
     question: 'When does the daily round change?',

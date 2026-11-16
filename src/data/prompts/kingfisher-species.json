@@ -6,33 +6,12 @@
   "source": "Wikidata + Wikipedia pageviews (2026-10)",
   "answers": [
     {
-      "name": "Morotai paradise kingfisher",
-      "aliases": [
-        "Tanysiptera doris"
-      ],
-      "popularity": 0,
-      "rarity": 0.996,
-      "tier": 6,
-      "wiki": "Morotai paradise kingfisher"
-    },
-    {
-      "name": "Papuan paradise kingfisher",
-      "aliases": [
-        "Common Paradise Kingfisher",
-        "Tanysiptera galatea"
-      ],
-      "popularity": 0,
-      "rarity": 0.996,
-      "tier": 6,
-      "wiki": "Papuan paradise kingfisher"
-    },
-    {
       "name": "Bougainville dwarf kingfisher",
       "aliases": [
         "Ceyx pallidus"
       ],
       "popularity": 13,
-      "rarity": 0.984,
+      "rarity": 1,
       "tier": 6,
       "wiki": "Bougainville dwarf kingfisher"
     },
@@ -40,7 +19,7 @@
       "name": "Alcedo websteri",
       "aliases": [],
       "popularity": 19,
-      "rarity": 0.976,
+      "rarity": 0.992,
       "tier": 6,
       "wiki": "Alcedo websteri"
     },
@@ -48,7 +27,7 @@
       "name": "Alcedo azurea",
       "aliases": [],
       "popularity": 93,
-      "rarity": 0.968,
+      "rarity": 0.984,
       "tier": 6,
       "wiki": "Alcedo azurea"
     },
@@ -58,7 +37,7 @@
         "Actenoides regalis"
       ],
       "popularity": 142,
-      "rarity": 0.96,
+      "rarity": 0.975,
       "tier": 6,
       "wiki": "Plain-backed kingfisher"
     },
@@ -68,7 +47,7 @@
         "Ceyx meeki"
       ],
       "popularity": 307,
-      "rarity": 0.952,
+      "rarity": 0.967,
       "tier": 6,
       "wiki": "North Solomons dwarf kingfisher"
     },
@@ -78,7 +57,7 @@
         "Ceyx cajeli"
       ],
       "popularity": 308,
-      "rarity": 0.944,
+      "rarity": 0.959,
       "tier": 6,
       "wiki": "Buru dwarf kingfisher"
     },
@@ -88,7 +67,7 @@
         "Ceyx wallacii"
       ],
       "popularity": 310,
-      "rarity": 0.935,
+      "rarity": 0.951,
       "tier": 6,
       "wiki": "Sula dwarf kingfisher"
     },
@@ -98,8 +77,8 @@
         "Ceyx sacerdotis"
       ],
       "popularity": 313,
-      "rarity": 0.927,
-      "tier": 5,
+      "rarity": 0.943,
+      "tier": 6,
       "wiki": "New Britain dwarf kingfisher"
     },
     {
@@ -108,7 +87,7 @@
         "Actenoides capucinus"
       ],
       "popularity": 316,
-      "rarity": 0.911,
+      "rarity": 0.926,
       "tier": 5,
       "wiki": "Black-headed kingfisher"
     },
@@ -118,7 +97,7 @@
         "Ceyx malaitae"
       ],
       "popularity": 316,
-      "rarity": 0.911,
+      "rarity": 0.926,
       "tier": 5,
       "wiki": "Malaita dwarf kingfisher"
     },
@@ -128,7 +107,7 @@
         "Ceyx collectoris"
       ],
       "popularity": 316,
-      "rarity": 0.911,
+      "rarity": 0.926,
       "tier": 5,
       "wiki": "New Georgia dwarf kingfisher"
     },
@@ -138,7 +117,7 @@
         "Ceyx nigromaxilla"
       ],
       "popularity": 325,
-      "rarity": 0.895,
+      "rarity": 0.91,
       "tier": 5,
       "wiki": "Guadalcanal dwarf kingfisher"
     },
@@ -148,7 +127,7 @@
         "Ceyx gentianus"
       ],
       "popularity": 336,
-      "rarity": 0.887,
+      "rarity": 0.902,
       "tier": 5,
       "wiki": "Makira dwarf kingfisher"
     },
@@ -158,7 +137,7 @@
         "Ceyx mulcatus"
       ],
       "popularity": 374,
-      "rarity": 0.879,
+      "rarity": 0.893,
       "tier": 5,
       "wiki": "New Ireland dwarf kingfisher"
     },
@@ -168,7 +147,7 @@
         "Ceyx solitarius"
       ],
       "popularity": 405,
-      "rarity": 0.871,
+      "rarity": 0.885,
       "tier": 5,
       "wiki": "Papuan dwarf kingfisher"
     },
@@ -178,7 +157,7 @@
         "Cittura sanghirensis"
       ],
       "popularity": 458,
-      "rarity": 0.863,
+      "rarity": 0.877,
       "tier": 5,
       "wiki": "Sangihe lilac kingfisher"
     },
@@ -188,7 +167,7 @@
         "Ceyx dispar"
       ],
       "popularity": 537,
-      "rarity": 0.855,
+      "rarity": 0.869,
       "tier": 5,
       "wiki": "Manus dwarf kingfisher"
     },
@@ -198,7 +177,7 @@
         "Tanysiptera hydrocharis"
       ],
       "popularity": 549,
-      "rarity": 0.847,
+      "rarity": 0.861,
       "tier": 5,
       "wiki": "Little paradise kingfisher"
     },
@@ -209,7 +188,7 @@
         "Glittering Kingfisher"
       ],
       "popularity": 571,
-      "rarity": 0.839,
+      "rarity": 0.852,
       "tier": 5,
       "wiki": "White-rumped kingfisher"
     },
@@ -220,7 +199,7 @@
         "Syma megarhyncha"
       ],
       "popularity": 613,
-      "rarity": 0.831,
+      "rarity": 0.844,
       "tier": 5,
       "wiki": "Mountain kingfisher"
     },
@@ -231,7 +210,7 @@
         "Todiramphus enigma"
       ],
       "popularity": 711,
-      "rarity": 0.823,
+      "rarity": 0.836,
       "tier": 5,
       "wiki": "Talaud kingfisher"
     },
@@ -243,7 +222,7 @@
         "Todiramphus australasia"
       ],
       "popularity": 742,
-      "rarity": 0.815,
+      "rarity": 0.828,
       "tier": 5,
       "wiki": "Cinnamon-banded kingfisher"
     },
@@ -253,7 +232,7 @@
         "Todiramphus tristrami"
       ],
       "popularity": 761,
-      "rarity": 0.806,
+      "rarity": 0.82,
       "tier": 5,
       "wiki": "Melanesian kingfisher"
     },
@@ -263,8 +242,8 @@
         "Tanysiptera nigriceps"
       ],
       "popularity": 766,
-      "rarity": 0.798,
-      "tier": 4,
+      "rarity": 0.811,
+      "tier": 5,
       "wiki": "Black-capped paradise kingfisher"
     },
     {
@@ -273,7 +252,7 @@
         "Todiramphus colonus"
       ],
       "popularity": 775,
-      "rarity": 0.786,
+      "rarity": 0.799,
       "tier": 4,
       "wiki": "Islet kingfisher"
     },
@@ -283,7 +262,7 @@
         "Ceyx lepidus"
       ],
       "popularity": 775,
-      "rarity": 0.786,
+      "rarity": 0.799,
       "tier": 4,
       "wiki": "Moluccan dwarf kingfisher"
     },
@@ -294,7 +273,7 @@
         "Lilac-cheeked kingfisher"
       ],
       "popularity": 777,
-      "rarity": 0.774,
+      "rarity": 0.787,
       "tier": 4,
       "wiki": "Sulawesi lilac kingfisher"
     },
@@ -304,7 +283,7 @@
         "Ceyx flumenicola"
       ],
       "popularity": 798,
-      "rarity": 0.766,
+      "rarity": 0.779,
       "tier": 4,
       "wiki": "Northern silvery kingfisher"
     },
@@ -314,7 +293,7 @@
         "Tanysiptera nympha"
       ],
       "popularity": 807,
-      "rarity": 0.758,
+      "rarity": 0.77,
       "tier": 4,
       "wiki": "Red-breasted paradise kingfisher"
     },
@@ -330,7 +309,7 @@
         "Sulawesi Pygmy Kingfisher"
       ],
       "popularity": 813,
-      "rarity": 0.75,
+      "rarity": 0.762,
       "tier": 4,
       "wiki": "Sulawesi dwarf kingfisher"
     },
@@ -341,7 +320,7 @@
         "Pelargopsis melanorhyncha"
       ],
       "popularity": 817,
-      "rarity": 0.738,
+      "rarity": 0.75,
       "tier": 4,
       "wiki": "Great-billed kingfisher"
     },
@@ -351,7 +330,7 @@
         "Actenoides princeps"
       ],
       "popularity": 817,
-      "rarity": 0.738,
+      "rarity": 0.75,
       "tier": 4,
       "wiki": "Scaly-breasted kingfisher"
     },
@@ -361,7 +340,7 @@
         "Tanysiptera carolinae"
       ],
       "popularity": 829,
-      "rarity": 0.726,
+      "rarity": 0.738,
       "tier": 4,
       "wiki": "Numfor paradise kingfisher"
     },
@@ -371,7 +350,7 @@
         "Corythornis leucogaster"
       ],
       "popularity": 839,
-      "rarity": 0.718,
+      "rarity": 0.73,
       "tier": 4,
       "wiki": "White-bellied kingfisher"
     },
@@ -381,7 +360,7 @@
         "Todiramphus funebris"
       ],
       "popularity": 843,
-      "rarity": 0.71,
+      "rarity": 0.721,
       "tier": 4,
       "wiki": "Sombre kingfisher"
     },
@@ -391,7 +370,7 @@
         "Todiramphus recurvirostris"
       ],
       "popularity": 863,
-      "rarity": 0.702,
+      "rarity": 0.713,
       "tier": 4,
       "wiki": "Flat-billed kingfisher"
     },
@@ -401,7 +380,7 @@
         "Halcyon badia"
       ],
       "popularity": 869,
-      "rarity": 0.694,
+      "rarity": 0.705,
       "tier": 4,
       "wiki": "Chocolate-backed kingfisher"
     },
@@ -412,7 +391,7 @@
         "Tanysiptera riedelli"
       ],
       "popularity": 880,
-      "rarity": 0.685,
+      "rarity": 0.697,
       "tier": 4,
       "wiki": "Biak paradise kingfisher"
     },
@@ -422,7 +401,7 @@
         "Todiramphus leucopygius"
       ],
       "popularity": 921,
-      "rarity": 0.677,
+      "rarity": 0.689,
       "tier": 4,
       "wiki": "Ultramarine kingfisher"
     },
@@ -432,7 +411,7 @@
         "Todiramphus tutus"
       ],
       "popularity": 939,
-      "rarity": 0.669,
+      "rarity": 0.68,
       "tier": 4,
       "wiki": "Chattering kingfisher"
     },
@@ -442,7 +421,7 @@
         "Tanysiptera danae"
       ],
       "popularity": 963,
-      "rarity": 0.661,
+      "rarity": 0.672,
       "tier": 4,
       "wiki": "Brown-headed paradise kingfisher"
     },
@@ -452,7 +431,7 @@
         "Ceyx sangirensis"
       ],
       "popularity": 992,
-      "rarity": 0.653,
+      "rarity": 0.664,
       "tier": 4,
       "wiki": "Sangihe dwarf kingfisher"
     },
@@ -462,7 +441,7 @@
         "Ceyx margarethae"
       ],
       "popularity": 1013,
-      "rarity": 0.645,
+      "rarity": 0.656,
       "tier": 4,
       "wiki": "Dimorphic dwarf kingfisher"
     },
@@ -473,7 +452,7 @@
         "Todiramphus farquhari"
       ],
       "popularity": 1037,
-      "rarity": 0.637,
+      "rarity": 0.648,
       "tier": 4,
       "wiki": "Vanuatu kingfisher"
     },
@@ -484,7 +463,7 @@
         "Todiramphus diops"
       ],
       "popularity": 1070,
-      "rarity": 0.629,
+      "rarity": 0.639,
       "tier": 4,
       "wiki": "Blue-and-white kingfisher"
     },
@@ -494,7 +473,7 @@
         "Todiramphus veneratus"
       ],
       "popularity": 1087,
-      "rarity": 0.621,
+      "rarity": 0.631,
       "tier": 4,
       "wiki": "Society kingfisher"
     },
@@ -505,7 +484,7 @@
         "Blue-headed Kingfisher"
       ],
       "popularity": 1095,
-      "rarity": 0.613,
+      "rarity": 0.623,
       "tier": 4,
       "wiki": "Green-backed kingfisher"
     },
@@ -516,7 +495,7 @@
         "Winchell's Kingfisher"
       ],
       "popularity": 1121,
-      "rarity": 0.605,
+      "rarity": 0.615,
       "tier": 4,
       "wiki": "Rufous-lored kingfisher"
     },
@@ -527,8 +506,8 @@
         "Todiramphus pelewensis"
       ],
       "popularity": 1171,
-      "rarity": 0.597,
-      "tier": 3,
+      "rarity": 0.607,
+      "tier": 4,
       "wiki": "Rusty-capped kingfisher"
     },
     {
@@ -537,7 +516,7 @@
         "Todiramphus gertrudae"
       ],
       "popularity": 1188,
-      "rarity": 0.585,
+      "rarity": 0.594,
       "tier": 3,
       "wiki": "Niau kingfisher"
     },
@@ -548,7 +527,7 @@
         "White-backed kingfisher"
       ],
       "popularity": 1188,
-      "rarity": 0.585,
+      "rarity": 0.594,
       "tier": 3,
       "wiki": "White-mantled kingfisher"
     },
@@ -558,7 +537,7 @@
         "Ceyx argentatus"
       ],
       "popularity": 1191,
-      "rarity": 0.573,
+      "rarity": 0.582,
       "tier": 3,
       "wiki": "Southern silvery kingfisher"
     },
@@ -569,7 +548,7 @@
         "Todiramphus saurophagus"
       ],
       "popularity": 1209,
-      "rarity": 0.565,
+      "rarity": 0.574,
       "tier": 3,
       "wiki": "Beach kingfisher"
     },
@@ -579,7 +558,7 @@
         "Todiramphus nigrocyaneus"
       ],
       "popularity": 1213,
-      "rarity": 0.556,
+      "rarity": 0.566,
       "tier": 3,
       "wiki": "Blue-black kingfisher"
     },
@@ -590,7 +569,7 @@
         "Todiramphus lazuli"
       ],
       "popularity": 1232,
-      "rarity": 0.548,
+      "rarity": 0.557,
       "tier": 3,
       "wiki": "Lazuli kingfisher"
     },
@@ -600,7 +579,7 @@
         "Melidora macrorrhina"
       ],
       "popularity": 1236,
-      "rarity": 0.54,
+      "rarity": 0.549,
       "tier": 3,
       "wiki": "Hook-billed kingfisher"
     },
@@ -610,7 +589,7 @@
         "Todiramphus reichenbachii"
       ],
       "popularity": 1246,
-      "rarity": 0.532,
+      "rarity": 0.541,
       "tier": 3,
       "wiki": "Pohnpei kingfisher"
     },
@@ -621,7 +600,7 @@
         "Hombron's Kingfisher"
       ],
       "popularity": 1249,
-      "rarity": 0.524,
+      "rarity": 0.533,
       "tier": 3,
       "wiki": "Blue-capped kingfisher"
     },
@@ -631,7 +610,7 @@
         "Tanysiptera ellioti"
       ],
       "popularity": 1272,
-      "rarity": 0.516,
+      "rarity": 0.525,
       "tier": 3,
       "wiki": "Kofiau paradise kingfisher"
     },
@@ -642,7 +621,7 @@
         "Tuamotu Kingfisher"
       ],
       "popularity": 1275,
-      "rarity": 0.508,
+      "rarity": 0.516,
       "tier": 3,
       "wiki": "Mangareva kingfisher"
     },
@@ -652,7 +631,7 @@
         "Actenoides bougainvillei"
       ],
       "popularity": 1286,
-      "rarity": 0.5,
+      "rarity": 0.508,
       "tier": 3,
       "wiki": "Moustached kingfisher"
     },
@@ -662,9 +641,30 @@
         "Corythornis madagascariensis"
       ],
       "popularity": 1291,
-      "rarity": 0.492,
+      "rarity": 0.5,
       "tier": 3,
       "wiki": "Madagascar pygmy kingfisher"
+    },
+    {
+      "name": "Morotai paradise kingfisher",
+      "aliases": [
+        "Tanysiptera doris"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Papuan paradise kingfisher",
+      "aliases": [
+        "Common Paradise Kingfisher",
+        "Tanysiptera galatea"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
     },
     {
       "name": "Bismarck kingfisher",
@@ -672,7 +672,7 @@
         "Ceyx websteri"
       ],
       "popularity": 1309,
-      "rarity": 0.484,
+      "rarity": 0.492,
       "tier": 3,
       "wiki": "Bismarck kingfisher"
     },
@@ -682,7 +682,7 @@
         "Corythornis vintsioides"
       ],
       "popularity": 1340,
-      "rarity": 0.476,
+      "rarity": 0.484,
       "tier": 3,
       "wiki": "Malagasy kingfisher"
     },
@@ -692,7 +692,7 @@
         "Todiramphus albicilla"
       ],
       "popularity": 1376,
-      "rarity": 0.468,
+      "rarity": 0.475,
       "tier": 3,
       "wiki": "Mariana kingfisher"
     },
@@ -703,7 +703,7 @@
         "Todiramphus ruficollaris"
       ],
       "popularity": 1427,
-      "rarity": 0.46,
+      "rarity": 0.467,
       "tier": 3,
       "wiki": "Mewing kingfisher"
     },
@@ -714,7 +714,7 @@
         "Chestnut-collared kingfisher"
       ],
       "popularity": 1467,
-      "rarity": 0.452,
+      "rarity": 0.459,
       "tier": 3,
       "wiki": "Rufous-collared kingfisher"
     },
@@ -725,7 +725,7 @@
         "Malay Blue-banded Kingfisher"
       ],
       "popularity": 1527,
-      "rarity": 0.444,
+      "rarity": 0.451,
       "tier": 3,
       "wiki": "Malaysian blue-banded kingfisher"
     },
@@ -735,7 +735,7 @@
         "Alcedo quadribrachys"
       ],
       "popularity": 1560,
-      "rarity": 0.435,
+      "rarity": 0.443,
       "tier": 3,
       "wiki": "Shining-blue kingfisher"
     },
@@ -745,7 +745,7 @@
         "Pelargopsis amauroptera"
       ],
       "popularity": 1624,
-      "rarity": 0.427,
+      "rarity": 0.434,
       "tier": 3,
       "wiki": "Brown-winged kingfisher"
     },
@@ -757,7 +757,7 @@
         "Todiramphus godeffroyi"
       ],
       "popularity": 1630,
-      "rarity": 0.419,
+      "rarity": 0.426,
       "tier": 3,
       "wiki": "Marquesan kingfisher"
     },
@@ -767,7 +767,7 @@
         "Chloroceryle inda"
       ],
       "popularity": 1753,
-      "rarity": 0.411,
+      "rarity": 0.418,
       "tier": 3,
       "wiki": "Green-and-rufous kingfisher"
     },
@@ -777,7 +777,7 @@
         "Actenoides lindsayi"
       ],
       "popularity": 1761,
-      "rarity": 0.403,
+      "rarity": 0.41,
       "tier": 3,
       "wiki": "Spotted wood kingfisher"
     },
@@ -787,8 +787,8 @@
         "Ceyx cyanopectus"
       ],
       "popularity": 1931,
-      "rarity": 0.395,
-      "tier": 2,
+      "rarity": 0.402,
+      "tier": 3,
       "wiki": "Indigo-banded kingfisher"
     },
     {
@@ -797,7 +797,7 @@
         "Halcyon senegaloides"
       ],
       "popularity": 1946,
-      "rarity": 0.387,
+      "rarity": 0.393,
       "tier": 2,
       "wiki": "Mangrove kingfisher"
     },
@@ -807,7 +807,7 @@
         "Alcedo semitorquata"
       ],
       "popularity": 1954,
-      "rarity": 0.379,
+      "rarity": 0.385,
       "tier": 2,
       "wiki": "Half-collared kingfisher"
     },
@@ -817,7 +817,7 @@
         "Todiramphus sordidus"
       ],
       "popularity": 2040,
-      "rarity": 0.371,
+      "rarity": 0.377,
       "tier": 2,
       "wiki": "Torresian kingfisher"
     },
@@ -827,7 +827,7 @@
         "Halcyon chelicuti"
       ],
       "popularity": 2143,
-      "rarity": 0.363,
+      "rarity": 0.369,
       "tier": 2,
       "wiki": "Striped kingfisher"
     },
@@ -837,7 +837,7 @@
         "Ispidina lecontei"
       ],
       "popularity": 2285,
-      "rarity": 0.355,
+      "rarity": 0.361,
       "tier": 2,
       "wiki": "African dwarf kingfisher"
     },
@@ -847,7 +847,7 @@
         "Halcyon gularis"
       ],
       "popularity": 2326,
-      "rarity": 0.347,
+      "rarity": 0.352,
       "tier": 2,
       "wiki": "Brown-breasted kingfisher"
     },
@@ -858,7 +858,7 @@
         "Blue-banded Kingfisher"
       ],
       "popularity": 2344,
-      "rarity": 0.339,
+      "rarity": 0.344,
       "tier": 2,
       "wiki": "Javan blue-banded kingfisher"
     },
@@ -868,7 +868,7 @@
         "Ceyx pusillus"
       ],
       "popularity": 2530,
-      "rarity": 0.331,
+      "rarity": 0.336,
       "tier": 2,
       "wiki": "Little kingfisher"
     },
@@ -880,7 +880,7 @@
         "rufous-backed kingfisher"
       ],
       "popularity": 2577,
-      "rarity": 0.323,
+      "rarity": 0.328,
       "tier": 2,
       "wiki": "Rufous-backed dwarf kingfisher"
     },
@@ -890,7 +890,7 @@
         "Todiramphus pyrrhopygius"
       ],
       "popularity": 2633,
-      "rarity": 0.315,
+      "rarity": 0.32,
       "tier": 2,
       "wiki": "Red-backed kingfisher"
     },
@@ -900,7 +900,7 @@
         "Syma torotoro"
       ],
       "popularity": 2846,
-      "rarity": 0.306,
+      "rarity": 0.311,
       "tier": 2,
       "wiki": "Yellow-billed kingfisher"
     },
@@ -910,7 +910,7 @@
         "Alcedo hercules"
       ],
       "popularity": 2872,
-      "rarity": 0.298,
+      "rarity": 0.303,
       "tier": 2,
       "wiki": "Blyth's kingfisher"
     },
@@ -920,7 +920,7 @@
         "Tanysiptera sylvia"
       ],
       "popularity": 3009,
-      "rarity": 0.29,
+      "rarity": 0.295,
       "tier": 2,
       "wiki": "Buff-breasted paradise kingfisher"
     },
@@ -932,7 +932,7 @@
         "java kingfisher"
       ],
       "popularity": 3352,
-      "rarity": 0.282,
+      "rarity": 0.287,
       "tier": 2,
       "wiki": "Javan kingfisher"
     },
@@ -942,7 +942,7 @@
         "Chloroceryle aenea"
       ],
       "popularity": 3466,
-      "rarity": 0.274,
+      "rarity": 0.279,
       "tier": 2,
       "wiki": "American pygmy kingfisher"
     },
@@ -952,7 +952,7 @@
         "Ceyx melanurus"
       ],
       "popularity": 3543,
-      "rarity": 0.266,
+      "rarity": 0.27,
       "tier": 2,
       "wiki": "Philippine dwarf kingfisher"
     },
@@ -962,7 +962,7 @@
         "Halcyon malimbica"
       ],
       "popularity": 3858,
-      "rarity": 0.258,
+      "rarity": 0.262,
       "tier": 2,
       "wiki": "Blue-breasted kingfisher"
     },
@@ -972,7 +972,7 @@
         "Lacedo pulchella"
       ],
       "popularity": 4110,
-      "rarity": 0.25,
+      "rarity": 0.254,
       "tier": 2,
       "wiki": "Banded kingfisher"
     },
@@ -982,7 +982,7 @@
         "Ispidina picta"
       ],
       "popularity": 4574,
-      "rarity": 0.242,
+      "rarity": 0.246,
       "tier": 2,
       "wiki": "African pygmy kingfisher"
     },
@@ -993,7 +993,7 @@
         "small blue kingfisher"
       ],
       "popularity": 4602,
-      "rarity": 0.234,
+      "rarity": 0.238,
       "tier": 2,
       "wiki": "Cerulean kingfisher"
     },
@@ -1003,7 +1003,7 @@
         "Halcyon albiventris"
       ],
       "popularity": 4779,
-      "rarity": 0.226,
+      "rarity": 0.23,
       "tier": 2,
       "wiki": "Brown-hooded kingfisher"
     },
@@ -1013,7 +1013,7 @@
         "Halcyon leucocephala"
       ],
       "popularity": 4897,
-      "rarity": 0.218,
+      "rarity": 0.221,
       "tier": 2,
       "wiki": "Grey-headed kingfisher"
     },
@@ -1023,7 +1023,7 @@
         "Chloroceryle amazona"
       ],
       "popularity": 4950,
-      "rarity": 0.21,
+      "rarity": 0.213,
       "tier": 2,
       "wiki": "Amazon kingfisher"
     },
@@ -1033,7 +1033,7 @@
         "Dacelo tyro"
       ],
       "popularity": 5335,
-      "rarity": 0.202,
+      "rarity": 0.205,
       "tier": 2,
       "wiki": "Spangled kookaburra"
     },
@@ -1043,7 +1043,7 @@
         "Todiramphus sacer"
       ],
       "popularity": 5397,
-      "rarity": 0.194,
+      "rarity": 0.197,
       "tier": 1,
       "wiki": "Pacific kingfisher"
     },
@@ -1054,7 +1054,7 @@
         "Gaudichaud’s kookaburra"
       ],
       "popularity": 5657,
-      "rarity": 0.185,
+      "rarity": 0.189,
       "tier": 1,
       "wiki": "Rufous-bellied kookaburra"
     },
@@ -1064,7 +1064,7 @@
         "Halcyon coromanda"
       ],
       "popularity": 5680,
-      "rarity": 0.177,
+      "rarity": 0.18,
       "tier": 1,
       "wiki": "Ruddy kingfisher"
     },
@@ -1074,7 +1074,7 @@
         "Halcyon pileata"
       ],
       "popularity": 5707,
-      "rarity": 0.169,
+      "rarity": 0.172,
       "tier": 1,
       "wiki": "Black-capped kingfisher"
     },
@@ -1084,7 +1084,7 @@
         "Alcedo meninting"
       ],
       "popularity": 6208,
-      "rarity": 0.161,
+      "rarity": 0.164,
       "tier": 1,
       "wiki": "Blue-eared kingfisher"
     },
@@ -1095,7 +1095,7 @@
         "Dacelo rex"
       ],
       "popularity": 6693,
-      "rarity": 0.153,
+      "rarity": 0.156,
       "tier": 1,
       "wiki": "Shovel-billed kookaburra"
     },
@@ -1105,7 +1105,7 @@
         "Chloroceryle americana"
       ],
       "popularity": 6712,
-      "rarity": 0.145,
+      "rarity": 0.148,
       "tier": 1,
       "wiki": "Green kingfisher"
     },
@@ -1115,7 +1115,7 @@
         "Todiramphus macleayii"
       ],
       "popularity": 6819,
-      "rarity": 0.137,
+      "rarity": 0.139,
       "tier": 1,
       "wiki": "Forest kingfisher"
     },
@@ -1125,7 +1125,7 @@
         "Halcyon senegalensis"
       ],
       "popularity": 7255,
-      "rarity": 0.129,
+      "rarity": 0.131,
       "tier": 1,
       "wiki": "Woodland kingfisher"
     },
@@ -1135,7 +1135,7 @@
         "Pelargopsis capensis"
       ],
       "popularity": 7410,
-      "rarity": 0.121,
+      "rarity": 0.123,
       "tier": 1,
       "wiki": "Stork-billed kingfisher"
     },
@@ -1145,7 +1145,7 @@
         "Alcedo cristata"
       ],
       "popularity": 8277,
-      "rarity": 0.113,
+      "rarity": 0.115,
       "tier": 1,
       "wiki": "Malachite kingfisher"
     },
@@ -1155,7 +1155,7 @@
         "Megaceryle lugubris"
       ],
       "popularity": 8811,
-      "rarity": 0.105,
+      "rarity": 0.107,
       "tier": 1,
       "wiki": "Crested kingfisher"
     },
@@ -1165,7 +1165,7 @@
         "Megaceryle maxima"
       ],
       "popularity": 10207,
-      "rarity": 0.097,
+      "rarity": 0.098,
       "tier": 1,
       "wiki": "Giant kingfisher"
     },
@@ -1175,7 +1175,7 @@
         "Megaceryle torquata"
       ],
       "popularity": 10215,
-      "rarity": 0.089,
+      "rarity": 0.09,
       "tier": 1,
       "wiki": "Ringed kingfisher"
     },
@@ -1185,7 +1185,7 @@
         "Ceyx azureus"
       ],
       "popularity": 11251,
-      "rarity": 0.081,
+      "rarity": 0.082,
       "tier": 1,
       "wiki": "Azure kingfisher"
     },
@@ -1197,7 +1197,7 @@
         "three-toed kingfisher"
       ],
       "popularity": 12392,
-      "rarity": 0.073,
+      "rarity": 0.074,
       "tier": 1,
       "wiki": "Black-backed dwarf kingfisher"
     },
@@ -1207,7 +1207,7 @@
         "Todiramphus chloris"
       ],
       "popularity": 14599,
-      "rarity": 0.065,
+      "rarity": 0.066,
       "tier": 1,
       "wiki": "Collared kingfisher"
     },
@@ -1217,7 +1217,7 @@
         "Ceryle rudis"
       ],
       "popularity": 17275,
-      "rarity": 0.056,
+      "rarity": 0.057,
       "tier": 1,
       "wiki": "Pied kingfisher"
     },
@@ -1227,7 +1227,7 @@
         "Todiramphus sanctus"
       ],
       "popularity": 19884,
-      "rarity": 0.048,
+      "rarity": 0.049,
       "tier": 1,
       "wiki": "Sacred kingfisher"
     },
@@ -1237,7 +1237,7 @@
         "Dacelo leachii"
       ],
       "popularity": 23064,
-      "rarity": 0.04,
+      "rarity": 0.041,
       "tier": 1,
       "wiki": "Blue-winged kookaburra"
     },
@@ -1248,7 +1248,7 @@
         "White-breasted kingfisher"
       ],
       "popularity": 34676,
-      "rarity": 0.032,
+      "rarity": 0.033,
       "tier": 1,
       "wiki": "White-throated kingfisher"
     },
@@ -1259,7 +1259,7 @@
         "Todiramphus cinnamominus"
       ],
       "popularity": 58039,
-      "rarity": 0.024,
+      "rarity": 0.025,
       "tier": 1,
       "wiki": "Guam kingfisher"
     },

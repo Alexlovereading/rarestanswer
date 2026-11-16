@@ -15,7 +15,7 @@ import {
 import { defaultLocale, locales } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { pageTitle, simpleBreadcrumbJsonLd, urlListJsonLd } from '~/lib/seo';
-import { languageAlternates } from '~/lib/url';
+import { languageAlternates, localizePath } from '~/lib/url';
 
 const prompts = getPrompts();
 const ui = getUi(defaultLocale);
@@ -49,4 +49,7 @@ const jsonLd = [
   fullBleed
 >
   <AnswerLobby prompts={prompts} />
+  <p class="mx-auto max-w-[1200px] px-4 pb-10 text-sm">
+    <a class="font-medium text-nav hover:underline" href={localizePath('/data-updates', defaultLocale)}>Data updates</a>
+  </p>
 </LocaleLayout>

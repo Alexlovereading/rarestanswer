@@ -1,4 +1,6 @@
 ---
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import LegalPage from '~/components/layout/LegalPage.astro';
 import PlayCta from '~/components/article/PlayCta.astro';
 import HeroArt from '~/components/art/HeroArt.astro';
@@ -6,15 +8,74 @@ import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
 import { site } from '~/config/site';
 import { contactEmail } from '~/lib/contact-email';
+import { loadCatalog } from '~/lib/game/category-copy';
 
 const labels = getUi(defaultLocale).shared.visuals;
 const email = contactEmail();
+const stranger = loadCatalog().find((entry) => entry.slug === 'stranger-things-characters');
+
+const MONTHS = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+] as const;
+
+function quotedConst(source: string, name: string): { value: string; note: string | null } | null {
+  const match = new RegExp(
+    `(?:/\\*\\*\\s*([^*]+?)\\s*\\*/\\s*)?^export const ${name} = ['"]([^'"]+)['"];`,
+    'm',
+  ).exec(source);
+  if (!match?.[2]) return null;
+  const note = match[1]?.replace(/\s+/g, ' ').trim() || null;
+  return { value: match[2], note };
+}
+
+function monthName(ymd: string): string | null {
+  if (!/^\d{8}$/.test(ymd)) return null;
+  const month = Number(ymd.slice(4, 6));
+  const label = MONTHS[month - 1];
+  return label ? `${label} ${ymd.slice(0, 4)}` : null;
+}
+
+let windowSentence: string | null = null;
+try {
+  const defs = readFileSync(join(process.cwd(), 'scripts/data/prompt-defs.ts'), 'utf8');
+  const sourceMonth = quotedConst(defs, 'SOURCE_MONTH');
+  const viewStart = quotedConst(defs, 'VIEW_START');
+  const viewEnd = quotedConst(defs, 'VIEW_END');
+  const startLabel = viewStart ? monthName(viewStart.value) : null;
+  const endLabel = viewEnd ? monthName(viewEnd.value) : null;
+  if (sourceMonth && viewStart && viewEnd && startLabel && endLabel) {
+    const startMonth = Number(viewStart.value.slice(4, 6));
+    const endMonth = Number(viewEnd.value.slice(4, 6));
+    const span =
+      (Number(viewEnd.value.slice(0, 4)) - Number(viewStart.value.slice(0, 4))) * 12 +
+      (endMonth - startMonth) +
+      1;
+    const inclusive = viewEnd.note ? /inclusive/i.test(viewEnd.note) : false;
+    const range = inclusive
+      ? `from ${startLabel} through ${endLabel} (${span} complete months)`
+      : `with VIEW_START ${viewStart.value} and VIEW_END ${viewEnd.value}`;
+    windowSentence = `The script sums monthly pageviews ${range}, labeled ${sourceMonth.value} on each prompt file (VIEW_START ${viewStart.value}, VIEW_END ${viewEnd.value}).`;
+  }
+} catch {
+  windowSentence = null;
+}
 ---
 
 <LegalPage
   locale={defaultLocale}
   title="About"
-  description="Who runs Rarest Answer, how answer lists and guides are made, and what this independent trivia site does not claim."
+  description={site.description}
   lastUpdated="2026-11-15"
 >
   <aside slot="illustration" class="content-band mt-6">
@@ -24,24 +85,25 @@ const email = contactEmail();
     </div>
     <div class="content-band__art"><HeroArt /></div>
   </aside>
+  <p>{site.description}</p>
   <p>
-    {site.name} is the home of {site.game.name}, a free daily trivia game you play in the browser.
     A prompt asks you to name something that fits. Every accepted answer is correct. A rarer correct
     answer scores higher than the name almost everyone types first.
   </p>
-  <h2>Who runs this site</h2>
   <p>
-    A small independent team runs {site.name}. Guides and pages about other games are signed
-    Rarest Answer editorial team. Article pages show that byline and link to this page. The name
-    is this site's editorial group.
+    Not affiliated with other sites or games that use a similar name (for example rarestanswer.com).
+  </p>
+  <h2>Who maintains this</h2>
+  <p>
+    Guides and pages about other games are signed {site.defaultAuthor}. Article pages show that
+    byline and link to this page. The name is this site's organization. It is not a named person.
   </p>
   <p>
-    {site.name} is not affiliated with Krillion or with the other games named on this site.
-    {site.legalNotice}
-  </p>
-  <p>
-    Questions and corrections go to <a href={`mailto:${email}`}>{email}</a>. That is the address
-    on the <a href="/contact/">contact page</a>.
+    Prompt lists are refreshed by the script <code>scripts/build-prompts.ts</code>. It reads
+    Wikidata and English Wikipedia or Wiktionary pageviews and rewrites the prompt files. A
+    published correction is logged on <a href="/data-updates/">data updates</a>. To report a wrong
+    answer, a missing answer, or a wrong article link, email
+    <a href={`mailto:${email}`}>{email}</a>.
   </p>
   <h2>What you can do here</h2>
   <ul>
@@ -86,14 +148,25 @@ const email = contactEmail();
     published under CC0. English interjections come from Wikidata lexemes. The Stranger Things
     character list is parsed from the English Wikipedia page
     <a href="https://en.wikipedia.org/wiki/List_of_Stranger_Things_characters">List of Stranger Things characters</a>.
-    On that list, a name with no English Wikipedia article is counted as 1 pageview.
+    {
+      stranger?.source ? (
+        <> The published source line on that prompt is: {stranger.source}.</>
+      ) : (
+        <> That prompt file is not in this build.</>
+      )
+    }
   </p>
   <p>
-    Rarity uses those pageview totals. The build script <code>scripts/build-prompts.ts</code> sums
-    English Wikipedia pageviews over the last 12 complete months. English interjections use
-    English Wiktionary pageviews for the same months. The files published now use November 2025
-    through October 2026, labeled 2026-10 on each prompt. Running the script again refreshes the
-    prompt files from those sources.
+    Rarity uses those pageview totals. The build script <code>scripts/build-prompts.ts</code> writes
+    the prompt files. English interjections use English Wiktionary pageviews for the same months as
+    the Wikipedia lists.
+    {windowSentence ? (
+      <> {windowSentence}</>
+    ) : (
+      <> The dated pageview window is on the <a href="/data-updates/">data updates</a> page.</>
+    )}
+    Running the script again refreshes the prompt files from those sources. Published corrections
+    are logged on the <a href="/data-updates/">data updates</a> page.
   </p>
   <p>
     Inside one prompt, rarity is a percentile of that total. The value runs from 0 to 1, and 1 is
@@ -122,7 +195,8 @@ const email = contactEmail();
   <p>
     You do not need an account to read the guides or to play. Streaks and round stats are stored in
     your browser. Write to <a href={`mailto:${email}`}>{email}</a> or use the
-    <a href="/contact/">contact page</a>.
+    <a href="/contact/">contact page</a>. A correction that changes a published list is logged on
+    <a href="/data-updates/">data updates</a>.
   </p>
   <PlayCta slot="after" locale={defaultLocale} />
 </LegalPage>

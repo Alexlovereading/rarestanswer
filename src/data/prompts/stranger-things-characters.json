@@ -3,394 +3,15 @@
   "slug": "stranger-things-characters",
   "category": "screen",
   "question": "Name a Stranger Things character",
-  "source": "English Wikipedia \"List of Stranger Things characters\" via MediaWiki parse (cast tables, character headings, and recurring/guest credits) + Wikipedia pageviews (2026-10); a name with no article counts as 1",
+  "source": "English Wikipedia \"List of Stranger Things characters\" via MediaWiki parse (cast tables, character headings, and recurring/guest credits) + Wikipedia pageviews (2026-10); a name with no verifiable article is noData",
   "answers": [
-    {
-      "name": "Agent Harmon",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Agent Stinson",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Anna Baxter",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Becky Ives",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5,
-      "wiki": "Becky Ives"
-    },
-    {
-      "name": "Benny Hammond",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Bruce Lowe",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Chrissy Cunningham",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Claudia Henderson",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Colonel Ozerov",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "demobats",
-      "aliases": [
-        "Demobat"
-      ],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "demodogs",
-      "aliases": [
-        "Demodog"
-      ],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Demogorgons",
-      "aliases": [
-        "Demogorgon"
-      ],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Diane Hopper",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Director Hatch",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Dmitri Antonov",
-      "aliases": [
-        "Enzo"
-      ],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Donald Melvald",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Doris Driscoll",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Dr. Alexei",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Dr. Kay",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Eden Bingham",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Freak 1",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Funshine",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Heather Holloway",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "James Dante",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Janet Holloway",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Lead Agent",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Lt. Robert Akers",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Marsha Holland",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Mayor Larry Kline",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Miss Harris",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Mr. Holland",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Phil Callahan",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Sara Hopper",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Sergeant Luis Ramirez",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Stacey Albright",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Susan Hargrove",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Terry Ives",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Tina Turnbow",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Tommy H",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Tommy Hagan",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Troy Walsh",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Victor Creel",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Virginia Creel",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Wayne Munson",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Winnie Kline",
-      "aliases": [],
-      "popularity": 1,
-      "rarity": 0.828,
-      "tier": 5
-    },
-    {
-      "name": "Daniel Fischer",
-      "aliases": [],
-      "popularity": 270,
-      "rarity": 0.648,
-      "tier": 4,
-      "wiki": "Daniel Fischer"
-    },
-    {
-      "name": "Charles Sinclair",
-      "aliases": [],
-      "popularity": 286,
-      "rarity": 0.641,
-      "tier": 4,
-      "wiki": "Charles Sinclair"
-    },
     {
       "name": "Scott Clarke",
       "aliases": [],
       "popularity": 301,
-      "rarity": 0.633,
-      "tier": 4
-    },
-    {
-      "name": "Calvin Powell",
-      "aliases": [],
-      "popularity": 507,
-      "rarity": 0.625,
-      "tier": 4,
-      "wiki": "Calvin Powell"
-    },
-    {
-      "name": "Sue Sinclair",
-      "aliases": [],
-      "popularity": 617,
-      "rarity": 0.617,
-      "tier": 4,
-      "wiki": "Sue Sinclair"
-    },
-    {
-      "name": "Debbie Miller",
-      "aliases": [],
-      "popularity": 740,
-      "rarity": 0.609,
-      "tier": 4,
-      "wiki": "Debbie Miller"
-    },
-    {
-      "name": "Zharkov",
-      "aliases": [],
-      "popularity": 777,
-      "rarity": 0.602,
-      "tier": 4,
-      "wiki": "Zharkov"
-    },
-    {
-      "name": "Carol Perkins",
-      "aliases": [],
-      "popularity": 980,
-      "rarity": 0.594,
-      "tier": 3,
-      "wiki": "Carol Perkins"
+      "rarity": 1,
+      "tier": 6,
+      "wiki": "Scott Clarke"
     },
     {
       "name": "Derek Turnbow",
@@ -399,413 +20,65 @@
         "Dipshit Derek"
       ],
       "popularity": 1155,
-      "rarity": 0.586,
-      "tier": 3
-    },
-    {
-      "name": "Fred Benson",
-      "aliases": [],
-      "popularity": 1256,
-      "rarity": 0.578,
-      "tier": 3,
-      "wiki": "Fred Benson"
-    },
-    {
-      "name": "Sam Owens",
-      "aliases": [
-        "Dr. Owens",
-        "Dr. Sam Owens"
-      ],
-      "popularity": 1303,
-      "rarity": 0.57,
-      "tier": 3,
-      "wiki": "Sam Owens"
-    },
-    {
-      "name": "Melnikov",
-      "aliases": [],
-      "popularity": 1454,
-      "rarity": 0.563,
-      "tier": 3,
-      "wiki": "Melnikov"
-    },
-    {
-      "name": "Tom Holloway",
-      "aliases": [],
-      "popularity": 1619,
-      "rarity": 0.555,
-      "tier": 3,
-      "wiki": "Tom Holloway"
-    },
-    {
-      "name": "Patrick McKinney",
-      "aliases": [],
-      "popularity": 2550,
-      "rarity": 0.547,
-      "tier": 3,
-      "wiki": "Patrick McKinney"
-    },
-    {
-      "name": "Glenn",
-      "aliases": [],
-      "popularity": 2553,
-      "rarity": 0.539,
-      "tier": 3,
-      "wiki": "Glenn"
-    },
-    {
-      "name": "Dottie",
-      "aliases": [],
-      "popularity": 3078,
-      "rarity": 0.531,
-      "tier": 3,
-      "wiki": "Dottie"
-    },
-    {
-      "name": "Jonathan Byers",
-      "aliases": [],
-      "popularity": 3305,
-      "rarity": 0.523,
-      "tier": 3,
-      "wiki": "Jonathan Byers"
-    },
-    {
-      "name": "Barbara Holland",
-      "aliases": [
-        "Barb"
-      ],
-      "popularity": 3595,
-      "rarity": 0.516,
-      "tier": 3,
-      "wiki": "Barbara Holland"
-    },
-    {
-      "name": "Candice",
-      "aliases": [],
-      "popularity": 3717,
-      "rarity": 0.508,
-      "tier": 3,
-      "wiki": "Candice"
+      "rarity": 0.955,
+      "tier": 6,
+      "wiki": "Derek Turnbow"
     },
     {
       "name": "Holly Wheeler",
       "aliases": [],
       "popularity": 4275,
-      "rarity": 0.5,
-      "tier": 3
-    },
-    {
-      "name": "Stacey",
-      "aliases": [],
-      "popularity": 4405,
-      "rarity": 0.492,
-      "tier": 3,
-      "wiki": "Stacy"
-    },
-    {
-      "name": "Grigori",
-      "aliases": [],
-      "popularity": 4615,
-      "rarity": 0.484,
-      "tier": 3,
-      "wiki": "Grigory"
-    },
-    {
-      "name": "Tina",
-      "aliases": [],
-      "popularity": 4658,
-      "rarity": 0.477,
-      "tier": 3,
-      "wiki": "Tina"
-    },
-    {
-      "name": "Nicole",
-      "aliases": [],
-      "popularity": 4849,
-      "rarity": 0.469,
-      "tier": 3,
-      "wiki": "Nicole"
-    },
-    {
-      "name": "Axel",
-      "aliases": [],
-      "popularity": 5006,
-      "rarity": 0.461,
-      "tier": 3,
-      "wiki": "Axel"
-    },
-    {
-      "name": "Chance",
-      "aliases": [],
-      "popularity": 5043,
-      "rarity": 0.453,
-      "tier": 3,
-      "wiki": "Chance"
-    },
-    {
-      "name": "Karen Wheeler",
-      "aliases": [],
-      "popularity": 5320,
-      "rarity": 0.445,
-      "tier": 3,
-      "wiki": "Karen Wheeler"
-    },
-    {
-      "name": "Argyle",
-      "aliases": [],
-      "popularity": 5945,
-      "rarity": 0.438,
-      "tier": 3,
-      "wiki": "Argyle"
-    },
-    {
-      "name": "Keith",
-      "aliases": [],
-      "popularity": 5960,
-      "rarity": 0.43,
-      "tier": 3,
-      "wiki": "Keith"
-    },
-    {
-      "name": "Andy",
-      "aliases": [],
-      "popularity": 5995,
-      "rarity": 0.422,
-      "tier": 3,
-      "wiki": "Andy"
-    },
-    {
-      "name": "Jake",
-      "aliases": [],
-      "popularity": 6105,
-      "rarity": 0.414,
-      "tier": 3,
-      "wiki": "Jake"
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Holly Wheeler"
     },
     {
       "name": "Lonnie Byers",
       "aliases": [],
       "popularity": 6371,
-      "rarity": 0.406,
-      "tier": 3
-    },
-    {
-      "name": "Neil Hargrove",
-      "aliases": [],
-      "popularity": 6481,
-      "rarity": 0.398,
-      "tier": 2,
-      "wiki": "Reno Riggins"
-    },
-    {
-      "name": "Angela",
-      "aliases": [],
-      "popularity": 7890,
-      "rarity": 0.391,
-      "tier": 2,
-      "wiki": "Angela"
-    },
-    {
-      "name": "Carol",
-      "aliases": [],
-      "popularity": 8778,
-      "rarity": 0.383,
-      "tier": 2,
-      "wiki": "Carol"
-    },
-    {
-      "name": "Ten",
-      "aliases": [
-        "Ten / 010"
-      ],
-      "popularity": 13107,
-      "rarity": 0.375,
-      "tier": 2,
-      "wiki": "Ten"
-    },
-    {
-      "name": "Oleg",
-      "aliases": [],
-      "popularity": 14667,
-      "rarity": 0.367,
-      "tier": 2,
-      "wiki": "Oleg"
-    },
-    {
-      "name": "Vicki",
-      "aliases": [],
-      "popularity": 15894,
-      "rarity": 0.359,
-      "tier": 2,
-      "wiki": "Vicky"
-    },
-    {
-      "name": "Mary",
-      "aliases": [],
-      "popularity": 16044,
-      "rarity": 0.352,
-      "tier": 2,
-      "wiki": "Mary"
-    },
-    {
-      "name": "Ray",
-      "aliases": [],
-      "popularity": 17564,
-      "rarity": 0.344,
-      "tier": 2,
-      "wiki": "Ray"
-    },
-    {
-      "name": "Ms. Kelly",
-      "aliases": [],
-      "popularity": 19071,
-      "rarity": 0.336,
-      "tier": 2,
-      "wiki": "Ms. Kelly"
-    },
-    {
-      "name": "Jeff",
-      "aliases": [],
-      "popularity": 19980,
-      "rarity": 0.328,
-      "tier": 2,
-      "wiki": "Jeff"
-    },
-    {
-      "name": "Alexei",
-      "aliases": [],
-      "popularity": 20493,
-      "rarity": 0.32,
-      "tier": 2,
-      "wiki": "Alexey"
-    },
-    {
-      "name": "Bruce",
-      "aliases": [],
-      "popularity": 20989,
-      "rarity": 0.313,
-      "tier": 2,
-      "wiki": "Bruce"
-    },
-    {
-      "name": "Thomas",
-      "aliases": [],
-      "popularity": 21398,
-      "rarity": 0.305,
-      "tier": 2,
-      "wiki": "Thomas"
-    },
-    {
-      "name": "Russell Coleman",
-      "aliases": [],
-      "popularity": 22709,
-      "rarity": 0.297,
-      "tier": 2,
-      "wiki": "Russell Coleman"
-    },
-    {
-      "name": "Gareth",
-      "aliases": [],
-      "popularity": 30321,
-      "rarity": 0.289,
-      "tier": 2,
-      "wiki": "Gareth"
+      "rarity": 0.864,
+      "tier": 5,
+      "wiki": "Lonnie Byers"
     },
     {
       "name": "Murray Bauman",
       "aliases": [],
       "popularity": 30623,
-      "rarity": 0.281,
-      "tier": 2
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Murray Bauman"
     },
     {
       "name": "Erica Sinclair",
       "aliases": [],
       "popularity": 30642,
-      "rarity": 0.273,
-      "tier": 2
+      "rarity": 0.773,
+      "tier": 4,
+      "wiki": "Erica Sinclair"
     },
     {
       "name": "Ted Wheeler",
       "aliases": [],
       "popularity": 31966,
-      "rarity": 0.266,
-      "tier": 2,
+      "rarity": 0.727,
+      "tier": 4,
       "wiki": "Ted Wheeler (Stranger Things)"
-    },
-    {
-      "name": "Mick",
-      "aliases": [],
-      "popularity": 33067,
-      "rarity": 0.258,
-      "tier": 2,
-      "wiki": "Mick"
-    },
-    {
-      "name": "Rebecca",
-      "aliases": [],
-      "popularity": 34141,
-      "rarity": 0.25,
-      "tier": 2,
-      "wiki": "Rebecca"
-    },
-    {
-      "name": "Wendy",
-      "aliases": [],
-      "popularity": 36292,
-      "rarity": 0.242,
-      "tier": 2,
-      "wiki": "Wendy"
-    },
-    {
-      "name": "James",
-      "aliases": [],
-      "popularity": 38535,
-      "rarity": 0.234,
-      "tier": 2,
-      "wiki": "James"
     },
     {
       "name": "Bob Newby",
       "aliases": [],
       "popularity": 40725,
-      "rarity": 0.227,
-      "tier": 2
-    },
-    {
-      "name": "Vickie Dunne",
-      "aliases": [],
-      "popularity": 44256,
-      "rarity": 0.219,
-      "tier": 2,
-      "wiki": "Hospital volunteer"
+      "rarity": 0.682,
+      "tier": 4,
+      "wiki": "Bob Newby"
     },
     {
       "name": "Lucas Sinclair",
       "aliases": [],
       "popularity": 55946,
-      "rarity": 0.211,
-      "tier": 2
-    },
-    {
-      "name": "Kali Prasad",
-      "aliases": [
-        "Eight",
-        "Kali Prasad / 008",
-        "Kali Prasad / Eight"
-      ],
-      "popularity": 56357,
-      "rarity": 0.203,
-      "tier": 2,
-      "wiki": "Illusion"
-    },
-    {
-      "name": "Ivan",
-      "aliases": [],
-      "popularity": 56819,
-      "rarity": 0.195,
-      "tier": 1,
-      "wiki": "Ivan"
+      "rarity": 0.636,
+      "tier": 4,
+      "wiki": "Lucas Sinclair"
     },
     {
       "name": "Martin Brenner",
@@ -815,61 +88,877 @@
         "Papa"
       ],
       "popularity": 62033,
-      "rarity": 0.188,
-      "tier": 1
+      "rarity": 0.591,
+      "tier": 3,
+      "wiki": "Martin Brenner"
     },
     {
       "name": "Billy Hargrove",
       "aliases": [],
       "popularity": 96319,
-      "rarity": 0.18,
-      "tier": 1
+      "rarity": 0.545,
+      "tier": 3,
+      "wiki": "Billy Hargrove"
+    },
+    {
+      "name": "Agent Harmon",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Agent Stinson",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Andy",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Angela",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Anna Baxter",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Argyle",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Axel",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Barbara Holland",
+      "aliases": [
+        "Barb"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Becky Ives",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Benny Hammond",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Bruce Lowe",
+      "aliases": [
+        "Bruce"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Calvin Powell",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Candice",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Carol Perkins",
+      "aliases": [
+        "Carol"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Chance",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Charles Sinclair",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Chrissy Cunningham",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Claudia Henderson",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Colonel Ozerov",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Connie Frazier",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Daniel Fischer",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Debbie Miller",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "demobats",
+      "aliases": [
+        "Demobat"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "demodogs",
+      "aliases": [
+        "Demodog"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Demogorgons",
+      "aliases": [
+        "Demogorgon"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Diane Hopper",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Director Hatch",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Dmitri Antonov",
+      "aliases": [
+        "Enzo"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Donald Melvald",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Doris Driscoll",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Dottie",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Dr. Alexei",
+      "aliases": [
+        "Alexei"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Dr. Kay",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
     },
     {
       "name": "Eddie Munson",
       "aliases": [],
       "popularity": 104332,
-      "rarity": 0.172,
-      "tier": 1
+      "rarity": 0.5,
+      "tier": 3,
+      "wiki": "Eddie Munson"
+    },
+    {
+      "name": "Eden Bingham",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Florence",
+      "aliases": [
+        "Flo"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Freak 1",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Fred Benson",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Funshine",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Gareth",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "General Stepanov",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Glenn",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Grigori",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Heather Holloway",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Ivan",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Jake",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "James Dante",
+      "aliases": [
+        "James"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Janet Holloway",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Jason Carver",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Jeff",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Jonathan Byers",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Kali Prasad",
+      "aliases": [
+        "Eight",
+        "Kali Prasad / 008",
+        "Kali Prasad / Eight"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Karen Wheeler",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Keith",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Lead Agent",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Lt. Colonel Jack Sullivan",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Lt. Robert Akers",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Marsha Holland",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Mary",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Mayor Larry Kline",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Melnikov",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Mick",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Mind Flayer",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Miss Harris",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Mr. Holland",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Ms. Kelly",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Neil Hargrove",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Nicole",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Nikki Baxter",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Oleg",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Patrick McKinney",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Phil Callahan",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Ray",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Rebecca",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Russell Coleman",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Sam Owens",
+      "aliases": [
+        "Dr. Owens",
+        "Dr. Sam Owens"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Sara Hopper",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Sergeant Luis Ramirez",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Stacey Albright",
+      "aliases": [
+        "Stacey"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Sue Sinclair",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Susan Hargrove",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Suzie Bingham",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Ten",
+      "aliases": [
+        "Ten / 010"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Terry Ives",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Thomas",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Tina",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Tina Turnbow",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Tom Holloway",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Tommy Hagan",
+      "aliases": [
+        "Tommy H"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Troy Walsh",
+      "aliases": [
+        "Troy"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Two",
+      "aliases": [
+        "Two / 002"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Vicki",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Vickie Dunne",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Victor Creel",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Virginia Creel",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Wayne Munson",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Wendy",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Winnie Kline",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Yuri Ismaylov",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Zharkov",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
     },
     {
       "name": "Dustin Henderson",
       "aliases": [],
       "popularity": 139392,
-      "rarity": 0.164,
-      "tier": 1,
+      "rarity": 0.455,
+      "tier": 3,
       "wiki": "Dustin Henderson"
-    },
-    {
-      "name": "Connie Frazier",
-      "aliases": [],
-      "popularity": 140268,
-      "rarity": 0.156,
-      "tier": 1,
-      "wiki": "United States Department of Energy"
-    },
-    {
-      "name": "Mind Flayer",
-      "aliases": [],
-      "popularity": 141600,
-      "rarity": 0.148,
-      "tier": 1,
-      "wiki": "Illithid"
     },
     {
       "name": "Robin Buckley",
       "aliases": [],
       "popularity": 207634,
-      "rarity": 0.141,
-      "tier": 1,
+      "rarity": 0.409,
+      "tier": 3,
       "wiki": "Robin Buckley"
     },
     {
       "name": "Joyce Byers",
       "aliases": [],
       "popularity": 243794,
-      "rarity": 0.133,
-      "tier": 1,
+      "rarity": 0.364,
+      "tier": 2,
       "wiki": "Joyce Byers"
     },
     {
@@ -878,16 +967,16 @@
         "Max"
       ],
       "popularity": 285503,
-      "rarity": 0.125,
-      "tier": 1,
+      "rarity": 0.318,
+      "tier": 2,
       "wiki": "Max Mayfield (Stranger Things)"
     },
     {
       "name": "Mike Wheeler",
       "aliases": [],
       "popularity": 319587,
-      "rarity": 0.117,
-      "tier": 1,
+      "rarity": 0.273,
+      "tier": 2,
       "wiki": "Mike Wheeler (Stranger Things)"
     },
     {
@@ -896,35 +985,17 @@
         "Hop"
       ],
       "popularity": 353568,
-      "rarity": 0.109,
-      "tier": 1,
+      "rarity": 0.227,
+      "tier": 2,
       "wiki": "Jim Hopper (Stranger Things)"
     },
     {
       "name": "Nancy Wheeler",
       "aliases": [],
       "popularity": 390324,
-      "rarity": 0.102,
+      "rarity": 0.182,
       "tier": 1,
       "wiki": "Nancy Wheeler"
-    },
-    {
-      "name": "Two",
-      "aliases": [
-        "Two / 002"
-      ],
-      "popularity": 437605,
-      "rarity": 0.094,
-      "tier": 1,
-      "wiki": "2"
-    },
-    {
-      "name": "Jason Carver",
-      "aliases": [],
-      "popularity": 516491,
-      "rarity": 0.086,
-      "tier": 1,
-      "wiki": "Satanic panic"
     },
     {
       "name": "Steve Harrington",
@@ -932,7 +1003,7 @@
         "Steve The Hair Harrington"
       ],
       "popularity": 521931,
-      "rarity": 0.078,
+      "rarity": 0.136,
       "tier": 1,
       "wiki": "Steve Harrington"
     },
@@ -942,35 +1013,9 @@
         "Will the Wise"
       ],
       "popularity": 587376,
-      "rarity": 0.07,
+      "rarity": 0.091,
       "tier": 1,
       "wiki": "Will Byers"
-    },
-    {
-      "name": "Florence",
-      "aliases": [
-        "Flo"
-      ],
-      "popularity": 637579,
-      "rarity": 0.063,
-      "tier": 1,
-      "wiki": "Florence"
-    },
-    {
-      "name": "Suzie Bingham",
-      "aliases": [],
-      "popularity": 645354,
-      "rarity": 0.055,
-      "tier": 1,
-      "wiki": "Mormons"
-    },
-    {
-      "name": "General Stepanov",
-      "aliases": [],
-      "popularity": 667366,
-      "rarity": 0.047,
-      "tier": 1,
-      "wiki": "KGB"
     },
     {
       "name": "Eleven",
@@ -979,25 +1024,9 @@
         "Jane Hopper"
       ],
       "popularity": 759805,
-      "rarity": 0.039,
+      "rarity": 0.045,
       "tier": 1,
       "wiki": "Eleven (Stranger Things)"
-    },
-    {
-      "name": "Nikki Baxter",
-      "aliases": [],
-      "popularity": 972902,
-      "rarity": 0.031,
-      "tier": 1,
-      "wiki": "Stranger Things: Tales from '85"
-    },
-    {
-      "name": "Lt. Colonel Jack Sullivan",
-      "aliases": [],
-      "popularity": 1274356,
-      "rarity": 0.023,
-      "tier": 1,
-      "wiki": "United States Army"
     },
     {
       "name": "Vecna",
@@ -1006,25 +1035,9 @@
         "Mr. Whatsit"
       ],
       "popularity": 1611977,
-      "rarity": 0.016,
-      "tier": 1,
-      "wiki": "Vecna (Stranger Things)"
-    },
-    {
-      "name": "Yuri Ismaylov",
-      "aliases": [],
-      "popularity": 1628254,
-      "rarity": 0.008,
-      "tier": 1,
-      "wiki": "Alaska"
-    },
-    {
-      "name": "Troy",
-      "aliases": [],
-      "popularity": 1958968,
       "rarity": 0,
       "tier": 1,
-      "wiki": "Troy"
+      "wiki": "Vecna (Stranger Things)"
     }
   ],
   "seoNoun": "Stranger Things characters"

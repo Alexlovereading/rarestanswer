@@ -11,6 +11,11 @@ export type RoundTier = 0 | Answer['tier'];
 export const TIMER_MS = 25_000;
 export const PENALTY_MS = 1_000;
 
+/** An answer with no Wikipedia article scores as Uncommon, whatever tier was stored. */
+export function effectiveTier(answer: { tier: Answer['tier']; noData?: boolean }): Answer['tier'] {
+  return answer.noData === true ? 3 : answer.tier;
+}
+
 export function pointsForTier(tier: Answer['tier']): number {
   for (const row of TIERS) {
     if (row.tier === tier) return row.points;

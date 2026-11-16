@@ -239,7 +239,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       'Geography trivia for the Rarest Answer game. Name a country, capital, river, or coast. The rarest correct answer scores the most. Free rounds, no account.',
     lead: 'Name a place. The rarest correct answer scores the most.',
     intro:
-      "Geography trivia here is a naming game, not a map quiz with a single official key. A prompt asks you to name a place: a country, a capital, a river, a range, a coast. Only a place on that prompt's list counts. The capital everyone can point to is usually the low tier. The river you only met in a textbook is where the points are. This page deals geography prompts only, as many rounds as you want, with the same six tiers and the same Spotlight as the daily game.",
+      "Geography trivia here is a naming game, not a map quiz with a single official key. A prompt asks you to name a place: a country, a capital, a river, a range, a coast. Only a place on that prompt's list counts. The capital with the most-viewed article is usually the low tier. A river with a less-viewed article is where the points are. This page deals geography prompts only, as many rounds as you want, with the same six tiers and the same Spotlight as the daily game.",
     listNote:
       'A place prompt is a naming round. The ranking is inside that prompt, not a map score.',
     emptyNote:
@@ -253,7 +253,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       {
         question: 'Which places count as the rare ones?',
         answer:
-          "Only the places on that prompt's list, ranked against each other. A famous capital is usually the low tier. A place fewer people would name can score higher when the list accepts it. The prompts in the catalog are listed on this page.",
+          "Only the places on that prompt's list, ranked by how rarely their Wikipedia articles are viewed. A famous capital is usually the low tier. A place with a less-viewed article can score higher when the list accepts it. The prompts in the catalog are listed on this page.",
       },
     ],
   },
@@ -267,7 +267,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       'Animal trivia for the Rarest Answer game. Name a species, including a great ape. The rarest correct answer scores the most. Free rounds, no account.',
     lead: 'Name a species. The rarest correct answer scores the most.',
     intro:
-      'Animal trivia on Rarest Answer rewards the specific name. A prompt asks you to name an animal the list accepts. The finding guide uses a great-ape species list as its sample: the species everyone says first is the low tier, and a species fewer people would name scores higher. That rank is among accepted names, not a count of how many animals are left. This page deals animal prompts only. The catalog under the game is whatever is published now, one prompt or a few hundred.',
+      'Animal trivia on Rarest Answer rewards the specific name. A prompt asks you to name an animal the list accepts. The finding guide uses a great-ape species list as its sample: the species with the most-viewed article is the low tier, and a species with a less-viewed article scores higher. That rank is pageviews among accepted names, not a count of how many animals are left. This page deals animal prompts only. The catalog under the game is whatever is published now, one prompt or a few hundred.',
     listNote:
       'An animal prompt ranks accepted names. It does not rank how many animals are left in the wild.',
     emptyNote:
@@ -308,7 +308,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       {
         question: 'Does a better-tasting dish score more?',
         answer:
-          "No. The score is rarity inside the prompt's list, not a review. The item everyone names is the low tier.",
+          "No. The score is rarity inside the prompt's list, not a review. A heavily viewed article is the low tier.",
       },
     ],
   },
@@ -322,7 +322,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       'Sports trivia for the Rarest Answer game. Name a team, athlete, venue, or event. The rarest correct answer scores the most. Free rounds, no account.',
     lead: 'Name a team, an athlete, or an event. The rarest correct answer scores the most.',
     intro:
-      'Sports trivia on this page does not ask who won. It asks you to name a team, an athlete, a venue, or an event that fits the prompt. The dynasty everyone can list is the common answer. A club from a league you actually follow can score much higher. Rounds stay inside sports prompts, and you can deal a new one as soon as the last one ends.',
+      'Sports trivia on this page does not ask who won. It asks you to name a team, an athlete, a venue, or an event that fits the prompt. The dynasty with the most-viewed article is the common answer. A club with a less-viewed article can score much higher. Rounds stay inside sports prompts, and you can deal a new one as soon as the last one ends.',
     listNote: 'A sports prompt ranks accepted names. It does not rank who won.',
     emptyNote:
       'No sports trivia prompts are in the catalog yet. Team and athlete prompts will be linked here when they are published.',
@@ -335,7 +335,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       {
         question: 'Does the winner of the match score more?',
         answer:
-          'No. Winning is not the rank. A dynasty everyone can name is the common answer. A legal name from a league you follow can score higher.',
+          'No. Winning is not the rank. A dynasty with a heavily viewed article is the common answer. A legal name with a less-viewed article can score higher.',
       },
     ],
   },
@@ -349,7 +349,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       'Movie trivia and TV trivia for the Rarest Answer game. Name a film, a show, or a character. The rarest correct answer scores the most. Free rounds.',
     lead: 'Name a film, a show, or a character. The rarest correct answer scores the most.',
     intro:
-      'Movie trivia and TV trivia share this page because both are answers from the screen. A prompt asks you to name a film, a series, or a character. The franchise everyone has seen lands in a low tier. A limited series, a supporting character, or a film you had to look up is where the score climbs. Rounds on this page use screen prompts only, with the same Spotlight and the same six tiers as the daily game.',
+      'Movie trivia and TV trivia share this page because both are answers from the screen. A prompt asks you to name a film, a series, or a character. The franchise with the most-viewed article lands in a low tier. A limited series, a supporting character, or a film with a less-viewed article is where the score climbs. Rounds on this page use screen prompts only, with the same Spotlight and the same six tiers as the daily game.',
     listNote:
       'A movie or TV prompt ranks accepted titles and characters. It does not rank reviews or box office.',
     emptyNote:
@@ -363,7 +363,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       {
         question: 'Does a higher-rated film score more?',
         answer:
-          'No. Ratings and box office are not the rank. The franchise everyone has seen is the low tier. A less famous legal title or character can score higher.',
+          'No. Ratings and box office are not the rank. A franchise with a heavily viewed article is the low tier. A legal title or character with a less-viewed article can score higher.',
       },
     ],
   },
@@ -390,7 +390,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       {
         question: 'Is the name everyone can hum the rare one?',
         answer:
-          'No. The name everyone reaches for first is the low tier. A less familiar legal name can score higher. Being able to hum it is not what the score measures.',
+          'No. A name with a heavily viewed article is the low tier. A less-viewed legal name can score higher. Being able to hum it is not what the score measures.',
       },
     ],
   },
@@ -415,7 +415,7 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
       {
         question: 'Is a truer fact a rarer answer?',
         answer:
-          'No. Accepted answers are all treated as correct. The rank is which name is less familiar inside that list, not which statement is more scientific.',
+          'No. Accepted answers are all treated as correct. The rank is which Wikipedia article is viewed less inside that list, not which statement is more scientific.',
       },
     ],
   },

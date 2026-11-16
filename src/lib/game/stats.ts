@@ -183,6 +183,12 @@ export function writeStats(store: KeyValueStore, stats: StatsV1): void {
   writeJson(store, STATS_STORAGE_KEY, stats);
 }
 
+/** Practice rounds must not replace the saved stats record. */
+export function writeStatsIfScored(store: KeyValueStore, stats: StatsV1, practice: boolean): void {
+  if (practice) return;
+  writeStats(store, stats);
+}
+
 export function readSettings(store: KeyValueStore): SettingsV1 {
   return readJson(store, SETTINGS_STORAGE_KEY, parseSettings, defaultSettings);
 }
@@ -210,6 +216,16 @@ export function readDaily(store: KeyValueStore, todayKey: string): DailySave | n
 
 export function writeDaily(store: KeyValueStore, save: DailySave): void {
   writeJson(store, DAILY_STORAGE_KEY, save);
+}
+
+/** Practice rounds must not replace the in-progress or finished daily save. */
+export function writeDailyIfScored(
+  store: KeyValueStore,
+  save: DailySave | null,
+  practice: boolean,
+): void {
+  if (practice || !save) return;
+  writeDaily(store, save);
 }
 
 export function parseStats(value: unknown): StatsV1 | null {

@@ -6,81 +6,13 @@
   "source": "Wikidata + Wikipedia pageviews (2026-10)",
   "answers": [
     {
-      "name": "Antipodes kakariki",
-      "aliases": [
-        "Antipodes Island parakeet",
-        "Antipodes parakeet",
-        "Cyanoramphus unicolor"
-      ],
-      "popularity": 0,
-      "rarity": 0.994,
-      "tier": 6,
-      "wiki": "Antipodes kakariki"
-    },
-    {
-      "name": "Chatham Islands kakariki",
-      "aliases": [
-        "Chatham Islands parakeet",
-        "Chatham Parakeet",
-        "Cyanoramphus forbesi"
-      ],
-      "popularity": 0,
-      "rarity": 0.994,
-      "tier": 6,
-      "wiki": "Chatham Islands kakariki"
-    },
-    {
-      "name": "New Caledonian kakariki",
-      "aliases": [
-        "Cyanoramphus saisseti",
-        "New Caledonian Parakeet"
-      ],
-      "popularity": 0,
-      "rarity": 0.994,
-      "tier": 6,
-      "wiki": "New Caledonian kakariki"
-    },
-    {
-      "name": "Red-crowned kakariki",
-      "aliases": [
-        "Cyanoramphus novaezelandiae",
-        "Red-fronted parakeet"
-      ],
-      "popularity": 0,
-      "rarity": 0.994,
-      "tier": 6,
-      "wiki": "Red-crowned kakariki"
-    },
-    {
-      "name": "Reischek's kakariki",
-      "aliases": [
-        "Cyanoramphus hochstetteri",
-        "Reischek's Parakeet"
-      ],
-      "popularity": 0,
-      "rarity": 0.994,
-      "tier": 6,
-      "wiki": "Reischek's kakariki"
-    },
-    {
-      "name": "Yellow-crowned kakariki",
-      "aliases": [
-        "Cyanoramphus auriceps",
-        "Yellow-crowned Parakeet"
-      ],
-      "popularity": 0,
-      "rarity": 0.994,
-      "tier": 6,
-      "wiki": "Yellow-crowned kakariki"
-    },
-    {
       "name": "Orange-fronted kakariki",
       "aliases": [
         "Cyanoramphus malherbi",
         "Malherbe's Parakeet"
       ],
       "popularity": 34,
-      "rarity": 0.985,
+      "rarity": 1,
       "tier": 6,
       "wiki": "Orange-fronted kakariki"
     },
@@ -92,7 +24,7 @@
         "Réunion parrot"
       ],
       "popularity": 45,
-      "rarity": 0.983,
+      "rarity": 0.998,
       "tier": 6,
       "wiki": "Réunion red and green parakeet"
     },
@@ -102,7 +34,7 @@
         "Psittacara rubritorquis"
       ],
       "popularity": 131,
-      "rarity": 0.981,
+      "rarity": 0.995,
       "tier": 6,
       "wiki": "Red-throated parakeet"
     },
@@ -112,7 +44,7 @@
         "Anodorhynchus purpurascens"
       ],
       "popularity": 251,
-      "rarity": 0.978,
+      "rarity": 0.993,
       "tier": 6,
       "wiki": "Violet macaw"
     },
@@ -122,7 +54,7 @@
         "Loriculus amabilis"
       ],
       "popularity": 312,
-      "rarity": 0.976,
+      "rarity": 0.99,
       "tier": 6,
       "wiki": "Moluccan hanging parrot"
     },
@@ -132,7 +64,7 @@
         "Loriculus aurantiifrons"
       ],
       "popularity": 380,
-      "rarity": 0.973,
+      "rarity": 0.988,
       "tier": 6,
       "wiki": "Orange-fronted hanging parrot"
     },
@@ -142,7 +74,7 @@
         "Pyrrhura eisenmanni"
       ],
       "popularity": 387,
-      "rarity": 0.971,
+      "rarity": 0.985,
       "tier": 6,
       "wiki": "Azuero parakeet"
     },
@@ -153,7 +85,7 @@
         "Coracopsis sibilans"
       ],
       "popularity": 405,
-      "rarity": 0.968,
+      "rarity": 0.983,
       "tier": 6,
       "wiki": "Comoro black parrot"
     },
@@ -163,7 +95,7 @@
         "Loriculus catamene"
       ],
       "popularity": 408,
-      "rarity": 0.966,
+      "rarity": 0.98,
       "tier": 6,
       "wiki": "Sangihe hanging parrot"
     },
@@ -173,7 +105,7 @@
         "Loriculus sclateri"
       ],
       "popularity": 442,
-      "rarity": 0.964,
+      "rarity": 0.978,
       "tier": 6,
       "wiki": "Sula hanging parrot"
     },
@@ -184,7 +116,7 @@
         "Loriculus tener"
       ],
       "popularity": 502,
-      "rarity": 0.961,
+      "rarity": 0.975,
       "tier": 6,
       "wiki": "Bismarck hanging parrot"
     },
@@ -194,7 +126,7 @@
         "Loriculus flosculus"
       ],
       "popularity": 511,
-      "rarity": 0.959,
+      "rarity": 0.973,
       "tier": 6,
       "wiki": "Wallace's hanging parrot"
     },
@@ -205,7 +137,7 @@
         "Pyrrhura snethlageae"
       ],
       "popularity": 522,
-      "rarity": 0.956,
+      "rarity": 0.97,
       "tier": 6,
       "wiki": "Madeira parakeet"
     },
@@ -216,7 +148,7 @@
         "Psittacula intermedia"
       ],
       "popularity": 563,
-      "rarity": 0.954,
+      "rarity": 0.968,
       "tier": 6,
       "wiki": "Intermediate parakeet"
     },
@@ -226,7 +158,7 @@
         "Loriculus pusillus"
       ],
       "popularity": 680,
-      "rarity": 0.951,
+      "rarity": 0.965,
       "tier": 6,
       "wiki": "Yellow-throated hanging parrot"
     },
@@ -236,7 +168,7 @@
         "Loriculus bonapartei"
       ],
       "popularity": 690,
-      "rarity": 0.949,
+      "rarity": 0.963,
       "tier": 6,
       "wiki": "Black-billed hanging parrot"
     },
@@ -246,7 +178,7 @@
         "Loriculus exilis"
       ],
       "popularity": 694,
-      "rarity": 0.946,
+      "rarity": 0.96,
       "tier": 6,
       "wiki": "Pygmy hanging parrot"
     },
@@ -256,7 +188,7 @@
         "Loriculus stigmatus"
       ],
       "popularity": 698,
-      "rarity": 0.944,
+      "rarity": 0.958,
       "tier": 6,
       "wiki": "Great hanging parrot"
     },
@@ -266,7 +198,7 @@
         "Pezoporus flaviventris"
       ],
       "popularity": 705,
-      "rarity": 0.942,
+      "rarity": 0.956,
       "tier": 6,
       "wiki": "Western ground parrot"
     },
@@ -276,7 +208,7 @@
         "Hapalopsittaca melanotis"
       ],
       "popularity": 731,
-      "rarity": 0.939,
+      "rarity": 0.953,
       "tier": 6,
       "wiki": "Black-winged parrot"
     },
@@ -287,7 +219,7 @@
         "Trichoglossus flavoviridis"
       ],
       "popularity": 754,
-      "rarity": 0.937,
+      "rarity": 0.951,
       "tier": 6,
       "wiki": "Sula lorikeet"
     },
@@ -297,7 +229,7 @@
         "Lorius albidinucha"
       ],
       "popularity": 759,
-      "rarity": 0.934,
+      "rarity": 0.948,
       "tier": 6,
       "wiki": "White-naped lory"
     },
@@ -307,7 +239,7 @@
         "Neopsittacus musschenbroekii"
       ],
       "popularity": 765,
-      "rarity": 0.932,
+      "rarity": 0.946,
       "tier": 6,
       "wiki": "Yellow-billed lorikeet"
     },
@@ -318,8 +250,8 @@
         "Yellowish-breasted racquet-tail"
       ],
       "popularity": 780,
-      "rarity": 0.929,
-      "tier": 5,
+      "rarity": 0.943,
+      "tier": 6,
       "wiki": "Yellow-breasted racket-tail"
     },
     {
@@ -328,8 +260,8 @@
         "Psittinus abbotti"
       ],
       "popularity": 788,
-      "rarity": 0.927,
-      "tier": 5,
+      "rarity": 0.941,
+      "tier": 6,
       "wiki": "Simeulue parrot"
     },
     {
@@ -338,8 +270,8 @@
         "Oreopsittacus arfaki"
       ],
       "popularity": 794,
-      "rarity": 0.925,
-      "tier": 5,
+      "rarity": 0.938,
+      "tier": 6,
       "wiki": "Plum-faced lorikeet"
     },
     {
@@ -348,8 +280,8 @@
         "Geoffroyus hyacinthinus"
       ],
       "popularity": 799,
-      "rarity": 0.922,
-      "tier": 5,
+      "rarity": 0.936,
+      "tier": 6,
       "wiki": "Rennell parrot"
     },
     {
@@ -358,8 +290,8 @@
         "Micropsitta meeki"
       ],
       "popularity": 802,
-      "rarity": 0.92,
-      "tier": 5,
+      "rarity": 0.933,
+      "tier": 6,
       "wiki": "Meek's pygmy parrot"
     },
     {
@@ -369,8 +301,8 @@
         "Trichoglossus meyeri"
       ],
       "popularity": 803,
-      "rarity": 0.917,
-      "tier": 5,
+      "rarity": 0.931,
+      "tier": 6,
       "wiki": "Yellow-cheeked lorikeet"
     },
     {
@@ -379,7 +311,7 @@
         "Touit stictopterus"
       ],
       "popularity": 812,
-      "rarity": 0.915,
+      "rarity": 0.928,
       "tier": 5,
       "wiki": "Spot-winged parrotlet"
     },
@@ -389,7 +321,7 @@
         "Psittacara frontatus"
       ],
       "popularity": 813,
-      "rarity": 0.912,
+      "rarity": 0.926,
       "tier": 5,
       "wiki": "Cordilleran parakeet"
     },
@@ -399,7 +331,7 @@
         "Cyclopsitta melanogenia"
       ],
       "popularity": 814,
-      "rarity": 0.91,
+      "rarity": 0.923,
       "tier": 5,
       "wiki": "Dusky-cheeked fig parrot"
     },
@@ -409,7 +341,7 @@
         "Charmosyna multistriata"
       ],
       "popularity": 817,
-      "rarity": 0.908,
+      "rarity": 0.921,
       "tier": 5,
       "wiki": "Striated lorikeet"
     },
@@ -419,7 +351,7 @@
         "Cyclopsitta nigrifrons"
       ],
       "popularity": 824,
-      "rarity": 0.905,
+      "rarity": 0.919,
       "tier": 5,
       "wiki": "Black-fronted fig parrot"
     },
@@ -429,7 +361,7 @@
         "Charmosyna rubrigularis"
       ],
       "popularity": 837,
-      "rarity": 0.903,
+      "rarity": 0.916,
       "tier": 5,
       "wiki": "Red-chinned lorikeet"
     },
@@ -439,7 +371,7 @@
         "Prioniturus montanus"
       ],
       "popularity": 838,
-      "rarity": 0.9,
+      "rarity": 0.914,
       "tier": 5,
       "wiki": "Montane racket-tail"
     },
@@ -450,7 +382,7 @@
         "Olive-shouldered parrot"
       ],
       "popularity": 839,
-      "rarity": 0.898,
+      "rarity": 0.911,
       "tier": 5,
       "wiki": "Jonquil parrot"
     },
@@ -460,7 +392,7 @@
         "Prioniturus mindorensis"
       ],
       "popularity": 843,
-      "rarity": 0.895,
+      "rarity": 0.909,
       "tier": 5,
       "wiki": "Mindoro racket-tail"
     },
@@ -470,7 +402,7 @@
         "Prioniturus platurus"
       ],
       "popularity": 847,
-      "rarity": 0.893,
+      "rarity": 0.906,
       "tier": 5,
       "wiki": "Golden-mantled racket-tail"
     },
@@ -480,7 +412,7 @@
         "Bolborhynchus ferrugineifrons"
       ],
       "popularity": 849,
-      "rarity": 0.891,
+      "rarity": 0.904,
       "tier": 5,
       "wiki": "Rufous-fronted parakeet"
     },
@@ -491,7 +423,7 @@
         "Touit surdus"
       ],
       "popularity": 852,
-      "rarity": 0.888,
+      "rarity": 0.901,
       "tier": 5,
       "wiki": "Golden-tailed parrotlet"
     },
@@ -502,7 +434,7 @@
         "Speckle-faced Parrot"
       ],
       "popularity": 864,
-      "rarity": 0.886,
+      "rarity": 0.899,
       "tier": 5,
       "wiki": "Plum-crowned parrot"
     },
@@ -512,7 +444,7 @@
         "Charmosyna wilhelminae"
       ],
       "popularity": 885,
-      "rarity": 0.883,
+      "rarity": 0.896,
       "tier": 5,
       "wiki": "Pygmy lorikeet"
     },
@@ -522,7 +454,7 @@
         "Pionus seniloides"
       ],
       "popularity": 889,
-      "rarity": 0.881,
+      "rarity": 0.894,
       "tier": 5,
       "wiki": "White-capped parrot"
     },
@@ -533,7 +465,7 @@
         "Micropsitta kelensis"
       ],
       "popularity": 895,
-      "rarity": 0.878,
+      "rarity": 0.891,
       "tier": 5,
       "wiki": "Yellow-capped pygmy parrot"
     },
@@ -543,7 +475,7 @@
         "Eos semilarvata"
       ],
       "popularity": 909,
-      "rarity": 0.876,
+      "rarity": 0.889,
       "tier": 5,
       "wiki": "Blue-eared lory"
     },
@@ -553,7 +485,7 @@
         "Charmosyna josefinae"
       ],
       "popularity": 915,
-      "rarity": 0.872,
+      "rarity": 0.885,
       "tier": 5,
       "wiki": "Josephine's lorikeet"
     },
@@ -563,7 +495,7 @@
         "Prioniturus waterstradti"
       ],
       "popularity": 915,
-      "rarity": 0.872,
+      "rarity": 0.885,
       "tier": 5,
       "wiki": "Mindanao racket-tail"
     },
@@ -574,7 +506,7 @@
         "Papuan Lorikeet"
       ],
       "popularity": 916,
-      "rarity": 0.869,
+      "rarity": 0.881,
       "tier": 5,
       "wiki": "West Papuan lorikeet"
     },
@@ -584,7 +516,7 @@
         "Tanygnathus sumatranus"
       ],
       "popularity": 928,
-      "rarity": 0.866,
+      "rarity": 0.879,
       "tier": 5,
       "wiki": "Azure-rumped parrot"
     },
@@ -594,7 +526,7 @@
         "Micropsitta finschii"
       ],
       "popularity": 933,
-      "rarity": 0.864,
+      "rarity": 0.877,
       "tier": 5,
       "wiki": "Finsch's pygmy parrot"
     },
@@ -604,7 +536,7 @@
         "Hapalopsittaca amazonina"
       ],
       "popularity": 953,
-      "rarity": 0.861,
+      "rarity": 0.874,
       "tier": 5,
       "wiki": "Rusty-faced parrot"
     },
@@ -614,7 +546,7 @@
         "Charmosyna meeki"
       ],
       "popularity": 963,
-      "rarity": 0.859,
+      "rarity": 0.872,
       "tier": 5,
       "wiki": "Meek's lorikeet"
     },
@@ -625,7 +557,7 @@
         "Micropsitta brujnii"
       ],
       "popularity": 968,
-      "rarity": 0.856,
+      "rarity": 0.869,
       "tier": 5,
       "wiki": "Red-breasted pygmy parrot"
     },
@@ -635,7 +567,7 @@
         "Charmosyna rubronotata"
       ],
       "popularity": 978,
-      "rarity": 0.854,
+      "rarity": 0.867,
       "tier": 5,
       "wiki": "Red-fronted lorikeet"
     },
@@ -645,7 +577,7 @@
         "Prioniturus mada"
       ],
       "popularity": 996,
-      "rarity": 0.852,
+      "rarity": 0.864,
       "tier": 5,
       "wiki": "Buru racket-tail"
     },
@@ -655,7 +587,7 @@
         "Touit costaricensis"
       ],
       "popularity": 1004,
-      "rarity": 0.849,
+      "rarity": 0.862,
       "tier": 5,
       "wiki": "Red-fronted parrotlet"
     },
@@ -667,7 +599,7 @@
         "Touit melanota"
       ],
       "popularity": 1012,
-      "rarity": 0.847,
+      "rarity": 0.859,
       "tier": 5,
       "wiki": "Brown-backed parrotlet"
     },
@@ -679,7 +611,7 @@
         "Psittacella maderaszi"
       ],
       "popularity": 1013,
-      "rarity": 0.842,
+      "rarity": 0.854,
       "tier": 5,
       "wiki": "Madarasz's tiger parrot"
     },
@@ -690,7 +622,7 @@
         "Salvadoriís fig-parrot"
       ],
       "popularity": 1013,
-      "rarity": 0.842,
+      "rarity": 0.854,
       "tier": 5,
       "wiki": "Salvadori's fig parrot"
     },
@@ -701,7 +633,7 @@
         "Amazona mercenarius"
       ],
       "popularity": 1013,
-      "rarity": 0.842,
+      "rarity": 0.854,
       "tier": 5,
       "wiki": "Scaly-naped amazon"
     },
@@ -711,7 +643,7 @@
         "Hapalopsittaca pyrrhops"
       ],
       "popularity": 1014,
-      "rarity": 0.837,
+      "rarity": 0.849,
       "tier": 5,
       "wiki": "Red-faced parrot"
     },
@@ -721,7 +653,7 @@
         "Amazona gomezgarzai"
       ],
       "popularity": 1016,
-      "rarity": 0.835,
+      "rarity": 0.847,
       "tier": 5,
       "wiki": "Blue-winged amazon"
     },
@@ -731,7 +663,7 @@
         "Amazona kawalli"
       ],
       "popularity": 1029,
-      "rarity": 0.832,
+      "rarity": 0.844,
       "tier": 5,
       "wiki": "Kawall's amazon"
     },
@@ -741,7 +673,7 @@
         "Pyrrhura caeruleiceps"
       ],
       "popularity": 1040,
-      "rarity": 0.828,
+      "rarity": 0.841,
       "tier": 5,
       "wiki": "Perija parakeet"
     },
@@ -752,7 +684,7 @@
         "White-necked parakeet"
       ],
       "popularity": 1040,
-      "rarity": 0.828,
+      "rarity": 0.841,
       "tier": 5,
       "wiki": "White-breasted parakeet"
     },
@@ -762,7 +694,7 @@
         "Micropsitta geelvinkiana"
       ],
       "popularity": 1042,
-      "rarity": 0.824,
+      "rarity": 0.836,
       "tier": 5,
       "wiki": "Geelvink pygmy parrot"
     },
@@ -772,7 +704,7 @@
         "Charmosyna palmarum"
       ],
       "popularity": 1042,
-      "rarity": 0.824,
+      "rarity": 0.836,
       "tier": 5,
       "wiki": "Palm lorikeet"
     },
@@ -782,7 +714,7 @@
         "Psittacella modesta"
       ],
       "popularity": 1058,
-      "rarity": 0.82,
+      "rarity": 0.832,
       "tier": 5,
       "wiki": "Modest tiger parrot"
     },
@@ -792,7 +724,7 @@
         "Psittacella picta"
       ],
       "popularity": 1064,
-      "rarity": 0.818,
+      "rarity": 0.83,
       "tier": 5,
       "wiki": "Painted tiger parrot"
     },
@@ -802,7 +734,7 @@
         "Charmosyna stellae"
       ],
       "popularity": 1083,
-      "rarity": 0.815,
+      "rarity": 0.827,
       "tier": 5,
       "wiki": "Stella's lorikeet"
     },
@@ -812,7 +744,7 @@
         "Trichoglossus weberi"
       ],
       "popularity": 1093,
-      "rarity": 0.813,
+      "rarity": 0.825,
       "tier": 5,
       "wiki": "Leaf lorikeet"
     },
@@ -822,7 +754,7 @@
         "Amazona guatemalae"
       ],
       "popularity": 1100,
-      "rarity": 0.81,
+      "rarity": 0.822,
       "tier": 5,
       "wiki": "Northern mealy amazon"
     },
@@ -832,7 +764,7 @@
         "Geoffroyus simplex"
       ],
       "popularity": 1106,
-      "rarity": 0.808,
+      "rarity": 0.82,
       "tier": 5,
       "wiki": "Blue-collared parrot"
     },
@@ -842,7 +774,7 @@
         "Amazona diadema"
       ],
       "popularity": 1114,
-      "rarity": 0.805,
+      "rarity": 0.817,
       "tier": 5,
       "wiki": "Diademed amazon"
     },
@@ -853,7 +785,7 @@
         "Pyrilia pulchra"
       ],
       "popularity": 1130,
-      "rarity": 0.803,
+      "rarity": 0.815,
       "tier": 5,
       "wiki": "Rose-faced parrot"
     },
@@ -864,7 +796,7 @@
         "Pyrrhura amazonum"
       ],
       "popularity": 1149,
-      "rarity": 0.8,
+      "rarity": 0.812,
       "tier": 5,
       "wiki": "Santarem parakeet"
     },
@@ -876,8 +808,8 @@
         "Touit dilectissimus"
       ],
       "popularity": 1156,
-      "rarity": 0.798,
-      "tier": 4,
+      "rarity": 0.81,
+      "tier": 5,
       "wiki": "Blue-fronted parrotlet"
     },
     {
@@ -886,8 +818,8 @@
         "Nannopsittaca panychlora"
       ],
       "popularity": 1164,
-      "rarity": 0.796,
-      "tier": 4,
+      "rarity": 0.807,
+      "tier": 5,
       "wiki": "Tepui parrotlet"
     },
     {
@@ -897,8 +829,8 @@
         "Sierra parakeet"
       ],
       "popularity": 1171,
-      "rarity": 0.793,
-      "tier": 4,
+      "rarity": 0.805,
+      "tier": 5,
       "wiki": "Grey-hooded parakeet"
     },
     {
@@ -907,8 +839,8 @@
         "Lorius hypoinochrous"
       ],
       "popularity": 1186,
-      "rarity": 0.791,
-      "tier": 4,
+      "rarity": 0.802,
+      "tier": 5,
       "wiki": "Purple-bellied lory"
     },
     {
@@ -917,8 +849,8 @@
         "Pyrrhura calliptera"
       ],
       "popularity": 1200,
-      "rarity": 0.788,
-      "tier": 4,
+      "rarity": 0.8,
+      "tier": 5,
       "wiki": "Flame-winged parakeet"
     },
     {
@@ -927,7 +859,7 @@
         "Pyrrhura hoematotis"
       ],
       "popularity": 1223,
-      "rarity": 0.786,
+      "rarity": 0.798,
       "tier": 4,
       "wiki": "Blood-eared parakeet"
     },
@@ -937,7 +869,7 @@
         "Charmosyna margarethae"
       ],
       "popularity": 1241,
-      "rarity": 0.783,
+      "rarity": 0.795,
       "tier": 4,
       "wiki": "Duchess lorikeet"
     },
@@ -947,7 +879,7 @@
         "Pyrrhura egregia"
       ],
       "popularity": 1262,
-      "rarity": 0.781,
+      "rarity": 0.793,
       "tier": 4,
       "wiki": "Fiery-shouldered parakeet"
     },
@@ -958,7 +890,7 @@
         "Pyrilia pyrilia"
       ],
       "popularity": 1264,
-      "rarity": 0.779,
+      "rarity": 0.79,
       "tier": 4,
       "wiki": "Saffron-headed parrot"
     },
@@ -969,7 +901,7 @@
         "Psitteuteles goldiei"
       ],
       "popularity": 1265,
-      "rarity": 0.775,
+      "rarity": 0.786,
       "tier": 4,
       "wiki": "Goldie's lorikeet"
     },
@@ -979,7 +911,7 @@
         "Touit huetii"
       ],
       "popularity": 1265,
-      "rarity": 0.775,
+      "rarity": 0.786,
       "tier": 4,
       "wiki": "Scarlet-shouldered parrotlet"
     },
@@ -989,7 +921,7 @@
         "Loriculus camiguinensis"
       ],
       "popularity": 1266,
-      "rarity": 0.771,
+      "rarity": 0.783,
       "tier": 4,
       "wiki": "Camiguin hanging parrot"
     },
@@ -999,7 +931,7 @@
         "Neopsittacus pullicauda"
       ],
       "popularity": 1272,
-      "rarity": 0.769,
+      "rarity": 0.78,
       "tier": 4,
       "wiki": "Orange-billed lorikeet"
     },
@@ -1009,7 +941,7 @@
         "Psittacella brehmii"
       ],
       "popularity": 1280,
-      "rarity": 0.766,
+      "rarity": 0.778,
       "tier": 4,
       "wiki": "Brehm's tiger parrot"
     },
@@ -1020,7 +952,7 @@
         "Psittaculirostris desmarestii"
       ],
       "popularity": 1289,
-      "rarity": 0.764,
+      "rarity": 0.775,
       "tier": 4,
       "wiki": "Large fig parrot"
     },
@@ -1030,7 +962,7 @@
         "Charmosyna placentis"
       ],
       "popularity": 1292,
-      "rarity": 0.762,
+      "rarity": 0.773,
       "tier": 4,
       "wiki": "Red-flanked lorikeet"
     },
@@ -1042,7 +974,7 @@
         "Orange-breasted fig parrot"
       ],
       "popularity": 1300,
-      "rarity": 0.759,
+      "rarity": 0.77,
       "tier": 4,
       "wiki": "Blue-fronted fig parrot"
     },
@@ -1052,7 +984,7 @@
         "Northiella narethae"
       ],
       "popularity": 1313,
-      "rarity": 0.757,
+      "rarity": 0.768,
       "tier": 4,
       "wiki": "Naretha bluebonnet"
     },
@@ -1062,7 +994,7 @@
         "Geoffroyus heteroclitus"
       ],
       "popularity": 1314,
-      "rarity": 0.754,
+      "rarity": 0.765,
       "tier": 4,
       "wiki": "Song parrot"
     },
@@ -1073,7 +1005,7 @@
         "indigo-winged parrot"
       ],
       "popularity": 1316,
-      "rarity": 0.751,
+      "rarity": 0.762,
       "tier": 4,
       "wiki": "Fuertes's parrot"
     },
@@ -1083,7 +1015,7 @@
         "Nannopsittaca dachilleae"
       ],
       "popularity": 1316,
-      "rarity": 0.751,
+      "rarity": 0.762,
       "tier": 4,
       "wiki": "Manu parrotlet"
     },
@@ -1095,7 +1027,7 @@
         "Bolborhynchus orbygnesius pa4 500"
       ],
       "popularity": 1322,
-      "rarity": 0.747,
+      "rarity": 0.758,
       "tier": 4,
       "wiki": "Andean parakeet"
     },
@@ -1106,7 +1038,7 @@
         "Pyrilia caica"
       ],
       "popularity": 1337,
-      "rarity": 0.745,
+      "rarity": 0.756,
       "tier": 4,
       "wiki": "Caica parrot"
     },
@@ -1116,7 +1048,7 @@
         "Prioniturus verticalis"
       ],
       "popularity": 1354,
-      "rarity": 0.742,
+      "rarity": 0.753,
       "tier": 4,
       "wiki": "Blue-winged racket-tail"
     },
@@ -1127,7 +1059,7 @@
         "Uvea parakeet"
       ],
       "popularity": 1362,
-      "rarity": 0.738,
+      "rarity": 0.749,
       "tier": 4,
       "wiki": "Ouvea parakeet"
     },
@@ -1137,7 +1069,7 @@
         "Touit purpuratus"
       ],
       "popularity": 1362,
-      "rarity": 0.738,
+      "rarity": 0.749,
       "tier": 4,
       "wiki": "Sapphire-rumped parrotlet"
     },
@@ -1147,7 +1079,7 @@
         "Amazona tucumana"
       ],
       "popularity": 1365,
-      "rarity": 0.735,
+      "rarity": 0.746,
       "tier": 4,
       "wiki": "Tucumán amazon"
     },
@@ -1157,7 +1089,7 @@
         "Brotogeris sanctithomae"
       ],
       "popularity": 1370,
-      "rarity": 0.732,
+      "rarity": 0.743,
       "tier": 4,
       "wiki": "Tui parakeet"
     },
@@ -1167,7 +1099,7 @@
         "Psittaculirostris edwardsii"
       ],
       "popularity": 1378,
-      "rarity": 0.73,
+      "rarity": 0.741,
       "tier": 4,
       "wiki": "Edwards's fig parrot"
     },
@@ -1177,7 +1109,7 @@
         "Prosopeia personata"
       ],
       "popularity": 1380,
-      "rarity": 0.727,
+      "rarity": 0.738,
       "tier": 4,
       "wiki": "Masked shining parrot"
     },
@@ -1188,7 +1120,7 @@
         "Charmosynopsis pulchella"
       ],
       "popularity": 1393,
-      "rarity": 0.725,
+      "rarity": 0.736,
       "tier": 4,
       "wiki": "Fairy lorikeet"
     },
@@ -1198,7 +1130,7 @@
         "Alisterus chloropterus"
       ],
       "popularity": 1411,
-      "rarity": 0.723,
+      "rarity": 0.733,
       "tier": 4,
       "wiki": "Papuan king parrot"
     },
@@ -1208,7 +1140,7 @@
         "Eos cyanogenia"
       ],
       "popularity": 1448,
-      "rarity": 0.72,
+      "rarity": 0.731,
       "tier": 4,
       "wiki": "Black-winged lory"
     },
@@ -1218,7 +1150,7 @@
         "Prioniturus discurus"
       ],
       "popularity": 1449,
-      "rarity": 0.718,
+      "rarity": 0.728,
       "tier": 4,
       "wiki": "Blue-crowned racket-tail"
     },
@@ -1231,7 +1163,7 @@
         "Yellowish-streaked Lory"
       ],
       "popularity": 1468,
-      "rarity": 0.715,
+      "rarity": 0.726,
       "tier": 4,
       "wiki": "Yellow-streaked lory"
     },
@@ -1241,7 +1173,7 @@
         "Brotogeris cyanoptera"
       ],
       "popularity": 1482,
-      "rarity": 0.712,
+      "rarity": 0.722,
       "tier": 4,
       "wiki": "Cobalt-winged parakeet"
     },
@@ -1251,7 +1183,7 @@
         "Brotogeris chrysoptera"
       ],
       "popularity": 1482,
-      "rarity": 0.712,
+      "rarity": 0.722,
       "tier": 4,
       "wiki": "Golden-winged parakeet"
     },
@@ -1261,7 +1193,7 @@
         "Pionus sordidus"
       ],
       "popularity": 1490,
-      "rarity": 0.708,
+      "rarity": 0.719,
       "tier": 4,
       "wiki": "Red-billed parrot"
     },
@@ -1272,7 +1204,7 @@
         "Pyrrhura leucotis"
       ],
       "popularity": 1507,
-      "rarity": 0.706,
+      "rarity": 0.716,
       "tier": 4,
       "wiki": "White-eared parakeet"
     },
@@ -1284,7 +1216,7 @@
         "Dufresne's amazon"
       ],
       "popularity": 1518,
-      "rarity": 0.703,
+      "rarity": 0.714,
       "tier": 4,
       "wiki": "Blue-cheeked amazon"
     },
@@ -1294,7 +1226,7 @@
         "Pyrrhura lucianii"
       ],
       "popularity": 1533,
-      "rarity": 0.701,
+      "rarity": 0.711,
       "tier": 4,
       "wiki": "Bonaparte's parakeet"
     },
@@ -1304,7 +1236,7 @@
         "Trichoglossus euteles"
       ],
       "popularity": 1543,
-      "rarity": 0.698,
+      "rarity": 0.709,
       "tier": 4,
       "wiki": "Olive-headed lorikeet"
     },
@@ -1314,7 +1246,7 @@
         "Pyrrhura viridicata"
       ],
       "popularity": 1559,
-      "rarity": 0.696,
+      "rarity": 0.706,
       "tier": 4,
       "wiki": "Santa Marta parakeet"
     },
@@ -1324,7 +1256,7 @@
         "Prioniturus platenae"
       ],
       "popularity": 1568,
-      "rarity": 0.693,
+      "rarity": 0.704,
       "tier": 4,
       "wiki": "Blue-headed racket-tail"
     },
@@ -1334,7 +1266,7 @@
         "Chalcopsitta cardinalis"
       ],
       "popularity": 1581,
-      "rarity": 0.691,
+      "rarity": 0.701,
       "tier": 4,
       "wiki": "Cardinal lory"
     },
@@ -1344,7 +1276,7 @@
         "Brotogeris pyrrhoptera"
       ],
       "popularity": 1594,
-      "rarity": 0.689,
+      "rarity": 0.699,
       "tier": 4,
       "wiki": "Grey-cheeked parakeet"
     },
@@ -1354,7 +1286,7 @@
         "Amazona rhodocorytha"
       ],
       "popularity": 1599,
-      "rarity": 0.686,
+      "rarity": 0.696,
       "tier": 4,
       "wiki": "Red-browed amazon"
     },
@@ -1365,7 +1297,7 @@
         "Large-billed parrotlet"
       ],
       "popularity": 1602,
-      "rarity": 0.684,
+      "rarity": 0.694,
       "tier": 4,
       "wiki": "Riparian parrotlet"
     },
@@ -1375,7 +1307,7 @@
         "Psittacara euops"
       ],
       "popularity": 1603,
-      "rarity": 0.681,
+      "rarity": 0.691,
       "tier": 4,
       "wiki": "Cuban parakeet"
     },
@@ -1386,7 +1318,7 @@
         "Prioniturus luconensis"
       ],
       "popularity": 1640,
-      "rarity": 0.679,
+      "rarity": 0.689,
       "tier": 4,
       "wiki": "Green racket-tail"
     },
@@ -1396,7 +1328,7 @@
         "Chalcopsitta duivenbodei"
       ],
       "popularity": 1657,
-      "rarity": 0.676,
+      "rarity": 0.686,
       "tier": 4,
       "wiki": "Brown lory"
     },
@@ -1406,7 +1338,7 @@
         "Trichoglossus rosenbergii"
       ],
       "popularity": 1670,
-      "rarity": 0.674,
+      "rarity": 0.684,
       "tier": 4,
       "wiki": "Biak lorikeet"
     },
@@ -1416,7 +1348,7 @@
         "Pyrrhura melanura"
       ],
       "popularity": 1682,
-      "rarity": 0.672,
+      "rarity": 0.681,
       "tier": 4,
       "wiki": "Maroon-tailed parakeet"
     },
@@ -1426,7 +1358,7 @@
         "Pyrrhura orcesi"
       ],
       "popularity": 1694,
-      "rarity": 0.668,
+      "rarity": 0.678,
       "tier": 4,
       "wiki": "El Oro parakeet"
     },
@@ -1437,7 +1369,7 @@
         "Yucatan Parrot"
       ],
       "popularity": 1694,
-      "rarity": 0.668,
+      "rarity": 0.678,
       "tier": 4,
       "wiki": "Yucatan amazon"
     },
@@ -1447,7 +1379,7 @@
         "Pyrrhura rhodocephala"
       ],
       "popularity": 1697,
-      "rarity": 0.664,
+      "rarity": 0.674,
       "tier": 4,
       "wiki": "Rose-crowned parakeet"
     },
@@ -1457,7 +1389,7 @@
         "Psilopsiagon aurifrons"
       ],
       "popularity": 1704,
-      "rarity": 0.662,
+      "rarity": 0.672,
       "tier": 4,
       "wiki": "Mountain parakeet"
     },
@@ -1468,7 +1400,7 @@
         "Touit batavicus"
       ],
       "popularity": 1708,
-      "rarity": 0.658,
+      "rarity": 0.668,
       "tier": 4,
       "wiki": "Lilac-tailed parrotlet"
     },
@@ -1478,7 +1410,7 @@
         "Trichoglossus rubiginosus"
       ],
       "popularity": 1708,
-      "rarity": 0.658,
+      "rarity": 0.668,
       "tier": 4,
       "wiki": "Pohnpei lorikeet"
     },
@@ -1488,7 +1420,7 @@
         "Pyrrhura pfrimeri"
       ],
       "popularity": 1724,
-      "rarity": 0.655,
+      "rarity": 0.664,
       "tier": 4,
       "wiki": "Pfrimer's parakeet"
     },
@@ -1498,7 +1430,7 @@
         "Forpus modestus"
       ],
       "popularity": 1745,
-      "rarity": 0.651,
+      "rarity": 0.66,
       "tier": 4,
       "wiki": "Dusky-billed parrotlet"
     },
@@ -1509,7 +1441,7 @@
         "Trichoglossus versicolor"
       ],
       "popularity": 1745,
-      "rarity": 0.651,
+      "rarity": 0.66,
       "tier": 4,
       "wiki": "Varied lorikeet"
     },
@@ -1519,7 +1451,7 @@
         "Pyrrhura emma"
       ],
       "popularity": 1752,
-      "rarity": 0.647,
+      "rarity": 0.657,
       "tier": 4,
       "wiki": "Venezuelan parakeet"
     },
@@ -1530,7 +1462,7 @@
         "Forpus spengelli"
       ],
       "popularity": 1779,
-      "rarity": 0.645,
+      "rarity": 0.654,
       "tier": 4,
       "wiki": "Turquoise-winged parrotlet"
     },
@@ -1540,7 +1472,7 @@
         "Pyrrhura hoffmanni"
       ],
       "popularity": 1788,
-      "rarity": 0.642,
+      "rarity": 0.652,
       "tier": 4,
       "wiki": "Sulphur-winged parakeet"
     },
@@ -1550,7 +1482,7 @@
         "Amazona tresmariae"
       ],
       "popularity": 1792,
-      "rarity": 0.64,
+      "rarity": 0.649,
       "tier": 4,
       "wiki": "Tres Marías amazon"
     },
@@ -1560,7 +1492,7 @@
         "Forpus xanthops"
       ],
       "popularity": 1800,
-      "rarity": 0.637,
+      "rarity": 0.647,
       "tier": 4,
       "wiki": "Yellow-faced parrotlet"
     },
@@ -1570,7 +1502,7 @@
         "Rhynchopsitta terrisi"
       ],
       "popularity": 1829,
-      "rarity": 0.635,
+      "rarity": 0.644,
       "tier": 4,
       "wiki": "Maroon-fronted parrot"
     },
@@ -1582,7 +1514,7 @@
         "Psephotus haematogaster"
       ],
       "popularity": 1830,
-      "rarity": 0.633,
+      "rarity": 0.642,
       "tier": 4,
       "wiki": "Eastern bluebonnet"
     },
@@ -1592,7 +1524,7 @@
         "Tanygnathus gramineus"
       ],
       "popularity": 1838,
-      "rarity": 0.63,
+      "rarity": 0.64,
       "tier": 4,
       "wiki": "Black-lored parrot"
     },
@@ -1602,7 +1534,7 @@
         "Eupsittula cactorum"
       ],
       "popularity": 1845,
-      "rarity": 0.628,
+      "rarity": 0.637,
       "tier": 4,
       "wiki": "Caatinga parakeet"
     },
@@ -1613,7 +1545,7 @@
         "Trichoglossus iris"
       ],
       "popularity": 1853,
-      "rarity": 0.625,
+      "rarity": 0.635,
       "tier": 4,
       "wiki": "Iris lorikeet"
     },
@@ -1623,7 +1555,7 @@
         "Aratinga wagleri"
       ],
       "popularity": 1857,
-      "rarity": 0.623,
+      "rarity": 0.632,
       "tier": 4,
       "wiki": "Scarlet-fronted parakeet"
     },
@@ -1633,7 +1565,7 @@
         "Pionopsitta pileata"
       ],
       "popularity": 1906,
-      "rarity": 0.62,
+      "rarity": 0.63,
       "tier": 4,
       "wiki": "Pileated parrot"
     },
@@ -1644,7 +1576,7 @@
         "Red-spectacled Parrot"
       ],
       "popularity": 1913,
-      "rarity": 0.618,
+      "rarity": 0.627,
       "tier": 4,
       "wiki": "Red-spectacled amazon"
     },
@@ -1654,7 +1586,7 @@
         "Psittacara finschi"
       ],
       "popularity": 1914,
-      "rarity": 0.616,
+      "rarity": 0.625,
       "tier": 4,
       "wiki": "Finsch's parakeet"
     },
@@ -1664,7 +1596,7 @@
         "Pionus fuscus"
       ],
       "popularity": 1952,
-      "rarity": 0.613,
+      "rarity": 0.622,
       "tier": 4,
       "wiki": "Dusky parrot"
     },
@@ -1674,7 +1606,7 @@
         "Pyrrhura griseipectus"
       ],
       "popularity": 1983,
-      "rarity": 0.611,
+      "rarity": 0.62,
       "tier": 4,
       "wiki": "Grey-breasted parakeet"
     },
@@ -1685,7 +1617,7 @@
         "Pyrilia haematotis"
       ],
       "popularity": 1998,
-      "rarity": 0.608,
+      "rarity": 0.617,
       "tier": 4,
       "wiki": "Brown-hooded parrot"
     },
@@ -1696,7 +1628,7 @@
         "Vini stepheni"
       ],
       "popularity": 2016,
-      "rarity": 0.606,
+      "rarity": 0.615,
       "tier": 4,
       "wiki": "Stephen's lorikeet"
     },
@@ -1706,7 +1638,7 @@
         "Trichoglossus johnstoniae"
       ],
       "popularity": 2031,
-      "rarity": 0.603,
+      "rarity": 0.612,
       "tier": 4,
       "wiki": "Mindanao lorikeet"
     },
@@ -1716,7 +1648,7 @@
         "Graydidascalus brachyurus"
       ],
       "popularity": 2056,
-      "rarity": 0.601,
+      "rarity": 0.61,
       "tier": 4,
       "wiki": "Short-tailed parrot"
     },
@@ -1727,8 +1659,8 @@
         "Pyrilia barrabandi"
       ],
       "popularity": 2068,
-      "rarity": 0.599,
-      "tier": 3,
+      "rarity": 0.607,
+      "tier": 4,
       "wiki": "Orange-cheeked parrot"
     },
     {
@@ -1737,8 +1669,8 @@
         "Pyrrhura roseifrons"
       ],
       "popularity": 2071,
-      "rarity": 0.596,
-      "tier": 3,
+      "rarity": 0.605,
+      "tier": 4,
       "wiki": "Rose-fronted parakeet"
     },
     {
@@ -1748,8 +1680,8 @@
         "Trichoglossus capistratus"
       ],
       "popularity": 2090,
-      "rarity": 0.594,
-      "tier": 3,
+      "rarity": 0.602,
+      "tier": 4,
       "wiki": "Marigold lorikeet"
     },
     {
@@ -1758,8 +1690,8 @@
         "Amazona brasiliensis"
       ],
       "popularity": 2098,
-      "rarity": 0.591,
-      "tier": 3,
+      "rarity": 0.6,
+      "tier": 4,
       "wiki": "Red-tailed amazon"
     },
     {
@@ -1768,7 +1700,7 @@
         "Pionites xanthurus"
       ],
       "popularity": 2111,
-      "rarity": 0.589,
+      "rarity": 0.598,
       "tier": 3,
       "wiki": "Yellow-tailed parrot"
     },
@@ -1778,7 +1710,7 @@
         "Prosopeia splendens"
       ],
       "popularity": 2116,
-      "rarity": 0.586,
+      "rarity": 0.595,
       "tier": 3,
       "wiki": "Crimson shining parrot"
     },
@@ -1788,7 +1720,7 @@
         "Lorius chlorocercus"
       ],
       "popularity": 2124,
-      "rarity": 0.584,
+      "rarity": 0.593,
       "tier": 3,
       "wiki": "Yellow-bibbed lory"
     },
@@ -1799,7 +1731,7 @@
         "vinaceous amazon"
       ],
       "popularity": 2183,
-      "rarity": 0.582,
+      "rarity": 0.59,
       "tier": 3,
       "wiki": "Vinaceous-breasted amazon"
     },
@@ -1809,7 +1741,7 @@
         "Charmosyna amabilis"
       ],
       "popularity": 2208,
-      "rarity": 0.579,
+      "rarity": 0.588,
       "tier": 3,
       "wiki": "Red-throated lorikeet"
     },
@@ -1819,7 +1751,7 @@
         "Psittacula caniceps"
       ],
       "popularity": 2243,
-      "rarity": 0.577,
+      "rarity": 0.585,
       "tier": 3,
       "wiki": "Nicobar parakeet"
     },
@@ -1829,7 +1761,7 @@
         "Ara erythrocephala"
       ],
       "popularity": 2247,
-      "rarity": 0.574,
+      "rarity": 0.583,
       "tier": 3,
       "wiki": "Red-headed macaw"
     },
@@ -1839,7 +1771,7 @@
         "Aratinga brevipes"
       ],
       "popularity": 2249,
-      "rarity": 0.572,
+      "rarity": 0.58,
       "tier": 3,
       "wiki": "Socorro parakeet"
     },
@@ -1849,7 +1781,7 @@
         "Triclaria malachitacea"
       ],
       "popularity": 2253,
-      "rarity": 0.569,
+      "rarity": 0.578,
       "tier": 3,
       "wiki": "Blue-bellied parrot"
     },
@@ -1859,7 +1791,7 @@
         "Pyrrhura devillei"
       ],
       "popularity": 2263,
-      "rarity": 0.567,
+      "rarity": 0.575,
       "tier": 3,
       "wiki": "Blaze-winged parakeet"
     },
@@ -1869,7 +1801,7 @@
         "Amazona festiva"
       ],
       "popularity": 2283,
-      "rarity": 0.564,
+      "rarity": 0.573,
       "tier": 3,
       "wiki": "Festive amazon"
     },
@@ -1881,7 +1813,7 @@
         "Lord Howe red-fronted parakeet"
       ],
       "popularity": 2293,
-      "rarity": 0.562,
+      "rarity": 0.57,
       "tier": 3,
       "wiki": "Lord Howe parakeet"
     },
@@ -1892,7 +1824,7 @@
         "Trichoglossus reticulatus"
       ],
       "popularity": 2302,
-      "rarity": 0.56,
+      "rarity": 0.568,
       "tier": 3,
       "wiki": "Blue-streaked lory"
     },
@@ -1902,7 +1834,7 @@
         "Aratinga maculata"
       ],
       "popularity": 2303,
-      "rarity": 0.557,
+      "rarity": 0.565,
       "tier": 3,
       "wiki": "Sulphur-breasted parakeet"
     },
@@ -1912,7 +1844,7 @@
         "Poicephalus crassus"
       ],
       "popularity": 2358,
-      "rarity": 0.555,
+      "rarity": 0.563,
       "tier": 3,
       "wiki": "Niam-Niam parrot"
     },
@@ -1922,7 +1854,7 @@
         "Trichoglossus ornatus"
       ],
       "popularity": 2360,
-      "rarity": 0.552,
+      "rarity": 0.56,
       "tier": 3,
       "wiki": "Ornate lorikeet"
     },
@@ -1932,7 +1864,7 @@
         "Eclectus riedeli"
       ],
       "popularity": 2437,
-      "rarity": 0.55,
+      "rarity": 0.558,
       "tier": 3,
       "wiki": "Tanimbar eclectus"
     },
@@ -1942,7 +1874,7 @@
         "Tanygnathus everetti"
       ],
       "popularity": 2456,
-      "rarity": 0.547,
+      "rarity": 0.556,
       "tier": 3,
       "wiki": "Blue-backed parrot"
     },
@@ -1954,7 +1886,7 @@
         "Leptosittaca branickii"
       ],
       "popularity": 2535,
-      "rarity": 0.545,
+      "rarity": 0.553,
       "tier": 3,
       "wiki": "Golden-plumed parakeet"
     },
@@ -1964,7 +1896,7 @@
         "Trichoglossus forsteni"
       ],
       "popularity": 2538,
-      "rarity": 0.543,
+      "rarity": 0.551,
       "tier": 3,
       "wiki": "Sunset lorikeet"
     },
@@ -1974,7 +1906,7 @@
         "Poicephalus flavifrons"
       ],
       "popularity": 2547,
-      "rarity": 0.54,
+      "rarity": 0.548,
       "tier": 3,
       "wiki": "Yellow-fronted parrot"
     },
@@ -1984,7 +1916,7 @@
         "Geoffroyus geoffroyi"
       ],
       "popularity": 2559,
-      "rarity": 0.538,
+      "rarity": 0.546,
       "tier": 3,
       "wiki": "Red-cheeked parrot"
     },
@@ -1994,7 +1926,7 @@
         "Enicognathus leptorhynchus"
       ],
       "popularity": 2661,
-      "rarity": 0.535,
+      "rarity": 0.543,
       "tier": 3,
       "wiki": "Slender-billed parakeet"
     },
@@ -2004,7 +1936,7 @@
         "Charmosyna diadema"
       ],
       "popularity": 2672,
-      "rarity": 0.533,
+      "rarity": 0.541,
       "tier": 3,
       "wiki": "New Caledonian lorikeet"
     },
@@ -2014,7 +1946,7 @@
         "Eos histrio"
       ],
       "popularity": 2729,
-      "rarity": 0.53,
+      "rarity": 0.538,
       "tier": 3,
       "wiki": "Red-and-blue lory"
     },
@@ -2024,7 +1956,7 @@
         "Pyrrhura picta"
       ],
       "popularity": 2736,
-      "rarity": 0.528,
+      "rarity": 0.536,
       "tier": 3,
       "wiki": "Painted parakeet"
     },
@@ -2035,7 +1967,7 @@
         "Pyrrhura cruentata"
       ],
       "popularity": 2811,
-      "rarity": 0.526,
+      "rarity": 0.533,
       "tier": 3,
       "wiki": "Ochre-marked parakeet"
     },
@@ -2045,7 +1977,7 @@
         "Forpus conspicillatus"
       ],
       "popularity": 2859,
-      "rarity": 0.523,
+      "rarity": 0.531,
       "tier": 3,
       "wiki": "Spectacled parrotlet"
     },
@@ -2055,7 +1987,7 @@
         "Lorius domicella"
       ],
       "popularity": 2896,
-      "rarity": 0.521,
+      "rarity": 0.528,
       "tier": 3,
       "wiki": "Purple-naped lory"
     },
@@ -2067,7 +1999,7 @@
         "Pyrilia vulturina"
       ],
       "popularity": 2902,
-      "rarity": 0.518,
+      "rarity": 0.526,
       "tier": 3,
       "wiki": "Vulturine parrot"
     },
@@ -2077,7 +2009,7 @@
         "Psittacara chloropterus"
       ],
       "popularity": 2905,
-      "rarity": 0.516,
+      "rarity": 0.523,
       "tier": 3,
       "wiki": "Hispaniolan parakeet"
     },
@@ -2087,7 +2019,7 @@
         "Eos squamata"
       ],
       "popularity": 2916,
-      "rarity": 0.513,
+      "rarity": 0.521,
       "tier": 3,
       "wiki": "Violet-necked lory"
     },
@@ -2097,7 +2029,7 @@
         "Eunymphicus cornutus"
       ],
       "popularity": 2942,
-      "rarity": 0.511,
+      "rarity": 0.519,
       "tier": 3,
       "wiki": "Horned parakeet"
     },
@@ -2111,7 +2043,7 @@
         "Vini kuhlii"
       ],
       "popularity": 2960,
-      "rarity": 0.509,
+      "rarity": 0.516,
       "tier": 3,
       "wiki": "Kuhl's lorikeet"
     },
@@ -2123,7 +2055,7 @@
         "Forpus xanthopterygius"
       ],
       "popularity": 2971,
-      "rarity": 0.506,
+      "rarity": 0.514,
       "tier": 3,
       "wiki": "Cobalt-rumped parrotlet"
     },
@@ -2133,7 +2065,7 @@
         "Pionus chalcopterus"
       ],
       "popularity": 2998,
-      "rarity": 0.504,
+      "rarity": 0.511,
       "tier": 3,
       "wiki": "Bronze-winged parrot"
     },
@@ -2144,7 +2076,7 @@
         "Solomons Cockatoo"
       ],
       "popularity": 3009,
-      "rarity": 0.501,
+      "rarity": 0.509,
       "tier": 3,
       "wiki": "Solomons corella"
     },
@@ -2154,7 +2086,7 @@
         "Ara autocthones"
       ],
       "popularity": 3065,
-      "rarity": 0.499,
+      "rarity": 0.506,
       "tier": 3,
       "wiki": "St. Croix macaw"
     },
@@ -2164,7 +2096,7 @@
         "Loriculus beryllinus"
       ],
       "popularity": 3078,
-      "rarity": 0.496,
+      "rarity": 0.504,
       "tier": 3,
       "wiki": "Sri Lanka hanging parrot"
     },
@@ -2174,9 +2106,77 @@
         "Pionites xanthomerius"
       ],
       "popularity": 3079,
-      "rarity": 0.494,
+      "rarity": 0.501,
       "tier": 3,
       "wiki": "Black-legged parrot"
+    },
+    {
+      "name": "Antipodes kakariki",
+      "aliases": [
+        "Antipodes Island parakeet",
+        "Antipodes parakeet",
+        "Cyanoramphus unicolor"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Chatham Islands kakariki",
+      "aliases": [
+        "Chatham Islands parakeet",
+        "Chatham Parakeet",
+        "Cyanoramphus forbesi"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "New Caledonian kakariki",
+      "aliases": [
+        "Cyanoramphus saisseti",
+        "New Caledonian Parakeet"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Red-crowned kakariki",
+      "aliases": [
+        "Cyanoramphus novaezelandiae",
+        "Red-fronted parakeet"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Reischek's kakariki",
+      "aliases": [
+        "Cyanoramphus hochstetteri",
+        "Reischek's Parakeet"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Yellow-crowned kakariki",
+      "aliases": [
+        "Cyanoramphus auriceps",
+        "Yellow-crowned Parakeet"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
     },
     {
       "name": "Jamaican red macaw",
@@ -2184,7 +2184,7 @@
         "Ara gossei"
       ],
       "popularity": 3134,
-      "rarity": 0.491,
+      "rarity": 0.499,
       "tier": 3,
       "wiki": "Jamaican red macaw"
     },
@@ -2194,7 +2194,7 @@
         "Amazona arausiaca"
       ],
       "popularity": 3170,
-      "rarity": 0.489,
+      "rarity": 0.496,
       "tier": 3,
       "wiki": "Red-necked amazon"
     },
@@ -2204,7 +2204,7 @@
         "Agapornis swindernianus"
       ],
       "popularity": 3184,
-      "rarity": 0.487,
+      "rarity": 0.494,
       "tier": 3,
       "wiki": "Black-collared lovebird"
     },
@@ -2214,7 +2214,7 @@
         "Pyrrhura lepida"
       ],
       "popularity": 3189,
-      "rarity": 0.484,
+      "rarity": 0.491,
       "tier": 3,
       "wiki": "Pearly parakeet"
     },
@@ -2224,7 +2224,7 @@
         "Forpus cyanopygius"
       ],
       "popularity": 3203,
-      "rarity": 0.482,
+      "rarity": 0.489,
       "tier": 3,
       "wiki": "Mexican parrotlet"
     },
@@ -2234,7 +2234,7 @@
         "Eupsittula aurea"
       ],
       "popularity": 3216,
-      "rarity": 0.479,
+      "rarity": 0.486,
       "tier": 3,
       "wiki": "Peach-fronted parakeet"
     },
@@ -2244,7 +2244,7 @@
         "Amazona collaria"
       ],
       "popularity": 3225,
-      "rarity": 0.477,
+      "rarity": 0.484,
       "tier": 3,
       "wiki": "Yellow-billed amazon"
     },
@@ -2254,7 +2254,7 @@
         "Psittinus cyanurus"
       ],
       "popularity": 3238,
-      "rarity": 0.474,
+      "rarity": 0.481,
       "tier": 3,
       "wiki": "Blue-rumped parrot"
     },
@@ -2266,7 +2266,7 @@
         "Eupsittula nana"
       ],
       "popularity": 3255,
-      "rarity": 0.472,
+      "rarity": 0.479,
       "tier": 3,
       "wiki": "Olive-throated parakeet"
     },
@@ -2276,7 +2276,7 @@
         "Psittacula finschii"
       ],
       "popularity": 3277,
-      "rarity": 0.47,
+      "rarity": 0.477,
       "tier": 3,
       "wiki": "Grey-headed parakeet"
     },
@@ -2286,7 +2286,7 @@
         "Agapornis taranta"
       ],
       "popularity": 3278,
-      "rarity": 0.467,
+      "rarity": 0.474,
       "tier": 3,
       "wiki": "Black-winged lovebird"
     },
@@ -2296,7 +2296,7 @@
         "Vini australis"
       ],
       "popularity": 3286,
-      "rarity": 0.465,
+      "rarity": 0.472,
       "tier": 3,
       "wiki": "Blue-crowned lorikeet"
     },
@@ -2307,7 +2307,7 @@
         "Myiopsitta monachus luchsi"
       ],
       "popularity": 3300,
-      "rarity": 0.462,
+      "rarity": 0.469,
       "tier": 3,
       "wiki": "Cliff parakeet"
     },
@@ -2317,7 +2317,7 @@
         "Poicephalus rueppellii"
       ],
       "popularity": 3316,
-      "rarity": 0.46,
+      "rarity": 0.467,
       "tier": 3,
       "wiki": "Rüppell's parrot"
     },
@@ -2329,7 +2329,7 @@
         "Psittacula calthropae"
       ],
       "popularity": 3328,
-      "rarity": 0.457,
+      "rarity": 0.464,
       "tier": 3,
       "wiki": "Layard's parakeet"
     },
@@ -2340,7 +2340,7 @@
         "Yellow-faced Amazon"
       ],
       "popularity": 3352,
-      "rarity": 0.455,
+      "rarity": 0.462,
       "tier": 3,
       "wiki": "Yellow-faced parrot"
     },
@@ -2351,7 +2351,7 @@
         "Red-faced lovebird"
       ],
       "popularity": 3359,
-      "rarity": 0.453,
+      "rarity": 0.459,
       "tier": 3,
       "wiki": "Red-headed lovebird"
     },
@@ -2362,7 +2362,7 @@
         "uncape parrot"
       ],
       "popularity": 3368,
-      "rarity": 0.45,
+      "rarity": 0.457,
       "tier": 3,
       "wiki": "Brown-necked parrot"
     },
@@ -2372,7 +2372,7 @@
         "Bolbopsittacus lunulatus"
       ],
       "popularity": 3439,
-      "rarity": 0.448,
+      "rarity": 0.454,
       "tier": 3,
       "wiki": "Guaiabero"
     },
@@ -2382,7 +2382,7 @@
         "Tanygnathus megalorynchos"
       ],
       "popularity": 3462,
-      "rarity": 0.445,
+      "rarity": 0.452,
       "tier": 3,
       "wiki": "Great-billed parrot"
     },
@@ -2392,7 +2392,7 @@
         "Eclectus cornelia"
       ],
       "popularity": 3469,
-      "rarity": 0.443,
+      "rarity": 0.449,
       "tier": 3,
       "wiki": "Sumba eclectus"
     },
@@ -2402,7 +2402,7 @@
         "Alisterus amboinensis"
       ],
       "popularity": 3516,
-      "rarity": 0.44,
+      "rarity": 0.447,
       "tier": 3,
       "wiki": "Moluccan king parrot"
     },
@@ -2414,7 +2414,7 @@
         "Golden-capped conure"
       ],
       "popularity": 3551,
-      "rarity": 0.438,
+      "rarity": 0.444,
       "tier": 3,
       "wiki": "Golden-capped parakeet"
     },
@@ -2424,7 +2424,7 @@
         "Charmosyna toxopei"
       ],
       "popularity": 3555,
-      "rarity": 0.436,
+      "rarity": 0.442,
       "tier": 3,
       "wiki": "Blue-fronted lorikeet"
     },
@@ -2434,7 +2434,7 @@
         "Neophema elegans"
       ],
       "popularity": 3582,
-      "rarity": 0.433,
+      "rarity": 0.44,
       "tier": 3,
       "wiki": "Elegant parrot"
     },
@@ -2444,7 +2444,7 @@
         "Poicephalus cryptoxanthus"
       ],
       "popularity": 3588,
-      "rarity": 0.431,
+      "rarity": 0.437,
       "tier": 3,
       "wiki": "Brown-headed parrot"
     },
@@ -2454,7 +2454,7 @@
         "Pionus senilis"
       ],
       "popularity": 3629,
-      "rarity": 0.428,
+      "rarity": 0.435,
       "tier": 3,
       "wiki": "White-crowned parrot"
     },
@@ -2464,7 +2464,7 @@
         "Ara atwoodi"
       ],
       "popularity": 3650,
-      "rarity": 0.426,
+      "rarity": 0.432,
       "tier": 3,
       "wiki": "Dominican green-and-yellow macaw"
     },
@@ -2474,7 +2474,7 @@
         "Micropsitta pusio"
       ],
       "popularity": 3653,
-      "rarity": 0.423,
+      "rarity": 0.43,
       "tier": 3,
       "wiki": "Buff-faced pygmy parrot"
     },
@@ -2484,7 +2484,7 @@
         "Glossopsitta pusilla"
       ],
       "popularity": 3733,
-      "rarity": 0.421,
+      "rarity": 0.427,
       "tier": 3,
       "wiki": "Little lorikeet"
     },
@@ -2495,7 +2495,7 @@
         "Norfolk Island parakeet"
       ],
       "popularity": 3746,
-      "rarity": 0.418,
+      "rarity": 0.425,
       "tier": 3,
       "wiki": "Norfolk parakeet"
     },
@@ -2505,7 +2505,7 @@
         "Aratinga weddellii"
       ],
       "popularity": 3747,
-      "rarity": 0.416,
+      "rarity": 0.422,
       "tier": 3,
       "wiki": "Dusky-headed parakeet"
     },
@@ -2515,7 +2515,7 @@
         "Psephotellus dissimilis"
       ],
       "popularity": 3827,
-      "rarity": 0.414,
+      "rarity": 0.42,
       "tier": 3,
       "wiki": "Hooded parrot"
     },
@@ -2525,7 +2525,7 @@
         "Pionus maximiliani"
       ],
       "popularity": 3828,
-      "rarity": 0.411,
+      "rarity": 0.417,
       "tier": 3,
       "wiki": "Scaly-headed parrot"
     },
@@ -2535,7 +2535,7 @@
         "Amazona agilis"
       ],
       "popularity": 3851,
-      "rarity": 0.409,
+      "rarity": 0.415,
       "tier": 3,
       "wiki": "Black-billed amazon"
     },
@@ -2545,7 +2545,7 @@
         "Chalcopsitta atra"
       ],
       "popularity": 3853,
-      "rarity": 0.406,
+      "rarity": 0.412,
       "tier": 3,
       "wiki": "Black lory"
     },
@@ -2555,7 +2555,7 @@
         "Psittacara leucophthalmus"
       ],
       "popularity": 3911,
-      "rarity": 0.404,
+      "rarity": 0.41,
       "tier": 3,
       "wiki": "White-eyed parakeet"
     },
@@ -2566,7 +2566,7 @@
         "Opopsitta diophthalma"
       ],
       "popularity": 3948,
-      "rarity": 0.401,
+      "rarity": 0.407,
       "tier": 3,
       "wiki": "Double-eyed fig parrot"
     },
@@ -2576,8 +2576,8 @@
         "Coracopsis vasa"
       ],
       "popularity": 4029,
-      "rarity": 0.399,
-      "tier": 2,
+      "rarity": 0.405,
+      "tier": 3,
       "wiki": "Greater vasa parrot"
     },
     {
@@ -2588,8 +2588,8 @@
         "white-rumped lory"
       ],
       "popularity": 4032,
-      "rarity": 0.397,
-      "tier": 2,
+      "rarity": 0.402,
+      "tier": 3,
       "wiki": "Dusky lory"
     },
     {
@@ -2599,8 +2599,8 @@
         "Yellow-shouldered parrot"
       ],
       "popularity": 4036,
-      "rarity": 0.394,
-      "tier": 2,
+      "rarity": 0.4,
+      "tier": 3,
       "wiki": "Yellow-shouldered amazon"
     },
     {
@@ -2609,7 +2609,7 @@
         "Neophema petrophila"
       ],
       "popularity": 4067,
-      "rarity": 0.392,
+      "rarity": 0.398,
       "tier": 2,
       "wiki": "Rock parrot"
     },
@@ -2619,7 +2619,7 @@
         "Vini ultramarina"
       ],
       "popularity": 4139,
-      "rarity": 0.389,
+      "rarity": 0.395,
       "tier": 2,
       "wiki": "Ultramarine lorikeet"
     },
@@ -2629,7 +2629,7 @@
         "Agapornis canus"
       ],
       "popularity": 4183,
-      "rarity": 0.387,
+      "rarity": 0.393,
       "tier": 2,
       "wiki": "Grey-headed lovebird"
     },
@@ -2640,7 +2640,7 @@
         "Macquarie Island parakeet"
       ],
       "popularity": 4269,
-      "rarity": 0.384,
+      "rarity": 0.39,
       "tier": 2,
       "wiki": "Macquarie parakeet"
     },
@@ -2650,7 +2650,7 @@
         "Psittacula himalayana"
       ],
       "popularity": 4355,
-      "rarity": 0.382,
+      "rarity": 0.388,
       "tier": 2,
       "wiki": "Slaty-headed parakeet"
     },
@@ -2660,7 +2660,7 @@
         "Pyrilia aurantiocephala"
       ],
       "popularity": 4359,
-      "rarity": 0.38,
+      "rarity": 0.385,
       "tier": 2,
       "wiki": "Bald parrot"
     },
@@ -2670,7 +2670,7 @@
         "Brotogeris jugularis"
       ],
       "popularity": 4374,
-      "rarity": 0.377,
+      "rarity": 0.383,
       "tier": 2,
       "wiki": "Orange-chinned parakeet"
     },
@@ -2680,7 +2680,7 @@
         "Brotogeris tirica"
       ],
       "popularity": 4382,
-      "rarity": 0.373,
+      "rarity": 0.379,
       "tier": 2,
       "wiki": "Plain parakeet"
     },
@@ -2690,7 +2690,7 @@
         "Poicephalus rufiventris"
       ],
       "popularity": 4382,
-      "rarity": 0.373,
+      "rarity": 0.379,
       "tier": 2,
       "wiki": "Red-bellied parrot"
     },
@@ -2701,7 +2701,7 @@
         "Coracopsis nigra"
       ],
       "popularity": 4411,
-      "rarity": 0.37,
+      "rarity": 0.375,
       "tier": 2,
       "wiki": "Lesser vasa parrot"
     },
@@ -2711,7 +2711,7 @@
         "Agapornis nigrigenis"
       ],
       "popularity": 4412,
-      "rarity": 0.367,
+      "rarity": 0.373,
       "tier": 2,
       "wiki": "Black-cheeked lovebird"
     },
@@ -2721,7 +2721,7 @@
         "Psittacara strenuus"
       ],
       "popularity": 4415,
-      "rarity": 0.365,
+      "rarity": 0.37,
       "tier": 2,
       "wiki": "Pacific parakeet"
     },
@@ -2731,7 +2731,7 @@
         "Amazona ventralis"
       ],
       "popularity": 4426,
-      "rarity": 0.363,
+      "rarity": 0.368,
       "tier": 2,
       "wiki": "Hispaniolan amazon"
     },
@@ -2741,7 +2741,7 @@
         "Loriculus galgulus"
       ],
       "popularity": 4431,
-      "rarity": 0.36,
+      "rarity": 0.365,
       "tier": 2,
       "wiki": "Blue-crowned hanging parrot"
     },
@@ -2751,7 +2751,7 @@
         "Brotogeris versicolurus"
       ],
       "popularity": 4492,
-      "rarity": 0.358,
+      "rarity": 0.363,
       "tier": 2,
       "wiki": "White-winged parakeet"
     },
@@ -2762,7 +2762,7 @@
         "St Vincent Amazon"
       ],
       "popularity": 4511,
-      "rarity": 0.355,
+      "rarity": 0.36,
       "tier": 2,
       "wiki": "Saint Vincent amazon"
     },
@@ -2773,7 +2773,7 @@
         "Lilianís lovebird"
       ],
       "popularity": 4573,
-      "rarity": 0.353,
+      "rarity": 0.358,
       "tier": 2,
       "wiki": "Lilian's lovebird"
     },
@@ -2783,7 +2783,7 @@
         "Platycercus venustus"
       ],
       "popularity": 4624,
-      "rarity": 0.35,
+      "rarity": 0.356,
       "tier": 2,
       "wiki": "Northern rosella"
     },
@@ -2793,7 +2793,7 @@
         "Pyrrhura frontalis"
       ],
       "popularity": 4640,
-      "rarity": 0.348,
+      "rarity": 0.353,
       "tier": 2,
       "wiki": "Maroon-bellied parakeet"
     },
@@ -2803,7 +2803,7 @@
         "Vini solitaria"
       ],
       "popularity": 4655,
-      "rarity": 0.345,
+      "rarity": 0.351,
       "tier": 2,
       "wiki": "Collared lory"
     },
@@ -2813,7 +2813,7 @@
         "Psephotellus varius"
       ],
       "popularity": 4690,
-      "rarity": 0.343,
+      "rarity": 0.348,
       "tier": 2,
       "wiki": "Mulga parrot"
     },
@@ -2823,7 +2823,7 @@
         "Glossopsitta porphyrocephala"
       ],
       "popularity": 4723,
-      "rarity": 0.341,
+      "rarity": 0.346,
       "tier": 2,
       "wiki": "Purple-crowned lorikeet"
     },
@@ -2834,7 +2834,7 @@
         "Saint Lucia parrot"
       ],
       "popularity": 4784,
-      "rarity": 0.338,
+      "rarity": 0.343,
       "tier": 2,
       "wiki": "Saint Lucia amazon"
     },
@@ -2844,7 +2844,7 @@
         "Forpus passerinus"
       ],
       "popularity": 4796,
-      "rarity": 0.336,
+      "rarity": 0.341,
       "tier": 2,
       "wiki": "Green-rumped parrotlet"
     },
@@ -2854,7 +2854,7 @@
         "Lorius lory"
       ],
       "popularity": 5154,
-      "rarity": 0.333,
+      "rarity": 0.338,
       "tier": 2,
       "wiki": "Black-capped lory"
     },
@@ -2866,7 +2866,7 @@
         "Neophema chrysostoma"
       ],
       "popularity": 5204,
-      "rarity": 0.331,
+      "rarity": 0.336,
       "tier": 2,
       "wiki": "Blue-winged parrot"
     },
@@ -2876,7 +2876,7 @@
         "Tanygnathus lucionensis"
       ],
       "popularity": 5259,
-      "rarity": 0.328,
+      "rarity": 0.333,
       "tier": 2,
       "wiki": "Blue-naped parrot"
     },
@@ -2886,7 +2886,7 @@
         "Amazona finschi"
       ],
       "popularity": 5439,
-      "rarity": 0.326,
+      "rarity": 0.331,
       "tier": 2,
       "wiki": "Lilac-crowned amazon"
     },
@@ -2896,7 +2896,7 @@
         "Eupsittula pertinax"
       ],
       "popularity": 5456,
-      "rarity": 0.324,
+      "rarity": 0.328,
       "tier": 2,
       "wiki": "Brown-throated parakeet"
     },
@@ -2906,7 +2906,7 @@
         "Polytelis anthopeplus"
       ],
       "popularity": 5543,
-      "rarity": 0.321,
+      "rarity": 0.326,
       "tier": 2,
       "wiki": "Regent parrot"
     },
@@ -2916,7 +2916,7 @@
         "Ara martinica"
       ],
       "popularity": 5613,
-      "rarity": 0.319,
+      "rarity": 0.323,
       "tier": 2,
       "wiki": "Martinique macaw"
     },
@@ -2926,7 +2926,7 @@
         "Loriculus vernalis"
       ],
       "popularity": 5880,
-      "rarity": 0.316,
+      "rarity": 0.321,
       "tier": 2,
       "wiki": "Vernal hanging parrot"
     },
@@ -2936,7 +2936,7 @@
         "Purpureicephalus spurius"
       ],
       "popularity": 5978,
-      "rarity": 0.314,
+      "rarity": 0.319,
       "tier": 2,
       "wiki": "Red-capped parrot"
     },
@@ -2946,7 +2946,7 @@
         "Trichoglossus rubritorquis"
       ],
       "popularity": 6079,
-      "rarity": 0.311,
+      "rarity": 0.316,
       "tier": 2,
       "wiki": "Red-collared lorikeet"
     },
@@ -2956,7 +2956,7 @@
         "Poicephalus gulielmi"
       ],
       "popularity": 6126,
-      "rarity": 0.309,
+      "rarity": 0.314,
       "tier": 2,
       "wiki": "Red-fronted parrot"
     },
@@ -2966,7 +2966,7 @@
         "Psittacula longicauda"
       ],
       "popularity": 6172,
-      "rarity": 0.307,
+      "rarity": 0.311,
       "tier": 2,
       "wiki": "Long-tailed parakeet"
     },
@@ -2977,7 +2977,7 @@
         "White-fronted Parrot"
       ],
       "popularity": 6456,
-      "rarity": 0.304,
+      "rarity": 0.309,
       "tier": 2,
       "wiki": "White-fronted amazon"
     },
@@ -2987,7 +2987,7 @@
         "Prosopeia tabuensis"
       ],
       "popularity": 6570,
-      "rarity": 0.302,
+      "rarity": 0.306,
       "tier": 2,
       "wiki": "Maroon shining parrot"
     },
@@ -2997,7 +2997,7 @@
         "Eclectus polychloros"
       ],
       "popularity": 6584,
-      "rarity": 0.299,
+      "rarity": 0.304,
       "tier": 2,
       "wiki": "Papuan eclectus"
     },
@@ -3007,7 +3007,7 @@
         "Ognorhynchus icterotis"
       ],
       "popularity": 6652,
-      "rarity": 0.297,
+      "rarity": 0.301,
       "tier": 2,
       "wiki": "Yellow-eared parrot"
     },
@@ -3018,7 +3018,7 @@
         "Psittacara mitratus"
       ],
       "popularity": 6731,
-      "rarity": 0.294,
+      "rarity": 0.299,
       "tier": 2,
       "wiki": "Mitred parakeet"
     },
@@ -3029,7 +3029,7 @@
         "Southern Mealy Amazon"
       ],
       "popularity": 6755,
-      "rarity": 0.292,
+      "rarity": 0.296,
       "tier": 2,
       "wiki": "Mealy amazon"
     },
@@ -3039,7 +3039,7 @@
         "Pyrrhura rupicola"
       ],
       "popularity": 6800,
-      "rarity": 0.29,
+      "rarity": 0.294,
       "tier": 2,
       "wiki": "Black-capped parakeet"
     },
@@ -3049,7 +3049,7 @@
         "Trichoglossus chlorolepidotus"
       ],
       "popularity": 6818,
-      "rarity": 0.287,
+      "rarity": 0.291,
       "tier": 2,
       "wiki": "Scaly-breasted lorikeet"
     },
@@ -3059,7 +3059,7 @@
         "Poicephalus robustus"
       ],
       "popularity": 6835,
-      "rarity": 0.285,
+      "rarity": 0.289,
       "tier": 2,
       "wiki": "Cape parrot"
     },
@@ -3070,7 +3070,7 @@
         "Vini peruviana"
       ],
       "popularity": 6880,
-      "rarity": 0.282,
+      "rarity": 0.286,
       "tier": 2,
       "wiki": "Blue lorikeet"
     },
@@ -3080,7 +3080,7 @@
         "Enicognathus ferrugineus"
       ],
       "popularity": 6958,
-      "rarity": 0.28,
+      "rarity": 0.284,
       "tier": 2,
       "wiki": "Austral parakeet"
     },
@@ -3090,7 +3090,7 @@
         "Platycercus icterotis"
       ],
       "popularity": 7129,
-      "rarity": 0.277,
+      "rarity": 0.281,
       "tier": 2,
       "wiki": "Western rosella"
     },
@@ -3100,7 +3100,7 @@
         "Aprosmictus erythropterus"
       ],
       "popularity": 7186,
-      "rarity": 0.275,
+      "rarity": 0.279,
       "tier": 2,
       "wiki": "Red-winged parrot"
     },
@@ -3110,7 +3110,7 @@
         "Pyrrhura perlata"
       ],
       "popularity": 7269,
-      "rarity": 0.273,
+      "rarity": 0.277,
       "tier": 2,
       "wiki": "Crimson-bellied parakeet"
     },
@@ -3120,7 +3120,7 @@
         "Neophema splendida"
       ],
       "popularity": 7309,
-      "rarity": 0.27,
+      "rarity": 0.274,
       "tier": 2,
       "wiki": "Scarlet-chested parrot"
     },
@@ -3131,7 +3131,7 @@
         "Nestor chathamensis"
       ],
       "popularity": 7524,
-      "rarity": 0.268,
+      "rarity": 0.272,
       "tier": 2,
       "wiki": "Chatham kākā"
     },
@@ -3142,7 +3142,7 @@
         "Coracopsis nigra barklyi"
       ],
       "popularity": 7577,
-      "rarity": 0.265,
+      "rarity": 0.269,
       "tier": 2,
       "wiki": "Seychelles black parrot"
     },
@@ -3153,7 +3153,7 @@
         "Psittacula derbiana"
       ],
       "popularity": 7583,
-      "rarity": 0.263,
+      "rarity": 0.267,
       "tier": 2,
       "wiki": "Lord Derby's parakeet"
     },
@@ -3163,7 +3163,7 @@
         "Psittacula roseata"
       ],
       "popularity": 7647,
-      "rarity": 0.26,
+      "rarity": 0.264,
       "tier": 2,
       "wiki": "Blossom-headed parakeet"
     },
@@ -3174,7 +3174,7 @@
         "Yellow-collared Macaw"
       ],
       "popularity": 7691,
-      "rarity": 0.258,
+      "rarity": 0.262,
       "tier": 2,
       "wiki": "Golden-collared macaw"
     },
@@ -3185,7 +3185,7 @@
         "Pezoporus wallicus"
       ],
       "popularity": 7821,
-      "rarity": 0.255,
+      "rarity": 0.259,
       "tier": 2,
       "wiki": "Ground parrot"
     },
@@ -3195,7 +3195,7 @@
         "Ara rubrogenys"
       ],
       "popularity": 7874,
-      "rarity": 0.253,
+      "rarity": 0.257,
       "tier": 2,
       "wiki": "Red-fronted macaw"
     },
@@ -3205,7 +3205,7 @@
         "Polytelis swainsonii"
       ],
       "popularity": 7903,
-      "rarity": 0.251,
+      "rarity": 0.254,
       "tier": 2,
       "wiki": "Superb parrot"
     },
@@ -3215,7 +3215,7 @@
         "Glossopsitta concinna"
       ],
       "popularity": 7927,
-      "rarity": 0.248,
+      "rarity": 0.252,
       "tier": 2,
       "wiki": "Musk lorikeet"
     },
@@ -3225,7 +3225,7 @@
         "Primolius couloni"
       ],
       "popularity": 7941,
-      "rarity": 0.246,
+      "rarity": 0.249,
       "tier": 2,
       "wiki": "Blue-headed macaw"
     },
@@ -3235,7 +3235,7 @@
         "Loriculus philippensis"
       ],
       "popularity": 8048,
-      "rarity": 0.243,
+      "rarity": 0.247,
       "tier": 2,
       "wiki": "Philippine hanging parrot"
     },
@@ -3245,7 +3245,7 @@
         "Amazona leucocephala"
       ],
       "popularity": 8142,
-      "rarity": 0.241,
+      "rarity": 0.244,
       "tier": 2,
       "wiki": "Cuban amazon"
     },
@@ -3255,7 +3255,7 @@
         "Polytelis alexandrae"
       ],
       "popularity": 8269,
-      "rarity": 0.238,
+      "rarity": 0.242,
       "tier": 2,
       "wiki": "Princess parrot"
     },
@@ -3265,7 +3265,7 @@
         "Neophema pulchella"
       ],
       "popularity": 8309,
-      "rarity": 0.236,
+      "rarity": 0.24,
       "tier": 2,
       "wiki": "Turquoise parrot"
     },
@@ -3275,7 +3275,7 @@
         "Cacatua pastinator"
       ],
       "popularity": 8340,
-      "rarity": 0.234,
+      "rarity": 0.237,
       "tier": 2,
       "wiki": "Western corella"
     },
@@ -3285,7 +3285,7 @@
         "Cacatua ophthalmica"
       ],
       "popularity": 8597,
-      "rarity": 0.231,
+      "rarity": 0.235,
       "tier": 2,
       "wiki": "Blue-eyed cockatoo"
     },
@@ -3295,7 +3295,7 @@
         "Zanda baudinii"
       ],
       "popularity": 8602,
-      "rarity": 0.229,
+      "rarity": 0.232,
       "tier": 2,
       "wiki": "Baudin's black cockatoo"
     },
@@ -3306,7 +3306,7 @@
         "Psittacula columboides"
       ],
       "popularity": 8603,
-      "rarity": 0.226,
+      "rarity": 0.23,
       "tier": 2,
       "wiki": "Blue-winged parakeet"
     },
@@ -3316,7 +3316,7 @@
         "Aratinga canicularis"
       ],
       "popularity": 8739,
-      "rarity": 0.224,
+      "rarity": 0.227,
       "tier": 2,
       "wiki": "Eupsittula canicularis"
     },
@@ -3326,7 +3326,7 @@
         "Brotogeris chiriri"
       ],
       "popularity": 8761,
-      "rarity": 0.221,
+      "rarity": 0.225,
       "tier": 2,
       "wiki": "Yellow-chevroned parakeet"
     },
@@ -3336,7 +3336,7 @@
         "Pionus menstruus"
       ],
       "popularity": 8852,
-      "rarity": 0.219,
+      "rarity": 0.222,
       "tier": 2,
       "wiki": "Blue-headed parrot"
     },
@@ -3346,7 +3346,7 @@
         "Poicephalus meyeri"
       ],
       "popularity": 8952,
-      "rarity": 0.217,
+      "rarity": 0.22,
       "tier": 2,
       "wiki": "Meyer's parrot"
     },
@@ -3357,7 +3357,7 @@
         "Pionites melanocephalus"
       ],
       "popularity": 9064,
-      "rarity": 0.214,
+      "rarity": 0.217,
       "tier": 2,
       "wiki": "Black-headed parrot"
     },
@@ -3367,7 +3367,7 @@
         "Lorius garrulus"
       ],
       "popularity": 9393,
-      "rarity": 0.212,
+      "rarity": 0.215,
       "tier": 2,
       "wiki": "Chattering lory"
     },
@@ -3378,7 +3378,7 @@
         "Primolius maracana"
       ],
       "popularity": 9421,
-      "rarity": 0.209,
+      "rarity": 0.212,
       "tier": 2,
       "wiki": "Blue-winged macaw"
     },
@@ -3388,7 +3388,7 @@
         "Psephotellus chrysopterygius"
       ],
       "popularity": 9578,
-      "rarity": 0.207,
+      "rarity": 0.21,
       "tier": 2,
       "wiki": "Golden-shouldered parrot"
     },
@@ -3400,7 +3400,7 @@
         "Yellow-cheeked Parrot"
       ],
       "popularity": 9592,
-      "rarity": 0.204,
+      "rarity": 0.207,
       "tier": 2,
       "wiki": "Red-lored amazon"
     },
@@ -3410,7 +3410,7 @@
         "Amazona amazonica"
       ],
       "popularity": 9604,
-      "rarity": 0.202,
+      "rarity": 0.205,
       "tier": 2,
       "wiki": "Orange-winged amazon"
     },
@@ -3420,8 +3420,8 @@
         "Thectocercus acuticaudatus"
       ],
       "popularity": 9900,
-      "rarity": 0.2,
-      "tier": 1,
+      "rarity": 0.202,
+      "tier": 2,
       "wiki": "Blue-crowned parakeet"
     },
     {
@@ -3430,7 +3430,7 @@
         "Deroptyus accipitrinus"
       ],
       "popularity": 10104,
-      "rarity": 0.197,
+      "rarity": 0.2,
       "tier": 1,
       "wiki": "Red-fan parrot"
     },
@@ -3440,7 +3440,7 @@
         "Orthopsittaca manilatus"
       ],
       "popularity": 10236,
-      "rarity": 0.195,
+      "rarity": 0.198,
       "tier": 1,
       "wiki": "Red-bellied macaw"
     },
@@ -3451,7 +3451,7 @@
         "masked lovebird"
       ],
       "popularity": 10338,
-      "rarity": 0.192,
+      "rarity": 0.195,
       "tier": 1,
       "wiki": "Yellow-collared lovebird"
     },
@@ -3461,7 +3461,7 @@
         "Amazona ochrocephala"
       ],
       "popularity": 10501,
-      "rarity": 0.19,
+      "rarity": 0.193,
       "tier": 1,
       "wiki": "Yellow-crowned amazon"
     },
@@ -3472,7 +3472,7 @@
         "Trichoglossus haematodus"
       ],
       "popularity": 10678,
-      "rarity": 0.187,
+      "rarity": 0.19,
       "tier": 1,
       "wiki": "Coconut lorikeet"
     },
@@ -3482,7 +3482,7 @@
         "Psittacula alexandri"
       ],
       "popularity": 11161,
-      "rarity": 0.185,
+      "rarity": 0.188,
       "tier": 1,
       "wiki": "Red-breasted parakeet"
     },
@@ -3493,7 +3493,7 @@
         "Cyanoliseus patagonus"
       ],
       "popularity": 11595,
-      "rarity": 0.182,
+      "rarity": 0.185,
       "tier": 1,
       "wiki": "Burrowing parrot"
     },
@@ -3503,7 +3503,7 @@
         "Aratinga jandaya"
       ],
       "popularity": 11898,
-      "rarity": 0.18,
+      "rarity": 0.183,
       "tier": 1,
       "wiki": "Jandaya parakeet"
     },
@@ -3513,7 +3513,7 @@
         "Eos bornea"
       ],
       "popularity": 12085,
-      "rarity": 0.178,
+      "rarity": 0.18,
       "tier": 1,
       "wiki": "Red lory"
     },
@@ -3523,7 +3523,7 @@
         "Amazona auropalliata"
       ],
       "popularity": 12483,
-      "rarity": 0.175,
+      "rarity": 0.178,
       "tier": 1,
       "wiki": "Yellow-naped amazon"
     },
@@ -3533,7 +3533,7 @@
         "Calyptorhynchus lathami"
       ],
       "popularity": 13031,
-      "rarity": 0.173,
+      "rarity": 0.175,
       "tier": 1,
       "wiki": "Glossy black cockatoo"
     },
@@ -3543,7 +3543,7 @@
         "Platycercus caledonicus"
       ],
       "popularity": 13221,
-      "rarity": 0.17,
+      "rarity": 0.173,
       "tier": 1,
       "wiki": "Green rosella"
     },
@@ -3553,7 +3553,7 @@
         "Ara severus"
       ],
       "popularity": 13434,
-      "rarity": 0.168,
+      "rarity": 0.17,
       "tier": 1,
       "wiki": "Chestnut-fronted macaw"
     },
@@ -3564,7 +3564,7 @@
         "Philippine cockatoo"
       ],
       "popularity": 13571,
-      "rarity": 0.165,
+      "rarity": 0.168,
       "tier": 1,
       "wiki": "Red-vented cockatoo"
     },
@@ -3576,7 +3576,7 @@
         "Sisserou"
       ],
       "popularity": 13572,
-      "rarity": 0.163,
+      "rarity": 0.165,
       "tier": 1,
       "wiki": "Imperial amazon"
     },
@@ -3586,7 +3586,7 @@
         "Bolborhynchus lineola"
       ],
       "popularity": 13578,
-      "rarity": 0.161,
+      "rarity": 0.163,
       "tier": 1,
       "wiki": "Barred parakeet"
     },
@@ -3596,7 +3596,7 @@
         "Pionites leucogaster"
       ],
       "popularity": 13655,
-      "rarity": 0.158,
+      "rarity": 0.16,
       "tier": 1,
       "wiki": "White-bellied parrot"
     },
@@ -3607,7 +3607,7 @@
         "Guaruba guarouba"
       ],
       "popularity": 13681,
-      "rarity": 0.156,
+      "rarity": 0.158,
       "tier": 1,
       "wiki": "Golden parakeet"
     },
@@ -3618,7 +3618,7 @@
         "red-masked conure"
       ],
       "popularity": 14400,
-      "rarity": 0.153,
+      "rarity": 0.156,
       "tier": 1,
       "wiki": "Red-masked parakeet"
     },
@@ -3628,7 +3628,7 @@
         "Diopsittaca nobilis"
       ],
       "popularity": 14867,
-      "rarity": 0.151,
+      "rarity": 0.153,
       "tier": 1,
       "wiki": "Red-shouldered macaw"
     },
@@ -3640,7 +3640,7 @@
         "Reunion Parakeet"
       ],
       "popularity": 15292,
-      "rarity": 0.148,
+      "rarity": 0.151,
       "tier": 1,
       "wiki": "Echo parakeet"
     },
@@ -3651,7 +3651,7 @@
         "Goffin’s cockatoo"
       ],
       "popularity": 15608,
-      "rarity": 0.146,
+      "rarity": 0.148,
       "tier": 1,
       "wiki": "Tanimbar corella"
     },
@@ -3662,7 +3662,7 @@
         "Long-billed Cockatoo"
       ],
       "popularity": 16059,
-      "rarity": 0.144,
+      "rarity": 0.146,
       "tier": 1,
       "wiki": "Long-billed corella"
     },
@@ -3673,7 +3673,7 @@
         "Blue-fronted Parrot"
       ],
       "popularity": 16853,
-      "rarity": 0.141,
+      "rarity": 0.143,
       "tier": 1,
       "wiki": "Blue-fronted amazon"
     },
@@ -3683,7 +3683,7 @@
         "Neophema chrysogaster"
       ],
       "popularity": 16991,
-      "rarity": 0.139,
+      "rarity": 0.141,
       "tier": 1,
       "wiki": "Orange-bellied parrot"
     },
@@ -3693,7 +3693,7 @@
         "Platycercus adscitus"
       ],
       "popularity": 17342,
-      "rarity": 0.136,
+      "rarity": 0.138,
       "tier": 1,
       "wiki": "Pale-headed rosella"
     },
@@ -3703,7 +3703,7 @@
         "Forpus coelestis"
       ],
       "popularity": 17453,
-      "rarity": 0.134,
+      "rarity": 0.136,
       "tier": 1,
       "wiki": "Pacific parrotlet"
     },
@@ -3713,7 +3713,7 @@
         "Lathamus discolor"
       ],
       "popularity": 17890,
-      "rarity": 0.131,
+      "rarity": 0.133,
       "tier": 1,
       "wiki": "Swift parrot"
     },
@@ -3723,7 +3723,7 @@
         "Eclectus roratus"
       ],
       "popularity": 18907,
-      "rarity": 0.129,
+      "rarity": 0.131,
       "tier": 1,
       "wiki": "Moluccan eclectus"
     },
@@ -3733,7 +3733,7 @@
         "Poicephalus senegalus"
       ],
       "popularity": 19127,
-      "rarity": 0.127,
+      "rarity": 0.128,
       "tier": 1,
       "wiki": "Senegal parrot"
     },
@@ -3745,7 +3745,7 @@
         "Nandayus nenday"
       ],
       "popularity": 19199,
-      "rarity": 0.124,
+      "rarity": 0.126,
       "tier": 1,
       "wiki": "Nanday parakeet"
     },
@@ -3756,7 +3756,7 @@
         "Neopsephotus bourkii"
       ],
       "popularity": 19203,
-      "rarity": 0.122,
+      "rarity": 0.123,
       "tier": 1,
       "wiki": "Bourke's parrot"
     },
@@ -3766,7 +3766,7 @@
         "Agapornis fischeri"
       ],
       "popularity": 19679,
-      "rarity": 0.119,
+      "rarity": 0.121,
       "tier": 1,
       "wiki": "Fischer's lovebird"
     },
@@ -3776,7 +3776,7 @@
         "Psephotus haematonotus"
       ],
       "popularity": 20138,
-      "rarity": 0.117,
+      "rarity": 0.119,
       "tier": 1,
       "wiki": "Red-rumped parrot"
     },
@@ -3786,7 +3786,7 @@
         "Amazona vittata"
       ],
       "popularity": 20385,
-      "rarity": 0.114,
+      "rarity": 0.116,
       "tier": 1,
       "wiki": "Puerto Rican amazon"
     },
@@ -3796,7 +3796,7 @@
         "Psittacus timneh"
       ],
       "popularity": 20572,
-      "rarity": 0.112,
+      "rarity": 0.114,
       "tier": 1,
       "wiki": "Timneh parrot"
     },
@@ -3807,7 +3807,7 @@
         "Yellow-headed Parrot"
       ],
       "popularity": 20712,
-      "rarity": 0.109,
+      "rarity": 0.111,
       "tier": 1,
       "wiki": "Yellow-headed amazon"
     },
@@ -3817,7 +3817,7 @@
         "Ara glaucogularis"
       ],
       "popularity": 21243,
-      "rarity": 0.107,
+      "rarity": 0.109,
       "tier": 1,
       "wiki": "Blue-throated macaw"
     },
@@ -3827,7 +3827,7 @@
         "Barnardius zonarius"
       ],
       "popularity": 21483,
-      "rarity": 0.105,
+      "rarity": 0.106,
       "tier": 1,
       "wiki": "Australian ringneck"
     },
@@ -3837,7 +3837,7 @@
         "Zanda latirostris"
       ],
       "popularity": 21616,
-      "rarity": 0.102,
+      "rarity": 0.104,
       "tier": 1,
       "wiki": "Carnaby's black cockatoo"
     },
@@ -3847,7 +3847,7 @@
         "Cacatua sanguinea"
       ],
       "popularity": 21955,
-      "rarity": 0.1,
+      "rarity": 0.101,
       "tier": 1,
       "wiki": "Little corella"
     },
@@ -3858,7 +3858,7 @@
         "Buffon’s macaw"
       ],
       "popularity": 22933,
-      "rarity": 0.097,
+      "rarity": 0.099,
       "tier": 1,
       "wiki": "Great green macaw"
     },
@@ -3869,7 +3869,7 @@
         "Indigo Macaw"
       ],
       "popularity": 23704,
-      "rarity": 0.095,
+      "rarity": 0.096,
       "tier": 1,
       "wiki": "Lear's macaw"
     },
@@ -3879,7 +3879,7 @@
         "Psittacula cyanocephala"
       ],
       "popularity": 24972,
-      "rarity": 0.092,
+      "rarity": 0.094,
       "tier": 1,
       "wiki": "Plum-headed parakeet"
     },
@@ -3890,7 +3890,7 @@
         "soldier macaw"
       ],
       "popularity": 26303,
-      "rarity": 0.09,
+      "rarity": 0.091,
       "tier": 1,
       "wiki": "Military macaw"
     },
@@ -3903,7 +3903,7 @@
         "Spinifex Parrot"
       ],
       "popularity": 26488,
-      "rarity": 0.088,
+      "rarity": 0.089,
       "tier": 1,
       "wiki": "Night parrot"
     },
@@ -3913,7 +3913,7 @@
         "Rhynchopsitta pachyrhyncha"
       ],
       "popularity": 26769,
-      "rarity": 0.085,
+      "rarity": 0.086,
       "tier": 1,
       "wiki": "Thick-billed parrot"
     },
@@ -3924,7 +3924,7 @@
         "Platycercus elegans"
       ],
       "popularity": 27749,
-      "rarity": 0.083,
+      "rarity": 0.084,
       "tier": 1,
       "wiki": "Crimson rosella"
     },
@@ -3935,7 +3935,7 @@
         "Red-crowned Parrot"
       ],
       "popularity": 28099,
-      "rarity": 0.08,
+      "rarity": 0.081,
       "tier": 1,
       "wiki": "Red-crowned amazon"
     },
@@ -3945,7 +3945,7 @@
         "Anodorhynchus glaucus"
       ],
       "popularity": 29388,
-      "rarity": 0.078,
+      "rarity": 0.079,
       "tier": 1,
       "wiki": "Glaucous macaw"
     },
@@ -3956,7 +3956,7 @@
         "Moluccan cockatoo"
       ],
       "popularity": 29675,
-      "rarity": 0.075,
+      "rarity": 0.077,
       "tier": 1,
       "wiki": "Salmon-crested cockatoo"
     },
@@ -3966,7 +3966,7 @@
         "Cacatua sulphurea"
       ],
       "popularity": 29958,
-      "rarity": 0.073,
+      "rarity": 0.074,
       "tier": 1,
       "wiki": "Yellow-crested cockatoo"
     },
@@ -3977,7 +3977,7 @@
         "New Zealand Kaka"
       ],
       "popularity": 36571,
-      "rarity": 0.071,
+      "rarity": 0.072,
       "tier": 1,
       "wiki": "Kākā"
     },
@@ -3988,7 +3988,7 @@
         "Green-winged macaw"
       ],
       "popularity": 38435,
-      "rarity": 0.068,
+      "rarity": 0.069,
       "tier": 1,
       "wiki": "Red-and-green macaw"
     },
@@ -3998,7 +3998,7 @@
         "Agapornis roseicollis"
       ],
       "popularity": 38927,
-      "rarity": 0.066,
+      "rarity": 0.067,
       "tier": 1,
       "wiki": "Rosy-faced lovebird"
     },
@@ -4008,7 +4008,7 @@
         "Alisterus scapularis"
       ],
       "popularity": 39128,
-      "rarity": 0.063,
+      "rarity": 0.064,
       "tier": 1,
       "wiki": "Australian king parrot"
     },
@@ -4018,7 +4018,7 @@
         "Platycercus eximius"
       ],
       "popularity": 39711,
-      "rarity": 0.061,
+      "rarity": 0.062,
       "tier": 1,
       "wiki": "Eastern rosella"
     },
@@ -4029,7 +4029,7 @@
         "Zanda funerea"
       ],
       "popularity": 39883,
-      "rarity": 0.058,
+      "rarity": 0.059,
       "tier": 1,
       "wiki": "Yellow-tailed black cockatoo"
     },
@@ -4039,7 +4039,7 @@
         "Cacatua alba"
       ],
       "popularity": 41247,
-      "rarity": 0.056,
+      "rarity": 0.057,
       "tier": 1,
       "wiki": "White cockatoo"
     },
@@ -4059,7 +4059,7 @@
         "Callocephalon fimbriatum"
       ],
       "popularity": 42952,
-      "rarity": 0.051,
+      "rarity": 0.052,
       "tier": 1,
       "wiki": "Gang-gang cockatoo"
     },
@@ -4081,7 +4081,7 @@
         "Probosciger aterrimus"
       ],
       "popularity": 45017,
-      "rarity": 0.046,
+      "rarity": 0.047,
       "tier": 1,
       "wiki": "Palm cockatoo"
     },
@@ -4104,7 +4104,7 @@
         "Pyrrhura molinae"
       ],
       "popularity": 52453,
-      "rarity": 0.041,
+      "rarity": 0.042,
       "tier": 1,
       "wiki": "Green-cheeked parakeet"
     },
@@ -4117,7 +4117,7 @@
         "forest red-tailed black cockatoo"
       ],
       "popularity": 59484,
-      "rarity": 0.039,
+      "rarity": 0.04,
       "tier": 1,
       "wiki": "Red-tailed black cockatoo"
     },
@@ -4128,7 +4128,7 @@
         "Psittacula eupatria"
       ],
       "popularity": 59650,
-      "rarity": 0.036,
+      "rarity": 0.037,
       "tier": 1,
       "wiki": "Alexandrine parakeet"
     },
@@ -4139,7 +4139,7 @@
         "Sun Parakeet"
       ],
       "popularity": 83760,
-      "rarity": 0.034,
+      "rarity": 0.035,
       "tier": 1,
       "wiki": "Sun conure"
     },
@@ -4162,7 +4162,7 @@
         "rose-breasted cockatoo"
       ],
       "popularity": 94668,
-      "rarity": 0.029,
+      "rarity": 0.03,
       "tier": 1,
       "wiki": "Galah"
     },
@@ -4185,7 +4185,7 @@
         "Trichoglossus moluccanus"
       ],
       "popularity": 127326,
-      "rarity": 0.024,
+      "rarity": 0.025,
       "tier": 1,
       "wiki": "Rainbow lorikeet"
     },
@@ -4206,7 +4206,7 @@
         "Mylopsitta monachus"
       ],
       "popularity": 142546,
-      "rarity": 0.019,
+      "rarity": 0.02,
       "tier": 1,
       "wiki": "Monk parakeet"
     },
