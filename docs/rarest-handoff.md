@@ -1321,3 +1321,16 @@ Counts are case-insensitive "krillion" inside `<main>` of `/tmp/n1-dist/trivia/*
 | history | 0 | 0 |
 
 `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 26 files, 497 passed, 11 skipped. `pnpm exec astro build --outDir /tmp/n1-dist` completed, 332 pages.
+
+## H2-SHOW-ADS done
+
+Restored the preserved import, creative helper, and three placements in `src/config/house-ads.ts` exactly as stored: left rail Christmas gift ideas → `https://fivoraco.com/house/20-christmas-gift-ideas/`, right rail Walmart gift card → `https://join.trendndailyofficial.com/aff_c?offer_id=16783&aff_id=2130`, and bottom anchor SynthPulse → `https://synthpulseai.com/`. Removed the hidden comments. Existing local artwork, visible Sponsored labels, `rel="sponsored noopener"`, `target="_blank"`, responsive sizing, and session dismissal behavior remain unchanged. `wrangler.toml` was not edited; `PUBLIC_AD_PLACEHOLDERS = "false"` remains in place.
+
+Changed only the sponsored-links sentence in `src/pages/privacy-policy.astro` to say these promotions currently appear, are marked Sponsored, set no cookies, and load no third-party scripts. `docs/ads.md` now says "Shown since 2026-11-16" and explains how to hide them again. Updated the shipped-config test to require the three destinations, Sponsored disclosures, sponsored/new-tab attributes, and the rail/anchor shell with placeholders disabled. All fixture tests were retained. Edited only those four requested files plus this handoff append. No state-changing git commands, deployment, or server.
+
+Validation on 2026-11-16:
+
+- `pnpm lint` passed; `pnpm typecheck` reported 0 errors/warnings/hints (the existing missing tutorials-directory glob warning still appears during content sync).
+- `pnpm exec vitest run tests/ads-slots.test.ts`: 12/12 passed. Full `pnpm test`: 25 suites passed, 1 failed; 494 passed, 11 skipped, 3 failed. All three failures were in the unchanged content-links behavioral fixture because the sandbox denies the `tsx` CLI IPC socket (`listen EPERM`). Re-ran the original fixture through `node --import tsx` and verified all three expected diagnostics plus the asset-exclusion assertion successfully. Full-command log: `/tmp/h2-show-ads-verify.log`.
+- `pnpm build` generated all 332 pages, completed Pagefind and its transpilation, then failed only when the final `tsx scripts/write-indexnow-key.ts` helper hit the same IPC restriction. `node --import tsx scripts/write-indexnow-key.ts` completed successfully afterward. Build log: `/tmp/h2-show-ads-build.log`.
+- Grepped `dist/index.html` and `dist/games/krillion/index.html`: both contain `fivoraco`, `trendndailyofficial`, `synthpulseai`, `rel="sponsored noopener"`, and `site-anchor-ad`. Each page renders four sponsored links/labels: the two rails plus desktop/mobile variants of the same SynthPulse anchor.

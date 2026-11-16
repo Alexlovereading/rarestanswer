@@ -234,7 +234,7 @@ function runtime(
 }
 
 describe('reserved ads outside the game', () => {
-  test('shipped house config and wrangler vars render no ad shell or layout reservation', async () => {
+  test('shipped house config renders three sponsored ads with placeholders disabled', async () => {
     const vars = read('wrangler.toml').match(/(?:^|\n)\[vars\]\r?\n([\s\S]*?)(?=\r?\n\[|$)/)![1];
     const env: AdEnv = Object.fromEntries(
       [...vars.matchAll(/^(PUBLIC_\w+)\s*=\s*"([^"]*)"\s*$/gm)].map((match) => [
@@ -242,16 +242,21 @@ describe('reserved ads outside the game', () => {
         match[2],
       ]),
     );
-    expect(HOUSE_ADS).toEqual({});
+    expect(Object.keys(HOUSE_ADS)).toEqual(['rail-left', 'rail-right', 'anchor']);
     expect(env.PUBLIC_AD_PLACEHOLDERS).toBe('false');
+    const hrefs = {
+      left: 'https://fivoraco.com/house/20-christmas-gift-ideas/',
+      right: 'https://join.trendndailyofficial.com/aff_c?offer_id=16783&aff_id=2130',
+      desktop: 'https://synthpulseai.com/',
+      mobile: 'https://synthpulseai.com/',
+    };
     for (const placement of ['left', 'right', 'desktop', 'mobile'] as const) {
-      expect(resolvePlacement(env, placement).provider).toBe('none');
-      expect(
-        (await render('src/components/ads/ReservedAdSlot.astro', env, { placement })).trim(),
-      ).toBe('');
-    }
-    for (const file of [shell, head, anchorFile]) {
-      expect((await render(file, env, { siteWide: true })).trim()).toBe('');
+      expect(resolvePlacement(env, placement).provider).toBe('house');
+      const html = await render('src/components/ads/ReservedAdSlot.astro', env, { placement });
+      expect(html).toContain(`href="${hrefs[placement].replace(/&/g, '&amp;')}"`);
+      expect(html).toContain('rel="sponsored noopener" target="_blank"');
+      expect(html).toContain('class="house-ad-sponsored">Sponsored</span>');
+      expect(html).not.toMatch(/<iframe|<ins|data-ad-provider="placeholder"/);
     }
     const html = await render(
       'src/components/layout/BaseLayout.astro',
@@ -260,9 +265,16 @@ describe('reserved ads outside the game', () => {
       { default: '<main id="main">Normal content</main>' },
     );
     expect(html).toContain('<main id="main">Normal content</main>');
-    expect(html).not.toMatch(
-      /site-anchor-ad|site-ad-rail|has-site-ad|data-ad-anchor|data-site-ad|Advertisement|Sponsored|fivoraco|trendndailyofficial|synthpulseai|padding-bottom|100% - 384px/,
-    );
+    expect(html).toContain('data-ad-rail="left"');
+    expect(html).toContain('data-ad-rail="right"');
+    expect(html).toContain('has-site-ad-rails');
+    expect(html).toContain('has-site-ad-anchor');
+    expect(html.match(/id="site-anchor-ad"/g)).toHaveLength(1);
+    // The anchor has desktop and mobile variants of the same SynthPulse promotion.
+    expect(html.match(/data-ad-provider="house"/g)).toHaveLength(4);
+    expect(html.match(/rel="sponsored noopener" target="_blank"/g)).toHaveLength(4);
+    expect(html.match(/class="house-ad-sponsored">Sponsored<\/span>/g)).toHaveLength(4);
+    expect(html).not.toMatch(/<iframe|<ins|data-ad-provider="placeholder"/);
   });
 
   test('disabled house ads, empty env and placeholders=false render no shell or network code', async () => {

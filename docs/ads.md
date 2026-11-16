@@ -22,10 +22,10 @@ Rails are sticky from 1440px upward in viewports at least 812px tall (so the ful
 
 ### Rarest Answer house ads
 
-**Currently hidden (2026-11-15, owner request).** All three house ads and reserved placeholders are off; the local promo images remain on disk. To re-enable:
+**Shown since 2026-11-16 (owner request).** All three house ads are enabled. `PUBLIC_AD_PLACEHOLDERS = "false"` stays unchanged; house ads render without placeholders. To hide them again:
 
-1. Uncomment the preserved import, creative helper, and placement entries in `src/config/house-ads.ts`.
-2. Optionally set `PUBLIC_AD_PLACEHOLDERS = "true"` in `wrangler.toml` to preview any positions without a configured ad.
+1. Comment out the placement entries in `src/config/house-ads.ts`, along with the import and creative helper if none remain enabled.
+2. Keep `PUBLIC_AD_PLACEHOLDERS = "false"` in `wrangler.toml` and network slot values empty so disabled positions render nothing.
 
 Then run `pnpm deploy:cf`.
 
