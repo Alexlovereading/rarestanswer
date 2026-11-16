@@ -41,7 +41,10 @@ export function resolvePlacement(env: AdEnv, placement: Placement, houseAds: Hou
   const client = envValue(env, 'PUBLIC_ADSENSE_CLIENT');
   const slot = envValue(env, `PUBLIC_ADSENSE_SLOT_${definition.adsense}`);
   const adsterraKey = `PUBLIC_ADSTERRA_SLOT_${definition.adsterra.replace(/-/g, '_').toUpperCase()}`;
-  const houseAd = houseAds[definition.house];
+  const houseAd =
+    placement === 'desktop' || placement === 'mobile'
+      ? houseAds.anchor?.[placement]
+      : houseAds[placement === 'left' ? 'rail-left' : 'rail-right'];
   const provider: AdProvider =
     client && slot
       ? 'adsense'

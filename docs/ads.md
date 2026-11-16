@@ -29,9 +29,18 @@ Rails are sticky from 1440px upward in viewports at least 812px tall (so the ful
 
 Then run `pnpm deploy:cf`.
 
-`HOUSE_ADS` in `src/config/house-ads.ts` owns the `rail-left` (Fivoraco holiday gift guide), `rail-right` (Walmart gift card affiliate offer), and `anchor` (SynthPulse) links and local image variants under `public/images/promos/`. English headlines, sub-lines, CTA labels, and the visible **Sponsored** disclosure live in the new `houseAds` keys in `src/locales/en.json`. Change those entries to replace a promotion; comment out a placement in `HOUSE_ADS` to disable its house fallback, or set the registry to `{}` to disable all house ads. With network env values empty and placeholders `"false"`, disabled positions render nothing. Configured network units continue to win for each responsive size.
+`HOUSE_ADS` in `src/config/house-ads.ts` owns the `rail-left` (Fivoraco holiday gift guide), `rail-right` (Walmart gift card affiliate offer), and responsive `anchor` links and local image variants under `public/images/promos/`. Below 768px, `anchor.mobile` shows **Christmas gift ideas**, **See the guide**, and **Sponsored**, linking to `https://fivoraco.com/house/20-christmas-gift-ideas/`. At 768px and above, `anchor.desktop` stays SynthPulse, linking to `https://synthpulseai.com/`. The existing `.site-anchor-mobile` / `.site-anchor-desktop` wrappers show exactly one variant; rail promotions are unchanged.
+
+English headlines, sub-lines, standard CTA labels, and the visible **Sponsored** disclosure live in the `houseAds` keys in `src/locales/en.json`; the owner-requested compact mobile CTA **See the guide** is an override in `anchor.mobile`. Change the corresponding config entry to replace a promotion; comment out a placement (or one anchor variant) in `HOUSE_ADS` to disable its house fallback, or set the registry to `{}` to disable all house ads. With network env values empty and placeholders `"false"`, disabled positions render nothing. Configured network units continue to win independently for each responsive size. The fixed 320×50 mobile frame, prepaint 62px reservation plus safe-area inset, and session close behavior remain in place, so creative loading causes no layout shift.
 
 When enabled, these static units load no third-party scripts or cookies and do not wait for consent. Every promotional link opens a new tab with `rel="sponsored noopener"`; the bottom close control still works. Keep the exact 160×600 / 728×90 / 320×50 frames, decorative image alt text when HTML repeats the message, and a visible Sponsored label. Only use owner-verified copy: no gift count for Fivoraco, no amount or free/win/claim/guarantee wording or brand artwork for the Walmart offer.
+
+The mobile holiday banner is original artwork generated with the built-in image generation tool on 2026-11-16, then center-cropped, resized and compressed with sharp. It contains wrapped gifts, ribbons and warm lights with no text or logos; headline, CTA and disclosure remain HTML. Both formats have 1× / 2× `srcset` entries and explicit dimensions; all four files are below the strict 15,000-byte ceiling:
+
+| File under `public/images/promos/` | WebP bytes | AVIF bytes |
+| --- | ---: | ---: |
+| `christmas-gifts-320x50` | 2,916 | 4,277 |
+| `christmas-gifts-640x100` | 7,970 | 12,171 |
 
 模板内置 3 个广告位(Sticky 粘底 / Sidebar 侧栏 / InContent 文中),由 `PUBLIC_ADSENSE_CLIENT` + 3 个 slot 环境变量控制,**留空 = 不渲染,默认全关**。这个"默认关"正是为下面的时机策略设计的——站可以先干净上线,时机到了再填变量打开。
 

@@ -1334,3 +1334,35 @@ Validation on 2026-11-16:
 - `pnpm exec vitest run tests/ads-slots.test.ts`: 12/12 passed. Full `pnpm test`: 25 suites passed, 1 failed; 494 passed, 11 skipped, 3 failed. All three failures were in the unchanged content-links behavioral fixture because the sandbox denies the `tsx` CLI IPC socket (`listen EPERM`). Re-ran the original fixture through `node --import tsx` and verified all three expected diagnostics plus the asset-exclusion assertion successfully. Full-command log: `/tmp/h2-show-ads-verify.log`.
 - `pnpm build` generated all 332 pages, completed Pagefind and its transpilation, then failed only when the final `tsx scripts/write-indexnow-key.ts` helper hit the same IPC restriction. `node --import tsx scripts/write-indexnow-key.ts` completed successfully afterward. Build log: `/tmp/h2-show-ads-build.log`.
 - Grepped `dist/index.html` and `dist/games/krillion/index.html`: both contain `fivoraco`, `trendndailyofficial`, `synthpulseai`, `rel="sponsored noopener"`, and `site-anchor-ad`. Each page renders four sponsored links/labels: the two rails plus desktop/mobile variants of the same SynthPulse anchor.
+
+## H3-MOBILE-XMAS done
+
+Updated only the authorized house-ad config, ad placement resolver, ad CSS, ad tests, ads documentation, four new promo exports, and this requested handoff append. No state-changing git commands or deployment. The `anchor` registry now has independent `mobile` and `desktop` house ads: below 768px the existing `.site-anchor-mobile` wrapper shows the Fivoraco holiday guide (`https://fivoraco.com/house/20-christmas-gift-ideas/`) with “Christmas gift ideas”, “See the guide”, and a visible “Sponsored” label. At 768px and above `.site-anchor-desktop` keeps SynthPulse (`https://synthpulseai.com/`). Both rail config entries and all pre-existing artwork remain unchanged. Links retain `rel="sponsored noopener"` and `target="_blank"`; per-size network precedence, the 320×50 frame, prepaint reservation, and session close behavior are preserved. Mobile art is visible at the left with solid theme-token surfaces behind the copy and disclosure. The exact compact CTA override is in config because locale JSON is outside H3's allowed edits; the headline and disclosure still use existing JSON copy.
+
+Built-in image generation produced an original painterly wrapped-gifts/ribbons/warm-lights banner without text or logos. Sharp center-cropped/resized/compressed the generated PNG into these new files (strict ceiling 15,000 bytes each):
+
+| Path | Dimensions | Bytes |
+| --- | --- | ---: |
+| `public/images/promos/christmas-gifts-320x50.webp` | 320×50 | 2,916 |
+| `public/images/promos/christmas-gifts-320x50.avif` | 320×50 | 4,277 |
+| `public/images/promos/christmas-gifts-640x100.webp` | 640×100 | 7,970 |
+| `public/images/promos/christmas-gifts-640x100.avif` | 640×100 | 12,171 |
+
+The PNG master remains outside the repo at `/Users/alex/.codex/generated_images/01a1e531-3299-77f3-aaac-cb2c79da9234/exec-4f2bde92-5baa-4967-b886-83d44cfe020d.png`. Exact built-in generation prompt:
+
+```text
+Use case: ads-marketing
+Asset type: original painterly holiday banner artwork, to be resized into a tiny 320x50 pixel horizontal strip (6.4:1).
+Primary request: wrapped Christmas gifts with elegant ribbons and warm glowing holiday lights, absolutely no text or logos.
+Style/medium: high-quality painterly digital illustration, dimensional storybook game art, visible soft brush texture, crisp large readable forms, warm gold light and cool deep indigo shadows, jewel teal, cranberry and golden ribbon accents. Cozy and handcrafted, never glossy plastic or flat vector.
+Composition/framing: very wide horizontal panorama. Keep the few large gifts, bows and warm lights in a narrow horizontal central band so a 6.4:1 center crop preserves their clear silhouettes; generous quiet deep indigo negative space across the middle for separate HTML copy. Strong beautiful gift cluster at the left, a smaller warm light cluster at the right. No excessive tiny clutter.
+Constraints: original still-life, no characters, no humans, no letters, numbers, typography, labels, logos, brands, watermarks, borders or UI. Opaque background.
+```
+
+Validation on 2026-11-16:
+
+- `pnpm lint` passed. `pnpm typecheck` reported 0 errors/warnings/hints; content sync still prints the existing missing tutorials-directory glob warning.
+- `pnpm exec vitest run tests/ads-slots.test.ts`: 16/16 passed. Coverage includes the real mobile/desktop anchor destinations and sponsored/new-tab attributes, exact mobile copy and image dimensions, four asset byte ceilings, and the exclusive 767px/768px switch, alongside existing dismissal/consent/reservation tests.
+- Requested chained verification was attempted. Full `pnpm test`: 25 suites passed, 1 failed; 498 passed, 11 skipped, 3 failed. The same unchanged content-links fixture failures recorded by H2 are caused by sandbox `listen EPERM` on the `tsx` CLI IPC socket. Running that exact fixture with `node --import tsx` verified all four original assertions (three diagnostics plus asset exclusion) successfully without changing the fixture or repository test runner.
+- Ran `pnpm build` separately after the chain stopped. Astro generated all 332 pages, Pagefind indexed 313, and Pagefind transpilation completed. The final `tsx scripts/write-indexnow-key.ts` step failed with the same sandbox IPC restriction. `node --import tsx scripts/write-indexnow-key.ts` then completed successfully. Build log: `/tmp/h3-mobile-xmas-build.log`.
+- Requested 375×812 and 1600×900 screenshots could not be captured: installed Playwright Chromium 1248 fails before launch with `MachPortRendezvousServer ... Permission denied (1100)` under the managed sandbox, in both shell and node runtime. The ego-browser fallback also cannot start its macOS service (`Connection invalid`). No approval escalation is available. No server was started or left running. The breakpoint and shell geometry are verified by tests; browser visual/CLS measurement remains unverified in this environment.

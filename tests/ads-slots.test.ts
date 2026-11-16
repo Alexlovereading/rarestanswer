@@ -1,9 +1,10 @@
-import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { runInNewContext } from 'node:vm';
 import { build } from 'esbuild';
+import sharp from 'sharp';
 import { describe, expect, test } from 'vitest';
 import { HOUSE_ADS, type HouseAdImage, type HouseAds } from '../src/config/house-ads';
 import en from '../src/locales/en.json';
@@ -112,13 +113,19 @@ const houseAdsFixture: HouseAds = {
     sponsored: true,
   },
   anchor: {
-    href: 'https://synthpulseai.com/',
-    images: {
-      desktop: fixtureCreative('ai-music', 728, 90),
-      mobile: fixtureCreative('ai-music', 320, 50),
+    desktop: {
+      href: 'https://synthpulseai.com/',
+      images: { desktop: fixtureCreative('ai-music', 728, 90) },
+      ...en.houseAds.synthpulse,
+      sponsored: true,
     },
-    ...en.houseAds.synthpulse,
-    sponsored: true,
+    mobile: {
+      href: 'https://fivoraco.com/house/20-christmas-gift-ideas/',
+      images: { desktop: fixtureCreative('christmas-gifts', 320, 50) },
+      ...en.houseAds.christmas,
+      ctaLabel: 'See the guide',
+      sponsored: true,
+    },
   },
 };
 
@@ -234,7 +241,7 @@ function runtime(
 }
 
 describe('reserved ads outside the game', () => {
-  test('shipped house config renders three sponsored ads with placeholders disabled', async () => {
+  test('shipped house config renders sponsored ads with placeholders disabled', async () => {
     const vars = read('wrangler.toml').match(/(?:^|\n)\[vars\]\r?\n([\s\S]*?)(?=\r?\n\[|$)/)![1];
     const env: AdEnv = Object.fromEntries(
       [...vars.matchAll(/^(PUBLIC_\w+)\s*=\s*"([^"]*)"\s*$/gm)].map((match) => [
@@ -248,7 +255,7 @@ describe('reserved ads outside the game', () => {
       left: 'https://fivoraco.com/house/20-christmas-gift-ideas/',
       right: 'https://join.trendndailyofficial.com/aff_c?offer_id=16783&aff_id=2130',
       desktop: 'https://synthpulseai.com/',
-      mobile: 'https://synthpulseai.com/',
+      mobile: 'https://fivoraco.com/house/20-christmas-gift-ideas/',
     };
     for (const placement of ['left', 'right', 'desktop', 'mobile'] as const) {
       expect(resolvePlacement(env, placement).provider).toBe('house');
@@ -270,11 +277,57 @@ describe('reserved ads outside the game', () => {
     expect(html).toContain('has-site-ad-rails');
     expect(html).toContain('has-site-ad-anchor');
     expect(html.match(/id="site-anchor-ad"/g)).toHaveLength(1);
-    // The anchor has desktop and mobile variants of the same SynthPulse promotion.
+    // One anchor shell owns two distinct promotions, selected at 768px.
     expect(html.match(/data-ad-provider="house"/g)).toHaveLength(4);
     expect(html.match(/rel="sponsored noopener" target="_blank"/g)).toHaveLength(4);
     expect(html.match(/class="house-ad-sponsored">Sponsored<\/span>/g)).toHaveLength(4);
     expect(html).not.toMatch(/<iframe|<ins|data-ad-provider="placeholder"/);
+  });
+
+  test('anchor wrappers render the holiday mobile link and preserve desktop SynthPulse', async () => {
+    const html = await render(anchorFile, {}, { siteWide: true });
+    const mobile = html.match(/class="site-anchor-mobile">([\s\S]*?)<\/a>/)![1];
+    const desktop = html.match(/class="site-anchor-desktop">([\s\S]*?)<\/a>/)![1];
+    expect(mobile).toContain('href="https://fivoraco.com/house/20-christmas-gift-ideas/"');
+    expect(mobile).toContain('rel="sponsored noopener" target="_blank"');
+    expect(mobile).toContain('Christmas gift ideas');
+    expect(mobile).toContain('See the guide');
+    expect(mobile).toContain('class="house-ad-sponsored">Sponsored</span>');
+    expect(mobile).toContain('christmas-gifts-320x50.webp');
+    expect(mobile).toContain('width="320" height="50"');
+    expect(mobile).not.toMatch(/synthpulseai|ai-music/);
+    expect(desktop).toContain('href="https://synthpulseai.com/"');
+    expect(desktop).toContain('rel="sponsored noopener" target="_blank"');
+    expect(desktop).toContain('Try SynthPulse');
+    expect(desktop).toContain('ai-music-728x90.webp');
+    expect(desktop).not.toContain('fivoraco');
+  });
+
+  test('mobile holiday exports match their dimensions and stay below 15KB', async () => {
+    for (const [width, height] of [
+      [320, 50],
+      [640, 100],
+    ]) {
+      for (const format of ['webp', 'avif']) {
+        const file = join(
+          root,
+          `public/images/promos/christmas-gifts-${width}x${height}.${format}`,
+        );
+        expect(statSync(file).size).toBeLessThanOrEqual(15_000);
+        const metadata = await sharp(file).metadata();
+        expect(metadata.width).toBe(width);
+        expect(metadata.height).toBe(height);
+      }
+    }
+  });
+
+  test.each([767, 768])('anchor shows only its matching variant at %ipx', (width) => {
+    const state = runtime('house', width);
+    expect(
+      state.units
+        .filter((unit) => unit.classList.contains('site-ad-ready'))
+        .map((unit) => unit.placement),
+    ).toEqual([width < 768 ? 'mobile' : 'desktop']);
   });
 
   test('disabled house ads, empty env and placeholders=false render no shell or network code', async () => {
@@ -407,8 +460,12 @@ describe('reserved ads outside the game', () => {
     expect(houseAdsFixture['rail-right']?.href).toBe(
       'https://join.trendndailyofficial.com/aff_c?offer_id=16783&aff_id=2130',
     );
-    expect(houseAdsFixture.anchor?.href).toBe('https://synthpulseai.com/');
-    for (const ad of Object.values(houseAdsFixture)) {
+    expect(houseAdsFixture.anchor?.desktop?.href).toBe('https://synthpulseai.com/');
+    expect(houseAdsFixture.anchor?.mobile?.href).toBe(
+      'https://fivoraco.com/house/20-christmas-gift-ideas/',
+    );
+    for (const placement of ['left', 'right', 'desktop', 'mobile'] as const) {
+      const ad = resolvePlacement({}, placement, houseAdsFixture).houseAd!;
       for (const image of Object.values(ad.images)) {
         expect(existsSync(join(root, 'public', image.src))).toBe(true);
         for (const srcSet of [image.srcSet, image.avifSrcSet]) {

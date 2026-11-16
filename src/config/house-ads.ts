@@ -22,7 +22,11 @@ export interface HouseAd {
   sponsored: true;
 }
 
-export type HouseAds = Readonly<Partial<Record<HouseAdPlacement, HouseAd>>>;
+export type HouseAds = Readonly<
+  Partial<Record<Exclude<HouseAdPlacement, 'anchor'>, HouseAd>> & {
+    anchor?: Readonly<Partial<Record<'desktop' | 'mobile', HouseAd>>>;
+  }
+>;
 
 function creative(stem: string, width: number, height: number): HouseAdImage {
   const base = `/images/promos/${stem}`;
@@ -54,12 +58,19 @@ export const HOUSE_ADS: HouseAds = {
     sponsored: true,
   },
   anchor: {
-    href: 'https://synthpulseai.com/',
-    images: {
-      desktop: creative('ai-music', 728, 90),
-      mobile: creative('ai-music', 320, 50),
+    desktop: {
+      href: 'https://synthpulseai.com/',
+      images: { desktop: creative('ai-music', 728, 90) },
+      ...en.houseAds.synthpulse,
+      sponsored: true,
     },
-    ...en.houseAds.synthpulse,
-    sponsored: true,
+    mobile: {
+      href: 'https://fivoraco.com/house/20-christmas-gift-ideas/',
+      images: { desktop: creative('christmas-gifts', 320, 50) },
+      ...en.houseAds.christmas,
+      // Owner-requested compact mobile CTA; keep the rail's locale copy intact.
+      ctaLabel: 'See the guide',
+      sponsored: true,
+    },
   },
 };
