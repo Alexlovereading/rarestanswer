@@ -54,6 +54,7 @@
     "noArticles": "Nothing here yet.",
     "defaultListDescription": "Browse the {title} pages.",
     "relatedArticles": "Related reading",
+    "relatedPlay": "Play the daily round",
     "onThisPage": "On this page",
     "browseAll": "Browse all",
     "viewAll": "View all",
@@ -223,12 +224,12 @@
   },
   "overview": {
     "games": {
-      "overviewTitle": "Games Like Krillion & Other Daily Trivia Games",
-      "overviewDescription": "Unofficial pages about games like Krillion and other daily trivia games, and how they sit next to Rarest Answer."
+      "overviewTitle": "Games Like Krillion & Daily Rare-Answer Games ({count})",
+      "overviewDescription": "Unofficial notes on {count} daily games: what each one is, one way it differs, and how it sits next to this site. Rarest Answer is not those games."
     },
     "guides": {
-      "overviewTitle": "Rarest Answer Guides & Strategy",
-      "overviewDescription": "Rarest Answer guides and strategy: how to play the daily trivia game and how to find rare answers."
+      "overviewTitle": "Rarest Answer Guides: Strategy, Rules & Tips ({count})",
+      "overviewDescription": "{count} guides on the rules, finding a rare answer, party and classroom play, animal and geography prompts, and a dated snapshot of the Roblox party game."
     }
   },
   "home": {

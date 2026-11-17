@@ -8,6 +8,7 @@
 import { siteUrl } from '~/config/site';
 import { site } from '~/config/site';
 import { defaultLocale, type Locale } from '~/i18n/routing';
+import type { CategoryKey } from '~/lib/game/types';
 import { detailPath, homeUrl, listPath } from './url';
 
 /** Organization JSON-LD — injected globally in BaseLayout. */
@@ -310,6 +311,63 @@ export function pageTitle(title: string): string {
   if (title.includes(site.game.name)) return title;
   const suffix = title.length > 50 ? site.shortName : site.name;
   return `${title} — ${suffix}`;
+}
+
+/**
+ * List-page titles and descriptions keep `{count}` until render, so the
+ * number is the articles actually published — not a figure typed into JSON.
+ */
+export function withArticleCount(template: string, count: number): string {
+  return template.replaceAll('{count}', String(count));
+}
+
+/**
+ * Games and guides only. A tag names a trivia category, or the slug is one
+ * of the pages whose topic is a single category. Two different hits, or
+ * none, means the page is not clearly about one category.
+ */
+const TAG_TO_TRIVIA: Record<string, CategoryKey> = {
+  geography: 'geography',
+  animals: 'animals',
+  animal: 'animals',
+  food: 'food',
+  sports: 'sports',
+  football: 'sports',
+  screen: 'screen',
+  movies: 'screen',
+  'movies-and-tv': 'screen',
+  music: 'music',
+  science: 'science',
+  history: 'history',
+};
+
+const SLUG_TO_TRIVIA: Record<string, CategoryKey> = {
+  'ball-knowledge-game': 'sports',
+  'farflung-game': 'geography',
+  'rarest-answer-game-tips-geography': 'geography',
+  'rarest-answers-animals': 'animals',
+  'stranger-things-characters-trivia': 'screen',
+};
+
+export function triviaCategoryForArticle(opts: {
+  category: string;
+  slug: string;
+  tags: readonly string[];
+}): CategoryKey | null {
+  if (opts.category !== 'games' && opts.category !== 'guides') return null;
+  const fromTags = new Set<CategoryKey>();
+  for (const tag of opts.tags) {
+    const key = TAG_TO_TRIVIA[tag.trim().toLowerCase()];
+    if (key) fromTags.add(key);
+  }
+  if (fromTags.size > 1) return null;
+  const fromSlug = SLUG_TO_TRIVIA[opts.slug];
+  if (fromTags.size === 1) {
+    const tagHit = [...fromTags][0];
+    if (fromSlug && fromSlug !== tagHit) return null;
+    return tagHit;
+  }
+  return fromSlug ?? null;
 }
 
 /**

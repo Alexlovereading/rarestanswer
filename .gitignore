@@ -61,3 +61,8 @@ out/
 ops/
 .agent-logs/
 .cache/
+
+# GSC OAuth credentials (local only, never commit)
+data/google-audit-client.json
+data/gsc-oauth-token.json
+data/gsc/

@@ -41,8 +41,9 @@ import { getUi } from '~/i18n/ui';
 import { getRelatedEntries, getEntriesByCategory, isPossiblyOutdated, parseEntryId, slugifyTag, estimateReadMinutes, type WikiEntry, type ResolvedEntry } from '~/lib/content';
 import LazyYouTube from '~/components/video/LazyYouTube.astro';
 import SponsorCard from '~/components/article/SponsorCard.astro';
-import { articleJsonLd, breadcrumbJsonLd, pageTitle, videoObjectJsonLd, imageObjectJsonLd, recipeJsonLd } from '~/lib/seo';
-import { listPath, detailPath, tagPath, homeUrl } from '~/lib/url';
+import { CATEGORY_PAGES } from '~/lib/game/category-copy';
+import { articleJsonLd, breadcrumbJsonLd, pageTitle, triviaCategoryForArticle, videoObjectJsonLd, imageObjectJsonLd, recipeJsonLd } from '~/lib/seo';
+import { listPath, detailPath, tagPath, homeUrl, localizePath } from '~/lib/url';
 import { site } from '~/config/site';
 import { getAuthor } from '~/config/authors';
 
@@ -84,6 +85,24 @@ const coverUrl = entry.data.image
 // page (locale=ja serving English) the requested-locale pool doesn't contain
 // this entry's siblings and "Related" would silently disappear.
 const related = await getRelatedEntries(entry, servedLocale, 3);
+const triviaKey =
+  category === 'games' || category === 'guides'
+    ? triviaCategoryForArticle({ category, slug, tags: entry.data.tags })
+    : null;
+const contextLinks =
+  category === 'games' || category === 'guides'
+    ? [
+        { href: homeUrl(locale), label: shared.relatedPlay },
+        ...(triviaKey
+          ? [
+              {
+                href: localizePath(`/trivia/${triviaKey}/`, locale),
+                label: CATEGORY_PAGES[triviaKey].h1,
+              },
+            ]
+          : []),
+      ]
+    : [];
 
 // Visible codes FAQ. The questions stay on the page; they are not JSON-LD.
 const codesFaqItems =
@@ -476,9 +495,10 @@ const jsonLd = [
     <AdsterraSlotPair>
     {/* Related */}
     {
-      related.length > 0 && (
+      (related.length > 0 || contextLinks.length > 0) && (
         <section class="mt-12 border-t border-border pt-8">
           <h2 class="text-xl font-bold">{shared.relatedArticles}</h2>
+          {related.length > 0 && (
           <div class="mt-4 grid gap-4 sm:grid-cols-3">
             {related.map((rel: WikiEntry) => {
               const relSlug = parseEntryId(rel.id)?.slug ?? '';
@@ -505,6 +525,16 @@ const jsonLd = [
               );
             })}
           </div>
+          )}
+          {contextLinks.length > 0 && (
+            <ul class="mt-4 list-none space-y-2 p-0">
+              {contextLinks.map((link) => (
+                <li>
+                  <a href={link.href} class="font-medium text-nav hover:underline">{link.label}</a>
+                </li>
+              ))}
+            </ul>
+          )}
         </section>
       )
     }

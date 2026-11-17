@@ -19,7 +19,7 @@ import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { estimateReadMinutes, getEntriesByCategory, parseEntryId } from '~/lib/content';
 import { toDealMerchants } from '~/lib/content-utils';
-import { itemListJsonLd, pageTitle, simpleBreadcrumbJsonLd } from '~/lib/seo';
+import { itemListJsonLd, simpleBreadcrumbJsonLd, withArticleCount } from '~/lib/seo';
 import { CATEGORY_PAGES } from '~/lib/game/category-copy';
 import { detailPath, homeUrl, listPath, localizePath } from '~/lib/url';
 
@@ -38,16 +38,20 @@ const overview = (
 )[category];
 const navItem = NAVIGATION_CONFIG.find((n) => n.key === category);
 
-const title = overview?.overviewTitle ?? nav[category] ?? category;
+const entries = await getEntriesByCategory(category, locale);
+const articleCount = entries.length;
+// `{count}` stays in the locale strings until here, so the number is the
+// articles on this page rather than a figure written into JSON.
+const title = withArticleCount(overview?.overviewTitle ?? nav[category] ?? category, articleCount);
 // Localized default (locale JSON shared.defaultListDescription) — a hardcoded
 // English sentence here would leak into every locale the moment a fork adds
 // a 5th category without an overview entry. `|| title` (not ??) so an empty
 // locale string genuinely falls back to the bare title.
-const description =
+const description = withArticleCount(
   overview?.overviewDescription ??
-  (String(shared.defaultListDescription ?? '').replace('{title}', title) || title);
-
-const entries = await getEntriesByCategory(category, locale);
+    (String(shared.defaultListDescription ?? '').replace('{title}', title) || title),
+  articleCount,
+);
 
 // Coupon-hub presentation variant: the codes list becomes a merchant-grouped
 // deals board instead of article cards. Build-time signal from site.ts —
@@ -124,7 +128,7 @@ const jsonLd = [
      sitemap filter excludes the same paths (astro.config.ts). -->
 <LocaleLayout
   locale={locale}
-  title={pageTitle(title)}
+  title={title}
   description={description}
   alternates={alternates}
   jsonLd={jsonLd}

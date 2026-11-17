@@ -3,11 +3,19 @@
  *
  * `prompts.ts` validates JSON, then calls `derivePromptSeo`.
  * Category labels come from `shared.categories` in the locale file.
- * An optional `seoNoun` overrides the title noun ("Rarest <noun>").
+ * An optional `seoNoun` overrides the title noun.
  * Without it, the noun is the object of the question:
  * "Name a species of great ape" → "Species of Great Ape".
+ *
+ * Answer-page titles lead with "Rare <plural noun>" and the rarest ranked
+ * name. `noData` answers are never that name. The document title stays within
+ * 60 characters; `answerTitleSuffix` drops " — Rarest Answer" when the suffix
+ * would push the answer out of that window.
+ * The opening says "The rarest <noun> on this list is …" once.
+ * `answerSeoSentence` may add one more sentence for a slug.
  */
 
+import { answerSeoSentence } from '~/config/answer-seo';
 import { defaultLocale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { TIERS, type Answer, type CategoryKey, type Prompt } from '~/lib/game/types';
@@ -66,7 +74,12 @@ export interface PromptSeo {
   source: string;
   nounTitle: string;
   nounPhrase: string;
+  /** Hub card title. The answer page H1 is `h1`. */
   heading: string;
+  /** Visible H1. Same opening as `documentTitle`, and it may run a little longer. */
+  h1: string;
+  /** `<title>` core, at most 60 characters. Brand suffix is decided separately. */
+  documentTitle: string;
   crumb: string;
   description: string;
   /** One- or two-sentence lead under the title. */
@@ -298,22 +311,108 @@ function pluralPhrase(phrase: string): string {
   return words.join(' ');
 }
 
-/** Pluralize the head noun, not the object of "in"/"of" ("country in Africa" → "countries in Africa"). */
-function pluralHead(phrase: string): string {
-  const species = speciesLabel(phrase);
-  if (species) return species;
-  const orParts = phrase.split(/ or /i);
-  if (orParts.length > 1) return orParts.map((part) => pluralHead(part.trim())).join(' or ');
+/**
+ * Pluralize the head noun and keep the "of/in/…" tail.
+ * "Species of Great Ape" stays "Species of Great Ape" (species is invariant).
+ * This does not invert to "Great Ape species".
+ */
+function pluralHeadTitle(phrase: string): string {
   const prep = phrase.match(/^(.*?)(\s+(?:of|in|from|on|for|with|by)\s+.+)$/i);
-  if (prep?.[1] && prep[2]) return `${pluralPhrase(prep[1])}${prep[2]}`;
+  if (prep?.[1] && prep[2]) return `${pluralizeChunk(prep[1])}${prep[2]}`;
+  return pluralizeChunk(phrase);
+}
+
+function pluralizeChunk(phrase: string): string {
+  const parts = phrase.split(/ or /i);
+  if (parts.length > 1) return parts.map((part) => pluralPhrase(part.trim())).join(' or ');
   return pluralPhrase(phrase);
 }
 
-/** "species of great ape" → "great ape species" (species is invariant). */
-function speciesLabel(phrase: string): string | null {
-  const match = phrase.match(/^species of (.+)$/i);
-  if (!match?.[1]) return null;
-  return `${match[1]} species`;
+/** "Rare Species of Great Ape" — the phrasing searchers actually type. */
+function rarePluralTitle(nounTitle: string): string {
+  return `Rare ${pluralHeadTitle(nounTitle)}`;
+}
+
+const TITLE_MAX = 60;
+const BRAND_SUFFIX = ' — Rarest Answer';
+const DESC_MIN = 140;
+const DESC_MAX = 160;
+
+function clipTitle(text: string): string {
+  const clean = text.replace(/\s+/g, ' ').trim();
+  if (clean.length <= TITLE_MAX) return clean;
+  const cut = clean.slice(0, TITLE_MAX + 1);
+  const space = cut.lastIndexOf(' ');
+  const base = (space >= 28 ? cut.slice(0, space) : clean.slice(0, TITLE_MAX)).trimEnd();
+  return base.replace(/[\s:&,(–-]+$/u, '').trimEnd();
+}
+
+/**
+ * Lead with the search phrasing and the rarest ranked answer.
+ * Fall back to "Rarest <noun>: <answer> (<N> Ranked)" when the long form
+ * does not fit. `noData` names are not passed in as `rareName`.
+ */
+function buildDocumentTitle(
+  nounTitle: string,
+  rareName: string | null,
+  rankedCount: number,
+  total: number,
+): string {
+  const rareLabel = rarePluralTitle(nounTitle);
+  if (!rareName || rankedCount <= 0) {
+    const none = `${rareLabel}: None Ranked`;
+    if (none.length <= TITLE_MAX) return none;
+    const shorter = `Rarest ${nounTitle}: None Ranked`;
+    return shorter.length <= TITLE_MAX ? shorter : clipTitle(shorter);
+  }
+  const rankedLabel = rankedCount === total ? `All ${rankedCount} Ranked` : `${rankedCount} Ranked`;
+  const preferred = `${rareLabel}: ${rareName} & ${rankedLabel}`;
+  if (preferred.length <= TITLE_MAX) return preferred;
+  const fallback = `Rarest ${nounTitle}: ${rareName} (${rankedCount} Ranked)`;
+  if (fallback.length <= TITLE_MAX) return fallback;
+  const rareAndName = `${rareLabel}: ${rareName}`;
+  if (rareAndName.length <= TITLE_MAX) return rareAndName;
+  return clipTitle(preferred);
+}
+
+/** H1 matches the title and may spell out "and" when that still reads as a heading. */
+function buildSnippetH1(
+  nounTitle: string,
+  rareName: string | null,
+  rankedCount: number,
+  total: number,
+  documentTitle: string,
+): string {
+  const rareLabel = rarePluralTitle(nounTitle);
+  if (!rareName || rankedCount <= 0) {
+    const longer = `${rareLabel}: No Ranked Answer`;
+    return longer.length <= 90 ? longer : documentTitle;
+  }
+  const rankedLabel =
+    rankedCount === total ? `and All ${rankedCount} Ranked` : `and ${rankedCount} Ranked`;
+  const preferred = `${rareLabel}: ${rareName} ${rankedLabel}`;
+  if (preferred.length <= 90) return preferred;
+  const withName = `${rareLabel}: ${rareName}`;
+  if (withName.length <= 100) return withName;
+  return documentTitle;
+}
+
+/**
+ * Mirrors BaseLayout: undefined keeps " — Rarest Answer" when it still fits
+ * in 60 characters. '' means the suffix is dropped.
+ */
+export function answerTitleSuffix(core: string): '' | undefined {
+  if (core.includes('Rarest Answer')) return '';
+  if (core.length + BRAND_SUFFIX.length <= TITLE_MAX) return undefined;
+  return '';
+}
+
+/** The `<title>` string after BaseLayout's suffix rule. */
+export function renderedAnswerTitle(core: string): string {
+  if (answerTitleSuffix(core) === undefined && !core.includes('Rarest Answer')) {
+    return `${core}${BRAND_SUFFIX}`;
+  }
+  return core;
 }
 
 function capMeta(text: string): string {
@@ -350,46 +449,174 @@ function buildHeading(nounTitle: string, total: number, ranked: number): string 
   return `Rarest ${nounTitle} — All ${total} ${answers} Ranked by Rarity`;
 }
 
-function buildUnrankedDescription(nounPhrase: string, count: number): string {
-  const group = count === 1 ? nounPhrase : pluralHead(nounPhrase);
-  return capMeta(
-    `${count} ${group}. None of these answers has an English Wikipedia article, so none is ranked as the rarest.`,
-  );
+function measureShort(source: string): string {
+  const kind = measureKind(source);
+  if (kind === 'wiktionary') return 'Wiktionary views';
+  if (kind === 'stored') return 'stored popularity';
+  return 'Wikipedia views';
 }
 
-function buildDescription(
-  rare: Answer,
-  nounPhrase: string,
-  count: number,
+function quotedAsked(question: string, max?: number): string {
+  let asked = stripEndPunctuation(question).replace(/"/g, "'");
+  if (max != null && asked.length > max) {
+    const cut = asked.slice(0, Math.max(0, max - 1));
+    const space = cut.lastIndexOf(' ');
+    const base = (space > 20 ? cut.slice(0, space) : cut).trimEnd();
+    asked = `${base}…`;
+  }
+  return `"${asked}"`;
+}
+
+function alsoNames(ranked: readonly SeoAnswer[]): SeoAnswer[] {
+  return ranked.slice(1, 3);
+}
+
+function alsoSentence(names: readonly SeoAnswer[]): string {
+  if (names.length === 0) return '';
+  const label = names.every((answer) => answer.tier >= 4) ? 'Also rare' : 'Next rarest';
+  return ` ${label}: ${names.map((answer) => answer.name).join(', ')}.`;
+}
+
+function descriptionPads(source: string): string[] {
+  const kind = measureKind(source);
+  const window =
+    kind === 'stored'
+      ? ' Stored popularity on this prompt.'
+      : kind === 'wiktionary'
+        ? ' Wiktionary pageviews, last 12 months.'
+        : ' Wikipedia pageviews, last 12 months.';
+  return [' Ranked rarest first.', ' Full list on this page.', window];
+}
+
+function clipDescription(text: string): string {
+  const clean = text.replace(/\s+/g, ' ').trim();
+  if (clean.length <= DESC_MAX) return clean;
+  const cut = clean.slice(0, DESC_MAX - 1);
+  const space = cut.lastIndexOf(' ');
+  const base = (space >= 110 ? cut.slice(0, space) : cut).trimEnd().replace(/[,:;]$/g, '');
+  const clipped = `${base}…`;
+  return clipped.length <= DESC_MAX ? clipped : clipped.slice(0, DESC_MAX);
+}
+
+/** Keep a complete sentence inside 140–160 characters when the candidates allow it. */
+function clampDescription(candidates: string[], pads: string[]): string {
+  const clean = [
+    ...new Set(candidates.map((item) => item.replace(/\s+/g, ' ').trim()).filter(Boolean)),
+  ];
+  const inRange = clean.find((item) => item.length >= DESC_MIN && item.length <= DESC_MAX);
+  if (inRange) return inRange;
+  const under = clean.filter((item) => item.length < DESC_MIN).sort((a, b) => b.length - a.length);
+  if (under.length > 0) {
+    let text = under[0] ?? '';
+    for (const pad of pads) {
+      if (text.length >= DESC_MIN) break;
+      const next = `${text}${pad}`;
+      if (next.length <= DESC_MAX) text = next;
+    }
+    if (text.length >= DESC_MIN && text.length <= DESC_MAX) return text;
+    if (text.length < DESC_MIN) {
+      const filler = ' The ranking is published on this page.';
+      if (text.length + filler.length <= DESC_MAX) text += filler;
+    }
+    if (text.length >= DESC_MIN && text.length <= DESC_MAX) return text;
+  }
+  const over = clean.filter((item) => item.length > DESC_MAX).sort((a, b) => a.length - b.length);
+  return clipDescription(over[0] ?? clean[0] ?? '');
+}
+
+function buildSnippetDescription(
+  rare: SeoAnswer | undefined,
+  ranked: readonly SeoAnswer[],
+  total: number,
   question: string,
   source: string,
-  seoNoun?: string,
 ): string {
-  const group = count === 1 ? nounPhrase : pluralHead(nounPhrase);
-  const heading = measureHeading(source);
-  const rankedBy =
-    heading === 'Stored popularity' ? 'Ranked by stored popularity.' : `Ranked by ${heading}.`;
-  let text = `${count} ${group}. ${rare.name} is the rarest (${tierName(rare.tier)}). ${rankedBy}`;
-  const asked = stripEndPunctuation(question);
-  const withQuestion = ` “${asked}”.`;
-  if (
-    asked &&
-    !text.toLowerCase().includes(asked.toLowerCase()) &&
-    text.length + withQuestion.length <= 165
-  ) {
-    text += withQuestion;
+  const measure = measureShort(source);
+  const asked = quotedAsked(question);
+  const shortAsked = quotedAsked(question, 42);
+  const pads = descriptionPads(source);
+  if (!rare) {
+    return clampDescription(
+      [
+        `No ranked rarest answer for ${asked}. All ${total} accepted answers lack an English Wikipedia article, so none is ranked. They stay on the list as unranked names.`,
+        `No ranked rarest answer. All ${total} accepted answers lack an English Wikipedia article, so none is called the rarest. They stay unranked on this list.`,
+      ],
+      pads,
+    );
   }
-  const noun = seoNoun?.trim();
-  if (noun && !text.toLowerCase().includes(noun.toLowerCase())) {
-    const withNoun = `${noun}. ${text}`;
-    if (withNoun.length <= 165) text = withNoun;
+  const lead = `Rarest answer: ${rare.name} (${tierName(rare.tier)}).`;
+  const alsoFull = alsoSentence(alsoNames(ranked));
+  const alsoOne = alsoSentence(alsoNames(ranked).slice(0, 1));
+  const bridges = [
+    ` All ${total} accepted answers to ${asked}, ranked by ${measure}.`,
+    ` All ${total} answers to ${asked}, ranked by ${measure}.`,
+    ` ${total} answers to ${asked}, ranked by ${measure}.`,
+    ` All ${total} accepted answers to ${shortAsked}, ranked by ${measure}.`,
+    ` For ${asked}, ranked by ${measure}.`,
+    ` ${asked}, ranked by ${measure}.`,
+    ` All ${total} accepted answers, ranked by ${measure}.`,
+    ` Ranked by ${measure}.`,
+  ];
+  const candidates: string[] = [];
+  for (const extra of [alsoFull, alsoOne, '']) {
+    for (const bridge of bridges) candidates.push(`${lead}${extra}${bridge}`);
   }
-  if (text.length > 165) {
-    const core = `${count} ${group}. ${rare.name} is the rarest (${tierName(rare.tier)}). ${rankedBy}`;
-    return capMeta(core.length <= 165 ? core : `${count} ${group}. ${rare.name} is the rarest (${tierName(rare.tier)}).`);
+  return clampDescription(candidates, pads);
+}
+
+function gameDisclaimer(source: string): string {
+  const kind = measureKind(source);
+  if (kind === 'wiktionary') {
+    return 'If you met this prompt in Krillion or another rare-answer game, rarity here is English Wiktionary pageviews over the last 12 months.';
   }
-  if (text.length >= 40) return text;
-  return capMeta(`${text} Ranked from rarest to most common.`);
+  if (kind === 'stored') {
+    return 'If you met this prompt in Krillion or another rare-answer game, rarity here is the stored popularity on this list.';
+  }
+  return 'If you met this prompt in Krillion or another rare-answer game, rarity here is English Wikipedia pageviews over the last 12 months.';
+}
+
+/** "The rarest <noun> on this list is <name>." Empty when nothing is ranked. */
+function rarestNounLine(nounPhrase: string, ranked: readonly SeoAnswer[]): string {
+  const rare = ranked[0];
+  if (!rare) return '';
+  const cluster = ranked.filter((answer) => answer.rarity === rare.rarity);
+  if (cluster.length > 1) {
+    const shown = cluster.slice(0, 3).map((answer) => answer.name);
+    const more = cluster.length > 3 ? `, and ${cluster.length - 3} more` : '';
+    return `The rarest ${nounPhrase} on this list are ${joinNames(shown)}${more}.`;
+  }
+  return `The rarest ${nounPhrase} on this list is ${rare.name}.`;
+}
+
+function buildSnippetIntro(
+  slug: string,
+  nounPhrase: string,
+  source: string,
+  ranked: readonly SeoAnswer[],
+): string {
+  const looking = `Looking for a rare ${nounPhrase} to name?`;
+  const ask = `name a rare ${nounPhrase}`;
+  const extra = answerSeoSentence(slug);
+  const disclaimer = extra ? `${extra} ${gameDisclaimer(source)}` : gameDisclaimer(source);
+  const rare = ranked[0];
+  if (!rare) {
+    return `${looking} None of the accepted answers has an English Wikipedia article, so none is ranked as the rarest ${nounPhrase}. ${disclaimer}`;
+  }
+  const tier = tierName(rare.tier);
+  const cluster = ranked.filter((answer) => answer.rarity === rare.rarity);
+  const least = measureKind(source) === 'stored' ? 'lowest stored-popularity' : 'least-viewed';
+  const nounLine = rarestNounLine(nounPhrase, ranked);
+  if (cluster.length > 1) {
+    const shown = cluster.slice(0, 3).map((answer) => answer.name);
+    const more = cluster.length > 3 ? `, and ${cluster.length - 3} more` : '';
+    return `${looking} ${nounLine} The rarest accepted answers are ${joinNames(shown)}${more} (${tier}). To ${ask}, start with those ${least} ranked answers. ${disclaimer}`;
+  }
+  const answerSentence = `The rarest accepted answer is ${rare.name} (${tier}).`;
+  const follow =
+    ranked.length === 1
+      ? `To ${ask}, that is the only ranked answer.`
+      : `To ${ask}, start with that ${least} ranked answer.`;
+  return `${looking} ${nounLine} ${answerSentence} ${follow} ${disclaimer}`;
 }
 
 export function derivePromptSeo(input: PromptInput): PromptSeo {
@@ -398,6 +625,13 @@ export function derivePromptSeo(input: PromptInput): PromptSeo {
   const ranked = rankedAnswers(answers);
   const rare = ranked[0];
   const { nounTitle, nounPhrase } = deriveNoun(input.question, input.seoNoun);
+  const documentTitle = buildDocumentTitle(
+    nounTitle,
+    rare?.name ?? null,
+    ranked.length,
+    answers.length,
+  );
+  const h1 = buildSnippetH1(nounTitle, rare?.name ?? null, ranked.length, answers.length, documentTitle);
   const heading = buildHeading(nounTitle, answers.length, ranked.length);
   const player = buildPlayerCopy({
     slug: input.slug,
@@ -414,11 +648,11 @@ export function derivePromptSeo(input: PromptInput): PromptSeo {
     nounTitle,
     nounPhrase,
     heading,
-    crumb: ranked.length > 0 ? `Rarest ${nounTitle}` : nounTitle,
-    description: rare
-      ? buildDescription(rare, nounPhrase, answers.length, input.question, input.source, input.seoNoun)
-      : buildUnrankedDescription(nounPhrase, answers.length),
-    intro: `${rarityBasis(input.source)} ${player.lead}`,
+    h1,
+    documentTitle,
+    crumb: rarePluralTitle(nounTitle),
+    description: buildSnippetDescription(rare, ranked, answers.length, input.question, input.source),
+    intro: buildSnippetIntro(input.slug, nounPhrase, input.source, ranked),
     guide: player.guide,
     viewsNote: player.viewsNote,
     viewsHeading: player.viewsHeading,
@@ -464,8 +698,8 @@ export function selectRelated(prompt: PromptSeo, all: readonly PromptSeo[]): Pro
 
 function descriptionWithMarker(description: string, marker: string): string {
   const suffix = ` ${marker}`;
-  const room = 165 - suffix.length;
-  if (room < 8) return marker.slice(0, 165);
+  const room = DESC_MAX - suffix.length;
+  if (room < 8) return marker.slice(0, DESC_MAX);
   const clean = description.replace(/\s+/g, ' ').trim();
   if (clean.length <= room) return `${clean}${suffix}`;
   const cut = clean.slice(0, Math.max(0, room - 1));
@@ -514,6 +748,40 @@ export function ensureUniquePromptMeta(prompts: PromptSeo[]): void {
         : marked;
     }
   }
+
+  const titleGroupsRendered = new Map<string, PromptSeo[]>();
+  for (const prompt of prompts) {
+    const key = renderedAnswerTitle(prompt.documentTitle);
+    const group = titleGroupsRendered.get(key);
+    if (group) group.push(prompt);
+    else titleGroupsRendered.set(key, [prompt]);
+  }
+  for (const group of titleGroupsRendered.values()) {
+    if (group.length < 2) continue;
+    for (const prompt of group) {
+      const withSlug = disambiguateDocumentTitle(prompt.documentTitle, prompt.slug, '(');
+      const slugTaken = prompts.some(
+        (other) =>
+          other !== prompt &&
+          renderedAnswerTitle(other.documentTitle) === renderedAnswerTitle(withSlug),
+      );
+      prompt.documentTitle = slugTaken
+        ? disambiguateDocumentTitle(prompt.documentTitle, prompt.slug, '[')
+        : withSlug;
+    }
+  }
+}
+
+function disambiguateDocumentTitle(core: string, slug: string, bracket: '(' | '['): string {
+  const marker = bracket === '(' ? ` (${slug})` : ` [${slug}]`;
+  if (core.length + marker.length <= TITLE_MAX) return `${core}${marker}`;
+  const room = TITLE_MAX - marker.length;
+  if (room < 8) return marker.trim().slice(0, TITLE_MAX);
+  const cut = core
+    .slice(0, room)
+    .trimEnd()
+    .replace(/[\s:&,(–-]+$/u, '');
+  return `${cut}${marker}`;
 }
 
 export function categoriesIn(prompts: readonly { category: CategoryKey }[]): CategoryKey[] {

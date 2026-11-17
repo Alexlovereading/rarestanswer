@@ -30,7 +30,7 @@ const label = categoryLabel(prompt.category);
 const shown = relatedPrompts(prompt);
 const mixed = shown.some((item) => item.category !== prompt.category);
 const relatedTitle = mixed ? labels.relatedPrompts : labels.morePrompts.replace('{category}', label);
-const pagefindTitle = prompt.heading.replace(/:/g, ' -');
+const pagefindTitle = prompt.h1.replace(/:/g, ' -');
 ---
 
 <article
@@ -51,7 +51,7 @@ const pagefindTitle = prompt.heading.replace(/:/g, ' -');
       <p class="text-xs font-semibold uppercase tracking-[0.14em] text-nav">
         <a class="hover:underline" href={hubCategoryPath(prompt.category)}>{label}</a>
       </p>
-      <h1 class="mt-2 text-3xl font-extrabold tracking-tight md:text-4xl">{prompt.heading}</h1>
+      <h1 class="mt-2 text-3xl font-extrabold tracking-tight md:text-4xl">{prompt.h1}</h1>
       <p class="mt-4 leading-relaxed text-muted-foreground">{prompt.intro}</p>
       <a class="btn-primary mt-5 min-h-11 gap-2" href={playPath(prompt.slug)}>
         <Icon name="lucide:play" class="h-4 w-4" aria-hidden="true" />

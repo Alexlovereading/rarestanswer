@@ -242,6 +242,137 @@ export function answerCountLabel(count: number): string {
   return `${count} answers`;
 }
 
+/** Search title. The site-name suffix stays off because the formula already names the game. */
+export function categorySearchTitle(label: string, count: number): string {
+  const unit = count === 1 ? 'Prompt' : 'Prompts';
+  return `${label} Trivia: Name the Rarest Answer (${count} ${unit})`;
+}
+
+/**
+ * Snippet with two real prompts. The pair is the first length-sorted combination
+ * that lands in 140–160 characters, then shown in alphabetical order.
+ */
+export function categorySearchDescription(
+  keyword: string,
+  count: number,
+  prompts: readonly Pick<CatalogPrompt, 'question' | 'slug'>[],
+): string {
+  if (prompts.length < 2) {
+    throw new Error(`${keyword} needs two real prompts for the description`);
+  }
+  const ordered = [...prompts].sort(
+    (a, b) =>
+      a.question.length - b.question.length ||
+      a.question.localeCompare(b.question, 'en') ||
+      a.slug.localeCompare(b.slug, 'en'),
+  );
+  for (let i = 0; i < ordered.length; i++) {
+    for (let j = i + 1; j < ordered.length; j++) {
+      const left = ordered[i];
+      const right = ordered[j];
+      if (!left || !right) continue;
+      const pair = [left, right].sort(
+        (a, b) => a.question.localeCompare(b.question, 'en') || a.slug.localeCompare(b.slug, 'en'),
+      );
+      const earlier = pair[0];
+      const later = pair[1];
+      if (!earlier || !later) continue;
+      const description = `Play ${count} ${keyword} prompts where the rarest correct answer wins — e.g. "${earlier.question}" and "${later.question}". Free daily and unlimited rounds.`;
+      if (description.length >= 140 && description.length <= 160) return description;
+    }
+  }
+  throw new Error(`${keyword} description does not fit 140–160 characters`);
+}
+
+/** Object of "Name a …", keeping the question's own capitals. */
+export function promptNoun(question: string): string {
+  const bare = question.replace(/[.?!]+$/u, '').trim();
+  const named = bare.match(/^name\s+(?:a|an|the|some|any)\s+(.+)$/i);
+  const noun = (named?.[1] ?? bare).trim();
+  return noun.length > 0 ? noun : 'answer';
+}
+
+export function rarestNounLabel(question: string): string {
+  return `rarest ${promptNoun(question)}`;
+}
+
+/** Most accepted answers first. Ties break on slug, then question. */
+export function topAnswerPrompts(prompts: readonly CatalogPrompt[], limit = 6): CatalogPrompt[] {
+  return [...prompts]
+    .sort(
+      (a, b) =>
+        b.answerCount - a.answerCount ||
+        a.slug.localeCompare(b.slug, 'en') ||
+        a.question.localeCompare(b.question, 'en'),
+    )
+    .slice(0, limit);
+}
+
+export function answerPageLinks(prompts: readonly CatalogPrompt[], limit = 6): TextLink[] {
+  return uniqueLinks(
+    topAnswerPrompts(prompts, limit).map((prompt) => ({
+      href: `/answers/${encodeURIComponent(prompt.slug)}/`,
+      label: rarestNounLabel(prompt.question),
+    })),
+    'category answer links',
+  );
+}
+
+/**
+ * Great-ape page first, then the largest prompt in each other category
+ * until `extra` more pages are chosen.
+ */
+export function popularAnswerLinks(catalog: readonly CatalogPrompt[], extra = 5): TextLink[] {
+  const first = catalog.find((prompt) => prompt.slug === 'great-ape-species');
+  const seen = new Set<CategoryKey>();
+  if (first) seen.add(first.category);
+  const rest = [...catalog]
+    .filter((prompt) => prompt.slug !== first?.slug)
+    .sort(
+      (a, b) =>
+        b.answerCount - a.answerCount ||
+        a.slug.localeCompare(b.slug, 'en') ||
+        a.question.localeCompare(b.question, 'en'),
+    );
+  const picked: CatalogPrompt[] = [];
+  for (const prompt of rest) {
+    if (seen.has(prompt.category)) continue;
+    seen.add(prompt.category);
+    picked.push(prompt);
+    if (picked.length === extra) break;
+  }
+  const pages = first ? [first, ...picked] : picked;
+  return uniqueLinks(
+    pages.map((prompt) => ({
+      href: `/answers/${encodeURIComponent(prompt.slug)}/`,
+      label: rarestNounLabel(prompt.question),
+    })),
+    'popular answer links',
+  );
+}
+
+function uniqueLinks(links: TextLink[], where: string): TextLink[] {
+  const seen = new Set<string>();
+  for (const link of links) {
+    const key = link.label.toLocaleLowerCase('en');
+    if (seen.has(key)) throw new Error(`${where} repeats “${link.label}”`);
+    seen.add(key);
+  }
+  return links;
+}
+
+/** Guides that are actually about that category. Other categories use the finding guide. */
+export const CATEGORY_GUIDE_LINKS: Partial<Record<CategoryKey, TextLink>> = {
+  geography: {
+    href: '/guides/rarest-answer-game-tips-geography/',
+    label: 'How to answer a geography prompt',
+  },
+  animals: {
+    href: '/guides/rarest-answers-animals/',
+    label: 'How the great-ape list is ranked',
+  },
+};
+
 const MEASURED = /wikipedia|wiktionary|page\s*views?/i;
 
 function run(text: string): NeighborRun {
@@ -601,19 +732,15 @@ export const CATEGORY_PAGES: Record<CategoryKey, CategoryPageCopy> = {
   },
 };
 
-for (const page of Object.values(CATEGORY_PAGES)) {
-  if (page.title.length > 60) {
-    throw new Error(`${page.key} title is ${page.title.length} characters`);
-  }
-  if (!page.title.includes('Rarest Answer')) {
-    throw new Error(`${page.key} title would pick up a site-name suffix`);
-  }
-  const length = page.description.length;
-  if (length < 140 || length > 160) {
-    throw new Error(`${page.key} description is ${length} characters`);
-  }
-  if (!page.description.toLowerCase().includes(page.keyword)) {
-    throw new Error(`${page.key} description is missing ${page.keyword}`);
+/**
+ * Search titles follow the live catalog. The strings above are replaced
+ * before any page reads them, then checked for length and the category keyword.
+ */
+function applyCategorySearchCopy(catalog: readonly CatalogPrompt[]): void {
+  for (const page of Object.values(CATEGORY_PAGES)) {
+    const prompts = promptsFor(catalog, page.key);
+    page.title = categorySearchTitle(page.label, prompts.length);
+    page.description = categorySearchDescription(page.keyword, prompts.length, prompts);
   }
 }
 
@@ -739,4 +866,22 @@ function joinList(items: readonly string[]): string {
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value);
+}
+
+applyCategorySearchCopy(loadCatalog());
+
+for (const page of Object.values(CATEGORY_PAGES)) {
+  if (page.title.length > 60) {
+    throw new Error(`${page.key} title is ${page.title.length} characters`);
+  }
+  if (!page.title.includes('Rarest Answer')) {
+    throw new Error(`${page.key} title would pick up a site-name suffix`);
+  }
+  const length = page.description.length;
+  if (length < 140 || length > 160) {
+    throw new Error(`${page.key} description is ${length} characters`);
+  }
+  if (!page.description.toLowerCase().includes(page.keyword)) {
+    throw new Error(`${page.key} description is missing ${page.keyword}`);
+  }
 }

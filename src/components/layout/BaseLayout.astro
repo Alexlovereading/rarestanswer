@@ -110,12 +110,16 @@ const suffix = titleSuffix !== undefined ? titleSuffix : site.name;
 // Skip suffixing when the title already carries any identity marker —
 // pageTitle() may have appended the short suffix ("X — AQ Wiki"), the title
 // may contain the game name, or a caller passed a pre-suffixed string.
+// Also skip when " — {site}" would push the document title past 60
+// characters: the suffix would crowd out the words in the title.
 const hasIdentity =
   title.includes(suffix) ||
   title.includes(site.name) ||
   title.includes(site.shortName) ||
   title.includes(site.game.name);
-const fullTitle = suffix && !hasIdentity ? `${title} — ${suffix}` : title;
+const withSuffix = suffix ? `${title} — ${suffix}` : title;
+const fullTitle = !suffix || hasIdentity || withSuffix.length > 60 ? title : withSuffix;
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).href;
 const orgJsonLd = organizationJsonLd();
 
 // Strip ANY known locale prefix (built from routing.ts so new locales keep
@@ -196,7 +200,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
          without this, covers never surface as large preview images (v2.0). */
       <meta name="robots" content="max-image-preview:large" />
     )}
-    <link rel="canonical" href={new URL(Astro.url.pathname, siteUrl).href} />
+    <link rel="canonical" href={canonicalUrl} />
 
     {/* hreflang alternates */}
     {alternates.map((alt) => <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />)}
@@ -224,7 +228,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
         </>
       ) : null
     }
-    <meta property="og:url" content={new URL(Astro.url.pathname, siteUrl).href} />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:site_name" content={site.name} />
     {/* OG wants language_TERRITORY (en_US / ja_JP), not a bare ISO code. */}
     <meta property="og:locale" content={ogLocale} />

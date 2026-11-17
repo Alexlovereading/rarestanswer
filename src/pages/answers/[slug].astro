@@ -8,7 +8,6 @@ import { answerCrumbJsonLd, answerPath, getPrompt, getPrompts } from '~/componen
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import { defaultLocale, locales } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
-import { pageTitle } from '~/lib/seo';
 import { languageAlternates } from '~/lib/url';
 
 export function getStaticPaths() {
@@ -35,7 +34,7 @@ const jsonLd = [
 
 <LocaleLayout
   locale={defaultLocale}
-  title={pageTitle(prompt.heading)}
+  title={prompt.documentTitle}
   description={prompt.description}
   alternates={alternates}
   jsonLd={jsonLd}

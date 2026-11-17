@@ -1366,3 +1366,198 @@ Validation on 2026-11-16:
 - Requested chained verification was attempted. Full `pnpm test`: 25 suites passed, 1 failed; 498 passed, 11 skipped, 3 failed. The same unchanged content-links fixture failures recorded by H2 are caused by sandbox `listen EPERM` on the `tsx` CLI IPC socket. Running that exact fixture with `node --import tsx` verified all four original assertions (three diagnostics plus asset exclusion) successfully without changing the fixture or repository test runner.
 - Ran `pnpm build` separately after the chain stopped. Astro generated all 332 pages, Pagefind indexed 313, and Pagefind transpilation completed. The final `tsx scripts/write-indexnow-key.ts` step failed with the same sandbox IPC restriction. `node --import tsx scripts/write-indexnow-key.ts` then completed successfully. Build log: `/tmp/h3-mobile-xmas-build.log`.
 - Requested 375×812 and 1600×900 screenshots could not be captured: installed Playwright Chromium 1248 fails before launch with `MachPortRendezvousServer ... Permission denied (1100)` under the managed sandbox, in both shell and node runtime. The ego-browser fallback also cannot start its macOS service (`Connection invalid`). No approval escalation is available. No server was started or left running. The breakpoint and shell geometry are verified by tests; browser visual/CLS measurement remains unverified in this environment.
+
+## P2-PAGE-GAPS done
+
+Closed on-page gaps for pages already in the top 20. Each added phrase appears once in the built HTML. Noise queries (site:, reddit, linkedin, ohnepixel) were ignored. `how-to-play-rarest-answer.mdx` already contained "rarest answer" and was left unchanged. The token `rareanswer` was not added. No server was started. No state-changing git commands.
+
+Roblox check, 16 November 2026: `https://games.roblox.com/v1/games?universeIds=10772648808` still says a rarer answer scores more points and that you win by outscoring the room. It names Easy, Medium, Hard, and Random servers. It does not list prompts or an answer key. The party page says that, then points at `/rarest-answers/` for this site's rankings.
+
+Built title and meta description (before to after):
+
+| Page | Title | Meta description |
+| --- | --- | --- |
+| `/` | Rarest Answer Game — Guess the Rarest Answer (unchanged) | Guess the rarest answer in the Rarest Answer game. Free daily games and trivia where the rarest answer wins. A rare answer game for finding rare answers. (153, unchanged) |
+| `/unlimited/` | Rarest Answer Unlimited: A Krillion Unlimited Alternative (unchanged) | Extra Rarest Answer rounds with no daily lock. A new set on every start, same tiers and Spotlight, scored by Wikipedia pageviews. (129, unchanged) |
+| `/trivia/animals/` | Animal Trivia — Rarest Answer Game (unchanged) | Animal trivia for the Rarest Answer game. Name a species, including a great ape. The rarest correct answer scores the most. Free rounds, no account. (148, unchanged) |
+| `/guides/rarest-answers-animals/` | Rarest Answers for Animal Prompts (unchanged) | Rarest answers on animal prompts, using the published great-ape list. A specific species beats the headline name. (113, unchanged) |
+| `/guides/rarest-answer-party-ideas/` | Rarest Answer Party Ideas (unchanged) | Before (132): Rarest Answer party ideas that use the browser game: one shared daily, a spoiler-free share grid, and house rules that are not features. After (153): The Roblox party publishes no answer list: a rarer correct answer scores more. Browser party ideas, a share grid, and where this site ranks rare answers. |
+| `/games/krillion/` | Krillion Game (One in a Krillion): How the Daily Dive Works — Rarest Answer (unchanged) | Unofficial notes on the daily dive at krillion.io, checked 16 November 2026, and how that site's rarity differs from Wikipedia pageviews here. (142, unchanged) |
+
+Copy added, once each: home gets "rare answers only", "rarest answers only", "guessing the rarest answers", "rare response", and already had "guess the rarest answer game". `/unlimited/` gets "guess the rarest answer". The animal guide and `/trivia/animals/` link `/answers/great-ape-species/` with the anchor "name a rare species of great ape". The Krillion spelling box now includes "Krillon daily dive" once and still lists the four older misspellings once each. Party and animal guide `lastModified` set to 2026-11-16.
+
+Validation on 2026-11-16: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 26 files, 501 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/p2-page-gaps-dist` built 332 pages.
+
+## P3-GAMES-PAGES done
+
+Updated the 15 English game articles under `src/content/wiki/en/games/` except `krillion.mdx`. Each title core is ≤ 60 characters. Single-game pages use `<Game>: How It Works, Tips & Games Like It`. The three roundups use `How They Work & Tips` so the title does not say "games like games like…". Each description is 140–160 characters, keeps that page's verified one-line hook, adds one differentiator, and ends with "See games like it." `lastModified` is 2026-11-16. H1 is the title core. The document title and `og:title` add ` — Rarest Answer` through `pageTitle()`. `og:description` and `twitter:description` match the new description. No new schema.
+
+GSC: `/games/brainer/` query "brainer" stays in the title, H1, and first sentence. The `site:linkedin.com brainer` hit was ignored. `/games/games-like-krillion/` query "krillion other version" appears once, in the opening paragraph, as separate games with their own rules. No affiliation claim.
+
+Every page already linked `/` and `/unlimited/`, and every page except the hub and Sporcle already linked `/games/games-like-krillion/`. New internal links, only where the page's own examples match a real slug:
+
+- `/games/ball-knowledge-game/`: `/trivia/sports/`, `/answers/premier-league-clubs/`
+- `/games/dartle-game/`: `/answers/us-presidents/`, `/answers/chemical-elements/`, `/trivia/geography/`
+- `/games/size-it-up-game/`: `/trivia/geography/`, `/trivia/animals/`
+- `/games/farflung-game/`: `/answers/countries-in-europe/`, `/trivia/geography/`
+- `/games/cosmillion/`: `/answers/fruits/`, `/trivia/food/`
+- `/games/seldom-game/`: `/answers/fruits/`, `/trivia/food/`
+- `/games/jinxed-game/`: `/answers/fruits/`, `/answers/dog-breeds/`
+- `/games/majority-game/`: `/answers/countries-in-africa/`, `/trivia/geography/`
+- `/games/one-in-a-million-game/`: `/answers/fruits/`, `/trivia/food/`
+- `/games/games-like-wordle/`: `/trivia/geography/` (Worldle), `/trivia/music/` (Heardle)
+- `/games/trivia-games-like-sporcle/`: `/answers/chemical-elements/`, `/trivia/science/`, `/games/games-like-krillion/`
+
+No new topical link on Brainer (the checked pages name no subject), Deep Dive (the rainbow-colour example has no answer slug), or Wonderhop (the four modes name no subject). The hub already linked geography, sports, screen, and animals.
+
+Title and description, before → after (core length in parentheses):
+
+| Page | Title | Description |
+| --- | --- | --- |
+| brainer | Brainer: Gamebunny's Daily Trivia Show → Brainer: How It Works, Tips & Games Like It (43) | What Brainer is: a daily browser trivia game on Gamebunny, played on a TV-style screen, with an archive behind a paid version. → Brainer is a daily trivia show on Gamebunny, staged on a TV-style screen. The archive is paid, with no published question count. See games like it. (147) |
+| ball-knowledge-game | Ball Knowledge Game: Daily Football Quizzes → Ball Knowledge Game: How It Works, Tips & Games Like It (55) | How the Ball Knowledge game works: a free set of daily football quizzes, including Deep Cuts, where the obscure player scores more. → The Ball Knowledge game is free daily football quizzes, including Deep Cuts, where the obscure player scores more. No account needed. See games like it. (152) |
+| deep-dive-game | Deep Dive Game: Which One You Actually Found → Deep Dive Game: How It Works, Tips & Games Like It (50) | What a Deep Dive game search finds: a browser trivia page, an older arcade diver, and several games that only use the words. → A Deep Dive game search finds a browser trivia page, an older arcade diver, and games that only use the words. They do not share a score. See games like it. (156) |
+| cosmillion | Cosmillion Game: How the Rarest Answer Wins → Cosmillion: How It Works, Tips & Games Like It (46) | How the Cosmillion game works: seven daily prompts, 25 seconds each, and more points for a rarer correct answer. → The Cosmillion game is seven daily prompts, 25 seconds each, and more points for a rarer correct answer. The daily launch needs no account. See games like it. (158) |
+| seldom-game | Seldom Game: How the Lower Score Wins → Seldom Game: How It Works, Tips & Games Like It (47) | How the Seldom game works: one shared question a day, five guesses, and a lower score when the answer is rarer. → The Seldom game is one shared question a day, five guesses, and a lower score when the answer is rarer. A zero is what it calls a Seldom. See games like it. (156) |
+| size-it-up-game | Size It Up Game: Guess the Real-World Scale → Size It Up Game: How It Works, Tips & Games Like It (51) | How the Size It Up game works: resize a silhouette against a known object across five daily rounds, with no timer. → Size It Up asks you to resize a silhouette against a known object across five daily rounds, with no timer. Other sites use the name. See games like it. (151) |
+| dartle-game | Dartle Game: Hit Exactly 100 → Dartle Game: How It Works, Tips & Games Like It (47) | How the Dartle game works: one daily category, up to three answers, and a total that has to land on exactly 100. → The Dartle game is one daily category, up to three answers, and a total that has to land on exactly 100. Going over scores zero. See games like it. (147) |
+| jinxed-game | Jinxed Game: Rare Answers, Split If You Match → Jinxed: How It Works, Tips & Games Like It (42) | How the Jinxed game works: type many fitting answers, score the rare ones, and split the points if you match a friend. → The Jinxed game lets you type many fitting answers, score the rare ones, and split the points if you match a friend. Rooms need no account. See games like it. (158) |
+| farflung-game | Farflung Game: Pin a Country and Go Further → Farflung Game: How It Works, Tips & Games Like It (49) | How the Farflung game works: five geography prompts a day, one country pin each, and rarer correct answers travel further. → Farflung is five geography prompts a day and one country pin each. A rarer correct country travels further. The clock is optional. See games like it. (149) |
+| one-in-a-million-game | One in a Million Game: What That Search Finds → One in a Million Game: How It Works, Tips & Games Like It (57) | What a One in a Million game search finds: a 1967 TV show, an English idiom, and no verified daily trivia game by that title. → A One in a Million game search finds a 1967 TV show and an English idiom, not a verified daily trivia title. The scored cousins are separate. See games like it. (160) |
+| games-like-wordle | Games Like Wordle → Games Like Wordle: How They Work & Tips (39) | Short once-a-day puzzles in the Wordle habit: a hidden word, a grid, or a rare correct answer instead. → Games like Wordle keep the once-a-day habit: a hidden five-letter word, a grid, or a rare correct answer instead. Wordle is one shared word. See games like it. (159) |
+| wonderhop | Wonderhop: Four Daily Games, One Shared Day → Wonderhop: How It Works, Tips & Games Like It (45) | How Wonderhop works: four free daily games where you name the common answer, the rarest, the oldest, or the newest. → Wonderhop is four free daily games where you name the common answer, the rarest, the oldest, or the newest. A paid pass adds unlimited play. See games like it. (159) |
+| majority-game | Majority Game: Guess What Everyone Typed → Majority Game: How It Works, Tips & Games Like It (49) | How the Majority game works: five fresh questions a day, and you score by typing the answer most people typed. → The Majority game is five fresh questions a day, and you score by typing the answer most people typed, not the clever one. See games like it. (141) |
+| trivia-games-like-sporcle | Trivia Games Like Sporcle → Trivia Games Like Sporcle: How They Work & Tips (47) | Trivia games like Sporcle, opened again on 15 November 2026 and kept apart from rarest-answer dailies and map pins. → Trivia games like Sporcle are large quiz libraries, kept apart from rarest-answer dailies and from map pins. Sporcle also runs a Daily Dose. See games like it. (159) |
+| games-like-krillion | Games Like Krillion → Games Like Krillion: How They Work & Tips (41) | Daily games that pay more for a less obvious correct answer, including this site, plus neighbours with a different task. Themed category rounds are linked too. → Daily games pay more for a less obvious correct answer, on this site and on neighbours with a different task. Not official Krillion. See games like it. (151) |
+
+`pnpm gen-covers` re-rendered the 15 game covers so the title hash matches, and also re-rendered six guide covers whose titles were already stale in the manifest (`best-daily-trivia-games`, `best-unlimited-trivia-games`, `rarest-answer-game-for-classrooms`, `rarest-answer-game-tips-geography`, `rarest-answer-party-roblox`, `stranger-things-characters-trivia`). Guide MDX was not edited. No server was started. No state-changing git commands.
+
+Validation on 2026-11-16: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning; one unused-function hint in `src/components/answers/copy.ts`, not this task). `pnpm test` 26 files, 501 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/p3-games-pages-dist` built 332 pages. The 15 game pages had 958 internal `href` checks and 0 missing targets.
+
+## P4-GUIDES-PAGES done
+
+Edited only the seven English guides under `src/content/wiki/en/guides/` that P2 does not own. Left `rarest-answer-party-ideas.mdx`, `rarest-answers-animals.mdx`, and `how-to-play-rarest-answer.mdx` untouched. `lastModified` is 2026-11-16 on every changed page. Titles are a question or an outcome. Descriptions are 140–160 characters, answer first. Built `og:title` / `og:description` match the document title and meta description. No new schema. No affiliation claim. No server was started. No state-changing git commands.
+
+GSC query-page pairs in `data/gsc/top20-query-page-gaps.json` do not target these seven URLs, so no query list was inserted. `/guides/rarest-answer-strategy/` has one impression and no file here; it was not created. The pillar uses "rare species of great ape" once, as the anchor to `/answers/great-ape-species/`.
+
+Built title and meta description (before → after). The suffix ` — Rarest Answer` is added by `pageTitle()` unless the title already contains the game name.
+
+| Page | Title | Description |
+| --- | --- | --- |
+| `/guides/how-to-find-rare-answers/` | How to Find a Rare Answer (unchanged; rendered with suffix) | Skip the famous legal name, then submit a more specific one you can explain. The great-ape list shows how that choice changes the score. Tiers follow pageviews. → Skip the famous legal name and submit a more specific one you can explain. On great apes, Human is Common and the Tapanuli orangutan is Legendary. (146) |
+| `/guides/best-daily-trivia-games/` | Daily Trivia Games Worth a Streak → Which Daily Trivia Games Are Worth a Streak? (44) | Wordle-style dailies, geography puzzles, and trivia libraries. Every URL in this roundup was checked before it was listed. → A rarest-answer daily pays more for a less-viewed legal name. Wordle-likes hide one target. Every listed URL was opened on 15 November 2026. (140) |
+| `/guides/best-unlimited-trivia-games/` | Best Unlimited Trivia Games → Best Unlimited Trivia Games, Explained (38) | Best unlimited trivia games you can reopen without waiting for midnight. Access lines were checked again on 15 November 2026. → Unlimited means another round without waiting for midnight. Sporcle, FunTrivia, and Seterra opened when checked; only this site publishes the six-tier table. (157) |
+| `/guides/rarest-answer-game-for-classrooms/` | Rarest Answer Game for Classrooms → How to Use the Rarest Answer Game in Class (42, no extra suffix) | How teachers can use the rarest answer game in class: no account, a timer you can switch off, and the privacy line on children. → Run the shared daily with no accounts and the timer off. The privacy policy says it is not for children under 13, and stats stay on the device. (143) |
+| `/guides/rarest-answer-game-tips-geography/` | Geography Tips for Rarest Answer → How to Answer a Geography Prompt (32) | Skip the famous place on a geography prompt and stay inside the set the question named. A map quiz does not rank those places by rarity. → Skip the famous place and stay inside the set the question named. A map quiz does not rank those places; the stored tier is on the published prompt. (148) |
+| `/guides/rarest-answer-party-roblox/` | Rarest Answer Party Roblox: Rules and a Snapshot → Rarest Answer Party on Roblox, Explained (40, no extra suffix) | Rarest Answer Party Roblox, by Torrey Pines: the official description, plus a 15 November 2026 snapshot from the games API. → Rarest Answer Party is a Roblox quiz by Torrey Pines, not this site. Rarer answers score more and you outscore the server. On 15 November 2026, price was null. (159) |
+| `/guides/stranger-things-characters-trivia/` | Stranger Things Characters Trivia → How Stranger Things Character Scores Work (41) | Stranger Things characters on the scored list: 129 names ranked by Wikipedia pageviews. Eddie Munson is Common. → Eddie Munson is Common on the 129-name list, and there is no Legendary row. Forty-five Epic names are stored at one pageview, including some with no wiki title. (160) |
+
+Internal links added or retargeted. Every target ends with `/` and existed in the build. Anchors on a page are unique. The classroom page's second "rules page" anchor is now "tier table".
+
+- `/guides/how-to-find-rare-answers/`: `/answers/great-ape-species/` ("rare species of great ape"), `/answers/italian-cheeses/`, `/answers/stranger-things-characters/` ("scored Stranger Things list"), `/answers/uk-prime-ministers/`, `/answers/world-series-winners/`, `/answers/madonna-songs/`. Already had `/`, `/rarest-answers/`, and `/trivia/animals/`.
+- `/guides/best-daily-trivia-games/`: `/trivia/screen/`, `/trivia/animals/`, `/answers/stranger-things-characters/` ("the 129 scored names"), `/rarest-answers/`. Already had `/`.
+- `/guides/best-unlimited-trivia-games/`: `/answers/european-capitals/`, `/rarest-answers/`. Already had `/`, `/trivia/geography/`, and `/trivia/animals/`.
+- `/guides/rarest-answer-game-for-classrooms/`: `/answers/great-ape-species/` ("rare species of great ape"), `/rarest-answers/`. Already had `/`, `/trivia/geography/`, and `/trivia/animals/`.
+- `/guides/rarest-answer-game-tips-geography/`: `/answers/great-ape-species/` ("rare species of great ape"), `/answers/european-capitals/`. Already had `/`, `/rarest-answers/`, `/trivia/geography/`, and `/trivia/animals/`.
+- `/guides/rarest-answer-party-roblox/`: `/answers/great-ape-species/` ("rare species of great ape"), `/trivia/sports/` (the Roblox "Ball Knowledge" line is not this site's sports prompts), `/rarest-answers/`. Already had `/`.
+- `/guides/stranger-things-characters-trivia/`: `/trivia/screen/`, `/` ("homepage"), `/answers/stranger-things-characters/` ("the 129 scored names"). Already had `/rarest-answers/`.
+
+Cover PNGs were not regenerated. P3 had already refreshed six of these covers from the previous titles. Those images can be stale until `pnpm gen-covers` is run for the new titles.
+
+Validation on 2026-11-16: `pnpm lint` passed with 0 errors (one pre-existing unused `pluralHead` warning in `src/components/answers/copy.ts`, not this task). `pnpm typecheck` 0 errors (same unused-function hint; existing missing tutorials-directory glob warning). `pnpm test` 26 files, 501 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/P4-GUIDES-PAGES-dist` built 332 pages. The seven guide HTML files had 0 broken internal `href` targets.
+
+## P6-HEAD-LISTS done
+
+Edited head meta in `BaseLayout.astro`, list-page copy in `ListPage.astro` and `en.json`, the games/guides related-link block in `ArticlePage.astro`, helpers `withArticleCount` and `triviaCategoryForArticle` in `seo.ts`, and the meta title/description on `about.astro` and `faq.astro`. `src/pages/[...slug].astro` already mounts those components and did not need a change. No new schema. No state-changing git commands. No server was started.
+
+`og:title`, `twitter:title`, and `<title>` are the same string. `og:description`, `twitter:description`, and the meta description are the same string. `og:url` and the canonical use one URL. Indexable pages still send `max-image-preview:large`. A suffix ` — Rarest Answer` is added only when the title does not already name the site and the combined title is 60 characters or fewer. Counts in the list titles and descriptions are the published article counts (16 games, 10 guides), filled from `{count}` at render.
+
+| Page | Before title | After title | Before description | After description |
+| --- | --- | --- | --- | --- |
+| `/games/` | Games Like Krillion & Other Daily Trivia Games — Rarest Answer | Games Like Krillion & Daily Rare-Answer Games (16) (50) | Unofficial pages about games like Krillion and other daily trivia games, and how they sit next to Rarest Answer. (112) | Unofficial notes on 16 daily games: what each one is, one way it differs, and how it sits next to this site. Rarest Answer is not those games. (142) |
+| `/guides/` | Rarest Answer Guides & Strategy (31) | Rarest Answer Guides: Strategy, Rules & Tips (10) (49) | Rarest Answer guides and strategy: how to play the daily trivia game and how to find rare answers. (98) | 10 guides on the rules, finding a rare answer, party and classroom play, animal and geography prompts, and a dated snapshot of the Roblox party game. (149) |
+| `/about/` | About — Rarest Answer | About Rarest Answer: Scores, Sources, and Who Writes It (55) | Site-wide description (169), the star-observatory sentence | Who maintains this site, how six score tiers use Wikipedia pageviews, and which lists come from Wikidata. Pages about other games are not affiliated with them. (159) |
+| `/faq/` | FAQ — Rarest Answer | Rarest Answer FAQ: Daily Rounds, Scores & Data (46) | How Rarest Answer works: daily rounds, localStorage stats, Wikidata and Wikipedia data, and no affiliation with Krillion. (121) | Seven-prompt daily rounds, six score tiers, and browser-only stats. Rankings use Wikidata and Wikipedia pageviews. This site is not affiliated with Krillion. (157) |
+
+The about H1 follows that title because `LegalPage` has one title field. The FAQ H1 stays "FAQ" and the on-page lead stays the previous 121-character sentence. Article frontmatter titles and descriptions were left to the pages that own them. On the built samples, their document title, Open Graph, and Twitter tags still match.
+
+Related block, in addition to the existing same-category cards: every `/games/` and `/guides/` article links "Play the daily round" to `/`. A trivia link is added only when the slug or a frontmatter tag names one category:
+
+| Page | Added link |
+| --- | --- |
+| `/games/ball-knowledge-game/` | Sports Trivia → `/trivia/sports/` |
+| `/games/farflung-game/` | Geography Trivia → `/trivia/geography/` |
+| `/guides/rarest-answer-game-tips-geography/` | Geography Trivia → `/trivia/geography/` |
+| `/guides/rarest-answers-animals/` | Animal Trivia → `/trivia/animals/` |
+| `/guides/stranger-things-characters-trivia/` | Movie and TV Trivia → `/trivia/screen/` |
+
+The other 21 game and guide articles have no single category in the tags or the slug table, so they get the play link only.
+
+`pnpm lint` passed (existing unused `pluralHead` warning in `src/components/answers/copy.ts`, not this task). `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 26 files, 501 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/p6-head-lists-dist` built 332 pages. Internal `href`s on `/games/`, `/guides/`, every article under them, `/about/`, and `/faq/` resolved to a built path (0 missing). `{count}` does not appear in those HTML files.
+
+## P5-TRIVIA-HOME-LINKS done
+
+Trivia search titles and descriptions now come from `src/data/prompts/index.json` (`categorySearchTitle` / `categorySearchDescription` in `src/lib/game/category-copy.ts`). The title is `<Category> Trivia: Name the Rarest Answer (<count> Prompts)`. The description names two real prompts, the shortest pair that fits 140–160 characters, shown in alphabetical order. H1s stay the previous headings. Home title, H1, and description are unchanged, and the daily game card stays first. P2's home sentences and the animals link "name a rare species of great ape" are still there. No new schema. No affiliation claim. No server was started. No state-changing git commands.
+
+`og:title` / `twitter:title` match the document title. `og:description` / `twitter:description` match the meta description. Canonicals are unchanged. Titles already contain "Rarest Answer", so no extra suffix is added.
+
+| Page | Before title | After title | Before description | After description |
+| --- | --- | --- | --- | --- |
+| `/` | Rarest Answer Game — Guess the Rarest Answer | unchanged | Guess the rarest answer in the Rarest Answer game. Free daily games and trivia where the rarest answer wins. A rare answer game for finding rare answers. (153) | unchanged |
+| `/trivia/geography/` | Geography Trivia: Rarest Answer Game (36) | Geography Trivia: Name the Rarest Answer (37 Prompts) (53) | Geography trivia for Rarest Answer. Searched Krillion Geography? Name a country or capital. The rarest answer scores the most. Free daily and unlimited rounds. (159) | Play 37 geography trivia prompts where the rarest correct answer wins — e.g. "Name a London borough" and "Name a US state". Free daily and unlimited rounds. (156) |
+| `/trivia/animals/` | Animal Trivia — Rarest Answer Game (34) | Animals Trivia: Name the Rarest Answer (51 Prompts) (51) | Animal trivia for the Rarest Answer game. Name a species, including a great ape. The rarest correct answer scores the most. Free rounds, no account. (148) | Play 51 animal trivia prompts where the rarest correct answer wins — e.g. "Name a cat breed" and "Name a dog breed". Free daily and unlimited rounds. (149) |
+| `/trivia/food/` | Food Trivia — Rarest Answer Game (32) | Food Trivia: Name the Rarest Answer (33 Prompts) (48) | Food trivia for the Rarest Answer game. Name a dish, ingredient, or cuisine. The rarest correct answer scores the most. Free rounds, no account. (144) | Play 33 food trivia prompts where the rarest correct answer wins — e.g. "Name a liqueur" and "Name a soup". Free daily and unlimited rounds. (140) |
+| `/trivia/sports/` | Sports Trivia: Rarest Answer Game (33) | Sports Trivia: Name the Rarest Answer (31 Prompts) (50) | Sports trivia for Rarest Answer. Searched Krillion Sports? Name a team or athlete. The rarest correct answer scores the most. Free daily and unlimited rounds. (158) | Play 31 sports trivia prompts where the rarest correct answer wins — e.g. "Name a combat sport" and "Name a martial art". Free daily and unlimited rounds. (154) |
+| `/trivia/screen/` | Movie Trivia: Rarest Answer Game (32) | Movies & TV Trivia: Name the Rarest Answer (30 Prompts) (55) | Movie trivia for the Rarest Answer game. Searched Krillion movies? Name a film, show, or character. The rarest correct answer scores the most. Free rounds. (155) | Play 30 movie trivia prompts where the rarest correct answer wins — e.g. "Name a James Bond film" and "Name a Pixar film". Free daily and unlimited rounds. (155) |
+| `/trivia/music/` | Music Trivia: Rarest Answer Game (32) | Music Trivia: Name the Rarest Answer (31 Prompts) (49) | Music trivia for Rarest Answer. Searched Krillion pop culture? Name a song, an artist, or an instrument. The rarest correct answer scores most. Free rounds. (156) | Play 31 music trivia prompts where the rarest correct answer wins — e.g. "Name a dance" and "Name a U2 song". Free daily and unlimited rounds. (142) |
+| `/trivia/science/` | Science Trivia — Rarest Answer Game (35) | Science Trivia: Name the Rarest Answer (32 Prompts) (51) | Science trivia for the Rarest Answer game. Name an element, a body, a unit, or a scientist. The rarest correct answer scores the most. Free rounds. (147) | Play 32 science trivia prompts where the rarest correct answer wins — e.g. "Name a gemstone" and "Name a hormone". Free daily and unlimited rounds. (147) |
+| `/trivia/history/` | History Trivia — Rarest Answer Game (35) | History Trivia: Name the Rarest Answer (31 Prompts) (51) | History trivia for the Rarest Answer game. Name a person, an event, or a place. The rarest correct answer scores the most. Free rounds, no account. (147) | Play 31 history trivia prompts where the rarest correct answer wins — e.g. "Name a pharaoh" and "Name a pope". Free daily and unlimited rounds. (143) |
+
+Each trivia page has a "Rarest answers in <category>" block. The six links are the prompts with the most accepted answers (slug, then question, breaks a tie). Geography and animals also link the guide that is actually about that category. Krillion stays only on geography, sports, screen, and music, where the neighbor note was already checked; the anchor "One in a Krillion" was not added again. The other four categories already link the finding guide.
+
+- Geography: `/answers/un-member-states/` (rarest UN member state), `/answers/unesco-sites-in-france/` (rarest UNESCO World Heritage Site in France), `/answers/unesco-sites-in-italy/` (rarest UNESCO World Heritage Site in Italy), `/answers/unesco-sites-in-china/` (rarest UNESCO World Heritage Site in China), `/answers/us-national-parks/` (rarest US national park), `/answers/unesco-sites-in-germany/` (rarest UNESCO World Heritage Site in Germany). Guide: `/guides/rarest-answer-game-tips-geography/` (How to answer a geography prompt).
+- Animals: `/answers/dog-breeds/` (rarest dog breed), `/answers/parrot-species/` (rarest species of parrot), `/answers/viper-species/` (rarest species of viper), `/answers/hummingbird-species/` (rarest species of hummingbird), `/answers/pigeon-species/` (rarest species of pigeon or dove), `/answers/sauropod-dinosaurs/` (rarest sauropod dinosaur). Guide: `/guides/rarest-answers-animals/` (How the great-ape list is ranked). The earlier great-ape anchor stays.
+- Food: `/answers/soups/` (rarest soup), `/answers/pastries/` (rarest pastry), `/answers/breads/` (rarest kind of bread), `/answers/indonesian-dishes/` (rarest Indonesian dish), `/answers/pasta-shapes/` (rarest pasta shape), `/answers/condiments/` (rarest condiment).
+- Sports: `/answers/martial-arts/` (rarest martial art), `/answers/heisman-winners/` (rarest Heisman Trophy winner), `/answers/world-series-mvps/` (rarest World Series MVP), `/answers/tour-de-france-winners/` (rarest winner of the Tour de France), `/answers/stanley-cup-coaches/` (rarest Stanley Cup-winning head coach), `/answers/super-bowl-mvps/` (rarest Super Bowl MVP).
+- Movies & TV: `/answers/stranger-things-characters/` (rarest Stranger Things character), `/answers/best-picture-winners/` (rarest Best Picture winner), `/answers/disney-animated-films/` (rarest Walt Disney Animation Studios film), `/answers/best-supporting-actress-winners/` (rarest winner of the Academy Award for Best Supporting Actress), `/answers/best-actor-winners/` (rarest winner of the Academy Award for Best Actor), `/answers/pixar-films/` (rarest Pixar film).
+- Music: `/answers/string-instruments/` (rarest string instrument), `/answers/folk-genres/` (rarest genre of folk music), `/answers/woodwind-instruments/` (rarest woodwind instrument), `/answers/percussion-instruments/` (rarest percussion instrument), `/answers/national-anthems/` (rarest national anthem), `/answers/dances/` (rarest dance).
+- Science: `/answers/nobel-medicine-laureates/` (rarest Nobel laureate in Physiology or Medicine), `/answers/nobel-physics-laureates/` (rarest Nobel laureate in Physics), `/answers/nobel-chemistry-laureates/` (rarest Nobel laureate in Chemistry), `/answers/programming-languages-before-1980/` (rarest programming language created before 1980), `/answers/moons-of-saturn/` (rarest moon of Saturn), `/answers/space-telescopes/` (rarest space telescope).
+- History: `/answers/pharaohs/` (rarest pharaoh), `/answers/english-interjections/` (rarest English interjection), `/answers/language-families/` (rarest language family), `/answers/popes/` (rarest pope), `/answers/greek-deities/` (rarest Greek deity), `/answers/roman-deities/` (rarest Roman deity).
+
+Home block "Popular rare-answer pages": `/answers/great-ape-species/` first (rarest species of great ape), then the largest prompt in five other categories: `/answers/string-instruments/` (rarest string instrument), `/answers/pharaohs/` (rarest pharaoh), `/answers/soups/` (rarest soup), `/answers/nobel-medicine-laureates/` (rarest Nobel laureate in Physiology or Medicine), `/answers/un-member-states/` (rarest UN member state). The eight trivia pages, `/games/games-like-krillion/`, and `/guides/how-to-find-rare-answers/` were already linked, so those anchors were not repeated.
+
+Validation on 2026-11-16: `pnpm lint` passed (same pre-existing `pluralHead` warning). `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 26 files, 501 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/p5-trivia-home-links-dist` built 332 pages. Every internal `href` in that build resolved to a built path (0 missing). Rebuilt once after the geography guide anchor was aligned with the current guide title.
+
+## P1-ANSWER-SNIPPETS done
+
+Rewrote the snippet for every `/answers/<slug>/` page. The ranked table, noData labeling, report mailto, and "Data updated" line are unchanged. Hub cards still use the older `heading` ("Rarest Species of Great Ape — All 8 Answers Ranked by Rarity"). No new schema. No server was started. No state-changing git commands. `noData` rows are never chosen as the rarest name.
+
+The document title is at most 60 characters and leads with "Rare <plural noun>" plus the rarest ranked name, for example "Rare Species of Great Ape: Tapanuli orangutan & All 8 Ranked". When that form does not fit, the fallback is "Rarest <noun>: <answer> (<N> Ranked)", then a word-boundary cut that still starts with "Rare …". BaseLayout adds " — Rarest Answer" only when the combined title is still within 60 characters (24 of 276 prompts, such as fruits). The H1 matches the title and may spell "and" instead of "&". The meta description is 140–160 characters. When "All N accepted answers to \"<question>\"" does not fit, the question is kept with "For \"<question>\", ranked by …". Wiktionary prompts say Wiktionary views. The opening names the rarest accepted answer, includes "name a rare <noun>" once, and has one sentence that rarity here is Wikipedia pageviews (or Wiktionary / stored popularity). It does not say this site is Krillion or that the scores match.
+
+`/answers/great-ape-species/` built HTML (`/tmp/p1-answer-snippets-dist`, 332 pages):
+
+| | Before | After |
+| --- | --- | --- |
+| Title | Rarest Species of Great Ape — All 8 Answers Ranked by Rarity — Rarest Answer (76) | Rare Species of Great Ape: Tapanuli orangutan & All 8 Ranked (60) |
+| H1 | Rarest Species of Great Ape — All 8 Answers Ranked by Rarity | Rare Species of Great Ape: Tapanuli orangutan and All 8 Ranked (62) |
+| Meta description | 8 great ape species. Tapanuli orangutan is the rarest (Legendary). Ranked by English Wikipedia pageviews, last 12 months. “Name a species of great ape”. (152) | Rarest answer: Tapanuli orangutan (Legendary). Also rare: Sumatran orangutan, Eastern gorilla. For "Name a species of great ape", ranked by Wikipedia views. (156) |
+
+The four great-ape queries read off that title and opening. "rare species of great ape" is the title and the first sentence. "name a rare species of great ape" appears once, in the third sentence. "rarest species of great ape" is answered by "The rarest accepted answer is Tapanuli orangutan (Legendary)." "rare great ape species" is the same words in that title order, not a second stuffed line. "Games like Krillion" remains the existing play-section link.
+
+`AGENTS.md` suite line is 27 and includes `answer-snippets`, because `tests/agents-consistency.test.ts` fails if the new file is missing. The unused `pluralHead` helper in `copy.ts` is gone.
+
+Validation on 2026-11-16: `pnpm lint` passed with 0 warnings. `pnpm typecheck` 0 errors, 0 warnings, 0 hints (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 510 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/p1-answer-snippets-dist` built 332 pages. Rebuilt after dropping an unused answer-page shell so the page uses `LocaleLayout` again. The great-ape `<title>` and meta description match the table above.
+
+## Q1-FINAL-GAPS done
+
+Every answer-page opening now says "The rarest <noun> on this list is <name>." once (or "are" when several ranked answers tie, or "none is ranked as the rarest <noun>" when nothing is ranked). Titles and meta descriptions from P1 are unchanged. `src/config/answer-seo.ts` maps a slug to one extra sentence. `great-ape-species` uses it for the other word order: "Use the table when you want a rare great ape species: it orders the living names by English Wikipedia pageviews." That sentence does not say this site is Krillion. No new schema. No server was started. No state-changing git commands.
+
+On `/tmp/q1-dist/answers/great-ape-species/index.html` the literal phrases occur once each: "rarest species of great ape" 1, "rare great ape species" 1. The document title is still "Rare Species of Great Ape: Tapanuli orangutan & All 8 Ranked" (60). The meta description is still the 156-character P1 sentence.
+
+| Page | Meta description | Length |
+| --- | --- | --- |
+| `/contact/` | Email contact@rarestanswer.xyz for a correction, a question about the game, or a copyright notice. Rarest Answer is a free browser trivia game with no account. | 159 |
+| `/copyright/` | Copyright for Rarest Answer: original writing, MIT software, and Wikidata (CC0). Wikipedia pageviews are a popularity signal. Article text is not republished. | 158 |
+| `/guides/rarest-answers-animals/` | Animal prompts score a specific species with fewer Wikipedia pageviews. On the published great-ape list, the Tapanuli orangutan ranks above Human and Bonobo. | 157 |
+
+Validation on 2026-11-16: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 510 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/q1-dist` built 332 pages.
