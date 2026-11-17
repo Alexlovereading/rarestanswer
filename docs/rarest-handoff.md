@@ -1561,3 +1561,74 @@ On `/tmp/q1-dist/answers/great-ape-species/index.html` the literal phrases occur
 | `/guides/rarest-answers-animals/` | Animal prompts score a specific species with fewer Wikipedia pageviews. On the published great-ape list, the Tapanuli orangutan ranks above Human and Bonobo. | 157 |
 
 Validation on 2026-11-16: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 510 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/q1-dist` built 332 pages.
+
+
+## R2-UNLIMITED-KRILLION done
+
+Added the missing unlimited queries on the two pages that already answer that question. No new schema. No affiliation claim. No server was started. No state-changing git commands. Facts about krillion.io's Unlimited screen were read in a browser on 17 November 2026 at https://krillion.io/unlimited/classic (the URL opened `?game=1`): heading The Endless Dive, line "dive after dive · rarer answers sink deeper," label Endless Dive #1, no price and no written rules sheet on that screen. A round was not started, so the page still does not say how many dives that screen allows or whether a clock is running.
+
+`/unlimited/` title, H1, and description are unchanged.
+
+| | Before | After |
+| --- | --- | --- |
+| Title / H1 | Rarest Answer Unlimited: A Krillion Unlimited Alternative (57) | unchanged |
+| Description | Extra Rarest Answer rounds with no daily lock. A new set on every start, same tiers and Spotlight, scored by Wikipedia pageviews. (129) | unchanged |
+
+New H2: "Is there a Krillion unlimited game?" Three sentences under it. The first cites the 17 November 2026 screen and links https://krillion.io/unlimited/classic. "One in a Krillion unlimited" is once, as the search for that screen, with the line that Rarest Answer is not affiliated with it. The third sentence says this round deals a new set with no daily lock, and "the Krillion notes" links `/games/krillion/`. The older "not Krillion Unlimited" link in "What unlimited play is" stays.
+
+`/games/krillion/` title, H1, and description are unchanged. `lastModified` is 2026-11-17. In "Is the unlimited screen the same as an endless dive?", the opening now says the Krillion game unlimited path is the Unlimited menu item, and the screen date is 17 November 2026. The FAQ answer for that screen uses the same date; the archive price in that answer stays dated 16 November 2026. The sources line says Unlimited was opened again on 17 November 2026.
+
+Built HTML phrase counts (`/tmp/r2-unlimited-krillion-dist`, 332 pages), case-insensitive:
+
+| Phrase | `/unlimited/` before | `/unlimited/` after | `/games/krillion/` before | `/games/krillion/` after |
+| --- | --- | --- | --- | --- |
+| krillion unlimited game | 0 | 1 (the H2) | 0 | 0 |
+| one in a krillion unlimited | 0 | 1 (the new paragraph) | 0 | 0 |
+| krillion game unlimited | 0 | 0 | 0 | 1 (the unlimited section) |
+
+The shorter string "krillion unlimited" still appears in the unlimited title, the H1, and the existing "Krillion Unlimited" link. The new H2 and "One in a Krillion unlimited" contain those two words as well. Those are the same sentences above, not extra lines.
+
+Validation on 2026-11-17: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 510 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/r2-unlimited-krillion-dist` built 332 pages. The built unlimited page and the Krillion article were opened locally; the new H2 and the unlimited section matched the copy above.
+
+## R3-WORDLE-UNLIMITED done
+
+Updated only `src/content/wiki/en/games/games-like-wordle.mdx`. Added the H2 "Unlimited Wordle: can you play more than one a day?" and set `lastModified` to 2026-11-17. Title, description, and H1 are unchanged.
+
+Checked in a browser on 17 November 2026. The New York Times Games help page (https://help.nytimes.com/24611727334932-Wordle) says the daily puzzle needs no subscription and releases at midnight in the player's time zone. The archive, back to 19 June 2021, is for Games subscribers and All Access (included with Home Delivery). Archive play changes played count, win rate, and guess distribution, not the streak, and a finished puzzle cannot be replayed. Two other sites opened the same day: https://wordle.global/en/unlimited (its own five-letter, six-try board; the page says a new word follows with no daily cap and no sign-up) and https://wordplay.com/ (a daily word at midnight Eastern Time, plus a welcome line for more than one game). wordle.gg/unlimited returned 403 and is not named. The new section does not say this site is Wordle or those sites. One sentence points to `/unlimited/` for extra rarest-answer rounds.
+
+Phrase counts in the MDX source: "unlimited wordle" 0 → 1 (the H2 only). "wordle unlimited" 1 → 2 (the existing FAQ question, plus the wordle.global link text once). The built page also lists that H2 in the table of contents, which copies every heading.
+
+| | Before | After |
+| --- | --- | --- |
+| Title | Games Like Wordle: How They Work & Tips | same (rendered document title adds " — Rarest Answer") |
+| Description | Games like Wordle keep the once-a-day habit: a hidden five-letter word, a grid, or a rare correct answer instead. Wordle is one shared word. See games like it. (159) | same (159) |
+| H1 | Games Like Wordle: How They Work & Tips | same |
+
+Validation on 2026-11-17: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 510 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/r3-wordle-unlimited-dist` built 332 pages. No server was started. No state-changing git commands.
+
+## R1-ANSWER-CTR done
+
+Answer pages now keep the rarest name on the page and use the snippet as the reason to open it. All 276 `/answers/<slug>/` pages. No new schema. The intro still names the rarest answer, still says "The rarest <noun> on this list is …", and still adds the per-slug sentence from `src/config/answer-seo.ts`. The table, the unranked "No article" labels, and "Report a wrong answer" are unchanged. Answer names stay in the stored spelling in the table and in sentences. No h1–h6 still contains an answer name, so there was no heading left to title-case. Stored data was not edited. No server was started. No state-changing git commands.
+
+`src/config/answer-seo.ts` now has `ANSWER_TITLE_NOUNS`. `great-ape-species` is "Great Ape Species", used only as the title noun. The H1 still comes from the question ("species of great ape"). The breadcrumb uses that same title noun without the word "Rare", so the trail reads "Great Ape Species" and does not add a third "rare species of great ape".
+
+Title core is at most 60 characters and does not name an answer. Preferred form: "Rare <plural>: All <N> Ranked, Rarest to Most Common". If that does not fit: "Rare <plural>: All <N> Ranked by Rarity", then "Rare <plural>: All <N> Ranked". N is the accepted-answer count. A noun that is still too long keeps the part before "or", or the distinguishing ending ("Academy Award for Best Actress"), before it is clipped. When nothing is ranked the title says "None Ranked" instead of claiming a ranking. The brand suffix " — Rarest Answer" is added only when the rendered title still fits in 60 characters. The great-ape title is 59 characters, so the suffix is dropped. og:title and twitter:title match the title. og:description and twitter:description match the meta description.
+
+The description is the "Stuck on …" sentence, 140–160 characters, with no answer names. The full great-ape sentence was 162 characters, so "accepted" was dropped and the rest was kept (153).
+
+`/answers/great-ape-species/` from `/tmp/r1-answer-ctr-dist` (332 pages, 276 answer pages). Counts are case-insensitive, title element and body text, not the repeated og/twitter attributes.
+
+| | Before | After |
+| --- | --- | --- |
+| Title | Rare Species of Great Ape: Tapanuli orangutan & All 8 Ranked (60) | Rare Great Ape Species: All 8 Ranked, Rarest to Most Common (59) |
+| Description | Rarest answer: Tapanuli orangutan (Legendary). Also rare: Sumatran orangutan, Eastern gorilla. For "Name a species of great ape", ranked by Wikipedia views. (156) | Stuck on "Name a species of great ape" in Krillion or another rare-answer game? See all 8 answers ranked by rarity, with scores and spellings that count. (153) |
+| H1 | Rare Species of Great Ape: Tapanuli orangutan and All 8 Ranked (62) | Species of great ape: all 8, ranked from rarest to most common (62) |
+
+| Phrase | Before (prior build note) | After, title element | After, body |
+| --- | --- | --- | --- |
+| rare species of great ape | in the old title and H1 | 0 | 2 (the looking line, and "name a rare species of great ape") |
+| rarest species of great ape | 1 | 0 | 1 |
+| rare great ape species | 1 (the extra sentence) | 1 | 1 (the same extra sentence) |
+| Tapanuli orangutan | in the title and H1 | 0 | 13 (intro, table, and the spelling that counts; not a heading) |
+
+Validation on 2026-11-17: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 510 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/r1-answer-ctr-dist` built 332 pages. Snippet tests were run again after the breadcrumb noun change; the full test suite was green on that final tree. No browser was opened. The built great-ape HTML was read for the title, the meta description, the H1, and the phrase counts above.

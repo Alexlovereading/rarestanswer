@@ -1,6 +1,7 @@
 /**
  * Answer-page titles, meta descriptions, and opening sentences.
- * The rarest name is a ranked answer. noData rows are skipped.
+ * The title and description give a reason to open the page.
+ * The rarest name stays in the intro. noData rows are not that name.
  */
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -37,23 +38,24 @@ function answer(name: string, rarity: number, popularity: number, tier: Answer['
 describe('answer page snippets', () => {
   const ape = derivePromptSeo(greatApe);
 
-  it('leads the great-ape title with the search phrasing and the rarest ranked name', () => {
-    expect(ape.documentTitle).toBe('Rare Species of Great Ape: Tapanuli orangutan & All 8 Ranked');
+  it('puts the ranking promise in the great-ape title and leaves the answer name off it', () => {
+    expect(ape.documentTitle).toBe('Rare Great Ape Species: All 8 Ranked, Rarest to Most Common');
     expect(ape.documentTitle.length).toBeLessThanOrEqual(60);
+    expect(ape.documentTitle).not.toMatch(/tapanuli|orangutan|gorilla|bonobo|human/i);
     expect(answerTitleSuffix(ape.documentTitle)).toBe('');
     expect(renderedAnswerTitle(ape.documentTitle)).toBe(ape.documentTitle);
-    expect(ape.h1).toBe('Rare Species of Great Ape: Tapanuli orangutan and All 8 Ranked');
-    expect(ape.h1.startsWith('Rare Species of Great Ape: Tapanuli orangutan')).toBe(true);
-    expect(ape.h1.length).toBeGreaterThan(ape.documentTitle.length);
+    expect(ape.h1).toBe('Species of great ape: all 8, ranked from rarest to most common');
+    expect(ape.h1).not.toMatch(/tapanuli|orangutan/i);
     expect(ape.heading).toBe('Rarest Species of Great Ape — All 8 Answers Ranked by Rarity');
   });
 
-  it('writes a 140–160 character description that names the next rare answers and the question', () => {
+  it('writes a 140–160 character description with the question and no answer names', () => {
     expect(ape.description.length).toBeGreaterThanOrEqual(140);
     expect(ape.description.length).toBeLessThanOrEqual(160);
     expect(ape.description).toBe(
-      'Rarest answer: Tapanuli orangutan (Legendary). Also rare: Sumatran orangutan, Eastern gorilla. For "Name a species of great ape", ranked by Wikipedia views.',
+      'Stuck on "Name a species of great ape" in Krillion or another rare-answer game? See all 8 answers ranked by rarity, with scores and spellings that count.',
     );
+    expect(ape.description).not.toMatch(/tapanuli|orangutan|gorilla|bonobo|human/i);
   });
 
   it('answers the great-ape searches in the opening, once, without claiming to be Krillion', () => {
@@ -83,11 +85,13 @@ describe('answer page snippets', () => {
         answer('Human', 0, 900, 1),
       ],
     });
-    expect(page.documentTitle).toContain('Tapanuli orangutan');
+    expect(page.documentTitle).not.toContain('Tapanuli orangutan');
     expect(page.documentTitle).not.toContain('Missing ape');
+    expect(page.h1).not.toContain('Tapanuli orangutan');
+    expect(page.h1).not.toContain('Missing ape');
     expect(page.intro).toContain('The rarest accepted answer is Tapanuli orangutan (Rare).');
     expect(page.intro).not.toContain('Missing ape');
-    expect(page.description).toContain('Tapanuli orangutan');
+    expect(page.description).not.toContain('Tapanuli orangutan');
     expect(page.description).not.toContain('Missing ape');
   });
 
@@ -98,14 +102,20 @@ describe('answer page snippets', () => {
       answers: [answer('Fig', 1, 0, 6, true), answer('Date', 0.2, 0, 3, true)],
     });
     expect(page.documentTitle).toBe('Rare Fruits: None Ranked');
+    expect(page.h1).toBe('Fruits: all 2, none ranked');
     expect(page.intro).toMatch(/none is ranked as the rarest/i);
     expect(page.intro).not.toMatch(/rarest accepted answer is/i);
-    expect(page.description).toMatch(/No ranked rarest answer/i);
+    expect(page.description).toMatch(/^Stuck on "Name a fruit"/);
+    expect(page.description).toMatch(/None is ranked/);
+    expect(page.description).not.toMatch(/ranked by rarity/);
+    expect(page.description).not.toMatch(/fig|date/i);
     expect(page.description.length).toBeGreaterThanOrEqual(140);
     expect(page.description.length).toBeLessThanOrEqual(160);
+    expect(answerTitleSuffix(page.documentTitle)).toBeUndefined();
+    expect(renderedAnswerTitle(page.documentTitle)).toBe('Rare Fruits: None Ranked — Rarest Answer');
   });
 
-  it('falls back to a shorter title when the rarest name is very long', () => {
+  it('uses the shorter title when the long ranking formula does not fit', () => {
     const longName = 'Routes of Santiago de Compostela: Camino Francés and Routes of Northern Spain';
     const page = prompt({
       slug: 'long-name',
@@ -115,16 +125,22 @@ describe('answer page snippets', () => {
     });
     expect(page.documentTitle.length).toBeLessThanOrEqual(60);
     expect(page.documentTitle.startsWith('Rare UNESCO World Heritage Sites in Spain')).toBe(true);
+    expect(page.documentTitle).not.toContain(longName);
+    expect(page.documentTitle).toMatch(/All 2 Ranked/);
     expect(renderedAnswerTitle(page.documentTitle).length).toBeLessThanOrEqual(60);
+    expect(page.h1).toBe(
+      'UNESCO World Heritage Sites in Spain: all 2, ranked from rarest to most common',
+    );
     expect(page.intro).toContain(longName);
-    expect(page.h1.length).toBeGreaterThan(0);
+    expect(page.description).not.toContain(longName);
   });
 
-  it('keeps the brand suffix only when the rendered title still fits in 60 characters', () => {
+  it('drops the brand suffix when the ranking title already fills the 60-character core', () => {
     const fruits = getPrompts().find((item) => item.slug === 'fruits');
     expect(fruits).toBeDefined();
-    expect(answerTitleSuffix(fruits!.documentTitle)).toBeUndefined();
-    expect(renderedAnswerTitle(fruits!.documentTitle)).toBe(`${fruits!.documentTitle} — Rarest Answer`);
+    expect(fruits!.documentTitle.startsWith('Rare Fruits: All ')).toBe(true);
+    expect(answerTitleSuffix(fruits!.documentTitle)).toBe('');
+    expect(renderedAnswerTitle(fruits!.documentTitle)).toBe(fruits!.documentTitle);
     expect(renderedAnswerTitle(fruits!.documentTitle).length).toBeLessThanOrEqual(60);
   });
 
@@ -133,7 +149,7 @@ describe('answer page snippets', () => {
     expect(page).toBeDefined();
     expect(page!.intro).toContain('English Wiktionary pageviews over the last 12 months');
     expect(page!.intro).not.toMatch(/wikipedia/i);
-    expect(page!.description).toContain('Wiktionary views');
+    expect(page!.description).toMatch(/^Stuck on "/);
     expect(page!.description).not.toMatch(/wikipedia/i);
   });
 
@@ -158,14 +174,19 @@ describe('answer page snippets', () => {
       const needle = `name a rare ${item.nounPhrase}`.toLowerCase();
       if (item.documentTitle.includes('None Ranked')) {
         expect(item.intro.toLowerCase()).not.toContain(needle);
+        expect(item.h1).toMatch(/none ranked$/);
       } else {
         expect(item.intro.toLowerCase().split(needle).length - 1, item.slug).toBe(1);
+        expect(item.h1, item.slug).toMatch(/ranked from rarest to most common$/);
+        expect(item.documentTitle, item.slug).toMatch(/^Rare .+: All \d+ Ranked/);
       }
+      expect(item.description, item.slug).toMatch(/^Stuck on "/);
       const ranked = item.answers.find((row) => row.noData !== true);
-      if (ranked && item.documentTitle.length === 60) {
-        expect(item.documentTitle.toLowerCase().includes(ranked.name.toLowerCase()) || item.intro.includes(ranked.name)).toBe(
-          true,
-        );
+      if (ranked && !item.question.toLowerCase().includes(ranked.name.toLowerCase())) {
+        expect(item.documentTitle.toLowerCase(), item.slug).not.toContain(ranked.name.toLowerCase());
+        expect(item.h1.toLowerCase(), item.slug).not.toContain(ranked.name.toLowerCase());
+        expect(item.description.toLowerCase(), item.slug).not.toContain(ranked.name.toLowerCase());
+        expect(item.intro, item.slug).toContain(ranked.name);
       }
     }
   });
