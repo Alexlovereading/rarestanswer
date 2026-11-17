@@ -7,7 +7,16 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, test } from 'vitest';
 
-import { normalizeKey, scoreAnswerDrafts, wikiTokensAgree } from '../scripts/data/prompt-defs';
+import {
+  VIEW_END,
+  VIEW_START,
+  normalizeKey,
+  pageviewCacheKey,
+  pageviewSnapshot,
+  pageviewsFromSnapshot,
+  scoreAnswerDrafts,
+  wikiTokensAgree,
+} from '../scripts/data/prompt-defs';
 import { isShortForm, mergeCharactersByActor, pickCharacterWiki, type WikiProbe } from '../scripts/data/wikipedia-characters';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -134,7 +143,7 @@ describe('character linking rules', () => {
     expect(pickCharacterWiki('Troy Walsh', ['Troy'], forName('Troy Walsh', ['Troy']))).toBeUndefined();
     expect(pickCharacterWiki('Yuri Ismaylov', [], forName('Yuri Ismaylov'))).toBeUndefined();
     expect(pickCharacterWiki('Eleven', [], forName('Eleven'))).toBe('Eleven (Stranger Things)');
-    expect(pickCharacterWiki('Eddie Munson', [], forName('Eddie Munson'))).toBe('Eddie Munson');
+    expect(pickCharacterWiki('Eddie Munson', [], forName('Eddie Munson'))).toBeUndefined();
     expect(pickCharacterWiki('Suzie Bingham', [], forName('Suzie Bingham'))).toBeUndefined();
     expect(pickCharacterWiki('Will Byers', [], forName('Will Byers'))).toBe('Will Byers');
     expect(pickCharacterWiki('Barbara Holland', [], forName('Barbara Holland'))).toBeUndefined();
@@ -212,5 +221,86 @@ describe('built prompt catalog', () => {
     expect(prompt.answers.find((answer) => answer.name === 'Eleven')?.wiki).toBe('Eleven (Stranger Things)');
     expect(prompt.answers.some((answer) => answer.name === 'Tina')).toBe(true);
     expect(prompt.answers.some((answer) => answer.name === 'Tina Turnbow')).toBe(true);
+  });
+
+  test('catalog stays 276 prompts', () => {
+    expect(catalog).toHaveLength(276);
+  });
+
+  test('Stranger Things redirect-only views are unranked', () => {
+    const prompt = catalog.find((item) => item.slug === 'stranger-things-characters');
+    expect(prompt).toBeDefined();
+    if (!prompt) return;
+    const redirectOnly = [
+      'Scott Clarke',
+      'Derek Turnbow',
+      'Holly Wheeler',
+      'Lonnie Byers',
+      'Murray Bauman',
+      'Erica Sinclair',
+      'Bob Newby',
+      'Lucas Sinclair',
+      'Martin Brenner',
+      'Billy Hargrove',
+      'Eddie Munson',
+    ];
+    expect(prompt.answers).toHaveLength(122);
+    for (const name of redirectOnly) {
+      const answer = prompt.answers.find((item) => item.name === name);
+      expect(answer, name).toMatchObject({ popularity: 0, rarity: 0.5, tier: 3, noData: true });
+      expect(answer?.wiki).toBeUndefined();
+    }
+    const ranked = prompt.answers.filter((answer) => answer.noData !== true);
+    expect(ranked).toHaveLength(12);
+    expect(ranked.map((answer) => answer.name)).toEqual([
+      'Ted Wheeler',
+      'Dustin Henderson',
+      'Robin Buckley',
+      'Joyce Byers',
+      'Max Mayfield',
+      'Mike Wheeler',
+      'Jim Hopper',
+      'Nancy Wheeler',
+      'Steve Harrington',
+      'Will Byers',
+      'Eleven',
+      'Vecna',
+    ]);
+    expect(ranked[0]).toMatchObject({ name: 'Ted Wheeler', wiki: 'Ted Wheeler (Stranger Things)', popularity: 31966, rarity: 1 });
+    expect(ranked[ranked.length - 1]).toMatchObject({ name: 'Vecna', wiki: 'Vecna (Stranger Things)', popularity: 1611977, rarity: 0 });
+    const raw = JSON.parse(readFileSync(join(promptDir, 'stranger-things-characters.json'), 'utf8')) as { source?: string };
+    expect(raw.source).toContain('only a redirect into that list, is noData');
+  });
+});
+
+describe('pageview cache identity', () => {
+  test('the key includes the measurement window', () => {
+    const current = pageviewCacheKey('en.wikipedia', 'Eleven (Stranger Things)');
+    expect(current).toBe(`en.wikipedia::Eleven (Stranger Things)::${VIEW_START}::${VIEW_END}`);
+    expect(pageviewCacheKey('en.wikipedia', 'Eleven (Stranger Things)', '20200101', '20201201')).not.toBe(current);
+  });
+
+  test('a snapshot stores the retrieval time and the window', () => {
+    const retrieved = '2026-11-17T14:00:00.000Z';
+    const snapshot = pageviewSnapshot(301, 200, retrieved);
+    expect(snapshot).toEqual({
+      views: 301,
+      status: 200,
+      retrieved,
+      start: VIEW_START,
+      end: VIEW_END,
+    });
+    expect(pageviewsFromSnapshot(snapshot)).toBe(301);
+    expect(pageviewsFromSnapshot({ views: 301, status: 200 })).toBeUndefined();
+    expect(pageviewsFromSnapshot({ ...snapshot, start: '20200101' })).toBeUndefined();
+    expect(pageviewsFromSnapshot({ ...snapshot, retrieved: '2026-11-17' })).toBeUndefined();
+  });
+
+  test('pageviewsFor uses the window key and writes a snapshot', () => {
+    const source = readFileSync(join(root, 'scripts', 'build-prompts.ts'), 'utf8');
+    expect(source).toContain('pageviewCacheKey(project, title)');
+    expect(source).toContain('pageviewSnapshot(');
+    expect(source).toContain('pageviewsFromSnapshot(readCache(file))');
+    expect(source).not.toContain('cachePath(\'pageviews\', `${project}::${title}`)');
   });
 });

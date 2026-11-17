@@ -9,14 +9,18 @@
  *
  * The document title is "Rare <plural noun>: All <N> Ranked, Rarest to Most Common"
  * (fallback "Rare <plural noun>: All <N> Ranked by Rarity"). It does not name
- * an answer. `answerTitleNoun` may replace the plural noun for one slug.
- * The H1 is "<Plural noun>: all <N>, ranked from rarest to most common".
- * The opening still names the rarest answer. `answerSeoSentence` may add
- * one more sentence. `answerTitleSuffix` drops " — Rarest Answer" when the
+ * an answer. When some answers are `noData`, N is the ranked count, and the
+ * title, H1, or description also states the accepted count. `answerTitleNoun`
+ * may replace the plural noun for one slug.
+ * The H1 is "<Plural noun>: all <N>, ranked from rarest to most common",
+ * or "all <ranked> ranked, <accepted> accepted" when those counts differ.
+ * The opening names the rarest answer once. `answerSeoSentence` may add
+ * one scope note. `answerTitleSuffix` drops " — Rarest Answer" when the
  * suffix would push the core past 60 characters.
  */
 
 import { answerSeoSentence, answerTitleNoun } from '~/config/answer-seo';
+import { curatedRelatedSlugs } from '~/config/related-prompts';
 import { defaultLocale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { TIERS, type Answer, type CategoryKey, type Prompt } from '~/lib/game/types';
@@ -380,11 +384,25 @@ function clipTitle(text: string): string {
   return words.join(' ');
 }
 
-function rankedTitle(noun: string, total: number, form: 'full' | 'fallback' | 'short'): string {
-  const rareLabel = `Rare ${noun}`.replace(/\s+/g, ' ').trim();
-  if (form === 'full') return `${rareLabel}: All ${total} Ranked, Rarest to Most Common`;
-  if (form === 'fallback') return `${rareLabel}: All ${total} Ranked by Rarity`;
-  return `${rareLabel}: All ${total} Ranked`;
+/**
+ * Title candidates, best first. N is the ranked count.
+ * When some accepted answers are unranked, the longer forms also say how many are accepted.
+ */
+function titleCandidates(noun: string, ranked: number, total: number): string[] {
+  const label = `Rare ${noun}`.replace(/\s+/g, ' ').trim();
+  const rankedLabel = `${label}: All ${ranked} Ranked`;
+  if (ranked < total) {
+    return [
+      `${label}: All ${ranked} Ranked, ${total} Accepted`,
+      `${label}: All ${ranked} Ranked (${total} Accepted)`,
+      rankedLabel,
+    ];
+  }
+  return [
+    `${rankedLabel}, Rarest to Most Common`,
+    `${label}: All ${ranked} Ranked by Rarity`,
+    rankedLabel,
+  ];
 }
 
 function trimEdgeWords(noun: string): string {
@@ -443,7 +461,7 @@ function titleNouns(pluralTitle: string): string[] {
 
 /**
  * "Rare <plural>: All <N> Ranked, Rarest to Most Common".
- * The rarest name stays off the title. N is the accepted-answer count.
+ * The rarest name stays off the title. N is the ranked count.
  * When nothing is ranked, the title says so instead of claiming a ranking.
  */
 function buildDocumentTitle(pluralTitle: string, total: number, rankedCount: number): string {
@@ -453,12 +471,12 @@ function buildDocumentTitle(pluralTitle: string, total: number, rankedCount: num
     return none.length <= TITLE_MAX ? none : clipTitle(none);
   }
   for (const option of titleNouns(noun)) {
-    for (const form of ['full', 'fallback', 'short'] as const) {
-      const candidate = rankedTitle(option, total, form);
+    for (const candidate of titleCandidates(option, rankedCount, total)) {
       if (candidate.length <= TITLE_MAX) return candidate;
     }
   }
-  return clipTitle(rankedTitle(trimEdgeWords(noun) || noun, total, 'short'));
+  const fallback = titleCandidates(trimEdgeWords(noun) || noun, rankedCount, total).at(-1) ?? noun;
+  return clipTitle(fallback);
 }
 
 function capitalizeFirst(text: string): string {
@@ -470,6 +488,7 @@ function capitalizeFirst(text: string): string {
 function buildPageH1(pluralSentence: string, total: number, rankedCount: number): string {
   const noun = capitalizeFirst(pluralSentence.trim() || 'answers');
   if (rankedCount <= 0) return `${noun}: all ${total}, none ranked`;
+  if (rankedCount < total) return `${noun}: all ${rankedCount} ranked, ${total} accepted`;
   return `${noun}: all ${total}, ranked from rarest to most common`;
 }
 
@@ -518,8 +537,7 @@ function compareAnswers(a: SeoAnswer, b: SeoAnswer): number {
 function buildHeading(nounTitle: string, total: number, ranked: number): string {
   if (ranked <= 0) return `${nounTitle} — No Ranked Rarest Answer`;
   if (ranked !== total) {
-    const answers = ranked === 1 ? 'Answer' : 'Answers';
-    return `Rarest ${nounTitle} — ${ranked} ${answers} Ranked by Pageviews`;
+    return `Rarest ${nounTitle} — ${ranked} Ranked, ${total} Accepted`;
   }
   const answers = total === 1 ? 'Answer' : 'Answers';
   return `Rarest ${nounTitle} — All ${total} ${answers} Ranked by Rarity`;
@@ -566,6 +584,22 @@ function clickDescriptionCandidates(question: string, total: number, rankedCount
       for (const tail of tails) {
         for (const see of sees) {
           out.push(stuckLine(questionText, { accepted: true, scores: false, tail }, see));
+        }
+      }
+    }
+    return out;
+  }
+  if (rankedCount < total) {
+    const unranked = total - rankedCount;
+    const sees = [
+      `See all ${rankedCount} ranked of ${total} accepted answers, with scores and spellings that count.`,
+      `See the ${rankedCount} ranked answers. ${total} accepted, ${unranked} not ranked.`,
+      `All ${rankedCount} ranked answers are on this page. ${total} names are accepted.`,
+    ];
+    for (const questionText of asked) {
+      for (const tail of tails) {
+        for (const see of sees) {
+          out.push(stuckLine(questionText, { accepted: true, scores: true, tail }, see));
         }
       }
     }
@@ -632,28 +666,32 @@ function buildClickDescription(question: string, total: number, rankedCount: num
   ]);
 }
 
-function gameDisclaimer(source: string): string {
+/** Whose ranking this is. One Krillion mention. Does not claim the scores match. */
+function rankingCredit(source: string, rankedCount: number): string {
+  const differ = "Krillion's acceptance and scores may differ.";
+  if (rankedCount <= 0) return differ;
   const kind = measureKind(source);
   if (kind === 'wiktionary') {
-    return 'If you met this prompt in Krillion or another rare-answer game, rarity here is English Wiktionary pageviews over the last 12 months.';
+    return `These rankings are Rarest Answer's Wiktionary-pageview rankings. ${differ}`;
   }
   if (kind === 'stored') {
-    return 'If you met this prompt in Krillion or another rare-answer game, rarity here is the stored popularity on this list.';
+    return `These rankings are Rarest Answer's stored-popularity rankings. ${differ}`;
   }
-  return 'If you met this prompt in Krillion or another rare-answer game, rarity here is English Wikipedia pageviews over the last 12 months.';
+  return `These rankings are Rarest Answer's Wikipedia-pageview rankings. ${differ}`;
 }
 
-/** "The rarest <noun> on this list is <name>." Empty when nothing is ranked. */
-function rarestNounLine(nounPhrase: string, ranked: readonly SeoAnswer[]): string {
+/** One sentence. Empty when nothing is ranked. */
+function rarestSentence(nounPhrase: string, ranked: readonly SeoAnswer[]): string {
   const rare = ranked[0];
   if (!rare) return '';
+  const tier = tierName(rare.tier);
   const cluster = ranked.filter((answer) => answer.rarity === rare.rarity);
   if (cluster.length > 1) {
     const shown = cluster.slice(0, 3).map((answer) => answer.name);
     const more = cluster.length > 3 ? `, and ${cluster.length - 3} more` : '';
-    return `The rarest ${nounPhrase} on this list are ${joinNames(shown)}${more}.`;
+    return `The rarest ${nounPhrase} on this list are ${joinNames(shown)}${more} (${tier}).`;
   }
-  return `The rarest ${nounPhrase} on this list is ${rare.name}.`;
+  return `The rarest ${nounPhrase} on this list is ${rare.name} (${tier}).`;
 }
 
 function buildSnippetIntro(
@@ -662,29 +700,53 @@ function buildSnippetIntro(
   source: string,
   ranked: readonly SeoAnswer[],
 ): string {
-  const looking = `Looking for a rare ${nounPhrase} to name?`;
-  const ask = `name a rare ${nounPhrase}`;
   const extra = answerSeoSentence(slug);
-  const disclaimer = extra ? `${extra} ${gameDisclaimer(source)}` : gameDisclaimer(source);
+  const credit = rankingCredit(source, ranked.length);
   const rare = ranked[0];
-  if (!rare) {
-    return `${looking} None of the accepted answers has an English Wikipedia article, so none is ranked as the rarest ${nounPhrase}. ${disclaimer}`;
+  const lead = rare
+    ? rarestSentence(nounPhrase, ranked)
+    : 'None of the accepted answers has an English Wikipedia article, so none is ranked.';
+  return [lead, extra, credit].filter((part) => part && part.trim()).join(' ');
+}
+
+const COMPARISON_HEAD = 3;
+const COMPARISON_ALL_BELOW = 15;
+
+export interface ComparisonRow {
+  answer: SeoAnswer;
+  /** 1-based rank among ranked answers. A sample can skip from 3 to the last rank. */
+  rank: number;
+}
+
+/**
+ * Ranked rows to show above the long guide.
+ * The full ranked list when it is short. Otherwise the rarest few and the most common.
+ * `noData` rows are left out.
+ */
+export function comparisonRows(answers: readonly SeoAnswer[]): ComparisonRow[] {
+  const ranked = answers.filter((answer) => !isNoData(answer));
+  if (ranked.length < 2) return [];
+  if (ranked.length < COMPARISON_ALL_BELOW) {
+    return ranked.map((answer, index) => ({ answer, rank: index + 1 }));
   }
-  const tier = tierName(rare.tier);
-  const cluster = ranked.filter((answer) => answer.rarity === rare.rarity);
-  const least = measureKind(source) === 'stored' ? 'lowest stored-popularity' : 'least-viewed';
-  const nounLine = rarestNounLine(nounPhrase, ranked);
-  if (cluster.length > 1) {
-    const shown = cluster.slice(0, 3).map((answer) => answer.name);
-    const more = cluster.length > 3 ? `, and ${cluster.length - 3} more` : '';
-    return `${looking} ${nounLine} The rarest accepted answers are ${joinNames(shown)}${more} (${tier}). To ${ask}, start with those ${least} ranked answers. ${disclaimer}`;
+  const head = ranked.slice(0, COMPARISON_HEAD).map((answer, index) => ({ answer, rank: index + 1 }));
+  const last = ranked[ranked.length - 1];
+  if (!last) return head;
+  return [...head, { answer: last, rank: ranked.length }];
+}
+
+/** One line under the comparison heading. Empty when the list needs no caveat. */
+export function comparisonNote(answers: readonly SeoAnswer[]): string {
+  const rankedCount = answers.filter((answer) => !isNoData(answer)).length;
+  const unranked = answers.length - rankedCount;
+  if (rankedCount < 2) return '';
+  if (rankedCount >= COMPARISON_ALL_BELOW) {
+    return `${rankedCount} answers are ranked. This comparison shows the rarest ${COMPARISON_HEAD} and the most common end of the ranking.`;
   }
-  const answerSentence = `The rarest accepted answer is ${rare.name} (${tier}).`;
-  const follow =
-    ranked.length === 1
-      ? `To ${ask}, that is the only ranked answer.`
-      : `To ${ask}, start with that ${least} ranked answer.`;
-  return `${looking} ${nounLine} ${answerSentence} ${follow} ${disclaimer}`;
+  if (unranked > 0) {
+    return 'These are the ranked answers. The table also lists accepted answers that are not ranked.';
+  }
+  return '';
 }
 
 export function derivePromptSeo(input: PromptInput): PromptSeo {
@@ -729,35 +791,65 @@ export function derivePromptSeo(input: PromptInput): PromptSeo {
   };
 }
 
-const RELATED_MIN = 4;
 const RELATED_MAX = 6;
 
-/**
- * Next prompts in catalog order, wrapping past the end. `sorted` may include
- * `slug`. Returns at most `count` other prompts.
- */
-function takeNext(sorted: readonly PromptSeo[], slug: string, count: number): PromptSeo[] {
-  if (count <= 0 || sorted.length === 0) return [];
-  const index = sorted.findIndex((item) => item.slug === slug);
-  if (index === -1) return sorted.filter((item) => item.slug !== slug).slice(0, count);
-  const after = sorted.slice(index + 1);
-  const before = sorted.slice(0, index);
-  const ring = [...after, ...before].filter((item) => item.slug !== slug);
-  return ring.slice(0, count);
+const RELATED_STOP = new Set([
+  'species',
+  'songs',
+  'song',
+  'films',
+  'film',
+  'characters',
+  'character',
+  'winners',
+  'winner',
+  'dishes',
+  'dish',
+  'sites',
+  'site',
+  'members',
+  'member',
+  'countries',
+  'country',
+  'states',
+  'state',
+  'genres',
+  'genre',
+  'instruments',
+  'instrument',
+]);
+
+function relatedTokens(slug: string): string[] {
+  return slug.split('-').filter((token) => token.length >= 4 && !RELATED_STOP.has(token));
 }
 
 /**
- * 4–6 related prompts when the catalog can fill that many: same category
- * first (the next ones in list order), then the next prompts in the full
- * catalog. Fewer than 4 only when fewer than 4 other prompts exist.
+ * Curated topic links first. A prompt with no topic group keeps same-category
+ * prompts that share a distinctive slug token. Catalog neighbors are not used.
  */
 export function selectRelated(prompt: PromptSeo, all: readonly PromptSeo[]): PromptSeo[] {
-  const same = all.filter((item) => item.category === prompt.category);
-  const picked = takeNext(same, prompt.slug, RELATED_MAX);
-  if (picked.length >= RELATED_MIN) return picked;
-  const seen = new Set(picked.map((item) => item.slug));
-  const extras = takeNext(all, prompt.slug, all.length).filter((item) => !seen.has(item.slug));
-  return [...picked, ...extras.slice(0, RELATED_MIN - picked.length)];
+  const bySlug = new Map(all.map((item) => [item.slug, item]));
+  const curated = curatedRelatedSlugs(prompt.slug)
+    .map((slug) => bySlug.get(slug))
+    .filter((item): item is PromptSeo => item != null && item.slug !== prompt.slug);
+  if (curated.length > 0) return curated.slice(0, RELATED_MAX);
+  const tokens = new Set(relatedTokens(prompt.slug));
+  if (tokens.size === 0) return [];
+  return all
+    .filter((item) => item.slug !== prompt.slug && item.category === prompt.category)
+    .map((item) => ({
+      item,
+      share: relatedTokens(item.slug).filter((token) => tokens.has(token)).length,
+    }))
+    .filter((row) => row.share > 0)
+    .sort(
+      (a, b) =>
+        b.share - a.share ||
+        a.item.question.localeCompare(b.item.question) ||
+        a.item.slug.localeCompare(b.item.slug),
+    )
+    .slice(0, RELATED_MAX)
+    .map((row) => row.item);
 }
 
 function descriptionWithMarker(description: string, marker: string): string {

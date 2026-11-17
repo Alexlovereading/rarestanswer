@@ -3,8 +3,12 @@
  * Filled tier chip. W1-UI owns the paint: `.tier-pill` + `data-tier`
  * reads `--tier-1` … `--tier-6` (HSL components) and switches fill vs
  * tint between light and dark. The visible text is the tier name.
+ *
+ * `art` is a CSS chip (one stylesheet, the 128px treasure already used
+ * by TierBadge). Ranking tables repeat a tier hundreds of times; an
+ * <img> per row was most of the HTML weight. The pill text stays the
+ * accessible name. Filenames match `tierTreasure` in raster-art.ts.
  */
-import TierBadge from '~/components/art/TierBadge.astro';
 import { TIERS, type Answer } from '~/lib/game/types';
 
 interface Props {
@@ -19,6 +23,21 @@ const name = label ?? TIERS.find((row) => row.tier === tier)?.name ?? `Tier ${ti
 ---
 
 <span class:list={['inline-flex items-center gap-2', !art && 'tier-chip--unadorned']}>
-  {art && <TierBadge tier={tier} size={28} />}
+  {art && <span class="tier-chip__gem" data-tier={tier} aria-hidden="true"></span>}
   <span class="tier-pill" data-tier={tier}>{name}</span>
 </span>
+
+<style>
+  .tier-chip__gem {
+    flex: none;
+    width: 28px;
+    height: 28px;
+    background: center / contain no-repeat;
+  }
+  .tier-chip__gem[data-tier='1'] { background-image: url('/images/tiers/common-128x128.webp'); }
+  .tier-chip__gem[data-tier='2'] { background-image: url('/images/tiers/familiar-128x128.webp'); }
+  .tier-chip__gem[data-tier='3'] { background-image: url('/images/tiers/uncommon-128x128.webp'); }
+  .tier-chip__gem[data-tier='4'] { background-image: url('/images/tiers/rare-128x128.webp'); }
+  .tier-chip__gem[data-tier='5'] { background-image: url('/images/tiers/epic-128x128.webp'); }
+  .tier-chip__gem[data-tier='6'] { background-image: url('/images/tiers/legendary-128x128.webp'); }
+</style>

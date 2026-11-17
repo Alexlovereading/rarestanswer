@@ -7,7 +7,9 @@
  *   - Wikimedia pageviews, monthly, summed over the last 12 complete months
  *
  * Politeness: User-Agent identifies the bot, concurrency stays at or below 4,
- * and 429/5xx responses back off. Re-runs reuse the cache.
+ * and 429/5xx responses back off. Re-runs reuse the cache. A pageview file is
+ * keyed by project, title, and VIEW_START/VIEW_END, and the snapshot stores
+ * the retrieval time. A different window does not reuse the old total.
  *
  * Usage:
  *   pnpm build-prompts            # write src/data/prompts
@@ -36,7 +38,10 @@ import {
   assertPromptDefs,
   generatedVariants,
   normalizeKey,
+  pageviewCacheKey,
   pageviewProject,
+  pageviewSnapshot,
+  pageviewsFromSnapshot,
   rarityOf,
   round3,
   scoreAnswerDrafts,
@@ -463,19 +468,17 @@ function pageviewUrl(project: string, title: string): string {
 }
 
 async function pageviewsFor(project: string, title: string): Promise<number> {
-  const file = cachePath('pageviews', `${project}::${title}`);
-  const cached = readCache(file);
-  if (cached && typeof cached === 'object' && cached !== null && 'views' in cached) {
-    const views = (cached as { views: unknown }).views;
-    if (typeof views === 'number') return views;
-  }
+  const file = cachePath('pageviews', pageviewCacheKey(project, title));
+  const cached = pageviewsFromSnapshot(readCache(file));
+  if (cached !== undefined) return cached;
   const response = await fetchRetry(
     pageviewUrl(project, title),
     { headers: { Accept: 'application/json', 'User-Agent': UA, 'Api-User-Agent': UA } },
     PAGEVIEW_TIMEOUT_MS,
   );
+  const retrieved = new Date().toISOString();
   if (response.status === 404) {
-    writeCache(file, { views: 0, status: 404 });
+    writeCache(file, pageviewSnapshot(0, 404, retrieved));
     return 0;
   }
   if (!response.ok) {
@@ -483,7 +486,7 @@ async function pageviewsFor(project: string, title: string): Promise<number> {
   }
   const payload = (await response.json()) as { items?: { views?: number }[] };
   const views = (payload.items ?? []).reduce((sum, item) => sum + (item.views ?? 0), 0);
-  writeCache(file, { views, status: 200 });
+  writeCache(file, pageviewSnapshot(views, 200, retrieved));
   return views;
 }
 

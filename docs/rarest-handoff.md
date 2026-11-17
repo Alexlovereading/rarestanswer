@@ -1632,3 +1632,188 @@ The description is the "Stuck on …" sentence, 140–160 characters, with no an
 | Tapanuli orangutan | in the title and H1 | 0 | 13 (intro, table, and the spelling that counts; not a heading) |
 
 Validation on 2026-11-17: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 510 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/r1-answer-ctr-dist` built 332 pages. Snippet tests were run again after the breadcrumb noun change; the full test suite was green on that final tree. No browser was opened. The built great-ape HTML was read for the title, the meta description, the H1, and the phrase counts above.
+
+## S6 done
+
+Stranger Things characters measured only by a redirect into "List of Stranger Things characters" are now noData. Those pageviews count visits to the redirect, not visits to a character article, so they are not ranked against full-article totals. `pickCharacterWiki` no longer returns that redirect title. `pnpm build-prompts` ran once while the pageview cache key was still `project::title` (22,888 warm files; 22,316 unique titles; the run completed from cache). The catalog is still 276 prompts and 23,125 answers. Among `src/data/prompts/**`, only `stranger-things-characters.json` changed. The cache key was changed after that run. `build-prompts` was not run again.
+
+Stranger Things, 122 accepted answers both times:
+
+| | Before | After |
+| --- | --- | --- |
+| Ranked on a full article | 23 | 12 |
+| noData | 99 | 110 |
+| Redirect-only names scored | 11. Scott Clarke 301 views, rarity 1, tier 6. Eddie Munson 104,332 views, rarity 0.5, tier 3 | 0. All 11 are popularity 0, rarity 0.5, tier 3, no wiki |
+| Rarest ranked | Scott Clarke, 301 redirect views | Ted Wheeler, 31,966 views, rarity 1, tier 6, wiki `Ted Wheeler (Stranger Things)` |
+| Most viewed | Vecna, 1,611,977 | Vecna, 1,611,977, rarity 0 |
+
+The 11 now unranked: Scott Clarke, Derek Turnbow, Holly Wheeler, Lonnie Byers, Murray Bauman, Erica Sinclair, Bob Newby, Lucas Sinclair, Martin Brenner, Billy Hargrove, Eddie Munson.
+
+Pageview cache identity is `project::title::VIEW_START::VIEW_END` (`20251101` through `20261001`). A new snapshot stores `views`, `status`, `retrieved` (ISO time of that fetch), `start`, and `end`. A file that only has `{ views, status }` is not reused. The next `pnpm build-prompts` will refetch pageviews. Do not run it only to warm the new key.
+
+Built `/tmp/s6-seo-dist` (332 pages, 276 answer pages). `/answers/stranger-things-characters/` quick answer is Ted Wheeler, Legendary, 31,966. The page has 12 Wikipedia article links, the ranked set, and none for the 11 redirect names. Eddie Munson and Scott Clarke render as Uncommon (unranked) / No article. `104,332` and `301` are absent. The views note says 110 answers have no English Wikipedia article, and the source line says a redirect into the list is noData. Vecna's 1,611,977 remains.
+
+Validation on 2026-11-17: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 515 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/s6-seo-dist` built 332 pages. No server was started. No state-changing git commands.
+
+### Requests
+
+- S6 → S1: the guide figures 23 ranked / 99 unranked, and Eddie Munson as a scored Uncommon, are stale against this file. Current data: 122 accepted, 12 ranked, 110 unranked. Eddie Munson is unranked. The rarest ranked character is Ted Wheeler (31,966 full-article views, Legendary).
+- S6 → S2: the built title and H1 still say all 122 are ranked (`Rare Stranger Things Characters: All 122 Ranked by Rarity`). The body already says 110 are unranked and names Ted Wheeler as the rarest. The ranked count is 12.
+
+## S1 done
+
+Updated the Stranger Things guide and the daily-roundup link so they match `stranger-things-characters.json` as read after S6, on 17 November 2026. Accepted names stay 122. Ranked names are the 12 with a character article. The other 110 are unranked (`noData`): no verifiable article, or only a redirect into the character list. Eddie Munson is in that unranked set (popularity 0, no wiki). The plan row still said 23 ranked / 99 unranked and Eddie Uncommon, which was the file before those 11 redirect rows were cleared. Publishing that snapshot would have repeated the stale score. Files edited: `src/content/wiki/en/guides/stranger-things-characters-trivia.mdx`, `src/content/wiki/en/guides/best-daily-trivia-games.mdx`. No new page, no new schema, no prompt JSON.
+
+The guide title and H1 are unchanged: "How Stranger Things Character Scores Work". `lastModified` on both pages is 2026-11-17. Description is 130 characters. Summary is 51 words.
+
+| | Guide before | Built HTML after (`/tmp/s1-dist`) |
+| --- | --- | --- |
+| Description | Eddie Munson is Common on the 129-name list; no Legendary row; 45 Epic names at one pageview | 122 accepted; 12 ranked by Wikipedia pageviews; 110 unranked; Eddie Munson is unranked, not a pageview tier (130 characters) |
+| Ranked tiers | 26 Common, 26 Familiar, 25 Uncommon, 7 Rare, 45 Epic, 0 Legendary (129) | 3 Common, 2 Familiar, 2 Uncommon, 2 Rare, 2 Epic, 1 Legendary (12). Rarest stored row is Ted Wheeler, 31,966, Legendary. Most-viewed is Vecna, 1,611,977, Common |
+| Eddie Munson | Common, stored popularity 104332, no wiki title | Unranked. Built page does not contain 104332 or 104,332. Listed as Uncommon (unranked), the missing-measurement label |
+| "129" in the guide HTML | 5 source hits (description, summary, FAQ, lead, "the 129 scored names") | 0 |
+| Daily roundup link | "the 129 scored names" | "122 accepted names", then "12 of them ranked by pageviews" (1 each in the built daily page) |
+
+Built guide phrase counts, visible text: "129" 0, "Eddie Munson is Common" 0, "45 Epic" 0, "no Legendary" 0, "122" 4, "110" 7, "Uncommon (unranked)" 4. The two "one pageview" hits are the sentences that say those names are not stored that way.
+
+Validation on 2026-11-17: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 515 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/s1-dist` built 332 pages. Checked `/guides/stranger-things-characters-trivia/` and `/guides/best-daily-trivia-games/` in that output. No server was started. No state-changing git commands.
+
+## S3 done
+
+Long answer tables no longer repeat a tier `<img>` on every ranked row. `TierChip` `art` is a 28px CSS chip (one stylesheet, the existing 128px treasure per tier). The tier name stays in the pill. Every answer row is still in the HTML. Source cells link the stored English Wikipedia title, the Wiktionary lemma when the prompt source is Wiktionary and the row is ranked, and a Wikidata `Q` id only when that field is stored. None of the 276 prompt files store a QID (no `qid` / `wikidata` key), so the build has 0 Wikidata entity links. `CategoryArt` `sizes` is `auto, <size>px` on both `<source>`s: supporting browsers use the laid-out width (the lineup paints the 80px slot at about 26px); others keep the previous px fallback. Files: `AnswerTable.astro`, `TierChip.astro`, `CategoryArt.astro`. No new page, no new schema, no prompt JSON.
+
+Before is `/tmp/s1-dist` (same table markup as `/tmp/s6-seo-dist`). After is `/tmp/s3-seo-dist`.
+
+| | String instruments before | After |
+| --- | --- | --- |
+| HTML | 860,257 bytes, gzip 42,469 | 745,816 bytes (−114,441), gzip 40,851 (−1,618) |
+| Elements / `<img>` | 9,094 / 683 | 7,784 (−1,310) / 28 (−655) |
+| Table tier chips | 655 `<picture class="tier-badge">` | 655 `.tier-chip__gem` spans, 0 table badge images |
+| Wikipedia article links | 655 | 655 (header still "Wikipedia article") |
+| Answer rows | 655 | 655 |
+
+| | English interjections before | After |
+| --- | --- | --- |
+| HTML | 469,348 bytes, 374 images | 425,431 bytes (−43,917), 28 images |
+| Source column | 346 dashes, 0 Wiktionary links | header "Wiktionary entry", 346 links (`https://en.wiktionary.org/wiki/…`), 0 dashes |
+| Answer rows | 346 | 346 |
+
+Great apes: 8/8 Wikipedia links, including `https://en.wikipedia.org/wiki/Tapanuli_orangutan`. Header stays "Wikipedia article". Category art on that page uses `sizes="auto, 208px"`, `auto, 64px`, and `auto, 48px`. The home lineup template uses `sizes="auto, 80px"`.
+
+Validation on 2026-11-17: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 515 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/s3-seo-dist` built 332 pages. Checked string instruments, interjections, great apes, and the home template in that output. No server was started. No state-changing git commands.
+
+### Requests
+
+- S3 → S2: `sourceNote` still says interjections have a Wikipedia article column with no links. The column heading is now "Wiktionary entry" and each of the 346 rows links the stored lemma. The sentence is in `player-copy.ts`, which this row does not own.
+
+## S4 done
+
+Every sitemap URL now has a `<lastmod>` taken from a persisted content date. Nothing uses the build clock. Files: `astro.config.ts`, new `src/lib/sitemap-lastmod.ts`. No new page, no new schema, no prompt JSON.
+
+Rules written into the map the sitemap `serialize` hook already reads:
+
+- `/answers/<slug>/` = last git commit of `src/data/prompts/<slug>.json` (committer date, UTC).
+- Articles stay on MDX `lastModified`, then `date`. A date-only value becomes midnight UTC (`2026-11-17` → `2026-11-17T00:00:00.000Z`). That conversion was already how article lastmod was stored.
+- Hubs = newest child: `/games/` and `/guides/` (existing MDX walk), `/rarest-answers/` (all answer pages), `/trivia/<category>/` (answers in that category), `/tags/<tag>/` (articles with that tag), `/tags/` (those tag pages), `/recent/` (articles in the locale).
+- Other concrete pages = last git commit of the page source file. `/` is `src/pages/index.astro`. `/data-updates/` is `src/pages/data-updates.astro`.
+
+Before, from the 2026-11-17 review and the MDX-only walk: **28/331** URLs had `<lastmod>` (26 articles + 2 category lists). **0/276** answer pages did.
+
+After, `/tmp/s4-dist/sitemap-0.xml`: **331/331** URLs have `<lastmod>`, including **276/276** answer pages. The build emitted 332 pages; Astro omits `/404/` before the sitemap filter. Eight distinct timestamps, not one:
+
+| lastmod (UTC) | URLs |
+| --- | ---: |
+| 2026-11-17T14:07:51.000Z | 1 |
+| 2026-11-17T06:27:31.000Z | 5 |
+| 2026-11-17T00:00:00.000Z | 14 |
+| 2026-11-16T16:19:10.000Z | 1 |
+| 2026-11-16T06:03:11.000Z | 23 |
+| 2026-11-16T00:00:00.000Z | 23 |
+| 2026-11-15T06:02:27.000Z | 25 |
+| 2026-11-15T03:35:38.000Z | 239 |
+
+The newest value is `/unlimited/` and matches `git log -1` of `src/pages/unlimited.astro` (`2026-11-17T06:07:51-08:00`). The build finished at 06:33 local (14:33Z), later than every lastmod.
+
+Spot checks against the built sitemap, all equal:
+
+- `/answers/great-ape-species/` = `2026-11-15T03:35:38.000Z` = commit of `src/data/prompts/great-ape-species.json`.
+- `/rarest-answers/` = `2026-11-16T06:03:11.000Z` = newest of the 276 answer dates. `/trivia/animals/` equals the newest of its 51 prompts, same timestamp.
+- `/guides/how-to-find-rare-answers/` = `2026-11-16T00:00:00.000Z` from `lastModified: 2026-11-16`. `/guides/stranger-things-characters-trivia/` and `/guides/best-daily-trivia-games/` = `2026-11-17T00:00:00.000Z` from `lastModified: 2026-11-17`. `/guides/`, `/games/`, `/recent/`, and `/tags/` equal the newest article date, `2026-11-17T00:00:00.000Z`.
+- `/about/` and `/` = `2026-11-17T06:27:31.000Z` = commit of `src/pages/about.astro` and `src/pages/index.astro`. `/terms-of-service/` = `2026-11-15T06:02:27.000Z` = commit of `src/pages/terms-of-service.astro`.
+
+Breakdown of the 331 URLs: 276 answers, 26 articles, 20 hubs, 9 static pages.
+
+Validation on 2026-11-17: `pnpm lint` passed (3 warnings in `tests/answer-snippets.test.ts`, not this row). `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning; 3 hints in that same test file). `pnpm test` 27 files, 519 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/s4-dist` built 332 pages. Checked `sitemap-0.xml` and `sitemap-index.xml` in that output. No server was started. No state-changing git commands.
+
+## S5 done
+
+Plausible custom events for play. Before this change the site sent pageviews only: 0 `data-track` attributes and 0 custom `plausible()` calls (the head stub only queues `plausible.init()`). After, five event names are sent when `PUBLIC_PLAUSIBLE_SRC` is set. An empty value still skips the whole analytics block, so the listener is not injected.
+
+| Event | When it fires | Props |
+| --- | --- | --- |
+| Play started | A new round's first prompt is on screen. Resume, See results, a failed load, and warm-up do not fire it | `mode` (`daily` / `unlimited` / `category`). `prompt` only when that first prompt is the `?prompt=` slug |
+| Round completed | A scored round is recorded. A later See results does not fire it again | `mode` |
+| Warm-up | The practice prompt loaded | `prompt` (the warm-up slug) |
+| Play this prompt | Click on an answer-page link to `/unlimited/?prompt=<slug>` | `prompt` |
+| Report wrong answer | Click on a report mailto (`Answer report` or `Answer report: <slug>`) | `prompt` when the subject includes a slug |
+
+Typed guesses are not sent. One delegated click listener on `[data-track]` lives in the BaseLayout analytics block. It tags answer-page links at runtime and does not overwrite an existing `data-track`. Play started, Round completed, and Warm-up are sent from `src/lib/game/browser.ts` after the action succeeds, not from the Play or Warm-up buttons.
+
+Built `/tmp/s5-dist` (332 HTML pages):
+
+| | Before | After |
+| --- | --- | --- |
+| Pages with the Plausible script and the `[data-track]` listener | 332 pages, pageview stub only | 332 / 332. Listener in the homepage HTML is 3,402 characters |
+| Static `data-track="Report wrong answer"` | 0 | 10: `/`, `/unlimited/`, and 8 `/trivia/<category>/` pages |
+| Answer pages with a static `data-track` | 0 | 0 of 276. The listener tags them |
+| `/unlimited/?prompt=` links the tagger matches | 0 tagged | 552 (2 per answer page, 276 pages) |
+| Report mailtos in HTML | 286, none tracked | 286: 276 answer links tagged on click, 10 game links already attributed |
+| Game bundle strings `Play started`, `Round completed`, `Warm-up` | 0 JS files | 1 JS file contains all three |
+
+`/answers/great-ape-species/` in that build has the listener, 2 links to `/unlimited/?prompt=great-ape-species`, 1 `Answer report: great-ape-species` mailto, and 0 static `data-track`. `/` has 1 static `data-track="Report wrong answer"`.
+
+Files: `src/lib/game/track.ts` (new), `src/lib/game/browser.ts`, `src/components/game/GameApp.astro`, the BaseLayout analytics block, and 4 tests in `tests/game-engine.test.ts`. No new page, no new schema, no answer-template edits.
+
+These names show up as goals after the same five custom-event goals are added in the Plausible site settings. The site sends them either way.
+
+Validation on 2026-11-17: `pnpm lint` passed with 0 warnings. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 522 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/s5-dist` built 332 pages. Checked the homepage, `/unlimited/`, and `/answers/great-ape-species/` in that output. No server was started. No state-changing git commands.
+
+### Requests
+
+- S5 → S2: answer-page clicks are tagged from the URL, not from `PromptArticle.astro`. Keep play links on `/unlimited/?prompt=<slug>` and report links on a mailto whose subject is `Answer report` or `Answer report: <slug>`. A `data-track` you set yourself is left as-is.
+
+## S2 done
+
+Answer pages now lead with one rarest sentence, the ranked comparison, then the long guide. Titles, H1s, and descriptions use the ranked count when some answers are `noData`, and they also state the accepted count. Related links come from topic groups in `src/config/related-prompts.ts`, not the next catalog entries. Counts are `rankedAnswers(answers).length` and `answers.length`. Nothing is hardcoded to 23 or 122. No new page, no new schema. Play links stay `/unlimited/?prompt=<slug>`. Report links stay `Answer report: <slug>`. No `data-track` was added.
+
+Great apes, all 8 ranked, so the title still does not repeat an accepted count. Built `/tmp/s2-seo-dist/answers/great-ape-species/index.html`. Phrase counts are case-insensitive in the body text (tags stripped), not in the repeated og/twitter attributes. The “before” intro and related list were read from the source before this edit. The “before” body phrase counts for the two rare-ape wordings are the R1 build note.
+
+| | Before | After |
+| --- | --- | --- |
+| Title | Rare Great Ape Species: All 8 Ranked, Rarest to Most Common (59) | same (59) |
+| H1 | Species of great ape: all 8, ranked from rarest to most common | same |
+| Description | Stuck on "Name a species of great ape"… all 8 answers ranked (153) | same (153) |
+| Tapanuli in the h1 + intro | 2 | 1 |
+| Body “rare species of great ape” | 2 | 0 |
+| Body “name a rare species of great ape” | 1 | 0 |
+| Body “rare great ape species” | 1 | 0 |
+| Body “rarest species of great ape” | 1 | 1 |
+| Body “Wikipedia-pageview rankings” | 0 | 1 |
+| Body “Krillion's acceptance and scores may differ” | 0 | 1 |
+| Related links | gull, hadrosaur, hornbill, hummingbird, iguana, kingfisher (6) | ape-species, gibbon-species, lemur-species (3) |
+
+The opening is one rarest sentence, then: this list is the living great ape species; the ape list also includes gibbons and, because `ape-species.json` still has the name, fossil names such as Lufengpithecus hudienensis; lemurs are a separate list; “These rankings are Rarest Answer's Wikipedia-pageview rankings. Krillion's acceptance and scores may differ.” The comparison above the guide is 8 rows, Tapanuli orangutan (1) through Human (8). The old guide sentence that repeated those eight names (“From fewest pageviews to most: Tapanuli…”) is gone. One shorter line remains: “Ranked answers run from fewest pageviews to most.” DOM order: quick answer, ranked comparison, views note, alias guide, chart, full table. `/about/` is linked as “How these rankings are made”. No `/answers/gull-species/` link on the page.
+
+Stranger Things counts were read from the JSON at build time: 122 accepted, 12 ranked, 110 `noData`.
+
+| | Before | After |
+| --- | --- | --- |
+| Title | Rare Stranger Things Characters: All 122 Ranked by Rarity | Rare Stranger Things Characters: All 12 Ranked, 122 Accepted (60) |
+| H1 | Stranger Things characters: all 122, ranked from rarest to most common | Stranger Things characters: all 12 ranked, 122 accepted |
+| Description | See all 122 answers ranked by rarity | See the 12 ranked answers. 122 accepted, 110 not ranked. (141) |
+
+The comparison lists those 12 ranked names (Ted Wheeler through Vecna). The table still has every accepted name. Related links are doctor-who, avatar, game-of-thrones, and lotr.
+
+Wiktionary prompts say “Wiktionary-pageview rankings”, not Wikipedia. A prompt with no ranked answers does not claim a ranking.
+
+Validation on 2026-11-17: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 522 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/s2-seo-dist` built 332 pages. Checked great apes and Stranger Things in that HTML. No server was started. No state-changing git commands.

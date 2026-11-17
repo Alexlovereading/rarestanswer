@@ -5,17 +5,25 @@ import tailwind from '@astrojs/tailwind';
 import icon from 'astro-icon';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 import { locales, defaultLocale } from './src/i18n/routing';
 import { CONTENT_TYPES } from './src/config/navigation';
 import { fallbackDetailPaths } from './src/lib/fallback-paths';
+import { applyTruthfulLastmods, parseFrontmatterTags } from './src/lib/sitemap-lastmod';
 import { landingLinkEnabled } from './src/config/project';
 
 /**
- * Build a map of page path → lastmod ISO date, read from MDX frontmatter
- * (`lastModified` falling back to `date`). Used by the sitemap `serialize`
- * hook so Google gets the one sitemap field it actually trusts for crawl
- * scheduling (Google Search Central docs).
+ * Build a map of page path → lastmod ISO date for the sitemap `serialize`
+ * hook. Google uses lastmod only when it is a real content date, so nothing
+ * here is the build clock (Google Search Central: build a sitemap).
+ *
+ * - Articles: MDX `lastModified`, then `date`.
+ * - Answer pages: last git commit of `src/data/prompts/<slug>.json`.
+ * - Hubs (category lists, /rarest-answers, /trivia/<category>, /tags,
+ *   /tags/<tag>, /recent): newest child. Category lists are filled in the
+ *   walk below; the other hubs are filled by applyTruthfulLastmods.
+ * - Static pages: last git commit of their source file.
  *
  * Also collects `noindex: true` article paths — pages excluded from search
  * must not appear in the sitemap (rss.xml/llms.txt already filter them; this
@@ -63,8 +71,8 @@ function buildLastmodMap(
   categoryCoverage: Map<string, Set<string>>,
 ): Map<string, string> {
   const map = new Map<string, string>();
+  const articleLastmods: { locale: string; iso: string; tags: string[] }[] = [];
   const base = path.resolve('./src/content/wiki');
-  if (!fs.existsSync(base)) return map;
 
   const walk = (dir: string) => {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -105,7 +113,10 @@ function buildLastmodMap(
       if (isNoindex) {
         noindexPaths.add(articlePath);
       }
-      map.set(articlePath, date.toISOString());
+      const isoString = date.toISOString();
+      map.set(articlePath, isoString);
+      // Tag and /recent hubs take the max of these. Drafts never reach here.
+      articleLastmods.push({ locale: loc, iso: isoString, tags: parseFrontmatterTags(fm) });
 
       // Locale coverage for sitemap hreflang alternates (see docblock).
       const covKey = `${cat}/${slugPath}`;
@@ -135,12 +146,12 @@ function buildLastmodMap(
       // List pages: newest article in the category wins.
       const listPath = loc === defaultLocale ? `/${cat}` : `/${loc}/${cat}`;
       const existing = map.get(listPath);
-      if (!existing || existing < date.toISOString()) {
-        map.set(listPath, date.toISOString());
+      if (!existing || existing < isoString) {
+        map.set(listPath, isoString);
       }
     }
   };
-  walk(base);
+  if (fs.existsSync(base)) walk(base);
 
   // English-fallback detail URLs: built and human-reachable, but the page
   // renders noindex (ArticlePage passes `resolved.isFallback` through) — the
@@ -191,6 +202,16 @@ function buildLastmodMap(
       }
     }
   }
+
+  // Answers, trivia/tag/recent hubs, and static pages. Does not replace
+  // article or category-list dates written above.
+  applyTruthfulLastmods({
+    map,
+    repoRoot: path.dirname(fileURLToPath(import.meta.url)),
+    locales,
+    defaultLocale,
+    articles: articleLastmods,
+  });
 
   return map;
 }
@@ -385,8 +406,8 @@ export default defineConfig({
           !noindexPaths.has(pagePath) && !(landingLinkEnabled && pagePath === '/')
         );
       },
-      // Inject <lastmod> from article frontmatter (see buildLastmodMap) and
-      // hreflang alternates that mirror the page-level truth (see alternatesFor).
+      // Inject <lastmod> (see buildLastmodMap) and hreflang alternates that
+      // mirror the page-level truth (see alternatesFor).
       serialize(item) {
         // Decode (see decodeSitemapPath): non-ASCII slugs (CJK filenames)
         // come percent-encoded in item.url, while lastmodMap keys are raw

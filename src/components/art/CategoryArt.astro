@@ -11,6 +11,10 @@ interface Props {
 const { category, size = 96, decorative = false } = Astro.props;
 const dimension = Number.isFinite(size) && size > 0 ? size : 96;
 const widths = [64, 128, 256, 512, 1024];
+/* `auto` follows the laid-out width (parents often paint this smaller than `size`).
+   The px length is the fallback where `auto` is skipped. Both <source>s carry it:
+   a source without sizes is treated as 100vw. */
+const sizes = `auto, ${dimension}px`;
 const srcset = (format: string) =>
   widths.map((width) => `/images/categories/${category}-${width}x${width}.${format} ${width}w`).join(', ');
 ---
@@ -20,8 +24,8 @@ const srcset = (format: string) =>
   style={`width: ${dimension}px;`}
   aria-hidden={decorative ? 'true' : undefined}
 >
-  <source type="image/avif" srcset={srcset('avif')} sizes={`${dimension}px`} />
-  <source type="image/webp" srcset={srcset('webp')} sizes={`${dimension}px`} />
+  <source type="image/avif" srcset={srcset('avif')} sizes={sizes} />
+  <source type="image/webp" srcset={srcset('webp')} sizes={sizes} />
   <img
     src={`/images/categories/${category}-512x512.webp`}
     width={dimension}

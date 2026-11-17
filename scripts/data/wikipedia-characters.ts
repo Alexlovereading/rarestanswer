@@ -524,29 +524,19 @@ function baseMatches(title: string, names: readonly string[]): boolean {
   return names.some((candidate) => norm(candidate) === norm(base) || titleHasPhrase(base, candidate) || titleHasPhrase(candidate, base));
 }
 
-function fragmentMatches(fragment: string | undefined, names: readonly string[]): boolean {
-  if (!fragment) return false;
-  const key = norm(fragment);
-  return names.some((candidate) => norm(candidate) === key);
-}
-
 /**
  * Wikipedia title for one character, or undefined when no article is about them.
- * A redirect onto that character's own section of the list page uses the
- * character's title, not the list page. Generic articles (Troy the city, Alaska)
- * are not returned.
+ * A redirect into "List of Stranger Things characters" is not an article. Its
+ * pageviews count visits to the redirect, not visits to a character article,
+ * so those names stay unranked. Generic articles (Troy the city, Alaska) are
+ * not returned.
  */
 export function pickCharacterWiki(name: string, aliases: readonly string[], probes: readonly WikiProbe[]): string | undefined {
   const names = [name, ...aliases];
   for (const probe of probes) {
     if (!probe.title || probe.missing) continue;
+    if (probe.redirectTo?.startsWith('List of ')) continue;
     if (/\(Stranger Things\)\s*$/i.test(probe.title) && baseMatches(probe.title, names)) return probe.title;
-  }
-  for (const probe of probes) {
-    if (probe.redirectTo !== 'List of Stranger Things characters') continue;
-    if (!fragmentMatches(probe.fragment, names)) continue;
-    if (!names.some((candidate) => norm(candidate) === norm(probe.requested))) continue;
-    return probe.requested;
   }
   for (const probe of probes) {
     if (!probe.title || probe.missing) continue;

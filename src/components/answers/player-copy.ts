@@ -585,7 +585,7 @@ function unrankedClause(answers: readonly Answer[]): string {
   return ` ${unranked.length} other accepted answers have no English Wikipedia article. They are Uncommon (unranked) and are not the rarest.`;
 }
 
-function scopeParagraph(question: string, answers: readonly Answer[]): string {
+function scopeParagraph(question: string, answers: readonly Answer[], source: string): string {
   const ranked = rankedAnswers(answers);
   const count = answers.length;
   const asked = quoteQuestion(question);
@@ -594,9 +594,14 @@ function scopeParagraph(question: string, answers: readonly Answer[]): string {
     return `${asked} accepts ${count} ${count === 1 ? 'answer' : 'answers'}.${extra}`;
   }
   if (count < 15) {
-    const list = joinNames(ranked.map((answer) => answer.name));
-    const order = ranked.length === 1 ? list : `From fewest pageviews to most: ${list}.`;
-    return `${asked} accepts ${count} ${count === 1 ? 'answer' : 'answers'}. ${order}${extra}`;
+    const word = count === 1 ? 'answer' : 'answers';
+    const order =
+      ranked.length <= 1
+        ? ''
+        : measureKind(source) === 'stored'
+          ? ' Ranked answers run from lowest stored popularity to highest.'
+          : ' Ranked answers run from fewest pageviews to most.';
+    return `${asked} accepts ${count} ${word}.${order}${extra}`;
   }
   if (count >= 120) {
     return `${asked} accepts ${count} answers. Ranked rows are ordered by pageviews, fewest first.${extra} A guess counts when it matches a listed name or an alias stored on that name.`;
@@ -897,7 +902,7 @@ export function buildPlayerCopy(input: {
   const uses = pickAliases(answers);
   const misses = nearMisses(answers);
   const parts = {
-    scope: scopeParagraph(input.question, answers),
+    scope: scopeParagraph(input.question, answers, input.source),
     alias: aliasParagraph(answers, uses),
     miss: missParagraph(misses),
     standings: standingsParagraph(answers, input.source, shape),

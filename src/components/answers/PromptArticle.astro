@@ -6,10 +6,20 @@ import QuickAnswer from './QuickAnswer.astro';
 import RarityChart from './RarityChart.astro';
 import CategoryArt from '~/components/art/CategoryArt.astro';
 import TierBadge from '~/components/art/TierBadge.astro';
-import { categoryLabel, isNoData, reportAnswerHref, type PromptSeo } from './copy';
+import {
+  categoryLabel,
+  comparisonNote,
+  comparisonRows,
+  formatMeasure,
+  isNoData,
+  reportAnswerHref,
+  tierName,
+  type PromptSeo,
+} from './copy';
 import {
   HUB_PATH,
   answerPath,
+  getPrompts,
   hubCategoryPath,
   playPath,
   relatedPrompts,
@@ -30,6 +40,11 @@ const label = categoryLabel(prompt.category);
 const shown = relatedPrompts(prompt);
 const mixed = shown.some((item) => item.category !== prompt.category);
 const relatedTitle = mixed ? labels.relatedPrompts : labels.morePrompts.replace('{category}', label);
+const othersInCategory = getPrompts().some(
+  (item) => item.category === prompt.category && item.slug !== prompt.slug,
+);
+const rows = comparisonRows(prompt.answers);
+const note = comparisonNote(prompt.answers);
 const pagefindTitle = prompt.h1.replace(/:/g, ' -');
 ---
 
@@ -63,19 +78,28 @@ const pagefindTitle = prompt.h1.replace(/:/g, ' -');
     </div>
   </header>
 
-  {
-    prompt.guide.length > 0 && (
-      <div class="mt-8 flex flex-col gap-4 leading-relaxed">
-        {prompt.guide.map((paragraph) => (
-          <p>{paragraph}</p>
-        ))}
-      </div>
-    )
-  }
-
   <div class="mt-10">
     <QuickAnswer prompt={prompt} />
   </div>
+  {
+    rows.length > 0 && (
+      <section class="mt-8" aria-labelledby="ranked-comparison">
+        <h2 id="ranked-comparison" class="text-xl font-bold tracking-tight">{labels.rankedRegion}</h2>
+        {note && <p class="mt-2 text-sm leading-relaxed text-muted-foreground">{note}</p>}
+        <ol class="mt-3 list-none space-y-2 p-0">
+          {rows.map((row) => (
+            <li class="min-w-0">
+              <span class="tabular-nums text-muted-foreground">{row.rank}.</span>
+              <span class="font-semibold"> {row.answer.name}</span>
+              <span class="text-muted-foreground">
+                {' '}· {tierName(row.answer.tier)} · {formatMeasure(row.answer.popularity, prompt.source)}
+              </span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    )
+  }
   <p id="views-note" class="mt-3 text-sm leading-relaxed text-muted-foreground">{prompt.viewsNote}</p>
   {
     prompt.dataUpdated && (
@@ -86,7 +110,19 @@ const pagefindTitle = prompt.h1.replace(/:/g, ' -');
     <a class="text-nav hover:underline" href={reportAnswerHref(prompt.slug)}>Report a wrong answer</a>
     <span class="mx-2 text-muted-foreground" aria-hidden="true">·</span>
     <a class="text-nav hover:underline" href={localizePath('/data-updates', defaultLocale)}>Data updates</a>
+    <span class="mx-2 text-muted-foreground" aria-hidden="true">·</span>
+    <a class="text-nav hover:underline" href={localizePath('/about', defaultLocale)}>How these rankings are made</a>
   </p>
+
+  {
+    prompt.guide.length > 0 && (
+      <div class="mt-8 flex flex-col gap-4 leading-relaxed">
+        {prompt.guide.map((paragraph) => (
+          <p>{paragraph}</p>
+        ))}
+      </div>
+    )
+  }
 
   <div class="mt-8">
     <RarityChart prompt={prompt} />
@@ -155,7 +191,11 @@ const pagefindTitle = prompt.h1.replace(/:/g, ' -');
           })}
         </ul>
       ) : (
-        <p class="mt-3 text-sm text-muted-foreground">{labels.noOtherPrompts.replace('{category}', label)}</p>
+        <p class="mt-3 text-sm text-muted-foreground">
+          {othersInCategory
+            ? 'No other prompt shares this topic.'
+            : labels.noOtherPrompts.replace('{category}', label)}
+        </p>
       )
     }
     <p class="mt-3 text-sm">

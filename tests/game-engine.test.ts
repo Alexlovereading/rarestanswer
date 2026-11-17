@@ -5,6 +5,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { runInNewContext } from 'node:vm';
 import { describe, expect, test, vi } from 'vitest';
 import fixture from './fixtures/great-ape-species.json';
 import fixtureIndex from './fixtures/prompts-index.json';
@@ -63,6 +64,16 @@ import {
   TIMER_MS,
 } from '~/lib/game/score';
 import { buildShareText, sharePageUrl, tierSquare } from '~/lib/game/share';
+import {
+  TRACK,
+  TRACK_NAME_MAX,
+  TRACK_SLUG_PATTERN,
+  isTrackSlug,
+  playStartedProps,
+  roundCompletedProps,
+  trackEvent,
+  warmupProps,
+} from '~/lib/game/track';
 import { drawShareCard } from '~/lib/game/share-card';
 import {
   DAILY_STORAGE_KEY,
@@ -1097,5 +1108,243 @@ describe('noData answers and warm-up', () => {
     expect(blob).not.toContain('nobody else');
     expect(blob).not.toContain('% of players');
     expect(blob).not.toContain('Other players will type');
+  });
+});
+
+describe('plausible custom events', () => {
+  interface FakeEl {
+    href: string;
+    getAttribute(name: string): string | null;
+    setAttribute(name: string, value: string): void;
+    closest(selector: string): FakeEl | null;
+  }
+
+  function anchor(href: string, extra: Record<string, string> = {}): FakeEl {
+    const attrs: Record<string, string> = { href, ...extra };
+    const el: FakeEl = {
+      href,
+      getAttribute(name) {
+        return Object.prototype.hasOwnProperty.call(attrs, name) ? attrs[name] : null;
+      },
+      setAttribute(name, value) {
+        attrs[name] = value;
+      },
+      closest(selector) {
+        if (selector === '[data-track]' && attrs['data-track']) return el;
+        return null;
+      },
+    };
+    return el;
+  }
+
+  function listenerSource(): string {
+    const layout = readFileSync(join(root, 'src/components/layout/BaseLayout.astro'), 'utf8');
+    const start = layout.indexOf('{plausibleSrc &&');
+    const end = layout.indexOf('VibeCafé', start);
+    expect(start).toBeGreaterThan(-1);
+    expect(end).toBeGreaterThan(start);
+    const block = layout.slice(start, end);
+    const bodies = [...block.matchAll(/<script[^>]*is:inline[^>]*>([\s\S]*?)<\/script>/g)].map(
+      (match) => match[1],
+    );
+    const found = bodies.filter((body) => body.includes("closest('[data-track]')"));
+    expect(found).toHaveLength(1);
+    expect(layout.slice(0, start)).not.toContain("closest('[data-track]')");
+    expect(layout.slice(end)).not.toContain("closest('[data-track]')");
+    const listener = found[0];
+    expect(listener).toContain(TRACK.playPrompt);
+    expect(listener).toContain(TRACK.reportAnswer);
+    expect(listener).toContain(TRACK_SLUG_PATTERN);
+    expect(listener).toContain(`name.length > ${TRACK_NAME_MAX}`);
+    expect(listener).not.toContain(TRACK.playStarted);
+    expect(listener).not.toContain(TRACK.roundCompleted);
+    expect(listener).not.toContain(TRACK.warmup);
+    expect(listener).not.toContain('?.');
+    expect(listener).not.toContain('??');
+    return listener;
+  }
+
+  function boot(links: FakeEl[], plausible?: ((...args: unknown[]) => void) | null) {
+    const clicks: Array<(event: { target: unknown }) => void> = [];
+    const rootAttrs: Record<string, string> = {};
+    const document = {
+      documentElement: {
+        getAttribute(name: string) {
+          return rootAttrs[name] ?? null;
+        },
+        setAttribute(name: string, value: string) {
+          rootAttrs[name] = value;
+        },
+      },
+      querySelectorAll(selector: string) {
+        return selector === 'a[href]' ? links : [];
+      },
+      addEventListener(_type: string, fn: (event: { target: unknown }) => void) {
+        clicks.push(fn);
+      },
+    };
+    const sandbox = {
+      window: {
+        plausible,
+        location: { origin: 'https://rarestanswer.xyz' },
+      },
+      document,
+      URL,
+    };
+    const run = () => runInNewContext(listenerSource(), sandbox);
+    run();
+    return {
+      clicks,
+      rerun: run,
+      click(target: unknown) {
+        expect(clicks).toHaveLength(1);
+        clicks[0]({ target });
+      },
+    };
+  }
+
+  test('slug rule matches the prompt slug rule', () => {
+    for (const value of [
+      'great-ape-species',
+      'us-states',
+      'planets-and-dwarf-planets',
+      'a',
+      'us_states',
+      'Not',
+      'a/b',
+      '',
+      'Ohio',
+    ]) {
+      expect(isTrackSlug(value)).toBe(isSlug(value));
+    }
+  });
+
+  test('play, warm-up, and completion props stay on mode and a public slug', () => {
+    expect(playStartedProps('unlimited', 'great-ape-species', 'great-ape-species')).toEqual({
+      mode: 'unlimited',
+      prompt: 'great-ape-species',
+    });
+    expect(playStartedProps('unlimited', 'us-states', 'great-ape-species')).toEqual({
+      mode: 'unlimited',
+    });
+    expect(playStartedProps('daily', 'us-states', null)).toEqual({ mode: 'daily' });
+    expect(playStartedProps('nope', 'us-states', 'us-states')).toEqual({ prompt: 'us-states' });
+    expect(warmupProps('planets-and-dwarf-planets')).toEqual({
+      prompt: 'planets-and-dwarf-planets',
+    });
+    expect(warmupProps('Ohio')).toEqual({});
+    expect(roundCompletedProps('category')).toEqual({ mode: 'category' });
+    expect(roundCompletedProps('nope')).toEqual({});
+
+    const send = vi.fn();
+    trackEvent(
+      TRACK.playStarted,
+      { mode: 'daily', prompt: 'us-states', typed: 'Ohio', score: '10' },
+      send,
+    );
+    expect(send).toHaveBeenCalledWith(TRACK.playStarted, {
+      props: { mode: 'daily', prompt: 'us-states' },
+    });
+    send.mockClear();
+    trackEvent(TRACK.playStarted, { mode: 'daily', prompt: 'Ohio' }, send);
+    expect(send).toHaveBeenCalledWith(TRACK.playStarted, { props: { mode: 'daily' } });
+    send.mockClear();
+    trackEvent(TRACK.roundCompleted, { mode: 'nope', prompt: 'Ohio' }, send);
+    expect(send).toHaveBeenCalledWith(TRACK.roundCompleted);
+    send.mockClear();
+    trackEvent('', { mode: 'daily' }, send);
+    trackEvent('x'.repeat(TRACK_NAME_MAX + 1), { mode: 'daily' }, send);
+    expect(send).not.toHaveBeenCalled();
+    expect(() => trackEvent(TRACK.playStarted, { mode: 'daily' })).not.toThrow();
+    expect(() =>
+      trackEvent(TRACK.playStarted, { mode: 'daily' }, () => {
+        throw new Error('blocked');
+      }),
+    ).not.toThrow();
+  });
+
+  test('the game sends three outcome events and only the report link is a click target', () => {
+    const browser = readFileSync(join(root, 'src/lib/game/browser.ts'), 'utf8');
+    expect(browser.match(/trackEvent\(/g)).toHaveLength(3);
+    expect(browser).toContain(
+      'trackEvent(TRACK.playStarted, playStartedProps(session.mode, slug, requestedPrompt()))',
+    );
+    expect(browser).toContain('trackEvent(TRACK.warmup, warmupProps(practiceSlug))');
+    expect(browser).toContain('trackEvent(TRACK.roundCompleted, roundCompletedProps(session.mode))');
+
+    const app = readFileSync(join(root, 'src/components/game/GameApp.astro'), 'utf8');
+    const play = app.slice(app.indexOf('data-game-play'), app.indexOf('data-game-warmup'));
+    const warmup = app.slice(app.indexOf('data-game-warmup'), app.indexOf('data-game-help-open'));
+    expect(play).not.toContain('data-track');
+    expect(warmup).not.toContain('data-track');
+    expect(app.match(/data-track=/g)).toHaveLength(1);
+    expect(app).toContain('data-track={TRACK.reportAnswer}');
+  });
+
+  test('delegated [data-track] clicks tag answer-page links and omit typed guesses', () => {
+    const play = anchor('/unlimited/?prompt=great-ape-species');
+    const again = anchor('/unlimited/?prompt=us-states');
+    const unlimited = anchor('/unlimited/');
+    const contact = anchor('mailto:contact@rarestanswer.xyz');
+    const badPrompt = anchor('/unlimited/?prompt=Ohio');
+    const report = anchor(
+      'mailto:contact@rarestanswer.xyz?subject=Answer%20report%3A%20countries-in-europe',
+    );
+    const kept = anchor('/unlimited/?prompt=planets-and-dwarf-planets', { 'data-track': 'Keep me' });
+    const gameReport = anchor('mailto:contact@rarestanswer.xyz?subject=Answer%20report', {
+      'data-track': TRACK.reportAnswer,
+    });
+    gameReport.href = reportAnswerHref('us-states', 'Name a US state', 'Ohio');
+    const tooLong = anchor('/about/', { 'data-track': 'x'.repeat(TRACK_NAME_MAX + 1) });
+
+    const plausible = vi.fn();
+    const session = boot(
+      [play, again, unlimited, contact, badPrompt, report, kept, gameReport, tooLong],
+      plausible,
+    );
+
+    expect(play.getAttribute('data-track')).toBe(TRACK.playPrompt);
+    expect(play.getAttribute('data-track-prompt')).toBe('great-ape-species');
+    expect(again.getAttribute('data-track')).toBe(TRACK.playPrompt);
+    expect(again.getAttribute('data-track-prompt')).toBe('us-states');
+    expect(unlimited.getAttribute('data-track')).toBeNull();
+    expect(contact.getAttribute('data-track')).toBeNull();
+    expect(badPrompt.getAttribute('data-track')).toBeNull();
+    expect(report.getAttribute('data-track')).toBe(TRACK.reportAnswer);
+    expect(report.getAttribute('data-track-prompt')).toBe('countries-in-europe');
+    expect(kept.getAttribute('data-track')).toBe('Keep me');
+    expect(kept.getAttribute('data-track-prompt')).toBeNull();
+    expect(gameReport.getAttribute('data-track')).toBe(TRACK.reportAnswer);
+    expect(gameReport.getAttribute('data-track-prompt')).toBeNull();
+
+    session.click(play);
+    session.click({ closest: (selector: string) => again.closest(selector) });
+    session.click(report);
+    session.click(gameReport);
+    session.click(unlimited);
+    session.click({});
+    session.click(tooLong);
+    session.rerun();
+
+    expect(session.clicks).toHaveLength(1);
+    expect(plausible.mock.calls).toEqual([
+      [TRACK.playPrompt, { props: { prompt: 'great-ape-species' } }],
+      [TRACK.playPrompt, { props: { prompt: 'us-states' } }],
+      [TRACK.reportAnswer, { props: { prompt: 'countries-in-europe' } }],
+      [TRACK.reportAnswer, { props: { prompt: 'us-states' } }],
+    ]);
+    expect(JSON.stringify(plausible.mock.calls)).not.toContain('Ohio');
+    expect(JSON.stringify(plausible.mock.calls)).not.toContain('Typed answer');
+
+    const bare = anchor('mailto:contact@rarestanswer.xyz?subject=Answer%20report');
+    const quiet = vi.fn();
+    boot([bare], quiet);
+    quiet.mockClear();
+    const started = boot([bare], quiet);
+    started.click(bare);
+    expect(quiet).toHaveBeenCalledTimes(1);
+    expect(quiet).toHaveBeenCalledWith(TRACK.reportAnswer);
+
+    expect(() => boot([play], null).click(play)).not.toThrow();
   });
 });

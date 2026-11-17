@@ -283,6 +283,43 @@ export function pageviewProject(def: PromptDef): 'en.wikipedia' | 'en.wiktionary
   return def.lexemeCategory ? 'en.wiktionary' : 'en.wikipedia';
 }
 
+/**
+ * Pageview cache identity. The measurement window is part of the key so a
+ * total fetched for one VIEW_START/VIEW_END cannot be reused after the window
+ * changes.
+ */
+export function pageviewCacheKey(project: string, title: string, start = VIEW_START, end = VIEW_END): string {
+  return `${project}::${title}::${start}::${end}`;
+}
+
+export interface PageviewSnapshot {
+  views: number;
+  status: number;
+  retrieved: string;
+  start: string;
+  end: string;
+}
+
+/** Snapshot written beside a pageview total: when it was retrieved, and for which window. */
+export function pageviewSnapshot(views: number, status: number, retrieved: string, start = VIEW_START, end = VIEW_END): PageviewSnapshot {
+  return { views, status, retrieved, start, end };
+}
+
+/**
+ * Views from a snapshot, or undefined when the window, retrieval time, or
+ * status is missing. A file that only has `{ views, status }` is an older
+ * total and is not reused.
+ */
+export function pageviewsFromSnapshot(value: unknown, start = VIEW_START, end = VIEW_END): number | undefined {
+  if (!value || typeof value !== 'object') return undefined;
+  const row = value as { views?: unknown; status?: unknown; retrieved?: unknown; start?: unknown; end?: unknown };
+  if (row.start !== start || row.end !== end) return undefined;
+  if (typeof row.retrieved !== 'string' || !/^\d{4}-\d{2}-\d{2}T/.test(row.retrieved)) return undefined;
+  if (row.status !== 200 && row.status !== 404) return undefined;
+  if (typeof row.views !== 'number' || !Number.isFinite(row.views) || row.views < 0) return undefined;
+  return row.views;
+}
+
 function q(id: string): string {
   if (!/^Q\d+$/.test(id)) throw new Error(`Bad Wikidata id ${id}`);
   return id;
@@ -917,7 +954,7 @@ const screen: PromptDef[] = [
         seoNoun: 'Stranger Things characters',
         wikipediaList: {
           page: 'List of Stranger Things characters',
-          source: `English Wikipedia "List of Stranger Things characters" via MediaWiki parse (cast tables, character headings, and recurring/guest credits) + Wikipedia pageviews (${SOURCE_MONTH}); a name with no verifiable article is noData`,
+          source: `English Wikipedia "List of Stranger Things characters" via MediaWiki parse (cast tables, character headings, and recurring/guest credits) + Wikipedia pageviews (${SOURCE_MONTH}); a name with no verifiable article, or only a redirect into that list, is noData`,
         },
       };
       return listed;

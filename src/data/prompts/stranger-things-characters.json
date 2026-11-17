@@ -3,102 +3,57 @@
   "slug": "stranger-things-characters",
   "category": "screen",
   "question": "Name a Stranger Things character",
-  "source": "English Wikipedia \"List of Stranger Things characters\" via MediaWiki parse (cast tables, character headings, and recurring/guest credits) + Wikipedia pageviews (2026-10); a name with no verifiable article is noData",
+  "source": "English Wikipedia \"List of Stranger Things characters\" via MediaWiki parse (cast tables, character headings, and recurring/guest credits) + Wikipedia pageviews (2026-10); a name with no verifiable article, or only a redirect into that list, is noData",
   "answers": [
-    {
-      "name": "Scott Clarke",
-      "aliases": [],
-      "popularity": 301,
-      "rarity": 1,
-      "tier": 6,
-      "wiki": "Scott Clarke"
-    },
-    {
-      "name": "Derek Turnbow",
-      "aliases": [
-        "Delightful Derek",
-        "Dipshit Derek"
-      ],
-      "popularity": 1155,
-      "rarity": 0.955,
-      "tier": 6,
-      "wiki": "Derek Turnbow"
-    },
-    {
-      "name": "Holly Wheeler",
-      "aliases": [],
-      "popularity": 4275,
-      "rarity": 0.909,
-      "tier": 5,
-      "wiki": "Holly Wheeler"
-    },
-    {
-      "name": "Lonnie Byers",
-      "aliases": [],
-      "popularity": 6371,
-      "rarity": 0.864,
-      "tier": 5,
-      "wiki": "Lonnie Byers"
-    },
-    {
-      "name": "Murray Bauman",
-      "aliases": [],
-      "popularity": 30623,
-      "rarity": 0.818,
-      "tier": 5,
-      "wiki": "Murray Bauman"
-    },
-    {
-      "name": "Erica Sinclair",
-      "aliases": [],
-      "popularity": 30642,
-      "rarity": 0.773,
-      "tier": 4,
-      "wiki": "Erica Sinclair"
-    },
     {
       "name": "Ted Wheeler",
       "aliases": [],
       "popularity": 31966,
-      "rarity": 0.727,
-      "tier": 4,
+      "rarity": 1,
+      "tier": 6,
       "wiki": "Ted Wheeler (Stranger Things)"
     },
     {
-      "name": "Bob Newby",
+      "name": "Dustin Henderson",
       "aliases": [],
-      "popularity": 40725,
-      "rarity": 0.682,
-      "tier": 4,
-      "wiki": "Bob Newby"
+      "popularity": 139392,
+      "rarity": 0.909,
+      "tier": 5,
+      "wiki": "Dustin Henderson"
     },
     {
-      "name": "Lucas Sinclair",
+      "name": "Robin Buckley",
       "aliases": [],
-      "popularity": 55946,
+      "popularity": 207634,
+      "rarity": 0.818,
+      "tier": 5,
+      "wiki": "Robin Buckley"
+    },
+    {
+      "name": "Joyce Byers",
+      "aliases": [],
+      "popularity": 243794,
+      "rarity": 0.727,
+      "tier": 4,
+      "wiki": "Joyce Byers"
+    },
+    {
+      "name": "Max Mayfield",
+      "aliases": [
+        "Max"
+      ],
+      "popularity": 285503,
       "rarity": 0.636,
       "tier": 4,
-      "wiki": "Lucas Sinclair"
+      "wiki": "Max Mayfield (Stranger Things)"
     },
     {
-      "name": "Martin Brenner",
-      "aliases": [
-        "Dr. Brenner",
-        "Dr. Martin Brenner",
-        "Papa"
-      ],
-      "popularity": 62033,
-      "rarity": 0.591,
-      "tier": 3,
-      "wiki": "Martin Brenner"
-    },
-    {
-      "name": "Billy Hargrove",
+      "name": "Mike Wheeler",
       "aliases": [],
-      "popularity": 96319,
+      "popularity": 319587,
       "rarity": 0.545,
       "tier": 3,
-      "wiki": "Billy Hargrove"
+      "wiki": "Mike Wheeler (Stranger Things)"
     },
     {
       "name": "Agent Harmon",
@@ -176,6 +131,22 @@
     },
     {
       "name": "Benny Hammond",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Billy Hargrove",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Bob Newby",
       "aliases": [],
       "popularity": 0,
       "rarity": 0.5,
@@ -313,6 +284,17 @@
       "noData": true
     },
     {
+      "name": "Derek Turnbow",
+      "aliases": [
+        "Delightful Derek",
+        "Dipshit Derek"
+      ],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
       "name": "Diane Hopper",
       "aliases": [],
       "popularity": 0,
@@ -383,13 +365,21 @@
     {
       "name": "Eddie Munson",
       "aliases": [],
-      "popularity": 104332,
+      "popularity": 0,
       "rarity": 0.5,
       "tier": 3,
-      "wiki": "Eddie Munson"
+      "noData": true
     },
     {
       "name": "Eden Bingham",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Erica Sinclair",
       "aliases": [],
       "popularity": 0,
       "rarity": 0.5,
@@ -464,6 +454,14 @@
     },
     {
       "name": "Heather Holloway",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Holly Wheeler",
       "aliases": [],
       "popularity": 0,
       "rarity": 0.5,
@@ -565,6 +563,14 @@
       "noData": true
     },
     {
+      "name": "Lonnie Byers",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
       "name": "Lt. Colonel Jack Sullivan",
       "aliases": [],
       "popularity": 0,
@@ -581,8 +587,28 @@
       "noData": true
     },
     {
+      "name": "Lucas Sinclair",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
       "name": "Marsha Holland",
       "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Martin Brenner",
+      "aliases": [
+        "Dr. Brenner",
+        "Dr. Martin Brenner",
+        "Papa"
+      ],
       "popularity": 0,
       "rarity": 0.5,
       "tier": 3,
@@ -646,6 +672,14 @@
     },
     {
       "name": "Ms. Kelly",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Murray Bauman",
       "aliases": [],
       "popularity": 0,
       "rarity": 0.5,
@@ -737,6 +771,14 @@
     },
     {
       "name": "Sara Hopper",
+      "aliases": [],
+      "popularity": 0,
+      "rarity": 0.5,
+      "tier": 3,
+      "noData": true
+    },
+    {
+      "name": "Scott Clarke",
       "aliases": [],
       "popularity": 0,
       "rarity": 0.5,
@@ -938,63 +980,21 @@
       "noData": true
     },
     {
-      "name": "Dustin Henderson",
-      "aliases": [],
-      "popularity": 139392,
-      "rarity": 0.455,
-      "tier": 3,
-      "wiki": "Dustin Henderson"
-    },
-    {
-      "name": "Robin Buckley",
-      "aliases": [],
-      "popularity": 207634,
-      "rarity": 0.409,
-      "tier": 3,
-      "wiki": "Robin Buckley"
-    },
-    {
-      "name": "Joyce Byers",
-      "aliases": [],
-      "popularity": 243794,
-      "rarity": 0.364,
-      "tier": 2,
-      "wiki": "Joyce Byers"
-    },
-    {
-      "name": "Max Mayfield",
-      "aliases": [
-        "Max"
-      ],
-      "popularity": 285503,
-      "rarity": 0.318,
-      "tier": 2,
-      "wiki": "Max Mayfield (Stranger Things)"
-    },
-    {
-      "name": "Mike Wheeler",
-      "aliases": [],
-      "popularity": 319587,
-      "rarity": 0.273,
-      "tier": 2,
-      "wiki": "Mike Wheeler (Stranger Things)"
-    },
-    {
       "name": "Jim Hopper",
       "aliases": [
         "Hop"
       ],
       "popularity": 353568,
-      "rarity": 0.227,
-      "tier": 2,
+      "rarity": 0.455,
+      "tier": 3,
       "wiki": "Jim Hopper (Stranger Things)"
     },
     {
       "name": "Nancy Wheeler",
       "aliases": [],
       "popularity": 390324,
-      "rarity": 0.182,
-      "tier": 1,
+      "rarity": 0.364,
+      "tier": 2,
       "wiki": "Nancy Wheeler"
     },
     {
@@ -1003,8 +1003,8 @@
         "Steve The Hair Harrington"
       ],
       "popularity": 521931,
-      "rarity": 0.136,
-      "tier": 1,
+      "rarity": 0.273,
+      "tier": 2,
       "wiki": "Steve Harrington"
     },
     {
@@ -1013,7 +1013,7 @@
         "Will the Wise"
       ],
       "popularity": 587376,
-      "rarity": 0.091,
+      "rarity": 0.182,
       "tier": 1,
       "wiki": "Will Byers"
     },
@@ -1024,7 +1024,7 @@
         "Jane Hopper"
       ],
       "popularity": 759805,
-      "rarity": 0.045,
+      "rarity": 0.091,
       "tier": 1,
       "wiki": "Eleven (Stranger Things)"
     },

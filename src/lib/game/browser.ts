@@ -76,6 +76,7 @@ import {
   type KeyValueStore,
   type PromptResult,
 } from './stats';
+import { TRACK, playStartedProps, roundCompletedProps, trackEvent, warmupProps } from './track';
 import type { PromptIndexEntry } from './types';
 import { createGameEffects } from './effects';
 import { clockVisual, novaReaction } from './visuals';
@@ -554,6 +555,12 @@ function run(ui: Ui): void {
     if (!practiceSlug) prefetch(session.slugs[session.results.length + 1]);
     startTimer();
     ui.input.focus();
+    // Count the round only after this prompt is on screen. A failed load,
+    // a resume (results already exist), and See results do not start a round.
+    if (practiceSlug) trackEvent(TRACK.warmup, warmupProps(practiceSlug));
+    else if (session.results.length === 0) {
+      trackEvent(TRACK.playStarted, playStartedProps(session.mode, slug, requestedPrompt()));
+    }
   }
 
   function onGuess(raw: string): void {
@@ -780,6 +787,8 @@ function run(ui: Ui): void {
     session.recorded = true;
     persistDaily();
     paintStats();
+    // Once per scored round. A later See results hits the recorded guard above.
+    trackEvent(TRACK.roundCompleted, roundCompletedProps(session.mode));
   }
 
   function dealFree(seed: number): void {

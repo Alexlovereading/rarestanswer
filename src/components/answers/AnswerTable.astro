@@ -2,24 +2,85 @@
 import TierChip from './TierChip.astro';
 import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
-import { formatViews, isNoData, rarityShort, wikipediaUrl, type PromptSeo } from './copy';
+import {
+  formatViews,
+  isNoData,
+  measureKind,
+  rarityShort,
+  wikipediaUrl,
+  type PromptSeo,
+  type SeoAnswer,
+} from './copy';
 
 interface Props {
   prompt: PromptSeo;
 }
 
+interface SourceLink {
+  href: string;
+  label: string;
+}
+
 const { prompt } = Astro.props;
 const labels = getUi(defaultLocale).shared.visuals;
 const ranked = prompt.answers.filter((answer) => !isNoData(answer));
+const kind = measureKind(prompt.source);
 let rank = 0;
 const rows = prompt.answers.map((answer) => {
   const unranked = isNoData(answer);
   if (!unranked) rank += 1;
-  return { answer, unranked, rank: unranked ? null : rank };
+  return { answer, unranked, rank: unranked ? null : rank, sources: sourceLinks(answer, kind) };
 });
+const hasWiki = prompt.answers.some((answer) => Boolean(answer.wiki));
+const hasQid = rows.some((row) => row.sources.some((link) => link.kind === 'wikidata'));
+const sourceHeading =
+  kind === 'wiktionary' && !hasWiki && !hasQid
+    ? 'Wiktionary entry'
+    : hasQid || kind === 'wiktionary'
+      ? 'Source'
+      : 'Wikipedia article';
 const regionLabel = prompt.noDataNote
   ? 'Ranked answers, then answers with no Wikipedia article'
   : labels.rankedRegion;
+
+/** English Wikipedia title, or the Wiktionary lemma this prompt measured. */
+function entryUrl(title: string, host: 'en.wikipedia.org' | 'en.wiktionary.org'): string {
+  const slug = encodeURIComponent(title.trim().replace(/ /g, '_'));
+  return `https://${host}/wiki/${slug}`;
+}
+
+/** Q123 only. A missing or non-Q id is not a link. */
+function qidOf(answer: SeoAnswer): string | null {
+  const extra = answer as SeoAnswer & { qid?: unknown; wikidata?: unknown };
+  for (const raw of [extra.qid, extra.wikidata]) {
+    if (typeof raw !== 'string') continue;
+    const id = raw.trim().replace(/^https?:\/\/www\.wikidata\.org\/(?:wiki|entity)\//i, '');
+    if (/^Q\d+$/.test(id)) return id;
+  }
+  return null;
+}
+
+function sourceLinks(answer: SeoAnswer, measured: ReturnType<typeof measureKind>): Array<SourceLink & { kind: string }> {
+  const links: Array<SourceLink & { kind: string }> = [];
+  if (answer.wiki) {
+    links.push({ kind: 'wikipedia', href: wikipediaUrl(answer.wiki), label: answer.wiki });
+  }
+  if (measured === 'wiktionary' && !isNoData(answer)) {
+    const title = answer.name.trim();
+    if (title) {
+      links.push({
+        kind: 'wiktionary',
+        href: entryUrl(title, 'en.wiktionary.org'),
+        label: answer.wiki ? `${title} on Wiktionary` : title,
+      });
+    }
+  }
+  const qid = qidOf(answer);
+  if (qid) {
+    links.push({ kind: 'wikidata', href: `https://www.wikidata.org/wiki/${qid}`, label: qid });
+  }
+  return links;
+}
 ---
 
 <section aria-labelledby="ranked-answers">
@@ -48,7 +109,7 @@ const regionLabel = prompt.noDataNote
           <th scope="col" class="px-3 py-2 text-right font-semibold" aria-describedby="views-note">
             {prompt.viewsHeading}
           </th>
-          <th scope="col" class="px-3 py-2 font-semibold">Wikipedia article</th>
+          <th scope="col" class="px-3 py-2 font-semibold">{sourceHeading}</th>
         </tr>
       </thead>
       <tbody>
@@ -75,12 +136,14 @@ const regionLabel = prompt.noDataNote
                 {row.unranked ? 'No article' : formatViews(row.answer.popularity)}
               </td>
               <td class="px-3 py-2">
-                {row.answer.wiki ? (
-                  <a class="text-nav hover:underline" href={wikipediaUrl(row.answer.wiki)}>
-                    {row.answer.wiki}
-                  </a>
-                ) : (
+                {row.sources.length === 0 ? (
                   <span class="text-muted-foreground">—</span>
+                ) : (
+                  row.sources.map((link) => (
+                    <a class="answer-source text-nav hover:underline" href={link.href}>
+                      {link.label}
+                    </a>
+                  ))
                 )}
               </td>
             </tr>
@@ -90,3 +153,9 @@ const regionLabel = prompt.noDataNote
     </table>
   </div>
 </section>
+
+<style>
+  .answer-source + .answer-source {
+    margin-inline-start: 0.75rem;
+  }
+</style>

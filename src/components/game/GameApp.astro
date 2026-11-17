@@ -8,6 +8,7 @@
 import { Icon } from 'astro-icon/components';
 import { TIERS } from '~/lib/game/types';
 import { HOW_TO_STEPS, PLAY, RULES_AT_A_GLANCE } from '~/lib/game/copy';
+import { TRACK } from '~/lib/game/track';
 import { siteUrl } from '~/config/site';
 import TierBadge from '~/components/art/TierBadge.astro';
 import GameNova from './GameNova.astro';
@@ -304,6 +305,7 @@ const kicker =
     <p class="mt-2 text-center">
       <a
         data-game-report
+        data-track={TRACK.reportAnswer}
         class="text-xs font-medium text-nav underline-offset-2 hover:underline"
         href="mailto:contact@rarestanswer.xyz?subject=Answer%20report">{PLAY.reportAnswer}</a
       >
