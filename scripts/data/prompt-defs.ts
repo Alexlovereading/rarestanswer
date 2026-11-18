@@ -658,8 +658,30 @@ const animals: PromptDef[] = [
     minAnswers: 8,
     extraAliases: {
       Human: ['Homo sapiens', 'humans', 'modern human'],
-      Chimpanzee: ['chimp', 'chimps', 'common chimpanzee'],
+      Chimpanzee: [
+        'chimp',
+        'chimps',
+        'common chimpanzee',
+        'Central chimpanzee',
+        'Eastern chimpanzee',
+        'Nigeria-Cameroon chimpanzee',
+        'Western chimpanzee',
+      ],
       Bonobo: ['pygmy chimpanzee'],
+      // Subspecies count as their species (players copy these from AI Overviews).
+      'Western gorilla': [
+        'Cross River gorilla',
+        'Western lowland gorilla',
+        'Gorilla gorilla diehli',
+        'Gorilla gorilla gorilla',
+      ],
+      'Eastern gorilla': [
+        'Mountain gorilla',
+        'Eastern lowland gorilla',
+        "Grauer's gorilla",
+        'Gorilla beringei beringei',
+        'Gorilla beringei graueri',
+      ],
     },
     where: `VALUES ?item { wd:Q5 wd:Q4126704 wd:Q19537 wd:Q737838 wd:Q307157 wd:Q599672 wd:Q543424 wd:Q42564025 }`,
   },

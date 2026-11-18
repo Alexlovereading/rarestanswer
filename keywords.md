@@ -83,7 +83,7 @@
 | /trivia/science/ | Science Trivia — Rarest Answer Game | Science Trivia | Science trivia for the Rarest Answer game. Name an element, a body, a unit, or a scientist. The rarest correct answer scores the most. Free rounds. |
 | /trivia/screen/ | Movie Trivia: Rarest Answer Game | Movie and TV Trivia | Movie trivia for the Rarest Answer game. Searched Krillion movies? Name a film, show, or character. The rarest correct answer scores the most. Free rounds. |
 | /trivia/sports/ | Sports Trivia: Rarest Answer Game | Sports Trivia | Sports trivia for Rarest Answer. Searched Krillion Sports? Name a team or athlete. The rarest correct answer scores the most. Free daily and unlimited rounds. |
-| /unlimited/ | Rarest Answer Unlimited: A Krillion Unlimited Alternative | Rarest Answer Unlimited: A Krillion Unlimited Alternative | Extra Rarest Answer rounds with no daily lock. A new set on every start, same tiers and Spotlight, scored by Wikipedia pageviews. |
+| /unlimited/ | Rarest Answer Unlimited: A Krillion Unlimited Alternative | Rarest Answer Unlimited: A Krillion Unlimited Alternative | Guess the rarest answer without a daily lock. Unlimited deals a new set each start, with the same tiers and Spotlight, scored by Wikipedia pageviews. |
 
 ## 四、类似游戏页（/games/）
 

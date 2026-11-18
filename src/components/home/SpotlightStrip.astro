@@ -1,13 +1,21 @@
 ---
 import { Icon } from 'astro-icon/components';
 import CategoryArt from '~/components/art/CategoryArt.astro';
-import { LOBBY, lobbySpotlights, type CatalogPrompt } from '~/lib/game/category-copy';
+import { answerPath, getPrompt } from '~/components/answers/prompts';
+import { rarestKeywordAnchor } from '~/config/trending-prompts';
+import { LOBBY, lobbySpotlights, promptNoun, type CatalogPrompt } from '~/lib/game/category-copy';
 import { TIERS } from '~/lib/game/types';
 interface Props {
   catalog: readonly CatalogPrompt[];
 }
 const { catalog } = Astro.props;
-const spotlights = lobbySpotlights(catalog);
+const spotlights = lobbySpotlights(catalog).map((entry) => {
+  const full = getPrompt(entry.slug);
+  return {
+    ...entry,
+    anchor: rarestKeywordAnchor(full?.nounPhrase || full?.nounTitle || promptNoun(entry.question)),
+  };
+});
 ---
 
 {
@@ -29,23 +37,25 @@ const spotlights = lobbySpotlights(catalog);
       </div>
       <ul>
         {spotlights.map((prompt) => (
-          <li>
-            <a href={`/answers/${prompt.slug}/`}>
-              <span class="spotlight-art">
-                <CategoryArt category={prompt.category} size={64} decorative />
+          <li class="spotlight-card">
+            <span class="spotlight-art">
+              <CategoryArt category={prompt.category} size={64} decorative />
+            </span>
+            <div class="spotlight-content">
+              <h3>
+                <a class="keyword-anchor" href={answerPath(prompt.slug)}>
+                  {prompt.anchor}
+                </a>
+              </h3>
+              <p class="rare-name">{prompt.rare.name}</p>
+              <span class="tier-pill" data-tier={prompt.rare.tier}>
+                {TIERS.find((tier) => tier.tier === prompt.rare.tier)?.name}
               </span>
-              <div class="spotlight-content">
-                <p class="prompt-question">{prompt.question}</p>
-                <h3>{prompt.rare.name}</h3>
-                <span class="tier-pill" data-tier={prompt.rare.tier}>
-                  {TIERS.find((tier) => tier.tier === prompt.rare.tier)?.name}
-                </span>
-                <span class="ranking-link">
-                  {LOBBY.spotlightLink}
-                  <Icon name="lucide:arrow-right" aria-hidden="true" />
-                </span>
-              </div>
-            </a>
+              <span class="ranking-link">
+                {LOBBY.spotlightLink}
+                <Icon name="lucide:arrow-right" aria-hidden="true" />
+              </span>
+            </div>
           </li>
         ))}
       </ul>
@@ -100,12 +110,11 @@ const spotlights = lobbySpotlights(catalog);
     list-style: none;
     padding: 0;
   }
-  li {
-    min-width: 0;
-  }
-  li a {
+  .spotlight-card {
+    position: relative;
     display: flex;
     gap: 0.875rem;
+    min-width: 0;
     height: 100%;
     padding: 1rem;
     border: 1px solid hsl(var(--border));
@@ -115,13 +124,26 @@ const spotlights = lobbySpotlights(catalog);
       border-color 0.2s,
       transform 0.2s;
   }
-  li a:hover {
+  .spotlight-card:hover {
     border-color: hsl(var(--brand));
     transform: translateY(-2px);
   }
-  li a:focus-visible {
+  .spotlight-card:focus-within {
     outline: 3px solid hsl(var(--brand));
     outline-offset: 3px;
+  }
+  .keyword-anchor {
+    color: inherit;
+    text-decoration: none;
+  }
+  .keyword-anchor::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+  }
+  .keyword-anchor:focus-visible {
+    outline: none;
   }
   .spotlight-art {
     width: 64px;
@@ -131,17 +153,22 @@ const spotlights = lobbySpotlights(catalog);
   .spotlight-content {
     min-width: 0;
   }
-  .prompt-question {
-    color: hsl(var(--muted-foreground));
-    font-size: 0.8rem;
-    line-height: 1.35;
-  }
   h3 {
-    margin: 0.4rem 0 0.65rem;
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.3;
     overflow-wrap: anywhere;
+  }
+  .rare-name {
+    margin-top: 0.45rem;
+    color: hsl(var(--foreground));
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+  .spotlight-content .tier-pill {
+    margin-top: 0.55rem;
   }
   .ranking-link {
     display: flex;

@@ -16,7 +16,11 @@ import CategoryPrompts from '~/components/home/CategoryPrompts.astro';
 import BrowseAnswers from '~/components/home/BrowseAnswers.astro';
 import HowToStrip from '~/components/home/HowToStrip.astro';
 import SpotlightStrip from '~/components/home/SpotlightStrip.astro';
+import PopularPrompts from '~/components/home/PopularPrompts.astro';
 import NovaCta from '~/components/home/NovaCta.astro';
+import { getPrompt } from '~/components/answers/prompts';
+import { topTrendingPrompts } from '~/config/trending-prompts';
+import { getUi } from '~/i18n/ui';
 import {
   answerPageLinks,
   categoryPage,
@@ -87,6 +91,11 @@ if (prompts.length > 0) {
     }),
   );
 }
+const ui = getUi(locale);
+const topPrompts = topTrendingPrompts(prompts, 3).flatMap((row) => {
+  const full = getPrompt(row.slug);
+  return full ? [full] : [];
+});
 const linkClass = 'text-nav underline underline-offset-2';
 const answerLinks = answerPageLinks(prompts);
 const categoryGuide = CATEGORY_GUIDE_LINKS[page.key];
@@ -135,6 +144,15 @@ const links = [
   </LobbyHero>
 
   <LobbyContent>
+    {
+      topPrompts.length > 0 && (
+        <PopularPrompts
+          title={ui.shared.visuals.topPromptsIn.replace('{category}', page.label)}
+          prompts={topPrompts}
+          headingId="top-prompts"
+        />
+      )
+    }
     <HowToStrip />
     <TierLadder />
     <CategoryDeck catalog={catalog} />

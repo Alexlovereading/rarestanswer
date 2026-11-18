@@ -1,7 +1,13 @@
 ---
 import CategoryArt from '~/components/art/CategoryArt.astro';
+import PopularPrompts from '~/components/home/PopularPrompts.astro';
+import { getPrompts } from '~/components/answers/prompts';
+import { trendingPrompts } from '~/config/trending-prompts';
 import { LOBBY } from '~/lib/game/category-copy';
 import type { CategoryKey } from '~/lib/game/types';
+import { getUi } from '~/i18n/ui';
+import { defaultLocale } from '~/i18n/routing';
+import { homeUrl } from '~/lib/url';
 
 interface Props {
   kicker: string;
@@ -11,6 +17,16 @@ interface Props {
   count?: number;
 }
 const { kicker, title, lead, category, count } = Astro.props;
+
+function normalizePath(pathname: string): string {
+  if (pathname === '' || pathname === '/') return '/';
+  return pathname.endsWith('/') ? pathname : `${pathname}/`;
+}
+
+/* Under the game, still inside the hero band. The play column stays put. */
+const onHome = normalizePath(Astro.url.pathname) === normalizePath(homeUrl(defaultLocale));
+const ui = getUi(defaultLocale);
+const popular = onHome ? trendingPrompts(getPrompts()) : [];
 ---
 
 <section id="play" class="lobby-hero" aria-labelledby="lobby-title">
@@ -56,6 +72,18 @@ const { kicker, title, lead, category, count } = Astro.props;
       </div>
     </aside>
   </div>
+  {
+    popular.length > 0 && (
+      <div class="hero-popular-wrap">
+        <PopularPrompts
+          title={ui.shared.visuals.popularPromptsTitle}
+          note={ui.shared.visuals.popularPromptsNote}
+          prompts={popular}
+          headingId="popular-prompts"
+        />
+      </div>
+    )
+  }
 </section>
 
 <style>
@@ -85,6 +113,14 @@ const { kicker, title, lead, category, count } = Astro.props;
     margin-inline: auto;
     padding: 1rem 1rem 2rem;
     gap: 1rem;
+  }
+  .hero-inner:has(+ .hero-popular-wrap) {
+    padding-bottom: 0.25rem;
+  }
+  .hero-popular-wrap {
+    max-width: 1040px;
+    margin-inline: auto;
+    padding: 0 1rem 1.5rem;
   }
   .hero-heading {
     min-width: 0;
@@ -185,6 +221,12 @@ const { kicker, title, lead, category, count } = Astro.props;
       column-gap: 2rem;
       row-gap: 1.5rem;
       padding: 2.5rem 1.5rem 3rem;
+    }
+    .hero-inner:has(+ .hero-popular-wrap) {
+      padding-bottom: 0.5rem;
+    }
+    .hero-popular-wrap {
+      padding: 0 1.5rem 2.5rem;
     }
     .hero-heading {
       grid-column: 1;

@@ -11,6 +11,11 @@
  * Rarity is that pageview total, not how often players answer.
  * Answers with `noData: true` are accepted but unranked: they sort after
  * answers that have pageviews and are never called the rarest.
+ *
+ * The first FAQ is "What is the rarest <singular>?", answered from that
+ * prompt's rows. `FAQ_OVERRIDES` adds a few questions for one slug after it.
+ * The shared questions stay. The same array is what the page and FAQPage
+ * JSON-LD render.
  */
 
 import { readFileSync } from 'node:fs';
@@ -712,6 +717,134 @@ function tipParagraph(answers: readonly Answer[], shape: Shape): string {
   return `${high} ${easyNames} ${easyVerb} ${easyPoints}.`;
 }
 
+function byRarity(answers: readonly Answer[]): Answer[] {
+  return rankedAnswers(answers)
+    .slice()
+    .sort((a, b) => b.rarity - a.rarity || b.tier - a.tier || a.name.localeCompare(b.name, 'en'));
+}
+
+/** The row a guess would hit, using the same folding as the game. */
+function answerForAlias(answers: readonly Answer[], alias: string): { answer: Answer; alias: string } | null {
+  const key = normalize(alias);
+  if (!key) return null;
+  for (const answer of answers) {
+    if (normalize(answer.name) === key) return { answer, alias: answer.name };
+    const stored = answer.aliases.find((item) => normalize(item) === key);
+    if (stored) return { answer, alias: stored };
+  }
+  return null;
+}
+
+/**
+ * Subspecies players type after an AI overview. They score as the species
+ * row that stores the alias. Tier text comes from that row.
+ */
+function subspeciesFaq(answers: readonly Answer[], aliases: readonly string[]): PlayerFaq | null {
+  const hits = aliases.map((alias) => answerForAlias(answers, alias));
+  if (hits.some((hit) => hit == null)) return null;
+  const found = hits.filter((hit): hit is { answer: Answer; alias: string } => hit != null);
+  const species = new Set(found.map((hit) => hit.answer.name));
+  if (species.size < 2) return null;
+  const clauses = found.map((hit, index) => {
+    const lead = index === 0 ? hit.alias : sentenceCase(hit.alias);
+    return `${lead} counts as ${hit.answer.name} (its species) and scores as ${tierPoints(hit.answer.tier)}`;
+  });
+  const [first, second] = aliases;
+  const question =
+    aliases.length === 2 && first && second
+      ? `Do ${first} or ${second.charAt(0).toLowerCase()}${second.slice(1)} count?`
+      : `Do ${joinNames(aliases.slice())} count?`;
+  return {
+    question,
+    answer: `On Rarest Answer, ${clauses.join('. ')}. Other games may treat subspecies differently.`,
+  };
+}
+
+/** Next ranked names after the rarest row. The rarest name is read from the data. */
+function backupFaq(answers: readonly Answer[]): PlayerFaq | null {
+  const ranked = byRarity(answers);
+  const top = ranked[0];
+  if (!top) return null;
+  const next = ranked.filter((answer) => answer.rarity < top.rarity).slice(0, 3);
+  if (next.length < 2) return null;
+  const listed = next.map((answer) => `${answer.name} (${tierPoints(answer.tier)})`);
+  return {
+    question: `What should I answer if ${top.name} is taken?`,
+    answer: `If ${top.name} is already taken, the next rarest names on this list are ${joinNames(listed)}.`,
+  };
+}
+
+/** Noun after "Name a/an/the", keeping the question's own capitals. */
+function faqNoun(question: string): string {
+  const q = question.replace(/[?!.]+$/g, '').replace(/\s+/g, ' ').trim();
+  return (
+    q.match(/^name\s+(?:a|an|the|some|any)\s+(.+)$/i)?.[1]?.trim() ||
+    q.match(/^name\s+(.+)$/i)?.[1]?.trim() ||
+    'answer'
+  );
+}
+
+/** First FAQ. The rarest name and tier come from the ranked rows. */
+function rarestQuestion(question: string, answers: readonly Answer[]): PlayerFaq {
+  const noun = faqNoun(question);
+  const asked = `What is the rarest ${noun}?`;
+  const ranked = byRarity(answers);
+  const top = ranked[0];
+  if (!top) {
+    return {
+      question: asked,
+      answer: `None. No accepted answer has an English Wikipedia article, so none is ranked as the rarest ${noun}.`,
+    };
+  }
+  const cluster = ranked.filter((answer) => answer.rarity === top.rarity);
+  if (cluster.length === 1) {
+    return {
+      question: asked,
+      answer: `${top.name} (${tierPoints(top.tier)}) is the rarest ${noun} on this list.`,
+    };
+  }
+  const shown = cluster.slice(0, 3).map((answer) => `${answer.name} (${tierPoints(answer.tier)})`);
+  const more = cluster.length > 3 ? `, plus ${cluster.length - 3} more` : '';
+  return {
+    question: asked,
+    answer: `${joinNames(shown)}${more} tie as the rarest ${noun} on this list.`,
+  };
+}
+
+function withRarestQuestion(question: string, answers: readonly Answer[], faq: readonly PlayerFaq[]): PlayerFaq[] {
+  const item = rarestQuestion(question, answers);
+  const key = normalize(item.question);
+  if (!key || faq.some((entry) => normalize(entry.question) === key)) return faq.slice();
+  return [item, ...faq];
+}
+
+const FAQ_OVERRIDES: Readonly<Record<string, (answers: readonly Answer[]) => PlayerFaq[]>> = {
+  'great-ape-species': (answers) => {
+    const items: PlayerFaq[] = [];
+    const subspecies = subspeciesFaq(answers, ['Cross River gorilla', 'Mountain gorilla']);
+    const backup = backupFaq(answers);
+    if (subspecies) items.push(subspecies);
+    if (backup) items.push(backup);
+    return items;
+  },
+};
+
+function applyFaqOverrides(slug: string, answers: readonly Answer[], shared: readonly PlayerFaq[]): PlayerFaq[] {
+  const extra = FAQ_OVERRIDES[slug]?.(answers) ?? [];
+  if (extra.length === 0) return shared.slice();
+  const seen = new Set(shared.map((item) => normalize(item.question)));
+  const fresh: PlayerFaq[] = [];
+  for (const item of extra) {
+    const question = item.question.replace(/\s+/g, ' ').trim();
+    const answer = item.answer.replace(/\s+/g, ' ').trim();
+    const key = normalize(question);
+    if (!key || !answer || seen.has(key)) continue;
+    seen.add(key);
+    fresh.push({ question, answer });
+  }
+  return [...fresh, ...shared];
+}
+
 function aliasFaq(answers: readonly Answer[], uses: readonly AliasUse[], misses: readonly Miss[]): string {
   const base = aliasParagraph(answers, uses);
   const miss = misses[0];
@@ -921,7 +1054,15 @@ export function buildPlayerCopy(input: {
   return {
     lead: leadParagraph(input.slug, input.question, input.source, answers),
     guide: rotated.map((key) => parts[key]).filter((paragraph) => paragraph.trim().length > 0),
-    faq: buildFaq(input.question, input.source, answers, uses, misses, shape),
+    faq: withRarestQuestion(
+      input.question,
+      answers,
+      applyFaqOverrides(
+        input.slug,
+        answers,
+        buildFaq(input.question, input.source, answers, uses, misses, shape),
+      ),
+    ),
     viewsNote: viewsNote(input.source, answers),
     viewsHeading: measureHeading(input.source),
     sourceNote: sourceNote(input.source, answers),

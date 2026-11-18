@@ -40,9 +40,12 @@ const rarityBody = measureCopy(
 );
 const pageTitle = 'Rarest Answer Unlimited: A Krillion Unlimited Alternative';
 const pageDescription =
-  'Extra Rarest Answer rounds with no daily lock. A new set on every start, same tiers and Spotlight, scored by Wikipedia pageviews.';
+  'Guess the rarest answer without a daily lock. Unlimited deals a new set each start, with the same tiers and Spotlight, scored by Wikipedia pageviews.';
 if (pageTitle.length > 60) {
   throw new Error(`Unlimited title is ${pageTitle.length} characters before any suffix`);
+}
+if (pageDescription.length < 140 || pageDescription.length > 160) {
+  throw new Error(`Unlimited description is ${pageDescription.length} characters`);
 }
 if (UNLIMITED.title.length < 1 || UNLIMITED.h1.length < 1) {
   throw new Error('Unlimited labels are missing');

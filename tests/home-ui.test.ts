@@ -16,6 +16,14 @@ import { fileURLToPath } from 'node:url';
 import { describe, expect, test } from 'vitest';
 import en from '~/locales/en.json';
 import { getHomeFaq } from '~/i18n/ui';
+import { answerPath } from '~/components/answers/prompts';
+import {
+  rarestKeywordAnchor,
+  topTrendingPrompts,
+  trendingPrompts,
+  TRENDING_PROMPT_SLUGS,
+} from '~/config/trending-prompts';
+import { loadCatalog, promptNoun, promptsFor } from '~/lib/game/category-copy';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const homePage = readFileSync(join(root, 'src/components/home/HomePage.astro'), 'utf8');
@@ -159,5 +167,99 @@ describe('src/ type-escape hatch ban', () => {
         `Use the structured JSON types (getUi → typeof en / SharedUi) or ` +
         `'keyof typeof' narrowing instead.`,
     ).toEqual([]);
+  });
+});
+
+describe('trending prompt links', () => {
+  test('keeps GSC order and drops slugs that are not in the catalog', () => {
+    expect(
+      trendingPrompts([
+        { slug: 'not-a-prompt' },
+        { slug: 'ghibli-films' },
+        { slug: 'countries-in-africa' },
+        { slug: 'great-ape-species' },
+      ]).map((prompt) => prompt.slug),
+    ).toEqual(['great-ape-species', 'countries-in-africa', 'ghibli-films']);
+  });
+
+  test('the published catalog still contains the GSC list, in that order', () => {
+    const known = loadCatalog();
+    expect(trendingPrompts(known).map((prompt) => prompt.slug)).toEqual([...TRENDING_PROMPT_SLUGS]);
+  });
+
+  test('anchor text is "Rarest" plus the singular noun', () => {
+    expect(rarestKeywordAnchor('country in Africa')).toBe('Rarest country in Africa');
+    expect(rarestKeywordAnchor('  ')).toBe('Rarest answer');
+    const catalog = loadCatalog();
+    const question = (slug: string) => catalog.find((prompt) => prompt.slug === slug)?.question ?? '';
+    expect(rarestKeywordAnchor(promptNoun(question('countries-in-africa')))).toBe(
+      'Rarest country in Africa',
+    );
+    expect(rarestKeywordAnchor(promptNoun(question('great-ape-species'))).toLowerCase()).toContain(
+      'species of great ape',
+    );
+    expect(rarestKeywordAnchor(promptNoun(question('mcu-characters'))).toLowerCase()).not.toMatch(
+      /\bcharacters\b/,
+    );
+    expect(answerPath('countries-in-africa')).toBe('/answers/countries-in-africa/');
+  });
+
+  test('category tops follow the trending list, then the existing order', () => {
+    const catalog = loadCatalog();
+    const screen = promptsFor(catalog, 'screen');
+    expect(topTrendingPrompts(screen, 3).map((prompt) => prompt.slug)).toEqual([
+      'ghibli-films',
+      'disney-animated-films',
+      'mcu-characters',
+    ]);
+    const history = promptsFor(catalog, 'history');
+    const historyTop = topTrendingPrompts(history, 3);
+    expect(historyTop.map((prompt) => prompt.slug).slice(0, 2)).toEqual([
+      'canadian-prime-ministers',
+      'english-monarchs',
+    ]);
+    expect(historyTop).toHaveLength(3);
+    const food = promptsFor(catalog, 'food');
+    const trending = new Set<string>(TRENDING_PROMPT_SLUGS);
+    expect(food.some((prompt) => trending.has(prompt.slug))).toBe(false);
+    expect(topTrendingPrompts(food, 3).map((prompt) => prompt.slug)).toEqual(
+      food.slice(0, 3).map((prompt) => prompt.slug),
+    );
+  });
+
+  test('card anchors stay outside the rest of the card, and unlimited meta names the guess', () => {
+    const files = [
+      'src/components/home/AnswerLobby.astro',
+      'src/components/home/CategoryPrompts.astro',
+      'src/components/home/SpotlightStrip.astro',
+      'src/components/home/PopularPrompts.astro',
+      'src/components/answers/AnswerHub.astro',
+      'src/components/answers/PromptArticle.astro',
+    ];
+    for (const rel of files) {
+      const src = readFileSync(join(root, rel), 'utf8');
+      expect(src, rel).toContain('keyword-anchor');
+      expect(src, rel).toContain('inset: 0');
+    }
+    const lobby = readFileSync(join(root, 'src/components/home/AnswerLobby.astro'), 'utf8');
+    const lobbyCard = lobby.slice(lobby.indexOf('group.prompts.map'));
+    const lobbyClose = lobbyCard.indexOf('</a>');
+    expect(lobbyCard.indexOf('rare.name')).toBeGreaterThan(lobbyClose);
+    const category = readFileSync(join(root, 'src/components/home/CategoryPrompts.astro'), 'utf8');
+    const categoryList = category.slice(category.indexOf('prompts.map'));
+    expect(categoryList.indexOf('answerCountLabel')).toBeGreaterThan(categoryList.indexOf('</a>'));
+    const unlimited = readFileSync(join(root, 'src/pages/unlimited.astro'), 'utf8');
+    const description = unlimited.match(/const pageDescription =\n\s+'([^']+)'/)?.[1] ?? '';
+    expect(description.toLowerCase()).toContain('guess the rarest answer');
+    expect(description.length).toBeGreaterThanOrEqual(140);
+    expect(description.length).toBeLessThanOrEqual(160);
+    expect(readFileSync(join(root, 'src/components/home/LobbyHero.astro'), 'utf8')).toContain(
+      'PopularPrompts',
+    );
+    expect(readFileSync(join(root, 'src/pages/trivia/[category].astro'), 'utf8')).toContain(
+      'topTrendingPrompts',
+    );
+    expect(en.shared.visuals.popularPromptsTitle).toBe('Popular prompts');
+    expect(en.shared.visuals.topPromptsIn).toContain('{category}');
   });
 });

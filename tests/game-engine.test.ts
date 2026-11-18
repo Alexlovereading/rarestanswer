@@ -36,7 +36,9 @@ import {
 } from '~/lib/game/daily';
 import { readClientPrompt } from '~/lib/game/load-prompts';
 import { catalogTotals, promptTierDistribution } from '~/lib/game/round-summary';
+import { buildPlayerCopy } from '~/components/answers/player-copy';
 import { createTried, matchGuess, rememberGuess, type Matchable } from '~/lib/game/match';
+import { faqPageJsonLd } from '~/lib/seo';
 import { levenshtein, normalize } from '~/lib/game/normalize';
 import {
   commonAnswers,
@@ -95,7 +97,7 @@ import {
   type DailySave,
   type KeyValueStore,
 } from '~/lib/game/stats';
-import { TIERS, type CategoryKey, type PromptIndexEntry } from '~/lib/game/types';
+import { TIERS, type Answer, type CategoryKey, type PromptIndexEntry } from '~/lib/game/types';
 import {
   celebrationParticles,
   clockVisual,
@@ -1346,5 +1348,104 @@ describe('plausible custom events', () => {
     expect(quiet).toHaveBeenCalledWith(TRACK.reportAnswer);
 
     expect(() => boot([play], null).click(play)).not.toThrow();
+  });
+});
+
+describe('great-ape subspecies', () => {
+  const published = JSON.parse(
+    readFileSync(join(root, 'src/data/prompts/great-ape-species.json'), 'utf8'),
+  ) as {
+    slug: string;
+    question: string;
+    source: string;
+    answers: Answer[];
+  };
+
+  function hitName(guess: string): string | null {
+    const result = matchGuess(published.answers, guess, createTried());
+    return result.status === 'hit' ? result.answer.name : null;
+  }
+
+  test('subspecies guesses score as the species row', () => {
+    expect(published.answers).toHaveLength(8);
+    expect(hitName('Cross River gorilla')).toBe('Western gorilla');
+    expect(hitName('the Western lowland gorilla')).toBe('Western gorilla');
+    expect(hitName('Gorilla gorilla diehli')).toBe('Western gorilla');
+    expect(hitName('Gorilla gorilla gorilla')).toBe('Western gorilla');
+    expect(hitName('Gorilla gorilla')).toBe('Western gorilla');
+    expect(hitName('Mountain gorilla')).toBe('Eastern gorilla');
+    expect(hitName("Grauer's gorilla")).toBe('Eastern gorilla');
+    expect(hitName('Eastern lowland gorilla')).toBe('Eastern gorilla');
+    expect(hitName('Gorilla beringei beringei')).toBe('Eastern gorilla');
+    expect(hitName('Gorilla beringei graueri')).toBe('Eastern gorilla');
+    expect(hitName('Western chimpanzee')).toBe('Chimpanzee');
+    expect(hitName('Eastern chimpanzee')).toBe('Chimpanzee');
+    expect(hitName('Central chimpanzee')).toBe('Chimpanzee');
+    expect(hitName('Nigeria-Cameroon chimpanzee')).toBe('Chimpanzee');
+    expect(hitName('Western gorilla')).toBe('Western gorilla');
+    expect(hitName('Eastern gorilla')).toBe('Eastern gorilla');
+  });
+
+  test('adds subspecies and backup FAQ from the ranked rows', () => {
+    const copy = buildPlayerCopy({
+      slug: published.slug,
+      question: published.question,
+      source: published.source,
+      answers: published.answers,
+    });
+    const tierLabel = (name: string) => {
+      const row = published.answers.find((answer) => answer.name === name);
+      const tier = TIERS.find((item) => item.tier === row?.tier);
+      if (!row || !tier) throw new Error(`missing tier for ${name}`);
+      return `${tier.name}, ${tier.points} points`;
+    };
+    const subspecies = copy.faq.find((item) => item.question === 'Do Cross River gorilla or mountain gorilla count?');
+    expect(subspecies?.answer).toBe(
+      `On Rarest Answer, Cross River gorilla counts as Western gorilla (its species) and scores as ${tierLabel('Western gorilla')}. Mountain gorilla counts as Eastern gorilla (its species) and scores as ${tierLabel('Eastern gorilla')}. Other games may treat subspecies differently.`,
+    );
+    expect(subspecies?.answer).not.toMatch(/krillion/i);
+    const backup = copy.faq.find((item) => item.question === 'What should I answer if Tapanuli orangutan is taken?');
+    expect(backup?.answer).toBe(
+      `If Tapanuli orangutan is already taken, the next rarest names on this list are Sumatran orangutan (${tierLabel('Sumatran orangutan')}), Eastern gorilla (${tierLabel('Eastern gorilla')}), and Western gorilla (${tierLabel('Western gorilla')}).`,
+    );
+    expect(backup?.answer).not.toMatch(/krillion/i);
+    const questions = copy.faq.map((item) => item.question);
+    expect(new Set(questions).size).toBe(questions.length);
+    expect(questions.filter((question) => question === 'Which other spellings count?')).toHaveLength(1);
+    const json = faqPageJsonLd(copy.faq);
+    expect(json['@type']).toBe('FAQPage');
+    const entities = json.mainEntity.map((item) => item.name);
+    expect(entities).toContain('Do Cross River gorilla or mountain gorilla count?');
+    expect(entities).toContain('What should I answer if Tapanuli orangutan is taken?');
+    expect(json.mainEntity.find((item) => item.name === subspecies?.question)?.acceptedAnswer.text).toBe(subspecies?.answer);
+
+    const shifted = buildPlayerCopy({
+      slug: 'great-ape-species',
+      question: published.question,
+      source: published.source,
+      answers: published.answers.map((answer) =>
+        answer.name === 'Western gorilla'
+          ? { ...answer, tier: 1 as const }
+          : answer.name === 'Eastern gorilla'
+            ? { ...answer, tier: 6 as const }
+            : answer,
+      ),
+    });
+    const shiftedAnswer = shifted.faq.find((item) => item.question === subspecies?.question)?.answer ?? '';
+    expect(shiftedAnswer).toContain('Common, 5 points');
+    expect(shiftedAnswer).toContain('Legendary, 100 points');
+    expect(shiftedAnswer).not.toContain(tierLabel('Western gorilla'));
+    expect(shiftedAnswer).not.toContain(tierLabel('Eastern gorilla'));
+  });
+
+  test('other slugs do not inherit the great-ape questions', () => {
+    const copy = buildPlayerCopy({
+      slug: 'fruits',
+      question: 'Name a fruit',
+      source: published.source,
+      answers: published.answers,
+    });
+    expect(copy.faq.some((item) => item.question.includes('Cross River'))).toBe(false);
+    expect(copy.faq.some((item) => item.question.includes('Tapanuli'))).toBe(false);
   });
 });

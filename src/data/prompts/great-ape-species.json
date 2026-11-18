@@ -28,7 +28,12 @@
     {
       "name": "Eastern gorilla",
       "aliases": [
-        "Gorilla beringei"
+        "Eastern lowland gorilla",
+        "Gorilla beringei",
+        "Gorilla beringei beringei",
+        "Gorilla beringei graueri",
+        "Grauer's gorilla",
+        "Mountain gorilla"
       ],
       "popularity": 97904,
       "rarity": 0.714,
@@ -38,7 +43,11 @@
     {
       "name": "Western gorilla",
       "aliases": [
-        "Gorilla gorilla"
+        "Cross River gorilla",
+        "Gorilla gorilla",
+        "Gorilla gorilla diehli",
+        "Gorilla gorilla gorilla",
+        "Western lowland gorilla"
       ],
       "popularity": 139665,
       "rarity": 0.571,
@@ -58,11 +67,15 @@
     {
       "name": "Chimpanzee",
       "aliases": [
+        "Central chimpanzee",
         "chimp",
         "chimps",
         "common chimpanzee",
+        "Eastern chimpanzee",
+        "Nigeria-Cameroon chimpanzee",
         "Pan troglodytes",
-        "robust chimpanzee"
+        "robust chimpanzee",
+        "Western chimpanzee"
       ],
       "popularity": 521336,
       "rarity": 0.286,

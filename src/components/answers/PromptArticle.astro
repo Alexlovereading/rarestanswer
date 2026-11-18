@@ -27,6 +27,7 @@ import {
 } from './prompts';
 import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
+import { rarestKeywordAnchor } from '~/config/trending-prompts';
 import { homeUrl, localizePath } from '~/lib/url';
 
 interface Props {
@@ -167,10 +168,7 @@ const pagefindTitle = prompt.h1.replace(/:/g, ' -');
             const rare = item.answers.find((answer) => !isNoData(answer));
             return (
               <li class="min-w-0">
-                <a
-                  href={answerPath(item.slug)}
-                  class="card illustrated-prompt-card h-full hover:border-nav/40"
-                >
+                <div class="card illustrated-prompt-card related-card h-full hover:border-nav/40">
                   <div class="illustrated-prompt-card__art"><CategoryArt category={item.category} size={64} decorative /></div>
                   <div class="min-w-0">
                   {mixed && (
@@ -178,14 +176,16 @@ const pagefindTitle = prompt.h1.replace(/:/g, ' -');
                       {categoryLabel(item.category)}
                     </span>
                   )}
-                  <span class="block font-display text-lg font-semibold leading-snug">{item.question}</span>
+                  <a class="keyword-anchor font-display text-lg font-semibold leading-snug" href={answerPath(item.slug)}>
+                    {rarestKeywordAnchor(item.nounPhrase || item.nounTitle)}
+                  </a>
                   {rare && (
                     <span class="mt-1 block text-sm text-muted-foreground">
                       {labels.rarestAnswer} {rare.name}
                     </span>
                   )}
                   </div>
-                </a>
+                </div>
               </li>
             );
           })}
@@ -224,6 +224,29 @@ const pagefindTitle = prompt.h1.replace(/:/g, ' -');
     width: 176px;
     height: 176px;
     filter: drop-shadow(0 12px 20px hsl(var(--brand) / 0.15));
+  }
+  .related-card {
+    position: relative;
+  }
+  .related-card:hover :global(.illustrated-prompt-card__art) {
+    transform: rotate(-5deg);
+  }
+  .related-card:focus-within {
+    outline: 3px solid hsl(var(--brand));
+    outline-offset: 3px;
+  }
+  .keyword-anchor {
+    color: inherit;
+    text-decoration: none;
+  }
+  .keyword-anchor::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+  }
+  .keyword-anchor:focus-visible {
+    outline: none;
   }
   @media (min-width: 640px) {
     .prompt-observatory {

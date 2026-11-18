@@ -1817,3 +1817,12 @@ The comparison lists those 12 ranked names (Ted Wheeler through Vecna). The tabl
 Wiktionary prompts say “Wiktionary-pageview rankings”, not Wikipedia. A prompt with no ranked answers does not claim a ranking.
 
 Validation on 2026-11-17: `pnpm lint` passed. `pnpm typecheck` 0 errors (existing missing tutorials-directory glob warning). `pnpm test` 27 files, 522 passed, 11 skipped. `pnpm check-content` clean (26 MDX). `pnpm exec astro build --outDir /tmp/s2-seo-dist` built 332 pages. Checked great apes and Stranger Things in that HTML. No server was started. No state-changing git commands.
+
+## 2026-11-18 — GSC TDH + internal linking batch (Claude + Cursor grok-4.7-high A/B/C)
+
+GSC (first 4 days): 7,497 impressions, 38 clicks, 0.51% CTR; 82% from `/answers/great-ape-species/` (AI Overview answers the query). Queries use singular "rarest X" or the pasted prompt "name a rare X"; answer-page TDH used "Rare <plural>" and never contained them.
+
+- Answer pages (all 276): title "Rarest <Singular>? All N Ranked …", H1 "Name a rare <noun>: all N, rarest to most common", description opens with the prompt as a question and names the rarest pick, intro opens "The rarest <singular> on this list is X" then backup picks, first FAQ "What is the rarest <singular>?". Search synonyms in `src/config/answer-seo.ts` (`ANSWER_QUERY_SYNONYMS`). Title nouns never get cut: short tails first, then hand-written singular nouns in `ANSWER_TITLE_NOUNS` (used as is). `tests/answer-snippets.test.ts` loops every prompt: title ≤60, description 140–160, title noun equals the H1 noun unless overridden.
+- Great ape: subspecies aliases (Cross River, mountain, lowland gorillas; chimpanzee subspecies) in the JSON and `scripts/data/prompt-defs.ts`; slug FAQ hook in `player-copy.ts`. FAQPage JSON-LD stays off (G2).
+- Guides: how-to-find-rare-answers targets "finding rare answers"; how-to-play targets "how to play the Rarest Answer game"; party page answers "Rarest Answer Party answers" honestly; games-like-krillion description opens "Games like Krillion"; keyword-anchor links into answer pages from five guides. Three covers regenerated.
+- Internal links: `src/config/trending-prompts.ts` (GSC order, refresh weekly) feeds `PopularPrompts.astro` on the home hero and `/rarest-answers/`; the older home list is now "More rare-answer pages" without trending duplicates (home links 17 answer pages, was 8); card anchors are "Rarest <noun>" with stretched links; trivia category pages list their top 3 prompts. `/unlimited/` description contains "Guess the rarest answer".

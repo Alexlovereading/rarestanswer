@@ -1,0 +1,140 @@
+---
+/**
+ * Keyword links to answer pages. The visible anchor is "Rarest <singular noun>".
+ * The rarest name and tier sit outside the link. One link per row; the row is
+ * the hit target via a stretched ::after.
+ */
+import { isNoData, tierName, type PromptSeo } from '~/components/answers/copy';
+import { answerPath } from '~/components/answers/prompts';
+import { rarestKeywordAnchor } from '~/config/trending-prompts';
+
+interface Props {
+  title: string;
+  prompts: PromptSeo[];
+  note?: string;
+  headingId?: string;
+  /** Inside an existing panel (the answer index header). No second frame. */
+  embedded?: boolean;
+}
+
+const { title, prompts, note, headingId = 'popular-prompts', embedded = false } = Astro.props;
+const rows = prompts.map((prompt) => ({
+  prompt,
+  rare: prompt.answers.find((answer) => !isNoData(answer)),
+}));
+---
+
+{
+  rows.length > 0 && (
+    <section
+      class:list={['popular-prompts', embedded && 'embedded']}
+      aria-labelledby={headingId}
+      data-pagefind-body
+    >
+      <h2 id={headingId}>{title}</h2>
+      {note && <p class="popular-note">{note}</p>}
+      <ul>
+        {rows.map(({ prompt, rare }) => (
+          <li class="popular-row">
+            <a class="keyword-anchor" href={answerPath(prompt.slug)}>
+              {rarestKeywordAnchor(prompt.nounPhrase || prompt.nounTitle)}
+            </a>
+            {rare && (
+              <p class="popular-meta">
+                {rare.name}, {tierName(rare.tier)}
+              </p>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .popular-prompts {
+    scroll-margin-top: 6rem;
+    padding: 1rem;
+    border: 1px solid hsl(var(--brand) / 0.2);
+    border-radius: 1.25rem;
+    background: hsl(var(--card));
+  }
+  .popular-prompts.embedded {
+    margin-top: 1.25rem;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+  h2 {
+    font-size: clamp(1.25rem, 2vw, 1.6rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  .popular-note {
+    max-width: 62ch;
+    margin-top: 0.35rem;
+    color: hsl(var(--muted-foreground));
+    font-size: 0.875rem;
+    line-height: 1.45;
+  }
+  ul {
+    display: grid;
+    gap: 0.5rem;
+    margin: 0.85rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .popular-row {
+    position: relative;
+    min-width: 0;
+    padding: 0.65rem 0.8rem;
+    border: 1px solid hsl(var(--border));
+    border-radius: 0.75rem;
+    background: hsl(var(--background) / 0.55);
+  }
+  .popular-row:hover {
+    border-color: hsl(var(--brand));
+  }
+  .keyword-anchor {
+    color: hsl(var(--foreground));
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.35;
+    text-decoration: none;
+  }
+  .keyword-anchor::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+  }
+  .popular-row:hover .keyword-anchor {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .popular-meta {
+    margin-top: 0.2rem;
+    color: hsl(var(--muted-foreground));
+    font-size: 0.8rem;
+    line-height: 1.35;
+  }
+  .popular-row:focus-within {
+    outline: 3px solid hsl(var(--brand));
+    outline-offset: 3px;
+  }
+  .keyword-anchor:focus-visible {
+    outline: none;
+  }
+  @media (min-width: 640px) {
+    ul {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (min-width: 1050px) {
+    .popular-prompts:not(.embedded) ul {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

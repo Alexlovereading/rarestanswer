@@ -3,13 +3,16 @@
 import { Icon } from 'astro-icon/components';
 import CategoryArt from '~/components/art/CategoryArt.astro';
 import TierChip from '~/components/answers/TierChip.astro';
+import PopularPrompts from '~/components/home/PopularPrompts.astro';
 import {
   categoriesIn,
   categoryLabel,
   hubIntro,
+  isNoData,
   type PromptSeo,
 } from '~/components/answers/copy';
 import { answerPath, triviaPath } from '~/components/answers/prompts';
+import { rarestKeywordAnchor, trendingPrompts } from '~/config/trending-prompts';
 import { getUi } from '~/i18n/ui';
 import { defaultLocale } from '~/i18n/routing';
 import { CATEGORY_PAGES, LOBBY } from '~/lib/game/category-copy';
@@ -19,6 +22,7 @@ interface Props {
 }
 const { prompts } = Astro.props;
 const ui = getUi(defaultLocale);
+const popular = trendingPrompts(prompts);
 const hubHeading = 'Rare answers for every prompt';
 const groups = categoriesIn(prompts).map((category) => ({
   category,
@@ -36,6 +40,17 @@ const groups = categoriesIn(prompts).map((category) => ({
     </nav>
     <p class="eyebrow vault-kicker">{LOBBY.browseKicker}</p>
     <h1 data-pagefind-meta={`title:${hubHeading}`}>{hubHeading}</h1>
+    {
+      popular.length > 0 && (
+        <PopularPrompts
+          embedded
+          title={ui.shared.visuals.popularPromptsTitle}
+          note={ui.shared.visuals.popularPromptsNote}
+          prompts={popular}
+          headingId="hub-popular-prompts"
+        />
+      )
+    }
     <p class="vault-intro">{hubIntro(prompts)}</p>
     {
       groups.length > 1 && (
@@ -89,26 +104,28 @@ const groups = categoriesIn(prompts).map((category) => ({
         </header>
         <ul class="answer-grid" data-pagefind-ignore>
           {group.prompts.map((prompt) => {
-            const rare = prompt.answers[0];
+            const rare = prompt.answers.find((answer) => !isNoData(answer));
             return (
-              <li>
-                <a href={answerPath(prompt.slug)} class="answer-card">
-                  <h3>{prompt.heading}</h3>
-                  {rare && (
-                    <p class="rare-answer">
-                      {LOBBY.rarest}: <span>{rare.name}</span>
-                    </p>
-                  )}
-                  <p class="answer-meta">
-                    <span>
-                      {prompt.answers.length === 1
-                        ? '1 answer'
-                        : `${prompt.answers.length} answers`}
-                    </span>
-                    {rare && <TierChip tier={rare.tier} />}
+              <li class="answer-card">
+                <h3>
+                  <a class="keyword-anchor" href={answerPath(prompt.slug)}>
+                    {rarestKeywordAnchor(prompt.nounPhrase || prompt.nounTitle)}
+                  </a>
+                </h3>
+                {rare && (
+                  <p class="rare-answer">
+                    {LOBBY.rarest}: <span>{rare.name}</span>
                   </p>
-                  <Icon name="lucide:arrow-right" class="card-arrow" aria-hidden="true" />
-                </a>
+                )}
+                <p class="answer-meta">
+                  <span>
+                    {prompt.answers.length === 1
+                      ? '1 answer'
+                      : `${prompt.answers.length} answers`}
+                  </span>
+                  {rare && <TierChip tier={rare.tier} />}
+                </p>
+                <Icon name="lucide:arrow-right" class="card-arrow" aria-hidden="true" />
               </li>
             );
           })}
@@ -274,12 +291,10 @@ const groups = categoriesIn(prompts).map((category) => ({
     padding: 0;
     list-style: none;
   }
-  .answer-grid li {
-    min-width: 0;
-  }
   .answer-card {
     position: relative;
     display: block;
+    min-width: 0;
     height: 100%;
     padding: 1.25rem 1.25rem 2rem;
     border: 1px solid hsl(var(--border));
@@ -292,6 +307,23 @@ const groups = categoriesIn(prompts).map((category) => ({
   .answer-card:hover {
     transform: translateY(-3px);
     border-color: hsl(var(--brand));
+  }
+  .keyword-anchor {
+    color: inherit;
+    text-decoration: none;
+  }
+  .keyword-anchor::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+  }
+  .answer-card:focus-within {
+    outline: 3px solid hsl(var(--brand));
+    outline-offset: 3px;
+  }
+  .keyword-anchor:focus-visible {
+    outline: none;
   }
   h3 {
     font-size: 1.05rem;

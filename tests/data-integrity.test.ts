@@ -271,6 +271,37 @@ describe('built prompt catalog', () => {
     const raw = JSON.parse(readFileSync(join(promptDir, 'stranger-things-characters.json'), 'utf8')) as { source?: string };
     expect(raw.source).toContain('only a redirect into that list, is noData');
   });
+
+  test('great-ape subspecies aliases belong to the species, not a new row', () => {
+    const prompt = catalog.find((item) => item.slug === 'great-ape-species');
+    expect(prompt).toBeDefined();
+    if (!prompt) return;
+    expect(prompt.answers).toHaveLength(8);
+    const owner = new Map<string, string>();
+    for (const answer of prompt.answers) {
+      for (const alias of [answer.name, ...answer.aliases]) {
+        owner.set(normalizeKey(alias), answer.name);
+      }
+    }
+    const species: Record<string, string> = {
+      'cross river gorilla': 'Western gorilla',
+      'western lowland gorilla': 'Western gorilla',
+      'gorilla gorilla diehli': 'Western gorilla',
+      'gorilla gorilla gorilla': 'Western gorilla',
+      'mountain gorilla': 'Eastern gorilla',
+      'eastern lowland gorilla': 'Eastern gorilla',
+      'grauer s gorilla': 'Eastern gorilla',
+      'gorilla beringei beringei': 'Eastern gorilla',
+      'gorilla beringei graueri': 'Eastern gorilla',
+      'western chimpanzee': 'Chimpanzee',
+      'eastern chimpanzee': 'Chimpanzee',
+      'central chimpanzee': 'Chimpanzee',
+      'nigeria cameroon chimpanzee': 'Chimpanzee',
+    };
+    for (const [alias, name] of Object.entries(species)) {
+      expect(owner.get(alias), alias).toBe(name);
+    }
+  });
 });
 
 describe('pageview cache identity', () => {
