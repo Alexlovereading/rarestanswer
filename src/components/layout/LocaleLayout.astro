@@ -20,6 +20,8 @@ interface Props {
   jsonLd?: Record<string, unknown>[];
   article?: boolean;
   noindex?: boolean;
+  /** Exclude from search while following links; noindex takes precedence. */
+  noindexFollow?: boolean;
   /** Locales this page exists in — passed to the language switcher (tag pages). */
   availableLocales?: readonly Locale[];
   /** Locale of the MAIN content (servedLocale) — fixes <html lang> on fallback pages. */

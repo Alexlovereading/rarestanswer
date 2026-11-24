@@ -11,6 +11,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { getCollection } from 'astro:content';
 import { site, siteUrl } from '~/config/site';
+import { isIndexableAnswerSlug } from '~/config/indexable-answers';
 import { contactEmail } from '~/lib/contact-email';
 import { parseEntryId } from '~/lib/content';
 import { newestFirst } from '~/lib/content-utils';
@@ -116,14 +117,18 @@ export const GET: APIRoute = async () => {
     );
   }
 
+  const prompts = loadPromptIndex();
+  const featuredPrompts = prompts.filter((entry) => isIndexableAnswerSlug(entry.slug));
   lines.push(
     '',
     '## Rarest answers',
     '',
-    `- [Rarest answers](${siteUrl}/rarest-answers/): Index of prompts. Each prompt also has a page at /answers/<slug>/.`,
+    `The game includes all ${prompts.length} prompts. Below are the ${featuredPrompts.length} featured indexable answer guides.`,
+    '',
+    `- [Rarest answers](${siteUrl}/rarest-answers/): Browse the full prompt index.`,
   );
 
-  for (const prompt of loadPromptIndex()) {
+  for (const prompt of featuredPrompts) {
     const source = promptSource(prompt.slug);
     const label = categoryLabel(prompt.category);
     lines.push(

@@ -10,12 +10,8 @@ import GameFaq from '~/components/game/GameFaq.astro';
 import RelatedLinks from '~/components/game/RelatedLinks.astro';
 import LobbyHero from '~/components/home/LobbyHero.astro';
 import LobbyContent from '~/components/home/LobbyContent.astro';
-import CategoryDeck from '~/components/home/CategoryDeck.astro';
-import TierLadder from '~/components/home/TierLadder.astro';
 import CategoryPrompts from '~/components/home/CategoryPrompts.astro';
 import BrowseAnswers from '~/components/home/BrowseAnswers.astro';
-import HowToStrip from '~/components/home/HowToStrip.astro';
-import SpotlightStrip from '~/components/home/SpotlightStrip.astro';
 import PopularPrompts from '~/components/home/PopularPrompts.astro';
 import NovaCta from '~/components/home/NovaCta.astro';
 import { getPrompt } from '~/components/answers/prompts';
@@ -45,17 +41,16 @@ export function getStaticPaths() {
   const catalog = loadCatalog();
   return CATEGORY_PAGE_LIST.map((page) => ({
     params: { category: page.key },
-    props: { page, prompts: promptsFor(catalog, page.key), catalog },
+    props: { page, prompts: promptsFor(catalog, page.key) },
   }));
 }
 
 interface Props {
   page: CategoryPageCopy;
   prompts: CatalogPrompt[];
-  catalog: CatalogPrompt[];
 }
 
-const { page, prompts, catalog } = Astro.props;
+const { page, prompts } = Astro.props;
 if (!page || !categoryPage(page.key)) {
   return Astro.redirect('/');
 }
@@ -153,10 +148,6 @@ const links = [
         />
       )
     }
-    <HowToStrip />
-    <TierLadder />
-    <CategoryDeck catalog={catalog} />
-    <SpotlightStrip catalog={catalog} />
     <CategoryPrompts page={page} prompts={prompts} />
     <div data-pagefind-body class="reading-grid">
       {

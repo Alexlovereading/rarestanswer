@@ -6,6 +6,7 @@
 import PromptArticle from '~/components/answers/PromptArticle.astro';
 import { answerCrumbJsonLd, answerPath, getPrompt, getPrompts } from '~/components/answers/prompts';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
+import { isIndexableAnswerSlug } from '~/config/indexable-answers';
 import { defaultLocale, locales } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { languageAlternates } from '~/lib/url';
@@ -38,6 +39,7 @@ const jsonLd = [
   description={prompt.description}
   alternates={alternates}
   jsonLd={jsonLd}
+  noindexFollow={!isIndexableAnswerSlug(prompt.slug)}
 >
   <PromptArticle prompt={prompt} />
 </LocaleLayout>

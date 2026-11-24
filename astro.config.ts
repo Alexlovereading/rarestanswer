@@ -9,6 +9,7 @@ import { fileURLToPath } from 'node:url';
 
 import { locales, defaultLocale } from './src/i18n/routing';
 import { CONTENT_TYPES } from './src/config/navigation';
+import { isIndexableAnswerPath } from './src/config/indexable-answers';
 import { fallbackDetailPaths } from './src/lib/fallback-paths';
 import { applyTruthfulLastmods, parseFrontmatterTags } from './src/lib/sitemap-lastmod';
 import { landingLinkEnabled } from './src/config/project';
@@ -398,8 +399,10 @@ export default defineConfig({
       // demo.astro and gets collected automatically.
       filter: (url) => {
         const pagePath = normalizePath(decodeSitemapPath(url));
-        // Play, trivia, answer hub, and per-prompt pages are real HTML routes
-        // and stay listed. /game-data/*.json is the lazy play payload, not a page.
+        // Keep play, trivia, and the answer hub listed. Only featured answer
+        // guides are indexable; every prompt route still builds for players.
+        if (pagePath.startsWith('/answers/') && !isIndexableAnswerPath(pagePath)) return false;
+        // /game-data/*.json is the lazy play payload, not a page.
         if (pagePath === '/game-data' || pagePath.startsWith('/game-data/')) return false;
         if (isRemovedLocalePath(pagePath)) return false;
         return (
